@@ -2,7 +2,7 @@
   "build_entry_point": "docs",
   "docsets_to_publish": [
     {
-      "docset_name": "AspNetDocs",
+      "docset_name": "aspnet-conceptual",
       "build_source_folder": "aspnet",
       "build_output_subfolder": "aspnet",
       "locale": "en-us",
@@ -13,6 +13,23 @@
         "RestApi": "Content"
       },
       "build_entry_point": "docs",
+      "template_folder": "_themes",
+      "version": 0
+    },
+    {
+      "docset_name": "aspnet-core-conceptual",
+      "build_source_folder": "aspnetcore",
+      "build_output_subfolder": "aspnetcore",
+      "locale": "en-us",
+      "moniker_ranges": [
+        ">= aspnetcore-1.0"
+      ],
+      "open_to_public_contributors": true,
+      "type_mapping": {
+        "Conceptual": "Content",
+        "ManagedReference": "Content",
+        "RestApi": "Content"
+      },
       "template_folder": "_themes",
       "version": 0
     }
@@ -31,18 +48,30 @@
       "url": "https://github.com/Microsoft/templates.docs.msft",
       "branch": "master",
       "branch_mapping": {}
+    },
+    {
+      "path_to_root": "_themes.pdf",
+      "url": "https://github.com/Microsoft/templates.docs.msft.pdf",
+      "branch": "master",
+      "branch_mapping": {}
     }
   ],
   "branch_target_mapping": {
     "live": [
-      "Publish"
+      "Publish",
+      "Pdf"
     ],
     "master": [
-      "Publish"
+      "Publish",
+      "Pdf"
     ]
   },
-  "need_generate_pdf_url_template": false,
-  "targets": {},
+  "need_generate_pdf_url_template": true,
+  "targets": {
+    "pdf": {
+      "template_folder": "_themes.pdf"
+    }
+  },
   "need_generate_pdf": false,
   "need_generate_intellisense": false
 }
