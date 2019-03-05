@@ -1,6 +1,6 @@
 ---
 uid: mvc/index
-title: "ASP.NET MVC | Microsoft Docs"
+title: ASP.NET MVC
 author: rick-anderson
 description: "Download ASP.NET MVC and learn how to build web apps using the model view controller pattern."
 ms.author: riande
