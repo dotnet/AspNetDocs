@@ -46,7 +46,13 @@
       "ms.topic": "conceptual",
       "searchScope": [
         "ASP.NET"
-      ]
+      ],
+      "_op_documentIdPathDepotMapping": {
+        "./": {
+          "depot_name": "MSDN.aspnet-conceptual",
+          "folder_relative_path_in_docset": "./"
+        }
+      }
     },
     "fileMetadata": {
       "ms.technology": {
