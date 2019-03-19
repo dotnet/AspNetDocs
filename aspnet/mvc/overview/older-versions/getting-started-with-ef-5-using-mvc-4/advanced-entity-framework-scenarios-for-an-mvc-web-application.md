@@ -104,7 +104,7 @@ In *UnitOfWork.cs*, change the `Course` repository type from `GenericRepository<
 
 [!code-csharp[Main](advanced-entity-framework-scenarios-for-an-mvc-web-application/samples/sample7.cs)]
 
-In *CourseContoller.cs*, add an `UpdateCourseCredits` method:
+In *CourseController.cs*, add an `UpdateCourseCredits` method:
 
 [!code-csharp[Main](advanced-entity-framework-scenarios-for-an-mvc-web-application/samples/sample8.cs)]
 

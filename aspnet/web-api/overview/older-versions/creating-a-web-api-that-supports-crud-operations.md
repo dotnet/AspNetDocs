@@ -127,7 +127,7 @@ In the **Add Controller** wizard, name the controller &quot;ProductsController&q
 ![](creating-a-web-api-that-supports-crud-operations/_static/image7.png)
 
 > [!NOTE]
-> It is not necessary to put your contollers into a folder named Controllers. The folder name is not important; it is simply a convenient way to organize your source files.
+> It is not necessary to put your controllers into a folder named Controllers. The folder name is not important; it is simply a convenient way to organize your source files.
 
 
 The **Add Controller** wizard will create a file named ProductsController.cs in the Controllers folder. If this file is not open already, double-click the file to open it. Add the following **using** statement:
