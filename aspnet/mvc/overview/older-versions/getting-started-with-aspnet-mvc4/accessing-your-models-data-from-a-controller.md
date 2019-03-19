@@ -99,7 +99,7 @@ This `@model` directive allows you to access the list of movies that the control
 
 Because the `Model` object is strongly typed (as an `IEnumerable<Movie>` object), each `item` object in the loop is typed as `Movie`. Among other benefits, this means that you get compile-time checking of the code and full IntelliSense support in the code editor:
 
-![ModelIntellisene](accessing-your-models-data-from-a-controller/_static/image5.png)
+![ModelIntelliSense](accessing-your-models-data-from-a-controller/_static/image5.png)
 
 ## Working with SQL Server LocalDB
 
