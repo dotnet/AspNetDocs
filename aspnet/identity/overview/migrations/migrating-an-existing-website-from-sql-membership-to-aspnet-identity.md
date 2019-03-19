@@ -9,12 +9,11 @@ ms.assetid: 220d3d75-16b2-4240-beae-a5b534f06419
 msc.legacyurl: /identity/overview/migrations/migrating-an-existing-website-from-sql-membership-to-aspnet-identity
 msc.type: authoredcontent
 ---
-Migrating an Existing Website from SQL Membership to ASP.NET Identity
-====================
+# Migrating an Existing Website from SQL Membership to ASP.NET Identity
+
 by [Rick Anderson]((https://twitter.com/RickAndMSFT)), [Suhas Joshi](https://github.com/suhasj)
 
 > This tutorial illustrates the steps to migrate an existing web application with user and role data created using SQL Membership to the new ASP.NET Identity system. This approach involves changing the existing database schema to the one needed by the ASP.NET Identity and hook in the old/new classes to it. After you adopt this approach, once your database is migrated, future updates to Identity will be handled effortlessly.
-
 
 For this tutorial, we will take a web application template (Web Forms) created using Visual Studio 2010 to create user and role data. We will then use SQL scripts to migrate the existing database to tables needed by the Identity system. Next we'll install the necessary NuGet packages and add new account management pages which use the Identity system for membership management. As a test of migration, users created using SQL membership should be able to log in and new users should be able to register. You can find the complete sample [here](https://aspnet.codeplex.com/SourceControl/latest#Samples/Identity/SQLMembership-Identity-OWIN/). See also [Migrating from ASP.NET Membership to ASP.NET Identity](http://travis.io/blog/2015/03/24/migrate-from-aspnet-membership-to-aspnet-identity.html).
 
@@ -44,7 +43,7 @@ For this tutorial, we will take a web application template (Web Forms) created u
 
 1. Install Visual Studio Express 2013 for Web or Visual Studio 2013 along with the [latest updates](https://www.microsoft.com/download/details.aspx?id=44921).
 2. Open the above project in your installed version of Visual Studio. If SQL Server Express is not installed on the machine, a prompt is displayed when you open the project, since the connection string uses SQL Express. You can either choose to install SQL Express or as work around change the connection string to LocalDb. For this article we'll change it to LocalDb.
-3. Open web.config and change the connection string from .SQLExpess to (LocalDb)v11.0. Remove 'User Instance=true' from the connection string.
+3. Open web.config and change the connection string from .SQLExpress to (LocalDb)v11.0. Remove 'User Instance=true' from the connection string.
 
     ![](migrating-an-existing-website-from-sql-membership-to-aspnet-identity/_static/image3.jpg)
 4. Open Server Explorer and verify that the table schema and data can be observed.
@@ -109,7 +108,7 @@ With this information we can create SQL statements to create new tables. We can 
 
 [!INCLUDE[](../../../includes/identity/alter-command-exception.md)]
 
-This database generation script can be used as a start where we'll be making additional changes to add new columns and copy data. The advantage of this is that we generate the `_MigrationHistory` table which is used by EntityFramework to modify the database schema when the model classes change for future versions of Identity releases. 
+This database generation script can be used as a start where we'll be making additional changes to add new columns and copy data. The advantage of this is that we generate the `_MigrationHistory` table which is used by EntityFramework to modify the database schema when the model classes change for future versions of Identity releases.
 
 The SQL membership user information had other properties in addition to the ones in the Identity user model class namely email, password attempts, last login date, last lock-out date etc. This is useful information and we would like it to be carried over to the Identity system. This can be done by adding additional properties to the user model and mapping them back to the table columns in the database. We can do this by adding a class that subclasses the `IdentityUser` model. We can add the properties to this custom class and edit the SQL script to add the corresponding columns when creating the table. The code for this class is described further in the article. The SQL script for creating the `AspnetUsers` table after adding the new properties would be
 
@@ -119,7 +118,7 @@ Next we need to copy the existing information from the SQL membership database t
 
 [!code-sql[Main](migrating-an-existing-website-from-sql-membership-to-aspnet-identity/samples/sample2.sql)]
 
-In the above SQL statement, information about each user from the *aspnet\_Users* and *aspnet\_Membership* tables is copied into the columns of the *AspnetUsers* table. The only modification done here is when we copy the password. Since the encryption algorithm for passwords in SQL membership used 'PasswordSalt' and 'PasswordFormat', we copy that too along with the hashed password so that it can be used to decrypt the password by Identity. This is explained further in the article when hooking up a custom password hasher. 
+In the above SQL statement, information about each user from the *aspnet\_Users* and *aspnet\_Membership* tables is copied into the columns of the *AspnetUsers* table. The only modification done here is when we copy the password. Since the encryption algorithm for passwords in SQL membership used 'PasswordSalt' and 'PasswordFormat', we copy that too along with the hashed password so that it can be used to decrypt the password by Identity. This is explained further in the article when hooking up a custom password hasher.
 
 This script file is specific to this sample. For applications which have additional tables, developers can follow a similar approach to add additional properties on the user model class and map them to columns in the AspnetUsers table. To run the script,
 
@@ -152,7 +151,7 @@ As mentioned earlier, the Identity feature uses Entity Framework to talk to the 
 
 In our sample, the AspNetRoles, AspNetUserClaims, AspNetLogins and AspNetUserRole tables have columns that are similar to the existing implementation of the Identity system. Hence we can reuse the existing classes to map to these tables. The AspNetUser table has some additional columns which are used to store additional information from the SQL membership tables. This can be mapped by creating a model class that extend the existing implementation of 'IdentityUser' and add the additional properties.
 
-1. Createa Models folder in the project and add a class User. The name of the class should match the data added in the 'Discriminator' column of 'AspnetUsers' table.
+1. Create a Models folder in the project and add a class User. The name of the class should match the data added in the 'Discriminator' column of 'AspnetUsers' table.
 
     ![](migrating-an-existing-website-from-sql-membership-to-aspnet-identity/_static/image10.png)
 
@@ -193,7 +192,7 @@ We need to make some changes for the sample to work with the project we have her
 - The Register.aspx.cs and Login.aspx.cs code behind classes use the `UserManager` from the Identity packages to create a User. For this example use the UserManager added in the Models folder by following the steps mentioned earlier.
 - Use the User class created instead of the IdentityUser in Register.aspx.cs and Login.aspx.cs code behind classes. This hooks in our custom user class into the Identity system.
 - The part to create the database can be skipped.
-- The developer needs to set the ApplicationId for the new user to match the current application ID. This can be done by querying the ApplicationId for this application before a user object is created in the Register.aspx.cs class and setting it before creating user. 
+- The developer needs to set the ApplicationId for the new user to match the current application ID. This can be done by querying the ApplicationId for this application before a user object is created in the Register.aspx.cs class and setting it before creating user.
 
     Example:
 
