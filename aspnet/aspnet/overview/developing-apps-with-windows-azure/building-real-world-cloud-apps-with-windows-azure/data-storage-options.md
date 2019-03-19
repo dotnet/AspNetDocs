@@ -9,8 +9,8 @@ ms.assetid: e51fcecb-cb33-4f9e-8428-6d2b3d0fe1bf
 msc.legacyurl: /aspnet/overview/developing-apps-with-windows-azure/building-real-world-cloud-apps-with-windows-azure/data-storage-options
 msc.type: authoredcontent
 ---
-Data Storage Options (Building Real-World Cloud Apps with Azure)
-====================
+# Data Storage Options (Building Real-World Cloud Apps with Azure)
+
 by [Mike Wasson](https://github.com/MikeWasson), [Rick Anderson]((https://twitter.com/RickAndMSFT)), [Tom Dykstra](https://github.com/tdykstra)
 
 [Download Fix It Project](http://code.msdn.microsoft.com/Fix-It-app-for-Building-cdd80df4) or [Download E-book](http://blogs.msdn.com/b/microsoft_press/archive/2014/07/23/free-ebook-building-cloud-apps-with-microsoft-azure.aspx)
@@ -56,13 +56,13 @@ The high volumes of data that you can store in NoSQL databases may be difficult 
 
 On Azure, [HDInsight](https://azure.microsoft.com/services/hdinsight/) enables you to process, analyze, and gain new insights from big data using the power of Hadoop. For example, you could use it to analyze web server logs:
 
-- Enable web server logging to your storage account. This sets up Azure to write logs to the Blob Service for every HTTP request to your application. The Blob Service is basically cloud file storage, and it integrates nicely with HDInsight. 
+- Enable web server logging to your storage account. This sets up Azure to write logs to the Blob Service for every HTTP request to your application. The Blob Service is basically cloud file storage, and it integrates nicely with HDInsight.
 
     ![Logs to Blob Storage](data-storage-options/_static/image2.png)
-- As the app gets traffic, web server IIS logs are written to Blob storage. 
+- As the app gets traffic, web server IIS logs are written to Blob storage.
 
     ![Web server logs](data-storage-options/_static/image3.png)
-- In the portal, click **New** - **Data Services** - **HDInsight** - **Quick Create**, and specify an HDInsight cluster name, cluster size (number of HDInsight cluster data nodes), and a user name and password for the HDInsight cluster. 
+- In the portal, click **New** - **Data Services** - **HDInsight** - **Quick Create**, and specify an HDInsight cluster name, cluster size (number of HDInsight cluster data nodes), and a user name and password for the HDInsight cluster.
 
     ![HDInsight](data-storage-options/_static/image4.png)
 
@@ -169,7 +169,7 @@ Wait several seconds, and you have a database in Azure ready for you to use.
 
 ![New SQL Database created](data-storage-options/_static/image10.png)
 
-So Azure does in a few seconds what it may take you a day or a week or longer to accomplish in the on-premises environment. And since you can just as easily create databases automatically in a script or by using a management API, you can dynamically scale out by spreading your data across multiple <o:p>databases, so long as your application has been programmed for that.</o:p>
+So Azure does in a few seconds what it may take you a day or a week or longer to accomplish in the on-premises environment. And since you can just as easily create databases automatically in a script or by using a management API, you can dynamically scale out by spreading your data across multiple databases, so long as your application has been programmed for that.
 
 This is an example of our Platform-as-a-Service model. You don't have to manage the servers, we do it. You don't have to worry about backups, we do it. It's running in high availability – the data in the database is replicated across three servers automatically. If a machine dies, we automatically fail over and you lose no data. The server is patched regularly, you don't need to worry about that.
 
