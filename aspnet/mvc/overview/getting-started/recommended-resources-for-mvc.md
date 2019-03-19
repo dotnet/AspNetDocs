@@ -9,12 +9,12 @@ ms.assetid: 7958d725-e958-4566-a85b-535eeb985f94
 msc.legacyurl: /mvc/overview/getting-started/recommended-resources-for-mvc
 msc.type: authoredcontent
 ---
-MVC Recommended Resources
-====================
+# MVC Recommended Resources
+
 by [Rick Anderson]((https://twitter.com/RickAndMSFT))
 
 > This topic provides links to documentation resources about ASP.NET MVC 5. If you know a great blog post, [stackoverflow](http://stackoverflow.com/) thread or any other link that would be useful, send [me](mailto:aspnetue@microsoft.com?subject=Great ASP.NET MVC link) an email with the link. The links provided here are updated periodically. You can find older (but in many cases still relevant) ASP.NET MVC links on the [MSDN content map](https://msdn.microsoft.com/library/gg416514(v=vs.108).aspx).
-> 
+>
 > A good place to get your questions answered or to find solutions to problems is in the [ASP.NET MVC forum](https://forums.asp.net/1146.aspx/1?MVC) or on [stackoverflow](http://stackoverflow.com/questions/tagged/mvc+asp.net-mvc).
 > <a id="gettingstarted"></a>
 
@@ -57,8 +57,8 @@ by [Rick Anderson]((https://twitter.com/RickAndMSFT))
     - [Tips and Tricks in Visual Studio 2013](https://channel9.msdn.com/Events/Build/2014/2-582) by Cathy Sullivan
     - [Automation Everywhere with New SDKs, Tools, and Services in Azure](https://channel9.msdn.com/Events/Build/2014/3-621) by Brady Gaster, Joe Levy
     - [What's New with Azure Web Sites Chris Compy, Nir Mashkowski](https://channel9.msdn.com/Events/Build/2014/3-625)
-    - [Building Big: Lessons Learned from Azure Customers](https://channel9.msdn.com/Events/Build/2014/3-633) by Chris Clayton, Mark Simms   
-        [Building a Single Page Application with ASP.NET and AngularJS](https://channel9.msdn.com/Events/Build/2014/3-644) by David Catuhe, Jon Galloway
+    - [Building Big: Lessons Learned from Azure Customers](https://channel9.msdn.com/Events/Build/2014/3-633) by Chris Clayton, Mark Simms
+    - [Building a Single Page Application with ASP.NET and AngularJS](https://channel9.msdn.com/Events/Build/2014/3-644) by David Catuhe, Jon Galloway
     - [Designing and Implementing Hybrid Cloud Solutions for Architects](https://channel9.msdn.com/Events/Build/2014/3-632)
     - [Azure Resource Group Model: Modern Management for Modern Cloud](https://channel9.msdn.com/Events/Build/2014/2-607) by Gautam Thapar, Nathan Totten
     - [Building Web APIs for Mobile Apps Using ASP.NET Web API 2.1](https://channel9.msdn.com/Events/Build/2014/3-603) by Daniel Roth
@@ -162,7 +162,7 @@ by [Rick Anderson]((https://twitter.com/RickAndMSFT))
 - [Donut Caching and Donut Hole Caching with Asp.Net MVC 4](http://www.dotnet-tricks.com/Tutorial/mvc/ODJa210113-Donut-Caching-and-Donut-Hole-Caching-with-Asp.Net-MVC-4.html)
 - [Understanding Caching in Asp.Net MVC with example](http://www.dotnet-tricks.com/Tutorial/mvc/4R5c050113-Understanding-Caching-in-Asp.Net-MVC-with-example.html)
 - [http://webdevchecklist.com/asp.net/performance/](http://webdevchecklist.com/asp.net/performance/)
-- [ASP.NET MVC View Model: Entity Framework &amp; JSON Serialization](http://www.dotnetexpertguide.com/2013/06/aspnet-mvc-view-model-entity-framework-json-serialization.html)  
+- [ASP.NET MVC View Model: Entity Framework &amp; JSON Serialization](http://www.dotnetexpertguide.com/2013/06/aspnet-mvc-view-model-entity-framework-json-serialization.html)
  Nandip Makwana shows a nice tip to increase performance (and lower CPU usage) by eliminating unnecessary serialization of child entities
 - [Async and Await](http://blog.stephencleary.com/2012/02/async-and-await.html) in ASP.NET by Stephen Cleary
 - [Debugging and Performance using Glimpse](http://www.hanselman.com/blog/NuGetPackageOfTheWeek5DebuggingASPNETMVCApplicationsWithGlimpse.aspx)
@@ -359,7 +359,7 @@ by [Rick Anderson]((https://twitter.com/RickAndMSFT))
 - [Serving WebP images with ASP.NET MVC](http://friism.com/serving-webp-images-with-asp-net-mvc)
 - [Detailed ASP.NET MVC Pipeline](http://www.dotnet-tricks.com/Tutorial/mvc/LYHK270114-Detailed-ASP.NET-MVC-Pipeline.html)
 - [Nesting Layouts in MVC](http://astutelogic.com/nesting-layouts-in-mvc/) by Russell Waite
-- I[mplementing RichTextEditor or WYSIWYG (TinyMCE) in ASP.NET MVC](http://www.dotnetfunda.com/articles/show/2657/implementing-richtexteditor-or-wysiwyg-tinymce-in-aspnet-mvc) by Sheo Narayan
+- [Implementing RichTextEditor or WYSIWYG (TinyMCE) in ASP.NET MVC](http://www.dotnetfunda.com/articles/show/2657/implementing-richtexteditor-or-wysiwyg-tinymce-in-aspnet-mvc) by Sheo Narayan
 - [Binding views with Anonymous type collection in ASP.NET MVC](http://www.dotnetfunda.com/articles/show/2655/binding-views-with-anonymous-type-collection-in-aspnet-mvc) by Sheo Narayan
 - [Saving HTML 5 canvas as Image in ASP.NET MVC](http://www.dotnetfunda.com/articles/show/2665/saving-html-5-canvas-as-image-in-aspnet-mvc) by Sheo Narayan
 - [Maintaining image size and position on the page in database using ASP.NET MVC](http://www.dotnetfunda.com/articles/show/2783/maintaining-image-size-and-position-on-the-page-in-database-using-aspn) by Sheo Narayan
