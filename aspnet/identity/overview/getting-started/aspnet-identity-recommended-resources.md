@@ -9,14 +9,13 @@ ms.assetid: 0f78aec2-f509-46fa-b20f-d5208425d8ec
 msc.legacyurl: /identity/overview/getting-started/aspnet-identity-recommended-resources
 msc.type: authoredcontent
 ---
-ASP.NET Identity Recommended Resources
-====================
+# ASP.NET Identity Recommended Resources
+
 by [Rick Anderson]((https://twitter.com/RickAndMSFT))
 
 > This topic provides links to documentation resources about how to use ASP.NET Identity.
-> 
+>
 > If you know a great blog post, [stackoverflow](http://stackoverflow.com) thread, or any other link that would be useful, [send us an email](mailto:aspnetue@microsoft.com?subject=Identity recommended resources) with the link or just leave a message at the bottom of this page.
-
 
 - [Getting Started with ASP.NET Identity](#gettingstarted)
 - [New featured Must Read articles](#feat)
@@ -29,6 +28,7 @@ by [Rick Anderson]((https://twitter.com/RickAndMSFT))
 - [Q &amp; A (question/answer)](#qand)
 
 <a id="gettingstarted"></a>
+
 ## Getting Started with ASP.NET Identity
 
 - [MVC 5 App with Facebook, Twitter, LinkedIn and Google OAuth2 Sign-on](../../../mvc/overview/security/create-an-aspnet-mvc-5-app-with-facebook-and-google-oauth2-and-openid-sign-on.md) This tutorial shows you how to write an ASP.NET MVC 5 app with Facebook and Google OAuth 2 authorization. It also shows how to add additional data to the Identity database.
@@ -38,6 +38,7 @@ by [Rick Anderson]((https://twitter.com/RickAndMSFT))
 - [ASP.NET MVC 5 app with SMS and email Two-Factor Authentication](../../../mvc/overview/security/aspnet-mvc-5-app-with-sms-and-email-two-factor-authentication.md)
 
 <a id="feat"></a>
+
 ## New featured Must Read articles
 
 - [Walkthrough: ASP.NET MVC Identity with Microsoft Account Authentication](http://www.benday.com/2014/02/25/walkthrough-asp-net-mvc-identity-with-microsoft-account-authentication/) by [Benjamin Day](http://www.benday.com/about/)
@@ -47,6 +48,7 @@ by [Rick Anderson]((https://twitter.com/RickAndMSFT))
 - [ASP.NET Identity 2.0: Customizing Users and Roles](http://typecastexception.com/post/2014/06/22/ASPNET-Identity-20-Customizing-Users-and-Roles.aspx)
 
 <a id="adv"></a>
+
 ## Intermediate ASP.NET Identity
 
 - [Account Confirmation and Password Recovery with ASP.NET Identity](../features-api/account-confirmation-and-password-recovery-with-aspnet-identity.md)
@@ -58,6 +60,7 @@ by [Rick Anderson]((https://twitter.com/RickAndMSFT))
 - [ASP.NET Identity – User Lockout](http://tech.trailmax.info/2014/06/asp-net-identity-user-lockout/)
 
 <a id="samp"></a>
+
 ## Where to ask questions, request features, report a bug and nightly builds
 
 - For StackOverflow, use the tag [aspnet-identity](http://stackoverflow.com/questions/tagged/asp.net-identity)
@@ -65,6 +68,7 @@ by [Rick Anderson]((https://twitter.com/RickAndMSFT))
 - [ASP.NET Identity on GitHub](https://github.com/aspnet/AspNetIdentity) Get nightly builds, request features, open bugs.
 
 <a id="blog"></a>
+
 ## Blog posts on Identity
 
 - [What is a SecurityStamp in ASP.NET Identity?](http://stackoverflow.com/questions/19487322/what-is-asp-net-identitys-iusersecuritystampstoretuser-interface/19505060#19505060)
@@ -114,6 +118,7 @@ by [Rick Anderson]((https://twitter.com/RickAndMSFT))
 - [Moving to ASP.NET Identity from ASP.NET Membership](http://webdojo.sharepoint.com/ajmatthews/_layouts/15/start.aspx#/Lists/Posts/Post.aspx?ID=2) by Alistair Matthews
 
 <a id="video"></a>
+
 ## Videos
 
 - Channel 9 [Securing ASP.NET Applications and Services: Security Facelift for Modern Applications](https://channel9.msdn.com/Events/TechEd/NorthAmerica/2014/DEV-B421#fbid=PhVT9E1WRtr?hashlink=fbid) by Ido Flatow
@@ -126,6 +131,7 @@ by [Rick Anderson]((https://twitter.com/RickAndMSFT))
 - [Czech ASP.NET Identity](https://www.youtube.com/watch?v=tVbZp5brcpY) In this lecture we will show how to deploy basic authentication, how to add support for external identity providers such as Twitter or Facebook, and how to use one-time passwords (OTP). [ASP.NET Identity je nástupce Membership a Role provider&#367; v ASP.NET, tedy knihovna pro zajišt&#283;ní autentizace uživatel&#367;. V této p&#345;ednášce si ukážeme, jak nasad]
 
 <a id="cust"></a>
+
 ## Custom Storage Providers for ASP.NET Identity
 
 If you want to write your own provider, read [Overview of Custom Storage Providers for ASP.NET Identity](../extensibility/overview-of-custom-storage-providers-for-aspnet-identity.md) and [Implementing ASP.NET Identity](http://odetocode.com/blogs/scott/archive/2014/01/20/implementing-asp-net-identity.aspx) and then examine the source of one of the OSS projects listed below.
@@ -138,7 +144,7 @@ If you want to write your own provider, read [Overview of Custom Storage Provide
 - [Azure Table Storage](https://www.nuget.org/packages/accidentalfish.aspnet.identity.azure/) by James Randall.
 - Azure Table Storage: [AspNet.Identity.TableStorage](https://github.com/stuartleeks/leeksnet.AspNet.Identity.TableStorage) by [@stuartleeks](https://twitter.com/stuartleeks).
 - [CouchDB / Cloudant by Daniel Wertheim.](https://github.com/danielwertheim/mycouch.aspnet.identity)
-- Elastic Searc[h: Elastic Identity](https://github.com/bmbsqd/elastic-identity) by Bombsquad AB.
+- [Elastic Search: Elastic Identity](https://github.com/bmbsqd/elastic-identity) by Bombsquad AB.
 - [MongoDB](http://www.nuget.org/packages/MongoDB.AspNet.Identity/) by Jonathan Sheely Jonathan Sheely.
 - [NHibernate.AspNet.Identity](https://github.com/milesibastos/NHibernate.AspNet.Identity) by Antônio Milesi Bastos.
 - [RavenDB](http://www.nuget.org/packages/AspNet.Identity.RavenDB/1.0.0) by [@tourismgeek](https://twitter.com/tourismgeek).
@@ -147,11 +153,13 @@ If you want to write your own provider, read [Overview of Custom Storage Provide
 - T4 Templates to generate EF code for a "database first" user store: [AspNet.Identity.EntityFramework](https://github.com/cbfrank/AspNet.Identity.EntityFramework)
 
 <a id="additional"></a>
+
 ## Additional ASP.NET Identity Resources
 
 - [Introducing the Yahoo and LinkedIn OAuth security providers for OWIN](http://blog.beabigrockstar.com/introducing-the-yahoo-linkedin-oauth-security-providers-for-owin/) by Jerrie Pelser for Yahoo and LinkedIn instructions.
 
 <a id="qand"></a>
+
 ## Q&amp;A (question/answer)
 
 - Q: Locked out users who have enabled "remember me" (so they don't have to go through 2FA on that computer/browser) are not locked out. Why and how do I prevent that? Answer [here](http://stackoverflow.com/questions/24312247/locked-out-users-can-login-if-they-have-auth-cookie).
@@ -171,6 +179,6 @@ If you want to write your own provider, read [Overview of Custom Storage Provide
 - Q: How do I invalidate security tokens? Answer [here](http://stackoverflow.com/questions/22755700/revoke-token-generated-by-usertokenprovider-in-asp-net-identity-2-0/22767286#22767286).
 - Q: How do is store claims in the cookie middleware? Answer [here](http://stackoverflow.com/questions/22320632/storing-retrieving-user-data-without-database-when-using-owin-cookie-authenticat/22541856#22541856).
 - Q: I'd like to have a PIN or security check on each action method in my MVC app, but I'd like to store the users success so they don't have to enter the PIN on every request to that action method. Answer [here](http://stackoverflow.com/questions/22479958/security-check-an-user-to-a-access-controller-action/22486075#22486075).
-- Q: I'd like to save the returned email addres from a social provider to the DB, how do I do that? Answer [here](http://stackoverflow.com/questions/22888397/save-claims-to-db-on-login/22970969#22970969):
+- Q: I'd like to save the returned email address from a social provider to the DB, how do I do that? Answer [here](http://stackoverflow.com/questions/22888397/save-claims-to-db-on-login/22970969#22970969):
 - Q: How can I detect when a user logs in both with/with-out a "remember me" cookie? Answer [here](http://stackoverflow.com/questions/22956486/how-can-i-detect-when-a-user-logs-in-with-microsoft-aspnet-identity/22970698#22970698).
 - Q: Can I modify claims in ASP.NET Identity with OWIN after calling SignIn? Answer: Calling SignIn is exactly what you are supposed to do when you want to modify the claims for the user. It basically causes the ClaimsIdentity to be serialized into the cookie, which is why you see the new claims show up on subsequent requests.
