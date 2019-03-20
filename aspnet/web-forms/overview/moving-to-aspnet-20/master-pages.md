@@ -121,7 +121,7 @@ In this lab, you will create a new master page and define three ContentPlaceHold
 2. Select exercise1.master in the Select a master page dialog as shown in figure 7.
 3. Click OK to add the new content page.
 
-The new content page appears in Visual Studio with one Content control for each ContentPlaceHolder control on the master page. By default, the Content controls are empty so that you can add your own content. If youd like for them to use the content from the ContentPlaceHolder control on the master page, simply click on the smart tag symbol (the small black arrow in the upper-right corner of the control) and choose *Default to Masters Content* from the smart tag as shown in **figure 8**. When you do so, the menu item changes to *Create Custom Content*. Clicking it at that point removes the content from the master page allowing you to define custom content for that particular Content control.
+The new content page appears in Visual Studio with one Content control for each ContentPlaceHolder control on the master page. By default, the Content controls are empty so that you can add your own content. If you'd like for them to use the content from the ContentPlaceHolder control on the master page, simply click on the smart tag symbol (the small black arrow in the upper-right corner of the control) and choose *Default to Masters Content* from the smart tag as shown in **figure 8**. When you do so, the menu item changes to *Create Custom Content*. Clicking it at that point removes the content from the master page allowing you to define custom content for that particular Content control.
 
 
 ![Setting a Content Control to Default to the Master Pages Content](master-pages/_static/image4.gif)
