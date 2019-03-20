@@ -939,7 +939,7 @@ The value for *controlRenderingCompatibility* is a string, which allows potentia
 
 In ASP.NET 3.5 SP1 and earlier versions, the framework renders the *disabled* attribute in the HTML markup for any control whose *Enabled* property set to *false*. However, according to the HTML 4.01 specification, only *input* elements should have this attribute.
 
-In ASP.NET 4, you can set the *controlRenderingCompatabilityVersion* property to "3.5", as in the following example:
+In ASP.NET 4, you can set the *controlRenderingCompatibilityVersion* property to "3.5", as in the following example:
 
 [!code-xml[Main](overview/samples/sample70.xml)]
 
@@ -951,7 +951,7 @@ The *Label* control would render the following HTML:
 
 [!code-html[Main](overview/samples/sample72.html)]
 
-In ASP.NET 4, you can set the *controlRenderingCompatabilityVersion* to "4.0". In that case, only controls that render *input* elements will render a *disabled* attribute when the control's *Enabled* property is set to *false*. Controls that do not render HTML *input* elements instead render a *class* attribute that references a CSS class that you can use to define a disabled look for the control. For example, the *Label* control shown in the earlier example would generate the following markup:
+In ASP.NET 4, you can set the *controlRenderingCompatibilityVersion* to "4.0". In that case, only controls that render *input* elements will render a *disabled* attribute when the control's *Enabled* property is set to *false*. Controls that do not render HTML *input* elements instead render a *class* attribute that references a CSS class that you can use to define a disabled look for the control. For example, the *Label* control shown in the earlier example would generate the following markup:
 
 [!code-html[Main](overview/samples/sample73.html)]
 
