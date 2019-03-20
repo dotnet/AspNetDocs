@@ -101,7 +101,7 @@ The following Logon controls are available in ASP.NET 2.0:
 
 ## Login Control
 
-The Login control provides an interface for someone to log into your membership system. It provides you with a username and password textboxt and a login button. Many other common features such as a link to register for people who have not yet done so, a checkbox that allows the user to automatically login on subsequent visits, a link for a password reminder, etc. All features of the Login control are customizable via the properties of the control.
+The Login control provides an interface for someone to log into your membership system. It provides you with a username and password textbox and a login button. Many other common features such as a link to register for people who have not yet done so, a checkbox that allows the user to automatically login on subsequent visits, a link for a password reminder, etc. All features of the Login control are customizable via the properties of the control.
 
 In ASP.NET 1.x, developers had to write a fair amount of code to do a lookup when using Forms authentication. With ASP.NET 2.0 membership, you can validate users without writing any code at all. ASP.NET will automatically do the look-up of the user for you. (If you are using the Login control without using ASP.NET membership, you can use the **OnAuthenticate** method to validate the user.)
 
