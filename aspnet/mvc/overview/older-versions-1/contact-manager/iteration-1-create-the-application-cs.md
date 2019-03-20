@@ -82,7 +82,7 @@ As an alternative to performing each of these downloads one by one, you can take
 ASP.NET MVC Web Application Project. Launch Visual Studio and select the menu option **File, New Project**. The **New Project** dialog appears (see Figure 1). Select the **Web** project type and the **ASP.NET MVC Web Application** template. Name your new project *ContactManager* and click the OK button.
 
 
-Make sure that you have .NET Framework 3.5 selected from the dropdown list at the top right of the **New Project** dialog. Otherwise, the ASP.NET MVC Web Application template won t appear.
+Make sure that you have .NET Framework 3.5 selected from the dropdown list at the top right of the **New Project** dialog. Otherwise, the ASP.NET MVC Web Application template won't appear.
 
 
 [![The New Project dialog box](iteration-1-create-the-application-cs/_static/image1.jpg)](iteration-1-create-the-application-cs/_static/image1.png)
@@ -90,7 +90,7 @@ Make sure that you have .NET Framework 3.5 selected from the dropdown list at th
 **Figure 01**: The New Project dialog([Click to view full-size image](iteration-1-create-the-application-cs/_static/image2.png))
 
 
-ASP.NET MVC application, the **Create Unit Test Project** dialog appears. You can use this dialog to indicate that you want to create and add a unit test project to your solution when you create your ASP.NET MVC application. Although we won t be building unit tests in this iteration, you should select the option **Yes, create a unit test project** because we plan to add unit tests in a later iteration. Adding a Test project when you first create a new ASP.NET MVC project is much easier than adding a Test project after the ASP.NET MVC project has been created.
+ASP.NET MVC application, the **Create Unit Test Project** dialog appears. You can use this dialog to indicate that you want to create and add a unit test project to your solution when you create your ASP.NET MVC application. Although we won't be building unit tests in this iteration, you should select the option **Yes, create a unit test project** because we plan to add unit tests in a later iteration. Adding a Test project when you first create a new ASP.NET MVC project is much easier than adding a Test project after the ASP.NET MVC project has been created.
 
 > [!NOTE] 
 > 

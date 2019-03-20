@@ -132,7 +132,7 @@ To verify that the application services database objects were successfully added
 **Figure 4**: Confirm That the Database Objects Were Added to the Production Database ([Click to view full-size image](configuring-a-website-that-uses-application-services-cs/_static/image12.jpg))
 
 
-You will only need to use the `aspnet_regsql.exe` tool when deploying your web application for the first time or for the first time after you have started using the application services. Once these database objects are on the production database they won t need to be re-added or modified.
+You will only need to use the `aspnet_regsql.exe` tool when deploying your web application for the first time or for the first time after you have started using the application services. Once these database objects are on the production database they won't need to be re-added or modified.
 
 ### Copying User Accounts from Development to Production
 
@@ -142,7 +142,7 @@ The `SqlMembershipProvider` and `SqlRoleProvider` provider classes were designed
 
 In addition to the `ApplicationId` column, the `aspnet_Applications` table also includes an `ApplicationName` column, which provides a more human-friendly name for the application. When a website attempts to work with a user account, such as validating a user s credentials from the login page, it must tell the `SqlMembershipProvider` class what application to work with. It usually does this by supplying the application name, and the this value comes from the provider s configuration in `Web.config` - specifically via the `applicationName` attribute.
 
-But what happens if the `applicationName` attribute is not specified in `Web.config`? In such a case the Membership system uses the application root path as the `applicationName` value. If the `applicationName` attribute is not explicitly set in `Web.config`, then, there is the possibility that the development environment and production environment use a different application root and therefore will be associated with different application names in the application services. If such a mismatch occurs then those users created in the development environment will have an `ApplicationId` value that does not match with the `ApplicationId` value for the production environment. The net result is that those users won t be able to login.
+But what happens if the `applicationName` attribute is not specified in `Web.config`? In such a case the Membership system uses the application root path as the `applicationName` value. If the `applicationName` attribute is not explicitly set in `Web.config`, then, there is the possibility that the development environment and production environment use a different application root and therefore will be associated with different application names in the application services. If such a mismatch occurs then those users created in the development environment will have an `ApplicationId` value that does not match with the `ApplicationId` value for the production environment. The net result is that those users won't be able to login.
 
 > [!NOTE]
 > If you find yourself in this situation - with user accounts copied to production with a mismatched `ApplicationId` value - you could write a query to update these incorrect `ApplicationId` values to the `ApplicationId` used on production. Once updated, the users whose accounts were created on the development environment would now be able to sign into the web application on production.

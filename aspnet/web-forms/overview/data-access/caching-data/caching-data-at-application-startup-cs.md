@@ -97,7 +97,7 @@ Likewise, the data cache can be used as a cache store, as the following code sho
 
 [!code-csharp[Main](caching-data-at-application-startup-cs/samples/sample5.cs)]
 
-To add an item to the data cache with no time-based expiry, use the `System.Web.Caching.Cache.NoAbsoluteExpiration` and `System.Web.Caching.Cache.NoSlidingExpiration` values as input parameters. This particular overload of the data cache's `Insert` method was selected so that we could specify the *priority* of the cache item. The priority is used to determine what items to scavenge from the cache when available memory runs low. Here we use the priority `NotRemovable`, which ensures that this cache item won t be scavenged.
+To add an item to the data cache with no time-based expiry, use the `System.Web.Caching.Cache.NoAbsoluteExpiration` and `System.Web.Caching.Cache.NoSlidingExpiration` values as input parameters. This particular overload of the data cache's `Insert` method was selected so that we could specify the *priority* of the cache item. The priority is used to determine what items to scavenge from the cache when available memory runs low. Here we use the priority `NotRemovable`, which ensures that this cache item won't be scavenged.
 
 > [!NOTE]
 > This tutorial's download implements the `StaticCache` class using the static member variable approach. The code for the application state and data cache techniques is available in the comments in the class file.

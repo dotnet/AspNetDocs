@@ -76,7 +76,7 @@ We'll add this new functionality to our application by following a process of te
 
 As we discussed in the previous iteration, you typically do not write unit tests for data access logic or view logic. You don t write unit tests for data access logic because accessing a database is a relatively slow operation. You don t write unit tests for view logic because accessing a view requires spinning up a web server which is a relatively slow operation. You shouldn't write a unit test unless the test can be executed over and over again very fast
 
-Because test-driven development is driven by unit tests, we focus initially on writing controller and business logic. We avoid touching the database or views. We won t modify the database or create our views until the very end of this tutorial. We start with what can be tested.
+Because test-driven development is driven by unit tests, we focus initially on writing controller and business logic. We avoid touching the database or views. We won't modify the database or create our views until the very end of this tutorial. We start with what can be tested.
 
 ## Creating User Stories
 
@@ -243,7 +243,7 @@ We need to create a new Group database table. Follow these steps:
 | Name | nvarchar(50) | False |
 
 
-Next, we need to delete all of the data from the Contacts table (otherwise, we won t be able to create a relationship between the Contacts and Groups tables). Follow these steps:
+Next, we need to delete all of the data from the Contacts table (otherwise, we won't be able to create a relationship between the Contacts and Groups tables). Follow these steps:
 
 1. Right-click the Contacts table and select the menu option **Show Table Data**.
 2. Delete all of the rows.
