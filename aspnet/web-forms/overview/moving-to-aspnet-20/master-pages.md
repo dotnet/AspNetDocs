@@ -88,7 +88,7 @@ In this lab, you will create a new master page and define three ContentPlaceHold
 
 1. Place the cursor into each cell of the table and set the *valign* property to *top*.
 2. From the Toolbox, insert a ContentPlaceHolder control in the top cell of the table (the header cell.)
-3. When you insert this ContentPlaceHolder control, you will notice that the row height will take up almost the entire page as shown in figure 4. Dont be concerned about that at this point.
+3. When you insert this ContentPlaceHolder control, you will notice that the row height will take up almost the entire page as shown in figure 4. Don't be concerned about that at this point.
 
 
 ![The empty space is in the same cell as the ContentPlaceHolder](master-pages/_static/image1.gif)

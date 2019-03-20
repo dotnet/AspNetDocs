@@ -52,7 +52,7 @@ The ASP.NET SQL Server Setup Wizard creates the Web site in the instance you spe
 
 [!code-xml[Main](membership/samples/sample1.xml)]
 
-Unfortunately, if you dont modify the connection string, ASP.NET will not give you a descriptive error. It will just continue to complain saying that you havent created the database. In the case above, I have modified the connection string to point to my local SQL Server 2000 instance.
+Unfortunately, if you don't modify the connection string, ASP.NET will not give you a descriptive error. It will just continue to complain saying that you havent created the database. In the case above, I have modified the connection string to point to my local SQL Server 2000 instance.
 
 ## Specifying Configuration and Adding Users and Roles
 
