@@ -52,7 +52,7 @@ The ASP.NET SQL Server Setup Wizard creates the Web site in the instance you spe
 
 [!code-xml[Main](membership/samples/sample1.xml)]
 
-Unfortunately, if you don't modify the connection string, ASP.NET will not give you a descriptive error. It will just continue to complain saying that you havent created the database. In the case above, I have modified the connection string to point to my local SQL Server 2000 instance.
+Unfortunately, if you don't modify the connection string, ASP.NET will not give you a descriptive error. It will just continue to complain saying that you haven't created the database. In the case above, I have modified the connection string to point to my local SQL Server 2000 instance.
 
 ## Specifying Configuration and Adding Users and Roles
 
@@ -159,7 +159,7 @@ To enable role management in your application, make the following change in your
 
 [!code-xml[Main](membership/samples/sample2.xml)]
 
-When the **cacheRolesInCookie** attribute is set to true, ASP.NET caches a users role membership in a cookie on the client. This allows role lookups to occur without calls into the RoleProvider. When using this attribute, developers are encouraged to ensure that the **cookieProtection** attribute is set to All. (This is the default setting.) This ensures that the cookie data are encrypted and helps to ensure that the cookies contents havent been altered. Roles can be added using the Web Site Administration Tool. It allows you to easily define roles, configure access to parts of the site based on those roles, and assign users to roles.
+When the **cacheRolesInCookie** attribute is set to true, ASP.NET caches a users role membership in a cookie on the client. This allows role lookups to occur without calls into the RoleProvider. When using this attribute, developers are encouraged to ensure that the **cookieProtection** attribute is set to All. (This is the default setting.) This ensures that the cookie data are encrypted and helps to ensure that the cookies contents haven't been altered. Roles can be added using the Web Site Administration Tool. It allows you to easily define roles, configure access to parts of the site based on those roles, and assign users to roles.
 
 
 ![](membership/_static/image6.jpg)
