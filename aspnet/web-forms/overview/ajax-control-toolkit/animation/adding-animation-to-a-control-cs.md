@@ -59,7 +59,7 @@ The framework comes with a set of animations, each one represented by its own XM
 - `<Resize>` (changing the size)
 - `<Scale>` (proportionally changing the size)
 
-In this example, the panel shall fade out. The animation shall take 1.5 seconds (`Duration` attribute), displaying 24 frames (animation steps) per second (`Fps` attributs). Here is the complete markup for the `AnimationExtender` control:
+In this example, the panel shall fade out. The animation shall take 1.5 seconds (`Duration` attribute), displaying 24 frames (animation steps) per second (`Fps` attribute). Here is the complete markup for the `AnimationExtender` control:
 
 [!code-aspx[Main](adding-animation-to-a-control-cs/samples/sample5.aspx)]
 
