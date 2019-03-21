@@ -73,7 +73,7 @@ When the GridView is bound to a data source, it creates a `GridViewRow` for each
 **Figure 3**: One Technique Involves Adding Separator Rows to the Data Source
 
 
-I use the term separator records in quotes because there is no special separator record; rather, we must somehow flag that a particular record in the data source serves as a separator rather than a normal data row. For our examples, we re binding a `ProductsDataTable` instance to the GridView, which is composed of `ProductRows`. We might flag a record as a separator row by setting its `CategoryID` property to `-1` (since such a value couldn t exist normally).
+I use the term separator records in quotes because there is no special separator record; rather, we must somehow flag that a particular record in the data source serves as a separator rather than a normal data row. For our examples, we re binding a `ProductsDataTable` instance to the GridView, which is composed of `ProductRows`. We might flag a record as a separator row by setting its `CategoryID` property to `-1` (since such a value couldn't exist normally).
 
 To utilize this technique we d need to perform the following steps:
 
