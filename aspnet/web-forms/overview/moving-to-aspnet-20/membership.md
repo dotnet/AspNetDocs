@@ -36,7 +36,7 @@ Membership is implemented by following four steps. Keep in mind that there are m
 
 ## Creating the Membership Database
 
-If youre using SQL Server 7.0 or later as your membership store, you can use the aspnet\_regsql utility (available most easily from the Visual Studio .NET 2005 Command Prompt) to configure your database. The aspnet\_regsql utility can be used as a command prompt tool or via a GUI wizard. The wizard method is the easiest way to configure your database. To access the wizard, simply run the following command:
+If you're using SQL Server 7.0 or later as your membership store, you can use the aspnet\_regsql utility (available most easily from the Visual Studio .NET 2005 Command Prompt) to configure your database. The aspnet\_regsql utility can be used as a command prompt tool or via a GUI wizard. The wizard method is the easiest way to configure your database. To access the wizard, simply run the following command:
 
 `aspnet_regsql W`
 
@@ -52,7 +52,7 @@ The ASP.NET SQL Server Setup Wizard creates the Web site in the instance you spe
 
 [!code-xml[Main](membership/samples/sample1.xml)]
 
-Unfortunately, if you dont modify the connection string, ASP.NET will not give you a descriptive error. It will just continue to complain saying that you havent created the database. In the case above, I have modified the connection string to point to my local SQL Server 2000 instance.
+Unfortunately, if you don't modify the connection string, ASP.NET will not give you a descriptive error. It will just continue to complain saying that you haven't created the database. In the case above, I have modified the connection string to point to my local SQL Server 2000 instance.
 
 ## Specifying Configuration and Adding Users and Roles
 
@@ -101,7 +101,7 @@ The following Logon controls are available in ASP.NET 2.0:
 
 ## Login Control
 
-The Login control provides an interface for someone to log into your membership system. It provides you with a username and password textboxt and a login button. Many other common features such as a link to register for people who have not yet done so, a checkbox that allows the user to automatically login on subsequent visits, a link for a password reminder, etc. All features of the Login control are customizable via the properties of the control.
+The Login control provides an interface for someone to log into your membership system. It provides you with a username and password textbox and a login button. Many other common features such as a link to register for people who have not yet done so, a checkbox that allows the user to automatically login on subsequent visits, a link for a password reminder, etc. All features of the Login control are customizable via the properties of the control.
 
 In ASP.NET 1.x, developers had to write a fair amount of code to do a lookup when using Forms authentication. With ASP.NET 2.0 membership, you can validate users without writing any code at all. ASP.NET will automatically do the look-up of the user for you. (If you are using the Login control without using ASP.NET membership, you can use the **OnAuthenticate** method to validate the user.)
 
@@ -159,7 +159,7 @@ To enable role management in your application, make the following change in your
 
 [!code-xml[Main](membership/samples/sample2.xml)]
 
-When the **cacheRolesInCookie** attribute is set to true, ASP.NET caches a users role membership in a cookie on the client. This allows role lookups to occur without calls into the RoleProvider. When using this attribute, developers are encouraged to ensure that the **cookieProtection** attribute is set to All. (This is the default setting.) This ensures that the cookie data are encrypted and helps to ensure that the cookies contents havent been altered. Roles can be added using the Web Site Administration Tool. It allows you to easily define roles, configure access to parts of the site based on those roles, and assign users to roles.
+When the **cacheRolesInCookie** attribute is set to true, ASP.NET caches a users role membership in a cookie on the client. This allows role lookups to occur without calls into the RoleProvider. When using this attribute, developers are encouraged to ensure that the **cookieProtection** attribute is set to All. (This is the default setting.) This ensures that the cookie data are encrypted and helps to ensure that the cookies contents haven't been altered. Roles can be added using the Web Site Administration Tool. It allows you to easily define roles, configure access to parts of the site based on those roles, and assign users to roles.
 
 
 ![](membership/_static/image6.jpg)
