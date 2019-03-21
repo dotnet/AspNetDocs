@@ -100,7 +100,7 @@ With this partial class created (and saved), open the `ProductsBLL` class. Go to
 
 This partial class exposes just one property of the underlying connection object: `ConnectionString`. If you want to make the entire connection object available beyond the confines of the TableAdapter, you can alternatively change the `Connection` property s protection level. The auto-generated code we examined in Step 1 showed that the TableAdapter s `Connection` property is marked as `internal`, meaning that it can only be accessed by classes in the same assembly. This can be changed, however, via the TableAdapter s `ConnectionModifier` property.
 
-Open the `Northwind` DataSet, click on the `ProductsTableAdatper` in the Designer, and navigate to the Properties window. There you will see the `ConnectionModifier` set to its default value, `Assembly`. To make the `Connection` property available outside of the Typed DataSet s assembly, change the `ConnectionModifier` property to `Public`.
+Open the `Northwind` DataSet, click on the `ProductsTableAdapter` in the Designer, and navigate to the Properties window. There you will see the `ConnectionModifier` set to its default value, `Assembly`. To make the `Connection` property available outside of the Typed DataSet s assembly, change the `ConnectionModifier` property to `Public`.
 
 
 [![The Connection Property s Accessibility Level Can Be Configured via the ConnectionModifier Property](configuring-the-data-access-layer-s-connection-and-command-level-settings-cs/_static/image7.png)](configuring-the-data-access-layer-s-connection-and-command-level-settings-cs/_static/image6.png)
