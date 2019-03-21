@@ -40,7 +40,7 @@ Then, add the `AnimationExtender` to the page, providing an `ID`, the `TargetCon
 
 [!code-aspx[Main](executing-animations-using-client-side-code-vb/samples/sample4.aspx)]
 
-Within the `<Animations>` node, use `<OnClick>` to run the animations once the user clicks on the panel. Add two animations to be executed parallelly:
+Within the `<Animations>` node, use `<OnClick>` to run the animations once the user clicks on the panel. Add two animations to be executed in parallel:
 
 [!code-xml[Main](executing-animations-using-client-side-code-vb/samples/sample5.xml)]
 
