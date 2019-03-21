@@ -65,7 +65,7 @@ To create a new master page:
 **Figure 2**: Creating a New Master Page
 
 
-Notice that the file extension for a master page is <em>.master</em>. This is one of the ways that a master page differs from an ordinary page. The other primary difference is that in lieu of a @Page directive, the master page contains a @Master directive. Switch to Source View for the master page youve just created and review the code.
+Notice that the file extension for a master page is <em>.master</em>. This is one of the ways that a master page differs from an ordinary page. The other primary difference is that in lieu of a @Page directive, the master page contains a @Master directive. Switch to Source View for the master page you've just created and review the code.
 
 A new master page will have one ContentPlaceHolder control by default. In most cases, it makes more sense to create the common page elements first and then insert ContentPlaceHolder controls where custom content is desired. In those cases, developers will want to delete the default ContentPlaceHolder control and insert new ones as the page is developed. ContentPlaceHolder controls are not resizable despite the fact that they do display sizing handles. The ContentPlaceHolder control sizes automatically based upon the content that it contains with one exception; if you place a ContentPlaceHolder control inside of a block element such as a table cell, it will size according to the size of the element.
 
@@ -88,7 +88,7 @@ In this lab, you will create a new master page and define three ContentPlaceHold
 
 1. Place the cursor into each cell of the table and set the *valign* property to *top*.
 2. From the Toolbox, insert a ContentPlaceHolder control in the top cell of the table (the header cell.)
-3. When you insert this ContentPlaceHolder control, you will notice that the row height will take up almost the entire page as shown in figure 4. Dont be concerned about that at this point.
+3. When you insert this ContentPlaceHolder control, you will notice that the row height will take up almost the entire page as shown in figure 4. Don't be concerned about that at this point.
 
 
 ![The empty space is in the same cell as the ContentPlaceHolder](master-pages/_static/image1.gif)
@@ -121,7 +121,7 @@ In this lab, you will create a new master page and define three ContentPlaceHold
 2. Select exercise1.master in the Select a master page dialog as shown in figure 7.
 3. Click OK to add the new content page.
 
-The new content page appears in Visual Studio with one Content control for each ContentPlaceHolder control on the master page. By default, the Content controls are empty so that you can add your own content. If youd like for them to use the content from the ContentPlaceHolder control on the master page, simply click on the smart tag symbol (the small black arrow in the upper-right corner of the control) and choose *Default to Masters Content* from the smart tag as shown in **figure 8**. When you do so, the menu item changes to *Create Custom Content*. Clicking it at that point removes the content from the master page allowing you to define custom content for that particular Content control.
+The new content page appears in Visual Studio with one Content control for each ContentPlaceHolder control on the master page. By default, the Content controls are empty so that you can add your own content. If you'd like for them to use the content from the ContentPlaceHolder control on the master page, simply click on the smart tag symbol (the small black arrow in the upper-right corner of the control) and choose *Default to Masters Content* from the smart tag as shown in **figure 8**. When you do so, the menu item changes to *Create Custom Content*. Clicking it at that point removes the content from the master page allowing you to define custom content for that particular Content control.
 
 
 ![Setting a Content Control to Default to the Master Pages Content](master-pages/_static/image4.gif)

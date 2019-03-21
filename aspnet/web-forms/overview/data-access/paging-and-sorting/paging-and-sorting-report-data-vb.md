@@ -188,7 +188,7 @@ Next, return to the `DataBound` event handler and add the following code:
 
 [!code-vb[Main](paging-and-sorting-report-data-vb/samples/sample6.vb)]
 
-This code begins by clearing out the items in the `PageList` DropDownList. This may seem superfluous, since one wouldn t expect the number of pages to change, but other users may be using the system simultaneously, adding or removing records from the `Products` table. Such insertions or deletions could alter the number of pages of data.
+This code begins by clearing out the items in the `PageList` DropDownList. This may seem superfluous, since one wouldn't expect the number of pages to change, but other users may be using the system simultaneously, adding or removing records from the `Products` table. Such insertions or deletions could alter the number of pages of data.
 
 Next, we need to create the page numbers again and have the one that maps to the current GridView `PageIndex` selected by default. We accomplish this with a loop from 0 to `PageCount - 1`, adding a new `ListItem` in each iteration and setting its `Selected` property to true if the current iteration index equals the GridView s `PageIndex` property.
 
@@ -247,7 +247,7 @@ When binding an ObjectDataSource to the GridView through the drop-down list in t
 
 [!code-aspx[Main](paging-and-sorting-report-data-vb/samples/sample9.aspx)]
 
-A field can be configured so that it s not sortable by clearing out its `SortExpression` property (assigning it to an empty string). To illustrate this, imagine that we didn t want to let our customers sort our products by price. The `UnitPrice` BoundField s `SortExpression` property can be removed either from the declarative markup or through the Fields dialog box (which is accessible by clicking on the Edit Columns link in the GridView s smart tag).
+A field can be configured so that it s not sortable by clearing out its `SortExpression` property (assigning it to an empty string). To illustrate this, imagine that we didn't want to let our customers sort our products by price. The `UnitPrice` BoundField s `SortExpression` property can be removed either from the declarative markup or through the Fields dialog box (which is accessible by clicking on the Edit Columns link in the GridView s smart tag).
 
 
 ![The Results Have Been Sorted by the UnitPrice in Ascending Order](paging-and-sorting-report-data-vb/_static/image27.png)

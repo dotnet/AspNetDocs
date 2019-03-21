@@ -152,7 +152,7 @@ After installing the prerequisites, you're ready to begin creating the Web proje
 
 ## Download the sample application
 
- You can download the completed sample applicatiion at anytime from the MSDN Samples site:
+ You can download the completed sample application at anytime from the MSDN Samples site:
 
 [Getting Started with ASP.NET 4.5 Web Forms and Visual Studio 2013 - Wingtip Toys](https://go.microsoft.com/fwlink/?LinkID=389434&clcid=0x409) (C#) 
 

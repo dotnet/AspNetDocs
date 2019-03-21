@@ -135,7 +135,7 @@ Next, you'll create the classes that the Entity Framework will call into every t
 
 These lines of code are what causes your interceptor code to be run when Entity Framework sends queries to the database. Notice that because you created separate interceptor classes for transient error simulation and logging, you can independently enable and disable them.   
   
- You can add interceptors using the `DbInterception.Add` method anywhere in your code; it doesn't have to be in the `Application_Start` method. Another option, if you didn't add interceptors in the `Application_Start` method, would be to update or add the class named *WingtipToysConfiguration.cs* and put the above code at the end of the constructor of the `WingtipToysbConfiguration` class.
+ You can add interceptors using the `DbInterception.Add` method anywhere in your code; it doesn't have to be in the `Application_Start` method. Another option, if you didn't add interceptors in the `Application_Start` method, would be to update or add the class named *WingtipToysConfiguration.cs* and put the above code at the end of the constructor of the `WingtipToysConfiguration` class.
 
 Wherever you put this code, be careful not to execute `DbInterception.Add` for the same interceptor more than once, or you'll get additional interceptor instances. For example, if you add the logging interceptor twice, you'll see two logs for every SQL query.
 
@@ -150,7 +150,7 @@ You've written the transient error simulation code in a way that lets you cause 
 3. Enter a new product named "Throw" with appropriate description, price and image file.
 4. Press the **Add Product** button.  
    You'll notice that the browser seems to hang for several seconds while Entity Framework is retrying the query several times. The first retry happens very quickly, then the wait increases before each additional retry. This process of waiting longer before each retry is called *exponential backoff* .
-5. Wait until the page is no longer atttempting to load.
+5. Wait until the page is no longer attempting to load.
 6. Stop the project and look at the Visual Studio **Output** window to see the tracing output. You can find the **Output** window by selecting **Debug** -&gt; **Windows** -&gt; **Output**. You might have to scroll past several other logs written by your logger.  
   
    Notice that you can see the actual SQL queries sent to the database. You see some initial queries and commands that Entity Framework does to get started, checking the database version and migration history table.   

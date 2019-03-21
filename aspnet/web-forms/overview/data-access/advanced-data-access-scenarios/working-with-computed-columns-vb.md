@@ -26,7 +26,7 @@ Since a computed column s value is determined by an expression, such columns are
 
 One challenge of using computed columns with a TableAdapter that uses ad-hoc SQL statements is that the TableAdapter s `INSERT` and `UPDATE` queries are automatically regenerated any time the TableAdapter Configuration wizard is completed. Therefore, the computed columns manually removed from the `INSERT` and `UPDATE` queries will reappear if the wizard is re-run. Although TableAdapters that use stored procedures don t suffer from this brittleness, they do have their own quirks that we will address in Step 3.
 
-In this tutorial we will add a computed column to the `Suppliers` table in the Northwind database and then create a corresponding TableAdapter to work with this table and its computed column. We will have our TableAdapter use stored procedures instead of ad-hoc SQL statements so that our customizations aren t lost when the TableAdapter Configuration wizard is used.
+In this tutorial we will add a computed column to the `Suppliers` table in the Northwind database and then create a corresponding TableAdapter to work with this table and its computed column. We will have our TableAdapter use stored procedures instead of ad-hoc SQL statements so that our customizations aren't lost when the TableAdapter Configuration wizard is used.
 
 Let s get started!
 

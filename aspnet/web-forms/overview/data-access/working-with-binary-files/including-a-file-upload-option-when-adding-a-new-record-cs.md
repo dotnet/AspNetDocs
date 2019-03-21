@@ -67,7 +67,7 @@ Since the Presentation Layer should only interface with the Business Logic Layer
 [!code-csharp[Main](including-a-file-upload-option-when-adding-a-new-record-cs/samples/sample2.cs)]
 
 > [!NOTE]
-> Make sure that you have saved the Typed DataSet before adding the `InsertWithPicture` method to the BLL. Since the `CategoriesTableAdapter` class code is auto-generated based on the Typed DataSet, if you don t first save your changes to the Typed DataSet the `Adapter` property won t know about the `InsertWithPicture` method.
+> Make sure that you have saved the Typed DataSet before adding the `InsertWithPicture` method to the BLL. Since the `CategoriesTableAdapter` class code is auto-generated based on the Typed DataSet, if you don t first save your changes to the Typed DataSet the `Adapter` property won't know about the `InsertWithPicture` method.
 
 
 ## Step 3: Listing the Existing Categories and their Binary Data
@@ -225,7 +225,7 @@ Let s take a moment to test out the inserting interface and `ItemInserting` even
 **Figure 9**: A Warning Message is Displayed If an Invalid File Type is Uploaded ([Click to view full-size image](including-a-file-upload-option-when-adding-a-new-record-cs/_static/image16.png))
 
 
-Once you have verified that the page requires a picture to be uploaded and won t accept non-PDF or non-JPG files, add a new category with a valid JPG picture, leaving the Brochure field empty. After clicking the Insert button, the page will postback and a new record will be added to the `Categories` table with the uploaded image s binary contents stored directly in the database. The GridView is updated and shows a row for the newly added category, but, as Figure 10 shows, the new category s picture is not rendered correctly.
+Once you have verified that the page requires a picture to be uploaded and won't accept non-PDF or non-JPG files, add a new category with a valid JPG picture, leaving the Brochure field empty. After clicking the Insert button, the page will postback and a new record will be added to the `Categories` table with the uploaded image s binary contents stored directly in the database. The GridView is updated and shows a row for the newly added category, but, as Figure 10 shows, the new category s picture is not rendered correctly.
 
 
 [![The New Category s Picture is not Displayed](including-a-file-upload-option-when-adding-a-new-record-cs/_static/image10.gif)](including-a-file-upload-option-when-adding-a-new-record-cs/_static/image17.png)

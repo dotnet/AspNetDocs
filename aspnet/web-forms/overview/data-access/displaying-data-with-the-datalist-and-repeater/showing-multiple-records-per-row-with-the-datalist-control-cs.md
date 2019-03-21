@@ -60,7 +60,7 @@ Take a moment to visit your page in a browser. As Figure 2 shows, the DataList r
 
 While the default behavior for the DataList is to lay out its items vertically in a single-column, multi-row table, this behavior can easily be changed through the DataList s [`RepeatDirection` property](https://msdn.microsoft.com/system.web.ui.webcontrols.datalist.repeatdirection.aspx). The `RepeatDirection` property can accept one of two possible values: `Horizontal` or `Vertical` (the default).
 
-By changing the `RepeatDirection` property from `Vertical` to `Horizontal`, the DataList renders its records in a single row, creating one column per data source item. To illustrate this effect, click on the DataList in the Designer and then, from the Properties window, change the `RepeatDirection` property from `Vertical` to `Horiztonal`. Immediately upon doing so, the Designer adjusts the DataList s layout, creating a single-row, multi-column interface (see Figure 3).
+By changing the `RepeatDirection` property from `Vertical` to `Horizontal`, the DataList renders its records in a single row, creating one column per data source item. To illustrate this effect, click on the DataList in the Designer and then, from the Properties window, change the `RepeatDirection` property from `Vertical` to `Horizontal`. Immediately upon doing so, the Designer adjusts the DataList s layout, creating a single-row, multi-column interface (see Figure 3).
 
 
 [![The RepeatDirection Property Dictates How the Direction the DataList s Items are Laid Out](showing-multiple-records-per-row-with-the-datalist-control-cs/_static/image8.png)](showing-multiple-records-per-row-with-the-datalist-control-cs/_static/image7.png)

@@ -77,7 +77,7 @@ If you specify an individual project instead of a solution, you have to add a pa
 
 [!code-console[Main](command-line-deployment/samples/sample4.cmd?highlight=1)]
 
-The version number for Visual Studio 2010 is 10.0. For more information, see [Visual Studio project compatability and VisualStudioVersion](http://sedodream.com/2012/08/19/VisualStudioProjectCompatabilityAndVisualStudioVersion.aspx) on Sayed Hashimi's blog.
+The version number for Visual Studio 2010 is 10.0. For more information, see [Visual Studio project compatibility and VisualStudioVersion](http://sedodream.com/2012/08/19/VisualStudioProjectCompatabilityAndVisualStudioVersion.aspx) on Sayed Hashimi's blog.
 
 ### Specifying the publish profile
 
