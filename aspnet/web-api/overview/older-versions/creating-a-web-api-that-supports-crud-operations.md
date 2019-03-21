@@ -210,7 +210,7 @@ The method name starts with &quot;Put...&quot;, so Web API matches it to PUT req
 
 ## Deleting a Resource
 
-To delete a resourse, define a "Delete..." method.
+To delete a resource, define a "Delete..." method.
 
 [!code-csharp[Main](creating-a-web-api-that-supports-crud-operations/samples/sample12.cs)]
 
