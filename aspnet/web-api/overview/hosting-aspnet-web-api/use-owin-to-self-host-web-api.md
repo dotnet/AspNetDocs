@@ -24,7 +24,7 @@ Use OWIN to Self-Host ASP.NET Web API
 
 
 > [!NOTE]
-> You can find the complete source code for this tutorial at [aspnet.codeplex.com](https://aspnet.codeplex.com/SourceControl/latest#Samples/WebApi/OwinSelfhostSample/ReadMe.txt).
+> You can find the complete source code for this tutorial at [github.com/aspnet](https://github.com/aspnet/samples/tree/master/samples/aspnet/WebApi/OwinSelfhostSample).
 
 
 ## Create a console application
