@@ -133,7 +133,7 @@ Next, you will have a quick look at the HTML window and how it maps elements for
 
 Click **Inspect** to put Page Inspector in Inspection Mode.
 
-Click the top part of the page that says "Your logohere". You are examining a particular element in more detail, so the display in the browser window no longer changes as you move the mouse pointer.
+Click the top part of the page that says "Your logo here". You are examining a particular element in more detail, so the display in the browser window no longer changes as you move the mouse pointer.
 
 Now move the mouse pointer to the **HTML** window. As you move the mouse pointer, Page Inspector outlines the element within the **HTML** window and highlights the corresponding element in the browser window.
 
