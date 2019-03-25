@@ -24,7 +24,7 @@ The Breeze/Angular SPA template is a variation on the [KnockoutJS SPA template](
 
 ![](http://www.breezejs.com/sites/all/images/spa-template/NgRunningTodoPage.png)
 
-Outwardly, the application looks the very similar to the KnockoutJS SPA template. But it's quite different under the hood. The KnockoutJS template uses Knockout for data binding and raw AJAX for data access. The Breeze/Angular template uses Angular for data binding and Breeze for data access. These libaries enable additional capabilities, including page navigation and history.
+Outwardly, the application looks the very similar to the KnockoutJS SPA template. But it's quite different under the hood. The KnockoutJS template uses Knockout for data binding and raw AJAX for data access. The Breeze/Angular template uses Angular for data binding and Breeze for data access. These libraries enable additional capabilities, including page navigation and history.
 
 Here is the application's About page:
 
@@ -83,7 +83,7 @@ Now you are in the land of SPA. Everything you see and experience while manipula
 
 The validation logic is performed client-side by Breeze. Validation attributes on the server model classes are propagated to the client and executed automatically before the client contacts the server.
 
-Review the network traffic. Notice that there were no calls to the server when Breeze detected an error. Each valid change resulted in a POST request to "/api/Todo/SaveChanges". Breeze bundles the changes and sends them together as a single request to the Web API controller's `SaveChanges` method. That's different from KockoutJS SPA template, which makes PUT, POST, and DELETE requests for each item individually.
+Review the network traffic. Notice that there were no calls to the server when Breeze detected an error. Each valid change resulted in a POST request to "/api/Todo/SaveChanges". Breeze bundles the changes and sends them together as a single request to the Web API controller's `SaveChanges` method. That's different from KnockoutJS SPA template, which makes PUT, POST, and DELETE requests for each item individually.
 
 Also, notice there is no network traffic when you switch between the TodoList and About pages. That's because the query has been constrained to the local Breeze cache.
 
@@ -101,7 +101,7 @@ The server-side stack consists of some developer code and three principle .NET l
 
 ![](http://www.breezejs.com/sites/all/images/spa-template/ServerArchitecture.png)
 
-The basic architecture is the same as the KockoutJS SPA template. However, the implementation is much simpler: The DTOs were deleted, and most of the Entity Framework details have been delegated to Breeze.NET.
+The basic architecture is the same as the KnockoutJS SPA template. However, the implementation is much simpler: The DTOs were deleted, and most of the Entity Framework details have been delegated to Breeze.NET.
 
 ## Next Steps
 
