@@ -35,7 +35,7 @@ A better approach is to "inject" an `ILogger` into the object—for example, by 
 
 [!code-csharp[Main](dependency-injection/samples/sample3.cs)]
 
-Now the object is not responsible for selecting which `ILogger` to use. You can swich `ILogger` implementations without changing the objects that depend on it.
+Now the object is not responsible for selecting which `ILogger` to use. You can switch `ILogger` implementations without changing the objects that depend on it.
 
 [!code-csharp[Main](dependency-injection/samples/sample4.cs)]
 
@@ -155,7 +155,7 @@ Create a binding for **IHubConnectionContext** as follows:
 
 [!code-csharp[Main](dependency-injection/samples/sample18.cs)]
 
-This code creatres an anonymous function that returns an **IHubConnection**. The **WhenInjectedInto** method tells Ninject to use this function only when creating `IStockTicker` instances. The reason is that SignalR creates **IHubConnectionContext** instances internally, and we don't want to override how SignalR creates them. This function only applies to our `StockTicker` class.
+This code creates an anonymous function that returns an **IHubConnection**. The **WhenInjectedInto** method tells Ninject to use this function only when creating `IStockTicker` instances. The reason is that SignalR creates **IHubConnectionContext** instances internally, and we don't want to override how SignalR creates them. This function only applies to our `StockTicker` class.
 
 Pass the dependency resolver into the **MapHubs** method:
 
