@@ -55,7 +55,7 @@ Imagine, for example, that you decide to change how you implement your data acce
 
 When an application is loosely coupled, on the other hand, you can make changes to one part of an application without touching other parts of an application. For example, you can switch data access technologies without modifying your validation or controller logic.
 
-In this iteration, we take advantage of several software design patterns that enable us to refactor our Contact Manager application into a more loosely coupled application. When we are done, the Contact Manager won t do anything that it didn t do before. However, we'll be able to change the application more easily in the future.
+In this iteration, we take advantage of several software design patterns that enable us to refactor our Contact Manager application into a more loosely coupled application. When we are done, the Contact Manager won't do anything that it didn't do before. However, we'll be able to change the application more easily in the future.
 
 > [!NOTE] 
 > 
@@ -73,7 +73,7 @@ Implementing the Repository pattern requires us to complete the following two st
 
 First, we need to create an interface that describes all of the data access methods that we need to perform. The IContactManagerRepository interface is contained in Listing 1. This interface describes five methods: CreateContact(), DeleteContact(), EditContact(), GetContact, and ListContacts().
 
-**Listing 1 - Models\IContactManagerRepositiory.cs**
+**Listing 1 - Models\IContactManagerRepository.cs**
 
 [!code-csharp[Main](iteration-4-make-the-application-loosely-coupled-cs/samples/sample1.cs)]
 
@@ -159,7 +159,7 @@ We want to be able to completely decouple our service layer from our controller 
 
 However, our service layer needs to be able to pass validation error messages back to the controller layer. How can we enable the service layer to communicate validation error messages without coupling the controller and service layer? We can take advantage of a software design pattern named the [Decorator pattern](http://en.wikipedia.org/wiki/Decorator_pattern).
 
-A controller uses a ModelStateDictionary named ModelState to represent validation errors. Therefore, you might be tempted to pass ModelState from the controller layer to the service layer. However, using ModelState in the service layer would make your service layer dependent on a feature of the ASP.NET MVC framework. This would be bad because, someday, you might want to use the service layer with a WPF application instead of an ASP.NET MVC application. In that case, you wouldn t want to reference the ASP.NET MVC framework to use the ModelStateDictionary class.
+A controller uses a ModelStateDictionary named ModelState to represent validation errors. Therefore, you might be tempted to pass ModelState from the controller layer to the service layer. However, using ModelState in the service layer would make your service layer dependent on a feature of the ASP.NET MVC framework. This would be bad because, someday, you might want to use the service layer with a WPF application instead of an ASP.NET MVC application. In that case, you wouldn't want to reference the ASP.NET MVC framework to use the ModelStateDictionary class.
 
 The Decorator pattern enables you to wrap an existing class in a new class in order to implement an interface. Our Contact Manager project includes the ModelStateWrapper class contained in Listing 7. The ModelStateWrapper class implements the interface in Listing 8.
 

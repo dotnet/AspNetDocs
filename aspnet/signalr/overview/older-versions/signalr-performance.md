@@ -113,7 +113,7 @@ This section describes how to enable and use SignalR performance counters, found
 
 ### Installing signalr.exe
 
-Peformance counters can be added to the server using a utility called SignalR.exe. To install this utility, follow these steps:
+Performance counters can be added to the server using a utility called SignalR.exe. To install this utility, follow these steps:
 
 1. In Visual Studio, select **Tools** > **NuGet Package Manager** > **Manage NuGet Packages for Solution**
 2. Search for **signalr.utils**, and select Install.
@@ -134,7 +134,7 @@ To remove SignalR performance counters, run SignalR.exe in an elevated command p
 
 ### SignalR Performance counters
 
-The utilites package installs the following performance counters. The "Total" counters measure the number of events since the last application pool or server restart.
+The utilities package installs the following performance counters. The "Total" counters measure the number of events since the last application pool or server restart.
 
 **Connection metrics**
 
@@ -142,7 +142,7 @@ The following metrics measure the connection lifetime events that occur. For mor
 
 - **Connections Connected**
 - **Connections Reconnected**
-- **Connections Disonnected**
+- **Connections Disconnected**
 - **Connections Current**
 
 **Message metrics**

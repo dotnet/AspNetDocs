@@ -128,7 +128,7 @@ The reference to `RetryLimitExceededException` requires a `using` statement; to 
 ![ Retry exception message](updating-related-data-with-the-entity-framework-in-an-asp-net-mvc-application/_static/image13.png)
 
 
-Select **Show potentital fixes**, then **using System.Data.Entity.Infrastructure**
+Select **Show potential fixes**, then **using System.Data.Entity.Infrastructure**
 
 ![Resolve Retry exception](updating-related-data-with-the-entity-framework-in-an-asp-net-mvc-application/_static/image14.png)
 

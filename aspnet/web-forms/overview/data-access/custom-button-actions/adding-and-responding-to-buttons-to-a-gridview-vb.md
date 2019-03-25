@@ -107,7 +107,7 @@ Before we add the Discontinue All Products Button to the FormView s template, le
 **Figure 8**: Create a New ObjectDataSource Named `SuppliersProductsDataSource` ([Click to view full-size image](adding-and-responding-to-buttons-to-a-gridview-vb/_static/image20.png))
 
 
-Configure this ObjectDataSource to use the ProductsBLL class s `GetProductsBySupplierID(supplierID)` method (see Figure 9). While this GridView will allow for a product s price to be adjusted, it won t be using the built-in editing or deleting features from the GridView. Therefore, we can set the drop-down list to (None) for the ObjectDataSource s UPDATE, INSERT, and DELETE tabs.
+Configure this ObjectDataSource to use the ProductsBLL class s `GetProductsBySupplierID(supplierID)` method (see Figure 9). While this GridView will allow for a product s price to be adjusted, it won't be using the built-in editing or deleting features from the GridView. Therefore, we can set the drop-down list to (None) for the ObjectDataSource s UPDATE, INSERT, and DELETE tabs.
 
 
 [![Configure the Data Source to use the ProductsBLL Class s GetProductsBySupplierID(supplierID) Method](adding-and-responding-to-buttons-to-a-gridview-vb/_static/image22.png)](adding-and-responding-to-buttons-to-a-gridview-vb/_static/image21.png)

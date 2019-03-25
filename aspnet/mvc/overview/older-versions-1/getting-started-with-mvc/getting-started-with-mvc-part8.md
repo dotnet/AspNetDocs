@@ -18,7 +18,7 @@ by [Scott Hanselman](https://github.com/shanselman)
 
 In this section we are going to walk through how we can make changes to the schema of our database, and handle the changes within our application.
 
-Let's add a "Rating" Colum to the Movie table. Go back to the IDE and click the Database Explorer. Right click the Movie table and select Open Table Definition.
+Let's add a "Rating" Column to the Movie table. Go back to the IDE and click the Database Explorer. Right click the Movie table and select Open Table Definition.
 
 Add a "Rating" column as seen below. Since we don't have any Ratings now, the column can allow nulls. Click Save.
 

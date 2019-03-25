@@ -142,7 +142,7 @@ In this task, you will create a data model to interact with the database added i
     ![Adding the StoreDB ADO.NET Entity Data Model](aspnet-mvc-4-models-and-data-access/_static/image6.png "Adding the StoreDB ADO.NET Entity Data Model")
 
     *Adding the StoreDB ADO.NET Entity Data Model*
-2. The **Entity Data Model Wizard** will appear. This wizard will guide you through the creation of the model layer. Since the model should be created based on the existing database recentyl added, select **Generate from database** and click **Next**.
+2. The **Entity Data Model Wizard** will appear. This wizard will guide you through the creation of the model layer. Since the model should be created based on the existing database recently added, select **Generate from database** and click **Next**.
 
     ![Choosing the model content](aspnet-mvc-4-models-and-data-access/_static/image7.png "Choosing the model content")
 
@@ -274,7 +274,7 @@ Once the model is generated, you will modify the StoreController to provide the 
 <a id="Task_1_-_Populating_Sample_Data"></a>
 #### Task 1 - Populating Sample Data
 
-In this task, you will populate the database with sample data when it is intially created using Code-First.
+In this task, you will populate the database with sample data when it is initially created using Code-First.
 
 1. Open the **Begin** solution located at **Source/Ex2-CreatingADatabaseCodeFirst/Begin/** folder. Otherwise, you might continue using the **End** solution obtained by completing the previous exercise.
 
@@ -574,7 +574,7 @@ This appendix will show you how to create a new web site from the Windows Azure 
 1. Go to the [Windows Azure Management Portal](https://manage.windowsazure.com/) and sign in using the Microsoft credentials associated with your subscription.
 
     > [!NOTE]
-    > With Windows Azure you can host 10 ASP.NET Web Sites for free and then scale as your traffic grows. You can sign up [here](http://aka.ms/aspnet-hol-azure).
+    > With Windows Azure you can host 10 ASP.NET Web Sites for free and then scale as your traffic grows. You can sign up [here](https://aka.ms/aspnet-hol-azure).
 
     ![Log on to Windows Azure portal](aspnet-mvc-4-models-and-data-access/_static/image31.png "Log on to Windows Azure portal")
 

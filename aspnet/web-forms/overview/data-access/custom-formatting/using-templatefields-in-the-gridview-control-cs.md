@@ -142,9 +142,9 @@ To complete this first step, remove the `LastName` BoundField and rename the `Fi
 [!code-aspx[Main](using-templatefields-in-the-gridview-control-cs/samples/sample4.aspx)]
 
 
-[![Each Employee's First and Last Names are Displayed in One Colum](using-templatefields-in-the-gridview-control-cs/_static/image29.png)](using-templatefields-in-the-gridview-control-cs/_static/image28.png)
+[![Each Employee's First and Last Names are Displayed in One Column](using-templatefields-in-the-gridview-control-cs/_static/image29.png)](using-templatefields-in-the-gridview-control-cs/_static/image28.png)
 
-**Figure 10**: Each Employee's First and Last Names are Displayed in One Colum ([Click to view full-size image](using-templatefields-in-the-gridview-control-cs/_static/image30.png))
+**Figure 10**: Each Employee's First and Last Names are Displayed in One Column ([Click to view full-size image](using-templatefields-in-the-gridview-control-cs/_static/image30.png))
 
 
 ## Step 3: Using the Calendar Control to Display the`HiredDate`Field

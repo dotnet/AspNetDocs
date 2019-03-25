@@ -216,7 +216,7 @@ In this exercise, you will apply an ASP.NET theme to a Web site.
 3. Choose Web Configuration File from the list of files and click Add.
 4. Right-click on the project in Solution Explorer and choose Add New Item.
 5. Choose Skin File and click Add.
-6. Click Yes when asked if youd like to place the file inside of the App\_Themes folder.
+6. Click Yes when asked if you'd like to place the file inside of the App\_Themes folder.
 7. Right-click on the SkinFile folder inside of the App\_Themes folder in Solution Explorer and choose Add New Item.
 8. Choose Style Sheet from the list of files and click Add. You now have all of the files necessary to implement your new theme. However, Visual Studio has named your themes folder SkinFile. Right-click on that folder and change the name to CoolTheme.
 9. Open the SkinFile.skin file and add the following code the end of the file: 

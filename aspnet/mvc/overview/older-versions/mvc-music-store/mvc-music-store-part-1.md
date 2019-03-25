@@ -54,7 +54,7 @@ After ordering, they see a simple confirmation screen:
 
 ![](mvc-music-store-part-1/_static/image6.jpg)
 
-In addition to customer-faceing pages, we'll also build an administrator section that shows a list of albums from which Administrators can Create, Edit, and Delete albums:
+In addition to customer-facing pages, we'll also build an administrator section that shows a list of albums from which Administrators can Create, Edit, and Delete albums:
 
 ![](mvc-music-store-part-1/_static/image7.jpg)
 
