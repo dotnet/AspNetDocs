@@ -1,0 +1,11 @@
+{
+    "labels": {
+      "product": {
+        "(?i).*": "Source - Docs.ms"
+      },
+      "contentsource": {
+        "(?i).*master\/aspnet\/signalr.*": "SignalR"
+      }
+    }
+  }
+  
