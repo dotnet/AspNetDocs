@@ -12,11 +12,11 @@ msc.type: content
 Microsoft Ajax Content Delivery Network
 ====================
 > [!WARNING]
-> Production applications should not take a hard dependency on CDN assets. Applications should test for the CDN asset referenced, and use a fallback asset when the CDN is not available. 
+> Production applications should not take a hard dependency on CDN assets. Applications should test for the CDN asset referenced, and use a fallback asset when the CDN is not available.
 >
 > The Microsoft Ajax CDN has no SLA above and beyond using an Azure CDN.
 >
-> Use [this GitHub issue](https://github.com/aspnet/Docs/issues/5832) to report problems with the Microsoft Ajax CDN.
+> Use [this GitHub issue](https://github.com/aspnet/AspNetDocs/issues/116) to report problems with the Microsoft Ajax CDN.
 
 ## Table of Contents
 
