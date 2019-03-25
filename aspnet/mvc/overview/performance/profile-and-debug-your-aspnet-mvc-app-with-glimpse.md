@@ -52,7 +52,7 @@ Navigate to http://localhost:&lt;port #&gt;/glimpse.axd and click the <strong>Tu
 
 If you have your favorites bar displayed, you can drag and drop the Glimpse buttons and add them as bookmarklets:
 
-![IE with Glimpse boookmarklets](profile-and-debug-your-aspnet-mvc-app-with-glimpse/_static/image5.png)
+![IE with Glimpse bookmarklets](profile-and-debug-your-aspnet-mvc-app-with-glimpse/_static/image5.png)
 
 You can now navigate your app, and the **Heads Up Display** (HUD) is shown at the bottom of the page.
 
@@ -98,11 +98,11 @@ The [model binding tab](http://getglimpse.com/Docs/Model-Binding-Tab) provides a
 <a id="da"></a>
 ## Using Glimpse on Azure
 
-The Glimpse default security policy only allows Glimpse data to be displayed from local host. You can change this security policy so you can view this data on a remote server (such as a web app on Azure). For test environments on Azure, add the highlighted mark up to the bottom of the *web.confg* file to enable Glimpse:
+The Glimpse default security policy only allows Glimpse data to be displayed from local host. You can change this security policy so you can view this data on a remote server (such as a web app on Azure). For test environments on Azure, add the highlighted mark up to the bottom of the *web.config* file to enable Glimpse:
 
 [!code-xml[Main](profile-and-debug-your-aspnet-mvc-app-with-glimpse/samples/sample3.xml?highlight=2-6)]
 
-With this change alone, any user can see your Glimpse data on a remote site. Consider adding the markup above to a publish profile so it's only deployed an applyed when you use that publish profile (for example, your Azure test proifle.) To restrict Glimpse data, we will add the `canViewGlimpseData` role and only allow users in this role to view Glimpse data.
+With this change alone, any user can see your Glimpse data on a remote site. Consider adding the markup above to a publish profile so it's only deployed an applied when you use that publish profile (for example, your Azure test profile.) To restrict Glimpse data, we will add the `canViewGlimpseData` role and only allow users in this role to view Glimpse data.
 
 Remove the comments from the *GlimpseSecurityPolicy.cs* file and change the [IsInRole](https://msdn.microsoft.com/library/system.security.principal.iprincipal.isinrole(v=vs.110).aspx) call from `Administrator` to the `canViewGlimpseData` role:
 
