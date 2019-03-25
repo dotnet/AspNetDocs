@@ -255,7 +255,7 @@ In this task, you will create a new Custom Action Filter to inject into the Stor
     [!code-csharp[Main](aspnet-mvc-4-custom-action-filters/samples/sample9.cs)]
 
     > [!NOTE]
-    > This Custom Action Filter is almost the same than the one you created in the previous exercise. The main difference is that it has the *&quot;Logged By&quot;* attribute updated with this new class' name to identify wich filter registered the log.
+    > This Custom Action Filter is almost the same than the one you created in the previous exercise. The main difference is that it has the *&quot;Logged By&quot;* attribute updated with this new class' name to identify which filter registered the log.
 
 <a id="Ex2Task2"></a>
 
@@ -286,7 +286,7 @@ In this task, you will add a new custom filter into the StoreController Class an
 <a id="Task_3_Managing_Filter_Ordering"></a>
 #### Task 3: Managing Filter Ordering
 
-In this task, you will learn how to manage the filters' execution order by using the Order propery.
+In this task, you will learn how to manage the filters' execution order by using the Order property.
 
 1. Open the **StoreController** class located at **MvcMusicStore\Controllers** and specify the **Order** property in both filters like shown below.
 
@@ -319,7 +319,7 @@ In this task, you will learn how to manage the filters' execution order by using
 <a id="Task_4_Registering_Filters_Globally"></a>
 #### Task 4: Registering Filters Globally
 
-In this task, you will update the solution to register the new filter (**MyNewCustomActionFilter**) as a global filter. By doing this, it will be triggered by all the actions perfomed in the application and not only in the StoreController ones as in the previous task.
+In this task, you will update the solution to register the new filter (**MyNewCustomActionFilter**) as a global filter. By doing this, it will be triggered by all the actions performed in the application and not only in the StoreController ones as in the previous task.
 
 1. In **StoreController** class, remove **[MyNewCustomActionFilter]** attribute and the order property from **[CustomActionFilter]**. It should look like the following:
 
@@ -369,7 +369,7 @@ By completing this Hands-On Lab you have learned how to extend an action filter 
 
 You can install **Microsoft Visual Studio Express 2012 for Web** or another &quot;Express&quot; version using the **[Microsoft Web Platform Installer](https://www.microsoft.com/web/downloads/platform.aspx)**. The following instructions guide you through the steps required to install *Visual studio Express 2012 for Web* using *Microsoft Web Platform Installer*.
 
-1. Go to [[https://go.microsoft.com/? linkid=9810169](https://go.microsoft.com/?linkid=9810169)](https://go.microsoft.com/?linkid=9810169). Alternatively, if you already have installed Web Platform Installer, you can open it and search for the product &quot;<em>Visual Studio Express 2012 for Web with Windows Azure SDK</em>&quot;.
+1. Go to [https://go.microsoft.com/?linkid=9810169](https://go.microsoft.com/?linkid=9810169). Alternatively, if you already have installed Web Platform Installer, you can open it and search for the product &quot;<em>Visual Studio Express 2012 for Web with Windows Azure SDK</em>&quot;.
 2. Click on **Install Now**. If you do not have **Web Platform Installer** you will be redirected to download and install it first.
 3. Once **Web Platform Installer** is open, click **Install** to start the setup.
 
