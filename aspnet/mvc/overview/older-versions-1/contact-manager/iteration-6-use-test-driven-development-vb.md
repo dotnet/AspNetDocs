@@ -304,7 +304,7 @@ Next, we need to implement our repository class. Over the course of this iterati
 
 [!code-vb[Main](iteration-6-use-test-driven-development-vb/samples/sample14.vb)]
 
-We haven t actually implemented any of the methods related to working with contact groups in our real EntityContactManagerRepository class. Currently, the EntityContactManagerRepository class has stub methods for each of the contact group methods listed in the IContactManagerRepository interface. For example, the ListGroups() method currently looks like this:
+We haven't actually implemented any of the methods related to working with contact groups in our real EntityContactManagerRepository class. Currently, the EntityContactManagerRepository class has stub methods for each of the contact group methods listed in the IContactManagerRepository interface. For example, the ListGroups() method currently looks like this:
 
 [!code-vb[Main](iteration-6-use-test-driven-development-vb/samples/sample15.vb)]
 

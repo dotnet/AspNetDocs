@@ -303,7 +303,7 @@ Next, we need to implement our repository class. Over the course of this iterati
 
 [!code-csharp[Main](iteration-6-use-test-driven-development-cs/samples/sample14.cs)]
 
-We haven t actually implemented any of the methods related to working with contact groups. Currently, the EntityContactManagerRepository class has stub methods for each of the contact group methods listed in the IContactManagerRepository interface. For example, the ListGroups() method currently looks like this:
+We haven't actually implemented any of the methods related to working with contact groups. Currently, the EntityContactManagerRepository class has stub methods for each of the contact group methods listed in the IContactManagerRepository interface. For example, the ListGroups() method currently looks like this:
 
 [!code-csharp[Main](iteration-6-use-test-driven-development-cs/samples/sample15.cs)]
 
