@@ -125,7 +125,7 @@ The GridView and ObjectDataSource provide post-level event handlers that include
 
 In this tutorial we saw how to add exception handling to an editable DataList s updating workflow by adding a `Try ... Catch` block to the `UpdateCommand` event handler. If an exception is raised during the updating workflow, the `Catch` block s code executes, displaying helpful information in the `ExceptionDetails` Label.
 
-At this point, the DataList makes no effort to prevent exceptions from happening in the first place. Even though we know that a negative price will result in an exception, we haven t yet added any functionality to proactively prevent a user from entering such invalid input. In our next tutorial we'll see how to help reduce the exceptions caused by invalid user input by adding validation controls in the `EditItemTemplate`.
+At this point, the DataList makes no effort to prevent exceptions from happening in the first place. Even though we know that a negative price will result in an exception, we haven't yet added any functionality to proactively prevent a user from entering such invalid input. In our next tutorial we'll see how to help reduce the exceptions caused by invalid user input by adding validation controls in the `EditItemTemplate`.
 
 Happy Programming!
 
