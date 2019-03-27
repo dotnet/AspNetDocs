@@ -198,7 +198,7 @@ The following example shows how the assets manager works. The code contains the 
 
 - A custom helper named `MakeNote`. This helper renders a string inside a box by wrapping a `div` element around it that's styled with a border and by adding &quot;Note:&quot; to it. The helper also calls a JavaScript file that adds run-time behavior to the note. Rather than reference the script with a `<script>` tag, the helper registers the script by calling `Assets.AddScript` .
 - A JavaScript file. This is the file that's called by the helper, and it temporarily increases the font size of note items during a `mouseover` event.
-- A content page, which references the*\_SiteLayout* page, renders some content in the body, and then calls the `MakeNote` helper.
+- A content page, which references the *\_SiteLayout* page, renders some content in the body, and then calls the `MakeNote` helper.
 - A *\_SiteLayout* page. This page provides a common header and a page layout structure. It also includes a call to `Assets.GetScripts`, which is how the assets manager renders script calls in a page.
 
 To run the sample:
