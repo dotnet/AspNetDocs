@@ -606,7 +606,7 @@ Time-consuming operations on your web site are great candidates for asynchronous
 > Additionally, you can deploy this application to Azure following [Appendix B: Publishing an ASP.NET MVC 4 Application using Web Deploy](#AppendixB).
 
 
-* * *
+---
 
 <a id="Summary"></a>
 ## Summary

@@ -542,6 +542,6 @@ For more information about WebMatrix Beta 3, see the following websites:
 - [ASP.NET](https://asp.net/webmatrix)
 - [Microsoft.com/web](https://www.microsoft.com/web)
 
-* * *
+---
 
 © 2010 Microsoft Corporation. All Rights Reserved. [Terms of Use](https://msdn.microsoft.cos/cc300389.aspx).

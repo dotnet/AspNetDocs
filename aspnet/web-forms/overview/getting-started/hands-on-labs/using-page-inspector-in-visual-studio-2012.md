@@ -53,7 +53,7 @@ You must have the following items to complete this lab:
 - [Microsoft Visual Studio Express 2012 for Web](https://www.microsoft.com/visualstudio/eng/products/visual-studio-express-for-web) or superior (read [Appendix A](#AppendixA) for instructions on how to install it).
 - Internet Explorer 9 or higher
 
-* * *
+---
 
 <a id="Exercises"></a>
 
@@ -260,7 +260,7 @@ In this task, you will use the Page inspector and fix some issues the Photo Gall
     *Photo Gallery page updated*
 11. Finally, selet the **PhotoGallery** project and press **F5** to run the app. Check out all the changes work as expected.
 
-* * *
+---
 
 <a id="Exercise2"></a>
 
@@ -451,7 +451,7 @@ In this task, you will use the Page inspector for fixing some issues of the Phot
     *Photo Gallery page updated*
 11. Finally press **F5** to run the app the check out all the changes work as expected.
 
-* * *
+---
 
 <a id="Summary"></a>
 

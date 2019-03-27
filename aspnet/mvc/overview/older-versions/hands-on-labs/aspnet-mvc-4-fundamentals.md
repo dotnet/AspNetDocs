@@ -945,7 +945,7 @@ In this exercise, you will explore the enhancements in the ASP.NET MVC 4 project
 > Additionally, you can deploy this application to Windows Azure Web Sites following [Appendix B: Publishing an ASP.NET MVC 4 Application using Web Deploy](#AppendixB).
 
 
-* * *
+---
 
 <a id="Summary"></a>
 

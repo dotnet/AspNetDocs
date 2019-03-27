@@ -85,7 +85,7 @@ For convenience, much of the code you will be managing along this lab is availab
 
 If you are not familiar with the Visual Studio Code Snippets, and want to learn how to use them, you can refer to the appendix from this document &quot;[Appendix B: Using Code Snippets](#AppendixB)&quot;.
 
-* * *
+---
 
 <a id="Exercises"></a>
 
@@ -478,7 +478,7 @@ In this task, you will run the application and test that the custom action filte
     *Application Trace - Request Details*
 4. Close the browser.
 
-* * *
+---
 
 <a id="Summary"></a>
 
