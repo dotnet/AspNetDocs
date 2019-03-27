@@ -160,7 +160,7 @@ To test the client app:
 
 1. [Download](https://github.com/aspnet/AspNetDocs/tree/master/aspnet/web-api/overview/advanced/calling-a-web-api-from-a-net-client/sample/server) and run the server app. [Download instructions](/aspnet/core/tutorials/#how-to-download-a-sample). Verify the server app is working. For example, `http://localhost:64195/api/products` should return a list of products.
 2. Set the base URI for HTTP requests. Change the port number to the port used in the server app.
-	[!code-csharp[Main](calling-a-web-api-from-a-net-client/sample/client/Program.cs?name=snippet5&highlight=2)]
+    [!code-csharp[Main](calling-a-web-api-from-a-net-client/sample/client/Program.cs?name=snippet5&highlight=2)]
 
 3. Run the client app. The following output is produced:
 
