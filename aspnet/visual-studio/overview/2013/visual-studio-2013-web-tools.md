@@ -68,7 +68,7 @@ Throughout the lab document, you will be instructed to insert code blocks. For y
 > Each exercise is accompanied by a starting solution located in the **Begin** folder of the exercise that allows you to follow each exercise independently of the others. Please be aware that the code snippets that are added during an exercise are missing from these starting solutions and may not work until you have completed the exercise. Inside the source code for an exercise, you will also find an **End** folder containing a Visual Studio solution with the code that results from completing the steps in the corresponding exercise. You can use these solutions as guidance if you need additional help as you work through this hands-on lab.
 
 
-* * *
+---
 
 <a id="Exercises"></a>
 ## Exercises
@@ -505,7 +505,7 @@ With Web Essentials 2013, style sheets and HTML pages produce a list of IDs and 
 
     *Audio player included in view*
 
-* * *
+---
 
 <a id="Summary"></a>
 ## Summary

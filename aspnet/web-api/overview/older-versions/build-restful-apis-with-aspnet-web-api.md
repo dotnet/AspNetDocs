@@ -411,7 +411,7 @@ In this task, you will continue to modify the Index view of the MVC application.
 > Additionally, you can deploy this application to Azure following [Appendix C: Publishing an ASP.NET MVC 4 Application using Web Deploy](#AppendixC).
 
 
-* * *
+---
 
 <a id="Summary"></a>
 ## Summary

@@ -714,7 +714,7 @@ You can install **Microsoft Visual Studio Express 2012 for Web** or another &quo
 
     *VS Express for Web tile*
 
-* * *
+---
 
 <a id="AppendixB"></a>
 
