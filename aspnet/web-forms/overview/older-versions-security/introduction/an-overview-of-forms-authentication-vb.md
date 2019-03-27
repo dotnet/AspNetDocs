@@ -17,7 +17,7 @@ by [Scott Mitchell](https://twitter.com/ScottOnWriting)
 
 > In this tutorial we will turn from mere discussion to implementation; in particular, we will look at implementing forms authentication. The web application we start constructing in this tutorial will continue to be built upon in subsequent tutorials, as we move from simple forms authentication to membership and roles.
 > 
-> Please see this video for more information on this topic: [Using Basic Forms Authentication in ASP.NET](# "using-basic-forms-authentication-in-aspnet").
+> Please see this video for more information on this topic: [Using Basic Forms Authentication in ASP.NET](../../../videos/authentication/using-basic-forms-authentication-in-aspnet.md).
 
 
 ## Introduction
