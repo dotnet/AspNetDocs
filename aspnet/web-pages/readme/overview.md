@@ -250,8 +250,8 @@ This section of the document describes new features, changes, and known issues w
 > 
 >    - Copy *C:\Program Files\Microsoft SQL Server Edition\v4.0\Desktop\System.Data.SqlServerCe.dll*   
 >        **to** *\Bin*
->    - Copy <em>C:\Program Files\Microsoft SQL Server Compact Edition\v4.0\Private\x86\\</em><strong><em>to</em></strong>\Bin\x86*
->    - Copy <em>C:\Program Files\Microsoft SQL Server Compact Edition\v4.0\Private\amd64\\</em>* <strong>to</strong><em>\Bin\amd64</em>
+>    - Copy *C:\Program Files\Microsoft SQL Server Compact Edition\v4.0\Private\x86\\* **to** *\Bin\x86*
+>    - Copy *C:\Program Files\Microsoft SQL Server Compact Edition\v4.0\Private\amd64\\** **to** *\Bin\amd64*
 > 
 > 2. In the root folder of the website, create or open a *web.config* file. (In WebMatrix 1.0, this file type is available if you click **All** in the **Choose a File Type** dialog box.)
 > 3. Add the following element as a child of the `<configuration>` element (not inside the `<system.web>` element):

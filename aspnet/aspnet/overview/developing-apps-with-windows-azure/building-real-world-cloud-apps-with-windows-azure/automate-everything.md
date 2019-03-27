@@ -119,7 +119,7 @@ The first thing the script does is create the web app by calling the `New-AzureW
 
 ### Create the storage account
 
-Then the main script runs the <em>New-AzureStorage.ps1</em> script, specifying "<em>&lt;websitename&gt;</em>storage" for the storage account name, and the same data center location as the web app.
+Then the main script runs the *New-AzureStorage.ps1* script, specifying "*&lt;websitename&gt;*storage" for the storage account name, and the same data center location as the web app.
 
 [!code-powershell[Main](automate-everything/samples/sample4.ps1?highlight=3)]
 

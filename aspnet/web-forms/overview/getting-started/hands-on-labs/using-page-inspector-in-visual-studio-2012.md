@@ -212,7 +212,7 @@ In this task, you will use the Page inspector and fix some issues the Photo Gall
 2. With Toggle Inspection Mode selected, click close to, but not on, the Register link to open its code.
 
     Notice that the source code of the links is located in the **\_LoginPartial.cshtml** file, not the Index.cshtml nor the \_Layout.cshtml, which are the places you might look in first place. You have been placed directly in the correct source file.
-3. In the **Styles** tab, locate and click the **<section> #login</section>** item, which is the HTML container for these links.
+3. In the **Styles** tab, locate and click the **\<section> #login** item, which is the HTML container for these links.
 
     Notice that the **#login** style is automatically located in **Site.css** after you click. Moreover, the code is now highlighted.
 

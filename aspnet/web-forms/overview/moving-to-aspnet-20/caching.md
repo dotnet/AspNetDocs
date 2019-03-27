@@ -50,7 +50,7 @@ To invalidate the item that was inserted above, simply remove the item that was 
 
 Note that the key of the item that acts as the cache key must be the same as the value added to the array of cache keys.
 
-## Polling-Based SQL Cache Dependencies<em>(Also called Table-Based Dependencies)</em>
+## Polling-Based SQL Cache Dependencies(Also called Table-Based Dependencies)
 
 SQL Server 7 and 2000 use the polling-based model for SQL cache dependencies. The polling-based model uses a trigger on a database table that is triggered when data in the table change. That trigger updates a **changeId** field in the notification table that ASP.NET checks periodically. If the **changeId** field has been updated, ASP.NET knows that the data have changed and it invalidates the cached data.
 
