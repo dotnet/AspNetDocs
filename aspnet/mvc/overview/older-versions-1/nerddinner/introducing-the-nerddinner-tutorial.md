@@ -56,7 +56,7 @@ We are going to begin our NerdDinner application by using the File-&gt;New Proje
 
 1. [How to create a new ASP.NET MVC Project](create-a-new-aspnet-mvc-project.md)
 2. [How to create a database](create-a-database.md)
-3. [How to build a model with business rule validations](build-a-model-with-business-rule-validations)
+3. [How to build a model with business rule validations](build-a-model-with-business-rule-validations.md)
 4. [How to use controllers and views to implement a listing/details UI](use-controllers-and-views-to-implement-a-listingdetails-ui.md)
 5. [How to provide CRUD (create, read, update, delete) data form entry support](provide-crud-create-read-update-delete-data-form-entry-support.md)
 6. [How to use ViewData and implement ViewModel classes](use-viewdata-and-implement-viewmodel-classes.md)
