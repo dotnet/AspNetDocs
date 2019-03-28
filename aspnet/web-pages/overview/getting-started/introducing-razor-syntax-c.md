@@ -569,7 +569,7 @@ An operator is a keyword or character that tells ASP.NET what kind of command to
 ---
 :::row:::
     :::column:::
-        `&&` <code>&#124;&#124;</code>
+        `&&` `||`
     :::column-end:::
     :::column:::
     Logical AND and OR, which are used to link conditions together.

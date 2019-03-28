@@ -140,7 +140,7 @@ Open the *Movies.cshtml* page again. In the code at the top, add the following l
 
 The `Page` object is available on all *.cshtml* pages and is for this purpose, namely to share information between a page and its layout.
 
-Open the<em>\_Layout.cshtml</em> page. Change the `<title>` element so that it looks like this markup:
+Open the *\_Layout.cshtml* page. Change the `<title>` element so that it looks like this markup:
 
 [!code-html[Main](layouts/samples/sample9.html)]
 

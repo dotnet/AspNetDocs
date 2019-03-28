@@ -28,7 +28,10 @@
         "allowed_elements": [
             "a",
             "br",
-            "p"
+            "font",
+            "kbd",
+            "p",
+            "sup"
         ]
     },
     "no-missing-space-atx": true,
