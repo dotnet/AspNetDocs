@@ -9,8 +9,8 @@ ms.assetid: 923573b7-91aa-43d5-85d8-ea27a972d913
 msc.legacyurl: /web-forms/videos/building-20-applications/lesson-5-debugging-and-tracing-your-website
 msc.type: video
 ---
-[Lesson 5:] Debugging and Tracing Your Website
-====================
+# [Lesson 5:] Debugging and Tracing Your Website
+
 by [Microsoft](https://github.com/microsoft)
 
 In this lesson, you will learn how to debug and monitor your ASP.NET 2.0 Web applications.

@@ -9,8 +9,8 @@ ms.assetid: 83a849da-fe6c-483a-bc26-73e8a135830f
 msc.legacyurl: /web-forms/videos/vs-2005/how-do-i-integrate-defect-tracking-with-testing
 msc.type: video
 ---
-[How Do I:] Integrate Defect Tracking with Testing?
-====================
+# [How Do I:] Integrate Defect Tracking with Testing?
+
 by [Chris Menegay](https://twitter.com/CMenegay)
 
 In this video we take a look at the integration points between the Testing Framework of Visual Studio Team System and the Work Item Tracking System.

@@ -9,8 +9,8 @@ ms.assetid: deba7d7e-3da2-48a1-8a9e-49c36c4bcc39
 msc.legacyurl: /web-forms/videos/aspnet-ajax/how-do-i-implement-the-ajax-paging-pattern
 msc.type: video
 ---
-[How Do I:] Implement the AJAX Paging Pattern?
-====================
+# [How Do I:] Implement the AJAX Paging Pattern?
+
 by [Joe Stagner](https://github.com/JoeStagner)
 
 In this video we see how to use ASP.NET AJAX to implement the paging pattern, which enables the ASP.NET application to present a large amount of data as being separated into smaller "pages" of data, and allow the user to move forward and backward among the pages.

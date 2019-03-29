@@ -9,8 +9,8 @@ ms.assetid: 83792674-f769-4c9a-889b-701cfc52de8b
 msc.legacyurl: /web-forms/videos/vs-2005/how-do-i-run-unit-tests-against-a-deployed-database
 msc.type: video
 ---
-[How Do I:] Run Unit Tests against a Deployed Database?
-====================
+# [How Do I:] Run Unit Tests against a Deployed Database?
+
 by [Paul Hacker](https://github.com/pjhacker)
 
 If your ASP.NET application is configured to deploy a database along with the Web site, how can you verify that a valid database instance has been deployed? In this video we learn how to run unit tests against the deployed database, asserting the existence of a value that is known to be consistent across database instances.

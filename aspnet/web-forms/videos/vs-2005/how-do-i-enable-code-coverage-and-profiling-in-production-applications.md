@@ -9,8 +9,8 @@ ms.assetid: a0437314-e310-425a-b67b-0dc06878dbe2
 msc.legacyurl: /web-forms/videos/vs-2005/how-do-i-enable-code-coverage-and-profiling-in-production-applications
 msc.type: video
 ---
-[How Do I:] Enable Code Coverage and Profiling in Production Applications?
-====================
+# [How Do I:] Enable Code Coverage and Profiling in Production Applications?
+
 by [Chris Menegay](https://twitter.com/CMenegay)
 
 Learn how to set up instrumentation for both code coverage and profiling in a deployed ASP.NET application, rather than an application running from within Visual Studio. This video follows the steps set out in the [Profiling ASP.NET in Instrumentation mode from the Command Line](https://msdn.microsoft.com/teamsystem/aa718860.aspx) TechNote on the Microsoft MSDN Web site.

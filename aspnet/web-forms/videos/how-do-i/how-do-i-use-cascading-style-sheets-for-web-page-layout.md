@@ -9,8 +9,8 @@ ms.assetid: c812231d-e811-4048-9922-b34df1d0f300
 msc.legacyurl: /web-forms/videos/how-do-i/how-do-i-use-cascading-style-sheets-for-web-page-layout
 msc.type: video
 ---
-[How Do I:] Use Cascading Style Sheets for Web Page Layout?
-====================
+# [How Do I:] Use Cascading Style Sheets for Web Page Layout?
+
 by [Chris Pels](https://twitter.com/chrispels)
 
 In this video we learn how to use `<div>` elements in combination with cascading style sheets (CSS) to create robust and higher performance web pages. The `<div>`based approach will be compared to the `<table>` based layout approach used by most web sites over recent years. Then, several CSS-based approaches will be shown, ranging from absolute positioning to floating elements. We also learn the benefits of separating structural HTML from design with the use of CSS.

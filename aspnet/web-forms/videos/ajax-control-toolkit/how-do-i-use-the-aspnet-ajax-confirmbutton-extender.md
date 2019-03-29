@@ -9,8 +9,8 @@ ms.assetid: 40287d43-6e0d-47ec-881f-c4dff970d1b9
 msc.legacyurl: /web-forms/videos/ajax-control-toolkit/how-do-i-use-the-aspnet-ajax-confirmbutton-extender
 msc.type: video
 ---
-[How Do I:] Use the ASP.NET AJAX ConfirmButton Extender?
-====================
+# [How Do I:] Use the ASP.NET AJAX ConfirmButton Extender?
+
 by [Joe Stagner](https://github.com/JoeStagner)
 
 Learn how the ConfirmButton extender in the ASP.NET AJAX Control Toolkit provides a simple way to add a confirmation dialog to the click event of a Button, LinkButton, or ImageButton control. This provides the user with the option to cancel an impending action.

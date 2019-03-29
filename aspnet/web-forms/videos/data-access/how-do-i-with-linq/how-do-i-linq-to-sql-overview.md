@@ -9,8 +9,8 @@ ms.assetid: f8d01146-8048-4750-a43b-aae53e3bd5f6
 msc.legacyurl: /web-forms/videos/data-access/how-do-i-with-linq/how-do-i-linq-to-sql-overview
 msc.type: video
 ---
-[How Do I:] LINQ to SQL: Overview
-====================
+# [How Do I:] LINQ to SQL: Overview
+
 by [Scott Stanfield](https://github.com/scottstanfield)
 
 New language features for C# and VB support data access directly from code, without writing SQL. This video shows the minimum steps to use LINQ (Language Integrated Query) to query, update, add and delete rows from the Northwind database.

@@ -9,8 +9,8 @@ ms.assetid: b837358b-ed14-44cd-b9fa-54910dd3e8b9
 msc.legacyurl: /web-forms/videos/how-do-i/how-do-i-customize-my-site-with-profiles-and-themes
 msc.type: video
 ---
-[How Do I:] Customize my Site with Profiles and Themes?
-====================
+# [How Do I:] Customize my Site with Profiles and Themes?
+
 by [Microsoft](https://github.com/microsoft)
 
 Learn how to use Profiles to collect per-user configuration information and apply Themes to extend a consistent look-and-feel throughout the Web site.

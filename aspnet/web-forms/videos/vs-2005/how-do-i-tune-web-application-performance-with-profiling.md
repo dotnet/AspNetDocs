@@ -9,8 +9,8 @@ ms.assetid: ee916787-dbf2-45c5-a1e7-3b2b5862a94b
 msc.legacyurl: /web-forms/videos/vs-2005/how-do-i-tune-web-application-performance-with-profiling
 msc.type: video
 ---
-[How Do I:] Tune Web Application Performance with Profiling?
-====================
+# [How Do I:] Tune Web Application Performance with Profiling?
+
 by [Chris Menegay](https://twitter.com/CMenegay)
 
 In this video we learn that Visual Studio Team System provides two methods of profiling a Web application: Sampling and Instrumentation. Instrumentation injects markers in the underlying code so that the developer can view full details of the application's execution, including call trees and object allocation, to help tune the performance of the application.

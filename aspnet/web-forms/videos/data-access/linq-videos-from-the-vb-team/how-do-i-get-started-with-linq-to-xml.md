@@ -9,8 +9,8 @@ ms.assetid: dc3dedcd-5daf-4f0e-9afa-9ccad94f2ce0
 msc.legacyurl: /web-forms/videos/data-access/linq-videos-from-the-vb-team/how-do-i-get-started-with-linq-to-xml
 msc.type: video
 ---
-[How Do I:] Get Started with LINQ to XML?
-====================
+# [How Do I:] Get Started with LINQ to XML?
+
 by [Beth Massi](https://github.com/bethmassi)
 
 Visual Basic developers will learn how to work with XML in Visual Basic using XML literals, embedded expressions and XML axis properties to create, query and transform XML documents easily.

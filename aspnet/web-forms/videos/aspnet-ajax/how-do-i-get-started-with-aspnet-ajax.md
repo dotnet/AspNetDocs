@@ -9,8 +9,8 @@ ms.assetid: 75707a81-244f-4fdc-aab3-eaefd9300e43
 msc.legacyurl: /web-forms/videos/aspnet-ajax/how-do-i-get-started-with-aspnet-ajax
 msc.type: video
 ---
-[How Do I:] Get Started with ASP.NET AJAX?
-====================
+# [How Do I:] Get Started with ASP.NET AJAX?
+
 by [Joe Stagner](https://github.com/JoeStagner)
 
 Note that ASP.NET AJAX is included as part of .NET 3.5, so the installation part of this video is only relevant if you are using the .NET Framework Version 2.0.

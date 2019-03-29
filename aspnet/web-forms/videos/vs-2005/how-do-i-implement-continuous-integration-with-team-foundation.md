@@ -9,8 +9,8 @@ ms.assetid: 525c3f23-586a-4594-a2cf-efb5a1ef6898
 msc.legacyurl: /web-forms/videos/vs-2005/how-do-i-implement-continuous-integration-with-team-foundation
 msc.type: video
 ---
-[How Do I:] Implement Continuous Integration with Team Foundation?
-====================
+# [How Do I:] Implement Continuous Integration with Team Foundation?
+
 by [Chris Menegay](https://twitter.com/CMenegay)
 
 There are a number of continuous integration tools that work on top of Team Foundation Server, and in this video we look at the free [Norton TeamCI](http://teamsystemrocks.com/files/12/tools/entry1018.aspx) tool available from [Team System Rocks](http://teamsystemrocks.com/). TeamCI periodically checks whether updated files have been checked in to Team Foundation Server and, if so, will build the solution and run any automated tests.

@@ -9,8 +9,8 @@ ms.assetid: 10b5bad3-4c18-464f-9454-0b3e60b7b8be
 msc.legacyurl: /web-forms/videos/aspnet-ajax/how-do-i-use-the-conditional-updatemode-of-the-updatepanel
 msc.type: video
 ---
-[How Do I:] Use the Conditional UpdateMode of the UpdatePanel?
-====================
+# [How Do I:] Use the Conditional UpdateMode of the UpdatePanel?
+
 by [Joe Stagner](https://github.com/JoeStagner)
 
 The ASP.NET AJAX UpdatePanel includes an UpdateMode property that may be set to 'Always' or 'Conditional'. The default is Always, in which case the UpdatePanel will always update its content during an asynchronous postback. In this video we learn how we can set the UpdateMode to Conditional, in which case the UpdatePanel will only update its content when our server-side code calls its Update method. This allows you to use conditional logic in your C# or Visual Basic code to determine whether the UpdatePanel will update its content during the current asynchronous postback.

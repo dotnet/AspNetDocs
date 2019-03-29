@@ -9,8 +9,8 @@ ms.assetid: c11935d8-c3df-45d3-aab1-1d90f6599b6d
 msc.legacyurl: /web-forms/videos/aspnet-ajax/how-do-i-use-an-aspnet-ajax-scriptmanagerproxy
 msc.type: video
 ---
-[How Do I:] Use an ASP.NET AJAX ScriptManagerProxy?
-====================
+# [How Do I:] Use an ASP.NET AJAX ScriptManagerProxy?
+
 by [Joe Stagner](https://github.com/JoeStagner)
 
 Learn how a ScriptManagerProxy enables a content page to pass references to the ScriptManager placed on its ASP.NET master page, allowing each content page to define its own AJAX behavior.

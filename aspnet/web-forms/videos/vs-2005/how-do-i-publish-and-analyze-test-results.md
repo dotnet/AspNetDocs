@@ -9,8 +9,8 @@ ms.assetid: 9fb155e0-1379-482c-963d-af7dc0397d76
 msc.legacyurl: /web-forms/videos/vs-2005/how-do-i-publish-and-analyze-test-results
 msc.type: video
 ---
-[How Do I:] Publish and Analyze Test Results?
-====================
+# [How Do I:] Publish and Analyze Test Results?
+
 by [Chris Menegay](https://twitter.com/CMenegay)
 
 Visual Studio Team System enables you to chart changes in a project's code quality as the project progresses. This video provides instructions on how to publish test results to the Team Foundation Server project database and associate the results with a build number. We see that after the results are published we can use the Report Manager to view a graphical representation of changes in our build test results.

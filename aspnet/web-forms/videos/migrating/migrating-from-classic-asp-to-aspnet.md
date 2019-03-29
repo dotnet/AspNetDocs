@@ -9,8 +9,8 @@ ms.assetid: af5736dd-e01d-45d6-8ac0-01ec0fe49023
 msc.legacyurl: /web-forms/videos/migrating/migrating-from-classic-asp-to-aspnet
 msc.type: video
 ---
-[Migrating from] Classic ASP to ASP.NET
-====================
+# [Migrating from] Classic ASP to ASP.NET
+
 by [Microsoft](https://github.com/microsoft)
 
 Are you planning to migrate from classic ASP to Microsoft ASP.NET 2.0? This webcast series walks you through the important architectural design considerations to keep in mind when you plan your migration strategy.

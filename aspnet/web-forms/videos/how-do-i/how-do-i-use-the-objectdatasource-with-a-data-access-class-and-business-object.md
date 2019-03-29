@@ -9,8 +9,8 @@ ms.assetid: 8a47e438-3d8c-4a70-803c-56536a868bd9
 msc.legacyurl: /web-forms/videos/how-do-i/how-do-i-use-the-objectdatasource-with-a-data-access-class-and-business-object
 msc.type: video
 ---
-[How Do I:] Use the ObjectDataSource with a Data Access Class and Business Object
-====================
+# [How Do I:] Use the ObjectDataSource with a Data Access Class and Business Object
+
 by [Chris Pels](https://twitter.com/chrispels)
 
 In this video Chris Pels will show how to use the ObjectDataSource as the intermediate layer between data bound user interface elements and a custom data access class for a business object. Uses of the ObjectDataSource in the GUI Design mode and declaratively in the source view of an .aspx page are discussed. In addition, the considerations for design of the data access class and business object for use with the ObjectDataSource are covered.

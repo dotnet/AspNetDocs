@@ -9,8 +9,8 @@ ms.assetid: 22ddc59d-cd84-4def-a58b-ec3ca57f0d85
 msc.legacyurl: /web-forms/videos/building-20-applications/lesson-4-understanding-web-application-state
 msc.type: video
 ---
-[Lesson 4:] Understanding Web Application State
-====================
+# [Lesson 4:] Understanding Web Application State
+
 by [Microsoft](https://github.com/microsoft)
 
 In this lesson, you will see how to maintain state in ASP.NET, including the various objects you can use to store information for your ASP.NET 2.0 applications.

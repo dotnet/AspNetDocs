@@ -9,8 +9,8 @@ ms.assetid: 8ba6bfb6-8eb3-45d2-8819-5b5b54bf520c
 msc.legacyurl: /web-forms/videos/data-access/how-do-i-with-linq/how-do-i-linq-to-sql-linqdatasource
 msc.type: video
 ---
-[How Do I:] LINQ to SQL: LinqDataSource
-====================
+# [How Do I:] LINQ to SQL: LinqDataSource
+
 by [Scott Stanfield](https://github.com/scottstanfield)
 
 The new asp:LinqDataSource control .NET 3.5 makes binding to UI elements easy. In fact, no code was written or harmed in the making of this video. Query, update, delete, paging, sorting, all done through LINQ and the LinqDataSource.

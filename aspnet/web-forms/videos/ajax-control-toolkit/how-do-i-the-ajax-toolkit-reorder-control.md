@@ -9,8 +9,8 @@ ms.assetid: 1bc7e41a-633c-4ade-ba7a-486c9484a0ba
 msc.legacyurl: /web-forms/videos/ajax-control-toolkit/how-do-i-the-ajax-toolkit-reorder-control
 msc.type: video
 ---
-[How Do I:] The AJAX Toolkit Reorder Control
-====================
+# [How Do I:] The AJAX Toolkit Reorder Control
+
 by [Joe Stagner](https://github.com/JoeStagner)
 
 In this video I will demonstrate the use of the reorder control that ships with the AJAX toolkit. The reorder control lets you present to your users a list of data items that can be reordered as the user prefers.

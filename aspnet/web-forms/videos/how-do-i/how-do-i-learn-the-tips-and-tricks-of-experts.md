@@ -9,8 +9,8 @@ ms.assetid: 77526e53-524b-4cae-9025-3e493f2895d0
 msc.legacyurl: /web-forms/videos/how-do-i/how-do-i-learn-the-tips-and-tricks-of-experts
 msc.type: video
 ---
-[How Do I:] Learn the Tips and Tricks of Experts?
-====================
+# [How Do I:] Learn the Tips and Tricks of Experts?
+
 by [Microsoft](https://github.com/microsoft)
 
 View tips and tricks including encrypting sensitive information stored in the web.config file, posting content to a different page, simplifying complex URLs using URL remapping, and much, much more.

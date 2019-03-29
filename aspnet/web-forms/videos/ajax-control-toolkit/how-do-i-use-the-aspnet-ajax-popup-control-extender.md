@@ -9,8 +9,8 @@ ms.assetid: ecd34391-958f-410c-849d-cfaa2dd414dd
 msc.legacyurl: /web-forms/videos/ajax-control-toolkit/how-do-i-use-the-aspnet-ajax-popup-control-extender
 msc.type: video
 ---
-[How Do I:] Use the ASP.NET AJAX Popup Control Extender?
-====================
+# [How Do I:] Use the ASP.NET AJAX Popup Control Extender?
+
 by [Joe Stagner](https://github.com/JoeStagner)
 
 This video demonstrates the use of the Popup control extender that ships with the ASP.NET AJAX Control Toolkit. Learn how to extend a TextBox control so that, when it receives focus, a popup dialog will appear with a list of options.
