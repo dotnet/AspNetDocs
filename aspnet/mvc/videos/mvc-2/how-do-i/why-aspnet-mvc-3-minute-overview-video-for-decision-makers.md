@@ -9,8 +9,8 @@ ms.assetid: 5b3fb86a-3245-41a3-bd1a-bde92e37b18d
 msc.legacyurl: /mvc/videos/mvc-2/how-do-i/why-aspnet-mvc-3-minute-overview-video-for-decision-makers
 msc.type: video
 ---
-Why ASP.NET MVC? 3 minute overview video for decision makers
-====================
+# Why ASP.NET MVC? 3 minute overview video for decision makers
+
 by [Rob Conery](https://github.com/robconery)
 
 A high-level overview of ASP.NET MVC for decision-makers who would like to know more about benefits of ASP.NET MVC.

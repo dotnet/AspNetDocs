@@ -9,8 +9,8 @@ ms.assetid: b9fb1e01-06d9-43d9-9e8f-5fa1e4c6a211
 msc.legacyurl: /web-forms/videos/authentication/sql-injection-defense
 msc.type: video
 ---
-SQL Injection Defense
-====================
+# SQL Injection Defense
+
 by [Joe Stagner](https://github.com/JoeStagner)
 
 A SQL Injection vulnerability in your application can ruin your whole day. In this video, Microsoft's Joe Stagner explains how SQL Injection attacks can happen, what a bad guy can do with them, and how to protect your ASP.NET application from SQL Injection vulnerabilities.

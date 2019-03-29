@@ -9,8 +9,8 @@ ms.assetid: d8f5d0e8-1ddd-4005-a7aa-50ae87f9f9f3
 msc.legacyurl: /signalr/overview/advanced
 msc.type: chapter
 ---
-SignalR Advanced Topics
-====================
+# SignalR Advanced Topics
+
 > SignalR documentation - advanced topics.
 
 

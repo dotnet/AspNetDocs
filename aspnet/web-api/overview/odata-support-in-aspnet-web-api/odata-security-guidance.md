@@ -9,8 +9,8 @@ ms.assetid: b91e6424-1544-4747-bd0b-d1f8418c9653
 msc.legacyurl: /web-api/overview/odata-support-in-aspnet-web-api/odata-security-guidance
 msc.type: authoredcontent
 ---
-Security Guidance for ASP.NET Web API 2 OData
-====================
+# Security Guidance for ASP.NET Web API 2 OData
+
 by [Mike Wasson](https://github.com/MikeWasson)
 
 This topic describes some of the security issues that you should consider when exposing a dataset through OData.

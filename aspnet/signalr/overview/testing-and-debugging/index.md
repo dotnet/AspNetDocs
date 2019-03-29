@@ -9,8 +9,8 @@ ms.assetid: 437f6dec-ab4b-4d12-af71-e8ab028aab7b
 msc.legacyurl: /signalr/overview/testing-and-debugging
 msc.type: chapter
 ---
-SignalR Testing and Debugging
-====================
+# SignalR Testing and Debugging
+
 > How to test and debug SignalR applications.
 
 

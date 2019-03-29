@@ -9,8 +9,8 @@ ms.assetid: 8935bf14-ca6d-4a4e-9dbe-b96ce74cef49
 msc.legacyurl: /ajax/cdn
 msc.type: content
 ---
-Microsoft Ajax Content Delivery Network
-====================
+# Microsoft Ajax Content Delivery Network
+
 > [!WARNING]
 > Production applications should not take a hard dependency on CDN assets. Applications should test for the CDN asset referenced, and use a fallback asset when the CDN is not available.
 >

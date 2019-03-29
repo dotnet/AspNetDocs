@@ -9,8 +9,8 @@ ms.assetid: e618c37c-68f3-49aa-9fda-f86cb3b578b9
 msc.legacyurl: /mvc/videos
 msc.type: book
 ---
-Videos
-====================
+# Videos
+
 - [ASP.NET MVC 4](mvc-4/index.md)
 
     - [Using Page Inspector in ASP.NET MVC](mvc-4/using-page-inspector-in-aspnet-mvc.md)

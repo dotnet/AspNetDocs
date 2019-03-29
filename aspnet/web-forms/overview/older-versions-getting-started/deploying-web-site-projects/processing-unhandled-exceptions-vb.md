@@ -9,8 +9,8 @@ ms.assetid: 051296f0-9519-4e78-835c-d868da13b0a0
 msc.legacyurl: /web-forms/overview/older-versions-getting-started/deploying-web-site-projects/processing-unhandled-exceptions-vb
 msc.type: authoredcontent
 ---
-Processing Unhandled Exceptions (VB)
-====================
+# Processing Unhandled Exceptions (VB)
+
 by [Scott Mitchell](https://twitter.com/ScottOnWriting)
 
 [View or download sample code](https://github.com/aspnet/AspNetDocs/tree/master/aspnet/web-forms/overview/older-versions-getting-started/deploying-web-site-projects/processing-unhandled-exceptions-vb/samples) ([how to download](/aspnet/core/tutorials/index#how-to-download-a-sample))

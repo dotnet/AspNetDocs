@@ -9,8 +9,8 @@ ms.assetid: 9b9eb93d-19c6-4933-ab5f-826b427a9ad0
 msc.legacyurl: /web-forms/videos/building-35-applications/validation
 msc.type: video
 ---
-Validation
-====================
+# Validation
+
 by [Joe Stagner](https://github.com/JoeStagner)
 
 In this video Joe will demonstrate the use of the FormValidation controls in ASP.NET Using Microsoft Visual Web Developer.

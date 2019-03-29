@@ -9,8 +9,8 @@ ms.assetid: 58b5eb15-4160-4ce2-ae70-6ba94262ea73
 msc.legacyurl: /mvc/videos/mvc-2/how-do-i/how-do-i-create-a-custom-html-helper-for-an-mvc-application
 msc.type: video
 ---
-How Do I: Create a Custom HTML Helper for an MVC Application?
-====================
+# How Do I: Create a Custom HTML Helper for an MVC Application?
+
 by [Chris Pels](https://twitter.com/chrispels)
 
 In this video Chris Pels shows how to create a custom HtmlHelper that is not available in the standard set in an MVC application. First, a sample MVC application is created with a demo controller and view to test the custom HtmlHelper. Next, a module is created with a public function that is an extension method which represents the implementation of the custom HtmlHelper. The custom helper is for creating `<img>` tags in a page and receives several inbound parameters including the id, url, and alt text for the image tag. The logic is then added to the function for returning the completed `<img>` tag with the specified information. Then the custom HtmlHelper is used on the demo page to display an image. Finally, the custom HtmlHelper is expanded to include multiple constructor overrides which provide flexibility for more easily creating different `<img>` tags.

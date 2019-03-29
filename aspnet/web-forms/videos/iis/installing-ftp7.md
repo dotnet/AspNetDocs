@@ -9,8 +9,8 @@ ms.assetid: 92348a5c-10a3-4cad-b3cf-5e8669f987ab
 msc.legacyurl: /web-forms/videos/iis/installing-ftp7
 msc.type: video
 ---
-Installing FTP7
-====================
+# Installing FTP7
+
 by [Joe Stagner](https://github.com/JoeStagner)
 
 FTP7 is new and powerful. This video shows you how to get it up and running!

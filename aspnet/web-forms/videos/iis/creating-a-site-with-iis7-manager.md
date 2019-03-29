@@ -9,8 +9,8 @@ ms.assetid: f52814a3-b458-415c-ab9f-b0f904c48705
 msc.legacyurl: /web-forms/videos/iis/creating-a-site-with-iis7-manager
 msc.type: video
 ---
-Creating a Site with IIS7 Manager
-====================
+# Creating a Site with IIS7 Manager
+
 by [Joe Stagner](https://github.com/JoeStagner)
 
 This video demonstrates the provisioning process for new web sites with IIS7.

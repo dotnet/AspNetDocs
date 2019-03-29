@@ -9,8 +9,8 @@ ms.assetid: 58187ddb-bd53-406d-88be-8908905d726c
 msc.legacyurl: /web-pages/overview/security
 msc.type: chapter
 ---
-Security
-====================
+# Security
+
 > How to add login capabilities to an ASP.NET Web Pages application, and how to help protect the application from bots.
 
 

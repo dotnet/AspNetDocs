@@ -9,8 +9,8 @@ ms.assetid: 2acff246-c74c-4277-b539-35bc42988c6f
 msc.legacyurl: /signalr/overview/getting-started
 msc.type: chapter
 ---
-SignalR Getting Started
-====================
+# SignalR Getting Started
+
 > What SignalR is, platforms it runs on, and how to get started.
 
 

@@ -9,8 +9,8 @@ ms.assetid: e42c8388-04ed-4341-9fdb-41b1b4c06320
 msc.legacyurl: /web-api/overview/formats-and-model-binding/parameter-binding-in-aspnet-web-api
 msc.type: authoredcontent
 ---
-Parameter Binding in ASP.NET Web API
-====================
+# Parameter Binding in ASP.NET Web API
+
 by [Mike Wasson](https://github.com/MikeWasson)
 
 When Web API calls a method on a controller, it must set values for the parameters, a process called *binding*. This article describes how Web API binds parameters, and how you can customize the binding process.

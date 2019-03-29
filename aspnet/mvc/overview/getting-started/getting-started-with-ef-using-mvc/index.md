@@ -9,8 +9,8 @@ ms.assetid: 2aebcde0-b04c-47db-b9c9-077714a5db77
 msc.legacyurl: /mvc/overview/getting-started/getting-started-with-ef-using-mvc
 msc.type: chapter
 ---
-Getting Started with Entity Framework 6 Code First using MVC 5
-====================
+# Getting Started with Entity Framework 6 Code First using MVC 5
+
 > The basics of using Entity Framework 6 to display and edit data in an ASP.NET MVC 5 application.
 
 

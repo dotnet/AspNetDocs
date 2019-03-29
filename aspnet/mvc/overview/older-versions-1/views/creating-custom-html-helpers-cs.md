@@ -10,8 +10,8 @@ msc.legacyurl: /mvc/overview/older-versions-1/views/creating-custom-html-helpers
 msc.type: authoredcontent
 uid: aspnet/mvc/overview/older-versions-1/views/creating-custom-html-helpers-cs
 ---
-Creating Custom HTML Helpers (C#)
-====================
+# Creating Custom HTML Helpers (C#)
+
 by [Microsoft](https://github.com/microsoft)
 
 [Download PDF](http://download.microsoft.com/download/1/1/f/11f721aa-d749-4ed7-bb89-a681b68894e6/ASPNET_MVC_Tutorial_9_CS.pdf)

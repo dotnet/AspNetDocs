@@ -9,8 +9,8 @@ ms.assetid: 2bb109d2-e299-46ea-9054-fa0263b59165
 msc.legacyurl: /web-forms/overview/moving-to-aspnet-20/caching
 msc.type: authoredcontent
 ---
-Caching
-====================
+# Caching
+
 by [Microsoft](https://github.com/microsoft)
 
 > An understanding of caching is important for a well-performing ASP.NET application. ASP.NET 1.x offered three different options for caching; output caching, fragment caching, and the cache API.

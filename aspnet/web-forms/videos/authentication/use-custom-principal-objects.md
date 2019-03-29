@@ -9,8 +9,8 @@ ms.assetid: 368733eb-0822-4b97-8e5a-127be6c88a61
 msc.legacyurl: /web-forms/videos/authentication/use-custom-principal-objects
 msc.type: video
 ---
-Use Custom Principal Objects
-====================
+# Use Custom Principal Objects
+
 by [Joe Stagner](https://github.com/JoeStagner)
 
 Joe Stagner demonstrates how to implement custom identity in principal objects in order to store user authentication data. For more information on this demo, a tutorial is located [here.](../../overview/older-versions-security/introduction/forms-authentication-configuration-and-advanced-topics-vb.md)

@@ -9,8 +9,8 @@ ms.assetid: b5d61ce5-0dd4-40ef-939f-c4b17bcb9c3b
 msc.legacyurl: /web-pages/overview/data
 msc.type: chapter
 ---
-Working with Data
-====================
+# Working with Data
+
 > How to work with databases and files in Web Pages and how to display and update data.
 
 

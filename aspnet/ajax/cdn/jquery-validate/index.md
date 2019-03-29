@@ -9,8 +9,8 @@ ms.assetid: a266cc44-f514-4913-9768-5b382380184d
 msc.legacyurl: /ajax/cdn/jquery-validate
 msc.type: folder
 ---
-jQuery Validate
-====================
+# jQuery Validate
+
 - [jQuery Validation 1.17.0](cdnjqueryvalidate1170.md)
 - [jQuery Validation 1.16.0](cdnjqueryvalidate1160.md)
 - [jQuery Validation 1.15.1](cdnjqueryvalidate1151.md)

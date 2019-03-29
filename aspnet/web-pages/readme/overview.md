@@ -9,8 +9,8 @@ ms.assetid: 36c5beeb-45a7-48a0-9c30-f82cdf5c5f5f
 msc.legacyurl: /web-pages/readme
 msc.type: content
 ---
-WebMatrix Readme
-====================
+# WebMatrix Readme
+
 13 January 2011
 
 ## Contents

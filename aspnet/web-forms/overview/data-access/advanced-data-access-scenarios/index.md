@@ -9,8 +9,8 @@ ms.assetid: 00d198ed-fddc-4fd3-a86e-3f29c5f707cc
 msc.legacyurl: /web-forms/overview/data-access/advanced-data-access-scenarios
 msc.type: chapter
 ---
-Advanced Data Access Scenarios
-====================
+# Advanced Data Access Scenarios
+
 > These tutorials cover how to work with stored procedures and computed columns, how to use joins with database tables, and how to encrypt data connection information.
 
 

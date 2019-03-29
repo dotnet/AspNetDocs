@@ -9,8 +9,8 @@ ms.assetid: 552d2d50-fe73-4153-9a7f-2b379bec4625
 msc.legacyurl: /web-forms/overview/data-access/masterdetail/master-detail-filtering-across-two-pages-cs
 msc.type: authoredcontent
 ---
-Master/Detail Filtering Across Two Pages (C#)
-====================
+# Master/Detail Filtering Across Two Pages (C#)
+
 by [Scott Mitchell](https://twitter.com/ScottOnWriting)
 
 [Download Sample App](http://download.microsoft.com/download/4/6/3/463cf87c-4724-4cbc-b7b5-3f866f43ba50/ASPNET_Data_Tutorial_9_CS.exe) or [Download PDF](master-detail-filtering-across-two-pages-cs/_static/datatutorial09cs1.pdf)

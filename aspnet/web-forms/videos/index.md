@@ -9,8 +9,8 @@ ms.assetid: f215d6b9-8a84-4bd8-8881-e9527d814950
 msc.legacyurl: /web-forms/videos
 msc.type: book
 ---
-Videos
-====================
+# Videos
+
 - [How Do I?](how-do-i/index.md)
 
     - [Learn the Tips and Tricks of Experts](how-do-i/how-do-i-learn-the-tips-and-tricks-of-experts.md)

@@ -9,8 +9,8 @@ ms.assetid: 521c9117-81cd-4d8d-9d96-0256dc7bf50f
 msc.legacyurl: /mvc/overview/older-versions-1/controllers-and-routing/improving-performance-with-output-caching-cs
 msc.type: authoredcontent
 ---
-Improving Performance with Output Caching (C#)
-====================
+# Improving Performance with Output Caching (C#)
+
 by [Microsoft](https://github.com/microsoft)
 
 > In this tutorial, you learn how you can dramatically improve the performance of your ASP.NET MVC web applications by taking advantage of output caching. You learn how to cache the result returned from a controller action so that the same content does not need to be created each and every time a new user invokes the action.

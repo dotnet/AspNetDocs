@@ -9,8 +9,8 @@ ms.assetid: e3d3e7ba-87f0-4032-bdd3-31f3c1aa9d9c
 msc.legacyurl: /web-api/overview/advanced/dependency-injection
 msc.type: authoredcontent
 ---
-Dependency Injection in ASP.NET Web API 2
-====================
+# Dependency Injection in ASP.NET Web API 2
+
 by [Mike Wasson](https://github.com/MikeWasson)
 
 [Download Completed Project](http://code.msdn.microsoft.com/ASP-NET-Web-API-Tutorial-468ee148)

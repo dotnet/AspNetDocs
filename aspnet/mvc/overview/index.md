@@ -9,8 +9,8 @@ ms.assetid: 946574c5-b5cb-423b-a6e1-a2cfb506ecf9
 msc.legacyurl: /mvc/overview
 msc.type: book
 ---
-ASP.NET MVC Guidance
-====================
+# ASP.NET MVC Guidance
+
 - [Getting Started](getting-started/index.md)
 - [UI, Layouts, and Themes](views/index.md)
 - [Security, Authentication, and Authorization](security/index.md)

@@ -9,8 +9,8 @@ ms.assetid: ebe337ae-9646-49f4-bb38-e6d3138b39fd
 msc.legacyurl: /web-forms/videos/aspnet-web-forms-vnext/getting-started-with-the-next-version-of-aspnet
 msc.type: video
 ---
-Getting Started with the Next Version of ASP.NET
-====================
+# Getting Started with the Next Version of ASP.NET
+
 by [Scott Hanselman](https://github.com/shanselman)
 
 Scott Hanselman introduces you to the upcoming features in the next version of ASP.NET.

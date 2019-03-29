@@ -9,8 +9,8 @@ ms.assetid: 54d9df99-1161-4899-b4e8-2679c85915e7
 msc.legacyurl: /web-forms/overview/older-versions-getting-started/aspnet-ajax/understanding-partial-page-updates-with-asp-net-ajax
 msc.type: authoredcontent
 ---
-Understanding Partial Page Updates with ASP.NET AJAX
-====================
+# Understanding Partial Page Updates with ASP.NET AJAX
+
 by [Scott Cate](https://github.com/scottcate)
 
 [Download PDF](http://download.microsoft.com/download/C/1/9/C19A3451-1D14-477C-B703-54EF22E197EE/AJAX_tutorial01_Partial_Page_Updates_cs.pdf)

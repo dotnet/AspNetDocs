@@ -10,9 +10,9 @@ ms.assetid: be0c098a-1fb2-457e-b815-ddca601afc65
 msc.legacyurl: /mvc/overview/getting-started/getting-started-with-ef-using-mvc/handling-concurrency-with-the-entity-framework-in-an-asp-net-mvc-application
 msc.type: authoredcontent
 ---
-
+# 
 Handling Concurrency with the Entity Framework 6 in an ASP.NET MVC 5 Application (10 of 12)
-====================
+
 
 # Tutorial: Handle Concurrency with EF in an ASP.NET MVC 5 app
 

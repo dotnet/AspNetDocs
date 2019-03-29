@@ -9,8 +9,8 @@ ms.assetid: c7e4e1ab-4932-4614-9f53-aaf7c706d498
 msc.legacyurl: /mvc/overview/views/using-page-inspector-in-aspnet-mvc
 msc.type: authoredcontent
 ---
-Using Page Inspector in ASP.NET MVC
-====================
+# Using Page Inspector in ASP.NET MVC
+
 by Tim Ammann
 
 > Page Inspector in Visual Studio 2012 is a web development tool with an integrated browser. Select any element in the integrated browser, and Page Inspector instantly highlights the element's source and CSS. You can browse any MVC view, quickly find the sources of rendered markup, and use browser tools right within the Visual Studio environment.

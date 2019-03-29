@@ -9,8 +9,8 @@ ms.assetid: b380c940-84c4-4e4a-980a-fa69986e919b
 msc.legacyurl: /web-api/overview/older-versions/using-web-api-1-with-entity-framework-5
 msc.type: chapter
 ---
-Using ASP.NET Web API 1 with Entity Framework 5
-====================
+# Using ASP.NET Web API 1 with Entity Framework 5
+
 > How to create a Web API 1 application that uses Entity Framework for database persistence.
 
 

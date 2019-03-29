@@ -9,8 +9,8 @@ ms.assetid: 7ef664b3-1cc8-4cbf-bb18-9f0f3a3ada2b
 msc.legacyurl: /web-forms/overview/presenting-and-managing-data/model-binding/adding-business-logic-layer
 msc.type: authoredcontent
 ---
-Adding business logic layer to a project that uses model binding and web forms
-====================
+# Adding business logic layer to a project that uses model binding and web forms
+
 by [Tom FitzMacken](https://github.com/tfitzmac)
 
 > This tutorial series demonstrates basic aspects of using model binding with an ASP.NET Web Forms project. Model binding makes data interaction more straight-forward than dealing with data source objects (such as ObjectDataSource or SqlDataSource). This series starts with introductory material and moves to more advanced concepts in later tutorials.

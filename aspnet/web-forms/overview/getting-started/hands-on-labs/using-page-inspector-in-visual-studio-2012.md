@@ -9,8 +9,8 @@ ms.assetid: 73232292-a5fe-4720-82a1-8f6553effd1f
 msc.legacyurl: /web-forms/overview/getting-started/hands-on-labs/using-page-inspector-in-visual-studio-2012
 msc.type: authoredcontent
 ---
-Using Page Inspector in Visual Studio 2012
-====================
+# Using Page Inspector in Visual Studio 2012
+
 by [Web Camps Team](https://twitter.com/webcamps)
 
 > In this Hands-on Lab, you will discover a new tool to find and fix web page issues in Visual Studio - the Page Inspector.

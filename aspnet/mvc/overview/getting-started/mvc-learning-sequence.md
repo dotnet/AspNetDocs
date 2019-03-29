@@ -9,8 +9,8 @@ ms.assetid: 8513a57a-2d45-4d6b-881c-15a01c5cbb1c
 msc.legacyurl: /mvc/overview/getting-started/mvc-learning-sequence
 msc.type: authoredcontent
 ---
-MVC recommended tutorials and articles
-====================
+# MVC recommended tutorials and articles
+
 by [Rick Anderson]((https://twitter.com/RickAndMSFT))
 
 <a id="pwd"></a>

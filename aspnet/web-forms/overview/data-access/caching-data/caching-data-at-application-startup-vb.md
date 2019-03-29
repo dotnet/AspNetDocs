@@ -9,8 +9,8 @@ ms.assetid: 84afe4ac-cc53-4f2e-a867-27eaf692c2df
 msc.legacyurl: /web-forms/overview/data-access/caching-data/caching-data-at-application-startup-vb
 msc.type: authoredcontent
 ---
-Caching Data at Application Startup (VB)
-====================
+# Caching Data at Application Startup (VB)
+
 by [Scott Mitchell](https://twitter.com/ScottOnWriting)
 
 [Download PDF](caching-data-at-application-startup-vb/_static/datatutorial60vb1.pdf)

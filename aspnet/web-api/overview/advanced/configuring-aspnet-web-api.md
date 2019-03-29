@@ -9,8 +9,8 @@ ms.assetid: 9e10a700-8d91-4d2e-a31e-b8b569fe867c
 msc.legacyurl: /web-api/overview/advanced/configuring-aspnet-web-api
 msc.type: authoredcontent
 ---
-Configuring ASP.NET Web API 2
-====================
+# Configuring ASP.NET Web API 2
+
 by [Mike Wasson](https://github.com/MikeWasson)
 
 This topic describes how to configure ASP.NET Web API.

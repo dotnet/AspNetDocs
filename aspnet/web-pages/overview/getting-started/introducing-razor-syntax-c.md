@@ -9,8 +9,8 @@ ms.assetid: aa67d304-583b-4bf8-a231-195656cfb587
 msc.legacyurl: /web-pages/overview/getting-started/introducing-razor-syntax-c
 msc.type: authoredcontent
 ---
-Introduction to ASP.NET Web Programming Using the Razor Syntax (C#)
-====================
+# Introduction to ASP.NET Web Programming Using the Razor Syntax (C#)
+
 by [Tom FitzMacken](https://github.com/tfitzmac)
 
 > This article gives you an overview of programming with ASP.NET Web Pages using the Razor syntax. ASP.NET is Microsoft's technology for running dynamic web pages on web servers. This articles focuses on using the C# programming language.

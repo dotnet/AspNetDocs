@@ -9,8 +9,8 @@ ms.assetid: adbc175a-14eb-4ab2-a441-d056ffa8266f
 msc.legacyurl: /web-api/overview/odata-support-in-aspnet-web-api/odata-routing-conventions
 msc.type: authoredcontent
 ---
-Routing Conventions in ASP.NET Web API 2 Odata
-====================
+# Routing Conventions in ASP.NET Web API 2 Odata
+
 by [Mike Wasson](https://github.com/MikeWasson)
 
 > This article describes the routing conventions that Web API uses for OData endpoints.

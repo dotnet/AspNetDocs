@@ -9,8 +9,8 @@ ms.assetid: 257686f7-7e10-4c4b-a2e9-299f93c0f917
 msc.legacyurl: /web-forms/videos/net-4/core
 msc.type: chapter
 ---
-Core
-====================
+# Core
+
 > This video series explores core improvements in ASP.NET 4 like auto-start, clean configuration files, and HTML encoding.
 
 

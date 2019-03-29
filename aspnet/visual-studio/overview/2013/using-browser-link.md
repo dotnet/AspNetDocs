@@ -9,8 +9,8 @@ ms.assetid: 46cbfe20-b4dc-449b-9016-80657dd44fbe
 msc.legacyurl: /visual-studio/overview/2013/using-browser-link
 msc.type: authoredcontent
 ---
-Using Browser Link in Visual Studio 2013
-====================
+# Using Browser Link in Visual Studio 2013
+
 by [Mike Wasson](https://github.com/MikeWasson)
 
 Browser Link is a new feature in Visual Studio 2013 that creates a communication channel between the development environment and one or more web browsers. You can use Browser Link to refresh your web application in several browsers at once, which is useful for cross-browser testing.

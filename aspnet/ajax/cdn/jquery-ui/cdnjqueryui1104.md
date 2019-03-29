@@ -9,8 +9,8 @@ ms.assetid: 391248a2-ba70-4370-a114-2d4e3b8367b8
 msc.legacyurl: /ajax/cdn/jquery-ui/cdnjqueryui1104
 msc.type: content
 ---
-jQuery UI 1.10.4 on the Microsoft Ajax CDN
-====================
+# jQuery UI 1.10.4 on the Microsoft Ajax CDN
+
 The jQuery UI 1.10.4 library includes the following files:
 
 - https://ajax.aspnetcdn.com/ajax/jquery.ui/1.10.4/jquery-ui.js

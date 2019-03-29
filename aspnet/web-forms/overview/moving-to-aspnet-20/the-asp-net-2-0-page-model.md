@@ -9,8 +9,8 @@ ms.assetid: af4575a3-0ae3-4638-ba4d-218fad7a1642
 msc.legacyurl: /web-forms/overview/moving-to-aspnet-20/the-asp-net-2-0-page-model
 msc.type: authoredcontent
 ---
-The ASP.NET 2.0 Page Model
-====================
+# The ASP.NET 2.0 Page Model
+
 by [Microsoft](https://github.com/microsoft)
 
 > In ASP.NET 1.x, developers had a choice between an inline code model and a code-behind code model. Code-behind could be implemented using either the Src attribute or the CodeBehind attribute of the @Page directive. In ASP.NET 2.0, developers still have a choice between inline code and code-behind, but there have been significant enhancements to the code-behind model.

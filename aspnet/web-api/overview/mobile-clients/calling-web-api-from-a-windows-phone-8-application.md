@@ -9,8 +9,8 @@ ms.assetid: b9775f41-352a-4f82-baa6-23e95b342e20
 msc.legacyurl: /web-api/overview/mobile-clients/calling-web-api-from-a-windows-phone-8-application
 msc.type: authoredcontent
 ---
-Calling Web API from a Windows Phone 8 Application (C#)
-====================
+# Calling Web API from a Windows Phone 8 Application (C#)
+
 by [Robert McMurray](https://github.com/rmcmurray)
 
 In this tutorial, you will learn how to create a complete end-to-end scenario consisting of an ASP.NET Web API application that provides a catalog of books to a Windows Phone 8 application.

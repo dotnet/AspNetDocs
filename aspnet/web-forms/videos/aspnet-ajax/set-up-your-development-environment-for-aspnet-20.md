@@ -9,8 +9,8 @@ ms.assetid: 9cf05d32-6c0e-487a-89da-7ef42666c0a3
 msc.legacyurl: /web-forms/videos/aspnet-ajax/set-up-your-development-environment-for-aspnet-20
 msc.type: video
 ---
-Set Up Your Development Environment for ASP.NET 2.0
-====================
+# Set Up Your Development Environment for ASP.NET 2.0
+
 by [Joe Stagner](https://github.com/JoeStagner)
 
 In this video you'll learn how to set up your Development Environment for developing ASP.NET AJAX Applications if you are targeting ASP.NET 2.0.

@@ -9,8 +9,8 @@ ms.assetid: bd347d93-4251-4532-801c-a36f2dfa7f96
 msc.legacyurl: /web-forms/overview/data-access/caching-data/using-sql-cache-dependencies-vb
 msc.type: authoredcontent
 ---
-Using SQL Cache Dependencies (VB)
-====================
+# Using SQL Cache Dependencies (VB)
+
 by [Scott Mitchell](https://twitter.com/ScottOnWriting)
 
 [Download Code](http://download.microsoft.com/download/3/9/f/39f92b37-e92e-4ab3-909e-b4ef23d01aa3/ASPNET_Data_Tutorial_61_VB.zip) or [Download PDF](using-sql-cache-dependencies-vb/_static/datatutorial61vb1.pdf)

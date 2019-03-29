@@ -9,8 +9,8 @@ ms.assetid: 07cb4434-cb24-4746-a4ba-bfeea889a7e2
 msc.legacyurl: /mvc/videos/mvc-1/aspnet-mvc-storefront/aspnet-mvc-storefront-part-7-routing-and-ui-work
 msc.type: video
 ---
-ASP.NET MVC Storefront Part 7: Routing and UI Work
-====================
+# ASP.NET MVC Storefront Part 7: Routing and UI Work
+
 by [Rob Conery](https://github.com/robconery)
 
 Rob talks with Scott Hanselman about how to setup Routing, and then he implements the user interface.

@@ -9,8 +9,8 @@ ms.assetid: c844da8a-10e6-45c9-a9e2-331a3b8d3e03
 msc.legacyurl: /web-forms/videos/aspnet-ajax/two-simple-techniques-for-triggering-updates-to-update-panels
 msc.type: video
 ---
-Two Simple Techniques for Triggering Updates to Update Panels
-====================
+# Two Simple Techniques for Triggering Updates to Update Panels
+
 by [Joe Stagner](https://github.com/JoeStagner)
 
 In this video I will demonstrate two simple update techniques. First, using the selected index changed event from the drop down list control as an event trigger for updating update panels. And two, dynamically changing the associated style sheet class with controls contained within the AJAX update panel.

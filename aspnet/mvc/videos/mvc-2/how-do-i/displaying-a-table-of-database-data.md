@@ -9,8 +9,8 @@ ms.assetid: 00a12df9-1f89-4fc5-9d43-19a8d5b80392
 msc.legacyurl: /mvc/videos/mvc-2/how-do-i/displaying-a-table-of-database-data
 msc.type: video
 ---
-Displaying a Table of Database Data
-====================
+# Displaying a Table of Database Data
+
 by [Stephen Walther](https://github.com/StephenWalther)
 
 Need to display a set of database records in an ASP.NET MVC view? Learn two methods of displaying records in an HTML table. You learn how to perform all of the formatting inline. You also learn how to create a template with a ASP.NET MVC user control.

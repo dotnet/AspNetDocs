@@ -9,8 +9,8 @@ ms.assetid: bdb18d02-9f61-4676-836d-6fdea94f9282
 msc.legacyurl: /whitepapers/aspnet-and-web-tools-20122-release-notes
 msc.type: content
 ---
-ASP.NET and Web Tools 2012.2 Release Notes
-====================
+# ASP.NET and Web Tools 2012.2 Release Notes
+
 > This document describes the release of ASP.NET and Web Tools 2012.2. It is an update to Visual Studio Web Tooling and ASP.NET.
 
 

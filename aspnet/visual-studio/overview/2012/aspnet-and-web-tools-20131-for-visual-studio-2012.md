@@ -9,8 +9,8 @@ ms.assetid: ca26e5bb-630e-41d2-8512-2a9386c431cb
 msc.legacyurl: /visual-studio/overview/2012/aspnet-and-web-tools-20131-for-visual-studio-2012
 msc.type: authoredcontent
 ---
-Release Notes for ASP.NET and Web Tools 2013.1 for Visual Studio 2012
-====================
+# Release Notes for ASP.NET and Web Tools 2013.1 for Visual Studio 2012
+
 by [Microsoft](https://github.com/microsoft)
 
 > This document describes the release of ASP.NET and Web Tools 2013.1 for Visual Studio 2012.

@@ -9,8 +9,8 @@ ms.assetid: 486108f8-0719-492e-85ed-46f3b7bc18d2
 msc.legacyurl: /ajax/cdn/jquery-cycle/cdnjquerycycle294
 msc.type: content
 ---
-jQuery Cycle 2.94
-====================
+# jQuery Cycle 2.94
+
 The following jQuery Cycle files are hosted on this CDN:
 
 - [https://ajax.aspnetcdn.com/ajax/jquery.cycle/2.94/jquery.cycle.all.js](https://ajax.aspnetcdn.com/ajax/jquery.cycle/2.94/jquery.cycle.all.js) &mdash; The full version of the jQuery Cycle plugin. Includes all the more than two dozen special effects and all of the options.

@@ -9,8 +9,8 @@ ms.assetid: 3bd94827-3c59-448f-abc3-36e6df4858db
 msc.legacyurl: /single-page-application/overview/templates/breezeknockout-template
 msc.type: authoredcontent
 ---
-Breeze/Knockout template
-====================
+# Breeze/Knockout template
+
 by [Mads Kristensen](https://github.com/madskristensen)
 
 > The Breeze/Knockout MVC Template was written by Ward Bell

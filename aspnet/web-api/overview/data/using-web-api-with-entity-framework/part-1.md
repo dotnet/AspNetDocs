@@ -9,8 +9,8 @@ ms.assetid: e879487e-dbcd-4b33-b092-d67c37ae768c
 msc.legacyurl: /web-api/overview/data/using-web-api-with-entity-framework/part-1
 msc.type: authoredcontent
 ---
-Using Web API 2 with Entity Framework 6
-====================
+# Using Web API 2 with Entity Framework 6
+
 
 [Download Completed Project](https://github.com/MikeWasson/BookService)
 

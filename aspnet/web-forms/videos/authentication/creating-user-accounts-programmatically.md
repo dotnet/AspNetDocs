@@ -9,8 +9,8 @@ ms.assetid: 33087707-9876-4575-9042-42e0d0947fa5
 msc.legacyurl: /web-forms/videos/authentication/creating-user-accounts-programmatically
 msc.type: video
 ---
-Creating User Accounts Programmatically
-====================
+# Creating User Accounts Programmatically
+
 by [Joe Stagner](https://github.com/JoeStagner)
 
 In this video, Joe Stagner demonstrates how to create a custom create user web form programmatically while not using the Create User wizard. For additional information about this video, read the "Creating User Accounts" security tutorial ([C#](../../overview/older-versions-security/membership/creating-user-accounts-cs.md), [VB](../../overview/older-versions-security/membership/creating-user-accounts-vb.md)).

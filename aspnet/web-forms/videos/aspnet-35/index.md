@@ -9,8 +9,8 @@ ms.assetid: 2e6e9c24-bb97-446a-b05e-1bd88824d352
 msc.legacyurl: /web-forms/videos/aspnet-35
 msc.type: chapter
 ---
-ASP.NET 3.5
-====================
+# ASP.NET 3.5
+
 > How to build ASP.NET 3.5 applications, with an emphasis on new features.
 
 

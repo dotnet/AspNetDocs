@@ -9,8 +9,8 @@ ms.assetid: 4760328c-3d73-4757-a36f-ab80a5b3f611
 msc.legacyurl: /single-page-application
 msc.type: categoryindex
 ---
-ASP.NET Single Page Application
-====================
+# ASP.NET Single Page Application
+
 - [Overview](overview/index.md)
 
     - [Introduction](overview/introduction/index.md)

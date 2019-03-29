@@ -9,8 +9,8 @@ ms.assetid: 62482bdd-e2a4-46e5-b909-6d0c6bc07114
 msc.legacyurl: /signalr/overview/deployment
 msc.type: chapter
 ---
-SignalR Deployment and Hosting
-====================
+# SignalR Deployment and Hosting
+
 > How to deploy and host SignalR applications.
 
 

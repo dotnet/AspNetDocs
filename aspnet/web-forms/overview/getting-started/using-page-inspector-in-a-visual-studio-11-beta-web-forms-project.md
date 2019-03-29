@@ -9,8 +9,8 @@ ms.assetid: 2ece0bf4-aae5-4ff4-8f62-28e0819d4f86
 msc.legacyurl: /web-forms/overview/getting-started/using-page-inspector-in-a-visual-studio-11-beta-web-forms-project
 msc.type: authoredcontent
 ---
-Using Page Inspector for Visual Studio 2012 in ASP.NET Web Forms
-====================
+# Using Page Inspector for Visual Studio 2012 in ASP.NET Web Forms
+
 by Tim Ammann
 
 > Page Inspector for Visual Studio 2012 is a web development tool with an integrated browser. Select any element in the integrated browser, and Page Inspector instantly highlights the element's source and CSS. You can browse any page in your application, quickly find the sources of rendered markup, and use browser tools right within the Visual Studio environment.

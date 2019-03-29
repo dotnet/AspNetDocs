@@ -9,8 +9,8 @@ ms.assetid: 5322c2e8-7cd9-4d61-9611-39d6e5f2d936
 msc.legacyurl: /web-pages/overview/routing
 msc.type: chapter
 ---
-Routing
-====================
+# Routing
+
 > How to customize the URLs used by a Web Pages application.
 
 

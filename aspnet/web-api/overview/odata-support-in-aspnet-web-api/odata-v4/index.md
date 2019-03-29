@@ -9,8 +9,8 @@ ms.assetid: bb807fdd-0bd8-43d0-b068-e88de7e5fd87
 msc.legacyurl: /web-api/overview/odata-support-in-aspnet-web-api/odata-v4
 msc.type: chapter
 ---
-Supporting OData v4 in ASP.NET Web API
-====================
+# Supporting OData v4 in ASP.NET Web API
+
 > Use ASP.NET Web API to create endpoints that support OData Version 4.
 
 

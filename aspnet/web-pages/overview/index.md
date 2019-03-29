@@ -9,8 +9,8 @@ ms.assetid: 1a2ed0e8-63da-4110-9896-e2731d86f7c4
 msc.legacyurl: /web-pages/overview
 msc.type: book
 ---
-Web Pages Guidance
-====================
+# Web Pages Guidance
+
 - [Getting Started](getting-started/index.md)
 
     - [Program ASP.NET Web Pages in Visual Studio](getting-started/program-asp-net-web-pages-in-visual-studio.md)

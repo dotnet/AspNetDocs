@@ -9,8 +9,8 @@ ms.assetid: 5da59646-e973-41cd-88a9-c6b2c0594027
 msc.legacyurl: /web-pages/overview/getting-started/introducing-razor-syntax-vb
 msc.type: authoredcontent
 ---
-Introduction to ASP.NET Web Programming Using the Razor Syntax (Visual Basic)
-====================
+# Introduction to ASP.NET Web Programming Using the Razor Syntax (Visual Basic)
+
 by [Tom FitzMacken](https://github.com/tfitzmac)
 
 > This article gives you an overview of programming with ASP.NET Web Pages using the Razor syntax and Visual Basic. ASP.NET is Microsoft's technology for running dynamic web pages on web servers.

@@ -9,8 +9,8 @@ ms.assetid: a374c0cb-63fb-4630-9915-2ca8f4973da8
 msc.legacyurl: /web-forms/videos/authentication/how-to-change-the-forms-authentication-properties
 msc.type: video
 ---
-How to Change the Forms Authentication Properties
-====================
+# How to Change the Forms Authentication Properties
+
 by [Joe Stagner](https://github.com/JoeStagner)
 
 Joe Stagner utilizes the previous code example to demonstrate how to change the authentication period for the ASP.NET application. For more information on this demo, a tutorial is located [here](../../overview/older-versions-security/introduction/forms-authentication-configuration-and-advanced-topics-vb.md).

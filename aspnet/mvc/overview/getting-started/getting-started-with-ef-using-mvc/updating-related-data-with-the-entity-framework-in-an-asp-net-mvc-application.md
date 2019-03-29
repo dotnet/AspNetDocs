@@ -11,9 +11,9 @@ ms.assetid: 7ba88418-5d0a-437d-b6dc-7c3816d4ec07
 msc.legacyurl: /mvc/overview/getting-started/getting-started-with-ef-using-mvc/updating-related-data-with-the-entity-framework-in-an-asp-net-mvc-application
 msc.type: authoredcontent
 ---
-
+# 
 Updating Related Data with the Entity Framework in an ASP.NET MVC Application
-====================
+
 
 
 # Tutorial: Update related data with EF in an ASP.NET MVC app

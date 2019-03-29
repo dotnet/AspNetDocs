@@ -9,8 +9,8 @@ ms.assetid: 7ca8013e-9dfc-4e33-8336-cdccfd5f9414
 msc.legacyurl: /mvc/overview/older-versions-1/models-data/validation-with-the-data-annotation-validators-cs
 msc.type: authoredcontent
 ---
-Validation with the Data Annotation Validators (C#)
-====================
+# Validation with the Data Annotation Validators (C#)
+
 by [Microsoft](https://github.com/microsoft)
 
 > Take advantage of the Data Annotation Model Binder to perform validation within an ASP.NET MVC application. Learn how to use the different types of validator attributes and work with them in the Microsoft Entity Framework.

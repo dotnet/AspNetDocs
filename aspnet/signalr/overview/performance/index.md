@@ -9,8 +9,8 @@ ms.assetid: fda81611-b67b-4c62-915e-8adc1924a401
 msc.legacyurl: /signalr/overview/performance
 msc.type: chapter
 ---
-SignalR Performance
-====================
+# SignalR Performance
+
 > How to maximize the performance of SignalR applications.
 
 

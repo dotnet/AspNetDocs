@@ -9,8 +9,8 @@ ms.assetid: 22e99600-8d18-4a94-a20e-a3a62bb63798
 msc.legacyurl: /web-forms/overview/data-access/editing-inserting-and-deleting-data/customizing-the-data-modification-interface-cs
 msc.type: authoredcontent
 ---
-Customizing the Data Modification Interface (C#)
-====================
+# Customizing the Data Modification Interface (C#)
+
 by [Scott Mitchell](https://twitter.com/ScottOnWriting)
 
 [Download Sample App](http://download.microsoft.com/download/9/c/1/9c1d03ee-29ba-4d58-aa1a-f201dcc822ea/ASPNET_Data_Tutorial_20_CS.exe) or [Download PDF](customizing-the-data-modification-interface-cs/_static/datatutorial20cs1.pdf)

@@ -9,8 +9,8 @@ ms.assetid: 48df63a2-d43d-41c4-8143-9ef24ee22de9
 msc.legacyurl: /web-pages/videos/aspnet-razor-pages/adding-social-networking-to-your-website
 msc.type: video
 ---
-Adding Social Networking to Your Website
-====================
+# Adding Social Networking to Your Website
+
 by [Joe Stagner](https://github.com/JoeStagner)
 
 Video accompaniment to the Adding Social Networking to Your Website tutorial

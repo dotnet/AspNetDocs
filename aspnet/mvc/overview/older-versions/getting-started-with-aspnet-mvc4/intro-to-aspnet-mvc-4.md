@@ -9,8 +9,8 @@ ms.assetid: ed66530a-04d5-49eb-b76a-85be1f57c437
 msc.legacyurl: /mvc/overview/older-versions/getting-started-with-aspnet-mvc4/intro-to-aspnet-mvc-4
 msc.type: authoredcontent
 ---
-Intro to ASP.NET MVC 4
-====================
+# Intro to ASP.NET MVC 4
+
 by [Rick Anderson]((https://twitter.com/RickAndMSFT))
 
 > An updated version if this tutorial is available [here](../../getting-started/introduction/getting-started.md) using [Visual Studio 2013](https://my.visualstudio.com/Downloads?q=visual%20studio%202013). The new tutorial uses ASP.NET MVC 5, which provides many improvements over this tutorial.

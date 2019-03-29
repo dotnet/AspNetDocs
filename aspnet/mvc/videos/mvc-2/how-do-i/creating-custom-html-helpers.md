@@ -9,8 +9,8 @@ ms.assetid: e67b3889-ac7d-4811-8bf5-54f6abc7f49f
 msc.legacyurl: /mvc/videos/mvc-2/how-do-i/creating-custom-html-helpers
 msc.type: video
 ---
-Creating Custom HTML Helpers
-====================
+# Creating Custom HTML Helpers
+
 by [Stephen Walther](https://github.com/StephenWalther)
 
 Create new HTML Helpers to make it easier to generate view content. Stephen Walther demonstrates two simple methods of creating new HTML Helpers.

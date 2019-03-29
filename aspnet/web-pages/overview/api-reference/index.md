@@ -9,8 +9,8 @@ ms.assetid: c29776f2-10b5-4632-b383-5f43656d5900
 msc.legacyurl: /web-pages/overview/api-reference
 msc.type: chapter
 ---
-API Reference
-====================
+# API Reference
+
 > API Reference documentation for ASP.NET Web Pages.
 
 

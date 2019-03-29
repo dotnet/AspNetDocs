@@ -9,8 +9,8 @@ ms.assetid: c76dbc35-a914-4ee3-919c-4f4d1fa05104
 msc.legacyurl: /web-forms/overview/deployment/visual-studio-web-deployment/deploying-a-code-update
 msc.type: authoredcontent
 ---
-ASP.NET Web Deployment using Visual Studio: Deploying a Code Update
-====================
+# ASP.NET Web Deployment using Visual Studio: Deploying a Code Update
+
 by [Tom Dykstra](https://github.com/tdykstra)
 
 [Download Starter Project](http://go.microsoft.com/fwlink/p/?LinkId=282627)

@@ -9,8 +9,8 @@ ms.assetid: cbebeb37-2594-41f2-b71a-f4f26520d512
 msc.legacyurl: /web-api/overview/error-handling/exception-handling
 msc.type: authoredcontent
 ---
-Exception Handling in ASP.NET Web API
-====================
+# Exception Handling in ASP.NET Web API
+
 by [Mike Wasson](https://github.com/MikeWasson)
 
 This article describes error and exception handling in ASP.NET Web API.

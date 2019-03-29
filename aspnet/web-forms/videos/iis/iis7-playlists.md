@@ -9,8 +9,8 @@ ms.assetid: b61968ac-6d9b-4b75-ab2a-934b609acba4
 msc.legacyurl: /web-forms/videos/iis/iis7-playlists
 msc.type: video
 ---
-IIS7 Playlists
-====================
+# IIS7 Playlists
+
 by [Joe Stagner](https://github.com/JoeStagner)
 
 If you're hosting media files on your web site, play lists will let you define sequences for your media and optionally prevent users from skipping parts of the content (like ads or disclaimers).

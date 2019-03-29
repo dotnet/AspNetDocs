@@ -9,8 +9,8 @@ ms.assetid: 4733b9f1-9999-48fb-8b73-6038fbcc5ecb
 msc.legacyurl: /mvc/overview/older-versions-1/models-data/validating-with-the-idataerrorinfo-interface-cs
 msc.type: authoredcontent
 ---
-Validating with the IDataErrorInfo Interface (C#)
-====================
+# Validating with the IDataErrorInfo Interface (C#)
+
 by [Stephen Walther](https://github.com/StephenWalther)
 
 > Stephen Walther shows you how to display custom validation error messages by implementing the IDataErrorInfo interface in a model class.

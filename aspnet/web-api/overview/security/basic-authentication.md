@@ -9,8 +9,8 @@ ms.assetid: 41423767-0021-47c3-9e53-0021b457c39f
 msc.legacyurl: /web-api/overview/security/basic-authentication
 msc.type: authoredcontent
 ---
-Basic Authentication in ASP.NET Web API
-====================
+# Basic Authentication in ASP.NET Web API
+
 by [Mike Wasson](https://github.com/MikeWasson)
 
 Basic authentication is defined in [RFC 2617, HTTP Authentication: Basic and Digest Access Authentication](http://www.ietf.org/rfc/rfc2617.txt).

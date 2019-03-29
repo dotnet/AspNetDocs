@@ -9,8 +9,8 @@ ms.assetid: f9be608d-71e8-4d85-9d7c-092cc95f4cce
 msc.legacyurl: /mvc/videos/mvc-2/how-do-i/5-minute-introduction-to-aspnet-mvc
 msc.type: video
 ---
-5 Minute Introduction to ASP.NET MVC
-====================
+# 5 Minute Introduction to ASP.NET MVC
+
 by [Scott Hanselman](https://github.com/shanselman)
 
 Scott Hanselman presents a 5 minute introduction to ASP.NET MVC.

@@ -9,8 +9,8 @@ ms.assetid: 4bc8d19a-80f1-44b4-adbf-95ed22d691ca
 msc.legacyurl: /mvc/overview/older-versions-1/controllers-and-routing/asp-net-mvc-routing-overview-vb
 msc.type: authoredcontent
 ---
-ASP.NET MVC Routing Overview (VB)
-====================
+# ASP.NET MVC Routing Overview (VB)
+
 by [Stephen Walther](https://github.com/StephenWalther)
 
 > In this tutorial, Stephen Walther shows how the ASP.NET MVC framework maps browser requests to controller actions.

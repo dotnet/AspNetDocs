@@ -9,8 +9,8 @@ ms.assetid: 2ba89851-337e-47dc-a604-82f73a68bc63
 msc.legacyurl: /web-forms/videos/sql-2005/connecting-your-web-application-to-sql-server-2005-express-edition
 msc.type: video
 ---
-Connecting your Web Application to SQL Server 2005 Express Edition
-====================
+# Connecting your Web Application to SQL Server 2005 Express Edition
+
 by [Microsoft](https://github.com/microsoft)
 
 SQL Server beginners will walkthrough the entire workflow of creating a database driven Web application and use visual tools to quickly create an administration application.

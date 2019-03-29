@@ -9,8 +9,8 @@ ms.assetid: 38e21ba3-9b08-4397-a8ab-45d0e45448af
 msc.legacyurl: /web-pages/videos/aspnet-razor-pages/working-with-images
 msc.type: video
 ---
-Working with Images
-====================
+# Working with Images
+
 by [Joe Stagner](https://github.com/JoeStagner)
 
 Video accompaniment to the Working with Images tutorial

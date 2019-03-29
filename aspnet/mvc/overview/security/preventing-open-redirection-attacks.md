@@ -9,8 +9,8 @@ ms.assetid: 69fb02e0-f5b7-4c35-878c-fa87164fc785
 msc.legacyurl: /mvc/overview/security/preventing-open-redirection-attacks
 msc.type: authoredcontent
 ---
-Preventing Open Redirection Attacks (C#)
-====================
+# Preventing Open Redirection Attacks (C#)
+
 by [Jon Galloway](https://github.com/jongalloway)
 
 > This tutorial explains how you can prevent open redirection attacks in your ASP.NET MVC applications. This tutorial discusses the changes that have been made in the AccountController in ASP.NET MVC 3 and demonstrates how you can apply these changes in your existing ASP.NET MVC 1.0 and 2 applications.

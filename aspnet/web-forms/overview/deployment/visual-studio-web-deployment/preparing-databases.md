@@ -9,8 +9,8 @@ ms.assetid: ae4def81-fa37-4883-a13e-d9896cbf6c36
 msc.legacyurl: /web-forms/overview/deployment/visual-studio-web-deployment/preparing-databases
 msc.type: authoredcontent
 ---
-ASP.NET Web Deployment using Visual Studio: Preparing for Database Deployment
-====================
+# ASP.NET Web Deployment using Visual Studio: Preparing for Database Deployment
+
 by [Tom Dykstra](https://github.com/tdykstra)
 
 [Download Starter Project](http://go.microsoft.com/fwlink/p/?LinkId=282627)

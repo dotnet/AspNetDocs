@@ -9,8 +9,8 @@ ms.assetid: 47202362-3808-4add-9a69-c9d1f91d5e4e
 msc.legacyurl: /web-api/overview/odata-support-in-aspnet-web-api/odata-v4/create-an-odata-v4-client-app
 msc.type: authoredcontent
 ---
-Create an OData v4 Client App (C#)
-====================
+# Create an OData v4 Client App (C#)
+
 by [Mike Wasson](https://github.com/MikeWasson)
 
 In the previous tutorial, you created a basic OData service that supports CRUD operations. Now let's create a client for the service.

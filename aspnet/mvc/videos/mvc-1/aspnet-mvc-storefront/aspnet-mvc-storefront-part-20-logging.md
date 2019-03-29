@@ -9,8 +9,8 @@ ms.assetid: aa7791dc-7310-43c5-a281-0b02c1216247
 msc.legacyurl: /mvc/videos/mvc-1/aspnet-mvc-storefront/aspnet-mvc-storefront-part-20-logging
 msc.type: video
 ---
-ASP.NET MVC Storefront Part 20: Logging
-====================
+# ASP.NET MVC Storefront Part 20: Logging
+
 by [Rob Conery](https://github.com/robconery)
 
 In this episode I plug in logging - something that probably should have been implemented sooner.

@@ -9,8 +9,8 @@ ms.assetid: 6f81b633-9d01-4e52-ae4a-2ea6bc109475
 msc.legacyurl: /web-forms/overview/data-access/paging-and-sorting/creating-a-customized-sorting-user-interface-cs
 msc.type: authoredcontent
 ---
-Creating a Customized Sorting User Interface (C#)
-====================
+# Creating a Customized Sorting User Interface (C#)
+
 by [Scott Mitchell](https://twitter.com/ScottOnWriting)
 
 [Download Sample App](http://download.microsoft.com/download/9/c/1/9c1d03ee-29ba-4d58-aa1a-f201dcc822ea/ASPNET_Data_Tutorial_27_CS.exe) or [Download PDF](creating-a-customized-sorting-user-interface-cs/_static/datatutorial27cs1.pdf)

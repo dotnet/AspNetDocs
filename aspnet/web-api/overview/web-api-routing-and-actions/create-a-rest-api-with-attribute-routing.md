@@ -9,8 +9,8 @@ ms.assetid: 23fc77da-2725-4434-99a0-ff872d96336b
 msc.legacyurl: /web-api/overview/web-api-routing-and-actions/create-a-rest-api-with-attribute-routing
 msc.type: authoredcontent
 ---
-Create a REST API with Attribute Routing in ASP.NET Web API 2
-====================
+# Create a REST API with Attribute Routing in ASP.NET Web API 2
+
 by [Mike Wasson](https://github.com/MikeWasson)
 
 Web API 2 supports a new type of routing, called *attribute routing*. For a general overview of attribute routing, see [Attribute Routing in Web API 2](attribute-routing-in-web-api-2.md). In this tutorial, you will use attribute routing to create a REST API for a collection of books. The API will support the following actions:

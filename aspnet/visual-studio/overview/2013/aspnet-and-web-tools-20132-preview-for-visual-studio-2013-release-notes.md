@@ -9,8 +9,8 @@ ms.assetid: 7ef5f73c-ca60-43c1-bdb2-702800347e7e
 msc.legacyurl: /visual-studio/overview/2013/aspnet-and-web-tools-20132-preview-for-visual-studio-2013-release-notes
 msc.type: authoredcontent
 ---
-ASP.NET and Web Tools 2013.2  for Visual Studio 2013 Release Notes
-====================
+# ASP.NET and Web Tools 2013.2  for Visual Studio 2013 Release Notes
+
 by [Microsoft](https://github.com/microsoft)
 
 ## Installation Notes

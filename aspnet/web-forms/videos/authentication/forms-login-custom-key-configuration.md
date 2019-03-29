@@ -9,8 +9,8 @@ ms.assetid: 6310b458-5e6e-497e-9989-9fbdf0ba9db4
 msc.legacyurl: /web-forms/videos/authentication/forms-login-custom-key-configuration
 msc.type: video
 ---
-Forms Login Custom Key Configuration
-====================
+# Forms Login Custom Key Configuration
+
 by [Joe Stagner](https://github.com/JoeStagner)
 
 Joe Stagner will examine the machine key setting in your ASP.NET application. For more information on this demo, a tutorial is located [here](../../overview/older-versions-security/introduction/forms-authentication-configuration-and-advanced-topics-vb.md).

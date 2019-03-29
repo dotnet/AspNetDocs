@@ -9,8 +9,8 @@ ms.assetid: ef969007-9e27-431c-b2f7-e1772af7a0b6
 msc.legacyurl: /web-pages/overview/getting-started/introducing-aspnet-web-pages-2
 msc.type: chapter
 ---
-Introducing ASP.NET Web Pages
-====================
+# Introducing ASP.NET Web Pages
+
 > Introducing ASP.NET Web Pages 2
 
 

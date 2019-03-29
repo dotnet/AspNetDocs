@@ -9,8 +9,8 @@ ms.assetid: da2d581a-019e-4183-84a6-70bf04822b44
 msc.legacyurl: /web-forms/overview/performance-and-caching
 msc.type: chapter
 ---
-Performance
-====================
+# Performance
+
 > How to cache site content for faster performance.
 
 

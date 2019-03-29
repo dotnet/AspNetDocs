@@ -9,8 +9,8 @@ ms.assetid: 08815768-2702-42ae-ae85-0a59934a11d1
 msc.legacyurl: /visual-studio/overview/2013/release-notes
 msc.type: authoredcontent
 ---
-ASP.NET and Web Tools for Visual Studio 2013 Release Notes
-====================
+# ASP.NET and Web Tools for Visual Studio 2013 Release Notes
+
 by [Microsoft](https://github.com/microsoft)
 
 > This document describes the release of ASP.NET and Web Tools for Visual Studio 2013.

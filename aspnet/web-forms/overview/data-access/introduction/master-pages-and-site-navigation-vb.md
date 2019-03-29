@@ -9,8 +9,8 @@ ms.assetid: 022801d8-a327-4d0c-8780-6094c9cee00d
 msc.legacyurl: /web-forms/overview/data-access/introduction/master-pages-and-site-navigation-vb
 msc.type: authoredcontent
 ---
-Master Pages and Site Navigation (VB)
-====================
+# Master Pages and Site Navigation (VB)
+
 by [Scott Mitchell](https://twitter.com/ScottOnWriting)
 
 [Download Sample App](http://download.microsoft.com/download/5/d/7/5d7571fc-d0b7-4798-ad4a-c976c02363ce/ASPNET_Data_Tutorial_3_VB.exe) or [Download PDF](master-pages-and-site-navigation-vb/_static/datatutorial03vb1.pdf)

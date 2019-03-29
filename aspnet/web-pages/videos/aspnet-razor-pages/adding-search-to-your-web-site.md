@@ -9,8 +9,8 @@ ms.assetid: 78046868-917c-473e-9c89-4ad28a76514b
 msc.legacyurl: /web-pages/videos/aspnet-razor-pages/adding-search-to-your-web-site
 msc.type: video
 ---
-Adding Search to Your Web Site
-====================
+# Adding Search to Your Web Site
+
 by [Joe Stagner](https://github.com/JoeStagner)
 
 Video accompaniment to the Adding Search to Your Web Site tutorial

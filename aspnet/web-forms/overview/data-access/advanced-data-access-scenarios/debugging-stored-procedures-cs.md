@@ -9,8 +9,8 @@ ms.assetid: c655c324-2ffa-4c21-8265-a254d79a693d
 msc.legacyurl: /web-forms/overview/data-access/advanced-data-access-scenarios/debugging-stored-procedures-cs
 msc.type: authoredcontent
 ---
-Debugging Stored Procedures (C#)
-====================
+# Debugging Stored Procedures (C#)
+
 by [Scott Mitchell](https://twitter.com/ScottOnWriting)
 
 [Download Code](http://download.microsoft.com/download/3/9/f/39f92b37-e92e-4ab3-909e-b4ef23d01aa3/ASPNET_Data_Tutorial_74_CS.zip) or [Download PDF](debugging-stored-procedures-cs/_static/datatutorial74cs1.pdf)

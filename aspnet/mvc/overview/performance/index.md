@@ -9,8 +9,8 @@ ms.assetid: 388c048e-a285-4d1a-851a-caace21aa988
 msc.legacyurl: /mvc/overview/performance
 msc.type: chapter
 ---
-ASP.NET MVC Performance
-====================
+# ASP.NET MVC Performance
+
 > Resources for optimizing performance of ASP.NET MVC applications.
 
 

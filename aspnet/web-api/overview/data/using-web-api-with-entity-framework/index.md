@@ -9,8 +9,8 @@ ms.assetid: 6c3c4f27-2fa3-49dc-bcaf-1ee3ef620f8e
 msc.legacyurl: /web-api/overview/data/using-web-api-with-entity-framework
 msc.type: chapter
 ---
-Using Web API 2 with Entity Framework 6
-====================
+# Using Web API 2 with Entity Framework 6
+
 > How to create a Web API application that uses Entity Framework for database persistence.
 
 

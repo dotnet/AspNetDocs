@@ -9,8 +9,8 @@ ms.assetid: 20060b05-3c1b-41ca-9621-4434ba233adc
 msc.legacyurl: /web-forms/videos/building-35-applications
 msc.type: chapter
 ---
-Building 3.5 Applications
-====================
+# Building 3.5 Applications
+
 > The basics of creating ASP.NET Web Forms applications.
 
 

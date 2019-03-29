@@ -9,8 +9,8 @@ ms.assetid: 3a052ced-9cf5-47b8-a400-934f0b687c26
 msc.legacyurl: /web-forms/overview/data-access/working-with-binary-files/updating-and-deleting-existing-binary-data-vb
 msc.type: authoredcontent
 ---
-Updating and Deleting Existing Binary Data (VB)
-====================
+# Updating and Deleting Existing Binary Data (VB)
+
 by [Scott Mitchell](https://twitter.com/ScottOnWriting)
 
 [Download Sample App](http://download.microsoft.com/download/4/a/7/4a7a3b18-d80e-4014-8e53-a6a2427f0d93/ASPNET_Data_Tutorial_57_VB.exe) or [Download PDF](updating-and-deleting-existing-binary-data-vb/_static/datatutorial57vb1.pdf)

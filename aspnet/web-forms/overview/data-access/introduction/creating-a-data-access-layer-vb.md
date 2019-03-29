@@ -9,8 +9,8 @@ ms.assetid: 6227233a-6254-4b6b-9a89-947efef22330
 msc.legacyurl: /web-forms/overview/data-access/introduction/creating-a-data-access-layer-vb
 msc.type: authoredcontent
 ---
-Creating a Data Access Layer (VB)
-====================
+# Creating a Data Access Layer (VB)
+
 by [Scott Mitchell](https://twitter.com/ScottOnWriting)
 
 [Download Sample App](http://download.microsoft.com/download/5/d/7/5d7571fc-d0b7-4798-ad4a-c976c02363ce/ASPNET_Data_Tutorial_1_VB.exe) or [Download PDF](creating-a-data-access-layer-vb/_static/datatutorial01vb1.pdf)

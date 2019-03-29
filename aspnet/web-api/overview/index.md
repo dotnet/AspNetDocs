@@ -9,8 +9,8 @@ ms.assetid: daca6735-b5d3-4ef5-af33-ee682926238b
 msc.legacyurl: /web-api/overview
 msc.type: book
 ---
-Web API Guidance
-====================
+# Web API Guidance
+
 - [Getting Started](getting-started-with-aspnet-web-api/index.md)
 
     - [Getting Started with Web API 2 (C#)](getting-started-with-aspnet-web-api/tutorial-your-first-web-api.md)

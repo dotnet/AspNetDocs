@@ -9,8 +9,8 @@ ms.assetid: 9fe1858e-23a1-4cd8-aa69-6eadbb249612
 msc.legacyurl: /web-forms/videos/aspnet-web-forms-vnext/aspnet-45-web-forms-strong-typed-data-controls
 msc.type: video
 ---
-ASP.NET 4.5 Web Forms Strong Typed Data Controls
-====================
+# ASP.NET 4.5 Web Forms Strong Typed Data Controls
+
 by [Scott Hanselman](https://github.com/shanselman)
 
 [&#9654; Watch video (4 minutes)](https://channel9.msdn.com/Blogs/ASP-NET-Site-Videos/aspnet-45-web-forms-strong-typed-data-controls)

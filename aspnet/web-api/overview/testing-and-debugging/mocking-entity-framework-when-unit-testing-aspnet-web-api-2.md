@@ -9,8 +9,8 @@ ms.assetid: cd844025-ccad-41ce-8694-595f1022a49f
 msc.legacyurl: /web-api/overview/testing-and-debugging/mocking-entity-framework-when-unit-testing-aspnet-web-api-2
 msc.type: authoredcontent
 ---
-Mocking Entity Framework when Unit Testing ASP.NET Web API 2
-====================
+# Mocking Entity Framework when Unit Testing ASP.NET Web API 2
+
 by [Tom FitzMacken](https://github.com/tfitzmac)
 
 [Download Completed Project](https://code.msdn.microsoft.com/Unit-Testing-with-ASPNET-1374bc11)

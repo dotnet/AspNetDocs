@@ -9,8 +9,8 @@ ms.assetid: 2849e269-af4f-4e87-a07e-0b9cb01b4241
 msc.legacyurl: /mvc/videos/mvc-2/music-store/mvc-music-store-part-2-controllers
 msc.type: video
 ---
-MVC Music Store Part 2: Controllers
-====================
+# MVC Music Store Part 2: Controllers
+
 by [Jon Galloway](https://github.com/jongalloway)
 
 Jon continues the MVC Music Store tutorial by creating some basic controller actions.

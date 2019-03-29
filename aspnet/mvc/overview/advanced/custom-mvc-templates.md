@@ -9,8 +9,8 @@ ms.assetid: b0a214c7-2f38-4dbc-b47f-bd7bd9df97bd
 msc.legacyurl: /mvc/overview/advanced/custom-mvc-templates
 msc.type: authoredcontent
 ---
-Custom MVC Template
-====================
+# Custom MVC Template
+
 by [Jacques Eloff](https://github.com/joeloff)
 
 The release of MVC 3 Tools Update for Visual Studio 2010 introduced a separate project wizard for MVC projects. The change was driven by two factors. First, the introduction of new templates in MVC 3 and support for additional view engines such as Razor lead to overcrowding the New Project dialog in Visual Studio. Second, customers had been asking for extensibility points and the new MVC project wizard would afford us the opportunity to respond to these requests.

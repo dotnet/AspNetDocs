@@ -9,8 +9,8 @@ ms.assetid: 4830d984-bd2c-4a08-bfe5-2385599f1f7d
 msc.legacyurl: /web-forms/overview/data-access/editing-inserting-and-deleting-data/customizing-the-data-modification-interface-vb
 msc.type: authoredcontent
 ---
-Customizing the Data Modification Interface (VB)
-====================
+# Customizing the Data Modification Interface (VB)
+
 by [Scott Mitchell](https://twitter.com/ScottOnWriting)
 
 [Download Sample App](http://download.microsoft.com/download/9/c/1/9c1d03ee-29ba-4d58-aa1a-f201dcc822ea/ASPNET_Data_Tutorial_20_VB.exe) or [Download PDF](customizing-the-data-modification-interface-vb/_static/datatutorial20vb1.pdf)

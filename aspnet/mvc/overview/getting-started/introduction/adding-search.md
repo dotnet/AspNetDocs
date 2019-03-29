@@ -9,8 +9,8 @@ ms.assetid: df001954-18bf-4550-b03d-43911a0ea186
 msc.legacyurl: /mvc/overview/getting-started/introduction/adding-search
 msc.type: authoredcontent
 ---
-Search
-====================
+# Search
+
 
 [!INCLUDE [Tutorial Note](sample/code-location.md)]
 

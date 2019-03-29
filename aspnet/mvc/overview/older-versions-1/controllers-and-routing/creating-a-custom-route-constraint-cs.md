@@ -9,8 +9,8 @@ ms.assetid: a4f4bf4e-abcc-4650-8f43-527e48b52fe6
 msc.legacyurl: /mvc/overview/older-versions-1/controllers-and-routing/creating-a-custom-route-constraint-cs
 msc.type: authoredcontent
 ---
-Creating a Custom Route Constraint (C#)
-====================
+# Creating a Custom Route Constraint (C#)
+
 by [Stephen Walther](https://github.com/StephenWalther)
 
 > Stephen Walther demonstrates how you can create a custom route constraint. We implement a simple custom constraint that prevents a route from being matched when a browser request is made from a remote computer.

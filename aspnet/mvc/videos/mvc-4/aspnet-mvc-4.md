@@ -9,8 +9,8 @@ ms.assetid: 8a6417d5-801d-4fd7-8a06-164cd5441d3d
 msc.legacyurl: /mvc/videos/mvc-4/aspnet-mvc-4
 msc.type: video
 ---
-ASP.NET MVC 4
-====================
+# ASP.NET MVC 4
+
 by [Scott Hanselman](https://github.com/shanselman)
 
 [&#9654; Watch video (7 minutes)](https://channel9.msdn.com/Blogs/ASP-NET-Site-Videos/aspnet-mvc-4)

@@ -9,8 +9,8 @@ ms.assetid: 8ccbfcee-a2e4-496d-aded-5a7119c54244
 msc.legacyurl: /web-forms/videos/building-35-applications/submit-and-postback
 msc.type: video
 ---
-Submit and Postback
-====================
+# Submit and Postback
+
 by [Joe Stagner](https://github.com/JoeStagner)
 
 This video explains what goes on &quot;under the covers&quot; when your ASP.NET application's browser and server interact.

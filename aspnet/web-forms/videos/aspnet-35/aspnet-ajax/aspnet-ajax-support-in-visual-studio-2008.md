@@ -9,8 +9,8 @@ ms.assetid: e18480cd-432c-47e5-bcfe-4cb86ebf73ab
 msc.legacyurl: /web-forms/videos/aspnet-35/aspnet-ajax/aspnet-ajax-support-in-visual-studio-2008
 msc.type: video
 ---
-ASP.NET AJAX Support in Visual Studio 2008
-====================
+# ASP.NET AJAX Support in Visual Studio 2008
+
 by [Joe Stagner](https://github.com/JoeStagner)
 
 You will get a quick overview of the inclusion of ASP.NET AJAX into Visual Studio 2008 (Orcas) and .NET 3.5. This will be demonstrated by using Visual Studio 2008 and the building of web site application.

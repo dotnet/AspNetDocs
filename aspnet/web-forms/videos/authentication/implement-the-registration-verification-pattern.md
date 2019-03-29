@@ -9,8 +9,8 @@ ms.assetid: 8e5cebbc-7e7b-4f1a-af6b-75a6ed398030
 msc.legacyurl: /web-forms/videos/authentication/implement-the-registration-verification-pattern
 msc.type: video
 ---
-Implement the Registration Verification Pattern
-====================
+# Implement the Registration Verification Pattern
+
 by [Joe Stagner](https://github.com/JoeStagner)
 
 In this video, Joe Stagner extends the registration process in an ASP.NET application by adding an email verification step.

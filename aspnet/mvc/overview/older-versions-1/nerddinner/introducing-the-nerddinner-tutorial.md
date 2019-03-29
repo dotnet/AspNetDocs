@@ -9,8 +9,8 @@ ms.assetid: 397522d5-0402-4b94-b810-a2fb564f869d
 msc.legacyurl: /mvc/overview/older-versions-1/nerddinner/introducing-the-nerddinner-tutorial
 msc.type: authoredcontent
 ---
-Introducing the NerdDinner Tutorial
-====================
+# Introducing the NerdDinner Tutorial
+
 by [Scott Hanselman](https://github.com/shanselman)
 
 [Download PDF](http://aspnetmvcbook.s3.amazonaws.com/aspnetmvc-nerdinner_v1.pdf)

@@ -9,8 +9,8 @@ ms.assetid: ce83fbc9-ef24-4f59-8e76-7ca1b983bf9a
 msc.legacyurl: /web-pages/overview/mobile
 msc.type: chapter
 ---
-Mobile
-====================
+# Mobile
+
 > How to work with Mobile devices in ASP.NET Web Pages applications.
 
 

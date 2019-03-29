@@ -9,8 +9,8 @@ ms.assetid: 607f4617-380f-41fa-bf46-147e82bb8124
 msc.legacyurl: /signalr/overview/older-versions
 msc.type: chapter
 ---
-SignalR Older Versions
-====================
+# SignalR Older Versions
+
 > Documentation that pertains to earlier versions of SignalR.
 
 

@@ -9,8 +9,8 @@ ms.assetid: 921f8078-dcce-42ba-a79a-d3e0b0922161
 msc.legacyurl: /web-forms/videos/building-35-applications/application-level-objects
 msc.type: video
 ---
-Application Level Objects
-====================
+# Application Level Objects
+
 by [Joe Stagner](https://github.com/JoeStagner)
 
 This video will introduce Application Level Events and Objects and explain the concept of &quot;Scope&quot; as it pertains to them.

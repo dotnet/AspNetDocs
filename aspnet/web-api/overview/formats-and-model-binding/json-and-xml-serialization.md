@@ -9,8 +9,8 @@ ms.assetid: 1cd7525d-de5e-4ab6-94f0-51480d3255d1
 msc.legacyurl: /web-api/overview/formats-and-model-binding/json-and-xml-serialization
 msc.type: authoredcontent
 ---
-JSON and XML Serialization in ASP.NET Web API
-====================
+# JSON and XML Serialization in ASP.NET Web API
+
 by [Mike Wasson](https://github.com/MikeWasson)
 
 This article describes the JSON and XML formatters in ASP.NET Web API.

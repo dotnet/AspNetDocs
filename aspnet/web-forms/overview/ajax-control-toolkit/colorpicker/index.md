@@ -9,8 +9,8 @@ ms.assetid: 7a46340d-d7b0-427d-abbc-7fee884219ed
 msc.legacyurl: /web-forms/overview/ajax-control-toolkit/colorpicker
 msc.type: chapter
 ---
-ColorPicker
-====================
+# ColorPicker
+
 > This tutorial shows how to use the ColorPicker control, which lets users select a color from a popup window.
 
 

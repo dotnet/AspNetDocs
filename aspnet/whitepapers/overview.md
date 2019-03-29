@@ -9,8 +9,8 @@ ms.assetid: d5e79470-01f2-4d65-8077-11c3e10a6784
 msc.legacyurl: /whitepapers
 msc.type: content
 ---
-Whitepapers
-====================
+# Whitepapers
+
 > On this page you will find whitepapers to help you install and configure ASP.NET, and to assist you to write secure, fast and flexible ASP.NET applications.
 > 
 > - [ASP.NET 4](#aspnet4)

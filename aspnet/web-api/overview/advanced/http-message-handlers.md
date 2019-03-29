@@ -9,8 +9,8 @@ ms.assetid: 9002018b-3aa3-4358-bb1c-fbb5bc751d01
 msc.legacyurl: /web-api/overview/advanced/http-message-handlers
 msc.type: authoredcontent
 ---
-HTTP Message Handlers in ASP.NET Web API
-====================
+# HTTP Message Handlers in ASP.NET Web API
+
 by [Mike Wasson](https://github.com/MikeWasson)
 
 A *message handler* is a class that receives an HTTP request and returns an HTTP response. Message handlers derive from the abstract **HttpMessageHandler** class.

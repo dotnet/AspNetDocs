@@ -9,8 +9,8 @@ ms.assetid: f15ab392-c05e-4269-83bf-7c6d2b8c8ec8
 msc.legacyurl: /web-pages/overview/mobile/rendering-aspnet-web-pages-sites-for-mobile-devices
 msc.type: authoredcontent
 ---
-Rendering ASP.NET Web Pages (Razor) Sites for Mobile Devices
-====================
+# Rendering ASP.NET Web Pages (Razor) Sites for Mobile Devices
+
 by [Tom FitzMacken](https://github.com/tfitzmac)
 
 > This article describes how to create pages in an ASP.NET Web Pages (Razor) site that will render appropriately on mobile devices.

@@ -9,8 +9,8 @@ ms.assetid: 675531a7-cb54-4dd6-89ac-2636e4c285a5
 msc.legacyurl: /web-forms/overview/data-access/advanced-data-access-scenarios/updating-the-tableadapter-to-use-joins-cs
 msc.type: authoredcontent
 ---
-Updating the TableAdapter to Use JOINs (C#)
-====================
+# Updating the TableAdapter to Use JOINs (C#)
+
 by [Scott Mitchell](https://twitter.com/ScottOnWriting)
 
 [Download Code](http://download.microsoft.com/download/3/9/f/39f92b37-e92e-4ab3-909e-b4ef23d01aa3/ASPNET_Data_Tutorial_69_CS.zip) or [Download PDF](updating-the-tableadapter-to-use-joins-cs/_static/datatutorial69cs1.pdf)

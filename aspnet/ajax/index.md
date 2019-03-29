@@ -9,8 +9,8 @@ ms.assetid: 42b0bd66-bf2f-4993-8b5a-bac3028201fc
 msc.legacyurl: /ajax
 msc.type: content
 ---
-ASP.NET Ajax : Enhanced Interactivity and Responsiveness
-====================
+# ASP.NET Ajax : Enhanced Interactivity and Responsiveness
+
 - [AJAX Control Toolkit](https://go.devexpress.com/AjaxControlToolkit_ASP_Resources_ASP_AJAX_Index.aspx)
 - [jQuery](http://jquery.com/)
 - [Microsoft Ajax CDN](cdn/overview.md)

@@ -9,8 +9,8 @@ ms.assetid: ea40322d-2e77-4c37-8227-e650b286e373
 msc.legacyurl: /web-forms/videos/building-20-applications
 msc.type: chapter
 ---
-Building 2.0 Applications
-====================
+# Building 2.0 Applications
+
 > Building ASP.NET 2.0 Applications
 
 

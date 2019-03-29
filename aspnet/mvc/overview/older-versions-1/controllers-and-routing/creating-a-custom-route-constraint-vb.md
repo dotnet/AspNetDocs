@@ -9,8 +9,8 @@ ms.assetid: 892edb27-1cc2-4eaf-8314-dbc2efc6228a
 msc.legacyurl: /mvc/overview/older-versions-1/controllers-and-routing/creating-a-custom-route-constraint-vb
 msc.type: authoredcontent
 ---
-Creating a Custom Route Constraint (VB)
-====================
+# Creating a Custom Route Constraint (VB)
+
 by [Stephen Walther](https://github.com/StephenWalther)
 
 > Stephen Walther demonstrates how you can create a custom route constraint. We implement a simple custom constraint that prevents a route from being matched when a browser request is made from a remote computer.

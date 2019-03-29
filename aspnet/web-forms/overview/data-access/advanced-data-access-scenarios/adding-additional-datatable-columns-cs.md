@@ -9,8 +9,8 @@ ms.assetid: 615f3361-f21f-4338-8bc1-fce8ae071de9
 msc.legacyurl: /web-forms/overview/data-access/advanced-data-access-scenarios/adding-additional-datatable-columns-cs
 msc.type: authoredcontent
 ---
-Adding Additional DataTable Columns (C#)
-====================
+# Adding Additional DataTable Columns (C#)
+
 by [Scott Mitchell](https://twitter.com/ScottOnWriting)
 
 [Download Code](http://download.microsoft.com/download/3/9/f/39f92b37-e92e-4ab3-909e-b4ef23d01aa3/ASPNET_Data_Tutorial_70_CS.zip) or [Download PDF](adding-additional-datatable-columns-cs/_static/datatutorial70cs1.pdf)

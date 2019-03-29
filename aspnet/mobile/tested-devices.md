@@ -9,8 +9,8 @@ ms.assetid: 51b447d5-eaa1-4df1-917c-f4f2746ed62d
 msc.legacyurl: /mobile/tested-devices
 msc.type: content
 ---
-ASP.NET Mobile Controls Tested Devices
-====================
+# ASP.NET Mobile Controls Tested Devices
+
 > The following devices and browsers have been tested with the Microsoft Mobile Internet Toolkit v1.0 and ASP.NET mobile controls.
 > 
 > - Microsoft Mobile Internet Toolkit [MMIT 1.0]: *(January 15, 2002)*

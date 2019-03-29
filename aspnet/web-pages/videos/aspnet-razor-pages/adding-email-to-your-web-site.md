@@ -9,8 +9,8 @@ ms.assetid: a0eb31aa-068b-4214-8a2b-16576a616aca
 msc.legacyurl: /web-pages/videos/aspnet-razor-pages/adding-email-to-your-web-site
 msc.type: video
 ---
-Adding Email to Your Web Site
-====================
+# Adding Email to Your Web Site
+
 by [Joe Stagner](https://github.com/JoeStagner)
 
 Adding Email to Your Web Site (Part 1)

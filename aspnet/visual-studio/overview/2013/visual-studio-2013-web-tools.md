@@ -9,8 +9,8 @@ ms.assetid: 09e82351-816b-402d-acd1-0f9ac6901d16
 msc.legacyurl: /visual-studio/overview/2013/visual-studio-2013-web-tools
 msc.type: authoredcontent
 ---
-Hands On Lab: Visual Studio 2013 Web Tools
-====================
+# Hands On Lab: Visual Studio 2013 Web Tools
+
 by [Web Camps Team](https://twitter.com/webcamps)
 
 [Download Web Camps Training Kit](https://aka.ms/webcamps-training-kit)

@@ -9,8 +9,8 @@ ms.assetid: 79e2a85d-e214-4e31-a9da-0980f5f86935
 msc.legacyurl: /mvc/videos/mvc-2/how-do-i/how-to-best-learn-asp-net-mvc
 msc.type: video
 ---
-How to Best Learn ASP.NET MVC
-====================
+# How to Best Learn ASP.NET MVC
+
 by [Scott Hanselman](https://github.com/shanselman)
 
 Microsoft's Scott Hanselman shows you what you need to learn how to use ASP.NET MVC to develop your web applications.

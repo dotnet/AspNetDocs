@@ -9,8 +9,8 @@ ms.assetid: 82b8dea0-f062-4ee4-8784-3ffa30fbb1ca
 msc.legacyurl: /web-forms/overview/deployment/visual-studio-web-deployment/command-line-deployment
 msc.type: authoredcontent
 ---
-ASP.NET Web Deployment using Visual Studio: Command Line Deployment
-====================
+# ASP.NET Web Deployment using Visual Studio: Command Line Deployment
+
 by [Tom Dykstra](https://github.com/tdykstra)
 
 [Download Starter Project](http://go.microsoft.com/fwlink/p/?LinkId=282627)

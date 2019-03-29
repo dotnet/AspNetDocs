@@ -9,8 +9,8 @@ ms.assetid: 8e588bfd-15f7-4bbd-8b3e-97223b70af52
 msc.legacyurl: /ajax/cdn/jquery-mobile/cdnjquerymobile10rc2
 msc.type: content
 ---
-jQuery Mobile 1.0 RC2 on the Microsoft Ajax CDN
-====================
+# jQuery Mobile 1.0 RC2 on the Microsoft Ajax CDN
+
 The jQuery Mobile 1.0 RC 2 library includes the following files:
 
 - https://ajax.aspnetcdn.com/ajax/jquery.mobile/1.0rc2/jquery.mobile-1.0rc2.js

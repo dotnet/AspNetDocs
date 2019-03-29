@@ -9,8 +9,8 @@ ms.assetid: 8d04a9db-fa17-4233-bc74-6c040fd1c17a
 msc.legacyurl: /web-forms/videos/aspnet-web-forms-vnext/aspnet-vnext-videos-bundling-and-minification
 msc.type: video
 ---
-ASP.NET vNext Videos: Bundling and Minification
-====================
+# ASP.NET vNext Videos: Bundling and Minification
+
 by [Mads Kristensen](https://github.com/madskristensen)
 
 Mads Kristensen demonstrates how the ASP.NET vNext can automatically bundle and modify JavaScript and CSS resources to improve performance.

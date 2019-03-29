@@ -9,8 +9,8 @@ ms.assetid: 5e18f005-8b3d-4b9a-866c-c567874aa826
 msc.legacyurl: /web-forms/videos/aspnet-ajax/implement-infinite-data-patterns-in-ajax
 msc.type: video
 ---
-Implement Infinite Data Patterns in AJAX
-====================
+# Implement Infinite Data Patterns in AJAX
+
 by [Joe Stagner](https://github.com/JoeStagner)
 
 In this video I will show you how to implement what I refer to as the infinite data pattern for AJAX.

@@ -9,8 +9,8 @@ ms.assetid: 36ed9dd2-095b-48dc-8fe5-2de475b4098d
 msc.legacyurl: /web-api/overview/mobile-clients
 msc.type: chapter
 ---
-Web API and Mobile Clients
-====================
+# Web API and Mobile Clients
+
 > Using ASP.NET Web API to reach native mobile clients.
 
 

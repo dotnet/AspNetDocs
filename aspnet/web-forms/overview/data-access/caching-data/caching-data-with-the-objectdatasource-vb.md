@@ -9,8 +9,8 @@ ms.assetid: 2e56a733-5512-48a6-9276-70a65bbe4d5d
 msc.legacyurl: /web-forms/overview/data-access/caching-data/caching-data-with-the-objectdatasource-vb
 msc.type: authoredcontent
 ---
-Caching Data with the ObjectDataSource (VB)
-====================
+# Caching Data with the ObjectDataSource (VB)
+
 by [Scott Mitchell](https://twitter.com/ScottOnWriting)
 
 [Download Sample App](http://download.microsoft.com/download/4/a/7/4a7a3b18-d80e-4014-8e53-a6a2427f0d93/ASPNET_Data_Tutorial_58_VB.exe) or [Download PDF](caching-data-with-the-objectdatasource-vb/_static/datatutorial58vb1.pdf)

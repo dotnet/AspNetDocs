@@ -9,8 +9,8 @@ ms.assetid: 194a163b-2aad-4cad-bf1f-e9ce3f80add0
 msc.legacyurl: /mvc/videos/mvc-1/aspnet-mvc-storefront/aspnet-mvc-storefront-part-1-architectural-discussion-and-overview
 msc.type: video
 ---
-ASP.NET MVC Storefront Part 1: Architectural Discussion and Overview
-====================
+# ASP.NET MVC Storefront Part 1: Architectural Discussion and Overview
+
 by [Rob Conery](https://github.com/robconery)
 
 Rob Conery covers the initial architecture here, in part 1, where he discusses the Repository Pattern with Ayende Rahien and Steve Harman. He also asks Phil Haack what's first: The Test Chicken or the Model Egg.

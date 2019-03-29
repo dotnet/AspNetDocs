@@ -9,8 +9,8 @@ ms.assetid: 152ab1e5-aec2-4ea7-b8cc-27a24dd9acb8
 msc.legacyurl: /mvc/overview/older-versions-1/views/asp-net-mvc-views-overview-cs
 msc.type: authoredcontent
 ---
-ASP.NET MVC Views Overview (C#)
-====================
+# ASP.NET MVC Views Overview (C#)
+
 by [Stephen Walther](https://github.com/StephenWalther)
 
 > What is an ASP.NET MVC View and how does it differ from a HTML page? In this tutorial, Stephen Walther introduces you to Views and demonstrates how you can take advantage of View Data and HTML Helpers within a View.

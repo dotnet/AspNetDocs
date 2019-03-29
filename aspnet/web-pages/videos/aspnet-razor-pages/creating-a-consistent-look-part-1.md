@@ -9,8 +9,8 @@ ms.assetid: 1057d00f-187f-4187-a674-194b6262c3a3
 msc.legacyurl: /web-pages/videos/aspnet-razor-pages/creating-a-consistent-look-part-1
 msc.type: video
 ---
-Creating a Consistent Look (Part 1)
-====================
+# Creating a Consistent Look (Part 1)
+
 by [Joe Stagner](https://github.com/JoeStagner)
 
 Video accompaniment to the Creating a Consistent Look tutorial (part 1)

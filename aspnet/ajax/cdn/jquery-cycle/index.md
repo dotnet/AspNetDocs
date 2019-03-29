@@ -9,8 +9,8 @@ ms.assetid: b9005f8f-1dbc-4414-abe1-dae4816141e1
 msc.legacyurl: /ajax/cdn/jquery-cycle
 msc.type: folder
 ---
-jQuery Cycle
-====================
+# jQuery Cycle
+
 - [jQuery Cycle 2.99](cdnjquerycycle299.md)
 - [jQuery Cycle 2.94](cdnjquerycycle294.md)
 - [jQuery Cycle 2.88](cdnjquerycycle288.md)

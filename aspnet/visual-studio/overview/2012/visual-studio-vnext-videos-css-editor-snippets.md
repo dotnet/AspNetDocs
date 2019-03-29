@@ -9,8 +9,8 @@ ms.assetid: a87af3be-589d-4b0c-846d-4de60a8745c0
 msc.legacyurl: /visual-studio/overview/2012/visual-studio-vnext-videos-css-editor-snippets
 msc.type: video
 ---
-Visual Studio vNext Videos: CSS Snippets
-====================
+# Visual Studio vNext Videos: CSS Snippets
+
 by [Mads Kristensen](https://github.com/madskristensen)
 
 In this video, Mads Kristensen demonstrates an improvement in the Visual Studio vNext CSS editor which adds some useful snippets for CSS3 transforms, media queries, font embedding, and more.

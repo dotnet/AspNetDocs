@@ -9,8 +9,8 @@ ms.assetid: 99253c4e-a125-4c21-85e7-a6dd74d93892
 msc.legacyurl: /web-pages/overview/getting-started
 msc.type: chapter
 ---
-Getting Started with ASP.NET Web Pages
-====================
+# Getting Started with ASP.NET Web Pages
+
 > What Web Pages and WebMatrix are, plus how to install everything, get started, and deploy sites.
 
 
