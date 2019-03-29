@@ -9,8 +9,8 @@ ms.assetid: 23bdc2a7-417a-4ea8-b1ee-e3e1bd272223
 msc.legacyurl: /web-forms/videos/building-20-applications/watch-aspnet-development-in-action
 msc.type: video
 ---
-Watch ASP.NET Development in Action
-====================
+# Watch ASP.NET Development in Action
+
 by [Joe Stagner](https://github.com/JoeStagner)
 
 Watch how easy it is to build a "to do" task list application from scratch using ASP.NET 2.0, ASP.NET AJAX, SQL Server Express, and Visual Web Developer. Microsoft's Joe Stagner starts by creating a fresh database and the code to access its data. We then see how to define a ToDo List page that displays and updates content in the database. Finally we learn how to add AJAX functionality to the page to improve the user experience.

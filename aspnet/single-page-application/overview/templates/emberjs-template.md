@@ -9,8 +9,8 @@ ms.assetid: 04d5f142-5f62-494a-b5ea-4f3d068d34cb
 msc.legacyurl: /single-page-application/overview/templates/emberjs-template
 msc.type: authoredcontent
 ---
-EmberJS template
-====================
+# EmberJS template
+
 by [Xinyang Qiu](https://github.com/xqiu)
 
 > The EmberJS MVC Template is written by Nathan Totten, Thiago Santos, and Xinyang Qiu.

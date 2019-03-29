@@ -9,8 +9,8 @@ ms.assetid: 656dd06d-806c-467c-863d-9fc45e5ba3ab
 msc.legacyurl: /web-forms/overview/deployment/configuring-server-environments-for-web-deployment/creating-a-server-farm-with-the-web-farm-framework
 msc.type: authoredcontent
 ---
-Creating a Server Farm with the Web Farm Framework
-====================
+# Creating a Server Farm with the Web Farm Framework
+
 by [Jason Lee](https://github.com/jrjlee)
 
 [Download PDF](https://msdnshared.blob.core.windows.net/media/MSDNBlogsFS/prod.evol.blogs.msdn.com/CommunityServer.Blogs.Components.WeblogFiles/00/00/00/63/56/8130.DeployingWebAppsInEnterpriseScenarios.pdf)

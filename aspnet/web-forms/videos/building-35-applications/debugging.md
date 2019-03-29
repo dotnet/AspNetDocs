@@ -9,8 +9,8 @@ ms.assetid: d17389d8-3824-4900-9309-92d49bb756b1
 msc.legacyurl: /web-forms/videos/building-35-applications/debugging
 msc.type: video
 ---
-Debugging
-====================
+# Debugging
+
 by [Joe Stagner](https://github.com/JoeStagner)
 
 Description: Visual Web Developer offers a rich debugging experience for beginners and expert developer alike. In this video Joe will tour you through the VWD debugging experience.

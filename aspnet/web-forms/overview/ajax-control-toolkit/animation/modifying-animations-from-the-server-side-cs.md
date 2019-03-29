@@ -9,8 +9,8 @@ ms.assetid: b0abec39-a1c9-422d-ba9a-ef16f6185af8
 msc.legacyurl: /web-forms/overview/ajax-control-toolkit/animation/modifying-animations-from-the-server-side-cs
 msc.type: authoredcontent
 ---
-Modifying Animations From The Server Side (C#)
-====================
+# Modifying Animations From The Server Side (C#)
+
 by [Christian Wenz](https://github.com/wenz)
 
 [Download Code](http://download.microsoft.com/download/f/9/a/f9a26acd-8df4-4484-8a18-199e4598f411/Animation9.cs.zip) or [Download PDF](http://download.microsoft.com/download/6/7/1/6718d452-ff89-4d3f-a90e-c74ec2d636a3/animation9CS.pdf)

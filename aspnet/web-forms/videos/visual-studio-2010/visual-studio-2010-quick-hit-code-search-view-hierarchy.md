@@ -9,8 +9,8 @@ ms.assetid: 0f24b680-e3a6-46f6-a52a-91191e09ab78
 msc.legacyurl: /web-forms/videos/visual-studio-2010/visual-studio-2010-quick-hit-code-search-view-hierarchy
 msc.type: video
 ---
-Visual Studio 2010 "Quick Hit" - Code Search View Hierarchy
-====================
+# Visual Studio 2010 "Quick Hit" - Code Search View Hierarchy
+
 by [Joe Stagner](https://github.com/JoeStagner)
 
 In this video you will learn about Visual Studio's code search view hierarchy.

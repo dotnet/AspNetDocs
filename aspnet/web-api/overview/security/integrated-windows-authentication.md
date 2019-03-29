@@ -9,8 +9,8 @@ ms.assetid: 71ee4c78-c500-4d1c-b761-b4e161a291b5
 msc.legacyurl: /web-api/overview/security/integrated-windows-authentication
 msc.type: authoredcontent
 ---
-Integrated Windows Authentication
-====================
+# Integrated Windows Authentication
+
 by [Mike Wasson](https://github.com/MikeWasson)
 
 Integrated Windows authentication enables users to log in with their Windows credentials, using Kerberos or NTLM. The client sends credentials in the Authorization header. Windows authentication is best suited for an intranet environment. For more information, see [Windows Authentication](https://www.iis.net/configreference/system.webserver/security/authentication/windowsauthentication).

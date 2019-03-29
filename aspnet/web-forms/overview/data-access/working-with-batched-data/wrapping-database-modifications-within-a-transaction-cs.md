@@ -9,8 +9,8 @@ ms.assetid: b45fede3-c53a-4ea1-824b-20200808dbae
 msc.legacyurl: /web-forms/overview/data-access/working-with-batched-data/wrapping-database-modifications-within-a-transaction-cs
 msc.type: authoredcontent
 ---
-Wrapping Database Modifications within a Transaction (C#)
-====================
+# Wrapping Database Modifications within a Transaction (C#)
+
 by [Scott Mitchell](https://twitter.com/ScottOnWriting)
 
 [Download Code](http://download.microsoft.com/download/3/9/f/39f92b37-e92e-4ab3-909e-b4ef23d01aa3/ASPNET_Data_Tutorial_63_CS.zip) or [Download PDF](wrapping-database-modifications-within-a-transaction-cs/_static/datatutorial63cs1.pdf)

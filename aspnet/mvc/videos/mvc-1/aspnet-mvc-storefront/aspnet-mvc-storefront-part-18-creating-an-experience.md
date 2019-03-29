@@ -9,8 +9,8 @@ ms.assetid: 1636464e-900e-4926-bd5a-88adb5315ff9
 msc.legacyurl: /mvc/videos/mvc-1/aspnet-mvc-storefront/aspnet-mvc-storefront-part-18-creating-an-experience
 msc.type: video
 ---
-ASP.NET MVC Storefront Part 18: Creating An Experience
-====================
+# ASP.NET MVC Storefront Part 18: Creating An Experience
+
 by [Rob Conery](https://github.com/robconery)
 
 In this episode I work on pulling all of the technical pieces together to form a coherent "experience" for the shopper.

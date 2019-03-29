@@ -9,8 +9,8 @@ ms.assetid: cf0b487c-f387-46dd-b3bc-6b3c4af17c9c
 msc.legacyurl: /web-forms/videos/sql-2005
 msc.type: chapter
 ---
-SQL 2005
-====================
+# SQL 2005
+
 > How to work with SQL Server Express to add database capabilities to your ASP.NET applications.
 
 

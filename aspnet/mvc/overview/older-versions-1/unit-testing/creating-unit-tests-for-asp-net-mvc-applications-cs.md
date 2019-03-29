@@ -9,8 +9,8 @@ ms.assetid: d3a270b9-d7b1-47f2-8775-fc3beb518b5c
 msc.legacyurl: /mvc/overview/older-versions-1/unit-testing/creating-unit-tests-for-asp-net-mvc-applications-cs
 msc.type: authoredcontent
 ---
-Creating Unit Tests for ASP.NET MVC Applications (C#)
-====================
+# Creating Unit Tests for ASP.NET MVC Applications (C#)
+
 by [Stephen Walther](https://github.com/StephenWalther)
 
 [Download PDF](http://download.microsoft.com/download/8/4/8/84843d8d-1575-426c-bcb5-9d0c42e51416/ASPNET_MVC_Tutorial_07_CS.pdf)

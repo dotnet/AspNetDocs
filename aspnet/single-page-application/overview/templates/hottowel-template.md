@@ -9,8 +9,8 @@ ms.assetid: 75af2e17-6ed3-4d24-8ea1-bc340027c318
 msc.legacyurl: /single-page-application/overview/templates/hottowel-template
 msc.type: authoredcontent
 ---
-Hot Towel template
-====================
+# Hot Towel template
+
 by [Mads Kristensen](https://github.com/madskristensen)
 
 > The Hot Towel MVC Template is written by John Papa

@@ -9,8 +9,8 @@ ms.assetid: 9594d644-66b6-4223-acdd-23e29a6e4c46
 msc.legacyurl: /signalr/overview/older-versions/signalr-performance
 msc.type: authoredcontent
 ---
-SignalR Performance (SignalR 1.x)
-====================
+# SignalR Performance (SignalR 1.x)
+
 by [Patrick Fletcher](https://github.com/pfletcher)
 
 [!INCLUDE [Consider ASP.NET Core SignalR](~/includes/signalr/signalr-version-disambiguation.md)]

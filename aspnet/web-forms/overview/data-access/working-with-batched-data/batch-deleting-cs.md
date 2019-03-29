@@ -9,8 +9,8 @@ ms.assetid: ac6916d0-a5ab-4218-9760-7ba9e72d258c
 msc.legacyurl: /web-forms/overview/data-access/working-with-batched-data/batch-deleting-cs
 msc.type: authoredcontent
 ---
-Batch Deleting (C#)
-====================
+# Batch Deleting (C#)
+
 by [Scott Mitchell](https://twitter.com/ScottOnWriting)
 
 [Download Code](http://download.microsoft.com/download/3/9/f/39f92b37-e92e-4ab3-909e-b4ef23d01aa3/ASPNET_Data_Tutorial_65_CS.zip) or [Download PDF](batch-deleting-cs/_static/datatutorial65cs1.pdf)

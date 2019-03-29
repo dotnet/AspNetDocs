@@ -9,8 +9,8 @@ ms.assetid: 2f952638-6b1f-48b6-b019-1c5d1e9ab746
 msc.legacyurl: /web-forms/overview/older-versions-security
 msc.type: chapter
 ---
-Older Versions - Security
-====================
+# Older Versions - Security
+
 > Security, authentication, and authorization topics for ASP.NET 4 and earlier Web Forms applications.
 
 

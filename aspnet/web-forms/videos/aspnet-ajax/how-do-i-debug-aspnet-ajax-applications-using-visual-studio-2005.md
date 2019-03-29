@@ -9,8 +9,8 @@ ms.assetid: 0c766dac-5366-47e4-baa4-3a9fd71e4b80
 msc.legacyurl: /web-forms/videos/aspnet-ajax/how-do-i-debug-aspnet-ajax-applications-using-visual-studio-2005
 msc.type: video
 ---
-[How Do I:] Debug ASP.NET AJAX Applications Using Visual Studio 2005?
-====================
+# [How Do I:] Debug ASP.NET AJAX Applications Using Visual Studio 2005?
+
 by [Scott Golightly](https://github.com/scottgolightly)
 
 In this video we learn how to use Visual Studio 2005 to debug ASP.NET AJAX applications. We are shown how the ScriptManager is used to access the JavaScript created by the ASP.NET AJAX server controls, and we also see how to use the Sys.Debug class to insert a trace message and a breakpoint.

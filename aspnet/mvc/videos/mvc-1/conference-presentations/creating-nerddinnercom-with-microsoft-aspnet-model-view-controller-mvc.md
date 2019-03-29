@@ -9,8 +9,8 @@ ms.assetid: 4009c18d-cde6-4bbb-b1a4-ae0c6b3f8091
 msc.legacyurl: /mvc/videos/mvc-1/conference-presentations/creating-nerddinnercom-with-microsoft-aspnet-model-view-controller-mvc
 msc.type: video
 ---
-Creating NerdDinner.com with Microsoft ASP.NET Model View Controller (MVC)
-====================
+# Creating NerdDinner.com with Microsoft ASP.NET Model View Controller (MVC)
+
 by [Scott Hanselman](https://github.com/shanselman)
 
 No slides. Just code. Start with File-New and build a real Web site with ASP.NET, ASP.NET AJAX, Authentication, Authorization, MVC, Microsoft SQL Server and jQuery in sixty-five minutes or less.

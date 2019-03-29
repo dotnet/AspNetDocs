@@ -9,8 +9,8 @@ ms.assetid: db9e13d3-c8f5-4051-ad9d-dc5649b1c41f
 msc.legacyurl: /web-forms/videos/aspnet-ajax/how-do-i-build-custom-server-controls-that-work-with-or-without-aspnet-ajax
 msc.type: video
 ---
-[How Do I:] Build Custom Server Controls that Work With or Without ASP.NET AJAX?
-====================
+# [How Do I:] Build Custom Server Controls that Work With or Without ASP.NET AJAX?
+
 by [Chris Pels](https://twitter.com/chrispels)
 
 Do you have an idea for a custom server control that should be able to work without ASP.NET AJAX, yet could take advantage of ASP.NET AJAX if it is available? In this video we learn how to build a custom server control that does not reference the ASP.NET AJAX assembly, but uses Reflection to "play nice" with the ASP.NET AJAX UpdatePanel.

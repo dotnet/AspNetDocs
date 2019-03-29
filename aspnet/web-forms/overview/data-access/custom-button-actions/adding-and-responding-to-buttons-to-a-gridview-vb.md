@@ -9,8 +9,8 @@ ms.assetid: 06c6bbd2-4bdc-435b-87a3-df2c868f4baa
 msc.legacyurl: /web-forms/overview/data-access/custom-button-actions/adding-and-responding-to-buttons-to-a-gridview-vb
 msc.type: authoredcontent
 ---
-Adding and Responding to Buttons to a GridView (VB)
-====================
+# Adding and Responding to Buttons to a GridView (VB)
+
 by [Scott Mitchell](https://twitter.com/ScottOnWriting)
 
 [Download Sample App](http://download.microsoft.com/download/9/c/1/9c1d03ee-29ba-4d58-aa1a-f201dcc822ea/ASPNET_Data_Tutorial_28_VB.exe) or [Download PDF](adding-and-responding-to-buttons-to-a-gridview-vb/_static/datatutorial28vb1.pdf)

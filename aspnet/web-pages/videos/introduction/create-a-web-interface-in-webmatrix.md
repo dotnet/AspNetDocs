@@ -9,8 +9,8 @@ ms.assetid: a0529495-422f-4008-94b5-5fa913ac2e70
 msc.legacyurl: /web-pages/videos/introduction/create-a-web-interface-in-webmatrix
 msc.type: video
 ---
-Create a Web Interface in WebMatrix
-====================
+# Create a Web Interface in WebMatrix
+
 by [Advaiya](https://twitter.com/Advaiyasolns)
 
 Part 6 shows you how to build a page that allows your users to add data to your database, so your site can render it.

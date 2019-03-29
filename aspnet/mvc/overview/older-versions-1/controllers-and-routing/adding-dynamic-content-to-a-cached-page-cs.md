@@ -9,8 +9,8 @@ ms.assetid: 2ddd4407-d143-4a94-877c-21771bfb97a6
 msc.legacyurl: /mvc/overview/older-versions-1/controllers-and-routing/adding-dynamic-content-to-a-cached-page-cs
 msc.type: authoredcontent
 ---
-Adding Dynamic Content to a Cached Page (C#)
-====================
+# Adding Dynamic Content to a Cached Page (C#)
+
 by [Microsoft](https://github.com/microsoft)
 
 > Learn how to mix dynamic and cached content in the same page. Post-cache substitution enables you to display dynamic content, such as banner advertisements or news items, within a page that has been output cached.
@@ -87,10 +87,6 @@ When you request the page rendered by the view in Listing 5, a different banner 
 This tutorial explained how you can dynamically update content in a cached page. You learned how to use the HttpResponse.WriteSubstitution() method to enable dynamic content to be injected in a cached page. You also learned how to encapsulate the call to the WriteSubstitution() method within an HTML helper method.
 
 Take advantage of caching whenever possible – it can have a dramatic impact on the performance of your web applications. As explained in this tutorial, you can take advantage of caching even when you need to display dynamic content in your pages.
-
-## 
-
-## 
 
 > [!div class="step-by-step"]
 > [Previous](improving-performance-with-output-caching-cs.md)

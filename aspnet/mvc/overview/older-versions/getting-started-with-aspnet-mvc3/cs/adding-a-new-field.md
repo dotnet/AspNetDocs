@@ -9,8 +9,8 @@ ms.assetid: b4e76c1a-f66e-43a0-aa72-f39df79c07c1
 msc.legacyurl: /mvc/overview/older-versions/getting-started-with-aspnet-mvc3/cs/adding-a-new-field
 msc.type: authoredcontent
 ---
-Adding a New Field to the Movie Model and Table (C#)
-====================
+# Adding a New Field to the Movie Model and Table (C#)
+
 by [Rick Anderson]((https://twitter.com/RickAndMSFT))
 
 > > [!NOTE]

@@ -9,8 +9,8 @@ ms.assetid: 7f07c112-cd4f-4427-9699-57cfab2791fd
 msc.legacyurl: /web-forms/overview/ajax-control-toolkit/hovermenu/using-hovermenu-with-a-repeater-control-vb
 msc.type: authoredcontent
 ---
-Using HoverMenu with a Repeater Control (VB)
-====================
+# Using HoverMenu with a Repeater Control (VB)
+
 by [Christian Wenz](https://github.com/wenz)
 
 [Download Code](http://download.microsoft.com/download/b/0/6/b06fe835-5b8f-4c00-aef8-062c19d75b95/HoverMenu1.vb.zip) or [Download PDF](http://download.microsoft.com/download/b/6/a/b6ae89ee-df69-4c87-9bfb-ad1eb2b23373/hovermenu1VB.pdf)

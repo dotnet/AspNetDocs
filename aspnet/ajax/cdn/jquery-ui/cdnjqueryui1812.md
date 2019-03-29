@@ -9,8 +9,8 @@ ms.assetid: f7cb2102-d826-4d70-ba9a-504e3c50ad89
 msc.legacyurl: /ajax/cdn/jquery-ui/cdnjqueryui1812
 msc.type: content
 ---
-jQuery UI 1.8.12 on the Microsoft Ajax CDN
-====================
+# jQuery UI 1.8.12 on the Microsoft Ajax CDN
+
 The jQuery UI 1.8.12 library includes the following files:
 
 - https://ajax.aspnetcdn.com/ajax/jquery.ui/1.8.12/jquery-ui.js

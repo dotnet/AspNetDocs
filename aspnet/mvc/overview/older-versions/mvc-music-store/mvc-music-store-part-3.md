@@ -9,8 +9,8 @@ ms.assetid: 94297aa0-1f2d-4d72-bbcb-63f64653e0c0
 msc.legacyurl: /mvc/overview/older-versions/mvc-music-store/mvc-music-store-part-3
 msc.type: authoredcontent
 ---
-Part 3: Views and ViewModels
-====================
+# Part 3: Views and ViewModels
+
 by [Jon Galloway](https://github.com/jongalloway)
 
 > The MVC Music Store is a tutorial application that introduces and explains step-by-step how to use ASP.NET MVC and Visual Studio for web development.  

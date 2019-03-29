@@ -9,8 +9,8 @@ ms.assetid: f571ca7a-c06b-400d-8051-f62f9f0bcc9b
 msc.legacyurl: /web-api
 msc.type: categoryindex
 ---
-ASP.NET Web API
-====================
+# ASP.NET Web API
+
 - [Guidance](overview/index.md)
 
     - [Getting Started](overview/getting-started-with-aspnet-web-api/index.md)

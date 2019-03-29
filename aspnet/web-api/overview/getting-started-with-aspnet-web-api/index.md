@@ -9,8 +9,8 @@ ms.assetid: a36e178f-de46-46d9-b150-61fb3ba1b4d3
 msc.legacyurl: /web-api/overview/getting-started-with-aspnet-web-api
 msc.type: chapter
 ---
-Getting Started with ASP.NET Web API
-====================
+# Getting Started with ASP.NET Web API
+
 > The basics of building an HTTP service using ASP.NET Web API
 
 

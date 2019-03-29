@@ -9,8 +9,8 @@ ms.assetid: 5138b8fe-98ff-4e73-a00b-e263fc3ff11d
 msc.legacyurl: /web-forms/overview/ajax-control-toolkit/animation/dynamically-controlling-updatepanel-animations-cs
 msc.type: authoredcontent
 ---
-Dynamically Controlling UpdatePanel Animations (C#)
-====================
+# Dynamically Controlling UpdatePanel Animations (C#)
+
 by [Christian Wenz](https://github.com/wenz)
 
 [Download Code](http://download.microsoft.com/download/9/3/f/93f8daea-bebd-4821-833b-95205389c7d0/UpdatePanelAnimation2.cs.zip) or [Download PDF](http://download.microsoft.com/download/b/6/a/b6ae89ee-df69-4c87-9bfb-ad1eb2b23373/updatepanelanimation2CS.pdf)

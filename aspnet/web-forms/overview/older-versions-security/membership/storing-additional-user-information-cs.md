@@ -9,8 +9,8 @@ ms.assetid: 1642132a-1ca5-4872-983f-ab59fc8865d3
 msc.legacyurl: /web-forms/overview/older-versions-security/membership/storing-additional-user-information-cs
 msc.type: authoredcontent
 ---
-Storing Additional User Information (C#)
-====================
+# Storing Additional User Information (C#)
+
 by [Scott Mitchell](https://twitter.com/ScottOnWriting)
 
 [Download Code](http://download.microsoft.com/download/3/f/5/3f5a8605-c526-4b34-b3fd-a34167117633/ASPNET_Security_Tutorial_08_CS.zip) or [Download PDF](http://download.microsoft.com/download/3/f/5/3f5a8605-c526-4b34-b3fd-a34167117633/aspnet_tutorial08_ExtraUserInfo_cs.pdf)

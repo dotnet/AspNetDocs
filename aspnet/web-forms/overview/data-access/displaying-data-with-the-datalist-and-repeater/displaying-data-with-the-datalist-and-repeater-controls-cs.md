@@ -9,8 +9,8 @@ ms.assetid: 0591cacc-b34b-4cf6-885e-2c9953bb0946
 msc.legacyurl: /web-forms/overview/data-access/displaying-data-with-the-datalist-and-repeater/displaying-data-with-the-datalist-and-repeater-controls-cs
 msc.type: authoredcontent
 ---
-Displaying Data with the DataList and Repeater Controls (C#)
-====================
+# Displaying Data with the DataList and Repeater Controls (C#)
+
 by [Scott Mitchell](https://twitter.com/ScottOnWriting)
 
 [Download Sample App](http://download.microsoft.com/download/9/c/1/9c1d03ee-29ba-4d58-aa1a-f201dcc822ea/ASPNET_Data_Tutorial_29_CS.exe) or [Download PDF](displaying-data-with-the-datalist-and-repeater-controls-cs/_static/datatutorial29cs1.pdf)

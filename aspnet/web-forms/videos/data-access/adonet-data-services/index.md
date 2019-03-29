@@ -9,8 +9,8 @@ ms.assetid: e0af2f02-b132-4ad4-b881-f6b5ab86b1ae
 msc.legacyurl: /web-forms/videos/data-access/adonet-data-services
 msc.type: chapter
 ---
-ADO.NET Data Services
-====================
+# ADO.NET Data Services
+
 > These videos show you how to create a data access layer using a typed data set for a simple ASP.NET application.
 
 

@@ -9,8 +9,8 @@ ms.assetid: 0ab311fc-154b-4e38-86ce-c6351ff5cabb
 msc.legacyurl: /web-forms/videos/ajax-control-toolkit/how-do-i-get-started-with-the-aspnet-ajax-control-toolkit
 msc.type: video
 ---
-[How Do I:] Get Started with the ASP.NET AJAX Control Toolkit?
-====================
+# [How Do I:] Get Started with the ASP.NET AJAX Control Toolkit?
+
 by [Joe Stagner](https://github.com/JoeStagner)
 
 Learn how to extend your ASP.NET AJAX applications using the ASP.NET AJAX Control Toolkit. This video starts with the very basics, including downloading and installing the toolkit, and adding a few of its controls to a simple ASP.NET AJAX-enabled web page.

@@ -9,8 +9,8 @@ ms.assetid: 7f9380c6-19f7-4c82-a019-916ec6dffc9c
 msc.legacyurl: /web-forms/overview/older-versions-getting-started/aspnet-ajax/understanding-asp-net-ajax-debugging-capabilities
 msc.type: authoredcontent
 ---
-Understanding ASP.NET AJAX Debugging Capabilities
-====================
+# Understanding ASP.NET AJAX Debugging Capabilities
+
 by [Scott Cate](https://github.com/scottcate)
 
 [Download PDF](http://download.microsoft.com/download/C/1/9/C19A3451-1D14-477C-B703-54EF22E197EE/AJAX_tutorial06_Debugging_MS_Ajax_Applications_cs.pdf)

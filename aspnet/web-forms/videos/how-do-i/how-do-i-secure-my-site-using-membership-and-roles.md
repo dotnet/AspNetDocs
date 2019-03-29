@@ -9,8 +9,8 @@ ms.assetid: e80c641c-f5e5-42a5-8bcd-5fecb34de198
 msc.legacyurl: /web-forms/videos/how-do-i/how-do-i-secure-my-site-using-membership-and-roles
 msc.type: video
 ---
-[How Do I:] Secure my Site using Membership and Roles?
-====================
+# [How Do I:] Secure my Site using Membership and Roles?
+
 by [Microsoft](https://github.com/microsoft)
 
 Learn how to secure a web site using the new Membership and Roles features of ASP.NET 2.0. Topics include user registration, password recovery, and restricting access to content with roles.

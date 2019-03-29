@@ -9,8 +9,8 @@ ms.assetid: 9fc60498-ced4-47c6-b2cf-8d464e6aeef8
 msc.legacyurl: /web-forms/overview/data-access/editing-inserting-and-deleting-data
 msc.type: chapter
 ---
-Editing, Inserting, and Deleting Data
-====================
+# Editing, Inserting, and Deleting Data
+
 > In these tutorials you see how to map methods of the ObjectDataSource control to BLL methods, and how to configure the GridView, DetailsView, and FormView controls to let users modify data.
 
 

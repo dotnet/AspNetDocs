@@ -9,8 +9,8 @@ ms.assetid: 73822cfa-2052-41fa-98e6-434928574afb
 msc.legacyurl: /web-forms/videos/ajax-control-toolkit/combo-box
 msc.type: video
 ---
-Combo Box
-====================
+# Combo Box
+
 by [Joe Stagner](https://github.com/JoeStagner)
 
 This video will demonstrate how to use the new Combo Box control from the Microsoft AJAX Control Toolkit.

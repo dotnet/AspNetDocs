@@ -9,8 +9,8 @@ ms.assetid: db31e909-563a-4516-aadd-62aa210ac7e4
 msc.legacyurl: /single-page-application/overview/templates/breezeangular-template
 msc.type: authoredcontent
 ---
-Breeze/Angular template
-====================
+# Breeze/Angular template
+
 by [Mads Kristensen](https://github.com/madskristensen)
 
 > The Breeze/Angular MVC Template was written by Ward Bell

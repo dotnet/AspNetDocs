@@ -9,8 +9,8 @@ ms.assetid: 83e3d759-82b8-41e6-8d62-f0f4b3edec41
 msc.legacyurl: /web-forms/overview/data-access/displaying-data-with-the-datalist-and-repeater/formatting-the-datalist-and-repeater-based-upon-data-cs
 msc.type: authoredcontent
 ---
-Formatting the DataList and Repeater Based Upon Data (C#)
-====================
+# Formatting the DataList and Repeater Based Upon Data (C#)
+
 by [Scott Mitchell](https://twitter.com/ScottOnWriting)
 
 [Download Sample App](http://download.microsoft.com/download/9/c/1/9c1d03ee-29ba-4d58-aa1a-f201dcc822ea/ASPNET_Data_Tutorial_30_CS.exe) or [Download PDF](formatting-the-datalist-and-repeater-based-upon-data-cs/_static/datatutorial30cs1.pdf)

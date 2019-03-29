@@ -9,8 +9,8 @@ ms.assetid: b43a6e83-7391-407c-953c-222e7567b509
 msc.legacyurl: /web-forms/overview/ajax-control-toolkit/htmleditor
 msc.type: chapter
 ---
-HTMLEditor
-====================
+# HTMLEditor
+
 > This tutorial shows how to use the HTMLEditor control, which provides a rich editor and WYSIWYG or source editing of HTML content.
 
 

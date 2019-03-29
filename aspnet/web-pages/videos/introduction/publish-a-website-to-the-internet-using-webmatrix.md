@@ -9,8 +9,8 @@ ms.assetid: 090f5500-1124-49a7-a295-db97ef739c6a
 msc.legacyurl: /web-pages/videos/introduction/publish-a-website-to-the-internet-using-webmatrix
 msc.type: video
 ---
-Publish a Website to the Internet Using WebMatrix
-====================
+# Publish a Website to the Internet Using WebMatrix
+
 by [Advaiya](https://twitter.com/Advaiyasolns)
 
 Part 9 shows you how to publish your site to the internet using WebMatrix.

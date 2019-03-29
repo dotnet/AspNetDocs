@@ -9,8 +9,8 @@ ms.assetid: eeef9f73-6de3-49f9-b50b-9af22108f2ce
 msc.legacyurl: /signalr/overview/older-versions/tutorial-getting-started-with-signalr-and-mvc-4
 msc.type: authoredcontent
 ---
-Tutorial: Getting Started with SignalR 1.x and MVC 4
-====================
+# Tutorial: Getting Started with SignalR 1.x and MVC 4
+
 by [Patrick Fletcher](https://github.com/pfletcher), [Tim Teebken](https://github.com/timlt)
 
 [!INCLUDE [Consider ASP.NET Core SignalR](~/includes/signalr/signalr-version-disambiguation.md)]

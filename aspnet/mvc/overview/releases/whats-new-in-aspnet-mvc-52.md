@@ -9,8 +9,8 @@ ms.assetid: 97972587-2720-48b4-b158-f35f2e855fbf
 msc.legacyurl: /mvc/overview/releases/whats-new-in-aspnet-mvc-52
 msc.type: authoredcontent
 ---
-What’s New in ASP.NET MVC 5.2
-====================
+# What’s New in ASP.NET MVC 5.2
+
 by [Microsoft](https://github.com/microsoft)
 
 This topic describes what's new for ASP.NET MVC 5.2, [Microsoft.AspNet.MVC 5.2.2](#52) and [ASP.NET MVC 5.2.3 Beta](#mvc523Beta)

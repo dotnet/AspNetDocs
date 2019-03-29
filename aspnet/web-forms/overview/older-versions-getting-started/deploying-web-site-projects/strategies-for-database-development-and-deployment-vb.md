@@ -9,8 +9,8 @@ ms.assetid: 07b8905d-78ac-4252-97fb-8675b3fb0bbf
 msc.legacyurl: /web-forms/overview/older-versions-getting-started/deploying-web-site-projects/strategies-for-database-development-and-deployment-vb
 msc.type: authoredcontent
 ---
-Strategies for Database Development and Deployment (VB)
-====================
+# Strategies for Database Development and Deployment (VB)
+
 by [Scott Mitchell](https://twitter.com/ScottOnWriting)
 
 [Download PDF](http://download.microsoft.com/download/C/3/9/C391A649-B357-4A7B-BAA4-48C96871FEA6/aspnet_tutorial10_DBDevel_vb.pdf)

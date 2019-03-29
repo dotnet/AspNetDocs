@@ -9,8 +9,8 @@ ms.assetid: 4a262984-ab29-4bf7-a8b6-707d66cde011
 msc.legacyurl: /web-forms/videos/vs-2005/using-the-load-test-agent
 msc.type: video
 ---
-Using the Load Test Agent
-====================
+# Using the Load Test Agent
+
 by Eric Lee
 
 In this video we examine how to incorporate the Load Test Agent in to the testing that we do with Visual Studio Team System. A Load Test Agent is part of a "rig" that can be deployed to separate machines to enable load, stress, and unit testing from another operating system or machine configuration. Each rig can work with several agents and can be deployed to virtual or remote machines, allowing for comprehensive testing with Visual Studio Team System.

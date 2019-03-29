@@ -9,8 +9,8 @@ ms.assetid: b381b1da-feb3-4776-bc1b-75db53eb90ab
 msc.legacyurl: /web-forms/overview/data-access/working-with-binary-files/uploading-files-cs
 msc.type: authoredcontent
 ---
-Uploading Files (C#)
-====================
+# Uploading Files (C#)
+
 by [Scott Mitchell](https://twitter.com/ScottOnWriting)
 
 [Download Sample App](http://download.microsoft.com/download/4/a/7/4a7a3b18-d80e-4014-8e53-a6a2427f0d93/ASPNET_Data_Tutorial_54_CS.exe) or [Download PDF](uploading-files-cs/_static/datatutorial54cs1.pdf)

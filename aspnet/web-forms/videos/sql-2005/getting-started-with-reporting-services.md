@@ -9,8 +9,8 @@ ms.assetid: f348a388-d3a2-4ea8-baf0-be2e6ef8efe1
 msc.legacyurl: /web-forms/videos/sql-2005/getting-started-with-reporting-services
 msc.type: video
 ---
-Getting Started with Reporting Services
-====================
+# Getting Started with Reporting Services
+
 by [Microsoft](https://github.com/microsoft)
 
 SQL Server Reporting Services allows you to design and deploy nicely formatted and interactive reports representative of your data. Suitable for print or online distribution, these reports and it allows you to get professional results very quickly. This video demonstrates how to set up Reporting Services and the Business Intelligence Development Studio to build reports using the wizards and designers, and deploy them to your Report Server.

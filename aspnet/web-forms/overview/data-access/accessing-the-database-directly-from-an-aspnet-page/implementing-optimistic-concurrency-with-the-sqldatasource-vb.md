@@ -9,8 +9,8 @@ ms.assetid: a8fa72ee-8328-4854-a419-c1b271772303
 msc.legacyurl: /web-forms/overview/data-access/accessing-the-database-directly-from-an-aspnet-page/implementing-optimistic-concurrency-with-the-sqldatasource-vb
 msc.type: authoredcontent
 ---
-Implementing Optimistic Concurrency with the SqlDataSource (VB)
-====================
+# Implementing Optimistic Concurrency with the SqlDataSource (VB)
+
 by [Scott Mitchell](https://twitter.com/ScottOnWriting)
 
 [Download Sample App](http://download.microsoft.com/download/4/a/7/4a7a3b18-d80e-4014-8e53-a6a2427f0d93/ASPNET_Data_Tutorial_50_VB.exe) or [Download PDF](implementing-optimistic-concurrency-with-the-sqldatasource-vb/_static/datatutorial50vb1.pdf)

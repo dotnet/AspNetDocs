@@ -9,8 +9,8 @@ ms.assetid: 39ad66b4-30f3-48da-b157-b7ffe65b671b
 msc.legacyurl: /web-forms/videos/how-do-i/how-do-i-make-greater-use-of-caching
 msc.type: video
 ---
-[How Do I:] Make Greater use of Caching?
-====================
+# [How Do I:] Make Greater use of Caching?
+
 by [Microsoft](https://github.com/microsoft)
 
 Watch a demonstration of Partial-Page Output Caching, followed by an overview of the Cache API that demonstrates how to efficiently bind a data presentation control to an XML file.

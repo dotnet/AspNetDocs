@@ -9,8 +9,8 @@ ms.assetid: 9d770bb5-fd76-4ae9-a11b-9783f394a24f
 msc.legacyurl: /web-forms/videos/aspnet-ajax/how-do-i-retrieve-values-from-server-side-ajax-controls
 msc.type: video
 ---
-[How Do I:] Retrieve Values From Server Side AJAX Controls
-====================
+# [How Do I:] Retrieve Values From Server Side AJAX Controls
+
 by [Joe Stagner](https://github.com/JoeStagner)
 
 In this video I will demonstrate how to retrieve values from server side AJAX controls like the ones found in the AJAX toolkit.

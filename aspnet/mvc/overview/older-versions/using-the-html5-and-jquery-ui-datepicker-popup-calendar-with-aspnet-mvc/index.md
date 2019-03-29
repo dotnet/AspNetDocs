@@ -9,8 +9,8 @@ ms.assetid: 2ca920dd-a0a6-4567-ba8b-3ebf897bb2c5
 msc.legacyurl: /mvc/overview/older-versions/using-the-html5-and-jquery-ui-datepicker-popup-calendar-with-aspnet-mvc
 msc.type: chapter
 ---
-MVC 3 - The HTML5 and jQuery UI Datepicker Popup Calendar
-====================
+# MVC 3 - The HTML5 and jQuery UI Datepicker Popup Calendar
+
 > This tutorial covers how to work with editor templates, display templates, and the jQuery UI datepicker popup calendar in an ASP.NET MVC Web application.
 
 

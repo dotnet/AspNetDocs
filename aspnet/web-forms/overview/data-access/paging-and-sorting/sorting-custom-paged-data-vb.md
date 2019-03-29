@@ -9,8 +9,8 @@ ms.assetid: 4823a186-caaf-4116-a318-c7ff4d955ddc
 msc.legacyurl: /web-forms/overview/data-access/paging-and-sorting/sorting-custom-paged-data-vb
 msc.type: authoredcontent
 ---
-Sorting Custom Paged Data (VB)
-====================
+# Sorting Custom Paged Data (VB)
+
 by [Scott Mitchell](https://twitter.com/ScottOnWriting)
 
 [Download Sample App](http://download.microsoft.com/download/9/c/1/9c1d03ee-29ba-4d58-aa1a-f201dcc822ea/ASPNET_Data_Tutorial_26_VB.exe) or [Download PDF](sorting-custom-paged-data-vb/_static/datatutorial26vb1.pdf)

@@ -9,8 +9,8 @@ ms.assetid: 5da59646-e973-41cd-88a9-c6b2c0594027
 msc.legacyurl: /web-pages/overview/getting-started/introducing-razor-syntax-vb
 msc.type: authoredcontent
 ---
-Introduction to ASP.NET Web Programming Using the Razor Syntax (Visual Basic)
-====================
+# Introduction to ASP.NET Web Programming Using the Razor Syntax (Visual Basic)
+
 by [Tom FitzMacken](https://github.com/tfitzmac)
 
 > This article gives you an overview of programming with ASP.NET Web Pages using the Razor syntax and Visual Basic. ASP.NET is Microsoft's technology for running dynamic web pages on web servers.
@@ -278,7 +278,9 @@ The following table lists some common conversion and test methods for variables.
         <strong>Example</strong>
     :::column-end:::
 :::row-end:::
+
 ---
+
 :::row:::
     :::column:::
         `AsInt(), IsInt()`
@@ -290,7 +292,9 @@ The following table lists some common conversion and test methods for variables.
         [!code-vb[Main](introducing-razor-syntax-vb/samples/sample23.vb)]
     :::column-end:::
 :::row-end:::
+
 ---
+
 :::row:::
     :::column:::
         `AsBool(), IsBool()`
@@ -302,7 +306,9 @@ The following table lists some common conversion and test methods for variables.
         [!code-vb[Main](introducing-razor-syntax-vb/samples/sample24.vb)]
     :::column-end:::
 :::row-end:::
+
 ---
+
 :::row:::
     :::column:::
         `AsFloat(), IsFloat()`
@@ -314,7 +320,9 @@ The following table lists some common conversion and test methods for variables.
         [!code-vb[Main](introducing-razor-syntax-vb/samples/sample25.vb)]
     :::column-end:::
 :::row-end:::
+
 ---
+
 :::row:::
     :::column:::
         `AsDecimal(), IsDecimal()`
@@ -326,7 +334,9 @@ The following table lists some common conversion and test methods for variables.
         [!code-vb[Main](introducing-razor-syntax-vb/samples/sample26.vb)]
     :::column-end:::
 :::row-end:::
+
 ---
+
 :::row:::
     :::column:::
         `AsDateTime(), IsDateTime()`
@@ -338,7 +348,9 @@ The following table lists some common conversion and test methods for variables.
         [!code-vb[Main](introducing-razor-syntax-vb/samples/sample27.vb)]
     :::column-end:::
 :::row-end:::
+
 ---
+
 :::row:::
     :::column:::
         `ToString()`
@@ -368,7 +380,9 @@ An operator is a keyword or character that tells ASP.NET what kind of command to
         <strong>Examples</strong>
     :::column-end:::
 :::row-end:::
+
 ---
+
 :::row:::
     :::column:::
         `+ - * /`
@@ -380,7 +394,9 @@ An operator is a keyword or character that tells ASP.NET what kind of command to
         [!code-vb[Main](introducing-razor-syntax-vb/samples/sample29.vb)]
     :::column-end:::
 :::row-end:::
+
 ---
+
 :::row:::
     :::column:::
         `=`
@@ -392,7 +408,9 @@ An operator is a keyword or character that tells ASP.NET what kind of command to
         [!code-vb[Main](introducing-razor-syntax-vb/samples/sample30.vb)]
     :::column-end:::
 :::row-end:::
+
 ---
+
 :::row:::
     :::column:::
         `<>`
@@ -404,7 +422,9 @@ An operator is a keyword or character that tells ASP.NET what kind of command to
         [!code-vb[Main](introducing-razor-syntax-vb/samples/sample31.vb)]
     :::column-end:::
 :::row-end:::
+
 ---
+
 :::row:::
     :::column:::
         `< > <= >=`
@@ -416,7 +436,9 @@ An operator is a keyword or character that tells ASP.NET what kind of command to
         [!code-vb[Main](introducing-razor-syntax-vb/samples/sample32.vb)]
     :::column-end:::
 :::row-end:::
+
 ---
+
 :::row:::
     :::column:::
         `&`
@@ -428,7 +450,9 @@ An operator is a keyword or character that tells ASP.NET what kind of command to
         [!code-vbhtml[Main](introducing-razor-syntax-vb/samples/sample33.vbhtml)]
     :::column-end:::
 :::row-end:::
+
 ---
+
 :::row:::
     :::column:::
         `+= -=`
@@ -440,7 +464,9 @@ An operator is a keyword or character that tells ASP.NET what kind of command to
         [!code-vb[Main](introducing-razor-syntax-vb/samples/sample34.vb)]
     :::column-end:::
 :::row-end:::
+
 ---
+
 :::row:::
     :::column:::
         `.`
@@ -452,7 +478,9 @@ An operator is a keyword or character that tells ASP.NET what kind of command to
         [!code-vb[Main](introducing-razor-syntax-vb/samples/sample35.vb)]
     :::column-end:::
 :::row-end:::
+
 ---
+
 :::row:::
     :::column:::
         `()`
@@ -464,7 +492,9 @@ An operator is a keyword or character that tells ASP.NET what kind of command to
         [!code-vbhtml[Main](introducing-razor-syntax-vb/samples/sample36.vbhtml)]
     :::column-end:::
 :::row-end:::
+
 ---
+
 :::row:::
     :::column:::
         `Not`
@@ -476,7 +506,9 @@ An operator is a keyword or character that tells ASP.NET what kind of command to
         [!code-vb[Main](introducing-razor-syntax-vb/samples/sample37.vb)]
     :::column-end:::
 :::row-end:::
+
 ---
+
 :::row:::
     :::column:::
         `AndAlso OrElse`

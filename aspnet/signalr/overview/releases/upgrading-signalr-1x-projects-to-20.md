@@ -9,8 +9,8 @@ ms.assetid: adcfef99-9bc5-489d-a91b-9b7c2bc35e04
 msc.legacyurl: /signalr/overview/releases/upgrading-signalr-1x-projects-to-20
 msc.type: authoredcontent
 ---
-Upgrading SignalR 1.x Projects to version 2
-====================
+# Upgrading SignalR 1.x Projects to version 2
+
 by [Patrick Fletcher](https://github.com/pfletcher)
 
 [!INCLUDE [Consider ASP.NET Core SignalR](~/includes/signalr/signalr-version-disambiguation.md)]

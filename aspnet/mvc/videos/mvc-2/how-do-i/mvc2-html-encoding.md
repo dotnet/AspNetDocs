@@ -9,8 +9,8 @@ ms.assetid: d8d2d4fc-780a-48bb-82f1-4125cce03b2a
 msc.legacyurl: /mvc/videos/mvc-2/how-do-i/mvc2-html-encoding
 msc.type: video
 ---
-MVC2 - Html Encoding
-====================
+# MVC2 - Html Encoding
+
 by [Microsoft](https://github.com/microsoft)
 
 In this video you will learn how to use the new HTML Encoding shortcut syntax in ASP.NET to guard against script injection, and to use the MvcHtmlString when you want to include HTML in your strings.

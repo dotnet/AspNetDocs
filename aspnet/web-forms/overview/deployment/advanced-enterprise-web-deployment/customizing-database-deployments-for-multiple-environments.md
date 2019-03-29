@@ -9,8 +9,8 @@ ms.assetid: a172979a-1318-4318-a9c6-4f9560d26267
 msc.legacyurl: /web-forms/overview/deployment/advanced-enterprise-web-deployment/customizing-database-deployments-for-multiple-environments
 msc.type: authoredcontent
 ---
-Customizing Database Deployments for Multiple Environments
-====================
+# Customizing Database Deployments for Multiple Environments
+
 by [Jason Lee](https://github.com/jrjlee)
 
 [Download PDF](https://msdnshared.blob.core.windows.net/media/MSDNBlogsFS/prod.evol.blogs.msdn.com/CommunityServer.Blogs.Components.WeblogFiles/00/00/00/63/56/8130.DeployingWebAppsInEnterpriseScenarios.pdf)

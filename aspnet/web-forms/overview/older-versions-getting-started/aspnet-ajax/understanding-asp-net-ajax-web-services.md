@@ -9,8 +9,8 @@ ms.assetid: 3332d6e7-e2e1-4144-b805-e71d51e7e415
 msc.legacyurl: /web-forms/overview/older-versions-getting-started/aspnet-ajax/understanding-asp-net-ajax-web-services
 msc.type: authoredcontent
 ---
-Understanding ASP.NET AJAX Web Services
-====================
+# Understanding ASP.NET AJAX Web Services
+
 by [Scott Cate](https://github.com/scottcate)
 
 [Download PDF](http://download.microsoft.com/download/C/1/9/C19A3451-1D14-477C-B703-54EF22E197EE/AJAX_tutorial05_Web_Services_with_MS_Ajax_cs.pdf)

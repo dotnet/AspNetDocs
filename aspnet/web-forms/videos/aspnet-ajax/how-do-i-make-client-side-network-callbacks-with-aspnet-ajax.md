@@ -9,8 +9,8 @@ ms.assetid: ea4211be-faf9-40a0-8a7b-63427218b947
 msc.legacyurl: /web-forms/videos/aspnet-ajax/how-do-i-make-client-side-network-callbacks-with-aspnet-ajax
 msc.type: video
 ---
-[How Do I:] Make Client-Side Network Callbacks with ASP.NET AJAX?
-====================
+# [How Do I:] Make Client-Side Network Callbacks with ASP.NET AJAX?
+
 by [Joe Stagner](https://github.com/JoeStagner)
 
 In this video we see how Microsoft ASP.NET AJAX helps web developers make network callbacks directly from client-side script code. We see also how an ASP.NET AJAX-enabled web service generates the JavaScript needed to call the web service.

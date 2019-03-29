@@ -9,8 +9,8 @@ ms.assetid: 300978f7-108c-4729-a8f5-f84ef585a81f
 msc.legacyurl: /mvc/videos/mvc-3/mvc-3-razor-view-engine
 msc.type: video
 ---
-MVC 3 - Razor View Engine
-====================
+# MVC 3 - Razor View Engine
+
 by [Jon Galloway](https://github.com/jongalloway)
 
 In this video you will learn the basics of the new Razor view engine included in ASP.NET MVC 3.

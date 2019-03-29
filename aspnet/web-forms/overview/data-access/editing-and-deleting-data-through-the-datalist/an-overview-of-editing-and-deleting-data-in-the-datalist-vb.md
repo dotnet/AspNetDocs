@@ -9,8 +9,8 @@ ms.assetid: 9410a23c-9697-4f07-bd71-e62b0ceac655
 msc.legacyurl: /web-forms/overview/data-access/editing-and-deleting-data-through-the-datalist/an-overview-of-editing-and-deleting-data-in-the-datalist-vb
 msc.type: authoredcontent
 ---
-An Overview of Editing and Deleting Data in the DataList (VB)
-====================
+# An Overview of Editing and Deleting Data in the DataList (VB)
+
 by [Scott Mitchell](https://twitter.com/ScottOnWriting)
 
 [Download Sample App](http://download.microsoft.com/download/9/c/1/9c1d03ee-29ba-4d58-aa1a-f201dcc822ea/ASPNET_Data_Tutorial_36_VB.exe) or [Download PDF](an-overview-of-editing-and-deleting-data-in-the-datalist-vb/_static/datatutorial36vb1.pdf)

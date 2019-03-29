@@ -9,8 +9,8 @@ ms.assetid: 32c8ddfd-1e12-4bd9-9420-44478dfb0ca1
 msc.legacyurl: /web-forms/videos/data-access/linq-videos-from-the-vb-team/how-do-i-create-xml-documents-from-sql-data
 msc.type: video
 ---
-[How Do I:] Create XML Documents from SQL Data?
-====================
+# [How Do I:] Create XML Documents from SQL Data?
+
 by [Beth Massi](https://github.com/bethmassi)
 
 Visual Basic developers will learn how to query their SQL Server database in order to easily create XML and HTML documents directly in the Visual Basic editor.

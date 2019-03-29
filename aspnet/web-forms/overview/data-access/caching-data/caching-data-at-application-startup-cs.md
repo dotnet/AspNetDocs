@@ -9,8 +9,8 @@ ms.assetid: 22ca8efa-7cd1-45a7-b9ce-ce6eb3b3ff95
 msc.legacyurl: /web-forms/overview/data-access/caching-data/caching-data-at-application-startup-cs
 msc.type: authoredcontent
 ---
-Caching Data at Application Startup (C#)
-====================
+# Caching Data at Application Startup (C#)
+
 by [Scott Mitchell](https://twitter.com/ScottOnWriting)
 
 [Download PDF](caching-data-at-application-startup-cs/_static/datatutorial60cs1.pdf)

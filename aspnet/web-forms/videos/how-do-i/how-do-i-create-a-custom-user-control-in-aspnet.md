@@ -9,8 +9,8 @@ ms.assetid: 76e0f17c-c31b-4237-89b5-a46efe602ece
 msc.legacyurl: /web-forms/videos/how-do-i/how-do-i-create-a-custom-user-control-in-aspnet
 msc.type: video
 ---
-[How Do I:]  Create a Custom User Control in ASP.NET?
-====================
+# [How Do I:]  Create a Custom User Control in ASP.NET?
+
 by [Chris Pels](https://twitter.com/chrispels)
 
 In this video Chris Pels will demonstrate how to create a custom user control in ASP.NET that can be used throughout a web site or across many web sites. Start out by learning the basics of creating a user control that will be used in multiple pages including validation, controlling formatting using style elements, and loading/saving data for the user interface elements. Throughout the video considerations for building user controls that can be easily maintained and used across multiple pages are discussed.

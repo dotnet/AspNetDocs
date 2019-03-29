@@ -9,8 +9,8 @@ ms.assetid: bf457727-9ed0-4b2c-921b-87ff5f5dc1a3
 msc.legacyurl: /ajax/cdn/jquery-ui/cdnjqueryui190
 msc.type: content
 ---
-jQuery UI 1.9.0 on the Microsoft Ajax CDN
-====================
+# jQuery UI 1.9.0 on the Microsoft Ajax CDN
+
 The jQuery UI 1.9.0 library includes the following files:
 
 - https://ajax.aspnetcdn.com/ajax/jquery.ui/1.9.0/jquery-ui.js

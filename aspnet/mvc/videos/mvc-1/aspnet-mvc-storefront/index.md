@@ -9,8 +9,8 @@ ms.assetid: 296b3a7a-483d-4937-ba2f-3f9c1319616a
 msc.legacyurl: /mvc/videos/mvc-1/aspnet-mvc-storefront
 msc.type: chapter
 ---
-ASP.NET MVC Storefront
-====================
+# ASP.NET MVC Storefront
+
 > ASP.NET MVC Storefront Starter Kit
 
 

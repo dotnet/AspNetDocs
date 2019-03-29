@@ -9,8 +9,8 @@ ms.assetid: 532fa051-7d5c-4d6d-87f6-339ce4b84c44
 msc.legacyurl: /mvc/overview/older-versions-1/security/authenticating-users-with-windows-authentication-vb
 msc.type: authoredcontent
 ---
-Authenticating Users with Windows Authentication (VB)
-====================
+# Authenticating Users with Windows Authentication (VB)
+
 by [Microsoft](https://github.com/microsoft)
 
 > Learn how to use Windows authentication in the context of an MVC application. You learn how to enable Windows authentication within your application's web configuration file and how to configure authentication with IIS. Finally, you learn how to use the [Authorize] attribute to restrict access to controller actions to particular Windows users or groups.

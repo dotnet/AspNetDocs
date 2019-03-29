@@ -9,8 +9,8 @@ ms.assetid: c11eec26-25a2-41fb-9330-ddc123c0423a
 msc.legacyurl: /web-forms/videos/authentication/validating-users-manually
 msc.type: video
 ---
-Validating Users Manually
-====================
+# Validating Users Manually
+
 by [Joe Stagner](https://github.com/JoeStagner)
 
 In this video Joe Stagner shows you how to create your own web form and process the authentication request manually. For additional information about this video, read the "Validating User Credentials Against the Membership User Store" security tutorial ([C#](../../overview/older-versions-security/membership/validating-user-credentials-against-the-membership-user-store-cs.md), [VB](../../overview/older-versions-security/membership/validating-user-credentials-against-the-membership-user-store-vb.md)).

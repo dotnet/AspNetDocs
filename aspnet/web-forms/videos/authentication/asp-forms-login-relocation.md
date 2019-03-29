@@ -9,8 +9,8 @@ ms.assetid: 0427dd22-7836-4b69-b2c2-66c765ace34f
 msc.legacyurl: /web-forms/videos/authentication/asp-forms-login-relocation
 msc.type: video
 ---
-ASP Forms Login Relocation
-====================
+# ASP Forms Login Relocation
+
 by [Joe Stagner](https://github.com/JoeStagner)
 
 Joe Stagner uses the previous code example to continue customizing the ASP.NET authentication by relocating and renaming the login functionality of the ASP.NET application. For more information on this demo, a tutorial is located [here](../../overview/older-versions-security/introduction/forms-authentication-configuration-and-advanced-topics-vb.md).

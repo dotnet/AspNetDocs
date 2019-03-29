@@ -9,8 +9,8 @@ ms.assetid: 7544e93f-a754-4e1d-bd0f-461f38e11db9
 msc.legacyurl: /web-pages/videos/aspnet-razor-pages/working-with-video
 msc.type: video
 ---
-Working with Video
-====================
+# Working with Video
+
 by [Joe Stagner](https://github.com/JoeStagner)
 
 Video accompaniment to the Working with Video tutorial

@@ -9,8 +9,8 @@ ms.assetid: ab7b2554-956a-4f6d-b2a0-4ae0c62e8580
 msc.legacyurl: /signalr/overview/older-versions/tutorial-server-broadcast-with-aspnet-signalr
 msc.type: authoredcontent
 ---
-Tutorial: Server Broadcast with ASP.NET SignalR 1.x
-====================
+# Tutorial: Server Broadcast with ASP.NET SignalR 1.x
+
 by [Patrick Fletcher](https://github.com/pfletcher), [Tom Dykstra](https://github.com/tdykstra)
 
 [!INCLUDE [Consider ASP.NET Core SignalR](~/includes/signalr/signalr-version-disambiguation.md)]

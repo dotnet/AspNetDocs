@@ -9,8 +9,8 @@ ms.assetid: 93190bb9-83fa-4318-a261-0de41ff72b24
 msc.legacyurl: /web-forms/videos/how-do-i/how-do-i-create-a-multi-lingual-site-with-localization
 msc.type: video
 ---
-[How Do I:] Create a Multi-Lingual Site with Localization?
-====================
+# [How Do I:] Create a Multi-Lingual Site with Localization?
+
 by [Microsoft](https://github.com/microsoft)
 
 Learn how to create culture-aware and locale-specific web content with no additional code. Use the Resource Editor to create page-level and application-level resources.

@@ -9,8 +9,8 @@ ms.assetid: 244278c1-fec8-4255-8a8a-13bde491c4f5
 msc.legacyurl: /web-forms/overview/older-versions-getting-started/continuing-with-ef/using-the-entity-framework-and-the-objectdatasource-control-part-1-getting-started
 msc.type: authoredcontent
 ---
-Using the Entity Framework 4.0 and the ObjectDataSource Control, Part 1: Getting Started
-====================
+# Using the Entity Framework 4.0 and the ObjectDataSource Control, Part 1: Getting Started
+
 by [Tom Dykstra](https://github.com/tdykstra)
 
 > This tutorial series builds on the Contoso University web application that is created by the [Getting Started with the Entity Framework 4.0](../getting-started-with-ef/the-entity-framework-and-aspnet-getting-started-part-1.md) tutorial series. If you didn't complete the earlier tutorials, as a starting point for this tutorial you can [download the application](https://code.msdn.microsoft.com/ASPNET-Web-Forms-97f8ee9a) that you would have created. You can also [download the application](https://code.msdn.microsoft.com/ASPNET-Web-Forms-6c7197aa) that is created by the complete tutorial series.

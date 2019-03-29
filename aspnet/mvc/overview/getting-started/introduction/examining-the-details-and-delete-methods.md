@@ -9,8 +9,8 @@ ms.assetid: f1d2a916-626c-4a54-8df4-77e6b9fff355
 msc.legacyurl: /mvc/overview/getting-started/introduction/examining-the-details-and-delete-methods
 msc.type: authoredcontent
 ---
-Examining the Details and Delete Methods
-====================
+# Examining the Details and Delete Methods
+
 by [Rick Anderson]((https://twitter.com/RickAndMSFT))
 
 [!INCLUDE [Tutorial Note](sample/code-location.md)]

@@ -9,8 +9,8 @@ ms.assetid: a39182f9-a82c-41fa-9be0-92c2291a3a96
 msc.legacyurl: /mvc/videos/mvc-1/aspnet-mvc-storefront/aspnet-mvc-storefront-part-17-checkout-with-jeff-atwood
 msc.type: video
 ---
-ASP.NET MVC Storefront Part 17: Checkout With Jeff Atwood
-====================
+# ASP.NET MVC Storefront Part 17: Checkout With Jeff Atwood
+
 by [Rob Conery](https://github.com/robconery)
 
 In this episode I ready up the checkout process and talk with Mr. CodingHorror himself, Jeff Atwood. We talk about all kinds of things but mostly discuss Open ID, CardSpace, and how Jeff would like to see the checkout process work in an ideal world. I then walk you through setting up CardSpace on your local machine.

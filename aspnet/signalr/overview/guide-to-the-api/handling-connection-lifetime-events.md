@@ -9,8 +9,8 @@ ms.assetid: 03960de2-8d95-4444-9169-4426dcc64913
 msc.legacyurl: /signalr/overview/guide-to-the-api/handling-connection-lifetime-events
 msc.type: authoredcontent
 ---
-Understanding and Handling Connection Lifetime Events in SignalR
-====================
+# Understanding and Handling Connection Lifetime Events in SignalR
+
 
 [!INCLUDE [Consider ASP.NET Core SignalR](~/includes/signalr/signalr-version-disambiguation.md)]
 

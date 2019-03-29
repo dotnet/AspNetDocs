@@ -9,8 +9,8 @@ ms.assetid: 763650a9-ffde-46a9-b779-7a9145dd5d88
 msc.legacyurl: /web-forms/overview/ajax-control-toolkit/getting-started/using-ajax-control-toolkit-controls-and-control-extenders-vb
 msc.type: authoredcontent
 ---
-Using AJAX Control Toolkit Controls and Control Extenders (VB)
-====================
+# Using AJAX Control Toolkit Controls and Control Extenders (VB)
+
 by [Microsoft](https://github.com/microsoft)
 
 > Learn how to add AJAX Control Toolkit controls and extenders to your ASP.NET pages.

@@ -9,8 +9,8 @@ ms.assetid: 4f08dbcd-ab60-4ad4-8387-795d810cccb6
 msc.legacyurl: /web-forms/videos/how-do-i/choosing-the-right-programming-model
 msc.type: video
 ---
-Choosing the Right Programming Model
-====================
+# Choosing the Right Programming Model
+
 by [Scott Hanselman](https://github.com/shanselman)
 
 Microsoft's Scott Hanselman gives you the information you need to decide if ASP.NET Web Forms, ASP.NET MVC, or ASP.NET Web Pages is right for you.

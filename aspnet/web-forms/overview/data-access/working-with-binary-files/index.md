@@ -9,8 +9,8 @@ ms.assetid: 2d08658a-16c4-4877-9f43-c6503adda7bf
 msc.legacyurl: /web-forms/overview/data-access/working-with-binary-files
 msc.type: chapter
 ---
-Working with Binary Files
-====================
+# Working with Binary Files
+
 > These tutorials show how to let users upload binary files (like Word or PDF documents) to the server, where they can be stored in folders or in the database.
 
 

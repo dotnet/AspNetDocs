@@ -9,8 +9,8 @@ ms.assetid: c1a80d2c-4a13-499b-9c53-e3561845dd7f
 msc.legacyurl: /web-forms/overview/ajax-control-toolkit/filteredtextbox
 msc.type: chapter
 ---
-FilteredTextBox
-====================
+# FilteredTextBox
+
 > This tutorial shows how to use the FilteredTextBox control, which lets you specify which characters are allowed in user input.
 
 

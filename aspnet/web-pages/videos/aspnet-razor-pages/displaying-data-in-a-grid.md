@@ -9,8 +9,8 @@ ms.assetid: 76ac6b38-ca93-4d8f-8a72-9e46c82054ab
 msc.legacyurl: /web-pages/videos/aspnet-razor-pages/displaying-data-in-a-grid
 msc.type: video
 ---
-Displaying Data in a Grid
-====================
+# Displaying Data in a Grid
+
 by [Joe Stagner](https://github.com/JoeStagner)
 
 Video accompaniment to the Displaying Data in a Grid tutorial

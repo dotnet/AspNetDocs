@@ -9,8 +9,8 @@ ms.assetid: f6e2a12a-2b5e-48fd-8db3-1e94a500c19a
 msc.legacyurl: /web-forms/overview/data-access/editing-inserting-and-deleting-data/adding-client-side-confirmation-when-deleting-cs
 msc.type: authoredcontent
 ---
-Adding Client-Side Confirmation When Deleting (C#)
-====================
+# Adding Client-Side Confirmation When Deleting (C#)
+
 by [Scott Mitchell](https://twitter.com/ScottOnWriting)
 
 [Download Sample App](http://download.microsoft.com/download/9/c/1/9c1d03ee-29ba-4d58-aa1a-f201dcc822ea/ASPNET_Data_Tutorial_22_CS.exe) or [Download PDF](adding-client-side-confirmation-when-deleting-cs/_static/datatutorial22cs1.pdf)

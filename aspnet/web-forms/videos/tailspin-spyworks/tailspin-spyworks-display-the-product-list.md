@@ -9,8 +9,8 @@ ms.assetid: 4c0d920f-e80a-445d-a9da-b603e25d49c4
 msc.legacyurl: /web-forms/videos/tailspin-spyworks/tailspin-spyworks-display-the-product-list
 msc.type: video
 ---
-Tailspin Spyworks - Display the Product List
-====================
+# Tailspin Spyworks - Display the Product List
+
 by [Joe Stagner](https://github.com/JoeStagner)
 
 Joe Stagner shows how to display the product list in the Tailspin Spyworks sample Web Forms application.

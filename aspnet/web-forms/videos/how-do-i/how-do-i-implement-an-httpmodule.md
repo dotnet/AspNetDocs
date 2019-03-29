@@ -9,8 +9,8 @@ ms.assetid: 45daf6e2-c652-49c0-a9b4-2263f4ceada8
 msc.legacyurl: /web-forms/videos/how-do-i/how-do-i-implement-an-httpmodule
 msc.type: video
 ---
-[How Do I:] Implement an HttpModule?
-====================
+# [How Do I:] Implement an HttpModule?
+
 by [Scott Golightly](https://github.com/scottgolightly)
 
 In this video Scott Golightly shows how to implement a simple HttpModule that uses the BeginRequest and EndRequest events to store some data about the request and later display that data to the user. Scott also shows how to register the module in the Web.config file.

@@ -9,8 +9,8 @@ ms.assetid: 257373bb-eab0-47bc-b5a2-37a9e91666d6
 msc.legacyurl: /web-forms/videos/data-access/linq-videos-from-the-vb-team
 msc.type: chapter
 ---
-LINQ Videos from the VB Team
-====================
+# LINQ Videos from the VB Team
+
 > These videos provide over an hour and half of content focused on the new LINQ language features of Visual Basic 9.0 included in Visual Studio 2008.
 
 

@@ -9,8 +9,8 @@ ms.assetid: b137bd04-25e1-47cb-9d96-ef2e179ecf1f
 msc.legacyurl: /web-pages/overview/getting-started/aspnet-web-pages-razor-faq
 msc.type: authoredcontent
 ---
-ASP.NET Web Pages (Razor) FAQ
-====================
+# ASP.NET Web Pages (Razor) FAQ
+
 by [Tom FitzMacken](https://github.com/tfitzmac)
 
 > > [!NOTE] 

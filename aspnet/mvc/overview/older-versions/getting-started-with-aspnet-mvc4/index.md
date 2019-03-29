@@ -9,8 +9,8 @@ ms.assetid: a35183ac-cbcb-4070-9233-6331cde921ad
 msc.legacyurl: /mvc/overview/older-versions/getting-started-with-aspnet-mvc4
 msc.type: chapter
 ---
-Getting Started with ASP.NET MVC 4
-====================
+# Getting Started with ASP.NET MVC 4
+
 > This tutorial series will teach you the basics of building an ASP.NET MVC Web application using Microsoft Visual Web Developer 2010 Express Service Pack 1, which is a free version of Microsoft Visual Studio.
 
 

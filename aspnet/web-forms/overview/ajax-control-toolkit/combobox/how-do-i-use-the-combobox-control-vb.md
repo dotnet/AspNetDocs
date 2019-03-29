@@ -9,8 +9,8 @@ ms.assetid: e887e7b2-a6e7-4a28-a134-ba334494badb
 msc.legacyurl: /web-forms/overview/ajax-control-toolkit/combobox/how-do-i-use-the-combobox-control-vb
 msc.type: authoredcontent
 ---
-How do I use the ComboBox Control? (VB)
-====================
+# How do I use the ComboBox Control? (VB)
+
 by [Microsoft](https://github.com/microsoft)
 
 > ComboBox is an ASP.NET AJAX control that combines the flexibility of a TextBox with a list of options from which users can choose.

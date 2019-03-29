@@ -9,8 +9,8 @@ ms.assetid: b5c268dd-ca6a-4562-b94c-a220fcf01f58
 msc.legacyurl: /web-pages/overview/ui-layouts-and-themes/displaying-maps-in-an-aspnet-web-pages-site
 msc.type: authoredcontent
 ---
-Displaying Maps in an ASP.NET Web Pages (Razor) Site
-====================
+# Displaying Maps in an ASP.NET Web Pages (Razor) Site
+
 by [Tom FitzMacken](https://github.com/tfitzmac)
 
 > This article explains how to display interactive maps on pages in an ASP.NET Web Pages (Razor) website based on mapping services provided by Bing, Google, MapQuest, and Yahoo.

@@ -9,8 +9,8 @@ ms.assetid: 27591afa-3c14-47e6-8323-573f8f7aa862
 msc.legacyurl: /web-forms/videos/how-do-i
 msc.type: chapter
 ---
-How Do I?
-====================
+# How Do I?
+
 > How to perform a variety of common tasks.
 
 

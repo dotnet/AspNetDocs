@@ -9,8 +9,8 @@ ms.assetid: ff55233a-e795-4007-a4fc-861fe1bb590b
 msc.legacyurl: /web-forms/overview/deployment/configuring-team-foundation-server-for-web-deployment/configuring-team-foundation-server-for-web-deployment
 msc.type: authoredcontent
 ---
-Configuring Team Foundation Server for Web Deployment
-====================
+# Configuring Team Foundation Server for Web Deployment
+
 by [Jason Lee](https://github.com/jrjlee)
 
 [Download PDF](https://msdnshared.blob.core.windows.net/media/MSDNBlogsFS/prod.evol.blogs.msdn.com/CommunityServer.Blogs.Components.WeblogFiles/00/00/00/63/56/8130.DeployingWebAppsInEnterpriseScenarios.pdf)

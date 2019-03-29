@@ -9,8 +9,8 @@ ms.assetid: d62c3a63-0940-4019-874e-4a4047df0c1c
 msc.legacyurl: /web-forms/overview/data-access/basic-reporting/displaying-data-with-the-objectdatasource-vb
 msc.type: authoredcontent
 ---
-Displaying Data With the ObjectDataSource (VB)
-====================
+# Displaying Data With the ObjectDataSource (VB)
+
 by [Scott Mitchell](https://twitter.com/ScottOnWriting)
 
 [Download Sample App](http://download.microsoft.com/download/5/d/7/5d7571fc-d0b7-4798-ad4a-c976c02363ce/ASPNET_Data_Tutorial_4_VB.exe) or [Download PDF](displaying-data-with-the-objectdatasource-vb/_static/datatutorial04vb1.pdf)

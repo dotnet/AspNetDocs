@@ -9,8 +9,8 @@ ms.assetid: d34f90a1-6de3-482a-a326-f87fdcbaaaff
 msc.legacyurl: /mvc/overview/older-versions-1/views/creating-page-layouts-with-view-master-pages-vb
 msc.type: authoredcontent
 ---
-Creating Page Layouts with View Master Pages (VB)
-====================
+# Creating Page Layouts with View Master Pages (VB)
+
 by [Microsoft](https://github.com/microsoft)
 
 [Download PDF](http://download.microsoft.com/download/e/f/3/ef3f2ff6-7424-48f7-bdaa-180ef64c3490/ASPNET_MVC_Tutorial_12_VB.pdf)

@@ -9,8 +9,8 @@ ms.assetid: ecfd0eb4-c4ad-44e6-9db9-a2a66611ff6a
 msc.legacyurl: /aspnet/overview/developing-apps-with-windows-azure/maintainable-azure-websites-managing-change-and-scale
 msc.type: authoredcontent
 ---
-Hands on Lab: Maintainable Azure Websites: Managing Change and Scale
-====================
+# Hands on Lab: Maintainable Azure Websites: Managing Change and Scale
+
 by [Web Camps Team](https://twitter.com/webcamps)
 
 [Download Web Camps Training Kit](https://aka.ms/webcamps-training-kit)

@@ -9,8 +9,8 @@ ms.assetid: cc712e72-c3d0-4e43-bc2d-28cc09cd8f71
 msc.legacyurl: /web-pages/overview/releases/top-features-in-web-pages-2
 msc.type: authoredcontent
 ---
-The Top Features in ASP.NET Web Pages 2
-====================
+# The Top Features in ASP.NET Web Pages 2
+
 by [Microsoft](https://github.com/microsoft)
 
 > This article provides an overview of the top new features in the ASP.NET Web Pages 2 RC, a lightweight web programming framework that is included with [Microsoft WebMatrix 2 RC](https://www.microsoft.com/web/).

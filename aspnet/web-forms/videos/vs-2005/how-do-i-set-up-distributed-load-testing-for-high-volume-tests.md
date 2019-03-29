@@ -9,8 +9,8 @@ ms.assetid: d5c42efc-1457-4e75-87e8-5b41c9ee8a80
 msc.legacyurl: /web-forms/videos/vs-2005/how-do-i-set-up-distributed-load-testing-for-high-volume-tests
 msc.type: video
 ---
-[How Do I:] Set Up Distributed Load Testing for High Volume Tests?
-====================
+# [How Do I:] Set Up Distributed Load Testing for High Volume Tests?
+
 by [Chris Menegay](https://twitter.com/CMenegay)
 
 Visual Studio Team System allows you to set up distibuted load testing by creating a test "rig" that comprises a Controller on one remote machine and multiple Agents on the same or additional remote machines. This video walks you through installing the Controller and the Agents, and then configurating your test cases to run using the remote Controller. As you will see, Visual Studio Team System makes it very simple to set up distributed load testing for high-volume automated testing.

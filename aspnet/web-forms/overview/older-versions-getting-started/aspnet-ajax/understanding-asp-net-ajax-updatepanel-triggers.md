@@ -9,8 +9,8 @@ ms.assetid: faab8503-2984-48a9-8a40-7728461abc50
 msc.legacyurl: /web-forms/overview/older-versions-getting-started/aspnet-ajax/understanding-asp-net-ajax-updatepanel-triggers
 msc.type: authoredcontent
 ---
-Understanding ASP.NET AJAX UpdatePanel Triggers
-====================
+# Understanding ASP.NET AJAX UpdatePanel Triggers
+
 by [Scott Cate](https://github.com/scottcate)
 
 [Download PDF](http://download.microsoft.com/download/C/1/9/C19A3451-1D14-477C-B703-54EF22E197EE/AJAX_tutorial02_Triggers_cs.pdf)

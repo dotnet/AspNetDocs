@@ -9,8 +9,8 @@ ms.assetid: 95a1d7d3-7fc2-44ac-b27b-912e0e045ee5
 msc.legacyurl: /web-forms/overview/data-access/working-with-batched-data
 msc.type: chapter
 ---
-Working with Batched Data
-====================
+# Working with Batched Data
+
 > These tutorials look at updating, deleting, and inserting batches of data using transactions.
 
 

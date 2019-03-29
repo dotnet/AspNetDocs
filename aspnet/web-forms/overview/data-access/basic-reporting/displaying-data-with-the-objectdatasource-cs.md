@@ -9,8 +9,8 @@ ms.assetid: af882aef-56f5-4e9a-8f95-3977fde20e74
 msc.legacyurl: /web-forms/overview/data-access/basic-reporting/displaying-data-with-the-objectdatasource-cs
 msc.type: authoredcontent
 ---
-Displaying Data With the ObjectDataSource (C#)
-====================
+# Displaying Data With the ObjectDataSource (C#)
+
 by [Scott Mitchell](https://twitter.com/ScottOnWriting)
 
 [Download Sample App](http://download.microsoft.com/download/4/6/3/463cf87c-4724-4cbc-b7b5-3f866f43ba50/ASPNET_Data_Tutorial_4_CS.exe) or [Download PDF](displaying-data-with-the-objectdatasource-cs/_static/datatutorial04cs1.pdf)

@@ -9,8 +9,8 @@ ms.assetid: 4c968009-8c05-4b1f-98af-df48dc0f93d5
 msc.legacyurl: /web-forms/videos/building-35-applications/session-level-objects
 msc.type: video
 ---
-Session Level Objects
-====================
+# Session Level Objects
+
 by [Joe Stagner](https://github.com/JoeStagner)
 
 This video will introduce Session Level Events and Objects and compare their use with their Application and Page level equivalents.

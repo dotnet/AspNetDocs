@@ -9,8 +9,8 @@ ms.assetid: bf4a1c19-0a94-4208-b268-a96ddcf26946
 msc.legacyurl: /mvc/overview/older-versions-1/getting-started-with-mvc/getting-started-with-mvc-part1
 msc.type: authoredcontent
 ---
-Intro to ASP.NET MVC
-====================
+# Intro to ASP.NET MVC
+
 by [Scott Hanselman](https://github.com/shanselman)
 
 > > [!NOTE]

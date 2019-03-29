@@ -9,8 +9,8 @@ ms.assetid: 26dfc502-d164-4261-8006-ffde9a3e3447
 msc.legacyurl: /web-forms/videos/visual-studio-2010/visual-studio-2010-quick-hit-multi-monitor-support
 msc.type: video
 ---
-Visual Studio 2010 "Quick Hit" - Multi-Monitor Support
-====================
+# Visual Studio 2010 "Quick Hit" - Multi-Monitor Support
+
 by [Joe Stagner](https://github.com/JoeStagner)
 
 In this video you will learn about Visual Studio's support of multiple monitor scenarios to improve your use of screen real-estate, and optimize your overall development workflow. 

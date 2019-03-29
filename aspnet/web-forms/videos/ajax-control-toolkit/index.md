@@ -9,8 +9,8 @@ ms.assetid: 6f7b1c74-cc73-42f9-8ef0-8b3d058dabfa
 msc.legacyurl: /web-forms/videos/ajax-control-toolkit
 msc.type: chapter
 ---
-Ajax Control Toolkit
-====================
+# Ajax Control Toolkit
+
 > How to create very responsive ASP.NET Web pages using the Ajax Control Toolkit.
 
 

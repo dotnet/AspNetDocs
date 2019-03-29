@@ -9,8 +9,8 @@ ms.assetid: b6721bba-38c8-48c4-acbf-274c1a34e817
 msc.legacyurl: /web-api/overview/releases/whats-new-in-aspnet-web-api-21
 msc.type: authoredcontent
 ---
-What's New in ASP.NET Web API 2.1
-====================
+# What's New in ASP.NET Web API 2.1
+
 by [Microsoft](https://github.com/microsoft)
 
 This topic describes what's new for ASP.NET Web API 2.1.

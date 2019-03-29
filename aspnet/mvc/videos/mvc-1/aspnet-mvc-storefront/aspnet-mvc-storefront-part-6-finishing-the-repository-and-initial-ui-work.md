@@ -9,8 +9,8 @@ ms.assetid: 40c12998-f699-409f-acdc-59699a0e5514
 msc.legacyurl: /mvc/videos/mvc-1/aspnet-mvc-storefront/aspnet-mvc-storefront-part-6-finishing-the-repository-and-initial-ui-work
 msc.type: video
 ---
-ASP.NET MVC Storefront Part 6: Finishing The Repository, and Initial UI Work
-====================
+# ASP.NET MVC Storefront Part 6: Finishing The Repository, and Initial UI Work
+
 by [Rob Conery](https://github.com/robconery)
 
 Rob talks with Jon Galloway about CSS strategies and begin working in the Front end of the application.

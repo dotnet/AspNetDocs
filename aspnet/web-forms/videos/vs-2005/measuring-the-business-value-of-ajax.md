@@ -9,8 +9,8 @@ ms.assetid: 60bb771b-e938-490f-944e-c80bc6bbdc12
 msc.legacyurl: /web-forms/videos/vs-2005/measuring-the-business-value-of-ajax
 msc.type: video
 ---
-Measuring the Business Value of AJAX
-====================
+# Measuring the Business Value of AJAX
+
 by Eric Lee
 
 ASP.NET AJAX is well known for its ability to improve the user experience of Web applications. With Visual Studio Team System you can also measure the business value of adding ASP.NET AJAX to your Web applications. Specifically you can use the Load and Web Testing capabilities of Visual Studio Team System to explore how the difference in HTTP data transmission size affects the performance and scalability characteristics of the Web application.

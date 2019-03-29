@@ -9,8 +9,8 @@ ms.assetid: 6127804d-c1a9-414d-8429-7f3dd0f56e97
 msc.legacyurl: /mvc/overview/getting-started/introduction/creating-a-connection-string
 msc.type: authoredcontent
 ---
-Creating a Connection String and Working with SQL Server LocalDB
-====================
+# Creating a Connection String and Working with SQL Server LocalDB
+
 by [Rick Anderson]((https://twitter.com/RickAndMSFT))
 
 [!INCLUDE [Tutorial Note](sample/code-location.md)]

@@ -9,8 +9,8 @@ ms.assetid: 142e5181-29ce-4bb9-907b-2a0becf7928b
 msc.legacyurl: /web-forms/overview/data-access/introduction/creating-a-business-logic-layer-vb
 msc.type: authoredcontent
 ---
-Creating a Business Logic Layer (VB)
-====================
+# Creating a Business Logic Layer (VB)
+
 by [Scott Mitchell](https://twitter.com/ScottOnWriting)
 
 [Download Sample App](http://download.microsoft.com/download/5/d/7/5d7571fc-d0b7-4798-ad4a-c976c02363ce/ASPNET_Data_Tutorial_2_VB.exe) or [Download PDF](creating-a-business-logic-layer-vb/_static/datatutorial02vb1.pdf)

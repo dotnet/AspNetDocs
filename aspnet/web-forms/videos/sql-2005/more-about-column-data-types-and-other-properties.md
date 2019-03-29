@@ -9,8 +9,8 @@ ms.assetid: 8fcd3402-1711-4f19-b0cc-b91edfe285fc
 msc.legacyurl: /web-forms/videos/sql-2005/more-about-column-data-types-and-other-properties
 msc.type: video
 ---
-More about Column Data Types and Other Properties
-====================
+# More about Column Data Types and Other Properties
+
 by [Microsoft](https://github.com/microsoft)
 
 SQL Server beginners will explore data integrity, learn which data types to use for what, and avoid common data type pitfalls.

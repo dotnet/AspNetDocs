@@ -9,8 +9,8 @@ ms.assetid: 35cf5142-e2d0-40de-884b-00039cc7ecb7
 msc.legacyurl: /web-forms/videos/aspnet-ajax/how-do-i-use-other-javascript-user-interface-libraries-with-aspnet-ajax
 msc.type: video
 ---
-[How Do I:] Use Other JavaScript User Interface Libraries with ASP.NET AJAX?
-====================
+# [How Do I:] Use Other JavaScript User Interface Libraries with ASP.NET AJAX?
+
 by [Joe Stagner](https://github.com/JoeStagner)
 
 Microsoft is part of the [OpenAjax alliance](http://www.openajax.org/) and the Microsoft AJAX Library is designed to work seamlessly with third-party JavaScript user interface libraries. This video provides a demonstration of interoperability between ASP.NET AJAX, Prototype, and script.aculo.us.

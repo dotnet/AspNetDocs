@@ -9,8 +9,8 @@ ms.assetid: 42591ed6-fb4a-462d-ad7d-3e95dc628af9
 msc.legacyurl: /web-forms/videos/net-4/data/aspnet-4-quick-hit-persistent-gridview-row-selection
 msc.type: video
 ---
-ASP.NET 4 "Quick Hit" – Persistent GridView Row Selection
-====================
+# ASP.NET 4 "Quick Hit" – Persistent GridView Row Selection
+
 by [Joe Stagner](https://github.com/JoeStagner)
 
 In this video you will learn about persisted row selection for the GridView control. 

@@ -9,8 +9,8 @@ ms.assetid: 817bc763-7faa-4ac5-880b-b3f5531e9d07
 msc.legacyurl: /web-forms/videos/sql-2005/creating-and-using-stored-procedures
 msc.type: video
 ---
-Creating and Using Stored Procedures
-====================
+# Creating and Using Stored Procedures
+
 by [Microsoft](https://github.com/microsoft)
 
 This video expands on the topic of Stored Procedures which was introduced several lessons ago. In this video we explain the basic syntax to create and update stored procedures, using input and output parameters, return values, declaring variables and adding other T-SQL programming elements into you stored procedures, how to execute your stored procedures from the query window, and finally the Visual Basic and C# syntax required to utilize stored procedures in your own applications.

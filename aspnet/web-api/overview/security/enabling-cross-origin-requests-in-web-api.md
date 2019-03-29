@@ -9,8 +9,8 @@ ms.assetid: 9b265a5a-6a70-4a82-adce-2d7c56ae8bdd
 msc.legacyurl: /web-api/overview/security/enabling-cross-origin-requests-in-web-api
 msc.type: authoredcontent
 ---
-Enable cross-origin requests in ASP.NET Web API 2
-====================
+# Enable cross-origin requests in ASP.NET Web API 2
+
 by [Mike Wasson](https://github.com/MikeWasson)
 
 > Browser security prevents a web page from making AJAX requests to another domain. This restriction is called the *same-origin policy*, and prevents a malicious site from reading sensitive data from another site. However, sometimes you might want to let other sites call your web API.

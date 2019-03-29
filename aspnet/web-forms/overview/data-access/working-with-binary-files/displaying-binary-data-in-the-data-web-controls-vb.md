@@ -9,8 +9,8 @@ ms.assetid: 9201656a-e1c2-4020-824b-18fb632d2925
 msc.legacyurl: /web-forms/overview/data-access/working-with-binary-files/displaying-binary-data-in-the-data-web-controls-vb
 msc.type: authoredcontent
 ---
-Displaying Binary Data in the Data Web Controls (VB)
-====================
+# Displaying Binary Data in the Data Web Controls (VB)
+
 by [Scott Mitchell](https://twitter.com/ScottOnWriting)
 
 [Download Sample App](http://download.microsoft.com/download/4/a/7/4a7a3b18-d80e-4014-8e53-a6a2427f0d93/ASPNET_Data_Tutorial_55_VB.exe) or [Download PDF](displaying-binary-data-in-the-data-web-controls-vb/_static/datatutorial55vb1.pdf)

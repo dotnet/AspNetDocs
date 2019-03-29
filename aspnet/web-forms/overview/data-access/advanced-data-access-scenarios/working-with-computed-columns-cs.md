@@ -9,8 +9,8 @@ ms.assetid: 57459065-ed7c-4dfe-ac9c-54c093abc261
 msc.legacyurl: /web-forms/overview/data-access/advanced-data-access-scenarios/working-with-computed-columns-cs
 msc.type: authoredcontent
 ---
-Working with Computed Columns (C#)
-====================
+# Working with Computed Columns (C#)
+
 by [Scott Mitchell](https://twitter.com/ScottOnWriting)
 
 [Download Code](http://download.microsoft.com/download/3/9/f/39f92b37-e92e-4ab3-909e-b4ef23d01aa3/ASPNET_Data_Tutorial_71_CS.zip) or [Download PDF](working-with-computed-columns-cs/_static/datatutorial71cs1.pdf)

@@ -9,8 +9,8 @@ ms.assetid: 60b10049-ca02-4830-b3ce-83e9584511d0
 msc.legacyurl: /web-forms/videos/vs-2005/how-do-i-practice-test-driven-development
 msc.type: video
 ---
-[How Do I:] Practice Test-Driven Development?
-====================
+# [How Do I:] Practice Test-Driven Development?
+
 by [Chris Menegay](https://twitter.com/CMenegay)
 
 Visual Studio Team System provides the tools necessary to practice Test-Driven Development, and this video we learn how Team System's testing functionality allows you to go from code to test and from test to code. We see how you may write a test and then use Visual Studio Team System to generate the target code, which adheres to the TDD ideology of writing the test first and the code second.

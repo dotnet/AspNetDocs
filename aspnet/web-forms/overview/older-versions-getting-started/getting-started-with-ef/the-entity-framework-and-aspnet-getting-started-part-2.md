@@ -9,8 +9,8 @@ ms.assetid: fb63a326-a4ae-4b0c-a4f5-412327197216
 msc.legacyurl: /web-forms/overview/older-versions-getting-started/getting-started-with-ef/the-entity-framework-and-aspnet-getting-started-part-2
 msc.type: authoredcontent
 ---
-Getting Started with Entity Framework 4.0 Database First and ASP.NET 4 Web Forms - Part 2
-====================
+# Getting Started with Entity Framework 4.0 Database First and ASP.NET 4 Web Forms - Part 2
+
 by [Tom Dykstra](https://github.com/tdykstra)
 
 > The Contoso University sample web application demonstrates how to create ASP.NET Web Forms applications using the Entity Framework 4.0 and Visual Studio 2010. For information about the tutorial series, see [the first tutorial in the series](the-entity-framework-and-aspnet-getting-started-part-1.md)

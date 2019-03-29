@@ -9,8 +9,8 @@ ms.assetid: 82324ef0-3b75-4f63-a217-76ef4036ec93
 msc.legacyurl: /aspnet/overview/owin-and-katana/enabling-windows-authentication-in-katana
 msc.type: authoredcontent
 ---
-Enabling Windows Authentication in Katana
-====================
+# Enabling Windows Authentication in Katana
+
 by [Mike Wasson](https://github.com/MikeWasson)
 
 > This article shows how to enable Windows Authentication in Katana. It covers two scenarios: Using IIS to host Katana, and using HttpListener to self-host Katana in a custom process. Thanks to Barry Dorrans, David Matson, and Chris Ross for reviewing this article.

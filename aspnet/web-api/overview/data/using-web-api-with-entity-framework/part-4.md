@@ -9,8 +9,8 @@ ms.assetid: d2f5710c-23c7-40a5-9cd9-5d0516570cba
 msc.legacyurl: /web-api/overview/data/using-web-api-with-entity-framework/part-4
 msc.type: authoredcontent
 ---
-Handling Entity Relations
-====================
+# Handling Entity Relations
+
 by [Mike Wasson](https://github.com/MikeWasson)
 
 [Download Completed Project](https://github.com/MikeWasson/BookService)

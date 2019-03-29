@@ -9,8 +9,8 @@ ms.assetid: 0a1f88bd-97da-4ed1-86f1-605199dc75a4
 msc.legacyurl: /web-forms/overview/getting-started/hands-on-labs/whats-new-in-web-forms-in-aspnet-45
 msc.type: authoredcontent
 ---
-What's New in Web Forms in ASP.NET 4.5
-====================
+# What's New in Web Forms in ASP.NET 4.5
+
 by [Web Camps Team](https://twitter.com/webcamps)
 
 > The new version of ASP.NET Web Forms introduces a number of improvements focused on improving user experience when working with data.

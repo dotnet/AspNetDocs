@@ -9,8 +9,8 @@ ms.assetid: a1e9ec42-700a-49a6-b91e-8cf9ef6d027b
 msc.legacyurl: /mvc/overview/releases
 msc.type: chapter
 ---
-Releases
-====================
+# Releases
+
 > What's new in recent MVC releases.
 
 

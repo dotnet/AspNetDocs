@@ -9,8 +9,8 @@ ms.assetid: b7cce113-c82c-45bf-b97b-357e5d9f7f56
 msc.legacyurl: /mvc/overview/older-versions-1/controllers-and-routing/creating-a-route-constraint-vb
 msc.type: authoredcontent
 ---
-Creating a Route Constraint (VB)
-====================
+# Creating a Route Constraint (VB)
+
 by [Stephen Walther](https://github.com/StephenWalther)
 
 > In this tutorial, Stephen Walther demonstrates how you can control how browser requests match routes by creating route constraints with regular expressions.

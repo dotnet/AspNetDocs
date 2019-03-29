@@ -9,8 +9,8 @@ ms.assetid: 673d502f-2c16-4a6f-bb63-dbfd9a77ef47
 msc.legacyurl: /web-pages/overview/data/5-working-with-data
 msc.type: authoredcontent
 ---
-Introduction to Working with a Database in ASP.NET Web Pages (Razor) Sites
-====================
+# Introduction to Working with a Database in ASP.NET Web Pages (Razor) Sites
+
 by [Tom FitzMacken](https://github.com/tfitzmac)
 
 > This article describes how to use Microsoft WebMatrix tools to create a database in an ASP.NET Web Pages (Razor) website, and how to create pages that let you display, add, edit, and delete data.

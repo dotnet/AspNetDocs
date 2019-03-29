@@ -9,8 +9,8 @@ ms.assetid: bb68c415-ba45-4562-a964-d9a27b78f532
 msc.legacyurl: /web-api/overview/releases
 msc.type: chapter
 ---
-ASP.NET Web API Releases
-====================
+# ASP.NET Web API Releases
+
 > What's new in recent Web API releases.
 
 

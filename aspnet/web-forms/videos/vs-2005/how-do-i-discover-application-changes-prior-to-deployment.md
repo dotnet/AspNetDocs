@@ -9,8 +9,8 @@ ms.assetid: 6945a637-cab3-4a13-a678-f6d2d83c2587
 msc.legacyurl: /web-forms/videos/vs-2005/how-do-i-discover-application-changes-prior-to-deployment
 msc.type: video
 ---
-[How Do I:] Discover Application Changes Prior to Deployment?
-====================
+# [How Do I:] Discover Application Changes Prior to Deployment?
+
 by [Paul Hacker](https://github.com/pjhacker)
 
 Learn how to use the Source Control Explorer from Visual Studio Team System to discover the changes that have been made to your Web application, and to ensure that only the necessary changes get deployed to the live Web site. We also look at a free utility that allows you to merge changes together to simplify deployment.

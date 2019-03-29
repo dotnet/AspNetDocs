@@ -9,8 +9,8 @@ ms.assetid: 794bd819-00fc-47e2-876d-fc5d15e0de1c
 msc.legacyurl: /web-forms/overview/deployment/advanced-enterprise-web-deployment/troubleshooting-the-packaging-process
 msc.type: authoredcontent
 ---
-Troubleshooting the Packaging Process
-====================
+# Troubleshooting the Packaging Process
+
 by [Jason Lee](https://github.com/jrjlee)
 
 [Download PDF](https://msdnshared.blob.core.windows.net/media/MSDNBlogsFS/prod.evol.blogs.msdn.com/CommunityServer.Blogs.Components.WeblogFiles/00/00/00/63/56/8130.DeployingWebAppsInEnterpriseScenarios.pdf)

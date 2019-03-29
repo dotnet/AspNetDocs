@@ -9,8 +9,8 @@ ms.assetid: ffe5e656-9078-4ec7-85bb-3d7300942e87
 msc.legacyurl: /mvc/videos/mvc-2/music-store/mvc-music-store-part-3-views-and-viewmodels
 msc.type: video
 ---
-MVC Music Store Part 3: Views and ViewModels
-====================
+# MVC Music Store Part 3: Views and ViewModels
+
 by [Jon Galloway](https://github.com/jongalloway)
 
 Jon continues the MVC Music Store tutorial with an introduction to Views, ViewModels, and MasterPages.

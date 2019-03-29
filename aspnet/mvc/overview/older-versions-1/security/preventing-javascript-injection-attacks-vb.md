@@ -9,8 +9,8 @@ ms.assetid: 9274a72e-34dd-4dae-8452-ed733ae71377
 msc.legacyurl: /mvc/overview/older-versions-1/security/preventing-javascript-injection-attacks-vb
 msc.type: authoredcontent
 ---
-Preventing JavaScript Injection Attacks (VB)
-====================
+# Preventing JavaScript Injection Attacks (VB)
+
 by [Stephen Walther](https://github.com/StephenWalther)
 
 [Download PDF](http://download.microsoft.com/download/8/4/8/84843d8d-1575-426c-bcb5-9d0c42e51416/ASPNET_MVC_Tutorial_06_VB.pdf)

@@ -9,8 +9,8 @@ ms.assetid: 7a87f16f-0e19-4f15-a88a-094ae866c4a2
 msc.legacyurl: /mvc/overview/older-versions/using-oauth-providers-with-mvc
 msc.type: authoredcontent
 ---
-Using OAuth Providers with MVC 4
-====================
+# Using OAuth Providers with MVC 4
+
 by [Tom FitzMacken](https://github.com/tfitzmac)
 
 > This tutorial shows you how to build an ASP.NET MVC 4 web application that enables users to log in with credentials from an external provider, such as Facebook, Twitter, Microsoft, or Google, and then integrate some of the functionality from those providers into your web application. For simplicity, this tutorial focuses on working with credentials from Facebook.

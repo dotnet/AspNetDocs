@@ -9,8 +9,8 @@ ms.assetid: c02ffd50-aa19-4cdc-b1bf-760989979a61
 msc.legacyurl: /web-forms/videos/how-do-i/how-do-i-implement-error-handling-when-sending-email-with-aspnet
 msc.type: video
 ---
-[How Do I:] Implement Error Handling when Sending Email with ASP.NET
-====================
+# [How Do I:] Implement Error Handling when Sending Email with ASP.NET
+
 by [Chris Pels](https://twitter.com/chrispels)
 
 Chris Pels shows how to implement error handling when sending an email with ASP.NET. He creates an ASP.NET web page to send email, shows how to configure &lt;mailSettings&gt; in the web.config file, describes the System.Net.Mail class and how it's used to create and send email messages. He then adds error handling using System.Net.Mail exception classes, which provide information about errors that can occur when sending email, and reviews the SmtpStatusCode enumeration, which provides a list of possible outcomes when sending an email with the SmtpClient. Finally, he sends a test email that raises an exception and reviews the error handling information in the Visual Studio debugger.

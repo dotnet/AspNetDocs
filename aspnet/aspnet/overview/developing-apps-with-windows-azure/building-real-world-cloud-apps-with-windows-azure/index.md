@@ -9,8 +9,8 @@ ms.assetid: b452a3af-4157-4056-a181-569d1735c239
 msc.legacyurl: /aspnet/overview/developing-apps-with-windows-azure/building-real-world-cloud-apps-with-windows-azure
 msc.type: chapter
 ---
-Building Real World Cloud Apps with Azure
-====================
+# Building Real World Cloud Apps with Azure
+
 > Building Real World Cloud Apps with Azure
 
 

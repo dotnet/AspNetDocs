@@ -9,8 +9,8 @@ ms.assetid: 3410a9c7-9bf4-45fc-aafa-230ba8bd7a8c
 msc.legacyurl: /web-forms/videos/vs-2005/introduction-to-unit-testing-with-team-system
 msc.type: video
 ---
-Introduction to Unit Testing with Team System
-====================
+# Introduction to Unit Testing with Team System
+
 by Eric Lee
 
 In this video we see how the unit testing features of Visual Studio Team System integrate unit testing directly into the Visual Studio IDE.

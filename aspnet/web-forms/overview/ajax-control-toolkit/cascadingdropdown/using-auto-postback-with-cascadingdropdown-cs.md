@@ -9,8 +9,8 @@ ms.assetid: 6755d8d9-14be-4a1d-86e5-1a6110f3dea8
 msc.legacyurl: /web-forms/overview/ajax-control-toolkit/cascadingdropdown/using-auto-postback-with-cascadingdropdown-cs
 msc.type: authoredcontent
 ---
-Using Auto-Postback with CascadingDropDown (C#)
-====================
+# Using Auto-Postback with CascadingDropDown (C#)
+
 by [Christian Wenz](https://github.com/wenz)
 
 [Download Code](http://download.microsoft.com/download/9/0/7/907760b1-2c60-4f81-aeb6-ca416a573b0d/cascadingdropdown3.cs.zip) or [Download PDF](http://download.microsoft.com/download/2/d/c/2dc10e34-6983-41d4-9c08-f78f5387d32b/cascadingdropdown3CS.pdf)

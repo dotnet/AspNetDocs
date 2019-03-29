@@ -9,8 +9,8 @@ ms.assetid: ec61ced7-bbca-4bdd-aa3b-80878f295181
 msc.legacyurl: /web-forms/overview/ajax-control-toolkit/cascadingdropdown/presetting-list-entries-with-cascadingdropdown-vb
 msc.type: authoredcontent
 ---
-Presetting List Entries with CascadingDropDown (VB)
-====================
+# Presetting List Entries with CascadingDropDown (VB)
+
 by [Christian Wenz](https://github.com/wenz)
 
 [Download Code](http://download.microsoft.com/download/9/0/7/907760b1-2c60-4f81-aeb6-ca416a573b0d/cascadingdropdown2.vb.zip) or [Download PDF](http://download.microsoft.com/download/2/d/c/2dc10e34-6983-41d4-9c08-f78f5387d32b/CascadingDropDown2VB.pdf)

@@ -9,8 +9,8 @@ ms.assetid: 7770f4b8-48fe-4c82-a7c6-02aeef4b85b5
 msc.legacyurl: /web-forms/videos/authentication/changing-membership-settings-in-the-default-membership-schema
 msc.type: video
 ---
-Changing Membership Settings in the Default Membership Schema
-====================
+# Changing Membership Settings in the Default Membership Schema
+
 by [Joe Stagner](https://github.com/JoeStagner)
 
 In this video Joe Stagner looks at how to change the default settings of the membership schema to conform to the specific needs of an custom application. For additional information about this video, read the [Creating the Membership Schema in SQL Server](../../overview/older-versions-security/membership/creating-the-membership-schema-in-sql-server-vb.md) security tutorial.

@@ -9,8 +9,8 @@ ms.assetid: 66d242f5-0306-4df2-8f05-c93e405f9847
 msc.legacyurl: /web-forms/videos/vs-2005/web-application-projects-web-deployment-projects
 msc.type: video
 ---
-Web Application Projects & Web Deployment Projects
-====================
+# Web Application Projects & Web Deployment Projects
+
 by [Bradley Bartz](https://github.com/BradleyBartz)
 
 Bradley Bartz shows how the Web Application Projects and Web Deployment Projects for Visual Studio 2005 make developing and deploying ASP.NET projects similar to the Visual Studio .NET 2003 model.

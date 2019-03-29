@@ -9,8 +9,8 @@ ms.assetid: 9a382d8e-ea3a-4fa4-bd24-b56f9051f4db
 msc.legacyurl: /web-forms/videos/aspnet-ajax/how-do-i-implement-the-ajax-after-processing-pattern
 msc.type: video
 ---
-[How Do I:] Implement the AJAX After Processing Pattern?
-====================
+# [How Do I:] Implement the AJAX After Processing Pattern?
+
 by [Joe Stagner](https://github.com/JoeStagner)
 
 The ASP.NET AJAX framework allows your server-side code to hook in and respond to various client-side events. In this video we learn how to implement the After Processing Pattern, which allows server-side code to execute wrap-up logic once the user has finished with the Web page.

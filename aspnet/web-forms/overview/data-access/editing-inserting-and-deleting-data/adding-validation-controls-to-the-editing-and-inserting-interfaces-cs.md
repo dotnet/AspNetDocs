@@ -9,8 +9,8 @@ ms.assetid: 2086cb1a-ab78-49ae-9c0b-03891c69776a
 msc.legacyurl: /web-forms/overview/data-access/editing-inserting-and-deleting-data/adding-validation-controls-to-the-editing-and-inserting-interfaces-cs
 msc.type: authoredcontent
 ---
-Adding Validation Controls to the Editing and Inserting Interfaces (C#)
-====================
+# Adding Validation Controls to the Editing and Inserting Interfaces (C#)
+
 by [Scott Mitchell](https://twitter.com/ScottOnWriting)
 
 [Download Sample App](http://download.microsoft.com/download/9/c/1/9c1d03ee-29ba-4d58-aa1a-f201dcc822ea/ASPNET_Data_Tutorial_19_CS.exe) or [Download PDF](adding-validation-controls-to-the-editing-and-inserting-interfaces-cs/_static/datatutorial19cs1.pdf)

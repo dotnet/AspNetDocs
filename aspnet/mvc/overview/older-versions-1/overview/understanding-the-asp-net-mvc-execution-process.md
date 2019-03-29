@@ -9,8 +9,8 @@ ms.assetid: d1608db3-660d-4079-8c15-f452ff01f1db
 msc.legacyurl: /mvc/overview/older-versions-1/overview/understanding-the-asp-net-mvc-execution-process
 msc.type: authoredcontent
 ---
-Understanding the ASP.NET MVC Execution Process
-====================
+# Understanding the ASP.NET MVC Execution Process
+
 by [Microsoft](https://github.com/microsoft)
 
 > Learn how the ASP.NET MVC framework processes a browser request step-by-step.

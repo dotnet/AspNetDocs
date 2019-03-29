@@ -9,8 +9,8 @@ ms.assetid: fc49bcb9-f1a9-4048-8c3f-b60951853200
 msc.legacyurl: /web-pages/overview/getting-started/11-adding-email-to-your-web-site
 msc.type: authoredcontent
 ---
-Sending Email from an ASP.NET Web Pages (Razor) Site
-====================
+# Sending Email from an ASP.NET Web Pages (Razor) Site
+
 by [Tom FitzMacken](https://github.com/tfitzmac)
 
 > This article explains how to send an email message from a website when you use ASP.NET Web Pages (Razor).

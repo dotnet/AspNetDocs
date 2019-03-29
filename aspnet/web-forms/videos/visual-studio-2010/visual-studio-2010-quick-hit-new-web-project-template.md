@@ -9,8 +9,8 @@ ms.assetid: adb92a60-cdb7-4da5-a23d-267e2717953e
 msc.legacyurl: /web-forms/videos/visual-studio-2010/visual-studio-2010-quick-hit-new-web-project-template
 msc.type: video
 ---
-Visual Studio 2010 "Quick Hit" - New Web Project Template
-====================
+# Visual Studio 2010 "Quick Hit" - New Web Project Template
+
 by [Joe Stagner](https://github.com/JoeStagner)
 
 In this video you will learn about Visual Studio's new web project starter template.

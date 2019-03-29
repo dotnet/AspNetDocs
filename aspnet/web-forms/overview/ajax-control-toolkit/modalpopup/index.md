@@ -9,8 +9,8 @@ ms.assetid: db4eca5d-b625-4e67-8e5b-a844639d4354
 msc.legacyurl: /web-forms/overview/ajax-control-toolkit/modalpopup
 msc.type: chapter
 ---
-ModalPopup
-====================
+# ModalPopup
+
 > This tutorial shows how to use the ModalPopup control, which lets you create the equivalent of a modal dialog box.
 
 

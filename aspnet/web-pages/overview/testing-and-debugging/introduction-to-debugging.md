@@ -9,8 +9,8 @@ ms.assetid: 68de4326-7611-4b9b-b5f6-79b7adc3069f
 msc.legacyurl: /web-pages/overview/testing-and-debugging/introduction-to-debugging
 msc.type: authoredcontent
 ---
-Introduction to Debugging ASP.NET Web Pages (Razor) Sites
-====================
+# Introduction to Debugging ASP.NET Web Pages (Razor) Sites
+
 by [Tom FitzMacken](https://github.com/tfitzmac)
 
 > This article explains various ways to debug pages in an ASP.NET Web Pages (Razor) website. Debugging is the process of finding and fixing errors in your code pages.

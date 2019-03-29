@@ -9,8 +9,8 @@ ms.assetid: 8b013630-842c-4d44-a6fc-c6be43e7210f
 msc.legacyurl: /web-forms/overview/older-versions-getting-started/deployment-to-a-hosting-provider/deployment-to-a-hosting-provider-configuring-project-properties-4-of-12
 msc.type: authoredcontent
 ---
-Deploying an ASP.NET Web Application with SQL Server Compact using Visual Studio or Visual Web Developer: Configuring Project Properties - 4 of 12
-====================
+# Deploying an ASP.NET Web Application with SQL Server Compact using Visual Studio or Visual Web Developer: Configuring Project Properties - 4 of 12
+
 by [Tom Dykstra](https://github.com/tdykstra)
 
 [Download Starter Project](http://code.msdn.microsoft.com/Deploying-an-ASPNET-Web-4e31366b)

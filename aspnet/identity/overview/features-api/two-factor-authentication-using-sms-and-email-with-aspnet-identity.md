@@ -9,8 +9,8 @@ ms.assetid: 053e23c4-13c9-40fa-87cb-3e9b0823b31e
 msc.legacyurl: /identity/overview/features-api/two-factor-authentication-using-sms-and-email-with-aspnet-identity
 msc.type: authoredcontent
 ---
-Two-factor authentication using SMS and email with ASP.NET Identity
-====================
+# Two-factor authentication using SMS and email with ASP.NET Identity
+
 by [Hao Kung](https://github.com/HaoK), [Pranav Rastogi](https://github.com/rustd), [Rick Anderson]((https://twitter.com/RickAndMSFT)), [Suhas Joshi](https://github.com/suhasj)
 
 > This tutorial will show you how to set up Two-factor authentication (2FA) using SMS and email.

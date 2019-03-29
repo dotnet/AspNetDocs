@@ -9,8 +9,8 @@ ms.assetid: 4a365e58-9b18-4bd2-bfd5-6981e7f2e179
 msc.legacyurl: /web-forms/videos/authentication
 msc.type: chapter
 ---
-Authentication
-====================
+# Authentication
+
 > How to implement and manage security (authentication) in an ASP.NET application.
 
 

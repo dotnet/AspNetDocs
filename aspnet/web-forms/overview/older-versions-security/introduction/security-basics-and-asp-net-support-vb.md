@@ -9,8 +9,8 @@ ms.assetid: ab68a92b-fc81-40a4-a7dc-406625d2c5d4
 msc.legacyurl: /web-forms/overview/older-versions-security/introduction/security-basics-and-asp-net-support-vb
 msc.type: authoredcontent
 ---
-Security Basics and ASP.NET Support (VB)
-====================
+# Security Basics and ASP.NET Support (VB)
+
 by [Scott Mitchell](https://twitter.com/ScottOnWriting)
 
 [Download PDF](http://download.microsoft.com/download/2/F/7/2F705A34-F9DE-4112-BBDE-60098089645E/aspnet_tutorial01_Basics_vb.pdf)

@@ -9,8 +9,8 @@ ms.assetid: 9673bef3-892c-45ba-a7d8-0da3d6f48ec5
 msc.legacyurl: /web-forms/overview/data-access/accessing-the-database-directly-from-an-aspnet-page/inserting-updating-and-deleting-data-with-the-sqldatasource-vb
 msc.type: authoredcontent
 ---
-Inserting, Updating, and Deleting Data with the SqlDataSource (VB)
-====================
+# Inserting, Updating, and Deleting Data with the SqlDataSource (VB)
+
 by [Scott Mitchell](https://twitter.com/ScottOnWriting)
 
 [Download Sample App](http://download.microsoft.com/download/4/a/7/4a7a3b18-d80e-4014-8e53-a6a2427f0d93/ASPNET_Data_Tutorial_49_VB.exe) or [Download PDF](inserting-updating-and-deleting-data-with-the-sqldatasource-vb/_static/datatutorial49vb1.pdf)

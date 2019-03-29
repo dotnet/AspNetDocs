@@ -9,8 +9,8 @@ ms.assetid: 3cf765df-d311-4f68-a295-c9685ceea830
 msc.legacyurl: /web-forms/overview/deployment/advanced-enterprise-web-deployment/deploying-membership-databases-to-enterprise-environments
 msc.type: authoredcontent
 ---
-Deploying Membership Databases to Enterprise Environments
-====================
+# Deploying Membership Databases to Enterprise Environments
+
 by [Jason Lee](https://github.com/jrjlee)
 
 [Download PDF](https://msdnshared.blob.core.windows.net/media/MSDNBlogsFS/prod.evol.blogs.msdn.com/CommunityServer.Blogs.Components.WeblogFiles/00/00/00/63/56/8130.DeployingWebAppsInEnterpriseScenarios.pdf)

@@ -9,8 +9,8 @@ ms.assetid: a4adedeb-92f9-4d08-a068-fdcdedbae069
 msc.legacyurl: /web-forms/videos/how-do-i/how-do-i-handle-application-events-using-an-httpmodule
 msc.type: video
 ---
-[How Do I:] Handle Application Events using an HttpModule?
-====================
+# [How Do I:] Handle Application Events using an HttpModule?
+
 by [Chris Pels](https://twitter.com/chrispels)
 
 Learn how to create an HttpModule that handles application events during the processing of a page request. The sample module will write information to a log file at various points in the page lifecycle. We also see how the HttpModule is configured for use in a sample web site.

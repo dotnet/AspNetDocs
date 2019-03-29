@@ -9,8 +9,8 @@ ms.assetid: a997a9f8-9f71-4b9e-b7ed-f8e3a0daa576
 msc.legacyurl: /web-forms/videos/ajax-control-toolkit/how-do-i-use-the-aspnet-ajax-dropdown-control
 msc.type: video
 ---
-[How Do I:] Use the ASP.NET AJAX DropDown Control?
-====================
+# [How Do I:] Use the ASP.NET AJAX DropDown Control?
+
 by [Joe Stagner](https://github.com/JoeStagner)
 
 With the DropDown control extender from the ASP.NET AJAX Control Toolkit, you can present the user with a drop-down list of options that trigger a partial-page update elsewhere on the Web page. The option selected by the user is passed to the server, allowing your server-side code to process the selection before completing the partial-page update.

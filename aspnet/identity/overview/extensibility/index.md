@@ -9,8 +9,8 @@ ms.assetid: d1c6e7d0-ead9-4f08-a5b9-9d7a30be78e3
 msc.legacyurl: /identity/overview/extensibility
 msc.type: chapter
 ---
-ASP.NET Identity Extensibility
-====================
+# ASP.NET Identity Extensibility
+
 > Extensibility
 
 

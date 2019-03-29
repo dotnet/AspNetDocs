@@ -9,8 +9,8 @@ ms.assetid: 4eb060cc-cf14-41ae-bab1-14a2c15332d0
 msc.legacyurl: /web-pages/overview/ui-layouts-and-themes/validating-user-input-in-aspnet-web-pages-sites
 msc.type: authoredcontent
 ---
-Validating User Input in ASP.NET Web Pages (Razor) Sites
-====================
+# Validating User Input in ASP.NET Web Pages (Razor) Sites
+
 by [Tom FitzMacken](https://github.com/tfitzmac)
 
 > This article discusses how to validate information you get from users &mdash; that is, to make sure that users enter valid information in HTML forms in an ASP.NET Web Pages (Razor) site.

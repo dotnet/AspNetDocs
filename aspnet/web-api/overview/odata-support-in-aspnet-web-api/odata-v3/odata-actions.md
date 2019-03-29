@@ -9,8 +9,8 @@ ms.assetid: 2d7b3aa2-aa47-4e6e-b0ce-3d65a1c6fe02
 msc.legacyurl: /web-api/overview/odata-support-in-aspnet-web-api/odata-v3/odata-actions
 msc.type: authoredcontent
 ---
-Supporting OData Actions in ASP.NET Web API 2
-====================
+# Supporting OData Actions in ASP.NET Web API 2
+
 by [Mike Wasson](https://github.com/MikeWasson)
 
 [Download Completed Project](http://code.msdn.microsoft.com/ASPNET-Web-API-OData-cecdb524)

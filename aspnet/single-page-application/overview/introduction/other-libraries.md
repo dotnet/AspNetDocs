@@ -9,8 +9,8 @@ ms.assetid: a8367c6d-ef94-4dff-a010-5eff9e6eea96
 msc.legacyurl: /single-page-application/overview/introduction/other-libraries
 msc.type: authoredcontent
 ---
-Know a library other than Knockout?
-====================
+# Know a library other than Knockout?
+
 by [Mads Kristensen](https://github.com/madskristensen)
 
 The [Single Page Application (SPA) template](knockoutjs-template.md) is a great way to get started writing single-page applications. The template uses [KnockoutJS](http://knockoutjs.com/) to bind application data to DOM elements.

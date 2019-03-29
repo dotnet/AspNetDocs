@@ -9,8 +9,8 @@ ms.assetid: 4ee7a86d-e619-4fe7-ad2d-e24cde8b3158
 msc.legacyurl: /web-forms/videos/net-4/ajax
 msc.type: chapter
 ---
-Ajax
-====================
+# Ajax
+
 > This video series shows the new features in ASP.NET 4 for JavaScript and jQuery support.
 
 

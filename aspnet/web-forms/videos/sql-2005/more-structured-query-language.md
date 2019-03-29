@@ -9,8 +9,8 @@ ms.assetid: f86aee1e-958a-4604-a593-dc40a1149239
 msc.legacyurl: /web-forms/videos/sql-2005/more-structured-query-language
 msc.type: video
 ---
-More Structured Query Language
-====================
+# More Structured Query Language
+
 by [Microsoft](https://github.com/microsoft)
 
 SQL Server beginners will discover more SQL statements like sub-select and learn stored procedures and their counterparts in C# and VB methods.

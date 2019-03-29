@@ -9,8 +9,8 @@ ms.assetid: 9c1e3a75-b644-4480-8326-11300b1ec4b3
 msc.legacyurl: /mvc/overview/getting-started/lifecycle-of-an-aspnet-mvc-5-application
 msc.type: authoredcontent
 ---
-Lifecycle of an ASP.NET MVC 5 Application
-====================
+# Lifecycle of an ASP.NET MVC 5 Application
+
 by [Cephas Lin](https://github.com/cephalin)
 
 [Download PDF Document](lifecycle-of-an-aspnet-mvc-5-application/_static/lifecycle-of-an-aspnet-mvc-5-application1.pdf)

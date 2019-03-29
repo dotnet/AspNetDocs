@@ -9,8 +9,8 @@ ms.assetid: 08257f55-36f4-4e39-9c88-2a5602838c79
 msc.legacyurl: /aspnet/overview/owin-and-katana/owin-startup-class-detection
 msc.type: authoredcontent
 ---
-OWIN Startup Class Detection
-====================
+# OWIN Startup Class Detection
+
 
 > This tutorial shows how to configure which OWIN startup class is loaded. For more information on OWIN, see [An Overview of Project Katana](an-overview-of-project-katana.md). This tutorial was written by Rick Anderson ( [@RickAndMSFT](https://twitter.com/#!/RickAndMSFT) ), Praburaj Thiagarajan, and Howard Dierking ( [@howard\_dierking](https://twitter.com/howard_dierking) ).
 >

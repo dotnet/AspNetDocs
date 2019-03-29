@@ -9,8 +9,8 @@ ms.assetid: 3cd08f02-8763-490a-b625-2ac96a24b73f
 msc.legacyurl: /mvc/overview/older-versions-1/controllers-and-routing/creating-custom-routes-cs
 msc.type: authoredcontent
 ---
-Creating Custom Routes (C#)
-====================
+# Creating Custom Routes (C#)
+
 by [Microsoft](https://github.com/microsoft)
 
 > Learn how to add custom routes to an ASP.NET MVC application. In this tutorial, you learn how to modify the default route table in the Global.asax file.

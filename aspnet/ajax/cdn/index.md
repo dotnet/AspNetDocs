@@ -9,8 +9,8 @@ ms.assetid: fc98bde7-484a-4191-bba2-04d29551cb8f
 msc.legacyurl: 
 msc.type: content
 ---
-Microsoft Ajax Content Delivery Network
-====================
+# Microsoft Ajax Content Delivery Network
+
 - [Microsoft Ajax Content Delivery Network](overview.md)
 - [jQuery UI](jquery-ui/index.md)
 

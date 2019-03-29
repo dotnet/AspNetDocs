@@ -9,8 +9,8 @@ ms.assetid: 5344b74e-b888-479a-92bc-601a33bd61a2
 msc.legacyurl: /web-forms/overview/getting-started/code-editing-in-web-forms-pages
 msc.type: authoredcontent
 ---
-Code Editing ASP.NET Web Forms in Visual Studio 2013
-====================
+# Code Editing ASP.NET Web Forms in Visual Studio 2013
+
 by [Erik Reitan](https://github.com/Erikre)
 
 In many ASP.NET Web Form pages, you write code in Visual Basic, C#, or another language. The code editor in Visual Studio can help you write code quickly while helping you avoid errors. In addition, the editor provides ways for you to create reusable code to help reduce the amount of work you need to do.

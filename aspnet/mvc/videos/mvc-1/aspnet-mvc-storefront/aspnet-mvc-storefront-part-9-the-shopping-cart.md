@@ -9,8 +9,8 @@ ms.assetid: 47d8a6e3-21de-4ac9-be5a-9f755c596529
 msc.legacyurl: /mvc/videos/mvc-1/aspnet-mvc-storefront/aspnet-mvc-storefront-part-9-the-shopping-cart
 msc.type: video
 ---
-ASP.NET MVC Storefront Part 9: The Shopping Cart
-====================
+# ASP.NET MVC Storefront Part 9: The Shopping Cart
+
 by [Rob Conery](https://github.com/robconery)
 
 Rob Conery cooks up a simple cart system so he can spike.

@@ -9,8 +9,8 @@ ms.assetid: d29a7c41-0628-4a23-9dfc-bfea9c6c1054
 msc.legacyurl: /web-forms/overview/data-access/caching-data/caching-data-in-the-architecture-cs
 msc.type: authoredcontent
 ---
-Caching Data in the Architecture (C#)
-====================
+# Caching Data in the Architecture (C#)
+
 by [Scott Mitchell](https://twitter.com/ScottOnWriting)
 
 [Download Sample App](http://download.microsoft.com/download/4/a/7/4a7a3b18-d80e-4014-8e53-a6a2427f0d93/ASPNET_Data_Tutorial_59_CS.exe) or [Download PDF](caching-data-in-the-architecture-cs/_static/datatutorial59cs1.pdf)

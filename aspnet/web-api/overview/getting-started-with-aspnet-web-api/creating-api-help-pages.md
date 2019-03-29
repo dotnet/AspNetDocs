@@ -9,8 +9,8 @@ ms.assetid: 0150e67b-c50d-4613-83ea-7b4ef8cacc5a
 msc.legacyurl: /web-api/overview/getting-started-with-aspnet-web-api/creating-api-help-pages
 msc.type: authoredcontent
 ---
-Creating Help Pages for ASP.NET Web API
-====================
+# Creating Help Pages for ASP.NET Web API
+
 by [Mike Wasson](https://github.com/MikeWasson)
 
 When you create a web API, it is often useful to create a help page, so that other developers will know how to call your API. You could create all of the documentation manually, but it is better to autogenerate as much as possible.

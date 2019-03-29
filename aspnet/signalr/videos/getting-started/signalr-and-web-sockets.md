@@ -9,8 +9,8 @@ ms.assetid: d20b4bfc-2cc1-4aeb-b235-733146df1eca
 msc.legacyurl: /signalr/videos/getting-started/signalr-and-web-sockets
 msc.type: video
 ---
-SignalR and Web Sockets
-====================
+# SignalR and Web Sockets
+
 by [Scott Hanselman](https://github.com/shanselman)
 
 [&#9654; Watch video (6 minutes)](https://channel9.msdn.com/Blogs/ASP-NET-Site-Videos/signalr-and-web-sockets)

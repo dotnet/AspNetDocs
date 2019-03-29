@@ -9,8 +9,8 @@ ms.assetid: aa862153-4cd8-4e33-beeb-abf502c6664f
 msc.legacyurl: /web-forms/overview/deployment/deploying-web-applications-in-enterprise-scenarios/enterprise-web-deployment-scenario-overview
 msc.type: authoredcontent
 ---
-Enterprise Web Deployment: Scenario Overview
-====================
+# Enterprise Web Deployment: Scenario Overview
+
 by [Jason Lee](https://github.com/jrjlee)
 
 [Download PDF](https://msdnshared.blob.core.windows.net/media/MSDNBlogsFS/prod.evol.blogs.msdn.com/CommunityServer.Blogs.Components.WeblogFiles/00/00/00/63/56/8130.DeployingWebAppsInEnterpriseScenarios.pdf)

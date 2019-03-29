@@ -9,8 +9,8 @@ ms.assetid: a4a25a75-d71f-4509-98b4-df72e748985a
 msc.legacyurl: /mvc/overview/older-versions-1/models-data/creating-model-classes-with-linq-to-sql-vb
 msc.type: authoredcontent
 ---
-Creating Model Classes with LINQ to SQL (VB)
-====================
+# Creating Model Classes with LINQ to SQL (VB)
+
 by [Microsoft](https://github.com/microsoft)
 
 [Download PDF](http://download.microsoft.com/download/1/1/f/11f721aa-d749-4ed7-bb89-a681b68894e6/ASPNET_MVC_Tutorial_10_VB.pdf)

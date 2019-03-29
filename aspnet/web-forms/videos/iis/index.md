@@ -9,8 +9,8 @@ ms.assetid: 0078ceb6-3447-4ce4-90c2-d0e013ebc000
 msc.legacyurl: /web-forms/videos/iis
 msc.type: chapter
 ---
-General IIS Tips
-====================
+# General IIS Tips
+
 > How to configure IIS to work with ASP.NET applications.
 
 

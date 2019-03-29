@@ -9,8 +9,8 @@ ms.assetid: 26f6a508-5ad4-4551-826d-61e48135943f
 msc.legacyurl: /web-forms/videos/ajax-control-toolkit/control-extenders
 msc.type: video
 ---
-Control Extenders
-====================
+# Control Extenders
+
 by [Joe Stagner](https://github.com/JoeStagner)
 
 Watch this video to understand the difference between Controls and AJAX Control Extenders and how to use those extenders in your applications.

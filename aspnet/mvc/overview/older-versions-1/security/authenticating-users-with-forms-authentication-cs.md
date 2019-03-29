@@ -9,8 +9,8 @@ ms.assetid: 239fd3ca-5630-4b8d-bc4b-2f906b1d3504
 msc.legacyurl: /mvc/overview/older-versions-1/security/authenticating-users-with-forms-authentication-cs
 msc.type: authoredcontent
 ---
-Authenticating Users with Forms Authentication (C#)
-====================
+# Authenticating Users with Forms Authentication (C#)
+
 by [Microsoft](https://github.com/microsoft)
 
 > Learn how to use the [Authorize] attribute to password protect particular pages in your MVC application. You learn how to use the Web Site Administration Tool to create and manage users and roles. You also learn how to configure where user account and role information is stored.

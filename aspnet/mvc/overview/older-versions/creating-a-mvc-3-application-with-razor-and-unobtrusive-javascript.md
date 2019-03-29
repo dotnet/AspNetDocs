@@ -9,8 +9,8 @@ ms.assetid: 658b149b-d770-46bf-8b4b-4e47cca242f3
 msc.legacyurl: /mvc/overview/older-versions/creating-a-mvc-3-application-with-razor-and-unobtrusive-javascript
 msc.type: authoredcontent
 ---
-Creating a MVC 3 Application with Razor and Unobtrusive JavaScript
-====================
+# Creating a MVC 3 Application with Razor and Unobtrusive JavaScript
+
 by [Microsoft](https://github.com/microsoft)
 
 > The User List sample web application demonstrates how simple it is to create ASP.NET MVC 3 applications using the Razor view engine. The sample application shows how to use the new Razor view engine with ASP.NET MVC version 3 and Visual Studio 2010 to create a fictional User List website that includes functionality such as creating, displaying, editing, and deleting users.

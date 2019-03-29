@@ -9,8 +9,8 @@ ms.assetid: 62188875-159b-4d9e-98b7-7fda3fdd5b76
 msc.legacyurl: /web-forms/videos/aspnet-ajax/how-do-i-localize-an-aspnet-ajax-application
 msc.type: video
 ---
-[How Do I:] Localize an ASP.NET AJAX Application?
-====================
+# [How Do I:] Localize an ASP.NET AJAX Application?
+
 by [Chris Pels](https://twitter.com/chrispels)
 
 In this video we start with an overview of the localization capabilities of the standard ASP.NET framework, and then look at the localization features of the ASP.NET AJAX Extensions. We learn how we can localize text, date, and number information on the client based upon the browser's language settings. We also learn how our AJAX application can make use of static and embedded resources back on the server.

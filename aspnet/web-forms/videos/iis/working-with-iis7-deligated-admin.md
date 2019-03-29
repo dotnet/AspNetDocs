@@ -9,8 +9,8 @@ ms.assetid: 7ece1ff3-febd-43c0-9c4f-b5c15c3309f7
 msc.legacyurl: /web-forms/videos/iis/working-with-iis7-deligated-admin
 msc.type: video
 ---
-Working with IIS7 Delegated Admin
-====================
+# Working with IIS7 Delegated Admin
+
 by [Joe Stagner](https://github.com/JoeStagner)
 
 This video introduces the exciting new remote management functionality built for the IIS7 manager. It illustrates both server and client configuration as well as the two authorization options.

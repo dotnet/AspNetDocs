@@ -9,8 +9,8 @@ ms.assetid: baa03541-3f84-4e46-8a2c-2395e64f484d
 msc.legacyurl: /web-forms/videos/migrating
 msc.type: chapter
 ---
-Migrating
-====================
+# Migrating
+
 > Migrating to ASP.NET
 
 

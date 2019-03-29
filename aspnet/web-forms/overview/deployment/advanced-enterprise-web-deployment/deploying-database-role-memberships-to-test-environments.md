@@ -9,8 +9,8 @@ ms.assetid: 9b2af539-7ad9-47aa-b66e-873bd9906e79
 msc.legacyurl: /web-forms/overview/deployment/advanced-enterprise-web-deployment/deploying-database-role-memberships-to-test-environments
 msc.type: authoredcontent
 ---
-Deploying Database Role Memberships to Test Environments
-====================
+# Deploying Database Role Memberships to Test Environments
+
 by [Jason Lee](https://github.com/jrjlee)
 
 [Download PDF](https://msdnshared.blob.core.windows.net/media/MSDNBlogsFS/prod.evol.blogs.msdn.com/CommunityServer.Blogs.Components.WeblogFiles/00/00/00/63/56/8130.DeployingWebAppsInEnterpriseScenarios.pdf)

@@ -9,8 +9,8 @@ ms.assetid: ad8dd396-30f7-4abe-ac02-a0b84422e5be
 msc.legacyurl: /web-forms/overview/data-access/advanced-data-access-scenarios/protecting-connection-strings-and-other-configuration-information-cs
 msc.type: authoredcontent
 ---
-Protecting Connection Strings and Other Configuration Information (C#)
-====================
+# Protecting Connection Strings and Other Configuration Information (C#)
+
 by [Scott Mitchell](https://twitter.com/ScottOnWriting)
 
 [Download Code](http://download.microsoft.com/download/3/9/f/39f92b37-e92e-4ab3-909e-b4ef23d01aa3/ASPNET_Data_Tutorial_73_CS.zip) or [Download PDF](protecting-connection-strings-and-other-configuration-information-cs/_static/datatutorial73cs1.pdf)

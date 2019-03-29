@@ -9,8 +9,8 @@ ms.assetid: f8fd58e2-f932-4f08-ab3d-fbf8ff3295d2
 msc.legacyurl: /web-forms/overview/data-access/editing-and-deleting-data-through-the-datalist/handling-bll-and-dal-level-exceptions-cs
 msc.type: authoredcontent
 ---
-Handling BLL- and DAL-Level Exceptions (C#)
-====================
+# Handling BLL- and DAL-Level Exceptions (C#)
+
 by [Scott Mitchell](https://twitter.com/ScottOnWriting)
 
 [Download Sample App](http://download.microsoft.com/download/9/c/1/9c1d03ee-29ba-4d58-aa1a-f201dcc822ea/ASPNET_Data_Tutorial_38_CS.exe) or [Download PDF](handling-bll-and-dal-level-exceptions-cs/_static/datatutorial38cs1.pdf)

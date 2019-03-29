@@ -9,8 +9,8 @@ ms.assetid: 70f7c0ac-aeb9-4e21-ae05-deb10640b1b3
 msc.legacyurl: /identity/overview/features-api
 msc.type: chapter
 ---
-ASP.NET Identity Features & API
-====================
+# ASP.NET Identity Features & API
+
 > Features & API
 
 

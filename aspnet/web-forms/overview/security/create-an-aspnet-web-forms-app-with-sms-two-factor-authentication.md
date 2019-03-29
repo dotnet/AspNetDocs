@@ -9,8 +9,8 @@ ms.assetid: 716264ae-ab72-45de-bfc5-53a6237089cf
 msc.legacyurl: /web-forms/overview/security/create-an-aspnet-web-forms-app-with-sms-two-factor-authentication
 msc.type: authoredcontent
 ---
-Create an ASP.NET Web Forms app with SMS Two-Factor Authentication (C#)
-====================
+# Create an ASP.NET Web Forms app with SMS Two-Factor Authentication (C#)
+
 by [Erik Reitan](https://github.com/Erikre)
 
 [Download ASP.NET Web Forms App with Email and SMS Two-Factor Authentication](https://code.msdn.microsoft.com/ASPNET-Web-Forms-App-with-5a0ff94e)

@@ -9,8 +9,8 @@ ms.assetid: f117b38e-38b9-4f3c-911b-21c1621a7797
 msc.legacyurl: /ajax/cdn/jquery-datatables/cdnjquerydatatables194
 msc.type: content
 ---
-jQuery DataTables 1.9.4
-====================
+# jQuery DataTables 1.9.4
+
 The following files for the jQuery DataTables plugins are hosted on the CDN:
 
 - https://ajax.aspnetcdn.com/ajax/jquery.dataTables/1.9.4/jquery.dataTables.js

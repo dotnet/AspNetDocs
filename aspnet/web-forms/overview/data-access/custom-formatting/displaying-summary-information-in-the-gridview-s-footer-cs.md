@@ -9,8 +9,8 @@ ms.assetid: d50edc31-9286-4c6a-8635-be09e72752a4
 msc.legacyurl: /web-forms/overview/data-access/custom-formatting/displaying-summary-information-in-the-gridview-s-footer-cs
 msc.type: authoredcontent
 ---
-Displaying Summary Information in the GridView's Footer (C#)
-====================
+# Displaying Summary Information in the GridView's Footer (C#)
+
 by [Scott Mitchell](https://twitter.com/ScottOnWriting)
 
 [Download Sample App](http://download.microsoft.com/download/9/6/9/969e5c94-dfb6-4e47-9570-d6d9e704c3c1/ASPNET_Data_Tutorial_15_CS.exe) or [Download PDF](displaying-summary-information-in-the-gridview-s-footer-cs/_static/datatutorial15cs1.pdf)

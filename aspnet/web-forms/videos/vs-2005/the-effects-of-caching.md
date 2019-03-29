@@ -9,8 +9,8 @@ ms.assetid: 806acc93-7f97-4ba1-92a5-f90146bd51f8
 msc.legacyurl: /web-forms/videos/vs-2005/the-effects-of-caching
 msc.type: video
 ---
-The Effects of Caching
-====================
+# The Effects of Caching
+
 by Eric Lee
 
 Nearly every Web application today needs to access data from a database, but this common operation can have a real impact on the overall performance of the application. This video illustrates how Visual Studio Team System can help you identify whether your application is making redundant calls to the database, and then demonstrates how you can employ ASP.NET 2.0 DataSource caching functionality to eliminate the redundant calls.

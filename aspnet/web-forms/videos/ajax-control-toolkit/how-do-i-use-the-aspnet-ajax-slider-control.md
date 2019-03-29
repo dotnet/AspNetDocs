@@ -9,8 +9,8 @@ ms.assetid: 958e1bc8-65a8-4fe0-ad2d-f98691d5fdf1
 msc.legacyurl: /web-forms/videos/ajax-control-toolkit/how-do-i-use-the-aspnet-ajax-slider-control
 msc.type: video
 ---
-[How Do I:] Use the ASP.NET AJAX Slider Control?
-====================
+# [How Do I:] Use the ASP.NET AJAX Slider Control?
+
 by [Joe Stagner](https://github.com/JoeStagner)
 
 The Slider control from the ASP.NET AJAX Control Toolkit provides a simple and elegant way for the user to select a numeric value. This video shows how to add a Slider control to your Web page and how to configure its orientation, range of values, and size of increments.

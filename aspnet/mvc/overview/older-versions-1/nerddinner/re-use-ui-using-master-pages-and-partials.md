@@ -9,8 +9,8 @@ ms.assetid: d4243a4a-e91c-4116-9ae0-5c08e5285677
 msc.legacyurl: /mvc/overview/older-versions-1/nerddinner/re-use-ui-using-master-pages-and-partials
 msc.type: authoredcontent
 ---
-Re-use UI Using Master Pages and Partials
-====================
+# Re-use UI Using Master Pages and Partials
+
 by [Microsoft](https://github.com/microsoft)
 
 [Download PDF](http://aspnetmvcbook.s3.amazonaws.com/aspnetmvc-nerdinner_v1.pdf)

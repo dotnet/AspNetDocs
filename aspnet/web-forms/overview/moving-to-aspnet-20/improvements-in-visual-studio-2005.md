@@ -9,8 +9,8 @@ ms.assetid: 72d90cd0-b3d9-454c-b2eb-ed0d9812f32c
 msc.legacyurl: /web-forms/overview/moving-to-aspnet-20/improvements-in-visual-studio-2005
 msc.type: authoredcontent
 ---
-Improvements in Visual Studio 2005
-====================
+# Improvements in Visual Studio 2005
+
 by [Microsoft](https://github.com/microsoft)
 
 > Visual Studio 2005 provides Web application developers with a long list of improvements and enhancements to Web projects.

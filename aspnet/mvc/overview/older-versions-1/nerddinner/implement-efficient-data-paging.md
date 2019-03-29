@@ -9,8 +9,8 @@ ms.assetid: adea836d-dbc2-4005-94ea-53aef09e9e34
 msc.legacyurl: /mvc/overview/older-versions-1/nerddinner/implement-efficient-data-paging
 msc.type: authoredcontent
 ---
-Implement Efficient Data Paging
-====================
+# Implement Efficient Data Paging
+
 by [Microsoft](https://github.com/microsoft)
 
 [Download PDF](http://aspnetmvcbook.s3.amazonaws.com/aspnetmvc-nerdinner_v1.pdf)

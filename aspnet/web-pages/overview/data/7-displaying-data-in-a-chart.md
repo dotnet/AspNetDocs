@@ -9,8 +9,8 @@ ms.assetid: f889fd46-4dac-4ecb-83d8-60e64c22036e
 msc.legacyurl: /web-pages/overview/data/7-displaying-data-in-a-chart
 msc.type: authoredcontent
 ---
-Displaying Data in a Chart with ASP.NET Web Pages (Razor)
-====================
+# Displaying Data in a Chart with ASP.NET Web Pages (Razor)
+
 by [Microsoft](https://github.com/microsoft)
 
 > This article explains how to use a chart to display data in an ASP.NET Web Pages (Razor) website by using the `Chart` helper.

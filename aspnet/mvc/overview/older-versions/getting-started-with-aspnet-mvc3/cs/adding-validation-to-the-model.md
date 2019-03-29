@@ -9,8 +9,8 @@ ms.assetid: 9af927e2-1c3b-43d9-917d-1df75be3c482
 msc.legacyurl: /mvc/overview/older-versions/getting-started-with-aspnet-mvc3/cs/adding-validation-to-the-model
 msc.type: authoredcontent
 ---
-Adding Validation to the Model (C#)
-====================
+# Adding Validation to the Model (C#)
+
 by [Rick Anderson]((https://twitter.com/RickAndMSFT))
 
 > > [!NOTE]

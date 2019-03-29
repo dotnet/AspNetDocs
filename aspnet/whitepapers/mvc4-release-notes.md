@@ -9,8 +9,8 @@ ms.assetid: f014524f-25c0-4094-b8e1-886d99536f00
 msc.legacyurl: /whitepapers/mvc4-release-notes
 msc.type: content
 ---
-ASP.NET MVC 4
-====================
+# ASP.NET MVC 4
+
 > This document describes the release of ASP.NET MVC 4 .
 
 

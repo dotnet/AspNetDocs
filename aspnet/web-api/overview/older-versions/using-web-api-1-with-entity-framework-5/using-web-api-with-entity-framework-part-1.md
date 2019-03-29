@@ -9,8 +9,8 @@ ms.assetid: 94421d86-68c4-4471-bf5f-82d654a17252
 msc.legacyurl: /web-api/overview/older-versions/using-web-api-1-with-entity-framework-5/using-web-api-with-entity-framework-part-1
 msc.type: authoredcontent
 ---
-Part 1: Overview and Creating the Project
-====================
+# Part 1: Overview and Creating the Project
+
 by [Mike Wasson](https://github.com/MikeWasson)
 
 [Download Completed Project](http://code.msdn.microsoft.com/ASP-NET-Web-API-with-afa30545)

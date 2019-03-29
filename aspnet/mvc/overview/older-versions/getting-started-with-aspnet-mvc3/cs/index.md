@@ -9,8 +9,8 @@ ms.assetid: 807b50ae-2e7c-450c-b559-e04bd56457bd
 msc.legacyurl: /mvc/overview/older-versions/getting-started-with-aspnet-mvc3/cs
 msc.type: chapter
 ---
-Getting Started with ASP.NET MVC 3 (C#)
-====================
+# Getting Started with ASP.NET MVC 3 (C#)
+
 > The basics of building an ASP.NET MVC Web application using Microsoft Visual Web Developer 2010 Express using C#.
 
 

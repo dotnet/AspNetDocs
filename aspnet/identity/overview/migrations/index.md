@@ -9,8 +9,8 @@ ms.assetid: 4a54fee1-d064-4d67-837a-87143a9205fd
 msc.legacyurl: /identity/overview/migrations
 msc.type: chapter
 ---
-Migrating to ASP.NET Identity
-====================
+# Migrating to ASP.NET Identity
+
 > Migration to ASP.NET Identity from other membership providers
 
 

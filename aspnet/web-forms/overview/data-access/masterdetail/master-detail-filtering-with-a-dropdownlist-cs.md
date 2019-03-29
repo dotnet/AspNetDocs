@@ -9,8 +9,8 @@ ms.assetid: 53e659cc-eefb-40c1-a1dc-559481c99443
 msc.legacyurl: /web-forms/overview/data-access/masterdetail/master-detail-filtering-with-a-dropdownlist-cs
 msc.type: authoredcontent
 ---
-Master/Detail Filtering With a DropDownList (C#)
-====================
+# Master/Detail Filtering With a DropDownList (C#)
+
 by [Scott Mitchell](https://twitter.com/ScottOnWriting)
 
 [Download Sample App](http://download.microsoft.com/download/4/6/3/463cf87c-4724-4cbc-b7b5-3f866f43ba50/ASPNET_Data_Tutorial_7_CS.exe) or [Download PDF](master-detail-filtering-with-a-dropdownlist-cs/_static/datatutorial07cs1.pdf)

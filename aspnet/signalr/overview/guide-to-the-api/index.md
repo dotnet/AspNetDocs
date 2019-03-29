@@ -9,8 +9,8 @@ ms.assetid: af69e8d2-efdd-4d0b-9bbc-95353a65c0db
 msc.legacyurl: /signalr/overview/guide-to-the-api
 msc.type: chapter
 ---
-SignalR Guide to the API
-====================
+# SignalR Guide to the API
+
 > Documentation on how to use the SignalR Hubs API. For authorization API, see the Security tab.
 
 

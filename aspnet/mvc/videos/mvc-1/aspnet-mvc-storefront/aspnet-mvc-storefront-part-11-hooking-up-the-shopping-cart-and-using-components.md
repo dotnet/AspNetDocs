@@ -9,8 +9,8 @@ ms.assetid: 25cc35b4-601e-448b-abf1-bc253b30d232
 msc.legacyurl: /mvc/videos/mvc-1/aspnet-mvc-storefront/aspnet-mvc-storefront-part-11-hooking-up-the-shopping-cart-and-using-components
 msc.type: video
 ---
-ASP.NET MVC Storefront Part 11: Hooking Up The Shopping Cart and Using Components
-====================
+# ASP.NET MVC Storefront Part 11: Hooking Up The Shopping Cart and Using Components
+
 by [Rob Conery](https://github.com/robconery)
 
 In this episode I hook the site up to the shopping cart and run some tests on my Controllers. I also build a Component with a little-known feature of MVC, the System.Web.MVC.ComponentController.

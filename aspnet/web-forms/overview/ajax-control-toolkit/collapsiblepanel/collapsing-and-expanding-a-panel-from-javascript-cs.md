@@ -9,8 +9,8 @@ ms.assetid: de5500be-75e5-461a-8064-b70ae52ea6a4
 msc.legacyurl: /web-forms/overview/ajax-control-toolkit/collapsiblepanel/collapsing-and-expanding-a-panel-from-javascript-cs
 msc.type: authoredcontent
 ---
-Collapsing and Expanding a Panel from JavaScript (C#)
-====================
+# Collapsing and Expanding a Panel from JavaScript (C#)
+
 by [Christian Wenz](https://github.com/wenz)
 
 [Download Code](http://download.microsoft.com/download/8/a/a/8aab3c3e-de6f-463f-805c-5fda567eef6e/CollapsiblePanel1.cs.zip) or [Download PDF](http://download.microsoft.com/download/b/6/a/b6ae89ee-df69-4c87-9bfb-ad1eb2b23373/collapsiblepanel1CS.pdf)

@@ -9,8 +9,8 @@ ms.assetid: ce798572-e7dc-44c1-a7fe-a029820e195e
 msc.legacyurl: /web-pages/overview/performance-and-traffic
 msc.type: chapter
 ---
-Performance
-====================
+# Performance
+
 > How to cache content for faster performance and how to measure site traffic.
 
 

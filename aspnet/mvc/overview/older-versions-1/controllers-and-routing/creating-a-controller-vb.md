@@ -9,8 +9,8 @@ ms.assetid: 204b7e86-f560-4611-8adb-785b33e777b9
 msc.legacyurl: /mvc/overview/older-versions-1/controllers-and-routing/creating-a-controller-vb
 msc.type: authoredcontent
 ---
-Creating a Controller (VB)
-====================
+# Creating a Controller (VB)
+
 by [Stephen Walther](https://github.com/StephenWalther)
 
 > In this tutorial, Stephen Walther demonstrates how you can add a controller to an ASP.NET MVC application.

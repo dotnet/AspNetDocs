@@ -9,8 +9,8 @@ ms.assetid: a22201df-c031-4505-b3bf-9a0a9667d62b
 msc.legacyurl: /web-forms/videos/aspnet-dynamic-data/enable-in-line-editing-in-aspnet-dynamic-data-applications
 msc.type: video
 ---
-Enable In-Line Editing in ASP.NET Dynamic Data Applications
-====================
+# Enable In-Line Editing in ASP.NET Dynamic Data Applications
+
 by [Joe Stagner](https://github.com/JoeStagner)
 
 This video will demonstrate using URL Routing to enable In-Line editing in your ASP.NET Dynamic Data Application.

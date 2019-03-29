@@ -9,8 +9,8 @@ ms.assetid: d0b8ff04-70e0-4453-a331-a4a4f57d72a8
 msc.legacyurl: /web-forms/overview/getting-started/hands-on-labs
 msc.type: chapter
 ---
-Visual Studio 2012 Hands On Labs
-====================
+# Visual Studio 2012 Hands On Labs
+
 > Learn how to develop with ASP.NET Web Forms with these Hands On Labs
 
 

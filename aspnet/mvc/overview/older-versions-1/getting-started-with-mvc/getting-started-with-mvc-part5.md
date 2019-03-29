@@ -9,8 +9,8 @@ ms.assetid: 004703cd-e0e9-4ba7-9974-1b0475c71222
 msc.legacyurl: /mvc/overview/older-versions-1/getting-started-with-mvc/getting-started-with-mvc-part5
 msc.type: authoredcontent
 ---
-Accessing your Model's Data from a Controller
-====================
+# Accessing your Model's Data from a Controller
+
 by [Scott Hanselman](https://github.com/shanselman)
 
 > This is a beginner tutorial that introduces the basics of ASP.NET MVC. You'll create a simple web application that reads and writes from a database. Visit the [ASP.NET MVC learning center](../../../index.md) to find other ASP.NET MVC tutorials and samples.

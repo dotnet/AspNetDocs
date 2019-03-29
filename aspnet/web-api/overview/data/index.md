@@ -9,8 +9,8 @@ ms.assetid: 995cbe38-7dbd-4c36-a5d0-a761944c7636
 msc.legacyurl: /web-api/overview/data
 msc.type: chapter
 ---
-Working with Data in ASP.NET Web API
-====================
+# Working with Data in ASP.NET Web API
+
 > How to program CRUD (create, read, update, delete) operations in Web API.
 
 

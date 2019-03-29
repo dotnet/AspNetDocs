@@ -9,8 +9,8 @@ ms.assetid: 1bcf9a1c-ed34-4ed0-ab91-253df08fc6ff
 msc.legacyurl: /web-forms/videos/vs-2005
 msc.type: chapter
 ---
-Visual Studio 2005
-====================
+# Visual Studio 2005
+
 > How to work with Visual Studio 2005, Team System, and add-ins to perform testing, deployment, and other tasks.
 
 

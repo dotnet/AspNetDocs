@@ -9,8 +9,8 @@ ms.assetid: 3fd9f11c-799b-4001-bd60-1e70cfc61c19
 msc.legacyurl: /signalr/overview/older-versions/scaleout-in-signalr
 msc.type: authoredcontent
 ---
-Introduction to Scaleout in SignalR 1.x
-====================
+# Introduction to Scaleout in SignalR 1.x
+
 by [Mike Wasson](https://github.com/MikeWasson), [Patrick Fletcher](https://github.com/pfletcher)
 
 [!INCLUDE [Consider ASP.NET Core SignalR](~/includes/signalr/signalr-version-disambiguation.md)]

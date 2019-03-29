@@ -9,8 +9,8 @@ ms.assetid: f6c9fc19-a2b8-48b6-aef5-68a7239435c4
 msc.legacyurl: /mvc/videos/mvc-2/how-do-i/aspnet-mvc-controller-overview
 msc.type: video
 ---
-ASP.NET MVC Controller Overview
-====================
+# ASP.NET MVC Controller Overview
+
 by [Stephen Walther](https://github.com/StephenWalther)
 
 In this video, Stephen Walther introduces you to ASP.NET MVC controllers and controller actions. You learn how to return different types of action results.

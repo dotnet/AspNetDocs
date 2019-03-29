@@ -9,8 +9,8 @@ ms.assetid: f8400241-4f4b-4bbd-9994-54fb64909e6e
 msc.legacyurl: /web-forms/overview/deployment/configuring-team-foundation-server-for-web-deployment/configuring-a-tfs-build-server-for-web-deployment
 msc.type: authoredcontent
 ---
-Configuring a TFS Build Server for Web Deployment
-====================
+# Configuring a TFS Build Server for Web Deployment
+
 by [Jason Lee](https://github.com/jrjlee)
 
 [Download PDF](https://msdnshared.blob.core.windows.net/media/MSDNBlogsFS/prod.evol.blogs.msdn.com/CommunityServer.Blogs.Components.WeblogFiles/00/00/00/63/56/8130.DeployingWebAppsInEnterpriseScenarios.pdf)

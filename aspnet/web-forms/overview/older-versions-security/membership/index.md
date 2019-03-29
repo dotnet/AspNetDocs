@@ -9,8 +9,8 @@ ms.assetid: 96fc5552-05cd-4547-909f-9bb3176e44d6
 msc.legacyurl: /web-forms/overview/older-versions-security/membership
 msc.type: chapter
 ---
-ASP.NET 3.5 - Membership
-====================
+# ASP.NET 3.5 - Membership
+
 > This tutorial series examines techniques for using the built-in membership (security) system to create user accounts and configure authorization rules.
 
 

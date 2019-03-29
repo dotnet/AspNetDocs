@@ -9,8 +9,8 @@ ms.assetid: 4eabc535-b8a1-43f5-bb99-cfeb86db0fca
 msc.legacyurl: /mvc/overview/older-versions-1/models-data/validating-with-a-service-layer-cs
 msc.type: authoredcontent
 ---
-Validating with a Service Layer (C#)
-====================
+# Validating with a Service Layer (C#)
+
 by [Stephen Walther](https://github.com/StephenWalther)
 
 > Learn how to move your validation logic out of your controller actions and into a separate service layer. In this tutorial, Stephen Walther explains how you can maintain a sharp separation of concerns by isolating your service layer from your controller layer.

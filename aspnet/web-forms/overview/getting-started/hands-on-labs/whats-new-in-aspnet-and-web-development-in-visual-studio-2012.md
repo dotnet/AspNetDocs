@@ -9,8 +9,8 @@ ms.assetid: 6d40d276-1642-4a77-b6c9-02ac914f6805
 msc.legacyurl: /web-forms/overview/getting-started/hands-on-labs/whats-new-in-aspnet-and-web-development-in-visual-studio-2012
 msc.type: authoredcontent
 ---
-What's New in ASP.NET and Web Development in Visual Studio 2012
-====================
+# What's New in ASP.NET and Web Development in Visual Studio 2012
+
 by [Web Camps Team](https://twitter.com/webcamps)
 
 > The new version of Visual Studio introduces a number of enhancements focused on improving the experience and performance when working with Web technologies. Visual Studio Editors for CSS, JavaScript and HTML have been completely revamped to include many of the most in-demand code aids, such as IntelliSense and automatic indentation. Regarding performance, bundling and minification are now integrated as built-in features to easily reduce page load time.

@@ -9,8 +9,8 @@ ms.assetid: 1b87d8d6-b3f7-4126-b51c-d41442fbf947
 msc.legacyurl: /web-forms/overview/ajax-control-toolkit/animation/animation-depending-on-a-condition-vb
 msc.type: authoredcontent
 ---
-Animation Depending On a Condition (VB)
-====================
+# Animation Depending On a Condition (VB)
+
 by [Christian Wenz](https://github.com/wenz)
 
 [Download Code](http://download.microsoft.com/download/f/9/a/f9a26acd-8df4-4484-8a18-199e4598f411/Animation4.vb.zip) or [Download PDF](http://download.microsoft.com/download/6/7/1/6718d452-ff89-4d3f-a90e-c74ec2d636a3/animation4VB.pdf)

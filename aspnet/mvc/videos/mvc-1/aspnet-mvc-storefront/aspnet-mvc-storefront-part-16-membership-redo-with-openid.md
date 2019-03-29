@@ -9,8 +9,8 @@ ms.assetid: afc038e6-555e-4dfa-ae45-f4d3d50e8f96
 msc.legacyurl: /mvc/videos/mvc-1/aspnet-mvc-storefront/aspnet-mvc-storefront-part-16-membership-redo-with-openid
 msc.type: video
 ---
-ASP.NET MVC Storefront Part 16: Membership Redo With OpenID
-====================
+# ASP.NET MVC Storefront Part 16: Membership Redo With OpenID
+
 by [Rob Conery](https://github.com/robconery)
 
 Rob changes the Membership system and splits it out into three separate services/parts. Rob then sits with Jon Galloway to talk about OpenID and how to implement.

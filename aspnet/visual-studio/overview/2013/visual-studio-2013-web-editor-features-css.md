@@ -9,8 +9,8 @@ ms.assetid: a872d111-d4ea-4cfd-8ab6-314c4e12301c
 msc.legacyurl: /visual-studio/overview/2013/visual-studio-2013-web-editor-features-css
 msc.type: video
 ---
-Visual Studio 2013 Web Editor Features - CSS
-====================
+# Visual Studio 2013 Web Editor Features - CSS
+
 by [Scott Hanselman](https://github.com/shanselman)
 
 Scott Hanselman demonstrates CSS editing features in Visual Studio 2013 and the Visual Studio Web Essentials extension.

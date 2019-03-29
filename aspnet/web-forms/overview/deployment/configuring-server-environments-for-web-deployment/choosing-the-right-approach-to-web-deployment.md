@@ -9,8 +9,8 @@ ms.assetid: 787a53fd-9901-4a11-9d58-61e0509cda45
 msc.legacyurl: /web-forms/overview/deployment/configuring-server-environments-for-web-deployment/choosing-the-right-approach-to-web-deployment
 msc.type: authoredcontent
 ---
-Choosing the Right Approach to Web Deployment
-====================
+# Choosing the Right Approach to Web Deployment
+
 by [Jason Lee](https://github.com/jrjlee)
 
 [Download PDF](https://msdnshared.blob.core.windows.net/media/MSDNBlogsFS/prod.evol.blogs.msdn.com/CommunityServer.Blogs.Components.WeblogFiles/00/00/00/63/56/8130.DeployingWebAppsInEnterpriseScenarios.pdf)

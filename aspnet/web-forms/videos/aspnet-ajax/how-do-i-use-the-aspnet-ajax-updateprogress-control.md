@@ -9,8 +9,8 @@ ms.assetid: fadc5c5a-e481-4472-b339-715cc036dc4e
 msc.legacyurl: /web-forms/videos/aspnet-ajax/how-do-i-use-the-aspnet-ajax-updateprogress-control
 msc.type: video
 ---
-[How Do I:] Use the ASP.NET AJAX UpdateProgress Control?
-====================
+# [How Do I:] Use the ASP.NET AJAX UpdateProgress Control?
+
 by [Joe Stagner](https://github.com/JoeStagner)
 
 In an AJAX application there is often a noticeable pause between the time the browser makes a network request and the time the browser receives a response. To let the user know that the network conversation is taking place, the ASP.NET AJAX UpdateProgress control provides immediate feedback by displaying an animated image, 'loading' text, or other HTML that disappears once the network response is received.

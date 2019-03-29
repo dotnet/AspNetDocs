@@ -9,8 +9,8 @@ ms.assetid: 75b5c1cf-84bd-434f-8a86-85c568eb5b09
 msc.legacyurl: /web-pages/overview/getting-started/introducing-aspnet-web-pages-2/deleting-data
 msc.type: authoredcontent
 ---
-Introducing ASP.NET Web Pages - Deleting Database Data
-====================
+# Introducing ASP.NET Web Pages - Deleting Database Data
+
 by [Tom FitzMacken](https://github.com/tfitzmac)
 
 > This tutorial shows you how to delete an individual database entry. It assumes you have completed the series through [Updating Database Data in ASP.NET Web Pages](updating-data.md).

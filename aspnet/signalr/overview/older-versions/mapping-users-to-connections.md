@@ -9,8 +9,8 @@ ms.assetid: ebbc93a8-e6c4-4122-8e0d-3aa42293c747
 msc.legacyurl: /signalr/overview/older-versions/mapping-users-to-connections
 msc.type: authoredcontent
 ---
-Mapping SignalR Users to Connections in SignalR 1.x
-====================
+# Mapping SignalR Users to Connections in SignalR 1.x
+
 by [Patrick Fletcher](https://github.com/pfletcher), [Tom FitzMacken](https://github.com/tfitzmac)
 
 [!INCLUDE [Consider ASP.NET Core SignalR](~/includes/signalr/signalr-version-disambiguation.md)]

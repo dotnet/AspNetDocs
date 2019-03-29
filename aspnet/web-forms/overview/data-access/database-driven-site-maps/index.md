@@ -9,8 +9,8 @@ ms.assetid: c31f540a-0117-4bf2-9235-eb32a3e23529
 msc.legacyurl: /web-forms/overview/data-access/database-driven-site-maps
 msc.type: chapter
 ---
-Database-Driven Site Maps
-====================
+# Database-Driven Site Maps
+
 > This tutorial explains how to build a site map dynamically based on information in the database.
 
 

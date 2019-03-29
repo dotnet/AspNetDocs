@@ -9,8 +9,8 @@ ms.assetid: 361d6a44-3f1f-4daf-85df-d4c2b8bf065d
 msc.legacyurl: /web-forms/overview/data-access/masterdetail/master-detail-filtering-across-two-pages-vb
 msc.type: authoredcontent
 ---
-Master/Detail Filtering Across Two Pages (VB)
-====================
+# Master/Detail Filtering Across Two Pages (VB)
+
 by [Scott Mitchell](https://twitter.com/ScottOnWriting)
 
 [Download Sample App](http://download.microsoft.com/download/5/d/7/5d7571fc-d0b7-4798-ad4a-c976c02363ce/ASPNET_Data_Tutorial_9_VB.exe) or [Download PDF](master-detail-filtering-across-two-pages-vb/_static/datatutorial09vb1.pdf)

@@ -9,8 +9,8 @@ ms.assetid: 090e9205-52f3-4d72-ae31-44775b8b8421
 msc.legacyurl: /web-forms/overview/older-versions-getting-started/deploying-web-site-projects/core-differences-between-iis-and-the-asp-net-development-server-vb
 msc.type: authoredcontent
 ---
-Core Differences Between IIS and the ASP.NET Development Server (VB)
-====================
+# Core Differences Between IIS and the ASP.NET Development Server (VB)
+
 by [Scott Mitchell](https://twitter.com/ScottOnWriting)
 
 [Download Code](http://download.microsoft.com/download/4/5/F/45F815EC-8B0E-46D3-9FB8-2DC015CCA306/ASPNET_Hosting_Tutorial_06_VB.zip) or [Download PDF](http://download.microsoft.com/download/E/8/9/E8920AE6-D441-41A7-8A77-9EF8FF970D8B/aspnet_tutorial06_WebServerDiff_vb.pdf)

@@ -9,8 +9,8 @@ ms.assetid: 282a521f-2b86-4fac-bcf6-b6d5e0fe969c
 msc.legacyurl: /signalr
 msc.type: categoryindex
 ---
-SignalR
-====================
+# SignalR
+
 - [Guidance](overview/index.md)
 
     - [Getting Started](overview/getting-started/index.md)

@@ -9,8 +9,8 @@ ms.assetid: 1d266bf0-a61e-423b-a3d2-13773d7dafe2
 msc.legacyurl: /mvc/overview/older-versions/getting-started-with-aspnet-mvc3/cs/examining-the-edit-methods-and-edit-view
 msc.type: authoredcontent
 ---
-Examining the Edit Methods and Edit View (C#)
-====================
+# Examining the Edit Methods and Edit View (C#)
+
 by [Rick Anderson]((https://twitter.com/RickAndMSFT))
 
 > > [!NOTE]

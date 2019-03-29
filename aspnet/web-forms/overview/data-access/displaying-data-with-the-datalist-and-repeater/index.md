@@ -9,8 +9,8 @@ ms.assetid: 3005174a-ba3d-4937-8b3e-b913ee4172ac
 msc.legacyurl: /web-forms/overview/data-access/displaying-data-with-the-datalist-and-repeater
 msc.type: chapter
 ---
-Displaying Data with the DataList and Repeater
-====================
+# Displaying Data with the DataList and Repeater
+
 > These tutorials show alternative ways to display data by using the DataList and Repeater controls.
 
 

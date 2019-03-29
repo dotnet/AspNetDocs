@@ -9,8 +9,8 @@ ms.assetid: f731990a-0a81-4d62-81df-87d676cdedd6
 msc.legacyurl: /mvc/overview/older-versions-1/nerddinner/use-ajax-to-implement-mapping-scenarios
 msc.type: authoredcontent
 ---
-Use AJAX to Implement Mapping Scenarios
-====================
+# Use AJAX to Implement Mapping Scenarios
+
 by [Microsoft](https://github.com/microsoft)
 
 [Download PDF](http://aspnetmvcbook.s3.amazonaws.com/aspnetmvc-nerdinner_v1.pdf)

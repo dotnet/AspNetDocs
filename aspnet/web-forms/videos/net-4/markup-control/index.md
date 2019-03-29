@@ -9,8 +9,8 @@ ms.assetid: 36667bfc-90ba-4c37-8c1c-65b6642e6d47
 msc.legacyurl: /web-forms/videos/net-4/markup-control
 msc.type: chapter
 ---
-Markup Control
-====================
+# Markup Control
+
 > This video series demonstrates improvements to controls for Web Forms pages in ASP.NET 4.
 
 

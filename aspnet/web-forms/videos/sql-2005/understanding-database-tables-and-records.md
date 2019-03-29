@@ -9,8 +9,8 @@ ms.assetid: 9ebe8ebc-eae6-41c1-83a6-38410b610331
 msc.legacyurl: /web-forms/videos/sql-2005/understanding-database-tables-and-records
 msc.type: video
 ---
-Understanding Database Tables and Records
-====================
+# Understanding Database Tables and Records
+
 by [Microsoft](https://github.com/microsoft)
 
 SQL Server beginners will learn about tables and definitions of data types, properties, keys, etc. in this second video. Find out how table rows, columns, and fields interrelate and whether columns can be empty.

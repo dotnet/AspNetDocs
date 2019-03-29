@@ -9,8 +9,8 @@ ms.assetid: 35798f21-1606-434b-83f8-30166906ef49
 msc.legacyurl: /web-forms/overview/data-access/working-with-binary-files/updating-and-deleting-existing-binary-data-cs
 msc.type: authoredcontent
 ---
-Updating and Deleting Existing Binary Data (C#)
-====================
+# Updating and Deleting Existing Binary Data (C#)
+
 by [Scott Mitchell](https://twitter.com/ScottOnWriting)
 
 [Download Sample App](http://download.microsoft.com/download/4/a/7/4a7a3b18-d80e-4014-8e53-a6a2427f0d93/ASPNET_Data_Tutorial_57_CS.exe) or [Download PDF](updating-and-deleting-existing-binary-data-cs/_static/datatutorial57cs1.pdf)

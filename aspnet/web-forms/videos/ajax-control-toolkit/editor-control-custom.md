@@ -9,8 +9,8 @@ ms.assetid: c688f8c3-0d0d-4ff2-a32b-f93e05fc826b
 msc.legacyurl: /web-forms/videos/ajax-control-toolkit/editor-control-custom
 msc.type: video
 ---
-Editor Control Custom
-====================
+# Editor Control Custom
+
 by [Joe Stagner](https://github.com/JoeStagner)
 
 In this video Joe demonstrates how to create a new class, derived from the AJAX Control Toolkit's Editor control and implementing a "simple" user.

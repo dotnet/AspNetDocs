@@ -9,8 +9,8 @@ ms.assetid: 1e4c2eb4-b6cf-42ff-8a65-4d71ddca0394
 msc.legacyurl: /web-api/overview/odata-support-in-aspnet-web-api/odata-v3/working-with-entity-relations
 msc.type: authoredcontent
 ---
-Supporting Entity Relations in OData v3 with Web API 2
-====================
+# Supporting Entity Relations in OData v3 with Web API 2
+
 by [Mike Wasson](https://github.com/MikeWasson)
 
 [Download Completed Project](http://code.msdn.microsoft.com/ASPNET-Web-API-OData-cecdb524)

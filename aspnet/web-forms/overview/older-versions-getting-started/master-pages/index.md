@@ -9,8 +9,8 @@ ms.assetid: bc30f0ec-cf8f-4a33-9eee-513be872ac9c
 msc.legacyurl: /web-forms/overview/older-versions-getting-started/master-pages
 msc.type: chapter
 ---
-ASP.NET 3.5 - Web Forms Master Pages
-====================
+# ASP.NET 3.5 - Web Forms Master Pages
+
 > How to create and use ASP.NET master pages and content pages to create a consistent layout in Web Forms applications.
 
 

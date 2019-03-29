@@ -9,8 +9,8 @@ ms.assetid: 8d424d7b-5206-4790-a068-36d01c05ceb0
 msc.legacyurl: /web-forms/videos/aspnet-35/visual-studio-editor
 msc.type: chapter
 ---
-Visual Studio Editor
-====================
+# Visual Studio Editor
+
 > This video series shows you new features of the Visual Studio 2008 editor, including enhanced support for JavaScript and CSS.
 
 

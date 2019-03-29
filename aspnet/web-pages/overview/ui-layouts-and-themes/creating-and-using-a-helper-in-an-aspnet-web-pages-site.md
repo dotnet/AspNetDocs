@@ -9,8 +9,8 @@ ms.assetid: 46bff772-01e0-40f0-9ae6-9e18c5442ee6
 msc.legacyurl: /web-pages/overview/ui-layouts-and-themes/creating-and-using-a-helper-in-an-aspnet-web-pages-site
 msc.type: authoredcontent
 ---
-Creating and Using a Helper in an ASP.NET Web Pages (Razor) Site
-====================
+# Creating and Using a Helper in an ASP.NET Web Pages (Razor) Site
+
 by [Tom FitzMacken](https://github.com/tfitzmac)
 
 > This article describes how to create a helper in an ASP.NET Web Pages (Razor) website. A *helper* is a reusable component that includes code and markup to perform a task that might be tedious or complex.

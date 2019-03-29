@@ -9,8 +9,8 @@ ms.assetid: 969fb28f-2bff-4fc4-b24a-27f5e2534a37
 msc.legacyurl: /web-forms/overview/ajax-control-toolkit/rating/creating-a-rating-control-cs
 msc.type: authoredcontent
 ---
-Creating a Rating Control (C#)
-====================
+# Creating a Rating Control (C#)
+
 by [Christian Wenz](https://github.com/wenz)
 
 [Download Code](http://download.microsoft.com/download/9/3/f/93f8daea-bebd-4821-833b-95205389c7d0/rating0.cs.zip) or [Download PDF](http://download.microsoft.com/download/2/d/c/2dc10e34-6983-41d4-9c08-f78f5387d32b/rating0CS.pdf)

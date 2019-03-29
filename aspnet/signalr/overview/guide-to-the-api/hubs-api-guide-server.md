@@ -9,8 +9,8 @@ ms.assetid: b19913e5-cd8a-4e4b-a872-5ac7a858a934
 msc.legacyurl: /signalr/overview/guide-to-the-api/hubs-api-guide-server
 msc.type: authoredcontent
 ---
-ASP.NET SignalR Hubs API Guide - Server (C#)
-====================
+# ASP.NET SignalR Hubs API Guide - Server (C#)
+
 by [Patrick Fletcher](https://github.com/pfletcher), [Tom Dykstra](https://github.com/tdykstra)
 
 [!INCLUDE [Consider ASP.NET Core SignalR](~/includes/signalr/signalr-version-disambiguation.md)]

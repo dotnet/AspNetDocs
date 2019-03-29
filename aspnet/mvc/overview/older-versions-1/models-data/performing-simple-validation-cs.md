@@ -9,8 +9,8 @@ ms.assetid: 21383c9d-6aea-4bad-a99b-b5f2c9d6503f
 msc.legacyurl: /mvc/overview/older-versions-1/models-data/performing-simple-validation-cs
 msc.type: authoredcontent
 ---
-Performing Simple Validation (C#)
-====================
+# Performing Simple Validation (C#)
+
 by [Stephen Walther](https://github.com/StephenWalther)
 
 > Learn how to perform validation in an ASP.NET MVC application. In this tutorial, Stephen Walther introduces you to model state and the validation HTML helpers.

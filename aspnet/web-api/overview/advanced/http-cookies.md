@@ -9,8 +9,8 @@ ms.assetid: 243db2ec-8f67-4a5e-a382-4ddcec4b4164
 msc.legacyurl: /web-api/overview/advanced/http-cookies
 msc.type: authoredcontent
 ---
-HTTP Cookies in ASP.NET Web API
-====================
+# HTTP Cookies in ASP.NET Web API
+
 by [Mike Wasson](https://github.com/MikeWasson)
 
 This topic describes how to send and receive HTTP cookies in Web API.

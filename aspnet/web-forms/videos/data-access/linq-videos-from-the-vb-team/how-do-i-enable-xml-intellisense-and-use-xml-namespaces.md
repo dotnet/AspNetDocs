@@ -9,8 +9,8 @@ ms.assetid: cdccd601-c0fe-4e56-9c38-7ef027de3481
 msc.legacyurl: /web-forms/videos/data-access/linq-videos-from-the-vb-team/how-do-i-enable-xml-intellisense-and-use-xml-namespaces
 msc.type: video
 ---
-[How Do I:] Enable XML IntelliSense and Use XML Namespaces?
-====================
+# [How Do I:] Enable XML IntelliSense and Use XML Namespaces?
+
 by [Beth Massi](https://github.com/bethmassi)
 
 Visual Basic developers will learn how to enable XML IntelliSense using schemas and how XML namespaces are used when querying and creating XML documents.

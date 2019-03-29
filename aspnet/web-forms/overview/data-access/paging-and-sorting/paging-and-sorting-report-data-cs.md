@@ -9,8 +9,8 @@ ms.assetid: 811a6ef2-ec66-4c8e-a089-6f795056e288
 msc.legacyurl: /web-forms/overview/data-access/paging-and-sorting/paging-and-sorting-report-data-cs
 msc.type: authoredcontent
 ---
-Paging and Sorting Report Data (C#)
-====================
+# Paging and Sorting Report Data (C#)
+
 by [Scott Mitchell](https://twitter.com/ScottOnWriting)
 
 [Download Sample App](http://download.microsoft.com/download/9/c/1/9c1d03ee-29ba-4d58-aa1a-f201dcc822ea/ASPNET_Data_Tutorial_24_CS.exe) or [Download PDF](paging-and-sorting-report-data-cs/_static/datatutorial24cs1.pdf)

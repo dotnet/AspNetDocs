@@ -9,8 +9,8 @@ ms.assetid: 5c890d81-a1a9-4b4f-9221-6947978ae336
 msc.legacyurl: /ajax/cdn/jquery-validate/cdnjqueryvalidate16
 msc.type: content
 ---
-jQuery Validate 1.6
-====================
+# jQuery Validate 1.6
+
 The following files are hosted on the CDN:
 
 - https://ajax.aspnetcdn.com/ajax/jQuery.Validate/1.6/jQuery.Validate.js

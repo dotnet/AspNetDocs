@@ -9,8 +9,8 @@ ms.assetid: d37b9859-1fc1-4669-89ea-b16f3c349d82
 msc.legacyurl: /web-forms/videos/data-access/how-do-i-with-linq/how-do-i-linq-to-sql-updating-the-database
 msc.type: video
 ---
-[How Do I:] LINQ to SQL: Updating the Database
-====================
+# [How Do I:] LINQ to SQL: Updating the Database
+
 by [Scott Stanfield](https://github.com/scottstanfield)
 
 In this video I demonstrated how to create, update and delete records through LINQ, simple transactions, updates across relationships, and custom column and row validation.

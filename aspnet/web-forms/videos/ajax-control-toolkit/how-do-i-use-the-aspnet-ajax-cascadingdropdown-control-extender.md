@@ -9,8 +9,8 @@ ms.assetid: 7dca3704-474b-4b0b-8294-5599279964d9
 msc.legacyurl: /web-forms/videos/ajax-control-toolkit/how-do-i-use-the-aspnet-ajax-cascadingdropdown-control-extender
 msc.type: video
 ---
-[How Do I:] Use the ASP.NET AJAX CascadingDropDown Control Extender?
-====================
+# [How Do I:] Use the ASP.NET AJAX CascadingDropDown Control Extender?
+
 by [Joe Stagner](https://github.com/JoeStagner)
 
 This video demonstrates how ASP.NET's standard DropDownList can become AJAX-enabled using the CascadingDropDown control extender from the ASP.NET AJAX Control Toolkit. You will also see how easy it is for a web form to draw its data from an XML Web Service.

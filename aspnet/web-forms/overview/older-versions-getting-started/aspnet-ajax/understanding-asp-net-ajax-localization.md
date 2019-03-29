@@ -9,8 +9,8 @@ ms.assetid: c1a35f18-bab9-41f7-8497-15530c37a09d
 msc.legacyurl: /web-forms/overview/older-versions-getting-started/aspnet-ajax/understanding-asp-net-ajax-localization
 msc.type: authoredcontent
 ---
-Understanding ASP.NET AJAX Localization
-====================
+# Understanding ASP.NET AJAX Localization
+
 by [Scott Cate](https://github.com/scottcate)
 
 [Download PDF](http://download.microsoft.com/download/C/1/9/C19A3451-1D14-477C-B703-54EF22E197EE/AJAX_tutorial04_Localization_cs.pdf)

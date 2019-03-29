@@ -9,8 +9,8 @@ ms.assetid: 466e52b9-bddf-4b2d-847a-f8df9a2513d7
 msc.legacyurl: /mvc
 msc.type: categoryindex
 ---
-ASP.NET MVC
-====================
+# ASP.NET MVC
+
 - [Guidance](overview/index.md)
 - [Videos](videos/index.md)
 - [ASP.NET MVC 5](mvc5.md)

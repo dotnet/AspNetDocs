@@ -9,8 +9,8 @@ ms.assetid: cbd98d24-8281-4415-87df-8365f0fbe7fc
 msc.legacyurl: /web-forms/overview/data-access/basic-reporting
 msc.type: chapter
 ---
-Basic Reporting
-====================
+# Basic Reporting
+
 > This set of tutorials looks at how to use the ObjectDataSource control to work with data retrieved from the BLL, all without code.
 
 

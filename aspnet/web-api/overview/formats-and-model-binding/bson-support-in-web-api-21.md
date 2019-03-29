@@ -9,8 +9,8 @@ ms.assetid: ce11b017-0ca6-4376-aa9d-a7f3288101de
 msc.legacyurl: /web-api/overview/formats-and-model-binding/bson-support-in-web-api-21
 msc.type: authoredcontent
 ---
-BSON Support in ASP.NET Web API 2.1
-====================
+# BSON Support in ASP.NET Web API 2.1
+
 by [Mike Wasson](https://github.com/MikeWasson)
 
 Web API 2.1 introduces support for BSON. This topic shows how to use BSON in your Web API controller (server side) and in a .NET client app.

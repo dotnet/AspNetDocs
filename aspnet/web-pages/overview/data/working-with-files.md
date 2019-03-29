@@ -9,8 +9,8 @@ ms.assetid: eee916e4-ba4c-439a-a24e-68df7d45a569
 msc.legacyurl: /web-pages/overview/data/working-with-files
 msc.type: authoredcontent
 ---
-Working with Files in an ASP.NET Web Pages (Razor) Site
-====================
+# Working with Files in an ASP.NET Web Pages (Razor) Site
+
 by [Tom FitzMacken](https://github.com/tfitzmac)
 
 > This article explains how to read, write, append, delete, and upload files in an ASP.NET Web Pages (Razor) site.

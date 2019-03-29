@@ -9,8 +9,8 @@ ms.assetid: bd700813-f302-4e42-a697-b8cab68cdb55
 msc.legacyurl: /web-forms/videos/ajax-control-toolkit/how-do-i-use-the-aspnet-ajax-dropshadow-extender
 msc.type: video
 ---
-[How Do I:] Use the ASP.NET AJAX DropShadow Extender?
-====================
+# [How Do I:] Use the ASP.NET AJAX DropShadow Extender?
+
 by [Joe Stagner](https://github.com/JoeStagner)
 
 Discover how to improve the presentation of ASP.NET sites by using the AJAX DropShadow extender control to add opaque, rounded-corner drop shadows to areas of your pages.

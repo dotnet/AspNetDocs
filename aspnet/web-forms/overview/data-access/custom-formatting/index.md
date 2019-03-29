@@ -9,8 +9,8 @@ ms.assetid: 320b7d26-837f-4fa7-a242-1ab82f8bdbe9
 msc.legacyurl: /web-forms/overview/data-access/custom-formatting
 msc.type: chapter
 ---
-Custom Formatting
-====================
+# Custom Formatting
+
 > These tutorials look at how to customize data display during data binding by using event handlers in the GridView, DetailsView, and FormView controls.
 
 

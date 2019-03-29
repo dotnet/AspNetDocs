@@ -9,8 +9,8 @@ ms.assetid: 5bc1afd5-2484-4528-b158-ab218ba150e8
 msc.legacyurl: /web-forms/overview/older-versions-getting-started/deploying-web-site-projects/processing-unhandled-exceptions-cs
 msc.type: authoredcontent
 ---
-Processing Unhandled Exceptions (C#)
-====================
+# Processing Unhandled Exceptions (C#)
+
 by [Scott Mitchell](https://twitter.com/ScottOnWriting)
 
 [View or download sample code](https://github.com/aspnet/AspNetDocs/tree/master/aspnet/web-forms/overview/older-versions-getting-started/deploying-web-site-projects/processing-unhandled-exceptions-cs/samples) ([how to download](/aspnet/core/tutorials/index#how-to-download-a-sample))

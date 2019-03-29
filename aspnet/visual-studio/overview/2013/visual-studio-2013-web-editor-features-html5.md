@@ -9,8 +9,8 @@ ms.assetid: ac477784-74e8-4ff9-8150-4b827d95774c
 msc.legacyurl: /visual-studio/overview/2013/visual-studio-2013-web-editor-features-html5
 msc.type: video
 ---
-Visual Studio 2013 Web Editor Features - HTML5
-====================
+# Visual Studio 2013 Web Editor Features - HTML5
+
 by [Scott Hanselman](https://github.com/shanselman)
 
 Scott Hanselman overviews HTML5 features in the Visual Studio web developer tools.

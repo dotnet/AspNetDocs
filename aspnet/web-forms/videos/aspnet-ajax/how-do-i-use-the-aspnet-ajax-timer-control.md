@@ -9,8 +9,8 @@ ms.assetid: 1488f788-54ca-43ce-bf65-8179ebbe2c7c
 msc.legacyurl: /web-forms/videos/aspnet-ajax/how-do-i-use-the-aspnet-ajax-timer-control
 msc.type: video
 ---
-[How Do I:] Use the ASP.NET AJAX Timer Control?
-====================
+# [How Do I:] Use the ASP.NET AJAX Timer Control?
+
 by [Joe Stagner](https://github.com/JoeStagner)
 
 The AJAX Timer control enables a portion of an ASP.NET web page to be dynamically updated at a regular interval, rather than needing the user to perform an action such as clicking on a button.

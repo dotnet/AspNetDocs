@@ -9,8 +9,8 @@ ms.assetid: 37947d79-ab1e-4ba9-9017-52e7a2757414
 msc.legacyurl: /web-forms/overview/deployment/web-deployment-in-the-enterprise/configuring-parameters-for-web-package-deployment
 msc.type: authoredcontent
 ---
-Configuring Parameters for Web Package Deployment
-====================
+# Configuring Parameters for Web Package Deployment
+
 by [Jason Lee](https://github.com/jrjlee)
 
 [Download PDF](https://msdnshared.blob.core.windows.net/media/MSDNBlogsFS/prod.evol.blogs.msdn.com/CommunityServer.Blogs.Components.WeblogFiles/00/00/00/63/56/8130.DeployingWebAppsInEnterpriseScenarios.pdf)

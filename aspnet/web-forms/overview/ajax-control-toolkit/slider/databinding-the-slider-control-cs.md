@@ -9,8 +9,8 @@ ms.assetid: b7f77869-aa1d-4025-924f-622c57112db6
 msc.legacyurl: /web-forms/overview/ajax-control-toolkit/slider/databinding-the-slider-control-cs
 msc.type: authoredcontent
 ---
-Databinding the Slider Control (C#)
-====================
+# Databinding the Slider Control (C#)
+
 by [Christian Wenz](https://github.com/wenz)
 
 [Download Code](http://download.microsoft.com/download/9/3/f/93f8daea-bebd-4821-833b-95205389c7d0/Slider0.cs.zip) or [Download PDF](http://download.microsoft.com/download/2/d/c/2dc10e34-6983-41d4-9c08-f78f5387d32b/slider0CS.pdf)

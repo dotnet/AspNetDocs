@@ -9,8 +9,8 @@ ms.assetid: db0f160b-901c-46d3-865e-7ab6cd4ed68d
 msc.legacyurl: /mvc/overview/older-versions-1/contact-manager/iteration-1-create-the-application-cs
 msc.type: authoredcontent
 ---
-Iteration #1 – Create the Application (C#)
-====================
+# Iteration #1 – Create the Application (C#)
+
 by [Microsoft](https://github.com/microsoft)
 
 [Download Code](iteration-1-create-the-application-cs/_static/contactmanager_1_cs1.zip)

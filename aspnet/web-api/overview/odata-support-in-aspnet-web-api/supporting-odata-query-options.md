@@ -9,8 +9,8 @@ ms.assetid: 50e6e62b-e72e-4a29-8293-4b67377bd21f
 msc.legacyurl: /web-api/overview/odata-support-in-aspnet-web-api/supporting-odata-query-options
 msc.type: authoredcontent
 ---
-Supporting OData Query Options in ASP.NET Web API 2
-====================
+# Supporting OData Query Options in ASP.NET Web API 2
+
 by [Mike Wasson](https://github.com/MikeWasson)
 
 OData defines parameters that can be used to modify an OData query. The client sends these parameters in the query string of the request URI. For example, to sort the results, a client uses the $orderby parameter:

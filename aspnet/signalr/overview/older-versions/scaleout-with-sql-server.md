@@ -9,8 +9,8 @@ ms.assetid: 1dca7967-8296-444a-9533-837eb284e78c
 msc.legacyurl: /signalr/overview/older-versions/scaleout-with-sql-server
 msc.type: authoredcontent
 ---
-SignalR Scaleout with SQL Server (SignalR 1.x)
-====================
+# SignalR Scaleout with SQL Server (SignalR 1.x)
+
 by [Mike Wasson](https://github.com/MikeWasson), [Patrick Fletcher](https://github.com/pfletcher)
 
 [!INCLUDE [Consider ASP.NET Core SignalR](~/includes/signalr/signalr-version-disambiguation.md)]

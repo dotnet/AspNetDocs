@@ -9,8 +9,8 @@ ms.assetid: a95daf2f-aae4-4ad5-a142-8c58cc7a056d
 msc.legacyurl: /web-forms/videos/tailspin-spyworks/tailspin-spyworks-implementing-and-using-the-also-purchased-control
 msc.type: video
 ---
-Tailspin Spyworks - Implementing and Using the Also Purchased Control
-====================
+# Tailspin Spyworks - Implementing and Using the Also Purchased Control
+
 by [Joe Stagner](https://github.com/JoeStagner)
 
 Joe Stagner implements and uses the Also Purchased control in the Tailspin Spyworks sample Web Forms applicaton.

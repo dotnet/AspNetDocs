@@ -9,8 +9,8 @@ ms.assetid: a9f317b0-28c3-4838-bae0-cfa5ed5b3110
 msc.legacyurl: /mvc/videos/mvc-2/how-do-i/what-is-aspnet-mvc-80-minute-technical-video-for-developers-building-nerddinner
 msc.type: video
 ---
-What is ASP.NET MVC? 80 minute technical video for developers, building NerdDinner
-====================
+# What is ASP.NET MVC? 80 minute technical video for developers, building NerdDinner
+
 by [Rob Conery](https://github.com/robconery)
 
 An in-depth tutorial on building an application with ASP.NET MVC. In this video we build the basics of Nerddinner.com and cover issues such as Unit Testing, Javascript (using jQuery), and how to use the new tooling features for Visual Studio 2008 which are installed with the ASP.NET MVC project templates.

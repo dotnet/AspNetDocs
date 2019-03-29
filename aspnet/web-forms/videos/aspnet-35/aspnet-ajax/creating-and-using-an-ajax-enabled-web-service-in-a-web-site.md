@@ -9,8 +9,8 @@ ms.assetid: bfccf680-efc7-400e-ac16-104e288cd430
 msc.legacyurl: /web-forms/videos/aspnet-35/aspnet-ajax/creating-and-using-an-ajax-enabled-web-service-in-a-web-site
 msc.type: video
 ---
-Creating and Using an AJAX-enabled Web Service in a Web Site
-====================
+# Creating and Using an AJAX-enabled Web Service in a Web Site
+
 by [Rob Windsor](https://twitter.com/robwindsor)
 
 Visual Studio 2008 lets you create ASP.NET custom Web services that you can access from client scripts. This walkthrough will demonstrate how to create an AJAX-enabled Web service and use its methods from client script running in separate Web application.

@@ -9,8 +9,8 @@ ms.assetid: 2a23e599-2969-4d2a-92c2-4bdfea8f59bc
 msc.legacyurl: /web-forms/videos/aspnet-ajax/how-do-i-use-the-aspnet-ajax-roundedcorners-extender
 msc.type: video
 ---
-[How Do I:] Use the ASP.NET AJAX RoundedCorners Extender?
-====================
+# [How Do I:] Use the ASP.NET AJAX RoundedCorners Extender?
+
 by [Joe Stagner](https://github.com/JoeStagner)
 
 In this video we see how the RoundedCorner extender control can give your web pages a softer look and feel by adding attractive round corners to content areas.

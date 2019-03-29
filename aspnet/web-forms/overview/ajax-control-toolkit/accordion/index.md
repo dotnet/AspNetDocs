@@ -9,8 +9,8 @@ ms.assetid: afd41278-b4c5-43ee-9845-2b665932dcff
 msc.legacyurl: /web-forms/overview/ajax-control-toolkit/accordion
 msc.type: chapter
 ---
-Accordion
-====================
+# Accordion
+
 > This tutorial shows how to use the Accordion control, which contains multiple panes and lets users display one of them at a time.
 
 

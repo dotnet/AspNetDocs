@@ -9,8 +9,8 @@ ms.assetid: 88908ff8-51a9-40eb-931c-a8139128b680
 msc.legacyurl: /web-api/overview/data/using-web-api-with-entity-framework/part-2
 msc.type: authoredcontent
 ---
-Add Models and Controllers
-====================
+# Add Models and Controllers
+
 by [Mike Wasson](https://github.com/MikeWasson)
 
 [Download Completed Project](https://github.com/MikeWasson/BookService)

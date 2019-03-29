@@ -9,8 +9,8 @@ ms.assetid: fa9ed773-cceb-49d0-a939-5a9e6bbae00f
 msc.legacyurl: /web-forms/videos/how-do-i/how-do-i-create-and-use-a-custom-configuration-section-in-an-aspnet-configuration-file
 msc.type: video
 ---
-[How Do I:] Create and Use a Custom Configuration Section in an ASP.NET Configuration File
-====================
+# [How Do I:] Create and Use a Custom Configuration Section in an ASP.NET Configuration File
+
 by [Chris Pels](https://twitter.com/chrispels)
 
 In this video Chris Pels will show how to extend the standard set of ASP.NET configuration settings with your own XML configuration elements. First, see how to create a configuration section handler which is required to interpret and process the information in custom XML configuration elements. During this learn how to use declarative model for defining the behavior of a configuration section handler. Next, see how to add a custom section handler and custom elements to an ASP.NET configuration file. Finally, see how to programmatically access the custom configuration data.

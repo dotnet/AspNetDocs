@@ -9,8 +9,8 @@ ms.assetid: 9ed8ccb5-5f31-4eb4-976d-cabf4b45ca09
 msc.legacyurl: /web-forms/overview/data-access/advanced-data-access-scenarios/debugging-stored-procedures-vb
 msc.type: authoredcontent
 ---
-Debugging Stored Procedures (VB)
-====================
+# Debugging Stored Procedures (VB)
+
 by [Scott Mitchell](https://twitter.com/ScottOnWriting)
 
 [Download Code](http://download.microsoft.com/download/3/9/f/39f92b37-e92e-4ab3-909e-b4ef23d01aa3/ASPNET_Data_Tutorial_74_VB.zip) or [Download PDF](debugging-stored-procedures-vb/_static/datatutorial74vb1.pdf)

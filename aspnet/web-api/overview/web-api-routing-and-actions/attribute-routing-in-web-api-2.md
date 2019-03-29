@@ -9,8 +9,8 @@ ms.assetid: 979d6c9f-0129-4e5b-ae56-4507b281b86d
 msc.legacyurl: /web-api/overview/web-api-routing-and-actions/attribute-routing-in-web-api-2
 msc.type: authoredcontent
 ---
-Attribute Routing in ASP.NET Web API 2
-====================
+# Attribute Routing in ASP.NET Web API 2
+
 by [Mike Wasson](https://github.com/MikeWasson)
 
 *Routing* is how Web API matches a URI to an action. Web API 2 supports a new type of routing, called *attribute routing*. As the name implies, attribute routing uses attributes to define routes. Attribute routing gives you more control over the URIs in your web API. For example, you can easily create URIs that describe hierarchies of resources.

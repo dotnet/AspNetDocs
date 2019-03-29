@@ -9,8 +9,8 @@ ms.assetid: fe3676fd-ecec-4756-8c8d-269da9754c31
 msc.legacyurl: /mvc/videos/mvc-2/how-do-i/mvc2-model-validation
 msc.type: video
 ---
-MVC2 - Model Validation
-====================
+# MVC2 - Model Validation
+
 by [Microsoft](https://github.com/microsoft)
 
 In this video you will learn about how to use Data Annotation Attributes to define your validation rules, and how to enable client-side (AJAX) validation.

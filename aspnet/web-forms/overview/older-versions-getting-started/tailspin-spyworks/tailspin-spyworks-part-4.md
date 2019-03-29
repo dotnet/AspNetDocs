@@ -9,8 +9,8 @@ ms.assetid: 4fab47d5-a6ec-4fdc-91f0-651a093a24b9
 msc.legacyurl: /web-forms/overview/older-versions-getting-started/tailspin-spyworks/tailspin-spyworks-part-4
 msc.type: authoredcontent
 ---
-Part 4: Listing Products
-====================
+# Part 4: Listing Products
+
 by [Joe Stagner](https://github.com/JoeStagner)
 
 > Tailspin Spyworks demonstrates how extraordinarily simple it is to create powerful, scalable applications for the .NET platform. It shows off how to use the great new features in ASP.NET 4 to build an online store, including shopping, checkout, and administration.

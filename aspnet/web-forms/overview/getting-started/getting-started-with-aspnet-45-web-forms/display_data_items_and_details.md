@@ -9,8 +9,8 @@ ms.assetid: 64a491a8-0ed6-4c2f-9c1c-412962eb6006
 msc.legacyurl: /web-forms/overview/getting-started/getting-started-with-aspnet-45-web-forms/display_data_items_and_details
 msc.type: authoredcontent
 ---
-Display data items and details
-====================
+# Display data items and details
+
 by [Erik Reitan](https://github.com/Erikre)
 
 > This tutorial series teaches you the basics of building an ASP.NET Web Forms application with ASP.NET 4.7 and Microsoft Visual Studio 2017.
