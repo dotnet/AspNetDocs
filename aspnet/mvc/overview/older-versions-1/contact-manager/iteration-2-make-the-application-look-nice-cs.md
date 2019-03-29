@@ -9,8 +9,8 @@ ms.assetid: f1173feb-11ee-4017-8f3f-86599ea6ae13
 msc.legacyurl: /mvc/overview/older-versions-1/contact-manager/iteration-2-make-the-application-look-nice-cs
 msc.type: authoredcontent
 ---
-Iteration #2 – Make the application look nice (C#)
-====================
+# Iteration #2 – Make the application look nice (C#)
+
 by [Microsoft](https://github.com/microsoft)
 
 [Download Code](iteration-2-make-the-application-look-nice-cs/_static/contactmanager_2_cs1.zip)

@@ -9,8 +9,8 @@ ms.assetid: f1b0809e-8909-444e-b6bb-a5cd1dea3f72
 msc.legacyurl: /mvc/overview/older-versions-1/contact-manager/iteration-7-add-ajax-functionality-cs
 msc.type: authoredcontent
 ---
-Iteration #7 – Add Ajax functionality (C#)
-====================
+# Iteration #7 – Add Ajax functionality (C#)
+
 by [Microsoft](https://github.com/microsoft)
 
 [Download Code](iteration-7-add-ajax-functionality-cs/_static/contactmanager_7_cs1.zip)
