@@ -9,8 +9,8 @@ ms.assetid: 67b25f4c-2823-42b6-b07d-1d650b3fd711
 msc.legacyurl: /web-forms/overview/data-access/custom-formatting/using-the-formview-s-templates-vb
 msc.type: authoredcontent
 ---
-Using the FormView's Templates (VB)
-====================
+# Using the FormView's Templates (VB)
+
 by [Scott Mitchell](https://twitter.com/ScottOnWriting)
 
 [Download Sample App](http://download.microsoft.com/download/5/7/0/57084608-dfb3-4781-991c-407d086e2adc/ASPNET_Data_Tutorial_14_VB.exe) or [Download PDF](using-the-formview-s-templates-vb/_static/datatutorial14vb1.pdf)

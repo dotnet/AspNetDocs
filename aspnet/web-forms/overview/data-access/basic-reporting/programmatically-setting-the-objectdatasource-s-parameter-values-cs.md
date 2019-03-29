@@ -9,8 +9,8 @@ ms.assetid: 1c4588bb-255d-4088-b319-5208da756f4d
 msc.legacyurl: /web-forms/overview/data-access/basic-reporting/programmatically-setting-the-objectdatasource-s-parameter-values-cs
 msc.type: authoredcontent
 ---
-Programmatically Setting the ObjectDataSource's Parameter Values (C#)
-====================
+# Programmatically Setting the ObjectDataSource's Parameter Values (C#)
+
 by [Scott Mitchell](https://twitter.com/ScottOnWriting)
 
 [Download Sample App](http://download.microsoft.com/download/4/6/3/463cf87c-4724-4cbc-b7b5-3f866f43ba50/ASPNET_Data_Tutorial_6_CS.exe) or [Download PDF](programmatically-setting-the-objectdatasource-s-parameter-values-cs/_static/datatutorial06cs1.pdf)

@@ -9,8 +9,8 @@ ms.assetid: 61e0206d-7f32-4018-992d-0a51b48b37dc
 msc.legacyurl: /mvc/overview/older-versions/getting-started-with-aspnet-mvc4/accessing-your-models-data-from-a-controller
 msc.type: authoredcontent
 ---
-Accessing Your Model's Data from a Controller
-====================
+# Accessing Your Model's Data from a Controller
+
 by [Rick Anderson]((https://twitter.com/RickAndMSFT))
 
 > > [!NOTE]

@@ -9,8 +9,8 @@ ms.assetid: 751282ca-5870-4d66-84e4-6cefae23eb4a
 msc.legacyurl: /web-forms/overview/data-access/advanced-data-access-scenarios/creating-new-stored-procedures-for-the-typed-dataset-s-tableadapters-cs
 msc.type: authoredcontent
 ---
-Creating New Stored Procedures for the Typed DataSet's TableAdapters (C#)
-====================
+# Creating New Stored Procedures for the Typed DataSet's TableAdapters (C#)
+
 by [Scott Mitchell](https://twitter.com/ScottOnWriting)
 
 [Download Code](http://download.microsoft.com/download/3/9/f/39f92b37-e92e-4ab3-909e-b4ef23d01aa3/ASPNET_Data_Tutorial_67_CS.zip) or [Download PDF](creating-new-stored-procedures-for-the-typed-dataset-s-tableadapters-cs/_static/datatutorial67cs1.pdf)

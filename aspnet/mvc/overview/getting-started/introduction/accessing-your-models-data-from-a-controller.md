@@ -9,8 +9,8 @@ ms.assetid: caa1ba4a-f9f0-4181-ba21-042e3997861d
 msc.legacyurl: /mvc/overview/getting-started/introduction/accessing-your-models-data-from-a-controller
 msc.type: authoredcontent
 ---
-Accessing Your Model's Data from a Controller
-====================
+# Accessing Your Model's Data from a Controller
+
 by [Rick Anderson]((https://twitter.com/RickAndMSFT))
 
 [!INCLUDE [Tutorial Note](sample/code-location.md)]

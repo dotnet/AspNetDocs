@@ -9,8 +9,8 @@ ms.assetid: 69a8d6f8-4b10-4602-8822-2d6c05fc432b
 msc.legacyurl: /whitepapers/what-is-new-in-aspnet-mvc
 msc.type: content
 ---
-What's New in ASP.NET MVC 2
-====================
+# What's New in ASP.NET MVC 2
+
 > This document describes new features and improvements introduced in ASP.NET MVC 2. This document is also available for [Download](https://download.microsoft.com/download/F/1/6/F16F9AF9-8EF4-4845-BC97-639791D5699C/WhatIsNewInMVC_2.pdf)
 
 
