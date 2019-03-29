@@ -9,8 +9,8 @@ ms.assetid: dfb7d181-f97c-43cc-8a19-8403655382ea
 msc.legacyurl: /web-forms/videos/net-4/ajax/aspnet-4-quick-hit-ajax-data-templates
 msc.type: video
 ---
-ASP.NET 4 "Quick Hit" - AJAX Data Templates
-====================
+# ASP.NET 4 "Quick Hit" - AJAX Data Templates
+
 by [Joe Stagner](https://github.com/JoeStagner)
 
 In this video you will learn how to use client templates to display database records with the DataView control. 

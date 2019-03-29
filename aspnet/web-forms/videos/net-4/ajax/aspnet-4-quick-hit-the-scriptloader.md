@@ -9,8 +9,8 @@ ms.assetid: b79562dd-ddd2-4a6b-a681-6aa75f25e59c
 msc.legacyurl: /web-forms/videos/net-4/ajax/aspnet-4-quick-hit-the-scriptloader
 msc.type: video
 ---
-ASP.NET 4 "Quick Hit" - The ScriptLoader
-====================
+# ASP.NET 4 "Quick Hit" - The ScriptLoader
+
 by [Joe Stagner](https://github.com/JoeStagner)
 
 In this video will learn about the ScriptLoader.

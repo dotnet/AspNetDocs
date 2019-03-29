@@ -9,8 +9,8 @@ ms.assetid: b93334e7-2167-4efb-a92d-e0ef5d98ac06
 msc.legacyurl: /web-forms/videos/net-4/chart/aspnet-4-quick-hit-chart-control
 msc.type: video
 ---
-ASP.NET 4 "Quick Hit" - Chart Control
-====================
+# ASP.NET 4 "Quick Hit" - Chart Control
+
 by [Joe Stagner](https://github.com/JoeStagner)
 
 In this video you will learn how to use the ASP.NET Chart Control to create simple, intuitive, and visually compelling charts. 

@@ -9,8 +9,8 @@ ms.assetid: 87d4e436-6a38-4851-818d-84417782ed75
 msc.legacyurl: /web-forms/videos/visual-studio-2010/visual-studio-2010-quick-hit-websites-instead-of-web-projects
 msc.type: video
 ---
-Visual Studio 2010 "Quick Hit" - Websites Instead of Web Projects
-====================
+# Visual Studio 2010 "Quick Hit" - Websites Instead of Web Projects
+
 by [Joe Stagner](https://github.com/JoeStagner)
 
 In this video you will learn about Visual Studio IDE Start Page changes which affect how you create or open Websites. 

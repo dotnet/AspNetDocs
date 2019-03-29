@@ -9,8 +9,8 @@ ms.assetid: 90d79218-505c-4b6d-87f5-a59592d59ccc
 msc.legacyurl: /web-forms/videos/net-4/routing/aspnet-4-quick-hit-outbound-webforms-routing
 msc.type: video
 ---
-ASP.NET 4 "Quick Hit" - Outbound WebForms Routing
-====================
+# ASP.NET 4 "Quick Hit" - Outbound WebForms Routing
+
 by [Joe Stagner](https://github.com/JoeStagner)
 
 In this video you will see how to use the routing mechanism to dynamically create an outbound URL based on input from the user. 

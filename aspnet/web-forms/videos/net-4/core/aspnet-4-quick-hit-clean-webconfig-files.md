@@ -9,8 +9,8 @@ ms.assetid: 12aa35dd-16f7-408a-9a3b-a70c0aca791f
 msc.legacyurl: /web-forms/videos/net-4/core/aspnet-4-quick-hit-clean-webconfig-files
 msc.type: video
 ---
-ASP.NET 4 "Quick Hit" - Clean Web.Config Files
-====================
+# ASP.NET 4 "Quick Hit" - Clean Web.Config Files
+
 by [Joe Stagner](https://github.com/JoeStagner)
 
 In this video you will see how the major configuration elements have been moved to the machine.config file. This allows the Web.config file in ASP.NET 4 applications to either be empty or contain a minimum number of lines.

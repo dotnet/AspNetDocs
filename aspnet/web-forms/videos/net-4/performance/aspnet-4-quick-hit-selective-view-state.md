@@ -9,8 +9,8 @@ ms.assetid: ad960512-65f3-4439-ab68-0862cdd7943e
 msc.legacyurl: /web-forms/videos/net-4/performance/aspnet-4-quick-hit-selective-view-state
 msc.type: video
 ---
-ASP.NET 4 "Quick Hit" - Selective View State
-====================
+# ASP.NET 4 "Quick Hit" - Selective View State
+
 by [Joe Stagner](https://github.com/JoeStagner)
 
 In this video you will learn about the ViewStateMode property that lets you disable view state by default and then enable it only for the controls that require it in the page.
