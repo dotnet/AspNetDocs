@@ -345,7 +345,9 @@ The following table lists some common conversion and test methods for variables.
     <strong>Example</strong>
     :::column-end:::
 :::row-end:::
+
 ---
+
 :::row:::
     :::column:::
         `AsInt(), IsInt()`
@@ -357,7 +359,9 @@ The following table lists some common conversion and test methods for variables.
         [!code-csharp[Main](introducing-razor-syntax-c/samples/sample28.cs)]
     :::column-end:::
 :::row-end:::
+
 ---
+
 :::row:::
     :::column:::
         `AsBool(), IsBool()`
@@ -369,7 +373,9 @@ The following table lists some common conversion and test methods for variables.
         [!code-csharp[Main](introducing-razor-syntax-c/samples/sample29.cs)]
     :::column-end:::
 :::row-end:::
+
 ---
+
 :::row:::
     :::column:::
         `AsFloat(), IsFloat()`
@@ -381,7 +387,9 @@ The following table lists some common conversion and test methods for variables.
         [!code-csharp[Main](introducing-razor-syntax-c/samples/sample30.cs)]
     :::column-end:::
 :::row-end:::
+
 ---
+
 :::row:::
     :::column:::
         `AsDecimal(), IsDecimal()`
@@ -393,7 +401,9 @@ The following table lists some common conversion and test methods for variables.
         [!code-csharp[Main](introducing-razor-syntax-c/samples/sample31.cs)]
     :::column-end:::
 :::row-end:::
+
 ---
+
 :::row:::
     :::column:::
         `AsDateTime(), IsDateTime()`
@@ -405,7 +415,9 @@ The following table lists some common conversion and test methods for variables.
         [!code-csharp[Main](introducing-razor-syntax-c/samples/sample32.cs)]
     :::column-end:::
 :::row-end:::
+
 ---
+
 :::row:::
     :::column:::
         `ToString()`
@@ -434,7 +446,9 @@ An operator is a keyword or character that tells ASP.NET what kind of command to
     <strong>Examples</strong>
     :::column-end:::
 :::row-end:::
+
 ---
+
 :::row:::
     :::column:::
         `+` `-` `*` `/`
@@ -446,7 +460,9 @@ An operator is a keyword or character that tells ASP.NET what kind of command to
         [!code-css[Main](introducing-razor-syntax-c/samples/sample34.css)]
     :::column-end:::
 :::row-end:::
+
 ---
+
 :::row:::
     :::column:::
         `=`
@@ -458,7 +474,9 @@ An operator is a keyword or character that tells ASP.NET what kind of command to
         [!code-csharp[Main](introducing-razor-syntax-c/samples/sample35.cs)]
     :::column-end:::
 :::row-end:::
+
 ---
+
 :::row:::
     :::column:::
         `==`
@@ -470,7 +488,9 @@ An operator is a keyword or character that tells ASP.NET what kind of command to
         [!code-csharp[Main](introducing-razor-syntax-c/samples/sample36.cs)]
     :::column-end:::
 :::row-end:::
+
 ---
+
 :::row:::
     :::column:::
         `!=`
@@ -482,7 +502,9 @@ An operator is a keyword or character that tells ASP.NET what kind of command to
         [!code-csharp[Main](introducing-razor-syntax-c/samples/sample37.cs)]
     :::column-end:::
 :::row-end:::
+
 ---
+
 :::row:::
     :::column:::
         `< > <= >=`
@@ -494,7 +516,9 @@ An operator is a keyword or character that tells ASP.NET what kind of command to
         [!code-csharp[Main](introducing-razor-syntax-c/samples/sample38.cs)]
     :::column-end:::
 :::row-end:::
+
 ---
+
 :::row:::
     :::column:::
         `+`
@@ -506,7 +530,9 @@ An operator is a keyword or character that tells ASP.NET what kind of command to
         [!code-csharp[Main](introducing-razor-syntax-c/samples/sample39.cs)]
     :::column-end:::
 :::row-end:::
+
 ---
+
 :::row:::
     :::column:::
         `+=` `-=`
@@ -518,7 +544,9 @@ An operator is a keyword or character that tells ASP.NET what kind of command to
         [!code-csharp[Main](introducing-razor-syntax-c/samples/sample40.cs)]
     :::column-end:::
 :::row-end:::
+
 ---
+
 :::row:::
     :::column:::
         `.`
@@ -530,7 +558,9 @@ An operator is a keyword or character that tells ASP.NET what kind of command to
         [!code-csharp[Main](introducing-razor-syntax-c/samples/sample41.cs)]
     :::column-end:::
 :::row-end:::
+
 ---
+
 :::row:::
     :::column:::
         `()`
@@ -542,7 +572,9 @@ An operator is a keyword or character that tells ASP.NET what kind of command to
         [!code-javascript[Main](introducing-razor-syntax-c/samples/sample42.js)]
     :::column-end:::
 :::row-end:::
+
 ---
+
 :::row:::
     :::column:::
         `[]`
@@ -554,7 +586,9 @@ An operator is a keyword or character that tells ASP.NET what kind of command to
         [!code-csharp[Main](introducing-razor-syntax-c/samples/sample43.cs)]
     :::column-end:::
 :::row-end:::
+
 ---
+
 :::row:::
     :::column:::
         `!`
@@ -566,7 +600,9 @@ An operator is a keyword or character that tells ASP.NET what kind of command to
         [!code-csharp[Main](introducing-razor-syntax-c/samples/sample44.cs)]
     :::column-end:::
 :::row-end:::
+
 ---
+
 :::row:::
     :::column:::
         `&&` `||`
