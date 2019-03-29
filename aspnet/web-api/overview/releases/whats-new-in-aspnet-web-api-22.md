@@ -9,8 +9,8 @@ ms.assetid: 99c59ae4-167e-4f66-a6cd-d3f1098c4e4a
 msc.legacyurl: /web-api/overview/releases/whats-new-in-aspnet-web-api-22
 msc.type: authoredcontent
 ---
-What's New in ASP.NET Web API 2.2
-====================
+# What's New in ASP.NET Web API 2.2
+
 by [Microsoft](https://github.com/microsoft)
 
 This topic describes what's new for ASP.NET Web API 2.2.

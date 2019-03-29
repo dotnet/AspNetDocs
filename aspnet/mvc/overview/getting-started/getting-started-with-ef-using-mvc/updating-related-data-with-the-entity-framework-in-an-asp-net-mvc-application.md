@@ -11,11 +11,6 @@ ms.assetid: 7ba88418-5d0a-437d-b6dc-7c3816d4ec07
 msc.legacyurl: /mvc/overview/getting-started/getting-started-with-ef-using-mvc/updating-related-data-with-the-entity-framework-in-an-asp-net-mvc-application
 msc.type: authoredcontent
 ---
-# 
-Updating Related Data with the Entity Framework in an ASP.NET MVC Application
-
-
-
 # Tutorial: Update related data with EF in an ASP.NET MVC app
 
 In the previous tutorial you displayed related data. In this tutorial you'll update related data. For most relationships, this can be done by updating either foreign key fields or navigation properties. For many-to-many relationships, the Entity Framework doesn't expose the join table directly, so you add and remove entities to and from the appropriate navigation properties.

@@ -88,10 +88,6 @@ This tutorial explained how you can dynamically update content in a cached page.
 
 Take advantage of caching whenever possible – it can have a dramatic impact on the performance of your web applications. As explained in this tutorial, you can take advantage of caching even when you need to display dynamic content in your pages.
 
-## 
-
-## 
-
 > [!div class="step-by-step"]
 > [Previous](improving-performance-with-output-caching-cs.md)
 > [Next](creating-a-controller-cs.md)

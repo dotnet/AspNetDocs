@@ -68,8 +68,6 @@ Open the application root *Web.config* file. (Not the *Web.config* file in the *
 
 ![](adding-a-model/_static/image4.png)
 
-### 
-
 Add the following connection string to the `<connectionStrings>` element in the *Web.config* file.
 
 [!code-xml[Main](adding-a-model/samples/sample5.xml)]

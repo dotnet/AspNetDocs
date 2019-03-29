@@ -9,8 +9,8 @@ ms.assetid: e39eaa25-83ff-41dc-869d-3818d59a88ae
 msc.legacyurl: /web-api/overview/releases/whats-new-in-aspnet-web-api-odata-53
 msc.type: authoredcontent
 ---
-What's New in ASP.NET Web API OData 5.3
-====================
+# What's New in ASP.NET Web API OData 5.3
+
 by [Microsoft](https://github.com/microsoft)
 
 This topic describes what's new for ASP.NET Web API OData 5.3.

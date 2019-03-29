@@ -9,8 +9,8 @@ ms.assetid: d01b3ea0-8d82-404b-bfea-eb1ba7ca4a54
 msc.legacyurl: /web-pages/overview/releases
 msc.type: chapter
 ---
-Web Pages Releases
-====================
+# Web Pages Releases
+
 > What's new in each ASP.NET Web Pages release.
 
 
