@@ -38,7 +38,7 @@ In this tutorial, you:
 
 ## Prerequisites
 
- * [Visual Studio 2017](https://visualstudio.microsoft.com/downloads/) with the **ASP.NET and web development** workload.
+* [Visual Studio 2017](https://visualstudio.microsoft.com/downloads/) with the **ASP.NET and web development** workload.
 
 ## Create the project
 

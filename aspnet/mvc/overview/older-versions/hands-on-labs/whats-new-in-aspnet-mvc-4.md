@@ -167,14 +167,14 @@ In this exercise, you will explore the enhancements in the ASP.NET MVC 4 Project
 
    *The ASP.NET MVC 4 Internet Application Project Template*
 
-   - **HTML 5 Markup**
+    - **HTML 5 Markup**
 
        Browse template views to find out the new theme markup.
 
        ![New template, using Razor and HTML5 markup About.cshtml.](whats-new-in-aspnet-mvc-4/_static/image10.png "New template, using Razor and HTML5 markup About.cshtml.")
 
        *New template, using Razor and HTML5 markup (About.cshtml).*
-   - **Updated JavaScript libraries**
+    - **Updated JavaScript libraries**
 
        The ASP.NET MVC 4 default template now includes KnockoutJS, a JavaScript MVVM framework that lets you create rich and highly responsive web applications using JavaScript and HTML. Like in MVC3, jQuery and jQuery UI libraries are also included in ASP.NET MVC 4.
 
