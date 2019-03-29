@@ -9,8 +9,8 @@ ms.assetid: 1bc333c5-f096-4ea7-b170-779accc21c1a
 msc.legacyurl: /aspnet/overview/developing-apps-with-windows-azure/building-real-world-cloud-apps-with-windows-azure/the-fix-it-sample-application
 msc.type: authoredcontent
 ---
-Appendix: The Fix It Sample Application (Building Real-World Cloud Apps with Azure)
-====================
+# Appendix: The Fix It Sample Application (Building Real-World Cloud Apps with Azure)
+
 by [Mike Wasson](https://github.com/MikeWasson), [Rick Anderson]((https://twitter.com/RickAndMSFT)), [Tom Dykstra](https://github.com/tdykstra)
 
 [Download The Fix It Project](http://code.msdn.microsoft.com/Fix-It-app-for-Building-cdd80df4)

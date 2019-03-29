@@ -9,8 +9,8 @@ ms.assetid: 017e87d7-a44e-423a-b3e9-ba44df99388b
 msc.legacyurl: /mvc/videos/mvc-2/how-do-i/mvc2-stronglytyped-helpers
 msc.type: video
 ---
-MVC2 - StronglyTyped Helpers
-====================
+# MVC2 - StronglyTyped Helpers
+
 by [Microsoft](https://github.com/microsoft)
 
 In this video you will learn about how you can use strongly typed HTML Helpers to gain compile-type checking when creating HTML UI Elements.

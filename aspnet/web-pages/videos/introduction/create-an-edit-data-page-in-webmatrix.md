@@ -9,8 +9,8 @@ ms.assetid: 7dc21790-5607-467d-a08b-fcf3c80b0174
 msc.legacyurl: /web-pages/videos/introduction/create-an-edit-data-page-in-webmatrix
 msc.type: video
 ---
-Create an Edit Data Page in WebMatrix
-====================
+# Create an Edit Data Page in WebMatrix
+
 by [Advaiya](https://twitter.com/Advaiyasolns)
 
 Part 7 builds on this to show you how you can have a page to edit your database, and see the changes updated automatically.

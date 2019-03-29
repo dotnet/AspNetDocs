@@ -9,8 +9,8 @@ ms.assetid: b7d13a9f-3d44-431d-bea7-eb2da524de9d
 msc.legacyurl: /web-forms/overview/older-versions-getting-started/aspnet-ajax
 msc.type: chapter
 ---
-ASP.NET 3.5 - AJAX
-====================
+# ASP.NET 3.5 - AJAX
+
 > About the ASP.NET AJAX library, including UpdatePanels and partial page updates, authentication, localization, and debugging.
 
 

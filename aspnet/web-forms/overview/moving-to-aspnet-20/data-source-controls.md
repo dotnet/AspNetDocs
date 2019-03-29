@@ -9,8 +9,8 @@ ms.assetid: 78fd0e92-f9c6-4e96-a5e9-0375b307a828
 msc.legacyurl: /web-forms/overview/moving-to-aspnet-20/data-source-controls
 msc.type: authoredcontent
 ---
-Data Source Controls
-====================
+# Data Source Controls
+
 by [Microsoft](https://github.com/microsoft)
 
 > The DataGrid control in ASP.NET 1.x marked a great improvement in data access in Web applications. However, it wasn't as user-friendly as it could have been. It still required a considerable amount of code to obtain much useful functionality from it. Such is the model in all data access endeavors in 1.x.

@@ -9,8 +9,8 @@ ms.assetid: cc1ae79f-69ff-445a-a789-b5da2b255cb6
 msc.legacyurl: /web-forms/videos/tailspin-spyworks/tailspin-spyworks-display-per-product-details
 msc.type: video
 ---
-Tailspin Spyworks - Display Per Product Details
-====================
+# Tailspin Spyworks - Display Per Product Details
+
 by [Joe Stagner](https://github.com/JoeStagner)
 
 Joe Stagner displays the product details in the Tailspin Spyworks sample Web Forms application.

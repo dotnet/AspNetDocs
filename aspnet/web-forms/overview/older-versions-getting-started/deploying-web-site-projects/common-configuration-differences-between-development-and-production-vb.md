@@ -9,8 +9,8 @@ ms.assetid: 548e75f6-4d6c-4cb4-8da8-417915eb8393
 msc.legacyurl: /web-forms/overview/older-versions-getting-started/deploying-web-site-projects/common-configuration-differences-between-development-and-production-vb
 msc.type: authoredcontent
 ---
-Common Configuration Differences Between Development and Production (VB)
-====================
+# Common Configuration Differences Between Development and Production (VB)
+
 by [Scott Mitchell](https://twitter.com/ScottOnWriting)
 
 [Download PDF](http://download.microsoft.com/download/E/8/9/E8920AE6-D441-41A7-8A77-9EF8FF970D8B/aspnet_tutorial05_ConfigDifferences_vb.pdf)

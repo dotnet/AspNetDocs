@@ -9,8 +9,8 @@ ms.assetid: fa429113-5f8f-4ef4-97c5-5c04900a19fa
 msc.legacyurl: /whitepapers/request-validation
 msc.type: content
 ---
-Request Validation - Preventing Script Attacks
-====================
+# Request Validation - Preventing Script Attacks
+
 > This paper describes the request validation feature of ASP.NET where, by default, the application is prevented from processing unencoded HTML content submitted to the server. This request validation feature can be disabled when the application has been designed to safely process HTML data.
 > 
 > Applies to ASP.NET 1.1 and ASP.NET 2.0.

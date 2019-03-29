@@ -9,8 +9,8 @@ ms.assetid: 11906982-0a64-4bc8-be23-6443afee8b88
 msc.legacyurl: /mvc/videos/mvc-2/how-do-i/aspnet-mvc-2-render-action
 msc.type: video
 ---
-ASP.NET MVC 2 - Render Action
-====================
+# ASP.NET MVC 2 - Render Action
+
 by [Jon Galloway](https://github.com/jongalloway)
 
 In this video you'll learn how to use Html.RenderAction to write the results of a Controller Action to a View. We'll look at how Html.RenderAction differs from Html.RenderPartial, and how Html.Action differs from Html.RenderAction.

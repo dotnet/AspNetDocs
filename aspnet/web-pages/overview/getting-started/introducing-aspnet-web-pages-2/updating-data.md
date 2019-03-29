@@ -9,8 +9,8 @@ ms.assetid: ac86ec9c-6b69-485b-b9e0-8b9127b13e6b
 msc.legacyurl: /web-pages/overview/getting-started/introducing-aspnet-web-pages-2/updating-data
 msc.type: authoredcontent
 ---
-Introducing ASP.NET Web Pages - Updating Database Data
-====================
+# Introducing ASP.NET Web Pages - Updating Database Data
+
 by [Tom FitzMacken](https://github.com/tfitzmac)
 
 > This tutorial shows you how to update (change) an existing database entry when you use ASP.NET Web Pages (Razor). It assumes you have completed the series through [Entering Data by Using Forms Using ASP.NET Web Pages](entering-data.md).

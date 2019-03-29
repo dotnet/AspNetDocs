@@ -9,8 +9,8 @@ ms.assetid: 37504e9f-3c62-41ac-88c3-9daf9fdd5d9a
 msc.legacyurl: /web-pages/videos/introduction/use-the-layout-features-in-webmatrix
 msc.type: video
 ---
-Use the Layout Features in WebMatrix
-====================
+# Use the Layout Features in WebMatrix
+
 by [Advaiya](https://twitter.com/Advaiyasolns)
 
 Part 4 teaches you layout and how you can use layout in WebMatrix for common code across your pages.

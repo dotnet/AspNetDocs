@@ -9,8 +9,8 @@ ms.assetid: ac5fcd71-317a-41ba-91ac-95121fc68126
 msc.legacyurl: /web-forms/overview/older-versions-security/introduction
 msc.type: chapter
 ---
-ASP.NET 3.5 - Introduction to Security
-====================
+# ASP.NET 3.5 - Introduction to Security
+
 > This series of tutorials explores techniques for authenticating users using a login form (forms authentication) and authorizing access to individual pages in an ASP.NET application.
 
 

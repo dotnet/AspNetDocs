@@ -9,8 +9,8 @@ ms.assetid: ba07958c-42e1-4da0-81db-ba6925ed6db0
 msc.legacyurl: /signalr/overview/getting-started/real-time-web-applications-with-signalr
 msc.type: authoredcontent
 ---
-Hands On Lab: Real-Time Web Applications with SignalR
-====================
+# Hands On Lab: Real-Time Web Applications with SignalR
+
 
 by [Web Camps Team](https://twitter.com/webcamps)
 

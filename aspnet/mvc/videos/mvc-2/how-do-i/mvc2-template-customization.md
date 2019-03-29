@@ -9,8 +9,8 @@ ms.assetid: 93d5f225-1b13-4932-af79-120335d52447
 msc.legacyurl: /mvc/videos/mvc-2/how-do-i/mvc2-template-customization
 msc.type: video
 ---
-MVC2 - Template Customization
-====================
+# MVC2 - Template Customization
+
 by [Microsoft](https://github.com/microsoft)
 
 In this video you will learn about the template customization features in ASP.NET MVC 2. We'll look at Html.EditorForModel, Html.DisplayForModel, Model Template customization, and DataType customization.

@@ -9,8 +9,8 @@ ms.assetid: b1d73fae-57c9-4b06-b5df-d68dc3b3cf5e
 msc.legacyurl: /web-forms/videos/aspnet-web-forms-vnext/aspnet-vnext-videos-model-binding-part-2-filtering
 msc.type: video
 ---
-ASP.NET vNext Videos: Model Binding Part 2 - Filtering
-====================
+# ASP.NET vNext Videos: Model Binding Part 2 - Filtering
+
 by [Damian Edwards](https://github.com/DamianEdwards)
 
 In this video, Damian Edwards continues the demonstration of model binding by explaining filtering.

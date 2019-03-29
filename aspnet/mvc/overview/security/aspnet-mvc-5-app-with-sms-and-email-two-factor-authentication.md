@@ -9,8 +9,8 @@ ms.assetid: f50a5cdb-c06a-46ed-aa14-fc5b049dc8dc
 msc.legacyurl: /mvc/overview/security/aspnet-mvc-5-app-with-sms-and-email-two-factor-authentication
 msc.type: authoredcontent
 ---
-ASP.NET MVC 5 app with SMS and email Two-Factor Authentication
-====================
+# ASP.NET MVC 5 app with SMS and email Two-Factor Authentication
+
 by [Rick Anderson]((https://twitter.com/RickAndMSFT))
 
 > This tutorial shows you how to build an ASP.NET MVC 5 web app with Two-Factor Authentication. You should complete [Create a secure ASP.NET MVC 5 web app with log in, email confirmation and password reset](create-an-aspnet-mvc-5-web-app-with-email-confirmation-and-password-reset.md) before proceeding. You can download the completed application [here](https://code.msdn.microsoft.com/MVC-5-with-2FA-email-8f26d952). The download contains debugging helpers that let you test email confirmation and SMS without setting up an email or SMS provider.

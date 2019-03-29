@@ -9,8 +9,8 @@ ms.assetid: e81c1e34-f64f-4889-9981-8400d7bb49e4
 msc.legacyurl: /web-forms/videos/tailspin-spyworks/tailspin-spyworks-intro-ui-and-edm
 msc.type: video
 ---
-Tailspin Spyworks - Intro UI and EDM
-====================
+# Tailspin Spyworks - Intro UI and EDM
+
 by [Joe Stagner](https://github.com/JoeStagner)
 
 Joe Stagner kicks off the Tailspin Spyworks sample Web Forms application by implementing the default template.

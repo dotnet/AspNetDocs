@@ -9,8 +9,8 @@ ms.assetid: 66944300-804e-484d-8176-6cfe8c128cfc
 msc.legacyurl: /web-forms/videos/tailspin-spyworks/tailspin-spyworks-creating-and-using-the-popular-products-control
 msc.type: video
 ---
-Tailspin Spyworks - Creating and Using the Popular Products Control
-====================
+# Tailspin Spyworks - Creating and Using the Popular Products Control
+
 by [Joe Stagner](https://github.com/JoeStagner)
 
 Joe Stagner creates and uses the Popular Products control in the Tailspin Spyworks sample Web Forms application.

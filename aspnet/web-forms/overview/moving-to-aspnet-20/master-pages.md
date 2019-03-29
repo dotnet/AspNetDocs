@@ -9,8 +9,8 @@ ms.assetid: 9c0cce4d-efd9-4c14-b0e8-a1a140abb3f4
 msc.legacyurl: /web-forms/overview/moving-to-aspnet-20/master-pages
 msc.type: authoredcontent
 ---
-Master Pages
-====================
+# Master Pages
+
 by [Microsoft](https://github.com/microsoft)
 
 > One of the key components to a successful Web site is a consistent look and feel. In ASP.NET 1.x, developers used user controls to replicate common page elements across a Web application. While that is certainly a workable solution, using user controls does have some drawbacks. For example, a change in position of a user control requires a change to multiple pages across a site. User controls are also not rendered in Design view after being inserted on a page.

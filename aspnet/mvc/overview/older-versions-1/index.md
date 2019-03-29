@@ -9,8 +9,8 @@ ms.assetid: 1506f70f-6919-45bd-8c75-a17aff77510c
 msc.legacyurl: /mvc/overview/older-versions-1
 msc.type: chapter
 ---
-Older Versions - MVC 1 and 2
-====================
+# Older Versions - MVC 1 and 2
+
 > Resources for learning how to program MVC 1 and 2.
 
 

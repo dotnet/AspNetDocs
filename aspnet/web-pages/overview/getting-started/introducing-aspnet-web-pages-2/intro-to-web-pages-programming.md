@@ -9,8 +9,8 @@ ms.assetid: 7526ed45-a97d-4e8a-8301-01324ef0eff9
 msc.legacyurl: /web-pages/overview/getting-started/introducing-aspnet-web-pages-2/intro-to-web-pages-programming
 msc.type: authoredcontent
 ---
-Introducing ASP.NET Web Pages - Programming Basics
-====================
+# Introducing ASP.NET Web Pages - Programming Basics
+
 by [Tom FitzMacken](https://github.com/tfitzmac)
 
 > This tutorial gives you an overview of how to program in ASP.NET Web Pages with Razor syntax.

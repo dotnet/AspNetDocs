@@ -9,8 +9,8 @@ ms.assetid: 665d7ffe-3d96-4afc-a1d8-5330ae819764
 msc.legacyurl: /web-forms/videos/tailspin-spyworks/tailspin-spyworks-display-shopping-cart
 msc.type: video
 ---
-Tailspin Spyworks - Display Shopping Cart
-====================
+# Tailspin Spyworks - Display Shopping Cart
+
 by [Joe Stagner](https://github.com/JoeStagner)
 
 Joe Stagner shows how to display the shopping cart in the Tailspin Spyworks sample Web Forms application.

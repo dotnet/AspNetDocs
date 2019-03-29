@@ -9,8 +9,8 @@ ms.assetid: 9bc6c53a-3e54-4f9d-8bef-0f3359aecf7b
 msc.legacyurl: /mvc/videos/mvc-2/how-do-i
 msc.type: chapter
 ---
-How-Do-I
-====================
+# How-Do-I
+
 > Videos in this section cover ASP.NET MVC, including how to build "The Storefront" - an entire e-commerce application from start to finish.
 
 
