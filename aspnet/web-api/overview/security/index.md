@@ -9,8 +9,8 @@ ms.assetid: bb38add0-5223-4b04-9b12-245911af865a
 msc.legacyurl: /web-api/overview/security
 msc.type: chapter
 ---
-Security, Authentication, and Authorization in ASP.NET Web API
-====================
+# Security, Authentication, and Authorization in ASP.NET Web API
+
 > Security issues for Web API.
 
 

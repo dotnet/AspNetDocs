@@ -9,8 +9,8 @@ ms.assetid: dac14719-1158-4552-ba97-3aae6fb2aaae
 msc.legacyurl: /mvc/videos/mvc-1/aspnet-mvc-storefront/aspnet-mvc-storefront-part-8-testing-controllers-iteration-1-complete
 msc.type: video
 ---
-ASP.NET MVC Storefront Part 8: Testing Controllers, Iteration 1 Complete
-====================
+# ASP.NET MVC Storefront Part 8: Testing Controllers, Iteration 1 Complete
+
 by [Rob Conery](https://github.com/robconery)
 
 Rob finishes up the initial iteration of the site and work on Controller Tests as well.

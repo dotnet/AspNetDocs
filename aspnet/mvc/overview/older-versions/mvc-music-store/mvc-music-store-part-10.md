@@ -9,8 +9,8 @@ ms.assetid: 0c6e4c2f-fcdb-4978-9656-1990c6f15727
 msc.legacyurl: /mvc/overview/older-versions/mvc-music-store/mvc-music-store-part-10
 msc.type: authoredcontent
 ---
-Part 10: Final Updates to Navigation and Site Design, Conclusion
-====================
+# Part 10: Final Updates to Navigation and Site Design, Conclusion
+
 by [Jon Galloway](https://github.com/jongalloway)
 
 > The MVC Music Store is a tutorial application that introduces and explains step-by-step how to use ASP.NET MVC and Visual Studio for web development.  

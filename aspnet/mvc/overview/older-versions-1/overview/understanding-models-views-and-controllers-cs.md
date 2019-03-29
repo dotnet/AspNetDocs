@@ -9,8 +9,8 @@ ms.assetid: 87313792-0a96-4caf-89fc-1457d54e5c1e
 msc.legacyurl: /mvc/overview/older-versions-1/overview/understanding-models-views-and-controllers-cs
 msc.type: authoredcontent
 ---
-Understanding Models, Views, and Controllers (C#)
-====================
+# Understanding Models, Views, and Controllers (C#)
+
 by [Stephen Walther](https://github.com/StephenWalther)
 
 > Confused about Models, Views, and Controllers? In this tutorial, Stephen Walther introduces you to the different parts of an ASP.NET MVC application.

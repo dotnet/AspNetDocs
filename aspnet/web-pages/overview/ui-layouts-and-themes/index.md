@@ -9,8 +9,8 @@ ms.assetid: d7ec6e8a-3e05-4c0d-9207-d17a49f9a64d
 msc.legacyurl: /web-pages/overview/ui-layouts-and-themes
 msc.type: chapter
 ---
-UI, Layouts, and Themes
-====================
+# UI, Layouts, and Themes
+
 > How to customize the site UI in an ASP.NET Web Pages application.
 
 

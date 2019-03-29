@@ -9,8 +9,8 @@ ms.assetid: 24eab207-f69c-4eab-bfae-06725050452d
 msc.legacyurl: /web-forms/overview/security
 msc.type: chapter
 ---
-Security, Authentication, and Authorization in ASP.NET Web Forms
-====================
+# Security, Authentication, and Authorization in ASP.NET Web Forms
+
 > How to let users to log in to your site (and optionally be assigned to roles) using either a login form or Windows authentication.
 
 

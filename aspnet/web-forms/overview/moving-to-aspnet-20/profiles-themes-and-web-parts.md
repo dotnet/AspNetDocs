@@ -9,8 +9,8 @@ ms.assetid: 92df4051-77c6-492c-bd34-23d24189cea4
 msc.legacyurl: /web-forms/overview/moving-to-aspnet-20/profiles-themes-and-web-parts
 msc.type: authoredcontent
 ---
-Profiles, Themes, and Web Parts
-====================
+# Profiles, Themes, and Web Parts
+
 by [Microsoft](https://github.com/microsoft)
 
 > There are major changes in configuration and instrumentation in ASP.NET 2.0. The new ASP.NET configuration API allows for configuration changes to be made programmatically. In addition, many new configuration settings exist allow for new configurations and instrumentation.

@@ -9,8 +9,8 @@ ms.assetid: 81e8ee8e-00ea-4988-9f11-920c1728ee43
 msc.legacyurl: /mvc/videos/mvc-2/how-do-i/understanding-views-view-data-and-html-helpers
 msc.type: video
 ---
-Understanding Views, View Data, and HTML Helpers
-====================
+# Understanding Views, View Data, and HTML Helpers
+
 by [Microsoft](https://github.com/microsoft)
 
 What is an ASP.NET MVC View and how does it differ from a HTML page? In this tutorial, Stephen Walther introduces you to Views and demonstrates how you can take advantage of View Data and HTML Helpers within a View. For additional information about this video, read the "Understanding Views, View Data, and HTML Helpers" tutorial ([C#](../../../overview/older-versions-1/views/asp-net-mvc-views-overview-cs.md), [VB](../../../overview/older-versions-1/views/asp-net-mvc-views-overview-vb.md)).
