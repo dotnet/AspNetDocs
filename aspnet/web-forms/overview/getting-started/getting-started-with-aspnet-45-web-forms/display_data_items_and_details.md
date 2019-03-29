@@ -33,9 +33,9 @@ In this tutorial, you'll learn how to display data items and data item details w
 
 You can use a few different options to bind data to a server control. The most common include:
 
- * Adding a data source control
- * Adding code by hand
- * Using model binding
+* Adding a data source control
+* Adding code by hand
+* Using model binding
 
 ### Use a data source control to bind data
 
