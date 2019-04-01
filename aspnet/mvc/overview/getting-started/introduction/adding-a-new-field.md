@@ -69,7 +69,7 @@ Doing so adds the following using statement:
 > 
 > This code assumes that titles are unique. If you manually add a duplicate title, you'll get the following exception the next time you perform a migration.   
 > 
->  *Sequence contains more than one element*  
+> *Sequence contains more than one element*  
 > 
 > For more information about the [AddOrUpdate](https://msdn.microsoft.com/library/system.data.entity.migrations.idbsetextensions.addorupdate(v=vs.103).aspx) method, see [Take care with EF 4.3 AddOrUpdate Method](http://thedatafarm.com/blog/data-access/take-care-with-ef-4-3-addorupdate-method/)..
 

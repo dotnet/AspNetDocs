@@ -242,7 +242,7 @@ Refresh the *AllTags* view in the mobile browser. You can now navigate between d
 >
 > [!code-csharp[Main](aspnet-mvc-4-mobile-features/samples/sample15.cs)]
 >
->  and adding the following heading to the *Views\Shared\\_Layout.cshtml* file.
+> and adding the following heading to the *Views\Shared\\_Layout.cshtml* file.
 >
 > [!code-html[Main](aspnet-mvc-4-mobile-features/samples/sample16.html)]
 

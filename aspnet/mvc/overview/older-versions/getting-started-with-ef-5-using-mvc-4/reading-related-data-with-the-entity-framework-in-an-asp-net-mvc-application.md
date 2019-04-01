@@ -146,11 +146,13 @@ The method accepts optional route data (`id`) and a query string parameter (`cou
 > 
 > Route data is data that the model binder found in a URL segment specified in the routing table. For example, the default route specifies `controller`, `action`, and `id` segments:
 > 
+> ```csharp
 > routes.MapRoute(  
 >  name: "Default",  
 >  url: "{controller}/{action}/{id}",  
 >  defaults: new { controller = "Home", action = "Index", id = UrlParameter.Optional }  
 > );
+> ```
 > 
 > In the following URL, the default route maps `Instructor` as the `controller`, `Index` as the `action` and 1 as the `id`; these are route data values.
 > 
