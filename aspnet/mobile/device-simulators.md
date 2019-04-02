@@ -1,10 +1,11 @@
 ---
 uid: mobile/device-simulators
-title: "Simulate Popular Mobile Devices for Testing | Microsoft Docs"
+title: "Simulate Popular Mobile Devices for Testing with ASP.NET  | Microsoft Docs"
 author: rick-anderson
-description: "You can download emulators for popular mobile devices and browsers by following these links"
+description: "Download emulators for popular mobile devices and browsers to test with your ASP.NET application. Includes iPhone, Android, BrowserStack and more."
 ms.author: riande
 ms.date: 10/11/2018
+ms.custom: seoapril2019
 ms.assetid: bfb5612e-c3ec-4f28-b43b-63d781aa2272
 msc.legacyurl: /mobile/device-simulators
 msc.type: content
