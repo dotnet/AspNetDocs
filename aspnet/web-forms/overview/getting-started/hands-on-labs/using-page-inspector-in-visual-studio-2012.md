@@ -124,7 +124,7 @@ In this task, you will learn how to use the Page Inspector in the context of an 
     *Toggle Inspection Mode button*
 6. In the Page Inspector browser, move the mouse pointer over the page elements. While you move the mouse pointer over any part of the rendered page, the element type is displayed and the corresponding source markup or code is highlighted in the Visual Studio editor.
 
-    ![Inspectionmodeinaction](using-page-inspector-in-visual-studio-2012/_static/image5.png)
+    ![Inspection mode in action](using-page-inspector-in-visual-studio-2012/_static/image5.png)
 
     *Inspection mode in action*
 
