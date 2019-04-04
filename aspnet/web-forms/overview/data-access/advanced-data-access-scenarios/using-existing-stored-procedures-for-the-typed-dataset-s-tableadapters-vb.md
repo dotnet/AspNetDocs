@@ -234,7 +234,7 @@ While we ve added the `Categories_Delete` stored procedure to the database, the 
 > Earlier in this tutorial we were working with the `NorthwindWithSprocs` DataSet. But that DataSet only has a single entity, `ProductsDataTable`, and we need to work with categories. Therefore, for the remainder of this tutorial when I talk about the Data Access Layer I m referring to the `Northwind` DataSet, the one that we first created in the [Creating a Data Access Layer](../introduction/creating-a-data-access-layer-vb.md) tutorial.
 
 
-Open the Northwind DataSet, select the `CategoriesTableAdapter`, and go to the Properties window. The Properties window lists the `InsertCommand`, `UpdateCommand`, `DeleteCommand`, and `SelectCommand` used by the TableAdapter, as well as its name and connection information. Expand the `DeleteCommand` property to see its details. As Figure 15 shows, the `DeleteCommand` s `ComamndType` property is set to Text, which instructs it to send the text in the `CommandText` property as an ad-hoc SQL query.
+Open the Northwind DataSet, select the `CategoriesTableAdapter`, and go to the Properties window. The Properties window lists the `InsertCommand`, `UpdateCommand`, `DeleteCommand`, and `SelectCommand` used by the TableAdapter, as well as its name and connection information. Expand the `DeleteCommand` property to see its details. As Figure 15 shows, the `DeleteCommand` s `CommandType` property is set to Text, which instructs it to send the text in the `CommandText` property as an ad-hoc SQL query.
 
 
 ![Select the CategoriesTableAdapter in the Designer to View Its Properties in the Properties Window](using-existing-stored-procedures-for-the-typed-dataset-s-tableadapters-vb/_static/image43.png)
