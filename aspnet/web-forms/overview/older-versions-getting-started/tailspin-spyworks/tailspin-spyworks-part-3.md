@@ -60,7 +60,7 @@ Please note the "Eval" statement : &lt;%# Eval("CategoryName") %&gt;
 
 The ASP.NET syntax &lt;%# %&gt; is a shorthand convention that instructs the runtime to execute whatever is contained within and output the results "in Line".
 
-The statement Eval("CategoryName") instructs that, for the current entry in the bound collection of data items, fetch the value of the Entity Model item names "CatagoryName". This is concise syntax for a very powerful feature.
+The statement Eval("CategoryName") instructs that, for the current entry in the bound collection of data items, fetch the value of the Entity Model item names "CategoryName". This is concise syntax for a very powerful feature.
 
 Lets run the application now.
 
