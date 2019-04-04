@@ -40,7 +40,7 @@ By default, ASP.NET shows detailed error information only when your web applicat
 
 To enable the application to display detailed error messages when it runs on the remote host, edit the Web.config file to set customErrors mode off, redeploy the application, and run the application again:
 
-1. If the application Web.config file has a customErrors element in thesystem.web element, change themode attribute to "off". Otherwise add a customErrors element in thesystem.web element with themode attribute set to "off", as shown in the following example: 
+1. If the application Web.config file has a customErrors element in the system.web element, change themode attribute to "off". Otherwise add a customErrors element in the system.web element with themode attribute set to "off", as shown in the following example: 
 
     [!code-xml[Main](troubleshooting/samples/sample2.xml)]
 2. Deploy the application.
