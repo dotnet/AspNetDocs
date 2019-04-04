@@ -192,7 +192,7 @@ Click **Inspect** to put Page Inspector in Inspection Mode.
 
 In the Page Inspector browser, move the mouse pointer over the "Home Page" section until the **div.content-wrapper** label appears. Click once to select this element.
 
-The **Syles** window shows all of the CSS rules for this element. Scroll down to find the .featured .content-wrapper class selector. Click on ".featured .content-wrapper". Page Inspector opens the CSS file that defines this style (Site.css) and highlights the corresponding CSS style.
+The **Styles** window shows all of the CSS rules for this element. Scroll down to find the .featured .content-wrapper class selector. Click on ".featured .content-wrapper". Page Inspector opens the CSS file that defines this style (Site.css) and highlights the corresponding CSS style.
 
 ![CSS file](using-page-inspector-in-a-visual-studio-11-beta-web-forms-project/_static/image18.png)
 
