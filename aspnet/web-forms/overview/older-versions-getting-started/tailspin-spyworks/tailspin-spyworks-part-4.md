@@ -73,7 +73,7 @@ From the site's home page, click on one of the Category List Links.
 
 ![](tailspin-spyworks-part-4/_static/image6.jpg)
 
-Now we need to implement the ProductDetials.aspx page and the AddToCart functionality.
+Now we need to implement the ProductDetails.aspx page and the AddToCart functionality.
 
 Use File-&gt;New to create a page name ProductDetails.aspx using the site Master Page as we did previously.
 
