@@ -171,7 +171,7 @@ You can set folder permissions in the Cytanium control panel. Go to the control 
 
 [![Cytanium_Control_Panel_with_File_Manager_selected](deployment-to-a-hosting-provider-deploying-to-the-production-environment-7-of-12/_static/image35.png)](deployment-to-a-hosting-provider-deploying-to-the-production-environment-7-of-12/_static/image34.png)
 
-In the **File Manager** box, select **contosouniversity.com** and then **wwwrooot** to see the application's root folder. Click the padlock icon next to **Elmah**.
+In the **File Manager** box, select **contosouniversity.com** and then **wwwroot** to see the application's root folder. Click the padlock icon next to **Elmah**.
 
 [![Cytanium_Control_Panel_File_Manager_at_root_folder](deployment-to-a-hosting-provider-deploying-to-the-production-environment-7-of-12/_static/image37.png)](deployment-to-a-hosting-provider-deploying-to-the-production-environment-7-of-12/_static/image36.png)
 
