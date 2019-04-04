@@ -307,7 +307,7 @@ This method will unregister the control that is passed to it as no longer requir
 
 ## Changes to the Page Lifecycle
 
-The page lifecycle in ASP.NET 2.0 hasnt changed dramatically, but there are some new methods that you should be aware of. The ASP.NET 2.0 page lifecycle is outlined below.
+The page lifecycle in ASP.NET 2.0 hasn't changed dramatically, but there are some new methods that you should be aware of. The ASP.NET 2.0 page lifecycle is outlined below.
 
 ## PreInit (New in ASP.NET 2.0)
 
