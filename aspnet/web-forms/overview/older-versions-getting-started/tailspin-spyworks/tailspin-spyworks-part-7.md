@@ -137,7 +137,7 @@ Note also this important line at the top of our control's markup.
 
 Since the most popular items won't be changing on a minute to minute basis we can add a aching directive to improve the performance of our application. This directive will cause the controls code to only be executed when the cached output of the control expires. Otherwise, the cached version of the control's output will be used.
 
-Now all we have to do is include our new control in our Default.aspc page.
+Now all we have to do is include our new control in our Default.aspx page.
 
 Use drag and drop to place an instance of the control in the open column of our Default form.
 
