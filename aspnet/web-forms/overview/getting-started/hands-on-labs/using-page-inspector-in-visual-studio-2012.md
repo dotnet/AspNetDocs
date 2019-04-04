@@ -415,7 +415,7 @@ In this task, you will use the Page inspector for fixing some issues of the Phot
     Page Inspector is aware of all the different files that compose the current page, and it can detect when any of these files change. It alerts you whenever the current page in browser is not in sync with the source files.
 5. In the Page Inspector browser, click the bar located below the address bar to save the changes and reload the page.
 
-    ![Reloadingthepage](using-page-inspector-in-visual-studio-2012/_static/image40.png)
+    ![Reloading the page](using-page-inspector-in-visual-studio-2012/_static/image40.png)
 
     *Reloading the page*
 
