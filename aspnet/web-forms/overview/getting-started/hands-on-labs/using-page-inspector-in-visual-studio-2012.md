@@ -133,7 +133,7 @@ In this task, you will learn how to use the Page Inspector in the context of an 
 
     If you pay attention to the **Index.cshtml** file, you will notice that the portion of source code that generates the selected element is highlighted. This feature facilitates the editing of long source files, providing a direct and fast way to access the code.
 
-    ![Inspectingelements](using-page-inspector-in-visual-studio-2012/_static/image6.png)
+    ![Inspecting elements](using-page-inspector-in-visual-studio-2012/_static/image6.png)
 
     *Inspecting elements*
 7. Click the **Toggle Inspection Mode** button (![Select the HTML tab to display the HTML code rendered in the Page Inspector browser.](using-page-inspector-in-visual-studio-2012/_static/image7.png "Select the HTML tab to display the HTML code rendered in the Page Inspector browser.") ) to disable the cursor.
