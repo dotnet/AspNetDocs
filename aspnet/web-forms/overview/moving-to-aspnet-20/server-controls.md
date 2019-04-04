@@ -93,7 +93,7 @@ In ASP.NET 2.0, the default DOCTYPE definition is as follows:
 
 [!code-html[Main](server-controls/samples/sample7.html)]
 
-If you choose, you can alter the default XHML compliance via the xhtmlConformance node in the configuration file. For example, the following node in the web.config file will change XHTML compliance to XHTML 1.0 Strict:
+If you choose, you can alter the default XHTML compliance via the xhtmlConformance node in the configuration file. For example, the following node in the web.config file will change XHTML compliance to XHTML 1.0 Strict:
 
 [!code-xml[Main](server-controls/samples/sample8.xml)]
 
