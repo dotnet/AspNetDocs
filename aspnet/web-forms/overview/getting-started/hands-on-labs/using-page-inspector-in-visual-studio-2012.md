@@ -150,7 +150,7 @@ In this task, you will learn how to use the Page Inspector in the context of an 
     > [!NOTE]
     > Since the header is a part of the site layout, Page Inspector will also open \_Layout.cshtml file and highlight the segment of code affected.
 
-    ![Discoveringstyles](using-page-inspector-in-visual-studio-2012/_static/image9.png)
+    ![Discovering styles](using-page-inspector-in-visual-studio-2012/_static/image9.png)
 
     *Discovering styles and source files of a selected element*
 11. With the toggle inspection pointer enabled, move the mouse pointer below the blue featured bar and click the half circle.
@@ -341,7 +341,7 @@ In this task, you will learn how to use the Page Inspector features in the conte
     > [!NOTE]
     > since the header is a part of the site layout, Page Inspector will also open Site.Master file and highlight the segment of code affected.
 
-    ![DiscoveringstylesWebForms](using-page-inspector-in-visual-studio-2012/_static/image32.png "Discovering styles and source files of a selected element")
+    ![Discovering styles WebForms](using-page-inspector-in-visual-studio-2012/_static/image32.png "Discovering styles and source files of a selected element")
 
     *Discovering styles and source files of a selected element*
 11. With the toggle inspection pointer enabled, move the mouse pointer below the menu bar and click the blank half circle.
