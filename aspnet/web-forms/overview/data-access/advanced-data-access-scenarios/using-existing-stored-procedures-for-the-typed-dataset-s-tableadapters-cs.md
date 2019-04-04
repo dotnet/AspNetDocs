@@ -59,7 +59,7 @@ Figure 2 shows Visual Studio after the `Products_SelectByCategoryID` stored proc
 
 ## Step 2: Configuring the TableAdapter to Use an Existing Stored Procedure
 
-Now that the `Products_SelectByCategoryID` stored procedure has been added to the database, we can concigure our Data Access Layer to use this stored procedure when one of its methods is invoked. In particular, we will add a `GetProducstByCategoryID(categoryID)` method to the `ProductsTableAdapter` in the `NorthwindWithSprocs` Typed DataSet that calls the `Products_SelectByCategoryID` stored procedure we just created.
+Now that the `Products_SelectByCategoryID` stored procedure has been added to the database, we can configure our Data Access Layer to use this stored procedure when one of its methods is invoked. In particular, we will add a `GetProducstByCategoryID(categoryID)` method to the `ProductsTableAdapter` in the `NorthwindWithSprocs` Typed DataSet that calls the `Products_SelectByCategoryID` stored procedure we just created.
 
 Start by opening the `NorthwindWithSprocs` DataSet. Right-click on the `ProductsTableAdapter` and choose Add Query to launch the TableAdapter Query Configuration wizard. In the [preceding tutorial](creating-new-stored-procedures-for-the-typed-dataset-s-tableadapters-cs.md) we opted to have the TableAdapter create a new stored procedure for us. For this tutorial, however, we want to wire the new TableAdapter method to the existing `Products_SelectByCategoryID` stored procedure. Therefore, choose the Use existing stored procedure option from the wizard s first step and then click Next.
 
