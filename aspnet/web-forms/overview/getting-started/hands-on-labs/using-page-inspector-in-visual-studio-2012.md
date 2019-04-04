@@ -100,7 +100,7 @@ In this task, you will learn how to use the Page Inspector in the context of an 
     *Selecting a file to preview in Page Inspector*
 3. The Page Inspector window will show the */Home/Index* URL mapped to the source View you selected.
 
-    ![ThefirstcontactwithPageInspector](using-page-inspector-in-visual-studio-2012/_static/image2.png)
+    ![The first contact with PageInspector](using-page-inspector-in-visual-studio-2012/_static/image2.png)
 
     *The first contact with Page Inspector*
 
