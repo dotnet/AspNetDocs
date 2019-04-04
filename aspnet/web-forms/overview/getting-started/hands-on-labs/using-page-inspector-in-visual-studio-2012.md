@@ -255,7 +255,7 @@ In this task, you will use the Page inspector and fix some issues the Photo Gall
 
     *Assigning a new title*
 
-    ![PhotoGallerypage](using-page-inspector-in-visual-studio-2012/_static/image23.png)
+    ![Photo Gallery page](using-page-inspector-in-visual-studio-2012/_static/image23.png)
 
     *Photo Gallery page updated*
 11. Finally, selet the **PhotoGallery** project and press **F5** to run the app. Check out all the changes work as expected.
