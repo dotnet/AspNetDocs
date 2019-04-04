@@ -35,11 +35,11 @@ Though users can browse our catalog, place items in their shopping cart, and com
 
 In the "Account" folder create two .aspx pages one named OrderList.aspx and the other named OrderDetails.aspx
 
-OrderList.aspx will leverage the GridView and EntityDataSoure controls much as we have previously.
+OrderList.aspx will leverage the GridView and EntityDataSource controls much as we have previously.
 
 [!code-aspx[Main](tailspin-spyworks-part-7/samples/sample1.aspx)]
 
-The EntityDataSoure selects records from the Orders table filtered on the UserName (see the WhereParameter) which we set in a session variable when the user log's in.
+The EntityDataSource selects records from the Orders table filtered on the UserName (see the WhereParameter) which we set in a session variable when the user log's in.
 
 Note also these parameters in the HyperlinkField of the GridView:
 
