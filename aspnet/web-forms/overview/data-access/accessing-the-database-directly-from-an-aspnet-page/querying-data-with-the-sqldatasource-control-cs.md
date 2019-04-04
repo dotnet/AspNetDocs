@@ -45,7 +45,7 @@ The SqlDataSource provides the same functionality, but operates against a relati
 
 
 > [!NOTE]
-> In this tutorial we'll focus on retrieving data from the database. In the [Inserting, Updating, and Deleteing Data with the SqlDataSource Control](inserting-updating-and-deleting-data-with-the-sqldatasource-cs.md) tutorial, we'll see how to configure the SqlDataSource to support inserting, updating, and deleting.
+> In this tutorial we'll focus on retrieving data from the database. In the [Inserting, Updating, and Deleting Data with the SqlDataSource Control](inserting-updating-and-deleting-data-with-the-sqldatasource-cs.md) tutorial, we'll see how to configure the SqlDataSource to support inserting, updating, and deleting.
 
 
 ## The SqlDataSource and AccessDataSource Controls
