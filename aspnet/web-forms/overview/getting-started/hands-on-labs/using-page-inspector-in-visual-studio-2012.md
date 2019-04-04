@@ -174,7 +174,7 @@ In this task, you will learn how to use the Page Inspector in the context of an 
     *Changing CSS values in the Page Inspector*
 15. Click the **Trace Styles** tab, located in the right pane of Page Inspector. This is an alternative way to see all the styles applied to the selection, ordered by attribute name.
 
-    ![CSSstylestracing](using-page-inspector-in-visual-studio-2012/_static/image13.png)
+    ![CSS styles tracing](using-page-inspector-in-visual-studio-2012/_static/image13.png)
 
     *CSS styles tracing of the selected element*
 16. Another feature of Page Inspector is the Layout pane. Using the inspection mode, select the navigation bar and then click the **Layout** tab on the right pane. You will see the exact size of the selected element, as well as its offset, margin, padding and border size. Notice that you can also modify the values from this view.
