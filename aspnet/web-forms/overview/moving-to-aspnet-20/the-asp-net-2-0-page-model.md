@@ -502,7 +502,7 @@ Recall that *cbRef* is the return value from the call to GetCallbackEventReferen
 
 ## Step 4 : Register the Client-Side Script
 
-Recall that the call to GetCallbackEventReference specified that a client-side script called **ShowCompanyName** would be executed when the server-side callback succeeds. That script needs to be added to the page using a ClientScriptManager instance. (The ClientScriptManager class will be dicussed later in this module.) You do that like so:
+Recall that the call to GetCallbackEventReference specified that a client-side script called **ShowCompanyName** would be executed when the server-side callback succeeds. That script needs to be added to the page using a ClientScriptManager instance. (The ClientScriptManager class will be discussed later in this module.) You do that like so:
 
 [!code-javascript[Main](the-asp-net-2-0-page-model/samples/sample16.js)]
 
