@@ -259,7 +259,7 @@ This property returns the PageStatePersister object for the page. This property 
 
 ## UniqueFilePathSuffix
 
-This property returns a unique suffic that is appended to the file path for caching browsers. The default value is \_\_ufps= and a 6-digit number.
+This property returns a unique suffix that is appended to the file path for caching browsers. The default value is \_\_ufps= and a 6-digit number.
 
 ## New Public Methods for the Page Class
 
