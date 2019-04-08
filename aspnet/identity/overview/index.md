@@ -1,6 +1,6 @@
 ---
 uid: identity/overview/index
-title: "ASP.NET Identity Overview | Microsoft Docs"
+title: "ASP.NET Identity Overview - ASP.NET 4.x"
 author: rick-anderson
 description: ""
 ms.author: riande
