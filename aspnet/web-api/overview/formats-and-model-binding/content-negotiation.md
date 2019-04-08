@@ -1,10 +1,11 @@
 ---
 uid: web-api/overview/formats-and-model-binding/content-negotiation
-title: "Content Negotiation in ASP.NET Web API | Microsoft Docs"
+title: "Content Negotiation in ASP.NET Web API - ASP.NET 4.x"
 author: MikeWasson
-description: "Describes how ASP.NET Web API implements HTTP content negotiation."
+description: "Describes how ASP.NET Web API implements HTTP content negotiation for ASP.NET 4.x."
 ms.author: riande
 ms.date: 05/20/2012
+ms.custom: seoapril2019
 ms.assetid: 0dd51b30-bf5a-419f-a1b7-2817ccca3c7d
 msc.legacyurl: /web-api/overview/formats-and-model-binding/content-negotiation
 msc.type: authoredcontent
@@ -13,7 +14,7 @@ msc.type: authoredcontent
 
 by [Mike Wasson](https://github.com/MikeWasson)
 
-This article describes how ASP.NET Web API implements content negotiation.
+This article describes how ASP.NET Web API implements content negotiation for ASP.NET 4.x.
 
 The HTTP specification (RFC 2616) defines content negotiation as "the process of selecting the best representation for a given response when there are multiple representations available." The primary mechanism for content negotiation in HTTP are these request headers:
 

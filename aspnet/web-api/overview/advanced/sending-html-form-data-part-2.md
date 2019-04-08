@@ -1,10 +1,11 @@
 ---
 uid: web-api/overview/advanced/sending-html-form-data-part-2
-title: "Sending HTML Form Data in ASP.NET Web API: File Upload and Multipart MIME | Microsoft Docs"
+title: "Sending HTML Form Data in ASP.NET Web API: File Upload and Multipart MIME - ASP.NET 4.x"
 author: MikeWasson
-description: ""
+description: "This tutorial shows how to upload files to a web API. It also describes how to process multipart MIME data."
 ms.author: riande
 ms.date: 06/21/2012
+ms.custom: seoapril2019
 ms.assetid: a7f3c1b5-69d9-4261-b082-19ffafa5f16a
 msc.legacyurl: /web-api/overview/advanced/sending-html-form-data-part-2
 msc.type: authoredcontent

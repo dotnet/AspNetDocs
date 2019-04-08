@@ -1,10 +1,11 @@
 ---
 uid: web-api/overview/advanced/configuring-aspnet-web-api
-title: "Configuring ASP.NET Web API 2 | Microsoft Docs"
+title: "Configuring ASP.NET Web API 2 - ASP.NET 4.x"
 author: MikeWasson
-description: ""
+description: "Configure ASP.NET Web API 2 for ASP.NET 4.x: Configure settings, ASP.NET 4.x hosting, OWIN self-hosting, global services and pre-controller configuration."
 ms.author: riande
 ms.date: 03/31/2014
+ms.custom: seoapril2019
 ms.assetid: 9e10a700-8d91-4d2e-a31e-b8b569fe867c
 msc.legacyurl: /web-api/overview/advanced/configuring-aspnet-web-api
 msc.type: authoredcontent
