@@ -1,17 +1,18 @@
 ---
 uid: mvc/overview/deployment/index
-title: "Deployment | Microsoft Docs"
+title: "ASP.NET MVC 5.0 Deployment - ASP.NET 4.x"
 author: rick-anderson
-description: "How to deploy ASP.NET MVC projects to a server."
+description: "How to deploy ASP.NET MVC 5.0 projects to a server."
 ms.author: riande
 ms.date: 08/18/2011
+ms.custom: seoapril2019
 ms.assetid: 31922c31-59df-4399-99d2-e935a476f16a
 msc.legacyurl: /mvc/overview/deployment
 msc.type: chapter
 ---
 # ASP.NET MVC Deployment
 
-> How to deploy ASP.NET MVC projects to a server.
+> How to deploy ASP.NET MVC 5.0 projects to a server.
 
 - [Web Deployment Overview for Visual Studio and ASP.NET](https://msdn.microsoft.com/library/dd394698)
 - [Migrating ASP.NET MVC Applications to Windows Containers](docker-aspnetmvc.md)
