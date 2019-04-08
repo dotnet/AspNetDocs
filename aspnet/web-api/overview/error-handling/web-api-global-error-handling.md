@@ -1,10 +1,11 @@
 ---
 uid: web-api/overview/error-handling/web-api-global-error-handling
-title: "Global Error Handling in ASP.NET Web API 2 | Microsoft Docs"
+title: "Global Error Handling in ASP.NET Web API 2 - ASP.NET 4.x"
 author: davidmatson
-description: ""
+description: "An overview of global error handling in ASP.NET Web API 2 for ASP.NET 4.x."
 ms.author: riande
 ms.date: 02/03/2014
+ms.custom: seoapril2019
 ms.assetid: bffd7863-f63b-4b23-a13c-372b5492e9fb
 msc.legacyurl: /web-api/overview/error-handling/web-api-global-error-handling
 msc.type: authoredcontent
@@ -13,6 +14,7 @@ msc.type: authoredcontent
 
 by [David Matson](https://github.com/davidmatson), [Rick Anderson]((https://twitter.com/RickAndMSFT))
 
+This topic provides an overview of global error handling in ASP.NET Web API 2 for ASP.NET 4.x. 
 Today there's no easy way in Web API to log or handle errors globally. Some unhandled exceptions can be processed via [exception filters](exception-handling.md), but there are a number of cases that exception filters can't handle. For example:
 
 1. Exceptions thrown from controller constructors.
