@@ -80,7 +80,7 @@ A *model* is an object that represents the data in your application. In ASP.NET 
 
 For the ProductStore API, our data consists of products, so we'll create a new class named `Product`.
 
-If Solution Explorer is not already visible, click the **View** menu and select **Solution Explorer**. In Solution Explorer, right-click the **Models** folder. From the context meny, select **Add**, then select **Class**. Name the class &quot;Product&quot;.
+If Solution Explorer is not already visible, click the **View** menu and select **Solution Explorer**. In Solution Explorer, right-click the **Models** folder. From the context menu, select **Add**, then select **Class**. Name the class &quot;Product&quot;.
 
 ![](creating-a-web-api-that-supports-crud-operations/_static/image3.png)
 

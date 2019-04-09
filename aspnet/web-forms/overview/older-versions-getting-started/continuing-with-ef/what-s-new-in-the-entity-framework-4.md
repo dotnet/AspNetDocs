@@ -129,7 +129,7 @@ In the **Choose Your Data Connection** step, click **New Connection**.
 
 [![Image14](what-s-new-in-the-entity-framework-4/_static/image26.png)](what-s-new-in-the-entity-framework-4/_static/image25.png)
 
-In the **Connection Properties** dialog box, select the local SQL Server Express instance and name the database `AlumniAsssociation`.
+In the **Connection Properties** dialog box, select the local SQL Server Express instance and name the database `AlumniAssociation`.
 
 [![Image15](what-s-new-in-the-entity-framework-4/_static/image28.png)](what-s-new-in-the-entity-framework-4/_static/image27.png)
 

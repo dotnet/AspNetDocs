@@ -40,7 +40,7 @@ By default, ASP.NET shows detailed error information only when your web applicat
 
 To enable the application to display detailed error messages when it runs on the remote host, edit the Web.config file to set customErrors mode off, redeploy the application, and run the application again:
 
-1. If the application Web.config file has acustomErrors element in thesystem.web element, change themode attribute to "off". Otherwise add acustomErrors element in thesystem.web element with themode attribute set to "off", as shown in the following example: 
+1. If the application Web.config file has a customErrors element in the system.web element, change the mode attribute to "off". Otherwise add a customErrors element in the system.web element with the mode attribute set to "off", as shown in the following example: 
 
     [!code-xml[Main](troubleshooting/samples/sample2.xml)]
 2. Deploy the application.
@@ -123,7 +123,7 @@ Format of the initialization string does not conform to specification starting a
 
 ### Possible Cause and Solution
 
-Open the *Web.config* file in the deployed site and check to see whether the connection string values begin with $(ReplacableToken\_, as in the following example:
+Open the *Web.config* file in the deployed site and check to see whether the connection string values begin with `$(ReplaceableToken_`, as in the following example:
 
 [!code-xml[Main](troubleshooting/samples/sample5.xml)]
 

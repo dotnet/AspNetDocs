@@ -28,7 +28,7 @@ In general, all client-side support files should be copied from the development 
 
 ASP.NET web pages are divided into declarative markup and source code. The declarative markup portion includes HTML, Web controls, and databinding syntax; the code portion contains event handlers written in Visual Basic or C# code. The markup and code portions are typically separated into different files: `WebPage.aspx` contains the declarative markup while `WebPage.aspx.cs` houses the code.
 
-Consider an ASP.NET page named Clock.aspx that contains a Label control whose Text property is set to the current date and time when the page loads. The declarative markup portion (in `Clock.aspx`) would contain the markup for a Label Web control -`<asp:Label runat="server" id="TimeLabel" />` - while the code portion (in `Clock.aspx.cs`) would have a `Page_Load` event hander with the following code:
+Consider an ASP.NET page named Clock.aspx that contains a Label control whose Text property is set to the current date and time when the page loads. The declarative markup portion (in `Clock.aspx`) would contain the markup for a Label Web control -`<asp:Label runat="server" id="TimeLabel" />` - while the code portion (in `Clock.aspx.cs`) would have a `Page_Load` event handler with the following code:
 
 [!code-csharp[Main](determining-what-files-need-to-be-deployed-cs/samples/sample1.cs)]
 

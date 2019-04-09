@@ -113,7 +113,7 @@ Figures 7, 8, and 9 show the ObjectDataSource's UPDATE, INSERT, and DELETE tabs.
 **Figure 9**: Map the ObjectDataSource's `Delete()` Method to the `ProductBLL` Class's `DeleteProduct` Method ([Click to view full-size image](an-overview-of-inserting-updating-and-deleting-data-cs/_static/image23.png))
 
 
-You may have noticed that the drop-down lists in the UPDATE, INSERT, and DELETE tabs already had these methods selected. This is thanks to our use of the `DataObjectMethodAttribute` that decorates the methods of `ProducstBLL`. For example, the DeleteProduct method has the following signature:
+You may have noticed that the drop-down lists in the UPDATE, INSERT, and DELETE tabs already had these methods selected. This is thanks to our use of the `DataObjectMethodAttribute` that decorates the methods of `ProductsBLL`. For example, the DeleteProduct method has the following signature:
 
 
 [!code-csharp[Main](an-overview-of-inserting-updating-and-deleting-data-cs/samples/sample2.cs)]

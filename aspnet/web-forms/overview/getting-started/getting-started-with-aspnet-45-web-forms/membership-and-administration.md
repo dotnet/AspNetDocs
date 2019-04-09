@@ -60,12 +60,12 @@ Using ASP.NET Identity, you can add a custom role and assign a user to that role
    The letter "A" at the beginning of the highlighted method will be underlined.
 7. Hover over the letter "A" and click the UI that allows you to generate a method stub for the `AddUserAndRole` method. 
 
-    ![Membership and Advministration - Generate Method Stub](membership-and-administration/_static/image1.png)
+    ![Membership and Administration - Generate Method Stub](membership-and-administration/_static/image1.png)
 8. Click the option titled:  
     `Generate method stub for "AddUserAndRole" in "WingtipToys.Logic.RoleActions"`
 9. Open the *RoleActions.cs* file from the *Logic* folder.  
    The `AddUserAndRole` method has been added to the class file.
-10. Modify the *RoleActions.cs* file by removing the `NotImplementedeException` and adding the code highlighted in yellow, so that it appears as follows:  
+10. Modify the *RoleActions.cs* file by removing the `NotImplementedException` and adding the code highlighted in yellow, so that it appears as follows:  
 
     [!code-csharp[Main](membership-and-administration/samples/sample3.cs?highlight=5-7,15-51)]
 

@@ -124,7 +124,7 @@ The project is now ready to deploy the *ContosoUniversity* database. After you d
 > [!NOTE]
 > Adding code to the `Seed` method is one of many ways that you can insert fixed data into the database. An alternative is to add code to the `Up` and `Down` methods of each migration class. The `Up` and `Down` methods contain code that implements database changes. You'll see examples of them in the [Deploying a Database Update](deploying-a-database-update.md) tutorial.
 > 
-> You can also write code that executes SQL statements by using the `Sql` method. For example, if you were adding a Budget column to the Department table and wanted to initialize all department budgets to $1,000.00 as part of a migration, you could add the folllowing line of code to the `Up` method for that migration:
+> You can also write code that executes SQL statements by using the `Sql` method. For example, if you were adding a Budget column to the Department table and wanted to initialize all department budgets to $1,000.00 as part of a migration, you could add the following line of code to the `Up` method for that migration:
 > 
 > `Sql("UPDATE Department SET Budget = 1000");`
 

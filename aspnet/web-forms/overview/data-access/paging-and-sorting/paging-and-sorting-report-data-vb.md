@@ -61,7 +61,7 @@ In order to have the bulleted list display the paging and sorting tutorials we'l
 
 ## Step 2: Displaying Product Information in a GridView
 
-Before we actually implement paging and sorting capabilities, let s first create a standard non-srotable, non-pageable GridView that lists the product information. This is a task we ve done many times before throughout this tutorial series so these steps should be familiar. Start by opening the `SimplePagingSorting.aspx` page and drag a GridView control from the Toolbox onto the Designer, setting its `ID` property to `Products`. Next, create a new ObjectDataSource that uses the ProductsBLL class s `GetProducts()` method to return all of the product information.
+Before we actually implement paging and sorting capabilities, let s first create a standard non-sortable, non-pageable GridView that lists the product information. This is a task we ve done many times before throughout this tutorial series so these steps should be familiar. Start by opening the `SimplePagingSorting.aspx` page and drag a GridView control from the Toolbox onto the Designer, setting its `ID` property to `Products`. Next, create a new ObjectDataSource that uses the ProductsBLL class s `GetProducts()` method to return all of the product information.
 
 
 ![Retrieve Information About All of the Products Using the GetProducts() Method](paging-and-sorting-report-data-vb/_static/image4.png)

@@ -312,9 +312,9 @@ After adding these `Click` event handlers and the code to enable or disable the 
 **Figure 15**: The Previous and Last Buttons are Disabled When Viewing the First Page of Products ([Click to view full-size image](sorting-data-in-a-datalist-or-repeater-control-cs/_static/image43.png))
 
 
-[![The Second Page of Products are Dispalyed](sorting-data-in-a-datalist-or-repeater-control-cs/_static/image45.png)](sorting-data-in-a-datalist-or-repeater-control-cs/_static/image44.png)
+[![The Second Page of Products are Displayed](sorting-data-in-a-datalist-or-repeater-control-cs/_static/image45.png)](sorting-data-in-a-datalist-or-repeater-control-cs/_static/image44.png)
 
-**Figure 16**: The Second Page of Products are Dispalyed ([Click to view full-size image](sorting-data-in-a-datalist-or-repeater-control-cs/_static/image46.png))
+**Figure 16**: The Second Page of Products are Displayed ([Click to view full-size image](sorting-data-in-a-datalist-or-repeater-control-cs/_static/image46.png))
 
 
 [![Clicking Last Displays the Final Page of Data](sorting-data-in-a-datalist-or-repeater-control-cs/_static/image48.png)](sorting-data-in-a-datalist-or-repeater-control-cs/_static/image47.png)

@@ -56,7 +56,7 @@ This query is equivalent to:
 <a id="open-entity-types"></a>
 ### Support for Open Entity Types
 
-An *open type* is a stuctured type that contains dynamic properties, in addition to any properties that are declared in the type definition. Open types let you add flexibility to your data models. For more information, see xxxx.
+An *open type* is a structured type that contains dynamic properties, in addition to any properties that are declared in the type definition. Open types let you add flexibility to your data models. For more information, see xxxx.
 
 ### Support for dynamic collection properties in open types
 

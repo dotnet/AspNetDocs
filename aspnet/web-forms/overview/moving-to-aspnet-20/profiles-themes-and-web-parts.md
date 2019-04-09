@@ -16,7 +16,7 @@ by [Microsoft](https://github.com/microsoft)
 > There are major changes in configuration and instrumentation in ASP.NET 2.0. The new ASP.NET configuration API allows for configuration changes to be made programmatically. In addition, many new configuration settings exist allow for new configurations and instrumentation.
 
 
-ASP.NET 2.0 represents a substantial improvement in the area of personalized Web sites. In addition to the membership features weve already covered, ASP.NET profiles, themes, and Web parts significantly enhance personalization in Web sites.
+ASP.NET 2.0 represents a substantial improvement in the area of personalized Web sites. In addition to the membership features we've already covered, ASP.NET profiles, themes, and Web parts significantly enhance personalization in Web sites.
 
 ## ASP.NET Profiles
 

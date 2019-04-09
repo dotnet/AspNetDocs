@@ -40,7 +40,7 @@ Protected Sub AddProducts_Click(sender As Object, e As EventArgs) _
         ' Add the new products to the database using a transaction
         Dim productsAPI As New ProductsBLL()
         productsAPI.UpdateWithTransaction(products)
-        ' Rebind the data to the grid so that the producst just added are displayed
+        ' Rebind the data to the grid so that the products just added are displayed
         ProductsGrid.DataBind()
         ' Display a confirmation (don't use the Warning CSS class, though)
         StatusLabel.CssClass = String.Empty

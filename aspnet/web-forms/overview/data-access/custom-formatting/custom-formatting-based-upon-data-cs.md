@@ -254,7 +254,7 @@ This event handler can be created using the same series of steps as with the For
 **Figure 10**: Create an Event Handler for the GridView's `RowDataBound` Event
 
 
-Creating the event hander in this manner will cause the following code to be automatically added to the ASP.NET page's code portion:
+Creating the event handler in this manner will cause the following code to be automatically added to the ASP.NET page's code portion:
 
 
 [!code-csharp[Main](custom-formatting-based-upon-data-cs/samples/sample14.cs)]

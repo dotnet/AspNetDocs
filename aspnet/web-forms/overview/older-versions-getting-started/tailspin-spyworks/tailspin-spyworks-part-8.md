@@ -22,7 +22,7 @@ by [Joe Stagner](https://github.com/JoeStagner)
 
 Create a new page named ContactUs.aspx
 
-Using the designer, create the following form taking special note to include the ToolkitScriptManager and the Editor control from the AjaxdControlToolkit. .
+Using the designer, create the following form taking special note to include the ToolkitScriptManager and the Editor control from the AjaxControlToolkit. .
 
 ![](tailspin-spyworks-part-8/_static/image1.jpg)
 

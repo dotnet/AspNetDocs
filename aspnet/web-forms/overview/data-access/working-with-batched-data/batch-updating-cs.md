@@ -129,9 +129,9 @@ The editing interface in the `CategoryName` TemplateField s `EditItemTemplate` c
 Drag a DropDownList from the Toolbox onto the `CategoryName` TemplateField s `ItemTemplate`, setting its `ID` to `Categories`. At this point we would usually define the DropDownLists s data source through its smart tag, creating a new ObjectDataSource. However, this will add the ObjectDataSource within the `ItemTemplate`, which will result in an ObjectDataSource instance created for each GridView row. Instead, let s create the ObjectDataSource outside of the GridView s TemplateFields. End the template editing and drag an ObjectDataSource from the Toolbox onto the Designer beneath the `ProductsDataSource` ObjectDataSource. Name the new ObjectDataSource `CategoriesDataSource` and configure it to use the `CategoriesBLL` class s `GetCategories` method.
 
 
-[![Configure the ObjectDataSource to Use the CategoriesBLL Clas](batch-updating-cs/_static/image8.gif)](batch-updating-cs/_static/image13.png)
+[![Configure the ObjectDataSource to Use the CategoriesBLL Class](batch-updating-cs/_static/image8.gif)](batch-updating-cs/_static/image13.png)
 
-**Figure 8**: Configure the ObjectDataSource to Use the `CategoriesBLL` Clas ([Click to view full-size image](batch-updating-cs/_static/image14.png))
+**Figure 8**: Configure the ObjectDataSource to Use the `CategoriesBLL` Class ([Click to view full-size image](batch-updating-cs/_static/image14.png))
 
 
 [![Retrieve the Category Data Using the GetCategories Method](batch-updating-cs/_static/image9.gif)](batch-updating-cs/_static/image15.png)
