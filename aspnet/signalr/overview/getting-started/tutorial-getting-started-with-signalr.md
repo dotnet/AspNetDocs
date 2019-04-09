@@ -76,6 +76,7 @@ This section shows how to use Visual Studio 2017 and SignalR 2 to create an empt
 1. Check that the script references in the code block correspond to the versions of the script files in the project.
 
     Script references from the original code block:
+
     ```html
     <!--Script references. -->
     <!--Reference the jQuery library. -->
