@@ -9,8 +9,8 @@ ms.assetid: 94ea1a70-a9bc-4241-8f36-08366d64bab9
 msc.legacyurl: /web-forms/overview/older-versions-getting-started/tailspin-spyworks/tailspin-spyworks-part-3
 msc.type: authoredcontent
 ---
-Part 3: Layout and Category Menu
-====================
+# Part 3: Layout and Category Menu
+
 by [Joe Stagner](https://github.com/JoeStagner)
 
 > Tailspin Spyworks demonstrates how extraordinarily simple it is to create powerful, scalable applications for the .NET platform. It shows off how to use the great new features in ASP.NET 4 to build an online store, including shopping, checkout, and administration.
@@ -60,7 +60,7 @@ Please note the "Eval" statement : &lt;%# Eval("CategoryName") %&gt;
 
 The ASP.NET syntax &lt;%# %&gt; is a shorthand convention that instructs the runtime to execute whatever is contained within and output the results "in Line".
 
-The statement Eval("CategoryName") instructs that, for the current entry in the bound collection of data items, fetch the value of the Entity Model item names "CatagoryName". This is concise syntax for a very powerful feature.
+The statement Eval("CategoryName") instructs that, for the current entry in the bound collection of data items, fetch the value of the Entity Model item names "CategoryName". This is concise syntax for a very powerful feature.
 
 Lets run the application now.
 

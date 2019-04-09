@@ -9,8 +9,8 @@ ms.assetid: 07e15538-2f29-40c6-b2e7-e6115075ac83
 msc.legacyurl: /web-forms/overview/older-versions-security/introduction/security-basics-and-asp-net-support-cs
 msc.type: authoredcontent
 ---
-Security Basics and ASP.NET Support (C#)
-====================
+# Security Basics and ASP.NET Support (C#)
+
 by [Scott Mitchell](https://twitter.com/ScottOnWriting)
 
 [Download PDF](http://download.microsoft.com/download/2/F/7/2F705A34-F9DE-4112-BBDE-60098089645E/aspnet_tutorial01_Basics_cs.pdf)

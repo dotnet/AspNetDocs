@@ -9,8 +9,8 @@ ms.assetid: 01305c35-5b83-408b-bc9d-fa31b17a723f
 msc.legacyurl: /web-forms/videos/aspnet-35/visual-studio-editor/new-designer-support-in-visual-studio-2008
 msc.type: video
 ---
-New Designer Support in Visual Studio 2008
-====================
+# New Designer Support in Visual Studio 2008
+
 by [Joe Stagner](https://github.com/JoeStagner)
 
 In this video I will demonstrate several of the new designer features in Visual Studio 2008.

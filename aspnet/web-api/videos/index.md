@@ -9,8 +9,8 @@ ms.assetid: 8ed7e133-707b-43e6-bce4-e9d266935573
 msc.legacyurl: /web-api/videos
 msc.type: book
 ---
-ASP.NET Web API Videos
-====================
+# ASP.NET Web API Videos
+
 - [Overview and Getting Started](getting-started/index.md)
 
     - [ASP.NET Web API](getting-started/aspnet-web-api.md)

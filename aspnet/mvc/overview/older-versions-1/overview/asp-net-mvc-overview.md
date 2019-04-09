@@ -9,8 +9,8 @@ ms.assetid: 2dcb44a4-5cbf-4d62-b363-718104082d86
 msc.legacyurl: /mvc/overview/older-versions-1/overview/asp-net-mvc-overview
 msc.type: authoredcontent
 ---
-ASP.NET MVC Overview
-====================
+# ASP.NET MVC Overview
+
 by [Microsoft](https://github.com/microsoft)
 
 > Learn about the differences between ASP.NET MVC application and ASP.NET Web Forms applications. Learn how to decide when to build an ASP.NET MVC application.

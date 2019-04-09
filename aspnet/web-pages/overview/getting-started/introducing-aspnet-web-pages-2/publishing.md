@@ -9,8 +9,8 @@ ms.assetid: 7e85c70e-1a88-4408-8b3d-29611c7713ed
 msc.legacyurl: /web-pages/overview/getting-started/introducing-aspnet-web-pages-2/publishing
 msc.type: authoredcontent
 ---
-Introducing ASP.NET Web Pages - Publishing a Site by Using WebMatrix
-====================
+# Introducing ASP.NET Web Pages - Publishing a Site by Using WebMatrix
+
 by [Tom FitzMacken](https://github.com/tfitzmac)
 
 > This tutorial is the final installment in the tutorial set that introduces ASP.NET Web Pages and Microsoft WebMatrix. It discusses how to publish your site to the Internet so that others can work with it. It assumes you have completed the series through [Creating a Consistent Look for ASP.NET Web Pages Sites](https://go.microsoft.com/fwlink/?LinkId=251585).

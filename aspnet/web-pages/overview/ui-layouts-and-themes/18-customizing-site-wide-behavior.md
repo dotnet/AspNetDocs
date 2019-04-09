@@ -9,8 +9,8 @@ ms.assetid: e158bed7-226f-4275-b02e-7553bd58c669
 msc.legacyurl: /web-pages/overview/ui-layouts-and-themes/18-customizing-site-wide-behavior
 msc.type: authoredcontent
 ---
-Customizing Site-Wide Behavior for ASP.NET Web Pages (Razor) Sites
-====================
+# Customizing Site-Wide Behavior for ASP.NET Web Pages (Razor) Sites
+
 by [Tom FitzMacken](https://github.com/tfitzmac)
 
 > This article explains how to make site-side settings for pages in an ASP.NET Web Pages (Razor) website.

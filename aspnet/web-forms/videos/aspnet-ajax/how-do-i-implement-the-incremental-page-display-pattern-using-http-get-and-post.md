@@ -9,8 +9,8 @@ ms.assetid: 28d5bb59-9aad-4cdd-8088-1e9d3d230ac5
 msc.legacyurl: /web-forms/videos/aspnet-ajax/how-do-i-implement-the-incremental-page-display-pattern-using-http-get-and-post
 msc.type: video
 ---
-[How Do I:] Implement the Incremental Page Display Pattern using HTTP GET and POST?
-====================
+# [How Do I:] Implement the Incremental Page Display Pattern using HTTP GET and POST?
+
 by [Joe Stagner](https://github.com/JoeStagner)
 
 This video takes another look at the AJAX Incremental Page Display Pattern in which the Web page is retrieved and displayed incrementally. In this video the data is retrieved from the server using HTTP GET and POST requests, rather than the earlier demonstration of using Web service calls.

@@ -9,8 +9,8 @@ ms.assetid: 262843d6-43a2-4f1c-82d9-0b90ae6df0cf
 msc.legacyurl: /web-api/overview/odata-support-in-aspnet-web-api/odata-v3/creating-an-odata-endpoint
 msc.type: authoredcontent
 ---
-Creating an OData v3 Endpoint with Web API 2
-====================
+# Creating an OData v3 Endpoint with Web API 2
+
 by [Mike Wasson](https://github.com/MikeWasson)
 
 [Download Completed Project](http://code.msdn.microsoft.com/ASPNET-Web-API-OData-cecdb524)

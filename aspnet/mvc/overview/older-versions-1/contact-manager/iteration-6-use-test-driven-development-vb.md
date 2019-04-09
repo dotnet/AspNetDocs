@@ -9,8 +9,8 @@ ms.assetid: e1fd226f-3f8e-4575-a179-5c75b240333d
 msc.legacyurl: /mvc/overview/older-versions-1/contact-manager/iteration-6-use-test-driven-development-vb
 msc.type: authoredcontent
 ---
-Iteration #6 – Use test-driven development (VB)
-====================
+# Iteration #6 – Use test-driven development (VB)
+
 by [Microsoft](https://github.com/microsoft)
 
 [Download Code](iteration-6-use-test-driven-development-vb/_static/contactmanager_6_vb1.zip)

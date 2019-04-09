@@ -9,8 +9,8 @@ ms.assetid: 00aca413-f067-4108-9bd1-cf21e64a2646
 msc.legacyurl: /single-page-application/overview/templates/backbonejs-template
 msc.type: authoredcontent
 ---
-Backbone Template
-====================
+# Backbone Template
+
 by [Mads Kristensen](https://github.com/madskristensen)
 
 > The Backbone SPA Template was written by Kazi Manzur Rashid

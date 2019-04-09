@@ -9,8 +9,8 @@ ms.assetid: 6b0f1fd7-6768-4549-ae9c-be9131103c4d
 msc.legacyurl: /mvc/overview/older-versions-1/contact-manager
 msc.type: chapter
 ---
-Contact Manager
-====================
+# Contact Manager
+
 > How to build an entire Contact Management application from start to finish.
 
 

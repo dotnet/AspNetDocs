@@ -1,16 +1,17 @@
 ---
 uid: identity/overview/extensibility/change-primary-key-for-users-in-aspnet-identity
-title: "Change Primary Key for Users in ASP.NET Identity | Microsoft Docs"
+title: "Change Primary Key for Users in ASP.NET Identity - ASP.NET 4.x"
 author: Rick-Anderson
 description: "In Visual Studio 2013, the default web application uses a string value for the key for user accounts. ASP.NET Identity enables you to change the type of the..."
 ms.author: riande
 ms.date: 09/30/2014
 ms.assetid: 44925849-5762-4504-a8cd-8f0cd06f6dc3
+ms.custom: seoapril2019
 msc.legacyurl: /identity/overview/extensibility/change-primary-key-for-users-in-aspnet-identity
 msc.type: authoredcontent
 ---
-Change Primary Key for Users in ASP.NET Identity
-====================
+# Change Primary Key for Users in ASP.NET Identity
+
 by [Tom FitzMacken](https://github.com/tfitzmac)
 
 > In Visual Studio 2013, the default web application uses a string value for the key for user accounts. ASP.NET Identity enables you to change the type of the key to meet your data requirements. For example, you can change the type of the key from a string to an integer.

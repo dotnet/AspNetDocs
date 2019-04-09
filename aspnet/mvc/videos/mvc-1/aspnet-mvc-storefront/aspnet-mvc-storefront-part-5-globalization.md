@@ -9,8 +9,8 @@ ms.assetid: ec659d9f-8172-4c9e-9dd0-f5743bb27d4b
 msc.legacyurl: /mvc/videos/mvc-1/aspnet-mvc-storefront/aspnet-mvc-storefront-part-5-globalization
 msc.type: video
 ---
-ASP.NET MVC Storefront Part 5: Globalization
-====================
+# ASP.NET MVC Storefront Part 5: Globalization
+
 by [Rob Conery](https://github.com/robconery)
 
 Rob Conery works with Damien Guard to refactor the database to deal with test data and globalization issues.

@@ -9,8 +9,8 @@ ms.assetid: 754b8c66-cefc-42d6-9f02-685efabdfcc6
 msc.legacyurl: /web-forms/videos/aspnet-ajax
 msc.type: chapter
 ---
-ASP.NET AJAX
-====================
+# ASP.NET AJAX
+
 > Ways to work with ASP.NET AJAX to create highly responsive pages, even if you're not a JavaScript expert.
 
 

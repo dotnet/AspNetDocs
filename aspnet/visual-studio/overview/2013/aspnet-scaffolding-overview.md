@@ -9,8 +9,8 @@ ms.assetid: a41ec9d4-8287-4f31-9e2a-460e7b7f04be
 msc.legacyurl: /visual-studio/overview/2013/aspnet-scaffolding-overview
 msc.type: authoredcontent
 ---
-ASP.NET Scaffolding in Visual Studio 2013
-====================
+# ASP.NET Scaffolding in Visual Studio 2013
+
 by [Tom FitzMacken](https://github.com/tfitzmac)
 
 > ASP.NET Scaffolding is a new feature that is included in Visual Studio 2013.

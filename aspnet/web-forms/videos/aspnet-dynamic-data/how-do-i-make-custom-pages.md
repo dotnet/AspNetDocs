@@ -9,8 +9,8 @@ ms.assetid: f2b20119-abf4-4e78-9c47-adf563ad174c
 msc.legacyurl: /web-forms/videos/aspnet-dynamic-data/how-do-i-make-custom-pages
 msc.type: video
 ---
-How Do I Make Custom Pages?
-====================
+# How Do I Make Custom Pages?
+
 by [Scott Hanselman](https://github.com/shanselman)
 
 In this video, you learn how to make a custom page for some tables, while other pages use standard functionality.

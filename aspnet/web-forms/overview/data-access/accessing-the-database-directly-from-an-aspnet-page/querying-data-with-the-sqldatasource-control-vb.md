@@ -9,8 +9,8 @@ ms.assetid: b12f752d-3502-40a4-b695-fc7b7d08cfd3
 msc.legacyurl: /web-forms/overview/data-access/accessing-the-database-directly-from-an-aspnet-page/querying-data-with-the-sqldatasource-control-vb
 msc.type: authoredcontent
 ---
-Querying Data with the SqlDataSource Control (VB)
-====================
+# Querying Data with the SqlDataSource Control (VB)
+
 by [Scott Mitchell](https://twitter.com/ScottOnWriting)
 
 [Download Sample App](http://download.microsoft.com/download/4/a/7/4a7a3b18-d80e-4014-8e53-a6a2427f0d93/ASPNET_Data_Tutorial_47_VB.exe) or [Download PDF](querying-data-with-the-sqldatasource-control-vb/_static/datatutorial47vb1.pdf)
@@ -45,7 +45,7 @@ The SqlDataSource provides the same functionality, but operates against a relati
 
 
 > [!NOTE]
-> In this tutorial we'll focus on retrieving data from the database. In the [Inserting, Updating, and Deleteing Data with the SqlDataSource Control](inserting-updating-and-deleting-data-with-the-sqldatasource-vb.md) tutorial, we'll see how to configure the SqlDataSource to support inserting, updating, and deleting.
+> In this tutorial we'll focus on retrieving data from the database. In the [Inserting, Updating, and Deleting Data with the SqlDataSource Control](inserting-updating-and-deleting-data-with-the-sqldatasource-vb.md) tutorial, we'll see how to configure the SqlDataSource to support inserting, updating, and deleting.
 
 
 ## The SqlDataSource and AccessDataSource Controls

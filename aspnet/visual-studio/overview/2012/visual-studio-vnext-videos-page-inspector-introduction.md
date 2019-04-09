@@ -9,8 +9,8 @@ ms.assetid: fc12ff1f-c063-4786-9783-b9d6e6452019
 msc.legacyurl: /visual-studio/overview/2012/visual-studio-vnext-videos-page-inspector-introduction
 msc.type: video
 ---
-Visual Studio vNext Videos: Page Inspector - Introduction
-====================
+# Visual Studio vNext Videos: Page Inspector - Introduction
+
 by [Jorge Gabuardi Gonzalez](https://github.com/gabosom)
 
 In this video, Jorge Gabuardi Gonzalez introduces the Page Inspector in Visual Studio vNext.

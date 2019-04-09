@@ -9,8 +9,8 @@ ms.assetid: b2445062-a1fe-4133-8994-f510280f6d9a
 msc.legacyurl: /web-api/overview/data/using-web-api-with-entity-framework/part-7
 msc.type: authoredcontent
 ---
-Create the View (UI)
-====================
+# Create the View (UI)
+
 by [Mike Wasson](https://github.com/MikeWasson)
 
 [Download Completed Project](https://github.com/MikeWasson/BookService)

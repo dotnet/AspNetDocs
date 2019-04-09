@@ -9,8 +9,8 @@ ms.assetid: e8b41eed-5423-43d1-a54b-62f04bff371e
 msc.legacyurl: /web-forms/videos/aspnet-35/how-do-i/how-do-i-serialize-a-graph-with-the-entity-framework
 msc.type: video
 ---
-[How Do I:] Serialize a Graph with the Entity Framework
-====================
+# [How Do I:] Serialize a Graph with the Entity Framework
+
 by [Brian Dawson](https://twitter.com/briandawson)
 
 In this introductory video Brian Dawson will show you how to serialize a Graph when developing an ASP.NET application with the ADO.NET Entity Framework.

@@ -9,8 +9,8 @@ ms.assetid: 24282199-9edf-4211-ac6e-f05df68cccbe
 msc.legacyurl: /web-forms/videos/data-access/how-do-i-with-linq/how-do-i-linq-to-sql-data-model
 msc.type: video
 ---
-[How Do I:] LINQ to SQL: Data Model
-====================
+# [How Do I:] LINQ to SQL: Data Model
+
 by [Scott Stanfield](https://github.com/scottstanfield)
 
 LINQ to SQL relies on an object-to-relational model set of classes that map to your database tables. Visual Studio 2008 includes a visual ORM design surface that maps these tables to code.

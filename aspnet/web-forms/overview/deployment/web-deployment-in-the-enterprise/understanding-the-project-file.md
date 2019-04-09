@@ -9,8 +9,8 @@ ms.assetid: 07978d9d-341c-4524-bcba-62976f390f77
 msc.legacyurl: /web-forms/overview/deployment/web-deployment-in-the-enterprise/understanding-the-project-file
 msc.type: authoredcontent
 ---
-Understanding the Project File
-====================
+# Understanding the Project File
+
 by [Jason Lee](https://github.com/jrjlee)
 
 [Download PDF](https://msdnshared.blob.core.windows.net/media/MSDNBlogsFS/prod.evol.blogs.msdn.com/CommunityServer.Blogs.Components.WeblogFiles/00/00/00/63/56/8130.DeployingWebAppsInEnterpriseScenarios.pdf)
@@ -84,7 +84,7 @@ A project file typically needs to provide lots of different pieces of informatio
 [!code-xml[Main](understanding-the-project-file/samples/sample2.xml)]
 
 
-To retrieve a property value, you use the format <strong>$(</strong><em>PropertyName</em><strong>)</strong><em>.</em>For example, to retrieve the value of the <strong>ServerName</strong> property, you would type:
+To retrieve a property value, you use the format **$(***PropertyName***)***.* For example, to retrieve the value of the **ServerName** property, you would type:
 
 
 [!code-powershell[Main](understanding-the-project-file/samples/sample3.ps1)]
@@ -186,8 +186,8 @@ Both targets and tasks can include **Condition** attributes. As such, you can ch
 
 Generally speaking, when you create useful tasks and targets, you'll need to refer to the properties and items that you've defined elsewhere in the project file:
 
-- To use a property value, type <strong>$(</strong><em>PropertyName</em><strong>)</strong>, where <em>PropertyName</em> is the name of the <strong>Property</strong> element or the name of the parameter.
-- To use an item, type <strong>@(</strong><em>ItemName</em><strong>)</strong>, where <em>ItemName</em> is the name of the <strong>Item</strong> element.
+- To use a property value, type **$(***PropertyName***)**, where *PropertyName* is the name of the **Property** element or the name of the parameter.
+- To use an item, type **@(***ItemName***)**, where *ItemName* is the name of the **Item** element.
 
 > [!NOTE]
 > Remember that if you create multiple items with the same name, you're building a list. In contrast, if you create multiple properties with the same name, the last property value you provide will overwrite any previous properties with the same name&#x2014;a property can only contain a single value.

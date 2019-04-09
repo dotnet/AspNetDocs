@@ -9,8 +9,8 @@ ms.assetid: 96b57317-72b6-4699-ae60-cc917688cfa1
 msc.legacyurl: /web-forms/videos/how-do-i/what-is-asp-net
 msc.type: video
 ---
-What is ASP.NET?
-====================
+# What is ASP.NET?
+
 by [Scott Hanselman](https://github.com/shanselman)
 
 Microsoft's Scott Hanselman gives a brief overview of ASP.NET.

@@ -9,8 +9,8 @@ ms.assetid: 0675bdc7-282f-4f47-b7f3-7e02133940ca
 msc.legacyurl: /web-api/overview/web-api-routing-and-actions/routing-in-aspnet-web-api
 msc.type: authoredcontent
 ---
-Routing in ASP.NET Web API
-====================
+# Routing in ASP.NET Web API
+
 by [Mike Wasson](https://github.com/MikeWasson)
 
 This article describes how ASP.NET Web API routes HTTP requests to controllers.

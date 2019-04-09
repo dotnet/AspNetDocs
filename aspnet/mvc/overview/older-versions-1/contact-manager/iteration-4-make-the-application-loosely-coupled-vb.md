@@ -9,8 +9,8 @@ ms.assetid: 92c70297-4430-4e4e-919a-9c2333a8d09a
 msc.legacyurl: /mvc/overview/older-versions-1/contact-manager/iteration-4-make-the-application-loosely-coupled-vb
 msc.type: authoredcontent
 ---
-Iteration #4 – Make the application loosely coupled (VB)
-====================
+# Iteration #4 – Make the application loosely coupled (VB)
+
 by [Microsoft](https://github.com/microsoft)
 
 [Download Code](iteration-4-make-the-application-loosely-coupled-vb/_static/contactmanager_4_vb1.zip)

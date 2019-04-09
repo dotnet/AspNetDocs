@@ -9,8 +9,8 @@ ms.assetid: d37c93fc-25fd-4e94-8671-0d437beef206
 msc.legacyurl: /web-pages/overview/getting-started/introducing-aspnet-web-pages-2/entering-data
 msc.type: authoredcontent
 ---
-Introducing ASP.NET Web Pages - Entering Database Data by Using Forms
-====================
+# Introducing ASP.NET Web Pages - Entering Database Data by Using Forms
+
 by [Tom FitzMacken](https://github.com/tfitzmac)
 
 > This tutorial shows you how to create an entry form and then enter the data that you get from the form into a database table when you use ASP.NET Web Pages (Razor). It assumes you have completed the series through [Basics of HTML Forms in ASP.NET Web Pages](https://go.microsoft.com/fwlink/?LinkId=251581).

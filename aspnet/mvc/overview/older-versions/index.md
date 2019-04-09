@@ -9,8 +9,8 @@ ms.assetid: 151cd274-3daa-4f88-ad3b-bffb99a9d545
 msc.legacyurl: /mvc/overview/older-versions
 msc.type: chapter
 ---
-Older Versions - MVC 3 and 4
-====================
+# Older Versions - MVC 3 and 4
+
 > Links to resources for learning how to use earlier versions of ASP.NET MVC.
 
 

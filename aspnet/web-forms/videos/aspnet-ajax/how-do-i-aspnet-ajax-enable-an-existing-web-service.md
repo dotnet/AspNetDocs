@@ -9,8 +9,8 @@ ms.assetid: 15a8d767-a99e-4459-8466-7746b5f29362
 msc.legacyurl: /web-forms/videos/aspnet-ajax/how-do-i-aspnet-ajax-enable-an-existing-web-service
 msc.type: video
 ---
-[How Do I:] ASP.NET AJAX Enable an Existing Web Service?
-====================
+# [How Do I:] ASP.NET AJAX Enable an Existing Web Service?
+
 by [Joe Stagner](https://github.com/JoeStagner)
 
 This video demonstrates how simple it is to add Microsoft ASP.NET AJAX functionality to an existing ASP.NET web service. This enables the web service to generate a JavaScript proxy that the client browser can use to call the web service.

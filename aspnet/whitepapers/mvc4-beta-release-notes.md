@@ -9,8 +9,8 @@ ms.assetid: 666407bb-81de-4319-89ba-0302c382a208
 msc.legacyurl: /whitepapers/mvc4-beta-release-notes
 msc.type: content
 ---
-ASP.NET MVC 4
-====================
+# ASP.NET MVC 4
+
 > This document describes the release of ASP.NET MVC 4 Beta for Visual Studio 2010.
 > 
 > > [!NOTE]

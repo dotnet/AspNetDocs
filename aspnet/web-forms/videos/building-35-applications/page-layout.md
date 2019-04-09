@@ -9,8 +9,8 @@ ms.assetid: c757d668-6f3e-4af1-beb5-100d4c101b88
 msc.legacyurl: /web-forms/videos/building-35-applications/page-layout
 msc.type: video
 ---
-Page Layout
-====================
+# Page Layout
+
 by [Joe Stagner](https://github.com/JoeStagner)
 
 Tables or StyleSheets? Relative Positioning or Absolute? This video will demonstrate the features of Visual Web developer that support the developing with your page layout preference.

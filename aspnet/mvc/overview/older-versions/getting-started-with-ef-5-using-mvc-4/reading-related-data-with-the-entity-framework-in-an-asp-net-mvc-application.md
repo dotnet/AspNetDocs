@@ -9,8 +9,8 @@ ms.assetid: 0d6fb83b-71f7-425d-8dec-981197d7ec42
 msc.legacyurl: /mvc/overview/older-versions/getting-started-with-ef-5-using-mvc-4/reading-related-data-with-the-entity-framework-in-an-asp-net-mvc-application
 msc.type: authoredcontent
 ---
-Reading Related Data with the Entity Framework in an ASP.NET MVC Application (5 of 10)
-====================
+# Reading Related Data with the Entity Framework in an ASP.NET MVC Application (5 of 10)
+
 by [Tom Dykstra](https://github.com/tdykstra)
 
 [Download Completed Project](http://code.msdn.microsoft.com/Getting-Started-with-dd0e2ed8)
@@ -146,11 +146,13 @@ The method accepts optional route data (`id`) and a query string parameter (`cou
 > 
 > Route data is data that the model binder found in a URL segment specified in the routing table. For example, the default route specifies `controller`, `action`, and `id` segments:
 > 
+> ```csharp
 > routes.MapRoute(  
 >  name: "Default",  
 >  url: "{controller}/{action}/{id}",  
 >  defaults: new { controller = "Home", action = "Index", id = UrlParameter.Optional }  
 > );
+> ```
 > 
 > In the following URL, the default route maps `Instructor` as the `controller`, `Index` as the `action` and 1 as the `id`; these are route data values.
 > 

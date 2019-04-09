@@ -9,8 +9,8 @@ ms.assetid: 39a7142b-8228-4dae-8578-c26d70e3ae71
 msc.legacyurl: /web-forms/videos/authentication/logging-users-into-your-membership-system
 msc.type: video
 ---
-Logging Users Into Your Membership System
-====================
+# Logging Users Into Your Membership System
+
 by [Joe Stagner](https://github.com/JoeStagner)
 
 In this video, Joe Stagner shows how to log our users into the ASP.NET membership system.

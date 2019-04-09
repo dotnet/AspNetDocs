@@ -9,8 +9,8 @@ ms.assetid: ff36f242-5f40-44d1-b65d-5ab2fb622742
 msc.legacyurl: /web-forms/videos/migrating/intro-to-aspnet-20-aspnet-20-fundamentals
 msc.type: video
 ---
-[Intro to ASP.NET 2.0:] ASP.NET 2.0 Fundamentals
-====================
+# [Intro to ASP.NET 2.0:] ASP.NET 2.0 Fundamentals
+
 by [Microsoft](https://github.com/microsoft)
 
 Developers new to ASP.NET will want to attend this webcast designed to familiarize you with its essential features.

@@ -9,8 +9,8 @@ ms.assetid: 360bc6e1-84c5-4b8e-a84c-ea48ab807aa4
 msc.legacyurl: /web-pages/overview/performance-and-traffic/14-analyzing-traffic
 msc.type: authoredcontent
 ---
-Tracking Visitor Information (Analytics) for an ASP.NET Web Pages (Razor) Site
-====================
+# Tracking Visitor Information (Analytics) for an ASP.NET Web Pages (Razor) Site
+
 by [Tom FitzMacken](https://github.com/tfitzmac)
 
 > This article describes how to use a helper to add website analytics to pages in an ASP.NET Web Pages (Razor) website.

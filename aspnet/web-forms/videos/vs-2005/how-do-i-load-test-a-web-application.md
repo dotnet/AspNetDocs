@@ -9,8 +9,8 @@ ms.assetid: 2b0649d3-d072-446a-9918-b2648de26472
 msc.legacyurl: /web-forms/videos/vs-2005/how-do-i-load-test-a-web-application
 msc.type: video
 ---
-[How Do I:] Load Test a Web Application?
-====================
+# [How Do I:] Load Test a Web Application?
+
 by [Chris Menegay](https://twitter.com/CMenegay)
 
 This video walks you through the process of recording a Web Test and then replaying it as a Load Test that simulates multiple users. We see how Visual Studio Team System allows you to set warning and critical thresholds of server resources utilization, which defines whether the Web application passes or fails the load test.

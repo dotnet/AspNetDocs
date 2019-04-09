@@ -9,8 +9,8 @@ ms.assetid: 560d2455-ce08-4b2a-900d-7e9ccf82e048
 msc.legacyurl: /web-forms/videos/sql-2005/what-is-a-database
 msc.type: video
 ---
-What is a Database?
-====================
+# What is a Database?
+
 by [Microsoft](https://github.com/microsoft)
 
 This introduction covers the questions and terminology SQL Server beginners need to create and manage databases, such as: What is a SQL Server database? How is a SQL Server database different from an Excel spreadsheet? What do SQL Server databases do in my website or software applications? What's SQL Server Express' relation to Visual Studio Express? What do terms like "ADO.NET" mean?

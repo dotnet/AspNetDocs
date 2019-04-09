@@ -68,7 +68,7 @@ For convenience, much of the code you will be managing along this lab is availab
 
 If you are not familiar with the Visual Studio Code Snippets, and want to learn how to use them, you can refer to the appendix from this document &quot;[Appendix C: Using Code Snippets](#AppendixC)&quot;.
 
-* * *
+---
 
 <a id="Exercises"></a>
 
@@ -508,7 +508,7 @@ In this task, you will run the Application in a web browser and obtain album det
 > [!NOTE]
 > Additionally, you can deploy this application to Windows Azure Web Sites following [Appendix B: Publishing an ASP.NET MVC 4 Application using Web Deploy](#AppendixB).
 
-* * *
+---
 
 <a id="Summary"></a>
 

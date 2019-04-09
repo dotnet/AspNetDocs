@@ -9,8 +9,8 @@ ms.assetid: a43d175e-7526-4dd9-b8ed-9348c3c3dd39
 msc.legacyurl: /web-forms/videos/ajax-control-toolkit/how-do-i-use-the-aspnet-ajax-textboxwatermark-control-extender
 msc.type: video
 ---
-[How Do I:] Use the ASP.NET AJAX TextBoxWatermark Control Extender?
-====================
+# [How Do I:] Use the ASP.NET AJAX TextBoxWatermark Control Extender?
+
 by [Joe Stagner](https://github.com/JoeStagner)
 
 In this video you will learn how to use the TextBoxWatermark control extender from the ASP.NET AJAX Control Toolkit, which adds new watermark properties to all standard TextBox controls on an ASP.NET page.

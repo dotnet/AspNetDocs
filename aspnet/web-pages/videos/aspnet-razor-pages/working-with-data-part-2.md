@@ -9,8 +9,8 @@ ms.assetid: f0de3048-de31-4b73-b4fa-a27f6276d17d
 msc.legacyurl: /web-pages/videos/aspnet-razor-pages/working-with-data-part-2
 msc.type: video
 ---
-Working with Data (Part 2)
-====================
+# Working with Data (Part 2)
+
 by [Joe Stagner](https://github.com/JoeStagner)
 
 Video accompaniment to the Working with Data tutorial (Part 2)

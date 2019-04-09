@@ -52,7 +52,7 @@ For convenience, much of the code you will be managing along this lab is availab
 
 If you are not familiar with the Visual Studio Code Snippets, and want to learn how to use them, you can refer to the appendix from this document &quot;[Appendix B: Using Code Snippets](#AppendixB)&quot;.
 
-* * *
+---
 
 <a id="Exercises"></a>
 
@@ -254,7 +254,7 @@ In this task you will update the database using Entity Framework Migrations. You
 
     ![Middle Name edition](aspnet-mvc-4-entity-framework-scaffolding-and-migrations/_static/image21.png "Middle Name edition")
 
-* * *
+---
 
 <a id="Summary"></a>
 

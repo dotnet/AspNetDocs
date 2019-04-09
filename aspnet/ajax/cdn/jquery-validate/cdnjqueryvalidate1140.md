@@ -9,8 +9,8 @@ ms.assetid: 291287b9-14d0-40de-acff-3e038737825b
 msc.legacyurl: /ajax/cdn/jquery-validate/cdnjqueryvalidate1140
 msc.type: content
 ---
-jQuery Validation 1.14.0
-====================
+# jQuery Validation 1.14.0
+
 The following files are hosted on the CDN:
 
 - https://ajax.aspnetcdn.com/ajax/jquery.validate/1.14.0/jquery.validate.js

@@ -9,8 +9,8 @@ ms.assetid: 7e4ce5d2-ab22-44f0-9825-c12eed7b8fcb
 msc.legacyurl: /web-forms
 msc.type: categoryindex
 ---
-ASP.NET Web Forms
-====================
+# ASP.NET Web Forms
+
 - [Guidance](overview/index.md)
 
     - [Getting Started](overview/getting-started/index.md)

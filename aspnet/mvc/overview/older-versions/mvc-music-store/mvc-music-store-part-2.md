@@ -9,8 +9,8 @@ ms.assetid: 998ce4e1-9d72-435b-8f1c-399a10ae4360
 msc.legacyurl: /mvc/overview/older-versions/mvc-music-store/mvc-music-store-part-2
 msc.type: authoredcontent
 ---
-Part 2: Controllers
-====================
+# Part 2: Controllers
+
 by [Jon Galloway](https://github.com/jongalloway)
 
 > The MVC Music Store is a tutorial application that introduces and explains step-by-step how to use ASP.NET MVC and Visual Studio for web development.  

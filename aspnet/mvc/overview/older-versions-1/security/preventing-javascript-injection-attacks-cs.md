@@ -9,8 +9,8 @@ ms.assetid: d0136da6-81a4-4815-b002-baa84744c09e
 msc.legacyurl: /mvc/overview/older-versions-1/security/preventing-javascript-injection-attacks-cs
 msc.type: authoredcontent
 ---
-Preventing JavaScript Injection Attacks (C#)
-====================
+# Preventing JavaScript Injection Attacks (C#)
+
 by [Stephen Walther](https://github.com/StephenWalther)
 
 [Download PDF](http://download.microsoft.com/download/8/4/8/84843d8d-1575-426c-bcb5-9d0c42e51416/ASPNET_MVC_Tutorial_06_CS.pdf)

@@ -9,8 +9,8 @@ ms.assetid: b5c41c56-f5df-489e-9389-25e2523cdd28
 msc.legacyurl: /ajax/cdn/jquery-mobile/cdnjquerymobile131
 msc.type: content
 ---
-jQuery Mobile 1.3.1 on the Microsoft Ajax CDN
-====================
+# jQuery Mobile 1.3.1 on the Microsoft Ajax CDN
+
 The jQuery Mobile 1.3.1 library includes the following files:
 
 - https://ajax.aspnetcdn.com/ajax/jquery.mobile/1.3.1/jquery.mobile.structure-1.3.1.css

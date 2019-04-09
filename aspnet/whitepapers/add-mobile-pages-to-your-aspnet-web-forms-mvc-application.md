@@ -9,8 +9,8 @@ ms.assetid: 3124f28e-cc32-418a-afe3-519fa56f4c36
 msc.legacyurl: /whitepapers/add-mobile-pages-to-your-aspnet-web-forms-mvc-application
 msc.type: content
 ---
-How To: Add Mobile Pages to Your ASP.NET Web Forms / MVC Application
-====================
+# How To: Add Mobile Pages to Your ASP.NET Web Forms / MVC Application
+
 > **Applies To**
 > 
 > - ASP.NET Web Forms version 4.0
@@ -234,7 +234,7 @@ Next, note that by adding a second HomeController to your application (i.e., the
 
 [!code-csharp[Main](add-mobile-pages-to-your-aspnet-web-forms-mvc-application/samples/sample9.cs)]
 
-Now the error will go away, and the URL http://<em>yoursite</em>/ will reach the desktop homepage, and http://<em>yoursite</em>/mobile/ will reach the mobile homepage.
+Now the error will go away, and the URL http:\/\/*yoursite*/ will reach the desktop homepage, and http:\/\/*yoursite*/mobile/ will reach the mobile homepage.
 
 ### Redirecting mobile visitors to your mobile area
 

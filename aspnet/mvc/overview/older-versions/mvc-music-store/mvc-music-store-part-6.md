@@ -9,8 +9,8 @@ ms.assetid: b3193d33-2d0b-4d98-9712-58bd897c62ec
 msc.legacyurl: /mvc/overview/older-versions/mvc-music-store/mvc-music-store-part-6
 msc.type: authoredcontent
 ---
-Part 6: Using Data Annotations for Model Validation
-====================
+# Part 6: Using Data Annotations for Model Validation
+
 by [Jon Galloway](https://github.com/jongalloway)
 
 > The MVC Music Store is a tutorial application that introduces and explains step-by-step how to use ASP.NET MVC and Visual Studio for web development.  

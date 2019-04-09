@@ -9,8 +9,8 @@ ms.assetid: 94c3e5d9-a904-445e-a34e-d92fd1ca108a
 msc.legacyurl: /mvc/overview/older-versions-1/controllers-and-routing/asp-net-mvc-controller-overview-vb
 msc.type: authoredcontent
 ---
-ASP.NET MVC Controller Overview (VB)
-====================
+# ASP.NET MVC Controller Overview (VB)
+
 by [Stephen Walther](https://github.com/StephenWalther)
 
 > In this tutorial, Stephen Walther introduces you to ASP.NET MVC controllers. You learn how to create new controllers and return different types of action results.

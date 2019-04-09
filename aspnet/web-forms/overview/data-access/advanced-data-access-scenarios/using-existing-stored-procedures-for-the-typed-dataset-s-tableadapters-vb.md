@@ -9,8 +9,8 @@ ms.assetid: 2da25f6a-757e-4e7b-a812-1575288d8f7a
 msc.legacyurl: /web-forms/overview/data-access/advanced-data-access-scenarios/using-existing-stored-procedures-for-the-typed-dataset-s-tableadapters-vb
 msc.type: authoredcontent
 ---
-Using Existing Stored Procedures for the Typed DataSet's TableAdapters (VB)
-====================
+# Using Existing Stored Procedures for the Typed DataSet's TableAdapters (VB)
+
 by [Scott Mitchell](https://twitter.com/ScottOnWriting)
 
 [Download Code](http://download.microsoft.com/download/3/9/f/39f92b37-e92e-4ab3-909e-b4ef23d01aa3/ASPNET_Data_Tutorial_68_VB.zip) or [Download PDF](using-existing-stored-procedures-for-the-typed-dataset-s-tableadapters-vb/_static/datatutorial68vb1.pdf)
@@ -59,7 +59,7 @@ Figure 2 shows Visual Studio after the `Products_SelectByCategoryID` stored proc
 
 ## Step 2: Configuring the TableAdapter to Use an Existing Stored Procedure
 
-Now that the `Products_SelectByCategoryID` stored procedure has been added to the database, we can configure our Data Access Layer to use this stored procedure when one of its methods is invoked. In particular, we will add a `GetProducstByCategoryID(<_i22_>categoryID)<!--_i22_-->` method to the `ProductsTableAdapter` in the `NorthwindWithSprocs` Typed DataSet that calls the `Products_SelectByCategoryID` stored procedure we just created.
+Now that the `Products_SelectByCategoryID` stored procedure has been added to the database, we can configure our Data Access Layer to use this stored procedure when one of its methods is invoked. In particular, we will add a `GetProductsByCategoryID(<_i22_>categoryID)<!--_i22_-->` method to the `ProductsTableAdapter` in the `NorthwindWithSprocs` Typed DataSet that calls the `Products_SelectByCategoryID` stored procedure we just created.
 
 Start by opening the `NorthwindWithSprocs` DataSet. Right-click on the `ProductsTableAdapter` and choose Add Query to launch the TableAdapter Query Configuration wizard. In the [preceding tutorial](creating-new-stored-procedures-for-the-typed-dataset-s-tableadapters-vb.md) we opted to have the TableAdapter create a new stored procedure for us. For this tutorial, however, we want to wire the new TableAdapter method to the existing `Products_SelectByCategoryID` stored procedure. Therefore, choose the Use existing stored procedure option from the wizard s first step and then click Next.
 
@@ -234,7 +234,7 @@ While we ve added the `Categories_Delete` stored procedure to the database, the 
 > Earlier in this tutorial we were working with the `NorthwindWithSprocs` DataSet. But that DataSet only has a single entity, `ProductsDataTable`, and we need to work with categories. Therefore, for the remainder of this tutorial when I talk about the Data Access Layer I m referring to the `Northwind` DataSet, the one that we first created in the [Creating a Data Access Layer](../introduction/creating-a-data-access-layer-vb.md) tutorial.
 
 
-Open the Northwind DataSet, select the `CategoriesTableAdapter`, and go to the Properties window. The Properties window lists the `InsertCommand`, `UpdateCommand`, `DeleteCommand`, and `SelectCommand` used by the TableAdapter, as well as its name and connection information. Expand the `DeleteCommand` property to see its details. As Figure 15 shows, the `DeleteCommand` s `ComamndType` property is set to Text, which instructs it to send the text in the `CommandText` property as an ad-hoc SQL query.
+Open the Northwind DataSet, select the `CategoriesTableAdapter`, and go to the Properties window. The Properties window lists the `InsertCommand`, `UpdateCommand`, `DeleteCommand`, and `SelectCommand` used by the TableAdapter, as well as its name and connection information. Expand the `DeleteCommand` property to see its details. As Figure 15 shows, the `DeleteCommand` s `CommandType` property is set to Text, which instructs it to send the text in the `CommandText` property as an ad-hoc SQL query.
 
 
 ![Select the CategoriesTableAdapter in the Designer to View Its Properties in the Properties Window](using-existing-stored-procedures-for-the-typed-dataset-s-tableadapters-vb/_static/image43.png)

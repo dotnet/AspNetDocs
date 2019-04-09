@@ -9,8 +9,8 @@ ms.assetid: 6798c7e4-f08e-4802-9fa5-443f67d5df62
 msc.legacyurl: /web-forms/overview/older-versions-getting-started/deployment-to-a-hosting-provider
 msc.type: chapter
 ---
-ASP.NET 4 - Web Deployment with SQL Server Compact using Visual Studio
-====================
+# ASP.NET 4 - Web Deployment with SQL Server Compact using Visual Studio
+
 > This tutorial series shows how to make an ASP.NET web application that uses SQL Server Compact available over the internet by deploying it to a third-party hosting provider. Requires Visual Studio 2012 RC or Visual Studio 2010. For more up-to-date information about deployment features, or for information about how to deploy SQL Server editions other than SQL Server Compact, see [ASP.NET Web Deployment using Visual Studio](../../deployment/visual-studio-web-deployment/introduction.md).
 
 

@@ -9,8 +9,8 @@ ms.assetid: f645d3b1-1092-43c6-a28a-074b413924b4
 msc.legacyurl: /web-forms/overview/getting-started
 msc.type: chapter
 ---
-Getting Started with ASP.NET Web Forms
-====================
+# Getting Started with ASP.NET Web Forms
+
 > The Web Forms model and how to create pages and use controls.
 
 

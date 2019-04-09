@@ -9,8 +9,8 @@ ms.assetid: bd72bb7e-bdcb-490b-8bc1-9b669329632b
 msc.legacyurl: /ajax/cdn/jquery-ui
 msc.type: folder
 ---
-jQuery UI
-====================
+# jQuery UI
+
 - [jQuery UI 1.10.4 on the Microsoft Ajax CDN](cdnjqueryui1104.md)
 - [jQuery UI 1.10.3 on the Microsoft Ajax CDN](cdnjqueryui1103.md)
 - [jQuery UI 1.10.2 on the Microsoft Ajax CDN](cdnjqueryui1102.md)

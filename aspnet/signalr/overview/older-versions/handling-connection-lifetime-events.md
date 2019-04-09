@@ -9,8 +9,8 @@ ms.assetid: e608e263-264d-448b-b0eb-6eeb77713b22
 msc.legacyurl: /signalr/overview/older-versions/handling-connection-lifetime-events
 msc.type: authoredcontent
 ---
-Understanding and Handling Connection Lifetime Events in SignalR 1.x
-====================
+# Understanding and Handling Connection Lifetime Events in SignalR 1.x
+
 by [Patrick Fletcher](https://github.com/pfletcher), [Tom Dykstra](https://github.com/tdykstra)
 
 [!INCLUDE [Consider ASP.NET Core SignalR](~/includes/signalr/signalr-version-disambiguation.md)]

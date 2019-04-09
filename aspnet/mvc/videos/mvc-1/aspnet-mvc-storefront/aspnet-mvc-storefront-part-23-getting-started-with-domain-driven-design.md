@@ -9,8 +9,8 @@ ms.assetid: 690538bb-6f23-4b1a-94b7-188454bb734a
 msc.legacyurl: /mvc/videos/mvc-1/aspnet-mvc-storefront/aspnet-mvc-storefront-part-23-getting-started-with-domain-driven-design
 msc.type: video
 ---
-ASP.NET MVC Storefront Part 23: Getting Started With Domain-Driven Design
-====================
+# ASP.NET MVC Storefront Part 23: Getting Started With Domain-Driven Design
+
 by [Rob Conery](https://github.com/robconery)
 
 I don't like the complexity that's crept into my application. Not sure how else to put it - but the architecture needs to be shaken a bit so in this episode I tackle this complexity head on using Domain-Driven Design (DDD).

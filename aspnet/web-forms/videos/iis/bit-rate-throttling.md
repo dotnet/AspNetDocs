@@ -9,8 +9,8 @@ ms.assetid: 8dc90862-97d6-48d1-8bfc-79c70d622474
 msc.legacyurl: /web-forms/videos/iis/bit-rate-throttling
 msc.type: video
 ---
-Bit Rate Throttling
-====================
+# Bit Rate Throttling
+
 by [Joe Stagner](https://github.com/JoeStagner)
 
 This video will teach how to install and configure a great new IIS7 feature – Bit Rate Throttling. With BRT you can serve media files or big downloads without ruining your sites UI performance.

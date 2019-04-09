@@ -9,8 +9,8 @@ ms.assetid: 4fab47d5-a6ec-4fdc-91f0-651a093a24b9
 msc.legacyurl: /web-forms/overview/older-versions-getting-started/tailspin-spyworks/tailspin-spyworks-part-4
 msc.type: authoredcontent
 ---
-Part 4: Listing Products
-====================
+# Part 4: Listing Products
+
 by [Joe Stagner](https://github.com/JoeStagner)
 
 > Tailspin Spyworks demonstrates how extraordinarily simple it is to create powerful, scalable applications for the .NET platform. It shows off how to use the great new features in ASP.NET 4 to build an online store, including shopping, checkout, and administration.
@@ -44,7 +44,7 @@ After our page is created we'll again use an Entity Data Source to access that p
 
 To accomplish this we'll tell the EntityDataSource to Auto Generate the WHERE clause and we'll specify the WhereParameter.
 
-You'll recall that when we created the Menu Items in our "Product Category Menu" we dynamically built the link by adding the CatagoryID to the QueryString for each link. We will tell the Entity Data Source to derive the WHERE parameter from that QueryString parameter.
+You'll recall that when we created the Menu Items in our "Product Category Menu" we dynamically built the link by adding the CategoryID to the QueryString for each link. We will tell the Entity Data Source to derive the WHERE parameter from that QueryString parameter.
 
 [!code-aspx[Main](tailspin-spyworks-part-4/samples/sample1.aspx)]
 
@@ -73,7 +73,7 @@ From the site's home page, click on one of the Category List Links.
 
 ![](tailspin-spyworks-part-4/_static/image6.jpg)
 
-Now we need to implement the ProductDetials.apsx page and the AddToCart functionality.
+Now we need to implement the ProductDetails.aspx page and the AddToCart functionality.
 
 Use File-&gt;New to create a page name ProductDetails.aspx using the site Master Page as we did previously.
 
@@ -87,7 +87,7 @@ The Shopping Cart will represent the more complex logic in our application. To g
 
 Note that we are not choosing the name ShoppingCart.aspx.
 
-Our database contains a table named "ShoppingCart". When we generated an Entity Data Model a class was created for each table in the database. Therefore, the Entity Data Model generated an Entity Class named "ShoppingCart". We could edit the model so that we could use that name for our shopping cart implementation or extend it for our needs, but we will opt instead to simply slect a name that will avoid the conflict.
+Our database contains a table named "ShoppingCart". When we generated an Entity Data Model a class was created for each table in the database. Therefore, the Entity Data Model generated an Entity Class named "ShoppingCart". We could edit the model so that we could use that name for our shopping cart implementation or extend it for our needs, but we will opt instead to simply select a name that will avoid the conflict.
 
 It's also worth noting that we will be creating a simple shopping cart and embedding the shopping cart logic with the shopping cart display. We might also choose to implement our shopping cart in a completely separate Business Layer.
 

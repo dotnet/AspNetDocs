@@ -9,8 +9,8 @@ ms.assetid: 27dc4fc8-1b51-43b0-933f-fc1b52476523
 msc.legacyurl: /mvc/overview/older-versions/aspnet-mvc-4-mobile-features
 msc.type: authoredcontent
 ---
-ASP.NET MVC 4 Mobile Features
-====================
+# ASP.NET MVC 4 Mobile Features
+
 by [Rick Anderson]((https://twitter.com/RickAndMSFT))
 
 > There is now an MVC 5 version of this tutorial with code samples at [Deploy an ASP.NET MVC 5 Mobile Web Application on Azure Web Sites](https://azure.microsoft.com/documentation/articles/web-sites-dotnet-deploy-aspnet-mvc-mobile-app/).
@@ -242,7 +242,7 @@ Refresh the *AllTags* view in the mobile browser. You can now navigate between d
 >
 > [!code-csharp[Main](aspnet-mvc-4-mobile-features/samples/sample15.cs)]
 >
->  and adding the following heading to the *Views\Shared\\_Layout.cshtml* file.
+> and adding the following heading to the *Views\Shared\\_Layout.cshtml* file.
 >
 > [!code-html[Main](aspnet-mvc-4-mobile-features/samples/sample16.html)]
 

@@ -9,8 +9,8 @@ ms.assetid: f38a1055-d387-49c2-aa1b-693688417c15
 msc.legacyurl: /web-forms/videos/sql-2005/building-and-customizing-reports-in-business-intelligence-development-studio
 msc.type: video
 ---
-Building and Customizing Reports in Business Intelligence Development Studio
-====================
+# Building and Customizing Reports in Business Intelligence Development Studio
+
 by [Microsoft](https://github.com/microsoft)
 
 Building on the previous lesson, we dive into building reports from scratch and modifying the reports that were created using the wizards and designers. We also demonstrate how to embed your reports into your ASP.NET Web Form applications.

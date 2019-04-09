@@ -9,8 +9,8 @@ ms.assetid: a3a90963-0286-4fa0-9b3d-c230cc18b0a3
 msc.legacyurl: /mvc/overview/older-versions-1/getting-started-with-mvc/getting-started-with-mvc-part6
 msc.type: authoredcontent
 ---
-Adding a Create Method and Create View
-====================
+# Adding a Create Method and Create View
+
 by [Scott Hanselman](https://github.com/shanselman)
 
 > This is a beginner tutorial that introduces the basics of ASP.NET MVC. You'll create a simple web application that reads and writes from a database. Visit the [ASP.NET MVC learning center](../../../index.md) to find other ASP.NET MVC tutorials and samples.

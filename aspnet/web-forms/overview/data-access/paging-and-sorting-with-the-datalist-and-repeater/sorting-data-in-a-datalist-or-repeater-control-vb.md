@@ -9,8 +9,8 @@ ms.assetid: 97c13898-0741-45f9-b3fa-7540ab1679e6
 msc.legacyurl: /web-forms/overview/data-access/paging-and-sorting-with-the-datalist-and-repeater/sorting-data-in-a-datalist-or-repeater-control-vb
 msc.type: authoredcontent
 ---
-Sorting Data in a DataList or Repeater Control (VB)
-====================
+# Sorting Data in a DataList or Repeater Control (VB)
+
 by [Scott Mitchell](https://twitter.com/ScottOnWriting)
 
 [Download Sample App](http://download.microsoft.com/download/4/a/7/4a7a3b18-d80e-4014-8e53-a6a2427f0d93/ASPNET_Data_Tutorial_45_VB.exe) or [Download PDF](sorting-data-in-a-datalist-or-repeater-control-vb/_static/datatutorial45vb1.pdf)
@@ -312,9 +312,9 @@ After adding these `Click` event handlers and the code to enable or disable the 
 **Figure 15**: The Previous and Last Buttons are Disabled When Viewing the First Page of Products ([Click to view full-size image](sorting-data-in-a-datalist-or-repeater-control-vb/_static/image43.png))
 
 
-[![The Second Page of Products are Dispalyed](sorting-data-in-a-datalist-or-repeater-control-vb/_static/image45.png)](sorting-data-in-a-datalist-or-repeater-control-vb/_static/image44.png)
+[![The Second Page of Products are Displayed](sorting-data-in-a-datalist-or-repeater-control-vb/_static/image45.png)](sorting-data-in-a-datalist-or-repeater-control-vb/_static/image44.png)
 
-**Figure 16**: The Second Page of Products are Dispalyed ([Click to view full-size image](sorting-data-in-a-datalist-or-repeater-control-vb/_static/image46.png))
+**Figure 16**: The Second Page of Products are Displayed ([Click to view full-size image](sorting-data-in-a-datalist-or-repeater-control-vb/_static/image46.png))
 
 
 [![Clicking Last Displays the Final Page of Data](sorting-data-in-a-datalist-or-repeater-control-vb/_static/image48.png)](sorting-data-in-a-datalist-or-repeater-control-vb/_static/image47.png)

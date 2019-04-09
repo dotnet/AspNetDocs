@@ -9,8 +9,8 @@ ms.assetid: 7526ed45-a97d-4e8a-8301-01324ef0eff9
 msc.legacyurl: /web-pages/overview/getting-started/introducing-aspnet-web-pages-2/intro-to-web-pages-programming
 msc.type: authoredcontent
 ---
-Introducing ASP.NET Web Pages - Programming Basics
-====================
+# Introducing ASP.NET Web Pages - Programming Basics
+
 by [Tom FitzMacken](https://github.com/tfitzmac)
 
 > This tutorial gives you an overview of how to program in ASP.NET Web Pages with Razor syntax.
@@ -156,7 +156,7 @@ Here are a few examples of conditions you can test in an if statement:
 
 [!code-csharp[Main](intro-to-web-pages-programming/samples/sample7.cs)]
 
-You can test variables against values or against expressions by using a <em>logical operator</em> or <em>comparison operator</em>: equal to (==), greater than (&gt;), less than (&lt;), greater than or equal to (&gt;=), and less than or equal to (&lt;=). The != operator means not equal to — for example, if(a != 0) means <em>if</em> <em>a</em><em>is not equal to 0</em>.
+You can test variables against values or against expressions by using a *logical operator* or *comparison operator*: equal to (==), greater than (&gt;), less than (&lt;), greater than or equal to (&gt;=), and less than or equal to (&lt;=). The != operator means not equal to — for example, if(a != 0) means *if a is not equal to 0*.
 
 > [!NOTE]
 > Make sure you notice that the comparison operator for equals to (==) is not the same as =. The = operator is used only to assign values (var a=2). If you mix these operators up, you'll either get an error or you'll get some strange results.

@@ -9,8 +9,8 @@ ms.assetid: a2d7f33b-8c4a-4b48-9fb1-9139cf9b9878
 msc.legacyurl: /web-forms/overview/older-versions-getting-started/deployment-to-a-hosting-provider/deployment-to-a-hosting-provider-introduction-1-of-12
 msc.type: authoredcontent
 ---
-Deploying an ASP.NET Web Application with SQL Server Compact using Visual Studio: Introduction - 1 of 12
-====================
+# Deploying an ASP.NET Web Application with SQL Server Compact using Visual Studio: Introduction - 1 of 12
+
 by [Tom Dykstra](https://github.com/tdykstra)
 
 [Download Starter Project](http://code.msdn.microsoft.com/Deploying-an-ASPNET-Web-4e31366b)

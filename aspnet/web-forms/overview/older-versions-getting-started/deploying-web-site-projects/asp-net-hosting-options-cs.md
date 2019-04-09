@@ -9,8 +9,8 @@ ms.assetid: 89a1d2bc-fdfd-4c5c-a3b0-49a08baaf63a
 msc.legacyurl: /web-forms/overview/older-versions-getting-started/deploying-web-site-projects/asp-net-hosting-options-cs
 msc.type: authoredcontent
 ---
-ASP.NET Hosting Options (C#)
-====================
+# ASP.NET Hosting Options (C#)
+
 by [Scott Mitchell](https://twitter.com/ScottOnWriting)
 
 [Download PDF](http://download.microsoft.com/download/E/8/9/E8920AE6-D441-41A7-8A77-9EF8FF970D8B/aspnet_tutorial01_Basics_cs.pdf)

@@ -9,8 +9,8 @@ ms.assetid: 22f55d63-78f7-44fd-9107-f74cbe16022b
 msc.legacyurl: /mvc/videos/mvc-2/how-do-i/how-do-i-implement-view-models-to-manage-data-for-aspnet-mvc-views
 msc.type: video
 ---
-How Do I: Implement View  Models to Manage Data for ASP.NET MVC Views?
-====================
+# How Do I: Implement View  Models to Manage Data for ASP.NET MVC Views?
+
 by [Chris Pels](https://twitter.com/chrispels)
 
 In this video Chris Pels shows how to use the concept of a "View Model" for managing data for ASP.NET MVC views. First, a sample MVC project is created that uses a ViewDataDictionary to package and pass data from a controller to a view. Next, a class is created which represents a view model for a view in the sample MVC project. As part of this implementation, the advantages of the view model approach are discussed. Finally, there is a discussion of how to partition the application logic when using a view model implementation.

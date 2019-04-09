@@ -9,8 +9,8 @@ ms.assetid: 397522d5-0402-4b94-b810-a2fb564f869d
 msc.legacyurl: /mvc/overview/older-versions-1/nerddinner/introducing-the-nerddinner-tutorial
 msc.type: authoredcontent
 ---
-Introducing the NerdDinner Tutorial
-====================
+# Introducing the NerdDinner Tutorial
+
 by [Scott Hanselman](https://github.com/shanselman)
 
 [Download PDF](http://aspnetmvcbook.s3.amazonaws.com/aspnetmvc-nerdinner_v1.pdf)
@@ -54,18 +54,18 @@ They can then click an AJAX-based RSVP link to attend the event:
 
 We are going to begin our NerdDinner application by using the File-&gt;New Project command within Visual Studio to create a brand new ASP.NET MVC project. We will then incrementally add functionality and features. Along the way we'll cover:
 
-1. [How to create a new ASP.NET MVC Project](# "Create a New ASP.NET MVC Project")
-2. [How to create a database](# "Create a Database")
-3. [How to build a model with business rule validations](# "Build a Model with Business Rule Validations")
-4. [How to use controllers and views to implement a listing/details UI](# "Use Controllers and Views to Implement a Listing/Details UI")
-5. [How to provide CRUD (create, read, update, delete) data form entry support](# "Provide CRUD (Create, Read, Update, Delete) Data Form Entry Support")
-6. [How to use ViewData and implement ViewModel classes](# "Use ViewData and Implement ViewModel Classes")
-7. [How to re-use UI using master pages and partials](# "Re-use UI Using Master Pages and Partials")
-8. [How to implement efficient data paging](# "Implement Efficient Data Paging")
-9. [How to secure applications using authentication and authorization](# "Secure Applications Using Authentication and Authorization")
-10. [How to use AJAX to deliver dynamic updates](# "Use AJAX to Deliver Dynamic Updates")
-11. [How to use AJAX to implement mapping scenarios](# "Use AJAX to Implement Mapping Scenarios")
-12. [How to enable automated unit testing](# "Enable Automated Unit Testing")
+1. [How to create a new ASP.NET MVC Project](create-a-new-aspnet-mvc-project.md)
+2. [How to create a database](create-a-database.md)
+3. [How to build a model with business rule validations](build-a-model-with-business-rule-validations.md)
+4. [How to use controllers and views to implement a listing/details UI](use-controllers-and-views-to-implement-a-listingdetails-ui.md)
+5. [How to provide CRUD (create, read, update, delete) data form entry support](provide-crud-create-read-update-delete-data-form-entry-support.md)
+6. [How to use ViewData and implement ViewModel classes](use-viewdata-and-implement-viewmodel-classes.md)
+7. [How to re-use UI using master pages and partials](re-use-ui-using-master-pages-and-partials.md)
+8. [How to implement efficient data paging](implement-efficient-data-paging.md)
+9. [How to secure applications using authentication and authorization](secure-applications-using-authentication-and-authorization.md)
+10. [How to use AJAX to deliver dynamic updates](use-ajax-to-deliver-dynamic-updates.md)
+11. [How to use AJAX to implement mapping scenarios](use-ajax-to-implement-mapping-scenarios.md)
+12. [How to enable automated unit testing](enable-automated-unit-testing.md)
 
 You can build your own copy of NerdDinner from scratch by completing each step we walkthrough in this chapter. Alternatively, you can download a completed version of the source code here: [NerdDinner on GitHub](https://github.com/AspNetMVPSamples/NerdDinner). You can also optionally also [download a free PDF version of this tutorial](http://aspnetmvcbook.s3.amazonaws.com/aspnetmvc-nerdinner_v1.pdf) if you want to read the tutorial offline.
 

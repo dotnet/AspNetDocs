@@ -9,8 +9,8 @@ ms.assetid: c56355c3-821f-43e2-9058-9499a1d63f80
 msc.legacyurl: /mvc/videos/mvc-2/aspnet-mvc-for-the-rest-of-us/aspnet-mvc-for-the-rest-of-us-part-1
 msc.type: video
 ---
-ASP.NET MVC For the Rest of Us: Part 1
-====================
+# ASP.NET MVC For the Rest of Us: Part 1
+
 by [Joe Stagner](https://github.com/JoeStagner)
 
 In this Video Microsoft's Joe Stagner builds a "Contact Us" feature for an ASP.NET MVC application by adding a View, Controller Logic and a Custom Model to the default ASP.NET Application. You'll see some of the fundamental differences between working with ASP.NET MVC versus ASP.NET Web Forms.

@@ -9,8 +9,8 @@ ms.assetid: 6dfb51ea-9f4d-4e70-916c-8ef8344a88d6
 msc.legacyurl: /web-api/overview/security/authentication-and-authorization-in-aspnet-web-api
 msc.type: authoredcontent
 ---
-Authentication and Authorization in ASP.NET Web API
-====================
+# Authentication and Authorization in ASP.NET Web API
+
 by [Mike Wasson](https://github.com/MikeWasson)
 
 You've created a web API, but now you want to control access to it. In this series of articles, we'll look at some options for securing a web API from unauthorized users. This series will cover both authentication and authorization.

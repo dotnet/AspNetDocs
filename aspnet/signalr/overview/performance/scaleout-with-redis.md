@@ -9,8 +9,8 @@ ms.assetid: 6ecd08c1-e364-4cd7-ad4c-806521911585
 msc.legacyurl: /signalr/overview/performance/scaleout-with-redis
 msc.type: authoredcontent
 ---
-SignalR Scaleout with Redis
-====================
+# SignalR Scaleout with Redis
+
 by [Mike Wasson](https://github.com/MikeWasson)
 
 [!INCLUDE [Consider ASP.NET Core SignalR](~/includes/signalr/signalr-version-disambiguation.md)]

@@ -9,8 +9,8 @@ ms.assetid: ea642733-8085-40c1-a33f-d216e3a25ffa
 msc.legacyurl: /mvc/videos/mvc-4/using-page-inspector-in-aspnet-mvc
 msc.type: video
 ---
-Using Page Inspector in ASP.NET MVC
-====================
+# Using Page Inspector in ASP.NET MVC
+
 by Tim Ammann
 
 The videos explores the usage of Page Inspector in ASP.NET MVC web applications. [Read the tutorial](../../overview/views/using-page-inspector-in-aspnet-mvc.md)

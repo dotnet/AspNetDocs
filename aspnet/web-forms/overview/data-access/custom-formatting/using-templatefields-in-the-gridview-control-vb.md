@@ -9,8 +9,8 @@ ms.assetid: a92cd6ed-609a-4e40-ad23-004b54afd436
 msc.legacyurl: /web-forms/overview/data-access/custom-formatting/using-templatefields-in-the-gridview-control-vb
 msc.type: authoredcontent
 ---
-Using TemplateFields in the GridView Control (VB)
-====================
+# Using TemplateFields in the GridView Control (VB)
+
 by [Scott Mitchell](https://twitter.com/ScottOnWriting)
 
 [Download Sample App](http://download.microsoft.com/download/5/7/0/57084608-dfb3-4781-991c-407d086e2adc/ASPNET_Data_Tutorial_12_VB.exe) or [Download PDF](using-templatefields-in-the-gridview-control-vb/_static/datatutorial12vb1.pdf)

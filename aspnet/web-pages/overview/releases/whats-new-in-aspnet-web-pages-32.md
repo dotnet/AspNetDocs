@@ -9,8 +9,8 @@ ms.assetid: a652beff-8e6b-48ad-bfe4-3703f7ccf0a5
 msc.legacyurl: /web-pages/overview/releases/whats-new-in-aspnet-web-pages-32
 msc.type: authoredcontent
 ---
-What's New in ASP.NET Web Pages 3.2
-====================
+# What's New in ASP.NET Web Pages 3.2
+
 by [Microsoft](https://github.com/microsoft)
 
 This topic describes what's new for ASP.NET Web Pages 3.2, Web Pages 3.2.2 and [Web Pages 3.2.3 beta1](https://blogs.msdn.com/b/webdev/archive/2014/12/17/asp-net-mvc-5-2-3-web-pages-5-2-3-and-web-api-5-2-3-beta-releases.aspx)

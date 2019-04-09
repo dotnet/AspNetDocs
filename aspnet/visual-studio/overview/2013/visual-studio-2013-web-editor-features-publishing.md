@@ -9,8 +9,8 @@ ms.assetid: 27e27ef7-9c63-4e68-97e7-d943db68290f
 msc.legacyurl: /visual-studio/overview/2013/visual-studio-2013-web-editor-features-publishing
 msc.type: video
 ---
-Visual Studio 2013 Web Editor Features - Publishing
-====================
+# Visual Studio 2013 Web Editor Features - Publishing
+
 by [Scott Hanselman](https://github.com/shanselman)
 
 Scott Hanselman overviews the web publishing features in Visual Studio 2013.

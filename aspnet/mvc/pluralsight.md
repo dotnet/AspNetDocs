@@ -9,8 +9,8 @@ ms.assetid: 87612fe1-258c-4f50-88d8-c3047dec3f14
 msc.legacyurl: /mvc/pluralsight
 msc.type: content
 ---
-MVC Video Training from Pluralsight
-====================
+# MVC Video Training from Pluralsight
+
 ### Videos
 
 - [Introduction and Prerequisites](https://pluralsight.com/training/Player?author=scott-allen&name=aspdotnet-mvc5-fundamentals-m1-introduction&mode=live&clip=0&course=aspdotnet-mvc5-fundamentals)

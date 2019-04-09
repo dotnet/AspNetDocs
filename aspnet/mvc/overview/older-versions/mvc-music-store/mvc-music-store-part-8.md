@@ -9,8 +9,8 @@ ms.assetid: 26b2f55e-ed42-4277-89b0-c941eb754145
 msc.legacyurl: /mvc/overview/older-versions/mvc-music-store/mvc-music-store-part-8
 msc.type: authoredcontent
 ---
-Part 8: Shopping Cart with Ajax Updates
-====================
+# Part 8: Shopping Cart with Ajax Updates
+
 by [Jon Galloway](https://github.com/jongalloway)
 
 > The MVC Music Store is a tutorial application that introduces and explains step-by-step how to use ASP.NET MVC and Visual Studio for web development.  

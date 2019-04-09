@@ -9,8 +9,8 @@ ms.assetid: 5a0df3fa-07d9-4762-b9db-1824dcd8a31a
 msc.legacyurl: /web-forms/videos/sql-2005/understanding-security-and-network-connectivity
 msc.type: video
 ---
-Understanding Security and Network Connectivity
-====================
+# Understanding Security and Network Connectivity
+
 by [Microsoft](https://github.com/microsoft)
 
 SQL Server beginners will learn to differentiate between SQL Server database files and SQL Server processes. Explore scenarios for connecting to SQL Server Express databases, enabling and disabling user instances, login permissions, and other security precautions.

@@ -9,8 +9,8 @@ ms.assetid: 2e95bedf-4741-4c9c-ab7a-0edfb171efcd
 msc.legacyurl: /web-forms/videos/how-do-i/how-do-i-multiple-file-uploads-in-aspnet-1
 msc.type: video
 ---
-[How Do I:]  Multiple File Uploads in ASP.NET 1
-====================
+# [How Do I:]  Multiple File Uploads in ASP.NET 1
+
 by [Joe Stagner](https://github.com/JoeStagner)
 
 In this video I will elaborate on uploading multiple files to an ASP.NET application.

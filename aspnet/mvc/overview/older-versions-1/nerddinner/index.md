@@ -9,8 +9,8 @@ ms.assetid: 6edfe14c-415a-4281-b6fa-69e9b38a82c8
 msc.legacyurl: /mvc/overview/older-versions-1/nerddinner
 msc.type: chapter
 ---
-NerdDinner
-====================
+# NerdDinner
+
 > How to build the NerdDinner.com website using ASP.NET MVC 1. For the ASP.NET MVC version, please visit [NerdDinner on GitHub](https://github.com/AspNetMVPSamples/NerdDinner).
 
 

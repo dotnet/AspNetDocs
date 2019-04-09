@@ -9,8 +9,8 @@ ms.assetid: c1a1244e-b9c8-42e6-a00b-8456a4ec027c
 msc.legacyurl: /web-pages/overview/ui-layouts-and-themes/twitter-helper
 msc.type: authoredcontent
 ---
-Twitter Helper with ASP.NET Web Pages
-====================
+# Twitter Helper with ASP.NET Web Pages
+
 by [Tom FitzMacken](https://github.com/tfitzmac)
 
 > [!IMPORTANT]

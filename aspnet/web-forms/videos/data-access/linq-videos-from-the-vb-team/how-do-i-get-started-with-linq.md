@@ -9,8 +9,8 @@ ms.assetid: 0811002c-962a-4e25-a372-3b5fc06f99f3
 msc.legacyurl: /web-forms/videos/data-access/linq-videos-from-the-vb-team/how-do-i-get-started-with-linq
 msc.type: video
 ---
-[How Do I:] Get Started with LINQ?
-====================
+# [How Do I:] Get Started with LINQ?
+
 by [Beth Massi](https://github.com/bethmassi)
 
 Visual Basic programmers will learn how to write simple LINQ queries over objects by navigating files on the file system.

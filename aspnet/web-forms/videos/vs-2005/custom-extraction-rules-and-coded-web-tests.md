@@ -9,8 +9,8 @@ ms.assetid: 7e2efe4c-8632-4d61-a82f-8e0bbd47c175
 msc.legacyurl: /web-forms/videos/vs-2005/custom-extraction-rules-and-coded-web-tests
 msc.type: video
 ---
-Custom Extraction Rules and Coded Web Tests
-====================
+# Custom Extraction Rules and Coded Web Tests
+
 by Eric Lee
 
 Visual Studio Team System makes it easy to test a Web application by recording a user's interaction with the application and then repeatedly replaying the recorded interaction. But users do not typically perform the same actions again and again. In this video we see how to extend and customize our automated Web tests to more accurately reflect the way a user would interact with the application. We learn how to create custom extraction rules to pull data from a Web control that the default extraction rules may not support, and how to add C# or Visual Basic-coded Web tests to add functionality such as looping, logic, and accessing external data.

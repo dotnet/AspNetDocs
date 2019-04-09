@@ -8,6 +8,7 @@ title: ASP.NET Documentation
 ms.date: 08/24/2018
 description: Learn how to develop ASP.NET and ASP.NET web applications. Get documentation, example code, tutorials, and more.
 ---
+<!-- markdownlint-disable MD033 -->
 <div id="main" class="v2">
     <div class="container">
         <h1>ASP.NET Documentation</h1>

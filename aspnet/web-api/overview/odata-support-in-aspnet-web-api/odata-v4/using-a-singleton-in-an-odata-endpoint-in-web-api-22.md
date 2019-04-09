@@ -9,8 +9,8 @@ ms.assetid: 4064ab14-26ee-4d5c-ae58-1bdda525ad06
 msc.legacyurl: /web-api/overview/odata-support-in-aspnet-web-api/odata-v4/using-a-singleton-in-an-odata-endpoint-in-web-api-22
 msc.type: authoredcontent
 ---
-Create a Singleton in OData v4 Using Web API 2.2
-====================
+# Create a Singleton in OData v4 Using Web API 2.2
+
 by Zoe Luo
 
 > Traditionally, an entity could only be accessed if it were encapsulated inside an entity set. But OData v4 provides two additional options, Singleton and Containment, both of which WebAPI 2.2 supports.

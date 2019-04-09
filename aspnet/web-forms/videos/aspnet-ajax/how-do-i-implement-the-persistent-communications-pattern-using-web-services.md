@@ -9,8 +9,8 @@ ms.assetid: 424c06cd-6d61-43cd-a1f2-d1a6b62e47b1
 msc.legacyurl: /web-forms/videos/aspnet-ajax/how-do-i-implement-the-persistent-communications-pattern-using-web-services
 msc.type: video
 ---
-[How Do I:] Implement the Persistent Communications Pattern using Web Services?
-====================
+# [How Do I:] Implement the Persistent Communications Pattern using Web Services?
+
 by [Joe Stagner](https://github.com/JoeStagner)
 
 In a traditional Web site the browser and the server do not maintain an ongoing communication, but communicate only in response to the user performing an action. In a modern Web site where the page becomes an application container, it can be advantageous for the browser and the server to maintain an ongoing communication so that page updates can occur without the user performing an action. This is known as the Persistent Communications Pattern for AJAX. ASP.NET AJAX provides two main ways for Web developers to implement the Persistent Communications Pattern. In an earlier video we saw how to use the ASP.NET AJAX UpdatePanel as the basis of the implementation. In this video we learn how to implement the same pattern using a JavaScrpt call to a Web service, which removes the need for an ASP.NET AJAX UpdatePanel.

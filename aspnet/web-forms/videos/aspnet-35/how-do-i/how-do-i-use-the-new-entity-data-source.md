@@ -9,8 +9,8 @@ ms.assetid: ce4a5e6c-8aec-4955-a145-337f1e48af05
 msc.legacyurl: /web-forms/videos/aspnet-35/how-do-i/how-do-i-use-the-new-entity-data-source
 msc.type: video
 ---
-[How Do I:] Use the New Entity Data Source
-====================
+# [How Do I:] Use the New Entity Data Source
+
 by [Diego Vega](https://github.com/divega)
 
 In this introductory video Diego Vega will show you how to use the Entity Data Source in an ASP.NET Application.

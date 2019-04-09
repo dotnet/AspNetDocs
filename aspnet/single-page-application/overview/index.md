@@ -9,8 +9,8 @@ ms.assetid: a17452c8-35fc-4ac2-811e-16d29f647cf7
 msc.legacyurl: /single-page-application/overview
 msc.type: book
 ---
-Single Page Application Overview
-====================
+# Single Page Application Overview
+
 - [Introduction](introduction/index.md)
 
     - [Single Page Application: KnockoutJS template](introduction/knockoutjs-template.md)

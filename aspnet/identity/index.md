@@ -9,8 +9,8 @@ ms.assetid: 0c2df5d4-c2dd-486d-b0ed-fe831c6b596c
 msc.legacyurl: /identity
 msc.type: categoryindex
 ---
-ASP.NET Identity
-====================
+# ASP.NET Identity
+
 - [Overview](overview/index.md)
 
     - [Getting Started with ASP.NET Identity](overview/getting-started/index.md)

@@ -9,8 +9,8 @@ ms.assetid: b71d1611-5f26-40dd-8315-b65b9d69b198
 msc.legacyurl: /web-forms/overview/deployment/configuring-team-foundation-server-for-web-deployment
 msc.type: chapter
 ---
-ASP.NET 4 - Enterprise Deployment Series 3 Configuring TFS
-====================
+# ASP.NET 4 - Enterprise Deployment Series 3 Configuring TFS
+
 > This tutorial will show you how to configure Team Foundation Server (TFS) 2010 to build solutions and deploy web content to various target environments.
 
 

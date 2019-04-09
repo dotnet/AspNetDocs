@@ -9,8 +9,8 @@ ms.assetid: eca1b75a-2f32-4004-842e-aa555175a3ea
 msc.legacyurl: /web-forms/videos/vs-2005/web-deployment-projects
 msc.type: video
 ---
-Web Deployment Projects
-====================
+# Web Deployment Projects
+
 by [Bradley Bartz](https://github.com/BradleyBartz)
 
 Bradley Bartz and Richard Ersek show how the Web Deployment Projects provide additional functionality for building and deploying web site applications created in Visual Studio 2005.

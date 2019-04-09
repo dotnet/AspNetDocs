@@ -9,8 +9,8 @@ ms.assetid: 72d90cd0-b3d9-454c-b2eb-ed0d9812f32c
 msc.legacyurl: /web-forms/overview/moving-to-aspnet-20/improvements-in-visual-studio-2005
 msc.type: authoredcontent
 ---
-Improvements in Visual Studio 2005
-====================
+# Improvements in Visual Studio 2005
+
 by [Microsoft](https://github.com/microsoft)
 
 > Visual Studio 2005 provides Web application developers with a long list of improvements and enhancements to Web projects.
@@ -432,7 +432,7 @@ You should hit the breakpoint as expected.
 
 ## ASP.NET Development Server
 
-As weve already discussed, Visual Studio 2005 ships with a Web server called the ASP.NET Development Server. (The ASP.NET Development Server is sometimes referred to as Cassini.) This Web server is a convenient means to browse and debug Web applications running on the file system.
+As we've already discussed, Visual Studio 2005 ships with a Web server called the ASP.NET Development Server. (The ASP.NET Development Server is sometimes referred to as Cassini.) This Web server is a convenient means to browse and debug Web applications running on the file system.
 
 The ASP.NET Development Server is a restricted Web server. It does not allow remote connections, it does not allow any requests from any user other than the user who started the Web server. It also does not have the capability of serving ASP pages. Only ASP.NET resources and HTML resources (including images, CSS files, etc.) are served.
 

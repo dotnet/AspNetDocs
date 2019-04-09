@@ -9,8 +9,8 @@ ms.assetid: f8157be1-4ab9-469e-ad3a-0ccc80b56c00
 msc.legacyurl: /whitepapers/aspnet-data-access-content-map
 msc.type: content
 ---
-ASP.NET Data Access - Recommended Resources
-====================
+# ASP.NET Data Access - Recommended Resources
+
 > This topic provides links to documentation resources about how to access data in ASP.NET web applications, primarily by using the Entity Framework and SQL Server.
 > 
 > If you know a great blog post, [stackoverflow](http://stackoverflow.com) thread, or any other link that would be useful, [send us an email](mailto:aspnetue@microsoft.com?subject=Data Access Content Map) with the link.

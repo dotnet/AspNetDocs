@@ -9,8 +9,8 @@ ms.assetid: d45a8c0c-e8ec-46d3-bc1c-ce446df005c8
 msc.legacyurl: /web-forms/overview/data-access/paging-and-sorting
 msc.type: chapter
 ---
-Paging and Sorting
-====================
+# Paging and Sorting
+
 > In these tutorials you add some initial sorting and paging functionality to data reports.
 
 

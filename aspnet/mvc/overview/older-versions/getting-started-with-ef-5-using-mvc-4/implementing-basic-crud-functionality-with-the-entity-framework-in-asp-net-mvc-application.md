@@ -9,8 +9,8 @@ ms.assetid: f7bace3f-b85a-47ff-b5fe-49e81441cdf9
 msc.legacyurl: /mvc/overview/older-versions/getting-started-with-ef-5-using-mvc-4/implementing-basic-crud-functionality-with-the-entity-framework-in-asp-net-mvc-application
 msc.type: authoredcontent
 ---
-Implementing Basic CRUD Functionality with the Entity Framework in ASP.NET MVC Application (2 of 10)
-====================
+# Implementing Basic CRUD Functionality with the Entity Framework in ASP.NET MVC Application (2 of 10)
+
 by [Tom Dykstra](https://github.com/tdykstra)
 
 [Download Completed Project](http://code.msdn.microsoft.com/Getting-Started-with-dd0e2ed8)

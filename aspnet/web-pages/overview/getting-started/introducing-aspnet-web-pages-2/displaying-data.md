@@ -9,8 +9,8 @@ ms.assetid: b3a006a0-3ea2-4d45-b833-e20e3a3c0a1a
 msc.legacyurl: /web-pages/overview/getting-started/introducing-aspnet-web-pages-2/displaying-data
 msc.type: authoredcontent
 ---
-Introducing ASP.NET Web Pages - Displaying Data
-====================
+# Introducing ASP.NET Web Pages - Displaying Data
+
 by [Tom FitzMacken](https://github.com/tfitzmac)
 
 > This tutorial shows you how to create a database in WebMatrix and how to display database data in a page when you use ASP.NET Web Pages (Razor). It assumes you have completed the series through [Introduction to ASP.NET Web Pages Programming](../introducing-razor-syntax-c.md).

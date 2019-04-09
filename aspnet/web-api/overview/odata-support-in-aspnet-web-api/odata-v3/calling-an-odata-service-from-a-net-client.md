@@ -9,8 +9,8 @@ ms.assetid: 6f448917-ad23-4dcc-9789-897fad74051b
 msc.legacyurl: /web-api/overview/odata-support-in-aspnet-web-api/odata-v3/calling-an-odata-service-from-a-net-client
 msc.type: authoredcontent
 ---
-Calling an OData Service From a .NET Client (C#)
-====================
+# Calling an OData Service From a .NET Client (C#)
+
 by [Mike Wasson](https://github.com/MikeWasson)
 
 [Download Completed Project](http://code.msdn.microsoft.com/ASPNET-Web-API-OData-cecdb524)

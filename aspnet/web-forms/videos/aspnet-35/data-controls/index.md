@@ -9,8 +9,8 @@ ms.assetid: 62fc223f-9c29-4af9-bdb7-902103d5cff1
 msc.legacyurl: /web-forms/videos/aspnet-35/data-controls
 msc.type: chapter
 ---
-Data Controls
-====================
+# Data Controls
+
 > This set of videos explores how to use new data control features with ASP.NET 3.5
 
 

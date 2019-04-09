@@ -9,8 +9,8 @@ ms.assetid: dab291a0-a8b5-46fa-9dd8-3d35b249201f
 msc.legacyurl: /web-forms/overview/data-access/editing-inserting-and-deleting-data/examining-the-events-associated-with-inserting-updating-and-deleting-cs
 msc.type: authoredcontent
 ---
-Examining the Events Associated with Inserting, Updating, and Deleting (C#)
-====================
+# Examining the Events Associated with Inserting, Updating, and Deleting (C#)
+
 by [Scott Mitchell](https://twitter.com/ScottOnWriting)
 
 [Download Sample App](http://download.microsoft.com/download/9/c/1/9c1d03ee-29ba-4d58-aa1a-f201dcc822ea/ASPNET_Data_Tutorial_17_CS.exe) or [Download PDF](examining-the-events-associated-with-inserting-updating-and-deleting-cs/_static/datatutorial17cs1.pdf)
@@ -49,7 +49,7 @@ Specifically, let's create a page that displays just the `ProductName` and `Unit
 
 [!code-csharp[Main](examining-the-events-associated-with-inserting-updating-and-deleting-cs/samples/sample1.cs)]
 
-Like the original `UpdateProduct` method, this overload starts by checking to see if there is a product in the database with the specified `ProductID`. If not, it returns `false`, indicating that the request to update the product information failed. Otherwise it updates the existing product record's `ProductName` and `UnitPrice` fields accordingly and commits the update by calling the TableAdpater's `Update()` method, passing in the `ProductsRow` instance.
+Like the original `UpdateProduct` method, this overload starts by checking to see if there is a product in the database with the specified `ProductID`. If not, it returns `false`, indicating that the request to update the product information failed. Otherwise it updates the existing product record's `ProductName` and `UnitPrice` fields accordingly and commits the update by calling the TableAdapter's `Update()` method, passing in the `ProductsRow` instance.
 
 With this addition to our `ProductsBLL` class, we're ready to create the simplified GridView interface. Open the `DataModificationEvents.aspx` in the `EditInsertDelete` folder and add a GridView to the page. Create a new ObjectDataSource and configure it to use the `ProductsBLL` class with its `Select()` method mapping to `GetProducts` and its `Update()` method mapping to the `UpdateProduct` overload that takes in only the `productName`, `unitPrice`, and `productID` input parameters. Figure 2 shows the Create Data Source wizard when mapping the ObjectDataSource's `Update()` method to the `ProductsBLL` class's new `UpdateProduct` method overload.
 

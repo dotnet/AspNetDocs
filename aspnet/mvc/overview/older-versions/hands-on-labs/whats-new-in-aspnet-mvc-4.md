@@ -167,14 +167,14 @@ In this exercise, you will explore the enhancements in the ASP.NET MVC 4 Project
 
    *The ASP.NET MVC 4 Internet Application Project Template*
 
-   - **HTML 5 Markup**
+    - **HTML 5 Markup**
 
        Browse template views to find out the new theme markup.
 
        ![New template, using Razor and HTML5 markup About.cshtml.](whats-new-in-aspnet-mvc-4/_static/image10.png "New template, using Razor and HTML5 markup About.cshtml.")
 
        *New template, using Razor and HTML5 markup (About.cshtml).*
-   - **Updated JavaScript libraries**
+    - **Updated JavaScript libraries**
 
        The ASP.NET MVC 4 default template now includes KnockoutJS, a JavaScript MVVM framework that lets you create rich and highly responsive web applications using JavaScript and HTML. Like in MVC3, jQuery and jQuery UI libraries are also included in ASP.NET MVC 4.
 
@@ -244,11 +244,11 @@ By using the adaptive rendering technique, your site will be **displayed properl
 > The basic format of a media query is: @media \[Scope: all | handheld | print | projection | screen\] ([property:value] and ... [property:value])
 
 
-Examples of media queries: &gt;<strong>@media all and (max-width: 1000px) and (min-width: 700px) {}:</strong> For all the resolutions between 700px and 1000px.
+Examples of media queries: &gt;**@media all and (max-width: 1000px) and (min-width: 700px) {}:** For all the resolutions between 700px and 1000px.
 
-> <strong>@media screen and (min-width: 400px) and (max-width: 700px) { ... }:</strong> Only for screens. The resolution must be between 400 and 700px.
+> **@media screen and (min-width: 400px) and (max-width: 700px) { ... }:** Only for screens. The resolution must be between 400 and 700px.
 > 
-> <strong>@media handheld and (min-width: 20em), screen and (min-width: 20em) { ... }:</strong> For handhelds(mobile and devices) and screens. The minimum width must be greater than 20em.
+> **@media handheld and (min-width: 20em), screen and (min-width: 20em) { ... }:** For handhelds(mobile and devices) and screens. The minimum width must be greater than 20em.
 > 
 > You can find more information about this on the [W3C site](http://www.w3.org/TR/css3-mediaqueries/).
 
@@ -257,7 +257,7 @@ You will now explore how the adaptive rendering works, improving the readability
 
 1. Open the **PhotoGallery.sln** solution you have created at Task 1 and select the **PhotoGallery** project. Press **F5** to run the solution.
 2. Resize the browser's width, setting the windows to half or to less than a quarter of its original size. Notice what happens with the items in the header: Some elements will not appear in the visible area of the header.
-3. Open <strong>Site.css</strong> file from the Visual Studio Solution explorer, located in <strong>Content</strong> project folder. Press <strong>CTRL + F</strong> to open Visual Studio integrated search, and write <strong>@media</strong> to locate the <strong>CSS media query</strong>.
+3. Open **Site.css** file from the Visual Studio Solution explorer, located in **Content** project folder. Press **CTRL + F** to open Visual Studio integrated search, and write **@media** to locate the **CSS media query**.
 
     The media query condition defined in this template works in this way: When the browser's window size is below **850 px**, the CSS rules applied are the ones defined inside this media block.
 
@@ -268,13 +268,13 @@ You will now explore how the adaptive rendering works, improving the readability
 
     ![In the left, the page is applying the @media style, in the right, the style is omitted](whats-new-in-aspnet-mvc-4/_static/image17.png "In the left, the page is applying the @media style, in the right, the style is omitted")
 
-    <em>In the left, the page is applying the @media style, in the right, the style is omitted</em>
+    *In the left, the page is applying the @media style, in the right, the style is omitted*
 
     Now, let's check out what happens on mobile devices:
 
     ![In the left, the page is applying the @media style, in the right, the style is omitted](whats-new-in-aspnet-mvc-4/_static/image18.png "In the left, the page is applying the @media style, in the right, the style is omitted")
 
-    <em>In the left, the page is applying the @media style, in the right, the style is omitted</em>
+    *In the left, the page is applying the @media style, in the right, the style is omitted*
 
     Although you will notice that the changes when the page is rendered in a Web browser are not very significant, when using a mobile device the differences become more obvious. On the left side of the image, we can see that the custom style improved the readability.
 
@@ -537,7 +537,7 @@ In this task, you will update the desktop layout to include the view-switcher. T
     ![View Switcher rendered in desktop view](whats-new-in-aspnet-mvc-4/_static/image32.png "View Switcher rendered in desktop view")
 
     *View Switcher rendered in desktop view*
-7. Switch to the Mobile view again and browse to <strong>About</strong> page (http://localhost[port]/Home/About). Notice that, even if you haven't created an About.Mobile.cshtml view, the About page is displayed using the mobile layout (\_Layout.Mobile.cshtml).
+7. Switch to the Mobile view again and browse to **About** page (http://localhost[port]/Home/About). Notice that, even if you haven't created an About.Mobile.cshtml view, the About page is displayed using the mobile layout (\_Layout.Mobile.cshtml).
 
     ![About page](whats-new-in-aspnet-mvc-4/_static/image33.png "About page")
 
@@ -758,7 +758,7 @@ With code snippets, you have all the code you need at your fingertips. The lab d
 
 You can install **Microsoft Visual Studio Express 2012 for Web** or another &quot;Express&quot; version using the **[Microsoft Web Platform Installer](https://www.microsoft.com/web/downloads/platform.aspx)**. The following instructions guide you through the steps required to install *Visual studio Express 2012 for Web* using *Microsoft Web Platform Installer*.
 
-1. Go to [[https://go.microsoft.com/?linkid=9810169](https://go.microsoft.com/?linkid=9810169)](https://go.microsoft.com/?linkid=9810169). Alternatively, if you already have installed Web Platform Installer, you can open it and search for the product &quot;<em>Visual Studio Express 2012 for Web with Windows Azure SDK</em>&quot;.
+1. Go to [[https://go.microsoft.com/?linkid=9810169](https://go.microsoft.com/?linkid=9810169)](https://go.microsoft.com/?linkid=9810169). Alternatively, if you already have installed Web Platform Installer, you can open it and search for the product &quot;*Visual Studio Express 2012 for Web with Windows Azure SDK*&quot;.
 2. Click on **Install Now**. If you do not have **Web Platform Installer** you will be redirected to download and install it first.
 3. Once **Web Platform Installer** is open, click **Install** to start the setup.
 
@@ -799,7 +799,7 @@ To run your site in a simulated iPhone device you can use the WebMatrix extensio
 <a id="Task_1_-_Installing_WebMatrix_2"></a>
 #### Task 1 - Installing WebMatrix 2
 
-1. Go to [[https://go.microsoft.com/?linkid=9809776](https://go.microsoft.com/?linkid=9809776)](https://go.microsoft.com/?linkid=9810169). Alternatively, if you already have installed Web Platform Installer, you can open it and search for the product &quot;<em>WebMatrix 2</em>&quot;.
+1. Go to [[https://go.microsoft.com/?linkid=9809776](https://go.microsoft.com/?linkid=9809776)](https://go.microsoft.com/?linkid=9810169). Alternatively, if you already have installed Web Platform Installer, you can open it and search for the product &quot;*WebMatrix 2*&quot;.
 2. Click on **Install Now**. If you do not have **Web Platform Installer** you will be redirected to download and install it first.
 3. Once **Web Platform Installer** is open, click **Install** to start the setup.
 
@@ -869,7 +869,7 @@ To run your site in a simulated iPhone device you can use the WebMatrix extensio
 3. In the &quot;Browse With&quot; dialog, click **Add**.
 4. In the &quot;Add Program&quot; dialog, use the following values:
 
-   - <strong>Program</strong>: C:\Users\*{CurrentUser}<em>\AppData\Local\Microsoft\WebMatrix\Extensions\20\iPhoneSimulator\ElectricMobileSim\ElectricMobileSim.exe *(update the path accordingly)</em>
+   - **Program**: C:\Users\*{CurrentUser}*\AppData\Local\Microsoft\WebMatrix\Extensions\20\iPhoneSimulator\ElectricMobileSim\ElectricMobileSim.exe *(update the path accordingly)*
    - **Arguments**: &quot;1&quot;
    - **Friendly name**: iPhone Simulator
 

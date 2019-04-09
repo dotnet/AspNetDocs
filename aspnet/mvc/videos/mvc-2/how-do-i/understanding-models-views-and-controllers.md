@@ -9,8 +9,8 @@ ms.assetid: 10b39a66-091b-4719-8283-7ef3e671a32b
 msc.legacyurl: /mvc/videos/mvc-2/how-do-i/understanding-models-views-and-controllers
 msc.type: video
 ---
-Understanding Models, Views, and Controllers
-====================
+# Understanding Models, Views, and Controllers
+
 by [Stephen Walther](https://github.com/StephenWalther)
 
 Confused about Models, Views, and Controllers? In this tutorial, Stephen Walther introduces you to the different parts of an ASP.NET MVC application. For additional information about this video, read the "Understanding Models, Views, and Controllers" tutorial ([C#](../../../overview/older-versions-1/overview/understanding-models-views-and-controllers-cs.md), [VB](../../../overview/older-versions-1/overview/understanding-models-views-and-controllers-vb.md)).

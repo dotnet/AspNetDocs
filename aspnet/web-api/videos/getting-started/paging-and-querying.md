@@ -9,8 +9,8 @@ ms.assetid: 44fa9b58-c8b0-4219-83f4-4ef328da2a09
 msc.legacyurl: /web-api/videos/getting-started/paging-and-querying
 msc.type: video
 ---
-ASP.NET Web API, Part 4: Paging and Querying
-====================
+# ASP.NET Web API, Part 4: Paging and Querying
+
 by [Jon Galloway](https://github.com/jongalloway)
 
 > [!NOTE]

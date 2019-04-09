@@ -9,8 +9,8 @@ ms.assetid: a00d3600-9c2a-41bc-9460-06cc527904e2
 msc.legacyurl: /web-api/overview/odata-support-in-aspnet-web-api/odata-v4/complex-type-inheritance-in-odata-v4
 msc.type: authoredcontent
 ---
-Complex Type Inheritance in OData v4 with ASP.NET Web API
-====================
+# Complex Type Inheritance in OData v4 with ASP.NET Web API
+
 by [Microsoft](https://github.com/microsoft)
 
 > According to the OData v4 [specification](http://www.odata.org/documentation/odata-version-4-0/), a complex type can inherit from another complex type. (A *complex* type is a structured type without a key.) Web API OData 5.3 supports complex type inheritance.

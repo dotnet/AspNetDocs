@@ -9,8 +9,8 @@ ms.assetid: 80010898-5cb0-49ae-a678-cc2f3fe3ca6c
 msc.legacyurl: /web-forms/overview/data-access/enhancing-the-gridview
 msc.type: chapter
 ---
-Enhancing the GridView
-====================
+# Enhancing the GridView
+
 > These tutorials show how to add a column of radio buttons to a GridView control to provide an intuitive way to select a single row.
 
 

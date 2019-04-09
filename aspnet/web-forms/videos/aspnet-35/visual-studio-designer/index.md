@@ -9,8 +9,8 @@ ms.assetid: 15730cc3-f122-45e4-8afd-bd8b2c8c83ab
 msc.legacyurl: /web-forms/videos/aspnet-35/visual-studio-designer
 msc.type: chapter
 ---
-Visual Studio Designer
-====================
+# Visual Studio Designer
+
 > This video illustrates enhanced features in Visual Studio 2008 for working with master pages.
 
 

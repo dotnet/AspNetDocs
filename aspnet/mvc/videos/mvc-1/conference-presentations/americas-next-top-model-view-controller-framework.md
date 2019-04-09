@@ -9,8 +9,8 @@ ms.assetid: 2ce3281d-dc92-4a43-9645-7e12ef6e72a6
 msc.legacyurl: /mvc/videos/mvc-1/conference-presentations/americas-next-top-model-view-controller-framework
 msc.type: video
 ---
-America's Next Top Model View Controller Framework
-====================
+# America's Next Top Model View Controller Framework
+
 by [Phil Haack](https://github.com/Haacked)
 
 See how to build a simple application that highlights some of the key capabilities of ASP.NET MVC. Also, learn how to improve productivity using some of the cool new tooling features.

@@ -1,16 +1,17 @@
 ---
 uid: identity/overview/features-api/index
-title: "ASP.NET Identity Features & API | Microsoft Docs"
+title: "ASP.NET Identity Features & API - ASP.NET 4.x"
 author: rick-anderson
 description: "Features & API"
 ms.author: riande
 ms.date: 05/09/2014
 ms.assetid: 70f7c0ac-aeb9-4e21-ae05-deb10640b1b3
+ms.custom: seoapril2019
 msc.legacyurl: /identity/overview/features-api
 msc.type: chapter
 ---
-ASP.NET Identity Features & API
-====================
+# ASP.NET 4.x Identity Features & API
+
 > Features & API
 
 

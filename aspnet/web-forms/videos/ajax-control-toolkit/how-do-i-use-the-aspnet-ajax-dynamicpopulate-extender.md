@@ -9,8 +9,8 @@ ms.assetid: 1c83e543-3f56-42ed-9d10-ac3f8dd26093
 msc.legacyurl: /web-forms/videos/ajax-control-toolkit/how-do-i-use-the-aspnet-ajax-dynamicpopulate-extender
 msc.type: video
 ---
-[How Do I:] Use the ASP.NET AJAX DynamicPopulate Extender?
-====================
+# [How Do I:] Use the ASP.NET AJAX DynamicPopulate Extender?
+
 by [Joe Stagner](https://github.com/JoeStagner)
 
 Watch a demonstration of using the ASP.NET AJAX DynamicPopulate extender to dynamically populate an area of a web page with the results of an asynchronous call to a web method.

@@ -9,8 +9,8 @@ ms.assetid: 79eca52c-e7ad-44ab-a3e4-d8093e9da5a7
 msc.legacyurl: /web-pages/pluralsight
 msc.type: content
 ---
-WebMatrix and Web Pages Video Training from Pluralsight
-====================
+# WebMatrix and Web Pages Video Training from Pluralsight
+
 
 > [!NOTE] 
 > WebMatrix is no longer recommended as an integrated development environment for ASP.NET Web Pages. Use [Visual Studio](xref:aspnet/web-pages/overview/getting-started/program-asp-net-web-pages-in-visual-studio) or [Visual Studio Code](https://code.visualstudio.com/).

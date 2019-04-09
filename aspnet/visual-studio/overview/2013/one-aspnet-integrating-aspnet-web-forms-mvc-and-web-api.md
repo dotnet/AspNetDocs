@@ -9,8 +9,8 @@ ms.assetid: 4fe2558d-67cc-4d12-a5c1-6fb9f6f16137
 msc.legacyurl: /visual-studio/overview/2013/one-aspnet-integrating-aspnet-web-forms-mvc-and-web-api
 msc.type: authoredcontent
 ---
-Hands On Lab: One ASP.NET: Integrating ASP.NET Web Forms, MVC and Web API
-====================
+# Hands On Lab: One ASP.NET: Integrating ASP.NET Web Forms, MVC and Web API
+
 by [Web Camps Team](https://twitter.com/webcamps)
 
 [Download Web Camps Training Kit](https://aka.ms/webcamps-training-kit)
@@ -66,7 +66,7 @@ Throughout the lab document, you will be instructed to insert code blocks. For y
 > Each exercise is accompanied by a starting solution located in the **Begin** folder of the exercise that allows you to follow each exercise independently of the others. Please be aware that the code snippets that are added during an exercise are missing from these starting solutions and may not work until you have completed the exercise. Inside the source code for an exercise, you will also find an **End** folder containing a Visual Studio solution with the code that results from completing the steps in the corresponding exercise. You can use these solutions as guidance if you need additional help as you work through this hands-on lab.
 
 
-* * *
+---
 
 <a id="Exercises"></a>
 ## Exercises
@@ -421,7 +421,7 @@ When you create a Web API, it is useful to create a help page so that other deve
 
     *Detailed information page*
 
-* * *
+---
 
 <a id="Summary"></a>
 ## Summary

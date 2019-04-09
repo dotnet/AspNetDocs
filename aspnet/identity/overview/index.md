@@ -1,6 +1,6 @@
 ---
 uid: identity/overview/index
-title: "ASP.NET Identity Overview | Microsoft Docs"
+title: "ASP.NET Identity Overview - ASP.NET 4.x"
 author: rick-anderson
 description: ""
 ms.author: riande
@@ -9,8 +9,8 @@ ms.assetid: d3972a0e-9ff6-4de1-bf4d-c94943cab048
 msc.legacyurl: /identity/overview
 msc.type: book
 ---
-ASP.NET Identity Overview
-====================
+# ASP.NET Identity Overview
+
 - [Getting Started with ASP.NET Identity](getting-started/index.md)
 
     - [Introduction to ASP.NET Identity](getting-started/introduction-to-aspnet-identity.md)

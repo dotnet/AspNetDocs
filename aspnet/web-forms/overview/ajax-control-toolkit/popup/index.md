@@ -9,8 +9,8 @@ ms.assetid: c993c38f-ffcc-412c-a8bb-09569a4cba23
 msc.legacyurl: /web-forms/overview/ajax-control-toolkit/popup
 msc.type: chapter
 ---
-Popup
-====================
+# Popup
+
 > This tutorial shows how to use the Popup control to display a popup when any other control is activated.
 
 

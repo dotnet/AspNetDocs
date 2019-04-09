@@ -9,8 +9,8 @@ ms.assetid: bec45728-da0d-4876-a92e-5eea3e52c868
 msc.legacyurl: /web-forms/videos/tailspin-spyworks/tailspin-spyworks-directory-organization
 msc.type: video
 ---
-Tailspin Spyworks - Directory Organization
-====================
+# Tailspin Spyworks - Directory Organization
+
 by [Joe Stagner](https://github.com/JoeStagner)
 
 Joe Stagner modifies the default directory structure for the Tailspin Spyworks sample Web Forms application.

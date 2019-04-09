@@ -9,8 +9,8 @@ ms.assetid: 61ee30d6-c557-4ebd-9538-1253bd02d825
 msc.legacyurl: /web-forms/videos/tailspin-spyworks/tailspin-spyworks-final-check-out
 msc.type: video
 ---
-Tailspin Spyworks - Final Check Out
-====================
+# Tailspin Spyworks - Final Check Out
+
 by [Joe Stagner](https://github.com/JoeStagner)
 
 Joe Stagner places the customer's order during the final check out process for the Tailspin Spyworks sample Web Forms application.

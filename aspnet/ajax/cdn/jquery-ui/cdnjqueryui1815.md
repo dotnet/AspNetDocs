@@ -9,8 +9,8 @@ ms.assetid: 4947e9c7-f037-4115-94e9-8e0a8b9d122d
 msc.legacyurl: /ajax/cdn/jquery-ui/cdnjqueryui1815
 msc.type: content
 ---
-jQuery UI 1.8.15 on the Microsoft Ajax CDN
-====================
+# jQuery UI 1.8.15 on the Microsoft Ajax CDN
+
 The jQuery UI 1.8.15 library includes the following files:
 
 - https://ajax.aspnetcdn.com/ajax/jquery.ui/1.8.15/jquery-ui.js
@@ -37,7 +37,7 @@ Click any of the input fields to select the full URL to the theme's CDN hosted C
 - https://ajax.aspnetcdn.com/ajax/jquery.ui/1.8.15/themes/cupertino/jquery-ui.css
   
 
-* * *
+---
 
 
 **Dark-Hive**  
@@ -53,7 +53,7 @@ Click any of the input fields to select the full URL to the theme's CDN hosted C
 - https://ajax.aspnetcdn.com/ajax/jquery.ui/1.8.15/themes/eggplant/jquery-ui.css
   
 
-* * *
+---
 
 
 **Excite-Bike**  
@@ -69,7 +69,7 @@ Click any of the input fields to select the full URL to the theme's CDN hosted C
 - https://ajax.aspnetcdn.com/ajax/jquery.ui/1.8.15/themes/hot-sneaks/jquery-ui.css
   
 
-* * *
+---
 
 
 **Humanity**  
@@ -85,7 +85,7 @@ Click any of the input fields to select the full URL to the theme's CDN hosted C
 - https://ajax.aspnetcdn.com/ajax/jquery.ui/1.8.15/themes/mint-choc/jquery-ui.css
   
 
-* * *
+---
 
 
 **Overcast**  
@@ -101,7 +101,7 @@ Click any of the input fields to select the full URL to the theme's CDN hosted C
 - https://ajax.aspnetcdn.com/ajax/jquery.ui/1.8.15/themes/redmond/jquery-ui.css
   
 
-* * *
+---
 
 
 **Smoothness**  
@@ -117,7 +117,7 @@ Click any of the input fields to select the full URL to the theme's CDN hosted C
 - https://ajax.aspnetcdn.com/ajax/jquery.ui/1.8.15/themes/start/jquery-ui.css
   
 
-* * *
+---
 
 
 **Sunny**  
@@ -133,7 +133,7 @@ Click any of the input fields to select the full URL to the theme's CDN hosted C
 - https://ajax.aspnetcdn.com/ajax/jquery.ui/1.8.15/themes/trontastic/jquery-ui.css
   
 
-* * *
+---
 
 
 **UI-Darkness**  

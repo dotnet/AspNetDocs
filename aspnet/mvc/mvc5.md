@@ -9,8 +9,8 @@ ms.assetid: f79fbf7f-59e5-4279-a832-c1a0294630f4
 msc.legacyurl: /mvc/mvc5
 msc.type: content
 ---
-ASP.NET MVC 5
-====================
+# ASP.NET MVC 5
+
 ## What's New in ASP.NET MVC 5
 
 ### One ASP.NET

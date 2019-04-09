@@ -9,8 +9,8 @@ ms.assetid: 0b91d5f8-127d-4f6a-b204-f2e2b35ef703
 msc.legacyurl: /web-forms/overview/data-access/custom-formatting/using-templatefields-in-the-detailsview-control-vb
 msc.type: authoredcontent
 ---
-Using TemplateFields in the DetailsView Control (VB)
-====================
+# Using TemplateFields in the DetailsView Control (VB)
+
 by [Scott Mitchell](https://twitter.com/ScottOnWriting)
 
 [Download Sample App](http://download.microsoft.com/download/5/7/0/57084608-dfb3-4781-991c-407d086e2adc/ASPNET_Data_Tutorial_13_VB.exe) or [Download PDF](using-templatefields-in-the-detailsview-control-vb/_static/datatutorial13vb1.pdf)

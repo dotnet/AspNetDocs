@@ -9,8 +9,8 @@ ms.assetid: be41acae-1e1e-403c-bdd2-28cdcd11a22a
 msc.legacyurl: /web-forms/videos/building-20-applications/lesson-8-working-with-the-gridview-and-formview
 msc.type: video
 ---
-[Lesson 8:] Working with the GridView and FormView
-====================
+# [Lesson 8:] Working with the GridView and FormView
+
 by [Microsoft](https://github.com/microsoft)
 
 In this lesson, you will learn about the GridView and FormView controls and how you can use some of the features of these controls to make editing and displaying of database content easier.

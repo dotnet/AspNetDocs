@@ -9,8 +9,8 @@ ms.assetid: d6e758b6-6571-484d-a132-34ee6c47747a
 msc.legacyurl: /mvc/overview/older-versions-1/models-data/displaying-a-table-of-database-data-cs
 msc.type: authoredcontent
 ---
-Displaying a Table of Database Data (C#)
-====================
+# Displaying a Table of Database Data (C#)
+
 by [Microsoft](https://github.com/microsoft)
 
 [Download PDF](http://download.microsoft.com/download/1/1/f/11f721aa-d749-4ed7-bb89-a681b68894e6/ASPNET_MVC_Tutorial_11_CS.pdf)

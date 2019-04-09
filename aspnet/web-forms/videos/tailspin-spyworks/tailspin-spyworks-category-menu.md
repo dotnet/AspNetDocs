@@ -9,8 +9,8 @@ ms.assetid: 21936995-16d2-4f2e-b9b2-fa1dea15c7aa
 msc.legacyurl: /web-forms/videos/tailspin-spyworks/tailspin-spyworks-category-menu
 msc.type: video
 ---
-Tailspin Spyworks - Category Menu
-====================
+# Tailspin Spyworks - Category Menu
+
 by [Joe Stagner](https://github.com/JoeStagner)
 
 Joe Stagner builds the category menu for the Tailspin Spyworks sample Web Forms application.

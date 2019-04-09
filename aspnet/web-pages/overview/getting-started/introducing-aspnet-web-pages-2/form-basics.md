@@ -9,8 +9,8 @@ ms.assetid: 81ed82bf-b940-44f1-b94a-555d0cb7cc98
 msc.legacyurl: /web-pages/overview/getting-started/introducing-aspnet-web-pages-2/form-basics
 msc.type: authoredcontent
 ---
-Introducing ASP.NET Web Pages - HTML Form Basics
-====================
+# Introducing ASP.NET Web Pages - HTML Form Basics
+
 by [Tom FitzMacken](https://github.com/tfitzmac)
 
 > This tutorial shows you the basics of how to create an input form and how to handle the user's input when you use ASP.NET Web Pages (Razor). And now that you've got a database, you'll use your form skills to let users find specific movies in the database. It assumes you have completed the series through [Introduction to Displaying Data Using ASP.NET Web Pages](/aspnet/web-pages/overview/getting-started/introducing-aspnet-web-pages-2/displaying-data).

@@ -9,8 +9,8 @@ ms.assetid: fda768fb-50f5-4046-8fda-6f199d27bce7
 msc.legacyurl: /web-api/videos/getting-started/your-first-web-api
 msc.type: video
 ---
-ASP.NET Web API, Part 1: Your First Web API
-====================
+# ASP.NET Web API, Part 1: Your First Web API
+
 by [Jon Galloway](https://github.com/jongalloway)
 
 > [!NOTE]

@@ -9,8 +9,8 @@ ms.assetid: 0e7b4d85-2c46-4eaf-b6a8-6cd566a67334
 msc.legacyurl: /mvc/overview/older-versions-1/controllers-and-routing/improving-performance-with-output-caching-vb
 msc.type: authoredcontent
 ---
-Improving Performance with Output Caching (VB)
-====================
+# Improving Performance with Output Caching (VB)
+
 by [Microsoft](https://github.com/microsoft)
 
 > In this tutorial, you learn how you can dramatically improve the performance of your ASP.NET MVC web applications by taking advantage of output caching. You learn how to cache the result returned from a controller action so that the same content does not need to be created each and every time a new user invokes the action.

@@ -9,8 +9,8 @@ ms.assetid: 4805e75a-7911-46e3-b11b-229a6eed245e
 msc.legacyurl: /mvc/overview/older-versions-1/contact-manager/iteration-3-add-form-validation-vb
 msc.type: authoredcontent
 ---
-Iteration #3 – Add form validation (VB)
-====================
+# Iteration #3 – Add form validation (VB)
+
 by [Microsoft](https://github.com/microsoft)
 
 [Download Code](iteration-3-add-form-validation-vb/_static/contactmanager_3_vb1.zip)

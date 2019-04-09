@@ -9,8 +9,8 @@ ms.assetid: f96f4800-19ef-44c0-b457-55e777eb5de8
 msc.legacyurl: /mvc/overview/older-versions-1/views/creating-custom-html-helpers-vb
 msc.type: authoredcontent
 ---
-Creating Custom HTML Helpers (VB)
-====================
+# Creating Custom HTML Helpers (VB)
+
 by [Microsoft](https://github.com/microsoft)
 
 [Download PDF](http://download.microsoft.com/download/1/1/f/11f721aa-d749-4ed7-bb89-a681b68894e6/ASPNET_MVC_Tutorial_9_VB.pdf)

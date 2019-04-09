@@ -9,8 +9,8 @@ ms.assetid: 0cbd88da-0da6-4605-b222-2835c6478304
 msc.legacyurl: /mvc/overview/views/dynamic-v-strongly-typed-views
 msc.type: authoredcontent
 ---
-Dynamic v. Strongly Typed Views
-====================
+# Dynamic v. Strongly Typed Views
+
 by [Rick Anderson]((https://twitter.com/RickAndMSFT))
 
 There are three ways to pass information from a controller to a view in ASP.NET MVC 3:

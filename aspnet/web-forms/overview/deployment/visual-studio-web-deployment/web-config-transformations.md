@@ -9,8 +9,8 @@ ms.assetid: 5a2a927b-14cb-40bc-867a-f0680f9febd7
 msc.legacyurl: /web-forms/overview/deployment/visual-studio-web-deployment/web-config-transformations
 msc.type: authoredcontent
 ---
-ASP.NET Web Deployment using Visual Studio: Web.config File Transformations
-====================
+# ASP.NET Web Deployment using Visual Studio: Web.config File Transformations
+
 by [Tom Dykstra](https://github.com/tdykstra)
 
 [Download Starter Project](http://go.microsoft.com/fwlink/p/?LinkId=282627)

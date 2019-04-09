@@ -9,8 +9,8 @@ ms.assetid: fdc32a00-aab5-458b-8303-67147cbd9277
 msc.legacyurl: /web-forms/videos/net-4/data
 msc.type: chapter
 ---
-Data
-====================
+# Data
+
 > This video shows you new features for ASP.NET 4 data controls.
 
 

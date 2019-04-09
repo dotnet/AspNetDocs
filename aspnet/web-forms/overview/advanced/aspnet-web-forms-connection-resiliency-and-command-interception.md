@@ -9,8 +9,8 @@ ms.assetid: 6d497001-fa80-4765-b4cc-181fe90b894e
 msc.legacyurl: /web-forms/overview/advanced/aspnet-web-forms-connection-resiliency-and-command-interception
 msc.type: authoredcontent
 ---
-ASP.NET Web Forms Connection Resiliency and Command Interception
-====================
+# ASP.NET Web Forms Connection Resiliency and Command Interception
+
 by [Erik Reitan](https://github.com/Erikre)
 
 In this tutorial, you will modify the Wingtip Toys sample application to support connection resiliency and command interception. By enabling connection resiliency, the Wingtip Toys sample application will automatically retry data calls when transient errors typical of a cloud environment occur. Also, by implementing command interception, the Wingtip Toys sample application will catch all SQL queries sent to the database in order to log or change them.

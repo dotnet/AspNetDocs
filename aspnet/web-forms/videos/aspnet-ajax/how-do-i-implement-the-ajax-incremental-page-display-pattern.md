@@ -9,8 +9,8 @@ ms.assetid: 17dfc331-1186-4240-8abf-f0220c90e081
 msc.legacyurl: /web-forms/videos/aspnet-ajax/how-do-i-implement-the-ajax-incremental-page-display-pattern
 msc.type: video
 ---
-[How Do I:] Implement the AJAX Incremental Page Display Pattern?
-====================
+# [How Do I:] Implement the AJAX Incremental Page Display Pattern?
+
 by [Joe Stagner](https://github.com/JoeStagner)
 
 Traditionally when a Web page is requested, the user must wait while the entire page is retrieved from the server after which the complete page appears suddenly in the browser. This video demonstrates how the AJAX Incremental Page Display Pattern improves the user experience by quickly and smoothly fetching and displaying portions of the Web page.

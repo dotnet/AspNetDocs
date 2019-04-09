@@ -11,8 +11,8 @@ msc.type: authoredcontent
 ---
 
 # Using Visual Studio 2013 to create a Basic ASP.NET 4.5 Web Forms Page
+# 
 
-====================
 by [Erik Reitan](https://github.com/Erikre)
 
 [!INCLUDE[](~/includes/rp.md)]
@@ -183,7 +183,7 @@ Visual Studio offers you various ways to set the properties of controls on the p
 ### To set control properties
 
 
-1. First, display the **Properties** windows by selecting from the **View** menu -&gt; **Other Windows** -&gt; **Properies Window**. You could alternatively select **F4** to display the **Properties** window.
+1. First, display the **Properties** windows by selecting from the **View** menu -&gt; **Other Windows** -&gt; **Properties Window**. You could alternatively select **F4** to display the **Properties** window.
 2. Select the [Button](https://msdn.microsoft.com/library/system.web.ui.webcontrols.button.aspx) control, and then in the **Properties** window, set the value of **Text** to **Display Name**. The text you entered appears on the button in the designer, as shown in the following illustration.
 
     ![Set Button text](creating-a-basic-web-forms-page/_static/image10.png "Set Button text")

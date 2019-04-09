@@ -9,8 +9,8 @@ ms.assetid: ecfd0eb4-c4ad-44e6-9db9-a2a66611ff6a
 msc.legacyurl: /aspnet/overview/developing-apps-with-windows-azure/maintainable-azure-websites-managing-change-and-scale
 msc.type: authoredcontent
 ---
-Hands on Lab: Maintainable Azure Websites: Managing Change and Scale
-====================
+# Hands on Lab: Maintainable Azure Websites: Managing Change and Scale
+
 by [Web Camps Team](https://twitter.com/webcamps)
 
 [Download Web Camps Training Kit](https://aka.ms/webcamps-training-kit)
@@ -83,7 +83,7 @@ Throughout the lab document, you will be instructed to insert code blocks. For y
 > Each exercise is accompanied by a starting solution located in the **Begin** folder of the exercise that allows you to follow each exercise independently of the others. Please be aware that the code snippets that are added during an exercise are missing from these starting solutions and may not work until you have completed the exercise. Inside the source code for an exercise, you will also find an **End** folder containing a Visual Studio solution with the code that results from completing the steps in the corresponding exercise. You can use these solutions as guidance if you need additional help as you work through this hands-on lab.
 
 
-* * *
+---
 
 <a id="Exercises"></a>
 ## Exercises
@@ -903,7 +903,7 @@ You will now execute the load test you created in the previous task and see how 
     > - Reduce the maximum and minimum values of the **Target CPU** range in the Autoscale configuration of your web app
     > - Run the load test in the cloud with **Azure Test Plans**. More information [here](/azure/devops/test/load-test/index?view=vsts)
 
-* * *
+---
 
 <a id="Summary"></a>
 ## Summary

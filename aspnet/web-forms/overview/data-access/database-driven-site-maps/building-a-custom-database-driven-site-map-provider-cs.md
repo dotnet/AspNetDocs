@@ -9,8 +9,8 @@ ms.assetid: 04b7591d-106f-4f05-87e9-d416cb65a8a6
 msc.legacyurl: /web-forms/overview/data-access/database-driven-site-maps/building-a-custom-database-driven-site-map-provider-cs
 msc.type: authoredcontent
 ---
-Building a Custom Database-Driven Site Map Provider (C#)
-====================
+# Building a Custom Database-Driven Site Map Provider (C#)
+
 by [Scott Mitchell](https://twitter.com/ScottOnWriting)
 
 [Download Code](http://download.microsoft.com/download/3/9/f/39f92b37-e92e-4ab3-909e-b4ef23d01aa3/ASPNET_Data_Tutorial_62_CS.zip) or [Download PDF](building-a-custom-database-driven-site-map-provider-cs/_static/datatutorial62cs1.pdf)

@@ -9,8 +9,8 @@ ms.assetid: 43f6ac47-76fc-4cf7-8e9f-c18ce673dfd8
 msc.legacyurl: /web-forms/overview/moving-to-aspnet-20/server-controls
 msc.type: authoredcontent
 ---
-Server Controls
-====================
+# Server Controls
+
 by [Microsoft](https://github.com/microsoft)
 
 > ASP.NET 2.0 enhances server controls in many ways. In this module, we'll cover some of the architectural changes to the way ASP.NET 2.0 and Visual Studio 2005 deals with server controls.
@@ -93,7 +93,7 @@ In ASP.NET 2.0, the default DOCTYPE definition is as follows:
 
 [!code-html[Main](server-controls/samples/sample7.html)]
 
-If you choose, you can alter the default XHML compliance via the xhtmlConformance node in the configuration file. For example, the following node in the web.config file will change XHTML compliance to XHTML 1.0 Strict:
+If you choose, you can alter the default XHTML compliance via the xhtmlConformance node in the configuration file. For example, the following node in the web.config file will change XHTML compliance to XHTML 1.0 Strict:
 
 [!code-xml[Main](server-controls/samples/sample8.xml)]
 

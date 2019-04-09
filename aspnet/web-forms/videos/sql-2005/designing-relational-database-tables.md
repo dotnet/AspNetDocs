@@ -9,8 +9,8 @@ ms.assetid: f8ce88a0-bddb-4f29-8d87-b3af40fc5b61
 msc.legacyurl: /web-forms/videos/sql-2005/designing-relational-database-tables
 msc.type: video
 ---
-Designing Relational Database Tables
-====================
+# Designing Relational Database Tables
+
 by [Microsoft](https://github.com/microsoft)
 
 Why are relational databases the most popular? SQL Server beginners will learn to differentiate between primary and foreign keys, design relational database tables, and learn about normalization rules and de-normalization.

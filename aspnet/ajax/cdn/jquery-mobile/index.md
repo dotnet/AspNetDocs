@@ -9,8 +9,8 @@ ms.assetid: c13785b6-5538-4511-92de-4afdb4a1d0f1
 msc.legacyurl: /ajax/cdn/jquery-mobile
 msc.type: folder
 ---
-jQuery Mobile
-====================
+# jQuery Mobile
+
 - [jQuery Mobile 1.4.2 on the Microsoft Ajax CDN](cdnjquerymobile142.md)
 - [jQuery Mobile 1.4.1 on the Microsoft Ajax CDN](cdnjquerymobile141.md)
 - [jQuery Mobile 1.4.0 on the Microsoft Ajax CDN](cdnjquerymobile140.md)

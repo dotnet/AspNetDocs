@@ -9,8 +9,8 @@ ms.assetid: 744d229b-a109-4692-a58d-1b2445bee54e
 msc.legacyurl: /web-forms/videos/aspnet-web-forms-vnext/aspnet-vnext-videos-model-binding-part-1-selecting-data
 msc.type: video
 ---
-ASP.NET vNext Videos: Model Binding Part 1 - Selecting Data
-====================
+# ASP.NET vNext Videos: Model Binding Part 1 - Selecting Data
+
 by [Damian Edwards](https://github.com/DamianEdwards)
 
 In this video, Damian Edwards begins a look at model binding by demonstrating data selection.

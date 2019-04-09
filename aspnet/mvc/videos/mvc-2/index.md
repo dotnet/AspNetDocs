@@ -9,8 +9,8 @@ ms.assetid: 68968b8a-4f60-449e-8639-978fc40aed70
 msc.legacyurl: /mvc/videos/mvc-2
 msc.type: chapter
 ---
-ASP.NET MVC 2
-====================
+# ASP.NET MVC 2
+
 > ASP.NET MVC 2
 
 

@@ -9,8 +9,8 @@ ms.assetid: 664ec95e-b0c9-4f43-a39f-798d0f2a7e08
 msc.legacyurl: /web-forms/overview/getting-started/getting-started-with-aspnet-45-web-forms/checkout-and-payment-with-paypal
 msc.type: authoredcontent
 ---
-Checkout and Payment with PayPal
-====================
+# Checkout and Payment with PayPal
+
 by [Erik Reitan](https://github.com/Erikre)
 
 [Download Wingtip Toys Sample Project (C#)](http://go.microsoft.com/fwlink/?LinkID=389434&clcid=0x409) or [Download E-book (PDF)](http://download.microsoft.com/download/0/F/B/0FBFAA46-2BFD-478F-8E56-7BF3C672DF9D/Getting%20Started%20with%20ASP.NET%204.5%20Web%20Forms%20and%20Visual%20Studio%202013.pdf)
@@ -244,7 +244,7 @@ If you are following this tutorial using the **prebuilt** Wingtip Toys sample ap
 
 PayPal is a web-based billing platform that accepts payments by online merchants. This tutorial next explains how to integrate PayPal's Express Checkout functionality into your application. Express Checkout allows your customers to use PayPal to pay for the items they have added to their shopping cart.
 
-### Create PaylPal Test Accounts
+### Create PayPal Test Accounts
 
 To use the PayPal testing environment, you must create and verify a developer test account. You will use the developer test account to create a buyer test account and a seller test account. The developer test account credentials also will allow the Wingtip Toys sample application to access the PayPal testing environment.
 
@@ -271,7 +271,7 @@ To use the PayPal testing environment, you must create and verify a developer te
 7. Create the buyer test account by clicking the **Create Account** button.  
  The **Sandbox Test accounts** page is displayed. 
 
-    ![Checkout and Payment with PayPal - PaylPal Accounts](checkout-and-payment-with-paypal/_static/image17.png)
+    ![Checkout and Payment with PayPal - PayPal Accounts](checkout-and-payment-with-paypal/_static/image17.png)
 8. On the **Sandbox test accounts** page, click the **facilitator** email account.  
     **Profile** and **Notification** options appear.
 9. Select the **Profile** option, then click **API credentials** to view your API credentials for the merchant test account.

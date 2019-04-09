@@ -9,8 +9,8 @@ ms.assetid: d5af74c6-3bdf-4d56-8dba-316e3dc0092f
 msc.legacyurl: /ajax/cdn/cdnajax35
 msc.type: content
 ---
-ASP.NET Ajax 3.5
-====================
+# ASP.NET Ajax 3.5
+
 The following files are hosted on the CDN:
 
 - https://ajax.aspnetcdn.com/ajax/3.5/MicrosoftAjax.debug.js

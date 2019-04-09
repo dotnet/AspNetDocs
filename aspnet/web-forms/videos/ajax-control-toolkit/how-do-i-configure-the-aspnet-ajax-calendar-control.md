@@ -9,8 +9,8 @@ ms.assetid: bee087cc-7fed-4dce-8b52-19987f2d38a6
 msc.legacyurl: /web-forms/videos/ajax-control-toolkit/how-do-i-configure-the-aspnet-ajax-calendar-control
 msc.type: video
 ---
-[How Do I:] Configure the ASP.NET AJAX Calendar Control?
-====================
+# [How Do I:] Configure the ASP.NET AJAX Calendar Control?
+
 by [Joe Stagner](https://github.com/JoeStagner)
 
 In this video we see a demonstration of the variety of options available to configure the appearance and the behavior of the Calendar extender control from the ASP.NET AJAX Control Toolkit.

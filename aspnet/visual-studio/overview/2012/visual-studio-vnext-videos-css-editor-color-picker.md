@@ -9,8 +9,8 @@ ms.assetid: c0c084d3-1b12-4de1-b904-30fbbda59a30
 msc.legacyurl: /visual-studio/overview/2012/visual-studio-vnext-videos-css-editor-color-picker
 msc.type: video
 ---
-Visual Studio vNext Videos: CSS Editor Color Picker
-====================
+# Visual Studio vNext Videos: CSS Editor Color Picker
+
 by [Mads Kristensen](https://github.com/madskristensen)
 
 In this video, Mads Kristensen demonstrates the Color Picker in the Visual Studio vNext CSS editor which gives quick access to all colors in the current spreadsheet and provides an advanced color selector with an eyedropper tool.

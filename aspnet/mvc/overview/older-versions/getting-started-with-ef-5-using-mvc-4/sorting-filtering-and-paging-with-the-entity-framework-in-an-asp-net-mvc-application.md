@@ -9,8 +9,8 @@ ms.assetid: 8af630e0-fffa-4110-9eca-c96e201b2724
 msc.legacyurl: /mvc/overview/older-versions/getting-started-with-ef-5-using-mvc-4/sorting-filtering-and-paging-with-the-entity-framework-in-an-asp-net-mvc-application
 msc.type: authoredcontent
 ---
-Sorting, Filtering, and Paging with the Entity Framework in an ASP.NET MVC Application (3 of 10)
-====================
+# Sorting, Filtering, and Paging with the Entity Framework in an ASP.NET MVC Application (3 of 10)
+
 by [Tom Dykstra](https://github.com/tdykstra)
 
 [Download Completed Project](http://code.msdn.microsoft.com/Getting-Started-with-dd0e2ed8)

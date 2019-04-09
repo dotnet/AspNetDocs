@@ -9,8 +9,8 @@ ms.assetid: f9c07af0-4b20-4b08-af8f-47fc3df169a2
 msc.legacyurl: /single-page-application/overview/introduction/knockoutjs-template
 msc.type: authoredcontent
 ---
-Single Page Application: KnockoutJS template
-====================
+# Single Page Application: KnockoutJS template
+
 by [Mike Wasson](https://github.com/MikeWasson)
 
 > The Knockout MVC Template is part of ASP.NET and Web Tools 2012.2

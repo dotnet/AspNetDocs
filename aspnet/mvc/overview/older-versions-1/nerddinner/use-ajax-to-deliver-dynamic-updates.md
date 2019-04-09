@@ -9,8 +9,8 @@ ms.assetid: 18700815-8e6c-4489-91af-7ea9dab6529e
 msc.legacyurl: /mvc/overview/older-versions-1/nerddinner/use-ajax-to-deliver-dynamic-updates
 msc.type: authoredcontent
 ---
-Use AJAX to Deliver Dynamic Updates
-====================
+# Use AJAX to Deliver Dynamic Updates
+
 by [Microsoft](https://github.com/microsoft)
 
 [Download PDF](http://aspnetmvcbook.s3.amazonaws.com/aspnetmvc-nerdinner_v1.pdf)
@@ -108,7 +108,7 @@ To use jQuery we'll first add a script reference to it. Because we are going to 
 
 *Tip: make sure you have installed the JavaScript intellisense hotfix for VS 2008 SP1 that enables richer intellisense support for JavaScript files (including jQuery). You can download it from: http://tinyurl.com/vs2008javascripthotfix*
 
-Code written using JQuery often uses a global "$()" JavaScript method that retrieves one or more HTML elements using a CSS selector. For example, <em>$("#rsvpmsg")</em> selects any HTML element with the id of rsvpmsg, while <em>$(".something")</em> would select all elements with the "something" CSS class name. You can also write more advanced queries like "return all of the checked radio buttons" using a selector query like: <em>$("input[@type=radio][@checked]")</em>.
+Code written using JQuery often uses a global "$()" JavaScript method that retrieves one or more HTML elements using a CSS selector. For example, *$("#rsvpmsg")* selects any HTML element with the id of rsvpmsg, while *$(".something")* would select all elements with the "something" CSS class name. You can also write more advanced queries like "return all of the checked radio buttons" using a selector query like: *$("input[@type=radio][@checked]")*.
 
 Once you've selected elements, you can call methods on them to take action, like hiding them: *$("#rsvpmsg").hide();*
 

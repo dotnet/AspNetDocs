@@ -9,8 +9,8 @@ ms.assetid: 8b726bc6-b718-43a8-b019-7ea7f26944ca
 msc.legacyurl: /web-forms/videos/aspnet-35/visual-studio-editor/javascript-debugging-in-visual-studio-2008
 msc.type: video
 ---
-JavaScript Debugging in Visual Studio 2008
-====================
+# JavaScript Debugging in Visual Studio 2008
+
 by [Joe Stagner](https://github.com/JoeStagner)
 
 Using an existing web application, I will show you how to use Visual Studio 2008 to debug JavaScript in a web application.

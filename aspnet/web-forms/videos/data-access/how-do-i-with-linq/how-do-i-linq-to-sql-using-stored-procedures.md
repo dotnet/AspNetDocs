@@ -9,8 +9,8 @@ ms.assetid: b1abfcaa-3b7d-42b9-be11-38904910ece0
 msc.legacyurl: /web-forms/videos/data-access/how-do-i-with-linq/how-do-i-linq-to-sql-using-stored-procedures
 msc.type: video
 ---
-[How Do I:] LINQ to SQL: Using Stored Procedures
-====================
+# [How Do I:] LINQ to SQL: Using Stored Procedures
+
 by [Scott Stanfield](https://github.com/scottstanfield)
 
 Using existing stored procedures and functions is easy with LINQ. We simply drag the stored procedures onto the O/R mapping surface and call them from the generated Data Context object.

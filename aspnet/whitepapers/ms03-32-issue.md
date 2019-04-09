@@ -9,8 +9,8 @@ ms.assetid: 1365eebb-bdf7-4a05-8d18-7f200531be55
 msc.legacyurl: /whitepapers/ms03-32-issue
 msc.type: content
 ---
-Fix for 'Server Application Unavailable' Error after Applying Security Update for IE
-====================
+# Fix for 'Server Application Unavailable' Error after Applying Security Update for IE
+
 > This paper describes the patch that fixes an issue with the MS03-32 Security Update for Internet Explorer that affects ASP.NET 1.0 applications running on Windows XP Professional.
 > 
 > Applies to ASP.NET 1.0 and Windows XP Professional.

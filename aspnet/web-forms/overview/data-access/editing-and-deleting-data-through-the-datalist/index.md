@@ -9,8 +9,8 @@ ms.assetid: a6f02826-428a-49b1-ab2c-8e080b72f51e
 msc.legacyurl: /web-forms/overview/data-access/editing-and-deleting-data-through-the-datalist
 msc.type: chapter
 ---
-Editing and Deleting Data Through the DataList
-====================
+# Editing and Deleting Data Through the DataList
+
 > These tutorials show how to tweak the DataList control so that it lets uses modify data.
 
 

@@ -9,8 +9,8 @@ ms.assetid: 979d6c9f-0129-4e5b-ae56-4507b281b86d
 msc.legacyurl: /web-api/overview/web-api-routing-and-actions/attribute-routing-in-web-api-2
 msc.type: authoredcontent
 ---
-Attribute Routing in ASP.NET Web API 2
-====================
+# Attribute Routing in ASP.NET Web API 2
+
 by [Mike Wasson](https://github.com/MikeWasson)
 
 *Routing* is how Web API matches a URI to an action. Web API 2 supports a new type of routing, called *attribute routing*. As the name implies, attribute routing uses attributes to define routes. Attribute routing gives you more control over the URIs in your web API. For example, you can easily create URIs that describe hierarchies of resources.
@@ -222,8 +222,8 @@ Alternatively, you can specify a default value inside the route template, as fol
 
 This is almost the same as the previous example, but there is a slight difference of behavior when the default value is applied.
 
-- In the first example ("{lcid?}"), the default value of 1033 is assigned directly to the method parameter, so the parameter will have this exact value.
-- In the second example ("{lcid=1033}"), the default value of "1033" goes through the model-binding process. The default model-binder will convert "1033" to the numeric value 1033. However, you could plug in a custom model binder, which might do something different.
+- In the first example ("{lcid:int?}"), the default value of 1033 is assigned directly to the method parameter, so the parameter will have this exact value.
+- In the second example ("{lcid:int=1033}"), the default value of "1033" goes through the model-binding process. The default model-binder will convert "1033" to the numeric value 1033. However, you could plug in a custom model binder, which might do something different.
 
 (In most cases, unless you have custom model binders in your pipeline, the two forms will be equivalent.)
 

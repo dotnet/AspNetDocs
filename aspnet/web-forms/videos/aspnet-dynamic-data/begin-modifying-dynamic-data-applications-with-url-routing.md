@@ -9,8 +9,8 @@ ms.assetid: 9170d70c-928b-48a8-8f0a-4def9dc99256
 msc.legacyurl: /web-forms/videos/aspnet-dynamic-data/begin-modifying-dynamic-data-applications-with-url-routing
 msc.type: video
 ---
-Begin Modifying Dynamic Data Applications with URL Routing
-====================
+# Begin Modifying Dynamic Data Applications with URL Routing
+
 by [Joe Stagner](https://github.com/JoeStagner)
 
 This video introduces ASP.NET Dynamic Data URL routing and shows how to configure an application's URL with routing options.

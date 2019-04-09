@@ -9,8 +9,8 @@ ms.assetid: 36e519b9-c786-4819-beda-2af72f088623
 msc.legacyurl: /mvc/videos/mvc-2/aspnet-mvc-for-the-rest-of-us/aspnet-mvc-for-the-rest-of-us-part-3
 msc.type: video
 ---
-ASP.NET MVC For the Rest of Us: Part 3
-====================
+# ASP.NET MVC For the Rest of Us: Part 3
+
 by [Joe Stagner](https://github.com/JoeStagner)
 
 In this Video Microsoft's Joe Stagner rebuilds the "Contact Us" feature for an ASP.NET MVC application using the Microsoft Entity Framework and a strongly typed view. Here we start to get a real feel for the power of working with data in ASP.NET MVC.

@@ -1,15 +1,16 @@
 ---
 uid: web-api/overview/advanced/calling-a-web-api-from-a-net-client
-title: "Call a Web API From a .NET Client (C#) | Microsoft Docs"
+title: "Call a Web API From a .NET Client (C#) - ASP.NET 4.x"
 author: MikeWasson
-description: ""
+description: "This tutorial shows how to call a web API from a .NET 4.x application."
 ms.author: riande
 ms.date: 11/24/2017
+ms.custom: seoapril2019
 msc.legacyurl: /web-api/overview/advanced/calling-a-web-api-from-a-net-client
 msc.type: authoredcontent
 ---
-Call a Web API From a .NET Client (C#)
-====================
+# Call a Web API From a .NET Client (C#)
+
 by [Mike Wasson](https://github.com/MikeWasson) and [Rick Anderson](https://twitter.com/RickAndMSFT)
 
 [Download Completed Project](https://github.com/aspnet/AspNetDocs/tree/master/aspnet/web-api/overview/advanced/calling-a-web-api-from-a-net-client/sample). [Download instructions](/aspnet/core/tutorials/#how-to-download-a-sample). 
@@ -160,7 +161,7 @@ To test the client app:
 
 1. [Download](https://github.com/aspnet/AspNetDocs/tree/master/aspnet/web-api/overview/advanced/calling-a-web-api-from-a-net-client/sample/server) and run the server app. [Download instructions](/aspnet/core/tutorials/#how-to-download-a-sample). Verify the server app is working. For example, `http://localhost:64195/api/products` should return a list of products.
 2. Set the base URI for HTTP requests. Change the port number to the port used in the server app.
-	[!code-csharp[Main](calling-a-web-api-from-a-net-client/sample/client/Program.cs?name=snippet5&highlight=2)]
+    [!code-csharp[Main](calling-a-web-api-from-a-net-client/sample/client/Program.cs?name=snippet5&highlight=2)]
 
 3. Run the client app. The following output is produced:
 

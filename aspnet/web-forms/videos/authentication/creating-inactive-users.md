@@ -9,8 +9,8 @@ ms.assetid: dc572644-1f4f-40a2-8173-e17caa3c8582
 msc.legacyurl: /web-forms/videos/authentication/creating-inactive-users
 msc.type: video
 ---
-Creating Inactive Users
-====================
+# Creating Inactive Users
+
 by [Joe Stagner](https://github.com/JoeStagner)
 
 In this video Joe Stagner walks through creating inactive users in the ASP.NET membership system, and then using an administrative interface to activate the users one at a time.

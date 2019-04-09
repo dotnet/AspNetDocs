@@ -9,8 +9,8 @@ ms.assetid: 63c42590-08ac-44da-91f8-bd79489b9ecc
 msc.legacyurl: /web-forms/videos/aspnet-web-forms-vnext/aspnet-vnext-videos-model-binding-part-3-updating
 msc.type: video
 ---
-ASP.NET vNext Videos: Model Binding Part 3 - Updating
-====================
+# ASP.NET vNext Videos: Model Binding Part 3 - Updating
+
 by [Damian Edwards](https://github.com/DamianEdwards)
 
 In this video, Damian Edwards completes the review of model binding by demonstrating how data is updated.

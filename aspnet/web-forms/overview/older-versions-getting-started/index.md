@@ -9,10 +9,9 @@ ms.assetid: e03585c2-80bf-4083-99ba-9fcbc883ccd8
 msc.legacyurl: /web-forms/overview/older-versions-getting-started
 msc.type: chapter
 ---
-Older Versions - Web Forms Getting Started
-====================
-> Tutorial on ASP.NET Web Forms 4 and earlier versions.
+# Older Versions - Web Forms Getting Started
 
+> Documentation on ASP.NET Web Forms 4 and earlier versions.
 
 - [ASP.NET 4 - Tailspin Spyworks](tailspin-spyworks/index.md)
 

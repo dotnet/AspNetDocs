@@ -1,16 +1,17 @@
 ---
 uid: web-api/overview/advanced/httpclient-message-handlers
-title: "HttpClient Message Handlers in ASP.NET Web API | Microsoft Docs"
+title: "HttpClient Message Handlers in ASP.NET Web API - ASP.NET 4.x"
 author: MikeWasson
-description: ""
+description: "Create custom message handlers for ASP.NET Web API in ASP.NET 4.x"
 ms.author: riande
 ms.date: 10/01/2012
+ms.custom: seoapril2019
 ms.assetid: 5a4b6c80-b2e9-4710-8969-d5076f7f82b8
 msc.legacyurl: /web-api/overview/advanced/httpclient-message-handlers
 msc.type: authoredcontent
 ---
-HttpClient Message Handlers in ASP.NET Web API
-====================
+# HttpClient Message Handlers in ASP.NET Web API
+
 by [Mike Wasson](https://github.com/MikeWasson)
 
 A *message handler* is a class that receives an HTTP request and returns an HTTP response.

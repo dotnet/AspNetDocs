@@ -9,14 +9,14 @@ ms.assetid: ba07958c-42e1-4da0-81db-ba6925ed6db0
 msc.legacyurl: /signalr/overview/getting-started/real-time-web-applications-with-signalr
 msc.type: authoredcontent
 ---
-Hands On Lab: Real-Time Web Applications with SignalR
-====================
+# Hands On Lab: Real-Time Web Applications with SignalR
+
 
 by [Web Camps Team](https://twitter.com/webcamps)
 
 [!INCLUDE [Consider ASP.NET Core SignalR](~/includes/signalr/signalr-version-disambiguation.md)]
 
-[Download Web Camps Training Kit](https://aka.ms/webcamps-training-kit)
+[Download Web Camps Training Kit, October 2015 Release](https://github.com/Microsoft-Web/WebCampTrainingKit/releases/tag/v2015.10.13b)
 
 > Real-time Web applications feature the ability to push server-side content to the connected clients as it happens, in real-time. For ASP.NET developers, **ASP.NET SignalR** is a library to add real-time web functionality to their applications. It takes advantage of several transports, automatically selecting the best available transport given the client and server's best available transport. It takes advantage of **WebSocket**, an HTML5 API that enables bi-directional communication between the browser and server.
 > 
@@ -28,8 +28,7 @@ by [Web Camps Team](https://twitter.com/webcamps)
 > 
 > ![SignalR Architecture](real-time-web-applications-with-signalr/_static/image1.png)
 > 
-> All sample code and snippets are included in the Web Camps Training Kit, available at [https://aka.ms/webcamps-training-kit](https://aka.ms/webcamps-training-kit).
-
+> All sample code and snippets are included in the Web Camps Training Kit, October 2015 Release, available at [https://github.com/Microsoft-Web/WebCampTrainingKit/releases/tag/v2015.10.13b](https://github.com/Microsoft-Web/WebCampTrainingKit/releases/tag/v2015.10.13b).  Please note that the Installer link on that page no longer works; use one of the links under the Assets section instead.
 
 <a id="Overview"></a>
 ## Overview
@@ -71,7 +70,7 @@ Throughout the lab document, you will be instructed to insert code blocks. For y
 > Each exercise is accompanied by a starting solution located in the **Begin** folder of the exercise that allows you to follow each exercise independently of the others. Please be aware that the code snippets that are added during an exercise are missing from these starting solutions and may not work until you have completed the exercise. Inside the source code for an exercise, you will also find an **End** folder containing a Visual Studio solution with the code that results from completing the steps in the corresponding exercise. You can use these solutions as guidance if you need additional help as you work through this hands-on lab.
 
 
-* * *
+---
 
 <a id="Exercises"></a>
 ## Exercises
@@ -388,7 +387,7 @@ In this task, you will configure **Geek Quiz** to connect to the SQL Server back
 
     *Backplane Messages Table*
 
-* * *
+---
 
 <a id="Summary"></a>
 ## Summary

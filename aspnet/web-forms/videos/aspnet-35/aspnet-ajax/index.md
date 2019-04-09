@@ -9,8 +9,8 @@ ms.assetid: 93486ab8-7a8c-4075-935a-83900817b3db
 msc.legacyurl: /web-forms/videos/aspnet-35/aspnet-ajax
 msc.type: chapter
 ---
-ASP.NET Ajax
-====================
+# ASP.NET Ajax
+
 > This video series explores how to add Ajax functionality to an ASP.NET application.
 
 

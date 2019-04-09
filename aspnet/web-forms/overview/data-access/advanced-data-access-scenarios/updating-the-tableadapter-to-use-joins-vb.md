@@ -9,8 +9,8 @@ ms.assetid: e624a3e0-061b-4efc-8b0e-5877f9ff6714
 msc.legacyurl: /web-forms/overview/data-access/advanced-data-access-scenarios/updating-the-tableadapter-to-use-joins-vb
 msc.type: authoredcontent
 ---
-Updating the TableAdapter to Use JOINs (VB)
-====================
+# Updating the TableAdapter to Use JOINs (VB)
+
 by [Scott Mitchell](https://twitter.com/ScottOnWriting)
 
 [Download Code](http://download.microsoft.com/download/3/9/f/39f92b37-e92e-4ab3-909e-b4ef23d01aa3/ASPNET_Data_Tutorial_69_VB.zip) or [Download PDF](updating-the-tableadapter-to-use-joins-vb/_static/datatutorial69vb1.pdf)

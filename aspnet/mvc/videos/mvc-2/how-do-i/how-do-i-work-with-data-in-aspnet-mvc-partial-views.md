@@ -9,8 +9,8 @@ ms.assetid: 2f0d41d2-2860-4113-8f5e-0efdd29abf7b
 msc.legacyurl: /mvc/videos/mvc-2/how-do-i/how-do-i-work-with-data-in-aspnet-mvc-partial-views
 msc.type: video
 ---
-How Do I: Work with Data in ASP.NET MVC Partial Views?
-====================
+# How Do I: Work with Data in ASP.NET MVC Partial Views?
+
 by [Chris Pels](https://twitter.com/chrispels)
 
 In this video Chris Pels shows how to organize and pass data to partial views in an MVC application. A sample MVC application is created that contains domain models for several business entities as well as a view model that packages instances of the classes. A demo view is then created along with several partial views, all of which are strongly typed and make use of the view model class. The partial views are then added to the demo view and the instance of the view model is used to easily pass the appropriate data down to the partial views. Finally, the uses of the concepts implemented in the sample in a more extensive MVC application are discussed.

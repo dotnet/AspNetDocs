@@ -9,8 +9,8 @@ ms.assetid: 8447679a-2556-4411-b758-bbe55cfa4805
 msc.legacyurl: /web-api/overview/web-api-routing-and-actions
 msc.type: chapter
 ---
-Web API Routing
-====================
+# Web API Routing
+
 > How ASP.NET Web API routes HTTP requests to controllers and actions.
 
 

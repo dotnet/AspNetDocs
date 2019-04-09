@@ -9,8 +9,8 @@ ms.assetid: 961e525b-7700-469e-8a68-d7010b6fb68c
 msc.legacyurl: /web-pages/overview/performance-and-traffic/15-caching-to-improve-the-performance-of-your-website
 msc.type: authoredcontent
 ---
-Caching Data in an ASP.NET Web Pages (Razor) Site for Better Performance
-====================
+# Caching Data in an ASP.NET Web Pages (Razor) Site for Better Performance
+
 by [Tom FitzMacken](https://github.com/tfitzmac)
 
 > This article explains how to use a helper to cache information for faster performance in an ASP.NET Web Pages (Razor) website. You can speed up your website by having it store &#8212; that is, cache &#8212; the results of data that ordinarily would take considerable time to retrieve or process and that does not change often.

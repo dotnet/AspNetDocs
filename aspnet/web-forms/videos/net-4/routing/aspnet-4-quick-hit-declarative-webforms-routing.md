@@ -9,8 +9,8 @@ ms.assetid: bfeb728e-3216-4310-8303-6cdb79255c15
 msc.legacyurl: /web-forms/videos/net-4/routing/aspnet-4-quick-hit-declarative-webforms-routing
 msc.type: video
 ---
-ASP.NET 4 "Quick Hit" - Declarative WebForms Routing
-====================
+# ASP.NET 4 "Quick Hit" - Declarative WebForms Routing
+
 by [Joe Stagner](https://github.com/JoeStagner)
 
 In this video you will learn how to do WebForms routing declaratively through markup. 

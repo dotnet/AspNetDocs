@@ -9,8 +9,8 @@ ms.assetid: a5d13067-ddfb-4c36-8209-0f69fd40e45c
 msc.legacyurl: /web-forms/overview/data-access/editing-and-deleting-data-through-the-datalist/customizing-the-datalist-s-editing-interface-cs
 msc.type: authoredcontent
 ---
-Customizing the DataList's Editing Interface (C#)
-====================
+# Customizing the DataList's Editing Interface (C#)
+
 by [Scott Mitchell](https://twitter.com/ScottOnWriting)
 
 [Download Sample App](http://download.microsoft.com/download/9/c/1/9c1d03ee-29ba-4d58-aa1a-f201dcc822ea/ASPNET_Data_Tutorial_40_CS.exe) or [Download PDF](customizing-the-datalist-s-editing-interface-cs/_static/datatutorial40cs1.pdf)

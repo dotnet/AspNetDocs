@@ -9,8 +9,8 @@ ms.assetid: ff2bba8e-4dbb-4b73-95fe-0bba17152ef5
 msc.legacyurl: /web-forms/videos/net-4/core/aspnet-4-quick-hit-auto-start
 msc.type: video
 ---
-ASP.NET 4 "Quick Hit" - Auto Start
-====================
+# ASP.NET 4 "Quick Hit" - Auto Start
+
 by [Joe Stagner](https://github.com/JoeStagner)
 
 In this video you will learn about the new auto-start scalability feature which provides a controlled approach for starting up an application pool, initializing an ASP.NET application, and then accepting HTTP requests. 

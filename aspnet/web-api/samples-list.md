@@ -1,16 +1,17 @@
 ---
 uid: web-api/samples-list
-title: "Web API Samples List | Microsoft Docs"
+title: "Web API Samples List - ASP.NET 4.x"
 author: rick-anderson
-description: ""
+description: "ASP.NET Web API samples list for ASP.NET 4.x"
 ms.author: riande
 ms.date: 09/18/2012
+ms.custom: seoapril2019
 ms.assetid: 8cbd9d7f-7027-4390-b098-cb81a63ecd6f
 msc.legacyurl: /web-api/samples-list
 msc.type: content
 ---
-Web API Samples List
-====================
+# Web API Samples List
+
 ## HttpClient Samples
 
 **Bing Translate Sample** | [VS 2012 source](https://github.com/aspnet/samples/blob/master/samples/aspnet/HttpClient/BingTranslateSample)

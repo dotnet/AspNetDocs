@@ -9,8 +9,8 @@ ms.assetid: e39eaa25-83ff-41dc-869d-3818d59a88ae
 msc.legacyurl: /web-api/overview/releases/whats-new-in-aspnet-web-api-odata-53
 msc.type: authoredcontent
 ---
-What's New in ASP.NET Web API OData 5.3
-====================
+# What's New in ASP.NET Web API OData 5.3
+
 by [Microsoft](https://github.com/microsoft)
 
 This topic describes what's new for ASP.NET Web API OData 5.3.
@@ -56,7 +56,7 @@ This query is equivalent to:
 <a id="open-entity-types"></a>
 ### Support for Open Entity Types
 
-An *open type* is a stuctured type that contains dynamic properties, in addition to any properties that are declared in the type definition. Open types let you add flexibility to your data models. For more information, see xxxx.
+An *open type* is a structured type that contains dynamic properties, in addition to any properties that are declared in the type definition. Open types let you add flexibility to your data models. For more information, see xxxx.
 
 ### Support for dynamic collection properties in open types
 

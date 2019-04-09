@@ -9,8 +9,8 @@ ms.assetid: bdbeb8f7-90e7-4bc5-aeb6-0f928660fb4f
 msc.legacyurl: /web-forms/overview/ajax-control-toolkit/passwordstrength
 msc.type: chapter
 ---
-PasswordStrength
-====================
+# PasswordStrength
+
 > This tutorial shows how to PasswordStrength control to check how strong a password is as a user creates it.
 
 

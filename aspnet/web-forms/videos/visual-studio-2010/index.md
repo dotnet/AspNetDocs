@@ -9,8 +9,8 @@ ms.assetid: a1e1014d-085c-4e5a-8522-068387b6415d
 msc.legacyurl: /web-forms/videos/visual-studio-2010
 msc.type: chapter
 ---
-General VS 2010 Tips
-====================
+# General VS 2010 Tips
+
 > Features of Visual Studio 2010, including those specifically for working with ASP.NET.
 
 

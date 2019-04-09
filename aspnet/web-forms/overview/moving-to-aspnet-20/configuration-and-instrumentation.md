@@ -9,8 +9,8 @@ ms.assetid: 21ebbaee-7ed8-45ae-b6c1-c27c88342e48
 msc.legacyurl: /web-forms/overview/moving-to-aspnet-20/configuration-and-instrumentation
 msc.type: authoredcontent
 ---
-Configuration and Instrumentation
-====================
+# Configuration and Instrumentation
+
 by [Microsoft](https://github.com/microsoft)
 
 > There are major changes in configuration and instrumentation in ASP.NET 2.0. The new ASP.NET configuration API allows for configuration changes to be made programmatically. In addition, many new configuration settings exist allow for new configurations and instrumentation.

@@ -9,8 +9,8 @@ ms.assetid: ffa3d5c9-91e5-4da3-b409-560b0c7fbbf0
 msc.legacyurl: /web-pages/readme/beta3
 msc.type: content
 ---
-Web Matrix and ASP.NET Web Pages (Razor) Beta 3 Release Readme
-====================
+# Web Matrix and ASP.NET Web Pages (Razor) Beta 3 Release Readme
+
 > Web Matrix and ASP.NET Web Pages (Razor) Beta 3 Release Readme
 
 9 November 2010
@@ -542,6 +542,6 @@ For more information about WebMatrix Beta 3, see the following websites:
 - [ASP.NET](https://asp.net/webmatrix)
 - [Microsoft.com/web](https://www.microsoft.com/web)
 
-* * *
+---
 
 © 2010 Microsoft Corporation. All Rights Reserved. [Terms of Use](https://msdn.microsoft.cos/cc300389.aspx).

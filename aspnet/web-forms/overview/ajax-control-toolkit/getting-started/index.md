@@ -9,8 +9,8 @@ ms.assetid: e87dbaaf-fcbe-4e42-87ee-e60e25856e8c
 msc.legacyurl: /web-forms/overview/ajax-control-toolkit/getting-started
 msc.type: chapter
 ---
-Getting Started
-====================
+# Getting Started
+
 > This page describes how to download the Ajax Control Toolkit and how to add its controls to the Visual Studio or Visual Web Developer toolbox.
 
 

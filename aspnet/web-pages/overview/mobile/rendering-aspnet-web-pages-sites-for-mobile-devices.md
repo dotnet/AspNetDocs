@@ -9,8 +9,8 @@ ms.assetid: f15ab392-c05e-4269-83bf-7c6d2b8c8ec8
 msc.legacyurl: /web-pages/overview/mobile/rendering-aspnet-web-pages-sites-for-mobile-devices
 msc.type: authoredcontent
 ---
-Rendering ASP.NET Web Pages (Razor) Sites for Mobile Devices
-====================
+# Rendering ASP.NET Web Pages (Razor) Sites for Mobile Devices
+
 by [Tom FitzMacken](https://github.com/tfitzmac)
 
 > This article describes how to create pages in an ASP.NET Web Pages (Razor) site that will render appropriately on mobile devices.
@@ -31,7 +31,7 @@ by [Tom FitzMacken](https://github.com/tfitzmac)
 
 ASP.NET Web Pages lets you create custom displays for rendering content on mobile or other devices.
 
-The simplest way to create device-specific page in an ASP.NET Web Pages site is by using a file-naming pattern like this: <em>FileName.</em><em>Mobile</em><em>.cshtml</em>. You can create two versions of a page (for example, one named <em>MyFile.cshtml</em> and one named <em>MyFile.Mobile.cshtml</em>). At run time, when a mobile device requests <em>MyFile.cshtml</em>, ASP.NET renders the content from <em>MyFile.Mobile.cshtml</em>. Otherwise, <em>MyFile.cshtml</em> is rendered.
+The simplest way to create device-specific page in an ASP.NET Web Pages site is by using a file-naming pattern like this: *FileName.Mobile.cshtml*. You can create two versions of a page (for example, one named *MyFile.cshtml* and one named *MyFile.Mobile.cshtml*). At run time, when a mobile device requests *MyFile.cshtml*, ASP.NET renders the content from *MyFile.Mobile.cshtml*. Otherwise, *MyFile.cshtml* is rendered.
 
 The following example shows how to enable mobile rendering by adding a content page for mobile devices. *Page1.cshtml* contains content plus a navigation sidebar. *Page1.Mobile.cshtml* contains the same content, but omits the sidebar.
 

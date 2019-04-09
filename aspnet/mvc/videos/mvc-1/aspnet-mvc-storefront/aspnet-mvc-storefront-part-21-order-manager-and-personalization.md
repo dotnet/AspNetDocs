@@ -9,8 +9,8 @@ ms.assetid: f1490fdc-ee7d-4fee-a4e5-25d141d88478
 msc.legacyurl: /mvc/videos/mvc-1/aspnet-mvc-storefront/aspnet-mvc-storefront-part-21-order-manager-and-personalization
 msc.type: video
 ---
-ASP.NET MVC Storefront Part 21: Order Manager and Personalization
-====================
+# ASP.NET MVC Storefront Part 21: Order Manager and Personalization
+
 by [Rob Conery](https://github.com/robconery)
 
 In this episode I create the Order Manager page and talk about various issues relating to order fulfillment. In addition I introduce personalization features to make the experience a bit more friendly for the user.

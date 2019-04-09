@@ -9,8 +9,8 @@ ms.assetid: dacc2d88-5768-4721-8624-c603e2088670
 msc.legacyurl: /web-forms/videos/ajax-control-toolkit/create-a-new-custom-extender
 msc.type: video
 ---
-Create a New Custom Extender
-====================
+# Create a New Custom Extender
+
 by [Joe Stagner](https://github.com/JoeStagner)
 
 In this video Joe demonstrates how to use the AJAX Control Toolkit to create a new custom AJAX Control Extender.

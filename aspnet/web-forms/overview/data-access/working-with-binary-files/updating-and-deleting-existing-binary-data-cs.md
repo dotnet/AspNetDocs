@@ -9,8 +9,8 @@ ms.assetid: 35798f21-1606-434b-83f8-30166906ef49
 msc.legacyurl: /web-forms/overview/data-access/working-with-binary-files/updating-and-deleting-existing-binary-data-cs
 msc.type: authoredcontent
 ---
-Updating and Deleting Existing Binary Data (C#)
-====================
+# Updating and Deleting Existing Binary Data (C#)
+
 by [Scott Mitchell](https://twitter.com/ScottOnWriting)
 
 [Download Sample App](http://download.microsoft.com/download/4/a/7/4a7a3b18-d80e-4014-8e53-a6a2427f0d93/ASPNET_Data_Tutorial_57_CS.exe) or [Download PDF](updating-and-deleting-existing-binary-data-cs/_static/datatutorial57cs1.pdf)
@@ -28,7 +28,7 @@ All that remains to be implemented is the ability to edit and delete existing ca
 
 The DAL has auto-generated `Insert`, `Update`, and `Delete` methods, but these methods were generated based on the `CategoriesTableAdapter` s main query, which does not include the `Picture` column. Therefore, the `Insert` and `Update` methods do not include parameters for specifying the binary data for the category s picture. Like we did in the [preceding tutorial](including-a-file-upload-option-when-adding-a-new-record-cs.md), we need to create a new TableAdapter method for updating the `Categories` table when specifying binary data.
 
-Open the Typed DataSet and, from the Designer, right-click on the `CategoriesTableAdapter` s header and choose Add Query from the context menu to launche the TableAdapter Query Configuration Wizard. This wizard starts by asking us how the TableAdapter query should access the database. Choose Use SQL statements and click Next. The next step prompts for the type of query to be generated. Since we re creating a query to add a new record to the `Categories` table, choose UPDATE and click Next.
+Open the Typed DataSet and, from the Designer, right-click on the `CategoriesTableAdapter` s header and choose Add Query from the context menu to launch the TableAdapter Query Configuration Wizard. This wizard starts by asking us how the TableAdapter query should access the database. Choose Use SQL statements and click Next. The next step prompts for the type of query to be generated. Since we re creating a query to add a new record to the `Categories` table, choose UPDATE and click Next.
 
 
 [![Select the UPDATE Option](updating-and-deleting-existing-binary-data-cs/_static/image1.gif)](updating-and-deleting-existing-binary-data-cs/_static/image1.png)

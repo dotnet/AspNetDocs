@@ -9,8 +9,8 @@ ms.assetid: 2456a5da-d376-4d45-8275-9e0dc46bf7dd
 msc.legacyurl: /mvc/videos/mvc-2/how-do-i/understanding-controllers-controller-actions-and-action-results
 msc.type: video
 ---
-Understanding Controllers, Controller Actions, and Action Results
-====================
+# Understanding Controllers, Controller Actions, and Action Results
+
 by [Stephen Walther](https://github.com/StephenWalther)
 
 In this tutorial, Stephen Walther introduces you to ASP.NET MVC controllers. You learn how to create new controllers and return different types of action results. For additional information about this video, read the "Understanding Controllers, Controller Actions, and Action Results" tutorial ([C#](../../../overview/older-versions-1/controllers-and-routing/aspnet-mvc-controllers-overview-cs.md), [VB](../../../overview/older-versions-1/controllers-and-routing/asp-net-mvc-controller-overview-vb.md)).

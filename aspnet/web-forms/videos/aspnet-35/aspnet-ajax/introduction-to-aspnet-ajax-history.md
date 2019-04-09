@@ -9,8 +9,8 @@ ms.assetid: fd3db529-601a-4a6e-b91a-d9cbe1ff7bd4
 msc.legacyurl: /web-forms/videos/aspnet-35/aspnet-ajax/introduction-to-aspnet-ajax-history
 msc.type: video
 ---
-Introduction to ASP.NET Ajax History
-====================
+# Introduction to ASP.NET Ajax History
+
 by [Bertrand Le Roy](https://github.com/bleroy)
 
 Learn how the ASP.NET Extensions Preview allows control over the Browser back button in Ajax. **ASP.NET AJAX Extensions are available in the [ASP.NET 3.5 Extensions Preview](https://www.asp.net/downloads/35-sp1#find) (December 2007).**

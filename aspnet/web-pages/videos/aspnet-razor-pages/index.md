@@ -9,8 +9,8 @@ ms.assetid: ffad842d-548c-40c6-84c5-10858133e972
 msc.legacyurl: /web-pages/videos/aspnet-razor-pages
 msc.type: chapter
 ---
-ASP.NET Web Pages
-=================
+# ASP.NET Web Pages
+
 > Which videos you can view to drill down into Web Pages and WebMatrix.
 
 

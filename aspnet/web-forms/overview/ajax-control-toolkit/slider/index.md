@@ -9,8 +9,8 @@ ms.assetid: fd7812d1-55d7-4e4a-96c8-1614b375db56
 msc.legacyurl: /web-forms/overview/ajax-control-toolkit/slider
 msc.type: chapter
 ---
-Slider
-====================
+# Slider
+
 > This tutorial shows how to use the Slider control to display a graphical slider that users can control using the mouse.
 
 

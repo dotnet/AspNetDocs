@@ -9,8 +9,8 @@ ms.assetid: a4eb03b2-8efa-42ea-848d-b26918b80c33
 msc.legacyurl: /web-forms/videos/aspnet-35/aspnet-ajax/adding-ajax-functionality-to-an-existing-aspnet-page
 msc.type: video
 ---
-Adding AJAX Functionality to an Existing ASP.NET Page
-====================
+# Adding AJAX Functionality to an Existing ASP.NET Page
+
 by [Todd Miranda](https://github.com/tmiranda)
 
 Using AJAX in ASP.NET pages can increase performance and improve the overall user experience of an application. It is not necessary to rewrite existing pages to add AJAX features. With only a few modifications, an existing ASP.NET page can be made to use AJAX. This video demonstrates how to add AJAX functionality to an existing ASP.NET page with minimal effort.

@@ -9,8 +9,8 @@ ms.assetid: 2011925a-789d-4160-af31-4667097727f1
 msc.legacyurl: /web-forms/videos/aspnet-dynamic-data/getting-started-with-dynamic-data
 msc.type: video
 ---
-Getting Started with Dynamic Data
-====================
+# Getting Started with Dynamic Data
+
 by [Joe Stagner](https://github.com/JoeStagner)
 
 In this video we'll build an entire ASP.NET application with ASP.NET Dynamic Data using the Northwind Data by using Dynamic Data's code generating, scaffolding and templates. The finished application is complete with AJAX Behaviors and a database layer with full CRUD functionality.

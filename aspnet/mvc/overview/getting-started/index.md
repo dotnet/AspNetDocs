@@ -9,8 +9,8 @@ ms.assetid: d916dbe0-1895-491b-8bb6-93f4594ce757
 msc.legacyurl: /mvc/overview/getting-started
 msc.type: chapter
 ---
-ASP.NET MVC Getting Started
-====================
+# ASP.NET MVC Getting Started
+
 > The following guidance explains what ASP.NET MVC is and shows how to get started.
 
 

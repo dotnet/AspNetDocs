@@ -9,8 +9,8 @@ ms.assetid: d4287e40-272a-412f-b0e9-59a5d97421bd
 msc.legacyurl: /web-forms/overview/moving-to-aspnet-20
 msc.type: chapter
 ---
-Older Versions - ASP.NET 2.0
-====================
+# Older Versions - ASP.NET 2.0
+
 > How to migrate ASP.NET 1.x applications to ASP.NET 2.0.
 
 

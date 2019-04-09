@@ -9,8 +9,8 @@ ms.assetid: 940bdecc-ae0f-448f-a189-405efa614049
 msc.legacyurl: /web-forms/videos/authentication/add-custom-data-to-the-authentication-method
 msc.type: video
 ---
-Add Custom Data to the Authentication Method
-====================
+# Add Custom Data to the Authentication Method
+
 by [Joe Stagner](https://github.com/JoeStagner)
 
 Joe Stagner will continue the exploration of ASP.NET authentication by configuring the authentication method to add custom data to the authentication ticket that is used by ASP.NET. For more information on this demo, a tutorial is located [here](../../overview/older-versions-security/introduction/forms-authentication-configuration-and-advanced-topics-vb.md).

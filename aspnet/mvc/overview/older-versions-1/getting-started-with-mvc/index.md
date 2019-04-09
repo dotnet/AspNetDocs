@@ -9,8 +9,8 @@ ms.assetid: 057f01bf-0ad9-488a-ae75-c8f85b8e1f23
 msc.legacyurl: /mvc/overview/older-versions-1/getting-started-with-mvc
 msc.type: chapter
 ---
-Getting Started With MVC
-====================
+# Getting Started With MVC
+
 > This is a beginner tutorial series that introduces ASP.NET MVC. Create a simple web application that reads and writes from a database.
 
 

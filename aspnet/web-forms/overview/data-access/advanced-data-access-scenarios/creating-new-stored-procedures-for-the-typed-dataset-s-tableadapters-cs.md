@@ -9,8 +9,8 @@ ms.assetid: 751282ca-5870-4d66-84e4-6cefae23eb4a
 msc.legacyurl: /web-forms/overview/data-access/advanced-data-access-scenarios/creating-new-stored-procedures-for-the-typed-dataset-s-tableadapters-cs
 msc.type: authoredcontent
 ---
-Creating New Stored Procedures for the Typed DataSet's TableAdapters (C#)
-====================
+# Creating New Stored Procedures for the Typed DataSet's TableAdapters (C#)
+
 by [Scott Mitchell](https://twitter.com/ScottOnWriting)
 
 [Download Code](http://download.microsoft.com/download/3/9/f/39f92b37-e92e-4ab3-909e-b4ef23d01aa3/ASPNET_Data_Tutorial_67_CS.zip) or [Download PDF](creating-new-stored-procedures-for-the-typed-dataset-s-tableadapters-cs/_static/datatutorial67cs1.pdf)
@@ -22,7 +22,7 @@ by [Scott Mitchell](https://twitter.com/ScottOnWriting)
 
 The Data Access Layer (DAL) for these tutorials uses Typed DataSets. As discussed in the [Creating a Data Access Layer](../introduction/creating-a-data-access-layer-cs.md) tutorial, Typed DataSets consist of strongly-typed DataTables and TableAdapters. The DataTables represent the logical entities in the system while the TableAdapters interface with the underlying database to perform the data access work. This includes populating the DataTables with data, executing queries that return scalar data, and inserting, updating, and deleting records from the database.
 
-The SQL commands executed by the TableAdapters can be either ad-hoc SQL statements, such as `SELECT columnList FROM TableName`, or stored procedures. The TableAdapters in our architecture use ad-hoc SQL statements. Many developers and database administrators, however, prefer stored procedures over ad-hoc SQL statements for security, maintainability, and updateability reasons. Others ardently prefer ad-hoc SQL statements for their flexibility. In my own work I favor stored procedures over ad-hoc SQL statements, but chose to use ad-hoc SQL statements to simplify the earlier tutorials.
+The SQL commands executed by the TableAdapters can be either ad-hoc SQL statements, such as `SELECT columnList FROM TableName`, or stored procedures. The TableAdapters in our architecture use ad-hoc SQL statements. Many developers and database administrators, however, prefer stored procedures over ad-hoc SQL statements for security, maintainability, and updatability reasons. Others ardently prefer ad-hoc SQL statements for their flexibility. In my own work I favor stored procedures over ad-hoc SQL statements, but chose to use ad-hoc SQL statements to simplify the earlier tutorials.
 
 When defining a TableAdapter or adding new methods, the TableAdapter s wizard makes it just as easy to create new stored procedures or use existing stored procedures as it does to use ad-hoc SQL statements. In this tutorial we'll examine how to have the TableAdapter s wizard auto-generate stored procedures. In the next tutorial we will look at how to configure the TableAdapter s methods to use existing or manually-created stored procedures.
 
@@ -115,9 +115,9 @@ This will create the new Typed DataSet, open its Designer, create a new TableAda
 From this next screen we can choose how the TableAdapter should access the database. In previous tutorials, we selected the first option, Use SQL statements. For this tutorial, select the second option, Create new stored procedures, and click Next.
 
 
-[![Instruct the TableAdpater to Create New Stored Procedures](creating-new-stored-procedures-for-the-typed-dataset-s-tableadapters-cs/_static/image10.png)](creating-new-stored-procedures-for-the-typed-dataset-s-tableadapters-cs/_static/image9.png)
+[![Instruct the TableAdapter to Create New Stored Procedures](creating-new-stored-procedures-for-the-typed-dataset-s-tableadapters-cs/_static/image10.png)](creating-new-stored-procedures-for-the-typed-dataset-s-tableadapters-cs/_static/image9.png)
 
-**Figure 5**: Instruct the TableAdpater to Create New Stored Procedures ([Click to view full-size image](creating-new-stored-procedures-for-the-typed-dataset-s-tableadapters-cs/_static/image11.png))
+**Figure 5**: Instruct the TableAdapter to Create New Stored Procedures ([Click to view full-size image](creating-new-stored-procedures-for-the-typed-dataset-s-tableadapters-cs/_static/image11.png))
 
 
 Just like with using ad-hoc SQL statements, in the following step we are asked to provide the `SELECT` statement for the TableAdapter s main query. But instead of using the `SELECT` statement entered here to perform an ad-hoc query directly, the TableAdapter s wizard will create a stored procedure that contains this `SELECT` query.

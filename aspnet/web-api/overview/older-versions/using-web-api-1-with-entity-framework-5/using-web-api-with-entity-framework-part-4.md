@@ -9,8 +9,8 @@ ms.assetid: 792f4513-a508-4d14-a0dd-1a2fe282c7bb
 msc.legacyurl: /web-api/overview/older-versions/using-web-api-1-with-entity-framework-5/using-web-api-with-entity-framework-part-4
 msc.type: authoredcontent
 ---
-Part 4: Adding an Admin View
-====================
+# Part 4: Adding an Admin View
+
 by [Mike Wasson](https://github.com/MikeWasson)
 
 [Download Completed Project](http://code.msdn.microsoft.com/ASP-NET-Web-API-with-afa30545)

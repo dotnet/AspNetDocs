@@ -9,8 +9,8 @@ ms.assetid: d017f36f-0152-43c7-ac44-6c7c755ea79a
 msc.legacyurl: /web-forms/overview/data-access/custom-button-actions-with-the-datalist-and-repeater
 msc.type: chapter
 ---
-Custom Button Actions with the DataList and Repeater
-====================
+# Custom Button Actions with the DataList and Repeater
+
 > These tutorials show how to add buttons to the DataList and Repeater controls to add custom functionality.
 
 

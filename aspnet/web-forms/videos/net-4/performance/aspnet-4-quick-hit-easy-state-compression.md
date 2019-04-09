@@ -9,8 +9,8 @@ ms.assetid: 8e2c66c5-1b67-483a-9e74-ed67b3d85051
 msc.legacyurl: /web-forms/videos/net-4/performance/aspnet-4-quick-hit-easy-state-compression
 msc.type: video
 ---
-ASP.NET 4 "Quick Hit" – Easy State Compression
-====================
+# ASP.NET 4 "Quick Hit" – Easy State Compression
+
 by [Joe Stagner](https://github.com/JoeStagner)
 
 In this video you will learn how to use the compressionEnabled configuration option to compress (and decompress) serialized session state. 

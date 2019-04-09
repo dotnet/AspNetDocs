@@ -9,8 +9,8 @@ ms.assetid: ec1cec4c-a75f-47af-a2ba-b1e2f971d24b
 msc.legacyurl: /web-forms/overview/deployment/visual-studio-web-deployment/project-properties
 msc.type: authoredcontent
 ---
-ASP.NET Web Deployment using Visual Studio: Project Properties
-====================
+# ASP.NET Web Deployment using Visual Studio: Project Properties
+
 by [Tom Dykstra](https://github.com/tdykstra)
 
 [Download Starter Project](http://go.microsoft.com/fwlink/p/?LinkId=282627)

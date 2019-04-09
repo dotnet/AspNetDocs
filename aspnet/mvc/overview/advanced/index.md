@@ -9,8 +9,8 @@ ms.assetid: 2a8cc0dc-e21b-444b-b394-bc3dfceac16a
 msc.legacyurl: /mvc/overview/advanced
 msc.type: chapter
 ---
-ASP.NET MVC Advanced Topics
-====================
+# ASP.NET MVC Advanced Topics
+
 > Advanced topics for programming ASP.NET MVC, including accessibility, extensibility, and internationalization.
 
 

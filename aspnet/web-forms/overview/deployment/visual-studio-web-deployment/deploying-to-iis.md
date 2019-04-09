@@ -9,8 +9,8 @@ ms.assetid: 8bf2c4fb-4ee5-4841-bfc2-03462c1f7a7a
 msc.legacyurl: /web-forms/overview/deployment/visual-studio-web-deployment/deploying-to-iis
 msc.type: authoredcontent
 ---
-ASP.NET Web Deployment using Visual Studio: Deploying to Test
-====================
+# ASP.NET Web Deployment using Visual Studio: Deploying to Test
+
 by [Tom Dykstra](https://github.com/tdykstra)
 
 > This tutorial series shows you how to deploy (publish) an ASP.NET web application to Azure App Service Web Apps or to a third-party hosting provider using Visual Studio 2017. For information about the series, see [the first tutorial in the series](introduction.md).

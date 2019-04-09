@@ -9,8 +9,8 @@ ms.assetid: b68e309e-1d76-4bf4-8623-3e6be3916f7d
 msc.legacyurl: /web-pages/videos/introduction/create-a-data-driven-dynamic-web-page
 msc.type: video
 ---
-Create a Data-Driven Dynamic Web Page
-====================
+# Create a Data-Driven Dynamic Web Page
+
 by [Advaiya](https://twitter.com/Advaiyasolns)
 
 Part 5 is all about data, where you'll learn how to use a database in your web page, and make it more dynamic.

@@ -9,8 +9,8 @@ ms.assetid: bdffb1f1-19e7-4b95-b73a-de94cd19ae8b
 msc.legacyurl: /ajax/cdn/jquery-mobile/cdnjquerymobile101
 msc.type: content
 ---
-jQuery Mobile 1.0.1 on the Microsoft Ajax CDN
-====================
+# jQuery Mobile 1.0.1 on the Microsoft Ajax CDN
+
 The jQuery Mobile 1.0.1 library includes the following files:
 
 - https://ajax.aspnetcdn.com/ajax/jquery.mobile/1.0.1/jquery.mobile-1.0.1.js

@@ -9,8 +9,8 @@ ms.assetid: 92909295-b514-486f-b9ed-0e0100ded16c
 msc.legacyurl: /web-forms/videos/tailspin-spyworks/tailspin-spyworks-update-the-shopping-cart
 msc.type: video
 ---
-Tailspin Spyworks - Update the Shopping Cart
-====================
+# Tailspin Spyworks - Update the Shopping Cart
+
 by [Joe Stagner](https://github.com/JoeStagner)
 
 Joe Stagner updates the shopping cart for the Tailspin Spyworks sample Web Forms application.

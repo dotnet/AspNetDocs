@@ -9,8 +9,8 @@ ms.assetid: cbf87e68-de7a-4216-b328-50c30f68493c
 msc.legacyurl: /web-forms/overview/ajax-control-toolkit/nobot
 msc.type: chapter
 ---
-NoBot
-====================
+# NoBot
+
 > This tutorial shows how to use the NoBot control, which provides an automated way to prevent bots from posting to a site.
 
 

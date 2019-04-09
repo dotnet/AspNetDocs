@@ -9,8 +9,8 @@ ms.assetid: f8d78a88-cc91-40d8-bce3-3d7954f6033b
 msc.legacyurl: /web-forms/overview/older-versions-getting-started/deploying-web-site-projects/determining-what-files-need-to-be-deployed-cs
 msc.type: authoredcontent
 ---
-Determining What Files Need to Be Deployed (C#)
-====================
+# Determining What Files Need to Be Deployed (C#)
+
 by [Scott Mitchell](https://twitter.com/ScottOnWriting)
 
 [Download Code](http://download.microsoft.com/download/4/5/F/45F815EC-8B0E-46D3-9FB8-2DC015CCA306/ASPNET_Hosting_Tutorial_02_CS.zip) or [Download PDF](http://download.microsoft.com/download/E/8/9/E8920AE6-D441-41A7-8A77-9EF8FF970D8B/aspnet_tutorial02_FilesToDeploy_cs.pdf)
@@ -28,7 +28,7 @@ In general, all client-side support files should be copied from the development 
 
 ASP.NET web pages are divided into declarative markup and source code. The declarative markup portion includes HTML, Web controls, and databinding syntax; the code portion contains event handlers written in Visual Basic or C# code. The markup and code portions are typically separated into different files: `WebPage.aspx` contains the declarative markup while `WebPage.aspx.cs` houses the code.
 
-Consider an ASP.NET page named Clock.aspx that contains a Label control whose Text property is set to the current date and time when the page loads. The declarative markup portion (in `Clock.aspx`) would contain the markup for a Label Web control -`<asp:Label runat="server" id="TimeLabel" />` - while the code portion (in `Clock.aspx.cs`) would have a `Page_Load` event hander with the following code:
+Consider an ASP.NET page named Clock.aspx that contains a Label control whose Text property is set to the current date and time when the page loads. The declarative markup portion (in `Clock.aspx`) would contain the markup for a Label Web control -`<asp:Label runat="server" id="TimeLabel" />` - while the code portion (in `Clock.aspx.cs`) would have a `Page_Load` event handler with the following code:
 
 [!code-csharp[Main](determining-what-files-need-to-be-deployed-cs/samples/sample1.cs)]
 

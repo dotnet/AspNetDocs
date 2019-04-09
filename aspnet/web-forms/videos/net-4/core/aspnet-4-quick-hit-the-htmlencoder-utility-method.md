@@ -9,8 +9,8 @@ ms.assetid: e1f67fe5-32ce-409b-bba4-d8f730851b33
 msc.legacyurl: /web-forms/videos/net-4/core/aspnet-4-quick-hit-the-htmlencoder-utility-method
 msc.type: video
 ---
-ASP.NET 4 "Quick Hit" – The HtmlEncoder Utility Method
-====================
+# ASP.NET 4 "Quick Hit" – The HtmlEncoder Utility Method
+
 by [Joe Stagner](https://github.com/JoeStagner)
 
 In this video you will learn about the HtmlEncoder utility method.

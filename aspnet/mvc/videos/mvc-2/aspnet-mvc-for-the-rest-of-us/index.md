@@ -9,8 +9,8 @@ ms.assetid: b57141fa-8903-4afe-8c8c-d965204001e2
 msc.legacyurl: /mvc/videos/mvc-2/aspnet-mvc-for-the-rest-of-us
 msc.type: chapter
 ---
-ASP.NET MVC For the Rest of Us
-====================
+# ASP.NET MVC For the Rest of Us
+
 > ASP.NET MVC For the Rest of Us
 
 

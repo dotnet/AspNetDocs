@@ -9,8 +9,8 @@ ms.assetid: 51900291-7787-4a6e-be4e-fa558486f5ff
 msc.legacyurl: /visual-studio/overview/2012
 msc.type: chapter
 ---
-ASP.NET and Visual Studio 2012
-====================
+# ASP.NET and Visual Studio 2012
+
 > Developing ASP.NET web apps with Visual Studio 2012
 
 

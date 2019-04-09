@@ -1,16 +1,17 @@
 ---
 uid: web-api/overview/error-handling/exception-handling
-title: "Exception Handling in ASP.NET Web API | Microsoft Docs"
+title: "Exception Handling in ASP.NET Web API - ASP.NET 4.x"
 author: MikeWasson
 description: ""
 ms.author: riande
 ms.date: 03/12/2012
+ms.custom: seoapril2019
 ms.assetid: cbebeb37-2594-41f2-b71a-f4f26520d512
 msc.legacyurl: /web-api/overview/error-handling/exception-handling
 msc.type: authoredcontent
 ---
-Exception Handling in ASP.NET Web API
-====================
+# Exception Handling in ASP.NET Web API
+
 by [Mike Wasson](https://github.com/MikeWasson)
 
 This article describes error and exception handling in ASP.NET Web API.

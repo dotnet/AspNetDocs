@@ -236,7 +236,7 @@ The [AzureKeyVaultConfigBuilder](https://www.nuget.org/packages/Microsoft.Config
 ```xml
 <add name="KeyPerFile"
     [mode|prefix|stripPrefix|tokenPattern]
-	(directoryPath="PathToSourceDirectory")
+    (directoryPath="PathToSourceDirectory")
     [ignorePrefix="ignore."]
     [keyDelimiter=":"]
     [optional="false"]

@@ -9,8 +9,8 @@ ms.assetid: 4001cb9b-3bfd-4ace-8a89-1561d8421e2c
 msc.legacyurl: /web-pages/overview/api-reference/asp-net-web-pages-api-reference
 msc.type: authoredcontent
 ---
-ASP.NET Web Pages (Razor) API Quick Reference
-====================
+# ASP.NET Web Pages (Razor) API Quick Reference
+
 by [Tom FitzMacken](https://github.com/tfitzmac)
 
 > This page contains a list with brief examples of the most commonly used objects, properties, and methods for programming ASP.NET Web Pages with Razor syntax.
@@ -683,7 +683,7 @@ Sends an email message.
 
 ### `WebMail.SmtpServer`
 
-Sets the SMTP server name. Normally you set this property in the<em>\_AppStart</em> page.
+Sets the SMTP server name. Normally you set this property in the *\_AppStart* page.
 
 [!code-html[Main](asp-net-web-pages-api-reference/samples/sample105.html)]
 

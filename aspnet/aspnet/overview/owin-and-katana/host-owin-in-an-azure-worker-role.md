@@ -9,8 +9,8 @@ ms.assetid: 07aa855a-92ee-4d43-ba66-5bfd7de20ee6
 msc.legacyurl: /aspnet/overview/owin-and-katana/host-owin-in-an-azure-worker-role
 msc.type: authoredcontent
 ---
-Host OWIN in an Azure Worker Role
-====================
+# Host OWIN in an Azure Worker Role
+
 by [Mike Wasson](https://github.com/MikeWasson)
 
 > This tutorial shows how to self-host OWIN in a Microsoft Azure worker role.
@@ -110,7 +110,7 @@ The compute emulator assigns a local IP address to the endpoint. You can find th
 
 [![](host-owin-in-an-azure-worker-role/_static/image10.png)](host-owin-in-an-azure-worker-role/_static/image9.png)
 
-Find the IP address under Service Deployments, deployment [id], Service Details. Open a web browser and navigate to http://<em>address</em>, where <em>address</em> is the IP address assigned by the compute emulator; for example, `http://127.0.0.1:80`. You should see the OWIN welcome page:
+Find the IP address under Service Deployments, deployment [id], Service Details. Open a web browser and navigate to http:\/\/*address*, where *address* is the IP address assigned by the compute emulator; for example, `http://127.0.0.1:80`. You should see the OWIN welcome page:
 
 ![](host-owin-in-an-azure-worker-role/_static/image11.png)
 

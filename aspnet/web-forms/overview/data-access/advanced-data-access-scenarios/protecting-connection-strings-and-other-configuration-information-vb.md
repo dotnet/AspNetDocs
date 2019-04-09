@@ -9,8 +9,8 @@ ms.assetid: cd17dbe1-c5e1-4be8-ad3d-57233d52cef1
 msc.legacyurl: /web-forms/overview/data-access/advanced-data-access-scenarios/protecting-connection-strings-and-other-configuration-information-vb
 msc.type: authoredcontent
 ---
-Protecting Connection Strings and Other Configuration Information (VB)
-====================
+# Protecting Connection Strings and Other Configuration Information (VB)
+
 by [Scott Mitchell](https://twitter.com/ScottOnWriting)
 
 [Download Code](http://download.microsoft.com/download/3/9/f/39f92b37-e92e-4ab3-909e-b4ef23d01aa3/ASPNET_Data_Tutorial_73_VB.zip) or [Download PDF](protecting-connection-strings-and-other-configuration-information-vb/_static/datatutorial73vb1.pdf)

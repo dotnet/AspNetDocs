@@ -9,8 +9,8 @@ ms.assetid: 2646968c-2826-4418-b1d0-62610ed177e3
 msc.legacyurl: /web-forms/overview/data-access/editing-inserting-and-deleting-data/implementing-optimistic-concurrency-vb
 msc.type: authoredcontent
 ---
-Implementing Optimistic Concurrency (VB)
-====================
+# Implementing Optimistic Concurrency (VB)
+
 by [Scott Mitchell](https://twitter.com/ScottOnWriting)
 
 [Download Sample App](http://download.microsoft.com/download/9/c/1/9c1d03ee-29ba-4d58-aa1a-f201dcc822ea/ASPNET_Data_Tutorial_21_VB.exe) or [Download PDF](implementing-optimistic-concurrency-vb/_static/datatutorial21vb1.pdf)

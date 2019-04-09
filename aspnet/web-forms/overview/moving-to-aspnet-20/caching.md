@@ -9,8 +9,8 @@ ms.assetid: 2bb109d2-e299-46ea-9054-fa0263b59165
 msc.legacyurl: /web-forms/overview/moving-to-aspnet-20/caching
 msc.type: authoredcontent
 ---
-Caching
-====================
+# Caching
+
 by [Microsoft](https://github.com/microsoft)
 
 > An understanding of caching is important for a well-performing ASP.NET application. ASP.NET 1.x offered three different options for caching; output caching, fragment caching, and the cache API.
@@ -50,7 +50,7 @@ To invalidate the item that was inserted above, simply remove the item that was 
 
 Note that the key of the item that acts as the cache key must be the same as the value added to the array of cache keys.
 
-## Polling-Based SQL Cache Dependencies<em>(Also called Table-Based Dependencies)</em>
+## Polling-Based SQL Cache Dependencies(Also called Table-Based Dependencies)
 
 SQL Server 7 and 2000 use the polling-based model for SQL cache dependencies. The polling-based model uses a trigger on a database table that is triggered when data in the table change. That trigger updates a **changeId** field in the notification table that ASP.NET checks periodically. If the **changeId** field has been updated, ASP.NET knows that the data have changed and it invalidates the cached data.
 

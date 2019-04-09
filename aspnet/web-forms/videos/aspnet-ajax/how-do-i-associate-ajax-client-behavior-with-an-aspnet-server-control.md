@@ -9,8 +9,8 @@ ms.assetid: 3a75ac02-225d-4e30-8669-0156c3ef06c7
 msc.legacyurl: /web-forms/videos/aspnet-ajax/how-do-i-associate-ajax-client-behavior-with-an-aspnet-server-control
 msc.type: video
 ---
-[How Do I:] Associate AJAX Client Behavior with an ASP.NET Server Control?
-====================
+# [How Do I:] Associate AJAX Client Behavior with an ASP.NET Server Control?
+
 by [Chris Pels](https://twitter.com/chrispels)
 
 Learn how to create a client behavior based upon Microsoft AJAX that can be associated with an ASP.NET server control on an .aspx page. The client behavior extends the functionality of the standard ASP.NET control through association rather than by creating a new custom control. Therefore, the behavior can be reused across multiple instances or types of ASP.NET controls depending upon its implementation.

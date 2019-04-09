@@ -9,8 +9,8 @@ ms.assetid: dddc8812-a0bc-49f9-aafb-caf2064c2b8c
 msc.legacyurl: /mvc/mvc3
 msc.type: content
 ---
-ASP.NET MVC 3
-====================
+# ASP.NET MVC 3
+
 > *(includes April 2011 Tools Update)*
 > 
 > ASP.NET MVC 3 is a framework for building scalable, standards-based web applications using well-established design patterns and the power of ASP.NET and the .NET Framework.

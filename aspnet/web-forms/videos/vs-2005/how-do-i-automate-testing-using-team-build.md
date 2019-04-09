@@ -9,8 +9,8 @@ ms.assetid: 8e8fd5a9-0e98-415a-93f5-9ad7524ae9bb
 msc.legacyurl: /web-forms/videos/vs-2005/how-do-i-automate-testing-using-team-build
 msc.type: video
 ---
-[How Do I:] Automate Testing using Team Build?
-====================
+# [How Do I:] Automate Testing using Team Build?
+
 by [Chris Menegay](https://twitter.com/CMenegay)
 
 In this video we learn how to use Visual Studio Team System to define the automated tests that will run during a team build, and how we can drill down in to the results of those tests. We also learn that the [Test Tools Build Task](https://msdn.microsoft.com/vstudio/aa718351.aspx#bttt) provides an alternative way of specifying the tests to run during a team build.

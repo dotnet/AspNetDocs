@@ -9,8 +9,8 @@ ms.assetid: f47e6224-c2e5-4472-b069-b6c7b6115200
 msc.legacyurl: /web-forms/overview/ajax-control-toolkit/htmleditor/how-do-i-use-the-html-editor-control-cs
 msc.type: authoredcontent
 ---
-How do I use the HTML Editor Control? (C#)
-====================
+# How do I use the HTML Editor Control? (C#)
+
 by [Microsoft](https://github.com/microsoft)
 
 > HTMLEditor is an ASP.NET AJAX Control that allows you to easily create and edit HTML content via buttons in a toolbar.

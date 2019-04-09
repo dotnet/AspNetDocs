@@ -9,8 +9,8 @@ ms.assetid: d4911cb3-1afb-4805-b860-10818c4b1280
 msc.legacyurl: /mvc/overview/security/create-an-aspnet-mvc-5-web-app-with-email-confirmation-and-password-reset
 msc.type: authoredcontent
 ---
-Create a secure ASP.NET MVC 5 web app with log in, email confirmation and password reset (C#)
-====================
+# Create a secure ASP.NET MVC 5 web app with log in, email confirmation and password reset (C#)
+
 by [Rick Anderson]((https://twitter.com/RickAndMSFT))
 
 > This tutorial shows you how to build an ASP.NET MVC 5 web app with email confirmation and password reset using the ASP.NET Identity membership system. You can download the completed application [here](https://code.msdn.microsoft.com/MVC-5-with-2FA-email-8f26d952). The download contains debugging helpers that let you test email confirmation and SMS without setting up an email or SMS provider.

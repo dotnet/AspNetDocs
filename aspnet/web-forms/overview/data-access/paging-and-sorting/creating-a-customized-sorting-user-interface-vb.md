@@ -9,8 +9,8 @@ ms.assetid: f3897a74-cc6a-4032-8f68-465f155e296a
 msc.legacyurl: /web-forms/overview/data-access/paging-and-sorting/creating-a-customized-sorting-user-interface-vb
 msc.type: authoredcontent
 ---
-Creating a Customized Sorting User Interface (VB)
-====================
+# Creating a Customized Sorting User Interface (VB)
+
 by [Scott Mitchell](https://twitter.com/ScottOnWriting)
 
 [Download Sample App](http://download.microsoft.com/download/9/c/1/9c1d03ee-29ba-4d58-aa1a-f201dcc822ea/ASPNET_Data_Tutorial_27_VB.exe) or [Download PDF](creating-a-customized-sorting-user-interface-vb/_static/datatutorial27vb1.pdf)

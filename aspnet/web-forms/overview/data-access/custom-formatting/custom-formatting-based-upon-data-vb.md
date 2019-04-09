@@ -9,8 +9,8 @@ ms.assetid: df5a1525-386f-4632-972c-57b199870bc3
 msc.legacyurl: /web-forms/overview/data-access/custom-formatting/custom-formatting-based-upon-data-vb
 msc.type: authoredcontent
 ---
-Custom Formatting Based Upon Data (VB)
-====================
+# Custom Formatting Based Upon Data (VB)
+
 by [Scott Mitchell](https://twitter.com/ScottOnWriting)
 
 [Download Sample App](http://download.microsoft.com/download/5/7/0/57084608-dfb3-4781-991c-407d086e2adc/ASPNET_Data_Tutorial_11_VB.exe) or [Download PDF](custom-formatting-based-upon-data-vb/_static/datatutorial11vb1.pdf)
@@ -258,7 +258,7 @@ This event handler can be created using the same series of steps as with the For
 **Figure 10**: Create an Event Handler for the GridView's `RowDataBound` Event
 
 
-Creating the event hander in this manner will cause the following code to be automatically added to the ASP.NET page's code portion:
+Creating the event handler in this manner will cause the following code to be automatically added to the ASP.NET page's code portion:
 
 
 [!code-vb[Main](custom-formatting-based-upon-data-vb/samples/sample14.vb)]

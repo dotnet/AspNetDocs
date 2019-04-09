@@ -9,8 +9,8 @@ ms.assetid: 45bf07c6-145f-435e-a703-3233e710d528
 msc.legacyurl: /visual-studio/overview/2013/visual-studio-2013-web-editor-features-browser-link
 msc.type: video
 ---
-Visual Studio 2013 Web Editor Features - Browser Link
-====================
+# Visual Studio 2013 Web Editor Features - Browser Link
+
 by [Scott Hanselman](https://github.com/shanselman)
 
 Scott Hanselman demonstrates Browser Link in Visual Studio 2013, which allows for two-way communication between Visual Studio and multiple connected browsers.

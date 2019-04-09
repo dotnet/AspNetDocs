@@ -9,8 +9,8 @@ ms.assetid: 347210ba-c452-4feb-886f-b51d89f58971
 msc.legacyurl: /signalr/overview/older-versions/troubleshooting
 msc.type: authoredcontent
 ---
-SignalR Troubleshooting (SignalR 1.x)
-====================
+# SignalR Troubleshooting (SignalR 1.x)
+
 by [Patrick Fletcher](https://github.com/pfletcher)
 
 [!INCLUDE [Consider ASP.NET Core SignalR](~/includes/signalr/signalr-version-disambiguation.md)]

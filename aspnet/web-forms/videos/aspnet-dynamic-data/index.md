@@ -9,8 +9,8 @@ ms.assetid: cd51e6c4-6ff9-419d-8ac8-a39b79d63c78
 msc.legacyurl: /web-forms/videos/aspnet-dynamic-data
 msc.type: chapter
 ---
-ASP.NET Dynamic Data
-====================
+# ASP.NET Dynamic Data
+
 > How to use ASP.NET Dynamic Data to create scaffolded applications that automatically know how to perform data access.
 
 

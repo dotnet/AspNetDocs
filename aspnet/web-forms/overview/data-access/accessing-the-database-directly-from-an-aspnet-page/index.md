@@ -9,8 +9,8 @@ ms.assetid: 134a202f-4eef-41fc-8e91-70efba338389
 msc.legacyurl: /web-forms/overview/data-access/accessing-the-database-directly-from-an-aspnet-page
 msc.type: chapter
 ---
-Accessing the Database Directly from an ASP.NET Page
-====================
+# Accessing the Database Directly from an ASP.NET Page
+
 > These tutorials show how to use the SqlDataSource control to query the database directly when you don't need a strict separation of the presentation and data access layers.
 
 

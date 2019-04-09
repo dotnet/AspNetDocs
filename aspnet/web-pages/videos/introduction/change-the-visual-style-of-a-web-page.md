@@ -9,8 +9,8 @@ ms.assetid: 78b37794-a65a-483e-8936-57d167ff9ee9
 msc.legacyurl: /web-pages/videos/introduction/change-the-visual-style-of-a-web-page
 msc.type: video
 ---
-Change the Visual Style of a Web Page
-====================
+# Change the Visual Style of a Web Page
+
 by [Advaiya](https://twitter.com/Advaiyasolns)
 
 Part 3 gets you started with CSS and style sheets so you can make your page more beautiful.

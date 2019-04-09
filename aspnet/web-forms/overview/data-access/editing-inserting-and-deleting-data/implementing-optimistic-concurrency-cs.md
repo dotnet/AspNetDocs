@@ -9,8 +9,8 @@ ms.assetid: 56e15b33-93b8-43ad-8e19-44c6647ea05c
 msc.legacyurl: /web-forms/overview/data-access/editing-inserting-and-deleting-data/implementing-optimistic-concurrency-cs
 msc.type: authoredcontent
 ---
-Implementing Optimistic Concurrency (C#)
-====================
+# Implementing Optimistic Concurrency (C#)
+
 by [Scott Mitchell](https://twitter.com/ScottOnWriting)
 
 [Download Sample App](http://download.microsoft.com/download/9/c/1/9c1d03ee-29ba-4d58-aa1a-f201dcc822ea/ASPNET_Data_Tutorial_21_CS.exe) or [Download PDF](implementing-optimistic-concurrency-cs/_static/datatutorial21cs1.pdf)

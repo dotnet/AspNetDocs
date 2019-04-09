@@ -9,8 +9,8 @@ ms.assetid: 6dae249f-5ac6-4f6e-bc49-13bcd5a54a70
 msc.legacyurl: /aspnet/overview/owin-and-katana/getting-started-with-owin-and-katana
 msc.type: authoredcontent
 ---
-Getting Started with OWIN and Katana
-====================
+# Getting Started with OWIN and Katana
+
 by [Mike Wasson](https://github.com/MikeWasson)
 
 [Open Web Interface for .NET (OWIN)](http://owin.org/) defines an abstraction between .NET web servers and web applications. By decoupling the web server from the application, OWIN makes it easier to create middleware for .NET web development. Also, OWIN makes it easier to port web applications to other hosts&#8212;for example, self-hosting in a Windows service or other process.

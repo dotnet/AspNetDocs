@@ -9,8 +9,8 @@ ms.assetid: f0643c61-c310-4906-a238-dfc86f09b940
 msc.legacyurl: /single-page-application/overview/introduction
 msc.type: chapter
 ---
-Introduction to ASP.NET Single Page Application
-====================
+# Introduction to ASP.NET Single Page Application
+
 > Content for using the new SPA template and Knockoutjs.
 
 

@@ -9,8 +9,8 @@ ms.assetid: f99da654-2148-4e66-867c-6e837b84e9d0
 msc.legacyurl: /web-forms/videos/aspnet-dynamic-data/how-do-i-change-how-my-fields-render
 msc.type: video
 ---
-How do I Change how my Fields render?
-====================
+# How do I Change how my Fields render?
+
 by [Scott Hanselman](https://github.com/shanselman)
 
 In this video you learn how to change the way that data fields are rendered. You will plug in third-party controls for some fields.

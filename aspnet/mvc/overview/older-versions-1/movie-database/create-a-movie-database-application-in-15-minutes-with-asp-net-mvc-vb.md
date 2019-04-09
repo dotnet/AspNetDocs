@@ -9,8 +9,8 @@ ms.assetid: e4ba9786-734c-4eb3-91bb-089793325d0d
 msc.legacyurl: /mvc/overview/older-versions-1/movie-database/create-a-movie-database-application-in-15-minutes-with-asp-net-mvc-vb
 msc.type: authoredcontent
 ---
-Create a Movie Database Application in 15 Minutes with ASP.NET MVC (VB)
-====================
+# Create a Movie Database Application in 15 Minutes with ASP.NET MVC (VB)
+
 by [Stephen Walther](https://github.com/StephenWalther)
 
 [Download Code](http://download.microsoft.com/download/7/2/8/728F8794-E59A-4D18-9A56-7AD2DB05BD9D/MovieApp_VB.zip)

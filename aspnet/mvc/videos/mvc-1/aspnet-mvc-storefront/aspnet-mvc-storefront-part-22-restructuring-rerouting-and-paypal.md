@@ -9,8 +9,8 @@ ms.assetid: 81190124-d0f6-4e4b-a48f-2613cc5a6aa7
 msc.legacyurl: /mvc/videos/mvc-1/aspnet-mvc-storefront/aspnet-mvc-storefront-part-22-restructuring-rerouting-and-paypal
 msc.type: video
 ---
-ASP.NET MVC Storefront Part 22: Restructuring, Rerouting, and PayPal
-====================
+# ASP.NET MVC Storefront Part 22: Restructuring, Rerouting, and PayPal
+
 by [Rob Conery](https://github.com/robconery)
 
 In this episode I restructure a bit in order to clean things up some. I also change the routes to be a lot simpler. Finally, I add PayPal as a checkout option.

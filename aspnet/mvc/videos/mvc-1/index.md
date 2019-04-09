@@ -9,8 +9,8 @@ ms.assetid: a780d06b-36cd-410a-b95a-b6b935b5a7fa
 msc.legacyurl: /mvc/videos/mvc-1
 msc.type: chapter
 ---
-ASP.NET MVC 1
-====================
+# ASP.NET MVC 1
+
 > ASP.NET MVC 1
 
 
