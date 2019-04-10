@@ -578,4 +578,3 @@ Here are some of the other useful methods of the ClientScriptManager class.
 | <strong>RegisterClientScriptResource</strong> |     Registers a Web resource with the page. These are resources embedded in an assembly and handled by the new WebResource.axd handler.      |
 |     <strong>RegisterHiddenField</strong>      |                                                 Registers a hidden form field with the page.                                                 |
 |  <strong>RegisterOnSubmitStatement</strong>   |                                  Registers client-side code that executes when the HTML form is submitted.                                   |
-

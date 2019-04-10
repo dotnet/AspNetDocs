@@ -187,4 +187,3 @@ If you tap on the error message, any additional details about the error will be 
 | [![](calling-web-api-from-a-windows-phone-8-application/_static/image16.png)](calling-web-api-from-a-windows-phone-8-application/_static/image15.png) |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------|
 |                                                                 Click image to expand                                                                 |
-

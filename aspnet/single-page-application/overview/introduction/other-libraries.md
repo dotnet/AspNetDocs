@@ -60,4 +60,3 @@ Here are the features provided by each SPA template:
 |        Durandal        |             |          |                |           |          | &#10003;  |
 |         Ember          |             |          |                |           | &#10003; |           |
 |        Knockout        |  &#10003;   |          |                | &#10003;  |          | &#10003;  |
-
