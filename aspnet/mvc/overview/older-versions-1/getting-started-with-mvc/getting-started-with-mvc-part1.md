@@ -19,7 +19,6 @@ by [Scott Hanselman](https://github.com/shanselman)
 >
 > This is a beginner tutorial that introduces the basics of ASP.NET MVC. You'll create a simple web application that reads and writes from a database. Visit the [ASP.NET MVC learning center](../../../index.md) to find other ASP.NET MVC tutorials and samples.
 
-
 Let's make our first ASP.NET MVC Web Application using [Visual Web Developer 2010 Express](https://www.microsoft.com/express/Web/). We'll make a little Movie list application that will let us create and list movies.
 
 ## What You'll Build

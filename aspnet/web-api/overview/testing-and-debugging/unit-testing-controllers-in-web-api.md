@@ -67,7 +67,6 @@ Let's rewrite the test using the [Moq](https://github.com/Moq) framework. Instal
 
 In this version, you don't need to set up any route data, because the mock **UrlHelper** returns a constant string.
 
-
 ## Testing Actions that Return IHttpActionResult
 
 In Web API 2, a controller action can return **IHttpActionResult**, which is analogous to **ActionResult** in ASP.NET MVC. The **IHttpActionResult** interface defines a command pattern for creating HTTP responses. Instead of creating the response directly, the controller returns an **IHttpActionResult**. Later, the pipeline invokes the **IHttpActionResult** to create the response. This approach makes it easier to write unit tests, because you can skip a lot of the setup that is needed for **HttpResponseMessage**.

@@ -13,7 +13,6 @@ msc.type: chapter
 
 > Building ASP.NET 2.0 Applications
 
-
 - [[Lesson 1:] Getting Started with Visual Web Developer Express](lesson-1-getting-started-with-visual-web-developer-express.md)
 - [[Lesson 2:] Creating a Web Forms User Interface](lesson-2-creating-a-web-forms-user-interface.md)
 - [[Lesson 3:] Understanding More About Events and Postback](lesson-3-understanding-more-about-events-and-postback.md)

@@ -17,7 +17,6 @@ by [Tom FitzMacken](https://github.com/tfitzmac)
 
 > This article describes how to use the Crank tool to test an application with multiple simulated clients.
 
-
 Once your application is running in its hosting environment (either an Azure web role, IIS, or self-hosted using Owin), you can test application's response to a high level of connection density using the Crank tool. The hosting environment can be an Internet Information Services (IIS) server, an Owin host, or an Azure web role. (Note: Performance counters are not available on Azure App Service Web Apps, so you will not be able to get performance data from a connection density test.)
 
 Connection Density refers to the number of simultaneous TCP connections that can be established on a server. Each TCP connection incurs its own overhead, and opening a large number of idle connections will eventually create a memory bottleneck.

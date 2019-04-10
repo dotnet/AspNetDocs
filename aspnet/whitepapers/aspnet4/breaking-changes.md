@@ -15,7 +15,6 @@ msc.type: content
 > 
 > [Download This Whitepaper](https://download.microsoft.com/download/7/1/A/71A105A9-89D6-4201-9CC5-AD6A3B7E2F22/ASP_NET_4_Breaking_Changes.pdf)
 
-
 <a id="0.1__Toc256768952"></a><a id="0.1__Toc256770056"></a>
 
 ## Contents
@@ -106,7 +105,6 @@ If your application contains custom browser definitions that inherit from one of
 > [!NOTE]
 > The **HttpBrowserCapabilities** object (which is exposed by the page's **Request.Browser** property) is driven by the browser definitions files. Therefore, the information returned by accessing a property of this object in ASP.NET 4 might be different than the information returned in an earlier version of ASP.NET.
 
-
 You can revert to the old browser definition files by copying the browser definition files from the following folder:
 
 [!code-console[Main](breaking-changes/samples/sample5.cmd)]
@@ -189,7 +187,6 @@ ASP.NET 4 applications that are configured as children of applications that run 
 The application in the `childwebapp` folder will fail to start on IIS 7 or IIS 7.5 and will report a configuration error. The error text will include a message similar to the following:
 
 - `The requested page cannot be accessed because the related configuration data for the page is invalid.`
-  
 
 - `The configuration section 'configSections' cannot be read because it is missing a section declaration.`
 
@@ -221,7 +218,6 @@ When you put the **configSections** element in the root `Web.config` file, paste
 
 > [!NOTE]
 > In the following example, lines have been wrapped for readability.
-
 
 [!code-xml[Main](breaking-changes/samples/sample8.xml)]
 
@@ -309,7 +305,6 @@ If it is not practical to remap the Web site to ASP.NET 2.0 or to change the loc
 > [!NOTE]
 > Setting **EnableExtensionlessUrls** to 1 enables extensionless URL behavior. This is the default setting if no value is specified.
 
-
 <a id="0.1__Toc252995494"></a><a id="0.1__Toc255587643"></a><a id="0.1__Toc256770154"></a><a id="0.1__Toc245724862"></a>
 
 ## Event Handlers Might Not Be Not Raised in a Default Document in IIS 7 or IIS 7.5 Integrated Mode
@@ -366,7 +361,6 @@ One scenario cannot be reverted in the .NET Framework 4: non-Web partial-trust a
 > [!NOTE]
 > The **HtmlEncode** and **HtmlDecode** functionality of the **System.Web.HttpUtility** class was moved to the new .NET Framework 4 **System.Net.WebUtility** class. If that was the only ASP.NET functionality that was being used, modify the application's code to use the new **WebUtility** class instead.
 
-
 The following is a high-level summary of the changes to the default CAS implementation in ASP.NET 4:
 
 - ASP.NET application domains are now homogeneous application domains. Only partial-trust and full-trust grant sets are available in an application domain.
@@ -393,7 +387,6 @@ Compiled (binary) files that were created using earlier versions of ASP.NET will
 However, class libraries that use specific membership types and that have been upgraded from earlier versions of ASP.NET will fail to compile when used in an ASP.NET 4 project. For example, a class library project might fail to compile and report an error such as the following:
 
 - `The type 'System.Web.Security.MembershipUser' is defined in an assembly that is not referenced. You must add a reference to assembly 'System.Web.ApplicationServices, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35'.`
-  
 
 - `The type name 'MembershipUser' could not be found. This type has been forwarded to assembly 'System.Web.ApplicationServices, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35'. Consider adding a reference to that assembly.`
 

@@ -15,7 +15,6 @@ by [Scott Hanselman](https://github.com/shanselman)
 
 > This is a beginner tutorial that introduces the basics of ASP.NET MVC. You'll create a simple web application that reads and writes from a database. Visit the [ASP.NET MVC learning center](../../../index.md) to find other ASP.NET MVC tutorials and samples.
 
-
 In this section we are going to implement the support necessary to enable users to create new movies in our database. We'll do this by implementing the /Movies/Create URL action.
 
 Implementing the /Movies/Create URL is a two step process. When a user first visits the /Movies/Create URL we want to show them an HTML form that they can fill out to enter a new movie. Then, when the user submits the form and posts the data back to the server, we want to retrieve the posted contents and save it into our database.

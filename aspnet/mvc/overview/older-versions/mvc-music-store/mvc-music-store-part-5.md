@@ -19,7 +19,6 @@ by [Jon Galloway](https://github.com/jongalloway)
 > 
 > This tutorial series details all of the steps taken to build the ASP.NET MVC Music Store sample application. Part 5 covers Edit Forms and Templating.
 
-
 In the past chapter, we were loading data from our database and displaying it. In this chapter, we'll also enable editing the data.
 
 ## Creating the StoreManagerController
@@ -254,7 +253,6 @@ Now when we browse the /StoreManager/ URL, the albums and titles are kept below 
 ![](mvc-music-store-part-5/_static/image18.png)
 
 Note: This shows the simple case of creating and using a helper in one view. To learn more about creating helpers that you can use throughout your site, see my blog post: [http://bit.ly/mvc3-helper-options](http://bit.ly/mvc3-helper-options)
-
 
 > [!div class="step-by-step"]
 > [Previous](mvc-music-store-part-4.md)

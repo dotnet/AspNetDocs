@@ -13,7 +13,6 @@ msc.type: chapter
 
 > The following guidance explains what ASP.NET MVC is and shows how to get started.
 
-
 - [Getting Started with ASP.NET MVC 5](introduction/index.md)
 
     - [Getting Started](introduction/getting-started.md)

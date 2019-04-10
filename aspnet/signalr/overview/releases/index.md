@@ -13,5 +13,4 @@ msc.type: chapter
 
 > Information about SignalR releases and how to upgrade from earlier to later releases.
 
-
 - [Upgrading SignalR 1.x Projects to version 2](upgrading-signalr-1x-projects-to-20.md)

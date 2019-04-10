@@ -14,7 +14,6 @@ msc.type: chapter
 
 > How to program CRUD (create, read, update, delete) operations in Web API.
 
-
 - [Using Web API 2 with Entity Framework 6](using-web-api-with-entity-framework/index.md)
 
     - [Create the Project](using-web-api-with-entity-framework/part-1.md)

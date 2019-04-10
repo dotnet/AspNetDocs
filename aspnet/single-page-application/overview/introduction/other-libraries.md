@@ -48,7 +48,6 @@ Compared with the other templates listed here, the Hot Towel template provides a
 
 Here are the features provided by each SPA template:
 
-
 |                        | ASP.NET SPA | Backbone | Breeze/Angular | Breeze/KO |  Ember   | Hot Towel |
 |------------------------|-------------|----------|----------------|-----------|----------|-----------|
 |      ToDo sample       |  &#10003;   |          |    &#10003;    | &#10003;  | &#10003; |           |

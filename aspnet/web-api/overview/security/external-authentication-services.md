@@ -67,7 +67,6 @@ The examples in this walkthrough will demonstrate how to configure each of the s
 > [!NOTE]
 > If necessary, you may need to add your FQDN to the settings for your external authentication service. This requirement is based on security constraints for some external authentication services which require the FQDN in your application settings to match the FQDN that is used by your clients. (The steps for this will vary greatly for each external authentication service; you will need to consult the documentation for each external authentication service to see if this is required and how to configure these settings.) If you need to configure IIS Express to use an FQDN for testing this environment, see the [Configuring IIS Express to use a Fully Qualified Domain Name](#FQDN) section later in this walkthrough.
 
-
 <a id="SAMPLE"></a>
 ## Create a Sample Web Application
 
@@ -133,7 +132,6 @@ Once you have obtained your application ID and secret key, use the following ste
 ## Enabling Google Authentication
 
 Using Google authentication requires you to create a Google developer account, and your project will require an application ID and secret key from Google in order to function. For information about creating a Google developer account and obtaining your application ID and secret key, see [https://developers.google.com](https://developers.google.com).
-
 
 To enable Google authentication for your web application, use the following steps:
 

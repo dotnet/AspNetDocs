@@ -15,7 +15,6 @@ by [Stephen Walther](https://github.com/StephenWalther)
 
 > In this tutorial, Stephen Walther introduces you to ASP.NET MVC controllers. You learn how to create new controllers and return different types of action results.
 
-
 This tutorial explores the topic of ASP.NET MVC controllers, controller actions, and action results. After you complete this tutorial, you will understand how controllers are used to control the way a visitor interacts with an ASP.NET MVC website.
 
 ## Understanding Controllers

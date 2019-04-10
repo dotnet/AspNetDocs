@@ -31,7 +31,6 @@ by [Jason Lee](https://github.com/jrjlee)
 > - You've built and packaged your web application, as described in [Building and Packaging Web Application Projects](building-and-packaging-web-application-projects.md).
 > - You've modified the *SetParameters.xml* file to provide the right parameter values for your target environment, as described in [Configuring Parameters for Web Package Deployment](configuring-parameters-for-web-package-deployment.md).
 
-
 Running the [*project name*]*.deploy.cmd* file is the simplest way to deploy a web package. In particular, using the *.deploy.cmd* file offers these advantages over using MSDeploy.exe directly:
 
 - You don't need to specify the location of the web deployment package&#x2014;the *.deploy.cmd* file already knows where it is.
@@ -46,9 +45,7 @@ Before you use the *.deploy.cmd* file to deploy a web package, you should ensure
 
 The *.deploy.cmd* file supports various command-line options. When you run the file from a command prompt, this is the basic syntax:
 
-
 [!code-console[Main](deploying-web-packages/samples/sample1.cmd)]
-
 
 You must specify either a **/T** flag or a **/Y** flag, to indicate whether you want to perform a trial run or a live deployment respectively (don't use both flags in the same command). This table explains the purpose of each of these flags.
 
@@ -65,7 +62,6 @@ You must specify either a **/T** flag or a **/Y** flag, to indicate whether you 
 
 > [!NOTE]
 > Every time the build process creates a web package, it also creates a file named *[project name].deploy-readme.txt* that explains these deployment options.
-
 
 In addition to these flags, you can specify Web Deploy operation settings as additional *.deploy.cmd* parameters. Any additional settings you specify are simply passed through to the underlying MSDeploy.exe command. For more information on these settings, see [Web Deploy Operation Settings](https://technet.microsoft.com/library/dd569089(WS.10).aspx).
 
@@ -88,9 +84,7 @@ In this example:
 
 To illustrate how using the *.deploy.cmd* file simplifies the deployment process, take a look at the MSDeploy.exe command that gets generated and executed when you run *ContactManager.Mvc.deploy.cmd* using the options shown above.
 
-
 [!code-console[Main](deploying-web-packages/samples/sample3.cmd)]
-
 
 For more information on using the *.deploy.cmd* file to deploy a web package, see [How to: Install a Deployment Package Using the deploy.cmd File](https://msdn.microsoft.com/library/ff356104.aspx).
 
@@ -146,13 +140,10 @@ In a lot of enterprise scenarios, you'll want to deploy your web packages as par
 
 In the Contact Manager sample solution, take a look at the **PublishWebPackages** target in the *Publish.proj* file. This target runs once for each *.deploy.cmd* file identified by an item list named **PublishPackages**. The target uses properties and item metadata to build up a full set of argument values for each *.deploy.cmd* file and then uses the **Exec** task to run the command.
 
-
 [!code-xml[Main](deploying-web-packages/samples/sample8.xml)]
-
 
 > [!NOTE]
 > For a broader overview of the project file model in the sample solution, and an introduction to custom project files in general, see [Understanding the Project File](understanding-the-project-file.md) and [Understanding the Build Process](understanding-the-build-process.md).
-
 
 ## Endpoint Considerations
 
@@ -160,33 +151,24 @@ Regardless of whether you deploy your web package by running the *.deploy.cmd* f
 
 If the destination web server is configured for deployment using the Web Deploy Remote Agent service, you specify the target service URL as your destination.
 
-
 [!code-console[Main](deploying-web-packages/samples/sample9.cmd)]
-
 
 Alternatively, you can specify the server name alone as your destination, and Web Deploy will infer the remote agent service URL.
 
-
 [!code-console[Main](deploying-web-packages/samples/sample10.cmd)]
-
 
 If the destination web server is configured for deployment using the Web Deploy Handler, you need to specify the endpoint address of the IIS Web Management Service (WMSvc) as your destination. By default, this takes the form:
 
-
 [!code-console[Main](deploying-web-packages/samples/sample11.cmd)]
-
 
 You can target any of these endpoints using either the *.deploy.cmd* file or MSDeploy.exe directly. However, if you want to deploy to the Web Deploy Handler as a non-administrator user, as described in [Configure a Web Server for Web Deploy Publishing (Web Deploy Handler)](../configuring-server-environments-for-web-deployment/configuring-a-web-server-for-web-deploy-publishing-web-deploy-handler.md), you need to add a query string to the service endpoint address.
 
-
 [!code-console[Main](deploying-web-packages/samples/sample12.cmd)]
-
 
 This is because the non-administrator user doesn't have server-level access to IIS; he or she only has access to a specific IIS website. At the time of writing, due to a bug in the Web Publishing Pipeline (WPP), you can't run the *.deploy.cmd* file using an endpoint address that includes a query string. In this scenario, you need to deploy your web package by using MSDeploy.exe directly.
 
 > [!NOTE]
 > For more information on the Web Deploy Remote Agent service and the Web Deploy Handler, see [Choosing the Right Approach to Web Deployment](../configuring-server-environments-for-web-deployment/choosing-the-right-approach-to-web-deployment.md). For guidance on how to configure your environment-specific project files to deploy to these endpoints, see [Configure Deployment Properties for a Target Environment](../configuring-server-environments-for-web-deployment/configuring-deployment-properties-for-a-target-environment.md).
-
 
 ## Authentication Considerations
 

@@ -13,5 +13,4 @@ msc.type: chapter
 
 > This video describes new features for Search Engine Optimization (SEO) in ASP.NET 4.
 
-
 - [Dynamic Metadata](aspnet-4-quick-hit-dynamic-metadata.md)

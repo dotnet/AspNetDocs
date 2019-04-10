@@ -24,7 +24,6 @@ by [Tom FitzMacken](https://github.com/tfitzmac)
 > - Visual Studio 2013 with Update 2 (or later)
 > - ASP.NET Identity 2.1 or later
 
-
 To perform the steps in this tutorial, you must have Visual Studio 2013 Update 2 (or later), and a web application created from the ASP.NET Web Application template. The template changed in Update 3. This topic shows how to change the template in Update 2 and Update 3.
 
 This topic contains the following sections:

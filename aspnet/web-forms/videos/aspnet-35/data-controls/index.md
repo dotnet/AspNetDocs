@@ -13,6 +13,5 @@ msc.type: chapter
 
 > This set of videos explores how to use new data control features with ASP.NET 3.5
 
-
 - [ListView Control](the-listview-control.md)
 - [DataPager Control](the-datapager-control.md)

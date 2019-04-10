@@ -20,7 +20,6 @@ In this tutorial, you will modify the Wingtip Toys sample application to support
 > This Web Forms tutorial was based on Tom Dykstra's following MVC tutorial:  
 > [Connection Resiliency and Command Interception with the Entity Framework in an ASP.NET MVC Application](../../../mvc/overview/getting-started/getting-started-with-ef-using-mvc/connection-resiliency-and-command-interception-with-the-entity-framework-in-an-asp-net-mvc-application.md)
 
-
 ## What you'll learn:
 
 - How to provide connection resiliency.

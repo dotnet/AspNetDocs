@@ -17,7 +17,6 @@ by [Scott Mitchell](https://twitter.com/ScottOnWriting)
 
 > Examines how to add multiple content place holders to a master page as well as how to specify default content in the content place holders.
 
-
 ## Introduction
 
 In the preceding tutorial we examined how master pages enable ASP.NET developers to create a consistent site-wide layout. Master pages define both markup that is common to all of its content pages and regions that are customizable on a page-by-page basis. In the previous tutorial we created a simple master page (`Site.master`) and two content pages (`Default.aspx` and `About.aspx`). Our master page consisted of two ContentPlaceHolders named `head` and `MainContent`, which were located in the `<head>` element and Web Form, respectively. While the content pages each had two Content controls, we only specified markup for the one corresponding to `MainContent`.
@@ -30,19 +29,15 @@ Many website designs contain several areas on the screen that are customized on 
 
 Figure 1 shows `Default.aspx` when viewed through a browser. The region circled in red is the page-specific markup corresponding to `MainContent`.
 
-
 [![The Circled Region Shows the Area Currently Customizable on a Page-by-Page Basis](multiple-contentplaceholders-and-default-content-cs/_static/image2.png)](multiple-contentplaceholders-and-default-content-cs/_static/image1.png)
 
 **Figure 01**: The Circled Region Shows the Area Currently Customizable on a Page-by-Page Basis  ([Click to view full-size image](multiple-contentplaceholders-and-default-content-cs/_static/image3.png))
 
-
 Imagine that in addition to the region shown in Figure 1, we also need to add page-specific items to the left column beneath the Lessons and News sections. To accomplish this, we add another ContentPlaceHolder control to the master page. To follow along, open the `Site.master` master page in Visual Web Developer and then drag a ContentPlaceHolder control from the Toolbox onto the designer after the News section. Set the ContentPlaceHolder's `ID` to `LeftColumnContent`.
-
 
 [![Add a ContentPlaceHolder Control to the Master Page's Left Column](multiple-contentplaceholders-and-default-content-cs/_static/image5.png)](multiple-contentplaceholders-and-default-content-cs/_static/image4.png)
 
 **Figure 02**: Add a ContentPlaceHolder Control to the Master Page's Left Column  ([Click to view full-size image](multiple-contentplaceholders-and-default-content-cs/_static/image6.png))
-
 
 With the addition of the `LeftColumnContent` ContentPlaceHolder to the master page, we can define content for this region on a page-by-page basis by including a Content control in the page whose `ContentPlaceHolderID` is set to `LeftColumnContent`. We examine this process in Step 2.
 
@@ -60,11 +55,9 @@ Enter some content into the Content control referencing the `MainContent` Conten
 
 After adding this markup, visit the page through a browser. As Figure 3 shows, the markup placed in the `Content3` Content control is displayed in the left column beneath the News section (circled in red). The markup placed in `Content2` is displayed in the right portion of the page (circled in blue).
 
-
 [![The Left Column Now Includes Page-Specific Content Beneath the News Section](multiple-contentplaceholders-and-default-content-cs/_static/image8.png)](multiple-contentplaceholders-and-default-content-cs/_static/image7.png)
 
 **Figure 03**: The Left Column Now Includes Page-Specific Content Beneath the News Section  ([Click to view full-size image](multiple-contentplaceholders-and-default-content-cs/_static/image9.png))
-
 
 ### Defining Content in Existing Content Pages
 
@@ -74,11 +67,9 @@ Unlike most ASP.NET Web controls, the Visual Web Developer Toolbox does not incl
 
 To add a Content control for the `LeftColumnContent` ContentPlaceHolder to `About.aspx`, expand the ContentPlaceHolder's smart tag and click the Create Custom Content link.
 
-
 [![The Design View for About.aspx Shows the LeftColumnContent ContentPlaceHolder](multiple-contentplaceholders-and-default-content-cs/_static/image11.png)](multiple-contentplaceholders-and-default-content-cs/_static/image10.png)
 
 **Figure 04**: The Design View for `About.aspx` Shows the `LeftColumnContent` ContentPlaceHolder  ([Click to view full-size image](multiple-contentplaceholders-and-default-content-cs/_static/image12.png))
-
 
 Clicking the Create Custom Content link generates the necessary Content control in the page and sets its `ContentPlaceHolderID` property to the ContentPlaceHolder's `ID`. For example, clicking the Create Custom Content link for `LeftColumnContent` region in `About.aspx` adds the following declarative markup to the page:
 
@@ -90,11 +81,9 @@ ASP.NET does not require that all content pages include Content controls for eac
 
 Currently, `Default.aspx` contains two Content controls for the `head` and `MainContent` ContentPlaceHolders; it does not have a Content control for `LeftColumnContent`. Consequently, when `Default.aspx` is rendered the `LeftColumnContent` ContentPlaceHolder's default content is used. Because we have yet to define any default content for this ContentPlaceHolder, the net effect is that no markup is emitted for this region. To verify this behavior, visit `Default.aspx` through a browser. As Figure 5 shows, no markup is emitted in the left column beneath the News section.
 
-
 [![No Content is Rendered for the LeftColumnContent ContentPlaceHolder](multiple-contentplaceholders-and-default-content-cs/_static/image14.png)](multiple-contentplaceholders-and-default-content-cs/_static/image13.png)
 
 **Figure 05**: No Content is Rendered for the `LeftColumnContent` ContentPlaceHolder  ([Click to view full-size image](multiple-contentplaceholders-and-default-content-cs/_static/image15.png))
-
 
 ## Step 3: Specifying Default Content in the Master Page
 
@@ -107,7 +96,6 @@ A better solution is to define the username and password textboxes as the Conten
 > [!NOTE]
 > The remainder of this tutorial updates our website to include a login interface in the left column for all pages but the login page. However, this tutorial does not examine how to configure the website to support user accounts. For more information on this topic, refer to my [Forms Authentication, Authorization, User Accounts and Roles](../../older-versions-security/introduction/security-basics-and-asp-net-support-cs.md) tutorials.
 
-
 ### Adding a ContentPlaceHolder and Specifying Its Default Content
 
 Open the `Site.master` master page and add the following markup to the left column between the `DateDisplay` Label and Lessons section:
@@ -116,11 +104,9 @@ Open the `Site.master` master page and add the following markup to the left colu
 
 After adding this markup your master page's Design view should look similar to Figure 6.
 
-
 [![The Master Page Includes a Login Control](multiple-contentplaceholders-and-default-content-cs/_static/image17.png)](multiple-contentplaceholders-and-default-content-cs/_static/image16.png)
 
 **Figure 06**: The Master Page Includes a Login Control  ([Click to view full-size image](multiple-contentplaceholders-and-default-content-cs/_static/image18.png))
-
 
 This ContentPlaceHolder, `QuickLoginUI`, has a Login Web control as its default content. The Login control displays a user interface that prompts the user for their username and password along with a Log In button. Upon clicking the Log In button, the Login control internally validates the user's credentials against the Membership API. To use this Login control in practice, then, you need to configure your site to use Membership. This topic is beyond the scope of this tutorial; refer to my [Forms Authentication, Authorization, User Accounts and Roles](../../older-versions-security/introduction/security-basics-and-asp-net-support-cs.md) tutorials for more information on building a web application that supports user accounts.
 
@@ -138,11 +124,9 @@ After defining the content for the `MainContent` and `LeftColumnContent` regions
 
 Figure 7 shows this page when viewed through a browser. Because this page specifies a Content control for the `QuickLoginUI` ContentPlaceHolder, it overrides the default content specified in the master page. The net effect is that the Login control displayed in the master page's Design view (see Figure 6) is not rendered in this page.
 
-
 [![The Login Page Represses the QuickLoginUI ContentPlaceHolder's Default Content](multiple-contentplaceholders-and-default-content-cs/_static/image20.png)](multiple-contentplaceholders-and-default-content-cs/_static/image19.png)
 
 **Figure 07**: The Login Page Represses the `QuickLoginUI` ContentPlaceHolder's Default Content  ([Click to view full-size image](multiple-contentplaceholders-and-default-content-cs/_static/image21.png))
-
 
 ### Using the Default Content in New Pages
 
@@ -154,11 +138,9 @@ To remove the Content control, you can either manually delete its declarative ma
 
 Figure 8 shows `Default.aspx` when viewed through a browser. Recall that `Default.aspx` only has two Content controls specified in its declarative markup - one for `head` and one for `MainContent`. As a result, the default content for the `LeftColumnContent` and `QuickLoginUI` ContentPlaceHolders are displayed.
 
-
 [![The Default Content for the LeftColumnContent and QuickLoginUI ContentPlaceHolders are Displayed](multiple-contentplaceholders-and-default-content-cs/_static/image23.png)](multiple-contentplaceholders-and-default-content-cs/_static/image22.png)
 
 **Figure 08**: The Default Content for the `LeftColumnContent` and `QuickLoginUI` ContentPlaceHolders are Displayed  ([Click to view full-size image](multiple-contentplaceholders-and-default-content-cs/_static/image24.png))
-
 
 ## Summary
 

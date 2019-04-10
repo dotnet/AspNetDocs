@@ -19,7 +19,6 @@ by [Tom Dykstra](https://github.com/tdykstra)
 > 
 > For a tutorial that shows deployment features introduced after the RC release of Visual Studio 2012, shows how to deploy SQL Server editions other than SQL Server Compact, and shows how to deploy to Azure App Service Web Apps, see [ASP.NET Web Deployment using Visual Studio](../../deployment/visual-studio-web-deployment/introduction.md).
 
-
 ## Overview
 
 After the initial deployment, your work of maintaining and developing your web site continues, and before long you will want to deploy an update. This tutorial takes you through the process of deploying an update to your application code. This update does not involve a database change; you'll see what's different about deploying a database change in the next tutorial.
@@ -80,7 +79,6 @@ Save and close the **Package/Publish Web** tab.
 > 
 > [!IMPORTANT]
 > Make sure that you don't have **Remove additional files at destination** selected in your publish profiles. If you select that option, the deployment process will delete the databases that you have in App\_Data in the deployed site, and it will delete the App\_Data folder itself.
-
 
 ## Preventing User Access to the Production Site During Update
 

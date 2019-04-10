@@ -13,7 +13,6 @@ msc.type: chapter
 
 > The new ASP.NET features and functionality available in the .NET Framework 4.
 
-
 - [Ajax](ajax/index.md)
 
     - [Imperative JavaScript Syntax for Microsoft Client Side Controls](ajax/aspnet-4-quick-hit-imperative-javascript-syntax-for-microsoft-client-side-controls.md)

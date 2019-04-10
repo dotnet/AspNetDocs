@@ -13,7 +13,6 @@ msc.type: content
 
 > This document describes new features and enhancements that are being introduced in ASP.NET 4.5. It also describes improvements being made for web development in Visual Studio 2012. This document was originally published on February 29, 2012.
 
-
 - [ASP.NET Core Runtime and Framework](#_Toc318097372)
 
     - [Asynchronously Reading and Writing HTTP Requests and Responses](#_Toc318097373)
@@ -184,10 +183,8 @@ You can then use the *HttpRequest.Unvalidated* property to read the unvalidated 
 
 [!code-csharp[Main](whats-new-in-aspnet-45-and-visual-studio-2012/samples/sample6.cs)]
 
-
 > [!WARNING]
 > Security - *Use unvalidated request data with care!* ASP.NET 4.5 added the unvalidated request properties and collections to make it easier for you to access very specific unvalidated request data. However, you must still perform custom validation on the raw request data to ensure that dangerous text is not rendered to users.
-
 
 <a id="_Toc318097382"></a>
 ### AntiXSS Library
@@ -377,11 +374,9 @@ However, data-binding expressions like this don't support features like IntelliS
 
 To address this issue, ASP.NET 4.5 adds the ability to declare the data type of the data that a control is bound to. You do this using the new *ItemType* property. When you set this property, two new typed variables are available in the scope of data-binding expressions: *Item* and *BindItem*. Because the variables are strongly typed, you get the full benefits of the Visual Studio development experience.
 
-
 For two-way data-binding expressions, use the *BindItem* variable:
 
 [!code-aspx[Main](whats-new-in-aspnet-45-and-visual-studio-2012/samples/sample21.aspx)]
-
 
 Most controls in the ASP.NET Web Forms framework that support data binding have been updated to support the *ItemType* property.
 

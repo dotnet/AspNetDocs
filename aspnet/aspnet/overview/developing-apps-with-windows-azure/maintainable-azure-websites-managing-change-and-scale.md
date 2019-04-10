@@ -29,7 +29,6 @@ by [Web Camps Team](https://twitter.com/webcamps)
 >
 > For more in-depth coverage of this topic, see the [Building Real-World Cloud Apps with Azure e-book](building-real-world-cloud-apps-with-windows-azure/introduction.md).
 
-
 <a id="Overview"></a>
 ## Overview
 
@@ -73,7 +72,6 @@ In order to run the exercises in this hands-on lab, you will need to set up your
 > [!NOTE]
 > Make sure you have checked all the dependencies for this lab before running the setup.
 
-
 <a id="CodeSnippets"></a>
 ### Using the Code Snippets
 
@@ -81,7 +79,6 @@ Throughout the lab document, you will be instructed to insert code blocks. For y
 
 > [!NOTE]
 > Each exercise is accompanied by a starting solution located in the **Begin** folder of the exercise that allows you to follow each exercise independently of the others. Please be aware that the code snippets that are added during an exercise are missing from these starting solutions and may not work until you have completed the exercise. Inside the source code for an exercise, you will also find an **End** folder containing a Visual Studio solution with the code that results from completing the steps in the corresponding exercise. You can use these solutions as guidance if you need additional help as you work through this hands-on lab.
-
 
 ---
 
@@ -100,7 +97,6 @@ Estimated time to complete this lab: **75 minutes**
 
 > [!NOTE]
 > When you first start Visual Studio, you must select one of the predefined settings collections. Each predefined collection is designed to match a particular development style and determines window layouts, editor behavior, IntelliSense code snippets, and dialog box options. The procedures in this lab describe the actions necessary to accomplish a given task in Visual Studio when using the **General Development Settings** collection. If you choose a different settings collection for your development environment, there may be differences in the steps that you should take into account.
-
 
 <a id="Exercise1"></a>
 ### Exercise 1: Using Entity Framework Migrations
@@ -243,7 +239,6 @@ In this exercise, you will deploy the **Geek Quiz** application to the staging e
 
 > [!NOTE]
 > To enable staged publishing, the web app must be in **Standard mode**. Note that additional charges will be incurred if you change your web app to Standard mode. For more information about pricing, see [App Service Pricing](https://azure.microsoft.com/pricing/details/app-service/).
-
 
 <a id="Ex2Task1"></a>
 #### Task 1 – Creating a Web App in Azure App Service
@@ -724,7 +719,6 @@ In this task you will use **Internet Explorer** to browse the **Geek Quiz** appl
 
 > [!NOTE]
 > This exercise is optional, since it requires support for Web Load &amp; Performance Testing which is only available for **Visual Studio 2013 Ultimate Edition**. For more information on specific Visual Studio 2013 features, compare versions [here](https://www.microsoft.com/visualstudio/eng/products/compare).
-
 
 **Azure App Service Web Apps** provides the Autoscale feature for web apps running in **Standard Mode**. Autoscale lets Azure automatically scale the instance count of your web app depending on the load. When Autoscale is enabled, Azure checks the CPU of your web app once every five minutes and adds instances as needed at that point in time. If the CPU usage is low, Azure will remove instances once every two hours to ensure that the performance of your web app is not degraded.
 

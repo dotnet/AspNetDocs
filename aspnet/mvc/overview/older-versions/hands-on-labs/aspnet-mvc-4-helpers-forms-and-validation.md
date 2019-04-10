@@ -84,7 +84,6 @@ The following exercises make up this Hands-On Lab:
 > [!NOTE]
 > Each exercise is accompanied by an **End** folder containing the resulting solution you should obtain after completing the exercises. You can use this solution as a guide if you need additional help working through the exercises.
 
-
 Estimated time to complete this lab: **60 minutes**
 
 <a id="Exercise1"></a>
@@ -171,7 +170,6 @@ In this task, you will adjust the simple View template created with ASP.NET MVC 
 > [!NOTE]
 > The **scaffolding** support within ASP.NET MVC generates a simple View template which lists all fields in the Album model. **Scaffolding** provides a quick way to get started on a strongly typed view: rather than having to write the View template manually, scaffolding quickly generates a default template and then you can modify the generated code.
 
-
 1. Review the code created. The generated list of fields will be part of the following HTML table that **Scaffolding** is using for displaying tabular data.
 
     [!code-cshtml[Main](aspnet-mvc-4-helpers-forms-and-validation/samples/sample4.cshtml)]
@@ -218,7 +216,6 @@ In this task, you will add a new method **Truncate** to the **HTML** object expo
 
 > [!NOTE]
 > To read more about **Extension Methods**, please visit this msdn article. [https://msdn.microsoft.com/library/bb383977.aspx](https://msdn.microsoft.com/library/bb383977.aspx).
-
 
 1. Open the **Begin** solution located at **Source/Ex2-AddingAnHTMLHelper/Begin/** folder. Otherwise, you might continue using the **End** solution obtained by completing the previous exercise.
 
@@ -659,7 +656,6 @@ In this exercise, you will learn how to enable MVC 4 Unobtrusive jQuery validati
 
 > [!NOTE]
 > The Unobtrusive jQuery uses data-ajax prefix JavaScript to invoke action methods on the server rather than intrusively emitting inline client scripts.
-
 
 <a id="Ex7Task1"></a>
 

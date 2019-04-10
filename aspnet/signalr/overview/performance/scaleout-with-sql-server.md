@@ -32,7 +32,6 @@ by [Mike Wasson](https://github.com/MikeWasson), [Patrick Fletcher](https://gith
 >
 > Please leave feedback on how you liked this tutorial and what we could improve in the comments at the bottom of the page. If you have questions that are not directly related to the tutorial, you can post them to the [ASP.NET SignalR forum](https://forums.asp.net/1254.aspx/1?ASP+NET+SignalR) or [StackOverflow.com](http://stackoverflow.com/).
 
-
 In this tutorial, you will use SQL Server to distribute messages across a SignalR application that is deployed in two separate IIS instances. You can also run this tutorial on a single test machine, but to get the full effect, you need to deploy the SignalR application to two or more servers. You must also install SQL Server on one of the servers, or on a separate dedicated server. Another option is to run the tutorial using VMs on Azure.
 
 ![](scaleout-with-sql-server/_static/image1.png)
@@ -81,7 +80,6 @@ To enable Service Broker, use the following SQL query:
 
 > [!NOTE]
 > If this query appears to deadlock, make sure there are no applications connected to the DB.
-
 
 If you have enabled tracing, the traces will also show whether Service Broker is enabled.
 

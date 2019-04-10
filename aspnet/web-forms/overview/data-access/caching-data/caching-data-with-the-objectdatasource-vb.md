@@ -17,7 +17,6 @@ by [Scott Mitchell](https://twitter.com/ScottOnWriting)
 
 > Caching can mean the difference between a slow and a fast Web application. This tutorial is the first of four that take a detailed look at caching in ASP.NET. Learn the key concepts of caching and how to apply caching to the Presentation Layer through the ObjectDataSource control.
 
-
 ## Introduction
 
 In computer science, *caching* is the process of taking data or information that is expensive to obtain and storing a copy of it in a location that is quicker to access. For data-driven applications, large and complex queries commonly consume the majority of the application s execution time. Such an application s performance, then, can often be improved by storing the results of expensive database queries in the application s memory.
@@ -51,32 +50,25 @@ Before we start our exploration of the ObjectDataSource s caching features, let 
 - `AtApplicationStartup.aspx`
 - `SqlCacheDependencies.aspx`
 
-
 ![Add the ASP.NET Pages for the Caching-Related Tutorials](caching-data-with-the-objectdatasource-vb/_static/image1.png)
 
 **Figure 1**: Add the ASP.NET Pages for the Caching-Related Tutorials
 
-
 Like in the other folders, `Default.aspx` in the `Caching` folder will list the tutorials in its section. Recall that the `SectionLevelTutorialListing.ascx` User Control provides this functionality. Therefore, add this User Control to `Default.aspx` by dragging it from the Solution Explorer onto the page s Design view.
-
 
 [![Figure 2: Add the SectionLevelTutorialListing.ascx User Control to Default.aspx](caching-data-with-the-objectdatasource-vb/_static/image3.png)](caching-data-with-the-objectdatasource-vb/_static/image2.png)
 
 **Figure 2**: Figure 2: Add the `SectionLevelTutorialListing.ascx` User Control to `Default.aspx` ([Click to view full-size image](caching-data-with-the-objectdatasource-vb/_static/image4.png))
 
-
 Lastly, add these pages as entries to the `Web.sitemap` file. Specifically, add the following markup after the Working with Binary Data `<siteMapNode>`:
-
 
 [!code-xml[Main](caching-data-with-the-objectdatasource-vb/samples/sample1.xml)]
 
 After updating `Web.sitemap`, take a moment to view the tutorials website through a browser. The menu on the left now includes items for the caching tutorials.
 
-
 ![The Site Map Now Includes Entries for the Caching Tutorials](caching-data-with-the-objectdatasource-vb/_static/image5.png)
 
 **Figure 3**: The Site Map Now Includes Entries for the Caching Tutorials
-
 
 ## Step 2: Displaying a List of Products in a Web Page
 
@@ -84,19 +76,15 @@ This tutorial explores how to use the ObjectDataSource control s built-in cachin
 
 Start by opening the `ObjectDataSource.aspx` page in the `Caching` folder. Drag a GridView from the Toolbox onto the Designer, set its `ID` property to `Products`, and, from its smart tag, choose to bind it to a new ObjectDataSource control named `ProductsDataSource`. Configure the ObjectDataSource to work with the `ProductsBLL` class.
 
-
 [![Configure the ObjectDataSource to Use the ProductsBLL Class](caching-data-with-the-objectdatasource-vb/_static/image7.png)](caching-data-with-the-objectdatasource-vb/_static/image6.png)
 
 **Figure 4**: Configure the ObjectDataSource to Use the `ProductsBLL` Class ([Click to view full-size image](caching-data-with-the-objectdatasource-vb/_static/image8.png))
 
-
 For this page, let s create an editable GridView so that we can examine what happens when data cached in the ObjectDataSource is modified through the GridView s interface. Leave the drop-down list in the SELECT tab set to its default, `GetProducts()`, but change the selected item in the UPDATE tab to the `UpdateProduct` overload that accepts `productName`, `unitPrice`, and `productID` as its input parameters.
-
 
 [![Set the UPDATE Tab s Drop-Down List to the Appropriate UpdateProduct Overload](caching-data-with-the-objectdatasource-vb/_static/image10.png)](caching-data-with-the-objectdatasource-vb/_static/image9.png)
 
 **Figure 5**: Set the UPDATE Tab s Drop-Down List to the Appropriate `UpdateProduct` Overload ([Click to view full-size image](caching-data-with-the-objectdatasource-vb/_static/image11.png))
-
 
 Finally, set the drop-down lists in the INSERT and DELETE tabs to (None) and click Finish. Upon completing the Configure Data Source wizard, Visual Studio sets the ObjectDataSource s `OldValuesParameterFormatString` property to `original_{0}`. As discussed in the [An Overview of Inserting, Updating, and Deleting Data](../editing-inserting-and-deleting-data/an-overview-of-inserting-updating-and-deleting-data-vb.md) tutorial, this property needs to be removed from the declarative syntax or set back to its default value, `{0}`, in order for our update workflow to proceed without error.
 
@@ -107,24 +95,19 @@ Make the GridView editable by checking the Enable Editing checkbox in the GridVi
 > [!NOTE]
 > Need a review of how to customize the GridView s editing interface? If so, refer back to the [Customizing the Data Modification Interface](../editing-inserting-and-deleting-data/customizing-the-data-modification-interface-vb.md) tutorial.
 
-
 [![Enable GridView Support for Editing, Sorting, and Paging](caching-data-with-the-objectdatasource-vb/_static/image13.png)](caching-data-with-the-objectdatasource-vb/_static/image12.png)
 
 **Figure 6**: Enable GridView Support for Editing, Sorting, and Paging ([Click to view full-size image](caching-data-with-the-objectdatasource-vb/_static/image14.png))
 
-
 After making these GridView modifications, the GridView and ObjectDataSource s declarative markup should look similar to the following:
-
 
 [!code-aspx[Main](caching-data-with-the-objectdatasource-vb/samples/sample2.aspx)]
 
 As Figure 7 shows, the editable GridView lists the name, category, and price of each of the products in the database. Take a moment to test out the page s functionality sort the results, page through them, and edit a record.
 
-
 [![Each Product s Name, Category, and Price is Listed in a Sortable, Pageable, Editable GridView](caching-data-with-the-objectdatasource-vb/_static/image16.png)](caching-data-with-the-objectdatasource-vb/_static/image15.png)
 
 **Figure 7**: Each Product s Name, Category, and Price is Listed in a Sortable, Pageable, Editable GridView ([Click to view full-size image](caching-data-with-the-objectdatasource-vb/_static/image17.png))
-
 
 ## Step 3: Examining When the ObjectDataSource is Requesting Data
 
@@ -134,14 +117,11 @@ This sequence of events happens each and every time the GridView needs to bind t
 
 To fully appreciate the frequency with which the data is retrieved from the database, let s display a message indicating when the data is being re-retrieved. Add a Label Web control above the GridView named `ODSEvents`. Clear out its `Text` property and set its `EnableViewState` property to `False`. Underneath the Label, add a Button Web control and set its `Text` property to Postback .
 
-
 [![Add a Label and Button to the Page Above the GridView](caching-data-with-the-objectdatasource-vb/_static/image19.png)](caching-data-with-the-objectdatasource-vb/_static/image18.png)
 
 **Figure 8**: Add a Label and Button to the Page Above the GridView ([Click to view full-size image](caching-data-with-the-objectdatasource-vb/_static/image20.png))
 
-
 During the data access workflow, the ObjectDataSource s `Selecting` event fires before the underlying object is created and its configured method invoked. Create an event handler for this event and add the following code:
-
 
 [!code-vb[Main](caching-data-with-the-objectdatasource-vb/samples/sample3.vb)]
 
@@ -149,16 +129,13 @@ Each time the ObjectDataSource makes a request to the architecture for data, the
 
 Visit this page in a browser. When the page is first visited, the text Selecting event fired is shown. Click the Postback button and note that the text disappears (assuming that the GridView s `EnableViewState` property is set to `True`, the default). This is because, on postback, the GridView is reconstructed from its view state and therefore doesn t turn to the ObjectDataSource for its data. Sorting, paging, or editing the data, however, causes the GridView to rebind to its data source, and therefore the Selecting event fired text reappears.
 
-
 [![Whenever the GridView is Rebound to its Data Source, Selecting event fired is Displayed](caching-data-with-the-objectdatasource-vb/_static/image22.png)](caching-data-with-the-objectdatasource-vb/_static/image21.png)
 
 **Figure 9**: Whenever the GridView is Rebound to its Data Source, Selecting event fired is Displayed ([Click to view full-size image](caching-data-with-the-objectdatasource-vb/_static/image23.png))
 
-
 [![Clicking the Postback Button Causes the GridView to be Reconstructed from its View State](caching-data-with-the-objectdatasource-vb/_static/image25.png)](caching-data-with-the-objectdatasource-vb/_static/image24.png)
 
 **Figure 10**: Clicking the Postback Button Causes the GridView to be Reconstructed from its View State ([Click to view full-size image](caching-data-with-the-objectdatasource-vb/_static/image26.png))
-
 
 It may seem wasteful to retrieve the database data each time the data is paged through or sorted. After all, since we re using default paging, the ObjectDataSource has retrieved all of the records when displaying the first page. Even if the GridView does not provide sorting and paging support, the data must be retrieved from the database each time the page is first visited by any user (and on every postback, if view state is disabled). But if the GridView is showing the same data to all users, these extra database requests are superfluous. Why not cache the results returned from the `GetProducts()` method and bind the GridView to those cached results?
 
@@ -173,11 +150,9 @@ By simply setting a few properties, the ObjectDataSource can be configured to au
 
 Let s configure the `ProductsDataSource` ObjectDataSource to cache its data for 30 seconds on an absolute scale. Set the ObjectDataSource s `EnableCaching` property to `True` and its `CacheDuration` property to 30. Leave the `CacheExpirationPolicy` property set to its default, `Absolute`.
 
-
 [![Configure the ObjectDataSource to Cache its Data for 30 Seconds](caching-data-with-the-objectdatasource-vb/_static/image28.png)](caching-data-with-the-objectdatasource-vb/_static/image27.png)
 
 **Figure 11**: Configure the ObjectDataSource to Cache its Data for 30 Seconds ([Click to view full-size image](caching-data-with-the-objectdatasource-vb/_static/image29.png))
-
 
 Save your changes and revisit this page in a browser. The Selecting event fired text will appear when you first visit the page, as initially the data is not in the cache. But subsequent postbacks triggered by clicking the Postback button, sorting, paging, or clicking the Edit or Cancel buttons does *not* redisplay the Selecting event fired text. This is because the `Selecting` event only fires when the ObjectDataSource gets its data from its underlying object; the `Selecting` event does not fire if the data is pulled from the data cache.
 
@@ -186,14 +161,11 @@ After 30 seconds, the data will be evicted from the cache. The data will also be
 > [!NOTE]
 > If you see the Selecting event fired text frequently, even when you expect the ObjectDataSource to be working with cached data, it may be due to memory constraints. If there is not enough free memory, the data added to the cache by the ObjectDataSource may have been scavenged. If the ObjectDataSource doesn t appear to be correctly caching the data or only caches the data sporadically, close some applications to free memory and try again.
 
-
 Figure 12 illustrates the ObjectDataSource s caching workflow. When the Selecting event fired text appears on your screen, it is because the data was not in the cache and had to be retrieved from the underlying object. When this text is missing, however, it s because the data was available from the cache. When the data is returned from the cache there s no call to the underlying object and, therefore, no database query executed.
-
 
 ![The ObjectDataSource Stores and Retrieves its Data from the Data Cache](caching-data-with-the-objectdatasource-vb/_static/image30.png)
 
 **Figure 12**: The ObjectDataSource Stores and Retrieves its Data from the Data Cache
-
 
 Each ASP.NET application has its own data cache instance that s shared across all pages and visitors. That means that the data stored in the data cache by the ObjectDataSource is likewise shared across all users who visit the page. To verify this, open the `ObjectDataSource.aspx` page in a browser. When first visiting the page, the Selecting event fired text will appear (assuming that the data added to the cache by previous tests has, by now, been evicted). Open a second browser instance and copy and paste the URL from the first browser instance to the second. In the second browser instance, the Selecting event fired text is not shown because it s using the same cached data as the first.
 

@@ -18,7 +18,6 @@ This article describes how ASP.NET Web API routes an HTTP request to a particula
 > [!NOTE]
 > For a high-level overview of routing, see [Routing in ASP.NET Web API](routing-in-aspnet-web-api.md).
 
-
 This article looks at the details of the routing process. If you create a Web API project and find that some requests don't get routed the way you expect, hopefully this article will help.
 
 Routing has three main phases:
@@ -129,7 +128,6 @@ Simple types include all of the [.NET Framework primitive types](https://msdn.mi
 
 > [!NOTE]
 > It is possible to override the default binding rules. See [WebAPI Parameter binding under the hood](https://blogs.msdn.com/b/jmstall/archive/2012/05/11/webapi-parameter-binding-under-the-hood.aspx).
-
 
 With that background, here is the action selection algorithm.
 

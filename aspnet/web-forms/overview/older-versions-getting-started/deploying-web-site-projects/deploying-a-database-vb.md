@@ -17,7 +17,6 @@ by [Scott Mitchell](https://twitter.com/ScottOnWriting)
 
 > Deploying an ASP.NET web application entails getting the necessary files and resources from the development environment to the production environment. For data-driven web applications this includes the database schema and data. This tutorial is the first in a series that explores the steps needed to successfully deploy the database from the development environment to production.
 
-
 ### Introduction
 
 Deploying an ASP.NET web application entails getting the necessary files and resources from the development environment to the production environment. Over the course of the past six tutorials we looked at deploying a simple Book Reviews web application. This demo site was comprised of a number of server-side resources - ASP.NET pages, configuration files, a `Web.sitemap` file, and so forth - along with client-side resources, like images and CSS files. But what about data-driven web applications? What extra steps must be taken to deploy a web application that uses a database?
@@ -36,30 +35,24 @@ The `Reviews.mdf` database contains four tables:
 - `Books` - includes a record for each review, with columns like `Title`, `GenreId`, `ReviewDate`, and `Review`, among others.
 - `Authors` - includes information about each author who has contributed to a reviewed book.
 - `BooksAuthors` - a many-to-many join table that specifies what authors have written what books.
-  
 
 Figure 1 shows an ER diagram of these four tables.
-
 
 [![The Book Reviews Web Application s Database is Comprised of Four Tables](deploying-a-database-vb/_static/image2.jpg)](deploying-a-database-vb/_static/image1.jpg) 
 
 **Figure 1**: The Book Reviews Web Application s Database is Comprised of Four Tables ([Click to view full-size image](deploying-a-database-vb/_static/image3.jpg))
 
-
 The previous version of the Book Reviews website had a separate ASP.NET page for each book. For example, there was a page named `~/Tech/TYASP35.aspx` that contained the review for *Teach Yourself ASP.NET 3.5 in 24 Hours*. This new data-driven version of the website has the reviews stored in the database and a single ASP.NET page, Review.aspx?ID=*bookId*, which displays the review for the specified book. Likewise, there is a Genre.aspx?ID=*genreId* page that lists the reviewed books in the specified genre.
 
 Figures 2 and 3 show the `Genre.aspx` and `Review.aspx` pages in action. Note the URL in the Address bar for each page. In Figure 2 it s Genre.aspx?ID=85d164ba-1123-4c47-82a0-c8ec75de7e0e. Because 85d164ba-1123-4c47-82a0-c8ec75de7e0e is the `GenreId` value for the Technology genre, the page s heading reads "Technology Reviews" and the bulleted list enumerates those reviews on the site that fall under this genre.
-
 
 [![The Technology Genre Page](deploying-a-database-vb/_static/image5.jpg)](deploying-a-database-vb/_static/image4.jpg) 
 
 **Figure 2**: The Technology Genre Page ([Click to view full-size image](deploying-a-database-vb/_static/image6.jpg))
 
-
 [![The Review for Teach Yourself ASP.NET 3.5 in 24 Hours](deploying-a-database-vb/_static/image8.jpg)](deploying-a-database-vb/_static/image7.jpg) 
 
 **Figure 3**: The Review for *Teach Yourself ASP.NET 3.5 in 24 Hours* ([Click to view full-size image](deploying-a-database-vb/_static/image9.jpg))
-
 
 The Book Reviews web application also includes an administration section where administrators can add, edit, and delete genres, reviews, and author information. Currently, any visitor can access the administration section. In a future tutorial we'll add support for user accounts and only permit authorized users into the administration pages.
 
@@ -89,48 +82,38 @@ Let s walk through using the Database Publishing Wizard to deploy the Book Revie
 
 Open Visual Studio and navigate to the `Reviews.mdf` database. If you are using Visual Web Developer, go to the Database Explorer; if you are using Visual Studio, use the Server Explorer. Figure 4 shows the `Reviews.mdf` database in the Database Explorer in Visual Web Developer. As Figure 4 shows, the `Reviews.mdf` database is composed of four tables, three stored procedures, and a user-defined function.
 
-
 [![Locate the Database in the Database Explorer or Server Explorer](deploying-a-database-vb/_static/image11.jpg)](deploying-a-database-vb/_static/image10.jpg) 
 
 **Figure 4**: Locate the Database in the Database Explorer or Server Explorer ([Click to view full-size image](deploying-a-database-vb/_static/image12.jpg))
 
-
 Right-click on the database name and choose the "Publish to provider" option from the context menu. This launches the Database Publishing Wizard (see Figure 5). Click Next to advance past the splash screen.
-
 
 [![The Database Publishing Wizard Splash Screen](deploying-a-database-vb/_static/image14.jpg)](deploying-a-database-vb/_static/image13.jpg) 
 
 **Figure 5**: The Database Publishing Wizard Splash Screen ([Click to view full-size image](deploying-a-database-vb/_static/image15.jpg))
-
 
 The second screen in the wizard lists the databases accessible to the Database Publishing Wizard and lets you choose whether to script all objects in the selected database or to pick which objects to script. Select the appropriate database and leave the "Script all objects in the selected database" option checked.
 
 > [!NOTE]
 > If you get the error "There are no objects in database *databaseName* of the types scriptable by this wizard" when clicking Next in the screen shown in Figure 6, make sure that the path to your database file is not overly long. As noted in [this discussion item](http://www.codeplex.com/sqlhost/Thread/View.aspx?ThreadId=11014) on the Database Publishing Wizard project page, this error can arise if the path to the database file is too long.
 
-
 [![The Database Publishing Wizard Splash Screen](deploying-a-database-vb/_static/image17.jpg)](deploying-a-database-vb/_static/image16.jpg) 
 
 **Figure 6**: The Database Publishing Wizard Splash Screen ([Click to view full-size image](deploying-a-database-vb/_static/image18.jpg))
 
-
 From the next screen you can generate a script file or, if your web host supports it, publish the database directly to your web host provider s database server. As Figure 7 shows, I am having the script written to the file `C:\REVIEWS.MDF.sql`.
-
 
 [![Script the Database to a File or Publish it Directly to Your Web Host Provider](deploying-a-database-vb/_static/image20.jpg)](deploying-a-database-vb/_static/image19.jpg) 
 
 **Figure 7**: Script the Database to a File or Publish it Directly to Your Web Host Provider ([Click to view full-size image](deploying-a-database-vb/_static/image21.jpg))
 
-
 The subsequent screen prompts you for a variety of scripting options. You can specify whether the script should include drop statements to remove these existing objects. This defaults to True, which is fine when deploying a database for the first time. You can also specify whether the target database is SQL Server 2000, SQL Server 2005, or SQL Server 2008. Finally, you can indicate whether to script the schema and data, just the data, or just the schema. The schema is the collection of database objects, the tables, stored procedures, views, and so on. The data is the information residing in the tables.
 
 As Figure 8 illustrates, I ve got the wizard configured to drop existing database objects, to generate script for a SQL Server 2008 database, and to publish both the schema and data.
 
-
 [![Specify the Publishing Options](deploying-a-database-vb/_static/image23.jpg)](deploying-a-database-vb/_static/image22.jpg) 
 
 **Figure 8**: Specify the Publishing Options ([Click to view full-size image](deploying-a-database-vb/_static/image24.jpg))
-
 
 The final two screens summarize the actions that are about to be taken and then display the status of the scripting. The net result of running the wizard is that we have a script file that contains the SQL commands needed to create the database on production and populate it with the same data as on development.
 
@@ -142,32 +125,25 @@ A better approach is to connect directly to the production database server using
 
 Launch SSMS and connect to your web host s database server using the information provided by your web host provider.
 
-
 [![Connect to Your Web Host Provider s Database Server](deploying-a-database-vb/_static/image26.jpg)](deploying-a-database-vb/_static/image25.jpg) 
 
 **Figure 9**: Connect to Your Web Host Provider s Database Server ([Click to view full-size image](deploying-a-database-vb/_static/image27.jpg))
 
-
 Expand the Databases tab and locate your database. Click the New Query button in the upper left corner of the Toolbar, paste in the SQL commands from the script file created by the Database Publishing Wizard, and click the Execute button to run these commands on the production database server. If your script file is especially large it may take several minutes to execute the commands.
-
 
 [![Connect to Your Web Host Provider s Database Server](deploying-a-database-vb/_static/image29.jpg)](deploying-a-database-vb/_static/image28.jpg) 
 
 **Figure 10**: Connect to Your Web Host Provider s Database Server ([Click to view full-size image](deploying-a-database-vb/_static/image30.jpg))
 
-
 That s all there is to it! At this point the development database has been duplicated to production. If you Refresh the database in SSMS you should see the new database objects. Figure 11 shows the production database s tables, stored procedures, and user-defined functions, which mirror those on the development database. And because we instructed the Database Publishing Wizard to publish the data, the production database s tables have the same data as the development database s tables at the time the wizard was executed. Figure 12 shows the data in the `Books` table on the production database.
-
 
 [![The Database Objects Have Been Duplicated on the Production Database](deploying-a-database-vb/_static/image32.jpg)](deploying-a-database-vb/_static/image31.jpg) 
 
 **Figure 11**: The Database Objects Have Been Duplicated on the Production Database ([Click to view full-size image](deploying-a-database-vb/_static/image33.jpg))
 
-
 [![The Production Database Contains the Same Data as on the Development Database](deploying-a-database-vb/_static/image35.jpg)](deploying-a-database-vb/_static/image34.jpg) 
 
 **Figure 12**: The Production Database Contains the Same Data as on the Development Database ([Click to view full-size image](deploying-a-database-vb/_static/image36.jpg))
-
 
 At this point we have only deployed the development database to production. We have not yet looked at deploying the web application itself or examined what configuration changes are needed to have the application on production use the production database. We'll cover these issues in the next tutorial!
 

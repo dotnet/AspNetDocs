@@ -47,7 +47,6 @@ In the **New ASP.NET Project** dialog, select the **Empty** template. Under &quo
 > [!NOTE]
 > You can also create a Web API project using the &quot;Web API&quot; template. The Web API template uses ASP.NET MVC to provide API help pages. I'm using the Empty template for this tutorial because I want to show Web API without MVC. In general, you don't need to know ASP.NET MVC to use Web API.
 
-
 ## Adding a Model
 
 A *model* is an object that represents the data in your application. ASP.NET Web API can automatically serialize your model to JSON, XML, or some other format, and then write the serialized data into the body of the HTTP response message. As long as a client can read the serialization format, it can deserialize the object. Most clients can parse either XML or JSON. Moreover, the client can indicate which format it wants by setting the Accept header in the HTTP request message.
@@ -87,7 +86,6 @@ The scaffolding creates a file named ProductsController.cs in the Controllers fo
 
 > [!NOTE]
 > You don't need to put your controllers into a folder named Controllers. The folder name is just a convenient way to organize your source files.
-
 
 If this file is not open already, double-click the file to open it. Replace the code in this file with the following:
 

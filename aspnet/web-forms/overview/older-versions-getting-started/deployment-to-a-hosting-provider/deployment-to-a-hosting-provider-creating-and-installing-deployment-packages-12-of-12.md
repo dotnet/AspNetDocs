@@ -19,7 +19,6 @@ by [Tom Dykstra](https://github.com/tdykstra)
 > 
 > For a tutorial that shows deployment features introduced after the RC release of Visual Studio 2012, shows how to deploy SQL Server editions other than SQL Server Compact, and shows how to deploy to Windows Azure Web Sites, see [ASP.NET Web Deployment using Visual Studio](../../deployment/visual-studio-web-deployment/introduction.md).
 
-
 This page describes some common problems that may arise when you deploy an ASP.NET web application by using Visual Studio. For each one, one or more possible causes and corresponding solutions are provided.
 
 ## Server Error in '/' Application - Current Custom Error Settings Prevent Details of the Error from Being Viewed Remotely

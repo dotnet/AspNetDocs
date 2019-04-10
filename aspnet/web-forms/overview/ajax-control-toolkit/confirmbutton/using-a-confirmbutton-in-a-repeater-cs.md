@@ -17,7 +17,6 @@ by [Christian Wenz](https://github.com/wenz)
 
 > The ConfirmButton extender in the AJAX Control Toolkit creates a Yes/No popup when the user clicks on a button (including LinkButton control). Only if Yes is clicked, the button's action is executed, otherwise cancelled. This is also possible in a repeater.
 
-
 ## Overview
 
 The ConfirmButton extender in the AJAX Control Toolkit creates a Yes/No popup when the user clicks on a button (including LinkButton control). Only if Yes is clicked, the button's action is executed, otherwise cancelled. This is also possible in a repeater.
@@ -39,7 +38,6 @@ Then, a data source is required. For the sake of simplicity, only the first five
 This data source can then be used within a repeater. As usual, the `DataBinder.Eval()` method retrieves data from the data source. The `ConfirmButtonExtender` control must then be placed within the `<ItemTemplate>` section of the repeater so that it appears for every entry in the data source.
 
 [!code-aspx[Main](using-a-confirmbutton-in-a-repeater-cs/samples/sample3.aspx)]
-
 
 [![The confirm button appears next to each entry from the data source](using-a-confirmbutton-in-a-repeater-cs/_static/image2.png)](using-a-confirmbutton-in-a-repeater-cs/_static/image1.png)
 

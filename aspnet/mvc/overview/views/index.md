@@ -13,6 +13,5 @@ msc.type: chapter
 
 > The Razor syntax and how to use it in views (the V in MVC) to display information.
 
-
 - [Using Page Inspector in ASP.NET MVC](using-page-inspector-in-aspnet-mvc.md)
 - [Dynamic v. Strongly Typed Views](dynamic-v-strongly-typed-views.md)

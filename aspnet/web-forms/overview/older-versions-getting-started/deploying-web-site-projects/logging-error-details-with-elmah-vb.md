@@ -17,7 +17,6 @@ by [Scott Mitchell](https://twitter.com/ScottOnWriting)
 
 > Error Logging Modules And Handlers (ELMAH) offers another approach to logging runtime errors in a production environment. ELMAH is a free, open source error logging library that includes features like error filtering and the ability to view the error log from a web page, as an RSS feed, or to download it as a comma-delimited file. This tutorial walks through downloading and configuring ELMAH.
 
-
 ## Introduction
 
 The [preceding tutorial](logging-error-details-with-asp-net-health-monitoring-vb.md) examined ASP.NET's health monitoring system, which offers an out of the box library for recording a wide array of Web events. Many developers use health monitoring to log and email the details of unhandled exceptions. However, there are a few pain points with this system. First and foremost is the lack any sort of user interface for viewing information about the logged events. If you want to see a summary of the 10 last errors, or view the details of an error that happened last week, you must either poke through the database, scan through your email Inbox, or build a web page that displays information from the `aspnet_WebEvent_Events` table.
@@ -30,7 +29,6 @@ This tutorial walks through the steps involved in adding ELMAH to an ASP.NET app
 
 > [!NOTE]
 > The health monitoring system and ELMAH both have their own sets of pros and cons. I encourage you to try both systems and decide what one best suits your needs.
-
 
 ## Adding ELMAH to an ASP.NET Web Application
 
@@ -50,12 +48,10 @@ ELMAH 1.0 BETA 3 (Build 10617), the most recent version at the time of writing, 
 > [!NOTE]
 > The `Elmah.dll` file is located in the download's `Bin` folder, which has subfolders for different .NET Framework versions and for Release and Debug builds. Use the Release build for the appropriate framework version. For instance, if you are building an ASP.NET 3.5 web application, copy the `Elmah.dll` file from the `Bin\net-3.5\Release` folder.
 
-
 Next, open Visual Studio and add the assembly to your project by right-clicking on the website name in the Solution Explorer and choosing Add Reference from the context menu. This brings up the Add Reference dialog box. Navigate to the Browse tab and choose the `Elmah.dll` file. This action adds the `Elmah.dll` file to the web application's `Bin` folder.
 
 > [!NOTE]
 > The Web Application Project (WAP) type does not show the `Bin` folder in the Solution Explorer. Instead, it lists these items under the References folder.
-
 
 The `Elmah.dll` assembly includes the classes used by the ELMAH system. These classes fall into one of three categories:
 
@@ -94,7 +90,6 @@ ELMAH looks for its configuration options in the website's `Web.config` file in 
 > [!NOTE]
 > If you are configuring ELMAH for an ASP.NET 1.x application then remove the `requirePermission="false"` attribute from the `<section>` elements above.
 
-
 The above syntax registers the custom `<elmah>` section and its subsections: `<security>`, `<errorLog>`, `<errorMail>`, and `<errorFilter>`.
 
 Next, add the `<elmah>` section to `Web.config`. This section should appear at the same level as the `<system.web>` element. Inside the `<elmah>` section add the `<security>` and `<errorLog>` sections like so:
@@ -107,7 +102,6 @@ The `<errorLog>` section defines the error log source, which dictates where the 
 
 > [!NOTE]
 > ELMAH ships with additional error log providers that can be used to log errors to an XML file, a Microsoft Access database, an Oracle database, and other data stores. Refer to the sample `Web.config` file that is included with the ELMAH download for information on how to use these alternate error log providers.
-
 
 ### Step 4: Creating the Error Log Source Infrastructure
 
@@ -131,7 +125,6 @@ ELMAH doesn't affect what content is shown to the user when an unhandled excepti
 
 > [!NOTE]
 > You can also use the `elmah.axd` page to instruct ELMAH to generate a test error. Visiting `elmah.axd/test` (as in, `http://localhost/BookReviews/elmah.axd/test`) causes ELMAH to throw an exception of type `Elmah.TestException`, which has the error message: " This is a test exception that can be safely ignored."
-
 
 **Figure 3** shows the error log when visiting `elmah.axd` from the development environment.
 
@@ -178,7 +171,6 @@ The following configuration permits only users in the Admin role to access the e
 > [!NOTE]
 > The Admin role and the three users in the system - Scott, Jisun, and Alice - were added in the [*Configuring a Website That Uses Application Services* tutorial](configuring-a-website-that-uses-application-services-vb.md). Users Scott and Jisun are members of the Admin role. For more information on authentication and authorization, refer to my [Website Security Tutorials](../../older-versions-security/introduction/security-basics-and-asp-net-support-cs.md).
 
-
 The error log on the production environment can now be viewed by remote users; refer back to **Figures 3**, **4**, and **5** for screen shots of the error log web page. However, if an anonymous or non-Admin user attempts to view the error log page they are automatically redirected to the login page (`Login.aspx`), as **Figure 7** shows.
 
 [![](logging-error-details-with-elmah-vb/_static/image18.png)](logging-error-details-with-elmah-vb/_static/image17.png)
@@ -223,7 +215,6 @@ The following markup instructs ELMAH to not log 404 errors.
 
 > [!NOTE]
 > Don't forget, in order to use error filtering you must register the `ErrorFilterModule` HTTP Module.
-
 
 The `<equal>` element inside the `<test>` section is referred to as an assertion. If the assertion evaluates to true then the error is filtered from ELMAH's log. There are other assertions available, including: `<greater>`, `<greater-or-equal>`, `<not-equal>`, `<lesser>`, `<lesser-or-equal>`, and so on. You can also combine assertions using the `<and>` and `<or>` Boolean operators. What's more, you can even include a simple JavaScript expression as an assertion, or write your own assertions in C# or Visual Basic.
 

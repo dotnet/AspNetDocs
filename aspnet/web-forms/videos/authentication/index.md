@@ -13,7 +13,6 @@ msc.type: chapter
 
 > How to implement and manage security (authentication) in an ASP.NET application.
 
-
 - [Using Basic Forms Authentication in ASP.NET](using-basic-forms-authentication-in-aspnet.md)
 - [Change the Forms Authentication Properties](how-to-change-the-forms-authentication-properties.md)
 - [Setup and Use Cookie-less Authentication in an ASP.NET Application](how-to-setup-and-use-cookie-less-authentication-in-an-aspnet-application.md)

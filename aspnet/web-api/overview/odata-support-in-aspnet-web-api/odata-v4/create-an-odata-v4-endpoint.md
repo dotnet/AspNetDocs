@@ -39,8 +39,6 @@ Expand **Installed** &gt; **Visual C#** &gt; **Web**, and select the **ASP.NET W
 
 Select **OK**.
 
-
-
 [![](create-an-odata-v4-endpoint/_static/image8.png)](create-an-odata-v4-endpoint/_static/image8.png)
 
 Select the **Empty** template. Under **Add folders and core references for:**, select **Web API**. Select **OK**.
@@ -64,7 +62,6 @@ In Solution Explorer, right-click the Models folder. From the context menu, sele
 > [!NOTE]
 > By convention, model classes are placed in the Models folder, but you don't have to follow this convention in your own projects.
 
-
 Name the class `Product`. In the Product.cs file, replace the boilerplate code with the following:
 
 [!code-csharp[Main](create-an-odata-v4-endpoint/samples/sample2.cs)]
@@ -77,7 +74,6 @@ For this tutorial, we'll use Entity Framework (EF) Code First to create the back
 
 > [!NOTE]
 > Web API OData does not require EF. Use any data-access layer that can translate database entities into models.
-
 
 First, install the NuGet package for EF. From the **Tools** menu, select **NuGet Package Manager** &gt; **Package Manager Console**. In the Package Manager Console window, type:
 
@@ -124,7 +120,6 @@ In Solution Explorer, right-click the Controllers folder and select **Add** &gt;
 
 > [!NOTE]
 > The version of this tutorial for OData v3 uses the **Add Controller** scaffolding. Currently, there is no scaffolding for OData v4.
-
 
 Replace the boilerplate code in ProductsController.cs with the following.
 

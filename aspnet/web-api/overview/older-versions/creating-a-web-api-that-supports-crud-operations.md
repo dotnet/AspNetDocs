@@ -24,7 +24,6 @@ by [Mike Wasson](https://github.com/MikeWasson)
 > - Visual Studio 2012
 > - Web API 1 (also works with Web API 2)
 
-
 CRUD stands for &quot;Create, Read, Update, and Delete,&quot; which are the four basic database operations. Many HTTP services also model CRUD operations through REST or REST-like APIs.
 
 In this tutorial, you will build a very simple web API to manage a list of products. Each product will contain a name, price, and category (such as &quot;toys&quot; or &quot;hardware&quot;), plus a product ID.
@@ -130,7 +129,6 @@ In the **Add Controller** wizard, name the controller &quot;ProductsController&q
 > [!NOTE]
 > It is not necessary to put your controllers into a folder named Controllers. The folder name is not important; it is simply a convenient way to organize your source files.
 
-
 The **Add Controller** wizard will create a file named ProductsController.cs in the Controllers folder. If this file is not open already, double-click the file to open it. Add the following **using** statement:
 
 [!code-csharp[Main](creating-a-web-api-that-supports-crud-operations/samples/sample4.cs)]
@@ -141,7 +139,6 @@ Add a field that holds an **IProductRepository** instance.
 
 > [!NOTE]
 > Calling `new ProductRepository()` in the controller is not the best design, because it ties the controller to a particular implementation of `IProductRepository`. For a better approach, see [Using the Web API Dependency Resolver](../advanced/dependency-injection.md).
-
 
 ## Getting a Resource
 
@@ -199,7 +196,6 @@ The **CreateResponse** method creates an **HttpResponseMessage** and automatical
 
 > [!NOTE]
 > This example does not validate the `Product`. For information about model validation, see [Model Validation in ASP.NET Web API](../formats-and-model-binding/model-validation-in-aspnet-web-api.md).
-
 
 ## Updating a Resource
 

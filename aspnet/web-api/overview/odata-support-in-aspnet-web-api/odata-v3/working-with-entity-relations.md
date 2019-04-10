@@ -26,7 +26,6 @@ by [Mike Wasson](https://github.com/MikeWasson)
 > - OData Version 3
 > - Entity Framework 6
 
-
 ## Add a Supplier Entity
 
 First we need to add a new entity type to our OData feed. We'll add a `Supplier` class.

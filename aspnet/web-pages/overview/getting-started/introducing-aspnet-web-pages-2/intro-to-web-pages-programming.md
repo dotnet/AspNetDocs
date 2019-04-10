@@ -29,7 +29,6 @@ by [Tom FitzMacken](https://github.com/tfitzmac)
 > - NuGet and the package manager.
 > - The `Gravatar` helper.
 
-
 This tutorial is primarily an exercise in introducing you to the programming syntax that you'll use for ASP.NET Web Pages. You'll learn about *Razor syntax* and code that's written in the C# programming language. You got a glimpse of this syntax in the previous tutorial; in this tutorial we'll explain the syntax more.
 
 We promise that this tutorial involves the most programming that you'll see in a single tutorial, and that it's the only tutorial that is *only* about programming. In the remaining tutorials in this set, you'll actually create pages that do interesting things.
@@ -54,7 +53,6 @@ Copy the following into the file, completely replacing what's there already.
 
 > [!NOTE]
 > When you copy code or markup from the examples into a page, the indentation and alignment might not be the same as in the tutorial. Indentation and alignment don't affect how the code runs, though.
-
 
 [!code-cshtml[Main](intro-to-web-pages-programming/samples/sample1.cshtml)]
 
@@ -120,7 +118,6 @@ As you expect from your experience in the previous tutorial, none of the Razor c
 > 
 > We mention this because if you look for information about programming ASP.NET Web Pages, you'll find lots of references to Razor. However, a lot of those references don't apply to what you're doing and might therefore be confusing. And in fact, many of your programming questions are really going to be about either working with C# or working with ASP.NET. So if you look specifically for information about Razor, you might not find the answers you need.
 
-
 ## Adding Some Conditional Logic
 
 One of the great features about using code in a page is that you can change what happens based on various conditions. In this part of the tutorial, you'll play around with some ways to change what's displayed in the page.
@@ -160,7 +157,6 @@ You can test variables against values or against expressions by using a *logical
 
 > [!NOTE]
 > Make sure you notice that the comparison operator for equals to (==) is not the same as =. The = operator is used only to assign values (var a=2). If you mix these operators up, you'll either get an error or you'll get some strange results.
-
 
 To test whether something is true, the complete syntax is if(IsDone == true). But you can also use the shortcut if(IsDone). If there's no comparison operator, ASP.NET assumes that you're testing for true.
 
@@ -225,7 +221,6 @@ There's a trick here, as you can see. Like the name says, the query string is a 
 > **Data Types and As() Methods**
 > 
 > We've only said so far that when you create a variable, you use the keyword var. That's not the entire story, though. In order to manipulate values — to add numbers, or concatenate strings, or compare dates, or test for true/false — C# has to work with an appropriate internal representation of the value. C# can *usually* figure out what that representation should be (that is, what *type* the data is) based on what you're doing with the values. Now and then, though, it can't do that. If not, you have to help out by explicitly indicating how C# should represent the data. The AsBool method does that — it tells C# that a string value of "true" or "false" should be treated as a Boolean value. Similar methods exist to represent strings as other types as well, like AsInt (treat as an integer), AsDateTime (treat as a date/time), AsFloat (treat as a floating-point number), and so on. When you use these As( ) methods, if C# can't represent the string value as requested, you'll see an error.
-
 
 In the markup of the page, remove or comment out this element (here it's shown commented out):
 

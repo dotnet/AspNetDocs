@@ -13,7 +13,6 @@ msc.type: chapter
 
 > ASP.NET MVC 1
 
-
 - [ASP.NET MVC Storefront](aspnet-mvc-storefront/index.md)
 
     - [ASP.NET MVC Storefront Part 1: Architectural Discussion and Overview](aspnet-mvc-storefront/aspnet-mvc-storefront-part-1-architectural-discussion-and-overview.md)

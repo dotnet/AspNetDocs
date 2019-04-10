@@ -13,7 +13,6 @@ msc.type: chapter
 
 > These tutorials show how to tweak the DataList control so that it lets uses modify data.
 
-
 - [Overview of Editing and Deleting Data in the DataList (C#)](an-overview-of-editing-and-deleting-data-in-the-datalist-cs.md)
 - [Performing Batch Updates (C#)](performing-batch-updates-cs.md)
 - [Handling BLL- and DAL-Level Exceptions (C#)](handling-bll-and-dal-level-exceptions-cs.md)

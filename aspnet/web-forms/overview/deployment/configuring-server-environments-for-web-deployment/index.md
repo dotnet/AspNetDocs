@@ -13,7 +13,6 @@ msc.type: chapter
 
 > This tutorial will show you how to set up server environments to support one-click, or automated, website deployment and publishing in various different scenarios.
 
-
 - [Configuring Server Environments for Web Deployment](configuring-server-environments-for-web-deployment.md)
 - [Choosing the Right Approach to Web Deployment](choosing-the-right-approach-to-web-deployment.md)
 - [Scenario: Configuring a Test Environment for Web Deployment](scenario-configuring-a-test-environment-for-web-deployment.md)

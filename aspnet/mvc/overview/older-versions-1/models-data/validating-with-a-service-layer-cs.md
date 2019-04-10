@@ -15,7 +15,6 @@ by [Stephen Walther](https://github.com/StephenWalther)
 
 > Learn how to move your validation logic out of your controller actions and into a separate service layer. In this tutorial, Stephen Walther explains how you can maintain a sharp separation of concerns by isolating your service layer from your controller layer.
 
-
 The goal of this tutorial is to describe one method of performing validation in an ASP.NET MVC application. In this tutorial, you learn how to move your validation logic out of your controllers and into a separate service layer.
 
 ## Separating Concerns

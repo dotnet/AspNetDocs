@@ -13,7 +13,6 @@ msc.type: chapter
 
 > This tutorial shows how to use the Slider control to display a graphical slider that users can control using the mouse.
 
-
 - [Slider Control With Auto-Postback (C#)](using-the-slider-control-with-auto-postback-cs.md)
 - [Databinding the Slider Control (C#)](databinding-the-slider-control-cs.md)
 - [Slider Control With Auto-Postback (VB)](using-the-slider-control-with-auto-postback-vb.md)

@@ -13,6 +13,5 @@ msc.type: chapter
 
 > This tutorial shows how to use the MutuallyExclusiveCheckbox control to create check boxes that work like radio buttons (mutually exclusive) but that can be completely cleared.
 
-
 - [Creating Mutually Exclusive Checkboxes (C#)](creating-mutually-exclusive-checkboxes-cs.md)
 - [Creating Mutually Exclusive Checkboxes (VB)](creating-mutually-exclusive-checkboxes-vb.md)

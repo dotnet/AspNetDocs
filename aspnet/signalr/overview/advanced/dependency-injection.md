@@ -32,7 +32,6 @@ by [Mike Wasson](https://github.com/MikeWasson), [Patrick Fletcher](https://gith
 >
 > Please leave feedback on how you liked this tutorial and what we could improve in the comments at the bottom of the page. If you have questions that are not directly related to the tutorial, you can post them to the [ASP.NET SignalR forum](https://forums.asp.net/1254.aspx/1?ASP+NET+SignalR) or [StackOverflow.com](http://stackoverflow.com/).
 
-
 Dependency injection is a way to remove hard-coded dependencies between objects, making it easier to replace an object's dependencies, either for testing (using mock objects) or to change run-time behavior. This tutorial shows how to perform dependency injection on SignalR hubs. It also shows how to use IoC containers with SignalR. An IoC container is a general framework for dependency injection.
 
 ## What is Dependency Injection?
@@ -87,7 +86,6 @@ One solution is to use an IoC container. An IoC container is a software componen
 
 > [!NOTE]
 > "IoC" stands for "inversion of control", which is a general pattern where a framework calls into application code. An IoC container constructs your objects for you, which "inverts" the usual flow of control.
-
 
 ## Using IoC Containers in SignalR
 

@@ -33,7 +33,6 @@ by [Tom FitzMacken](https://github.com/tfitzmac)
 > 
 > This tutorial also works with ASP.NET Web Pages 3, except for parts that use the ASP.NET Web Helper Library.
 
-
 <a id="Linking_Your_Website"></a>
 ## Linking Your Website on Social Networking Sites
 

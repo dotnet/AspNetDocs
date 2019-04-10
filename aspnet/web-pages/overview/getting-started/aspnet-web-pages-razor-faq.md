@@ -28,7 +28,6 @@ by [Tom FitzMacken](https://github.com/tfitzmac)
 > 
 > This tutorial also works with ASP.NET Web Pages 2, WebMatrix 2, and Visual Studio 2012.
 
-
 - [What's the difference between ASP.NET Web Pages, ASP.NET Web Forms, and ASP.NET MVC?](#Whats_the_difference_between_ASP.NET_Web_Pages,_ASP.NET_Web_Forms,_and_ASP.NET_MVC)
 - [Do I need WebMatrix in order to work with Web Pages?](#Do_I_need_WebMatrix_in_order_to_work_with_Web_Pages)
 - [Can I use ASP.NET Web Forms controls on a Web Pages page?](#Can_I_use_ASP.NET_Web_Forms_controls_on_a_Web_Pages_page)
@@ -124,7 +123,6 @@ Here are some blog posts that illustrate ways to use jQuery with ASP.NET Web Pag
 
 <a id="AdditionalResources"></a>
 ## Additional Resources
-
 
 [ASP.NET Web Pages (Razor) Troubleshooting Guide](https://go.microsoft.com/fwlink/?LinkId=253001)
 

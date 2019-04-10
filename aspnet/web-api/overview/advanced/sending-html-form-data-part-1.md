@@ -26,7 +26,6 @@ This article shows how to post form-urlencoded data to a Web API controller.
 > [!NOTE]
 > [Download the completed project](https://code.msdn.microsoft.com/ASPNET-Web-API-Sending-a6f9d007).
 
-
 <a id="overview_of_html_forms"></a>
 ## Overview of HTML Forms
 
@@ -56,7 +55,6 @@ Here is a Web API controller that accepts an `Update` object via POST.
 
 > [!NOTE]
 > This controller uses [action-based routing](../web-api-routing-and-actions/routing-in-aspnet-web-api.md#routing_by_action_name), so the route template is &quot;api/{controller}/{action}/{id}&quot;. The client will post the data to &quot;/api/updates/complex&quot;.
-
 
 Now let's write an HTML form for users to submit a status update.
 
@@ -95,7 +93,6 @@ In the previous sections, we sent a complex type, which Web API deserialized to 
 > [!NOTE]
 > Before sending a simple type, consider wrapping the value in a complex type instead. This gives you the benefits of model validation on the server side, and makes it easier to extend your model if needed.
 
-
 The basic steps to send a simple type are the same, but there are two subtle differences. First, in the controller, you must decorate the parameter name with the **FromBody** attribute.
 
 [!code-csharp[Main](sending-html-form-data-part-1/samples/sample7.cs?highlight=3)]
@@ -104,7 +101,6 @@ By default, Web API tries to get simple types from the request URI. The **FromBo
 
 > [!NOTE]
 > Web API reads the response body at most once, so only one parameter of an action can come from the request body. If you need to get multiple values from the request body, define a complex type.
-
 
 Second, the client needs to send the value with the following format:
 

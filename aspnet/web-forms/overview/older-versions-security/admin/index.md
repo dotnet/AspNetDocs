@@ -13,7 +13,6 @@ msc.type: chapter
 
 > This tutorial series shows you one way to create an administration page that lets you manage users and roles.
 
-
 - [Building an Interface to Select One User Account from Many (C#)](building-an-interface-to-select-one-user-account-from-many-cs.md)
 - [Recovering and Changing Passwords (C#)](recovering-and-changing-passwords-cs.md)
 - [Unlocking and Approving User Accounts (C#)](unlocking-and-approving-user-accounts-cs.md)

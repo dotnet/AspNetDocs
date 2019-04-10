@@ -24,7 +24,6 @@ by [Rick Anderson]((https://twitter.com/RickAndMSFT))
 > 
 > This article was written by Youngjune Hong and Rick Anderson ( [@RickAndMSFT](https://twitter.com/#!/RickAndMSFT) )
 
-
 ## Upgrade Steps
 
 1. Backup your project. This walkthrough will require you to make changes to your project file, package configuration, and web.config files.

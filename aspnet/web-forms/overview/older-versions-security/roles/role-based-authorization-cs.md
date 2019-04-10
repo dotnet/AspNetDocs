@@ -17,7 +17,6 @@ by [Scott Mitchell](https://twitter.com/ScottOnWriting)
 
 > This tutorial starts with a look at how the Roles framework associates a user's roles with his security context. It then examines how to apply role-based URL authorization rules. Following that, we will look at using declarative and programmatic means for altering the data displayed and the functionality offered by an ASP.NET page.
 
-
 ## Introduction
 
 In the <a id="_msoanchor_1"></a>[*User-Based Authorization*](../membership/user-based-authorization-cs.md) tutorial we saw how to use URL authorization to specify what users could visit a particular set of pages. With just a little bit of markup in `Web.config`, we could instruct ASP.NET to allow only authenticated users to visit a page. Or we could dictate that only users Tito and Bob were allowed, or indicate that all authenticated users except for Sam were permitted.
@@ -40,11 +39,9 @@ Figure 1 depicts the ASP.NET pipeline workflow when using forms authentication a
 
 If an anonymous user visits the site, neither the `FormsAuthenticationModule` nor the `RoleManagerModule` creates a principal object.
 
-
 [![The ASP.NET Pipeline Events for an Authenticated User When Using Forms Authentication and the Roles Framework](role-based-authorization-cs/_static/image2.png)](role-based-authorization-cs/_static/image1.png)
 
 **Figure 1**: The ASP.NET Pipeline Events for an Authenticated User When Using Forms Authentication and the Roles Framework  ([Click to view full-size image](role-based-authorization-cs/_static/image3.png))
-
 
 ### Caching Role Information in a Cookie
 
@@ -52,17 +49,14 @@ The `RolePrincipal` object's `IsInRole(roleName)` method calls `Roles.GetRolesFo
 
 If the Roles framework is configured to cache the user's roles in a cookie, the `RoleManagerModule` creates the cookie during the ASP.NET pipeline's [`EndRequest` event](https://msdn.microsoft.com/library/system.web.httpapplication.endrequest.aspx). This cookie is used in subsequent requests in the `PostAuthenticateRequest`, which is when the `RolePrincipal` object is created. If the cookie is valid and has not expired, the data in the cookie is parsed and used to populate the user's roles, thereby saving the `RolePrincipal` from having to make a call to the `Roles` class to determine the user's roles. Figure 2 depicts this workflow.
 
-
 [![The User's Role Information Can Be Stored in a Cookie to Improve Performance](role-based-authorization-cs/_static/image5.png)](role-based-authorization-cs/_static/image4.png)
 
 **Figure 2**: The User's Role Information Can Be Stored in a Cookie to Improve Performance  ([Click to view full-size image](role-based-authorization-cs/_static/image6.png))
-
 
 By default, the role cache cookie mechanism is disabled. It can be enabled through the `<roleManager>` configuration markup in `Web.config`. We discussed using the [`<roleManager>` element](https://msdn.microsoft.com/library/ms164660.aspx) to specify Role providers in the <a id="_msoanchor_4"></a>[*Creating and Managing Roles*](creating-and-managing-roles-cs.md) tutorial, so you should already have this element in your application's `Web.config` file. The role cache cookie settings are specified as attributes of the `<roleManager>` element, and are summarized in Table 1.
 
 > [!NOTE]
 > The configuration settings listed in Table 1 specify the properties of the resulting role cache cookie. For more information on cookies, how they work, and their various properties, read [this Cookies tutorial](http://www.quirksmode.org/js/cookies.html).
-
 
 | <strong>Property</strong> |                                                                                                                                                                                                                                                                                                                                                         <strong>Description</strong>                                                                                                                                                                                                                                                                                                                                                          |
 |---------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -90,7 +84,6 @@ That's all there is to it! Henceforth, the Roles framework will cache the users'
 > [!NOTE]
 > Microsoft's Patterns &amp; Practices group discourages using persistent role cache cookies. Since possession of the role cache cookie is sufficient to prove role membership, if a hacker can somehow gain access to a valid user's cookie he can impersonate that user. The likelihood of this happening increases if the cookie is persisted on the user's browser. For more information on this security recommendation, as well as other security concerns, refer to the [Security Question List for ASP.NET 2.0](https://msdn.microsoft.com/library/ms998375.aspx).
 
-
 ## Step 1: Defining Role-Based URL Authorization Rules
 
 As discussed in the <a id="_msoanchor_6"></a>[*User-Based Authorization*](../membership/user-based-authorization-cs.md) tutorial, URL authorization offers a means to restrict access to a set of pages on a user-by-user or role-by-role basis. The URL authorization rules are spelled out in `Web.config` using the [`<authorization>` element](https://msdn.microsoft.com/library/8d82143t.aspx) with `<allow>` and `<deny>` child elements. In addition to the user-related authorization rules discussed in previous tutorials, each `<allow>` and `<deny>` child element can also include:
@@ -108,11 +101,9 @@ Let's configure our application so that the `ManageRoles.aspx`, `UsersAndRoles.a
 
 To accomplish this, start by adding a `Web.config` file to the `Roles` folder.
 
-
 [![Add a Web.config File to the Roles directory](role-based-authorization-cs/_static/image8.png)](role-based-authorization-cs/_static/image7.png)
 
 **Figure 3**: Add a `Web.config` File to the `Roles` directory  ([Click to view full-size image](role-based-authorization-cs/_static/image9.png))
-
 
 Next, add the following configuration markup to `Web.config`:
 
@@ -122,23 +113,18 @@ The `<authorization>` element in the `<system.web>` section indicates that only 
 
 After saving your changes to `Web.config`, log in as a user that is not in the Administrators role and then try to visit one of the protected pages. The `UrlAuthorizationModule` will detect that you do not have permission to visit the requested resource; consequently, the `FormsAuthenticationModule` will redirect you to the login page. The login page will then redirect you to the `UnauthorizedAccess.aspx` page (see Figure 4). This final redirect from the login page to `UnauthorizedAccess.aspx` occurs because of code we added to the login page in Step 2 of the <a id="_msoanchor_7"></a>[*User-Based Authorization*](../membership/user-based-authorization-cs.md) tutorial. In particular, the login page automatically redirects any authenticated user to `UnauthorizedAccess.aspx` if the querystring contains a `ReturnUrl` parameter, as this parameter indicates that the user arrived at the login page after attempting to view a page he was not authorized to view.
 
-
 [![Only Users in the Administrators Role Can View the Protected Pages](role-based-authorization-cs/_static/image11.png)](role-based-authorization-cs/_static/image10.png)
 
 **Figure 4**: Only Users in the Administrators Role Can View the Protected Pages  ([Click to view full-size image](role-based-authorization-cs/_static/image12.png))
 
-
 Log off and then log in as a user that is in the Administrators role. Now you should be able to view the three protected pages.
-
 
 [![Tito Can Visit the UsersAndRoles.aspx Page Because He is in the Administrators Role](role-based-authorization-cs/_static/image14.png)](role-based-authorization-cs/_static/image13.png)
 
 **Figure 5**: Tito Can Visit the `UsersAndRoles.aspx` Page Because He is in the Administrators Role  ([Click to view full-size image](role-based-authorization-cs/_static/image15.png))
 
-
 > [!NOTE]
 > When specifying URL authorization rules – for roles or users – it is important to keep in mind that the rules are analyzed one at a time, from the top down. As soon as a match is found, the user is granted or denied access, depending on if the match was found in an `<allow>` or `<deny>` element. **If no match is found, the user is granted access.** Consequently, if you want to restrict access to one or more user accounts, it is imperative that you use a `<deny>` element as the last element in the URL authorization configuration. **If your URL authorization rules do not include a**`<deny>`**element, all users will be granted access.** For a more thorough discussion on how the URL authorization rules are analyzed, refer back to the "A Look at How the `UrlAuthorizationModule` Uses the Authorization Rules to Grant or Deny Access" section of the <a id="_msoanchor_8"></a>[*User-Based Authorization*](../membership/user-based-authorization-cs.md) tutorial.
-
 
 ## Step 2: Limiting Functionality Based On the Currently Logged In User's Roles
 
@@ -151,7 +137,6 @@ Let's create a page that lists all of the user accounts in the system in a GridV
 > [!NOTE]
 > The ASP.NET page we are about to build uses a GridView control to display the user accounts. Since this tutorial series focuses on forms authentication, authorization, user accounts, and roles, I do not want to spend too much time discussing the inner workings of the GridView control. While this tutorial provides specific step-by-step instructions for setting up this page, it does not delve into the details of why certain choices were made, or what effect particular properties have on the rendered output. For a thorough examination of the GridView control, check out my *[Working with Data in ASP.NET 2.0](../../data-access/index.md)* tutorial series.
 
-
 Start by opening the `RoleBasedAuthorization.aspx` page in the `Roles` folder. Drag a GridView from the page onto the Designer and set its `ID` to `UserGrid`. In a moment we will write code that calls the `Membership.GetAllUsers` method and binds the resulting `MembershipUserCollection` object to the GridView. The `MembershipUserCollection` contains a `MembershipUser` object for each user account in the system; `MembershipUser` objects have properties like `UserName`, `Email`, `LastLoginDate`, and so forth.
 
 Before we write the code that binds the user accounts to the grid, let's first define the GridView's fields. From the GridView's Smart Tag, click the "Edit Columns" link to launch the Fields dialog box (see Figure 6). From here, uncheck the "Auto-generate fields" checkbox in the lower left corner. Since we want this GridView to include editing and deleting capabilities, add a CommandField and set its `ShowEditButton` and `ShowDeleteButton` properties to True. Next, add four fields for displaying the `UserName`, `Email`, `LastLoginDate`, and `Comment` properties. Use a BoundField for the two read-only properties (`UserName` and `LastLoginDate`) and TemplateFields for the two editable fields (`Email` and `Comment`).
@@ -160,11 +145,9 @@ Have the first BoundField display the `UserName` property; set its `HeaderText` 
 
 Set the `HeaderText` properties of the two TemplateFields to "Email" and "Comment".
 
-
 [![The GridView's Fields Can Be Configured Through the Fields Dialog Box](role-based-authorization-cs/_static/image17.png)](role-based-authorization-cs/_static/image16.png)
 
 **Figure 6**: The GridView's Fields Can Be Configured Through the Fields Dialog Box  ([Click to view full-size image](role-based-authorization-cs/_static/image18.png))
-
 
 We now need to define the `ItemTemplate` and `EditItemTemplate` for the "Email" and "Comment" TemplateFields. Add a Label Web control to each of the `ItemTemplate` s and bind their `Text` properties to the `Email` and `Comment` properties, respectively.
 
@@ -186,15 +169,12 @@ We have now completed this page's declarative markup. Our next task is to bind t
 
 With this code in place, visit the page through a browser. As Figure 7 shows, you should see a GridView listing information about each user account in the system.
 
-
 [![The UserGrid GridView Lists Information About Each User in the System](role-based-authorization-cs/_static/image20.png)](role-based-authorization-cs/_static/image19.png)
 
 **Figure 7**: The `UserGrid` GridView Lists Information About Each User in the System  ([Click to view full-size image](role-based-authorization-cs/_static/image21.png))
 
-
 > [!NOTE]
 > The `UserGrid` GridView lists all of the users in a non-paged interface. This simple grid interface is not suitable for scenarios where there are several dozen or more users. One option is to configure the GridView to enable paging. The `Membership.GetAllUsers` method has two overloads: one that accepts no input parameters and returns all of the users and one that takes in integer values for the page index and page size, and returns only the specified subset of the users. The second overload can be used to more efficiently page through the users since it returns just the precise subset of user accounts rather than *all* of them. If you have thousands of user accounts, you might want to consider a filter-based interface, one that only shows those users whose UserName begins with a selected character, for instance. The [`Membership.FindUsersByName method`](https://msdn.microsoft.com/library/system.web.security.membership.findusersbyname.aspx) is ideal for building a filter-based user interface. We will look at building such an interface in a future tutorial.
-
 
 The GridView control offers built-in editing and deleting support when the control is bound to a properly configured data source control, such as the SqlDataSource or ObjectDataSource. The `UserGrid` GridView, however, has its data programmatically bound; therefore, we must write code to perform these two tasks. In particular, we will need to create event handlers for the GridView's `RowEditing`, `RowCancelingEdit`, `RowUpdating`, and `RowDeleting` events, which are fired when a visitor clicks the GridView's Edit, Cancel, Update, or Delete buttons.
 
@@ -215,7 +195,6 @@ The above event handler starts by grabbing the `UserName` value from the GridVie
 > [!NOTE]
 > The Delete button does not require any sort of confirmation from the user before deleting the user account. I encourage you to add some form of user confirmation to lessen the chance of an account being accidentally deleted. One of the easiest ways to confirm an action is through a client-side confirm dialog box. For more information on this technique, see [Adding Client-Side Confirmation When Deleting](https://asp.net/learn/data-access/tutorial-42-cs.aspx).
 
-
 Verify that this page functions as expected. You should be able to edit any user's email address and comment, as well as delete any user account. Since the `RoleBasedAuthorization.aspx` page is accessible to all users, any user – even anonymous visitors – can visit this page and edit and delete user accounts! Let's update this page so that only users in the Supervisors and Administrators roles can edit a user's email address and comment, and only Administrators can delete a user account.
 
 The "Using the LoginView Control" section looks at using the LoginView control to show instructions specific to the user's role. If a person in the Administrators role visits this page, we will show instructions on how to edit and delete users. If a user in the Supervisors role reaches this page, we will show instructions on editing users. And if the visitor is anonymous or is not in either the Supervisors or Administrators role, we will display a message explaining that they cannot edit or delete user account information. In the "Programmatically Limiting Functionality" section we will write code that programmatically shows or hides the Edit and Delete buttons based on the user's role.
@@ -232,11 +211,9 @@ In addition to the `AnonymousTemplate` and `LoggedInTemplate`, the LoginView con
 
 To manage the RoleGroups, click the "Edit RoleGroups" link from the control's Smart Tag to bring up the RoleGroup Collection Editor. Add two new RoleGroups. Set the first RoleGroup's `Roles` property to "Administrators" and the second's to "Supervisors".
 
-
 [![Manage the LoginView's Role-Specific Templates Through the RoleGroup Collection Editor](role-based-authorization-cs/_static/image23.png)](role-based-authorization-cs/_static/image22.png)
 
 **Figure 8**: Manage the LoginView's Role-Specific Templates Through the RoleGroup Collection Editor  ([Click to view full-size image](role-based-authorization-cs/_static/image24.png))
-
 
 Click OK to close the RoleGroup Collection Editor; this updates the LoginView's declarative markup to include a `<RoleGroups>` section with an `<asp:RoleGroup>` child element for each RoleGroup defined in the RoleGroup Collection Editor. Furthermore, the "Views" drop-down list in the LoginView's Smart Tag - which initially listed just the `AnonymousTemplate` and `LoggedInTemplate` – now includes the added RoleGroups as well.
 
@@ -248,26 +225,21 @@ After making these changes, save the page and then visit it through a browser. F
 
 Next, log in as a user who is a member of the Supervisors role. This time you should see the Supervisors role-specific message (see Figure 9). And if you log in as a user in the Administrators role you should see the Administrators role-specific message (see Figure 10).
 
-
 [![Bruce is Shown the Supervisors Role-Specific Message](role-based-authorization-cs/_static/image26.png)](role-based-authorization-cs/_static/image25.png)
 
 **Figure 9**: Bruce is Shown the Supervisors Role-Specific Message  ([Click to view full-size image](role-based-authorization-cs/_static/image27.png))
-
 
 [![Tito is Shown the Administrators Role-Specific Message](role-based-authorization-cs/_static/image29.png)](role-based-authorization-cs/_static/image28.png)
 
 **Figure 10**: Tito is Shown the Administrators Role-Specific Message  ([Click to view full-size image](role-based-authorization-cs/_static/image30.png))
 
-
 As the screen shots in Figures 9 and 10 show, the LoginView only renders one template, even if multiple templates apply. Bruce and Tito are both logged in users, yet the LoginView renders only the matching RoleGroup and not the `LoggedInTemplate`. Moreover, Tito belongs to both the Administrators and Supervisors roles, yet the LoginView control renders the Administrators role-specific template instead of the Supervisors one.
 
 Figure 11 illustrates the workflow used by the LoginView control to determine what template to render. Note that if there is more than one RoleGroup specified, the LoginView template renders the *first* RoleGroup that matches. In other words, if we had placed the Supervisors RoleGroup as the first RoleGroup and the Administrators as the second, then when Tito visited this page he would see the Supervisors message.
 
-
 [![The LoginView Control's Workflow for Determining What Template to Render](role-based-authorization-cs/_static/image32.png)](role-based-authorization-cs/_static/image31.png)
 
 **Figure 11**: The LoginView Control's Workflow for Determining What Template to Render  ([Click to view full-size image](role-based-authorization-cs/_static/image33.png))
-
 
 ### Programmatically Limiting Functionality
 
@@ -275,11 +247,9 @@ While the LoginView control displays different instructions based on the role of
 
 The easiest way to programmatically reference controls in a CommandField is to first convert it to a template. To accomplish this, click the "Edit Columns" link from the GridView's Smart Tag, select the CommandField from the list of current fields, and click the "Convert this field into a TemplateField" link. This turns the CommandField into a TemplateField with an `ItemTemplate` and `EditItemTemplate`. The `ItemTemplate` contains the Edit and Delete LinkButtons while the `EditItemTemplate` houses the Update and Cancel LinkButtons.
 
-
 [![Convert the CommandField Into a TemplateField](role-based-authorization-cs/_static/image35.png)](role-based-authorization-cs/_static/image34.png)
 
 **Figure 12**: Convert the CommandField Into a TemplateField  ([Click to view full-size image](role-based-authorization-cs/_static/image36.png))
-
 
 Update the Edit and Delete LinkButtons in the `ItemTemplate`, setting their `ID` properties to values of `EditButton` and `DeleteButton`, respectively.
 
@@ -298,7 +268,6 @@ If we are dealing with a data row that is not in edit mode, the Edit and Delete 
 > [!NOTE]
 > We could have used the Roles class directly, replacing the call to `User.IsInRole(roleName)` with a call to the [`Roles.IsUserInRole(roleName)` method](https://msdn.microsoft.com/library/system.web.security.roles.isuserinrole.aspx). I decided to use the principal object's `IsInRole(roleName)` method in this example because it is more efficient than using the Roles API directly. Earlier in this tutorial we configured the role manager to cache the user's roles in a cookie. This cached cookie data is only utilized when the principal's `IsInRole(roleName)` method is called; direct calls to the Roles API always involve a trip to the role store. Even if roles are not cached in a cookie, calling the principal object's `IsInRole(roleName)` method is usually more efficient because when it is called for the first time during a request it caches the results. The Roles API, on the other hand, does not perform any caching. Because the `RowCreated` event is fired once for every row in the GridView, using `User.IsInRole(roleName)` involves just one trip to the role store whereas `Roles.IsUserInRole(roleName)` requires *N* trips, where *N* is the number of user accounts displayed in the grid.
 
-
 The Edit button's `Visible` property is set to `true` if the user visiting this page is in the Administrators or Supervisors role; otherwise it is set to `false`. The Delete button's `Visible` property is set to `true` only if the user is in the Administrators role.
 
 Test this page through a browser. If you visit the page as an anonymous visitor or as a user that is neither a Supervisor nor an Administrator, the CommandField is empty; it still exists, but as a thin sliver without the Edit or Delete buttons.
@@ -306,27 +275,21 @@ Test this page through a browser. If you visit the page as an anonymous visitor 
 > [!NOTE]
 > It is possible to hide the CommandField altogether when a non-Supervisor and non-Administrator is visiting the page. I leave this as an exercise for the reader.
 
-
 [![The Edit and Delete Buttons are Hidden for Non-Supervisors and Non-Administrators](role-based-authorization-cs/_static/image38.png)](role-based-authorization-cs/_static/image37.png)
 
 **Figure 13**: The Edit and Delete Buttons are Hidden for Non-Supervisors and Non-Administrators  ([Click to view full-size image](role-based-authorization-cs/_static/image39.png))
 
-
 If a user that belongs to the Supervisors role (but not to the Administrators role) visits, he sees only the Edit button.
-
 
 [![While the Edit Button is Available for Supervisors, the Delete Button is Hidden](role-based-authorization-cs/_static/image41.png)](role-based-authorization-cs/_static/image40.png)
 
 **Figure 14**: While the Edit Button is Available for Supervisors, the Delete Button is Hidden  ([Click to view full-size image](role-based-authorization-cs/_static/image42.png))
 
-
 And if an Administrator visits, she has access to both the Edit and Delete buttons.
-
 
 [![The Edit and Delete Buttons are Available Only for Administrators](role-based-authorization-cs/_static/image44.png)](role-based-authorization-cs/_static/image43.png)
 
 **Figure 15**: The Edit and Delete Buttons are Available Only for Administrators  ([Click to view full-size image](role-based-authorization-cs/_static/image45.png))
-
 
 ## Step 3: Applying Role-Based Authorization Rules to Classes and Methods
 
@@ -342,18 +305,14 @@ Let's demonstrate using the `PrincipalPermission` attribute on the GridView's `R
 
 The attribute for the `RowUpdating` event handler dictates that only users in the Administrators or Supervisors roles can execute the event handler, where as the attribute on the `RowDeleting` event handler limits the execution to users in the Administrators role.
 
-
 > [!NOTE]
 > The `PrincipalPermission` attribute is represented as a class in the `System.Security.Permissions` namespace. Be sure to add a `using System.Security.Permissions` statement at the top of your code-behind class file to import this namespace.
 
-
 If, somehow, a non-Administrator attempts to execute the `RowDeleting` event handler or if a non-Supervisor or non-Administrator attempts to execute the `RowUpdating` event handler, the .NET runtime will raise a `SecurityException`.
-
 
 [![If the Security Context is not Authorized to Execute the Method, a SecurityException is Thrown](role-based-authorization-cs/_static/image47.png)](role-based-authorization-cs/_static/image46.png)
 
 **Figure 16**: If the Security Context is not Authorized to Execute the Method, a `SecurityException` is Thrown  ([Click to view full-size image](role-based-authorization-cs/_static/image48.png))
-
 
 In addition to ASP.NET pages, many applications also have an architecture that includes various layers, such as Business Logic and Data Access Layers. These layers are typically implemented as Class Libraries and offer classes and methods for performing business logic- and data-related functionality. The `PrincipalPermission` attribute is useful for applying authorization rules to these layers as well.
 

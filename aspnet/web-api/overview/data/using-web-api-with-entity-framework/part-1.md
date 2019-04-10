@@ -11,7 +11,6 @@ msc.type: authoredcontent
 ---
 # Using Web API 2 with Entity Framework 6
 
-
 [Download Completed Project](https://github.com/MikeWasson/BookService)
 
 > This tutorial teaches you the basics of creating a web application with an ASP.NET Web API back end. The tutorial uses Entity Framework 6 for the data layer, and Knockout.js for the client-side JavaScript application. The tutorial also shows how to deploy the app to Azure App Service Web Apps.
@@ -62,7 +61,6 @@ In the **New ASP.NET Project** dialog, select the **Web API** template.
 
 [![](part-1/_static/image12.png)](part-1/_static/image12.png)
 
-
 Select **OK** to create the project.
 
 ## Configure Azure settings (optional)
@@ -92,7 +90,6 @@ After you create the project, you can choose to deploy to Azure App Service Web 
     [![](part-1/_static/image17.png)](part-1/_static/image17.png)
    
     The profile you created to deploy the app is now available. 
-
 
 > [!div class="step-by-step"]
 > [Next](part-2.md)

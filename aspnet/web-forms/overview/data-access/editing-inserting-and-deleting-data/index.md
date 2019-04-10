@@ -13,7 +13,6 @@ msc.type: chapter
 
 > In these tutorials you see how to map methods of the ObjectDataSource control to BLL methods, and how to configure the GridView, DetailsView, and FormView controls to let users modify data.
 
-
 - [Overview of Inserting, Updating, and Deleting Data (C#)](an-overview-of-inserting-updating-and-deleting-data-cs.md)
 - [Examining the Events Associated with Inserting, Updating, and Deleting (C#)](examining-the-events-associated-with-inserting-updating-and-deleting-cs.md)
 - [Handling BLL- and DAL-Level Exceptions in an ASP.NET Page (C#)](handling-bll-and-dal-level-exceptions-in-an-asp-net-page-cs.md)

@@ -13,7 +13,6 @@ msc.type: chapter
 
 > Testing and debugging ASP.NET Web API
 
-
 - [Tracing in Web API 2](tracing-in-aspnet-web-api.md)
 - [Unit Testing Web API 2](unit-testing-with-aspnet-web-api.md)
 - [Unit Testing Controllers in ASP.NET Web API 2](unit-testing-controllers-in-web-api.md)

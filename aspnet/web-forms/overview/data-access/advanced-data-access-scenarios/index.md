@@ -13,7 +13,6 @@ msc.type: chapter
 
 > These tutorials cover how to work with stored procedures and computed columns, how to use joins with database tables, and how to encrypt data connection information.
 
-
 - [Creating New Stored Procedures for the Typed DataSet's TableAdapters (C#)](creating-new-stored-procedures-for-the-typed-dataset-s-tableadapters-cs.md)
 - [Using Existing Stored Procedures for the Typed DataSet's TableAdapters (C#)](using-existing-stored-procedures-for-the-typed-dataset-s-tableadapters-cs.md)
 - [Updating the TableAdapter to Use JOINs (C#)](updating-the-tableadapter-to-use-joins-cs.md)

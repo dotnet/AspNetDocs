@@ -15,7 +15,6 @@ by [Microsoft](https://github.com/microsoft)
 
 > An understanding of caching is important for a well-performing ASP.NET application. ASP.NET 1.x offered three different options for caching; output caching, fragment caching, and the cache API.
 
-
 An understanding of caching is important for a well-performing ASP.NET application. ASP.NET 1.x offered three different options for caching; output caching, fragment caching, and the cache API. ASP.NET 2.0 offers all three of these methods, but it adds some significant additional features. There are several new cache dependencies and developers now have the option to create custom cache dependencies as well. The configuration of caching has also been improved significantly in ASP.NET 2.0.
 
 ## New Features
@@ -57,7 +56,6 @@ SQL Server 7 and 2000 use the polling-based model for SQL cache dependencies. Th
 > [!NOTE]
 > SQL Server 2005 can also use the polling-based model, but because the polling-based model is not the most efficient model, it is advisable to use a query-based model (discussed later) with SQL Server 2005.
 
-
 In order for a SQL cache dependency using the polling-based model to work correctly, the tables must have notifications enabled. This can be accomplished programmatically using the SqlCacheDependencyAdmin class or by using the aspnet\_regsql.exe utility.
 
 The following command line registers the Products table in the Northwind database located on a SQL Server instance named *dbase* for SQL cache dependency.
@@ -78,12 +76,10 @@ The following is an explanation of the command line switches used in the above c
 > [!NOTE]
 > There are other switches available for aspnet\_regsql.exe. For a complete list, run aspnet\_regsql.exe -? from a command line.
 
-
 When this command runs the following changes are made to the SQL Server database:
 
 - An **AspNet\_SqlCacheTablesForChangeNotification** table is added. This table contains one row for each table in the database for which a SQL cache dependency has been enabled.
 - The following stored procedures are created inside of the database:
-
 
 | AspNet\_SqlCachePollingStoredProcedure | Queries the AspNet\_SqlCacheTablesForChangeNotification table and returns all tables that are enabled for SQL cache dependency and the value of changeId for each table. This stored proc is used for polling to determine if data have changed. |
 | --- | --- |
@@ -91,7 +87,6 @@ When this command runs the following changes are made to the SQL Server database
 | AspNet\_SqlCacheRegisterTableStoredProcedure | Registers a table for SQL cache dependency by adding the necessary entry in the notification table and adds the trigger. |
 | AspNet\_SqlCacheUnRegisterTableStoredProcedure | Unregisters a table for SQL cache dependency by removing the entry in the notification table and removes the trigger. |
 | AspNet\_SqlCacheUpdateChangeIdStoredProcedure | Updates the notification table by incrementing the changeId for the changed table. ASP.NET uses this value to determine if the data have changed. As indicated below, this stored proc is executed by the trigger created when the table is enabled. |
-
 
 - A SQL Server trigger called ***table\_name*\_AspNet\_SqlCacheNotification\_Trigger** is created for the table. This trigger executes the AspNet\_SqlCacheUpdateChangeIdStoredProcedure when an INSERT, UPDATE, or DELETE is performed on the table.
 - A SQL Server role called **aspnet\_ChangeNotification\_ReceiveNotificationsOnlyAccess** is added to the database.
@@ -155,7 +150,6 @@ You can also specify that all of your data sources be enabled for SQL cache depe
 
 > [!NOTE]
 > For more information on query notifications in SQL Server 2005, see the SQL Server Books Online.
-
 
 Another method of configuring a query-based SQL cache dependency is to do so programmatically using the SqlCacheDependency class. The following code sample illustrates how this is accomplished.
 
@@ -227,7 +221,6 @@ The following attributes are available in the &lt;cache&gt; element:
 ### The &lt;outputCache&gt; Element
 
 The following attributes are available for the &lt;outputCache&gt; element.
-
 
 |       <strong>Attribute</strong>        |                                                                                                                                                                                                                                                       <strong>Description</strong>                                                                                                                                                                                                                                                       |
 |-----------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|

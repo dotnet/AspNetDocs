@@ -35,7 +35,6 @@ by [Tom FitzMacken](https://github.com/tfitzmac)
 > 
 > This tutorial also works with WebMatrix 3.
 
-
 ## Introduction
 
 You might want to display a video on your site. One way to do that is to link to a site that already has the video, like YouTube. If you want to embed a video from these sites directly in your own pages, you can usually get HTML markup from the site and then copy it into your page. For example, the following example shows how to embed a YouTube video:
@@ -82,7 +81,6 @@ The `Silverlight` player of the `Video` helper lets you play Windows Media Video
 > [!NOTE]
 > In case you don't already know Silverlight: the *.xap* file is a compressed file that contains layout instructions in a *.xaml* file, managed code in assemblies, and optional resources. You can create a *.xap* file in Visual Studio as a Silverlight application project.
 
-
 The `Silverlight` video player uses both the settings that you provide for the player and the settings that are provided in the *.xap* file.
 
 > [!TIP] 
@@ -95,7 +93,6 @@ The `Silverlight` video player uses both the settings that you provide for the p
 > - `application/x-shockwave-flash`
 > - `application/x-mplayer2`
 > - `application/x-silverlight-2`
-
 
 <a id="Playing_Flash"></a>
 ## Playing Flash (.swf) Videos
@@ -173,7 +170,6 @@ This procedure shows you how to play video contained in a Silverlight *.xap* pag
 
 <a id="Additional_Resources"></a>
 ## Additional Resources
-
 
 [Silverlight Overview](https://msdn.microsoft.com/library/bb404700(VS.95).aspx)
 

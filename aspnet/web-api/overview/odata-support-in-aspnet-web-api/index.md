@@ -14,7 +14,6 @@ msc.type: chapter
 
 > How to create OData endpoints in ASP.NET Web API for ASP.NET 4.x. OData is a data access protocol for the web. It provides a uniform way to query and manipulate data sets. Web API supports both Version 3 and Version 4 of the OData protocol.
 
-
 - [OData v4](odata-v4/index.md)
 
     - [Create an OData v4 Endpoint](odata-v4/create-an-odata-v4-endpoint.md)

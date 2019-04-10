@@ -26,7 +26,6 @@ During this walkthrough, you will learn how to:
 
 ## Prerequisites
 
-
 In order to complete this walkthrough, you will need:
 
 - [Microsoft Visual Studio 2013](https://www.microsoft.com/visualstudio/11/downloads#vs) or [Microsoft Visual Studio Express 2013 for Web](https://www.microsoft.com/visualstudio/11/downloads#express-web). The .NET Framework is installed automatically. 
@@ -59,14 +58,11 @@ In this part of the walkthrough, you will create a Web application project and a
 
     Visual Studio creates a new project that includes prebuilt functionality based on the Web Forms template.
 
-
 ## Creating a new ASP.NET Web Forms Page
-
 
 When you create a new Web Forms application using the **ASP.NET Web Application** project template, Visual Studio adds an ASP.NET page (Web Forms page) named *Default.aspx*, as well as several other files and folders. You can use the *Default.aspx* page as the home page for your Web application. However, for this walkthrough, you will create and work with a new page.
 
 ### To add a page to the Web application
-
 
 1. In **Solution Explorer**, right-click the Web application name (in this tutorial the application name is **BasicWebSite**), and then click **Add** -&gt; **New Item**.   
 The **Add New Item** dialog box is displayed.
@@ -76,14 +72,11 @@ The **Add New Item** dialog box is displayed.
  Visual Studio creates the new page and opens it.
 4. Next, set this new page as the default startup page. In **Solution Explorer**, right-click the new page named *FirstWebPage.aspx* and select **Set As Start Page**. The next time you run this application to test our progress, you will automatically see this new page in the browser.
 
-
 ## Correcting Inline Coding Errors
-
 
 The code editor in Visual Studio helps you to avoid errors as you write code, and if you have made an error, the code editor helps you to correct the error. In this part of the walkthrough, you will write a line of code that illustrate the error correction features in the editor.
 
 ### To correct simple coding errors in Visual Studio
-
 
 1. In **Design** view, double-click the blank page to create a handler for the **Load** event for the page.   
    You are using the event handler only as a place to write some code.
@@ -103,7 +96,6 @@ The code editor in Visual Studio helps you to avoid errors as you write code, an
     > [!NOTE] 
     > 
     > You view your current code formatting settings in Visual Studio by selecting **Tools** -&gt; **Options** -&gt; **Fonts and Colors**.
-
 
 ## Refactoring and Renaming
 
@@ -150,7 +142,6 @@ When you work with variables, as well as objects, you might want to rename them 
 
 ### To use refactoring to rename a variable
 
-
 1. In the **Click** event handler, locate the following line:
 
     [!code-csharp[Main](code-editing-in-web-forms-pages/samples/sample6.cs)]
@@ -167,7 +158,6 @@ When you work with variables, as well as objects, you might want to rename them 
     [!code-csharp[Main](code-editing-in-web-forms-pages/samples/sample7.cs)]
 
     The variable `alist` in this line is not renamed because it does not represent the same value as the variable `alist` that you renamed. The variable `alist` in the `DisplayArray` declaration is a local variable for that method. This illustrates that using refactoring to rename variables is different than simply performing a find-and-replace action in the editor; refactoring renames variables with knowledge of the semantics of the variable that it is working with.
-
 
 ## Inserting Snippets
 

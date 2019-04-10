@@ -24,7 +24,6 @@ by [Mike Wasson](https://github.com/MikeWasson)
 > - [Web API 2.2](../releases/whats-new-in-aspnet-web-api-22.md)
 > - [ASP.NET Identity 2.1](../../../identity/index.md)
 
-
 In Visual Studio 2013, the Web API project template gives you three options for authentication:
 
 - **Individual accounts.** The app uses a membership database.
@@ -233,7 +232,6 @@ The **SuppressDefaultHostAuthentication** method tells Web API to ignore any aut
 
 > [!NOTE]
 > In particular, the MVC portion of your app might use forms authentication, which stores credentials in a cookie. Cookie-based authentication requires the use of anti-forgery tokens, to prevent CSRF attacks. That's a problem for web APIs, because there is no convenient way for the web API to send the anti-forgery token to the client. (For more background on this issue, see [Preventing CSRF Attacks in Web API](preventing-cross-site-request-forgery-csrf-attacks.md).) Calling **SuppressDefaultHostAuthentication** ensures that Web API is not vulnerable to CSRF attacks from credentials stored in cookies.
-
 
 When the client requests a protected resource, here is what happens in the Web API pipeline:
 

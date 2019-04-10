@@ -17,7 +17,6 @@ by [Stephen Walther](https://github.com/StephenWalther)
 
 > Prevent JavaScript Injection Attacks and Cross-Site Scripting Attacks from happening to you. In this tutorial, Stephen Walther explains how you can easily defeat these types of attacks by HTML encoding your content.
 
-
 The goal of this tutorial is to explain how you can prevent JavaScript injection attacks in your ASP.NET MVC applications. This tutorial discusses two approaches to defending your website against a JavaScript injection attack. You learn how to prevent JavaScript injection attacks by encoding the data that you display. You also learn how to prevent JavaScript injection attacks by encoding the data that you accept.
 
 ## What is a JavaScript Injection Attack?
@@ -26,11 +25,9 @@ Whenever you accept user input and redisplay the user input, you open your websi
 
 Imagine that you have created a customer feedback website (see Figure 1). Customers can visit the website and enter feedback on their experience using your products. When a customer submits their feedback, the feedback is redisplayed on the feedback page.
 
-
 [![Customer Feedback Website](preventing-javascript-injection-attacks-cs/_static/image2.png)](preventing-javascript-injection-attacks-cs/_static/image1.png)
 
 **Figure 01**: Customer Feedback Website ([Click to view full-size image](preventing-javascript-injection-attacks-cs/_static/image3.png))
-
 
 The customer feedback website uses the `controller` in Listing 1. This `controller` contains two actions named `Index()` and `Create()`.
 
@@ -58,11 +55,9 @@ Imagine that you enter the following text into the customer feedback form:
 
 This text represents a JavaScript script that displays an alert message box. After someone submits this script into the feedback form, the message <em>Boo!</em>will appear whenever anyone visits the customer feedback website in the future (see Figure 2).
 
-
 [![JavaScript Injection](preventing-javascript-injection-attacks-cs/_static/image5.png)](preventing-javascript-injection-attacks-cs/_static/image4.png)
 
 **Figure 02**: JavaScript Injection ([Click to view full-size image](preventing-javascript-injection-attacks-cs/_static/image6.png))
-
 
 Now, your initial response to JavaScript injection attacks might be apathy. You might think that JavaScript injection attacks are simply a type of *defacement* attack. You might believe that no one can do anything truly evil by committing a JavaScript injection attack.
 
@@ -86,11 +81,9 @@ Notice that the value of `feedback.Message` is HTML encoded before the value is 
 
 What does it mean to HTML encode a string? When you HTML encode a string, dangerous characters such as `<` and `>` are replaced by HTML entity references such as `&lt;` and `&gt;`. So when the string `<script>alert("Boo!")</script>` is HTML encoded, it gets converted to `&lt;script&gt;alert(&quot;Boo!&quot;)&lt;/script&gt;`. The encoded string no longer executes as a JavaScript script when interpreted by a browser. Instead, you get the harmless page in Figure 3.
 
-
 [![Defeated JavaScript Attack](preventing-javascript-injection-attacks-cs/_static/image8.png)](preventing-javascript-injection-attacks-cs/_static/image7.png)
 
 **Figure 03**: Defeated JavaScript Attack ([Click to view full-size image](preventing-javascript-injection-attacks-cs/_static/image9.png))
-
 
 Notice that in the `Index` view in Listing 3 only the value of `feedback.Message` is encoded. The value of `feedback.EntryDate` is not encoded. You only need to encode data entered by a user. Because the value of EntryDate was generated in the controller, you don't need to HTML encode this value.
 

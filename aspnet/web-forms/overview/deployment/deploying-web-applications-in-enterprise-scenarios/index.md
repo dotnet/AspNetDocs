@@ -13,7 +13,6 @@ msc.type: chapter
 
 > This set of tutorials describes tools and techniques you can use to deploy web applications in various enterprise scenarios.
 
-
 - [Deploying Web Applications in Enterprise Scenarios using Visual Studio 2010](deploying-web-applications-in-enterprise-scenarios.md)
 - [Enterprise Web Deployment: Scenario Overview](enterprise-web-deployment-scenario-overview.md)
 - [Application Lifecycle Management: From Development to Production](application-lifecycle-management-from-development-to-production.md)

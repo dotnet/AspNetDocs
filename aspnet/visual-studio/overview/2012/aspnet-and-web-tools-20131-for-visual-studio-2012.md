@@ -15,7 +15,6 @@ by [Microsoft](https://github.com/microsoft)
 
 > This document describes the release of ASP.NET and Web Tools 2013.1 for Visual Studio 2012.
 
-
 ## Contents
 
 - [Installation Notes](#install)

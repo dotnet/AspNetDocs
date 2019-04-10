@@ -17,7 +17,6 @@ by [Scott Mitchell](https://twitter.com/ScottOnWriting)
 
 > ASP.NET version 2.0 introduced a series of application services, which are part of the .NET Framework and serve as a suite of building block services that you can use to add rich functionality to your web application. This tutorial explores how to configure a website in the production environment to use application services and addresses common issues with managing user accounts and roles on the production environment.
 
-
 ## Introduction
 
 ASP.NET version 2.0 introduced a series of *application services*, which are part of the .NET Framework and serve as a suite of building block services that you can use to add rich functionality to your web application. The application services include:
@@ -28,7 +27,6 @@ ASP.NET version 2.0 introduced a series of *application services*, which are par
 - **Site Map** - an API for defining a site s logical structure in the form of a hierarchy, which can then be displayed via navigation controls, such as menus and breadcrumbs.
 - **Personalization** - an API for maintaining customization preferences, most often used with [*WebParts*](https://msdn.microsoft.com/library/e0s9t4ck.aspx).
 - **Health Monitoring** - an API for monitoring performance, security, errors, and other system health metrics for a running web application.
-  
 
 The application services APIs are not tied to a specific implementation. Instead, you instruct the application services to use a particular *provider*, and that provider implements the service using a particular technology. The most commonly used providers for Internet-based web applications hosted at a web hosting company are those providers that use a SQL Server database implementation. For example, the `SqlMembershipProvider` is a provider for the Membership API that stores user account information in a Microsoft SQL Server database.
 
@@ -36,7 +34,6 @@ Using the application services and SQL Server providers adds some challenges whe
 
 > [!NOTE]
 > The application services APIs were designed using the [*provider model*](http://aspnet.4guysfromrolla.com/articles/101905-1.aspx), a design pattern that allows for an API s implementation details to be provided at runtime. The .NET Framework ships with a number of application service providers that can be used, such as the `SqlMembershipProvider` and `SqlRoleProvider`, which are providers for the Membership and Roles APIs that use a SQL Server database implementation. You can also create and plug-in a custom provider. In fact, the Book Reviews web application already contains a custom provider for the Site Map API (`ReviewSiteMapProvider`), which constructs the site map from the data in the `Genres` and `Books` tables in the database.
-
 
 This tutorial starts with a look at how I extended the Book Reviews web application to use the Membership and Roles APIs. It then walks through deploying a web application that uses application services with a SQL Server database implementation, and concludes by addressing common issues with managing user accounts and roles on the production environment.
 
@@ -47,7 +44,6 @@ Over the past couple tutorials the Book Reviews web application was updated from
 > [!NOTE]
 > I ve created three user accounts in the Book Reviews web application: Scott, Jisun, and Alice. All three users have the same password: **password!** Scott and Jisun are in the Admin role, Alice is not. The site s non-administration pages are still accessible to anonymous users. That is, you do not need to sign in to visit the site, unless you want to administer it, in which case you must sign in as a user in the Admin role.
 
-
 The Book Reviews application s master page has been updated to include a different user interface for authenticated and anonymous users. If an anonymous user visits the site she sees a Login link in the upper right corner. An authenticated user sees the message, "Welcome back, *username*!" and a link to log out. There s also a login page (`~/Login.aspx`), which contains a Login Web control that provides the user interface and logic for authenticating a visitor. Only administrators can create new accounts. (There are pages for creating and managing user accounts in the `~/Admin` folder.)
 
 ### Configuring the Membership and Roles APIs
@@ -56,7 +52,6 @@ The Book Reviews web application uses the Membership and Roles APIs to support u
 
 > [!NOTE]
 > This tutorial is not intended to be a detailed examination at configuring a web application to support the Membership and Roles APIs. For a thorough look at these APIs and the steps you need to take to configure a website to use them, please read my [*Website Security Tutorials*](../../older-versions-security/introduction/security-basics-and-asp-net-support-cs.md).
-
 
 To use the application services with a SQL Server database you must first add the database objects used by these providers to the database where you want the user account and role information stored. These requisite database objects include a variety of tables, views, and stored procedures. Unless specified otherwise, the `SqlMembershipProvider` and `SqlRoleProvider` provider classes use a SQL Server Express Edition database named `ASPNETDB` located in the application s `App_Data` folder; if such a database does not exist, it is automatically created with the necessary database objects by these providers at runtime.
 
@@ -67,7 +62,6 @@ If you add the application services database objects to a database other than `A
 [!code-xml[Main](configuring-a-website-that-uses-application-services-cs/samples/sample1.xml)]
 
 The `Web.config` file s `<authentication>` element has also been configured to support forms-based authentication.
-  
 
 [!code-xml[Main](configuring-a-website-that-uses-application-services-cs/samples/sample2.xml)]
 
@@ -94,43 +88,34 @@ The *Deploying a Database* tutorial showed how to copy the tables and data from 
 > [!NOTE]
 > The `aspnet_regsql.exe` tool creates the database objects on a specified database. It does not migrate data in those database objects from the development database to the production database. If you mean to copy the user account and role information in the development database to the production database use the techniques covered in the *Deploying a Database* tutorial.
 
-
 Let s look at how to add the database objects to the production database using the `aspnet_regsql.exe` tool. Start by opening Windows Explorer and navigating to the .NET Framework version 2.0 directory on your computer, %WINDIR%\ Microsoft.NET\Framework\v2.0.50727. There you should find the `aspnet_regsql.exe` tool. This tool can be used from the command-line, but it also includes a graphical user interface; double-click the `aspnet_regsql.exe` file to launch its graphical component.
 
 The tool starts by displaying a splash screen explaining its purpose. Click Next to advance to the "Select a Setup Option" screen, which is shown in Figure 1. From here you can choose to add the application services database objects or remove them from a database. Because we want to add these objects to the production database, select the "Configure SQL Server for application services" option and click Next.
 
-
 [![Choose to Configure SQL Server for Application Services](configuring-a-website-that-uses-application-services-cs/_static/image2.jpg)](configuring-a-website-that-uses-application-services-cs/_static/image1.jpg)
 
 **Figure 1**: Choose to Configure SQL Server for Application Services ([Click to view full-size image](configuring-a-website-that-uses-application-services-cs/_static/image3.jpg))
-
 
 In "Select the Server and Database" screen prompts for information to connect to the database. Enter the database server, the security credentials, and the database name supplied to you by your web hosting company and click Next.
 
 > [!NOTE]
 > After entering your database server and credentials you may get an error when expanding the database drop-down list. The `aspnet_regsql.exe` tool queries the `sysdatabases` system table to retrieve a list of databases on the server, but some web hosting companies lock down their database servers so that this information is not publicly available. If you get this error you can type the database name directly into the drop-down list.
 
-
 [![Supply the Tool With Your Database s Connection Information](configuring-a-website-that-uses-application-services-cs/_static/image5.jpg)](configuring-a-website-that-uses-application-services-cs/_static/image4.jpg)
 
 **Figure 2**: Supply the Tool With Your Database s Connection Information ([Click to view full-size image](configuring-a-website-that-uses-application-services-cs/_static/image6.jpg))
 
-
 The subsequent screen summarizes the actions that are about to take place, namely that the application services database objects are going to be added to the specified database. Click Next to complete this action. After a few moments, the final screen is displayed, noting that the database objects have been added (see Figure 3).
-
 
 [![Success! The Application Services Database Objects Were Added to the Production Database](configuring-a-website-that-uses-application-services-cs/_static/image8.jpg)](configuring-a-website-that-uses-application-services-cs/_static/image7.jpg)
 
 **Figure 3**: Success! The Application Services Database Objects Were Added to the Production Database ([Click to view full-size image](configuring-a-website-that-uses-application-services-cs/_static/image9.jpg))
 
-
 To verify that the application services database objects were successfully added to the production database, open SQL Server Management Studio and connect to your production database. As Figure 4 shows, you should now see the application services database tables in your database, `aspnet_Applications`, `aspnet_Membership`, `aspnet_Users`, and so forth.
-
 
 [![Confirm That the Database Objects Were Added to the Production Database](configuring-a-website-that-uses-application-services-cs/_static/image11.jpg)](configuring-a-website-that-uses-application-services-cs/_static/image10.jpg)
 
 **Figure 4**: Confirm That the Database Objects Were Added to the Production Database ([Click to view full-size image](configuring-a-website-that-uses-application-services-cs/_static/image12.jpg))
-
 
 You will only need to use the `aspnet_regsql.exe` tool when deploying your web application for the first time or for the first time after you have started using the application services. Once these database objects are on the production database they won't need to be re-added or modified.
 
@@ -146,7 +131,6 @@ But what happens if the `applicationName` attribute is not specified in `Web.con
 
 > [!NOTE]
 > If you find yourself in this situation - with user accounts copied to production with a mismatched `ApplicationId` value - you could write a query to update these incorrect `ApplicationId` values to the `ApplicationId` used on production. Once updated, the users whose accounts were created on the development environment would now be able to sign into the web application on production.
-
 
 The good news is that there is a simple step you can take to ensure that the two environments use the same `ApplicationId` - explicitly set the `applicationName` attribute in `Web.config` for all of your application services providers. I explicitly set the `applicationName` attribute to "BookReviews" in the `<membership>` and `<roleManager>` elements as this snippet from `Web.config` shows.
 
@@ -165,11 +149,9 @@ Recall that an earlier tutorial updated the Book Reviews web application to incl
 > [!NOTE]
 > For more information on using the Membership and Roles APIs along with the Login-related ASP.NET Web controls, be sure to read my [*Website Security Tutorials*](../../older-versions-security/introduction/security-basics-and-asp-net-support-cs.md). For more on customizing the CreateUserWizard control refer to the [*Creating User Accounts*](../../older-versions-security/membership/creating-user-accounts-cs.md) and [*Storing Additional User Information*](../../older-versions-security/membership/storing-additional-user-information-cs.md) tutorials, or check out [*Erich Peterson*](http://www.erichpeterson.com/) s article, [*Customizing the CreateUserWizard Control*](http://aspnet.4guysfromrolla.com/articles/070506-1.aspx).
 
-
 [![Administrators Can Create New User Accounts](configuring-a-website-that-uses-application-services-cs/_static/image14.jpg)](configuring-a-website-that-uses-application-services-cs/_static/image13.jpg)
 
 **Figure 5**: Administrators Can Create New User Accounts ([Click to view full-size image](configuring-a-website-that-uses-application-services-cs/_static/image15.jpg))
-
 
 If you need the full functionality of the WSAT check out [*Rolling Your Own Web Site Administration Tool*](http://aspnet.4guysfromrolla.com/articles/052307-1.aspx), in which author Dan Clem walks through the process of building a custom WSAT-like tool. Dan shares his application s source code (in C#) and provides step-by-step instructions for adding it to your hosted website.
 

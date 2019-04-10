@@ -13,7 +13,6 @@ msc.type: chapter
 
 > How to use new features in ASP.NET 4 to build an online store, including shopping, checkout, and administration.
 
-
 - [Tailspin Spyworks - Creating and Popular Products Control](tailspin-spyworks-creating-and-using-the-popular-products-control.md)
 - [Tailspin Spyworks - Implementing and Also Purchased Control](tailspin-spyworks-implementing-and-using-the-also-purchased-control.md)
 - [Tailspin Spyworks - Intro UI and EDM](tailspin-spyworks-intro-ui-and-edm.md)

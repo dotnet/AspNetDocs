@@ -14,7 +14,6 @@ msc.type: chapter
 
 > How ASP.NET Web API binds HTTP messages to domain models, and how to work with media formats in Web API.
 
-
 - [Media Formatters in Web API 2](media-formatters.md)
 - [JSON and XML Serialization in Web API](json-and-xml-serialization.md)
 - [BSON Support in Web API 2.1](bson-support-in-web-api-21.md)

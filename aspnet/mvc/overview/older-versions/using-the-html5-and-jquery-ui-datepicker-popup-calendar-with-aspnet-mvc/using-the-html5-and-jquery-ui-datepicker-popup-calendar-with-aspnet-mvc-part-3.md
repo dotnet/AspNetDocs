@@ -15,7 +15,6 @@ by [Rick Anderson]((https://twitter.com/RickAndMSFT))
 
 > This tutorial will teach you the basics of how to work with editor templates, display templates, and the jQuery UI datepicker popup calendar in an ASP.NET MVC Web application.
 
-
 ## Working with Complex Types
 
 In this section you'll create an address class and learn how to create a template to display it.

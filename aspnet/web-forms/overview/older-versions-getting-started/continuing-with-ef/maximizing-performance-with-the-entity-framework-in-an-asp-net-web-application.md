@@ -15,7 +15,6 @@ by [Tom Dykstra](https://github.com/tdykstra)
 
 > This tutorial series builds on the Contoso University web application that is created by the [Getting Started with the Entity Framework 4.0](https://asp.net/entity-framework/tutorials#Getting%20Started) tutorial series. If you didn't complete the earlier tutorials, as a starting point for this tutorial you can [download the application](https://code.msdn.microsoft.com/ASPNET-Web-Forms-97f8ee9a) that you would have created. You can also [download the application](https://code.msdn.microsoft.com/ASPNET-Web-Forms-6c7197aa) that is created by the complete tutorial series. If you have questions about the tutorials, you can post them to the [ASP.NET Entity Framework forum](https://forums.asp.net/1227.aspx).
 
-
 In the previous tutorial, you saw how to handle concurrency conflicts. This tutorial shows options for improving the performance of an ASP.NET web application that uses the Entity Framework. You'll learn several methods for maximizing performance or for diagnosing performance problems.
 
 Information presented in the following sections is likely to be useful in a broad variety of scenarios:
@@ -37,7 +36,6 @@ Information presented in the following section is potentially useful for applica
 > Web application performance is affected by many factors, including things like the size of request and response data, the speed of database queries, how many requests the server can queue and how quickly it can service them, and even the efficiency of any client-script libraries you might be using. If performance is critical in your application, or if testing or experience shows that application performance isn't satisfactory, you should follow normal protocol for performance tuning. Measure to determine where performance bottlenecks are occurring, and then address the areas that will have the greatest impact on overall application performance.
 > 
 > This topic focuses mainly on ways in which you can potentially improve the performance specifically of the Entity Framework in ASP.NET. The suggestions here are useful if you determine that data access is one of the performance bottlenecks in your application. Except as noted, the methods explained here shouldn't be considered &quot;best practices&quot; in general — many of them are appropriate only in exceptional situations or to address very specific kinds of performance bottlenecks.
-
 
 To start the tutorial, start Visual Studio and open the Contoso University web application that you were working with in the previous tutorial.
 
@@ -173,7 +171,6 @@ As an alternative, the IntelliTrace feature in Visual Studio Ultimate provides a
 > [!NOTE]
 > You can perform the following procedures only if you have Visual Studio Ultimate.
 
-
 Restore the original code in the `GetDepartmentsByName` method, and then run the *Departments.aspx* page in the debugger.
 
 In Visual Studio, select the **Debug** menu, then **IntelliTrace**, and then **IntelliTrace Events**.
@@ -213,14 +210,12 @@ The query from Departments has become a simple `Select` query with no `Join` cla
 > [!NOTE]
 > If you leave lazy loading enabled, the pattern you see here, with the same query repeated many times, might result from lazy loading. A pattern that you typically want to avoid is lazy-loading related data for every row of the primary table. Unless you've verified that a single join query is too complex to be efficient, you'd typically be able to improve performance in such cases by changing the primary query to use eager loading.
 
-
 ## Pre-Generating Views
 
 When an `ObjectContext` object is first created in a new application domain, the Entity Framework generates a set of classes that it uses to access the database. These classes are called *views*, and if you have a very large data model, generating these views can delay the web site's response to the first request for a page after a new application domain is initialized. You can reduce this first-request delay by creating the views at compile time rather than at run time.
 
 > [!NOTE]
 > If your application doesn't have an extremely large data model, or if it does have a large data model but you aren't concerned about a performance problem that affects only the very first page request after IIS is recycled, you can skip this section. View creation doesn't happen every time you instantiate an `ObjectContext` object, because the views are cached in the application domain. Therefore, unless you're frequently recycling your application in IIS, very few page requests would benefit from pre-generated views.
-
 
 You can pre-generate views using the *EdmGen.exe* command-line tool or by using a *Text Template Transformation Toolkit* (T4) template. In this tutorial you'll use a T4 template.
 

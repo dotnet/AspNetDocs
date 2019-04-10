@@ -16,7 +16,6 @@ by [Mike Wasson](https://github.com/MikeWasson)
 
 > This article describes the routing conventions that Web API 2 in ASP.NET 4.x uses for OData endpoints.
 
-
 When Web API gets an OData request, it maps the request to a controller name and an action name. The mapping is based on the HTTP method and the URI. For example, `GET /odata/Products(1)` maps to `ProductsController.GetProduct`.
 
 In part 1 of this article, I describe the built-in OData routing conventions. These conventions are designed specifically for OData endpoints, and they replace the default Web API routing system. (The replacement happens when you call **MapODataRoute**.)
@@ -47,7 +46,6 @@ So this path picks out the supplier of product 1.
 
 > [!NOTE]
 > OData path segments do not always correspond to URI segments. For example, "1" is considered a path segment.
-
 
 **Controller Names.** The controller name is always derived from the entity set at the root of the resource path. For example, if the resource path is `/Products(1)/Supplier`, Web API looks for a controller named `ProductsController`.
 

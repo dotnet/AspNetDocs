@@ -13,7 +13,6 @@ msc.type: chapter
 
 > How to work with SQL Server Express to add database capabilities to your ASP.NET applications.
 
-
 - [What is a Database](what-is-a-database.md)
 - [Understanding Database Tables and Records](understanding-database-tables-and-records.md)
 - [More about Column Data Types and Other Properties](more-about-column-data-types-and-other-properties.md)

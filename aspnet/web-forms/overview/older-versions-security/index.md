@@ -13,7 +13,6 @@ msc.type: chapter
 
 > Security, authentication, and authorization topics for ASP.NET 4 and earlier Web Forms applications.
 
-
 - [ASP.NET 3.5 - Introduction to Security](introduction/index.md)
 
     - [Security Basics and ASP.NET Support (C#)](introduction/security-basics-and-asp-net-support-cs.md)

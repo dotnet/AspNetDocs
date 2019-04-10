@@ -17,7 +17,6 @@ by [Erik Reitan](https://github.com/Erikre)
 
 > This tutorial series will teach you the basics of building an ASP.NET Web Forms application using ASP.NET 4.5 and Microsoft Visual Studio Express 2013 for Web. A Visual Studio 2013 [project with C# source code](https://go.microsoft.com/fwlink/?LinkID=389434&clcid=0x409) is available to accompany this tutorial series.
 
-
 In this tutorial, you will modify the UI of the default Web application to support features of the Wingtip Toys store front application. Also, you will add simple and data bound navigation. This tutorial builds on the previous tutorial "Create the Data Access Layer" and is part of the Wingtip Toys tutorial series.
 
 ## What you'll learn:
@@ -69,7 +68,6 @@ If you do not include an `@Page` directive in the page, or if the directive does
 > [!NOTE] 
 > 
 > The *Machine.config* also provides details about all possible configuration settings.
-
 
 ### Web Server Controls
 
@@ -175,7 +173,6 @@ In this tutorial, you will change look and feel of the Wingtip Toys application 
 > 
 > The ASP.NET Web Application template uses the *Bundle.config* file at the root of the project to store the path of the Bootstrap CSS files.
 
-
 ### Modifying the Default Navigation
 
 The default navigation for every page in the application can be modified by changing the unordered navigation list element that's in the *Site.Master* page.
@@ -190,7 +187,6 @@ As you can see in the above HTML, you modified each line item `<li>` containing 
 > [!NOTE] 
 > 
 > The tilde (`~`) character is used to specify that the `href` path begins at the root of the project.
-
 
 ### Adding a Data Control to Display Navigation Data
 
@@ -209,7 +205,6 @@ This code will display all the categories from the database. The **ListView** co
 > **Tip**
 > 
 > When you add code by typing during development, you can be certain that a valid member of an object is found because strongly typed data controls show the available members based on IntelliSense. IntelliSense offers context-appropriate code choices as you type code, such as properties, methods, and objects.
-
 
 In the next step, you will implement the `GetCategories` method to retrieve data.
 
@@ -247,7 +242,6 @@ Open the *Web.config* file and look at the connection string section. You can se
 > [!NOTE] 
 > 
 > If the *App\_Data* folder is not visible or if the folder is empty, select the **Refresh** icon and then the **Show All Files** icon at the top of the **Solution Explorer** window. Expanding the width of the **Solution Explorer** windows may be required to show all available icons.
-
 
 Now you can inspect the data contained in the *wingtiptoys.mdf* database file by using the **Server Explorer** window.
 

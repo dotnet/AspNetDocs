@@ -76,7 +76,6 @@ Many browsers limit how many cookies they will store&#8212;both the total number
 > [!NOTE]
 > RFC 6265 does not define the structure of cookie data.
 
-
 Using the **CookieHeaderValue** class, you can pass a list of name-value pairs for the cookie data. These name-value pairs are encoded as URL-encoded form data in the Set-Cookie header:
 
 [!code-csharp[Main](http-cookies/samples/sample8.cs)]

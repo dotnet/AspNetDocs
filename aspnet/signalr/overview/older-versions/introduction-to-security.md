@@ -17,7 +17,6 @@ by [Patrick Fletcher](https://github.com/pfletcher), [Tom FitzMacken](https://gi
 
 > This article describes the security issues you must consider when developing a SignalR application.
 
-
 ## Overview
 
 This document contains the following sections:

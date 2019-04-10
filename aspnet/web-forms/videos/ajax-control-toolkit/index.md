@@ -13,7 +13,6 @@ msc.type: chapter
 
 > How to create very responsive ASP.NET Web pages using the Ajax Control Toolkit.
 
-
 - [Get Started with the ASP.NET AJAX Control Toolkit](how-do-i-get-started-with-the-aspnet-ajax-control-toolkit.md)
 - [ASP.NET AJAX CascadingDropDown Control Extender](how-do-i-use-the-aspnet-ajax-cascadingdropdown-control-extender.md)
 - [ASP.NET AJAX TextBoxWatermark Control Extender](how-do-i-use-the-aspnet-ajax-textboxwatermark-control-extender.md)

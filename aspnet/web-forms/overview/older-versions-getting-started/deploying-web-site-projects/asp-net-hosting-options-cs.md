@@ -17,7 +17,6 @@ by [Scott Mitchell](https://twitter.com/ScottOnWriting)
 
 > ASP.NET web applications are typically designed, created, and tested in a local development environment and need to be deployed to a production environment once it is ready for release. This tutorial provides a high-level overview of the deployment process and serves as an introduction to this tutorial series.
 
-
 ## Introduction
 
 Web applications are typically designed, created, and tested in a development environment that is accessible only to the programmers working on the site. Once the application is ready to be released, it is moved to a production environment where the site can be accessed by anyone on the Internet. This deployment process introduces a number of challenges:
@@ -51,7 +50,6 @@ The configuration information for a web application is typically located in the 
 
 In addition to web application configuration changes, Step 1 also may entail configuration for the web server and database. For example, if an ASP.NET page creates or deletes files from a directory on the web server then the web server needs to be configured to permit these file system modifications. Similarly, there may be permission or authentication settings that need to be made to the database.
 
-
 Step 2 involves synchronizing the set of essential ASP.NET pages and support files between the development and production environments. The particular set of ASP.NET-related files that need to be synchronized between the two environments depends on the type of project you created in Visual Studio, and is the discussion in the next tutorial, [*Determining What Files Need to Be Deployed*](determining-what-files-need-to-be-deployed-cs.md). The third and fourth tutorials - [*Deploying Your Site Using FTP*](deploying-your-site-using-an-ftp-client-cs.md) and [*Deploying Your Site Using Visual Studio*](deploying-your-site-using-visual-studio-cs.md) - examine different tools and techniques for syncing these files.
 
 When building data-driven applications there are typically two databases being used: one for development and one on production. During development, the development database's schema may be modified to include new tables, columns, stored procedures, and triggers, or may be modified to remove or rename existing database objects. Between the time that these changes are made and the time the application is deployed to production, the development and production databases are out of sync. This asynchrony needs to be fixed during the deployment process. These challenges will be examined in future tutorials.
@@ -63,7 +61,6 @@ ASP.NET applications can be deployed to any web server that has the .NET Framewo
 > [!NOTE]
 > [IIS](https://www.iis.net/) is Microsoft's enterprise-grade web server. It ships with the non-Home editions of Windows, such as Windows Server 2008 and certain editions of Windows Vista. You do not need to install IIS to serve ASP.NET applications in a development environment, as Visual Studio includes the ASP.NET Development Web Server. However, the ASP.NET Development Web Server only accepts local connections and therefore cannot be used in a production environment.
 
-
 Before you can deploy your site to a web host provider you must first decide what company to do business with. There are countless web hosting companies in the marketplace; a search for "web hosting company" returns more than five million results. How do you find the one that's right for you? Your favorite search engine is a good starting place, as are websites like [TopHosts](http://www.tophosts.com/) and [HostCritique](http://www.hostcritique.net/), which compare and contrast various hosting services. I also advise asking your colleagues and coworkers for any recommendations; you can also ask for recommendations at the [Hosting Open Forum](https://forums.asp.net/158.aspx) here at the [ASP.NET Forums](https://forums.asp.net/).
 
 Web hosting companies typically offer shared hosting plans and dedicated hosting plans. With shared hosting a single web server hosts dozens if not hundreds of different websites. With dedicated hosting you lease a computer from the company that serves your site and your site alone. A shared hosting plan might include support for ASP.NET pages, the ability to work with Microsoft Access databases, 5 GB of disk space, and 100 GB of monthly bandwidth traffic for $9.95 per month. Another shared hosting plan might include support for ASP.NET pages, access to the Microsoft SQL Server 2008 database server, 10 GB of disk space and 250 GB of monthly bandwidth traffic for $19.95 per month. Dedicated hosting plans are usually much more expensive, costing several hundred dollars per month, but offer better performance and more control than shared hosting options. What plan you choose depends on your budget, how much traffic your website receives, and the features you anticipate you'll need.
@@ -72,7 +69,6 @@ Two important considerations when choosing a web host provider are customer serv
 
 > [!NOTE]
 > Some web hosting companies focus their business on a particular technology stack, such as .NET or [LAMP](http://en.wikipedia.org/wiki/LAMP_stack) (**L** inux, **A** pache, **M** ySQL, and **P** HP), so make sure that the company you select hosts ASP.NET applications. Also check to ensure that they support the version of ASP.NET you are using to build your application. And if you are building a data-driven application, make sure that the web host offers the same database server and version that you are using.
-
 
 ## Summary
 

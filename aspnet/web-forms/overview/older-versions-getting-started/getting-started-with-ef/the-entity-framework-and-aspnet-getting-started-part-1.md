@@ -38,7 +38,6 @@ by [Tom Dykstra](https://github.com/tdykstra)
 > 
 > If you have questions that are not directly related to the tutorial, you can post them to the [ASP.NET Entity Framework forum](https://forums.asp.net/1227.aspx), the [Entity Framework and LINQ to Entities forum](https://social.msdn.microsoft.com/forums/adodotnetentityframework/threads/), or [StackOverflow.com](http://stackoverflow.com/).
 
-
 ## Overview
 
 The application you'll be building in these tutorials is a simple university website.

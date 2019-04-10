@@ -17,7 +17,6 @@ by [Tom Dykstra](https://github.com/tdykstra)
 
 > This tutorial series shows you how to deploy (publish) an ASP.NET web application to Azure App Service Web Apps or to a third-party hosting provider, by using Visual Studio 2012 or Visual Studio 2010. For information about the series, see [the first tutorial in the series](introduction.md).
 
-
 ## Overview
 
 In this tutorial, you set up a Microsoft Azure account, create staging and production environments, and deploy your ASP.NET web application to the staging and production environments by using the Visual Studio one-click publish feature.
@@ -35,7 +34,6 @@ If you don't already have an Azure account, you can create a free trial account 
 > [!NOTE]
 > Since this tutorial was written, Azure App Service added a new feature to automate many of the processes for creating staging and production environments. See [Set up staging environments for web apps in Azure App Service](https://azure.microsoft.com/documentation/articles/web-sites-staged-publishing/).
 
-
 As explained in the [Deploy to the Test Environment tutorial](deploying-to-iis.md), the most reliable test environment is a web site at the hosting provider that's just like the production web site. At many hosting providers you would have to weigh the benefits of this against significant additional cost, but in Azure you can create an additional free web app as your staging app. You also need a database, and the additional expense for that over the expense of your production database will be either none or minimal. In Azure you pay for the amount of database storage you use rather than for each database, and the amount of additional storage you'll use in staging will be minimal.
 
 As explained in the [Deploy to the Test Environment tutorial](deploying-to-iis.md), in staging and production you're going to deploy your two databases into one database. If you wanted to keep them separate, the process would be the same except that you'd create an additional database for each environment and you would select the correct destination string for each database when you create the publish profile.
@@ -44,7 +42,6 @@ In this section of the tutorial you'll create a web app and database to use for 
 
 > [!NOTE]
 > The following steps show how to create a web app in Azure App Service by using the Azure management portal. In the latest version of the Azure SDK, you can also do this without leaving Visual Studio, by using Server Explorer. In Visual Studio 2013, you can also create a web app directly from the Publish dialog. For more information, see [Create an ASP.NET web app in Azure App Service.](https://docs.microsoft.com/azure/app-service-web/app-service-web-get-started-dotnet)
-
 
 1. In the [Azure Management Portal](https://manage.windowsazure.com/), click **Websites**, and then click **New**.
 2. Click **Website**, and then click **Custom Create**.
@@ -91,7 +88,6 @@ Now that you have created a web app and database for the staging environment, yo
 
 > [!NOTE]
 > These instructions show how to create a publish profile by downloading a *.publishsettings* file, which works not only for Azure but also for third-party hosting providers. The latest Azure SDK also enables you to connect directly to Azure from Visual Studio, and choose from a list of web apps that you have in your Azure account. In Visual Studio 2013, you can sign in to Azure from the **Web Publish** dialog or from the **Server Explorer** window. For more information, see [Create an ASP.NET web app in Azure App Service](https://docs.microsoft.com/azure/app-service-web/app-service-web-get-started-dotnet).
-
 
 ### Download the .publishsettings file
 
@@ -159,7 +155,6 @@ Now that you have created a web app and database for the staging environment, yo
 
 > [!NOTE]
 > This section shows how to set up a Web.config transform for the environment indicator. Because the indicator is in the `<appSettings>` element, you have another alternative for specifying the transformation when you're deploying to Azure App Service. For more information, see [Specifying Web.config settings in Azure](web-config-transformations.md#watransforms).
-
 
 1. In **Solution Explorer**, expand **Properties**, and then expand **PublishProfiles**.
 2. Right-click *Staging.pubxml*, and then click **Add Config Transform**.

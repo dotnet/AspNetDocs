@@ -29,7 +29,6 @@ by [Jason Lee](https://github.com/jrjlee)
 > 
 > For an Italian translation of these tutorials, visit [http://www.lucamorelli.it](http://www.lucamorelli.it).
 
-
 ## About the Authors
 
 Jason Lee is a principal technologist with [Content Master](http://www.contentmaster.com/) where he has been working with Microsoft products and technologies, especially SharePoint and ASP.NET, for several years. Jason holds a PhD in computing and is currently MCPD and MCTS certified. You can read Jason's technical blog at [www.jrjlee.com](http://www.jrjlee.com/).

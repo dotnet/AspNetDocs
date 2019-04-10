@@ -13,6 +13,5 @@ msc.type: chapter
 
 > This tutorial shows how to use the Rating control to let users enter ratings for articles or items.
 
-
 - [Creating a Rating Control (C#)](creating-a-rating-control-cs.md)
 - [Creating a Rating Control (VB)](creating-a-rating-control-vb.md)

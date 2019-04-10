@@ -21,7 +21,6 @@ by [Jason Lee](https://github.com/jrjlee)
 > - How the Internet Information Services (IIS) Web Deployment Tool (Web Deploy) turns your web application into a deployment package.
 > - How the build and packaging process works and what files are created.
 
-
 In Visual Studio 2010, the build and deployment process for web application projects is supported by the WPP. The WPP provides a set of Microsoft Build Engine (MSBuild) targets that extend the functionality of MSBuild and enable it to integrate with Web Deploy. Within Visual Studio, you can see this extended functionality on the property pages for your web application project. The **Package/Publish Web** page, together with the **Package/Publish SQL** page, lets you configure how your web application project is packaged for deployment when the build process is complete.
 
 ![](building-and-packaging-web-application-projects/_static/image1.png)
@@ -30,17 +29,13 @@ In Visual Studio 2010, the build and deployment process for web application proj
 
 If you take a look at the project file for a C#-based web application project, you can see that it imports two .targets files.
 
-
 [!code-xml[Main](building-and-packaging-web-application-projects/samples/sample1.xml)]
-
 
 The first **Import** statement is common to all Visual C# projects. This file, *Microsoft.CSharp.targets*, contains targets and tasks that are specific to Visual C#. For example, the C# compiler (**Csc**) task is invoked here. The *Microsoft.CSharp.targets* file in turn imports the *Microsoft.Common.targets* file. This defines targets that are common to all projects, like **Build**, **Rebuild**, **Run**, **Compile**, and **Clean**. The second **Import** statement is specific to web application projects. The *Microsoft.WebApplication.targets* file in turn imports the *Microsoft.Web.Publishing.targets* file. The *Microsoft.Web.Publishing.targets* file essentially *is* the WPP. It defines targets, like **Package** and **MSDeployPublish**, that invoke Web Deploy to complete various deployment tasks.
 
 To understand how these additional targets are used, in the Contact Manager sample solution, open the *Publish.proj* file and take a look at the **BuildProjects** target.
 
-
 [!code-xml[Main](building-and-packaging-web-application-projects/samples/sample2.xml)]
-
 
 This target uses the **MSBuild** task to build various projects. Notice the **DeployOnBuild** and **DeployTarget** properties:
 
@@ -52,7 +47,6 @@ The **Package** target is defined in the *Microsoft.Web.Publishing.targets* file
 > [!NOTE]
 > To view a project file (for example, <em>ContactManager.Mvc.csproj</em>) in Visual Studio 2010, you first need to unload the project from your solution. In the <strong>Solution Explorer</strong> window, right-click the project node, and then click <strong>Unload Project</strong>. Right-click the project node again, and then click <strong>Edit</strong><em>[project file]</em>). The project file will open in its raw XML form. Remember to reload the project when you're done.  
 > For more information on MSBuild targets, tasks, and <strong>Import</strong> statements, see [Understanding the Project File](understanding-the-project-file.md). For a more in-depth introduction to project files and the WPP, see [Inside the Microsoft Build Engine: Using MSBuild and Team Foundation Build](http://amzn.com/0735645248) by Sayed Ibrahim Hashimi and William Bartholomew, ISBN: 978-0-7356-4524-0.
-
 
 ## What Is a Web Deployment Package?
 
@@ -81,7 +75,6 @@ The *SetParameters.xml* file is key to managing the deployment process. This fil
 
 > [!NOTE]
 > In Visual Studio 2010, the WPP does not support precompiling the pages in a web application prior to packaging. The next version of Visual Studio and the WPP will include the ability to precompile a web application as a packaging option.
-
 
 ## Conclusion
 

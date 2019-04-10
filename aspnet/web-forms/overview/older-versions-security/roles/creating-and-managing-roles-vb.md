@@ -17,7 +17,6 @@ by [Scott Mitchell](https://twitter.com/ScottOnWriting)
 
 > This tutorial examines the steps necessary for configuring the Roles framework. Following that, we will build web pages to create and delete roles.
 
-
 ## Introduction
 
 In the <a id="_msoanchor_1"></a>[*User-Based Authorization*](../membership/user-based-authorization-vb.md) tutorial we looked at using URL authorization to restrict certain users from a set of pages and explored declarative and programmatic techniques for adjusting an ASP.NET page's functionality based on the visiting user. Granting permission for page access or functionality on a user-by-user basis, however, can become a maintenance nightmare in scenarios where there are many user accounts or when users' privileges change often. Any time a user gains or loses authorization to perform a particular task, the administrator needs to update the appropriate URL authorization rules, declarative markup, and code.
@@ -41,11 +40,9 @@ Start by creating a new folder in the project named `Roles`. Next, add four new 
 
 At this point your project's Solution Explorer should look similar to the screen shot shown in Figure 1.
 
-
 [![Four New Pages Have Been Added to the Roles Folder](creating-and-managing-roles-vb/_static/image2.png)](creating-and-managing-roles-vb/_static/image1.png)
 
 **Figure 1**: Four New Pages Have Been Added to the `Roles` Folder  ([Click to view full-size image](creating-and-managing-roles-vb/_static/image3.png))
-
 
 Each page should, at this point, have the two Content controls, one for each of the master page's ContentPlaceHolders: `MainContent` and `LoginContent`.
 
@@ -61,11 +58,9 @@ Finally, let's update the site map (`Web.sitemap`) to include these new web page
 
 With the site map updated, visit the site through a browser. As Figure 2 shows, the navigation on the left now includes items for the Roles tutorials.
 
-
 [![Four New Pages Have Been Added to the Roles Folder](creating-and-managing-roles-vb/_static/image5.png)](creating-and-managing-roles-vb/_static/image4.png)
 
 **Figure 2**: Four New Pages Have Been Added to the `Roles` Folder  ([Click to view full-size image](creating-and-managing-roles-vb/_static/image6.png))
-
 
 ## Step 2: Specifying and Configuring the Roles Framework Provider
 
@@ -101,7 +96,6 @@ With this configuration markup in place, we are ready to start using role functi
 > [!NOTE]
 > The above configuration markup illustrates using the `<roleManager>` element's `enabled` and `defaultProvider` attributes. There are a number of other attributes that affect how the Roles framework associates role information on a user-by-user basis. We will examine these settings in the <a id="_msoanchor_8"></a>[*Role-Based Authorization*](role-based-authorization-vb.md) tutorial.
 
-
 ## Step 3: Examining the Roles API
 
 The Roles framework's functionality is exposed via the [`Roles` class](https://msdn.microsoft.com/library/system.web.security.roles.aspx), which contains thirteen shared methods for performing role-based operations. When we look at creating and deleting roles in Steps 4 and 6 we will use the [`CreateRole`](https://msdn.microsoft.com/library/system.web.security.roles.createrole.aspx) and [`DeleteRole`](https://msdn.microsoft.com/library/system.web.security.roles.deleterole.aspx) methods, which add or remove a role from the system.
@@ -115,7 +109,6 @@ In the <a id="_msoanchor_9"></a>[*Role-Based Authorization*](role-based-authoriz
 > [!NOTE]
 > Keep in mind that any time one of these methods is invoked, the `Roles` class delegates the call to the configured provider. In our case, this means that the call is being sent to the `SqlRoleProvider`. The `SqlRoleProvider` then performs the appropriate database operation based on the invoked method. For example, the code `Roles.CreateRole("Administrators")` results in the `SqlRoleProvider` executing the `aspnet_Roles_CreateRole` stored procedure, which inserts a new record into the `aspnet_Roles` table named Administrators .
 
-
 The remainder of this tutorial looks at using the `Roles` class's `CreateRole`, `GetAllRoles`, and `DeleteRole` methods to manage the roles in the system.
 
 ## Step 4: Creating New Roles
@@ -124,7 +117,6 @@ Roles offer a way to arbitrarily group users, and most commonly this grouping is
 
 > [!NOTE]
 > While there is no CreateRoleWizard Web control, there is the [ASP.NET Web Site Administration Tool](https://msdn.microsoft.com/library/ms228053.aspx), which is a local ASP.NET application designed to assist with viewing and managing your web application's configuration. However, I am not a big fan of the ASP.NET Web Site Administration Tool for two reasons. First, it is a bit buggy and the user experience leaves a lot to be desired. Second, the ASP.NET Web Site Administration Tool is designed to only work locally, meaning that you will have to build your own role management web pages if you need to manage roles on a live site remotely. For these two reasons, this tutorial and the next will focus on building the necessary role management tools in a web page rather than relying on the ASP.NET Web Site Administration Tool.
-
 
 Open the `ManageRoles.aspx` page in the `Roles` folder and add a TextBox and a Button Web control to the page. Set the TextBox control's `ID` property to `RoleName` and the Button's `ID` and `Text` properties to `CreateRoleButton` and Create Role, respectively. At this point, your page's declarative markup should look similar to the following:
 
@@ -139,22 +131,17 @@ The above code starts by assigning the trimmed role name entered in the `RoleNam
 > [!NOTE]
 > You may be wondering what will happen if the user doesn't enter any value into the `RoleName` TextBox. If the value passed into the `CreateRole` method is `Nothing` or an empty string, an exception is raised. Likewise, if the role name contains a comma an exception is raised. Consequently, the page should contain validation controls to ensure that the user enters a role and that it does not contain any commas. I leave as an exercise for the reader.
 
-
 Let's create a role named Administrators. Visit the `ManageRoles.aspx` page through a browser, type in Administrators into the textbox (see Figure 3), and then click the Create Role button.
-
 
 [![Create an Administrators Role](creating-and-managing-roles-vb/_static/image8.png)](creating-and-managing-roles-vb/_static/image7.png)
 
 **Figure 3**: Create an Administrators Role  ([Click to view full-size image](creating-and-managing-roles-vb/_static/image9.png))
 
-
 What happens? A postback occurs, but there's no visual cue that the role has actually been added to the system. We will update this page in Step 5 to include visual feedback. For now, however, you can verify that the role was created by going to the `SecurityTutorials.mdf` database and displaying the data from the `aspnet_Roles` table. As Figure 4 shows, the `aspnet_Roles` table contains a record for the just-added Administrators roles.
-
 
 [![The aspnet_Roles Table has a Row for the Administrators](creating-and-managing-roles-vb/_static/image11.png)](creating-and-managing-roles-vb/_static/image10.png)
 
 **Figure 4**: The `aspnet_Roles` Table has a Row for the Administrators  ([Click to view full-size image](creating-and-managing-roles-vb/_static/image12.png))
-
 
 ## Step 5: Displaying the Roles in the System
 
@@ -168,11 +155,9 @@ The `Roles` class's `GetAllRoles` method returns all of the roles in the system 
 
 With this code in place, visit the page through a browser. As Figure 5 shows, you should see a grid with a single column labeled Item. The grid includes a row for the Administrators role we added in Step 4.
 
-
 [![The GridView Displays the Roles in a Single Column](creating-and-managing-roles-vb/_static/image14.png)](creating-and-managing-roles-vb/_static/image13.png)
 
 **Figure 5**: The GridView Displays the Roles in a Single Column  ([Click to view full-size image](creating-and-managing-roles-vb/_static/image15.png))
-
 
 The GridView displays a lone column labeled Item because the GridView's `AutoGenerateColumns` property is set to True (the default), which causes the GridView to automatically create a column for each property in its `DataSource`. An array has a single property that represents the elements in the array, hence the single column in the GridView.
 
@@ -189,18 +174,15 @@ Regardless of what approach you use, the GridView's resulting declarative markup
 > [!NOTE]
 > The array's contents are displayed using the databinding syntax `<%# Container.DataItem %>`. A thorough description of why this syntax is used when displaying the contents of an array bound to the GridView is beyond the scope of this tutorial. For more information on this matter, refer to [Binding a Scalar Array to a Data Web Control](http://aspnet.4guysfromrolla.com/articles/082504-1.aspx).
 
-
 Currently, the `RoleList` GridView is only bound to the list of roles when the page is first visited. We need to refresh the grid whenever a new role is added. To accomplish this, update the `CreateRoleButton` Button's `Click` event handler so that it calls the `DisplayRolesInGrid` method if a new role is created.
 
 [!code-vb[Main](creating-and-managing-roles-vb/samples/sample11.vb)]
 
 Now when the user adds a new role the `RoleList` GridView shows the just-added role on postback, providing visual feedback that the role was successfully created. To illustrate this, visit the `ManageRoles.aspx` page through a browser and add a role named Supervisors. Upon clicking the Create Role button, a postback will ensue and the grid will update to include Administrators as well as the new role, Supervisors.
 
-
 [![The Supervisors Role has Been Added](creating-and-managing-roles-vb/_static/image17.png)](creating-and-managing-roles-vb/_static/image16.png)
 
 **Figure 6**: The Supervisors Role has Been Added  ([Click to view full-size image](creating-and-managing-roles-vb/_static/image18.png))
-
 
 ## Step 6: Deleting Roles
 
@@ -213,11 +195,9 @@ The `DeleteRole` method will also throw an exception if *roleName* is `Nothing` 
 
 Let's augment the GridView in `ManageRoles.aspx` to include a Delete button that, when clicked, deletes the selected role. Start by adding a Delete button to the GridView by going to the Fields dialog box and adding a Delete button, which is located under the CommandField option. Make the Delete button the far left column and set its `DeleteText` property to Delete Role .
 
-
 [![Add a Delete Button to the RoleList GridView](creating-and-managing-roles-vb/_static/image20.png)](creating-and-managing-roles-vb/_static/image19.png)
 
 **Figure 7**: Add a Delete Button to the `RoleList` GridView  ([Click to view full-size image](creating-and-managing-roles-vb/_static/image21.png))
-
 
 After adding the Delete button, your GridView's declarative markup should look similar to the following:
 
@@ -231,7 +211,6 @@ The code starts by programmatically referencing the `RoleNameLabel` Web control 
 
 > [!NOTE]
 > The Delete Role button does not require any sort of confirmation from the user before deleting the role. One of the easiest ways to confirm an action is through a client-side confirm dialog box. For more information on this technique, see [Adding Client-Side Confirmation When Deleting](https://asp.net/learn/data-access/tutorial-42-vb.aspx).
-
 
 ## Summary
 

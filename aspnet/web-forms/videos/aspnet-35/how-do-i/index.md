@@ -13,7 +13,6 @@ msc.type: chapter
 
 > This multi-part video series shows you how to take advantage of new features in ASP.NET 3.5 and Visual Studio 2008.
 
-
 - [Create a Master Page in Visual Studio 2008](how-do-i-create-a-master-page-in-visual-studio-2008.md)
 - [Create Nested Master Page in Visual Studio 2008](how-do-i-create-nested-master-page-in-visual-studio-2008.md)
 - [Cascading Style Sheets in Visual Studio 2008](how-do-i-cascading-style-sheets-in-visual-studio-2008.md)

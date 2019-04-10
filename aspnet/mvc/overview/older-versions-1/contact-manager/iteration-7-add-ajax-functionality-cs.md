@@ -17,7 +17,6 @@ by [Microsoft](https://github.com/microsoft)
 
 > In the seventh iteration, we improve the responsiveness and performance of our application by adding support for Ajax.
 
-
 ## Building a Contact Management ASP.NET MVC Application (C#)
 
 In this series of tutorials, we build an entire Contact Management application from start to finish. The Contact Manager application enables you to store contact information - names, phone numbers and email addresses - for a list of people.
@@ -86,11 +85,9 @@ Add the following JavaScript includes inside the &lt;head&gt; tag of your view m
 
 Let s start by modifying our Index view so that clicking a contact group only updates the region of the view that displays contacts. The red box in Figure 1 contains the region that we want to update.
 
-
 [![Updating only contacts](iteration-7-add-ajax-functionality-cs/_static/image1.jpg)](iteration-7-add-ajax-functionality-cs/_static/image1.png)
 
 **Figure 01**: Updating only contacts([Click to view full-size image](iteration-7-add-ajax-functionality-cs/_static/image2.png))
-
 
 The first step is to separate the part of the view that we want to update asynchronously into a separate partial (view user control). The section of the Index view that displays the table of contacts has been moved into the partial in Listing 1.
 
@@ -126,9 +123,7 @@ Notice that the Index() action does not need to return as much data when invoked
 
 Our modified Index view works in the case of both uplevel and downlevel browsers. If you click a contact group, and your browser supports JavaScript, then only the region of the view that contains the list of contacts is updated. If, on the other hand, your browser does not support JavaScript, then the entire view is updated.
 
-
 Our updated Index view has one problem. When you click a contact group, the selected group is not highlighted. Because the list of groups is displayed outside of the region that is updated during an Ajax request, the right group does not get highlighted. We'll fix this issue in the next section.
-
 
 ## Adding jQuery Animation Effects
 
@@ -186,11 +181,9 @@ When a user hits the browser Back or Forward button, the navigate event is raise
 
 Currently, in order to delete a contact, you need to click on the Delete link and then click the Delete button displayed in the delete confirmation page (see Figure 2). This seems like a lot of page requests to do something simple like deleting a database record.
 
-
 [![The delete confirmation page](iteration-7-add-ajax-functionality-cs/_static/image2.jpg)](iteration-7-add-ajax-functionality-cs/_static/image3.png)
 
 **Figure 02**: The delete confirmation page([Click to view full-size image](iteration-7-add-ajax-functionality-cs/_static/image4.png))
-
 
 It is tempting to skip the delete confirmation page and delete a contact directly from the Index view. You should avoid this temptation because taking this approach opens your application to security holes. In general, you don t want to perform an HTTP GET operation when invoking an action that modifies the state of your web application. When performing a delete, you want to perform an HTTP POST, or better yet, an HTTP DELETE operation.
 
@@ -207,7 +200,6 @@ The Delete link is rendered with the following call to the Ajax.ImageActionLink(
 > [!NOTE] 
 > 
 > The Ajax.ImageActionLink() is not a standard part of the ASP.NET MVC framework. The Ajax.ImageActionLink() is a custom helper methods included in the Contact Manager project.
-
 
 The AjaxOptions parameter has two properties. First, the Confirm property is used to display a popup JavaScript confirmation dialog. Second, the HttpMethod property is used to perform an HTTP DELETE operation.
 

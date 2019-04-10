@@ -13,7 +13,6 @@ msc.type: chapter
 
 > This tutorial shows how to create animations using the Animation control and animation framework.
 
-
 - [Adding Animation to a Control (C#)](adding-animation-to-a-control-cs.md)
 - [Executing Several Animations at Same Time (C#)](executing-several-animations-at-the-same-time-cs.md)
 - [Executing Several Animations after Each Other (C#)](executing-several-animations-after-each-other-cs.md)

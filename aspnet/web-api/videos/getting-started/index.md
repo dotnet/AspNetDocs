@@ -13,7 +13,6 @@ msc.type: chapter
 
 > This is a series of videos to get you started with ASP.NET Web API.
 
-
 - [ASP.NET Web API](aspnet-web-api.md)
 - [ASP.NET Web API, Part 1: Your First Web API](your-first-web-api.md)
 - [ASP.NET Web API, Part 2: Getting Data](getting-data.md)

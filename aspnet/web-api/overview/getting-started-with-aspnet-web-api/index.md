@@ -14,7 +14,6 @@ msc.type: chapter
 
 > The basics of building an HTTP service using ASP.NET Web API
 
-
 - [Getting Started with Web API 2 (C#)](tutorial-your-first-web-api.md)
 - [Action Results in Web API 2](action-results.md)
 - [Using Web API with ASP.NET Web Forms](using-web-api-with-aspnet-web-forms.md)

@@ -25,7 +25,6 @@ by [Jason Lee](https://github.com/jrjlee)
 > 
 > In a Visual Studio 2010 database project, deployment settings are contained within a deployment configuration (.sqldeployment) file. This topic will show you how to create environment-specific deployment configuration files and specify the one you want to use as a VSDBCMD parameter.
 
-
 This topic forms part of a series of tutorials based around the enterprise deployment requirements of a fictional company named Fabrikam, Inc. This tutorial series uses a sample solution&#x2014;the [Contact Manager solution](../web-deployment-in-the-enterprise/the-contact-manager-solution.md)&#x2014;to represent a web application with a realistic level of complexity, including an ASP.NET MVC 3 application, a Windows Communication Foundation (WCF) service, and a database project.
 
 The deployment method at the heart of these tutorials is based on the split project file approach described in [Understanding the Project File](../web-deployment-in-the-enterprise/understanding-the-project-file.md), in which the build process is controlled by two project files&#x2014;one containing build instructions that apply to every destination environment, and one containing environment-specific build and deployment settings. At build time, the environment-specific project file is merged into the environment-agnostic project file to form a complete set of build instructions.
@@ -70,11 +69,9 @@ This table shows typical deployment settings for different destination environme
 | **Back up database before deployment** | False | Maybe | True |
 | **Generate DROP statements for objects that are in the target database but that are not in the database project** | False | True | True |
 | **Do not use ALTER ASSEMBLY statements to update CLR types** | False | False | False |
-  
 
 > [!NOTE]
 > For more information on database deployment properties and environment considerations, see [An Overview of Database Project Settings](https://msdn.microsoft.com/library/aa833291(v=VS.100).aspx), [How to: Configure Properties for Deployment Details](https://msdn.microsoft.com/library/dd172125.aspx), [Build and Deploy Database to an Isolated Development Environment](https://msdn.microsoft.com/library/dd193409.aspx), and [Build and Deploy Databases to a Staging or Production Environment](https://msdn.microsoft.com/library/dd193413.aspx).
-
 
 To support the deployment of a database project to multiple destinations, you should create a deployment configuration file for each target environment.
 
@@ -98,13 +95,10 @@ When you use solution configurations (like Debug and Release) within Visual Stud
 
 To specify a deployment configuration file in your VSDBCMD, use the **p:/DeploymentConfigurationFile** switch and provide the full path to your file. This will override the deployment configuration file that the deployment manifest identifies. For example, you could use this VSDBCMD command to deploy the **ContactManager** database to a test environment:
 
-
 [!code-console[Main](customizing-database-deployments-for-multiple-environments/samples/sample1.cmd)]
-
 
 > [!NOTE]
 > Note that the build process may rename your .sqldeployment file when it copies the file to the output directory.
-
 
 If you use SQL command variables in your pre-deployment or post-deployment SQL scripts, you can use a similar approach to associate an environment-specific .sqlcmdvars file with your deployment. In this case, you use the **p:/SqlCommandVariablesFile** switch to identify your .sqlcmdvars file.
 
@@ -112,9 +106,7 @@ If you use SQL command variables in your pre-deployment or post-deployment SQL s
 
 You can invoke a VSDBCMD command from an MSBuild project file by using an **Exec** task within an MSBuild target. In its simplest form, it would look like this:
 
-
 [!code-xml[Main](customizing-database-deployments-for-multiple-environments/samples/sample2.xml)]
-
 
 - In practice, to make your project files easy to read and reuse, you'll want to create properties to store the various command-line parameters. This makes it easier for users to provide property values in an environment-specific project file or to override default values from the MSBuild command line. If you use the split project file approach described in [Understanding the Project File](../web-deployment-in-the-enterprise/understanding-the-project-file.md), you should divide your build instructions and properties between the two files accordingly:
 - Environment-specific settings, like the deployment configuration filename, the database connection string, and the target database name, should go in the environment-specific project file.

@@ -13,6 +13,5 @@ msc.type: chapter
 
 > This tutorial shows how to use the CollapsiblePanel control to let users expand and collapse areas on the page.
 
-
 - [Collapsing and Expanding a Panel from JavaScript (C#)](collapsing-and-expanding-a-panel-from-javascript-cs.md)
 - [Collapsing and Expanding a Panel from JavaScript (VB)](collapsing-and-expanding-a-panel-from-javascript-vb.md)

@@ -15,18 +15,15 @@ by [Microsoft](https://github.com/microsoft)
 
 > ColorPicker is an ASP.NET AJAX extender that provides client-side color-picking functionality with UI in a popup control. It can be attached to any ASP.NET TextBox control. It.
 
-
 The goal of this tutorial is to explain how you can use the AJAX Control Toolkit ColorPicker control extender. The ColorPicker control extender displays a popup dialog that enables you to select a color. The ColorPicker is useful whenever you want to provide an intuitive user interface for a user to pick a color.
 
 ## Extending a TextBox Control with the ColorPicker Control Extender
 
 Imagine, for example, that you want to create a website that enables visitors to create customized business cards. Visitors can enter the text for a business card and pick the color. The ASP.NET page in Listing 1 contains two TextBox controls named txtCardText and txtCardColor. When you submit the form, the selected values are displayed (see Figure 1).
 
-
 [![Simple form for creating a business card](using-the-colorpicker-control-extender-cs/_static/image1.jpg)](using-the-colorpicker-control-extender-cs/_static/image1.png)
 
 **Figure 01**: Simple form for creating a business card ([Click to view full-size image](using-the-colorpicker-control-extender-cs/_static/image2.png))
-
 
 **Listing 1 - CreateCard.aspx**
 
@@ -36,11 +33,9 @@ The form in Listing 1 works, but it does not provide a great user experience. Th
 
 You can use the ColorPicker control extender to create a better user experience. The ColorPicker displays a color dialog when you move focus to a TextBox control (see Figure 2).
 
-
 [![The ColorPicker Control Extender](using-the-colorpicker-control-extender-cs/_static/image2.jpg)](using-the-colorpicker-control-extender-cs/_static/image3.png)
 
 **Figure 02**: The ColorPicker Control Extender ([Click to view full-size image](using-the-colorpicker-control-extender-cs/_static/image4.png))
-
 
 You need to complete two steps to use the ColorPicker control extender with the form in Listing 1:
 
@@ -53,16 +48,13 @@ Before you can use the ColorPicker, you must add a ScriptManager to your page. A
 
 The easiest way to add the ColorPicker control extender to the page is in Design View. If you hover your mouse over the txtCardColor TextBox, a smart task option appears the enables you to add an extender (see Figure 3). If you pick this option, the Extender Wizard appears (see Figure 4).
 
-
 [![Adding an extender](using-the-colorpicker-control-extender-cs/_static/image3.jpg)](using-the-colorpicker-control-extender-cs/_static/image5.png)
 
 **Figure 03**: Adding an extender ([Click to view full-size image](using-the-colorpicker-control-extender-cs/_static/image6.png))
 
-
 [![Selecting a control extender with the Extender Wizard](using-the-colorpicker-control-extender-cs/_static/image4.jpg)](using-the-colorpicker-control-extender-cs/_static/image7.png)
 
 **Figure 04**: Selecting a control extender with the Extender Wizard ([Click to view full-size image](using-the-colorpicker-control-extender-cs/_static/image8.png))
-
 
 You can pick the ColorPicker extender to extend the txtCardColor TextBox with the ColorPicker extender. Click OK to close the dialog.
 
@@ -95,11 +87,9 @@ The ColorPicker PopupButtonID property is used to associate the Pick Color butto
 
 The SampleControlID property is used to associate a control that displays the selected color with the ColorPicker. The ColorPicker changes the background color of this control to the currently selected color.
 
-
 [![Displaying the color picker dialog with a button](using-the-colorpicker-control-extender-cs/_static/image5.jpg)](using-the-colorpicker-control-extender-cs/_static/image9.png)
 
 **Figure 05**: Displaying the color picker dialog with a button ([Click to view full-size image](using-the-colorpicker-control-extender-cs/_static/image10.png))
-
 
 ## Summary
 

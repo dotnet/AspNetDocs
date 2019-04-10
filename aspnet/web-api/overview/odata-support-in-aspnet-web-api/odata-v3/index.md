@@ -13,7 +13,6 @@ msc.type: chapter
 
 > Use ASP.NET Web API to create endpoints that support OData Version 3.
 
-
 - [Creating an OData v3 Endpoint](creating-an-odata-endpoint.md)
 - [Supporting Entity Relations in OData v3](working-with-entity-relations.md)
 - [OData Actions in Web API 2](odata-actions.md)

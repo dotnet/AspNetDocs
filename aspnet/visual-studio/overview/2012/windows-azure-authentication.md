@@ -21,7 +21,6 @@ by [Rick Anderson]((https://twitter.com/RickAndMSFT))
 >
 > Windows Azure Active Directory is currently available as a [free preview service](https://azure.microsoft.com/free/?WT.mc_id=A443DD604).
 
-
 ## Requirements:
 
 - Visual Studio 2012 or [Visual Studio Express 2012](https://www.microsoft.com/visualstudio/11/products/express)

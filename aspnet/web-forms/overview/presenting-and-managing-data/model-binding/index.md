@@ -13,7 +13,6 @@ msc.type: chapter
 
 > How to work with data using Model Binding and Web Forms.
 
-
 - [Retrieving and Displaying Data](retrieving-data.md)
 - [Updating, Deleting, and Creating Data](updating-deleting-and-creating-data.md)
 - [Sorting, Paging, and Filtering Data](sorting-paging-and-filtering-data.md)

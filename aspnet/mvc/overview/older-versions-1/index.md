@@ -13,7 +13,6 @@ msc.type: chapter
 
 > Resources for learning how to program MVC 1 and 2.
 
-
 - [Overview](overview/index.md)
 
     - [ASP.NET MVC Overview](overview/asp-net-mvc-overview.md)

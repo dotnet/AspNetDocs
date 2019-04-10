@@ -13,7 +13,6 @@ msc.type: chapter
 
 > This tutorial will show you how to perform various tasks that are required or desirable in a lot of enterprise deployment scenarios.
 
-
 - [Advanced Enterprise Web Deployment](advanced-enterprise-web-deployment.md)
 - [Performing a "What If" Deployment](performing-a-what-if-deployment.md)
 - [Customizing Database Deployments for Multiple Environments](customizing-database-deployments-for-multiple-environments.md)

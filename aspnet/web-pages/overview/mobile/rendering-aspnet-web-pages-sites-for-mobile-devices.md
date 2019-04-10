@@ -28,7 +28,6 @@ by [Tom FitzMacken](https://github.com/tfitzmac)
 > 
 > This tutorial also works with ASP.NET Web Pages 2.
 
-
 ASP.NET Web Pages lets you create custom displays for rendering content on mobile or other devices.
 
 The simplest way to create device-specific page in an ASP.NET Web Pages site is by using a file-naming pattern like this: *FileName.Mobile.cshtml*. You can create two versions of a page (for example, one named *MyFile.cshtml* and one named *MyFile.Mobile.cshtml*). At run time, when a mobile device requests *MyFile.cshtml*, ASP.NET renders the content from *MyFile.Mobile.cshtml*. Otherwise, *MyFile.cshtml* is rendered.
@@ -49,9 +48,7 @@ The following example shows how to enable mobile rendering by adding a content p
 > [!NOTE]
 > To test mobile pages, you can use a mobile device simulator that runs on a desktop computer. This tool lets you test web pages as they would look on mobile devices (that is, typically with a much smaller display area). One example of a simulator is the [User Agent Switcher add-on](http://addons.mozilla.org/firefox/addon/user-agent-switcher/) for Mozilla Firefox, which lets you emulate various mobile browsers from a desktop version of Firefox.
 
-
 <a id="Additional_Resources"></a>
 ## Additional Resources
-
 
 [Windows Phone Emulator](https://msdn.microsoft.com/library/ff402563(v=VS.92).aspx)

@@ -26,7 +26,6 @@ by [Mike Wasson](https://github.com/MikeWasson)
 > - [Azure SDK for .NET 2.3](https://azure.microsoft.com/downloads/)
 > - [Microsoft.Owin.Selfhost 2.1.0](http://www.nuget.org/packages/Microsoft.Owin.SelfHost/2.1.0)
 
-
 ## Create a Microsoft Azure Project
 
 Start Visual Studio with administrator privileges. Administrator privileges are needed to debug the application locally, using the Azure compute emulator.

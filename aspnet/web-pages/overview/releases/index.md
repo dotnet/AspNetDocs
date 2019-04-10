@@ -13,7 +13,6 @@ msc.type: chapter
 
 > What's new in each ASP.NET Web Pages release.
 
-
 - [What's New in ASP.NET Web Pages 3.2](whats-new-in-aspnet-web-pages-32.md)
 - [What's New in ASP.NET Web Pages 3.1](whats-new-aspnet-web-pages-31.md)
 - [Top Features in ASP.NET Web Pages 2](top-features-in-web-pages-2.md)

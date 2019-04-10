@@ -13,7 +13,6 @@ msc.type: chapter
 
 > How to create a Data Access Layer (DAL).
 
-
 - [ADO.NET Data Services](adonet-data-services/index.md)
 
     - [Data Access Layers in ASP.NET Applications](adonet-data-services/data-access-layers-in-aspnet-applications.md)

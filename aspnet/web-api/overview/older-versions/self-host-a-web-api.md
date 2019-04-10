@@ -24,7 +24,6 @@ by [Mike Wasson](https://github.com/MikeWasson)
 > - Web API 1
 > - Visual Studio 2012
 
-
 ## Create the Console Application Project
 
 Start Visual Studio and select **New Project** from the **Start** page. Or, from the **File** menu, select **New** and then **Project**.

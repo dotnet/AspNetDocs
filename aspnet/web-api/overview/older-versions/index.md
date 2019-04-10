@@ -14,7 +14,6 @@ msc.type: chapter
 
 > Documentation on older versions of Web API for ASP.NET 4.x.
 
-
 - [Enabling CRUD Operations in Web API 1](creating-a-web-api-that-supports-crud-operations.md)
 - [Using ASP.NET Web API 1 with Entity Framework 5](using-web-api-1-with-entity-framework-5/index.md)
 

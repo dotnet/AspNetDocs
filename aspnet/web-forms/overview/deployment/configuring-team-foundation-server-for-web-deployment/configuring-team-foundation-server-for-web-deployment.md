@@ -25,7 +25,6 @@ by [Jason Lee](https://github.com/jrjlee)
 > 
 > For an Italian translation of these tutorials, visit [http://www.lucamorelli.it](http://www.lucamorelli.it).
 
-
 This tutorial assumes that you have installed TFS 2010 and created a team project collection as part of the initial configuration process. The [Team Foundation Installation Guide for Visual Studio 2010](https://go.microsoft.com/?linkid=9805132) provides comprehensive guidance on these tasks.
 
 ## Context

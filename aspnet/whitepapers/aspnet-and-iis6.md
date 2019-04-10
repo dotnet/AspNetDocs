@@ -15,7 +15,6 @@ msc.type: content
 > 
 > Applies to ASP.NET 1.1 and IIS 6.0.
 
-
 ASP.NET 1.1 ships with Windows Server 2003, which also includes the latest version of Internet Information Server (IIS) version 6.0. IIS 6.0 and ASP.NET 1.1 are designed to integrate seamlessly and ASP.NET now defaults to the new IIS 6.0 worker process model.
 
 ## ASP.NET 1.1 is not installed by default

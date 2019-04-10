@@ -13,7 +13,6 @@ msc.type: authoredcontent
 
 > This topic describes several common mistakes people make within ASP.NET web projects. It provides recommendations for what you should do to avoid these common mistakes. It is based on a [presentation](http://vimeo.com/68390507) by **Damian Edwards** at Norwegian Developers Conference.
 
-
 ## Disclaimer
 
 This topic is not intended as a complete guide to ensure your application is secure and efficient. You still need to follow best practices for security and performance that are not outlined in this topic. It only suggests how to avoid common mistakes related to .NET classes and processes.

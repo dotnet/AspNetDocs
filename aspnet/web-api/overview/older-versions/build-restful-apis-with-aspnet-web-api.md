@@ -28,7 +28,6 @@ This lab requires a basic understanding of HTTP, REST, and assumes you have a ba
 > 
 > All sample code and snippets are included in the Web Camps Training Kit, available at [https://go.microsoft.com/fwlink/?LinkID=248297&clcid=0x409](https://go.microsoft.com/fwlink/?LinkID=248297&clcid=0x409).
 
-
 <a id="Objectives"></a>
 ### Objectives
 
@@ -64,7 +63,6 @@ This hands-on lab includes the following exercise:
 
 > [!NOTE]
 > Each exercise is accompanied by an **End** folder containing the resulting solution you should obtain after completing the exercises. You can use this solution as a guide if you need additional help working through the exercises.
-
 
 Estimated time to complete this lab: **60 minutes**.
 
@@ -414,7 +412,6 @@ In this task, you will continue to modify the Index view of the MVC application.
 
 > [!NOTE]
 > Additionally, you can deploy this application to Azure following [Appendix C: Publishing an ASP.NET MVC 4 Application using Web Deploy](#AppendixC).
-
 
 ---
 

@@ -13,7 +13,6 @@ msc.type: chapter
 
 > How to configure IIS to work with ASP.NET applications.
 
-
 - [Developing and Deploying In a Shared Hosting](developing-and-deploying-in-a-shared-hosting.md)
 - [Working with IIS7 Delegated Admin](working-with-iis7-deligated-admin.md)
 - [Feature Specific Delegated Management](feature-specific-delegated-management.md)

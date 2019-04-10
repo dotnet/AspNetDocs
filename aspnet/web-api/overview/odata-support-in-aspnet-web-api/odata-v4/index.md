@@ -13,7 +13,6 @@ msc.type: chapter
 
 > Use ASP.NET Web API to create endpoints that support OData Version 4.
 
-
 - [Create an OData v4 Endpoint](create-an-odata-v4-endpoint.md)
 - [Create an OData v4 Client App (C#)](create-an-odata-v4-client-app.md)
 - [Entity Relations in OData v4](entity-relations-in-odata-v4.md)

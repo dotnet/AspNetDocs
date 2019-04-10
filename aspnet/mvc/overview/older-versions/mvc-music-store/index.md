@@ -13,7 +13,6 @@ msc.type: chapter
 
 > How to create the MVC Music Store application, a sample application that sells music albums online, and that implements site administration, user sign-in, and shopping cart functionality.
 
-
 - [Part 1: Overview and File->New Project](mvc-music-store-part-1.md)
 - [Part 2: Controllers](mvc-music-store-part-2.md)
 - [Part 3: Views and ViewModels](mvc-music-store-part-3.md)

@@ -20,14 +20,12 @@ In earlier tutorials you learned how to update data. This tutorial shows how to 
 
 In this tutorial, you:
 
-
 > [!div class="checklist"]
 > * Learn about concurrency conflicts
 > * Add optimistic concurrency
 > * Modify Department controller
 > * Test concurrency handling
 > * Update the Delete page
-
 
 ## Prerequisites
 

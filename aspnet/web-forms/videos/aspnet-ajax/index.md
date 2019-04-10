@@ -13,7 +13,6 @@ msc.type: chapter
 
 > Ways to work with ASP.NET AJAX to create highly responsive pages, even if you're not a JavaScript expert.
 
-
 - [Get Started with ASP.NET AJAX](how-do-i-get-started-with-aspnet-ajax.md)
 - [Implement Dynamic Partial-Page Updates with ASP.NET AJAX](how-do-i-implement-dynamic-partial-page-updates-with-aspnet-ajax.md)
 - [Make Client-Side Network Callbacks with ASP.NET AJAX](how-do-i-make-client-side-network-callbacks-with-aspnet-ajax.md)

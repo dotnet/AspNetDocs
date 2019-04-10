@@ -12,9 +12,7 @@ msc.type: authoredcontent
 ---
 # Introduction to ASP.NET Identity
 
-
 > The ASP.NET membership system was introduced with ASP.NET 2.0 back in 2005, and since then there have been many changes in the ways web applications typically handle authentication and authorization. ASP.NET Identity is a fresh look at what the membership system should be when you are building modern applications for the web, phone, or tablet.
-
 
 ## Background: Membership in ASP.NET
 
@@ -116,7 +114,6 @@ ASP.NET Identity is implemented using the following procedure. The purpose of th
    If the user was successfully created, she is signed in by the `SignInAsync` method.  
 
     [!code-csharp[Main](introduction-to-aspnet-identity/samples/sample6.cs?highlight=12)]
-
 
    The `SignInManager.SignInAsync` method generates a [ClaimsIdentity](https://msdn.microsoft.com/library/system.security.claims.claimsidentity.aspx). Since ASP.NET Identity and OWIN Cookie Authentication are claims-based system, the framework requires the app to generate a ClaimsIdentity for the user. ClaimsIdentity has information about all the claims for the user, such as what roles the user belongs to.   
  

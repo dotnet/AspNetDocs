@@ -25,7 +25,6 @@ by [Tom FitzMacken](https://github.com/tfitzmac)
 > 
 > - WebMatrix 3
 
-
 ## Overview of Helpers
 
 Some tasks that people often want to do on web pages require a lot of code or require extra knowledge. Examples include displaying a chart for data; putting a Twitter "Follow" button on a page; sending email from your website; cropping or resizing images; using PayPal for your site. To make it easy to do these kinds of things, ASP.NET Web Pages lets you use *helpers*. Helpers are components that you install for a site and that let you perform typical tasks by using just a line or two of Razor code.
@@ -51,7 +50,6 @@ The latest version of the Twitter API is not compatible with the Twitter helper 
 
 <a id="Additional_Resources"></a>
 ## Additional Resources
-
 
 [Introducing ASP.NET Web Pages 2 - Programming Basics](../getting-started/introducing-razor-syntax-c.md)
 

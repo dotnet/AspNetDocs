@@ -25,7 +25,6 @@ by [Tom Dykstra](https://github.com/tdykstra)
 > 
 > This content is also available as a free e-book in [the TechNet E-Book Gallery](https://social.technet.microsoft.com/wiki/contents/articles/11608.e-book-gallery-for-microsoft-technologies.aspx#ASPNETWebDeploymentusingVisualStudio).
 
-
 ## Overview
 
 These tutorials guide you through deploying an ASP.NET web application that includes SQL Server databases. You'll deploy first to IIS on your local development computer for testing, and then to Web Apps in Azure App Service and Azure SQL Database for staging and production. You'll see how to deploy by using Visual Studio one-click publish, and you'll see how to deploy using the command line.
@@ -127,7 +126,6 @@ Depending on how many of the SDK dependencies you already have on your machine, 
 
 > [!NOTE]
 > This tutorial was written with version 1.8.1 of the Azure SDK. Since then newer versions with additional features have been released. The tutorials have been updated to mention these features and link to resources that have more information about them.
-
 
 The instructions and screen shots are based on Windows 8, but the tutorials explain differences for Windows 7.
 

@@ -23,7 +23,6 @@ msc.type: authoredcontent
 > 
 > For more information on the key features, advantages, and disadvantages of these approaches, see [Choosing the Right Approach to Web Deployment](choosing-the-right-approach-to-web-deployment.md).
 
-
 Yes, if you want to allow non-administrator users to deploy content to specific IIS websites. This approach is often desirable in these types of scenarios:
 
 - Staging or production environments, where the person or service account that triggers the remote deployment is unlikely to have access to the credentials of a server administrator.
@@ -58,7 +57,6 @@ This topic will show you how to perform each of these procedures. The tasks and 
 > [!NOTE]
 > For more information on joining computers to a domain, see [Joining Computers to the Domain and Logging On](https://technet.microsoft.com/library/cc725618(v=WS.10).aspx). For more information on configuring static IP addresses, see [Configure a Static IP Address](https://technet.microsoft.com/library/cc754203(v=ws.10).aspx).
 
-
 ## Install Products and Components
 
 This section will guide you through installing the required products and components on the web server. Before you begin, a good practice is to run Windows Update to ensure that your server is fully up to date.
@@ -74,7 +72,6 @@ In this case, you need to install these things:
 
 > [!NOTE]
 > This walkthrough describes the use of the Web Platform Installer to install and configure various components. Although you don't have to use the Web Platform Installer, it simplifies the installation process by automatically detecting dependencies and ensuring that you always get the latest product versions. For more information, see [Microsoft Web Platform Installer](https://go.microsoft.com/?linkid=9805118).
-
 
 **To install the required products and components**
 
@@ -233,7 +230,6 @@ The most common approach is to assign permissions to the local **IIS\_IUSRS** gr
 > [!NOTE]
 > For more information on application pool identities in IIS 7.5, see [Application Pool Identities](https://go.microsoft.com/?linkid=9805123).
 
-
 **To configure folder permissions for an IIS website**
 
 1. In Windows Explorer, browse to the location of your local folder.
@@ -275,7 +271,6 @@ By default, the IIS Web Management Service listens on TCP port 8172. If Windows 
 | --- | --- | --- | --- |
 | Inbound | Any | 8172 | TCP |
 | Outbound | 8172 | Any | TCP |
-  
 
 For more information on configuring rules in Windows Firewall, see [Configuring Firewall Rules](https://technet.microsoft.com/library/dd448559(WS.10).aspx). For third-party firewalls, please consult your product documentation.
 

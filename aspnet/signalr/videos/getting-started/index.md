@@ -13,5 +13,4 @@ msc.type: chapter
 
 > These videos give you background and application examples for using SignalR to add real-time functionality to web applications.
 
-
 - [SignalR and Web Sockets](signalr-and-web-sockets.md)

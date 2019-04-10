@@ -28,7 +28,6 @@ by [Microsoft](https://github.com/microsoft)
 > > [!NOTE]
 > > The information in this article applies to ASP.NET Web Pages 1.0 and Web Pages 2.
 
-
 <a id="The_Chart_Helper"></a>
 ## The Chart Helper
 
@@ -146,7 +145,6 @@ The third option for charting is to use an XML file as the data for the chart. T
 > [!code-cshtml[Main](7-displaying-data-in-a-chart/samples/sample8.cshtml)]
 > 
 > You can add `using` statements for any other .NET Framework namespaces that you want to reference. However, as noted, you won't need to do this often, because most of the classes that you'll work with are in namespaces that are imported automatically by ASP.NET for use in *.cshtml* and *.vbhtml* pages.
-
 
 <a id="Displaying_Charts"></a>
 ## Displaying Charts Inside a Web Page

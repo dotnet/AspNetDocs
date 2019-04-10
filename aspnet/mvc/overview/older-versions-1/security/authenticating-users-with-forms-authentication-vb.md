@@ -15,7 +15,6 @@ by [Microsoft](https://github.com/microsoft)
 
 > Learn how to use the [Authorize] attribute to password protect particular pages in your MVC application. You learn how to use the Web Site Administration Tool to create and manage users and roles. You also learn how to configure where user account and role information is stored.
 
-
 The goal of this tutorial is to explain how you can use Forms authentication to password protect the views in your ASP.NET MVC applications. You learn how to use the Web Site Administration Tool to create users and roles. You also learn how to prevent unauthorized users from invoking controller actions. Finally, you learn how to configure where user names and passwords are stored.
 
 #### Using the Web Site Administration Tool
@@ -111,7 +110,6 @@ The ASP.NET SQL Server Setup Wizard enables you to select a SQL Server database 
 > 
 > 
 > C:\Windows\Microsoft.NET\Framework\v2.0.50727
-
 
 After you create the necessary database objects, you need to modify the database connection used by your MVC application. Modify the ApplicationServices connection string in your web configuration (web.config) file so that it points to the production database. For example, the modified connection in Listing 3 points to a database named MyProductionDB (the original ApplicationServices connection string has been commented out).
 

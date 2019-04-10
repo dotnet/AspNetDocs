@@ -15,7 +15,6 @@ by [Scott Hanselman](https://github.com/shanselman)
 
 > This is a beginner tutorial that introduces the basics of ASP.NET MVC. You'll create a simple web application that reads and writes from a database. Visit the [ASP.NET MVC learning center](../../../index.md) to find other ASP.NET MVC tutorials and samples.
 
-
 In this section we are going to look at how we can have our HelloWorldController class use a View template file to cleanly encapsulate generating HTML responses back to a client.
 
 Let's start by using a View template with our Index method. Our method is called Index and it's in the HelloWorldController. Currently our Index() method returns a string with a message that is hardcoded within the Controller class.
@@ -93,7 +92,6 @@ Even though it's on multiple lines, our Welcome method is really only two code s
 Now we need a Welcome View template! Right click in the Welcome method and select Add View. This time, we'll check "Create a strongly-typed view" and select our WelcomeViewModel class from the drop down list. This new view will only know about WelcomeViewModels and no other types of objects.
 
 > *NOTE: You'll need to have compiled once after adding your WelcomeViewModel for to show up in the drop down list.*
-
 
 Here's what your Add View dialog should look like. Click the Add button. ![Add View circled](getting-started-with-mvc-part3/_static/image10.png)
 

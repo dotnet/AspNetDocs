@@ -61,7 +61,6 @@ Selecting the **Reset** button will confirm the password has been reset.
 
 Start by installing and running [Visual Studio 2017](https://visualstudio.microsoft.com/).
 
-
 1. Create a new ASP.NET Web project and select the MVC template. Web Forms also support ASP.NET Identity, so you could follow similar steps in a web forms app.
 2. Change the authentication to **Individual User Accounts**.
 3. Run the app, select the **Register** link and register a user. At this point, the only validation on the email is with the [[EmailAddress]](https://msdn.microsoft.com/library/system.componentmodel.dataannotations.emailaddressattribute(v=vs.110).aspx) attribute.
@@ -147,7 +146,6 @@ In this section, you'll use NuGet to download a more complete sample we will wor
 > [!WARNING]
 > If you change any of the security settings in this sample, productions apps will need to undergo a security audit that explicitly calls the changes made.
 
-
 ## Examine the code in App\_Start\IdentityConfig.cs
 
 The sample shows how to create an account and add it to the *Admin* role. You should replace the email in the sample with the email you will be using for the admin account. The easiest way right now to create an administrator account is programmatically in the `Seed` method. We hope to have a tool in the future that will allow you to create and administer users and roles. The sample code does let you create and manage users and roles, but you must first have an administrators account to run the roles and user admin pages. In this sample, the admin account is created when the DB is seeded.
@@ -178,14 +176,12 @@ Go to the [Azure SendGrid sign up page](https://azure.microsoft.com/gallery/stor
 > [!NOTE]
 > Email clients frequently accept only text messages (no HTML). You should provide the message in text and HTML. In the SendGrid sample above, this is done with the `myMessage.Text` and `myMessage.Html` code shown above.
 
-
 The following code shows how to send email using the [MailMessage](https://msdn.microsoft.com/library/system.net.mail.mailmessage.aspx) class where `message.Body` returns only the link.
 
 [!code-csharp[Main](account-confirmation-and-password-recovery-with-aspnet-identity/samples/sample8.cs)]
 
 > [!WARNING]
 > Security - Never store sensitive data in your source code. The account and credentials are stored in the appSetting. On Azure, you can securely store these values on the **[Configure](https://blogs.msdn.com/b/webdev/archive/2014/06/04/queuebackgroundworkitem-to-reliably-schedule-and-run-long-background-process-in-asp-net.aspx)** tab in the Azure portal. See [Best practices for deploying passwords and other sensitive data to ASP.NET and Azure](best-practices-for-deploying-passwords-and-other-sensitive-data-to-aspnet-and-azure.md).
-
 
 Enter your SendGrid credentials, run the app, register with an email alias can select the confirm link in your email. To see how to do this with your [Outlook.com](http://outlook.com) email account, see John Atten's [C# SMTP Configuration for Outlook.Com SMTP Host](http://typecastexception.com/post/2013/12/20/C-SMTP-Configuration-for-OutlookCom-SMTP-Host.aspx) and his[ASP.NET Identity 2.0: Setting Up Account Validation and Two-Factor Authorization](http://typecastexception.com/post/2014/04/20/ASPNET-Identity-20-Setting-Up-Account-Validation-and-Two-Factor-Authorization.aspx) posts.
 

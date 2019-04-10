@@ -13,7 +13,6 @@ msc.type: chapter
 
 > This introductory set of tutorials explains how to create a Data Access Layer (DAL), a Business Logic Layer (BLL), and a consistent look across your site.
 
-
 - [Creating a Data Access Layer (C#)](creating-a-data-access-layer-cs.md)
 - [Creating a Business Logic Layer (C#)](creating-a-business-logic-layer-cs.md)
 - [Master Pages and Site Navigation (C#)](master-pages-and-site-navigation-cs.md)

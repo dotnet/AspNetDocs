@@ -13,7 +13,6 @@ msc.type: chapter
 
 > ASP.NET MVC 2
 
-
 - [How-Do-I](how-do-i/index.md)
 
     - [Creating a Tasklist Application with ASP.NET MVC](how-do-i/creating-a-tasklist-application-with-aspnet-mvc.md)
