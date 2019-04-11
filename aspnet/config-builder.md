@@ -5,7 +5,6 @@ author: rick-anderson
 description: Learn how to get configuration data from sources other than web.config values from external sources.
 ms.author: riande
 ms.date: 10/29/2018
-ms.technology: aspnet
 msc.type: content
 ---
 
