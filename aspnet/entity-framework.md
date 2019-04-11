@@ -6,7 +6,6 @@ description: ""
 ms.assetid: faa761a9-86b3-4859-b9c0-60d5c5bc5e93
 ms.author: riande
 ms.date: 03/12/2010
-ms.technology: aspnet
 msc.legacyurl: /entity-framework
 msc.type: content
 ---
