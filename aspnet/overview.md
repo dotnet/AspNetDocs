@@ -6,7 +6,6 @@ description: "Introduction to ASP.NET, a free framework for creating websites, w
 ms.assetid: 3a309468-f1ca-4e51-b9c3-536af79d7a8b
 ms.author: riande
 ms.date: 03/12/2010
-ms.technology: aspnet
 msc.legacyurl:
 msc.type: content
 ---
