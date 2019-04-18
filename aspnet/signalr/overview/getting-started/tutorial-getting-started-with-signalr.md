@@ -56,6 +56,10 @@ This section shows how to use Visual Studio 2017 and SignalR 2 to create an empt
 
 1. Name the class *Startup* and add it to the project.
 
+1. Replace the default code in *Startup* class with this code:
+
+    [!code-csharp[Main](tutorial-getting-started-with-signalr/samples/sample2.cs)]
+
 1. In **Solution Explorer**, right-click the project and select **Add** > **HTML Page**.
 
 1. Name the new page *index* and select **OK**.
