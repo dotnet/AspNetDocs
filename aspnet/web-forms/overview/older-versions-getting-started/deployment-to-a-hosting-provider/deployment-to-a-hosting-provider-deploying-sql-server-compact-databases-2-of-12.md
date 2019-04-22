@@ -19,7 +19,6 @@ by [Tom Dykstra](https://github.com/tdykstra)
 > 
 > For a tutorial that shows deployment features introduced after the RC release of Visual Studio 2012, shows how to deploy SQL Server editions other than SQL Server Compact, and shows how to deploy to Azure App Service Web Apps, see [ASP.NET Web Deployment using Visual Studio](../../deployment/visual-studio-web-deployment/introduction.md).
 
-
 ## Overview
 
 This tutorial shows how to set up two SQL Server Compact databases and the database engine for deployment.
@@ -138,7 +137,6 @@ This menu selection adds the following code to the `using` statements near the t
 > 
 > This example shown for this tutorial uses the `AddOrUpdate` method in the `Seed` method of the Code First Migrations `Configuration` class. Code First Migrations calls the `Seed` method after every migration, and this method updates rows that have already been inserted, or inserts them if they don't exist yet. The `AddOrUpdate` method might not be the best choice for your scenario. For more information, see [Take care with EF 4.3 AddOrUpdate Method](http://thedatafarm.com/blog/data-access/take-care-with-ef-4-3-addorupdate-method/) on Julie Lerman's blog.
 
-
 Press CTRL-SHIFT-B to build the project.
 
 The next step is to create a `DbMigration` class for the initial migration. You want this migration to create a new database, so you have to delete the database that already exists. SQL Server Compact databases are contained in *.sdf* files in the *App\_Data* folder. In **Solution Explorer**, expand *App\_Data* in the ContosoUniversity project to see the two SQL Server Compact databases, which are represented by *.sdf* files.
@@ -181,7 +179,6 @@ When you deploy a site for the first time, it is common to exclude most or all o
 
 > [!NOTE]
 > The membership database stores a hash of account passwords. In order to deploy accounts from one machine to another, you must make sure that hashing routines don't generate different hashes on the destination server than they do on the source computer. They will generate the same hashes when you use the ASP.NET Universal Providers, as long as you don't change the default algorithm. The default algorithm is HMACSHA256 and is specified in the **validation** attribute of the **[machineKey](https://msdn.microsoft.com/library/w8h3skw9.aspx)** element in the Web.config file.
-
 
 The membership database is not maintained by Code First Migrations, and there is no automatic initializer that seeds the database with test accounts (as there is for the School database). Therefore, to keep test data available you'll make a copy of the test database before you create a new one.
 

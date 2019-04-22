@@ -17,7 +17,6 @@ by [Christian Wenz](https://github.com/wenz)
 
 > The ModalPopup control in the AJAX Control Toolkit offers a simple way to create a modal popup using client-side means. However some scenarios require that the opening of the modal popup is triggered on the server-side.
 
-
 ## Overview
 
 The ModalPopup control in the AJAX Control Toolkit offers a simple way to create a modal popup using client-side means. However some scenarios require that the opening of the modal popup is triggered on the server-side.
@@ -57,7 +56,6 @@ The `pageLoad()` JavaScript function is a special function that gets executed on
 [!code-javascript[Main](launching-a-modal-popup-window-from-server-code-cs/samples/sample8.js)]
 
 The `$find()` function is looking for a named element on the page and expects the server-side ID as a parameter. Therefore, `$find("mpe")` returns the client representation of the ModalPopup control; its `show()` method lets the popup appear.
-
 
 [![The modal popup appears when either of the buttons is clicked](launching-a-modal-popup-window-from-server-code-cs/_static/image2.png)](launching-a-modal-popup-window-from-server-code-cs/_static/image1.png)
 

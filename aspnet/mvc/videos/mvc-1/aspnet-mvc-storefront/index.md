@@ -13,7 +13,6 @@ msc.type: chapter
 
 > ASP.NET MVC Storefront Starter Kit
 
-
 - [ASP.NET MVC Storefront Part 1: Architectural Discussion and Overview](aspnet-mvc-storefront-part-1-architectural-discussion-and-overview.md)
 - [ASP.NET MVC Storefront Part 2: Repository Pattern](aspnet-mvc-storefront-part-2-the-repository-pattern.md)
 - [ASP.NET MVC Storefront Part 3: Pipes and Filters](aspnet-mvc-storefront-part-3-pipes-and-filters.md)

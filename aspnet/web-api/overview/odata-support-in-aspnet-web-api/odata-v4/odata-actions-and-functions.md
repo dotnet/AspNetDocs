@@ -44,7 +44,6 @@ Let's define an action to rate a product.
 > [!NOTE]
 > This tutorial builds on the tutorial [Create an OData v4 Endpoint Using ASP.NET Web API 2](create-an-odata-v4-endpoint.md)
 
-
 First, add a `ProductRating` model to represent the ratings.
 
 [!code-csharp[Main](odata-actions-and-functions/samples/sample1.cs)]

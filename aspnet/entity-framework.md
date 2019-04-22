@@ -13,12 +13,10 @@ msc.type: content
 
 Entity Framework (EF) is an object-relational mapper that enables .NET developers to work with relational data using domain-specific objects. It eliminates the need for most of the data-access code that developers usually need to write.
 
-
 - [Get it:](https://msdn.com/data/ee712906) Add this to your project and start taking advantage of this powerful O/RM.
 - [Get Started:](https://msdn.com/data/ee712907) Visit the guide for videos and tutorials that will help you make the most of your data.
 - [Get Help:](https://msdn.com/data/hh913619) Find out how to get help from the experts and contribute to the data community on Stack Overflow.
 - [Contribute:](https://github.com/aspnet/EntityFramework6) Find out how you can help make Entity Framework, an open development model, even better by visiting GitHub site.
-
 
 Use Entity Framework with ASP.NET
 

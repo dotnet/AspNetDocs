@@ -17,7 +17,6 @@ by [Christian Wenz](https://github.com/wenz)
 
 > Many websites, from e-commerce to community sites, offer their users to rate articles or items. This usually requires some coding effort, but we do have the Control Toolkit to our disposal.
 
-
 ## Overview
 
 Many websites, from e-commerce to community sites, offer their users to rate articles or items. This usually requires some coding effort, but we do have the Control Toolkit to our disposal.
@@ -58,7 +57,6 @@ In the server-side code, access the Rating control via its `ID` and then access 
 [!code-aspx[Main](creating-a-rating-control-vb/samples/sample5.aspx)]
 
 Save the page and load it into your browser. When you hover over the (initially empty) rating items, a JavaScript effect occurs: The rating changes. When you click on the set of stars, the current rating is retained. Finally, when you submit the form, the server-side code outputs the selected rating.
-
 
 [![Creating a rating system with minimal code](creating-a-rating-control-vb/_static/image2.png)](creating-a-rating-control-vb/_static/image1.png)
 

@@ -21,7 +21,6 @@ by [Microsoft](https://github.com/microsoft)
 > 
 > If you are using ASP.NET MVC 3, we recommend you follow the [Getting Started With MVC 3](../../older-versions/getting-started-with-aspnet-mvc3/cs/intro-to-aspnet-mvc-3.md) or [MVC Music Store](../../older-versions/mvc-music-store/mvc-music-store-part-1.md) tutorials.
 
-
 ## NerdDinner Step 3: Building the Model
 
 In a model-view-controller framework the term "model" refers to the objects that represent the data of the application, as well as the corresponding domain logic that integrates validation and business rules with it. The model is in many ways the "heart" of an MVC-based application, and as we'll see later fundamentally drives the behavior of it.
@@ -127,7 +126,6 @@ Now that we've created our DinnerRepository class, let's look at a few code exam
 #### Querying Examples
 
 The code below retrieves a single Dinner using the DinnerID value:
-
 
 [!code-csharp[Main](build-a-model-with-business-rule-validations/samples/sample4.cs)]
 

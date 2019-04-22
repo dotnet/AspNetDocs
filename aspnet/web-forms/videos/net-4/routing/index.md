@@ -13,7 +13,6 @@ msc.type: chapter
 
 > This video shows you how to create intuitive and SEO-friendly URLs for your Web Forms applications.
 
-
 - [Permanent Redirect](aspnet-4-quick-hit-permanent-redirect.md)
 - [Imperative WebForms Routing](aspnet-4-quick-hit-imperative-webforms-routing.md)
 - [Declarative WebForms Routing](aspnet-4-quick-hit-declarative-webforms-routing.md)

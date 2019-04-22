@@ -19,7 +19,6 @@ by [Jon Galloway](https://github.com/jongalloway)
 >   
 > This tutorial series details all of the steps taken to build the ASP.NET MVC Music Store sample application. Part 8 covers Shopping Cart with Ajax Updates.
 
-
 We'll allow users to place albums in their cart without registering, but they'll need to register as guests to complete checkout. The shopping and checkout process will be separated into two controllers: a ShoppingCart Controller which allows anonymously adding items to a cart, and a Checkout Controller which handles the checkout process. We'll start with the Shopping Cart in this section, then build the Checkout process in the following section.
 
 ## Adding the Cart, Order, and OrderDetail model classes
@@ -150,7 +149,6 @@ After loading up your shopping cart, you can click on the Remove from cart link 
 ![](mvc-music-store-part-8/_static/image8.png)
 
 We've built out a working shopping cart which allows unregistered users to add items to their cart. In the following section, we'll allow them to register and complete the checkout process.
-
 
 > [!div class="step-by-step"]
 > [Previous](mvc-music-store-part-7.md)

@@ -37,7 +37,6 @@ by [Tom FitzMacken](https://github.com/tfitzmac)
 > 
 > This tutorial also works with ASP.NET Web Pages 2.
 
-
 ## About Layout Pages
 
 Many websites have content that's displayed on every page, like a header and footer, or a box that tells users that they're logged in. ASP.NET lets you create a separate file with a content block that can contain text, markup, and code, just like a regular web page. You can then insert the content block in other pages on the site where you want the information to appear. That way you don't have to copy and paste the same content into every page. Creating common content like this also makes it easier to update your site. If you need to change the content, you can just update a single file, and the changes are then reflected everywhere the content has been inserted.
@@ -212,6 +211,5 @@ The following procedure shows how to pass data from a content page to a layout p
 6. Click the **Show List** button, and the list is displayed again.
 
 ## Additional Resources
-
 
 [Customizing Site-Wide Behavior for ASP.NET Web Pages](https://go.microsoft.com/fwlink/?LinkId=202906)

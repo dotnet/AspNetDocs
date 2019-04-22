@@ -13,5 +13,4 @@ msc.type: chapter
 
 > This video shows you new features for ASP.NET 4 data controls.
 
-
 - [Persistent GridView Row Selection](aspnet-4-quick-hit-persistent-gridview-row-selection.md)

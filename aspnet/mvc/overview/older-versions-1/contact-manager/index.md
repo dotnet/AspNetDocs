@@ -13,7 +13,6 @@ msc.type: chapter
 
 > How to build an entire Contact Management application from start to finish.
 
-
 - [Iteration #1 – Create the Application (C#)](iteration-1-create-the-application-cs.md)
 - [Iteration #2 – Make the application look nice (C#)](iteration-2-make-the-application-look-nice-cs.md)
 - [Iteration #3 – Add form validation (C#)](iteration-3-add-form-validation-cs.md)

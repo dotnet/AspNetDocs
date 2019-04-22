@@ -43,7 +43,6 @@ Now we'll add a strongly typed view. Add the following code to the controller:
 
 [!code-csharp[Main](dynamic-v-strongly-typed-views/samples/sample5.cs)]
 
-
 Notice it's exactly the same return View(topBlogs); call as the non-strongly typed view. Right click inside of *StonglyTypedIndex()* and select **Add View**. This time select the **Blog** Model class and select **List** as the Scaffold template.
 
 [![5658.StrongView[1]](dynamic-v-strongly-typed-views/_static/image6.png)](dynamic-v-strongly-typed-views/_static/image5.png)

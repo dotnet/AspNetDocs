@@ -17,7 +17,6 @@ by [Scott Mitchell](https://twitter.com/ScottOnWriting)
 
 > This tutorial shows how to build a web page for administrators to manage users' locked out and approved statuses. We will also see how to approve new users only after they have verified their email address.
 
-
 ## Introduction
 
 Along with a username, password, and email, each user account has two status fields that dictate whether the user can log into the site: locked out and approved. A user is automatically locked out if they provide invalid credentials a specified number of times within a specified number of minutes (the default settings lock a user out after 5 invalid login attempts within 10 minutes). The approved status is useful in scenarios where some action must transpire before a new user is able to log on to the site. For example, a user might need to first verify their email address or be approved by an administrator before being able to login.
@@ -35,18 +34,15 @@ For this tutorial let's use two ASP.NET pages: `ManageUsers.aspx` and `UserInfor
 > [!NOTE]
 > If you downloaded the code for the <a id="Tutorial13"></a>[*Recovering and Changing Passwords*](recovering-and-changing-passwords-cs.md) tutorial you may have noticed that the `ManageUsers.aspx` page already contains a set of "Manage" links and the `UserInformation.aspx` page provides an interface for changing the selected user's password. I decided not to replicate that functionality in the code associated with this tutorial because it worked by circumventing the Membership API and operating directly with the SQL Server database to change a user's password. This tutorial starts from scratch with the `UserInformation.aspx` page.
 
-
 ### Adding "Manage" Links to the`UserAccounts`GridView
 
 Open the `ManageUsers.aspx` page and add a HyperLinkField to the `UserAccounts` GridView. Set the HyperLinkField's `Text` property to "Manage" and its `DataNavigateUrlFields` and `DataNavigateUrlFormatString` properties to `UserName` and "UserInformation.aspx?user={0}", respectively. These settings configure the HyperLinkField such that all of the hyperlinks display the text "Manage", but each link passes in the appropriate *UserName* value into the querystring.
 
 After adding the HyperLinkField to the GridView, take a moment to view the `ManageUsers.aspx` page through a browser. As Figure 1 shows, each GridView row now includes a "Manage" link. The "Manage" link for Bruce points to `UserInformation.aspx?user=Bruce`, whereas the "Manage" link for Dave points to `UserInformation.aspx?user=Dave`.
 
-
 [![The HyperLinkField Adds a](unlocking-and-approving-user-accounts-cs/_static/image2.png)](unlocking-and-approving-user-accounts-cs/_static/image1.png)
 
 **Figure 1**: The HyperLinkField Adds a "Manage" Link for Each User Account  ([Click to view full-size image](unlocking-and-approving-user-accounts-cs/_static/image3.png))
-
 
 We will create the user interface and code for the `UserInformation.aspx` page in a moment, but first let's talk about how to programmatically change a user's locked out and approved statuses. The [`MembershipUser` class](https://msdn.microsoft.com/library/system.web.security.membershipuser.aspx) has [`IsLockedOut`](https://msdn.microsoft.com/library/system.web.security.membershipuser.islockedout.aspx) and [`IsApproved` properties](https://msdn.microsoft.com/library/system.web.security.membershipuser.isapproved.aspx). The `IsLockedOut` property is read-only. There is no mechanism to programmatically lock out a user; to unlock a user, use the `MembershipUser` class's [`UnlockUser` method](https://msdn.microsoft.com/library/system.web.security.membershipuser.unlockuser.aspx). The `IsApproved` property is readable and writeable. To save any changes to this property, we need to call the `Membership` class's [`UpdateUser` method](https://msdn.microsoft.com/library/system.web.security.membership.updateuser.aspx), passing in the modified `MembershipUser` object.
 
@@ -65,11 +61,9 @@ We are now ready to implement the user interface in `UserInformation.aspx`. Open
 
 After adding these controls, the Design view in Visual Studio should look similar to the screen shot in Figure 2.
 
-
 [![Create the User Interface for UserInformation.aspx](unlocking-and-approving-user-accounts-cs/_static/image5.png)](unlocking-and-approving-user-accounts-cs/_static/image4.png)
 
 **Figure 2**: Create the User Interface for `UserInformation.aspx` ([Click to view full-size image](unlocking-and-approving-user-accounts-cs/_static/image6.png))
-
 
 With the user interface complete, our next task is to set the `IsApproved` CheckBox and other controls based on the selected user's information. Create an event handler for the page's `Load` event and add the following code:
 
@@ -91,29 +85,23 @@ Return to Visual Studio and create event handlers for the `IsApproved` CheckBox'
 
 With these event handlers in place, revisit the page and unapproved a user. As Figure 3 shows, you should see a brief message on the page indicating that the user's `IsApproved` property was successfully modified.
 
-
 [![Chris has been Unapproved](unlocking-and-approving-user-accounts-cs/_static/image8.png)](unlocking-and-approving-user-accounts-cs/_static/image7.png)
 
 **Figure 3**: Chris has been Unapproved  ([Click to view full-size image](unlocking-and-approving-user-accounts-cs/_static/image9.png))
 
-
 Next, logout and try to login as the user whose account was just unapproved. Because the user is not approved, they cannot login. By default, the Login control displays the same message if the user cannot login, regardless of the reason. But in the <a id="Tutorial6"></a>[*Validating User Credentials Against the Membership User Store*](../membership/validating-user-credentials-against-the-membership-user-store-cs.md) tutorial we looked at enhancing the Login control to display a more appropriate message. As Figure 4 shows, Chris is shown a message explaining that he cannot login because his account is not yet approved.
-
 
 [![Chris Cannot Login Because His Account is Unapproved](unlocking-and-approving-user-accounts-cs/_static/image11.png)](unlocking-and-approving-user-accounts-cs/_static/image10.png)
 
 **Figure 4**: Chris Cannot Login Because His Account is Unapproved  ([Click to view full-size image](unlocking-and-approving-user-accounts-cs/_static/image12.png))
 
-
 To test the locked out functionality, attempt to login as an approved user, but use an incorrect password. Repeat this process the necessary number of times until the user's account has been locked out. The Login control was also updated to show a custom message if attempting to login from a locked out account. You know that an account has been locked out once you start seeing the following message at the login page: "Your account has been locked out because of too many invalid login attempts. Please contact the administrator to have your account unlocked."
 
 Return to the `ManageUsers.aspx` page and click the Manage link for the locked out user. As Figure 5 shows, you should see a value in the `LastLockedOutDateLabel` the Unlock User button should be enabled. Click the Unlock User button to unlock the user account. Once you have unlocked the user, they will be able to login again.
 
-
 [![Dave Has Been Locked Out of the System](unlocking-and-approving-user-accounts-cs/_static/image14.png)](unlocking-and-approving-user-accounts-cs/_static/image13.png)
 
 **Figure 5**: Dave Has Been Locked Out of the System  ([Click to view full-size image](unlocking-and-approving-user-accounts-cs/_static/image15.png))
-
 
 ## Step 2: Specifying New Users' Approved Status
 
@@ -123,7 +111,6 @@ By default, the CreateUserWizard control approves new accounts. You can configur
 
 > [!NOTE]
 > By default the CreateUserWizard control automatically logs on the new user account. This behavior is dictated by the control's [`LoginCreatedUser` property](https://msdn.microsoft.com/en-gb/library/system.web.ui.webcontrols.createuserwizard.logincreateduser.aspx). Because unapproved users cannot login to the site, when `DisableCreatedUser` is `true` the new user account is not logged into the site, regardless of the value of the `LoginCreatedUser` property.
-
 
 If you are programmatically creating new user accounts via the `Membership.CreateUser` method, to create an unapproved user account use one of the overloads that accept the new user's `IsApproved` property value as an input parameter.
 
@@ -142,7 +129,6 @@ To send an email from the CreateUserWizard control, configure its `MailDefinitio
 > [!NOTE]
 > To use the `MailDefinition` property you need to specify mail delivery options in `Web.config`. For more information, refer to [Sending Email in ASP.NET](http://aspnet.4guysfromrolla.com/articles/072606-1.aspx).
 
-
 Start by creating a new email template named `CreateUserWizard.txt` in the `EmailTemplates` folder. Use the following text for the template:
 
 [!code-aspx[Main](unlocking-and-approving-user-accounts-cs/samples/sample3.aspx)]
@@ -159,15 +145,12 @@ The `SendingMail` event fires after the `CreatedUser` event, meaning that by the
 
 The net effect is that new users are unapproved, meaning that they cannot log into the site. Furthermore, they are automatically sent an email with a link to the verification URL (see Figure 6).
 
-
 [![The New User Receives an Email with a Link to the Verification URL](unlocking-and-approving-user-accounts-cs/_static/image17.png)](unlocking-and-approving-user-accounts-cs/_static/image16.png)
 
 **Figure 6**: The New User Receives an Email with a Link to the Verification URL  ([Click to view full-size image](unlocking-and-approving-user-accounts-cs/_static/image18.png))
 
-
 > [!NOTE]
 > The CreateUserWizard control's default CreateUserWizard step displays a message informing the user their account has been created and displays a Continue button. Clicking this takes the user to the URL specified by the control's `ContinueDestinationPageUrl` property. The CreateUserWizard in `EnhancedCreateUserWizard.aspx` is configured to send new users to the `~/Membership/AdditionalUserInfo.aspx`, which prompts the user for their hometown, homepage URL, and signature. Because this information can only be added by logged on users, it makes sense to update this property to send users back to the site's homepage (`~/Default.aspx`). Moreover, the `EnhancedCreateUserWizard.aspx` page or the CreateUserWizard step should be augmented to inform the user that they have been sent a verification email and their account won't be activated until they follow the instructions in this email. I leave these modifications as an exercise for the reader.
-
 
 ### Creating the Verification Page
 
@@ -181,11 +164,9 @@ The bulk of the above code verifies that the `UserId` supplied through the query
 
 Figure 7 shows the `Verification.aspx` page when visited through a browser.
 
-
 [![The New User's Account is Now Approved](unlocking-and-approving-user-accounts-cs/_static/image20.png)](unlocking-and-approving-user-accounts-cs/_static/image19.png)
 
 **Figure 7**: The New User's Account is Now Approved  ([Click to view full-size image](unlocking-and-approving-user-accounts-cs/_static/image21.png))
-
 
 ## Summary
 

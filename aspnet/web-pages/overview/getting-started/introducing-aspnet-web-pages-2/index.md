@@ -13,7 +13,6 @@ msc.type: chapter
 
 > Introducing ASP.NET Web Pages 2
 
-
 - [Getting Started](getting-started.md)
 - [Programming Basics](intro-to-web-pages-programming.md)
 - [Displaying Data](displaying-data.md)

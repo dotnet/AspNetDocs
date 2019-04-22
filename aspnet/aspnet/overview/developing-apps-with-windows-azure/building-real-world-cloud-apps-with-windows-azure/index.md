@@ -13,7 +13,6 @@ msc.type: chapter
 
 > Building Real World Cloud Apps with Azure
 
-
 - [Introduction](introduction.md)
 - [Automate Everything](automate-everything.md)
 - [Source Control](source-control.md)

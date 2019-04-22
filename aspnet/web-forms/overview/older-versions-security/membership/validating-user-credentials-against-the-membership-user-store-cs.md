@@ -17,7 +17,6 @@ by [Scott Mitchell](https://twitter.com/ScottOnWriting)
 
 > In this tutorial we will examine how to validate a user's credentials against the Membership user store using both programmatic means and the Login control. We will also look at how to customize the login control's appearance and behavior.
 
-
 ## Introduction
 
 In the <a id="Tutorial05"></a>[preceding tutorial](creating-user-accounts-cs.md) we looked at how to create a new user account in the Membership framework. We first looked at programmatically creating user accounts via the `Membership` class's `CreateUser` method, and then examined using the CreateUserWizard Web control. However, the login page currently validates the supplied credentials against a hard-coded list of username and password pairs. We need to update the login page's logic so that it validates credentials against the Membership framework's user store.
@@ -36,11 +35,9 @@ The `SqlMembershipProvider` validates the supplied credentials by obtaining the 
 
 Let's update our login page (~/`Login.aspx`) so that it validates the supplied credentials against the Membership framework user store. We created this login page back in the <a id="Tutorial02"></a>[*An Overview of Forms Authentication*](../introduction/an-overview-of-forms-authentication-cs.md) tutorial, creating an interface with two TextBoxes for the username and password, a Remember Me checkbox, and a Login button (see Figure 1). The code validates the entered credentials against a hard-coded list of username and password pairs (Scott/password, Jisun/password, and Sam/password). In the <a id="Tutorial03"></a>[*Forms Authentication Configuration and Advanced Topics*](../introduction/forms-authentication-configuration-and-advanced-topics-cs.md) tutorial we updated the login page's code to store additional information in the forms authentication ticket's `UserData` property.
 
-
 [![The Login Page's Interface Includes Two TextBoxes, a CheckBoxList, and a Button](validating-user-credentials-against-the-membership-user-store-cs/_static/image2.png)](validating-user-credentials-against-the-membership-user-store-cs/_static/image1.png)
 
 **Figure 1**: The Login Page's Interface Includes Two TextBoxes, a CheckBoxList, and a Button  ([Click to view full-size image](validating-user-credentials-against-the-membership-user-store-cs/_static/image3.png))
-
 
 The login page's user interface can remain unchanged, but we need to replace the Login button's `Click` event handler with code that validates the user against the Membership framework user store. Update the event handler so that its code appears as follows:
 
@@ -54,7 +51,6 @@ To test that the login page works as expected, attempt to login with one of the 
 
 > [!NOTE]
 > When the user enters her credentials and submits the login page form, the credentials, including her password, are transmitted over the Internet to the web server in *plain text*. That means any hacker sniffing the network traffic can see the username and password. To prevent this, it is essential to encrypt the network traffic by using [Secure Socket Layers (SSL)](http://en.wikipedia.org/wiki/Secure_Sockets_Layer). This will ensure that the credentials (as well as the entire page's HTML markup) are encrypted from the moment they leave the browser until they are received by the web server.
-
 
 ### How the Membership Framework Handles Invalid Login Attempts
 
@@ -72,30 +68,24 @@ Unfortunately, there is no built-in tool for unlocking a user account. In order 
 > [!NOTE]
 > One downside of the `ValidateUser` method is that when the supplied credentials are invalid, it does not provide any explanation as to why. The credentials may be invalid because there is no matching username/password pair in the user store, or because the user has not yet been approved, or because the user has been locked out. In Step 4 we will see how to show a more detailed message to the user when their login attempt fails.
 
-
 ## Step 2: Collecting Credentials through the Login Web Control
 
 The [Login Web control](https://msdn.microsoft.com/library/system.web.ui.webcontrols.login.aspx) renders a default user interface very similar to the one we created back in the <a id="SKM5"></a>[*An Overview of Forms Authentication*](../introduction/an-overview-of-forms-authentication-cs.md) tutorial. Using the Login control saves us the work of having to create the interface to collect the visitor�s credentials. Moreover, the Login control automatically signs in the user (assuming the submitted credentials are valid), thereby saving us from having to write any code.
 
 Let's update `Login.aspx`, replacing the manually created interface and code with a Login control. Start by removing the existing markup and code in `Login.aspx`. You may delete it outright, or simply comment it out. To comment out declarative markup, surround it with the `<%--` and `--%>` delimiters. You can enter these delimiters manually, or, as Figure 2 shows, you may select the text to comment out and then click the Comment out the selected lines icon in the Toolbar. Similarly, you can use the Comment out the selected lines icon to comment out the selected code in the code-behind class.
 
-
 [![Comment Out the Existing Declarative Markup and Source Code in Login.aspx](validating-user-credentials-against-the-membership-user-store-cs/_static/image5.png)](validating-user-credentials-against-the-membership-user-store-cs/_static/image4.png)
 
 **Figure 2**: Comment Out the Existing Declarative Markup and Source Code in `Login.aspx` ([Click to view full-size image](validating-user-credentials-against-the-membership-user-store-cs/_static/image6.png))
 
-
 > [!NOTE]
 > The Comment out the selected lines icon is not available when viewing the declarative markup in Visual Studio 2005. If you are not using Visual Studio 2008 you will need to manually add the `<%--` and `--%>` delimiters.
 
-
 Next, drag a Login control from the Toolbox on to the page and set its `ID` property to `myLogin`. At this point your screen should look similar to Figure 3. Note that the Login control's default interface includes TextBox controls for the username and password, a Remember me next time CheckBox, and a Log In Button. There are also `RequiredFieldValidator` controls for the two TextBoxes.
-
 
 [![Add a Login Control to the Page](validating-user-credentials-against-the-membership-user-store-cs/_static/image8.png)](validating-user-credentials-against-the-membership-user-store-cs/_static/image7.png)
 
 **Figure 3**: Add a Login Control to the Page  ([Click to view full-size image](validating-user-credentials-against-the-membership-user-store-cs/_static/image9.png))
-
 
 And we're done! When the Login control's Log In button is clicked, a postback will occur and the Login control will call the `Membership.ValidateUser` method, passing in the entered username and password. If the credentials are invalid, the Login control displays a message stating such. If, however, the credentials are valid, then the Login control creates the forms authentication ticket and redirects the user to the appropriate page.
 
@@ -108,11 +98,9 @@ The Login control uses four factors to determine the appropriate page to redirec
 
 Figure 4 depicts the how the Login control uses these four parameters to arrive at its appropriate page decision.
 
-
 [![Add a Login Control to the Page](validating-user-credentials-against-the-membership-user-store-cs/_static/image11.png)](validating-user-credentials-against-the-membership-user-store-cs/_static/image10.png)
 
 **Figure 4**: Add a Login Control to the Page  ([Click to view full-size image](validating-user-credentials-against-the-membership-user-store-cs/_static/image12.png))
-
 
 Take a moment to test out the Login control by visiting the site through a browser and logging in as an existing user in the Membership framework.
 
@@ -133,16 +121,13 @@ The Login control offers two properties for adjusting the layout of its user int
 > [!NOTE]
 > In the next section, Configuring the Login Control's Layout, we will look at using templates to define the precise layout of the Layout control's user interface elements.
 
-
 Wrap up the Login control's property settings by setting the [`CreateUserText`](https://msdn.microsoft.com/library/system.web.ui.webcontrols.login.createusertext.aspx) and [`CreateUserUrl` properties](https://msdn.microsoft.com/library/system.web.ui.webcontrols.login.createuserurl.aspx) to Not registered yet? Create an account! and `~/Membership/CreatingUserAccounts.aspx`, respectively. This adds a hyperlink to the Login control's interface pointing to the page we created in the <a id="SKM6"></a>[preceding tutorial](creating-user-accounts-cs.md). The Login control's [`HelpPageText`](https://msdn.microsoft.com/library/system.web.ui.webcontrols.login.helppagetext.aspx) and [`HelpPageUrl` properties](https://msdn.microsoft.com/library/system.web.ui.webcontrols.login.helppageurl.aspx) and [`PasswordRecoveryText`](https://msdn.microsoft.com/library/system.web.ui.webcontrols.login.passwordrecoverytext.aspx) and [`PasswordRecoveryUrl` properties](https://msdn.microsoft.com/library/system.web.ui.webcontrols.login.passwordrecoveryurl.aspx) work in the same manner, rendering links to a help page and a password recovery page.
 
 After making these property changes, your Login control's declarative markup and appearance should look similar to that shown in Figure 5.
 
-
 [![The Login Control's Properties' Values Dictate Its Appearance](validating-user-credentials-against-the-membership-user-store-cs/_static/image14.png)](validating-user-credentials-against-the-membership-user-store-cs/_static/image13.png)
 
 **Figure 5**: The Login Control's Properties' Values Dictate Its Appearance  ([Click to view full-size image](validating-user-credentials-against-the-membership-user-store-cs/_static/image15.png))
-
 
 ### Configuring the Login Control's Layout
 
@@ -157,23 +142,18 @@ To accomplish the first task, we need to convert the Login control into a templa
 
 Let's update the Login control so that it prompts users for their username, password, and email address and only authenticates the user if the email address supplied matches their email address on file. We first need to convert the Login control's interface to a template. From the Login control's Smart Tag, choose the Convert to template option.
 
-
 [![Convert the Login Control to a Template](validating-user-credentials-against-the-membership-user-store-cs/_static/image17.png)](validating-user-credentials-against-the-membership-user-store-cs/_static/image16.png)
 
 **Figure 6**: Convert the Login Control to a Template  ([Click to view full-size image](validating-user-credentials-against-the-membership-user-store-cs/_static/image18.png))
 
-
 > [!NOTE]
 > To revert the Login control to its pre-template version, click the Reset link from the control's Smart Tag.
 
-
 Converting the Login control to a template adds a `LayoutTemplate` to the control's declarative markup with HTML elements and Web controls defining the user interface. As Figure 7 shows, converting the control to a template removes a number of properties from the Properties window, such as `TitleText`, `CreateUserUrl`, and so forth, since these property values are ignored when using a template.
-
 
 [![Fewer Properties are Available When the Login Control is Converted to a Template](validating-user-credentials-against-the-membership-user-store-cs/_static/image20.png)](validating-user-credentials-against-the-membership-user-store-cs/_static/image19.png)
 
 **Figure 7**: Fewer Properties are Available When the Login Control is Converted to a Template  ([Click to view full-size image](validating-user-credentials-against-the-membership-user-store-cs/_static/image21.png))
-
 
 The HTML markup in the `LayoutTemplate` may be modified as needed. Likewise, feel free to add any new Web controls to the template. However, it is important that Login control's core Web controls remain in the template and keep their assigned `ID` values. In particular, do not remove or rename the `UserName` or `Password` TextBoxes, the `RememberMe` CheckBox, the `LoginButton` Button, the `FailureText` Label, or the `RequiredFieldValidator` controls.
 
@@ -183,11 +163,9 @@ To collect the visitor's email address, we need to add a TextBox to the template
 
 After adding the `Email` TextBox, visit the page through a browser. As Figure 8 shows, the Login control's user interface now includes a third textbox.
 
-
 [![The Login Control Now Includes a Textbox for the User's Email Address](validating-user-credentials-against-the-membership-user-store-cs/_static/image23.png)](validating-user-credentials-against-the-membership-user-store-cs/_static/image22.png)
 
 **Figure 8**: The Login Control Now Includes a Textbox for the User's Email Address  ([Click to view full-size image](validating-user-credentials-against-the-membership-user-store-cs/_static/image24.png))
-
 
 At this point, the Login control is still using the `Membership.ValidateUser` method to validate the supplied credentials. Correspondingly, the value entered into the `Email` TextBox has no bearing on whether the user can log in. In Step 3 we will look at how to override the Login control's authentication logic so that the credentials are only considered valid if the username and password are valid and the supplied email address matches up with the email address on file.
 
@@ -201,15 +179,12 @@ If the supplied credentials are valid, then the forms authentication ticket is c
 
 Figure 9 offers a flow chart of the authentication workflow.
 
-
 [![The Login Control's Authentication Workflow](validating-user-credentials-against-the-membership-user-store-cs/_static/image26.png)](validating-user-credentials-against-the-membership-user-store-cs/_static/image25.png)
 
 **Figure 9**: The Login Control's Authentication Workflow  ([Click to view full-size image](validating-user-credentials-against-the-membership-user-store-cs/_static/image27.png))
 
-
 > [!NOTE]
 > If you are wondering when you would use the `FailureAction`'s `RedirectToLogin` page option, consider the following scenario. Right now our `Site.master` master page currently has the text, Hello, stranger displayed in the left column when visited by an anonymous user, but imagine that we wanted to replace that text with a Login control. This would allow an anonymous user to log in from any page on the site, instead of requiring them to visit the login page directly. However, if a user was unable to log in via the Login control rendered by the master page, it might make sense to redirect them to the login page (`Login.aspx`) because that page likely includes additional instructions, links, and other help - such as links to create a new account or retrieve a lost password - that were not added to the master page.
-
 
 ### Creating the`Authenticate`Event Handler
 
@@ -240,15 +215,12 @@ The following code implements these two checks. If both pass, then `e.Authentica
 
 With this code in place, attempt to log in as a valid user, entering the correct username, password, and email address. Try it again, but this time purposefully use an incorrect email address (see Figure 10). Finally, try it a third time using a non-existent username. In the first case you should be successfully logged on to the site, but in the last two cases you should see the Login control's invalid credentials message.
 
-
 [![Tito Cannot Log In When Supplying an Incorrect Email Address](validating-user-credentials-against-the-membership-user-store-cs/_static/image29.png)](validating-user-credentials-against-the-membership-user-store-cs/_static/image28.png)
 
 **Figure 10**: Tito Cannot Log In When Supplying an Incorrect Email Address  ([Click to view full-size image](validating-user-credentials-against-the-membership-user-store-cs/_static/image30.png))
 
-
 > [!NOTE]
 > As discussed in the How the Membership Framework Handles Invalid Login Attempts section in Step 1, when the `Membership.ValidateUser` method is called and passed invalid credentials, it keeps track of the invalid login attempt and locks out the user if they exceed a certain threshold of invalid attempts within a specified time window. Since our custom authentication logic calls the `ValidateUser` method, an incorrect password for a valid username will increment the invalid login attempt counter, but this counter is not incremented in the case where the username and password are valid, but the email address is incorrect. Chances are, this behavior is suitable, since it's unlikely that a hacker will know the username and password, but have to use brute force techniques to determine the user's email address.
-
 
 ## Step 4: Improving the Login Control's Invalid Credentials Message
 
@@ -273,11 +245,9 @@ The above code starts by setting the Login control's `FailureText` property to t
 
 To test this code, purposefully attempt to log in as an existing user, but use an incorrect password. Do this five times in a row within a 10 minute time frame and the account will be locked out. As Figure 11 shows, subsequent login attempts will always fail (even with the correct password), but will now display the more descriptive Your account has been locked out because of too many invalid login attempts. Please contact the administrator to have your account unlocked message.
 
-
 [![Tito Performed Too Many Invalid Login Attempts and Has Been Locked Out](validating-user-credentials-against-the-membership-user-store-cs/_static/image32.png)](validating-user-credentials-against-the-membership-user-store-cs/_static/image31.png)
 
 **Figure 11**: Tito Performed Too Many Invalid Login Attempts and Has Been Locked Out  ([Click to view full-size image](validating-user-credentials-against-the-membership-user-store-cs/_static/image33.png))
-
 
 ## Summary
 

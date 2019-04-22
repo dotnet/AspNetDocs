@@ -19,7 +19,6 @@ by [Jon Galloway](https://github.com/jongalloway)
 >   
 > This tutorial series details all of the steps taken to build the ASP.NET MVC Music Store sample application. Part 10 covers Final Updates to Navigation and Site Design, Conclusion.
 
-
 We've completed all the major functionality for our site, but we still have some features to add to the site navigation, the home page, and the Store Browse page.
 
 ## Creating the Shopping Cart Summary Partial View
@@ -127,7 +126,6 @@ Now when we run the application, we'll see our updated home page with top sellin
 ## Conclusion
 
 We've seen that ASP.NET MVC makes it easy to create a sophisticated website with database access, membership, AJAX, etc. pretty quickly. Hopefully this tutorial has given you the tools you need to get started building your own ASP.NET MVC applications!
-
 
 > [!div class="step-by-step"]
 > [Previous](mvc-music-store-part-9.md)

@@ -40,7 +40,6 @@ Web API configuration settings are defined in the [HttpConfiguration](https://ms
 | **Routes** | The collection of routes. See [Routing in ASP.NET Web API](../web-api-routing-and-actions/routing-in-aspnet-web-api.md). |
 | **Services** | The collection of services. See [Services](#services). |
 
-
 ## Prerequisites
 
 [Visual Studio 2017](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=button+cta&utm_content=download+vs2017) Community, Professional, or Enterprise edition.
@@ -85,11 +84,9 @@ The **HttpConfiguration.Services** collection contains a set of global services 
 > [!NOTE]
 > The **Services** collection is not a general-purpose mechanism for service discovery or dependency injection. It only stores service types that are known to the Web API framework.
 
-
 The **Services** collection is initialized with a default set of services, and you can provide your own custom implementations. Some services support multiple instances, while others can have only one instance. (However, you can also provide services at the controller level; see [Per-Controller Configuration](#percontrollerconfig).
 
 Single-Instance Services
-
 
 | Service | Description |
 | --- | --- |
@@ -110,7 +107,6 @@ Single-Instance Services
 | **IModelValidatorCache** | Provides a cache of model validators. |
 
 Multiple-Instance Services
-
 
 |                 Service                 |                                                                                                              Description                                                                                                               |
 |-----------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|

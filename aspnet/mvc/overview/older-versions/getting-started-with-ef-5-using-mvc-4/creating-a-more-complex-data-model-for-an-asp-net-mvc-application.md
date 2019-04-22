@@ -21,7 +21,6 @@ by [Tom Dykstra](https://github.com/tdykstra)
 > > 
 > > If you run into a problem you can't resolve, [download the completed chapter](building-the-ef5-mvc4-chapter-downloads.md) and try to reproduce your problem. You can generally find the solution to the problem by comparing your code to the completed code. For some common errors and how to solve them, see [Errors and Workarounds.](advanced-entity-framework-scenarios-for-an-mvc-web-application.md#errors)
 
-
 In the previous tutorials you worked with a simple data model that was composed of three entities. In this tutorial you'll add more entities and relationships and you'll customize the data model by specifying formatting, validation, and database mapping rules. You'll see two ways to customize the data model: by adding attributes to entity classes and by adding code to the database context class.
 
 When you're finished, the entity classes will make up the completed data model that's shown in the following illustration:
@@ -46,9 +45,7 @@ The [DataType](https://msdn.microsoft.com/library/system.componentmodel.dataanno
 
 The `DisplayFormat` attribute is used to explicitly specify the date format:
 
-
 [!code-csharp[Main](creating-a-more-complex-data-model-for-an-asp-net-mvc-application/samples/sample2.cs)]
-
 
 The `ApplyFormatInEditMode` setting specifies that the specified formatting should also be applied when the value is displayed in a text box for editing. (You might not want that for some fields — for example, for currency values, you might not want the currency symbol in the text box for editing.)
 
@@ -118,7 +115,6 @@ You can also make database mapping changes using the [Fluent API](https://msdn.m
 
 > [!NOTE]
 > If you try to compile before you finish creating all of these entity classes, you might get compiler errors.
-
 
 ## Create the Instructor Entity
 
@@ -254,7 +250,6 @@ The foreign key and navigation properties reflect the following relationships:
 
 [!code-csharp[Main](creating-a-more-complex-data-model-for-an-asp-net-mvc-application/samples/sample24.cs)]
 
-
 ## Modifying the Student Entity
 
 ![Student_entity](creating-a-more-complex-data-model-for-an-asp-net-mvc-application/_static/image10.png)
@@ -372,7 +367,6 @@ After you have finished editing the &lt;*timestamp&gt;\_Chap4.cs* file, enter th
 > [!code-xml[Main](creating-a-more-complex-data-model-for-an-asp-net-mvc-application/samples/sample35.xml?highlight=1-2)]
 > 
 > With a new database, there is no data to migrate, and the `update-database` command is much more likely to complete without errors. For instructions on how to delete the database, see [How to Drop a Database from Visual Studio 2012](http://romiller.com/2013/05/17/how-to-drop-a-database-from-visual-studio-2012/).
-
 
 Open the database in **Server Explorer** as you did earlier, and expand the **Tables** node to see that all of the tables have been created. (If you still have **Server Explorer** open from the earlier time, click the **Refresh** button.)
 

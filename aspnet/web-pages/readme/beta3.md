@@ -35,7 +35,6 @@ msc.type: content
 
 > Microsoft WebMatrix Beta is a free web development stack that installs in minutes. It integrates a web server with database and programming frameworks to create a single, integrated experience. You can use WebMatrix Beta to streamline the way you code, test, and publish your own ASP.NET or PHP website, or you can use WebMatrix Beta to start a new website using popular open-source apps like DotNetNuke, Umbraco, WordPress, or Joomla. WebMatrix Beta uses the same powerful web server, database engine, and frameworks environment that will run your website on the internet, which makes the transition from development to production smooth and seamless.
 
-
 <a id="Installation_Notes"></a>
 
 ## Installation
@@ -44,13 +43,11 @@ msc.type: content
 > 
 > If you have problems during installation, refer to [Troubleshooting Problems with Microsoft Web Platform Installer](https://go.microsoft.com/fwlink/?LinkId=196212).
 
-
 <a id="Installation_Notes0"></a>
 
 ## Instructions for Publishing Applications
 
 > See [Step-by-Step Instructions for Publishing Applications](https://go.microsoft.com/fwlink/?LinkID=196149)
-
 
 <a id="Known_Issues"></a>
 
@@ -74,12 +71,10 @@ msc.type: content
 > - Windows XP SP3
 > - Windows Server 2003 SP2
 
-
 #### Issue: Cannot install WebMatrix Beta 3 if Microsoft Visual Studio 2008 is installed without Microsoft Visual Studio 2008 SP1
 
 > **Workaround**  
 > Install [Microsoft Visual Studio 2008 SP1](https://www.microsoft.com/downloads/details.aspx?FamilyId=FBEE1648-7106-44A7-9649-6D9F6D58056E&amp;displaylang=en) from the Microsoft Download Center.
-
 
 #### Issue: Some assemblies for SQL Server Compact 4.0 are not installed in the GAC
 
@@ -95,14 +90,12 @@ msc.type: content
 >   
 > Then reinstall SQL Server Compact 4.0.
 
-
 #### Issue: Cannot uninstall SQL Server Compact using the command line
 
 > Uninstallation of SQL Server Compact using command-line options does not work in this release.
 > 
 > **Workaround**  
 > Use *Programs and Features* in the Windows Control Panel to uninstall Microsoft SQL Server Compact 4.0.
-
 
 <a id="Known_Issues_ASPNET"></a>
 
@@ -128,7 +121,6 @@ This section of the document describes new features, changes, and known issues w
 > 
 > [!code-cshtml[Main](beta3/samples/sample1.cshtml)]
 
-
 <a id="Changes"></a>
 
 #### Changes in Beta 3 for ASP.NET Web Pages with Razor Syntax
@@ -136,7 +128,6 @@ This section of the document describes new features, changes, and known issues w
 #### Change: "HrefAttribute" method removed
 
 > The `HrefAttribute` method of the `WebPage` class has been removed. This helper was used to encode unsafe characters in URLs. It is no longer required because ASP.NET Razor automatically encodes strings. (Use the new `Html.Raw` method to render unencoded strings.)
-
 
 #### Change: Syntax for declarative "@helper" helpers changed
 
@@ -152,16 +143,13 @@ This section of the document describes new features, changes, and known issues w
 > 
 > Notice that the `@{ }` characters around the initial code in the helper is no longer used. This is because the contents of the helpers are treated as a code block by default. The helper renders markup, which starts with the opening `<a>` tag. If the helper must render plain text or tags that do not include a closing tag (for example, `<meta>` tags), the content to be rendered must be in `<text></text>` tags.
 
-
 #### Change: "WebPageContext.HttpContext" removed
 
 > The `WebPageContext.HttpContext` property has been removed. Use `HttpContext.Current` instead. (The `WebPageContext.HttpContext` property simply wrapped this.)
 
-
 #### Change: "Facebook" helper moved to new package
 
 > The `Facebook` helper has been moved to the *Facebook.Helper* library, which includes the `Facebook` helper and additional functionality. You must install this library as a separate package, as described in "Installing Helpers with Package Manager" in the tutorial [Getting Started with ASP.NET Pages](https://go.microsoft.com/fwlink/?LinkId=202889).
-
 
 #### Change: Membership, Role, and Security types moves to new assembly
 
@@ -172,13 +160,11 @@ This section of the document describes new features, changes, and known issues w
 > - `SimpleRoleProvider`
 > - `WebSecurity`
 
-
 #### Change: "TagBuilder" class moved to System.Web.WebPages.dll assembly
 
 > The `TagBuilde` r class has been moved to the System.Web.WebPages.dll assembly. Previously, this was in an assembly that was part of ASP.NET MVC. This change means that you do not have to install ASP.NET MVC in order to use the `TagBuilder` class.
 > 
 > However, the class is still in the `System.Web.Mvc` namespace. In order to use the `TagBuilder` class (for example, in a custom ASP.NET Razor helper), you must reference the namespace (for example, by adding `@using System.Web.Mvc` to your code).
-
 
 #### Change: Request validation syntax changed; "Validation" class removed
 
@@ -191,7 +177,6 @@ This section of the document describes new features, changes, and known issues w
 > To disable automatic request validation, call the `Request.Unvalidated` method, passing it the name of the field or other post object that you want to bypass request validation for. You can use this method to bypass validation for any items in the `Form`, `QueryString`, `Cookies`, and `ServerVariables` collections. The following examples show how to use the `Unvalidated` method:
 > 
 > [!code-csharp[Main](beta3/samples/sample4.cs)]
-
 
 <a id="Issues"></a>
 
@@ -206,13 +191,11 @@ This section of the document describes new features, changes, and known issues w
 > **Workaround**  
 > Make sure that the name passed in the `InitializeDatabaseConnection` method matches the user profile table in the membership database, or make sure that the `autoCreateTables` parameter is set to false.
 
-
 #### Issue: "Failed to generate a user instance of SQL Server" error
 
 > If a WebMatrix Web application uses SQL Server Express and is running IIS 7.5 on Windows 7 or Windows Server 2008 R2, you might see an error that indicates that SQL Server cannot retrieve the user's local application path at run time.
 > 
 > **Workaround** Make sure that the Windows account that the application runs under (typically NETWORK SERVICE) has read/write permissions for root folders of the application and for subfolders such as *App\_Data*. More detailed information is available in the KnowledgeBase article [Problems with SQL Server Express user instancing and ASP.net Web Application Projects](https://support.microsoft.com/kb/2002980).
-
 
 #### Issue: In Visual Studio, namespaces for custom assemblies (DLLs) are not imported automatically
 
@@ -221,13 +204,11 @@ This section of the document describes new features, changes, and known issues w
 > **Workaround**  
 > Include a `using` statement (`imports` in Visual Basic) that references the entities that are not recognized at design time.
 
-
 #### Issue: Visual Studio IntelliSense and project templates available only in ASP.NET MVC version 3
 
 > Installing ASP.NET Web Pages does not also install tools for Visual Studio such as IntelliSense and project templates for ASP.NET Web Pages applications.
 > 
 > **Workaround** To use IntelliSense and project templates for ASP.NET Web Pages applications in Visual Studio, install ASP.NET MVC 3 RC either through the Web Platform Installer or the [stand-alone installer](https://go.microsoft.com/fwlink/?LinkID=191797).
-
 
 #### Issue: "&lt;helper&gt; class cannot be found" error
 
@@ -235,7 +216,6 @@ This section of the document describes new features, changes, and known issues w
 > 
 > **Workaround**  
 > Comment out calls to any helpers in the site, run the *\_Admin* page, and install the package or packages that include the helpers that you want to use. After you've installed the package, you can uncomment the lines that reference helpers.
-
 
 #### Issue: Deploying Beta 3 ASP.NET Razor assemblies to the Bin folder might not work on hosting sites
 
@@ -247,7 +227,6 @@ This section of the document describes new features, changes, and known issues w
 > 
 > **Workaround** Contact your hosting provider to confirm that the errors you are seeing are due to a conflict between the provider's versions of the assemblies and yours. If so, request that the hosting provider update the assemblies in the server's GAC.
 
-
 #### Issue: Reading feeds or other external data via a proxy server
 
 > If the server running the site is behind a proxy server, you might need to configure proxy information in the *Web.config* file in order to be able to read information that comes from outside your site. For example, if you use the `ReCaptcha` helper, the helper communicates with the reCAPTCHA service, but might be blocked by your proxy server. Similarly, feeds that are used in ASP.NET Web Pages, such as the feed used by the package manager, might require proxy configuration.
@@ -258,7 +237,6 @@ This section of the document describes new features, changes, and known issues w
 > 
 > For more information about configuring a proxy server, see [&lt;proxy&gt; Element (Network Settings)](https://msdn.microsoft.com/library/sa91de1e.aspx) on the MSDN Web site.
 
-
 #### Issue: "Microsoft.Web.Infrastructure.dll cannot be loaded" error
 
 > If you previously installed the Beta 1 version of ASP.NET Web Pages with Razor syntax and then install the Beta 3 version, all appropriate assemblies are installed in the GAC except *Microsoft.Web.Infrastructure.dll*. As a consequence, when you run ASP.NET Razor pages, you see an error that indicates that *Microsoft.Web.Infrastructure.dll* could not be loaded.
@@ -267,7 +245,6 @@ This section of the document describes new features, changes, and known issues w
 > 
 > **Workaround**  
 > In Control Panel, uninstall ASP.NET Web Pages. Then reinstall the Beta 3 release.
-
 
 #### Issue: Uninstalling the .NET Framework version 4 disables ASP.NET Web Pages with Razor Syntax
 
@@ -281,14 +258,12 @@ This section of the document describes new features, changes, and known issues w
 > 
 > [!code-xml[Main](beta3/samples/sample6.xml)]
 
-
 #### Issue: Applications previously deployed with ASP.NET assemblies in the Bin folder experience errors
 
 > During deployment, copies of the ASP.NET Web Pages assemblies (for example, *Microsoft.WebPages.dll*) to the *Bin* folder of the website on the server. (This might have happened automatically during deployment or because the developer explicitly copied the assemblies.) However, when the Beta 3 release is installed, errors occurs, such as errors that certain types cannot be found. This occurs because a number of ASP.NET Web Pages types were moved into different namespaces for the Beta 3 release.
 > 
 > **Workaround**   
 > Clear the *Bin* folder of the deployed application, copy the new assemblies to the folder (or redeploy the application), and then restart the application.
-
 
 #### Issue: Extensionless URLs do not find .cshtml/.vbhtml files on IIS 7 or IIS 7.5
 
@@ -306,7 +281,6 @@ This section of the document describes new features, changes, and known issues w
 > 
 > [!code-xml[Main](beta3/samples/sample7.xml)]
 
-
 #### Issue: Using Web Application Project or ASP.NET MVC and ASP.NET Web pages in the same application
 
 > If you were using ASP.NET Web Pages in a Web Application project or ASP.NET MVC application, you might see an error that *WebPageHttpApplication* cannot be found.
@@ -321,7 +295,6 @@ This section of the document describes new features, changes, and known issues w
 > [!code-csharp[Main](beta3/samples/sample9.cs)]
 > 
 > This in effect reverses a change that was introduced for the Beta 1 release of ASP.NET Web Pages with Razor syntax.
-
 
 #### Issue: Deploying an application to a computer that does not have SQL Server Compact installed
 
@@ -339,7 +312,6 @@ This section of the document describes new features, changes, and known issues w
 > 
 > 
 > [!code-xml[Main](beta3/samples/sample10.xml)]
-
 
 #### Issue: Database and WebGrid helpers do not work in Medium Trust in Visual Basic
 
@@ -374,7 +346,6 @@ This section of the document describes new features, changes, and known issues w
 > 
 > [!code-vb[Main](beta3/samples/sample16.vb)]
 
-
 #### Issue: Microsoft Visual C++ 2008 runtime libraries are required
 
 > The native DLLs of SQL Server Compact 4.0 need the Microsoft Visual C++ 2008 Runtime Libraries (x86, IA64, and x64), Service Pack 1.
@@ -386,7 +357,6 @@ This section of the document describes new features, changes, and known issues w
 > 
 > [!NOTE]
 > Note that installing the .NET Framework 2.0, 3.0, or 4 does *not* install the Visual C++ 2008 Runtime Libraries SP1.
-
 
 #### Issue: If SQL Server Compact is installed prior to installing .NET Framework on the computer, its provider invariant name is not registered in the .NET Framework machine.config file
 
@@ -402,7 +372,6 @@ This section of the document describes new features, changes, and known issues w
 > 
 > Then reinstall [SQL Server Compact 4.0 CTP1](https://www.microsoft.com/downloads/details.aspx?FamilyID=0d2357ea-324f-46fd-88fc-7364c80e4fdb&amp;displaylang=en).
 
-
 <a id="Known_Issues_Installing_Applications"></a>
 
 ### Installing Applications
@@ -411,7 +380,6 @@ This section of the document describes new features, changes, and known issues w
 
 > **Workaround**  
 > None. The application might take a while to install, but will install correctly.
-
 
 <a id="Known_Issues_Publishing_Applications"></a>
 
@@ -424,14 +392,12 @@ This section of the document describes new features, changes, and known issues w
 > **Workaround**  
 > Make sure that before you publish a site, the destination URL in the **Publish Settings** dialog box starts with `http://` or `https://`.
 
-
 #### Issue: Publishing a MySQL database fails with the error "Failed to publish the database. This can happen if the remote database cannot run the script."
 
 > The error can occur for a number of reasons. One reason you can see this error is if the database script contains a single quotation character (') and the destination MySQL database's default character set is not to UTF-8.
 > 
 > **Workaround**  
 > Set the default character set for the remote MySQL database to UTF-8.
-
 
 <a id="Known_Issues_Other_Issues"></a>
 
@@ -442,7 +408,6 @@ This section of the document describes new features, changes, and known issues w
 > When you run a report for a site, if you enter text in the *Filter by URL* box and click *Search*, nothing happens. This is because this control is not functional while the *Group By* state of the report is set to *Issue Type*, which is the default.
 > 
 > **Workaround** In the *Group By* tab of ribbon, click *URL* to group the entries by their source URL. The text box and button to filter the entries are functional while in this state.
-
 
 #### Issue: WCF applications fail to run with IIS Express
 
@@ -463,7 +428,6 @@ This section of the document describes new features, changes, and known issues w
 > 
 >     [!code-console[Main](beta3/samples/sample19.cmd)]
 
-
 #### Issue: WebMatrix Beta 3 is unable to perform certain tasks that require elevation
 
 > WebMatrix Beta 3 is unable to perform certain tasks that require elevation, such as installing additional components in the following situations:
@@ -477,14 +441,12 @@ This section of the document describes new features, changes, and known issues w
 > - On Windows Vista or Windows 7, enable UAC.
 > - On Windows XP, add the user to the Administrators security group.
 
-
 #### Issue: "Site from Web Gallery" is disabled
 
 > The **Site from Web Gallery** option is disabled if the Web Platform Installer 3.0 is not installed.
 > 
 > **Workaround**  
 > Install the [Microsoft Web Platform Installer 3.0](https://go.microsoft.com/fwlink/?LinkID=194638).
-
 
 #### Issue: On Windows Server 2003, IIS Express does not start for a non-administrative user
 
@@ -495,14 +457,12 @@ This section of the document describes new features, changes, and known issues w
 >   
 > [An application that is started by a non-administrative user cannot listen to the HTTP traffic of the computer on which the application is running in Windows Vista, Windows Server 2003, or Windows XP.](https://support.microsoft.com/kb/939786)
 
-
 #### Issue: Google Chrome is not available as a Run option
 
 > Google Chrome is not displayed in the list of browsers under **Run** on the **Home** tab.
 > 
 > **Workaround**  
 > Some versions of Google Chrome do not register themselves correctly with the Default Programs feature in Windows. As a workaround, start Google Chrome, click the *Customize and control Google Chrome* menu, click *Options*, and then click *Make Google Chrome my default browser*.
-
 
 #### Issue: The "Foreign Key" dialog box doesn't allow entering a primary key
 
@@ -511,14 +471,12 @@ This section of the document describes new features, changes, and known issues w
 > **Workaround**  
 > This is intentional. You do not need to enter the name of the primary key from the primary key table.
 
-
 #### Issue: The "Relationships" button is disabled
 
 > The **Relationships** button under the **Table** tab in the **Databases** workspace is disabled for SQL Server Compact databases.
 > 
 > **Workaround**  
 > None. SQL Server Compact does not support relationships between tables.
-
 
 #### Issue: Parameterized SQL queries throw exceptions
 
@@ -530,7 +488,6 @@ This section of the document describes new features, changes, and known issues w
 > [!code-sql[Main](beta3/samples/sample20.sql)]
 > 
 > [!code-vb[Main](beta3/samples/sample21.vb)]
-
 
 <a id="More_Info"></a>
 

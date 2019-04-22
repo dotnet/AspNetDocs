@@ -17,7 +17,6 @@ by [Mads Kristensen](https://github.com/madskristensen)
 > 
 > [Download the Backbone.js SPA Template](https://go.microsoft.com/fwlink/?LinkId=293631)
 
-
 The Backbone.js SPA template is designed to get you started quickly building interactive client-side web apps using [Backbone.js.](http://backbonejs.org/)
 
 The template provides an initial skeleton for developing a Backbone.js application in ASP.NET MVC. Out of the box it provides basic user login functionality, including user sign-up, sign-in, password reset, and user confirmation with basic email templates.

@@ -47,7 +47,6 @@ If you receive an error, it may be because you did not build the project in the 
 
 After the code generation process is complete, you will see a new controller and views in your project's **Controllers** and **Views** > **Students** folders.
 
-
 Perform the same steps again, but add a scaffold for the **Enrollment** class. When finished, you have an **EnrollmentsController.cs** file, and a folder under **Views** named **Enrollments** with the Create, Delete, Details, Edit and Index views.
 
 ## Add links to new views

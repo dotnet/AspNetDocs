@@ -15,7 +15,6 @@ by [Microsoft](https://github.com/microsoft)
 
 > Custom Extenders enable you to customize and extend the capabilities of ASP.NET controls without having to create new classes.
 
-
 In this tutorial, you learn how to create a custom AJAX Control Toolkit control extender. We create a simple, but useful, new extender that changes the state of a Button from disabled to enabled when you type text into a TextBox. After reading this tutorial, you will be able to extend the ASP.NET AJAX Toolkit with your own control extenders.
 
 You can create custom control extenders using either Visual Studio or Visual Web Developer (make sure that you have the latest version of Visual Web Developer).
@@ -30,19 +29,15 @@ Our new control extender is named the DisabledButton extender. This extender wil
 
 You hook the DisabledButton extender to a TextBox and Button control. Before you type any text, the Button is disabled and the TextBox and Button look like this:
 
-
 [![](creating-a-custom-ajax-control-toolkit-control-extender-cs/_static/image2.png)](creating-a-custom-ajax-control-toolkit-control-extender-cs/_static/image1.png)
 
 ([Click to view full-size image](creating-a-custom-ajax-control-toolkit-control-extender-cs/_static/image3.png))
 
-
 After you start typing text, the Button is enabled and the TextBox and Button look like this:
-
 
 [![](creating-a-custom-ajax-control-toolkit-control-extender-cs/_static/image5.png)](creating-a-custom-ajax-control-toolkit-control-extender-cs/_static/image4.png)
 
 ([Click to view full-size image](creating-a-custom-ajax-control-toolkit-control-extender-cs/_static/image6.png))
-
 
 To create our control extender, we need to create the following three files:
 
@@ -72,11 +67,9 @@ Next, we need to create the class library project that will contain the code for
 
 After you complete these steps, your Solution Explorer window should look like Figure 1.
 
-
 [![Solution with website and class library project](creating-a-custom-ajax-control-toolkit-control-extender-cs/_static/image8.png)](creating-a-custom-ajax-control-toolkit-control-extender-cs/_static/image7.png)
 
 **Figure 01**: Solution with website and class library project([Click to view full-size image](creating-a-custom-ajax-control-toolkit-control-extender-cs/_static/image9.png))
-
 
 Next, you need to add all of the necessary assembly references to the class library project:
 
@@ -93,11 +86,9 @@ Next, you need to add all of the necessary assembly references to the class libr
 
 After you complete these steps, your class library project References folder should look like Figure 2.
 
-
 [![References folder with required references](creating-a-custom-ajax-control-toolkit-control-extender-cs/_static/image11.png)](creating-a-custom-ajax-control-toolkit-control-extender-cs/_static/image10.png)
 
 **Figure 02**: References folder with required references([Click to view full-size image](creating-a-custom-ajax-control-toolkit-control-extender-cs/_static/image12.png))
-
 
 ## Creating the Custom Control Extender
 
@@ -116,9 +107,7 @@ Next, notice that the class includes the following two attributes related to cli
 
 The WebResource attribute is used to embed the MyControlBehavior.js JavaScript file into the assembly when the custom extender is compiled. The ClientScriptResource attribute is used to retrieve the MyControlBehavior.js script from the assembly when the custom extender is used in a web page.
 
-
 In order for the WebResource and ClientScriptResource attributes to work, you must compile the JavaScript file as an embedded resource. Select the file in the Solution Explorer window, open the property sheet, and assign the value *Embedded Resource* to the **Build Action** property.
-
 
 Notice that the control extender also includes a TargetControlType attribute. This attribute is used to specify the type of control that is extended by the control extender. In the case of Listing 1, the control extender is used to extend a TextBox.
 
@@ -148,11 +137,9 @@ The initialize() method associates a keyup event handler with the target element
 
 Remember that you must compile the JavaScript file in Listing 3 as an embedded resource. Select the file in the Solution Explorer window, open the property sheet, and assign the value *Embedded Resource* to the **Build Action** property (see Figure 3). This option is available in both Visual Studio and Visual Web Developer.
 
-
 [![Adding a JavaScript file as an embedded resource](creating-a-custom-ajax-control-toolkit-control-extender-cs/_static/image14.png)](creating-a-custom-ajax-control-toolkit-control-extender-cs/_static/image13.png)
 
 **Figure 03**: Adding a JavaScript file as an embedded resource([Click to view full-size image](creating-a-custom-ajax-control-toolkit-control-extender-cs/_static/image15.png))
-
 
 ## Creating the Custom Extender Designer
 
@@ -177,11 +164,9 @@ Now that we have finished creating the DisabledButton control extender, it is ti
 
 After you complete these steps, the DisabledButton control extender should appear in the toolbox (see Figure 4).
 
-
 [![DisabledButton in the toolbox](creating-a-custom-ajax-control-toolkit-control-extender-cs/_static/image17.png)](creating-a-custom-ajax-control-toolkit-control-extender-cs/_static/image16.png)
 
 **Figure 04**: DisabledButton in the toolbox([Click to view full-size image](creating-a-custom-ajax-control-toolkit-control-extender-cs/_static/image18.png))
-
 
 Next, we need to create a new ASP.NET page. Follow these steps:
 
@@ -190,7 +175,6 @@ Next, we need to create a new ASP.NET page. Follow these steps:
 3. Drag a TextBox control onto the page.
 4. Drag a Button control onto the page.
 5. In the Properties window, change the Button ID property to the value <em>btnSave</em> and the Text property to the value *Save\**.
-  
 
 We created a page with a standard ASP.NET TextBox and Button control.
 
@@ -199,11 +183,9 @@ Next, we need to extend the TextBox control with the DisabledButton extender:
 1. Select the **Add Extender** task option to open the Extender Wizard dialog (see Figure 5). Notice that the dialog includes our custom DisabledButton extender.
 2. Select the DisabledButton extender and click the **OK** button.
 
-
 [![The Extender Wizard dialog](creating-a-custom-ajax-control-toolkit-control-extender-cs/_static/image20.png)](creating-a-custom-ajax-control-toolkit-control-extender-cs/_static/image19.png)
 
 **Figure 05**: The Extender Wizard dialog([Click to view full-size image](creating-a-custom-ajax-control-toolkit-control-extender-cs/_static/image21.png))
-
 
 Finally, we can set the properties of the DisabledButton extender. You can modify the properties of the DisabledButton extender by modifying the properties of the TextBox control:
 
@@ -211,19 +193,15 @@ Finally, we can set the properties of the DisabledButton extender. You can modif
 2. In the Properties window, expand the Extenders node (see Figure 6).
 3. Assign the value *Save* to the DisabledText property and the value *btnSave* to the TargetButtonID property.
 
-
 [![Setting extender properties](creating-a-custom-ajax-control-toolkit-control-extender-cs/_static/image23.png)](creating-a-custom-ajax-control-toolkit-control-extender-cs/_static/image22.png)
 
 **Figure 06**: Setting extender properties([Click to view full-size image](creating-a-custom-ajax-control-toolkit-control-extender-cs/_static/image24.png))
 
-
 When you run the page (by hitting F5), the Button control is initially disabled. As soon as you start entering text into the TextBox, the Button control is enabled (see Figure 7).
-
 
 [![The DisabledButton extender in action](creating-a-custom-ajax-control-toolkit-control-extender-cs/_static/image26.png)](creating-a-custom-ajax-control-toolkit-control-extender-cs/_static/image25.png)
 
 **Figure 07**: The DisabledButton extender in action([Click to view full-size image](creating-a-custom-ajax-control-toolkit-control-extender-cs/_static/image27.png))
-
 
 ## Summary
 

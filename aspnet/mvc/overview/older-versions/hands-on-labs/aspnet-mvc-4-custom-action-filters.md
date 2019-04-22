@@ -70,7 +70,6 @@ Estimated time to complete this lab: **30 minutes**.
 > [!NOTE]
 > Each exercise is accompanied by an **End** folder containing the resulting solution you should obtain after completing the exercises. You can use this solution as a guide if you need additional help working through the exercises.
 
-
 <a id="Exercise1"></a>
 
 <a id="Exercise_1_Logging_Actions"></a>
@@ -89,7 +88,6 @@ The filter will extend **ActionFilterAttributeClass** and override **OnActionExe
 > - **Exception** filter, which executes if there is an unhandled exception thrown somewhere in action method, starting with the authorization filters and ending with the execution of the result. Exception filters can be used for tasks such as logging or displaying an error page.
 > 
 > For more information about Filters Providers please visit this MSDN link: ([https://msdn.microsoft.com/library/dd410209.aspx](https://msdn.microsoft.com/library/dd410209.aspx)) .
-
 
 <a id="AboutLoggingFeature"></a>
 
@@ -126,7 +124,6 @@ In this task you will create a custom filter attribute class that will contain t
 > - **OnResultExecuted**(ResultExecutedContext filterContext): After the result is executed (after the view is rendered).
 > 
 > By overriding any of these methods into a derived class, you can execute your own filtering code.
-
 
 1. Open the **Begin** solution located at **\Source\Ex01-LoggingActions\Begin** folder.
 
@@ -346,7 +343,6 @@ In this task, you will update the solution to register the new filter (**MyNewCu
 
 > [!NOTE]
 > Additionally, you can deploy this application to Windows Azure Web Sites following [Appendix B: Publishing an ASP.NET MVC 4 Application using Web Deploy](#AppendixB).
-
 
 ---
 

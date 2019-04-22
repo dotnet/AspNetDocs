@@ -30,7 +30,6 @@ by [Tom FitzMacken](https://github.com/tfitzmac)
 > - ASP.NET Web Pages (Razor) 2
 > - ASP.NET Web Helpers Library (NuGet package)
 
-
 Analytics is a general term for technology that measures traffic on your website so you can understand how people use the site. Many analytics services are available, including services from Google, Yahoo, StatCounter, and others.
 
 The way analytics works is that you sign up for an account with the analytics provider, where you register the site that you want to track. The provider sends you a snippet of JavaScript code that includes an ID or tracking code for your account. You add the JavaScript snippet to the web pages on the site that you want to track. (You typically add the analytics snippet to a footer or layout page or other HTML markup that appears on every page in your site.) When users request a page that contains one of these JavaScript snippets, the snippet sends information about the current page to the analytics provider, who records various details about the page.
@@ -54,7 +53,6 @@ In this procedure, you'll create a layout page that uses the `GetGoogleHtml` hel
 
 > [!NOTE]
 > When you create an analytics account, you register the URL of the site that you want to be tracking. If you're testing everything on your local computer, you won't be tracking actual traffic (the only traffic is you), so you won't be able to record and view site statistics. But this procedure shows how you add an analytics helper to a page. When you publish your site, the live site will send information to your analytics provider.
-
 
 1. Add the ASP.NET Web Helpers Library to your website as described in [Installing Helpers in an ASP.NET Web Pages Site](https://go.microsoft.com/fwlink/?LinkId=252372), if you haven't already added it.
 2. Create an account with Google Analytics and record the account name.

@@ -15,7 +15,6 @@ by [Rick Anderson]((https://twitter.com/RickAndMSFT))
 
 > This tutorial will teach you the basics of how to work with editor templates, display templates, and the jQuery UI datepicker popup calendar in an ASP.NET MVC Web application.
 
-
 ### Adding a Template for Editing Dates
 
 In this section you'll create a template for editing dates that will be applied when ASP.NET MVC displays UI for editing model properties that are marked with the **Date** enumeration of the [DataType](https://msdn.microsoft.com/library/system.componentmodel.dataannotations.datatype.aspx) attribute. The template will render only the date; time will not be displayed. In the template you'll use the [jQuery UI Datepicker](http://jqueryui.com/demos/datepicker/) popup calendar to provide a way to edit dates.

@@ -128,7 +128,6 @@ If you get the following error:
 
 ![](developing-aspnet-apps-with-windows-azure-active-directory/_static/image19.png)
 
-
 Replace the code in the *Views\Shared\\_LoginPartial.cshtml* file with the following:
 
 [!code-cshtml[Main](developing-aspnet-apps-with-windows-azure-active-directory/samples/sample2.cshtml?highlight=1-8,15-16)]

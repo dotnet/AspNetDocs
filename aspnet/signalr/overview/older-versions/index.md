@@ -13,7 +13,6 @@ msc.type: chapter
 
 > Documentation that pertains to earlier versions of SignalR.
 
-
 - [Tutorial: Getting Started with SignalR 1.x](tutorial-getting-started-with-signalr.md)
 - [Tutorial: Getting Started with SignalR 1.x and MVC 4](tutorial-getting-started-with-signalr-and-mvc-4.md)
 - [High-Frequency Realtime with SignalR 1.x](tutorial-high-frequency-realtime-with-signalr.md)

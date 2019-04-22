@@ -51,7 +51,6 @@ The advantages of using Dependency Injection pattern and Inversion of Control ar
 > [!NOTE]
 > Dependency Injection is sometimes compared with Abstract Factory Design Pattern, but there is a slight difference between both approaches. DI has a Framework working behind to solve dependencies by calling the factories and the registered services.
 
-
 Now that you understand the Dependency Injection Pattern, you will learn throughout this lab how to apply it in ASP.NET MVC 4. You will start using Dependency Injection in the **Controllers** to include a database access service. Next, you will apply Dependency Injection to the **Views** to consume a service and show information. Finally, you will extend the DI to ASP.NET MVC 4 Filters, injecting a custom action filter in the solution.
 
 In this Hands-on Lab, you will learn how to:
@@ -63,7 +62,6 @@ In this Hands-on Lab, you will learn how to:
 
 > [!NOTE]
 > This Lab is using Unity.Mvc3 NuGet Package for dependency resolution, but it is possible to adapt any Dependency Injection Framework to work with ASP.NET MVC 4.
-
 
 <a id="Prerequisites"></a>
 
@@ -101,7 +99,6 @@ This Hands-On Lab is comprised by the following exercises:
 > [!NOTE]
 > Each exercise is accompanied by an **End** folder containing the resulting solution you should obtain after completing the exercises. You can use this solution as a guide if you need additional help working through the exercises.
 
-
 Estimated time to complete this lab: **30 minutes**.
 
 <a id="Exercise1"></a>
@@ -131,12 +128,10 @@ You will find below that the **StoreController** implementation has a dependency
 > 
 > To resolve the dependency, the controller has to be created by an abstract factory (a class that returns any object of the specified type).
 
-
 [!code-csharp[Main](aspnet-mvc-4-dependency-injection/samples/sample2.cs)]
 
 > [!NOTE]
 > You will get an error when the class tries to create the StoreController without sending the service object, as there is no parameterless constructor declared.
-
 
 <a id="Ex1Task1"></a>
 
@@ -175,7 +170,6 @@ In this task, you will include **Unity.Mvc3** NuGet Package to the solution.
 > Unity.Mvc3 package was designed for ASP.NET MVC 3, but it is fully compatible with ASP.NET MVC 4.
 > 
 > Unity is a lightweight, extensible dependency injection container with optional support for instance and type interception. It is a general-purpose container for use in any type of .NET application. It provides all the common features found in dependency injection mechanisms including: object creation, abstraction of requirements by specifying dependencies at runtime and flexibility, by deferring the component configuration to the container.
-
 
 1. Install **Unity.Mvc3** NuGet Package in the **MvcMusicStore** project. To do this, open the **Package Manager Console** from **View** | **Other Windows**.
 2. Run the following command.
@@ -304,7 +298,6 @@ In the previous task, you injected a new dependency inside a view to perform a s
 > 
 > 
 > [!code-csharp[Main](aspnet-mvc-4-dependency-injection/samples/sample11.cs)]
-
 
 1. Create the /**Factories** folder in the project's root folder.
 2. Include **CustomViewPageActivator.cs** to your solution from **/Sources/Assets/** to **Factories** folder. To do that, right-click the **/Factories** folder, select **Add | Existing Item** and then select **CustomViewPageActivator.cs**. This class implements the **IViewPageActivator** interface to hold the Unity Container.

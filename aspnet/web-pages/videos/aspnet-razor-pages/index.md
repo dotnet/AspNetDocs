@@ -13,7 +13,6 @@ msc.type: chapter
 
 > Which videos you can view to drill down into Web Pages and WebMatrix.
 
-
 - [Getting Started with WebMatrix and ASP.NET Web Pages](getting-started-with-webmatrix-and-aspnet-web-pages.md)
 - [Intro to ASP.NET Web Programming Razor Syntax](introduction-to-aspnet-web-programming-using-the-razor-syntax.md)
 - [Creating a Consistent Look (Part 1)](creating-a-consistent-look-part-1.md)

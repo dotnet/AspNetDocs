@@ -13,7 +13,6 @@ msc.type: chapter
 
 > This set of tutorials looks at how to use the ObjectDataSource control to work with data retrieved from the BLL, all without code.
 
-
 - [Displaying Data With the ObjectDataSource (C#)](displaying-data-with-the-objectdatasource-cs.md)
 - [Declarative Parameters (C#)](declarative-parameters-cs.md)
 - [Programmatically Setting the ObjectDataSource's Parameter Values (C#)](programmatically-setting-the-objectdatasource-s-parameter-values-cs.md)

@@ -13,7 +13,6 @@ msc.type: chapter
 
 > These tutorials look at how to customize data display during data binding by using event handlers in the GridView, DetailsView, and FormView controls.
 
-
 - [Custom Formatting Based Upon Data (C#)](custom-formatting-based-upon-data-cs.md)
 - [Using TemplateFields in the GridView Control (C#)](using-templatefields-in-the-gridview-control-cs.md)
 - [Using TemplateFields in the DetailsView Control (C#)](using-templatefields-in-the-detailsview-control-cs.md)

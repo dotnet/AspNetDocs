@@ -23,7 +23,6 @@ by [Tom FitzMacken](https://github.com/tfitzmac)
 > 
 > This tutorial also works with ASP.NET Web Pages 2 and ASP.NET Web Pages 1.0.
 
-
 This topic contains the following sections:
 
 - [Issues with Running Pages](#Issues_Running_.cshtml_Pages)
@@ -144,7 +143,6 @@ Substitute the appropriate values for `your-SMTP-server-name`, and so on. Some o
 
 > [!NOTE]
 > Remove the markup that displays the error (`@errorMessage`) before you publish the page to a live site. It's not a good idea to let users see error messages that you get from a server.
-
 
 <a id="AdditionalResources"></a>
 ## Additional Resources

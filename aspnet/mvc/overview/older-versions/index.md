@@ -13,7 +13,6 @@ msc.type: chapter
 
 > Links to resources for learning how to use earlier versions of ASP.NET MVC.
 
-
 - [Getting Started with ASP.NET MVC 4](getting-started-with-aspnet-mvc4/index.md)
 
     - [Intro to ASP.NET MVC 4](getting-started-with-aspnet-mvc4/intro-to-aspnet-mvc-4.md)

@@ -17,7 +17,6 @@ by [Scott Mitchell](https://twitter.com/ScottOnWriting)
 
 > In this tutorial we'll step through examples of how we format the appearance of the DataList and Repeater controls, either by using formatting functions within templates or by handling the DataBound event.
 
-
 ## Introduction
 
 As we saw in the preceding tutorial, the DataList offers a number of style-related properties that affect its appearance. In particular, we saw how to assign default CSS classes to the DataList s `HeaderStyle`, `ItemStyle`, `AlternatingItemStyle`, and `SelectedItemStyle` properties. In addition to these four properties, the DataList includes a number of other style-related properties, such as `Font`, `ForeColor`, `BackColor`, and `BorderWidth`, to name a few. The Repeater control does not contain any style-related properties. Any such style settings must be made directly within the markup in the Repeater s templates.
@@ -54,7 +53,6 @@ When binding data to the Repeater control, it progresses through the exact same 
 > [!NOTE]
 > The astute reader may have noticed a slight anomaly between the sequence of steps that transpire when the DataList and Repeater are bound to data versus when the GridView is bound to data. At the tail end of the data binding process, the GridView raises the `DataBound` event; however, neither the DataList nor Repeater control have such an event. This is because the DataList and Repeater controls were created back in the ASP.NET 1.x timeframe, before the pre- and post-level event handler pattern had become common.
 
-
 Like with the GridView, one option for formatting based on the data is to create an event handler for the `ItemDataBound` event. This event handler would inspect the data that had just been bound to the `DataListItem` or `RepeaterItem` and affect the formatting of the control as needed.
 
 For the DataList control, formatting changes for the entire item can be implemented using the `DataListItem` s style-related properties, which include the standard `Font`, `ForeColor`, `BackColor`, `CssClass`, and so on. To affect the formatting of particular Web controls within the DataList s template, we need to programmatically access and modify the style of those Web controls. We saw how to accomplish this back in the *Custom Formatting Based Upon Data* tutorial. Like the Repeater control, the `RepeaterItem` class has no style-related properties; therefore, all style-related changes made to a `RepeaterItem` in the `ItemDataBound` event handler must be done by programmatically accessing and updating Web controls within the template.
@@ -67,11 +65,9 @@ Before we worry about the formatting, let s first create a page that uses a Data
 
 Once you have replicated the DataList and ObjectDataSource functionality from `Basics.aspx` into `Formatting.aspx`, take a moment to change the DataList s `ID` property from `DataList1` to a more descriptive `ItemDataBoundFormattingExample`. Next, view the DataList in a browser. As Figure 1 shows, the only formatting difference between each product is that the background color alternates.
 
-
 [![The Products are Listed in the DataList Control](formatting-the-datalist-and-repeater-based-upon-data-vb/_static/image2.png)](formatting-the-datalist-and-repeater-based-upon-data-vb/_static/image1.png)
 
 **Figure 1**: The Products are Listed in the DataList Control ([Click to view full-size image](formatting-the-datalist-and-repeater-based-upon-data-vb/_static/image3.png))
-
 
 For this tutorial, let s format the DataList such that any products with a price less than $20.00 will have both its name and unit price highlighted yellow.
 
@@ -80,7 +76,6 @@ For this tutorial, let s format the DataList such that any products with a price
 Since only those products with a price under $20.00 will have the custom formatting applied, we must be able to determine each product s price. When binding data to a DataList, the DataList enumerates the records in its data source and, for each record, creates a `DataListItem` instance, binding the data source record to the `DataListItem`. After the particular record s data has been bound to the current `DataListItem` object, the DataList s `ItemDataBound` event is fired. We can create an event handler for this event to inspect the data values for the current `DataListItem` and, based upon those values, make any formatting changes necessary.
 
 Create an `ItemDataBound` event for the DataList and add the following code:
-
 
 [!code-vb[Main](formatting-the-datalist-and-repeater-based-upon-data-vb/samples/sample1.vb)]
 
@@ -105,28 +100,22 @@ Once we know that a product s price is less than $20.00, all that remains is to 
 
 To apply the formatting, simply set the two Label Web controls `CssClass` properties to `AffordablePriceEmphasis`, as shown in the following code:
 
-
 [!code-vb[Main](formatting-the-datalist-and-repeater-based-upon-data-vb/samples/sample2.vb)]
 
 With the `ItemDataBound` event handler completed, revisit the `Formatting.aspx` page in a browser. As Figure 2 illustrates, those products with a price under $20.00 have both their name and price highlighted.
-
 
 [![Those Products Less than $20.00 are Highlighted](formatting-the-datalist-and-repeater-based-upon-data-vb/_static/image5.png)](formatting-the-datalist-and-repeater-based-upon-data-vb/_static/image4.png)
 
 **Figure 2**: Those Products Less than $20.00 are Highlighted ([Click to view full-size image](formatting-the-datalist-and-repeater-based-upon-data-vb/_static/image6.png))
 
-
 > [!NOTE]
 > Since the DataList is rendered as an HTML `<table>`, its `DataListItem` instances have style-related properties that can be set to apply a specific style to the entire item. For example, if we wanted to highlight the *entire* item yellow when its price was less than $20.00, we could have replaced the code that referenced the Labels and set their `CssClass` properties with the following line of code: `e.Item.CssClass = "AffordablePriceEmphasis"` (see Figure 3).
 
-
 The `RepeaterItem` s that make up the Repeater control, however, don t offer such style-level properties. Therefore, applying custom formatting to the Repeater requires the application of style properties to the Web controls within the Repeater s templates, just like we did in Figure 2.
-
 
 [![The Entire Product Item is Highlighted for Products Under $20.00](formatting-the-datalist-and-repeater-based-upon-data-vb/_static/image8.png)](formatting-the-datalist-and-repeater-based-upon-data-vb/_static/image7.png)
 
 **Figure 3**: The Entire Product Item is Highlighted for Products Under $20.00 ([Click to view full-size image](formatting-the-datalist-and-repeater-based-upon-data-vb/_static/image9.png))
-
 
 ## Using Formatting Functions from Within the Template
 
@@ -134,23 +123,19 @@ In the *Using TemplateFields in the GridView Control* tutorial we saw how to use
 
 To demonstrate formatting functions, let s have the product information include the text [DISCONTINUED] next to the product s name if it s discontinued. Also, let s have the price highlighted yellow if it s less than $20.00 (as we did in the `ItemDataBound` event handler example); if the price is $20.00 or higher, let s not display the actual price, but instead the text, Please call for a price quote. Figure 4 shows a screen shot of the products listing with these formatting rules applied.
 
-
 [![For Expensive Products, the Price is Replaced with the Text, Please call for a price quote](formatting-the-datalist-and-repeater-based-upon-data-vb/_static/image11.png)](formatting-the-datalist-and-repeater-based-upon-data-vb/_static/image10.png)
 
 **Figure 4**: For Expensive Products, the Price is Replaced with the Text, Please call for a price quote ([Click to view full-size image](formatting-the-datalist-and-repeater-based-upon-data-vb/_static/image12.png))
 
-
 ## Step 1: Create the Formatting Functions
 
 For this example we need two formatting functions, one that displays the product name along with the text [DISCONTINUED], if needed, and another that displays either a highlighted price if it s less than $20.00, or the text, Please call for a price quote otherwise. Let s create these functions in the ASP.NET page s code-behind class and name them `DisplayProductNameAndDiscontinuedStatus` and `DisplayPrice`. Both methods need to return the HTML to render as a string and both need to be marked `Protected` (or `Public`) in order to be invoked from the ASP.NET page s declarative syntax portion. The code for these two methods follows:
-
 
 [!code-vb[Main](formatting-the-datalist-and-repeater-based-upon-data-vb/samples/sample3.vb)]
 
 Note that the `DisplayProductNameAndDiscontinuedStatus` method accepts the values of the `productName` and `discontinued` data fields as scalar values, whereas the `DisplayPrice` method accepts a `ProductsRow` instance (rather than a `unitPrice` scalar value). Either approach will work; however, if the formatting function is working with scalar values that can contain database `NULL` values (such as `UnitPrice`; neither `ProductName` nor `Discontinued` allow `NULL` values), special care must be taken in handling these scalar inputs.
 
 In particular, the input parameter must be of type `Object` since the incoming value might be a `DBNull` instance instead of the expected data type. Additionally, a check must be made to determine whether or not the incoming value is a database `NULL` value. That is, if we wanted the `DisplayPrice` method to accept the price as a scalar value, we d have to use the following code:
-
 
 [!code-vb[Main](formatting-the-datalist-and-repeater-based-upon-data-vb/samples/sample4.vb)]
 
@@ -160,26 +145,21 @@ Note that the `unitPrice` input parameter is of type `Object` and that the condi
 
 With the formatting functions added to our ASP.NET page s code-behind class, all that remains is to invoke these formatting functions from the DataList s `ItemTemplate`. To call a formatting function from a template, place the function call within the databinding syntax:
 
-
 [!code-aspx[Main](formatting-the-datalist-and-repeater-based-upon-data-vb/samples/sample5.aspx)]
 
 In the DataList s `ItemTemplate` the `ProductNameLabel` Label Web control currently displays the product s name by assigning its `Text` property the result of `<%# Eval("ProductName") %>`. In order to have it display the name plus the text [DISCONTINUED], if needed, update the declarative syntax so that it instead assigns the `Text` property the value of the `DisplayProductNameAndDiscontinuedStatus` method. When doing so, we must pass in the product s name and discontinued values using the `Eval("columnName")` syntax. `Eval` returns a value of type `Object`, but the `DisplayProductNameAndDiscontinuedStatus` method expects input parameters of type `String` and `Boolean`; therefore, we must cast the values returned by the `Eval` method to the expected input parameter types, like so:
-
 
 [!code-aspx[Main](formatting-the-datalist-and-repeater-based-upon-data-vb/samples/sample6.aspx)]
 
 To display the price, we can simply set the `UnitPriceLabel` Label s `Text` property to the value returned by the `DisplayPrice` method, just like we did for displaying the product s name and [DISCONTINUED] text. However, instead of passing in the `UnitPrice` as a scalar input parameter, we instead pass in the entire `ProductsRow` instance:
 
-
 [!code-aspx[Main](formatting-the-datalist-and-repeater-based-upon-data-vb/samples/sample7.aspx)]
 
 With the calls to the formatting functions in place, take a moment to view our progress in a browser. Your screen should look similar to Figure 5, with the discontinued products including the text [DISCONTINUED] and those products costing more than $20.00 having their price replaced with the text Please call for a price quote .
 
-
 [![For Expensive Products, the Price is Replaced with the Text, Please call for a price quote](formatting-the-datalist-and-repeater-based-upon-data-vb/_static/image14.png)](formatting-the-datalist-and-repeater-based-upon-data-vb/_static/image13.png)
 
 **Figure 5**: For Expensive Products, the Price is Replaced with the Text, Please call for a price quote ([Click to view full-size image](formatting-the-datalist-and-repeater-based-upon-data-vb/_static/image15.png))
-
 
 ## Summary
 

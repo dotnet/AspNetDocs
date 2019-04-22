@@ -13,7 +13,6 @@ msc.type: chapter
 
 > The basics of creating ASP.NET Web Forms applications.
 
-
 - [Intro to Visual Web Developer](intro-to-visual-web-developer.md)
 - [IntelliSense](intellisense.md)
 - [Intro to Web Forms](intro-to-web-forms.md)

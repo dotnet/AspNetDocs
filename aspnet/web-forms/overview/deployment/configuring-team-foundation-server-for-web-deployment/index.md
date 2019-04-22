@@ -13,7 +13,6 @@ msc.type: chapter
 
 > This tutorial will show you how to configure Team Foundation Server (TFS) 2010 to build solutions and deploy web content to various target environments.
 
-
 - [Configuring Team Foundation Server for Web Deployment](configuring-team-foundation-server-for-web-deployment.md)
 - [Creating a Team Project in TFS](creating-a-team-project-in-tfs.md)
 - [Adding Content to Source Control](adding-content-to-source-control.md)

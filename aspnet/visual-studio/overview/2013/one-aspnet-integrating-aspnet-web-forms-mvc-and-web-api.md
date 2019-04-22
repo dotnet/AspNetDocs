@@ -21,7 +21,6 @@ by [Web Camps Team](https://twitter.com/webcamps)
 > 
 > All sample code and snippets are included in the Web Camps Training Kit, available at [https://aka.ms/webcamps-training-kit](https://aka.ms/webcamps-training-kit).
 
-
 <a id="Overview"></a>
 ## Overview
 
@@ -56,7 +55,6 @@ In order to run the exercises in this hands-on lab, you will need to set up your
 > [!NOTE]
 > Make sure you have checked all the dependencies for this lab before running the setup.
 
-
 <a id="CodeSnippets"></a>
 ### Using the Code Snippets
 
@@ -64,7 +62,6 @@ Throughout the lab document, you will be instructed to insert code blocks. For y
 
 > [!NOTE]
 > Each exercise is accompanied by a starting solution located in the **Begin** folder of the exercise that allows you to follow each exercise independently of the others. Please be aware that the code snippets that are added during an exercise are missing from these starting solutions and may not work until you have completed the exercise. Inside the source code for an exercise, you will also find an **End** folder containing a Visual Studio solution with the code that results from completing the steps in the corresponding exercise. You can use these solutions as guidance if you need additional help as you work through this hands-on lab.
-
 
 ---
 
@@ -81,7 +78,6 @@ Estimated time to complete this lab: **60 minutes**
 
 > [!NOTE]
 > When you first start Visual Studio, you must select one of the predefined settings collections. Each predefined collection is designed to match a particular development style and determines window layouts, editor behavior, IntelliSense code snippets, and dialog box options. The procedures in this lab describe the actions necessary to accomplish a given task in Visual Studio when using the **General Development Settings** collection. If you choose a different settings collection for your development environment, there may be differences in the steps that you should take into account.
-
 
 <a id="Exercise1"></a>
 ### Exercise 1: Creating a New Web Forms Project
@@ -183,7 +179,6 @@ The Entity Framework Code First modeling workflow allows you to use your own dom
 
 > [!NOTE]
 > You can learn more about Entity Framework [here](../../../entity-framework.md).
-
 
 <a id="Ex2Task1"></a>
 #### Task 1 – Creating a New Model
@@ -336,7 +331,6 @@ In this task you will use the Internet Explorer **F12 developer tools** to inspe
 > ![Internet Explorer option](one-aspnet-integrating-aspnet-web-forms-mvc-and-web-api/_static/image27.png)
 > 
 > The **F12 developer tools** have a wide set of functionality that is not covered in this hands-on-lab. If you want to learn more about it, refer to [Using the F12 developer tools](https://msdn.microsoft.com/library/ie/bg182326(v=vs.85)).
-
 
 1. Press **F5** to run the solution.
 

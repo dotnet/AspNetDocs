@@ -14,7 +14,6 @@ msc.type: chapter
 
 > The ASP.NET Identity system is designed to replace the previous ASP.NET Membership and Simple Membership systems. It includes profile support, OAuth integration, works with OWIN, and is included with the ASP.NET templates shipped with Visual Studio 2013.
 
-
 - [Introduction to ASP.NET Identity](introduction-to-aspnet-identity.md)
 - [ASP.NET Identity Recommended Resources](aspnet-identity-recommended-resources.md)
 - [Adding ASP.NET Identity to an Empty or Existing Web Forms Project](adding-aspnet-identity-to-an-empty-or-existing-web-forms-project.md)

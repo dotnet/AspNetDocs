@@ -17,7 +17,6 @@ by [Scott Mitchell](https://twitter.com/ScottOnWriting)
 
 > In this tutorial we will examine the various forms authentication settings and see how to modify them through the forms element. This will entail a detailed look at customizing the forms authentication ticket's timeout value, using a login page with a custom URL (like SignIn.aspx instead of Login.aspx), and cookieless forms authentication tickets.
 
-
 ## Introduction
 
 In the [previous tutorial](an-overview-of-forms-authentication-cs.md) we looked at the steps necessary for implementing forms authentication in an ASP.NET application, from specifying configuration settings in Web.config to creating a log in page to displaying different content for authenticated and anonymous users. Recall that we configured the website to use forms authentication by setting the mode attribute of the &lt;authentication&gt; element to Forms. The &lt;authentication&gt; element may optionally include a &lt;forms&gt; child element, through which an assortment of forms authentication settings may be specified.
@@ -31,7 +30,6 @@ The forms authentication system in ASP.NET offers a number of configuration sett
 [!code-xml[Main](forms-authentication-configuration-and-advanced-topics-cs/samples/sample1.xml)]
 
 Table 1 summarizes the properties that can be customized through the &lt;forms&gt; element. Since Web.config is an XML file, the attribute names in the left column are case-sensitive.
-
 
 | <strong>Attribute</strong> |                                                                                                                                                                                                                                     <strong>Description</strong>                                                                                                                                                                                                                                      |
 |----------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -54,7 +52,6 @@ In ASP.NET 2.0 and beyond, the default forms authentication values are hard-code
 > [!NOTE]
 > Several forms authentication settings, such as the timeout, domain, and path, specify details for the resulting forms authentication ticket cookie. For more information on cookies, how they work, and their various properties, read [this Cookies tutorial](http://www.quirksmode.org/js/cookies.html).
 
-
 ### Specifying the Ticket's Timeout Value
 
 The forms authentication ticket is a token that represents an identity. With cookie-based authentication tickets, this token is held in the form of a cookie and sent to the web server on each request. Possession of the token, in essence, declares, I am *username*, I have already logged in, and is used so that a user's identity can be remembered across page visits.
@@ -66,7 +63,6 @@ One such bit of information included in the ticket is an *expiry*, which is the 
 > [!NOTE]
 > Step 3 details additional techniques used by the forms authentication system to protect the authentication ticket.
 
-
 When creating the authentication ticket, the forms authentication system determines its expiry by consulting the timeout setting. As noted in Table 1, the timeout setting defaults to 30 minutes, meaning that when the forms authentication ticket is created its expiry is set to a date and time 30 minutes in the future.
 
 The expiry defines an absolute time in the future when the forms authentication ticket expires. But usually developers want to implement a sliding expiry, one that is reset every time the user revisits the site. This behavior is determined by the slidingExpiration settings. If set to true (the default), each time the FormsAuthenticationModule authenticates a user, it updates the ticket's expiry. If set to false, the expiry is not updated on each request, thereby causing the ticket to expire exactly timeout number of minutes past when the ticket was first created.
@@ -74,28 +70,22 @@ The expiry defines an absolute time in the future when the forms authentication 
 > [!NOTE]
 > The expiry stored in the authentication ticket is an absolute date and time value, like August 2, 2008 11:34 AM. Moreover, the date and time are relative to the web server's local time. This design decision can have some interesting side effects around Daylight Saving Time (DST), which is when clocks in the United States are moved ahead one hour (assuming the web server is hosted in a locale where Daylight Saving Time is observed). Consider what would happen for an ASP.NET website with a 30 minute expiry near the time that DST begins (which is at 2:00 AM). Imagine a visitor signs on to the site on March 11, 2008 at 1:55 AM. This would generate a forms authentication ticket that expires at March 11, 2008 at 2:25 AM (30 minutes in the future). However, once 2:00 AM rolls around, the clock jumps to 3:00 AM because of DST. When the user loads a new page six minutes after signing in (at 3:01 AM), the FormsAuthenticationModule notes that the ticket has expired and redirects the user to the login page. For a more thorough discussion on this and other authentication ticket timeout oddities, as well as workarounds, pick up a copy of Stefan Schackow's *Professional ASP.NET 2.0 Security, Membership, and Role Management* (ISBN: 978-0-7645-9698-8).
 
-
 Figure 1 illustrates the workflow when slidingExpiration is set to false and timeout is set to 30. Note that the authentication ticket generated at login contains the expiration date, and this value is not updated on subsequent requests. If the FormsAuthenticationModule finds that the ticket has expired, it discards it and treats the request as anonymous.
-
 
 [![A Graphical Representation of the Forms Authentication Ticket's Expiry When slidingExpiration is false](forms-authentication-configuration-and-advanced-topics-cs/_static/image2.png)](forms-authentication-configuration-and-advanced-topics-cs/_static/image1.png)
 
 **Figure 01**: A Graphical Representation of the Forms Authentication Ticket's Expiry When slidingExpiration is false([Click to view full-size image](forms-authentication-configuration-and-advanced-topics-cs/_static/image3.png))
 
-
 Figure 2 shows the workflow when slidingExpiration is set to true and timeout is set to 30. When an authenticated request is received (with a non-expired ticket) its expiry is updated to timeout number of minutes in the future.
-
 
 [![A Graphical Representation of the Forms Authentication Ticket's When slidingExpiration is true](forms-authentication-configuration-and-advanced-topics-cs/_static/image5.png)](forms-authentication-configuration-and-advanced-topics-cs/_static/image4.png)
 
 **Figure 02**: A Graphical Representation of the Forms Authentication Ticket's When slidingExpiration is true  ([Click to view full-size image](forms-authentication-configuration-and-advanced-topics-cs/_static/image6.png))
 
-
 When using cookie-based authentication tickets (the default), this discussion becomes a little more confusing because cookies can also have their own expiries specified. A cookie's expiry (or lack thereof) instructs the browser when the cookie should be destroyed. If the cookie lacks an expiry, it is destroyed when the browser shuts down. If an expiry is present, however, the cookie remains stored on the user's computer until the date and time specified in the expiry has passed. When a cookie is destroyed by the browser, it is no longer sent to the web server. Therefore, the destruction of a cookie is analogous to the user logging out of the site.
 
 > [!NOTE]
 > Of course, a user may proactively remove any cookies stored on their computer. In Internet Explorer 7, you would go to Tools, Options, and click the Delete button in the Browsing history section. From there, click the Delete cookies button.
-
 
 The forms authentication system creates session-based or expiry-based cookies depending on the value passed in to the *persistCookie* parameter. Recall that the FormsAuthentication class's GetAuthCookie, SetAuthCookie, and RedirectFromLoginPage methods take in two input parameters: *username* and *persistCookie*. The login page we created in the preceding tutorial included a Remember me CheckBox, which determined whether a persistent cookie was created. Persistent cookies are expiry-based; non-persistent cookies are session-based.
 
@@ -131,7 +121,6 @@ The AutoDetect and UseDeviceProfile settings rely on a *device profile* in ascer
 > [!NOTE]
 > This database of device capabilities is stored in a number of XML files that adhere to the [Browser Definition File schema](https://msdn.microsoft.com/library/ms228122.aspx). The default device profile files are located in %WINDIR%\Microsoft.Net\Framework\v2.0.50727\CONFIG\Browsers. You can also add custom files to your application's App\_Browsers folder. For more information, see [How To: Detect Browser Types in ASP.NET Web Pages](https://msdn.microsoft.com/library/3yekbd5b.aspx).
 
-
 Because the default setting is UseDeviceProfile, cookieless forms authentication tickets will be used when the site is visited by a device whose profile reports that it does not support cookies.
 
 ### Encoding the Authentication Ticket in the URL
@@ -163,7 +152,6 @@ The URL SomePage.aspx in the link was automatically converted into a URL that in
 > [!NOTE]
 > Cookieless forms authentication tickets adhere to the same timeout policies as cookie-based authentication tickets. However, cookieless authentication tickets are more prone to replay attacks since the authentication ticket is embedded directly in the URL. Imagine a user who visits a website, logs in, and then pastes the URL in an email to a colleague. If the colleague clicks on that link before the expiry is reached, they will be logged in as the user who sent the email!
 
-
 ## Step 3: Securing the Authentication Ticket
 
 The forms authentication ticket is transmitted over the wire either in a cookie or embedded directly within the URL. In addition to identity information, the authentication ticket can also include user data (as we will see in Step 4). Consequently, it is important that the ticket's data is encrypted from prying eyes and (even more importantly) that the forms authentication system can guarantee that the ticket was not tampered with.
@@ -174,11 +162,9 @@ To guarantee a ticket's authenticity, the forms authentication system must *vali
 
 When creating (or modifying) a ticket, the forms authentication system creates a MAC and attaches it to the ticket's data. When a subsequent request arrives, the forms authentication system compares the MAC and ticket data to validate the authenticity of the ticket data. Figure 3 illustrates this workflow graphically.
 
-
 [![The Ticket's Authenticity is Ensured through a MAC](forms-authentication-configuration-and-advanced-topics-cs/_static/image8.png)](forms-authentication-configuration-and-advanced-topics-cs/_static/image7.png)
 
 **Figure 03**: The Ticket's Authenticity is Ensured through a MAC ([Click to view full-size image](forms-authentication-configuration-and-advanced-topics-cs/_static/image9.png))
-
 
 What security measures are applied to the authentication ticket depends on the protection setting in the &lt;forms&gt; element. The protection setting may be assigned to one of the following three values:
 
@@ -220,7 +206,6 @@ For more information check out [How To: Configure MachineKey in ASP.NET 2.0](htt
 > [!NOTE]
 > The decryptionKey and validationKey values were taken from [Steve Gibson](http://www.grc.com/stevegibson.htm)'s [Perfect Passwords web page](https://www.grc.com/passwords.htm), which generates 64 random hexadecimal characters on each page visit. To lessen the likelihood of these keys making their way into your production applications, you are encouraged to replace the above keys with randomly generated ones from the Perfect Passwords page.
 
-
 ## Step 4: Storing Additional User Data in the Ticket
 
 Many web applications display information about or base the page's display on the currently logged on user. For example, a web page might show the user's name and the date she last logged on in the upper corner of every page. The forms authentication ticket stores the currently logged on user's username, but when any other information is needed, the page must go to the user store - typically a database - to lookup the information not stored in the authentication ticket.
@@ -231,11 +216,9 @@ In order to store user data in the authentication ticket, we need to write a bit
 
 Whenever we need to access the data stored in the ticket, we can do so by grabbing the current request's FormsAuthenticationTicket and deserializing the UserData property. In the case of the date of birth and employer name example, we would split the UserData string into two substrings based on the delimiter ( | ).
 
-
 [![Additional User Information Can Be Stored in the Authentication Ticket](forms-authentication-configuration-and-advanced-topics-cs/_static/image11.png)](forms-authentication-configuration-and-advanced-topics-cs/_static/image10.png)
 
 **Figure 04**: Additional User Information Can Be Stored in the Authentication Ticket ([Click to view full-size image](forms-authentication-configuration-and-advanced-topics-cs/_static/image12.png))
-
 
 ### Writing Information to UserData
 
@@ -282,7 +265,6 @@ All of this code is needed because the UserData property is read-only and the Fo
 > [!NOTE]
 > The code we just examined stores user-specific information in a cookies-based authentication ticket. The classes responsible for serializing the forms authentication ticket to the URL are internal to the .NET Framework. Long story short, you cannot store user data in a cookieless forms authentication ticket.
 
-
 ### Accessing the UserData Information
 
 At this point each user's company name and title is stored in the forms authentication ticket's UserData property when they log in. This information can be accessed from the authentication ticket on any page without requiring a trip to the user store. To illustrate how this information can be retrieved from the UserData property, let's update Default.aspx so that its welcome message includes not only the user's name, but also the company they work for and their title.
@@ -295,15 +277,12 @@ If Request.IsAuthenticated is true, then the WelcomeBackMessage's Text property 
 
 Figure 5 shows a screenshot of this display in action. Logging in as Scott displays a welcome back message that includes Scott's company and title.
 
-
 [![The Currently Logged On User's Company and Title are Displayed](forms-authentication-configuration-and-advanced-topics-cs/_static/image14.png)](forms-authentication-configuration-and-advanced-topics-cs/_static/image13.png)
 
 **Figure 05**: The Currently Logged On User's Company and Title are Displayed ([Click to view full-size image](forms-authentication-configuration-and-advanced-topics-cs/_static/image15.png))
 
-
 > [!NOTE]
 > The authentication ticket's UserData property serves as a cache for the user store. Like any cache, it needs to be updated when the underlying data is modified. For example, if there is a web page from which users can update their profile, the fields cached in the UserData property must be refreshed to reflect the changes made by the user.
-
 
 ## Step 5: Using a Custom Principal
 
@@ -316,7 +295,6 @@ The GenericPrincipal class meets the needs for most forms based authentication s
 > [!NOTE]
 > As we will see in future tutorials, when ASP.NET's Roles framework is enabled it creates a custom principal object of type [RolePrincipal](https://msdn.microsoft.com/library/system.web.security.roleprincipal.aspx) and overwrites the forms authentication-created GenericPrincipal object. It does this in order to customize the principal's IsInRole method to interface with the Roles framework's API.
 
-
 Since we have not concerned ourselves with roles yet, the only reason we would have for creating a custom principal at this juncture would be to associate a custom IIdentity object to the principal. In Step 4 we looked at storing additional user information in the authentication ticket's UserData property, in particular the user's company name and their title. However, the UserData information is only accessible through the authentication ticket and only then as a serialized string, meaning that anytime we want to view the user information stored in the ticket we need to parse the UserData property.
 
 We can improve the developer experience by creating a class that implements IIdentity and includes CompanyName and Title properties. That way, a developer can access the currently logged on user's company name and title directly through the CompanyName and Title properties without needed to know how to parse the UserData property.
@@ -328,14 +306,11 @@ For this tutorial, let's create the custom principal and identity objects in the
 > [!NOTE]
 > The App\_Code folder should only be used when managing your project through the Website Project Model. If you are using the [Web Application Project Model](https://msdn.microsoft.com/asp.net/Aa336618.aspx), create a standard folder and add the classes to that. For example, you could add a new folder named Classes, and place your code there.
 
-
 Next, add two new class files to the App\_Code folder, one named CustomIdentity.cs and one named CustomPrincipal.cs.
-
 
 [![Add the CustomIdentity and CustomPrincipal Classes to Your Project](forms-authentication-configuration-and-advanced-topics-cs/_static/image17.png)](forms-authentication-configuration-and-advanced-topics-cs/_static/image16.png)
 
 **Figure 06**: Add the CustomIdentity and CustomPrincipal Classes to Your Project ([Click to view full-size image](forms-authentication-configuration-and-advanced-topics-cs/_static/image18.png))
-
 
 The CustomIdentity class is responsible for implementing the IIdentity interface, which defines the AuthenticationType, IsAuthenticated, and Name properties. In addition to those required properties, we are interested in exposing the underlying forms authentication ticket as well as properties for the user's company name and title. Enter the following code into the CustomIdentity class.
 
@@ -355,19 +330,15 @@ The ASP.NET pipeline takes an incoming request and processes it through a number
 
 After the AuthenticateRequest event, the ASP.NET pipeline raises the [PostAuthenticateRequest event](https://msdn.microsoft.com/library/system.web.httpapplication.postauthenticaterequest.aspx), which is where we can replace the GenericPrincipal object created by the FormsAuthenticationModule with an instance of our CustomPrincipal object. Figure 7 depicts this workflow.
 
-
 [![The GenericPrincipal is Replaced by a CustomPrincipal in the PostAuthenticationRequest Event](forms-authentication-configuration-and-advanced-topics-cs/_static/image20.png)](forms-authentication-configuration-and-advanced-topics-cs/_static/image19.png)
 
 **Figure 07**: The GenericPrincipal is Replaced by a CustomPrincipal in the PostAuthenticationRequest Event ([Click to view full-size image](forms-authentication-configuration-and-advanced-topics-cs/_static/image21.png))
 
-
 In order to execute code in response to an ASP.NET pipeline event, we can either create the appropriate event handler in Global.asax or create our own HTTP Module. For this tutorial let's create the event handler in Global.asax. Start by adding Global.asax to your website. Right-click on the project name in Solution Explorer and add an item of type Global Application Class named Global.asax.
-
 
 [![Add a Global.asax File to Your Website](forms-authentication-configuration-and-advanced-topics-cs/_static/image23.png)](forms-authentication-configuration-and-advanced-topics-cs/_static/image22.png)
 
 **Figure 08**: Add a Global.asax File to Your Website ([Click to view full-size image](forms-authentication-configuration-and-advanced-topics-cs/_static/image24.png))
-
 
 The default Global.asax template includes event handlers for a number of the ASP.NET pipeline events, including the Start, End and [Error event](https://msdn.microsoft.com/library/system.web.httpapplication.error.aspx), among others. Feel free to remove these event handlers, as we do not need them for this application. The event we are interested in is PostAuthenticateRequest. Update your Global.asax file so its markup looks similar to the following:
 

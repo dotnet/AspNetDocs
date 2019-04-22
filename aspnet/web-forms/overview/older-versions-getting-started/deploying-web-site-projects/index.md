@@ -13,7 +13,6 @@ msc.type: chapter
 
 > ASP.NET web applications are typically designed, created, and tested in a local development environment and need to be deployed to a production environment once it is ready for release. This tutorial series details the deployment process.
 
-
 - [ASP.NET Hosting Options (C#)](asp-net-hosting-options-cs.md)
 - [Determining What Files Need to Be Deployed (C#)](determining-what-files-need-to-be-deployed-cs.md)
 - [Deploying Your Site Using an FTP Client (C#)](deploying-your-site-using-an-ftp-client-cs.md)

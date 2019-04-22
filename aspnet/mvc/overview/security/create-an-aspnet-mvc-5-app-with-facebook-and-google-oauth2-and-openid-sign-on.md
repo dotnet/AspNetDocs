@@ -21,7 +21,6 @@ by [Rick Anderson]((https://twitter.com/RickAndMSFT))
 > 
 > The tutorial also shows how to add profile data for the user, and how to use the Membership API to add roles. This tutorial was written by [Rick Anderson](https://blogs.msdn.com/rickAndy) ( Please follow me on Twitter: [@RickAndMSFT](https://twitter.com/RickAndMSFT) ).
 
-
 <a id="start"></a>
 ## Getting Started
 
@@ -30,11 +29,9 @@ Start by installing and running [Visual Studio Express 2013 for Web](https://go.
 > [!NOTE]
 > You must install Visual Studio [2013 Update 3](https://go.microsoft.com/fwlink/?LinkId=390521) or higher to use Google OAuth 2 and to debug locally without SSL warnings.
 
-
 Click **New Project** from the **Start** page, or you can use the menu and select **File**, and then **New Project**.
 
 ![](create-an-aspnet-mvc-5-app-with-facebook-and-google-oauth2-and-openid-sign-on/_static/image1.png)  
- 
 
 <a id="1st"></a>
 ## Creating Your First Application
@@ -50,7 +47,6 @@ In the **New ASP.NET Project** dialog, click **MVC**. If the Authentication is n
 If you selected **Host in the cloud**, complete the configure dialog.
 
 ![](create-an-aspnet-mvc-5-app-with-facebook-and-google-oauth2-and-openid-sign-on/_static/image4.png)
-
 
 ### Use NuGet to update to the latest OWIN middleware
 
@@ -155,7 +151,6 @@ To connect to authentication providers like Google and Facebook, you will need t
 
 > [!WARNING]
 > For current Facebook OAuth2 authentication instructions, see [Configuring Facebook authentication](/aspnet/core/security/authentication/social/facebook-logins)
-
 
 <a id="mdb"></a>
 ## Examine the Membership Data

@@ -28,7 +28,6 @@ by [Tom FitzMacken](https://github.com/tfitzmac)
 > - The `Request` object.
 > - The SQL `Where` clause.
 
-
 ## What You'll Build
 
 In the previous tutorial, you created a database, added data to it, and then used the `WebGrid` helper to display the data. In this tutorial, you'll add a search box that lets you find movies of a specific genre or whose title contains whatever word you enter. (For example, you'll be able to find all movies whose genre is "Action" or whose title contains "Harry" or "Adventure.")
@@ -76,7 +75,6 @@ The `<form>` element encloses HTML elements to be submitted. (An easy mistake to
 > 
 > (To learn more about HTTP verbs, see the [Method Definitions](http://www.w3.org/Protocols/rfc2616/rfc2616-sec9.html) article on the W3C site.)
 
-
 Most user input elements are HTML `<input>` elements. They look like `<input type="type" name="name">,` where *type* indicates the kind of user input control you want. These elements are the common ones:
 
 - Text box: `<input type="text">`
@@ -98,7 +96,6 @@ The interesting part is what you, the page developer, do with the user's input. 
 > As you might know, HTML is in transition and the latest version (HTML5) includes support for more intuitive ways for users to enter information. For example, in HTML5, you (the page developer) can tell the page that you want the user to enter a date. The browser can then automatically display a calendar rather than requiring the user to enter a date manually. However, HTML5 is new and is not supported in all browsers yet.
 > 
 > ASP.NET Web Pages supports HTML5 input to the extent that the user's browser does. For an idea of the new attributes for the `<input>` element in HTML5, see [HTML &lt;input&gt; type Attribute](http://www.w3schools.com/html/html_form_input_types.asp) on the W3Schools site.
-
 
 ## Creating the Form
 
@@ -170,7 +167,6 @@ This block sets the stage for creating a query that uses the search term. You'll
 > 
 > It's a good practice to be specific and use the subset of `Request` that you're interested in, like `Request.Form` or `Request.QueryString`. For the simple pages that you're creating in this tutorial, it probably doesn't really make any difference. However, as you create more complex pages, using the explicit version `Request.Form` or `Request.QueryString` can help you avoid problems that can arise when the page contains a form (or multiple forms), cookies, query string values, and so on.
 
-
 ## Creating a Query by Using a Search Term
 
 Now that you know how to get the search term that the user entered, you can create a query that uses it. Remember that to get all the movie items out of the database, you're using a SQL query that looks like this statement:
@@ -212,7 +208,6 @@ If you put all these elements together, you get the following code:
 > **Important!** Using placeholders (like `@0`) to pass values to a SQL command is *extremely important* for security. The way you see it here, with placeholders for variable data, is the only way you should construct SQL commands.
 > 
 > Never construct a SQL statement by putting together (concatenating) literal text and values you get from the user. Concatenating user input into a SQL statement opens your site to a *SQL injection attack* where a malicious user submits values to your page that hack your database. (You can read more in the article [SQL Injection](https://msdn.microsoft.com/library/ms161953.aspx) the MSDN website.)
-
 
 ## Updating the Movies Page with Search Code
 
@@ -274,7 +269,6 @@ In this page, you could have also set the `value` attribute to the `searchTerm` 
 
 > [!NOTE]
 > You can't "remember" the value of a text box that's used for passwords. It would be a security hole to allow people to fill in a password field by using code.
-
 
 Run the page again, enter a genre, and click **Search Genre**. This time not only do you see the results of the search, but the text box remembers what you entered last time:
 

@@ -26,7 +26,6 @@ by [Tom FitzMacken](https://github.com/tfitzmac)
 > - Visual Studio 2013 with Update 2
 > - ASP.NET Identity 2
 
-
 ## Introduction
 
 By default, the ASP.NET Identity system stores user information in a SQL Server database, and uses Entity Framework Code First to create the database. For many applications, this approach works well. However, you may prefer to use a different type of persistence mechanism, such as Azure Table Storage, or you may already have database tables with a very different structure than the default implementation. In either case, you can write a customized provider for your storage mechanism and plug that provider into your application.

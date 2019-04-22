@@ -13,5 +13,4 @@ msc.type: chapter
 
 > Advanced topics for programming ASP.NET MVC, including accessibility, extensibility, and internationalization.
 
-
 - [Custom MVC Template](custom-mvc-templates.md)

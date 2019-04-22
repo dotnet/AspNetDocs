@@ -18,7 +18,6 @@ msc.type: content
 > [!NOTE]
 > This readme applies to the 1.0 release of WebMatrix.
 
-
 - [Overview](#Overview)
 - [Installation](#Installation_Notes)
 - [How to Publish Applications](#InstructionsForPublishingApplications)
@@ -39,7 +38,6 @@ msc.type: content
 
 > Microsoft WebMatrix 1.0 is a free web development stack that installs in minutes. It integrates a web server with database and programming frameworks to create a single, integrated experience. You can use WebMatrix to streamline the way you code, test, and publish your own ASP.NET or PHP website, or you can use WebMatrix to start a new website using popular open-source apps like DotNetNuke, Umbraco, WordPress, or Joomla. WebMatrix uses the same powerful web server, database engine, and frameworks environment that will run your website on the internet, which makes the transition from development to production smooth and seamless.
 
-
 <a id="Installation_Notes"></a>
 
 ## Installation
@@ -48,12 +46,10 @@ msc.type: content
 > 
 > If you have problems during installation, refer to [Troubleshooting Problems with Microsoft Web Platform Installer](https://go.microsoft.com/fwlink/?LinkId=196212).
 
-
 <a id="InstructionsForPublishingApplications"></a>
 ## How to Publish Applications
 
 > See [Step-by-Step Instructions for Publishing Applications](https://go.microsoft.com/fwlink/?LinkID=196149)
-
 
 <a id="ChangesAndIssues"></a>
 
@@ -77,12 +73,10 @@ msc.type: content
 > - Windows XP SP3
 > - Windows Server 2003 SP2
 
-
 #### Issue: Cannot install WebMatrix 1.0 if Microsoft Visual Studio 2008 is installed without Microsoft Visual Studio 2008 SP1
 
 > **Workaround**  
 > Install [Microsoft Visual Studio 2008 SP1](https://www.microsoft.com/downloads/details.aspx?FamilyId=FBEE1648-7106-44A7-9649-6D9F6D58056E&amp;displaylang=en) from the Microsoft Download Center.
-
 
 #### Issue: Some assemblies for SQL Server Compact 4.0 are not installed in the GAC
 
@@ -98,14 +92,12 @@ msc.type: content
 >   
 > Then reinstall SQL Server Compact 4.0.
 
-
 #### Issue: Cannot uninstall SQL Server Compact using the command line
 
 > Uninstallation of SQL Server Compact using command-line options does not work in this release.
 > 
 > **Workaround**  
 > Use *Programs and Features* in the Windows Control Panel to uninstall Microsoft SQL Server Compact 4.0.
-
 
 <a id="Known_Issues_ASPNET"></a>
 
@@ -125,13 +117,11 @@ This section of the document describes new features, changes, and known issues w
 > 
 > [!code-xml[Main](overview/samples/sample1.xml)]
 
-
 #### <a id="Changes"></a>  Changes
 
 #### Change: "webPages:AdminFolderVirtualPath" key renamed to "asp:AdminFolderVirtualPath"
 
 > The `webPages:AdminFolderVirtualPath` key that can be added to the *web.config* file to specify the location of the package manager has been renamed to use the `asp:` namespace instead of the `webPages` namespace. If you have used this element, you must rename it in the configuration file.
-
 
 #### <a id="Issues"></a>  Known Issues
 
@@ -140,7 +130,6 @@ This section of the document describes new features, changes, and known issues w
 > The algorithm for creating and storing membership (login) passwords has been changed to be more secure. As a result, the passwords stored for members (users) created in Beta versions of ASP.NET Razor will not be recognized. 
 > 
 > **Workaround** If the site has not yet been put into production, remove the user records from the membership database. If database is live, programmatically regenerate existing passwords in the membership database.
-
 
 #### Issue: Unexpected behavior when using a custom user table for membership
 
@@ -151,13 +140,11 @@ This section of the document describes new features, changes, and known issues w
 > **Workaround**  
 > Make sure that the name passed in the `InitializeDatabaseConnection` method matches the user profile table in the membership database, or make sure that the `autoCreateTables` parameter is set to false.
 
-
 #### Issue: Error message "The Admin Module requires access to ~/App\_Data"
 
 > Under some circumstances, trying to create users or otherwise work with the ASP.NET membership system can cause the page to display the error *The Admin Module requires access to ~/App\_Data*. This occurs if the account that IIS or IIS Express is running under does not have permissions to create and write to the *App\_Data* folder under the website root. 
 > 
 > **Workaround** Manually create an *App\_Data* folder for the website. Then make sure that the Windows account that the application runs under (typically NETWORK SERVICE) has read/write permissions for root folders of the application and for subfolders such as App\_Data. More detailed information is available in the KnowledgeBase article [Problems with SQL Server Express user instancing and ASP.net Web Application Projects](https://support.microsoft.com/kb/2002980).
-
 
 #### Issue: "Failed to generate a user instance of SQL Server" error
 
@@ -165,13 +152,11 @@ This section of the document describes new features, changes, and known issues w
 > 
 > **Workaround** Make sure that the Windows account that the application runs under (typically NETWORK SERVICE) has read/write permissions for root folders of the application and for subfolders such as *App\_Data*. More detailed information is available in the KnowledgeBase article [Problems with SQL Server Express user instancing and ASP.net Web Application Projects](https://support.microsoft.com/kb/2002980).
 
-
 #### Issue: Files that contains package-manager resources or package-manager passwords are servable under IIS 6.0 and earlier
 
 > If you deploy an ASP.NET Web Pages (Razor) application that was built using the RC2 release, and if the application contains a *password.txt* or *packagesources.txt* file under */App\_Data/admin*, IIS 6.0 will serve the file if requested, potentially exposing the passwords for your package manager instance. 
 > 
 > **Workaround** Rename the *password.txt* or *packagesources.txt* file to *password.config* or *packagesources.config*. By default, IIS 6.0 does not serve files that have the *.config* extension. (In IIS 7, no files in the *App\_Data* folder are served, so you do not need to rename the files.)
-
 
 #### Issue: Uninstalling packages installed using the Beta 3 release does not completely remove package components
 
@@ -181,7 +166,6 @@ This section of the document describes new features, changes, and known issues w
 > Perform these steps:  
 > 1. Delete the *App\_Data\packages* folder. This removes all packages.   
 > 2. Delete the *packages.config* file in the root of the website.
-
 
 #### Issue: In Visual Studio, invoking the web-based package manager takes the application offline
 
@@ -193,13 +177,11 @@ This section of the document describes new features, changes, and known issues w
 > **Workaround**   
 > To work with packages in Visual Studio, use the NuGet extension instead of the web-based package manager. For information, see the [NuGet documentation](https://docs.microsoft.com/nuget/). If you are working with other files in the *App\_Data* folder, consider keeping the files elsewhere to avoid this issue. If that's not practical, delete the *app\_offline.htm* file manually or wait until the site comes back online automatically (by default, after 30 seconds).
 
-
 #### Issue: Visual Studio IntelliSense and project templates available only in ASP.NET MVC version 3
 
 > Installing ASP.NET Web Pages does not also install tools for Visual Studio such as IntelliSense and project templates for ASP.NET Web Pages applications.
 > 
 > **Workaround** To use IntelliSense and project templates for ASP.NET Web Pages applications in Visual Studio, install ASP.NET MVC 3 RC either through the Web Platform Installer or the [stand-alone installer](https://go.microsoft.com/fwlink/?LinkID=191797).
-
 
 #### Issue: Reading feeds or other external data via a proxy server
 
@@ -211,7 +193,6 @@ This section of the document describes new features, changes, and known issues w
 > 
 > For more information about configuring a proxy server, see [&lt;proxy&gt; Element (Network Settings)](https://msdn.microsoft.com/library/sa91de1e.aspx) on the MSDN Web site.
 
-
 #### Issue: Uninstalling the .NET Framework version 4 disables ASP.NET Web Pages with Razor Syntax
 
 > If you uninstall the .NET Framework version 4 and then reinstall it, ASP.NET Web Pages with Razor syntax is disabled. Pages with the *.cshtml* extension do not run correctly. ASP.NET Web Pages registers an assembly in the machine root *web.config* file, and removing the .NET Framework removes that file. Reinstalling the .NET Framework installs a new version of the configuration file, but does not add the reference for the ASP.NET Web Pages assembly.
@@ -222,7 +203,6 @@ This section of the document describes new features, changes, and known issues w
 > `C:\Windows\Microsoft.NET\Framework64\v4.0.30319\Config (64-bit)`
 > 
 > [!code-xml[Main](overview/samples/sample3.xml)]
-
 
 #### Issue: Extensionless URLs do not find .cshtml/.vbhtml files on IIS 7 or IIS 7.5
 
@@ -238,7 +218,6 @@ This section of the document describes new features, changes, and known issues w
 > - If you do not have control over the server computer (for example, you are deploying to a hosting website), add the following to the website's *web.config* file: 
 > 
 >     [!code-xml[Main](overview/samples/sample4.xml)]
-
 
 #### Issue: Deploying an application to a computer that does not have SQL Server Compact installed
 
@@ -258,7 +237,6 @@ This section of the document describes new features, changes, and known issues w
 > 
 >     [!code-xml[Main](overview/samples/sample5.xml)]
 
-
 #### Issue: "Database" and "WebGrid" helpers do not work in Medium Trust in Visual Basic
 
 > If you are using Visual Basic (creating *.vbhtml* files), the `Database` and `WebGrid` helpers will not work if the application is set to use Medium Trust.
@@ -267,7 +245,6 @@ This section of the document describes new features, changes, and known issues w
 > If you use Visual Studio 2010, you can resolve this problem by installing the Service Pack 1 release. Until the final version of the SP1 release is available, you can download the Beta version of SP1 from the [Microsoft Visual Studio 2010 Service Pack 1 Beta](https://www.microsoft.com/downloads/en/details.aspx?FamilyID=11ea69cb-cf12-4842-a3d7-b32a1e5642e2&amp;displaylang=en) page on the Microsoft Download Center.   
 >   
 > If this is not practical, or if you do not use Visual Studio 2010, you can temporarily set the application to use Full Trust.
-
 
 #### Issue: "ApplicationPart" resources are externally accessible
 
@@ -280,14 +257,12 @@ This section of the document describes new features, changes, and known issues w
 > **Workaround**   
 > If you create an **ApplicationPart** object, make sure that the embedded resources associated with that **ApplicationPart** object's assembly do not contain sensitive information.
 
-
 <a id="Known_Issues_WebMatrix"></a>
 
 ### WebMatrix
 
 > [!NOTE]
 > For information about installation issues for WebMatrix, see [WebMatrix Installation Issues](#Known_Issues_Installation) earlier in this document.
-
 
 This section of the document describes known issues for the WebMatrix development environment.
 
@@ -302,7 +277,6 @@ This section of the document describes known issues for the WebMatrix developmen
 > 5. Save the *web.config* file.
 > 6. Click **Databases** and refresh.
 
-
 #### Issue: Folders created by WebMatrix cannot be deleted
 
 > If WebMatrix is running using elevated permissions (that is, you started WebMatrix using the **Run as Administrator** option in Windows), folders that are created by WebMatrix cannot be deleted using Windows Explorer.
@@ -313,7 +287,6 @@ This section of the document describes known issues for the WebMatrix developmen
 > 1. In Windows, click **Start**.
 > 2. Enter "Windows Explorer" and right-click the entry for **Windows Explorer**.
 > 3. Click **Run as Administrator**. You can then delete the folders.
-
 
 #### Issue: WebMatrix 1.0 is unable to perform certain tasks that require elevation
 
@@ -328,14 +301,12 @@ This section of the document describes known issues for the WebMatrix developmen
 > - On Windows Vista or Windows 7, enable UAC.
 > - On Windows XP, add the user to the Administrators security group.
 
-
 #### Issue: "Site from Web Gallery" is disabled
 
 > The **Site from Web Gallery** option is disabled if the Web Platform Installer 3.0 is not installed.
 > 
 > **Workaround**  
 > Install the [Microsoft Web Platform Installer 3.0](https://go.microsoft.com/fwlink/?LinkID=194638).
-
 
 #### Issue: Google Chrome is not available as a Run option
 
@@ -344,14 +315,12 @@ This section of the document describes known issues for the WebMatrix developmen
 > **Workaround**  
 > Some versions of Google Chrome do not register themselves correctly with the Default Programs feature in Windows. As a workaround, start Google Chrome, click the *Customize and control Google Chrome* menu, click *Options*, and then click *Make Google Chrome my default browser*.
 
-
 #### Issue: The "Foreign Key" dialog box doesn't allow entering a primary key
 
 > The **Foreign Key** dialog box does not allow you to enter the primary key name from the primary key table.
 > 
 > **Workaround**  
 > This is intentional. You do not need to enter the name of the primary key from the primary key table.
-
 
 #### Issue: IntelliSense is not available in WebMatrix for Razor syntax, C#, or Visual Basic
 
@@ -360,7 +329,6 @@ This section of the document describes known issues for the WebMatrix developmen
 > **Workaround**   
 > None.
 
-
 #### Issue: IntelliSense for HTML and CSS suggests elements that are not contextually appropriate
 
 > IntelliSense for markup in WebMatrix supports HTML using the [XHTML 1.0 Transitional schema](http://www.w3.org/TR/2002/NOTE-xhtml1-schema-20020902/#xhtml1-transitional) and CSS using the [CSS 2.1 schema](http://www.w3.org/TR/CSS2/). Because IntelliSense is based on these specific schemas, certain tags, attributes, or properties might be suggested that are not appropriate for the current page or style definition. For HTML, it can also lead to unexpected suggestions in content that might be interpreted as malformed XHTML (for example, when tags are not closed). This issue might be more noticeable if the insertion point is inside an incomplete tag; in that case, IntelliSense might suggest new opening tags or offer other incorrect suggestions. 
@@ -368,14 +336,12 @@ This section of the document describes known issues for the WebMatrix developmen
 > **Workaround**   
 > For HTML, make sure that you are working within a well-formed, complete XHTML page. For CSS, there is no workaround.
 
-
 #### Issue: IntelliSense is not invoked while you type
 
 > At times, IntelliSense might not be invoked as HTML or CSS is being entered in the editor. In particular, this might happen when the insertion point is directly next to another element or at the end of a file. 
 > 
 > **Workaround**   
 > Make sure that there is whitespace around the insertion point and that the insertion point is not at the end of a file. You can also invoke IntelliSense manually by pressing Ctrl+Space.
-
 
 #### Issue: No UI is available for disabling IntelliSense
 
@@ -385,7 +351,6 @@ This section of the document describes known issues for the WebMatrix developmen
 > Start WebMatrix using the following command, which includes a switch that disables IntelliSense:  
 >   
 > `WebMatrix.exe #ExecuteCommand# EditorIntelliSense off`
-
 
 <a id="Known_Issues_IISExpress"></a>
 ### IIS Express
@@ -411,7 +376,6 @@ For information about issues that involve installing SQL Server Compact as part 
 > **Workaround**  
 > None. The application might take a while to install, but will install correctly.
 
-
 ### <a id="Known_Issues_Publishing_Applications"></a>  Publishing Applications
 
 #### Issue: "Required permissions cannot be acquired" error when publishing a SQL Compact Database
@@ -431,7 +395,6 @@ For information about issues that involve installing SQL Server Compact as part 
 > 
 >     [!code-html[Main](overview/samples/sample8.html)]
 
-
 #### Issue: Gallery and PhpBB web applications display a "Service is unavailable" error after publishing
 
 > Under some circumstances, publishing an application causes a "service is unavailable" error.
@@ -439,14 +402,12 @@ For information about issues that involve installing SQL Server Compact as part 
 > **Workaround**  
 > In WebMatrix, add a backslash (\) to the end of the server name in the **Publish Settings** window and then publish the application again.
 
-
 #### Issue: Moodle website layout and links are broken after publishing
 
 > After you publish a Moodle application, the application does not work correctly.
 > 
 > **Workaround**  
 > In WebMatrix, add a slash (/) to the end of the **Site Name** field in the **Publish Settings** window and then publish the application again.
-
 
 #### Issue: Publishing nopCommerce fails with a database error
 
@@ -461,12 +422,10 @@ For information about issues that involve installing SQL Server Compact as part 
 > 5. Click the **Clear Log** button.
 > 6. Publish nopCommerce again.
 
-
 #### Issue: Silverstripe CMS displays a "HTTP 500 PHP FCGI Error" when you download a published site
 
 > **Workaround**  
 > After you click **Download published site**, skip `silverstripe-cache/manifest_main` in **Publish Preview**. This file is used for caching purposes and is specific to each computer.
-
 
 #### Issue: Subtext displays "Server Error in '/' Application" when you download a published site
 
@@ -480,7 +439,6 @@ For information about issues that involve installing SQL Server Compact as part 
 > 3. Click **Databases** &gt; *[localSubtextDatabase]* &gt; **Security** &gt; **Users** &gt; *[localSubtextUser*] (default is `subtextuser`], right-click, and click **Properties**.
 > 4. Select **db\_owner** in the role membership section.
 
-
 #### Issue: Site might not work after publishing if the "Destination URL" field is not prefixed with http:// or https://
 
 > In the **Publishing Settings** dialog box, if the destination URL does not begin with `http://` or `https://`, the site might not work after deployment.
@@ -488,14 +446,12 @@ For information about issues that involve installing SQL Server Compact as part 
 > **Workaround**  
 > Make sure that before you publish a site, the destination URL in the **Publish Settings** dialog box starts with `http://` or `https://`.
 
-
 #### Issue: Publishing a MySQL database fails with the error "Failed to publish the database. This can happen if the remote database cannot run the script."
 
 > The error can occur for a number of reasons. One reason you can see this error is if the database script contains a single quotation character (') and the destination MySQL database's default character set is not to UTF-8.
 > 
 > **Workaround**  
 > Set the default character set for the remote MySQL database to UTF-8.
-
 
 #### Issue: Some links are not visible in DotNetNuke after publishing or downloading the site
 
@@ -509,12 +465,10 @@ For information about issues that involve installing SQL Server Compact as part 
 > 4. Click the **Clear Cache** link for pages.
 > 5. Go to the bottom of the page and restart the application.
 
-
 #### Issue: Some links in AtomSite are broken after you download a published site
 
 > **Workaround**  
 > In the *service.config* file, *users.config* file, and all *.xml* files, replace the URL string (for example, `http://myhost.com/atomsite`) with the local one (for example, `http://localhost:1239`).
-
 
 #### Issue: MySQL-based applications like WordPress fail to publish and report a database error
 
@@ -526,14 +480,12 @@ For information about issues that involve installing SQL Server Compact as part 
 > 2. Reinstall the application.
 > 3. Republish the application.
 
-
 #### Issue: "Download published site" fails for applications that have browser-based setup
 
 > Some applications (for example, Kentico CMS) require you to launch them in the browser in order to perform post-installation setup such as creating a database. If you publish an application like this without completing the browser-based setup, attempting to download the same site from a remote server will fail.
 > 
 > **Workaround**  
 > Finish browser-based setup before publishing the site.
-
 
 #### Issue: "Download published site" fails with a database error for DotNetNuke and Kooboo CMS
 
@@ -543,7 +495,6 @@ For information about issues that involve installing SQL Server Compact as part 
 > 
 > **Workaround**  
 > If practical, republish the site (or have it published) using non-administrator credentials for the database.
-
 
 <a id="More_Info"></a>
 

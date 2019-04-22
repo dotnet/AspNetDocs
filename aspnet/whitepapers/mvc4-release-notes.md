@@ -13,7 +13,6 @@ msc.type: content
 
 > This document describes the release of ASP.NET MVC 4 .
 
-
 - [Installation Notes](#_Toc303253802)
 - [Documentation](#_Toc303253803)
 - [Support](#_Toc303253804)

@@ -13,7 +13,6 @@ msc.type: chapter
 
 > This video series shows you new features of the Visual Studio 2008 editor, including enhanced support for JavaScript and CSS.
 
-
 - [New Designer Support in Visual Studio 2008](new-designer-support-in-visual-studio-2008.md)
 - [JavaScript Intellisense Support in Visual Studio 2008](javascript-intellisense-support-in-visual-studio-2008.md)
 - [JavaScript Debugging in Visual Studio 2008](javascript-debugging-in-visual-studio-2008.md)

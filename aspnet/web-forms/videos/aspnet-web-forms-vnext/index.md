@@ -13,7 +13,6 @@ msc.type: chapter
 
 > About new Web Forms features introduced in ASP.NET 4.5.
 
-
 - [Strongly Typed Data Controls](aspnet-vnext-videos-strongly-typed-data-controls.md)
 - [Model Binding Part 1 - Selecting Data](aspnet-vnext-videos-model-binding-part-1-selecting-data.md)
 - [Model Binding Part 2 - Filtering](aspnet-vnext-videos-model-binding-part-2-filtering.md)

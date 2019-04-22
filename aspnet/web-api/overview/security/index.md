@@ -13,7 +13,6 @@ msc.type: chapter
 
 > Security issues for Web API.
 
-
 - [Authentication and Authorization in Web API](authentication-and-authorization-in-aspnet-web-api.md)
 - [Secure a Web API with Individual Accounts in Web API 2.2](individual-accounts-in-web-api.md)
 - [External Authentication Services with Web API (C#)](external-authentication-services.md)

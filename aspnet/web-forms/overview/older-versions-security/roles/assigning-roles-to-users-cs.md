@@ -17,7 +17,6 @@ by [Scott Mitchell](https://twitter.com/ScottOnWriting)
 
 > In this tutorial we will build two ASP.NET pages to assist with managing what users belong to what roles. The first page will include facilities to see what users belong to a given role, what roles a particular user belongs to, and the ability to assign or remove a particular user from a particular role. In the second page we will augment the CreateUserWizard control so that it includes a step to specify what roles the newly created user belongs to. This is useful in scenarios where an administrator is able to create new user accounts.
 
-
 ## Introduction
 
 The <a id="_msoanchor_1"></a>[previous tutorial](creating-and-managing-roles-cs.md) examined the Roles framework and the `SqlRoleProvider`; we saw how to use the `Roles` class to create, retrieve, and delete roles. In addition to creating and deleting roles, we need to be able to assign or remove users from a role. Unfortunately, ASP.NET does not ship with any Web controls for managing what users belong to what roles. Instead, we must create our own ASP.NET pages to manage these associations. The good news is that adding and removing users to roles is quite easy. The `Roles` class contains a number of methods for adding one or more users to one or more roles.
@@ -37,7 +36,6 @@ We will start with creating the "by user" interface. This interface will consist
 > [!NOTE]
 > Using a drop-down list to list the user accounts is not an ideal choice for websites where there may be hundreds of user accounts. A drop-down list is designed to allow a user to pick one item from a relatively short list of options. It quickly becomes unwieldy as the number of list items grows. If you are building a website that will have potentially large numbers of user accounts, you may want to consider using an alternative user interface, such as a pageable GridView or a filterable interface that lists prompts the visitor to choose a letter and then only shows those users whose username starts with the selected letter.
 
-
 ## Step 1: Building the "By User" User Interface
 
 Open the `UsersAndRoles.aspx` page. At the top of the page, add a Label Web control named `ActionStatus` and clear out its `Text` property. We will use this Label to provide feedback on the actions performed, displaying messages like, "User Tito has been added to the Administrators role," or "User Jisun has been removed from the Supervisors role." In order to make these messages stand out, set the Label's `CssClass` property to "Important".
@@ -50,11 +48,9 @@ Next, add the following CSS class definition to the `Styles.css` stylesheet:
 
 This CSS definition instructs the browser to display the Label using a large, red font. Figure 1 shows this effect through the Visual Studio Designer.
 
-
 [![The Label's CssClass Property Results in a Large, Red Font](assigning-roles-to-users-cs/_static/image2.png)](assigning-roles-to-users-cs/_static/image1.png)
 
 **Figure 1**: The Label's `CssClass` Property Results in a Large, Red Font  ([Click to view full-size image](assigning-roles-to-users-cs/_static/image3.png))
-
 
 Next, add a DropDownList to the page, set its `ID` property to `UserList`, and set its `AutoPostBack` property to True. We will use this DropDownList to list all of the users in the system. This DropDownList will be bound to a collection of MembershipUser objects. Because we want the DropDownList to display the UserName property of the MembershipUser object (and use it as the value of the list items), set the DropDownList's `DataTextField` and `DataValueField` properties to "UserName".
 
@@ -77,7 +73,6 @@ The `BindUsersToUserList` method retrieves all of the user accounts in the syste
 > [!NOTE]
 > The `Membership.GetAllUsers` method has two overloads: one that accepts no input parameters and returns all of the users, and one that takes in integer values for the page index and page size, and returns only the specified subset of the users. When there are large amounts of user accounts being displayed in a pageable user interface element, the second overload can be used to more efficiently page through the users since it returns just the precise subset of user accounts rather than all of them.
 
-
 The `BindRolesToList` method starts by calling the `Roles` class's [`GetAllRoles` method](https://msdn.microsoft.com/library/system.web.security.roles.getallroles.aspx), which returns a string array containing the roles in the system. This string array is then bound to the Repeater.
 
 Finally, we need to call these two methods when the page is first loaded. Add the following code to the `Page_Load` event handler:
@@ -86,11 +81,9 @@ Finally, we need to call these two methods when the page is first loaded. Add th
 
 With this code in place, take a moment to visit the page through a browser; your screen should look similar to Figure 2. All of the user accounts are populated in the drop-down list and, underneath that, each role appears as a checkbox. Because we set the `AutoPostBack` properties of the DropDownList and CheckBoxes to True, changing the selected user or checking or unchecking a role causes a postback. No action is performed, however, because we have yet to write code to handle these actions. We'll tackle these tasks in the next two sections.
 
-
 [![The Page Displays the Users and Roles](assigning-roles-to-users-cs/_static/image5.png)](assigning-roles-to-users-cs/_static/image4.png)
 
 **Figure 2**: The Page Displays the Users and Roles  ([Click to view full-size image](assigning-roles-to-users-cs/_static/image6.png))
-
 
 ### Checking the Roles the Selected User Belongs To
 
@@ -102,7 +95,6 @@ The above code starts by determining who the selected user is. It then uses the 
 
 > [!NOTE]
 > The `selectedUserRoles.Contains<string>(...)` syntax will not compile if you are using ASP.NET version 2.0. The `Contains<string>` method is part of the [LINQ library](http://en.wikipedia.org/wiki/Language_Integrated_Query), which is new to ASP.NET 3.5. If you are still using ASP.NET version 2.0, use the [`Array.IndexOf<string>` method](https://msdn.microsoft.com/library/eha9t187.aspx) instead.
-
 
 The `CheckRolesForSelectedUser` method needs to be called in two cases: when the page is first loaded and whenever the `UserList` DropDownList's selected index is changed. Therefore, call this method from the `Page_Load` event handler (after the calls to `BindUsersToUserList` and `BindRolesToList`). Also, create an event handler for the DropDownList's `SelectedIndexChanged` event and call this method from there.
 
@@ -128,19 +120,15 @@ The above code starts by programmatically referencing the CheckBox that raised t
 
 Take a moment to test out this page through a browser. Select user Tito and then add Tito to both the Administrators and Supervisors roles.
 
-
 [![Tito Has Been Added to the Administrators and Supervisors Roles](assigning-roles-to-users-cs/_static/image8.png)](assigning-roles-to-users-cs/_static/image7.png)
 
 **Figure 3**: Tito Has Been Added to the Administrators and Supervisors Roles  ([Click to view full-size image](assigning-roles-to-users-cs/_static/image9.png))
 
-
 Next, select user Bruce from the drop-down list. There is a postback and the Repeater's CheckBoxes are updated via the `CheckRolesForSelectedUser`. Since Bruce does not yet belong to any roles, the two checkboxes are unchecked. Next, add Bruce to the Supervisors role.
-
 
 [![Bruce Has Been Added to the Supervisors Role](assigning-roles-to-users-cs/_static/image11.png)](assigning-roles-to-users-cs/_static/image10.png)
 
 **Figure 4**: Bruce Has Been Added to the Supervisors Role  ([Click to view full-size image](assigning-roles-to-users-cs/_static/image12.png))
-
 
 To further verify the functionality of the `CheckRolesForSelectedUser` method, select a user other than Tito or Bruce. Note how the checkboxes are automatically unchecked, denoting that they do not belong to any roles. Return to Tito. Both the Administrators and Supervisors checkboxes should be checked.
 
@@ -160,11 +148,9 @@ We need to populate the `RoleList` DropDownList with the set of roles in the sys
 
 The last two lines in the `BindRolesToList` method have been added to bind the set of roles to the `RoleList` DropDownList control. Figure 5 shows the end result when viewed through a browser – a drop-down list populated with the system's roles.
 
-
 [![The Roles are Displayed in the RoleList DropDownList](assigning-roles-to-users-cs/_static/image14.png)](assigning-roles-to-users-cs/_static/image13.png)
 
 **Figure 5**: The Roles are Displayed in the `RoleList` DropDownList  ([Click to view full-size image](assigning-roles-to-users-cs/_static/image15.png))
-
 
 ### Displaying the Users That Belong To the Selected Role
 
@@ -180,11 +166,9 @@ This method needs to be called in two circumstances: when the page is initially 
 
 With this code in place, the `RolesUserList` GridView should display those users that belong to the selected role. As Figure 6 shows, the Supervisors role consists of two members: Bruce and Tito.
 
-
 [![The GridView Lists Those Users That Belong to the Selected Role](assigning-roles-to-users-cs/_static/image17.png)](assigning-roles-to-users-cs/_static/image16.png)
 
 **Figure 6**: The GridView Lists Those Users That Belong to the Selected Role  ([Click to view full-size image](assigning-roles-to-users-cs/_static/image18.png))
-
 
 ### Removing Users from the Selected Role
 
@@ -192,11 +176,9 @@ Let's augment the `RolesUserList` GridView so that it includes a column of "Remo
 
 Start by adding a Delete button field to the GridView. Make this field appear as the left most filed and change its `DeleteText` property from "Delete" (the default) to "Remove".
 
-
 [![Add the](assigning-roles-to-users-cs/_static/image20.png)](assigning-roles-to-users-cs/_static/image19.png)
 
 **Figure 7**: Add the "Remove" Button to the GridView  ([Click to view full-size image](assigning-roles-to-users-cs/_static/image21.png))
-
 
 When the "Remove" button is clicked a postback ensues and the GridView's `RowDeleting` event is raised. We need to create an event handler for this event and write code that removes the user from the selected role. Create the event handler and then add the following code:
 
@@ -207,14 +189,11 @@ The code starts by determining the selected role name. It then programmatically 
 > [!NOTE]
 > The "Remove" button does not require any sort of confirmation from the user before removing the user from the role. I invite you to add some level of user confirmation. One of the easiest ways to confirm an action is through a client-side confirm dialog box. For more information on this technique, see [Adding Client-Side Confirmation When Deleting](https://asp.net/learn/data-access/tutorial-42-cs.aspx).
 
-
 Figure 8 shows the page after user Tito has been removed from the Supervisors group.
-
 
 [![Alas, Tito is No Longer a Supervisor](assigning-roles-to-users-cs/_static/image23.png)](assigning-roles-to-users-cs/_static/image22.png)
 
 **Figure 8**: Alas, Tito is No Longer a Supervisor  ([Click to view full-size image](assigning-roles-to-users-cs/_static/image24.png))
-
 
 ### Adding New Users to the Selected Role
 
@@ -235,22 +214,17 @@ The majority of the code in the `Click` event handler performs various validatio
 > [!NOTE]
 > To ensure that the specified user does not already belong to the selected role, we use the [`Roles.IsUserInRole(userName, roleName)` method](https://msdn.microsoft.com/library/system.web.security.roles.isuserinrole.aspx), which returns a Boolean value indicating whether *userName* is a member of *roleName*. We will use this method again in the <a id="_msoanchor_2"></a>[next tutorial](role-based-authorization-cs.md) when we look at role-based authorization.
 
-
 Visit the page through a browser and select the Supervisors role from the `RoleList` DropDownList. Try entering an invalid username – you should see a message explaining that the user does not exist in the system.
-
 
 [![You Cannot Add a Non-Existent User to a Role](assigning-roles-to-users-cs/_static/image26.png)](assigning-roles-to-users-cs/_static/image25.png)
 
 **Figure 9**: You Cannot Add a Non-Existent User to a Role  ([Click to view full-size image](assigning-roles-to-users-cs/_static/image27.png))
 
-
 Now try adding a valid user. Go ahead and re-add Tito to the Supervisors role.
-
 
 [![Tito Is Once Again a Supervisor!](assigning-roles-to-users-cs/_static/image29.png)](assigning-roles-to-users-cs/_static/image28.png)
 
 **Figure 10**: Tito Is Once Again a Supervisor!  ([Click to view full-size image](assigning-roles-to-users-cs/_static/image30.png))
-
 
 ## Step 3: Cross-Updating the "By User" and "By Role" Interfaces
 
@@ -283,11 +257,9 @@ Open the `CreateUserWizardWithRoles.aspx` page and add a CreateUserWizard contro
 
 Next, select the "Add/Remove `WizardSteps`…" option from the CreateUserWizard's Smart Tag and add a new `WizardStep`, setting its `ID` to `SpecifyRolesStep`. Move the `SpecifyRolesStep WizardStep` so that it comes after the "Sign Up for Your New Account" step, but before the "Complete" step. Set the `WizardStep`'s `Title` property to "Specify Roles", its `StepType` property to `Step`, and its `AllowReturn` property to False.
 
-
 [![Add the](assigning-roles-to-users-cs/_static/image32.png)](assigning-roles-to-users-cs/_static/image31.png)
 
 **Figure 11**: Add the "Specify Roles" `WizardStep` to the CreateUserWizard  ([Click to view full-size image](assigning-roles-to-users-cs/_static/image33.png))
-
 
 After this change your CreateUserWizard's declarative markup should look like the following:
 
@@ -311,27 +283,21 @@ If the user has just reached the "Completed" step, the event handler enumerates 
 
 Visit this page through a browser. The first step in the CreateUserWizard is the standard "Sign Up for Your New Account" step, which prompts for the new user's username, password, email, and other key information. Enter the information to create a new user named Wanda.
 
-
 [![Create a New User Named Wanda](assigning-roles-to-users-cs/_static/image35.png)](assigning-roles-to-users-cs/_static/image34.png)
 
 **Figure 12**: Create a New User Named Wanda  ([Click to view full-size image](assigning-roles-to-users-cs/_static/image36.png))
 
-
 Click the "Create User" button. The CreateUserWizard internally calls the `Membership.CreateUser` method, creating the new user account, and then progresses to the next step, "Specify Roles." Here the system roles are listed. Check the Supervisors checkbox and click Next.
-
 
 [![Make Wanda a Member of the Supervisors Role](assigning-roles-to-users-cs/_static/image38.png)](assigning-roles-to-users-cs/_static/image37.png)
 
 **Figure 13**: Make Wanda a Member of the Supervisors Role  ([Click to view full-size image](assigning-roles-to-users-cs/_static/image39.png))
 
-
 Clicking Next causes a postback and updates the `ActiveStep` to the "Complete" step. In the `ActiveStepChanged` event handler, the recently-created user account is assigned to the Supervisors role. To verify this, return to the `UsersAndRoles.aspx` page and select Supervisors from the `RoleList` DropDownList. As Figure 14 shows, the Supervisors are now made up of three users: Bruce, Tito, and Wanda.
-
 
 [![Bruce, Tito, and Wanda are All Supervisors](assigning-roles-to-users-cs/_static/image41.png)](assigning-roles-to-users-cs/_static/image40.png)
 
 **Figure 14**: Bruce, Tito, and Wanda are All Supervisors  ([Click to view full-size image](assigning-roles-to-users-cs/_static/image42.png))
-
 
 ## Summary
 

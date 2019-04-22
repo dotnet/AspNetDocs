@@ -17,7 +17,6 @@ by [Scott Mitchell](https://twitter.com/ScottOnWriting)
 
 > As discussed in earlier tutorials, it is not uncommon for configuration information to differ between the development and production environments. This is especially true for data-driven web applications, as the database connection strings differ between the development and production environments. This tutorial explores ways to configure the production environment to include the appropriate connection string in more detail.
 
-
 ## Introduction
 
 Data-driven web applications usually use a different database when in development than when in production. For applications hosted by a web host provider and developed locally, the development database typically resides on the developer s computer while the production database is hosted on a database server at the web hosting company s facility. Deploying a data-driven web application entails copying the development database to the production database server. In the previous tutorial we looked at ways to accomplish this step.
@@ -38,7 +37,6 @@ The connection string - Data Source=.\SQLEXPRESS;AttachDbFilename=|DataDirectory
 - `AttachDbFilename` - specifies the location of the database file. The value contains the placeholder `|DataDirectory|`, which is resolved to the full path of the application s `App_Data` folder at runtime.
 - `Integrated Security` - a Boolean value that indicates whether to use a specified username/password when connecting to the database (false) or the current Windows account credentials (true).
 - `User Instance` - a configuration option specific to the SQL Server Express Editions that indicates whether to allow non-Administrative users on the local computer attach and connect to a SQL Server Express Edition database. See [SQL Server Express User Instances](https://msdn.microsoft.com/library/ms254504.aspx) for more information on this setting.
-  
 
 The allowable connection string options depend on the database you are connecting to and the ADO.NET database provider being used. For example, the connection string for connecting to a Microsoft SQL Server database differs from that used to connect to an Oracle database. Likewise, connecting to a Microsoft SQL Server database using the SqlClient provider uses a different connection string than when using the OLE-DB provider.
 
@@ -46,19 +44,15 @@ You can build the database connection string by hand using a site like [Connecti
 
 Open Visual Studio and then navigate to the Server Explorer window (in Visual Web Developer, this window is called Database Explorer). Right-click on the Data Connections option and choose the Add Connection option from the context menu. This brings up the wizard shown in Figure 1. Choose the appropriate data source and click Continue.
 
-
 [![Choose to Add a New Database to the Server Explorer](configuring-the-production-web-application-to-use-the-production-database-cs/_static/image2.jpg)](configuring-the-production-web-application-to-use-the-production-database-cs/_static/image1.jpg) 
 
 **Figure 1**: Choose to Add a New Database to the Server Explorer ([Click to view full-size image](configuring-the-production-web-application-to-use-the-production-database-cs/_static/image3.jpg))
 
-
 Next, specify the various database connection information (see Figure 2). When you signed up with your web hosting company they should have provided information on how to connect to the database - the database server name, the database name, the username and password to use to connect to the database, and so on. After entering this information click OK to complete this wizard and to add the database to the Server Explorer.
-
 
 [![Specify the Database Connection Information](configuring-the-production-web-application-to-use-the-production-database-cs/_static/image5.jpg)](configuring-the-production-web-application-to-use-the-production-database-cs/_static/image4.jpg) 
 
 **Figure 2**: Specify the Database Connection Information ([Click to view full-size image](configuring-the-production-web-application-to-use-the-production-database-cs/_static/image6.jpg))
-
 
 The production environment database should now be listed in the Server Explorer. Select the database from the Server Explorer and go to the Properties window. There you will find a property named Connection String with the database s connection string. Assuming you are using a Microsoft SQL Server database on production and the SqlClient provider your connection string should look similar to the following:
 
@@ -81,14 +75,11 @@ Unless you have a more formalized deployment workflow, either manually modify th
 > [!NOTE]
 > If you accidentally deploy a `Web.config` file that contains the development database connection string then there will be an error when the application on production attempts to connect to the database. This error manifests as a `SqlException` with a message reporting that the server was not found or was not accessible.
 
-
 Once the site has been deployed to production, visit the production site through your browser. You should see and enjoy the same user experience as when running the data-driven application locally. Of course when you visit the website on production the site is powered by the production database server, whereas visiting the website in the development environment uses the database in development. Figure 3 shows the *Teach Yourself ASP.NET 3.5 in 24 Hours* review page from the website in the production environment (note the URL in the browser s Address bar).
-
 
 [![The Data-Driven Application is Now Available On Production!](configuring-the-production-web-application-to-use-the-production-database-cs/_static/image8.jpg)](configuring-the-production-web-application-to-use-the-production-database-cs/_static/image7.jpg) 
 
 **Figure 3**: The Data-Driven Application is Now Available On Production! ([Click to view full-size image](configuring-the-production-web-application-to-use-the-production-database-cs/_static/image9.jpg))
-
 
 ### Storing Connection Strings in a Separate Configuration File
 
@@ -107,14 +98,11 @@ Make a copy of the databaseConnectionStrings.dev.config file and name it databas
 > [!NOTE]
 > You can name the configuration file something other than databaseConnectionStrings.config, if you d like, such as `connectionStrings.config` or `dbInfo.config`. However, be sure to name the file with a `.config` extension as `.config` files are, by default, not served by the ASP.NET engine. If you name the file something else, like `connectionStrings.txt`, a user could point their browser to [www.yoursite.com/ConfigSettings/connectionStrings.txt](http://www.yoursite.com/ConfigSettings/connectionStrings.txt) and view the contents of the file!
 
-
 At this point the `ConfigSections` folder should contain three files (see Figure 4). The databaseConnectionStrings.dev.config and databaseConnectionStrings.production.config files contain the connection strings for the development and production environments, respectively. The databaseConnectionStrings.config file contains the connection string information that will be used by the web application at runtime. Consequently, the databaseConnectionStrings.config file should be identical to the databaseConnectionStrings.dev.config file in the development environment, whereas on production the databaseConnectionStrings.config file should be identical to databaseConnectionStrings.production.config.
-
 
 [![ConfigSections](configuring-the-production-web-application-to-use-the-production-database-cs/_static/image11.jpg)](configuring-the-production-web-application-to-use-the-production-database-cs/_static/image10.jpg) 
 
 **Figure 4**: ConfigSections ([Click to view full-size image](configuring-the-production-web-application-to-use-the-production-database-cs/_static/image12.jpg))
-
 
 We now need to instruct `Web.config` to use the databaseConnectionStrings.config file for its connection string store. Open `Web.config` and replace the existing `<connectionStrings>` element with the following:
 
@@ -126,7 +114,6 @@ With this modification, the development and production environments contain the 
 
 > [!NOTE]
 > You may specify the information for any `Web.config` element in a separate file and use the `configSource` attribute to reference that file from within `Web.config`.
-
 
 ## Summary
 

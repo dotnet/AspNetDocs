@@ -19,7 +19,6 @@ by [Jason Lee](https://github.com/jrjlee)
 > 
 > As you work through the topics in these tutorials, you can use the Contact Manager solution as a reference implementation that demonstrates how you can meet specific challenges in enterprise deployment scenarios. The next topic, [Setting Up the Contact Manager Solution](setting-up-the-contact-manager-solution.md), describes how to download and run the solution on your developer workstation.
 
-
 ## Solution Overview
 
 The Contact Manager solution consists of four individual projects:
@@ -39,7 +38,6 @@ At a conceptual level, the components of the solution fit together like this:
 
 > [!NOTE]
 > While the ASP.NET MVC 3 web application uses the ASP.NET membership provider, all the pages within the web application allow anonymous access. This is clearly not a realistic configuration. However, the solution is set up in this way to make it easier for you to deploy and test the solution without configuring user accounts and roles.
-
 
 ## Deployment Challenges
 

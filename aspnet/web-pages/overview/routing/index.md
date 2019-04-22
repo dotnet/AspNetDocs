@@ -13,5 +13,4 @@ msc.type: chapter
 
 > How to customize the URLs used by a Web Pages application.
 
-
 - [Creating Readable URLs in ASP.NET Web Pages Sites](creating-readable-urls-in-aspnet-web-pages-sites.md)

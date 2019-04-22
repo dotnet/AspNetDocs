@@ -17,7 +17,6 @@ by [Rick Anderson]((https://twitter.com/RickAndMSFT))
 > 
 > This tutorial was written by [Rick Anderson](https://blogs.msdn.com/rickAndy) ( Twitter: [@RickAndMSFT](https://twitter.com/RickAndMSFT) ).
 
-
 - [Create an ASP.NET MVC app](#createMvc)
 - [Set up SMS for Two-factor authentication](#SMS)
 - [Enable Two-factor authentication](#enable2)
@@ -30,7 +29,6 @@ Start by installing and running [Visual Studio Express 2013 for Web](https://go.
 
 > [!NOTE]
 > Warning: You should complete [Create a secure ASP.NET MVC 5 web app with log in, email confirmation and password reset](create-an-aspnet-mvc-5-web-app-with-email-confirmation-and-password-reset.md) before proceeding. You must install [Visual Studio 2013 Update 3](https://go.microsoft.com/fwlink/?LinkId=390465) or higher to complete this tutorial.
-
 
 1. Create a new ASP.NET Web project and select the MVC template. Web Forms also supports ASP.NET Identity, so you could follow similar steps in a web forms app.  
     ![](aspnet-mvc-5-app-with-sms-and-email-two-factor-authentication/_static/image1.png)

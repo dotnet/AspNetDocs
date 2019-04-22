@@ -23,7 +23,6 @@ The first article in the series gives a general overview of authentication and a
 > [!NOTE]
 > Thanks to the people who reviewed this series and provided valuable feedback: Rick Anderson, Levi Broderick, Barry Dorrans, Tom Dykstra, Hongmei Ge, David Matson, Daniel Roth, Tim Teebken.
 
-
 ## Authentication
 
 Web API assumes that authentication happens in the host. For web-hosting, the host is IIS, which uses HTTP modules for authentication. You can configure your project to use any of the authentication modules built in to IIS or ASP.NET, or write your own HTTP module to perform custom authentication.
@@ -95,7 +94,6 @@ In the previous examples, the filter allows any authenticated user to access the
 
 > [!NOTE]
 > The **AuthorizeAttribute** filter for Web API controllers is located in the **System.Web.Http** namespace. There is a similar filter for MVC controllers in the **System.Web.Mvc** namespace, which is not compatible with Web API controllers.
-
 
 ### Custom Authorization Filters
 

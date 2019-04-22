@@ -12,7 +12,6 @@ msc.type: authoredcontent
 ---
 # Use OWIN to Self-Host ASP.NET Web API 
 
-
 > This tutorial shows how to host ASP.NET Web API in a console application, using OWIN to self-host the Web API framework.
 >
 > [Open Web Interface for .NET](http://owin.org) (OWIN) defines an abstraction between .NET web servers and web applications. OWIN decouples the web application from the server, which makes OWIN ideal for self-hosting a web application in your own process, outside of IIS.
@@ -23,10 +22,8 @@ msc.type: authoredcontent
 > - [Visual Studio 2017](https://visualstudio.microsoft.com/downloads/) 
 > - Web API 5.2.7
 
-
 > [!NOTE]
 > You can find the complete source code for this tutorial at [github.com/aspnet/samples](https://github.com/aspnet/samples/tree/master/samples/aspnet/WebApi/OwinSelfhostSample).
-
 
 ## Create a console application
 

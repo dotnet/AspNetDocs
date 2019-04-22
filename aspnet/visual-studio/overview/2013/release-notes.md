@@ -15,7 +15,6 @@ by [Microsoft](https://github.com/microsoft)
 
 > This document describes the release of ASP.NET and Web Tools for Visual Studio 2013.
 
-
 ## Contents
 
 - [Installation Notes](#TOC1)

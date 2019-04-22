@@ -13,7 +13,6 @@ msc.type: chapter
 
 > These tutorials show how to display master records in a drop-down list and details in a GridView control.
 
-
 - [Master/Detail Filtering With a DropDownList (C#)](master-detail-filtering-with-a-dropdownlist-cs.md)
 - [Master/Detail Filtering With Two DropDownLists (C#)](master-detail-filtering-with-two-dropdownlists-cs.md)
 - [Master/Detail Filtering Across Two Pages (C#)](master-detail-filtering-across-two-pages-cs.md)

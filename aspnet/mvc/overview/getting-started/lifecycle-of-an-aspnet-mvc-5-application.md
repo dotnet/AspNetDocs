@@ -26,7 +26,6 @@ Here you can download a PDF document that charts the lifecycle of every ASP.NET 
 - Blown-up diagrams showing how each of the filter types (authentication, authorization, action, and result) is invoked.
 - Link to a useful article or blog from each point of interest in the detail view.
 
-
 ## Next Steps
 
 Does this document meet your need? We'd appreciate your feedback. If you have any question on the ASP.NET MVC lifecycle in your application, [Stackoverflow](http://stackoverflow.com/help) and the [ASP.NET MVC forums](https://forums.asp.net/1146.aspx) are great places to ask. Follow [me](https://twitter.com/Cephas_MSFT) on twitter so you can get updates on my latest tutorials.

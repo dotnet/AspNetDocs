@@ -17,7 +17,6 @@ by [Scott Mitchell](https://twitter.com/ScottOnWriting)
 
 > In this tutorial we'll see how to map an ObjectDataSource's Insert(), Update(), and Delete() methods to the methods of BLL classes, as well as how to configure the GridView, DetailsView, and FormView controls to provide data modification capabilities.
 
-
 ## Introduction
 
 Over the past several tutorials we've examined how to display data in an ASP.NET page using the GridView, DetailsView, and FormView controls. These controls simply work with data supplied to them. Commonly, these controls access data through the use of a data source control, such as the ObjectDataSource. We've seen how the ObjectDataSource acts as a proxy between the ASP.NET page and the underlying data. When a GridView needs to display data, it invokes its ObjectDataSource's `Select()` method, which in turn invokes a method from our Business Logic Layer (BLL), which calls a method in the appropriate Data Access Layer's (DAL) TableAdapter, which in turn sends a `SELECT` query to the Northwind database.
@@ -26,11 +25,9 @@ Recall that when we created the TableAdapters in the DAL in [our first tutorial]
 
 In addition to its `Select()` method, the ObjectDataSource also has `Insert()`, `Update()`, and `Delete()` methods. Like the `Select()` method, these three methods can be mapped to methods in an underlying object. When configured to insert, update, or delete data, the GridView, DetailsView, and FormView controls provide a user interface for modifying the underlying data. This user interface calls the `Insert()`, `Update()`, and `Delete()` methods of the ObjectDataSource, which then invoke the underlying object's associated methods (see Figure 1).
 
-
 [![The ObjectDataSource's Insert(), Update(), and Delete() Methods Serve as a Proxy into the BLL](an-overview-of-inserting-updating-and-deleting-data-cs/_static/image2.png)](an-overview-of-inserting-updating-and-deleting-data-cs/_static/image1.png)
 
 **Figure 1**: The ObjectDataSource's `Insert()`, `Update()`, and `Delete()` Methods Serve as a Proxy into the BLL ([Click to view full-size image](an-overview-of-inserting-updating-and-deleting-data-cs/_static/image3.png))
-
 
 In this tutorial we'll see how to map the ObjectDataSource's `Insert()`, `Update()`, and `Delete()` methods to methods of classes in the BLL, as well as how to configure the GridView, DetailsView, and FormView controls to provide data modification capabilities.
 
@@ -48,32 +45,25 @@ Before we start exploring how to insert, update, and delete data, let's first ta
 - `ConfirmationOnDelete.aspx`
 - `UserLevelAccess.aspx`
 
-
 ![Add the ASP.NET Pages for the Data Modification-Related Tutorials](an-overview-of-inserting-updating-and-deleting-data-cs/_static/image4.png)
 
 **Figure 2**: Add the ASP.NET Pages for the Data Modification-Related Tutorials
 
-
 Like in the other folders, `Default.aspx` in the `EditInsertDelete` folder will list the tutorials in its section. Recall that the `SectionLevelTutorialListing.ascx` User Control provides this functionality. Therefore, add this User Control to `Default.aspx` by dragging it from the Solution Explorer onto the page's Design view.
-
 
 [![Add the SectionLevelTutorialListing.ascx User Control to Default.aspx](an-overview-of-inserting-updating-and-deleting-data-cs/_static/image6.png)](an-overview-of-inserting-updating-and-deleting-data-cs/_static/image5.png)
 
 **Figure 3**: Add the `SectionLevelTutorialListing.ascx` User Control to `Default.aspx` ([Click to view full-size image](an-overview-of-inserting-updating-and-deleting-data-cs/_static/image7.png))
 
-
 Lastly, add the pages as entries to the `Web.sitemap` file. Specifically, add the following markup after the Customized Formatting `<siteMapNode>`:
-
 
 [!code-xml[Main](an-overview-of-inserting-updating-and-deleting-data-cs/samples/sample1.xml)]
 
 After updating `Web.sitemap`, take a moment to view the tutorials website through a browser. The menu on the left now includes items for the editing, inserting, and deleting tutorials.
 
-
 ![The Site Map Now Includes Entries for the Editing, Inserting, and Deleting Tutorials](an-overview-of-inserting-updating-and-deleting-data-cs/_static/image8.png)
 
 **Figure 4**: The Site Map Now Includes Entries for the Editing, Inserting, and Deleting Tutorials
-
 
 ## Step 2: Adding and Configuring the ObjectDataSource Control
 
@@ -81,40 +71,31 @@ Since the GridView, DetailsView, and FormView each differ in their data modifica
 
 Open the `Basics.aspx` page, drag an ObjectDataSource from the Toolbox onto the Designer, and click the Configure Data Source link from its smart tag. Since the `ProductsBLL` is the only BLL class that provides editing, inserting, and deleting methods, configure the ObjectDataSource to use this class.
 
-
 [![Configure the ObjectDataSource to Use the ProductsBLL Class](an-overview-of-inserting-updating-and-deleting-data-cs/_static/image10.png)](an-overview-of-inserting-updating-and-deleting-data-cs/_static/image9.png)
 
 **Figure 5**: Configure the ObjectDataSource to Use the `ProductsBLL` Class ([Click to view full-size image](an-overview-of-inserting-updating-and-deleting-data-cs/_static/image11.png))
 
-
 In the next screen we can specify what methods of the `ProductsBLL` class are mapped to the ObjectDataSource's `Select()`, `Insert()`, `Update()`, and `Delete()` by selecting the appropriate tab and choosing the method from the drop-down list. Figure 6, which should look familiar by now, maps the ObjectDataSource's `Select()` method to the `ProductsBLL` class's `GetProducts()` method. The `Insert()`, `Update()`, and `Delete()` methods can be configured by selecting the appropriate tab from the list along the top.
-
 
 [![Have the ObjectDataSource Return All of the Products](an-overview-of-inserting-updating-and-deleting-data-cs/_static/image13.png)](an-overview-of-inserting-updating-and-deleting-data-cs/_static/image12.png)
 
 **Figure 6**: Have the ObjectDataSource Return All of the Products ([Click to view full-size image](an-overview-of-inserting-updating-and-deleting-data-cs/_static/image14.png))
 
-
 Figures 7, 8, and 9 show the ObjectDataSource's UPDATE, INSERT, and DELETE tabs. Configure these tabs so that the `Insert()`, `Update()`, and `Delete()` methods invoke the `ProductsBLL` class's `UpdateProduct`, `AddProduct`, and `DeleteProduct` methods, respectively.
-
 
 [![Map the ObjectDataSource's Update() Method to the ProductBLL Class's UpdateProduct Method](an-overview-of-inserting-updating-and-deleting-data-cs/_static/image16.png)](an-overview-of-inserting-updating-and-deleting-data-cs/_static/image15.png)
 
 **Figure 7**: Map the ObjectDataSource's `Update()` Method to the `ProductBLL` Class's `UpdateProduct` Method ([Click to view full-size image](an-overview-of-inserting-updating-and-deleting-data-cs/_static/image17.png))
 
-
 [![Map the ObjectDataSource's Insert() Method to the ProductBLL Class's AddProduct Method](an-overview-of-inserting-updating-and-deleting-data-cs/_static/image19.png)](an-overview-of-inserting-updating-and-deleting-data-cs/_static/image18.png)
 
 **Figure 8**: Map the ObjectDataSource's `Insert()` Method to the `ProductBLL` Class's Add `Product` Method ([Click to view full-size image](an-overview-of-inserting-updating-and-deleting-data-cs/_static/image20.png))
-
 
 [![Map the ObjectDataSource's Delete() Method to the ProductBLL Class's DeleteProduct Method](an-overview-of-inserting-updating-and-deleting-data-cs/_static/image22.png)](an-overview-of-inserting-updating-and-deleting-data-cs/_static/image21.png)
 
 **Figure 9**: Map the ObjectDataSource's `Delete()` Method to the `ProductBLL` Class's `DeleteProduct` Method ([Click to view full-size image](an-overview-of-inserting-updating-and-deleting-data-cs/_static/image23.png))
 
-
 You may have noticed that the drop-down lists in the UPDATE, INSERT, and DELETE tabs already had these methods selected. This is thanks to our use of the `DataObjectMethodAttribute` that decorates the methods of `ProductsBLL`. For example, the DeleteProduct method has the following signature:
-
 
 [!code-csharp[Main](an-overview-of-inserting-updating-and-deleting-data-cs/samples/sample2.cs)]
 
@@ -125,7 +106,6 @@ After ensuring that the appropriate `ProductsBLL` methods are mapped to the Obje
 ## Examining the ObjectDataSource's Markup
 
 After configuring the ObjectDataSource through its wizard, go to the Source view to examine the generated declarative markup. The `<asp:ObjectDataSource>` tag specifies the underlying object and the methods to invoke. Additionally, there are `DeleteParameters`, `UpdateParameters`, and `InsertParameters` that map to the input parameters for the `ProductsBLL` class's `AddProduct`, `UpdateProduct`, and `DeleteProduct` methods:
-
 
 [!code-aspx[Main](an-overview-of-inserting-updating-and-deleting-data-cs/samples/sample3.aspx)]
 
@@ -143,7 +123,6 @@ If this isn't terribly clear at this juncture, don't worry, we'll examine this p
 > [!NOTE]
 > If you simply clear out the `OldValuesParameterFormatString` property value from the Properties window in the Design view, the property will still exist in the declarative syntax, but be set to an empty string. This, unfortunately, will still result in the same problem discussed above. Therefore, either remove the property altogether from the declarative syntax or, from the Properties window, set the value to the default, `{0}`.
 
-
 ## Step 3: Adding a Data Web Control and Configuring It for Data Modification
 
 Once the ObjectDataSource has been added to the page and configured, we're ready to add data Web controls to the page to both display the data and provide a means for the end user to modify it. We'll look at the GridView, DetailsView, and FormView separately, as these data Web controls differ in their data modification capabilities and configuration.
@@ -153,7 +132,6 @@ As we'll see in the remainder of this article, adding very basic editing, insert
 ## Deleting Data from the GridView
 
 Start by dragging a GridView from the Toolbox onto the Designer. Next, bind the ObjectDataSource to the GridView by selecting it from the drop-down list in the GridView's smart tag. At this point the GridView's declarative markup will be:
-
 
 [!code-aspx[Main](an-overview-of-inserting-updating-and-deleting-data-cs/samples/sample4.aspx)]
 
@@ -175,53 +153,42 @@ The values assigned to the `DeleteParameters` are the values of the `DataKeyName
 > [!NOTE]
 > The `DataKeys` collection is stored in the GridView s control state, meaning that the `DataKeys` values will be remembered across postback even if the GridView s view state has been disabled. However, it is very important that view state remains enabled for GridViews that support editing or deleting (the default behavior). If you set the GridView s `EnableViewState` property to `false`, the editing and deleting behavior will work fine for a single user, but if there are concurrent users deleting data, there exists the possibility that these concurrent users may accidentally delete or edit records that they didn't intend. See my blog entry, [WARNING: Concurrency Issue with ASP.NET 2.0 GridViews/DetailsView/FormViews that Support Editing and/or Deleting and Whose View State is Disabled](http://scottonwriting.net/sowblog/archive/2006/10/03/163215.aspx), for more information.
 
-
 This same warning also applies to DetailsViews and FormViews.
 
 To add deleting capabilities to a GridView, simply go to its smart tag and check the Enable Deleting checkbox.
-
 
 ![Check the Enable Deleting Checkbox](an-overview-of-inserting-updating-and-deleting-data-cs/_static/image24.png)
 
 **Figure 10**: Check the Enable Deleting Checkbox
 
-
 Checking the Enable Deleting checkbox from the smart tag adds a CommandField to the GridView. The CommandField renders a column in the GridView with buttons for performing one or more of the following tasks: selecting a record, editing a record, and deleting a record. We previously saw the CommandField in action with selecting records in the [Master/Detail Using a Selectable Master GridView with a Details DetailView](../masterdetail/master-detail-using-a-selectable-master-gridview-with-a-details-detailview-cs.md) tutorial.
 
 The CommandField contains a number of `ShowXButton` properties that indicate what series of buttons are displayed in the CommandField. By checking the Enable Deleting checkbox a CommandField whose `ShowDeleteButton` property is `true` has been added to the GridView's Columns collection.
-
 
 [!code-aspx[Main](an-overview-of-inserting-updating-and-deleting-data-cs/samples/sample5.aspx)]
 
 At this point, believe it or not, we're done with adding deleting support to the GridView! As Figure 11 shows, when visiting this page through a browser a column of Delete buttons is present.
 
-
 [![The CommandField Adds a Column of Delete Buttons](an-overview-of-inserting-updating-and-deleting-data-cs/_static/image26.png)](an-overview-of-inserting-updating-and-deleting-data-cs/_static/image25.png)
 
 **Figure 11**: The CommandField Adds a Column of Delete Buttons ([Click to view full-size image](an-overview-of-inserting-updating-and-deleting-data-cs/_static/image27.png))
-
 
 If you've been building this tutorial from the ground up on your own, when testing this page clicking the Delete button will raise an exception. Continue reading to learn as to why these exceptions were raised and how to fix them.
 
 > [!NOTE]
 > If you're following along using the download accompanying this tutorial, these problems have already been accounted for. However, I encourage you to read through the details listed below to help identify problems that may arise and suitable workarounds.
 
-
 If, when attempting to delete a product, you get an exception whose message is similar to "*ObjectDataSource 'ObjectDataSource1' could not find a non-generic method 'DeleteProduct' that has parameters: productID, original\_ProductID*," you likely forgot to remove the `OldValuesParameterFormatString` property from the ObjectDataSource. With the `OldValuesParameterFormatString` property specified, the ObjectDataSource attempts to pass in both `productID` and `original_ProductID` input parameters to the `DeleteProduct` method. `DeleteProduct`, however, only accepts a single input parameter, hence the exception. Removing the `OldValuesParameterFormatString` property (or setting it to `{0}`) instructs the ObjectDataSource to not attempt to pass in the original input parameter.
-
 
 [![Ensure That the OldValuesParameterFormatString Property Has Been Cleared Out](an-overview-of-inserting-updating-and-deleting-data-cs/_static/image29.png)](an-overview-of-inserting-updating-and-deleting-data-cs/_static/image28.png)
 
 **Figure 12**: Ensure That the `OldValuesParameterFormatString` Property Has Been Cleared Out ([Click to view full-size image](an-overview-of-inserting-updating-and-deleting-data-cs/_static/image30.png))
 
-
 Even if you had removed the `OldValuesParameterFormatString` property, you still will get an exception when trying to delete a product with the message: "*The DELETE statement conflicted with the REFERENCE constraint 'FK\_Order\_Details\_Products'*." The Northwind database contains a foreign key constraint between the `Order Details` and `Products` table, meaning that a product cannot be deleted from the system if there are one or more records for it in the `Order Details` table. Since every product in the Northwind database has at least one record in `Order Details`, we cannot delete any products until we first delete the product's associated order details records.
-
 
 [![A Foreign Key Constraint Prohibits the Deletion of Products](an-overview-of-inserting-updating-and-deleting-data-cs/_static/image32.png)](an-overview-of-inserting-updating-and-deleting-data-cs/_static/image31.png)
 
 **Figure 13**: A Foreign Key Constraint Prohibits the Deletion of Products ([Click to view full-size image](an-overview-of-inserting-updating-and-deleting-data-cs/_static/image33.png))
-
 
 For our tutorial, let's just delete all of the records from the `Order Details` table. In a real-world application we'd need to either:
 
@@ -231,17 +198,14 @@ For our tutorial, let's just delete all of the records from the `Order Details` 
 
 Let's just delete all of the records from the `Order Details` table to circumvent the foreign key constraint. Go to the Server Explorer in Visual Studio, right-click on the `NORTHWND.MDF` node, and choose New Query. Then, in the query window, run the following SQL statement: `DELETE FROM [Order Details]`
 
-
 [![Delete All Records from the Order Details Table](an-overview-of-inserting-updating-and-deleting-data-cs/_static/image35.png)](an-overview-of-inserting-updating-and-deleting-data-cs/_static/image34.png)
 
 **Figure 14**: Delete All Records from the `Order Details` Table ([Click to view full-size image](an-overview-of-inserting-updating-and-deleting-data-cs/_static/image36.png))
-
 
 After clearing out the `Order Details` table clicking on the Delete button will delete the product without error. If clicking on the Delete button does not delete the product, check to ensure that the GridView's `DataKeyNames` property is set to the primary key field (`ProductID`).
 
 > [!NOTE]
 > When clicking on the Delete button a postback ensues and the record is deleted. This can be dangerous since it is easy to accidentally click on the wrong row's Delete button. In a future tutorial we'll see how to add a client-side confirmation when deleting a record.
-
 
 ## Editing Data with the GridView
 
@@ -263,24 +227,19 @@ The primary key values assigned to the `UpdateParameters` in Step 1 come from th
 
 Editing functionality can be activated by simply checking the Enable Editing checkbox in the GridView's smart tag.
 
-
 ![Check the Enable Editing Checkbox](an-overview-of-inserting-updating-and-deleting-data-cs/_static/image37.png)
 
 **Figure 15**: Check the Enable Editing Checkbox
 
-
 Checking the Enable Editing checkbox will add a CommandField (if needed) and set its `ShowEditButton` property to `true`. As we saw earlier, the CommandField contains a number of `ShowXButton` properties that indicate what series of buttons are displayed in the CommandField. Checking the Enable Editing checkbox adds the `ShowEditButton` property to the existing CommandField:
-
 
 [!code-aspx[Main](an-overview-of-inserting-updating-and-deleting-data-cs/samples/sample6.aspx)]
 
 That's all there is to adding rudimentary editing support. As Figure16 shows, the editing interface is rather crude each BoundField whose `ReadOnly` property is set to `false` (the default) is rendered as a TextBox. This includes fields like `CategoryID` and `SupplierID`, which are keys to other tables.
 
-
 [![Clicking Chai s Edit Button Displays the Row in Edit Mode](an-overview-of-inserting-updating-and-deleting-data-cs/_static/image39.png)](an-overview-of-inserting-updating-and-deleting-data-cs/_static/image38.png)
 
 **Figure 16**: Clicking Chai s Edit Button Displays the Row in Edit Mode ([Click to view full-size image](an-overview-of-inserting-updating-and-deleting-data-cs/_static/image40.png))
-
 
 In addition to asking users to edit foreign key values directly, the editing interface's interface is lacking in the following ways:
 
@@ -297,24 +256,19 @@ As we've seen in earlier tutorials, the DetailsView control displays one record 
 
 To demonstrate the data modification capabilities of the GridView, start by adding a DetailsView to the `Basics.aspx` page above the existing GridView and bind it to the existing ObjectDataSource through the DetailsView's smart tag. Next, clear out the DetailsView's `Height` and `Width` properties, and check the Enable Paging option from the smart tag. To enable editing, inserting, and deleting support, simply check the Enable Editing, Enable Inserting, and Enable Deleting checkboxes in the smart tag.
 
-
 ![Configure the DetailsView to Support Editing, Inserting, and Deleting](an-overview-of-inserting-updating-and-deleting-data-cs/_static/image41.png)
 
 **Figure 17**: Configure the DetailsView to Support Editing, Inserting, and Deleting
 
-
 As with the GridView, adding editing, inserting, or deleting support adds a CommandField to the DetailsView, as the following declarative syntax shows:
-
 
 [!code-aspx[Main](an-overview-of-inserting-updating-and-deleting-data-cs/samples/sample7.aspx)]
 
 Note that for the DetailsView the CommandField appears at the end of the Columns collection by default. Since the DetailsView's fields are rendered as rows, the CommandField appears as a row with Insert, Edit, and Delete buttons at the bottom of the DetailsView.
 
-
 [![Configure the DetailsView to Support Editing, Inserting, and Deleting](an-overview-of-inserting-updating-and-deleting-data-cs/_static/image43.png)](an-overview-of-inserting-updating-and-deleting-data-cs/_static/image42.png)
 
 **Figure 18**: Configure the DetailsView to Support Editing, Inserting, and Deleting ([Click to view full-size image](an-overview-of-inserting-updating-and-deleting-data-cs/_static/image44.png))
-
 
 Clicking on the Delete button starts the same sequence of events as with the GridView: a postback; followed by the DetailsView populating its ObjectDataSource's `DeleteParameters` based on the `DataKeyNames` values; and completed with a call its ObjectDataSource's `Delete()` method, which actually removes the product from the database. Editing in the DetailsView also works in a fashion identical to that of the GridView.
 
@@ -322,31 +276,24 @@ For inserting, the end user is presented with a New button that, when clicked, r
 
 When binding a data source to a DetailsView through the smart tag, Visual Studio sets the `InsertVisible` property to `false` only for auto-increment fields. Read-only fields, like `CategoryName` and `SupplierName`, will be displayed in the "insert mode" user interface unless their `InsertVisible` property is explicitly set to `false`. Take a moment to set these two fields' `InsertVisible` properties to `false`, either through the DetailsView's declarative syntax or through the Edit Fields link in the smart tag. Figure 19 shows setting the `InsertVisible` properties to `false` by clicking on the Edit Fields link.
 
-
 [![Northwind Traders Now Offers Acme Tea](an-overview-of-inserting-updating-and-deleting-data-cs/_static/image46.png)](an-overview-of-inserting-updating-and-deleting-data-cs/_static/image45.png)
 
 **Figure 19**: Northwind Traders Now Offers Acme Tea ([Click to view full-size image](an-overview-of-inserting-updating-and-deleting-data-cs/_static/image47.png))
 
-
 After setting the `InsertVisible` properties, view the `Basics.aspx` page in a browser and click the New button. Figure 20 shows the DetailsView when adding a new beverage, Acme Tea, to our product line.
-
 
 [![Northwind Traders Now Offers Acme Tea](an-overview-of-inserting-updating-and-deleting-data-cs/_static/image49.png)](an-overview-of-inserting-updating-and-deleting-data-cs/_static/image48.png)
 
 **Figure 20**: Northwind Traders Now Offers Acme Tea ([Click to view full-size image](an-overview-of-inserting-updating-and-deleting-data-cs/_static/image50.png))
 
-
 After entering the details for Acme Tea and clicking the Insert button, a postback ensues and the new record is added to the `Products` database table. Since this DetailsView lists the products in order with which they exist in the database table, we must page to the last product in order to see the new product.
-
 
 [![Details for Acme Tea](an-overview-of-inserting-updating-and-deleting-data-cs/_static/image52.png)](an-overview-of-inserting-updating-and-deleting-data-cs/_static/image51.png)
 
 **Figure 21**: Details for Acme Tea ([Click to view full-size image](an-overview-of-inserting-updating-and-deleting-data-cs/_static/image53.png))
 
-
 > [!NOTE]
 > The DetailsView's [CurrentMode property](https://msdn.microsoft.com/library/system.web.ui.webcontrols.detailsview.currentmode(VS.80).aspx) indicates the interface being displayed and can be one of the following values: `Edit`, `Insert`, or `ReadOnly`. The [DefaultMode property](https://msdn.microsoft.com/library/system.web.ui.webcontrols.detailsview.defaultmode(VS.80).aspx) indicates the mode the DetailsView returns to after an edit or insert has been completed and is useful for displaying a DetailsView that is permanently in edit or insert mode.
-
 
 The point and click inserting and editing capabilities of the DetailsView suffer from the same limitations as the GridView: the user must enter existing `CategoryID` and `SupplierID` values through a textbox; the interface lacks any validation logic; all product fields that do not allow `NULL` values or don't have a default value specified at the database level must be included in the inserting interface, and so on.
 
@@ -360,16 +307,13 @@ To illustrate these techniques, start by adding a FormView to the `Basics.aspx` 
 
 The following shows the declarative markup for the FormView's `ItemTemplate` after the FormView has been bound to the ObjectDataSource. By default, each non-Boolean value product field is bound to the `Text` property of a Label Web control while each Boolean value field (`Discontinued`) is bound to the `Checked` property of a disabled CheckBox Web control. In order for the New, Edit, and Delete buttons to trigger certain FormView behavior when clicked, it is imperative that their `CommandName` values be set to `New`, `Edit`, and `Delete`, respectively.
 
-
 [!code-aspx[Main](an-overview-of-inserting-updating-and-deleting-data-cs/samples/sample8.aspx)]
 
 Figure 22 shows the FormView's `ItemTemplate` when viewed through a browser. Each product field is listed with the New, Edit, and Delete buttons at the bottom.
 
-
 [![The Defaut FormView ItemTemplate Lists Each Product Field Along with New, Edit, and Delete Buttons](an-overview-of-inserting-updating-and-deleting-data-cs/_static/image55.png)](an-overview-of-inserting-updating-and-deleting-data-cs/_static/image54.png)
 
 **Figure 22**: The Defaut FormView `ItemTemplate` Lists Each Product Field Along with New, Edit, and Delete Buttons ([Click to view full-size image](an-overview-of-inserting-updating-and-deleting-data-cs/_static/image56.png))
-
 
 Like with the GridView and DetailsView, clicking the Delete button or any Button, LinkButton, or ImageButton whose `CommandName` property is set to Delete causes a postback, populates the ObjectDataSource's `DeleteParameters` based on the FormView's `DataKeyNames` value, and invokes the ObjectDataSource's `Delete()` method.
 
@@ -377,7 +321,6 @@ When the Edit button is clicked a postback ensues and the data is rebound to the
 
 > [!NOTE]
 > One small issue with the FormView's auto-generation of the `EditItemTemplate` is that it renders TextBox Web controls for those fields that are read-only, such as `CategoryName` and `SupplierName`. We'll see how to account for this shortly.
-
 
 The TextBox controls in the `EditItemTemplate` have their `Text` property bound to the value of their corresponding data field using *two-way databinding*. Two-way databinding, denoted by `<%# Bind("dataField") %>`, performs databinding both when binding data to the template and when populating the ObjectDataSource's parameters for inserting or editing records. That is, when the user clicks the Edit button from the `ItemTemplate`, the `Bind()` method returns the specified data field value. After the user makes their changes and clicks Update, the values posted back that correspond to the data fields specified using `Bind()` are applied to the ObjectDataSource's `UpdateParameters`. Alternatively, one-way databinding, denoted by `<%# Eval("dataField") %>`, only retrieves the data field values when binding data to the template and does *not* return the user-entered values to the data source's parameters on postback.
 
@@ -389,16 +332,13 @@ Our `EditItemTemplate`, at this point, will cause an exception to be thrown if w
 
 Figure 23 shows the FormView in a browser after the Edit button has been clicked for Chai. Note that the `SupplierName` and `CategoryName` fields shown in the `ItemTemplate` are no longer present, as we just removed them from the `EditItemTemplate`. When the Update button is clicked the FormView proceeds through the same sequence of steps as the GridView and DetailsView controls.
 
-
 [![By Default the EditItemTemplate Shows Each Editable Product Field as a TextBox or CheckBox](an-overview-of-inserting-updating-and-deleting-data-cs/_static/image58.png)](an-overview-of-inserting-updating-and-deleting-data-cs/_static/image57.png)
 
 **Figure 23**: By Default the `EditItemTemplate` Shows Each Editable Product Field as a TextBox or CheckBox ([Click to view full-size image](an-overview-of-inserting-updating-and-deleting-data-cs/_static/image59.png))
 
-
 When the Insert button is clicked the FormView's `ItemTemplate` a postback ensues. However, no data is bound to the FormView because a new record is being added. The `InsertItemTemplate` interface includes the Web controls for adding a new record along with the Insert and Cancel buttons. The default `InsertItemTemplate` generated by Visual Studio contains a TextBox for each non-Boolean value field and a CheckBox for each Boolean value field, similar to the auto-generated `EditItemTemplate`'s interface. The TextBox controls have their `Text` property bound to the value of their corresponding data field using two-way databinding.
 
 The following declarative markup shows the FormView's `InsertItemTemplate`. Note that the `Bind()` method is used in the databinding syntax here and that the Insert and Cancel Button Web controls have their `CommandName` properties set accordingly.
-
 
 [!code-aspx[Main](an-overview-of-inserting-updating-and-deleting-data-cs/samples/sample10.aspx)]
 
@@ -406,22 +346,18 @@ There's a subtlety with the FormView's auto-generation of the `InsertItemTemplat
 
 Figure 24 shows the FormView in a browser when adding a new product, Acme Coffee. Note that the `SupplierName` and `CategoryName` fields shown in the `ItemTemplate` are no longer present, as we just removed them. When the Insert button is clicked the FormView proceeds through the same sequence of steps as the DetailsView control, adding a new record to the `Products` table. Figure 25 shows Acme Coffee product's details in the FormView after it has been inserted.
 
-
 [![The InsertItemTemplate Dictates the FormView's Inserting Interface](an-overview-of-inserting-updating-and-deleting-data-cs/_static/image61.png)](an-overview-of-inserting-updating-and-deleting-data-cs/_static/image60.png)
 
 **Figure 24**: The `InsertItemTemplate` Dictates the FormView's Inserting Interface ([Click to view full-size image](an-overview-of-inserting-updating-and-deleting-data-cs/_static/image62.png))
-
 
 [![The Details for New Product, Acme Coffee, are Displayed in the FormView](an-overview-of-inserting-updating-and-deleting-data-cs/_static/image64.png)](an-overview-of-inserting-updating-and-deleting-data-cs/_static/image63.png)
 
 **Figure 25**: The Details for New Product, Acme Coffee, are Displayed in the FormView ([Click to view full-size image](an-overview-of-inserting-updating-and-deleting-data-cs/_static/image65.png))
 
-
 By separating out the read-only, editing, and inserting interfaces into three separate templates, the FormView allows for a finer degree of control over these interfaces than the DetailsView and GridView.
 
 > [!NOTE]
 > Like the DetailsView, the FormView's `CurrentMode` property indicates the interface being displayed and its `DefaultMode` property indicates the mode the FormView returns to after an edit or insert has been completed.
-
 
 ## Summary
 

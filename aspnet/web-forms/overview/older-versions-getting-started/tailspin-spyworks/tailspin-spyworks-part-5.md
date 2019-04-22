@@ -17,7 +17,6 @@ by [Joe Stagner](https://github.com/JoeStagner)
 > 
 > This tutorial series details all of the steps taken to build the Tailspin Spyworks sample application. Part 5 adds some business logic.
 
-
 ## <a id="_Toc260221671"></a>  Adding Some Business Logic
 
 We want our shopping experience to be available whenever someone visits our web site. Visitors will be able to browse and add items to the shopping cart even if they are not registered or logged in. When they are ready to check out they will be given the option to authenticate and if they are not yet members they will be able to create an account.

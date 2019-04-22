@@ -15,7 +15,6 @@ by [Tom Dykstra](https://github.com/tdykstra)
 
 > The Contoso University sample web application demonstrates how to create ASP.NET Web Forms applications using the Entity Framework 4.0 and Visual Studio 2010. For information about the tutorial series, see [the first tutorial in the series](the-entity-framework-and-aspnet-getting-started-part-1.md)
 
-
 ## Using Dynamic Data Functionality to Format and Validate Data
 
 In the previous tutorial you implemented stored procedures. This tutorial will show you how Dynamic Data functionality can provide the following benefits:

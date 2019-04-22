@@ -17,7 +17,6 @@ by [Erik Reitan](https://github.com/Erikre)
 
 > This tutorial series will teach you the basics of building an ASP.NET Web Forms application using ASP.NET 4.5 and Microsoft Visual Studio Express 2013 for Web. A Visual Studio 2013 [project with C# source code](https://go.microsoft.com/fwlink/?LinkID=389434&clcid=0x409) is available to accompany this tutorial series.
 
-
 In this tutorial you will create, review, and run the default project in Visual Studio, which will allow you to become familiar with features of ASP.NET. Also, you will review the Visual Studio environment.
 
 ## What you'll learn:
@@ -77,7 +76,6 @@ You can switch between **Design** view and **Source** view by selecting an optio
 > 
 > - [ASP.NET Web API](../../../../web-api/index.md) - A framework for building HTTP services that reach a broad range of clients, including browsers and mobile devices.
 > - [ASP.NET SignalR](../../../../signalr/index.md) - A library that makes developing real-time web functionality easy.
-
 
 ### Reviewing the Project
 

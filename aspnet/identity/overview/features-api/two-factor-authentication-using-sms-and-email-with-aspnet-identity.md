@@ -18,7 +18,6 @@ by [Hao Kung](https://github.com/HaoK), [Pranav Rastogi](https://github.com/rust
 > 
 > This article was written by Rick Anderson ([@RickAndMSFT](https://twitter.com/#!/RickAndMSFT)), Pranav Rastogi ([@rustd](https://twitter.com/rustd)), Hao Kung, and Suhas Joshi. The NuGet sample was written primarily by Hao Kung.
 
-
 This topic covers the following:
 
 - [Building the Identity sample](#build)
@@ -37,7 +36,6 @@ In this section, you'll use NuGet to download a sample we will work with. Start 
 > [!NOTE]
 > Warning: You must install Visual Studio [2013 Update 2](https://go.microsoft.com/fwlink/?LinkId=390521) to complete this tutorial.
 
-
 1. Create a new ***empty*** ASP.NET Web project.
 2. In the Package Manager Console, enter the following the following commands:  
   
@@ -52,7 +50,6 @@ In this section, you'll use NuGet to download a sample we will work with. Start 
 
 > [!NOTE]
 > Warning: If you change any of the security settings in this sample, productions apps will need to undergo a security audit that explicitly calls out the changes made.
-
 
 <a id="SMS"></a>
 
@@ -206,7 +203,6 @@ You can add more 2FA providers such as QR code generators or you can write you o
 
 > [!NOTE]
 > The 2FA codes are generated using [Time-based One-time Password Algorithm](http://en.wikipedia.org/wiki/Time-based_One-time_Password_Algorithm) and codes are valid for six minutes. If you take more than six minutes to enter the code, you'll get an Invalid code error message.
-
 
 <a id="combine"></a>
 

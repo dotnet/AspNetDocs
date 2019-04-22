@@ -13,7 +13,6 @@ msc.type: chapter
 
 > The basics of using Entity Framework to display and edit data in an ASP.NET Web Forms application.
 
-
 - [Getting Started with Entity Framework 4.0 Database First](the-entity-framework-and-aspnet-getting-started-part-1.md)
 - [Getting Started with Entity Framework 4.0 Database First - Part 2](the-entity-framework-and-aspnet-getting-started-part-2.md)
 - [Getting Started with Entity Framework 4.0 Database First - Part 3](the-entity-framework-and-aspnet-getting-started-part-3.md)

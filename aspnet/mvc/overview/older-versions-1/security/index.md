@@ -13,7 +13,6 @@ msc.type: chapter
 
 > This tutorial set covers how to password protect some pages in your ASP.NET MVC application and how to create and manage users and roles.
 
-
 - [Authenticating Users with Forms Authentication (C#)](authenticating-users-with-forms-authentication-cs.md)
 - [Authenticating Users with Windows Authentication (C#)](authenticating-users-with-windows-authentication-cs.md)
 - [Preventing JavaScript Injection Attacks (C#)](preventing-javascript-injection-attacks-cs.md)

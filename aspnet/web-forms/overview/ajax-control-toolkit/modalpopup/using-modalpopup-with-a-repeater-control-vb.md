@@ -17,7 +17,6 @@ by [Christian Wenz](https://github.com/wenz)
 
 > The ModalPopup control in the AJAX Control Toolkit offers a simple way to create a modal popup using client-side means. It is also possible to use this control within a repeater.
 
-
 ## Overview
 
 The ModalPopup control in the AJAX Control Toolkit offers a simple way to create a modal popup using client-side means. It is also possible to use this control within a repeater.
@@ -41,7 +40,6 @@ In order to make the popup work within the repeater, the `ModalPopupExtender` co
 [!code-aspx[Main](using-modalpopup-with-a-repeater-control-vb/samples/sample4.aspx)]
 
 Then, every item in the data source is displayed with a button next to it that triggers the modal popup.
-
 
 [![The modal popup can be triggered for every data source entry](using-modalpopup-with-a-repeater-control-vb/_static/image2.png)](using-modalpopup-with-a-repeater-control-vb/_static/image1.png)
 

@@ -15,7 +15,6 @@ by [Stephen Walther](https://github.com/StephenWalther)
 
 > What is an ASP.NET MVC View and how does it differ from a HTML page? In this tutorial, Stephen Walther introduces you to Views and demonstrates how you can take advantage of View Data and HTML Helpers within a View.
 
-
 The purpose of this tutorial is to provide you with a brief introduction to ASP.NET MVC views, view data, and HTML Helpers. By the end of this tutorial, you should understand how to create new views, pass data from a controller to a view, and use HTML Helpers to generate content in a view.
 
 ## Understanding Views
@@ -62,7 +61,6 @@ When this line of code is executed, a view is returned from the following path:
 > 
 > If you plan to create unit tests for your ASP.NET MVC application then it is a good idea to be explicit about view names. That way, you can create a unit test to verify that the expected view was returned by a controller action.
 
-
 ## Adding Content to a View
 
 A view is a standard (X)HTML document that can contain scripts. You use scripts to add dynamic content to a view.
@@ -97,11 +95,9 @@ For example, the view in Listing 4 takes advantage of three HTML Helpers -- the 
 
 [!code-aspx[Main](asp-net-mvc-views-overview-cs/samples/sample4.aspx)]
 
-
 [![The New Project dialog box](asp-net-mvc-views-overview-cs/_static/image1.jpg)](asp-net-mvc-views-overview-cs/_static/image1.png)
 
 **Figure 01**: A standard Login form ([Click to view full-size image](asp-net-mvc-views-overview-cs/_static/image2.png))
-
 
 All of the HTML Helpers methods are called on the Html property of the view. For example, you render a TextBox by calling the Html.TextBox() method.
 

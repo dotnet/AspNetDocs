@@ -26,7 +26,6 @@ by [Microsoft](https://github.com/microsoft)
 > > [!NOTE]
 > > The information in this article applies to ASP.NET Web Pages 1.0 and Web Pages 2.
 
-
 ## About CAPTCHAs
 
 Any time you let people register in your site, or even just enter a name and URL (like for a blog comment), you might get a flood of fake names. These are often left by automated programs (bots) that try to leave URLs in every website they can find. (A common motivation is to post the URLs of products for sale.)
@@ -61,10 +60,8 @@ In ASP.NET pages, you can use the `ReCaptcha` helper to render a CAPTCHA test th
 > 
 > [!code-xml[Main](using-a-catpcha-to-prevent-automated-programs-bots-from-using-your-aspnet-web-site/samples/sample3.xml)]
 
-
 <a id="Additional_Resources"></a>
 ## Additional Resources
-
 
 - [Customizing Site-Wide Behavior for ASP.NET Web Pages Sites](https://go.microsoft.com/fwlink/?LinkId=202906)
 - [ReCaptcha site](https://www.google.com/recaptcha)

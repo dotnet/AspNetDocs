@@ -15,26 +15,21 @@ by [Microsoft](https://github.com/microsoft)
 
 > Learn all you need to know to get started using the AJAX Control Toolkit.
 
-
 The AJAX Control Toolkit contains more than 30 free controls that you can use in your ASP.NET applications. In this tutorial, you learn how to download the AJAX Control Toolkit and add the toolkit controls to your Visual Studio/Visual Web Developer Express toolbox.
 
 ## Downloading the AJAX Control Toolkit
 
 The [AJAX Control Toolkit](http://devexpress.com/act) is an open source project developed by the members of the ASP.NET community and the ASP.NET team. 
 
-
 [![Downloading the AJAX Control Toolkit](get-started-with-the-ajax-control-toolkit-cs/_static/image1.jpg)](get-started-with-the-ajax-control-toolkit-cs/_static/image1.png)
 
 **Figure 01**: Downloading the AJAX Control Toolkit([Click to view full-size image](get-started-with-the-ajax-control-toolkit-cs/_static/image2.png))
 
-
 After you download the file, you need to unblock the file. Right-click the file, select Properties, and click the **Unblock** button (see Figure 2).
-
 
 [![Unblocking the AJAX Control Toolkit ZIP file](get-started-with-the-ajax-control-toolkit-cs/_static/image2.jpg)](get-started-with-the-ajax-control-toolkit-cs/_static/image3.png)
 
 **Figure 02**: Unblocking the AJAX Control Toolkit ZIP file([Click to view full-size image](get-started-with-the-ajax-control-toolkit-cs/_static/image4.png))
-
 
 After you unblock the file, you can unzip the file: Right-click the file and select the **Extract All** menu option. Now, we are ready to add the toolkit to the Visual Studio/Visual Web Developer toolbox.
 
@@ -42,11 +37,9 @@ After you unblock the file, you can unzip the file: Right-click the file and sel
 
 The easiest way to use the AJAX Control Toolkit is to add the toolkit to your Visual Studio/Visual Web Developer toolbox (see Figure 3). That way, you can simply drag a toolkit control onto a page when you want to use it.
 
-
 [![AJAX Control Toolkit appears in toolbox](get-started-with-the-ajax-control-toolkit-cs/_static/image3.jpg)](get-started-with-the-ajax-control-toolkit-cs/_static/image5.png)
 
 **Figure 03**: AJAX Control Toolkit appears in toolbox([Click to view full-size image](get-started-with-the-ajax-control-toolkit-cs/_static/image6.png))
-
 
 First, you need to add an AJAX Control Toolkit tab to the toolbox. Follow these steps.
 
@@ -54,22 +47,18 @@ First, you need to add an AJAX Control Toolkit tab to the toolbox. Follow these 
 2. Right-click the Toolbox beneath the General Tab and select the menu option **Add Tab** (see Figure 4).
 3. Enter a new tab named AJAX Control Toolkit.
 
-
 [![Adding a new tab](get-started-with-the-ajax-control-toolkit-cs/_static/image4.jpg)](get-started-with-the-ajax-control-toolkit-cs/_static/image7.png)
 
 **Figure 04**: Adding a new tab([Click to view full-size image](get-started-with-the-ajax-control-toolkit-cs/_static/image8.png))
-
 
 Next, you need to add the AJAX Control Toolkit controls to the new tab. Follow these steps:
 
 - Right-click beneath the AJAX Control Toolkit tab and select the menu option **Choose Items (see Figure 5)**.
 - Browse to the location where you unzipped the AJAX Control Toolkit and select the AjaxControlToolkit.dll assembly.
 
-
 [![Choose items to add to the toolbox](get-started-with-the-ajax-control-toolkit-cs/_static/image5.jpg)](get-started-with-the-ajax-control-toolkit-cs/_static/image9.png)
 
 **Figure 05**: Choose items to add to the toolbox([Click to view full-size image](get-started-with-the-ajax-control-toolkit-cs/_static/image10.png))
-
 
 After you complete these steps, all of the toolkit controls will appear in your toolbox.
 

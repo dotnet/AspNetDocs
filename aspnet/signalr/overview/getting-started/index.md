@@ -13,7 +13,6 @@ msc.type: chapter
 
 > What SignalR is, platforms it runs on, and how to get started.
 
-
 - [Introduction to SignalR](introduction-to-signalr.md)
 - [Supported Platforms](supported-platforms.md)
 - [Tutorial: Getting Started with SignalR 2](tutorial-getting-started-with-signalr.md)

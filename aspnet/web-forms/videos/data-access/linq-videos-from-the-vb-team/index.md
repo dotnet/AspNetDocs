@@ -13,7 +13,6 @@ msc.type: chapter
 
 > These videos provide over an hour and half of content focused on the new LINQ language features of Visual Basic 9.0 included in Visual Studio 2008.
 
-
 - [Get Started with LINQ](how-do-i-get-started-with-linq.md)
 - [Perform Group and Aggregate Queries](how-do-i-perform-group-and-aggregate-queries.md)
 - [Upgrade Visual Basic Projects to Enable LINQ](how-do-i-upgrade-visual-basic-projects-to-enable-linq.md)

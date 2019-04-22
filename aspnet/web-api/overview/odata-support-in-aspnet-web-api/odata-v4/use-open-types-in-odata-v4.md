@@ -23,7 +23,6 @@ by [Microsoft](https://github.com/microsoft)
 > - Web API OData 5.3
 > - OData v4
 
-
 First, some OData terminology:
 
 - Entity type: A structured type with a key.

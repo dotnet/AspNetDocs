@@ -19,7 +19,6 @@ by [Jon Galloway](https://github.com/jongalloway)
 >   
 > This tutorial series details all of the steps taken to build the ASP.NET MVC Music Store sample application. Part 7 covers Membership and Authorization.
 
-
 Our Store Manager controller is currently accessible to anyone visiting our site. Let's change this to restrict permission to site administrators.
 
 ## Adding the AccountController and Views

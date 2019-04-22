@@ -16,7 +16,6 @@ by [Rick Anderson]((https://twitter.com/RickAndMSFT))
 > > [!NOTE]
 > > An updated version of this tutorial is available [here](../../getting-started/introduction/getting-started.md) that uses ASP.NET MVC 5 and Visual Studio 2013. It's more secure, much simpler to follow and demonstrates more features.
 
-
 In this section, you'll create a new `MoviesController` class and write code that retrieves the movie data and displays it in the browser using a view template.
 
 **Build the application** before going on to the next step.
@@ -114,7 +113,6 @@ Double-click *Movies.mdf* to open **DATABASE EXPLORER**, then expand the **Table
 > [!NOTE]
 > If the database explorer doesn't appear, from the **TOOLS** menu, select **Connect to Database**, then cancel the **Choose Data Source** dialog. This will force open the database explorer.
 
-
 > [!NOTE]
 > If you are using VWD or Visual Studio 2010 and get an error similar to any of the following following:
 > 
@@ -122,7 +120,6 @@ Double-click *Movies.mdf* to open **DATABASE EXPLORER**, then expand the **Table
 > - &quot;InvalidOperation Exception was unhandled by user code&quot; The supplied SqlConnection does not specify an initial catalog.
 > 
 > You need to install the [SQL Server Data Tools](https://blogs.msdn.com/b/rickandy/archive/2012/08/02/installing-and-using-sql-server-data-tools-ssdt-on-visual-studio-2010-and-vwd.aspx) and [LocalDB](https://www.microsoft.com/web/gallery/install.aspx?appid=SQLLocalDBOnly_11_0). Verify the `MovieDBContext` connection string specified on the previous page.
-
 
 Right-click the `Movies` table and select **Show Table Data** to see the data you created.
 

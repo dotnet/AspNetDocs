@@ -13,7 +13,6 @@ msc.type: chapter
 
 > Features of Visual Studio 2010, including those specifically for working with ASP.NET.
 
-
 - [Code Optimized Profile](visual-studio-2010-quick-hit-code-optimized-profile.md)
 - [Code Search View Hierarchy](visual-studio-2010-quick-hit-code-search-view-hierarchy.md)
 - [IntelliSense Smart Lists](visual-studio-2010-quick-hit-intellisense-smart-lists.md)

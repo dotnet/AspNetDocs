@@ -17,7 +17,6 @@ by [Christian Wenz](https://github.com/wenz)
 
 > The Accordion control in the AJAX Control Toolkit provides multiple panes and allows the user to display one of them at a time. Panels are usually declared within the page itself, but server-side code can be used to achieve the same result.
 
-
 ## Overview
 
 The Accordion control in the AJAX Control Toolkit provides multiple panes and allows the user to display one of them at a time. Panels are usually declared within the page itself, but server-side code can be used to achieve the same result.
@@ -47,7 +46,6 @@ The only missing element is the Accordion itself, which depends on the presence 
 To finish the example, the two CSS classes referenced in the Accordion control provide style information for the browser:
 
 [!code-css[Main](dynamically-adding-an-accordion-pane-vb/samples/sample6.css)]
-
 
 [![The data in the accordion was dynamically added by server-side code](dynamically-adding-an-accordion-pane-vb/_static/image2.png)](dynamically-adding-an-accordion-pane-vb/_static/image1.png)
 

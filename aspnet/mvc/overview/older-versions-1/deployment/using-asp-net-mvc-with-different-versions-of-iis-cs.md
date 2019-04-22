@@ -15,7 +15,6 @@ by [Microsoft](https://github.com/microsoft)
 
 > In this tutorial, you learn how to use ASP.NET MVC, and URL Routing, with different versions of Internet Information Services. You learn different strategies for using ASP.NET MVC with IIS 7.0 (classic mode), IIS 6.0, and earlier versions of IIS.
 
-
 The ASP.NET MVC framework depends on ASP.NET Routing to route browser requests to controller actions. In order to take advantage of ASP.NET Routing, you might have to perform additional configuration steps on your web server. It all depends on the version of Internet Information Services (IIS) and the request processing mode for your application.
 
 Here's a summary of the different versions of IIS:

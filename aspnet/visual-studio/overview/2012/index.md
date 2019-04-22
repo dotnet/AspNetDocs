@@ -13,7 +13,6 @@ msc.type: chapter
 
 > Developing ASP.NET web apps with Visual Studio 2012
 
-
 - [Visual Studio 2012 HTML Editing Features](visual-studio-2012-html-editing-features.md)
 - [Visual Studio 2012 CSS Editor](visual-studio-2012-css-editor.md)
 - [Visual Studio 2012 JavaScript Editor](visual-studio-2012-javascript-editor.md)

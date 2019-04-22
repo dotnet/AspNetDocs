@@ -28,13 +28,11 @@ We'll be covering all these concepts in this tutorial series and show you how to
 
 Let's begin by creating a controller class. In **Solution Explorer**, right-click the *Controllers* folder and then click **Add**, then **Controller**.
 
-
 ![](adding-a-controller/_static/image1.png)
 
 In the **Add Scaffold** dialog box, click **MVC 5 Controller - Empty**, and then click **Add**.
 
 ![](adding-a-controller/_static/image2.png)  
- 
 
 Name your new controller "HelloWorldController" and click **Add**.
 
@@ -74,7 +72,6 @@ Let's modify the example slightly so that you can pass some parameter informatio
 
 > [!NOTE]
 > Security Note: The code above uses [HttpUtility.HtmlEncode](https://msdn.microsoft.com/library/ee360286(v=vs.110).aspx) to protect the application from malicious input (namely JavaScript). For more information see [How to: Protect Against Script Exploits in a Web Application by Applying HTML Encoding to Strings](https://msdn.microsoft.com/library/a2a4yykt(v=vs.100).aspx).
-
 
  Run your application and browse to the example URL (`http://localhost:xxxx/HelloWorld/Welcome?name=Scott&numtimes=4`). You can try different values for `name` and `numtimes` in the URL. The [ASP.NET MVC model binding system](http://odetocode.com/Blogs/scott/archive/2009/04/27/6-tips-for-asp-net-mvc-model-binding.aspx) automatically maps the named parameters from the query string in the address bar to parameters in your method.
 

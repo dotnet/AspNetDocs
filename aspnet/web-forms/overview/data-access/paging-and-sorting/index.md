@@ -13,7 +13,6 @@ msc.type: chapter
 
 > In these tutorials you add some initial sorting and paging functionality to data reports.
 
-
 - [Paging and Sorting Report Data (C#)](paging-and-sorting-report-data-cs.md)
 - [Efficiently Paging Through Large Amounts of Data (C#)](efficiently-paging-through-large-amounts-of-data-cs.md)
 - [Sorting Custom Paged Data (C#)](sorting-custom-paged-data-cs.md)

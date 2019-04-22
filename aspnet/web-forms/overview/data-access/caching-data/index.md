@@ -13,7 +13,6 @@ msc.type: chapter
 
 > This tutorial set explains caching, which can improve site performance, and how to apply caching to the Presentation Layer using the ObjectDataSource control.
 
-
 - [Caching Data with the ObjectDataSource (C#)](caching-data-with-the-objectdatasource-cs.md)
 - [Caching Data in the Architecture (C#)](caching-data-in-the-architecture-cs.md)
 - [Caching Data at Application Startup (C#)](caching-data-at-application-startup-cs.md)

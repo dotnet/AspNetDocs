@@ -17,7 +17,6 @@ by [Xinyang Qiu](https://github.com/xqiu)
 > 
 > [Download the EmberJS MVC Template](https://go.microsoft.com/fwlink/?LinkId=282647)
 
-
 The EmberJS SPA template is designed to get you started quickly building interactive client-side web apps using EmberJS.
 
 "Single-page application" (SPA) is the general term for a web application that loads a single HTML page and then updates the page dynamically, instead of loading new pages. After the initial page load, the SPA talks with the server through AJAX requests.

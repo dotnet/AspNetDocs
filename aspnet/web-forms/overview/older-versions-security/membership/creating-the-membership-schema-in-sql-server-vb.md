@@ -17,7 +17,6 @@ by [Scott Mitchell](https://twitter.com/ScottOnWriting)
 
 > This tutorial starts by examining techniques for adding the necessary schema to the database in order to use the SqlMembershipProvider. Following that, we will examine the key tables in the schema and discuss their purpose and importance. This tutorial ends with a look at how to tell an ASP.NET application which provider the Membership framework should use.
 
-
 ## Introduction
 
 The previous two tutorials examined using forms authentication to identify website visitors. The forms authentication framework makes it easy for developers to log a user into a website and to remember them across page visits through the use of authentication tickets. The `FormsAuthentication` class includes methods for generating the ticket and adding it to the visitor's cookies. The `FormsAuthenticationModule` examines all incoming requests and, for those with a valid authentication ticket, creates and associates a `GenericPrincipal` and a `FormsIdentity` object with the current request. Forms authentication is merely a mechanism for granting an authentication ticket to a visitor when logging in and, on subsequent requests, parsing that ticket to determine the user's identity. For a web application to support user accounts, we still need to implement a user store and add functionality to validate credentials, register new users, and the myriad of other user account-related tasks.
@@ -50,19 +49,15 @@ The application we have been building since the second tutorial has not yet need
 
 From the Solution Explorer, right-click on the `App_Data` folder and choose to Add New Item. (If you do not see an `App_Data` folder in your project, right-click on the project in Solution Explorer, select Add ASP.NET Folder, and pick `App_Data`.) From the Add New Item dialog box, choose to add a new SQL Database named `SecurityTutorials.mdf`. In this tutorial we will add the `SqlMembershipProvider` schema to this database; in subsequent tutorials we will create additional tables to capture our application data.
 
-
 [![Add a New SQL Database Named SecurityTutorials.mdf Database to the App_Data Folder](creating-the-membership-schema-in-sql-server-vb/_static/image2.png)](creating-the-membership-schema-in-sql-server-vb/_static/image1.png)
 
 **Figure 1**: Add a New SQL Database Named `SecurityTutorials.mdf` Database to the `App_Data` Folder ([Click to view full-size image](creating-the-membership-schema-in-sql-server-vb/_static/image3.png))
 
-
 Adding a database to the `App_Data` folder automatically includes it in the Database Explorer view. (In the non-Express Edition version of Visual Studio, the Database Explorer is called the Server Explorer.) Go to the Database Explorer and expand the just-added `SecurityTutorials` database. If you do not see the Database Explorer on screen, go to the View menu and choose Database Explorer, or hit Ctrl+Alt+S. As Figure 2 shows, the `SecurityTutorials` database is empty - it contains no tables, no views, and no stored procedures.
-
 
 [![The SecurityTutorials Database is Currently Empty](creating-the-membership-schema-in-sql-server-vb/_static/image5.png)](creating-the-membership-schema-in-sql-server-vb/_static/image4.png)
 
 **Figure 2**: The `SecurityTutorials` Database is Currently Empty ([Click to view full-size image](creating-the-membership-schema-in-sql-server-vb/_static/image6.png))
-
 
 ## Step 2: Adding the`SqlMembershipProvider`Schema to the Database
 
@@ -93,34 +88,27 @@ The easiest way to ascertain the database name is to examine it through SQL Serv
 
 Start by closing Visual Studio to ensure that any locks imposed by Visual Studio on the database file are closed. Next, launch SQL Server Management Studio and connect to the `localhost\InstanceName` database for SQL Server 2005 Express Edition. As noted earlier, chances are the instance name is `SQLExpress`. For the Authentication option, select Windows Authentication.
 
-
 [![Connect to the SQL Server 2005 Express Edition Instance](creating-the-membership-schema-in-sql-server-vb/_static/image8.png)](creating-the-membership-schema-in-sql-server-vb/_static/image7.png)
 
 **Figure 3**: Connect to the SQL Server 2005 Express Edition Instance ([Click to view full-size image](creating-the-membership-schema-in-sql-server-vb/_static/image9.png))
-
 
 After connecting to the SQL Server 2005 Express Edition instance, Management Studio displays folders for the Databases, the Security settings, the Server Objects, and so on. If you expand the Databases tab you will see that the `SecurityTutorials.mdf` database is *not* registered in the database instance - we need to attach the database first.
 
 Right-click on the Databases folder and choose Attach from the context menu. This will display the Attach Databases dialog box. From here, click the Add button, browse to the `SecurityTutorials.mdf` database, and click OK. Figure 4 shows the Attach Databases dialog box after the `SecurityTutorials.mdf` database has been selected. Figure 5 shows Management Studio's Object Explorer after the database has been successfully attached.
 
-
 [![Attach the SecurityTutorials.mdf Database](creating-the-membership-schema-in-sql-server-vb/_static/image11.png)](creating-the-membership-schema-in-sql-server-vb/_static/image10.png)
 
 **Figure 4**: Attach the `SecurityTutorials.mdf` Database ([Click to view full-size image](creating-the-membership-schema-in-sql-server-vb/_static/image12.png))
-
 
 [![The SecurityTutorials.mdf Database Appears in the Databases Folder](creating-the-membership-schema-in-sql-server-vb/_static/image14.png)](creating-the-membership-schema-in-sql-server-vb/_static/image13.png)
 
 **Figure 5**: The `SecurityTutorials.mdf` Database Appears in the Databases Folder ([Click to view full-size image](creating-the-membership-schema-in-sql-server-vb/_static/image15.png))
 
-
 As Figure 5 shows, the `SecurityTutorials.mdf` database has a rather abstruse name. Let's change it to a more memorable (and easier to type) name. Right-click on the database, choose Rename from the context menu, and rename it `SecurityTutorialsDatabase`. This does not change the filename, just the name the database uses to identify itself to SQL Server.
-
 
 [![Rename the Database to SecurityTutorialsDatabase](creating-the-membership-schema-in-sql-server-vb/_static/image17.png)](creating-the-membership-schema-in-sql-server-vb/_static/image16.png)
 
 **Figure 6**: Rename the Database to `SecurityTutorialsDatabase`([Click to view full-size image](creating-the-membership-schema-in-sql-server-vb/_static/image18.png))
-
 
 At this point we know the server and database names for the `SecurityTutorials.mdf` database file: `localhost\InstanceName` and `SecurityTutorialsDatabase`, respectively. We are now ready to install the application services through the `aspnet_regsql.exe` tool.
 
@@ -130,19 +118,15 @@ To launch the `aspnet_regsql.exe` tool, go to the start menu and choose Run. Ent
 
 Running the `aspnet_regsql.exe` tool without any command line arguments launches the ASP.NET SQL Server Setup Wizard graphical user interface. The wizard makes it easy to add or remove the ASP.NET application services on a specified database. The first screen of the wizard, shown in Figure 7, describes the purpose of the tool.
 
-
 [![Use the ASP.NET SQL Server Setup Wizard Makes to Add the Membership Schema](creating-the-membership-schema-in-sql-server-vb/_static/image20.png)](creating-the-membership-schema-in-sql-server-vb/_static/image19.png)
 
 **Figure 7**: Use the ASP.NET SQL Server Setup Wizard Makes to Add the Membership Schema ([Click to view full-size image](creating-the-membership-schema-in-sql-server-vb/_static/image21.png))
 
-
 The second step in the wizard asks us whether we want to add the application services or remove them. Since we want to add the tables, views, and stored procedures necessary for the `SqlMembershipProvider`, choose the Configure SQL Server for application services option. Later, if you want to remove this schema from your database, re-run this wizard, but instead choose the Remove application services information from an existing database option.
-
 
 [![Choose the Configure SQL Server for Application Services Option](creating-the-membership-schema-in-sql-server-vb/_static/image23.png)](creating-the-membership-schema-in-sql-server-vb/_static/image22.png)
 
 **Figure 8**: Choose the Configure SQL Server for Application Services Option ([Click to view full-size image](creating-the-membership-schema-in-sql-server-vb/_static/image24.png))
-
 
 The third step prompts for the database information: the server name, authentication information, and the database name. If you have been following along with this tutorial and have added the `SecurityTutorials.mdf` database to `App_Data`, attached it to `localhost\InstanceName`, and renamed it to `SecurityTutorialsDatabase`, then use the following values:
 
@@ -150,11 +134,9 @@ The third step prompts for the database information: the server name, authentica
 - Windows authentication
 - Database: `SecurityTutorialsDatabase`
 
-
 [![Enter the Database Information](creating-the-membership-schema-in-sql-server-vb/_static/image26.png)](creating-the-membership-schema-in-sql-server-vb/_static/image25.png)
 
 **Figure 9**: Enter the Database Information ([Click to view full-size image](creating-the-membership-schema-in-sql-server-vb/_static/image27.png))
-
 
 After entering the database information, click Next. The final step summarizes the steps that will be taken. Click Next to install the application services and then Finish to complete the wizard.
 
@@ -163,11 +145,9 @@ After entering the database information, click Next. The final step summarizes t
 
 Upon completion of the wizard, return to Visual Studio and navigate to the Database Explorer. Expand the Tables folder. You should see a series of tables whose names start with the prefix `aspnet_`. Likewise, a variety of views and stored procedures can be found under the Views and Stored Procedures folders. These database objects make up the application services schema. We will examine the membership- and role-specific database objects in Step 3.
 
-
 [![A Variety of Tables, Views, and Stored Procedures Have Been Added to the Database](creating-the-membership-schema-in-sql-server-vb/_static/image29.png)](creating-the-membership-schema-in-sql-server-vb/_static/image28.png)
 
 **Figure 10**: A Variety of Tables, Views, and Stored Procedures Have Been Added to the Database ([Click to view full-size image](creating-the-membership-schema-in-sql-server-vb/_static/image30.png))
-
 
 > [!NOTE]
 > The `aspnet_regsql.exe` tool's graphical user interface installs the entire application services schema. But when executing `aspnet_regsql.exe` from the command-line you can specify what particular application services components to install (or remove). Therefore, if you want to add just the tables, views, and stored procedures necessary for the `SqlMembershipProvider` and `SqlRoleProvider` providers, run `aspnet_regsql.exe` from the command-line. Alternatively, you can manually run the appropriate subset of T-SQL create scripts used by `aspnet_regsql.exe`. These scripts are located in the `WINDIR%\Microsoft.Net\Framework\v2.0.50727\` folder with names like `InstallCommon.sql`, `InstallMembership.sql`, `InstallRoles.sql`, `InstallProfile.sql`, `InstallSqlState.sql`, and so on.
@@ -184,11 +164,9 @@ Given this, we could confidently use the Membership and Roles frameworks without
 
 The Membership and Roles frameworks are designed such that a single user and role store can be shared among many different applications. An ASP.NET application that uses the Membership or Roles frameworks must specify what application partition to use. In short, multiple web applications can use the same user and role stores. Figure 11 depicts user and role stores that are partitioned into three applications: HRSite, CustomerSite, and SalesSite. These three web applications each have their own unique users and roles, yet they all physically store their user account and role information in the same database tables.
 
-
 [![User Accounts May Be Partitioned Across Multiple Applications](creating-the-membership-schema-in-sql-server-vb/_static/image32.png)](creating-the-membership-schema-in-sql-server-vb/_static/image31.png)
 
 **Figure 11**: User Accounts May Be Partitioned Across Multiple Applications ([Click to view full-size image](creating-the-membership-schema-in-sql-server-vb/_static/image33.png))
-
 
 The `aspnet_Applications` table is what defines these partitions. Each application that uses the database to store user account information is represented by a row in this table. The `aspnet_Applications` table has four columns: `ApplicationId`, `ApplicationName`, `LoweredApplicationName`, and `Description`.`ApplicationId` is of type [`uniqueidentifier`](https://msdn.microsoft.com/library/ms187942.aspx) and is the table's primary key; `ApplicationName` provides a unique human-friendly name for each application.
 

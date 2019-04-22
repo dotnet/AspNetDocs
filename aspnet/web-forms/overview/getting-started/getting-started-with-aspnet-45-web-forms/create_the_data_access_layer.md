@@ -17,7 +17,6 @@ by [Erik Reitan](https://github.com/Erikre)
 
 > This tutorial series will teach you the basics of building an ASP.NET Web Forms application using ASP.NET 4.5 and Microsoft Visual Studio Express 2013 for Web. A Visual Studio 2013 [project with C# source code](https://go.microsoft.com/fwlink/?LinkID=389434&clcid=0x409) is available to accompany this tutorial series.
 
-
 This tutorial describes how to create, access, and review data from a database using ASP.NET Web Forms and Entity Framework Code First. This tutorial builds on the previous tutorial "Create the Project" and is part of the Wingtip Toy Store tutorial series. When you've completed this tutorial, you will have built a group of data-access classes that are in the *Models* folder of the project.
 
 ## What you'll learn:
@@ -113,7 +112,6 @@ As you can see from the above code, when the database is created and initialized
 > 
 > If you wanted the database to be recreated every time you ran the application, you could use the `DropCreateDatabaseAlways` class instead of the `DropCreateDatabaseIfModelChanges` class. However for this tutorial series, use the `DropCreateDatabaseIfModelChanges` class.
 
-
 At this point in this tutorial, you will have a *Models* folder with four new classes and one default class:
 
 ![Create the Data Access Layer - Models Folder](create_the_data_access_layer/_static/image3.png)
@@ -130,7 +128,6 @@ To initialize the data models when the application starts, you will update the `
 > 
 > In Solution Explorer, you can select either the *Global.asax* file or the *Global.asax.cs* file to edit the *Global.asax.cs* file.
 
-
 1. Add the following code highlighted in yellow to the `Application_Start` method in the *Global.asax.cs* file.   
 
     [!code-csharp[Main](create_the_data_access_layer/samples/sample5.cs?highlight=9-10,22-23)]
@@ -138,7 +135,6 @@ To initialize the data models when the application starts, you will update the `
 > [!NOTE] 
 > 
 > Your browser must support HTML5 to view the code highlighted in yellow when viewing this tutorial series in a browser.
-
 
 As shown in the above code, when the application starts, the application specifies the initializer that will run during the first time the data is accessed. The two additional namespaces are required to access the `Database` object and the `ProductDatabaseInitializer` object.
 

@@ -61,7 +61,6 @@ You don't want users to update the `IsAdmin` property and elevate themselves to 
 > [!NOTE]
 > Brad Wilson's blog post "[Input Validation vs. Model Validation in ASP.NET MVC](http://bradwilson.typepad.com/blog/2010/01/input-validation-vs-model-validation-in-aspnet-mvc.html)" has a good discussion of under-posting and over-posting. Although the post is about ASP.NET MVC 2, the issues are still relevant to Web API.
 
-
 ## Handling Validation Errors
 
 Web API does not automatically return an error to the client when validation fails. It is up to the controller action to check the model state and respond appropriately.

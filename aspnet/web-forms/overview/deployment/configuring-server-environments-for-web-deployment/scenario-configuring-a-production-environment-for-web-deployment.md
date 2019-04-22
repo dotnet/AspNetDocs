@@ -17,7 +17,6 @@ by [Jason Lee](https://github.com/jrjlee)
 
 > This topic describes a typical web deployment scenario for a production environment and explains the tasks you need to complete in order to set up a similar environment.
 
-
 The production environment is the final destination for a web application or a website. By this point, your application has been through testing, has been deployed to a staging environment, and is ready to "go live." The characteristics of a production environment can vary widely according to the nature and purpose of your web content, the size of your organization, your target audience, and lots of other factors. In an enterprise-scale scenario, the production environment may have these characteristics:
 
 - The environment consists of multiple load-balanced web servers and one or more database servers, often with failover clustering and database mirroring.
@@ -27,7 +26,6 @@ The production environment is the final destination for a web application or a w
 
 > [!NOTE]
 > Scaling out a database deployment across multiple servers is beyond the scope of this tutorial. For more information on this area, please consult [SQL Server Books Online](https://technet.microsoft.com/library/ms130214.aspx).
-
 
 For example, in our [tutorial scenario](../deploying-web-applications-in-enterprise-scenarios/enterprise-web-deployment-scenario-overview.md), a Team Build server includes build definitions that let users build the Contact Manager solution and deploy it to a staging environment in a single step. When the application is ready to be deployed to production, due to the constraints imposed by security requirements and the network infrastructure, the production environment administrator must manually copy the web package onto a production web server and import it through Internet Information Services (IIS) Manager.
 

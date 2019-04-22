@@ -24,7 +24,6 @@ by [Tom Dykstra](https://github.com/tdykstra)
 > 
 > For information about how to create web projects for Azure Cloud Services or Azure Mobile Services, see [Get Started with Azure Cloud Services and ASP.NET](https://azure.microsoft.com/documentation/articles/cloud-services-dotnet-get-started/) and [Creating a Leaderboard App with Azure Mobile Services .NET Backend](https://azure.microsoft.com/documentation/articles/mobile-services-dotnet-backend-windows-store-dotnet-leaderboard/).
 
-
 <a id="prerequisites"></a>
 ## Prerequisites
 
@@ -344,7 +343,6 @@ If you want to try one of the Azure AD options but don't have an account yet, [c
 > If you choose one of the Azure AD options, your project requires a database and you have to sign in to a global administrator account for your Azure AD tenant. Enter the name and password for an organizational account (for example, admin@contoso.onmicrosoft.com) that has administrative permissions for your Azure AD tenant.
 > 
 > **Don't enter credentials for a Microsoft account (for example, contoso@hotmail.com) in the sign-in dialog box.**
-
 
 <a id="orgauthsingle"></a>
 ### Cloud - Single Organization Authentication

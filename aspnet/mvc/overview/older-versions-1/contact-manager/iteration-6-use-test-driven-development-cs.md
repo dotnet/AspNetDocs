@@ -17,9 +17,7 @@ by [Microsoft](https://github.com/microsoft)
 
 > In this sixth iteration, we add new functionality to our application by writing unit tests first and writing code against the unit tests. In this iteration, we add contact groups.
 
-
 ## Building a Contact Management ASP.NET MVC Application (C#)
-  
 
 In this series of tutorials, we build an entire Contact Management application from start to finish. The Contact Manager application enables you to store contact information - names, phone numbers and email addresses - for a list of people.
 
@@ -67,7 +65,6 @@ Finally, test-driven development forces you to write unit tests as part of the n
 > 
 > To learn more about test-driven development, I recommend that you read Michael Feathers book **Working Effectively with Legacy Code**.
 
-
 In this iteration, we add a new feature to our Contact Manager application. We add support for Contact Groups. You can use Contact Groups to organize your contacts into categories such as Business and Friend groups.
 
 We'll add this new functionality to our application by following a process of test-driven development. We'll write our unit tests first and we'll write all of our code against these tests.
@@ -106,11 +103,9 @@ Our first user story is that a user should be able to view a list of contact gro
 
 Create a new unit test by right-clicking the Controllers folder in the ContactManager.Tests project, selecting **Add, New Test**, and selecting the **Unit Test** template (see Figure 1). Name the new unit test GroupControllerTest.cs and click the **OK** button.
 
-
 [![Adding the GroupControllerTest unit test](iteration-6-use-test-driven-development-cs/_static/image1.jpg)](iteration-6-use-test-driven-development-cs/_static/image1.png)
 
 **Figure 01**: Adding the GroupControllerTest unit test([Click to view full-size image](iteration-6-use-test-driven-development-cs/_static/image2.png))
-
 
 Our first unit test is contained in Listing 1. This test verifies that the Index() method of the Group controller returns a set of Groups. The test verifies that a collection of Groups is returned in view data.
 
@@ -134,11 +129,9 @@ The Group controller class in Listing 2 contains the bare minimum of code requir
 
 After we add the GroupController and Group classes to our project, our first unit test completes successfully (see Figure 2). We have done the minimum work required to pass the test. It is time to celebrate.
 
-
 [![Success!](iteration-6-use-test-driven-development-cs/_static/image2.jpg)](iteration-6-use-test-driven-development-cs/_static/image3.png)
 
 **Figure 02**: Success!([Click to view full-size image](iteration-6-use-test-driven-development-cs/_static/image4.png))
-
 
 ## Creating Contact Groups
 
@@ -214,7 +207,6 @@ Modifying the IContactManagerRepository interface requires use to implement the 
 
 [!code-csharp[Main](iteration-6-use-test-driven-development-cs/samples/sample12.cs)]
 
-
 Finally, these changes to the design of our application require us to make some modifications to our unit tests. We now need to use the FakeContactManagerRepository when performing the unit tests. The updated GroupControllerTest class is contained in Listing 12.
 
 **Listing 12 - Controllers\GroupControllerTest.cs**
@@ -236,12 +228,10 @@ We need to create a new Group database table. Follow these steps:
 
 <a id="0.11_table01"></a>
 
-
 | **Column Name** | **Data Type** | **Allow Nulls** |
 | --- | --- | --- |
 | Id | int | False |
 | Name | nvarchar(50) | False |
-
 
 Next, we need to delete all of the data from the Contacts table (otherwise, we won't be able to create a relationship between the Contacts and Groups tables). Follow these steps:
 
@@ -260,16 +250,13 @@ Next, we need to define a relationship between the Groups database table and the
 8. Click the Close button to close the Foreign Key Relationships dialog.
 9. Click the Save button to save the changes to the Contacts table.
 
-
 [![Creating a database table relationship](iteration-6-use-test-driven-development-cs/_static/image3.jpg)](iteration-6-use-test-driven-development-cs/_static/image5.png)
 
 **Figure 03**: Creating a database table relationship ([Click to view full-size image](iteration-6-use-test-driven-development-cs/_static/image6.png))
 
-
 [![Specifying table relationships](iteration-6-use-test-driven-development-cs/_static/image4.jpg)](iteration-6-use-test-driven-development-cs/_static/image7.png)
 
 **Figure 04**: Specifying table relationships([Click to view full-size image](iteration-6-use-test-driven-development-cs/_static/image8.png))
-
 
 ### Updating our Data Model
 
@@ -281,19 +268,15 @@ Next, we need to update our data model to represent the new database table. Foll
 4. Right-click the Groups entity and select the menu option **Rename**. Change the name of the *Groups* entity to *Group* (singular).
 5. Right-click the Groups navigation property that appears at the bottom of the Contact entity. Change the name of the *Groups* navigation property to *Group* (singular).
 
-
 [![Updating an Entity Framework model from the database](iteration-6-use-test-driven-development-cs/_static/image5.jpg)](iteration-6-use-test-driven-development-cs/_static/image9.png)
 
 **Figure 05**: Updating an Entity Framework model from the database([Click to view full-size image](iteration-6-use-test-driven-development-cs/_static/image10.png))
 
-
 After you complete these steps, your data model will represent both the Contacts and Groups tables. The Entity Designer should show both entities (see Figure 6).
-
 
 [![Entity Designer displaying Group and Contact](iteration-6-use-test-driven-development-cs/_static/image6.jpg)](iteration-6-use-test-driven-development-cs/_static/image11.png)
 
 **Figure 06**: Entity Designer displaying Group and Contact([Click to view full-size image](iteration-6-use-test-driven-development-cs/_static/image12.png))
-
 
 ### Creating our Repository Classes
 
@@ -322,11 +305,9 @@ We need to create the following new views for managing contact groups (see Figur
 - Views\Group\Index.aspx - Displays list of contact groups
 - Views\Group\Delete.aspx - Displays confirmation form for deleting a contact group
 
-
 [![The Group Index view](iteration-6-use-test-driven-development-cs/_static/image7.jpg)](iteration-6-use-test-driven-development-cs/_static/image13.png)
 
 **Figure 07**: The Group Index view([Click to view full-size image](iteration-6-use-test-driven-development-cs/_static/image14.png))
-
 
 We need to modify the following existing views so that they include contact groups:
 
@@ -336,11 +317,9 @@ We need to modify the following existing views so that they include contact grou
 
 You can see the modified views by looking at the Visual Studio application that accompanies this tutorial. For example, Figure 8 illustrates the Contact Index view.
 
-
 [![The Contact Index view](iteration-6-use-test-driven-development-cs/_static/image8.jpg)](iteration-6-use-test-driven-development-cs/_static/image15.png)
 
 **Figure 08**: The Contact Index view([Click to view full-size image](iteration-6-use-test-driven-development-cs/_static/image16.png))
-
 
 ## Summary
 

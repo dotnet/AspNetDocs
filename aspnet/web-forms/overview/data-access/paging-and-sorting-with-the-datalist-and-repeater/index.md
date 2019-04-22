@@ -13,7 +13,6 @@ msc.type: chapter
 
 > These tutorials show how to add paging support to the DataList or Repeater control to create a very flexible UI for paging and sorting.
 
-
 - [Paging Report Data in a DataList or Repeater Control (C#)](paging-report-data-in-a-datalist-or-repeater-control-cs.md)
 - [Sorting Data in a DataList or Repeater Control (C#)](sorting-data-in-a-datalist-or-repeater-control-cs.md)
 - [Paging Report Data in a DataList or Repeater Control (VB)](paging-report-data-in-a-datalist-or-repeater-control-vb.md)

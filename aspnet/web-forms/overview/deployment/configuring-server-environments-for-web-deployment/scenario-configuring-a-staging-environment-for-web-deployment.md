@@ -17,7 +17,6 @@ by [Jason Lee](https://github.com/jrjlee)
 
 > This topic describes a typical web deployment scenario for a staging environment and explains the tasks you need to complete in order to set up a similar environment.
 
-
 Lots of organizations use staging environments to preview updates to web applications or websites. This gives people within the organization a chance to explore and review new functionality or content before the site "goes live," or in other words is deployed to a production environment. The staging environment is designed to replicate the production environment as closely as possible, in order to provide a realistic preview. This kind of staging environment typically has these characteristics:
 
 - The environment consists of multiple load-balanced web servers and one or more database servers, often with failover clustering and database mirroring.
@@ -27,7 +26,6 @@ Lots of organizations use staging environments to preview updates to web applica
 
 > [!NOTE]
 > Scaling out a database deployment across multiple servers is beyond the scope of this tutorial. For more information on this area, please consult [SQL Server Books Online](https://technet.microsoft.com/library/ms130214.aspx).
-
 
 For example, in our [tutorial scenario](../deploying-web-applications-in-enterprise-scenarios/enterprise-web-deployment-scenario-overview.md), Team Foundation Server (TFS) manages the Contact Manager solution. The TFS administrator, Rob Walters, has created a build definition that lets developers trigger a deployment to the staging environment as required.
 

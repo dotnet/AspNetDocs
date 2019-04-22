@@ -17,18 +17,15 @@ by [Scott Mitchell](https://twitter.com/ScottOnWriting)
 
 > For a web application that allows multiple users to edit data, there is the risk that two users may be editing the same data at the same time. In this tutorial we'll implement optimistic concurrency control to handle this risk.
 
-
 ## Introduction
 
 For web applications that only allow users to view data, or for those that include only a single user who can modify data, there's no threat of two concurrent users accidentally overwriting one another's changes. For web applications that allow multiple users to update or delete data, however, there's the potential for one user's modifications to clash with another concurrent user's. Without any concurrency policy in place, when two users are simultaneously editing a single record, the user who commits her changes last will override the changes made by the first.
 
 For example, imagine that two users, Jisun and Sam, were both visiting a page in our application that allowed visitors to update and delete the products through a GridView control. Both click the Edit button in the GridView around the same time. Jisun changes the product name to "Chai Tea" and clicks the Update button. The net result is an `UPDATE` statement that is sent to the database, which sets *all* of the product's updateable fields (even though Jisun only updated one field, `ProductName`). At this point in time, the database has the values "Chai Tea," the category Beverages, the supplier Exotic Liquids, and so on for this particular product. However, the GridView on Sam's screen still shows the product name in the editable GridView row as "Chai". A few seconds after Jisun's changes have been committed, Sam updates the category to Condiments and clicks Update. This results in an `UPDATE` statement sent to the database that sets the product name to "Chai," the `CategoryID` to the corresponding Beverages category ID, and so on. Jisun's changes to the product name have been overwritten. Figure 1 graphically depicts this series of events.
 
-
 [![When Two Users Simultaneously Update a Record There s Potential for One User 's Changes to Overwrite the Other 's](implementing-optimistic-concurrency-vb/_static/image2.png)](implementing-optimistic-concurrency-vb/_static/image1.png)
 
 **Figure 1**: When Two Users Simultaneously Update a Record There s Potential for One User 's Changes to Overwrite the Other 's ([Click to view full-size image](implementing-optimistic-concurrency-vb/_static/image3.png))
-
 
 Similarly, when two users are visiting a page, one user might be in the midst of updating a record when it is deleted by another user. Or, between when a user loads a page and when they click the Delete button, another user may have modified the contents of that record.
 
@@ -43,25 +40,20 @@ All of our tutorials thus far have used the default concurrency resolution strat
 > [!NOTE]
 > We won't look at pessimistic concurrency examples in this tutorial series. Pessimistic concurrency is rarely used because such locks, if not properly relinquished, can prevent other users from updating data. For example, if a user locks a record for editing and then leaves for the day before unlocking it, no other user will be able to update that record until the original user returns and completes his update. Therefore, in situations where pessimistic concurrency is used, there's typically a timeout that, if reached, cancels the lock. Ticket sales websites, which lock a particular seating location for short period while the user completes the order process, is an example of pessimistic concurrency control.
 
-
 ## Step 1: Looking at How Optimistic Concurrency is Implemented
 
 Optimistic concurrency control works by ensuring that the record being updated or deleted has the same values as it did when the updating or deleting process started. For example, when clicking the Edit button in an editable GridView, the record's values are read from the database and displayed in TextBoxes and other Web controls. These original values are saved by the GridView. Later, after the user makes her changes and clicks the Update button, the original values plus the new values are sent to the Business Logic Layer, and then down to the Data Access Layer. The Data Access Layer must issue a SQL statement that will only update the record if the original values that the user started editing are identical to the values still in the database. Figure 2 depicts this sequence of events.
-
 
 [![For the Update or Delete to Succeed, the Original Values Must Be Equal to the Current Database Values](implementing-optimistic-concurrency-vb/_static/image5.png)](implementing-optimistic-concurrency-vb/_static/image4.png)
 
 **Figure 2**: For the Update or Delete to Succeed, the Original Values Must Be Equal to the Current Database Values ([Click to view full-size image](implementing-optimistic-concurrency-vb/_static/image6.png))
 
-
 There are various approaches to implementing optimistic concurrency (see [Peter A. Bromberg](http://peterbromberg.net/)'s [Optimistic Concurrency Updating Logic](http://www.eggheadcafe.com/articles/20050719.asp) for a brief look at a number of options). The ADO.NET Typed DataSet provides one implementation that can be configured with just the tick of a checkbox. Enabling optimistic concurrency for a TableAdapter in the Typed DataSet augments the TableAdapter's `UPDATE` and `DELETE` statements to include a comparison of all of the original values in the `WHERE` clause. The following `UPDATE` statement, for example, updates the name and price of a product only if the current database values are equal to the values that were originally retrieved when updating the record in the GridView. The `@ProductName` and `@UnitPrice` parameters contain the new values entered by the user, whereas `@original_ProductName` and `@original_UnitPrice` contain the values that were originally loaded into the GridView when the Edit button was clicked:
-
 
 [!code-sql[Main](implementing-optimistic-concurrency-vb/samples/sample1.sql)]
 
 > [!NOTE]
 > This `UPDATE` statement has been simplified for readability. In practice, the `UnitPrice` check in the `WHERE` clause would be more involved since `UnitPrice` can contain `NULL` s and checking if `NULL = NULL` always returns False (instead you must use `IS NULL`).
-
 
 In addition to using a different underlying `UPDATE` statement, configuring a TableAdapter to use optimistic concurrency also modifies the signature of its DB direct methods. Recall from our first tutorial, [*Creating a Data Access Layer*](../introduction/creating-a-data-access-layer-cs.md), that DB direct methods were those that accepts a list of scalar values as input parameters (rather than a strongly-typed DataRow or DataTable instance). When using optimistic concurrency, the DB direct `Update()` and `Delete()` methods include input parameters for the original values as well. Moreover, the code in the BLL for using the batch update pattern (the `Update()` method overloads that accept DataRows and DataTables rather than scalar values) must be changed as well.
 
@@ -71,62 +63,47 @@ Rather than extend our existing DAL's TableAdapters to use optimistic concurrenc
 
 To create a new Typed DataSet, right-click on the `DAL` folder within the `App_Code` folder and add a new DataSet named `NorthwindOptimisticConcurrency`. As we saw in the first tutorial, doing so will add a new TableAdapter to the Typed DataSet, automatically launching the TableAdapter Configuration Wizard. In the first screen, we're prompted to specify the database to connect to - connect to the same Northwind database using the `NORTHWNDConnectionString` setting from `Web.config`.
 
-
 [![Connect to the Same Northwind Database](implementing-optimistic-concurrency-vb/_static/image8.png)](implementing-optimistic-concurrency-vb/_static/image7.png)
 
 **Figure 3**: Connect to the Same Northwind Database ([Click to view full-size image](implementing-optimistic-concurrency-vb/_static/image9.png))
 
-
 Next, we are prompted as to how to query the data: through an ad-hoc SQL statement, a new stored procedure, or an existing stored procedure. Since we used ad-hoc SQL queries in our original DAL, use this option here as well.
-
 
 [![Specify the Data to Retrieve Using an Ad-Hoc SQL Statement](implementing-optimistic-concurrency-vb/_static/image11.png)](implementing-optimistic-concurrency-vb/_static/image10.png)
 
 **Figure 4**: Specify the Data to Retrieve Using an Ad-Hoc SQL Statement ([Click to view full-size image](implementing-optimistic-concurrency-vb/_static/image12.png))
 
-
 On the following screen, enter the SQL query to use to retrieve the product information. Let's use the exact same SQL query used for the `Products` TableAdapter from our original DAL, which returns all of the `Product` columns along with the product's supplier and category names:
 
-
 [!code-sql[Main](implementing-optimistic-concurrency-vb/samples/sample2.sql)]
-
 
 [![Use the Same SQL Query from the Products TableAdapter in the Original DAL](implementing-optimistic-concurrency-vb/_static/image14.png)](implementing-optimistic-concurrency-vb/_static/image13.png)
 
 **Figure 5**: Use the Same SQL Query from the `Products` TableAdapter in the Original DAL ([Click to view full-size image](implementing-optimistic-concurrency-vb/_static/image15.png))
 
-
 Before moving onto the next screen, click the Advanced Options button. To have this TableAdapter employ optimistic concurrency control, simply check the "Use optimistic concurrency" checkbox.
-
 
 [![Enable Optimistic Concurrency Control by Checking the &quot;Use optimistic concurrency&quot; CheckBox](implementing-optimistic-concurrency-vb/_static/image17.png)](implementing-optimistic-concurrency-vb/_static/image16.png)
 
 **Figure 6**: Enable Optimistic Concurrency Control by Checking the "Use optimistic concurrency" CheckBox ([Click to view full-size image](implementing-optimistic-concurrency-vb/_static/image18.png))
 
-
 Lastly, indicate that the TableAdapter should use the data access patterns that both fill a DataTable and return a DataTable; also indicate that the DB direct methods should be created. Change the method name for the Return a DataTable pattern from GetData to GetProducts, so as to mirror the naming conventions we used in our original DAL.
-
 
 [![Have the TableAdapter Utilize All Data Access Patterns](implementing-optimistic-concurrency-vb/_static/image20.png)](implementing-optimistic-concurrency-vb/_static/image19.png)
 
 **Figure 7**: Have the TableAdapter Utilize All Data Access Patterns ([Click to view full-size image](implementing-optimistic-concurrency-vb/_static/image21.png))
 
-
 After completing the wizard, the DataSet Designer will include a strongly-typed `Products` DataTable and TableAdapter. Take a moment to rename the DataTable from `Products` to `ProductsOptimisticConcurrency`, which you can do by right-clicking on the DataTable's title bar and choosing Rename from the context menu.
-
 
 [![A DataTable and TableAdapter Have Been Added to the Typed DataSet](implementing-optimistic-concurrency-vb/_static/image23.png)](implementing-optimistic-concurrency-vb/_static/image22.png)
 
 **Figure 8**: A DataTable and TableAdapter Have Been Added to the Typed DataSet ([Click to view full-size image](implementing-optimistic-concurrency-vb/_static/image24.png))
 
-
 To see the differences between the `UPDATE` and `DELETE` queries between the `ProductsOptimisticConcurrency` TableAdapter (which uses optimistic concurrency) and the Products TableAdapter (which doesn't), click on the TableAdapter and go to the Properties window. In the `DeleteCommand` and `UpdateCommand` properties' `CommandText` subproperties you can see the actual SQL syntax that is sent to the database when the DAL's update or delete-related methods are invoked. For the `ProductsOptimisticConcurrency` TableAdapter the `DELETE` statement used is:
-
 
 [!code-sql[Main](implementing-optimistic-concurrency-vb/samples/sample3.sql)]
 
 Whereas the `DELETE` statement for the Product TableAdapter in our original DAL is the much simpler:
-
 
 [!code-sql[Main](implementing-optimistic-concurrency-vb/samples/sample4.sql)]
 
@@ -136,27 +113,21 @@ We won't be adding any additional DataTables to the optimistic concurrency-enabl
 
 To accomplish this, right-click on the TableAdapter's title bar (the area right above the `Fill` and `GetProducts` method names) and choose Add Query from the context menu. This will launch the TableAdapter Query Configuration Wizard. As with our TableAdapter's initial configuration, opt to create the `GetProductByProductID(productID)` method using an ad-hoc SQL statement (see Figure 4). Since the `GetProductByProductID(productID)` method returns information about a particular product, indicate that this query is a `SELECT` query type that returns rows.
 
-
 [![Mark the Query Type as a &quot;SELECT which returns rows&quot;](implementing-optimistic-concurrency-vb/_static/image26.png)](implementing-optimistic-concurrency-vb/_static/image25.png)
 
 **Figure 9**: Mark the Query Type as a "`SELECT` which returns rows" ([Click to view full-size image](implementing-optimistic-concurrency-vb/_static/image27.png))
 
-
 On the next screen we're prompted for the SQL query to use, with the TableAdapter's default query pre-loaded. Augment the existing query to include the clause `WHERE ProductID = @ProductID`, as shown in Figure 10.
-
 
 [![Add a WHERE Clause to the Pre-Loaded Query to Return a Specific Product Record](implementing-optimistic-concurrency-vb/_static/image29.png)](implementing-optimistic-concurrency-vb/_static/image28.png)
 
 **Figure 10**: Add a `WHERE` Clause to the Pre-Loaded Query to Return a Specific Product Record ([Click to view full-size image](implementing-optimistic-concurrency-vb/_static/image30.png))
 
-
 Finally, change the generated method names to `FillByProductID` and `GetProductByProductID`.
-
 
 [![Rename the Methods to FillByProductID and GetProductByProductID](implementing-optimistic-concurrency-vb/_static/image32.png)](implementing-optimistic-concurrency-vb/_static/image31.png)
 
 **Figure 11**: Rename the Methods to `FillByProductID` and `GetProductByProductID` ([Click to view full-size image](implementing-optimistic-concurrency-vb/_static/image33.png))
-
 
 With this wizard complete, the TableAdapter now contains two methods for retrieving data: `GetProducts()`, which returns *all* products; and `GetProductByProductID(productID)`, which returns the specified product.
 
@@ -170,14 +141,11 @@ While the method signature for the TableAdapter's `Update` method used in the ba
 
 Add a class named `ProductsOptimisticConcurrencyBLL` to the `BLL` folder within the `App_Code` folder.
 
-
 ![Add the ProductsOptimisticConcurrencyBLL Class to the BLL Folder](implementing-optimistic-concurrency-vb/_static/image34.png)
 
 **Figure 12**: Add the `ProductsOptimisticConcurrencyBLL` Class to the BLL Folder
 
-
 Next, add the following code to the `ProductsOptimisticConcurrencyBLL` class:
-
 
 [!code-vb[Main](implementing-optimistic-concurrency-vb/samples/sample5.vb)]
 
@@ -188,7 +156,6 @@ The `ProductsOptimisticConcurrencyBLL`'s `Adapter` property provides quick acces
 ## Deleting a Product Using the DB Direct Pattern with Optimistic Concurrency
 
 When using the DB direct pattern against a DAL that uses optimistic concurrency, the methods must be passed the new and original values. For deleting, there are no new values, so only the original values need be passed in. In our BLL, then, we must accept all of the original parameters as input parameters. Let's have the `DeleteProduct` method in the `ProductsOptimisticConcurrencyBLL` class use the DB direct method. This means that this method needs to take in all ten product data fields as input parameters, and pass these to the DAL, as shown in the following code:
-
 
 [!code-vb[Main](implementing-optimistic-concurrency-vb/samples/sample6.vb)]
 
@@ -216,7 +183,6 @@ Step 1 reads in all of the current database values for the specified product rec
 
 The following code shows the `UpdateProduct` overload that accepts all product data fields as input parameters. While not shown here, the `ProductsOptimisticConcurrencyBLL` class included in the download for this tutorial also contains an `UpdateProduct` overload that accepts just the product's name and price as input parameters.
 
-
 [!code-vb[Main](implementing-optimistic-concurrency-vb/samples/sample7.vb)]
 
 ## Step 4: Passing the Original and New Values From the ASP.NET Page to the BLL Methods
@@ -225,18 +191,15 @@ With the DAL and BLL complete, all that remains is to create an ASP.NET page tha
 
 Start by opening the `OptimisticConcurrency.aspx` page in the `EditInsertDelete` folder and adding a GridView to the Designer, setting its `ID` property to `ProductsGrid`. From the GridView's smart tag, opt to create a new ObjectDataSource named `ProductsOptimisticConcurrencyDataSource`. Since we want this ObjectDataSource to use the DAL that supports optimistic concurrency, configure it to use the `ProductsOptimisticConcurrencyBLL` object.
 
-
 [![Have the ObjectDataSource Use the ProductsOptimisticConcurrencyBLL Object](implementing-optimistic-concurrency-vb/_static/image36.png)](implementing-optimistic-concurrency-vb/_static/image35.png)
 
 **Figure 13**: Have the ObjectDataSource Use the `ProductsOptimisticConcurrencyBLL` Object ([Click to view full-size image](implementing-optimistic-concurrency-vb/_static/image37.png))
-
 
 Choose the `GetProducts`, `UpdateProduct`, and `DeleteProduct` methods from drop-down lists in the wizard. For the UpdateProduct method, use the overload that accepts all of the product's data fields.
 
 ## Configuring the ObjectDataSource Control's Properties
 
 After completing the wizard, the ObjectDataSource's declarative markup should look like the following:
-
 
 [!code-aspx[Main](implementing-optimistic-concurrency-vb/samples/sample8.aspx)]
 
@@ -246,7 +209,6 @@ For those previous tutorials that involved data modification, we'd remove the Ob
 
 > [!NOTE]
 > The value of the `OldValuesParameterFormatString` property must map to the input parameter names in the BLL that expect the original values. Since we named these parameters `original_productName`, `original_supplierID`, and so on, you can leave the `OldValuesParameterFormatString` property value as `original_{0}`. If, however, the BLL methods' input parameters had names like `old_productName`, `old_supplierID`, and so on, you'd need to update the `OldValuesParameterFormatString` property to `old_{0}`.
-
 
 There's one final property setting that needs to be made in order for the ObjectDataSource to correctly pass the original values to the BLL methods. The ObjectDataSource has a [ConflictDetection property](https://msdn.microsoft.com/library/system.web.ui.webcontrols.objectdatasource.conflictdetection.aspx) that can be assigned to [one of two values](https://msdn.microsoft.com/library/system.web.ui.conflictoptions.aspx):
 
@@ -270,14 +232,12 @@ As we discussed in the *Adding Validation Controls to the Editing and Inserting 
 
 Since we've already examined how to accomplish these tasks in previous tutorials, I'll just list the final declarative syntax here and leave the implementation as practice.
 
-
 [!code-aspx[Main](implementing-optimistic-concurrency-vb/samples/sample9.aspx)]
 
 We're very close to having a fully-working example. However, there are a few subtleties that will creep up and cause us problems. Additionally, we still need some interface that alerts the user when a concurrency violation has occurred.
 
 > [!NOTE]
 > In order for a data Web control to correctly pass the original values to the ObjectDataSource (which are then passed to the BLL), it's vital that the GridView's `EnableViewState` property is set to `true` (the default). If you disable view state, the original values are lost on postback.
-
 
 ## Passing the Correct Original Values to the ObjectDataSource
 
@@ -287,25 +247,20 @@ Specifically, the GridView's original values are assigned the values in the two-
 
 To see why this is important, take a moment to visit our page in a browser. As expected, the GridView lists each product with an Edit and Delete button in the leftmost column.
 
-
 [![The Products are Listed in a GridView](implementing-optimistic-concurrency-vb/_static/image39.png)](implementing-optimistic-concurrency-vb/_static/image38.png)
 
 **Figure 14**: The Products are Listed in a GridView ([Click to view full-size image](implementing-optimistic-concurrency-vb/_static/image40.png))
 
-
 If you click the Delete button for any product, a `FormatException` is thrown.
-
 
 [![Attempting to Delete Any Product Results in a FormatException](implementing-optimistic-concurrency-vb/_static/image42.png)](implementing-optimistic-concurrency-vb/_static/image41.png)
 
 **Figure 15**: Attempting to Delete Any Product Results in a `FormatException` ([Click to view full-size image](implementing-optimistic-concurrency-vb/_static/image43.png))
 
-
 The `FormatException` is raised when the ObjectDataSource attempts to read in the original `UnitPrice` value. Since the `ItemTemplate` has the `UnitPrice` formatted as a currency (`<%# Bind("UnitPrice", "{0:C}") %>`), it includes a currency symbol, like $19.95. The `FormatException` occurs as the ObjectDataSource attempts to convert this string into a `decimal`. To circumvent this problem, we have a number of options:
 
 - Remove the currency formatting from the `ItemTemplate`. That is, instead of using `<%# Bind("UnitPrice", "{0:C}") %>`, simply use `<%# Bind("UnitPrice") %>`. The downside of this is that the price is no longer formatted.
 - Display the `UnitPrice` formatted as a currency in the `ItemTemplate`, but use the `Eval` keyword to accomplish this. Recall that `Eval` performs one-way databinding. We still need to provide the `UnitPrice` value for the original values, so we'll still need a two-way databinding statement in the `ItemTemplate`, but this can be placed in a Label Web control whose `Visible` property is set to `false`. We could use the following markup in the ItemTemplate:
-
 
 [!code-aspx[Main](implementing-optimistic-concurrency-vb/samples/sample10.aspx)]
 
@@ -316,14 +271,11 @@ For my example I chose to go with the second approach, adding a hidden Label Web
 
 After solving this problem, try clicking the Delete button for any product again. This time you'll get an `InvalidOperationException` when the ObjectDataSource attempts to invoke the BLL's `UpdateProduct` method.
 
-
 [![The ObjectDataSource Cannot Find a Method with the Input Parameters it Wants to Send](implementing-optimistic-concurrency-vb/_static/image45.png)](implementing-optimistic-concurrency-vb/_static/image44.png)
 
 **Figure 16**: The ObjectDataSource Cannot Find a Method with the Input Parameters it Wants to Send ([Click to view full-size image](implementing-optimistic-concurrency-vb/_static/image46.png))
 
-
 Looking at the exception's message, it's clear that the ObjectDataSource wants to invoke a BLL `DeleteProduct` method that includes `original_CategoryName` and `original_SupplierName` input parameters. This is because the `ItemTemplate` s for the `CategoryID` and `SupplierID` TemplateFields currently contain two-way Bind statements with the `CategoryName` and `SupplierName` data fields. Instead, we need to include `Bind` statements with the `CategoryID` and `SupplierID` data fields. To accomplish this, replace the existing Bind statements with `Eval` statements, and then add hidden Label controls whose `Text` properties are bound to the `CategoryID` and `SupplierID` data fields using two-way databinding, as shown below:
-
 
 [!code-aspx[Main](implementing-optimistic-concurrency-vb/samples/sample11.aspx)]
 
@@ -335,11 +287,9 @@ In order to verify that concurrency violations are being detected (rather than r
 
 In the other browser window instance, however, the product name TextBox still shows "Chai". In this second browser window, update the `UnitPrice` to `25.00`. Without optimistic concurrency support, clicking update in the second browser instance would change the product name back to "Chai", thereby overwriting the changes made by the first browser instance. With optimistic concurrency employed, however, clicking the Update button in the second browser instance results in a [DBConcurrencyException](https://msdn.microsoft.com/library/system.data.dbconcurrencyexception.aspx).
 
-
 [![When a Concurrency Violation is Detected, a DBConcurrencyException is Thrown](implementing-optimistic-concurrency-vb/_static/image48.png)](implementing-optimistic-concurrency-vb/_static/image47.png)
 
 **Figure 17**: When a Concurrency Violation is Detected, a `DBConcurrencyException` is Thrown ([Click to view full-size image](implementing-optimistic-concurrency-vb/_static/image49.png))
-
 
 The `DBConcurrencyException` is only thrown when the DAL's batch update pattern is utilized. The DB direct pattern does not raise an exception, it merely indicates that no rows were affected. To illustrate this, return both browser instances' GridView to their pre-editing state. Next, in the first browser instance, click the Edit button and change the product name from "Chai Tea" back to "Chai" and click Update. In the second browser window, click the Delete button for Chai.
 
@@ -355,18 +305,15 @@ To remedy these two issues, we can create Label Web controls on the page that pr
 
 When a concurrency violation occurs, the behavior exhibited depends on whether the DAL's batch update or DB direct pattern was used. Our tutorial uses both patterns, with the batch update pattern being used for updating and the DB direct pattern used for deleting. To get started, let's add two Label Web controls to our page that explain that a concurrency violation occurred when attempting to delete or update data. Set the Label control's `Visible` and `EnableViewState` properties to `false`; this will cause them to be hidden on each page visit except for those particular page visits where their `Visible` property is programmatically set to `true`.
 
-
 [!code-aspx[Main](implementing-optimistic-concurrency-vb/samples/sample12.aspx)]
 
 In addition to setting their `Visible`, `EnabledViewState`, and `Text` properties, I've also set the `CssClass` property to `Warning`, which causes the Label's to be displayed in a large, red, italic, bold font. This CSS `Warning` class was defined and added to Styles.css back in the *Examining the Events Associated with Inserting, Updating, and Deleting* tutorial.
 
 After adding these Labels, the Designer in Visual Studio should look similar to Figure 18.
 
-
 [![Two Label Controls Have Been Added to the Page](implementing-optimistic-concurrency-vb/_static/image51.png)](implementing-optimistic-concurrency-vb/_static/image50.png)
 
 **Figure 18**: Two Label Controls Have Been Added to the Page ([Click to view full-size image](implementing-optimistic-concurrency-vb/_static/image52.png))
-
 
 With these Label Web controls in place, we're ready to examine how to determine when a concurrency violation has occurred, at which point the appropriate Label's `Visible` property can be set to `true`, displaying the informational message.
 
@@ -376,20 +323,16 @@ Let's first look at how to handle concurrency violations when using the batch up
 
 As we saw in the *Handling BLL- and DAL-Level Exceptions in an ASP.NET Page* tutorial, such exceptions can be detected and suppressed in the data Web control's post-level event handlers. Therefore, we need to create an event handler for the GridView's `RowUpdated` event that checks if a `DBConcurrencyException` exception has been thrown. This event handler is passed a reference to any exception that was raised during the updating process, as shown in the event handler code below:
 
-
 [!code-vb[Main](implementing-optimistic-concurrency-vb/samples/sample13.vb)]
 
 In the face of a `DBConcurrencyException` exception, this event handler displays the `UpdateConflictMessage` Label control and indicates that the exception has been handled. With this code in place, when a concurrency violation occurs when updating a record, the user's changes are lost, since they would have overwritten another user's modifications at the same time. In particular, the GridView is returned to its pre-editing state and bound to the current database data. This will update the GridView row with the other user's changes, which were previously not visible. Additionally, the `UpdateConflictMessage` Label control will explain to the user what just happened. This sequence of events is detailed in Figure 19.
-
 
 [![A User s Updates are Lost in the Face of a Concurrency Violation](implementing-optimistic-concurrency-vb/_static/image54.png)](implementing-optimistic-concurrency-vb/_static/image53.png)
 
 **Figure 19**: A User s Updates are Lost in the Face of a Concurrency Violation ([Click to view full-size image](implementing-optimistic-concurrency-vb/_static/image55.png))
 
-
 > [!NOTE]
 > Alternatively, rather than returning the GridView to the pre-editing state, we could leave the GridView in its editing state by setting the `KeepInEditMode` property of the passed-in `GridViewUpdatedEventArgs` object to true. If you take this approach, however, be certain to rebind the data to the GridView (by invoking its `DataBind()` method) so that the other user's values are loaded into the editing interface. The code available for download with this tutorial has these two lines of code in the `RowUpdated` event handler commented out; simply uncomment these lines of code to have the GridView remain in edit mode after a concurrency violation.
-
 
 ## Responding to Concurrency Violations When Deleting
 
@@ -397,16 +340,13 @@ With the DB direct pattern, there is no exception raised in the face of a concur
 
 The return value for a BLL method can be examined in the ObjectDataSource's post-level event handlers through the `ReturnValue` property of the `ObjectDataSourceStatusEventArgs` object passed into the event handler. Since we are interested in determining the return value from the `DeleteProduct` method, we need to create an event handler for the ObjectDataSource's `Deleted` event. The `ReturnValue` property is of type `object` and can be `null` if an exception was raised and the method was interrupted before it could return a value. Therefore, we should first ensure that the `ReturnValue` property is not `null` and is a Boolean value. Assuming this check passes, we show the `DeleteConflictMessage` Label control if the `ReturnValue` is `false`. This can be accomplished by using the following code:
 
-
 [!code-vb[Main](implementing-optimistic-concurrency-vb/samples/sample14.vb)]
 
 In the face of a concurrency violation, the user's delete request is canceled. The GridView is refreshed, showing the changes that occurred for that record between the time the user loaded the page and when he clicked the Delete button. When such a violation transpires, the `DeleteConflictMessage` Label is shown, explaining what just happened (see Figure 20).
 
-
 [![A User s Delete is Canceled in the Face of a Concurrency Violation](implementing-optimistic-concurrency-vb/_static/image57.png)](implementing-optimistic-concurrency-vb/_static/image56.png)
 
 **Figure 20**: A User s Delete is Canceled in the Face of a Concurrency Violation ([Click to view full-size image](implementing-optimistic-concurrency-vb/_static/image58.png))
-
 
 ## Summary
 

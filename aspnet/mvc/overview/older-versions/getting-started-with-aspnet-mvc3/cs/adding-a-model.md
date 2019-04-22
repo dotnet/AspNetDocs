@@ -23,7 +23,6 @@ by [Rick Anderson]((https://twitter.com/RickAndMSFT))
 > 
 > A Visual Web Developer project with C# source code is available to accompany this topic. [Download the C# version](https://code.msdn.microsoft.com/Introduction-to-MVC-3-10d1b098). If you prefer Visual Basic, switch to the [Visual Basic version](../vb/adding-a-model.md) of this tutorial.
 
-
 ## Adding a Model
 
 In this section you'll add some classes for managing movies in a database. These classes will be the "model" part of the ASP.NET MVC application.

@@ -13,7 +13,6 @@ msc.type: chapter
 
 > How to use new features in ASP.NET 4 to build an online store, including shopping, checkout, and administration.
 
-
 - [Part 1: File-> New Project](tailspin-spyworks-part-1.md)
 - [Part 2: Data Access Layer](tailspin-spyworks-part-2.md)
 - [Part 3: Layout and Category Menu](tailspin-spyworks-part-3.md)

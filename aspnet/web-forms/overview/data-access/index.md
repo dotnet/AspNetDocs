@@ -13,7 +13,6 @@ msc.type: chapter
 
 > How to perform a variety of data-related tasks using ASP.NET Web Forms data controls.
 
-
 - [Introduction](introduction/index.md)
 
     - [Creating a Data Access Layer (C#)](introduction/creating-a-data-access-layer-cs.md)

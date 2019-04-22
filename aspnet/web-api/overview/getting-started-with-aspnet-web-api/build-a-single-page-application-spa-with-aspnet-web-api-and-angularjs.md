@@ -29,7 +29,6 @@ In traditional web applications, the client (browser) initiates the communicatio
 > 
 > All sample code and snippets are included in the Web Camps Training Kit, available at [https://aka.ms/webcamps-training-kit](https://aka.ms/webcamps-training-kit).
 
-
 ## Overview
 
 <a id="Objectives"></a>
@@ -60,7 +59,6 @@ In order to run the exercises in this hands-on lab, you will need to set up your
 > [!NOTE]
 > Make sure you have checked all the dependencies for this lab before running the setup.
 
-
 <a id="CodeSnippets"></a>
 ### Using the Code Snippets
 
@@ -68,7 +66,6 @@ Throughout the lab document, you will be instructed to insert code blocks. For y
 
 > [!NOTE]
 > Each exercise is accompanied by a starting solution located in the **Begin** folder of the exercise that allows you to follow each exercise independently of the others. Please be aware that the code snippets that are added during an exercise are missing from these starting solutions and may not work until you have completed the exercise. Inside the source code for an exercise, you will also find an **End** folder containing a Visual Studio solution with the code that results from completing the steps in the corresponding exercise. You can use these solutions as guidance if you need additional help as you work through this hands-on lab.
-
 
 ---
 
@@ -84,7 +81,6 @@ Estimated time to complete this lab: **60 minutes**
 
 > [!NOTE]
 > When you first start Visual Studio, you must select one of the predefined settings collections. Each predefined collection is designed to match a particular development style and determines window layouts, editor behavior, IntelliSense code snippets, and dialog box options. The procedures in this lab describe the actions necessary to accomplish a given task in Visual Studio when using the **General Development Settings** collection. If you choose a different settings collection for your development environment, there may be differences in the steps that you should take into account.
-
 
 <a id="Exercise1"></a>
 ### Exercise 1: Creating a Web API
@@ -245,7 +241,6 @@ In this task you will verify that the Web API service you built in the previous 
 > 
 > ![Internet Explorer option](build-a-single-page-application-spa-with-aspnet-web-api-and-angularjs/_static/image9.png)
 
-
 1. Press **F5** to run the solution. The **Log in** page should appear in the browser.
 
     > [!NOTE]
@@ -303,7 +298,6 @@ You will start by installing AngularJS from Visual Studio's Package Manager Cons
 
 > [!NOTE]
 > For more information about AngularJS, refer to [[http://angularjs.org/](http://angularjs.org/)](http://angularjs.org/).
-
 
 1. Open **Visual Studio Express 2013 for Web** and open the **GeekQuiz.sln** solution located in the **Source/Ex2-CreatingASPAInterface/Begin** folder. Alternatively, you can continue with the solution that you obtained in the previous exercise.
 2. Open the **Package Manager Console** from **Tools** > **NuGet Package Manager**. Type the following command to install the **AngularJS.Core** NuGet package.

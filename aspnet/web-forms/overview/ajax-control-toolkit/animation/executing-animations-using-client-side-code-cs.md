@@ -17,7 +17,6 @@ by [Christian Wenz](https://github.com/wenz)
 
 > The Animation control in the ASP.NET AJAX Control Toolkit is not just a control but a whole framework to add animations to a control. The animation execution may also be triggered using custom client-side JavaScript code.
 
-
 ## Overview
 
 The Animation control in the ASP.NET AJAX Control Toolkit is not just a control but a whole framework to add animations to a control. The animation execution may also be triggered using custom client-side JavaScript code.
@@ -55,7 +54,6 @@ The `AnimationExtender` control exposes a rich API, including methods with names
 Here is the complete client-side JavaScript code that emulates the click on the panel once the page has been fully loaded note that the `pageLoad()` function name is used which is called by ASP.NET AJAX once the page and all included JavaScript libraries have been loaded.
 
 [!code-html[Main](executing-animations-using-client-side-code-cs/samples/sample8.html)]
-
 
 [![The animation runs immediately, without a mouse click](executing-animations-using-client-side-code-cs/_static/image2.png)](executing-animations-using-client-side-code-cs/_static/image1.png)
 

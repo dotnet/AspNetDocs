@@ -15,7 +15,6 @@ by [Scott Hanselman](https://github.com/shanselman)
 
 > This is a beginner tutorial that introduces the basics of ASP.NET MVC. You'll create a simple web application that reads and writes from a database. Visit the [ASP.NET MVC learning center](../../../index.md) to find other ASP.NET MVC tutorials and samples.
 
-
 In this section we are going to walk through how we can make changes to the schema of our database, and handle the changes within our application.
 
 Let's add a "Rating" Column to the Movie table. Go back to the IDE and click the Database Explorer. Right click the Movie table and select Open Table Definition.

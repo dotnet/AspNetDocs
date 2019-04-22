@@ -21,7 +21,6 @@ by [Microsoft](https://github.com/microsoft)
 > 
 > If you are using ASP.NET MVC 3, we recommend you follow the [Getting Started With MVC 3](../../older-versions/getting-started-with-aspnet-mvc3/cs/intro-to-aspnet-mvc-3.md) or [MVC Music Store](../../older-versions/mvc-music-store/mvc-music-store-part-1.md) tutorials.
 
-
 ## NerdDinner Step 5: Create, Update, Delete Form Scenarios
 
 We've introduced controllers and views, and covered how to use them to implement a listing/details experience for Dinners on site. Our next step will be to take our DinnersController class further and enable support for editing, creating and deleting Dinners with it as well.

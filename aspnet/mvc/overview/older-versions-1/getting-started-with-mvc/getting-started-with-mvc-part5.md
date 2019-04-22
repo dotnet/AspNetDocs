@@ -15,7 +15,6 @@ by [Scott Hanselman](https://github.com/shanselman)
 
 > This is a beginner tutorial that introduces the basics of ASP.NET MVC. You'll create a simple web application that reads and writes from a database. Visit the [ASP.NET MVC learning center](../../../index.md) to find other ASP.NET MVC tutorials and samples.
 
-
 In this section we are going to create a new MoviesController class, and write some code that retrieves our Movie data and displays it back to the browser using a View template.
 
 Right click on the Controllers folder and make a new MoviesController.

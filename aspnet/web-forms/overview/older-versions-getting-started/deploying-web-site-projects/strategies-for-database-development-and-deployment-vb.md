@@ -17,7 +17,6 @@ by [Scott Mitchell](https://twitter.com/ScottOnWriting)
 
 > When deploying a data-driven application for the first time you can blindly copy the database in the development environment to the production environment. But performing a blind copy in subsequent deployments will overwrite any data entered into the production database. Instead, deploying a database involves applying the changes made to the development database since the last deployment onto the production database. This tutorial examines these challenges and offers various strategies to assist with chronicling and applying the changes made to the database since the last deployment.
 
-
 ## Introduction
 
 As discussed in previous tutorials, deploying an ASP.NET application entails copying the pertinent content from the development environment to the production environment. Deployment is not a one-time event, but rather something that happens every time a new version of the software is released or when bugs or security concerns have been identified and addressed. When copying ASP.NET pages, images, JavaScript files, and other such files to the production environment you do not need to concern yourself with how these file have been changed since the last deployment. You can blindly copy the file to production, overwriting the existing content. Unfortunately, this simplicity does not extend to deploying the database.
@@ -48,13 +47,11 @@ The simplest way to maintain a log of changes to the data model during the devel
 
 <a id="0.8_table01"></a>
 
-
 | **Change Date** | **Change Details** |
 | --- | --- |
 | 2009-02-03: | Added column `DepartmentID` (`int`, NOT NULL) to the `Employees` table. Added a foreign key constraint from `Departments.DepartmentID` to `Employees.DepartmentID`. |
 | 2009-02-05: | Removed column `TotalWeight` from the `Orders` table. Data already captured in associated `OrderDetails` records. |
 | 2009-02-12: | Created the `ProductCategories` table. There are three columns: `ProductCategoryID` (`int`, `IDENTITY`, `NOT NULL`), `CategoryName` (`nvarchar(50)`, `NOT NULL`), and `Active` (`bit`, `NOT NULL`). Added a primary key constraint to `ProductCategoryID`, and a default value of 1 to `Active`. |
-
 
 There are a number of drawbacks to this approach. For starters, there is no hope for automation. Anytime these changes need to be applied to a database - such as when the application is deployed - a developer must manually implement each change, one at a time. Moreover, if you need to reconstruct a particular version of the database from the baseline using the change log, doing so will take more and more time as the size of the log grows. Another drawback to this method is that the clarity and level of detail of each change log entry is left to the person recording the change. In a team with multiple developers some may make more detailed, more readable, or more precise entries than others. Also, typos and other human-related data entry errors are possible.
 
@@ -64,7 +61,6 @@ Maintaining your change log in prose is, admittedly, not very sophisticated and 
 
 > [!NOTE]
 > While the information in the change log is, technically, only needed until deploy-time, I recommend keeping a history of changes. But rather than maintaining a single, ever growing change log file, consider having a different change log file for each database version. Typically you will want to version the database each time it is deployed. By maintaining a log of change logs you can, starting from the baseline, recreate any database version by executing the change log scripts starting from version 1 and continuing until you reach the version you need to recreate.
-
 
 ## Recording the SQL Change Statements
 
@@ -89,18 +85,14 @@ There are a variety of third-party database comparison tools offered by many dif
 > [!NOTE]
 > At the time of this writing the current version of SQL Compare was version 7.1, with the Standard Edition costing $395. You can follow along by downloading a free 14-day trial.
 
-
 When SQL Compare starts the Comparison Projects dialog box opens, showing the saved SQL Compare projects. Create a new project. This launches the Project Configuration wizard, which prompts for information about the databases to compare (see Figure 1). Enter the information for the development and production environment databases.
-
 
 [![Compare the Development and Production Databases](strategies-for-database-development-and-deployment-vb/_static/image2.jpg)](strategies-for-database-development-and-deployment-vb/_static/image1.jpg)
 
 **Figure 1**: Compare the Development and Production Databases ([Click to view full-size image](strategies-for-database-development-and-deployment-vb/_static/image3.jpg))
 
-
 > [!NOTE]
 > If your development environment database is a SQL Express Edition database file in the `App_Data` folder of your website you will need to register the database in the SQL Server Express database server in order to select it from the dialog box shown in Figure 1. The easiest way to accomplish this is to open SQL Server Management Studio (SSMS), connect to the SQL Server Express database server, and attach the database. If you do not have SSMS installed on your computer you can download and install the free [*SQL Server 2008 Management Studio Basic version*](https://www.microsoft.com/downloads/details.aspx?FamilyId=7522A683-4CB2-454E-B908-E805E9BD4E28&amp;displaylang=en).
-
 
 In addition to selecting the databases to compare, you can also specify a variety of comparison settings from the Options tab. One option you may want to turn on is the "Ignore constraint and index names." Recall that in the preceding tutorial we added the application services database objects to the development and production databases. If you used the `aspnet_regsql.exe` tool to create these objects on the production database then you will find that the primary key and unique constraint names differ between the development and production databases. Consequently, SQL Compare will flag all of the application services tables as differing. You can either leave the "Ignore constraint and index names" unchecked and synchronize the constraint names, or instruct SQL Compare to ignore these differences.
 
@@ -109,11 +101,9 @@ After selecting the databases to compare (and reviewing the comparison options),
 > [!NOTE]
 > The data model changes made in this tutorial were done to illustrate using a database comparison tool. You will not find these changes in the database in future tutorials.
 
-
 [![SQL Compare Lists the Differences Between the Development and Production Databases](strategies-for-database-development-and-deployment-vb/_static/image5.jpg)](strategies-for-database-development-and-deployment-vb/_static/image4.jpg)
 
 **Figure 2**: SQL Compare Lists the Differences Between the Development and Production Databases ([Click to view full-size image](strategies-for-database-development-and-deployment-vb/_static/image6.jpg))
-
 
 SQL Compare breaks down the database objects into groups, quickly showing you what objects exist in both databases but are different, which objects exist in one database but not the other, and which objects are identical. As you can see, there are two objects that exist in both databases but are different: the `Authors` table, which had a column added, and the `Books` table, which had one removed. There is one object that exists only in the development database, namely the newly created `Ratings` table. And there are 117 objects that are identical in both databases.
 
@@ -121,17 +111,14 @@ Selecting a database object displays the SQL Differences window, which shows how
 
 After reviewing the differences and selecting which objects you want to synchronize, the next step is to generate the SQL commands needed to update the production database s schema to match the development database. This is accomplished through the Synchronization Wizard. The Synchronization Wizard confirms what objects to synchronize and summarizes the action plan (see Figure 3). You can synchronize the databases immediately or generate a script with the SQL commands that can be run at your leisure.
 
-
 [![Use the Synchronization Wizard to Synchronize Your Databases Schemas](strategies-for-database-development-and-deployment-vb/_static/image8.jpg)](strategies-for-database-development-and-deployment-vb/_static/image7.jpg)
 
 **Figure 3**: Use the Synchronization Wizard to Synchronize Your Databases Schemas ([Click to view full-size image](strategies-for-database-development-and-deployment-vb/_static/image9.jpg))
-
 
 Database comparison tools like Red Gate Software s SQL Compare make applying the changes to the development database schema to the production database as easy as point and click.
 
 > [!NOTE]
 > SQL Compare compares and synchronizes two databases *schemas*. Unfortunately, it does not compare and synchronize the data within two databases tables. Red Gate Software does offer a product named [*SQL Data Compare*](http://www.red-gate.com/products/SQL_Data_Compare/) that compares and synchronizes the data between two databases, but it is a separate product from SQL Compare and costs another $395.
-
 
 ## Taking the Application Offline During Deployment
 

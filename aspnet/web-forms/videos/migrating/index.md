@@ -13,7 +13,6 @@ msc.type: chapter
 
 > Migrating to ASP.NET
 
-
 - [[Intro to ASP.NET 2.0:] ASP.NET 2.0 Fundamentals](intro-to-aspnet-20-aspnet-20-fundamentals.md)
 - [[Intro to ASP.NET 2.0:] User Interface Elements](intro-to-aspnet-20-user-interface-elements.md)
 - [[Migrating from] Classic ASP to ASP.NET](migrating-from-classic-asp-to-aspnet.md)

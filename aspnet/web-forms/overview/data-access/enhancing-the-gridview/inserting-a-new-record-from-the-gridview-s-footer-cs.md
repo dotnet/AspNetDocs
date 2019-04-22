@@ -17,41 +17,33 @@ by [Scott Mitchell](https://twitter.com/ScottOnWriting)
 
 > While the GridView control does not provide built-in support for inserting a new record of data, this tutorial shows how to augment the GridView to include an inserting interface.
 
-
 ## Introduction
 
 As discussed in the [An Overview of Inserting, Updating, and Deleting Data](../editing-inserting-and-deleting-data/an-overview-of-inserting-updating-and-deleting-data-cs.md) tutorial, the GridView, DetailsView, and FormView Web controls each include built-in data modification capabilities. When used with declarative data source controls, these three Web controls can be quickly and easily configured to modify data - and in scenarios without needing to write a single line of code. Unfortunately, only the DetailsView and FormView controls provide built-in inserting, editing, and deleting capabilities. The GridView only offers editing and deleting support. However, with a little elbow grease, we can augment the GridView to include an inserting interface.
 
 In adding inserting capabilities to the GridView, we are responsible for deciding on how new records will be added, creating the inserting interface, and writing the code to insert the new record. In this tutorial we will look at adding the inserting interface to the GridView s footer row (see Figure 1). The footer cell for each column includes the appropriate data collection user interface element (a TextBox for the product s name, a DropDownList for the supplier, and so on). We also need a column for an Add button that, when clicked, will cause a postback and insert a new record into the `Products` table using the values supplied in the footer row.
 
-
 [![The Footer Row Provides an Interface for Adding New Products](inserting-a-new-record-from-the-gridview-s-footer-cs/_static/image1.gif)](inserting-a-new-record-from-the-gridview-s-footer-cs/_static/image1.png)
 
 **Figure 1**: The Footer Row Provides an Interface for Adding New Products ([Click to view full-size image](inserting-a-new-record-from-the-gridview-s-footer-cs/_static/image2.png))
-
 
 ## Step 1: Displaying Product Information in a GridView
 
 Before we concern ourselves with creating the inserting interface in the GridView s footer, let s first focus on adding a GridView to the page that lists the products in the database. Start by opening the `InsertThroughFooter.aspx` page in the `EnhancedGridView` folder and drag a GridView from the Toolbox onto the Designer, setting the GridView s `ID` property to `Products`. Next, use the GridView s smart tag to bind it to a new ObjectDataSource named `ProductsDataSource`.
 
-
 [![Create a New ObjectDataSource Named ProductsDataSource](inserting-a-new-record-from-the-gridview-s-footer-cs/_static/image2.gif)](inserting-a-new-record-from-the-gridview-s-footer-cs/_static/image3.png)
 
 **Figure 2**: Create a New ObjectDataSource Named `ProductsDataSource` ([Click to view full-size image](inserting-a-new-record-from-the-gridview-s-footer-cs/_static/image4.png))
 
-
 Configure the ObjectDataSource to use the `ProductsBLL` class s `GetProducts()` method to retrieve product information. For this tutorial, let s focus strictly on adding inserting capabilities and not worry about editing and deleting. Therefore, make sure that the drop-down list in the INSERT tab is set to `AddProduct()` and that the drop-down lists in the UPDATE and DELETE tabs are set to (None) .
-
 
 [![Map the AddProduct Method to the ObjectDataSource s Insert() Method](inserting-a-new-record-from-the-gridview-s-footer-cs/_static/image3.gif)](inserting-a-new-record-from-the-gridview-s-footer-cs/_static/image5.png)
 
 **Figure 3**: Map the `AddProduct` Method to the ObjectDataSource s `Insert()` Method ([Click to view full-size image](inserting-a-new-record-from-the-gridview-s-footer-cs/_static/image6.png))
 
-
 [![Set the UPDATE and DELETE Tabs Drop-Down Lists to (None)](inserting-a-new-record-from-the-gridview-s-footer-cs/_static/image4.gif)](inserting-a-new-record-from-the-gridview-s-footer-cs/_static/image7.png)
 
 **Figure 4**: Set the UPDATE and DELETE Tabs Drop-Down Lists to (None) ([Click to view full-size image](inserting-a-new-record-from-the-gridview-s-footer-cs/_static/image8.png))
-
 
 After completing the ObjectDataSource s Configure Data Source wizard, Visual Studio will automatically add fields to the GridView for each of the corresponding data fields. For now, leave all of the fields added by Visual Studio. Later in this tutorial we'll come back and remove some of the fields whose values don t need to be specified when adding a new record.
 
@@ -59,41 +51,32 @@ Since there are close to 80 products in the database, a user will have to scroll
 
 At this point, the GridView and ObjectDataSource s declarative markup should look similar to the following:
 
-
 [!code-aspx[Main](inserting-a-new-record-from-the-gridview-s-footer-cs/samples/sample1.aspx)]
-
 
 [![All Product Data Fields are Displayed in a Paged GridView](inserting-a-new-record-from-the-gridview-s-footer-cs/_static/image5.gif)](inserting-a-new-record-from-the-gridview-s-footer-cs/_static/image9.png)
 
 **Figure 5**: All Product Data Fields are Displayed in a Paged GridView ([Click to view full-size image](inserting-a-new-record-from-the-gridview-s-footer-cs/_static/image10.png))
 
-
 ## Step 2: Adding a Footer Row
 
 Along with its header and data rows, the GridView includes a footer row. The header and footer rows are displayed depending on the values of the GridView s [`ShowHeader`](https://msdn.microsoft.com/en-gb/library/system.web.ui.webcontrols.gridview.showheader.aspx) and [`ShowFooter`](https://msdn.microsoft.com/en-gb/library/system.web.ui.webcontrols.gridview.showfooter.aspx) properties. To show the footer row, simply set the `ShowFooter` property to `true`. As Figure 6 illustrates, setting the `ShowFooter` property to `true` adds a footer row to the grid.
-
 
 [![To Display the Footer Row, Set ShowFooter to True](inserting-a-new-record-from-the-gridview-s-footer-cs/_static/image6.gif)](inserting-a-new-record-from-the-gridview-s-footer-cs/_static/image11.png)
 
 **Figure 6**: To Display the Footer Row, Set `ShowFooter` to `True` ([Click to view full-size image](inserting-a-new-record-from-the-gridview-s-footer-cs/_static/image12.png))
 
-
 Note that the footer row has a dark red background color. This is due to the DataWebControls Theme we created and applied to all pages back in the [Displaying Data With the ObjectDataSource](../basic-reporting/displaying-data-with-the-objectdatasource-cs.md) tutorial. Specifically, the `GridView.skin` file configures the `FooterStyle` property such that is uses the `FooterStyle` CSS class. The `FooterStyle` class is defined in `Styles.css` as follows:
-
 
 [!code-css[Main](inserting-a-new-record-from-the-gridview-s-footer-cs/samples/sample2.css)]
 
 > [!NOTE]
 > We ve explored using the GridView s footer row in previous tutorials. If needed, refer back to the [Displaying Summary Information in the GridView's Footer](../custom-formatting/displaying-summary-information-in-the-gridview-s-footer-cs.md) tutorial for a refresher.
 
-
 After setting the `ShowFooter` property to `true`, take a moment to view the output in a browser. Currently the footer row doesn t contain any text or Web controls. In Step 3 we'll modify the footer for each GridView field so that it includes the appropriate inserting interface.
-
 
 [![The Empty Footer Row is Displayed Above the Paging Interface Controls](inserting-a-new-record-from-the-gridview-s-footer-cs/_static/image7.gif)](inserting-a-new-record-from-the-gridview-s-footer-cs/_static/image13.png)
 
 **Figure 7**: The Empty Footer Row is Displayed Above the Paging Interface Controls ([Click to view full-size image](inserting-a-new-record-from-the-gridview-s-footer-cs/_static/image14.png))
-
 
 ## Step 3: Customizing the Footer Row
 
@@ -101,14 +84,11 @@ Back in the [Using TemplateFields in the GridView Control](../custom-formatting/
 
 Along with the `ItemTemplate` and `EditItemTemplate`, the TemplateField also includes a `FooterTemplate` that specifies the content for the footer row. Therefore, we can add the Web controls needed for each field s inserting interface into the `FooterTemplate`. To start, convert all of the fields in the GridView to TemplateFields. This can be done by clicking the Edit Columns link in the GridView s smart tag, selecting each field in the lower left corner, and clicking the Convert this field into a TemplateField link.
 
-
 ![Convert Each Field Into a TemplateField](inserting-a-new-record-from-the-gridview-s-footer-cs/_static/image8.gif)
 
 **Figure 8**: Convert Each Field Into a TemplateField
 
-
 Clicking the Convert this field into a TemplateField turns the current field type into an equivalent TemplateField. For example, each BoundField is replaced by a TemplateField with an `ItemTemplate` that contains a Label that displays the corresponding data field and an `EditItemTemplate` that displays the data field in a TextBox. The `ProductName` BoundField has been converted into the following TemplateField markup:
-
 
 [!code-aspx[Main](inserting-a-new-record-from-the-gridview-s-footer-cs/samples/sample3.aspx)]
 
@@ -116,18 +96,15 @@ Likewise, the `Discontinued` CheckBoxField has been converted into a TemplateFie
 
 Since the GridView we re working with doesn t support editing, feel free to remove the `EditItemTemplate` from each TemplateField, leaving just the `ItemTemplate`. After doing this, your GridView s declarative markup should look like the following:
 
-
 [!code-aspx[Main](inserting-a-new-record-from-the-gridview-s-footer-cs/samples/sample4.aspx)]
 
 Now that each GridView field has been converted into a TemplateField, we can enter the appropriate inserting interface into each field s `FooterTemplate`. Some of the fields will not have an inserting interface (`ProductID`, for instance); others will vary in the Web controls used to collect the new product s information.
 
 To create the editing interface, choose the Edit Templates link from the GridView s smart tag. Then, from the drop-down list, select the appropriate field s `FooterTemplate` and drag the appropriate control from the Toolbox onto the Designer.
 
-
 [![Add the Appropriate Inserting Interface to Each Field s FooterTemplate](inserting-a-new-record-from-the-gridview-s-footer-cs/_static/image9.gif)](inserting-a-new-record-from-the-gridview-s-footer-cs/_static/image15.png)
 
 **Figure 9**: Add the Appropriate Inserting Interface to Each Field s `FooterTemplate` ([Click to view full-size image](inserting-a-new-record-from-the-gridview-s-footer-cs/_static/image16.png))
-
 
 The following bulleted list enumerates the GridView fields, specifying the inserting interface to add:
 
@@ -154,16 +131,13 @@ Feel free to improve the appearance of the various GridView fields. For example,
 
 After creating the slew of inserting interfaces in the `FooterTemplate` s, removing the `SupplierID`, and `CategoryID` TemplateFields, and improving the aesthetics of the grid through formatting and aligning the TemplateFields, your GridView s declarative markup should look similar to the following:
 
-
 [!code-aspx[Main](inserting-a-new-record-from-the-gridview-s-footer-cs/samples/sample5.aspx)]
 
 When viewed through a browser, the GridView s footer row now includes the completed inserting interface (see Figure 10). At this point, the inserting interface doesn t include a means for the user to indicate that she s entered the data for the new product and wants to insert a new record into the database. Also, we ve yet to address how the data entered into the footer will translate into a new record in the `Products` database. In Step 4 we'll look at how to include an Add button to the inserting interface and how to execute code on postback when it s clicked. Step 5 shows how to insert a new record using the data from the footer.
 
-
 [![The GridView Footer Provides an Interface for Adding a New Record](inserting-a-new-record-from-the-gridview-s-footer-cs/_static/image10.gif)](inserting-a-new-record-from-the-gridview-s-footer-cs/_static/image17.png)
 
 **Figure 10**: The GridView Footer Provides an Interface for Adding a New Record ([Click to view full-size image](inserting-a-new-record-from-the-gridview-s-footer-cs/_static/image18.png))
-
 
 ## Step 4: Including an Add Button in the Inserting Interface
 
@@ -171,23 +145,18 @@ We need to include an Add button somewhere in the inserting interface since the 
 
 From the Designer, click on the Edit Templates link in the GridView s smart tag and then choose the `ProductID` field s `FooterTemplate` from the drop-down list. Add a Button Web control (or a LinkButton or ImageButton, if you prefer) to the template, setting its ID to `AddProduct`, its `CommandName` to Insert, and its `Text` property to Add as shown in Figure 11.
 
-
 [![Place the Add Button in the ProductID TemplateField s FooterTemplate](inserting-a-new-record-from-the-gridview-s-footer-cs/_static/image11.gif)](inserting-a-new-record-from-the-gridview-s-footer-cs/_static/image19.png)
 
 **Figure 11**: Place the Add Button in the `ProductID` TemplateField s `FooterTemplate` ([Click to view full-size image](inserting-a-new-record-from-the-gridview-s-footer-cs/_static/image20.png))
 
-
 Once you ve included the Add button, test out the page in a browser. Note that when clicking the Add button with invalid data in the inserting interface, the postback is short circuited and the ValidationSummary control indicates the invalid data (see Figure 12). With appropriate data entered, clicking the Add button causes a postback. No record is added to the database, however. We will need to write a bit of code to actually perform the insert.
-
 
 [![The Add Button s Postback is Short Circuited if There is Invalid Data in the Inserting Interface](inserting-a-new-record-from-the-gridview-s-footer-cs/_static/image12.gif)](inserting-a-new-record-from-the-gridview-s-footer-cs/_static/image21.png)
 
 **Figure 12**: The Add Button s Postback is Short Circuited if There is Invalid Data in the Inserting Interface ([Click to view full-size image](inserting-a-new-record-from-the-gridview-s-footer-cs/_static/image22.png))
 
-
 > [!NOTE]
 > The validation controls in the inserting interface were not assigned to a validation group. This works fine so long as the inserting interface is the only set of validation controls on the page. If, however, there are other validation controls on the page (such as validation controls in the grid s editing interface), the validation controls in the inserting interface and Add button s `ValidationGroup` properties should be assigned the same value so as to associate these controls with a particular validation group. See [Dissecting the Validation Controls in ASP.NET 2.0](http://aspnet.4guysfromrolla.com/articles/112305-1.aspx) for more information on partitioning the validation controls and buttons on a page into validation groups.
-
 
 ## Step 5: Inserting a New Record Into the`Products`Table
 
@@ -197,20 +166,16 @@ This insert logic should be executed after the Add button has been clicked. As d
 
 Therefore, to respond to the user clicking the Add button, we need to create an event handler for the GridView s `RowCommand` event. Since this event fires whenever *any* Button, LinkButton, or ImageButton in the GridView is clicked, it s vital that we only proceed with the inserting logic if the `CommandName` property passed into the event handler maps to the `CommandName` value of the Add button ( Insert ). Moreover, we should also only proceed if the validation controls report valid data. To accommodate this, create an event handler for the `RowCommand` event with the following code:
 
-
 [!code-csharp[Main](inserting-a-new-record-from-the-gridview-s-footer-cs/samples/sample6.cs)]
 
 > [!NOTE]
 > You may be wondering why the event handler bothers checking the `Page.IsValid` property. After all, won't the postback be suppressed if invalid data is provided in the inserting interface? This assumption is correct as long as the user has not disabled JavaScript or has taken steps to circumvent the client-side validation logic. In short, one should never rely strictly on client-side validation; a server-side check for validity should always be performed before working with the data.
 
-
 In Step 1 we created the `ProductsDataSource` ObjectDataSource such that its `Insert()` method is mapped to the `ProductsBLL` class s `AddProduct` method. To insert the new record into the `Products` table, we can simply invoke the ObjectDataSource s `Insert()` method:
-
 
 [!code-csharp[Main](inserting-a-new-record-from-the-gridview-s-footer-cs/samples/sample7.cs)]
 
 Now that the `Insert()` method has been invoked, all that remains is to copy the values from the inserting interface to the parameters passed to the `ProductsBLL` class s `AddProduct` method. As we saw back in the [Examining the Events Associated with Inserting, Updating, and Deleting](../editing-inserting-and-deleting-data/examining-the-events-associated-with-inserting-updating-and-deleting-cs.md) tutorial, this can be accomplished through the ObjectDataSource s `Inserting` event. In the `Inserting` event we need to programmatically reference the controls from the `Products` GridView s footer row and assign their values to the `e.InputParameters` collection. If the user omits a value such as leaving the `ReorderLevel` TextBox blank we need to specify that the value inserted into the database should be `NULL`. Since the `AddProducts` method accepts nullable types for the nullable database fields, simply use a nullable type and set its value to `null` in the case where user input is omitted.
-
 
 [!code-csharp[Main](inserting-a-new-record-from-the-gridview-s-footer-cs/samples/sample8.cs)]
 
@@ -222,11 +187,9 @@ Currently, clicking the Add button adds a new record to the database table but d
 
 The GridView used in this tutorial does not apply any sort order to the listed products, nor does it allow the end user to sort the data. Consequently, the records are ordered as they are in the database by their primary key field. Since each new record has a `ProductID` value greater than the last one, every time a new product is added it is tacked on to the end of the grid. Therefore, you may want to automatically send the user to the last page of the GridView after adding a new record. This can be accomplished by adding the following line of code after the call to `ProductsDataSource.Insert()` in the `RowCommand` event handler to indicate that the user needs to be sent to the last page after binding the data to the GridView:
 
-
 [!code-csharp[Main](inserting-a-new-record-from-the-gridview-s-footer-cs/samples/sample9.cs)]
 
 `SendUserToLastPage` is a page-level Boolean variable that is initially assigned a value of `false`. In the GridView s `DataBound` event handler, if `SendUserToLastPage` is false, the `PageIndex` property is updated to send the user to the last page.
-
 
 [!code-csharp[Main](inserting-a-new-record-from-the-gridview-s-footer-cs/samples/sample10.cs)]
 

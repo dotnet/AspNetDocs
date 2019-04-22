@@ -17,7 +17,6 @@ by [Tom Dykstra](https://github.com/tdykstra)
 
 > This tutorial series shows you how to deploy (publish) an ASP.NET web application to Azure App Service Web Apps or to a third-party hosting provider, by using Visual Studio 2012 or Visual Studio 2010. For information about the series, see [the first tutorial in the series](introduction.md).
 
-
 ## Overview
 
 In this tutorial, you set folder permissions for the *Elmah* folder in the deployed web site so that the application can create log files in that folder.

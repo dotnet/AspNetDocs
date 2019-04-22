@@ -17,7 +17,6 @@ by [Jason Lee](https://github.com/jrjlee)
 
 > This topic describes how to use the Web Farm Framework (WFF) 2.0 to create and configure a web server farm from a collection of servers.
 
-
 WFF lets you synchronize web platform products and components, web applications, websites, and configuration settings across multiple load-balanced web servers. In scenarios where you need more than one web server, like staging and production environments, this can vastly simplify your deployment and configuration process. You can deploy a web application to a single server&#x2014;the *primary server*&#x2014;and WFF will automatically replicate that web application on all the other web servers in the server farm.
 
 ## Understanding the Web Farm Framework
@@ -57,7 +56,6 @@ The tasks and walkthroughs in this topic assume that you're starting with clean 
 
 > [!NOTE]
 > For more information on joining computers to a domain, see [Joining Computers to the Domain and Logging On](https://technet.microsoft.com/library/cc725618(v=WS.10).aspx). For more information on configuring static IP addresses, see [Configure a Static IP Address](https://technet.microsoft.com/library/cc754203(v=ws.10).aspx).
-
 
 ## Create the WFF Controller Server
 
@@ -179,7 +177,6 @@ WFF is designed to integrate closely with IIS ARR. To take advantage of this int
 
 > [!NOTE]
 > You don't have to use ARR with WFF; you can configure WFF to work with third-party load balancing solutions. For more information, see [Overview of the Web Farm Framework 2.0 for IIS 7](https://go.microsoft.com/?linkid=9805126).
-
 
 Load balancing using ARR is a complex topic, most of which is beyond the scope of this tutorial. However, you can use the next procedure to install the ARR module and get started with load balancing.
 

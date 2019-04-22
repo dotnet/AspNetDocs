@@ -17,7 +17,6 @@ by [Christian Wenz](https://github.com/wenz)
 
 > The Accordion control in the AJAX Control Toolkit provides multiple panes and allows the user to display one of them at a time. Panels are usually declared within the page itself, but binding to a data source offers more flexibility.
 
-
 ## Overview
 
 The Accordion control in the AJAX Control Toolkit provides multiple panes and allows the user to display one of them at a time. Panels are usually declared within the page itself, but binding to a data source offers more flexibility.
@@ -51,7 +50,6 @@ When the page is loaded, the data source must be bound to the accordion with thi
 To conclude this sample, you need to define the two CSS classes that are referenced in the Accordion control (in its properties `HeaderCssClass` and `ContentCssClass`). Put the following markup in the `<head>` section of the page:
 
 [!code-css[Main](databinding-to-an-accordion-vb/samples/sample6.css)]
-
 
 [![The data in the accordion comes directly from the data source](databinding-to-an-accordion-vb/_static/image2.png)](databinding-to-an-accordion-vb/_static/image1.png)
 

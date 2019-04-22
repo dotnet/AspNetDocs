@@ -17,7 +17,6 @@ by [Christian Wenz](https://github.com/wenz)
 
 > The HoverMenu control in the AJAX Control Toolkit provides a simple popup effect: When the mouse pointer hovers over an element, a popup appears at a specified position. It is also possible to use this control within a repeater.
 
-
 ## Overview
 
 The `HoverMenu` control in the AJAX Control Toolkit provides a simple popup effect: When the mouse pointer hovers over an element, a popup appears at a specified position. It is also possible to use this control within a repeater.
@@ -45,7 +44,6 @@ Now, the `HoverMenuExtender` comes into play. So that every element in the data 
 [!code-aspx[Main](using-hovermenu-with-a-repeater-control-cs/samples/sample4.aspx)]
 
 Now every item in the data source displays a popup to the right (`PopupPosition` attribute) after a delay of 50 milliseconds (`PopDelay` attribute).
-
 
 [![The hover menu appears next to each item in the repeater](using-hovermenu-with-a-repeater-control-cs/_static/image2.png)](using-hovermenu-with-a-repeater-control-cs/_static/image1.png)
 

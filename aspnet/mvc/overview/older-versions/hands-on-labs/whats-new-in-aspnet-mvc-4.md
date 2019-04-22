@@ -77,7 +77,6 @@ This hands-on lab includes the following exercises:
 > [!NOTE]
 > Each exercise is accompanied by an **End** folder containing the resulting solution you should obtain after completing the exercises. You can use this solution as a guide if you need additional help working through the exercises.
 
-
 Estimated time to complete this lab: **60 minutes**.
 
 <a id="Exercise1"></a>
@@ -217,7 +216,6 @@ ASP.NET MVC 4 facilitates the development of websites for mobile and tablet brow
 8. The new template also uses the **Viewport meta tag**. Most mobile browsers define a width for a virtual browser window or &quot;viewport&quot;, which is larger than the actual width of the mobile device. This enables mobile browsers to display the entire web page inside the virtual display. The **Viewport meta tag** allows web developers to set the width, height and scale of the browser area on mobile devices **.** The ASP.NET MVC 4 template for Mobile Applications sets the viewport to the device width (&quot;width=device-width&quot;) in the layout template (*Views\Shared\_Layout.cshtml*), so that all the pages will have their viewport set to the device screen width. Notice that the Viewport meta tag will not change the default browser view.
 9. Open **\_Layout.cshtml**, located in the **Views | Shared** folder, and comment the Viewport meta tag. Run the application, if not already opened, and check out the differences.
 
-
 [!code-cshtml[Main](whats-new-in-aspnet-mvc-4/samples/sample2.cshtml)]
 
 ![The site after commenting the viewport meta tag](whats-new-in-aspnet-mvc-4/_static/image15.png "The site after commenting the viewport meta tag")
@@ -225,7 +223,6 @@ ASP.NET MVC 4 facilitates the development of websites for mobile and tablet brow
 *The site after commenting the viewport meta tag*
 10. In Visual Studio, press **SHIFT** + **F5** to stop debugging the application.
 11. Uncomment the viewport meta tag.
-
 
 [!code-cshtml[Main](whats-new-in-aspnet-mvc-4/samples/sample3.cshtml)]
 
@@ -243,7 +240,6 @@ By using the adaptive rendering technique, your site will be **displayed properl
 > [!NOTE]
 > The basic format of a media query is: @media \[Scope: all | handheld | print | projection | screen\] ([property:value] and ... [property:value])
 
-
 Examples of media queries: &gt;**@media all and (max-width: 1000px) and (min-width: 700px) {}:** For all the resolutions between 700px and 1000px.
 
 > **@media screen and (min-width: 400px) and (max-width: 700px) { ... }:** Only for screens. The resolution must be between 400 and 700px.
@@ -251,7 +247,6 @@ Examples of media queries: &gt;**@media all and (max-width: 1000px) and (min-wid
 > **@media handheld and (min-width: 20em), screen and (min-width: 20em) { ... }:** For handhelds(mobile and devices) and screens. The minimum width must be greater than 20em.
 > 
 > You can find more information about this on the [W3C site](http://www.w3.org/TR/css3-mediaqueries/).
-
 
 You will now explore how the adaptive rendering works, improving the readability of the ASP.NET MVC 4 default website template.
 
@@ -578,7 +573,6 @@ After this code runs, when an iPhone browser generates a request, your applicati
 5. Open **\_Layout.iPhone.cshtml** you created in the previous step.
 6. Find the div element with the data-role attribute set to **page** and change the **data-theme** attribute to &quot;**a**&quot;.
 
-
 [!code-cshtml[Main](whats-new-in-aspnet-mvc-4/samples/sample17.cshtml)]
 
 Now you have 3 layouts in your ASP.NET MVC 4 application:
@@ -690,7 +684,6 @@ Asynchronous action methods that return Task instances can also support time-out
 
 > [!NOTE]
 > Additionally, you can deploy this application to Windows Azure Web Sites following [Appendix D: Publishing an ASP.NET MVC 4 Application using Web Deploy](#AppendixD).
-
 
 <a id="Summary"></a>
 

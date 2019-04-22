@@ -17,7 +17,6 @@ by [Erik Reitan](https://github.com/Erikre)
 
 > This tutorial series will teach you the basics of building an ASP.NET Web Forms application using ASP.NET 4.5 and Microsoft Visual Studio Express 2013 for Web. A Visual Studio 2013 [project with C# source code](https://go.microsoft.com/fwlink/?LinkID=389434&clcid=0x409) is available to accompany this tutorial series.
 
-
 In this tutorial, you will modify the Wingtip Toys sample application to support URL routing. Routing enables your web application to use URLs that are friendly, easier to remember, and better supported by search engines. This tutorial builds on the previous tutorial "Membership and Administration" and is part of the Wingtip Toys tutorial series.
 
 ## What you'll learn:
@@ -76,7 +75,6 @@ The second parameter of the route includes a dynamic value specified by braces (
 > **Optional**
 > 
 > You might find it easier to manage your code by moving the `RegisterCustomRoutes` method to a separate class. In the *Logic* folder, create a separate `RouteActions` class. Move the above `RegisterCustomRoutes` method from the *Global.asax.cs* file into the new `RoutesActions` class. Use the `RoleActions` class and the `createAdmin` method as an example of how to call the `RegisterCustomRoutes` method from the *Global.asax.cs* file.
-
 
 You may also have noticed the `RegisterRoutes` method call using the `RouteConfig` object at the beginning of the `Application_Start` event handler. This call is made to implement default routing. It was included as default code when you created the application using Visual Studio's Web Forms template.
 

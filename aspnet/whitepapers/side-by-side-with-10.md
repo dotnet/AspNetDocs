@@ -15,7 +15,6 @@ msc.type: content
 > 
 > Applies to ASP.NET 1.0 and ASP.NET 1.1.
 
-
 In ASP.NET, applications are said to be running side by side when they are installed on the same computer, but use different versions of the .NET Framework. The following topic describes how to configure ASP.NET applications for side-by-side execution and provides detailed steps to:
 
 - [Maintain your Web application's mapping to .NET Framework version 1.0 during installation](#1)

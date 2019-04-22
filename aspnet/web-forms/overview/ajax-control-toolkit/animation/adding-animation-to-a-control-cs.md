@@ -17,7 +17,6 @@ by [Christian Wenz](https://github.com/wenz)
 
 > The Animation control in the ASP.NET AJAX Control Toolkit is not just a control but a whole framework to add animations to a control. This tutorial shows how to set up such an animation.
 
-
 ## Overview
 
 The Animation control in the ASP.NET AJAX Control Toolkit is not just a control but a whole framework to add animations to a control. This tutorial shows how to set up such an animation.
@@ -64,7 +63,6 @@ In this example, the panel shall fade out. The animation shall take 1.5 seconds 
 [!code-aspx[Main](adding-animation-to-a-control-cs/samples/sample5.aspx)]
 
 When you run this script, the panel is displayed and fades out in one and a half seconds.
-
 
 [![The panel is fading out](adding-animation-to-a-control-cs/_static/image2.png)](adding-animation-to-a-control-cs/_static/image1.png)
 

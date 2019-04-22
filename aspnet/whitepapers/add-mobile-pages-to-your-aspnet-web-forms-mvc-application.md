@@ -20,7 +20,6 @@ msc.type: content
 > 
 > This How To describes various ways to serve pages optimized for mobile devices from your ASP.NET Web Forms / MVC application, and suggests architectural and design issues to consider when targeting a broad range of devices. This document also explains why the ASP.NET Mobile Controls from ASP.NET 2.0 to 3.5 are now obsolete, and discusses some modern alternatives.
 
-
 ## Contents
 
 - Overview
@@ -152,7 +151,6 @@ Your mobile pages can share common static resources (such as images, JavaScript,
 
 > [!NOTE]
 > Since this approach usually involves some duplication of code (mobile pages are likely to share some similarities with desktop pages), it's important to factor out any common business logic or data access code into a shared underlying layer or service. Otherwise, you'll double the effort of creating and maintaining your application.
-
 
 #### Redirecting mobile visitors to your mobile pages
 
@@ -304,7 +302,6 @@ For more details, see [51degrees.mobi Foundation documentation](https://github.c
 
 > [!NOTE]
 > You *can* use 51Degrees.mobi Foundation's redirection feature on ASP.NET MVC applications, but you will need to define your redirection configuration in terms of plain URLs, not in terms of routing parameters or by putting MVC filters on actions. This is because (at the time of writing) 51Degrees.mobi Foundation does not recognize filters or routing.
-
 
 ### Disabling Transcoders and Proxy Servers
 

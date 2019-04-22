@@ -17,7 +17,6 @@ by [Christian Wenz](https://github.com/wenz)
 
 > The Animation control in the ASP.NET AJAX Control Toolkit is not just a control but a whole framework to add animations to a control. For the contents of an UpdatePanel, a special extender exists that relies heavily on the animation framework: UpdatePanelAnimation. This tutorial shows how to set up such an animation for an UpdatePanel.
 
-
 ## Overview
 
 The Animation control in the ASP.NET AJAX Control Toolkit is not just a control but a whole framework to add animations to a control. For the contents of an `UpdatePanel`, a special extender exists that relies heavily on the animation framework: `UpdatePanelAnimation`. This tutorial shows how to set up such an animation for an `UpdatePanel`.
@@ -42,7 +41,6 @@ In this scenario, the new content of the `UpdatePanel` (after the postback) shal
 [!code-aspx[Main](animating-an-updatepanel-control-cs/samples/sample3.aspx)]
 
 Now whenever a postback occurs within the UpdatePanel, the new contents of the panel fade in smoothly.
-
 
 [![The next wizard step is fading in](animating-an-updatepanel-control-cs/_static/image2.png)](animating-an-updatepanel-control-cs/_static/image1.png)
 

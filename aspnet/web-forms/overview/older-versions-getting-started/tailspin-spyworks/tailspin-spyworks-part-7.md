@@ -17,7 +17,6 @@ by [Joe Stagner](https://github.com/JoeStagner)
 > 
 > This tutorial series details all of the steps taken to build the Tailspin Spyworks sample application. Part 7 adds additional features, such as account review, product reviews, and "popular items" and "also purchased" user controls.
 
-
 ## <a id="_Toc260221673"></a>  Adding Features
 
 Though users can browse our catalog, place items in their shopping cart, and complete the checkout process, there are a number of supporting features that we will include to improve our site.

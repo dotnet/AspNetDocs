@@ -19,7 +19,6 @@ by [Jason Lee](https://github.com/jrjlee)
 > 
 > For an Italian translation of these tutorials, visit [http://www.lucamorelli.it](http://www.lucamorelli.it).
 
-
 ## Enterprise Deployment Challenges
 
 Organizations often encounter these challenges when they look to manage the deployment of complex, enterprise-scale solutions:

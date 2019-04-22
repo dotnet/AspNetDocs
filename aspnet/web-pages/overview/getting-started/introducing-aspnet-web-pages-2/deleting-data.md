@@ -28,7 +28,6 @@ by [Tom FitzMacken](https://github.com/tfitzmac)
 > - The SQL `Delete` command.
 > - The `Database.Execute` method to run a SQL `Delete` command.
 
-
 ## What You'll Build
 
 In the previous tutorial, you learned how to update an existing database record. This tutorial is similar, except that instead of updating the record, you'll delete it. The processes are much the same, except that deleting is simpler, so this tutorial will be short.
@@ -80,7 +79,6 @@ Now you can create the page that will be the target for the **Delete** link in t
 > When your app lets people change a record, you have to present the record to the user for editing anyway. But you might be tempted to skip this step for deleting a record. Don't skip that step, though. (It's also helpful for users to see the record and confirm that they're deleting the record that they intended.)
 > 
 > In a subsequent tutorial set, you'll see how to add login functionality so a user would have to log in before deleting a record.
-
 
 Create a page named *DeleteMovie.cshtml* and replace what's in the file with the following markup:
 

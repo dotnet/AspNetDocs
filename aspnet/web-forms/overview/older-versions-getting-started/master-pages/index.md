@@ -13,7 +13,6 @@ msc.type: chapter
 
 > How to create and use ASP.NET master pages and content pages to create a consistent layout in Web Forms applications.
 
-
 - [Creating a Site-Wide Layout Using Master Pages (C#)](creating-a-site-wide-layout-using-master-pages-cs.md)
 - [Multiple ContentPlaceHolders and Default Content (C#)](multiple-contentplaceholders-and-default-content-cs.md)
 - [Specifying the Title, Meta Tags, and Other HTML Headers in the Master Page (C#)](specifying-the-title-meta-tags-and-other-html-headers-in-the-master-page-cs.md)
