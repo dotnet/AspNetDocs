@@ -17,7 +17,6 @@ by [Mads Kristensen](https://github.com/madskristensen)
 > 
 > [Download the Breeze/Angular MVC Template](https://go.microsoft.com/fwlink/?LinkId=286437)
 
-
 [AngularJS](http://angularjs.org) is an open source library from Google for building Single Page Applications (SPAs). It offers data binding, dependency injection, and screen management. Combine it with [BreezeJS](http://www.breezejs.com/?utm_source=ms-spa), another open source library for data modeling and data management, and you have the essential ingredients for a great HTML/JavaScript client app.
 
 The Breeze/Angular SPA template is a variation on the [KnockoutJS SPA template](../introduction/knockoutjs-template.md) included in the ASP.NET and Web Tools 2012.2 Update. If you've got Visual Studio, you'll have an example SPA up and running in less than 60 seconds.

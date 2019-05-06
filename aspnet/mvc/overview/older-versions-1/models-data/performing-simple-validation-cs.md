@@ -15,16 +15,13 @@ by [Stephen Walther](https://github.com/StephenWalther)
 
 > Learn how to perform validation in an ASP.NET MVC application. In this tutorial, Stephen Walther introduces you to model state and the validation HTML helpers.
 
-
 The goal of this tutorial is to explain how you can perform validation within an ASP.NET MVC application. For example, you learn how to prevent someone from submitting a form that does not contain a value for a required field. You learn how to use model state and the validation HTML helpers.
 
 ## Understanding Model State
 
 You use model state - or more accurately, the model state dictionary - to represent validation errors. For example, the Create() action in Listing 1 validates the properties of a Product class before adding the Product class to a database.
 
-
 I'm not recommending that you add your validation or database logic to a controller. A controller should contain only logic related to application flow control. We are taking a shortcut to keep things simple.
-
 
 **Listing 1 - Controllers\ProductController.cs**
 
@@ -46,19 +43,15 @@ The Html.ValidationMessage() and Html.ValidationSummary() helpers are used in th
 4. From the **View content** dropdown list, select Create.
 5. Click the **Add** button.
 
-
 Make sure that you build your application before adding a view. Otherwise, the list of classes won't appear in the **View data class** dropdown list.
-
 
 [![The New Project dialog box](performing-simple-validation-cs/_static/image1.jpg)](performing-simple-validation-cs/_static/image1.png)
 
 **Figure 01**: Adding a view([Click to view full-size image](performing-simple-validation-cs/_static/image2.png))
 
-
 [![The New Project dialog box](performing-simple-validation-cs/_static/image2.jpg)](performing-simple-validation-cs/_static/image3.png)
 
 **Figure 02**: Creating a strongly-typed view ([Click to view full-size image](performing-simple-validation-cs/_static/image4.png))
-
 
 After you complete these steps, you get the Create view in Listing 2.
 
@@ -72,11 +65,9 @@ The Html.ValidationMessage() helper is called next to each of the HTML form fiel
 
 The page in Figure 3 illustrates the error messages rendered by the validation helpers when the form is submitted with missing fields and invalid values.
 
-
 [![The New Project dialog box](performing-simple-validation-cs/_static/image3.jpg)](performing-simple-validation-cs/_static/image5.png)
 
 **Figure 03**: The Create view submitted with problems ([Click to view full-size image](performing-simple-validation-cs/_static/image6.png))
-
 
 Notice that the appearance of the HTML input fields are also modified when there is a validation error. The Html.TextBox() helper renders a *class="input-validation-error"* attribute when there is a validation error associated with the property rendered by the Html.TextBox() helper.
 
@@ -92,16 +83,13 @@ You can modify these cascading style sheet classes, and therefore modify the app
 > 
 > The HtmlHelper class includes read-only static properties for retrieving the names of the validation related CSS classes. These static properties are named ValidationInputCssClassName, ValidationFieldCssClassName, and ValidationSummaryCssClassName.
 
-
 ## Prebinding Validation and Postbinding Validation
 
 If you submit the HTML form for creating a Product, and you enter an invalid value for the price field and no value for the UnitsInStock field, then you'll get the validation messages displayed in Figure 4. Where do these validation error messages come from?
 
-
 [![The New Project dialog box](performing-simple-validation-cs/_static/image4.jpg)](performing-simple-validation-cs/_static/image7.png)
 
 **Figure 04**: Prebinding Validation Errors([Click to view full-size image](performing-simple-validation-cs/_static/image8.png))
-
 
 There are actually two types of validation error messages - those generated before the HTML form fields are bound to a class and those generated after the form fields are bound to the class. In other words, there are prebinding validation errors and postbinding validation errors.
 

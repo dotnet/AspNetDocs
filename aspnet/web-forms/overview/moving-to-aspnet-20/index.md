@@ -13,7 +13,6 @@ msc.type: chapter
 
 > How to migrate ASP.NET 1.x applications to ASP.NET 2.0.
 
-
 - [Improvements in Visual Studio 2005](improvements-in-visual-studio-2005.md)
 - [ASP.NET 2.0 Page Model](the-asp-net-2-0-page-model.md)
 - [Server Controls](server-controls.md)

@@ -52,7 +52,6 @@ by [Tom Dykstra](https://github.com/tdykstra)
 > 
 > The original version of the tutorial is available in the [EF 4.1 / MVC 3 e-book](https://social.technet.microsoft.com/wiki/contents/articles/11608.e-book-gallery-for-microsoft-technologies.aspx#GettingStartedwiththeEntityFramework4.1usingASP.NETMVC).
 
-
 ## The Contoso University Web Application
 
 The application you'll be building in these tutorials is a simple university web site.
@@ -124,7 +123,6 @@ In the following sections you'll create a class for each one of these entities.
 
 > [!NOTE]
 > If you try to compile the project before you finish creating all of these entity classes, you'll get compiler errors.
-
 
 ### The Student Entity
 

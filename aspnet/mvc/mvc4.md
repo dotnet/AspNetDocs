@@ -20,7 +20,6 @@ msc.type: content
 - Enhanced support for asynchronous methods
 - *Read the full feature list in the [release notes](../whitepapers/mvc4-release-notes.md)*
 
-
 ### What's New in ASP.NET MVC 4
 
 - [ASP.NET Web API](../web-api/index.md)
@@ -28,16 +27,13 @@ msc.type: content
 - [Release Notes for ASP.NET MVC 4](../whitepapers/mvc4-release-notes.md)
 - [New ASP.NET MVC 4 tutorial series](overview/older-versions/getting-started-with-aspnet-mvc4/intro-to-aspnet-mvc-4.md)
 
-
 ### Install ASP.NET MVC 4 for Visual Studio 2010
 
 - Download the standalone ASP.NET [MVC 4 installer executable](https://www.microsoft.com/download/details.aspx?id=30683)
 
-
 ### Install Visual Studio 2012 (includes ASP.NET MVC 4)
 
 - [Visual Studio 2012 Ultimate](https://go.microsoft.com/fwlink/?linkid=247148)
-
 
 ### Getting Help and Reporting Issues
 

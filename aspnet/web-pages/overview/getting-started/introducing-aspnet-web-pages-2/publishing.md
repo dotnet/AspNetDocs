@@ -20,7 +20,6 @@ by [Tom FitzMacken](https://github.com/tfitzmac)
 > - Microsoft Azure
 > - Web Hosting Company
 
-
 ## About Publishing Your Site
 
 Up to now, you've done all your work on a local computer, including testing your pages. To run your<em>.cshtml</em> pages, you've used the web server that's built into WebMatrix, namely IIS Express. But of course no one can see the site you've created except you. To let others work with your site, you have to publish it to the Internet.
@@ -29,7 +28,6 @@ Unless you have access to a public web server already, publishing means that you
 
 > [!NOTE]
 > You might have access to a public web server via the internet service provider (ISP) that you use to get internet service at home. However, your hosting provider must support ASP.NET Web Pages. Many ISPs don't, but it's always worth checking.
-
 
 In this tutorial, we'll give you an overview of how to publish. It's not practical to provide exact details for everything, because the process differs a bit for every hosting provider. But you'll get a good idea of how the process works.
 
@@ -136,7 +134,6 @@ Pick one that you like. For this tutorial, we selected DiscountASP.NET, because 
 > [!NOTE]
 > Our choice of a hosting provider for this tutorial shouldn't be interpreted as an endorsement of that company over any other. But we had to pick one for illustration, and DiscountASP.NET is one of the many companies that supports ASP.NET Web Pages and the Web Deploy protocol for publishing.
 
-
 Typically, after you've signed up with the hosting provider, the company sends you an email that contains a user name and password, the URL of the web server, and so on. If the hosting company supports Web Deploy protocol, they might send you a file that contains publish settings, or let you download one. A publish settings file simplifies the process for you.
 
 When you've signed up and are ready to publish, click the **Publish** button in the WebMatrix ribbon. The **Publish Settings** dialog box is displayed.
@@ -190,7 +187,6 @@ Click the **Publish** button in the ribbon. WebMatrix determines what's changed 
 > 
 > By default, WebMatrix publishes your database (*.sdf* file) only the first time you publish the site. Once your site is published and people are interacting with the website, the database on the live site typically has the site's real data. You have to be very careful not to overwrite the live database with the *.sdf* file that's on your computer, which usually contains only test data. That's why you see the warning **Publishing will overwrite any remote databases**, and why the check box for *WebPagesMovies.sdf* is cleared by default.
 
-
 Click **Continue**. WebMatrix publishes the changed files and shows you a success message, like it did the first time you published.
 
 Go to the live site (you can click the link in the success message if it's still showing) and verify that your change has been published.
@@ -204,7 +200,6 @@ Go to the live site (you can click the link in the success message if it's still
 > Remote editing is an easy way to make changes to your live site. However, the changes you make this way aren't synchronized with the files in your local site. To synchronize the local files with the remote site, you can download the remote files. This process works much like publishing, except in reverse.
 > 
 > We won't describe more about the remote-editing and remote-download facilities of WebMatrix here. They're quite useful if multiple people have to work on the same site on different computers. For more information, see [Publish and Edit a Remote Site with WebMatrix 2 Beta](https://go.microsoft.com/fwlink/?LinkId=251591).
-
 
 ## Additional Resources
 

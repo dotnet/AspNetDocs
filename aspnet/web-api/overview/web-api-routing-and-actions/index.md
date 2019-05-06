@@ -13,7 +13,6 @@ msc.type: chapter
 
 > How ASP.NET Web API routes HTTP requests to controllers and actions.
 
-
 - [Routing in Web API](routing-in-aspnet-web-api.md)
 - [Routing and Action Selection in Web API](routing-and-action-selection.md)
 - [Attribute Routing in Web API 2](attribute-routing-in-web-api-2.md)

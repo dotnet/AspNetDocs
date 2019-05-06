@@ -13,7 +13,6 @@ msc.type: chapter
 
 > These tutorials show how to use the SqlDataSource control to query the database directly when you don't need a strict separation of the presentation and data access layers.
 
-
 - [Querying Data with the SqlDataSource Control (C#)](querying-data-with-the-sqldatasource-control-cs.md)
 - [Using Parameterized Queries with the SqlDataSource (C#)](using-parameterized-queries-with-the-sqldatasource-cs.md)
 - [Inserting, Updating, and Deleting Data with the SqlDataSource (C#)](inserting-updating-and-deleting-data-with-the-sqldatasource-cs.md)

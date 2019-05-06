@@ -15,7 +15,6 @@ by [Mike Wasson](https://github.com/MikeWasson)
 
 > This article shows how to enable Windows Authentication in Katana. It covers two scenarios: Using IIS to host Katana, and using HttpListener to self-host Katana in a custom process. Thanks to Barry Dorrans, David Matson, and Chris Ross for reviewing this article.
 
-
 Katana is Microsoft's implementation of [OWIN](http://owin.org/), the Open Web Interface for .NET. You can read an introduction to OWIN and Katana [here](an-overview-of-project-katana.md). The OWIN architecture has several layers:
 
 - Host: Manages the process in which the OWIN pipeline runs.

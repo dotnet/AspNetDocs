@@ -19,7 +19,6 @@ by [Tom FitzMacken](https://github.com/tfitzmac)
 > 
 > Enabling these credentials in your web sites provides a significant advantage because millions of users already have accounts with these external providers. These users may be more inclined to sign up for your site if they do not have to create and remember a new set of credentials. Also, after a user has logged in through one of these providers, you can incorporate social operations from the provider.
 
-
 ## What you'll build
 
 There are two main goals in this tutorial:

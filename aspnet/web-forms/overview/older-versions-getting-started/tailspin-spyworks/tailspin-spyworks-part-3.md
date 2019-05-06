@@ -17,7 +17,6 @@ by [Joe Stagner](https://github.com/JoeStagner)
 > 
 > This tutorial series details all of the steps taken to build the Tailspin Spyworks sample application. Part 3 covers adding layout and a category menu.
 
-
 ## <a id="_Toc260221669"></a>  Adding Some Layout and a Category Menu
 
 In our site master page we'll add a div for the left side column that will contain our product category menu.

@@ -23,7 +23,6 @@ by [Rick Anderson]((https://twitter.com/RickAndMSFT))
 > 
 > A Visual Web Developer project with VB.NET source code is available to accompany this topic. [Download the VB.NET version](https://code.msdn.microsoft.com/Introduction-to-MVC-3-10d1b098). If you prefer C#, switch to the [C# version](../cs/improving-the-details-and-delete-methods.md) of this tutorial.
 
-
 In this part of the tutorial, you'll make some improvements to the automatically generated `Details` and `Delete` methods. These changes aren't required, but with just a few small bits of code, you can easily enhance the application.
 
 ## Improving the Details and Delete Methods

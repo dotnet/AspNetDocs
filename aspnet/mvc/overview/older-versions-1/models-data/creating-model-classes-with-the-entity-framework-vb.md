@@ -15,7 +15,6 @@ by [Microsoft](https://github.com/microsoft)
 
 > In this tutorial, you learn how to use ASP.NET MVC with the Microsoft Entity Framework. You learn how to use the Entity Wizard to create an ADO.NET Entity Data Model. Over the course of this tutorial, we build a web application that illustrates how to select, insert, update, and delete database data by using the Entity Framework.
 
-
 The goal of this tutorial is to explain how you can create data access classes using the Microsoft Entity Framework when building an ASP.NET MVC application. This tutorial assumes no previous knowledge of the Microsoft Entity Framework. By the end of this tutorial, you'll understand how to use the Entity Framework to select, insert, update, and delete database records.
 
 The Microsoft Entity Framework is an Object Relational Mapping (O/RM) tool that enables you to generate a data access layer from a database automatically. The Entity Framework enables you to avoid the tedious work of building your data access classes by hand.
@@ -24,13 +23,11 @@ The Microsoft Entity Framework is an Object Relational Mapping (O/RM) tool that 
 > 
 > There is no essential connection between ASP.NET MVC and the Microsoft Entity Framework. There are several alternatives to the Entity Framework that you can use with ASP.NET MVC. For example, you can build your MVC Model classes using other O/RM tools such as Microsoft LINQ to SQL, NHibernate, or SubSonic.
 
-
 In order to illustrate how you can use the Microsoft Entity Framework with ASP.NET MVC, we'll build a simple sample application. We'll create a Movie Database application that enables you to display and edit movie database records.
 
 This tutorial assumes that you have Visual Studio 2008 or Visual Web Developer 2008 with Service Pack 1. You need Service Pack 1 in order to use the Entity Framework. You can download Visual Studio 2008 Service Pack 1 or Visual Web Developer with Service Pack 1 from the following address:
 
 > [https://www.asp.net/downloads/](https://www.asp.net/downloads)
-
 
 ## Creating the Movie Sample Database
 
@@ -102,9 +99,7 @@ If you want to rename an entity class, you can double-click on the class name in
 
 Remember to save your Entity Data Model after making a modification by clicking the Save button (the icon of the floppy disk). Behind the scenes, the Entity Designer generates a set of Visual Basic .NET classes. You can view these classes by opening the MoviesDBModel.Designer.vb file from the Solution Explorer window.
 
-
 Don't modify the code in the Designer.vb file since your changes will be overwritten the next time you use the Entity Designer. If you want to extend the functionality of the entity classes defined in the Designer.vb file then you can create *partial classes* in separate files.
-
 
 #### Selecting Database Records with the Entity Framework
 
@@ -152,9 +147,7 @@ Notice that the second Add() action is decorated with the AcceptVerbs attribute.
 
 The second Add() action creates a new instance of the Entity Framework Movie class with the help of the ASP.NET MVC TryUpdateModel() method. The TryUpdateModel() method takes the fields in the FormCollection passed to the Add() method and assigns the values of these HTML form fields to the Movie class.
 
-
 When using the Entity Framework, you must supply a "white list" of properties when using the TryUpdateModel or UpdateModel methods to update the properties of an entity class.
-
 
 Next, the Add() action performs some simple form validation. The action verifies that both the Title and Director properties have values. If there is a validation error, then a validation error message is added to ModelState.
 

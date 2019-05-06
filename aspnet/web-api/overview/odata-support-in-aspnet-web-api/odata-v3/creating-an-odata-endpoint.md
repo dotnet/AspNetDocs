@@ -30,7 +30,6 @@ by [Mike Wasson](https://github.com/MikeWasson)
 >
 > Web API OData support was added in [ASP.NET and Web Tools 2012.2 Update](https://go.microsoft.com/fwlink/?LinkId=282650). However, this tutorial uses scaffolding that was added in Visual Studio 2013.
 
-
 In this tutorial, you will create a simple OData endpoint that clients can query. You will also create a C# client for the endpoint. After you complete this tutorial, the next set of tutorials show how to add more functionality, including entity relations, actions, and $expand/$select.
 
 - [Create the Visual Studio Project](#create-project)
@@ -71,7 +70,6 @@ In the **Add New** Item dialog, name the class &quot;Product&quot;.
 
 > [!NOTE]
 > By convention, model classes are placed in the Models folder. You don't have to follow this convention in your own projects, but we'll use it for this tutorial.
-
 
 In the Product.cs file, add the following class definition:
 

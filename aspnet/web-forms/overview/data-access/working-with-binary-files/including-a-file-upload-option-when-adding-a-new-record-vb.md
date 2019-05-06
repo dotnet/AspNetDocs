@@ -17,7 +17,6 @@ by [Scott Mitchell](https://twitter.com/ScottOnWriting)
 
 > This tutorial shows how to create a Web interface that allows the user to both enter text data and upload binary files. To illustrate the options available to store binary data, one file will be saved in the database while the other is stored in the file system.
 
-
 ## Introduction
 
 In the previous two tutorials we explored techniques for storing binary data that is associated with the application s data model, looked at how to use the FileUpload control to send files from the client to the web server, and saw how to present this binary data in a data Web control. We ve yet to talk about how to associate uploaded data with the data model, though.
@@ -35,40 +34,32 @@ Since the `CategoriesTableAdapter` s main query does not reference the `Picture`
 > [!NOTE]
 > This annoyance is a non-issue when using stored procedures instead of ad-hoc SQL statements. A future tutorial will explore using stored procedures in lieu of ad-hoc SQL statements in the Data Access Layer.
 
-
 To avoid this potential headache, rather than customizing the auto-generated SQL statements let s instead create a new method for the TableAdapter. This method, named `InsertWithPicture`, will accept values for the `CategoryName`, `Description`, `BrochurePath`, and `Picture` columns and execute an `INSERT` statement that stores all four values in a new record.
 
 Open the Typed DataSet and, from the Designer, right-click on the `CategoriesTableAdapter` s header and choose Add Query from the context menu. This launches the TableAdapter Query Configuration Wizard, which begins by asking us how the TableAdapter query should access the database. Choose Use SQL statements and click Next. The next step prompts for the type of query to be generated. Since we re creating a query to add a new record to the `Categories` table, choose INSERT and click Next.
-
 
 [![Select the INSERT Option](including-a-file-upload-option-when-adding-a-new-record-vb/_static/image1.gif)](including-a-file-upload-option-when-adding-a-new-record-vb/_static/image1.png)
 
 **Figure 1**: Select the INSERT Option ([Click to view full-size image](including-a-file-upload-option-when-adding-a-new-record-vb/_static/image2.png))
 
-
 We now need to specify the `INSERT` SQL statement. The wizard automatically suggests an `INSERT` statement corresponding to the TableAdapter s main query. In this case, it s an `INSERT` statement that inserts the `CategoryName`, `Description`, and `BrochurePath` values. Update the statement so that the `Picture` column is included along with a `@Picture` parameter, like so:
-
 
 [!code-sql[Main](including-a-file-upload-option-when-adding-a-new-record-vb/samples/sample1.sql)]
 
 The final screen of the wizard asks us to name the new TableAdapter method. Enter `InsertWithPicture` and click Finish.
 
-
 [![Name the New TableAdapter Method InsertWithPicture](including-a-file-upload-option-when-adding-a-new-record-vb/_static/image2.gif)](including-a-file-upload-option-when-adding-a-new-record-vb/_static/image3.png)
 
 **Figure 2**: Name the New TableAdapter Method `InsertWithPicture` ([Click to view full-size image](including-a-file-upload-option-when-adding-a-new-record-vb/_static/image4.png))
-
 
 ## Step 2: Updating the Business Logic Layer
 
 Since the Presentation Layer should only interface with the Business Logic Layer rather than bypassing it to go directly to the Data Access Layer, we need to create a BLL method that invokes the DAL method we just created (`InsertWithPicture`). For this tutorial, create a method in the `CategoriesBLL` class named `InsertWithPicture` that accepts as input three `String` s and a `Byte` array. The `String` input parameters are for the category s name, description, and brochure file path, while the `Byte` array is for the binary contents of the category s picture. As the following code shows, this BLL method invokes the corresponding DAL method:
 
-
 [!code-vb[Main](including-a-file-upload-option-when-adding-a-new-record-vb/samples/sample2.vb)]
 
 > [!NOTE]
 > Make sure that you have saved the Typed DataSet before adding the `InsertWithPicture` method to the BLL. Since the `CategoriesTableAdapter` class code is auto-generated based on the Typed DataSet, if you don t first save your changes to the Typed DataSet the `Adapter` property won't know about the `InsertWithPicture` method.
-
 
 ## Step 3: Listing the Existing Categories and their Binary Data
 
@@ -76,19 +67,15 @@ In this tutorial we will create a page that allows an end user to add a new cate
 
 Start by opening the `DisplayOrDownload.aspx` page from the `BinaryData` folder. Go to the Source view and copy the GridView and ObjectDataSource s declarative syntax, pasting it within the `<asp:Content>` element in `UploadInDetailsView.aspx`. Also, don t forget to copy over the `GenerateBrochureLink` method from the code-behind class of `DisplayOrDownload.aspx` to `UploadInDetailsView.aspx`.
 
-
 [![Copy and Paste the Declarative Syntax from DisplayOrDownload.aspx to UploadInDetailsView.aspx](including-a-file-upload-option-when-adding-a-new-record-vb/_static/image3.gif)](including-a-file-upload-option-when-adding-a-new-record-vb/_static/image5.png)
 
 **Figure 3**: Copy and Paste the Declarative Syntax from `DisplayOrDownload.aspx` to `UploadInDetailsView.aspx` ([Click to view full-size image](including-a-file-upload-option-when-adding-a-new-record-vb/_static/image6.png))
 
-
 After copying the declarative syntax and `GenerateBrochureLink` method over to the `UploadInDetailsView.aspx` page, view the page through a browser to ensure that everything was copied over correctly. You should see a GridView listing the eight categories that includes a link to download the brochure as well as the category s picture.
-
 
 [![You Should Now See Each Category Along with Its Binary Data](including-a-file-upload-option-when-adding-a-new-record-vb/_static/image4.gif)](including-a-file-upload-option-when-adding-a-new-record-vb/_static/image7.png)
 
 **Figure 4**: You Should Now See Each Category Along with Its Binary Data ([Click to view full-size image](including-a-file-upload-option-when-adding-a-new-record-vb/_static/image8.png))
-
 
 ## Step 4: Configuring the`CategoriesDataSource`to Support Inserting
 
@@ -96,18 +83,14 @@ The `CategoriesDataSource` ObjectDataSource used by the `Categories` GridView cu
 
 Start by clicking the Configure Data Source link from the ObjectDataSource s smart tag. The first screen shows the object the data source is configured to work with, `CategoriesBLL`. Leave this setting as-is and click Next to advance to the Define Data Methods screen. Move to the INSERT tab and pick the `InsertWithPicture` method from the drop-down list. Click Finish to complete the wizard.
 
-
 [![Configure the ObjectDataSource to use the InsertWithPicture Method](including-a-file-upload-option-when-adding-a-new-record-vb/_static/image5.gif)](including-a-file-upload-option-when-adding-a-new-record-vb/_static/image9.png)
 
 **Figure 5**: Configure the ObjectDataSource to use the `InsertWithPicture` Method ([Click to view full-size image](including-a-file-upload-option-when-adding-a-new-record-vb/_static/image10.png))
 
-
 > [!NOTE]
 > Upon completing the wizard, Visual Studio may ask if you want to Refresh Fields and Keys, which will regenerate the data Web controls fields. Choose No, because choosing Yes will overwrite any field customizations you may have made.
 
-
 After completing the wizard, the ObjectDataSource will now include a value for its `InsertMethod` property as well as `InsertParameters` for the four category columns, as the following declarative markup illustrates:
-
 
 [!code-aspx[Main](including-a-file-upload-option-when-adding-a-new-record-vb/samples/sample3.aspx)]
 
@@ -117,11 +100,9 @@ As first covered in the [An Overview of Inserting, Updating, and Deleting Data](
 
 Start by dragging a DetailsView from the Toolbox onto the Designer above the GridView, setting its `ID` property to `NewCategory` and clearing out the `Height` and `Width` property values. From the DetailsView s smart tag, bind it to the existing `CategoriesDataSource` and then check the Enable Inserting checkbox.
 
-
 [![Bind the DetailsView to the CategoriesDataSource and Enable Inserting](including-a-file-upload-option-when-adding-a-new-record-vb/_static/image6.gif)](including-a-file-upload-option-when-adding-a-new-record-vb/_static/image11.png)
 
 **Figure 6**: Bind the DetailsView to the `CategoriesDataSource` and Enable Inserting ([Click to view full-size image](including-a-file-upload-option-when-adding-a-new-record-vb/_static/image12.png))
-
 
 To permanently render the DetailsView in its inserting interface, set its `DefaultMode` property to `Insert`.
 
@@ -129,14 +110,11 @@ Note that the DetailsView has five BoundFields `CategoryID`, `CategoryName`, `De
 
 Remove the `NumberOfProducts` BoundField from the DetailsView altogether and then update the `HeaderText` properties of the `CategoryName` and `BrochurePath` BoundFields to Category and Brochure, respectively. Next, convert the `BrochurePath` BoundField into a TemplateField and add a new TemplateField for the picture, giving this new TemplateField a `HeaderText` value of Picture. Move the `Picture` TemplateField so that it is between the `BrochurePath` TemplateField and CommandField.
 
-
 ![Bind the DetailsView to the CategoriesDataSource and Enable Inserting](including-a-file-upload-option-when-adding-a-new-record-vb/_static/image7.gif)
 
 **Figure 7**: Bind the DetailsView to the `CategoriesDataSource` and Enable Inserting
 
-
 If you converted the `BrochurePath` BoundField into a TemplateField through the Edit Fields dialog box, the TemplateField includes an `ItemTemplate`, `EditItemTemplate`, and `InsertItemTemplate`. Only the `InsertItemTemplate` is needed, however, so feel free to remove the other two templates. At this point your DetailsView s declarative syntax should look like the following:
-
 
 [!code-aspx[Main](including-a-file-upload-option-when-adding-a-new-record-vb/samples/sample4.aspx)]
 
@@ -146,14 +124,11 @@ Presently, the `BrochurePath` TemplateField s `InsertItemTemplate` contains a Te
 
 From the DetailsView s smart tag, choose the Edit Templates option and then select the `BrochurePath` TemplateField s `InsertItemTemplate` from the drop-down list. Remove the TextBox and then drag a FileUpload control from the Toolbox into the template. Set the FileUpload control s `ID` to `BrochureUpload`. Similarly, add a FileUpload control to the `Picture` TemplateField s `InsertItemTemplate`. Set this FileUpload control s `ID` to `PictureUpload`.
 
-
 [![Add a FileUpload Control to the InsertItemTemplate](including-a-file-upload-option-when-adding-a-new-record-vb/_static/image8.gif)](including-a-file-upload-option-when-adding-a-new-record-vb/_static/image13.png)
 
 **Figure 8**: Add a FileUpload Control to the `InsertItemTemplate` ([Click to view full-size image](including-a-file-upload-option-when-adding-a-new-record-vb/_static/image14.png))
 
-
 After making these additions, the two TemplateField s declarative syntax will be:
-
 
 [!code-aspx[Main](including-a-file-upload-option-when-adding-a-new-record-vb/samples/sample5.aspx)]
 
@@ -164,13 +139,11 @@ If a user uploads an incorrect file type, we need to cancel the insert and displ
 > [!NOTE]
 > Ideally, the `CategoryName` and `Description` BoundFields would be converted to TemplateFields and their inserting interfaces customized. The `Description` inserting interface, for example, would likely be better suited through a multi-line textbox. And since the `CategoryName` column does not accept `NULL` values, a RequiredFieldValidator should be added to ensure the user provides a value for the new category s name. These steps are left as an exercise to the reader. Refer back to [Customizing the Data Modification Interface](../editing-inserting-and-deleting-data/customizing-the-data-modification-interface-vb.md) for an in-depth look at augmenting the data modification interfaces.
 
-
 ## Step 6: Saving the Uploaded Brochure to the Web Server s File System
 
 When the user enters the values for a new category and clicks the Insert button, a postback occurs and the inserting workflow unfolds. First, the DetailsView s [`ItemInserting` event](https://msdn.microsoft.com/library/system.web.ui.webcontrols.detailsview.iteminserting.aspx) fires. Next, the ObjectDataSource s `Insert()` method is invoked, which results in a new record being added to the `Categories` table. After that, the DetailsView s [`ItemInserted` event](https://msdn.microsoft.com/library/system.web.ui.webcontrols.detailsview.iteminserted.aspx) fires.
 
 Before the ObjectDataSource s `Insert()` method is invoked, we must first ensure that the appropriate file types were uploaded by the user and then save the brochure PDF to the web server s file system. Create an event handler for the DetailsView s `ItemInserting` event and add the following code:
-
 
 [!code-vb[Main](including-a-file-upload-option-when-adding-a-new-record-vb/samples/sample6.vb)]
 
@@ -179,16 +152,13 @@ The event handler starts by referencing the `BrochureUpload` FileUpload control 
 > [!NOTE]
 > Relying on the uploaded file s extension is not a sure-fire technique for ensuring that the uploaded file is a PDF document. The user could have a valid PDF document with the extension `.Brochure`, or could have taken a non-PDF document and given it a `.pdf` extension. The file s binary content would need to be programmatically examined in order to more conclusively verify the file type. Such thorough approaches, though, are often overkill; checking the extension is sufficient for most scenarios.
 
-
 As discussed in the [Uploading Files](uploading-files-vb.md) tutorial, care must be taken when saving files to the file system so that one user s upload does not overwrite another s. For this tutorial we will attempt to use the same name as the uploaded file. If there already exists a file in the `~/Brochures` directory with that same file name, however, we'll append a number at the end until a unique name is found. For example, if the user uploads a brochure file named `Meats.pdf`, but there is already a file named `Meats.pdf` in the `~/Brochures` folder, we'll change the saved file name to `Meats-1.pdf`. If that exists, we'll try `Meats-2.pdf`, and so on, until a unique file name is found.
 
 The following code uses the [`File.Exists(path)` method](https://msdn.microsoft.com/library/system.io.file.exists.aspx) to determine if a file already exists with the specified file name. If so, it continues to try new file names for the brochure until no conflict is found.
 
-
 [!code-vb[Main](including-a-file-upload-option-when-adding-a-new-record-vb/samples/sample7.vb)]
 
 Once a valid file name has been found, the file needs to be saved to the file system and the ObjectDataSource s `brochurePath``InsertParameter` value needs to be updated so that this file name is written to the database. As we saw back in the *Uploading Files* tutorial, the file can be saved using the FileUpload control s `SaveAs(path)` method. To update the ObjectDataSource s `brochurePath` parameter, use the `e.Values` collection.
-
 
 [!code-vb[Main](including-a-file-upload-option-when-adding-a-new-record-vb/samples/sample8.vb)]
 
@@ -198,13 +168,11 @@ To store the uploaded picture in the new `Categories` record, we need to assign 
 
 While the `Categories` table allows `NULL` values for the `Picture` column, all categories currently have a picture. Let s force the user to provide a picture when adding a new category through this page. The following code checks to ensure that a picture has been uploaded and that it has an appropriate extension.
 
-
 [!code-vb[Main](including-a-file-upload-option-when-adding-a-new-record-vb/samples/sample9.vb)]
 
 This code should be placed *before* the code from Step 6 so that if there is a problem with the picture upload, the event handler will terminate before the brochure file is saved to the file system.
 
 Assuming that an appropriate file has been uploaded, assign the uploaded binary content to the picture parameter s value with the following line of code:
-
 
 [!code-vb[Main](including-a-file-upload-option-when-adding-a-new-record-vb/samples/sample10.vb)]
 
@@ -212,41 +180,33 @@ Assuming that an appropriate file has been uploaded, assign the uploaded binary 
 
 For completeness, here is the `ItemInserting` event handler in its entirety:
 
-
 [!code-vb[Main](including-a-file-upload-option-when-adding-a-new-record-vb/samples/sample11.vb)]
 
 ## Step 8: Fixing the`DisplayCategoryPicture.aspx`Page
 
 Let s take a moment to test out the inserting interface and `ItemInserting` event handler that was created over the last few steps. Visit the `UploadInDetailsView.aspx` page through a browser and attempt to add a category, but omit the picture, or specify a non-JPG picture or a non-PDF brochure. In any of these cases, an error message will be displayed and the insert workflow cancelled.
 
-
 [![A Warning Message is Displayed If an Invalid File Type is Uploaded](including-a-file-upload-option-when-adding-a-new-record-vb/_static/image9.gif)](including-a-file-upload-option-when-adding-a-new-record-vb/_static/image15.png)
 
 **Figure 9**: A Warning Message is Displayed If an Invalid File Type is Uploaded ([Click to view full-size image](including-a-file-upload-option-when-adding-a-new-record-vb/_static/image16.png))
 
-
 Once you have verified that the page requires a picture to be uploaded and won't accept non-PDF or non-JPG files, add a new category with a valid JPG picture, leaving the Brochure field empty. After clicking the Insert button, the page will postback and a new record will be added to the `Categories` table with the uploaded image s binary contents stored directly in the database. The GridView is updated and shows a row for the newly added category, but, as Figure 10 shows, the new category s picture is not rendered correctly.
-
 
 [![The New Category s Picture is not Displayed](including-a-file-upload-option-when-adding-a-new-record-vb/_static/image10.gif)](including-a-file-upload-option-when-adding-a-new-record-vb/_static/image17.png)
 
 **Figure 10**: The New Category s Picture is not Displayed ([Click to view full-size image](including-a-file-upload-option-when-adding-a-new-record-vb/_static/image18.png))
 
-
 The reason the new picture is not displayed is because the `DisplayCategoryPicture.aspx` page that returns a specified category s picture is configured to process bitmaps that have an OLE header. This 78 byte header is stripped from the `Picture` column s binary contents before they are sent back to the client. But the JPG file we just uploaded for the new category does not have this OLE header; therefore, valid, necessary bytes are being removed from the image s binary data.
 
 Since there are now both bitmaps with OLE headers and JPGs in the `Categories` table, we need to update `DisplayCategoryPicture.aspx` so that it does the OLE header stripping for the original eight categories and bypasses this stripping for the newer category records. In our next tutorial we'll examine how to update an existing record s image, and we'll update all of the old category pictures so that they are JPGs. For now, though, use the following code in `DisplayCategoryPicture.aspx` to strip the OLE headers only for those original eight categories:
-
 
 [!code-vb[Main](including-a-file-upload-option-when-adding-a-new-record-vb/samples/sample12.vb)]
 
 With this change, the JPG image is now rendered correctly in the GridView.
 
-
 [![The JPG Images for New Categories are Correctly Rendered](including-a-file-upload-option-when-adding-a-new-record-vb/_static/image11.gif)](including-a-file-upload-option-when-adding-a-new-record-vb/_static/image19.png)
 
 **Figure 11**: The JPG Images for New Categories are Correctly Rendered ([Click to view full-size image](including-a-file-upload-option-when-adding-a-new-record-vb/_static/image20.png))
-
 
 ## Step 9: Deleting the Brochure in the Face of an Exception
 
@@ -255,7 +215,6 @@ One of the challenges of storing binary data on the web server s file system is 
 Now, what happens if the database is offline, or if there is an error in the `INSERT` SQL statement? Clearly the INSERT will fail, so no new category row will be added to the database. But we still have the uploaded brochure file sitting on the web server s file system! This file needs to be deleted in the face of an exception during the inserting workflow.
 
 As discussed previously in the [Handling BLL- and DAL-Level Exceptions in an ASP.NET Page](../editing-inserting-and-deleting-data/handling-bll-and-dal-level-exceptions-in-an-asp-net-page-vb.md) tutorial, when an exception is thrown from within the depths of the architecture it is bubbled up through the various layers. At the Presentation Layer, we can determine if an exception has occurred from the DetailsView s `ItemInserted` event. This event handler also provides the values of the ObjectDataSource s `InsertParameters`. Therefore, we can create an event handler for the `ItemInserted` event that checks if there was an exception and, if so, deletes the file specified by the ObjectDataSource s `brochurePath` parameter:
-
 
 [!code-vb[Main](including-a-file-upload-option-when-adding-a-new-record-vb/samples/sample13.vb)]
 

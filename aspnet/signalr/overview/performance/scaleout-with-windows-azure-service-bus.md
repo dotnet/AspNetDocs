@@ -62,7 +62,6 @@ Create a new Service Bus namespace, as described in [How to Use Service Bus Topi
 > [!NOTE]
 > Make sure to select the same region for the cloud service and the Service Bus namespace.
 
-
 ## Create the Visual Studio Project
 
 Start Visual Studio. From the **File** menu, click **New Project**.

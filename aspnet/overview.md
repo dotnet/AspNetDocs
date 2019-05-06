@@ -96,10 +96,6 @@ WebHooks are exposed by a large number of services including Dropbox, GitHub, In
 
 [Learn more about WebHooks](webhooks/index.md)
 
-
-
-
-
 <!--
 Create Deployment TOC based on https://www.asp.net/aspnet/overview/deployment
 Copy deployment content map to MVC, WebForms, Web Pages, Web API sections.

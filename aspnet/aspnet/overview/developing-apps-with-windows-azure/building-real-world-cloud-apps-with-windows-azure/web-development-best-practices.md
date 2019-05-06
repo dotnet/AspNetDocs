@@ -17,7 +17,6 @@ by [Mike Wasson](https://github.com/MikeWasson), [Rick Anderson]((https://twitte
 
 > The **Building Real World Cloud Apps with Azure** e-book is based on a presentation developed by Scott Guthrie. It explains 13 patterns and practices that can help you be successful developing web apps for the cloud. For information about the e-book, see [the first chapter](introduction.md).
 
-
 The first three patterns were about setting up an agile development process; the rest are about architecture and code. This one is a collection of web development best practices:
 
 - [Stateless web servers](#stateless) behind a smart load balancer.

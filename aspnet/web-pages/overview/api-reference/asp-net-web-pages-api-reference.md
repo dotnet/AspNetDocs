@@ -27,7 +27,6 @@ by [Tom FitzMacken](https://github.com/tfitzmac)
 > 
 > This tutorial also works with ASP.NET Web Pages 2 and ASP.NET Web Pages 1.0 (except for features marked v2).
 
-
 This page contains reference information for the following:
 
 - [Classes](#Classes)

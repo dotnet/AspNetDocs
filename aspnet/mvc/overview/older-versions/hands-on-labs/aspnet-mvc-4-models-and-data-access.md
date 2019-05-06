@@ -47,7 +47,6 @@ The benefits of using this approach is that the Model remains independent from t
 > 
 > If you wish to explore the whole **Music Store** tutorial application you can find it in [MVC-Music-Store](https://github.com/evilDave/MVC-Music-Store).
 
-
 <a id="Prerequisites"></a>
 
 <a id="Prerequisites"></a>
@@ -83,7 +82,6 @@ This Hands-on Lab is comprised by the following exercises:
 
 > [!NOTE]
 > Each exercise is accompanied by an **End** folder containing the resulting solution you should obtain after completing the exercises. You can use this solution as a guide if you need additional help working through the exercises.
-
 
 Estimated time to complete this lab: **35 minutes**.
 
@@ -180,7 +178,6 @@ In this task, you will create a data model to interact with the database added i
     > [!NOTE]
     > The T4 templates (.tt) run code to generate the entities classes and will overwrite the existing classes with the same name. In this example, the classes &quot;Album&quot;, &quot;Genre&quot; and &quot;Artist&quot; were overwritten with the generated code.
 
-
 <a id="Ex1Task3"></a>
 
 <a id="Task_3_-_Building_the_Application"></a>
@@ -267,7 +264,6 @@ Once the model is generated, you will modify the StoreController to provide the 
 
 > [!NOTE]
 > If you have completed Exercise 1 and have already worked with the Database First approach, you will now learn how to get the same results with a different process. The tasks that are in common with Exercise 1 have been marked to make your reading easier. If you have not completed Exercise 1 but would like to learn the Code First approach, you can start from this exercise and get a full coverage of the topic.
-
 
 <a id="Ex2Task1"></a>
 
@@ -377,7 +373,6 @@ In this task, you will update the StoreController class so that, instead of usin
 > This task is in common with Exercise 1.
 > 
 > If you completed Exercise 1 you will note these steps are the same in both approaches (Database first or Code first). They are different in how the data is linked with the model, but the access to data entities is yet transparent from the controller.
-
 
 1. Open **Controllers\StoreController.cs** and add the following field to the class to hold an instance of the **MusicStoreEntities** class, named **storeDB**:
 

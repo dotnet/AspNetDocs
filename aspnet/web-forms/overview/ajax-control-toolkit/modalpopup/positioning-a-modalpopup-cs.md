@@ -17,7 +17,6 @@ by [Christian Wenz](https://github.com/wenz)
 
 > The ModalPopup control in the AJAX Control Toolkit offers a simple way to create a modal popup using client-side means. However the control does not offer a built-in functionality to position the popup.
 
-
 ## Overview
 
 The ModalPopup control in the AJAX Control Toolkit offers a simple way to create a modal popup using client-side means. However the control does not offer a built-in functionality to position the popup.
@@ -47,7 +46,6 @@ Now all that is left to do is to make the browser call these functions whenever 
 And the `stopMoving()` function comes into play when the popup is closed this can be triggered in the `ModalPopupExtender` control:
 
 [!code-aspx[Main](positioning-a-modalpopup-cs/samples/sample6.aspx)]
-
 
 [![The modal popup appears at the designated position](positioning-a-modalpopup-cs/_static/image2.png)](positioning-a-modalpopup-cs/_static/image1.png)
 

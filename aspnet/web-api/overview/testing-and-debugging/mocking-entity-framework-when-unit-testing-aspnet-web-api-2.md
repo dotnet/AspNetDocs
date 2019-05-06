@@ -114,7 +114,6 @@ Open the StoreAppContext.cs file and make the following highlighted changes. The
 - StoreAppContext class implements IStoreAppContext interface
 - MarkAsModified method is implemented
 
-
 [!code-csharp[Main](mocking-entity-framework-when-unit-testing-aspnet-web-api-2/samples/sample4.cs?highlight=6,14-17)]
 
 Open the ProductController.cs file. Change the existing code to match the highlighted code. These changes break the dependency on StoreAppContext and enable other classes to pass in a different object for the context class. This change will enable you to pass in a test context during unit tests.

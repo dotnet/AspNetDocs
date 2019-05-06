@@ -13,7 +13,6 @@ msc.type: chapter
 
 > The basics of using Entity Framework 5 to display and edit data in an ASP.NET MVC 4 application.
 
-
 - [Creating an Entity Framework Data Model](creating-an-entity-framework-data-model-for-an-asp-net-mvc-application.md)
 - [Implementing Basic CRUD Functionality](implementing-basic-crud-functionality-with-the-entity-framework-in-asp-net-mvc-application.md)
 - [Sorting, Filtering, and Paging](sorting-filtering-and-paging-with-the-entity-framework-in-an-asp-net-mvc-application.md)

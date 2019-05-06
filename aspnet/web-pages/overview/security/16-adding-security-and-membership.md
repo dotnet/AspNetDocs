@@ -37,7 +37,6 @@ by [Tom FitzMacken](https://github.com/tfitzmac)
 > - WebMatrix 3
 > - ASP.NET Web Helpers Library
 
-
 You can set up your website so that users can log into it &#8212; that is, so that the site supports *membership*. This can be useful for many reasons. For example, your site might have pages that should be available only to members. In some cases, you might require users to log in in order to send you feedback or leave a comment.
 
 Even if your website supports membership, users aren't necessarily required to log in before they use some of the pages on the site. Users who aren't logged in are known as *anonymous users*.

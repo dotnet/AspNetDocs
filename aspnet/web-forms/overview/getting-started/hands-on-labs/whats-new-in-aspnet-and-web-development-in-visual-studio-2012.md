@@ -25,7 +25,6 @@ by [Web Camps Team](https://twitter.com/webcamps)
 > 
 > All sample code and snippets are included in the Web Camps Training Kit, available at [https://go.microsoft.com/fwlink/?LinkID=248297&clcid=0x409](https://go.microsoft.com/fwlink/?LinkID=248297&clcid=0x409).
 
-
 <a id="Objectives"></a>
 
 <a id="Objectives"></a>
@@ -325,7 +324,6 @@ One of the best practices in HTML is indenting the nested elements to keep the c
 > [!NOTE]
 > In previous version of Visual Studio, smart indentation was available in the XML editor but not in the HTML editor.
 
-
 1. Make sure that the Indenting configuration on the HTML Editor is set to Smart Indentation. To do that, select the **Tools | Options** menu option and then select the **Text Editor | HTML | Tabs** page in the left pane of the screen. Select the Smart indentation option.
 
     ![HTML Editor settings](whats-new-in-aspnet-and-web-development-in-visual-studio-2012/_static/image33.png "HTML Editor settings")
@@ -427,7 +425,6 @@ In this task, you will discover the new JavaScript validation for the ECMAScript
 > [!NOTE]
 > Visual Studio 2010 implemented ECMAStript3 compliance, while Visual Studio 2012 provides ECMAScript5 compliance.
 
-
 1. Open **ECMA5script5.js** located under the **Scripts\custom** project folder. You will now test validation for ECMAScript5 standard.
 
     [!code-html[Main](whats-new-in-aspnet-and-web-development-in-visual-studio-2012/samples/sample8.html)]
@@ -487,7 +484,6 @@ In this task, you will explore Visual Studio features for XML documentation in J
 
 > [!NOTE]
 > Make sure that GotoDefinition.js has no syntax errors before saving the file.
-
 
 <a id="Exercise4"></a>
 
@@ -669,7 +665,6 @@ In this example, you will learn how to use the **DynamicFolderBundle** class to 
 
 > [!NOTE]
 > Additionally, you can deploy this application to Windows Azure Web Sites following [Appendix B: Publishing an ASP.NET MVC 4 Application using Web Deploy](#AppendixB).
-
 
 <a id="Summary"></a>
 ## Summary

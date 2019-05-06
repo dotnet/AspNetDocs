@@ -19,7 +19,6 @@ by [Tom Dykstra](https://github.com/tdykstra)
 > 
 > For a tutorial that shows deployment features introduced after the RC release of Visual Studio 2012, shows how to deploy SQL Server editions other than SQL Server Compact, and shows how to deploy to Azure App Service Web Apps, see [ASP.NET Web Deployment using Visual Studio](../../deployment/visual-studio-web-deployment/introduction.md).
 
-
 ## Overview
 
 This tutorial shows how to deploy an ASP.NET web application to IIS on the local computer.
@@ -50,7 +49,6 @@ The application will now run in medium trust in IIS even on your local computer.
 
 > [!NOTE]
 > If you are using Entity Framework Code First Migrations, make sure that you have version 5.0 or later installed. In Entity Framework version 4.3, Migrations requires full trust in order to update the database schema.
-
 
 ## Installing IIS and Web Deploy
 

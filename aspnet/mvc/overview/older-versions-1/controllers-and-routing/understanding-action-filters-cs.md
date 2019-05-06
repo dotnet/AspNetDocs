@@ -17,7 +17,6 @@ by [Microsoft](https://github.com/microsoft)
 
 > The goal of this tutorial is to explain action filters. An action filter is an attribute that you can apply to a controller action -- or an entire controller -- that modifies the way in which the action is executed.
 
-
 ## Understanding Action Filters
 
 The goal of this tutorial is to explain action filters. An action filter is an attribute that you can apply to a controller action -- or an entire controller -- that modifies the way in which the action is executed. The ASP.NET MVC framework includes several action filters:
@@ -42,11 +41,9 @@ For example, the Data controller in Listing 1 exposes an action named `Index()` 
 
 If you repeatedly invoke the `Index()` action by entering the URL /Data/Index into the address bar of your browser and hitting the Refresh button multiple times, then you will see the same time for 10 seconds. The output of the `Index()` action is cached for 10 seconds (see Figure 1).
 
-
 [![Cached time](understanding-action-filters-cs/_static/image2.png)](understanding-action-filters-cs/_static/image1.png)
 
 **Figure 01**: Cached time ([Click to view full-size image](understanding-action-filters-cs/_static/image3.png))
-
 
 In Listing 1, a single action filter – the `OutputCache` action filter – is applied to the `Index()` method. If you need, you can apply multiple action filters to the same action. For example, you might want to apply both the `OutputCache` and `HandleError` action filters to the same action.
 
@@ -100,11 +97,9 @@ In order to illustrate how you can build a custom action filter, we'll create a 
 
 In Listing 2, the `OnActionExecuting()`, `OnActionExecuted()`, `OnResultExecuting()`, and `OnResultExecuted()` methods all call the `Log()` method. The name of the method and the current route data is passed to the `Log()` method. The `Log()` method writes a message to the Visual Studio Output window (see Figure 2).
 
-
 [![Writing to the Visual Studio Output window](understanding-action-filters-cs/_static/image5.png)](understanding-action-filters-cs/_static/image4.png)
 
 **Figure 02**: Writing to the Visual Studio Output window ([Click to view full-size image](understanding-action-filters-cs/_static/image6.png))
-
 
 The Home controller in Listing 3 illustrates how you can apply the Log action filter to an entire controller class. Whenever any of the actions exposed by the Home controller are invoked – either the `Index()` method or the `About()` method – the stages of processing the action are logged to the Visual Studio Output window.
 

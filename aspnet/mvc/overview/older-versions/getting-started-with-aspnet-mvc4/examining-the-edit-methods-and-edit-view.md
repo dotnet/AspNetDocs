@@ -16,7 +16,6 @@ by [Rick Anderson]((https://twitter.com/RickAndMSFT))
 > > [!NOTE]
 > > An updated version of this tutorial is available [here](../../getting-started/introduction/getting-started.md) that uses ASP.NET MVC 5 and Visual Studio 2013. It's more secure, much simpler to follow and demonstrates more features.
 
-
 In this section, you'll examine the generated action methods and views for the movie controller. Then you'll add a custom search page.
 
 Run the application and browse to the `Movies` controller by appending */Movies* to the URL in the address bar of your browser. Hold the mouse pointer over an **Edit** link to see the URL that it links to.
@@ -73,7 +72,6 @@ If the posted values aren't valid, they are redisplayed in the form. The `Html.V
 
 > [!NOTE]
 > to support jQuery validation for non-English locales that use a comma (&quot;,&quot;) for a decimal point, you must include *globalize.js* and your specific *cultures/globalize.cultures.js* file(from [https://github.com/jquery/globalize](https://github.com/jquery/globalize) ) and JavaScript to use `Globalize.parseFloat`. The following code shows the modifications to the Views\Movies\Edit.cshtml file to work with the &quot;fr-FR&quot; culture:
-
 
 [!code-cshtml[Main](examining-the-edit-methods-and-edit-view/samples/sample7.cshtml)]
 

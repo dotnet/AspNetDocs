@@ -13,7 +13,6 @@ msc.type: chapter
 
 > The basics of building an ASP.NET MVC Web application using Microsoft Visual Web Developer 2010 Express.
 
-
 - [Getting Started with ASP.NET MVC 3 (C#)](cs/index.md)
 
     - [Intro to ASP.NET MVC 3 (C#)](cs/intro-to-aspnet-mvc-3.md)

@@ -139,7 +139,6 @@ Next, update the `BooksController` class to return `BookDto` instances. We'll us
 > [!NOTE]
 > I deleted the `PutBook`, `PostBook`, and `DeleteBook` methods, because they aren't needed for this tutorial.
 
-
 Now if you run the application and request /api/books/1, the response body should look like this:
 
 [!code-json[Main](create-a-rest-api-with-attribute-routing/samples/sample10.json)]

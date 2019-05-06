@@ -13,7 +13,6 @@ msc.type: chapter
 
 > How to build the NerdDinner.com website using ASP.NET MVC 1. For the ASP.NET MVC version, please visit [NerdDinner on GitHub](https://github.com/AspNetMVPSamples/NerdDinner).
 
-
 - [Introducing the NerdDinner Tutorial](introducing-the-nerddinner-tutorial.md)
 - [Create a New ASP.NET MVC Project](create-a-new-aspnet-mvc-project.md)
 - [Create a Database](create-a-database.md)

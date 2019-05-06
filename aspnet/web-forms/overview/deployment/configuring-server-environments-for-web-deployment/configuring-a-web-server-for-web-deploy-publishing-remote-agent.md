@@ -25,7 +25,6 @@ by [Jason Lee](https://github.com/jrjlee)
 > 
 > For more information on the key features, advantages, and disadvantages of these approaches, see [Choosing the Right Approach to Web Deployment](choosing-the-right-approach-to-web-deployment.md).
 
-
 ## Is the Web Deploy Remote Agent the Right Approach for You?
 
 Yes, if the user who will deploy the content can supply the credentials of an administrator on the destination server. This approach is often desirable in these types of scenarios:
@@ -58,7 +57,6 @@ This topic will show you how to perform each of these procedures. The tasks and 
 > [!NOTE]
 > For more information on joining computers to a domain, see [Joining Computers to the Domain and Logging On](https://technet.microsoft.com/library/cc725618(v=WS.10).aspx). For more information on configuring static IP addresses, see [Configure a Static IP Address](https://technet.microsoft.com/library/cc754203(v=ws.10).aspx). The Remote Agent service is supported by IIS 6 onwards and does not require you to be joined to a domain. However, the steps in this tutorial were developed and tested on IIS 7.5 and procedures for other versions may vary.
 
-
 ## Install Products and Components
 
 This section will guide you through installing the required products and components on the web server. Before you begin, a good practice is to run Windows Update to ensure that your server is fully up to date.
@@ -72,7 +70,6 @@ In this case, you need to install these things:
 
 > [!NOTE]
 > This walkthrough describes the use of the Web Platform Installer to install and configure the required components. Although you don't have to use the Web Platform Installer, it simplifies the installation process by automatically detecting dependencies and ensuring that you always get the latest product versions. For more information, see [Microsoft Web Platform Installer 3.0](https://go.microsoft.com/?linkid=9805118).
-
 
 **To install the required products and components**
 
@@ -178,7 +175,6 @@ The most common approach is to assign permissions to the local **IIS\_IUSRS** gr
 
 > [!NOTE]
 > For more information on application pool identities in IIS 7.5, see [Application Pool Identities](https://go.microsoft.com/?linkid=9805123).
-
 
 **To configure folder permissions for an IIS website**
 

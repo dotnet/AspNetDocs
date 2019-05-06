@@ -15,7 +15,6 @@ by [Microsoft](https://github.com/microsoft)
 
 > In this tutorial, you learn how you can dramatically improve the performance of your ASP.NET MVC web applications by taking advantage of output caching. You learn how to cache the result returned from a controller action so that the same content does not need to be created each and every time a new user invokes the action.
 
-
 The goal of this tutorial is to explain how you can dramatically improve the performance of an ASP.NET MVC application by taking advantage of the output cache. The output cache enables you to cache the content returned by a controller action. That way, the same content does not need to be generated each and every time the same controller action is invoked.
 
 Imagine, for example, that your ASP.NET MVC application displays a list of database records in a view named Index. Normally, each and every time that a user invokes the controller action that returns the Index view, the set of database records must be retrieved from the database by executing a database query.
@@ -30,9 +29,7 @@ You enable output caching by adding an &lt;OutputCache&gt; attribute to either a
 
 [!code-vb[Main](improving-performance-with-output-caching-vb/samples/sample1.vb)]
 
-
 In the Beta versions of ASP.NET MVC, output caching does not work for a URL like [http://www.MySite.com/](http://www.mysite.com/). Instead, you must enter a URL like [http://www.MySite.com/Home/Index](http://www.mysite.com/Home/Index).
-
 
 In Listing 1, the output of the Index() action is cached for 10 seconds. If you prefer, you can specify a much longer cache duration. For example, if you want to cache the output of a controller action for one day then you can specify a cache duration of 86400 seconds (60 seconds \* 60 minutes \* 24 hours).
 
@@ -73,7 +70,6 @@ You can set the Location property to any one of the following values:
 > · None
 > 
 > · ServerAndClient
-
 
 By default, the Location property has the value Any. However, there are situations in which you might want to cache only on the browser or only on the server. For example, if you are caching information that is personalized for each user then you should not cache the information on the server. If you are displaying different information to different users then you should cache the information only on the client.
 
@@ -130,7 +126,6 @@ You can set the VaryByParam property to the following values:
 > none = Never create different cached versions
 > 
 > Semicolon list of parameters = Create different cached versions whenever any of the form or query string parameters in the list varies
-
 
 #### Creating a Cache Profile
 

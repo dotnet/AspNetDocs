@@ -15,7 +15,6 @@ by [Microsoft](https://github.com/microsoft)
 
 > Learn how to add custom routes to an ASP.NET MVC application. In this tutorial, you learn how to modify the default route table in the Global.asax file.
 
-
 In this tutorial, you learn how to add a custom route to an ASP.NET MVC application. You learn how to modify the default route table in the Global.asax file with a custom route.
 
 In ASP.NET MVC applications, the default route table will work just fine. However, you might discover that you have specialized routing needs. In that case, you can create a custom route.
@@ -54,11 +53,9 @@ Notice that the Entry() method in Listing 2 accepts a parameter of type DateTime
 
 **Figure 1 - Error from converting parameter**
 
-
 [![The New Project dialog box](creating-custom-routes-vb/_static/image1.jpg)](creating-custom-routes-vb/_static/image1.png)
 
 **Figure 01**: Error from converting parameter ([Click to view full-size image](creating-custom-routes-vb/_static/image2.png))
-
 
 ## Summary
 

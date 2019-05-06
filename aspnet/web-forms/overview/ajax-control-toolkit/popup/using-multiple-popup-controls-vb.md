@@ -17,7 +17,6 @@ by [Christian Wenz](https://github.com/wenz)
 
 > The PopupControl extender in the AJAX Control Toolkit offers an easy way to trigger a popup when any other control is activated. It is also possible to use more than one popup control on one page.
 
-
 ## Overview
 
 The PopupControl extender in the AJAX Control Toolkit offers an easy way to trigger a popup when any other control is activated. It is also possible to use more than one popup control on one page.
@@ -41,7 +40,6 @@ Now extend each of the two text boxes with a `PopupControlExtender`. The `Target
 [!code-aspx[Main](using-multiple-popup-controls-vb/samples/sample4.aspx)]
 
 Now whenever you click within a text field, a calendar appears below the field, allowing you to select a date. (Getting the selected date back into the text boxes will be covered in a different tutorial.)
-
 
 [![The Calendar appears when the user clicks into the textbox](using-multiple-popup-controls-vb/_static/image2.png)](using-multiple-popup-controls-vb/_static/image1.png)
 

@@ -17,7 +17,6 @@ by [Patrick Fletcher](https://github.com/pfletcher)
 
 > This topic describes how to design for, measure, and improve performance in a SignalR application.
 
-
 For a recent presentation on SignalR performance and scaling, see [Scaling the Real-time Web with ASP.NET SignalR](https://channel9.msdn.com/Events/Build/2013/3-502).
 
 This topic contains the following sections:

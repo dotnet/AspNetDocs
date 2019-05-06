@@ -15,7 +15,6 @@ by [Microsoft](https://github.com/microsoft)
 
 > Learn how to add a new action to an ASP.NET MVC controller. Learn about the requirements for a method to be an action.
 
-
 The goal of this tutorial is to explain how you can create a new controller action. You learn about the requirements of an action method. You also learn how to prevent a method from being exposed as an action.
 
 ## Adding an Action to a Controller
@@ -49,7 +48,6 @@ If you need to create a public method in a controller class and you don't want t
 [!code-vb[Main](creating-an-action-vb/samples/sample2.vb)]
 
 If you attempt to invoke the CompanySecrets() controller action by typing /Work/CompanySecrets into the address bar of your browser then you'll get the error message in Figure 1.
-
 
 [![Invoking a NonAction method](creating-an-action-vb/_static/image1.jpg)](creating-an-action-vb/_static/image1.png)
 

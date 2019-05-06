@@ -19,7 +19,6 @@ msc.type: content
 > - [SQL Server Whitepapers](#sql)
 > - [General Whitepapers](#general)
 
-
 <a id="aspnet4"></a>
 ## ASP.NET 4
 

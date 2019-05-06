@@ -11,7 +11,6 @@ msc.type: authoredcontent
 ---
 # Retrieving and displaying data with model binding and web forms
 
-
 > This tutorial series demonstrates basic aspects of using model binding with an ASP.NET Web Forms project. Model binding makes data interaction more straight-forward than dealing with data source objects (such as ObjectDataSource or SqlDataSource). This series starts with introductory material and moves to more advanced concepts in later tutorials.
 > 
 > The model binding pattern works with any data access technology. In this tutorial, you will use Entity Framework, but you could use the data access technology that is most familiar to you. From a data-bound server control, such as a GridView, ListView, DetailsView, or FormView control, you specify the names of the methods to use for selecting, updating, deleting, and creating data. In this tutorial, you will specify a value for the SelectMethod. 
@@ -28,7 +27,6 @@ msc.type: authoredcontent
 > - Microsoft Visual Studio 2017 or Microsoft Visual Studio Community 2017
 >   
 > This tutorial also works with Visual Studio 2012 and Visual Studio 2013, but there are some differences in the user interface and project template.
-
 
 ## What you'll build
 
@@ -90,7 +88,6 @@ In this tutorial, you'll:
    4. For the web form's master page, select **Site.Master**.
    
    5. Select **OK**.
-   
 
 ## Add the data model
 

@@ -83,7 +83,6 @@ SignalR performance counters are used to monitor your app's performance in an Az
 
 15. Repeat the previous step for the *SignalRPerfCounterInstall.cmd* file.
 
-
 16. Right-click on the *SignalRPerfCounterInstall.cmd* file and select **Open With**. In the dialog that appears, select **Binary Editor** and select **OK**.
 
     ![Open with Binary Editor](using-signalr-performance-counters-in-an-azure-web-role/_static/image9.png)

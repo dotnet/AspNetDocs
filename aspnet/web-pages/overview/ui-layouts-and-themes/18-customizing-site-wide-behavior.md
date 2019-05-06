@@ -34,7 +34,6 @@ by [Tom FitzMacken](https://github.com/tfitzmac)
 > 
 > This tutorial also works with ASP.NET Web Pages 3 and Visual Studio 2013 (or Visual Studio Express 2013 for Web), except you cannot use the ASP.NET Web Helpers Library.
 
-
 <a id="Adding_Website_Startup_Code"></a>
 ## Adding Website Startup Code for ASP.NET Web Pages
 

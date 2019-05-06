@@ -13,5 +13,4 @@ msc.type: chapter
 
 > Advanced topics for programming ASP.NET Web Forms applications, including Internationalization, accessibility, and extensibility.
 
-
 - [ASP.NET Web Forms Connection Resiliency and Command Interception](aspnet-web-forms-connection-resiliency-and-command-interception.md)

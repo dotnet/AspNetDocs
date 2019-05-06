@@ -24,7 +24,6 @@ by [Mike Wasson](https://github.com/MikeWasson)
 > - [WCF Data Services Client Library](https://msdn.microsoft.com/library/cc668772.aspx)
 > - Web API 2. (The example OData service is built using Web API 2, but the client application does not depend on Web API.)
 
-
 In this tutorial, I'll walk through creating a client application that calls an OData service. The OData service exposes the following entities:
 
 - `Product`
@@ -51,7 +50,6 @@ Next, open another instance of Visual Studio and create a console application pr
 
 > [!NOTE]
 > The remaining steps refer the console project.
-
 
 In Solution Explorer, right-click **References** and select **Add Service Reference**.
 
@@ -195,7 +193,6 @@ The update is performed when you call **SaveChanges**. By default, WCF sends an 
 
 > [!NOTE]
 > Why PATCH versus MERGE? The original HTTP 1.1 specification ([RCF 2616](http://tools.ietf.org/html/rfc2616)) did not define any HTTP method with "partial update" semantics. To support partial updates, the OData specification defined the MERGE method. In 2010, [RFC 5789](http://tools.ietf.org/html/rfc5789) defined the PATCH method for partial updates. You can read some of the history in this [blog post](https://blogs.msdn.com/b/astoriateam/archive/2008/05/20/merge-vs-replace-semantics-for-update-operations.aspx) on the WCF Data Services Blog. Today, PATCH is preferred over MERGE. The OData controller created by the Web API scaffolding supports both methods.
-
 
 If you want to replace the entire entity (PUT semantics), specify the **ReplaceOnUpdate** option. This causes WCF to send an HTTP PUT request.
 

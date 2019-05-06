@@ -29,7 +29,6 @@ by [Mike Wasson](https://github.com/MikeWasson)
 > - OData Version 3
 > - Entity Framework 6
 
-
 ## Example: Rating a Product
 
 In this example, we want to let users rate products, and then expose the average ratings for each product. On the database, we will store a list of ratings, keyed to products.

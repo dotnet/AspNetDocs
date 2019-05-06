@@ -13,7 +13,6 @@ msc.type: chapter
 
 > These tutorials look at updating, deleting, and inserting batches of data using transactions.
 
-
 - [Wrapping Database Modifications within a Transaction (C#)](wrapping-database-modifications-within-a-transaction-cs.md)
 - [Batch Updating (C#)](batch-updating-cs.md)
 - [Batch Deleting (C#)](batch-deleting-cs.md)

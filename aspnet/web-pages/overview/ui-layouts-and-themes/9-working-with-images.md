@@ -39,7 +39,6 @@ by [Tom FitzMacken](https://github.com/tfitzmac)
 > 
 > This tutorial also works with WebMatrix 3.
 
-
 <a id="Adding_an_Image"></a>
 ## Adding an Image to a Web Page Dynamically
 
@@ -127,7 +126,6 @@ The previous example showed you how to display an image dynamically, but it work
 > 
 > A GUID (globally-unique ID) is an identifier that's usually rendered in a format like this: `936DA01F-9ABD-4d9d-80C7-02AF85C822A8`. The numbers and letters (from A-F) differ for each GUID, but they all follow the pattern of using groups of 8-4-4-4-12 characters. (Technically, a GUID is a 16-byte/128-bit number.) When you need a GUID, you can call specialized code that generates a GUID for you. The idea behind GUIDs is that between the enormous size of the number (3.4 x 10<sup>38</sup>) and the algorithm for generating it, the resulting number is virtually guaranteed to be one of a kind. GUIDs therefore are a good way to generate names for things when you must guarantee that you won't use the same name twice. The downside, of course, is that GUIDs aren't particularly user friendly, so they tend to be used when the name is used only in code.
 
-
 <a id="Resizing_an_Image"></a>
 ## Resizing an Image
 
@@ -212,7 +210,6 @@ Instead of using text for a watermark, you can use another image. People sometim
 
 <a id="Additional_Resources"></a>
 ## Additional Resources
-
 
 [Working with Files in an ASP.NET Web Pages Site](https://go.microsoft.com/fwlink/?LinkId=202896)
 

@@ -31,7 +31,6 @@ by [Web Camps Team](https://twitter.com/webcamps)
 > 
 > All sample code and snippets are included in the Web Camps Training Kit, available at [https://go.microsoft.com/fwlink/?LinkID=248297&clcid=0x409](https://go.microsoft.com/fwlink/?LinkID=248297&clcid=0x409).
 
-
 <a id="Objectives"></a>
 
 <a id="Objectives"></a>
@@ -67,7 +66,6 @@ This hands-on lab includes the following exercises:
 
 > [!NOTE]
 > Each exercise is accompanied by a starting solution, located in the Begin folder of the exercise, that allows you to follow each exercise independently of the others. Inside the source code for an exercise, you will also find an End folder containing a Visual Studio solution with the code that results from completing the steps in the corresponding exercise. You can use these solutions as guidance if you need additional help as you work through this hands-on lab.
-
 
 Estimated time to complete this lab: **30 minutes**.
 

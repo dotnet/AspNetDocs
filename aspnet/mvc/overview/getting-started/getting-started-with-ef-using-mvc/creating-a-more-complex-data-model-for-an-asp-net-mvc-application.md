@@ -56,9 +56,7 @@ The [DataType](https://msdn.microsoft.com/library/system.componentmodel.dataanno
 
 The `DisplayFormat` attribute is used to explicitly specify the date format:
 
-
 [!code-csharp[Main](creating-a-more-complex-data-model-for-an-asp-net-mvc-application/samples/sample2.cs)]
-
 
 The `ApplyFormatInEditMode` setting specifies that the specified formatting should also be applied when the value is displayed in a text box for editing. (You might not want that for some fields — for example, for currency values, you might not want the currency symbol in the text box for editing.)
 

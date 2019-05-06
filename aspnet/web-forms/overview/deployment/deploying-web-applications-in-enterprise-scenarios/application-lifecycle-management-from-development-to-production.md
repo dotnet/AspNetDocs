@@ -22,7 +22,6 @@ by [Jason Lee](https://github.com/jrjlee)
 > > [!NOTE]
 > > For the sake of simplicity, this topic doesn't discuss updating databases as part of the deployment process. However, making incremental updates to databases features is a requirement of many enterprise deployment scenarios, and you can find guidance on how to accomplish this later in this tutorial series. For more information, see [Deploying Database Projects](../web-deployment-in-the-enterprise/deploying-database-projects.md).
 
-
 ## Overview
 
 The deployment process illustrated here is based on the Fabrikam, Inc. deployment scenario described in [Enterprise Web Deployment: Scenario Overview](enterprise-web-deployment-scenario-overview.md). You should read the scenario overview before you study this topic. Essentially, the scenario examines how an organization manages the deployment of a reasonably complex web application, the [Contact Manager solution](../web-deployment-in-the-enterprise/the-contact-manager-solution.md), through various phases in a typical enterprise environment.
@@ -88,7 +87,6 @@ To run the deployment, a user executes the *Publish.proj* file using MSBuild or 
 > The way these custom project files work is independent of the mechanism you use to invoke MSBuild. For example, you can use the MSBuild command line directly, as described in [Understanding the Project File](../web-deployment-in-the-enterprise/understanding-the-project-file.md). You can run the project files from a command file, as described in [Create and Run a Deployment Command File](../web-deployment-in-the-enterprise/creating-and-running-a-deployment-command-file.md). Alternatively, you can run the project files from a build definition in TFS, as described in [Creating a Build Definition that Supports Deployment](../configuring-team-foundation-server-for-web-deployment/creating-a-build-definition-that-supports-deployment.md).  
 > In each case the end result is the same&#x2014;MSBuild executes the merged project file and deploys your solution to the target environment. This provides you with a great deal of flexibility in how you trigger your publishing process.
 
-
 Once he has created the custom project files, Matt adds them to a solution folder and checks them into source control.
 
 ### Create Build Definitions
@@ -119,15 +117,12 @@ The end result is that if the solution builds successfully and passes unit tests
 
 The **DeployToTest** build definition supplies these arguments to MSBuild:
 
-
 [!code-console[Main](application-lifecycle-management-from-development-to-production/samples/sample1.cmd)]
-
 
 The **DeployOnBuild=true** and **DeployTarget=package** properties are used when Team Build builds the projects within the solution. When the project is a web application project, these properties instruct MSBuild to create a web deployment package for the project. The **TargetEnvPropsFile** property tells the *Publish.proj* file where to find the environment-specific project file to import.
 
 > [!NOTE]
 > For a detailed walkthrough on how to create a build definition like this, see [Creating a Build Definition that Supports Deployment](../configuring-team-foundation-server-for-web-deployment/creating-a-build-definition-that-supports-deployment.md).
-
 
 The *Publish.proj* file contains targets that build each project in the solution. However, it also includes conditional logic that skips these build targets if you're executing the file in Team Build. This lets you take advantage of the additional build functionality that Team Build offers, like the ability to run unit tests. If the solution build or the unit tests fail, the *Publish.proj* file will not be executed and the application will not be deployed.
 
@@ -158,9 +153,7 @@ This is the high-level process for a deployment to the staging environment:
 
 The **DeployToStaging** build definition supplies these arguments to MSBuild:
 
-
 [!code-console[Main](application-lifecycle-management-from-development-to-production/samples/sample2.cmd)]
-
 
 The **TargetEnvPropsFile** property tells the *Publish.proj* file where to find the environment-specific project file to import. The **OutputRoot** property overrides the built-in value and indicates the location of the build folder that contains the resources you want to deploy. When Rob queues the build, he uses the **Parameters** tab to provide an updated value for the **OutputRoot** property.
 
@@ -169,24 +162,19 @@ The **TargetEnvPropsFile** property tells the *Publish.proj* file where to find 
 > [!NOTE]
 > For more information on how to create a build definition like this, see [Deploy a Specific Build](../configuring-team-foundation-server-for-web-deployment/deploying-a-specific-build.md).
 
-
 The **DeployToStaging-WhatIf** build definition contains the same deployment logic as the **DeployToStaging** build definition. However, it includes the additional argument **WhatIf=true**:
 
-
 [!code-console[Main](application-lifecycle-management-from-development-to-production/samples/sample3.cmd)]
-
 
 Within the *Publish.proj* file, the **WhatIf** property indicates that all deployment resources should be published in "what if" mode. In other words, log files are generated as if the deployment had gone ahead, but nothing is actually changed in the destination environment. This lets you evaluate the impact of a proposed deployment&#x2014;in particular, what will get added, what will get updated, and what will get deleted&#x2014;before you actually make any changes.
 
 > [!NOTE]
 > For more information on how to configure "what if" deployments, see [Performing a "What If" Deployment](../advanced-enterprise-web-deployment/performing-a-what-if-deployment.md).
 
-
 Once you've deployed your application to the primary web server in the staging environment, the WFF will automatically synchronize the application across all the servers in the server farm.
 
 > [!NOTE]
 > For more information on configuring the WFF to synchronize web servers, see [Create a Server Farm with the Web Farm Framework](../configuring-server-environments-for-web-deployment/creating-a-server-farm-with-the-web-farm-framework.md).
-
 
 ## Deployment to Production
 

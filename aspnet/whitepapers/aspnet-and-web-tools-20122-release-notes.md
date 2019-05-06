@@ -13,7 +13,6 @@ msc.type: content
 
 > This document describes the release of ASP.NET and Web Tools 2012.2. It is an update to Visual Studio Web Tooling and ASP.NET.
 
-
 - [Installation Notes](#_Installation)
 - [Documentation](#_Documentation)
 - [Support](#_Support)

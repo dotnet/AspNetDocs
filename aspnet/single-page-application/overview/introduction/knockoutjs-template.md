@@ -17,7 +17,6 @@ by [Mike Wasson](https://github.com/MikeWasson)
 > 
 > [Download ASP.NET and Web Tools 2012.2](https://go.microsoft.com/fwlink/?LinkId=282650)
 
-
 The ASP.NET and Web Tools 2012.2 update includes a Single-Page Application (SPA) template for ASP.NET MVC 4. This template is designed to get you started quickly building interactive client-side web apps.
 
 "Single-page application" (SPA) is the general term for a web application that loads a single HTML page and then updates the page dynamically, instead of loading new pages. After the initial page load, the SPA talks with the server through AJAX requests.

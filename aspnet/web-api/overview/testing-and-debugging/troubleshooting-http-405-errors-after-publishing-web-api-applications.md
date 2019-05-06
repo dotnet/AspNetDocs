@@ -19,7 +19,6 @@ msc.type: authoredcontent
 > - [Internet Information Services (IIS)](https://www.iis.net/) (version 7 or later)
 > - [Web API](../../index.md) 
 
-
 Web API applications typically use several common HTTP verbs: GET, POST, PUT, DELETE, and sometimes PATCH. That being said, developers may run into situations where those verbs are implemented by another IIS module on their production server, which leads to a situation where a Web API controller that works correctly in Visual Studio or on a development server will return an HTTP 405 error when it is deployed to a production server. Fortunately this problem is easily resolved, but the resolution warrants an explanation of why the problem is occurring.
 
 ## What causes HTTP 405 errors
@@ -52,18 +51,13 @@ However, when an HTTP method is configured for use on the server, but it has bee
 
 The following example HTTP request and response illustrate a situation where an HTTP client is attempting to PUT value to a Web API application on a web server, and the server returns an HTTP error which states that the PUT method is not allowed:
 
-
 HTTP Request:
-
 
 [!code-console[Main](troubleshooting-http-405-errors-after-publishing-web-api-applications/samples/sample1.cmd)]
 
-
 HTTP Response:
 
-
 [!code-console[Main](troubleshooting-http-405-errors-after-publishing-web-api-applications/samples/sample2.cmd)]
-
 
 In this example, the HTTP client sent a valid JSON request to the URL for a Web API application on a web server, but the server returned an HTTP 405 error message which indicates that the PUT method was not allowed for the URL. In contrast, if the request URI did not match a route for the Web API application, the server would return an HTTP 404 ***Not Found*** error.
 

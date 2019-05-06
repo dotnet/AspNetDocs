@@ -17,7 +17,6 @@ msc.type: content
 > 
 > Last updated 4/3/2014
 
-
 The topic contains the following sections:
 
 - [Getting Started with Data Access in ASP.NET](#gettingstarted)
@@ -68,7 +67,6 @@ The topic contains the following sections:
 <a id="cf"></a>
 
 ### Using Entity Framework Code First
-  
 
 The following tutorials offer downloadable sample applications:
 
@@ -88,7 +86,6 @@ See also [Books about the Entity Framework](#efbooks) and [Additional Entity Fra
 <a id="efcfmigrations"></a>
 
 ### Using Entity Framework Code First Migrations
-  
 
 Most of the Code First tutorials listed above cover migrations. See also the following resources.
 

@@ -22,7 +22,6 @@ Integrated Windows authentication enables users to log in with their Windows cre
 > [!NOTE]
 > If your application is hosted on Azure and you have an on-premise Active Directory domain, consider federating your on-premise AD with Azure Active Directory. That way, users can log in with their on-premise credentials, but the authentication is performed by Azure AD. For more information, see [Azure Authentication](../../../visual-studio/overview/2012/windows-azure-authentication.md).
 
-
 To create an application that uses Integrated Windows authentication, select the "Intranet Application" template in the MVC 4 project wizard. This project template puts the following setting in the Web.config file:
 
 [!code-xml[Main](integrated-windows-authentication/samples/sample1.xml)]

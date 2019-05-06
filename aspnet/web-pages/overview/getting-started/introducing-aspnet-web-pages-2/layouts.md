@@ -21,7 +21,6 @@ by [Tom FitzMacken](https://github.com/tfitzmac)
 > - How to combine layout pages with dynamic content.
 > - How to pass values to a layout page.
 
-
 ## About Layouts
 
 The pages you've created so far have all been complete, standalone pages. They all belong to the same site, but they don't have any common elements or a standard look.
@@ -161,7 +160,6 @@ If you want, view the page source in the browser. You can see that the `<title>`
 > You can pass any number of values by using the `Page` object. If you wanted to pass movie information to the layout page, you could pass values by using something like `Page.MovieTitle` and `Page.Genre` and `Page.MovieYear`. (Or any other names that you invented to store the information.) The only requirement — which is probably obvious — is that you have to use the same names in the content page and the layout page.
 > 
 > The information you pass by using the `Page` object isn't limited to just text to display on the layout page. You can pass a value to the layout page, and then code in the layout page can use the value to decide whether to display a section of the page, what *.css* file to use, and so on. The values you pass in the `Page` object are like any other values that you use in code. It's just that the values originate in the content page and are passed to the layout page.
-
 
 Open the *AddMovie.cshtml* page and add a line to the top of the code that provides a title for the *AddMovie.cshtml* page:
 

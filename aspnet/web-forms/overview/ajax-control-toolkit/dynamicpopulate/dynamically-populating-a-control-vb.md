@@ -17,7 +17,6 @@ by [Christian Wenz](https://github.com/wenz)
 
 > The DynamicPopulate control in the ASP.NET AJAX Control Toolkit calls a web service (or page method) and fills the resulting value into a target control on the page, without a page refresh.
 
-
 ## Overview
 
 The `DynamicPopulate` control in the ASP.NET AJAX Control Toolkit calls a web service (or page method) and fills the resulting value into a target control on the page, without a page refresh. This tutorial shows how to set this up.
@@ -58,7 +57,6 @@ As you can see, the control requires some information but putting everything int
 [!code-aspx[Main](dynamically-populating-a-control-vb/samples/sample5.aspx)]
 
 Run the ASP.NET page in the browser and click on the button; you will receive the current date in month-day-year format.
-
 
 [![A click on the button retrieves the date from the server](dynamically-populating-a-control-vb/_static/image2.png)](dynamically-populating-a-control-vb/_static/image1.png)
 

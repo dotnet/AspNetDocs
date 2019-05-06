@@ -13,5 +13,4 @@ msc.type: chapter
 
 > SignalR documentation - advanced topics.
 
-
 - [Dependency Injection in SignalR](dependency-injection.md)

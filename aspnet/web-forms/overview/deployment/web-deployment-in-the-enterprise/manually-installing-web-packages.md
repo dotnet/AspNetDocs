@@ -23,7 +23,6 @@ by [Jason Lee](https://github.com/jrjlee)
 > 
 > In these scenarios, your only option may be to port the web package onto the destination server and manually import it into IIS. Although this approach precludes automated deployment, it's still a highly effective technique for publishing a web application&#x2014;you simply copy a single zip file to your web server and use a wizard to guide you through the import process.
 
-
 This topic forms part of a series of tutorials based around the enterprise deployment requirements of a fictional company named Fabrikam, Inc. This tutorial series uses a sample solution&#x2014;the [Contact Manager solution](the-contact-manager-solution.md)&#x2014;to represent a web application with a realistic level of complexity, including an ASP.NET MVC 3 application, a Windows Communication Foundation (WCF) service, and a database project.
 
 ## Task Overview
@@ -38,7 +37,6 @@ This topic will show you how to perform these procedures. The tasks and walkthro
 
 > [!NOTE]
 > This topic is best used in conjunction with [Configure a Web Server for Web Deploy Publishing (Offline Deployment)](../configuring-server-environments-for-web-deployment/configuring-a-web-server-for-web-deploy-publishing-offline-deployment.md), which explains how to install the required components and prepare an IIS website for package import.
-
 
 ## Create a Web Deployment Package
 
@@ -62,9 +60,7 @@ You can create a web deployment package for a web application project at any tim
 
 You can create a web deployment package from the command line by invoking the **Package** target on your web application project using MSBuild. The command should resemble this:
 
-
 [!code-console[Main](manually-installing-web-packages/samples/sample1.cmd)]
-
 
 Whichever approach you use, the end result is the same. The WPP creates a web deployment package as a zip file, together with various supporting resources, in the output folder for your web application project.
 

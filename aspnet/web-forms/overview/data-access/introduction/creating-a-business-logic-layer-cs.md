@@ -17,18 +17,15 @@ by [Scott Mitchell](https://twitter.com/ScottOnWriting)
 
 > In this tutorial we'll see how to centralize your business rules into a Business Logic Layer (BLL) that serves as an intermediary for data exchange between the presentation layer and the DAL.
 
-
 ## Introduction
 
 The Data Access Layer (DAL) created in the [first tutorial](creating-a-data-access-layer-cs.md) cleanly separates the data access logic from the presentation logic. However, while the DAL cleanly separates the data access details from the presentation layer, it does not enforce any business rules that may apply. For example, for our application we may want to disallow the `CategoryID` or `SupplierID` fields of the `Products` table to be modified when the `Discontinued` field is set to 1, or we might want to enforce seniority rules, prohibiting situations in which an employee is managed by someone who was hired after them. Another common scenario is authorization perhaps only users in a particular role can delete products or can change the `UnitPrice` value.
 
 In this tutorial we'll see how to centralize these business rules into a Business Logic Layer (BLL) that serves as an intermediary for data exchange between the presentation layer and the DAL. In a real-world application, the BLL should be implemented as a separate Class Library project; however, for these tutorials we'll implement the BLL as a series of classes in our `App_Code` folder in order to simplify the project structure. Figure 1 illustrates the architectural relationships among the presentation layer, BLL, and DAL.
 
-
 ![The BLL Separates the Presentation Layer from the Data Access Layer and Imposes Business Rules](creating-a-business-logic-layer-cs/_static/image1.png)
 
 **Figure 1**: The BLL Separates the Presentation Layer from the Data Access Layer and Imposes Business Rules
-
 
 ## Step 1: Creating the BLL Classes
 
@@ -38,17 +35,14 @@ To more cleanly separate the DAL- and BLL-related classes, let's create two subf
 
 Next, create the four BLL class files in the `BLL` subfolder. To accomplish this, right-click on the `BLL` subfolder, choose Add a New Item, and choose the Class template. Name the four classes `ProductsBLL`, `CategoriesBLL`, `SuppliersBLL`, and `EmployeesBLL`.
 
-
 ![Add Four New Classes to the App_Code Folder](creating-a-business-logic-layer-cs/_static/image2.png)
 
 **Figure 2**: Add Four New Classes to the `App_Code` Folder
-
 
 Next, let's add methods to each of the classes to simply wrap the methods defined for the TableAdapters from the first tutorial. For now, these methods will just call directly into the DAL; we'll return later to add any needed business logic.
 
 > [!NOTE]
 > If you are using Visual Studio Standard Edition or above (that is, you're *not* using Visual Web Developer), you can optionally design your classes visually using the [Class Designer](https://msdn.microsoft.com/library/default.asp?url=/library/dv_vstechart/html/clssdsgnr.asp). Refer to the [Class Designer Blog](https://blogs.msdn.com/classdesigner/default.aspx) for more information on this new feature in Visual Studio.
-
 
 For the `ProductsBLL` class we need to add a total of seven methods:
 
@@ -61,7 +55,6 @@ For the `ProductsBLL` class we need to add a total of seven methods:
 - `DeleteProduct(productID)` deletes the specified product from the database
 
 ProductsBLL.cs
-
 
 [!code-csharp[Main](creating-a-business-logic-layer-cs/samples/sample1.cs)]
 
@@ -101,7 +94,6 @@ With the `ProductsBLL` class complete, we still need to add the classes for work
 
 The one method worth noting is the `SuppliersBLL` class's `UpdateSupplierAddress` method. This method provides an interface for updating just the supplier's address information. Internally, this method reads in the `SupplierDataRow` object for the specified `supplierID` (using `GetSupplierBySupplierID`), sets its address-related properties, and then calls down into the `SupplierDataTable`'s `Update` method. The `UpdateSupplierAddress` method follows:
 
-
 [!code-csharp[Main](creating-a-business-logic-layer-cs/samples/sample2.cs)]
 
 Refer to this article's download for my complete implementation of the BLL classes.
@@ -110,21 +102,17 @@ Refer to this article's download for my complete implementation of the BLL class
 
 In the first tutorial we saw examples of working directly with the Typed DataSet programmatically, but with the addition of our BLL classes, the presentation tier should work against the BLL instead. In the `AllProducts.aspx` example from the first tutorial, the `ProductsTableAdapter` was used to bind the list of products to a GridView, as shown in the following code:
 
-
 [!code-csharp[Main](creating-a-business-logic-layer-cs/samples/sample3.cs)]
 
 To use the new BLL classes, all that needs to be changed is the first line of code simply replace the `ProductsTableAdapter` object with a `ProductBLL` object:
-
 
 [!code-csharp[Main](creating-a-business-logic-layer-cs/samples/sample4.cs)]
 
 The BLL classes can also be accessed declaratively (as can the Typed DataSet) by using the ObjectDataSource. We'll be discussing the ObjectDataSource in greater detail in the following tutorials.
 
-
 [![The List of Products is Displayed in a GridView](creating-a-business-logic-layer-cs/_static/image4.png)](creating-a-business-logic-layer-cs/_static/image3.png)
 
 **Figure 3**: The List of Products is Displayed in a GridView ([Click to view full-size image](creating-a-business-logic-layer-cs/_static/image5.png))
-
 
 ## Step 3: Adding Field-Level Validation to the DataRow Classes
 
@@ -139,24 +127,19 @@ These rules can and should be expressed at the database level. The character lim
 
 In addition to enforcing these rules at the database they should also be enforced at the DataSet level. In fact, the field length and whether a value is required or optional are already captured for each DataTable's set of DataColumns. To see the existing field-level validation automatically provided, go to the DataSet Designer, select a field from one of the DataTables and then go to the Properties window. As Figure 4 shows, the `QuantityPerUnit` DataColumn in the `ProductsDataTable` has a maximum length of 20 characters and does allow `NULL` values. If we attempt to set the `ProductsDataRow`'s `QuantityPerUnit` property to a string value longer than 20 characters an `ArgumentException` will be thrown.
 
-
 [![The DataColumn Provides Basic Field-Level Validation](creating-a-business-logic-layer-cs/_static/image7.png)](creating-a-business-logic-layer-cs/_static/image6.png)
 
 **Figure 4**: The DataColumn Provides Basic Field-Level Validation ([Click to view full-size image](creating-a-business-logic-layer-cs/_static/image8.png))
 
-
 Unfortunately, we can't specify bounds checks, such as the `UnitPrice` value must be greater than or equal to zero, through the Properties window. In order to provide this type of field-level validation we need to create an event handler for the DataTable's [ColumnChanging](https://msdn.microsoft.com/library/system.data.datatable.columnchanging%28VS.80%29.aspx) event. As mentioned in the [preceding tutorial](creating-a-data-access-layer-cs.md), the DataSet, DataTables, and DataRow objects created by the Typed DataSet can be extended through the use of partial classes. Using this technique we can create a `ColumnChanging` event handler for the `ProductsDataTable` class. Start by creating a class in the `App_Code` folder named `ProductsDataTable.ColumnChanging.cs`.
-
 
 [![Add a New Class to the App_Code Folder](creating-a-business-logic-layer-cs/_static/image10.png)](creating-a-business-logic-layer-cs/_static/image9.png)
 
 **Figure 5**: Add a New Class to the `App_Code` Folder ([Click to view full-size image](creating-a-business-logic-layer-cs/_static/image11.png))
 
-
 Next, create an event handler for the `ColumnChanging` event that ensures that the `UnitPrice`, `UnitsInStock`, `UnitsOnOrder`, and `ReorderLevel` column values (if not `NULL`) are greater than or equal to zero. If any such column is out of range, throw an `ArgumentException`.
 
 ProductsDataTable.ColumnChanging.cs
-
 
 [!code-csharp[Main](creating-a-business-logic-layer-cs/samples/sample5.cs)]
 
@@ -174,13 +157,11 @@ Imagine that our business rules dictate that a product could not be marked disco
 
 To enforce this business rule in the `UpdateProducts` method we'd start by checking if `Discontinued` was set to `true` and, if so, we'd call `GetProductsBySupplierID` to determine how many products we purchased from this product's supplier. If only one product is purchased from this supplier, we throw an `ApplicationException`.
 
-
 [!code-csharp[Main](creating-a-business-logic-layer-cs/samples/sample6.cs)]
 
 ## Responding to Validation Errors in the Presentation Tier
 
 When calling the BLL from the presentation tier we can decide whether to attempt to handle any exceptions that might be raised or let them bubble up to ASP.NET (which will raise the `HttpApplication`'s `Error` event). To handle an exception when working with the BLL programmatically, we can use a [try...catch](https://msdn.microsoft.com/library/0yd65esw.aspx) block, as the following example shows:
-
 
 [!code-csharp[Main](creating-a-business-logic-layer-cs/samples/sample7.cs)]
 

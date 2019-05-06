@@ -16,7 +16,6 @@ by [Rick Anderson]((https://twitter.com/RickAndMSFT))
 > > [!NOTE]
 > > An updated version of this tutorial is available [here](../../getting-started/introduction/getting-started.md) that uses ASP.NET MVC 5 and Visual Studio 2013. It's more secure, much simpler to follow and demonstrates more features.
 
-
 In this section you'll use Entity Framework Code First Migrations to migrate some changes to the model classes so the change is applied to the database.
 
 By default, when you use Entity Framework Code First to automatically create a database, as you did earlier in this tutorial, Code First adds a table to the database to help track whether the schema of the database is in sync with the model classes it was generated from. If they aren't in sync, the Entity Framework throws an error. This makes it easier to track down issues at development time that you might otherwise only find (by obscure errors) at run time.
@@ -62,7 +61,6 @@ Doing so adds the following using statement:
 > [!NOTE] 
 > 
 > Code First Migrations calls the `Seed` method after every migration (that is, calling **update-database** in the Package Manager Console), and this method updates rows that have already been inserted, or inserts them if they don't exist yet.
-
 
 **Press CTRL-SHIFT-B to build the project.**(The following steps will fail if your don't build at this point.)
 
@@ -116,13 +114,11 @@ Now run the application and navigate to the */Movies* URL. When you do this, tho
 
 You're seeing this error because the updated `Movie` model class in the application is now different than the schema of the `Movie` table of the existing database. (There's no `Rating` column in the database table.)
 
-
 There are a few approaches to resolving the error:
 
 1. Have the Entity Framework automatically drop and re-create the database based on the new model class schema. This approach is very convenient when doing active development on a test database; it allows you to quickly evolve the model and database schema together. The downside, though, is that you lose existing data in the database — so you *don't* want to use this approach on a production database! Using an initializer to automatically seed a database with test data is often a productive way to develope an application. For more information on Entity Framework database initializers, see Tom Dykstra's [ASP.NET MVC/Entity Framework tutorial](../../getting-started/getting-started-with-ef-using-mvc/creating-an-entity-framework-data-model-for-an-asp-net-mvc-application.md).
 2. Explicitly modify the schema of the existing database so that it matches the model classes. The advantage of this approach is that you keep your data. You can make this change either manually or by creating a database change script.
 3. Use Code First Migrations to update the database schema.
-
 
 For this tutorial, we'll use Code First Migrations.
 

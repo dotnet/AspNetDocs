@@ -17,7 +17,6 @@ by [Scott Mitchell](https://twitter.com/ScottOnWriting)
 
 > Learn how to allow users to upload binary files (such as Word or PDF documents) to your Web site where they may be stored in either the server's file system or the database.
 
-
 ## Introduction
 
 All of the tutorials we ve examined so far have worked exclusively with text data. However, many applications have data models that capture both text and binary data. An online dating site might allow users to upload a picture to associate with their profile. A recruiting website might let users upload their resume as a Microsoft Word or PDF document.
@@ -26,7 +25,6 @@ Working with binary data adds a new set of challenges. We must decide how the bi
 
 > [!NOTE]
 > Binary data that is part of an application s data model is sometimes referred to as a [BLOB](http://en.wikipedia.org/wiki/Binary_large_object), an acronym for Binary Large OBject. In these tutorials I have chosen to use the terminology binary data, although the term BLOB is synonymous.
-
 
 ## Step 1: Creating the Working with Binary Data Web Pages
 
@@ -38,42 +36,33 @@ Before we begin to explore the challenges associated with adding support for bin
 - `UploadInDetailsView.aspx`
 - `UpdatingAndDeleting.aspx`
 
-
 ![Add the ASP.NET Pages for the Binary Data-Related Tutorials](uploading-files-vb/_static/image1.gif)
 
 **Figure 1**: Add the ASP.NET Pages for the Binary Data-Related Tutorials
 
-
 Like in the other folders, `Default.aspx` in the `BinaryData` folder will list the tutorials in its section. Recall that the `SectionLevelTutorialListing.ascx` User Control provides this functionality. Therefore, add this User Control to `Default.aspx` by dragging it from the Solution Explorer onto the page s Design view.
-
 
 [![Add the SectionLevelTutorialListing.ascx User Control to Default.aspx](uploading-files-vb/_static/image2.gif)](uploading-files-vb/_static/image1.png)
 
 **Figure 2**: Add the `SectionLevelTutorialListing.ascx` User Control to `Default.aspx` ([Click to view full-size image](uploading-files-vb/_static/image2.png))
 
-
 Lastly, add these pages as entries to the `Web.sitemap` file. Specifically, add the following markup after the Enhancing the GridView `<siteMapNode>`:
-
 
 [!code-xml[Main](uploading-files-vb/samples/sample1.xml)]
 
 After updating `Web.sitemap`, take a moment to view the tutorials website through a browser. The menu on the left now includes items for the Working with Binary Data tutorials.
 
-
 ![The Site Map Now Includes Entries for the Working with Binary Data Tutorials](uploading-files-vb/_static/image3.gif)
 
 **Figure 3**: The Site Map Now Includes Entries for the Working with Binary Data Tutorials
-
 
 ## Step 2: Deciding Where to Store the Binary Data
 
 Binary data that is associated with the application s data model can be stored in one of two places: on the web server s file system with a reference to the file stored in the database; or directly within the database itself (see Figure 4). Each approach has its own set of pros and cons and merits a more detailed discussion.
 
-
 [![Binary Data Can Be Stored On the File System or Directly in the Database](uploading-files-vb/_static/image4.gif)](uploading-files-vb/_static/image3.png)
 
 **Figure 4**: Binary Data Can Be Stored On the File System or Directly in the Database ([Click to view full-size image](uploading-files-vb/_static/image4.png))
-
 
 Imagine that we wanted to extend the Northwind database to associate a picture with each product. One option would be to store these image files on the web server s file system and record the path in the `Products` table. With this approach, we d add an `ImagePath` column to the `Products` table of type `varchar(200)`, perhaps. When a user uploaded a picture for Chai, that picture might be stored on the web server s file system at `~/Images/Tea.jpg`, where `~` represents the application s physical path. That is, if the web site is rooted at the physical path `C:\Websites\Northwind\`, `~/Images/Tea.jpg` would be equivalent to `C:\Websites\Northwind\Images\Tea.jpg`. After uploading the image file, we d update the Chai record in the `Products` table so that its `ImagePath` column referenced the path of the new image. We could use `~/Images/Tea.jpg` or just `Tea.jpg` if we decided that all product images would be placed in the application s `Images` folder.
 
@@ -92,7 +81,6 @@ The main advantage of storing binary data directly in the database is the tight 
 > [!NOTE]
 > In Microsoft SQL Server 2000 and earlier versions, the `varbinary` data type had a maximum limit of 8,000 bytes. To store up to 2 GB of binary data the [`image` data type](https://msdn.microsoft.com/library/ms187993.aspx) needs to be used instead. With the addition of `MAX` in SQL Server 2005, however, the `image` data type has been deprecated. It s still supported for backwards compatibility, but Microsoft has announced that the `image` data type will be removed in a future version of SQL Server.
 
-
 If you are working with an older data model you may see the `image` data type. The Northwind database s `Categories` table has a `Picture` column that can be used to store the binary data of an image file for the category. Since the Northwind database has its roots in Microsoft Access and earlier versions of SQL Server, this column is of type `image`.
 
 For this tutorial and the next three, we'll use both approaches. The `Categories` table already has a `Picture` column for storing the binary content of an image for the category. We'll add an additional column, `BrochurePath`, to store a path to a PDF on the web server s file system that can be used to provide a print-quality, polished overview of the category.
@@ -103,11 +91,9 @@ Currently the Categories table has only four columns: `CategoryID`, `CategoryNam
 
 Add a new `varchar(200)` column to the `Categories` table that is named `BrochurePath` and allows `NULL` s and click the Save icon (or hit Ctrl+S).
 
-
 [![Add a BrochurePath Column to the Categories Table](uploading-files-vb/_static/image5.gif)](uploading-files-vb/_static/image5.png)
 
 **Figure 5**: Add a `BrochurePath` Column to the `Categories` Table ([Click to view full-size image](uploading-files-vb/_static/image6.png))
-
 
 ## Step 4: Updating the Architecture to Use the`Picture`and`BrochurePath`Columns
 
@@ -125,11 +111,9 @@ Notice that none of these queries return the `Categories` table s `Picture` or `
 
 Start by adding these two columns to the `CategoriesDataTable`. Right-click on the `CategoriesDataTable` s header, select Add from the context menu and then choose the Column option. This will create a new `DataColumn` in the DataTable named `Column1`. Rename this column to `Picture`. From the Properties window, set the `DataColumn` s `DataType` property to `System.Byte[]` (this is not an option in the drop-down list; you need to type it in).
 
-
 [![Create a DataColumn Named Picture whose DataType is System.Byte[]](uploading-files-vb/_static/image6.gif)](uploading-files-vb/_static/image7.png)
 
 **Figure 6**: Create a `DataColumn` Named `Picture` whose `DataType` is `System.Byte[]` ([Click to view full-size image](uploading-files-vb/_static/image8.png))
-
 
 Add another `DataColumn` to the DataTable, naming it `BrochurePath` using the default `DataType` value (`System.String`).
 
@@ -139,61 +123,48 @@ With these two `DataColumn` s added to the `CategoriesDataTable`, we re ready to
 
 To update the main TableAdapter query, right-click on the `CategoriesTableAdapter` s header and choose the Configure option from the context menu. This brings up the Table Adapter Configuration Wizard, which we ve seen in a number of past tutorials. Update the query to bring back the `BrochurePath` and click Finish.
 
-
 [![Update the Column List in the SELECT Statement to Also Return BrochurePath](uploading-files-vb/_static/image7.gif)](uploading-files-vb/_static/image9.png)
 
 **Figure 7**: Update the Column List in the `SELECT` Statement to Also Return `BrochurePath` ([Click to view full-size image](uploading-files-vb/_static/image10.png))
 
-
 When using ad-hoc SQL statements for the TableAdapter, updating the column list in the main query updates the column list for all of the `SELECT` query methods in the TableAdapter. That means the `GetCategoryByCategoryID(categoryID)` method has been updated to return the `BrochurePath` column, which might be what we intended. However, it also updated the column list in the `GetCategoriesAndNumberOfProducts()` method, removing the subquery that returns the number of products for each category! Therefore, we need to update this method s `SELECT` query. Right-click on the `GetCategoriesAndNumberOfProducts()` method, choose Configure, and revert the `SELECT` query back to its original value:
-
 
 [!code-sql[Main](uploading-files-vb/samples/sample2.sql)]
 
 Next, create a new TableAdapter method that returns a particular category s `Picture` column value. Right-click on the `CategoriesTableAdapter` s header and choose the Add Query option to launch the TableAdapter Query Configuration Wizard. The first step of this wizard asks us if we want to query data using an ad-hoc SQL statement, a new stored procedure, or an existing one. Select Use SQL statements and click Next. Since we will be returning a row, choose the SELECT which returns rows option from the second step.
 
-
 [![Select the Use SQL statements Option](uploading-files-vb/_static/image8.gif)](uploading-files-vb/_static/image11.png)
 
 **Figure 8**: Select the Use SQL statements Option ([Click to view full-size image](uploading-files-vb/_static/image12.png))
-
 
 [![Since the Query Will Return a Record from the Categories Table, Choose SELECT which returns rows](uploading-files-vb/_static/image9.gif)](uploading-files-vb/_static/image13.png)
 
 **Figure 9**: Since the Query Will Return a Record from the Categories Table, Choose SELECT which returns rows ([Click to view full-size image](uploading-files-vb/_static/image14.png))
 
-
 In the third step, enter the following SQL query and click Next:
-
 
 [!code-sql[Main](uploading-files-vb/samples/sample3.sql)]
 
 The last step is to choose the name for the new method. Use `FillCategoryWithBinaryDataByCategoryID` and `GetCategoryWithBinaryDataByCategoryID` for the Fill a DataTable and Return a DataTable patterns, respectively. Click Finish to complete the wizard.
 
-
 [![Choose the Names for the TableAdapter s Methods](uploading-files-vb/_static/image10.gif)](uploading-files-vb/_static/image15.png)
 
 **Figure 10**: Choose the Names for the TableAdapter s Methods ([Click to view full-size image](uploading-files-vb/_static/image16.png))
 
-
 > [!NOTE]
 > After completing the Table Adapter Query Configuration Wizard you may see a dialog box informing you that the new command text returns data with schema different from the schema of the main query. In short, the wizard is noting that the TableAdapter s main query `GetCategories()` returns a different schema than the one we just created. But this is what we want, so you can disregard this message.
-
 
 Also, keep in mind that if you are using ad-hoc SQL statements and use the wizard to change the TableAdapter s main query at some later point in time, it will modify the `GetCategoryWithBinaryDataByCategoryID` method s `SELECT` statement s column list to include just those columns from the main query (that is, it will remove the `Picture` column from the query). You will have to manually update the column list to return the `Picture` column, similar to what we did with the `GetCategoriesAndNumberOfProducts()` method earlier in this step.
 
 After adding the two `DataColumn` s to the `CategoriesDataTable` and the `GetCategoryWithBinaryDataByCategoryID` method to the `CategoriesTableAdapter`, these classes in the Typed DataSet Designer should look like the screenshot in Figure 11.
 
-
 ![The DataSet Designer Includes the New Columns and Method](uploading-files-vb/_static/image11.gif)
 
 **Figure 11**: The DataSet Designer Includes the New Columns and Method
 
-
 ## Updating the Business Logic Layer (BLL)
 
 With the DAL updated, all that remains is to augment the Business Logic Layer (BLL) to include a method for the new `CategoriesTableAdapter` method. Add the following method to the `CategoriesBLL` class:
-
 
 [!code-vb[Main](uploading-files-vb/samples/sample4.vb)]
 
@@ -205,22 +176,17 @@ ASP.NET 2.0 s new [FileUpload Web control](https://msdn.microsoft.com/library/ms
 
 To demonstrate uploading files, open the `FileUpload.aspx` page in the `BinaryData` folder, drag a FileUpload control from the Toolbox onto the Designer, and set the control s `ID` property to `UploadTest`. Next, add a Button Web control setting its `ID` and `Text` properties to `UploadButton` and Upload Selected File, respectively. Finally, place a Label Web control beneath the Button, clear out its `Text` property and set its `ID` property to `UploadDetails`.
 
-
 [![Add a FileUpload Control to the ASP.NET Page](uploading-files-vb/_static/image12.gif)](uploading-files-vb/_static/image17.png)
 
 **Figure 12**: Add a FileUpload Control to the ASP.NET Page ([Click to view full-size image](uploading-files-vb/_static/image18.png))
 
-
 Figure 13 shows this page when viewed through a browser. Note that clicking the Browse button brings up a file selection dialog box, allowing the user to pick a file from their computer. Once a file has been selected, clicking the Upload Selected File button causes a postback that sends the selected file s binary content to the web server.
-
 
 [![The User Can Select a File to Upload from their Computer to the Server](uploading-files-vb/_static/image13.gif)](uploading-files-vb/_static/image19.png)
 
 **Figure 13**: The User Can Select a File to Upload from their Computer to the Server ([Click to view full-size image](uploading-files-vb/_static/image20.png))
 
-
 On postback, the uploaded file can be saved to the file system or its binary data can be worked with directly through a Stream. For this example, let s create a `~/Brochures` folder and save the uploaded file there. Start by adding the `Brochures` folder to the site as a subfolder of the root directory. Next, create an event handler for the `UploadButton` s `Click` event and add the following code:
-
 
 [!code-vb[Main](uploading-files-vb/samples/sample5.vb)]
 
@@ -229,21 +195,17 @@ The FileUpload control provides a variety of properties for working with the upl
 > [!NOTE]
 > To ensure that the user uploads a file you can check the `HasFile` property and display a warning if it s `False`, or you may use the [RequiredFieldValidator control](https://quickstarts.asp.net/QuickStartv20/aspnet/doc/validation/default.aspx) instead.
 
-
 The FileUpload s `SaveAs(filePath)` saves the uploaded file to the specified *filePath*. *filePath* must be a *physical path* (`C:\Websites\Brochures\SomeFile.pdf`) rather than a *virtual* *path* (`/Brochures/SomeFile.pdf`). The [`Server.MapPath(virtPath)` method](https://msdn.microsoft.com/library/system.web.httpserverutility.mappath.aspx) takes a virtual path and returns its corresponding physical path. Here, the virtual path is `~/Brochures/fileName`, where *fileName* is the name of the uploaded file. See [Using Server.MapPath](http://www.4guysfromrolla.com/webtech/121799-1.shtml) for more information on virtual and physical paths and using `Server.MapPath`.
 
 After completing the `Click` event handler, take a moment to test out the page in a browser. Click the Browse button and select a file from your hard drive and then click the Upload Selected File button. The postback will send the contents of the selected file to the web server, which will then display information about the file before saving it to the `~/Brochures` folder. After uploading the file, return to Visual Studio and click the Refresh button in the Solution Explorer. You should see the file you just uploaded in the ~/Brochures folder!
-
 
 [![The File EvolutionValley.jpg Has Been Uploaded to the Web Server](uploading-files-vb/_static/image14.gif)](uploading-files-vb/_static/image21.png)
 
 **Figure 14**: The File `EvolutionValley.jpg` Has Been Uploaded to the Web Server ([Click to view full-size image](uploading-files-vb/_static/image22.png))
 
-
 ![EvolutionValley.jpg Was Saved to the ~/Brochures Folder](uploading-files-vb/_static/image15.gif)
 
 **Figure 15**: `EvolutionValley.jpg` Was Saved to the `~/Brochures` Folder
-
 
 ## Subtleties with Saving Uploaded Files to the File System
 

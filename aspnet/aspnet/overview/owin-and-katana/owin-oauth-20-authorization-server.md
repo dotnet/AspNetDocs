@@ -29,7 +29,6 @@ msc.type: authoredcontent
 >
 > If you have questions that are not directly related to the tutorial, you can post them at [Katana Project on GitHub](https://github.com/aspnet/AspNetKatana/). For questions and comments regarding the tutorial itself, see the comments section at the bottom of the page.
 
-
 The [OAuth 2.0 framework](http://tools.ietf.org/html/rfc6749) enables a third-party app to obtain limited access to an HTTP service. Instead of using the resource owner's credentials to access a protected resource, the client obtains an access token (which is a string denoting a specific scope, lifetime, and other access attributes). Access tokens are issued to third-party clients by an authorization server with the approval of the resource owner.
 
 This tutorial will cover:
@@ -169,7 +168,6 @@ Here is the sample implementation for `Provider.GrantResourceOwnerCredentials`:
 > [!NOTE]
 > The code above is intended to explain this section of the tutorial and should not be used in secure or production apps. It does not check the resource owners credentials. It assumes every credential is valid and creates a new identity for it. The new identity will be used to generate the access token and refresh token. Please replace the code with your own secure account management code.
 
-
 ### Client Credentials Grant
 
 Refer to the IETF's OAuth 2 [Client Credentials Grant](http://tools.ietf.org/html/rfc6749#section-4.4) section now.
@@ -189,7 +187,6 @@ Here is the sample implementation for `Provider.GrantClientCredentials`:
 
 > [!NOTE]
 > The code above is intended to explain this section of the tutorial and should not be used in secure or production apps. Please replace the code with your own secure client management code.
-
 
 ### Refresh Token
 
@@ -268,7 +265,6 @@ Here is the sample code of the `HomeController` of the client.
 > [!WARNING]
 > Security - Never disable SSL in a production app. Your login credentials are now being sent in clear-text across the wire. The code above is just for local sample debugging and exploration.
 
-
 ### Implicit Grant Client
 
 This client is using JavaScript to:
@@ -290,7 +286,6 @@ Here is the callback handling code in *SignIn.cshtml* file:
 
 > [!NOTE]
 > A best practice is to move the JavaScript to an external file and not embed it with the Razor markup. To keep this sample simple, they have been combined.
-
 
 ### Resource Owner Password Credentials Grant Client
 

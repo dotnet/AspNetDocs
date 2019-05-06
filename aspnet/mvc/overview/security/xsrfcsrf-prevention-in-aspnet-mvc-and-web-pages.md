@@ -19,7 +19,6 @@ by [Rick Anderson]((https://twitter.com/RickAndMSFT))
 > 
 > For more information, see the [Open Web Application Security Project](https://www.owasp.org/index.php/Main_Page)(OWASP) [XSRF](https://www.owasp.org/index.php/Cross-Site_Request_Forgery_(CSRF)).
 
-
 ## Anatomy of an attack
 
 To walk through an XSRF attack, consider a user who wants to perform some online banking transactions. This user first visits WoodgroveBank.com and logs in, at which point the response header will contain her authentication cookie:

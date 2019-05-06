@@ -13,7 +13,6 @@ msc.type: chapter
 
 > This video series explores how to add Ajax functionality to an ASP.NET application.
 
-
 - [ASP.NET AJAX Support in Visual Studio 2008](aspnet-ajax-support-in-visual-studio-2008.md)
 - [Adding AJAX Functionality to an Existing ASP.NET Page](adding-ajax-functionality-to-an-existing-aspnet-page.md)
 - [Creating and Using an AJAX-enabled Web Service in a Web Site](creating-and-using-an-ajax-enabled-web-service-in-a-web-site.md)

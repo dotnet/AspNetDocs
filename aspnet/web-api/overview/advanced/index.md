@@ -14,7 +14,6 @@ msc.type: chapter
 
 > More advanced topics for ASP.NET Web API development, after you've learned the basics.
 
-
 - [Configuring Web API 2](configuring-aspnet-web-api.md)
 - [Dependency Injection in Web API 2](dependency-injection.md)
 - [Calling a Web API From a .NET Client (C#)](calling-a-web-api-from-a-net-client.md)

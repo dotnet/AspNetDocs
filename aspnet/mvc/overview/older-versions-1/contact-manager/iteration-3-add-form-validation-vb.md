@@ -17,9 +17,7 @@ by [Microsoft](https://github.com/microsoft)
 
 > In the third iteration, we add basic form validation. We prevent people from submitting a form without completing required form fields. We also validate email addresses and phone numbers.
 
-
 ## Building a Contact Management ASP.NET MVC Application (VB)
-  
 
 In this series of tutorials, we build an entire Contact Management application from start to finish. The Contact Manager application enables you to store contact information - names, phone numbers and email addresses - for a list of people.
 
@@ -39,16 +37,13 @@ We build the application over multiple iterations. With each iteration, we gradu
 
 - Iteration #7 - Add Ajax functionality. In the seventh iteration, we improve the responsiveness and performance of our application by adding support for Ajax.
 
-
 ## This Iteration
 
 In this second iteration of the Contact Manager application, we add basic form validation. We prevent people from submitting a contact without entering values for required form fields. We also validate phone numbers and email addresses (see Figure 1).
 
-
 [![The New Project dialog box](iteration-3-add-form-validation-vb/_static/image1.jpg)](iteration-3-add-form-validation-vb/_static/image1.png)
 
 **Figure 01**: A form with validation ([Click to view full-size image](iteration-3-add-form-validation-vb/_static/image2.png))
-
 
 In this iteration, we add the validation logic directly to the controller actions. In general, this is not the recommended way to add validation to an ASP.NET MVC application. A better approach is to place an application s validation logic in a separate [service layer](http://martinfowler.com/eaaCatalog/serviceLayer.html). In the next iteration, we refactor the Contact Manager application to make the application more maintainable.
 
@@ -70,7 +65,6 @@ The field-validation-error class is used to style the output rendered by the Htm
 > 
 > You can modify the style sheet classes described in this section to customize the appearance of validation error messages.
 
-
 ## Adding Validation Logic to the Create Action
 
 Right now, the Create view never displays validation error messages because we have not written the logic to generate any messages. In order to display validation error messages, you need to add the error messages to ModelState.
@@ -78,7 +72,6 @@ Right now, the Create view never displays validation error messages because we h
 > [!NOTE] 
 > 
 > The UpdateModel() method adds error messages to ModelState automatically when there is an error assigning the value of a form field to a property. For example, if you attempt to assign the string "apple" to a BirthDate property that accepts DateTime values, then the UpdateModel() method adds an error to ModelState.
-
 
 The modified Create() method in Listing 2 contains a new section that validates the properties of the Contact class before the new contact is inserted into the database.
 
@@ -100,7 +93,6 @@ After the validation rules are executed, the IsValid property of ModelState is c
 > [!NOTE] 
 > 
 > I got the regular expressions for validating the phone number and email address from the regular expression repository at [*http://regexlib.com*](http://regexlib.com)
-
 
 ## Adding Validation Logic to the Edit Action
 

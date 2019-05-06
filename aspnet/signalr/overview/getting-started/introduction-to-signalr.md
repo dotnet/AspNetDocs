@@ -11,11 +11,9 @@ msc.type: authoredcontent
 ---
 # Introduction to SignalR
 
-
 by [Patrick Fletcher](https://github.com/pfletcher)
 
 [!INCLUDE [Consider ASP.NET Core SignalR](~/includes/signalr/signalr-version-disambiguation.md)]
-
 
 > This article describes what SignalR is, and some of the solutions it was designed to create. 
 > 

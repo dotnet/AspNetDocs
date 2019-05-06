@@ -17,7 +17,6 @@ by [Scott Mitchell](https://twitter.com/ScottOnWriting)
 
 > In previous tutorials we learned how the ObjectDataSource control allowed for inserting, updating, and deleting of data. The SqlDataSource control supports the same operations, but the approach is different, and this tutorial shows how to configure the SqlDataSource to insert, update, and delete data.
 
-
 ## Introduction
 
 As discussed in [An Overview of Inserting, Updating, and Deleting](../editing-inserting-and-deleting-data/an-overview-of-inserting-updating-and-deleting-data-cs.md), the GridView control provides built-in updating and deleting capabilities, while the DetailsView and FormView controls include inserting support along with editing and deleting functionality. These data modification capabilities can be plugged directly into a data source control without a line of code needing to be written. [An Overview of Inserting, Updating, and Deleting](../editing-inserting-and-deleting-data/an-overview-of-inserting-updating-and-deleting-data-cs.md) examined using the ObjectDataSource to facilitate inserting, updating, and deleting with the GridView, DetailsView, and FormView controls. Alternatively, the SqlDataSource can be used in place of the ObjectDataSource.
@@ -26,7 +25,6 @@ Recall that to support inserting, updating, and deleting, with the ObjectDataSou
 
 > [!NOTE]
 > Since we ve already discussed the inserting, editing, and deleting capabilities of the GridView, DetailsView, and FormView controls, this tutorial will focus on configuring the SqlDataSource control to support these operations. If you need to brush up on implementing these features within the GridView, DetailsView, and FormView, return to the Editing, Inserting, and Deleting Data tutorials, starting with [An Overview of Inserting, Updating, and Deleting](../editing-inserting-and-deleting-data/an-overview-of-inserting-updating-and-deleting-data-cs.md).
-
 
 ## Step 1: Specifying`INSERT`,`UPDATE`, and`DELETE`Statements
 
@@ -43,11 +41,9 @@ Once an `InsertCommand`, `UpdateCommand`, or `DeleteCommand` value has been spec
 
 Start by opening the `InsertUpdateDelete.aspx` and `Querying.aspx` pages from the `SqlDataSource` folder. From the Designer on the `Querying.aspx` page, select the SqlDataSource and GridView from the first example (the `ProductsDataSource` and `GridView1` controls). After selecting the two controls, go to the Edit menu and choose Copy (or just hit Ctrl+C). Next, go to the Designer of `InsertUpdateDelete.aspx` and paste in the controls. After you have moved the two controls over to `InsertUpdateDelete.aspx`, test out the page in a browser. You should see the values of the `ProductID`, `ProductName`, and `UnitPrice` columns for all of the records in the `Products` database table.
 
-
 [![All of the Products are Listed, Ordered by ProductID](inserting-updating-and-deleting-data-with-the-sqldatasource-cs/_static/image1.gif)](inserting-updating-and-deleting-data-with-the-sqldatasource-cs/_static/image1.png)
 
 **Figure 1**: All of the Products are Listed, Ordered by `ProductID` ([Click to view full-size image](inserting-updating-and-deleting-data-with-the-sqldatasource-cs/_static/image2.png))
-
 
 ## Adding the SqlDataSource s`DeleteCommand`and`DeleteParameters`Properties
 
@@ -64,15 +60,12 @@ We'll examine how to automatically have the `DELETE` statement created in Step 2
 
 From the Designer in `InsertUpdateDelete.aspx`, click on the `ProductsDataSource` SqlDataSource and then bring up the Properties window (from the View menu, choose Properties window, or simply hit F4). Select the DeleteQuery property, which will bring up a set of ellipses.
 
-
 ![Select the DeleteQuery Property from the Properties Window](inserting-updating-and-deleting-data-with-the-sqldatasource-cs/_static/image2.gif)
 
 **Figure 2**: Select the DeleteQuery Property from the Properties Window
 
-
 > [!NOTE]
 > The SqlDataSource doesn t have a DeleteQuery property. Rather, DeleteQuery is a combination of the `DeleteCommand` and `DeleteParameters` properties and is only listed in the Properties window when viewing the window through the Designer. If you are looking at the Properties window in the Source view, you'll find the `DeleteCommand` property instead.
-
 
 Click the ellipses in the DeleteQuery property to bring up the Command and Parameter Editor dialog box (see Figure 3). From this dialog box you can specify the `DELETE` SQL statement and specify the parameters. Enter the following query into the `DELETE` command textbox (either manually or using the Query Builder, if you prefer):
 
@@ -80,17 +73,14 @@ Click the ellipses in the DeleteQuery property to bring up the Command and Param
 
 Next, click the Refresh Parameters button to add the `@ProductID` parameter to the list of parameters below.
 
-
 [![Select the DeleteQuery Property from the Properties Window](inserting-updating-and-deleting-data-with-the-sqldatasource-cs/_static/image3.gif)](inserting-updating-and-deleting-data-with-the-sqldatasource-cs/_static/image3.png)
 
 **Figure 3**: Select the DeleteQuery Property from the Properties Window ([Click to view full-size image](inserting-updating-and-deleting-data-with-the-sqldatasource-cs/_static/image4.png))
-
 
 Do *not* provide a value for this parameter (leave its Parameter source at None ). Once we add deleting support to the GridView, the GridView will automatically supply this parameter value, using the value of its `DataKeys` collection for the row whose Delete button was clicked.
 
 > [!NOTE]
 > The parameter name used in the `DELETE` query *must* be the same as the name of the `DataKeyNames` value in the GridView, DetailsView, or FormView. That is, the parameter in the `DELETE` statement is purposefully named `@ProductID` (instead of, say, `@ID`), because the primary key column name in the Products table (and therefore the DataKeyNames value in the GridView) is `ProductID`.
-
 
 If the parameter name and `DataKeyNames` value doesn t match, the GridView cannot automatically assign the parameter the value from the `DataKeys` collection.
 
@@ -104,25 +94,20 @@ Note the addition of the `DeleteCommand` property as well as the `<DeleteParamet
 
 With the `DeleteCommand` property added, the GridView s smart tag now contains the Enable Deleting option. Go ahead and check this checkbox. As discussed in [An Overview of Inserting, Updating, and Deleting](../editing-inserting-and-deleting-data/an-overview-of-inserting-updating-and-deleting-data-cs.md), this causes the GridView to add a CommandField with its `ShowDeleteButton` property set to `true`. As Figure 4 shows, when the page is visited through a browser a Delete button is included. Test this page out by deleting some products.
 
-
 [![Each GridView Row Now Includes a Delete Button](inserting-updating-and-deleting-data-with-the-sqldatasource-cs/_static/image4.gif)](inserting-updating-and-deleting-data-with-the-sqldatasource-cs/_static/image5.png)
 
 **Figure 4**: Each GridView Row Now Includes a Delete Button ([Click to view full-size image](inserting-updating-and-deleting-data-with-the-sqldatasource-cs/_static/image6.png))
-
 
 Upon clicking a Delete button, a postback occurs, the GridView assigns the `ProductID` parameter the value of the `DataKeys` collection value for the row whose Delete button was clicked, and invokes the SqlDataSource s `Delete()` method. The SqlDataSource control then connects to the database and executes the `DELETE` statement. The GridView then rebinds to the SqlDataSource, getting back and displaying the current set of products (which no longer includes the just-deleted record).
 
 > [!NOTE]
 > Since the GridView uses its `DataKeys` collection to populate the SqlDataSource parameters, it s vital that the GridView s `DataKeyNames` property be set to the column(s) that constitute the primary key and that the SqlDataSource s `SelectCommand` returns these columns. Moreover, it s important that the parameter name in the SqlDataSource s `DeleteCommand` is set to `@ProductID`. If the `DataKeyNames` property is not set or the parameter is not named `@ProductsID`, clicking the Delete button will cause a postback, but won't actually delete any record.
 
-
 Figure 5 depicts this interaction graphically. Refer back to the [Examining the Events Associated with Inserting, Updating, and Deleting](../editing-inserting-and-deleting-data/examining-the-events-associated-with-inserting-updating-and-deleting-cs.md) tutorial for a more detailed discussion on the chain of events associated with inserting, updating, and deleting from a data Web control.
-
 
 ![Clicking the Delete Button in the GridView Invokes the SqlDataSource s Delete() Method](inserting-updating-and-deleting-data-with-the-sqldatasource-cs/_static/image5.gif)
 
 **Figure 5**: Clicking the Delete Button in the GridView Invokes the SqlDataSource s `Delete()` Method
-
 
 ## Step 2: Automatically Generating the`INSERT`,`UPDATE`, and`DELETE`Statements
 
@@ -130,27 +115,21 @@ As Step 1 examined, `INSERT`, `UPDATE`, and `DELETE` SQL statements can be speci
 
 Let s explore this automatic generation option. Add a DetailsView to the Designer in `InsertUpdateDelete.aspx` and set its `ID` property to `ManageProducts`. Next, from the DetailsView s smart tag, choose to create a new data source and create a SqlDataSource named `ManageProductsDataSource`.
 
-
 [![Create a New SqlDataSource Named ManageProductsDataSource](inserting-updating-and-deleting-data-with-the-sqldatasource-cs/_static/image6.gif)](inserting-updating-and-deleting-data-with-the-sqldatasource-cs/_static/image7.png)
 
 **Figure 6**: Create a New SqlDataSource Named `ManageProductsDataSource` ([Click to view full-size image](inserting-updating-and-deleting-data-with-the-sqldatasource-cs/_static/image8.png))
 
-
 From the Configure Data Source wizard, opt to use the `NORTHWINDConnectionString` connection string and click Next. From the Configure the Select Statement screen, leave the Specify columns from a table or view radio button selected and pick the `Products` table from the drop-down list. Select the `ProductID`, `ProductName`, `UnitPrice`, and `Discontinued` columns from the checkbox list.
-
 
 [![Using the Products Table, Return the ProductID, ProductName, UnitPrice, and Discontinued Columns](inserting-updating-and-deleting-data-with-the-sqldatasource-cs/_static/image7.gif)](inserting-updating-and-deleting-data-with-the-sqldatasource-cs/_static/image9.png)
 
 **Figure 7**: Using the `Products` Table, Return the `ProductID`, `ProductName`, `UnitPrice`, and `Discontinued` Columns ([Click to view full-size image](inserting-updating-and-deleting-data-with-the-sqldatasource-cs/_static/image10.png))
 
-
 To automatically generate `INSERT`, `UPDATE`, and `DELETE` statements based on the selected table and columns, click the Advanced button and check the Generate `INSERT`, `UPDATE`, and `DELETE` statements checkbox.
-
 
 ![Check the Generate INSERT, UPDATE, and DELETE statements Checkbox](inserting-updating-and-deleting-data-with-the-sqldatasource-cs/_static/image8.gif)
 
 **Figure 8**: Check the Generate `INSERT`, `UPDATE`, and `DELETE` statements Checkbox
-
 
 The Generate `INSERT`, `UPDATE`, and `DELETE` statements checkbox will only be checkable if the table selected has a primary key and the primary key column (or columns) are included in the list of returned columns. The Use optimistic concurrency checkbox, which becomes selectable once the Generate `INSERT`, `UPDATE`, and `DELETE` statements checkbox has been checked, will augment the `WHERE` clauses in the resulting `UPDATE` and `DELETE` statements to provide optimistic concurrency control. For now, leave this checkbox unchecked; we'll examine optimistic concurrency with the SqlDataSource control in the next tutorial.
 
@@ -166,17 +145,14 @@ To turn on the DetailsView s data modification features, check the Enable Insert
 
 Visit the page in a browser and note the Edit, Delete, and New buttons included in the DetailsView. Clicking the Edit button turns the DetailsView into edit mode, which displays each BoundField whose `ReadOnly` property is set to `false` (the default) as a TextBox, and the CheckBoxField as a checkbox.
 
-
 [![The DetailsView s Default Editing Interface](inserting-updating-and-deleting-data-with-the-sqldatasource-cs/_static/image9.gif)](inserting-updating-and-deleting-data-with-the-sqldatasource-cs/_static/image11.png)
 
 **Figure 9**: The DetailsView s Default Editing Interface ([Click to view full-size image](inserting-updating-and-deleting-data-with-the-sqldatasource-cs/_static/image12.png))
-
 
 Similarly, you can delete the currently selected product or add a new product to the system. Since the `InsertCommand` statement only works with the `ProductName`, `UnitPrice`, and `Discontinued` columns, the other columns have either `NULL` or their default value assigned by the database upon insert. Just like with the ObjectDataSource, if the `InsertCommand` is missing any database table columns that don t allow `NULL` s and don t have a default value, a SQL error will occur when attempting to execute the `INSERT` statement.
 
 > [!NOTE]
 > The DetailsView s inserting and editing interfaces lack any sort of customization or validation. To add validation controls or to customize the interfaces, you need to convert the BoundFields to TemplateFields. Refer to the [Adding Validation Controls to the Editing and Inserting Interfaces](../editing-inserting-and-deleting-data/adding-validation-controls-to-the-editing-and-inserting-interfaces-cs.md) and [Customizing the Data Modification Interface](../editing-inserting-and-deleting-data/customizing-the-data-modification-interface-cs.md) tutorials for more information.
-
 
 Also, keep in mind that for updating and deleting, the DetailsView uses the current product s `DataKey` value, which is only present if the `DataKeyNames` property is configured. If editing or deleting appears to have no effect, ensure that the `DataKeyNames` property is set.
 
@@ -192,7 +168,6 @@ If such customizations are required, you need to make them manually, either thro
 
 > [!NOTE]
 > When adding parameters that do not have corresponding fields in the data Web control, keep in mind that these parameters values will need to be assigned values in some manner. These values can be: hard-coded directly in the `InsertCommand` or `UpdateCommand`; can come from some pre-defined source (the querystring, session state, Web controls on the page, and so on); or can be assigned programmatically, as we saw in the preceding tutorial.
-
 
 ## Summary
 

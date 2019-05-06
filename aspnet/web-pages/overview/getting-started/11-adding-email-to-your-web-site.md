@@ -33,7 +33,6 @@ by [Tom FitzMacken](https://github.com/tfitzmac)
 > 
 > This tutorial also works with ASP.NET Web Pages 2.
 
-
 <a id="Sending_Email_Messages"></a>
 ## Sending Email Messages from Your Website
 
@@ -51,7 +50,6 @@ In this procedure, you create two pages. The first page has a form that lets use
 
 > [!NOTE]
 > To keep this example simple, the code initializes the `WebMail` helper right in the page where you use it. However, for real websites, it's a better idea to put initialization code like this in a global file, so that you initialize the `WebMail` helper for all files in your website. For more information, see [Customizing Site-Wide Behavior for ASP.NET Web Pages](https://go.microsoft.com/fwlink/?LinkId=202906#Setting_Values_For_Helpers).
-
 
 1. Create a new website.
 2. Add a new page named *EmailRequest.cshtml* and add the following markup: 
@@ -127,7 +125,6 @@ You can also send files that are attached to email messages. In this procedure, 
 
 <a id="Additional_Resources"></a>
 ## Additional Resources
-
 
 - [ASP.NET Web Pages (Razor) Troubleshooting Guide](https://go.microsoft.com/fwlink/?LinkId=253001)
 - [Simple Mail Transfer Protocol](https://msdn.microsoft.com/library/aa480435.aspx)

@@ -13,7 +13,6 @@ msc.type: chapter
 
 > This video series demonstrates improvements to controls for Web Forms pages in ASP.NET 4.
 
-
 - [New Rendering Option for Check Box Lists and Radio Button Lists](aspnet-4-quick-hit-new-rendering-option-for-check-box-lists-and-radio-button-lists.md)
 - [Table Free Templated Controls](aspnet-4-quick-hit-table-free-templated-controls.md)
 - [Tableless Menu Control](aspnet-4-quick-hit-tableless-menu-control.md)

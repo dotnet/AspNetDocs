@@ -17,7 +17,6 @@ by [Joe Stagner](https://github.com/JoeStagner)
 > 
 > This tutorial series details all of the steps taken to build the Tailspin Spyworks sample application. Part 2 covers adding the data access layer.
 
-
 ## <a id="_Toc260221668"></a>  Adding the Data Access Layer
 
 Our ecommerce application will depend on two databases.

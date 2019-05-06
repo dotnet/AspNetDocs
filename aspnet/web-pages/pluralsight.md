@@ -11,7 +11,6 @@ msc.type: content
 ---
 # WebMatrix and Web Pages Video Training from Pluralsight
 
-
 > [!NOTE] 
 > WebMatrix is no longer recommended as an integrated development environment for ASP.NET Web Pages. Use [Visual Studio](xref:aspnet/web-pages/overview/getting-started/program-asp-net-web-pages-in-visual-studio) or [Visual Studio Code](https://code.visualstudio.com/).
 
@@ -26,11 +25,9 @@ msc.type: content
 - [Source Control](https://pluralsight.com/training/Player?author=matt-milner&name=webmatrix-introduction-m9&mode=live&clip=0&course=webmatrix-introduction)
 - [Mobile Websites](https://pluralsight.com/training/Player?author=matt-milner&name=webmatrix-introduction-m10&mode=live&clip=0&course=webmatrix-introduction)
 
-
 "This course recorded by Matt Milner for Pluralsight is a great way to get all the details you need to create dynamic data-driven applications powered by ASP.NET Web Pages but also the powerful new Razor syntax. Big thanks to Pluralsight for this free source! The video player, content and flow is really well done. I encourage you to check it out now!"
 
 Scott Hanselman, Principal Program Manager, Web Platform and Azure Tools, Microsoft
-
 
 ![pluralsight-logo-playbutton](pluralsight/_static/image1.png)
 

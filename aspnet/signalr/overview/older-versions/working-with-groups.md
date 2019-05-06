@@ -17,7 +17,6 @@ by [Patrick Fletcher](https://github.com/pfletcher), [Tom FitzMacken](https://gi
 
 > This topic describes how to add users to groups and persist group membership information.
 
-
 ## Overview
 
 Groups in SignalR provide a method for broadcasting messages to specified subsets of connected clients. A group can have any number of clients, and a client can be a member of any number of groups. You don't have to explicitly create groups. In effect, a group is automatically created the first time you specify its name in a call to Groups.Add, and it is deleted when you remove the last connection from membership in it. For an introduction to using groups, see [How to manage group membership from the Hub class](index.md) in the Hubs API - Server Guide.

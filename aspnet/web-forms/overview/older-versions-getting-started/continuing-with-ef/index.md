@@ -13,7 +13,6 @@ msc.type: chapter
 
 > How to build the Contoso U application as an n-tier application using the ObjectDataSource control and how to handle concurrency and maximize performance.
 
-
 - [Entity Framework 4.0 and the ObjectDataSource Control, Part 1: Getting Started](using-the-entity-framework-and-the-objectdatasource-control-part-1-getting-started.md)
 - [Entity Framework 4.0 and the ObjectDataSource Control, Part 2: Adding a Business Logic Layer and Unit Tests](using-the-entity-framework-and-the-objectdatasource-control-part-2-adding-a-business-logic-layer-and-unit-tests.md)
 - [Entity Framework 4.0 and the ObjectDataSource Control, Part 3: Sorting and Filtering](using-the-entity-framework-and-the-objectdatasource-control-part-3-sorting-and-filtering.md)

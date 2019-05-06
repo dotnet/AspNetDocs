@@ -34,7 +34,6 @@ Although this tutorial uses the official Redis implementation, there is also a [
 > 
 > SignalR scaleout with Redis does not support Redis clusters.
 
-
 ## Overview
 
 Before we get to the detailed tutorial, here is a quick overview of what you will do.

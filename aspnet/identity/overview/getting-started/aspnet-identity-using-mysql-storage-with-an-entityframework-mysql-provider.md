@@ -16,7 +16,6 @@ by [Maurycy Markowski](https://github.com/maumar), [Raquel Soares De Almeida](ht
 
 > This tutorial shows you how to replace the default data storage mechanism for [**ASP.NET Identity**](introduction-to-aspnet-identity.md) with EntityFramework (SQL client provider) with a MySQL provider.
 
-
 The following topics will be covered in this tutorial:
 
 - Creating a MySQL database on Azure
@@ -94,7 +93,6 @@ In order for EntityFramework to connect to MySQL database, you need to install a
 > [!NOTE]
 > This is a pre-release version of the assembly, and as such it may contain bugs. You should not use a pre-release version of the provider in production.
 
-
 [Click the following image to expand it.]
 
 [![](aspnet-identity-using-mysql-storage-with-an-entityframework-mysql-provider/_static/image22.png)](aspnet-identity-using-mysql-storage-with-an-entityframework-mysql-provider/_static/image21.png)
@@ -105,7 +103,6 @@ In this section you will configure the Entity Framework to use the MySQL provide
 
 > [!NOTE]
 > The following examples contain a specific assembly version for MySql.Data.dll. If the assembly version changes, you will need to modify the appropriate configuration settings with the correct version.
-
 
 1. Open the Web.config file for your project in Visual Studio 2013.
 2. Locate the following configuration settings, which define the default database provider and factory for the Entity Framework:
@@ -135,7 +132,6 @@ The MySQL provider that is featured in this tutorial does not currently support 
 
 > [!NOTE]
 > This step is not required if you are connecting to a SQL Server instance on Azure or if you are using a database that is hosted on premises.
-
 
 To create a custom Entity Framework initializer for MySQL, use the following steps:
 

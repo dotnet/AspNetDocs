@@ -27,7 +27,6 @@ by [Tom FitzMacken](https://github.com/tfitzmac)
 > 
 > You can [download](https://go.microsoft.com/fwlink/?LinkId=286116) the complete project in C# or VB. The downloadable code works with either Visual Studio 2012 or Visual Studio 2013. It uses the Visual Studio 2012 template, which is slightly different than the Visual Studio 2013 template shown in this tutorial.
 
-
 ## What you'll build
 
 In this tutorial, you'll:

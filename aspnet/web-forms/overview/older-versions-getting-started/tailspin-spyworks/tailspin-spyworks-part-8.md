@@ -17,7 +17,6 @@ by [Joe Stagner](https://github.com/JoeStagner)
 > 
 > This tutorial series details all of the steps taken to build the Tailspin Spyworks sample application. Part 8 adds a contact page, about page, and exception handling. This is the conclusion of the series.
 
-
 ## <a id="_Toc260221680"></a>  Contact Page (Sending email from ASP.NET)
 
 Create a new page named ContactUs.aspx

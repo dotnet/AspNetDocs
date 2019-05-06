@@ -17,16 +17,13 @@ by [Scott Mitchell](https://twitter.com/ScottOnWriting)
 
 > This tutorial will show master page basics. Namely, what are master pages, how does one create a master page, what are content place holders, how does one create an ASP.NET page that uses a master page, how modifying the master page is automatically reflected in its associated content pages, and so on.
 
-
 ## Introduction
 
 One attribute of a well-designed website is a consistent site-wide page layout. Take the www.asp.net website, for example. At the time of this writing, every page has the same content at the top and bottom of the page. As Figure 1 shows, the very top of each page displays a gray bar with a list of Microsoft Communities. Beneath that is the site logo, the list of languages into which the site has been translated, and the core sections: Home, Get Started, Learn, Downloads, and so forth. Likewise, the bottom of the page includes information about advertising on www.asp.net, a copyright statement, and a link to the privacy statement.
 
-
 [![The www.asp.net Website Employs a Consistent Look and Feel Across All Pages](creating-a-site-wide-layout-using-master-pages-cs/_static/image2.png)](creating-a-site-wide-layout-using-master-pages-cs/_static/image1.png)
 
 <strong>Figure 01</strong>: The www.asp.net Website Employs a Consistent Look and Feel Across All Pages ([Click to view full-size image](creating-a-site-wide-layout-using-master-pages-cs/_static/image3.png))
-
 
 Another attribute of a well-designed site is the ease with which the site's appearance can be changed. Figure 1 shows the www.asp.net homepage as of March 2008, but between now and this tutorial's publication, the look and feel may have changed. Perhaps the menu items along the top will expand to include a new section for the MVC framework. Or maybe a radically new design with different colors, fonts, and layout will be unveiled. Applying such changes to the entire site should be a fast and simple process that does not require modifying the thousands of web pages that make up the site.
 
@@ -58,28 +55,22 @@ The shortcomings of using User Controls were addressed in ASP.NET version 2.0 an
 > [!NOTE]
 > The core concepts and functionality of master pages has not changed since ASP.NET version 2.0. However, Visual Studio 2008 offers design-time support for nested master pages, a feature that was lacking in Visual Studio 2005. We will look at using nested master pages in a future tutorial.
 
-
 Figure 2 shows what the master page for www.asp.net might look like. Note that the master page defines the common site-wide layout - the markup at the top, bottom, and right of every page - as well as a ContentPlaceHolder in the middle-left, where the unique content for each individual web page is located.
-
 
 ![A Master Page Defines the Site-Wide Layout and the Regions Editable on a Content Page-by-Content Page Basis](creating-a-site-wide-layout-using-master-pages-cs/_static/image4.png)
 
 **Figure 02**: A Master Page Defines the Site-Wide Layout and the Regions Editable on a Content Page-by-Content Page Basis
 
-
 Once a master page has been defined it can be bound to new ASP.NET pages through the tick of a checkbox. These ASP.NET pages - called content pages - include a Content control for each of the master page's ContentPlaceHolder controls. When the content page is visited through a browser the ASP.NET engine creates the master page's control hierarchy and injects the content page's control hierarchy into the appropriate places. This combined control hierarchy is rendered and the resulting HTML is returned to the end user's browser. Consequently, the content page emits both the common markup defined in its master page outside of the ContentPlaceHolder controls and the page-specific markup defined within its own Content controls. Figure 3 illustrates this concept.
-
 
 [![The Requested Page's Markup is Fused into the Master Page](creating-a-site-wide-layout-using-master-pages-cs/_static/image6.png)](creating-a-site-wide-layout-using-master-pages-cs/_static/image5.png)
 
 **Figure 03**: The Requested Page's Markup is Fused into the Master Page ([Click to view full-size image](creating-a-site-wide-layout-using-master-pages-cs/_static/image7.png))
 
-
 Now that we have discussed how master pages work, let's take a look at creating a master page and associated content pages using Visual Web Developer.
 
 > [!NOTE]
 > In order to reach the widest possible audience, the ASP.NET website we build throughout this tutorial series will be created using ASP.NET 3.5 with Microsoft's free version of Visual Studio 2008, [Visual Web Developer 2008](https://www.microsoft.com/express/vwd/). If you have not yet upgraded to ASP.NET 3.5, don't worry - the concepts discussed in these tutorials work equally well with ASP.NET 2.0 and Visual Studio 2005. However, some demo applications may use features new to the .NET Framework version 3.5; when 3.5-specific features are used, I include a note that discusses how to implement similar functionality in version 2.0. Do keep in mind that the demo applications available for download from each tutorial target the .NET Framework version 3.5, which results in a `Web.config` file that includes 3.5-specific configuration elements and references to 3.5-specific namespaces in the `using` statements in ASP.NET pages' code-behind classes. Long story short, if you have yet to install .NET 3.5 on your computer then the downloadable web application will not work without first removing the 3.5-specific markup from `Web.config`. See [Dissecting ASP.NET Version 3.5's `Web.config` File](http://www.4guysfromrolla.com/articles/121207-1.aspx) for more information on this topic. You will also need to remove the `using` statements that reference 3.5-specific namespaces.
-
 
 ## Step 1: Creating a Master Page
 
@@ -88,19 +79,15 @@ Before we can explore creating and using master and content pages, we first need
 > [!NOTE]
 > Visual Studio supports two modes of project management: Web Site Projects and Web Application Projects. Web Site Projects lack a project file, whereas Web Application Projects mimic the project architecture in Visual Studio .NET 2002/2003 - they include a project file and compile the project's source code into a single assembly, which is placed in the `/bin` folder. Visual Studio 2005 initially only supported Web Site Projects, although the [Web Application Project model](https://msdn.microsoft.com/library/aa730880(vs.80).aspx) was reintroduced with Service Pack 1; Visual Studio 2008 offers both project models. The Visual Web Developer 2005 and 2008 editions, however, only support Web Site Projects. I use the Web Site Project model for my demos in this tutorial series. If you are using a non-Express edition and want to use the Web Application Project model instead, feel free to do so but be aware that there may be some discrepancies between what you see on your screen and the steps you must take versus the screen shots shown and instructions provided in these tutorials.
 
-
 [![Create a New File System-Based Web Site](creating-a-site-wide-layout-using-master-pages-cs/_static/image9.png)](creating-a-site-wide-layout-using-master-pages-cs/_static/image8.png)
 
 **Figure 04**: Create a New File System-Based Web Site  ([Click to view full-size image](creating-a-site-wide-layout-using-master-pages-cs/_static/image10.png))
 
-
 Next, add a master page to the site in the root directory by right-clicking on the Project name, choosing Add New Item, and selecting the Master Page template. Note that master pages end with the extension `.master`. Name this new master page `Site.master` and click Add.
-
 
 [![Add a Master Page Named Site.master to the Website](creating-a-site-wide-layout-using-master-pages-cs/_static/image12.png)](creating-a-site-wide-layout-using-master-pages-cs/_static/image11.png)
 
 **Figure 05**: Add a Master Page Named `Site.master` to the Website ([Click to view full-size image](creating-a-site-wide-layout-using-master-pages-cs/_static/image13.png))
-
 
 Adding a new master page file through Visual Web Developer creates a master page with the following declarative markup:
 
@@ -120,16 +107,13 @@ This default master page declarative markup serves as a starting point for desig
 > [!NOTE]
 > When designing a master page make sure that the master page contains a Web Form and that at least one ContentPlaceHolder control appears within this Web Form.
 
-
 ### Creating a Simple Site Layout
 
 Let's expand `Site.master`'s default declarative markup to create a site layout where all pages share: a common header; a left column with navigation, news and other site-wide content; and a footer that displays the "Powered by Microsoft ASP.NET" icon. Figure 6 shows the end result of the master page when one of its content pages is viewed through a browser. The red circled region in Figure 6 is specific to the page being visited (`Default.aspx`); the other content is defined in the master page and therefore consistent across all content pages.
 
-
 [![The Master Page Defines the Markup for the Top, Left, and Bottom Portions](creating-a-site-wide-layout-using-master-pages-cs/_static/image15.png)](creating-a-site-wide-layout-using-master-pages-cs/_static/image14.png)
 
 **Figure 06**: The Master Page Defines the Markup for the Top, Left, and Bottom Portions ([Click to view full-size image](creating-a-site-wide-layout-using-master-pages-cs/_static/image16.png))
-
 
 To achieve the site layout shown in Figure 6, start by updating the `Site.master` master page so that it contains the following declarative markup:
 
@@ -146,7 +130,6 @@ If you are following along at your computer, you will need to download this tuto
 > [!NOTE]
 > A discussion of CSS and web page formatting is beyond the scope of this article. For more on CSS, check out the [CSS Tutorials](http://www.w3schools.com/css/default.asp) at [W3Schools.com](http://www.w3schools.com/). I also encourage you to download this tutorial's accompanying code and play with the CSS settings in `Styles.css` to see the effects of different formatting rules.
 
-
 ### Creating a Master Page Using an Existing Design Template
 
 Over the years I've built a number of ASP.NET web applications for small- to medium-sized companies. Some of my clients had an existing site layout they wanted to use; others hired a competent graphics designer. A few entrusted me to design the website layout. As you can tell by Figure 6, tasking a programmer to design a website's layout is usually as wise as having your accountant perform open-heart surgery while your doctor does your taxes.
@@ -155,7 +138,6 @@ Fortunately, there are innumerous websites that offer free HTML design templates
 
 > [!NOTE]
 > Microsoft also offers a number of [free ASP.NET Design Start Kit Templates](https://msdn.microsoft.com/asp.net/aa336613.aspx) that integrate into the New Web Site dialog box in Visual Studio.
-
 
 ## Step 2: Creating Associated Content Pages
 
@@ -166,16 +148,13 @@ Let's add a new ASP.NET page to the project and bind it to the `Site.master` mas
 > [!NOTE]
 > If you created your ASP.NET website using the Web Application Project model instead of the Web Site Project model you will not see the "Select master page" checkbox in the Add New Item dialog box shown in Figure 7. To create a content page when using the Web Application Project model you must choose the Web Content Form template instead of the Web Form template. After selecting the Web Content Form template and clicking Add, the same Select a Master Page dialog box shown in Figure 8 will appear.
 
-
 [![Add a New Content Page](creating-a-site-wide-layout-using-master-pages-cs/_static/image18.png)](creating-a-site-wide-layout-using-master-pages-cs/_static/image17.png)
 
 **Figure 07**: Add a New Content Page ([Click to view full-size image](creating-a-site-wide-layout-using-master-pages-cs/_static/image19.png))
 
-
 [![Select the Site.master Master Page](creating-a-site-wide-layout-using-master-pages-cs/_static/image21.png)](creating-a-site-wide-layout-using-master-pages-cs/_static/image20.png)
 
 **Figure 08**: Select the `Site.master` Master Page ([Click to view full-size image](creating-a-site-wide-layout-using-master-pages-cs/_static/image22.png))
-
 
 As the following declarative markup shows, a new content page contains a `@Page` directive that points back to its master page and a Content control for each of the master page's ContentPlaceHolder controls.
 
@@ -184,28 +163,23 @@ As the following declarative markup shows, a new content page contains a `@Page`
 > [!NOTE]
 > In the "Creating a Simple Site Layout" section in Step 1 I renamed `ContentPlaceHolder1` to `MainContent`. If you did not rename this ContentPlaceHolder control's `ID` in the same way, your content page's declarative markup will differ slightly from the markup shown above. Namely, the second Content control's `ContentPlaceHolderID` will reflect the `ID` of the corresponding ContentPlaceHolder control in your master page.
 
-
 When rendering a content page, the ASP.NET engine must fuse the page's Content controls with its master page's ContentPlaceHolder controls. The ASP.NET engine determines the content page's master page from the `@Page` directive's `MasterPageFile` attribute. As the above markup shows, this content page is bound to `~/Site.master`.
 
 Because the master page has two ContentPlaceHolder controls - `head` and `MainContent` - Visual Web Developer generated two Content controls. Each Content control references a particular ContentPlaceHolder via its `ContentPlaceHolderID` property.
 
 Where master pages shine over previous site-wide template techniques is with their design-time support. Figure 9 shows the `About.aspx` content page when viewed through Visual Web Developer's Design view. Note that while the master page content is visible, it is grayed out and cannot be modified. The Content controls corresponding to the master page's ContentPlaceHolders are, however, editable. And just like with any other ASP.NET page, you can create the content page's interface by adding Web controls through the Source or Design views.
 
-
 [![The Content Page's Design View Displays Both the Page-Specific and Master Page Contents](creating-a-site-wide-layout-using-master-pages-cs/_static/image24.png)](creating-a-site-wide-layout-using-master-pages-cs/_static/image23.png)
 
 **Figure 09**: The Content Page's Design View Displays Both the Page-Specific and Master Page Contents ([Click to view full-size image](creating-a-site-wide-layout-using-master-pages-cs/_static/image25.png))
-
 
 ### Adding Markup and Web Controls to the Content Page
 
 Take a moment to create some content for the `About.aspx` page. As you can see in Figure 10, I entered an "About the Author" heading and a couple of paragraphs of text, but feel free to add Web controls, too. After creating this interface, visit the `About.aspx` page through a browser.
 
-
 [![Visit the About.aspx Page Through a Browser](creating-a-site-wide-layout-using-master-pages-cs/_static/image27.png)](creating-a-site-wide-layout-using-master-pages-cs/_static/image26.png)
 
 **Figure 10**: Visit the `About.aspx` Page Through a Browser ([Click to view full-size image](creating-a-site-wide-layout-using-master-pages-cs/_static/image28.png))
-
 
 It is important to understand that the requested content page and its associated master page are fused and rendered as a whole entirely on the web server. The end user's browser is then sent the resulting, fused HTML. To verify this, view the HTML received by the browser by going to the View menu and choosing Source. Note that there are no frames or any other specialized techniques for displaying two different web pages in a single window.
 
@@ -226,7 +200,6 @@ Because it is much easier to create new content pages than it is to convert exis
 > [!NOTE]
 > When creating a new ASP.NET application, Visual Web Developer adds a `Default.aspx` page that isn't bound to a master page. If you want to practice converting an existing ASP.NET page into a content page, go ahead and do so with `Default.aspx`. Alternatively, you can delete `Default.aspx` and then re-add it, but this time checking the "Select master page" checkbox.
 
-
 ## Step 3: Updating the Master Page's Markup
 
 One of the primary benefits of master pages is that a single master page may be used to define the overall layout for numerous pages on the site. Therefore, updating the site's look and feel requires updating a single file - the master page.
@@ -241,15 +214,12 @@ Next, create a `Page_Load` event handler for the master page and add the followi
 
 The above code sets the Label's `Text` property to the current date and time formatted as the day of the week, the name of the month, and the two-digit day (see Figure 11). With this change, revisit one of your content pages. As Figure 11 shows, the resulting markup is immediately updated to include the change to the master page.
 
-
 [![The Changes to the Master Page are Reflected When Viewing the a Content Page](creating-a-site-wide-layout-using-master-pages-cs/_static/image30.png)](creating-a-site-wide-layout-using-master-pages-cs/_static/image29.png)
 
 **Figure 11**: The Changes to the Master Page are Reflected When Viewing the a Content Page ([Click to view full-size image](creating-a-site-wide-layout-using-master-pages-cs/_static/image31.png))
 
-
 > [!NOTE]
 > As this example illustrates, master pages may contain server-side Web controls, code, and event handlers.
-
 
 ## Summary
 

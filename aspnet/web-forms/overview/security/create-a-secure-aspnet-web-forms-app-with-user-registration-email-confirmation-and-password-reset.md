@@ -15,7 +15,6 @@ by [Erik Reitan](https://github.com/Erikre)
 
 > This tutorial shows you how to build an ASP.NET Web Forms app with user registration, email confirmation and password reset using the ASP.NET Identity membership system. This tutorial was based on Rick Anderson's [MVC tutorial](../../../mvc/overview/security/create-an-aspnet-mvc-5-web-app-with-email-confirmation-and-password-reset.md).
 
-
 ## Introduction
 
 This tutorial guides you through the steps required to create an ASP.NET Web Forms application using Visual Studio and ASP.NET 4.5 to create a secure Web Forms app with user registration, email confirmation and password reset.
@@ -37,7 +36,6 @@ Start by installing and running [Visual Studio Express 2013 for Web](https://go.
 
 > [!NOTE]
 > Warning: You must install [Visual Studio 2013 Update 3](https://go.microsoft.com/fwlink/?LinkId=390465) or higher to complete this tutorial.
-
 
 1. Create a new project (**File** -&gt; **New Project**) and select the **ASP.NET Web Application** template and the latest .NET Framework version from the **New Project** dialog box.
 2. From the **New ASP.NET Project** dialog box, select the **Web Forms** template. Leave the default authentication as **Individual User Accounts**. If you'd like to host the app in Azure, leave the **Host in the cloud** check box checked.   
@@ -89,7 +87,6 @@ Although this tutorial only shows how to add email notification through [SendGri
 ### Enable Email Confirmation
 
  To enable email confirmation, you'll modify the registration code using the following steps.  
- 
 
 1. In the *Account* folder, open the *Register.aspx.cs* code-behind and update the `CreateUser_Click` method to enable the following highlighted changes: 
 

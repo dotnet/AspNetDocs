@@ -22,7 +22,6 @@ Start a new instance of Visual Studio and create a new console application proje
 > [!NOTE]
 > You can also add the console app to the same Visual Studio solution that contains the OData service.
 
-
 ## Install the OData Client Code Generator
 
 From the **Tools** menu, select **Extensions and Updates**. Select **Online** &gt; **Visual Studio Gallery**. In the search box, search for &quot;OData Client Code Generator&quot;. Click **Download** to install the VSIX. You might be prompted to restart Visual Studio.
@@ -37,7 +36,6 @@ Run the ProductService project from Visual Studio. By default, Visual Studio lau
 
 > [!NOTE]
 > If you put both projects in the same solution, make sure to run the ProductService project without debugging. In the next step, you will need to keep the service running while you modify the console application project.
-
 
 ## Generate the Service Proxy
 

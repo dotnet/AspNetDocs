@@ -96,7 +96,6 @@ Run the `Update-Database` command in the PMC. The command will fail at this poin
 
 > *Could not drop object 'dbo.Instructor' because it is referenced by a FOREIGN KEY constraint.*
 
-
 Open *Migrations\&lt;timestamp&gt;\_Inheritance.cs* and replace the `Up` method with the following code:
 
 [!code-csharp[Main](implementing-inheritance-with-the-entity-framework-in-an-asp-net-mvc-application/samples/sample5.cs)]

@@ -13,7 +13,6 @@ msc.type: chapter
 
 > This tutorial series will teach you the basics of building an ASP.NET MVC Web application using Microsoft Visual Web Developer 2010 Express Service Pack 1, which is a free version of Microsoft Visual Studio.
 
-
 - [Intro to ASP.NET MVC 4](intro-to-aspnet-mvc-4.md)
 - [Adding a Controller](adding-a-controller.md)
 - [Adding a View](adding-a-view.md)

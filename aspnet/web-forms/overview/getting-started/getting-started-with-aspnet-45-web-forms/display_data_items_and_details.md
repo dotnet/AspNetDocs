@@ -91,7 +91,6 @@ This code shows the `GetProducts` method that the **ListView** control's `ItemTy
 
 When a valid category is passed as a query string to the page, the results of the query are limited to those products in the database that match the `categoryId` value. For instance, if the *ProductsList.aspx* page URL is this:
 
-
 [!code-console[Main](display_data_items_and_details/samples/sample4.cmd)]
 
 The page displays only the products where the `categoryId` equals `1`.
@@ -158,7 +157,6 @@ Now you can run the application to see an individual product displayed based on 
     ![Display Data Items and Details - Products](display_data_items_and_details/_static/image4.png)
     
 4. Close the browser.
-
 
 ## Additional resources
 

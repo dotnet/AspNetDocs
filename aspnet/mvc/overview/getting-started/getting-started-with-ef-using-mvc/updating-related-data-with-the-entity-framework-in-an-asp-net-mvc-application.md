@@ -122,7 +122,6 @@ Replace the `HttpPost` `Edit` method with the following code. which handles offi
 The reference to `RetryLimitExceededException` requires a `using` statement; to add it - hover your mouse over `RetryLimitExceededException`. The following message appears:
 ![ Retry exception message](updating-related-data-with-the-entity-framework-in-an-asp-net-mvc-application/_static/image13.png)
 
-
 Select **Show potential fixes**, then **using System.Data.Entity.Infrastructure**
 
 ![Resolve Retry exception](updating-related-data-with-the-entity-framework-in-an-asp-net-mvc-application/_static/image14.png)
@@ -230,7 +229,6 @@ This code doesn't handle the scenario of one instructor assigned as administrato
 ## Add office location and courses to the Create page
 
 In *InstructorController.cs*, delete the `HttpGet` and `HttpPost` `Create` methods, and then add the following code in their place:
-
 
 [!code-csharp[Main](updating-related-data-with-the-entity-framework-in-an-asp-net-mvc-application/samples/sample25.cs)]
 

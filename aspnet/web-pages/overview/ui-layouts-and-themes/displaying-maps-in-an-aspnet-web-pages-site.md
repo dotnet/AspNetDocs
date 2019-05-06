@@ -35,7 +35,6 @@ by [Tom FitzMacken](https://github.com/tfitzmac)
 > 
 > This tutorial also works with WebMatrix 3.
 
-
 In Web Pages, you can display maps on a page by using `Maps` helper. You can generate maps based either on an address or on a set of longitude and latitude coordinates. The `Maps` class lets you call into popular map engines including Bing, Google, MapQuest, and Yahoo.
 
 The steps for adding mapping to a page are the same regardless of which of the map engines you call. You just add a JavaScript file reference that makes available methods to display the map, and then you call methods of the `Maps` helper.
@@ -103,6 +102,5 @@ This example shows how to create a map based on coordinates. This example shows 
 
 <a id="Additional_Resources"></a>
 ## Additional Resources
-
 
 [Microsoft.Maps API Reference](https://msdn.microsoft.com/library/gg427611.aspx)

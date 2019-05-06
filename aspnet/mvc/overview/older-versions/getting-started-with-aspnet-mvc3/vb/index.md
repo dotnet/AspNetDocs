@@ -13,7 +13,6 @@ msc.type: chapter
 
 > The basics of building an ASP.NET MVC Web application using Microsoft Visual Web Developer 2010 Express using VB.NET.
 
-
 - [Intro to ASP.NET MVC 3 (VB)](intro-to-aspnet-mvc-3.md)
 - [Adding a Controller (VB)](adding-a-controller.md)
 - [Adding a View (VB)](adding-a-view.md)

@@ -11,7 +11,6 @@ msc.type: authoredcontent
 ---
 # ASP.NET SignalR Hubs API Guide - JavaScript Client
 
-
 [!INCLUDE [Consider ASP.NET Core SignalR](~/includes/signalr/signalr-version-disambiguation.md)]
 
 > This document provides an introduction to using the Hubs API for SignalR version 2 in JavaScript clients, such as browsers and Windows Store (WinJS) applications.
@@ -118,7 +117,6 @@ In the preceding example, the reference to the SignalR generated proxy is to dyn
 > [!NOTE]
 > For Windows 8 (Windows Store) JavaScript clients, use the physical proxy file instead of the dynamically generated one. For more information, see [How to create a physical file for the SignalR generated proxy](#manualproxy) later in this topic.
 
-
 In an ASP.NET MVC 4 or 5 Razor view, use the tilde to refer to the application root in your proxy file reference:
 
 [!code-html[Main](hubs-api-guide-javascript-client/samples/sample5.html)]
@@ -187,7 +185,6 @@ By default, the hub location is the current server; if you are connecting to a d
 > [!NOTE]
 > Normally you register event handlers before calling the `start` method to establish the connection. If you want to register some event handlers after establishing the connection, you can do that, but you must register at least one of your event handler(s) before calling the `start` method. One reason for this is that there can be many Hubs in an application, but you wouldn't want to trigger the `OnConnected` event on every Hub if you are only going to use to one of them. When the connection is established, the presence of a client method on a Hub's proxy is what tells SignalR to trigger the `OnConnected` event. If you don't register any event handlers before calling the `start` method, you will be able to invoke methods on the Hub, but the Hub's `OnConnected` method won't be called and no client methods will be invoked from the server.
 
-
 <a id="connequivalence"></a>
 
 ### $.connection.hub is the same object that $.hubConnection() creates
@@ -245,7 +242,6 @@ The following code demonstrates how to enable CORS or JSONP in a SignalR 2 proje
 > - For information about using cross-domain connections with Internet Explorer 9, see [this StackOverflow thread](http://stackoverflow.com/questions/13573397/siganlr-ie9-cross-domain-request-dont-work).
 > - For information about using cross-domain connections with Chrome, see [this StackOverflow thread](http://stackoverflow.com/questions/15467373/signalr-1-0-1-cross-domain-request-cors-with-chrome).
 > - The sample code uses the default "/signalr" URL to connect to your SignalR service. For information about how to specify a different base URL, see [ASP.NET SignalR Hubs API Guide - Server - The /signalr URL](hubs-api-guide-server.md#signalrurl).
-
 
 <a id="configureconnection"></a>
 

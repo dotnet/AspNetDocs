@@ -13,6 +13,5 @@ msc.type: chapter
 
 > This tutorial shows how to PasswordStrength control to check how strong a password is as a user creates it.
 
-
 - [Testing the Strength of a Password (C#)](testing-the-strength-of-a-password-cs.md)
 - [Testing the Strength of a Password (VB)](testing-the-strength-of-a-password-vb.md)

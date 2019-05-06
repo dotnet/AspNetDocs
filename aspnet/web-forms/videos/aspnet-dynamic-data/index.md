@@ -13,7 +13,6 @@ msc.type: chapter
 
 > How to use ASP.NET Dynamic Data to create scaffolded applications that automatically know how to perform data access.
 
-
 - [Your First Scaffold and What is Dynamic Data](your-first-scaffold-and-what-is-dynamic-data.md)
 - [Enable Inline GridView Editing](how-do-i-enable-inline-gridview-editing.md)
 - [Change how my Fields render](how-do-i-change-how-my-fields-render.md)

@@ -41,7 +41,6 @@ by [Patrick Fletcher](https://github.com/pfletcher)
 >
 > Please leave feedback on how you liked this tutorial and what we could improve in the comments at the bottom of the page. If you have questions that are not directly related to the tutorial, you can post them to the [ASP.NET SignalR forum](https://forums.asp.net/1254.aspx/1?ASP+NET+SignalR) or [StackOverflow.com](http://stackoverflow.com/).
 
-
 SignalR 2 offers a consistent development experience across server platforms using [OWIN](http://owin.org). This article describes the few steps that are needed to update a SignalR 1.x application to version 2.
 
 While it is encouraged to upgrade applications to SignalR 2, SignalR 1.x will still be supported.

@@ -13,7 +13,6 @@ msc.type: chapter
 
 > This is a beginner tutorial series that introduces ASP.NET MVC. Create a simple web application that reads and writes from a database.
 
-
 - [Intro to ASP.NET MVC](getting-started-with-mvc-part1.md)
 - [Adding a Controller](getting-started-with-mvc-part2.md)
 - [Adding a View](getting-started-with-mvc-part3.md)

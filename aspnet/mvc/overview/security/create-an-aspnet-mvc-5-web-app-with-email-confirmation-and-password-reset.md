@@ -17,7 +17,6 @@ by [Rick Anderson]((https://twitter.com/RickAndMSFT))
 > 
 > This tutorial was written by [Rick Anderson](https://blogs.msdn.com/rickAndy) ( Twitter: [@RickAndMSFT](https://twitter.com/RickAndMSFT) ).
 
-
 <a id="createMvc"></a>
 ## Create an ASP.NET MVC app
 
@@ -25,7 +24,6 @@ Start by installing and running [Visual Studio Express 2013 for Web](https://go.
 
 > [!NOTE]
 > Warning: You must install [Visual Studio 2013 Update 3](https://go.microsoft.com/fwlink/?LinkId=390465) or higher to complete this tutorial.
-
 
 1. Create a new ASP.NET Web project and select the MVC template. Web Forms also supports ASP.NET Identity, so you could follow similar steps in a web forms app.  
     ![](create-an-aspnet-mvc-5-web-app-with-email-confirmation-and-password-reset/_static/image1.png)
@@ -72,7 +70,6 @@ To keep this sample simple, we'll store the app settings in the *web.config* fil
 
 > [!WARNING]
 > Security - Never store sensitive data in your source code. The account and credentials are stored in the appSetting. On Azure, you can securely store these values on the **[Configure](https://blogs.msdn.com/b/webdev/archive/2014/06/04/queuebackgroundworkitem-to-reliably-schedule-and-run-long-background-process-in-asp-net.aspx)** tab in the Azure portal. See [Best practices for deploying passwords and other sensitive data to ASP.NET and Azure](../../../identity/overview/features-api/best-practices-for-deploying-passwords-and-other-sensitive-data-to-aspnet-and-azure.md).
-
 
 ### Enable email confirmation in the Account controller
 

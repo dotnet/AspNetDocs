@@ -32,7 +32,6 @@ by [Tom FitzMacken](https://github.com/tfitzmac)
 > - The `Database.Execute` method.
 > - Hidden fields (`<input type="hidden">`).
 
-
 ## What You'll Build
 
 In the previous tutorial, you learned how to add a record to a database. Here, you'll learn how to display a record for editing. In the *Movies* page, you'll update the `WebGrid` helper so that it displays an **Edit** link next to each movie:
@@ -123,7 +122,6 @@ The column consists *only* of the markup that renders the link, plus some inform
 > 
 > Obviously, to use named parameters, you have to know the names of the parameters. WebMatrix IntelliSense can *show* you the names, but it cannot currently fill them in for you.
 
-
 ## Creating the Edit Page
 
 Now you can create the *EditMovie* page. When users click the **Edit** link, they'll end up on this page.
@@ -200,7 +198,6 @@ You can specify any columns in any order, and you don't necessarily have to upda
 > 
 > **Important** The `Where` clause with the ID is very important, because that's how the database knows which database record you want to update. If you left off the `Where` clause, the database would update *every* record in the database. In most cases, that would be a disaster.
 
-
 In the code, the values to update are passed to the SQL statement by using placeholders. To repeat what we've said before: for security reasons, *only* use placeholders to pass values to a SQL statement.
 
 After the code uses `db.Execute` to run the `Update` statement, it redirects back to the listing page, where you can see the changes.
@@ -216,7 +213,6 @@ After the code uses `db.Execute` to run the `Update` statement, it redirects bac
 > Of course, the `Query` method might return only one database row. However, ASP.NET always treats the results of the `Query` method as a collection. Even if the method returns just one row, you have to extract that single row from the collection. Therefore, in situations where you *know* you'll get back only one row, it's a bit more convenient to use `QuerySingle`.
 > 
 > There are a few other methods that perform specific types of database operations. You can find a listing of database methods in the [ASP.NET Web Pages API Quick Reference](../../api-reference/asp-net-web-pages-api-reference.md#Data).
-
 
 ## Making Validation for the ID More Robust
 

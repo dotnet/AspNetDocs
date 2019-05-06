@@ -17,14 +17,12 @@ by [Scott Mitchell](https://twitter.com/ScottOnWriting)
 
 > Visual Studio offers ASP.NET developers two types of projects: Web Application Projects (WAPs) and Web Site Projects (WSPs). One of the key differences between the two project types is that WAPs must have the code explicitly compiled prior to deployment whereas the code in a WSP can be automatically compiled on the web server. However, it is possible to precompile a WSP prior to deployment. This tutorial explores the benefits of precompilation and shows how to precompile a website from within Visual Studio and from the command line.
 
-
 ## Introduction
 
 Visual Studio offers ASP.NET developers two different project types: Web Application Projects (WAP) and Web Site Projects (WSP). One of the key differences between these project types is that WAPs require *explicit compilation* whereas WSPs use *automatic compilation*, by default. With WAPs, you compile the web application's code into a single assembly, which is created in the website's `Bin` folder. Deployment entails copying the markup content (the `.aspx.ascx`, and `.master` files) in the project, along with the assembly in the `Bin` folder; the code-behind class files themselves do not need to be deployed. On the other hand, you deploy WSPs by copying both the markup pages and their corresponding code-behind classes to the production environment. The code-behind classes are compiled on demand on the web server.
 
 > [!NOTE]
 > Refer back to the "Explicit Compilation Versus Automatic Compilation" section in the [*Determining What Files Need to Be Deployed* tutorial](determining-what-files-need-to-be-deployed-cs.md) for more background on the differences between the project models, explicit and automatic compilation, and how the compilation model affects deployment.
-
 
 The automatic compilation option is simple to use. There's no explicit compilation step and only the files that have been modified need to be deployed, whereas explicit compilation necessitates deploying the changed markup pages and the just-compiled assembly. However, automatic deployment has two potential drawbacks:
 
@@ -43,7 +41,6 @@ With WSPs and automatic compilation, there is no explicit compilation step prior
 
 > [!NOTE]
 > As you would expect, there is a slight delay when requesting a page for the first time (or for the first time since it's been changed) in a site that uses automatic compilation as it takes a moment for the server to compile the page's code and save the resulting assembly to disk.
-
 
 In short, with explicit compilation you are required to compile the website's source code before deployment, saving the runtime from having to perform that step. With automatic compilation the runtime handles the compilation of the pages' source code, but with a slight initialization cost for the first visit to the page since it was created or last updated.
 
@@ -64,7 +61,6 @@ The compilation tool provides two general forms of compilation: in-place precomp
 > [!NOTE]
 > For more information on in-place precompilation, check out [How To: Precompile ASP.NET Web Sites](https://msdn.microsoft.com/library/ms227972.aspx) and [Precompilation in ASP.NET 2.0](http://www.odetocode.com/Articles/417.aspx).
 
-
 Instead of compiling the pages in the website to the `Temporary ASP.NET Files` folder, precompilation for deployment compiles the pages to a directory of your choosing and in a format that can be deployed to the production environment.
 
 There are two flavors of precompilation for deployment that we explore in this tutorial: precompilation with an updatable user interface, and precompilation with a non-updatable user interface. Precompilation with an updatable user interface leaves the declarative markup in the `.aspx`, `.ascx`, and `.master` files, thereby allowing a developer to view and, if desired, modify the declarative markup on the production server. Precompilation with a non-updatable user interface generates `.aspx` pages that are void of any content and removes `.ascx` and `.master` files, thereby hiding the declarative markup and prohibiting a developer from changing it from the production environment.
@@ -82,7 +78,6 @@ Open the Book Review WSP in Visual Studio, go to the Build menu, and select the 
 
 > [!NOTE]
 > The Publish Web Site option in the Build menu is not available in Visual Web Developer. If you are using Visual Web Developer you will need to use the command-line version of the ASP.NET compilation tool, which is covered in the "Precompiling from the Command Line" section.
-
 
 After precompiling the website, navigate to the target location you entered in the Publish Web Site dialog box. Take a moment to compare the contents of this folder with the contents of your website. **Figure 2** shows the Book Reviews website folder. Note that it contains both `.aspx` and `.aspx.cs` files. Also, note that the `Bin` directory includes only one file, `Elmah.dll`, which we added in the [preceding tutorial](logging-error-details-with-elmah-cs.md)
 
@@ -102,7 +97,6 @@ Unlike explicit compilation in WAPs, the precompilation for deployment process d
 
 > [!NOTE]
 > You can instruct the compilation tool to create one assembly per ASP.NET page, User Control, or master page by checking the "Used fixed naming and single page assemblies" checkbox from the Publish Web Site dialog box. Having each ASP.NET page compiled into its own assembly allows for more fine-grained control over deployment. For example, if you updated a single ASP.NET web page and needed to deploy that change, you need only deploy that page's `.aspx` file and associated assembly to the production environment. Consult [How To: Generate Fixed Names with the ASP.NET Compilation Tool](https://msdn.microsoft.com/library/ms228040.aspx) for more information.
-
 
 The target location directory also contains a file that was not part of the precompiled web project, namely `PrecompiledApp.config`. This file informs the ASP.NET runtime that the application was precompiled and whether it was precompiled with an updatable or noon-updatable UI.
 

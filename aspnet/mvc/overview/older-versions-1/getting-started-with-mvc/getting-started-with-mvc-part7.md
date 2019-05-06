@@ -15,7 +15,6 @@ by [Scott Hanselman](https://github.com/shanselman)
 
 > This is a beginner tutorial that introduces the basics of ASP.NET MVC. You'll create a simple web application that reads and writes from a database. Visit the [ASP.NET MVC learning center](../../../index.md) to find other ASP.NET MVC tutorials and samples.
 
-
 In this section we are going to implement the support necessary to enable input validation within our application. We'll ensure that our database content is always correct, and provide helpful error messages to end users when they try and enter Movie data which is not valid. We'll begin by adding a little validation logic to the Movie class.
 
 Right click on the Model folder and select Add Class. Name your class Movie.

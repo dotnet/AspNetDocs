@@ -13,6 +13,5 @@ msc.type: chapter
 
 > This tutorial shows how to use the HoverMenu control, which displays a popup when users hold the mouse pointer over an element.
 
-
 - [Using HoverMenu with a Repeater Control (C#)](using-hovermenu-with-a-repeater-control-cs.md)
 - [Using HoverMenu with a Repeater Control (VB)](using-hovermenu-with-a-repeater-control-vb.md)

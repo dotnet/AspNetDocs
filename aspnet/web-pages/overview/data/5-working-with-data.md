@@ -38,7 +38,6 @@ by [Tom FitzMacken](https://github.com/tfitzmac)
 > 
 > This tutorial also works with WebMatrix 3. You can use ASP.NET Web Pages 3 and Visual Studio 2013 (or Visual Studio Express 2013 for Web); however, the user interface will be different.
 
-
 ## Introduction to Databases
 
 Imagine a typical address book. For each entry in the address book (that is, for each person) you have several pieces of information such as first name, last name, address, email address, and phone number.
@@ -61,7 +60,6 @@ With this basic understanding of databases, you're ready to learn how to create 
 > You can store data in lots of ways, including text files and spreadsheets. For most business uses, though, data is stored in a relational database.
 > 
 > This article doesn't go very deeply into databases. However, you might find it useful to understand a little about them. In a relational database, information is logically divided into separate tables. For example, a database for a school might contain separate tables for students and for class offerings. The database software (such as SQL Server) supports powerful commands that let you dynamically establish relationships between the tables. For example, you can use the relational database to establish a logical relationship between students and classes in order to create a schedule. Storing data in separate tables reduces the complexity of the table structure and reduces the need to keep redundant data in tables.
-
 
 ## Creating a Database
 
@@ -167,7 +165,6 @@ Once you've got a database with data in it, you can display the data in an ASP.N
 > 
 > There are dozens of SQL commands, but they all follow a pattern like this. You can use SQL commands to create database tables, count the number of records in a table, calculate prices, and perform many more operations.
 
-
 ## Inserting Data in a Database
 
 This section shows how to create a page that lets users add a new product to the *Product* database table. After a new product record is inserted, the page displays the updated table using the *ListProducts.cshtml* page that you created in the previous section.
@@ -232,7 +229,6 @@ After data has been entered into a table, you might need to update it. This proc
 > [!NOTE] 
 > 
 > **Important** In a production website, you typically restrict who's allowed to make changes to the data. For information about how to set up membership and about ways to authorize users to perform tasks on the site, see [Adding Security and Membership to an ASP.NET Web Pages Site](https://go.microsoft.com/fwlink/?LinkId=202904).
-
 
 1. In the website, create a new CSHTML file named *EditProducts.cshtml*.
 2. Replace the existing markup in the file with the following:
@@ -315,7 +311,6 @@ This section shows how to let users delete a product from the *Product* database
 > 
 > **Important** In a production website, you typically restrict who's allowed to make changes to the data. For information about how to set up membership and about ways to authorize user to perform tasks on the site, see [Adding Security and Membership to an ASP.NET Web Pages Site](https://go.microsoft.com/fwlink/?LinkId=202904).
 
-
 1. In the website, create a new CSHTML file named *ListProductsForDelete.cshtml*.
 2. Replace the existing markup with the following:
 
@@ -378,7 +373,6 @@ This section shows how to let users delete a product from the *Product* database
 > As noted, the `Database.Open` method lets you pass either a database name or a connection string, and it'll figure out which to use. This is very useful when you deploy (publish) your website. You can use an *.sdf* file in the *App\_Data* folder when you're developing and testing your site. Then when you move your site to a production server, you can use a connection string in the *Web.config* file that has the same name as your *.sdf* file but that points to the hosting provider's database &#8212; all without having to change your code.
 > 
 > Finally, if you want to work directly with a connection string, you can call the `Database.OpenConnectionString` method and pass it the actual connection string instead of just the name of one in the *Web.config* file. This might be useful in situations where for some reason you don't have access to the connection string (or values in it, such as the *.sdf* file name) until the page is running. However, for most scenarios, you can use `Database.Open` as described in this article.
-
 
 ## Additional Resources
 

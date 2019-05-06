@@ -13,7 +13,6 @@ msc.type: chapter
 
 > This tutorial series will teach you the basics of building an ASP.NET Web Forms application using ASP.NET 4.5 and Microsoft Visual Studio Express 2013 for Web. A Visual Studio 2013 project with C# source code is available to accompany this tutorial series.
 
-
 - [Getting Started with Web Forms and Visual Studio](introduction-and-overview.md)
 - [Create the Project](create-the-project.md)
 - [Create the Data Access Layer](create_the_data_access_layer.md)

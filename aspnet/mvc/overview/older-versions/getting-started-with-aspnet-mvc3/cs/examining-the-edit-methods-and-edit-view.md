@@ -27,7 +27,6 @@ by [Rick Anderson]((https://twitter.com/RickAndMSFT))
 > 
 > A Visual Web Developer project with C# source code is available to accompany this topic. [Download the C# version](https://code.msdn.microsoft.com/Introduction-to-MVC-3-10d1b098). If you prefer Visual Basic, switch to the [Visual Basic version](../vb/intro-to-aspnet-mvc-3.md) of this tutorial.
 
-
 In this section, you'll examine the generated action methods and views for the movie controller. Then you'll add a custom search page.
 
 Run the application and browse to the `Movies` controller by appending */Movies* to the URL in the address bar of your browser. Hold the mouse pointer over an **Edit** link to see the URL that it links to.
@@ -81,7 +80,6 @@ If the posted values aren't valid, they are redisplayed in the form. The `Html.V
 [![abcNotValid](examining-the-edit-methods-and-edit-view/_static/image8.png)](examining-the-edit-methods-and-edit-view/_static/image7.png)
 
 > **Note about locales** If you normally work with a locale other than English, see [Supporting ASP.NET MVC 3 Validation with Non-English Locales.](https://msdn.microsoft.com/library/gg674880(VS.98).aspx)
-
 
 ## Making the Edit Method More Robust
 

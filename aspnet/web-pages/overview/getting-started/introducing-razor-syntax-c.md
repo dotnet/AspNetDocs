@@ -30,14 +30,12 @@ by [Tom FitzMacken](https://github.com/tfitzmac)
 > 
 > This tutorial also works with ASP.NET Web Pages 2.
 
-
 ## The Top 8 Programming Tips
 
 This section lists a few tips that you absolutely need to know as you start writing ASP.NET server code using the Razor syntax.
 
 > [!NOTE]
 > The Razor syntax is based on the C# programming language, and that's the language that's used most often with ASP.NET Web Pages. However, the Razor syntax also supports the Visual Basic language, and everything you see you can also do in Visual Basic. For details, see the appendix [Visual Basic Language and Syntax](https://go.microsoft.com/fwlink/?LinkId=202908).
-
 
 You can find more details about most of these programming techniques later in the article.
 
@@ -60,7 +58,6 @@ This is what these statements look like when the page runs in a browser:
 > If your goal is to output HTML markup that renders tags as markup (for example `<p></p>` for a paragraph or `<em></em>` to emphasize text), see the section [Combining Text, Markup, and Code in Code Blocks](#BM_CombiningTextMarkupAndCode) later in this article.
 > 
 > You can read more about HTML encoding in [Working with Forms](https://go.microsoft.com/fwlink/?LinkId=202892).
-
 
 ### 2. You enclose code blocks in braces
 
@@ -110,7 +107,6 @@ Here's the result of using both of these examples in a page:
 > [!NOTE]
 > Notice that the `@` character is used both to mark verbatim string literals in C# and to mark code in ASP.NET pages.
 
-
 ### 6. Code is case sensitive
 
 In C#, keywords (like `var`, `true`, and `if`) and variable names are case sensitive. The following lines of code create two different variables, `lastName` and `LastName.`
@@ -121,7 +117,6 @@ If you declare a variable as `var lastName = "Smith";` and if you try to referen
 
 > [!NOTE]
 > In Visual Basic, keywords and variables are *not* case sensitive.
-
 
 ### 7. Much of your coding involves objects
 
@@ -155,7 +150,6 @@ The result displayed in a browser (after clicking **Submit**):
 > The protocol used for web pages (HTTP) supports a very limited number of methods (verbs) that are used to make requests to the server. The two most common ones are GET, which is used to read a page, and POST, which is used to submit a page. In general, the first time a user requests a page, the page is requested using GET. If the user fills in a form and then clicks a submit button, the browser makes a POST request to the server.
 > 
 > In web programming, it's often useful to know whether a page is being requested as a GET or as a POST so that you know how to process the page. In ASP.NET Web Pages, you can use the `IsPost` property to see whether a request is a GET or a POST. If the request is a POST, the `IsPost` property will return true, and you can do things like read the values of text boxes on a form. Many examples you'll see show you how to process the page differently depending on the value of `IsPost`.
-
 
 ## A Simple Code Example
 
@@ -211,7 +205,6 @@ The Razor syntax gives you all the power of ASP.NET, but using a simplified synt
 > When the application needs to work with actual customer information, it creates an instance of (or *instantiates*) a customer object. Each individual customer is a separate instance of the `Customer` class. Every instance supports the same properties and methods, but the property values for each instance are typically different, because each customer object is unique. In one customer object, the `LastName` property might be "Smith"; in another customer object, the `LastName` property might be "Jones."
 > 
 > Similarly, any individual web page in your site is a `Page` object that's an instance of the `Page` class. A button on the page is a `Button` object that is an instance of the `Button` class, and so on. Each instance has its own characteristics, but they all are based on what's specified in the object's class definition.
-
 
 ## Basic Syntax
 
@@ -433,7 +426,6 @@ The following table lists some common conversion and test methods for variables.
 ## Operators
 
 An operator is a keyword or character that tells ASP.NET what kind of command to perform in an expression. The C# language (and the Razor syntax that's based on it) supports many operators, but you only need to recognize a few to get started. The following table summarizes the most common operators.
-
 
 :::row:::
     :::column:::
@@ -826,7 +818,6 @@ In situations where your code might encounter exceptions, and in order to avoid 
 > [!NOTE]
 > We recommend that you avoid using the `Response.Redirect` method in `try/catch` statements, because it can cause an exception in your page.
 
-
 The following example shows a page that creates a text file on the first request and then displays a button that lets the user open the file. The example deliberately uses a bad file name so that it will cause an exception. The code includes `catch` statements for two possible exceptions: `FileNotFoundException`, which occurs if the file name is bad, and `DirectoryNotFoundException`, which occurs if ASP.NET can't even find the folder. (You can uncomment a statement in the example in order to see how it runs when everything works properly.)
 
 If your code didn't handle the exception, you would see an error page like the previous screen shot. However, the `try/catch` section helps prevent the user from seeing these types of errors.
@@ -837,12 +828,9 @@ If your code didn't handle the exception, you would see an error page like the p
 
 **Programming with Visual Basic**
 
-
 [Appendix: Visual Basic Language and Syntax](https://go.microsoft.com/fwlink/?LinkId=202908)
 
-
 **Reference Documentation**
-
 
 [ASP.NET](https://msdn.microsoft.com/library/ee532866.aspx)
 

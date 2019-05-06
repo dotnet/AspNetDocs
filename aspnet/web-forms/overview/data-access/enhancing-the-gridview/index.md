@@ -13,7 +13,6 @@ msc.type: chapter
 
 > These tutorials show how to add a column of radio buttons to a GridView control to provide an intuitive way to select a single row.
 
-
 - [Adding a GridView Column of Radio Buttons (C#)](adding-a-gridview-column-of-radio-buttons-cs.md)
 - [Adding a GridView Column of Checkboxes (C#)](adding-a-gridview-column-of-checkboxes-cs.md)
 - [Inserting a New Record from the GridView's Footer (C#)](inserting-a-new-record-from-the-gridview-s-footer-cs.md)

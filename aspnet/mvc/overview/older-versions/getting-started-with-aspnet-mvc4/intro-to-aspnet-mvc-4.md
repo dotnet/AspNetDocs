@@ -30,12 +30,10 @@ by [Rick Anderson]((https://twitter.com/RickAndMSFT))
 >
 > This tutorial was written by Rick Anderson ( [@RickAndMSFT](https://twitter.com/#!/RickAndMSFT) ).
 
-
 ## What You'll Build
 
 > [!NOTE]
 > An updated version if this tutorial is available [here](../../getting-started/introduction/getting-started.md) using [Visual Studio 2013](https://my.visualstudio.com/Downloads?q=visual%20studio%202013). The new tutorial uses ASP.NET MVC 5, which provides many improvements over this tutorial.
-
 
 You'll implement a simple movie-listing application that supports creating, editing, searching and listing movies from a database. Below are two screenshots of the application you'll build. It includes a page that displays a list of movies from a database:
 

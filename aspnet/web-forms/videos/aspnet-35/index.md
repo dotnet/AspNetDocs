@@ -13,7 +13,6 @@ msc.type: chapter
 
 > How to build ASP.NET 3.5 applications, with an emphasis on new features.
 
-
 - [How Do I](how-do-i/index.md)
 
     - [Create a Master Page in Visual Studio 2008](how-do-i/how-do-i-create-a-master-page-in-visual-studio-2008.md)

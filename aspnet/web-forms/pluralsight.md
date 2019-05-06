@@ -23,11 +23,9 @@ msc.type: content
 - [Using ASP.NET Dynamic Data](https://pluralsight.com/training/Player?author=dan-wahlin&name=webforms-08&mode=live&clip=0&course=aspdotnet-webforms4-intro)
 - [Web Deployment](https://pluralsight.com/training/Player?author=fritz-onion&name=webforms-09&mode=live&clip=0&course=aspdotnet-webforms4-intro)
 
-
 "This course, recorded by Dan Wahlin for Pluralsight, is a great introduction to ASP.NET Web Forms. His thorough coverage begins with an introduction to the .NET Framework, continues with how to install and use Visual Studio, walks through how to build applications (including server controls, data access, and Ajax), and finishes with deployment techniques. Dan's a true ASP.NET expert and a great presenter, so don't miss this free course!"
 
 Scott Hanselman, Principal Program Manager, Web Platform and Azure Tools, Microsoft
-
 
 ![pluralsight-logo-playbutton](pluralsight/_static/image1.png)
 

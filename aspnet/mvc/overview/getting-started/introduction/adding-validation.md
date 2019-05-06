@@ -78,7 +78,6 @@ Click the **Create New** link to add a new movie. Fill out the form with some in
 > [!NOTE]
 > to support jQuery validation for non-English locales that use a comma (",") for a decimal point, you must include the NuGet globalize as described previously in this tutorial.
 
-
 Notice how the form has automatically used a red border color to highlight the text boxes that contain invalid data and has emitted an appropriate validation error message next to each one. The errors are enforced both client-side (using JavaScript and jQuery) and server-side (in case a user has JavaScript disabled).
 
 A real benefit is that you didn't need to change a single line of code in the `MoviesController` class or in the *Create.cshtml* view in order to enable this validation UI. The controller and views you created earlier in this tutorial automatically picked up the validation rules that you specified by using validation attributes on the properties of the `Movie` model class. Test validation using the `Edit` action method, and the same validation is applied.
@@ -129,9 +128,7 @@ The [DataType](https://msdn.microsoft.com/library/system.componentmodel.dataanno
 
 The `DisplayFormat` attribute is used to explicitly specify the date format:
 
-
 [!code-csharp[Main](adding-validation/samples/sample8.cs)]
-
 
 The `ApplyFormatInEditMode` setting specifies that the specified formatting should also be applied when the value is displayed in a text box for editing. (You might not want that for some fields — for example, for currency values, you might not want the currency symbol in the text box for editing.)
 
@@ -149,7 +146,6 @@ If you use the `DataType` attribute with a date field, you have to specify the `
 > [!code-csharp[Main](adding-validation/samples/sample9.cs)]
 > 
 > You will need to disable jQuery date validation to use the [Range](https://msdn.microsoft.com/library/system.componentmodel.dataannotations.rangeattribute.aspx) attribute with [DateTime](https://msdn.microsoft.com/library/system.datetime.aspx). It's generally not a good practice to compile hard dates in your models, so using the [Range](https://msdn.microsoft.com/library/system.componentmodel.dataannotations.rangeattribute.aspx) attribute and [DateTime](https://msdn.microsoft.com/library/system.datetime.aspx) is discouraged.
-
 
 The following code shows combining attributes on one line:
 

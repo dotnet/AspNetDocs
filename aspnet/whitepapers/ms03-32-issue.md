@@ -15,7 +15,6 @@ msc.type: content
 > 
 > Applies to ASP.NET 1.0 and Windows XP Professional.
 
-
 Microsoft identified an issue with the MS03-32 Security Update for Internet Explorer security patch and ASP.NET 1.0 running on Windows XP. This patch can be installed manually or by obtaining recent critical updates from the Windows Update site.
 
 The symptom of this issue is that after installing the patch on a Windows XP machine, all requests to ASP.NET applications running on the local IIS 5.1 web server result in an error message saying "Server Application Unavailable". Requests to remote web servers are unaffected.

@@ -15,7 +15,6 @@ by [Microsoft](https://github.com/microsoft)
 
 > One of the key components to a successful Web site is a consistent look and feel. In ASP.NET 1.x, developers used user controls to replicate common page elements across a Web application. While that is certainly a workable solution, using user controls does have some drawbacks. For example, a change in position of a user control requires a change to multiple pages across a site. User controls are also not rendered in Design view after being inserted on a page.
 
-
 One of the key components to a successful Web site is a consistent look and feel. In ASP.NET 1.x, developers used user controls to replicate common page elements across a Web application. While that is certainly a workable solution, using user controls does have some drawbacks. For example, a change in position of a user control requires a change to multiple pages across a site. User controls are also not rendered in Design view after being inserted on a page.
 
 ASP.NET 2.0 introduces Master pages as a way of maintaining a consistent look and feel, and as you'll soon see, Master pages represent a significant improvement over the user control method.
@@ -41,14 +40,11 @@ A master page can contain any number of ContentPlaceHolder controls (or none at 
 > [!NOTE]
 > You will often hear people describe master pages as being a base class for other pages. Thats actually not true. The relationship between master pages and content pages is not one of inheritance.
 
-
 **Figure 1** shows a master page and an associated content page as they appear in Visual Studio 2005. You can see the ContentPlaceHolder control in the master page and the corresponding Content control in the content page. Notice that the master pages content that is outside of the ContentPlaceHolder is visible but grayed out in the content page. Only the content inside of the ContentPlaceHolder can be supplanted by the content page. All other content that comes from the master page is immutable.
-
 
 ![A master page and its associated content page](master-pages/_static/image1.jpg)
 
 **Figure 1**: A master page and its associated content page
-
 
 ## Creating a Master Page
 
@@ -59,11 +55,9 @@ To create a new master page:
 3. Choose Master File from the Add New Item dialog as shown in **figure 2**.
 4. Click Add.
 
-
 ![Creating a New Master Page](master-pages/_static/image2.jpg)
 
 **Figure 2**: Creating a New Master Page
-
 
 Notice that the file extension for a master page is *.master*. This is one of the ways that a master page differs from an ordinary page. The other primary difference is that in lieu of a @Page directive, the master page contains a @Master directive. Switch to Source View for the master page you've just created and review the code.
 
@@ -80,29 +74,23 @@ In this lab, you will create a new master page and define three ContentPlaceHold
     3. Select the ContentPlaceHolder control by clicking the shaded top border of the control and then delete it by hitting the DEL key on your keyboard.
     4. Insert a new table using the *Header and side* template as shown in figure 3. Change the width and height to 90% each so that the entire table is visible in the designer.
 
-
 ![](master-pages/_static/image3.jpg)
 
 **Figure 3**
-
 
 1. Place the cursor into each cell of the table and set the *valign* property to *top*.
 2. From the Toolbox, insert a ContentPlaceHolder control in the top cell of the table (the header cell.)
 3. When you insert this ContentPlaceHolder control, you will notice that the row height will take up almost the entire page as shown in figure 4. Don't be concerned about that at this point.
 
-
 ![The empty space is in the same cell as the ContentPlaceHolder](master-pages/_static/image1.gif)
 
 **Figure 4**: The empty space is in the same cell as the ContentPlaceHolder
 
-
 1. Place a ContentPlaceHolder control in the other two cells. Once the other ContentPlaceHolder controls have been inserted, the size of the table cells should be as you would expect. The page should now look like the page shown in **figure 5**.
-
 
 ![The Master with all ContentPlaceHolder controls. Notice that the cell height for the header cell is now what it should be](master-pages/_static/image2.gif)
 
 **Figure 5**: The Master with all ContentPlaceHolder controls. Notice that the cell height for the header cell is now what it should be
-
 
 1. Enter some text of your choice into each of the three ContentPlaceHolder controls.
 2. Save the master page as exercise1.master.
@@ -111,11 +99,9 @@ In this lab, you will create a new master page and define three ContentPlaceHold
 5. Select **Web Form** in the Add New Item dialog.
 6. Make sure that the Select master page checkbox is checked as shown in figure 6.
 
-
 ![Adding a new Content Page](master-pages/_static/image3.gif)
 
 **Figure 6**: Adding a new Content Page
-
 
 1. Click Add.
 2. Select exercise1.master in the Select a master page dialog as shown in figure 7.
@@ -123,11 +109,9 @@ In this lab, you will create a new master page and define three ContentPlaceHold
 
 The new content page appears in Visual Studio with one Content control for each ContentPlaceHolder control on the master page. By default, the Content controls are empty so that you can add your own content. If you'd like for them to use the content from the ContentPlaceHolder control on the master page, simply click on the smart tag symbol (the small black arrow in the upper-right corner of the control) and choose *Default to Masters Content* from the smart tag as shown in **figure 8**. When you do so, the menu item changes to *Create Custom Content*. Clicking it at that point removes the content from the master page allowing you to define custom content for that particular Content control.
 
-
 ![Setting a Content Control to Default to the Master Pages Content](master-pages/_static/image4.gif)
 
 **Figure 7**: Setting a Content Control to Default to the Master Pages Content
-
 
 ## Connecting Master Page and Content Pages
 
@@ -177,15 +161,11 @@ Note that in this scenario, the child master is also a content page for the pare
 > [!NOTE]
 > Designer support is not available for nested master pages. When you are developing using nested masters, you will need to use source view.
 
-
 This video shows a walkthrough of using nested master pages.
-
 
 ![](master-pages/_static/image1.png)
 
-
 [Open Full-Screen Video](master-pages/_static/nested1.wmv)
-
 
 ![Selecting a Master Page](master-pages/_static/image4.jpg)
 

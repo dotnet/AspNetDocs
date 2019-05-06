@@ -13,7 +13,6 @@ msc.type: chapter
 
 > Katana is a flexible set of components for building and hosting Open Web Interface for .NET (OWIN)-based web applications.
 
-
 - [An Overview of Project Katana](an-overview-of-project-katana.md)
 - [Getting Started with OWIN and Katana](getting-started-with-owin-and-katana.md)
 - [Katana Samples](katana-samples.md)

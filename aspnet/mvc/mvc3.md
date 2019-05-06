@@ -19,7 +19,6 @@ msc.type: content
 > 
 > Download the [installer here](https://go.microsoft.com/fwlink/?LinkID=208140)
 
-
 ## Top Features
 
 - Integrated Scaffolding system extensible via NuGet

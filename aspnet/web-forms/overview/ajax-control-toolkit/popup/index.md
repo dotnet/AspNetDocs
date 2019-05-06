@@ -13,7 +13,6 @@ msc.type: chapter
 
 > This tutorial shows how to use the Popup control to display a popup when any other control is activated.
 
-
 - [Using Multiple Popup Controls (C#)](using-multiple-popup-controls-cs.md)
 - [Handling Postbacks from A Popup Control With an UpdatePanel (C#)](handling-postbacks-from-a-popup-control-with-an-updatepanel-cs.md)
 - [Handling Postbacks from A Popup Control Without an UpdatePanel (C#)](handling-postbacks-from-a-popup-control-without-an-updatepanel-cs.md)

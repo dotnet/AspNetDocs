@@ -19,7 +19,6 @@ by [Jon Galloway](https://github.com/jongalloway)
 >   
 > This tutorial series details all of the steps taken to build the ASP.NET MVC Music Store sample application. Part 2 covers Controllers.
 
-
 With traditional web frameworks, incoming URLs are typically mapped to files on disk. For example: a request for a URL like "/Products.aspx" or "/Products.php" might be processed by a "Products.aspx" or "Products.php" file.
 
 Web-based MVC frameworks map URLs to server code in a slightly different way. Instead of mapping incoming URLs to files, they instead map URLs to methods on classes. These classes are called "Controllers" and they are responsible for processing incoming HTTP requests, handling user input, retrieving and saving data, and determining the response to send back to the client (display HTML, download a file, redirect to a different URL, etc.).
@@ -130,7 +129,6 @@ Let's recap what we've done so far:
 - We've learned how to run our website using the ASP.NET Development Server
 - We've created two Controller classes: a HomeController and a StoreController
 - We've added Action Methods to our controllers which respond to URL requests and return text to the browser
-
 
 > [!div class="step-by-step"]
 > [Previous](mvc-music-store-part-1.md)

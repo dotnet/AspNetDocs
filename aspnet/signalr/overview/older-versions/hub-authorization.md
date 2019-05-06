@@ -17,7 +17,6 @@ by [Patrick Fletcher](https://github.com/pfletcher), [Tom FitzMacken](https://gi
 
 > This topic describes how to restrict which users or roles can access hub methods.
 
-
 ## Overview
 
 This topic contains the following sections:

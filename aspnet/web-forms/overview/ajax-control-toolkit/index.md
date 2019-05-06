@@ -16,7 +16,6 @@ msc.type: chapter
 > 
 > ![](index/_static/image1.png) DevExpress, developers of award-winning ASP.NET WebForms, MVC and HTML5 UI Controls and Frameworks, took over the maintenance of the ASP.NET AJAX Control Toolkit in order to bring this highly-demanded open-source library back to a dependable state. [Learn more](https://go.devexpress.com/AjaxControlToolkit_ASP_Resources_Tutorials.aspx).
 
-
 - [Getting Started](getting-started/index.md)
 
     - [Get Started with the AJAX Control Toolkit (C#)](getting-started/get-started-with-the-ajax-control-toolkit-cs.md)

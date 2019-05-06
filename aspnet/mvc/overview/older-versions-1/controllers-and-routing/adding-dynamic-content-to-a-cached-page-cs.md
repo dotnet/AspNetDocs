@@ -15,16 +15,13 @@ by [Microsoft](https://github.com/microsoft)
 
 > Learn how to mix dynamic and cached content in the same page. Post-cache substitution enables you to display dynamic content, such as banner advertisements or news items, within a page that has been output cached.
 
-
 By taking advantage of output caching, you can dramatically improve the performance of an ASP.NET MVC application. Instead of regenerating a page each and every time the page is requested, the page can be generated once and cached in memory for multiple users.
 
 But there is a problem. What if you need to display dynamic content in the page? For example, imagine that you want to display a banner advertisement in the page. You don't want the banner advertisement to be cached so that every user sees the very same advertisement. You wouldn't make any money that way!
 
 Fortunately, there is an easy solution. You can take advantage of a feature of the ASP.NET framework called *post-cache substitution*. Post-cache substitution enables you to substitute dynamic content in a page that has been cached in memory.
 
-
 Normally, when you output cache a page by using the [OutputCache] attribute, the page is cached on both the server and the client (the web browser). When you use post-cache substitution, a page is cached only on the server.
-
 
 #### Using Post-Cache Substitution
 

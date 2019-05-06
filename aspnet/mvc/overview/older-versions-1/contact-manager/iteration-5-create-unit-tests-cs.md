@@ -17,7 +17,6 @@ by [Microsoft](https://github.com/microsoft)
 
 > In the fifth iteration, we make our application easier to maintain and modify by adding unit tests. We mock our data model classes and build unit tests for our controllers and validation logic.
 
-
 ## Building a Contact Management ASP.NET MVC Application (C#)
 
 In this series of tutorials, we build an entire Contact Management application from start to finish. The Contact Manager application enables you to store contact information - names, phone numbers and email addresses - for a list of people.
@@ -37,7 +36,6 @@ We build the application over multiple iterations. With each iteration, we gradu
 - Iteration #6 - Use test-driven development. In this sixth iteration, we add new functionality to our application by writing unit tests first and writing code against the unit tests. In this iteration, we add contact groups.
 
 - Iteration #7 - Add Ajax functionality. In the seventh iteration, we improve the responsiveness and performance of our application by adding support for Ajax.
-
 
 ## This Iteration
 
@@ -63,7 +61,6 @@ In this iteration, we add unit tests to our Contact Manager application. That wa
 > 
 > There are a variety of unit testing frameworks including NUnit, xUnit.net, and MbUnit. In this tutorial, we use the unit testing framework included with Visual Studio. However, you could just as easily use one of these alternative frameworks.
 
-
 ## What Gets Tested
 
 In the perfect world, all of your code would be covered by unit tests. In the perfect world, you would have the perfect safety net. You would be able to modify any line of code in your application and know instantly, by executing your unit tests, whether the change broke existing functionality.
@@ -82,11 +79,9 @@ If your view contains complicated logic then you should consider moving the logi
 > 
 > While writing tests for data access logic or view logic is not a good idea when writing unit tests, these tests can be very valuable when building functional or integration tests.
 
-
 > [!NOTE] 
 > 
 > ASP.NET MVC is the Web Forms View Engine. While the Web Forms View Engine is dependent on a web server, other view engines might not be.
-
 
 ## Using a Mock Object Framework
 
@@ -110,16 +105,13 @@ Before you can use Moq, you need to complete the following steps:
 4. Add a reference to the Moq assembly by right-clicking the References folder in the ContactManager.Tests project and selecting **Add Reference**. Under the Browse tab, browse to the folder where you unzipped Moq and select the Moq.dll assembly. Click the **OK** button.
 5. After you complete these steps, your References folder should look like Figure 2.
 
-
 [![Unblocking Moq](iteration-5-create-unit-tests-cs/_static/image1.jpg)](iteration-5-create-unit-tests-cs/_static/image1.png)
 
 **Figure 01**: Unblocking Moq([Click to view full-size image](iteration-5-create-unit-tests-cs/_static/image2.png))
 
-
 [![References after adding Moq](iteration-5-create-unit-tests-cs/_static/image2.jpg)](iteration-5-create-unit-tests-cs/_static/image3.png)
 
 **Figure 02**: References after adding Moq([Click to view full-size image](iteration-5-create-unit-tests-cs/_static/image4.png))
-
 
 ## Creating Unit Tests for the Service Layer
 
@@ -131,11 +123,9 @@ Create a new folder named Models in the ContactManager.Tests project. Next, righ
 > 
 > In general, you want the folder structure of your Test Project to match the folder structure of your ASP.NET MVC project. For example, you place controller tests in a Controllers folder, model tests in a Models folder, and so on.
 
-
 [![Models\ContactManagerServiceTest.cs](iteration-5-create-unit-tests-cs/_static/image3.jpg)](iteration-5-create-unit-tests-cs/_static/image5.png)
 
 **Figure 03**: Models\ContactManagerServiceTest.cs([Click to view full-size image](iteration-5-create-unit-tests-cs/_static/image6.png))
-
 
 Initially, we want to test the CreateContact() method exposed by the ContactManagerService class. We'll create the following five tests:
 
@@ -153,9 +143,7 @@ The code for these tests is contained in Listing 1.
 
 [!code-csharp[Main](iteration-5-create-unit-tests-cs/samples/sample1.cs)]
 
-
 Because we use the Contact class in Listing 1, we need to add a reference to the Microsoft Entity Framework to our Test project. Add a reference to the System.Data.Entity assembly.
-
 
 Listing 1 contains a method named Initialize() that is decorated with the [TestInitialize] attribute. This method is called automatically before each of the unit tests is run (it is called 5 times right before each of the unit tests). The Initialize() method creates a mock repository with the following line of code:
 
@@ -167,7 +155,6 @@ This line of code uses the Moq framework to generate a mock repository from the 
 > 
 > When using the Moq framework, there is a distinction between \_mockRepository and \_mockRepository.Object. The former refers to the Mock&lt;IContactManagerRepository&gt; class that contains methods for specifying how the mock repository will behave. The latter refers to the actual mock repository that implements the IContactManagerRepository interface.
 
-
 The mock repository is used in the Initialize() method when creating an instance of the ContactManagerService class. All of the individual unit tests use this instance of the ContactManagerService class.
 
 Listing 1 contains five methods that correspond to each of the unit tests. Each of these methods is decorated with the [TestMethod] attribute. When you run the unit tests, any method that has this attribute is called. In other words, any method that is decorated with the [TestMethod] attribute is a unit test.
@@ -178,11 +165,9 @@ The remaining tests verify that when the CreateContact() method is called with a
 
 You can run the unit tests in Listing 1 by selecting the menu option **Test, Run, All Tests in Solution (CTRL+R, A)**. The results of the tests are displayed in the Test Results window (see Figure 4).
 
-
 [![Test Results](iteration-5-create-unit-tests-cs/_static/image4.jpg)](iteration-5-create-unit-tests-cs/_static/image7.png)
 
 **Figure 04**: Test Results ([Click to view full-size image](iteration-5-create-unit-tests-cs/_static/image8.png))
-
 
 ## Creating Unit Tests for Controllers
 
@@ -206,7 +191,6 @@ The second unit test verifies that the Create() action returns the Create view w
 
 If the Create() method behaves as we expect then it should return the Create view when the service layer returns the value false. That way, the controller can display the validation error messages in the Create view and the user has a chance to correct that invalid Contact properties.
 
-
 If you plan to build unit tests for your controllers then you need to return explicit view names from your controller actions. For example, do not return a view like this:
 
 return View();
@@ -216,7 +200,6 @@ Instead, return the view like this:
 return View("Create");
 
 If you are not explicit when returning a view then the ViewResult.ViewName property returns an empty string.
-
 
 **Listing 2 - Controllers\ContactControllerTest.cs**
 

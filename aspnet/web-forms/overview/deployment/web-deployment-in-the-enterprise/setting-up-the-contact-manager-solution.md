@@ -17,7 +17,6 @@ by [Jason Lee](https://github.com/jrjlee)
 
 > This topic describes how to download and configure the Contact Manager solution to run locally on a developer workstation.
 
-
 ## System Requirements
 
 To run the Contact Manager solution locally and to perform the other tasks described in this tutorial, you'll need to install this software on your developer workstation:
@@ -64,7 +63,6 @@ The remainder of this section provides more guidance on how to complete each of 
 > [!NOTE]
 > For more information on the aspnet\_regsql utility, see [ASP.NET SQL Server Registration Tool (Aspnet\_regsql.exe)](https://msdn.microsoft.com/library/ms229862(v=vs.100).aspx).
 
-
 The next step is to make sure that the connection strings in the Contact Manager solution point to your local instance of SQL Server Express.
 
 **To update the connection strings**
@@ -91,7 +89,6 @@ You should now be ready to run the Contact Manager solution on your local machin
 
 > [!NOTE]
 > If you follow these steps without first creating an application services database, ASP.NET will create the database the first time you attempt to create a user. However, manually creating the database gives you a lot more control over the application services feature set you want to support.
-
 
 **To run the Contact Manager solution**
 

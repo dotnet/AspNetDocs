@@ -17,7 +17,6 @@ by [Microsoft](https://github.com/microsoft)
 > 
 > This tutorial describes the steps that were taken in order to build the User List sample ASP.NET MVC 3 application. A Visual Studio project with C# and VB source code is available to accompany this topic: [Download](https://code.msdn.microsoft.com/aspnetmvcsamples/Release/ProjectReleases.aspx?ReleaseId=5114). If you have questions about this tutorial, please post them to the [MVC forum](https://forums.asp.net/1146.aspx).
 
-
 ## Overview
 
 The application you'll be building is a simple user list website. Users can enter, view, and update user information.
@@ -179,7 +178,6 @@ For more information about unobtrusive client validation, see the entry [Unobtru
 
 > [!NOTE]
 > In ASP.NET MVC 3 Beta, you sometimes need to submit the form in order to start client-side validation. This might be changed for the final release.
-
 
 ## Creating the Create View
 

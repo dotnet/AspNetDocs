@@ -13,7 +13,6 @@ msc.type: chapter
 
 > In this tutorial series, you learn how to use ASP.NET MVC with the Microsoft Entity Framework. Over the course of this tutorial, you build a web application that illustrates how to select, insert, update, and delete database data by using the Entity Framework.
 
-
 - [Creating Model Classes with the Entity Framework (C#)](creating-model-classes-with-the-entity-framework-cs.md)
 - [Creating Model Classes with LINQ to SQL (C#)](creating-model-classes-with-linq-to-sql-cs.md)
 - [Displaying a Table of Database Data (C#)](displaying-a-table-of-database-data-cs.md)

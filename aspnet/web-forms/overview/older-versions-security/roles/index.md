@@ -13,7 +13,6 @@ msc.type: chapter
 
 > This tutorial series describes how to create and delete roles, how to assign users to roles, and how to authorize by role.
 
-
 - [Creating and Managing Roles (C#)](creating-and-managing-roles-cs.md)
 - [Assigning Roles to Users (C#)](assigning-roles-to-users-cs.md)
 - [Role-Based Authorization (C#)](role-based-authorization-cs.md)

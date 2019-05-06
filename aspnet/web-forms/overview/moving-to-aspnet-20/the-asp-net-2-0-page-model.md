@@ -15,7 +15,6 @@ by [Microsoft](https://github.com/microsoft)
 
 > In ASP.NET 1.x, developers had a choice between an inline code model and a code-behind code model. Code-behind could be implemented using either the Src attribute or the CodeBehind attribute of the @Page directive. In ASP.NET 2.0, developers still have a choice between inline code and code-behind, but there have been significant enhancements to the code-behind model.
 
-
 In ASP.NET 1.x, developers had a choice between an inline code model and a code-behind code model. Code-behind could be implemented using either the Src attribute or the CodeBehind attribute of the @Page directive. In ASP.NET 2.0, developers still have a choice between inline code and code-behind, but there have been significant enhancements to the code-behind model.
 
 ## Improvements in the Code-Behind Model
@@ -41,12 +40,10 @@ A typical class definition in an ASP.NET 2.0 code-behind file might look like th
 > [!NOTE]
 > C# and Visual Basic are the only managed languages that currently support partial classes. Therefore, developers using J# will not be able to use the code-behind model in ASP.NET 2.0.
 
-
 The new model enhances the code-behind model because developers will now have code files that contain only the code that they have created. It also provides for a true separation of code and content because there are no instance variable declarations in the code-behind file.
 
 > [!NOTE]
 > Because the partial class for the ASPX page is where event binding takes place, Visual Basic developers can realize a slight performance increase by using the Handles keyword in code-behind to bind events. C# has no equivalent keyword.
-
 
 ## New @ Page Directive Attributes
 
@@ -122,12 +119,9 @@ Another new capability of the @ Page directive in ASP.NET 2.0 is the ability to 
 
 The **SomeText** attribute of the @ Page directive sets the initial value of the SomeText property in the base class to *Hello!*. The video below is a walkthrough of setting the initial value of a public property in a base class using the @ Page directive.
 
-
 ![](the-asp-net-2-0-page-model/_static/image1.png)
 
-
 [Open Full-Screen Video](the-asp-net-2-0-page-model/_static/setprop1.wmv)
-
 
 ## New Public Properties of the Page Class
 
@@ -359,12 +353,9 @@ When the page is posted back, the Page that initiates the postback is accessible
 
 The video below is a walkthrough of a cross-page postback.
 
-
 ![](the-asp-net-2-0-page-model/_static/image2.png)
 
-
 [Open Full-Screen Video](the-asp-net-2-0-page-model/_static/xpage1.wmv)
-
 
 ## More Details on Cross-Page Postbacks
 
@@ -417,16 +408,12 @@ The next step is to call the AddOnPreRenderCompleteAsync method at a point in th
 
 The video below is a walkthrough of an asynchronous page request.
 
-
 ![](the-asp-net-2-0-page-model/_static/image3.png)
-
 
 [Open Full-Screen Video](the-asp-net-2-0-page-model/_static/async1.wmv)
 
-
 > [!NOTE]
 > An async page does not render to the browser until the EndEventHandler has completed. No doubt but that some developers will think of async requests as being similar to async callbacks. It's important to realize that they are not. The benefit to asynchronous requests is that the first worker thread can be returned to the thread pool to service new requests, thereby reducing contention due to being IO bound, etc.
-
 
 ## Script Callbacks in ASP.NET 2.0
 
@@ -453,14 +440,12 @@ As mentioned previously, the XMLHttp call is encapsulated in the WebResource.axd
 > [!NOTE]
 > \_\_doPostBack is still rendered to the page in a client script callback scenario. However, it's not used for the callback.
 
-
 The arguments for the WebForm\_DoCallback client-side function are provided via the server-side function GetCallbackEventReference which would normally be called in Page\_Load. A typical call to GetCallbackEventReference might look like this:
 
 [!code-csharp[Main](the-asp-net-2-0-page-model/samples/sample12.cs)]
 
 > [!NOTE]
 > In this case, cm is an instance of ClientScriptManager. The ClientScriptManager class will be covered later in this module.
-
 
 There are several overloaded versions of GetCallbackEventReference. In this case, the arguments are as follows:
 
@@ -516,12 +501,9 @@ The ICallbackEventHandler contains two methods that you need to implement in you
 
 Once you have completed the above steps, you are ready to perform a script callback in ASP.NET 2.0.
 
-
 ![](the-asp-net-2-0-page-model/_static/image4.png)
 
-
 [Open Full-Screen Video](the-asp-net-2-0-page-model/_static/callback1.wmv)
-
 
 Script callbacks in ASP.NET are supported in any browser that supports making XMLHttp calls. That includes all of the modern browsers in use today. Internet Explorer uses the XMLHttp ActiveX object while other modern browsers (including the upcoming IE 7) use an intrinsic XMLHttp object. To programmatically determine if a browser supports callbacks, you can use the **Request.Browser.SupportCallback** property. This property will return **true** if the requesting client supports script callbacks.
 
@@ -531,7 +513,6 @@ Client scripts in ASP.NET 2.0 are managed via the use of the ClientScriptManager
 
 > [!NOTE]
 > After a script has been successfully registered on a page, any subsequent attempt to register the same script will simply result in the script not being registered a second time. No duplicate scripts are added and no exception occurs. To avoid unnecessary computation, there are methods that you can use to determine if a script is already registered so that you do not attempt to register it more than once.
-
 
 The methods of the ClientScriptManager should be familiar to all current ASP.NET developers:
 
@@ -574,7 +555,6 @@ This code produces the following code in the rendered page:
 > [!NOTE]
 > The script block is rendered at the bottom of the page.
 
-
 Use the IsClientScriptIncludeRegistered method to determine if a script has already been registered. This allows you to avoid an attempt to re-register a script.
 
 ## RegisterStartupScript
@@ -584,13 +564,11 @@ The RegisterStartupScript method takes the same arguments as the RegisterClientS
 > [!NOTE]
 > If you register a function with RegisterStartupScript, that function will not execute until you explicitly call it in client-side code.
 
-
 Use the IsStartupScriptRegistered method to determine if a script has already been registered and avoid an attempt to re-register a script.
 
 ## Other ClientScriptManager Methods
 
 Here are some of the other useful methods of the ClientScriptManager class.
-
 
 |  <strong>GetCallbackEventReference</strong>   |                                                 See script callbacks earlier in this module.                                                 |
 |-----------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------|
@@ -600,4 +578,3 @@ Here are some of the other useful methods of the ClientScriptManager class.
 | <strong>RegisterClientScriptResource</strong> |     Registers a Web resource with the page. These are resources embedded in an assembly and handled by the new WebResource.axd handler.      |
 |     <strong>RegisterHiddenField</strong>      |                                                 Registers a hidden form field with the page.                                                 |
 |  <strong>RegisterOnSubmitStatement</strong>   |                                  Registers client-side code that executes when the HTML form is submitted.                                   |
-

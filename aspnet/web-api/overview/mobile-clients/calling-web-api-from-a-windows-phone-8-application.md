@@ -34,7 +34,6 @@ In this end-to-end tutorial, you will learn how to use Web API to create the fol
 > [!NOTE]
 > If you are going to test the connectivity between Web API and Windows Phone 8 projects on your local system, you will need to follow the instructions in the *[Connecting the Windows Phone 8 Emulator to Web API Applications on a Local Computer](https://go.microsoft.com/fwlink/?LinkId=324014)* article to set up your testing environment.
 
-
 <a id="STEP1"></a>
 ### Step 1: Creating the Web API Bookstore Project
 
@@ -44,20 +43,16 @@ The first step of this end-to-end tutorial is to create a Web API project that s
 2. Click **File**, then **New**, and then **Project**.
 3. When the **New Project** dialog box is displayed, expand **Installed**, then **Templates**, then **Visual C#**, and then **Web**.
 
-
    | [![](calling-web-api-from-a-windows-phone-8-application/_static/image2.png)](calling-web-api-from-a-windows-phone-8-application/_static/image1.png) |
    |-----------------------------------------------------------------------------------------------------------------------------------------------------|
    |                                                                Click image to expand                                                                |
 
-
 4. Highlight **ASP.NET Web Application**, enter **BookStore** for the project name, and then click **OK**.
 5. When the **New ASP.NET Project** dialog box is displayed, select the **Web API** template, and then click **OK**.
-
 
    | [![](calling-web-api-from-a-windows-phone-8-application/_static/image4.png)](calling-web-api-from-a-windows-phone-8-application/_static/image3.png) |
    |-----------------------------------------------------------------------------------------------------------------------------------------------------|
    |                                                                Click image to expand                                                                |
-
 
 6. When the Web API project opens, remove the sample controller from the project:
 
@@ -189,8 +184,6 @@ If the application cannot communicate with your Web API, an error message will b
 
 If you tap on the error message, any additional details about the error will be displayed:
 
-
 | [![](calling-web-api-from-a-windows-phone-8-application/_static/image16.png)](calling-web-api-from-a-windows-phone-8-application/_static/image15.png) |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------|
 |                                                                 Click image to expand                                                                 |
-

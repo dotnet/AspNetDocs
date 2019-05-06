@@ -13,7 +13,6 @@ msc.type: chapter
 
 > How to create a Web API application that uses Entity Framework for database persistence.
 
-
 - [Create the Project](part-1.md)
 - [Add Models and Controllers](part-2.md)
 - [Seed the Database](part-3.md)

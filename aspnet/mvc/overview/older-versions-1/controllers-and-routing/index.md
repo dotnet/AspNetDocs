@@ -13,7 +13,6 @@ msc.type: chapter
 
 > In this tutorial set, you learn about ASP.NET routing, which maps browser requests to ASP.NET MVC controller actions.
 
-
 - [ASP.NET MVC Routing Overview (C#)](asp-net-mvc-routing-overview-cs.md)
 - [Understanding Action Filters (C#)](understanding-action-filters-cs.md)
 - [Improving Performance with Output Caching (C#)](improving-performance-with-output-caching-cs.md)

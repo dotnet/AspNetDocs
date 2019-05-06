@@ -15,14 +15,12 @@ by [Microsoft](https://github.com/microsoft)
 
 > Learn how the ASP.NET MVC framework processes a browser request step-by-step.
 
-
 Requests to an ASP.NET MVC-based Web application first pass through the **UrlRoutingModule** object, which is an HTTP module. This module parses the request and performs route selection. The **UrlRoutingModule** object selects the first route object that matches the current request. (A route object is a class that implements **RouteBase**, and is typically an instance of the **Route** class.) If no routes match, the **UrlRoutingModule** object does nothing and lets the request fall back to the regular ASP.NET or IIS request processing.
 
 From the selected **Route** object, the **UrlRoutingModule** object obtains the **IRouteHandler** object that is associated with the **Route** object. Typically, in an MVC application, this will be an instance of **MvcRouteHandler**. The **IRouteHandler** instance creates an **IHttpHandler** object and passes it the **IHttpContext** object. By default, the **IHttpHandler** instance for MVC is the **MvcHandler** object. The **MvcHandler** object then selects the controller that will ultimately handle the request.
 
 > [!NOTE]
 > When an ASP.NET MVC Web application runs in IIS 7.0, no file name extension is required for MVC projects. However, in IIS 6.0, the handler requires that you map the .mvc file name extension to the ASP.NET ISAPI DLL.
-
 
 The module and handler are the entry points to the ASP.NET MVC framework. They perform the following actions:
 

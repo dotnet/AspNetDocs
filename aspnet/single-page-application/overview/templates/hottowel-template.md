@@ -24,13 +24,11 @@ by [Mads Kristensen](https://github.com/madskristensen)
 > 
 > Hot Towel: Because you don't want to go to the SPA without one!
 
-
 Want to build a SPA but can't decide where to start? Use Hot Towel and in seconds you'll have a SPA and all the tools you need to build on it!
 
 Hot Towel creates a great starting point for building a Single Page Application (SPA) with ASP.NET. Out of the box you it provides a modular structure for your code, view navigation, data binding, rich data management and simple but elegant styling. Hot Towel provides everything you need to build a SPA, so you can focus on your app, not the plumbing.
 
 > Learn more about building a SPA from [John Papa's videos, tutorials and Pluralsight courses](http://johnpapa.net/spa?vsix).
-
 
 ## Application Structure
 

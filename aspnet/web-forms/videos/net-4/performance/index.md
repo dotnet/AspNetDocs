@@ -13,7 +13,6 @@ msc.type: chapter
 
 > This video series covers new ways to optimize Web Forms pages in ASP.NET 4.
 
-
 - [Selective View State](aspnet-4-quick-hit-selective-view-state.md)
 - [Easy State Compression](aspnet-4-quick-hit-easy-state-compression.md)
 - [Use the ViewStateMode Property for Managing ViewState](how-do-i-use-the-viewstatemode-property-for-managing-viewstate.md)

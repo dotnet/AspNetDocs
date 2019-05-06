@@ -17,7 +17,6 @@ by [Microsoft](https://github.com/microsoft)
 
 > In this fourth iteration, we take advantage of several software design patterns to make it easier to maintain and modify the Contact Manager application. For example, we refactor our application to use the Repository pattern and the Dependency Injection pattern.
 
-
 ## Building a Contact Management ASP.NET MVC Application (C#)
 
 In this series of tutorials, we build an entire Contact Management application from start to finish. The Contact Manager application enables you to store contact information - names, phone numbers and email addresses - for a list of people.
@@ -48,7 +47,6 @@ Currently, all of the data access and validation logic used by the Contact Manag
 > 
 > (SRP), a class should never have more than one reason to change. Mixing controller, validation, and database logic is a massive violation of the Single Responsibility Principle.
 
-
 There are several reasons that you might need to modify your application. You might need to add a new feature to your application, you might need to fix a bug in your application, or you might need to modify how a feature of your application is implemented. Applications are rarely static. They tend to grow and mutate over time.
 
 Imagine, for example, that you decide to change how you implement your data access layer. Right now, the Contact Manager application uses the Microsoft Entity Framework to access the database. However, you might decide to migrate to a new or alternative data access technology such as ADO.NET Data Services or NHibernate. However, because the data access code is not isolated from the validation and controller code, there is no way to modify the data access code in your application without modifying other code that is not directly related to data access.
@@ -60,7 +58,6 @@ In this iteration, we take advantage of several software design patterns that en
 > [!NOTE] 
 > 
 > Refactoring is the process of rewriting an application in such a way that it does not lose any existing functionality.
-
 
 ## Using the Repository Software Design Pattern
 
@@ -99,7 +96,6 @@ Programming against interfaces (abstractions) instead of concrete classes makes 
 > 
 > You can quickly create an interface from a concrete class within Visual Studio by selecting the menu option Refactor, Extract Interface. For example, you can create the EntityContactManagerRepository class first and then use Extract Interface to generate the IContactManagerRepository interface automatically.
 
-
 ## Using the Dependency Injection Software Design Pattern
 
 Now that we have migrated our data access code to a separate Repository class, we need to modify our Contact controller to use this class. We will take advantage of a software design pattern called Dependency Injection to use the Repository class in our controller.
@@ -121,7 +117,6 @@ Constructor Dependency injection also makes the Contact controller class very te
 > [!NOTE] 
 > 
 > If you want to completely decouple the Contact controller class from a particular implementation of the IContactManagerRepository interface then you can take advantage of a framework that supports Dependency Injection such as StructureMap or the Microsoft Entity Framework (MEF). By taking advantage of a Dependency Injection framework, you never need to refer to a concrete class in your code.
-
 
 ## Creating a Service Layer
 

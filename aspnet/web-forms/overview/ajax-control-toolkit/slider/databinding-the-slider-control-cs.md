@@ -17,7 +17,6 @@ by [Christian Wenz](https://github.com/wenz)
 
 > The Slider control in the AJAX Control Toolkit provides a graphical slider that can be controlled using the mouse. It is possible to bind the current position of the slider to another ASP.NET control.
 
-
 ## Overview
 
 The Slider control in the AJAX Control Toolkit provides a graphical slider that can be controlled using the mouse. It is possible to bind the current position of the slider to another ASP.NET control.
@@ -37,7 +36,6 @@ The next step is already the final step. The `SliderExtender` control from the A
 [!code-aspx[Main](databinding-the-slider-control-cs/samples/sample3.aspx)]
 
 As you can see in the browser, the data binding works in both directions: entering a new value in the text box updates the slider's position. If you make the second text box read only, you may add a weak protection to the text field so that it is harder for the user to manually update the value in there.
-
 
 [![Slider and text box are in sync](databinding-the-slider-control-cs/_static/image2.png)](databinding-the-slider-control-cs/_static/image1.png)
 
