@@ -108,7 +108,7 @@ Some developers and DBAs prefer to use stored procedures for database access. In
 
     `add-migration DepartmentSP`
 
-    Open *Migrations\&lt;timestamp&gt;\_DepartmentSP.cs* to see the code in the `Up` method that creates Insert, Update, and Delete stored procedures:
+    Open *Migrations\\&lt;timestamp&gt;\_DepartmentSP.cs* to see the code in the `Up` method that creates Insert, Update, and Delete stored procedures:
 
     [!code-csharp[Main](async-and-stored-procedures-with-the-entity-framework-in-an-asp-net-mvc-application/samples/sample8.cs?highlight=3-4,26-27,42-43)]
 3. In Package Manage Console, enter the following command:
