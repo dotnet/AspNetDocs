@@ -7,15 +7,17 @@ namespace MvcApplication1.Models
     {
         private ProductDBEntities _entities = new ProductDBEntities();
 
-        public IEnumerable<Product> ListProducts()
+        public IEnumerable<ProductServiceModel> ListProducts()
         {
-            return _entities.ProductSet.ToList();
+            return _entities.ProductSet.ProjectTo<ProductServceModel>().ToList();
         }
 
-        public bool CreateProduct(Product productToCreate)
+        public bool CreateProduct(ProductServiceModel productToCreate)
         {
             try
             {
+            
+                 var product = Mapper.Map<Product>(productToCreate);              
                 _entities.AddToProductSet(productToCreate);
                 _entities.SaveChanges();
                 return true;
@@ -30,8 +32,8 @@ namespace MvcApplication1.Models
 
     public interface IProductRepository
     {
-        bool CreateProduct(Product productToCreate);
-        IEnumerable<Product> ListProducts();
+        bool CreateProduct(ProductServiceModel productToCreate);
+        IEnumerable<ProductServiceModel> ListProducts();
     }
 
 }
