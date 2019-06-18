@@ -5,5 +5,5 @@ public HttpResponseMessage GetProduct(int id)
     {
         throw new HttpResponseException(HttpStatusCode.NotFound);
     }
-    return Request.CreateResponse(HttpStatusCode.OK, product);
+    return Request.CreateResponse(HttpStatusCode.OK, item);
 }
