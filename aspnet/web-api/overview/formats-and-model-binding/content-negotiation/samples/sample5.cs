@@ -1,6 +1,6 @@
 public HttpResponseMessage GetProduct(int id)
 {
-    var product = new Product() 
+    Procuct product = new Product() 
         { Id = id, Name = "Gizmo", Category = "Widgets", Price = 1.99M };
 
     IContentNegotiator negotiator = this.Configuration.Services.GetContentNegotiator();
@@ -9,7 +9,7 @@ public HttpResponseMessage GetProduct(int id)
         typeof(Product), this.Request, this.Configuration.Formatters);
     if (result == null)
     {
-        var response = new HttpResponseMessage(HttpStatusCode.NotAcceptable);
+        HttpResponseMessage response = new HttpResponseMessage(HttpStatusCode.NotAcceptable);
         throw new HttpResponseException(response));
     }
 
