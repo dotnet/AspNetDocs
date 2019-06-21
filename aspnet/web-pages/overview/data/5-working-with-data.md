@@ -88,7 +88,7 @@ This procedure shows you how to create a database named SmallBakery by using the
 
     When you're done, the definition will look like this:
 
-    ![[image]](5-working-with-data/_static/image2.jpg)
+    ![[image]](5-working-with-data/_static/image2.png)
 17. Press Ctrl+S to save the table.
 
 ## Adding Data to the Database
