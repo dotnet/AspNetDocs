@@ -62,11 +62,11 @@ Each version of the .NET Framework includes a version of the ASP.NET IIS Registr
 
 The Aspnet\_regiis.exe for version 1.0 is located at:
 
-- C:\WINDOWS\Microsoft.NET\Framework\**v1.0.3705**\aspnet\_regiis
+- C:\WINDOWS\Microsoft.NET\Framework\\**v1.0.3705**\aspnet\_regiis
 
 The Aspnet\_regiis.exe for version 1,1 is located at:
 
-- C:\WINDOWS\Microsoft.NET\Framework\**v1.1.4322**\aspnet\_regiis
+- C:\WINDOWS\Microsoft.NET\Framework\\**v1.1.4322**\aspnet\_regiis
 
 The Aspnet\_regiis.exe provides two options for script mapping a Web application:
 
