@@ -141,7 +141,6 @@ If you want to write your own provider, read [Overview of Custom Storage Provide
 - Blog: [Implementing ASP.NET Identity](http://odetocode.com/blogs/scott/archive/2014/01/20/implementing-asp-net-identity.aspx)
 - Tutorial:[Setting up the basic Identity accounts, and pointing them at an external DB](http://typecastexception.com/post/2013/10/27/Configuring-Db-Connection-and-Code-First-Migration-for-Identity-Accounts-in-ASPNET-MVC-5-and-Visual-Studio-2013.aspx). By [@xivSolutions](https://twitter.com/xivSolutions).
 - Tutorial[: Implementing a Custom MySQL ASP.NET Identity Storage Provider](../extensibility/implementing-a-custom-mysql-aspnet-identity-storage-provider.md)
-- [CodeFluent Entities](http://blog.codefluententities.com/2014/04/30/asp-net-identity-v2-and-codefluent-entities/) by [SoftFluent](http://www.softfluent.com/)
 - [Azure Table Storage](https://www.nuget.org/packages/accidentalfish.aspnet.identity.azure/) by James Randall.
 - Azure Table Storage: [AspNet.Identity.TableStorage](https://github.com/stuartleeks/leeksnet.AspNet.Identity.TableStorage) by [@stuartleeks](https://twitter.com/stuartleeks).
 - [CouchDB / Cloudant by Daniel Wertheim.](https://github.com/danielwertheim/mycouch.aspnet.identity)
