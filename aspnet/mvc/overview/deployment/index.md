@@ -1,6 +1,6 @@
 ---
 uid: mvc/overview/deployment/index
-title: "ASP.NET MVC 5.0 Deployment - ASP.NET 4.x"
+title: "Deployment ASP.NET MVC 5.0 | ASP.NET 4.x"
 author: rick-anderson
 description: "How to deploy ASP.NET MVC 5.0 projects to a server."
 ms.author: riande
