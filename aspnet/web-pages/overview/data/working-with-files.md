@@ -16,7 +16,7 @@ by [Tom FitzMacken](https://github.com/tfitzmac)
 > This article explains how to read, write, append, delete, and upload files in an ASP.NET Web Pages (Razor) site.
 > 
 > > [!NOTE]
-> > If you want to upload images and manipulate them (for example, flip or resize them), see [Working with Images in an ASP.NET Web Pages Site](https://docs.microsoft.com/en-us/aspnet/web-pages/overview/ui-layouts-and-themes/9-working-with-images).
+> > If you want to upload images and manipulate them (for example, flip or resize them), see [Working with Images in an ASP.NET Web Pages Site](/aspnet/web-pages/overview/ui-layouts-and-themes/9-working-with-images).
 > 
 > 
 > **What you'll learn:** 
