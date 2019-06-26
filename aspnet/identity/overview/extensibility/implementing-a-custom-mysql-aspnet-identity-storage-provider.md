@@ -26,7 +26,6 @@ by [Raquel Soares De Almeida](https://github.com/raquelsa), [Suhas Joshi](https:
 > 
 > This tutorial was originally written by Raquel Soares De Almeida and Rick Anderson ( [@RickAndMSFT](https://twitter.com/#!/RickAndMSFT) ). The sample project was updated for Identity 2.0 by Suhas Joshi. The topic was updated for Identity 2.0 by Tom FitzMacken.
 
-
 ## Download completed project
 
 At the end of this tutorial, you will have an MVC application project with ASP.NET Identity working with a MySQL database hosted on Azure.

@@ -17,7 +17,6 @@ by [Mike Wasson](https://github.com/MikeWasson), [Rick Anderson]((https://twitte
 
 > The **Building Real World Cloud Apps with Azure** e-book is based on a presentation developed by Scott Guthrie. It explains 13 patterns and practices that can help you be successful developing web apps for the cloud. For information about the e-book, see [the first chapter](introduction.md).
 
-
 The first two recommended development process patterns were [Automate Everything](automate-everything.md) and [Source Control](source-control.md), and the third process pattern combines them. Continuous integration (CI) means that whenever a developer checks in code to the source repository, a build is automatically triggered. Continuous delivery (CD) takes this one step further: after a build and automated unit tests are successful, you automatically deploy the application to an environment where you can do more in-depth testing.
 
 The cloud enables you to minimize the cost of maintaining a test environment because you only pay for the environment resources as long as you're using them. Your CD process can set up the test environment when you need it, and you can take down the environment when you're done testing.
@@ -44,7 +43,6 @@ Azure DevOps Services provides a number of features to assist you with applicati
 - It supports automated load testing. Load testing is critical to a cloud app but is often neglected until it's too late. Load testing simulates heavy use of an app by thousands of users, enabling you to find bottlenecks and improve throughput —before you release the app to production.
 - It supports team room collaboration, which facilitates real-time communication and collaboration for small agile teams.
 - It supports agile project management.
-
 
 For more information on the continuous integration and delivery features of Azure DevOps Services, see [the Azure DevOps documentation](/azure/devops/index).
 

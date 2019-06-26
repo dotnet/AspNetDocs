@@ -11,12 +11,11 @@ msc.type: authoredcontent
 ---
 # Hands On Lab: Real-Time Web Applications with SignalR
 
-
 by [Web Camps Team](https://twitter.com/webcamps)
 
 [!INCLUDE [Consider ASP.NET Core SignalR](~/includes/signalr/signalr-version-disambiguation.md)]
 
-[Download Web Camps Training Kit](https://aka.ms/webcamps-training-kit)
+[Download Web Camps Training Kit, October 2015 Release](https://github.com/Microsoft-Web/WebCampTrainingKit/releases/tag/v2015.10.13b)
 
 > Real-time Web applications feature the ability to push server-side content to the connected clients as it happens, in real-time. For ASP.NET developers, **ASP.NET SignalR** is a library to add real-time web functionality to their applications. It takes advantage of several transports, automatically selecting the best available transport given the client and server's best available transport. It takes advantage of **WebSocket**, an HTML5 API that enables bi-directional communication between the browser and server.
 > 
@@ -28,8 +27,7 @@ by [Web Camps Team](https://twitter.com/webcamps)
 > 
 > ![SignalR Architecture](real-time-web-applications-with-signalr/_static/image1.png)
 > 
-> All sample code and snippets are included in the Web Camps Training Kit, available at [https://aka.ms/webcamps-training-kit](https://aka.ms/webcamps-training-kit).
-
+> All sample code and snippets are included in the Web Camps Training Kit, October 2015 Release, available at [https://github.com/Microsoft-Web/WebCampTrainingKit/releases/tag/v2015.10.13b](https://github.com/Microsoft-Web/WebCampTrainingKit/releases/tag/v2015.10.13b).  Please note that the Installer link on that page no longer works; use one of the links under the Assets section instead.
 
 <a id="Overview"></a>
 ## Overview
@@ -61,7 +59,6 @@ In order to run the exercises in this hands-on lab, you will need to set up your
 > [!NOTE]
 > Make sure you have checked all the dependencies for this lab before running the setup.
 
-
 <a id="CodeSnippets"></a>
 ### Using the Code Snippets
 
@@ -69,7 +66,6 @@ Throughout the lab document, you will be instructed to insert code blocks. For y
 
 > [!NOTE]
 > Each exercise is accompanied by a starting solution located in the **Begin** folder of the exercise that allows you to follow each exercise independently of the others. Please be aware that the code snippets that are added during an exercise are missing from these starting solutions and may not work until you have completed the exercise. Inside the source code for an exercise, you will also find an **End** folder containing a Visual Studio solution with the code that results from completing the steps in the corresponding exercise. You can use these solutions as guidance if you need additional help as you work through this hands-on lab.
-
 
 ---
 
@@ -85,7 +81,6 @@ Estimated time to complete this lab: **60 minutes**
 
 > [!NOTE]
 > When you first start Visual Studio, you must select one of the predefined settings collections. Each predefined collection is designed to match a particular development style and determines window layouts, editor behavior, IntelliSense code snippets, and dialog box options. The procedures in this lab describe the actions necessary to accomplish a given task in Visual Studio when using the **General Development Settings** collection. If you choose a different settings collection for your development environment, there may be differences in the steps that you should take into account.
-
 
 <a id="Exercise1"></a>
 ### Exercise 1: Working with Real-Time Data Using SignalR
@@ -269,7 +264,6 @@ For more information about how the SignalR backplane works, read this [article](
 > - [Server broadcast](tutorial-server-broadcast-with-signalr.md) (e.g., stock ticker): Backplanes work well for this scenario, because the server controls the rate at which messages are sent.
 > - [Client-to-client](tutorial-getting-started-with-signalr.md) (e.g., chat): In this scenario, the backplane might be a bottleneck if the number of messages scales with the number of clients; that is, if the rate of messages grows proportionally as more clients join.
 > - [High-frequency realtime](tutorial-high-frequency-realtime-with-signalr.md) (e.g., real-time games): A backplane is not recommended for this scenario.
-
 
 In this exercise, you will use **SQL Server** to distribute messages across the **Geek Quiz** application. You will run these tasks on a single test machine to learn how to set up the configuration, but in order to get the full effect, you will need to deploy the SignalR application to two or more servers. You must also install SQL Server on one of the servers, or on a separate dedicated server.
 

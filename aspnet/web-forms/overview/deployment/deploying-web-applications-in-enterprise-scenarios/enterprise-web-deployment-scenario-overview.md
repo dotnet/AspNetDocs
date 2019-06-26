@@ -17,7 +17,6 @@ by [Jason Lee](https://github.com/jrjlee)
 
 > This set of tutorials uses a sample solution with a realistic level of complexity, together with a fictional enterprise deployment scenario, to provide a reference implementation and to give the tasks and walkthroughs a common context. This topic describes the tutorial scenario and introduces the sample solution.
 
-
 ## Scenario Description
 
 Fabrikam, Inc., a fictitious company, is creating a solution that lets remote sales teams store and retrieve contact information from a web interface.

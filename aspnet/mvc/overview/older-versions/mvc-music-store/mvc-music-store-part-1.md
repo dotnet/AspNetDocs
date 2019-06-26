@@ -19,7 +19,6 @@ by [Jon Galloway](https://github.com/jongalloway)
 >   
 > This tutorial series details all of the steps taken to build the ASP.NET MVC Music Store sample application. Part 1 covers Overview and File-&gt;New Project.
 
-
 ## Overview
 
 The MVC Music Store is a tutorial application that introduces and explains step-by-step how to use ASP.NET MVC and Visual Web Developer for web development. We'll be starting slowly, so beginner level web development experience is okay.
@@ -68,11 +67,9 @@ You can follow along step by step, or you can download the completed application
 
 You can use either Visual Studio 2010 SP1 or Visual Web Developer 2010 Express SP1 (a free version of Visual Studio 2010) to build the application. We'll be using the SQL Server Compact (also free) to host the database. Before you start, make sure you've installed the prerequisites listed below.
 
-
 - [Visual Studio Web Developer Express SP1 prerequisites]
 - [ASP.NET MVC 3 Tools Update]
 - [SQL Server Compact 4.0] - including both runtime and tools support
-
 
 ### Creating a new ASP.NET MVC 3 project
 

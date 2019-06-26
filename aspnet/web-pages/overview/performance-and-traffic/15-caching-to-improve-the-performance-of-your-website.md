@@ -32,7 +32,6 @@ by [Tom FitzMacken](https://github.com/tfitzmac)
 > 
 > This tutorial also works with ASP.NET Web Pages 2.
 
-
 Every time someone requests a page from your site, the web server has to do some work in order to fulfill the request. For some of your pages, the server might have to perform tasks that take a (comparatively) long time, such as retrieving data from a database. Even if these tasks don't take long in absolute terms, if your site experiences a lot of traffic, a whole series of individual requests that cause the web server to perform the complicated or slow task can add up to a lot of work. This can ultimately affect the performance of the site.
 
 One way to improve the performance of your website in circumstances like this is to cache data. If your site gets repeated requests for the same information, and the information does not need to be modified for each person, and it's not time sensitive, instead of re-fetching or recalculating it, you can fetch the data once and then store the results. The next time a request comes in for that information, you just get it out of the cache.
@@ -41,7 +40,6 @@ In general, you cache information that doesn't change frequently. When you put i
 
 > [!NOTE]
 > Entries in the cache might be removed for reasons other than that they've expired. For example, the web server might temporarily run low on memory, and one way it can reclaim memory is by throwing entries out of the cache. As you'll see, even if you've put information into the cache, you have to check to be sure it's still there when you need it.
-
 
 Imagine your website has a page that displays the current temperature and weather forecast. To get this type of information, you might send a request to an external service. Since this information doesn't change much (within a two-hour time period, for example) and since external calls require time and bandwidth, it's a good candidate for caching.
 
@@ -71,7 +69,6 @@ ASP.NET includes a `WebCache` helper that makes it easy to add caching to your s
 
 <a id="Additional_Resources"></a>
 ## Additional Resources
-
 
 - [Displaying Data in a Chart](https://go.microsoft.com/fwlink/?LinkId=202895)
 - [WebCache API reference](https://msdn.microsoft.com/library/system.web.helpers.webcache(v=vs.99).aspx) (MSDN)

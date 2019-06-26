@@ -23,7 +23,6 @@ by [Rick Anderson]((https://twitter.com/RickAndMSFT))
 > 
 > A Visual Web Developer project with VB.NET source code is available to accompany this topic. [Download the VB.NET version](https://code.msdn.microsoft.com/Introduction-to-MVC-3-10d1b098). If you prefer C#, switch to the [C# version](../cs/accessing-your-models-data-from-a-controller.md) of this tutorial.
 
-
 In this section, you'll create a new `MoviesController` class and write code that retrieves the movie data and displays it in the browser using a view template. Be sure to build your application before proceeding.
 
 Right-click the *Controllers* folder and create a new `MoviesController` controller. Select the following options:
@@ -106,7 +105,6 @@ Double-click *Movies.sdf* to open **Server Explorer**. Then expand the **Tables*
 
 > [!NOTE]
 > If you get an error when you double-click *Movies.sdf*, make sure you've installed **Visual Studio 2010 SP1 Tools for SQL Server Compact 4.0**. (For links to the software, see the list of prerequisites in part 1 of this tutorial series.) If you install the release now, you'll have to close and re-open Visual Web Developer.
-
 
 [![DB_explorer](accessing-your-models-data-from-a-controller/_static/image14.png)](accessing-your-models-data-from-a-controller/_static/image13.png)
 

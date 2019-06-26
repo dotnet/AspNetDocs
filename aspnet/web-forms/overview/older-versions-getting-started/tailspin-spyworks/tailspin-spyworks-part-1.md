@@ -17,7 +17,6 @@ by [Joe Stagner](https://github.com/JoeStagner)
 > 
 > This tutorial series details all of the steps taken to build the Tailspin Spyworks sample application. Part 1 covers Overview and File/New Project.
 
-
 ## <a id="_Toc260221666"></a>  Overview
 
 This tutorial is an introduction to ASP.NET WebForms. We'll be starting slowly, so beginner level web development experience is okay.
@@ -25,7 +24,6 @@ This tutorial is an introduction to ASP.NET WebForms. We'll be starting slowly, 
 The application we'll be building is a simple on-line store.
 
 ![](tailspin-spyworks-part-1/_static/image1.jpg)
-
 
 Visitors can browse Products by Category:
 
@@ -48,7 +46,6 @@ Proceeding to Checkout will prompt them to
 After ordering, they see a simple confirmation screen:
 
 ![](tailspin-spyworks-part-1/_static/image7.jpg)
-
 
 We'll begin by creating a new ASP.NET WebForms project in Visual Studio 2010, and we'll incrementally add features to create a complete functioning application. Along the way, we'll cover database access, list and grid views, data update pages, data validation, using master pages for consistent page layout, AJAX, validation, user membership, and more.
 

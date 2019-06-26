@@ -17,7 +17,6 @@ by [Scott Mitchell](https://twitter.com/ScottOnWriting)
 
 > In this tutorial we will build a user interface with a paged, filterable grid. In particular, our user interface will consist of a series of LinkButtons for filtering the results based on the starting letter of the username, and a GridView control to show the matching users. We'll start by listing all of the user accounts in a GridView. Then, in Step 3, we will add the filter LinkButtons. Step 4 looks at paging the filtered results. The interface constructed in Steps 2 through 4 will be used in the subsequent tutorials to perform administrative tasks for a particular user account.
 
-
 ## Introduction
 
 In the <a id="_msoanchor_1"></a>[*Assigning Roles to Users*](../roles/assigning-roles-to-users-cs.md) tutorial, we created a rudimentary interface for an administrator to select a user and manage her roles. Specifically, the interface presented the administrator with a drop-down list of all of the users. Such an interface is suitable when there are but a dozen or so user accounts, but is unwieldy for sites with hundreds or thousands of accounts. A paged, filterable grid is more suitable user interface for websites with large user bases.
@@ -49,11 +48,9 @@ The ASP.NET pages in the `Administration` folder are intended solely for adminis
 
 At this point your project's Solution Explorer should look similar to the screen shot shown in Figure 1.
 
-
 [![Four New Pages and a Web.config File Have Been Added to the Website](building-an-interface-to-select-one-user-account-from-many-cs/_static/image2.png)](building-an-interface-to-select-one-user-account-from-many-cs/_static/image1.png)
 
 **Figure 1**: Four New Pages and a `Web.config` File Have Been Added to the Website  ([Click to view full-size image](building-an-interface-to-select-one-user-account-from-many-cs/_static/image3.png))
-
 
 Finally, update the site map (`Web.sitemap`) to include an entry to the `ManageUsers.aspx` page. Add the following XML after the `<siteMapNode>` we added for the Roles tutorials.
 
@@ -61,11 +58,9 @@ Finally, update the site map (`Web.sitemap`) to include an entry to the `ManageU
 
 With the site map updated, visit the site through a browser. As Figure 2 shows, the navigation on the left now includes items for the Administration tutorials.
 
-
 [![The Site Map Includes a Node Titled User Administration](building-an-interface-to-select-one-user-account-from-many-cs/_static/image5.png)](building-an-interface-to-select-one-user-account-from-many-cs/_static/image4.png)
 
 **Figure 2**: The Site Map Includes a Node Titled User Administration  ([Click to view full-size image](building-an-interface-to-select-one-user-account-from-many-cs/_static/image6.png))
-
 
 ## Step 2: Listing All User Accounts in a GridView
 
@@ -75,11 +70,9 @@ Open the `ManageUsers.aspx` page in the `Administration` folder and add a GridVi
 
 In order to display the desired user account information in the GridView, set the GridView's `AutoGenerateColumns` property to False and add BoundFields for the `UserName`, `Email`, and `Comment` properties and CheckBoxFields for the `IsApproved`, `IsLockedOut`, and `IsOnline` properties. This configuration can be applied through the control's declarative markup or via the Fields dialog box. Figure 3 shows a screen shot of the Fields dialog box after the Auto-generate fields checkbox has been unchecked and the BoundFields and CheckBoxFields have been added and configured.
 
-
 [![Add Three BoundFields and Three CheckBoxFields to the GridView](building-an-interface-to-select-one-user-account-from-many-cs/_static/image8.png)](building-an-interface-to-select-one-user-account-from-many-cs/_static/image7.png)
 
 **Figure 3**: Add Three BoundFields and Three CheckBoxFields to the GridView  ([Click to view full-size image](building-an-interface-to-select-one-user-account-from-many-cs/_static/image9.png))
-
 
 After configuring your GridView, ensure that its declarative markup resembles the following:
 
@@ -91,11 +84,9 @@ Next, we need to write code that binds the user accounts to the GridView. Create
 
 Take a moment to test the page through a browser. As Figure 4 shows, the `UserAccounts` GridView lists the username, email address, and other pertinent account information for all users in the system.
 
-
 [![The User Accounts are Listed in the GridView](building-an-interface-to-select-one-user-account-from-many-cs/_static/image11.png)](building-an-interface-to-select-one-user-account-from-many-cs/_static/image10.png)
 
 **Figure 4**: The User Accounts are Listed in the GridView  ([Click to view full-size image](building-an-interface-to-select-one-user-account-from-many-cs/_static/image12.png))
-
 
 ## Step 3: Filtering the Results by the First Letter of the Username
 
@@ -115,15 +106,12 @@ This method specifies the filtering options as elements in the `string` array `f
 
 Figure 5 shows the `ManageUsers.aspx` page when viewed through a browser.
 
-
 [![The Repeater Lists 27 Filtering LinkButtons](building-an-interface-to-select-one-user-account-from-many-cs/_static/image14.png)](building-an-interface-to-select-one-user-account-from-many-cs/_static/image13.png)
 
 **Figure 5**: The Repeater Lists 27 Filtering LinkButtons  ([Click to view full-size image](building-an-interface-to-select-one-user-account-from-many-cs/_static/image15.png))
 
-
 > [!NOTE]
 > Usernames may start with any character, including numbers and punctuation. In order to view these accounts, the administrator will have to use the All LinkButton option. Alternatively, you could add a LinkButton to return all user accounts that start with a number. I leave this as an exercise for the reader.
-
 
 Clicking any of the filtering LinkButtons causes a postback and raises the Repeater's `ItemCommand` event, but there's no change in the grid because we've yet to write any code to filter the results. The `Membership` class includes a [`FindUsersByName` method](https://technet.microsoft.com/library/system.web.security.membership.findusersbyname.aspx) that returns those user accounts whose username matches a specified search pattern. We can use this method to retrieve just those user accounts whose usernames start with the letter specified by the `CommandName` of the filtered LinkButton that was clicked.
 
@@ -145,11 +133,9 @@ Create an event handler for the Repeater's `ItemCommand` event. This event is ra
 
 With this code in place, test out the filtering functionality. When the page is first visited, all user accounts are displayed (refer back to Figure 5). Clicking the A LinkButton causes a postback and filters the results, displaying only those user accounts that start with A .
 
-
 [![Use the Filtering LinkButtons to Display those Users Whose Username Starts with a Certain Letter](building-an-interface-to-select-one-user-account-from-many-cs/_static/image17.png)](building-an-interface-to-select-one-user-account-from-many-cs/_static/image16.png)
 
 **Figure 6**: Use the Filtering LinkButtons to Display those Users Whose Username Starts with a Certain Letter  ([Click to view full-size image](building-an-interface-to-select-one-user-account-from-many-cs/_static/image18.png))
-
 
 ## Step 4: Updating the GridView to Use Paging
 
@@ -165,7 +151,6 @@ The performance difference between default and custom paging can be quite substa
 > [!NOTE]
 > For a more thorough discussion on the differences between default and custom paging, as well as the challenges involved in implementing custom paging, refer to [Efficiently Paging Through Large Amounts of Data](https://asp.net/learn/data-access/tutorial-25-cs.aspx). For some analysis of the performance difference between default and custom paging, see [Custom Paging in ASP.NET with SQL Server 2005](http://aspnet.4guysfromrolla.com/articles/031506-1.aspx).
 
-
 To implement custom paging we first need some mechanism by which to retrieve the precise subset of records being displayed by the GridView. The good news is that the `Membership` class's `FindUsersByName` method has an overload that allows us to specify the page index and page size, and returns only those user accounts that fall within that range of records.
 
 In particular, this overload has the following signature: [`FindUsersByName(usernameToMatch, pageIndex, pageSize, totalRecords)`](https://msdn.microsoft.com/library/fa5st8b2.aspx).
@@ -174,7 +159,6 @@ The *pageIndex* parameter specifies the page of user accounts to return; *pageSi
 
 > [!NOTE]
 > The data returned by `FindUsersByName` is sorted by username; the sort criteria cannot be customized.
-
 
 The GridView can be configured to utilize custom paging, but only when bound to an ObjectDataSource control. For the ObjectDataSource control to implement custom paging, it requires two methods: one that is passed a start row index and the maximum number of records to display, and returns the precise subset of records that fall within that span; and a method that returns the total number of records being paged through. The `FindUsersByName` overload accepts a page index and page size, and returns the total number of records through an `out` parameter. So there is an interface mismatch here.
 
@@ -190,11 +174,9 @@ Next, create an event handler for each of the LinkButton's `Click` events.
 
 Figure 7 shows the four LinkButtons when viewed through the Visual Web Developer Design view.
 
-
 [![Add First, Previous, Next, and Last LinkButtons Beneath the GridView](building-an-interface-to-select-one-user-account-from-many-cs/_static/image20.png)](building-an-interface-to-select-one-user-account-from-many-cs/_static/image19.png)
 
 **Figure 7**: Add First, Previous, Next, and Last LinkButtons Beneath the GridView  ([Click to view full-size image](building-an-interface-to-select-one-user-account-from-many-cs/_static/image21.png))
-
 
 ### Keeping Track of the Current Page Index
 
@@ -222,16 +204,13 @@ The last step is to write the code for the four LinkButtons' `Click` event handl
 
 Figures 8 and 9 show the custom paging interface in action. Figure 8 shows the `ManageUsers.aspx` page when viewing the first page of data for all user accounts. Note that only 10 of the 13 accounts are displayed. Clicking the Next or Last link causes a postback, updates the `PageIndex` to 1, and binds the second page of user accounts to the grid (see Figure 9).
 
-
 [![The First 10 User Accounts are Displayed](building-an-interface-to-select-one-user-account-from-many-cs/_static/image23.png)](building-an-interface-to-select-one-user-account-from-many-cs/_static/image22.png)
 
 **Figure 8**: The First 10 User Accounts are Displayed  ([Click to view full-size image](building-an-interface-to-select-one-user-account-from-many-cs/_static/image24.png))
 
-
 [![Clicking the Next Link Displays the Second Page of User Accounts](building-an-interface-to-select-one-user-account-from-many-cs/_static/image26.png)](building-an-interface-to-select-one-user-account-from-many-cs/_static/image25.png)
 
 **Figure 9**: Clicking the Next Link Displays the Second Page of User Accounts  ([Click to view full-size image](building-an-interface-to-select-one-user-account-from-many-cs/_static/image27.png))
-
 
 ## Summary
 

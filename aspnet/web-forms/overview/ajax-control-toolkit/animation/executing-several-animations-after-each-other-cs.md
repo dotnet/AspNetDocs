@@ -17,7 +17,6 @@ by [Christian Wenz](https://github.com/wenz)
 
 > The Animation control in the ASP.NET AJAX Control Toolkit is not just a control but a whole framework to add animations to a control. It allows to run several animations one after the other.
 
-
 The Animation control in the ASP.NET AJAX Control Toolkit is not just a control but a whole framework to add animations to a control. It allows to run several animations one after the other.
 
 ## Steps
@@ -44,11 +43,9 @@ Within the `<Animations>` node, use `<OnLoad>` to run the animations once the pa
 
 When you run this script, the panel first gets wider and then smaller.
 
-
 [![First the width is increased](executing-several-animations-after-each-other-cs/_static/image2.png)](executing-several-animations-after-each-other-cs/_static/image1.png)
 
 First the width is increased ([Click to view full-size image](executing-several-animations-after-each-other-cs/_static/image3.png))
-
 
 [![Then the height is decreased](executing-several-animations-after-each-other-cs/_static/image5.png)](executing-several-animations-after-each-other-cs/_static/image4.png)
 

@@ -11,7 +11,6 @@ msc.type: authoredcontent
 ---
 # Search
 
-
 [!INCLUDE [Tutorial Note](sample/code-location.md)]
 
 ## Adding a Search Method and Search View
@@ -27,7 +26,6 @@ To match this section's screenshots, you need to run the application (F5) and ad
 | Ghostbusters | 6/8/1984 | Comedy | 6.99 |
 | Ghostbusters II | 6/16/1989 | Comedy | 6.99 |
 | Planet of the Apes | 3/27/1986 | Action | 5.99 |
-
 
 ## Updating the Index Form
 

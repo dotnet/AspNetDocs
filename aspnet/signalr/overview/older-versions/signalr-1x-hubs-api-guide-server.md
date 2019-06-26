@@ -21,7 +21,6 @@ by [Patrick Fletcher](https://github.com/pfletcher), [Tom Dykstra](https://githu
 > 
 > SignalR also offers a lower-level API called Persistent Connections. For an introduction to SignalR, Hubs, and Persistent Connections, or for a tutorial that shows how to build a complete SignalR application, see [SignalR - Getting Started](index.md).
 
-
 ## Overview
 
 This document contains the following sections:
@@ -510,7 +509,6 @@ In your Hub class, you can access this data in the `Clients.Caller` property. Th
 
 > [!NOTE]
 > This mechanism for persisting state is not intended for large amounts of data, since everything you put in the `state` or `Clients.Caller` property is round-tripped with every method invocation. It's useful for smaller items such as user names or counters.
-
 
 <a id="handleErrors"></a>
 

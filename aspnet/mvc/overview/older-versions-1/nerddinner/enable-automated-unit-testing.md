@@ -21,7 +21,6 @@ by [Microsoft](https://github.com/microsoft)
 > 
 > If you are using ASP.NET MVC 3, we recommend you follow the [Getting Started With MVC 3](../../older-versions/getting-started-with-aspnet-mvc3/cs/intro-to-aspnet-mvc-3.md) or [MVC Music Store](../../older-versions/mvc-music-store/mvc-music-store-part-1.md) tutorials.
 
-
 ## NerdDinner Step 12: Unit Testing
 
 Let's develop a suite of automated unit tests that verify our NerdDinner functionality, and which will give us the confidence to make changes and improvements to the application in the future.
@@ -92,7 +91,7 @@ Let's position our cursor within the DinnerTest class and type "Ctrl R, T" to ru
 
 *Note: The VS test results window does not show the Class Name column by default. You can add this by right-clicking within the Test Results window and using the Add/Remove Columns menu command.*
 
-Our two tests took only a fraction of a second to run – and as you can see they both passed. We can now go on and augment them by creating additional tests that verify specific rule validations, as well as cover the two helper methods - IsUserHost() and IsUserRegisterd() – that we added to the Dinner class. Having all these tests in place for the Dinner class will make it much easier and safer to add new business rules and validations to it in the future. We can add our new rule logic to Dinner, and then within seconds verify that it hasn't broken any of our previous logic functionality.
+Our two tests took only a fraction of a second to run – and as you can see they both passed. We can now go on and augment them by creating additional tests that verify specific rule validations, as well as cover the two helper methods - IsUserHost() and IsUserRegistered() – that we added to the Dinner class. Having all these tests in place for the Dinner class will make it much easier and safer to add new business rules and validations to it in the future. We can add our new rule logic to Dinner, and then within seconds verify that it hasn't broken any of our previous logic functionality.
 
 Notice how using a descriptive test name makes it easy to quickly understand what each test is verifying. I recommend using the **Tools-&gt;Options** menu command, opening the Test Tools-&gt;Test Execution configuration screen, and checking the "Double-clicking a failed or inconclusive unit test result displays the point of failure in the test" checkbox. This will allow you to double-click on a failure in the test results window and jump immediately to the assert failure.
 
@@ -205,7 +204,7 @@ Best of all, they take only a fraction of a second to run, and do not require an
 
 | **Side Topic: Dependency Injection Frameworks** |
 | --- |
-| Performing manual dependency injection (like we are above) works fine, but does become harder to maintain as the number of dependencies and components in an application increases. Several dependency injection frameworks exist for .NET that can help provide even more dependency management flexibility. These frameworks, also sometimes called "Inversion of Control" (IoC) containers, provide mechanisms that enable an additional level of configuration support for specifying and passing dependencies to objects at runtime (most often using constructor injection). Some of the more popular OSS Dependency Injection / IOC frameworks in .NET include: AutoFac, Ninject, Spring.NET, StructureMap, and Windsor. ASP.NET MVC exposes extensibility APIs that enable developers to participate in the resolution and instantiation of controllers, and which enables Dependency Injection / IoC frameworks to be cleanly integrated within this process. Using a DI/IOC framework would also enable us to remove the default constructor from our DinnersController – which would completely remove the coupling between it and the DinnerRepositorys. We won't be using a dependency injection / IOC framework with our NerdDinner application. But it is something we could consider for the future if the NerdDinner code-base and capabilities grew. |
+| Performing manual dependency injection (like we are above) works fine, but does become harder to maintain as the number of dependencies and components in an application increases. Several dependency injection frameworks exist for .NET that can help provide even more dependency management flexibility. These frameworks, also sometimes called "Inversion of Control" (IoC) containers, provide mechanisms that enable an additional level of configuration support for specifying and passing dependencies to objects at runtime (most often using constructor injection). Some of the more popular OSS Dependency Injection / IOC frameworks in .NET include: AutoFac, Ninject, Spring.NET, StructureMap, and Windsor. ASP.NET MVC exposes extensibility APIs that enable developers to participate in the resolution and instantiation of controllers, and which enables Dependency Injection / IoC frameworks to be cleanly integrated within this process. Using a DI/IOC framework would also enable us to remove the default constructor from our DinnersController – which would completely remove the coupling between it and the DinnerRepository. We won't be using a dependency injection / IOC framework with our NerdDinner application. But it is something we could consider for the future if the NerdDinner code-base and capabilities grew. |
 
 ### Creating Edit Action Unit Tests
 
@@ -258,7 +257,6 @@ The interesting new testing scenario for us to support with this action method i
 Below are two tests that demonstrates how we can supply form posted values for the UpdateModel() helper method to use. We'll do this by creating and populating a FormCollection object, and then assign it to the "ValueProvider" property on the Controller.
 
 The first test verifies that on a successful save the browser is redirected to the details action. The second test verifies that when invalid input is posted the action redisplays the edit view again with an error message.
-
 
 [!code-csharp[Main](enable-automated-unit-testing/samples/sample17.cs)]
 

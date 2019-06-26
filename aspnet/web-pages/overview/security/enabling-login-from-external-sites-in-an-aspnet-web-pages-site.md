@@ -165,6 +165,5 @@ Now you make changes to two pages in your website so that users will be able to 
 <a id="Additional_Resources"></a>
 ## Additional Resources
 
-
 - [Customizing Site-Wide Behavior](https://go.microsoft.com/fwlink/?LinkId=202906)
 - [Adding Security and Membership to an ASP.NET Web Pages Site](https://go.microsoft.com/fwlink/?LinkID=202904)

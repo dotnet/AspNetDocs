@@ -13,7 +13,6 @@ msc.type: chapter
 
 > These tutorials show alternative ways to display data by using the DataList and Repeater controls.
 
-
 - [Displaying Data with the DataList and Repeater Controls (C#)](displaying-data-with-the-datalist-and-repeater-controls-cs.md)
 - [Formatting the DataList and Repeater Based Upon Data (C#)](formatting-the-datalist-and-repeater-based-upon-data-cs.md)
 - [Showing Multiple Records per Row with the DataList Control (C#)](showing-multiple-records-per-row-with-the-datalist-control-cs.md)

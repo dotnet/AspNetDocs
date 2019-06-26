@@ -17,7 +17,6 @@ by [Christian Wenz](https://github.com/wenz)
 
 > The Animation control in the ASP.NET AJAX Control Toolkit is not just a control but a whole framework to add animations to a control. The animation can also be changed using custom client-side JavaScript code.
 
-
 ## Overview
 
 The Animation control in the ASP.NET AJAX Control Toolkit is not just a control but a whole framework to add animations to a control. The animation can also be changed using custom client-side JavaScript code.
@@ -63,7 +62,6 @@ Here is a JSON string (without the delimiting quotes and formatted nicely) repre
 The following JavaScript code assigns this JSON descripting to the `OnClick` animation of the current extender and runs it:
 
 [!code-html[Main](changing-an-animation-using-client-side-code-cs/samples/sample7.html)]
-
 
 [![The animation runs immediately, without a mouse click (and with very little markup)](changing-an-animation-using-client-side-code-cs/_static/image2.png)](changing-an-animation-using-client-side-code-cs/_static/image1.png)
 

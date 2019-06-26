@@ -19,7 +19,6 @@ msc.type: content
 > - Device Update 3 [DU 3.0]: *(August 5, 2003)*
 > - Device Update 4 [DU 4.0]: *(December 18, 2003)*
 
-
 |    Manufacturer     |                      Model                      |       Browser Manufacturer        |               Browser Model               | Released |
 |---------------------|-------------------------------------------------|-----------------------------------|-------------------------------------------|----------|
 |        @Migo        |                     PD-600C                     |             Microsoft             |           Pocket IE 2002 (4.1)            |  DU 1.0  |

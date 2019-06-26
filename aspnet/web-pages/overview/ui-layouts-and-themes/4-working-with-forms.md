@@ -37,7 +37,6 @@ by [Tom FitzMacken](https://github.com/tfitzmac)
 > 
 > This tutorial also works with ASP.NET Web Pages 2.
 
-
 ## Creating a Simple HTML Form
 
 1. Create a new website.
@@ -46,7 +45,7 @@ by [Tom FitzMacken](https://github.com/tfitzmac)
     [!code-html[Main](4-working-with-forms/samples/sample1.html)]
 3. Launch the page in your browser. (In WebMatrix, in the **Files** workspace, right-click the file and then select **Launch in browser**.) A simple form with three input fields and a **Submit** button is displayed.
 
-    ![Screenshot of a form with three text boxes.](4-working-with-forms/_static/image1.jpg)
+    ![Screenshot of a form with three text boxes.](4-working-with-forms/_static/image1.png)
 
     At this point, if you click the **Submit** button, nothing happens. To make the form useful, you have to add some code that will run on the server.
 
@@ -62,7 +61,7 @@ To process the form, you add code that reads the submitted field values and does
 
     When you submit the page this time, the values you entered are displayed just above the form:
 
-    ![Screenshot that shows the values you have entered displayed on the page.](4-working-with-forms/_static/image2.jpg)
+    ![Screenshot that shows the values you have entered displayed on the page.](4-working-with-forms/_static/image2.png)
 
     Look at the code for the page. You first use the `IsPost` method to determine whether the page is being posted &#8212; that is, whether a user clicked the **Submit** button. If this is a post, `IsPost` returns true. This is the standard way in ASP.NET Web Pages to determine whether you're working with an initial request (a GET request) or a postback (a POST request). (For more information about GET and POST, see the sidebar "HTTP GET and POST and the IsPost Property" in [Introduction to ASP.NET Web Pages Programming Using the Razor Syntax](https://go.microsoft.com/fwlink/?LinkId=202890#SB_HttpGetPost).)
 
@@ -83,7 +82,6 @@ To process the form, you add code that reads the submitted field values and does
 > It's a good idea to use HTML encoding any time you display strings (input) that you got from a user. If you don't, a user can try to get your web page to run a malicious script or do something else that compromises your site security or that's just not what you intend. (This is particularly important if you take user input, store it someplace, and then display it later &#8212; for example, as a blog comment, user review, or something like that.)
 > 
 > To help prevent these problems, ASP.NET Web Pages automatically HTML-encodes any text content that you output from your code. For example, when you display the content of a variable or an expression using code such as `@MyVar`, ASP.NET Web Pages automatically encodes the output.
-
 
 ## Validating User Input
 

@@ -36,7 +36,6 @@ by [Microsoft](https://github.com/microsoft)
 > 
 > *Last update: 18 June 2012*
 
-
 <a id="install"></a>
 ## Installing WebMatrix
 
@@ -157,7 +156,6 @@ The following example shows a page that validates user input on a form. To run a
 1. Create a new web site using one of the WebMatrix 2 site templates that includes a *Scripts* folder, such as the **Starter Site** template.
 2. In the new site, create a new *.cshtml* page, and replace the contents of the page with the following code.
 3. Run the page in a browser. Enter valid and invalid values to see the effects on validation. For example, leave a required field blank or enter a letter in the **Credits** field.
-
 
 [!code-cshtml[Main](top-features-in-web-pages-2/samples/sample7.cshtml)]
 

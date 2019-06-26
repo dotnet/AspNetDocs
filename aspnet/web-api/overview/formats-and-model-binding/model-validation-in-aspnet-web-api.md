@@ -1,10 +1,11 @@
 ---
 uid: web-api/overview/formats-and-model-binding/model-validation-in-aspnet-web-api
-title: "Model Validation in ASP.NET Web API | Microsoft Docs"
+title: "Model Validation in ASP.NET Web API - ASP.NET 4.x"
 author: MikeWasson
-description: ""
+description: "Overview of model validation in ASP.NET Web API for ASP.NET 4.x."
 ms.author: riande
 ms.date: 07/20/2012
+ms.custom: seoapril2019
 ms.assetid: 7d061207-22b8-4883-bafa-e89b1e7749ca
 msc.legacyurl: /web-api/overview/formats-and-model-binding/model-validation-in-aspnet-web-api
 msc.type: authoredcontent
@@ -13,7 +14,7 @@ msc.type: authoredcontent
 
 by [Mike Wasson](https://github.com/MikeWasson)
 
-When a client sends data to your web API, often you want to validate the data before doing any processing. This article shows how to annotate your models, use the annotations for data validation, and handle validation errors in your web API.
+This article shows how to annotate your models, use the annotations for data validation, and handle validation errors in your web API. When a client sends data to your web API, often you want to validate the data before doing any processing. 
 
 ## Data Annotations
 
@@ -59,7 +60,6 @@ You don't want users to update the `IsAdmin` property and elevate themselves to 
 
 > [!NOTE]
 > Brad Wilson's blog post "[Input Validation vs. Model Validation in ASP.NET MVC](http://bradwilson.typepad.com/blog/2010/01/input-validation-vs-model-validation-in-aspnet-mvc.html)" has a good discussion of under-posting and over-posting. Although the post is about ASP.NET MVC 2, the issues are still relevant to Web API.
-
 
 ## Handling Validation Errors
 

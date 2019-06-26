@@ -13,7 +13,6 @@ msc.type: chapter
 
 > This series of tutorials explores techniques for authenticating users using a login form (forms authentication) and authorizing access to individual pages in an ASP.NET application.
 
-
 - [Security Basics and ASP.NET Support (C#)](security-basics-and-asp-net-support-cs.md)
 - [Overview of Forms Authentication (C#)](an-overview-of-forms-authentication-cs.md)
 - [Forms Authentication Configuration and Advanced Topics (C#)](forms-authentication-configuration-and-advanced-topics-cs.md)

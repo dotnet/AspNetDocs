@@ -1,10 +1,11 @@
 ---
 uid: web-api/overview/error-handling/exception-handling
-title: "Exception Handling in ASP.NET Web API | Microsoft Docs"
+title: "Exception Handling in ASP.NET Web API - ASP.NET 4.x"
 author: MikeWasson
 description: ""
 ms.author: riande
 ms.date: 03/12/2012
+ms.custom: seoapril2019
 ms.assetid: cbebeb37-2594-41f2-b71a-f4f26520d512
 msc.legacyurl: /web-api/overview/error-handling/exception-handling
 msc.type: authoredcontent
@@ -42,7 +43,6 @@ Exception filters implement the **System.Web.Http.Filters.IExceptionFilter** int
 
 > [!NOTE]
 > Exception filters in ASP.NET Web API are similar to those in ASP.NET MVC. However, they are declared in a separate namespace and function separately. In particular, the **HandleErrorAttribute** class used in MVC does not handle exceptions thrown by Web API controllers.
-
 
 Here is a filter that converts **NotImplementedException** exceptions into HTTP status code 501, Not Implemented:
 

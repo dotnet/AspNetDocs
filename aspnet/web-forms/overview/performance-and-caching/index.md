@@ -13,5 +13,4 @@ msc.type: chapter
 
 > How to cache site content for faster performance.
 
-
 - [Using Asynchronous Methods in ASP.NET 4.5](using-asynchronous-methods-in-aspnet-45.md)

@@ -21,7 +21,6 @@ by [Jason Lee](https://github.com/jrjlee)
 > 
 > For an Italian translation of these tutorials, visit [http://www.lucamorelli.it](http://www.lucamorelli.it).
 
-
 This tutorial includes these topics:
 
 - [Choosing the Right Approach to Web Deployment](choosing-the-right-approach-to-web-deployment.md)

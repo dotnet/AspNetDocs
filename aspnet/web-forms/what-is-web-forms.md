@@ -21,7 +21,6 @@ Using Visual Studio, you can create ASP.NET Web Forms. The Visual Studio Integra
 > 
 > ASP.NET and Visual Studio documentation spans several versions. Topics that highlight features from previous versions may be useful for your current tasks and scenarios using the latest versions.
 
-
 **ASP.NET Web Forms are:** 
 
 - Based on Microsoft ASP.NET technology, in which code that runs on the server dynamically generates Web page output to the browser or client device.

@@ -17,7 +17,6 @@ by [Mads Kristensen](https://github.com/madskristensen)
 > 
 > [Download the Breeze/Knockout MVC Template](https://go.microsoft.com/fwlink/?LinkId=282649)
 
-
 You've heard of "single page application" (SPA) and wondered what it is. While you could read about it, you'd rather experience it for yourself. But who has time to download a sample? If you've got Visual Studio, you'll have an example SPA up and running in less than 60 seconds with the ASP.NET MVC 4 "Breeze/Knockout Single Page Application" template.
 
 ![](http://www.breezejs.com/sites/all/images/spa-template/ZephyrRunning.png)

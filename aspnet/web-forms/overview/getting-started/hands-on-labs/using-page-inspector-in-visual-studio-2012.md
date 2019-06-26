@@ -31,7 +31,6 @@ by [Web Camps Team](https://twitter.com/webcamps)
 > 
 > All sample code and snippets are included in the Web Camps Training Kit, available at [https://go.microsoft.com/fwlink/?LinkID=248297&clcid=0x409](https://go.microsoft.com/fwlink/?LinkID=248297&clcid=0x409).
 
-
 <a id="Objectives"></a>
 
 <a id="Objectives"></a>
@@ -68,7 +67,6 @@ This hands-on lab includes the following exercises:
 > [!NOTE]
 > Each exercise is accompanied by a starting solution, located in the Begin folder of the exercise, that allows you to follow each exercise independently of the others. Inside the source code for an exercise, you will also find an End folder containing a Visual Studio solution with the code that results from completing the steps in the corresponding exercise. You can use these solutions as guidance if you need additional help as you work through this hands-on lab.
 
-
 Estimated time to complete this lab: **30 minutes**.
 
 <a id="Exercise1"></a>
@@ -100,7 +98,7 @@ In this task, you will learn how to use the Page Inspector in the context of an 
     *Selecting a file to preview in Page Inspector*
 3. The Page Inspector window will show the */Home/Index* URL mapped to the source View you selected.
 
-    ![ThefirstcontactwithPageInspector](using-page-inspector-in-visual-studio-2012/_static/image2.png)
+    ![The first contact with PageInspector](using-page-inspector-in-visual-studio-2012/_static/image2.png)
 
     *The first contact with Page Inspector*
 
@@ -124,7 +122,7 @@ In this task, you will learn how to use the Page Inspector in the context of an 
     *Toggle Inspection Mode button*
 6. In the Page Inspector browser, move the mouse pointer over the page elements. While you move the mouse pointer over any part of the rendered page, the element type is displayed and the corresponding source markup or code is highlighted in the Visual Studio editor.
 
-    ![Inspectionmodeinaction](using-page-inspector-in-visual-studio-2012/_static/image5.png)
+    ![Inspection mode in action](using-page-inspector-in-visual-studio-2012/_static/image5.png)
 
     *Inspection mode in action*
 
@@ -133,7 +131,7 @@ In this task, you will learn how to use the Page Inspector in the context of an 
 
     If you pay attention to the **Index.cshtml** file, you will notice that the portion of source code that generates the selected element is highlighted. This feature facilitates the editing of long source files, providing a direct and fast way to access the code.
 
-    ![Inspectingelements](using-page-inspector-in-visual-studio-2012/_static/image6.png)
+    ![Inspecting elements](using-page-inspector-in-visual-studio-2012/_static/image6.png)
 
     *Inspecting elements*
 7. Click the **Toggle Inspection Mode** button (![Select the HTML tab to display the HTML code rendered in the Page Inspector browser.](using-page-inspector-in-visual-studio-2012/_static/image7.png "Select the HTML tab to display the HTML code rendered in the Page Inspector browser.") ) to disable the cursor.
@@ -150,7 +148,7 @@ In this task, you will learn how to use the Page Inspector in the context of an 
     > [!NOTE]
     > Since the header is a part of the site layout, Page Inspector will also open \_Layout.cshtml file and highlight the segment of code affected.
 
-    ![Discoveringstyles](using-page-inspector-in-visual-studio-2012/_static/image9.png)
+    ![Discovering styles](using-page-inspector-in-visual-studio-2012/_static/image9.png)
 
     *Discovering styles and source files of a selected element*
 11. With the toggle inspection pointer enabled, move the mouse pointer below the blue featured bar and click the half circle.
@@ -174,7 +172,7 @@ In this task, you will learn how to use the Page Inspector in the context of an 
     *Changing CSS values in the Page Inspector*
 15. Click the **Trace Styles** tab, located in the right pane of Page Inspector. This is an alternative way to see all the styles applied to the selection, ordered by attribute name.
 
-    ![CSSstylestracing](using-page-inspector-in-visual-studio-2012/_static/image13.png)
+    ![CSS styles tracing](using-page-inspector-in-visual-studio-2012/_static/image13.png)
 
     *CSS styles tracing of the selected element*
 16. Another feature of Page Inspector is the Layout pane. Using the inspection mode, select the navigation bar and then click the **Layout** tab on the right pane. You will see the exact size of the selected element, as well as its offset, margin, padding and border size. Notice that you can also modify the values from this view.
@@ -255,10 +253,10 @@ In this task, you will use the Page inspector and fix some issues the Photo Gall
 
     *Assigning a new title*
 
-    ![PhotoGallerypage](using-page-inspector-in-visual-studio-2012/_static/image23.png)
+    ![Photo Gallery page](using-page-inspector-in-visual-studio-2012/_static/image23.png)
 
     *Photo Gallery page updated*
-11. Finally, selet the **PhotoGallery** project and press **F5** to run the app. Check out all the changes work as expected.
+11. Finally, select the **PhotoGallery** project and press **F5** to run the app. Check out all the changes work as expected.
 
 ---
 
@@ -341,7 +339,7 @@ In this task, you will learn how to use the Page Inspector features in the conte
     > [!NOTE]
     > since the header is a part of the site layout, Page Inspector will also open Site.Master file and highlight the segment of code affected.
 
-    ![DiscoveringstylesWebForms](using-page-inspector-in-visual-studio-2012/_static/image32.png "Discovering styles and source files of a selected element")
+    ![Discovering styles WebForms](using-page-inspector-in-visual-studio-2012/_static/image32.png "Discovering styles and source files of a selected element")
 
     *Discovering styles and source files of a selected element*
 11. With the toggle inspection pointer enabled, move the mouse pointer below the menu bar and click the blank half circle.
@@ -415,7 +413,7 @@ In this task, you will use the Page inspector for fixing some issues of the Phot
     Page Inspector is aware of all the different files that compose the current page, and it can detect when any of these files change. It alerts you whenever the current page in browser is not in sync with the source files.
 5. In the Page Inspector browser, click the bar located below the address bar to save the changes and reload the page.
 
-    ![Reloadingthepage](using-page-inspector-in-visual-studio-2012/_static/image40.png)
+    ![Reloading the page](using-page-inspector-in-visual-studio-2012/_static/image40.png)
 
     *Reloading the page*
 

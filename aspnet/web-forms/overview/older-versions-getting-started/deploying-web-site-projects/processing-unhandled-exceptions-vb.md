@@ -17,7 +17,6 @@ by [Scott Mitchell](https://twitter.com/ScottOnWriting)
 
 > When a runtime error occurs on a web application in production it is important to notify a developer and to log the error so that it may be diagnosed at a later point in time. This tutorial provides an overview of how ASP.NET processes runtime errors and looks at one way to have custom code execute whenever an unhandled exception bubbles up to the ASP.NET runtime.
 
-
 ## Introduction
 
 When an unhandled exception occurs in an ASP.NET application, it bubbles up to the ASP.NET runtime, which raises the `Error` event and displays the appropriate error page. There are three different types of error pages: the Runtime Error Yellow Screen of Death (YSOD); the Exception Details YSOD; and custom error pages. In the [preceding tutorial](displaying-a-custom-error-page-vb.md) we configured the application to use a custom error page for remote users and the Exception Details YSOD for users visiting locally.
@@ -28,7 +27,6 @@ This tutorial shows how to access the details of an unhandled exception so that 
 
 > [!NOTE]
 > The information examined in this tutorial is most useful if you need to process unhandled exceptions in some unique or customized manner. In cases where you only need to log the exception and notify a developer, using an error logging library is the way to go. The next two tutorials provide an overview of two such libraries.
-
 
 ## Executing Code When The`Error`Event Is Raised
 
@@ -50,7 +48,6 @@ The `Global.asax` file created in a WAP by Visual Studio's Global Application Cl
 > [!NOTE]
 > When deploying the ASP.NET application you need to copy the `Global.asax` file to the production environment. The `Global.asax.vb` file, which is created in the WAP, does not need to be copied to production because this code is compiled into the project's assembly.
 
-
 The event handlers created by Visual Studio's Global Application Class template are not exhaustive. You can add an event handler for any `HttpApplication` event by naming the event handler `Application_EventName`. For example, you could add the following code to the `Global.asax` file to create an event handler for the [`AuthorizeRequest` event](https://msdn.microsoft.com/library/system.web.httpapplication.authorizerequest.aspx):
 
 [!code-vb[Main](processing-unhandled-exceptions-vb/samples/sample1.vb)]
@@ -59,7 +56,6 @@ Likewise, you can remove any event handlers created by the Global Application Cl
 
 > [!NOTE]
 > *HTTP Modules* offer another way to define event handlers for `HttpApplication` events. HTTP Modules are created as a class file that can be placed directly within the web application project or separated out into a separate class library. Because they can be separated out into a class library, HTTP Modules offer a more flexible and reusable model for creating `HttpApplication` event handlers. Whereas the `Global.asax` file is specific to the web application where it resides, HTTP Modules can be compiled into assemblies, at which point adding the HTTP Module to a website is as simple as dropping the assembly in the `Bin` folder and registering the Module in `Web.config`. This tutorial does not look at creating and using HTTP Modules, but the two error logging libraries used in the following two tutorials are implemented as HTTP Modules. For more background on the benefits of HTTP Modules refer to [Using HTTP Modules and Handlers to Create Pluggable ASP.NET Components](https://msdn.microsoft.com/library/aa479332.aspx).
-
 
 ## Retrieving Information About the Unhandled Exception
 
@@ -86,7 +82,6 @@ The .NET Framework classes in the [`System.Net.Mail` namespace](https://msdn.mic
 > [!NOTE]
 > The `<system.net>` element contains the SMTP server settings used by the `SmtpClient` class when sending an email. Your web hosting company likely has an SMTP server that you can use to send email from your application. Consult your web host's support section for information on the SMTP server settings you should use in your web application.
 
-
 Add the following code to the `Application_Error` event handler to send a developer an email when an error occurs:
 
 [!code-vb[Main](processing-unhandled-exceptions-vb/samples/sample4.vb)]
@@ -99,7 +94,6 @@ The final step is to send the `MailMessage`. This is done by creating a new `Smt
 
 > [!NOTE]
 > Before using this code in your web application you'll want to change the values in the `ToAddress` and `FromAddress` constants from support@example.com to whatever email address the error notification email should be sent to and originate from. You'll also need to specify SMTP server settings in the `<system.net>` section in `Web.config`. Consult your web host provider to determine the SMTP server settings to use.
-
 
 With this code in place anytime there's an error the developer is sent an email message that summarizes the error and includes the YSOD. In the preceding tutorial we demonstrated a runtime error by visiting Genre.aspx and passing in an invalid `ID` value through the querystring, like `Genre.aspx?ID=foo`. Visiting the page with the `Global.asax` file in place produces the same user experience as in the preceding tutorial - in the development environment you'll continue to see the Exception Details Yellow Screen of Death, while in the production environment you'll see the custom error page. In addition to this existing behavior, the developer is sent an email.
 

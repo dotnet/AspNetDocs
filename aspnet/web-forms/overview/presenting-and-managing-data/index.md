@@ -13,7 +13,6 @@ msc.type: chapter
 
 > How to access data using controls and how to persist information between requests.
 
-
 - [Model Binding and Web Forms in Visual Studio 2013](model-binding/index.md)
 
     - [Retrieving and Displaying Data](model-binding/retrieving-data.md)

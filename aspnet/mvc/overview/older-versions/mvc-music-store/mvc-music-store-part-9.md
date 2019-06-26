@@ -19,7 +19,6 @@ by [Jon Galloway](https://github.com/jongalloway)
 >   
 > This tutorial series details all of the steps taken to build the ASP.NET MVC Music Store sample application. Part 9 covers Registration and Checkout.
 
-
 In this section, we will be creating a CheckoutController which will collect the shopper's address and payment information. We will require users to register with our site prior to checking out, so this controller will require authorization.
 
 Users will navigate to the checkout process from their shopping cart by clicking the "Checkout" button.
@@ -152,7 +151,6 @@ The default template includes an Error view in the Shared views folder so that i
 Since this is a generic error page, the content is very simple. We'll include a message and a link to navigate to the previous page in history if the user wants to re-try their action.
 
 [!code-cshtml[Main](mvc-music-store-part-9/samples/sample13.cshtml)]
-
 
 > [!div class="step-by-step"]
 > [Previous](mvc-music-store-part-8.md)

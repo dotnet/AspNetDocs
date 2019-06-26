@@ -15,8 +15,7 @@ by [Microsoft](https://github.com/microsoft)
 
 > There are major changes in configuration and instrumentation in ASP.NET 2.0. The new ASP.NET configuration API allows for configuration changes to be made programmatically. In addition, many new configuration settings exist allow for new configurations and instrumentation.
 
-
-ASP.NET 2.0 represents a substantial improvement in the area of personalized Web sites. In addition to the membership features weve already covered, ASP.NET profiles, themes, and Web parts significantly enhance personalization in Web sites.
+ASP.NET 2.0 represents a substantial improvement in the area of personalized Web sites. In addition to the membership features we've already covered, ASP.NET profiles, themes, and Web parts significantly enhance personalization in Web sites.
 
 ## ASP.NET Profiles
 
@@ -149,16 +148,13 @@ The skin file is an XML file that contains property definitions for ASP.NET serv
 
 **Figure 1** below shows a small ASP.NET page browsed without a theme applied. **Figure 2** shows the same file with a theme applied. The background color and text color are configured via a CSS file. The appearance of the button and textbox are configured using the skin file listed above.
 
-
 ![No Theme](profiles-themes-and-web-parts/_static/image1.gif)
 
 **Figure 1**: No Theme
 
-
 ![Theme Applied](profiles-themes-and-web-parts/_static/image2.gif)
 
 **Figure 2**: Theme Applied
-
 
 The skin file listed above defines a default skin for all TextBox controls and Button controls. That means that every TextBox control and Button control inserted on a page will take on this appearance. You can also define a skin that can be applied to specific instances of these controls using the **SkinID** property of the control.
 
@@ -323,7 +319,6 @@ In this part of the walkthrough, you create a page that uses Web Parts controls 
 > [!NOTE]
 > You do not need to do anything to enable Web Parts personalization; it is enabled by default for the Web Parts control set. When you first run a Web Parts page on a site, ASP.NET sets up a default personalization provider to store user personalization settings. For more information about personalization, see Web Parts Personalization Overview.
 
-
 ### To create a page for containing Web Parts controls
 
 1. Close the default page and add a new page to the site named WebPartsDemo.aspx.
@@ -396,11 +391,9 @@ Now you can test your page by browsing to it in your browser. The page displays 
 
 **Web Parts Demo page with two zones**
 
-
 ![Web Parts VS Walkthrough 1 Screenshot](profiles-themes-and-web-parts/_static/image3.gif)
 
 **Figure 3**: Web Parts VS Walkthrough 1 Screenshot
-
 
 In the title bar of each control is a downward arrow that provides access to a verbs menu of available actions you can perform on a control. Click the verbs menu for one of the controls, then click the **Minimize** verb and note that the control is minimized. From the verbs menu, click **Restore**, and the control returns to its normal size.
 
@@ -443,11 +436,9 @@ You can now test the capability to edit pages and change layout.
 
 ### Web Parts Demo page with My Links control moved
 
-
 ![Web Parts VS Walkthrough 2 Screenshot](profiles-themes-and-web-parts/_static/image4.gif)
 
 **Figure 4**: Web Parts VS Walkthrough 2 Screenshot
-
 
 1. Click the **Display Mode** drop-down menu, and select **Browse**. The page is refreshed, the zone names disappear, and the **My Links** control remains where you positioned it.
 2. To demonstrate that personalization is working, close the browser, and then load the page again. The changes you made are saved for future browser sessions.
@@ -461,22 +452,18 @@ You can now test the capability to edit pages and change layout.
 
 ### Web Parts Demo page in Edit mode
 
-
 ![Web Parts VS Walkthrough 3 Screenshot](profiles-themes-and-web-parts/_static/image5.gif)
 
 **Figure 5**: Web Parts VS Walkthrough 3 Screenshot
-
 
 1. Click the **Display Mode** menu, and select **Browse** to return to browse mode.
 2. The control now has an updated title and no border, as shown in the following screen shot.
 
 ### Edited Web Parts Demo page
 
-
 ![Web Parts VS Walkthrough 4 Screenshot](profiles-themes-and-web-parts/_static/image6.gif)
 
 **Figure 4**: Web Parts VS Walkthrough 4 Screenshot
-
 
 ### Adding Web Parts at Run Time
 

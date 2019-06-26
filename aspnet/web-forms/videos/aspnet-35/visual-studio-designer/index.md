@@ -13,5 +13,4 @@ msc.type: chapter
 
 > This video illustrates enhanced features in Visual Studio 2008 for working with master pages.
 
-
 - [Visual Studio 2008 and Nested Masterpages](visual-studio-2008-and-nested-masterpages.md)

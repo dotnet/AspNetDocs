@@ -17,7 +17,6 @@ by [Scott Mitchell](https://twitter.com/ScottOnWriting)
 
 > In any Web application some data will be frequently used and some data will be infrequently used. We can improve the performance of our ASP.NET application by loading in advance the frequently-used data, a technique known as. This tutorial demonstrates one approach to proactive loading, which is to load data into the cache at application startup.
 
-
 ## Introduction
 
 The two previous tutorials looked at caching data in the Presentation and Caching Layers. In [Caching Data with the ObjectDataSource](caching-data-with-the-objectdatasource-vb.md), we looked at using the ObjectDataSource s caching features to cache data in the Presentation Layer. [Caching Data in the Architecture](caching-data-in-the-architecture-vb.md) examined caching in a new, separate Caching Layer. Both of these tutorials used *reactive loading* in working with the data cache. With reactive loading, each time the data is requested, the system first checks if it s in the cache. If not, it grabs the data from the originating source, such as the database, and then stores it in the cache. The main advantage to reactive loading is its ease of implementation. One of its disadvantages is its uneven performance across requests. Imagine a page that uses the Caching Layer from the preceding tutorial to display product information. When this page is visited for the first time, or visited for the first time after the cached data has been evicted due to memory constraints or the specified expiry having been reached, the data must be retrieved from the database. Therefore, these users requests will take longer than users requests that can be served by the cache.
@@ -29,18 +28,15 @@ Another flavor of proactive loading, and the type we'll be exploring in this tut
 > [!NOTE]
 > For a more in-depth look at the differences between proactive and reactive loading, as well as lists of pros, cons, and implementation recommendations, refer to the [Managing the Contents of a Cache](https://msdn.microsoft.com/library/ms978503.aspx) section of the [Caching Architecture Guide for .NET Framework Applications](https://msdn.microsoft.com/library/ms978498.aspx).
 
-
 ## Step 1: Determining What Data to Cache at Application Startup
 
 The caching examples using reactive loading that we examined in the previous two tutorials work well with data that may periodically change and does not take exorbitantly long to generate. But if the cached data never changes, the expiry used by reactive loading is superfluous. Likewise, if the data being cached takes an exceedingly long time to generate, then those users whose requests find the cache empty will have to endure a lengthy wait while the underlying data is retrieved. Consider caching static data and data that takes an exceptionally long time to generate at application startup.
 
 While databases have many dynamic, frequently-changing values, most also have a fair amount of static data. For example, virtually all data models have one or more columns that contain a particular value from a fixed set of choices. A `Patients` database table might have a `PrimaryLanguage` column, whose set of values could be English, Spanish, French, Russian, Japanese, and so on. Oftentimes, these types of columns are implemented using *lookup tables*. Rather than storing the string English or French in the `Patients` table, a second table is created that has, commonly, two columns - a unique identifier and a string description - with a record for each possible value. The `PrimaryLanguage` column in the `Patients` table stores the corresponding unique identifier in the lookup table. In Figure 1, patient John Doe s primary language is English, while Ed Johnson s is Russian.
 
-
 ![The Languages Table is a Lookup Table Used by the Patients Table](caching-data-at-application-startup-vb/_static/image1.png)
 
 **Figure 1**: The `Languages` Table is a Lookup Table Used by the `Patients` Table
-
 
 The user interface for editing or creating a new patient would include a drop-down list of allowable languages populated by the records in the `Languages` table. Without caching, each time this interface is visited the system must query the `Languages` table. This is wasteful and unnecessary since lookup table values change very infrequently, if ever.
 
@@ -54,13 +50,11 @@ Information can be programmatically cached in an ASP.NET application using a var
 
 When working with a class, typically the class must first be instantiated before its members can be accessed. For example, in order to invoke a method from one of the classes in our Business Logic Layer, we must first create an instance of the class:
 
-
 [!code-vb[Main](caching-data-at-application-startup-vb/samples/sample1.vb)]
 
 Before we can invoke *SomeMethod* or work with *SomeProperty*, we must first create an instance of the class using the `New` keyword. *SomeMethod* and *SomeProperty* are associated with a particular instance. The lifetime of these members is tied to the lifetime of their associated object. *Static members*, on the other hand, are variables, properties, and methods that are shared among *all* instances of the class and, consequently, have a lifetime as long as the class. Static members are denoted by the keyword `Shared`.
 
 In addition to static members, data can be cached using application state. Each ASP.NET application maintains a name/value collection that s shared across all users and pages of the application. This collection can be accessed using the [`HttpContext` class](https://msdn.microsoft.com/library/system.web.httpcontext.aspx) s [`Application` property](https://msdn.microsoft.com/library/system.web.httpcontext.application.aspx), and used from an ASP.NET page s code-behind class like so:
-
 
 [!code-vb[Main](caching-data-at-application-startup-vb/samples/sample2.vb)]
 
@@ -72,14 +66,11 @@ The Northwind database tables we ve implemented to date do not include any tradi
 
 To start, create a new class named `StaticCache.cs` in the `CL` folder.
 
-
 ![Create the StaticCache.vb Class in the CL Folder](caching-data-at-application-startup-vb/_static/image2.png)
 
 **Figure 2**: Create the `StaticCache.vb` Class in the `CL` Folder
 
-
 We need to add a method that loads the data at startup into the appropriate cache store, as well as methods that return data from this cache.
-
 
 [!code-vb[Main](caching-data-at-application-startup-vb/samples/sample3.vb)]
 
@@ -87,13 +78,11 @@ The above code uses a static member variable, `suppliers`, to hold the results f
 
 Rather than using a static member variable as the cache store, we could have alternatively used application state or the data cache. The following code shows the class retooled to use application state:
 
-
 [!code-vb[Main](caching-data-at-application-startup-vb/samples/sample4.vb)]
 
 In `LoadStaticCache()`, the supplier information is stored to the application variable *key*. It s returned as the appropriate type (`Northwind.SuppliersDataTable`) from `GetSuppliers()`. While application state can be accessed in the code-behind classes of ASP.NET pages using `Application("key")`, in the architecture we must use `HttpContext.Current.Application("key")` in order to get the current `HttpContext`.
 
 Likewise, the data cache can be used as a cache store, as the following code shows:
-
 
 [!code-vb[Main](caching-data-at-application-startup-vb/samples/sample5.vb)]
 
@@ -101,7 +90,6 @@ To add an item to the data cache with no time-based expiry, use the `System.Web.
 
 > [!NOTE]
 > This tutorial s download implements the `StaticCache` class using the static member variable approach. The code for the application state and data cache techniques is available in the comments in the class file.
-
 
 ## Step 4: Executing Code at Application Startup
 
@@ -112,11 +100,9 @@ Add the `Global.asax` file to your web application s root directory by right-cli
 > [!NOTE]
 > If you already have a `Global.asax` file in your project, the Global Application Class item type will not be listed in the Add New Item dialog box.
 
-
 [![Add the Global.asax File to Your Web Application s Root Directory](caching-data-at-application-startup-vb/_static/image4.png)](caching-data-at-application-startup-vb/_static/image3.png)
 
 **Figure 3**: Add the `Global.asax` File to Your Web Application s Root Directory ([Click to view full-size image](caching-data-at-application-startup-vb/_static/image5.png))
-
 
 The default `Global.asax` file template includes five methods within a server-side `<script>` tag:
 
@@ -130,20 +116,16 @@ The `Application_Start` event handler is called only once during an application 
 
 For these tutorials we only need to add code to the `Application_Start` method, so feel free to remove the others. In `Application_Start`, simply call the `StaticCache` class s `LoadStaticCache()` method, which will load and cache the supplier information:
 
-
 [!code-aspx[Main](caching-data-at-application-startup-vb/samples/sample6.aspx)]
 
 That s all there is to it! At application startup, the `LoadStaticCache()` method will grab the supplier information from the BLL, and store it in a static member variable (or whatever cache store you ended up using in the `StaticCache` class). To verify this behavior, set a breakpoint in the `Application_Start` method and run your application. Note that the breakpoint is hit upon the application starting. Subsequent requests, however, do not cause the `Application_Start` method to execute.
-
 
 [![Use a Breakpoint to Verify that the Application_Start Event Handler is Being Executed](caching-data-at-application-startup-vb/_static/image7.png)](caching-data-at-application-startup-vb/_static/image6.png)
 
 **Figure 4**: Use a Breakpoint to Verify that the `Application_Start` Event Handler is Being Executed ([Click to view full-size image](caching-data-at-application-startup-vb/_static/image8.png))
 
-
 > [!NOTE]
 > If you do not hit the `Application_Start` breakpoint when you first start debugging, it is because your application has already started. Force the application to restart by modifying your `Global.asax` or `Web.config` files and then try again. You can simply add (or remove) a blank line at the end of one of these files to quickly restart the application.
-
 
 ## Step 5: Displaying the Cached Data
 
@@ -151,29 +133,23 @@ At this point the `StaticCache` class has a version of the supplier data cached 
 
 Start by opening the `AtApplicationStartup.aspx` page in the `Caching` folder. Drag a GridView from the Toolbox onto the designer, setting its `ID` property to `Suppliers`. Next, from the GridView s smart tag choose to create a new ObjectDataSource named `SuppliersCachedDataSource`. Configure the ObjectDataSource to use the `StaticCache` class s `GetSuppliers()` method.
 
-
 [![Configure the ObjectDataSource to use the StaticCache Class](caching-data-at-application-startup-vb/_static/image10.png)](caching-data-at-application-startup-vb/_static/image9.png)
 
 **Figure 5**: Configure the ObjectDataSource to use the `StaticCache` Class ([Click to view full-size image](caching-data-at-application-startup-vb/_static/image11.png))
-
 
 [![Use the GetSuppliers() Method to Retrieve the Cached Supplier Data](caching-data-at-application-startup-vb/_static/image13.png)](caching-data-at-application-startup-vb/_static/image12.png)
 
 **Figure 6**: Use the `GetSuppliers()` Method to Retrieve the Cached Supplier Data ([Click to view full-size image](caching-data-at-application-startup-vb/_static/image14.png))
 
-
 After completing the wizard, Visual Studio will automatically add BoundFields for each of the data fields in `SuppliersDataTable`. Your GridView and ObjectDataSource s declarative markup should look similar to the following:
-
 
 [!code-aspx[Main](caching-data-at-application-startup-vb/samples/sample7.aspx)]
 
 Figure 7 shows the page when viewed through a browser. The output is the same had we pulled the data from the BLL s `SuppliersBLL` class, but using the `StaticCache` class returns the supplier data as cached at application startup. You can set breakpoints in the `StaticCache` class s `GetSuppliers()` method to verify this behavior.
 
-
 [![The Cached Supplier Data is Displayed in a GridView](caching-data-at-application-startup-vb/_static/image16.png)](caching-data-at-application-startup-vb/_static/image15.png)
 
 **Figure 7**: The Cached Supplier Data is Displayed in a GridView ([Click to view full-size image](caching-data-at-application-startup-vb/_static/image17.png))
-
 
 ## Summary
 

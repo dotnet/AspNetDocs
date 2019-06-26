@@ -13,6 +13,5 @@ msc.type: chapter
 
 > This tutorial shows how to use the ColorPicker control, which lets users select a color from a popup window.
 
-
 - [ColorPicker Control Extender (C#)](using-the-colorpicker-control-extender-cs.md)
 - [ColorPicker Control Extender (VB)](using-the-colorpicker-control-extender-vb.md)

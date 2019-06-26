@@ -17,7 +17,6 @@ by [Jason Lee](https://github.com/jrjlee)
 
 > This topic explains how to add content to source control in Team Foundation Server (TFS) 2010. It describes how to add solutions and projects to a team project in TFS, and it explains how to add external dependencies like frameworks or assemblies to source control.
 
-
 This topic forms part of a series of tutorials based around the enterprise deployment requirements of a fictional company named Fabrikam, Inc. This tutorial series uses a sample solution&#x2014;the [Contact Manager solution](../web-deployment-in-the-enterprise/the-contact-manager-solution.md)&#x2014;to represent a web application with a realistic level of complexity, including an ASP.NET MVC 3 application, a Windows Communication Foundation (WCF) service, and a database project.
 
 ## Task Overview
@@ -110,7 +109,6 @@ For example, the folder structure for the Contact Manager sample solution includ
 
 > [!NOTE]
 > The inclusion of a packages folder is typical of what happens when you add the Entity Framework, or similar resources, to your solution using the NuGet extension for Visual Studio 2010.
-
 
 **To add non-project content to source control**
 

@@ -17,7 +17,6 @@ by [Scott Mitchell](https://twitter.com/ScottOnWriting)
 
 > One common characteristic of user-friendly websites is that they have a consistent, site-wide page layout and navigation scheme. This tutorial looks at how you can create a consistent look and feel across all pages that can easily be updated.
 
-
 ## Introduction
 
 One common characteristic of user-friendly websites is that they have a consistent, site-wide page layout and navigation scheme. ASP.NET 2.0 introduces two new features that greatly simplify implementing both a site-wide page layout and navigation scheme: master pages and site navigation. Master pages allow for developers to create a site-wide template with designated editable regions. This template can then be applied to ASP.NET pages in the site. Such ASP.NET pages need only provide content for the master page's specified editable regions all other markup in the master page is identical across all ASP.NET pages that use the master page. This model allows developers to define and centralize a site-wide page layout, thereby making it easier to create a consistent look and feel across all pages that can easily be updated.
@@ -26,34 +25,27 @@ The [site navigation system](http://aspnet.4guysfromrolla.com/articles/111605-1.
 
 To illustrate these concepts and make our tutorials website more usable, let's spend this lesson defining a site-wide page layout, implementing a site map, and adding the navigation UI. By the end of this tutorial we'll have a polished website design for building our tutorial web pages.
 
-
 [![The End Result of This Tutorial](master-pages-and-site-navigation-vb/_static/image2.png)](master-pages-and-site-navigation-vb/_static/image1.png)
 
 **Figure 1**: The End Result of This Tutorial ([Click to view full-size image](master-pages-and-site-navigation-vb/_static/image3.png))
-
 
 ## Step 1: Creating the Master Page
 
 The first step is to create the master page for the site. Right now our website consists of only the Typed DataSet (`Northwind.xsd`, in the `App_Code` folder), the BLL classes (`ProductsBLL.vb`, `CategoriesBLL.vb`, and so on, all in the `App_Code` folder), the database (`NORTHWND.MDF`, in the `App_Data` folder), the configuration file (`Web.config`), and a CSS stylesheet file (`Styles.css`). I cleaned out those pages and files demonstrating using the DAL and BLL from the first two tutorials since we will be reexamining those examples in greater detail in future tutorials.
 
-
 ![The Files in Our Project](master-pages-and-site-navigation-vb/_static/image4.png)
 
 **Figure 2**: The Files in Our Project
 
-
 To create a master page, right-click on the project name in the Solution Explorer and choose Add New Item. Then select the Master Page type from the list of templates and name it `Site.master`.
-
 
 [![Add a New Master Page to the Website](master-pages-and-site-navigation-vb/_static/image6.png)](master-pages-and-site-navigation-vb/_static/image5.png)
 
 **Figure 3**: Add a New Master Page to the Website ([Click to view full-size image](master-pages-and-site-navigation-vb/_static/image7.png))
 
-
 Define the site-wide page layout here in the master page. You can use the Design view and add whatever Layout or Web controls you need, or you can manually add the markup by hand in the Source view. In my master page I use [cascading style sheets](http://www.w3schools.com/css/default.asp) for positioning and styles with the CSS settings defined in the external file `Style.css`. While you cannot tell from the markup shown below, the CSS rules are defined such that the navigation `<div>`'s content is absolutely positioned so that it appears on the left and has a fixed width of 200 pixels.
 
 Site.master
-
 
 [!code-aspx[Main](master-pages-and-site-navigation-vb/samples/sample1.aspx)]
 
@@ -61,34 +53,27 @@ A master page defines both the static page layout and the regions that can be ed
 
 With the markup entered above, switching to the Design view shows the master page's layout. Any ASP.NET pages that use this master page will have this uniform layout, with the ability to specify the markup for the `MainContent` region.
 
-
 [![The Master Page, When Viewed Through the Design View](master-pages-and-site-navigation-vb/_static/image9.png)](master-pages-and-site-navigation-vb/_static/image8.png)
 
 **Figure 4**: The Master Page, When Viewed Through the Design View ([Click to view full-size image](master-pages-and-site-navigation-vb/_static/image10.png))
-
 
 ## Step 2: Adding a Homepage to the Website
 
 With the master page defined, we're ready to add the ASP.NET pages for the website. Let's start by adding `Default.aspx`, our website's homepage. Right-click on the project name in the Solution Explorer and choose Add New Item. Pick the Web Form option from the template list and name the file `Default.aspx`. Also, check the "Select master page" checkbox.
 
-
 [![Add a New Web Form, Checking the Select master page Checkbox](master-pages-and-site-navigation-vb/_static/image12.png)](master-pages-and-site-navigation-vb/_static/image11.png)
 
 **Figure 5**: Add a New Web Form, Checking the Select master page Checkbox ([Click to view full-size image](master-pages-and-site-navigation-vb/_static/image13.png))
 
-
 After clicking the OK button, we're asked to choose what master page this new ASP.NET page should use. While you can have multiple master pages in your project, we have only one.
-
 
 [![Choose the Master Page this ASP.NET Page Should Use](master-pages-and-site-navigation-vb/_static/image15.png)](master-pages-and-site-navigation-vb/_static/image14.png)
 
 **Figure 6**: Choose the Master Page this ASP.NET Page Should Use ([Click to view full-size image](master-pages-and-site-navigation-vb/_static/image16.png))
 
-
 After picking the master page, the new ASP.NET pages will contain the following markup:
 
 Default.aspx
-
 
 [!code-aspx[Main](master-pages-and-site-navigation-vb/samples/sample2.aspx)]
 
@@ -96,18 +81,15 @@ In the `@Page` directive there's a reference to the master page file used (`Mast
 
 Default.aspx
 
-
 [!code-aspx[Main](master-pages-and-site-navigation-vb/samples/sample3.aspx)]
 
 The `Title` attribute in the `@Page` directive allows us to set the page's title from the ASP.NET page, even though the `<title>` element is defined in the master page. We can also set the title programmatically, using `Page.Title`. Also note that the master page's references to stylesheets (such as `Style.css`) are automatically updated so that they work in any ASP.NET page, regardless of what directory the ASP.NET page is in relative to the master page.
 
 Switching to the Design view we can see how our page will look in a browser. Note that in the Design view for the ASP.NET page that only the content editable regions are editable the non-ContentPlaceHolder markup defined in the master page is grayed out.
 
-
 [![The Design View for the ASP.NET Page Shows Both the Editable and Non-Editable Regions](master-pages-and-site-navigation-vb/_static/image18.png)](master-pages-and-site-navigation-vb/_static/image17.png)
 
 **Figure 7**: The Design View for the ASP.NET Page Shows Both the Editable and Non-Editable Regions ([Click to view full-size image](master-pages-and-site-navigation-vb/_static/image19.png))
-
 
 When the `Default.aspx` page is visited by a browser, the ASP.NET engine automatically merges the page's master page content and the ASP.NET's content, and renders the merged content into the final HTML that is sent down to the requesting browser. When the master page's content is updated, all ASP.NET pages that use this master page will have their content remerged with the new master page content the next time they are requested. In short, the master page model allows for a single page layout template to be defined (the master page) whose changes are immediately reflected across the entire site.
 
@@ -121,11 +103,9 @@ Let's take a moment to add additional ASP.NET page stubs to the site that will e
 
 Finally, add new files as shown in the Solution Explorer in Figure 8. When adding each file, remember to check the "Select master page" checkbox.
 
-
 ![Add the Following Files](master-pages-and-site-navigation-vb/_static/image20.png)
 
 **Figure 8**: Add the Following Files
-
 
 ## Step 2: Creating a Site Map
 
@@ -135,11 +115,9 @@ The ASP.NET 2.0 site navigation system provides a means for a developer to defin
 
 For this tutorial, however, let's use the default site map provider that ships with ASP.NET 2.0. To create the site map, simply right-click on the project name in the Solution Explorer, choose Add New Item, and choose the Site Map option. Leave the name as `Web.sitemap` and click the Add button.
 
-
 [![Add a Site Map to Your Project](master-pages-and-site-navigation-vb/_static/image22.png)](master-pages-and-site-navigation-vb/_static/image21.png)
 
 **Figure 9**: Add a Site Map to Your Project ([Click to view full-size image](master-pages-and-site-navigation-vb/_static/image23.png))
-
 
 The site map file is an XML file. Note that Visual Studio provides IntelliSense for the site map structure. The site map file must have the `<siteMap>` node as its root node, which must contain precisely one `<siteMapNode>` child element. That first `<siteMapNode>` element can then contain an arbitrary number of descendent `<siteMapNode>` elements.
 
@@ -147,16 +125,13 @@ Define the site map to mimic the file system structure. That is, add a `<siteMap
 
 Web.sitemap
 
-
 [!code-xml[Main](master-pages-and-site-navigation-vb/samples/sample4.xml)]
 
 The site map defines the website's navigational structure, which is a hierarchy that describes the various sections of the site. Each `<siteMapNode>` element in `Web.sitemap` represents a section in the site's navigational structure.
 
-
 [![The Site Map Represents a Hierarchical Navigational Structure](master-pages-and-site-navigation-vb/_static/image25.png)](master-pages-and-site-navigation-vb/_static/image24.png)
 
 **Figure 10**: The Site Map Represents a Hierarchical Navigational Structure ([Click to view full-size image](master-pages-and-site-navigation-vb/_static/image26.png))
-
 
 ASP.NET exposes the site map's structure through the .NET Framework's [SiteMap class](https://msdn.microsoft.com/library/system.web.sitemap.aspx). This class has a `CurrentNode` property, which returns information about the section the user is currently visiting; the `RootNode` property returns the root of the site map (Home, in our site map). Both the `CurrentNode` and `RootNode` properties return [SiteMapNode](https://msdn.microsoft.com/library/system.web.sitemapnode.aspx) instances, which have properties like `ParentNode`, `ChildNodes`, `NextSibling`, `PreviousSibling`, and so on, that allow for the site map hierarchy to be walked.
 
@@ -168,11 +143,9 @@ The data source controls serve as a proxy between your ASP.NET page and the unde
 
 To aid in working with the site map's data, ASP.NET includes the SiteMapDataSource control, which allows us to bind a Web control against our website's site map. Two Web controls the TreeView and Menu are commonly used to provide a navigation user interface. To bind the site map data to one of these two controls, simply add a SiteMapDataSource to the page along with a TreeView or Menu control whose `DataSourceID` property is set accordingly. For example, we could add a Menu control to the master page using the following markup:
 
-
 [!code-aspx[Main](master-pages-and-site-navigation-vb/samples/sample5.aspx)]
 
 For a finer degree of control over the emitted HTML, we can bind the SiteMapDataSource control to the Repeater control, like so:
-
 
 [!code-aspx[Main](master-pages-and-site-navigation-vb/samples/sample6.aspx)]
 
@@ -180,28 +153,23 @@ The SiteMapDataSource control returns the site map hierarchy one level at a time
 
 The Repeater example above will render the following markup:
 
-
 [!code-html[Main](master-pages-and-site-navigation-vb/samples/sample7.html)]
 
 These site map nodes (Basic Reporting, Filtering Reports, and Customized Formatting) comprise the *second* level of the site map being rendered, not the first. This is because the SiteMapDataSource's `ShowStartingNode` property is set to False, causing the SiteMapDataSource to bypass the root site map node and instead begin by returning the second level in the site map hierarchy.
 
 To display the children for the Basic Reporting, Filtering Reports, and Customized Formatting `SiteMapNode` s, we can add another Repeater to the initial Repeater's `ItemTemplate`. This second Repeater will be bound to the `SiteMapNode` instance's `ChildNodes` property, like so:
 
-
 [!code-aspx[Main](master-pages-and-site-navigation-vb/samples/sample8.aspx)]
 
 These two Repeaters result in the following markup (some markup has been removed for brevity):
-
 
 [!code-html[Main](master-pages-and-site-navigation-vb/samples/sample9.html)]
 
 Using CSS styles chosen from [Rachel Andrew](http://www.rachelandrew.co.uk/)'s book [The CSS Anthology: 101 Essential Tips, Tricks, &amp; Hacks](https://www.amazon.com/gp/product/0957921888/qid=1137565739/sr=8-1/ref=pd_bbs_1/103-0562306-3386214?n=507846&amp;s=books&amp;v=glance), the `<ul>` and `<li>` elements are styled such that the markup produces the following visual output:
 
-
 ![A Menu Composed from Two Repeaters and Some CSS](master-pages-and-site-navigation-vb/_static/image27.png)
 
 **Figure 11**: A Menu Composed from Two Repeaters and Some CSS
-
 
 This menu is in the master page and bound to the site map defined in `Web.sitemap`, meaning that any change to the site map will be immediately reflected on all pages that use the `Site.master` master page.
 
@@ -217,7 +185,6 @@ View state can be disabled at the page or control level by setting the `EnableVi
 
 To reduce the page's view state let's set the Repeater control's `EnableViewState` property to `False`. This can be done through the Properties window in the Designer or declaratively in the Source view. After making this change the Repeater's declarative markup should look like:
 
-
 [!code-aspx[Main](master-pages-and-site-navigation-vb/samples/sample10.aspx)]
 
 After this change, the page's rendered view state size has shrunk to a mere 52 bytes, a 97% savings in view state size! In the tutorials throughout this series we'll disable the view state of the data Web controls by default in order to reduce the size of the rendered markup. In the majority of the examples the `EnableViewState` property will be set to `False` and done so without mention. The only time view state will be discussed is in scenarios where it must be enabled in order for the data Web control to provide its expected functionality.
@@ -228,16 +195,13 @@ To complete the master page, let's add a breadcrumb navigation UI element to eac
 
 For our site, add this control to the header `<div>`:
 
-
 [!code-aspx[Main](master-pages-and-site-navigation-vb/samples/sample11.aspx)]
 
 The breadcrumb shows the current page the user is visiting in the site map hierarchy as well as that site map node's "ancestors," all the way up to the root (Home, in our site map).
 
-
 ![The Breadcrumb Displays the Current Page and its Ancestors in the Site Map Hierarchy](master-pages-and-site-navigation-vb/_static/image28.png)
 
 **Figure 12**: The Breadcrumb Displays the Current Page and its Ancestors in the Site Map Hierarchy
-
 
 ## Step 5: Adding the Default Page for Each Section
 
@@ -245,19 +209,15 @@ The tutorials in our site are broken down into different categories Basic Report
 
 Let's display an unordered list using a Repeater again, but this time we'll display the title and description of the tutorials. Since the markup and code to accomplish this will need to be repeated for each `Default.aspx` page, we can encapsulate this UI logic in a [User Control](https://msdn.microsoft.com/library/y6wb1a0e.aspx). Create a folder in the website called `UserControls` and add to that a new item of type Web User Control named `SectionLevelTutorialListing.ascx`, and add the following markup:
 
-
 [![Add a New Web User Control to the UserControls Folder](master-pages-and-site-navigation-vb/_static/image30.png)](master-pages-and-site-navigation-vb/_static/image29.png)
 
 **Figure 13**: Add a New Web User Control to the `UserControls` Folder ([Click to view full-size image](master-pages-and-site-navigation-vb/_static/image31.png))
 
-
 SectionLevelTutorialListing.ascx
-
 
 [!code-aspx[Main](master-pages-and-site-navigation-vb/samples/sample12.aspx)]
 
 SectionLevelTutorialListing.ascx.vb
-
 
 [!code-vb[Main](master-pages-and-site-navigation-vb/samples/sample13.vb)]
 
@@ -265,16 +225,13 @@ In the previous Repeater example we bound the `SiteMap` data to the Repeater dec
 
 Once this Repeater has been created, open the `Default.aspx` pages in each of the folders, go to the Design view, and simply drag the User Control from the Solution Explorer onto the Design surface where you want the tutorial list to appear.
 
-
 [![The User Control has Been Added to Default.aspx](master-pages-and-site-navigation-vb/_static/image33.png)](master-pages-and-site-navigation-vb/_static/image32.png)
 
 **Figure 14**: The User Control has Been Added to `Default.aspx` ([Click to view full-size image](master-pages-and-site-navigation-vb/_static/image34.png))
 
-
 [![The Basic Reporting Tutorials are Listed](master-pages-and-site-navigation-vb/_static/image36.png)](master-pages-and-site-navigation-vb/_static/image35.png)
 
 **Figure 15**: The Basic Reporting Tutorials are Listed ([Click to view full-size image](master-pages-and-site-navigation-vb/_static/image37.png))
-
 
 ## Summary
 

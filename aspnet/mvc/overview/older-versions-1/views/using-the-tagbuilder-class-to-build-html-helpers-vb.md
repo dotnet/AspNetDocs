@@ -15,7 +15,6 @@ by [Stephen Walther](https://github.com/StephenWalther)
 
 > Stephen Walther introduces you to a useful utility class in the ASP.NET MVC framework named the TagBuilder class. You can use the TagBuilder class to easily build HTML tags.
 
-
 The ASP.NET MVC framework includes a useful utility class named the TagBuilder class that you can use when building HTML helpers. The TagBuilder class, as the name of the class suggests, enables you to easily build HTML tags. In this brief tutorial, you are provided with an overview of the TagBuilder class and you learn how to use this class when building a simple HTML helper that renders HTML &lt;img&gt; tags.
 
 ## Overview of the TagBuilder Class
@@ -27,7 +26,6 @@ The TagBuilder class is contained in the System.Web.Mvc namespace. It has five m
 - MergeAttribute() – Enables you to add attributes to a tag. There are multiple overloads of this method.
 - SetInnerText() – Enables you to set the inner text of the tag. The inner text is HTML encode automatically.
 - ToString() – Enables you to render the tag. You can specify whether you want to create a normal tag, a start tag, an end tag, or a self-closing tag.
-  
 
 The TagBuilder class has four important properties:
 
@@ -58,11 +56,9 @@ After you create the Image helper, you can use the helper in your ASP.NET MVC vi
 
 [!code-aspx[Main](using-the-tagbuilder-class-to-build-html-helpers-vb/samples/sample2.aspx)]
 
-
 [![The New Project dialog box](using-the-tagbuilder-class-to-build-html-helpers-vb/_static/image1.jpg)](using-the-tagbuilder-class-to-build-html-helpers-vb/_static/image1.png)
 
 **Figure 01**: Using the Image helper([Click to view full-size image](using-the-tagbuilder-class-to-build-html-helpers-vb/_static/image2.png))
-
 
 Notice that you must import the namespace associated with the Image helper at the top of the Index.aspx view. The helper is imported with the following directive:
 

@@ -17,7 +17,6 @@ by [Scott Mitchell](https://twitter.com/ScottOnWriting)
 
 > This is the first tutorial in a series of tutorials that will explore techniques for authenticating visitors through a web form, authorizing access to particular pages and functionality, and managing user accounts in an ASP.NET application.
 
-
 ## Introduction
 
 What is the one thing forums, eCommerce sites, online email websites, portal websites, and social network sites all have in common? They all offer *user accounts*. Sites that offer user accounts must provide a number of services. At a minimum, new visitors need to be able to create an account and returning visitors must be able to log in. Such web applications can make decisions based on the logged in user: some pages or actions might be restricted to only logged in users, or to a certain subset of users; other pages might show information specific to the logged in user, or might show more or less information, depending on what user is viewing the page.
@@ -39,7 +38,6 @@ In this tutorial we will discuss important security concepts and what facilities
 
 > [!NOTE]
 > Security is an important aspect of any application that spans physical, technological, and policy decisions and requires a high degree of planning and domain knowledge. This tutorial series is not intended as a guide for developing secure web applications. Rather, it focuses specifically on forms authentication, authorization, user accounts, and roles. While some security concepts revolving around these issues are discussed in this series, others are left unexplored.
-
 
 ## Authentication, Authorization, User Accounts, and Roles
 
@@ -69,11 +67,9 @@ The Windows authentication workflow uses one of the following authentication tec
 
 All three techniques work in roughly the same way: when an unauthorized, anonymous request arrives, the web server sends back an HTTP response that indicates that authorization is required to continue. The browser then displays a modal dialog box that prompts the user for their username and password (see Figure 1). This information is then sent back to the web server via an HTTP header.
 
-
 ![A Modal Dialog Box Prompts the User for His Credentials](security-basics-and-asp-net-support-vb/_static/image1.png)
 
 **Figure 1**: A Modal Dialog Box Prompts the User for His Credentials
-
 
 The supplied credentials are validated against the web server's Windows User Store. This means that each authenticated user in your web application must have a Windows account in your organization. This is commonplace in intranet scenarios. In fact, when using Windows Integrated Authentication in an intranet setting, the browser automatically provides the web server with the credentials used to log on to the network, thereby suppressing the dialog box shown in Figure 1. While Windows authentication is great for intranet applications, it is usually unfeasible for Internet applications since you do not want to create Windows accounts for each and every user who signs up at your site.
 
@@ -87,11 +83,9 @@ Figure 2 illustrates the forms authentication workflow from a high-level vantage
 
 Once the user has successfully logged in, subsequent HTTP requests include the forms authentication ticket. The forms authentication system merely identifies the user - it is the authorization system that determines whether the user can access the requested resource.
 
-
 ![The Forms Authentication Workflow](security-basics-and-asp-net-support-vb/_static/image2.png)
 
 **Figure 2**: The Forms Authentication Workflow
-
 
 We will dig into forms authentication in much greater detail in the next two tutorials,[An Overview of Forms Authentication](an-overview-of-forms-authentication-vb.md) and [Forms Authentication Configuration and Advanced Topics](forms-authentication-configuration-and-advanced-topics-vb.md). For more on ASP.NET's authentication options, see [ASP.NET Authentication](https://msdn.microsoft.com/library/eeyk640h.aspx).
 
@@ -132,11 +126,9 @@ Microsoft ships two Membership provider classes in the .NET Framework:
 
 This tutorial series focuses exclusively on the SqlMembershipProvider.
 
-
 [![The Provider Model Enables Different Implementations to be Seamlessly Plugged Into the Framework](security-basics-and-asp-net-support-vb/_static/image4.png)](security-basics-and-asp-net-support-vb/_static/image3.png)
 
 **Figure 03**: The Provider Model Enables Different Implementations to be Seamlessly Plugged Into the Framework ([Click to view full-size image](security-basics-and-asp-net-support-vb/_static/image5.png))
-
 
 The benefit of the provider model is that alternative implementations can be developed by Microsoft, third-party vendors, or individual developers and seamlessly plugged into the Membership framework. For example, Microsoft has released [a Membership provider for Microsoft Access databases](https://download.microsoft.com/download/5/5/b/55bc291f-4316-4fd7-9269-dbf9edbaada8/sampleaccessproviders.vsi). For more information on the Membership providers, refer to the [Provider Toolkit](https://msdn.microsoft.com/asp.net/aa336558.aspx), which includes a walkthrough of the Membership providers, sample custom providers, over 100 pages of documentation on the provider model, and the complete source code for the built-in Membership providers (namely, ActiveDirectoryMembershipProvider and SqlMembershipProvider).
 

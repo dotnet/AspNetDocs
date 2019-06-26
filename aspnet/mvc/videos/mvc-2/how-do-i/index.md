@@ -13,7 +13,6 @@ msc.type: chapter
 
 > Videos in this section cover ASP.NET MVC, including how to build "The Storefront" - an entire e-commerce application from start to finish.
 
-
 - [Creating a Tasklist Application with ASP.NET MVC](creating-a-tasklist-application-with-aspnet-mvc.md)
 - [Creating a Movie Database Application in 15 minutes with ASP.NET MVC](creating-a-movie-database-application-in-15-minutes-with-aspnet-mvc.md)
 - [Understanding Models, Views, and Controllers](understanding-models-views-and-controllers.md)

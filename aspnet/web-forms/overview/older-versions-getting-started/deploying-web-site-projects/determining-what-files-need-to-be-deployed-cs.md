@@ -17,7 +17,6 @@ by [Scott Mitchell](https://twitter.com/ScottOnWriting)
 
 > What files need to be deployed from the development environment to the production environment depends in part on whether the ASP.NET application was built using the Web Site Model or Web Application Model. Learn more about these two project models and how the project model affects deployment.
 
-
 ## Introduction
 
 Deploying an ASP.NET web application entails copying the ASP.NET-related files from the development environment to the production environment. The ASP.NET-related files include ASP.NET web page markup and code and client- and server-side support files. Client-side support files are those files referenced by your web pages and sent directly to the browser - images, CSS files and JavaScript files, for example. Server-side support files include those that are used to process a request on the server-side. This includes configuration files, web services, class files, Typed DataSets, and LINQ to SQL files, among others.
@@ -28,7 +27,7 @@ In general, all client-side support files should be copied from the development 
 
 ASP.NET web pages are divided into declarative markup and source code. The declarative markup portion includes HTML, Web controls, and databinding syntax; the code portion contains event handlers written in Visual Basic or C# code. The markup and code portions are typically separated into different files: `WebPage.aspx` contains the declarative markup while `WebPage.aspx.cs` houses the code.
 
-Consider an ASP.NET page named Clock.aspx that contains a Label control whose Text property is set to the current date and time when the page loads. The declarative markup portion (in `Clock.aspx`) would contain the markup for a Label Web control -`<asp:Label runat="server" id="TimeLabel" />` - while the code portion (in `Clock.aspx.cs`) would have a `Page_Load` event hander with the following code:
+Consider an ASP.NET page named Clock.aspx that contains a Label control whose Text property is set to the current date and time when the page loads. The declarative markup portion (in `Clock.aspx`) would contain the markup for a Label Web control -`<asp:Label runat="server" id="TimeLabel" />` - while the code portion (in `Clock.aspx.cs`) would have a `Page_Load` event handler with the following code:
 
 [!code-csharp[Main](determining-what-files-need-to-be-deployed-cs/samples/sample1.cs)]
 
@@ -86,20 +85,16 @@ The download for this tutorial includes an ASP.NET application called Book Revie
 
 Figure 1 shows a screen shot of the Book Reviews website when viewed through a browser. Here you see the page ~/`Tech/TYASP35.aspx`, which reviews the book *Teach Yourself ASP.NET 3.5 in 24 Hours*. The breadcrumb that spans the top of the page and the menu in the left column are based on the site map structure defined in `Web.sitemap`. The image in the right upper corner is one of the book cover images located in the `Images` folder. The website's look and feel are defined via cascading style sheet rules spelled out by the CSS files in the Styles folder, while the overarching page layout is defined in the master page, `Site.master`.
 
-
 [![The Book Reviews website offers reviews on an assortment of titles](determining-what-files-need-to-be-deployed-cs/_static/image2.png)](determining-what-files-need-to-be-deployed-cs/_static/image1.png)
 
 **Figure 1:** The Book Reviews website offers reviews on an assortment of titles ([Click to view full-size image](determining-what-files-need-to-be-deployed-cs/_static/image3.png))
-
 
 This application does not use a database; each review is implemented as a separate web page in the application. This tutorial (and the next several tutorials) walk through deploying a web application that does not have a database. However, in a future tutorial we will enhance this application to store reviews, reader comments, and other information within a database, and will explore what steps need to be performed to correctly deploy a data-driven web application.
 
 > [!NOTE]
 > These tutorials focus on hosting ASP.NET applications with a web host provider and do not explore ancillary topics like ASP.NET's site map system or using a base `Page` class. For more information on these technologies, and for more background on other topics covered throughout the tutorial, refer to the Further Reading section at the end of each tutorial.
 
-
 This tutorial's download has two copies of the web application, each implemented as a different Visual Studio project type: BookReviewsWAP, a Web Application Project, and BookReviewsWSP, a Web Site Project. Both projects were created with Visual Web Developer 2008 SP1 and use ASP.NET 3.5 SP1. To work with these projects start by unzipping the contents to your Desktop. To open the Web Application Project (BookReviewsWAP), navigate to the BookReviewsWAP folder and double-click the Solution file, `BookReviewsWAP.sln`. To open the Web Site Project (BookReviewsWSP), launch Visual Studio and then, from the File menu, choose the Open Web Site option, browse to the `BookReviewsWSP` folder on your Desktop, and click OK.
-
 
 The remaining two sections in this tutorial look at what files you will need to copy to the production environment when deploying the application. The next two tutorials - *[Deploying Your Site Using FTP](deploying-your-site-using-an-ftp-client-cs.md)* and *[Deploying Your Site Using Visual Studio](deploying-your-site-using-visual-studio-cs.md)* - show different ways to copy these files to a web host provider.
 
@@ -109,11 +104,9 @@ The Web Application Project model uses explicit compilation - the project's sour
 
 Figure 2 shows the files that make up the Book Reviews Web Application Project.
 
-
 [![The Solution Explorer lists the files that comprise the Web Application Project](determining-what-files-need-to-be-deployed-cs/_static/image5.png)](determining-what-files-need-to-be-deployed-cs/_static/image4.png)
 
 **Figure 2**: The Solution Explorer lists the files that comprise the Web Application Project
-
 
 To deploy an ASP.NET application developed using the Web Application Project model start by building the application so as to explicitly compile the most recent source code into an assembly. Next, copy the following files to the production environment:
 
@@ -125,7 +118,6 @@ You do not need to copy the ASP.NET pages' source code files to the production e
 > [!NOTE]
 > As Figure 2 shows, the `BasePage` class is implemented as a class file in the project, placed in folder named `HelperClasses`. When the project is compiled the code in the `BasePage.cs` file is compiled along with the ASP.NET pages' code-behind classes into the single assembly, `BookReviewsWAP.dll.` ASP.NET has a special folder named `App_Code` that is designed to hold class files for Web Site Projects. The code in the `App_Code` folder is automatically compiled and therefore should not be used with Web Application Projects. Instead, you should place your application's class files in a normal folder named `HelperClasses`, or `Classes`, or something similar. Alternatively, you can place class files in a separate Class Library project.
 
-
 In addition to copying the ASP.NET-related markup files and the assembly in the `Bin` folder, you also need to copy the client-side support files - the images and CSS files - as well as the other server-side support files, `Web.config` and `Web.sitemap`. These client- and server-side support files need to be copied to the production environment regardless of whether you use explicit or automatic compilation.
 
 ## Determining the Files to Deploy for the Web Site Project Files
@@ -136,11 +128,9 @@ The Build menu option in Visual Studio is present in both Web Application Projec
 
 Figure 3 shows the files that make up the Book Reviews Web Site Project.
 
-
  [![The Solution Explorer lists the files that comprise the Web Site Project](determining-what-files-need-to-be-deployed-cs/_static/image7.png)](determining-what-files-need-to-be-deployed-cs/_static/image6.png) 
 
 **Figure 3**: The Solution Explorer lists the files that comprise the Web Site Project
-
 
 Deploying a Web Site Project involves copying all of the ASP.NET-related files to the production environment - that includes the markup pages for ASP.NET pages, master pages, and User Controls, along with their code files. You also need to copy up any class files, such as BasePage.cs. Note that the `BasePage.cs` file is located in the `App_Code` folder, which is a special ASP.NET folder used in Web Site Projects for class files. The special folder needs to be created on production, as well, as the class files in the `App_Code` folder on the development environment must be copied to the `App_Code` folder on production.
 
@@ -148,7 +138,6 @@ In addition to copying the ASP.NET markup and source code files, you also need t
 
 > [!NOTE]
 > Web Site Projects can also use explicit compilation. A future tutorial will examine how to explicitly compile a Web Site Project.
-
 
 ## Summary
 

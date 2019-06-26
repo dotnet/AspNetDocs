@@ -32,7 +32,6 @@ by [Mike Wasson](https://github.com/MikeWasson), [Patrick Fletcher](https://gith
 >
 > Please leave feedback on how you liked this tutorial and what we could improve in the comments at the bottom of the page. If you have questions that are not directly related to the tutorial, you can post them to the [ASP.NET SignalR forum](https://forums.asp.net/1254.aspx/1?ASP+NET+SignalR) or [StackOverflow.com](http://stackoverflow.com/).
 
-
 In general, there are two ways to scale a web application: *scale up* and *scale out*.
 
 - Scale up means using a larger server (or a larger VM) with more RAM, CPUs, etc.

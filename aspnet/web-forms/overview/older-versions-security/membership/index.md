@@ -13,7 +13,6 @@ msc.type: chapter
 
 > This tutorial series examines techniques for using the built-in membership (security) system to create user accounts and configure authorization rules.
 
-
 - [Creating the Membership Schema in SQL Server (C#)](creating-the-membership-schema-in-sql-server-cs.md)
 - [Creating User Accounts (C#)](creating-user-accounts-cs.md)
 - [Validating User Credentials Against the Membership User Store (C#)](validating-user-credentials-against-the-membership-user-store-cs.md)

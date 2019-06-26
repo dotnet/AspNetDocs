@@ -17,7 +17,6 @@ by [Patrick Fletcher](https://github.com/pfletcher)
 
 > This document describes common troubleshooting issues with SignalR.
 
-
 This document contains the following sections.
 
 - [Calling methods between the client and server silently fails](#connection)

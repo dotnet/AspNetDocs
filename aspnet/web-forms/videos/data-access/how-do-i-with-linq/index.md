@@ -13,7 +13,6 @@ msc.type: chapter
 
 > This video series walks you through everything you need to know to become proficient in using LINQ as a web developer.
 
-
 - [LINQ to SQL: Overview](how-do-i-linq-to-sql-overview.md)
 - [LINQ to SQL: Data Model](how-do-i-linq-to-sql-data-model.md)
 - [LINQ to SQL: Querying the Database](how-do-i-linq-to-sql-querying-the-database.md)

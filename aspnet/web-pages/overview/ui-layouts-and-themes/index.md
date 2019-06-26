@@ -13,7 +13,6 @@ msc.type: chapter
 
 > How to customize the site UI in an ASP.NET Web Pages application.
 
-
 - [Working with Forms](4-working-with-forms.md)
 - [Validating User Input in ASP.NET Web Pages Sites](validating-user-input-in-aspnet-web-pages-sites.md)
 - [Creating a Consistent Look](3-creating-a-consistent-look.md)

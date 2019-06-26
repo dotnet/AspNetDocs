@@ -15,7 +15,6 @@ msc.type: content
 > 
 > Applies to ASP.NET 1.0 and ASP.NET 1.1.
 
-
 ASP.NET V1 RTM now runs using a less privileged windows account - registered as the "ASPNET" account on a local machine.
 
 On some locked down systems, this account may not by default have read security access to a website's content directories, the application root directory, or the web site root directory. In this case you will receive the following error when requesting pages from a given web application:

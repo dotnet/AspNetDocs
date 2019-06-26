@@ -17,7 +17,6 @@ by [Patrick Fletcher](https://github.com/pfletcher), [Tom FitzMacken](https://gi
 
 > This topic shows how to retain information about users and their connections.
 
-
 ## Introduction
 
 Each client connecting to a hub passes a unique connection id. You can retrieve this value in the `Context.ConnectionId` property of the hub context. If your application needs to map a user to the connection id and persist that mapping, you can use one of the following:

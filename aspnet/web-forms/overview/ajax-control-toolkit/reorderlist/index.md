@@ -13,7 +13,6 @@ msc.type: chapter
 
 > This tutorial shows how to use the ReorderList control to display a list that users can reorder by dragging items.
 
-
 - [Using Postbacks with ReorderList (C#)](using-postbacks-with-reorderlist-cs.md)
 - [Drag and Drop via ReorderList (C#)](drag-and-drop-via-reorderlist-cs.md)
 - [Using Postbacks with ReorderList (VB)](using-postbacks-with-reorderlist-vb.md)

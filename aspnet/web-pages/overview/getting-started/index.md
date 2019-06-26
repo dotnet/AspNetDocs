@@ -13,7 +13,6 @@ msc.type: chapter
 
 > What Web Pages and WebMatrix are, plus how to install everything, get started, and deploy sites.
 
-
 - [Program ASP.NET Web Pages in Visual Studio](program-asp-net-web-pages-in-visual-studio.md)
 - [Intro to ASP.NET Web Programming Razor Syntax](introducing-razor-syntax-c.md)
 - [ASP.NET Web Pages Visual Basic](introducing-razor-syntax-vb.md)

@@ -17,7 +17,6 @@ by [Erik Reitan](https://github.com/Erikre)
 
 > This tutorial series will teach you the basics of building an ASP.NET Web Forms application using ASP.NET 4.5 and Microsoft Visual Studio Express 2013 for Web. A Visual Studio 2013 [project with C# source code](https://go.microsoft.com/fwlink/?LinkID=389434&clcid=0x409) is available to accompany this tutorial series.
 
-
 This tutorial describes how to modify the Wingtip Toys sample application to include user authorization, registration, and payment using PayPal. Only users who are logged in will have authorization to purchase products. The ASP.NET 4.5 Web Forms project template's built-in user registration functionality already includes much of what you need. You will add PayPal Express Checkout functionality. In this tutorial you be using the PayPal developer testing environment, so no actual funds will be transferred. At the end of the tutorial, you will test the application by selecting products to add to the shopping cart, clicking the checkout button, and transferring data to the PayPal testing web site. On the PayPal testing web site, you will confirm your shipping and payment information and then return to the local Wingtip Toys sample application to confirm and complete the purchase.
 
 There are several experienced third-party payment processors that specialize in online shopping that address scalability and security. ASP.NET developers should consider the advantages of utilizing a third party payment solution before implementing a shopping and purchasing solution.
@@ -25,7 +24,6 @@ There are several experienced third-party payment processors that specialize in 
 > [!NOTE] 
 > 
 > The Wingtip Toys sample application was designed to shown specific ASP.NET concepts and features available to ASP.NET web developers. This sample application was not optimized for all possible circumstances in regard to scalability and security.
-
 
 ## What you'll learn:
 
@@ -145,7 +143,6 @@ In addition to authentication, the tutorial will also use roles to implement aut
 > 
 > Windows Live applications only accept a live URL for a working website, so you cannot use a local website URL for testing logins.
 
-
 The following steps will allow you to add a Google authentication provider.
 
 1. Open the *App\_Start\Startup.Auth.cs* file.
@@ -244,7 +241,7 @@ If you are following this tutorial using the **prebuilt** Wingtip Toys sample ap
 
 PayPal is a web-based billing platform that accepts payments by online merchants. This tutorial next explains how to integrate PayPal's Express Checkout functionality into your application. Express Checkout allows your customers to use PayPal to pay for the items they have added to their shopping cart.
 
-### Create PaylPal Test Accounts
+### Create PayPal Test Accounts
 
 To use the PayPal testing environment, you must create and verify a developer test account. You will use the developer test account to create a buyer test account and a seller test account. The developer test account credentials also will allow the Wingtip Toys sample application to access the PayPal testing environment.
 
@@ -271,7 +268,7 @@ To use the PayPal testing environment, you must create and verify a developer te
 7. Create the buyer test account by clicking the **Create Account** button.  
  The **Sandbox Test accounts** page is displayed. 
 
-    ![Checkout and Payment with PayPal - PaylPal Accounts](checkout-and-payment-with-paypal/_static/image17.png)
+    ![Checkout and Payment with PayPal - PayPal Accounts](checkout-and-payment-with-paypal/_static/image17.png)
 8. On the **Sandbox test accounts** page, click the **facilitator** email account.  
     **Profile** and **Notification** options appear.
 9. Select the **Profile** option, then click **API credentials** to view your API credentials for the merchant test account.
@@ -300,7 +297,6 @@ You will place the majority of the PayPal code into a single class. This class c
 > 
 > In this sample application you are simply adding credentials to a C# file (.cs). However, in a implemented solution, you should consider encrypting your credentials in a configuration file.
 
-
 The NVPAPICaller class contains the majority of the PayPal functionality. The code in the class provides the methods needed to make a test purchase from the PayPal testing environment. The following three PayPal functions are used to make purchases:
 
 - `SetExpressCheckout` function
@@ -312,7 +308,6 @@ The `ShortcutExpressCheckout` method collects the test purchase information and 
 > [!NOTE] 
 > 
 > PayPal allows you to include optional purchase details based on [PayPal's API specification](https://cms.paypal.com/us/cgi-bin/?cmd=_render-content&amp;content_ID=developer/e_howto_api_nvp_r_SetExpressCheckout). By extending the code in the Wingtip Toys sample application, you can include localization details, product descriptions, tax, a customer service number, as well as many other optional fields.
-
 
 Notice that the return and cancel URLs that are specified in the **ShortcutExpressCheckout** method use a port number.
 
@@ -389,7 +384,6 @@ The **DetailsView** control is used to display the order details that have been 
 > By selecting **Edit Fields**, the **Fields** dialog box will appear. In this dialog box you can easily control the visual properties, such as **ItemStyle**, of the **DetailsView** control.
 > 
 > ![Checkout and Payment with PayPal - Fields Dialog](checkout-and-payment-with-paypal/_static/image19.png)
-
 
 ### Complete Purchase
 

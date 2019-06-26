@@ -13,6 +13,5 @@ msc.type: chapter
 
 > This tutorial shows how to use the NoBot control, which provides an automated way to prevent bots from posting to a site.
 
-
 - [Fighting Bots (C#)](fighting-bots-cs.md)
 - [Fighting Bots (VB)](fighting-bots-vb.md)

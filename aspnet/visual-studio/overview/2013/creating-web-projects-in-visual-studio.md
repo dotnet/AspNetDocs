@@ -24,7 +24,6 @@ by [Tom Dykstra](https://github.com/tdykstra)
 > 
 > For information about how to create web projects for Azure Cloud Services or Azure Mobile Services, see [Get Started with Azure Cloud Services and ASP.NET](https://azure.microsoft.com/documentation/articles/cloud-services-dotnet-get-started/) and [Creating a Leaderboard App with Azure Mobile Services .NET Backend](https://azure.microsoft.com/documentation/articles/mobile-services-dotnet-backend-windows-store-dotnet-leaderboard/).
 
-
 <a id="prerequisites"></a>
 ## Prerequisites
 
@@ -75,7 +74,7 @@ Visual Studio includes features that make it easy to work with Azure services fo
 - Create and manage web apps or virtual machines that make your application available over the Internet.
 - View logs created by the application as it runs in the cloud.
 - Run in debug mode remotely while the application runs in the cloud.
-- Viiew and manage other Azure services such as SQL databases.
+- View and manage other Azure services such as SQL databases.
 
 You can [create an Azure account](https://www.windowsazure.com/pricing/free-trial/) that includes basic services such as web apps for free, and if you are an MSDN subscriber you can [activate benefits](https://azure.microsoft.com/pricing/member-offers/visual-studio-subscriptions/) that give you monthly credits toward additional Azure services. 
 
@@ -344,7 +343,6 @@ If you want to try one of the Azure AD options but don't have an account yet, [c
 > If you choose one of the Azure AD options, your project requires a database and you have to sign in to a global administrator account for your Azure AD tenant. Enter the name and password for an organizational account (for example, admin@contoso.onmicrosoft.com) that has administrative permissions for your Azure AD tenant.
 > 
 > **Don't enter credentials for a Microsoft account (for example, contoso@hotmail.com) in the sign-in dialog box.**
-
 
 <a id="orgauthsingle"></a>
 ### Cloud - Single Organization Authentication

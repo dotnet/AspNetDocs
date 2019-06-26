@@ -29,7 +29,6 @@ by [Tom FitzMacken](https://github.com/tfitzmac)
 > - WebMatrix database tools.
 > - `WebGrid` helper.
 
-
 ## What You'll Build
 
 In the previous tutorial, you were introduced to ASP.NET Web Pages (*.cshtml* files), to the basics of Razor syntax, and to helpers. In this tutorial, you'll begin creating the actual web application that you'll use for the rest of the series. The app is a simple movie application that lets you view, add, change, and delete information about movies.
@@ -90,7 +89,6 @@ Tab to the **Data Type** list and choose **int**. This value specifies that the 
 
 > [!NOTE]
 > We won't call it out any more here (much), but you can use standard Windows keyboard gestures to navigate in this grid. For example, you can tab between fields, you can just start typing in order to select an item in a list, and so on.
-
 
 Tab past the **Default Value** box (that is, leave it blank). Tab to the **Is Primary Key** check box and select it. This option tells the database that the *ID* column will contain the data that identifies individual rows. (That is, each row will have a unique value in the ID column that you can use to find that row.)
 
@@ -171,7 +169,6 @@ To run the grid, you'll have to write a few lines of code. These few lines will 
 > [!NOTE]
 > You actually have many options for displaying data on a page; the `WebGrid` helper is just one. We chose it for this tutorial because it's the easiest way to display data and because it's reasonably flexible. In the next tutorial set, you'll see how to use a more "manual" way to work with data in the page, which gives you more direct control over how to display the data.
 
-
 In the left pane in WebMatrix, click the **Files** workspace.
 
 The new database you created is in the *App\_Data* folder. If the folder didn't already exist, WebMatrix created it for your new database. (The folder might have existed if you'd previously installed helpers.)
@@ -235,7 +232,6 @@ At this stage, the database has been opened, you've gotten the data you want, an
 > For some of these operations (like inserting and deleting records), the process that's requesting the operation has to have appropriate permissions in the database. That's why for production databases you often have to supply a user name and password when you connect to the database.
 > 
 > There are dozens of SQL commands, but they all follow a pattern like the commands you see here. You can use SQL commands to create database tables, count the number of records in a table, calculate prices, and perform many more operations.
-
 
 ### Adding Markup to Display the Data
 

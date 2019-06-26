@@ -17,7 +17,6 @@ by [Erik Reitan](https://github.com/Erikre)
 
 > This tutorial series will teach you the basics of building an ASP.NET Web Forms application using ASP.NET 4.5 and Microsoft Visual Studio Express 2013 for Web. A Visual Studio 2013 [project with C# source code](https://go.microsoft.com/fwlink/?LinkID=389434&clcid=0x409) is available to accompany this tutorial series.
 
-
 This tutorial describes the business logic required to add a shopping cart to the Wingtip Toys sample ASP.NET Web Forms application. This tutorial builds on the previous tutorial "Display Data Items and Details" and is part of the Wingtip Toy Store tutorial series. When you've completed this tutorial, the users of your sample app will be able to add, remove, and modify the products in their shopping cart.
 
 ## What you'll learn:
@@ -43,7 +42,6 @@ Earlier in this tutorial series, you added pages and code to view product data f
 > [!NOTE] 
 > 
 > The ASP.NET Session state is a convenient place to store user-specific information which will expire after the user leaves the site. While misuse of session state can have performance implications on larger sites, light use of session state works well for demonstration purposes. The Wingtip Toys sample project shows how to use session state without an external provider, where session state is stored in-process on the web server hosting the site. For larger sites that provide multiple instances of an application or for sites that run multiple instances of an application on different servers, consider using **Windows Azure Cache Service**. This Cache Service provides a distributed caching service that is external to the web site and solves the problem of using in-process session state. For more information see, [How to Use ASP.NET Session State with Windows Azure Web Sites](https://docs.microsoft.com/azure/redis-cache/cache-aspnet-session-state-provider).
-
 
 ### Add CartItem as a Model Class
 
@@ -122,7 +120,6 @@ As mentioned earlier, you will create a processing page named *AddToCart.aspx* t
 > [!NOTE] 
 > 
 > You will be modifying the code-behind (*AddToCart.aspx.cs*) for this page, not the page UI (*AddToCart.aspx*).
-
 
 #### To create the Add-To-Cart functionality:
 
@@ -209,7 +206,6 @@ First, the `GetTotal` method gets the ID of the shopping cart for the user. Then
 > [!NOTE] 
 > 
 > The above code uses the nullable type "`int?`". Nullable types can represent all the values of an underlying type, and also as a null value. For more information see, [Using Nullable Types](https://msdn.microsoft.com/library/2cf62fcy(v=vs.110).aspx).
-
 
 ### Modify the Shopping Cart Display
 

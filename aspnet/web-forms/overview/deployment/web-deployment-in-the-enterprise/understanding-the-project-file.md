@@ -24,7 +24,6 @@ by [Jason Lee](https://github.com/jrjlee)
 > - How to understand the key components of a project file.
 > - How you can use project files to build and deploy complex applications.
 
-
 ## MSBuild and the Project File
 
 When you create and build solutions in Visual Studio, Visual Studio uses MSBuild to build each project in your solution. Every Visual Studio project includes an MSBuild project file, with a file extension that reflects the type of project&#x2014;for example, a C# project (.csproj), a Visual Basic.NET project (.vbproj), or a database project (.dbproj). In order to build a project, MSBuild must process the project file associated with the project. The project file is an XML document that contains all the information and instructions that MSBuild needs in order to build your project, like the content to include, the platform requirements, versioning information, web server or database server settings, and the tasks that must be performed.
@@ -33,7 +32,6 @@ MSBuild project files are based on the [MSBuild XML schema](https://msdn.microso
 
 > [!NOTE]
 > You can also use MSBuild project files with the Team Build service in Team Foundation Server (TFS). For example, you can use project files in continuous integration (CI) scenarios to automate deployment to a test environment when new code is checked in. For more information, see [Configuring Team Foundation Server for Automated Web Deployment](../configuring-team-foundation-server-for-web-deployment/configuring-team-foundation-server-for-web-deployment.md).
-
 
 ### Project File Naming Conventions
 
@@ -55,7 +53,6 @@ The good news is that you can take advantage of the integration points that the 
 > [!NOTE]
 > For more information on how the web application deployment process works, see [ASP.NET Web Application Project Deployment Overview](https://msdn.microsoft.com/library/dd394698.aspx).
 
-
 ## The Anatomy of a Project File
 
 Before you look at the build process in more detail, it's worth taking a few moments to familiarize yourself with the basic structure of an MSBuild project file. This section provides an overview of the more common elements that you'll encounter when you review, edit, or create a project file. In particular, you'll learn:
@@ -72,45 +69,33 @@ This shows the relationship between the key elements in an MSBuild project file:
 
 The [Project](https://msdn.microsoft.com/library/bcxfsh87.aspx) element is the root element of every project file. In addition to identifying the XML schema for the project file, the **Project** element can include attributes to specify the entry points for the build process. For example, in the [Contact Manager sample solution](the-contact-manager-solution.md), the *Publish.proj* file specifies that the build should start by calling the target named **FullPublish**.
 
-
 [!code-xml[Main](understanding-the-project-file/samples/sample1.xml)]
-
 
 ### Properties and Conditions
 
 A project file typically needs to provide lots of different pieces of information in order to successfully build and deploy your projects. These pieces of information could include server names, connection strings, credentials, build configurations, source and destination file paths, and any other information you want to include to support customization. In a project file, properties must be defined within a [PropertyGroup](https://msdn.microsoft.com/library/t4w159bs.aspx) element. MSBuild properties consist of key-value pairs. Within the **PropertyGroup** element, the element name defines the property key and the content of the element defines the property value. For example, you could define properties named **ServerName** and **ConnectionString** to store a static server name and connection string.
 
-
 [!code-xml[Main](understanding-the-project-file/samples/sample2.xml)]
-
 
 To retrieve a property value, you use the format **$(***PropertyName***)***.* For example, to retrieve the value of the **ServerName** property, you would type:
 
-
 [!code-powershell[Main](understanding-the-project-file/samples/sample3.ps1)]
-
 
 > [!NOTE]
 > You'll see examples of how and when to use property values later in this topic.
 
-
 Embedding information as static properties in a project file is not always the ideal approach to managing the build process. In a lot of scenarios, you'll want to obtain the information from other sources or empower the user to provide the information from the command prompt. MSBuild allows you to specify any property value as a command-line parameter. For example, the user could provide a value for **ServerName** when he or she runs MSBuild.exe from the command line.
-
 
 [!code-console[Main](understanding-the-project-file/samples/sample4.cmd)]
 
-
 > [!NOTE]
 > For more information on the arguments and switches you can use with MSBuild.exe, see [MSBuild Command Line Reference](https://msdn.microsoft.com/library/ms164311.aspx).
-
 
 You can use the same property syntax to obtain the values of environment variables and built-in project properties. Lots of commonly used properties are defined for you, and you can use them in your project files by including the relevant parameter name. For example, to retrieve the current project platform&#x2014;for example, **x86** or **AnyCpu**&#x2014;you can include the **$(Platform)** property reference in your project file. For more information, see [Macros for Build Commands and Properties](https://msdn.microsoft.com/library/c02as0cs.aspx), [Common MSBuild Project Properties](https://msdn.microsoft.com/library/bb629394.aspx), and [Reserved Properties](https://msdn.microsoft.com/library/ms164309.aspx).
 
 Properties are often used in conjunction with *conditions*. Most MSBuild elements support the **Condition** attribute, which lets you specify the criteria upon which MSBuild should evaluate the element. For example, consider this property definition:
 
-
 [!code-xml[Main](understanding-the-project-file/samples/sample5.xml)]
-
 
 When MSBuild processes this property definition, it first checks to see whether an **$(OutputRoot)** property value is available. If the property value is blank&#x2014;in other words, the user hasn't provided a value for this property&#x2014;the condition evaluates to **true** and the property value is set to **..\Publish\Out**. If the user has provided a value for this property, the condition evaluates to **false** and the static property value is not used.
 
@@ -120,27 +105,20 @@ For more information on the different ways in which you can specify conditions, 
 
 One of the important roles of the project file is to define the inputs to the build process. Typically, these inputs are files&#x2014;code files, configuration files, command files, and any other files that you need to process or copy as part of the build process. In the MSBuild project schema, these inputs are represented by [Item](https://msdn.microsoft.com/library/ms164283.aspx) elements. In a project file, items must be defined within an [ItemGroup](https://msdn.microsoft.com/library/646dk05y.aspx) element. Just like **Property** elements, you can name an **Item** element however you like. However, you must specify an **Include** attribute to identify the file or wildcard that the item represents.
 
-
 [!code-xml[Main](understanding-the-project-file/samples/sample6.xml)]
-
 
 By specifying multiple **Item** elements with the same name, you're effectively creating a named list of resources. A good way to see this in action is to take a look inside one of the project files that Visual Studio creates. For example, the *ContactManager.Mvc.csproj* file in the sample solution includes a lot of item groups, each with several identically named **Item** elements.
 
-
 [!code-xml[Main](understanding-the-project-file/samples/sample7.xml)]
-
 
 In this way, the project file is instructing MSBuild to construct lists of files that need to be processed in the same way&#x2014;the **Reference** list includes assemblies that must be in place for a successful build, the **Compile** list includes code files that must be compiled, and the **Content** list includes resources that must be copied unaltered. We'll look at how the build process references and uses these items later in this topic.
 
 Item elements can also include [ItemMetadata](https://msdn.microsoft.com/library/ms164284.aspx) child elements. These are user-defined key-value pairs and essentially represent properties that are specific to that item. For example, a lot of the **Compile** item elements in the project file include **DependentUpon** child elements.
 
-
 [!code-xml[Main](understanding-the-project-file/samples/sample8.xml)]
-
 
 > [!NOTE]
 > In addition to user-created item metadata, all items are assigned various common metadata on creation. For more information, see [Well-known Item Metadata](https://msdn.microsoft.com/library/ms164313.aspx).
-
 
 You can create **ItemGroup** elements within the root-level **Project** element or within specific **Target** elements. **ItemGroup** elements also support **Condition** attributes, which lets you tailor the inputs to the build process according to conditions like the project configuration or platform.
 
@@ -157,30 +135,21 @@ In the MSBuild schema, a [Task](https://msdn.microsoft.com/library/77f2hx1s.aspx
 > [!NOTE]
 > For full details of the tasks that are available out of the box, see [MSBuild Task Reference](https://msdn.microsoft.com/library/7z253716.aspx). For more information on tasks, including how to create your own custom tasks, see [MSBuild Tasks](https://msdn.microsoft.com/library/ms171466.aspx).
 
-
 Tasks must always be contained within [Target](https://msdn.microsoft.com/library/t50z2hka.aspx) elements. A **Target** element is a set of one or more tasks that are executed sequentially, and a project file can contain multiple targets. When you want to run a task, or a set of tasks, you invoke the target that contains them. For example, suppose you have a simple project file that logs a message.
-
 
 [!code-xml[Main](understanding-the-project-file/samples/sample9.xml)]
 
-
 You can invoke the target from the command line, by using the **/t** switch to specify the target.
-
 
 [!code-console[Main](understanding-the-project-file/samples/sample10.cmd)]
 
-
 Alternatively, you can add a **DefaultTargets** attribute to the **Project** element, to specify the targets that you want to invoke.
-
 
 [!code-xml[Main](understanding-the-project-file/samples/sample11.xml)]
 
-
 In this case, you don't need to specify the target from the command line. You can simply specify the project file, and MSBuild will invoke the **FullPublish** target for you.
 
-
 [!code-console[Main](understanding-the-project-file/samples/sample12.cmd)]
-
 
 Both targets and tasks can include **Condition** attributes. As such, you can choose to omit entire targets or individual tasks if certain conditions are met.
 
@@ -192,12 +161,9 @@ Generally speaking, when you create useful tasks and targets, you'll need to ref
 > [!NOTE]
 > Remember that if you create multiple items with the same name, you're building a list. In contrast, if you create multiple properties with the same name, the last property value you provide will overwrite any previous properties with the same name&#x2014;a property can only contain a single value.
 
-
 For example, in the *Publish.proj* file in the sample solution, take a look at the **BuildProjects** target.
 
-
 [!code-xml[Main](understanding-the-project-file/samples/sample13.xml)]
-
 
 In this sample, you can observe these key points:
 
@@ -215,7 +181,6 @@ You can also see that the **MSBuild** task invokes a target named **Build**. Thi
 > [!NOTE]
 > For more information on targets, see [MSBuild Targets](https://msdn.microsoft.com/library/ms171462.aspx).
 
-
 ## Splitting Project Files to Support Multiple Environments
 
 Suppose you want to be able to deploy a solution to multiple environments, like test servers, staging platforms, and production environments. The configuration may vary substantially between these environments&#x2014;not just in terms of server names, connection strings, and so on, but also potentially in terms of credentials, security settings, and lots of other factors. If you need to do this regularly, it's not really expedient to edit multiple properties in your project file every time you switch the target environment. Nor is it an ideal solution to require an endless list of property values to be provided to the build process.
@@ -227,15 +192,11 @@ Fortunately there is an alternative. MSBuild lets you split your build configura
 
 Now notice that the *Publish.proj* file includes an [Import](https://msdn.microsoft.com/library/92x05xfs.aspx) element, immediately beneath the opening **Project** tag.
 
-
 [!code-xml[Main](understanding-the-project-file/samples/sample16.xml)]
-
 
 The **Import** element is used to import the contents of another MSBuild project file into the current MSBuild project file. In this case, the **TargetEnvPropsFile** parameter provides the filename of the project file you want to import. You can provide a value for this parameter when you run MSBuild.
 
-
 [!code-console[Main](understanding-the-project-file/samples/sample17.cmd)]
-
 
 This effectively merges the contents of the two files into a single project file. Using this approach, you can create one project file containing your universal build configuration and multiple supplementary project files containing environment-specific properties. As a result, simply running a command with a different parameter value lets you deploy your solution to a different environment.
 
@@ -245,7 +206,6 @@ Splitting your project files in this way is a good practice to follow. It allows
 
 > [!NOTE]
 > For guidance on how to customize the environment-specific project files for your own server environments, see [Configuring Deployment Properties for a Target Environment](../configuring-server-environments-for-web-deployment/configuring-deployment-properties-for-a-target-environment.md).
-
 
 ## Conclusion
 

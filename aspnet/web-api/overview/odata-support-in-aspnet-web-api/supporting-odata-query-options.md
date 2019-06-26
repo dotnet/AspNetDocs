@@ -1,10 +1,11 @@
 ---
 uid: web-api/overview/odata-support-in-aspnet-web-api/supporting-odata-query-options
-title: "Supporting OData Query Options in ASP.NET Web API 2 | Microsoft Docs"
+title: "Supporting OData Query Options in ASP.NET Web API 2 - ASP.NET 4.x"
 author: MikeWasson
-description: ""
+description: "Overview with code examples shows the supporting OData Query Options in ASP.NET Web API 2 for ASP.NET 4.x."
 ms.author: riande
 ms.date: 02/04/2013
+ms.custom: seoapril2019
 ms.assetid: 50e6e62b-e72e-4a29-8293-4b67377bd21f
 msc.legacyurl: /web-api/overview/odata-support-in-aspnet-web-api/supporting-odata-query-options
 msc.type: authoredcontent
@@ -12,6 +13,8 @@ msc.type: authoredcontent
 # Supporting OData Query Options in ASP.NET Web API 2
 
 by [Mike Wasson](https://github.com/MikeWasson)
+
+This overview with code examples demonstrates the supporting OData Query Options in ASP.NET Web API 2 for ASP.NET 4.x. 
 
 OData defines parameters that can be used to modify an OData query. The client sends these parameters in the query string of the request URI. For example, to sort the results, a client uses the $orderby parameter:
 
@@ -109,7 +112,6 @@ The value "allpages" tells the server to include the total count in the response
 
 > [!NOTE]
 > Next-page links and inline count both require OData format. The reason is that OData defines special fields in the response body to hold the link and count.
-
 
 For non-OData formats, it is still possible to support next-page links and inline count, by wrapping the query results in a **PageResult&lt;T&gt;** object. However, it requires a bit more code. Here is an example:
 

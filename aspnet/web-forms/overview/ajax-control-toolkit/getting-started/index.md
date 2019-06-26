@@ -13,7 +13,6 @@ msc.type: chapter
 
 > This page describes how to download the Ajax Control Toolkit and how to add its controls to the Visual Studio or Visual Web Developer toolbox.
 
-
 - [Get Started with the AJAX Control Toolkit (C#)](get-started-with-the-ajax-control-toolkit-cs.md)
 - [Using AJAX Control Toolkit Controls and Control Extenders (C#)](using-ajax-control-toolkit-controls-and-control-extenders-cs.md)
 - [Creating a Custom AJAX Control Toolkit Control Extender (C#)](creating-a-custom-ajax-control-toolkit-control-extender-cs.md)

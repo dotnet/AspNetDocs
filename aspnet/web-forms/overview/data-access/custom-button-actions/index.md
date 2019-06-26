@@ -13,6 +13,5 @@ msc.type: chapter
 
 > This short set of tutorials shows how to add buttons to the GridView or DetailsView control that can perform any actions that your application needs.
 
-
 - [Adding and Responding to Buttons to a GridView (C#)](adding-and-responding-to-buttons-to-a-gridview-cs.md)
 - [Adding and Responding to Buttons to a GridView (VB)](adding-and-responding-to-buttons-to-a-gridview-vb.md)

@@ -13,7 +13,6 @@ msc.type: chapter
 
 > This tutorial shows how to use the DynamicPopulate control, which calls a web service and displays the resulting value in a control on the page.
 
-
 - [Dynamically Populating a Control (C#)](dynamically-populating-a-control-cs.md)
 - [Dynamically Populating a Control Using JavaScript Code (C#)](dynamically-populating-a-control-using-javascript-code-cs.md)
 - [Using DynamicPopulate with a User Control And JavaScript (C#)](using-dynamicpopulate-with-a-user-control-and-javascript-cs.md)

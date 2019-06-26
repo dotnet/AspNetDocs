@@ -17,7 +17,6 @@ by [Scott Mitchell](https://twitter.com/ScottOnWriting)
 
 > While the DataList lacks built-in editing and deleting capabilities, in this tutorial we'll see how to create a DataList that supports editing and deleting of its underlying data.
 
-
 ## Introduction
 
 In the [An Overview of Inserting, Updating, and Deleting Data](../editing-inserting-and-deleting-data/an-overview-of-inserting-updating-and-deleting-data-cs.md) tutorial we looked at how to insert, update, and delete data using the application architecture, an ObjectDataSource, and the GridView, DetailsView, and FormView controls. With the ObjectDataSource and these three data Web controls, implementing simple data modification interfaces was a snap and involved merely ticking a checkbox from a smart tag. No code needed to be written.
@@ -28,7 +27,6 @@ In this tutorial we'll see how to create a DataList that supports editing and de
 
 > [!NOTE]
 > Like the DataList, the Repeater control lacks the out of the box functionality for inserting, updating, or deleting. While such functionality can be added, the DataList includes properties and events not found in the Repeater that simplify adding such capabilities. Therefore, this tutorial and future ones that look at editing and deleting will focus strictly on the DataList.
-
 
 ## Step 1: Creating the Editing and Deleting Tutorials Web Pages
 
@@ -44,32 +42,25 @@ Before we start exploring how to update and delete data from a DataList, let s f
 - `ConfirmationOnDelete.aspx`
 - `UserLevelAccess.aspx`
 
-
 ![Add the ASP.NET Pages for the Tutorials](an-overview-of-editing-and-deleting-data-in-the-datalist-vb/_static/image1.png)
 
 **Figure 1**: Add the ASP.NET Pages for the Tutorials
 
-
 Like in the other folders, `Default.aspx` in the `EditDeleteDataList` folder lists the tutorials in its section. Recall that the `SectionLevelTutorialListing.ascx` User Control provides this functionality. Therefore, add this User Control to `Default.aspx` by dragging it from the Solution Explorer onto the page s Design view.
-
 
 [![Add the SectionLevelTutorialListing.ascx User Control to Default.aspx](an-overview-of-editing-and-deleting-data-in-the-datalist-vb/_static/image3.png)](an-overview-of-editing-and-deleting-data-in-the-datalist-vb/_static/image2.png)
 
 **Figure 2**: Add the `SectionLevelTutorialListing.ascx` User Control to `Default.aspx` ([Click to view full-size image](an-overview-of-editing-and-deleting-data-in-the-datalist-vb/_static/image4.png))
 
-
 Lastly, add the pages as entries to the `Web.sitemap` file. Specifically, add the following markup after the Master/Detail Reports with the DataList and Repeater `<siteMapNode>`:
-
 
 [!code-xml[Main](an-overview-of-editing-and-deleting-data-in-the-datalist-vb/samples/sample1.xml)]
 
 After updating `Web.sitemap`, take a moment to view the tutorials website through a browser. The menu on the left now includes items for the DataList editing and deleting tutorials.
 
-
 ![The Site Map Now Includes Entries for the DataList Editing and Deleting Tutorials](an-overview-of-editing-and-deleting-data-in-the-datalist-vb/_static/image5.png)
 
 **Figure 3**: The Site Map Now Includes Entries for the DataList Editing and Deleting Tutorials
-
 
 ## Step 2: Examining Techniques for Updating and Deleting Data
 
@@ -100,49 +91,39 @@ In this tutorial we will create a DataList that lists product information and, f
 
 Start by opening the `Basics.aspx` page in the `EditDeleteDataList` folder and, from the Design view, add a DataList to the page. Next, from the DataList s smart tag, create a new ObjectDataSource. Since we are working with product data, configure it to use the `ProductsBLL` class. To retrieve *all* products, choose the `GetProducts()` method in the SELECT tab.
 
-
 [![Configure the ObjectDataSource to Use the ProductsBLL Class](an-overview-of-editing-and-deleting-data-in-the-datalist-vb/_static/image7.png)](an-overview-of-editing-and-deleting-data-in-the-datalist-vb/_static/image6.png)
 
 **Figure 4**: Configure the ObjectDataSource to Use the `ProductsBLL` Class ([Click to view full-size image](an-overview-of-editing-and-deleting-data-in-the-datalist-vb/_static/image8.png))
-
 
 [![Return the Product Information Using the GetProducts() Method](an-overview-of-editing-and-deleting-data-in-the-datalist-vb/_static/image10.png)](an-overview-of-editing-and-deleting-data-in-the-datalist-vb/_static/image9.png)
 
 **Figure 5**: Return the Product Information Using the `GetProducts()` Method ([Click to view full-size image](an-overview-of-editing-and-deleting-data-in-the-datalist-vb/_static/image11.png))
 
-
 The DataList, like the GridView, is not designed for inserting new data; therefore, select the (None) option from the drop-down list in the INSERT tab. Also choose (None) for the UPDATE and DELETE tabs since the updates and deletes will be performed programmatically through the BLL.
-
 
 [![Confirm that the Drop-Down Lists in the ObjectDataSource s INSERT, UPDATE, and DELETE Tabs are Set to (None)](an-overview-of-editing-and-deleting-data-in-the-datalist-vb/_static/image13.png)](an-overview-of-editing-and-deleting-data-in-the-datalist-vb/_static/image12.png)
 
 **Figure 6**: Confirm that the Drop-Down Lists in the ObjectDataSource s INSERT, UPDATE, and DELETE Tabs are Set to (None) ([Click to view full-size image](an-overview-of-editing-and-deleting-data-in-the-datalist-vb/_static/image14.png))
-
 
 After configuring the ObjectDataSource, click Finish, returning to the Designer. As we ve seen in past examples, when completing the ObjectDataSource configuration, Visual Studio automatically creates an `ItemTemplate` for the DropDownList, displaying each of the data fields. Replace this `ItemTemplate` with one that displays only the product s name and price. Also, set the `RepeatColumns` property to 2.
 
 > [!NOTE]
 > As discussed in the *Overview of Inserting, Updating, and Deleting Data* tutorial, when modifying data using the ObjectDataSource our architecture requires that we remove the `OldValuesParameterFormatString` property from the ObjectDataSource s declarative markup (or reset it to its default value, `{0}`). In this tutorial, however, we are using the ObjectDataSource only for retrieving data. Therefore, we do not need to modify the ObjectDataSource s `OldValuesParameterFormatString` property value (although it doesn t hurt to do so).
 
-
 After replacing the default DataList `ItemTemplate` with a customized one, the declarative markup on your page should look similar to the following:
-
 
 [!code-aspx[Main](an-overview-of-editing-and-deleting-data-in-the-datalist-vb/samples/sample2.aspx)]
 
 Take a moment to view our progress through a browser. As Figure 7 shows, the DataList displays the product name and unit price for each product in two columns.
 
-
 [![The Products Names and Prices are Displayed in a Two-Column DataList](an-overview-of-editing-and-deleting-data-in-the-datalist-vb/_static/image16.png)](an-overview-of-editing-and-deleting-data-in-the-datalist-vb/_static/image15.png)
 
 **Figure 7**: The Products Names and Prices are Displayed in a Two-Column DataList ([Click to view full-size image](an-overview-of-editing-and-deleting-data-in-the-datalist-vb/_static/image17.png))
 
-
 > [!NOTE]
 > The DataList has a number of properties that are required for the updating and deleting process, and these values are stored in view state. Therefore, when building a DataList that supports editing or deleting data, it is essential that the DataList s view state be enabled.  
 >   
->  The astute reader may recall that we were able to disable view state when creating editable GridViews, DetailsViews, and FormViews. This is because ASP.NET 2.0 Web controls can include *control state*, which is state persisted across postbacks like view state, but deemed essential.
-
+> The astute reader may recall that we were able to disable view state when creating editable GridViews, DetailsViews, and FormViews. This is because ASP.NET 2.0 Web controls can include *control state*, which is state persisted across postbacks like view state, but deemed essential.
 
 Disabling view state in the GridView merely omits trivial state information, but maintains the control state (which includes the state necessary for editing and deleting). The DataList, having been created in the ASP.NET 1.x timeframe, does not utilize control state and therefore must have view state enabled. See [Control State vs. View State](https://msdn.microsoft.com/library/1whwt1k7.aspx) for more information on the purpose of control state and how it differs from view state.
 
@@ -154,30 +135,24 @@ The DataList, on the other hand, renders its items using templates. Read-only it
 
 The `EditItemTemplate` can be created either declaratively or through the Designer (by selecting the Edit Templates option from the DataList s smart tag). To use the Edit Templates option, first click the Edit Templates link in the smart tag and then select the `EditItemTemplate` item from the drop-down list.
 
-
 [![Opt to Work with the DataList s EditItemTemplate](an-overview-of-editing-and-deleting-data-in-the-datalist-vb/_static/image19.png)](an-overview-of-editing-and-deleting-data-in-the-datalist-vb/_static/image18.png)
 
 **Figure 8**: Opt to Work with the DataList s `EditItemTemplate` ([Click to view full-size image](an-overview-of-editing-and-deleting-data-in-the-datalist-vb/_static/image20.png))
 
-
 Next, type in Product name: and Price: and then drag two TextBox controls from the Toolbox into the `EditItemTemplate` interface on the Designer. Set the TextBoxes `ID` properties to `ProductName` and `UnitPrice`.
-
 
 [![Add a TextBox for the Product s Name and Price](an-overview-of-editing-and-deleting-data-in-the-datalist-vb/_static/image22.png)](an-overview-of-editing-and-deleting-data-in-the-datalist-vb/_static/image21.png)
 
 **Figure 9**: Add a TextBox for the Product s Name and Price ([Click to view full-size image](an-overview-of-editing-and-deleting-data-in-the-datalist-vb/_static/image23.png))
-
 
 We need to bind the corresponding product data field values to the `Text` properties of the two TextBoxes. From the TextBoxes smart tags, click on the Edit DataBindings link and then associate the appropriate data field with the `Text` property, as shown in Figure 10.
 
 > [!NOTE]
 > When binding the `UnitPrice` data field to the price TextBox s `Text` field, you may format it as a currency value (`{0:C}`), a general number (`{0:N}`), or leave it unformatted.
 
-
 ![Bind the ProductName and UnitPrice Data Fields to the Text Properties of the TextBoxes](an-overview-of-editing-and-deleting-data-in-the-datalist-vb/_static/image24.png)
 
 **Figure 10**: Bind the `ProductName` and `UnitPrice` Data Fields to the `Text` Properties of the TextBoxes
-
 
 Notice how the Edit DataBindings dialog box in Figure 10 does *not* include the Two-way databinding checkbox that is present when editing a TemplateField in the GridView or DetailsView, or a template in the FormView. The two-way databinding feature allowed the value entered into the input Web control to be automatically assigned to the corresponding ObjectDataSource s `InsertParameters` or `UpdateParameters` when inserting or updating data. The DataList does not support two-way databinding as we'll see later on in this tutorial, after the user makes her changes and is ready to update the data, we will need to programmatically access these TextBoxes `Text` properties and pass in their values to the appropriate `UpdateProduct` method in the `ProductsBLL` class.
 
@@ -191,14 +166,11 @@ Keep in mind that these events are raised *in addition to* the `ItemCommand` eve
 
 Add to the `EditItemTemplate` two Button Web controls, one whose `CommandName` is set to Update and the other s set to Cancel. After adding these two Button Web controls the Designer should look similar to the following:
 
-
 [![Add Update and Cancel Buttons to the EditItemTemplate](an-overview-of-editing-and-deleting-data-in-the-datalist-vb/_static/image26.png)](an-overview-of-editing-and-deleting-data-in-the-datalist-vb/_static/image25.png)
 
 **Figure 11**: Add Update and Cancel Buttons to the `EditItemTemplate` ([Click to view full-size image](an-overview-of-editing-and-deleting-data-in-the-datalist-vb/_static/image27.png))
 
-
 With the `EditItemTemplate` complete your DataList s declarative markup should look similar to the following:
-
 
 [!code-aspx[Main](an-overview-of-editing-and-deleting-data-in-the-datalist-vb/samples/sample3.aspx)]
 
@@ -208,11 +180,9 @@ At this point our DataList has an editing interface defined via its `EditItemTem
 
 After you have added this Edit button, take a moment to view the page through a browser. With this addition, each product listing should include an Edit button.
 
-
 [![Add Update and Cancel Buttons to the EditItemTemplate](an-overview-of-editing-and-deleting-data-in-the-datalist-vb/_static/image29.png)](an-overview-of-editing-and-deleting-data-in-the-datalist-vb/_static/image28.png)
 
 **Figure 12**: Add Update and Cancel Buttons to the `EditItemTemplate` ([Click to view full-size image](an-overview-of-editing-and-deleting-data-in-the-datalist-vb/_static/image30.png))
-
 
 Clicking the button causes a postback, but does *not* bring the product listing into edit mode. To make the product editable, we need to:
 
@@ -221,18 +191,15 @@ Clicking the button causes a postback, but does *not* bring the product listing 
 
 Since the DataList s `EditCommand` event is fired when the Edit button is clicked, create an `EditCommand` event handler with the following code:
 
-
 [!code-vb[Main](an-overview-of-editing-and-deleting-data-in-the-datalist-vb/samples/sample4.vb)]
 
 The `EditCommand` event handler is passed in an object of type `DataListCommandEventArgs` as its second input parameter, which includes a reference to the `DataListItem` whose Edit button was clicked (`e.Item`). The event handler first sets the DataList s `EditItemIndex` to the `ItemIndex` of the editable `DataListItem` and then rebinds the data to the DataList by calling the DataList s `DataBind()` method.
 
 After adding this event handler, revisit the page in a browser. Clicking the Edit button now makes the clicked product editable (see Figure 13).
 
-
 [![Clicking the Edit Button Makes the Product Editable](an-overview-of-editing-and-deleting-data-in-the-datalist-vb/_static/image32.png)](an-overview-of-editing-and-deleting-data-in-the-datalist-vb/_static/image31.png)
 
 **Figure 13**: Clicking the Edit Button Makes the Product Editable ([Click to view full-size image](an-overview-of-editing-and-deleting-data-in-the-datalist-vb/_static/image33.png))
-
 
 ## Step 6: Saving the User s Changes
 
@@ -244,7 +211,6 @@ To have the DataList render all of its items in the read-only mode, we need to:
 2. Rebind the data to the DataList. Since no `DataListItem` `ItemIndex` es correspond to the DataList s `EditItemIndex`, the entire DataList will be rendered in a read-only mode.
 
 These steps can be accomplished with the following event handler code:
-
 
 [!code-vb[Main](an-overview-of-editing-and-deleting-data-in-the-datalist-vb/samples/sample5.vb)]
 
@@ -263,7 +229,6 @@ To get the updated product name and price, we need to use the `FindControl` meth
 
 The following code implements the four steps:
 
-
 [!code-vb[Main](an-overview-of-editing-and-deleting-data-in-the-datalist-vb/samples/sample6.vb)]
 
 The event handler starts by reading in the edited product s `ProductID` from the `DataKeys` collection. Next, the two TextBoxes in the `EditItemTemplate` are referenced and their `Text` properties stored in local variables, `productNameValue` and `unitPriceValue`. We use the `Decimal.Parse()` method to read the value from the `UnitPrice` TextBox so that if the value entered has a currency symbol, it can still be correctly converted into a `Decimal` value.
@@ -271,26 +236,21 @@ The event handler starts by reading in the edited product s `ProductID` from the
 > [!NOTE]
 > The values from the `ProductName` and `UnitPrice` TextBoxes are only assigned to the productNameValue and unitPriceValue variables if the TextBoxes Text properties have a value specified. Otherwise, a value of `Nothing` is used for the variables, which has the effect of updating the data with a database `NULL` value. That is, our code treats converts empty strings to database `NULL` values, which is the default behavior of the editing interface in the GridView, DetailsView, and FormView controls.
 
-
 After reading the values, the `ProductsBLL` class s `UpdateProduct` method is called, passing in the product s name, price, and `ProductID`. The event handler completes by returning the DataList to its pre-editing state using the exact same logic as in the `CancelCommand` event handler.
 
 With the `EditCommand`, `CancelCommand`, and `UpdateCommand` event handlers complete, a visitor can edit the name and price of a product. Figures 14-16 show this editing workflow in action.
-
 
 [![When First Visiting the Page, All Products are in Read-Only Mode](an-overview-of-editing-and-deleting-data-in-the-datalist-vb/_static/image35.png)](an-overview-of-editing-and-deleting-data-in-the-datalist-vb/_static/image34.png)
 
 **Figure 14**: When First Visiting the Page, All Products are in Read-Only Mode ([Click to view full-size image](an-overview-of-editing-and-deleting-data-in-the-datalist-vb/_static/image36.png))
 
-
 [![To Update a Product s Name or Price, Click the Edit Button](an-overview-of-editing-and-deleting-data-in-the-datalist-vb/_static/image38.png)](an-overview-of-editing-and-deleting-data-in-the-datalist-vb/_static/image37.png)
 
 **Figure 15**: To Update a Product s Name or Price, Click the Edit Button ([Click to view full-size image](an-overview-of-editing-and-deleting-data-in-the-datalist-vb/_static/image39.png))
 
-
 [![After Changing the Value, Click Update to Return to the Read-Only Mode](an-overview-of-editing-and-deleting-data-in-the-datalist-vb/_static/image41.png)](an-overview-of-editing-and-deleting-data-in-the-datalist-vb/_static/image40.png)
 
 **Figure 16**: After Changing the Value, Click Update to Return to the Read-Only Mode ([Click to view full-size image](an-overview-of-editing-and-deleting-data-in-the-datalist-vb/_static/image42.png))
-
 
 ## Step 7: Adding Delete Capabilities
 
@@ -306,11 +266,9 @@ When clicked, a Button whose `CommandName` is Edit, Update, or Cancel raises the
 
 Add a Delete button next to the Edit button in the `ItemTemplate`, setting its `CommandName` property to Delete. After adding this Button control your DataList s `ItemTemplate` declarative syntax should look like:
 
-
 [!code-aspx[Main](an-overview-of-editing-and-deleting-data-in-the-datalist-vb/samples/sample7.aspx)]
 
 Next, create an event handler for the DataList s `DeleteCommand` event, using the following code:
-
 
 [!code-vb[Main](an-overview-of-editing-and-deleting-data-in-the-datalist-vb/samples/sample8.vb)]
 

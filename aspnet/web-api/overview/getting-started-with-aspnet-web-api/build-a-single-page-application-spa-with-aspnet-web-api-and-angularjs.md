@@ -1,10 +1,11 @@
 ---
 uid: web-api/overview/getting-started-with-aspnet-web-api/build-a-single-page-application-spa-with-aspnet-web-api-and-angularjs
-title: "Hands On Lab: Build a Single Page Application (SPA) with ASP.NET Web API and Angular.js | Microsoft Docs"
+title: "Hands On Lab: Build a Single Page Application (SPA) with ASP.NET Web API and Angular.js - ASP.NET 4.x"
 author: rick-anderson
-description: "In traditional web applications, the client (browser) initiates the communication with the server by requesting a page. The server then processes the request..."
+description: "Step by step code: Build a Single Page Application (SPA) with ASP.NET Web API and Angular.js for ASP.NET 4.x."
 ms.author: riande
 ms.date: 09/30/2015
+ms.custom: seoapril2019
 ms.assetid: 719727b7-bef3-45ad-bfe9-ba5bcdb2305f
 msc.legacyurl: /web-api/overview/getting-started-with-aspnet-web-api/build-a-single-page-application-spa-with-aspnet-web-api-and-angularjs
 msc.type: authoredcontent
@@ -15,16 +16,18 @@ by [Web Camps Team](https://twitter.com/webcamps)
 
 [Download Web Camps Training Kit](https://aka.ms/webcamps-training-kit)
 
-> In traditional web applications, the client (browser) initiates the communication with the server by requesting a page. The server then processes the request and sends the HTML of the page to the client. In subsequent interactions with the page –e.g. the user navigates to a link or submits a form with data– a new request is sent to the server, and the flow starts again: the server processes the request and sends a new page to the browser in response to the new action requested by the client.
+This hands on lab shows you how to build a Single Page Application (SPA) with ASP.NET Web API and Angular.js for ASP.NET 4.x.
+
+In this hand-on lab, you will take advantage of those technologies to implement Geek Quiz, a trivia website based on the SPA concept. You will first implement the service layer with ASP.NET Web API to expose the required endpoints to retrieve the quiz questions and store the answers. Then, you will build a rich and responsive UI using AngularJS and CSS3 transformation effects.
+
+In traditional web applications, the client (browser) initiates the communication with the server by requesting a page. The server then processes the request and sends the HTML of the page to the client. In subsequent interactions with the page –e.g. the user navigates to a link or submits a form with data– a new request is sent to the server, and the flow starts again: the server processes the request and sends a new page to the browser in response to the new action requested by the client.
 > 
 > In Single-Page Applications (SPAs) the entire page is loaded in the browser after the initial request, but subsequent interactions take place through Ajax requests. This means that the browser has to update only the portion of the page that has changed; there is no need to reload the entire page. The SPA approach reduces the time taken by the application to respond to user actions, resulting in a more fluid experience.
 > 
 > The architecture of a SPA involves certain challenges that are not present in traditional web applications. However, emerging technologies like ASP.NET Web API, JavaScript frameworks like AngularJS and new styling features provided by CSS3 make it really easy to design and build SPAs.
 > 
-> In this hand-on lab, you will take advantage of those technologies to implement Geek Quiz, a trivia website based on the SPA concept. You will first implement the service layer with ASP.NET Web API to expose the required endpoints to retrieve the quiz questions and store the answers. Then, you will build a rich and responsive UI using AngularJS and CSS3 transformation effects.
 > 
 > All sample code and snippets are included in the Web Camps Training Kit, available at [https://aka.ms/webcamps-training-kit](https://aka.ms/webcamps-training-kit).
-
 
 ## Overview
 
@@ -56,7 +59,6 @@ In order to run the exercises in this hands-on lab, you will need to set up your
 > [!NOTE]
 > Make sure you have checked all the dependencies for this lab before running the setup.
 
-
 <a id="CodeSnippets"></a>
 ### Using the Code Snippets
 
@@ -64,7 +66,6 @@ Throughout the lab document, you will be instructed to insert code blocks. For y
 
 > [!NOTE]
 > Each exercise is accompanied by a starting solution located in the **Begin** folder of the exercise that allows you to follow each exercise independently of the others. Please be aware that the code snippets that are added during an exercise are missing from these starting solutions and may not work until you have completed the exercise. Inside the source code for an exercise, you will also find an **End** folder containing a Visual Studio solution with the code that results from completing the steps in the corresponding exercise. You can use these solutions as guidance if you need additional help as you work through this hands-on lab.
-
 
 ---
 
@@ -80,7 +81,6 @@ Estimated time to complete this lab: **60 minutes**
 
 > [!NOTE]
 > When you first start Visual Studio, you must select one of the predefined settings collections. Each predefined collection is designed to match a particular development style and determines window layouts, editor behavior, IntelliSense code snippets, and dialog box options. The procedures in this lab describe the actions necessary to accomplish a given task in Visual Studio when using the **General Development Settings** collection. If you choose a different settings collection for your development environment, there may be differences in the steps that you should take into account.
-
 
 <a id="Exercise1"></a>
 ### Exercise 1: Creating a Web API
@@ -241,7 +241,6 @@ In this task you will verify that the Web API service you built in the previous 
 > 
 > ![Internet Explorer option](build-a-single-page-application-spa-with-aspnet-web-api-and-angularjs/_static/image9.png)
 
-
 1. Press **F5** to run the solution. The **Log in** page should appear in the browser.
 
     > [!NOTE]
@@ -299,7 +298,6 @@ You will start by installing AngularJS from Visual Studio's Package Manager Cons
 
 > [!NOTE]
 > For more information about AngularJS, refer to [[http://angularjs.org/](http://angularjs.org/)](http://angularjs.org/).
-
 
 1. Open **Visual Studio Express 2013 for Web** and open the **GeekQuiz.sln** solution located in the **Source/Ex2-CreatingASPAInterface/Begin** folder. Alternatively, you can continue with the solution that you obtained in the previous exercise.
 2. Open the **Package Manager Console** from **Tools** > **NuGet Package Manager**. Type the following command to install the **AngularJS.Core** NuGet package.

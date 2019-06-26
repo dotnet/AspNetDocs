@@ -32,7 +32,6 @@ by [Tom FitzMacken](https://github.com/tfitzmac)
 > 
 > This tutorial also works with ASP.NET Web Pages 2.
 
-
 ## Overview of Helpers
 
 If you need to perform the same tasks on different pages in your site, you can use a helper. ASP.NET Web Pages includes a number of helpers, and there are many more that you can download and install. (A list of the built-in helpers in ASP.NET Web Pages is listed in the [ASP.NET API Quick Reference](https://go.microsoft.com/fwlink/?LinkId=202907).) If none of the existing helpers meet your needs, you can create your own helper.
@@ -66,10 +65,9 @@ This procedure shows you how to create the helper that creates the note, as just
     To call the helper you created, use `@` followed by the file name where the helper is, a dot, and then the helper name. (If you had multiple folders in the *App\_Code* folder, you could use the syntax `@FolderName.FileName.HelperName` to call your helper within any nested folder level). The text that you add in quotation marks within the parentheses is the text that the helper will display as part of the note in the web page.
 3. Save the page and run it in a browser. The helper generates the note item right where you called the helper: between the two paragraphs.
 
-    ![Screenshot showing the page in the browser and how the helper generated markup that puts a box around the specified text.](creating-and-using-a-helper-in-an-aspnet-web-pages-site/_static/image1.jpg)
+    ![Screenshot showing the page in the browser and how the helper generated markup that puts a box around the specified text.](creating-and-using-a-helper-in-an-aspnet-web-pages-site/_static/image1.png)
 
 ## Additional Resources
-
 
 [Horizontal menu as a Razor helper](http://mikepope.com/blog/DisplayBlog.aspx?permalink=2341). This blog entry by Mike Pope shows how to create a horizontal menu as a helper using markup, CSS, and code.
 

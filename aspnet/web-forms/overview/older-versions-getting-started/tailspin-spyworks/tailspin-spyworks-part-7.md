@@ -17,7 +17,6 @@ by [Joe Stagner](https://github.com/JoeStagner)
 > 
 > This tutorial series details all of the steps taken to build the Tailspin Spyworks sample application. Part 7 adds additional features, such as account review, product reviews, and "popular items" and "also purchased" user controls.
 
-
 ## <a id="_Toc260221673"></a>  Adding Features
 
 Though users can browse our catalog, place items in their shopping cart, and complete the checkout process, there are a number of supporting features that we will include to improve our site.
@@ -35,11 +34,11 @@ Though users can browse our catalog, place items in their shopping cart, and com
 
 In the "Account" folder create two .aspx pages one named OrderList.aspx and the other named OrderDetails.aspx
 
-OrderList.aspx will leverage the GridView and EntityDataSoure controls much as we have previously.
+OrderList.aspx will leverage the GridView and EntityDataSource controls much as we have previously.
 
 [!code-aspx[Main](tailspin-spyworks-part-7/samples/sample1.aspx)]
 
-The EntityDataSoure selects records from the Orders table filtered on the UserName (see the WhereParameter) which we set in a session variable when the user log's in.
+The EntityDataSource selects records from the Orders table filtered on the UserName (see the WhereParameter) which we set in a session variable when the user log's in.
 
 Note also these parameters in the HyperlinkField of the GridView:
 
@@ -137,7 +136,7 @@ Note also this important line at the top of our control's markup.
 
 Since the most popular items won't be changing on a minute to minute basis we can add a aching directive to improve the performance of our application. This directive will cause the controls code to only be executed when the cached output of the control expires. Otherwise, the cached version of the control's output will be used.
 
-Now all we have to do is include our new control in our Default.aspc page.
+Now all we have to do is include our new control in our Default.aspx page.
 
 Use drag and drop to place an instance of the control in the open column of our Default form.
 

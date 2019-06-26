@@ -13,6 +13,5 @@ msc.type: chapter
 
 > This tutorial shows how to use the ConfirmButton control, which displays a Yes/No popup when the user clicks a button.
 
-
 - [Using a ConfirmButton In a Repeater (C#)](using-a-confirmbutton-in-a-repeater-cs.md)
 - [Using a ConfirmButton In a Repeater (VB)](using-a-confirmbutton-in-a-repeater-vb.md)

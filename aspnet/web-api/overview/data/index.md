@@ -1,10 +1,11 @@
 ---
 uid: web-api/overview/data/index
-title: "Working with Data in ASP.NET Web API | Microsoft Docs"
+title: "Working with Data in ASP.NET Web API - ASP.NET 4.x"
 author: rick-anderson
-description: "How to program CRUD (create, read, update, delete) operations in Web API."
+description: "How to program CRUD (create, read, update, delete) operations in Web API for ASP.NET 4.x."
 ms.author: riande
 ms.date: 10/23/2014
+ms.custom: seoapril2019
 ms.assetid: 995cbe38-7dbd-4c36-a5d0-a761944c7636
 msc.legacyurl: /web-api/overview/data
 msc.type: chapter
@@ -12,7 +13,6 @@ msc.type: chapter
 # Working with Data in ASP.NET Web API
 
 > How to program CRUD (create, read, update, delete) operations in Web API.
-
 
 - [Using Web API 2 with Entity Framework 6](using-web-api-with-entity-framework/index.md)
 

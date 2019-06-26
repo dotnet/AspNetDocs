@@ -19,7 +19,6 @@ by [Jon Galloway](https://github.com/jongalloway)
 > 
 > This tutorial series details all of the steps taken to build the ASP.NET MVC Music Store sample application. Part 4 covers Models and Data Access.
 
-
 So far, we've just been passing "dummy data" from our Controllers to our View templates. Now we're ready to hook up a real database. In this tutorial we'll be covering how to use SQL Server Compact Edition (often called SQL CE) as our database engine. SQL CE is a free, embedded, file based database that doesn't require any installation or configuration, which makes it really convenient for local development.
 
 ## Database access with Entity Framework Code-First

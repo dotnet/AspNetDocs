@@ -6,7 +6,6 @@ description: "Introduction to ASP.NET, a free framework for creating websites, w
 ms.assetid: 3a309468-f1ca-4e51-b9c3-536af79d7a8b
 ms.author: riande
 ms.date: 03/12/2010
-ms.technology: aspnet
 msc.legacyurl:
 msc.type: content
 ---
@@ -96,10 +95,6 @@ WebHooks is a lightweight HTTP pattern providing a simple pub/sub model for wiri
 WebHooks are exposed by a large number of services including Dropbox, GitHub, Instagram, MailChimp, PayPal, Slack, Trello, and many more. For example, a WebHook can indicate that a file has changed in Dropbox, or a code change has been committed in GitHub, or a payment has been initiated in PayPal, or a card has been created in Trello.
 
 [Learn more about WebHooks](webhooks/index.md)
-
-
-
-
 
 <!--
 Create Deployment TOC based on https://www.asp.net/aspnet/overview/deployment

@@ -44,7 +44,7 @@ protected void AddProducts_Click(object sender, EventArgs e)
         // Add the new products to the database using a transaction
         ProductsBLL productsAPI = new ProductsBLL();
         productsAPI.UpdateWithTransaction(products);
-        // Rebind the data to the grid so that the producst just added are displayed
+        // Rebind the data to the grid so that the products just added are displayed
         ProductsGrid.DataBind();
         // Display a confirmation (don't use the Warning CSS class, though)
         StatusLabel.CssClass = string.Empty;

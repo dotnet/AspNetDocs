@@ -13,7 +13,6 @@ msc.type: chapter
 
 > Documentation on how to use the SignalR Hubs API. For authorization API, see the Security tab.
 
-
 - [Hubs API Guide - Server (C#)](hubs-api-guide-server.md)
 - [Hubs API Guide - JavaScript Client](hubs-api-guide-javascript-client.md)
 - [Hubs API Guide - .NET Client (C#)](hubs-api-guide-net-client.md)

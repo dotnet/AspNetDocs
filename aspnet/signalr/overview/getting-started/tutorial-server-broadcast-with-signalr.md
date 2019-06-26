@@ -35,7 +35,6 @@ In this tutorial, you:
 > [!IMPORTANT]
 > If you don't want to work through the steps of building the application, you can install the SignalR.Sample package in a new Empty ASP.NET Web Application project. If you install the NuGet package without performing the steps in this tutorial, you must follow the instructions in the *readme.txt* file. To run the package you need to add an OWIN startup class which calls the `ConfigureSignalR` method in the installed package. You will receive an error if you do not add the OWIN startup class. See the [Install the StockTicker sample](#install-the-stockticker-sample) section of this article.
 
-
 ## Prerequisites
 
 * [Visual Studio 2017](https://visualstudio.microsoft.com/downloads/) with the **ASP.NET and web development** workload.

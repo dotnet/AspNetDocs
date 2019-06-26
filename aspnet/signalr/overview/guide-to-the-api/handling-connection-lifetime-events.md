@@ -11,7 +11,6 @@ msc.type: authoredcontent
 ---
 # Understanding and Handling Connection Lifetime Events in SignalR
 
-
 [!INCLUDE [Consider ASP.NET Core SignalR](~/includes/signalr/signalr-version-disambiguation.md)]
 
 > This article provides an overview of the SignalR connection, reconnection, and disconnection events that you can handle, and timeout and keepalive settings that you can configure.
@@ -142,7 +141,6 @@ Some network environments deliberately close idle connections, and another funct
 >
 > **Important**: The sequence of events described here is not guaranteed. SignalR makes every attempt to raise connection lifetime events in a predictable manner according to this scheme, but there are many variations of network events and many ways in which underlying communications frameworks such as transport APIs handle them. For example, the `Reconnected` event might not be raised when the client reconnects, or the `OnConnected` handler on the server might run when the attempt to establish a connection is unsuccessful. This topic describes only the effects that would normally be produced by certain typical circumstances.
 
-
 <a id="clientdisconnect"></a>
 
 ### Client disconnection scenarios
@@ -241,7 +239,6 @@ SignalR version 2 does not have a built-in server API for disconnecting clients.
 
 > [!WARNING]
 > Security - Neither this method for disconnecting clients nor the proposed built-in API will address the scenario of hacked clients that are running malicious code, since the clients could reconnect or the hacked code might remove the `stopClient` method or change what it does. The appropriate place to implement stateful denial-of-service (DOS) protection is not in the framework or the server layer, but rather in front-end infrastructure.
-
 
 <a id="detectingreasonfordisconnection"></a>
 ## Detecting the reason for a disconnection

@@ -13,7 +13,6 @@ msc.type: chapter
 
 > How to perform a variety of common tasks.
 
-
 - [Learn the Tips and Tricks of Experts](how-do-i-learn-the-tips-and-tricks-of-experts.md)
 - [Create a Multi-Lingual Site with Localization](how-do-i-create-a-multi-lingual-site-with-localization.md)
 - [Make use of Caching](how-do-i-make-use-of-caching.md)

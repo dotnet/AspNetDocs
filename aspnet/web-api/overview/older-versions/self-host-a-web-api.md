@@ -1,10 +1,11 @@
 ---
 uid: web-api/overview/older-versions/self-host-a-web-api
-title: "Self-Host ASP.NET Web API 1 (C#) | Microsoft Docs"
+title: "Self-Host ASP.NET Web API 1 (C#) - ASP.NET 4.x"
 author: MikeWasson
-description: "ASP.NET Web API does not require IIS. You can self-host a web API in your own host process. This tutorial shows how to host a web API inside a console applic..."
+description: "Tutorial with code shows how to host a web API inside a console application."
 ms.author: riande
 ms.date: 01/26/2012
+ms.custom: seoapril2019
 ms.assetid: be5ab1e2-4140-4275-ac59-ca82a1bac0c1
 msc.legacyurl: /web-api/overview/older-versions/self-host-a-web-api
 msc.type: authoredcontent
@@ -13,7 +14,7 @@ msc.type: authoredcontent
 
 by [Mike Wasson](https://github.com/MikeWasson)
 
-> ASP.NET Web API does not require IIS. You can self-host a web API in your own host process. This tutorial shows how to host a web API inside a console application.
+> This tutorial shows how to host a web API inside a console application. ASP.NET Web API does not require IIS. You can self-host a web API in your own host process. 
 > 
 > **New applications should use OWIN to self-host Web API.** See [Use OWIN to Self-Host ASP.NET Web API 2](../hosting-aspnet-web-api/use-owin-to-self-host-web-api.md).
 > 
@@ -22,7 +23,6 @@ by [Mike Wasson](https://github.com/MikeWasson)
 > 
 > - Web API 1
 > - Visual Studio 2012
-
 
 ## Create the Console Application Project
 

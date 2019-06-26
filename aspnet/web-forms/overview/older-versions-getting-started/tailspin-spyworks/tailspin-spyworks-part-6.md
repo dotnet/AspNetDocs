@@ -17,7 +17,6 @@ by [Joe Stagner](https://github.com/JoeStagner)
 > 
 > This tutorial series details all of the steps taken to build the Tailspin Spyworks sample application. Part 6 adds ASP.NET Membership.
 
-
 ## <a id="_Toc260221672"></a>  Working with ASP.NET Membership
 
 ![](tailspin-spyworks-part-6/_static/image1.png)
@@ -93,7 +92,6 @@ SubmitOrder will:
 - Take all the line items in the shopping cart and use them to create a new Order Record and the associated OrderDetails records.
 - Calculate Shipping Date.
 - Clear the shopping cart.
-
 
 [!code-csharp[Main](tailspin-spyworks-part-6/samples/sample10.cs)]
 

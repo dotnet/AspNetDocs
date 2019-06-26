@@ -15,7 +15,6 @@ by [Rick Anderson]((https://twitter.com/RickAndMSFT))
 
 > Bundling and minification are two techniques you can use in ASP.NET 4.5 to improve request load time. Bundling and minification improves load time by reducing the number of requests to the server and reducing the size of requested assets (such as CSS and JavaScript.)
 
-
 Most of the current major browsers limit the number of [simultaneous connections](http://www.browserscope.org/?category=network) per each hostname to six. That means that while six requests are being processed, additional requests for assets on a host will be queued by the browser. In the image below, the IE F12 developer tools network tabs shows the timing for assets required by the About view of a sample application.
 
 ![B/M](bundling-and-minification/_static/image1.png)
@@ -90,7 +89,6 @@ To enable bundling and minification, set the `debug` value to "false". You can o
 
 > [!NOTE]
 > Unless `EnableOptimizations` is `true` or the debug attribute in the [compilation Element](https://msdn.microsoft.com/library/s10awwz0.aspx)  in the *Web.config* file is set to `false`, files will not be bundled or minified. Additionally, the .min version of files will not be used, the full debug versions will be selected. `EnableOptimizations` overrides the debug attribute in the [compilation Element](https://msdn.microsoft.com/library/s10awwz0.aspx)  in the *Web.config* file
-
 
 ## Using Bundling and Minification with ASP.NET Web Forms and Web Pages
 

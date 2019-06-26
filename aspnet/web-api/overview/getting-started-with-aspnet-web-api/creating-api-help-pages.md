@@ -1,10 +1,11 @@
 ---
 uid: web-api/overview/getting-started-with-aspnet-web-api/creating-api-help-pages
-title: "Creating Help Pages for ASP.NET Web API | Microsoft Docs"
+title: "Creating Help Pages for ASP.NET Web API - ASP.NET 4.x"
 author: MikeWasson
-description: ""
+description: "This tutorial with code shows how to create help pages for ASP.NET Web API in ASP.NET 4.x."
 ms.author: riande
 ms.date: 04/01/2013
+ms.custom: seoapril2019
 ms.assetid: 0150e67b-c50d-4613-83ea-7b4ef8cacc5a
 msc.legacyurl: /web-api/overview/getting-started-with-aspnet-web-api/creating-api-help-pages
 msc.type: authoredcontent
@@ -13,9 +14,9 @@ msc.type: authoredcontent
 
 by [Mike Wasson](https://github.com/MikeWasson)
 
-When you create a web API, it is often useful to create a help page, so that other developers will know how to call your API. You could create all of the documentation manually, but it is better to autogenerate as much as possible.
+This tutorial with code shows how to create help pages for ASP.NET Web API in ASP.NET 4.x.
 
-To make this task easier, ASP.NET Web API provides a library for auto-generating help pages at run time.
+When you create a web API, it is often useful to create a help page, so that other developers will know how to call your API. You could create all of the documentation manually, but it is better to autogenerate as much as possible. To make this task easier, ASP.NET Web API provides a library for auto-generating help pages at run time.
 
 ![](creating-api-help-pages/_static/image1.png)
 
@@ -85,7 +86,6 @@ Next, open the code for the `ValuesController` API controller, which is defined 
 
 > [!NOTE]
 > Tip: If you position the caret on the line above the method and type three forward slashes, Visual Studio automatically inserts the XML elements. Then you can fill in the blanks.
-
 
 Now build and run the application again, and navigate to the help pages. The documentation strings should appear in the API table.
 

@@ -15,7 +15,7 @@ by Tim Ammann
 
 > Page Inspector for Visual Studio 2012 is a web development tool with an integrated browser. Select any element in the integrated browser, and Page Inspector instantly highlights the element's source and CSS. You can browse any page in your application, quickly find the sources of rendered markup, and use browser tools right within the Visual Studio environment.
 > 
-> This tutorial shwos how to enable Inspection Mode and then quickly locate and edit CSS rules and text within your web project. The tutorial uses a Web Forms Application Project, but you can also use Page Inspector for Web Site projects and [MVC](https://go.microsoft.com/?linkid=9802002) applications.
+> This tutorial shows how to enable Inspection Mode and then quickly locate and edit CSS rules and text within your web project. The tutorial uses a Web Forms Application Project, but you can also use Page Inspector for Web Site projects and [MVC](https://go.microsoft.com/?linkid=9802002) applications.
 > 
 > The tutorial has the following sections:
 > 
@@ -37,7 +37,6 @@ by Tim Ammann
 > 
 > [Using the CSS Color Picker](#css_color_picker)
 
-
 <a id="_prerequisites"></a><a id="_1_prerequisites"></a>
 
 ## Prerequisites
@@ -46,7 +45,6 @@ by Tim Ammann
 
 > [!NOTE]
 > To get the latest version of Page Inspector, use [Web Platform Installer](https://go.microsoft.com/fwlink/?LinkId=255386) to install the Azure SDK for .NET 2.0.
-
 
 Page Inspector is bundled with Microsoft Web Developer Tools. The latest version is 1.3. To check which version you have, run Visual Studio and select **About Microsoft Visual Studio** from the **Help** menu.
 
@@ -185,14 +183,13 @@ The **Styles** window makes it easy to test and preview CSS changes before you c
 > [!NOTE]
 > This feature requires version 1.3 of Page Inspector.
 
-
 The CSS Auto-Sync feature allows you to edit a CSS file directly, and see the changes immediately in the Page Inspector browser.
 
 Click **Inspect** to put Page Inspector in Inspection Mode.
 
 In the Page Inspector browser, move the mouse pointer over the "Home Page" section until the **div.content-wrapper** label appears. Click once to select this element.
 
-The **Syles** window shows all of the CSS rules for this element. Scroll down to find the .featured .content-wrapper class selector. Click on ".featured .content-wrapper". Page Inspector opens the CSS file that defines this style (Site.css) and highlights the corresponding CSS style.
+The **Styles** window shows all of the CSS rules for this element. Scroll down to find the .featured .content-wrapper class selector. Click on ".featured .content-wrapper". Page Inspector opens the CSS file that defines this style (Site.css) and highlights the corresponding CSS style.
 
 ![CSS file](using-page-inspector-in-a-visual-studio-11-beta-web-forms-project/_static/image18.png)
 

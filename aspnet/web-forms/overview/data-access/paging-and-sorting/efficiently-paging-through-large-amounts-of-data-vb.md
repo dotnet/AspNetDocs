@@ -17,7 +17,6 @@ by [Scott Mitchell](https://twitter.com/ScottOnWriting)
 
 > The default paging option of a data presentation control is unsuitable when working with large amounts of data, as its underlying data source control retrieves all records, even though only a subset of data is displayed. In such circumstances, we must turn to custom paging.
 
-
 ## Introduction
 
 As we discussed in the preceding tutorial, paging can be implemented in one of two ways:
@@ -31,7 +30,6 @@ The challenge of custom paging is being able to write a query that returns the p
 
 > [!NOTE]
 > The exact performance gain exhibited by custom paging depends on the total number of records being paged through and the load being placed on the database server. At the end of this tutorial we'll look at some rough metrics that showcase the benefits in performance obtained through custom paging.
-
 
 ## Step 1: Understanding the Custom Paging Process
 
@@ -56,47 +54,37 @@ In the next two steps we'll examine the SQL script needed to respond to these tw
 
 Before we examine how to retrieve the precise subset of records for the page being displayed, let s first look at how to return the total number of records being paged through. This information is needed in order to properly configure the paging user interface. The total number of records returned by a particular SQL query can be obtained by using the [`COUNT` aggregate function](https://msdn.microsoft.com/library/ms175997.aspx). For example, to determine the total number of records in the `Products` table, we can use the following query:
 
-
 [!code-sql[Main](efficiently-paging-through-large-amounts-of-data-vb/samples/sample1.sql)]
 
 Let s add a method to our DAL that returns this information. In particular, we'll create a DAL method called `TotalNumberOfProducts()` that executes the `SELECT` statement shown above.
 
 Start by opening the `Northwind.xsd` Typed DataSet file in the `App_Code/DAL` folder. Next, right-click on the `ProductsTableAdapter` in the Designer and choose Add Query. As we ve seen in previous tutorials, this will allow us to add a new method to the DAL that, when invoked, will execute a particular SQL statement or stored procedure. As with our TableAdapter methods in previous tutorials, for this one opt to use an ad-hoc SQL statement.
 
-
 ![Use an Ad-Hoc SQL Statement](efficiently-paging-through-large-amounts-of-data-vb/_static/image1.png)
 
 **Figure 1**: Use an Ad-Hoc SQL Statement
 
-
 On the next screen we can specify what type of query to create. Since this query will return a single, scalar value the total number of records in the `Products` table choose the `SELECT` which returns a singe value option.
-
 
 ![Configure the Query to Use a SELECT Statement that Returns a Single Value](efficiently-paging-through-large-amounts-of-data-vb/_static/image2.png)
 
 **Figure 2**: Configure the Query to Use a SELECT Statement that Returns a Single Value
 
-
 After indicating the type of query to use, we must next specify the query.
-
 
 ![Use the SELECT COUNT(*) FROM Products Query](efficiently-paging-through-large-amounts-of-data-vb/_static/image3.png)
 
 **Figure 3**: Use the SELECT COUNT(\*) FROM Products Query
 
-
 Finally, specify the name for the method. As aforementioned, let s use `TotalNumberOfProducts`.
-
 
 ![Name the DAL Method TotalNumberOfProducts](efficiently-paging-through-large-amounts-of-data-vb/_static/image4.png)
 
 **Figure 4**: Name the DAL Method TotalNumberOfProducts
 
-
 After clicking Finish, the wizard will add the `TotalNumberOfProducts` method to the DAL. The scalar returning methods in the DAL return nullable types, in case the result from the SQL query is `NULL`. Our `COUNT` query, however, will always return a non-`NULL` value; regardless, the DAL method returns a nullable integer.
 
 In addition to the DAL method, we also need a method in the BLL. Open the `ProductsBLL` class file and add a `TotalNumberOfProducts` method that simply calls down to the DAL s `TotalNumberOfProducts` method:
-
 
 [!code-vb[Main](efficiently-paging-through-large-amounts-of-data-vb/samples/sample2.vb)]
 
@@ -121,41 +109,33 @@ This tutorial implements custom paging using the `ROW_NUMBER()` keyword. For mor
 
 The `ROW_NUMBER()` keyword associated a ranking with each record returned over a particular ordering using the following syntax:
 
-
 [!code-sql[Main](efficiently-paging-through-large-amounts-of-data-vb/samples/sample3.sql)]
 
 `ROW_NUMBER()` returns a numerical value that specifies the rank for each record with regards to the indicated ordering. For example, to see the rank for each product, ordered from the most expensive to the least, we could use the following query:
-
 
 [!code-sql[Main](efficiently-paging-through-large-amounts-of-data-vb/samples/sample4.sql)]
 
 Figure 5 shows this query s results when run through the query window in Visual Studio. Note that the products are ordered by price, along with a price rank for each row.
 
-
 ![The Price Rank is Included for Each Returned Record](efficiently-paging-through-large-amounts-of-data-vb/_static/image5.png)
 
 **Figure 5**: The Price Rank is Included for Each Returned Record
 
-
 > [!NOTE]
 > `ROW_NUMBER()` is just one of the many new ranking functions available in SQL Server 2005. For a more thorough discussion of `ROW_NUMBER()`, along with the other ranking functions, read [Returning Ranked Results with Microsoft SQL Server 2005](http://www.4guysfromrolla.com/webtech/010406-1.shtml).
-
 
 When ranking the results by the specified `ORDER BY` column in the `OVER` clause (`UnitPrice`, in the above example), SQL Server must sort the results. This is a quick operation if there is a clustered index over the column(s) the results are being ordered by, or if there is a covering index, but can be more costly otherwise. To help improve performance for sufficiently large queries, consider adding a non-clustered index for the column by which the results are ordered by. See [Ranking Functions and Performance in SQL Server 2005](http://www.sql-server-performance.com/ak_ranking_functions.asp) for a more detailed look at the performance considerations.
 
 The ranking information returned by `ROW_NUMBER()` cannot directly be used in the `WHERE` clause. However, a derived table can be used to return the `ROW_NUMBER()` result, which can then appear in the `WHERE` clause. For example, the following query uses a derived table to return the ProductName and UnitPrice columns, along with the `ROW_NUMBER()` result, and then uses a `WHERE` clause to only return those products whose price rank is between 11 and 20:
 
-
 [!code-sql[Main](efficiently-paging-through-large-amounts-of-data-vb/samples/sample5.sql)]
 
 Extending this concept a bit further, we can utilize this approach to retrieve a specific page of data given the desired Start Row Index and Maximum Rows values:
-
 
 [!code-html[Main](efficiently-paging-through-large-amounts-of-data-vb/samples/sample6.html)]
 
 > [!NOTE]
 > As we will see later on in this tutorial, the *`StartRowIndex`* supplied by the ObjectDataSource is indexed starting at zero, whereas the `ROW_NUMBER()` value returned by SQL Server 2005 is indexed starting at 1. Therefore, the `WHERE` clause returns those records where `PriceRank` is strictly greater than *`StartRowIndex`* and less than or equal to *`StartRowIndex`* + *`MaximumRows`*.
-
 
 Now that we ve discussed how `ROW_NUMBER()` can be used to retrieve a particular page of data given the Start Row Index and Maximum Rows values, we now need to implement this logic as methods in the DAL and BLL.
 
@@ -163,67 +143,51 @@ When creating this query we must decide the ordering by which the results will b
 
 In the previous section we created the DAL method as an ad-hoc SQL statement. Unfortunately, the T-SQL parser in Visual Studio used by the TableAdapter wizard doesn t like the `OVER` syntax used by the `ROW_NUMBER()` function. Therefore, we must create this DAL method as a stored procedure. Select the Server Explorer from the View menu (or hit Ctrl+Alt+S) and expand the `NORTHWND.MDF` node. To add a new stored procedure, right-click on the Stored Procedures node and choose Add a New Stored Procedure (see Figure 6).
 
-
 ![Add a New Stored Procedure for Paging Through the Products](efficiently-paging-through-large-amounts-of-data-vb/_static/image6.png)
 
 **Figure 6**: Add a New Stored Procedure for Paging Through the Products
 
-
 This stored procedure should accept two integer input parameters - `@startRowIndex` and `@maximumRows` and use the `ROW_NUMBER()` function ordered by the `ProductName` field, returning only those rows greater than the specified `@startRowIndex` and less than or equal to `@startRowIndex` + `@maximumRow` s. Enter the following script into the new stored procedure and then click the Save icon to add the stored procedure to the database.
-
 
 [!code-sql[Main](efficiently-paging-through-large-amounts-of-data-vb/samples/sample7.sql)]
 
 After creating the stored procedure, take a moment to test it out. Right-click on the `GetProductsPaged` stored procedure name in the Server Explorer and choose the Execute option. Visual Studio will then prompt you for the input parameters, `@startRowIndex` and `@maximumRow` s (see Figure 7). Try different values and examine the results.
 
-
 ![Enter a Value for the @startRowIndex and @maximumRows Parameters](efficiently-paging-through-large-amounts-of-data-vb/_static/image7.png)
 
 <strong>Figure 7</strong>: Enter a Value for the @startRowIndex and @maximumRows Parameters
 
-
 After choosing these input parameters values, the Output window will show the results. Figure 8 shows the results when passing in 10 for both the `@startRowIndex` and `@maximumRows` parameters.
-
 
 [![The Records That Would Appear in the Second Page of Data are Returned](efficiently-paging-through-large-amounts-of-data-vb/_static/image9.png)](efficiently-paging-through-large-amounts-of-data-vb/_static/image8.png)
 
 **Figure 8**: The Records That Would Appear in the Second Page of Data are Returned ([Click to view full-size image](efficiently-paging-through-large-amounts-of-data-vb/_static/image10.png))
 
-
 With this stored procedure created, we re ready to create the `ProductsTableAdapter` method. Open the `Northwind.xsd` Typed DataSet, right-click in the `ProductsTableAdapter`, and choose the Add Query option. Instead of creating the query using an ad-hoc SQL statement, create it using an existing stored procedure.
-
 
 ![Create the DAL Method Using an Existing Stored Procedure](efficiently-paging-through-large-amounts-of-data-vb/_static/image11.png)
 
 **Figure 9**: Create the DAL Method Using an Existing Stored Procedure
 
-
 Next, we are prompted to select the stored procedure to invoke. Pick the `GetProductsPaged` stored procedure from the drop-down list.
-
 
 ![Choose the GetProductsPaged Stored Procedure from the Drop-Down List](efficiently-paging-through-large-amounts-of-data-vb/_static/image12.png)
 
 **Figure 10**: Choose the GetProductsPaged Stored Procedure from the Drop-Down List
 
-
 The next screen then asks you what kind of data is returned by the stored procedure: tabular data, a single value, or no value. Since the `GetProductsPaged` stored procedure can return multiple records, indicate that it returns tabular data.
-
 
 ![Indicate that the Stored Procedure Returns Tabular Data](efficiently-paging-through-large-amounts-of-data-vb/_static/image13.png)
 
 **Figure 11**: Indicate that the Stored Procedure Returns Tabular Data
 
-
 Finally, indicate the names of the methods you want to have created. As with our previous tutorials, go ahead and create methods using both the Fill a DataTable and Return a DataTable. Name the first method `FillPaged` and the second `GetProductsPaged`.
-
 
 ![Name the Methods FillPaged and GetProductsPaged](efficiently-paging-through-large-amounts-of-data-vb/_static/image14.png)
 
 **Figure 12**: Name the Methods FillPaged and GetProductsPaged
 
-
 In addition to created a DAL method to return a particular page of products, we also need to provide such functionality in the BLL. Like the DAL method, the BLL s GetProductsPaged method must accept two integer inputs for specifying the Start Row Index and Maximum Rows, and must return just those records that fall within the specified range. Create such a BLL method in the ProductsBLL class that merely calls down into the DAL s GetProductsPaged method, like so:
-
 
 [!code-vb[Main](efficiently-paging-through-large-amounts-of-data-vb/samples/sample8.vb)]
 
@@ -233,34 +197,27 @@ You can use any name for the BLL method s input parameters, but, as we will see 
 
 With the BLL and DAL methods for accessing a particular subset of records complete, we re ready to create a GridView control that pages through its underlying records using custom paging. Start by opening the `EfficientPaging.aspx` page in the `PagingAndSorting` folder, add a GridView to the page, and configure it to use a new ObjectDataSource control. In our past tutorials, we often had the ObjectDataSource configured to use the `ProductsBLL` class s `GetProducts` method. This time, however, we want to use the `GetProductsPaged` method instead, since the `GetProducts` method returns *all* of the products in the database whereas `GetProductsPaged` returns just a particular subset of records.
 
-
 ![Configure the ObjectDataSource to Use the ProductsBLL Class s GetProductsPaged Method](efficiently-paging-through-large-amounts-of-data-vb/_static/image15.png)
 
 **Figure 13**: Configure the ObjectDataSource to Use the ProductsBLL Class s GetProductsPaged Method
-
 
 Since we re creating a read-only GridView, take a moment to set the method drop-down list in the INSERT, UPDATE, and DELETE tabs to (None).
 
 Next, the ObjectDataSource wizard prompts us for the sources of the `GetProductsPaged` method s `startRowIndex` and `maximumRows` input parameters values. These input parameters will actually be set by the GridView automatically, so simply leave the source set to None and click Finish.
 
-
 ![Leave the Input Parameter Sources as None](efficiently-paging-through-large-amounts-of-data-vb/_static/image16.png)
 
 **Figure 14**: Leave the Input Parameter Sources as None
 
-
 After completing the ObjectDataSource wizard, the GridView will contain a BoundField or CheckBoxField for each of the product data fields. Feel free to tailor the GridView s appearance as you see fit. I ve opted to display only the `ProductName`, `CategoryName`, `SupplierName`, `QuantityPerUnit`, and `UnitPrice` BoundFields. Also, configure the GridView to support paging by checking the Enable Paging checkbox in its smart tag. After these changes, the GridView and ObjectDataSource declarative markup should look similar to the following:
-
 
 [!code-aspx[Main](efficiently-paging-through-large-amounts-of-data-vb/samples/sample9.aspx)]
 
 If you visit the page through a browser, however, the GridView is no where to be found.
 
-
 ![The GridView is Not Displayed](efficiently-paging-through-large-amounts-of-data-vb/_static/image17.png)
 
 **Figure 15**: The GridView is Not Displayed
-
 
 The GridView is missing because the ObjectDataSource is currently using 0 as the values for both of the `GetProductsPaged` `startRowIndex` and `maximumRows` input parameters. Hence, the resulting SQL query is returning no records and therefore the GridView is not displayed.
 
@@ -273,28 +230,22 @@ To remedy this, we need to configure the ObjectDataSource to use custom paging. 
 
 After making these changes, the ObjectDataSource s declarative syntax should look like the following:
 
-
 [!code-aspx[Main](efficiently-paging-through-large-amounts-of-data-vb/samples/sample10.aspx)]
 
 Note that the `EnablePaging` and `SelectCountMethod` properties have been set and the `<asp:Parameter>` elements have been removed. Figure 16 shows a screen shot of the Properties window after these changes have been made.
-
 
 ![To Use Custom Paging, Configure the ObjectDataSource Control](efficiently-paging-through-large-amounts-of-data-vb/_static/image18.png)
 
 **Figure 16**: To Use Custom Paging, Configure the ObjectDataSource Control
 
-
 After making these changes, visit this page through a browser. You should see 10 products listed, ordered alphabetically. Take a moment to step through the data one page at a time. While there is no visual difference from the end user s perspective between default paging and custom paging, custom paging more efficiently pages through large amounts of data as it only retrieves those records that need to be displayed for a given page.
-
 
 [![The Data, Ordered by the Product s Name, is Paged Using Custom Paging](efficiently-paging-through-large-amounts-of-data-vb/_static/image20.png)](efficiently-paging-through-large-amounts-of-data-vb/_static/image19.png)
 
 **Figure 17**: The Data, Ordered by the Product s Name, is Paged Using Custom Paging ([Click to view full-size image](efficiently-paging-through-large-amounts-of-data-vb/_static/image21.png))
 
-
 > [!NOTE]
 > With custom paging, the page count value returned by the ObjectDataSource�s `SelectCountMethod` is stored in the GridView�s view state. Other GridView variables the `PageIndex`, `EditIndex`, `SelectedIndex`, `DataKeys` collection, and so on are stored in *control state*, which is persisted regardless of the value of the GridView�s `EnableViewState` property. Since the `PageCount` value is persisted across postbacks using view state, when using a paging interface that includes a link to take you to the last page, it is imperative that the GridView�s view state be enabled. (If your paging interface does not include a direct link to the last page, then you may disable view state.)
-
 
 Clicking the last page link causes a postback and instructs the GridView to update its `PageIndex` property. If the last page link is clicked, the GridView assigns its `PageIndex` property to a value one less than its `PageCount` property. With view state disabled, the `PageCount` value is lost across postbacks and the `PageIndex` is assigned the maximum integer value instead. Next, the GridView attempts to determine the starting row index by multiplying the `PageSize` and `PageCount` properties. This results in an `OverflowException` since the product exceeds the maximum allowed integer size.
 
@@ -302,11 +253,9 @@ Clicking the last page link causes a postback and instructs the GridView to upda
 
 Our current custom paging implementation requires that the order by which the data is paged through be specified statically when creating the `GetProductsPaged` stored procedure. However, you may have noted that the GridView s smart tag contains an Enable Sorting checkbox in addition to the Enable Paging option. Unfortunately, adding sorting support to the GridView with our current custom paging implementation will only sort the records on the currently viewed page of data. For example, if you configure the GridView to also support paging and then, when viewing the first page of data, sort by product name in descending order, it will reverse the order of the products on page 1. As Figure 18 shows, such shows Carnarvon Tigers as the first product when sorting in reverse alphabetical order, which ignores the 71 other products that come after Carnarvon Tigers, alphabetically; only those records on the first page are considered in the sorting.
 
-
 [![Only the Data Shown on the Current Page is Sorted](efficiently-paging-through-large-amounts-of-data-vb/_static/image23.png)](efficiently-paging-through-large-amounts-of-data-vb/_static/image22.png)
 
 **Figure 18**: Only the Data Shown on the Current Page is Sorted ([Click to view full-size image](efficiently-paging-through-large-amounts-of-data-vb/_static/image24.png))
-
 
 The sorting only applies to the current page of data because the sorting is occurring after the data has been retrieved from the BLL s `GetProductsPaged` method, and this method only returns those records for the specific page. To implement sorting correctly, we need to pass the sort expression to the `GetProductsPaged` method so that the data can be ranked appropriately before returning the specific page of data. We'll see how to accomplish this in our next tutorial.
 
@@ -327,11 +276,9 @@ To fix this we have two options. The first is to create an event handler for the
 
 This approach works because it updates the `PageIndex` after Step 1 but before Step 2. Therefore, in Step 2, the appropriate set of records is returned. To accomplish this, use code like the following:
 
-
 [!code-vb[Main](efficiently-paging-through-large-amounts-of-data-vb/samples/sample11.vb)]
 
 An alternative workaround is to create an event handler for the ObjectDataSource s `RowDeleted` event and to set the `AffectedRows` property to a value of 1. After deleting the record in Step 1 (but before re-retrieving the data in Step 2), the GridView updates its `PageIndex` property if one or more rows were affected by the operation. However, the `AffectedRows` property is not set by the ObjectDataSource and therefore this step is omitted. One way to have this step executed is to manually set the `AffectedRows` property if the delete operation completes successfully. This can be accomplished using code like the following:
-
 
 [!code-vb[Main](efficiently-paging-through-large-amounts-of-data-vb/samples/sample12.vb)]
 
@@ -345,14 +292,12 @@ Unfortunately, there s no one size fits all answer here. The performance gain de
 
 An article of mine, [Custom Paging in ASP.NET 2.0 with SQL Server 2005](http://aspnet.4guysfromrolla.com/articles/031506-1.aspx), contains some performance tests I ran to exhibit the differences in performance between these two paging techniques when paging through a database table with 50,000 records. In these tests I examined both the time to execute the query at the SQL Server level (using [SQL Profiler](https://msdn.microsoft.com/library/ms173757.aspx)) and at the ASP.NET page using [ASP.NET s tracing features](https://msdn.microsoft.com/library/y13fw6we.aspx). Keep in mind that these tests were run on my development box with a single active user, and therefore are unscientific and do not mimic typical website load patterns. Regardless, the results illustrate the relative differences in execution time for default and custom paging when working with sufficiently large amounts of data.
 
-
 |  | **Avg. Duration (sec)** | **Reads** |
 | --- | --- | --- |
 | **Default Paging SQL Profiler** | 1.411 | 383 |
 | **Custom Paging SQL Profiler** | 0.002 | 29 |
 | **Default Paging ASP.NET Trace** | 2.379 | *N/A* |
 | **Custom Paging ASP.NET Trace** | 0.029 | *N/A* |
-
 
 As you can see, retrieving a particular page of data required 354 less reads on average and completed in a fraction of the time. At the ASP.NET page, custom the page was able to render in close to 1/100<sup>th</sup> of the time it took when using default paging. See [my article](http://aspnet.4guysfromrolla.com/articles/031506-1.aspx) for more information on these results along with code and a database you can download to reproduce these tests in your own environment.
 

@@ -48,7 +48,6 @@ by [Tom FitzMacken](https://github.com/tfitzmac)
 > - ASP.NET Web Pages (Razor) 2
 > - WebMatrix 3
 
-
 ## What Should You Know?
 
 We're assuming that you're familiar with:

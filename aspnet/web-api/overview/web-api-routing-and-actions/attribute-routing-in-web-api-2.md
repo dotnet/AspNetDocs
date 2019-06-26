@@ -92,7 +92,6 @@ If attribute routing is enabled, this code will throw an exception. If you upgra
 > [!NOTE]
 > For more information, see [Configuring Web API with ASP.NET Hosting](../advanced/configuring-aspnet-web-api.md#webhost).
 
-
 <a id="add-routes"></a>
 ## Adding Route Attributes
 
@@ -222,8 +221,8 @@ Alternatively, you can specify a default value inside the route template, as fol
 
 This is almost the same as the previous example, but there is a slight difference of behavior when the default value is applied.
 
-- In the first example ("{lcid?}"), the default value of 1033 is assigned directly to the method parameter, so the parameter will have this exact value.
-- In the second example ("{lcid=1033}"), the default value of "1033" goes through the model-binding process. The default model-binder will convert "1033" to the numeric value 1033. However, you could plug in a custom model binder, which might do something different.
+- In the first example ("{lcid:int?}"), the default value of 1033 is assigned directly to the method parameter, so the parameter will have this exact value.
+- In the second example ("{lcid:int=1033}"), the default value of "1033" goes through the model-binding process. The default model-binder will convert "1033" to the numeric value 1033. However, you could plug in a custom model binder, which might do something different.
 
 (In most cases, unless you have custom model binders in your pipeline, the two forms will be equivalent.)
 

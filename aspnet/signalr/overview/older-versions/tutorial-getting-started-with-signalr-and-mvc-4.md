@@ -17,7 +17,6 @@ by [Patrick Fletcher](https://github.com/pfletcher), [Tim Teebken](https://githu
 
 > This tutorial shows how to use ASP.NET SignalR to create a real-time chat application. You will add SignalR to an MVC 4 application and create a chat view to send and display messages.
 
-
 ## Overview
 
 This tutorial introduces you to real-time web application development with ASP.NET SignalR and ASP.NET MVC 4. The tutorial uses the same chat application code as the [SignalR Getting Started tutorial](tutorial-getting-started-with-signalr.md), but shows how to add it to an MVC 4 application based on the Internet template.
@@ -70,7 +69,6 @@ This section shows how to create an ASP.NET MVC 4 application, add the SignalR l
 
 > [!NOTE]
 > If you use Visual Studio 2012 and have installed the [ASP.NET and Web Tools 2012.2 update](../../../visual-studio/overview/2012/aspnet-and-web-tools-20122-release-notes-rtw.md#_Installation), you can use the new SignalR item template to create the hub class. To do that, right-click the **Hubs** folder, click **Add | New Item**, select **SignalR Hub Class (v1)**, and name the class **ChatHub.cs**.
-
 
 1. Replace the code in the **ChatHub** class with the following code.
 
@@ -145,7 +143,6 @@ The following code declares a proxy for a hub.
 > [!NOTE]
 > In jQuery the reference to the server class and its members is in camel case. The code sample references the C# **ChatHub** class in jQuery as **chatHub**. If you want to reference the `ChatHub` class in jQuery with conventional Pascal casing as you would in C#, edit the ChatHub.cs class file. Add a `using` statement to reference the `Microsoft.AspNet.SignalR.Hubs` namespace. Then add the `HubName` attribute to the `ChatHub` class, for example `[HubName("ChatHub")]`. Finally, update your jQuery reference to the `ChatHub` class.
 
-
 The following code shows how to create a callback function in the script. The hub class on the server calls this function to push content updates to each client. The optional call to the `htmlEncode` function shows a way to HTML encode the message content before displaying it in the page, as a way to prevent script injection.
 
 [!code-html[Main](tutorial-getting-started-with-signalr-and-mvc-4/samples/sample7.html)]
@@ -154,7 +151,6 @@ The following code shows how to open a connection with the hub. The code starts 
 
 > [!NOTE]
 > This approach ensures that the connection is established before the event handler executes.
-
 
 [!code-javascript[Main](tutorial-getting-started-with-signalr-and-mvc-4/samples/sample8.js)]
 

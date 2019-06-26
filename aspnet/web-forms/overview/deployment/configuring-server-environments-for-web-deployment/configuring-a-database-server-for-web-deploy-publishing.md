@@ -19,7 +19,6 @@ by [Jason Lee](https://github.com/jrjlee)
 > 
 > The tasks described in this topic are common to every deployment scenario&#x2014;it doesn't matter whether your web servers are configured to use the IIS Web Deployment Tool (Web Deploy) Remote Agent Service, the Web Deploy Handler, or offline deployment or your application is running on a single web server or a server farm. The way you deploy the database may change according to security requirements and other considerations. For example, you might deploy the database with or without sample data, and you might deploy user role mappings or configure them manually after deployment. However, the way you configure the database server remains the same.
 
-
 You don't have to install any additional products or tools to configuring a database server to support web deployment. Assuming that your database server and your web server run on different machines, you simply need to:
 
 - Permit SQL Server to communicate using TCP/IP.
@@ -40,7 +39,6 @@ The SQL Server instance only needs to include the **Database Engine Services** r
 
 > [!NOTE]
 > For more information on joining computers to a domain, see [Joining Computers to the Domain and Logging On](https://technet.microsoft.com/library/cc725618(v=WS.10).aspx). For more information on configuring static IP addresses, see [Configure a Static IP Address](https://technet.microsoft.com/library/cc754203(v=ws.10).aspx). For more information on installing SQL Server, see [Installing SQL Server 2008 R2](https://technet.microsoft.com/library/bb500395.aspx).
-
 
 ## Enable Remote Access to SQL Server
 
@@ -90,11 +88,9 @@ Assuming that you're using a default instance of SQL Server, you need to configu
 | --- | --- | --- | --- |
 | Inbound | Any | 1433 | TCP |
 | Outbound | 1433 | Any | TCP |
-  
 
 > [!NOTE]
 > Technically, a client computer will use a randomly assigned TCP port between 1024 and 5000 to communicate with SQL Server, and you can restrict your firewall rules accordingly. For more information on SQL Server ports and firewalls, see [TCP/IP port numbers required to communicate to SQL over a firewall](https://go.microsoft.com/?linkid=9805125) and [How to: Configure a Server to Listen on a Specific TCP Port (SQL Server Configuration Manager)](https://msdn.microsoft.com/library/ms177440.aspx).
-
 
 In most Windows Server environments, you'll likely have to configure Windows Firewall on the database server. By default, Windows Firewall allows all outbound traffic unless a rule specifically prohibits it. To enable your web server to reach your database, you need to configure an inbound rule that allows TCP traffic on the port number that the SQL Server instance uses. If you're using a default instance of SQL Server, you can use the next procedure to configure this rule.
 
@@ -130,7 +126,6 @@ If your web application is running on a server farm, rather than a single server
 
 > [!NOTE]
 > For more information on application pool identities and accessing network resources, see [Application Pool Identities](https://go.microsoft.com/?linkid=9805123).
-
 
 You can approach these tasks in various ways. To create the login, you can either:
 
@@ -176,14 +171,12 @@ While manually mapping database roles is often more than adequate for test envir
 > [!NOTE]
 > For more information on server projects and database projects, see [Visual Studio 2010 SQL Server Database Projects](https://msdn.microsoft.com/library/ff678491.aspx).
 
-
 ## Configure Permissions for the Deployment Account
 
 If the account that you'll use to run the deployment is not a SQL Server administrator, you'll also need to create a login for this account. In order to create the database, the account must be a member of the **dbcreator** server role or have equivalent permissions.
 
 > [!NOTE]
 > When you use Web Deploy or VSDBCMD to deploy a database, you can use Windows credentials or SQL Server credentials (if your SQL Server instance is configured to support mixed mode authentication). The next procedure assumes that you want to use Windows credentials, but there's nothing stopping you from specifying a SQL Server user name and password in your connection string when you configure the deployment.
-
 
 **To set up permissions for the deployment account**
 

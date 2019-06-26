@@ -17,11 +17,9 @@ by [Scott Mitchell](https://twitter.com/ScottOnWriting)
 
 > When testing an ASP.NET application locally, chances are you are using the ASP.NET Development Web Server. However, the production website is most likely powered IIS. There are some differences between how these web servers handle requests, and these differences can have important consequences. This tutorial explores some of the more germane differences.
 
-
 ## Introduction
 
 Whenever a user visits an ASP.NET application his browser sends a request to the website. That request is picked up by the web server software, which coordinates with the ASP.NET runtime to generate and return the content for the requested resource. The[**I** nternet **I** nformation **S** ervices (IIS)](http://en.wikipedia.org/wiki/Internet_Information_Services) are a suite of services that provide common Internet-based functionality for Windows servers. IIS is the most commonly used web server for ASP.NET applications in production environments; it's most likely the web server software being used by your web host provider to serve your ASP.NET application. IIS can also be used as the web server software in the development environment, although this entails installing IIS and properly configuring it.
-
 
 The ASP.NET Development Server is an alternative web server option for the development environment; it ships with and is integrated into Visual Studio. Unless the web application has been configured to use IIS, the ASP.NET Development Server is automatically started and used as the web server the first time you visit a web page from within Visual Studio. The demo web applications we created back in the [*Determining What Files Need to Be Deployed*](determining-what-files-need-to-be-deployed-cs.md) tutorial were both file system-based web applications that were not configured to use IIS. Therefore, when visiting either of these websites from within Visual Studio the ASP.NET Development Server is used.
 
@@ -40,22 +38,17 @@ To show this type of error in action I've created a page in the Book Reviews web
 > [!NOTE]
 > The [`File.WriteAllText` method](https://msdn.microsoft.com/library/system.io.file.writealltext.aspx) creates a new file if it does not exist and then writes the specified contents to it. If the file already exists, it's existing content is overwritten.
 
-
 Next, visit the *Teach Yourself ASP.NET 3.5 in 24 Hours* book review page in the development environment using the ASP.NET Development Server. Assuming that you are logged on to your computer with an account that has adequate permissions to create and modify a text file in the web application's root directory the book review appears the same as before, but each time the page is visited the date and time and user's IP address is stored in the `LastTYASP35Access.txt` file. Point your browser to this file; you should see a message similar to the one shown in Figure 1.
-
 
 [![The Text File Contains the Last Date and Time the Book Review was Visited](core-differences-between-iis-and-the-asp-net-development-server-cs/_static/image2.png)](core-differences-between-iis-and-the-asp-net-development-server-cs/_static/image1.png)
 
 **Figure 1**: The Text File Contains the Last Date and Time the Book Review was Visited ([Click to view full-size image](core-differences-between-iis-and-the-asp-net-development-server-cs/_static/image3.png))
 
-
 Deploy the web application to production and then visit the hosted *Teach Yourself ASP.NET 3.5 in 24 Hours* book review page. At this point you should either see the book review page as normal or the error message shown in Figure 2. Some web host providers grant write permissions to the anonymous ASP.NET machine account, in which case the page will work without error. If, however, your web host provider prohibits write access for the anonymous account then an [`UnauthorizedAccessException` exception](https://msdn.microsoft.com/library/system.unauthorizedaccessexception.aspx) is raised when the `TYASP35.aspx` page attempts to write the current date and time to the `LastTYASP35Access.txt` file.
-
 
 [![The Default Machine Account Used by IIS Does Not Have Permissions to Write to the File System](core-differences-between-iis-and-the-asp-net-development-server-cs/_static/image5.png)](core-differences-between-iis-and-the-asp-net-development-server-cs/_static/image4.png)
 
 **Figure 2**: The Default Machine Account Used by IIS Does Not Have Permissions to Write to the File System ([Click to view full-size image](core-differences-between-iis-and-the-asp-net-development-server-cs/_static/image6.png))
-
 
 The good news is that most web host providers have some sort of permissions tool that allows you to specify file system permissions in your website. Grant the anonymous ASP.NET account write access to the root directory and then revisit the book review page. (If needed, contact your web host provider for assistance on how to grant write permissions to the default ASP.NET account.) This time the page should load without error and the `LastTYASP35Access.txt` file should be created successfully.
 
@@ -69,7 +62,6 @@ The ASP.NET runtime performs a number of steps to generate the requested content
 
 > [!NOTE]
 > For a thorough examination of ASP.NET's forms-based authentication, URL authorization, and other user account-related features, be sure to check out my [Website Security Tutorials](../../older-versions-security/introduction/security-basics-and-asp-net-support-cs.md).
-
 
 Consider a website that supports user accounts using forms-based authorization and has a folder that, using URL authorization, is configured to only allow authenticated users. Imagine that this folder contains ASP.NET pages and PDF files and that the intent is that only authenticated users can view these PDF files.
 
@@ -89,19 +81,15 @@ Using the ASP.NET Development Server, visit the site and enter the direct URL to
 
 Entering this URL into the Address bar causes the browser to send a request to the ASP.NET Development Server for the file. The ASP.NET Development Server hands off the request to the ASP.NET runtime for processing. Because we have not yet logged in, and because the `Web.config` in the `PrivateDocs` folder is configured to deny anonymous access, the ASP.NET runtime automatically redirects us to the login page, `Login.aspx` (see Figure 3). When redirecting the user to the log in page, ASP.NET includes a `ReturnUrl` querystring parameter that indicates the page the user was attempting to view. After successfully logging in the user can be returned to this page.
 
-
 [![Unauthorized Users are Automatically Redirected to the Login Page](core-differences-between-iis-and-the-asp-net-development-server-cs/_static/image8.png)](core-differences-between-iis-and-the-asp-net-development-server-cs/_static/image7.png)
 
 **Figure 3**: Unauthorized Users are Automatically Redirected to the Login Page ([Click to view full-size image](core-differences-between-iis-and-the-asp-net-development-server-cs/_static/image9.png))
 
-
 Now let's see how this behaves on production. Deploy your application and enter the direct URL to one of the PDFs in the `PrivateDocs` folder in production. This prompts your browser to send a request IIS for the file. Because a static file is requested, IIS retrieves and returns the file without invoking the ASP.NET runtime. As a result, there was no URL authorization check performed; the contents of the supposedly private PDF are accessible to anyone who knows the direct URL to the file.
-
 
 [![Anonymous Users Can Download the Private PDF Files By Entering the Direct URL to the File](core-differences-between-iis-and-the-asp-net-development-server-cs/_static/image11.png)](core-differences-between-iis-and-the-asp-net-development-server-cs/_static/image10.png)
 
 **Figure 4**: Anonymous Users Can Download the Private PDF Files By Entering the Direct URL to the File ([Click to view full-size image](core-differences-between-iis-and-the-asp-net-development-server-cs/_static/image12.png))
-
 
 ### Performing Forms-Based Authentication and URL Authentication on Static Files with IIS 7
 
@@ -115,7 +103,6 @@ This markup instructs IIS 7 to use the ASP.NET-based authentication and authoriz
 
 > [!NOTE]
 > If your web host provider is still using IIS 6 then you cannot use the integrated pipeline feature. One workaround is to put your private documents in a folder that prohibits HTTP access (such as `App_Data`) and then create a page to serve these documents. This page might be called `GetPDF.aspx`, and is passed the name of the PDF through a querystring parameter. The `GetPDF.aspx` page would first verify that the user has permission to view the file and, if so, would use the [`Response.WriteFile(filePath)`](https://msdn.microsoft.com/library/system.web.httpresponse.writefile.aspx) method to send the contents of the requested PDF file back to the requesting client. This technique would also work for IIS 7 if you did not wish to enable the integrated pipeline.
-
 
 ## Summary
 

@@ -13,7 +13,6 @@ msc.type: chapter
 
 > This tutorial shows how to use the Accordion control, which contains multiple panes and lets users display one of them at a time.
 
-
 - [Databinding to an Accordion (C#)](databinding-to-an-accordion-cs.md)
 - [Dynamically Adding Accordion Pane (C#)](dynamically-adding-an-accordion-pane-cs.md)
 - [Databinding to an Accordion (VB)](databinding-to-an-accordion-vb.md)

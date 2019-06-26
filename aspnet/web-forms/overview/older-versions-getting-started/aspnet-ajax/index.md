@@ -13,7 +13,6 @@ msc.type: chapter
 
 > About the ASP.NET AJAX library, including UpdatePanels and partial page updates, authentication, localization, and debugging.
 
-
 - [Understanding Partial Page Updates with ASP.NET AJAX](understanding-partial-page-updates-with-asp-net-ajax.md)
 - [Understanding ASP.NET AJAX UpdatePanel Triggers](understanding-asp-net-ajax-updatepanel-triggers.md)
 - [Understanding ASP.NET AJAX Authentication and Profile Application Services](understanding-asp-net-ajax-authentication-and-profile-application-services.md)

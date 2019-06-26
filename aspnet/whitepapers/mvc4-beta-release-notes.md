@@ -16,7 +16,6 @@ msc.type: content
 > > [!NOTE]
 > > This is not the most current release. The ASP.NET MVC 4 RC release notes are available [here](mvc4-release-notes.md).
 
-
 - [Installation Notes](#_Toc303253802)
 - [Documentation](#_Toc303253803)
 - [Support](#_Toc303253804)

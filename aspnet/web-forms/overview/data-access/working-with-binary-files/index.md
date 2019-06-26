@@ -13,7 +13,6 @@ msc.type: chapter
 
 > These tutorials show how to let users upload binary files (like Word or PDF documents) to the server, where they can be stored in folders or in the database.
 
-
 - [Uploading Files (C#)](uploading-files-cs.md)
 - [Displaying Binary Data in the Data Web Controls (C#)](displaying-binary-data-in-the-data-web-controls-cs.md)
 - [Including a File Upload Option When Adding a New Record (C#)](including-a-file-upload-option-when-adding-a-new-record-cs.md)

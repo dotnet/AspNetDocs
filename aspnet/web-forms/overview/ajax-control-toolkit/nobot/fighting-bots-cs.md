@@ -17,7 +17,6 @@ by [Christian Wenz](https://github.com/wenz)
 
 > Automated bots plaster weblogs and other websites with spam, submitting comment forms without any user interaction. The NoBot control in the ASP.NET AJAX Control Toolkit can help fight those bots.
 
-
 ## Overview
 
 Automated bots plaster weblogs and other websites with spam, submitting comment forms without any user interaction. The NoBot control in the ASP.NET AJAX Control Toolkit can help fight those bots.
@@ -57,7 +56,6 @@ Finally, you need a form to submit and a label element to output the message, an
 [!code-aspx[Main](fighting-bots-cs/samples/sample4.aspx)]
 
 When you run this script and deactivate JavaScript or submit the form within the first two seconds or submit the form seven times within thirty seconds, you will get an error message. However use this control wisely, since only about 90-95% of users have JavaScript activated, therefore 5-10% of users will fail `NoBot`'s test.
-
 
 [![This error message could have been caused by a bot](fighting-bots-cs/_static/image2.png)](fighting-bots-cs/_static/image1.png)
 

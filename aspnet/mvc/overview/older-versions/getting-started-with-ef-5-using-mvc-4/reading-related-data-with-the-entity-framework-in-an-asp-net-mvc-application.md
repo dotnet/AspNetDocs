@@ -21,7 +21,6 @@ by [Tom Dykstra](https://github.com/tdykstra)
 > > 
 > > If you run into a problem you can't resolve, [download the completed chapter](building-the-ef5-mvc4-chapter-downloads.md) and try to reproduce your problem. You can generally find the solution to the problem by comparing your code to the completed code. For some common errors and how to solve them, see [Errors and Workarounds.](advanced-entity-framework-scenarios-for-an-mvc-web-application.md#errors)
 
-
 In the previous tutorial you completed the School data model. In this tutorial you'll read and display related data — that is, data that the Entity Framework loads into navigation properties.
 
 The following illustrations show the pages that you'll work with.
@@ -146,11 +145,13 @@ The method accepts optional route data (`id`) and a query string parameter (`cou
 > 
 > Route data is data that the model binder found in a URL segment specified in the routing table. For example, the default route specifies `controller`, `action`, and `id` segments:
 > 
+> ```csharp
 > routes.MapRoute(  
 >  name: "Default",  
 >  url: "{controller}/{action}/{id}",  
 >  defaults: new { controller = "Home", action = "Index", id = UrlParameter.Optional }  
 > );
+> ```
 > 
 > In the following URL, the default route maps `Instructor` as the `controller`, `Index` as the `action` and 1 as the `id`; these are route data values.
 > 
@@ -167,7 +168,6 @@ The method accepts optional route data (`id`) and a query string parameter (`cou
 > In the following code, `courseID` doesn't match a parameter in the default route, so it's added as a query string.
 > 
 > [!code-cshtml[Main](reading-related-data-with-the-entity-framework-in-an-asp-net-mvc-application/samples/sample11.cshtml)]
-
 
 The code begins by creating an instance of the view model and putting in it the list of instructors. The code specifies eager loading for the `Instructor.OfficeAssignment` and the `Instructor.Courses` navigation property.
 
@@ -229,7 +229,6 @@ This code reads the `Courses` property of the view model to display a list of co
 
 > [!NOTE]
 > The *.css* file is cached by browsers. If you don't see the changes when you run the application, do a hard refresh (hold down the CTRL key while clicking the **Refresh** button, or press CTRL+F5).
-
 
 Run the page and select an instructor. Now you see a grid that displays courses assigned to the selected instructor, and for each course you see the name of the assigned department.
 

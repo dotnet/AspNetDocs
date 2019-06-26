@@ -19,7 +19,6 @@ msc.type: content
 > > 
 > > Many of these resources describe deployment features that are available only if you install a recent release of the [Visual Studio Web Publish Update](https://go.microsoft.com/fwlink/?LinkID=208120). Some of the features are available only in Visual Studio 2012 or Visual Studio 2013.
 
-
 This topic contains the following sections:
 
 - [Understanding deployment options for web projects](#understanding)
@@ -42,9 +41,7 @@ This topic contains the following sections:
 - [Getting help with a specific deployment question](#gettinghelp)
 - [Additional Resources](#additional)
 
-
 <a id="understanding"></a>
-
 
 ## Understanding deployment options for web projects
 
@@ -53,17 +50,13 @@ This topic contains the following sections:
 - [Visual Studio 2012 Web Publishing Improvements](../visual-studio/overview/2012/visual-studio-2012-web-publishing-improvements.md) (Video by Scott Hanselman).
 - [Overview Post for Web Deployment in VS 2010](http://vishaljoshi.blogspot.com/2009/09/overview-post-for-web-deployment-in-vs.html) (Vishal Joshi's blog). An older blog post but some of the Visual Studio 2010 resources it links to have information that is still relevant for Visual Studio 2012.
 
-
 <a id="findinghosting"></a>
-
 
 ## Finding hosting providers for an ASP.NET application
 
 - [ASP.NET Hosting](https://asp.net/hosting)
 
-
 <a id="fromvs"></a>
-
 
 ## Deploying a web application from Visual Studio
 
@@ -72,7 +65,6 @@ This topic contains the following sections:
 - [How to: Deploy a Web Project Using One-Click Publish in Visual Studio](https://msdn.microsoft.com/library/dd465337.aspx) (Reference information for the Visual Studio Web Publish wizard.)
 - [Deploying an ASP.NET Web Application with SQL Server Compact using Visual Studio](../web-forms/overview/older-versions-getting-started/deployment-to-a-hosting-provider/deployment-to-a-hosting-provider-introduction-1-of-12.md). This is an earlier version of **ASP.NET Web Deployment using Visual Studio** listed at the top of this section. Mainly useful now for information about how to deploy SQL Server Compact databases and how to migrate from SQL Server Compact to a full edition of SQL Server.
 - [.NET Multi-Tier Application Using Storage Tables, Queues, and Blobs](https://code.msdn.microsoft.com/Windows-Azure-Multi-Tier-eadceb36) (Microsoft Azure site). 5-part tutorial series, shows how to create an MVC project and deploy it to a Windows Azure Cloud Service.
-
 
 <a id="package"></a>
 ## Deploying a web application by creating and installing a web deployment package
@@ -85,9 +77,7 @@ This topic contains the following sections:
 
 See also the following section.
 
-
 <a id="ci"></a>
-
 
 ## Deploying a web application using a continuous integration (CI) process
 
@@ -101,9 +91,7 @@ See also the following section.
 
 See also [Making sure an application is off-line during deployment](aspnet-web-deployment-content-map.md#appoffline) later in this page.
 
-
 <a id="transforms"></a>
-
 
 ## Using Web.config transformations to change settings in the destination Web.config file or app.config file during deployment
 
@@ -115,9 +103,7 @@ See also [Making sure an application is off-line during deployment](aspnet-web-d
 - [XDT (XML Document Transform) released on codeplex.com](https://blogs.msdn.com/b/webdev/archive/2013/04/23/xdt-xml-document-transform-released-on-codeplex-com.aspx) (.NET Web Development and Tools blog). Announces availability of the source code for the Web.config file transformation engine and lists some tools that use it.
 - [Windows Azure Web Sites: How Application Strings and Connection Strings Work](https://blogs.msdn.com/b/windowsazure/archive/2013/07/17/windows-azure-web-sites-how-application-strings-and-connection-strings-work.aspx) (Microsoft Azure blog). An alternative to Web.config transforms if your destination environment is Windows Azure Web Sites and you want to transform `appSettings` or `connectionStrings`.
 
-
 <a id="webdeployparms"></a>
-
 
 ## Using Web Deploy parameters to change settings in the destination web application during deployment
 
@@ -128,9 +114,7 @@ See also [Making sure an application is off-line during deployment](aspnet-web-d
 - [Web Deploy Parameterization vs. Web.config Transformation](http://vishaljoshi.blogspot.com/2010/06/parameterization-vs-webconfig.html) (Vishal Joshi's blog).
 - [Windows Azure Web Sites: How Application Strings and Connection Strings Work](https://blogs.msdn.com/b/windowsazure/archive/2013/07/17/windows-azure-web-sites-how-application-strings-and-connection-strings-work.aspx) (Microsoft Azure blog). An alternative to Web deploy parameters if your destination environment is Windows Azure Web Sites and you want to parameterize `appSettings` or `connectionStrings`.
 
-
 <a id="appoffline"></a>
-
 
 ## Making sure an application is off-line during deployment
 
@@ -140,9 +124,7 @@ See also [Making sure an application is off-line during deployment](aspnet-web-d
 - [Web publishing updates for app offline and usechecksum](https://blogs.msdn.com/b/webdev/archive/2013/10/30/web-publishing-updates-for-app-offline-and-usechecksum.aspx) (Microsoft Web Development blog). Another option for automating use of app\_offline.htm file.
 - [Web Deploy 3.5 RTW](https://blogs.iis.net/msdeploy/archive/2013/07/09/webdeploy-3-5-rtw.aspx) (IIS.net site). New feature in Web Deploy 3.5 for custom app\_offline.htm files.
 
-
 <a id="databasewithweb"></a>
-
 
 ## Deploying a database or changes to a database as part of web application deployment
 
@@ -154,9 +136,7 @@ See also [Making sure an application is off-line during deployment](aspnet-web-d
 
 See also  Deploying a web application by creating and installing a web deployment package and  Deploying a web application using a continuous integration (CI) process earlier in this page.
 
-
 <a id="databaseseparate"></a>
-
 
 ## Deploying a database separately from web application deployment
 
@@ -168,9 +148,7 @@ See also  Deploying a web application by creating and installing a web deploymen
 - [Migrating Data-Centric Applications to Windows Azure](https://msdn.microsoft.com/library/jj156154.aspx) (MSDN).
 - [Migrating SQL Server Databases to Windows Azure SQL Database](https://msdn.microsoft.com/library/windowsazure/jj156160.aspx) (MSDN).
 
-
 <a id="aspnetmembership"></a>
-
 
 ## Deploying a web application that uses ASP.NET application services such as membership and profiling
 
@@ -180,9 +158,7 @@ See also  Deploying a web application by creating and installing a web deploymen
 - [Configuring a Website that Uses Application Services](../web-forms/overview/older-versions-getting-started/deploying-web-site-projects/configuring-a-website-that-uses-application-services-cs.md). For web site projects but is also relevant for web application projects.
 - [Users and Roles On The Production Website](../web-forms/overview/older-versions-getting-started/deploying-web-site-projects/users-and-roles-on-the-production-website-cs.md). For web site projects but is also relevant for web application projects.
 
-
 <a id="precompiling"></a>
-
 
 ## Precompiling for deployment
 
@@ -190,18 +166,14 @@ See also  Deploying a web application by creating and installing a web deploymen
 - [Package/Publish Web Tab, Project Properties](https://msdn.microsoft.com/library/dd410108.aspx) (MSDN).
 - [Advanced Precompile Settings Dialog Box](https://msdn.microsoft.com/library/hh475319.aspx) (MSDN).
 
-
 <a id="intranet"></a>
-
 
 ## Deploying an intranet web application
 
 - [Use the On-Premises Organizational Authentication Option (ADFS) With ASP.NET in Visual Studio 2013](http://www.cloudidentity.com/blog/2014/02/12/use-the-on-premises-organizational-authentication-option-adfs-with-asp-net-in-visual-studio-2013/) (Blog by Vittorio Bertocci.).
 - [How to Create an Intranet Site Using ASP.NET MVC](https://msdn.microsoft.com/library/gg703322(VS.98).aspx) (MSDN). Older walkthrough writen for Visual Studio 2010, does not reflect major changes in intranet project templates introduced in Visual Studio 2013.
 
-
 <a id="automating"></a>
-
 
 ## Automating common deployment tasks that are not automated out of the box
 
@@ -214,26 +186,20 @@ See also  Deploying a web application by creating and installing a web deploymen
 - [How to package .NET assemblies](https://blogs.msdn.com/webdevtools/archive/2010/02/19/how-to-package-com-component.aspx) (Web Development Tools blog). How to deploy assemblies to the GAC.
 - [Script Out Everything - Initialize Your Windows Azure VM for Your Web Server with IIS, Web Deploy and Other Stuff](http://www.tugberkugurlu.com/archive/script-out-everything-initialize-your-windows-azure-vm-for-your-web-server-with-iis-web-deploy-and-other-stuff) (Tugberk Ugurlu's blog).
 
-
 <a id="configuringservers"></a>
-
 
 ## Configuring web servers so that developers can deploy web applications to them using Web Deploy
 
 - [Installing and Configuring Web Deploy for Administrator and non-administrator Deployments](https://www.iis.net/learn/install/installing-publishing-technologies/installing-and-configuring-web-deploy) (IIS.net site).
 
-
 <a id="hostingprovider"></a>
-
 
 ## Configuring servers for a hosting provider
 
 - [Microsoft ASP.NET 4 Hosting Deployment Guide](https://go.microsoft.com/fwlink/?LinkId=191365) (Microsoft Download Center).
 - [Generate a Profile XML File](https://www.iis.net/learn/web-hosting/joining-the-web-hosting-gallery/generate-a-profile-xml-file) (IIS.net site).
 
-
 <a id="troubleshooting"></a>
-
 
 ## Troubleshooting deployment problems
 
@@ -246,18 +212,14 @@ See also  Deploying a web application by creating and installing a web deploymen
 - [Common Configuration Differences Between Development and Production](../web-forms/overview/older-versions-getting-started/deploying-web-site-projects/common-configuration-differences-between-development-and-production-cs.md).
 - [Hosting ASP.NET Applications in Medium Trust](http://www.4guysfromrolla.com/articles/100307-1.aspx) (4 Guys from Rolla site).
 
-
 <a id="gettinghelp"></a>
-
 
 ## Getting help with a specific deployment question
 
 - [ASP.NET Configuration and Deployment forum](https://forums.asp.net/26.aspx/1?Configuration and Deployment).
 - [StackOverflow.com](http://www.StackOverflow.com).
 
-
 <a id="additional"></a>
-
 
 ## Additional Resources
 

@@ -36,7 +36,6 @@ by [Tom FitzMacken](https://github.com/tfitzmac)
 > 
 > This tutorial also works with ASP.NET Web Pages 2.
 
-
 This article contains the following sections:
 
 - [Overview of User Input Validation](#Overview_of_User_Input_Validation)
@@ -59,7 +58,6 @@ You might also have certain restrictions on the values. Even if users correctly 
 > [!NOTE] 
 > 
 > **Important** Validating user input is also important for security. When you restrict the values that users can enter in forms, you reduce the chance that someone can enter a value that can compromise the security of your site.
-
 
 <a id="Validating_User_Input"></a>
 ## Validating User Input
@@ -108,7 +106,6 @@ You can add support to perform validation in client script. In that case, the va
 > [!NOTE]
 > Even if you use client-side validation, validation is always also performed in server code. Performing validation in server code is a security measure, in case users bypass client-based validation.
 
-
 1. Register the following JavaScript libraries in the page:  
 
     [!code-html[Main](validating-user-input-in-aspnet-web-pages-sites/samples/sample3.html)]
@@ -153,7 +150,6 @@ If you include this style block in the example pages from earlier in the article
 > [!NOTE]
 > If you're not using client validation in ASP.NET Web Pages 2, the CSS classes for the `<input>` elements (`input-validation-error` and `input-validation-valid` don't have any effect.
 
-
 ### Static and Dynamic Error Display
 
 The CSS rules come in pairs, such as `validation-summary-errors` and `validation-summary-valid`. These pairs let you define rules for both conditions: an error condition and a "normal" (non-error) condition. It's important to understand that the markup for the error display is always rendered, even if there are no errors. For example, if a page has an `Html.ValidationSummary` method in the markup, the page source will contain the following markup even when the page is requested for the first time:
@@ -176,7 +172,6 @@ In this case, you want to make sure that the value that's passed to the page (he
 > [!NOTE] 
 > 
 > **Important** Always validate values that you get from *any* source, including form-field values, query-string values, and cookie values. It's easy for people to change these values (perhaps for malicious purposes). So you must check these values in order to protect your application.
-
 
 The following example shows how you might validate a value that's passed in a query string. The code tests that the value is not empty and that it's an integer.
 

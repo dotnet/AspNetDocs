@@ -18,7 +18,6 @@ by [Jason Lee](https://github.com/jrjlee)
 > [!NOTE]
 > In lots of enterprise deployment scenarios, you need the ability to publish incremental updates to a deployed database. The alternative is to recreate the database on every deployment, which means you lose any data in the existing database. When you work with Visual Studio 2010, using VSDBCMD is the recommended approach to incremental database publishing. However, the next version of Visual Studio and the Web Publishing Pipeline (WPP) will include tooling that supports incremental publishing directly.
 
-
 If you open the Contact Manager sample solution in Visual Studio 2010, you'll see that the database project includes a Properties folder that contains four files.
 
 ![](deploying-database-projects/_static/image1.png)
@@ -75,9 +74,7 @@ The remainder of this topic describes the use of VSDBCMD with MSBuild to deploy 
 
 The VSDBCMD utility lets you deploy a database using either the database schema (the .dbschema file) or the deployment manifest (the .deploymanifest file). In practice, you'll almost always use the deployment manifest, as the deployment manifest lets you provide default values for various deployment properties and identify any pre-deployment or post-deployment SQL scripts you want to run. For example, this VSDBCMD command is used to deploy the **ContactManager** database to a database server in a test environment:
 
-
 [!code-console[Main](deploying-database-projects/samples/sample1.cmd)]
-
 
 In this case:
 
@@ -101,21 +98,17 @@ The behavior of the **/dd** or **/DeployToDatabase** switch depends on whether y
 
 If you're using a .deploymanifest file, the behavior is a lot more complicated. This is because the .deploymanifest file contains a property name **DeployToDatabase** that also determines whether the database is deployed.
 
-
 [!code-xml[Main](deploying-database-projects/samples/sample2.xml)]
-
 
 The value of this property is set according to the properties of the database project. If you set the **Deploy action** to **Create a deployment script (.sql)**, the value will be **False**. If you set the **Deploy action** to **Create a deployment script (.sql) and deploy to the database**, the value will be **True**.
 
 > [!NOTE]
 > These settings are associated with a specific build configuration and platform. For example, if you configure settings for the **Debug** configuration and then publish using the **Release** configuration, your settings will not be used.
 
-
 ![](deploying-database-projects/_static/image3.png)
 
 > [!NOTE]
 > In this scenario, the **Deploy action** should always be set to **Create a deployment script (.sql)**, because you don't want Visual Studio 2010 to deploy your database. In other words, the **DeployToDatabase** property should always be **False**.
-
 
 When a **DeployToDatabase** property is specified, the **/dd** switch will only override the property if the property value is **false**:
 

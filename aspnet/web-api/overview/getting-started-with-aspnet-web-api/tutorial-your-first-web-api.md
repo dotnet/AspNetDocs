@@ -1,10 +1,11 @@
 ---
 uid: web-api/overview/getting-started-with-aspnet-web-api/tutorial-your-first-web-api
-title: Get Started with ASP.NET Web API 2 (C#)
+title: Get Started with ASP.NET Web API 2 (C#) - ASP.NET 4.x
 author: MikeWasson
-description: "HTTP is not just for serving up web pages. It is also a powerful platform for building APIs that expose services and data. HTTP is simple, flexible, and ubiq..."
+description: "Tutorial with code. Use ASP.NET Web API to create a web API that returns a list of products."
 ms.author: riande
 ms.date: 11/28/2017
+ms.custom: seoapril2019
 msc.legacyurl: /web-api/overview/getting-started-with-aspnet-web-api/tutorial-your-first-web-api
 msc.type: authoredcontent
 ---
@@ -14,9 +15,11 @@ by [Mike Wasson](https://github.com/MikeWasson)
 
 [Download Completed Project](https://code.msdn.microsoft.com/Sample-code-of-Getting-c56ccb28)
 
+In this tutorial, you will use ASP.NET Web API to create a web API that returns a list of products.
+
 HTTP is not just for serving up web pages. HTTP is also a powerful platform for building APIs that expose services and data. HTTP is simple, flexible, and ubiquitous. Almost any platform that you can think of has an HTTP library, so HTTP services can reach a broad range of clients, including browsers, mobile devices, and traditional desktop applications.
 
-ASP.NET Web API is a framework for building web APIs on top of the .NET Framework. In this tutorial, you will use ASP.NET Web API to create a web API that returns a list of products.
+ASP.NET Web API is a framework for building web APIs on top of the .NET Framework. 
 
 ## Software versions used in the tutorial
 
@@ -43,7 +46,6 @@ In the **New ASP.NET Project** dialog, select the **Empty** template. Under &quo
 
 > [!NOTE]
 > You can also create a Web API project using the &quot;Web API&quot; template. The Web API template uses ASP.NET MVC to provide API help pages. I'm using the Empty template for this tutorial because I want to show Web API without MVC. In general, you don't need to know ASP.NET MVC to use Web API.
-
 
 ## Adding a Model
 
@@ -84,7 +86,6 @@ The scaffolding creates a file named ProductsController.cs in the Controllers fo
 
 > [!NOTE]
 > You don't need to put your controllers into a folder named Controllers. The folder name is just a convenient way to organize your source files.
-
 
 If this file is not open already, double-click the file to open it. Replace the code in this file with the following:
 

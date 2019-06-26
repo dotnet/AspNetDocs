@@ -13,7 +13,6 @@ msc.type: chapter
 
 > How to work with Visual Studio 2005, Team System, and add-ins to perform testing, deployment, and other tasks.
 
-
 - [Intro to Unit Testing with Team System](introduction-to-unit-testing-with-team-system.md)
 - [Intro to Testing Web Applications with Team System](introduction-to-testing-web-applications-with-team-system.md)
 - [Intro to Load Testing Web Applications with Team System](introduction-to-load-testing-web-applications-with-team-system.md)

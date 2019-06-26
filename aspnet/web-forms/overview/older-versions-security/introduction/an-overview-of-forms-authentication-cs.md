@@ -19,7 +19,6 @@ by [Scott Mitchell](https://twitter.com/ScottOnWriting)
 > 
 > Please see this video for more information on this topic: [Using Basic Forms Authentication in ASP.NET](../../../videos/authentication/using-basic-forms-authentication-in-aspnet.md).
 
-
 ## Introduction
 
 In the [preceding tutorial](security-basics-and-asp-net-support-cs.md) we discussed the various authentication, authorization, and user account options provided by ASP.NET. In this tutorial we will turn from mere discussion to implementation; in particular, we will look at implementing forms authentication. The web application we start constructing in this tutorial will continue to be built upon in subsequent tutorials, as we move from simple forms authentication to membership and roles.
@@ -41,11 +40,9 @@ The `FormsAuthenticationModule` attempts to authenticate the user prior to the `
 
 The login page's responsibility is to determine if the user's credentials are valid and, if so, to create a forms authentication ticket and redirect the user back to the page they were attempting to visit. The authentication ticket is included in subsequent requests to the pages on the website, which the `FormsAuthenticationModule` uses to identify the user.
 
-
 ![The Forms Authentication Workflow](an-overview-of-forms-authentication-cs/_static/image1.png)
 
 **Figure 1**: The Forms Authentication Workflow
-
 
 ### Remembering the Authentication Ticket Across Page Visits
 
@@ -55,7 +52,6 @@ One aspect of cookies is their expiration, which is the date and time at which t
 
 > [!NOTE]
 > It is possible that the user agent used to log on to the website may not support cookies. In such a case, ASP.NET can use cookieless forms authentication tickets. In this mode, the authentication ticket is encoded into the URL. We will look at when cookieless authentication tickets are used and how they are created and managed in the next tutorial.
-
 
 ### The Scope of Forms Authentication
 
@@ -72,27 +68,22 @@ In order to reach the widest possible audience, the ASP.NET website we will be b
 > [!NOTE]
 > The demo web application used in each tutorial is available as a download. This downloadable application was created with Visual Web Developer 2008 targeted for the .NET Framework version 3.5. Since the application is targeted for .NET 3.5, its Web.config file includes additional, 3.5-specific configuration elements. Long story short, if you have yet to install .NET 3.5 on your computer then the downloadable web application will not work without first removing the 3.5-specific markup from Web.config.
 
-
 Before we can configure forms authentication, we first need an ASP.NET website. Start by creating a new file system-based ASP.NET website. To accomplish this, launch Visual Web Developer and then go to the File menu and choose New Web Site, displaying the New Web Site dialog box. Choose the ASP.NET Web Site template, set the Location drop-down list to File System, choose a folder to place the web site, and set the language to C#. This will create a new web site with a Default.aspx ASP.NET page, an App\_Data folder, and a Web.config file.
 
 > [!NOTE]
 > Visual Studio supports two modes of project management: Web Site Projects and Web Application Projects. Web Site Projects lack a project file, whereas Web Application Projects mimic the project architecture in Visual Studio .NET 2002/2003 – they include a project file and compile the project's source code into a single assembly, which is placed in the /bin folder. Visual Studio 2005 initially only supported Web Site Projects, although the Web Application Project model was reintroduced with Service Pack 1; Visual Studio 2008 offers both project models. The Visual Web Developer 2005 and 2008 editions, however, only support Web Site Projects. I will be using the Web Site Project model. If you are using a non-Express edition and want to use the [Web Application Project model](https://msdn.microsoft.com/library/aa730880%28vs.80%29.aspx) instead, feel free to do so but be aware that there may be some discrepancies between what you see on your screen and the steps you must take versus the screen shots shown and instructions provided in these tutorials.
 
-
 [![Create a New File System-Based Web Site](an-overview-of-forms-authentication-cs/_static/image3.png)](an-overview-of-forms-authentication-cs/_static/image2.png)
 
 **Figure 2**: Create a New File System-Based Web Site ([Click to view full-size image](an-overview-of-forms-authentication-cs/_static/image4.png))
-
 
 ### Adding a Master Page
 
 Next, add a new Master Page to the site in the root directory named Site.master. [Master pages](https://msdn.microsoft.com/library/wtxbf3hh.aspx) enable a page developer to define a site-wide template that can be applied to ASP.NET pages. The main benefit of master pages is that the site's overall appearance can be defined in a single location, thereby making it easy to update or tweak the site's layout.
 
-
 [![Add a Master Page Named Site.master to the Website](an-overview-of-forms-authentication-cs/_static/image6.png)](an-overview-of-forms-authentication-cs/_static/image5.png)
 
 **Figure 3**: Add a Master Page Named Site.master to the Website ([Click to view full-size image](an-overview-of-forms-authentication-cs/_static/image7.png))
-
 
 Define the site-wide page layout here in the master page. You can use the Design view and add whatever Layout or Web controls you need, or you can manually add the markup by hand in the Source view. I structured my master page's layout to mimic the layout used in my *[Working with Data in ASP.NET 2.0](../../data-access/index.md)* tutorial series (see Figure 4). The master page uses [cascading style sheets](http://www.w3schools.com/css/default.asp) for positioning and styles with the CSS settings defined in the file Style.css (which is included in this tutorial's associated download). While you cannot tell from the markup shown below, the CSS rules are defined such that the navigation &lt;div&gt;'s content is absolutely positioned so that it appears on the left and has a fixed width of 200 pixels.
 
@@ -102,11 +93,9 @@ A master page defines both the static page layout and the regions that can be ed
 
 With the markup entered above, switching to the Design view shows the master page's layout. Any ASP.NET pages that use this master page will have this uniform layout, with the ability to specify the markup for the `MainContent` region.
 
-
 [![The Master Page, When Viewed Through the Design View](an-overview-of-forms-authentication-cs/_static/image9.png)](an-overview-of-forms-authentication-cs/_static/image8.png)
 
 **Figure 4**: The Master Page, When Viewed Through the Design View ([Click to view full-size image](an-overview-of-forms-authentication-cs/_static/image10.png))
-
 
 ### Creating Content Pages
 
@@ -114,20 +103,16 @@ At this point we have a Default.aspx page in our website, but it does not use th
 
 Next, right-click on the project name in the Solution Explorer and choose to add a new Web Form named Default.aspx. This time, check the "Select master page" checkbox and choose the Site.master master page from the list.
 
-
 [![Add a New Default.aspx Page Choosing to Select a Master Page](an-overview-of-forms-authentication-cs/_static/image12.png)](an-overview-of-forms-authentication-cs/_static/image11.png)
 
 **Figure 5**: Add a New Default.aspx Page Choosing to Select a Master Page ([Click to view full-size image](an-overview-of-forms-authentication-cs/_static/image13.png))
-
 
 ![Use the Site.master Master Page](an-overview-of-forms-authentication-cs/_static/image14.png)
 
 **Figure 6**: Use the Site.master Master Page
 
-
 > [!NOTE]
 > If you are using the Web Application Project Model the Add New Item dialog box does not include a "Select master page" checkbox. Instead, you need to add an item of type "Web Content Form." After choosing the "Web Content Form" option and clicking Add, Visual Studio will display the same Select a Master dialog box shown in Figure 6.
-
 
 The new Default.aspx page's declarative markup includes just a @Page directive specifying the path to the master page file and a Content control for the master page's MainContent ContentPlaceHolder.
 
@@ -151,11 +136,9 @@ By default, ASP.NET applications use Windows authentication. To change the authe
 
 If your project does not yet contain a Web.config file, add one now by right-clicking on the project name in the Solution Explorer, choosing Add New Item, and then adding a Web Configuration file.
 
-
 [![If Your Project Does Not Yet Include Web.config, Add It Now](an-overview-of-forms-authentication-cs/_static/image16.png)](an-overview-of-forms-authentication-cs/_static/image15.png)
 
 **Figure 7**: If Your Project Does Not Yet Include Web.config, Add It Now ([Click to view full-size image](an-overview-of-forms-authentication-cs/_static/image17.png))
-
 
 Next, locate the `<authentication>` element and update it to use forms authentication. After this change, your Web.config file's markup should look similar to the following:
 
@@ -163,7 +146,6 @@ Next, locate the `<authentication>` element and update it to use forms authentic
 
 > [!NOTE]
 > Since Web.config is an XML file, casing is important. Make sure that you set the mode attribute to Forms, with a capital "F". If you use a different casing, such as "forms", you'll receive a configuration error when visiting the site through a browser.
-
 
 The `<authentication>` element may optionally include a `<forms>` child element that contains forms authentication-specific settings. For now, let's just use the default forms authentication settings. We will explore the `<forms>` child element in more detail in the next tutorial.
 
@@ -183,11 +165,9 @@ The login page has three responsibilities:
 
 Let's get started with the first task. Add a new ASP.NET page to the site's root directory named Login.aspx and associate it with the Site.master master page.
 
-
 [![Add a New ASP.NET Page Named Login.aspx](an-overview-of-forms-authentication-cs/_static/image19.png)](an-overview-of-forms-authentication-cs/_static/image18.png)
 
 **Figure 8**: Add a New ASP.NET Page Named Login.aspx ([Click to view full-size image](an-overview-of-forms-authentication-cs/_static/image20.png))
-
 
 The typical login page interface consists of two textboxes – one for the user's name, one for their password – and a button to submit the form. Websites oftentimes include a "Remember me" checkbox that, if checked, persists the resulting authentication ticket across browser restarts.
 
@@ -197,11 +177,9 @@ At this point your screen should look similar to the screen shot in Figure 9, an
 
 [!code-aspx[Main](an-overview-of-forms-authentication-cs/samples/sample4.aspx)]
 
-
 [![The Login Page Contains Two TextBoxes, a CheckBox, a Button, and a Label](an-overview-of-forms-authentication-cs/_static/image22.png)](an-overview-of-forms-authentication-cs/_static/image21.png)
 
 **Figure 9**: The Login Page Contains Two TextBoxes, a CheckBox, a Button, and a Label ([Click to view full-size image](an-overview-of-forms-authentication-cs/_static/image23.png))
-
 
 Finally, create an event handler for the LoginButton's Click event. From the Designer, simply double-click the Button control to create this event handler.
 
@@ -243,11 +221,9 @@ When creating the forms authentication ticket we use the UserName TextBox's Text
 
 To test the login page, visit it in a browser. Start by entering invalid credentials, such as a username of "Nope" and a password of "wrong". Upon clicking the Login button a postback will occur and the InvalidCredentialsMessage Label will be displayed.
 
-
 [![The InvalidCredentialsMessage Label is Displayed When Entering Invalid Credentials](an-overview-of-forms-authentication-cs/_static/image25.png)](an-overview-of-forms-authentication-cs/_static/image24.png)
 
 **Figure 10**: The InvalidCredentialsMessage Label is Displayed When Entering Invalid Credentials ([Click to view full-size image](an-overview-of-forms-authentication-cs/_static/image26.png))
-
 
 Next, enter valid credentials and click the Login button. This time when the postback occurs a forms authentication ticket is created and you are automatically redirected back to Default.aspx. At this point you have logged in to the website, although there are no visual cues to indicate that you are currently logged in. In Step 4 we will see how to programmatically determine whether a user is logged in or not as well as how to identify the user visiting the page.
 
@@ -261,7 +237,6 @@ Unless your website contains sensitive information, you will only need to use SS
 
 > [!NOTE]
 > Many financial and medical websites are configured to use SSL on *all* pages accessible to authenticated users. If you are building such a website you can configure the forms authentication system so that the forms authentication ticket is only transmitted over a secure connection. We will look at the various forms authentication configuration options in the next tutorial, *[Forms Authentication Configuration and Advanced Topics](forms-authentication-configuration-and-advanced-topics-cs.md)*.
-
 
 ## Step 4: Detecting Authenticated Visitors and Determining Their Identity
 
@@ -279,16 +254,13 @@ The [Request.IsAuthenticated property](https://msdn.microsoft.com/library/system
 
 With this code in place, visit Default.aspx through a browser. Assuming that you have yet to log in, you will see a link to the login page (see Figure 11). Click this link and log in to the site. As we saw in Step 3, after entering your credentials you will be returned to Default.aspx, but this time the page shows the "Welcome back!" message (see Figure 12).
 
-
 ![When Visiting Anonymously, a Log In Link is Displayed](an-overview-of-forms-authentication-cs/_static/image27.png)
 
 **Figure 11**: When Visiting Anonymously, a Log In Link is Displayed
 
-
 ![Authenticated Users are Shown the](an-overview-of-forms-authentication-cs/_static/image28.png)
 
 **Figure 12**: Authenticated Users are Shown the "Welcome back!" Message
-
 
 We can determine the currently logged on user's identity via the [HttpContext object](https://msdn.microsoft.com/library/system.web.httpcontext.aspx)'s [User property](https://msdn.microsoft.com/library/system.web.httpcontext.user.aspx). The HttpContext object represents information about the current request, and is the home for such common ASP.NET objects as Response, Request, and Session, among others. The User property represents the security context of the current HTTP request and implements the [IPrincipal interface](https://msdn.microsoft.com/library/system.security.principal.iprincipal.aspx).
 
@@ -315,11 +287,9 @@ WelcomeBackMessage.Text = "Welcome back, " + User.Identity.Name + "!";
 
 Figure 13 shows the effect of this modification (when logging in as user Scott).
 
-
 ![The Welcome Message Includes the Currently Logged In User's Name](an-overview-of-forms-authentication-cs/_static/image29.png)
 
 **Figure 13**: The Welcome Message Includes the Currently Logged In User's Name
-
 
 ### Using the LoginView and LoginName Controls
 
@@ -335,7 +305,6 @@ Let's add the LoginView control to our site's master page, Site.master. Rather t
 > [!NOTE]
 > In addition to the AnonymousTemplate and LoggedInTemplate, the LoginView control can include role-specific templates. Role-specific templates show markup only to those users that belong to a specified role. We will examine the role-based features of the LoginView control in a future tutorial.
 
-
 Start by adding a ContentPlaceHolder named LoginContent into the master page within the navigation &lt;div&gt; element. You can simply drag a ContentPlaceHolder control from the Toolbox onto the Source view, placing the resulting markup right above the "TODO: Menu will go here…" text.
 
 [!code-aspx[Main](an-overview-of-forms-authentication-cs/samples/sample9.aspx)]
@@ -344,11 +313,9 @@ Next, add a LoginView control within the LoginContent ContentPlaceHolder. Conten
 
 The LoginView and other login-related controls are located in the Toolbox's Login tab.
 
-
 ![The LoginView Control in the Toolbox](an-overview-of-forms-authentication-cs/_static/image30.png)
 
 **Figure 14**: The LoginView Control in the Toolbox
-
 
 Next, add two &lt;br /&gt; elements immediately after the LoginView control, but still within the ContentPlaceHolder. At this point, the navigation &lt;div&gt; element's markup should look like the following:
 
@@ -364,33 +331,26 @@ After making these additions to the LoginView's templates, the markup should loo
 
 With this addition to the Site.master master page, each page in our website will display a different message depending on whether the user is authenticated. Figure 15 shows the Default.aspx page when visited through a browser by user Jisun. The "Welcome back, Jisun" message is repeated twice: once in the master page's navigation section on the left (via the LoginView control we just added) and once in the Default.aspx's content area (via Panel controls and programmatic logic).
 
-
 ![The LoginView Control Displays](an-overview-of-forms-authentication-cs/_static/image31.png)
 
 **Figure 15**: The LoginView Control Displays "Welcome back, Jisun."
 
-
 Because we added the LoginView to the master page, it can appear in every page on our site. However, there may be web pages where we don't want to show this message. One such page is the login page, since a link to the login page seems out of place there. Since we placed the LoginView control in a ContentPlaceHolder in the master page, we can override this default markup in our content page. Open Login.aspx and go to the Designer. Since we have not explicitly defined a Content control in Login.aspx for the LoginContent ContentPlaceHolder in the master page, the login page will show the master page's default markup for this ContentPlaceHolder. You can see this through the Designer – the LoginContent ContentPlaceHolder shows the default markup (the LoginView control).
-
 
 [![The Login Page Shows the Default Content for the Master Page's LoginContent ContentPlaceHolder](an-overview-of-forms-authentication-cs/_static/image33.png)](an-overview-of-forms-authentication-cs/_static/image32.png)
 
 **Figure 16**: The Login Page Shows the Default Content for the Master Page's LoginContent ContentPlaceHolder ([Click to view full-size image](an-overview-of-forms-authentication-cs/_static/image34.png))
-
 
 To override the default markup for the LoginContent ContentPlaceHolder, simply right-click on the region in the Designer and choose the Create Custom Content option from the context menu. (When using Visual Studio 2008 the ContentPlaceHolder includes a smart tag that, when selected, offers the same option.) This adds a new Content control to the page's markup and thereby allows us to define custom content for this page. You could add a custom message here, such as "Please log in…", but let's just leave this blank.
 
 > [!NOTE]
 > In Visual Studio 2005, creating custom content creates an empty Content control in the ASP.NET page. In Visual Studio 2008, however, creating custom content copies the master page's default content into the newly created Content control. If you are using Visual Studio 2008, then, after creating the new Content control make sure to clear out the content copied over from the master page.
 
-
 Figure 17 shows the Login.aspx page when visited from a browser after making this change. Note that there is no "Hello, stranger" or "Welcome back, *username*" message in the left navigation &lt;div&gt; as there is when visiting Default.aspx.
-
 
 [![The Login Page Hides the Default LoginContent ContentPlaceHolder's Markup](an-overview-of-forms-authentication-cs/_static/image36.png)](an-overview-of-forms-authentication-cs/_static/image35.png)
 
 **Figure 17**: The Login Page Hides the Default LoginContent ContentPlaceHolder's Markup ([Click to view full-size image](an-overview-of-forms-authentication-cs/_static/image37.png))
-
 
 ## Step 5: Logging Out
 
@@ -417,20 +377,16 @@ Since the LoginStatus is outside of the LoginView control, it will appear for bo
 
 Figure 18 shows Default.aspx when Jisun visits. Note that the left column displays the message, "Welcome back, Jisun" along with a link to log out. Clicking the log out LinkButton causes a postback, signs Jisun out of the system, and then redirects her to Logout.aspx. As Figure 19 shows, by the time Jisun reaches Logout.aspx she has already been signed out and is therefore anonymous. Consequently, the left column shows the text "Welcome, stranger" and a link to the login page.
 
-
 [![Default.aspx Shows](an-overview-of-forms-authentication-cs/_static/image39.png)](an-overview-of-forms-authentication-cs/_static/image38.png)
 
 **Figure 18**: Default.aspx Shows "Welcome Back, Jisun" Along with a "Logout" LinkButton ([Click to view full-size image](an-overview-of-forms-authentication-cs/_static/image40.png))
-
 
 [![Logout.aspx Shows](an-overview-of-forms-authentication-cs/_static/image42.png)](an-overview-of-forms-authentication-cs/_static/image41.png)
 
 **Figure 19**: Logout.aspx Shows "Welcome, stranger" Along with a "Login" LinkButton ([Click to view full-size image](an-overview-of-forms-authentication-cs/_static/image43.png))
 
-
 > [!NOTE]
 > I encourage you to customize the Logout.aspx page to hide the master page's LoginContent ContentPlaceHolder (like we did for Login.aspx in Step 4). The reason is because the "Login" LinkButton rendered by the LoginStatus control (the one beneath "Hello, stranger") sends the user to the login page passing the current URL in the ReturnUrl querystring parameter. In short, if a user who has logged out clicks this LoginStatus's "Login" LinkButton, and then logs in, they will be redirected back to Logout.aspx, which could easily confuse the user.
-
 
 ## Summary
 

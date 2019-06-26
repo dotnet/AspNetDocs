@@ -13,7 +13,6 @@ msc.type: chapter
 
 > How to deploy ASP.NET Web Forms projects to a server.
 
-
 - [ASP.NET Web Deployment using Visual Studio](visual-studio-web-deployment/index.md)
 
     - [Introduction](visual-studio-web-deployment/introduction.md)

@@ -19,7 +19,6 @@ by [Tom Dykstra](https://github.com/tdykstra)
 > 
 > For a tutorial that shows deployment features introduced after the RC release of Visual Studio 2012, shows how to deploy SQL Server editions other than SQL Server Compact, and shows how to deploy to Windows Azure Web Sites, see [ASP.NET Web Deployment using Visual Studio](../../deployment/visual-studio-web-deployment/introduction.md).
 
-
 This page describes some common problems that may arise when you deploy an ASP.NET web application by using Visual Studio. For each one, one or more possible causes and corresponding solutions are provided.
 
 ## Server Error in '/' Application - Current Custom Error Settings Prevent Details of the Error from Being Viewed Remotely
@@ -107,7 +106,7 @@ After you deploy an application using one-click publish, when you run a page tha
 
 ### Possible Cause and Solution
 
-Open the *Web.config* file in the deployed site and check to see whether the connection string values begin with `$(ReplacableToken_`, as in the following example:
+Open the *Web.config* file in the deployed site and check to see whether the connection string values begin with `$(ReplaceableToken_`, as in the following example:
 
 [!code-xml[Main](deployment-to-a-hosting-provider-creating-and-installing-deployment-packages-12-of-12/samples/sample9.xml)]
 

@@ -58,7 +58,6 @@ Next, add these functions to `AppViewModel`:
 - `getDetails` gets the details for an order (by pushing a new `OrderDetailsViewModel` onto the `details` list).
 - `createOrder` creates a new order and empties the cart.
 
-
 [!code-javascript[Main](using-web-api-with-entity-framework-part-7/samples/sample6.js?highlight=4)]
 
 Finally, initialize the view model by making AJAX requests for the products and orders:

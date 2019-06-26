@@ -1,10 +1,11 @@
 ---
 uid: web-api/overview/advanced/calling-a-web-api-from-a-net-client
-title: "Call a Web API From a .NET Client (C#) | Microsoft Docs"
+title: "Call a Web API From a .NET Client (C#) - ASP.NET 4.x"
 author: MikeWasson
-description: ""
+description: "This tutorial shows how to call a web API from a .NET 4.x application."
 ms.author: riande
 ms.date: 11/24/2017
+ms.custom: seoapril2019
 msc.legacyurl: /web-api/overview/advanced/calling-a-web-api-from-a-net-client
 msc.type: authoredcontent
 ---
@@ -158,7 +159,7 @@ Like GET, a DELETE request does not have a request body. You don't need to speci
 
 To test the client app:
 
-1. [Download](https://github.com/aspnet/AspNetDocs/tree/master/aspnet/web-api/overview/advanced/calling-a-web-api-from-a-net-client/sample/server) and run the server app. [Download instructions](/aspnet/core/tutorials/#how-to-download-a-sample). Verify the server app is working. For example, `http://localhost:64195/api/products` should return a list of products.
+1. [Download](https://github.com/aspnet/AspNetDocs/tree/master/aspnet/web-api/overview/advanced/calling-a-web-api-from-a-net-client/sample/server) and run the server app. [Download instructions](/aspnet/core/#how-to-download-a-sample). Verify the server app is working. For example, `http://localhost:64195/api/products` should return a list of products.
 2. Set the base URI for HTTP requests. Change the port number to the port used in the server app.
     [!code-csharp[Main](calling-a-web-api-from-a-net-client/sample/client/Program.cs?name=snippet5&highlight=2)]
 

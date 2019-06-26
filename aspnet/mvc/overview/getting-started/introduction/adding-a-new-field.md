@@ -69,10 +69,9 @@ Doing so adds the following using statement:
 > 
 > This code assumes that titles are unique. If you manually add a duplicate title, you'll get the following exception the next time you perform a migration.   
 > 
->  *Sequence contains more than one element*  
+> *Sequence contains more than one element*  
 > 
 > For more information about the [AddOrUpdate](https://msdn.microsoft.com/library/system.data.entity.migrations.idbsetextensions.addorupdate(v=vs.103).aspx) method, see [Take care with EF 4.3 AddOrUpdate Method](http://thedatafarm.com/blog/data-access/take-care-with-ef-4-3-addorupdate-method/)..
-
 
 **Press CTRL-SHIFT-B to build the project.**(The following steps will fail if you don't build at this point.)
 
@@ -132,13 +131,11 @@ The model backing the 'MovieDBContext' context has changed since the database wa
 
 You're seeing this error because the updated `Movie` model class in the application is now different than the schema of the `Movie` table of the existing database. (There's no `Rating` column in the database table.)
 
-
 There are a few approaches to resolving the error:
 
 1. Have the Entity Framework automatically drop and re-create the database based on the new model class schema. This approach is very convenient early in the development cycle when you are doing active development on a test database; it allows you to quickly evolve the model and database schema together. The downside, though, is that you lose existing data in the database — so you *don't* want to use this approach on a production database! Using an initializer to automatically seed a database with test data is often a productive way to develop an application. For more information on Entity Framework database initializers, see [ASP.NET MVC/Entity Framework tutorial](../getting-started-with-ef-using-mvc/creating-an-entity-framework-data-model-for-an-asp-net-mvc-application.md).
 2. Explicitly modify the schema of the existing database so that it matches the model classes. The advantage of this approach is that you keep your data. You can make this change either manually or by creating a database change script.
 3. Use Code First Migrations to update the database schema.
-
 
 For this tutorial, we'll use Code First Migrations.
 

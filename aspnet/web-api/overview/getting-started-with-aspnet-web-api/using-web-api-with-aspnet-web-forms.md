@@ -1,10 +1,11 @@
 ---
 uid: web-api/overview/getting-started-with-aspnet-web-api/using-web-api-with-aspnet-web-forms
-title: "Using Web API with ASP.NET Web Forms | Microsoft Docs"
+title: "Using Web API with ASP.NET Web Forms - ASP.NET 4.x"
 author: MikeWasson
-description: ""
+description: "Tutorial with code step by step to add Web API to an ASP.NET Forms application for ASP.NET 4.x"
 ms.author: riande
 ms.date: 04/03/2012
+ms.custom: seoapril2019
 ms.assetid: 25da8c3f-4e90-4946-9765-4f160985e1e4
 msc.legacyurl: /web-api/overview/getting-started-with-aspnet-web-api/using-web-api-with-aspnet-web-forms
 msc.type: authoredcontent
@@ -13,9 +14,11 @@ msc.type: authoredcontent
 
 by [Mike Wasson](https://github.com/MikeWasson)
 
-Although ASP.NET Web API is packaged with ASP.NET MVC, it is easy to add Web API to a traditional ASP.NET Web Forms application. This tutorial walks you through the steps.
+This tutorial walks you through the steps to add Web API to a traditional ASP.NET Web Forms application in ASP.NET 4.x. 
 
 ## Overview
+
+Although ASP.NET Web API is packaged with ASP.NET MVC, it is easy to add Web API to a traditional ASP.NET Web Forms application.
 
 To use Web API in a Web Forms application, there are two main steps:
 

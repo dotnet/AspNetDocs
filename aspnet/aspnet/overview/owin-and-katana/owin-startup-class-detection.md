@@ -11,13 +11,11 @@ msc.type: authoredcontent
 ---
 # OWIN Startup Class Detection
 
-
 > This tutorial shows how to configure which OWIN startup class is loaded. For more information on OWIN, see [An Overview of Project Katana](an-overview-of-project-katana.md). This tutorial was written by Rick Anderson ( [@RickAndMSFT](https://twitter.com/#!/RickAndMSFT) ), Praburaj Thiagarajan, and Howard Dierking ( [@howard\_dierking](https://twitter.com/howard_dierking) ).
 >
 > ## Prerequisites
 >
 > [Visual Studio 2017](https://visualstudio.microsoft.com/downloads/)
-
 
 ## OWIN Startup Class Detection
 

@@ -12,7 +12,7 @@ msc.type: chapter
 ---
 # ASP.NET MVC Deployment
 
-> How to deploy ASP.NET MVC projects to a server.
+> How to deploy ASP.NET MVC 5.0 projects to a server.
 
 - [Web Deployment Overview for Visual Studio and ASP.NET](https://msdn.microsoft.com/library/dd394698)
 - [Migrating ASP.NET MVC Applications to Windows Containers](docker-aspnetmvc.md)

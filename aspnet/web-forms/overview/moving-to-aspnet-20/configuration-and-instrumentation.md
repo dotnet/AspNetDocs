@@ -15,7 +15,6 @@ by [Microsoft](https://github.com/microsoft)
 
 > There are major changes in configuration and instrumentation in ASP.NET 2.0. The new ASP.NET configuration API allows for configuration changes to be made programmatically. In addition, many new configuration settings exist allow for new configurations and instrumentation.
 
-
 There are major changes in configuration and instrumentation in ASP.NET 2.0. The new ASP.NET configuration API allows for configuration changes to be made programmatically. In addition, many new configuration settings exist allow for new configurations and instrumentation.
 
 In this module, we will discuss ASP.NET the configuration API as it relates to reading from and writing to ASP.NET configuration files, and we will also cover ASP.NET instrumentation. We will also cover the new features available in ASP.NET tracing.
@@ -34,7 +33,6 @@ The ASP.NET configuration API comprises a set of ASP.NET management objects that
 > [!NOTE]
 > The configuration API does not support the creation of IIS applications.
 
-
 ## Working with Local and Remote Configuration Settings
 
 A Configuration object represents the merged view of the configuration settings that apply to a specific physical entity, such as a computer, or to a logical entity, such as an application or a Web site. The specified logical entity can exist on the local computer or on a remote server. When no configuration file exists for a specified entity, the Configuration object represents the default configuration settings as defined by the Machine.config file.
@@ -52,7 +50,6 @@ You use the GetSection or GetSectionGroup method to read configuration informati
 
 > [!NOTE]
 > If you use a static GetSection method that takes a path parameter, the path parameter must refer to the application in which the code is running. Otherwise, the parameter is ignored and the configuration information for the currently running application is returned.
-
 
 ### Writing
 
@@ -91,7 +88,6 @@ The Configuration object represents does not represent a particular configuratio
 
 > [!NOTE]
 > Note that if the /ProductInfo path doesn't exist, the above code will return the default configuration as specified in the machine.config file.
-
 
 Once you have the Configuration object, you can then use the GetSection or GetSectionGroup method to drill into the configuration settings. The following example gets a reference to the impersonation settings for the above ProductInfo application:
 
@@ -193,7 +189,6 @@ You can also forward events to email. Be careful about which event rules you map
 
 > [!NOTE]
 > Neither of these email providers is configured for you. You'll need to add them to your Web.config file.
-
 
 The main difference between these two email providers is that SimpleMailWebEventProvider sends emails in a generic template that cannot be modified. The sample Web.config file adds this email provider to the list of configured providers by using the following rule:
 
@@ -307,7 +302,6 @@ You can also recompile an application in place after adding new source files to 
 > [!NOTE]
 > Compilation of an application that contains a nested application does not compile the nested application. The nested application must be compiled separately.
 
-
 ### [Compiling an Application for Deployment](https://msdn.microsoft.com/library/ms229863.aspx)
 
 You compile an application for deployment (compilation to a target location) by specifying the targetDir parameter. The targetDir can be the final location for the Web application, or the compiled application can be further deployed. Using the **-u** option compiles the application in such a way that you can make changes to certain files in the compiled application without recompiling it. Aspnet\_compiler.exe makes a distinction between static and dynamic file types, and handles them differently when creating the resulting application.
@@ -365,7 +359,6 @@ Each of the following labs builds on the previous labs. You will need to do them
 2. Add a new Web Configuration File to the site.
 3. Add the following to the web.config file:
 
-
 [!code-xml[Main](configuration-and-instrumentation/samples/sample14.xml)]
 
 This will ensure that you have permission to save changes to the web.config file.
@@ -375,22 +368,18 @@ This will ensure that you have permission to save changes to the web.config file
 3. Change the Button control's ID to **btnToggleDebug** and the Text to **Toggle Debug Status**.
 4. Open the Code View for the code-behind file of Default.aspx and add a **using** statement for **System.Web.Configuration** as follows:
 
-
 [!code-csharp[Main](configuration-and-instrumentation/samples/sample15.cs)]
 
 1. Add two private variables to the class and a Page\_Init method as shown below:
-
 
 [!code-csharp[Main](configuration-and-instrumentation/samples/sample16.cs)]
 
 1. Add the following code to Page\_Load:
 
-
 [!code-csharp[Main](configuration-and-instrumentation/samples/sample17.cs)]
 
 1. Save and browse default.aspx. Notice that the Label control displays the current debug status.
 2. Double-click on the Button control in the designer and add the following code to the Click event for the Button control:
-
 
 [!code-csharp[Main](configuration-and-instrumentation/samples/sample18.cs)]
 
@@ -407,16 +396,13 @@ In this lab, you will create code that will allow you to toggle the logging of a
 4. Add a new Label to default.aspx. Change the ID to **lblLogAppEvents**.
 5. Open the code-behind view for default.aspx and add a new declaration for a variable of type HealthMonitoringSection as shown below:
 
-
 [!code-csharp[Main](configuration-and-instrumentation/samples/sample19.cs)]
 
 1. Add the following code to the existing code in Page\_Init:
 
-
 [!code-csharp[Main](configuration-and-instrumentation/samples/sample20.cs)]
 
 1. Double-click on the DropDownList and add the following code to the SelectedIndexChanged event:
-
 
 [!code-csharp[Main](configuration-and-instrumentation/samples/sample21.cs)]
 

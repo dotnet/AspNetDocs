@@ -15,7 +15,6 @@ msc.type: content
 > 
 > Applies to ASP.NET 1.1 and ASP.NET 2.0.
 
-
 Request validation, a feature of ASP.NET since version 1.1, prevents the server from accepting content containing un-encoded HTML. This feature is designed to help prevent some script-injection attacks whereby client script code or HTML can be unknowingly submitted to a server, stored, and then presented to other users. We still strongly recommend that you validate all input data and HTML encode it when appropriate.
 
 For example, you create a Web page that requests a user's email address and then stores that email address in a database. If the user enters &lt;SCRIPT&gt;alert("hello from script")&lt;/SCRIPT&gt; instead of a valid email address, when that data is presented, this script can be executed if the content was not properly encoded. The request validation feature of ASP.NET prevents this from happening.

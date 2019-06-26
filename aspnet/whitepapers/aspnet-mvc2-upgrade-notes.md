@@ -13,7 +13,6 @@ msc.type: content
 
 > This document describes both how to upgrade manually and with a wizard an ASP.NET MVC 1.0 Application to ASP.NET MVC 2. This document is also available for [Download](https://download.microsoft.com/download/F/1/6/F16F9AF9-8EF4-4845-BC97-639791D5699C/MVC2-Upgrade-Notes.pdf)
 
-
 ## Introduction
 
 ASP.NET MVC 2 can be installed side by side with ASP.NET MVC 1.0 on the same server. This gives application developers flexibility in choosing when to upgrade an ASP.NET MVC 1.0 application to ASP.NET MVC 2.

@@ -17,7 +17,6 @@ by [Tom Dykstra](https://github.com/tdykstra)
 
 > This tutorial series shows you how to deploy (publish) an ASP.NET web application to Azure App Service Web Apps or to a third-party hosting provider, by using Visual Studio 2012 or Visual Studio 2010. For information about the series, see [the first tutorial in the series](introduction.md).
 
-
 This page describes some common problems that may arise when you deploy an ASP.NET web application by using Visual Studio. For each one, one or more possible causes and corresponding solutions are provided.
 
 The scenarios shown apply to both Azure and third-party hosting providers. For more information about troubleshooting web apps in Azure App Service, see the following resources:
@@ -40,7 +39,7 @@ By default, ASP.NET shows detailed error information only when your web applicat
 
 To enable the application to display detailed error messages when it runs on the remote host, edit the Web.config file to set customErrors mode off, redeploy the application, and run the application again:
 
-1. If the application Web.config file has acustomErrors element in thesystem.web element, change themode attribute to "off". Otherwise add acustomErrors element in thesystem.web element with themode attribute set to "off", as shown in the following example: 
+1. If the application Web.config file has a customErrors element in the system.web element, change the mode attribute to "off". Otherwise add a customErrors element in the system.web element with the mode attribute set to "off", as shown in the following example: 
 
     [!code-xml[Main](troubleshooting/samples/sample2.xml)]
 2. Deploy the application.
@@ -123,7 +122,7 @@ Format of the initialization string does not conform to specification starting a
 
 ### Possible Cause and Solution
 
-Open the *Web.config* file in the deployed site and check to see whether the connection string values begin with $(ReplacableToken\_, as in the following example:
+Open the *Web.config* file in the deployed site and check to see whether the connection string values begin with `$(ReplaceableToken_`, as in the following example:
 
 [!code-xml[Main](troubleshooting/samples/sample5.xml)]
 

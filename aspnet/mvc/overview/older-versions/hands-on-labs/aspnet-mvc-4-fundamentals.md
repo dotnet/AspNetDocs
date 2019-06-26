@@ -102,7 +102,6 @@ This Hands-On Lab is comprised by the following exercises:
 > [!NOTE]
 > Each exercise is accompanied by an **End** folder containing the resulting solution you should obtain after completing the exercises. You can use this solution as a guide if you need additional help working through the exercises.
 
-
 Estimated time to complete this lab: **60 minutes**.
 
 <a id="Exercise1"></a>
@@ -943,7 +942,6 @@ In this exercise, you will explore the enhancements in the ASP.NET MVC 4 project
 
 > [!NOTE]
 > Additionally, you can deploy this application to Windows Azure Web Sites following [Appendix B: Publishing an ASP.NET MVC 4 Application using Web Deploy](#AppendixB).
-
 
 ---
 

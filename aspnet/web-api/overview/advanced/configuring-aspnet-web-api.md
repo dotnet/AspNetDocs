@@ -1,10 +1,11 @@
 ---
 uid: web-api/overview/advanced/configuring-aspnet-web-api
-title: "Configuring ASP.NET Web API 2 | Microsoft Docs"
+title: "Configuring ASP.NET Web API 2 - ASP.NET 4.x"
 author: MikeWasson
-description: ""
+description: "Configure ASP.NET Web API 2 for ASP.NET 4.x: Configure settings, ASP.NET 4.x hosting, OWIN self-hosting, global services and pre-controller configuration."
 ms.author: riande
 ms.date: 03/31/2014
+ms.custom: seoapril2019
 ms.assetid: 9e10a700-8d91-4d2e-a31e-b8b569fe867c
 msc.legacyurl: /web-api/overview/advanced/configuring-aspnet-web-api
 msc.type: authoredcontent
@@ -38,7 +39,6 @@ Web API configuration settings are defined in the [HttpConfiguration](https://ms
 | **Properties** | A generic property bag. |
 | **Routes** | The collection of routes. See [Routing in ASP.NET Web API](../web-api-routing-and-actions/routing-in-aspnet-web-api.md). |
 | **Services** | The collection of services. See [Services](#services). |
-
 
 ## Prerequisites
 
@@ -84,11 +84,9 @@ The **HttpConfiguration.Services** collection contains a set of global services 
 > [!NOTE]
 > The **Services** collection is not a general-purpose mechanism for service discovery or dependency injection. It only stores service types that are known to the Web API framework.
 
-
 The **Services** collection is initialized with a default set of services, and you can provide your own custom implementations. Some services support multiple instances, while others can have only one instance. (However, you can also provide services at the controller level; see [Per-Controller Configuration](#percontrollerconfig).
 
 Single-Instance Services
-
 
 | Service | Description |
 | --- | --- |
@@ -109,7 +107,6 @@ Single-Instance Services
 | **IModelValidatorCache** | Provides a cache of model validators. |
 
 Multiple-Instance Services
-
 
 |                 Service                 |                                                                                                              Description                                                                                                               |
 |-----------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|

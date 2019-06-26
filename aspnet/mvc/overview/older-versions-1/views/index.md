@@ -13,7 +13,6 @@ msc.type: chapter
 
 > This set of tutorials provides a brief introduction to ASP.NET MVC views, view data, and HTML helpers.
 
-
 - [ASP.NET MVC Views Overview (C#)](asp-net-mvc-views-overview-cs.md)
 - [Creating Custom HTML Helpers (C#)](creating-custom-html-helpers-cs.md)
 - [TagBuilder Class to Build HTML Helpers (C#)](using-the-tagbuilder-class-to-build-html-helpers-cs.md)

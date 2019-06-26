@@ -1,10 +1,11 @@
 ---
 uid: web-api/overview/advanced/dependency-injection
-title: "Dependency Injection in ASP.NET Web API 2 | Microsoft Docs"
+title: "Dependency Injection in ASP.NET Web API 2 - ASP.NET 4.x"
 author: MikeWasson
-description: "This tutorial shows how to inject dependencies into your ASP.NET Web API controller. Software versions used in the tutorial Web API 2 Unity Application Block..."
+description: "This tutorial shows how to inject dependencies into your ASP.NET Web API controller for ASP.NET 4.x."
 ms.author: riande
 ms.date: 01/20/2014
+ms.custom: seoapril2019
 ms.assetid: e3d3e7ba-87f0-4032-bdd3-31f3c1aa9d9c
 msc.legacyurl: /web-api/overview/advanced/dependency-injection
 msc.type: authoredcontent
@@ -23,7 +24,6 @@ by [Mike Wasson](https://github.com/MikeWasson)
 > - Web API 2
 > - [Unity Application Block](https://www.nuget.org/packages/Unity/)
 > - Entity Framework 6 (version 5 also works)
-
 
 ## What is Dependency Injection?
 
@@ -81,7 +81,6 @@ An IoC container is a software component that is responsible for managing depend
 > [!NOTE]
 > "IoC" stands for "inversion of control", which is a general pattern where a framework calls into application code. An IoC container constructs your objects for you, which "inverts" the usual flow of control.
 
-
 For this tutorial, we'll use [Unity](https://msdn.microsoft.com/library/ff647202.aspx) from Microsoft Patterns &amp; Practices. (Other popular libraries include [Castle Windsor](http://www.castleproject.org/), [Spring.Net](http://www.springframework.net/), [Autofac](https://code.google.com/p/autofac/), [Ninject](http://www.ninject.org/), and [StructureMap](http://structuremap.github.io/documentation/).) You can use NuGet Package Manager to install Unity. From the **Tools** menu in Visual Studio, select **NuGet Package Manager**, then select **Package Manager Console**. In the Package Manager Console window, type the following command:
 
 [!code-console[Main](dependency-injection/samples/sample7.cmd)]
@@ -92,7 +91,6 @@ Here is an implementation of **IDependencyResolver** that wraps a Unity containe
 
 > [!NOTE]
 > If the **GetService** method cannot resolve a type, it should return **null**. If the **GetServices** method cannot resolve a type, it should return an empty collection object. Don't throw exceptions for unknown types.
-
 
 ## Configuring the Dependency Resolver
 

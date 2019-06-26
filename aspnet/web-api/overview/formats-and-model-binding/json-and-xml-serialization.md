@@ -1,10 +1,11 @@
 ---
 uid: web-api/overview/formats-and-model-binding/json-and-xml-serialization
-title: "JSON and XML Serialization in ASP.NET Web API | Microsoft Docs"
+title: "JSON and XML Serialization in ASP.NET Web API - ASP.NET 4.x"
 author: MikeWasson
-description: ""
+description: "Describes the JSON and XML formatters in ASP.NET Web API for ASP.NET 4.x."
 ms.author: riande
 ms.date: 05/30/2012
+ms.custom: seoapril2019
 ms.assetid: 1cd7525d-de5e-4ab6-94f0-51480d3255d1
 msc.legacyurl: /web-api/overview/formats-and-model-binding/json-and-xml-serialization
 msc.type: authoredcontent
@@ -214,7 +215,6 @@ Notice that the serializer adds an &quot;$id&quot; property to both objects. Als
 
 > [!NOTE]
 > Object references are not standard in JSON. Before using this feature, consider whether your clients will be able to parse the results. It might be better simply to remove cycles from the graph. For example, the link from Employee back to Department is not really needed in this example.
-
 
 To preserve object references in XML, you have two options. The simpler option is to add `[DataContract(IsReference=true)]` to your model class. The *IsReference* parameter enables object references. Remember that **DataContract** makes serialization opt-in, so you will also need to add **DataMember** attributes to the properties:
 

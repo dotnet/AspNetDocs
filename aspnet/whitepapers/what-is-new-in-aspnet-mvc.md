@@ -13,7 +13,6 @@ msc.type: content
 
 > This document describes new features and improvements introduced in ASP.NET MVC 2. This document is also available for [Download](https://download.microsoft.com/download/F/1/6/F16F9AF9-8EF4-4845-BC97-639791D5699C/WhatIsNewInMVC_2.pdf)
 
-
 [Introduction](#_TOC1)   
 [Upgrading an ASP.NET MVC 1.0 Project to ASP.NET MVC 2](#_TOC2)   
 [New Features](#_TOC3)   
@@ -278,7 +277,6 @@ Custom controller factories are often used to provide dependency injection for A
 The string "area" in Route values now has special meaning in ASP.NET MVC, in the same way that "controller" and "action" do. One implication is that if HTML helpers are supplied with a route-value dictionary containing "area", the helpers will no longer append "area" in the query string.
 
 If you are using the Areas feature, make sure to not use {area} as part of your route URL.
-
 
 ## <a id="_TOC6"></a>  Disclaimer
 

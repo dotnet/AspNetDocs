@@ -6,7 +6,6 @@ description: A list of step-by-step guides for developing ASP.NET applications.
 ms.assetid: fddf8e5e-c055-4f81-b691-78deef871112
 ms.author: riande
 ms.date: 09/20/2017
-ms.technology: aspnet
 ---
 # ASP.NET tutorials
 
@@ -76,7 +75,6 @@ The following step-by-step guides for developing ASP.NET applications are availa
 * [Sending HTML Form Data in Web API: Form-urlencoded Data](web-api/overview/advanced/sending-html-form-data-part-1.md)
 * [Sending HTML Form Data in Web API: File Upload and Multipart MIME](web-api/overview/advanced/sending-html-form-data-part-2.md)
 
-
 ## Web Pages
 
 * [Program ASP.NET Web Pages in Visual Studio](web-pages/overview/getting-started/program-asp-net-web-pages-in-visual-studio.md)
@@ -106,7 +104,6 @@ The following step-by-step guides for developing ASP.NET applications are availa
 * [Analyzing Traffic](web-pages/overview/performance-and-traffic/14-analyzing-traffic.md)
 * [Bundling and Minifying Assets in an ASP.NET Web Pages (Razor) Site](web-pages/overview/performance-and-traffic/bundling-and-minifying-assets-in-an-aspnet-web-pages-razor-site.md)
 
-
 ## ASP.NET SignalR
 
 * [Tutorial: Getting Started with SignalR 2](signalr/overview/getting-started/tutorial-getting-started-with-signalr.md)
@@ -124,7 +121,6 @@ The following step-by-step guides for developing ASP.NET applications are availa
 * [Tutorial: SignalR Self-Host](signalr/overview/deployment/tutorial-signalr-self-host.md)
 * [Using SignalR with Web Apps in Azure App Service](signalr/overview/deployment/using-signalr-with-azure-web-sites.md)
 
-
 ## ASP.NET Identity
 
 * [Adding ASP.NET Identity to an Empty or Existing Web Forms Project](identity/overview/getting-started/adding-aspnet-identity-to-an-empty-or-existing-web-forms-project.md)
@@ -136,7 +132,6 @@ The following step-by-step guides for developing ASP.NET applications are availa
 * [Change Primary Key for Users in ASP.NET Identity](identity/overview/extensibility/change-primary-key-for-users-in-aspnet-identity.md)
 * [Migrating an Existing Website from SQL Membership to ASP.NET Identity](identity/overview/migrations/migrating-an-existing-website-from-sql-membership-to-aspnet-identity.md)
 * [Migrating Universal Provider Data for Membership and User Profiles to ASP.NET Identity (C#)](identity/overview/migrations/migrating-universal-provider-data-for-membership-and-user-profiles-to-aspnet-identity.md)
-
 
 ## OWIN and Katana
 

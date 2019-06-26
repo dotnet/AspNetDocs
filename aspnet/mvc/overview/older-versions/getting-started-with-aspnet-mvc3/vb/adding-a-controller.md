@@ -23,7 +23,6 @@ by [Rick Anderson]((https://twitter.com/RickAndMSFT))
 > 
 > A Visual Web Developer project with VB.NET source code is available to accompany this topic. [Download the VB.NET version](https://code.msdn.microsoft.com/Introduction-to-MVC-3-10d1b098). If you prefer C#, switch to the [C# version](../cs/adding-a-controller.md) of this tutorial.
 
-
 MVC stands for *model-view-controller*. MVC is a pattern for developing applications such that each part has a separate responsibility:
 
 - Model: The data for your application.

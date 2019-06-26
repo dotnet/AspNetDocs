@@ -13,7 +13,6 @@ msc.type: chapter
 
 > This series shows how to use Database First development for creating an MVC 5 application with Entity Framework
 
-
 - [Getting Started with Entity Framework 6 Database First using MVC 5](setting-up-database.md)
 - [Creating the Web Application and Data Models](creating-the-web-application.md)
 - [Generating Views](generating-views.md)

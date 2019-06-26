@@ -17,7 +17,6 @@ by [Jason Lee](https://github.com/jrjlee)
 
 > If you want to perform any kind of build in Team Foundation Server (TFS) 2010, you need to create a build definition within your team project. This topic describes how to create a new build definition in TFS and how to control web deployment as part of the build process in Team Build.
 
-
 This topic forms part of a series of tutorials based around the enterprise deployment requirements of a fictional company named Fabrikam, Inc. This tutorial series uses a sample solution&#x2014;the [Contact Manager solution](../web-deployment-in-the-enterprise/the-contact-manager-solution.md)&#x2014;to represent a web application with a realistic level of complexity, including an ASP.NET MVC 3 application, a Windows Communication Foundation (WCF) service, and a database project.
 
 The deployment method at the heart of these tutorials is based on the split project file approach described in [Understanding the Project File](../web-deployment-in-the-enterprise/understanding-the-project-file.md), in which the build and deployment process is controlled by two project files&#x2014;one containing build instructions that apply to every destination environment, and one containing environment-specific build and deployment settings. At build time, the environment-specific project file is merged into the environment-agnostic project file to form a complete set of build instructions.
@@ -34,7 +33,6 @@ A build definition is the mechanism that controls how and when builds occur for 
 
 > [!NOTE]
 > For more information on build definitions, see [Define Your Build Process](https://msdn.microsoft.com/library/ms181715.aspx).
-
 
 This topic will show you how to create a build definition that uses CI, so that a build is triggered when a developer checks in new content. If the build succeeds, the build service runs a custom project file to deploy the solution to a test environment.
 
@@ -54,7 +52,6 @@ The next section explains how to implement this process by creating a new build 
 
 > [!NOTE]
 > This procedure&#x2014;in which a single automated process builds, tests, and deploys a solution&#x2014;is likely to be most suited to deployment to test environments. For staging and production environments you're a lot more likely to want to deploy content from a previous build that you've already verified and validated in a test environment. This approach is described in the next topic, [Deploying a Specific Build](deploying-a-specific-build.md).
-
 
 ### Who Performs This Procedure?
 
@@ -136,7 +133,6 @@ You can use this information to troubleshoot failed builds and address any probl
 
 > [!NOTE]
 > Builds that execute deployment logic are likely to fail until you have granted the build server any permissions required in the destination environment. For more information, see [Configuring Permissions for Team Build Deployment](configuring-permissions-for-team-build-deployment.md).
-
 
 ## Monitor the Build Process
 

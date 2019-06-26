@@ -35,7 +35,6 @@ by [Web Camps Team](https://twitter.com/webcamps)
 > 
 > All sample code and snippets are included in the Web Camps Training Kit, available at [https://go.microsoft.com/fwlink/?LinkID=248297&clcid=0x409](https://go.microsoft.com/fwlink/?LinkID=248297&clcid=0x409).
 
-
 <a id="Objectives"></a>
 ### Objectives
 
@@ -76,7 +75,6 @@ This hands-on lab includes the following exercises:
 
 > [!NOTE]
 > Each exercise is accompanied by an **End** folder containing the resulting solution you should obtain after completing the exercises. You can use this solution as a guide if you need additional help working through the exercises.
-
 
 Estimated time to complete this lab: **60 minutes**.
 
@@ -604,7 +602,6 @@ Time-consuming operations on your web site are great candidates for asynchronous
 
 > [!NOTE]
 > Additionally, you can deploy this application to Azure following [Appendix B: Publishing an ASP.NET MVC 4 Application using Web Deploy](#AppendixB).
-
 
 ---
 

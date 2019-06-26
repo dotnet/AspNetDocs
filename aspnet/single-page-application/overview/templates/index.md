@@ -13,7 +13,6 @@ msc.type: chapter
 
 > Introduction to using Single Page Application templates
 
-
 - [Backbone Template](backbonejs-template.md)
 - [Breeze/Angular template](breezeangular-template.md)
 - [Breeze/Knockout template](breezeknockout-template.md)

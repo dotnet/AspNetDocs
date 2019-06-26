@@ -17,7 +17,6 @@ by [Joe Stagner](https://github.com/JoeStagner)
 > 
 > This tutorial series details all of the steps taken to build the Tailspin Spyworks sample application. Part 3 covers adding layout and a category menu.
 
-
 ## <a id="_Toc260221669"></a>  Adding Some Layout and a Category Menu
 
 In our site master page we'll add a div for the left side column that will contain our product category menu.
@@ -60,7 +59,7 @@ Please note the "Eval" statement : &lt;%# Eval("CategoryName") %&gt;
 
 The ASP.NET syntax &lt;%# %&gt; is a shorthand convention that instructs the runtime to execute whatever is contained within and output the results "in Line".
 
-The statement Eval("CategoryName") instructs that, for the current entry in the bound collection of data items, fetch the value of the Entity Model item names "CatagoryName". This is concise syntax for a very powerful feature.
+The statement Eval("CategoryName") instructs that, for the current entry in the bound collection of data items, fetch the value of the Entity Model item names "CategoryName". This is concise syntax for a very powerful feature.
 
 Lets run the application now.
 

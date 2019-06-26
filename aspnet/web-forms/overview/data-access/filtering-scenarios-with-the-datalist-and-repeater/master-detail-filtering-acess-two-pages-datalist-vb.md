@@ -17,7 +17,6 @@ by [Scott Mitchell](https://twitter.com/ScottOnWriting)
 
 > In this tutorial we look at how to separate a master/detail report across two pages. In the "master" page we use a Repeater control to render a list of categories that, when clicked, will take the user to the "details" page where a two-column DataList shows those products belonging to the selected category.
 
-
 ## Introduction
 
 In the [Master/Detail Filtering Across Two Pages](../masterdetail/master-detail-filtering-across-two-pages-vb.md) tutorial, we examined this pattern using a GridView to display all of the suppliers in the system. This GridView included a HyperLinkField, which rendered as a link to a second page, passing along the `SupplierID` in the querystring. The second page used a GridView to list those products provided by the selected supplier.
@@ -30,11 +29,9 @@ In this tutorial we'll explore an example that lists the categories in a bullete
 
 The first step in creating any master/detail report is to start by displaying the "master" records. Therefore, our first task is to display the categories in the "master" page. Open the `CategoryListMaster.aspx` page in the `DataListRepeaterFiltering` folder, add a Repeater control, and, from the smart tag, opt to add a new ObjectDataSource. Configure the new ObjectDataSource so that it accesses its data from the `CategoriesBLL` class's `GetCategories` method (see Figure 1).
 
-
 [![Configure the ObjectDataSource to Use the CategoriesBLL Class's GetCategories Method](master-detail-filtering-acess-two-pages-datalist-vb/_static/image2.png)](master-detail-filtering-acess-two-pages-datalist-vb/_static/image1.png)
 
 **Figure 1**: Configure the ObjectDataSource to Use the `CategoriesBLL` Class's `GetCategories` Method ([Click to view full-size image](master-detail-filtering-acess-two-pages-datalist-vb/_static/image3.png))
-
 
 Next, define the Repeater's templates such that it displays each category name and description as an item in a bulleted list. Let's not yet worry about having each category link to the details page. The following shows the declarative markup for the Repeater and ObjectDataSource:
 
@@ -42,11 +39,9 @@ Next, define the Repeater's templates such that it displays each category name a
 
 With this markup complete, take a moment to view our progress through a browser. As Figure 2 shows, the Repeater renders as a bulleted list showing each category's name and description.
 
-
 [![Each Category is Displayed as a Bulleted List Item](master-detail-filtering-acess-two-pages-datalist-vb/_static/image5.png)](master-detail-filtering-acess-two-pages-datalist-vb/_static/image4.png)
 
 **Figure 2**: Each Category is Displayed as a Bulleted List Item ([Click to view full-size image](master-detail-filtering-acess-two-pages-datalist-vb/_static/image6.png))
-
 
 ## Step 2: Turning the Category Name into a Link to the Details Page
 
@@ -66,29 +61,23 @@ One benefit of using the HyperLink control is that it can be programmatically ac
 
 If you are following along, feel free to use either the anchor element or HyperLink control approach in your page. Regardless of the approach, when viewing the page through a browser each category name should be rendered as a link to `ProductsForCategoryDetails.aspx`, passing in the applicable `CategoryID` value (see Figure 3).
 
-
 [![The Category Names Now Link to ProductsForCategoryDetails.aspx](master-detail-filtering-acess-two-pages-datalist-vb/_static/image8.png)](master-detail-filtering-acess-two-pages-datalist-vb/_static/image7.png)
 
 **Figure 3**: The Category Names Now Link to `ProductsForCategoryDetails.aspx` ([Click to view full-size image](master-detail-filtering-acess-two-pages-datalist-vb/_static/image9.png))
-
 
 ## Step 3: Listing the Products that Belong to the Selected Category
 
 With the `CategoryListMaster.aspx` page complete, we're ready to turn our attention to implementing the "details" page, `ProductsForCategoryDetails.aspx`. Open this page, drag a DataList from the Toolbox onto the Designer, and set its `ID` property to `ProductsInCategory`. Next, from the DataList's smart tag choose to add a new ObjectDataSource to the page, naming it `ProductsInCategoryDataSource`. Configure it such that it calls the `ProductsBLL` class's `GetProductsByCategoryID(categoryID)` method; set the drop-down lists in the INSERT, UPDATE, and DELETE tabs to (None).
 
-
 [![Configure the ObjectDataSource to Use the ProductsBLL Class's GetProductsByCategoryID(categoryID) Method](master-detail-filtering-acess-two-pages-datalist-vb/_static/image11.png)](master-detail-filtering-acess-two-pages-datalist-vb/_static/image10.png)
 
 **Figure 4**: Configure the ObjectDataSource to Use the `ProductsBLL` Class's `GetProductsByCategoryID(categoryID)` Method ([Click to view full-size image](master-detail-filtering-acess-two-pages-datalist-vb/_static/image12.png))
 
-
 Since the `GetProductsByCategoryID(categoryID)` method accepts an input parameter (*`categoryID`*), the Choose Data Source wizard offers us an opportunity to specify the parameter's source. Set the parameter source to QueryString using the QueryStringField `CategoryID`.
-
 
 [![Use the Querystring Field CategoryID as the Parameter's Source](master-detail-filtering-acess-two-pages-datalist-vb/_static/image14.png)](master-detail-filtering-acess-two-pages-datalist-vb/_static/image13.png)
 
 **Figure 5**: Use the Querystring Field `CategoryID` as the Parameter's Source ([Click to view full-size image](master-detail-filtering-acess-two-pages-datalist-vb/_static/image15.png))
-
 
 As we've seen in previous tutorials, after completing the Choose Data Source wizard, Visual Studio automatically creates an `ItemTemplate` for the DataList that lists each data field name and value. Replace this template with one that lists only the product's name, supplier, and price. Also, set the DataList's `RepeatColumns` property to 2. After these changes, your DataList and ObjectDataSource's declarative markup should look similar to the following:
 
@@ -96,11 +85,9 @@ As we've seen in previous tutorials, after completing the Choose Data Source wiz
 
 To view this page in action, start from the `CategoryListMaster.aspx` page; next, click on a link in the categories bulleted list. Doing so will take you to `ProductsForCategoryDetails.aspx`, passing along the `CategoryID` through the querystring. The `ProductsInCategoryDataSource` ObjectDataSource in `ProductsForCategoryDetails.aspx` will then get just those products for the specified category and display them in the DataList, which renders two products per row. Figure 6 shows a screenshot of `ProductsForCategoryDetails.aspx` when viewing the Beverages.
 
-
 [![The Beverages are Displayed, Two per Row](master-detail-filtering-acess-two-pages-datalist-vb/_static/image17.png)](master-detail-filtering-acess-two-pages-datalist-vb/_static/image16.png)
 
 **Figure 6**: The Beverages are Displayed, Two per Row ([Click to view full-size image](master-detail-filtering-acess-two-pages-datalist-vb/_static/image18.png))
-
 
 ## Step 4: Displaying Category Information on ProductsForCategoryDetails.aspx
 
@@ -108,11 +95,9 @@ When a user clicks on a category in `CategoryListMaster.aspx`, they are taken to
 
 To accomplish this, add a FormView above the Repeater control in `ProductsForCategoryDetails.aspx`. Next, add a new ObjectDataSource to the page from the FormView's smart tag named `CategoryDataSource` and configure it to use the `CategoriesBLL` class's `GetCategoryByCategoryID(categoryID)` method.
 
-
 [![Access Information about the Category through the CategoriesBLL Class's GetCategoryByCategoryID(categoryID) Method](master-detail-filtering-acess-two-pages-datalist-vb/_static/image20.png)](master-detail-filtering-acess-two-pages-datalist-vb/_static/image19.png)
 
 **Figure 7**: Access Information about the Category through the `CategoriesBLL` Class's `GetCategoryByCategoryID(categoryID)` Method ([Click to view full-size image](master-detail-filtering-acess-two-pages-datalist-vb/_static/image21.png))
-
 
 As with the `ProductsInCategoryDataSource` ObjectDataSource added in Step 3, the `CategoryDataSource`'s Configure Data Source wizard prompts us for a source for the `GetCategoryByCategoryID(categoryID)` method's input parameter. Use the exact same settings as before, setting the parameter source to QueryString and the QueryStringField value to `CategoryID` (refer back to Figure 5).
 
@@ -125,11 +110,9 @@ Figure 8 shows a screen shot when viewing this page through a browser.
 > [!NOTE]
 > In addition to the FormView, I've also added a HyperLink control above the FormView that will take the user back to the list of categories (`CategoryListMaster.aspx`). Feel free to place this link elsewhere or to omit it altogether.
 
-
 [![Category Information is Now Displayed at the Top of the Page](master-detail-filtering-acess-two-pages-datalist-vb/_static/image23.png)](master-detail-filtering-acess-two-pages-datalist-vb/_static/image22.png)
 
 **Figure 8**: Category Information is Now Displayed at the Top of the Page ([Click to view full-size image](master-detail-filtering-acess-two-pages-datalist-vb/_static/image24.png))
-
 
 ## Step 5: Displaying a Message if No Products Belong to the Selected Category
 
@@ -151,11 +134,9 @@ All of the categories in the Northwind database are associated with one or more 
 
 After updating the database accordingly, return to the `CategoryListMaster.aspx` page and click on the Produce link. Since there are no longer any products belonging to the Produce category, you should see the "There are no products for the selected category…" message, as shown in Figure 9.
 
-
 [![A Message is Displayed if there are No Products Belonging to the Selected Category](master-detail-filtering-acess-two-pages-datalist-vb/_static/image26.png)](master-detail-filtering-acess-two-pages-datalist-vb/_static/image25.png)
 
 **Figure 9**: A Message is Displayed if there are No Products Belonging to the Selected Category ([Click to view full-size image](master-detail-filtering-acess-two-pages-datalist-vb/_static/image27.png))
-
 
 ## Summary
 

@@ -13,7 +13,6 @@ msc.type: chapter
 
 > The Web Forms model and how to create pages and use controls.
 
-
 - [Getting Started with ASP.NET 4.5 Web Forms and Visual Studio 2013](getting-started-with-aspnet-45-web-forms/index.md)
 
     - [Getting Started with Web Forms and Visual Studio](getting-started-with-aspnet-45-web-forms/introduction-and-overview.md)

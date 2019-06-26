@@ -54,7 +54,6 @@ This code adds a simple piece of middleware to the OWIN pipeline, implemented as
 > [!NOTE]
 > The OWIN Startup class template is available in Visual Studio 2013. If you are using Visual Studio 2012, just add a new empty class named `Startup1`, and paste in the following code:
 
-
 [!code-csharp[Main](getting-started-with-owin-and-katana/samples/sample2.cs)]
 
 ### Run the Application

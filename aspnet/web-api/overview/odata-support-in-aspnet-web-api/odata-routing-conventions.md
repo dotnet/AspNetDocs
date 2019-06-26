@@ -1,10 +1,11 @@
 ---
 uid: web-api/overview/odata-support-in-aspnet-web-api/odata-routing-conventions
-title: "Routing Conventions in ASP.NET Web API 2 Odata | Microsoft Docs"
+title: "Routing Conventions in ASP.NET Web API 2 Odata - ASP.NET 4.x"
 author: MikeWasson
-description: "This article describes the routing conventions that Web API uses for OData endpoints."
+description: "Describes routing conventions that Web API 2 in ASP.NET 4.x uses for OData endpoints."
 ms.author: riande
 ms.date: 07/31/2013
+ms.custom: seoapril2019
 ms.assetid: adbc175a-14eb-4ab2-a441-d056ffa8266f
 msc.legacyurl: /web-api/overview/odata-support-in-aspnet-web-api/odata-routing-conventions
 msc.type: authoredcontent
@@ -13,8 +14,7 @@ msc.type: authoredcontent
 
 by [Mike Wasson](https://github.com/MikeWasson)
 
-> This article describes the routing conventions that Web API uses for OData endpoints.
-
+> This article describes the routing conventions that Web API 2 in ASP.NET 4.x uses for OData endpoints.
 
 When Web API gets an OData request, it maps the request to a controller name and an action name. The mapping is based on the HTTP method and the URI. For example, `GET /odata/Products(1)` maps to `ProductsController.GetProduct`.
 
@@ -46,7 +46,6 @@ So this path picks out the supplier of product 1.
 
 > [!NOTE]
 > OData path segments do not always correspond to URI segments. For example, "1" is considered a path segment.
-
 
 **Controller Names.** The controller name is always derived from the entity set at the root of the resource path. For example, if the resource path is `/Products(1)/Supplier`, Web API looks for a controller named `ProductsController`.
 

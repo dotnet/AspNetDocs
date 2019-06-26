@@ -17,7 +17,6 @@ by [Patrick Fletcher](https://github.com/pfletcher), [Tim Teebken](https://githu
 
 > This tutorial shows how to use SignalR to create a real-time chat application. You will add SignalR to an empty ASP.NET web application and create an HTML page to send and display messages.
 
-
 ## Overview
 
 This tutorial introduces SignalR development by showing how to build a simple browser-based chat application. You will add the SignalR library to an empty ASP.NET web application, create a hub class for sending messages to clients, and create an HTML page that lets users send and receive chat messages. For a similar tutorial that shows how to create a chat application in MVC 4 using an MVC view, see [Getting Started with SignalR and MVC 4](index.md).
@@ -142,7 +141,6 @@ The following code declares a proxy for a hub.
 > [!NOTE]
 > In jQuery the reference to the server class and its members is in camel case. The code sample references the C# **ChatHub** class in jQuery as **chatHub**.
 
-
 The following code is how you create a callback function in the script. The hub class on the server calls this function to push content updates to each client. The two lines that HTML encode the content before displaying it are optional and show a simple way to prevent script injection.
 
 [!code-html[Main](tutorial-getting-started-with-signalr/samples/sample7.html)]
@@ -151,7 +149,6 @@ The following code shows how to open a connection with the hub. The code starts 
 
 > [!NOTE]
 > This approach insures that the connection is established before the event handler executes.
-
 
 [!code-javascript[Main](tutorial-getting-started-with-signalr/samples/sample8.js)]
 

@@ -1,10 +1,11 @@
 ---
 uid: web-api/overview/advanced/http-message-handlers
-title: "HTTP Message Handlers in ASP.NET Web API | Microsoft Docs"
+title: "HTTP Message Handlers in ASP.NET Web API - ASP.NET 4.x"
 author: MikeWasson
-description: ""
+description: "An overview of HTTP message handlers in ASP.NET Web API for ASP.NET 4.x"
 ms.author: riande
 ms.date: 02/13/2012
+ms.custom: seoapril2019
 ms.assetid: 9002018b-3aa3-4358-bb1c-fbb5bc751d01
 msc.legacyurl: /web-api/overview/advanced/http-message-handlers
 msc.type: authoredcontent
@@ -40,7 +41,6 @@ This diagram shows two custom handlers inserted into the pipeline:
 > [!NOTE]
 > On the client side, HttpClient also uses message handlers. For more information, see [HttpClient Message Handlers](httpclient-message-handlers.md).
 
-
 ## Custom Message Handlers
 
 To write a custom message handler, derive from **System.Net.Http.DelegatingHandler** and override the **SendAsync** method. This method has the following signature:
@@ -60,7 +60,6 @@ Here is a trivial example:
 
 > [!NOTE]
 > The call to `base.SendAsync` is asynchronous. If the handler does any work after this call, use the **await** keyword, as shown.
-
 
 A delegating handler can also skip the inner handler and directly create the response:
 
@@ -124,7 +123,6 @@ If the request does not have a valid key, the handler creates a response message
 
 > [!NOTE]
 > If the API key applies only to certain controller actions, consider using an action filter instead of a message handler. Action filters run after URI routing is performed.
-
 
 ## Per-Route Message Handlers
 

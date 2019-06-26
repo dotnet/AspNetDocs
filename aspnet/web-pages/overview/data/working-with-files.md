@@ -43,7 +43,6 @@ by [Tom FitzMacken](https://github.com/tfitzmac)
 > 
 > This tutorial also works with WebMatrix 3.
 
-
 <a id="Creating_a_Text_File"></a>
 ## Creating a Text File and Writing Data to It
 
@@ -139,7 +138,6 @@ This procedure shows you how to read and display the data that you created in th
 > 
 > You can use Microsoft Excel to save the data contained in a spreadsheet as a comma-delimited file (*.csv* file). When you do, the file is saved in plain text, not in Excel format. Each row in the spreadsheet is separated by a line break in the text file, and each data item is separated by a comma. You can use the code shown in the previous example to read an Excel comma-delimited file just by changing the name of the data file in your code.
 
-
 <a id="Deleting_Files"></a>
 ## Deleting Files
 
@@ -148,7 +146,6 @@ To delete files from your website, you can use the `File.Delete` method. This pr
 > [!NOTE] 
 > 
 > **Important** In a production website, you typically restrict who's allowed to make changes to the data. For information about how to set up membership and about ways to authorize users to perform tasks on the site, see [Adding Security and Membership to an ASP.NET Web Pages Site](https://go.microsoft.com/fwlink/?LinkId=202904).
-
 
 1. In the website, create a subfolder named *images*.
 2. Copy one or more *.jpg* files into the *images* folder.
@@ -249,7 +246,6 @@ In the previous example, you let users upload one file. But you can use the `Fil
 
 <a id="Additional_Resources"></a>
 ## Additional Resources
-
 
 [Working with Images in an ASP.NET Web Pages Site](https://go.microsoft.com/fwlink/?LinkId=202897)
 

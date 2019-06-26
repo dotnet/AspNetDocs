@@ -70,7 +70,6 @@ One solution is to use an IoC container. An IoC container is a software componen
 > [!NOTE]
 > "IoC" stands for "inversion of control", which is a general pattern where a framework calls into application code. An IoC container constructs your objects for you, which "inverts" the usual flow of control.
 
-
 ## Using IoC Containers in SignalR
 
 The Chat application is probably too simple to benefit from an IoC container. Instead, let's look at the [StockTicker](http://nuget.org/packages/microsoft.aspnet.signalr.sample) sample.

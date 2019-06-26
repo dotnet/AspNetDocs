@@ -15,22 +15,17 @@ by [Microsoft](https://github.com/microsoft)
 
 > HTMLEditor is an ASP.NET AJAX Control that allows you to easily create and edit HTML content via buttons in a toolbar.
 
-
 The goal of this tutorial is to provide you with an overview of the HTML Editor control included with the AJAX Control Toolkit. The HTML Editor includes options for changing font size, selecting a font, changing background color, modifying the foreground color, adding links, adding images, changing text alignment, and performing cut, copy, and paste operations (see Figure 1).
-
 
 [![The HTML Editor](how-do-i-use-the-html-editor-control-vb/_static/image1.jpg)](how-do-i-use-the-html-editor-control-vb/_static/image1.png)
 
 **Figure 01**: The HTML Editor([Click to view full-size image](how-do-i-use-the-html-editor-control-vb/_static/image2.png))
 
-
 The HTML editor enables you to enter content using a design mode or you can enter HTML directly. You also are provided with the option to preview your HTML content (see Figure 2).
-
 
 [![Design, HTML, and Preview buttons](how-do-i-use-the-html-editor-control-vb/_static/image2.jpg)](how-do-i-use-the-html-editor-control-vb/_static/image3.png)
 
 **Figure 02**: Design, HTML, and Preview buttons([Click to view full-size image](how-do-i-use-the-html-editor-control-vb/_static/image4.png))
-
 
 In this tutorial, you learn how to display the HTML Editor, how to customize the toolbar buttons that appear in the HTML Editor, and how to avoid Cross-Site Scripting Attacks.
 
@@ -42,11 +37,9 @@ You should place the ScriptManager control at the top of the page before any oth
 
 The HTML Editor control is located in the toolbox with the rest of the AJAX Control Toolkit controls. It is named the Editor control (see Figure 3).
 
-
 [![The HTML Editor control](how-do-i-use-the-html-editor-control-vb/_static/image3.jpg)](how-do-i-use-the-html-editor-control-vb/_static/image5.png)
 
 **Figure 03**: The HTML Editor control([Click to view full-size image](how-do-i-use-the-html-editor-control-vb/_static/image6.png))
-
 
 After you drag the HTML Editor onto a page, you can set its properties in the property sheet. For example, you normally want to set the Width and Height properties. Listing 1 contains the source for an ASP.NET page that contains an HTML editor.
 
@@ -56,11 +49,9 @@ After you drag the HTML Editor onto a page, you can set its properties in the pr
 
 The page in Listing 1 contains an HTML Editor control, a Button control, and a Literal control. When you click the button, the contents of the HTML Editor appear in the Literal control (see Figure 4).
 
-
 [![Submitting a form with an HTML Editor](how-do-i-use-the-html-editor-control-vb/_static/image4.jpg)](how-do-i-use-the-html-editor-control-vb/_static/image7.png)
 
 **Figure 04**: Submitting a form with an HTML Editor([Click to view full-size image](how-do-i-use-the-html-editor-control-vb/_static/image8.png))
-
 
 The HTML Editor Content property is used to retrieve the HTML content entered into the HTML Editor. Be aware that this HTML content can contain JavaScript. In the next section, we discuss how you can prevent JavaScript Injection Attacks.
 
@@ -68,11 +59,9 @@ The HTML Editor Content property is used to retrieve the HTML content entered in
 
 You can customize exactly which buttons appear in the editor. For example, you might want to remove the HTML tab to prevent users from switching the HTML Editor into HTML mode. Or, you might want to remove the font size dropdown list to prevent users from creating overly large text in a forum message post (see Figure 5).
 
-
 [![A customized HTML Editor](how-do-i-use-the-html-editor-control-vb/_static/image5.jpg)](how-do-i-use-the-html-editor-control-vb/_static/image9.png)
 
 **Figure 05**: A customized HTML Editor([Click to view full-size image](how-do-i-use-the-html-editor-control-vb/_static/image10.png))
-
 
 You customize the toolbar buttons by deriving a new HTML Editor from the base Editor class. For example, the custom editor in Listing 2 only contains toolbar buttons for bold and italic. All other toolbar buttons have been removed. Furthermore, the HTML tab has been removed from the bottom of the editor (but the Design and Preview tabs are still there).
 

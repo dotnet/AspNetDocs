@@ -17,7 +17,6 @@ by [Scott Mitchell](https://twitter.com/ScottOnWriting)
 
 > The TableAdapters within a Typed DataSet automatically take care of connecting to the database, issuing commands, and populating a DataTable with the results. There are occasions however when we want to take care of these details ourselves, and in this tutorial we learn how to access the database connection- and command-level settings in the TableAdapter.
 
-
 ## Introduction
 
 Throughout the tutorial series we have used Typed DataSets to implement the Data Access Layer and business objects of our layered architecture. As discussed in the [first tutorial](../introduction/creating-a-data-access-layer-vb.md), the Typed DataSet s DataTables serve as repositories of data whereas the TableAdapters act as wrappers to communicate with the database to retrieve and modify the underlying data. The TableAdapters encapsulate the complexity involved in working with the database and saves us from having to write code to connect to the database, issue a command, or populate the results into a DataTable.
@@ -44,24 +43,19 @@ Except for the [Wrapping Database Modifications within a Transaction](../working
 
 Each TableAdapter class has a `Connection` property that specifies database connection information. This property s data type and `ConnectionString` value are determined by the selections made in the TableAdapter Configuration wizard. Recall that when we first add a TableAdapter to a Typed DataSet this wizard asks us for the database source (see Figure 1). The drop-down list in this first step includes those databases specified in the configuration file as well as any other databases in the Server Explorer s Data Connections. If the database we want to use does not exist in the drop-down list, a new database connection can be specified by clicking the New Connection button and providing the needed connection information.
 
-
 [![The First Step of the TableAdapter Configuration Wizard](configuring-the-data-access-layer-s-connection-and-command-level-settings-vb/_static/image2.png)](configuring-the-data-access-layer-s-connection-and-command-level-settings-vb/_static/image1.png)
 
 **Figure 1**: The First Step of the TableAdapter Configuration Wizard ([Click to view full-size image](configuring-the-data-access-layer-s-connection-and-command-level-settings-vb/_static/image3.png))
-
 
 Let s take a moment to inspect the code for the TableAdapter s `Connection` property. As noted in the [Creating a Data Access Layer](../introduction/creating-a-data-access-layer-vb.md) tutorial, we can view the auto-generated TableAdapter code by going to the Class View window, drilling down to the appropriate class, and then double-clicking the member name.
 
 Navigate to the Class View window by going to the View menu and choosing Class View (or by typing Ctrl+Shift+C). From the top half of the Class View window, drill down to the `NorthwindTableAdapters` namespace and select the `ProductsTableAdapter` class. This will display the `ProductsTableAdapter` s members in the bottom half of the Class View, as shown in Figure 2. Double-click the `Connection` property to see its code.
 
-
 ![Double-Click the Connection Property in the Class View to View Its Auto-Generated Code](configuring-the-data-access-layer-s-connection-and-command-level-settings-vb/_static/image4.png)
 
 **Figure 2**: Double-Click the Connection Property in the Class View to View Its Auto-Generated Code
 
-
 The TableAdapter s `Connection` property and other connection-related code follows:
-
 
 [!code-vb[Main](configuring-the-data-access-layer-s-connection-and-command-level-settings-vb/samples/sample1.vb)]
 
@@ -78,17 +72,13 @@ Let s extend the `ProductsTableAdapter` in the `Northwind` DataSet to include a 
 > [!NOTE]
 > A *connection string* is a string that specifies database connection information, such as the provider to use, the location of the database, authentication credentials, and other database-related settings. For a list of connection string patterns used by a variety of data stores and providers, see [ConnectionStrings.com](http://www.connectionstrings.com/).
 
-
 As discussed in the [Creating a Data Access Layer](../introduction/creating-a-data-access-layer-vb.md) tutorial, the Typed DataSet s auto-generated classes can be extended through the use of partial classes. First, create a new subfolder in the project named `ConnectionAndCommandSettings` underneath the `~/App_Code/DAL` folder.
-
 
 ![Add a Subfolder Named ConnectionAndCommandSettings](configuring-the-data-access-layer-s-connection-and-command-level-settings-vb/_static/image5.png)
 
 **Figure 3**: Add a Subfolder Named `ConnectionAndCommandSettings`
 
-
 Add a new class file named `ProductsTableAdapter.ConnectionAndCommandSettings.vb` and enter the following code:
-
 
 [!code-vb[Main](configuring-the-data-access-layer-s-connection-and-command-level-settings-vb/samples/sample2.vb)]
 
@@ -102,11 +92,9 @@ This partial class exposes just one property of the underlying connection object
 
 Open the `Northwind` DataSet, click on the `ProductsTableAdapter` in the Designer, and navigate to the Properties window. There you will see the `ConnectionModifier` set to its default value, `Assembly`. To make the `Connection` property available outside of the Typed DataSet s assembly, change the `ConnectionModifier` property to `Public`.
 
-
 [![The Connection Property s Accessibility Level Can Be Configured via the ConnectionModifier Property](configuring-the-data-access-layer-s-connection-and-command-level-settings-vb/_static/image7.png)](configuring-the-data-access-layer-s-connection-and-command-level-settings-vb/_static/image6.png)
 
 **Figure 4**: The `Connection` Property s Accessibility Level Can Be Configured via the `ConnectionModifier` Property ([Click to view full-size image](configuring-the-data-access-layer-s-connection-and-command-level-settings-vb/_static/image8.png))
-
 
 Save the DataSet and then return to the `ProductsBLL` class. As before, go to one of the existing methods and type in `Adapter` and then hit the period key to bring up IntelliSense. The list should include a `Connection` property, meaning that you can now programmatically read or assign any connection-level settings from the BLL.
 
@@ -126,7 +114,6 @@ In addition to its main query, the TableAdapter can include a variable number of
 
 Let s take a moment to look at the code generated by the `ProductsTableAdapter` in the `Northwind` DataSet for these two properties and their supporting member variables and helper methods:
 
-
 [!code-vb[Main](configuring-the-data-access-layer-s-connection-and-command-level-settings-vb/samples/sample3.vb)]
 
 The code for the `Adapter` and `CommandCollection` properties closely mimics that of the `Connection` property. There are member variables that hold the objects used by the properties. The properties `Get` accessors start by checking to see if the corresponding member variable is `Nothing`. If so, an initialization method is called which creates an instance of the member variable and assigns the core command-related properties.
@@ -141,14 +128,12 @@ For example, imagine that there were certain queries in the TableAdapter that to
 
 To allow the `CommandTimeout` property to be adjusted by the BLL, add the following `Public` method to the `ProductsDataTable` using the partial class file created in Step 2 (`ProductsTableAdapter.ConnectionAndCommandSettings.vb`):
 
-
 [!code-vb[Main](configuring-the-data-access-layer-s-connection-and-command-level-settings-vb/samples/sample4.vb)]
 
 This method could be invoked from the BLL or Presentation Layer to set the command timeout for all commands issues by that TableAdapter instance.
 
 > [!NOTE]
 > The `Adapter` and `CommandCollection` properties are marked as `Private`, meaning they can only be accessed from code within the TableAdapter. Unlike the `Connection` property, these access modifiers are not configurable. Therefore, if you need to expose command-level properties to other layers in the architecture you must use the partial class approach discussed above to provide a `Public` method or property that reads or writes to the `Private` command objects.
-
 
 ## Summary
 

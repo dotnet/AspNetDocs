@@ -13,6 +13,5 @@ msc.type: chapter
 
 > This tutorial shows how to use the ComboBox control, which combines the flexibility of a text box with a list of options that users can choose from.
 
-
 - [ComboBox Control (C#)](how-do-i-use-the-combobox-control-cs.md)
 - [ComboBox Control (VB)](how-do-i-use-the-combobox-control-vb.md)

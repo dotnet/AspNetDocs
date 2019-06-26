@@ -15,7 +15,6 @@ by [Microsoft](https://github.com/microsoft)
 
 > ASP.NET 2.0 enhances server controls in many ways. In this module, we'll cover some of the architectural changes to the way ASP.NET 2.0 and Visual Studio 2005 deals with server controls.
 
-
 ASP.NET 2.0 enhances server controls in many ways. In this module, we'll cover some of the architectural changes to the way ASP.NET 2.0 and Visual Studio 2005 deals with server controls.
 
 ## View state
@@ -53,15 +52,11 @@ In ASP.NET 2.0, control state solves that problem nicely via the introduction of
 > [!NOTE]
 > Control state is persisted along with the view state in the \_\_VIEWSTATE hidden form field.
 
-
 This video is a walkthrough of view state and control state.
-
 
 ![](server-controls/_static/image1.png)
 
-
 [Open Full-Screen Video](server-controls/_static/state1.wmv)
-
 
 In order for a server control to read and write to control state, you must take three steps.
 
@@ -93,7 +88,7 @@ In ASP.NET 2.0, the default DOCTYPE definition is as follows:
 
 [!code-html[Main](server-controls/samples/sample7.html)]
 
-If you choose, you can alter the default XHML compliance via the xhtmlConformance node in the configuration file. For example, the following node in the web.config file will change XHTML compliance to XHTML 1.0 Strict:
+If you choose, you can alter the default XHTML compliance via the xhtmlConformance node in the configuration file. For example, the following node in the web.config file will change XHTML compliance to XHTML 1.0 Strict:
 
 [!code-xml[Main](server-controls/samples/sample8.xml)]
 
@@ -107,7 +102,6 @@ In ASP.NET 1.x, the configuration file contained a &lt;browserCaps&gt; section t
 
 > [!NOTE]
 > The ControlAdapter class is an abstract class.
-
 
 Much like the &lt;browserCaps&gt; section in 1.x, the browser definition file uses a Regular Expression to parse the user agent string in order to identify the requesting browser. It them defines particular capabilities for that user agent. The ControlAdapter renders the control via the Render method. Therefore, if you override the Render method, you should not call Render on the base class. Doing so may cause rendering to occur twice, once for the adapter and once for the control itself.
 
@@ -151,21 +145,17 @@ The following are new server controls in ASP.NET 2.0. We will go into more detai
 
 The ImageMap control allows you to add hotspots to an image that can initiate a post back or navigate to a URL. There are three types of hotspots available; CircleHotSpot, RectangleHotSpot, and PolygonHotSpot. Hotspots are added via a collection editor in Visual Studio or programmatically in code. There is no user-interface available for drawing hotspots on an image. The coordinates and size or radius of the hotspot must be specified declaratively. There is also no visual representation of a hotspot in the designer. If a hotspot is configured to navigate to a URL, the URL is specified via the NavigateUrl property of the hotspot. In the case of a post back hotspot, the PostBackValue property allows you to pass a string in the post back that can be retrieved in server-side code.
 
-
 ![HotSpot Collection Editor in Visual Studio](server-controls/_static/image1.jpg)
 
 **Figure 1**: HotSpot Collection Editor in Visual Studio
-
 
 ## BulletedList Control
 
 The BulletedList control is a bulleted list that can easily be data bound. The list can be ordered (numbered) or unordered via the BulletStyle property. Each item in the list is represented by a ListItem object.
 
-
 ![BulletedList Control in Visual Studio](server-controls/_static/image1.gif)
 
 **Figure 2**: BulletedList Control in Visual Studio
-
 
 ## HiddenField Control
 
@@ -198,15 +188,11 @@ It is fairly common to encounter ASP.NET developers struggling with attempting t
 > [!NOTE]
 > The Wizard control keeps track of its state using ASP.NET control state. Therefore, the EnableViewState property can be set to false without any detriment.
 
-
 This video is a walkthrough of the Wizard control.
-
 
 ![](server-controls/_static/image2.png)
 
-
 [Open Full-Screen Video](server-controls/_static/wizard1.wmv)
-
 
 ## Localize Control
 
