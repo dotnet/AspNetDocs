@@ -15,7 +15,7 @@ by [Rick Anderson]((https://twitter.com/RickAndMSFT))
 
 [!INCLUDE [Tutorial Note](sample/code-location.md)]
 
-In this section, you'll examine the generated `Edit` action methods and views for the movie controller. But first will take a short diversion to make the release date look better. Open the *Models\Movie.cs* file and add the highlighted lines shown below:
+In this section, you'll examine the generated `Edit` action methods and views for the movie controller. But first we'll take a short diversion to make the release date look better. Open the *Models\Movie.cs* file and add the highlighted lines shown below:
 
 [!code-csharp[Main](examining-the-edit-methods-and-edit-view/samples/sample1.cs?highlight=2,12-14)]
 

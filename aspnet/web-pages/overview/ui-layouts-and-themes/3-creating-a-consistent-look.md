@@ -47,7 +47,7 @@ The following diagram shows how content blocks work. When a browser requests a p
 
 In this procedure, you'll create a page that references two content blocks (a header and a footer) that are located in separate files. You can use these same content blocks in any page in your site. When you're done, you'll get a page like this:
 
-![Screenshot showing a page in the browser that results from running a page that includes calls to the RenderPage method.](3-creating-a-consistent-look/_static/image2.jpg)
+![Screenshot showing a page in the browser that results from running a page that includes calls to the RenderPage method.](3-creating-a-consistent-look/_static/image2.png)
 
 1. In the root folder of your website, create a file named *Index.cshtml*.
 2. Replace the existing markup with the following:
@@ -112,7 +112,7 @@ The following procedure shows how to create a layout page and link content pages
     This is a page that will use a layout page. The code block at the top of the page indicates which layout page to use to format this content.
 7. Run *Content1.cshtml* in a browser. The rendered page uses the format and style sheet defined in *\_Layout1.cshtml* and the text (content) defined in *Content1.cshtml*.
 
-    ![[image]](3-creating-a-consistent-look/_static/image4.jpg)
+    ![[image]](3-creating-a-consistent-look/_static/image4.png)
 
     You can repeat step 6 to create additional content pages that can then share the same layout page.
 
@@ -142,7 +142,7 @@ This procedure shows how to create a content page that has multiple content sect
     This content page contains a code block at the top of the page. Each named section is contained in a section block. The rest of the page contains the default (unnamed) content section.
 4. Run *Content2.cshtml* in a browser.
 
-    ![Screenshot showing a page in the browser that results from running a page that includes calls to the RenderSection method.](3-creating-a-consistent-look/_static/image6.jpg)
+    ![Screenshot showing a page in the browser that results from running a page that includes calls to the RenderSection method.](3-creating-a-consistent-look/_static/image6.png)
 
 ## Making Content Sections Optional
 
@@ -159,7 +159,7 @@ However, you can override this behavior for a named section by declaring the sec
     [!code-cshtml[Main](3-creating-a-consistent-look/samples/sample12.cshtml)]
 2. Save the page and then run it in a browser. An error message is displayed, because the content page doesn't provide content for a section defined in the layout page, namely the header section.
 
-    ![Screenshot that shows the error that occurs if you run a page that calls RenderSection method but the corresponding section is not provided.](3-creating-a-consistent-look/_static/image7.jpg)
+    ![Screenshot that shows the error that occurs if you run a page that calls RenderSection method but the corresponding section is not provided.](3-creating-a-consistent-look/_static/image7.png)
 3. In the *Shared* folder, open the *\_Layout2.cshtml* page and replace this line:
 
     [!code-javascript[Main](3-creating-a-consistent-look/samples/sample13.js)]
@@ -204,10 +204,10 @@ The following procedure shows how to pass data from a content page to a layout p
     [!code-html[Main](3-creating-a-consistent-look/samples/sample18.html)]
 4. Run the *Content3.cshtml* page in a browser. The page is displayed with the list visible on the left side of the page and a **Hide List** button at the bottom.
 
-    ![Screenshot showing the page that includes the list and a button that says 'Hide List'.](3-creating-a-consistent-look/_static/image10.jpg)
+    ![Screenshot showing the page that includes the list and a button that says 'Hide List'.](3-creating-a-consistent-look/_static/image10.png)
 5. Click **Hide List**. The list disappears and the button changes to **Show List**.
 
-    ![Screenshot showing the page that does not include the list and a button that says 'Show List'.](3-creating-a-consistent-look/_static/image11.jpg)
+    ![Screenshot showing the page that does not include the list and a button that says 'Show List'.](3-creating-a-consistent-look/_static/image11.png)
 6. Click the **Show List** button, and the list is displayed again.
 
 ## Additional Resources

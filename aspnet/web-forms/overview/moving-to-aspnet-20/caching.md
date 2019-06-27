@@ -88,7 +88,7 @@ When this command runs the following changes are made to the SQL Server database
 | AspNet\_SqlCacheUnRegisterTableStoredProcedure | Unregisters a table for SQL cache dependency by removing the entry in the notification table and removes the trigger. |
 | AspNet\_SqlCacheUpdateChangeIdStoredProcedure | Updates the notification table by incrementing the changeId for the changed table. ASP.NET uses this value to determine if the data have changed. As indicated below, this stored proc is executed by the trigger created when the table is enabled. |
 
-- A SQL Server trigger called ***table\_name*\_AspNet\_SqlCacheNotification\_Trigger** is created for the table. This trigger executes the AspNet\_SqlCacheUpdateChangeIdStoredProcedure when an INSERT, UPDATE, or DELETE is performed on the table.
+- A SQL Server trigger called **_table\_name_\_AspNet\_SqlCacheNotification\_Trigger** is created for the table. This trigger executes the AspNet\_SqlCacheUpdateChangeIdStoredProcedure when an INSERT, UPDATE, or DELETE is performed on the table.
 - A SQL Server role called **aspnet\_ChangeNotification\_ReceiveNotificationsOnlyAccess** is added to the database.
 
 The **aspnet\_ChangeNotification\_ReceiveNotificationsOnlyAccess** SQL Server role has EXEC permissions to the AspNet\_SqlCachePollingStoredProcedure. In order for the polling model to work correctly, you must add your process account to the aspnet\_ChangeNotification\_ReceiveNotificationsOnlyAccess role. The aspnet\_regsql.exe tool will not do this for you.

@@ -120,7 +120,8 @@ What this means for the web application in production is that if a user requests
 
 [![](displaying-a-custom-error-page-cs/_static/image16.png)](displaying-a-custom-error-page-cs/_static/image15.png)
 
-**Figure 6**: The ASP.NET Runtime Displays the Configured Error Page In Response to an Invalid Request ([Click to view full-size image](displaying-a-custom-error-page-cs/_static/image17.png))
+**Figure 6**: The ASP.NET Runtime Displays the Configured Error Page In Response to an Invalid Request 
+([Click to view full-size image](displaying-a-custom-error-page-cs/_static/image17.png))
 
 By default, all types of errors cause the same custom error page to be displayed. However, you can specify a different custom error page for a specific HTTP status code using `<error>` children elements within the `<customErrors>` section. For example, to have a different error page displayed in the event of a page not found error, which has an HTTP status code of 404, update the `<customErrors>` section to include the following markup:
 
@@ -131,8 +132,10 @@ With this change in place, whenever a user visiting remotely requests an ASP.NET
 > [!NOTE]
 > Check out [404 Error Pages, One More Time](http://www.smashingmagazine.com/2009/01/29/404-error-pages-one-more-time/) for guidance on creating effective 404 error pages.
 
-[![](displaying-a-custom-error-page-cs/_static/image19.png)](displaying-a-custom-error-page-cs/_static/image18.png)**Figure 7**: The Custom 404 Error Page Displays a More Targeted Message Than `Oops.aspx`  
- ([Click to view full-size image](displaying-a-custom-error-page-cs/_static/image20.png)) 
+[![](displaying-a-custom-error-page-cs/_static/image19.png)](displaying-a-custom-error-page-cs/_static/image18.png)
+
+**Figure 7**: The Custom 404 Error Page Displays a More Targeted Message Than `Oops.aspx`  
+([Click to view full-size image](displaying-a-custom-error-page-cs/_static/image20.png)) 
 
 Because you know that the `404.aspx` page is only reached when the user makes a request for a page that was not found, you can enhance this custom error page to include functionality to help the user address this specific type of error. For example, you could build a database table that maps known bad URLs to good URLs, and then have the `404.aspx` custom error page run a query against that table and suggest pages the user may be trying to reach.
 

@@ -770,7 +770,7 @@ The following releases of [Globalize](https://github.com/jquery/globalize "Globa
 
 ### Respond Releases on the CDN
 
-The following releases of [https://github.com/scottjehl/Respond](https://github.com/scottjehl/Respond "https://github.com/scottjehl/Respond") Respond are hosted on the CDN:
+The following releases of [Respond](https://github.com/scottjehl/Respond "Respond") are hosted on the CDN:
 
 #### Respond version 1.4.2
 
