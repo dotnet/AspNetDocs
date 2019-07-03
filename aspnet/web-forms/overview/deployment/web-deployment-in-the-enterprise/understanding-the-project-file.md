@@ -77,7 +77,7 @@ A project file typically needs to provide lots of different pieces of informatio
 
 [!code-xml[Main](understanding-the-project-file/samples/sample2.xml)]
 
-To retrieve a property value, you use the format **$(**_PropertyName_**)***.* For example, to retrieve the value of the **ServerName** property, you would type:
+To retrieve a property value, use the format *$(PropertyName)*. For example, to retrieve the value of the **ServerName** property, you would type:
 
 [!code-powershell[Main](understanding-the-project-file/samples/sample3.ps1)]
 
