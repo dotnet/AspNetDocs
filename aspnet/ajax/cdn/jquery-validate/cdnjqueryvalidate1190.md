@@ -3,7 +3,7 @@ uid: ajax/cdn/jquery-validate/cdnjqueryvalidate1190
 title: "jQuery Validation 1.19.0 | Microsoft Docs"
 author: guardrex
 description: ""
-ms.author: chrissfanos
+ms.author: csfanos
 ms.date: 01/10/2019
 msc.type: content
 ---
