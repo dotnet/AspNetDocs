@@ -1,8 +1,8 @@
 ---
 uid: web-api/samples-list
-title: "Web API Samples List - ASP.NET 4.x"
+title: Web API Samples List - ASP.NET 4.x
 author: rick-anderson
-description: "ASP.NET Web API samples list for ASP.NET 4.x"
+description: ASP.NET Web API samples list for ASP.NET 4.x
 ms.author: riande
 ms.date: 09/18/2012
 ms.custom: seoapril2019
