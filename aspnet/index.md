@@ -21,7 +21,7 @@ description: Learn how to develop ASP.NET and ASP.NET web applications. Get docu
                         <ul id="core_overview" class="cardsC">
                             <li>
                                 <div class="container intro">
-                                    <p>ASP.NET Core is a new open-source and cross-platform .NET framework for building modern
+                                    <p>ASP.NET Core is an open-source and cross-platform .NET framework for building modern
                                         cloud-based web applications on Windows, Mac, or Linux.</p>
                                     <p><a href="https://docs.microsoft.com/aspnet/core/choose-aspnet-framework" data-raw-source="[Learn the benefits of both ASP.NET Core and ASP.NET](https://docs.microsoft.com/aspnet/core/choose-aspnet-framework)">Learn the benefits of both ASP.NET Core and ASP.NET</a>
                                         and choose the one that&#39;s right for you.</p>
@@ -146,7 +146,6 @@ description: Learn how to develop ASP.NET and ASP.NET web applications. Get docu
                             <li class="fullSpan">
                                 <div class="container footer">
                                     <p><a href="https://github.com/aspnet/Docs/blob/master/CONTRIBUTING.md">Contribute to ASP.NET Core docs and samples</a></p>
-                                    <p><a href="https://docs.microsoft.com/dotnet/articles/project-json">Find Visual Studio 2015/project.json version of the documentation</a></p>
                                 </div>
                             </li>
                         </ul>
