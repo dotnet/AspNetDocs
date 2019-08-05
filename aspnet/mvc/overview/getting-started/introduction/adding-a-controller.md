@@ -23,9 +23,6 @@ MVC stands for *model-view-controller*. MVC is a pattern for developing applicat
 
 We'll be covering all these concepts in this tutorial series and show you how to use them to build an application.
 
-> [!NOTE]
-> In the previous step the Default MVC template was selected. This creates Home, Account and Manage Controllers by default.
-
 Let's begin by creating a controller class. In **Solution Explorer**, right-click the *Controllers* folder and then click **Add**, then **Controller**.
 
 ![](adding-a-controller/_static/image1.png)
