@@ -28,7 +28,7 @@ The code targets ASP.NET Web API 2 and ASP.NET MVC 5 and is available as [OSS on
 
 WebHooks is a pattern which means that it varies how it is used from service to service but the basic idea is the same. You can think of WebHooks as a simple pub/sub model where a user can subscribe to events happening elsewhere. The event notifications are propagated as HTTP POST requests containing information about the event itself.
 
-Typically the HTTP POST request contains a JSON object or HTML form data determined by the WebHook sender including information about the event causing the WebHook to trigger. For example, an example of a WebHook POST request body from [GitHub](http://www.github.com/) looks like this as a result of a new issue being opened in a particular repository:
+Typically the HTTP POST request contains a JSON object or HTML form data determined by the WebHook sender including information about the event causing the WebHook to trigger. For example, a WebHook POST request body from [GitHub](http://www.github.com/) looks like this as a result of a new issue being opened in a particular repository:
 
 ```json
 {
