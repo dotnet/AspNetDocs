@@ -212,6 +212,18 @@ If you deploy a database by running migrations automatically as shown in this tu
 
 For information about other migrations scenarios, see [Migrations Screencast Series](https://blogs.msdn.com/b/adonet/archive/2014/03/12/migrations-screencast-series.aspx).
 
+## Update particular migration
+
+`update-database -target MigrationName`
+
+The `update-database -target MigrationName` command runs the targeted migration and hit the `Up` method to update the database.
+
+## Ignore migration changes to database
+
+`Add-migration MigrationName -ignoreChanges`
+
+If we don't want to update some migration changes to a database then we need to create migration with ignore changes, After created migration using `Add-migration MigrationName -ignoreChanges` command we need to update a database by `update-database` command.
+
 ## Code First initializers
 
 In the deployment section, you saw the [MigrateDatabaseToLatestVersion](https://msdn.microsoft.com/library/hh829476(v=vs.103).aspx) initializer being used. Code First also provides other initializers, including [CreateDatabaseIfNotExists](https://msdn.microsoft.com/library/gg679221(v=vs.103).aspx) (the default), [DropCreateDatabaseIfModelChanges](https://msdn.microsoft.com/library/gg679604(v=VS.103).aspx) (which you used earlier) and [DropCreateDatabaseAlways](https://msdn.microsoft.com/library/gg679506(v=VS.103).aspx). The `DropCreateAlways` initializer can be useful for setting up conditions for unit tests. You can also write your own initializers, and you can call an initializer explicitly if you don't want to wait until the application reads from or writes to the database.
