@@ -137,9 +137,11 @@ In *Models\Student.cs*, replace the code you added earlier with the following co
 
 ### The Required Attribute
 
-The [Required attribute](https://msdn.microsoft.com/library/system.componentmodel.dataannotations.requiredattribute.aspx) makes the name properties required fields. The `Required attribute` is not needed for value types such as DateTime, int, double, and float. Value types cannot be assigned a null value, so they are inherently treated as required fields. You could remove the [Required attribute](https://msdn.microsoft.com/library/system.componentmodel.dataannotations.requiredattribute.aspx) and replace it with a minimum length parameter for the `StringLength` attribute:
+The [Required attribute](https://msdn.microsoft.com/library/system.componentmodel.dataannotations.requiredattribute.aspx) makes the name properties required fields. The `Required attribute` is not needed for value types such as DateTime, int, double, and float. Value types cannot be assigned a null value, so they are inherently treated as required fields. You _can_ _not_ remove the [Required attribute](https://msdn.microsoft.com/library/system.componentmodel.dataannotations.requiredattribute.aspx) and replace it with a minimum length parameter for the `StringLength attribute`:
 
 [!code-csharp[Main](creating-a-more-complex-data-model-for-an-asp-net-mvc-application/samples/sample8.cs?highlight=2)]
+
+The minimum length property of the `StringLength attribute` is checked against an existing value, hence if there is no value (when it's not required) this contraint will not be checked. The `Required attribute` and `MinimumLength` property of the `StringLength attribute` are not synonymous. 
 
 ### The Display Attribute
 
