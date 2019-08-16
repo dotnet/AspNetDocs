@@ -3761,8 +3761,6 @@
       href: aspnet/overview/owin-and-katana/enabling-windows-authentication-in-katana.md
     - name: OWIN Middleware in the IIS Integrated Pipeline
       href: aspnet/overview/owin-and-katana/owin-middleware-in-the-iis-integrated-pipeline.md
-    - name: OWIN OAuth 2.0 Authorization Server
-      href: aspnet/overview/owin-and-katana/owin-oauth-20-authorization-server.md
     - name: Host OWIN in an Azure Worker Role
       href: aspnet/overview/owin-and-katana/host-owin-in-an-azure-worker-role.md
 - name: Whitepapers
