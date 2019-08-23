@@ -212,17 +212,17 @@ If you deploy a database by running migrations automatically as shown in this tu
 
 For information about other migrations scenarios, see [Migrations Screencast Series](https://blogs.msdn.com/b/adonet/archive/2014/03/12/migrations-screencast-series.aspx).
 
-## Update particular migration
+## Update specific migration
 
 `update-database -target MigrationName`
 
-The `update-database -target MigrationName` command runs the targeted migration and hit the `Up` method to update the database.
+The `update-database -target MigrationName` command runs the targeted migration.
 
 ## Ignore migration changes to database
 
 `Add-migration MigrationName -ignoreChanges`
 
-If we don't want to update some migration changes to a database then we need to create migration with ignore changes, After created migration using `Add-migration MigrationName -ignoreChanges` command we need to update a database by `update-database` command.
+`ignoreChanges` creates an empty migration with the current model as a snapshot.
 
 ## Code First initializers
 
