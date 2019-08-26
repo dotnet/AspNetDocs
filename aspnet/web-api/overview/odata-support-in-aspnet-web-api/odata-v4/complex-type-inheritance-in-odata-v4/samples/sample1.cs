@@ -13,9 +13,9 @@ public abstract class Shape
 
 public class Rectangle : Shape
 {
-    public Point P1 { get; set; }
-    public Point P2 { get; set; }
-    public Point P3 { get; set; }
+    public Point LeftTop { get; set; }
+    public int Height { get; set; }
+    public int Weight { get; set; }
 }
 
 public class RoundRectangle : Rectangle
@@ -25,9 +25,9 @@ public class RoundRectangle : Rectangle
 
 public class Triangle : Shape
 {
-    public Point LeftTop { get; set; }
-    public int Height { get; set; }
-    public int Weight { get; set; }
+    public Point P1 { get; set; }
+    public Point P2 { get; set; }
+    public Point P3 { get; set; }
 }
 
 public class Circle : Shape
