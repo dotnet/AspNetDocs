@@ -1,7 +1,7 @@
 ---
 uid: index
 layout: HubPage
-ms.topic: conceptual
+ms.topic: hub-page
 author: Rick-Anderson
 ms.author: riande
 title: ASP.NET Documentation
