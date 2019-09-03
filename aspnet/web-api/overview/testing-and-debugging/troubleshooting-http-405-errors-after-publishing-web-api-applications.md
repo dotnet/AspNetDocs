@@ -23,7 +23,7 @@ Web API applications typically use several common HTTP verbs: GET, POST, PUT, DE
 
 ## What causes HTTP 405 errors
 
-The first step toward learning how to trouble HTTP 405 errors is to understand what an HTTP 405 error actually means. The primary governing document for HTTP is [RFC 2616](http://www.ietf.org/rfc/rfc2616.txt), which defines the HTTP 405 status code as ***Method Not Allowed***, and further describes this status code as a situation where &quot;the method specified in the Request-Line is not allowed for the resource identified by the Request-URI.&quot; In other words, the HTTP verb is not allowed for the specific URL that an HTTP client has requested.
+The first step toward learning how to troubleshoot HTTP 405 errors is to understand what an HTTP 405 error actually means. The primary governing document for HTTP is [RFC 2616](http://www.ietf.org/rfc/rfc2616.txt), which defines the HTTP 405 status code as ***Method Not Allowed***, and further describes this status code as a situation where &quot;the method specified in the Request-Line is not allowed for the resource identified by the Request-URI.&quot; In other words, the HTTP verb is not allowed for the specific URL that an HTTP client has requested.
 
 As a brief review, here are several of the most-used HTTP methods as defined in RFC 2616, RFC 4918, and RFC 5789:
 
