@@ -11,4 +11,4 @@ Consider using [ASP.NET Core Web API](/aspnet/core/web-api). It has the follow a
 - A lightweight, high-performance, and modular HTTP request pipeline.
 - Ability to host on IIS, Nginx, Apache, Docker, or self-host in your own process.
 - Side-by-side versioning.
-Tooling that simplifies modern web development.
+- Tooling that simplifies modern web development.
