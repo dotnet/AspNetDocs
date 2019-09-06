@@ -1,4 +1,4 @@
-Consider using ASP.NET Core Web API. It has the follow advantages over ASP.NET 4 Web API:
+Consider using [ASP.NET Core Web API](/aspnet/core/web-api). It has the follow advantages over ASP.NET 4 Web API:
 
 - ASP.NET Core is an open-source, cross-platform framework for building modern, cloud-based web apps on Windows, macOS, or Linux.
 - The ASP.NET Core MVC controller and Web API controller are unified.
