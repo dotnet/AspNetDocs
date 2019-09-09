@@ -12,6 +12,8 @@ msc.type: authoredcontent
 ---
 # Action Results in Web API 2
 
+[!INCLUDE[](~/includes/coreWebAPI.md)]
+
 This topic describes how ASP.NET Web API converts the return value from a controller action into an HTTP response message.
 
 A Web API controller action can return any of the following:

@@ -14,7 +14,9 @@ msc.type: authoredcontent
 
 by [Mike Wasson](https://github.com/MikeWasson)
 
-This article describes how Web API binds parameters, and how you can customize the binding process. When Web API calls a method on a controller, it must set values for the parameters, a process called *binding*. 
+[!INCLUDE[](~/includes/coreWebAPI.md)]
+
+This article describes how Web API binds parameters, and how you can customize the binding process. When Web API calls a method on a controller, it must set values for the parameters, a process called *binding*.
 
 By default, Web API uses the following rules to bind parameters:
 
