@@ -51,10 +51,6 @@ This How To describes various ways to serve pages optimized for mobile devices f
 
 51degrees.mobi Foundation is a third-party open source project that enhances ASP.NET's Request.Browser API so you can easily detect recently-released mobile devices including Windows Phone 7, Android, and Apple iPad.
 
-### [Simulate popular mobile devices for testing](device-simulators.md)
-
-Links to device emulators and simulators that you can use to test your mobile web applications
-
 ### [Mobile Web Sites with ASP.NET MVC and the Mobile Browser Definition File](http://www.hanselman.com/blog/MixMobileWebSitesWithASPNETMVCAndTheMobileBrowserDefinitionFile.aspx)
 
 In this talk presented at the Microsoft MIX conference, Scott Hanselman discusses how you can create mobile device friendly websites using ASP.NET MVC.

@@ -6,6 +6,16 @@
             "redirect_document_id": false
         },
         {
+            "source_path": "aspnet/mvc/mvc5.md",
+            "redirect_url": "/aspnet/mvc/overview/getting-started/introduction/getting-started",
+            "redirect_document_id": false
+        },
+        {
+            "source_path": "aspnet/mobile/device-simulators.md",
+            "redirect_url": "/aspnet/mobile/overview",
+            "redirect_document_id": false
+        },
+        {
             "source_path": "aspnet/mvc/overview/getting-started/introduction/sample/code-location.md",
             "redirect_url": "/aspnet/mvc/overview/getting-started/introduction/index",
             "redirect_document_id": false
