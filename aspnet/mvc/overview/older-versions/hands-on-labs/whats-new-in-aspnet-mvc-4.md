@@ -252,7 +252,7 @@ You will now explore how the adaptive rendering works, improving the readability
 
 1. Open the **PhotoGallery.sln** solution you have created at Task 1 and select the **PhotoGallery** project. Press **F5** to run the solution.
 2. Resize the browser's width, setting the windows to half or to less than a quarter of its original size. Notice what happens with the items in the header: Some elements will not appear in the visible area of the header.
-3. Open **Site.css** file from the Visual Studio Solution explorer, located in **Content** project folder. Press **CTRL + F** to open Visual Studio integrated search, and write **@media** to locate the **CSS media query**.
+3. Open **Site.css** file from the Visual Studio Solution explorer, located in **Content** project folder. Press **CTRL + F** to open Visual Studio integrated search, and write **\@media** to locate the **CSS media query**.
 
     The media query condition defined in this template works in this way: When the browser's window size is below **850 px**, the CSS rules applied are the ones defined inside this media block.
 
