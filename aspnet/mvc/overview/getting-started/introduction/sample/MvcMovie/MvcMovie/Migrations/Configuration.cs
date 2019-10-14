@@ -1,12 +1,10 @@
+using MvcMovie.Models;
+using System;
+using System.Data.Entity.Migrations;
+
 namespace MvcMovie.Migrations
 {
-    using MvcMovie.Models;
-    using System;
-    using System.Data.Entity;
-    using System.Data.Entity.Migrations;
-    using System.Linq;
-
-    internal sealed class Configuration : DbMigrationsConfiguration<MvcMovie.Models.MovieDBContext>
+    internal sealed class Configuration : DbMigrationsConfiguration<MovieDBContext>
     {
         public Configuration()
         {

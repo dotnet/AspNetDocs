@@ -1,5 +1,5 @@
 /**
- * Globalize v1.0.0
+ * Globalize v1.3.0
  *
  * http://github.com/jquery/globalize
  *
@@ -7,10 +7,10 @@
  * Released under the MIT license
  * http://jquery.org/license
  *
- * Date: 2015-04-23T12:02Z
+ * Date: 2017-07-03T21:37Z
  */
 /*!
- * Globalize v1.0.0 2015-04-23T12:02Z Released under the MIT license
+ * Globalize v1.3.0 2017-07-03T21:37Z Released under the MIT license
  * http://git.io/TrdQbw
  */
 (function( root, factory ) {
@@ -108,6 +108,70 @@ var createError = function( code, message, attributes ) {
 	objectExtend( error, attributes );
 
 	return error;
+};
+
+
+
+
+// Based on http://stackoverflow.com/questions/7616461/generate-a-hash-from-string-in-javascript-jquery
+var stringHash = function( str ) {
+	return [].reduce.call( str, function( hash, i ) {
+		var chr = i.charCodeAt( 0 );
+		hash = ( ( hash << 5 ) - hash ) + chr;
+		return hash | 0;
+	}, 0 );
+};
+
+
+
+
+var runtimeKey = function( fnName, locale, args, argsStr ) {
+	var hash;
+	argsStr = argsStr || JSON.stringify( args );
+	hash = stringHash( fnName + locale + argsStr );
+	return hash > 0 ? "a" + hash : "b" + Math.abs( hash );
+};
+
+
+
+
+var functionName = function( fn ) {
+	if ( fn.name !== undefined ) {
+		return fn.name;
+	}
+
+	// fn.name is not supported by IE.
+	var matches = /^function\s+([\w\$]+)\s*\(/.exec( fn.toString() );
+
+	if ( matches && matches.length > 0 ) {
+		return matches[ 1 ];
+	}
+};
+
+
+
+
+var runtimeBind = function( args, cldr, fn, runtimeArgs ) {
+
+	var argsStr = JSON.stringify( args ),
+		fnName = functionName( fn ),
+		locale = cldr.locale;
+
+	// If name of the function is not available, this is most likely due to uglification,
+	// which most likely means we are in production, and runtimeBind here is not necessary.
+	if ( !fnName ) {
+		return fn;
+	}
+
+	fn.runtimeKey = runtimeKey( fnName, locale, null, argsStr );
+
+	fn.generatorString = function() {
+		return "Globalize(\"" + locale + "\")." + fnName + "(" + argsStr.slice( 1, -1 ) + ")";
+	};
+
+	fn.runtimeArgs = runtimeArgs;
+
+	return fn;
 };
 
 
@@ -246,7 +310,7 @@ var alwaysCldr = function( localeOrCldr ) {
 
 
 
-// ref: https://developer.mozilla.org/docs/Web/JavaScript/Guide/Regular_Expressions?redirectlocale=en-US&redirectslug=JavaScript%2FGuide%2FRegular_Expressions
+// ref: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions?redirectlocale=en-US&redirectslug=JavaScript%2FGuide%2FRegular_Expressions
 var regexpEscape = function( string ) {
 	return string.replace( /([.*+?^=!:${}()|\[\]\/\\])/g, "\\$1" );
 };
@@ -304,6 +368,7 @@ function Globalize( locale ) {
  * Somewhat equivalent to previous Globalize.addCultureInfo(...).
  */
 Globalize.load = function() {
+
 	// validations are delegated to Cldr.load().
 	Cldr.load.apply( Cldr, arguments );
 };
@@ -338,6 +403,7 @@ Globalize._formatMessage = formatMessage;
 Globalize._isPlainObject = isPlainObject;
 Globalize._objectExtend = objectExtend;
 Globalize._regexpEscape = regexpEscape;
+Globalize._runtimeBind = runtimeBind;
 Globalize._stringPad = stringPad;
 Globalize._validate = validate;
 Globalize._validateCldr = validateCldr;

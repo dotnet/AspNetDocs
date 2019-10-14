@@ -1,15 +1,15 @@
 /**
- * CLDR JavaScript Library v0.4.1
+ * CLDR JavaScript Library v0.5.1
  * http://jquery.com/
  *
  * Copyright 2013 Rafael Xavier de Souza
  * Released under the MIT license
  * http://jquery.org/license
  *
- * Date: 2015-02-25T13:51Z
+ * Date: 2019-01-21T13:43Z
  */
 /*!
- * CLDR JavaScript Library v0.4.1 2015-02-25T13:51Z MIT license © Rafael Xavier
+ * CLDR JavaScript Library v0.5.1 2019-01-21T13:43Z MIT license © Rafael Xavier
  * http://git.io/h4lmVg
  */
 (function( factory ) {
@@ -19,7 +19,7 @@
 		define( [ "../cldr" ], factory );
 	} else if ( typeof module === "object" && typeof module.exports === "object" ) {
 		// Node. CommonJS.
-		module.exports = factory( require( "cldrjs" ) );
+		module.exports = factory( require( "../cldr" ) );
 	} else {
 		// Global
 		factory( Cldr );
@@ -99,20 +99,20 @@
 		// 1: Due to #16, never use the cached resolved non-leaf nodes. It may not
 		//    represent its leafs in its entirety.
 		value = resourceGet( Cldr._resolved, normalizedPath );
-		if ( value && typeof value !== "object" /* 1 */ ) {
+		if ( value !== undefined && typeof value !== "object" /* 1 */ ) {
 			return value;
 		}
 
 		// Check raw data
 		value = resourceGet( Cldr._raw, normalizedPath );
 
-		if ( !value ) {
+		if ( value === undefined ) {
 			// Or, lookup at parent locale
 			parent = bundleParentLookup( Cldr, locale );
 			value = lookup( Cldr, parent, path, jsonMerge( attributes, { bundle: parent }), locale );
 		}
 
-		if ( value ) {
+		if ( value !== undefined ) {
 			// Set resolved (cached)
 			resourceSet( Cldr._resolved, normalizedPath, value );
 		}

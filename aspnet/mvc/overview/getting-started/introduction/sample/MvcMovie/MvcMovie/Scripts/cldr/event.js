@@ -1,15 +1,15 @@
 /**
- * CLDR JavaScript Library v0.4.1
+ * CLDR JavaScript Library v0.5.1
  * http://jquery.com/
  *
  * Copyright 2013 Rafael Xavier de Souza
  * Released under the MIT license
  * http://jquery.org/license
  *
- * Date: 2015-02-25T13:51Z
+ * Date: 2019-01-21T13:43Z
  */
 /*!
- * CLDR JavaScript Library v0.4.1 2015-02-25T13:51Z MIT license © Rafael Xavier
+ * CLDR JavaScript Library v0.5.1 2019-01-21T13:43Z MIT license © Rafael Xavier
  * http://git.io/h4lmVg
  */
 (function( factory ) {
@@ -19,7 +19,7 @@
 		define( [ "../cldr" ], factory );
 	} else if ( typeof module === "object" && typeof module.exports === "object" ) {
 		// Node. CommonJS.
-		module.exports = factory( require( "cldrjs" ) );
+		module.exports = factory( require( "../cldr" ) );
 	} else {
 		// Global
 		factory( Cldr );
@@ -42,7 +42,7 @@
 var EventEmitter;
 /* jshint ignore:start */
 EventEmitter = (function () {
-	
+
 
 	/**
 	 * Class for managing events.
@@ -54,8 +54,8 @@ EventEmitter = (function () {
 
 	// Shortcuts to improve speed and size
 	var proto = EventEmitter.prototype;
-	var exports = this;
-	var originalGlobalValue = exports.EventEmitter;
+	var exports = {};
+	
 
 	/**
 	 * Finds the index of the listener for the event in it's storage array.
