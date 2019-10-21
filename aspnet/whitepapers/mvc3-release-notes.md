@@ -424,12 +424,13 @@ The *Html.ValidationMessage* method was fixed to show the first useful error mes
 
 During model binding, the *ModelState* dictionary can be populated from multiple sources with error messages about the property, including from the model itself (if it implements *IValidatableObject*), from validation attributes applied to the property, and from exceptions thrown while the property is being accessed.
 
-When the *Html.ValidationMessage* method displays a validation message, it skips model-state entries that include an exception, because these are generally not intended for the end user. Instead, the method looks for the first validation message that is not associated with an exception and displays that message. If no such message is found, it defaults to a generic error message that is associated with the first exception.
+When the *Html.ValidationMessage* method displays a validation message, it skips model-state entries that include an exception, because these are generally not intended for the end user. Instead, the method looks for the first validation message that is not associated with an exception and displays that message. If no such message is found, it defaults to a generic error message that is associated with the first exception.*@
+
 
 <a id="_Toc2_10"></a>
 ### Fixed @model Declaration to not Add Whitespace to the Document
 
-In earlier releases, the *@model* declaration at the top of a view added a blank line to the rendered HTML output. This has been fixed so that the declaration does not introduce whitespace.
+In earlier releases, the *\@model* declaration at the top of a view added a blank line to the rendered HTML output. This has been fixed so that the declaration does not introduce whitespace.
 
 <a id="_Toc2_11"></a>
 ### Added "FileExtensions" Property to View Engines to Support Engine-Specific File Names
