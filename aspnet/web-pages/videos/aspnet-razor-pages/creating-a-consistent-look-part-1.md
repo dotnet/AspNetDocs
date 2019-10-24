@@ -15,7 +15,7 @@ by [Joe Stagner](https://github.com/JoeStagner)
 
 Video accompaniment to the Creating a Consistent Look tutorial (part 1)
 
-[&#9654; Watch video (23 minutes)](https://channel9.msdn.com/Blogs/ASP-NET-Site-Videos/creating-a-consistent-look-part-1)
+[&#9654; Watch video (23 minutes)](https://channel9.msdn.com/Blogs/ASP-NET-Site-Videos/creating-a-consistent-look-(part-1))
 
 > [!div class="step-by-step"]
 > [Previous](introduction-to-aspnet-web-programming-using-the-razor-syntax.md)
