@@ -18,7 +18,7 @@ by [Rick Anderson]((https://twitter.com/RickAndMSFT))
 
 - [Getting Started with ASP.NET MVC 5](introduction/getting-started.md) This 11 part series is a good place to start.
 - [Pluralsight ASP.NET MVC 5 Fundamentals](https://pluralsight.com/training/Player?author=scott-allen&amp;name=aspdotnet-mvc5-fundamentals-m1-introduction&amp;mode=live&amp;clip=0&amp;course=aspdotnet-mvc5-fundamentals) (video course)
-- [Intro to ASP.NET MVC](https://www.microsoftvirtualacademy.com/training-courses/introduction-to-asp-net-mvc) by Jon Galloway and Christopher Harrison
+- [Intro to ASP.NET MVC](https://channel9.msdn.com/Series/Introduction-to-ASP-NET-MVC) by Jon Galloway and Christopher Harrison
 - [Lifecycle of an ASP.NET MVC 5 Application](lifecycle-of-an-aspnet-mvc-5-application.md) PDF document that charts the lifecycle of an ASP.NET MVC 5 app.
 
 <a id="con"></a>
