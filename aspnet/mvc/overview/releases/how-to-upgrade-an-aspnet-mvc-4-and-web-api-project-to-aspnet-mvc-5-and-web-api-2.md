@@ -90,7 +90,7 @@ Locate the `<runtime>/<assemblyBinding>` section, and make the following changes
 2. In elements with the name attribute &quot;System.Web.Helpers" and &quot;System.Web.WebPages&quot; change the version number from "2.0.0.0" to "3.0.0.0". Four changes will occur, two in each of the elements.
 
     [!code-xml[Main](how-to-upgrade-an-aspnet-mvc-4-and-web-api-project-to-aspnet-mvc-5-and-web-api-2/samples/sample3.xml?highlight=6,10,14)]
-3. Locate the `<appSettings>` section and update the webpages:version from 2.0.0.0.0 to 3.0.0.0 as shown below:
+3. Locate the `<appSettings>` section and update the webpages:version from 2.0.0.0 to 3.0.0.0 as shown below:
 
     [!code-xml[Main](how-to-upgrade-an-aspnet-mvc-4-and-web-api-project-to-aspnet-mvc-5-and-web-api-2/samples/sample4.xml?highlight=2)]
 4. Remove any trust levels other than Full. For example:
