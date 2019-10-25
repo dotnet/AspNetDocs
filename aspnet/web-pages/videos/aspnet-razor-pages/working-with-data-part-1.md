@@ -15,7 +15,7 @@ by [Joe Stagner](https://github.com/JoeStagner)
 
 Video accompaniment to the Working with Data tutorial (Part 1)
 
-[&#9654; Watch video (8 minutes)](https://channel9.msdn.com/Blogs/ASP-NET-Site-Videos/working-with-data-part-1)
+[&#9654; Watch video (8 minutes)](https://channel9.msdn.com/Blogs/ASP-NET-Site-Videos/working-with-data-(part-1))
 
 > [!div class="step-by-step"]
 > [Previous](working-with-forms-part-2.md)
