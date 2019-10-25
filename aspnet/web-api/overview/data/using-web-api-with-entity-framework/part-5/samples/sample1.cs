@@ -1,6 +1,6 @@
 namespace BookService.Models
 {
-    public class BookDTO
+    public class BookDto
     {
         public int Id { get; set; }
         public string Title { get; set; }
@@ -10,7 +10,7 @@ namespace BookService.Models
 
 namespace BookService.Models
 {
-    public class BookDetailDTO
+    public class BookDetailDto
     {
         public int Id { get; set; }
         public string Title { get; set; }
