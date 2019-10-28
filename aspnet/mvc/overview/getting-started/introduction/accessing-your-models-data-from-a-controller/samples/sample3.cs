@@ -1,10 +1,10 @@
-public ActionResult Details(int? id)
+public async Task<ActionResult> Details(int? id)
 {
     if (id == null)
     {
         return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
     }
-    Movie movie = db.Movies.Find(id);
+    Movie movie = await db.Movies.FindAsync(id);
     if (movie == null)
     {
         return HttpNotFound();

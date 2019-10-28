@@ -3,7 +3,7 @@ public class MoviesController : Controller
     private MovieDBContext db = new MovieDBContext();
 
     // GET: /Movies/
-    public ActionResult Index()
+    public async Task<ActionResult> Index()
     {
-        return View(db.Movies.ToList());
+        return View(await db.Movies.ToListAsync());
     }

@@ -1,18 +1,19 @@
-public ActionResult Index(string movieGenre, string searchString)
+public async Task<ActionResult> Index(string movieGenre, string searchString)
 {
-    var GenreLst = new List<string>();
+    var genres = new List<string>();
 
-    var GenreQry = from d in db.Movies
+    var genreQry = from d in db.Movies
                    orderby d.Genre
                    select d.Genre;
 
-    GenreLst.AddRange(GenreQry.Distinct());
-    ViewBag.movieGenre = new SelectList(GenreLst);
+    genres.AddRange(await genreQry.Distinct().ToListAsync());
+
+    ViewBag.MovieGenre = new SelectList(genres);
 
     var movies = from m in db.Movies
                  select m;
 
-    if (!String.IsNullOrEmpty(searchString))
+    if (!string.IsNullOrEmpty(searchString))
     {
         movies = movies.Where(s => s.Title.Contains(searchString));
     }
@@ -22,5 +23,5 @@ public ActionResult Index(string movieGenre, string searchString)
         movies = movies.Where(x => x.Genre == movieGenre);
     }
 
-    return View(movies);
+    return View(await movies.ToListAsync());
 }

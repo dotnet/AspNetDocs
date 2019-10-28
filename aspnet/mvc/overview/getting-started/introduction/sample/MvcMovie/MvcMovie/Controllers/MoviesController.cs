@@ -1,4 +1,5 @@
-﻿using System.Data;
+﻿using System.Collections.Generic;
+using System.Data;
 using System.Data.Entity;
 using System.Linq;
 using System.Net;
@@ -15,10 +16,19 @@ namespace MvcMovie.Controllers
         // GET: Movies
         public async Task<ActionResult> Index(string movieGenre, string searchString)
         {
-            var genres = await db.Movies.OrderBy(d => d.Genre).Select(d => d.Genre).Distinct().ToListAsync();
+            var genres = new List<string>();
+
+            var genreQry = from d in db.Movies
+                           orderby d.Genre
+                           select d.Genre;
+
+            genres.AddRange(await genreQry.Distinct().ToListAsync());
+
             ViewBag.MovieGenre = new SelectList(genres);
 
-            IQueryable<Movie> movies = db.Movies;
+            var movies = from m in db.Movies 
+                         select m;
+
             if (!string.IsNullOrEmpty(searchString))
             {
                 movies = movies.Where(s => s.Title.Contains(searchString));

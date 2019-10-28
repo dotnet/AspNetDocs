@@ -1,11 +1,11 @@
 // GET: /Movies/Edit/5
-public ActionResult Edit(int? id)
+public async Task<ActionResult> Edit(int? id)
 {
     if (id == null)
     {
         return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
     }
-    Movie movie = db.Movies.Find(id);
+    Movie movie = await db.Movies.FindAsync(id);
     if (movie == null)
     {
         return HttpNotFound();
@@ -18,12 +18,12 @@ public ActionResult Edit(int? id)
 // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
 [HttpPost]
 [ValidateAntiForgeryToken]
-public ActionResult Edit([Bind(Include="ID,Title,ReleaseDate,Genre,Price")] Movie movie)
+public async Task<ActionResult> Edit([Bind(Include="ID,Title,ReleaseDate,Genre,Price")] Movie movie)
 {
     if (ModelState.IsValid)
     {
         db.Entry(movie).State = EntityState.Modified;
-        db.SaveChanges();
+        await db.SaveChangesAsync();
         return RedirectToAction("Index");
     }
     return View(movie);
