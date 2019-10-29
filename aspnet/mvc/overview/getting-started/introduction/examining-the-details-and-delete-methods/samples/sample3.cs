@@ -1,7 +1,6 @@
-// GET: /Movies/Delete/5
-public ActionResult Delete(int? id)
+// GET: Movies/Delete/5
+public async Task<ActionResult> Delete(int? id)
 
-//
-// POST: /Movies/Delete/5
+// POST: Movies/Delete/5
 [HttpPost, ActionName("Delete")]
-public ActionResult DeleteConfirmed(int id)
+public async Task<ActionResult> DeleteConfirmed(int id)

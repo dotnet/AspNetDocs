@@ -1,11 +1,11 @@
-public ActionResult Delete(FormCollection fcNotUsed, int id = 0)
+public async Task<ActionResult> Delete(FormCollection fcNotUsed, int id = 0)
 {
-    Movie movie = db.Movies.Find(id);
+    Movie movie = await db.Movies.FindAsync(id);
     if (movie == null)
     {
         return HttpNotFound();
     }
     db.Movies.Remove(movie);
-    db.SaveChanges();
+    await db.SaveChangesAsync();
     return RedirectToAction("Index");
 }
