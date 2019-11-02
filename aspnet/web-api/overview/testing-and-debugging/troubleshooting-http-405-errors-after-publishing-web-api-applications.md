@@ -1,17 +1,18 @@
 ---
 uid: web-api/overview/testing-and-debugging/troubleshooting-http-405-errors-after-publishing-web-api-applications
-title: "Troubleshooting HTTP 405 Errors after Publishing Web API Applications | Microsoft Docs"
+title: Troubleshoot Web API2 apps that work in Visual Studio and fail on a production IIS server
 author: rmcmurray
-description: "This tutorial describes how to troubleshoot HTTP 405 errors after publishing a Web API application to a production web server."
+description: Troubleshoot Web API2 apps that work in Visual Studio and fail on a production IIS server
 ms.author: riande
 ms.date: 01/23/2019
 ms.assetid: 07ec7d37-023f-43ea-b471-60b08ce338f7
 msc.legacyurl: /web-api/overview/testing-and-debugging/troubleshooting-http-405-errors-after-publishing-web-api-applications
 msc.type: authoredcontent
 ---
-# Troubleshooting HTTP 405 errors after publishing Web API applications
 
-> This tutorial describes how to troubleshoot HTTP 405 errors after publishing a Web API application to a production web server.
+# Troubleshoot Web API2 apps that work in Visual Studio and fail on a production IIS server
+
+> This doc explains how to troubleshoot Web API2 apps that are deployed to a production IIS server. It addresses common HTTP 405 and 501 errors.
 > 
 > ## Software used in this tutorial
 > 
@@ -19,7 +20,7 @@ msc.type: authoredcontent
 > - [Internet Information Services (IIS)](https://www.iis.net/) (version 7 or later)
 > - [Web API](../../index.md) 
 
-Web API applications typically use several common HTTP verbs: GET, POST, PUT, DELETE, and sometimes PATCH. That being said, developers may run into situations where those verbs are implemented by another IIS module on their production server, which leads to a situation where a Web API controller that works correctly in Visual Studio or on a development server will return an HTTP 405 error when it is deployed to a production server. Fortunately this problem is easily resolved, but the resolution warrants an explanation of why the problem is occurring.
+Web API apps typically use several HTTP verbs: GET, POST, PUT, DELETE, and sometimes PATCH. That being said, developers may run into situations where those verbs are implemented by another IIS module on their production IIS server, which leads to a situation where a Web API controller that works correctly in Visual Studio or on a development server will return an HTTP 405 error when it is deployed to a production IIS server.
 
 ## What causes HTTP 405 errors
 
@@ -49,7 +50,7 @@ However, when an HTTP method is configured for use on the server, but it has bee
 
 ## Example HTTP 405 error
 
-The following example HTTP request and response illustrate a situation where an HTTP client is attempting to PUT value to a Web API application on a web server, and the server returns an HTTP error which states that the PUT method is not allowed:
+The following example HTTP request and response illustrate a situation where an HTTP client is attempting to PUT value to a Web API app on a web server, and the server returns an HTTP error which states that the PUT method is not allowed:
 
 HTTP Request:
 
@@ -63,15 +64,15 @@ In this example, the HTTP client sent a valid JSON request to the URL for a Web 
 
 ## Resolve HTTP 405 errors
 
-There are several reasons why a specific HTTP verb may not be allowed, but there is one primary scenario that is the leading cause of this error in IIS: multiple handlers are defined for the same verb/method, and one of the handlers is blocking the expected handler from processing the request. By way of explanation, IIS processes handlers from first to last based on the order handler entries in the applicationHost.config and web.config files, where the first matching combination of path, verb, resource, etc., will be used to handle the request.
+There are several reasons why a specific HTTP verb may not be allowed, but there is one primary scenario that is the leading cause of this error in IIS: multiple handlers are defined for the same verb/method, and one of the handlers is blocking the expected handler from processing the request. By way of explanation, IIS processes handlers from first to last based on the order handler entries in the *applicationHost.config* and *web.config* files, where the first matching combination of path, verb, resource, etc., will be used to handle the request.
 
-The following example is an excerpt from an applicationHost.config file for an IIS server that was returning an HTTP 405 error when using the PUT method to submit data to a Web API application. In this excerpt, several HTTP handlers are defined, and each handler has a different set of HTTP methods for which it is configured - the last entry in the list is the static content handler, which is the default handler that is used after the other handlers have had a chance to examine the request:
+The following example is an excerpt from an *applicationHost.config* file for an IIS server that was returning an HTTP 405 error when using the PUT method to submit data to a Web API application. In this excerpt, several HTTP handlers are defined, and each handler has a different set of HTTP methods for which it is configured - the last entry in the list is the static content handler, which is the default handler that is used after the other handlers have had a chance to examine the request:
 
 [!code-xml[Main](troubleshooting-http-405-errors-after-publishing-web-api-applications/samples/sample3.xml)]
 
-In the above example, the WebDAV handler and the Extension-less URL Handler for ASP.NET (which is used for Web API) are clearly defined for separate lists of HTTP methods. Note that the ISAPI DLL handler is configured for all HTTP methods, although this configuration will not necessarily cause an error. However, configuration settings like this need to be considered when troubleshooting HTTP 405 errors.
+In the preceding example, the WebDAV handler and the Extension-less URL Handler for ASP.NET (which is used for Web API) are clearly defined for separate lists of HTTP methods. Note that the ISAPI DLL handler is configured for all HTTP methods, although this configuration will not necessarily cause an error. However, configuration settings like this need to be considered when troubleshooting HTTP 405 errors.
 
-In the above example, the ISAPI DLL handler was not the problem; in fact, the problem was not defined in the applicationHost.config file for the IIS server - the problem was caused by an entry that was made in the web.config file when the Web API application was created in Visual Studio. The following excerpt from the application's web.config file shows the location of the problem:
+In the preceding example, the ISAPI DLL handler was not the problem; in fact, the problem was not defined in the *applicationHost.config* file for the IIS server - the problem was caused by an entry that was made in the *web.config* file when the Web API application was created in Visual Studio. The following excerpt from the application's *web.config* file shows the location of the problem:
 
 [!code-xml[Main](troubleshooting-http-405-errors-after-publishing-web-api-applications/samples/sample4.xml)]
 
@@ -79,10 +80,17 @@ In this excerpt, the Extension-less URL Handler for ASP.NET is redefined to incl
 
 [!code-xml[Main](troubleshooting-http-405-errors-after-publishing-web-api-applications/samples/sample5.xml)]
 
-This scenario is often encountered after an application is published from a development environment to a production environment, and this occurs because the list of handlers/modules is different between your development and production environments. For example, if you are using Visual Studio 2012 or later to develop a Web API application, IIS Express is the default web server for testing. This development web server is a scaled-down version of the full IIS functionality that ships in a server product, and this development web server contains a few changes that were added for development scenarios. For example, the WebDAV module is often installed on a production web server that is running the full version of IIS, although it may not be in actual use. The development version of IIS, (IIS Express), installs the WebDAV module, but the entries for the WebDAV module are intentionally commented out, so the WebDAV module is never loaded on IIS Express unless you specifically alter your IIS Express configuration settings to add WebDAV functionality to your IIS Express installation. As a result, your web application may work correctly on your development computer, but you may encounter HTTP 405 errors when you publish your Web API application to your production web server.
+This scenario is often encountered after an application is published from a development environment to an IIS production environment, and this occurs because the list of handlers/modules is different between your development and production environments. For example, if you are using Visual Studio 2012 or later to develop a Web API application, IIS Express is the default web server for testing. This development web server is a scaled-down version of the full IIS functionality that ships in a server product, and this development web server contains a few changes that were added for development scenarios. For example, the WebDAV module is often installed on a production web server that is running the full version of IIS, although it may not be in use. The development version of IIS, (IIS Express), installs the WebDAV module, but the entries for the WebDAV module are intentionally commented out, so the WebDAV module is never loaded on IIS Express unless you specifically alter your IIS Express configuration settings to add WebDAV functionality to your IIS Express installation. As a result, your web application may work correctly on your development computer, but you may encounter HTTP 405 errors when you publish your Web API application to your production IIS web server.
+
+## HTTP 501 errors
+
+* Indicates the specific functionality has not been implemented on the server.
+* Typically means that there is no handler defined in your IIS settings which matches the HTTP request:
+  * Probably indicates that something was not installed correctly on IIS or
+  * Something has modified your IIS settings so that there are no handlers defined that support the specific HTTP method.
+
+To resolve that issue, you would need to reinstall any application that is attempting to use an HTTP method for which it has no corresponding module or handler definitions.
 
 ## Summary
 
 HTTP 405 errors are caused when an HTTP method is not allowed by a web server for a requested URL. This condition is often seen when a particular handler has been defined for a specific verb, and that handler is overriding the handler that you expect to process the request.
-
-If you encounter a situation where you receive an HTTP 501 error message, which means that the specific functionality has not been implemented on the server, this often means that there is no handler defined in your IIS settings which matches the HTTP request, which probably indicates that something was not installed correctly on your system, or something has modified your IIS settings so that there are no handlers defined that support the specific HTTP method. To resolve that issue, you would need to reinstall any application that is attempting to use an HTTP method for which it has no corresponding module or handler definitions.
