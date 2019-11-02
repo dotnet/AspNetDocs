@@ -11,10 +11,6 @@ msc.legacyurl: /mvc/overview/getting-started/getting-started-with-ef-using-mvc/r
 msc.type: authoredcontent
 ---
 
-[Download Completed Project](http://code.msdn.microsoft.com/ASPNET-MVC-Application-b01a9fe8)
-
-> The Contoso University sample web application demonstrates how to create ASP.NET MVC 5 applications using the Entity Framework 6 Code First and Visual Studio. For information about the tutorial series, see [the first tutorial in the series](creating-an-entity-framework-data-model-for-an-asp-net-mvc-application.md).
-
 # Tutorial: Read related data with EF in an ASP.NET MVC app
 
 In the previous tutorial you completed the School data model. In this tutorial you'll read and display related data — that is, data that the Entity Framework loads into navigation properties.
@@ -24,6 +20,10 @@ The following illustrations show the pages that you'll work with.
 ![](reading-related-data-with-the-entity-framework-in-an-asp-net-mvc-application/_static/image1.png)
 
 ![Instructors_index_page_with_instructor_and_course_selected](reading-related-data-with-the-entity-framework-in-an-asp-net-mvc-application/_static/image2.png)
+
+[Download Completed Project](https://code.msdn.microsoft.com/ASPNET-MVC-Application-b01a9fe8)
+
+> The Contoso University sample web application demonstrates how to create ASP.NET MVC 5 applications using the Entity Framework 6 Code First and Visual Studio. For information about the tutorial series, see [the first tutorial in the series](creating-an-entity-framework-data-model-for-an-asp-net-mvc-application.md).
 
 In this tutorial, you:
 

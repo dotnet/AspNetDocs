@@ -28,7 +28,7 @@ To accomplish this, you can define a *data transfer object* (DTO). A DTO is an o
 
 [!code-csharp[Main](part-5/samples/sample1.cs)]
 
-The `BookDetailDTO` class includes all of the properties from the Book model, except that `AuthorName` is a string that will hold the author name. The `BookDTO` class contains a subset of properties from `BookDetailDTO`.
+The `BookDetailDto` class includes all of the properties from the Book model, except that `AuthorName` is a string that will hold the author name. The `BookDto` class contains a subset of properties from `BookDetailDto`.
 
 Next, replace the two GET methods in the `BooksController` class, with versions that return DTOs. We'll use the LINQ **Select** statement to convert from Book entities into DTOs.
 

@@ -1,8 +1,8 @@
 // GET api/Books
-public IQueryable<BookDTO> GetBooks()
+public IQueryable<BookDto> GetBooks()
 {
     var books = from b in db.Books
-                select new BookDTO()
+                select new BookDto()
                 {
                     Id = b.Id,
                     Title = b.Title,
@@ -13,11 +13,11 @@ public IQueryable<BookDTO> GetBooks()
 }
 
 // GET api/Books/5
-[ResponseType(typeof(BookDetailDTO))]
+[ResponseType(typeof(BookDetailDto))]
 public async Task<IHttpActionResult> GetBook(int id)
 {
     var book = await db.Books.Include(b => b.Author).Select(b =>
-        new BookDetailDTO()
+        new BookDetailDto()
         {
             Id = b.Id,
             Title = b.Title,

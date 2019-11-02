@@ -1,4 +1,4 @@
-[ResponseType(typeof(BookDTO))]
+[ResponseType(typeof(BookDto))]
 public async Task<IHttpActionResult> PostBook(Book book)
 {
     if (!ModelState.IsValid)
@@ -13,7 +13,7 @@ public async Task<IHttpActionResult> PostBook(Book book)
     // Load author name
     db.Entry(book).Reference(x => x.Author).Load();
 
-    var dto = new BookDTO()
+    var dto = new BookDto()
     {
         Id = book.Id,
         Title = book.Title,
