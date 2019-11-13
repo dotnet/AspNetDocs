@@ -429,7 +429,7 @@ When the *Html.ValidationMessage* method displays a validation message, it skips
 <a id="_Toc2_10"></a>
 ### Fixed @model Declaration to not Add Whitespace to the Document
 
-In earlier releases, the *@model* declaration at the top of a view added a blank line to the rendered HTML output. This has been fixed so that the declaration does not introduce whitespace.
+In earlier releases, the `@model` declaration at the top of a view added a blank line to the rendered HTML output. This has been fixed so that the declaration does not introduce whitespace.
 
 <a id="_Toc2_11"></a>
 ### Added "FileExtensions" Property to View Engines to Support Engine-Specific File Names
