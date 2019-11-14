@@ -39,7 +39,7 @@ With the web site created, the next step is to add a reference to the database i
 
 The steps for adding the Northwind database to the Server Explorer depend on whether you want to use the SQL Server 2005 Express Edition database in the **App\_Data** folder or if you have a Microsoft SQL Server 2000 or 2005 database server setup that you want to use instead.
 
-## Using a Database in the App\_DataFolder
+## Using a Database in the App\_Data Folder
 
 If you do not have a SQL Server 2000 or 2005 database server to connect to, or you simply want to avoid having to add the database to a database server, you can use the SQL Server 2005 Express Edition version of the Northwind database that is located in the downloaded website's **App\_Data** folder (**NORTHWND.MDF**).
 
