@@ -173,7 +173,7 @@ For more information about queues, see the following resources.
 
 Documentation:
 
-- [Microsoft Azure Storage Queues Part 1: Getting Started](http://justazure.com/microsoft-azure-storage-queues-part-1-getting-started/). Article by Roman Schacherl.
+- [Microsoft Azure Storage Queues Part 1: Getting Started](https://www.red-gate.com/simple-talk/cloud/platform-as-a-service/microsoft-azure-storage-queues-part-1-getting-started/). Article by Roman Schacherl.
 - [Executing Background Tasks](https://msdn.microsoft.com/library/ff803365.aspx), chapter 5 of [Moving Applications to the Cloud, 3rd Edition](https://msdn.microsoft.com/library/ff728592.aspx) from Microsoft Patterns and Practices. (In particular, the section ["Using Azure Storage Queues"](https://msdn.microsoft.com/library/ff803365.aspx#sec7).)
 - [Best Practices for Maximizing Scalability and Cost Effectiveness of Queue-Based Messaging Solutions on Azure](https://msdn.microsoft.com/library/windowsazure/hh697709.aspx). White paper by Valery Mizonov.
 - [Comparing Azure Queues and Service Bus Queues](https://msdn.microsoft.com/magazine/jj159884.aspx). MSDN Magazine article, provides additional information that can help you choose which queue service to use. The article mentions that Service Bus is dependent on ACS for authentication, which means your SB queues would be unavailable when ACS is unavailable. However, since the article was written, SB was changed to enable you to use [SAS tokens](https://msdn.microsoft.com/library/windowsazure/dn170477.aspx) as an alternative to ACS.
