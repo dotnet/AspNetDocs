@@ -113,7 +113,7 @@ In the **Models** folder, add a class named **UniversityModels.cs**.
 
 ## Set up the database based on classes
 
-This tutorial uses [Code First Migrations](https://docs.microsoft.com/en-us/ef/ef6/modeling/code-first/migrations/) to create objects and database tables. These tables store information about the students and their courses.
+This tutorial uses [Code First Migrations](https://docs.microsoft.com/ef/ef6/modeling/code-first/migrations/) to create objects and database tables. These tables store information about the students and their courses.
 
    1. Select **Tools** > **NuGet Package Manager** > **Package Manager Console**.
 

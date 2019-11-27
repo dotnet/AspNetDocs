@@ -60,7 +60,7 @@ Tutorials and other information about ASP.NET MVC 5.1 RTM are available from the
 
 ### Enum support in views
 
-1. New `@Html.EnumDropDownListFor()` helper methods. These should be used like most of the HTML helpers with the caveat that the expression must evaluate to an [enum](https://msdn.microsoft.com/en-us/library/cc138362.aspx) type or a [Nullable&lt;T&gt;](https://msdn.microsoft.com/en-us/library/2cf62fcy.aspx) where `T` is an [enum](https://msdn.microsoft.com/en-us/library/cc138362.aspx) type. Use `EnumHelper.IsValidForEnumHelper()` to check these requirements.
+1. New `@Html.EnumDropDownListFor()` helper methods. These should be used like most of the HTML helpers with the caveat that the expression must evaluate to an [enum](https://msdn.microsoft.com/library/cc138362.aspx) type or a [Nullable&lt;T&gt;](https://msdn.microsoft.com/library/2cf62fcy.aspx) where `T` is an [enum](https://msdn.microsoft.com/library/cc138362.aspx) type. Use `EnumHelper.IsValidForEnumHelper()` to check these requirements.
 2. New `EnumHelper.GetSelectList()` methods which return an `IList<SelectListItem>`. This is useful when you need to manipulate a select list prior to calling, for example, `@Html.DropDownListFor()`, or when you wish to display the names which `@Html.EnumDropDownListFor()` shows.
 
 The following code shows these APIs.
@@ -73,7 +73,7 @@ You can see a complete example [here](https://aspnet.codeplex.com/SourceControl/
 
 ### Bootstrap support for editor templates
 
-We now allow passing in HTML attributes in [EditorFor](https://msdn.microsoft.com/en-us/library/system.web.mvc.html.editorextensions.editorfor(v=vs.100).aspx) as an [anonymous object](https://msdn.microsoft.com/en-us/library/bb397696.aspx).
+We now allow passing in HTML attributes in [EditorFor](https://msdn.microsoft.com/library/system.web.mvc.html.editorextensions.editorfor(v=vs.100).aspx) as an [anonymous object](https://msdn.microsoft.com/library/bb397696.aspx).
 
 For example:
 
@@ -83,7 +83,7 @@ For example:
 
 ### Unobtrusive validation for MinLengthAttribute and MaxLengthAttribute
 
-Client-side validation for string and array types will now be supported for properties decorated with the [MinLength](https://msdn.microsoft.com/en-us/library/system.componentmodel.dataannotations.minlengthattribute(v=vs.110).aspx) and [MaxLength](https://msdn.microsoft.com/en-us/library/system.componentmodel.dataannotations.maxlengthattribute(v=vs.110).aspx) attributes.
+Client-side validation for string and array types will now be supported for properties decorated with the [MinLength](https://msdn.microsoft.com/library/system.componentmodel.dataannotations.minlengthattribute(v=vs.110).aspx) and [MaxLength](https://msdn.microsoft.com/library/system.componentmodel.dataannotations.maxlengthattribute(v=vs.110).aspx) attributes.
 
 <a id="thisContext"></a>
 
