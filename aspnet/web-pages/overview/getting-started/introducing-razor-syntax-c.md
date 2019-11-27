@@ -113,7 +113,7 @@ In C#, keywords (like `var`, `true`, and `if`) and variable names are case sensi
 
 [!code-cshtml[Main](introducing-razor-syntax-c/samples/sample8.cshtml)]
 
-If you declare a variable as `var lastName = "Smith";` and if you try to reference that variable in your page as `@LastName`, an error results because `LastName` won't be recognized.
+If you declare a variable as `var lastName = "Smith";` and try to reference that variable in your page as `@LastName`, you would get the value `"Jones"` instead of `"Smith"`.
 
 > [!NOTE]
 > In Visual Basic, keywords and variables are *not* case sensitive.
