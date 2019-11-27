@@ -2,4 +2,4 @@
 
 1:28:29 PM: CREATE LOGIN [MACHINE\Administrator] FROM WINDOW
 
-1:28:29 PM: http://go.microsoft.com/fwlink/?LinkId=178587.
+1:28:29 PM: https://go.microsoft.com/fwlink/?LinkId=178587.

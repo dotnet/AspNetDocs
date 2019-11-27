@@ -13,7 +13,7 @@ msc.type: authoredcontent
 
 by [Scott Mitchell](https://twitter.com/ScottOnWriting)
 
-[Download Sample App](http://download.microsoft.com/download/5/d/7/5d7571fc-d0b7-4798-ad4a-c976c02363ce/ASPNET_Data_Tutorial_5_VB.exe) or [Download PDF](declarative-parameters-vb/_static/datatutorial05vb1.pdf)
+[Download Sample App](https://download.microsoft.com/download/5/d/7/5d7571fc-d0b7-4798-ad4a-c976c02363ce/ASPNET_Data_Tutorial_5_VB.exe) or [Download PDF](declarative-parameters-vb/_static/datatutorial05vb1.pdf)
 
 > In this tutorial we'll illustrate how to use a parameter set to a hard-coded value to select the data to display in a DetailsView control.
 
