@@ -14,7 +14,7 @@ msc.type: authoredcontent
 
 by [Mike Wasson](https://github.com/MikeWasson)
 
-[Download Completed Project](http://code.msdn.microsoft.com/ASP-NET-Web-API-Tutorial-468ee148)
+[Download Completed Project](https://code.msdn.microsoft.com/ASP-NET-Web-API-Tutorial-468ee148)
 
 > This tutorial shows how to inject dependencies into your ASP.NET Web API controller.
 > 

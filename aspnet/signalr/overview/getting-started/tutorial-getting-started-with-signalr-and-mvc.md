@@ -173,7 +173,7 @@ The code starts the connection and then passes it a function to handle the click
 
 ## Get the code
 
-[Download Completed Project](http://code.msdn.microsoft.com/Getting-Started-with-c366b2f3)
+[Download Completed Project](https://code.msdn.microsoft.com/Getting-Started-with-c366b2f3)
 
 ## Additional resources
 

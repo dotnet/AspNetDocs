@@ -69,7 +69,7 @@ namespace ContosoUniversity.Logging
         private static string FormatExceptionMessage(Exception exception, string fmt, object[] vars)
         {
             // Simple exception formatting: for a more comprehensive version see 
-            // http://code.msdn.microsoft.com/windowsazure/Fix-It-app-for-Building-cdd80df4
+            // https://code.msdn.microsoft.com/windowsazure/Fix-It-app-for-Building-cdd80df4
             var sb = new StringBuilder();
             sb.Append(string.Format(fmt, vars));
             sb.Append(" Exception: ");
