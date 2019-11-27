@@ -52,7 +52,7 @@ The tutorials take you through the process of setting up an Azure account and de
 
 ## Deploying web app projects
 
-The sample application that you download and deploy for these tutorials is a Visual Studio web application project. However, if you install the latest [Web Publish Update for Visual Studio](https://msdn.microsoft.com/tr-tr/library/jj161045.aspx), you can use the same deployment methods and tools for web app projects.
+The sample application that you download and deploy for these tutorials is a Visual Studio web application project. However, if you install the latest Web Publish Update for Visual Studio, you can use the same deployment methods and tools for web app projects.
 
 ## Deploying ASP.NET MVC projects
 
