@@ -14,7 +14,7 @@ msc.type: authoredcontent
 
 by [Mike Wasson](https://github.com/MikeWasson)
 
-[Download Completed Project](http://code.msdn.microsoft.com/ASP-NET-Web-API-Tutorial-c4761894)
+[Download Completed Project](https://code.msdn.microsoft.com/ASP-NET-Web-API-Tutorial-c4761894)
 
 > This tutorial shows how to support CRUD operations in an HTTP service using ASP.NET Web API for ASP.NET 4.x.
 > 

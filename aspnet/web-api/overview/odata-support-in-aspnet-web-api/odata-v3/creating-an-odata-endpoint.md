@@ -13,7 +13,7 @@ msc.type: authoredcontent
 
 by [Mike Wasson](https://github.com/MikeWasson)
 
-[Download Completed Project](http://code.msdn.microsoft.com/ASPNET-Web-API-OData-cecdb524)
+[Download Completed Project](https://code.msdn.microsoft.com/ASPNET-Web-API-OData-cecdb524)
 
 > The [Open Data Protocol](http://www.odata.org/) (OData) is a data access protocol for the web. OData provides a uniform way to structure data, query the data, and manipulate the data set through CRUD operations (create, read, update, and delete). OData supports both AtomPub (XML) and JSON formats. OData also defines a way to expose metadata about the data. Clients can use the metadata to discover the type information and relationships for the data set.
 >

@@ -13,7 +13,7 @@ msc.type: authoredcontent
 
 by [Tom Dykstra](https://github.com/tdykstra)
 
-[Download Completed Project](http://code.msdn.microsoft.com/Getting-Started-with-dd0e2ed8)
+[Download Completed Project](https://code.msdn.microsoft.com/Getting-Started-with-dd0e2ed8)
 
 > > [!NOTE] 
 > > 

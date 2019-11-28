@@ -43,7 +43,7 @@ Reminder: If you receive an error message or something doesn't work as you go th
 
 Download and install the Contoso University Visual Studio starter solution and project. This solution contains the completed tutorial. 
 
-[Download Starter Project](http://go.microsoft.com/fwlink/p/?LinkId=282627)
+[Download Starter Project](https://go.microsoft.com/fwlink/p/?LinkId=282627)
 
 ## Install IIS
 

@@ -13,7 +13,7 @@ msc.type: authoredcontent
 
 by [Scott Mitchell](https://twitter.com/ScottOnWriting)
 
-[Download Sample App](http://download.microsoft.com/download/9/c/1/9c1d03ee-29ba-4d58-aa1a-f201dcc822ea/ASPNET_Data_Tutorial_27_CS.exe) or [Download PDF](creating-a-customized-sorting-user-interface-cs/_static/datatutorial27cs1.pdf)
+[Download Sample App](https://download.microsoft.com/download/9/c/1/9c1d03ee-29ba-4d58-aa1a-f201dcc822ea/ASPNET_Data_Tutorial_27_CS.exe) or [Download PDF](creating-a-customized-sorting-user-interface-cs/_static/datatutorial27cs1.pdf)
 
 > When displaying a long list of sorted data, it can be very helpful to group related data by introducing separator rows. In this tutorial we'll see how to create such a sorting user interface.
 

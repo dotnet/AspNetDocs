@@ -13,7 +13,7 @@ msc.type: authoredcontent
 
 by [Scott Mitchell](https://twitter.com/ScottOnWriting)
 
-[Download Code](http://download.microsoft.com/download/3/9/f/39f92b37-e92e-4ab3-909e-b4ef23d01aa3/ASPNET_Data_Tutorial_63_CS.zip) or [Download PDF](wrapping-database-modifications-within-a-transaction-cs/_static/datatutorial63cs1.pdf)
+[Download Code](https://download.microsoft.com/download/3/9/f/39f92b37-e92e-4ab3-909e-b4ef23d01aa3/ASPNET_Data_Tutorial_63_CS.zip) or [Download PDF](wrapping-database-modifications-within-a-transaction-cs/_static/datatutorial63cs1.pdf)
 
 > This tutorial is the first of four that looks at updating, deleting, and inserting batches of data. In this tutorial we learn how database transactions allow batch modifications to be carried out as an atomic operation, which ensures that either all steps succeed or all steps fail.
 

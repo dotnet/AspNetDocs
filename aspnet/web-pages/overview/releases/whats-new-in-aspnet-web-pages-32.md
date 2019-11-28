@@ -37,7 +37,7 @@ This release rolls-up the change in the [ASP.NET Web Pages 3.2.1 Beta release](h
 
 We worked with the MSN team on rendering large pages. When pages render over 80 Kilobytes of data, we end up with objects on the large object heap. When multiple layers of layouts are used this effect can be multiplied.
 
-The result on the server is extra CPU usage, longer retention of memory, and even long pauses during [Gen 2 cleanup](https://msdn.microsoft.com/en-us/library/ms973837.aspx) in the garbage collector.
+The result on the server is extra CPU usage, longer retention of memory, and even long pauses during [Gen 2 cleanup](https://msdn.microsoft.com/library/ms973837.aspx) in the garbage collector.
 
 Below is a table demonstrating the results of analyzing a [perfview](https://channel9.msdn.com/Series/PerfView-Tutorial) for a run. The CPU is held constant at about 68%, while large pages are being rendered. The table shows that the number of Generation 2 collections has been almost completely eliminated, and the result is higher request rate and a considerable reduction in pauses due to garbage collection.
 

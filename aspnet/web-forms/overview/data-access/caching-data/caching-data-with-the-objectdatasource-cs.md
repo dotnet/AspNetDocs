@@ -13,7 +13,7 @@ msc.type: authoredcontent
 
 by [Scott Mitchell](https://twitter.com/ScottOnWriting)
 
-[Download Sample App](http://download.microsoft.com/download/4/a/7/4a7a3b18-d80e-4014-8e53-a6a2427f0d93/ASPNET_Data_Tutorial_58_CS.exe) or [Download PDF](caching-data-with-the-objectdatasource-cs/_static/datatutorial58cs1.pdf)
+[Download Sample App](https://download.microsoft.com/download/4/a/7/4a7a3b18-d80e-4014-8e53-a6a2427f0d93/ASPNET_Data_Tutorial_58_CS.exe) or [Download PDF](caching-data-with-the-objectdatasource-cs/_static/datatutorial58cs1.pdf)
 
 > Caching can mean the difference between a slow and a fast Web application. This tutorial is the first of four that take a detailed look at caching in ASP.NET. Learn the key concepts of caching and how to apply caching to the Presentation Layer through the ObjectDataSource control.
 

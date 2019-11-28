@@ -13,7 +13,7 @@ msc.type: authoredcontent
 
 by [Scott Mitchell](https://twitter.com/ScottOnWriting)
 
-[Download PDF](http://download.microsoft.com/download/E/8/9/E8920AE6-D441-41A7-8A77-9EF8FF970D8B/aspnet_tutorial05_ConfigDifferences_vb.pdf)
+[Download PDF](https://download.microsoft.com/download/E/8/9/E8920AE6-D441-41A7-8A77-9EF8FF970D8B/aspnet_tutorial05_ConfigDifferences_vb.pdf)
 
 > In earlier tutorials we deployed our website by copying all of the pertinent files from the development environment to the production environment. However, it is not uncommon for there to be configuration differences between environments, which necessitates that each environment have a unique Web.config file. This tutorial examines typical configuration differences and looks at strategies for maintaining separate configuration information.
 
