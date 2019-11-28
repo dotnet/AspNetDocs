@@ -31,7 +31,7 @@ namespace MyApp.Controllers
                     Category = Category.EBook,
                     DynamicProperties = new Dictionary<string, object>
                     {
-                        { "Blog", "http://blogs.msdn.com/b/microsoft_press/" },
+                        { "Blog", "https://blogs.msdn.com/b/microsoft_press/" },
                         { "Address", new Address { 
                               City = "Redmond", Street = "One Microsoft Way" }
                         }

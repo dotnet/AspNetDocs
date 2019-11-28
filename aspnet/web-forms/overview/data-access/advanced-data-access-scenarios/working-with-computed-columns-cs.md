@@ -13,7 +13,7 @@ msc.type: authoredcontent
 
 by [Scott Mitchell](https://twitter.com/ScottOnWriting)
 
-[Download Code](http://download.microsoft.com/download/3/9/f/39f92b37-e92e-4ab3-909e-b4ef23d01aa3/ASPNET_Data_Tutorial_71_CS.zip) or [Download PDF](working-with-computed-columns-cs/_static/datatutorial71cs1.pdf)
+[Download Code](https://download.microsoft.com/download/3/9/f/39f92b37-e92e-4ab3-909e-b4ef23d01aa3/ASPNET_Data_Tutorial_71_CS.zip) or [Download PDF](working-with-computed-columns-cs/_static/datatutorial71cs1.pdf)
 
 > When creating a database table, Microsoft SQL Server allows you to define a computed column whose value is calculated from an expression that usually references other values in the same database record. Such values are read-only at the database, which requires special considerations when working with TableAdapters. In this tutorial we learn how to meet the challenges posed by computed columns.
 

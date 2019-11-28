@@ -164,7 +164,7 @@ The code starts the connection and then passes it a function to handle the click
 
 ## Get the code
 
-[Download Completed Project](http://code.msdn.microsoft.com/SignalR-Getting-Started-b9d18aa9)
+[Download Completed Project](https://code.msdn.microsoft.com/SignalR-Getting-Started-b9d18aa9)
 
 ## Additional resources
 
