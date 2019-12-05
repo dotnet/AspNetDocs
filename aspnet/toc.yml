@@ -3764,9 +3764,9 @@
     - name: Host OWIN in an Azure Worker Role
       href: aspnet/overview/owin-and-katana/host-owin-in-an-azure-worker-role.md
 - name: SameSite
-  items:
+  items: 
     - name: OWIN SameSite
-    uid: sametite/owin-samesite
+      uid: sametite/owin-samesite
 - name: Whitepapers
   href: whitepapers/index.md
   items: 
