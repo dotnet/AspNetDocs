@@ -3766,7 +3766,10 @@
 - name: SameSite
   items:
     -name: ASP.NET SameSite
-    uid: samesite/system-web-samesite
+    href: whitepapers/index.md
+    <!-- 
+     uid: samesite/system-web-samesite 
+     -->
 - name: Whitepapers
   href: whitepapers/index.md
   items: 
