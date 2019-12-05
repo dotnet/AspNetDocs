@@ -46,29 +46,11 @@ The November 19, 2019 update for Windows to update from the 2016 standard to the
 
 ## Supporting older browsers
 
-The 2016 SameSite standard mandated that unknown values must be treated as `SameSite=Strict` values. Apps accessed from older browsers which support the 2016 SameSite standard may break when they get a SameSite property with a value of `None`. Web apps must implement browser detection if they intend to support older browsers. ASP.NET Core doesn't implement browser detection because User-Agents values are highly volatile and change frequently. An extension point in <xref:Microsoft.AspNetCore.CookiePolicy> allows plugging in User-Agent specific logic.
-
-In `Startup.Configure`, add code that calls <xref:Microsoft.AspNetCore.Builder.CookiePolicyAppBuilderExtensions.UseCookiePolicy*> before calling <xref:Microsoft.AspNetCore.Builder.AuthAppBuilderExtensions.UseAuthentication*> or *any* method that writes cookies:
-
-[!code-csharp[](samesite/sample/Startup.cs?name=snippet5&highlight=18-19)]
-
-In `Startup.ConfigureServices`, add code similar to the following:
-
-::: moniker range="= aspnetcore-3.1"
-
-[!code-csharp[](samesite/sample/Startup31.cs?name=snippet)]
-
-::: moniker-end
-
-::: moniker range="< aspnetcore-3.1"
-
-[!code-csharp[](samesite/sample/Startup.cs?name=snippet)]
-
-::: moniker-end
+The 2016 SameSite standard mandated that unknown values must be treated as `SameSite=Strict` values. Apps accessed from older browsers which support the 2016 SameSite standard may break when they get a SameSite property with a value of `None`. Web apps must implement browser detection if they intend to support older browsers. ASP.NET doesn't implement browser detection because User-Agents values are highly volatile and change frequently. An extension point in <xref:Microsoft.AspNetCore.CookiePolicy> allows plugging in User-Agent specific logic.
 
 In the preceding sample, `MyUserAgentDetectionLib.DisallowsSameSiteNone` is a user supplied library that detects if the user agent doesn't support SameSite `None`:
 
-[!code-csharp[](samesite/sample/Startup31.cs?name=snippet2)]
+[!code-csharp[](sample\SameSiteCheck.cs?name=snippet)]
 
 The following code shows a sample `DisallowsSameSiteNone` method:
 
@@ -77,7 +59,7 @@ The following code shows a sample `DisallowsSameSiteNone` method:
 > * It should not be considered complete.
 > * It is not maintained or supported.
 
-[!code-csharp[](samesite/sample/Startup31.cs?name=snippetX)]
+[!code-csharp[](sample\SameSiteCheck.cs?name=snippet2)]
 
 ## Test apps for SameSite problems
 
