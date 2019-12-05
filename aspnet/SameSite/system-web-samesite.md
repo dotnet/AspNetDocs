@@ -29,7 +29,7 @@ See [HttpCookie.SameSite Property](/dotnet/api/system.web.httpcookie.samesite#Sy
 
 SameSite support was first implemented in .NET 4.7.2 using the [2016 draft standard](https://tools.ietf.org/html/draft-west-first-party-cookies-07#section-4.1).
 
-The November 19, 2019 update for Windows to update from the 2016 standard to the 2019 standard. See the following KB's for more information:
+The November 19, 2019 update for Windows to updated .NET 4.8 from the 2016 standard to the 2019 standard. See the following KB's for more information:
 
 * [KB article 4531182](https://support.microsoft.com/help/4531182/kb4531182)
 * [KB article 4524421](https://support.microsoft.com/help/4524421/kb4524421)
