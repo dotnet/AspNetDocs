@@ -3766,7 +3766,7 @@
 - name: SameSite
   uid: samesite/system-web-samesite
 - name: Whitepapers
-  href: samesite/system-web-samesite
+  href: whitepapers/index.md
   items: 
     - name: Whitepapers
       href: whitepapers/overview.md
