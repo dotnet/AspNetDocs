@@ -3,7 +3,7 @@ title: Work with SameSite cookies using OWIN
 author: rick-anderson
 description: Learn how to use to SameSite cookies in ASP.NET
 ms.author: riande
-ms.date: 12/4/2019
+ms.date: 12/6/2019
 uid: owin-samesite
 ---
 # Work with SameSite cookies in ASP.NET
