@@ -3763,6 +3763,10 @@
       href: aspnet/overview/owin-and-katana/owin-middleware-in-the-iis-integrated-pipeline.md
     - name: Host OWIN in an Azure Worker Role
       href: aspnet/overview/owin-and-katana/host-owin-in-an-azure-worker-role.md
+- name: SameSite
+  items:
+    - name: OWIN SameSite
+    uid: samesite/owin-samesite
 - name: Whitepapers
   href: whitepapers/index.md
   items: 
