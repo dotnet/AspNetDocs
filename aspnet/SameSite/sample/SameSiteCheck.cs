@@ -9,7 +9,7 @@ namespace WebApplication64
         {
             if (cookie.SameSite == SameSiteMode.None)
             {
-                var userAgent = httpContext.Request.Headers["User-Agent"].ToString();
+                var userAgent = httpContext.Request.UserAgent;
                 if (MyUserAgentDetectionLib.DisallowsSameSiteNone(userAgent))
                 {
                     cookie.SameSite = (SameSiteMode)(-1);
@@ -61,6 +61,5 @@ namespace WebApplication64
         #endregion
     }
 }
-
 
 

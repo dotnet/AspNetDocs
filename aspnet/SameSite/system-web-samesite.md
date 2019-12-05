@@ -10,14 +10,14 @@ uid: samesite/system-web-samesite
 
 By [Rick Anderson](https://twitter.com/RickAndMSFT)
 
-[SameSite](https://tools.ietf.org/html/draft-west-first-party-cookies-07) is an [IETF](https://ietf.org/about/) draft designed to provide some protection against cross-site request forgery (CSRF) attacks. The [SameSite 2019 draft](https://tools.ietf.org/html/draft-west-cookie-incrementalism-00):
+SameSite is an [IETF](https://ietf.org/about/) draft designed to provide some protection against cross-site request forgery (CSRF) attacks. The [SameSite 2019 draft](https://tools.ietf.org/html/draft-west-cookie-incrementalism-00):
 
 * Treats cookies as `SameSite=Lax` by default.
 * States cookies that explicitly assert `SameSite=None` in order to enable cross-site delivery should be marked as `Secure`.
 
 `Lax` works for most app cookies. Some forms of authentication like [OpenID Connect](https://openid.net/connect/) (OIDC) and [WS-Federation](https://auth0.com/docs/protocols/ws-fed) default to POST based redirects. The POST based redirects trigger the SameSite browser protections, so SameSite is disabled for these components. Most [OAuth](https://oauth.net/) logins are not affected due to differences in how the request flows.
 
-The `None` parameter causes compatibility problems with clients that implemented the prior 2016 draft standard (for example, iOS 12). See [Supporting older browsers](#sob) in this document.
+The `None` parameter causes compatibility problems with clients that implemented the prior [2016 draft standard](https://tools.ietf.org/html/draft-west-first-party-cookies-07) (for example, iOS 12). See [Supporting older browsers](#sob) in this document.
 
 Each ASP.NET Core component that emits cookies needs to decide if SameSite is appropriate.
 
@@ -29,12 +29,12 @@ See [HttpCookie.SameSite Property](/dotnet/api/system.web.httpcookie.samesite#Sy
 
 SameSite support was first implemented in .NET 4.7.2 using the [2016 draft standard](https://tools.ietf.org/html/draft-west-first-party-cookies-07#section-4.1).
 
-The November 19, 2019 update for Windows to updated .NET 4.8 from the 2016 standard to the 2019 standard. See the following KB's for more information:
+The November 19, 2019 updates for Windows updated .NET 4.7.2+ from the 2016 standard to the 2019 standard. Additional updates are forthcoming for other versions of Windows. See the following KB's for more information:
 
 * [KB article 4531182](https://support.microsoft.com/help/4531182/kb4531182)
 * [KB article 4524421](https://support.microsoft.com/help/4524421/kb4524421)
 
- The [2019 draft of the SameSite specification](https://github.com/aspnet/Announcements/issues/390):
+ The 2019 draft of the SameSite specification:
 
 * Is **not** backwards compatible with the 2016 draft. For more information, see [Supporting older browsers](#sob) in this document.
 * Specifies cookies are treated as `SameSite=Lax` by default.
@@ -64,7 +64,7 @@ In the preceding sample, `MyUserAgentDetectionLib.DisallowsSameSiteNone` is a us
 Apps that interact with remote sites such as through third-party login need to:
 
 * Test the interaction on multiple browsers.
-* Apply the [CookiePolicy browser detection and mitigation](#sob) discussed in this document.
+* Apply the [browser detection and mitigation](#sob) discussed in this document.
 
 Test web apps using a client version that can opt-in to the new SameSite behavior. Chrome, Firefox, and Chromium Edge all have new opt-in feature flags that can be used for testing. After your app applies the SameSite patches, test it with older client versions, especially Safari. For more information, see [Supporting older browsers](#sob) in this document.
 
