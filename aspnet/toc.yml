@@ -3766,7 +3766,7 @@
 - name: SameSite
   items:
     - name: OWIN SameSite
-    uid: samesite/owin-samesite
+    uid: SameSite/owin-samesite
 - name: Whitepapers
   href: whitepapers/index.md
   items: 
