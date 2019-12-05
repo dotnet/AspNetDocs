@@ -3763,19 +3763,13 @@
       href: aspnet/overview/owin-and-katana/owin-middleware-in-the-iis-integrated-pipeline.md
     - name: Host OWIN in an Azure Worker Role
       href: aspnet/overview/owin-and-katana/host-owin-in-an-azure-worker-role.md
-- name: SameSite
-  href: whitepapers/index.md
-  items:
-    -name: ASP.NET SameSite
-    href: whitepapers/index.md
-    <!-- 
-     uid: samesite/system-web-samesite 
-     -->
 - name: Whitepapers
   href: whitepapers/index.md
   items: 
     - name: Whitepapers
       href: whitepapers/overview.md
+    -name: ASP.NET SameSite
+     uid: samesite/system-web-samesite 
     - name: ASP.NET 4 and Visual Studio 2010 Web Development Overview
       href: whitepapers/aspnet4/index.md
       items: 
