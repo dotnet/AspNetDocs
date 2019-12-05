@@ -3752,7 +3752,9 @@
     - name: An Overview of Project Katana
       href: aspnet/overview/owin-and-katana/an-overview-of-project-katana.md
     - name: Getting Started with OWIN and Katana
-      href: aspnet/overview/owin-and-katana/getting-started-with-owin-and-katana.md
+      href: aspnet/overview/owin-and-katana/getting-started-with-owin-and-katana.md 
+    - name: OWIN SameSite
+      uid: owin-samesite
     - name: Katana Samples
       href: aspnet/overview/owin-and-katana/katana-samples.md
     - name: OWIN Startup Class Detection
@@ -3763,10 +3765,6 @@
       href: aspnet/overview/owin-and-katana/owin-middleware-in-the-iis-integrated-pipeline.md
     - name: Host OWIN in an Azure Worker Role
       href: aspnet/overview/owin-and-katana/host-owin-in-an-azure-worker-role.md
-- name: SameSite
-  items: 
-    - name: OWIN SameSite
-      uid: owin-samesite
 - name: Whitepapers
   href: whitepapers/index.md
   items: 
