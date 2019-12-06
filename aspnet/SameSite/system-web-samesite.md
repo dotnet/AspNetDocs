@@ -39,7 +39,7 @@ The November 19, 2019 updates for Windows updated .NET 4.7.2+ from the 2016 stan
 * Is **not** backwards compatible with the 2016 draft. For more information, see [Supporting older browsers](#sob) in this document.
 * Specifies cookies are treated as `SameSite=Lax` by default.
 * Specifies cookies that explicitly assert `SameSite=None` in order to enable cross-site delivery should be marked as `Secure`. `None` is a new entry to opt out.
-* Is supported by patches issued as decribed in the KB's listed above.
+* Is supported by patches issued as described in the KB's listed above.
 * Is scheduled to be enabled by [Chrome](https://chromestatus.com/feature/5088147346030592) by default in [Feb 2020](https://blog.chromium.org/2019/10/developers-get-ready-for-new.html). Browsers started moving to this standard in 2019.
 
 <a name="sob"></a>
