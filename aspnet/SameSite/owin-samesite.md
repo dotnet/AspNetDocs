@@ -82,9 +82,9 @@ The following code shows an example implementation of `SameSiteCookieManager`:
 
 [!code-csharp[](sample/SameSiteCookieManager.cs?name=snippet)]
 
-In the preceding sample, `DisallowsSameSiteNone` is a user method that detects if the user agent doesn't support SameSite `None`:
+In the preceding sample, `DisallowsSameSiteNone` is called in the `CheckSameSite` method. `DisallowsSameSiteNone` is a user method that detects if the user agent doesn't support SameSite `None`:
 
-[!code-csharp[](sample/SameSiteCookieManager.cs?name=snippet3)]
+[!code-csharp[](sample/SameSiteCookieManager.cs?name=snippet3&highlight=4)]
 
 The following code shows a sample `DisallowsSameSiteNone` method:
 
