@@ -30,7 +30,7 @@ Each OWIN component that emits cookies needs to decide if SameSite is appropriat
 
 [Microsoft.Owin](https://www.nuget.org/packages/Microsoft.Owin/) never supported the [SameSite 2016 draft standard](https://tools.ietf.org/html/draft-west-first-party-cookies-07#section-4.1).
 
-Support for the [SameSite 2019 draft](https://tools.ietf.org/html/draft-west-cookie-incrementalism-00) is only available in `Microsoft.Owin` 4.1.0 and later and .NET 4.7.2 or later. There are no patches for prior versions.
+Support for the [SameSite 2019 draft](https://tools.ietf.org/html/draft-west-cookie-incrementalism-00) is only available in `Microsoft.Owin` 4.1.0 and later. There are no patches for prior versions.
 
 The 2019 draft of the SameSite specification:
 
