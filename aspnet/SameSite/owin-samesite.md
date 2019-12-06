@@ -37,7 +37,7 @@ owinContext.Response.Cookies.Append("My Key", "My Value", new CookieOptions()
 
 The following APIs use SameSite:
 
-* <xref:Microsoft.Owin.SameSiteMode>
+* [Microsoft.Owin.SameSiteMode](https://github.com/aspnet/AspNetKatana/blob/dev/src/Microsoft.Owin/SameSiteMode.cs)
 * [CookieOptions.SameSite](xref:Microsoft.AspNetCore.Http.CookieOptions.SameSite)
 * [CookieAuthenticationOptions Class](/previous-versions/aspnet/dn385599(v%3Dvs.113)) <!-- CookieAuthenticationOptions.CookieSameSite not published -->
 * [CookieAuthenticationOptions.CookieSameSite](https://github.com/aspnet/AspNetKatana/blob/dev/src/Microsoft.Owin.Security.Cookies/CookieAuthenticationOptions.cs#L68-#L72)
