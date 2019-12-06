@@ -1,7 +1,7 @@
 ---
-title: Work with SameSite cookies using OWIN
+title: Work with SameSite cookies and the Open Web Interface for .NET (OWIN)
 author: rick-anderson
-description: Learn how to use to SameSite cookies in ASP.NET
+description: Work with SameSite cookies and the Open Web Interface for .NET (OWIN)
 ms.author: riande
 ms.date: 12/6/2019
 uid: owin-samesite
@@ -30,7 +30,7 @@ Each OWIN component that emits cookies needs to decide if SameSite is appropriat
 
 [Microsoft.Owin](https://www.nuget.org/packages/Microsoft.Owin/) never supported the [SameSite 2016 draft standard](https://tools.ietf.org/html/draft-west-first-party-cookies-07#section-4.1).
 
-Support for the [SameSite 2019 draft](https://tools.ietf.org/html/draft-west-cookie-incrementalism-00) is only available in 4.1.0. There are no patches for prior versions.
+Support for the [SameSite 2019 draft](https://tools.ietf.org/html/draft-west-cookie-incrementalism-00) is only available in `Microsoft.Owin` 4.1.0 and later and .NET 4.7.2 or later. There are no patches for prior versions.
 
 The 2019 draft of the SameSite specification:
 
@@ -59,7 +59,7 @@ The following code shows an example implementation of `SameSiteCookieManager`:
 
 In the preceding sample, `DisallowsSameSiteNone` is a user method that detects if the user agent doesn't support SameSite `None`:
 
-[!code-csharp[](sample/SameSiteCookieManager.cs?name=snippet3&highlight=4)]
+[!code-csharp[](sample/SameSiteCookieManager.cs?name=snippet3)]
 
 The following code shows a sample `DisallowsSameSiteNone` method:
 
