@@ -37,7 +37,7 @@ owinContext.Response.Cookies.Append("My Key", "My Value", new CookieOptions()
 
 The following APIs use SameSite:
 
-* <xref:System.Web.SameSiteMode>
+* <xref:Microsoft.Owin.SameSiteMode>
 * [CookieOptions.SameSite](xref:Microsoft.AspNetCore.Http.CookieOptions.SameSite)
 * [CookieAuthenticationOptions Class](/previous-versions/aspnet/dn385599(v%3Dvs.113)) <!-- CookieAuthenticationOptions.CookieSameSite not published -->
 * [CookieAuthenticationOptions.CookieSameSite](https://github.com/aspnet/AspNetKatana/blob/dev/src/Microsoft.Owin.Security.Cookies/CookieAuthenticationOptions.cs#L68-#L72)
@@ -47,7 +47,6 @@ The following APIs use SameSite:
 * [CookieAuthenticationOptions.CookieManager](https://github.com/aspnet/AspNetKatana/blob/dev/src/Microsoft.Owin.Security.Cookies/CookieAuthenticationOptions.cs#L143-#AL148)
 * [OpenIdConnectAuthenticationOptions.CookieManager](https://github.com/aspnet/AspNetKatana/blob/dev/src/Microsoft.Owin.Security.OpenIdConnect/OpenIdConnectAuthenticationOptions.cs#L315-#L318)
 
-[Microsoft.Owin](https://www.nuget.org/packages/Microsoft.Owin/) uses a nullable SameSite field in most places.
 
 ## History and changes
 
