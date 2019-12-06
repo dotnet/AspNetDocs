@@ -51,18 +51,24 @@ In `Startup.Configuration`, add code similar to the following:
 
 [!code-csharp[](sample/Startup1.cs?name=snippet)]
 
+The preceding code requires the .NET 4.7.2 or later SameSite patch.
+
 The following code shows an example implementation of `SameSiteCookieManager`:
 
 [!code-csharp[](sample/SameSiteCookieManager.cs?name=snippet)]
 
-In the preceding sample, `DisallowsSameSiteNone` is a user method that detects if the user agent doesn't support SameSite `None`. The following code shows a sample `DisallowsSameSiteNone` method:
+In the preceding sample, `DisallowsSameSiteNone` is a user method that detects if the user agent doesn't support SameSite `None`:
+
+[!code-csharp[](sample/SameSiteCookieManager.cs?name=snippet3&highlight=4)]
+
+The following code shows a sample `DisallowsSameSiteNone` method:
 
 > [!WARNING]
 > The following code is for demonstration only:
 > * It should not be considered complete.
 > * It is not maintained or supported.
 
-[!code-csharp[](sample/SameSiteCookieManager.cs?name=snippet)]
+[!code-csharp[](sample/SameSiteCookieManager.cs?name=snippet2)]
 
 ## Test apps for SameSite problems
 

@@ -35,6 +35,7 @@ namespace OwinApp
             return _innerManager.GetRequestCookie(context, key);
         }
 
+        #region snippet3
         private void CheckSameSite(IOwinContext context, CookieOptions options)
         {
             if (options.SameSite == Microsoft.Owin.SameSiteMode.None 
@@ -43,6 +44,7 @@ namespace OwinApp
                 options.SameSite = null;
             }
         }
+        #endregion
         #endregion
 
         #region snippet2

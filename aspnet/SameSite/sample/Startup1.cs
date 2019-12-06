@@ -16,7 +16,8 @@ namespace OwinApp
                  new OpenIdConnectAuthenticationOptions
                  {
                      // … Your preexisting options … 
-                     CookieManager = new SameSiteCookieManager(new SystemWebCookieManager())
+                     CookieManager = new SameSiteCookieManager(
+                                         new SystemWebCookieManager())
                  });
 
             // Remaining code removed for brevity.
