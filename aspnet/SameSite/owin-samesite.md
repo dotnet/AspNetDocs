@@ -16,13 +16,36 @@ SameSite is an [IETF](https://ietf.org/about/) draft designed to provide some pr
 * Treats cookies as `SameSite=Lax` by default.
 * States cookies that explicitly assert `SameSite=None` in order to enable cross-site delivery should be marked as `Secure`.
 
-`Lax` works for most app cookies. Some forms of authentication like [OpenID Connect](https://openid.net/connect/) (OIDC) and [WS-Federation](https://auth0.com/docs/protocols/ws-fed) default to POST based redirects. The POST based redirects trigger the SameSite browser protections, so SameSite is disabled for these components. Most [OAuth](https://oauth.net/) logins are not affected due to differences in how the request flows.
+`Lax` works for most app cookies. Some forms of authentication like [OpenID Connect](https://openid.net/connect/) (OIDC) and [WS-Federation](https://auth0.com/docs/protocols/ws-fed) default to POST based redirects. The POST based redirects trigger the SameSite browser protections, so SameSite is disabled for these components. Most [OAuth](https://oauth.net/) logins aren't affected due to differences in how the request flows. All other components do **not** set SameSite by default and use the clients default behavior (old or new).
 
 The `None` parameter causes compatibility problems with clients that implemented the prior [2016 draft standard](https://tools.ietf.org/html/draft-west-first-party-cookies-07) (for example, iOS 12). See [Supporting older browsers](#sob) in this document.
 
 Each OWIN component that emits cookies needs to decide if SameSite is appropriate.
 
+For the ASP.NET 4.x version of this article, see <xref:samesite/system-web-samesite>.
+
 ## API usage with SameSite
+
+The following code sets SameSite to `Lax`:
+
+```csharp
+owinContext.Response.Cookies.Append("My Key", "My Value", new CookieOptions()
+{
+    SameSite = SameSiteMode.Lax
+});
+```
+
+The following APIs use SameSite:
+
+* <xref:System.Web.SameSiteMode>
+* [CookieOptions.SameSite](xref:Microsoft.AspNetCore.Http.CookieOptions.SameSite)
+* [CookieAuthenticationOptions Class](/previous-versions/aspnet/dn385599(v%3Dvs.113)) <!-- CookieAuthenticationOptions.CookieSameSite not published -->
+* [CookieAuthenticationOptions.CookieSameSite](https://github.com/aspnet/AspNetKatana/blob/dev/src/Microsoft.Owin.Security.Cookies/CookieAuthenticationOptions.cs#L68-#L72)
+* [ICookieManager](/previous-versions/aspnet/dn800238(v%3Dvs.113))
+* [SystemWebCookieManager](https://github.com/aspnet/AspNetKatana/blob/dev/src/Microsoft.Owin.Host.SystemWeb/SystemWebCookieManager.cs)
+* [SystemWebChunkingCookieManager](https://github.com/aspnet/AspNetKatana/blob/dev/src/Microsoft.Owin.Host.SystemWeb/SystemWebChunkingCookieManager.cs)
+* [CookieAuthenticationOptions.CookieManager](https://github.com/aspnet/AspNetKatana/blob/dev/src/Microsoft.Owin.Security.Cookies/CookieAuthenticationOptions.cs#L143-#AL148)
+* [OpenIdConnectAuthenticationOptions.CookieManager](https://github.com/aspnet/AspNetKatana/blob/dev/src/Microsoft.Owin.Security.OpenIdConnect/OpenIdConnectAuthenticationOptions.cs#L315-#L318)
 
 [Microsoft.Owin](https://www.nuget.org/packages/Microsoft.Owin/) uses a nullable SameSite field in most places.
 
@@ -37,8 +60,10 @@ The 2019 draft of the SameSite specification:
 * Is **not** backwards compatible with the 2016 draft. For more information, see [Supporting older browsers](#sob) in this document.
 * Specifies cookies are treated as `SameSite=Lax` by default.
 * Specifies cookies that explicitly assert `SameSite=None` in order to enable cross-site delivery should be marked as `Secure`. `None` is a new entry to opt out.
-* Is supported by patches issued as described in the KB's listed above.
 * Is scheduled to be enabled by [Chrome](https://chromestatus.com/feature/5088147346030592) by default in [Feb 2020](https://blog.chromium.org/2019/10/developers-get-ready-for-new.html). Browsers started moving to this standard in 2019.
+* Is supported by patches issued as described in the following KB's:
+  * [KB article 4531182](https://support.microsoft.com/help/4531182/kb4531182)
+  * [KB article 4524421](https://support.microsoft.com/help/4524421/kb4524421)
 
 <a name="sob"></a>
 
@@ -112,3 +137,4 @@ Versions of Electron include older versions of Chromium. For example, the versio
 
 * [Chromium Blog:Developers: Get Ready for New SameSite=None; Secure Cookie Settings](https://blog.chromium.org/2019/10/developers-get-ready-for-new.html)
 * [SameSite cookies explained](https://web.dev/samesite-cookies-explained/)
+* [OWIN and System.Web response cookie integration issues](https://github.com/aspnet/AspNetKatana/wiki/System.Web-response-cookie-integration-issues)
