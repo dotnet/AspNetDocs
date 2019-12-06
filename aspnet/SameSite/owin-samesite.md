@@ -6,65 +6,70 @@ ms.author: riande
 ms.date: 12/6/2019
 uid: owin-samesite
 ---
-# Work with SameSite cookies in ASP.NET
+
+# SameSite cookies and the Open Web Interface for .NET (OWIN)
 
 By [Rick Anderson](https://twitter.com/RickAndMSFT)
 
-[SameSite](https://tools.ietf.org/html/draft-west-first-party-cookies-07) is an [IETF](https://ietf.org/about/) draft designed to provide some protection against cross-site request forgery (CSRF) attacks. The [SameSite 2019 draft](https://tools.ietf.org/html/draft-west-cookie-incrementalism-00):
+SameSite is an [IETF](https://ietf.org/about/) draft designed to provide some protection against cross-site request forgery (CSRF) attacks. The [SameSite 2019 draft](https://tools.ietf.org/html/draft-west-cookie-incrementalism-00):
 
 * Treats cookies as `SameSite=Lax` by default.
 * States cookies that explicitly assert `SameSite=None` in order to enable cross-site delivery should be marked as `Secure`.
 
 `Lax` works for most app cookies. Some forms of authentication like [OpenID Connect](https://openid.net/connect/) (OIDC) and [WS-Federation](https://auth0.com/docs/protocols/ws-fed) default to POST based redirects. The POST based redirects trigger the SameSite browser protections, so SameSite is disabled for these components. Most [OAuth](https://oauth.net/) logins are not affected due to differences in how the request flows.
 
-The `None` parameter causes compatibility problems with clients that implemented the prior 2016 draft standard (for example, iOS 12). See [Supporting older browsers](#sob) in this document.
+The `None` parameter causes compatibility problems with clients that implemented the prior [2016 draft standard](https://tools.ietf.org/html/draft-west-first-party-cookies-07) (for example, iOS 12). See [Supporting older browsers](#sob) in this document.
 
-Each ASP.NET Core component that emits cookies needs to decide if SameSite is appropriate.
+Each OWIN component that emits cookies needs to decide if SameSite is appropriate.
 
 ## API usage with SameSite
 
-See [HttpCookie.SameSite Property](/dotnet/api/system.web.httpcookie.samesite#System_Web_HttpCookie_SameSite)
+[Microsoft.Owin](https://www.nuget.org/packages/Microsoft.Owin/) uses a nullable SameSite field in most places.
 
 ## History and changes
 
-SameSite support was first implemented in .NET 4.7.2 using the [2016 draft standard](https://tools.ietf.org/html/draft-west-first-party-cookies-07#section-4.1).
+[Microsoft.Owin](https://www.nuget.org/packages/Microsoft.Owin/) never supported the [SameSite 2016 draft standard](https://tools.ietf.org/html/draft-west-first-party-cookies-07#section-4.1).
 
-The November 19, 2019 update for Windows to updated .NET 4.8 from the 2016 standard to the 2019 standard. See the following KB's for more information:
+Support for the [SameSite 2019 draft](https://tools.ietf.org/html/draft-west-cookie-incrementalism-00) is only available in 4.1.0. There are no patches for prior versions.
 
-* [KB article 4531182](https://support.microsoft.com/help/4531182/kb4531182)
-* [KB article 4524421](https://support.microsoft.com/help/4524421/kb4524421)
-
- The [2019 draft of the SameSite specification](https://github.com/aspnet/Announcements/issues/390):
+The 2019 draft of the SameSite specification:
 
 * Is **not** backwards compatible with the 2016 draft. For more information, see [Supporting older browsers](#sob) in this document.
 * Specifies cookies are treated as `SameSite=Lax` by default.
 * Specifies cookies that explicitly assert `SameSite=None` in order to enable cross-site delivery should be marked as `Secure`. `None` is a new entry to opt out.
-* Is supported by patches issued as decribed in the KB's listed above.
+* Is supported by patches issued as described in the KB's listed above.
 * Is scheduled to be enabled by [Chrome](https://chromestatus.com/feature/5088147346030592) by default in [Feb 2020](https://blog.chromium.org/2019/10/developers-get-ready-for-new.html). Browsers started moving to this standard in 2019.
 
 <a name="sob"></a>
 
 ## Supporting older browsers
 
-The 2016 SameSite standard mandated that unknown values must be treated as `SameSite=Strict` values. Apps accessed from older browsers which support the 2016 SameSite standard may break when they get a SameSite property with a value of `None`. Web apps must implement browser detection if they intend to support older browsers. ASP.NET doesn't implement browser detection because User-Agents values are highly volatile and change frequently. The following code can be called at the <xref:HTTP.HttpCookie> call site:
+The 2016 SameSite standard mandated that unknown values must be treated as `SameSite=Strict` values. Apps accessed from older browsers which support the 2016 SameSite standard may break when they get a SameSite property with a value of `None`. Web apps must implement browser detection if they intend to support older browsers. ASP.NET doesn't implement browser detection because User-Agents values are highly volatile and change frequently. An extension point in [ICookieManager](/previous-versions/aspnet/dn800238(v%3Dvs.113)) allows plugging in User-Agent specific logic.
+<!-- https://docs.microsoft.com/en-us/previous-versions/aspnet/dn800238(v%3Dvs.113) -->
 
-[!code-csharp[](sample/SameSiteCheck.cs?name=snippet)]
+In `Startup.Configuration`, add code similar to the following:
 
-In the preceding sample, `MyUserAgentDetectionLib.DisallowsSameSiteNone` is a user supplied library that detects if the user agent doesn't support SameSite `None`. The following code shows a sample `DisallowsSameSiteNone` method:
+[!code-csharp[](sample/Startup1.cs?name=snippet)]
+
+The following code shows an example implementation of `SameSiteCookieManager`:
+
+[!code-csharp[](sample/SameSiteCookieManager.cs?name=snippet)]
+
+In the preceding sample, `DisallowsSameSiteNone` is a user method that detects if the user agent doesn't support SameSite `None`. The following code shows a sample `DisallowsSameSiteNone` method:
 
 > [!WARNING]
 > The following code is for demonstration only:
 > * It should not be considered complete.
 > * It is not maintained or supported.
 
-[!code-csharp[](sample/SameSiteCheck.cs?name=snippet2)]
+[!code-csharp[](sample/SameSiteCookieManager.cs?name=snippet)]
 
 ## Test apps for SameSite problems
 
 Apps that interact with remote sites such as through third-party login need to:
 
 * Test the interaction on multiple browsers.
-* Apply the [CookiePolicy browser detection and mitigation](#sob) discussed in this document.
+* Apply the [browser detection and mitigation](#sob) discussed in this document.
 
 Test web apps using a client version that can opt-in to the new SameSite behavior. Chrome, Firefox, and Chromium Edge all have new opt-in feature flags that can be used for testing. After your app applies the SameSite patches, test it with older client versions, especially Safari. For more information, see [Supporting older browsers](#sob) in this document.
 
