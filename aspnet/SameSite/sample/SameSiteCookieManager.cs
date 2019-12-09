@@ -1,28 +1,57 @@
-﻿using System.Web;
+﻿using Microsoft.Owin;
+using Microsoft.Owin.Infrastructure;
 
-namespace WebApplication64
+namespace OwinApp
 {
-    public class SameSiteCheck
+    #region snippet
+    public class SameSiteCookieManager : ICookieManager
     {
-        #region snippet
-        private void CheckSameSite(HttpContext httpContext, HttpCookie cookie)
+        private readonly ICookieManager _innerManager;
+
+        public SameSiteCookieManager() : this(new CookieManager())
         {
-            if (cookie.SameSite == SameSiteMode.None)
+        }
+
+        public SameSiteCookieManager(ICookieManager innerManager)
+        {
+            _innerManager = innerManager;
+        }
+
+        public void AppendResponseCookie(IOwinContext context, string key, string value,
+                                         CookieOptions options)
+        {
+            CheckSameSite(context, options);
+            _innerManager.AppendResponseCookie(context, key, value, options);
+        }
+
+        public void DeleteCookie(IOwinContext context, string key, CookieOptions options)
+        {
+            CheckSameSite(context, options);
+            _innerManager.DeleteCookie(context, key, options);
+        }
+
+        public string GetRequestCookie(IOwinContext context, string key)
+        {
+            return _innerManager.GetRequestCookie(context, key);
+        }
+
+        #region snippet3
+        private void CheckSameSite(IOwinContext context, CookieOptions options)
+        {
+            if (options.SameSite == Microsoft.Owin.SameSiteMode.None 
+                                 && DisallowsSameSiteNone(context))
             {
-                var userAgent = httpContext.Request.UserAgent;
-                if (MyUserAgentDetectionLib.DisallowsSameSiteNone(userAgent))
-                {
-                    cookie.SameSite = (SameSiteMode)(-1);
-                }
+                options.SameSite = null;
             }
         }
         #endregion
-    }
-    #region snippet2
-    public static class MyUserAgentDetectionLib
-    {
-        public static bool DisallowsSameSiteNone(string userAgent)
+        #endregion
+
+        #region snippet2
+        public static bool DisallowsSameSiteNone(IOwinContext context)
         {
+            var userAgent = context.Request.Headers["User-Agent"];
+
             // Cover all iOS based browsers here. This includes:
             // - Safari on iOS 12 for iPhone, iPod Touch, iPad
             // - WkWebview on iOS 12 for iPhone, iPod Touch, iPad
@@ -60,5 +89,5 @@ namespace WebApplication64
         }
         #endregion
     }
-}
 
+}
