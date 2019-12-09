@@ -31,7 +31,8 @@ For the ASP.NET 4.x version of this article, see <xref:samesite/system-web-sames
 * That is not directly dependent on the one in `System.Web`.
 * `SameSite` works on all versions targetable by the `Microsoft.Owin` packages, .NET 4.5 and later.
 * Only the [SystemWebCookieManager](https://github.com/aspnet/AspNetKatana/blob/dev/src/Microsoft.Owin.Host.SystemWeb/SystemWebCookieManager.cs) component directly interacts with the `System.Web` `HttpCookie` class.
-* It depends on the .NET 4.7.2 `System.Web` APIs to enable `SameSite` support, and the patches to change the behavior.
+
+`Microsoft.Owin` depends on the .NET 4.7.2 `System.Web` APIs to enable `SameSite` support, and the patches to change the behavior.
 
 The reasons to use `SystemWebCookieManager` are outlined in [OWIN and System.Web response cookie integration issues](https://github.com/aspnet/AspNetKatana/wiki/System.Web-response-cookie-integration-issues). `SystemWebCookieManager` is recommended when running on `System.Web`. 
 
