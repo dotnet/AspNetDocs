@@ -11,22 +11,31 @@ uid: owin-samesite
 
 By [Rick Anderson](https://twitter.com/RickAndMSFT)
 
-SameSite is an [IETF](https://ietf.org/about/) draft designed to provide some protection against cross-site request forgery (CSRF) attacks. The [SameSite 2019 draft](https://tools.ietf.org/html/draft-west-cookie-incrementalism-00):
+`SameSite` is an [IETF](https://ietf.org/about/) draft designed to provide some protection against cross-site request forgery (CSRF) attacks. The [SameSite 2019 draft](https://tools.ietf.org/html/draft-west-cookie-incrementalism-00):
 
 * Treats cookies as `SameSite=Lax` by default.
 * States cookies that explicitly assert `SameSite=None` in order to enable cross-site delivery should be marked as `Secure`.
 
-`Lax` works for most app cookies. Some forms of authentication like [OpenID Connect](https://openid.net/connect/) (OIDC) and [WS-Federation](https://auth0.com/docs/protocols/ws-fed) default to POST based redirects. The POST based redirects trigger the SameSite browser protections, so SameSite is disabled for these components. Most [OAuth](https://oauth.net/) logins aren't affected due to differences in how the request flows. All other components do **not** set SameSite by default and use the clients default behavior (old or new).
+`Lax` works for most app cookies. Some forms of authentication like [OpenID Connect](https://openid.net/connect/) (OIDC) and [WS-Federation](https://auth0.com/docs/protocols/ws-fed) default to POST based redirects. The POST based redirects trigger the `SameSite` browser protections, so `SameSite` is disabled for these components. Most [OAuth](https://oauth.net/) logins aren't affected due to differences in how the request flows. All other components do **not** set `SameSite` by default and use the clients default behavior (old or new).
 
 The `None` parameter causes compatibility problems with clients that implemented the prior [2016 draft standard](https://tools.ietf.org/html/draft-west-first-party-cookies-07) (for example, iOS 12). See [Supporting older browsers](#sob) in this document.
 
-Each OWIN component that emits cookies needs to decide if SameSite is appropriate.
+Each OWIN component that emits cookies needs to decide if `SameSite` is appropriate.
 
 For the ASP.NET 4.x version of this article, see <xref:samesite/system-web-samesite>.
 
 ## API usage with SameSite
 
-The following code sets SameSite to `Lax`:
+`Microsoft.Owin` has its own `SameSite` implementation:
+
+* That is not directly dependent on the one in `System.Web`.
+* It works on all versions targetable by the packages of .NET 4.5 and later.
+* Only the [SystemWebCookieManager](https://github.com/aspnet/AspNetKatana/blob/dev/src/Microsoft.Owin.Host.SystemWeb/SystemWebCookieManager.cs) component directly interacts with the `System.Web` `HttpCookie` class.
+* It depends on the .NET 4.7.2 `System.Web` APIs to enable `SameSite` support, and the patches to change the behavior.
+
+The reasons to use `SystemWebCookieManager` are outlined in [OWIN and System.Web response cookie integration issues](https://github.com/aspnet/AspNetKatana/wiki/System.Web-response-cookie-integration-issues). `SystemWebCookieManager` is recommended when running on `System.Web`. Katana can also run on <xref:System.Net.HttpListener>.
+
+The following code sets `SameSite` to `Lax`:
 
 ```csharp
 owinContext.Response.Cookies.Append("My Key", "My Value", new CookieOptions()
@@ -35,7 +44,7 @@ owinContext.Response.Cookies.Append("My Key", "My Value", new CookieOptions()
 });
 ```
 
-The following APIs use SameSite:
+The following APIs use `SameSite`:
 
 * [Microsoft.Owin.SameSiteMode](https://github.com/aspnet/AspNetKatana/blob/dev/src/Microsoft.Owin/SameSiteMode.cs)
 * [CookieOptions.SameSite](xref:Microsoft.AspNetCore.Http.CookieOptions.SameSite)
@@ -47,14 +56,13 @@ The following APIs use SameSite:
 * [CookieAuthenticationOptions.CookieManager](https://github.com/aspnet/AspNetKatana/blob/dev/src/Microsoft.Owin.Security.Cookies/CookieAuthenticationOptions.cs#L143-#AL148)
 * [OpenIdConnectAuthenticationOptions.CookieManager](https://github.com/aspnet/AspNetKatana/blob/dev/src/Microsoft.Owin.Security.OpenIdConnect/OpenIdConnectAuthenticationOptions.cs#L315-#L318)
 
-
 ## History and changes
 
-[Microsoft.Owin](https://www.nuget.org/packages/Microsoft.Owin/) never supported the [SameSite 2016 draft standard](https://tools.ietf.org/html/draft-west-first-party-cookies-07#section-4.1).
+[Microsoft.Owin](https://www.nuget.org/packages/Microsoft.Owin/) never supported the [`SameSite` 2016 draft standard](https://tools.ietf.org/html/draft-west-first-party-cookies-07#section-4.1).
 
 Support for the [SameSite 2019 draft](https://tools.ietf.org/html/draft-west-cookie-incrementalism-00) is only available in `Microsoft.Owin` 4.1.0 and later. There are no patches for prior versions.
 
-The 2019 draft of the SameSite specification:
+The 2019 draft of the `SameSite` specification:
 
 * Is **not** backwards compatible with the 2016 draft. For more information, see [Supporting older browsers](#sob) in this document.
 * Specifies cookies are treated as `SameSite=Lax` by default.
@@ -68,20 +76,20 @@ The 2019 draft of the SameSite specification:
 
 ## Supporting older browsers
 
-The 2016 SameSite standard mandated that unknown values must be treated as `SameSite=Strict` values. Apps accessed from older browsers which support the 2016 SameSite standard may break when they get a SameSite property with a value of `None`. Web apps must implement browser detection if they intend to support older browsers. ASP.NET doesn't implement browser detection because User-Agents values are highly volatile and change frequently. An extension point in [ICookieManager](/previous-versions/aspnet/dn800238(v%3Dvs.113)) allows plugging in User-Agent specific logic.
+The 2016 `SameSite` standard mandated that unknown values must be treated as `SameSite=Strict` values. Apps accessed from older browsers which support the 2016 `SameSite` standard may break when they get a `SameSite` property with a value of `None`. Web apps must implement browser detection if they intend to support older browsers. ASP.NET doesn't implement browser detection because User-Agents values are highly volatile and change frequently. An extension point in [ICookieManager](/previous-versions/aspnet/dn800238(v%3Dvs.113)) allows plugging in User-Agent specific logic.
 <!-- https://docs.microsoft.com/en-us/previous-versions/aspnet/dn800238(v%3Dvs.113) -->
 
 In `Startup.Configuration`, add code similar to the following:
 
 [!code-csharp[](sample/Startup1.cs?name=snippet)]
 
-The preceding code requires the .NET 4.7.2 or later SameSite patch.
+The preceding code requires the .NET 4.7.2 or later `SameSite` patch.
 
 The following code shows an example implementation of `SameSiteCookieManager`:
 
 [!code-csharp[](sample/SameSiteCookieManager.cs?name=snippet)]
 
-In the preceding sample, `DisallowsSameSiteNone` is called in the `CheckSameSite` method. `DisallowsSameSiteNone` is a user method that detects if the user agent doesn't support SameSite `None`:
+In the preceding sample, `DisallowsSameSiteNone` is called in the `CheckSameSite` method. `DisallowsSameSiteNone` is a user method that detects if the user agent doesn't support `SameSite` `None`:
 
 [!code-csharp[](sample/SameSiteCookieManager.cs?name=snippet3&highlight=4)]
 
@@ -101,11 +109,11 @@ Apps that interact with remote sites such as through third-party login need to:
 * Test the interaction on multiple browsers.
 * Apply the [browser detection and mitigation](#sob) discussed in this document.
 
-Test web apps using a client version that can opt-in to the new SameSite behavior. Chrome, Firefox, and Chromium Edge all have new opt-in feature flags that can be used for testing. After your app applies the SameSite patches, test it with older client versions, especially Safari. For more information, see [Supporting older browsers](#sob) in this document.
+Test web apps using a client version that can opt-in to the new `SameSite` behavior. Chrome, Firefox, and Chromium Edge all have new opt-in feature flags that can be used for testing. After your app applies the `SameSite` patches, test it with older client versions, especially Safari. For more information, see [Supporting older browsers](#sob) in this document.
 
 ### Test with Chrome
 
-Chrome 78+ gives misleading results because it has a temporary mitigation in place. The Chrome 78+ temporary mitigation allows cookies less than two minutes old. Chrome 76 or 77 with the appropriate test flags enabled provides more accurate results. To test the new SameSite behavior toggle `chrome://flags/#same-site-by-default-cookies` to **Enabled**. Older versions of Chrome (75 and below) are reported to fail with the new `None` setting. See [Supporting older browsers](#sob) in this document.
+Chrome 78+ gives misleading results because it has a temporary mitigation in place. The Chrome 78+ temporary mitigation allows cookies less than two minutes old. Chrome 76 or 77 with the appropriate test flags enabled provides more accurate results. To test the new `SameSite` behavior toggle `chrome://flags/#same-site-by-default-cookies` to **Enabled**. Older versions of Chrome (75 and below) are reported to fail with the new `None` setting. See [Supporting older browsers](#sob) in this document.
 
 Google does not make older chrome versions available. Follow the instructions at [Download Chromium](https://www.chromium.org/getting-involved/download-chromium) to test older versions of Chrome. Do **not** download Chrome from links provided by searching for older versions of chrome.
 
@@ -114,7 +122,7 @@ Google does not make older chrome versions available. Follow the instructions at
 
 ### Test with Safari
 
-Safari 12 strictly implemented the prior draft and fails when the new `None` value is in a cookie. `None` is avoided via the browser detection code [Supporting older browsers](#sob) in this document. Test Safari 12, Safari 13, and WebKit based OS style logins using MSAL, ADAL or whatever library you are using. The problem is dependent on the underlying OS version. OSX Mojave (10.14) and iOS 12 are known to have compatibility problems with the new SameSite behavior. Upgrading the OS to OSX Catalina (10.15) or iOS 13 fixes the problem. Safari does not currently have an opt-in flag for testing the new spec behavior.
+Safari 12 strictly implemented the prior draft and fails when the new `None` value is in a cookie. `None` is avoided via the browser detection code [Supporting older browsers](#sob) in this document. Test Safari 12, Safari 13, and WebKit based OS style logins using MSAL, ADAL or whatever library you are using. The problem is dependent on the underlying OS version. OSX Mojave (10.14) and iOS 12 are known to have compatibility problems with the new `SameSite` behavior. Upgrading the OS to OSX Catalina (10.15) or iOS 13 fixes the problem. Safari does not currently have an opt-in flag for testing the new spec behavior.
 
 ### Test with Firefox
 
@@ -122,11 +130,11 @@ Firefox support for the new standard can be tested on version 68+ by opting in o
 
 ### Test with Edge browser
 
-Edge supports the old SameSite standard. Edge version 44 doesn't have any known compatibility problems with the new standard.
+Edge supports the old `SameSite` standard. Edge version 44 doesn't have any known compatibility problems with the new standard.
 
 ### Test with Edge (Chromium)
 
-SameSite flags are set on the `edge://flags/#same-site-by-default-cookies` page. No compatibility issues were discovered with Edge Chromium.
+`SameSite` flags are set on the `edge://flags/#same-site-by-default-cookies` page. No compatibility issues were discovered with Edge Chromium.
 
 ### Test with Electron
 
