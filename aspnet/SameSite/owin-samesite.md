@@ -34,7 +34,7 @@ For the ASP.NET 4.x version of this article, see <xref:samesite/system-web-sames
 
 `SystemWebCookieManager` depends on the .NET 4.7.2 `System.Web` APIs to enable `SameSite` support, and the patches to change the behavior.
 
-The reasons to use `SystemWebCookieManager` are outlined in [OWIN and System.Web response cookie integration issues](https://github.com/aspnet/AspNetKatana/wiki/System.Web-response-cookie-integration-issues). `SystemWebCookieManager` is recommended when running on `System.Web`. 
+The reasons to use `SystemWebCookieManager` are outlined in [OWIN and System.Web response cookie integration issues](https://github.com/aspnet/AspNetKatana/wiki/System.Web-response-cookie-integration-issues). `SystemWebCookieManager` is recommended when running on `System.Web`.
 
 The following code sets `SameSite` to `Lax`:
 
@@ -69,9 +69,7 @@ The 2019 draft of the `SameSite` specification:
 * Specifies cookies are treated as `SameSite=Lax` by default.
 * Specifies cookies that explicitly assert `SameSite=None` in order to enable cross-site delivery should be marked as `Secure`. `None` is a new entry to opt out.
 * Is scheduled to be enabled by [Chrome](https://chromestatus.com/feature/5088147346030592) by default in [Feb 2020](https://blog.chromium.org/2019/10/developers-get-ready-for-new.html). Browsers started moving to this standard in 2019.
-* Is supported by patches issued as described in the following KB's:
-  * [KB article 4531182](https://support.microsoft.com/help/4531182/kb4531182)
-  * [KB article 4524421](https://support.microsoft.com/help/4524421/kb4524421)
+* Is supported by patches issued as described in KB articles. For more information, see <xref:samesite/kbs-samesite>.
 
 <a name="sob"></a>
 
