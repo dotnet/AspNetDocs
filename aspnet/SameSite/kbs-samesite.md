@@ -27,3 +27,19 @@ uid: samesite/kbs-samesite
 | **Windows 10 1703 (Creators Update)** | |
 | .NET Framework 4.7, 4.7.1, 4.7.2  | [Catalog](http://www.catalog.update.microsoft.com/Search.aspx?q=4530711)  | [4530711](https://support.microsoft.com/en-us/help/4530711) |
 | .NET Framework 4.8  | [Catalog](http://www.catalog.update.microsoft.com/Search.aspx?q=4532997)  | [4532997](https://support.microsoft.com/en-us/help/4532997) |
+
+The following table is for earlier Windows and Windows Server versions.
+
+| Product Version | Security and | Quality Rollup |
+| ------------- | ------------- | --- |
+| **Windows 8.1 and Windows Server 2012 R2** | |
+| .NET Framework 4.6, 4.6.1, 4.6.2, 4.7, 4.7.1, 4.7.2 | [Catalog](http://www.catalog.update.microsoft.com/Search.aspx?q=4533011)  | [4533011](https://support.microsoft.com/en-us/help/4533011) |
+| .NET Framework 4.8  | [Catalog](http://www.catalog.update.microsoft.com/Search.aspx?q=4533004)  | [4533004](https://support.microsoft.com/en-us/help/4533004) |
+| **Windows Server 2012** | |
+| .NET Framework 4.6, 4.6.1, 4.6.2, 4.7, 4.7.1, 4.7.2 | [Catalog](http://www.catalog.update.microsoft.com/Search.aspx?q=4533010)  | [4533010](https://support.microsoft.com/en-us/help/4533010) |
+| .NET Framework 4.8  | [Catalog](http://www.catalog.update.microsoft.com/Search.aspx?q=4533003)  | [4533003](https://support.microsoft.com/en-us/help/4533003) |
+| **Windows 7 SP1 and Windows Server 2008 R2 SP1** | |
+| .NET Framework 4.6, 4.6.1, 4.6.2, 4.7, 4.7.1, 4.7.2 | [Catalog](http://www.catalog.update.microsoft.com/Search.aspx?q=4533012)  | [4533012](https://support.microsoft.com/en-us/help/4533012) |
+| .NET Framework 4.8  | [Catalog](http://www.catalog.update.microsoft.com/Search.aspx?q=4533005)  | [4533005](https://support.microsoft.com/en-us/help/4533005) |
+| **Windows Server 2008** | |
+| .NET Framework 4.6  | [Catalog](http://www.catalog.update.microsoft.com/Search.aspx?q=4533012)  | [4533012](https://support.microsoft.com/en-us/help/4533012) |
