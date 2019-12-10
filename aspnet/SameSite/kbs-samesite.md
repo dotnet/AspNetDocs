@@ -28,7 +28,7 @@ uid: samesite/kbs-samesite
 | .NET Framework 4.7, 4.7.1, 4.7.2  | [Catalog](http://www.catalog.update.microsoft.com/Search.aspx?q=4530711)  | [4530711](https://support.microsoft.com/en-us/help/4530711) |
 | .NET Framework 4.8  | [Catalog](http://www.catalog.update.microsoft.com/Search.aspx?q=4532998)  | [4532998](https://support.microsoft.com/en-us/help/4532998) |
 | **Windows 10 1607 (Anniversary Update) and Windows Server 2016** | |
-| .NET Framework 4.6, 4.6.1, 4.6.2, 4.7, 4.7.1, 4.7.2  | [Catalog](http://www.catalog.update.microsoft.com/Search.aspx?q=4530689)  | [4530689](https://support.microsoft.com/en-us/help/4530689) |
+| .NET Framework 4.6.2, 4.7, 4.7.1, 4.7.2 | [Catalog](http://www.catalog.update.microsoft.com/Search.aspx?q=4530689)  | [4530689](https://support.microsoft.com/en-us/help/4530689) |
 | .NET Framework 4.8  | [Catalog](http://www.catalog.update.microsoft.com/Search.aspx?q=4532997)  | [4532997](https://support.microsoft.com/en-us/help/4532997) |
 
 The following table is for earlier versions of Windows and Windows Server.
