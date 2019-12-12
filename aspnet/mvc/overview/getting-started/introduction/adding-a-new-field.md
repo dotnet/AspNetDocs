@@ -13,7 +13,7 @@ msc.type: authoredcontent
 
 by [Rick Anderson]((https://twitter.com/RickAndMSFT))
 
-[!INCLUDE [Tutorial Note](sample/code-location.md)]
+[!INCLUDE [Tutorial Note](index.md)]
 
 In this section you'll use Entity Framework Code First Migrations to migrate some changes to the model classes so the change is applied to the database.
 
