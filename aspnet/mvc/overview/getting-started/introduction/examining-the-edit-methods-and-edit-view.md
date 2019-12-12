@@ -13,7 +13,7 @@ msc.type: authoredcontent
 
 by [Rick Anderson]((https://twitter.com/RickAndMSFT))
 
-[!INCLUDE [Tutorial Note](sample/code-location.md)]
+[!INCLUDE [Tutorial Note](index.md)]
 
 In this section, you'll examine the generated `Edit` action methods and views for the movie controller. But first we'll take a short diversion to make the release date look better. Open the *Models\Movie.cs* file and add the highlighted lines shown below:
 
