@@ -100,6 +100,6 @@ When you deserialize, the formatter converts the data back to the original value
 
 ## Additional Resources
 
-[Web API BSON Sample](https://aspnet.codeplex.com/SourceControl/latest#Samples/WebApi/BSONSample/)
+[Web API BSON Sample](https://github.com/aspnet/samples/tree/master/samples/aspnet/WebApi/BSONSample/)
 
 [Media Formatters](media-formatters.md)

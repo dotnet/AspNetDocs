@@ -16,7 +16,7 @@ by [Rick Anderson]((https://twitter.com/RickAndMSFT)), [Suhas Joshi](https://git
 
 > This tutorial illustrates the steps to migrate an existing web application with user and role data created using SQL Membership to the new ASP.NET Identity system. This approach involves changing the existing database schema to the one needed by the ASP.NET Identity and hook in the old/new classes to it. After you adopt this approach, once your database is migrated, future updates to Identity will be handled effortlessly.
 
-For this tutorial, we will take a web application template (Web Forms) created using Visual Studio 2010 to create user and role data. We will then use SQL scripts to migrate the existing database to tables needed by the Identity system. Next we'll install the necessary NuGet packages and add new account management pages which use the Identity system for membership management. As a test of migration, users created using SQL membership should be able to log in and new users should be able to register. You can find the complete sample [here](https://aspnet.codeplex.com/SourceControl/latest#Samples/Identity/SQLMembership-Identity-OWIN/). See also [Migrating from ASP.NET Membership to ASP.NET Identity](http://travis.io/blog/2015/03/24/migrate-from-aspnet-membership-to-aspnet-identity.html).
+For this tutorial, we will take a web application template (Web Forms) created using Visual Studio 2010 to create user and role data. We will then use SQL scripts to migrate the existing database to tables needed by the Identity system. Next we'll install the necessary NuGet packages and add new account management pages which use the Identity system for membership management. As a test of migration, users created using SQL membership should be able to log in and new users should be able to register. You can find the complete sample [here](https://github.com/aspnet/samples/tree/master/samples/aspnet/Identity/SQLMembership-Identity-OWIN/). See also [Migrating from ASP.NET Membership to ASP.NET Identity](http://travis.io/blog/2015/03/24/migrate-from-aspnet-membership-to-aspnet-identity.html).
 
 ## Getting started
 
@@ -69,7 +69,7 @@ For this tutorial, we will take a web application template (Web Forms) created u
 
 ### Migrate database to the new Identity system
 
-The next step is to migrate the existing database to a schema required by the ASP.NET Identity system. To achieve this we run a SQL script which has a set of commands to create new tables and migrate existing user information to the new tables. The script file can be found [here](https://aspnet.codeplex.com/SourceControl/latest#Samples/Identity/SQLMembership-Identity-OWIN/Migrations.sql).
+The next step is to migrate the existing database to a schema required by the ASP.NET Identity system. To achieve this we run a SQL script which has a set of commands to create new tables and migrate existing user information to the new tables. The script file can be found [here](https://github.com/aspnet/samples/blob/master/samples/aspnet/Identity/SQLMembership-Identity-OWIN/Migrations.sql).
 
 This script file is specific to this sample. If the schema for the tables created using SQL membership is customized or modified the scripts need to be changed accordingly.
 
@@ -207,7 +207,7 @@ We need to make some changes for the sample to work with the project we have her
 
 Use the old username and password to login an existing user. Use the Register page to create a new user. Also verify that the users are in roles as expected.
 
-Porting to the Identity system helps the user add Open Authentication (OAuth) to the application. Please refer to the sample [here](https://aspnet.codeplex.com/SourceControl/latest#Samples/Identity/SQLMembership-Identity-OWIN/) which has OAuth enabled.
+Porting to the Identity system helps the user add Open Authentication (OAuth) to the application. Please refer to the sample [here](https://github.com/aspnet/samples/tree/master/samples/aspnet/Identity/SQLMembership-Identity-OWIN/) which has OAuth enabled.
 
 ## Next Steps
 
