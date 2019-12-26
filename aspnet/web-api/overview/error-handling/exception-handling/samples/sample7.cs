@@ -2,7 +2,7 @@ public static class WebApiConfig
 {
     public static void Register(HttpConfiguration config)
     {
-        config.Filters.Add(new ProductStore.NotImplExceptionFilterAttribute());
+        config.Services.Replace(typeof(IExceptionHandler), new OopsExceptionHandler());
 
         // Other configuration code...
     }
