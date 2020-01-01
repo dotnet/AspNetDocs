@@ -23,7 +23,7 @@
       topicHref: /aspnet/identity/index
     - name: ASP.NET Mobile
       tocHref: /aspnet/mobile/
-      topicHref: /aspnet/mobile/index
+      topicHref: /aspnet/mobile/overview
     - name: ASP.NET MVC
       tocHref: /aspnet/mvc/
       topicHref: /aspnet/mvc/index
