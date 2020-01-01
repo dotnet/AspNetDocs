@@ -109,7 +109,7 @@ You can also install a Visual Studio extension that provides a [Facebook templat
 
 For information about how to create projects that target .NET 4, see [Visual Studio 2012 Templates](#vs2012) later in this topic.
 
-For information about how to create ASP.NET applications for mobile clients, see [Mobile Support in ASP.NET](../../../mobile/index.md).
+For information about how to create ASP.NET applications for mobile clients, see [Mobile Support in ASP.NET](../../../mobile/overview.md).
 
 <a id="empty"></a>
 ### Empty Template
