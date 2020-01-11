@@ -1,6 +1,6 @@
 ---
 uid: mvc/overview/getting-started/getting-started-with-ef-using-mvc/implementing-inheritance-with-the-entity-framework-in-an-asp-net-mvc-application
-title: "Template: Implement Inheritance with EF in an ASP.NET MVC 5 appS"
+title: "Tutorial: Implement Inheritance with EF in an ASP.NET MVC 5 appS"
 description: "This tutorial will show you how to implement inheritance in the data model."
 author: tdykstra
 ms.author: riande
@@ -11,7 +11,7 @@ msc.legacyurl: /mvc/overview/getting-started/getting-started-with-ef-using-mvc/i
 msc.type: authoredcontent
 ---
 
-# Template: Implement Inheritance with EF in an ASP.NET MVC 5 app
+# Tutorial: Implement Inheritance with EF in an ASP.NET MVC 5 app
 
 In the previous tutorial you handled concurrency exceptions. This tutorial will show you how to implement inheritance in the data model.
 
@@ -30,7 +30,7 @@ In this tutorial, you:
 
 ## Prerequisites
 
-* [Implementing Inheritance](handling-concurrency-with-the-entity-framework-in-an-asp-net-mvc-application.md)
+* [Handling Concurrency](handling-concurrency-with-the-entity-framework-in-an-asp-net-mvc-application.md)
 
 ## Map inheritance to database
 
