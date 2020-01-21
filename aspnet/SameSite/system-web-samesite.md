@@ -3,7 +3,7 @@ title: Work with SameSite cookies in ASP.NET
 author: rick-anderson
 description: Learn how to use to SameSite cookies in ASP.NET
 ms.author: riande
-ms.date: 12/03/2019
+ms.date: 1/22/2019
 uid: samesite/system-web-samesite
 ---
 # Work with SameSite cookies in ASP.NET
@@ -19,7 +19,7 @@ SameSite is an [IETF](https://ietf.org/about/) draft designed to provide some pr
 
 The `None` parameter causes compatibility problems with clients that implemented the prior [2016 draft standard](https://tools.ietf.org/html/draft-west-first-party-cookies-07) (for example, iOS 12). See [Supporting older browsers](#sob) in this document.
 
-Each ASP.NET Core component that emits cookies needs to decide if SameSite is appropriate.
+Each ASP.NET component that emits cookies needs to decide if SameSite is appropriate.
 
 ## API usage with SameSite
 
@@ -38,6 +38,10 @@ The November 19, 2019 updates for Windows updated .NET 4.7.2+ from the 2016 stan
 * Specifies cookies that explicitly assert `SameSite=None` in order to enable cross-site delivery should be marked as `Secure`. `None` is a new entry to opt out.
 * Is supported by patches issued as described in the KB's listed above.
 * Is scheduled to be enabled by [Chrome](https://chromestatus.com/feature/5088147346030592) by default in [Feb 2020](https://blog.chromium.org/2019/10/developers-get-ready-for-new.html). Browsers started moving to this standard in 2019.
+
+### Azure App Service—SameSite cookie handling
+
+See [Azure App Service—SameSite cookie handling and .NET Framework 4.7.2 patch](https://azure.microsoft.com/updates/app-service-samesite-cookie-update/) for more information.
 
 <a name="sob"></a>
 
