@@ -67,7 +67,7 @@ The following code shows these APIs.
 
 [!code-cshtml[Main](mvc51-release-notes/samples/sample2.cshtml)]
 
-You can see a complete example [here](https://aspnet.codeplex.com/SourceControl/latest#Samples/MVC/EnumSample/).
+You can see a complete example [here](https://github.com/aspnet/samples/tree/master/samples/aspnet/MVC/EnumSample/).
 
 <a id="Bootstrap"></a>
 

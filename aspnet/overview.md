@@ -18,7 +18,7 @@ ASP.NET is a free web framework for building great websites and web applications
 
 ## Get started
 
-Install [Visual Studio 2017](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=button+cta&utm_content=download+vs2017) Community edition, a free IDE for ASP.NET on Windows.
+Install [Visual Studio 2019](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=button+cta&utm_content=download+vs2019) Community edition, a free IDE for ASP.NET on Windows.
 
 ## Websites and web applications
 
@@ -78,7 +78,7 @@ ASP.NET SignalR is a new library for ASP.NET developers that makes developing re
 
 ASP.NET can power native mobile apps with a Web API back end, as well as mobile web sites using responsive design frameworks like Twitter Bootstrap. If you are building a native mobile app, it's easy to create a JSON-based Web API to handle data access, authentication, and push notifications for your app. If you are building a responsive mobile site, you can use any CSS framework or open grid system you prefer, or select a powerful mobile system like jQuery Mobile or Sencha and great mobile applications with PhoneGap.
 
-[Learn more about mobile app and site development](mobile/index.md)
+[Learn more about mobile app and site development](mobile/overview.md)
 
 <!-- Put first under mobile TOC:  Watch video (11 minutes) https://channel9.msdn.com/Blogs/ASP-NET-Site-Videos/aspnet-and-mobile -->
 
