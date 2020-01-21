@@ -13,7 +13,7 @@ msc.type: authoredcontent
 
 by [Rick Anderson]((https://twitter.com/RickAndMSFT))
 
-[!INCLUDE [Tutorial Note](sample/code-location.md)]
+[!INCLUDE [Tutorial Note](index.md)]
 
 MVC stands for *model-view-controller*. MVC is a pattern for developing applications that are well architected, testable and easy to maintain. MVC-based applications contain:
 

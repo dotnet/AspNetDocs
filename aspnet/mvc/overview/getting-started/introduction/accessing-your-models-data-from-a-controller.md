@@ -13,7 +13,7 @@ msc.type: authoredcontent
 
 by [Rick Anderson]((https://twitter.com/RickAndMSFT))
 
-[!INCLUDE [Tutorial Note](sample/code-location.md)]
+[!INCLUDE [Tutorial Note](index.md)]
 
 In this section, you'll create a new `MoviesController` class and write code that retrieves the movie data and displays it in the browser using a view template.
 

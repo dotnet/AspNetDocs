@@ -11,7 +11,7 @@ msc.type: authoredcontent
 ---
 # Search
 
-[!INCLUDE [Tutorial Note](sample/code-location.md)]
+[!INCLUDE [Tutorial Note](index.md)]
 
 ## Adding a Search Method and Search View
 

@@ -13,7 +13,7 @@ msc.type: authoredcontent
 
 by [Rick Anderson]((https://twitter.com/RickAndMSFT))
 
-[!INCLUDE [Tutorial Note](sample/code-location.md)]
+[!INCLUDE [Tutorial Note](index.md)]
 
 ## Creating a Connection String and Working with SQL Server LocalDB
 
