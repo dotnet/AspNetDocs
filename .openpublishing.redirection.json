@@ -11,6 +11,11 @@
             "redirect_document_id": false
         },
         {
+            "source_path": "aspnet/mobile/index.md",
+            "redirect_url": "/aspnet/mobile/overview",
+            "redirect_document_id": false
+        },
+        {
             "source_path": "aspnet/mobile/device-simulators.md",
             "redirect_url": "/aspnet/mobile/overview",
             "redirect_document_id": false
