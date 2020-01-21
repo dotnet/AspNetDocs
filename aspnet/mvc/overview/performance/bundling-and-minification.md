@@ -92,8 +92,8 @@ To enable bundling and minification, set the `debug` value to "false". You can o
 
 ## Using Bundling and Minification with ASP.NET Web Forms and Web Pages
 
-- For Web Pages, see the blog entry [Adding Web Optimization to a Web Pages Site](https://blogs.msdn.com/b/rickandy/archive/2012/08/15/adding-web-optimization-to-a-web-pages-site.aspx).
-- For Web Forms, see the blog entry [Adding Bundling and Minification to Web Forms](https://blogs.msdn.com/b/rickandy/archive/2012/08/14/adding-bundling-and-minification-to-web-forms.aspx).
+- For Web Pages, see the blog entry [Adding Web Optimization to a Web Pages Site](https://docs.microsoft.com/en-us/archive/blogs/rickandy/adding-web-optimization-to-a-web-pages-site).
+- For Web Forms, see the blog entry [Adding Bundling and Minification to Web Forms](https://docs.microsoft.com/en-us/archive/blogs/rickandy/adding-bundling-and-minification-to-web-forms).
 
 ## Using Bundling and Minification with ASP.NET MVC
 
