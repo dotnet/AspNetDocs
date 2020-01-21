@@ -85,11 +85,11 @@ The cookie middleware checks the cookie on each request. The `SecurityStampValid
 
 Per the comments in the code, the `UseCookieAuthentication` method supports cookie authentication. The `SecurityStamp` field and associated code provides an extra layer of security to your app, when you change your password, you will be logged out of the browser you logged in with. The `SecurityStampValidator.OnValidateIdentity` method enables the app to validate the security token when the user logs in, which is used when you change a password or use the external login. This is needed to ensure that any tokens (cookies) generated with the old password are invalidated. In the sample project, if you change the users password then a new token is generated for the user, any previous tokens are invalidated and the `SecurityStamp` field is updated.
 
-The Identity system allow you to configure your app so when the users security profile changes (for example, when the user changes their password or changes associated login (such as from Facebook, Google, Microsoft account, etc.), the user is logged out of all browser instances. For example, the image below shows the [Single signout sample](https://aspnet.codeplex.com/SourceControl/latest#Samples/Identity/SingleSignOutSample/readme.txt) app, which allows the user to sign out of all browser instances (in this case, IE, Firefox and Chrome) by selecting one button. Alternatively, the sample allows you to only log out of a specific browser instance.
+The Identity system allow you to configure your app so when the users security profile changes (for example, when the user changes their password or changes associated login (such as from Facebook, Google, Microsoft account, etc.), the user is logged out of all browser instances. For example, the image below shows the [Single signout sample](https://github.com/aspnet/samples/tree/master/samples/aspnet/Identity/SingleSignOutSample) app, which allows the user to sign out of all browser instances (in this case, IE, Firefox and Chrome) by selecting one button. Alternatively, the sample allows you to only log out of a specific browser instance.
 
 ![](account-confirmation-and-password-recovery-with-aspnet-identity/_static/image11.png)
 
-The [Single signout sample](https://aspnet.codeplex.com/SourceControl/latest#Samples/Identity/SingleSignOutSample/readme.txt) app shows how ASP.NET Identity allows you to regenerate the security token. This is needed to ensure that any tokens (cookies) generated with the old password are invalidated. This feature provides an extra layer of security to your application; when you change your password, you will be logged out where you have logged into this application.
+The [Single signout sample](https://github.com/aspnet/samples/tree/master/samples/aspnet/Identity/SingleSignOutSample) app shows how ASP.NET Identity allows you to regenerate the security token. This is needed to ensure that any tokens (cookies) generated with the old password are invalidated. This feature provides an extra layer of security to your application; when you change your password, you will be logged out where you have logged into this application.
 
 The *App\_Start\IdentityConfig.cs* file contains the `ApplicationUserManager`, `EmailService` and `SmsService` classes. The `EmailService` and `SmsService` classes each implement the `IIdentityMessageService` interface, so you have common methods in each class to configure email and SMS. Although this tutorial only shows how to add email notification through [SendGrid](http://sendgrid.com/), you can send email using SMTP and other mechanisms.
 
@@ -108,7 +108,7 @@ The `ApplicationUserManager` class derives from the generic `UserManager<Applica
 
 The properties above coincide with the properties in the `AspNetUsers` table, shown above.
 
-Generic arguments on `IUser` enable you to derive a class using different types for the primary key. See the [ChangePK](https://aspnet.codeplex.com/SourceControl/latest#Samples/Identity/ChangePK/readme.txt) sample which shows how to change the primary key from string to int or GUID.
+Generic arguments on `IUser` enable you to derive a class using different types for the primary key. See the [ChangePK](https://github.com/aspnet/samples/tree/master/samples/aspnet/Identity/ChangePK) sample which shows how to change the primary key from string to int or GUID.
 
 ### ApplicationUser
 
