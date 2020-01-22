@@ -306,6 +306,8 @@ In this tutorial, you have created a shopping cart for the Wingtip Toys Web Form
 
 The shopping cart supports adding, deleting, and updating items that the user has selected for purchase. In addition to implementing the shopping cart functionality, you have learned how to display shopping cart items in a **GridView** control and calculate the order total.
 
+In order to understand how the described functionality works in a real business application, you can view the example of [nopCommerce](https://github.com/nopSolutions/nopCommerce) - ASP.NET based open source eCommerce shopping cart. Originally, it was built on Web Forms and over the years it moved to MVC and now to ASP.NET Core.
+
 ## Addition Information
 
 [ASP.NET Session State Overview](https://msdn.microsoft.com/library/ms178581.aspx)
