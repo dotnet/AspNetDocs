@@ -37,7 +37,15 @@ SignalR handles connection management automatically, and lets you broadcast mess
 
 SignalR supports "server push" functionality, in which server code can call out to client code in the browser using Remote Procedure Calls (RPC), rather than the request-response model common on the web today.
 
-SignalR applications can scale out to thousands of clients using Service Bus, SQL Server or [Redis](http://redis.io).
+SignalR applications can scale out to thousands of clients using built-in, and third-party scale-out providers.
+
+Built-in providers include:
+* [Service Bus](https://www.nuget.org/packages/Microsoft.AspNet.SignalR.ServiceBus3)
+* [SQL Server](https://www.nuget.org/packages/Microsoft.AspNet.SignalR.SqlServer)
+* [Redis](https://www.nuget.org/packages/Microsoft.AspNet.SignalR.Redis)
+
+Third-party providers include:
+* [NCache](https://www.alachisoft.com/ncache/asp-net-core-signalr.html).
 
 SignalR is open-source, accessible through [GitHub](https://github.com/signalr).
 
