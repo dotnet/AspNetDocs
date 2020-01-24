@@ -32,7 +32,7 @@ Please see [Known Issues](#known) for problems with applications after installin
 .Net currently supports the [2019 draft standard](https://tools.ietf.org/html/draft-west-cookie-incrementalism-00) for SameSite.
 Developers are able to programatically control the value of the SameSite header using the [HttpCookie.SameSite Property](/dotnet/api/system.web.httpcookie.samesite#System_Web_HttpCookie_SameSite). Setting this property to `Strict`, `Lax`, or `None`
 will result in those values being written on the network with the cookie. Setting it equal to `(SameSiteMode)(-1)` indicates that
-no SameSite header should be included on the network with the cookie. The [HttpCookie.Secure Property](/dotnet/api/system.web.httpcookie.secure) can be used to mark the cookie as `Secure` or not.
+no SameSite header should be included on the network with the cookie. The [HttpCookie.Secure Property](/dotnet/api/system.web.httpcookie.secure) (or 'requireSSL' in config files) can be used to mark the cookie as `Secure` or not.
 
 New `HttpCookie` instances will default to `SameSite=(SameSiteMode)(-1)` and `Secure=false`. These defaults can be overridden in
 the `system.web/httpCookies` configuration section, where the string "Unspecified" is a friendly configuration-only syntax for `(SameSiteMode)(-1)`.
@@ -62,7 +62,7 @@ no corresponding attribute, then the default will come from the `system.web/http
  <system.web>
 <configuration>
 ```  
-*Note: 'Unspecified' is only available to `system.web/httpCookies@sameSite` at the moment. We hope to add similar syntax to the cookieSameSite attributes above in future updates.*
+*Note: 'Unspecified' is only available to `system.web/httpCookies@sameSite` at the moment. We hope to add similar syntax to the cookieSameSite attributes above in future updates. Setting `(SameSiteMode)(-1)` in code still works on instances of these cookies.*
 
 ## History and changes
 
