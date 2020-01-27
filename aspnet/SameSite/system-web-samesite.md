@@ -10,7 +10,7 @@ uid: samesite/system-web-samesite
 
 By [Rick Anderson](https://twitter.com/RickAndMSFT)
 
-SameSite is an [IETF](https://ietf.org/about/) draft standard designed to provide some protection against cross-site request forgery (CSRF) attacks. Originally drafted in [2016](https://tools.ietf.org/html/draft-west-first-party-cookies-07), the draft standard was recently updated in [2019](https://tools.ietf.org/html/draft-west-cookie-incrementalism-00). The updated standard is not fully compatible with the previous standard, with the following being the most noticeable differences:
+SameSite is an [IETF](https://ietf.org/about/) draft standard designed to provide some protection against cross-site request forgery (CSRF) attacks. Originally drafted in [2016](https://tools.ietf.org/html/draft-west-first-party-cookies-07), the draft standard was updated in [2019](https://tools.ietf.org/html/draft-west-cookie-incrementalism-00). The updated standard is not fully compatible with the previous standard, with the following being the most noticeable differences:
 
 * Cookies without SameSite header are treated as `SameSite=Lax` by default.
 * `SameSite=None` must be used to allow cross-site cookie use.
@@ -21,21 +21,18 @@ The `SameSite=Lax` setting works for most application cookies. Some forms of aut
 Applications that use `iframe` may experience issues with `SameSite=Lax` or `SameSite=Strict` cookies because iframes are treated as
 cross-site scenarios.
 
-The `SameSite=None` option may cause compatibility problems with clients that implemented the prior [2016 draft standard](https://tools.ietf.org/html/draft-west-first-party-cookies-07) (for example, iOS 12). See [Supporting older browsers](#sob) in this document.
+The `SameSite=None` option may cause compatibility problems with clients that implemented the prior [2016 draft standard](https://tools.ietf.org/html/draft-west-first-party-cookies-07), for example, iOS 12. See [Supporting older browsers](#sob) in this document.
 
 Each ASP.NET component that emits cookies needs to decide if SameSite is appropriate.
 
-Please see [Known Issues](#known) for problems with applications after installing the 2019 .Net SameSite updates.
+See [Known Issues](#known) for problems with applications after installing the 2019 .Net SameSite updates.
 
 ## Using SameSite in ASP.NET 4.7.2 and 4.8
 
-.Net currently supports the [2019 draft standard](https://tools.ietf.org/html/draft-west-cookie-incrementalism-00) for SameSite.
-Developers are able to programatically control the value of the SameSite header using the [HttpCookie.SameSite Property](/dotnet/api/system.web.httpcookie.samesite#System_Web_HttpCookie_SameSite). Setting this property to `Strict`, `Lax`, or `None`
-will result in those values being written on the network with the cookie. Setting it equal to `(SameSiteMode)(-1)` indicates that
-no SameSite header should be included on the network with the cookie. The [HttpCookie.Secure Property](/dotnet/api/system.web.httpcookie.secure) (or 'requireSSL' in config files) can be used to mark the cookie as `Secure` or not.
+.Net 4.7.2 and 4.8 supports the [2019 draft standard](https://tools.ietf.org/html/draft-west-cookie-incrementalism-00) for SameSite. Developers are able to programmatically control the value of the SameSite header using the [HttpCookie.SameSite property](/dotnet/api/system.web.httpcookie.samesite#System_Web_HttpCookie_SameSite). Setting the `SameSite` property to `Strict`, `Lax`, or `None` results in those values being written on the network with the cookie. Setting it equal to `(SameSiteMode)(-1)` indicates that no SameSite header should be included on the network with the cookie. The [HttpCookie.Secure Property](/dotnet/api/system.web.httpcookie.secure), or 'requireSSL' in config files, can be used to mark the cookie as `Secure` or not.
 
-New `HttpCookie` instances will default to `SameSite=(SameSiteMode)(-1)` and `Secure=false`. These defaults can be overridden in
-the `system.web/httpCookies` configuration section, where the string "Unspecified" is a friendly configuration-only syntax for `(SameSiteMode)(-1)`.
+New `HttpCookie` instances will default to `SameSite=(SameSiteMode)(-1)` and `Secure=false`. These defaults can be overridden in the `system.web/httpCookies` configuration section, where the string `"Unspecified"` is a friendly configuration-only syntax for `(SameSiteMode)(-1)`:
+
 ```xml
 <configuration>
  <system.web>
@@ -44,12 +41,8 @@ the `system.web/httpCookies` configuration section, where the string "Unspecifie
 <configuration>
 ```
 
-ASP.Net also issues four specific cookies of its own for these features: Anonymous Authentication, Forms Authentication, Session State,
-and Role Management. Instances of these cookies obtained in runtime can be manipulated using the `SameSite` and `Secure` properties
-just like any other HttpCookie instance. However, due to the patchwork emergence of the SameSite standard, configuration options for
-these four features cookies is inconsistent. The relevant configuration sections and attributes (with defaults) are below. If a
-SameSite/Secure-related attribute exists for a feature, then the feature will use it's own default or configured value. If there is
-no corresponding attribute, then the default will come from the `system.web/httpCookies` section.
+ASP.Net also issues four specific cookies of its own for these features: Anonymous Authentication, Forms Authentication, Session State, and Role Management. Instances of these cookies obtained in runtime can be manipulated using the `SameSite` and `Secure` properties just like any other HttpCookie instance. However, due to the patchwork emergence of the SameSite standard, configuration options for these four features cookies is inconsistent. The relevant configuration sections and attributes, with defaults, are shown below. If a SameSite or secure related attribute exists for a feature, then the feature will use it's own default or configured value. If there is no corresponding attribute, then the default will come from the `system.web/httpCookies` section:
+
 ```xml
 <configuration>
  <system.web>
@@ -62,7 +55,8 @@ no corresponding attribute, then the default will come from the `system.web/http
  <system.web>
 <configuration>
 ```  
-*Note: 'Unspecified' is only available to `system.web/httpCookies@sameSite` at the moment. We hope to add similar syntax to the cookieSameSite attributes above in future updates. Setting `(SameSiteMode)(-1)` in code still works on instances of these cookies.*
+
+**Note**: 'Unspecified' is only available to `system.web/httpCookies@sameSite` at the moment. We hope to add similar syntax to the previously shown cookieSameSite attributes in future updates. Setting `(SameSiteMode)(-1)` in code still works on instances of these cookies.*
 
 ## History and changes
 
@@ -84,17 +78,11 @@ The November 19, 2019 updates for Windows updated .NET 4.7.2+ from the 2016 stan
 
 Because the 2016 and 2019 draft specifications are not compatible, the November 2019 .Net Framework update introduces some changes that may be breaking.
 
-1. Session State and Forms Authentication cookies are now written to the network as `Lax` instead of unspecified.
-    - While most applications will work with `SameSite=Lax` cookies, applications that POST across sites or applications that **make use
-    of `iframe`** may find that their session state or forms auth cookies are not being used as expected. To remedy this issue, change
-    the `cookieSameSite` value in the appropriate config section as discussed above.
-
-2. HttpCookies that explicitly set `SameSite=None` in code or config will now have that value written with the cookie, whereas it was
-previously omitted. This may cause issues with older browsers that only support the 2016 draft standard.
-    - When targeting browsers supporting the 2019 draft standard with `SameSite=None` cookies, remember to also mark them `Secure` or
-    they may not be recognized.
-    - To revert to the 2016 behavior of not writing `SameSite=None`, use the app setting `aspnet:SupressSameSiteNone=true`. Note that
-    this will apply to all HttpCookies in the app.
+* Session State and Forms Authentication cookies are now written to the network as `Lax` instead of unspecified.
+  * While most apps work with `SameSite=Lax` cookies, apps that POST across sites or applications that make use of `iframe` may find that their session state or forms authorization cookies aren't being used as expected. To remedy this, change the `cookieSameSite` value in the appropriate configuration section as discussed previously.
+* HttpCookies that explicitly set `SameSite=None` in code or configuration now have that value written with the cookie, whereas it was previously omitted. This may cause issues with older browsers that only support the 2016 draft standard.
+  * When targeting browsers supporting the 2019 draft standard with `SameSite=None` cookies, remember to also mark them `Secure` or they may not be recognized.
+  * To revert to the 2016 behavior of not writing `SameSite=None`, use the app setting `aspnet:SupressSameSiteNone=true`. Note that this will apply to all HttpCookies in the app.
 
 ### Azure App Service—SameSite cookie handling
 
