@@ -1,4 +1,4 @@
----
+﻿---
 title: Work with SameSite cookies in ASP.NET
 author: rick-anderson
 description: Learn how to use to SameSite cookies in ASP.NET
@@ -10,18 +10,17 @@ uid: samesite/system-web-samesite
 
 By [Rick Anderson](https://twitter.com/RickAndMSFT)
 
-SameSite is an [IETF](https://ietf.org/about/) draft standard designed to provide some protection against cross-site request forgery (CSRF) attacks. Originally drafted in [2016](https://tools.ietf.org/html/draft-west-first-party-cookies-07), the draft standard was updated in [2019](https://tools.ietf.org/html/draft-west-cookie-incrementalism-00). The updated standard is not fully compatible with the previous standard, with the following being the most noticeable differences:
+SameSite is an [IETF](https://ietf.org/about/) draft standard designed to provide some protection against cross-site request forgery (CSRF) attacks. Originally drafted in [2016](https://tools.ietf.org/html/draft-west-first-party-cookies-07), the draft standard was updated in [2019](https://tools.ietf.org/html/draft-west-cookie-incrementalism-00). The updated standard is not backward compatible with the previous standard, with the following being the most noticeable differences:
 
 * Cookies without SameSite header are treated as `SameSite=Lax` by default.
 * `SameSite=None` must be used to allow cross-site cookie use.
 * Cookies that assert `SameSite=None` must also be marked as `Secure`.
+* The value SameSite=None is not allowed by the [2016 standard](https://tools.ietf.org/html/draft-west-first-party-cookies-07) and causes some implementations to treat such cookies as SameSite=Strict. See [Supporting older browsers](#sob) in this document.
 
 The `SameSite=Lax` setting works for most application cookies. Some forms of authentication like [OpenID Connect](https://openid.net/connect/) (OIDC) and [WS-Federation](https://auth0.com/docs/protocols/ws-fed) default to POST based redirects. The POST based redirects trigger the SameSite browser protections, so SameSite is disabled for these components. Most [OAuth](https://oauth.net/) logins are not affected due to differences in how the request flows.
 
 Applications that use `iframe` may experience issues with `SameSite=Lax` or `SameSite=Strict` cookies because iframes are treated as
 cross-site scenarios.
-
-The `SameSite=None` option may cause compatibility problems with clients that implemented the prior [2016 draft standard](https://tools.ietf.org/html/draft-west-first-party-cookies-07), for example, iOS 12. See [Supporting older browsers](#sob) in this document.
 
 Each ASP.NET component that emits cookies needs to decide if SameSite is appropriate.
 
@@ -29,7 +28,7 @@ See [Known Issues](#known) for problems with applications after installing the 2
 
 ## Using SameSite in ASP.NET 4.7.2 and 4.8
 
-.Net 4.7.2 and 4.8 supports the [2019 draft standard](https://tools.ietf.org/html/draft-west-cookie-incrementalism-00) for SameSite. Developers are able to programmatically control the value of the SameSite header using the [HttpCookie.SameSite property](/dotnet/api/system.web.httpcookie.samesite#System_Web_HttpCookie_SameSite). Setting the `SameSite` property to `Strict`, `Lax`, or `None` results in those values being written on the network with the cookie. Setting it equal to `(SameSiteMode)(-1)` indicates that no SameSite header should be included on the network with the cookie. The [HttpCookie.Secure Property](/dotnet/api/system.web.httpcookie.secure), or 'requireSSL' in config files, can be used to mark the cookie as `Secure` or not.
+.Net 4.7.2 and 4.8 supports the [2019 draft standard](https://tools.ietf.org/html/draft-west-cookie-incrementalism-00) for SameSite since the release of updates in December 2019. Developers are able to programmatically control the value of the SameSite header using the [HttpCookie.SameSite property](/dotnet/api/system.web.httpcookie.samesite#System_Web_HttpCookie_SameSite). Setting the `SameSite` property to `Strict`, `Lax`, or `None` results in those values being written on the network with the cookie. Setting it equal to `(SameSiteMode)(-1)` indicates that no SameSite header should be included on the network with the cookie. The [HttpCookie.Secure Property](/dotnet/api/system.web.httpcookie.secure), or 'requireSSL' in config files, can be used to mark the cookie as `Secure` or not.
 
 New `HttpCookie` instances will default to `SameSite=(SameSiteMode)(-1)` and `Secure=false`. These defaults can be overridden in the `system.web/httpCookies` configuration section, where the string `"Unspecified"` is a friendly configuration-only syntax for `(SameSiteMode)(-1)`:
 
@@ -41,17 +40,17 @@ New `HttpCookie` instances will default to `SameSite=(SameSiteMode)(-1)` and `Se
 <configuration>
 ```
 
-ASP.Net also issues four specific cookies of its own for these features: Anonymous Authentication, Forms Authentication, Session State, and Role Management. Instances of these cookies obtained in runtime can be manipulated using the `SameSite` and `Secure` properties just like any other HttpCookie instance. However, due to the patchwork emergence of the SameSite standard, configuration options for these four features cookies is inconsistent. The relevant configuration sections and attributes, with defaults, are shown below. If a SameSite or secure related attribute exists for a feature, then the feature will use it's own default or configured value. If there is no corresponding attribute, then the default will come from the `system.web/httpCookies` section:
+ASP.Net also issues four specific cookies of its own for these features: Anonymous Authentication, Forms Authentication, Session State, and Role Management. Instances of these cookies obtained in runtime can be manipulated using the `SameSite` and `Secure` properties just like any other HttpCookie instance. However, due to the patchwork emergence of the SameSite standard, configuration options for these four features cookies is inconsistent. The relevant configuration sections and attributes, with defaults, are shown below. If there is no `SameSite` or `Secure` related attribute for a feature, then the feature will fall back on the defaults configured in the `system.web/httpCookies` section discussed above.
 
 ```xml
 <configuration>
  <system.web>
-  <anonymousIdentification cookieRequireSSL="false" />
+  <anonymousIdentification cookieRequireSSL="false" /> <!-- No config attribute for SameSite -->
   <authentication>
    <forms cookieSameSite="Lax" requireSSL="false" />
   </authentication>
-  <sessionState cookieSameSite="Lax" />
-  <roleManager cookieRequiresSSL="false" />
+  <sessionState cookieSameSite="Lax" /> <!-- No config attribute for Secure -->
+  <roleManager cookieRequiresSSL="false" /> <!-- No config attribute for SameSite -->
  <system.web>
 <configuration>
 ```  
