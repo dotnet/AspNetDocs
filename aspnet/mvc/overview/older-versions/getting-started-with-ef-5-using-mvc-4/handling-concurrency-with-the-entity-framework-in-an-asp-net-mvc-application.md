@@ -80,6 +80,8 @@ The [Timestamp](https://msdn.microsoft.com/library/system.componentmodel.dataann
 
 [!code-csharp[Main](handling-concurrency-with-the-entity-framework-in-an-asp-net-mvc-application/samples/sample2.cs)]
 
+See the GitHub issue [Replace IsConcurrencyToken by IsRowVersion](https://github.com/aspnet/AspNetDocs/issues/302).
+
 By adding a property you changed the database model, so you need to do another migration. In the Package Manager Console (PMC), enter the following commands:
 
 [!code-console[Main](handling-concurrency-with-the-entity-framework-in-an-asp-net-mvc-application/samples/sample3.cmd)]
