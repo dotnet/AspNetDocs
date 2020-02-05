@@ -12,7 +12,7 @@ namespace BookCatalog.ViewModels
 {
     public class MainViewModel : INotifyPropertyChanged
     {
-        const string apiUrl = @"http://www.contoso.com/api/Books";
+        const string apiUrl = @"https://www.contoso.com/api/Books";
 
         public MainViewModel()
         {

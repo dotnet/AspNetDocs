@@ -27,7 +27,7 @@ A lot of people rely on customers to let them know when their application is dow
 One of the things that's great about the cloud environment is that it's really easy to buy or rent your way to victory. Telemetry is an example. Without a lot of effort you can get a really good telemetry system up and running, very cost-effectively. There are a bunch of great partners that integrate with Azure, and some of them have free tiers – so you can get basic telemetry for nothing. Here are just a few of the ones currently available on Azure:
 
 - [New Relic](http://newrelic.com/)
-- [AppDynamics](http://www.appdynamics.com/)
+- [AppDynamics](https://www.appdynamics.com/)
 - [Dynatrace](https://datamarket.azure.com/application/b4011de2-1212-4375-9211-e882766121ff)
 
 [Microsoft System Center](http://www.petri.co.il/microsoft-system-center-introduction.htm#) also includes monitoring features.

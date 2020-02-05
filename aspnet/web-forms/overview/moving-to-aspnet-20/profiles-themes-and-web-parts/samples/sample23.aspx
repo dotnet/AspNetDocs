@@ -6,7 +6,7 @@
             <br />
             <a href="http://www.gotdotnet.com">GotDotNet</a>
             <br />
-            <a href="http://www.contoso.com">Contoso.com</a>
+            <a href="https://www.contoso.com">Contoso.com</a>
             <br />
         </asp:label>
         <uc1:SearchUserControl id="searchPart"

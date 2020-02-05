@@ -1,4 +1,4 @@
-<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project xmlns="https://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>    
     <MSDeployComputerName Condition=" '$(MSDeployComputerName)'=='' ">
       TESTWEB1.fabrikam.net

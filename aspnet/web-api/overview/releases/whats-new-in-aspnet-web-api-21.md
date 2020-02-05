@@ -59,14 +59,14 @@ For example, the following code uses System.Diagnostics.TraceSource to log all u
 
 You can also replace the default exception handler, so that you can fully customize the HTTP response message that is sent when an unhandled exception occurs.
 
-We have provided a [sample](http://github.com/aspnet/samples/tree/master/samples/aspnet/WebApi/Elmah) that logs all unhandled exceptions via the popular ELMAH framework.
+We have provided a [sample](https://github.com/aspnet/samples/tree/master/samples/aspnet/WebApi/Elmah) that logs all unhandled exceptions via the popular ELMAH framework.
 
 <a id="attribute-routing"></a>
 ### Attribute Routing Improvements
 
 Attribute routing now supports constraints, enabling versioning and header-based route selection. Also, many aspects of attribute routes are now customizable via the **IDirectRouteFactory** interface and **RouteFactoryAttribute** class. The route prefix is now extensible via the **IRoutePrefix** interface and **RoutePrefixAttribute** class.
 
-We have provided a [sample](http://github.com/aspnet/samples/tree/master/samples/aspnet/WebApi/RoutingConstraintsSample) that uses constraints to dynamically filter controllers by an 'api-version' HTTP header.
+We have provided a [sample](https://github.com/aspnet/samples/tree/master/samples/aspnet/WebApi/RoutingConstraintsSample) that uses constraints to dynamically filter controllers by an 'api-version' HTTP header.
 
 <a id="help-page"></a>
 ### Help Page Improvements
@@ -100,7 +100,7 @@ Here is how a .NET client can consume BSON format:
 
 [!code-csharp[Main](whats-new-in-aspnet-web-api-21/samples/sample5.cs)]
 
-We have provided a [sample](http://github.com/aspnet/samples/tree/master/samples/aspnet/WebApi/BSONSample) that shows both the client and server side.
+We have provided a [sample](https://github.com/aspnet/samples/tree/master/samples/aspnet/WebApi/BSONSample) that shows both the client and server side.
 
 For more information, see [BSON Support in Web API 2.1](../formats-and-model-binding/bson-support-in-web-api-21.md)
 

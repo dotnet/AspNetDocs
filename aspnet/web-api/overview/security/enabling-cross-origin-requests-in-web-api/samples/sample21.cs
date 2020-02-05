@@ -14,7 +14,7 @@ public class MyCorsPolicyAttribute : Attribute, ICorsPolicyProvider
 
         // Add allowed origins.
         _policy.Origins.Add("http://myclient.azurewebsites.net");
-        _policy.Origins.Add("http://www.contoso.com");
+        _policy.Origins.Add("https://www.contoso.com");
     }
 
     public Task<CorsPolicy> GetCorsPolicyAsync(HttpRequestMessage request)

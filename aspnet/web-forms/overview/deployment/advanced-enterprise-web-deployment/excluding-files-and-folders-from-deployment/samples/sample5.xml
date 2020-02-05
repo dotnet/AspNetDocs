@@ -1,5 +1,5 @@
 <Project ToolsVersion="4.0" 
-         xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+         xmlns="https://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>   
     <ExcludeFromPackageFolders Include="Internal">
       <FromTarget>ContactManager.Mvc.wpp.targets</FromTarget>

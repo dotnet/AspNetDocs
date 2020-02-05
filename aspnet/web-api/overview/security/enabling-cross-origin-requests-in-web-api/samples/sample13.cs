@@ -1,2 +1,2 @@
-[EnableCors(origins: "http://www.contoso.com,http://www.example.com", 
+[EnableCors(origins: "https://www.contoso.com,http://www.example.com", 
     headers: "*", methods: "*")]

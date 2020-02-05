@@ -495,7 +495,7 @@ This section of the document describes new features, changes, and known issues w
 
 For more information about WebMatrix Beta 3, see the following websites:
 
-- [IIS.net](http://iis.net/)
+- [IIS.net](https://iis.net/)
 - [ASP.NET](https://asp.net/webmatrix)
 - [Microsoft.com/web](https://www.microsoft.com/web)
 

@@ -34,13 +34,13 @@ The URLs for the pages in your site can have an impact on how well the site work
 
 ASP.NET lets you create meaningful URLs that describe user actions instead of just pointing to a file on the server. Consider these URLs for a fictional blog:
 
-- `http://www.contoso.com/Blog/blog.cshtml?categories=hardware`
-- `http://www.contoso.com//Blog/blog.cshtml?startdate=2009-11-01&enddate=2009-11-30`
+- `https://www.contoso.com/Blog/blog.cshtml?categories=hardware`
+- `https://www.contoso.com//Blog/blog.cshtml?startdate=2009-11-01&enddate=2009-11-30`
 
 Compare those URLs to the following ones:
 
-- `http://www.contoso.com/Blog/categories/hardware/`
-- `http://www.contoso.com/Blog/2009/November`
+- `https://www.contoso.com/Blog/categories/hardware/`
+- `https://www.contoso.com/Blog/2009/November`
 
 In the first pair, a user would have to know that the blog is displayed using the *blog.cshtml* page, and would then have to construct a query string that gets the right category or date range. The second set of examples is much easier to comprehend and create.
 
@@ -54,7 +54,7 @@ When ASP.NET processes a request, it reads the URL to determine how to route it.
 
 Imagine that someone makes a request using this URL:
 
-`http://www.contoso.com/a/b/c`
+`https://www.contoso.com/a/b/c`
 
 The search goes like this:
 
@@ -68,7 +68,7 @@ If the search found no exact matches for *.cshtml* files in their specified fold
 2. */a/b/c/index.cshtml* (no path information).
 
 > [!NOTE]
-> To be clear, requests for specific pages (that is, requests that include the *.cshtml* filename extension) work just like you'd expect. A request like `http://www.contoso.com/a/b.cshtml` will run the page *b.cshtml* just fine.
+> To be clear, requests for specific pages (that is, requests that include the *.cshtml* filename extension) work just like you'd expect. A request like `https://www.contoso.com/a/b.cshtml` will run the page *b.cshtml* just fine.
 
 Inside a page, you can get the path information via the page's `UrlData` property, which is a dictionary. Imagine that you have a file named *ViewCustomers.cshtml* and your site gets this request:
 

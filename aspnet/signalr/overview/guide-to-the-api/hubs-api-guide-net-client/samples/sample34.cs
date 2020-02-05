@@ -1,4 +1,4 @@
-using (var hubConnection = new HubConnection("http://www.contoso.com/"))
+using (var hubConnection = new HubConnection("https://www.contoso.com/"))
 {
     hubConnection.TraceLevel = TraceLevels.All;
     hubConnection.TraceWriter = Console.Out;

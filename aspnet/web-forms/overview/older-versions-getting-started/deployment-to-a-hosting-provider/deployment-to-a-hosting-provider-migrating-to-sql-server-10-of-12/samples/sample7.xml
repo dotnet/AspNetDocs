@@ -1,4 +1,4 @@
-<configuration xmlns:xdt="http://schemas.microsoft.com/XML-Document-Transform">
+<configuration xmlns:xdt="https://schemas.microsoft.com/XML-Document-Transform">
   <connectionStrings>
     <add name="DefaultConnection" 
          connectionString="Data Source=vserver01.cytanium.com;Initial Catalog=contosouSchool;User Id=ContosoUniversityUser;Password=Password;MultipleActiveResultSets=True" 

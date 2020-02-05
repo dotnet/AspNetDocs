@@ -9,10 +9,10 @@ Date: Mon, 23 Sep 2013 23:05:52 GMT
 Content-Length: 1086
 
 <?xml version="1.0" encoding="utf-8"?>
-<edmx:Edmx Version="1.0" xmlns:edmx="http://schemas.microsoft.com/ado/2007/06/edmx">
+<edmx:Edmx Version="1.0" xmlns:edmx="https://schemas.microsoft.com/ado/2007/06/edmx">
   <edmx:DataServices m:DataServiceVersion="3.0" m:MaxDataServiceVersion="3.0" 
-    xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata">
-    <Schema Namespace="ProductService.Models" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+    xmlns:m="https://schemas.microsoft.com/ado/2007/08/dataservices/metadata">
+    <Schema Namespace="ProductService.Models" xmlns="https://schemas.microsoft.com/ado/2009/11/edm">
       <EntityType Name="Product">
         <Key>
           <PropertyRef Name="ID" />
@@ -23,7 +23,7 @@ Content-Length: 1086
         <Property Name="Category" Type="Edm.String" />
       </EntityType>
     </Schema>
-    <Schema Namespace="Default" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+    <Schema Namespace="Default" xmlns="https://schemas.microsoft.com/ado/2009/11/edm">
       <EntityContainer Name="Container" m:IsDefaultEntityContainer="true">
         <EntitySet Name="Products" EntityType="ProductService.Models.Product" />
       </EntityContainer>

@@ -1,4 +1,4 @@
-var hubConnection = new HubConnection("http://www.contoso.com/");
+var hubConnection = new HubConnection("https://www.contoso.com/");
 IHubProxy stockTickerHubProxy = hubConnection.CreateHubProxy("StockTickerHub");
 stockTickerHub.On("notify", () =>
     // Context is a reference to SynchronizationContext.Current

@@ -1,4 +1,4 @@
-var hubConnection = new HubConnection("http://www.contoso.com/");
+var hubConnection = new HubConnection("https://www.contoso.com/");
 var writer = new StreamWriter("ClientLog.txt");
 writer.AutoFlush = true;
 hubConnection.TraceLevel = TraceLevels.All;
