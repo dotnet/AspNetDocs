@@ -23,6 +23,11 @@ namespace WebApplication64
     {
         public static bool DisallowsSameSiteNone(string userAgent)
         {
+            // check if a null or empty string has been passed in, since this
+            // will cause further interrogation of the useragent to fail
+             if (String.IsNullOrWhiteSpace(userAgent))
+                return false;
+            
             // Cover all iOS based browsers here. This includes:
             // - Safari on iOS 12 for iPhone, iPod Touch, iPad
             // - WkWebview on iOS 12 for iPhone, iPod Touch, iPad
