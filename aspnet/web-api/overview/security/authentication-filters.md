@@ -17,7 +17,7 @@ by [Mike Wasson](https://github.com/MikeWasson)
 
 Authentication filters let you set an authentication scheme for individual controllers or actions. That way, your app can support different authentication mechanisms for different HTTP resources.
 
-In this article, I'll show code from the [Basic Authentication](http://github.com/aspnet/samples/tree/master/samples/aspnet/WebApi/BasicAuthentication) sample on [https://github.com/aspnet/samples](https://github.com/aspnet/samples). The sample shows an authentication filter that implements the HTTP Basic Access Authentication scheme (RFC 2617). The filter is implemented in a class named `IdentityBasicAuthenticationAttribute`. I won't show all of the code from the sample, just the parts that illustrate how to write an authentication filter.
+In this article, I'll show code from the [Basic Authentication](https://github.com/aspnet/samples/tree/master/samples/aspnet/WebApi/BasicAuthentication) sample on [https://github.com/aspnet/samples](https://github.com/aspnet/samples). The sample shows an authentication filter that implements the HTTP Basic Access Authentication scheme (RFC 2617). The filter is implemented in a class named `IdentityBasicAuthenticationAttribute`. I won't show all of the code from the sample, just the parts that illustrate how to write an authentication filter.
 
 ## Setting an Authentication Filter
 
@@ -102,7 +102,7 @@ Here is a general outline for implementing **AuthenticateAsync**.
 5. If the credentials are bad, return 401 by setting `context.ErrorResult`.
 6. If the credentials are valid, create an **IPrincipal** and set `context.Principal`.
 
-The follow code shows the **AuthenticateAsync** method from the [Basic Authentication](http://github.com/aspnet/samples/tree/master/samples/aspnet/WebApi/BasicAuthentication) sample. The comments indicate each step. The code shows several types of error: An Authorization header with no credentials, malformed credentials, and bad username/password.
+The follow code shows the **AuthenticateAsync** method from the [Basic Authentication](https://github.com/aspnet/samples/tree/master/samples/aspnet/WebApi/BasicAuthentication) sample. The comments indicate each step. The code shows several types of error: An Authorization header with no credentials, malformed credentials, and bad username/password.
 
 [!code-csharp[Main](authentication-filters/samples/sample5.cs)]
 

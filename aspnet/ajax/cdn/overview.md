@@ -58,7 +58,7 @@ The CDN hosts the following third party script libraries which have been uploade
 - jQuery (www.jquery.com)
 - jQuery UI (www.jqueryui.com)
 - jQuery Mobile (www.jquerymobile.com)
-- jQuery Validation (www.jquery.com)
+- jQuery Validation (https://jqueryvalidation.org/)
 - jQuery Cycle (www.malsup.com/jquery/cycle/)
 - jQuery DataTables (http://datatables.net/)
 
@@ -611,7 +611,7 @@ The following releases of the jQuery UI library are hosted on this CDN. Click ea
 
 ### jQuery Validation Releases on the CDN
 
-The following releases of the jQuery Validation library are hosted on this CDN. Click each link to see the actual list of files.
+The following releases of the [jQuery Validation](https://jqueryvalidation.org/ "jQuery Validation Plugin") plugin are hosted on this CDN. Click each link to see the actual list of files.
 
 - [jQuery Validate 1.19.1](jquery-validate/cdnjqueryvalidate1191.md "jQuery Validation 1.19.1")
 - [jQuery Validate 1.19.0](jquery-validate/cdnjqueryvalidate1190.md "jQuery Validation 1.19.0")
