@@ -117,7 +117,7 @@ Rick.Anderson[at]Microsoft.com
 ### Additional References
 
 - [ASP.NET MVC–Cascading Dropdown Lists Tutorial](https://weblogs.asp.net/raduenuca/archive/2011/03/06/asp-net-mvc-cascading-dropdown-lists-tutorial-part-1-defining-the-problem-and-the-context.aspx) by [Radu Enuca](https://weblogs.asp.net/raduenuca/default.aspx)
-- [Chosen](http://harvesthq.github.com/chosen/) A JavaScript plugin that support multi-select and filtering.
+- [Chosen](https://harvesthq.github.com/chosen/) A JavaScript plugin that support multi-select and filtering.
 
 ### Contributors
 

@@ -199,7 +199,7 @@ If you wanted, you could replace the entire **IActionValueBinder** service with 
 
 ## Additional Resources
 
-[Custom Parameter Binding Sample](http://github.com/aspnet/samples/tree/master/samples/aspnet/WebApi/CustomParameterBinding)
+[Custom Parameter Binding Sample](https://github.com/aspnet/samples/tree/master/samples/aspnet/WebApi/CustomParameterBinding)
 
 Mike Stall wrote a good series of blog posts about Web API parameter binding:
 

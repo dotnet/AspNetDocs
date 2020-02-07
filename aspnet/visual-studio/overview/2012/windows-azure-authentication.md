@@ -36,7 +36,7 @@ You can create any Web Application with Visual Studio 2012, this tutorial uses t
 
 ## Enable Window Azure Authentication (When you are a Global Administrator of the Tenet)
 
-If you do not have an existing Windows Azure Active Directory tenant (For example, through an existing Office 365 account) you can create a new tenant by signing up for a [new Windows Azure Active Directory account](http://g.microsoftonline.com/0AX00en/5).
+If you do not have an existing Windows Azure Active Directory tenant (For example, through an existing Office 365 account) you can create a new tenant by signing up for a [new Windows Azure Active Directory account](https://g.microsoftonline.com/0AX00en/5).
 
 1. From the Project menu select **Enable Windows Azure Authentication**:
 
