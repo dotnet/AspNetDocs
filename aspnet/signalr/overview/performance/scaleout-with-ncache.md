@@ -78,15 +78,15 @@ Here is the sequence of steps to complete this tutorial:
          	  string cache, eventKey;  
                   cache = "myPartitionedCache";
                   eventKey = "Chat";     
-
                   var configuration = new NCacheScaleoutConfiguration(cache, eventKey);
-
-                  lobalHost.DependencyResolver.UseNCache(configuration); //using NCache SignalR
-
+		  //using NCache SignalR
+                  GlobalHost.DependencyResolver.UseNCache(configuration); 
                   app.MapSignalR();
            }
        }
        ```
+7. Configure the [client.ncconf](https://www.alachisoft.com/resources/docs/ncache-pro/admin-guide/client-config.html) file in the project folder with the parameters needed to connect to the NCache cluster. These include the NCache server IP addresses and other parameters related to connection persistence and retries.
+8. Deploy your signalR app to IIS using the steps given [here](https://docs.microsoft.com/en-us/aspnet/web-forms/overview/deployment/visual-studio-web-deployment/deploying-to-iis#publish-to-iis).
 
 
 
