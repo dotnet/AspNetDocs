@@ -43,6 +43,7 @@ msc.type: book
     - [SignalR Performance](performance/signalr-performance.md)
     - [Introduction to Scaleout in SignalR](performance/scaleout-in-signalr.md)
     - [SignalR Scaleout with Azure Service Bus](performance/scaleout-with-windows-azure-service-bus.md)
+    - [SignalR Scaleout with NCache](performance/scaleout-with-ncache.md)
     - [SignalR Scaleout with Redis](performance/scaleout-with-redis.md)
     - [SignalR Scaleout with SQL Server](performance/scaleout-with-sql-server.md)
     - [SignalR Connection Density Testing with Crank](performance/signalr-connection-density-testing-with-crank.md)
