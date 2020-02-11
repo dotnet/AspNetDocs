@@ -58,30 +58,30 @@ Here is the sequence of steps to complete this tutorial:
      ```csharp
       public class Startup
       {
-     	 public void Configuration(IAppBuilder app)
-	 {
-		string cache, eventKey;   
-		cache    = "myPartitionedCache";
-		eventKey = "Chat";  
-		//using NCache SignalR              
-		GlobalHost.DependencyResolver.UseNCache(cache, eventKey);
-		app.MapSignalR();
-	 }
+ 		public void Configuration(IAppBuilder app)
+	 	{
+			string cache, eventKey;   
+			cache    = "myPartitionedCache";
+			eventKey = "Chat";  
+			//using NCache SignalR              
+			GlobalHost.DependencyResolver.UseNCache(cache, eventKey);
+			app.MapSignalR();
+	 	}
        }
       ```
     - Overload 2
       ```csharp
        public class Startup
        {
-     	  public void Configuration(IAppBuilder app)
-          {
-		string cache, eventKey;   
-		cache    = "myPartitionedCache";
-		eventKey = "Chat";  
-		//using NCache SignalR              
-		GlobalHost.DependencyResolver.UseNCache(cache, eventKey);
-		app.MapSignalR();
-	   }
+   		public void Configuration(IAppBuilder app)
+          	{
+			string cache, eventKey;   
+			cache    = "myPartitionedCache";
+			eventKey = "Chat";  
+			//using NCache SignalR              
+			GlobalHost.DependencyResolver.UseNCache(cache, eventKey);
+			app.MapSignalR();
+	   	}
        }
       ```
 7. Configure the [client.ncconf](https://www.alachisoft.com/resources/docs/ncache-pro/admin-guide/client-config.html) file in the project folder with the parameters needed to connect to the NCache cluster. These include the NCache server IP addresses and other parameters related to connection persistence and retries.
