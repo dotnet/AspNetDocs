@@ -54,6 +54,40 @@ Here is the sequence of steps to complete this tutorial:
 5. Create a SignalR application or use an example such as the one [here](https://docs.microsoft.com/en-us/aspnet/signalr/overview/getting-started/tutorial-getting-started-with-signalr).
 6. Register an instance of the `UseNCache` method in the `Startup.cs` of your application using either of the two method overloads mentioned [here](#tutorial-overview):
 
+   - Overload 1
+     ```csharp
+     public class Startup
+     {
+         public void Configuration(IAppBuilder app)
+	      {
+		      string cache, eventKey;   
+		      cache    = "myPartitionedCache";
+		      eventKey = "Chat";  
+		      //using NCache SignalR              
+		      GlobalHost.DependencyResolver.UseNCache(cache, eventKey);
+		      app.MapSignalR();
+	      }
+     }
+     ```
+    - Overload 2
+    ```csharp
+    public class Startup
+    {
+      public void Configuration(IAppBuilder app)
+      {
+         string cache, eventKey;  
+         cache = ConfigurationManager.AppSettings["cache"];
+         eventKey = ConfigurationManager.AppSettings["eventKey"];     
+
+         var configuration = new NCacheScaleoutConfiguration(cache, eventKey);
+
+         GlobalHost.DependencyResolver.UseNCache(configuration); //using NCache SignalR
+
+         app.MapSignalR();
+      }
+    }
+    ```
+
 
 
 
