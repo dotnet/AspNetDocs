@@ -58,35 +58,35 @@ Here is the sequence of steps to complete this tutorial:
      ```csharp
      public class Startup
      {
-         public void Configuration(IAppBuilder app)
-	      {
-		      string cache, eventKey;   
-		      cache    = "myPartitionedCache";
-		      eventKey = "Chat";  
-		      //using NCache SignalR              
-		      GlobalHost.DependencyResolver.UseNCache(cache, eventKey);
-		      app.MapSignalR();
-	      }
-     }
-     ```
-    - Overload 2
-    ```csharp
-    public class Startup
-    {
-      public void Configuration(IAppBuilder app)
-      {
-         string cache, eventKey;  
-         cache = ConfigurationManager.AppSettings["cache"];
-         eventKey = ConfigurationManager.AppSettings["eventKey"];     
-
-         var configuration = new NCacheScaleoutConfiguration(cache, eventKey);
-
-         GlobalHost.DependencyResolver.UseNCache(configuration); //using NCache SignalR
-
-         app.MapSignalR();
+     	public void Configuration(IAppBuilder app)
+	 {
+		string cache, eventKey;   
+		cache    = "myPartitionedCache";
+		eventKey = "Chat";  
+		//using NCache SignalR              
+		GlobalHost.DependencyResolver.UseNCache(cache, eventKey);
+		app.MapSignalR();
+	 }
       }
-    }
-    ```
+      ```
+    - Overload 2
+      ```csharp
+      public class Startup
+      {
+          public void Configuration(IAppBuilder app)
+          {
+         	  string cache, eventKey;  
+                  cache = "myPartitionedCache";
+                  eventKey = "Chat";     
+
+                  var configuration = new NCacheScaleoutConfiguration(cache, eventKey);
+
+                  lobalHost.DependencyResolver.UseNCache(configuration); //using NCache SignalR
+
+                  app.MapSignalR();
+           }
+       }
+       ```
 
 
 
