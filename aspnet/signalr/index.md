@@ -45,6 +45,7 @@ msc.type: categoryindex
         - [SignalR Performance](overview/performance/signalr-performance.md)
         - [Introduction to Scaleout in SignalR](overview/performance/scaleout-in-signalr.md)
         - [SignalR Scaleout with Azure Service Bus](overview/performance/scaleout-with-windows-azure-service-bus.md)
+        - [SignalR Scaleout with NCache](overview/performance/scaleout-with-ncache.md)
         - [SignalR Scaleout with Redis](overview/performance/scaleout-with-redis.md)
         - [SignalR Scaleout with SQL Server](overview/performance/scaleout-with-sql-server.md)
         - [SignalR Connection Density Testing with Crank](overview/performance/signalr-connection-density-testing-with-crank.md)
