@@ -24,7 +24,7 @@ by [Brad Rehman](https://github.com/Obaid-Rehman)
 
 In this tutorial, you will use [NCache](https://www.alachisoft.com/ncache) as a SignalR backplane to distribute messages among instances of a SignalR application that are hosted on two different IIS servers. NCache is a scalable distributed caching solution that pools together the CPU and memory resources of the individual NCache servers, also called nodes, which make up the clustered cache. 
 
-## API overview
+## Tutorial overview
 
 The NCache SignalR backplane client interface is exposed using the `UseNCache` extension method of the [IDependencyResolver](https://docs.microsoft.com/en-us/dotnet/api/system.web.mvc.idependencyresolver?view=aspnet-mvc-5.2) interface. The `UseNCache` method has two overloads: 
 
@@ -52,6 +52,7 @@ Here is the sequence of steps to complete this tutorial:
    - [AspNet.SignalR.NCache](https://www.nuget.org/packages/AspNet.SignalR.NCache/)
    
 5. Create a SignalR application or use an example such as the one [here](https://docs.microsoft.com/en-us/aspnet/signalr/overview/getting-started/tutorial-getting-started-with-signalr).
+6. Register an instance of the `UseNCache` method in the `Startup.cs` of your application using either of the two method overloads mentioned [here](#tutorial-overview):
 
 
 
