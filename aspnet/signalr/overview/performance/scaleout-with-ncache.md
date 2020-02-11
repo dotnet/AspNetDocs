@@ -58,7 +58,7 @@ Here is the sequence of steps to complete this tutorial:
      ```csharp
       public class Startup
       {
- 		public void Configuration(IAppBuilder app)
+ 			public void Configuration(IAppBuilder app)
 	 	{
 				string cache, eventKey;   
 				cache    = "myPartitionedCache";
@@ -73,7 +73,7 @@ Here is the sequence of steps to complete this tutorial:
       ```csharp
        public class Startup
        {
-   		public void Configuration(IAppBuilder app)
+   			public void Configuration(IAppBuilder app)
           	{
 				string cache, eventKey;   
 				cache    = "myPartitionedCache";
