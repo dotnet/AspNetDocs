@@ -47,8 +47,10 @@ Here is the sequence of steps to complete this tutorial:
 2. Install NCache using the steps outlined [here](https://www.alachisoft.com/resources/docs/ncache/install-guide/install-ncache-net.html) on both NCache servers.
 3. Create a 2-server NCache cluster using the NCache servers running [Windows](https://www.alachisoft.com/resources/docs/ncache/admin-guide/create-new-cache-cluster.html?tabs=windows) or [Linux](https://www.alachisoft.com/resources/docs/ncache/admin-guide/create-new-cache-cluster.html?tabs=linux) and [start it](https://www.alachisoft.com/resources/docs/ncache/admin-guide/start-cache.html).
 4. Add these NuGet packages in your app:
+
    - [Microsoft.AspNet.SignalR](http://nuget.org/packages/Microsoft.AspNet.SignalR) version >= 2.4.0
    - [AspNet.SignalR.NCache](https://www.nuget.org/packages/AspNet.SignalR.NCache/)
+   
 5. Create a SignalR application or use an example such as the one [here](https://docs.microsoft.com/en-us/aspnet/signalr/overview/getting-started/tutorial-getting-started-with-signalr).
 
 
