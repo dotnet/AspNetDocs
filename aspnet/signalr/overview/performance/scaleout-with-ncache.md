@@ -28,9 +28,16 @@ NCache is a scalable distributed caching solution that pools together the CPU an
 
 The `UseNCache` method has two overloads: 
 
-- The first overload takes as parameters the string `cacheName` which is the name of the cache used as the SignalR backplane and the string `eventKey`which is a unique user specified attribute added to NCache on client registration. Each instance of the app will use the same value for `eventKey` when calling the `UseNCache` extension method.
+- The first overload takes as parameters the string `cacheName` which is the name of the cache used as the SignalR backplane and the string `eventKey`which is a unique user specified attribute added to NCache on client registration. Each instance of the app will use the same argument for the `eventKey` parameter when calling the `UseNCache` overloaded method.
 
 - The second overload takes as a single parameter an instance of `NCacheScaleoutConfiguration` which extends the `ScaleoutConfiguration`  class. The `NCacheScaleoutConfiguration` object takes as parameters `cacheName` and `eventKey` just as in the first `UseNCache` overloaded method.
+
+For this tutorial, you will use four servers:
+
+- Two servers running Windows on which you will host the SignalR app instances.
+- Two servers, both running either Windows or Linux, which will be running NCache that make up the NCache clustered cache to be used as the SignalR backplane.
+
+For both the SignalR servers and the NCache servers, I have used Windows 10 OS.
 
 
 
