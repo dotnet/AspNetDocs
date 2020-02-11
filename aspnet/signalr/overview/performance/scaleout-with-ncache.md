@@ -60,12 +60,12 @@ Here is the sequence of steps to complete this tutorial:
       {
  		public void Configuration(IAppBuilder app)
 	 	{
-			string cache, eventKey;   
-			cache    = "myPartitionedCache";
-			eventKey = "Chat";  
-			//using NCache SignalR              
-			GlobalHost.DependencyResolver.UseNCache(cache, eventKey);
-			app.MapSignalR();
+				string cache, eventKey;   
+				cache    = "myPartitionedCache";
+				eventKey = "Chat";  
+				//using NCache SignalR              
+				GlobalHost.DependencyResolver.UseNCache(cache, eventKey);
+				app.MapSignalR();
 	 	}
        }
       ```
@@ -75,12 +75,12 @@ Here is the sequence of steps to complete this tutorial:
        {
    		public void Configuration(IAppBuilder app)
           	{
-			string cache, eventKey;   
-			cache    = "myPartitionedCache";
-			eventKey = "Chat";  
-			//using NCache SignalR              
-			GlobalHost.DependencyResolver.UseNCache(cache, eventKey);
-			app.MapSignalR();
+				string cache, eventKey;   
+				cache    = "myPartitionedCache";
+				eventKey = "Chat";  
+				//using NCache SignalR              
+				GlobalHost.DependencyResolver.UseNCache(cache, eventKey);
+				app.MapSignalR();
 	   	}
        }
       ```
