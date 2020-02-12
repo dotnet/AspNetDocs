@@ -12,7 +12,7 @@ msc.type: authoredcontent
 ---
 # ASP.NET Identity Recommended Resources
 
-by [Rick Anderson]((https://twitter.com/RickAndMSFT))
+by [Rick Anderson](https://twitter.com/RickAndMSFT)
 
 > This topic provides links to documentation resources about how to use ASP.NET Identity.
 >
