@@ -40,6 +40,8 @@ sameSiteCookie.SameSite = SameSiteMode.None;
 Response.Cookies.Add(sameSiteCookie);
 ```
 
+[!INCLUDE[](~/includes/MTcomments.md)]
+
 The default sameSite attribute for session state is set in the 'cookieSameSite' parameter of the session settings in `web.config`
 
 ```xml
