@@ -70,7 +70,7 @@ behavior depending on browser capability.
 
 ### Running the sample
 
-If you run the sample project please load your browser debugger on the initial page and use it to view the cookie collection for the site.
+If you run the sample project  load your browser debugger on the initial page and use it to view the cookie collection for the site.
 To do so in Edge and Chrome press `F12` then select the `Application` tab and click the site URL under the `Cookies` option in the `Storage` section.
 
 ![Browser Debugger Cookie List](BrowserDebugger.jpg)
@@ -143,6 +143,6 @@ End Sub
 
 [Chrome Updates](https://www.chromium.org/updates/same-site)
 
-[ASP.NET Documentation](https://docs.microsoft.com/aspnet/samesite/system-web-samesite)
+[ASP.NET Documentation](/aspnet/samesite/system-web-samesite)
 
-[.NET SameSite Patches](https://docs.microsoft.com/aspnet/samesite/kbs-samesite)
+[.NET SameSite Patches](/aspnet/samesite/kbs-samesite)

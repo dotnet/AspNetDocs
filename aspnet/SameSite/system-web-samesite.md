@@ -9,7 +9,7 @@ uid: samesite/system-web-samesite
 
 # Work with SameSite cookies in ASP.NET
 
-https://docs.microsoft.com/visualstudio/msbuild/msbuild-target-framework-and-target-platform?view=vs-2019
+/visualstudio/msbuild/msbuild-target-framework-and-target-platform?view=vs-2019
 
 By [Rick Anderson](https://twitter.com/RickAndMSFT)
 
@@ -72,13 +72,13 @@ To target .NET 4.7.2 or later:
     <httpRuntime targetFramework="4.7.2"/>
   </system.web>
 
-* Verify the project file contains the correct [TargetFrameworkVersion](https://docs.microsoft.com/visualstudio/msbuild/msbuild-target-framework-and-target-platform?view=vs-2019):
+* Verify the project file contains the correct [TargetFrameworkVersion](/visualstudio/msbuild/msbuild-target-framework-and-target-platform?view=vs-2019):
 
   ```xml
   <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
   ```
 
-  The [.NET Migration Guide](https://docs.microsoft.com/dotnet/framework/migration-guide/) has more details.
+  The [.NET Migration Guide](/dotnet/framework/migration-guide/) has more details.
 
 * Verify NuGet packages in the project are targeted at the correct framework
 version. You can verify the correct framework

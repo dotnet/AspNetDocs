@@ -3771,7 +3771,7 @@
       href: whitepapers/overview.md
     - name: ASP.NET SameSite
       items:
-        - name: ASP.NET SameSite .NET
+        - name: SameSite cookies in ASP.NET
           href: SameSite/system-web-samesite.md
         - name: SameSite KB articles
           uid: samesite/kbs-samesite

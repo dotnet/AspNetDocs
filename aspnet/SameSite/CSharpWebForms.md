@@ -68,10 +68,10 @@ behavior depending on browser capability.
 
 ### Running the sample
 
-If you run the sample project please load your browser debugger on the initial page and use it to view the cookie collection for the site.
+If you run the sample project  load your browser debugger on the initial page and use it to view the cookie collection for the site.
 To do so in Edge and Chrome press `F12` then select the `Application` tab and click the site URL under the `Cookies` option in the `Storage` section.
 
-![Browser Debugger Cookie List](BrowserDebugger.jpg)
+![Browser Debugger Cookie List](https://github.com/blowdart/AspNetSameSiteSamples/blob/master/AspNet472CSharpWebForms/BrowserDebugger.jpg)
 
 You can see from the image above that the cookie created by the sample when you click the "Create Cookies" button has a SameSite attribute value of `Lax`,
 matching the value set in the [sample code](#sampleCode).
@@ -82,8 +82,8 @@ matching the value set in the [sample code](#sampleCode).
 are returned to the client machine. In the sample we wire up the event to a static method which checks whether the browser supports the new sameSite changes,
 and if not, changes the cookies to not emit the attribute if the new `None` value has been set.
 
-See [global.asax](Global.asax.cs) for an example of hooking up the event and
-[SameSiteCookieRewriter.cs](SameSiteCookieRewriter.cs) for an example of handling the event and adjusting the cookie `sameSite` attribute.
+See [global.asax](https://github.com/blowdart/AspNetSameSiteSamples/blob/master/AspNet472CSharpWebForms/Global.asax.cs) for an example of hooking up the event and
+[SameSiteCookieRewriter.cs](https://github.com/blowdart/AspNetSameSiteSamples/blob/master/AspNet472CSharpWebForms/SameSiteCookieRewriter.cs) for an example of handling the event and adjusting the cookie `sameSite` attribute.
 
 ```c#
 public static void FilterSameSiteNoneForIncompatibleUserAgents(object sender)
@@ -146,6 +146,6 @@ public static void AdjustSpecificCookieSettings()
 
 [Chrome Updates](https://www.chromium.org/updates/same-site)
 
-[ASP.NET Documentation](https://docs.microsoft.com/aspnet/samesite/system-web-samesite)
+[ASP.NET Documentation](/aspnet/samesite/system-web-samesite)
 
-[.NET SameSite Patches](https://docs.microsoft.com/aspnet/samesite/kbs-samesite)
+[.NET SameSite Patches](/aspnet/samesite/kbs-samesite)
