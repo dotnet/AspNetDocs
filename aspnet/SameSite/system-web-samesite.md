@@ -58,6 +58,8 @@ ASP.Net also issues four specific cookies of its own for these features: Anonymo
 
 **Note**: 'Unspecified' is only available to `system.web/httpCookies@sameSite` at the moment. We hope to add similar syntax to the previously shown cookieSameSite attributes in future updates. Setting `(SameSiteMode)(-1)` in code still works on instances of these cookies.*
 
+[!INCLUDE[](~/includes/MTcomments.md)]
+
 <a name="retargeting"></a>
 
 ### Re-target .NET apps

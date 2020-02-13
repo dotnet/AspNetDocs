@@ -43,6 +43,8 @@ sameSiteCookie.SameSite = SameSiteMode.None
 Response.Cookies.Add(sameSiteCookie)
 ```
 
+[!INCLUDE[](~/includes/MTcomments.md)]
+
 The default sameSite attribute for session state is set in the 'cookieSameSite' parameter of the session settings in `web.config`
 
 ```xml
@@ -55,7 +57,7 @@ The default sameSite attribute for session state is set in the 'cookieSameSite' 
 ## MVC Authentication
 
 OWIN MVC cookie based authentication uses a cookie manager to enable the changing of cookie attributes. 
-The [SameSiteCookieManager.vb](SameSiteCookieManager.vb) is an implementation of such a class which you can copy into your
+The [SameSiteCookieManager.vb](https://github.com/blowdart/AspNetSameSiteSamples/blob/master/AspNet472VisualBasicMVC5/SameSiteCookieManager.vb) is an implementation of such a class which you can copy into your
 own projects. 
 
 You must ensure your Microsoft.Owin components are all upgraded to version 4.1.0 or greater. Check your `packages.config` 
@@ -98,7 +100,7 @@ with response cookie integration.
 If you run the sample project please load your browser debugger on the initial page and use it to view the cookie collection for the site.
 To do so in Edge and Chrome press `F12` then select the `Application` tab and click the site URL under the `Cookies` option in the `Storage` section.
 
-![Browser Debugger Cookie List](BrowserDebugger.jpg)
+![Browser Debugger Cookie List](https://github.com/blowdart/AspNetSameSiteSamples/blob/master/AspNet472VisualBasicMVC5/BrowserDebugger.jpg)
 
 You can see from the image above that the cookie created by the sample when you click the "Create SameSite Cookie" button has a SameSite attribute value of `Lax`,
 matching the value set in the [sample code](#sampleCode).
@@ -109,8 +111,8 @@ matching the value set in the [sample code](#sampleCode).
 are returned to the client machine. In the sample we wire up the event to a static method which checks whether the browser supports the new sameSite changes,
 and if not, changes the cookies to not emit the attribute if the new `None` value has been set.
 
-See [global.asax](Global.asax.vb) for an example of hooking up the event and
-[SameSiteCookieRewriter.vb](SameSiteCookieRewriter.vb) for an example of handling the event and adjusting the cookie `sameSite` attribute which you can
+See [global.asax](https://github.com/blowdart/AspNetSameSiteSamples/blob/master/AspNet472VisualBasicMVC5/Global.asax.vb) for an example of hooking up the event and
+[SameSiteCookieRewriter.vb](https://github.com/blowdart/AspNetSameSiteSamples/blob/master/AspNet472VisualBasicMVC5/SameSiteCookieRewriter.vb) for an example of handling the event and adjusting the cookie `sameSite` attribute which you can
 copy into your own code.
 
 ```vb
@@ -168,8 +170,8 @@ End Sub
  
 [Chrome Updates](https://www.chromium.org/updates/same-site)
 
-[OWIN SameSite Documentation](https://docs.microsoft.com/en-us/aspnet/samesite/owin-samesite)
+[OWIN SameSite Documentation](/aspnet/samesite/owin-samesite)
 
-[ASP.NET Documentation](https://docs.microsoft.com/en-us/aspnet/samesite/system-web-samesite)
+[ASP.NET Documentation](/aspnet/samesite/system-web-samesite)
 
-[.NET SameSite Patches](https://docs.microsoft.com/en-us/aspnet/samesite/kbs-samesite)
+[.NET SameSite Patches](/aspnet/samesite/kbs-samesite)
