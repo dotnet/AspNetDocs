@@ -3770,12 +3770,14 @@
     - name: Whitepapers
       href: whitepapers/overview.md
     - name: ASP.NET SameSite
-      href: SameSite/system-web-samesite.md
       items:
-        - name: SameSite cookie sample for ASP.NET 4.7.2 C# MVC
-          uid: samesite/mvc
+        - name: ASP.NET SameSite .NET
+          href: SameSite/system-web-samesite.md
         - name: SameSite KB articles
           uid: samesite/kbs-samesite
+        - name: SameSite cookie sample for ASP.NET 4.7.2 C# MVC
+          uid: samesite/mvc
+
     - name: ASP.NET 4 and Visual Studio 2010 Web Development Overview
       href: whitepapers/aspnet4/index.md
       items: 
