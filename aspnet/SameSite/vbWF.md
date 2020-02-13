@@ -1,14 +1,13 @@
 ﻿---
-title: SameSite cookie sample for ASP.NET 4.7.2 C# WebForms
+title: SameSite cookie sample for ASP.NET 4.7.2 VB WebForms
 author: blowdart
-description: SameSite cookie sample for ASP.NET 4.7.2 C# WebForms
+description: SameSite cookie sample for ASP.NET 4.7.2 VB WebForms
 ms.author: riande
 ms.date: 2/15/2019
-uid: samesite/CSharpWebForms
+uid: samesite/vbWF
 ---
 
-# SameSite cookie sample for ASP.NET 4.7.2 C# WebForms
-
+# SameSite cookie sample for ASP.NET 4.7.2 VB WebForms
 .NET Framework 4.7 has built-in support for the [SameSite](https://www.owasp.org/index.php/SameSite) attribute, but it adheres to the original standard.
 The patched behavior changed the meaning of `SameSite.None` to emit the attribute with a value of `None`, rather than not emit the value at all. If
 you want to not emit the value you can set the `SameSite` property on a cookie to -1.
@@ -17,27 +16,30 @@ you want to not emit the value you can set the `SameSite` property on a cookie t
 
 Following is an example of how to write a SameSite attribute on a cookie;
 
-```c#
-// Create the cookie
-HttpCookie sameSiteCookie = new HttpCookie("SameSiteSample");
+```vb
+' Create the cookie
+Dim sameSiteCookie As New HttpCookie("sameSiteSample")
 
-// Set a value for the cookie
-sameSiteCookie.Value = "sample";
+' Set a value for the cookie
+sameSiteCookie.Value = "sample"
 
-// Set the secure flag, which Chrome's changes will require for SameSite none.
-// Note this will also require you to be running on HTTPS
-sameSiteCookie.Secure = true;
+' Set the secure flag, which Chrome's changes will require for SameSite none.
+' Note this will also require you to be running on HTTPS
+sameSiteCookie.Secure = True
 
-// Set the cookie to HTTP only which is good practice unless you really do need
-// to access it client side in scripts.
-sameSiteCookie.HttpOnly = true;
+' Set the cookie to HTTP only which is good practice unless you really do need
+' to access it client side in scripts.
+sameSiteCookie.HttpOnly = True
 
-// Add the SameSite attribute, this will emit the attribute with a value of none.
-// To not emit the attribute at all set the SameSite property to -1.
-sameSiteCookie.SameSite = SameSiteMode.None;
+' Expire the cookie in 1 minute
+sameSiteCookie.Expires = Date.Now.AddMinutes(1)
 
-// Add the cookie to the response cookie collection
-Response.Cookies.Add(sameSiteCookie);
+' Add the SameSite attribute, this will emit the attribute with a value of none.
+' To Not emit the attribute at all set the SameSite property to -1.
+sameSiteCookie.SameSite = SameSiteMode.None
+
+' Add the cookie to the response cookie collection
+Response.Cookies.Add(sameSiteCookie)
 ```
 
 [!INCLUDE[](~/includes/MTcomments.md)]
@@ -82,64 +84,59 @@ matching the value set in the [sample code](#sampleCode).
 are returned to the client machine. In the sample we wire up the event to a static method which checks whether the browser supports the new sameSite changes,
 and if not, changes the cookies to not emit the attribute if the new `None` value has been set.
 
-See [global.asax](Global.asax.cs) for an example of hooking up the event and
-[SameSiteCookieRewriter.cs](SameSiteCookieRewriter.cs) for an example of handling the event and adjusting the cookie `sameSite` attribute.
+See [global.asax](Global.asax.vb) for an example of hooking up the event and
+[SameSiteCookieRewriter.cs](SameSiteCookieRewriter.vb) for an example of handling the event and adjusting the cookie `sameSite` attribute.
 
-```c#
-public static void FilterSameSiteNoneForIncompatibleUserAgents(object sender)
-{
-    HttpApplication application = sender as HttpApplication;
-    if (application != null)
-    {
-        var userAgent = application.Context.Request.UserAgent;
-        if (SameSite.BrowserDetection.DisallowsSameSiteNone(userAgent))
-        {
-            HttpContext.Current.Response.AddOnSendingHeaders(context =>
-            {
-                var cookies = context.Response.Cookies;
-                for (var i = 0; i < cookies.Count; i++)
-                {
-                    var cookie = cookies[i];
-                    if (cookie.SameSite == SameSiteMode.None)
-                    {
-                        cookie.SameSite = (SameSiteMode)(-1); // Unspecified
-                    }
-                }
-            });
-        }
-    }
-}
+
+```vb
+Sub FilterSameSiteNoneForIncompatibleUserAgents(ByVal sender As Object)
+    Dim application As HttpApplication = TryCast(sender, HttpApplication)
+
+    If application IsNot Nothing Then
+        Dim userAgent = application.Context.Request.UserAgent
+
+        If SameSite.DisallowsSameSiteNone(userAgent) Then
+            application.Response.AddOnSendingHeaders(
+                Function(context)
+                    Dim cookies = context.Response.Cookies
+
+                    For i = 0 To cookies.Count - 1
+                        Dim cookie = cookies(i)
+
+                        If cookie.SameSite = SameSiteMode.None Then
+                            cookie.SameSite = CType((-1), SameSiteMode)
+                        End If
+                    Next
+                End Function)
+        End If
+    End If
+End Sub
 ```
 
 You can change specific named cookie behavior in much the same way; the sample below adjust the default authentication cookie from `Lax` to
 `None` on browsers which support the `None` value, or removes the sameSite attribute on browsers which do not support `None`.
 
-```c#
-public static void AdjustSpecificCookieSettings()
-{
-    HttpContext.Current.Response.AddOnSendingHeaders(context =>
-    {
-        var cookies = context.Response.Cookies;
-        for (var i = 0; i < cookies.Count; i++)
-        {
-            var cookie = cookies[i]; 
-            // Forms auth: ".ASPXAUTH"
-            // Session: "ASP.NET_SessionId"
-            if (string.Equals(".ASPXAUTH", cookie.Name, StringComparison.Ordinal))
-            { 
-                if (SameSite.BrowserDetection.DisallowsSameSiteNone(userAgent))
-                {
-                    cookie.SameSite = -1;
-                }
-                else
-                {
-                    cookie.SameSite = SameSiteMode.None;
-                }
-                cookie.Secure = true;
-            }
-        }
-    });
-}
+```vb
+Public Shared Sub AdjustSpecificCookieSettings()
+    HttpContext.Current.Response.AddOnSendingHeaders(Function(context)
+            Dim cookies = context.Response.Cookies
+
+            For i = 0 To cookies.Count - 1
+            Dim cookie = cookies(i)
+
+            If String.Equals(".ASPXAUTH", cookie.Name, StringComparison.Ordinal) Then
+
+                If SameSite.BrowserDetection.DisallowsSameSiteNone(userAgent) Then
+                    cookie.SameSite = -1
+                Else
+                    cookie.SameSite = SameSiteMode.None
+                End If
+
+                cookie.Secure = True
+            End If
+            Next
+        End Function)
+End Sub
 ```
 
 ## More Information

@@ -3775,8 +3775,14 @@
           href: SameSite/system-web-samesite.md
         - name: SameSite KB articles
           uid: samesite/kbs-samesite
-        - name: SameSite cookie sample for ASP.NET 4.7.2 C# MVC
-          uid: samesite/mvc
+        - name: C# MVC
+          uid: samesite/csMVC
+        - name: C# WebForms
+          uid: samesite/CSharpWebForms
+        - name: VB WebForms
+          uid: samesite/vbWF
+        - name: VB MVC
+          uid: samesite/vbMVC
 
     - name: ASP.NET 4 and Visual Studio 2010 Web Development Overview
       href: whitepapers/aspnet4/index.md

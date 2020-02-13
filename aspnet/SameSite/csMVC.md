@@ -4,7 +4,7 @@ author: blowdart
 description: SameSite cookie sample for ASP.NET 4.7.2 C# MVC
 ms.author: riande
 ms.date: 2/15/2019
-uid: samesite/mvc
+uid: samesite/csMVC
 ---
 
 # SameSite cookie sample for ASP.NET 4.7.2 C# MVC
@@ -175,8 +175,8 @@ public static void AdjustSpecificCookieSettings()
  
 [Chrome Updates](https://www.chromium.org/updates/same-site)
 
-[OWIN SameSite Documentation](https://docs.microsoft.com/en-us/aspnet/samesite/owin-samesite)
+[OWIN SameSite Documentation](https://docs.microsoft.com/aspnet/samesite/owin-samesite)
 
-[ASP.NET Documentation](https://docs.microsoft.com/en-us/aspnet/samesite/system-web-samesite)
+[ASP.NET Documentation](https://docs.microsoft.com/aspnet/samesite/system-web-samesite)
 
-[.NET SameSite Patches](https://docs.microsoft.com/en-us/aspnet/samesite/kbs-samesite)
+[.NET SameSite Patches](https://docs.microsoft.com/aspnet/samesite/kbs-samesite)
