@@ -1,0 +1,18 @@
+{
+    "markdown.docsetLanguages": [
+        "ASP.NET (C#)",
+        "ASP.NET (VB)",
+        "ASPX",
+        "C#",
+        "CSS",
+        "Dockerfile",
+        "HTML",
+        "JavaScript",
+        "JSON",
+        "Markdown",
+        "PowerShell",
+        "Razor CSHTML",
+        "VB.NET",
+        "XML"
+    ]
+}
