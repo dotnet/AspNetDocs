@@ -3,11 +3,13 @@ title: Work with SameSite cookies in ASP.NET
 author: rick-anderson
 description: Learn how to use to SameSite cookies in ASP.NET
 ms.author: riande
-ms.date: 1/22/2019
+ms.date: 2/15/2019
 uid: samesite/system-web-samesite
 ---
 
 # Work with SameSite cookies in ASP.NET
+
+https://docs.microsoft.com/en-us/visualstudio/msbuild/msbuild-target-framework-and-target-platform?view=vs-2019
 
 By [Rick Anderson](https://twitter.com/RickAndMSFT)
 
@@ -16,12 +18,10 @@ SameSite is an [IETF](https://ietf.org/about/) draft standard designed to provid
 * Cookies without SameSite header are treated as `SameSite=Lax` by default.
 * `SameSite=None` must be used to allow cross-site cookie use.
 * Cookies that assert `SameSite=None` must also be marked as `Secure`.
-* The value SameSite=None is not allowed by the [2016 standard](https://tools.ietf.org/html/draft-west-first-party-cookies-07) and causes some implementations to treat such cookies as SameSite=Strict. See [Supporting older browsers](#sob) in this document.
+* Applications that use [`<iframe>`](https://developer.mozilla.org/docs/Web/HTML/Element/iframe) may experience issues with `sameSite=Lax` or `sameSite=Strict` cookies because `<iframe>` is treated as cross-site scenarios.
+* The value `SameSite=None` is not allowed by the [2016 standard](https://tools.ietf.org/html/draft-west-first-party-cookies-07) and causes some implementations to treat such cookies as `SameSite=Strict`. See [Supporting older browsers](#sob) in this document.
 
 The `SameSite=Lax` setting works for most application cookies. Some forms of authentication like [OpenID Connect](https://openid.net/connect/) (OIDC) and [WS-Federation](https://auth0.com/docs/protocols/ws-fed) default to POST based redirects. The POST based redirects trigger the SameSite browser protections, so SameSite is disabled for these components. Most [OAuth](https://oauth.net/) logins are not affected due to differences in how the request flows.
-
-Applications that use `iframe` may experience issues with `SameSite=Lax` or `SameSite=Strict` cookies because iframes are treated as
-cross-site scenarios.
 
 Each ASP.NET component that emits cookies needs to decide if SameSite is appropriate.
 
@@ -57,6 +57,48 @@ ASP.Net also issues four specific cookies of its own for these features: Anonymo
 ```  
 
 **Note**: 'Unspecified' is only available to `system.web/httpCookies@sameSite` at the moment. We hope to add similar syntax to the previously shown cookieSameSite attributes in future updates. Setting `(SameSiteMode)(-1)` in code still works on instances of these cookies.*
+
+<a name="retargeting"></a>
+
+### Re-target .NET apps
+
+To target .NET 4.7.2 or later:
+
+* Ensure *web.config* contains the following:  <!-- review, I removed `debug="true"` -->
+
+  ```xml
+  <system.web>
+    <compilation  targetFramework="4.7.2"/>
+    <httpRuntime targetFramework="4.7.2"/>
+  </system.web>
+
+* Verify the project file contains the correct [TargetFrameworkVersion](https://docs.microsoft.com/en-us/visualstudio/msbuild/msbuild-target-framework-and-target-platform?view=vs-2019):
+
+  ```xml
+  <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+  ```
+
+  The [.NET Migration Guide](https://docs.microsoft.com/en-us/dotnet/framework/migration-guide/) has more details.
+
+* Verify NuGet packages in the project are targeted at the correct framework
+version. You can verify the correct framework
+version by examining the *packages.config* file, for example:
+
+  ```xml
+  <?xml version="1.0" encoding="utf-8"?>
+  <packages>
+    <package id="Microsoft.AspNet.Mvc" version="5.2.7" targetFramework="net472" />
+    <package id="Microsoft.ApplicationInsights" version="2.4.0" targetFramework="net451" />
+  </packages>
+  ```
+
+  In the preceding *packages.config* file, the `Microsoft.ApplicationInsights` package is  targeted against .NET 4.5.1, and should have its `targetFramework` attribute updated to `net472` if an updated package targeting your the framework target exists.
+
+zz
+Microsoft does not support .NET versions lower that 4.7.2 for writing the same-site cookie attribute. We have not found a reliable way to:
+
+* Ensure the attribute is written correctly based on browser version.
+* Intercept and adjust authentication and session cookies on older framework versions.
 
 ## History and changes
 
