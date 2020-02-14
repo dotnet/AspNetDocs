@@ -73,7 +73,7 @@ behavior depending on browser capability.
 If you run the sample project  load your browser debugger on the initial page and use it to view the cookie collection for the site.
 To do so in Edge and Chrome press `F12` then select the `Application` tab and click the site URL under the `Cookies` option in the `Storage` section.
 
-![Browser Debugger Cookie List](https://github.com/blowdart/AspNetSameSiteSamples/blob/master/AspNet472VisualBasicWebForms/BrowserDebugger.jpg)
+![Browser Debugger Cookie List](sample/img/BrowserDebugger.png)
 
 You can see from the image above that the cookie created by the sample when you click the "Create Cookies" button has a SameSite attribute value of `Lax`,
 matching the value set in the [sample code](#sampleCode).
