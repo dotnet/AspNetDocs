@@ -176,7 +176,7 @@ These detections are the most common browser agents we have seen that support th
 * Your app may see browsers that our test sites do not.
 * You should be prepared to add detections as necessary for your environment.
 
-How you wire up the detection varies according the version of .NET and the web framework that you are using. The following code can be called at the <xref:HTTP.HttpCookie> call site:
+How you wire up the detection varies according the version of .NET and the web framework that you are using. The following code can be called at the [HttpCookie](/dotnet/api/system.web.httpcookie) call site:
 
 [!code-csharp[](sample/SameSiteCheck.cs?name=snippet)]
 
