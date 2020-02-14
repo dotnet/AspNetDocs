@@ -12,14 +12,14 @@
         "ManagedReference": "Content",
         "RestApi": "Content"
       },
+      "xref_query_tags": [
+        "/dotnet",
+        "/aspnet/core"
+      ],
       "build_entry_point": "docs",
       "template_folder": "_themes",
       "version": 0
     }
-  ],
-  "xref_query_tags": [
-    "/dotnet",
-    "/aspnet/core"
   ],
   "notification_subscribers": [],
   "sync_notification_subscribers": [],
