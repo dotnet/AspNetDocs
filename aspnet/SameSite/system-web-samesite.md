@@ -60,7 +60,7 @@ ASP.Net also issues four specific cookies of its own for these features: Anonymo
 
 <a name="retargeting"></a>
 
-### Re-target .NET apps
+### Retarget .NET apps
 
 To target .NET 4.7.2 or later:
 
@@ -94,7 +94,7 @@ version by examining the *packages.config* file, for example:
 
   In the preceding *packages.config* file, the `Microsoft.ApplicationInsights` package:
     * Is  targeted against .NET 4.5.1.
-    * Should have its `targetFramework` attribute updated to `net472` if an updated package targeting your the framework target exists.
+    * Should have its `targetFramework` attribute updated to `net472` if an updated package targeting your framework target exists.
 
 <a name="nope"></a>
 
@@ -122,9 +122,9 @@ The default SameSite value for forms authentication and session state cookies wa
 If you install the patch and issue a cookie with `SameSite.None`, one of two things will happen:
 * Chrome v80 will treat this cookie according to the new implementation, and not enforce same site restrictions on the cookie.
 * Any browser that has not been updated to support the new implementation will follow the old implementation. The old implementation says:
-  * If you see a value you don't understand ignore it and switch to strict same site restrictions.
+  * If you see a value you don't understand, ignore it and switch to strict same site restrictions.
 
-So either the app breaks in Chrome, or you break in a lot of other places.
+So either the app breaks in Chrome, or you break in numerous other places.
 
 ## History and changes
 
