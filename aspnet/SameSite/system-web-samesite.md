@@ -187,6 +187,11 @@ See the following ASP.NET 4.7.2 SameSite cookie topics:
 * [VB WebForms](xref:samesite/vbwf)
 * [VB MVC](xref:samesite/vbmvc)
 
+* <xref:samesite/csmvc>
+* <xref:samesite/csharpwebforms>
+* <xref:samesite/vbwf>
+* <xref:samesite/vbmvc>
+
 ### Ensuring your site redirects to HTTPS
 
 For ASP.NET 4.x, WebForms and MVC, [IIS's URL Rewrite](/iis/extensions/url-rewrite-module/creating-rewrite-rules-for-the-url-rewrite-module) feature can be used to redirect all requests to HTTPS. The following XML shows a sample rule:
