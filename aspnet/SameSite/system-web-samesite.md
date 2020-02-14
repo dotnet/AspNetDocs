@@ -9,10 +9,6 @@ uid: samesite/system-web-samesite
 
 # Work with SameSite cookies in ASP.NET
 
-https://docs.microsoft.com/en-us/iis/extensions/url-rewrite-module/creating-rewrite-rules-for-the-url-rewrite-module
-
-/visualstudio/msbuild/msbuild-target-framework-and-target-platform?view=vs-2019
-
 By [Rick Anderson](https://twitter.com/RickAndMSFT)
 
 SameSite is an [IETF](https://ietf.org/about/) draft standard designed to provide some protection against cross-site request forgery (CSRF) attacks. Originally drafted in [2016](https://tools.ietf.org/html/draft-west-first-party-cookies-07), the draft standard was updated in [2019](https://tools.ietf.org/html/draft-west-cookie-incrementalism-00). The updated standard is not backward compatible with the previous standard, with the following being the most noticeable differences:
@@ -182,7 +178,7 @@ How you wire up the detection varies according the version of .NET and the web f
 
 ### Ensuring your site redirects to HTTPS
 
-For ASP.NET 4.x, WebForms and MVC, [IIS's URL Rewrite](https://docs.microsoft.com/en-us/iis/extensions/url-rewrite-module/creating-rewrite-rules-for-the-url-rewrite-module) feature can be used to redirect all requests to HTTPS. The following XML shows a sample rule:
+For ASP.NET 4.x, WebForms and MVC, [IIS's URL Rewrite](/iis/extensions/url-rewrite-module/creating-rewrite-rules-for-the-url-rewrite-module) feature can be used to redirect all requests to HTTPS. The following XML shows a sample rule:
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
@@ -291,6 +287,6 @@ Update *web.config* to include the following configuration settings:
 * [Chromium Blog:Developers: Get Ready for New SameSite=None; Secure Cookie Settings](https://blog.chromium.org/2019/10/developers-get-ready-for-new.html)
 * [SameSite cookies explained](https://web.dev/samesite-cookies-explained/)
 * [Chrome Updates](https://www.chromium.org/updates/same-site)
-* [.NET SameSite Patches](https://docs.microsoft.com/en-us/aspnet/samesite/kbs-samesite)
+* [.NET SameSite Patches](/aspnet/samesite/kbs-samesite)
 * [Azure Web Applications Same Site Information](https://azure.microsoft.com/en-us/updates/app-service-samesite-cookie-update/)
-* [Azure ActiveDirectory Same Site Information](https://docs.microsoft.com/en-us/azure/active-directory/develop/howto-handle-samesite-cookie-changes-chrome-browser)
+* [Azure ActiveDirectory Same Site Information](/azure/active-directory/develop/howto-handle-samesite-cookie-changes-chrome-browser)
