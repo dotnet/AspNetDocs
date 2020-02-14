@@ -96,6 +96,9 @@ version by examining the *packages.config* file, for example:
     * Is  targeted against .NET 4.5.1.
     * Should have its `targetFramework` attribute updated to `net472` if an updated package targeting your the framework target exists.
 
+<a name="nope"></a>
+
+### .NET versions earlier than 4.7.2
 
 Microsoft does not support .NET versions lower that 4.7.2 for writing the same-site cookie attribute. We have not found a reliable way to:
 
@@ -288,5 +291,5 @@ Update *web.config* to include the following configuration settings:
 * [SameSite cookies explained](https://web.dev/samesite-cookies-explained/)
 * [Chrome Updates](https://www.chromium.org/updates/same-site)
 * [.NET SameSite Patches](/aspnet/samesite/kbs-samesite)
-* [Azure Web Applications Same Site Information](https://azure.microsoft.com/en-us/updates/app-service-samesite-cookie-update/)
+* [Azure Web Applications Same Site Information](https://azure.microsoft.com/updates/app-service-samesite-cookie-update/)
 * [Azure ActiveDirectory Same Site Information](/azure/active-directory/develop/howto-handle-samesite-cookie-changes-chrome-browser)
