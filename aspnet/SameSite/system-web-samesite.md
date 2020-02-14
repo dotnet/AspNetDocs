@@ -301,6 +301,7 @@ Update *web.config* to include the following configuration settings:
 ## Additional resources
 
 * [Upcoming SameSite Cookie Changes in ASP.NET and ASP.NET Core](https://devblogs.microsoft.com/aspnet/upcoming-samesite-cookie-changes-in-asp-net-and-asp-net-core/)
+* [Tips for testing and debugging SameSite-by-default and “SameSite=None; Secure” cookies](https://www.chromium.org/updates/same-site/test-debug)
 * [Chromium Blog:Developers: Get Ready for New SameSite=None; Secure Cookie Settings](https://blog.chromium.org/2019/10/developers-get-ready-for-new.html)
 * [SameSite cookies explained](https://web.dev/samesite-cookies-explained/)
 * [Chrome Updates](https://www.chromium.org/updates/same-site)
