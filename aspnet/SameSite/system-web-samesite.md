@@ -182,15 +182,16 @@ How you wire up the detection varies according the version of .NET and the web f
 
 See the following ASP.NET 4.7.2 SameSite cookie topics:
 
-* [C# MVC](xref:samesite/csmvc)
-* [C# WebForms](xref:samesite/csharpwebforms)
-* [VB WebForms](xref:samesite/vbwf)
-* [VB MVC](xref:samesite/vbmvc)
-
-* <xref:samesite/csmvc>
-* <xref:samesite/csharpwebforms>
-* <xref:samesite/vbwf>
-* <xref:samesite/vbmvc>
+* [C# MVC](xref:samesite/csMVC)
+* [C# WebForms](xref:samesite/CSharpWebForms)
+* [VB WebForms](xref:samesite/vbWF)
+* [VB MVC](xref:samesite/vbMVC)
+<!--
+* <xref:samesite/csMVC>
+* <xref:samesite/CSharpWebForms>
+* <xref:samesite/vbWF>
+* <xref:samesite/vbMVC>
+-->
 
 ### Ensuring your site redirects to HTTPS
 
