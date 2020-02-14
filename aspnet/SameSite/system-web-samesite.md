@@ -107,9 +107,10 @@ Microsoft does not support .NET versions lower that 4.7.2 for writing the same-s
 
 ### December patch behavior changes
 
-The specific behavior change for .NET Framework is how the `SameSite` property interprets the `None` value.
+The specific behavior change for .NET Framework is how the `SameSite` property interprets the `None` value:
 
-* Before the patch a value of `None` meant "Do not emit the attribute at all".
+* Before the patch a value of `None` meant:
+  * Do not emit the attribute at all.
 * After the patch:
   * A value of `None`it means "Emit the attribute with a value of `None`".
   * A `SameSite` value of `(SameSiteMode)(-1)` causes the attribute not to be emitted.
@@ -178,6 +179,13 @@ These detections are the most common browser agents we have seen that support th
 How you wire up the detection varies according the version of .NET and the web framework that you are using. The following code can be called at the <xref:HTTP.HttpCookie> call site:
 
 [!code-csharp[](sample/SameSiteCheck.cs?name=snippet)]
+
+See the following ASP.NET 4.7.2 SameSite cookie topics:
+
+* [C# MVC](xref:samesite/csmvc)
+* [C# WebForms](xref:samesite/csharpwebforms)
+* [VB WebForms](xref:samesite/vbwf)
+* [VB MVC](xref:samesite/vbmvc)
 
 ### Ensuring your site redirects to HTTPS
 
