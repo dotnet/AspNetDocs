@@ -35,9 +35,6 @@
     ],
     "overwrite": [],
     "externalReference": [],
-    "xrefService": [
-      "https://xref.docs.microsoft.com/query?uid={uid}"
-    ],
     "globalMetadata": {
       "_navPath": "/foo",
       "_navRel": "/foo",
