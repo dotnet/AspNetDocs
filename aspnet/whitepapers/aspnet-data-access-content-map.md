@@ -129,7 +129,7 @@ The following resources are older. They are useful if you want to use version 4.
 ### Handling Concurrency in an Entity Framework Application
 
 - [Handling Concurrency with the Entity Framework in an ASP.NET MVC Application](../mvc/overview/getting-started/getting-started-with-ef-using-mvc/handling-concurrency-with-the-entity-framework-in-an-asp-net-mvc-application.md). Code First, DbContext API, using an MVC sample application.
-- [Data Developer Center – Optimistic Concurrency Patterns](https://msdn.microsoft.cus/data/jj592904) (MSDN). The Entity Framework team's concurrency documentation.
+- [Data Developer Center – Optimistic Concurrency Patterns](https://msdn.microsoft.com/data/jj592904) (MSDN). The Entity Framework team's concurrency documentation.
 - [Handling Concurrency with the Entity Framework in an ASP.NET Web Application](../web-forms/overview/older-versions-getting-started/continuing-with-ef/handling-concurrency-with-the-entity-framework-in-an-asp-net-web-application.md). Applies to Entity Framework 4.0. Database First, ObjectContext API, using a Web Forms sample application.
 
 <a id="efrepository"></a><a id="efbooks"></a>
