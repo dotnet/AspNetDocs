@@ -10,8 +10,8 @@ Articles are stored in the repository as Markdown files. Simple changes to the c
 
 You need a basic understanding of [Git and GitHub.com](https://guides.github.com/activities/hello-world/).
 
-* Open an [issue](https://github.com/aspnet/AspNetDocs/issues/new) describing what you want to do, such as changing an existing article or creating a new one. We often request an outline for a new topic suggestion. Wait for approval from the team before you invest much time.
-* Fork the [aspnet/AspNetDocs](https://github.com/aspnet/AspNetDocs/) repository and create a branch for your changes.
+* Open an [issue](https://github.com/dotnet/AspNetDocs/issues/new) describing what you want to do, such as changing an existing article or creating a new one. We often request an outline for a new topic suggestion. Wait for approval from the team before you invest much time.
+* Fork the [dotnet/AspNetDocs](https://github.com/dotnet/AspNetDocs/) repository and create a branch for your changes.
 * Submit a PR to master with your changes.
 * If your PR has the label 'cla-required' assigned, [complete the Contribution License Agreement (CLA)](https://cla.dotnetfoundation.org/).
 * Respond to PR feedback.
@@ -28,7 +28,7 @@ Articles are written in [DocFx-flavored Markdown](https://dotnet.github.io/docfx
 
 ## Folder structure conventions
 
-For each Markdown file, a folder for images and a folder for sample code may exist. If the article is [signalr/overview/advanced/dependency-injection.md](https://github.com/aspnet/AspNetDocs/blob/master/aspnet/signalr/overview/advanced/dependency-injection.md), the images are in [signalr/overview/advanced/dependency-injection/\_static](https://github.com/aspnet/AspNetDocs/tree/master/aspnet/signalr/overview/advanced/dependency-injection/_static) and the sample app project files are in [signalr/overview/advanced/dependency-injection/samples](https://github.com/aspnet/AspNetDocs/tree/master/aspnet/signalr/overview/advanced/dependency-injection/samples). An image in the *signalr/overview/advanced/dependency-injection.md* file is rendered by the following Markdown:
+For each Markdown file, a folder for images and a folder for sample code may exist. If the article is [signalr/overview/advanced/dependency-injection.md](https://github.com/dotnet/AspNetDocs/blob/master/aspnet/signalr/overview/advanced/dependency-injection.md), the images are in [signalr/overview/advanced/dependency-injection/\_static](https://github.com/dotnet/AspNetDocs/tree/master/aspnet/signalr/overview/advanced/dependency-injection/_static) and the sample app project files are in [signalr/overview/advanced/dependency-injection/samples](https://github.com/dotnet/AspNetDocs/tree/master/aspnet/signalr/overview/advanced/dependency-injection/samples). An image in the *signalr/overview/advanced/dependency-injection.md* file is rendered by the following Markdown:
 
 ```md
 ![description of image for alt attribute](dependency-injection/_static/image1.png)
@@ -157,4 +157,4 @@ The [Microsoft Writing Style Guide](https://docs.microsoft.com/style-guide/welco
 
 ## Redirects
 
-If you delete an article, change its file name, or move it to a different folder, create a redirect so that people who bookmarked the article don't receive a *404 Not Found* error. Add redirects to the [master redirect file](https://github.com/aspnet/AspNetDocs/blob/master/.openpublishing.redirection.json).
+If you delete an article, change its file name, or move it to a different folder, create a redirect so that people who bookmarked the article don't receive a *404 Not Found* error. Add redirects to the [master redirect file](https://github.com/dotnet/AspNetDocs/blob/master/.openpublishing.redirection.json).
