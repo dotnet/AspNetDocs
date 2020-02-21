@@ -13,7 +13,7 @@ msc.type: authoredcontent
 
 by [Mike Wasson](https://github.com/MikeWasson) and [Rick Anderson](https://twitter.com/RickAndMSFT)
 
-[Download Completed Project](https://github.com/aspnet/AspNetDocs/tree/master/aspnet/web-api/overview/advanced/calling-a-web-api-from-a-net-client/sample). [Download instructions](/aspnet/core/tutorials/#how-to-download-a-sample). 
+[Download Completed Project](https://github.com/dotnet/AspNetDocs/tree/master/aspnet/web-api/overview/advanced/calling-a-web-api-from-a-net-client/sample). [Download instructions](/aspnet/core/tutorials/#how-to-download-a-sample). 
 
 This tutorial shows how to call a web API from a .NET application, using [System.Net.Http.HttpClient.](https://msdn.microsoft.com/library/system.net.http.httpclient(v=vs.110).aspx)
 
@@ -159,7 +159,7 @@ Like GET, a DELETE request does not have a request body. You don't need to speci
 
 To test the client app:
 
-1. [Download](https://github.com/aspnet/AspNetDocs/tree/master/aspnet/web-api/overview/advanced/calling-a-web-api-from-a-net-client/sample/server) and run the server app. [Download instructions](/aspnet/core/#how-to-download-a-sample). Verify the server app is working. For example, `http://localhost:64195/api/products` should return a list of products.
+1. [Download](https://github.com/dotnet/AspNetDocs/tree/master/aspnet/web-api/overview/advanced/calling-a-web-api-from-a-net-client/sample/server) and run the server app. [Download instructions](/aspnet/core/#how-to-download-a-sample). Verify the server app is working. For example, `http://localhost:64195/api/products` should return a list of products.
 2. Set the base URI for HTTP requests. Change the port number to the port used in the server app.
     [!code-csharp[Main](calling-a-web-api-from-a-net-client/sample/client/Program.cs?name=snippet5&highlight=2)]
 
