@@ -39,6 +39,7 @@
       "_navPath": "/foo",
       "_navRel": "/foo",
       "breadcrumb_path": "/aspnet/breadcrumb/toc.json",
+      "extendBreadcrumb": true,
       "ms.prod": "aspnet-framework",
       "ms.topic": "conceptual",
       "uhfHeaderId": "MSDocsHeader-DotNet",
