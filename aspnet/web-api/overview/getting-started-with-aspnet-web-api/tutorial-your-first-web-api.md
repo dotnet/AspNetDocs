@@ -131,7 +131,7 @@ There are several ways to get jQuery. In this example, I used the [Microsoft Aja
 
 To get a list of products, send an HTTP GET request to &quot;/api/products&quot;.
 
-The jQuery [getJSON](http://api.jquery.com/jQuery.getJSON/) function sends an AJAX request. For response contains array of JSON objects. The `done` function specifies a callback that is called if the request succeeds. In the callback, we update the DOM with the product information.
+The jQuery [getJSON](http://api.jquery.com/jQuery.getJSON/) function sends an AJAX request. The response contains array of JSON objects. The `done` function specifies a callback that is called if the request succeeds. In the callback, we update the DOM with the product information.
 
 [!code-html[Main](tutorial-your-first-web-api/samples/sample4.html)]
 
