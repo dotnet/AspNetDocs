@@ -159,7 +159,7 @@ If you enter an invalid ID, the server returns an HTTP error:
 
 ## Using F12 to View the HTTP Request and Response
 
-When you are working with an HTTP service, it can be very useful to see the HTTP request and request messages. You can do this by using the F12 developer tools in Internet Explorer 9. From Internet Explorer 9, press **F12** to open the tools. Click the **Network** tab and press **Start Capturing**. Now go back to the web page and press **F5** to reload the web page. Internet Explorer will capture the HTTP traffic between the browser and the web server. The summary view shows all the network traffic for a page:
+When you are working with an HTTP service, it can be very useful to see the HTTP request and response messages. You can do this by using the F12 developer tools in Internet Explorer 9. From Internet Explorer 9, press **F12** to open the tools. Click the **Network** tab and press **Start Capturing**. Now go back to the web page and press **F5** to reload the web page. Internet Explorer will capture the HTTP traffic between the browser and the web server. The summary view shows all the network traffic for a page:
 
 ![](tutorial-your-first-web-api/_static/image14.png)
 
