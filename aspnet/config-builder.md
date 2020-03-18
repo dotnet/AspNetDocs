@@ -21,6 +21,25 @@ Configuration builders:
 * Address some of the basic needs of apps as they move into a container and cloud focused environment.
 * Can be used to improve protection of configuration data by drawing from sources previously unavailable (for example, Azure Key Vault and environment variables) in the .NET configuration system.
 
+
+### V2 Update:
+Version 2 is here with some new features:
+  * Azure App Configuration Support - There is a [new builder](#azureappconfigurationbuilder) for drawing values from the new Azure App Configuration service.
+  * ConfigBuilder Parameters from AppSettings - This has been one of the most asked for features of these config builders. With V2, it is now possible to
+		read initialization parameters for config builders from `appSettings`. Read more about it [here](#appsettings-parameters).
+  * Lazy Initialization - As part of the work to enable pulling config parameters from `appSettings`, these key/value configuration builders now support a
+		lazy initialization model. Things that must happen immediately can be left in the existing `Initialize(name, config)` method, or builders can leverage
+		the new `LazyInitialize(name, config)` method for things that can happen just before retrieving values. All builders in this project have been updated to
+		be lazy whenever possible.
+  * Updateable Keys - Builders can now massage key names before inserting into config. The [AzureKeyVaultConfigBuilder](#azurekeyvaultconfigbuilder) has been
+		updated to use this feature to allow embedding 'version' tags in key names instead of applying a single 'version' tag to the builder.  (Note: This is
+		seperate from, and performed *after* prefix stripping.)
+  * Base Optional Tag - The [optional](#optional) tag that some of the builders in this project employed in V1 has been moved into the base class and is now available
+		on all key/value config builders.
+  * Escaping Expanded Values - It is possible to xml-escape inserted values in `Expand` mode now using the new [escapeExpandedValues](#escapeexpandedvalues) attribute.
+  * Section Handlers - This feature allows users to develop extensions that will apply key/value config to sections other than `appSettings` and `connectionStrings`
+		if desired. Read more about this feature in the [Section Handlers](#section-handlers) segment below.
+
 ## Key/value configuration builders
 
 A common scenario that can be handled by configuration builders is to provide a basic key/value replacement mechanism for configuration sections that follow a key/value pattern. The .NET Framework concept of ConfigurationBuilders is not limited to specific configuration sections or patterns. However, many of the configuration builders in `Microsoft.Configuration.ConfigurationBuilders` ([github](https://github.com/aspnet/MicrosoftConfigurationBuilders), [NuGet](https://www.nuget.org/packages?q=Microsoft.Configuration.ConfigurationBuilders)) work within the key/value pattern.
@@ -210,22 +229,19 @@ The secrets file has the following format:
 
 ```xml
 <add name="AzureKeyVault"
-    [mode|prefix|stripPrefix|tokenPattern]
-    (vaultName="MyVaultName" |
-     uri="https:/MyVaultName.vault.azure.net")
-    [connectionString="connection string"]
-    [version="secrets version"]
-    [preloadSecretNames="true"]
-    type="Microsoft.Configuration.ConfigurationBuilders.AzureKeyVaultConfigBuilder,
-    Microsoft.Configuration.ConfigurationBuilders.Azure" />
+    [mode|@prefix|@stripPrefix|tokenPattern|@escapeExpandedValues|@optional=false]
+    (@vaultName="MyVaultName" | @uri="https://MyVaultName.vault.azure.net")
+    [@version="secrets version"]
+    [@preloadSecretNames="true"]
+    type="Microsoft.Configuration.ConfigurationBuilders.AzureKeyVaultConfigBuilder, Microsoft.Configuration.ConfigurationBuilders.Azure" />
 ```
 
 The [AzureKeyVaultConfigBuilder](https://www.nuget.org/packages/Microsoft.Configuration.ConfigurationBuilders.Azure/) reads values stored in the [Azure Key Vault](/azure/key-vault/key-vault-whatis).
 
-`vaultName` is required (either the name of the vault or a URI to the vault). The other attributes allow control about which vault to connect to, but are only necessary if the application is not running in an environment that works with `Microsoft.Azure.Services.AppAuthentication`. The Azure Services Authentication library is used to automatically pick up connection information from the execution environment if possible. You can override automatically pick up of connection information by providing a connection string.
+`vaultName` is required (either the name of the vault or a URI to the vault). The other attributes allow control about which vault to connect to, but are only necessary if the application is not running in an environment that works with `Microsoft.Azure.Services.AppAuthentication`. The Azure Services Authentication library is used to automatically pick up connection information from the execution environment if possible. You can override automatically pick up of connection information by providing a connection string.  Previous iterations of this config builder allowed for a `connectionString` as a way to supply credential information for connecting to Azure Key Vault. This method is no longer allowed as it is not a supported scenario for the current `Azure.Identity` SDK which is used for connecting to Azure services. Instead, this iteration of the config builder exclusively uses [DefaultAzureCredential](https://docs.microsoft.com/en-us/dotnet/api/azure.identity.defaultazurecredential) from the `Azure.Identity` package to handle credentials for connecting to Azure Key Vault.
 
 * `vaultName` - Required if `uri` in not provided. Specifies the name of the vault in your Azure subscription from which to read key/value pairs.
-* `connectionString` - A connection string usable by [AzureServiceTokenProvider](https://docs.microsoft.com/azure/key-vault/service-to-service-authentication#connection-string-support)
+* `connectionString` - Obsolete, Error.
 * `uri` - Connects to other Key Vault providers with the specified `uri` value. If not specified, Azure (`vaultName`) is the vault provider.
 * `version` - Azure Key Vault provides a versioning feature for secrets. If `version` is specified, the builder only retrieves secrets matching this version.
 * `preloadSecretNames` - By default, this builder querys **all** key names in the key vault when it is initialized. To prevent reading all key values, set this attribute to `false`. Setting this to `false` reads secrets one at a time. Reading secrets one at a time can useful if the vault allows "Get" access but not "List" access. **Note:** When using `Greedy` mode, `preloadSecretNames` must be `true` (the default.)
