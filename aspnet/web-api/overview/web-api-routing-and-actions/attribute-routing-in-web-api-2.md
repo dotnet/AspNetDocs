@@ -30,7 +30,7 @@ Alternatively, use NuGet Package Manager to install the necessary packages. From
 <a id="why"></a>
 ## Why Attribute Routing?
 
-The first release of Web API used *convention-based* routing. In that type of routing, you define one or more route templates, which are basically parameterized strings. When the framework receives a request, it matches the URI against the route template. (For more information about convention-based routing, see [Routing in ASP.NET Web API](routing-in-aspnet-web-api.md)).
+The first release of Web API used *convention-based* routing. In that type of routing, you define one or more route templates, which are basically parameterized strings. When the framework receives a request, it matches the URI against the route template. For more information about convention-based routing, see [Routing in ASP.NET Web API](routing-in-aspnet-web-api.md).
 
 One advantage of convention-based routing is that templates are defined in a single place, and the routing rules are applied consistently across all controllers. Unfortunately, convention-based routing makes it hard to support certain URI patterns that are common in RESTful APIs. For example, resources often contain child resources: Customers have orders, movies have actors, books have authors, and so forth. It's natural to create URIs that reflect these relations:
 
