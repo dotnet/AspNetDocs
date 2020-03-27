@@ -20,7 +20,7 @@ Today there's no easy way in Web API to log or handle errors globally. Some unha
 1. Exceptions thrown from controller constructors.
 2. Exceptions thrown from message handlers.
 3. Exceptions thrown during routing.
-4. Exceptions thrown during response content serialization .
+4. Exceptions thrown during response content serialization.
 
 We want to provide a simple, consistent way to log and handle (where possible) these exceptions. 
 
@@ -30,7 +30,7 @@ There are two major cases for handling exceptions, the case where we are able to
 
 ### Existing Options
 
-In addition to [exception filters](exception-handling.md), [message handlers](../advanced/http-message-handlers.md) can be used today to observe all 500-level responses, but acting on those responses is difficult, as they lack context about the original error. Message handlers also have some of the same limitations as exception filters regarding the cases they can handle.While Web API does have tracing infrastructure that captures error conditions the tracing infrastructure is for diagnostics purposes and is not designed or suited for running in production environments. Global exception handling and logging should be services that can run during production and be plugged into existing monitoring solutions (for example, [ELMAH](https://code.google.com/p/elmah/) ).
+In addition to [exception filters](exception-handling.md), [message handlers](../advanced/http-message-handlers.md) can be used today to observe all 500-level responses, but acting on those responses is difficult, as they lack context about the original error. Message handlers also have some of the same limitations as exception filters regarding the cases they can handle. While Web API does have tracing infrastructure that captures error conditions the tracing infrastructure is for diagnostics purposes and is not designed or suited for running in production environments. Global exception handling and logging should be services that can run during production and be plugged into existing monitoring solutions (for example, [ELMAH](https://code.google.com/p/elmah/)).
 
 ### Solution Overview
 
@@ -97,25 +97,25 @@ For exceptions at the top of the call stack, we took an extra step to ensure the
 1. OWIN hosted Web API with custom exception handling middleware registered before/outside Web API.
 2. Local debugging via a browser, where the yellow screen of death is actually a helpful response for an unhandled exception.
 
-For both exception loggers and exception handlers, we don't do anything to recover if the logger or handler itself throws an exception. (Other than letting the exception propagate, leave feedback at the bottom of this page if you have a better approach.) The contract for exception loggers and handlers is that they should not let exceptions propagate up to their callers; otherwise, the exception will just propagate, often all the way to the host resulting in an HTML error (like the ASP.NET's yellow screen) being sent back to the client (which usually isn't the preferred option for API callers that expect JSON or XML).
+For both exception loggers and exception handlers, we don't do anything to recover if the logger or handler itself throws an exception. (Other than letting the exception propagate, leave feedback at the bottom of this page if you have a better approach.) The contract for exception loggers and handlers is that they should not let exceptions propagate up to their callers; otherwise, the exception will just propagate, often all the way to the host resulting in an HTML error (like ASP.NET's yellow screen) being sent back to the client (which usually isn't the preferred option for API callers that expect JSON or XML).
 
 ## Examples
 
 ### Tracing Exception Logger
 
-The exception logger below send exception data to configured Trace sources (including the Debug output window in Visual Studio).
+The exception logger below sends exception data to configured Trace sources (including the Debug output window in Visual Studio).
 
 [!code-csharp[Main](web-api-global-error-handling/samples/sample6.cs)]
 
 ### Custom Error Message Exception Handler
 
-The following below produces a custom error response to clients, including an email address for contacting support.
+The exception handler below produces a custom error response to clients, including an email address for contacting support.
 
 [!code-csharp[Main](web-api-global-error-handling/samples/sample7.cs)]
 
 ## Registering Exception Filters
 
-If you use the "ASP.NET MVC 4 Web Application" project template to create your project, put your Web API configuration code inside the `WebApiConfig` class, in the *App/_Start* folder:
+If you use the "ASP.NET MVC 4 Web Application" project template to create your project, put your Web API configuration code inside the `WebApiConfig` class, in the *App_Start* folder:
 
 [!code-csharp[Main](exception-handling/samples/sample7.cs?highlight=5)]
 
