@@ -6,7 +6,6 @@ description: "ASP.NET WebHooks receivers"
 ms.author: riande
 ms.date: 01/17/2012
 ms.assetid: 6cdea089-15b2-4732-8c68-921ca561a8f1
-uid: webhooks/receiving/receivers
 ---
 # ASP.NET WebHooks receivers
 
