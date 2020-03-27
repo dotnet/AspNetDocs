@@ -6,7 +6,6 @@ description: "Articles about ASP.NET WebHooks Diagnostics"
 ms.author: riande
 ms.date: 10/14/2016
 ms.assetid: b5f3d8b0-6964-47a4-954e-c7722e88707b
-uid: webhooks/diagnostics/index
 ---
 # ASP.NET WebHooks Diagnostics
 
