@@ -4,7 +4,7 @@
   items:
   - name: ASP.NET
     tocHref: /aspnet/
-    topicHref: /aspnet/index
+    topicHref: /aspnet/core/
     items:
     - name: ASP.NET 4.x
       tocHref: /aspnet/
