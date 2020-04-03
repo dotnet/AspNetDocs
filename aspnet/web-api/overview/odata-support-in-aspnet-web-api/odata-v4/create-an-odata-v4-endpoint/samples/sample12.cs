@@ -7,5 +7,5 @@ public async Task<IHttpActionResult> Delete([FromODataUri] int key)
     }
     db.Products.Remove(product);
     await db.SaveChangesAsync();
-    return StatusCode(HttpStatusCode.NoContent);
+    return NoContent();
 }
