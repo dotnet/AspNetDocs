@@ -2,9 +2,9 @@
   tocHref: /
   topicHref: /
   items:
-  - name: ASP.NET
-    tocHref: /aspnet/
-    topicHref: /aspnet/core/
+  - name: .NET
+    tocHref: /dotnet/
+    topicHref: /dotnet/index
     items:
     - name: ASP.NET 4.x
       tocHref: /aspnet/
