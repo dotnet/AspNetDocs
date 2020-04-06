@@ -1,7 +1,7 @@
 ---
 uid: mvc/videos/mvc-2/how-do-i/mvc2-template-customization
 title: "MVC2 - Template Customization | Microsoft Docs"
-author: microsoft
+author: rick-anderson
 description: "In this video you will learn about the template customization features in ASP.NET MVC 2. We'll look at Html.EditorForModel, Html.DisplayForModel, Model Templ..."
 ms.author: riande
 ms.date: 03/23/2010

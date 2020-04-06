@@ -1,7 +1,7 @@
 ---
 uid: web-forms/videos/how-do-i/how-do-i-create-a-multi-lingual-site-with-localization
 title: "[How Do I:] Create a Multi-Lingual Site with Localization? | Microsoft Docs"
-author: microsoft
+author: rick-anderson
 description: "Learn how to create culture-aware and locale-specific web content with no additional code. Use the Resource Editor to create page-level and application-level..."
 ms.author: riande
 ms.date: 01/06/2006

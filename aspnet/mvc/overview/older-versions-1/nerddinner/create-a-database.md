@@ -1,7 +1,7 @@
 ---
 uid: mvc/overview/older-versions-1/nerddinner/create-a-database
 title: "Create a Database | Microsoft Docs"
-author: microsoft
+author: rick-anderson
 description: "Step 2 shows the steps to create the database holding all of the dinner and RSVP data for our NerdDinner application."
 ms.author: riande
 ms.date: 07/27/2010

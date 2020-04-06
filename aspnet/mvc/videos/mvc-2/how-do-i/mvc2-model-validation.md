@@ -1,7 +1,7 @@
 ---
 uid: mvc/videos/mvc-2/how-do-i/mvc2-model-validation
 title: "MVC2 - Model Validation | Microsoft Docs"
-author: microsoft
+author: rick-anderson
 description: "In this video you will learn about how to use Data Annotation Attributes to define your validation rules, and how to enable client-side (AJAX) validation."
 ms.author: riande
 ms.date: 03/23/2010

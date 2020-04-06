@@ -1,7 +1,7 @@
 ---
 uid: mvc/overview/older-versions-1/views/creating-page-layouts-with-view-master-pages-vb
 title: "Creating Page Layouts with View Master Pages (VB) | Microsoft Docs"
-author: microsoft
+author: rick-anderson
 description: "In this tutorial, you learn how to create a common page layout for multiple pages in your application by taking advantage of view master pages. You can use a..."
 ms.author: riande
 ms.date: 10/16/2008

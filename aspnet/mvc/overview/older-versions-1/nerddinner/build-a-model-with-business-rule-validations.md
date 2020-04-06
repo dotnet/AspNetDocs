@@ -1,7 +1,7 @@
 ---
 uid: mvc/overview/older-versions-1/nerddinner/build-a-model-with-business-rule-validations
 title: "Build a Model with Business Rule Validations | Microsoft Docs"
-author: microsoft
+author: rick-anderson
 description: "Step 3 shows how to create a model that we can use to both query and update the database for our NerdDinner application."
 ms.author: riande
 ms.date: 07/27/2010

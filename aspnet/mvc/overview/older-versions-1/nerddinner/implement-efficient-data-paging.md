@@ -1,7 +1,7 @@
 ---
 uid: mvc/overview/older-versions-1/nerddinner/implement-efficient-data-paging
 title: "Implement Efficient Data Paging | Microsoft Docs"
-author: microsoft
+author: rick-anderson
 description: "Step 8 shows how to add paging support to our /Dinners URL so that instead of displaying 1000s of dinners at once, we'll only display 10 upcoming dinners at..."
 ms.author: riande
 ms.date: 07/27/2010

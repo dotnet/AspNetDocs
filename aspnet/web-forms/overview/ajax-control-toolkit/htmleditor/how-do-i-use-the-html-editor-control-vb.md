@@ -1,7 +1,7 @@
 ---
 uid: web-forms/overview/ajax-control-toolkit/htmleditor/how-do-i-use-the-html-editor-control-vb
 title: "How do I use the HTML Editor Control? (VB) | Microsoft Docs"
-author: microsoft
+author: rick-anderson
 description: "HTMLEditor is an ASP.NET AJAX Control that allows you to easily create and edit HTML content via buttons in a toolbar."
 ms.author: riande
 ms.date: 05/12/2009

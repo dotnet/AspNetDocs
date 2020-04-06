@@ -1,7 +1,7 @@
 ---
 uid: web-forms/videos/migrating/intro-to-aspnet-20-aspnet-20-fundamentals
 title: "[Intro to ASP.NET 2.0:] ASP.NET 2.0 Fundamentals | Microsoft Docs"
-author: microsoft
+author: rick-anderson
 description: "Developers new to ASP.NET will want to attend this webcast designed to familiarize you with its essential features."
 ms.author: riande
 ms.date: 07/25/2006

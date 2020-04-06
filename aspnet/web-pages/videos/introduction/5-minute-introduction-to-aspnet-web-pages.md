@@ -1,7 +1,7 @@
 ---
 uid: web-pages/videos/introduction/5-minute-introduction-to-aspnet-web-pages
 title: "5 Minute Introduction to ASP.NET Web Pages | Microsoft Docs"
-author: microsoft
+author: rick-anderson
 description: ""
 ms.author: riande
 ms.date: 04/12/2011

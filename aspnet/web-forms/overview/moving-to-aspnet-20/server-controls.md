@@ -1,7 +1,7 @@
 ---
 uid: web-forms/overview/moving-to-aspnet-20/server-controls
 title: "Server Controls | Microsoft Docs"
-author: microsoft
+author: rick-anderson
 description: "ASP.NET 2.0 enhances server controls in many ways. In this module, we'll cover some of the architectural changes to the way ASP.NET 2.0 and Visual Studio 200..."
 ms.author: riande
 ms.date: 02/20/2005
