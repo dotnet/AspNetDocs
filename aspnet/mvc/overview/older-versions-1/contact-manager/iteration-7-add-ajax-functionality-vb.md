@@ -1,7 +1,7 @@
 ---
 uid: mvc/overview/older-versions-1/contact-manager/iteration-7-add-ajax-functionality-vb
 title: "Iteration #7 – Add Ajax functionality (VB) | Microsoft Docs"
-author: microsoft
+author: rick-anderson
 description: "In the seventh iteration, we improve the responsiveness and performance of our application by adding support for Ajax."
 ms.author: riande
 ms.date: 02/20/2009

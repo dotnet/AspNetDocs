@@ -1,7 +1,7 @@
 ---
 uid: web-forms/videos/how-do-i/how-do-i-customize-my-site-with-profiles-and-themes
 title: "[How Do I:] Customize my Site with Profiles and Themes? | Microsoft Docs"
-author: microsoft
+author: rick-anderson
 description: "Learn how to use Profiles to collect per-user configuration information and apply Themes to extend a consistent look-and-feel throughout the Web site."
 ms.author: riande
 ms.date: 01/06/2006

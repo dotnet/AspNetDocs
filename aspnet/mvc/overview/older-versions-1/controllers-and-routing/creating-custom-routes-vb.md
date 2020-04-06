@@ -1,7 +1,7 @@
 ---
 uid: mvc/overview/older-versions-1/controllers-and-routing/creating-custom-routes-vb
 title: "Creating Custom Routes (VB) | Microsoft Docs"
-author: microsoft
+author: rick-anderson
 description: "Learn how to add custom routes to an ASP.NET MVC application. In this tutorial, you learn how to modify the default route table in the Global.asax file."
 ms.author: riande
 ms.date: 02/16/2009

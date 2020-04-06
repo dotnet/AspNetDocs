@@ -1,7 +1,7 @@
 ---
 uid: mvc/overview/older-versions-1/contact-manager/iteration-3-add-form-validation-cs
 title: "Iteration #3 – Add form validation (C#) | Microsoft Docs"
-author: microsoft
+author: rick-anderson
 description: "In the third iteration, we add basic form validation. We prevent people from submitting a form without completing required form fields. We also validate emai..."
 ms.author: riande
 ms.date: 02/20/2009

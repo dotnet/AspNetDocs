@@ -1,7 +1,7 @@
 ---
 uid: web-forms/videos/migrating/interop-between-php-and-the-windows-platform
 title: "Interop between PHP and the Windows Platform | Microsoft Docs"
-author: microsoft
+author: rick-anderson
 description: "In this webcast, you will learn about building and running PHP applications on the Microsoft Windows Server operating systems."
 ms.author: riande
 ms.date: 07/25/2006

@@ -1,7 +1,7 @@
 ---
 uid: mvc/overview/releases/mvc51-release-notes
 title: "What's New in ASP.NET MVC 5.1 | Microsoft Docs"
-author: microsoft
+author: rick-anderson
 description: ""
 ms.author: riande
 ms.date: 02/27/2014

@@ -1,7 +1,7 @@
 ---
 uid: mvc/videos/mvc-2/how-do-i/mvc2-stronglytyped-helpers
 title: "MVC2 - StronglyTyped Helpers | Microsoft Docs"
-author: microsoft
+author: rick-anderson
 description: "In this video you will learn about how you can use strongly typed HTML Helpers to gain compile-type checking when creating HTML UI Elements."
 ms.author: riande
 ms.date: 03/23/2010

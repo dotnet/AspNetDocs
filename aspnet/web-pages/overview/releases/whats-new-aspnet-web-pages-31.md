@@ -1,7 +1,7 @@
 ---
 uid: web-pages/overview/releases/whats-new-aspnet-web-pages-31
 title: "What's New in ASP.NET Web Pages 3.1 | Microsoft Docs"
-author: microsoft
+author: rick-anderson
 description: ""
 ms.author: riande
 ms.date: 01/20/2014

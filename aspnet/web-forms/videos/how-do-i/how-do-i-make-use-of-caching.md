@@ -1,7 +1,7 @@
 ---
 uid: web-forms/videos/how-do-i/how-do-i-make-use-of-caching
 title: "[How Do I:] Make use of Caching? | Microsoft Docs"
-author: microsoft
+author: rick-anderson
 description: "Watch a demonstration of Page Output Caching followed by an overview of the new Database Caching support for SQL Server 2000 and SQL Server 2005."
 ms.author: riande
 ms.date: 01/16/2006

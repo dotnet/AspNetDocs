@@ -1,7 +1,7 @@
 ---
 uid: web-forms/videos/sql-2005/what-is-a-database
 title: "What is a Database? | Microsoft Docs"
-author: microsoft
+author: rick-anderson
 description: "This introduction covers the questions and terminology SQL Server beginners need to create and manage databases, such as: What is a SQL Server database? How..."
 ms.author: riande
 ms.date: 03/29/2006
