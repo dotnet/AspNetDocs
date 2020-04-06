@@ -107,7 +107,7 @@
     },
     {
       "source_path": "aspnet/webhooks/sending/index.md",
-      "redirect_url": "/webhooks/senders",
+      "redirect_url": "/webhooks/sending/senders",
       "redirect_document_id": false
     }
   ]
