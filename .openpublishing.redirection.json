@@ -1,29 +1,114 @@
 {
-    "redirections": [
-        {
-            "source_path": "aspnet/mvc/videos/mvc-1/aspnet-mvc-storefront/aspnet-mvc-mvc-storefront-part-19-processing-orders-with-windows-workflow.md",
-            "redirect_url": "/aspnet/mvc/videos/mvc-1/aspnet-mvc-storefront/aspnet-mvc-storefront-part-19-processing-orders-with-windows-workflow",
-            "redirect_document_id": false
-        },
-        {
-            "source_path": "aspnet/mvc/mvc5.md",
-            "redirect_url": "/aspnet/mvc/overview/getting-started/introduction/getting-started",
-            "redirect_document_id": false
-        },
-        {
-            "source_path": "aspnet/mobile/index.md",
-            "redirect_url": "/aspnet/mobile/overview",
-            "redirect_document_id": false
-        },
-        {
-            "source_path": "aspnet/mobile/device-simulators.md",
-            "redirect_url": "/aspnet/mobile/overview",
-            "redirect_document_id": false
-        },
-        {
-            "source_path": "aspnet/mvc/overview/getting-started/introduction/sample/code-location.md",
-            "redirect_url": "/aspnet/mvc/overview/getting-started/introduction/index",
-            "redirect_document_id": false
-        }
-    ]
+  "redirections": [
+    {
+      "source_path": "aspnet/mvc/videos/mvc-1/aspnet-mvc-storefront/aspnet-mvc-mvc-storefront-part-19-processing-orders-with-windows-workflow.md",
+      "redirect_url": "/aspnet/mvc/videos/mvc-1/aspnet-mvc-storefront/aspnet-mvc-storefront-part-19-processing-orders-with-windows-workflow",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "aspnet/mvc/mvc5.md",
+      "redirect_url": "/aspnet/mvc/overview/getting-started/introduction/getting-started",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "aspnet/mobile/index.md",
+      "redirect_url": "/aspnet/mobile/overview",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "aspnet/mobile/device-simulators.md",
+      "redirect_url": "/aspnet/mobile/overview",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "aspnet/mvc/overview/getting-started/introduction/sample/code-location.md",
+      "redirect_url": "/aspnet/mvc/overview/getting-started/introduction/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "aspnet/aspnet/index.md",
+      "redirect_url": "/aspnet/overview",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "aspnet/aspnet/overview/aspnet-and-mobile/aspnet-and-mobile.md",
+      "redirect_url": "https://channel9.msdn.com/Blogs/ASP-NET-Site-Videos/aspnet-and-mobile",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "aspnet/aspnet/overview/aspnet-and-mobile/index.md",
+      "redirect_url": "/aspnet/overview#mobile-apps-and-sites",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "aspnet/aspnet/overview/building-web-apis-with-aspnet/index.md",
+      "redirect_url": "/aspnet/overview#web-apis",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "aspnet/aspnet/overview/building-web-apis-with-aspnet/services-and-aspnet.md",
+      "redirect_url": "https://channel9.msdn.com/Blogs/ASP-NET-Site-Videos/services-and-aspnet",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "aspnet/aspnet/overview/developing-apps-with-windows-azure/index.md",
+      "redirect_url": "aspnet/overview/web-development-best-practices/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "aspnet/aspnet/overview/index.md",
+      "redirect_url": "/aspnet/overview",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "aspnet/aspnet/overview/making-websites-with-aspnet/index.md",
+      "redirect_url": "/aspnet/overview#websites-and-web-applications",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "aspnet/aspnet/overview/making-websites-with-aspnet/installing-aspnet-and-web-tools.md",
+      "redirect_url": "https://channel9.msdn.com/Blogs/ASP-NET-Site-Videos/installing-aspnet-and-web-tools",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "aspnet/aspnet/overview/making-websites-with-aspnet/making-websites-with-aspnet.md",
+      "redirect_url": "https://channel9.msdn.com/Blogs/ASP-NET-Site-Videos/making-websites-with-aspnet",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "aspnet/aspnet/overview/real-time-web-with-aspnet-signalr/index.md",
+      "redirect_url": "/aspnet/overview#real-time-technologies",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "aspnet/aspnet/overview/real-time-web-with-aspnet-signalr/signalr-and-the-real-time-web.md",
+      "redirect_url": "https://channel9.msdn.com/Blogs/ASP-NET-Site-Videos/signalr-and-the-real-time-web)",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "aspnet/aspnet/overview/visual-studio-web-development-features/index.md",
+      "redirect_url": "/aspnet/visual-studio/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "aspnet/aspnet/overview/visual-studio-web-development-features/what-is-web-tools.md",
+      "redirect_url": "https://channel9.msdn.com/Blogs/ASP-NET-Site-Videos/what-is-web-tools",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "aspnet/mvc/overview/getting-started/aspnet-mvc-facebook-birthday-app.md",
+      "redirect_url": "/aspnet/mvc/overview/getting-started/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "aspnet/visual-studio/overview/index.md",
+      "redirect_url": "https://visualstudio.microsoft.com/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "aspnet/webhooks/sending/index.md",
+      "redirect_url": "/webhooks/senders",
+      "redirect_document_id": false
+    }
+  ]
 }

@@ -201,7 +201,7 @@ Consider the following object models and controller.
 
 [!code-csharp[Main](json-and-xml-serialization/samples/sample17.cs)]
 
-Invoking this action will cause the formatter to thrown an exception, which translates to a status code 500 (Internal Server Error) response to the client.
+Invoking this action will cause the formatter to throw an exception, which translates to a status code 500 (Internal Server Error) response to the client.
 
 To preserve object references in JSON, add the following code to **Application\_Start** method in the Global.asax file:
 

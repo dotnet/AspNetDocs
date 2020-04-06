@@ -17,7 +17,7 @@ msc.type: content
 > 
 > It installs side-by-side with ASP.NET MVC 2, so get started using it today!
 > 
-> Download the [installer here](https://go.microsoft.com/fwlink/?LinkID=208140)
+> Download the [installer here](https://microsoft.com/download/details.aspx?id=4211)
 
 ## Top Features
 
