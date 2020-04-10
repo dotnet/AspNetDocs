@@ -11,29 +11,27 @@ msc.type: authoredcontent
 ---
 # OWIN OAuth 2.0 Authorization Server
 
-> This tutorial will guide you on how to implement an OAuth 2.0 Authorization Server using OWIN OAuth middleware. This is an advanced tutorial that only outlines the steps to create an OWIN OAuth 2.0 Authorization Server. This is not a step by step tutorial. [Download the sample code](https://code.msdn.microsoft.com/OWIN-OAuth-20-Authorization-ba2b8783/file/114932/1/AuthorizationServer.zip).	
->	
-> > [!NOTE]	
-> > This outline should not be intended to be used for creating a secure production app. This tutorial is intended to provide only an outline on how to implement an OAuth 2.0 Authorization Server using OWIN OAuth middleware.	
->	
->	
-> ## Software versions	
->	
-> | **Shown in the tutorial** | **Also works with** |	
-> | --- | --- |	
-> | Windows 8.1 | Windows 10, Windows 8, Windows 7 |	
-> | [Visual Studio 2017](https://visualstudio.microsoft.com/downloads/)	
-> | .NET 4.7.2 |  |	
->	
-> ## Questions and comments	
->	
-> If you have questions that are not directly related to the tutorial, you can post them at [Katana Project on GitHub](https://github.com/aspnet/AspNetKatana/). For questions and comments regarding the tutorial itself, see the comments section at the bottom of the page.
+This tutorial will guide you on how to implement an OAuth 2.0 Authorization Server using OWIN OAuth middleware. This is an advanced tutorial that only outlines the steps to create an OWIN OAuth 2.0 Authorization Server. This is not a step by step tutorial. [Download the sample code](https://code.msdn.microsoft.com/OWIN-OAuth-20-Authorization-ba2b8783/file/114932/1/AuthorizationServer.zip).	
+
+[!NOTE]	This outline should not be intended to be used for creating a secure production app. This tutorial is intended to provide only an outline on how to implement an OAuth 2.0 Authorization Server using OWIN OAuth middleware.	
+
+## Software versions	
+
+| **Shown in the tutorial** | **Also works with** |	
+| --- | --- |	
+| Windows 8.1 | Windows 10, Windows 8, Windows 7 |	
+| [Visual Studio 2017](https://visualstudio.microsoft.com/downloads/)	
+| .NET 4.7.2 |  |	
+
+## Questions and comments	
+
+If you have questions that are not directly related to the tutorial, you can post them at [Katana Project on GitHub](https://github.com/aspnet/AspNetKatana/). For questions and comments regarding the tutorial itself, see the comments section at the bottom of the page.
 
 The [OAuth 2.0 framework](http://tools.ietf.org/html/rfc6749) enables a third-party app to obtain limited access to an HTTP service. Instead of using the resource owner's credentials to access a protected resource, the client obtains an access token (which is a string denoting a specific scope, lifetime, and other access attributes). Access tokens are issued to third-party clients by an authorization server with the approval of the resource owner.
 
 OWIN defines a standard interface between .NET web servers and web applications. The goal of the OWIN interface is to decouple server and application, encourage the development of simple modules for .NET web development, and, by being an open standard, stimulate the open source ecosystem of .NET web development tools.
 
-This tutorial will cover:	OWIN defines a standard interface between .NET web servers and web applications. The goal of the OWIN interface is to decouple server and application, encourage the development of simple modules for .NET web development, and, by being an open standard, stimulate the open source ecosystem of .NET web development tools.
+This tutorial will cover:OWIN defines a standard interface between .NET web servers and web applications. The goal of the OWIN interface is to decouple server and application, encourage the development of simple modules for .NET web development, and, by being an open standard, stimulate the open source ecosystem of .NET web development tools.
 
 - How to create an authorization server to support four authorization grant types and refresh tokens:	
     - Authorization code grant	
@@ -43,7 +41,7 @@ This tutorial will cover:	OWIN defines a standard interface between .NET web ser
 - Creating a resource server which is protected by an access token.	
 - Creating OAuth 2.0 clients.	
 
-<a id="prerequisites"></a>	
+<a id="prerequisites"></a
 ## Prerequisites	
 
 - [Visual Studio 2017](https://visualstudio.microsoft.com/downloads/) as indicated in **Software Versions** at the top of the page.	
@@ -102,16 +100,16 @@ Review the IETF's OAuth 2 [Authorization Code Grant](http://tools.ietf.org/html/
 
 **Provider** (in the table below) is [OAuthAuthorizationServerOptions](https://msdn.microsoft.com/library/microsoft.owin.security.oauth.oauthauthorizationserveroptions(v=vs.111).aspx).Provider, which is of type `OAuthAuthorizationServerProvider`, which contains all OAuth server events.	
 
-| Flow steps from Authorization Code Grant section | Sample download performs these steps with: |	
-| --- | --- |	
-|  |  |	
-| (A) The client initiates the flow by directing the resource owner's user-agent to the authorization endpoint. The client includes its client identifier, requested scope, local state, and a redirection URI to which the authorization server will send the user-agent back once access is granted (or denied). | Provider.MatchEndpoint Provider.ValidateClientRedirectUri Provider.ValidateAuthorizeRequest Provider.AuthorizeEndpoint |	
-|  |  |	
-| (B) The authorization server authenticates the resource owner (via the user-agent) and establishes whether the resource owner grants or denies the client's access request. | **&lt;If user grants access&gt;** Provider.MatchEndpoint Provider.ValidateClientRedirectUri Provider.ValidateAuthorizeRequest Provider.AuthorizeEndpoint AuthorizationCodeProvider.CreateAsync |	
-|  |  |	
-| (C) Assuming the resource owner grants access, the authorization server redirects the user-agent back to the client using the redirection URI provided earlier (in the request or during client registration). ... |  |	
-|  |  |	
-| (D) The client requests an access token from the authorization server's token endpoint by including the authorization code received in the previous step. When making the request, the client authenticates with the authorization server. The client includes the redirection URI used to obtain the authorization code for verification. | Provider.MatchEndpoint Provider.ValidateClientAuthentication AuthorizationCodeProvider.ReceiveAsync Provider.ValidateTokenRequest Provider.GrantAuthorizationCode Provider.TokenEndpoint AccessTokenProvider.CreateAsync RefreshTokenProvider.CreateAsync |	
+| Flow steps from Authorization Code Grant section | Sample download performs these steps with: |
+| --- | --- |
+|  |  |
+| (A) The client initiates the flow by directing the resource owner's user-agent to the authorization endpoint. The client includes its client identifier, requested scope, local state, and a redirection URI to which the authorization server will send the user-agent back once access is granted (or denied). | Provider.MatchEndpoint Provider.ValidateClientRedirectUri Provider.ValidateAuthorizeRequest Provider.AuthorizeEndpoint |
+|  |  |
+| (B) The authorization server authenticates the resource owner (via the user-agent) and establishes whether the resource owner grants or denies the client's access request. | **&lt;If user grants access&gt;** Provider.MatchEndpoint Provider.ValidateClientRedirectUri Provider.ValidateAuthorizeRequest Provider.AuthorizeEndpoint AuthorizationCodeProvider.CreateAsync |
+|  |  |
+| (C) Assuming the resource owner grants access, the authorization server redirects the user-agent back to the client using the redirection URI provided earlier (in the request or during client registration). ... |  |
+|  |  |
+| (D) The client requests an access token from the authorization server's token endpoint by including the authorization code received in the previous step. When making the request, the client authenticates with the authorization server. The client includes the redirection URI used to obtain the authorization code for verification. | Provider.MatchEndpoint Provider.ValidateClientAuthentication AuthorizationCodeProvider.ReceiveAsync Provider.ValidateTokenRequest Provider.GrantAuthorizationCode Provider.TokenEndpoint AccessTokenProvider.CreateAsync RefreshTokenProvider.CreateAsync |
 
 A sample implementation for `AuthorizationCodeProvider.CreateAsync` and `ReceiveAsync` to control the creation and validation of authorization code is shown below.	
 
@@ -152,52 +150,55 @@ Refer to the IETF's OAuth 2 [Resource Owner Password Credentials Grant](http://t
 
  The [Resource Owner Password Credentials Grant](http://tools.ietf.org/html/rfc6749#section-4.3) flow shown in Figure 5 is the flow and mapping which the OWIN OAuth middleware follows.	
 
-| Flow steps from Resource Owner Password Credentials Grant section | Sample download performs these steps with: |	
-| --- | --- |	
-|  |  |	
-| (A) The resource owner provides the client with its username and password. |  |	
-|  |  |	
-| (B) The client requests an access token from the authorization server's token endpoint by including the credentials received from the resource owner. When making the request, the client authenticates with the authorization server. | Provider.MatchEndpoint Provider.ValidateClientAuthentication Provider.ValidateTokenRequest Provider.GrantResourceOwnerCredentials Provider.TokenEndpoint AccessToken Provider.CreateAsync RefreshTokenProvider.CreateAsync |	
-|  |  |	
-| (C) The authorization server authenticates the client and validates the resource owner credentials, and if valid, issues an access token. |  |	
+| Flow steps from Resource Owner Password Credentials Grant section | Sample download performs these steps with: |
+| --- | --- |
+|  |  |
+| (A) The resource owner provides the client with its username and password. |  |
+|  |  |
+| (B) The client requests an access token from the authorization server's token endpoint by including the credentials received from the resource owner. When making the request, the client authenticates with the authorization server. | Provider.MatchEndpoint Provider.ValidateClientAuthentication Provider.ValidateTokenRequest Provider.GrantResourceOwnerCredentials Provider.TokenEndpoint AccessToken Provider.CreateAsync RefreshTokenProvider.CreateAsync |
+|  |  |
+| (C) The authorization server authenticates the client and validates the resource owner credentials, and if valid, issues an access token. |  |
 
 Here is the sample implementation for `Provider.GrantResourceOwnerCredentials`:	
 
 [!code-csharp[Main](owin-oauth-20-authorization-server/samples/sample7.cs)]	
 
 > [!NOTE]	
-> The code above is intended to explain this section of the tutorial and should not be used in secure or production apps. It does not check the resource owners credentials. It assumes every credential is valid and creates a new identity for it. The new identity will be used to generate the access token and refresh token. Please replace the code with your own secure account management code.	
-### Client Credentials Grant	
+> The code above is intended to explain this section of the tutorial and should not be used in secure or production apps. It does not check the resource owners credentials. It assumes every credential is valid and creates a new identity for it. The new identity will be used to generate the access token and refresh token. Please replace the code with your own secure account management code.
 
-Refer to the IETF's OAuth 2 [Client Credentials Grant](http://tools.ietf.org/html/rfc6749#section-4.4) section now.	
+### Client Credentials Grant
 
- The [Client Credentials Grant](http://tools.ietf.org/html/rfc6749#section-4.4) flow shown in Figure 6 is the flow and mapping which the OWIN OAuth middleware follows.	
+Refer to the IETF's OAuth 2 [Client Credentials Grant](http://tools.ietf.org/html/rfc6749#section-4.4) section now.
 
-| Flow steps from Client Credentials Grant section | Sample download performs these steps with: |	
-| --- | --- |	
-|  |  |	
-| (A) The client authenticates with the authorization server and requests an access token from the token endpoint. | Provider.MatchEndpoint Provider.ValidateClientAuthentication Provider.ValidateTokenRequest Provider.GrantClientCredentials Provider.TokenEndpoint AccessTokenProvider.CreateAsync RefreshTokenProvider.CreateAsync |	
-|  |  |	
-| (B) The authorization server authenticates the client, and if valid, issues an access token. |  |	
+ The [Client Credentials Grant](http://tools.ietf.org/html/rfc6749#section-4.4) flow shown in Figure 6 is the flow and mapping which the OWIN OAuth middleware follows.
 
-Here is the sample implementation for `Provider.GrantClientCredentials`:	
+| Flow steps from Client Credentials Grant section | Sample download performs these steps with: |
+| --- | --- |
+|  |  |
+| (A) The client authenticates with the authorization server and requests an access token from the token endpoint. | Provider.MatchEndpoint Provider.ValidateClientAuthentication Provider.ValidateTokenRequest Provider.GrantClientCredentials Provider.TokenEndpoint AccessTokenProvider.CreateAsync RefreshTokenProvider.CreateAsync |
+|  |  |
+| (B) The authorization server authenticates the client, and if valid, issues an access token. |  |
 
-[!code-csharp[Main](owin-oauth-20-authorization-server/samples/sample8.cs)]	
+Here is the sample implementation for `Provider.GrantClientCredentials`:
 
-> [!NOTE]	
-> The code above is intended to explain this section of the tutorial and should not be used in secure or production apps. Please replace the code with your own secure client management code.	
-### Refresh Token	
+[!code-csharp[Main](owin-oauth-20-authorization-server/samples/sample8.cs)]
 
-Refer to the IETF's OAuth 2 [Refresh Token](http://tools.ietf.org/html/rfc6749#section-1.5) section now.	
+> [!NOTE]
+> The code above is intended to explain this section of the tutorial and should not be used in secure or production apps. Please replace the code with your own secure client management code.
 
- The [Refresh Token](http://tools.ietf.org/html/rfc6749#section-1.5) flow shown in Figure 2 is the flow and mapping which the OWIN OAuth middleware follows.	
 
-| Flow steps from Client Credentials Grant section | Sample download performs these steps with: |	
-| --- | --- |	
-|  |  |	
-| (G) The client requests a new access token by authenticating with the authorization server and presenting the refresh token. The client authentication requirements are based on the client type and on the authorization server policies. | Provider.MatchEndpoint Provider.ValidateClientAuthentication RefreshTokenProvider.ReceiveAsync Provider.ValidateTokenRequest Provider.GrantRefreshToken Provider.TokenEndpoint AccessTokenProvider.CreateAsync RefreshTokenProvider.CreateAsync |	
-|  |  |	
-| (H) The authorization server authenticates the client and validates the refresh token, and if valid, issues a new access token (and, optionally, a new refresh token). |  |	
+### Refresh Token
+
+Refer to the IETF's OAuth 2 [Refresh Token](http://tools.ietf.org/html/rfc6749#section-1.5) section now.
+
+ The [Refresh Token](http://tools.ietf.org/html/rfc6749#section-1.5) flow shown in Figure 2 is the flow and mapping which the OWIN OAuth middleware follows.
+
+| Flow steps from Client Credentials Grant section | Sample download performs these steps with: |
+| --- | --- |
+|  |  |
+| (G) The client requests a new access token by authenticating with the authorization server and presenting the refresh token. The client authentication requirements are based on the client type and on the authorization server policies. | Provider.MatchEndpoint Provider.ValidateClientAuthentication RefreshTokenProvider.ReceiveAsync Provider.ValidateTokenRequest Provider.GrantRefreshToken Provider.TokenEndpoint AccessTokenProvider.CreateAsync RefreshTokenProvider.CreateAsync |
+|  |  |
+| (H) The authorization server authenticates the client and validates the refresh token, and if valid, issues a new access token (and, optionally, a new refresh token). |  |
 
 Here is the sample implementation for `Provider.GrantRefreshToken`:	
 
