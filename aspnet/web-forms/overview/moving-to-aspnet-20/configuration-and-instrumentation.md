@@ -1,7 +1,7 @@
 ---
 uid: web-forms/overview/moving-to-aspnet-20/configuration-and-instrumentation
 title: "Configuration and Instrumentation | Microsoft Docs"
-author: microsoft
+author: rick-anderson
 description: "There are major changes in configuration and instrumentation in ASP.NET 2.0. The new ASP.NET configuration API allows for configuration changes to be made pr..."
 ms.author: riande
 ms.date: 02/20/2005

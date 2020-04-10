@@ -1,7 +1,7 @@
 ---
 uid: mvc/overview/older-versions-1/nerddinner/re-use-ui-using-master-pages-and-partials
 title: "Re-use UI Using Master Pages and Partials | Microsoft Docs"
-author: microsoft
+author: rick-anderson
 description: "Step 7 looks at ways we can apply the 'DRY Principle' within our view templates to eliminate code duplication, using partial view templates and master pages."
 ms.author: riande
 ms.date: 07/27/2010

@@ -1,7 +1,7 @@
 ---
 uid: mvc/overview/older-versions-1/security/authenticating-users-with-windows-authentication-cs
 title: "Authenticating Users with Windows Authentication (C#) | Microsoft Docs"
-author: microsoft
+author: rick-anderson
 description: "Learn how to use Windows authentication in the context of an MVC application. You learn how to enable Windows authentication within your application's web co..."
 ms.author: riande
 ms.date: 01/27/2009

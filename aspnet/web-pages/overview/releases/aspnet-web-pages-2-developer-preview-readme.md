@@ -1,7 +1,7 @@
 ---
 uid: web-pages/overview/releases/aspnet-web-pages-2-developer-preview-readme
 title: "ASP.NET Web Pages 2 Developer Preview ReadMe | Microsoft Docs"
-author: microsoft
+author: rick-anderson
 description: ""
 ms.author: riande
 ms.date: 09/14/2011
