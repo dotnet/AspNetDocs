@@ -10,9 +10,9 @@ public static class AuthConfig
         //    consumerKey: "",
         //    consumerSecret: "");
 
-        OAuthWebSecurity.RegisterFacebookClient(
-            appId: "111111111111111",
-            appSecret: "a1a1aa111111111a111a111aaa111111");
+        //OAuthWebSecurity.RegisterFacebookClient(
+        //    appId: "",
+        //    appSecret: "");
 
         //OAuthWebSecurity.RegisterGoogleClient();
     }

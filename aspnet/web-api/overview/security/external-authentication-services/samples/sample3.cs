@@ -7,8 +7,8 @@
 //   consumerKey: "",
 //   consumerSecret: "");
 
-app.UseFacebookAuthentication(
-   appId: "426f62526f636b73",
-   appSecret: "57686f6120447564652c2049495320526f636b73");
+//app.UseFacebookAuthentication(
+//   appId: "426f62526f636b73",
+//   appSecret: "");
 
 //app.UseGoogleAuthentication();
