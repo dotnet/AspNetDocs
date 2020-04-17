@@ -14,7 +14,7 @@ public static void InitializeIdentityForEF(ApplicationDbContext db) {
     var user = userManager.FindByName(name);
     if (user == null) {
         user = new ApplicationUser { UserName = name, Email = name };
-        var result = userManager.Create(user, password);
+        var result = userManager.Create(user, GetSecurePassword());
         result = userManager.SetLockoutEnabled(user.Id, false);
     }
 
