@@ -31,11 +31,6 @@
       "redirect_document_id": false
     },
     {
-      "source_path": "aspnet/aspnet/index.md",
-      "redirect_url": "/aspnet/overview",
-      "redirect_document_id": false
-    },
-    {
       "source_path": "aspnet/aspnet/overview/aspnet-and-mobile/aspnet-and-mobile.md",
       "redirect_url": "https://channel9.msdn.com/Blogs/ASP-NET-Site-Videos/aspnet-and-mobile",
       "redirect_document_id": false
