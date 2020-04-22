@@ -1,6 +1,16 @@
 {
   "redirections": [
     {
+      "source_path": "aspnet/index.md",
+      "redirect_url": "https://docs.microsoft.com/aspnet/core/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "aspnet/aspnet/index.md",
+      "redirect_url": "/aspnet/overview",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "aspnet/mvc/videos/mvc-1/aspnet-mvc-storefront/aspnet-mvc-mvc-storefront-part-19-processing-orders-with-windows-workflow.md",
       "redirect_url": "/aspnet/mvc/videos/mvc-1/aspnet-mvc-storefront/aspnet-mvc-storefront-part-19-processing-orders-with-windows-workflow",
       "redirect_document_id": false
@@ -23,11 +33,6 @@
     {
       "source_path": "aspnet/mvc/overview/getting-started/introduction/sample/code-location.md",
       "redirect_url": "/aspnet/mvc/overview/getting-started/introduction/index",
-      "redirect_document_id": false
-    },
-    {
-      "source_path": "aspnet/aspnet/index.md",
-      "redirect_url": "/aspnet/overview",
       "redirect_document_id": false
     },
     {
