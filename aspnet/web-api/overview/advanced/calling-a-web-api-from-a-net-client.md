@@ -31,7 +31,7 @@ To learn how to implement this API with ASP.NET Web API, see [Creating a Web API
 
 For simplicity, the client application in this tutorial is a Windows console application. **HttpClient** is also supported for Windows Phone and Windows Store apps. For more information, see [Writing Web API Client Code for Multiple Platforms Using Portable Libraries](https://blogs.msdn.com/b/webdev/archive/2013/07/19/writing-web-api-client-code-for-multiple-platforms-using-portable-libraries.aspx)
 
-**NOTE:** If you pass Base URLs and Relative URIs as hard-coded values, be mindful of the rules for utilizing the `HttpClient` framework.  The `HttpClient.BaseAddress` property should be set to an address with a trailing forward slash (`/`).  When passing hardcoded resource URIs, for example, to the `HttpClient.GetAsync` method, don't include a leading forward slash.  For example, to get a `Product` by ID:
+**NOTE:** If you pass base URLs and relative URIs as hard-coded values, be mindful of the rules for utilizing the `HttpClient` API. The `HttpClient.BaseAddress` property should be set to an address with a trailing forward slash (`/`). For example, when passing hard-coded resource URIs to the `HttpClient.GetAsync` method, don't include a leading forward slash. To get a `Product` by ID:
 
 1. Set `client.BaseAddress = new Uri("https://localhost:5001/");`
 1. Request a `Product`. For example, `client.GetAsync<Product>("api/products/4");`.
