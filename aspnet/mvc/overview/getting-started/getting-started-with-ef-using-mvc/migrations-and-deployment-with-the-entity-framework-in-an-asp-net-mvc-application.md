@@ -177,7 +177,7 @@ You'll deploy the database to Azure SQL database. SQL database is a cloud-based 
 
 2. On the **Pick a publish target** page, choose **App Service** and then **Select Existing**, and then choose **Publish**.
 
-    ![Pick a publish target page](migrations-and-deployment-with-the-entity-framework-in-an-asp-net-mvc-application/_static/publish-select-existing-azure-app-service.png)
+    ![Pick a publish target page](migrations-and-deployment-with-the-entity-framework-in-an-asp-net-mvc-application/_static/select-existing-app-service.png)
 
 3. If you haven't previously added your Azure subscription in Visual Studio, perform the steps on the screen. These steps enable Visual Studio to connect to your Azure subscription so that the list of **App Services** will include your web site.
 
