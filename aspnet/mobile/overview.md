@@ -55,6 +55,6 @@ This How To describes various ways to serve pages optimized for mobile devices f
 
 In this talk presented at the Microsoft MIX conference, Scott Hanselman discusses how you can create mobile device friendly websites using ASP.NET MVC.
 
-### [Develop iPhone applications with ASP.NET](http://labs.componentone.com/iPhone/)
+### [Develop iPhone applications with ASP.NET](https://www.componentsource.com/product/componentone-studio-for-iphone)
 
 ComponentOne Studio for iPhone is a suite of ASP.NET controls that mimic the look and feel of the iPhone and iPod touch user interfaces when rendered in Mobile Safari.
