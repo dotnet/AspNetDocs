@@ -112,5 +112,5 @@ The `Put` method calls `Content` to return an HTTP 202 (Accepted) response with 
 ## Additional Resources
 
 - [Mocking Entity Framework when Unit Testing ASP.NET Web API 2](mocking-entity-framework-when-unit-testing-aspnet-web-api-2.md)
-- [Writing tests for an ASP.NET Web API service](https://docs.microsoft.com/en-gb/archive/blogs/youssefm/writing-tests-for-an-asp-net-web-api-service) (blog post by Youssef Moussaoui).
+- [Writing tests for an ASP.NET Web API service](https://docs.microsoft.com/archive/blogs/youssefm/writing-tests-for-an-asp-net-web-api-service) (blog post by Youssef Moussaoui).
 - [Debugging ASP.NET Web API with Route Debugger](https://blogs.msdn.com/b/webdev/archive/2013/04/04/debugging-asp-net-web-api-with-route-debugger.aspx)
