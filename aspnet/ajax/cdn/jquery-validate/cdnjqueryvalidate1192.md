@@ -1,5 +1,5 @@
 ---
-uid: ajax/cdn/jquery-validate/cdnjqueryvalidate1140
+uid: ajax/cdn/jquery-validate/cdnjqueryvalidate1192
 title: jQuery Validation 1.19.2
 author: rick-anderson
 description: ""
