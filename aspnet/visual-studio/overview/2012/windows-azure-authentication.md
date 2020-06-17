@@ -19,7 +19,7 @@ by [Rick Anderson](https://twitter.com/RickAndMSFT)
 >
 > For details on how to setup synchronization between your on-premise Active Directory and your Windows Azure Active Directory tenant please see [Use AD FS 2.0 to implement and manage single sign-on](https://technet.microsoft.com/library/jj205462.aspx).
 >
-> Windows Azure Active Directory is currently available as a [free preview service](https://azure.microsoft.com/free/dotnet/?WT.mc_id=A443DD604).
+> Windows Azure Active Directory is currently available as a [free preview service](https://azure.microsoft.com/free/dotnet/).
 
 ## Requirements:
 
