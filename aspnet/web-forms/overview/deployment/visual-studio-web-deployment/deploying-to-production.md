@@ -27,7 +27,7 @@ Reminder: If you get an error message or something doesn't work as you go throug
 
 ## Get a Microsoft Azure account
 
-If you don't already have an Azure account, you can create a free trial account in just a couple of minutes. For details, see [Azure Free Trial](https://azure.microsoft.com/free/dotnet/?WT.mc_id=A443DD604).
+If you don't already have an Azure account, you can create a free trial account in just a couple of minutes. For details, see [Azure Free Trial](https://azure.microsoft.com/free/dotnet/).
 
 ## Create a staging environment
 
