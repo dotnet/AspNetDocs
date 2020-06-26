@@ -47,3 +47,16 @@ by [Rick Anderson](https://twitter.com/RickAndMSFT)
 ## Performance and Debugging
 
 - [Profile and debug your ASP.NET MVC app with Glimpse](../performance/profile-and-debug-your-aspnet-mvc-app-with-glimpse.md)
+
+## ASP.NET MVC DropDownListFor with SelectListItem
+
+When using the <xref:System.Web.Mvc.Html.SelectExtensions.DropDownListFor%2A> helper and passing to it the collection of `SelectListItem` from which it is populated, the `DropdownListFor` modifies the passed collection after it is called. `DropdownListFor` changes the `SelectListItems` Selected properties to whatever was selected by the dropdown list. This leads to unexpected behavior.
+
+The <xref:System.Web.Mvc.Html.SelectExtensions.DropDownListFor%2A>, <xref:System.Web.Mvc.Html.SelectExtensions.DropDownList%2A>, <xref:System.Web.Mvc.Html.SelectExtensions.EnumDropDownListFor%2A>, <xref:System.Web.Mvc.Html.SelectExtensions.ListBox%2A>, and <xref:System.Web.Mvc.Html.SelectExtensions.ListBoxFor%2A> update the Selected property of any `IEnumerable<SelectListItem>` passed or found in ViewData.
+
+The workaround is to create separate enumerables, containing distinct `SelectListItem` instances, for each property in the model.
+
+For more information, see
+
+* [DropdownListFor modifies the SelectListItem collection passed to it](http://web.archive.org/web/20140902031437/http://aspnetwebstack.codeplex.com/workitem/1913)
+* [GetSelectListWithDefaultValue Modifies IEnumerable<SelectListItem> selectList](https://github.com/aspnet/AspNetWebStack/issues/271)
