@@ -17,7 +17,9 @@ Integrated Windows authentication enables users to log in with their Windows cre
 
 | Advantages | Disadvantages |
 | --- | --- |
-| - Built into IIS. - Does not send the user credentials in the request. - If the client computer belongs to the domain (for example, intranet application), the user does not need to enter credentials. | - Not recommended for Internet applications. - Requires Kerberos or NTLM support in the client. - Client must be in the Active Directory domain. |
+| Built into IIS. | Not recommended for Internet applications. | 
+| Does not send the user credentials in the request. | Requires Kerberos or NTLM support in the client. |
+| If the client computer belongs to the domain (for example, intranet application), the user does not need to enter credentials. | Client must be in the Active Directory domain. |
 
 > [!NOTE]
 > If your application is hosted on Azure and you have an on-premise Active Directory domain, consider federating your on-premise AD with Azure Active Directory. That way, users can log in with their on-premise credentials, but the authentication is performed by Azure AD. For more information, see [Azure Authentication](../../../visual-studio/overview/2012/windows-azure-authentication.md).
