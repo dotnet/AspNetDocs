@@ -4,7 +4,7 @@ title: Configuration builders for ASP.NET
 author: rick-anderson
 description: Learn how to get configuration data from sources other than web.config values from external sources.
 ms.author: riande
-ms.date: 10/29/2018
+ms.date: 7/17/2020
 msc.type: content
 ---
 
@@ -290,6 +290,10 @@ Attribute details:
         }
     }
 ```
+
+## Configuration builders order
+
+See [ConfigurationBuilders Order of Execution](https://github.com/aspnet/MicrosoftConfigurationBuilders/blob/master/README.md#configurationbuilders-order-of-execution) in the [aspnet/MicrosoftConfigurationBuilders](https://github.com/aspnet/MicrosoftConfigurationBuilders) GitHub repository.
 
 ## Implementing a custom key/value configuration builder
 
