@@ -1,7 +1,7 @@
 {
   "redirections": [
     {
-      "source_path": "aspnet/aspnet/overview/owin-and-katana/owin-oauth-20-authorization-server.md,
+      "source_path": "aspnet/aspnet/overview/owin-and-katana/owin-oauth-20-authorization-server.md",
       "redirect_url": "/aspnet/aspnet/overview/owin-and-katana/",
       "redirect_document_id": false
     },
