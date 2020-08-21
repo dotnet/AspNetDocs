@@ -28,7 +28,7 @@ We can easily add validation to our application by adding Data Annotations to ou
 We'll use the following Data Annotation attributes:
 
 - **Required** – Indicates that the property is a required field
-- **DisplayName** – Defines the text we want used on form fields and validation messages
+- **DisplayName** – Defines the text to use on form fields and validation messages
 - **StringLength** – Defines a maximum length for a string field
 - **Range** – Gives a maximum and minimum value for a numeric field
 - **Bind** – Lists fields to exclude or include when binding parameter or form values to model properties
