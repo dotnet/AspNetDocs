@@ -218,7 +218,7 @@ There are two ways to run the Fix It app:
 7. From the **Tools** menu, click **NuGet Package Manager**, then **Package Manager Console**.
 8. In the Package Manager Console (PMC), click Restore.
 9. Exit Visual Studio.
-10. Start the [Azure storage emulator](/azure/storage/common/storage-use-emulator).
+10. Start the [Azure Storage Emulator](/azure/storage/common/storage-use-emulator).
 11. Restart Visual Studio, opening the solution file you closed in the previous step.
 12. Make sure the FixIt project is set as the startup project, and then press CTRL+F5 to run the project.
 
@@ -230,7 +230,7 @@ There are two ways to run the Fix It app:
 3. In the application *Web.config* file in the *MyFixIt* project (the web project), change the value of `appSettings/UseQueues` to "true":
 
     [!code-console[Main](the-fix-it-sample-application/samples/sample19.cmd?highlight=3)]
-4. If the [Azure storage emulator](https://msdn.microsoft.com/library/windowsazure/hh403989.aspx) isn't still running, start it again.
+4. If the [Azure Storage Emulator](https://msdn.microsoft.com/library/windowsazure/hh403989.aspx) isn't still running, start it again.
 5. Run the FixIt web project and the MyFixItCloudService project simultaneously.
 
     Using Visual Studio:
