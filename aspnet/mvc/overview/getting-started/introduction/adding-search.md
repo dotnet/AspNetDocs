@@ -11,7 +11,7 @@ msc.type: authoredcontent
 ---
 # Search
 
-[!INCLUDE [Tutorial Note](index.md)]
+[!INCLUDE [consider RP](~/includes/razor.md)]
 
 ## Adding a Search Method and Search View
 

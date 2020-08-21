@@ -13,7 +13,7 @@ msc.type: authoredcontent
 
 by [Rick Anderson](https://twitter.com/RickAndMSFT)
 
-[!INCLUDE [Tutorial Note](index.md)]
+[!INCLUDE [consider RP](~/includes/razor.md)]
 
 In this part of the tutorial, you'll examine the automatically generated `Details` and `Delete` methods.
 
