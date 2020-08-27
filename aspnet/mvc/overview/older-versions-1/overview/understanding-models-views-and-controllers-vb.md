@@ -105,7 +105,7 @@ Controller = Employee
 
 Action = Index
 
-Id = ��
+Id = ""
 
 Finally, if you open an ASP.NET MVC Application without supplying any URL (for example, `http://localhost`) then the URL is parsed like this:
 
