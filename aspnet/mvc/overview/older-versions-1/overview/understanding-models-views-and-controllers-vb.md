@@ -113,7 +113,7 @@ Controller = Home
 
 Action = Index
 
-Id = ��
+Id = ?
 
 The request is routed to the Index() action on the HomeController class.
 
