@@ -49,9 +49,9 @@ So a control extender consists of a server-side control, a client-side behavior,
 
 ## Creating the Custom Extender Website and Project
 
-The first step is to create a class library project and website in Visual Studio/Visual Web Developer. We�ll create the custom extender in the class library project and test the custom extender in the website.
+The first step is to create a class library project and website in Visual Studio/Visual Web Developer. We'll create the custom extender in the class library project and test the custom extender in the website.
 
-Let�s start with the website. Follow these steps to create the website:
+Let's start with the website. Follow these steps to create the website:
 
 1. Select the menu option **File, New Web Site**.
 2. Select the **ASP.NET Web Site** template.
@@ -92,7 +92,7 @@ You can verify that you have added all of the right references by right-clicking
 
 ## Creating the Custom Control Extender
 
-Now that we have our class library, we can start building our extender control. Let�s start with the bare bones of a custom extender control class (see Listing 1).
+Now that we have our class library, we can start building our extender control. Let's start with the bare bones of a custom extender control class (see Listing 1).
 
 **Listing 1 - MyCustomExtender.vb**
 
@@ -113,7 +113,7 @@ Notice that the control extender also includes a TargetControlType attribute. Th
 
 Finally, notice that the custom extender includes a property named MyProperty. The property is marked with the ExtenderControlProperty attribute. The GetPropertyValue() and SetPropertyValue() methods are used to pass the property value from the server-side control extender to the client-side behavior.
 
-Let�s go ahead and implement the code for our DisabledButton extender. The code for this extender can be found in Listing 2.
+Let's go ahead and implement the code for our DisabledButton extender. The code for this extender can be found in Listing 2.
 
 **Listing 2 - DisabledButtonExtender.vb**
 
