@@ -158,7 +158,7 @@ Also expand the Stored Procedures folder. There you will see a stored procedure 
 
 **Figure 11**: The `GetDiscontinuedProducts` Stored Procedure is Listed in the Stored Procedures Folder
 
-There is still one more hurdle we have to overcome before we can call the managed stored procedure: the database is configured to prevent execution of managed code. Verify this by opening a new query window and executing the `GetDiscontinuedProducts` stored procedure. You will receive the following error message: Execution of user code in the .NET Framework is disabled. Enable �clr enabled configuration option.
+There is still one more hurdle we have to overcome before we can call the managed stored procedure: the database is configured to prevent execution of managed code. Verify this by opening a new query window and executing the `GetDiscontinuedProducts` stored procedure. You will receive the following error message: Execution of user code in the .NET Framework is disabled. Enable 'clr enabled configuration option.
 
 To examine the Northwind database s configuration information, enter and execute the command `exec sp_configure` in the query window. This shows that the clr enabled setting is currently set to 0.
 

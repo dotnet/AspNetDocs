@@ -49,7 +49,7 @@ For example, the AJAX Control Toolkit tab includes a control named the Editor co
 
 ## Using AJAX Control Toolkit Control Extenders
 
-The AJAX Control Toolkit also contains control extenders. As its name suggests, a control extender extends the functionality of an existing control. For example, the ConfirmButton control extender extends the standard ASP.NET Button control. The extender changes the Button control�s behavior so that the Button displays a confirmation dialog when you click it.
+The AJAX Control Toolkit also contains control extenders. As its name suggests, a control extender extends the functionality of an existing control. For example, the ConfirmButton control extender extends the standard ASP.NET Button control. The extender changes the Button control's behavior so that the Button displays a confirmation dialog when you click it.
 
 A control extender, just like an AJAX Control Toolkit control, requires a ScriptManager control. You must add a ScriptManager control to a page before you start using control extenders in the page.
 
@@ -60,7 +60,7 @@ Follow these steps to use the ConfirmButton control extender:
 3. Add a standard Button control to the page by dragging the Button from beneath the Standard tab in the toolbox onto the Designer surface.
 4. Click the **Add Extender** task option (see Figure 4).
 5. In the Choose Extender dialog, select ConfirmButtonExtender (see Figure 5) and click the OK button.
-6. Select the Button control in the Designer and expand the Extenders, Button1\_ConfirmButtonExtender node in the Properties window (see Figure 6). Assign the value *�Really?�* to the ConfirmText property.
+6. Select the Button control in the Designer and expand the Extenders, Button1\_ConfirmButtonExtender node in the Properties window (see Figure 6). Assign the value *'Really?'* to the ConfirmText property.
 7. Run the page by selecting the menu option **Debug, Start Debugging** or hit the F5 key.
 
 [![The Add Extender task option](using-ajax-control-toolkit-controls-and-control-extenders-cs/_static/image4.jpg)](using-ajax-control-toolkit-controls-and-control-extenders-cs/_static/image7.png)

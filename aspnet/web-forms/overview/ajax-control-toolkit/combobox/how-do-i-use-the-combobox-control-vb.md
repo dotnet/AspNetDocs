@@ -21,9 +21,9 @@ The ComboBox is similar to the AutoComplete control extender, but the controls a
 
 ## Selecting from a Static List of Items
 
-Let�s start with a simple sample of using the ComboBox control. Imagine that you want to display a static list of items in a dropdown list. However, you want to leave open the possibility that the list is not complete. You want to allow a user to enter a custom value into the list.
+Let's start with a simple sample of using the ComboBox control. Imagine that you want to display a static list of items in a dropdown list. However, you want to leave open the possibility that the list is not complete. You want to allow a user to enter a custom value into the list.
 
-We�ll create a new ASP.NET Web Forms page and use the ComboBox control in the page. Add the new ASP.NET page to your project and switch to Design view.
+We'll create a new ASP.NET Web Forms page and use the ComboBox control in the page. Add the new ASP.NET page to your project and switch to Design view.
 
 If you want to use the ComboBox control in the page then you must add a ScriptManager control to the page. Drag the ScriptManager control from beneath the AJAX Extensions tab onto the Designer surface. You should add the ScriptManager control at the top of the page; you can add it immediately below the opening server-side &lt;form&gt; tag.
 
@@ -33,7 +33,7 @@ Next, drag the ComboBox control onto the page. You can find the ComboBox control
 
 **Figure 01**: Selecting the ComboBox control from the toolbox ([Click to view full-size image](how-do-i-use-the-combobox-control-vb/_static/image2.png))
 
-We�ll use the ComboBox control to display a static list of choices. The user can select a particular level of spiciness for their food from a list of three choices: Mild, Medium, and Hot (see Figure 2).
+We'll use the ComboBox control to display a static list of choices. The user can select a particular level of spiciness for their food from a list of three choices: Mild, Medium, and Hot (see Figure 2).
 
 [![Selecting from a static list of items](how-do-i-use-the-combobox-control-vb/_static/image2.jpg)](how-do-i-use-the-combobox-control-vb/_static/image3.png)
 
@@ -79,7 +79,7 @@ Imagine that you want to display a list of movies in a ComboBox. You want to ret
 2. Add a ScriptManager control to the page by dragging the ScriptManager from under the AJAX Extensions tab in the Toolbox onto the page.
 3. Add a ComboBox control to the page by dragging the ComboBox onto the page.
 4. In Design view, hover your mouse over the ComboBox control and select the **Choose Data Source** task option (see Figure 5). The Data Source Configuration Wizard is launched.
-5. In the **Choose a Data Source** step, select the &lt;New data source�&gt; option.
+5. In the **Choose a Data Source** step, select the &lt;New data source&gt; option.
 6. In the **Choose a Data Source Type** step, select Database.
 7. In the **Choose Your Data Connection** step, select your database (for example, MoviesDB.mdf).
 8. In the **Save the Connection String to the Application Configuration File** step, select the option to save your connection string.

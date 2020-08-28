@@ -145,7 +145,7 @@ Next, create an event handler for the ObjectDataSource s `Selecting` event and i
 
 Recall that the ObjectDataSource s `Selecting` event fires only when retrieving data from its underlying object. If the ObjectDataSource accesses the data from its own cache, this event is not fired.
 
-Now, visit this page through a browser. Since we ve yet to implement any caching, each time you page, sort, or edit the grid the page should display the text, �Selecting event fired, as Figure 8 shows.
+Now, visit this page through a browser. Since we ve yet to implement any caching, each time you page, sort, or edit the grid the page should display the text, 'Selecting event fired, as Figure 8 shows.
 
 [![The ObjectDataSource s Selecting Event Fires Each Time the GridView is Paged, Edited, or Sorted](using-sql-cache-dependencies-vb/_static/image8.gif)](using-sql-cache-dependencies-vb/_static/image9.png)
 
@@ -166,9 +166,9 @@ The GridView in `SqlCacheDependencies.aspx` displays data from two tables - `Pro
 
 **Figure 9**: Configure the ObjectDataSource to Support Caching Using SQL Cache Dependencies on `Products` and `Categories` ([Click to view full-size image](using-sql-cache-dependencies-vb/_static/image12.png))
 
-After configuring the ObjectDataSource to support caching, revisit the page through a browser. Again, the text �Selecting event fired should appear on the first page visit, but should go away when paging, sorting, or clicking the Edit or Cancel buttons. This is because after the data is loaded into the ObjectDataSource s cache, it remains there until the `Products` or `Categories` tables are modified or the data is updated through the GridView.
+After configuring the ObjectDataSource to support caching, revisit the page through a browser. Again, the text 'Selecting event fired should appear on the first page visit, but should go away when paging, sorting, or clicking the Edit or Cancel buttons. This is because after the data is loaded into the ObjectDataSource s cache, it remains there until the `Products` or `Categories` tables are modified or the data is updated through the GridView.
 
-After paging through the grid and noting the lack of the �Selecting event fired text, open a new browser window and navigate to the Basics tutorial in the Editing, Inserting, and Deleting section (`~/EditInsertDelete/Basics.aspx`). Update the name or price of a product. Then, from to the first browser window, view a different page of data, sort the grid, or click a row s Edit button. This time, the �Selecting event fired should reappear, as the underlying database data has been modified (see Figure 10). If the text does not appear, wait a few moments and try again. Remember that the polling service is checking for changes to the `Products` table every `pollTime` milliseconds, so there is a delay between when the underlying data is updated and when the cached data is evicted.
+After paging through the grid and noting the lack of the 'Selecting event fired text, open a new browser window and navigate to the Basics tutorial in the Editing, Inserting, and Deleting section (`~/EditInsertDelete/Basics.aspx`). Update the name or price of a product. Then, from to the first browser window, view a different page of data, sort the grid, or click a row s Edit button. This time, the 'Selecting event fired should reappear, as the underlying database data has been modified (see Figure 10). If the text does not appear, wait a few moments and try again. Remember that the polling service is checking for changes to the `Products` table every `pollTime` milliseconds, so there is a delay between when the underlying data is updated and when the cached data is evicted.
 
 [![Modifying the Products Table Evicts the Cached Product Data](using-sql-cache-dependencies-vb/_static/image10.gif)](using-sql-cache-dependencies-vb/_static/image13.png)
 
