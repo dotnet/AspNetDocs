@@ -147,7 +147,7 @@ The SearchController's SearchByLocation action method internally calls the FindB
 
 We are then using the Json() helper method on the Controller base class to return the sequence of dinners using a JSON-based wire format. JSON is a standard text format for representing simple data-structures. Below is an example of what a JSON-formatted list of two JsonDinner objects looks like when returned from our action method:
 
-[!code-json[Main](use-ajax-to-implement-mapping-scenarios/samples/sample11.json)]
+[!code-json[Main](use-ajax-to-implement-mapping-scenarios/samples/sample11.txt)]
 
 ### Calling the JSON-based AJAX method using jQuery
 
