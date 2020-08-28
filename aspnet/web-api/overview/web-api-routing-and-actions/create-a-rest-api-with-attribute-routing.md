@@ -232,7 +232,7 @@ You can also support a slash separator (`/api/books/date/yyyy/mm/dd`) by adding 
 
 There is a subtle but important detail here. The second route template has a wildcard character (\*) at the start of the {pubdate} parameter:
 
-[!code-json[Main](create-a-rest-api-with-attribute-routing/samples/sample21.json)]
+[!code-json[Main](create-a-rest-api-with-attribute-routing/samples/sample21.txt)]
 
 This tells the routing engine that {pubdate} should match the rest of the URI. By default, a template parameter matches a single URI segment. In this case, we want {pubdate} to span several URI segments:
 

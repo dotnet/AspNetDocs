@@ -131,7 +131,7 @@ Run the application and navigate to */Movies/SearchIndex*. Append a query string
 
 If you change the signature of the `SearchIndex` method to have a parameter named `id`, the `id` parameter will match the `{id}` placeholder for the default routes set in the *Global.asax* file.
 
-[!code-json[Main](examining-the-edit-methods-and-edit-view/samples/sample11.json)]
+[!code-json[Main](examining-the-edit-methods-and-edit-view/samples/sample11.txt)]
 
 The modified `SearchIndex` method would look as follows:
 

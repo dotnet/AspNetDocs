@@ -84,7 +84,7 @@ ASP.NET MVC 2 now allows controllers to process requests asynchronously. This ca
 
 The System.ComponentModel.DefaultValueAttribute class allows a default value to be supplied for the argument parameter to an action method. For example, assume that the following default route is defined:
 
-[!code-json[Main](what-is-new-in-aspnet-mvc/samples/sample3.json)]
+[!code-json[Main](what-is-new-in-aspnet-mvc/samples/sample3.txt)]
 
 Also assume that the following controller and action method is defined:
 
