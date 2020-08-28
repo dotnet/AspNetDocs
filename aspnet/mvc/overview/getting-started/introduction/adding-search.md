@@ -56,7 +56,7 @@ Run the application and navigate to */Movies/Index*. Append a query string such 
 
 If you change the signature of the `Index` method to have a parameter named `id`, the `id` parameter will match the `{id}` placeholder for the default routes set in the *App\_Start\RouteConfig.cs* file.
 
-[!code-json[Main](adding-search/samples/sample4.json)]
+[!code-json[Main](adding-search/samples/sample4.txt)]
 
 The original `Index` method looks like this::
 
