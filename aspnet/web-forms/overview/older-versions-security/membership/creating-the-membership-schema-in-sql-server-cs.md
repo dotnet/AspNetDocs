@@ -35,8 +35,8 @@ An ASP.NET application's data is commonly stored in a number of tables in a data
 
 I recommend locating the Membership schema in the same database as the application data for the following reasons:
 
-- **Maintainability** � an application whose data is encapsulated in one database is easier to understand, maintain, and deploy than an application that has two separate databases.
-- **Relational Integrity** � by locating the Membership-related tables in the same database as the application tables it is possible to establish [foreign key constraints](http://en.wikipedia.org/wiki/Foreign_key) between the primary keys in the Membership-related tables and related application tables.
+- **Maintainability** ' an application whose data is encapsulated in one database is easier to understand, maintain, and deploy than an application that has two separate databases.
+- **Relational Integrity** ' by locating the Membership-related tables in the same database as the application tables it is possible to establish [foreign key constraints](http://en.wikipedia.org/wiki/Foreign_key) between the primary keys in the Membership-related tables and related application tables.
 
 Decoupling the user store and application data into separate databases only makes sense if you have multiple applications that each use separate databases, but need to share a common user store.
 
@@ -270,7 +270,7 @@ The default `SqlMembershipProvider` (`AspNetSqlMembershipProvider`) has its `con
 
 [!code-xml[Main](creating-the-membership-schema-in-sql-server-cs/samples/sample2.xml)]
 
-As you can see, this connection string defines a SQL 2005 Express Edition database located at |DataDirectory|aspnetdb.mdf�. The string |DataDirectory|� is translated at runtime to point to the `~/App_Data/` directory, so the database path |DataDirectory|aspnetdb.mdf" translates to `~/App_Data`/`aspnet.mdf`.
+As you can see, this connection string defines a SQL 2005 Express Edition database located at |DataDirectory|aspnetdb.mdf'. The string |DataDirectory| is translated at runtime to point to the `~/App_Data/` directory, so the database path |DataDirectory|aspnetdb.mdf" translates to `~/App_Data`/`aspnet.mdf`.
 
 If we did not specify any Membership provider information in our application's `Web.config` file, the application uses the default registered Membership provider, `AspNetSqlMembershipProvider`. If the `~/App_Data/aspnet.mdf` database does not exist, the ASP.NET runtime will automatically create it and add the application services schema. However, we don't want to use the `aspnet.mdf` database; rather, we want to use the `SecurityTutorials.mdf` database we created in Step 2. This modification can be accomplished in one of two ways:
 
@@ -312,7 +312,7 @@ For more information on the topics discussed in this tutorial, refer to the foll
 - [Always Set the `applicationName` Property When Configuring ASP.NET 2.0 Membership and Other Providers](https://weblogs.asp.net/scottgu/443634)
 - [Configuring ASP.NET 2.0 Application Services to Use SQL Server 2000 or SQL Server 2005](https://weblogs.asp.net/scottgu/archive/2005/08/25/423703.aspx)
 - [Download SQL Server Management Studio Express Edition](https://www.microsoft.com/downloads/details.aspx?FamilyId=C243A5AE-4BD1-4E3D-94B8-5A0F62BF7796&amp;displaylang=en)
-- [Examining ASP.NET 2.0�s Membership, Roles, and Profile](http://aspnet.4guysfromrolla.com/articles/120705-1.aspx)
+- [Examining ASP.NET 2.0's Membership, Roles, and Profile](http://aspnet.4guysfromrolla.com/articles/120705-1.aspx)
 - [The `<add>` Element for Providers for Membership](https://msdn.microsoft.com/library/whae3t94.aspx)
 - [The `<membership>` Element](https://msdn.microsoft.com/library/1b9hw62f.aspx)
 - [The `<providers>` Element for Membership](https://msdn.microsoft.com/library/6d4936ht.aspx)

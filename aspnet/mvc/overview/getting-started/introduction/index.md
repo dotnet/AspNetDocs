@@ -13,7 +13,7 @@ msc.type: chapter
 
 > Introduction to ASP.NET MVC 5
 
-[!INCLUDE [consider RP](../../../../includes/razor.md)]
+[!INCLUDE [consider RP](~/includes/razor.md)]
 
 This following tutorial series covers ASP.NET MVC: Source located on [GitHub](https://github.com/dotnet/AspNetDocs/tree/master/aspnet/mvc/overview/getting-started/introduction/sample/MvcMovie/MvcMovie)
 

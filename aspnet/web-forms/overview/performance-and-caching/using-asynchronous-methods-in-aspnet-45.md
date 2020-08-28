@@ -141,11 +141,13 @@ The browsers presentation of the gizmos data is identical to the view created by
 
 ## RegisterAsyncTask Notes
 
-Methods hooked up with `RegisterAsyncTask` will run immediately after [PreRender](https://msdn.microsoft.com/library/ms178472.aspx). You can also use async void page events directly, as shown in the following code:
+Methods hooked up with `RegisterAsyncTask` will run immediately after [PreRender](https://msdn.microsoft.com/library/ms178472.aspx).
+
+If you use async void page events directly, as shown in the following code:
 
 [!code-csharp[Main](using-asynchronous-methods-in-aspnet-45/samples/sample8.cs)]
 
-The downside to async void events is that developers no longer has full control over when events execute. For example, if both an .aspx and a .Master define `Page_Load` events and one or both of them are asynchronous, the order of execution can't be guaranteed. The same indeterminiate order for non event handlers (such as `async void Button_Click` ) applies. For most developers this should be acceptable, but those who require full control over the order of execution should only use APIs like `RegisterAsyncTask` that consume methods which return a Task object.
+you no longer have full control over when events execute. For example, if both an .aspx and a .Master define `Page_Load` events and one or both of them are asynchronous, the order of execution can't be guaranteed. The same indeterminate order for event handlers (such as `async void Button_Click` ) applies.
 
 ## <a id="Parallel"></a>  Performing Multiple Operations in Parallel
 
