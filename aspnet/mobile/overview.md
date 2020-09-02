@@ -13,11 +13,13 @@ msc.type: content
 
 ## Develop Mobile Apps
 
-### [Cloud-Connected Mobile Apps - Create a Web Service with Azure Web Apps and WebJobs](https://msdn.microsoft.com/magazine/mt185572)(Part 1)
+### Cloud-Connected Mobile Apps
+
+[Part 1 - Create a Web Service with Azure Web Apps and WebJobs](https://msdn.microsoft.com/magazine/mt185572)
 
 In the first part of a two-part article, the authors explore some of the issues involved in creating a cloud back end that aggregates and processes data and serves it to mobile clients.
 
-### [Cloud-Connected Mobile Apps - Build a Xamarin App with Authentication and Offline Support](https://msdn.microsoft.com/magazine/mt422581.aspx)(Part 2)
+[Part 2 - Build a Xamarin App with Authentication and Offline Support](https://msdn.microsoft.com/magazine/mt422581.aspx)
 
 In the second article in their series, the authors discuss how they use Xamarin to target multiple mobile client platforms, and show how to implement authentication and maintain a synchronized client-side cache of the data.
 
