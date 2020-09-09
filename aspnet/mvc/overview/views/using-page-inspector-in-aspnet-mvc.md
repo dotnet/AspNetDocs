@@ -105,7 +105,7 @@ Page Inspector lets you find markup whose location might not be obvious. Then yo
 
 To see this, click **Inspect** and then scroll to the bottom of the page in the Page Inspector window.
 
-When you move the mouse pointer into the footer area, Page Inspector opens the \_Layout.cshtml file and highlights the section of the layout page that you have selected. As you can see, the footer are is defined in the layout file, and not the view itself.
+When you move the mouse pointer into the footer area, Page Inspector opens the \_Layout.cshtml file and highlights the section of the layout page that you have selected. As you can see, the footer area is defined in the layout file, and not the view itself.
 
 ![Footer](using-page-inspector-in-aspnet-mvc/_static/image16.png)
 
