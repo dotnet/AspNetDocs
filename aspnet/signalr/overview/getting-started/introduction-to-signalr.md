@@ -65,7 +65,8 @@ SignalR is an abstraction over some of the transports that are required to do re
 * The most stringent requirements, WebSocket requires the server:
   * Run on Windows Server 2012 or Windows 8.
   * .NET Framework 4.5.
-  If these requirements are not met, SignalR attempts to use other transports to make its connections.
+
+If these requirements are not met, SignalR attempts to use other transports to make its connections.
 
 ### HTML 5 transports
 
