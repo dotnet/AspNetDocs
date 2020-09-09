@@ -57,7 +57,16 @@ SignalR uses the new WebSocket transport where available and falls back to older
 
 ## Transports and fallbacks
 
-SignalR is an abstraction over some of the transports that are required to do real-time work between client and server. A SignalR connection starts as HTTP, and is then promoted to a WebSocket connection if it is available. WebSocket is the ideal transport for SignalR, since it makes the most efficient use of server memory, has the lowest latency, and has the most underlying features (such as full duplex communication between client and server), but it also has the most stringent requirements: WebSocket requires the server to be using Windows Server 2012 or Windows 8, and .NET Framework 4.5. If these requirements are not met, SignalR will attempt to use other transports to make its connections.
+SignalR is an abstraction over some of the transports that are required to do real-time work between client and server. SignalR first attempts to establish a WebSocket connection if possible. WebSocket is the optimal transport for SignalR because it has:
+
+* The most efficient use of server memory.
+* The lowest latency.
+* The most underlying features, such as full duplex communication between client and server.
+* The most stringent requirements, WebSocket requires the server:
+  * Run on Windows Server 2012 or Windows 8.
+  * .NET Framework 4.5.
+
+If these requirements are not met, SignalR attempts to use other transports to make its connections.
 
 ### HTML 5 transports
 
