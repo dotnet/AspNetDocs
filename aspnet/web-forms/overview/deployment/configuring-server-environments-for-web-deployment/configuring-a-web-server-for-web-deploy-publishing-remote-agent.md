@@ -168,7 +168,7 @@ In order for your website to serve content, the application pool identity must h
 
 To grant permissions to an application pool identity on a file or folder, you have two options:
 
-- Assign permissions to the application pool identity directly, using the format <strong>IIS AppPool\</strong><em>[application pool name]</em>(for example, <strong>IIS AppPool\DemoSite</strong>).
+- Assign permissions to the application pool identity directly, using the format **IIS AppPool\[application pool name]** (for example, **IIS AppPool\DemoSite**).
 - Assign permissions to the **IIS\_IUSRS** group.
 
 The most common approach is to assign permissions to the local **IIS\_IUSRS** group because this approach lets you change application pools without reconfiguring file system permissions. The next procedure uses this group-based approach.
@@ -185,8 +185,8 @@ The most common approach is to assign permissions to the local **IIS\_IUSRS** gr
 
     ![](configuring-a-web-server-for-web-deploy-publishing-remote-agent/_static/image8.png)
 5. In the **Select Users or Groups** dialog box, type **IIS\_IUSRS**, click **Check Names**, and then click **OK**.
-6. In the <strong>Permissions for</strong><em>[folder name]</em>dialog box, notice that the new group has been assigned the <strong>Read &amp; execute</strong>, <strong>List folder contents</strong>, and <strong>Read</strong> permissions by default. Leave this unchanged and click <strong>OK</strong>.
-7. Click <strong>OK</strong> to close the <em>[folder name]</em><strong>Properties</strong> dialog box.
+6. In the **Permissions for (folder name) dialog box**, notice that the new group has been assigned the **Read & execute**, **List folder contents**, and **Read** permissions by default. Leave this unchanged and click **OK**.
+7. Click **OK** to close the **(folder name) Properties** dialog box.
 
 As a final task before you attempt to deploy any web packages to your server, you should ensure that the Web Deployment Agent Service is running. When you deploy a package from a remote computer, the Web Deployment Agent Service is responsible for extracting and installing the contents of the package. The service is started by default when you install the Web Deployment Tool and runs under the Network Service identity.
 
