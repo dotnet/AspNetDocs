@@ -293,4 +293,3 @@ For guidance on how to configure custom Microsoft Build Engine (MSBuild) project
 > [!div class="step-by-step"]
 > [Previous](configuring-a-web-server-for-web-deploy-publishing-remote-agent.md)
 > [Next](configuring-a-web-server-for-web-deploy-publishing-offline-deployment.md)
-S
