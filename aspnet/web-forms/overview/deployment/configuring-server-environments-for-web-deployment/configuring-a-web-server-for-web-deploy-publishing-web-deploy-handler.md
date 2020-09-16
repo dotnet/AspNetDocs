@@ -1,6 +1,6 @@
 ---
 uid: web-forms/overview/deployment/configuring-server-environments-for-web-deployment/configuring-a-web-server-for-web-deploy-publishing-web-deploy-handler
-title: "Configuring a Web Server for Web Deploy Publishing (Web Deploy Handler) | Microsoft Docs"
+title: Configuring a Web Server for Web Deploy Publishing (Web Deploy Handler)
 author: jrjlee
 description: "This topic describes how to configure an Internet Information Services (IIS) web server to support web publishing and deployment using the IIS Web Deploy Han..."
 ms.author: riande
@@ -11,7 +11,7 @@ msc.type: authoredcontent
 ---
 # Configuring a Web Server for Web Deploy Publishing (Web Deploy Handler)
 
-[Download PDF](https://msdnshared.blob.core.windows.net/media/MSDNBlogsFS/prod.evol.blogs.msdn.com/CommunityServer.Blogs.Components.WeblogFiles/00/00/00/63/56/8130.DeployingWebAppsInEnterpriseScenarios.pdf)
+[PDF Download](https://msdnshared.blob.core.windows.net/media/MSDNBlogsFS/prod.evol.blogs.msdn.com/CommunityServer.Blogs.Components.WeblogFiles/00/00/00/63/56/8130.DeployingWebAppsInEnterpriseScenarios.pdf)
 
 > This topic describes how to configure an Internet Information Services (IIS) web server to support web publishing and deployment using the IIS Web Deploy Handler.
 > 
