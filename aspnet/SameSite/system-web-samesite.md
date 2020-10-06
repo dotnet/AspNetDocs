@@ -140,7 +140,7 @@ The November 19, 2019 updates for Windows updated .NET 4.7.2+ from the 2016 stan
 * Is supported by patches issued as described in the KB's listed above.
 * Is scheduled to be enabled by [Chrome](https://chromestatus.com/feature/5088147346030592) by default in [Feb 2020](https://blog.chromium.org/2019/10/developers-get-ready-for-new.html). Browsers started moving to this standard in 2019.
 
-<a name="known"><a/>
+<a name="known"></a>
 
 ## Known Issues
 
