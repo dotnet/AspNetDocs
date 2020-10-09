@@ -11,7 +11,7 @@ public class UnityResolver : IDependencyResolver
     {
         if (container == null)
         {
-            throw new ArgumentNullException("container");
+            throw new ArgumentNullException(nameof(container));
         }
         this.container = container;
     }
@@ -22,9 +22,11 @@ public class UnityResolver : IDependencyResolver
         {
             return container.Resolve(serviceType);
         }
-        catch (ResolutionFailedException)
+        catch (ResolutionFailedException exception)
         {
-            return null;
+            throw new InvalidOperationException(
+                $"Unable to resolve service for type {serviceType}.",
+                exception)
         }
     }
 
@@ -34,9 +36,11 @@ public class UnityResolver : IDependencyResolver
         {
             return container.ResolveAll(serviceType);
         }
-        catch (ResolutionFailedException)
+        catch (ResolutionFailedException exception)
         {
-            return new List<object>();
+            throw new InvalidOperationException(
+                $"Unable to resolve service for type {serviceType}.",
+                exception)
         }
     }
 
