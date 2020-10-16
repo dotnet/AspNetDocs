@@ -10,7 +10,7 @@ ms.assetid: c9f1d52c-b4bd-4b5d-b7f9-8f9ceaf778c4
 ---
 # Migrating ASP.NET MVC Applications to Windows Containers
 
-Running an existing .NET Framework-based application in a Windows container doesn't require any changes to your app. To run your app in a Windows container you create a Docker image containing your app and start the container. This topic explains how to take an existing [ASP.NET MVC application](http://www.asp.net/mvc) and deploy it in a Windows container.
+Running an existing .NET Framework-based application in a Windows container doesn't require any changes to your app. To run your app in a Windows container you create a Docker image containing your app and start the container. This topic explains how to take an existing [ASP.NET MVC application](https://dotnet.microsoft.com/apps/aspnet/mvc) and deploy it in a Windows container.
 
 You start with an existing ASP.NET MVC app, then build the published assets using Visual Studio. You use Docker to create the image that contains and runs your app. You'll browse to the site running in a Windows container and verify the app is working.
 
@@ -96,7 +96,7 @@ docker build -t mvcrandomanswers .
 ```
 
 This command will build the new image using the instructions in your
-Dockerfile, naming (-t tagging) the image as mvcrandomanswers. This may include pulling the base image from [Docker Hub](http://hub.docker.com),
+Dockerfile, naming (-t tagging) the image as mvcrandomanswers. This may include pulling the base image from [Docker Hub](https://hub.docker.com),
 and then adding your app to that image.
 
 Once that command completes, you can run the `docker images` command

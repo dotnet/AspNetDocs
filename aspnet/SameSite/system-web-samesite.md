@@ -112,7 +112,7 @@ The specific behavior change for .NET Framework is how the `SameSite` property i
 * Before the patch a value of `None` meant:
   * Do not emit the attribute at all.
 * After the patch:
-  * A value of `None`it means "Emit the attribute with a value of `None`".
+  * A value of `None` means "Emit the attribute with a value of `None`".
   * A `SameSite` value of `(SameSiteMode)(-1)` causes the attribute not to be emitted.
 
 The default SameSite value for forms authentication and session state cookies was changed from `None` to `Lax`.
