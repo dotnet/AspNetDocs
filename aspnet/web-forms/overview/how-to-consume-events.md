@@ -1,15 +1,14 @@
 ---
 title: "How to: Consume Events in a Web Forms Application"
 ms.date: "03/30/2017"
-ms.technology: dotnet-standard
 dev_langs: 
   - "csharp"
   - "vb"
 helpviewer_keywords: 
-  - "events [.NET], Web Forms"
+  - "events [ASP.NET], Web Forms"
   - "Web Forms controls, and events"
-  - "event handlers [.NET], Web Forms"
-  - "events [.NET], consuming"
+  - "event handlers [ASP.NET], Web Forms"
+  - "events [ASP.NET], consuming"
   - "Web Forms, event handling"
 ms.assetid: 73bf8638-c4ec-4069-b0bb-a1dc79b92e32
 ---
@@ -46,4 +45,5 @@ A common scenario in ASP.NET Web Forms applications is to populate a webpage wit
   
 ## See also
 
-- [Events](index.md)
+- [Examine the Events Associated with Inserting, Updating, and Deleting](data-access/editing-inserting-and-deleting-data/examining-the-events-associated-with-inserting-updating-and-deleting-cs.md)
+- [Events in .NET](/dotnet/standard/index.md)
