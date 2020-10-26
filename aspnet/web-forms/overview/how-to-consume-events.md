@@ -1,5 +1,8 @@
 ---
 title: "How to: Consume Events in a Web Forms Application"
+description: Learn how to handle button-click events in ASP.NET Web Forms apps.
+author: rick-anderson
+ms.author: riande
 ms.date: "03/30/2017"
 dev_langs: 
   - "csharp"
