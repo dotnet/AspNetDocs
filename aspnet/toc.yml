@@ -40,6 +40,8 @@
               href: web-forms/overview/getting-started/creating-a-basic-web-forms-page.md
             - name: Code Editing ASP.NET Web Forms in Visual Studio 2013
               href: web-forms/overview/getting-started/code-editing-in-web-forms-pages.md
+            - name: "How to: Consume Events"
+              href: web-forms/overview/how-to-consume-events.md
             - name: Using Page Inspector for Visual Studio 2012 in ASP.NET Web Forms
               href: web-forms/overview/getting-started/using-page-inspector-in-a-visual-studio-11-beta-web-forms-project.md
             - name: Visual Studio 2012 Hands On Labs

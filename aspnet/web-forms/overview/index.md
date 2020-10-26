@@ -27,6 +27,7 @@ msc.type: book
         - [ASP.NET Error Handling](getting-started/getting-started-with-aspnet-45-web-forms/aspnet-error-handling.md)
     - [Creating a Basic Web Forms Page in Visual Studio 2013](getting-started/creating-a-basic-web-forms-page.md)
     - [Code Editing ASP.NET Web Forms in Visual Studio 2013](getting-started/code-editing-in-web-forms-pages.md)
+    - [How to: Consume events in a Web Forms app](how-to-consume-events.md)
     - [Using Page Inspector for Visual Studio 2012 in ASP.NET Web Forms](getting-started/using-page-inspector-in-a-visual-studio-11-beta-web-forms-project.md)
     - [Visual Studio 2012 Hands On Labs](getting-started/hands-on-labs/index.md)
 
