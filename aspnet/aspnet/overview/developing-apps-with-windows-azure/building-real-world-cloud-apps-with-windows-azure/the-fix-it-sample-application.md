@@ -226,7 +226,7 @@ There are two ways to run the Fix It app:
 ### Run the application with queue processing
 
 1. Follow the directions for [Run the base application](#runbase), and then close the browser and close Visual Studio.
-2. Start Visual Studio with administrator privileges. (You'll be using the Azure compute emulator, and that requires administrator privileges.)
+2. Start Visual Studio with administrator privileges. (You'll be using the Azure Compute Emulator, and that requires administrator privileges.)
 3. In the application *Web.config* file in the *MyFixIt* project (the web project), change the value of `appSettings/UseQueues` to "true":
 
     [!code-console[Main](the-fix-it-sample-application/samples/sample19.cmd?highlight=3)]
@@ -246,7 +246,7 @@ There are two ways to run the Fix It app:
    6. Click **OK**.
    7. Press **F5** to run both projects.
 
-      When you run the MyFixItCloudService project, Visual Studio starts the Azure compute emulator. Depending on your firewall configuration, you might need to allow the emulator through the firewall.
+      When you run the MyFixItCloudService project, Visual Studio starts the Azure Compute Emulator. Depending on your firewall configuration, you might need to allow the emulator through the firewall.
 
 <a id="deploybase"></a>
 ## How to deploy the base app to Azure App Service Web Apps by using the Windows PowerShell scripts
