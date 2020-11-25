@@ -28,7 +28,7 @@ by [Mike Wasson](https://github.com/MikeWasson)
 
 ## Create a Microsoft Azure Project
 
-Start Visual Studio with administrator privileges. Administrator privileges are needed to debug the application locally, using the Azure compute emulator.
+Start Visual Studio with administrator privileges. Administrator privileges are needed to debug the application locally, using the Azure Compute Emulator.
 
 On the **File** menu, click **New**, then click **Project**. From **Installed Templates**, under Visual C#, click **Cloud** and then click **Windows Azure Cloud Service**. Name the project "AzureApp" and click **OK**.
 
