@@ -169,7 +169,7 @@ The code above uses the model data to create a new user account using the email 
 
 ## Set up email confirmation
 
-Go to the [Azure SendGrid sign up page](https://azure.microsoft.com/gallery/store/sendgrid/sendgrid-azure/) and register for free account. Add code similar to the following to configure SendGrid:
+Go to the SendGrid sign up page and register for free account. Add code similar to the following to configure SendGrid:
 
 [!code-csharp[Main](account-confirmation-and-password-recovery-with-aspnet-identity/samples/sample7.cs?highlight=5)]
 
