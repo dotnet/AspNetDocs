@@ -97,7 +97,7 @@ A model binder gets raw input values from a *value provider*. This design separa
 The default value provider in Web API gets values from the route data and the query string. For example, if the URI is `http://localhost/api/values/1?location=48,-122`, the value provider creates the following key-value pairs:
 
 - id = &quot;1&quot;
-- location = &quot;48,122&quot;
+- location = &quot;48,-122&quot;
 
 (I'm assuming the default route template, which is &quot;api/{controller}/{id}&quot;.)
 
