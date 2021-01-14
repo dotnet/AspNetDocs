@@ -213,7 +213,6 @@ The secrets file has the following format:
     [mode|prefix|stripPrefix|tokenPattern]
     (vaultName="MyVaultName" |
      uri="https:/MyVaultName.vault.azure.net")
-    [connectionString="connection string"]
     [version="secrets version"]
     [preloadSecretNames="true"]
     type="Microsoft.Configuration.ConfigurationBuilders.AzureKeyVaultConfigBuilder,
@@ -225,7 +224,6 @@ The [AzureKeyVaultConfigBuilder](https://www.nuget.org/packages/Microsoft.Config
 `vaultName` is required (either the name of the vault or a URI to the vault). The other attributes allow control about which vault to connect to, but are only necessary if the application is not running in an environment that works with `Microsoft.Azure.Services.AppAuthentication`. The Azure Services Authentication library is used to automatically pick up connection information from the execution environment if possible. You can override automatically pick up of connection information by providing a connection string.
 
 * `vaultName` - Required if `uri` in not provided. Specifies the name of the vault in your Azure subscription from which to read key/value pairs.
-* `connectionString` - A connection string usable by [AzureServiceTokenProvider](https://docs.microsoft.com/azure/key-vault/service-to-service-authentication#connection-string-support)
 * `uri` - Connects to other Key Vault providers with the specified `uri` value. If not specified, Azure (`vaultName`) is the vault provider.
 * `version` - Azure Key Vault provides a versioning feature for secrets. If `version` is specified, the builder only retrieves secrets matching this version.
 * `preloadSecretNames` - By default, this builder querys **all** key names in the key vault when it is initialized. To prevent reading all key values, set this attribute to `false`. Setting this to `false` reads secrets one at a time. Reading secrets one at a time can useful if the vault allows "Get" access but not "List" access. **Note:** When using `Greedy` mode, `preloadSecretNames` must be `true` (the default.)
