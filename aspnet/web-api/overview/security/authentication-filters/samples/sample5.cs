@@ -54,3 +54,9 @@ private Nullable<(string UserName, string Password)> ExtractUserNameAndPassword(
     string[] values = userNamePassword.Split(':');
     return (values[0], values[1]);
 }
+
+private IPrincipal AuthenticateAsync(string userName, string password, CancellationToken cancellationToken)
+{
+    // sample generic principle creation.
+    return new GenericPrincipal(new GenericIdentity(userName), new string[] { "admin" });
+}
