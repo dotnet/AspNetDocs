@@ -25,14 +25,14 @@ public async Task AuthenticateAsync(HttpAuthenticationContext context, Cancellat
         return;
     }
 
-    Tuple<string, string> userNameAndPassword = ExtractUserNameAndPassword(authorization.Parameter);
+    Nullable<(string UserName, string Password)> userNameAndPassword = ExtractUserNameAndPassword(authorization.Parameter);
     if (userNameAndPassword == null)
     {
         context.ErrorResult = new AuthenticationFailureResult("Invalid credentials", request);
     }
 
-    string userName = userNameAndPassword.Item1;
-    string password = userNameAndPassword.Item2;
+    string userName = userNameAndPassword.Value.UserName;
+    string password = userNameAndPassword.Value.Password;
 
     IPrincipal principal = await AuthenticateAsync(userName, password, cancellationToken);
     if (principal == null)
@@ -46,4 +46,11 @@ public async Task AuthenticateAsync(HttpAuthenticationContext context, Cancellat
         context.Principal = principal;
     }
 
+}
+
+private Nullable<(string UserName, string Password)> ExtractUserNameAndPassword(string parameter)
+{
+    string userNamePassword = Encoding.UTF8.GetString(Convert.FromBase64String(parameter));
+    string[] values = userNamePassword.Split(':');
+    return (values[0], values[1]);
 }
