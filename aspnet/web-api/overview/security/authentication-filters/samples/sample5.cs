@@ -47,3 +47,10 @@ public async Task AuthenticateAsync(HttpAuthenticationContext context, Cancellat
     }
 
 }
+
+private Nullable<(string UserName, string Password)> ExtractUserNameAndPassword(string parameter)
+{
+    string userNamePassword = Encoding.UTF8.GetString(Convert.FromBase64String(parameter));
+    string[] values = userNamePassword.Split(':');
+    return (values[0], values[1]);
+}
