@@ -13,8 +13,6 @@ msc.type: authoredcontent
 
 by [Rick Anderson](https://twitter.com/RickAndMSFT)
 
-[Download Completed Project](https://code.msdn.microsoft.com/Getting-Started-with-dd0e2ed8)
-
 > The Contoso University sample web application demonstrates how to create ASP.NET MVC 4 applications using the Entity Framework 5 Code First and Visual Studio 2012. For information about the tutorial series, see [the first tutorial in the series](creating-an-entity-framework-data-model-for-an-asp-net-mvc-application.md).
 
 ## Building the Chapter Downloads
