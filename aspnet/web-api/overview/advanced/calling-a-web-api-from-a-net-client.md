@@ -11,7 +11,9 @@ msc.type: authoredcontent
 ---
 # Call a Web API From a .NET Client (C#)
 
-by [Mike Wasson](https://github.com/MikeWasson) and [Rick Anderson](https://twitter.com/RickAndMSFT)
+by [Mike Wasson](https://github.com/MikeWasson)
+
+New developement should use [ASP.NET Core](/aspnet/core/introduction-to-aspnet-core). For more information, see [Make HTTP requests using IHttpClientFactory in ASP.NET Core](/aspnet/core/fundamentals/http-requests)
 
 [Download Completed Project](https://github.com/dotnet/AspNetDocs/tree/master/aspnet/web-api/overview/advanced/calling-a-web-api-from-a-net-client/sample). [Download instructions](/aspnet/core/tutorials/#how-to-download-a-sample). 
 
