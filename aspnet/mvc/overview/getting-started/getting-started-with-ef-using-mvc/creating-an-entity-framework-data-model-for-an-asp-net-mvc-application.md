@@ -33,15 +33,15 @@ This tutorial series explains how to build the Contoso University sample applica
 In this tutorial, you:
 
 > [!div class="checklist"]
-> * Create an MVC web app
-> * Set up the site style
-> * Install Entity Framework 6
-> * Create the data model
-> * Create the database context
-> * Initialize DB with test data
-> * Set up EF 6 to use LocalDB
-> * Create controller and views
-> * View the database
+> * [Create an MVC web app](#Create-an-MVC-web-app)
+> * [Set up the site style](#Set-up-the-site-style)
+> * [Install Entity Framework 6](#Install-Entity-Framework-6)
+> * [Create the data model](#Create-the-data-model)
+> * [Create the database context](#Create-the-database-context)
+> * [Initialize DB with test data](#initialize-db-with-test-data)
+> * [Set up EF 6 to use LocalDB](#Set-up-EF-6-to-use-LocalDB)
+> * [Create controller and views](#Create-controller-and-views)
+> * [View the database](#View-the-database)
 
 ## Prerequisites
 
