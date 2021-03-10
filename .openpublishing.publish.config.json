@@ -6,16 +6,16 @@
       "build_source_folder": "aspnet",
       "build_output_subfolder": "aspnet",
       "locale": "en-us",
+      "xref_query_tags": [
+        "/dotnet",
+        "/aspnet/core"
+      ],
       "open_to_public_contributors": true,
       "type_mapping": {
         "Conceptual": "Content",
         "ManagedReference": "Content",
         "RestApi": "Content"
       },
-      "xref_query_tags": [
-        "/dotnet",
-        "/aspnet/core"
-      ],
       "build_entry_point": "docs",
       "template_folder": "_themes",
       "version": 0
@@ -24,7 +24,7 @@
   "notification_subscribers": [],
   "sync_notification_subscribers": [],
   "branches_to_filter": [],
-  "git_repository_branch_open_to_public_contributors": "master",
+  "git_repository_branch_open_to_public_contributors": "main",
   "skip_source_output_uploading": false,
   "need_preview_pull_request": true,
   "need_pr_comments": false,
@@ -59,9 +59,9 @@
       "template_folder": "_themes.pdf"
     }
   },
-  "need_generate_pdf": false,
-  "need_generate_intellisense": false,
   "docs_build_engine": {
     "name": "docfx_v3"
-  }
+  },
+  "need_generate_pdf": false,
+  "need_generate_intellisense": false
 }
