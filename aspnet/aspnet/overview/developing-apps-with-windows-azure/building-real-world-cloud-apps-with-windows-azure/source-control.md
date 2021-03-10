@@ -173,7 +173,7 @@ You can now make changes to files and check them in to this branch. And you can 
 
 If you switch back to the *main* branch, the contents of the *\_Layout.cshtml* file automatically revert to what they are in the *main* branch.
 
-![Master branch](source-control/_static/image19.png)
+![main branch](source-control/_static/image19.png)
 
 This a simple example of how you can quickly create a branch and flip back and forth between branches. This feature enables a highly agile workflow using the branch structure and automation scripts presented in the [Automate Everything](automate-everything.md) chapter. For example, you can be working in the Development branch, create a hot fix branch off of *main*, switch to the new branch, make your changes there and commit them, and then switch back to the Development branch and continue what you were doing.
 
