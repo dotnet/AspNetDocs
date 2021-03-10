@@ -4,7 +4,7 @@
         "(?i).*": "Source - Docs.ms"
       },
       "contentsource": {
-        "(?i).*master\/aspnet\/signalr.*": "SignalR"
+        "(?i).*main\/aspnet\/signalr.*": "SignalR"
       }
     }
   }
