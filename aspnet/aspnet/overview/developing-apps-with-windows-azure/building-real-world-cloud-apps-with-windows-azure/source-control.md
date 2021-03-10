@@ -52,7 +52,7 @@ How you implement branches in your repository affects your ability to both devel
 
 ![Source branch structure](source-control/_static/image1.png)
 
-The master branch always matches code that is in production. Branches underneath master correspond to different stages in the development life cycle. The development branch is where you implement new features. For a small team you might just have master and development, but we often recommend that people have a staging branch between development and master. You can use staging for final integration testing before an update is moved to production.
+The *main* branch always matches code that is in production. Branches underneath *main* correspond to different stages in the development life cycle. The development branch is where you implement new features. For a small team you might just have *main* and development, but we often recommend that people have a staging branch between development and *main*. You can use staging for final integration testing before an update is moved to production.
 
 For big teams there may be separate branches for each new feature; for a smaller team you might have everyone checking in to the development branch.
 
@@ -60,7 +60,7 @@ If you have a branch for each feature, when Feature A is ready you merge its sou
 
 Whether or not you use branches or toggles for features, a branching structure like this enables you to flow your code from development into production in an agile and repeatable way.
 
-This structure also enables you to react quickly to customer feedback. If you need to make a quick fix to production, you can also do that efficiently in an agile way. You can create a branch off of master or staging, and when it's ready merge it up into master and down into development and feature branches.
+This structure also enables you to react quickly to customer feedback. If you need to make a quick fix to production, you can also do that efficiently in an agile way. You can create a branch off of *main* or staging, and when it's ready merge it up into *main* and down into development and feature branches.
 
 ![Hotfix branch](source-control/_static/image2.png)
 
@@ -171,11 +171,11 @@ You can now make changes to files and check them in to this branch. And you can 
 
 ![Hotfix1 branch](source-control/_static/image18.png)
 
-If you switch back to the master branch, the contents of the *\_Layout.cshtml* file automatically revert to what they are in the master branch.
+If you switch back to the *main* branch, the contents of the *\_Layout.cshtml* file automatically revert to what they are in the *main* branch.
 
 ![Master branch](source-control/_static/image19.png)
 
-This a simple example of how you can quickly create a branch and flip back and forth between branches. This feature enables a highly agile workflow using the branch structure and automation scripts presented in the [Automate Everything](automate-everything.md) chapter. For example, you can be working in the Development branch, create a hot fix branch off of master, switch to the new branch, make your changes there and commit them, and then switch back to the Development branch and continue what you were doing.
+This a simple example of how you can quickly create a branch and flip back and forth between branches. This feature enables a highly agile workflow using the branch structure and automation scripts presented in the [Automate Everything](automate-everything.md) chapter. For example, you can be working in the Development branch, create a hot fix branch off of *main*, switch to the new branch, make your changes there and commit them, and then switch back to the Development branch and continue what you were doing.
 
 What you've seen here is how you work with a local Git repository in Visual Studio. In a team environment you typically also push changes up to a common repository. The Visual Studio tools also enable you to point to a remote Git repository. You can use GitHub.com for that purpose, or you can use [Git and Azure Repos](/azure/devops/repos/git/overview?view=vsts) integrated with all the other Azure DevOps capabilities such as work item and bug tracking.
 

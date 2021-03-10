@@ -25,7 +25,7 @@ Moving your application involves these steps:
 1. [Starting a Docker container that runs your image.](#start-a-container)
 1. [Verifying the application using your browser.](#verify-in-the-browser)
 
-The [finished application](https://github.com/dotnet/AspNetDocs/tree/master/aspnet/mvc/overview/deployment/docker-aspnetmvc/samples/MVCRandomAnswerGenerator) is on GitHub.
+The [finished application](https://github.com/dotnet/AspNetDocs/tree/main/aspnet/mvc/overview/deployment/docker-aspnetmvc/samples/MVCRandomAnswerGenerator) is on GitHub.
 
 ## Prerequisites
 
@@ -135,7 +135,7 @@ Once the container starts, connect to the running container using `http://localh
 > Some VPN or proxy software may prevent you from navigating to your site.
 > You can temporarily disable it to make sure your container is working.
 
-The sample directory on GitHub contains a [PowerShell script](https://github.com/dotnet/samples/blob/master/framework/docker/MVCRandomAnswerGenerator/run.ps1) that executes these commands for you. Open a PowerShell window, change directory to your solution directory, and type:
+The sample directory on GitHub contains a [PowerShell script](https://github.com/dotnet/samples/blob/main/framework/docker/MVCRandomAnswerGenerator/run.ps1) that executes these commands for you. Open a PowerShell window, change directory to your solution directory, and type:
 
 ```console
 ./run.ps1
