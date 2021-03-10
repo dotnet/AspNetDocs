@@ -12,7 +12,7 @@ You need a basic understanding of [Git and GitHub.com](https://guides.github.com
 
 * Open an [issue](https://github.com/dotnet/AspNetDocs/issues/new) describing what you want to do, such as changing an existing article or creating a new one. We often request an outline for a new topic suggestion. Wait for approval from the team before you invest much time.
 * Fork the [dotnet/AspNetDocs](https://github.com/dotnet/AspNetDocs/) repository and create a branch for your changes.
-* Submit a PR to master with your changes.
+* Submit a PR to the *main* branch with your changes.
 * If your PR has the label 'cla-required' assigned, [complete the Contribution License Agreement (CLA)](https://cla.dotnetfoundation.org/).
 * Respond to PR feedback.
 
@@ -24,11 +24,11 @@ If you use Visual Studio Code to contribute to the ASP.NET documentation, you ca
 
 ## Markdown syntax
 
-Articles are written in [DocFx-flavored Markdown](https://dotnet.github.io/docfx/spec/docfx_flavored_markdown.html), which is a superset of [GitHub-flavored Markdown (GFM)](https://guides.github.com/features/mastering-markdown/). For examples of DFM syntax for UI features commonly used in the ASP.NET documentation, see [Metadata and Markdown Template](https://github.com/dotnet/docs/blob/master/styleguide/template.md) in the .NET Docs repository style guide.
+Articles are written in [DocFx-flavored Markdown](https://dotnet.github.io/docfx/spec/docfx_flavored_markdown.html), which is a superset of [GitHub-flavored Markdown (GFM)](https://guides.github.com/features/mastering-markdown/). For examples of DFM syntax for UI features commonly used in the ASP.NET documentation, see [Metadata and Markdown Template](https://github.com/dotnet/docs/blob/main/styleguide/template.md) in the .NET Docs repository style guide.
 
 ## Folder structure conventions
 
-For each Markdown file, a folder for images and a folder for sample code may exist. If the article is [signalr/overview/advanced/dependency-injection.md](https://github.com/dotnet/AspNetDocs/blob/master/aspnet/signalr/overview/advanced/dependency-injection.md), the images are in [signalr/overview/advanced/dependency-injection/\_static](https://github.com/dotnet/AspNetDocs/tree/master/aspnet/signalr/overview/advanced/dependency-injection/_static) and the sample app project files are in [signalr/overview/advanced/dependency-injection/samples](https://github.com/dotnet/AspNetDocs/tree/master/aspnet/signalr/overview/advanced/dependency-injection/samples). An image in the *signalr/overview/advanced/dependency-injection.md* file is rendered by the following Markdown:
+For each Markdown file, a folder for images and a folder for sample code may exist. If the article is [signalr/overview/advanced/dependency-injection.md](https://github.com/dotnet/AspNetDocs/blob/main/aspnet/signalr/overview/advanced/dependency-injection.md), the images are in [signalr/overview/advanced/dependency-injection/\_static](https://github.com/dotnet/AspNetDocs/tree/main/aspnet/signalr/overview/advanced/dependency-injection/_static) and the sample app project files are in [signalr/overview/advanced/dependency-injection/samples](https://github.com/dotnet/AspNetDocs/tree/main/aspnet/signalr/overview/advanced/dependency-injection/samples). An image in the *signalr/overview/advanced/dependency-injection.md* file is rendered by the following Markdown:
 
 ```md
 ![description of image for alt attribute](dependency-injection/_static/image1.png)
@@ -149,7 +149,7 @@ DocFX requires:
 
 ## Voice and tone
 
-Our goal is to write documentation that is easily understandable by the widest possible audience. To that end, we established guidelines for writing style that we ask our contributors to follow. For more information, see [Voice and tone guidelines](https://github.com/dotnet/docs/blob/master/styleguide/voice-tone.md) in the .NET repository.
+Our goal is to write documentation that is easily understandable by the widest possible audience. To that end, we established guidelines for writing style that we ask our contributors to follow. For more information, see [Voice and tone guidelines](https://github.com/dotnet/docs/blob/main/styleguide/voice-tone.md) in the .NET repository.
 
 ## Microsoft Writing Style Guide
 
@@ -157,4 +157,4 @@ The [Microsoft Writing Style Guide](https://docs.microsoft.com/style-guide/welco
 
 ## Redirects
 
-If you delete an article, change its file name, or move it to a different folder, create a redirect so that people who bookmarked the article don't receive a *404 Not Found* error. Add redirects to the [master redirect file](https://github.com/dotnet/AspNetDocs/blob/master/.openpublishing.redirection.json).
+If you delete an article, change its file name, or move it to a different folder, create a redirect so that people who bookmarked the article don't receive a *404 Not Found* error. Add redirects to the [main redirect file](https://github.com/dotnet/AspNetDocs/blob/main/.openpublishing.redirection.json).
