@@ -833,6 +833,21 @@ The following releases of [Respond](https://github.com/scottjehl/Respond "Respon
 
 The following releases of [getbootstrap.com](http://getbootstrap.com "getbootstrap.com") bootstrap are hosted on the CDN:
 
+#### Bootstrap version 4.6.0
+
+- https://ajax.aspnetcdn.com/ajax/bootstrap/4.6.0/bootstrap.js
+- https://ajax.aspnetcdn.com/ajax/bootstrap/4.6.0/bootstrap.min.js
+- https://ajax.aspnetcdn.com/ajax/bootstrap/4.6.0/bootstrap.bundle.js
+- https://ajax.aspnetcdn.com/ajax/bootstrap/4.6.0/css/bootstrap.css
+- https://ajax.aspnetcdn.com/ajax/bootstrap/4.6.0/css/bootstrap.css.map
+- https://ajax.aspnetcdn.com/ajax/bootstrap/4.6.0/css/bootstrap.min.css
+- https://ajax.aspnetcdn.com/ajax/bootstrap/4.6.0/css/bootstrap-grid.css
+- https://ajax.aspnetcdn.com/ajax/bootstrap/4.6.0/css/bootstrap-grid.min.css
+- https://ajax.aspnetcdn.com/ajax/bootstrap/4.6.0/css/bootstrap-grid.css.map
+- https://ajax.aspnetcdn.com/ajax/bootstrap/4.6.0/css/bootstrap-reboot.css
+- https://ajax.aspnetcdn.com/ajax/bootstrap/4.6.0/css/bootstrap-reboot.min.css
+- https://ajax.aspnetcdn.com/ajax/bootstrap/4.6.0/css/bootstrap-reboot.css.map
+
 #### Bootstrap version 4.5.2
 
 - https://ajax.aspnetcdn.com/ajax/bootstrap/4.5.2/bootstrap.js
