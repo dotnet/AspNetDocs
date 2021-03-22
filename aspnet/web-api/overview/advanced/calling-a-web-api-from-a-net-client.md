@@ -29,7 +29,7 @@ In this tutorial, a client app is written that consumes the following web API:
 To learn how to implement this API with ASP.NET Web API, see [Creating a Web API that Supports CRUD Operations](xref:web-api/overview/getting-started-with-aspnet-web-api/tutorial-your-first-web-api
 ).
 
-For simplicity, the client application in this tutorial is a Windows console application. **HttpClient** is also supported for Windows Phone and Windows Store apps. For more information, see [Writing Web API Client Code for Multiple Platforms Using Portable Libraries](https://blogs.msdn.com/b/webdev/archive/2013/07/19/writing-web-api-client-code-for-multiple-platforms-using-portable-libraries.aspx)
+For simplicity, the client application in this tutorial is a Windows console application. **HttpClient** is also supported for Windows Phone and Windows Store apps. For more information, see [Writing Web API Client Code for Multiple Platforms Using Portable Libraries](https://devblogs.microsoft.com/aspnet/writing-web-api-client-code-for-multiple-platforms-using-portable-libraries/)
 
 **NOTE:** If you pass base URLs and relative URIs as hard-coded values, be mindful of the rules for utilizing the `HttpClient` API. The `HttpClient.BaseAddress` property should be set to an address with a trailing forward slash (`/`). For example, when passing hard-coded resource URIs to the `HttpClient.GetAsync` method, don't include a leading forward slash. To get a `Product` by ID:
 
