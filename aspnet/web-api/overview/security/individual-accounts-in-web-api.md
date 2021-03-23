@@ -116,7 +116,7 @@ The **Register** button sends a POST request to ~/api/Account/Register/. The req
 
 [!code-javascript[Main](individual-accounts-in-web-api/samples/sample4.js)]
 
-HTTP request:
+HTTP request, where `$CREDENTIAL_PLACEHOLDER$` is a placeholder for the password key-value pair. :
 
 [!code-console[Main](individual-accounts-in-web-api/samples/sample5.cmd?highlight=5,10)]
 

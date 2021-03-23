@@ -7,4 +7,4 @@ X-Requested-With: XMLHttpRequest
 Referer: https://localhost:44305/
 Content-Length: 84
 
-{"Email":"alice@example.com","Password":"Password1!","ConfirmPassword":"Password1!"}
+{"Email":"alice@example.com","Password":$CREDENTIAL_PLACEHOLDER$,"ConfirmPassword":"$CREDENTIAL_PLACEHOLDER$"}
