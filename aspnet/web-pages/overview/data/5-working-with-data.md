@@ -360,7 +360,7 @@ This section shows how to let users delete a product from the *Product* database
 > 
 > The second way is to use a connection string. A connection string contains information about how to connect to a database. This can include a file path, or it can include the name of a SQL Server database on a local or remote server, along with a user name and password to connect to that server. (If you keep data in a centrally managed version of SQL Server, such as on a hosting provider's site, you always use a connection string to specify the database connection information.)
 > 
-> In WebMatrix, connection strings are usually stored in an XML file named *Web.config*. As the name implies, you can use a *Web.config* file in the root of your website to store the site's configuration information, including any connection strings that your site might require. An example of a connection string in a *Web.config* file might look like the following:
+> In WebMatrix, connection strings are usually stored in an XML file named *Web.config*. As the name implies, you can use a *Web.config* file in the root of your website to store the site's configuration information, including any connection strings that your site might require. An example of a connection string in a *Web.config* file might look like the following, where `$CREDENTIAL_PLACEHOLDER$` is a placeholder for the password key/value pair:
 > 
 > [!code-xml[Main](5-working-with-data/samples/sample27.xml)]
 > 

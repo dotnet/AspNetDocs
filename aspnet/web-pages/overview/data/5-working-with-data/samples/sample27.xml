@@ -3,7 +3,7 @@
   <connectionStrings>
    <add
      name="SQLServerConnectionString"
-     connectionString= "server=myServer;database=myDatabase;uid=username;pwd=password"
+     connectionString= "server=myServer;database=myDatabase;uid=username;pwd=$CREDENTIAL_PLACEHOLDER$"
      providerName="System.Data.SqlClient" />
   </connectionStrings>
 </configuration>
