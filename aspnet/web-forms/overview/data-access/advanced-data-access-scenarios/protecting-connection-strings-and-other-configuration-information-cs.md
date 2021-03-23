@@ -164,9 +164,9 @@ These tutorials have used Windows authentication. You can tell what authenticati
 
 The Integrated Security=True and lack of a username and password indicate that Windows authentication is being used. In some connection strings the term Trusted Connection=Yes or Integrated Security=SSPI is used instead of Integrated Security=True, but all three indicate the use of Windows authentication.
 
-The following example shows a connection string that uses SQL authentication. Note the credentials embedded within the connection string:
+The following example shows a connection string that uses SQL authentication, and where `$CREDENTIAL_PLACEHOLDER$` is a placeholder for the password key-value pair. Note the credentials are embedded within the connection string:
 
-`Server=serverName; Database=Northwind; uid=userID; pwd=password`
+`Server=serverName; Database=Northwind; uid=userID; pwd=$CREDENTIAL_PLACEHOLDER$`
 
 Imagine that an attacker is able to view your application s `Web.config` file. If you use SQL authentication to connect to a database that is accessible over the Internet, the attacker can use this connection string to connect to your database through SQL Management Studio or from ASP.NET pages on their own website. To help mitigate this threat, encrypt the connection string information in `Web.config` using the protected configuration system.
 
