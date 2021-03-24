@@ -7,4 +7,4 @@ X-Requested-With: XMLHttpRequest
 Referer: https://localhost:44305/
 Content-Length: 84
 
-{"Email":"alice@example.com",$CREDENTIAL_PLACEHOLDER`$,$CREDENTIAL_PLACEHOLDER2$"}
+{"Email":"alice@example.com",$CREDENTIAL_PLACEHOLDER1$,$CREDENTIAL_PLACEHOLDER2$"}
