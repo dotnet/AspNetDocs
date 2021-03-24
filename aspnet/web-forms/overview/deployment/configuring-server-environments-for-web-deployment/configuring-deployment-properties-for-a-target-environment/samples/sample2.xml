@@ -8,7 +8,7 @@
       FABRIKAM\stagingdeployer
     </MSDeployUsername>
     <MSDeployPassword Condition=" '$(MSDeployPassword)'=='' ">
-      $CREDENTIAL_PLACEHOLDER$
+      Pa$$w0rd
     </MSDeployPassword>
     <ContactManagerTargetUrl Condition =" '$(ContactManagerTargetUrl)'=='' ">
       http://localhost:85/ContactManagerService/ContactService.svc
