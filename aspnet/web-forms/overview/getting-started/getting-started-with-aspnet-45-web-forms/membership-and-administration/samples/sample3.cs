@@ -41,7 +41,7 @@ namespace WingtipToys.Logic
         UserName = "canEditUser@wingtiptoys.com",
         Email = "canEditUser@wingtiptoys.com"
       };
-      IdUserResult = userMgr.Create(appUser, Configuration["MyPasswordKey"]);
+      IdUserResult = userMgr.Create(appUser, Configuration["AppUserPasswordKey"]);
 
       // If the new "canEdit" user was successfully created, 
       // add the "canEdit" user to the "canEdit" role. 
