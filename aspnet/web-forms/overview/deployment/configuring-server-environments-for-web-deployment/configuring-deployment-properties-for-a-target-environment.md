@@ -89,7 +89,6 @@ In this example:
 - You're instructing Web Deploy to use basic authentication.
 - You're specifying that Web Deploy should impersonate the FABRIKAM\stagingdeployer account on the remote computer.
 - You're using SQL Server authentication to deploy the **ContactManager** database to STAGEDB1.
-- Note that `$CREDENTIAL_PLACEHOLDER$` is a placeholder for the password key-value pair.
 
 [!code-xml[Main](configuring-deployment-properties-for-a-target-environment/samples/sample2.xml)]
 
