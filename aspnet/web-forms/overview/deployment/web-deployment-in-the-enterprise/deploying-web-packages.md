@@ -121,7 +121,7 @@ In addition, you'll need to specify various other [provider-specific settings](h
 1. Build and package the web application project, as described in [Building and Packaging Web Application Projects](building-and-packaging-web-application-projects.md).
 2. Modify the *ContactManager.Mvc.SetParameters.xml* file to contain the correct parameter values for your staging environment, as described in [Configuring Parameters for Web Package Deployment](configuring-parameters-for-web-package-deployment.md).
 3. Open a Command Prompt window and browse to the location of MSDeploy.exe. This is typically at %PROGRAMFILES%\IIS\Microsoft Web Deploy V2\msdeploy.exe.
-4. Type this command, where `$CREDENTIAL_PLACEHOLDER$` is a placeholder for the password key-value pair. Then press Enter (disregard the line breaks):
+4. Type this command, and then press Enter (disregard the line breaks):
 
     [!code-console[Main](deploying-web-packages/samples/sample7.cmd)]
 
