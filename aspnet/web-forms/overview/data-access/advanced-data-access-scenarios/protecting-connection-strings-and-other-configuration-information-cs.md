@@ -164,7 +164,7 @@ These tutorials have used Windows authentication. You can tell what authenticati
 
 The Integrated Security=True and lack of a username and password indicate that Windows authentication is being used. In some connection strings the term Trusted Connection=Yes or Integrated Security=SSPI is used instead of Integrated Security=True, but all three indicate the use of Windows authentication.
 
-The following example shows a connection string that uses SQL authentication. The `$CREDENTIAL_PLACEHOLDER$` is a placeholder for the password key-value pair. Note the credentials are embedded within the connection string:
+The following example shows a connection string that uses SQL authentication. `$CREDENTIAL_PLACEHOLDER$` is a placeholder for the password key-value pair. Note the credentials are embedded within the connection string:
 
 `Server=serverName; Database=Northwind; uid=userID; $CREDENTIAL_PLACEHOLDER$`
 
