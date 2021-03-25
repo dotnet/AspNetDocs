@@ -5,6 +5,7 @@ using System.Web;
 using WingtipToys.Models;
 using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.EntityFramework;
+using System.Configuration;
 
 namespace WingtipToys.Logic
 {
@@ -41,7 +42,7 @@ namespace WingtipToys.Logic
         UserName = "canEditUser@wingtiptoys.com",
         Email = "canEditUser@wingtiptoys.com"
       };
-      IdUserResult = userMgr.Create(appUser, Configuration["AppUserPasswordKey"]);
+      IdUserResult = userMgr.Create(appUser, ConfigurationManager.AppSettings["AppUserPasswordKey"]);
 
       // If the new "canEdit" user was successfully created, 
       // add the "canEdit" user to the "canEdit" role. 
