@@ -197,7 +197,7 @@ By default, the keys used for encryption and validation are generated automatica
 
 When working in a web farm setting or sharing authentication tickets across applications on the same server, you will need to configure the &lt;machineKey&gt; element in the affected applications so that their decryptionKey and validationKey values match up.
 
-While neither of the above scenarios applies to our sample application, we can still specify explicit decryptionKey and validationKey values and define the algorithms to be used. Add a &lt;machineKey&gt; setting to the Web.config file. Note the following example is using `$CREDENTIAL_PLACEHOLDER$` as placeholder for the `decryptionKey` and `validationKey` key-value pairs:
+While neither of the above scenarios applies to our sample application, we can still specify explicit decryptionKey and validationKey values and define the algorithms to be used. Add a &lt;machineKey&gt; setting to the Web.config file:
 
 [!code-xml[Main](forms-authentication-configuration-and-advanced-topics-cs/samples/sample5.xml)]
 
