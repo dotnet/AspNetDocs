@@ -54,11 +54,11 @@ Next, specify the various database connection information (see Figure 2). When y
 
 **Figure 2**: Specify the Database Connection Information ([Click to view full-size image](configuring-the-production-web-application-to-use-the-production-database-cs/_static/image6.jpg))
 
-The production environment database should now be listed in the Server Explorer. Select the database from the Server Explorer and go to the Properties window. There you will find a property named Connection String with the database s connection string. Assuming you are using a Microsoft SQL Server database on production and the SqlClient provider your connection string should look similar to the following. `$CREDENTIAL_PLACEHOLDER$` is a placeholder for the password key-value pair:
+The production environment database should now be listed in the Server Explorer. Select the database from the Server Explorer and go to the Properties window. There you will find a property named Connection String with the database s connection string. Assuming you are using a Microsoft SQL Server database on production and the SqlClient provider your connection string should look similar to the following:
 
-`Data Source=<em>serverName</em>; Initial Catalog=<em>databaseName</em>; Persist Security Info=True; User ID=<em>username</em>; $CREDENTIAL_PLACEHOLDER$`
+<strong>Data Source=<em>serverName</em>; Initial Catalog=<em>databaseName</em>; Persist Security Info=True; User ID=<em>username</em>; Password=*password</strong>*
 
-Where *serverName*, *databaseName*, *username*, and *$CREDENTIAL_PLACEHOLDER$* are with the values for the database server name, the database name, and the username and password supplied to you by your web host company.
+Where *serverName*, *databaseName*, *username*, and *password* are with the values for the database server name, the database name, and the username and password supplied to you by your web host company.
 
 ## Deploying the Book Reviews Web Application
 
