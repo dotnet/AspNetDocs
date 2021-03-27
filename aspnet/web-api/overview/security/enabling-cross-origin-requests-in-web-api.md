@@ -16,8 +16,8 @@ By [Mike Wasson](https://github.com/MikeWasson)
 
 This content is for a previous version of .NET. New development should use [ASP.NET Core](/aspnet/core/introduction-to-aspnet-core). For more information on using Web API and Cross-Origin Requests (CORS) in ASP.NET Core, see:
 
-* [Tutorial: Create a web API with ASP.NET Core](xref:/aspnet/core/tutorials/first-web-api)
-* [Enable Cross-Origin Requests (CORS) in ASP.NET Core](xref:/aspnet/core/security/cors)
+* [Tutorial: Create a web API with ASP.NET Core](/aspnet/core/tutorials/first-web-api)
+* [Enable Cross-Origin Requests (CORS) in ASP.NET Core](/aspnet/core/security/cors)
 
 Browser security prevents a web page from making AJAX requests to another domain. This restriction is called the *same-origin policy*, and prevents a malicious site from reading sensitive data from another site. However, sometimes you might want to let other sites call your web API.
 
