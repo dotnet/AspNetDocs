@@ -80,7 +80,7 @@ In this example:
 - You're using integrated authentication to deploy the **ContactManager** database to TESTDB1. The database will be deployed using the credentials you used to invoke MSBuild.
 
 [!code-xml[Main](configuring-deployment-properties-for-a-target-environment/samples/sample1.xml)]
-<!--
+
 ### Example 2&#x2014;Deployment to the Web Deploy Handler Endpoint
 
 In this example:
@@ -91,7 +91,7 @@ In this example:
 - You're using SQL Server authentication to deploy the **ContactManager** database to STAGEDB1.
 
 [!code-xml[Main](configuring-deployment-properties-for-a-target-environment/samples/sample2.xml)]
--->
+
 ## Conclusion
 
 At this point, your project files are fully configured to build and deploy the Contact Manager solution to one or more destination environments.
