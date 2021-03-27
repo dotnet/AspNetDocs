@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using System.Configuration;
 using System.Linq;
 using System.Web;
 using WingtipToys.Models;
@@ -41,7 +42,7 @@ namespace WingtipToys.Logic
         UserName = "canEditUser@wingtiptoys.com",
         Email = "canEditUser@wingtiptoys.com"
       };
-      IdUserResult = userMgr.Create(appUser, "Pa$$word1");
+      IdUserResult = userMgr.Create(appUser, ConfigurationManager.AppSettings["AppUserPasswordKey"]);
 
       // If the new "canEdit" user was successfully created, 
       // add the "canEdit" user to the "canEdit" role. 
