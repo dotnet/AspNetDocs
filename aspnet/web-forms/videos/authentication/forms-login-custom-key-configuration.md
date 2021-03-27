@@ -13,7 +13,7 @@ msc.type: video
 
 by [Joe Stagner](https://github.com/JoeStagner)
 
-Joe Stagner will examine the machine key setting in your ASP.NET application. For more information on this demo, a tutorial is located [here](../../overview/older-versions-security/introduction/forms-authentication-configuration-and-advanced-topics-vb.md).
+Joe Stagner will examine the machine key setting in your ASP.NET application.
 
 [&#9654; Watch video (7 minutes)](https://channel9.msdn.com/Blogs/ASP-NET-Site-Videos/forms-login-custom-key-configuration)
 

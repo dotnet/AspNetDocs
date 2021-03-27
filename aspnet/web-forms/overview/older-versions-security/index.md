@@ -17,10 +17,8 @@ msc.type: chapter
 
     - [Security Basics and ASP.NET Support (C#)](introduction/security-basics-and-asp-net-support-cs.md)
     - [Overview of Forms Authentication (C#)](introduction/an-overview-of-forms-authentication-cs.md)
-    - [Forms Authentication Configuration and Advanced Topics (C#)](introduction/forms-authentication-configuration-and-advanced-topics-cs.md)
     - [Security Basics and ASP.NET Support (VB)](introduction/security-basics-and-asp-net-support-vb.md)
     - [Overview of Forms Authentication (VB)](introduction/an-overview-of-forms-authentication-vb.md)
-    - [Forms Authentication Configuration and Advanced Topics (VB)](introduction/forms-authentication-configuration-and-advanced-topics-vb.md)
 - [ASP.NET 3.5 - Membership](membership/index.md)
 
     - [Creating the Membership Schema in SQL Server (C#)](membership/creating-the-membership-schema-in-sql-server-cs.md)

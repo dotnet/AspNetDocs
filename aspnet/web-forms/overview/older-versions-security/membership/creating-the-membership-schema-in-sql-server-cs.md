@@ -207,7 +207,7 @@ Table 1 illustrates what these three columns might look like for the various sto
 **Table 1**: Example Values for the Password-Related Fields When Storing the Password MySecret!
 
 > [!NOTE]
-> The particular encryption or hashing algorithm used by the `SqlMembershipProvider` is determined by the settings in the `<machineKey>` element. We discussed this configuration element in Step 3 of the <a id="Tutorial3"></a>[*Forms Authentication Configuration and Advanced Topics*](../introduction/forms-authentication-configuration-and-advanced-topics-cs.md) tutorial.
+> The particular encryption or hashing algorithm used by the `SqlMembershipProvider` is determined by the settings in the `<machineKey>` element.
 
 ### Storing Roles and Role Associations
 

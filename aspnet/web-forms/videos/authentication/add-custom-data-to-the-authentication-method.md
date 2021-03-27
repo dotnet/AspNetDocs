@@ -13,7 +13,7 @@ msc.type: video
 
 by [Joe Stagner](https://github.com/JoeStagner)
 
-Joe Stagner will continue the exploration of ASP.NET authentication by configuring the authentication method to add custom data to the authentication ticket that is used by ASP.NET. For more information on this demo, a tutorial is located [here](../../overview/older-versions-security/introduction/forms-authentication-configuration-and-advanced-topics-vb.md).
+Joe Stagner will continue the exploration of ASP.NET authentication by configuring the authentication method to add custom data to the authentication ticket that is used by ASP.NET.
 
 [&#9654; Watch video (14 minutes)](https://channel9.msdn.com/Blogs/ASP-NET-Site-Videos/add-custom-data-to-the-authentication-method)
 
