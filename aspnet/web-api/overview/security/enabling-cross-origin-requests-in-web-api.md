@@ -32,7 +32,7 @@ Browser security prevents a web page from making AJAX requests to another domain
 
 This tutorial demonstrates CORS support in ASP.NET Web API. We'll start by creating two ASP.NET projects – one called "WebService", which hosts a Web API controller, and the other called "WebClient", which calls WebService. Because the two applications are hosted at different domains, an AJAX request from WebClient to WebService is a cross-origin request.
 
-![](enabling-cross-origin-requests-in-web-api/_static/image1.png)
+![Shows web service and web client](enabling-cross-origin-requests-in-web-api/_static/image1.png)
 
 ### What is "same origin"?
 

@@ -5,7 +5,6 @@ author: MikeWasson
 description: "This tutorial shows how to call a web API from a .NET 4.x application."
 ms.author: riande
 ms.date: 11/24/2017
-ms.custom: seoapril2019
 msc.legacyurl: /web-api/overview/advanced/calling-a-web-api-from-a-net-client
 msc.type: authoredcontent
 ms.custom: contperf-fy21q3
