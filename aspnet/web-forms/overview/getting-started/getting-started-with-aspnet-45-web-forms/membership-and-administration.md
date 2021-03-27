@@ -228,9 +228,7 @@ You can run the application now to see how you can add, delete, and update items
     ![Membership and Administration - Log In Link](membership-and-administration/_static/image2.png)
 
    The *Login.aspx* page is displayed.
-3. Use the following user name and password:  
-   User name: canEditUser@wingtiptoys.com  
-   Password: Pa$$word1 
+3. Enter the user name and password.
 
     ![Membership and Administration - Log In Page](membership-and-administration/_static/image3.png)
 4. Click the **Log in** button near the bottom of the page.
