@@ -8,25 +8,31 @@ ms.date: 01/29/2019
 ms.assetid: 9b265a5a-6a70-4a82-adce-2d7c56ae8bdd
 msc.legacyurl: /web-api/overview/security/enabling-cross-origin-requests-in-web-api
 msc.type: authoredcontent
+ms.custom: contperf-fy21q3
 ---
 # Enable cross-origin requests in ASP.NET Web API 2
 
-by [Mike Wasson](https://github.com/MikeWasson)
+By [Mike Wasson](https://github.com/MikeWasson)
 
-> Browser security prevents a web page from making AJAX requests to another domain. This restriction is called the *same-origin policy*, and prevents a malicious site from reading sensitive data from another site. However, sometimes you might want to let other sites call your web API.
->
-> [Cross Origin Resource Sharing](http://www.w3.org/TR/cors/) (CORS) is a W3C standard that allows a server to relax the same-origin policy. Using CORS, a server can explicitly allow some cross-origin requests while rejecting others. CORS is safer and more flexible than earlier techniques such as [JSONP](http://en.wikipedia.org/wiki/JSONP). This tutorial shows how to enable CORS in your Web API application.
->
-> ## Software used in the tutorial
->
-> - [Visual Studio](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=button+cta&utm_content=download+vs2017)
-> - Web API 2.2
+This content is for a previous version of .NET. New development should use [ASP.NET Core](/aspnet/core/introduction-to-aspnet-core). For more information on using Web API and Cross-Origin Requests (CORS) in ASP.NET Core, see:
+
+* [Tutorial: Create a web API with ASP.NET Core](/aspnet/core/tutorials/first-web-api)
+* [Enable Cross-Origin Requests (CORS) in ASP.NET Core](/aspnet/core/security/cors)
+
+Browser security prevents a web page from making AJAX requests to another domain. This restriction is called the *same-origin policy*, and prevents a malicious site from reading sensitive data from another site. However, sometimes you might want to let other sites call your web API.
+
+[Cross Origin Resource Sharing](http://www.w3.org/TR/cors/) (CORS) is a W3C standard that allows a server to relax the same-origin policy. Using CORS, a server can explicitly allow some cross-origin requests while rejecting others. CORS is safer and more flexible than earlier techniques such as [JSONP](http://en.wikipedia.org/wiki/JSONP). This tutorial shows how to enable CORS in your Web API application.
+
+## Software used in the tutorial
+
+- [Visual Studio](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=button+cta&utm_content=download+vs2017)
+- Web API 2.2
 
 ## Introduction
 
 This tutorial demonstrates CORS support in ASP.NET Web API. We'll start by creating two ASP.NET projects – one called "WebService", which hosts a Web API controller, and the other called "WebClient", which calls WebService. Because the two applications are hosted at different domains, an AJAX request from WebClient to WebService is a cross-origin request.
 
-![](enabling-cross-origin-requests-in-web-api/_static/image1.png)
+![Shows web service and web client](enabling-cross-origin-requests-in-web-api/_static/image1.png)
 
 ### What is "same origin"?
 
@@ -223,7 +229,7 @@ The *methods* parameter of the **[EnableCors]** attribute specifies which HTTP m
 
 ## Set the allowed request headers
 
-This article described earlier how a preflight request might include an Access-Control-Request-Headers header, listing the HTTP headers set by the application (the so-called "author request headers"). The *headers* parameter of the **[EnableCors]** attribute specifies which author request headers are allowed. To allow any headers, set *headers* to "\*". To whitelist specific headers, set *headers* to a comma-separated list of the allowed headers:
+This article described earlier how a preflight request might include an Access-Control-Request-Headers header, listing the HTTP headers set by the application (the so-called "author request headers"). The *headers* parameter of the **[EnableCors]** attribute specifies which author request headers are allowed. To allow any headers, set *headers* to "\*". To allow specific headers, set *headers* to a comma-separated list of the allowed headers:
 
 [!code-csharp[Main](enabling-cross-origin-requests-in-web-api/samples/sample16.cs)]
 
