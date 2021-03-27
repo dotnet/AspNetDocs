@@ -373,8 +373,6 @@
                   href: web-forms/overview/older-versions-getting-started/deploying-web-site-projects/core-differences-between-iis-and-the-asp-net-development-server-cs.md
                 - name: Deploying a Database (C#)
                   href: web-forms/overview/older-versions-getting-started/deploying-web-site-projects/deploying-a-database-cs.md
-                - name: Configuring the Production Web Application to Use the Production Database (C#)
-                  href: web-forms/overview/older-versions-getting-started/deploying-web-site-projects/configuring-the-production-web-application-to-use-the-production-database-cs.md
                 - name: Configuring a Website that Uses Application Services (C#)
                   href: web-forms/overview/older-versions-getting-started/deploying-web-site-projects/configuring-a-website-that-uses-application-services-cs.md
                 - name: Strategies for Database Development and Deployment (C#)
@@ -405,8 +403,6 @@
                   href: web-forms/overview/older-versions-getting-started/deploying-web-site-projects/core-differences-between-iis-and-the-asp-net-development-server-vb.md
                 - name: Deploying a Database (VB)
                   href: web-forms/overview/older-versions-getting-started/deploying-web-site-projects/deploying-a-database-vb.md
-                - name: Configuring the Production Web Application to Use the Production Database (VB)
-                  href: web-forms/overview/older-versions-getting-started/deploying-web-site-projects/configuring-the-production-web-application-to-use-the-production-database-vb.md
                 - name: Configuring a Website that Uses Application Services (VB)
                   href: web-forms/overview/older-versions-getting-started/deploying-web-site-projects/configuring-a-website-that-uses-application-services-vb.md
                 - name: Strategies for Database Development and Deployment (VB)
@@ -1061,14 +1057,10 @@
                   href: web-forms/overview/older-versions-security/introduction/security-basics-and-asp-net-support-cs.md
                 - name: Overview of Forms Authentication (C#)
                   href: web-forms/overview/older-versions-security/introduction/an-overview-of-forms-authentication-cs.md
-                - name: Forms Authentication Configuration and Advanced Topics (C#)
-                  href: web-forms/overview/older-versions-security/introduction/forms-authentication-configuration-and-advanced-topics-cs.md
                 - name: Security Basics and ASP.NET Support (VB)
                   href: web-forms/overview/older-versions-security/introduction/security-basics-and-asp-net-support-vb.md
                 - name: Overview of Forms Authentication (VB)
                   href: web-forms/overview/older-versions-security/introduction/an-overview-of-forms-authentication-vb.md
-                - name: Forms Authentication Configuration and Advanced Topics (VB)
-                  href: web-forms/overview/older-versions-security/introduction/forms-authentication-configuration-and-advanced-topics-vb.md
             - name: ASP.NET 3.5 - Membership
               href: web-forms/overview/older-versions-security/membership/index.md
               items: 

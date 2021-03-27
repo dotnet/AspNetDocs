@@ -33,7 +33,7 @@ Because a "what if" deployment doesn't actually change anything on the destinati
 
 As described in [Deploying Web Packages](../web-deployment-in-the-enterprise/deploying-web-packages.md), you can deploy web packages using Web Deploy in two ways&#x2014;by using the MSDeploy.exe command-line utility directly or by running the *.deploy.cmd* file that the build process generates.
 
-If you're using MSDeploy.exe directly, you can run a "what if" deployment by adding the **–whatif** flag to your command. For example, to evaluate what would happen if you deployed the ContactManager.Mvc.zip package to a staging environment, the MSDeploy command should resemble this:
+If you're using MSDeploy.exe directly, you can run a "what if" deployment by adding the **–whatif** flag to your command. For example, to evaluate what would happen if you deployed the ContactManager.Mvc.zip package to a staging environment, the MSDeploy command should resemble the following. Note the following example is using $CREDENTIAL_PLACEHOLDER$ as a placeholder for the password key-value pair:
 
 [!code-console[Main](performing-a-what-if-deployment/samples/sample1.cmd)]
 
