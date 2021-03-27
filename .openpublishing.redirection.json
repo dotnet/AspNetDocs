@@ -1,6 +1,26 @@
 {
   "redirections": [
     {
+      "source_path": "aspnet/web-forms/overview/older-versions-security/introduction/forms-authentication-configuration-and-advanced-topics-vb.md",
+      "redirect_url": "https://docs.microsoft.com/troubleshoot/aspnet/forms-based-authentication",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "aspnet/web-forms/overview/older-versions-security/introduction/forms-authentication-configuration-and-advanced-topics-cs.md",
+      "redirect_url": "https://docs.microsoft.com/troubleshoot/aspnet/forms-based-authentication",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "aspnet/web-forms/overview/older-versions-getting-started/deploying-web-site-projects/configuring-the-production-web-application-to-use-the-production-database-vb.md",
+      "redirect_url": "aspnet/web-forms/overview/deployment/visual-studio-web-deployment/deploying-to-production",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "aspnet/web-forms/overview/older-versions-getting-started/deploying-web-site-projects/configuring-the-production-web-application-to-use-the-production-database-cs.md",
+      "redirect_url": "aspnet/web-forms/overview/deployment/visual-studio-web-deployment/deploying-to-production",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "aspnet/aspnet/overview/owin-and-katana/owin-oauth-20-authorization-server.md",
       "redirect_url": "/aspnet/aspnet/overview/owin-and-katana/",
       "redirect_document_id": false

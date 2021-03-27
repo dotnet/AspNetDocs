@@ -205,7 +205,6 @@ msc.type: categoryindex
             - [Common Configuration Differences Between Development and Production (C#)](overview/older-versions-getting-started/deploying-web-site-projects/common-configuration-differences-between-development-and-production-cs.md)
             - [Core Differences Between IIS and the ASP.NET Development Server (C#)](overview/older-versions-getting-started/deploying-web-site-projects/core-differences-between-iis-and-the-asp-net-development-server-cs.md)
             - [Deploying a Database (C#)](overview/older-versions-getting-started/deploying-web-site-projects/deploying-a-database-cs.md)
-            - [Configuring the Production Web Application to Use the Production Database (C#)](overview/older-versions-getting-started/deploying-web-site-projects/configuring-the-production-web-application-to-use-the-production-database-cs.md)
             - [Configuring a Website that Uses Application Services (C#)](overview/older-versions-getting-started/deploying-web-site-projects/configuring-a-website-that-uses-application-services-cs.md)
             - [Strategies for Database Development and Deployment (C#)](overview/older-versions-getting-started/deploying-web-site-projects/strategies-for-database-development-and-deployment-cs.md)
             - [Displaying a Custom Error Page (C#)](overview/older-versions-getting-started/deploying-web-site-projects/displaying-a-custom-error-page-cs.md)
@@ -221,7 +220,6 @@ msc.type: categoryindex
             - [Common Configuration Differences Between Development and Production (VB)](overview/older-versions-getting-started/deploying-web-site-projects/common-configuration-differences-between-development-and-production-vb.md)
             - [Core Differences Between IIS and the ASP.NET Development Server (VB)](overview/older-versions-getting-started/deploying-web-site-projects/core-differences-between-iis-and-the-asp-net-development-server-vb.md)
             - [Deploying a Database (VB)](overview/older-versions-getting-started/deploying-web-site-projects/deploying-a-database-vb.md)
-            - [Configuring the Production Web Application to Use the Production Database (VB)](overview/older-versions-getting-started/deploying-web-site-projects/configuring-the-production-web-application-to-use-the-production-database-vb.md)
             - [Configuring a Website that Uses Application Services (VB)](overview/older-versions-getting-started/deploying-web-site-projects/configuring-a-website-that-uses-application-services-vb.md)
             - [Strategies for Database Development and Deployment (VB)](overview/older-versions-getting-started/deploying-web-site-projects/strategies-for-database-development-and-deployment-vb.md)
             - [Displaying a Custom Error Page (VB)](overview/older-versions-getting-started/deploying-web-site-projects/displaying-a-custom-error-page-vb.md)
@@ -572,10 +570,8 @@ msc.type: categoryindex
 
             - [Security Basics and ASP.NET Support (C#)](overview/older-versions-security/introduction/security-basics-and-asp-net-support-cs.md)
             - [Overview of Forms Authentication (C#)](overview/older-versions-security/introduction/an-overview-of-forms-authentication-cs.md)
-            - [Forms Authentication Configuration and Advanced Topics (C#)](overview/older-versions-security/introduction/forms-authentication-configuration-and-advanced-topics-cs.md)
             - [Security Basics and ASP.NET Support (VB)](overview/older-versions-security/introduction/security-basics-and-asp-net-support-vb.md)
             - [Overview of Forms Authentication (VB)](overview/older-versions-security/introduction/an-overview-of-forms-authentication-vb.md)
-            - [Forms Authentication Configuration and Advanced Topics (VB)](overview/older-versions-security/introduction/forms-authentication-configuration-and-advanced-topics-vb.md)
         - [ASP.NET 3.5 - Membership](overview/older-versions-security/membership/index.md)
 
             - [Creating the Membership Schema in SQL Server (C#)](overview/older-versions-security/membership/creating-the-membership-schema-in-sql-server-cs.md)
