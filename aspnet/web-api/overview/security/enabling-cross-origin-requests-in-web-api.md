@@ -8,19 +8,25 @@ ms.date: 01/29/2019
 ms.assetid: 9b265a5a-6a70-4a82-adce-2d7c56ae8bdd
 msc.legacyurl: /web-api/overview/security/enabling-cross-origin-requests-in-web-api
 msc.type: authoredcontent
+ms.custom: contperf-fy21q4
 ---
 # Enable cross-origin requests in ASP.NET Web API 2
 
-by [Mike Wasson](https://github.com/MikeWasson)
+By [Mike Wasson](https://github.com/MikeWasson)
 
-> Browser security prevents a web page from making AJAX requests to another domain. This restriction is called the *same-origin policy*, and prevents a malicious site from reading sensitive data from another site. However, sometimes you might want to let other sites call your web API.
->
-> [Cross Origin Resource Sharing](http://www.w3.org/TR/cors/) (CORS) is a W3C standard that allows a server to relax the same-origin policy. Using CORS, a server can explicitly allow some cross-origin requests while rejecting others. CORS is safer and more flexible than earlier techniques such as [JSONP](http://en.wikipedia.org/wiki/JSONP). This tutorial shows how to enable CORS in your Web API application.
->
-> ## Software used in the tutorial
->
-> - [Visual Studio](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=button+cta&utm_content=download+vs2017)
-> - Web API 2.2
+This content is for a previous version of .NET. New development should use [ASP.NET Core](/aspnet/core/introduction-to-aspnet-core). For more information on using Web API and  Cross-Origin Requests (CORS) in ASP.NET Core, see:
+
+* <xref:/aspnet/core/tutorials/first-web-api>
+* <xref:/aspnet/core/security/cors>
+
+Browser security prevents a web page from making AJAX requests to another domain. This restriction is called the *same-origin policy*, and prevents a malicious site from reading sensitive data from another site. However, sometimes you might want to let other sites call your web API.
+
+[Cross Origin Resource Sharing](http://www.w3.org/TR/cors/) (CORS) is a W3C standard that allows a server to relax the same-origin policy. Using CORS, a server can explicitly allow some cross-origin requests while rejecting others. CORS is safer and more flexible than earlier techniques such as [JSONP](http://en.wikipedia.org/wiki/JSONP). This tutorial shows how to enable CORS in your Web API application.
+
+## Software used in the tutorial
+
+- [Visual Studio](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=button+cta&utm_content=download+vs2017)
+- Web API 2.2
 
 ## Introduction
 
