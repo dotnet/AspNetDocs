@@ -12,16 +12,16 @@ msc.type: content
 
 # ASP.NET API reference
 
-* [ASP.NET API Reference](/dotnet/api/?view=netframework-4.7&term=system.web)
+* [ASP.NET API Reference](/dotnet/api/?term=system.web&view=netframework-4.8)
 
-* [ASP.NET MVC API Reference](https://msdn.microsoft.com/library/mt134468)
+* [ASP.NET MVC API Reference](/previous-versions/aspnet/mt134468(v=vs.118))
 
-* [ASP.NET Web API API Reference](https://msdn.microsoft.com/library/mt174857)
+* [ASP.NET Web API API Reference](/previous-versions/aspnet/mt174857(v=vs.118))
 
-* [ASP.NET Web Pages API Reference](https://msdn.microsoft.com/library/hh396384)
+* [ASP.NET Web Pages API Reference](/previous-versions/aspnet/hh396384(v=vs.111))
 
-* [ASP.NET SignalR API Reference](https://msdn.microsoft.com/library/dn440565)
+* [ASP.NET SignalR API Reference](/previous-versions/aspnet/dn440565(v=vs.118))
 
-* [ASP.NET Identity API Reference](https://msdn.microsoft.com/library/mt173608)
+* [ASP.NET Identity API Reference](/previous-versions/aspnet/mt173608(v=vs.108))
 
-* [Microsoft OWIN Components API Reference](https://msdn.microsoft.com/library/mt152002)
+* [Microsoft OWIN Components API Reference](/previous-versions/aspnet/mt152002(v=vs.113))
