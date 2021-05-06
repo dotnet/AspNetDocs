@@ -68,7 +68,7 @@ The preceding command adds the following NuGet packages to the project:
 * Microsoft.AspNet.WebApi.Client
 * Newtonsoft.Json
 
-Netwonsoft.Json (also known as Json.NET) is a popular high-performance JSON framework for .NET.
+Newtonsoft.Json (also known as Json.NET) is a popular high-performance JSON framework for .NET.
 
 <a id="AddModelClass"></a>
 ## Add a Model Class
