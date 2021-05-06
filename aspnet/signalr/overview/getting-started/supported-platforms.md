@@ -66,7 +66,8 @@ Applications that use SignalR in browsers must use jQuery version 1.6.4 or major
 
 SignalR can be used in the following browsers:
 
-- Microsoft Internet Explorer versions 8, 9, 10, and 11. Modern, Desktop, and Mobile versions are supported.
+- Microsoft Internet Explorer versions 11. Windows only.
+- Microsoft Edge(Chromium). Desktop and Mobile versions are supported.
 - Mozilla Firefox: current version - 1, both Windows and Mac versions.
 - Google Chrome: current version - 1, both Windows and Mac versions.
 - Safari: current version - 1, both Mac and iOS versions.
