@@ -74,4 +74,15 @@
     "dest": "_site",
     "markdownEngineName": "markdig"
   }
+  "fileMetadata": {
+     "searchScope": { 
+       "contribute/**.md": ["help-docs","Contributor"],
+       "contribute/**.yml": ["help-docs","Contributor"]       
+     },    
+     "recommendations": { 
+       "contribute/**.md": true,
+       "onboard/**.md": true,
+       "localization/**.md": false  
+     }
+    }
 }
