@@ -1,23 +1,23 @@
 {
     "build": {
-    "content": [
-      {
-        "files": [
-          "**/*.md",
+        "content": [
+          {
+            "files": [
+              "**/*.md",
           "**/*.yml"
-        ],
+            ],
         "exclude": [
           "**/obj/**",
           "**/includes/**",
           "**/aspnet-core-conceptual/**",
           "_site/**"
-        ]
+            ]
       }
     ],
     "resource": [
       {
-        "files": [
-          "**/*.png",
+            "files": [
+              "**/*.png",
           "**/*.jpg",
           "**/*.gif",
           "**/*.pdf",
@@ -36,9 +36,10 @@
     "overwrite": [],
     "externalReference": [],
     "globalMetadata": {
-      "_navPath": "/foo",
+            "_navPath": "/foo",
       "_navRel": "/foo",
       "breadcrumb_path": "/aspnet/breadcrumb/toc.json",
+      "recommendations": true,
       "extendBreadcrumb": true,
       "ms.prod": "aspnet-framework",
       "ms.topic": "conceptual",
@@ -47,15 +48,15 @@
         "ASP.NET"
       ],
       "_op_documentIdPathDepotMapping": {
-        "./": {
-          "depot_name": "MSDN.aspnet-conceptual",
+                "./": {
+                    "depot_name": "MSDN.aspnet-conceptual",
           "folder_relative_path_in_docset": "./"
-        }
-      }
-    },
+                }
+            }
+        },
     "fileMetadata": {
-      "ms.technology": {
-        "ajax/**/**.md": "aspnet-ajax",
+            "ms.technology": {
+                "ajax/**/**.md": "aspnet-ajax",
         "aspnet/**/**.md": "aspnet-aspnet",
         "identity/**/**.md": "aspnet-identity",
         "mobile/**/**.md": "aspnet-mobile",
@@ -68,17 +69,10 @@
         "web-pages/**/**.md": "aspnet-webpages",
         "webhooks/**/**.md": "aspnet-webhooks",
         "whitepapers/**/**.md": "aspnet-whitepapers"
-      }
-    },
+            }
+        },
     "template": [],
     "dest": "_site",
     "markdownEngineName": "markdig",
-    "globalMetadata": {
-          "breadcrumb_path": "/aspnet/breadcrumb/toc.json",
-          "feedback_system": "GitHub",
-          "feedback_github_repo": "dotnet/aspnetdocs",
-          "searchScope": ["help-docs"],
-          "recommendations": true
-        }
-  }
+    }
 }
