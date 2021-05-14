@@ -39,6 +39,7 @@
       "_navPath": "/foo",
       "_navRel": "/foo",
       "breadcrumb_path": "/aspnet/breadcrumb/toc.json",
+      "recommendations": true,
       "extendBreadcrumb": true,
       "ms.prod": "aspnet-framework",
       "ms.topic": "conceptual",
@@ -73,12 +74,5 @@
     "template": [],
     "dest": "_site",
     "markdownEngineName": "markdig"
-  },
-"globalMetadata": {
-      "breadcrumb_path": "/aspnet/breadcrumb/toc.json",
-      "feedback_system": "GitHub",
-      "feedback_github_repo": "MicrosoftDocs/docs-help-pr",      
-      "searchScope": ["help-docs"],
-      "recommendations": true
-    }
+  }
 }
