@@ -76,7 +76,7 @@
     "globalMetadata": {
           "breadcrumb_path": "/aspnet/breadcrumb/toc.json",
           "feedback_system": "GitHub",
-          "feedback_github_repo": "MicrosoftDocs/docs-help",
+          "feedback_github_repo": "dotnet/aspnetdocs",
           "searchScope": ["help-docs"],
           "recommendations": true
         }
