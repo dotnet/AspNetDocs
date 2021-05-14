@@ -1,5 +1,5 @@
 {
-  "build": {
+    "build": {
     "content": [
       {
         "files": [
@@ -72,13 +72,13 @@
     },
     "template": [],
     "dest": "_site",
-    "markdownEngineName": "markdig"
-  },
-"globalMetadata": {
-      "breadcrumb_path": "/aspnet/breadcrumb/toc.json",
-      "feedback_system": "GitHub",
-      "feedback_github_repo": "MicrosoftDocs/docs-help-pr",      
-      "searchScope": ["help-docs"],
-      "recommendations": true
-    }
+    "markdownEngineName": "markdig",
+    "globalMetadata": {
+          "breadcrumb_path": "/aspnet/breadcrumb/toc.json",
+          "feedback_system": "GitHub",
+          "feedback_github_repo": "MicrosoftDocs/docs-help",
+          "searchScope": ["help-docs"],
+          "recommendations": true
+        }
+  }
 }
