@@ -1,5 +1,5 @@
 {
-    "build": {
+  "build": {
     "content": [
       {
         "files": [
@@ -73,6 +73,6 @@
     },
     "template": [],
     "dest": "_site",
-    "markdownEngineName": "markdig",
+    "markdownEngineName": "markdig"
   }
 }
