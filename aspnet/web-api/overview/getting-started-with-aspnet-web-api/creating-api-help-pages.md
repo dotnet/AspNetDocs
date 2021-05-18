@@ -117,7 +117,7 @@ The ApiExplorer class gets documentation strings from the **IDocumentationProvid
 
 You aren't limited to the help pages shown here. In fact, **ApiExplorer** is not limited to creating help pages. Yao Huang Lin has written some great blog posts to get you thinking out of the box:
 
-- [Adding a simple Test Client to ASP.NET Web API Help Page](https://blogs.msdn.com/b/yaohuang1/archive/2012/12/02/adding-a-simple-test-client-to-asp-net-web-api-help-page.aspx)
-- [Making ASP.NET Web API Help Page work on self-hosted services](https://blogs.msdn.com/b/yaohuang1/archive/2012/12/20/making-asp-net-web-api-help-page-work-on-self-hosted-services.aspx)
-- [Design-time generation of help page (or client) for ASP.NET Web API](https://blogs.msdn.com/b/yaohuang1/archive/2013/01/20/design-time-generation-of-help-page-or-proxy-for-asp-net-web-api.aspx)
-- [Advanced Help Page customizations](https://blogs.msdn.com/b/yaohuang1/archive/2012/12/10/asp-net-web-api-help-page-part-3-advanced-help-page-customizations.aspx)
+- [Adding a simple Test Client to ASP.NET Web API Help Page](https://docs.microsoft.com/archive/blogs/yaohuang1/adding-a-simple-test-client-to-asp-net-web-api-help-page)
+- [Making ASP.NET Web API Help Page work on self-hosted services](https://docs.microsoft.com/archive/blogs/yaohuang1/making-asp-net-web-api-help-page-work-on-self-hosted-services)
+- [Design-time generation of help page (or client) for ASP.NET Web API](https://docs.microsoft.com/archive/blogs/yaohuang1/design-time-generation-of-help-page-or-client-for-asp-net-web-api)
+- [Advanced Help Page customizations](https://docs.microsoft.com/archive/blogs/yaohuang1/asp-net-web-api-help-page-part-3-advanced-help-page-customizations)
