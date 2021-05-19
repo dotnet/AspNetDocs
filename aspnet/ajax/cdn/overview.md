@@ -1300,6 +1300,8 @@ The following ASP.NET MVC JavaScript files are hosted on this CDN:
 
 ### ASP.NET SignalR Releases on the CDN
 
+For SignalR, we recommend a 3rd party CDN such as [`<cdnjs>`](https://cdnjs.com/) or [UNPKG](https://unpkg.com/).
+
 The following ASP.NET SignalR JavaScript files are hosted on this CDN:
 
 #### ASP.NET SignalR 2.2.2

@@ -39,7 +39,7 @@ Certain `Web.config` sections, however, contain sensitive information that may i
 In this tutorial we will look at techniques for protecting such sensitive configuration information. As we will see, the .NET Framework version 2.0 includes a protected configurations system that makes programmatically encrypting and decrypting selected configuration sections a breeze.
 
 > [!NOTE]
-> This tutorial concludes with a look at Microsoft s recommendations for connecting to a database from an ASP.NET application. In addition to encrypting your connection strings, you can help harden your system by ensuring that you are connecting to the database in a secure fashion.
+> This tutorial concludes with a look at Microsoft's recommendations for connecting to a database from an ASP.NET application. In addition to encrypting your connection strings, you can help harden your system by ensuring that you are connecting to the database in a secure fashion.
 
 ## Step 1: Exploring ASP.NET 2.0 s Protected Configuration Options
 
