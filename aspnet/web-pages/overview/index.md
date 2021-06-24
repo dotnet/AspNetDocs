@@ -16,7 +16,7 @@ msc.type: book
     - [Program ASP.NET Web Pages in Visual Studio](getting-started/program-asp-net-web-pages-in-visual-studio.md)
     - [Intro to ASP.NET Web Programming Razor Syntax](getting-started/introducing-razor-syntax-c.md)
     - [ASP.NET Web Pages Visual Basic](getting-started/introducing-razor-syntax-vb.md)
-    - [ASP.NET Web Pages (Razor) FAQ](getting-started/aspnet-web-pages-razor-faq.md)
+    - [ASP.NET Web Pages (Razor) FAQ](getting-started/aspnet-web-pages-razor-faq.yml)
     - [Sending Email from Your Site](getting-started/11-adding-email-to-your-web-site.md)
     - [Adding Social Networking to Your Website](getting-started/13-adding-social-networking-to-your-web-site.md)
     - [Introducing ASP.NET Web Pages](getting-started/introducing-aspnet-web-pages-2/index.md)

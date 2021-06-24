@@ -21,7 +21,7 @@ msc.type: categoryindex
         - [Program ASP.NET Web Pages in Visual Studio](overview/getting-started/program-asp-net-web-pages-in-visual-studio.md)
         - [Intro to ASP.NET Web Programming Razor Syntax](overview/getting-started/introducing-razor-syntax-c.md)
         - [ASP.NET Web Pages Visual Basic](overview/getting-started/introducing-razor-syntax-vb.md)
-        - [ASP.NET Web Pages (Razor) FAQ](overview/getting-started/aspnet-web-pages-razor-faq.md)
+        - [ASP.NET Web Pages (Razor) FAQ](overview/getting-started/aspnet-web-pages-razor-faq.yml)
         - [Sending Email from Your Site](overview/getting-started/11-adding-email-to-your-web-site.md)
         - [Adding Social Networking to Your Website](overview/getting-started/13-adding-social-networking-to-your-web-site.md)
         - [Introducing ASP.NET Web Pages](overview/getting-started/introducing-aspnet-web-pages-2/index.md)

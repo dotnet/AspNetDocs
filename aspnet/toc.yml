@@ -3001,7 +3001,7 @@
             - name: ASP.NET Web Pages Visual Basic
               href: web-pages/overview/getting-started/introducing-razor-syntax-vb.md
             - name: ASP.NET Web Pages (Razor) FAQ
-              href: web-pages/overview/getting-started/aspnet-web-pages-razor-faq.md
+              href: web-pages/overview/getting-started/aspnet-web-pages-razor-faq.yml
             - name: Sending Email from Your Site
               href: web-pages/overview/getting-started/11-adding-email-to-your-web-site.md
             - name: Adding Social Networking to Your Website
