@@ -27,16 +27,6 @@ summary: |
   > - WebMatrix 3
   >   
   > 
-  > This tutorial also works with ASP.NET Web Pages 2, WebMatrix 2, and Visual Studio 2012.
-  
-  - [What's the difference between ASP.NET Web Pages, ASP.NET Web Forms, and ASP.NET MVC?](#Whats_the_difference_between_ASP.NET_Web_Pages,_ASP.NET_Web_Forms,_and_ASP.NET_MVC)
-  - [Do I need WebMatrix in order to work with Web Pages?](#Do_I_need_WebMatrix_in_order_to_work_with_Web_Pages)
-  - [Can I use ASP.NET Web Forms controls on a Web Pages page?](#Can_I_use_ASP.NET_Web_Forms_controls_on_a_Web_Pages_page)
-  - [Can I deploy an ASP.NET Web Pages site without using WebMatrix?](#Can_I_deploy_an_ASP.NET_Web_Pages_site_without_using_WebMatrix)
-  - [Do I have to use the WebSecurity helper to support logins?](#Do_I_have_to_use_the_WebSecurity_helper_to_support_logins)
-  - [Does ASP.NET Web Pages support HTML5?](#Does_ASP.NET_Web_Pages_support_HTML5)
-  - [Can I use JavaScript and jQuery with Web Pages?](#Can_I_use_JavaScript_and_jQuery_with_Web_Pages)
-  - [Additional Resources](#AdditionalResources)
   
   For questions about errors and other issues, see the [ASP.NET Web Pages (Razor) Troubleshooting Guide](https://go.microsoft.com/fwlink/?LinkId=253001).
   
@@ -73,7 +63,7 @@ sections:
           
           Managing SQL Server Compact databases (*.sdf* files) without a tool is a bit harder. Visual Studio containds tools for managing *.sdf* databases. You can also run SQL commands in code to perform many SQL Server management tasks.
           
-          To test *.cshtml* pages without using an integrated development environment (IDE), you can deploy them to a live server. (See [Can I deploy an ASP.NET Web Pages site without using WebMatrix?](#Can_I_deploy_an_ASP.NET_Web_Pages_site_without_using_WebMatrix))
+          To test *.cshtml* pages without using an integrated development environment (IDE), you can deploy them to a live server. (See [Can I deploy an ASP.NET Web Pages site without using WebMatrix?](#can-i-deploy-an-asp-net-web-pages-site-without-using-webmatrix-))
           
           ### Running IIS Express without using an IDE
           
