@@ -139,6 +139,6 @@ An excellent tutorial to follow is Rick Rainey's [Deep Dive: Azure Websites and 
 ## More Information
 
 - [Deep Dive: Azure Websites and Organizational Authentication using Azure AD](http://rickrainey.com/2014/08/19/deep-dive-azure-websites-and-organizational-authentication-using-azure-ad/)
-- [Azure AD Graph API Overview](https://msdn.microsoft.com/library/azure/hh974476.aspx)
+- [Overview of Microsoft Graph](/graph/overview)
 - [Authentication Scenarios in Azure AD](https://msdn.microsoft.com/library/azure/dn499820.aspx)
 - [Azure AD Code Samples on GitHub](https://github.com/AzureADSamples)
