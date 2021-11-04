@@ -84,7 +84,6 @@ by [Rick Anderson](https://twitter.com/RickAndMSFT)
 - [ASP.NET Identity 2.0.0](https://blogs.msdn.com/b/webdev/archive/2014/03/20/test-announcing-rtm-of-asp-net-identity-2-0-0.aspx)
 - [Understanding ASP.NET MVC Filters and Attributes](http://www.dotnet-tricks.com/Tutorial/mvc/b11a280114-Understanding-ASP.NET-MVC-Filters-and-Attributes.html)
 - [ASP.NET MVC 5 Identity: Extending and Modifying Roles](http://typecastexception.com/post/2014/02/13/ASPNET-MVC-5-Identity-Extending-and-Modifying-Roles.aspx)
-- [Anti-Forgery Tokens using MVC, Web API and AngularJS](http://www.novanet.no/blog/olav-nybo/dates/2013/12/anti-forgery-tokens-using-mvc-web-api-and-angularjs/)
 - [Working With IAuthenticationFilter in ASP.NET MVC 5](http://jameschambers.com/2013/11/working-with-iauthenticationfilter-in-the-mvc-5-framework/)
 - [stackoverflow threads on security](http://stackoverflow.com/users/59641/levi?tab=answers&amp;sort=newest) by Levi
 - [KnockoutJS and ASP.NET MVC – Alternate techniques and using the Anti Forgery Token](http://www.dotnetcurry.com/ShowArticle.aspx?ID=940)
