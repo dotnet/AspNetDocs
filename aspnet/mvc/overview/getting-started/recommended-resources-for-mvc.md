@@ -22,7 +22,6 @@ by [Rick Anderson](https://twitter.com/RickAndMSFT)
 
 - [Intro to ASP.NET MVC 5](introduction/getting-started.md)
 - [Introduction to ASP.NET MVC](https://pluralsight.com/training/Player?author=scott-allen&amp;name=mvc4-building-m1-intro&amp;mode=live&amp;clip=0&amp;course=mvc4-building) (video by Pluralsight)
-- [Understanding Model View Controller in Asp.Net MVC](http://www.dotnet-tricks.com/Tutorial/mvc/DIYG060113-Understanding-Model-View-Controller-in-Asp.Net-MVC.html) (short blog intro).
 - [ASP.NET MVC Overview](../older-versions-1/overview/asp-net-mvc-overview.md)
 - [Free 6 hour online course - Developing ASP.NET MVC 4 Web Applications Jump Start](https://weblogs.asp.net/jgalloway/archive/2013/10/09/free-6-hour-online-course-developing-asp-net-mvc-4-web-applications-jump-start.aspx)
 - [Learning MVC - Part 1: Introduction to MVC Architecture and Separation of Concerns](http://www.codeproject.com/Articles/620195/Learning-MVC-Part-1-Introduction-to-MVC-Architectu)
@@ -34,12 +33,10 @@ by [Rick Anderson](https://twitter.com/RickAndMSFT)
 
 - [Selecting Cultures for Localization in ASP.NET](http://weblog.west-wind.com/posts/2014/Mar/27/Auto-Selecting-Cultures-for-Localization-in-ASPNET)
 - [Create an ASP.NET MVC 5 App with Facebook and Google OAuth2 Sign-on](../security/create-an-aspnet-mvc-5-app-with-facebook-and-google-oauth2-and-openid-sign-on.md)
-- [Understanding ASP.NET MVC Filters and Attributes](http://www.dotnet-tricks.com/Tutorial/mvc/b11a280114-Understanding-ASP.NET-MVC-Filters-and-Attributes.html)
 - [Lifecycle of an ASP.NET MVC 5 Application](lifecycle-of-an-aspnet-mvc-5-application.md) (PDF)
 - [What not to do in ASP.NET, and what to do instead](../../../aspnet/overview/web-development-best-practices/what-not-to-do-in-aspnet-and-what-to-do-instead.md)
 - [Releasing SocialGoal - Reference Web App for ASP.NET MVC 5, EF 6 Code First, AutoMapper, Autofac, TDD and DDD](https://weblogs.asp.net/shijuvarghese/archive/2014/01/24/releasing-socialgoal-reference-web-app-for-asp-net-mvc-5-ef-6-code-first-automapper-autofac-tdd-and-ddd.aspx)
 - [Building Real-World Cloud Apps with Azure](../../../aspnet/overview/developing-apps-with-windows-azure/building-real-world-cloud-apps-with-windows-azure/introduction.md)
-- [Detailed ASP.NET MVC Pipeline](http://www.dotnet-tricks.com/Tutorial/mvc/LYHK270114-Detailed-ASP.NET-MVC-Pipeline.html)
 
 <a id="azure"></a>
 
@@ -56,7 +53,6 @@ by [Rick Anderson](https://twitter.com/RickAndMSFT)
     - [Microsoft Azure Storage – What's New, Best Practices and Patterns Jai Haridas, Serdar Ozler](https://channel9.msdn.com/Events/Build/2014/3-628)
     - [Tips and Tricks in Visual Studio 2013](https://channel9.msdn.com/Events/Build/2014/2-582) by Cathy Sullivan
     - [Automation Everywhere with New SDKs, Tools, and Services in Azure](https://channel9.msdn.com/Events/Build/2014/3-621) by Brady Gaster, Joe Levy
-    - [What's New with Azure Web Sites Chris Compy, Nir Mashkowski](https://channel9.msdn.com/Events/Build/2014/3-625)
     - [Building Big: Lessons Learned from Azure Customers](https://channel9.msdn.com/Events/Build/2014/3-633) by Chris Clayton, Mark Simms
     - [Building a Single Page Application with ASP.NET and AngularJS](https://channel9.msdn.com/Events/Build/2014/3-644) by David Catuhe, Jon Galloway
     - [Designing and Implementing Hybrid Cloud Solutions for Architects](https://channel9.msdn.com/Events/Build/2014/3-632)
@@ -356,7 +352,6 @@ by [Rick Anderson](https://twitter.com/RickAndMSFT)
 - [Understanding ASP.NET MVC Filters and Attributes](http://www.dotnet-tricks.com/Tutorial/mvc/b11a280114-Understanding-ASP.NET-MVC-Filters-and-Attributes.html)
 - [Content Negotiation and Web API for the ASP.NET MVC Developer](https://msdn.microsoft.com/magazine/dn574797.aspx)
 - [Serving WebP images with ASP.NET MVC](http://friism.com/serving-webp-images-with-asp-net-mvc)
-- [Detailed ASP.NET MVC Pipeline](http://www.dotnet-tricks.com/Tutorial/mvc/LYHK270114-Detailed-ASP.NET-MVC-Pipeline.html)
 - [Nesting Layouts in MVC](http://astutelogic.com/nesting-layouts-in-mvc/) by Russell Waite
 - [Implementing RichTextEditor or WYSIWYG (TinyMCE) in ASP.NET MVC](http://www.dotnetfunda.com/articles/show/2657/implementing-richtexteditor-or-wysiwyg-tinymce-in-aspnet-mvc) by Sheo Narayan
 - [Binding views with Anonymous type collection in ASP.NET MVC](http://www.dotnetfunda.com/articles/show/2655/binding-views-with-anonymous-type-collection-in-aspnet-mvc) by Sheo Narayan
