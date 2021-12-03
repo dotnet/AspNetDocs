@@ -43,7 +43,7 @@ Let's walk through each of these four steps, one at a time.
 
 ### Step 1: Downloading the ELMAH Project Files and Adding`Elmah.dll`To Your Web Application
 
-ELMAH 1.0 BETA 3 (Build 10617), the most recent version at the time of writing, is included in the download available with this tutorial. Alternatively, you may visit the [ELMAH website](https://code.google.com/p/elmah/) to get the most recent version or to download the source code. Extract the ELMAH download to a folder on your desktop and locate the ELMAH assembly file (`Elmah.dll`).
+ELMAH 1.0 BETA 3 (Build 10617), the most recent version at the time of writing, is included in the download available with this tutorial. Alternatively, you may visit the [ELMAH website](https://elmah.github.io/) to get the most recent version or to download the source code. Extract the ELMAH download to a folder on your desktop and locate the ELMAH assembly file (`Elmah.dll`).
 
 > [!NOTE]
 > The `Elmah.dll` file is located in the download's `Bin` folder, which has subfolders for different .NET Framework versions and for Release and Debug builds. Use the Release build for the appropriate framework version. For instance, if you are building an ASP.NET 3.5 web application, copy the `Elmah.dll` file from the `Bin\net-3.5\Release` folder.
@@ -218,7 +218,7 @@ The following markup instructs ELMAH to not log 404 errors.
 
 The `<equal>` element inside the `<test>` section is referred to as an assertion. If the assertion evaluates to true then the error is filtered from ELMAH's log. There are other assertions available, including: `<greater>`, `<greater-or-equal>`, `<not-equal>`, `<lesser>`, `<lesser-or-equal>`, and so on. You can also combine assertions using the `<and>` and `<or>` Boolean operators. What's more, you can even include a simple JavaScript expression as an assertion, or write your own assertions in C# or Visual Basic.
 
-For more information on ELMAH's error filtering capabilities, refer to the [Error Filtering section](https://code.google.com/p/elmah/wiki/ErrorFiltering) in the [ELMAH wiki](https://code.google.com/p/elmah/w/list).
+For more information on ELMAH's error filtering capabilities, refer to the [Error Filtering section](https://elmah.github.io/a/error-filtering/) in the [ELMAH Articles](https://elmah.github.io/a/).
 
 ## Summary
 
@@ -233,9 +233,9 @@ Happy Programming!
 For more information on the topics discussed in this tutorial, refer to the following resources:
 
 - [ELMAH - Error Logging Modules and Handlers](http://dotnetslackers.com/articles/aspnet/ErrorLoggingModulesAndHandlers.aspx)
-- [ELMAH Project Page](https://code.google.com/p/elmah/) (source code, samples, wiki)
+- [ELMAH Project Page](https://elmah.github.io/) (source code, samples, wiki)
 - [Plugging ELMAH Into a Web Application to Catch Unhandled Exceptions](http://screencastaday.com/ScreenCasts/43_Plugging_Elmah_into_Web_Application_to_Catch_Unhandled_Exceptions.aspx) (video)
-- [Security Error Log Pages](https://code.google.com/p/elmah/wiki/SecuringErrorLogPages)
+- [Security Error Log Pages](https://elmah.github.io/a/securing-error-log-pages/)
 - [Using HTTP Modules and Handlers to Create Pluggable ASP.NET Components](https://msdn.microsoft.com/library/aa479332.aspx)
 - [Website Security Tutorials](../../older-versions-security/introduction/security-basics-and-asp-net-support-cs.md)
 
