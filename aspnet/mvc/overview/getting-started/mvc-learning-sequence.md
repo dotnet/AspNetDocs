@@ -18,7 +18,6 @@ by [Rick Anderson](https://twitter.com/RickAndMSFT)
 
 - [Getting Started with ASP.NET MVC 5](introduction/getting-started.md) This 11 part series is a good place to start.
 - [Pluralsight ASP.NET MVC 5 Fundamentals](https://pluralsight.com/training/Player?author=scott-allen&amp;name=aspdotnet-mvc5-fundamentals-m1-introduction&amp;mode=live&amp;clip=0&amp;course=aspdotnet-mvc5-fundamentals) (video course)
-- [Intro to ASP.NET MVC](https://channel9.msdn.com/Series/Introduction-to-ASP-NET-MVC) by Jon Galloway and Christopher Harrison
 - [Lifecycle of an ASP.NET MVC 5 Application](lifecycle-of-an-aspnet-mvc-5-application.md) PDF document that charts the lifecycle of an ASP.NET MVC 5 app.
 
 <a id="con"></a>
@@ -56,7 +55,4 @@ The <xref:System.Web.Mvc.Html.SelectExtensions.DropDownListFor%2A>, <xref:System
 
 The workaround is to create separate enumerables, containing distinct `SelectListItem` instances, for each property in the model.
 
-For more information, see
-
-* [DropdownListFor modifies the SelectListItem collection passed to it](http://web.archive.org/web/20140902031437/http://aspnetwebstack.codeplex.com/workitem/1913)
-* [GetSelectListWithDefaultValue Modifies IEnumerable<SelectListItem> selectList](https://github.com/aspnet/AspNetWebStack/issues/271)
+For more information, see [GetSelectListWithDefaultValue Modifies IEnumerable<SelectListItem> selectList](https://github.com/aspnet/AspNetWebStack/issues/271)
