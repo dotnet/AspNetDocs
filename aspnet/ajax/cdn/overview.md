@@ -595,6 +595,7 @@ jQuery Migrate version 1.2.0
 
 The following releases of the jQuery UI library are hosted on this CDN. Click each link to see the actual list of files.
 
+- [jQuery UI 1.13.1](jquery-ui/cdnjqueryui1131.md "jQuery UI 1.13.1 on the Microsoft Ajax CDN")
 - [jQuery UI 1.13.0](jquery-ui/cdnjqueryui1130.md "jQuery UI 1.13.0 on the Microsoft Ajax CDN")
 - [jQuery UI 1.12.1](jquery-ui/cdnjqueryui1121.md "jQuery UI 1.12.1 on the Microsoft Ajax CDN")
 - [jQuery UI 1.12.0](jquery-ui/cdnjqueryui1120.md "jQuery UI 1.12.0 on the Microsoft Ajax CDN")
