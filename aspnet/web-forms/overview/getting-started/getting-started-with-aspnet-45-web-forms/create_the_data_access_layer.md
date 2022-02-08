@@ -171,7 +171,7 @@ In the next tutorial, you'll update the UI, add navigation, and retrieve data fr
 [Code First Development with Entity Framework](http://www.msteched.com/2010/Europe/DEV212) (video)   
 [Code First Relationships Fluent API](https://msdn.microsoft.com/data/hh134698)   
 [Code First Data Annotations](https://msdn.microsoft.com/data/gg193958)  
-[Productivity Improvements for the Entity Framework](https://blogs.msdn.com/b/efdesign/archive/2010/06/21/productivity-improvements-for-the-entity-framework.aspx?wa=wsignin1.0)
+[Productivity Improvements for the Entity Framework](https://docs.microsoft.com/archive/blogs/efdesign/productivity-improvements-for-the-entity-framework)
 
 > [!div class="step-by-step"]
 > [Previous](create-the-project.md)

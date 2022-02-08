@@ -77,7 +77,7 @@ by [Rick Anderson](https://twitter.com/RickAndMSFT)
 - [How to build (and how not to build) a secure "remember me" feature](http://www.troyhunt.com/2013/07/how-to-build-and-how-not-to-build.html) by Troy Hunt
 - Video: [The New Authentication Model for Web, Mobile, and Cloud Applications by Lucas Adams, Stuart Kwan](https://channel9.msdn.com/Events/Build/2014/2-601)
 - [Video: Building Enterprise and SaaS Web Apps and Web APIs using Azure Active Directory for Sign In by Vittorio Bertocci](https://channel9.msdn.com/Events/Build/2014/3-599)
-- [ASP.NET Identity 2.0.0](https://blogs.msdn.com/b/webdev/archive/2014/03/20/test-announcing-rtm-of-asp-net-identity-2-0-0.aspx)
+- [ASP.NET Identity 2.0.0](https://devblogs.microsoft.com/dotnet/announcing-rtm-of-asp-net-identity-2-0-0/)
 - [ASP.NET MVC 5 Identity: Extending and Modifying Roles](http://typecastexception.com/post/2014/02/13/ASPNET-MVC-5-Identity-Extending-and-Modifying-Roles.aspx)
 - [Working With IAuthenticationFilter in ASP.NET MVC 5](http://jameschambers.com/2013/11/working-with-iauthenticationfilter-in-the-mvc-5-framework/)
 - [stackoverflow threads on security](http://stackoverflow.com/users/59641/levi?tab=answers&amp;sort=newest) by Levi
@@ -85,7 +85,7 @@ by [Rick Anderson](https://twitter.com/RickAndMSFT)
 - [ASP.NET MVC 5 Authentication Filters](http://www.dotnetcurry.com/showarticle.aspx?ID=957)
 - [ASP.NET MVC 5 Authentication Breakdown](http://www.khalidabuhakmeh.com/asp-net-mvc-5-authentication-breakdown-part-deux)
 - [Security In ASP.NET MVC](http://www.codeproject.com/Articles/654846/Security-In-ASP-NET-MVC)
-- [Securing your ASP.NET MVC 4 App](https://blogs.msdn.com/b/rickandy/archive/2012/03/23/securing-your-asp-net-mvc-4-app-and-the-new-allowanonymous-attribute.aspx)
+- [Securing your ASP.NET MVC 4 App](https://docs.microsoft.com/archive/blogs/rickandy/securing-your-asp-net-mvc-4-app-and-the-new-allowanonymous-attribute)
 - [XSRF/CSRF Prevention in ASP.NET MVC and Web Pages](../security/xsrfcsrf-prevention-in-aspnet-mvc-and-web-pages.md)
 - [OWASP Top 10 for .NET developers](http://www.troyhunt.com/2010/05/owasp-top-10-for-net-developers-part-1.html)
 - [Using OAuth Providers with MVC 4](../older-versions/using-oauth-providers-with-mvc.md)
@@ -104,14 +104,14 @@ by [Rick Anderson](https://twitter.com/RickAndMSFT)
 
 ## Membership, Authentication
 
-- [Deploy a Secure ASP.NET MVC application with OAuth, Membership and SQL Database](https://blogs.msdn.com/b/webdev/archive/2013/03/12/deploy-a-secure-asp-net-mvc-application-with-oauth-membership-and-sql-database.aspx)
+- [Deploy a Secure ASP.NET MVC application with OAuth, Membership and SQL Database](https://devblogs.microsoft.com/dotnet/deploy-a-secure-asp-net-mvc-application-with-oauth-membership-and-sql-database/)
 - [SimpleMembership, Membership Providers, Universal Providers and the new ASP.NET 4.5 Web Forms and ASP.NET MVC 4 templates](https://weblogs.asp.net/jgalloway/archive/2012/08/29/simplemembership-membership-providers-universal-providers-and-the-new-asp-net-4-5-web-forms-and-asp-net-mvc-4-templates.aspx)
 - [Customize the SimpleMembership in ASP.NET MVC 4](https://weblogs.asp.net/thangchung/archive/2012/11/15/customize-the-simplemembership-in-asp-net-mvc-4-0.aspx)
 - [Membership is not the same as Forms Authentication](http://brockallen.com/2012/06/04/membership-is-not-the-same-as-forms-authentication/)
 - [Think twice about using MembershipProvider (and SimpleMembership)](http://brockallen.com/2012/09/02/think-twice-about-using-membershipprovider-and-simplemembership/)
 - [Implementing MVC Two Factor Authentication with Google Authenticator](http://www.codeproject.com/Articles/403355/Implementing-MVC-Two-Factor-Authentication-with-Go)
 - new
-- [ASP.NET Identity and Azure Table Storage](https://blogs.msdn.com/b/stuartleeks/archive/2014/01/15/asp-net-identity-and-windows-azure-table-storage.aspx)
+- [ASP.NET Identity and Azure Table Storage](https://docs.microsoft.com/archive/blogs/stuartleeks/asp-net-identity-and-windows-azure-table-storage)
 
 <a id="OWIN"></a>
 
@@ -148,7 +148,7 @@ by [Rick Anderson](https://twitter.com/RickAndMSFT)
 - Video: [Using the Cloud-Based Load Testing Service and Application Insights to Find Scale and Performance by Charles Sterling](https://channel9.msdn.com/Events/Build/2014/3-595)
 - [Using Asynchronous Methods in ASP.NET MVC 4](../performance/using-asynchronous-methods-in-aspnet-mvc-4.md)
 - [Bundling, Minification and Optimization](../performance/bundling-and-minification.md)
-- [Using CDNs and Expires to Improve Web Site Performance](https://blogs.msdn.com/b/rickandy/archive/2011/05/21/using-cdns-to-improve-web-site-performance.aspx)
+- [Using CDNs and Expires to Improve Web Site Performance](https://docs.microsoft.com/archive/blogs/rickandy/using-cdns-and-expires-to-improve-web-site-performance)
 - [Async File Uploads in MVC](https://weblogs.asp.net/bryansampica/archive/2013/01/15/AsyncMVCFileUpload.aspx)
 - [Video: High-Performance Web Platform: Real-World Problems and Solutions by Tobin Titus](https://channel9.msdn.com/Events/Build/2014/4-556)
 - [Video: Gain Early Warning of Performance Issues and Failures, and Pinpoint the Cause with Application by Bret Grinslade, Vlad Joanovic](https://channel9.msdn.com/Events/Build/2014/3-597)
@@ -164,7 +164,7 @@ by [Rick Anderson](https://twitter.com/RickAndMSFT)
 - [Advanced Options of ASP.NET Bundling and Minification](https://weblogs.asp.net/imranbaloch/archive/2012/09/30/hidden-options-of-asp-net-bundling-and-minification.aspx)
 - [A harsh reminder about the importance of debug="false"](http://encosia.com/a-harsh-reminder-about-the-importance-of-debug-false/)
 - [ELMAH and MiniProfiler In ASP.NET MVC 4](http://odetocode.com/Blogs/scott/archive/2012/09/11/elmah-and-miniprofiler-in-asp-net-mvc-4.aspx)
-- [Using CDNs and Expires to Improve Web Site Performance](https://blogs.msdn.com/b/rickandy/archive/2011/05/21/using-cdns-to-improve-web-site-performance.aspx)
+- [Using CDNs and Expires to Improve Web Site Performance](https://docs.microsoft.com/archive/blogs/rickandy/using-cdns-and-expires-to-improve-web-site-performance)
 - [Bundling and Minifying Inline CSS and JavaScript](https://weblogs.asp.net/imranbaloch/archive/2012/07/25/bundling-and-minifying-inline-css-and-js.aspx)
 - [Async in ASP.NET](https://channel9.msdn.com/Events/aspConf/aspConf/Async-in-ASP-NET) (video)
 - [Bundling and Optimizing](https://channel9.msdn.com/Events/aspConf/aspConf/Bundling-and-Optimizing) (video)
@@ -223,7 +223,7 @@ by [Rick Anderson](https://twitter.com/RickAndMSFT)
 
 ## Routing
 
-- [Attribute Routing in ASP.NET MVC 5](https://blogs.msdn.com/b/webdev/archive/2013/10/17/attribute-routing-in-asp-net-mvc-5.aspx)
+- [Attribute Routing in ASP.NET MVC 5](https://devblogs.microsoft.com/dotnet/attribute-routing-in-asp-net-mvc-5/)
 - [Lifecycle of an ASP.NET MVC 5 Application](lifecycle-of-an-aspnet-mvc-5-application.md) (PDF)
 - [Using Constraints for Better Routing in MVC](http://blog.greatrexpectations.com/2012/08/03/using-constraints-for-better-routing-in-mvc/)
 - [In depth: The ASP.NET MVC Pipeline](http://blog.stevensanderson.com/2007/11/20/aspnet-mvc-pipeline-lifecycle/)
@@ -278,14 +278,14 @@ by [Rick Anderson](https://twitter.com/RickAndMSFT)
 - [A .NET Developer Primer for Single-Page Applications](https://msdn.microsoft.com/magazine/dn605877.aspx) MSDN Magazine
 - [Single-Page App with AngularJS and ASP.NET MVC 4](http://tarkus.me/post/32121691785/angularjs-with-asp-net-mvc-4)
 - [Inside the ASP.NET Single Page Apps Template](http://www.johnpapa.net/inside-the-asp-net-single-page-apps-template/)
-- [MVC Single Page Application Template Update for ASP.NET and Web Tools 2012.2 RC](https://blogs.msdn.com/b/webdev/archive/2012/12/19/mvc-single-page-template-update-for-asp-net-and-web-tools-2012-2-rc.aspx)
+- [MVC Single Page Application Template Update for ASP.NET and Web Tools 2012.2 RC](https://devblogs.microsoft.com/dotnet/mvc-single-page-application-template-update-for-asp-net-and-web-tools-2012-2-rc/)
 - [Inside the ASP.NET Single Page Apps Template](http://www.johnpapa.net/inside-the-asp-net-single-page-apps-template/)
 
 <a id="fb"></a>
 
 ## Twitter, Facebook
 
-- [The new Facebook application template and library for ASP.NET MVC](https://blogs.msdn.com/b/webdev/archive/2012/12/13/the-new-facebook-application-template-and-library-for-asp.net-mvc.aspx)
+- [The new Facebook application template and library for ASP.NET MVC](https://devblogs.microsoft.com/dotnet/the-new-facebook-application-template-and-library-for-asp-net-mvc/)
 - [Twitter.Bootstrap.MVC4](http://lostechies.com/erichexter/2012/12/24/twitter-bootstrap-mvc4-new-release-1-0-71/)
 - [MVC 4: facebook twitter login with oAuth](http://www.dotnetexpertguide.com/2012/08/facebook-twitter-oauth-openid-login-with-aspnet-mvc-4-application.html)
 
@@ -352,7 +352,7 @@ by [Rick Anderson](https://twitter.com/RickAndMSFT)
 - [Upload and download files using ASP.NET MVC](http://rachelappel.com/upload-and-download-files-using-asp.net-mvc#)
 - [Using Fluent Validation with ASP.NET MVC](http://www.beabigrockstar.com/using-fluent-validation-with-asp-net-mvc-part-1-the-basics/)
 - [Create Your Own Custom ViewWebPage for ASP.NET MVC](http://www.love2dev.com/#!article/Create-Your-Own-Custom-ViewWebPage-for-ASPNET-MVC)
-- [Tracing in ASP.NET MVC Razor Views](https://blogs.msdn.com/b/webdev/archive/2013/07/16/tracing-in-asp-net-mvc-razor-views.aspx)
+- [Tracing in ASP.NET MVC Razor Views](https://devblogs.microsoft.com/dotnet/tracing-in-asp-net-mvc-razor-views/)
 - [Rendering ASP.NET MVC Razor Views outside of MVC revisited](http://www.west-wind.com/weblog/posts/2013/Jul/15/Rendering-ASPNET-MVC-Razor-Views-outside-of-MVC-revisited)
 - [Five Essential Front-End Tools That Should be Used with Modern MVC Projects](http://www.adamtibi.net/06-2013/five-essential-front-end-tools-that-should-be-used-with-modern-mvc-projects)
 - [The Features and Foibles of ASP.NET MVC Model Binding](https://msdn.microsoft.com/magazine/hh781022.aspx)
@@ -361,7 +361,7 @@ by [Rick Anderson](https://twitter.com/RickAndMSFT)
 - [Filtering in ASP.NET MVC](https://msdn.microsoft.com/library/gg416513(VS.98).aspx)
 - [Get to Know Action Filters in ASP.NET MVC 3 Using HandleError](https://channel9.msdn.com/Shows/DevNuggets/Get2KnowActionFiltersUsingHandleError) (video)
 - [MVC - Custom Filters - Session timeout Handling](https://codeblockdrive.blogspot.in/2012/12/mvc-custom-filters-session-timeout.html)
-- [Custom MVC 4 Template Walkthrough](https://blogs.msdn.com/b/yjhong/archive/2012/12/13/custom-mvc-4-template-walkthrough.aspx)
+- [Custom MVC 4 Template Walkthrough](https://docs.microsoft.com/archive/blogs/yjhong/custom-mvc-4-template-walkthrough)
 - [Browser history](http://msprogrammer.serviciipeweb.ro/2012/12/03/browser-historypart-5-conclusions/)
 - [Why ASP.NET MVC HTML Helper methods take lambda expressions as parameters](http://odetocode.com/blogs/scott/archive/2012/11/26/why-all-the-lambdas.aspx)
 - [A Web Developer's Look at the MVC4 Request Pipeline](http://jameschambers.com/2012/10/a-web-developer-s-look-at-the-mvc4-request-pipeline/)

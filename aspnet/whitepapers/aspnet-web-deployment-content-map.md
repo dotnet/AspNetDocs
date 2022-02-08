@@ -100,8 +100,8 @@ See also [Making sure an application is off-line during deployment](aspnet-web-d
 - [Web Tools 2012.2 - web.config transforms](https://www.youtube.com/watch?v=HdPK8mxpKEI) (YouTube video by Sayed Hashimi). Shows how to set up and preview Web.config transforms.
 - [How do I disable Web.config transformation?](https://msdn.microsoft.com/library/ee942158.aspx#disable_web_config_transformation) (MSDN).
 - [When should I use Web Deploy parameters instead of Web.config transformations?](https://msdn.microsoft.com/library/ee942158.aspx#web_deploy_parameters) (MSDN).
-- [XDT (XML Document Transform) released on codeplex.com](https://blogs.msdn.com/b/webdev/archive/2013/04/23/xdt-xml-document-transform-released-on-codeplex-com.aspx) (.NET Web Development and Tools blog). Announces availability of the source code for the Web.config file transformation engine and lists some tools that use it.
-- [Windows Azure Web Sites: How Application Strings and Connection Strings Work](https://blogs.msdn.com/b/windowsazure/archive/2013/07/17/windows-azure-web-sites-how-application-strings-and-connection-strings-work.aspx) (Microsoft Azure blog). An alternative to Web.config transforms if your destination environment is Windows Azure Web Sites and you want to transform `appSettings` or `connectionStrings`.
+- [XDT (XML Document Transform) released on codeplex.com](https://devblogs.microsoft.com/dotnet/windows-azure-web-sites-how-application-strings-and-connection-strings-work/) (.NET Web Development and Tools blog). Announces availability of the source code for the Web.config file transformation engine and lists some tools that use it.
+- [Windows Azure Web Sites: How Application Strings and Connection Strings Work](https://azure.microsoft.com/blog/windows-azure-web-sites-how-application-strings-and-connection-strings-work/) (Microsoft Azure blog). An alternative to Web.config transforms if your destination environment is Windows Azure Web Sites and you want to transform `appSettings` or `connectionStrings`.
 
 <a id="webdeployparms"></a>
 
@@ -112,7 +112,7 @@ See also [Making sure an application is off-line during deployment](aspnet-web-d
 - [Web Deploy Parameterization](https://www.iis.net/learn/publish/using-web-deploy/web-deploy-parameterization) (IIS.NET web site).
 - [Web Deploy Parameterization in Action](http://vishaljoshi.blogspot.com/2010/07/web-deploy-parameterization-in-action.html) (Vishal Joshi's blog).
 - [Web Deploy Parameterization vs. Web.config Transformation](http://vishaljoshi.blogspot.com/2010/06/parameterization-vs-webconfig.html) (Vishal Joshi's blog).
-- [Windows Azure Web Sites: How Application Strings and Connection Strings Work](https://blogs.msdn.com/b/windowsazure/archive/2013/07/17/windows-azure-web-sites-how-application-strings-and-connection-strings-work.aspx) (Microsoft Azure blog). An alternative to Web deploy parameters if your destination environment is Windows Azure Web Sites and you want to parameterize `appSettings` or `connectionStrings`.
+- [Windows Azure Web Sites: How Application Strings and Connection Strings Work](https://azure.microsoft.com/blog/windows-azure-web-sites-how-application-strings-and-connection-strings-work/) (Microsoft Azure blog). An alternative to Web deploy parameters if your destination environment is Windows Azure Web Sites and you want to parameterize `appSettings` or `connectionStrings`.
 
 <a id="appoffline"></a>
 
@@ -121,7 +121,7 @@ See also [Making sure an application is off-line during deployment](aspnet-web-d
 - [ASP.NET Web Deployment using Visual Studio: Deploying a Code Update](../web-forms/overview/deployment/visual-studio-web-deployment/deploying-a-code-update.md). See the section **Take the application offline during deployment.**
 - [Taking an Application Offline before Publishing](https://www.iis.net/learn/publish/deploying-application-packages/taking-an-application-offline-before-publishing) (IIS.net site). Explains a feature built into Web Deploy 3.0 that automates handling of an app\_offline.htm file. This feature does not work with custom app\_offline.htm files.
 - [How to take your web app offline during publishing](http://sedodream.com/2012/01/08/HowToTakeYourWebAppOfflineDuringPublishing.aspx) (Sayed Hashimi's blog). How to automate the process of using a custom app\_offline.htm file.
-- [Web publishing updates for app offline and usechecksum](https://blogs.msdn.com/b/webdev/archive/2013/10/30/web-publishing-updates-for-app-offline-and-usechecksum.aspx) (Microsoft Web Development blog). Another option for automating use of app\_offline.htm file.
+- [Web publishing updates for app offline and usechecksum](https://devblogs.microsoft.com/dotnet/web-publishing-updates-for-app-offline-and-usechecksum/) (Microsoft Web Development blog). Another option for automating use of app\_offline.htm file.
 - [Web Deploy 3.5 RTW](https://blogs.iis.net/msdeploy/archive/2013/07/09/webdeploy-3-5-rtw.aspx) (IIS.net site). New feature in Web Deploy 3.5 for custom app\_offline.htm files.
 
 <a id="databasewithweb"></a>
@@ -141,10 +141,10 @@ See also  Deploying a web application by creating and installing a web deploymen
 ## Deploying a database separately from web application deployment
 
 - [SQL Server Data Tools](https://msdn.microsoft.com/library/hh272686(v=vs.103).aspx) (MSDN).
-- [Including Data in a SQL Server Database Project](https://blogs.msdn.com/b/ssdt/archive/2012/02/02/including-data-in-an-sql-server-database-project.aspx) (SQL Server Data Tools team blog). How to deploy both schema and data when deploying a database.
+- [Including Data in a SQL Server Database Project](https://docs.microsoft.com/archive/blogs/ssdt/including-data-in-a-sql-server-database-project) (SQL Server Data Tools team blog). How to deploy both schema and data when deploying a database.
 - [How to Deploy a Database to Windows Azure](https://docs.microsoft.com/azure/sql-database/sql-database-cloud-migrate) (Microsoft Azure site)
 - [Migrating Databases to Windows Azure SQL Database (formerly SQL Azure)](https://msdn.microsoft.com/library/windowsazure/ee730904.aspx) (MSDN).
-- [Migrating a Database to SQL Azure using SSDT](https://blogs.msdn.com/b/ssdt/archive/2012/04/19/migrating-a-database-to-sql-azure-using-ssdt.aspx) (SQL Server Data Tools team blog).
+- [Migrating a Database to SQL Azure using SSDT](https://docs.microsoft.com/archive/blogs/ssdt/including-data-in-a-sql-server-database-project) (SQL Server Data Tools team blog).
 - [Migrating Data-Centric Applications to Windows Azure](https://msdn.microsoft.com/library/jj156154.aspx) (MSDN).
 - [Migrating SQL Server Databases to Windows Azure SQL Database](https://msdn.microsoft.com/library/windowsazure/jj156160.aspx) (MSDN).
 
@@ -179,11 +179,11 @@ See also  Deploying a web application by creating and installing a web deploymen
 
 - [ASP.NET Web Deployment using Visual Studio: Deploying Extra Files](../web-forms/overview/deployment/visual-studio-web-deployment/deploying-extra-files.md).
 - [Setting Folder Permissions on Web Publish](http://sedodream.com/2011/11/08/SettingFolderPermissionsOnWebPublish.aspx) (Sayed Hashimi's blog).
-- [How to extend the targets file to include registry settings for a web project package](https://blogs.msdn.com/webdevtools/archive/2010/02/09/how-to-extend-target-file-to-include-registry-settings-for-web-project-package.aspx) (Web Development Tools blog).
+- [How to extend the targets file to include registry settings for a web project package](https://docs.microsoft.com/archive/blogs/ssdt/including-data-in-a-sql-server-database-project) (Web Development Tools blog).
 - [Extending XML (Web.config) transformation](http://sedodream.com/2010/09/09/ExtendingXMLWebconfigConfigTransformation.aspx) (Sayed Hashimi's blog). Shows how to create custom XDT transforms.
 - [Web Deployment Tool (MSDeploy) Custom Provider Take 1](http://sedodream.com/2010/03/11/WebDeploymentToolMSDeployCustomProviderTake1.aspx) (Sayed Hashimi's blog). Shows how to create a Web Deploy custom provider.
-- [How to package and deploy COM components](https://blogs.msdn.com/webdevtools/archive/2010/03/03/how-to-package-and-deploy-com-component.aspx) (Web Development Tools blog).
-- [How to package .NET assemblies](https://blogs.msdn.com/webdevtools/archive/2010/02/19/how-to-package-com-component.aspx) (Web Development Tools blog). How to deploy assemblies to the GAC.
+- [How to package and deploy COM components](https://devblogs.microsoft.com/dotnet/how-to-package-and-deploy-com-component/) (Web Development Tools blog).
+- [How to package .NET assemblies](https://devblogs.microsoft.com/dotnet/how-to-package-net-assemblies/) (Web Development Tools blog). How to deploy assemblies to the GAC.
 - [Script Out Everything - Initialize Your Windows Azure VM for Your Web Server with IIS, Web Deploy and Other Stuff](http://www.tugberkugurlu.com/archive/script-out-everything-initialize-your-windows-azure-vm-for-your-web-server-with-iis-web-deploy-and-other-stuff) (Tugberk Ugurlu's blog).
 
 <a id="configuringservers"></a>
@@ -227,7 +227,7 @@ This section provides links to additional resources that are useful for learning
 
 The following blogs frequently contain information about Visual Studio web deployment:
 
-- [Web Development Tools at Microsoft blog](https://blogs.msdn.com/b/webdevtools/).
+- [Web Development Tools at Microsoft blog](https://devblogs.microsoft.com/dotnet/category/aspnet/).
 - [Sayed Hashimi's blog](http://www.sedodream.com/).
 
 The following resources provide documentation about Web Deploy, the IIS framework that Visual Studio uses to perform web application project deployment tasks. You can ask questions about Web Deploy in the [Web Deployment Tool forum](https://go.microsoft.com/fwlink/?LinkId=149411) on the IIS.net web site.

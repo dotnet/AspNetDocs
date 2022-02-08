@@ -93,7 +93,7 @@ Most of the Code First tutorials listed above cover migrations. See also the fol
 - [Deploy a Secure ASP.NET MVC 5 app with Membership, OAuth, and SQL Database to a Windows Azure Web Site](https://docs.microsoft.com/aspnet/core/security/authorization/secure-data). Microsoft Azure). How to use migrations to deploy membership and application data to Azure.
 - [Web Deployment Overview for Visual Studio and ASP.NET](https://msdn.microsoft.com/library/dd394698.aspx#dbdeployment). See the **Configuring Database Deployment in Visual Studio** section for an explanation of how Code First Migrations is integrated into Visual Studio web deployment features.
 - [Data Developer Center - Code First Migrations](https://msdn.microsoft.com/data/jj591621) (MSDN). The Entity Framework team's Migrations documentation.
-- [Migrations Screencast Series](https://blogs.msdn.com/b/adonet/archive/2014/03/12/migrations-screencast-series.aspx). EF blog). Three videos on advanced topics in Code First Migrations.
+- [Migrations Screencast Series](https://docs.microsoft.com/archive/blogs/adonet/migrations-screencast-series). EF blog). Three videos on advanced topics in Code First Migrations.
 - [Code First Migrations With ASP.NET Web Pages Sites](http://www.mikesdotnetting.com/Article/217/Code-First-Migrations-With-ASP.NET-Web-Pages-Sites). Mikesdotnetting blog). Shows how to use Code First migrations with an ASP.NET Web Pages site by putting the data context in a Visual Studio class library project.
 
 <a id="efdbf"></a>
@@ -145,7 +145,7 @@ Both of these books are up-to-date with current recommended techniques. They pro
 
 ### Other Entity Framework Resources
 
-- [Entity Framework (ADO.NET) team blog](https://blogs.msdn.com/b/adonet/). One of the best resources for the most current information and announcements of new enhancements. For other EF-related blogs, see the Blogroll at [Get Started with Entity Framework](https://msdn.microsoft.com/data/ee712907).
+- [Entity Framework (ADO.NET) team blog](https://docs.microsoft.com/archive/blogs/adonet/). One of the best resources for the most current information and announcements of new enhancements. For other EF-related blogs, see the Blogroll at [Get Started with Entity Framework](https://msdn.microsoft.com/data/ee712907).
 - [MSDN Magazine](https://msdn.microsoft.com/magazine/default.aspx). See the **Data Points** column, which is frequently about topics related to the Entity Framework.
 
 <a id="wfdatabinding"></a>
@@ -172,7 +172,7 @@ Both of these books are up-to-date with current recommended techniques. They pro
 ### Using Web Forms Data Source Controls
 
 - [Data Source Web Server Controls](https://msdn.microsoft.com/library/ms247258.aspx) (MSDN).
-- [Announcing the release of Dynamic Data provider and EntityDataSource control for Entity Framework 6](https://blogs.msdn.com/b/webdev/archive/2014/02/28/announcing-the-release-of-dynamic-data-provider-and-entitydatasource-control-for-entity-framework-6.aspx) (Microsoft Web Development blog).
+- [Announcing the release of Dynamic Data provider and EntityDataSource control for Entity Framework 6](https://devblogs.microsoft.com/dotnet/announcing-the-release-of-dynamic-data-provider-and-entitydatasource-control-for-entity-framework-6/) (Microsoft Web Development blog).
 
 <a id="wfdbc"></a>
 
@@ -208,14 +208,14 @@ See also the following sections on working with SQL Server Express and LocalDB, 
 - [How to: Upgrade to LocalDB](https://msdn.microsoft.com/library/hh873188.aspx) (MSDN). How to migrate an .mdf file from an earlier version of SQL Server Express to LocalDB. You also have to go through this process if you download one of the [SQL Server 2012 sample databases](https://go.microsoft.com/fwlink/?linkid=117483).
 - [Introducing LocalDB, an improved SQL Express](https://go.microsoft.com/fwlink/?LinkId=234375) (SQL Server Express blog). Has more background on why LocalDB was created than is included in MSDN.
 - [LocalDB: Where is My Database?](https://go.microsoft.com/fwlink/?LinkId=234376) (SQL Server Express blog). Information about where LocalDB database files are created.
-- [Using LocalDB with Full IIS, Part 1: User Profile](https://blogs.msdn.com/b/sqlexpress/archive/2011/12/09/using-localdb-with-full-iis-part-1-user-profile.aspx) (SQL Server Express blog). LocalDB is not designed to work with IIS. This series of blog posts explains the issues and some workarounds.
+- [Using LocalDB with Full IIS, Part 1: User Profile](https://docs.microsoft.com/archive/blogs/sqlexpress/using-localdb-with-full-iis-part-1-user-profile) (SQL Server Express blog). LocalDB is not designed to work with IIS. This series of blog posts explains the issues and some workarounds.
 
 <a id="sse"></a>
 
 ### Working with SQL Server Express Databases
 
 - [SQL Server Connection Strings for ASP.NET Web Applications](https://msdn.microsoft.com/library/jj653752.aspx) (MSDN). If you use the AttachDBFileName connection string setting with SQL Server Express, see especially the User Instance section of this page.
-- [How to take ownership of your local SQL Server Express 2008](https://blogs.msdn.com/b/sqlexpress/archive/2010/02/23/how-to-take-ownership-of-your-local-sql-server-2008-express.aspx) (SQL Server Express blog). A common problem is not being able to work with SQL Server Express databases because you're not an administrator on the SQL Server Express instance. By default, only the person who installed SQL Server Express is an administrator. This blog explains how to make yourself a SQL Server Express administrator if you're an administrator on the computer.
+- [How to take ownership of your local SQL Server Express 2008](https://docs.microsoft.com/archive/blogs/sqlexpress/how-to-take-ownership-of-your-local-sql-server-2008-express) (SQL Server Express blog). A common problem is not being able to work with SQL Server Express databases because you're not an administrator on the SQL Server Express instance. By default, only the person who installed SQL Server Express is an administrator. This blog explains how to make yourself a SQL Server Express administrator if you're an administrator on the computer.
 - [Can my ASP.NET web application use a SQL Server Express database in production?](https://msdn.microsoft.com/library/jj653753.aspx#sql_express_in_production) (MSDN).
 
 <a id="ssdb"></a>

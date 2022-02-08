@@ -339,9 +339,9 @@ I would like to thank the following people who made significant contributions to
 - [Mitchel Sellers, USA](http://www.mitchelsellers.com/) (twitter: [@MitchelSellers](http://twitter.com/MitchelSellers))
 - [Paul Cociuba, Microsoft](http://linqto.me/Links/pcociuba)
 - [Paulo Morgado, Portugal](http://paulomorgado.net/)
-- [Pranav Rastogi, Microsoft](https://blogs.msdn.com/b/pranav_rastogi)
+- [Pranav Rastogi, Microsoft](https://docs.microsoft.com/archive/blogs/pranav_rastogi/)
 - [Tim Ammann, Microsoft](https://blogs.iis.net/timamm/default.aspx)
-- [Tom Dykstra, Microsoft](https://blogs.msdn.com/aspnetue)
+- [Tom Dykstra, Microsoft](https://docs.microsoft.com/archive/blogs/aspnetue/)
 
 ## Community Contributions
 

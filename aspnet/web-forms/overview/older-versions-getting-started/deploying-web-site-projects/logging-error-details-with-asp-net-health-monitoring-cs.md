@@ -126,7 +126,7 @@ The `<rules>` section now includes two rules. The first one, named "All Errors T
 
 The ASP.NET health monitoring system is designed to allow administrators to monitor the health of a deployed web application. Health monitoring events are raised when certain actions unfold, such as when the application stops, when a user successfully logs onto the site, or when an unhandled exception occurs. These events can be logged to any number of log sources. This tutorial showed how to log the details of unhandled exceptions to a database and through an email message.
 
-This tutorial focused on using health monitoring to log unhandled exceptions, but keep in mind that health monitoring is designed to measure the overall health of a deployed ASP.NET application and includes a wealth of health monitoring events and log sources not explored here. What's more, you can create your own health monitoring events and log sources, should the need arise. If you are interested in learning more about health monitoring, a good first step is to read through [Erik Reitan](https://blogs.msdn.com/erikreitan/archive/2006/05/22/603586.aspx)'s [health monitoring FAQ](https://blogs.msdn.com/erikreitan/archive/2006/05/22/603586.aspx). Following that, consult [How To: Use Health Monitoring in ASP.NET 2.0](https://msdn.microsoft.com/library/ms998306.aspx).
+This tutorial focused on using health monitoring to log unhandled exceptions, but keep in mind that health monitoring is designed to measure the overall health of a deployed ASP.NET application and includes a wealth of health monitoring events and log sources not explored here. What's more, you can create your own health monitoring events and log sources, should the need arise. If you are interested in learning more about health monitoring, a good first step is to read through [Erik Reitan](https://docs.microsoft.com/archive/blogs/erikreitan/faq-health-monitoring-in-asp-net-2-0)'s [health monitoring FAQ](https://docs.microsoft.com/archive/blogs/erikreitan/faq-health-monitoring-in-asp-net-2-0). Following that, consult [How To: Use Health Monitoring in ASP.NET 2.0](https://msdn.microsoft.com/library/ms998306.aspx).
 
 Happy Programming!
 
@@ -136,7 +136,7 @@ For more information on the topics discussed in this tutorial, refer to the foll
 
 - [ASP.NET Health Monitoring Overview](https://msdn.microsoft.com/library/bb398933.aspx)
 - [Configuring and Customizing the Health Monitoring System of ASP.NET](http://dotnetslackers.com/articles/aspnet/ConfiguringAndCustomizingTheHealthMonitoringSystemOfASPNET.aspx)
-- [FAQ - Health Monitoring in ASP.NET 2.0](https://blogs.msdn.com/erikreitan/archive/2006/05/22/603586.aspx)
+- [FAQ - Health Monitoring in ASP.NET 2.0](https://docs.microsoft.com/archive/blogs/erikreitan/faq-health-monitoring-in-asp-net-2-0)
 - [How To: Send E-Mail for Health Monitoring Notifications](https://msdn.microsoft.com/library/ms227553.aspx)
 - [How To: Use Health Monitoring in ASP.NET](https://msdn.microsoft.com/library/ms998306.aspx)
 - [Health Monitoring in ASP.NET](http://aspnet.4guysfromrolla.com/articles/031407-1.aspx)

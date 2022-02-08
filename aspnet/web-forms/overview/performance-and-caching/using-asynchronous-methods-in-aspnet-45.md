@@ -32,7 +32,7 @@ ASP.NET 4.5 Web Pages in combination [.NET 4.5](https://msdn.microsoft.com/libra
 For more information on the using [await](https://msdn.microsoft.com/library/hh156528(VS.110).aspx) and [async](https://msdn.microsoft.com/library/hh156513(VS.110).aspx) keywords and the [Task](https://msdn.microsoft.com/library/system.threading.tasks.task.aspx) namespace, see the following references.
 
 - [Whitepaper: Asynchrony in .NET](https://go.microsoft.com/fwlink/?LinkId=204844)
-- [Async/Await FAQ](https://blogs.msdn.com/b/pfxteam/archive/2012/04/12/10293335.aspx)
+- [Async/Await FAQ](https://devblogs.microsoft.com/pfxteam/asyncawait-faq/)
 - [Visual Studio Asynchronous Programming](https://msdn.microsoft.com/vstudio/gg316360)
 
 ## <a id="HowRequestsProcessedByTP"></a>  How Requests Are Processed by the Thread Pool
@@ -198,11 +198,11 @@ To realize the benefits of an asynchronous web application, you might need to ma
 - [.NET Framework Versions and Dependencies](https://msdn.microsoft.com/library/bb822049(VS.110).aspx)
 
 - If your application is using web services or System.NET to communicate with a backend over HTTP you may need to increase the [connectionManagement/maxconnection](https://msdn.microsoft.com/library/fb6y0fyc(VS.110).aspx) element. For ASP.NET applications, this is limited by the autoConfig feature to 12 times the number of CPUs. That means that on a quad-proc, you can have at most 12 \* 4 = 48 concurrent connections to an IP end point. Because this is tied to [autoConfig](https://msdn.microsoft.com/library/7w2sway1(VS.110).aspx), the easiest way to increase `maxconnection` in an ASP.NET application is to set [System.Net.ServicePointManager.DefaultConnectionLimit](https://msdn.microsoft.com/library/system.net.servicepointmanager.defaultconnectionlimit(VS.110).aspx) programmatically in the from `Application_Start` method in the *global.asax* file. See the sample download for an example.
-- In .NET 4.5, the default of 5000 for [MaxConcurrentRequestsPerCPU](https://blogs.msdn.com/tmarq/archive/2007/07/21/asp-net-thread-usage-on-iis-7-0-and-6-0.aspx) should be fine.
+- In .NET 4.5, the default of 5000 for [MaxConcurrentRequestsPerCPU](https://docs.microsoft.com/archive/blogs/tmarq/asp-net-thread-usage-on-iis-7-5-iis-7-0-and-iis-6-0) should be fine.
 
 ## Contributors
 
 - [Levi Broderick](http://stackoverflow.com/users/59641/levi)
 - [Tom Dykstra](http://www.bing.com/search?q=site%3Aasp.net+%22Tom+Dykstra%22+-forums.asp.net&amp;qs=n&amp;form=QBRE&amp;pq=site%3Aasp.net+%22tom+dykstra%22+-forums.asp.net&amp;sc=8-42&amp;sp=-1&amp;sk=)
 - [Brad Wilson](http://bradwilson.typepad.com/)
-- [HongMei Ge](https://blogs.msdn.com/b/hongmeig/)
+- [HongMei Ge](https://docs.microsoft.com/archive/blogs/hongmeig/)
