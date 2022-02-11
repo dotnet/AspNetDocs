@@ -151,11 +151,11 @@ This can happen if you are already logged in with some other Microsoft ID to one
 
 ## Additional Resources
 
-- [Microsoft ASP.NET Tools for Windows Azure Active Directory – Visual Studio 2012](https://blogs.msdn.com/b/vbertocci/archive/2013/02/18/microsoft-asp-net-tools-for-windows-azure-active-directory-visual-studio-2012.aspx) – Vittorio Bertocci
+- [Microsoft ASP.NET Tools for Windows Azure Active Directory – Visual Studio 2012](https://docs.microsoft.com/archive/blogs/vbertocci/microsoft-asp-net-tools-for-windows-azure-active-directory-visual-studio-2012) – Vittorio Bertocci
 - [Windows Azure Features: Identity](https://docs.microsoft.com/azure/active-directory/)
 - [TechNet: Windows Azure Active Directory](https://technet.microsoft.com/library/hh967619.aspx)
 - [Windows Azure Active Directory: Develop Apps for your organization](https://activedirectory.windowsazure.com/Develop/Single-Tenant.aspx)
 - [Windows Azure Active Directory: Develop Apps for multiple organizations](https://activedirectory.windowsazure.com/Develop/Multi-Tenant.aspx)
 - [How to implement single sign-on with Windows Azure Active Directory](https://github.com/Azure-Samples/active-directory-dotnet-webapp-openidconnect)
-- [Single Sign-On with Windows Azure Active Directory: a Deep Dive](https://blogs.msdn.com/b/vbertocci/archive/2012/07/05/single-sign-on-with-windows-azure-active-directory-a-deep-dive.aspx) – Vittorio Bertocci
+- [Single Sign-On with Windows Azure Active Directory: a Deep Dive](https://docs.microsoft.com/archive/blogs/vbertocci/single-sign-on-with-windows-azure-active-directory-a-deep-dive) – Vittorio Bertocci
 - [Use AD FS 2.0 to implement and manage single sign-on](https://technet.microsoft.com/library/jj205462.aspx)

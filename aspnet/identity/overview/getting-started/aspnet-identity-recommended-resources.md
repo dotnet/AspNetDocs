@@ -103,14 +103,14 @@ by [Rick Anderson](https://twitter.com/RickAndMSFT)
     - [Introducing IdentityReboot](http://brockallen.com/2014/02/11/introducing-identityreboot/): a set of extensions to ASP.NET Identity that implement the major missing features I've complained about.
 - [Pranav Rastogi](https://twitter.com/rustd)
 
-    - [Get more information from Social providers](https://blogs.msdn.com/b/webdev/archive/2013/10/16/get-more-information-from-social-providers-used-in-the-vs-2013-project-templates.aspx)
+    - [Get more information from Social providers](https://devblogs.microsoft.com/dotnet/get-more-information-from-social-providers-used-in-the-vs-2013-project-templates/)
 - [@beabigrockstar](https://twitter.com/beabigrockstar) (Jerrie Pelser)
 
     - [2 Factor authentication](http://www.beabigrockstar.com/blog/2-factor-authentication-with-asp-net-identity-2-0-beta-1/)
     - [Using Google Authenticator with ASP.NET Identity](http://www.beabigrockstar.com/blog/using-google-authenticator-asp-net-identity/)
     - [ASP.NET MVC 5 Authentication Guides](http://www.beabigrockstar.com/)
-- [Get more information from Social providers used in the VS 2013 project templates](https://blogs.msdn.com/b/webdev/archive/2013/10/16/get-more-information-from-social-providers-used-in-the-vs-2013-project-templates.aspx)
-- [Building a simple ToDo application with ASP.NET Identity and associating Users with ToDoes](https://blogs.msdn.com/b/webdev/archive/2013/10/20/building-a-simple-todo-application-with-asp-net-identity-and-associating-users-with-todoes.aspx)
+- [Get more information from Social providers used in the VS 2013 project templates](https://devblogs.microsoft.com/dotnet/get-more-information-from-social-providers-used-in-the-vs-2013-project-templates/)
+- [Building a simple ToDo application with ASP.NET Identity and associating Users with ToDoes](https://devblogs.microsoft.com/dotnet/building-a-simple-todo-application-with-asp-net-identity-and-associating-users-with-todoes/)
 - [Google OpenId integration issues with ASP.NET Identity](http://blog.technovert.com/2014/01/google-openid-integration-issues-asp-net-identity/) If you get the error: HTTP Error 404.15 – Not Found The request filtering module is configured to deny a request where the query string is too long
 - [Thinktecture.IdentityManager as a replacement for the WSAT](http://www.hanselman.com/blog/ThinktectureIdentityManagerAsAReplacementForTheASPNETWebSiteAdministrationTool.aspx)
 - [AngularJS Token Authentication using ASP.NET Web API 2, Owin, and Identity](http://bitoftech.net/2014/06/09/angularjs-token-authentication-using-asp-net-web-api-2-owin-asp-net-identity/)

@@ -13,7 +13,7 @@ msc.type: authoredcontent
 
 by [Mike Wasson](https://github.com/MikeWasson), [Rick Anderson](https://twitter.com/RickAndMSFT), [Tom Dykstra](https://github.com/tdykstra)
 
-[Download Fix It Project](https://code.msdn.microsoft.com/Fix-It-app-for-Building-cdd80df4) or [Download E-book](https://blogs.msdn.com/b/microsoft_press/archive/2014/07/23/free-ebook-building-cloud-apps-with-microsoft-azure.aspx)
+[Download Fix It Project](https://code.msdn.microsoft.com/Fix-It-app-for-Building-cdd80df4) or [Download E-book](https://docs.microsoft.com/archive/blogs/microsoft_press/free-ebook-building-cloud-apps-with-microsoft-azure)
 
 > The **Building Real World Cloud Apps with Azure** e-book is based on a presentation developed by Scott Guthrie. It explains 13 patterns and practices that can help you be successful developing web apps for the cloud. For information about the e-book, see [the first chapter](introduction.md).
 
@@ -209,7 +209,7 @@ The app uses the AutoFac DI library to automatically provide *TaskRepository* an
 
 This code basically says that anywhere a constructor needs an *ILogger* interface, pass in an instance of the *Logger* class, and whenever it needs an *IFixItTaskRepository* interface, pass in an instance of the *FixItTaskRepository* class.
 
-[AutoFac](http://autofac.org/) is one of many dependency injection frameworks that you can use. Another popular one is [Unity](https://blogs.msdn.com/b/agile/archive/2013/08/20/new-guide-dependency-injection-with-unity.aspx), which is recommended and supported by Microsoft Patterns and Practices.
+[AutoFac](http://autofac.org/) is one of many dependency injection frameworks that you can use. Another popular one is [Unity](https://docs.microsoft.com/archive/blogs/agile/new-guide-dependency-injection-with-unity), which is recommended and supported by Microsoft Patterns and Practices.
 
 ## Built-in logging support in Azure
 
@@ -268,8 +268,8 @@ Documentation mainly about logging:
 
 Documentation mainly about troubleshooting:
 
-- [Azure Troubleshooting &amp; Debugging blog](https://blogs.msdn.com/b/kwill/).
-- [AzureTools – The Diagnostic Utility used by the Azure Developer Support Team](https://blogs.msdn.com/b/kwill/archive/2013/08/26/azuretools-the-diagnostic-utility-used-by-the-windows-azure-developer-support-team.aspx?Redirected=true). Introduces and provides a download link for a tool that can be used on an Azure VM to download and run a wide variety of diagnostic and monitoring tools. Useful when you need to diagnose an issue on a particular VM.
+- [Azure Troubleshooting &amp; Debugging blog](https://docs.microsoft.com/archive/blogs/kwill/).
+- [AzureTools – The Diagnostic Utility used by the Azure Developer Support Team](https://docs.microsoft.com/archive/blogs/kwill/azuretools-the-diagnostic-utility-used-by-the-windows-azure-developer-support-team). Introduces and provides a download link for a tool that can be used on an Azure VM to download and run a wide variety of diagnostic and monitoring tools. Useful when you need to diagnose an issue on a particular VM.
 - [Troubleshoot a web app in Azure App Service using Visual Studio](https://docs.microsoft.com/azure/app-service-web/web-sites-dotnet-troubleshoot-visual-studio). A step-by-step tutorial for getting started with System.Diagnostics tracing and remote debugging.
 
 Videos:

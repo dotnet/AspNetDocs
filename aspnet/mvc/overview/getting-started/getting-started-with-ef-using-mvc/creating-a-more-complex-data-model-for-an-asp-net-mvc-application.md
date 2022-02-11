@@ -336,7 +336,7 @@ The following code provides an example of how you could have used fluent API ins
 
 [!code-csharp[Main](creating-a-more-complex-data-model-for-an-asp-net-mvc-application/samples/sample31.cs)]
 
-For information about what "fluent API" statements are doing behind the scenes, see the [Fluent API](https://blogs.msdn.com/b/aspnetue/archive/2011/05/04/entity-framework-code-first-tutorial-supplement-what-is-going-on-in-a-fluent-api-call.aspx) blog post.
+For information about what "fluent API" statements are doing behind the scenes, see the [Fluent API](https://docs.microsoft.com/archive/blogs/aspnetue/entity-framework-code-first-tutorial-supplement-what-is-going-on-in-a-fluent-api-call) blog post.
 
 ## Seed database with test data
 

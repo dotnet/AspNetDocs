@@ -283,7 +283,7 @@ If you want to define overloads for a method, the number of parameters in each o
 <a id="progress"></a>
 ### Reporting progress from hub method invocations
 
-SignalR 2.1 adds support for the [progress reporting pattern](https://blogs.msdn.com/b/dotnet/archive/2012/06/06/async-in-4-5-enabling-progress-and-cancellation-in-async-apis.aspx) introduced in .NET 4.5. To implement progress reporting, define an `IProgress<T>` parameter for your hub method that your client can access:
+SignalR 2.1 adds support for the [progress reporting pattern](https://devblogs.microsoft.com/dotnet/async-in-4-5-enabling-progress-and-cancellation-in-async-apis/) introduced in .NET 4.5. To implement progress reporting, define an `IProgress<T>` parameter for your hub method that your client can access:
 
 [!code-csharp[Main](hubs-api-guide-server/samples/sample22.cs)]
 

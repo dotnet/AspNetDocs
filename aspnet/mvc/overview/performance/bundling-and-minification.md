@@ -189,7 +189,7 @@ The request
 `http://localhost/MvcBM_time/bundles/AllMyScripts?v=r0sLDicvP58AIXN_mc3QdyVvVj5euZNzdsa2N1PKvb81`  
  is for the bundle **AllMyScripts** and contains a query string pair **v=r0sLDicvP58AIXN\\\_mc3QdyVvVj5euZNzdsa2N1PKvb81**. The query string **v** has a value token that is a unique identifier used for caching. As long as the bundle doesn't change, the ASP.NET application will request the **AllMyScripts** bundle using this token. If any file in the bundle changes, the ASP.NET optimization framework will generate a new token, guaranteeing that browser requests for the bundle will get the latest bundle.
 
-If you run the IE9 F12 developer tools and navigate to a previously loaded page, IE incorrectly shows conditional GET requests made to each bundle and the server returning HTTP 304. You can read why IE9 has problems determining if a conditional request was made in the blog entry [Using CDNs and Expires to Improve Web Site Performance](https://blogs.msdn.com/b/rickandy/archive/2011/05/21/using-cdns-to-improve-web-site-performance.aspx).
+If you run the IE9 F12 developer tools and navigate to a previously loaded page, IE incorrectly shows conditional GET requests made to each bundle and the server returning HTTP 304. You can read why IE9 has problems determining if a conditional request was made in the blog entry [Using CDNs and Expires to Improve Web Site Performance](https://docs.microsoft.com/archive/blogs/rickandy/using-cdns-and-expires-to-improve-web-site-performance).
 
 ## LESS, CoffeeScript, SCSS, Sass Bundling.
 
@@ -214,9 +214,9 @@ A good convention to follow when creating bundles is to include "bundle" as a pr
 
 Once you update one file in a bundle, a new token is generated for the bundle query string parameter and the full bundle must be downloaded the next time a client requests a page containing the bundle. In traditional markup where each asset is listed individually, only the changed file would be downloaded. Assets that change frequently may not be good candidates for bundling.
 
-Bundling and minification primarily improve the first page request load time. Once a webpage has been requested, the browser caches the assets (JavaScript, CSS and images) so bundling and minification won't provide any performance boost when requesting the same page, or pages on the same site requesting the same assets. If you don't set the expires header correctly on your assets, and you don't use bundling and minification, the browsers freshness heuristics will mark the assets stale after a few days and the browser will require a validation request for each asset. In this case, bundling and minification provide a performance increase after the first page request. For details, see the blog [Using CDNs and Expires to Improve Web Site Performance](https://blogs.msdn.com/b/rickandy/archive/2011/05/21/using-cdns-to-improve-web-site-performance.aspx).
+Bundling and minification primarily improve the first page request load time. Once a webpage has been requested, the browser caches the assets (JavaScript, CSS and images) so bundling and minification won't provide any performance boost when requesting the same page, or pages on the same site requesting the same assets. If you don't set the expires header correctly on your assets, and you don't use bundling and minification, the browsers freshness heuristics will mark the assets stale after a few days and the browser will require a validation request for each asset. In this case, bundling and minification provide a performance increase after the first page request. For details, see the blog [Using CDNs and Expires to Improve Web Site Performance](https://docs.microsoft.com/archive/blogs/rickandy/using-cdns-and-expires-to-improve-web-site-performance).
 
-The browser limitation of six simultaneous connections per each hostname can be mitigated by using a [CDN](https://blogs.msdn.com/b/rickandy/archive/2011/05/21/using-cdns-to-improve-web-site-performance.aspx). Because the CDN will have a different hostname than your hosting site, asset requests from the CDN will not count against the six simultaneous connections limit to your hosting environment. A CDN can also provide common package caching and edge caching advantages.
+The browser limitation of six simultaneous connections per each hostname can be mitigated by using a [CDN](https://docs.microsoft.com/archive/blogs/rickandy/using-cdns-and-expires-to-improve-web-site-performance). Because the CDN will have a different hostname than your hosting site, asset requests from the CDN will not count against the six simultaneous connections limit to your hosting environment. A CDN can also provide common package caching and edge caching advantages.
 
 Bundles should be partitioned by pages that need them. For example, the default ASP.NET MVC template for an internet application creates a jQuery Validation bundle separate from jQuery. Because the default views created have no input and do not post values, they don't include the validation bundle.
 
@@ -227,10 +227,10 @@ The `System.Web.Optimization` namespace is implemented in *System.Web.Optimizati
 ## Additional resources
 
 - Video:[Bundling and Optimizing](https://channel9.msdn.com/Events/aspConf/aspConf/Bundling-and-Optimizing) by [Howard Dierking](https://twitter.com/#!/howard_dierking)
-- [Adding Web Optimization to a Web Pages Site](https://blogs.msdn.com/b/rickandy/archive/2012/08/15/adding-web-optimization-to-a-web-pages-site.aspx).
-- [Adding Bundling and Minification to Web Forms](https://blogs.msdn.com/b/rickandy/archive/2012/08/14/adding-bundling-and-minification-to-web-forms.aspx).
-- [Performance Implications of Bundling and Minification on Web Browsing](https://blogs.msdn.com/b/henrikn/archive/2012/06/17/performance-implications-of-bundling-and-minification-on-http.aspx) by [Henrik F Nielsen](http://en.wikipedia.org/wiki/Henrik_Frystyk_Nielsen) [@frystyk](https://twitter.com/frystyk)
-- [Using CDNs and Expires to Improve Web Site Performance](https://blogs.msdn.com/b/rickandy/archive/2011/05/21/using-cdns-to-improve-web-site-performance.aspx) by Rick Anderson [@RickAndMSFT](https://twitter.com/#!/RickAndMSFT)
+- [Adding Web Optimization to a Web Pages Site](https://docs.microsoft.com/archive/blogs/rickandy/adding-web-optimization-to-a-web-pages-site).
+- [Adding Bundling and Minification to Web Forms](https://docs.microsoft.com/archive/blogs/rickandy/adding-bundling-and-minification-to-web-forms).
+- [Performance Implications of Bundling and Minification on Web Browsing](https://docs.microsoft.com/archive/blogs/henrikn/performance-implications-of-bundling-and-minification-on-web-browsing) by [Henrik F Nielsen](http://en.wikipedia.org/wiki/Henrik_Frystyk_Nielsen) [@frystyk](https://twitter.com/frystyk)
+- [Using CDNs and Expires to Improve Web Site Performance](https://docs.microsoft.com/archive/blogs/rickandy/using-cdns-and-expires-to-improve-web-site-performance) by Rick Anderson [@RickAndMSFT](https://twitter.com/#!/RickAndMSFT)
 - [Minimize RTT (round-trip times)](https://developers.google.com/speed/docs/best-practices/rtt)
 
 ## Contributors

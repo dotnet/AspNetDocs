@@ -273,5 +273,5 @@ Although you can set account lockout on login password attempt failures, that ap
 - [ASP.NET MVC and Identity 2.0: Understanding the Basics](http://typecastexception.com/post/2014/04/20/ASPNET-MVC-and-Identity-20-Understanding-the-Basics.aspx) by John Atten.
 - [Account Confirmation and Password Recovery with ASP.NET Identity](account-confirmation-and-password-recovery-with-aspnet-identity.md)
 - [Introduction to ASP.NET Identity](../getting-started/introduction-to-aspnet-identity.md)
-- [Announcing RTM of ASP.NET Identity 2.0.0](https://blogs.msdn.com/b/webdev/archive/2014/03/20/test-announcing-rtm-of-asp-net-identity-2-0-0.aspx) by Pranav Rastogi.
+- [Announcing RTM of ASP.NET Identity 2.0.0](https://devblogs.microsoft.com/dotnet/announcing-rtm-of-asp-net-identity-2-0-0/) by Pranav Rastogi.
 - [ASP.NET Identity 2.0: Setting Up Account Validation and Two-Factor Authorization](http://typecastexception.com/post/2014/04/20/ASPNET-Identity-20-Setting-Up-Account-Validation-and-Two-Factor-Authorization.aspx) by John Atten.

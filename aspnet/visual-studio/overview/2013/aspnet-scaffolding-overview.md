@@ -79,7 +79,7 @@ When you have completed the steps in the readme.txt file, you can add a new scaf
 
 To create a customized scaffolder, see [Creating a Custom Scaffolder for Visual Studio](https://go.microsoft.com/fwlink/p/?LinkId=395029).
 
-To customize the generated files, see [How to customize the generated files from the New Scaffolded Item dialog](https://blogs.msdn.com/b/webdev/archive/2013/12/26/how-to-customize-the-generated-files-from-the-new-scaffolded-item-dialog.aspx).
+To customize the generated files, see [How to customize the generated files from the New Scaffolded Item dialog](https://devblogs.microsoft.com/dotnet/how-to-customize-the-generated-files-from-the-new-scaffolded-item-dialog/).
 
 For an example of using scaffolding with **Database First development**, see [EF Database First with ASP.NET MVC](../../../mvc/overview/getting-started/database-first-development/setting-up-database.md).
 
