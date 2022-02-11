@@ -92,7 +92,7 @@ Everything works the same as in the other controllers, but in this controller al
 
 Some things to be aware of when you are using asynchronous programming with the Entity Framework:
 
-- The async code is not thread safe. In other words, in other words, don't try to do multiple operations in parallel using the same context instance.
+- The async code is not thread safe. In other words, don't try to do multiple operations in parallel using the same context instance.
 - If you want to take advantage of the performance benefits of async code, make sure that any library packages that you're using (such as for paging), also use async if they call any Entity Framework methods that cause queries to be sent to the database.
 
 ## Use stored procedures
