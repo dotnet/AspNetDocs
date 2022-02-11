@@ -17,8 +17,6 @@ by [Microsoft](https://github.com/microsoft)
 
 In this tutorial, you learn how to use the Data Annotation validators to perform validation in an ASP.NET MVC application. The advantage of using the Data Annotation validators is that they enable you to perform validation simply by adding one or more attributes – such as the Required or StringLength attribute – to a class property.
 
-Before you can use the Data Annotation validators, you must download the Data Annotations Model Binder. You can download the Data Annotations Model Binder Sample from the CodePlex website by clicking [here](http://aspnet.codeplex.com/Release/ProjectReleases.aspx?ReleaseId=24471).
-
 It is important to understand that the Data Annotations Model Binder is not an official part of the Microsoft ASP.NET MVC framework. Although the Data Annotations Model Binder was created by the Microsoft ASP.NET MVC team, Microsoft does not offer official product support for the Data Annotations Model Binder described and used in this tutorial.
 
 ## Using the Data Annotation Model Binder

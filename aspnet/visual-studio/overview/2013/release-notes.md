@@ -578,7 +578,7 @@ Razor 3 issues fixed in Visual Studio 2013 from pre-release versions can be foun
 <a id="TOC15"></a>
 ## ASP.NET App Suspend
 
-ASP.NET App Suspend is a game-changing feature in the .NET Framework 4.5.1 that radically changes the user experience and economic model for hosting large numbers of ASP.NET sites on a single machine. For more information, see [ASP.NET App Suspend – responsive shared .NET web hosting](https://blogs.msdn.com/b/dotnet/archive/2013/10/09/asp-net-app-suspend-responsive-shared-net-web-hosting.aspx).
+ASP.NET App Suspend is a game-changing feature in the .NET Framework 4.5.1 that radically changes the user experience and economic model for hosting large numbers of ASP.NET sites on a single machine. For more information, see [ASP.NET App Suspend – responsive shared .NET web hosting](https://devblogs.microsoft.com/dotnet/asp-net-app-suspend-responsive-shared-net-web-hosting/).
 
 <a id="knownissues"></a>
 ## Known Issues and Breaking Changes

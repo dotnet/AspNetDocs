@@ -246,8 +246,8 @@ When the client requests a protected resource, here is what happens in the Web A
 ## Additional Resources
 
 - [ASP.NET Identity](../../../identity/index.md)
-- [Understanding Security Features in the SPA Template for VS2013 RC](https://blogs.msdn.com/b/webdev/archive/2013/09/20/understanding-security-features-in-spa-template.aspx). MSDN blog post by Hongye Sun.
+- [Understanding Security Features in the SPA Template for VS2013 RC](https://devblogs.microsoft.com/dotnet/understanding-security-features-in-the-spa-template-for-vs2013-rc/). MSDN blog post by Hongye Sun.
 - [Dissecting the Web API Individual Accounts Template–Part 2: Local Accounts](http://leastprivilege.com/2013/11/26/dissecting-the-web-api-individual-accounts-templatepart-2-local-accounts/). Blog post by Dominick Baier.
 - [Host authentication and Web API with OWIN](http://brockallen.com/2013/10/27/host-authentication-and-web-api-with-owin-and-active-vs-passive-authentication-middleware/). A good explanation of `SuppressDefaultHostAuthentication` and `HostAuthenticationFilter` by Brock Allen.
-- [Customizing profile information in ASP.NET Identity in VS 2013 templates](https://blogs.msdn.com/b/webdev/archive/2013/10/16/customizing-profile-information-in-asp-net-identity-in-vs-2013-templates.aspx). MSDN blog post by Pranav Rastogi.
-- [Per request lifetime management for UserManager class in ASP.NET Identity](https://blogs.msdn.com/b/webdev/archive/2014/02/12/per-request-lifetime-management-for-usermanager-class-in-asp-net-identity.aspx). MSDN blog post by Suhas Joshi, with a good explanation of the `UserManager` class.
+- [Customizing profile information in ASP.NET Identity in VS 2013 templates](https://devblogs.microsoft.com/dotnet/customizing-profile-information-in-asp-net-identity-in-vs-2013-templates/). MSDN blog post by Pranav Rastogi.
+- [Per request lifetime management for UserManager class in ASP.NET Identity](https://devblogs.microsoft.com/dotnet/per-request-lifetime-management-for-usermanager-class-in-asp-net-identity/). MSDN blog post by Suhas Joshi, with a good explanation of the `UserManager` class.

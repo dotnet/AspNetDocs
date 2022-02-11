@@ -104,7 +104,7 @@ That is all you have to do to enable external credentials in your site. Run your
 
 ![external login](using-oauth-providers-with-mvc/_static/image6.png)
 
-This tutorial does not cover how to customize the log in buttons for the external providers. For that information, see [Customizing the login UI when using OAuth/OpenID](https://blogs.msdn.com/b/pranav_rastogi/archive/2012/08/24/customizing-the-login-ui-when-using-oauth-openid.aspx).
+This tutorial does not cover how to customize the log in buttons for the external providers. For that information, see [Customizing the login UI when using OAuth/OpenID](https://docs.microsoft.com/archive/blogs/pranav_rastogi/customizing-the-login-ui-when-using-oauthopenid).
 
 Click on the Facebook button to log in with Facebook credentials. When you select one of the external providers, you are redirected to that site and prompted by that service to log in.
 

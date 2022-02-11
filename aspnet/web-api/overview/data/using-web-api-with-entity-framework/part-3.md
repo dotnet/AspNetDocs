@@ -73,7 +73,7 @@ The API enables CRUD operations on the database. The following summarizes the AP
 
 ## View the Database (Optional)
 
-When you ran the Update-Database command, EF created the database and called the `Seed` method. When you run the application locally, EF uses [LocalDB](https://blogs.msdn.com/b/sqlexpress/archive/2011/07/12/introducing-localdb-a-better-sql-express.aspx). You can view the database in Visual Studio. From the **View** menu, select **SQL Server Object Explorer**.
+When you ran the Update-Database command, EF created the database and called the `Seed` method. When you run the application locally, EF uses [LocalDB](https://docs.microsoft.com/archive/blogs/sqlexpress/introducing-localdb-an-improved-sql-express). You can view the database in Visual Studio. From the **View** menu, select **SQL Server Object Explorer**.
 
 ![](part-3/_static/image5.png)
 

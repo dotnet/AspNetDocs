@@ -91,4 +91,4 @@ You can send a request in Fiddler to confirm that the application is using Windo
 
 [System.Net.HttpListener](https://msdn.microsoft.com/library/system.net.httplistener.aspx)
 
-[Understanding OWIN Forms Authentication in MVC 5](https://blogs.msdn.com/b/webdev/archive/2013/07/03/understanding-owin-forms-authentication-in-mvc-5.aspx)
+[Understanding OWIN Forms Authentication in MVC 5](https://devblogs.microsoft.com/dotnet/understanding-owin-forms-authentication-in-mvc-5/)

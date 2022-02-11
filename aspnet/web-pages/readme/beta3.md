@@ -162,7 +162,7 @@ This section of the document describes new features, changes, and known issues w
 
 #### Change: "TagBuilder" class moved to System.Web.WebPages.dll assembly
 
-> The `TagBuilde` r class has been moved to the System.Web.WebPages.dll assembly. Previously, this was in an assembly that was part of ASP.NET MVC. This change means that you do not have to install ASP.NET MVC in order to use the `TagBuilder` class.
+> The `TagBuilder` class has been moved to the System.Web.WebPages.dll assembly. Previously, this was in an assembly that was part of ASP.NET MVC. This change means that you do not have to install ASP.NET MVC in order to use the `TagBuilder` class.
 > 
 > However, the class is still in the `System.Web.Mvc` namespace. In order to use the `TagBuilder` class (for example, in a custom ASP.NET Razor helper), you must reference the namespace (for example, by adding `@using System.Web.Mvc` to your code).
 

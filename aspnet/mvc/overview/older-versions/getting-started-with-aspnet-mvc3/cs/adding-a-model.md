@@ -49,7 +49,7 @@ In the same file, add the following `MovieDBContext` class:
 
 [!code-csharp[Main](adding-a-model/samples/sample2.cs)]
 
-The `MovieDBContext` class represents the Entity Framework movie database context, which handles fetching, storing, and updating `Movie` class instances in a database. The `MovieDBContext` derives from the `DbContext` base class provided by the Entity Framework. For more information about `DbContext` and `DbSet`, see [Productivity Improvements for the Entity Framework](https://blogs.msdn.com/b/efdesign/archive/2010/06/21/productivity-improvements-for-the-entity-framework.aspx?wa=wsignin1.0).
+The `MovieDBContext` class represents the Entity Framework movie database context, which handles fetching, storing, and updating `Movie` class instances in a database. The `MovieDBContext` derives from the `DbContext` base class provided by the Entity Framework. For more information about `DbContext` and `DbSet`, see [Productivity Improvements for the Entity Framework](https://docs.microsoft.com/archive/blogs/efdesign/productivity-improvements-for-the-entity-framework).
 
 In order to be able to reference `DbContext` and `DbSet`, you need to add the following `using` statement at the top of the file:
 

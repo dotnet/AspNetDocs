@@ -32,7 +32,7 @@ Microsoft SQL Server 2005 was designed to provide integration with the [Common L
 
 SQL Server 2005 offers debugging support for both T-SQL and managed database objects. However, these objects can only be debugged through Visual Studio 2005 Professional and Team Systems editions. In this tutorial we will examine debugging T-SQL database objects. The subsequent tutorial looks at debugging managed database objects.
 
-The [Overview of T-SQL and CLR Debugging in SQL Server 2005](https://blogs.msdn.com/sqlclr/archive/2006/06/29/651644.aspx) blog entry from the [SQL Server 2005 CLR Integration team](https://blogs.msdn.com/sqlclr/default.aspx) highlights the three ways to debug SQL Server 2005 objects from Visual Studio:
+The [Overview of T-SQL and CLR Debugging in SQL Server 2005](https://techcommunity.microsoft.com/t5/sql-server-blog/overview-of-t-sql-and-clr-debugging-in-sql-server-2005/ba-p/383069) blog entry from the [SQL Server 2005 CLR Integration team](https://docs.microsoft.com/archive/blogs/sqlclr/) highlights the three ways to debug SQL Server 2005 objects from Visual Studio:
 
 - **Direct Database Debugging (DDD)** - from Server Explorer we can step into any T-SQL database object, such as stored procedures and UDFs. We will examine DDD in Step 1.
 - **Application Debugging** - we can set breakpoints within a database object and then run our ASP.NET application. When the database object is executed, the breakpoint will be hit and control turned over to the debugger. Note that with application debugging we cannot step into a database object from application code. We must explicitly set breakpoints in those stored procedures or UDFs where we want the debugger to stop. Application debugging is examined starting in Step 2.
