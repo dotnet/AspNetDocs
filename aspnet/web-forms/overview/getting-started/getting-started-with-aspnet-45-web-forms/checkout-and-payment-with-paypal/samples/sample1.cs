@@ -1,3 +1,4 @@
+using System;
 using System.ComponentModel.DataAnnotations;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -8,7 +9,7 @@ namespace WingtipToys.Models
   {
     public int OrderId { get; set; }
 
-    public System.DateTime OrderDate { get; set; }
+    public DateTime OrderDate { get; set; }
 
     public string Username { get; set; }
 
