@@ -116,7 +116,6 @@ by [Rick Anderson](https://twitter.com/RickAndMSFT)
 - [AngularJS Token Authentication using ASP.NET Web API 2, Owin, and Identity](http://bitoftech.net/2014/06/09/angularjs-token-authentication-using-asp-net-web-api-2-owin-asp-net-identity/)
 - [Simple Asp.net Identity Core Without Entity Framework](https://code.msdn.microsoft.com/Simple-Aspnet-Identiy-Core-7475a961)
 - [Working with Roles in ASP.NET Identity for MVC](http://www.dotnetfunda.com/articles/show/2898/working-with-roles-in-aspnet-identity-for-mvc) by [Sheo Narayan](http://www.dotnetfunda.com/profile/sheonarayan.aspx)
-- [Moving to ASP.NET Identity from ASP.NET Membership](http://webdojo.sharepoint.com/ajmatthews/_layouts/15/start.aspx#/Lists/Posts/Post.aspx?ID=2) by Alistair Matthews
 
 <a id="video"></a>
 
