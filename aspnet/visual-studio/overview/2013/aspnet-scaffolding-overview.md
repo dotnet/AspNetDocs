@@ -30,6 +30,7 @@ To use ASP.NET Scaffolding, you must have:
 - Microsoft Visual Studio 2013
 - Web Developer Tools (part of default Visual Studio 2013 installation)
 - ASP.NET Web Frameworks and Tools 2013 (part of default Visual Studio 2013 installation)
+- When using Visual Studio 2022, install **Net Framework project and item templates**. For more information, see [this GitHub issue](https://github.com/dotnet/AspNetDocs/issues/591).
 
 ## Add a scaffolded item to MVC or Web API
 
