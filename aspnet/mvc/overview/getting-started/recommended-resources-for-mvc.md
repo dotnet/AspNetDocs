@@ -13,7 +13,6 @@ msc.type: authoredcontent
 
 by [Rick Anderson](https://twitter.com/RickAndMSFT)
 
-> This topic provides links to documentation resources about ASP.NET MVC 5. If you know a great blog post, [stackoverflow](http://stackoverflow.com/) thread or any other link that would be useful, send [me](mailto:aspnetue@microsoft.com?subject=Great%20ASP.NET%20MVC%20link) an email with the link. The links provided here are updated periodically. You can find older (but in many cases still relevant) ASP.NET MVC links on the [MSDN content map](https://msdn.microsoft.com/library/gg416514(v=vs.108).aspx).
 >
 > A good place to get your questions answered or to find solutions to problems is in the [ASP.NET MVC forum](https://forums.asp.net/1146.aspx/1?MVC) or on [stackoverflow](http://stackoverflow.com/questions/tagged/mvc+asp.net-mvc).
 > <a id="gettingstarted"></a>
