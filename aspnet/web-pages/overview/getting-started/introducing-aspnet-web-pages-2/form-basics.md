@@ -71,7 +71,7 @@ The `<form>` element encloses HTML elements to be submitted. (An easy mistake to
 > 
 > Now consider the process of ordering something online. You fill in the order details and then click the submit button. This operation will be a `POST` request, because the operation will result in changes on the server, such as a new order record, a change in your account information, and perhaps many other changes. Unlike the `GET` operation, you cannot repeat your `POST` request — if you did, each time you resubmitted the request, you'd generate a new order on the server. (In cases like this, websites will often warn you not to click a submit button more than once, or will disable the submit button so that you don't resubmit the form accidentally.)
 > 
-> In the course of this tutorial, you'll use both a `GET` operation and a `POST` operation to work with HTML forms. We'll explain in each case why the verb you use is the appropriate one.
+> In the course of this tutorial, you'll use both a `GET` operation and a `POST` operation to work with [HTML forms](https://www.scaler.com/topics/html/html-forms/). We'll explain in each case why the verb you use is the appropriate one.
 > 
 > (To learn more about HTTP verbs, see the [Method Definitions](http://www.w3.org/Protocols/rfc2616/rfc2616-sec9.html) article on the W3C site.)
 
