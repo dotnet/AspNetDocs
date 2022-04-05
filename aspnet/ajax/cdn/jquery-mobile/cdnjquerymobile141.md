@@ -15,8 +15,6 @@ The jQuery Mobile 1.4.1 library includes the following files:
 
 - https://ajax.aspnetcdn.com/ajax/jquery.mobile/1.4.1/jquery.mobile.structure-1.4.1.css
 - https://ajax.aspnetcdn.com/ajax/jquery.mobile/1.4.1/jquery.mobile.structure-1.4.1.min.css
-- https://ajax.aspnetcdn.com/ajax/jquery.mobile/1.4.1/jquery.mobile.theme-1.4.1.css
-- https://ajax.aspnetcdn.com/ajax/jquery.mobile/1.4.1/jquery.mobile.theme-1.4.1.min.css
 - https://ajax.aspnetcdn.com/ajax/jquery.mobile/1.4.1/jquery.mobile-1.4.1.css
 - https://ajax.aspnetcdn.com/ajax/jquery.mobile/1.4.1/jquery.mobile-1.4.1.js
 - https://ajax.aspnetcdn.com/ajax/jquery.mobile/1.4.1/jquery.mobile-1.4.1.min.css
