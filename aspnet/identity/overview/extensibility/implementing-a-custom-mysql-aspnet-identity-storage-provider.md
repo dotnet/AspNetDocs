@@ -67,7 +67,7 @@ For this example, the data access layer classes contain SQL statements for worki
 
 ## Create a MySQL database instance on Azure
 
-1. Log in to the [Azure Portal](https://manage.windowsazure.com/).
+1. Log in to the [Azure Portal](https://ms.portal.azure.com/).
 2. Click **+NEW** at the bottom of the page, and then select **STORE**.  
     ![](implementing-a-custom-mysql-aspnet-identity-storage-provider/_static/image1.png)
 3. In the **Choose and Add-on** wizard, select **ClearDB MySQL Database** and click on the next arrow at the bottom right of the dialog.  
@@ -95,7 +95,7 @@ For this example, the data access layer classes contain SQL statements for worki
 
 ## Create an MVC application project from template and configure it to use MySQL provider
 
-If needed, install either [Visual Studio Express 2013 for Web](https://go.microsoft.com/fwlink/?LinkId=299058) or [Visual Studio 2013](https://go.microsoft.com/fwlink/?LinkId=306566) with Update 2.
+If needed, install either [Visual Studio Express 2013 for Web](https://my.visualstudio.com/Downloads?q=visual%20studio%202013#d-2013-express) or [Visual Studio 2013](https://go.microsoft.com/fwlink/?LinkId=306566) with Update 2.
 
 ### Download the ASP.NET.Identity.MySQL project from GitHub
 

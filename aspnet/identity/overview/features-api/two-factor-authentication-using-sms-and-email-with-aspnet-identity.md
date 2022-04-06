@@ -31,7 +31,7 @@ This topic covers the following:
 
 ## Building the Identity sample
 
-In this section, you'll use NuGet to download a sample we will work with. Start by installing and running [Visual Studio Express 2013 for Web](https://go.microsoft.com/fwlink/?LinkId=299058) or [Visual Studio 2013](https://go.microsoft.com/fwlink/?LinkId=306566). Install Visual Studio [2013 Update 2](https://go.microsoft.com/fwlink/?LinkId=390521) or higher.
+In this section, you'll use NuGet to download a sample we will work with. Start by installing and running [Visual Studio Express 2013 for Web](https://www.microsoft.com/en-us/download/details.aspx?id=40767) or [Visual Studio 2013](https://go.microsoft.com/fwlink/?LinkId=306566). Install Visual Studio [2013 Update 2](https://go.microsoft.com/fwlink/?LinkId=390521) or higher.
 
 > [!NOTE]
 > Warning: You must install Visual Studio [2013 Update 2](https://go.microsoft.com/fwlink/?LinkId=390521) to complete this tutorial.
