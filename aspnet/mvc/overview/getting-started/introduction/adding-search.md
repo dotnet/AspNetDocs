@@ -122,7 +122,7 @@ The following code is a LINQ query that retrieves all the genres from the databa
 
 [!code-csharp[Main](adding-search/samples/sample12.cs)]
 
-The code uses the `AddRange` method of the generic `List` collection to add all the distinct genres to the list. (Without the `Distinct` modifier, duplicate genres would be added — for example, comedy would be added twice in our sample). The code then stores the list of genres in the `ViewBag.MovieGenre` object. Storing category data (such a movie genres) as a [SelectList](https://msdn.microsoft.cus/library/system.web.mvc.selectlist(v=vs.108).aspx) object in a `ViewBag`, then accessing the category data in a dropdown list box is a typical approach for MVC applications.
+The code uses the `AddRange` method of the generic `List` collection to add all the distinct genres to the list. (Without the `Distinct` modifier, duplicate genres would be added — for example, comedy would be added twice in our sample). The code then stores the list of genres in the `ViewBag.MovieGenre` object. Storing category data (such a movie genres) as a [SelectList](https://docs.microsoft.com/en-us/dotnet/api/system.web.mvc.selectlist) object in a `ViewBag`, then accessing the category data in a dropdown list box is a typical approach for MVC applications.
 
 The following code shows how to check the `movieGenre` parameter. If it's not empty, the code further constrains the movies query to limit the selected movies to the specified genre.
 

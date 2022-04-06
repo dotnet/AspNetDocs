@@ -339,7 +339,7 @@ by [Rick Anderson](https://twitter.com/RickAndMSFT)
 ## General
 
 - [How to Upgrade an ASP.NET MVC 4 and Web API Project to ASP.NET MVC 5 and Web API 2](../releases/how-to-upgrade-an-aspnet-mvc-4-and-web-api-project-to-aspnet-mvc-5-and-web-api-2.md)
-- [Understanding ASP.NET MVC Filters and Attributes](http://www.dotnet-tricks.com/Tutorial/mvc/b11a280114-Understanding-ASP.NET-MVC-Filters-and-Attributes.html)
+- [Understanding ASP.NET MVC Filters and Attributes](https://www.dotnettricks.com/learn/mvc/understanding-aspnet-mvc-filters-and-attributes)
 - [Content Negotiation and Web API for the ASP.NET MVC Developer](https://msdn.microsoft.com/magazine/dn574797.aspx)
 - [Serving WebP images with ASP.NET MVC](http://friism.com/serving-webp-images-with-asp-net-mvc)
 - [Nesting Layouts in MVC](http://astutelogic.com/nesting-layouts-in-mvc/) by Russell Waite
