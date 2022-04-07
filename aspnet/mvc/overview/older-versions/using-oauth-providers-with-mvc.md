@@ -216,7 +216,7 @@ After completing registration, close the browser. Look in the database to notice
 
 ## Install NuGet package for Facebook API
 
-Facebook provides an [API](https://developers.facebook.com/docs/reference/apis/) that you can call to perform operations. You can call the Facebook API either by directing sending HTTP requests, or by using installing a NuGet package that facilitates sending those requests. Using a NuGet package is shown in this tutorial, but installing NuGet package is not essential. This tutorial shows how to use the Facebook C# SDK package. There are other NuGet packages that assist with calling the Facebook API.
+Facebook provides an [API](https://developers.facebook.com/docs/) that you can call to perform operations. You can call the Facebook API either by directing sending HTTP requests, or by using installing a NuGet package that facilitates sending those requests. Using a NuGet package is shown in this tutorial, but installing NuGet package is not essential. This tutorial shows how to use the Facebook C# SDK package. There are other NuGet packages that assist with calling the Facebook API.
 
 From the **Manage NuGet Packages** windows, select the Facebook C# SDK package.
 
