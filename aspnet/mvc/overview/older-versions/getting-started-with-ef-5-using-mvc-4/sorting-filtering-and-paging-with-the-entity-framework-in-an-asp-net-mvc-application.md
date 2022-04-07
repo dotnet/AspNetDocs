@@ -257,7 +257,7 @@ Your Windows Azure Web Site will run in a shared hosting environment, which mean
 
 Windows Azure SQL Database is a cloud-based relational database service that is built on SQL Server technologies. Tools and applications that work with SQL Server also work with SQL Database.
 
-1. In the [Windows Azure Management Portal](https://manage.windowsazure.com/), click **Web Sites** in the left tab, and then click **New**.
+1. In the [Windows Azure Management Portal](https://ms.portal.azure.com/), click **Web Sites** in the left tab, and then click **New**.
 
     ![New button in Management Portal](sorting-filtering-and-paging-with-the-entity-framework-in-an-asp-net-mvc-application/_static/image11.png)
 2. Click **CUSTOM CREATE**.

@@ -73,7 +73,7 @@ This tutorial does not show all of the steps you must perform to register with t
 
 - [Facebook](https://developers.facebook.com/)
 - [Google](https://developers.google.com/)
-- [Microsoft](http://manage.dev.live.com/)
+- [Microsoft](https://developer.microsoft.com/)
 - [Twitter](https://dev.twitter.com/)
 
 When registering your site with Facebook, you can provide &quot;localhost&quot; for the site domain and `&quot;http://localhost/&quot;` for the URL, as shown in the image below. Using localhost works with most providers, but currently does not work with the Microsoft provider. For the Microsoft provider, you must include a valid web site URL.
