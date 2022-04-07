@@ -36,7 +36,7 @@ The development machine must have the following software:
 - [Visual Studio 2017](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=button+cta&utm_content=download+vs2017)
 
 > [!IMPORTANT]
-> If you are using Windows Server 2016, follow the instructions for [Container Host Deployment - Windows Server](https://docs.microsoft.com/en-us/virtualization/windowscontainers/).
+> If you are using Windows Server 2016, follow the instructions for [Container Host Deployment - Windows Server](https://docs.microsoft.com/virtualization/windowscontainers/).
 
 After installing and starting Docker, right-click on the tray icon and select **Switch to Windows containers**. This is required to run
 Docker images based on Windows. This command takes a few seconds to execute:
