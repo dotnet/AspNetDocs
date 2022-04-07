@@ -21,7 +21,7 @@ This tutorial will show you how to create an ASP.NET application that is configu
 ## Prerequisites
 
 1. [Visual Studio Express 2013 for Web](https://my.visualstudio.com/Downloads?q=visual%20studio%202013#d-2013-express) or [Visual Studio 2013](https://my.visualstudio.com/Downloads?q=visual%20studio%202013).
-2. [Visual Studio 2013 Update 4](https://www.microsoft.com/en-us/download/details.aspx?id=45326) - Update 3 or higher is required.
+2. [Visual Studio 2013 Update 4](https://www.microsoft.com/download/details.aspx?id=45326) - Update 3 or higher is required.
 3. An Azure account. [Click here](https://azure.microsoft.com/pricing/free-trial/) for a free trial if you do not already have an account.
 
 ## Add a Global Administrator to your Active Directory
@@ -47,7 +47,7 @@ This tutorial will show you how to create an ASP.NET application that is configu
 
 ## Create an ASP.NET Application
 
-The following steps use [Visual Studio Express 2013 for Web](https://www.microsoft.com/en-us/download/details.aspx?id=40767), and requires [Visual Studio 2013 Update 3](https://support.microsoft.com/en-us/topic/description-of-visual-studio-2013-update-3-37b18fc1-7e70-e983-4fc2-67440f7315ec).
+The following steps use [Visual Studio Express 2013 for Web](https://www.microsoft.com/download/details.aspx?id=40767), and requires [Visual Studio 2013 Update 3](https://support.microsoft.com/topic/description-of-visual-studio-2013-update-3-37b18fc1-7e70-e983-4fc2-67440f7315ec).
 
 1. In Visual Studio, click **File** and then **New Project**. On the **New Project** dialog, select the Visual C# Web project from the left menu and click **OK**. You may also want to uncheck the **Add Application Insights to Project** if you don't want the functionality for your application.
 2. In the **New ASP.NET Project** dialog, select **MVC**, and then click **Change Authentication**.
