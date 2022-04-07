@@ -54,7 +54,7 @@ At the end of this tutorial, you will have an MVC application with the ASP.NET I
 
 ## Creating an MVC application project
 
-To complete the steps in this section of the tutorial, you will first need to install [Visual Studio Express 2013 for Web](https://www.microsoft.com/en-us/download/details.aspx?id=40767) or [Visual Studio 2013](https://go.microsoft.com/fwlink/?LinkId=306566). Once Visual Studio has been installed, use the following steps to create a new MVC application project:
+To complete the steps in this section of the tutorial, you will first need to install [Visual Studio Express 2013 for Web](https://www.microsoft.com/download/details.aspx?id=40767) or [Visual Studio 2013](https://go.microsoft.com/fwlink/?LinkId=306566). Once Visual Studio has been installed, use the following steps to create a new MVC application project:
 
 1. Open Visual Studio 2103.
 2. Click **New Project** from the **Start** page, or you can click the **File** menu and then **New Project**:
