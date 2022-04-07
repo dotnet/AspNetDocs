@@ -31,12 +31,12 @@ The [finished application](https://github.com/dotnet/AspNetDocs/tree/main/aspnet
 
 The development machine must have the following software:
 
-- [Windows 10 Anniversary Update](https://www.microsoft.com/software-download/windows10/) (or higher) or [Windows Server 2016](https://www.microsoft.com/cloud-platform/windows-server) (or higher)
+- [Windows 10 Anniversary Update](https://www.microsoft.com/en-us/software-download/windows10) (or higher) or [Windows Server 2016](https://www.microsoft.com/cloud-platform/windows-server) (or higher)
 - [Docker for Windows](https://docs.docker.com/docker-for-windows/) - version Stable 1.13.0 or 1.12 Beta 26 (or newer versions)
 - [Visual Studio 2017](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=button+cta&utm_content=download+vs2017)
 
 > [!IMPORTANT]
-> If you are using Windows Server 2016, follow the instructions for [Container Host Deployment - Windows Server](https://msdn.microsoft.com/virtualization/windowscontainers/deployment/deployment).
+> If you are using Windows Server 2016, follow the instructions for [Container Host Deployment - Windows Server](https://docs.microsoft.com/en-us/virtualization/windowscontainers/).
 
 After installing and starting Docker, right-click on the tray icon and select **Switch to Windows containers**. This is required to run
 Docker images based on Windows. This command takes a few seconds to execute:
@@ -135,7 +135,7 @@ Once the container starts, connect to the running container using `http://localh
 > Some VPN or proxy software may prevent you from navigating to your site.
 > You can temporarily disable it to make sure your container is working.
 
-The sample directory on GitHub contains a [PowerShell script](https://github.com/dotnet/samples/blob/main/framework/docker/MVCRandomAnswerGenerator/run.ps1) that executes these commands for you. Open a PowerShell window, change directory to your solution directory, and type:
+The sample directory on GitHub contains a [PowerShell script](https://github.com/dotnet/samples/tree/main/framework/docker/ConsoleRandomAnswerGenerator/ConsoleRandomAnswerGenerator) that executes these commands for you. Open a PowerShell window, change directory to your solution directory, and type:
 
 ```console
 ./run.ps1

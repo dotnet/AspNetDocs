@@ -28,7 +28,7 @@ Neither of the aforementioned approaches is ideal so we decided to leverage some
 
 - Users need to be familiar with authoring project templates, including the required markup for vstemplate files, etc.
 - Users will need to have Visual Studio Professional and higher installed. Express SKUs do not support creating VSIX projects.
-- [Visual Studio 2012 SDK](https://www.microsoft.com/download/details.aspx?id=30668) installed.
+- [Visual Studio 2012 SDK](https://www.microsoft.com/en-us/download/details.aspx?id=36020) installed.
 
 ## Example
 
