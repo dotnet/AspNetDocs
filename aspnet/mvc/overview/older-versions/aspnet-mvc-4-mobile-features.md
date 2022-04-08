@@ -159,7 +159,7 @@ Save the changes. Copy the *MvcMobile\Views\Shared\\_Layout.Mobile.cshtml* file 
 
 Copy the *MvcMobile\Views\Home\AllTags.Mobile.cshtml* file to *MvcMobile\Views\Home\AllTags.iPhone.cshtml*. In the new file, change the `<h2>` element from "Tags (M)" to "Tags (iPhone)".
 
-Run the application. Run a mobile browser emulator, make sure its user agent is set to "iPhone", and browse to the *AllTags* view. The following screenshot shows the *AllTags* view rendered in the [Safari](http://www.apple.com/safari/download/) browser. You can download Safari for Windows [here](https://support.apple.com/kb/DL1531).
+Run the application. Run a mobile browser emulator, make sure its user agent is set to "iPhone", and browse to the *AllTags* view. The following screenshot shows the *AllTags* view rendered in the [Safari](http://www.apple.com/safari/download/) browser. You can download Safari for Windows.
 
 [![p2_iphoneView](aspnet-mvc-4-mobile-features/_static/image18.png)](aspnet-mvc-4-mobile-features/_static/image17.png)
 

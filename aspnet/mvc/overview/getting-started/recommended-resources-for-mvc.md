@@ -13,7 +13,6 @@ msc.type: authoredcontent
 
 by [Rick Anderson](https://twitter.com/RickAndMSFT)
 
-> This topic provides links to documentation resources about ASP.NET MVC 5. If you know a great blog post, [stackoverflow](http://stackoverflow.com/) thread or any other link that would be useful, send [me](mailto:aspnetue@microsoft.com?subject=Great ASP.NET MVC link) an email with the link. The links provided here are updated periodically. You can find older (but in many cases still relevant) ASP.NET MVC links on the [MSDN content map](https://msdn.microsoft.com/library/gg416514(v=vs.108).aspx).
 >
 > A good place to get your questions answered or to find solutions to problems is in the [ASP.NET MVC forum](https://forums.asp.net/1146.aspx/1?MVC) or on [stackoverflow](http://stackoverflow.com/questions/tagged/mvc+asp.net-mvc).
 > <a id="gettingstarted"></a>
@@ -83,7 +82,6 @@ by [Rick Anderson](https://twitter.com/RickAndMSFT)
 - [stackoverflow threads on security](http://stackoverflow.com/users/59641/levi?tab=answers&amp;sort=newest) by Levi
 - [KnockoutJS and ASP.NET MVC – Alternate techniques and using the Anti Forgery Token](http://www.dotnetcurry.com/ShowArticle.aspx?ID=940)
 - [ASP.NET MVC 5 Authentication Filters](http://www.dotnetcurry.com/showarticle.aspx?ID=957)
-- [ASP.NET MVC 5 Authentication Breakdown](http://www.khalidabuhakmeh.com/asp-net-mvc-5-authentication-breakdown-part-deux)
 - [Security In ASP.NET MVC](http://www.codeproject.com/Articles/654846/Security-In-ASP-NET-MVC)
 - [Securing your ASP.NET MVC 4 App](https://docs.microsoft.com/archive/blogs/rickandy/securing-your-asp-net-mvc-4-app-and-the-new-allowanonymous-attribute)
 - [XSRF/CSRF Prevention in ASP.NET MVC and Web Pages](../security/xsrfcsrf-prevention-in-aspnet-mvc-and-web-pages.md)
@@ -205,7 +203,6 @@ by [Rick Anderson](https://twitter.com/RickAndMSFT)
 - [Cascading DropDownList in ASP.NET MVC](https://blogs.msdn.com/b/rickandy/archive/2012/01/09/cascasding-dropdownlist-in-asp-net-mvc.aspx?CommentPosted=true#commentmessage)
 - [CascadingDropDown jQuery Plugin for ASP.NET MVC](https://weblogs.asp.net/rajbk/Contents/Item/Display/31)
 - [MVC, JsonResult, DateTime and TimeZone](http://msprogrammer.serviciipeweb.ro/2013/03/10/mvc-jsonresult-datetime-and-timezone/)
-- [MVC- Custom Validation - required DropDownList](https://codeblockdrive.blogspot.in/2012/12/mvc-custom-validation-required.html)
 - [Client Side Progress Bar in ASP.NET MVC using jQuery UI, WebAPI and JsRender](http://www.devcurry.com/2012/10/responsive-aspnet-mvc-ui-using-webapi.html)
 - [ASP.NET MVC Ajax using jQuery – Quick Start sample](http://evolpin.wordpress.com/2011/03/15/asp-net-mvc-ajax-using-jquery-quick-start-sample/)
 - [Creating Cascading DropDownLists using ASP.NET MVC 4 and jQuery](http://www.binaryintellect.net/articles/b58fde6b-415e-454d-985b-d5dc4ad2fca8.aspx)
@@ -252,7 +249,6 @@ by [Rick Anderson](https://twitter.com/RickAndMSFT)
 - [Multi-Tier Application Using Storage Tables, Queues, and Blobs](https://code.msdn.microsoft.com/Windows-Azure-Multi-Tier-eadceb36)
 - [Windows Azure Web Sites: Quick-and-Easy Hosting as a Service](https://msdn.microsoft.com/magazine/jj883953.aspx)
 - [Configuration Tips For ASP.NET MVC 4 on a Azure Website](http://odetocode.com/Blogs/scott/archive/2012/08/07/configuration-tips-for-asp-net-mvc-4-on-a-windows.aspx)
-- [Episode 85 - Azure, Windows 8, and MVC 4 Demos](https://channel9.msdn.com/Shows/Cloud+Cover/Episode-85-Windows-Azure-Sample-Content-Review) (video)
 - [Deploying an ASP.NET Website to Azure in Visual Studio 2012 from a Git Repository directly](http://www.dotnetcurry.com/ShowArticle.aspx?ID=881)
 
 <a id="mobile"></a>
@@ -316,8 +312,7 @@ by [Rick Anderson](https://twitter.com/RickAndMSFT)
 - [ASP.NET MVC Solution Best Practices](https://channel9.msdn.com/Events/aspConf/aspConf/ASP-NET-MVC-Solution-Best-Practices) (video)
 - [SignalR, MVC, Web API](https://channel9.msdn.com/Events/aspConf/aspConf/Ask-The-Experts) (video)
 - [Best Practices for ASP.NET MVC](https://blogs.msdn.com/b/aspnetue/archive/2010/09/17/second_2d00_post.aspx)
-- [ASP.NET MVC Best Practices (Part 1)](https://weblogs.asp.net/rashid/archive/2009/04/01/asp-net-mvc-best-practices-part-1.aspx)
-- [12 ASP.NET MVC Best Practices](https://codeclimber.net.nz/archive/2009/10/27/12-asp.net-mvc-best-practices.aspx)
+
 
 <a id="deploy"></a>
 
@@ -340,7 +335,7 @@ by [Rick Anderson](https://twitter.com/RickAndMSFT)
 ## General
 
 - [How to Upgrade an ASP.NET MVC 4 and Web API Project to ASP.NET MVC 5 and Web API 2](../releases/how-to-upgrade-an-aspnet-mvc-4-and-web-api-project-to-aspnet-mvc-5-and-web-api-2.md)
-- [Understanding ASP.NET MVC Filters and Attributes](http://www.dotnet-tricks.com/Tutorial/mvc/b11a280114-Understanding-ASP.NET-MVC-Filters-and-Attributes.html)
+- [Understanding ASP.NET MVC Filters and Attributes](https://www.dotnettricks.com/learn/mvc/understanding-aspnet-mvc-filters-and-attributes)
 - [Content Negotiation and Web API for the ASP.NET MVC Developer](https://msdn.microsoft.com/magazine/dn574797.aspx)
 - [Serving WebP images with ASP.NET MVC](http://friism.com/serving-webp-images-with-asp-net-mvc)
 - [Nesting Layouts in MVC](http://astutelogic.com/nesting-layouts-in-mvc/) by Russell Waite
@@ -360,7 +355,6 @@ by [Rick Anderson](https://twitter.com/RickAndMSFT)
 - [Sharing a single \_ViewStart across areas in ASP.NET MVC](http://brockallen.com/2012/08/31/sharing-a-single-_viewstart-across-areas-in-asp-net-mvc/)
 - [Filtering in ASP.NET MVC](https://msdn.microsoft.com/library/gg416513(VS.98).aspx)
 - [Get to Know Action Filters in ASP.NET MVC 3 Using HandleError](https://channel9.msdn.com/Shows/DevNuggets/Get2KnowActionFiltersUsingHandleError) (video)
-- [MVC - Custom Filters - Session timeout Handling](https://codeblockdrive.blogspot.in/2012/12/mvc-custom-filters-session-timeout.html)
 - [Custom MVC 4 Template Walkthrough](https://docs.microsoft.com/archive/blogs/yjhong/custom-mvc-4-template-walkthrough)
 - [Browser history](http://msprogrammer.serviciipeweb.ro/2012/12/03/browser-historypart-5-conclusions/)
 - [Why ASP.NET MVC HTML Helper methods take lambda expressions as parameters](http://odetocode.com/blogs/scott/archive/2012/11/26/why-all-the-lambdas.aspx)

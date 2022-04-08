@@ -11,7 +11,7 @@ msc.type: authoredcontent
 ---
 # More Patterns and Guidance (Building Real-World Cloud Apps with Azure)
 
-by [Mike Wasson](https://github.com/MikeWasson), [Rick Anderson](https://twitter.com/RickAndMSFT), [Tom Dykstra](https://github.com/tdykstra)
+by [Rick Anderson](https://twitter.com/RickAndMSFT), [Tom Dykstra](https://github.com/tdykstra)
 
 [Download Fix It Project](https://code.msdn.microsoft.com/Fix-It-app-for-Building-cdd80df4) or [Download E-book](https://docs.microsoft.com/archive/blogs/microsoft_press/free-ebook-building-cloud-apps-with-microsoft-azure)
 
@@ -23,7 +23,6 @@ You've now seen 13 patterns that provide guidance on how to be successful in clo
 
     - [Moving Applications to the Cloud](https://msdn.microsoft.com/library/ff728592.aspx). E-book by Microsoft Patterns and Practices. Also available as a [hard-copy paperback](https://www.amazon.com/dp/1621140202).
     - [Migrating Microsoft's ASP.NET and IIS.NET](https://go.microsoft.com/fwlink/?LinkId=400656). Case study by Robert McMurray.
-    - [Moving 4th &amp; Mayor to Azure Web Sites](http://www.jeff.wilcox.name/2013/04/4thandmayor-azure-websites/). Blog post by Jeff Wilcox chronicling his experience moving a web app from Amazon Web Services to Web Apps in Azure App Service.
     - [Moving Apps to Azure: What changes?](https://azure.microsoft.com/documentation/videos/web-sites-internals-and-the-file-system/) Short video by Stefan Schackow, explains file system access in Web Apps in Azure App Service.
     - [Azure Hybrid Cloud](https://www.amazon.com/dp/B00EOP4UQW). Hardcopy book or e-book by Danny Garber, Jamal Malik, and Adam Fazio.
 - Security, authentication, and authorization issues unique to cloud applications
@@ -47,7 +46,7 @@ Documentation
 
 Videos
 
-- [Building Real World Cloud Apps with Azure - Part 1](https://channel9.msdn.com/Events/TechEd/Australia/2013/AZR324) and [Part 2](https://channel9.msdn.com/Events/TechEd/Australia/2013/AZR325). Video of the presentation by Scott Guthrie that this e-book is based on. Presented at Tech Ed Australia in September, 2013. An earlier version of the same presentation was delivered at Norwegian Developers Conference (NDC) in June, 2013: [NDC part 1](http://vimeo.com/68215538), [NDC part 2](http://vimeo.com/68215602).
+- Building Real World Cloud Apps with Azure - Part 1 Video of the presentation by Scott Guthrie that this e-book is based on. Presented at Tech Ed Australia in September, 2013. An earlier version of the same presentation was delivered at Norwegian Developers Conference (NDC) in June, 2013: [NDC part 1](http://vimeo.com/68215538), [NDC part 2](http://vimeo.com/68215602).
 - [FailSafe: Building Scalable, Resilient Cloud Services](https://channel9.msdn.com/Series/FailSafe). Nine-part video series by Ulrich Homann, Marc Mercuri, and Mark Simms. Presents a 400-level view of how to architect cloud apps. This series focuses on theory and reasons behind recommended patterns; for more how-to details, see the Building Big series by Mark Simms.
 - [Building Big: Lessons learned from Azure customers- Part 1](https://channel9.msdn.com/Events/Build/2012/3-029) and [Part 2](https://channel9.msdn.com/Events/Build/2012/3-030). Two-part video series by Simon Davies and Mark Simms, similar to the FailSafe series but oriented more toward practical implementation.
 

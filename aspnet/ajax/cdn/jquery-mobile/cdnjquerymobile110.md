@@ -26,4 +26,3 @@ The jQuery Mobile 1.1.0 library includes the following files:
 - https://ajax.aspnetcdn.com/ajax/jquery.mobile/1.1.0/images/icons-18-black.png
 - https://ajax.aspnetcdn.com/ajax/jquery.mobile/1.1.0/images/icons-18-white.png
 - https://ajax.aspnetcdn.com/ajax/jquery.mobile/1.1.0/images/icons-36-black.png
-- https://ajax.aspnetcdn.com/ajax/jquery.mobile/1.1.0/imagesicons-36-white.png

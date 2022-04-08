@@ -186,7 +186,7 @@ NuGet 2.8.1 RTM will be released in April 2014. Here are the salient points from
     The cache fallback feature does not require any specific command arguments. Additionally, cache fallback currently works only in the package manager console - the behavior does not currently work in the package manager dialog.
 - **Bug Fixes**: One of the major bug fixes made was performance improvement in the update-package -reinstall command.
 
-    In addition to these features and the aforementioned performance fix, this release of NuGet also includes many other bug fixes. There were 181 total issues addressed in the release. For a full list of the work items fixed in NuGet 2.8, please view the [NuGet Issue Tracker](https://nuget.codeplex.com/workitem/list/advanced?release=NuGet%202.8&status=all) for this release.
+    In addition to these features and the aforementioned performance fix, this release of NuGet also includes many other bug fixes. There were 181 total issues addressed in the release. For a full list of the work items fixed in NuGet 2.8, please view the NuGet Issue Tracker for this release.
 
 <a id="webforms"></a>
 ### ASP.NET Web Forms
@@ -202,7 +202,7 @@ NuGet 2.8.1 RTM will be released in April 2014. Here are the salient points from
 - [Enum support in views](../../../mvc/overview/releases/mvc51-release-notes.md#Enum)
 - [Unobtrusive support for MinLength/ MaxLength attributes](../../../mvc/overview/releases/mvc51-release-notes.md#Unobtrusive)
 - [Supporting the 'this' context in Unobtrusive Ajax](../../../mvc/overview/releases/mvc51-release-notes.md#thisContext)
-- Various [bug fixes](https://aspnetwebstack.codeplex.com/workitem/list/advanced?keyword=&status=Closed&type=All&priority=All&release=v5.1%20Preview%7cv5.1%20RTM&assignedTo=All&component=MVC&sortField=AssignedTo&sortDirection=Ascending&page=0&reasonClosed=Fixed)
+
 
 <a id="webapi"></a>
 ### ASP.NET Web API 2.1.2
@@ -214,12 +214,11 @@ NuGet 2.8.1 RTM will be released in April 2014. Here are the salient points from
 - [BSON media-type formatter](../../../web-api/overview/releases/whats-new-in-aspnet-web-api-21.md#bson)
 - [Better support for async filters](../../../web-api/overview/releases/whats-new-in-aspnet-web-api-21.md#async-filters)
 - [Query parsing for the client formatting library](../../../web-api/overview/releases/whats-new-in-aspnet-web-api-21.md#query-parsing)
-- Various [bug fixes](https://aspnetwebstack.codeplex.com/workitem/list/advanced?keyword=&status=Closed&type=All&priority=All&release=v5.1%20Preview%7cv5.1%20RTM&assignedTo=All&component=Web%20API%7cWeb%20API%20OData&sortField=AssignedTo&sortDirection=Ascending&page=0&reasonClosed=Fixed)
+
 
 <a id="webpages"></a>
 ### ASP.NET Web Pages 3.1.2
 
-- Various [bug fixes](https://aspnetwebstack.codeplex.com/workitem/list/advanced?keyword=&status=Closed&type=All&priority=All&release=v5.1%20Preview%7cv5.1%20RTM&assignedTo=All&component=Web%20Pages/Razor&sortField=AssignedTo&sortDirection=Ascending&page=0&reasonClosed=Fixed)
 
 <a id="ef"></a>
 ### Entity Framework 6.1
@@ -257,7 +256,7 @@ Entity Framework has been updated to version 6.1 for both runtime and tooling. E
 <a id="owin"></a>
 ### Microsoft OWIN components
 
-There were lots of bugs that were fixed in this release. Please see the [release notes for the 2.1.0 release](https://katanaproject.codeplex.com/releases/view/113281) for more detailed information.
+There were lots of bugs that were fixed in this release. 
 
 <a id="signalr"></a>
 ### ASP.NET SignalR 2.0.2

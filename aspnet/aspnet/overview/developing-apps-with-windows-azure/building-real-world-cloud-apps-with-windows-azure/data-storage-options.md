@@ -11,7 +11,7 @@ msc.type: authoredcontent
 ---
 # Data Storage Options (Building Real-World Cloud Apps with Azure)
 
-by [Mike Wasson](https://github.com/MikeWasson), [Rick Anderson](https://twitter.com/RickAndMSFT), [Tom Dykstra](https://github.com/tdykstra)
+by [Rick Anderson](https://twitter.com/RickAndMSFT), [Tom Dykstra](https://github.com/tdykstra)
 
 [Download Fix It Project](https://code.msdn.microsoft.com/Fix-It-app-for-Building-cdd80df4) or [Download E-book](https://docs.microsoft.com/archive/blogs/microsoft_press/free-ebook-building-cloud-apps-with-microsoft-azure)
 
