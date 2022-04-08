@@ -11,8 +11,6 @@ msc.type: authoredcontent
 ---
 # Getting Started with OWIN and Katana
 
-by [Mike Wasson](https://github.com/MikeWasson)
-
 [Open Web Interface for .NET (OWIN)](http://owin.org/) defines an abstraction between .NET web servers and web applications. By decoupling the web server from the application, OWIN makes it easier to create middleware for .NET web development. Also, OWIN makes it easier to port web applications to other hosts&#8212;for example, self-hosting in a Windows service or other process.
 
 OWIN is a community-owned specification, not an implementation. The Katana project is a set of open-source OWIN components developed by Microsoft. For a general overview of both OWIN and Katana, see [An Overview of Project Katana](an-overview-of-project-katana.md). In this article, I will jump right into code to get started.

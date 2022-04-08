@@ -25,7 +25,7 @@ by [Rick Anderson](https://twitter.com/RickAndMSFT)
 <a id="createMvc"></a>
 ## Create an ASP.NET MVC app
 
-Start by installing and running [Visual Studio Express 2013 for Web](https://go.microsoft.com/fwlink/?LinkId=299058) or [Visual Studio 2013](https://go.microsoft.com/fwlink/?LinkId=306566). Install [Visual Studio 2013 Update 3](https://go.microsoft.com/fwlink/?LinkId=390465) or higher.
+Start by installing and running [Visual Studio Express 2013 for Web](https://visualstudio.microsoft.com/vs/older-downloads/) or higher.
 
 > [!NOTE]
 > Warning: You should complete [Create a secure ASP.NET MVC 5 web app with log in, email confirmation and password reset](create-an-aspnet-mvc-5-web-app-with-email-confirmation-and-password-reset.md) before proceeding. You must install [Visual Studio 2013 Update 3](https://go.microsoft.com/fwlink/?LinkId=390465) or higher to complete this tutorial.

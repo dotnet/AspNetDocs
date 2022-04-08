@@ -79,7 +79,7 @@ The application delegate then is simply an implementation of the Func delegate t
 
 From an implementation perspective, OWIN is a specification ([http://owin.org/html/owin.html](http://owin.org/html/owin.html)). Its goal is not to be the next Web framework, but rather a specification for how Web frameworks and Web servers interact.
 
-If you've investigated [OWIN](http://owin.org/) or [Katana](https://github.com/aspnet/AspNetKatana/wiki), you may also have noticed the [Owin NuGet package](http://nuget.org/packages/Owin) and Owin.dll. This library contains a single interface, [IAppBuilder](https://github.com/owin/owin/blob/master/src/Owin/IAppBuilder.cs), which formalizes and codifies the startup sequence described in [section 4](http://owin.org/html/owin.html#4-application-startup) of the OWIN specification. While not required in order to build OWIN servers, the [IAppBuilder](https://github.com/owin/owin/blob/master/src/Owin/IAppBuilder.cs) interface provides a concrete reference point, and it is used by the Katana project components.
+If you've investigated [OWIN](http://owin.org/) or [Katana](https://github.com/aspnet/AspNetKatana/wiki), you may also have noticed the [Owin NuGet package](http://nuget.org/packages/Owin) and Owin.dll. This library contains a single interface, [IAppBuilder]/dotnet/api/microsoft.aspnetcore.builder.iapplicationbuilder), which formalizes and codifies the startup sequence described in [section 4](http://owin.org/html/owin.html#4-application-startup) of the OWIN specification. While not required in order to build OWIN servers, the [IAppBuilder]/dotnet/api/microsoft.aspnetcore.builder.iapplicationbuilder) interface provides a concrete reference point, and it is used by the Katana project components.
 
 ## Project Katana
 
