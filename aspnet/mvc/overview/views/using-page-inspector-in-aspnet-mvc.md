@@ -228,7 +228,7 @@ In modern web applications, elements in the page are often generated dynamically
 With version 1.3, Page Inspector can now map items that were dynamically added to the page back to the corresponding JavaScript code. To demonstrate this feature, we'll use the [Single Page Application (SPA) template](../../../single-page-application/overview/introduction/knockoutjs-template.md).
 
 > [!NOTE]
-> The SPA template requires the [ASP.NET and Web Tools 2012.2](https://go.microsoft.com/fwlink/?LinkId=282650) update.
+> The SPA template requires the [ASP.NET and Web Tools 2012.2](/aspnet/visual-studio/overview/2012/aspnet-and-web-tools-20122-release-notes-rtw) update.
 
 In Visual Studio, choose **File** &gt; **New Project**. On the left, expand **Visual C#**, select **Web**, and then select **ASP.NET MVC4 Web Application**. Click **OK**.
 

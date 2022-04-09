@@ -20,7 +20,7 @@ For an updated version of this tutorial that uses .NET Core, see [Account confir
 <a id="createMvc"></a>
 ## Create an ASP.NET MVC app
 
-Start by installing and running [Visual Studio Express 2013 for Web](https://go.microsoft.com/fwlink/?LinkId=299058) or [Visual Studio 2013](https://go.microsoft.com/fwlink/?LinkId=306566). Install [Visual Studio 2013 Update 3](https://go.microsoft.com/fwlink/?LinkId=390465) or higher.
+Start by installing and running [Visual Studio Express 2013 for Web](/aspnet/visual-studio/overview/2013/visual-studio-2013-web-tools) or [Visual Studio 2013](https://go.microsoft.com/fwlink/?LinkId=306566). Install [Visual Studio 2013 Update 3](https://go.microsoft.com/fwlink/?LinkId=390465) or higher.
 
 > [!NOTE]
 > Warning: You must install [Visual Studio 2013 Update 3](https://go.microsoft.com/fwlink/?LinkId=390465) or higher to complete this tutorial.
@@ -56,7 +56,7 @@ Although this tutorial only shows how to add email notification through [SendGri
 1. In the Package Manager Console, enter the following command: 
 
     [!code-console[Main](create-an-aspnet-mvc-5-web-app-with-email-confirmation-and-password-reset/samples/sample1.cmd)]
-2. Go to the [Azure SendGrid sign up page](https://go.microsoft.com/fwlink/?linkid=271033&clcid=0x409) and register for a free SendGrid account. Configure SendGrid by adding code similar to the following in *App_Start/IdentityConfig.cs*:
+2. Go to the [Azure SendGrid sign up page](https://sendgrid.com/) and register for a free SendGrid account. Configure SendGrid by adding code similar to the following in *App_Start/IdentityConfig.cs*:
 
     [!code-csharp[Main](create-an-aspnet-mvc-5-web-app-with-email-confirmation-and-password-reset/samples/sample2.cs?highlight=3,5)]
 
