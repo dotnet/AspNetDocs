@@ -42,7 +42,7 @@ For this tutorial, we will take a web application template (Web Forms) created u
 
 ### Migrating to Visual Studio 2013
 
-1. Install Visual Studio Express 2013 for Web or Visual Studio 2013 along with the [latest updates](https://www.microsoft.com/download/details.aspx?id=44921).
+1. Install Visual Studio Express 2013 for Web or Visual Studio 2013 along with the [latest updates](https://www.microsoft.com/download/details.aspx?id=45326).
 2. Open the above project in your installed version of Visual Studio. If SQL Server Express is not installed on the machine, a prompt is displayed when you open the project, since the connection string uses SQL Express. You can either choose to install SQL Express or as work around change the connection string to LocalDb. For this article we'll change it to LocalDb.
 3. Open web.config and change the connection string from .SQLExpress to (LocalDb)v11.0. Remove 'User Instance=true' from the connection string.
 
