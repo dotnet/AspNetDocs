@@ -148,7 +148,7 @@ In this task you will run the generated solution, explore the app and some of it
     *Friendly URLs*
 
     > [!NOTE]
-    > As you can see, the URL changes to **/contact**. Starting from **ASP.NET 4**, URL routing capabilities were added to Web Forms, so you can write URLs like *[http://www.mysite.com/products/software](http://www.mysite.com/products/software)* instead of *[http://www.mysite.com/products.aspx?category=software](http://www.mysite.com/products.aspx?category=software)*. For more information refer to [URL Routing](../../../web-forms/overview/getting-started/getting-started-with-aspnet-45-web-forms/url-routing.md).
+    > As you can see, the URL changes to **/contact**. Starting from **ASP.NET 4**, URL routing capabilities were added to Web Forms, so you can write URLs like *`http://www.mysite.com/products/software`* instead of *`http://www.mysite.com/products.aspx?category=software`*. For more information refer to [URL Routing](../../../web-forms/overview/getting-started/getting-started-with-aspnet-45-web-forms/url-routing.md).
 3. You will now explore the authentication flow integrated into the application. To do this, click **Register** in the upper-right corner of the page.
 
     ![Registering a new user](one-aspnet-integrating-aspnet-web-forms-mvc-and-web-api/_static/image8.png)

@@ -22,7 +22,3 @@ The jQuery Mobile 1.4.5 library includes the following files:
 - https://ajax.aspnetcdn.com/ajax/jquery.mobile/1.4.5/jquery.mobile-1.4.5.min.css
 - https://ajax.aspnetcdn.com/ajax/jquery.mobile/1.4.5/jquery.mobile-1.4.5.min.js
 - https://ajax.aspnetcdn.com/ajax/jquery.mobile/1.4.5/images/ajax-loader.gif
-- https://ajax.aspnetcdn.com/ajax/jquery.mobile/1.4.5/images/icons-18-black.png
-- https://ajax.aspnetcdn.com/ajax/jquery.mobile/1.4.5/images/icons-18-white.png
-- https://ajax.aspnetcdn.com/ajax/jquery.mobile/1.4.5/images/icons-36-black.png
-- https://ajax.aspnetcdn.com/ajax/jquery.mobile/1.4.5/images/icons-36-white.png

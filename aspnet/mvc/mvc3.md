@@ -144,7 +144,7 @@ For more information about Razor, see the following resources:
 
 ## Support for Multiple View Engines
 
-The **Add View** dialog box in ASP.NET MVC 3 lets you choose the view engine you want to work with, and the **New Project** dialog box lets you specify the default view engine for a project. You can choose the Web Forms view engine (ASPX), Razor, or an open-source view engine such as [Spark](http://sparkviewengine.com/), [NHaml](https://code.google.com/p/nhaml/), or [NDjango](http://ndjango.org/).
+The **Add View** dialog box in ASP.NET MVC 3 lets you choose the view engine you want to work with, and the **New Project** dialog box lets you specify the default view engine for a project. You can choose the Web Forms view engine (ASPX), Razor, or an open-source view engine such as [Spark](https://spark.apache.org/), [NHaml](https://code.google.com/p/nhaml/), or [NDjango](http://ndjango.org/).
 
 <a id="BM_Controller_Improvements"></a>
 
