@@ -157,4 +157,3 @@ If the action is available, the lambda expression returns a link to the action. 
 
 ## Additional Resources
 
-[OData Actions Sample](http://aspnet.codeplex.com/sourcecontrol/latest#Samples/WebApi/OData/v3/ODataActionsSample/)

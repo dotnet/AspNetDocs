@@ -149,9 +149,9 @@ Click **Publish**.
 
 [![](host-aspnet-web-api-in-an-azure-worker-role/_static/image20.png)](host-aspnet-web-api-in-an-azure-worker-role/_static/image19.png)
 
-The Azure Activity Log window shows the progress of the deployment. When the app is deployed, browse to http://appname.cloudapp.net/test/1.
+[Configuring a custom domain name for an Azure cloud service (classic)](/azure/cloud-services/cloud-services-custom-domain-name-portal)
 
-![](host-aspnet-web-api-in-an-azure-worker-role/_static/image21.png)
+[!INCLUDE [Cloud Services (classic) deprecation announcement](/azure-docs-pr/blob/live/articles/cloud-services/includes/deprecation-announcement.md)]
 
 ## Additional Resources
 

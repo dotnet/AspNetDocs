@@ -171,9 +171,7 @@ If you click the Response body tab, you can see how the product list was seriali
 
 ## See this App Running on Azure
 
-Would you like to see the finished site running as a live web app? You can deploy a complete version of the app to your Azure account by simply clicking the following button.
-
-[![](https://azuredeploy.net/deploybutton.png)](https://deploy.azure.com/?WT.mc_id=deploy_azure_aspnet&repository=https://github.com/tfitzmac/WebAPI-ProductsApp#/form/setup)
+Would you like to see the finished site running as a live web app? You can [deploy a complete version of the app to your Azure account.](/aspnet/web-api/overview/hosting-aspnet-web-api/)
 
 You need an Azure account to deploy this solution to Azure. If you do not already have an account, you have the following options:
 
