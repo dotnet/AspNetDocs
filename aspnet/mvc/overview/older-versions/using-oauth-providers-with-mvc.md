@@ -73,7 +73,7 @@ This tutorial does not show all of the steps you must perform to register with t
 
 - [Facebook](https://developers.facebook.com/)
 - [Google](https://developers.google.com/)
-- [Microsoft](http://manage.dev.live.com/)
+- [Microsoft](https://developer.microsoft.com/)
 - [Twitter](https://dev.twitter.com/)
 
 When registering your site with Facebook, you can provide &quot;localhost&quot; for the site domain and `&quot;http://localhost/&quot;` for the URL, as shown in the image below. Using localhost works with most providers, but currently does not work with the Microsoft provider. For the Microsoft provider, you must include a valid web site URL.
@@ -216,7 +216,7 @@ After completing registration, close the browser. Look in the database to notice
 
 ## Install NuGet package for Facebook API
 
-Facebook provides an [API](https://developers.facebook.com/docs/reference/apis/) that you can call to perform operations. You can call the Facebook API either by directing sending HTTP requests, or by using installing a NuGet package that facilitates sending those requests. Using a NuGet package is shown in this tutorial, but installing NuGet package is not essential. This tutorial shows how to use the Facebook C# SDK package. There are other NuGet packages that assist with calling the Facebook API.
+Facebook provides an [API](https://developers.facebook.com/docs/) that you can call to perform operations. You can call the Facebook API either by directing sending HTTP requests, or by using installing a NuGet package that facilitates sending those requests. Using a NuGet package is shown in this tutorial, but installing NuGet package is not essential. This tutorial shows how to use the Facebook C# SDK package. There are other NuGet packages that assist with calling the Facebook API.
 
 From the **Manage NuGet Packages** windows, select the Facebook C# SDK package.
 

@@ -11,7 +11,7 @@ msc.type: authoredcontent
 ---
 # Queue-Centric Work Pattern (Building Real-World Cloud Apps with Azure)
 
-by [Mike Wasson](https://github.com/MikeWasson), [Rick Anderson](https://twitter.com/RickAndMSFT), [Tom Dykstra](https://github.com/tdykstra)
+by [Rick Anderson](https://twitter.com/RickAndMSFT), [Tom Dykstra](https://github.com/tdykstra)
 
 [Download Fix It Project](https://code.msdn.microsoft.com/Fix-It-app-for-Building-cdd80df4) or [Download E-book](/archive/blogs/microsoft_press/free-ebook-building-cloud-apps-with-microsoft-azure)
 
@@ -96,10 +96,10 @@ Another consideration is application availability. The Queue Storage Service is 
 
 To put a Fix It task on the queue, the web front end performs the following steps:
 
-1. Create a [CloudQueueClient](https://msdn.microsoft.com/library/microsoft.windowsazure.storage.queue.cloudqueueclient.aspx) instance. The `CloudQueueClient` instance is used to execute requests against the Queue Service.
+1. Create a CloudQueueClient instance. The `CloudQueueClient` instance is used to execute requests against the Queue Service.
 2. Create the queue, if it doesn't exist yet.
 3. Serialize the Fix It task.
-4. Call [CloudQueue.AddMessageAsync](https://msdn.microsoft.com/library/microsoft.windowsazure.storage.queue.cloudqueue.addmessageasync.aspx) to put the message onto the queue.
+4. Call CloudQueue.AddMessageAsync to put the message onto the queue.
 
 We'll do this work in the constructor and `SendMessageAsync` method of a new `FixItQueueManager` class.
 

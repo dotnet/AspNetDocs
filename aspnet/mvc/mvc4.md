@@ -40,4 +40,4 @@ msc.type: content
 - [Known issues and breaking changes list](../whitepapers/mvc4-release-notes.md#_Toc303253815)
 - Get help and discuss ASP.NET MVC 4 in the [forums](https://forums.asp.net/1146.aspx)
 - [Report a bug in ASP.NET MVC 4](https://github.com/aspnet/AspNetWebStack/issues)
-- [Make a feature request](http://aspnet.uservoice.com/forums/41201-asp-net-mvc)
+- [Make a feature request](https://developer.uservoice.com/forums/)
