@@ -151,8 +151,6 @@ Click **Publish**.
 
 [Configuring a custom domain name for an Azure cloud service (classic)](/azure/cloud-services/cloud-services-custom-domain-name-portal)
 
-[!INCLUDE [Cloud Services (classic) deprecation announcement](/azure-docs-pr/blob/live/articles/cloud-services/includes/deprecation-announcement.md)]
-
 ## Additional Resources
 
 - [An Overview of Project Katana](../../../aspnet/overview/owin-and-katana/an-overview-of-project-katana.md)

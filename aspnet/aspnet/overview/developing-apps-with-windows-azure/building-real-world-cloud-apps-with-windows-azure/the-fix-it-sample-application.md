@@ -182,7 +182,7 @@ Typically, the **Run** method on a worker role contains an infinite loop. When t
 
 ### Opt out of Automatic MIME Sniffing Procedure
 
-In some cases, Internet Explorer reports a MIME type different than the type specified by the web server. For instance, if Internet Explorer finds HTML content in a file delivered with the HTTP response header Content-Type: text/plain, Internet Explorer determines that the content should be rendered as HTML. Unfortunately, this "MIME-sniffing" can also lead to security problems for servers hosting untrusted content. To combat this problem, Internet Explorer 8 has made a number of changes to MIME-type determination code and allows application developers to [opt out of MIME-sniffing](https://docs.microsoft.com/archive/blogs/ie/ie8-security-part-v-comprehensive-protection). The following code was added to the *Web.config* file.
+In some cases, Internet Explorer reports a MIME type different than the type specified by the web server. For instance, if Internet Explorer finds HTML content in a file delivered with the HTTP response header Content-Type: text/plain, Internet Explorer determines that the content should be rendered as HTML. Unfortunately, this "MIME-sniffing" can also lead to security problems for servers hosting untrusted content. To combat this problem, Internet Explorer 8 has made a number of changes to MIME-type determination code and allows application developers to [opt out of MIME-sniffing](/archive/blogs/ie/ie8-security-part-v-comprehensive-protection). The following code was added to the *Web.config* file.
 
 [!code-xml[Main](the-fix-it-sample-application/samples/sample16.xml?highlight=2-7)]
 
@@ -257,7 +257,7 @@ If you want to run in Azure without using queues, and you made the changes to ru
 
 These instructions assume you have already downloaded and run the Fix It solution locally, and that you have an Azure account or have an Azure subscription that you are authorized to manage.
 
-1. Install the **Azure PowerShell** console. For instructions, see [How to install and configure Azure PowerShell](https://docs.microsoft.com/powershell/azure/overview?view=azurermps-4.3.1).
+1. Install the **Azure PowerShell** console. For instructions, see [How to install and configure Azure PowerShell](/powershell/azure/overview?view=azurermps-4.3.1).
 
     This customized console is configured to work with your Azure subscription. The Azure module is installed in the *Program Files* directory and is automatically imported on every use of the Azure PowerShell console.
 
@@ -381,7 +381,7 @@ In the same MyFixIt.WorkerRole\app.config file, under `appSettings`, replace the
 
 [!code-xml[Main](the-fix-it-sample-application/samples/sample33.xml?highlight=2-3)]
 
-You can get the access key from the portal. See [How To Manage Storage Accounts](https://docs.microsoft.com/azure/storage/common/storage-create-storage-account).
+You can get the access key from the portal. See [How To Manage Storage Accounts](/azure/storage/common/storage-create-storage-account).
 
 In MyFixItCloudService\ServiceConfiguration.Cloud.cscfg, replace the same two placeholders values for the Azure storage account.
 

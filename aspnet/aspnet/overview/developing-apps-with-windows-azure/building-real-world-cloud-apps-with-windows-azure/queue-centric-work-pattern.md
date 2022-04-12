@@ -13,7 +13,7 @@ msc.type: authoredcontent
 
 by [Mike Wasson](https://github.com/MikeWasson), [Rick Anderson](https://twitter.com/RickAndMSFT), [Tom Dykstra](https://github.com/tdykstra)
 
-[Download Fix It Project](https://code.msdn.microsoft.com/Fix-It-app-for-Building-cdd80df4) or [Download E-book](https://docs.microsoft.com/archive/blogs/microsoft_press/free-ebook-building-cloud-apps-with-microsoft-azure)
+[Download Fix It Project](https://code.msdn.microsoft.com/Fix-It-app-for-Building-cdd80df4) or [Download E-book](/archive/blogs/microsoft_press/free-ebook-building-cloud-apps-with-microsoft-azure)
 
 > The **Building Real World Cloud Apps with Azure** e-book is based on a presentation developed by Scott Guthrie. It explains 13 patterns and practices that can help you be successful developing web apps for the cloud. For information about the e-book, see [the first chapter](introduction.md).
 
@@ -81,7 +81,7 @@ To implement the queue pattern, we need to make two changes to the Fix It app.
 - When a user submits a new Fix It task, put the task in the queue, instead of writing it to the database.
 - Create a back-end service that processes messages in the queue.
 
-For the queue, we'll use the [Azure Queue Storage Service](https://www.windowsazure.com/develop/net/how-to-guides/queue-service/). Another option is to use [Azure Service Bus](https://docs.microsoft.com/azure/service-bus/).
+For the queue, we'll use the [Azure Queue Storage Service](https://www.windowsazure.com/develop/net/how-to-guides/queue-service/). Another option is to use [Azure Service Bus](/azure/service-bus/).
 
 To decide which queue service to use, consider how your app needs to send and receive the messages in the queue:
 
