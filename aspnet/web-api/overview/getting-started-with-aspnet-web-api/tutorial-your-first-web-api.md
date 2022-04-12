@@ -26,7 +26,7 @@ ASP.NET Web API is a framework for building web APIs on top of the .NET Framewor
 - [Visual Studio 2017](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=button+cta&utm_content=download+vs2017)
 - Web API 2
 
-See [Create a web API with ASP.NET Core and Visual Studio for Windows](https://docs.microsoft.com/aspnet/core/tutorials/first-web-api) for a newer version of this tutorial.
+See [Create a web API with ASP.NET Core and Visual Studio for Windows](/aspnet/core/tutorials/first-web-api) for a newer version of this tutorial.
 
 ## Create a Web API Project
 

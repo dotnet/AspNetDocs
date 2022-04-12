@@ -49,11 +49,11 @@ For each application, pick a different value for "YourAppName". Do not use the s
 
 ## Create the Azure Services
 
-Create a Cloud Service, as described in [How to Create and Deploy a Cloud Service](https://docs.microsoft.com/azure/cloud-services/cloud-services-how-to-create-deploy). Follow the steps in the section "How to: Create a cloud service using Quick Create". For this tutorial, you do not need to upload a certificate.
+Create a Cloud Service, as described in [How to Create and Deploy a Cloud Service](/azure/cloud-services/cloud-services-how-to-create-deploy). Follow the steps in the section "How to: Create a cloud service using Quick Create". For this tutorial, you do not need to upload a certificate.
 
 ![](scaleout-with-windows-azure-service-bus/_static/image2.png)
 
-Create a new Service Bus namespace, as described in [How to Use Service Bus Topics/Subscriptions](https://docs.microsoft.com/azure/service-bus-messaging/service-bus-dotnet-how-to-use-topics-subscriptions). Follow the steps in the section "Create a Service Namespace".
+Create a new Service Bus namespace, as described in [How to Use Service Bus Topics/Subscriptions](/azure/service-bus-messaging/service-bus-dotnet-how-to-use-topics-subscriptions). Follow the steps in the section "Create a Service Namespace".
 
 ![](scaleout-with-windows-azure-service-bus/_static/image3.png)
 

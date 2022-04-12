@@ -168,7 +168,7 @@ The next step is adding the new convention to the list of routing conventions. T
 
 Here are some other sample routing conventions that be useful to study:
 
-- [CustomNavigationRoutingConvention](https://docs.microsoft.com/en-us/odata/webapi/custom-routing-convention)
+- [CustomNavigationRoutingConvention](/odata/webapi/custom-routing-convention)
 - [NonBindableActionRoutingConvention](/dynamicsax-2012/appuser-itpro/nonbindableactionroutingconvention-properties-microsoft-dynamics-retail-retailserverlibrary-odataextensions)
 - [ODataVersionRouteConstraint](/previous-versions/aspnet/dn746967(v=vs.118))
 
