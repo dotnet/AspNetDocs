@@ -49,4 +49,4 @@ A common scenario in ASP.NET Web Forms applications is to populate a webpage wit
 ## See also
 
 - [Examine the Events Associated with Inserting, Updating, and Deleting](data-access/editing-inserting-and-deleting-data/examining-the-events-associated-with-inserting-updating-and-deleting-cs.md)
-- [Events in .NET](/dotnet/standard/index.md)
+- [Events in .NET](/dotnet/standard/index)
