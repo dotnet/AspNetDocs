@@ -488,7 +488,7 @@ ASP.NET MVC 3 includes the NuGet Package Manager (formerly known as NuPack), whi
 
 You can work with NuGet as a command-line tool, as an integrated console window inside Visual Studio 2010, from the Visual Studio context menu, and as a set of PowerShell cmdlets.
 
-For more information about NuGet, read the [Nuget Documentation](https://docs.microsoft.com/nuget/).
+For more information about NuGet, read the [Nuget Documentation](/nuget/).
 
 <a id="_Toc276711787"></a>
 ### Improved "New Project" Dialog Box
@@ -630,7 +630,7 @@ ASP.NET MVC 3 includes NuGet Package Manager, which is an integrated package man
 
 You can work with NuGet as a command line tool, as an integrated console window inside Visual Studio 2010, from the Visual Studio context menu, and as set of PowerShell cmdlets.
 
-For more information about NuGet, read the [NuGet Documentation](https://docs.microsoft.com/nuget/).
+For more information about NuGet, read the [NuGet Documentation](/nuget/).
 
 ### <a id="0.1__Toc274034217"></a>  Improved New Project Dialog Box
 

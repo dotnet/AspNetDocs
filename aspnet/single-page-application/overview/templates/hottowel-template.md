@@ -64,7 +64,7 @@ Hot Towel builds on the familiar and powerful ASP.NET MVC structure.
 - [Knockout.js](http://Knockoutjs.com) - data bindings
 - [Require.js](http://requirejs.org) - Modularity with AMD and optimization
 - [Toastr.js](http://jpapa.me/c7toastr) - pop-up messages
-- [Twitter Bootstrap](https://twitter.github.com/bootstrap/) - robust CSS styling
+- [Twitter Bootstrap](https://getbootstrap.com/2.0.2/) - robust CSS styling
 
 ## Installing via the Visual Studio 2012 Hot Towel SPA Template
 

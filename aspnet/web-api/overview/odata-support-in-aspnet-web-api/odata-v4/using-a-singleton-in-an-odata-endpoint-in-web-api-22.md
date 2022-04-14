@@ -23,8 +23,6 @@ We'll create a singleton in your Web API project using the following data model:
 
 A singleton named `Umbrella` will be defined based on type `Company`, and an entity set named `Employees` will be defined based on type `Employee`.
 
-The solution used in this tutorial can be downloaded from [CodePlex](http://aspnet.codeplex.com/sourcecontrol/latest#Samples/WebApi/OData/v4/ODataSingletonSample/).
-
 ## Define the data model
 
 1. Define the CLR types.

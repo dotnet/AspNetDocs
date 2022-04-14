@@ -29,7 +29,7 @@ First, some OData terminology:
 - Complex type: A structured type without a key.
 - Open type: A type with dynamic properties. Both entity types and complex types can be open.
 
-The value of a dynamic property can be a primitive type, complex type, or enumeration type; or a collection of any of those types. For more information about open types, see the [OData v4 specification](http://www.odata.org/documentation/odata-version-4-0/).
+The value of a dynamic property can be a primitive type, complex type, or enumeration type; or a collection of any of those types. For more information about open types, see the [OData v4 specification](http://www.odata.org/documentation/).
 
 ## Install the Web OData Libraries
 
@@ -114,4 +114,4 @@ If you set a breakpoint in the controller method, you can see that Web API added
 
 ## Additional Resources
 
-[OData Open Type Sample](http://aspnet.codeplex.com/sourcecontrol/latest#Samples/WebApi/OData/v4/ODataOpenTypeSample/ReadMe.txt)
+[OData Open Type Sample](https://devblogs.microsoft.com/odata/tutorial-sample-how-to-use-open-type-in-odata/)

@@ -13,7 +13,7 @@ msc.type: authoredcontent
 
 by [Rick Anderson](https://twitter.com/RickAndMSFT), [Tom Dykstra](https://github.com/tdykstra)
 
-[Download Fix It Project](https://code.msdn.microsoft.com/Fix-It-app-for-Building-cdd80df4) or [Download E-book](https://docs.microsoft.com/archive/blogs/microsoft_press/free-ebook-building-cloud-apps-with-microsoft-azure)
+[Download Fix It Project](https://code.msdn.microsoft.com/Fix-It-app-for-Building-cdd80df4) or [Download E-book](/archive/blogs/microsoft_press/free-ebook-building-cloud-apps-with-microsoft-azure)
 
 > This e-book walks you through a patterns-based approach to building real-world cloud solutions. The patterns apply to the development process as well as to architecture and coding practices.
 > 

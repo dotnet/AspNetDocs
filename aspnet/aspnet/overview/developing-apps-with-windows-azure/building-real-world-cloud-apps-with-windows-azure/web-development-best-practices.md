@@ -13,7 +13,7 @@ msc.type: authoredcontent
 
 by [Rick Anderson](https://twitter.com/RickAndMSFT), [Tom Dykstra](https://github.com/tdykstra)
 
-[Download Fix It Project](https://code.msdn.microsoft.com/Fix-It-app-for-Building-cdd80df4) or [Download E-book](https://docs.microsoft.com/archive/blogs/microsoft_press/free-ebook-building-cloud-apps-with-microsoft-azure)
+[Download Fix It Project](https://code.msdn.microsoft.com/Fix-It-app-for-Building-cdd80df4) or [Download E-book](/archive/blogs/microsoft_press/free-ebook-building-cloud-apps-with-microsoft-azure)
 
 > The **Building Real World Cloud Apps with Azure** e-book is based on a presentation developed by Scott Guthrie. It explains 13 patterns and practices that can help you be successful developing web apps for the cloud. For information about the e-book, see [the first chapter](introduction.md).
 
@@ -86,7 +86,7 @@ Windows Azure has a CDN, and you can use other CDNs in an application that runs 
 
 As you saw earlier, it's as easy to decrease the number of web servers handling your web site as it is to increase them. So if a server can achieve greater throughput, you don't need as many of them and you can decrease your costs because you need fewer servers for a given traffic volume than you otherwise would.
 
-Support for the .NET 4.5 asynchronous programming model is included in ASP.NET 4.5 for Web Forms, MVC, and Web API; in Entity Framework 6, and in the [Windows Azure Storage API](https://docs.microsoft.com/archive/blogs/windowsazurestorage/introducing-storage-client-library-2-1-rc-for-net-and-windows-phone-8).
+Support for the .NET 4.5 asynchronous programming model is included in ASP.NET 4.5 for Web Forms, MVC, and Web API; in Entity Framework 6, and in the [Windows Azure Storage API](/archive/blogs/windowsazurestorage/introducing-storage-client-library-2-1-rc-for-net-and-windows-phone-8).
 
 ### Async support in ASP.NET 4.5
 

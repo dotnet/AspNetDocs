@@ -260,7 +260,7 @@ NuGet enables developers who maintain open source projects (for example, project
 
 With the ASP.NET 3 Tools Update, project templates include JavaScript libraries pre-installed NuGet packages, so they are updatable via NuGet. Entity Framework Code First is also pre-installed as a NuGet package.
 
-For more information about NuGet, see the [NuGet documentation](https://docs.microsoft.com/nuget/).
+For more information about NuGet, see the [NuGet documentation](/nuget/).
 
 ### Partial-Page Output Caching
 

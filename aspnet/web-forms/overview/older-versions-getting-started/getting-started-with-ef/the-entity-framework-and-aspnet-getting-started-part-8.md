@@ -114,7 +114,7 @@ Now that you've set up these formatting and validation rules in the data model m
 This concludes this series of tutorials on Getting Started with the Entity Framework. For more resources to help you learn how to use the Entity Framework, continue with [the first tutorial in the next Entity Framework tutorial series](../continuing-with-ef/using-the-entity-framework-and-the-objectdatasource-control-part-1-getting-started.md) or visit the following sites:
 
 - [Entity Framework FAQ](http://www.ef-faq.org/introduction.html)
-- [The Entity Framework Team Blog](https://docs.microsoft.com/archive/blogs/adonet/)
+- [The Entity Framework Team Blog](/archive/blogs/adonet/)
 - [Entity Framework in the MSDN Library](https://msdn.microsoft.com/library/bb399572.aspx)
 - [Entity Framework in the MSDN Data Developer Center](https://msdn.microsoft.com/data/ef.aspx)
 - [EntityDataSource Web Server Control Overview in the MSDN Library](https://msdn.microsoft.com/library/cc488502.aspx)

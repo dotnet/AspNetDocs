@@ -215,6 +215,6 @@ For Katana 2.0, the middleware components are primarily focused on providing dif
 
 ## Acknowledgements
 
-- [Rick Anderson](https://docs.microsoft.com/archive/blogs/rickandy/): (twitter [@RickAndMSFT](http://twitter.com/RickAndMSFT) ) Rick is a senior programming writer for Microsoft focusing on Azure and MVC.
+- [Rick Anderson](/archive/blogs/rickandy/): (twitter [@RickAndMSFT](http://twitter.com/RickAndMSFT) ) Rick is a senior programming writer for Microsoft focusing on Azure and MVC.
 - [Scott Hanselman](http://www.hanselman.com/blog/): (twitter [@shanselman](https://twitter.com/shanselman) )
 - [Jon Galloway](https://weblogs.asp.net/jgalloway/default.aspx): (twitter [@jongalloway](https://twitter.com/jongalloway) )
