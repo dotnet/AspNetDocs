@@ -574,6 +574,8 @@ ASP.NET Razor 3 includes the following new features:
   > This is a breaking change, and makes Razor 3 incompatible with MVC4 and earlier, while Razor 2 is incompatible with MVC5 or assemblies compiled against MVC5.
 
 
+=======
+
 <a id="TOC15"></a>
 ## ASP.NET App Suspend
 

@@ -29,7 +29,7 @@ msc.type: content
 - How ASP.NET MVC applications can present mobile-specific pages
 - Additional resources
 
-For downloadable code samples demonstrating this white paper's techniques for both ASP.NET Web Forms and MVC, see [Mobile Apps & Sites with ASP.NET](https://docs.microsoft.com/aspnet/mobile/overview).
+For downloadable code samples demonstrating this white paper's techniques for both ASP.NET Web Forms and MVC, see [Mobile Apps & Sites with ASP.NET](/aspnet/mobile/overview).
 
 ## Overview
 
@@ -192,7 +192,7 @@ This will ensure that mobile visitors to the page don't receive output previousl
 
 ### A working example
 
-To see these techniques in action, download [this white paper's code samples](https://docs.microsoft.com/aspnet/mobile/overview). The Web Forms sample application automatically redirects mobile users to a set of mobile-specific pages in a subfolder called Mobile. The markup and styling of those pages is better optimized for mobile browsers, as you can see from the following screenshots:
+To see these techniques in action, download [this white paper's code samples](/aspnet/mobile/overview). The Web Forms sample application automatically redirects mobile users to a set of mobile-specific pages in a subfolder called Mobile. The markup and styling of those pages is better optimized for mobile browsers, as you can see from the following screenshots:
 
 ![](add-mobile-pages-to-your-aspnet-web-forms-mvc-application/_static/image2.png)
 
@@ -282,7 +282,7 @@ This will ensure that mobile visitors to the page don't receive output previousl
 
 ### A working example
 
-To see these techniques in action, download [this white paper's code associated samples](https://docs.microsoft.com/aspnet/mobile/overview). The sample includes an ASP.NET MVC 3 (Release Candidate) application enhanced to support mobile devices using the methods described above.
+To see these techniques in action, download [this white paper's code associated samples](/aspnet/mobile/overview). The sample includes an ASP.NET MVC 3 (Release Candidate) application enhanced to support mobile devices using the methods described above.
 
 ## Further guidance and suggestions
 

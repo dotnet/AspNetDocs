@@ -65,7 +65,6 @@ Hot Towel builds on the familiar and powerful ASP.NET MVC structure.
 - [Require.js](http://requirejs.org) - Modularity with AMD and optimization
 - [Toastr.js](http://jpapa.me/c7toastr) - pop-up messages
 - [Twitter Bootstrap](https://getbootstrap.com/) - robust CSS styling
-
 ## Installing via the Visual Studio 2012 Hot Towel SPA Template
 
 Hot Towel can be installed as a Visual Studio 2012 template. Just click `File` | `New Project` and choose `ASP.NET MVC 4 Web Application`. Then select the 'Hot Towel Single Page Application" template and run!
