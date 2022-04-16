@@ -13,7 +13,7 @@ msc.type: authoredcontent
 
 by [Scott Mitchell](https://twitter.com/ScottOnWriting)
 
-[Download Code](https://download.microsoft.com/download/3/9/f/39f92b37-e92e-4ab3-909e-b4ef23d01aa3/ASPNET_Data_Tutorial_67_VB.zip) or [Download PDF](creating-new-stored-procedures-for-the-typed-dataset-s-tableadapters-vb/_static/datatutorial67vb1.pdf)
+[Download PDF](creating-new-stored-procedures-for-the-typed-dataset-s-tableadapters-vb/_static/datatutorial67vb1.pdf)
 
 > In earlier tutorials we have created SQL statements in our code and passed the statements to the database to be executed. An alternative approach is to use stored procedures, where the SQL statements are pre-defined at the database. In this tutorial we learn how to have the TableAdapter Wizard generate new stored procedures for us.
 

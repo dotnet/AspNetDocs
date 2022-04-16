@@ -84,7 +84,7 @@ By default, Web API limits the maximum expansion depth to 2. That prevents the c
 
 [!code-csharp[Main](using-select-expand-and-value/samples/sample11.cs)]
 
-For more information about the $expand option, see [Expand System Query Option ($expand)](http://www.odata.org/documentation/odata-v2-documentation/uri-conventions/#46_Expand_System_Query_Option_expand) in the official OData documentation.
+For more information about the $expand option, see [Expand System Query Option ($expand)](https://www.odata.org/documentation/odata-version-2-0/uri-conventions/#46_Expand_System_Query_Option_expand) in the official OData documentation.
 
 ## Using $select
 
@@ -112,7 +112,7 @@ Here is the response body:
 
 [!code-console[Main](using-select-expand-and-value/samples/sample17.cmd)]
 
-For more information about the $select option, see [Select System Query Option ($select)](http://www.odata.org/documentation/odata-v2-documentation/uri-conventions/#48_Select_System_Query_Option_select) in the official OData documentation.
+For more information about the $select option, see [Select System Query Option ($select)](https://www.odata.org/documentation/odata-version-2-0/uri-conventions/#48_Select_System_Query_Option_select) in the official OData documentation.
 
 ## Getting Individual Properties of an Entity ($value)
 
