@@ -13,7 +13,7 @@ msc.type: authoredcontent
 
 by [Scott Mitchell](https://twitter.com/ScottOnWriting)
 
-[Download Code](https://download.microsoft.com/download/3/9/f/39f92b37-e92e-4ab3-909e-b4ef23d01aa3/ASPNET_Data_Tutorial_74_CS.zip) or [Download PDF](debugging-stored-procedures-cs/_static/datatutorial74cs1.pdf)
+[Download PDF](debugging-stored-procedures-cs/_static/datatutorial74cs1.pdf)
 
 > Visual Studio Professional and Team System editions allow you to set breakpoints and step in to stored procedures within SQL Server, making debugging stored procedures as easy as debugging application code. This tutorial demonstrates direct database debugging and application debugging of stored procedures.
 
@@ -140,7 +140,7 @@ An example should help clarify things. Imagine that there is a Windows account n
 
 [!code-console[Main](debugging-stored-procedures-cs/samples/sample2.cmd)]
 
-For a more detailed explanation on this process, see [William R. Vaughn](http://betav.com/BLOG/billva/) s *Hitchhiker s Guide to Visual Studio and SQL Server, Seventh Edition* as well as [How To: Set SQL Server Permissions for Debugging](https://msdn.microsoft.com/library/w1bhybwz(VS.80).aspx).
+For a more detailed explanation on this process, see [William R. Vaughn](http://betav.com/BLOG/billva/) s *Hitchhiker s Guide to Visual Studio and SQL Server, Seventh Edition*.
 
 > [!NOTE]
 > If your development machine is running Windows XP Service Pack 2 you will need to configure the Internet Connection Firewall to allow remote debugging. [The How To: Enable SQL Server 2005 Debugging](https://msdn.microsoft.com/library/s0fk6z6e(VS.80).aspx) article notes that this involves two steps: (a) On the Visual Studio host machine, you must add `Devenv.exe` to the Exceptions list and open the TCP 135 port; and (b) On the remote (SQL) machine, you must open the TCP 135 port and add `sqlservr.exe` to the Exceptions list. If your domain policy requires network communication to be done through IPSec, you must open the UDP 4500 and UDP 500 ports.
