@@ -73,7 +73,7 @@ The views are defined in ~/Scripts/application/views. There are two kinds of vie
 
 Extending with `Activable` adds two new methods to the view, `activate` and `deactivate`. The router calls these methods to activate and deactive the view.
 
-Modal views are implemented as [Twitter Bootstrap](https://twitter.github.com/bootstrap/) modal dialogs. The `Membership` and `Profile` views are modal views. Model views can be invoked by any application events. For example, in the `Navigation` view, clicking the "My Account" link shows either the `Membership` view or the `Profile` view, depending on whether the user is logged in. The `Navigation` attaches click event handlers to any child elements that have the `data-command` attribute. Here is the HTML markup:
+Modal views are implemented as [Twitter Bootstrap](https://getbootstrap.com/) modal dialogs. The `Membership` and `Profile` views are modal views. Model views can be invoked by any application events. For example, in the `Navigation` view, clicking the "My Account" link shows either the `Membership` view or the `Profile` view, depending on whether the user is logged in. The `Navigation` attaches click event handlers to any child elements that have the `data-command` attribute. Here is the HTML markup:
 
 [!code-html[Main](backbonejs-template/samples/sample3.html)]
 

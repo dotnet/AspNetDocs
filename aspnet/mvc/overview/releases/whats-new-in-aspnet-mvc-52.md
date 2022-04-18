@@ -94,19 +94,4 @@ The issue is reported at [https://github.com/jzaefferer/jquery-validation/issues
 
 If you update to ASP.NET MVC 5.2 without updating Visual Studio 2013, you will not get Visual Studio editor support for syntax highlighting while editing the Razor views. You will need to update Visual Studio 2013 to get this support.
 
-<a id="bug-fixes"></a>
-## Bug Fixes and Minor feature updates
 
-This release also includes several bug fixes and minor feature updates. You can find the complete list here:
-
-- [5.2 package](https://aspnetwebstack.codeplex.com/workitem/list/advanced?keyword=&amp;status=Closed&amp;type=All&amp;priority=All&amp;release=v5.2%20RC&amp;assignedTo=All&amp;component=MVC&amp;sortField=AssignedTo&amp;sortDirection=Ascending&amp;page=0&amp;reasonClosed=Fixed)
-
-<a id="52"></a>
-## Microsoft.AspNet.MVC 5.2.2
-
-This release doesn't have any new features or bug fixes in MVC. We made a [change in Web Pages](https://devblogs.microsoft.com/dotnet/announcing-the-beta-release-of-web-pages-3-2-1/) for a significant performance improvement and have subsequently updated all other dependent packages we own to depend on this new version of Web Pages.
-
-<a id="mvc523Beta"></a>
-## ASP.NET MVC 5.2.3 Beta
-
-You can read about the release [here](https://devblogs.microsoft.com/dotnet/asp-net-mvc-5-2-3-web-pages-3-2-3-and-web-api-5-2-3-beta-releases/). This release contains only bug fixes. You can use [this query](https://aspnetwebstack.codeplex.com/workitem/list/advanced?keyword=&amp;status=Closed&amp;type=All&amp;priority=All&amp;release=v5.2.3%20Beta&amp;assignedTo=All&amp;component=MVC&amp;sortField=LastUpdatedDate&amp;sortDirection=Descending&amp;page=0&amp;reasonClosed=Fixed) to see the list of issues fixed in this release.
