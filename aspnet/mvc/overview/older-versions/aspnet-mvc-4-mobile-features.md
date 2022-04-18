@@ -69,7 +69,7 @@ The display is very readable on a mobile device. Choose the ASP.NET link.
 
 The ASP.NET tag view is very cluttered. For example, the **Date** column is very difficult to read. Later in the tutorial you'll create a version of the *AllTags* view that's specifically for mobile browsers and that will make the display readable.
 
-Note: Currently a bug exists in the mobile caching engine. For production applications, you must install the [Fixed DisplayModes](http://nuget.org/packages/Microsoft.AspNet.Mvc.FixedDisplayModes) nugget package. See [ASP.NET MVC 4 Mobile Caching Bug Fixed](https://docs.microsoft.com/archive/blogs/rickandy/asp-net-mvc-4-mobile-caching-bug-fixed) for details on the fix.
+Note: Currently a bug exists in the mobile caching engine. For production applications, you must install the [Fixed DisplayModes](http://nuget.org/packages/Microsoft.AspNet.Mvc.FixedDisplayModes) nugget package. See [ASP.NET MVC 4 Mobile Caching Bug Fixed](/archive/blogs/rickandy/asp-net-mvc-4-mobile-caching-bug-fixed) for details on the fix.
 
 ## CSS Media Queries
 

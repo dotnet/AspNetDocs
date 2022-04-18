@@ -238,13 +238,13 @@ You can now run the application and verify that it works as it did before.
 For more information about pre-generated views, see the following resources:
 
 - [How to: Pre-Generate Views to Improve Query Performance](https://msdn.microsoft.com/library/bb896240.aspx) on the MSDN web site. Explains how to use the `EdmGen.exe` command-line tool to pre-generate views.
-- [Isolating Performance with Precompiled/Pre-generated Views in the Entity Framework 4](https://docs.microsoft.com/archive/blogs/appfabriccat/isolating-performance-with-precompiledpre-generated-views-in-the-entity-framework-4) on the Windows Server AppFabric Customer Advisory Team blog.
+- [Isolating Performance with Precompiled/Pre-generated Views in the Entity Framework 4](/archive/blogs/appfabriccat/isolating-performance-with-precompiledpre-generated-views-in-the-entity-framework-4) on the Windows Server AppFabric Customer Advisory Team blog.
 
 This completes the introduction to improving performance in an ASP.NET web application that uses the Entity Framework. For more information, see the following resources:
 
 - [Performance Considerations (Entity Framework)](https://msdn.microsoft.com/library/cc853327.aspx) on the MSDN web site.
 - [Performance-related posts on the Entity Framework Team blog](https://blogs.msdn.com/b/adonet/archive/tags/performance/).
-- [EF Merge Options and Compiled Queries](https://docs.microsoft.com/archive/blogs/dsimmons/ef-merge-options-and-compiled-queries). Blog post that explains unexpected behaviors of compiled queries and merge options such as `NoTracking`. If you plan to use compiled queries or manipulate merge option settings in your application, read this first.
+- [EF Merge Options and Compiled Queries](/archive/blogs/dsimmons/ef-merge-options-and-compiled-queries). Blog post that explains unexpected behaviors of compiled queries and merge options such as `NoTracking`. If you plan to use compiled queries or manipulate merge option settings in your application, read this first.
 - [Entity Framework-related posts in the Data and Modeling Customer Advisory Team blog](https://blogs.msdn.com/b/dmcat/archive/tags/entity+framework/). Includes posts on compiled queries and using the Visual Studio 2010 Profiler to discover performance issues.
 - [Entity Framework forum thread with advice on improving performance of highly complex queries](https://social.msdn.microsoft.com/Forums/adodotnetentityframework/thread/ffe8b2ab-c5b5-4331-8988-33a872d0b5f6).
 - [ASP.NET State Management Recommendations](https://msdn.microsoft.com/library/z1hkazw7.aspx).

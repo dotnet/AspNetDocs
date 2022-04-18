@@ -237,5 +237,5 @@ The following performance counters may also be useful in monitoring your applica
 For more information on ASP.NET performance monitoring and tuning, see the following topics:
 
 - [ASP.NET Performance Overview](https://msdn.microsoft.com/library/cc668225(v=vs.100).aspx)
-- [ASP.NET Thread Usage on IIS 7.5, IIS 7.0, and IIS 6.0](https://docs.microsoft.com/archive/blogs/tmarq/asp-net-thread-usage-on-iis-7-5-iis-7-0-and-iis-6-0)
+- [ASP.NET Thread Usage on IIS 7.5, IIS 7.0, and IIS 6.0](/archive/blogs/tmarq/asp-net-thread-usage-on-iis-7-5-iis-7-0-and-iis-6-0)
 - [&lt;applicationPool&gt; Element (Web Settings)](https://msdn.microsoft.com/library/dd560842.aspx)

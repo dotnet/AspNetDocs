@@ -13,7 +13,7 @@ msc.type: authoredcontent
 
 by [Rick Anderson](https://twitter.com/RickAndMSFT)
 
-> Microsoft ASP.NET tools for Windows Azure Active Directory makes it simple to enable authentication for web applications hosted on [Windows Azure Web Sites](https://www.windowsazure.com/home/features/web-sites/). You can use Windows Azure Authentication to authenticate Office 365 users from your organization, corporate accounts synced from your on-premise Active Directory or users created in your own custom Windows Azure Active Directory domain. Enabling Windows Azure Authentication configures your application to authenticate users using a single [Windows Azure Active Directory](https://docs.microsoft.com/azure/active-directory/) tenant.
+> Microsoft ASP.NET tools for Windows Azure Active Directory makes it simple to enable authentication for web applications hosted on [Windows Azure Web Sites](https://www.windowsazure.com/home/features/web-sites/). You can use Windows Azure Authentication to authenticate Office 365 users from your organization, corporate accounts synced from your on-premise Active Directory or users created in your own custom Windows Azure Active Directory domain. Enabling Windows Azure Authentication configures your application to authenticate users using a single [Windows Azure Active Directory](/azure/active-directory/) tenant.
 >
 > The ASP.NET Windows Azure Authentication tool is not supported for web roles in a cloud service but we plan to do so in a future release. [Windows Identity Foundation](https://msdn.microsoft.com/library/hh291066(v=VS.110).aspx) (WIF) is supported in Windows Azure web roles.
 >
@@ -89,7 +89,7 @@ Enabling Windows Azure authentication makes the following changes to your applic
 
 ## Deploy the application to Windows Azure
 
-For complete instructions, see [Deploying an ASP.NET Web Application to a Windows Azure Web Site](https://docs.microsoft.com/azure/app-service-web/app-service-web-get-started-dotnet).
+For complete instructions, see [Deploying an ASP.NET Web Application to a Windows Azure Web Site](/azure/app-service-web/app-service-web-get-started-dotnet).
 
 To publish an application using Windows Azure Authentication to an Azure Web Site:
 
@@ -151,11 +151,11 @@ This can happen if you are already logged in with some other Microsoft ID to one
 
 ## Additional Resources
 
-- [Microsoft ASP.NET Tools for Windows Azure Active Directory – Visual Studio 2012](https://docs.microsoft.com/archive/blogs/vbertocci/microsoft-asp-net-tools-for-windows-azure-active-directory-visual-studio-2012) – Vittorio Bertocci
-- [Windows Azure Features: Identity](https://docs.microsoft.com/azure/active-directory/)
+- [Microsoft ASP.NET Tools for Windows Azure Active Directory – Visual Studio 2012](/archive/blogs/vbertocci/microsoft-asp-net-tools-for-windows-azure-active-directory-visual-studio-2012) – Vittorio Bertocci
+- [Windows Azure Features: Identity](/azure/active-directory/)
 - [TechNet: Windows Azure Active Directory](https://technet.microsoft.com/library/hh967619.aspx)
 - [Windows Azure Active Directory: Develop Apps for your organization](https://activedirectory.windowsazure.com/Develop/Single-Tenant.aspx)
 - [Windows Azure Active Directory: Develop Apps for multiple organizations](https://activedirectory.windowsazure.com/Develop/Multi-Tenant.aspx)
 - [How to implement single sign-on with Windows Azure Active Directory](https://github.com/Azure-Samples/active-directory-dotnet-webapp-openidconnect)
-- [Single Sign-On with Windows Azure Active Directory: a Deep Dive](https://docs.microsoft.com/archive/blogs/vbertocci/single-sign-on-with-windows-azure-active-directory-a-deep-dive) – Vittorio Bertocci
+- [Single Sign-On with Windows Azure Active Directory: a Deep Dive](/archive/blogs/vbertocci/single-sign-on-with-windows-azure-active-directory-a-deep-dive) – Vittorio Bertocci
 - [Use AD FS 2.0 to implement and manage single sign-on](https://technet.microsoft.com/library/jj205462.aspx)
