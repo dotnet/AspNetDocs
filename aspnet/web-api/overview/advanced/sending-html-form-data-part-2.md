@@ -12,8 +12,6 @@ msc.type: authoredcontent
 ---
 # Sending HTML Form Data in ASP.NET Web API: File Upload and Multipart MIME
 
-by [Mike Wasson](https://github.com/MikeWasson)
-
 ## Part 2: File Upload and Multipart MIME
 
 This tutorial shows how to upload files to a web API. It also describes how to process multipart MIME data.

@@ -11,8 +11,6 @@ msc.type: authoredcontent
 ---
 # Add Models and Controllers
 
-by [Mike Wasson](https://github.com/MikeWasson)
-
 [Download Completed Project](https://github.com/MikeWasson/BookService)
 
 In this section, you will add model classes that define the database entities. Then you will add Web API controllers that perform CRUD operations on those entities.

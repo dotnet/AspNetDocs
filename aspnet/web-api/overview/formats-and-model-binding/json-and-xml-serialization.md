@@ -12,8 +12,6 @@ msc.type: authoredcontent
 ---
 # JSON and XML Serialization in ASP.NET Web API
 
-by [Mike Wasson](https://github.com/MikeWasson)
-
 This article describes the JSON and XML formatters in ASP.NET Web API.
 
 In ASP.NET Web API, a *media-type formatter* is an object that can:
