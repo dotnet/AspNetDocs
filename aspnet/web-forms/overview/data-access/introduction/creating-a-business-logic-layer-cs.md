@@ -13,7 +13,7 @@ msc.type: authoredcontent
 
 by [Scott Mitchell](https://twitter.com/ScottOnWriting)
 
-[Download Sample App](https://download.microsoft.com/download/4/6/3/463cf87c-4724-4cbc-b7b5-3f866f43ba50/ASPNET_Data_Tutorial_2_CS.exe) or [Download PDF](creating-a-business-logic-layer-cs/_static/datatutorial02cs1.pdf)
+[Download PDF](creating-a-business-logic-layer-cs/_static/datatutorial02cs1.pdf)
 
 > In this tutorial we'll see how to centralize your business rules into a Business Logic Layer (BLL) that serves as an intermediary for data exchange between the presentation layer and the DAL.
 

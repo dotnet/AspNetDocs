@@ -13,7 +13,7 @@ msc.type: authoredcontent
 
 by [Scott Mitchell](https://twitter.com/ScottOnWriting)
 
-[Download Code](https://download.microsoft.com/download/3/9/f/39f92b37-e92e-4ab3-909e-b4ef23d01aa3/ASPNET_Data_Tutorial_63_CS.zip) or [Download PDF](wrapping-database-modifications-within-a-transaction-cs/_static/datatutorial63cs1.pdf)
+[Download PDF](wrapping-database-modifications-within-a-transaction-cs/_static/datatutorial63cs1.pdf)
 
 > This tutorial is the first of four that looks at updating, deleting, and inserting batches of data. In this tutorial we learn how database transactions allow batch modifications to be carried out as an atomic operation, which ensures that either all steps succeed or all steps fail.
 
@@ -48,7 +48,7 @@ The SQL statements used to create, commit, and roll back the transaction can be 
 > [!NOTE]
 > The [`TransactionScope` class](https://msdn.microsoft.com/library/system.transactions.transactionscope.aspx) in the `System.Transactions` namespace enables developers to programmatically wrap a series of statements within the scope of a transaction and includes support for complex transactions that involve multiple sources, such as two different databases or even heterogeneous types of data stores, such as a Microsoft SQL Server database, an Oracle database, and a Web service. I ve decided to use ADO.NET transactions for this tutorial instead of the `TransactionScope` class because ADO.NET is more specific for database transactions and, in many cases, is far less resource intensive. In addition, under certain scenarios the `TransactionScope` class uses the Microsoft Distributed Transaction Coordinator (MSDTC). The configuration, implementation, and performance issues surrounding MSDTC makes it a rather specialized and advanced topic and beyond the scope of these tutorials.
 
-When working with the SqlClient provider in ADO.NET, transactions are initiated through a call to the [`SqlConnection` class](https://msdn.microsoft.com/library/system.data.sqlclient.sqlconnection.aspx) s [`BeginTransaction` method](https://msdn.microsoft.com/library/system.data.sqlclient.sqlconnection.begintransaction.aspx), which returns a [`SqlTransaction` object](https://msdn.microsoft.com/library/system.data.sqlclient.sqltransaction.aspx). The data modification statements that makeup the transaction are placed within a `try...catch` block. If an error occurs in a statement in the `try` block, execution transfers to the `catch` block where the transaction can be rolled back via the `SqlTransaction` object s [`Rollback` method](https://msdn.microsoft.com/library/system.data.sqlclient.sqltransaction.rollback.aspx). If all of the statements complete successfully, a call to the `SqlTransaction` object s [`Commit` method](https://msdn.microsoft.com/library/system.data.sqlclient.sqltransaction.commit.aspx) at the end of the `try` block commits the transaction. The following code snippet illustrates this pattern. See [Maintaining Database Consistency with Transactions](http://aspnet.4guysfromrolla.com/articles/072705-1.aspx) for additional syntax and examples of using transactions with ADO.NET.
+When working with the SqlClient provider in ADO.NET, transactions are initiated through a call to the [`SqlConnection` class](https://msdn.microsoft.com/library/system.data.sqlclient.sqlconnection.aspx) s [`BeginTransaction` method](https://msdn.microsoft.com/library/system.data.sqlclient.sqlconnection.begintransaction.aspx), which returns a [`SqlTransaction` object](https://msdn.microsoft.com/library/system.data.sqlclient.sqltransaction.aspx). The data modification statements that makeup the transaction are placed within a `try...catch` block. If an error occurs in a statement in the `try` block, execution transfers to the `catch` block where the transaction can be rolled back via the `SqlTransaction` object s [`Rollback` method](https://msdn.microsoft.com/library/system.data.sqlclient.sqltransaction.rollback.aspx). If all of the statements complete successfully, a call to the `SqlTransaction` object s [`Commit` method](https://msdn.microsoft.com/library/system.data.sqlclient.sqltransaction.commit.aspx) at the end of the `try` block commits the transaction. The following code snippet illustrates this pattern. See [Maintaining Database Consistency with Transactions](https://www.lifewire.com/database-consistency-definition-1019249).
 
 [!code-csharp[Main](wrapping-database-modifications-within-a-transaction-cs/samples/sample1.cs)]
 
@@ -209,7 +209,7 @@ For more information on the topics discussed in this tutorial, refer to the foll
 - [Managing Transactions in SQL Server Stored Procedures](http://www.4guysfromrolla.com/webtech/080305-1.shtml)
 - [Transactions Made Easy: `System.Transactions`](https://docs.microsoft.com/archive/blogs/florinlazar/transactions-made-easy-system-transactions)
 - [TransactionScope and DataAdapters](http://andyclymer.blogspot.com/2007/01/transactionscope-and-dataadapters.html)
-- [Using Oracle Database Transactions in .NET](http://www.oracle.com/technology/pub/articles/price_dbtrans_dotnet.html)
+- [Using Oracle Database Transactions in .NET](/dotnet/api/system.data.oracleclient.oracletransaction?view=netframework-4.8)
 
 ## About the Author
 
