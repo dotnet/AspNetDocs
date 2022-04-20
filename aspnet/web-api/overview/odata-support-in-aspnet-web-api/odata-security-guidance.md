@@ -12,7 +12,7 @@ msc.type: authoredcontent
 ---
 # Security Guidance for ASP.NET Web API 2 OData
 
-by [Mike Wasson](https://github.com/MikeWasson)
+by Mike Wasson
 
 This topic describes some of the security issues that you should consider when exposing a dataset through OData for ASP.NET Web API 2 on ASP.NET 4.x.
 

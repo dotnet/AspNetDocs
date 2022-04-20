@@ -11,7 +11,7 @@ msc.type: authoredcontent
 ---
 # Get Started with ASP.NET Web API 2 (C#)
 
-by [Mike Wasson](https://github.com/MikeWasson)
+by Mike Wasson
 
 [Download Completed Project](https://code.msdn.microsoft.com/Sample-code-of-Getting-c56ccb28)
 

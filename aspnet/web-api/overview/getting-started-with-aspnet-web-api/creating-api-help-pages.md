@@ -12,7 +12,7 @@ msc.type: authoredcontent
 ---
 # Creating Help Pages for ASP.NET Web API
 
-by [Mike Wasson](https://github.com/MikeWasson)
+by Mike Wasson
 
 This tutorial with code shows how to create help pages for ASP.NET Web API in ASP.NET 4.x.
 

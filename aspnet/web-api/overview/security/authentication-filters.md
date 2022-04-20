@@ -11,7 +11,7 @@ msc.type: authoredcontent
 ---
 # Authentication Filters in ASP.NET Web API 2
 
-by [Mike Wasson](https://github.com/MikeWasson)
+by Mike Wasson
 
 > An authentication filter is a component that authenticates an HTTP request. Web API 2 and MVC 5 both support authentication filters, but they differ slightly, mostly in the naming conventions for the filter interface. This topic describes Web API authentication filters.
 
