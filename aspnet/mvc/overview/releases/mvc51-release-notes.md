@@ -121,12 +121,4 @@ Some of the types used for attribute routing extensibility are renamed in 5.1 RT
 | RouteProviderAttribute | RouteFactoryAttribute |
 | DirectRouteProviderContext | DirectRouteFactoryContext |
 
-<a id="bug-fixes"></a>
-## Bug Fixes
 
-This release also includes several bug fixes. You can find the complete list here:
-
-- [5.1.0 package](https://aspnetwebstack.codeplex.com/workitem/list/advanced?keyword=&amp;status=Closed&amp;type=All&amp;priority=All&amp;release=v5.1%20Preview|v5.1%20RTM&amp;assignedTo=All&amp;component=MVC&amp;sortField=AssignedTo&amp;sortDirection=Ascending&amp;page=0&amp;reasonClosed=Fixed)
-- [5.1.1 package](https://aspnetwebstack.codeplex.com/workitem/list/advanced?keyword=&amp;status=All&amp;type=All&amp;priority=All&amp;release=v5.1.1%20RTM&amp;assignedTo=All&amp;component=MVC&amp;sortField=AssignedTo&amp;sortDirection=Ascending&amp;page=0&amp;reasonClosed=Fixed)
-
-The 5.1.2 package contains IntelliSense updates but no bug fixes.

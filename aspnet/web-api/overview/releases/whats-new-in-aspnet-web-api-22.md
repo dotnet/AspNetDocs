@@ -52,20 +52,20 @@ This release adds support for the OData v4 protocol. For more information, see t
 
 Here are some of the key features and changes for OData v4:
 
-- [Support for aliasing properties in OData model](http://aspnet.codeplex.com/SourceControl/latest#Samples/WebApi/OData/v4/ODataModelAliasingSample/)
-- [Support for ComplexTypeAttribute, AssociationAttribute, TimesTampAttribute and ConcurrencyCheckAttribute in ODataConventionModelBuilder](http://aspnet.codeplex.com/SourceControl/latest#Samples/WebApi/OData/v4/ODataEtagSample/)
-- [Provide ability to supply friendly Title for actions](http://aspnet.codeplex.com/SourceControl/latest#Samples/WebApi/OData/v4/ODataActionsSample/)
+- Support for aliasing properties in OData model
+- Support for ComplexTypeAttribute, AssociationAttribute, TimesTampAttribute and ConcurrencyCheckAttribute in ODataConventionModelBuilder
+- [Provide ability to supply friendly Title for actions](/aspnet/web-api/overview/odata-support-in-aspnet-web-api/odata-v4/odata-actions-and-functions)
 - Integrate with ODL UriParser
-- Support for [enum](http://aspnet.codeplex.com/SourceControl/latest#Samples/WebApi/OData/v4/ODataEnumTypeSample/ODataEnumTypeSample/), [containment](http://aspnet.codeplex.com/SourceControl/latest#Samples/WebApi/OData/v4/ODataContainmentSample/) and [singleton](http://aspnet.codeplex.com/SourceControl/latest#Samples/WebApi/OData/v4/ODataSingletonSample/)
+- Support for enum, [containment](/aspnet/web-api/overview/odata-support-in-aspnet-web-api/odata-v4/odata-containment-in-web-api-22) and [singleton](/aspnet/web-api/overview/odata-support-in-aspnet-web-api/odata-v4/using-a-singleton-in-an-odata-endpoint-in-web-api-22)
 - Support cast for primitive types
-- [Added OData function support](http://aspnet.codeplex.com/SourceControl/latest#Samples/WebApi/OData/v4/ODataFunctionSample/)
-- [Support parameter aliases for function calls](http://aspnet.codeplex.com/SourceControl/latest#Samples/WebApi/OData/v4/ODataFunctionSample/)
-- [Support camel case naming convention in model](http://aspnet.codeplex.com/SourceControl/latest#Samples/WebApi/OData/v4/ODataCamelCaseSample/)
+- [Added OData function support](/aspnet/web-api/overview/odata-support-in-aspnet-web-api/odata-v4/odata-actions-and-functions)
+- [Support parameter aliases for function calls](/aspnet/web-api/overview/odata-support-in-aspnet-web-api/odata-v4/odata-actions-and-functions)
+- Support camel case naming convention in model
 - Support for cast() in $filter
 - Support for open complex type
 - Removed EntitySetController and AsyncEntitySetController
-- [Changed $link to $ref](http://aspnet.codeplex.com/SourceControl/latest#Samples/WebApi/OData/v4/ODataServiceSample/)
-- [Added Attribute routing support](https://aspnet.codeplex.com/SourceControl/latest#Samples/WebApi/OData/v4/ODataAttributeRoutingSample/)
+- [Changed $link to $ref](/aspnet/web-api/overview/odata-support-in-aspnet-web-api/odata-v4/entity-relations-in-odata-v4)
+- Added Attribute routing support
 - Uses OData Core Libraries 6.4.0
 
 <a id="ARI"></a>
@@ -147,19 +147,18 @@ An alternative workaround is to use the following code in your Web API configura
 
 Issue: Model binding of complex type which is decorated with FromUri attribute behaves differently when using Attribute Routing.
 
-Following link is tracking the issue and also has details about a workaround.  
-[http://aspnetwebstack.codeplex.com/workitem/1944](http://aspnetwebstack.codeplex.com/workitem/1944)
-
 Issue: Scaffolding MVC/Web API into a project with 5.2.0 packages results in 5.1.2 packages for ones that don't already exist in the project
 
 Updating NuGet packages for ASP.NET MVC 5.2 does not update the Visual Studio tools such as ASP.NET scaffolding or the ASP.NET Web Application project template. They use the previous version of the ASP.NET runtime packages (e.g. 5.1.2 in Update 2). As a result, the ASP.NET scaffolding will install the previous version (e.g. 5.1.2 in Update 2) of the required packages, if they are not already available in your projects. However, the ASP.NET scaffolding in Visual Studio 2013 RTM or Update 1 does not overwrite the latest packages in your projects. If you use ASP.NET scaffolding after updating the packages of your projects to Web API 2.2 or ASP.NET MVC 5.2, make sure the versions of Web API and ASP.NET MVC are consistent.
 
+<!--- documents no longer exist
 <a id="bug-fixes"></a>
 ## Bug Fixes and Minor Feature Updates
 
 This release also includes several bug fixes and minor feature updates. You can find the complete list here:
 
 - [5.2 package](https://aspnetwebstack.codeplex.com/workitem/list/advanced?keyword=&status=All&type=All&priority=All&release=v5.2%20RC|v5.2%20RTM&assignedTo=All&component=Web%20API|Web%20API%20OData&sortField=AssignedTo&sortDirection=Ascending&page=0&reasonClosed=Fixed)
+--->
 
 <a id="odata521"></a>
 ## Microsoft.AspNet.OData 5.2.1
@@ -174,4 +173,4 @@ In this release we have made a dependency change for `Json.Net 6.0.4`. For more 
 <a id="523"></a>
 ## Microsoft.AspNet.WebAPI 5.2.3 Beta
 
-You can read about the release [here](https://devblogs.microsoft.com/dotnet/asp-net-mvc-5-2-3-web-pages-3-2-3-and-web-api-5-2-3-beta-releases/). This release contains only bug fixes. You can use [this query](https://aspnetwebstack.codeplex.com/workitem/list/advanced?keyword=&amp;status=Closed&amp;type=All&amp;priority=All&amp;release=v5.2.3%20Beta&amp;assignedTo=All&amp;component=Web%20API&amp;sortField=LastUpdatedDate&amp;sortDirection=Descending&amp;page=0&amp;reasonClosed=Fixed) to see the list of issues fixed in this release.
+You can read about the release [here](https://devblogs.microsoft.com/dotnet/asp-net-mvc-5-2-3-web-pages-3-2-3-and-web-api-5-2-3-beta-releases/). This release contains only bug fixes.

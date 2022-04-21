@@ -1,15 +1,16 @@
 ---
 uid: ajax/cdn/index
-title: "Microsoft Ajax Content Delivery Network | Microsoft Docs"
+title: "Microsoft Ajax Content Delivery Network Libraries | Microsoft Docs"
 author: rick-anderson
 description: ""
 ms.author: riande
-ms.date: 10/14/2017
+ms.date: 04/21/2022
+ms.custom: devdivchpfy22
 ms.assetid: fc98bde7-484a-4191-bba2-04d29551cb8f
 msc.legacyurl: 
 msc.type: content
 ---
-# Microsoft Ajax Content Delivery Network
+# Microsoft Ajax Content Delivery Network Libraries
 
 - [Microsoft Ajax Content Delivery Network](overview.md)
 - [jQuery UI](jquery-ui/index.md)

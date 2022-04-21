@@ -11,7 +11,7 @@ msc.type: authoredcontent
 ---
 # Secure a Web API with Individual Accounts and Local Login in ASP.NET Web API 2.2
 
-by [Mike Wasson](https://github.com/MikeWasson)
+by Mike Wasson
 
 [Download Sample App](https://github.com/MikeWasson/LocalAccountsApp)
 

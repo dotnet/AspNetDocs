@@ -9,7 +9,7 @@ uid: samesite/CSharpWebForms
 
 # SameSite cookie sample for ASP.NET 4.7.2 C# WebForms
 
-.NET Framework 4.7 has built-in support for the [SameSite](https://www.owasp.org/index.php/SameSite) attribute, but it adheres to the original standard.
+.NET Framework 4.7 has built-in support for the [SameSite](https://owasp.org/www-community/SameSite) attribute, but it adheres to the original standard.
 The patched behavior changed the meaning of `SameSite.None` to emit the attribute with a value of `None`, rather than not emit the value at all. If
 you want to not emit the value you can set the `SameSite` property on a cookie to -1.
 

@@ -11,8 +11,6 @@ msc.type: authoredcontent
 ---
 # Single Page Application: KnockoutJS template
 
-by [Mike Wasson](https://github.com/MikeWasson)
-
 > The Knockout MVC Template is part of ASP.NET and Web Tools 2012.2
 > 
 > [Download ASP.NET and Web Tools 2012.2](https://go.microsoft.com/fwlink/?LinkId=282650)

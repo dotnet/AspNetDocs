@@ -12,7 +12,7 @@ msc.type: authoredcontent
 ---
 # Self-Host ASP.NET Web API 1 (C#)
 
-by [Mike Wasson](https://github.com/MikeWasson)
+by Mike Wasson
 
 > This tutorial shows how to host a web API inside a console application. ASP.NET Web API does not require IIS. You can self-host a web API in your own host process. 
 > 

@@ -11,7 +11,7 @@ msc.type: authoredcontent
 ---
 # Part 7: Creating the Main Page
 
-by [Mike Wasson](https://github.com/MikeWasson)
+by Mike Wasson
 
 [Download Completed Project](https://code.msdn.microsoft.com/ASP-NET-Web-API-with-afa30545)
 
