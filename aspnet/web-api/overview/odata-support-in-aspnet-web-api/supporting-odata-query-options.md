@@ -12,7 +12,7 @@ msc.type: authoredcontent
 ---
 # Supporting OData Query Options in ASP.NET Web API 2
 
-by [Mike Wasson](https://github.com/MikeWasson)
+by Mike Wasson
 
 This overview with code examples demonstrates the supporting OData Query Options in ASP.NET Web API 2 for ASP.NET 4.x. 
 

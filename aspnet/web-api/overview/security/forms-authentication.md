@@ -11,7 +11,7 @@ msc.type: authoredcontent
 ---
 # Forms Authentication in ASP.NET Web API
 
-by [Mike Wasson](https://github.com/MikeWasson)
+by Mike Wasson
 
 Forms authentication uses an HTML form to send the user's credentials to the server. It is not an Internet standard. Forms authentication is only appropriate for web APIs that are called from a web application, so that the user can interact with the HTML form.
 
