@@ -1,15 +1,16 @@
 ---
 uid: ajax/cdn/overview
-title: "Microsoft Ajax Content Delivery Network | Microsoft Docs"
+title: "Microsoft Ajax Content Delivery Network Assets | Microsoft Docs"
 author: rick-anderson
 description: ""
 ms.author: riande
-ms.date: 10/14/2017
+ms.date: 04/13/2022
+ms.custom: devdivchpfy22
 ms.assetid: 8935bf14-ca6d-4a4e-9dbe-b96ce74cef49
 msc.legacyurl: /ajax/cdn
 msc.type: content
 ---
-# Microsoft Ajax Content Delivery Network
+# Microsoft Ajax Content Delivery Network Assets
 
 > [!WARNING]
 > Production applications should not take a hard dependency on CDN assets. Applications should test for the CDN asset referenced, and use a fallback asset when the CDN is not available.
