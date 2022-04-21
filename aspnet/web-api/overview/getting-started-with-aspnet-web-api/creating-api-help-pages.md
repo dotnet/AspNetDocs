@@ -12,8 +12,6 @@ msc.type: authoredcontent
 ---
 # Creating Help Pages for ASP.NET Web API
 
-by Mike Wasson
-
 This tutorial with code shows how to create help pages for ASP.NET Web API in ASP.NET 4.x.
 
 When you create a web API, it is often useful to create a help page, so that other developers will know how to call your API. You could create all of the documentation manually, but it is better to autogenerate as much as possible. To make this task easier, ASP.NET Web API provides a library for auto-generating help pages at run time.

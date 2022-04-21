@@ -12,8 +12,6 @@ msc.type: authoredcontent
 ---
 # Configuring ASP.NET Web API 2
 
-by [Mike Wasson](https://github.com/MikeWasson)
-
 This topic describes how to configure ASP.NET Web API.
 
 - [Configuration Settings](#settings)

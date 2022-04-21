@@ -11,8 +11,6 @@ msc.type: authoredcontent
 ---
 # Publish the App to Azure Azure App Service
 
-by [Mike Wasson](https://github.com/MikeWasson)
-
 [Download Completed Project](https://github.com/MikeWasson/BookService)
 
 As the last step, you will publish the application to Azure. In Solution Explorer, right-click the project and select **Publish**.

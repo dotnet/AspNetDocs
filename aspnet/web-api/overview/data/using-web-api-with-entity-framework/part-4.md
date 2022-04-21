@@ -11,8 +11,6 @@ msc.type: authoredcontent
 ---
 # Handling Entity Relations
 
-by [Mike Wasson](https://github.com/MikeWasson)
-
 [Download Completed Project](https://github.com/MikeWasson/BookService)
 
 This section describes some details of how EF loads related entities, and how to handle circular navigation properties in your model classes. (This section provides background knowledge, and is not required to complete the tutorial. If you prefer, skip to [Part 5.](part-5.md).)

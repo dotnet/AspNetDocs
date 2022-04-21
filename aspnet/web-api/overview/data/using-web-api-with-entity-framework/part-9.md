@@ -11,8 +11,6 @@ msc.type: authoredcontent
 ---
 # Add a New Item to the Database
 
-by [Mike Wasson](https://github.com/MikeWasson)
-
 [Download Completed Project](https://github.com/MikeWasson/BookService)
 
 In this section, you will add the ability for users to create a new book. In app.js, add the following code to the view model:
