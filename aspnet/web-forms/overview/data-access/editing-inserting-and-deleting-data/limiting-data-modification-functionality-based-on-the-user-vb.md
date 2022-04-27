@@ -39,7 +39,6 @@ Let s get started!
 
 
 
-
 ## Step 1: Allowing the User to Specify their Access Rights
 
 In a real-world web application, a user s account information would include whether they worked for our company or for a particular supplier, and this information would be programmatically accessible from our ASP.NET pages once the user has logged on to the site. This information could be captured through ASP.NET 2.0 s roles system, as user-level account information through the profile system, or through some custom means.
