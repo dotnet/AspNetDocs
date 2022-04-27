@@ -85,8 +85,11 @@ The following markup shows the declarative syntax for the Repeater and the Objec
 
 
 
-> [!NOTE]
-> For this tutorial the Repeater must have its view state enabled (note the omission of the `EnableViewState="False"` from the Repeater s declarative syntax). In step 3 we'll be creating an event handler for the Repeater s `ItemCommand` event in which we'll be updating the DataList s ObjectDataSource s `SelectParameters` collection. The Repeater's `ItemCommand`, however, won't fire if view state is disabled.  
+> 
+
+
+[!NOTE]
+> For this tutorial the Repeater must have its view state enabled (note the omission of the `EnableViewState="False"` from the Repeater s declarative syntax). In step 3 we'll be creating an event handler for the Repeater s `ItemCommand` event in which we'll be updating the DataList s ObjectDataSource s `SelectParameters` collection. The Repeater's `ItemCommand`, however, won't fire if view state is disabled. 
 
 The LinkButton with the `ID` property value of `ViewCategory` does not have its `Text` property set. If we had just wanted to display the category name, we would have set the Text property declaratively, through databinding syntax, like so:
 
