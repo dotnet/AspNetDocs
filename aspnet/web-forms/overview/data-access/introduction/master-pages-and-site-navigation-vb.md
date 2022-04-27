@@ -113,7 +113,6 @@ One of the challenges of managing a website composed of more than a handful of p
 
 The ASP.NET 2.0 site navigation system provides a means for a developer to define a site map and to then access this information through a programmatic API. ASP.NET ships with a site map provider that expects site map data to be stored in an XML file formatted in a particular way. But, since the site navigation system is built on the [provider model](/aspnet/web-forms/overview/data-access/introduction/master-pages-and-site-navigation-cs) it can be extended to support alternative ways for serializing the site map information. Jeff Prosise's article, [The SQL Site Map Provider You've Been Waiting For](https://msdn.microsoft.com/msdnmag/issues/06/02/WickedCode/default.aspx) shows how to create a site map provider that stores the site map in a SQL Server database; another option is to create [a site map provider based on the file system structure](http://aspnet.4guysfromrolla.com/articles/020106-1.aspx).
 
-
 For this tutorial, however, let's use the default site map provider that ships with ASP.NET 2.0. To create the site map, simply right-click on the project name in the Solution Explorer, choose Add New Item, and choose the Site Map option. Leave the name as `Web.sitemap` and click the Add button.
 
 [![Add a Site Map to Your Project](master-pages-and-site-navigation-vb/_static/image22.png)](master-pages-and-site-navigation-vb/_static/image21.png)

@@ -445,6 +445,8 @@ For more information on the topics discussed in this tutorial, refer to the foll
 - [TableAdapter Overview](https://msdn.microsoft.com/library/bz9tthwx.aspx)
 - [Working with a Typed DataSet](https://msdn.microsoft.com/library/esbykkzb.aspx)
 - [Using Strongly-Typed Data Access in Visual Studio 2005 and ASP.NET 2.0](https://weblogs.asp.net/scottgu/435498)
+- [How to Extend TableAdapter Methods](https://devblogs.microsoft.com/vbteam/how-to-extend-tableadapter-methods/)
+- [Retrieving Scalar Data from a Stored Procedure](http://aspnet.4guysfromrolla.com/articles/062905-1.aspx)
 
 ### Video Training on Topics Contained in this Tutorial
 
