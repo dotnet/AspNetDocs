@@ -81,6 +81,10 @@ The following markup shows the declarative syntax for the Repeater and the Objec
 
 [!code-aspx[Main](master-detail-using-a-bulleted-list-of-master-records-with-a-details-datalist-cs/samples/sample4.aspx)]
 
+
+
+
+
 > [!NOTE]
 > For this tutorial the Repeater must have its view state enabled (note the omission of the `EnableViewState="False"` from the Repeater s declarative syntax). In step 3 we'll be creating an event handler for the Repeater s `ItemCommand` event in which we'll be updating the DataList s ObjectDataSource s `SelectParameters` collection. The Repeater s `ItemCommand`, however, won't fire if view state is disabled. 
 

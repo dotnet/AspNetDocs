@@ -441,9 +441,12 @@ For more information on the topics discussed in this tutorial, refer to the foll
 - [Building a DAL using Strongly Typed TableAdapters and DataTables in VS 2005 and ASP.NET 2.0](https://weblogs.asp.net/scottgu/435498)
 - [Designing Data Tier Components and Passing Data Through Tiers](https://msdn.microsoft.com/library/ms978496.aspx)
 - [Build a Data Access Layer with the Visual Studio 2005 DataSet Designer](http://www.theserverside.net/articles/showarticle.tss?id=DataSetDesigner)
+- "Encrypting Configuration Information in ASP.NET 2.0 Applications"`(http://aspnet.4guysfromrolla.com/articles/021506-1.aspx)`
 - [TableAdapter Overview](https://msdn.microsoft.com/library/bz9tthwx.aspx)
 - [Working with a Typed DataSet](https://msdn.microsoft.com/library/esbykkzb.aspx)
+- "Using Strongly-Typed Data Access in Visual Studio 2005 and ASP.NET 2.0"`(http://aspnet.4guysfromrolla.com/articles/020806-1.aspx)`
 - [How to Extend TableAdapter Methods](https://devblogs.microsoft.com/vbteam/how-to-extend-tableadapter-methods/)
+- "Retrieving Scalar Data from a Stored Procedure"`(http://aspnet.4guysfromrolla.com/articles/062905-1.aspx)`
 
 ### Video Training on Topics Contained in this Tutorial
 
