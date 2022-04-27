@@ -249,7 +249,7 @@ For more information on the topics discussed in this tutorial, refer to the foll
 - [Master Pages in ASP.NET 2.0](http://odetocode.com/Articles/419.aspx)
 - [ASP.NET 2.0 Design Templates](https://msdn.microsoft.com/asp.net/reference/design/templates/default.aspx)
 - [ASP.NET Site Navigation Overview](https://msdn.microsoft.com/library/e468hxky.aspx)
-- "Examining ASP.NET 2.0's Site Navigation"`(http://aspnet.4guysfromrolla.com/articles/111605-1.aspx)`
+- [Examining ASP.NET 2.0's Site Navigation](/aspnet/web-forms/overview/data-access/introduction/master-pages-and-site-navigation-cs)
 - [ASP.NET 2.0 Site Navigation Features](https://weblogs.asp.net/scottgu/archive/2005/11/20/431019.aspx)
 - [Understanding ASP.NET View State](https://msdn.microsoft.com/library/default.asp?url=/library/dnaspp/html/viewstate.asp)
 - [How to: Enable Tracing for an ASP.NET Page](https://msdn.microsoft.com/library/94c55d08%28VS.80%29.aspx)
