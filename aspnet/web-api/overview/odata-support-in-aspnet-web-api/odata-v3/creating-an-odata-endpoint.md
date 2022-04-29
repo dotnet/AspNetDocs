@@ -11,7 +11,7 @@ msc.type: authoredcontent
 ---
 # Creating an OData v3 Endpoint with Web API 2
 
-by [Mike Wasson](https://github.com/MikeWasson)
+by Mike Wasson
 
 [Download Completed Project](https://code.msdn.microsoft.com/ASPNET-Web-API-OData-cecdb524)
 

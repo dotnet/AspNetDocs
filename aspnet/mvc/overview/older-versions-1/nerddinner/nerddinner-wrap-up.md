@@ -29,8 +29,6 @@ We used a broad set of ASP.NET MVC features to build NerdDinner. Hopefully the p
 
 This NerdDinner tutorial is the first chapter of the new [Professional ASP.NET MVC 1.0](https://www.amazon.com/gp/product/0470384611?ie=UTF8&amp;tag=scoblo04-20&amp;linkCode=xm2&amp;camp=1789&amp;creativeASIN=0470384611) book from Wrox Press.
 
-[![](https://mscblogs.blob.core.windows.net/media/scottgu/Media/bookcover1_6CAECF94.png)](https://www.amazon.com/gp/product/0470384611?ie=UTF8&amp;tag=scoblo04-20&amp;linkCode=xm2&amp;camp=1789&amp;creativeASIN=0470384611)
-
 You can read the rest of the book to learn even more about ASP.NET MVC.
 
 You can also find great ASP.NET MVC tutorials and videos at: [https://www.asp.net/mvc](../../../index.md) Other great ASP.NET MVC books will shortly be published. I will update this page to include links to additional books as they become available.

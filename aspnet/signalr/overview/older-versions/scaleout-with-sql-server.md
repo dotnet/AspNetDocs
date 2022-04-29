@@ -11,7 +11,7 @@ msc.type: authoredcontent
 ---
 # SignalR Scaleout with SQL Server (SignalR 1.x)
 
-by [Mike Wasson](https://github.com/MikeWasson), [Patrick Fletcher](https://github.com/pfletcher)
+by [Patrick Fletcher](https://github.com/pfletcher)
 
 [!INCLUDE [Consider ASP.NET Core SignalR](~/includes/signalr/signalr-version-disambiguation.md)]
 
@@ -91,7 +91,7 @@ Also include the Management Service (listed under "Management Tools").
 
 ![](scaleout-with-sql-server/_static/image5.png)
 
-**Install Web Deploy 3.0.** When you run IIS Manager, it will prompt you to install Microsoft Web Platform, or you can [download the installer](https://go.microsoft.com/fwlink/?LinkId=255386). In the Platform Installer, search for Web Deploy and install Web Deploy 3.0
+**Install Web Deploy 3.0.** When you run IIS Manager, it will prompt you to install Microsoft Web Platform, or you can [download the installer](/iis/publish/using-web-deploy/microsoft-web-deploy-v3-readme). In the Platform Installer, search for Web Deploy and install Web Deploy 3.0
 
 ![](scaleout-with-sql-server/_static/image6.png)
 

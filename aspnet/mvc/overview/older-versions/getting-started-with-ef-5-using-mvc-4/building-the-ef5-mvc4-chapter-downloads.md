@@ -21,20 +21,23 @@ by [Rick Anderson](https://twitter.com/RickAndMSFT)
 1. Download and unzip the  project sample zip file. In the unzipped download package, you will find additional zip files, one for the completion of each chapter.
 2. Right click on the desired zip file, click **Properties**, and click the **Unblock** button.  
   
-    ![](building-the-ef5-mvc4-chapter-downloads/_static/image1.png)
+    :::image type="content" source="building-the-ef5-mvc4-chapter-downloads/_static/image1.png" alt-text="Screenshot of the Properties window.":::
+
 3. Unzip the file.
 4. Double-click the *CUx.sln* file to launch Visual Studio.
 5. From the **Tools** menu, click **NuGet Package Manager**, then **Package Manager Console**.  
   
-    ![](building-the-ef5-mvc4-chapter-downloads/_static/image2.png)
+    :::image type="content" source="building-the-ef5-mvc4-chapter-downloads/_static/image2.png" alt-text="Screenshot of the Package Manager Console window.":::
+
 6. In the Package Manager Console (PMC), click **Restore**.  
   
-    ![](building-the-ef5-mvc4-chapter-downloads/_static/image3.png)
+    :::image type="content" source="building-the-ef5-mvc4-chapter-downloads/_static/image3.png" alt-text="Screenshot of restoring Visual Studio.":::
+
 7. Exit Visual Studio.
 8. Restart Visual Studio, opening the solution file you closed in the step above.
 9. In the Package Manager Console (PMC), enter the `Update-Database` command:  
   
-    ![](building-the-ef5-mvc4-chapter-downloads/_static/image4.png)  
+    :::image type="content" source="building-the-ef5-mvc4-chapter-downloads/_static/image4.png" alt-text="Screenshot of the Update Database command.":::  
 
     > [!NOTE]
     > If you get the following error:  
@@ -44,7 +47,7 @@ by [Rick Anderson](https://twitter.com/RickAndMSFT)
 
     Each migration will run, then the seed method will run. You can now run the app.
 
-    ![](building-the-ef5-mvc4-chapter-downloads/_static/image5.png)
+    :::image type="content" source="building-the-ef5-mvc4-chapter-downloads/_static/image5.png" alt-text="Screenshot of running the app.":::
 
 > [!div class="step-by-step"]
 > [Previous](advanced-entity-framework-scenarios-for-an-mvc-web-application.md)

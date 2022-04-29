@@ -12,8 +12,6 @@ msc.type: authoredcontent
 ---
 # Exception Handling in ASP.NET Web API
 
-by [Mike Wasson](https://github.com/MikeWasson)
-
 This article describes error and exception handling in ASP.NET Web API.
 
 - [HttpResponseException](#httpresponserexception)

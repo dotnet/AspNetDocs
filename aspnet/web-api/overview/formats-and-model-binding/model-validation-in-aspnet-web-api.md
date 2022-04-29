@@ -12,8 +12,6 @@ msc.type: authoredcontent
 ---
 # Model Validation in ASP.NET Web API
 
-by [Mike Wasson](https://github.com/MikeWasson)
-
 This article shows how to annotate your models, use the annotations for data validation, and handle validation errors in your web API. When a client sends data to your web API, often you want to validate the data before doing any processing. 
 
 ## Data Annotations

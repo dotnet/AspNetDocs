@@ -220,7 +220,7 @@ If you click **Delete** again, you're redirected to the Index page, which shows 
 
 ## Summary
 
-This completes the introduction to handling concurrency conflicts. For information about other ways to handle various concurrency scenarios, see [Optimistic Concurrency Patterns](https://docs.microsoft.com/archive/blogs/adonet/using-dbcontext-in-ef-4-1-part-9-optimistic-concurrency-patterns) and [Working with Property Values](https://docs.microsoft.com/archive/blogs/adonet/using-dbcontext-in-ef-4-1-part-5-working-with-property-values) on the Entity Framework team blog. The next tutorial shows how to implement table-per-hierarchy inheritance for the `Instructor` and `Student` entities.
+This completes the introduction to handling concurrency conflicts. For information about other ways to handle various concurrency scenarios, see [Optimistic Concurrency Patterns](/archive/blogs/adonet/using-dbcontext-in-ef-4-1-part-9-optimistic-concurrency-patterns) and [Working with Property Values](/archive/blogs/adonet/using-dbcontext-in-ef-4-1-part-5-working-with-property-values) on the Entity Framework team blog. The next tutorial shows how to implement table-per-hierarchy inheritance for the `Instructor` and `Student` entities.
 
 Links to other Entity Framework resources can be found in the [ASP.NET Data Access Content Map](../../../../whitepapers/aspnet-data-access-content-map.md).
 

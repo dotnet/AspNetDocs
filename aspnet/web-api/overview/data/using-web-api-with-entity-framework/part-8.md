@@ -11,8 +11,6 @@ msc.type: authoredcontent
 ---
 # Display Item Details
 
-by [Mike Wasson](https://github.com/MikeWasson)
-
 [Download Completed Project](https://github.com/MikeWasson/BookService)
 
 In this section, you will add the ability to view details for each book. In app.js, add to the following code to the view model:

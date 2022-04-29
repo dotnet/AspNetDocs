@@ -12,8 +12,6 @@ msc.type: authoredcontent
 ---
 # HTTP Cookies in ASP.NET Web API
 
-by [Mike Wasson](https://github.com/MikeWasson)
-
 This topic describes how to send and receive HTTP cookies in Web API.
 
 ## Background on HTTP Cookies

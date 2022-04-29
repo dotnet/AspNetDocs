@@ -15,7 +15,7 @@ by [Rick Anderson](https://twitter.com/RickAndMSFT)
 
 > This tutorial shows you how to build an ASP.NET MVC 5 web app with Two-Factor Authentication. You should complete [Create a secure ASP.NET MVC 5 web app with log in, email confirmation and password reset](create-an-aspnet-mvc-5-web-app-with-email-confirmation-and-password-reset.md) before proceeding. You can download the completed application [here](https://code.msdn.microsoft.com/MVC-5-with-2FA-email-8f26d952). The download contains debugging helpers that let you test email confirmation and SMS without setting up an email or SMS provider.
 > 
-> This tutorial was written by [Rick Anderson](https://docs.microsoft.com/archive/blogs/rickAndy/) ( Twitter: [@RickAndMSFT](https://twitter.com/RickAndMSFT) ).
+> This tutorial was written by [Rick Anderson](/archive/blogs/rickAndy/) ( Twitter: [@RickAndMSFT](https://twitter.com/RickAndMSFT) ).
 
 - [Create an ASP.NET MVC app](#createMvc)
 - [Set up SMS for Two-factor authentication](#SMS)
@@ -25,7 +25,7 @@ by [Rick Anderson](https://twitter.com/RickAndMSFT)
 <a id="createMvc"></a>
 ## Create an ASP.NET MVC app
 
-Start by installing and running [Visual Studio Express 2013 for Web](https://go.microsoft.com/fwlink/?LinkId=299058) or [Visual Studio 2013](https://go.microsoft.com/fwlink/?LinkId=306566). Install [Visual Studio 2013 Update 3](https://go.microsoft.com/fwlink/?LinkId=390465) or higher.
+Start by installing and running [Visual Studio Express 2013 for Web](https://visualstudio.microsoft.com/vs/older-downloads/) or higher.
 
 > [!NOTE]
 > Warning: You should complete [Create a secure ASP.NET MVC 5 web app with log in, email confirmation and password reset](create-an-aspnet-mvc-5-web-app-with-email-confirmation-and-password-reset.md) before proceeding. You must install [Visual Studio 2013 Update 3](https://go.microsoft.com/fwlink/?LinkId=390465) or higher to complete this tutorial.
@@ -142,7 +142,7 @@ This tutorial provides a quick introduction to enabling 2FA on a new ASP.NET MVC
 - [Links to ASP.NET Identity Recommended Resources](../../../identity/overview/getting-started/aspnet-identity-recommended-resources.md)
 - [Account Confirmation and Password Recovery with ASP.NET Identity](../../../identity/overview/features-api/account-confirmation-and-password-recovery-with-aspnet-identity.md) Goes into more detail on password recovery and account confirmation.
 - [MVC 5 App with Facebook, Twitter, LinkedIn and Google OAuth2 Sign-on](create-an-aspnet-mvc-5-app-with-facebook-and-google-oauth2-and-openid-sign-on.md) This tutorial shows you how to write an ASP.NET MVC 5 app with Facebook and Google OAuth 2 authorization. It also shows how to add additional data to the Identity database.
-- [Deploy a Secure ASP.NET MVC app with Membership, OAuth, and SQL Database to Azure Web](https://docs.microsoft.com/aspnet/core/security/authorization/secure-data). This tutorial adds Azure deployment, how to secure your app with roles, how to use the membership API to add users and roles, and additional security features.
+- [Deploy a Secure ASP.NET MVC app with Membership, OAuth, and SQL Database to Azure Web](/aspnet/core/security/authorization/secure-data). This tutorial adds Azure deployment, how to secure your app with roles, how to use the membership API to add users and roles, and additional security features.
 - [Creating a Google app for OAuth 2 and connecting the app to the project](create-an-aspnet-mvc-5-app-with-facebook-and-google-oauth2-and-openid-sign-on.md#goog)
 - [Creating the app in Facebook and connecting the app to the project](create-an-aspnet-mvc-5-app-with-facebook-and-google-oauth2-and-openid-sign-on.md#fb)
 - [Setting up SSL in the Project](create-an-aspnet-mvc-5-app-with-facebook-and-google-oauth2-and-openid-sign-on.md#ssl)

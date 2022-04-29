@@ -12,8 +12,6 @@ msc.type: authoredcontent
 ---
 # Dependency Injection in ASP.NET Web API 2
 
-by [Mike Wasson](https://github.com/MikeWasson)
-
 [Download Completed Project](https://code.msdn.microsoft.com/ASP-NET-Web-API-Tutorial-468ee148)
 
 > This tutorial shows how to inject dependencies into your ASP.NET Web API controller.

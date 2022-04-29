@@ -57,11 +57,11 @@ You can now navigate your app, and the **Heads Up Display** (HUD) is shown at th
 
 ![Contact Manager page with HUD](profile-and-debug-your-aspnet-mvc-app-with-glimpse/_static/image6.png)
 
-The [Glimpse HUD page](http://getglimpse.com/Docs/Heads-up-Display) details the timing information shown above. The unobtrusive performance data the HUD displays can notify you of a problem immediately - before you get to the test cycle. Clicking on the &quot;g&quot; in the lower right corner brings up the Glimpse panel:
+The Glimpse HUD page details the timing information shown above. The unobtrusive performance data the HUD displays can notify you of a problem immediately - before you get to the test cycle. Clicking on the &quot;g&quot; in the lower right corner brings up the Glimpse panel:
 
 ![Glimpse panel](profile-and-debug-your-aspnet-mvc-app-with-glimpse/_static/image7.png)
 
-In the image above, the [Execution tab](http://getglimpse.com/Docs/Execution-Tab) is selected, which shows timing details of the actions and filters in the pipeline. You can see my [Stop Watch filter timer](http://www.nuget.org/packages/StopWatch/) start at stage 6 of the pipeline. While my light weight timer can provide useful profile/timing data, it misses all the time spent in authorization and rendering the view. You can read about my timer at [Profile and Time your ASP.NET MVC app all the way to Azure](https://devblogs.microsoft.com/dotnet/profile-and-time-your-asp-net-mvc-app-all-the-way-to-azure/). The [Tabs](http://getglimpse.com/Docs/Tabs) page provides links to detailed information on each tab.
+In the image above, the Execution tab is selected, which shows timing details of the actions and filters in the pipeline. You can see my [Stop Watch filter timer](http://www.nuget.org/packages/StopWatch/) start at stage 6 of the pipeline. While my light weight timer can provide useful profile/timing data, it misses all the time spent in authorization and rendering the view. You can read about my timer at [Profile and Time your ASP.NET MVC app all the way to Azure](https://devblogs.microsoft.com/dotnet/profile-and-time-your-asp-net-mvc-app-all-the-way-to-azure/).
 
 <a id="Time"></a>
 ## The Timeline tab
@@ -85,14 +85,14 @@ You can hover over a time segment to get detailed timing information:
 <a id="mb"></a>
 ## Model Binding
 
-The [model binding tab](http://getglimpse.com/Docs/Model-Binding-Tab) provides a wealth of information to help you understand how your form variables are bound and why some are not bound as would expect. The image below shows the **?** icon, which you can click on to bring up the glimpse help page for that feature.
+The model binding tab provides a wealth of information to help you understand how your form variables are bound and why some are not bound as would expect. The image below shows the **?** icon, which you can click on to bring up the glimpse help page for that feature.
 
 ![glimpse model binding view](profile-and-debug-your-aspnet-mvc-app-with-glimpse/_static/image11.png)
 
 <a id="route"></a>
 ## Routes
 
- The Glimpse Routes tab will can help you debug and understand routing. In the image below, the product route is selected (and it shows in green, a Glimpse convention). ![product name selected](profile-and-debug-your-aspnet-mvc-app-with-glimpse/_static/image12.png) Route constraints, Areas and data tokens are also displayed. See [Glimpse Routes](http://getglimpse.com/Docs/Routes-Tab) and [Attribute Routing in ASP.NET MVC 5](https://devblogs.microsoft.com/dotnet/attribute-routing-in-asp-net-mvc-5/) for more information. 
+ The Glimpse Routes tab will can help you debug and understand routing. In the image below, the product route is selected (and it shows in green, a Glimpse convention). ![product name selected](profile-and-debug-your-aspnet-mvc-app-with-glimpse/_static/image12.png) Route constraints, Areas and data tokens are also displayed. See Glimpse Routes and [Attribute Routing in ASP.NET MVC 5](https://devblogs.microsoft.com/dotnet/attribute-routing-in-asp-net-mvc-5/) for more information. 
 
 <a id="da"></a>
 ## Using Glimpse on Azure
@@ -116,4 +116,3 @@ For information on adding roles, see my [Deploy a Secure ASP.NET MVC 5 web app w
 ## Additional Resources
 
 - [Deploy a Secure ASP.NET MVC 5 app with Membership, OAuth, and SQL Database to Azure](https://azure.microsoft.com/documentation/articles/web-sites-dotnet-deploy-aspnet-mvc-app-membership-oauth-sql-database/)
-- [Glimpse Configuration](http://getglimpse.com/Docs/Configuration) - Doc page on configuring tabs, runtime policy, logging and more.

@@ -13,7 +13,7 @@ msc.type: authoredcontent
 
 by [Scott Mitchell](https://twitter.com/ScottOnWriting)
 
-[Download Sample App](https://download.microsoft.com/download/9/c/1/9c1d03ee-29ba-4d58-aa1a-f201dcc822ea/ASPNET_Data_Tutorial_40_VB.exe) or [Download PDF](customizing-the-datalist-s-editing-interface-vb/_static/datatutorial40vb1.pdf)
+[Download PDF](customizing-the-datalist-s-editing-interface-vb/_static/datatutorial40vb1.pdf)
 
 > In this tutorial we will create a richer editing interface for the DataList, one that includes DropDownLists and a CheckBox.
 

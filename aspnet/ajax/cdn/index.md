@@ -1,6 +1,6 @@
 ---
 uid: ajax/cdn/index
-title: "Microsoft Ajax Content Delivery Network | Microsoft Docs"
+title: "Microsoft Ajax Content Delivery Network Libraries | Microsoft Docs"
 author: rick-anderson
 description: "The Microsoft Ajax Content Delivery Network (CDN) hosts popular third party JavaScript libraries such as jQuery and enables you to easily add them to your Web applications. By taking advantage of the CDN, you can significantly improve the performance of your Ajax applications."
 ms.author: riande
@@ -10,7 +10,7 @@ ms.assetid: fc98bde7-484a-4191-bba2-04d29551cb8f
 msc.legacyurl: 
 msc.type: content
 ---
-# Microsoft Ajax Content Delivery Network
+# Microsoft Ajax Content Delivery Network Libraries
 
 - [Microsoft Ajax Content Delivery Network](overview.md)
 - [jQuery UI](jquery-ui/index.md)

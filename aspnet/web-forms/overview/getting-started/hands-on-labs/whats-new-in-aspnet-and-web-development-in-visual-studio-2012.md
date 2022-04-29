@@ -22,8 +22,6 @@ by [Web Camps Team](https://twitter.com/webcamps)
 > Last but not least, this Visual Studio version implements built-in bundling and minification. Your script files and style sheets will be packed and compressed so that the site performs faster.
 > 
 > This lab walks you through the enhancements and new features previously described by applying minor changes to a sample Web application provided in the Source folder.
-> 
-> All sample code and snippets are included in the Web Camps Training Kit, available at [https://go.microsoft.com/fwlink/?LinkID=248297&clcid=0x409](https://go.microsoft.com/fwlink/?LinkID=248297&clcid=0x409).
 
 <a id="Objectives"></a>
 
@@ -43,7 +41,7 @@ In this hands on lab, you will learn how to:
 ### Prerequisites
 
 - [Microsoft Visual Studio Express 2012 for Web](https://www.microsoft.com/visualstudio/eng/products/visual-studio-express-for-web) or superior (read [Appendix A](#AppendixA) for instructions on how to install it).
-- [Windows PowerShell](https://support.microsoft.com/kb/968930/) (for setup scripts - already installed on Windows 8 and Windows Server 2008 R2)
+- [Windows PowerShell](/powershell/scripting/overview) (for setup scripts - already installed on Windows 8 and Windows Server 2008 R2)
 - [Internet Explorer 10](https://windows.microsoft.com/internet-explorer/products/ie/home) - or an HTML5 compliant browser
 
 <a id="Exercises"></a>
@@ -723,7 +721,7 @@ This appendix will show you how to create a new web site from the Windows Azure 
 <a id="Task_1_-_Creating_a_New_Web_Site_from_the_Windows_Azure_Portal"></a>
 #### Task 1 - Creating a New Web Site from the Windows Azure Portal
 
-1. Go to the [Windows Azure Management Portal](https://manage.windowsazure.com/) and sign in using the Microsoft credentials associated with your subscription.
+1. Go to the [Windows Azure Management Portal](https://portal.azure.com/) and sign in using the Microsoft credentials associated with your subscription.
 
     > [!NOTE]
     > With Windows Azure you can host 10 ASP.NET Web Sites for free and then scale as your traffic grows. You can sign up [here](https://aka.ms/aspnet-hol-azure).
