@@ -2,9 +2,9 @@
 uid: ajax/cdn/overview
 title: "Microsoft Ajax Content Delivery Network Assets | Microsoft Docs"
 author: rick-anderson
-description: ""
+description: "The Microsoft Ajax Content Delivery Network (CDN) hosts popular third party JavaScript libraries such as jQuery and enables you to easily add them to your Web applications."
 ms.author: riande
-ms.date: 04/13/2022
+ms.date: 04/29/2022
 ms.custom: devdivchpfy22
 ms.assetid: 8935bf14-ca6d-4a4e-9dbe-b96ce74cef49
 msc.legacyurl: /ajax/cdn
