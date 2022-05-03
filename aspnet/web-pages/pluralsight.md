@@ -33,4 +33,4 @@ Scott Hanselman, Principal Program Manager, Web Platform and Azure Tools, Micros
 
 Unlock access to 3,000+ dev, IT and creative courses that you can watch anytime, anywhere.
 
-**Starting at $ 35/mo.**[Start Free Trial or Subscribe Now](https://www.pluralsight.com/pricing&amp;utm_source=microsoft&amp;utm_medium=sponsored-page&amp;utm_content=webmatrix&amp;utm_campaign=microsoft-sponsored-course)
+**Starting at $ 35/mo.**[Start Free Trial or Subscribe Now](https://www.pluralsight.com/pricing/free-trial)
