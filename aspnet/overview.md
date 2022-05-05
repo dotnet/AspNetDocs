@@ -18,7 +18,7 @@ ASP.NET is a free web framework for building great websites and web applications
 
 ## Get started
 
-Install [Visual Studio 2019](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=button+cta&utm_content=download+vs2019) Community edition, a free IDE for ASP.NET on Windows.
+Install [Visual Studio](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=button+cta&utm_content=download+vs) Community edition, a free IDE for ASP.NET on Windows.
 
 ## Websites and web applications
 
