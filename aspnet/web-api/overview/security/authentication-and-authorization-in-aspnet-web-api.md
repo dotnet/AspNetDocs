@@ -74,6 +74,12 @@ You can apply the filter globally, at the controller level, or at the level of i
 
 **Globally**: To restrict access for every Web API controller, add the **AuthorizeAttribute** filter to the global filter list:
 
+Dotnet 6 in Program.cs
+
+[!code-csharp[Main](authentication-and-authorization-in-aspnet-web-api/samples/sample2dotnet6.cs)]
+
+Asp.NetCore 3 in Startup.cs
+
 [!code-csharp[Main](authentication-and-authorization-in-aspnet-web-api/samples/sample2.cs)]
 
 **Controller**: To restrict access for a specific controller, add the filter as an attribute to the controller:
