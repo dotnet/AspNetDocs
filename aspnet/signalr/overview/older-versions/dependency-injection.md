@@ -1,8 +1,8 @@
 ---
 uid: signalr/overview/older-versions/dependency-injection
-title: "Dependency Injection in SignalR 1.x | Microsoft Docs"
+title: Dependency Injection in SignalR 1.x | Microsoft Docs
 author: bradygaster
-description: ""
+description: Describes the Dependency Injection in SignalR 1.x and outlines what a Dependency Injection is and provides information on Ninject Libraries.
 ms.author: bradyg
 ms.date: 05/15/2013
 ms.assetid: eaa206c4-edb3-487e-8fcb-54a3261fed36

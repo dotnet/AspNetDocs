@@ -59,8 +59,8 @@ The following table shows which approach works for these considerations.
 | Consideration | More than one server | Get list of currently connected users | Persist information after restarts | Optimal performance |
 | --- | --- | --- | --- | --- |
 | UserID Provider | :::image type="icon" source="mapping-users-to-connections/_static/image1.png" ::: |  |  | :::image type="icon" source="mapping-users-to-connections/_static/image1.png" ::: |
-| In-memory |  | :::image type="icon" source="mapping-users-to-connections/_static/image1.png" ::: |  | ![](mapping-users-to-connections/_static/image4.png) |
-| Single-user groups | ![](mapping-users-to-connections/_static/image5.png) |  |  | :::image type="icon" source="mapping-users-to-connections/_static/image1.png" ::: |
+| In-memory |  | :::image type="icon" source="mapping-users-to-connections/_static/image1.png" ::: |  | :::image type="icon" source="mapping-users-to-connections/_static/image1.png" ::: |
+| Single-user groups | :::image type="icon" source="mapping-users-to-connections/_static/image1.png" ::: |  |  | :::image type="icon" source="mapping-users-to-connections/_static/image1.png" ::: |
 | Permanent, external | :::image type="icon" source="mapping-users-to-connections/_static/image1.png" ::: | :::image type="icon" source="mapping-users-to-connections/_static/image1.png" ::: | :::image type="icon" source="mapping-users-to-connections/_static/image1.png" ::: |  |
 
 <a id="IUserIdProvider"></a>
