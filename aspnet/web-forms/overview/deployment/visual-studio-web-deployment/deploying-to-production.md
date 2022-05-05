@@ -43,7 +43,7 @@ In this section of the tutorial you'll create a web app and database to use for 
 > [!NOTE]
 > The following steps show how to create a web app in Azure App Service by using the Azure management portal. In the latest version of the Azure SDK, you can also do this without leaving Visual Studio, by using Server Explorer. In Visual Studio 2013, you can also create a web app directly from the Publish dialog. For more information, see [Create an ASP.NET web app in Azure App Service.](/azure/app-service-web/app-service-web-get-started-dotnet)
 
-1. In the [Azure Management Portal](https://manage.windowsazure.com/), click **Websites**, and then click **New**.
+1. In the [Azure Management Portal](https://portal.azure.com/signin/index/), click **Websites**, and then click **New**.
 2. Click **Website**, and then click **Custom Create**.
 
     The **New Website - Custom Create** wizard opens. The **Custom Create** wizard enables you to create a web site and a database at the same time.

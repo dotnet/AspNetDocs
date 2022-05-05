@@ -11,7 +11,7 @@ msc.type: authoredcontent
 ---
 # Authentication and Authorization in ASP.NET Web API
 
-by [Mike Wasson](https://github.com/MikeWasson)
+by Mike Wasson
 
 You've created a web API, but now you want to control access to it. In this series of articles, we'll look at some options for securing a web API from unauthorized users. This series will cover both authentication and authorization.
 

@@ -12,7 +12,6 @@ msc.type: authoredcontent
 ---
 # Parameter Binding in ASP.NET Web API
 
-by [Mike Wasson](https://github.com/MikeWasson)
 
 [!INCLUDE[](~/includes/coreWebAPI.md)]
 

@@ -11,8 +11,6 @@ msc.type: authoredcontent
 ---
 # Routing in ASP.NET Web API
 
-by [Mike Wasson](https://github.com/MikeWasson)
-
 This article describes how ASP.NET Web API routes HTTP requests to controllers.
 
 > [!NOTE]

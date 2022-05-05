@@ -28,8 +28,6 @@ by [Web Camps Team](https://twitter.com/webcamps)
 > This hands-on lab will walk you through the Page Inspector features and show you how you can use them to fix issues in Web applications. **This lab contains two exercises using similar flows but targeting different technologies. If you are an ASP.NET MVC Developer, follow exercise one; if you are a WebForms developer follow exercise two**.
 > 
 > This lab walks you through the enhancements and new features previously described by applying minor changes to a sample Web application provided in the Source folder.
-> 
-> All sample code and snippets are included in the Web Camps Training Kit, available at [https://go.microsoft.com/fwlink/?LinkID=248297&clcid=0x409](https://go.microsoft.com/fwlink/?LinkID=248297&clcid=0x409).
 
 <a id="Objectives"></a>
 

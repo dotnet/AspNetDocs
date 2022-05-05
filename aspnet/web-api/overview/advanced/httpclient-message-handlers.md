@@ -12,8 +12,6 @@ msc.type: authoredcontent
 ---
 # HttpClient Message Handlers in ASP.NET Web API
 
-by [Mike Wasson](https://github.com/MikeWasson)
-
 A *message handler* is a class that receives an HTTP request and returns an HTTP response.
 
 Typically, a series of message handlers are chained together. The first handler receives an HTTP request, does some processing, and gives the request to the next handler. At some point, the response is created and goes back up the chain. This pattern is called a *delegating* handler.

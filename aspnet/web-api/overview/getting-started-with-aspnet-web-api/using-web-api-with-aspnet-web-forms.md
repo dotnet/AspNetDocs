@@ -12,7 +12,7 @@ msc.type: authoredcontent
 ---
 # Using Web API with ASP.NET Web Forms
 
-by [Mike Wasson](https://github.com/MikeWasson)
+by Mike Wasson
 
 This tutorial walks you through the steps to add Web API to a traditional ASP.NET Web Forms application in ASP.NET 4.x. 
 

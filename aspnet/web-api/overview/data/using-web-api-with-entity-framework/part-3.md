@@ -11,8 +11,6 @@ msc.type: authoredcontent
 ---
 # Use Code First Migrations to Seed the Database
 
-by [Mike Wasson](https://github.com/MikeWasson)
-
 [Download Completed Project](https://github.com/MikeWasson/BookService)
 
 In this section, you will use [Code First Migrations](https://msdn.microsoft.com/data/jj591621) in EF to seed the database with test data.

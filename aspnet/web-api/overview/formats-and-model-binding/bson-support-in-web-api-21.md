@@ -12,8 +12,6 @@ msc.type: authoredcontent
 ---
 # BSON Support in ASP.NET Web API 2.1
 
-by [Mike Wasson](https://github.com/MikeWasson)
-
 This topic shows how to use BSON in your Web API controller (server side) and in a .NET client app. Web API 2.1 introduces support for BSON. 
 
 ## What is BSON?

@@ -12,7 +12,7 @@ msc.type: authoredcontent
 ---
 # Using $select, $expand, and $value in ASP.NET Web API 2 OData
 
-by [Mike Wasson](https://github.com/MikeWasson)
+by Mike Wasson
 
 Overview and code samples for the $expand, $select, and $value options in OData Web API 2 for ASP.NET 4.x. These options allow a client to control the representation that it gets back from the server.
 

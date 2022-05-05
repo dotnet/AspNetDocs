@@ -13,7 +13,7 @@ msc.type: authoredcontent
 
 by [Scott Mitchell](https://twitter.com/ScottOnWriting)
 
-[Download Code](https://download.microsoft.com/download/3/9/f/39f92b37-e92e-4ab3-909e-b4ef23d01aa3/ASPNET_Data_Tutorial_61_CS.zip) or [Download PDF](using-sql-cache-dependencies-cs/_static/datatutorial61cs1.pdf)
+[Download PDF](using-sql-cache-dependencies-cs/_static/datatutorial61cs1.pdf)
 
 > The simplest caching strategy is to allow cached data to expire after a specified period of time. But this simple approach means that the cached data maintains no association with its underlying data source, resulting in stale data that is held too long or current data that is expired too soon. A better approach is to use the SqlCacheDependency class so that data remains cached until its underlying data has been modified in the SQL database. This tutorial shows you how.
 
@@ -44,7 +44,7 @@ With the polling approach the database must be setup to contain the infrastructu
 [!code-console[Main](using-sql-cache-dependencies-cs/samples/sample1.cmd)]
 
 > [!NOTE]
-> To execute these commands the specified database login must be in the [`db_securityadmin`](https://msdn.microsoft.com/library/ms188685.aspx) and [`db_ddladmin`](https://msdn.microsoft.com/library/ms190667.aspx) roles. To examine the T-SQL sent to the database by the `aspnet_regsql.exe` command line program, refer to [this blog entry](http://scottonwriting.net/sowblog/posts/10709.aspx).
+> To execute these commands the specified database login must be in the [`db_securityadmin`](https://msdn.microsoft.com/library/ms188685.aspx) and [`db_ddladmin`](https://msdn.microsoft.com/library/ms190667.aspx) roles. 
 
 For example, to add the infrastructure for polling to a Microsoft SQL Server database named `pubs` on a database server named `ScottsServer` using Windows Authentication, navigate to the appropriate directory and, from the command line, enter:
 
@@ -62,7 +62,7 @@ For this tutorial add the triggers to the `Products`, `Categories`, and `Supplie
 
 ## Step 2: Referencing a Microsoft SQL Server 2005 Express Edition Database in`App_Data`
 
-The `aspnet_regsql.exe` command line program requires the database and server name in order to add the necessary polling infrastructure. But what is the database and server name for a Microsoft SQL Server 2005 Express database that resides in the `App_Data` folder? Rather than having to discover what the database and server names are, I ve found that the simplest approach is to attach the database to the `localhost\SQLExpress` database instance and rename the data using [SQL Server Management Studio](https://msdn.microsoft.com/library/ms174173.aspx). If you have one of the full versions of SQL Server 2005 installed on your machine, then you likely already have SQL Server Management Studio installed on your computer. If you only have the Express edition, you can download the free [Microsoft SQL Server Management Studio Express Edition](https://www.microsoft.com/downloads/details.aspx?displaylang=en&amp;FamilyID=C243A5AE-4BD1-4E3D-94B8-5A0F62BF7796).
+The `aspnet_regsql.exe` command line program requires the database and server name in order to add the necessary polling infrastructure. But what is the database and server name for a Microsoft SQL Server 2005 Express database that resides in the `App_Data` folder? Rather than having to discover what the database and server names are, I ve found that the simplest approach is to attach the database to the `localhost\SQLExpress` database instance and rename the data using [SQL Server Management Studio](https://msdn.microsoft.com/library/ms174173.aspx). If you have one of the full versions of SQL Server 2005 installed on your machine, then you likely already have SQL Server Management Studio installed on your computer. If you only have the Express edition, you can download the free [Microsoft SQL Server Management Studio Express Edition](https://www.microsoft.com/en-us/download/details.aspx?id=15366).
 
 Start by closing Visual Studio. Next, open SQL Server Management Studio and choose to connect to the `localhost\SQLExpress` server using Windows Authentication.
 

@@ -11,8 +11,6 @@ msc.type: authoredcontent
 ---
 # Create the View (UI)
 
-by [Mike Wasson](https://github.com/MikeWasson)
-
 [Download Completed Project](https://github.com/MikeWasson/BookService)
 
 In this section, you will start to define the HTML for the app, and add data binding between the HTML and the view model.

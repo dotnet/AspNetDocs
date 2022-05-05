@@ -11,8 +11,6 @@ msc.type: authoredcontent
 ---
 # Create the JavaScript Client
 
-by [Mike Wasson](https://github.com/MikeWasson)
-
 [Download Completed Project](https://github.com/MikeWasson/BookService)
 
 In this section, you will create the client for the application, using HTML, JavaScript, and the [Knockout.js](http://knockoutjs.com/) library. We'll build the client app in stages:

@@ -12,7 +12,7 @@ msc.type: authoredcontent
 ---
 # Enabling CRUD Operations in ASP.NET Web API 1
 
-by [Mike Wasson](https://github.com/MikeWasson)
+by Mike Wasson
 
 [Download Completed Project](https://code.msdn.microsoft.com/ASP-NET-Web-API-Tutorial-c4761894)
 
