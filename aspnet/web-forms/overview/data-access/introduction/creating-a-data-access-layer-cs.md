@@ -103,7 +103,7 @@ The TableAdapter Configuration Wizard begins by prompting you to select which da
 
 **Figure 5**: Choose the Northwind Database from the Drop-Down List ([Click to view full-size image](creating-a-data-access-layer-cs/_static/image13.png))
 
-After selecting the database and clicking Next, you'll be asked if you want to save the connection string in the **Web.config** file. By saving the connection string you'll avoid having it hard coded in the TableAdapter classes, which simplifies things if the connection string information changes in the future. If you opt to save the connection string in the configuration file it's placed in the **&lt;connectionStrings&gt;** section, which can be [optionally encrypted](http://aspnet.4guysfromrolla.com/articles/021506-1.aspx) for improved security or modified later through the new ASP.NET 2.0 Property Page within the IIS GUI Admin Tool, which is more ideal for administrators.
+After selecting the database and clicking Next, you'll be asked if you want to save the connection string in the **Web.config** file. By saving the connection string you'll avoid having it hard coded in the TableAdapter classes, which simplifies things if the connection string information changes in the future. If you opt to save the connection string in the configuration file it's placed in the **&lt;connectionStrings&gt;** section, which can be optionally encrypted for improved security or modified later through the new ASP.NET 2.0 Property Page within the IIS GUI Admin Tool, which is more ideal for administrators.
 
 [![Save the Connection String to Web.config](creating-a-data-access-layer-cs/_static/image15.png)](creating-a-data-access-layer-cs/_static/image14.png)
 
