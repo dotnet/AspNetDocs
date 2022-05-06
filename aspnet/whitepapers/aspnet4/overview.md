@@ -1,6 +1,6 @@
 ---
 uid: whitepapers/aspnet4/overview
-title: "ASP.NET 4 and Visual Studio 2010 Web Development Whitepaper | Microsoft Docs"
+title: "Overview: ASP.NET 4 and Visual Studio 2010 Web Development | Microsoft Docs"
 author: rick-anderson
 description: "This whitepaper provides an overview of many of the new features for ASP.NET that are included in the.NET Framework 4 and in Visual Studio 2010."
 ms.author: riande
@@ -9,7 +9,7 @@ ms.assetid: d7729af4-1eda-4ff2-8b61-dbbe4fc11d10
 msc.legacyurl: /whitepapers/aspnet4
 msc.type: content
 ---
-# ASP.NET 4 and Visual Studio 2010 Web Development Whitepaper
+# Overview of ASP.NET 4 and Visual Studio 2010 for Web Development 
 
 > This document provides an overview of many of the new features for ASP.NET that are included in the.NET Framework 4 and in Visual Studio 2010.
 > 
@@ -729,7 +729,7 @@ The control includes the following features:
 
 The following figures show examples of financial charts that are produced by the ASP.NET Chart control.
 
-<a id="0.2_graphic17"></a>![Four financial charts that are examples of charts produced by the A S P dot NET chart control.](overview/_static/image1.png)
+<a id="0.2_graphic17"></a>![Four financial charts that are examples of charts produced by the A S P dot net chart control.](overview/_static/image1.png)
 
 Figure 2: ASP.NET Chart control examples
 
@@ -839,11 +839,11 @@ Likewise, this syntax does not perform JavaScript encoding, such as when you cre
 
 In earlier versions of ASP.NET, when you use Visual Studio to create a new Web Site project or Web Application project, the resulting projects contain only a Default.aspx page, a default `Web.config` file, and the `App_Data` folder, as shown in the following illustration:
 
-<a id="0.2_graphic1A"></a>![Screenshot of Visual Studio 2010 file menu. An example project highlighted. Nested under project are the default file and folder created.](overview/_static/image4.png)
+<a id="0.2_graphic1A"></a>![Screenshot of Visual Studio file menu. An example new project is highlighted showing the default file and folder.](overview/_static/image4.png)
 
 Visual Studio also supports an Empty Web Site project type, which contains no files at all, as shown in the following figure:
 
-<a id="0.2_graphic1B"></a>![Screenshot of Visual Studio 2010 file menu. An example project directory is shown to contain no files or folders.](overview/_static/image5.png)
+<a id="0.2_graphic1B"></a>![Screenshot of the Visual Studio file menu. An example project directory is shown to contain no files or folders.](overview/_static/image5.png)
 
 The result is that for the beginner, there is very little guidance on how to build a production Web application. Therefore, ASP.NET 4 introduces three new templates, one for an empty Web application project, and one each for a Web Application and Web Site project.
 
@@ -905,7 +905,7 @@ The intention of these changes to the project templates is to provide guidance o
 
 For example, imagine that for a new Web Application you want to change some of the colors and insert your company logo in place of the My ASP.NET Application logo. To do this, you create a new directory under `Content` to store your logo image:
 
-<a id="0.2_graphic23"></a>![Screenshot that shows a file directory with and images folder containing a logo file.](overview/_static/image19.png)
+<a id="0.2_graphic23"></a>![Screenshot that shows a file directory with an images folder containing a logo file.](overview/_static/image19.png)
 
 To add the image to the page, you then open the `Site.Master` file, find where the My ASP.NET Application text is defined, and replace it with an *image* element whose *src* attribute is set to the new logo image, as in the following example:
 ```html
