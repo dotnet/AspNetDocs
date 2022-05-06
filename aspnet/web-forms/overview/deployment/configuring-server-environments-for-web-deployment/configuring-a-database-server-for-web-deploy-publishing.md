@@ -137,7 +137,7 @@ A SQL Server login is a server-level object, rather than a database-level object
 1. On the database server, on the **Start** menu, point to **All Programs**, click **Microsoft SQL Server 2008 R2**, and then click **SQL Server Management Studio**.
 2. In the **Connect to Server** dialog box, in the **Server name** box, type the name of the database server, and then click **Connect**.
 
-    ![In the Connect to Server dialog box, in the Server name box, type the name of the database server, and then click Connect.](configuring-a-database-server-for-web-deploy-publishing/_static/image10.png)
+    ![This image illustrates: in the Connect to Server dialog box, in the Server name box, type the name of the database server, and then click Connect.](configuring-a-database-server-for-web-deploy-publishing/_static/image10.png)
 3. In the **Object Explorer** pane, right-click **Security**, point to **New**, and then click **Login**.
 4. In the **Login – New** dialog box, in the **Login name** box, type the name of your web server machine account (for example, **FABRIKAM\TESTWEB1$**).
 

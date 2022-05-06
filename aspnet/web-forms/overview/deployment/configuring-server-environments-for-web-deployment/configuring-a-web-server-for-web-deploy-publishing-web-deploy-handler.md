@@ -85,7 +85,7 @@ In this case, you need to install these things:
     > [!NOTE]
     > You may have already installed the .NET Framework 4.0 through Windows Update. If a product or component is already installed, the Web Platform Installer will indicate this by replacing the **Add** button with the text **Installed**.
 
-    ![](configuring-a-web-server-for-web-deploy-publishing-web-deploy-handler/_static/image1.png)
+    ![If a product or component is already installed, the Web Platform Installer will indicate this by replacing the Add button with the text Installed.](configuring-a-web-server-for-web-deploy-publishing-web-deploy-handler/_static/image1.png)
 6. In the **ASP.NET MVC 3 (Visual Studio 2010)** row, click **Add**.
 7. In the navigation pane, click **Server**.
 8. In the **IIS 7 Recommended Configuration** row, click **Add**.
