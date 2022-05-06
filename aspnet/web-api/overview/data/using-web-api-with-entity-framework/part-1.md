@@ -1,8 +1,8 @@
 ---
 uid: web-api/overview/data/using-web-api-with-entity-framework/part-1
-title: "Using Web API 2 with Entity Framework 6 | Microsoft Docs"
-author: MikeWasson
-description: "This tutorial will teach you the basics of creating a web application with an ASP.NET Web API back end. The tutorial uses Entity Framework 6 for the data lay..."
+title: Using Web API 2 with Entity Framework 6 | Microsoft Docs
+author: Rick-Anderson
+description: This tutorial will teach you the basics of creating a web application with an ASP.NET Web API back end. The tutorial uses Entity Framework 6 for the data lay...
 ms.author: riande
 ms.date: 01/17/2019
 ms.assetid: e879487e-dbcd-4b33-b092-d67c37ae768c
@@ -55,11 +55,11 @@ Open Visual Studio. From the **File** menu, select **New**, then select **Projec
 
 In the **New Project** dialog, select **Web** in the left pane and **ASP.NET Web Application (.NET Framework)** in the middle pane. Name the project **BookService** and select **OK**.
 
-[![](part-1/_static/image11.png)](part-1/_static/image11.png)
+[![Screenshot of the New Project dialog with the Web option in the left pane and A S P dot Net Web Application in the middle pane highlighted.](part-1/_static/image11.png)](part-1/_static/image11.png)
 
 In the **New ASP.NET Project** dialog, select the **Web API** template.
 
-[![](part-1/_static/image12.png)](part-1/_static/image12.png)
+[![Screenshot of the New A S P dot Net Project dialog showing the Web API template highlighted in blue.](part-1/_static/image12.png)](part-1/_static/image12.png)
 
 Select **OK** to create the project.
 
@@ -71,23 +71,23 @@ After you create the project, you can choose to deploy to Azure App Service Web 
 
 2. In the window that appears, select **Start**. The **Pick a publish target** dialog box appears.
 
-   [![](part-1/_static/image14.png)](part-1/_static/image14.png)
+   [![Screenshot of the Pick a publish target dialog with the App Service option in the left pane and the Create New option in the middle pane selected.](part-1/_static/image14.png)](part-1/_static/image14.png)
 
 3. Select **Create Profile**. The **Create App Service** dialog box appears.
 
-   [![](part-1/_static/image15.png)](part-1/_static/image15.png)
+   [![Screenshot of the Create App Service dialog with values entered into the app name, subscription, resource group, hosting plan, and insights fields.](part-1/_static/image15.png)](part-1/_static/image15.png)
 
    Accept the defaults, or enter different values for the application name, resource group, hosting plan, Azure subscription, and geographical region. 
 
 4. Select **Create a SQL database**. The **Configure SQL Server** dialog box appears. 
 
-   [![](part-1/_static/image16.png)](part-1/_static/image16.png)
+   [![Screenshot of the Configure S Q L Server dialog with values entered into the server name, location, admin name, and admin password fields.](part-1/_static/image16.png)](part-1/_static/image16.png)
 
    Accept the defaults or enter different values. Enter an **Administrator Username** and **Administrator Password** for your new database. Select **OK** when you're done. The **Create App Service** page reappears.
 
 5. Select **Create** to create your profile. A message appears in the lower-right corner indicating that deployment is in progress. After a short while, the **Publish** window reappears.
 
-    [![](part-1/_static/image17.png)](part-1/_static/image17.png)
+    [![Screenshot of the Publish window showing the newly-created profile, profile details, and management options.](part-1/_static/image17.png)](part-1/_static/image17.png)
    
     The profile you created to deploy the app is now available. 
 
