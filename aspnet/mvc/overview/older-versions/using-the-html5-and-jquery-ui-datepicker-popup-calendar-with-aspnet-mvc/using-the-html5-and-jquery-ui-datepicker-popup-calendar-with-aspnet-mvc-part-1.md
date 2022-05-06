@@ -2,7 +2,7 @@
 uid: mvc/overview/older-versions/using-the-html5-and-jquery-ui-datepicker-popup-calendar-with-aspnet-mvc/using-the-html5-and-jquery-ui-datepicker-popup-calendar-with-aspnet-mvc-part-1
 title: Using the HTML5 and jQuery UI Datepicker Popup Calendar with ASP.NET MVC - Part 1 | Microsoft Docs
 author: Rick-Anderson
-description: This tutorial will teach you the basics of how to work with editor templates, display templates, and the jQuery UI datepicker popup calendar in an ASP.NET MV...
+description: This first part of the tutorial series will teach you the basics of how to work with editor templates, display templates, and the jQuery UI datepicker popup calendar in an ASP.NET MV...
 ms.author: riande
 ms.date: 08/29/2011
 ms.assetid: c23d27f7-b0cf-44f2-8445-fb69e045c674
@@ -33,7 +33,7 @@ A Visual Studio project with C# and Visual Basic source code is available to acc
 
 ### What You'll Build
 
-You'll add templates (specifically, edit and display templates) to the simple movie-listing application that was created in the [Getting Started with MVC 3](../getting-started-with-aspnet-mvc3/cs/intro-to-aspnet-mvc-3.md) tutorial. You will also add a [jQuery UI datepicker](https://docs.microsoft.com/en-us/answers/questions/554686/datepicker-api.html) popup calendar to simplify the process of entering dates. The following screenshot shows the modified application with the jQuery UI datepicker popup calendar displayed.
+You'll add templates (specifically, edit and display templates) to the simple movie-listing application that was created in the [Getting Started with MVC 3](../getting-started-with-aspnet-mvc3/cs/intro-to-aspnet-mvc-3.md) tutorial. You will also add a [jQuery UI datepicker](/answers/questions/554686/datepicker-api.html) popup calendar to simplify the process of entering dates. The following screenshot shows the modified application with the jQuery UI datepicker popup calendar displayed.
 
 ![Screenshot of the Movie jQuery window showing the Edit view with a Title field and a Release Date field with a jQuery UI datepicker popup calendar.](using-the-html5-and-jquery-ui-datepicker-popup-calendar-with-aspnet-mvc-part-1/_static/image1.png)
 
