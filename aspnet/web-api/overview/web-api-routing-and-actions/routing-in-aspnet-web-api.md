@@ -26,7 +26,7 @@ To determine which action to invoke, the framework uses a *routing table*. The V
 
 This route is defined in the *WebApiConfig.cs* file, which is placed in the *App\_Start* directory:
 
-![](routing-in-aspnet-web-api/_static/image1.png)
+![Image of Solution Explorer where routes are defined.](routing-in-aspnet-web-api/_static/image1.png)
 
 For more information about the `WebApiConfig` class, see [Configuring ASP.NET Web API](../advanced/configuring-aspnet-web-api.md).
 
