@@ -1,6 +1,6 @@
 ---
 uid: whitepapers/aspnet4/overview
-title: "ASP.NET 4 and Visual Studio 2010 Web Development Overview | Microsoft Docs"
+title: "ASP.NET 4 and Visual Studio 2010 Web Development Whitepaper | Microsoft Docs"
 author: rick-anderson
 description: "This document provides an overview of many of the new features for ASP.NET that are included in the.NET Framework 4 and in Visual Studio 2010."
 ms.author: riande
@@ -9,7 +9,7 @@ ms.assetid: d7729af4-1eda-4ff2-8b61-dbbe4fc11d10
 msc.legacyurl: /whitepapers/aspnet4
 msc.type: content
 ---
-# ASP.NET 4 and Visual Studio 2010 Web Development Overview
+# ASP.NET 4 and Visual Studio 2010 Web Development Whitepaper
 
 > This document provides an overview of many of the new features for ASP.NET that are included in the.NET Framework 4 and in Visual Studio 2010.
 > 
@@ -729,7 +729,7 @@ The control includes the following features:
 
 The following figures show examples of financial charts that are produced by the ASP.NET Chart control.
 
-<a id="0.2_graphic17"></a>![](overview/_static/image1.png)
+<a id="0.2_graphic17"></a>![Four financial charts that are examples of charts produced by the A S P dot NET chart control.](overview/_static/image1.png)
 
 Figure 2: ASP.NET Chart control examples
 
@@ -749,7 +749,7 @@ The *Chart* control contains a *ChartAreas* collection, which can contain *Chart
 
 The figure below shows a 3-D chart with four series of the *Bar* chart type.
 
-<a id="0.2_graphic18"></a>![](overview/_static/image2.png)
+<a id="0.2_graphic18"></a>![3-D bar chart that shows four series of the Bar chart type.](overview/_static/image2.png)
 
 Figure 3: 3-D Bar Chart
 
@@ -761,7 +761,7 @@ Scale breaks and logarithmic scales are two additional ways to add sophisticatio
 
 The figure below shows the Y axis with scale breaks enabled.
 
-<a id="0.2_graphic19"></a>![](overview/_static/image3.png)
+<a id="0.2_graphic19"></a>![A bar chart that shows the Y axis with scale breaks enabled.](overview/_static/image3.png)
 
 Figure 4: Scale Breaks
 
@@ -839,11 +839,11 @@ Likewise, this syntax does not perform JavaScript encoding, such as when you cre
 
 In earlier versions of ASP.NET, when you use Visual Studio to create a new Web Site project or Web Application project, the resulting projects contain only a Default.aspx page, a default `Web.config` file, and the `App_Data` folder, as shown in the following illustration:
 
-<a id="0.2_graphic1A"></a>![](overview/_static/image4.png)
+<a id="0.2_graphic1A"></a>![Screenshot of Visual Studio 2010 file menu. An example project highlighted. Nested under project are the default file and folder created.](overview/_static/image4.png)
 
 Visual Studio also supports an Empty Web Site project type, which contains no files at all, as shown in the following figure:
 
-<a id="0.2_graphic1B"></a>![](overview/_static/image5.png)
+<a id="0.2_graphic1B"></a>![Screenshot of Visual Studio 2010 file menu. An example project directory is shown to contain no files or folders.](overview/_static/image5.png)
 
 The result is that for the beginner, there is very little guidance on how to build a production Web application. Therefore, ASP.NET 4 introduces three new templates, one for an empty Web application project, and one each for a Web Application and Web Site project.
 
@@ -851,17 +851,24 @@ The result is that for the beginner, there is very little guidance on how to bui
 
 As the name suggests, the Empty Web Application template is a stripped-down Web Application project. You select this project template from the Visual Studio New Project dialog box, as shown in the following figure:
 
-[![](overview/_static/image7.png)](overview/_static/image6.png)
+[![Screenshot of the Visual Studio New Project Dialogue box. The entry titled Empty A S P . NET Web Application is highlighted.](overview/_static/image7.png)](overview/_static/image6.png)
 
 ([Click to view full-size image](overview/_static/image8.png))
 
 When you create an Empty ASP.NET Web Application, Visual Studio creates the following folder layout:
 
-<a id="0.2_graphic1D"></a>![](overview/_static/image9.png)
+<a id="0.2_graphic1D"></a>![Screenshot that shows the Visual Studio file menu. The file titled Web . config is highlighted.](overview/_static/image9.png)
 
 This is similar to the Empty Web Site layout from earlier versions of ASP.NET, with one exception. In Visual Studio 2010, Empty Web Application and Empty Web Site projects contain the following minimal `Web.config` file that contains information used by Visual Studio to identify the framework that the project is targeting:
 
-<a id="0.2_graphic1E"></a>![](overview/_static/image10.png)
+```XML
+<?xml version ="1.0"?>
+<configuration>
+    <system.web>
+        <compilation debug="true" targetFramework="4.0" />
+    </system.web>
+</configuration>
+```
 
 Without this *targetFramework* property, Visual Studio defaults to targeting the .NET Framework 2.0 in order to preserve compatibility when opening older applications.
 
@@ -869,21 +876,31 @@ Without this *targetFramework* property, Visual Studio defaults to targeting the
 
 The other two new project templates that are shipped with Visual Studio 2010 contain major changes. The following figure shows the project layout that is created when you create a new Web Application project. (The layout for a Web Site project is virtually identical.)
 
-- <a id="0.2_graphic1F"></a>![](overview/_static/image11.png)
+- <a id="0.2_graphic1F"></a>![Screenshot of the Visual Studio file menu showing the project files an folders created with a new project.](overview/_static/image11.png)
 
 The project includes a number of files that were not created in earlier versions. In addition, the new Web Application project is configured with basic membership functionality, which lets you quickly get started in securing access to the new application. Because of this inclusion, the `Web.config` file for the new project includes entries that are used to configure membership, roles, and profiles. The following example shows the `Web.config` file for a new Web Application project. (In this case, *roleManager* is disabled.)
 
-[![](overview/_static/image13.png)](overview/_static/image12.png)
+[![Screenshot of the Visual Studio editing environment showing an example of a configuration file from a web application project.](overview/_static/image13.png)](overview/_static/image12.png)
 
 ([Click to view full-size image](overview/_static/image14.png))
 
 The project also contains a second `Web.config` file in the `Account` directory. The second configuration file provides a way to secure access to the ChangePassword.aspx page for non-logged in users. The following example shows the contents of the second `Web.config` file.
 
-![](overview/_static/image15.png)
-
+```xml
+<?xml version="1.0"?>
+<configuration>
+    <location path="ChangePassword.aspx">
+        <system.web>
+            <authorization>
+                <deny users="?"/>
+            </authorization>
+        </system.web>
+    </location>
+</configuration>
+```
 The pages created by default in the new project templates also contain more content than in previous versions. The project contains a default master page and CSS file, and the default page (Default.aspx) is configured to use the master page by default. The result is that when you run the Web application or Web site for the first time, the default (home) page is already functional. In fact, it is similar to the default page you see when you start up a new MVC application.
 
-[![](overview/_static/image17.png)](overview/_static/image16.png)
+[![Screenshot that shows a browser view of the default page created when you start a new M V C application.](overview/_static/image17.png)](overview/_static/image16.png)
 
 ([Click to view full-size image](overview/_static/image18.png))
 
@@ -891,19 +908,20 @@ The intention of these changes to the project templates is to provide guidance o
 
 For example, imagine that for a new Web Application you want to change some of the colors and insert your company logo in place of the My ASP.NET Application logo. To do this, you create a new directory under `Content` to store your logo image:
 
-<a id="0.2_graphic23"></a>![](overview/_static/image19.png)
+<a id="0.2_graphic23"></a>![Screenshot that shows a file directory with and images folder containing a logo file.](overview/_static/image19.png)
 
 To add the image to the page, you then open the `Site.Master` file, find where the My ASP.NET Application text is defined, and replace it with an *image* element whose *src* attribute is set to the new logo image, as in the following example:
-
-[![](overview/_static/image21.png)](overview/_static/image20.png)
-
-([Click to view full-size image](overview/_static/image22.png))
+```html
+<div class="title">
+    <img src="Content/Images/ASPNETLogo.jpg" width="376px" height="62px"  border="0" alt="ASP.NET Logo" />
+</div>
+```
 
 You can then go into the Site.css file and modify CSS class definitions to change the background color of the page as well as that of the header.
 
 The result of these changes is that you can display a customized home page with very little effort:
 
-[![](overview/_static/image24.png)](overview/_static/image23.png)
+[![Screenshot that shows a browser view of a customized home page.](overview/_static/image24.png)](overview/_static/image23.png)
 
 ([Click to view full-size image](overview/_static/image25.png))
 
