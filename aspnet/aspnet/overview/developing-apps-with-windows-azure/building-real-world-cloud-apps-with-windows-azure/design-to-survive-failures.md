@@ -2,7 +2,7 @@
 uid: aspnet/overview/developing-apps-with-windows-azure/building-real-world-cloud-apps-with-windows-azure/design-to-survive-failures
 title: "Design to Survive Failures (Building Real-World Cloud Apps with Azure) | Microsoft Docs"
 author: Rick-Anderson
-description: "The Building Real World Cloud Apps with Azure e-book is based on a presentation developed by Scott Guthrie. It explains 13 patterns and practices that can he..."
+description: "The e-book, by Scott Guthrie, explains a representation of 13 patterns and practices. The e-book is called:'Building Real World Cloud Apps with Azure'"
 ms.author: riande
 ms.date: 06/12/2014
 ms.assetid: 364ce84e-5af8-4e08-afc9-75a512b01f84
