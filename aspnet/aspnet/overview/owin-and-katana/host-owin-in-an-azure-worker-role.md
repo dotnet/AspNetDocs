@@ -121,7 +121,7 @@ In Solution Explorer, right-click the AzureApp project. Select **Publish**.
 
 If you are not signed in to your Azure account, click **Sign In**.
 
-![Sign in example image](host-owin-in-an-azure-worker-role/_static/image13.png)
+![Sign-in example image](host-owin-in-an-azure-worker-role/_static/image13.png)
 
 After you are signed in, choose a subscription and click **Next**.
 

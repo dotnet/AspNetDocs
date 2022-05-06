@@ -35,7 +35,7 @@ Next, add the required NuGet packages. From the **Tools** menu, select **NuGet P
 
 `install-package Microsoft.Owin.Host.SystemWeb –Pre`
 
-![Installing Package Manger, example illustration](getting-started-with-owin-and-katana/_static/image3.png)
+![Installing Package Manager, example illustration](getting-started-with-owin-and-katana/_static/image3.png)
 
 ### Add a Startup Class
 
@@ -92,7 +92,7 @@ Change the code in your `Startup1.Configuration` method as follows:
 
 Now use CTRL+F5 to run the application without debugging, so that Visual Studio will not break on the exception. The application behaves the same as before, until you navigate to `http://localhost/fail`, at which point the application throws the exception. The error page middleware will catch the exception and display an HTML page with information about the error. You can click the tabs to see the stack, query string, cookies, request header, and OWIN environment variables.
 
-![Randome exeption image example](getting-started-with-owin-and-katana/_static/image7.png)
+![Random exeption image example](getting-started-with-owin-and-katana/_static/image7.png)
 
 ## Next Steps
 
