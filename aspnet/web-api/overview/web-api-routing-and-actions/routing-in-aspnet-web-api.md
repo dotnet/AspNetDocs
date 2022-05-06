@@ -2,7 +2,7 @@
 uid: web-api/overview/web-api-routing-and-actions/routing-in-aspnet-web-api
 title: "Routing in ASP.NET Web API | Microsoft Docs"
 author: Rick-Anderson
-description: ""
+description: This article describes how ASP.NET Web API routes HTTP requests to controllers.
 ms.author: riande
 ms.date: 10/29/2018
 ms.assetid: 0675bdc7-282f-4f47-b7f3-7e02133940ca
