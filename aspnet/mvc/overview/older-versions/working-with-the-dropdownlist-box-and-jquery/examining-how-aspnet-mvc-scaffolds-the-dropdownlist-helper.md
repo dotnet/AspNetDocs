@@ -15,7 +15,7 @@ by [Rick Anderson](https://twitter.com/RickAndMSFT)
 
 In **Solution Explorer**, right-click the *Controllers* folder and then select **Add Controller**. Name the controller **StoreManagerController**. Set the options for the **Add Controller** dialog as shown in the image below.
 
-![](examining-how-aspnet-mvc-scaffolds-the-dropdownlist-helper/_static/image1.png)
+![Image of Solution Explorer Add Controller dialog box](examining-how-aspnet-mvc-scaffolds-the-dropdownlist-helper/_static/image1.png)
 
 Edit the *StoreManager\Index.cshtml* view and remove `AlbumArtUrl`. Removing `AlbumArtUrl` will make the presentation more readable. The completed code is shown below.
 
@@ -43,17 +43,17 @@ Press CTRL+F5 to run the application. Select to the **Admin** link, then select 
 
 The `StoreManager` controller created by the MVC scaffolding mechanism allows CRUD (Create, Read, Update, Delete) access to the albums in the music store database. The schema for album information is shown below:
 
-![](examining-how-aspnet-mvc-scaffolds-the-dropdownlist-helper/_static/image2.png)
+![Image of Album schema](examining-how-aspnet-mvc-scaffolds-the-dropdownlist-helper/_static/image2.png)
 
 The `Albums` table does not store the album genre and description, it stores a foreign key to the `Genres` table. The `Genres` table contains the genre name and description. Likewise, the `Albums` table doesn't contain the album artists name, but a foreign key to the `Artists` table. The `Artists` table contains the artist's name. If you examine the data in the `Albums` table, you can see each row contains a foreign key to the `Genres` table and a foreign key to the `Artists` table. The image below show some table data from the `Albums` table.
 
-![](examining-how-aspnet-mvc-scaffolds-the-dropdownlist-helper/_static/image3.png)
+![Image of some data from the Albums table](examining-how-aspnet-mvc-scaffolds-the-dropdownlist-helper/_static/image3.png)
 
 ### The HTML Select Tag
 
 The HTML `<select>` element (created by the HTML [DropDownList](https://msdn.microsoft.com/library/dd492948.aspx) helper) is used to display a complete list of values (such as the list of genres). For edit forms, when the current value is known, the select list can display the current value. We saw this previously when we set the selected value to **Comedy**. The select list is ideal for displaying category or foreign key data. The `<select>` element for the Genre foreign key displays the list of possible genre names, but when you save the form the Genre property is updated with the Genre foreign key value, not the displayed genre name. In the image below, the genre selected is **Disco** and the artist is **Donna Summer**.
 
-![](examining-how-aspnet-mvc-scaffolds-the-dropdownlist-helper/_static/image4.png)
+![Image of Disco selected genre](examining-how-aspnet-mvc-scaffolds-the-dropdownlist-helper/_static/image4.png)
 
 ### Examining the ASP.NET MVC Scaffolded Code
 
@@ -81,7 +81,7 @@ The [Html.DropDownList](https://msdn.microsoft.com/library/dd492948.aspx) overlo
 
 The select list would default to the first element, or Rock in our sample.
 
-![](examining-how-aspnet-mvc-scaffolds-the-dropdownlist-helper/_static/image5.png)
+![Image of the default first element](examining-how-aspnet-mvc-scaffolds-the-dropdownlist-helper/_static/image5.png)
 
 Examining the `HTTP POST Create` method.
 
@@ -89,11 +89,11 @@ Examining the `HTTP POST Create` method.
 
 This overload of the `Create` method takes an `album` object, created by the ASP.NET MVC model binding system from the form values posted. When you submit a new album, if model state is valid and there are no database errors, the new album is added the database. The following image shows the creation of a new album.
 
-![](examining-how-aspnet-mvc-scaffolds-the-dropdownlist-helper/_static/image6.png)
+![Image showing the creation of a new album](examining-how-aspnet-mvc-scaffolds-the-dropdownlist-helper/_static/image6.png)
 
 You can use the [fiddler tool](http://www.fiddler2.com/fiddler2/) to examine the posted form values that ASP.NET MVC model binding uses to create the album object.
 
-![](examining-how-aspnet-mvc-scaffolds-the-dropdownlist-helper/_static/image7.png).
+![Image of the Fiddler tool](examining-how-aspnet-mvc-scaffolds-the-dropdownlist-helper/_static/image7.png).
 
 ### Refactoring the ViewBag SelectList Creation
 
@@ -129,7 +129,7 @@ Open the *Views\StoreManager\Edit.cshtml* file, and change the **DropDownList** 
 
 Run the application and click the **Admin** link, then navigate to a Jazz album and select the **Edit** link.
 
-![](examining-how-aspnet-mvc-scaffolds-the-dropdownlist-helper/_static/image8.png)
+![Image of Jazz album selection to edit](examining-how-aspnet-mvc-scaffolds-the-dropdownlist-helper/_static/image8.png)
 
 Instead of showing Jazz as the currently selected genre, Rock is displayed. When the string argument (the property to bind) and the **SelectList** object have the same name, the selected value is not used. When there is no selected value provided, browsers default to the first element in the **SelectList**(which is **Rock** in the example above). This is a known limitation of the **DropDownList** helper.
 
@@ -165,7 +165,7 @@ Add an `EditVM` method to the `StoreManagerController`. The completed code is sh
 
 Right click `AlbumSelectListViewModel`, select **Resolve**, then **using MvcMusicStore.ViewModels;**.
 
-![](examining-how-aspnet-mvc-scaffolds-the-dropdownlist-helper/_static/image9.png)
+![Image selecting resolve](examining-how-aspnet-mvc-scaffolds-the-dropdownlist-helper/_static/image9.png)
 
 Alternatively, you can add the following using statement:
 
@@ -173,7 +173,7 @@ Alternatively, you can add the following using statement:
 
 Right click `EditVM` and select **Add View**. Use the options shown below.
 
-![](examining-how-aspnet-mvc-scaffolds-the-dropdownlist-helper/_static/image10.png)
+![Image showing Add View dialog](examining-how-aspnet-mvc-scaffolds-the-dropdownlist-helper/_static/image10.png)
 
 Select **Add**, then replace the contents of the *Views\StoreManager\EditVM.cshtml* file with the following:
 
@@ -187,7 +187,7 @@ The `EditVM` markup is very similar to the original `Edit` markup with the follo
 
 Run the application and edit an album. Change the URL to use `EditVM`. Change a field and hit the **Save** button to verify the code is working.
 
-![](examining-how-aspnet-mvc-scaffolds-the-dropdownlist-helper/_static/image11.png)
+![Image with U R L change to Edit V M](examining-how-aspnet-mvc-scaffolds-the-dropdownlist-helper/_static/image11.png)
 
 ### Which Approach Should You Use?
 
