@@ -120,7 +120,7 @@ Also include the Management Service (listed under "Management Tools").
 
 **Install Web Deploy 3.0.** When you run IIS Manager, it will prompt you to install Microsoft Web Platform, or you can [download the installer](/iis/publish/using-web-deploy/microsoft-web-deploy-v3-readme). In the Platform Installer, search for Web Deploy and install Web Deploy 3.0
 
-![Screenshot of the WEb Platform Installer 4 point 5 search results screen with the Web Deploy 3 point 0 option being highlighted.](scaleout-with-redis/_static/image7.png)
+![Screenshot of the Web Platform Installer 4 point 5 search results screen with the Web Deploy 3 point 0 option being highlighted.](scaleout-with-redis/_static/image7.png)
 
 Check that the Web Management Service is running. If not, start the service. (If you don't see Web Management Service in the list of Windows services, make sure that you installed the Management Service when you added the IIS role.)
 
