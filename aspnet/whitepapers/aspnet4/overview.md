@@ -2,7 +2,7 @@
 uid: whitepapers/aspnet4/overview
 title: "Overview: ASP.NET 4 and Visual Studio 2010 Web Development | Microsoft Docs"
 author: rick-anderson
-description: "This whitepaper provides an overview of many of the new features for ASP.NET that are included in the.NET Framework 4 and in Visual Studio 2010."
+description: "An overview of many of the new features for ASP.NET that are included in the.NET Framework 4 and in Visual Studio 2010."
 ms.author: riande
 ms.date: 02/10/2010
 ms.assetid: d7729af4-1eda-4ff2-8b61-dbbe4fc11d10
@@ -729,7 +729,7 @@ The control includes the following features:
 
 The following figures show examples of financial charts that are produced by the ASP.NET Chart control.
 
-<a id="0.2_graphic17"></a>![Four financial charts that are examples of charts produced by the A S P dot net chart control.](overview/_static/image1.png)
+<a id="0.2_graphic17"></a>![Four example financial charts produced by the A S P dot net chart control.](overview/_static/image1.png)
 
 Figure 2: ASP.NET Chart control examples
 
@@ -749,7 +749,7 @@ The *Chart* control contains a *ChartAreas* collection, which can contain *Chart
 
 The figure below shows a 3-D chart with four series of the *Bar* chart type.
 
-<a id="0.2_graphic18"></a>![3-D bar chart that shows four series of the Bar chart type.](overview/_static/image2.png)
+<a id="0.2_graphic18"></a>![3 dimensional bar chart showing four series of the Bar chart type.](overview/_static/image2.png)
 
 Figure 3: 3-D Bar Chart
 
@@ -851,13 +851,13 @@ The result is that for the beginner, there is very little guidance on how to bui
 
 As the name suggests, the Empty Web Application template is a stripped-down Web Application project. You select this project template from the Visual Studio New Project dialog box, as shown in the following figure:
 
-[![Screenshot of the Visual Studio New Project Dialogue box. The entry titled Empty A S P . NET Web Application is highlighted.](overview/_static/image7.png)](overview/_static/image6.png)
+[![Screenshot of the Visual Studio New Project Dialogue box. The entry titled Empty A S P dot net Web Application is highlighted.](overview/_static/image7.png)](overview/_static/image6.png)
 
 ([Click to view full-size image](overview/_static/image8.png))
 
 When you create an Empty ASP.NET Web Application, Visual Studio creates the following folder layout:
 
-<a id="0.2_graphic1D"></a>![Screenshot that shows the Visual Studio file menu. The file titled Web . config is highlighted.](overview/_static/image9.png)
+<a id="0.2_graphic1D"></a>![Screenshot that shows the Visual Studio file menu. The file titled Web dot config is highlighted.](overview/_static/image9.png)
 
 This is similar to the Empty Web Site layout from earlier versions of ASP.NET, with one exception. In Visual Studio 2010, Empty Web Application and Empty Web Site projects contain the following minimal `Web.config` file that contains information used by Visual Studio to identify the framework that the project is targeting:
 ```xml
@@ -874,7 +874,7 @@ Without this *targetFramework* property, Visual Studio defaults to targeting the
 
 The other two new project templates that are shipped with Visual Studio 2010 contain major changes. The following figure shows the project layout that is created when you create a new Web Application project. (The layout for a Web Site project is virtually identical.)
 
-- <a id="0.2_graphic1F"></a>![Screenshot of the Visual Studio file menu showing the project files an folders created with a new project.](overview/_static/image11.png)
+- <a id="0.2_graphic1F"></a>![Screenshot of the Visual Studio file menu showing the project files and folders created with a new project.](overview/_static/image11.png)
 
 The project includes a number of files that were not created in earlier versions. In addition, the new Web Application project is configured with basic membership functionality, which lets you quickly get started in securing access to the new application. Because of this inclusion, the `Web.config` file for the new project includes entries that are used to configure membership, roles, and profiles. The following example shows the `Web.config` file for a new Web Application project. (In this case, *roleManager* is disabled.)
 

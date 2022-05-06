@@ -55,7 +55,7 @@ This screen displays what options are to be installed.
 
 Click 'Next &gt;'.
 
-![Screenshot of the Windows configure your server wizard screen titled applying selections. A status bar is shown partially completed.](aspnet-and-iis6/_static/image6.jpg)
+![Screenshot of the configure your server wizard screen. The applying selections status bar displays.](aspnet-and-iis6/_static/image6.jpg)
 
 You will see this screen while the options you selected are being installed. It is normal to see other dialog boxes appear as services are being installed. You may additionally be prompted for the location of the Windows 2003 Server installation CD.
 
@@ -75,7 +75,7 @@ First open the Control Panel:
 
 Next, click on 'Add/Remove Windows Components' which will open the 'Windows Components Wizard':
 
-![Screenshot of  the Windows components wizard windows components screen. A S P dot net is highlighted.](aspnet-and-iis6/_static/image9.jpg)
+![Screenshot of the Windows components wizard window. A S P dot net is highlighted.](aspnet-and-iis6/_static/image9.jpg)
 
 Highlight and check 'Application Server' and then click the 'Details?' button:
 
@@ -177,15 +177,15 @@ To enable integrated authentication between SQL Server and ASP.NET, you will nee
 
 Open SQL Server Enterprise Manager (Start | Programs | Microsoft SQL Server | Enterprise Manager), select the appropriate server, and expand the Security folder:
 
-![A screenshot of the Windows SQL Enterprise Manager screen. The  menu has Logins highlighted.](aspnet-and-iis6/_static/image22.jpg)
+![A screenshot of the Windows S Q L Enterprise Manager screen. The menu has Logins highlighted.](aspnet-and-iis6/_static/image22.jpg)
 
 If 'BUILTINT\IIS\_WPG' group is not listed, right-click on Logins and select 'New Login':
 
-![A screenshot of the Windows SQL Enterprise Manager SQL Server Login Properties screen with the General tab selected.](aspnet-and-iis6/_static/image23.jpg)
+![A screenshot of the Windows S Q L Enterprise Manager SQL Server Login Properties screen with the General tab selected.](aspnet-and-iis6/_static/image23.jpg)
 
 In the 'Name:' textbox either enter '[Server/Domain Name]\IIS\_WPG' or click on the ellipses button to open the Windows NT user/group picker:
 
-![A screenshot of the Windows SQL Enterprise Manager SQL Server Login Properties screen. The screen shows a list of server names.](aspnet-and-iis6/_static/image24.jpg)
+![A screenshot of the Windows S Q L Enterprise Manager SQL Server Login Properties screen. The screen shows a list of server names.](aspnet-and-iis6/_static/image24.jpg)
 
 Select the current machine's IIS\_WPG group and click 'Add' and OK to close the picker.
 
@@ -207,7 +207,7 @@ ASP.NET 1.0 on IIS 6.0 is only supported in IIS 5 compatibility mode.
 
 To configure ASP.NET 1.0 to run in IIS 5.0 compatibility mode, open Internet Services Manager and right click Web Sites and select properties:
 
-![A screenshot of the Windows I I S Manager screen. The  menu has the folder titled Web Sites highlighted.](aspnet-and-iis6/_static/image27.jpg)
+![A screenshot of the Windows I I S Manager screen. The web sites folder is highlighted.](aspnet-and-iis6/_static/image27.jpg)
 
 Switch to the Service Tab and check ?Run WWW Service in IIS 5.0 Isolation Mode?:
 
