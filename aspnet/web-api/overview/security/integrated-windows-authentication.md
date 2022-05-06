@@ -1,7 +1,7 @@
 ---
 uid: web-api/overview/security/integrated-windows-authentication
 title: "Integrated Windows Authentication | Microsoft Docs"
-author: MikeWasson
+author: Rick-Anderson
 description: "Describes using Integrated Windows Authentication in ASP.NET Web API."
 ms.author: riande
 ms.date: 12/18/2012

@@ -1,7 +1,7 @@
 ---
 uid: web-api/overview/web-api-routing-and-actions/routing-in-aspnet-web-api
 title: "Routing in ASP.NET Web API | Microsoft Docs"
-author: MikeWasson
+author: Rick-Anderson
 description: ""
 ms.author: riande
 ms.date: 10/29/2018
