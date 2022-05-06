@@ -2,7 +2,7 @@
 uid: aspnet/overview/developing-apps-with-windows-azure/building-real-world-cloud-apps-with-windows-azure/data-partitioning-strategies
 title: "Data Partitioning Strategies (Building Real-World Cloud Apps with Azure) | Microsoft Docs"
 author: Rick-Anderson
-description: "The Building Real World Cloud Apps with Azure e-book is based on a presentation developed by Scott Guthrie. It explains 13 patterns and practices that can he..."
+description: "There is an e-book called: Building Real World Cloud Apps with Azure. The e-book is based on a presentation developed by Scott Guthrie and explains 13 patterns and practices that can he..."
 ms.author: riande
 ms.date: 06/12/2014
 ms.assetid: 513837a7-cfea-4568-a4e9-1f5901245d24
