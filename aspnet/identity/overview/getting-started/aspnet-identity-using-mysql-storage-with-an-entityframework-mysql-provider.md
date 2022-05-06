@@ -30,27 +30,27 @@ At the end of this tutorial, you will have an MVC application with the ASP.NET I
 1. Log in to the [Azure Portal](https://go.microsoft.com/fwlink/?linkid=529715&amp;clcid=0x409).
 2. Click **NEW** at the bottom of the page, and then select **STORE**:
 
-    [![](aspnet-identity-using-mysql-storage-with-an-entityframework-mysql-provider/_static/image2.png)](aspnet-identity-using-mysql-storage-with-an-entityframework-mysql-provider/_static/image1.png)
+    [![Displays menu with STORE entry selected.](aspnet-identity-using-mysql-storage-with-an-entityframework-mysql-provider/_static/image2.png)](aspnet-identity-using-mysql-storage-with-an-entityframework-mysql-provider/_static/image1.png)
 3. In the **Choose and Add-on** wizard, select **ClearDB MySQL Database**, and then click the **Next** arrow at the bottom of the frame:
 
    [Click the following image to expand it. ]
-    [![](aspnet-identity-using-mysql-storage-with-an-entityframework-mysql-provider/_static/image4.png)](aspnet-identity-using-mysql-storage-with-an-entityframework-mysql-provider/_static/image3.png)
+    [![Displays Choose and Add-on wizard, with ClearDB MySQL Database selected.](aspnet-identity-using-mysql-storage-with-an-entityframework-mysql-provider/_static/image4.png)](aspnet-identity-using-mysql-storage-with-an-entityframework-mysql-provider/_static/image3.png)
 4. Keep the default **Free** plan, change the **NAME** to **IdentityMySQLDatabase**, select the region that is nearest to you, and then click the **Next** arrow at the bottom of the frame:
 
    [Click the following image to expand it. ]
-    [![](aspnet-identity-using-mysql-storage-with-an-entityframework-mysql-provider/_static/image6.png)](aspnet-identity-using-mysql-storage-with-an-entityframework-mysql-provider/_static/image5.png)
+    [![Illustrates how to change the NAME to IdentityMySQLDatabase and select region.](aspnet-identity-using-mysql-storage-with-an-entityframework-mysql-provider/_static/image6.png)](aspnet-identity-using-mysql-storage-with-an-entityframework-mysql-provider/_static/image5.png)
 5. Click the **PURCHASE** checkmark to complete the database creation.
 
    [Click the following image to expand it. ]
-    [![](aspnet-identity-using-mysql-storage-with-an-entityframework-mysql-provider/_static/image8.png)](aspnet-identity-using-mysql-storage-with-an-entityframework-mysql-provider/_static/image7.png)
+    [![Illustrates Review Purchase process with PURCHASE checkmark selected.](aspnet-identity-using-mysql-storage-with-an-entityframework-mysql-provider/_static/image8.png)](aspnet-identity-using-mysql-storage-with-an-entityframework-mysql-provider/_static/image7.png)
 6. After your database has been created, you can manage it from the **ADD-ONS** tab in the management portal. To retrieve the connection information for your database, click **CONNECTION INFO** at the bottom of the page:
 
    [Click the following image to expand it. ]
-    [![](aspnet-identity-using-mysql-storage-with-an-entityframework-mysql-provider/_static/image10.png)](aspnet-identity-using-mysql-storage-with-an-entityframework-mysql-provider/_static/image9.png)
+    [![Illustrates management portal with ADD-ONS tab highlighted at left and CONNECTION INFO highlighted at bottom.](aspnet-identity-using-mysql-storage-with-an-entityframework-mysql-provider/_static/image10.png)](aspnet-identity-using-mysql-storage-with-an-entityframework-mysql-provider/_static/image9.png)
 7. Copy the connection string by clicking on the copy button by the **CONNECTIONSTRING** field and save it; you will use this information later in this tutorial for your MVC application:
 
    [Click the following image to expand it. ]
-    [![](aspnet-identity-using-mysql-storage-with-an-entityframework-mysql-provider/_static/image12.png)](aspnet-identity-using-mysql-storage-with-an-entityframework-mysql-provider/_static/image11.png)
+    [![Illustrates Connection info screen with copy button highlighted by the CONNECTIONSTRING field.](aspnet-identity-using-mysql-storage-with-an-entityframework-mysql-provider/_static/image12.png)](aspnet-identity-using-mysql-storage-with-an-entityframework-mysql-provider/_static/image11.png)
 
 ## Creating an MVC application project
 
@@ -60,15 +60,15 @@ To complete the steps in this section of the tutorial, you will first need to in
 2. Click **New Project** from the **Start** page, or you can click the **File** menu and then **New Project**:
 
    [Click the following image to expand it. ]
-    [![](aspnet-identity-using-mysql-storage-with-an-entityframework-mysql-provider/_static/image2.jpg)](aspnet-identity-using-mysql-storage-with-an-entityframework-mysql-provider/_static/image1.jpg)
+    [![Illustrates Visual Studio Start page, with New Project selected at left.](aspnet-identity-using-mysql-storage-with-an-entityframework-mysql-provider/_static/image2.jpg)](aspnet-identity-using-mysql-storage-with-an-entityframework-mysql-provider/_static/image1.jpg)
 3. When the **New Project** dialog box is displayed, expand **Visual C#** in the list of templates, then click **Web**, and select **ASP.NET Web Application**. Name your project **IdentityMySQLDemo** and then click **OK**:
 
    [Click the following image to expand it. ]
-    [![](aspnet-identity-using-mysql-storage-with-an-entityframework-mysql-provider/_static/image14.png)](aspnet-identity-using-mysql-storage-with-an-entityframework-mysql-provider/_static/image13.png)
-4. In the **New ASP.NET Project** dialog, select the **MVC** templatewith the default options; this will configure **Individual User Accounts** as the authentication method. Click **OK**:
+    [![Displays New Project dialog box, with Visual C# expanded at left and Web highlighted. ASP.NET Web Application selected at right with project name IdentityMySQLDemo in name field at bottom.](aspnet-identity-using-mysql-storage-with-an-entityframework-mysql-provider/_static/image14.png)](aspnet-identity-using-mysql-storage-with-an-entityframework-mysql-provider/_static/image13.png)
+4. In the **New ASP.NET Project** dialog, select the **MVC** template with the default options; this will configure **Individual User Accounts** as the authentication method. Click **OK**:
 
    [Click the following image to expand it. ]
-    [![](aspnet-identity-using-mysql-storage-with-an-entityframework-mysql-provider/_static/image16.png)](aspnet-identity-using-mysql-storage-with-an-entityframework-mysql-provider/_static/image15.png)
+    [![Illustrates New ASP.NET Project dialog, with MVC template selected and default options checked.](aspnet-identity-using-mysql-storage-with-an-entityframework-mysql-provider/_static/image16.png)](aspnet-identity-using-mysql-storage-with-an-entityframework-mysql-provider/_static/image15.png)
 
 ## Configure EntityFramework to work with a MySQL database
 
@@ -80,11 +80,11 @@ The MVC application that was created from the Visual Studio 2013 template contai
 2. Click **Tools**, then click **NuGet Package Manager**, and then click **Package Manager Console**:
 
    [Click the following image to expand it. ]
-    [![](aspnet-identity-using-mysql-storage-with-an-entityframework-mysql-provider/_static/image18.png)](aspnet-identity-using-mysql-storage-with-an-entityframework-mysql-provider/_static/image17.png)
+    [![Illustrates MVC project in Visual Studio, with Tools selected in top menu, Library Package Manager selected at left and Package Manager Console selected at right.](aspnet-identity-using-mysql-storage-with-an-entityframework-mysql-provider/_static/image18.png)](aspnet-identity-using-mysql-storage-with-an-entityframework-mysql-provider/_static/image17.png)
 3. The **Package Manager Console** will appear in the bottom section of Visual Studio. Type &quot;**Update-Package EntityFramework**&quot; and press Enter:
 
    [Click the following image to expand it. ]
-    [![](aspnet-identity-using-mysql-storage-with-an-entityframework-mysql-provider/_static/image20.png)](aspnet-identity-using-mysql-storage-with-an-entityframework-mysql-provider/_static/image19.png)
+    [![Illustrates Package Manager Console in bottom section of Visual Studio, with Update-Package EntityFramework instruction displayed on command line.](aspnet-identity-using-mysql-storage-with-an-entityframework-mysql-provider/_static/image20.png)](aspnet-identity-using-mysql-storage-with-an-entityframework-mysql-provider/_static/image19.png)
 
 ### Install the MySQL provider for EntityFramework
 
@@ -95,7 +95,7 @@ In order for EntityFramework to connect to MySQL database, you need to install a
 
 [Click the following image to expand it.]
 
-[![](aspnet-identity-using-mysql-storage-with-an-entityframework-mysql-provider/_static/image22.png)](aspnet-identity-using-mysql-storage-with-an-entityframework-mysql-provider/_static/image21.png)
+[![[Illustrates Package Manager Console in bottom section of Visual Studio, with Install-Package MySql.Data.Entity -Pre instruction displayed on command line.](aspnet-identity-using-mysql-storage-with-an-entityframework-mysql-provider/_static/image22.png)](aspnet-identity-using-mysql-storage-with-an-entityframework-mysql-provider/_static/image21.png)
 
 ### Making project configuration changes to the Web.config file for your application
 
@@ -150,15 +150,15 @@ Once you have completed the steps in the preceding sections, you should test you
 2. Click the **Register** tab on the top of the page:
 
    [Click the following image to expand it. ]
-    [![](aspnet-identity-using-mysql-storage-with-an-entityframework-mysql-provider/_static/image4.jpg)](aspnet-identity-using-mysql-storage-with-an-entityframework-mysql-provider/_static/image3.jpg)
+    [![Displays ASP.NET page, with Register tab highlighted in black bar at upper right.](aspnet-identity-using-mysql-storage-with-an-entityframework-mysql-provider/_static/image4.jpg)](aspnet-identity-using-mysql-storage-with-an-entityframework-mysql-provider/_static/image3.jpg)
 3. Enter a new user name and password, and then click **Register**:
 
    [Click the following image to expand it. ]
-    [![](aspnet-identity-using-mysql-storage-with-an-entityframework-mysql-provider/_static/image24.png)](aspnet-identity-using-mysql-storage-with-an-entityframework-mysql-provider/_static/image23.png)
+    [![Displays ASP.NET registration interface, with user name, password, and confirm password fields completed and Register button highlighted below.](aspnet-identity-using-mysql-storage-with-an-entityframework-mysql-provider/_static/image24.png)](aspnet-identity-using-mysql-storage-with-an-entityframework-mysql-provider/_static/image23.png)
 4. At this point the ASP.NET Identity tables are created on the MySQL Database, and the user is registered and logged into the application:
 
    [Click the following image to expand it. ]
-    [![](aspnet-identity-using-mysql-storage-with-an-entityframework-mysql-provider/_static/image6.jpg)](aspnet-identity-using-mysql-storage-with-an-entityframework-mysql-provider/_static/image5.jpg)
+    [![Displays ASP.NET page after user has completed registration. Tab with Hello greeting, followed by username, is highlighted in black bar at upper right.](aspnet-identity-using-mysql-storage-with-an-entityframework-mysql-provider/_static/image6.jpg)](aspnet-identity-using-mysql-storage-with-an-entityframework-mysql-provider/_static/image5.jpg)
 
 ### Installing MySQL Workbench tool to verify the data
 
@@ -169,8 +169,8 @@ Once you have completed the steps in the preceding sections, you should test you
 5. You will see that all ASP.NET Identity required tables are created as shown in the image below:
 
    [Click the following image to expand it. ]
-    [![](aspnet-identity-using-mysql-storage-with-an-entityframework-mysql-provider/_static/image8.jpg)](aspnet-identity-using-mysql-storage-with-an-entityframework-mysql-provider/_static/image7.jpg)
+    [![Illustrates MySQL Workbench screen that appears under the applications section in the Feature Selection tab of the installation wizard. ASP.NET Identity required tables are highlighted at lower left.](aspnet-identity-using-mysql-storage-with-an-entityframework-mysql-provider/_static/image8.jpg)](aspnet-identity-using-mysql-storage-with-an-entityframework-mysql-provider/_static/image7.jpg)
 6. Inspect the **aspnetusers** table for instance to check for the entries as you register new users.
 
    [Click the following image to expand it. ]
-    [![](aspnet-identity-using-mysql-storage-with-an-entityframework-mysql-provider/_static/image26.png)](aspnet-identity-using-mysql-storage-with-an-entityframework-mysql-provider/_static/image25.png)
+    [![Illustrates aspnetusers table, with entries displaying Id, UserName, PasswordHash, SecurityStamp, and Discriminator columns.](aspnet-identity-using-mysql-storage-with-an-entityframework-mysql-provider/_static/image26.png)](aspnet-identity-using-mysql-storage-with-an-entityframework-mysql-provider/_static/image25.png)
