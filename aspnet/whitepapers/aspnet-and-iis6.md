@@ -29,39 +29,39 @@ To start the wizard - note, to run the wizard you must be logged in as an admini
 
 Once selected you should see the 'Configure Your Server Wizard' opening screen:
 
-![](aspnet-and-iis6/_static/image1.jpg)
+![Screenshot of the Windows Server 2003 'Configure Your Server Wizard' opening screen. The next button is highlighted.](aspnet-and-iis6/_static/image1.jpg)
 
 Click 'Next &gt;':
 
-![](aspnet-and-iis6/_static/image2.jpg)
+![Screenshot of the Windows Server 2003 'Configure Your Server Wizard' 'preliminary steps' screen. The next button is highlighted.](aspnet-and-iis6/_static/image2.jpg)
 
 Click 'Next &gt;'
 
-![](aspnet-and-iis6/_static/image3.jpg)
+![Screenshot of the Windows Server 2003 'Configure Your Server Wizard' 'server role' screen. The menu shows the 'Application server' option highlighted.](aspnet-and-iis6/_static/image3.jpg)
 
 On this screen you will need to select 'Application server (IIS, ASP.NET) as the options to configure.
 
 Click 'Next &gt;'.
 
-![](aspnet-and-iis6/_static/image4.jpg)
+![Screenshot of the Windows Server 2003 'Configure Your Server Wizard' 'Application Server Options' screen. The Enable A S P . NET box is checked.](aspnet-and-iis6/_static/image4.jpg)
 
 After selecting to configure the server as an Application Server, this screen will be displayed prompting what additional capabilities should be installed. Neither option is selected by default. To enable ASP.NET automatically, you need to select 'Enable ASP.NET'.
 
 Click 'Next &gt;'.
 
-![](aspnet-and-iis6/_static/image5.jpg)
+![Screenshot of the Windows Server 2003 'Configure Your Server Wizard' 'summary of selections' screen. The 'Next' button is highlighted.](aspnet-and-iis6/_static/image5.jpg)
 
 This screen displays what options are to be installed.
 
 Click 'Next &gt;'.
 
-![](aspnet-and-iis6/_static/image6.jpg)
+![Screenshot of the Windows Server 2003 'Configure Your Server Wizard' 'applying selections' screen. A status bar is shown partially completed.](aspnet-and-iis6/_static/image6.jpg)
 
 You will see this screen while the options you selected are being installed. It is normal to see other dialog boxes appear as services are being installed. You may additionally be prompted for the location of the Windows 2003 Server installation CD.
 
 Click 'Next &gt;' when complete.
 
-![](aspnet-and-iis6/_static/image7.jpg)
+![Screenshot of the Windows Server 2003 'Configure Your Server Wizard' 'success' screen. The 'Finish' button is highlighted.](aspnet-and-iis6/_static/image7.jpg)
 
 Click 'Finish' - the Windows Server 2003 is now configured to support IIS 6.0 and ASP.NET 1.1.
 
@@ -71,27 +71,27 @@ If you do not wish to use the 'Configure Your Server Wizard' you can optionally 
 
 First open the Control Panel:
 
-![](aspnet-and-iis6/_static/image8.jpg)
+![Screenshot of the Windows Server 2003 'Add or Remove Programs' screen. The 'M S D N Library for Visual Studio .NET 2003' option highlighted.](aspnet-and-iis6/_static/image8.jpg)
 
 Next, click on 'Add/Remove Windows Components' which will open the 'Windows Components Wizard':
 
-![](aspnet-and-iis6/_static/image9.jpg)
+![Screenshot of the Windows Server 2003 'Windows Components Wizard' screen. 'Application Server' is highlighted.](aspnet-and-iis6/_static/image9.jpg)
 
 Highlight and check 'Application Server' and then click the 'Details?' button:
 
-![](aspnet-and-iis6/_static/image10.jpg)
+![Screenshot of the Windows Server 2003 'Add or Remove Programs' screen. The 'M S D N Library for Visual Studio .NET 2003' option highlighted.](aspnet-and-iis6/_static/image10.jpg)
 
 To install ASP.NET, check 'ASP.NET'.
 
 Click 'OK' to return to the Windows Component Wizard. Click 'Next &gt;' from the Windows Component Wizard to begin installing:
 
-![](aspnet-and-iis6/_static/image11.jpg)
+![Screenshot of the Windows Server 2003 'Windows Components Wizard' 'Application Server' screen. 'A S P .NET' is highlighted.](aspnet-and-iis6/_static/image11.jpg)
 
 It is normal to see other dialog boxes appear as services are being installed. You may additionally be prompted for the location of the Windows 2003 Server installation CD.
 
 When installation is complete you will see the last screen of the Windows Component Wizard:
 
-![](aspnet-and-iis6/_static/image12.jpg)
+![Screenshot of the Windows Server 2003 'Windows Components Wizard' 'configuring components' screen. A status bar is in progress.](aspnet-and-iis6/_static/image12.jpg)
 
 IIS 6.0 and ASP.NET 1.1 are now configured and available.
 
@@ -110,15 +110,15 @@ It is recommended that you configure the memory recycling feature of IIS 6.0. To
 
 For each application pool:
 
-![](aspnet-and-iis6/_static/image13.jpg)
+![Screenshot of the Windows Server 2003 I I S manager screen. The left file menu shows the folder titled 'Application Pools' highlighted.](aspnet-and-iis6/_static/image13.jpg)
 
 1. Right-click on the application pool, e.g. 'DefaultAppPool', and select 'Properties':
 
-![](aspnet-and-iis6/_static/image14.jpg)
+![Screenshot of the Windows Server 2003 I I S manager 'DefaultAppPool Properties' screen. The option 'Recycle worker processes (in minutes) is checked.](aspnet-and-iis6/_static/image14.jpg)
 
 2. Next, enable Memory recycling by clicking on either 'Maximum used memory (in megabytes):'. The value should not be more than the amount of physical (not virtual) memory on the server, a good approximation is 60% of the physical memory, i.e. for a server with 512MB of physical memory select 310. It is also recommended that the maximum not exceed 800MB when using a 2GB address space. If the memory address space of the server is 3GB, the maximum memory limit for the worker process can be as high as 1,800MB:
 
-![](aspnet-and-iis6/_static/image15.jpg)
+![Screenshot of the Windows Server 2003 I I S manager 'DefaultAppPool Properties' screen. The option 'Recycle worker processes (in minutes) is unchecked.](aspnet-and-iis6/_static/image15.jpg)
 
 Click 'Apply' and the 'OK' to exit the properties dialog. Repeat this for all available application pools.
 
@@ -128,17 +128,17 @@ By default IIS 6.0 is configured to recycle its worker process every 29 hours. T
 
 To disable automatic worker process recycling, first open Internet Information Services Manager (Start | Programs | Administrative Tools | Internet Information Services). Once open, expand the 'Application Pools' folder:
 
-![](aspnet-and-iis6/_static/image16.jpg)
+![Screenshot of the Windows Server 2003 I I S manager screen. The left file menu shows the folder titled 'Application Pools' highlighted.](aspnet-and-iis6/_static/image16.jpg)
 
 For each application pool:
 
 1. Right-click on the application pool, e.g. 'DefaultAppPool', and select 'Properties':
 
-![](aspnet-and-iis6/_static/image17.jpg)
+![Screenshot of the Windows Server 2003 I I S 'DefaultAppPool Properties' screen. The option 'Recycle worker processes (in minutes) is checked.](aspnet-and-iis6/_static/image17.jpg)
 
 2. Uncheck 'Recycle worker process (in minutes):':
 
-![](aspnet-and-iis6/_static/image18.jpg)
+![Screenshot of the Windows Server 2003 I I S 'DefaultAppPool Properties' screen. The option 'Recycle worker processes (in minutes) is unchecked.](aspnet-and-iis6/_static/image18.jpg)
 
 Click 'Apply' and the 'OK' to exit the properties dialog. Repeat this for all available application pools.
 
@@ -148,15 +148,15 @@ If your application requires write access to the file system and you are using N
 
 For example, to grant ASP.NET write access to the c:\inetpub\wwwroot first open explorer and navigate to the directory:
 
-![](aspnet-and-iis6/_static/image19.jpg)
+![A screenshot of the Windows Server 2003 file explorer. The folder in view is c:\inetpub\wwwroot.](aspnet-and-iis6/_static/image19.jpg)
 
 Next, right-click on the directory, e.g. 'wwwroot' and select properties. After the properties dialog opens, select the 'Security' tab:
 
-![](aspnet-and-iis6/_static/image20.jpg)
+![A screenshot of the Windows Server 2003 'wwwroot Properties' screen. The 'Security' tab is selected.](aspnet-and-iis6/_static/image20.jpg)
 
 The c:\inetpub\wwwroot\ directory is a special directory in that the special IIS 6.0 group 'IIS\_WPG' is already granted Read &amp; Execute, List Folder Contents, and Read permissions. However, to grant Write permission, you need to click the Allow checkbox for Write:
 
-![](aspnet-and-iis6/_static/image21.jpg)
+![A screenshot of the Windows Server 2003 'wwwroot Properties' screen. The 'Security' tab is selected.](aspnet-and-iis6/_static/image21.jpg)
 
 IIS 6.0 now has write permission on this folder. To grant write permissions on other folders, follow these steps - note, you may need to add the IIS\_WPG group if it does not already exist.
 
@@ -177,25 +177,25 @@ To enable integrated authentication between SQL Server and ASP.NET, you will nee
 
 Open SQL Server Enterprise Manager (Start | Programs | Microsoft SQL Server | Enterprise Manager), select the appropriate server, and expand the Security folder:
 
-![](aspnet-and-iis6/_static/image22.jpg)
+![A screenshot of the Windows Server 2003 SQL Enterprise Manager screen. The left menu has 'Logins' highlighted.](aspnet-and-iis6/_static/image22.jpg)
 
 If 'BUILTINT\IIS\_WPG' group is not listed, right-click on Logins and select 'New Login':
 
-![](aspnet-and-iis6/_static/image23.jpg)
+![A screenshot of the Windows Server 2003 SQL Enterprise Manager 'SQL Server Login Properties' screen. The General tab is selected.](aspnet-and-iis6/_static/image23.jpg)
 
 In the 'Name:' textbox either enter '[Server/Domain Name]\IIS\_WPG' or click on the ellipses button to open the Windows NT user/group picker:
 
-![](aspnet-and-iis6/_static/image24.jpg)
+![A screenshot of the Windows Server 2003 SQL Enterprise Manager 'SQL Server Login Properties' screen. The screen shows a list of server names.](aspnet-and-iis6/_static/image24.jpg)
 
 Select the current machine's IIS\_WPG group and click 'Add' and OK to close the picker.
 
 You then need to also set the default database and the permissions to access the database. To set the default database choose from the drop down list, e.g. below Northwind is selected:
 
-![](aspnet-and-iis6/_static/image25.jpg)
+![A screenshot of the Windows Server 2003 SQL Enterprise Manager 'SQL Server Login Properties' screen. The General tab is selected.](aspnet-and-iis6/_static/image25.jpg)
 
 Next, click on the Database Access tab:
 
-![](aspnet-and-iis6/_static/image26.jpg)
+![A screenshot of the Windows Server 2003 SQL Enterprise Manager 'SQL Server Login Properties' screen. The Database Access tab is selected.](aspnet-and-iis6/_static/image26.jpg)
 
 Click on the Permit checkbox for every database that you wish to allow access to. You will also need to select database roles, checking db\_owner will ensure your login has all necessary permissions to manage and use the selected database.
 
@@ -207,8 +207,8 @@ ASP.NET 1.0 on IIS 6.0 is only supported in IIS 5 compatibility mode.
 
 To configure ASP.NET 1.0 to run in IIS 5.0 compatibility mode, open Internet Services Manager and right click Web Sites and select properties:
 
-![](aspnet-and-iis6/_static/image27.jpg)
+![A screenshot of the Windows Server 2003 I I S Manager screen. The left menu has 'Web Sites' highlighted.](aspnet-and-iis6/_static/image27.jpg)
 
 Switch to the Service Tab and check ?Run WWW Service in IIS 5.0 Isolation Mode?:
 
-![](aspnet-and-iis6/_static/image28.jpg)
+![A screenshot of the Windows Server 2003 I I S Manager 'Web Site Properties' screen. The Service tab is selected.](aspnet-and-iis6/_static/image28.jpg)
