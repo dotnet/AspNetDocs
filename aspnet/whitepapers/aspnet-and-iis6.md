@@ -71,7 +71,7 @@ If you do not wish to use the 'Configure Your Server Wizard' you can optionally 
 
 First open the Control Panel:
 
-![Screenshot of the Windows Server 2003 'Add or Remove Programs' screen. The 'M S D N Library for Visual Studio .NET 2003' option highlighted.](aspnet-and-iis6/_static/image8.jpg)
+![Screenshot of the Windows Server 2003 'Add or Remove Programs' screen with the 'M S D N Library for Visual Studio .NET 2003' option highlighted.](aspnet-and-iis6/_static/image8.jpg)
 
 Next, click on 'Add/Remove Windows Components' which will open the 'Windows Components Wizard':
 
@@ -79,7 +79,7 @@ Next, click on 'Add/Remove Windows Components' which will open the 'Windows Comp
 
 Highlight and check 'Application Server' and then click the 'Details?' button:
 
-![Screenshot of the Windows Server 2003 'Add or Remove Programs' screen. The 'M S D N Library for Visual Studio .NET 2003' option highlighted.](aspnet-and-iis6/_static/image10.jpg)
+![Screenshot of the Windows Server 2003 'Add or Remove Programs' screen. The 'M S D N Library for Visual Studio .NET 2003' option is highlighted.](aspnet-and-iis6/_static/image10.jpg)
 
 To install ASP.NET, check 'ASP.NET'.
 
@@ -110,7 +110,7 @@ It is recommended that you configure the memory recycling feature of IIS 6.0. To
 
 For each application pool:
 
-![Screenshot of the Windows Server 2003 I I S manager screen. The left file menu shows the folder titled 'Application Pools' highlighted.](aspnet-and-iis6/_static/image13.jpg)
+![Screenshot of the Windows Server 2003 I I S manager screen. The left file menu shows the 'Application Pools' folder highlighted.](aspnet-and-iis6/_static/image13.jpg)
 
 1. Right-click on the application pool, e.g. 'DefaultAppPool', and select 'Properties':
 
@@ -128,7 +128,7 @@ By default IIS 6.0 is configured to recycle its worker process every 29 hours. T
 
 To disable automatic worker process recycling, first open Internet Information Services Manager (Start | Programs | Administrative Tools | Internet Information Services). Once open, expand the 'Application Pools' folder:
 
-![Screenshot of the Windows Server 2003 I I S manager screen. The left file menu shows the folder titled 'Application Pools' highlighted.](aspnet-and-iis6/_static/image16.jpg)
+![Screenshot of the Windows Server 2003 I I S manager screen. The left file menu shows the folder 'Application Pools' highlighted.](aspnet-and-iis6/_static/image16.jpg)
 
 For each application pool:
 
@@ -152,11 +152,11 @@ For example, to grant ASP.NET write access to the c:\inetpub\wwwroot first open 
 
 Next, right-click on the directory, e.g. 'wwwroot' and select properties. After the properties dialog opens, select the 'Security' tab:
 
-![A screenshot of the Windows Server 2003 'wwwroot Properties' screen. The 'Security' tab is selected.](aspnet-and-iis6/_static/image20.jpg)
+![A screenshot of the Windows Server 2003 'wwwroot Properties' screen with the Security tab selected.](aspnet-and-iis6/_static/image20.jpg)
 
 The c:\inetpub\wwwroot\ directory is a special directory in that the special IIS 6.0 group 'IIS\_WPG' is already granted Read &amp; Execute, List Folder Contents, and Read permissions. However, to grant Write permission, you need to click the Allow checkbox for Write:
 
-![A screenshot of the Windows Server 2003 'wwwroot Properties' screen. The 'Security' tab is selected.](aspnet-and-iis6/_static/image21.jpg)
+![A screenshot of the Windows Server 2003 'wwwroot Properties' screen. The Security tab is selected.](aspnet-and-iis6/_static/image21.jpg)
 
 IIS 6.0 now has write permission on this folder. To grant write permissions on other folders, follow these steps - note, you may need to add the IIS\_WPG group if it does not already exist.
 
@@ -181,7 +181,7 @@ Open SQL Server Enterprise Manager (Start | Programs | Microsoft SQL Server | En
 
 If 'BUILTINT\IIS\_WPG' group is not listed, right-click on Logins and select 'New Login':
 
-![A screenshot of the Windows Server 2003 SQL Enterprise Manager 'SQL Server Login Properties' screen. The General tab is selected.](aspnet-and-iis6/_static/image23.jpg)
+![A screenshot of the Windows Server 2003 SQL Enterprise Manager 'SQL Server Login Properties' screen with the General tab selected.](aspnet-and-iis6/_static/image23.jpg)
 
 In the 'Name:' textbox either enter '[Server/Domain Name]\IIS\_WPG' or click on the ellipses button to open the Windows NT user/group picker:
 
