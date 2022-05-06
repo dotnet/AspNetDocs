@@ -2,7 +2,7 @@
 uid: aspnet/overview/developing-apps-with-windows-azure/building-real-world-cloud-apps-with-windows-azure/more-patterns-and-guidance
 title: "More Patterns and Guidance (Building Real-World Cloud Apps with Azure) | Microsoft Docs"
 author: Rick-Anderson
-description: "The Building Real World Cloud Apps with Azure e-book is based on a presentation developed by Scott Guthrie. It explains 13 patterns and practices that can he..."
+description: "There is an electronic book called: Building Real World Cloud Apps with Azure. This e-book is based on a presentation developed by Scott Guthrie."
 ms.author: riande
 ms.date: 06/12/2014
 ms.assetid: 7e97cfc3-d830-4002-8ff7-5790d1ff49e6
