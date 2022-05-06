@@ -71,7 +71,7 @@ The best way to understand precompilation for deployment is to see an example in
 
 Open the Book Review WSP in Visual Studio, go to the Build menu, and select the Publish Web Site menu option. This launches the Publish Web Site dialog box (see **Figure 1**), where you can specify the target location, whether or not the precompiled site's user interface is updatable, and other compiler tool options. The target location can be a remote web server or FTP server, but for now choose a folder on your computer's hard drive. Because we want to precompile the site with an updatable user interface, leave the "Allow this precompiled site to be updatable" checkbox checked and click OK.
 
-[![](precompiling-your-website-cs/_static/image2.png)](precompiling-your-website-cs/_static/image1.png)
+[![Screenshot that shows how the A S P dot NET Compilation tool can precompile your website to a target location.](precompiling-your-website-cs/_static/image2.png)](precompiling-your-website-cs/_static/image1.png)
 
 **Figure 1**: The ASP.NET Compilation Tool Will Precompile Your Website to the Specified Target Location  
  ([Click to view full-size image](precompiling-your-website-cs/_static/image3.png))
@@ -81,14 +81,14 @@ Open the Book Review WSP in Visual Studio, go to the Build menu, and select the 
 
 After precompiling the website, navigate to the target location you entered in the Publish Web Site dialog box. Take a moment to compare the contents of this folder with the contents of your website. **Figure 2** shows the Book Reviews website folder. Note that it contains both `.aspx` and `.aspx.cs` files. Also, note that the `Bin` directory includes only one file, `Elmah.dll`, which we added in the [preceding tutorial](logging-error-details-with-elmah-cs.md)
 
-[![](precompiling-your-website-cs/_static/image5.png)](precompiling-your-website-cs/_static/image4.png)
+[![Screenshot that shows the project directory that contains the dot a s p x and . a s p x dot c s files.](precompiling-your-website-cs/_static/image5.png)](precompiling-your-website-cs/_static/image4.png)
 
 **Figure 2**: The Project Directory Contains `.aspx` and `.aspx.cs` Files; the `Bin` Folder Includes Just `Elmah.dll`  
  ([Click to view full-size image](precompiling-your-website-cs/_static/image6.png))
 
 **Figure 3** shows the target location folder whose contents were created by the ASP.NET compilation tool. This folder does not contain any code-behind files. Moreover, this folder's `Bin` directory includes several assemblies and two `.compiled` files in addition to the `Elmah.dll` assembly.
 
-[![](precompiling-your-website-cs/_static/image8.png)](precompiling-your-website-cs/_static/image7.png)
+[![Screenshot that shows how the target location folder includes the files for deployment.](precompiling-your-website-cs/_static/image8.png)](precompiling-your-website-cs/_static/image7.png)
 
 **Figure 3**: The Target Location Folder Includes the Files for Deployment  
  ([Click to view full-size image](precompiling-your-website-cs/_static/image9.png))
@@ -106,21 +106,21 @@ Finally, take a moment to open one of the `.aspx` files in the target location u
 
 The ASP.NET compiler tool can also be used to precompile a site for deployment with a non-updatable UI. Precompiling the site with a non-updatable UI works much like precompiling with an updatable UI, the key difference being that the ASP.NET pages, User Controls, and master pages in the target directory are stripped of their markup. To precompile a website for deployment with a non-updatable UI, choose the Publish Web Site option from the Build menu, but uncheck the "Allow this precompiled site to be updatable" option (see **Figure 4**).
 
-[![](precompiling-your-website-cs/_static/image11.png)](precompiling-your-website-cs/_static/image10.png)
+[![Screenshot that shows the unchecked Allow this precompiled site to be updatable option.](precompiling-your-website-cs/_static/image11.png)](precompiling-your-website-cs/_static/image10.png)
 
 **Figure 4**: Uncheck the "Allow this precompiled site to be updatable" Option To Precompile With a Non-Updatable UI  
  ([Click to view full-size image](precompiling-your-website-cs/_static/image12.png))
 
 **Figure 5** shows the target location folder after precompiling with a non-updatable user interface.
 
-[![](precompiling-your-website-cs/_static/image14.png)](precompiling-your-website-cs/_static/image13.png)
+[![Screenshot that shows the target location folder for deployment with a non-updatable U I.](precompiling-your-website-cs/_static/image14.png)](precompiling-your-website-cs/_static/image13.png)
 
 **Figure 5**: The Target Location Folder for Deployment With a Non-Updatable UI  
  ([Click to view full-size image](precompiling-your-website-cs/_static/image15.png))
 
 Compare **Figure 3** to **Figure 5**. While the two folders may look identical, note that the non-updatable UI folder lacks the master page, `Site.master`. And while **Figure 5** includes the various ASP.NET pages, if you view the contents of these files you'll see that they've been stripped of their declarative markup and replaced with the placeholder text: "This is a marker file generated by the precompilation tool, and should not be deleted!"
 
-[![](precompiling-your-website-cs/_static/image17.png)](precompiling-your-website-cs/_static/image16.png)
+[![Screenshot that shows that the declarative markup has been removed from the a s p dot NET pages.](precompiling-your-website-cs/_static/image17.png)](precompiling-your-website-cs/_static/image16.png)
 
 **Figure 5**: The Declarative Markup Has Been Removed from the ASP.NET Pages
 

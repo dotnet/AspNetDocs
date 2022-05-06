@@ -118,7 +118,7 @@ When an exception is thrown by an ASP.NET page and is not handled, the exception
 
 What this means for the web application in production is that if a user requests a page that is not found then they will see the custom error page. **Figure 6** shows such an example. Because the request is for a non-existent page (`NoSuchPage.aspx`), an `HttpException` is thrown and the custom error page is displayed (note the reference to `NoSuchPage.aspx` in the `aspxerrorpath` querystring parameter).
 
-[![Screenshot that shows how the A S P dot N E T runtime displays the configured error page.](displaying-a-custom-error-page-cs/_static/image16.png)](displaying-a-custom-error-page-cs/_static/image15.png)
+[![Screenshot that shows how the A S P dot NET runtime displays the configured error page.](displaying-a-custom-error-page-cs/_static/image16.png)](displaying-a-custom-error-page-cs/_static/image15.png)
 
 **Figure 6**: The ASP.NET Runtime Displays the Configured Error Page In Response to an Invalid Request 
 ([Click to view full-size image](displaying-a-custom-error-page-cs/_static/image17.png))
