@@ -1,7 +1,7 @@
 ---
 uid: aspnet/overview/developing-apps-with-windows-azure/building-real-world-cloud-apps-with-windows-azure/data-storage-options
 title: "Data Storage Options (Building Real-World Cloud Apps with Azure) | Microsoft Docs"
-author: MikeWasson
+author: Rick-Anderson
 description: "The Building Real World Cloud Apps with Azure e-book is based on a presentation developed by Scott Guthrie. It explains 13 patterns and practices that can he..."
 ms.author: riande
 ms.date: 06/12/2014
@@ -27,7 +27,7 @@ The purpose of this chapter is to give you a broader sense of the data storage o
 
 The cloud makes it relatively easy to use a variety of relational and NoSQL data stores. Here are some of the data storage platforms that you can use in Azure.
 
-![](data-storage-options/_static/image1.png)
+![Data Storage Options Image](data-storage-options/_static/image1.png)
 
 The table shows four types of NoSQL databases:
 

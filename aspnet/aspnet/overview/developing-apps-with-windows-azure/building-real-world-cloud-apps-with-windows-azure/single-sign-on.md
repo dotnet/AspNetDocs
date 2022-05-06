@@ -1,7 +1,7 @@
 ---
 uid: aspnet/overview/developing-apps-with-windows-azure/building-real-world-cloud-apps-with-windows-azure/single-sign-on
 title: "Single Sign-On (Building Real-World Cloud Apps with Azure) | Microsoft Docs"
-author: MikeWasson
+author: Rick-Anderson
 description: "The Building Real World Cloud Apps with Azure e-book is based on a presentation developed by Scott Guthrie. It explains 13 patterns and practices that can he..."
 ms.author: riande
 ms.date: 06/12/2014
@@ -30,7 +30,7 @@ There are many security issues to think about when you're developing a cloud app
 
 Suppose you have an on-premises Windows Server Active Directory environment that you use to enable employees to sign on to Intranet apps:
 
-![](single-sign-on/_static/image1.png)
+![Creating Directory in the Cloud Image](single-sign-on/_static/image1.png)
 
 What Azure AD enables you to do is create a directory in the cloud. It's a free feature and easy to set up.
 

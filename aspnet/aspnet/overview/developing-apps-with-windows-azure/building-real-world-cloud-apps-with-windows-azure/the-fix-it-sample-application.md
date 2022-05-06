@@ -1,7 +1,7 @@
 ---
 uid: aspnet/overview/developing-apps-with-windows-azure/building-real-world-cloud-apps-with-windows-azure/the-fix-it-sample-application
 title: "Appendix: The Fix It Sample Application (Building Real-World Cloud Apps with Azure) | Microsoft Docs"
-author: MikeWasson
+author: Rick-Anderson
 description: "The Building Real World Cloud Apps with Azure e-book is based on a presentation developed by Scott Guthrie. It explains 13 patterns and practices that can he..."
 ms.author: riande
 ms.date: 06/12/2014
@@ -367,7 +367,7 @@ Then deploy the MVC application to an web app in Azure App Service, as described
 
 Next, create a new Azure cloud service. The scripts included with the Fix It app do not create or deploy the cloud service, so you must use Azure portal for this. In the portal, click **New** -- **Compute** – **Cloud Service** -- **Quick Create**, and then enter a URL and a data center location. Use the same data center where you deployed the web app.
 
-![](the-fix-it-sample-application/_static/image1.png)
+![Azure Cloud Service Portal](the-fix-it-sample-application/_static/image1.png)
 
 Before you can deploy the cloud service, you need to update some of the configuration files.
 

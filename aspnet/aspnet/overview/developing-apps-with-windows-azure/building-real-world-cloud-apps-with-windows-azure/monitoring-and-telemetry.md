@@ -1,7 +1,7 @@
 ---
 uid: aspnet/overview/developing-apps-with-windows-azure/building-real-world-cloud-apps-with-windows-azure/monitoring-and-telemetry
 title: "Monitoring and Telemetry (Building Real-World Cloud Apps with Azure) | Microsoft Docs"
-author: MikeWasson
+author: Rick-Anderson
 description: "The Building Real World Cloud Apps with Azure e-book is based on a presentation developed by Scott Guthrie. It explains 13 patterns and practices that can he..."
 ms.author: riande
 ms.date: 07/09/2015
@@ -181,7 +181,7 @@ So now for every time the Fix It app has made a call to SQL Database, you can se
 
 ![SQL Database query in logs](monitoring-and-telemetry/_static/image21.png)
 
-![](monitoring-and-telemetry/_static/image22.png)
+![Edit Entity Properties Image](monitoring-and-telemetry/_static/image22.png)
 
 If you go browsing through the logs, you can see that the time database calls take is variable. That information could be useful: because the app logs all this you can analyze historical trends in how the database service is performing over time. For instance, a service might be fast most of the time but requests might fail or responses might slow down at certain times of day.
 
