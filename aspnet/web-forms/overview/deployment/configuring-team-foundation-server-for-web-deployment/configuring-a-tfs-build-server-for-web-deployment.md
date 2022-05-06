@@ -71,7 +71,7 @@ The best way to install common web platform components is to use the [Web Platfo
     1. Any programming languages that you need to compile.
     2. Visual Web Developer. This ensures that the WPP targets are added to your build server.
 
-        ![](configuring-a-tfs-build-server-for-web-deployment/_static/image1.png)
+        ![Include Visual Web Developer. This ensures that the WPP targets are added to your build server.](configuring-a-tfs-build-server-for-web-deployment/_static/image1.png)
 2. When the installation of Visual Studio 2010 is complete, download and install [Visual Studio 2010 Service Pack 1](https://go.microsoft.com/?linkid=9805133) (if it's not already included in your installation media).
 
     > [!NOTE]
@@ -84,7 +84,7 @@ The best way to install common web platform components is to use the [Web Platfo
     > [!NOTE]
     > You may have already installed the .NET Framework 4.0 through Windows Update. If a product or component is already installed, the Web Platform Installer will indicate this by replacing the **Add** button with the text **Installed**.
 
-    ![](configuring-a-tfs-build-server-for-web-deployment/_static/image2.png)
+    ![If a product or component is already installed, the Web Platform Installer will indicate this by replacing the Add button with the text Installed.](configuring-a-tfs-build-server-for-web-deployment/_static/image2.png)
 7. In the **ASP.NET MVC 3 (Visual Studio 2010)** row, click **Add**.
 8. In the navigation pane, click **Server**.
 9. In the **Web Deployment Tool 2.1** row, click **Add**.
