@@ -112,11 +112,11 @@ Prepare your Windows Server instances to deploy the SignalR application.
 
 Add the IIS role. Include "Application Development" features, including the WebSocket Protocol.
 
-![Screenshot of the Add Roles and Features Wizard with the Server Roles  and Web Socket Protocol options being highlighted.](scaleout-with-redis/_static/image5.png)
+![Screenshot of the Add Roles and Features Wizard with the Server Roles and Web Socket Protocol options being highlighted.](scaleout-with-redis/_static/image5.png)
 
 Also include the Management Service (listed under "Management Tools").
 
-![Screenshot of the Add Roles and Features Wizard with the Serer Roles and I I S Management Scripts and Tools options being highlighted.](scaleout-with-redis/_static/image6.png)
+![Screenshot of the Add Roles and Features Wizard with the Server Roles and I I S Management Scripts and Tools options being highlighted.](scaleout-with-redis/_static/image6.png)
 
 **Install Web Deploy 3.0.** When you run IIS Manager, it will prompt you to install Microsoft Web Platform, or you can [download the installer](/iis/publish/using-web-deploy/microsoft-web-deploy-v3-readme). In the Platform Installer, search for Web Deploy and install Web Deploy 3.0
 
