@@ -30,7 +30,7 @@ There are many security issues to think about when you're developing a cloud app
 
 Suppose you have an on-premises Windows Server Active Directory environment that you use to enable employees to sign on to Intranet apps:
 
-![Creating Directory in the Cloud Image](single-sign-on/_static/image1.png)
+![This illustration shows an oval shaped structure with multiple devices and two triangle towers, crossing a line and arrows between each device and its source, to show how each connect.](single-sign-on/_static/image1.png)
 
 What Azure AD enables you to do is create a directory in the cloud. It's a free feature and easy to set up.
 

@@ -70,7 +70,7 @@ With much of its time-consuming work off-loaded to a backend service, the web ti
 
 You can scale the web tier and backend service independently. For example, you might need three web servers but only one server processing queue messages. Or if you're running a compute-intensive task in the background, you might need more backend servers.
 
-![Scale Tiers Illustration](queue-centric-work-pattern/_static/image3.png)
+![This illustration shows a representation of the Scale Tiers as they process the tasks in queue](queue-centric-work-pattern/_static/image3.png)
 
 Autoscaling works with backend services as well as with the web tier. You can scale up or scale down the number of VMs that are processing the tasks in the queue, based on the CPU usage of the backend VMs. Or, you can autoscale based on how many items are in a queue. For example, you can tell autoscale to try to keep no more than 10 items in the queue. If the queue has more than 10 items, autoscale will add VMs. When they catch up, autoscale will tear down the extra VMs.
 
@@ -127,24 +127,24 @@ The following steps show how to add a worker role project to a solution that has
 
 First add a Cloud Service project to the Visual Studio solution. Right-click the solution and select **Add**, then **New Project**. In the left pane, expand **Visual C#** and select **Cloud**.
 
-![Adding Worker Role Project Illustration](queue-centric-work-pattern/_static/image4.png)
+![The image shows a visual example of the steps to add a new project in the .Net Framework](queue-centric-work-pattern/_static/image4.png)
 
 In the **New Azure Cloud Service** dialog, expand the **Visual C#** node on the left pane. Select **Worker Role** and click the right-arrow icon.
 
-![Adding Worker Role Project Illustration - Continued](queue-centric-work-pattern/_static/image6.png)
+![This following image shows a continuation of the previous image, and shows the different selections available for the Azure Cloud Service, highlighting the correct one](queue-centric-work-pattern/_static/image6.png)
 
 (Notice that you can also add a *web role*. We could run the Fix It front-end in the same Cloud Service instead of running it in an Azure Web Site. That has some advantages in making connections between front-end and back-end easier to coordinate. However, to keep this demo simple, we're keeping the front-end in an Azure App Service Web App and only running the back-end in a Cloud Service.)
 
 A default name is assigned to the worker role. To change the name, hover the mouse over the worker role in the right pane, then click the pencil icon.
 
-![Worker Role Project Example Image](queue-centric-work-pattern/_static/image7.png)
+![Image showing the Worker Role Project, with the different assignations and how to change the names](queue-centric-work-pattern/_static/image7.png)
 
 Click **OK** to complete the dialog. This adds two projects to the Visual Studio solution.
 
 - an Azure project that defines the cloud service, including configuration information.
 - A worker role project that defines the worker role.
 
-![Worker Role and Project List Example Image](queue-centric-work-pattern/_static/image8.png)
+![Image showing a worker role, defining the role and showing the list of 'MyFixIt' project solution options](queue-centric-work-pattern/_static/image8.png)
 
 For more information, see [Creating an Azure Project with Visual Studio.](https://msdn.microsoft.com/library/windowsazure/ee405487.aspx)
 
