@@ -44,7 +44,7 @@ To deploy the Contact Manager solution to your own target environment, you can e
 1. Open the ContactManager-WCF solution in Visual Studio 2010.
 2. In the **Solution Explorer** window, expand the **Publish** folder, expand the **EnvConfig** folder, and then double-click **Env-Dev.proj**.
 
-    ![](configuring-deployment-properties-for-a-target-environment/_static/image1.png)
+    ![In the Solution Explorer window, expand the Publish folder, expand the EnvConfig folder, and then double-click Env-Dev.proj.](configuring-deployment-properties-for-a-target-environment/_static/image1.png)
 3. Replace the property values in the *Env-Dev.proj* file with the correct values for your own test environment.
 
     > [!NOTE]

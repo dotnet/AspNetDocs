@@ -94,7 +94,7 @@ In this case, you need to install these things:
 11. In the **IIS: Management Service** row, click **Add**.
 12. Click **Install**. The Web Platform Installer will show you a list of products&#x2014;together with any associated dependencies&#x2014;to be installed and will prompt you to accept the license terms.
 
-    ![](configuring-a-web-server-for-web-deploy-publishing-web-deploy-handler/_static/image2.png)
+    ![Click Install. The Web Platform Installer will show you a list of products together with any associated dependencies to be installed and will prompt you to accept the license terms.](configuring-a-web-server-for-web-deploy-publishing-web-deploy-handler/_static/image2.png)
 13. Review the license terms, and if you consent to the terms, click **I Accept**.
 14. When the installation is complete, click **Finish**, and then close the **Web Platform Installer** window.
 
@@ -129,24 +129,24 @@ Now that you've installed everything you need, the next step is to configure the
 1. On the **Start** menu, point to **Administrative Tools**, and then click **Internet Information Services (IIS) Manager**.
 2. In IIS Manager, in the **Connections** pane, click the server node (for example, **STAGEWEB1**).
 
-    ![](configuring-a-web-server-for-web-deploy-publishing-web-deploy-handler/_static/image3.png)
+    ![In IIS Manager, in the Connections pane, click the server node (for example, STAGEWEB1).](configuring-a-web-server-for-web-deploy-publishing-web-deploy-handler/_static/image3.png)
 3. In the center pane, under **IIS**, double-click **Authentication**.
 
-    ![](configuring-a-web-server-for-web-deploy-publishing-web-deploy-handler/_static/image20.png)
+    ![In the center pane, under IIS, double-click Authentication.](configuring-a-web-server-for-web-deploy-publishing-web-deploy-handler/_static/image20.png)
 4. Right-click **Basic Authentication**, and then click **Enable**.
 
-    ![](configuring-a-web-server-for-web-deploy-publishing-web-deploy-handler/_static/image5.png)
+    ![Right-click Basic Authentication, and then click Enable.](configuring-a-web-server-for-web-deploy-publishing-web-deploy-handler/_static/image5.png)
 5. In the **Connections** pane, click the server node again to return to the top-level settings.
 6. In the center pane, under **Management**, double-click **Management Service**.
 
-    ![](configuring-a-web-server-for-web-deploy-publishing-web-deploy-handler/_static/image6.png)
+    ![In the center pane, under Management, double-click Management Service.](configuring-a-web-server-for-web-deploy-publishing-web-deploy-handler/_static/image6.png)
 7. In the center pane, select **Enable remote connections**.
 
     > [!NOTE]
     > If the Web Management Service is already running, you'll need to stop it first.
 8. In the **Actions** pane, click **Start** to start the Web Management Service.
 
-    ![](configuring-a-web-server-for-web-deploy-publishing-web-deploy-handler/_static/image7.png)
+    ![In the Actions pane, click Start to start the Web Management Service.](configuring-a-web-server-for-web-deploy-publishing-web-deploy-handler/_static/image7.png)
 9. If you're prompted to save your settings, click **Yes**.
 
     > [!NOTE]
@@ -154,10 +154,10 @@ Now that you've installed everything you need, the next step is to configure the
 10. In the **Connections** pane, click the server node again to return to the top-level settings.
 11. In the center pane, under **Management**, double-click **Management Service Delegation**.
 
-    ![](configuring-a-web-server-for-web-deploy-publishing-web-deploy-handler/_static/image8.png)
+    ![In the center pane, under Management, double-click Management Service Delegation.](configuring-a-web-server-for-web-deploy-publishing-web-deploy-handler/_static/image8.png)
 12. Verify that the center pane contains a set of rules.
 
-    ![](configuring-a-web-server-for-web-deploy-publishing-web-deploy-handler/_static/image9.png)
+    ![Verify that the center pane contains a set of rules.](configuring-a-web-server-for-web-deploy-publishing-web-deploy-handler/_static/image9.png)
 
     These rules allow authorized Web Management Service users to use various Web Deploy providers. For example, to deploy web applications and content to IIS through the Web Deploy Handler, there must be a delegation rule that allows all authenticated Web Management Service users to use the **contentPath** and **iisApp** providers (the last rule that you can see in the screenshot).
 
@@ -181,7 +181,7 @@ Although there's nothing stopping you from deploying content to the default webs
 2. On the **Start** menu, point to **Administrative Tools**, and then click **Internet Information Services (IIS) Manager**.
 3. In IIS Manager, in the **Connections** pane, expand the server node (for example, **STAGEWEB1**).
 
-    ![](configuring-a-web-server-for-web-deploy-publishing-web-deploy-handler/_static/image10.png)
+    ![In IIS Manager, in the Connections pane, expand the server node (for example, STAGEWEB1).](configuring-a-web-server-for-web-deploy-publishing-web-deploy-handler/_static/image10.png)
 4. Right-click the **Sites** node, and then click **Add Web Site**.
 5. In the **Site name** box, type a name for the IIS website (for example, **DemoSite**).
 6. In the **Physical path** box, type (or browse to) the path to your local folder (for example, **C:\DemoSite**).
@@ -191,18 +191,18 @@ Although there's nothing stopping you from deploying content to the default webs
     > The standard port numbers are 80 for HTTP and 443 for HTTPS. However, if you host this website on port 80, you'll need to stop the default website before you can access your site.
 8. Leave the **Host name** box blank, unless you want to configure a Domain Name System (DNS) record for the website, and then click **OK**.
 
-    ![](configuring-a-web-server-for-web-deploy-publishing-web-deploy-handler/_static/image11.png)
+    ![Leave the Host name box blank, unless you want to configure a Domain Name System (DNS) record for the website, and then click OK.](configuring-a-web-server-for-web-deploy-publishing-web-deploy-handler/_static/image11.png)
 
     > [!NOTE]
     > In a production environment, you'll likely want to host your website on port 80 and configure a host header, together with matching DNS records. For more information on configuring host headers in IIS 7, see [Configure a Host Header for a Web Site (IIS 7)](https://technet.microsoft.com/library/cc753195(WS.10).aspx). For more information on the DNS Server role in Windows Server, see [DNS Server Overview](https://technet.microsoft.com/library/cc770392.aspx) and [DNS Server](https://technet.microsoft.com/windowsserver/dd448607).
 9. In the **Actions** pane, under **Edit Site**, click **Bindings**.
 10. In the **Site Bindings** dialog box, click **Add**.
 
-    ![](configuring-a-web-server-for-web-deploy-publishing-web-deploy-handler/_static/image12.png)
+    ![In the Site Bindings dialog box, click Add.](configuring-a-web-server-for-web-deploy-publishing-web-deploy-handler/_static/image12.png)
 11. In the **Add Site Binding** dialog box, set the **IP address** and **Port** to match your existing site configuration.
 12. In the **Host name** box, type the name of your web server (for example, **STAGEWEB1**), and then click **OK**.
 
-    ![](configuring-a-web-server-for-web-deploy-publishing-web-deploy-handler/_static/image13.png)
+    ![In the Host name box, type the name of your web server (for example, STAGEWEB1), and then click OK.](configuring-a-web-server-for-web-deploy-publishing-web-deploy-handler/_static/image13.png)
 
     > [!NOTE]
     > The first site binding allows you to access the site locally using the IP address and port or `http://localhost:85`. The second site binding allows you to access the site from other computers on the domain using the machine name (for example, http://stageweb1:85).
@@ -211,7 +211,7 @@ Although there's nothing stopping you from deploying content to the default webs
 15. In the **Application Pools** pane, right-click the name of your application pool, and then click **Basic Settings**. By default, the name of your application pool will match the name of your website (for example, **DemoSite**).
 16. In the **.NET CLR version** list, select **.NET CLR v4.0.30319**, and then click **OK**.
 
-    ![](configuring-a-web-server-for-web-deploy-publishing-web-deploy-handler/_static/image21.png)
+    ![In the .NET CLR version list, select .NET CLR v4.0.30319, and then click OK.](configuring-a-web-server-for-web-deploy-publishing-web-deploy-handler/_static/image21.png)
 
     > [!NOTE]
     > The sample solution requires .NET Framework 4.0. This is not a requirement for Web Deploy in general.
@@ -235,7 +235,7 @@ The most common approach is to assign permissions to the local **IIS\_IUSRS** gr
 3. On the **Security** tab, click **Edit**, and then click **Add**.
 4. Click **Locations**. In the **Locations** dialog box, select the local server, and then click **OK**.
 
-    ![](configuring-a-web-server-for-web-deploy-publishing-web-deploy-handler/_static/image15.png)
+    ![Click Locations. In the Locations dialog box, select the local server, and then click OK.](configuring-a-web-server-for-web-deploy-publishing-web-deploy-handler/_static/image15.png)
 5. In the **Select Users or Groups** dialog box, type **IIS\_IUSRS**, click **Check Names**, and then click **OK**.
 6. In the **Permissions for (folder name)** dialog box, notice that the new group has been assigned the **Read &amp; execute**, **List folder contents**, and **Read** permissions by default. Leave this unchanged and click **OK**.
 7. Click **OK** to close the **(folder name) Properties** dialog box.
@@ -246,16 +246,16 @@ As a final task, you must grant the appropriate permissions to the non-administr
 
 1. In IIS Manager, in the **Connections** pane, right-click your website node (for example, **DemoSite**), point to **Deploy**, and then click **Configure Web Deploy Publishing**.
 
-    ![](configuring-a-web-server-for-web-deploy-publishing-web-deploy-handler/_static/image16.png)
+    ![In IIS Manager, in the Connections pane, right-click your website node (for example, DemoSite), point to Deploy, and then click Configure Web Deploy Publishing.](configuring-a-web-server-for-web-deploy-publishing-web-deploy-handler/_static/image16.png)
 2. In the **Configure Web Deploy Publishing** dialog box, to the right of the **Select a user to give publishing permissions** list, click the ellipsis button.
 
-    ![](configuring-a-web-server-for-web-deploy-publishing-web-deploy-handler/_static/image17.png)
+    ![In the Configure Web Deploy Publishing dialog box, to the right of the Select a user to give publishing permissions list, click the ellipsis button.](configuring-a-web-server-for-web-deploy-publishing-web-deploy-handler/_static/image17.png)
 3. In the **Allow User** dialog box, type the domain and user name of the account you want to use to deploy content, and then click **OK**.
 
-    ![](configuring-a-web-server-for-web-deploy-publishing-web-deploy-handler/_static/image18.png)
+    ![In the Allow User dialog box, type the domain and user name of the account you want to use to deploy content, and then click OK.](configuring-a-web-server-for-web-deploy-publishing-web-deploy-handler/_static/image18.png)
 4. In the **Configure Web Deploy Publishing** dialog box, click **Setup**.
 
-    ![](configuring-a-web-server-for-web-deploy-publishing-web-deploy-handler/_static/image19.png)
+    ![In the Configure Web Deploy Publishing dialog box, click Setup.](configuring-a-web-server-for-web-deploy-publishing-web-deploy-handler/_static/image19.png)
 
     > [!NOTE]
     > This operation performs two key functions in one step. First, it grants the user permission to modify the website remotely through the Web Management Service, according to the delegation rules you examined in the previous section. Second, it grants the user full control of the source folder for the website, which allows the user to add, modify, and set permissions on the website content.
