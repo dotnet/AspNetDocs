@@ -17,7 +17,7 @@ by [Mike Wasson](https://github.com/MikeWasson), [Patrick Fletcher](https://gith
 
 In this tutorial, you will deploy a SignalR application to a Windows Azure Web Role, using the Service Bus backplane to distribute messages to each role instance. (You can also use the Service Bus backplane with [web apps in Azure App Service](/azure/app-service-web/).)
 
-![](scaleout-with-windows-azure-service-bus/_static/image1.png)
+![Image with arrows from 'Topic' to 'Web Roles' to computers. An arrow labeled "publish" starts at 'Web Roles' and goes to 'Topic'.](scaleout-with-windows-azure-service-bus/_static/image1.png)
 
 Prerequisites:
 
@@ -53,11 +53,11 @@ For each application, pick a different value for "YourAppName". Do not use the s
 
 Create a Cloud Service, as described in [How to Create and Deploy a Cloud Service](/azure/cloud-services/cloud-services-how-to-create-deploy). Follow the steps in the section "How to: Create a cloud service using Quick Create". For this tutorial, you do not need to upload a certificate.
 
-![](scaleout-with-windows-azure-service-bus/_static/image2.png)
+![An interface that has a red circle enclosing the option 'Cloud Service'.](scaleout-with-windows-azure-service-bus/_static/image2.png)
 
 Create a new Service Bus namespace, as described in [How to Use Service Bus Topics/Subscriptions](/azure/service-bus-messaging/service-bus-dotnet-how-to-use-topics-subscriptions). Follow the steps in the section "Create a Service Namespace".
 
-![](scaleout-with-windows-azure-service-bus/_static/image3.png)
+![A window titled 'Add a new namespace' with options below.](scaleout-with-windows-azure-service-bus/_static/image3.png)
 
 > [!NOTE]
 > Make sure to select the same region for the cloud service and the Service Bus namespace.
@@ -68,17 +68,17 @@ Start Visual Studio. From the **File** menu, click **New Project**.
 
 In the **New Project** dialog box, expand **Visual C#**. Under **Installed Templates**, select **Cloud** and then select **Windows Azure Cloud Service**. Keep the default .NET Framework 4.5. Name the application ChatService and click **OK**.
 
-![](scaleout-with-windows-azure-service-bus/_static/image4.png)
+![Window titled 'New Project'. 'Cloud' is selected and "ChatService" is typed under 'Name'.](scaleout-with-windows-azure-service-bus/_static/image4.png)
 
 In the **New Windows Azure Cloud Service** dialog, select ASP.NET Web Role. Click the right-arrow button (**&gt;**) to add the role to your solution.
 
 Hover the mouse over the new role, so the pencil icon visible. Click this icon to rename the role. Name the role "SignalRChat" and click **OK**.
 
-![](scaleout-with-windows-azure-service-bus/_static/image5.png)
+![Window titled 'New Windows Azure Cloud Service'. ASP.NET Web Role in the box on the right is labeled 'SignalRChat'.](scaleout-with-windows-azure-service-bus/_static/image5.png)
 
 In the **New ASP.NET Project** dialog, select **MVC**, and click OK.
 
-![](scaleout-with-windows-azure-service-bus/_static/image6.png)
+![Window titled 'New ASP.NET Project - SignalRChat'. Under 'Select a template', 'MVC' is selected.](scaleout-with-windows-azure-service-bus/_static/image6.png)
 
 The project wizard creates two projects:
 
@@ -103,11 +103,11 @@ In your application's Startup.cs file, add the following code:
 
 Now you need to get your service bus connection string. In the Azure portal, select the service bus namespace that you created and click the Access Key icon.
 
-![](scaleout-with-windows-azure-service-bus/_static/image7.png)
+![An image of a plus sign labeled 'Create', an image of a key labeled 'Access Key', and an image of a trash can labeled 'Delete'.](scaleout-with-windows-azure-service-bus/_static/image7.png)
 
 Copy the connection string to the clipboard, then paste it into the *connectionString* variable.
 
-![](scaleout-with-windows-azure-service-bus/_static/image8.png)
+![Window titled 'Connect to your namespace' with options underneath.](scaleout-with-windows-azure-service-bus/_static/image8.png)
 
 [!code-csharp[Main](scaleout-with-windows-azure-service-bus/samples/sample4.cs)]
 
@@ -115,21 +115,21 @@ Copy the connection string to the clipboard, then paste it into the *connectionS
 
 In Solution Explorer, expand the **Roles** folder inside the ChatService project.
 
-![](scaleout-with-windows-azure-service-bus/_static/image9.png)
+![The folder 'Roles' is open and 'SignalRChat' is selected.](scaleout-with-windows-azure-service-bus/_static/image9.png)
 
 Right-click the SignalRChat role and select **Properties**. Select the **Configuration** tab. Under **Instances** select 2. You can also set the VM size to **Extra Small**.
 
-![](scaleout-with-windows-azure-service-bus/_static/image10.png)
+![Under Instances, the Instance count is set to 2 and VM Size is set to Extra small.](scaleout-with-windows-azure-service-bus/_static/image10.png)
 
 Save the changes.
 
 In Solution Explorer, right-click the ChatService project. Select **Publish**.
 
-![](scaleout-with-windows-azure-service-bus/_static/image11.png)
+![A menu with 'Publish' selected.](scaleout-with-windows-azure-service-bus/_static/image11.png)
 
 If this is your first time publishing to Windows Azure, you must download your credentials. In the **Publish** wizard, click "Sign in to download credentials". This will prompt you to sign into the Windows Azure portal and download a publish settings file.
 
-![](scaleout-with-windows-azure-service-bus/_static/image12.png)
+![Window titled 'Publish Windows Azure Application'. 'Sign in to download credentials' is circled in red.](scaleout-with-windows-azure-service-bus/_static/image12.png)
 
 Click **Import** and select the publish settings file that you downloaded.
 

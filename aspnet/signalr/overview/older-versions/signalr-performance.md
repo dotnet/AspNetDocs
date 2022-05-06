@@ -117,7 +117,7 @@ Performance counters can be added to the server using a utility called SignalR.e
 1. In Visual Studio, select **Tools** > **NuGet Package Manager** > **Manage NuGet Packages for Solution**
 2. Search for **signalr.utils**, and select Install.
 
-    ![](signalr-performance/_static/image1.png)
+    ![An interface with Microsoft ASP.NET SignalR Utilities - Command line utilities for ASP.NET SignalR. highlighted. ](signalr-performance/_static/image1.png)
 3. Accept the license agreement to install the package.
 4. SignalR.exe will be installed to `<project folder>/packages/Microsoft.AspNet.SignalR.Utils.<version>/tools`.
 
