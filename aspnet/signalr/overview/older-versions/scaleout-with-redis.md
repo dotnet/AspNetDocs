@@ -1,8 +1,8 @@
 ---
 uid: signalr/overview/older-versions/scaleout-with-redis
-title: "SignalR Scaleout with Redis (SignalR 1.x) | Microsoft Docs"
+title: SignalR Scaleout with Redis (SignalR 1.x) | Microsoft Docs
 author: bradygaster
-description: ""
+description: Describes the SignalR Scaleout application and provides an overview on how to create and run the application.
 ms.author: bradyg
 ms.date: 05/01/2013
 ms.assetid: 6abecf80-8ffa-41ba-b0d9-1d9edbe7687b
@@ -19,7 +19,7 @@ In this tutorial, you will use [Redis](http://redis.io/) to distribute messages 
 
 Redis is an in-memory key-value store. It also supports a messaging system with a publish/subscribe model. The SignalR Redis backplane uses the pub/sub feature to forward messages to other servers.
 
-![](scaleout-with-redis/_static/image1.png)
+![Diagram that illustrates the relationship between Redis Server, which subscribes to V Ms, computers, which then publish V Ms onto Redis Servers.](scaleout-with-redis/_static/image1.png)
 
 For this tutorial, you will use three servers:
 
@@ -56,11 +56,11 @@ Download the Ubuntu ISO from [http://www.ubuntu.com](http://www.ubuntu.com/).
 
 In Hyper-V, add a new VM. In the **Connect Virtual Hard Disk** step, select **Create a virtual hard disk**.
 
-![](scaleout-with-redis/_static/image2.png)
+![Screenshot of the New Virtual Machine Wizard showing the Connect Virtual Hard Disk pane and Name field being highlighted.](scaleout-with-redis/_static/image2.png)
 
 In the **Installation Options** step, select **Image file (.iso)**, click **Browse**, and browse to the Ubuntu installation ISO.
 
-![](scaleout-with-redis/_static/image3.png)
+![Screenshot of the New Virtual Machine Wizard with the Installation Options pane and the Image File option being highlighted.](scaleout-with-redis/_static/image3.png)
 
 ## Install Redis
 
@@ -78,7 +78,7 @@ Now start the Redis server:
 
 [!code-css[Main](scaleout-with-redis/samples/sample4.css)]
 
-![](scaleout-with-redis/_static/image4.png)
+![Screenshot of Azure User Redis server window, showing server information including when the server was started and the memory status.](scaleout-with-redis/_static/image4.png)
 
 Open port 6379, which is the default port that Redis listens on. (You can change the port number in the configuration file.)
 
@@ -112,15 +112,15 @@ Prepare your Windows Server instances to deploy the SignalR application.
 
 Add the IIS role. Include "Application Development" features, including the WebSocket Protocol.
 
-![](scaleout-with-redis/_static/image5.png)
+![Screenshot of the Add Roles and Features Wizard with the Server Roles  and Web Socket Protocol options being highlighted.](scaleout-with-redis/_static/image5.png)
 
 Also include the Management Service (listed under "Management Tools").
 
-![](scaleout-with-redis/_static/image6.png)
+![Screenshot of the Add Roles and Features Wizard with the Serer Roles and I I S Management Scripts and Tools options being highlighted.](scaleout-with-redis/_static/image6.png)
 
 **Install Web Deploy 3.0.** When you run IIS Manager, it will prompt you to install Microsoft Web Platform, or you can [download the installer](/iis/publish/using-web-deploy/microsoft-web-deploy-v3-readme). In the Platform Installer, search for Web Deploy and install Web Deploy 3.0
 
-![](scaleout-with-redis/_static/image7.png)
+![Screenshot of the WEb Platform Installer 4 point 5 search results screen with the Web Deploy 3 point 0 option being highlighted.](scaleout-with-redis/_static/image7.png)
 
 Check that the Web Management Service is running. If not, start the service. (If you don't see Web Management Service in the list of Windows services, make sure that you installed the Management Service when you added the IIS role.)
 
@@ -132,10 +132,10 @@ For more detailed documentation about web deployment, see [Web Deployment Conten
 
 If you deploy the application to two servers, you can open each instance in a separate browser window and see that they each receive SignalR messages from the other. (Of course, in a production environment, the two servers would sit behind a load balancer.)
 
-![](scaleout-with-redis/_static/image8.png)
+![Screenshot of the Signal R messages being displayed in an Internet Explorer web browser, displaying the Index screen.](scaleout-with-redis/_static/image8.png)
 
 If you're curious to see the messages that are sent to Redis, you can use the **redis-cli** client, which installs with Redis.
 
 [!code-xml[Main](scaleout-with-redis/samples/sample8.xml)]
 
-![](scaleout-with-redis/_static/image9.png)
+![Screenshot of the Azure User output screen, which displays the information for all sent messages and accompanied code.](scaleout-with-redis/_static/image9.png)
