@@ -42,7 +42,7 @@ The error page developers are most familiar with is the Exception Details YSOD. 
 
 Note the exception information presented in **Figure 1**. The exception message, "Conversion failed when converting from a character string to uniqueidentifier" is present at the top of the page. The type of the exception, `System.Data.SqlClient.SqlException`, is listed, as well. There's also the stack trace.
 
-[![](displaying-a-custom-error-page-cs/_static/image2.png)](displaying-a-custom-error-page-cs/_static/image1.png)
+[![Screenshot that shows the exception details YSOD that include information about the exception.](displaying-a-custom-error-page-cs/_static/image2.png)](displaying-a-custom-error-page-cs/_static/image1.png)
 
 **Figure 1**: The Exception Details YSOD Includes Information About the Exception  
  ([Click to view full-size image](displaying-a-custom-error-page-cs/_static/image3.png))
@@ -54,14 +54,14 @@ By default, the Runtime Error YSOD is shown to users visiting remotely (through 
 > [!NOTE]
 > If you are following along and are using DiscountASP.NET as your web host, you may notice that the Runtime Error YSOD does not display when visiting the live site. This is because DiscountASP.NET has their servers configured to show the Exception Details YSOD by default. The good news is that you can override this default behavior by adding a `<customErrors>` section to your `Web.config` file. The "Configuring Which Error Page is Displayed" section examines the `<customErrors>` section in detail.
 
-[![](displaying-a-custom-error-page-cs/_static/image5.png)](displaying-a-custom-error-page-cs/_static/image4.png)
+[![Screenshot that shows the runtime error YSOD doesn't include any error details.](displaying-a-custom-error-page-cs/_static/image5.png)](displaying-a-custom-error-page-cs/_static/image4.png)
 
 **Figure 2**: The Runtime Error YSOD Does Not Include Any Error Details  
  ([Click to view full-size image](displaying-a-custom-error-page-cs/_static/image6.png))
 
 The third type of error page is the custom error page, which is a web page that you create. The benefit of a custom error page is that you have complete control over the information that is displayed to the user along with the page's look and feel; the custom error page can use the same master page and styles as your other pages. The "Using a Custom Error Page" section walks through creating a custom error page and configuring it to display in the event of an unhandled exception. **Figure 3** offers a sneak peak of this custom error page. As you can see, the look and feel of the error page is much more professional-looking than either of the Yellow Screens of Death shown in Figures 1 and 2.
 
-[![](displaying-a-custom-error-page-cs/_static/image8.png)](displaying-a-custom-error-page-cs/_static/image7.png)
+[![Screenshot that shows a custom error page that demonstrates a more tailored look and feel.](displaying-a-custom-error-page-cs/_static/image8.png)](displaying-a-custom-error-page-cs/_static/image7.png)
 
 **Figure 3**: A Custom Error Page Offers a More Tailored Look and Feel  
  ([Click to view full-size image](displaying-a-custom-error-page-cs/_static/image9.png))
@@ -87,13 +87,13 @@ Unless you specify otherwise, ASP.NET acts as if you had set the mode attribute 
 
 Every web application should have a custom error page. It provides a more professional-looking alternative to the Runtime Error YSOD, it is easy to create, and configuring the application to use the custom error page takes only a few moments. The first step is creating the custom error page. I've added a new folder to the Book Reviews application named `ErrorPages` and added to that a new ASP.NET page named `Oops.aspx`. Have the page use the same master page as the rest of the pages on your site so that it automatically inherits the same look and feel.
 
-[![](displaying-a-custom-error-page-cs/_static/image11.png)](displaying-a-custom-error-page-cs/_static/image10.png)
+[![Screenshot that highlights the new ErrorPages folder and associated Oops dot a s p x file.](displaying-a-custom-error-page-cs/_static/image11.png)](displaying-a-custom-error-page-cs/_static/image10.png)
 
 **Figure 4**: Create a Custom Error Page
 
 Next, spend a few minutes creating the content for the error page. I've created a rather simple custom error page with a message indicating that there was an unexpected error and a link back to the site's homepage.
 
-[![](displaying-a-custom-error-page-cs/_static/image13.png)](displaying-a-custom-error-page-cs/_static/image12.png)
+[![Screenshot that shows the custom error page and associated message.](displaying-a-custom-error-page-cs/_static/image13.png)](displaying-a-custom-error-page-cs/_static/image12.png)
 
 **Figure 5**: Design Your Custom Error Page  
  ([Click to view full-size image](displaying-a-custom-error-page-cs/_static/image14.png))
@@ -118,7 +118,7 @@ When an exception is thrown by an ASP.NET page and is not handled, the exception
 
 What this means for the web application in production is that if a user requests a page that is not found then they will see the custom error page. **Figure 6** shows such an example. Because the request is for a non-existent page (`NoSuchPage.aspx`), an `HttpException` is thrown and the custom error page is displayed (note the reference to `NoSuchPage.aspx` in the `aspxerrorpath` querystring parameter).
 
-[![](displaying-a-custom-error-page-cs/_static/image16.png)](displaying-a-custom-error-page-cs/_static/image15.png)
+[![Screenshot that shows how the A S P dot N E T runtime displays the configured error page.](displaying-a-custom-error-page-cs/_static/image16.png)](displaying-a-custom-error-page-cs/_static/image15.png)
 
 **Figure 6**: The ASP.NET Runtime Displays the Configured Error Page In Response to an Invalid Request 
 ([Click to view full-size image](displaying-a-custom-error-page-cs/_static/image17.png))
@@ -132,7 +132,7 @@ With this change in place, whenever a user visiting remotely requests an ASP.NET
 > [!NOTE]
 > Check out [404 Error Pages, One More Time](http://www.smashingmagazine.com/2009/01/29/404-error-pages-one-more-time/) for guidance on creating effective 404 error pages.
 
-[![](displaying-a-custom-error-page-cs/_static/image19.png)](displaying-a-custom-error-page-cs/_static/image18.png)
+[![Screenshot that shows the custom 4 O 4 error page.](displaying-a-custom-error-page-cs/_static/image19.png)](displaying-a-custom-error-page-cs/_static/image18.png)
 
 **Figure 7**: The Custom 404 Error Page Displays a More Targeted Message Than `Oops.aspx`  
 ([Click to view full-size image](displaying-a-custom-error-page-cs/_static/image20.png)) 
