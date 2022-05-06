@@ -860,8 +860,7 @@ When you create an Empty ASP.NET Web Application, Visual Studio creates the foll
 <a id="0.2_graphic1D"></a>![Screenshot that shows the Visual Studio file menu. The file titled Web . config is highlighted.](overview/_static/image9.png)
 
 This is similar to the Empty Web Site layout from earlier versions of ASP.NET, with one exception. In Visual Studio 2010, Empty Web Application and Empty Web Site projects contain the following minimal `Web.config` file that contains information used by Visual Studio to identify the framework that the project is targeting:
-
-```XML
+```xml
 <?xml version ="1.0"?>
 <configuration>
     <system.web>
@@ -869,7 +868,6 @@ This is similar to the Empty Web Site layout from earlier versions of ASP.NET, w
     </system.web>
 </configuration>
 ```
-
 Without this *targetFramework* property, Visual Studio defaults to targeting the .NET Framework 2.0 in order to preserve compatibility when opening older applications.
 
 #### Web Application and Web Site Project Templates
@@ -885,7 +883,6 @@ The project includes a number of files that were not created in earlier versions
 ([Click to view full-size image](overview/_static/image14.png))
 
 The project also contains a second `Web.config` file in the `Account` directory. The second configuration file provides a way to secure access to the ChangePassword.aspx page for non-logged in users. The following example shows the contents of the second `Web.config` file.
-
 ```xml
 <?xml version="1.0"?>
 <configuration>
