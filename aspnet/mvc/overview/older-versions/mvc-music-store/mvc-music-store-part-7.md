@@ -37,7 +37,7 @@ Change the namespace for the Controller and Model classes so they begin with Mvc
 
 The updated solution should look like the following:
 
-![Screenshot of the Solution Explorer pane with AccountController.cs, AccountModels.cs, and the files in the /Views/Account/ folder highlighted in red.](mvc-music-store-part-7/_static/image1.png)
+![Screenshot of the Solution Explorer pane with Account Controller dot C S, Account Models dot CS, and the files in the /  Account / folder highlighted.](mvc-music-store-part-7/_static/image1.png)
 
 ## Adding an Administrative User with the ASP.NET Configuration site
 

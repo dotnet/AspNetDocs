@@ -33,7 +33,7 @@ When you click the Add button, you'll see that the ASP.NET MVC 3 scaffolding mec
 - It adds a StoreManager folder to the project's Views folder
 - It adds Create.cshtml, Delete.cshtml, Details.cshtml, Edit.cshtml, and Index.cshtml view, strongly typed to the Album class
 
-![Screenshot of the StoreManagerController window opened in Microsoft Visual Web Developer 2010 Express after creation.](mvc-music-store-part-5/_static/image2.png)
+![Screenshot of the Store Manager Controller window opened in Microsoft Visual Web Developer 2010 Express after creation.](mvc-music-store-part-5/_static/image2.png)
 
 The new StoreManager controller class includes CRUD (create, read, update, delete) controller actions which know how to work with the Album model class and use our Entity Framework context for database access.
 
@@ -57,11 +57,11 @@ Now run the application and browse to /StoreManager/. This displays the Store Ma
 
 Clicking the Edit link displays an edit form with fields for the Album, including dropdowns for Genre and Artist.
 
-![Screenshot of the Edit dialog showing drop-down fields for Genre and Artist and text boxes for Artist, Title, Price, and AlbumArtUrl.](mvc-music-store-part-5/_static/image4.png)
+![Screenshot of the Edit dialog showing drop-down fields for Genre and Artist and text boxes for Artist, Title, Price, and Album Art U R L.](mvc-music-store-part-5/_static/image4.png)
 
 Click the "Back to List" link at the bottom, then click on the Details link for an Album. This displays the detail information for an individual Album.
 
-![Screenshot of the Details dialog showing the set values for Genre, Artist, Title, Price, and AlbumArtUrl.](mvc-music-store-part-5/_static/image5.png)
+![Screenshot of the Details dialog showing the set values for Genre, Artist, Title, Price, and Album Art U R L.](mvc-music-store-part-5/_static/image5.png)
 
 Again, click the Back to List link, then click on a Delete link. This displays a confirmation dialog, showing the album details and asking if we're sure we want to delete it.
 
@@ -164,7 +164,7 @@ To test this out, run the application and browse to /StoreManager/Create/ - this
 
 Fill in some values and click the Create button to submit the form.
 
-![Screenshot of the Create Form showing the Genre and Artist dropdown fields and the Title, Price, and AlbumArtUrl text boxes.](mvc-music-store-part-5/_static/image7.png)
+![Screenshot of the Create Form showing the Genre and Artist dropdown fields and the Title, Price, and Album Art U R L text boxes.](mvc-music-store-part-5/_static/image7.png)
 
 ![Screenshot of the album list highlighting the new album created from the Create form with a red arrow.](mvc-music-store-part-5/_static/image8.png)
 
