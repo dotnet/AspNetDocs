@@ -913,7 +913,6 @@ To add the image to the page, you then open the `Site.Master` file, find where t
     <img src="Content/Images/ASPNETLogo.jpg" width="376px" height="62px"  border="0" alt="ASP.NET Logo" />
 </div>
 ```
-
 You can then go into the Site.css file and modify CSS class definitions to change the background color of the page as well as that of the header.
 
 The result of these changes is that you can display a customized home page with very little effort:
