@@ -2,7 +2,7 @@
 uid: mvc/overview/older-versions/mvc-music-store/mvc-music-store-part-7
 title: "Part 7: Membership and Authorization | Microsoft Docs"
 author: jongalloway
-description: "This tutorial series details all of the steps taken to build the ASP.NET MVC Music Store sample application. Part 7 covers Membership and Authorization."
+description: This tutorial series details all of the steps taken to build the ASP.NET MVC Music Store sample application. Part 7 covers Membership and Authorization.
 ms.author: riande
 ms.date: 10/13/2010
 ms.assetid: c8511ebe-68bc-4240-87c3-d5ced84a3f37
@@ -37,31 +37,31 @@ Change the namespace for the Controller and Model classes so they begin with Mvc
 
 The updated solution should look like the following:
 
-![](mvc-music-store-part-7/_static/image1.png)
+![Screenshot of the Solution Explorer pane with AccountController.cs, AccountModels.cs, and the files in the /Views/Account/ folder highlighted in red.](mvc-music-store-part-7/_static/image1.png)
 
 ## Adding an Administrative User with the ASP.NET Configuration site
 
 Before we require Authorization in our website, we'll need to create a user with access. The easiest way to create a user is to use the built-in ASP.NET Configuration website.
 
-Launch the ASP.NET Configuration website by clicking following the icon in the Solution Explorer.
+Launch the ASP.NET Configuration website by clicking the icon in the Solution Explorer.
 
-![](mvc-music-store-part-7/_static/image2.png)
+![Screenshot of the Solution Explorer window with the globe and hammer icon highlighted in a red rectangle.](mvc-music-store-part-7/_static/image2.png)
 
 This launches a configuration website. Click on the Security tab on the home screen, then click the "Enable roles" link in the center of the screen.
 
-![](mvc-music-store-part-7/_static/image3.png)
+![Screenshot of the configuration website showing the Roles section and the Enable roles link highlighted in a red rectangle.](mvc-music-store-part-7/_static/image3.png)
 
 Click the "Create or Manage roles" link.
 
-![](mvc-music-store-part-7/_static/image4.png)
+![Screenshot of the configuration website showing the Roles section and the Create or Manage roles link highlighted in a red rectangle.](mvc-music-store-part-7/_static/image4.png)
 
 Enter "Administrator" as the role name and press the Add Role button.
 
-![](mvc-music-store-part-7/_static/image5.png)
+![Screenshot of the configuration window showing Administrator in the New role name field and is highlighted with a red arrow.](mvc-music-store-part-7/_static/image5.png)
 
 Click the Back button, then click on the Create user link on the left side.
 
-![](mvc-music-store-part-7/_static/image6.png)
+![Screenshot of the configuration website showing the Users section and the Create user link highlighted in a red rectangle.](mvc-music-store-part-7/_static/image6.png)
 
 Fill in the user information fields on the left using the following information:
 
@@ -78,11 +78,11 @@ Fill in the user information fields on the left using the following information:
 
 Select the Administrator role for this user, and click the Create User button.
 
-![](mvc-music-store-part-7/_static/image7.png)
+![Screenshot of the configuration website showing the Roles section with the Administrator role checkbox ticked and highlighted with a red rectangle.](mvc-music-store-part-7/_static/image7.png)
 
 At this point, you should see a message indicating that the user was created successfully.
 
-![](mvc-music-store-part-7/_static/image8.png)
+![Screenshot of the configuration website showing a message that the user account creation completed successfully.](mvc-music-store-part-7/_static/image8.png)
 
 You can now close the browser window.
 
@@ -96,7 +96,7 @@ Now we can restrict access to the StoreManagerController using the [Authorize] a
 
 Now browsing to /StoreManager brings up a Log On dialog:
 
-![](mvc-music-store-part-7/_static/image9.png)
+![Screenshot of the music store web page showing the log on dialog with username and password text fields.](mvc-music-store-part-7/_static/image9.png)
 
 After logging on with our new Administrator account, we're able to go to the Album Edit screen as before.
 
