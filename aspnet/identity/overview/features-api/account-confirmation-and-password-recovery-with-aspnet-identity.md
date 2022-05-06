@@ -22,19 +22,19 @@ A local user account requires the user to create a password for the account, and
 
 New users register their email alias, which creates a local account.
 
-![](account-confirmation-and-password-recovery-with-aspnet-identity/_static/image1.png)
+![Image of the account register window](account-confirmation-and-password-recovery-with-aspnet-identity/_static/image1.png)
 
 Selecting the Register button sends a confirmation email containing a validation token to their email address.
 
-![](account-confirmation-and-password-recovery-with-aspnet-identity/_static/image2.png)
+![Image showing email sent confirmation](account-confirmation-and-password-recovery-with-aspnet-identity/_static/image2.png)
 
 The user is sent an email with a confirmation token for their account.
 
-![](account-confirmation-and-password-recovery-with-aspnet-identity/_static/image3.png)
+![Image of confirmation token](account-confirmation-and-password-recovery-with-aspnet-identity/_static/image3.png)
 
 Selecting the link confirms the account.
 
-![](account-confirmation-and-password-recovery-with-aspnet-identity/_static/image4.png)
+![Image confirming email address](account-confirmation-and-password-recovery-with-aspnet-identity/_static/image4.png)
 
 <a id="passwordReset"></a>
 
@@ -42,18 +42,18 @@ Selecting the link confirms the account.
 
 Local users who forget their password can have a security token sent to their email account, enabling them to reset their password.  
   
-![](account-confirmation-and-password-recovery-with-aspnet-identity/_static/image5.png)  
+![Image of forgot password reset window](account-confirmation-and-password-recovery-with-aspnet-identity/_static/image5.png)  
   
 The user will soon get an email with a link allowing them to reset their password.  
   
-![](account-confirmation-and-password-recovery-with-aspnet-identity/_static/image6.png)  
+![Image showing reset password email](account-confirmation-and-password-recovery-with-aspnet-identity/_static/image6.png)  
 Selecting the link will take them to the Reset page.  
   
-![](account-confirmation-and-password-recovery-with-aspnet-identity/_static/image7.png)  
+![Image showing user password reset window](account-confirmation-and-password-recovery-with-aspnet-identity/_static/image7.png)  
   
 Selecting the **Reset** button will confirm the password has been reset.  
   
-![](account-confirmation-and-password-recovery-with-aspnet-identity/_static/image8.png)
+![Image showing password reset confirmation](account-confirmation-and-password-recovery-with-aspnet-identity/_static/image8.png)
 
 <a id="createMvc"></a>
 
@@ -68,10 +68,10 @@ Start by installing and running [Visual Studio 2017](https://visualstudio.micros
 
     The following image shows the `AspNetUsers` schema:
 
-    ![](account-confirmation-and-password-recovery-with-aspnet-identity/_static/image9.png)
+    ![Image showing A s p Net  Users schema](account-confirmation-and-password-recovery-with-aspnet-identity/_static/image9.png)
 5. Right-click on the **AspNetUsers** table and select **Show Table Data**.  
   
-    ![](account-confirmation-and-password-recovery-with-aspnet-identity/_static/image10.png)  
+    ![Image showing table data](account-confirmation-and-password-recovery-with-aspnet-identity/_static/image10.png)  
   
    At this point the email has not been confirmed.
 
@@ -87,7 +87,7 @@ Per the comments in the code, the `UseCookieAuthentication` method supports cook
 
 The Identity system allow you to configure your app so when the users security profile changes (for example, when the user changes their password or changes associated login (such as from Facebook, Google, Microsoft account, etc.), the user is logged out of all browser instances. For example, the image below shows the [Single signout sample](https://github.com/aspnet/samples/tree/master/samples/aspnet/Identity/SingleSignOutSample) app, which allows the user to sign out of all browser instances (in this case, IE, Firefox and Chrome) by selecting one button. Alternatively, the sample allows you to only log out of a specific browser instance.
 
-![](account-confirmation-and-password-recovery-with-aspnet-identity/_static/image11.png)
+![Image showing the single sign-out sample app window](account-confirmation-and-password-recovery-with-aspnet-identity/_static/image11.png)
 
 The [Single signout sample](https://github.com/aspnet/samples/tree/master/samples/aspnet/Identity/SingleSignOutSample) app shows how ASP.NET Identity allows you to regenerate the security token. This is needed to ensure that any tokens (cookies) generated with the old password are invalidated. This feature provides an extra layer of security to your application; when you change your password, you will be logged out where you have logged into this application.
 
@@ -187,11 +187,11 @@ Enter your SendGrid credentials, run the app, register with an email alias can s
 
 Once a user selects the **Register** button a confirmation email containing a validation token is sent to their email address.
 
-![](account-confirmation-and-password-recovery-with-aspnet-identity/_static/image12.png)
+![Image of email sent confirmation window](account-confirmation-and-password-recovery-with-aspnet-identity/_static/image12.png)
 
 The user is sent an email with a confirmation token for their account.
 
-![](account-confirmation-and-password-recovery-with-aspnet-identity/_static/image13.png)
+![Image of email received](account-confirmation-and-password-recovery-with-aspnet-identity/_static/image13.png)
 
 ## Examine the code
 

@@ -56,22 +56,22 @@ To enable SQL Server to communicate over TCP/IP, use SQL Server Configuration Ma
    > If you have installed multiple instances of SQL Server, you'll see a <strong>Protocols for</strong><em>[instance name]</em> item for each instance. You need to configure network settings on an instance-by-instance basis.
 3. In the details pane, right-click the **TCP/IP** row, and then click **Enable**.
 
-    ![](configuring-a-database-server-for-web-deploy-publishing/_static/image1.png)
+    ![In the details pane, right-click the TCP/IP row, then click Enable](configuring-a-database-server-for-web-deploy-publishing/_static/image1.png)
 4. In the **Warning** dialog box, click **OK**.
 
-    ![](configuring-a-database-server-for-web-deploy-publishing/_static/image2.png)
+    ![In the Warning dialog box, click OK](configuring-a-database-server-for-web-deploy-publishing/_static/image2.png)
 5. You need to restart the MSSQLSERVER service before your new network configuration will take effect. You can do that at a command prompt, from the Services console, or from SQL Server Management Studio. In this procedure, you'll use SQL Server Management Studio.
 6. Close SQL Server Configuration Manager.
 7. On the **Start** menu, point to **All Programs**, click **Microsoft SQL Server 2008 R2**, and then click **SQL Server Management Studio**.
 8. In the **Connect to Server** dialog box, in the **Server name** box, type the name of the database server, and then click **Connect**.
 
-    ![](configuring-a-database-server-for-web-deploy-publishing/_static/image3.png)
+    ![In the Connect to Server dialog box, in the Server name box, type the name of the database server, and then click Connect.](configuring-a-database-server-for-web-deploy-publishing/_static/image3.png)
 9. In the **Object Explorer** pane, right-click the parent server node (for example, **TESTDB1**), and then click **Restart**.
 
-    ![](configuring-a-database-server-for-web-deploy-publishing/_static/image4.png)
+    ![In the Object Explorer pane, right-click the parent server node (for example, TESTDB1), and then click Restart.](configuring-a-database-server-for-web-deploy-publishing/_static/image4.png)
 10. In the **Microsoft SQL Server Management Studio** dialog box, click **Yes**.
 
-    ![](configuring-a-database-server-for-web-deploy-publishing/_static/image5.png)
+    ![In the Microsoft SQL Server Management Studio dialog box, click Yes.](configuring-a-database-server-for-web-deploy-publishing/_static/image5.png)
 11. When the service has restarted, close SQL Server Management Studio.
 
 To allow SQL Server traffic through a firewall, you first need to know which ports your SQL Server instance is using. This will depend on how the SQL Server instance was created and configured:
@@ -97,18 +97,18 @@ In most Windows Server environments, you'll likely have to configure Windows Fir
 1. On the database server, on the **Start** menu, point to **Administrative Tools**, and then click **Windows Firewall with Advanced Security**.
 2. In the tree view pane, click **Inbound Rules**.
 
-    ![](configuring-a-database-server-for-web-deploy-publishing/_static/image6.png)
+    ![In the tree view pane, click Inbound Rules.](configuring-a-database-server-for-web-deploy-publishing/_static/image6.png)
 3. In the **Actions** pane, under **Inbound Rules**, click **New Rule**.
 4. In the New Inbound Rule Wizard, on the **Rule Type** page, select **Port**, and then click **Next**.
 
-    ![](configuring-a-database-server-for-web-deploy-publishing/_static/image7.png)
+    ![In the New Inbound Rule Wizard, on the Rule Type page, select Port, and then click Next.](configuring-a-database-server-for-web-deploy-publishing/_static/image7.png)
 5. On the **Protocol and Ports** page, ensure that **TCP** is selected, and in the **Specific local ports** box, type **1433**, and then click **Next**.
 
-    ![](configuring-a-database-server-for-web-deploy-publishing/_static/image8.png)
+    ![On the Protocol and Ports page, ensure that TCP is selected, and in the Specific local ports box, type 1433, and then click Next.](configuring-a-database-server-for-web-deploy-publishing/_static/image8.png)
 6. On the **Action** page, leave **Allow the connection** selected and click **Next**.
 7. On the **Profile** page, leave **Domain** selected, clear the **Private** and **Public** check boxes, and then click **Next**.
 
-    ![](configuring-a-database-server-for-web-deploy-publishing/_static/image9.png)
+    ![On the Profile page, leave Domain selected, clear the Private and Public check boxes, and then click Next.](configuring-a-database-server-for-web-deploy-publishing/_static/image9.png)
 8. On the **Name** page, give the rule a suitably descriptive name (for example, **SQL Server default instance – network access**), and then click **Finish**.
 
 For more information on configuring Windows Firewall for SQL Server, particularly if you need to communicate with SQL Server over non-standard or dynamic ports, see [How to: Configure a Windows Firewall for Database Engine Access](https://technet.microsoft.com/library/ms175043.aspx).
@@ -137,11 +137,11 @@ A SQL Server login is a server-level object, rather than a database-level object
 1. On the database server, on the **Start** menu, point to **All Programs**, click **Microsoft SQL Server 2008 R2**, and then click **SQL Server Management Studio**.
 2. In the **Connect to Server** dialog box, in the **Server name** box, type the name of the database server, and then click **Connect**.
 
-    ![](configuring-a-database-server-for-web-deploy-publishing/_static/image10.png)
+    ![This image illustrates: in the Connect to Server dialog box, in the Server name box, type the name of the database server, and then click Connect.](configuring-a-database-server-for-web-deploy-publishing/_static/image10.png)
 3. In the **Object Explorer** pane, right-click **Security**, point to **New**, and then click **Login**.
 4. In the **Login – New** dialog box, in the **Login name** box, type the name of your web server machine account (for example, **FABRIKAM\TESTWEB1$**).
 
-    ![](configuring-a-database-server-for-web-deploy-publishing/_static/image11.png)
+    ![In the Login – New dialog box, in the Login name box, type the name of your web server machine account (for example, FABRIKAM\TESTWEB1$).](configuring-a-database-server-for-web-deploy-publishing/_static/image11.png)
 5. Click **OK**.
 
 At this point, your database server is ready for Web Deploy publishing. However, any solutions you deploy won't work until you map the machine account login to the required database roles. Mapping the login to database roles requires a lot more thought, as you can't map roles until after you've deployed the database. To map the machine account login to the required database roles, you can either:
@@ -156,12 +156,12 @@ For more information on automating the creation of logins and database role mapp
 1. Open SQL Server Management Studio as before.
 2. In the **Object Explorer** pane, expand the **Security** node, expand the **Logins** node, and then double-click the machine account login (for example, **FABRIKAM\TESTWEB1$**).
 
-    ![](configuring-a-database-server-for-web-deploy-publishing/_static/image12.png)
+    ![In the Object Explorer pane, expand the Security node, expand the Logins node, and then double-click the machine account login (for example, FABRIKAM\TESTWEB1$).](configuring-a-database-server-for-web-deploy-publishing/_static/image12.png)
 3. In the **Login Properties** dialog box, click **User Mapping**.
 4. In the **Users mapped to this login** table, select the name of your database (for example, **ContactManager**).
 5. In the **Database role membership for:** *[database name]* list, select the permissions required. In the case of the Contact Manager sample solution, you must select the **db\_datareader** and **db\_datawriter** roles.
 
-    ![](configuring-a-database-server-for-web-deploy-publishing/_static/image13.png)
+    ![In the Database role membership for: [database name] list, select the permissions required. In the case of the Contact Manager sample solution, you must select the db\_datareader and db\_datawriter roles.](configuring-a-database-server-for-web-deploy-publishing/_static/image13.png)
 6. Click **OK**.
 
 While manually mapping database roles is often more than adequate for test environments, it's less desirable for automated or one-click deployments to staging or production environments. You can find more information on automating this kind of task using post-deployment scripts in [Deploying Database Role Memberships to Test Environments](../advanced-enterprise-web-deployment/deploying-database-role-memberships-to-test-environments.md).
@@ -184,7 +184,7 @@ If the account that you'll use to run the deployment is not a SQL Server adminis
 4. In the **Select a page** pane, click **Server Roles**.
 5. Select **dbcreator**, and then click **OK**.
 
-    ![](configuring-a-database-server-for-web-deploy-publishing/_static/image14.png)
+    ![Select dbcreator, and then click OK.](configuring-a-database-server-for-web-deploy-publishing/_static/image14.png)
 
 To support subsequent deployments, you'll also need to add the deploying account to the **db\_owner** role on the database after the first deployment. This is because on subsequent deployments you're modifying the schema of an existing database, rather than creating a new database. As described in the previous section, you can't add a user to a database role until you've created the database, for obvious reasons.
 
@@ -196,7 +196,7 @@ To support subsequent deployments, you'll also need to add the deploying account
 4. In the **Users mapped to this login** table, select the name of your database (for example, **ContactManager**).
 5. In the **Database role membership for:** *[database name]* list, select the **db\_owner** role.
 
-    ![](configuring-a-database-server-for-web-deploy-publishing/_static/image15.png)
+    ![In the Database role membership for: [database name] list, select the db\_owner role.](configuring-a-database-server-for-web-deploy-publishing/_static/image15.png)
 6. Click **OK**.
 
 ## Conclusion

@@ -29,7 +29,7 @@ The production environment is the final destination for a web application or a w
 
 For example, in our [tutorial scenario](../deploying-web-applications-in-enterprise-scenarios/enterprise-web-deployment-scenario-overview.md), a Team Build server includes build definitions that let users build the Contact Manager solution and deploy it to a staging environment in a single step. When the application is ready to be deployed to production, due to the constraints imposed by security requirements and the network infrastructure, the production environment administrator must manually copy the web package onto a production web server and import it through Internet Information Services (IIS) Manager.
 
-![](scenario-configuring-a-production-environment-for-web-deployment/_static/image1.png)
+![When the application is ready to be deployed to production, the production environment administrator must manually copy the web package onto a production web server and import it through Internet Information Services (IIS) Manager.](scenario-configuring-a-production-environment-for-web-deployment/_static/image1.png)
 
 ## Solution Overview
 
