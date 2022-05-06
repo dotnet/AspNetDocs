@@ -51,7 +51,7 @@ ASP.NET Identity consists of classes called managers and stores. Managers are hi
 
 The following diagram shows how your web application interacts with the managers, and stores interact with the data access layer.
 
-![](overview-of-custom-storage-providers-for-aspnet-identity/_static/image1.png)
+![Diagram showing how your web application interacts with the managers](overview-of-custom-storage-providers-for-aspnet-identity/_static/image1.png)
 
 To create a customized storage provider for ASP.NET Identity, you have to create the data source, the data access layer, and the store classes that interact with this data access layer. You can continue using the same manager APIs to perform data operations on the user but now that data is saved to a different storage system.
 
@@ -104,7 +104,7 @@ When implementing your own storage provider, you must create a user class which 
 
 The following diagram shows the IdentityUser class that you must create and the interface to implement in this class.
 
-![](overview-of-custom-storage-providers-for-aspnet-identity/_static/image2.png)
+![Image of the Identity User class](overview-of-custom-storage-providers-for-aspnet-identity/_static/image2.png)
 
 The [IUser&lt;TKey&gt;](https://msdn.microsoft.com/library/dn613291(v=vs.108).aspx) interface defines the properties that the UserManager attempts to call when performing requested operations. The interface contains two properties - Id and UserName. The [IUser&lt;TKey&gt;](https://msdn.microsoft.com/library/dn613291(v=vs.108).aspx) interface enables you to specify the type of the key for the user through the generic **TKey** parameter. The type of the Id property matches the value of the TKey parameter.
 
@@ -123,7 +123,7 @@ You also create a UserStore class that provides the methods for all data operati
 
 The following image shows the UserStore class you must create and the relevant interfaces.
 
-![](overview-of-custom-storage-providers-for-aspnet-identity/_static/image3.png)
+![Image of the User Store class](overview-of-custom-storage-providers-for-aspnet-identity/_static/image3.png)
 
 The default project template in Visual Studio contains code that assumes many of the optional interfaces have been implemented in the user store. If you are using the default template with a customized user store, you must either implement optional interfaces in your user store or alter the template code to no longer call methods in the interfaces you have not implemented.
 
@@ -141,7 +141,7 @@ Within your UserStore class, you use the data access classes that you created to
 
 The next image shows more details about the functionality defined in each interface. All of the optional interfaces inherit from IUserStore.
 
-![](overview-of-custom-storage-providers-for-aspnet-identity/_static/image4.png)
+![Illustration showing more details about the functionality defined in each interface](overview-of-custom-storage-providers-for-aspnet-identity/_static/image4.png)
 
 - **IUserStore**  
   The [IUserStore&lt;TUser, TKey&gt;](https://msdn.microsoft.com/library/dn613278(v=vs.108).aspx) interface is the only interface you must implement in your user store. It defines methods for creating, updating, deleting, and retrieving users.
@@ -185,7 +185,7 @@ When implementing your own storage provider, you must create a role class which 
 
 The following diagram shows the IdentityRole class that you must create and the interface to implement in this class.
 
-![](overview-of-custom-storage-providers-for-aspnet-identity/_static/image5.png)
+![Image of the Identity Role class](overview-of-custom-storage-providers-for-aspnet-identity/_static/image5.png)
 
 The [IRole&lt;TKey&gt;](https://msdn.microsoft.com/library/dn613268(v=vs.108).aspx) interface defines the properties that the RoleManager attempts to call when performing requested operations. The interface contains two properties - Id and Name. The [IRole&lt;TKey&gt;](https://msdn.microsoft.com/library/dn613268(v=vs.108).aspx) interface enables you to specify the type of the key for the role through the generic **TKey** parameter. The type of the Id property matches the value of the TKey parameter.
 
@@ -202,7 +202,7 @@ The following example shows an IdentityRole class that uses an integer for the k
 
 You also create a RoleStore class that provides the methods for all data operations on roles. This class is equivalent to the [RoleStore&lt;TRole&gt;](https://msdn.microsoft.com/library/dn468181(v=vs.108).aspx) class in the Microsoft.ASP.NET.Identity.EntityFramework namespace. In your RoleStore class, you implement the [IRoleStore&lt;TRole, TKey&gt;](https://msdn.microsoft.com/library/dn613266(v=vs.108).aspx) and optionally the [IQueryableRoleStore&lt;TRole, TKey&gt;](https://msdn.microsoft.com/library/dn613262(v=vs.108).aspx) interface.
 
-![](overview-of-custom-storage-providers-for-aspnet-identity/_static/image6.png)
+![Image showing a role store class](overview-of-custom-storage-providers-for-aspnet-identity/_static/image6.png)
 
 The following example shows a role store class. The TRole generic parameter takes the type of your role class which usually is the IdentityRole class you defined. The TKey generic parameter takes the type of your role key. 
 
@@ -223,7 +223,7 @@ You have implemented your new storage provider. Now, you must configure your app
 ### Replace default storage provider in MVC project
 
 1. In the **Manage NuGet Packages** window, uninstall the **Microsoft ASP.NET Identity EntityFramework** package. You can find this package by searching in the Installed packages for Identity.EntityFramework.  
-    ![](overview-of-custom-storage-providers-for-aspnet-identity/_static/image7.png) You will be asked if you also want to uninstall Entity Framework. If you do not need it in other parts of your application, you can uninstall it.
+    ![Image of the Nu Get packages window](overview-of-custom-storage-providers-for-aspnet-identity/_static/image7.png) You will be asked if you also want to uninstall Entity Framework. If you do not need it in other parts of your application, you can uninstall it.
 2. In the IdentityModels.cs file in the Models folder, delete or comment out the **ApplicationUser** and **ApplicationDbContext** classes. In an MVC application, you can delete the entire IdentityModels.cs file. In a Web Forms application, delete the two classes but make sure you keep the helper class that is also located in the IdentityModels.cs file.
 3. If your storage provider resides in a separate project, add a reference to it in your web application.
 4. Replace all references to `using Microsoft.AspNet.Identity.EntityFramework;` with a using statement for the namespace of your storage provider.
