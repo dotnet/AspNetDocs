@@ -39,11 +39,11 @@ In general, there are two ways to scale a web application: *scale up* and *scale
 
 The problem with scaling up is that you quickly hit a limit on the size of the machine. Beyond that, you need to scale out. However, when you scale out, clients can get routed to different servers. A client that is connected to one server will not receive messages sent from another server.
 
-![Image showing arrows going from Clients to Load Balancer to servers.](scaleout-in-signalr/_static/image1.png)
+![Diagram that shows arrows going from Clients to Load Balancer to servers.](scaleout-in-signalr/_static/image1.png)
 
 One solution is to forward messages between servers, using a component called a *backplane*. With a backplane enabled, each application instance sends messages to the backplane, and the backplane forwards them to the other application instances. (In electronics, a backplane is a group of parallel connectors. By analogy, a SignalR backplane connects multiple servers.)
 
-![Image showing arrows going from SignalR App server to Backplane to SignalR App server to computers.](scaleout-in-signalr/_static/image2.png)
+![Diagram that shows arrows going from Signal R App server to Backplane to Signal R App server to computers.](scaleout-in-signalr/_static/image2.png)
 
 SignalR currently provides three backplanes:
 
