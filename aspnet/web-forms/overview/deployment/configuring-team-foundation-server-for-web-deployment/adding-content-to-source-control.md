@@ -49,23 +49,23 @@ Before you add any content to source control, you need to connect to a team proj
 4. In the **Add/Remove Team Foundation Server** dialog box, click **Add**.
 5. In the **Add Team Foundation Server** dialog box, provide the details of your TFS instance, and then click **OK**.
 
-    ![](adding-content-to-source-control/_static/image1.png)
+    ![In the Add Team Foundation Server dialog box, provide the details of your TFS instance, and then click OK.](adding-content-to-source-control/_static/image1.png)
 6. In the **Add/Remove Team Foundation Server** dialog box, click **Close**.
 7. In the **Connect to Team Project** dialog box, select the TFS instance you want to connect to, select the team project collection, select the team project you want to add to, and then click **Connect**.
 
-    ![](adding-content-to-source-control/_static/image2.png)
+    ![In the Connect to Team Project dialog box, select the TFS instance you want to connect to, select the team project collection, select the team project you want to add to, and then click Connect.](adding-content-to-source-control/_static/image2.png)
 8. In the **Team Explorer** window, expand your team project, and then double-click **Source Control**.
 
-    ![](adding-content-to-source-control/_static/image3.png)
+    ![In the Team Explorer window, expand your team project, and then double-click Source Control.](adding-content-to-source-control/_static/image3.png)
 9. On the **Source Control Explorer** tab, click **Not mapped**.
 
-    ![](adding-content-to-source-control/_static/image4.png)
+    ![On the Source Control Explorer tab, click Not mapped.](adding-content-to-source-control/_static/image4.png)
 10. In the **Map** dialog box, in the **Local folder** box, browse to (or create) a local folder to act as the root folder for the team project, and then click **Map**.
 
-    ![](adding-content-to-source-control/_static/image5.png)
+    ![In the Map dialog box, in the Local folder box, browse to (or create) a local folder to act as the root folder for the team project, and then click Map.](adding-content-to-source-control/_static/image5.png)
 11. When you're prompted to download source files, click **Yes**.
 
-    ![](adding-content-to-source-control/_static/image6.png)
+    ![When you're prompted to download source files, click Yes.](adding-content-to-source-control/_static/image6.png)
 
 At this point, you have mapped the server-side folder for the team project to a local folder on your developer workstation. You've also downloaded any existing content from the team project to your local folder structure. You can now start to add your own content to source control.
 
@@ -82,20 +82,20 @@ To add projects and solutions to source control, you first need to move them to 
 2. Open the solution in Visual Studio 2010.
 3. In the **Solution Explorer** window, right-click the solution, and then click **Add Solution to Source Control**.
 
-    ![](adding-content-to-source-control/_static/image7.png)
+    ![In the Solution Explorer window, right-click the solution, and then click Add Solution to Source Control.](adding-content-to-source-control/_static/image7.png)
 
     > [!NOTE]
     > In some cases, depending on how your organization likes to structure content in TFS, you may need to add projects to source control individually to provide more fine-grained control over how your source code is organized.
 4. Verify that the **Source Control Explorer** tab displays the content you've added within the server folder structure for the team project.
 
-    ![](adding-content-to-source-control/_static/image8.png)
+    ![Verify that the Source Control Explorer tab displays the content you've added within the server folder structure for the team project.](adding-content-to-source-control/_static/image8.png)
 
     > [!NOTE]
     > The **Source Control Explorer** tab displays your content with no further prompting because you added your solution to a mapped folder on the local file system. If your solution was in an unmapped location, you'd be prompted to specify folder locations in both TFS and your local file system.
 5. On the **Source Control Explorer** tab, in the **Folders** pane, right-click the team project (for example, **ContactManager**), and then click **Check In Pending Changes**.
 6. In the **Check In – Source Files** dialog box, type a comment, and then click **Check In**.
 
-    ![](adding-content-to-source-control/_static/image9.png)
+    ![In the Check In – Source Files dialog box, type a comment, and then click Check In.](adding-content-to-source-control/_static/image9.png)
 
 At this point you have added your solution to source control in TFS.
 
@@ -113,23 +113,23 @@ For example, the folder structure for the Contact Manager sample solution includ
 1. Ensure that the items you want to add (for example, the packages folder) are in an appropriate location within a mapped folder on your local file system.
 2. In Visual Studio 2010, In the **Team Explorer** window, expand your team project, and then double-click **Source Control**.
 
-    ![](adding-content-to-source-control/_static/image10.png)
+    ![In Visual Studio 2010, In the Team Explorer window, expand your team project, and then double-click Source Control.](adding-content-to-source-control/_static/image10.png)
 3. On the **Source Control Explorer** tab, in the **Folders** pane, select the folder that contains the item or items you want to add.
 4. Click the **Add Items to Folder** button.
 
-    ![](adding-content-to-source-control/_static/image11.png)
+    ![Click the Add Items to Folder button.](adding-content-to-source-control/_static/image11.png)
 5. In the **Add to Source Control** dialog box, select the folder or items you want to add, and then click **Next**.
 
-    ![](adding-content-to-source-control/_static/image12.png)
+    ![In the Add to Source Control dialog box, select the folder or items you want to add, and then click Next.](adding-content-to-source-control/_static/image12.png)
 6. On the **Excluded items** tab, select any required items that have been automatically excluded (for example, assemblies), and then click **Include item(s)**.
 
-    ![](adding-content-to-source-control/_static/image13.png)
+    ![On the Excluded items tab, select any required items that have been automatically excluded (for example, assemblies), and then click Include item(s).](adding-content-to-source-control/_static/image13.png)
 7. On the **Items to add** tab, verify that all the files you want to include are listed, and then click **Finish**.
 
-    ![](adding-content-to-source-control/_static/image14.png)
+    ![On the Items to add tab, verify that all the files you want to include are listed, and then click Finish.](adding-content-to-source-control/_static/image14.png)
 8. In the **Source Control Explorer** window, click the **Check In** button.
 
-    ![](adding-content-to-source-control/_static/image15.png)
+    ![In the Source Control Explorer window, click the Check In button.](adding-content-to-source-control/_static/image15.png)
 9. In the **Check In – Source Files** dialog box, type a comment, and then click **Check In**.
 
 At this point, you have added the external dependencies for your solution to source control.
