@@ -56,7 +56,7 @@ Web developers have many new options available for project creation in Visual St
 
 Click here to view a video walkthrough of creating Web projects in Visual Studio 2005.
 
-![Screenshot of the video walkthrough of creating Web projects in Visual Studio.](improvements-in-visual-studio-2005/_static/image1.png)
+:::image type="icon" source="improvements-in-visual-studio-2005/_static/image1.png" link="improvements-in-visual-studio-2005/_static/creating_projects1.wmv":::
 
 [Open Full-Screen Video](improvements-in-visual-studio-2005/_static/creating_projects1.wmv)
 
@@ -246,7 +246,7 @@ Another great enhancement to Visual Studio and the ASP.NET architecture is in th
 
 Click here to see a video walkthrough of the edit and continue feature in Visual Studio 2005.
 
-![Screenshot of the video walkthrough of the edit and continue feature in Visual Studio.](improvements-in-visual-studio-2005/_static/image2.png)
+:::image type="icon" source="improvements-in-visual-studio-2005/_static/image2.png" link="improvements-in-visual-studio-2005/_static/editcontinue1.wmv":::
 
 [Open Full-Screen Video](improvements-in-visual-studio-2005/_static/editcontinue1.wmv)
 
@@ -256,7 +256,7 @@ In Visual Studio 2005 using ASP.NET 2.0, the two compilation models outline abov
 
 Click here to see a video walkthrough of designer support for user controls.
 
-![Screenshot of the video walkthrough of designer support for user controls in Visual Studio.](improvements-in-visual-studio-2005/_static/image3.png)
+:::image type="icon" source="improvements-in-visual-studio-2005/_static/image3.png" link="improvements-in-visual-studio-2005/_static/usercontrols1.wmv":::
 
 [Open Full-Screen Video](improvements-in-visual-studio-2005/_static/usercontrols1.wmv)
 
@@ -385,7 +385,7 @@ The ASP.NET Development Server is a restricted Web server. It does not allow rem
 
 The ASP.NET Development Server can be launched via the command line by running the WebDev.WebServer.exe file located at c:/Windows/Microsoft.NET/Framework/v2.0./*/*/*/*/*. The following dialog displays the parameters that are available.
 
-![Screenshot of Visual Studio dialogue box displaying the parameters for launching ASP.NET Development server from the command line.](improvements-in-visual-studio-2005/_static/image11.jpg)
+![Screenshot of Visual Studio dialogue box displaying the parameters for launching A S P dot net Development server from the command line.](improvements-in-visual-studio-2005/_static/image11.jpg)
 
 **Figure 14**
 

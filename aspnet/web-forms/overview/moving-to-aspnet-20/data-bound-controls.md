@@ -662,7 +662,7 @@ This exercise assumes that you have SQL Server running locally and that the Nort
 8. Select **Northwind** in the connection dropdown and click Next.
 9. Select **Products** from the **Name** dropdown and check the **ProductID**, **ProductName**, **UnitPrice**, and **UnitsInStock** checkboxes as shown below. 
 
-![A screenshot of the configure data source - products screen.](data-bound-controls/_static/image3.jpg)
+![A screenshot of the configure data source products screen.](data-bound-controls/_static/image3.jpg)
 
 *Figure 3*
 
