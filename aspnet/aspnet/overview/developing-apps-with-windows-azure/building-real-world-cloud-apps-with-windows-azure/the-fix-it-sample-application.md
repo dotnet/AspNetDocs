@@ -1,8 +1,8 @@
 ---
 uid: aspnet/overview/developing-apps-with-windows-azure/building-real-world-cloud-apps-with-windows-azure/the-fix-it-sample-application
 title: "Appendix: The Fix It Sample Application (Building Real-World Cloud Apps with Azure) | Microsoft Docs"
-author: MikeWasson
-description: "The Building Real World Cloud Apps with Azure e-book is based on a presentation developed by Scott Guthrie. It explains 13 patterns and practices that can he..."
+author: Rick-Anderson
+description: "Building Real World Cloud Apps with Azure, an e-book by Scott Guthrie"
 ms.author: riande
 ms.date: 06/12/2014
 ms.assetid: 1bc333c5-f096-4ea7-b170-779accc21c1a
@@ -257,7 +257,7 @@ If you want to run in Azure without using queues, and you made the changes to ru
 
 These instructions assume you have already downloaded and run the Fix It solution locally, and that you have an Azure account or have an Azure subscription that you are authorized to manage.
 
-1. Install the **Azure PowerShell** console. For instructions, see [How to install and configure Azure PowerShell](/powershell/azure/overview?view=azurermps-4.3.1).
+1. Install the **Azure PowerShell** console. For instructions, see [How to install and configure Azure PowerShell](/powershell/azure/overview?view=azurermps-4.3.1&preserve-view=true).
 
     This customized console is configured to work with your Azure subscription. The Azure module is installed in the *Program Files* directory and is automatically imported on every use of the Azure PowerShell console.
 
@@ -367,7 +367,7 @@ Then deploy the MVC application to an web app in Azure App Service, as described
 
 Next, create a new Azure cloud service. The scripts included with the Fix It app do not create or deploy the cloud service, so you must use Azure portal for this. In the portal, click **New** -- **Compute** – **Cloud Service** -- **Quick Create**, and then enter a URL and a data center location. Use the same data center where you deployed the web app.
 
-![](the-fix-it-sample-application/_static/image1.png)
+![Diagram showing the Azure Cloud Service Portal and the multiple tabs, with their available selections, for creating a new Azure cloud service project](the-fix-it-sample-application/_static/image1.png)
 
 Before you can deploy the cloud service, you need to update some of the configuration files.
 
