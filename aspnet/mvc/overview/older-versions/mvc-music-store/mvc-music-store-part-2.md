@@ -98,7 +98,7 @@ Run the project again and browse the following URLs:
 
 Accessing these URLs will invoke the action methods within our Controller and return string responses:
 
-![Screenshot of the window browser, showing an example of the action methods invoked when accessing the URL. It shows the following string response: Hello from Store.Details()](mvc-music-store-part-2/_static/image5.png)
+![Screenshot of the window browser, showing an example of the action methods invoked when accessing the U R L. It shows the following string response: Hello from Store.Details()](mvc-music-store-part-2/_static/image5.png)
 
 That's great, but these are just constant strings. Let's make them dynamic, so they take information from the URL and display it in the page output.
 
@@ -120,7 +120,7 @@ ASP.NET MVC lets us easily do this without having to configure anything. ASP.NET
 
 Run the application and browse to /Store/Details/5:
 
-![Screenshot of the parameter being passed from the URL segment. The parameter is a string that reads Store.Details, ID=5.](mvc-music-store-part-2/_static/image7.png)
+![Screenshot of the parameter being passed from the U R L segment. The parameter is a string that reads Store.Details, ID=5.](mvc-music-store-part-2/_static/image7.png)
 
 Let's recap what we've done so far:
 

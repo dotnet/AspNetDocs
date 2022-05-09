@@ -261,7 +261,7 @@ You will now explore how the adaptive rendering works, improving the readability
     *Locating the media query*
 4. Replace the max-width attribute value set in 850 px with **10px**, in order to disable the adaptive rendering, and press **CTRL + S** to save the changes. Return to the browser and press **CTRL + F5** to refresh the page with the changes you have made. Notice the differences in both pages when adjusting the width of the window.
 
-    ![The page is applying the @media style on the left and in the right, the style is omitted](whats-new-in-aspnet-mvc-4/_static/image17.png "In the left, the page is applying the @media style, in the right, the style is omitted")
+    ![The page is applying the @media style on the left and on the right, the style is omitted](whats-new-in-aspnet-mvc-4/_static/image17.png "In the left, the page is applying the @media style, in the right, the style is omitted")
 
     *In the left, the page is applying the @media style, in the right, the style is omitted*
 

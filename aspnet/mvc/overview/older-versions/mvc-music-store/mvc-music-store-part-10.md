@@ -35,7 +35,7 @@ As shown previously, the ShoppingCart controller includes a CartSummary action m
 
 To create the CartSummary partial view, right-click on the Views/ShoppingCart folder and select Add View. Name the view CartSummary and check the "Create a partial view" checkbox as shown below.
 
-![Screenshot of the menu bar selections and options for creating a partial view of the shopping cart](mvc-music-store-part-10/_static/image2.png)
+![Screenshot of the menu bar selections and options for creating a partial view of the shopping cart.](mvc-music-store-part-10/_static/image2.png)
 
 The CartSummary partial view is really simple - it's just a link to the ShoppingCart Index view which shows the number of items in the cart. The complete code for CartSummary.cshtml is as follows:
 
@@ -63,7 +63,7 @@ This action returns a list of Genres which will be displayed by the partial view
 
 Right-click on the GenreMenu controller action and create a partial view named GenreMenu which is strongly typed using the Genre view data class as shown below.
 
-![Screenshot of the controller actions menu used for creating the partial view that lists the genre menu](mvc-music-store-part-10/_static/image4.png)
+![Screenshot of the controller actions menu used for creating the partial view that lists the genre menu.](mvc-music-store-part-10/_static/image4.png)
 
 Update the view code for the GenreMenu partial view to display the items using an unordered list as follows.
 
@@ -121,7 +121,7 @@ Finally, we'll need to update our Home Index view so that it can display a list 
 
 Now when we run the application, we'll see our updated home page with top selling albums and our promotional message.
 
-![Music store homepage screenshot, showing the list of genres in a partial left view, the top picks albums at the bottom, and a large promotional message in the center of the page.](mvc-music-store-part-10/_static/image1.jpg)
+![Music store home page screenshot, showing the list of genres in a partial left view, the top picks albums at the bottom, and a large promotional message in the center of the page.](mvc-music-store-part-10/_static/image1.jpg)
 
 ## Conclusion
 

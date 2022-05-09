@@ -25,11 +25,11 @@ The MVC Music Store is a tutorial application that introduces and explains step-
 
 The application we'll be building is a simple music store. There are three main parts to the application: shopping, checkout, and administration.
 
-![Screenshot of the ASP.Net Music Store overview menu, with options for selecting a genre or from the top picks selections.](mvc-music-store-part-1/_static/image1.jpg)
+![Screenshot of the A S P dot Net Music Store overview menu, with options for selecting a genre or from the top picks selections.](mvc-music-store-part-1/_static/image1.jpg)
 
 Visitors can browse Albums by Genre:
 
-![Screenshot of the ASP.NET music store genre albums selections menu that shows the collection of albums in a given genre.](mvc-music-store-part-1/_static/image2.jpg)
+![Screenshot of the A S P dot Net music store genre albums selections menu that shows the collection of albums in a given genre.](mvc-music-store-part-1/_static/image2.jpg)
 
 They can view a single album and add it to their cart:
 
@@ -43,7 +43,7 @@ Proceeding to Checkout will prompt them to login or register for a user account.
 
 ![Screenshot of the Log On menu bar, requesting the user to enter a user name and password, in addition to the option to click a 'remember me' button.](mvc-music-store-part-1/_static/image1.png)
 
-![Screenshot of the Create New Account menu bar, which requests a user name, email address, password, and password confirmation entries -password must be 6 characters long-, with the register button at the bottom.](mvc-music-store-part-1/_static/image2.png)
+![Screenshot of the Create New Account menu bar, which requests a user name, email address, and a password that contains six or more characters. The register button is at the bottom of the screen..](mvc-music-store-part-1/_static/image2.png)
 
 After creating an account, they can complete the order by filling out shipping and payment information. To keep things simple, we're running an amazing promotion: everything's free if they enter promotion code "FREE"!
 
