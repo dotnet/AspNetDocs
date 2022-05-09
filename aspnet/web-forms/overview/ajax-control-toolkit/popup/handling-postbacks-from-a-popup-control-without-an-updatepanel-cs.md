@@ -37,7 +37,7 @@ When the page is loaded, JavaScript code adds an event handler to both text boxe
 
 [!code-html[Main](handling-postbacks-from-a-popup-control-without-an-updatepanel-cs/samples/sample3.html)]
 
-In the server-side code, the value of the hidden field must be read. Since hidden form fields are trivial to manipulate, a whitelist approach to validate the hidden value is required. Once the correct text box has been identified, the date from the calendar is written into it.
+In the server-side code, the value of the hidden field must be read. Since hidden form fields are trivial to manipulate, a safelist approach to validate the hidden value is required. Once the correct text box has been identified, the date from the calendar is written into it.
 
 [!code-aspx[Main](handling-postbacks-from-a-popup-control-without-an-updatepanel-cs/samples/sample4.aspx)]
 

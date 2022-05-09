@@ -1,6 +1,6 @@
 ---
 uid: web-forms/overview/data-access/masterdetail/master-detail-filtering-across-two-pages-vb
-title: "Master/Detail Filtering Across Two Pages (VB) | Microsoft Docs"
+title: "Master/Detail Filtering Across Two Pages With a GridView (VB) | Microsoft Docs"
 author: rick-anderson
 description: "In this tutorial we'll implement this pattern by using a GridView to list the suppliers in the database. Each supplier row in the GridView will contain a Vie..."
 ms.author: riande
@@ -9,7 +9,7 @@ ms.assetid: 361d6a44-3f1f-4daf-85df-d4c2b8bf065d
 msc.legacyurl: /web-forms/overview/data-access/masterdetail/master-detail-filtering-across-two-pages-vb
 msc.type: authoredcontent
 ---
-# Master/Detail Filtering Across Two Pages (VB)
+# Master/Detail Filtering Across Two Pages With a GridView(VB)
 
 by [Scott Mitchell](https://twitter.com/ScottOnWriting)
 

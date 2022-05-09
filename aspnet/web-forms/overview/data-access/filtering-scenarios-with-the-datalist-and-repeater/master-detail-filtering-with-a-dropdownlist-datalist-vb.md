@@ -1,6 +1,6 @@
 ---
 uid: web-forms/overview/data-access/filtering-scenarios-with-the-datalist-and-repeater/master-detail-filtering-with-a-dropdownlist-datalist-vb
-title: "Master/Detail Filtering With a DropDownList (VB) | Microsoft Docs"
+title: "Master/Detail Filtering With a DropDownList and DataList (VB) | Microsoft Docs"
 author: rick-anderson
 description: "In this tutorial we see how to display master/detail reports in a single web page using DropDownLists to display the 'master' records and a DataList to displ..."
 ms.author: riande
@@ -9,7 +9,7 @@ ms.assetid: ad0f1014-1eff-465f-bdc6-93058de00e44
 msc.legacyurl: /web-forms/overview/data-access/filtering-scenarios-with-the-datalist-and-repeater/master-detail-filtering-with-a-dropdownlist-datalist-vb
 msc.type: authoredcontent
 ---
-# Master/Detail Filtering With a DropDownList (VB)
+# Master/Detail Filtering With a DropDownList and DataList (VB)
 
 by [Scott Mitchell](https://twitter.com/ScottOnWriting)
 
