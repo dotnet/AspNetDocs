@@ -107,7 +107,7 @@ In some cases, it's not possible or practical to deploy applications and content
 
 In scenarios like these, you can still use the packaging and publishing capabilities of Web Deploy; you just can't use them from a remote location. Instead, an administrator on the destination server must copy the web package onto the server and import it through IIS Manager.
 
-![](choosing-the-right-approach-to-web-deployment/_static/image1.png)
+![Instead, an administrator on the destination server must copy the web package onto the server and import it through IIS Manager.](choosing-the-right-approach-to-web-deployment/_static/image1.png)
 
 The offline deployment approach is typically useful in Internet-facing production environments, where servers in a perimeter network may have restricted connectivity with computers in the internal network.
 
