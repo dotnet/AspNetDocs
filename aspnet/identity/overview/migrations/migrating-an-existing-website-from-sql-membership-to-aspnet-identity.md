@@ -27,7 +27,7 @@ For this tutorial, we will take a web application template (Web Forms) created u
     ![Image of create new project window](migrating-an-existing-website-from-sql-membership-to-aspnet-identity/_static/image1.jpg)
 2. Using the ASP.NET Configuration tool, create 2 users: **oldAdminUser** and **oldUser.**
 
-    ![Image of A S P dot Net configuration selection](migrating-an-existing-website-from-sql-membership-to-aspnet-identity/_static/image1.png)
+    ![Image of ASP dot Net configuration selection](migrating-an-existing-website-from-sql-membership-to-aspnet-identity/_static/image1.png)
 
     ![Image of web site administration tool](migrating-an-existing-website-from-sql-membership-to-aspnet-identity/_static/image2.jpg)
 3. Create a role named Admin and add 'oldAdminUser' as a user in that role.
@@ -50,7 +50,7 @@ For this tutorial, we will take a web application template (Web Forms) created u
 4. Open Server Explorer and verify that the table schema and data can be observed.
 5. The ASP.NET Identity system works with version 4.5 or higher of the framework. Retarget the application to 4.5 or higher.
 
-    ![Image of A S P dot Net identity system and target framework](migrating-an-existing-website-from-sql-membership-to-aspnet-identity/_static/image5.png)
+    ![Image of ASP dot Net identity system and target framework](migrating-an-existing-website-from-sql-membership-to-aspnet-identity/_static/image5.png)
 
     Build the project to verify that there are no errors.
 

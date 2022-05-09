@@ -93,7 +93,7 @@ ASP.NET Identity is implemented using the following procedure. The purpose of th
 
 1. Create an ASP.NET MVC application with Individual Accounts. You can use ASP.NET Identity in ASP.NET MVC, Web Forms, Web API, SignalR etc. In this article we will start with an ASP.NET MVC application.  
   
-    ![Image of new A S P dot Net project window](introduction-to-aspnet-identity/_static/image1.png)
+    ![Image of new ASP dot Net project window](introduction-to-aspnet-identity/_static/image1.png)
 2. The created project contains the following three packages for ASP.NET Identity.
 
     - [`Microsoft.AspNet.Identity.EntityFramework`](http://www.nuget.org/packages/Microsoft.AspNet.Identity.EntityFramework/)  
