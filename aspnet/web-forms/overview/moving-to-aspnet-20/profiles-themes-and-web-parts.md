@@ -2,7 +2,7 @@
 uid: web-forms/overview/moving-to-aspnet-20/profiles-themes-and-web-parts
 title: "Profiles, Themes, and Web Parts | Microsoft Docs"
 author: rick-anderson
-description: "There are major changes in configuration and instrumentation in ASP.NET 2.0. The new ASP.NET configuration API allows for configuration changes to be made pr..."
+description: Describes the profiles, themes, and web parts for ASP.NET 2.0 and provides overviews and tables for each category.
 ms.author: riande
 ms.date: 02/20/2005
 ms.assetid: 92df4051-77c6-492c-bd34-23d24189cea4
