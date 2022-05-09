@@ -36,7 +36,7 @@ In this tutorial, you will use [Redis](http://redis.io/) to distribute messages 
 
 Redis is an in-memory key-value store. It also supports a messaging system with a publish/subscribe model. The SignalR Redis backplane uses the pub/sub feature to forward messages to other servers.
 
-![Diagram that shows arrows going from Redis Server to V M and then to computers One arrow labeled Publish goes from V M to Redis Server.](scaleout-with-redis/_static/image1.png)
+![Diagram that shows arrows going from Redis Server to V M and then to computers. One arrow labeled Publish goes from V M to Redis Server.](scaleout-with-redis/_static/image1.png)
 
 For this tutorial, you will use three servers:
 
@@ -74,11 +74,11 @@ Download the Ubuntu ISO from [http://www.ubuntu.com](http://www.ubuntu.com/).
 
 In Hyper-V, add a new VM. In the **Connect Virtual Hard Disk** step, select **Create a virtual hard disk**.
 
-![Screenshot of a window titled New Virtual Machine Wizard and Connect Virtual Hard Disk and Create a virtual hard disk are selected.](scaleout-with-redis/_static/image2.png)
+![Screenshot that shows the New Virtual Machine Wizard dialog box. Connect Virtual Hard Disk and Create a virtual hard disk are selected.](scaleout-with-redis/_static/image2.png)
 
 In the **Installation Options** step, select **Image file (.iso)**, click **Browse**, and browse to the Ubuntu installation ISO.
 
-![Screenshot that shows a window titled New Virtual Machine Wizard Installation Options is highlighted Install from a boot C D D V D ROM and Image file dot i s o are selected](scaleout-with-redis/_static/image3.png)
+![Screenshot that shows the New Virtual Machine Wizard on the Installation Options page. Install an O S from a boot C D D V D ROM and Image file dot i s o are selected](scaleout-with-redis/_static/image3.png)
 
 ## Install Redis
 
@@ -96,7 +96,7 @@ Now start the Redis server:
 
 [!code-css[Main](scaleout-with-redis/samples/sample4.css)]
 
-![Screenshot that shows main page of Redis server.](scaleout-with-redis/_static/image4.png)
+![Screenshot that shows the main page of the Redis server.](scaleout-with-redis/_static/image4.png)
 
 Open port 6379, which is the default port that Redis listens on. (You can change the port number in the configuration file.)
 
@@ -130,15 +130,15 @@ Prepare your Windows Server instances to deploy the SignalR application.
 
 Add the IIS role. Include "Application Development" features, including the WebSocket Protocol.
 
-![Screenshot that shows a window titled Add Roles and Features Wizard On the Server Roles option WebSocket Protocol is selected.](scaleout-with-redis/_static/image5.png)
+![Screenshot that shows Add Roles and Features Wizard. Server Roles and WebSocket Protocol are selected.](scaleout-with-redis/_static/image5.png)
 
 Also include the Management Service (listed under "Management Tools").
 
-![Screenshot that shows a window titled Add Roles and Features Wizard On the Server Roles option Management Service is selected.](scaleout-with-redis/_static/image6.png)
+![Screenshot that shows Add Roles and Features Wizard. Management Service is selected.](scaleout-with-redis/_static/image6.png)
 
 **Install Web Deploy 3.0.** When you run IIS Manager, it will prompt you to install Microsoft Web Platform, or you can [download the installer](https://go.microsoft.com/fwlink/?LinkId=255386). In the Platform Installer, search for Web Deploy and install Web Deploy 3.0
 
-![Screenshot that shows a window titled Web Platform Installer 4 point 5 Web Deploy 3 point 0 is selected.](scaleout-with-redis/_static/image7.png)
+![Screenshot that shows Web Platform Installer 4 point 5 dialog box. Web Deploy 3 point 0 is selected.](scaleout-with-redis/_static/image7.png)
 
 Check that the Web Management Service is running. If not, start the service. (If you don't see Web Management Service in the list of Windows services, make sure that you installed the Management Service when you added the IIS role.)
 

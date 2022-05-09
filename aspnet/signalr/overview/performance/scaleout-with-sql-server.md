@@ -34,7 +34,7 @@ by [Mike Wasson](https://github.com/MikeWasson), [Patrick Fletcher](https://gith
 
 In this tutorial, you will use SQL Server to distribute messages across a SignalR application that is deployed in two separate IIS instances. You can also run this tutorial on a single test machine, but to get the full effect, you need to deploy the SignalR application to two or more servers. You must also install SQL Server on one of the servers, or on a separate dedicated server. Another option is to run the tutorial using VMs on Azure.
 
-![Diagram that shows arrows going from S Q L Server to V M to computers One arrow labeled Update starts at V M and goes to S Q L Server.](scaleout-with-sql-server/_static/image1.png)
+![Diagram that shows arrows going from S Q L Server to V M to computers. One arrow labeled Update starts at V M and goes to S Q L Server.](scaleout-with-sql-server/_static/image1.png)
 
 ## Prerequisites
 
@@ -62,7 +62,7 @@ Decide whether the application will use Windows authentication or SQL Server aut
 
 Create a new database for the backplane to use. You can give the database any name. You don't need to create any tables in the database; the backplane will create the necessary tables.
 
-![Screenshot of a window titled Object Explorer The folder labeled Databases is selected.](scaleout-with-sql-server/_static/image2.png)
+![Screenshot of the Object Explorer dialog box. The folder labeled Databases is selected.](scaleout-with-sql-server/_static/image2.png)
 
 ## Enable Service Broker
 
@@ -104,11 +104,11 @@ Prepare your Windows Server instances to deploy the SignalR application.
 
 Add the IIS role. Include "Application Development" features, including the WebSocket Protocol.
 
-![Window titled Add Roles and Features Wizard On the Server Roles option WebSocket Protocol is selected.](scaleout-with-sql-server/_static/image4.png)
+![Screenshot that shows the Add Roles and Features Wizard dialog box. Server Roles and WebSocket Protocol are selected.](scaleout-with-sql-server/_static/image4.png)
 
 Also include the Management Service (listed under "Management Tools").
 
-![Window titled Add Roles and Features Wizard On the Server Roles option Management Service is selected.](scaleout-with-sql-server/_static/image5.png)
+![Screenshot that shows the Add Roles and Features Wizard dialog box. Server Roles and Management Service are selected.](scaleout-with-sql-server/_static/image5.png)
 
 **Install Web Deploy 3.0.** When you run IIS Manager, it will prompt you to install Microsoft Web Platform, or you can [download the installer](https://go.microsoft.com/fwlink/?LinkId=255386). In the Platform Installer, search for Web Deploy and install Web Deploy 3.0
 
@@ -128,6 +128,6 @@ If you deploy the application to two servers, you can open each instance in a se
 
 After you run the application, you can see that SignalR has automatically created tables in the database:
 
-![Screenshot of a window titled Object Explorer displaying folders and files.](scaleout-with-sql-server/_static/image8.png)
+![Screenshot of the Object Explorer dialog box displaying folders and files.](scaleout-with-sql-server/_static/image8.png)
 
 SignalR manages the tables. As long as your application is deployed, don't delete rows, modify the table, and so forth.
