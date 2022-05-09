@@ -2,7 +2,7 @@
 uid: web-api/overview/error-handling/exception-handling
 title: Exception Handling in ASP.NET Web API - ASP.NET 4.x
 author: Rick-Anderson
-description: Describes how error and exception handling occurs in ASP.NET Web API.
+description: Describes ASP.NET Web API executes error and exception handling and provides examples for errors and exceptions.
 ms.author: riande
 ms.date: 03/12/2012
 ms.custom: seoapril2019

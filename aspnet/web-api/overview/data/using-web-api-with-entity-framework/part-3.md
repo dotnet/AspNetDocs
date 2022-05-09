@@ -2,7 +2,7 @@
 uid: web-api/overview/data/using-web-api-with-entity-framework/part-3
 title: Use Code First Migrations to Seed the Database | Microsoft Docs
 author: Rick-Anderson
-description: Describes how to use the Code First Migrations in EF to seed the database with test data.
+description: Describes how to use the Code First Migrations in Entity Framework to seed the database with test data.
 ms.author: riande
 ms.date: 06/16/2014
 ms.assetid: 76e2013a-65b7-488c-834d-9448ecea378e
