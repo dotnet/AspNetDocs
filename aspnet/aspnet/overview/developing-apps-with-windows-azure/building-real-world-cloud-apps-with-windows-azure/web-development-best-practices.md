@@ -1,8 +1,8 @@
 ---
 uid: aspnet/overview/developing-apps-with-windows-azure/building-real-world-cloud-apps-with-windows-azure/web-development-best-practices
-title: "Web Development Best Practices (Building Real-World Cloud Apps with Azure) | Microsoft Docs"
+title: Web Development Best Practices (Building Real-World Cloud Apps with Azure) | Microsoft Docs
 author: Rick-Anderson
-description: "The e-book: 'Building Real World Cloud Apps with Azure', by Scoot Guthrie is based on a presentation he developed, explaining 13 patterns and practices"
+description: The e-book 'Building Real World Cloud Apps with Azure', by Scoot Guthrie is based on a presentation he developed, explaining 13 patterns and practices.
 ms.author: riande
 ms.date: 06/12/2014
 ms.assetid: 52d6c941-2cd9-442f-9872-2c798d6d90cd

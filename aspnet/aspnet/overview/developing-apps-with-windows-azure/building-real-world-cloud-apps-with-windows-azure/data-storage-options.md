@@ -1,8 +1,8 @@
 ---
 uid: aspnet/overview/developing-apps-with-windows-azure/building-real-world-cloud-apps-with-windows-azure/data-storage-options
-title: "Data Storage Options (Building Real-World Cloud Apps with Azure) | Microsoft Docs"
+title: Data Storage Options (Building Real-World Cloud Apps with Azure) | Microsoft Docs
 author: Rick-Anderson
-description: "Scott Guthrie explains a representation of 13 patterns and practices in his e-book: 'Building Real World Cloud Apps with Azure'"
+description: Scott Guthrie explains a representation of 13 patterns and practices in his e-book Building Real World Cloud Apps with Azure
 ms.author: riande
 ms.date: 06/12/2014
 ms.assetid: e51fcecb-cb33-4f9e-8428-6d2b3d0fe1bf

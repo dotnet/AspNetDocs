@@ -1,8 +1,8 @@
 ---
 uid: aspnet/overview/developing-apps-with-windows-azure/building-real-world-cloud-apps-with-windows-azure/queue-centric-work-pattern
-title: "Queue-Centric Work Pattern (Building Real-World Cloud Apps with Azure) | Microsoft Docs"
+title: Queue-Centric Work Pattern (Building Real-World Cloud Apps with Azure) | Microsoft Docs
 author: Rick-Anderson
-description: " Scoot Guthrie wrote an e-book called: The Building Real World Cloud Apps with Azure, which is based on a presentation he developed, and explains 13 patterns and practices"
+description: Scott Guthrie wrote an e-book called The Building Real World Cloud Apps with Azure, which is based on a presentation he developed, and explains 13 patterns and practices.
 ms.author: riande
 ms.date: 06/12/2014
 ms.assetid: cc1ad51b-40c3-4c68-8620-9aaa0fd1f6cf

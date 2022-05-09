@@ -1,8 +1,8 @@
 ---
 uid: aspnet/overview/developing-apps-with-windows-azure/building-real-world-cloud-apps-with-windows-azure/continuous-integration-and-continuous-delivery
-title: "Continuous Integration and Continuous Delivery (Building Real-World Cloud Apps with Azure) | Microsoft Docs"
+title: Continuous Integration and Continuous Delivery (Building Real-World Cloud Apps with Azure) | Microsoft Docs
 author: Rick-Anderson
-description: "Building Real World Cloud Apps with Azure. An e-book is based on a presentation developed by Scott Guthrie, which explains 13 patterns and practices that can he..."
+description: Building Real World Cloud Apps with Azure. An e-book is based on a presentation developed by Scott Guthrie, which explains 13 patterns and practices that can he...
 ms.author: riande
 ms.date: 06/12/2014
 ms.assetid: eaece9f5-f80c-428b-b771-5db66d275b7d
