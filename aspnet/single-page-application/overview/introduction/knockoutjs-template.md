@@ -19,7 +19,7 @@ The ASP.NET and Web Tools 2012.2 update includes a Single-Page Application (SPA)
 
 "Single-page application" (SPA) is the general term for a web application that loads a single HTML page and then updates the page dynamically, instead of loading new pages. After the initial page load, the SPA talks with the server through AJAX requests.
 
-![Diagram that shows two boxes labeled Client and Server. An arrow labeled AJAX goes from Client to Server. An arrow labeled H T M L and an arrow labeled J S O N go from Server to Client.](knockoutjs-template/_static/image1.png)
+![Diagram that shows two boxes labeled Client and Server. An arrow labeled AJAX goes from Client to Server. An arrow labeled H T M L and an arrow labeled J SON go from Server to Client.](knockoutjs-template/_static/image1.png)
 
 AJAX is nothing new, but today there are JavaScript frameworks that make it easier to build and maintain a large sophisticated SPA application. Also, HTML 5 and CSS3 are making it easier to create rich UIs.
 
@@ -44,7 +44,7 @@ In the **New Project** wizard, select **Single Page Application**.
 
 Press F5 to build and run the application. When the application first runs, it displays a login screen.
 
-![Screenshot that shows the My Todo List login screen.](knockoutjs-template/_static/image4.png)
+![Screenshot that shows the My To do List login screen.](knockoutjs-template/_static/image4.png)
 
 Click the &quot;Sign up&quot; link and create a new user.
 
@@ -52,7 +52,7 @@ Click the &quot;Sign up&quot; link and create a new user.
 
 After you log in, the application creates a default Todo list with two items. You can click "Add Todo list" to add a new list.
 
-![Screenshot that shows two Todo Lists and an Add Todo List button at the top.](knockoutjs-template/_static/image6.png)
+![Screenshot that shows two To do Lists and an Add To do List button at the top.](knockoutjs-template/_static/image6.png)
 
 Rename the list, add items to the list, and check them off. You can also delete items or delete an entire list. The changes are automatically persisted to a database on the server (actually LocalDB at this point, because you are running the application locally).
 
@@ -62,7 +62,7 @@ Rename the list, add items to the list, and check them off. You can also delete 
 
 This diagram shows the main building blocks for the application.
 
-![Diagram that shows the separate building blocks of the Client and Server. Knockout dot j s, H T M L, and J S O N are under Client. A S P dot NET M V C, A S P dot NET Web A P I, Entity Framework, and Database are under Server.](knockoutjs-template/_static/image8.png)
+![Diagram that shows the separate building blocks of the Client and Server. Knockout dot j s, H T M L, and J SON are under Client. A S P dot NET M V C, A S P dot NET Web A P I, Entity Framework, and Database are under Server.](knockoutjs-template/_static/image8.png)
 
 On the server side, ASP.NET MVC serves the HTML and also handles forms-based authentication.
 
@@ -117,7 +117,7 @@ You can also add new items to the collection, update items, or delete items from
 
 In ASP.NET Web API, controllers are objects that handle HTTP requests. As mentioned, the SPA template uses Web API to enable CRUD operations on `ToDoList` and `ToDoItem` instances. The controllers are located in the Controllers folder of the solution.
 
-![Screenshot that shows the Controllers folder open. Todo Controller dot c s and Todo List Controller dot c s are both circled in red.](knockoutjs-template/_static/image10.png)
+![Screenshot that shows the Controllers folder open. To do Controller dot c s and To do List Controller dot c s are both circled in red.](knockoutjs-template/_static/image10.png)
 
 - `TodoController`: Handles HTTP requests for to-do items
 - `TodoListController`: Handles HTTP requests for to-do lists.

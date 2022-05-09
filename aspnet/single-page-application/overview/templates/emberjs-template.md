@@ -21,7 +21,7 @@ The EmberJS SPA template is designed to get you started quickly building interac
 
 "Single-page application" (SPA) is the general term for a web application that loads a single HTML page and then updates the page dynamically, instead of loading new pages. After the initial page load, the SPA talks with the server through AJAX requests.
 
-![Diagram that shows two boxes labeled Client and Server. An arrow labeled AJAX goes from Client to Server. An arrow labeled H T M L and an arrow labeled J S O N go from Server to Client.](emberjs-template/_static/image1.png)
+![Diagram that shows two boxes labeled Client and Server. An arrow labeled AJAX goes from Client to Server. An arrow labeled H T M L and an arrow labeled J SON go from Server to Client.](emberjs-template/_static/image1.png)
 
 AJAX is nothing new, but today there are JavaScript frameworks that make it easier to build and maintain a large sophisticated SPA application. Also, HTML 5 and CSS3 are making it easier to create rich UIs.
 

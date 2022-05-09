@@ -2,7 +2,7 @@
 uid: signalr/overview/performance/signalr-performance
 title: "SignalR Performance | Microsoft Docs"
 author: bradygaster
-description: "SignalR Performance"
+description: "Describes how to design for, measure, and improve performance in a SignalR application."
 ms.author: bradyg
 ms.date: 06/10/2014
 ms.assetid: 3751f5e7-59db-4be0-a290-50abc24e5c84
