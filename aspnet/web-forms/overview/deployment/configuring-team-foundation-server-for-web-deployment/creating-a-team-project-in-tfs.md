@@ -173,7 +173,7 @@ Now that you've created the new team project, you can grant permissions to users
     ![In the Project Groups dialog box, select the Contributors group, and then click Properties.](creating-a-team-project-in-tfs/_static/image16.png)
 4. In the **Team Foundation Server Group Properties** dialog box, select **Windows User or Group**, and then click **Add**.
 
-    ![In the Team Foundation Server Group Properties dialog box, select Windows User or Group, and then click Add.](creating-a-team-project-in-tfs/_static/image17.png)
+    ![In the Team Foundation Server Group Properties dialog box, select Windows User or Group, then click Add.](creating-a-team-project-in-tfs/_static/image17.png)
 5. In the **Select Users, Computers, or Groups** dialog box, type the user name of the user you want to add to the team project, click **Check Names**, and then click **OK**.
 
     ![In the Select Users, Computers, or Groups dialog box, type the user name of the user you want to add to the team project, click Check Names, and then click OK.](creating-a-team-project-in-tfs/_static/image18.png)
