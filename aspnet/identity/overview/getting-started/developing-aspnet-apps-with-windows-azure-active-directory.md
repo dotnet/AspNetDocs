@@ -29,21 +29,21 @@ This tutorial will show you how to create an ASP.NET application that is configu
 1. Sign in to the [Azure Management Portal](https://ms.portal.azure.com/).
 2. All Azure accounts contain a **Default Directory** -- click on it, then click the **Users** tab at the top of the page (see image below).
 3. Click Add User.
-    ![Illustrates Azure Management Portal, with Default Directory highlighted and selected in left menu. USERS is highlighted in top menu of default directory displayed at right, and ADD USER is highlighted in bottom menu.](developing-aspnet-apps-with-windows-azure-active-directory/_static/image1.png)
+    ![Screenshot of Azure Management Portal, with CREDIT STATUS selected in top menu. Default Directory is highlighted and selected in left menu. USERS is highlighted in top menu of default directory displayed at right, and ADD USER is highlighted in bottom menu.](developing-aspnet-apps-with-windows-azure-active-directory/_static/image1.png)
 4. Create a new user with the **Global Administrator** role. Click **Users** from the top menu, and then click the **Add User** button on the command bar.
 5. In the **Add User** dialog, enter a name for the new user and then click the right arrow.
 
-    ![Illustrates Add User dialog and displays TYPE OF USER and USER NAME fields.](developing-aspnet-apps-with-windows-azure-active-directory/_static/image2.png)
+    ![Screenshot of Add User dialog, with TYPE OF USER and USER NAME fields displayed.](developing-aspnet-apps-with-windows-azure-active-directory/_static/image2.png)
 6. Enter the user name and set the role to **Global Administrator**. Global administrators require an alternate email address for password recovery purposes. After you're finished, click the right arrow.
 
-    ![Illustrates user profile in ADD USER dialog, with ROLE field highlighted and Global Administrator selected. ALTERNATE EMAIL ADDRESS field is highlighted below.](developing-aspnet-apps-with-windows-azure-active-directory/_static/image3.png)
+    ![Screenshot of user profile in ADD USER dialog, with ROLE field highlighted and Global Administrator selected. ALTERNATE EMAIL ADDRESS field is highlighted below.](developing-aspnet-apps-with-windows-azure-active-directory/_static/image3.png)
 7. On the next page of the dialog, click **Create**. A temporary password will be created for the new user and displayed in the dialog.
 
-    ![Illustrates user profile in ADD USER dialog, with Get temporary password instruction displayed and Create button appearing below.](developing-aspnet-apps-with-windows-azure-active-directory/_static/image4.png)
+    ![Screenshot of user profile in ADD USER dialog, with Get temporary password instruction displayed and Create button appearing below.](developing-aspnet-apps-with-windows-azure-active-directory/_static/image4.png)
 
    Save the password, you will be required to change the password after the first log in. The following image shows the new admin account. You must use the Azure Active Directory to log into your app, not the Microsoft account also shown on this page.
 
-    ![Illustrates new admin account, with admin DISPLAY NAME, USER NAME, and SOURCED FROM columns appearing in table.](developing-aspnet-apps-with-windows-azure-active-directory/_static/image5.png)
+    ![Screenshot of new admin account, with DISPLAY NAME, USER NAME, and SOURCED FROM columns appearing in table.](developing-aspnet-apps-with-windows-azure-active-directory/_static/image5.png)
 
 ## Create an ASP.NET Application
 
@@ -52,40 +52,40 @@ The following steps use [Visual Studio Express 2013 for Web](https://www.microso
 1. In Visual Studio, click **File** and then **New Project**. On the **New Project** dialog, select the Visual C# Web project from the left menu and click **OK**. You may also want to uncheck the **Add Application Insights to Project** if you don't want the functionality for your application.
 2. In the **New ASP.NET Project** dialog, select **MVC**, and then click **Change Authentication**.
 
-    ![Illustrates New ASP.NET Project dialog, with MVC template selected at top left, Change Authentication button highlighted at right and Host in the cloud selected and highlighted at lower right.](developing-aspnet-apps-with-windows-azure-active-directory/_static/image6.png)
+    ![Screenshot of New A S P dot NET Project dialog, with M V C template selected at top left, Change Authentication button highlighted at top right and Host in the cloud selected and highlighted at lower right.](developing-aspnet-apps-with-windows-azure-active-directory/_static/image6.png)
 3. On the **Change Authentication** dialog, select **Organizational Accounts**. These options can be used to automatically register your application with Azure AD as well as automatically configure your application to integrate with Azure AD. You don't have to use the **Change Authentication** dialog to register and configure your application, but it makes it much easier. If you are using Visual Studio 2012 for example, you can still manually register the application in the Azure Management Portal and update its configuration to integrate with Azure AD.
    In the drop-down menus, select **Cloud - Single Organization** and **Single Sign On, Read directory data**. Enter the domain for your Azure AD directory, for example (in the images below) *aricka0yahoo.onmicrosoft.com*, and then click **OK**. You can get the domain name from the Domains tab for the Default Directory on the azure portal (see the next image down).
 
-    ![Illustrates Change Authentication dialog, with Organizational Accounts selected and highlighted at left, Cloud hyphen Single Organization selected at top right and Single Sign On, Read directory data selected and highlighted under Access Level at lower right.](developing-aspnet-apps-with-windows-azure-active-directory/_static/image7.png)
+    ![Screenshot of Change Authentication dialog, with Organizational Accounts selected and highlighted at left, Cloud dash Single Organization selected at top right and Single Sign On, Read directory data selected and highlighted under Access Level at lower right.](developing-aspnet-apps-with-windows-azure-active-directory/_static/image7.png)
 
    The following image shows the domain name from the Azure portal.
 
-    ![Illustrates Azure portal, with DOMAINS highlighted in menu and directory domain name displayed below.](developing-aspnet-apps-with-windows-azure-active-directory/_static/image8.png)
+    ![Screenshot of Azure portal, with CREDIT STATUS selected in top menu, Default Directory selected in menu at left, DOMAINS highlighted in menu at right and directory domain name displayed below.](developing-aspnet-apps-with-windows-azure-active-directory/_static/image8.png)
 
     > [!NOTE]
     > You can optionally configure the Application ID URI that will be registered in Azure AD by clicking **More Options**. The App ID URI is the unique identifier for an application, which is registered in Azure AD and used by the application to identify itself when communicating with Azure AD. For more information about the App ID URI and other properties of registered applications, see [this topic](https://msdn.microsoft.com/library/azure/dn499820.aspx#BKMK_Registering). By clicking the checkbox below the App ID URI field, you can also choose to overwrite an existing registration in Azure AD that uses the same App ID URI.
 4. After clicking **OK**, a sign-in dialog will appear, and you'll need to sign in using a Global Administrator account (not the Microsoft account associated with your subscription). If you created a new Administrator account earlier, you'll be required to change the password and then sign in again using the new password.
 
-    ![Displays Sign in to Azure Active Directory dialog, with fields for Global Administrator account name and password.](developing-aspnet-apps-with-windows-azure-active-directory/_static/image9.png)
+    ![Screenshot of Sign in to Azure Active Directory dialog, with fields for Global Administrator account name and password displayed.](developing-aspnet-apps-with-windows-azure-active-directory/_static/image9.png)
 5. After you've successfully authenticated, the **New ASP.NET Project** dialog will show your authentication choice (**Organizational** ) and the directory where the new application will be registered (*aricka0yahoo.onmicrosoft.com* in the image below). Below this information, select the checkbox labeled **Host in the cloud**. If this checkbox is selected, the project will be provisioned as an Azure web app and will be enabled for easy publishing later. Click **OK**.
 
-    ![Illustrates New ASP.NET Project dialog, with MVC template selected at left and authentication choice and directory displayed at right. Host in the cloud is selected and highlighted at lower right under Microsoft Azure label.](developing-aspnet-apps-with-windows-azure-active-directory/_static/image10.png)
+    ![Screenshot of New A S P dot NET Project dialog, with M V C template selected at left and authentication choice and directory displayed at right. Host in the cloud is selected and highlighted at lower right under Microsoft Azure label.](developing-aspnet-apps-with-windows-azure-active-directory/_static/image10.png)
 6. The **Configure Azure Website** dialog will appear, using an auto-generated site name and region. Also note the account you're currently signed into in the dialog. You want to make sure that this account is the one that your Azure subscription is attached to, typically a Microsoft account.
 
     > [!NOTE]
     > This project requires a database. You need to select one of your existing databases, or create a new one. A database is required because the project already uses a local database file to store a small amount of authentication configuration data. When you deploy the application to an Azure Website, this database isn't packaged with the deployment, so you need to choose one that's accessible in the cloud. Click **OK**.
 
-    ![Illustrates Configure Azure Website dialog, with auto-generated Site Name displayed. Also displays Region, Database server, Database usermame, and Database password.](developing-aspnet-apps-with-windows-azure-active-directory/_static/image11.png)
+    ![Screenshot of Configure Azure Website dialog, with auto-generated Site Name displayed. Also displays Region, Database server, Database usermame, and Database password.](developing-aspnet-apps-with-windows-azure-active-directory/_static/image11.png)
 7. The project will be created, and your authentication options and web app options will be automatically configured with the project. Once this process has completed, run the project locally by pressing **^F5**. You will be required to sign in using your organizational account. Provide the username and password for the account you created earlier and click **Sign in**.
 
-    ![Illustrates Sign in dialog, with fields for organizational account username and password.](developing-aspnet-apps-with-windows-azure-active-directory/_static/image12.png)
+    ![Screenshot of Sign in dialog, with fields for organizational account username and password displayed.](developing-aspnet-apps-with-windows-azure-active-directory/_static/image12.png)
 8. After successful sign in, the ASP.NET site will show that you've authenticated by displaying the username in the top right corner of the page.
 
-    ![Displays ASP.NET site with u r l highlighted in address bar and username highlighted at top right corner.](developing-aspnet-apps-with-windows-azure-active-directory/_static/image13.png)
+    ![Screenshot of A S P dot NET site with u r l highlighted in address bar and username highlighted at top right.](developing-aspnet-apps-with-windows-azure-active-directory/_static/image13.png)
 
    If you get the error:
    Value cannot be null or empty. Parameter name: linkText
-    ![Illustrates server error that may result on sign-in. Error message is highlighted, reading Value cannot be null or empty. Parameter name colon linkText.](developing-aspnet-apps-with-windows-azure-active-directory/_static/image14.png)
+    ![Screenshot of server error that may result on sign-in. Error message is highlighted, reading, Value cannot be null or empty. Parameter name colon linkText.](developing-aspnet-apps-with-windows-azure-active-directory/_static/image14.png)
 
    see the [debug](#dbg) section at the end of the tutorial.
 
@@ -95,7 +95,7 @@ The following steps use [Visual Studio Express 2013 for Web](https://www.microso
 
 1. In your running application, click on the name of the signed-in user at the top right of the page. This will take you to the User Profile page, which is an action on the Home Controller. You'll notice that the table contains user information about the administrator account you created earlier. This information is stored in your directory, and the Graph API is called to retrieve this information when the page loads.
 
-    ![Illustrates User Profile page, with a table including Display Name, First Name, and Last Name for administrator account.](developing-aspnet-apps-with-windows-azure-active-directory/_static/image15.png)
+    ![Screenshot of User Profile page, with a table including Display Name, First Name, and Last Name for administrator account.](developing-aspnet-apps-with-windows-azure-active-directory/_static/image15.png)
 2. Go back to Visual Studio and expand the **Controllers** folder and then open the **HomeController.cs** file. You'll see a **UserProfile()** action that contains code to retrieve a token and then call the Graph API. This code is duplicated below:
 
     [!code-csharp[Main](developing-aspnet-apps-with-windows-azure-active-directory/samples/sample1.cs?highlight=22)]
@@ -112,13 +112,13 @@ The following steps will show you how to deploy the application to Azure. In the
 
 1. In Visual Studio, right-click on the project and select **Publish**. The **Publish Web** dialog will appear with each setting already configured. Click on the **Next** button to go to the **Settings** page. You may be prompted to authenticate; make sure you authenticate using your Azure subscription account (typically a Microsoft account) and not the organizational account you created earlier.
 
-    ![Illustrates Publish Web dialog with Connection highlighted in menu at left and each setting already configured at right. Buttons at bottom right indicate Previous, Next, Publish, and Close.](developing-aspnet-apps-with-windows-azure-active-directory/_static/image16.png)
+    ![Screenshot of Publish Web dialog with Connection highlighted in menu at left and each setting already configured at right. Buttons at bottom right indicate Previous, Next, Publish, and Close.](developing-aspnet-apps-with-windows-azure-active-directory/_static/image16.png)
 2. Check the **Enable Organizational Authentication** option. In the **Domain** field, enter the domain for your directory. From the **Access Level** drop-down, select **Single Sign On, Read directory data**. You'll notice that the previous database you used is already populated in the **Databases** section. Click **Publish**.
 
-    ![Illustrates Publish Web dialog, with File Publish Options highlighted. Enable Organizational Authentication option is checked. Domain field is filled with directory domain. Single Sign On, Read directory data is selected for Access Level.](developing-aspnet-apps-with-windows-azure-active-directory/_static/image17.png)
+    ![Screenshot of Publish Web dialog, with File Publish Options highlighted. Enable Organizational Authentication option is checked. Domain field is filled with directory domain. Single Sign On, Read directory data is selected for Access Level.](developing-aspnet-apps-with-windows-azure-active-directory/_static/image17.png)
 3. Visual Studio will begin deploying your website, and then a new browser window will appear. You may be prompted to authenticate to your directory once again. Once you've authenticated, you'll be redirected to your newly published website on Azure.
 
-    ![Illustrates ASP.NET site, with u r l of newly published website in address bar.](developing-aspnet-apps-with-windows-azure-active-directory/_static/image18.png)
+    ![Screenshot of A S P dot NET site, with u r l of newly published website in address bar.](developing-aspnet-apps-with-windows-azure-active-directory/_static/image18.png)
 
 <a id="dbg"></a>
 ## Debugging the app
@@ -126,7 +126,7 @@ The following steps will show you how to deploy the application to Azure. In the
 If you get the following error:
  Value cannot be null or empty. Parameter name: linkText
 
-![Illustrates server error that may result. Error message is highlighted, reading Value cannot be null or empty. Parameter name colon linkText.](developing-aspnet-apps-with-windows-azure-active-directory/_static/image19.png)
+![Screenshot of erver error that may result. Error message is highlighted, reading, Value cannot be null or empty. Parameter name colon linkText.](developing-aspnet-apps-with-windows-azure-active-directory/_static/image19.png)
 
 Replace the code in the *Views\Shared\\_LoginPartial.cshtml* file with the following:
 
