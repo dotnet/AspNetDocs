@@ -97,7 +97,7 @@ When it was first introduced, one aspect of the [Node.js](http://nodejs.org/) fr
 
 One notable difference between JavaScript and .NET development is the presence (or absence) of a compiler. As such, the starting point for a simple Katana server is a Visual Studio project. However, we can start with the most minimal of project types: the Empty ASP.NET Web Application.
 
-![Image depicting how to Get Started Window Pane to create a 'Hello World' project. Shows a window with different templates to select from and the options to add core references and unit tests](an-overview-of-project-katana/_static/image1.png)
+![Screenshot of the ASP.Net Project - WebApplication1 menu, depicting how to Get Started Window Pane to create a 'Hello World' project. Shows a window with different templates to select from and the options to add core references and unit tests.](an-overview-of-project-katana/_static/image1.png)
 
 Next, we will install the [Microsoft.Owin.Host.SystemWeb](http://nuget.org/packages/Microsoft.Owin.Host.SystemWeb) NuGet package into the project. This package provides an OWIN server that runs in the ASP.NET request pipeline. It can be found on the [NuGet gallery](http://nuget.org/packages/Microsoft.Owin.Host.SystemWeb) and can be installed using either the Visual Studio package manager dialog or the package manager console with the following command:
 
@@ -119,13 +119,13 @@ To illustrate the portability goal, moving from a Web-server host to a command l
 
 From the command line, we can then navigate to the project root folder and simply run the `OwinHost.exe` (which was installed in the tools folder of its respective NuGet package). By default, `OwinHost.exe` is configured to look for the HttpListener-based server and so no additional configuration is needed. Navigating in a Web browser to `http://localhost:5000/` shows the application now running through the console.
 
-![This image shows a comparison of the commands entered on the Command Line and what the 'Hello World' Project would look like on the web](an-overview-of-project-katana/_static/image2.png)
+![Screenshot of the Developer Command Promt and the browser window, showing a comparison of the commands entered on the Command Line and what the 'Hello World' Project would look like on the web browser.](an-overview-of-project-katana/_static/image2.png)
 
 ## Katana Architecture
 
  The Katana component architecture divides an application into four logical layers, as depicted below: *host, server, middleware,* and *application*. The component architecture is factored in such a way that implementations of these layers can be easily substituted, in many cases, without requiring recompilation of the application.   
 
-![This Architectural Layers Illustration shows four bars depicting the logical layers in which the application's architecture is divided](an-overview-of-project-katana/_static/image3.png)
+![Diagram of the Architectural Layers shows\ing four bars depicting the logical layers in which the application's architecture is divided.](an-overview-of-project-katana/_static/image3.png)
 
 ## Host
 
@@ -154,7 +154,7 @@ The startup class will be discussed in greater detail later in the article. Howe
 
 **OwinHost.exe**: While some will want to write a custom process to run Katana Web applications, many would prefer to simply launch a pre-built executable that can start a server and run their application. For this scenario, the Katana component suite includes `OwinHost.exe`. When run from within a project's root directory, this executable will start a server (it uses the HttpListener server by default) and use conventions to find and run the user's startup class. For more granular control, the executable provides a number of additional command line parameters.
 
-![This image shows an example of the Command Prompt's code as it runs the application on the server](an-overview-of-project-katana/_static/image4.png)
+![Screenshot of the Developer Command Prompt, showing an example of the Command Prompt's code as it runs the application on the server.](an-overview-of-project-katana/_static/image4.png)
 
 ## Server
 
@@ -196,7 +196,7 @@ As illustrated by the previous examples, OWIN and the Katana project should not 
 
 Like many current libraries and frameworks, the Katana project components are delivered as a set of NuGet packages. For the upcoming version 2.0, the Katana package dependency graph looks as follows. (Click on image for larger view.)
 
-![Components - NuGet Packages Hierarchy. This image portrays the library trees in which the frameworks are connected for the project components and get delivered via a set of NuGets](an-overview-of-project-katana/_static/image6.png)
+![Diagram of the Components - NuGet Packages Hierarchy. This image portrays the library trees in which the frameworks are connected for the project components and get delivered via a set of NuGets.](an-overview-of-project-katana/_static/image6.png)
 
 Nearly every package in the Katana project depends, directly or indirectly, on the Owin package. You may remember that this is the package that contains the IAppBuilder interface, which provides a concrete implementation of the application startup sequence described in section 4 of the OWIN specification. Additionally, many of the packages depend on Microsoft.Owin, which provides a set of helper types for working with HTTP requests and responses. The remainder of the package can be classified as either hosting infrastructure packages (servers or hosts) or middleware. Packages and dependencies that are external to the Katana project are displayed in orange.
 

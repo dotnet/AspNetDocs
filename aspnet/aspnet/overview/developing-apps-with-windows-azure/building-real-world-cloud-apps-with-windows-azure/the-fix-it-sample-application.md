@@ -367,7 +367,7 @@ Then deploy the MVC application to an web app in Azure App Service, as described
 
 Next, create a new Azure cloud service. The scripts included with the Fix It app do not create or deploy the cloud service, so you must use Azure portal for this. In the portal, click **New** -- **Compute** – **Cloud Service** -- **Quick Create**, and then enter a URL and a data center location. Use the same data center where you deployed the web app.
 
-![Image showing the Azure Cloud Service Portal and the multiple tabs, with their available selections, for creating a new Azure cloud service project](the-fix-it-sample-application/_static/image1.png)
+![Diagram showing the Azure Cloud Service Portal and the multiple tabs, with their available selections, for creating a new Azure cloud service project](the-fix-it-sample-application/_static/image1.png)
 
 Before you can deploy the cloud service, you need to update some of the configuration files.
 

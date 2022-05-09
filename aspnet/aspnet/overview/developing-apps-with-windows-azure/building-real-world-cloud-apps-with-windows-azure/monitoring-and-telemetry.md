@@ -181,7 +181,7 @@ So now for every time the Fix It app has made a call to SQL Database, you can se
 
 ![SQL Database query in logs](monitoring-and-telemetry/_static/image21.png)
 
-![This image shows the Edit Entity Properties and what each property should look like for a successful update with how much time it took](monitoring-and-telemetry/_static/image22.png)
+![screenshot showing the Edit Entity Properties and what each property should look like for a successful update with how much time it took.](monitoring-and-telemetry/_static/image22.png)
 
 If you go browsing through the logs, you can see that the time database calls take is variable. That information could be useful: because the app logs all this you can analyze historical trends in how the database service is performing over time. For instance, a service might be fast most of the time but requests might fail or responses might slow down at certain times of day.
 

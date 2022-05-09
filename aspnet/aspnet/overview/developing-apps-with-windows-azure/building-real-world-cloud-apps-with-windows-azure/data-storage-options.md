@@ -27,7 +27,7 @@ The purpose of this chapter is to give you a broader sense of the data storage o
 
 The cloud makes it relatively easy to use a variety of relational and NoSQL data stores. Here are some of the data storage platforms that you can use in Azure.
 
-![This image illustrates a table graph depicting the data storage options on Azure' NoSQL data stores](data-storage-options/_static/image1.png)
+![Screenshot image that illustrates a table graph depicting the data storage options on Azure' NoSQL data stores](data-storage-options/_static/image1.png)
 
 The table shows four types of NoSQL databases:
 
