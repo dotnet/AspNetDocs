@@ -53,7 +53,7 @@ If you're using a custom project file to build your projects, you can include th
 
 [!code-xml[Main](troubleshooting-the-packaging-process/samples/sample3.xml)]
 
-If you're using a Team Foundation Server (TFS) build definition to build your projects, you can supply a value for the **EnablePackageProcessLoggingAndAssert** property in the **MSBuild Arguments** row:![If you're using a Team Foundation Server (TFS) build definition to build your projects, you can supply a value for the EnablePackageProcessLoggingAndAssert property in the MSBuild Arguments.](troubleshooting-the-packaging-process/_static/image1.png)
+If you're using a Team Foundation Server (TFS) build definition to build your projects, you can supply a value for the **EnablePackageProcessLoggingAndAssert** property in the **MSBuild Arguments** row:![If you're using a Team Foundation Server (T F S) build definition to build your projects, you can supply a value for the EnablePackageProcessLoggingAndAssert property in the MSBuild Arguments.](troubleshooting-the-packaging-process/_static/image1.png)
 
 > [!NOTE]
 > For more information on creating and configuring build definitions, see [Creating a Build Definition That Supports Deployment](../configuring-team-foundation-server-for-web-deployment/creating-a-build-definition-that-supports-deployment.md).

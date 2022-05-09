@@ -21,7 +21,7 @@ by [Jason Lee](https://github.com/jrjlee)
 
 In Visual Studio 2010, the build and deployment process for web application projects is supported by the WPP. The WPP provides a set of Microsoft Build Engine (MSBuild) targets that extend the functionality of MSBuild and enable it to integrate with Web Deploy. Within Visual Studio, you can see this extended functionality on the property pages for your web application project. The **Package/Publish Web** page, together with the **Package/Publish SQL** page, lets you configure how your web application project is packaged for deployment when the build process is complete.
 
-![The Package/Publish Web page, together with the Package/Publish SQL page, lets you configure how your web application project is packaged for deployment when the build process is complete.](building-and-packaging-web-application-projects/_static/image1.png)
+![The Package/Publish Web page, together with the Package/Publish S Q L page, lets you configure how your web application project is packaged for deployment when the build process is complete.](building-and-packaging-web-application-projects/_static/image1.png)
 
 ## How Does the WPP Work?
 

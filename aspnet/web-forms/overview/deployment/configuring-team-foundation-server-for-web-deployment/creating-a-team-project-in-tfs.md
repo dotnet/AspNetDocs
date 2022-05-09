@@ -79,7 +79,7 @@ Next, you need to give the user permission to create new team sites in the Share
 1. In the Team Foundation Server Administration Console, on the **Team Project Collections** page, select the team project collection you want to manage.
 2. On the **SharePoint Site** tab, note the value of the **Current Default Site Location** URL.
 
-    ![On the SharePoint Site tab, note the value of the Current Default Site Location URL.](creating-a-team-project-in-tfs/_static/image6.png)
+    ![On the SharePoint Site tab, note the value of the Current Default Site Location U R L.](creating-a-team-project-in-tfs/_static/image6.png)
 3. Open Internet Explorer, and then go to the URL you noted in step 2.
 
     > [!NOTE]
@@ -133,11 +133,11 @@ The next procedure describes how to create a new team project in TFS 2010.
 5. In the **Add/Remove Team Foundation Server** dialog box, click **Add**.
 6. In the **Add Team Foundation Server** dialog box, provide the details of your TFS instance, and then click **OK**.
 
-    ![In the Add Team Foundation Server dialog box, provide the details of your TFS instance, and then click OK.](creating-a-team-project-in-tfs/_static/image11.png)
+    ![In the Add Team Foundation Server dialog box, provide the details of your T F S instance, and then click OK.](creating-a-team-project-in-tfs/_static/image11.png)
 7. In the **Add/Remove Team Foundation Server** dialog box, click **Close**.
 8. In the **Connect to Team Project** dialog box, select the TFS instance you want to connect to, select the team project collection you want to add to, and then click **Connect**.
 
-    ![In the Connect to Team Project dialog box, select the TFS instance you want to connect to, select the team project collection you want to add to, and then click Connect.](creating-a-team-project-in-tfs/_static/image12.png)
+    ![In the Connect to Team Project dialog box, select the T F S instance you want to connect to, select the team project collection you want to add to, and then click Connect.](creating-a-team-project-in-tfs/_static/image12.png)
 9. In the **Team Explorer** window, right-click the team project collection, and then click **New Team Project**.
 
     ![In the Team Explorer window, right-click the team project collection, and then click New Team Project.](creating-a-team-project-in-tfs/_static/image13.png)

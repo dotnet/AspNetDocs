@@ -62,7 +62,7 @@ You can create a web deployment package from the command line by invoking the **
 
 Whichever approach you use, the end result is the same. The WPP creates a web deployment package as a zip file, together with various supporting resources, in the output folder for your web application project.
 
-![The WPP creates a web deployment package as a zip file, together with various supporting resources, in the output folder for your web application project.](manually-installing-web-packages/_static/image2.png)
+![The W P P creates a web deployment package as a zip file, together with various supporting resources, in the output folder for your web application project.](manually-installing-web-packages/_static/image2.png)
 
 When you're planning to import the web package manually, you require only the zip file. Copy this file to your target web server and you can begin the import process.
 
@@ -79,7 +79,7 @@ For more information on configuring an IIS web server to support web deployment 
 
 1. In IIS Manager, in the **Connections** pane, right-click your IIS website, point to **Deploy**, and then click **Import Application**.
 
-    ![In IIS Manager, in the Connections pane, right-click your IIS website, point to Deploy, and then click Import Application.](manually-installing-web-packages/_static/image3.png)
+    ![In I I S Manager, in the Connections pane, right-click your IIS website, point to Deploy, and then click Import Application.](manually-installing-web-packages/_static/image3.png)
 2. In the Import Application Package Wizard, on the **Select the Package** page, browse to the location of your web deployment package, and then click **Next**.
 3. On the **Select the Contents of the Package** page, clear any content that you don't require, and then click **Next**.
 
@@ -106,7 +106,7 @@ For more information on configuring an IIS web server to support web deployment 
     ![Choose the option that's appropriate for your requirements, and then click Next.](manually-installing-web-packages/_static/image6.png)
 8. When IIS has finished installing the package, click **Finish**.
 
-    ![When IIS has finished installing the package, click Finish.](manually-installing-web-packages/_static/image7.png)
+    ![When I I S has finished installing the package, click Finish.](manually-installing-web-packages/_static/image7.png)
 
 At this point, you've successfully published your web application to IIS.
 

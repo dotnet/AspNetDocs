@@ -27,7 +27,7 @@ Until now, the topics in this tutorial set have focused on how to build, package
 
 Consider the continuous integration (CI) scenario described in the previous topic, [Creating a Build Definition That Supports Deployment](creating-a-build-definition-that-supports-deployment.md). You've created a build definition in Team Foundation Server (TFS) 2010. Every time a developer checks code into TFS, Team Build will build your code, create web packages and database scripts as part of the build process, run any unit tests, and deploy your resources to a test environment. Depending on the retention policy you configured when you created the build definition, TFS will retain a certain number of previous builds.
 
-![Depending on the retention policy you configured when you created the build definition, TFS will retain a certain number of previous builds.](deploying-a-specific-build/_static/image1.png)
+![Depending on the retention policy you configured when you created the build definition, T F S will retain a certain number of previous builds.](deploying-a-specific-build/_static/image1.png)
 
 Now, suppose you've performed verification and validation testing against one of these builds in your test environment, and you're ready to deploy your application to a staging environment. In the meantime, developers may have checked in new code. You don't want to rebuild the solution and deploy to the staging environment, and you don't want to deploy the latest build to the staging environment. Instead, you want to deploy the specific build that you've verified and validated on the test servers.
 
@@ -67,7 +67,7 @@ In this case, you don't want the build definition to actually build anything&#x2
 3. On the **Trigger** tab, select **Manual – Check-ins do not trigger a new build**.
 4. On the **Build Defaults** tab, in the **Copy build output to the following drop folder** box, type the Universal Naming Convention (UNC) path of your drop folder (for example, **\\TFSBUILD\Drops**).
 
-    ![On the Build Defaults tab, in the Copy build output to the following drop folder box, type the Universal Naming Convention (UNC) path of your drop folder (for example, \\TFSBUILD\Drops).](deploying-a-specific-build/_static/image3.png)
+    ![On the Build Defaults tab, in the Copy build output to the following drop folder box, type the Universal Naming Convention (U N C) path of your drop folder (for example, \\TFSBUILD\Drops).](deploying-a-specific-build/_static/image3.png)
 5. On the **Process** tab, in the **Build process file** dropdown list, leave **DefaultTemplate.xaml** selected. This is one of the default build process templates that get added to all new team projects.
 6. In the **Build process parameters** table, click in the **Items to Build** row, and then click the **ellipsis** button.
 

@@ -182,7 +182,7 @@ When a build has been approved in the staging environment, the Fabrikam, Inc. te
 
 The production environment is in an Internet-facing perimeter network. This is isolated from the internal network that contains the build server. The production environment administrator, Lisa Andrews, must manually copy the web deployment packages from the build server and import them into IIS on the primary production web server.
 
-![The production environment administrator must manually copy the web deployment packages from the build server and import them into IIS on the primary production web server.](application-lifecycle-management-from-development-to-production/_static/image6.png)
+![The production environment administrator must manually copy the web deployment packages from the build server and import them into I I S on the primary production web server.](application-lifecycle-management-from-development-to-production/_static/image6.png)
 
 This is the high-level process for a deployment to the production environment:
 

@@ -48,7 +48,7 @@ The first task you need to complete is to add an *App\_offline* file to your web
     ![In the Name box, type App\_offline-template.htm, and then click Add.](taking-web-applications-offline-with-web-deploy/_static/image1.png)
 5. Add some simple HTML to inform users that the application is unavailable, and then save the file. Do not include any server-side tags (for example, any tags that are prefixed with "asp:"). 
 
-    ![Add some simple HTML to inform users that the application is unavailable, and then save the file. ](taking-web-applications-offline-with-web-deploy/_static/image2.png)
+    ![Add some simple H T M L to inform users that the application is unavailable, and then save the file. ](taking-web-applications-offline-with-web-deploy/_static/image2.png)
 6. In the **Solution Explorer** window, right-click the new file, and then click **Properties**.
 7. In the **Properties** window, in the **Build Action** row, select **None**.
 
