@@ -190,7 +190,7 @@ It is fairly common to encounter ASP.NET developers struggling with attempting t
 
 This video is a walkthrough of the Wizard control.
 
-![Screenshot of a video walkthrough of the Wizard Control with the Server Controls screen with a Microsoft Visual Studio window is displayed.](server-controls/_static/image2.png)
+![Screenshot of a video walkthrough of the Wizard Control. The Server Controls screen with a Microsoft Visual Studio window is displayed.](server-controls/_static/image2.png)
 
 [Open Full-Screen Video](server-controls/_static/wizard1.wmv)
 
