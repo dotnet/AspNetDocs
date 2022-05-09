@@ -503,6 +503,6 @@ You can now test the catalog.
 
 ![Controls added to Main zone from the catalog](profiles-themes-and-web-parts/_static/image7.gif)
 
-    **Figure 5**: Controls added to Main zone from the catalog
+> **Figure 5**: Controls added to Main zone from the catalog
 6. Click the **Display Mode** drop-down menu, and select **Browse**. The catalog disappears and the page is refreshed.
 7. Close the browser. Load the page again. The changes you made persist.
