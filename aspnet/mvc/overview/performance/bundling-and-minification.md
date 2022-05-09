@@ -31,7 +31,7 @@ Bundling is a new feature in ASP.NET 4.5 that makes it easy to combine or bundle
 
 The following image shows the same timing view of the About view shown previously, but this time with bundling and minification enabled.
 
-![Screenshot that shows an asset's timing details tab on the IE F12 developer tools. The Start event is highlighted.](bundling-and-minification/_static/image3.png)
+![Screenshot that shows an asset's timing details tab on the I E F 12 developer tools. The Start event is highlighted.](bundling-and-minification/_static/image3.png)
 
 ## Minification
 
@@ -70,10 +70,10 @@ It's easy to debug your JavaScript in a development environment (where the [comp
 
 1. Select the **Script** tab and then select the **Start debugging** button.
 2. Select the bundle containing the JavaScript function you want to debug using the assets button.  
-    ![Screenshot that shows the IE F12 developer tool's Script tab. The Search Script input box, a bundle, and a JavaScript function are highlighted.](bundling-and-minification/_static/image4.png)
+    ![Screenshot that shows the I E F 12 developer tool's Script tab. The Search Script input box, a bundle, and a Java Script function are highlighted.](bundling-and-minification/_static/image4.png)
 3. Format the minified JavaScript by selecting the **Configuration button** ![Image that shows the Configuration button icon.](bundling-and-minification/_static/image5.png), and then selecting **Format JavaScript**.
 4. In the **Search Script** input box, select the name of the function you want to debug. In the following image, **AddAltToImg** was entered in the **Search Script** input box.  
-    ![Screenshot that shows the IE F12 developer tool's Script tab. The Search Script input box with AddAltTolmg entered in it is highlighted.](bundling-and-minification/_static/image6.png)
+    ![Screenshot that shows the I E F 12 developer tool's Script tab. The Search Script input box with Add Alt To lmg entered in it is highlighted.](bundling-and-minification/_static/image6.png)
 
 For more information on debugging with the F12 developer tools, see the MSDN article [Using the F12 Developer Tools to Debug JavaScript Errors](https://msdn.microsoft.com/library/ie/gg699336(v=vs.85).aspx).
 

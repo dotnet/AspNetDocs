@@ -100,9 +100,9 @@ This tutorial provides instructions for using either Twilio or ASPSMS but you ca
     [!code-csharp[Main](aspnet-mvc-5-app-with-sms-and-email-two-factor-authentication/samples/sample4.cs?highlight=3,16)]
 9. Run the app and log in with the account you previously registered.
 10. Click on your User ID, which activates the `Index` action method in `Manage` controller.  
-    ![Screenshot that shows the A S P dot NET app Home page. USER ID is highlighted.](aspnet-mvc-5-app-with-sms-and-email-two-factor-authentication/_static/image3.png)
+    ![Screenshot that shows the A S P dot NET app Home page. A Sample USER I D is highlighted.](aspnet-mvc-5-app-with-sms-and-email-two-factor-authentication/_static/image3.png)
 11. Click Add.  
-    ![Screenshot that shows the A S P dot NET app Account Settings page. None [Add] next to Phone Number section is highlighted.](aspnet-mvc-5-app-with-sms-and-email-two-factor-authentication/_static/image4.png)
+    ![Screenshot that shows the A S P dot NET app Account Settings page. None Add next to Phone Number section is highlighted.](aspnet-mvc-5-app-with-sms-and-email-two-factor-authentication/_static/image4.png)
 12. The `AddPhoneNumber` action method displays a dialog box to enter a phone number that can receive SMS messages.
 
     [!code-csharp[Main](aspnet-mvc-5-app-with-sms-and-email-two-factor-authentication/samples/sample5.cs)]
@@ -117,7 +117,7 @@ This tutorial provides instructions for using either Twilio or ASPSMS but you ca
 
 In the template generated app, you need to use the UI to enable two-factor authentication (2FA). To enable 2FA, click on your user ID (email alias) in the navigation bar.
 
-![Screenshot that shows the A S P dot NET app Home page. USER ID is highlighted.](aspnet-mvc-5-app-with-sms-and-email-two-factor-authentication/_static/image7.png)
+![Screenshot that displays the A S P dot NET app Home page. A sample USER I D is highlighted.](aspnet-mvc-5-app-with-sms-and-email-two-factor-authentication/_static/image7.png)
 
 Click on enable 2FA.
 
@@ -125,11 +125,11 @@ Click on enable 2FA.
 
 Logout, then log back in. If you've enabled email (see my [previous tutorial](../../../identity/overview/features-api/account-confirmation-and-password-recovery-with-aspnet-identity.md)), you can select the SMS or email for 2FA.
 
-![Screenshot that shows the A S P dot NET app Send Verification Code page. A dropdown menu showing PhoneCode and EmailCode is selected](aspnet-mvc-5-app-with-sms-and-email-two-factor-authentication/_static/image9.png)
+![Screenshot that shows the A S P dot NET app Send Verification Code page. A dropdown menu showing Phone Code and Email Code is selected.](aspnet-mvc-5-app-with-sms-and-email-two-factor-authentication/_static/image9.png)
 
 The Verify Code page is displayed where you can enter the code (from SMS or email).
 
-![Screenshot that shows the A S P dot NET app Verify page for 2FA. Beneath a sample code, a checkbox with Remember this browser? is highlighted.](aspnet-mvc-5-app-with-sms-and-email-two-factor-authentication/_static/image10.png)
+![Screenshot that shows the A S P dot NET app Verify page for 2 FA. Beneath a sample code, a checkbox with Remember this browser is highlighted.](aspnet-mvc-5-app-with-sms-and-email-two-factor-authentication/_static/image10.png)
 
 Clicking on the **Remember this browser** check box will exempt you from needing to use 2FA to log in when using the browser and device where you checked the box. As long as malicious users can't gain access to your device, enabling 2FA and clicking on the **Remember this browser** will provide you with convenient one step password access, while still retaining strong 2FA protection for all access from non-trusted devices. You can do this on any private device you regularly use.
 
