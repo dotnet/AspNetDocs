@@ -75,17 +75,17 @@ The Aspnet\_regiis.exe provides two options for script mapping a Web application
 
 The path defines the Web application IIS metadata path, which is defined in the form of W3SVC/ROOT/{WebSiteNumber}/{Application\_Name}. For example, for a Web application called Portal located under the default Web site, the metabase path is W3SVC/1/ROOT/Portal.
 
-![Screenshot that shows a Web application called Portal located under the default Web site, and the metabase path is W3SVC/1/ROOT/Portal.](side-by-side-with-10/_static/image4.gif)
+![Screenshot that shows a Web application called Portal located under the default Web site, and the metabase path is W 3 S V C slash 1 slash ROOT slash Portal.](side-by-side-with-10/_static/image4.gif)
 
-Note You can also use a tool called the Metabase Editor to get the metabase path. You can download this tool from the Microsoft Support site at [https://support.microsoft.com/default.aspx?scid=kb;en-us;232068.](https://support.microsoft.com/default.aspx?scid=kb;en-us;232068)
+Note You can also use a tool called the Metabase Editor to get the metabase path. You can download this tool from the Microsoft Support site at [https://support.microsoft.com/default.a s p x ?scid=kb;en-us;232068.](https://support.microsoft.com/default.aspx?scid=kb;en-us;232068)
 
 - Run Aspnet\_regiis.exe -s W3SVC/1/ROOT/Portal to update the portal IIS script map and its subapplication.  
   
-    ![Screenshot that shows to run Aspnet\_regiis.exe -s W3SVC/1/ROOT/Portal to update the portal IIS script map and its subapplication.](side-by-side-with-10/_static/image5.gif)
+    ![Screenshot that shows to run Aspnet\_regiis.exe -s W 3 S V C slash 1 slash ROOT slash Portal to update the portal I I S script map and its subapplication.](side-by-side-with-10/_static/image5.gif)
 
 - Run Aspnet\_regiis.exe -sn W3SVC/1/ROOT/Portal to update the portal IIS script map, without affecting applications in the portal?s subdirectories.  
   
-    ![Screenshot that shows to Run Aspnet\_regiis.exe -sn W3SVC/1/ROOT/Portal to update the portal IIS script map, without affecting applications in the portal?s subdirectories.](side-by-side-with-10/_static/image6.gif)
+    ![Screenshot that shows to Run Aspnet\_regiis.exe -sn W 3 S V C slash 1 slash ROOT slash Portal to update the portal I I S script map, without affecting applications in the portal's subdirectories.](side-by-side-with-10/_static/image6.gif)
 
 <a id="3"></a>
 
@@ -111,7 +111,7 @@ An administrator can use the Internet Service Manager to find which version of t
     ![Screenshot that shows from the Property window, select Configuration.](side-by-side-with-10/_static/image10.gif)
 7. From the application mapping table, select **.aspx**, and click **Edit**.  
   
-    ![Screenshot that shows from the application mapping table, select .aspx, and click Edit.](side-by-side-with-10/_static/image11.gif)
+    ![Screenshot that shows from the application mapping table, select .a s p x, and click Edit.](side-by-side-with-10/_static/image11.gif)
 8. From the **Executable** text box, look at the version directory by scrolling. If the version directory is v.1.1.4322, the application is mapped to .NET Framework 1.1. Conversely, if the version directory is v1.0.3705, the application is mapped to .NET Framework 1.0.  
   
-    ![Screenshot that shows the Executable text box and the version directory v.1.1.4322 from scrolling, which is mapped to a .NET Framework 1.1.](side-by-side-with-10/_static/image12.gif)
+    ![Screenshot that shows the Executable text box and the version directory v . 1 .1 . 4 3 2 2 from scrolling, which is mapped to a .NET Framework 1.1.](side-by-side-with-10/_static/image12.gif)
