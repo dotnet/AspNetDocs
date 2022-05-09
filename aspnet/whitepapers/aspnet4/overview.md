@@ -900,7 +900,7 @@ The project also contains a second `Web.config` file in the `Account` directory.
 
 The pages created by default in the new project templates also contain more content than in previous versions. The project contains a default master page and CSS file, and the default page (Default.aspx) is configured to use the master page by default. The result is that when you run the Web application or Web site for the first time, the default (home) page is already functional. In fact, it is similar to the default page you see when you start up a new MVC application.
 
-[![Screenshot that shows a browser view of the default page created when you start a new M V C application.](overview/_static/image17.png)](overview/_static/image16.png)
+[![Screenshot that shows a browser view of the default page created when you start a new MVC application.](overview/_static/image17.png)](overview/_static/image16.png)
 
 ([Click to view full-size image](overview/_static/image18.png))
 
