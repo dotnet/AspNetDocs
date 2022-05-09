@@ -23,7 +23,7 @@ Clicking **Publish** invokes the **Publish Web** dialog. If you checked **Host i
 
 To deploy the app, click **Publish**. You can view the publishing progress in the **Web Publish Activity** window. (From the **View** menu, select **Other Windows**, then select **Web Publish Activity**.)
 
-![](part-10/_static/image4.png)
+![Screenshot of the Web Publish Activity window showing the overall status bar and displaying a successful publishing message.](part-10/_static/image4.png)
 
 When Visual Studio finishes deploying the app, the default browser automatically opens to the URL of the deployed website, and the application that you created is now running in the cloud. The URL in the browser address bar shows that the site is being loaded from the Internet.
 

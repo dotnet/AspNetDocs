@@ -25,7 +25,7 @@ msc.type: authoredcontent
 
 This tutorial uses ASP.NET Web API 2 with Entity Framework 6 to create a web application that manipulates a back-end database. Here is a screen shot of the application that you will create.
 
-[![](part-1/_static/image2.png)](part-1/_static/image1.png)
+[![Screenshot of the created application window, Book Service, showing the Books, Detail, and Add Book panes.](part-1/_static/image2.png)](part-1/_static/image1.png)
 
 The app uses a single-page application (SPA) design. "Single-page application" is the general term for a web application that loads a single HTML page and then updates the page dynamically, instead of loading new pages. After the initial page load, the app talks with the server through AJAX requests. The AJAX requests return JSON data, which the app uses to update the UI.
 
@@ -42,7 +42,7 @@ Here are the main building blocks for this app:
 
 Would you like to see the finished site running as a live web app? You can deploy a complete version of the app to your Azure account by selecting the following button.
 
-[![](http://azuredeploy.net/deploybutton.png)](https://azuredeploy.net/?WT.mc_id=deploy_azure_aspnet&repository=https://github.com/tfitzmac/BookService)
+[:::image type="icon" source="http://azuredeploy.net/deploybutton.png":::](https://azuredeploy.net/?WT.mc_id=deploy_azure_aspnet&repository=https://github.com/tfitzmac/BookService)
 
 You need an Azure account to deploy this solution to Azure. If you do not already have an account, you have the following options:
 

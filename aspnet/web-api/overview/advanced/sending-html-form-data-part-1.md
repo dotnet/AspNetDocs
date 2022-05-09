@@ -81,7 +81,7 @@ The jQuery **submit** function replaces the form action with a new function. Thi
 
 When the request completes, the `.success()` or `.error()` handler displays an appropriate message to the user.
 
-![Secreenshot of the Complex Type H T M L form with a local host error displayed in bold text to the user.](sending-html-form-data-part-1/_static/image2.png)
+![Screenshot of the Complex Type H T M L form with a local host error displayed in bold text to the user.](sending-html-form-data-part-1/_static/image2.png)
 
 <a id="sending_simple_types"></a>
 ## Sending Simple Types
