@@ -12,8 +12,6 @@ msc.type: authoredcontent
 ---
 # Sending HTML Form Data in ASP.NET Web API: Form-urlencoded Data
 
-by [Mike Wasson](https://github.com/MikeWasson)
-
 ## Part 1: Form-urlencoded Data
 
 This article shows how to post form-urlencoded data to a Web API controller.

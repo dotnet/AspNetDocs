@@ -1,8 +1,8 @@
 ---
 uid: mvc/overview/older-versions-1/nerddinner/use-viewdata-and-implement-viewmodel-classes
-title: "Use ViewData and Implement ViewModel Classes | Microsoft Docs"
+title: Use ViewData and Implement ViewModel Classes | Microsoft Docs
 author: rick-anderson
-description: "Step 6 shows how enable support for richer form editing scenarios, and also discusses two approaches that can be used to pass data from controllers to views:..."
+description: Step 6 shows how enable support for richer form editing scenarios, and also discusses two approaches that can be used to pass data from controllers to views:...
 ms.author: riande
 ms.date: 07/27/2010
 ms.assetid: 5755ec4c-60f1-4057-9ec0-3a5de3a20e23
@@ -53,7 +53,7 @@ The Html.DropDownList() helper method above takes two parameters. The first is t
 
 And now when we run our application and access the */Dinners/Edit/1* URL within our browser we'll see that our edit UI has been updated to display a dropdownlist of countries instead of a textbox:
 
-![](use-viewdata-and-implement-viewmodel-classes/_static/image1.png)
+![Screenshot of the edit user interface with the dropdown list of countries highlighted with a red arrow.](use-viewdata-and-implement-viewmodel-classes/_static/image1.png)
 
 Because we also render the Edit view template from the HTTP-POST Edit method (in scenarios when errors occur), we'll want to make sure that we also update this method to add the SelectList to ViewData when the view template is rendered in error scenarios:
 
@@ -81,9 +81,9 @@ We'll then update our view template so that it expects a "DinnerFormViewModel" i
 
 Once we do this, the intellisense of the "Model" property within our view template will be updated to reflect the object model of the DinnerFormViewModel type we are passing it:
 
-![](use-viewdata-and-implement-viewmodel-classes/_static/image2.png)
+![Screenshot of the code editor window with a dropdown list and the Dinner list item highlighted with a blue rectangle.](use-viewdata-and-implement-viewmodel-classes/_static/image2.png)
 
-![](use-viewdata-and-implement-viewmodel-classes/_static/image3.png)
+![Screenshot of the code editor window with a dropdown list and the Address list item highlighted with a gray dotted rectangle.](use-viewdata-and-implement-viewmodel-classes/_static/image3.png)
 
 We can then update our view code to work off of it. Notice below how we are not changing the names of the input elements we are creating (the form elements will still be named "Title", "Country") – but we are updating the HTML Helper methods to retrieve the values using the DinnerFormViewModel class:
 

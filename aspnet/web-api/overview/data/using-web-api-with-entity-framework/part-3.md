@@ -11,8 +11,6 @@ msc.type: authoredcontent
 ---
 # Use Code First Migrations to Seed the Database
 
-by [Mike Wasson](https://github.com/MikeWasson)
-
 [Download Completed Project](https://github.com/MikeWasson/BookService)
 
 In this section, you will use [Code First Migrations](https://msdn.microsoft.com/data/jj591621) in EF to seed the database with test data.
@@ -73,7 +71,7 @@ The API enables CRUD operations on the database. The following summarizes the AP
 
 ## View the Database (Optional)
 
-When you ran the Update-Database command, EF created the database and called the `Seed` method. When you run the application locally, EF uses [LocalDB](https://docs.microsoft.com/archive/blogs/sqlexpress/introducing-localdb-an-improved-sql-express). You can view the database in Visual Studio. From the **View** menu, select **SQL Server Object Explorer**.
+When you ran the Update-Database command, EF created the database and called the `Seed` method. When you run the application locally, EF uses [LocalDB](/archive/blogs/sqlexpress/introducing-localdb-an-improved-sql-express). You can view the database in Visual Studio. From the **View** menu, select **SQL Server Object Explorer**.
 
 ![](part-3/_static/image5.png)
 

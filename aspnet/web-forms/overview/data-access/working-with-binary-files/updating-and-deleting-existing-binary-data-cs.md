@@ -13,7 +13,7 @@ msc.type: authoredcontent
 
 by [Scott Mitchell](https://twitter.com/ScottOnWriting)
 
-[Download Sample App](https://download.microsoft.com/download/4/a/7/4a7a3b18-d80e-4014-8e53-a6a2427f0d93/ASPNET_Data_Tutorial_57_CS.exe) or [Download PDF](updating-and-deleting-existing-binary-data-cs/_static/datatutorial57cs1.pdf)
+[Download PDF](updating-and-deleting-existing-binary-data-cs/_static/datatutorial57cs1.pdf)
 
 > In earlier tutorials we saw how the GridView control makes it simple to edit and delete text data. In this tutorial we see how the GridView control also makes it possible to edit and delete binary data, whether that binary data is saved in the database or stored in the file system.
 

@@ -13,7 +13,7 @@ msc.type: authoredcontent
 
 by [Scott Mitchell](https://twitter.com/ScottOnWriting)
 
-[Download Sample App](https://download.microsoft.com/download/9/c/1/9c1d03ee-29ba-4d58-aa1a-f201dcc822ea/ASPNET_Data_Tutorial_21_VB.exe) or [Download PDF](implementing-optimistic-concurrency-vb/_static/datatutorial21vb1.pdf)
+[Download PDF](implementing-optimistic-concurrency-vb/_static/datatutorial21vb1.pdf)
 
 > For a web application that allows multiple users to edit data, there is the risk that two users may be editing the same data at the same time. In this tutorial we'll implement optimistic concurrency control to handle this risk.
 

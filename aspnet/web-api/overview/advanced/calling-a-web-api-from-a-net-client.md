@@ -11,7 +11,6 @@ ms.custom: contperf-fy21q3
 ---
 # Call a Web API From a .NET Client (C#)
 
-by [Mike Wasson](https://github.com/MikeWasson) and [Rick Anderson](https://twitter.com/RickAndMSFT)
 
 This content is for a previous version of .NET. New development should use [ASP.NET Core](/aspnet/core/introduction-to-aspnet-core). For more information on using ASP.NET Core Web API, see:
 

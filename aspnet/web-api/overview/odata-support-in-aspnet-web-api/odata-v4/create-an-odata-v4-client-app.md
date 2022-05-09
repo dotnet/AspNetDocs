@@ -11,7 +11,7 @@ msc.type: authoredcontent
 ---
 # Create an OData v4 Client App (C#)
 
-by [Mike Wasson](https://github.com/MikeWasson)
+by Mike Wasson
 
 In the previous tutorial, you created a basic OData service that supports CRUD operations. Now let's create a client for the service.
 

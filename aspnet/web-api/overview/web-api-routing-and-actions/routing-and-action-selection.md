@@ -11,8 +11,6 @@ msc.type: authoredcontent
 ---
 # Routing and Action Selection in ASP.NET Web API
 
-by [Mike Wasson](https://github.com/MikeWasson)
-
 This article describes how ASP.NET Web API routes an HTTP request to a particular action on a controller.
 
 > [!NOTE]

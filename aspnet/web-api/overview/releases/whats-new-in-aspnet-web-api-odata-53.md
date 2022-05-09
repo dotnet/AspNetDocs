@@ -74,7 +74,7 @@ Here is the EDM for this example:
 
 [!code-xml[Main](whats-new-in-aspnet-web-api-odata-53/samples/sample6.xml?highlight=8,15)]
 
-For more information, see [OData Complex Type Inheritance Sample](http://aspnet.codeplex.com/SourceControl/latest#Samples/WebApi/OData/v4/ODataComplexTypeInheritanceSample/ReadMe.txt).
+For more information, see [OData Complex Type Inheritance Sample](/aspnet/web-api/overview/odata-support-in-aspnet-web-api/odata-v4/complex-type-inheritance-in-odata-v4).
 
 <a id="known-issues"></a>
 ## Known Issues and Breaking Changes
@@ -96,11 +96,9 @@ If `MaxExpansionDepth` is 5, this query would result in an expansion depth of 6.
 <a id="bug-fixes"></a>
 ## Bug Fixes and Minor Feature Updates
 
-This release also includes several bug fixes and minor feature updates. You can find the complete list here:
-
-- [Bug fixes](https://aspnetwebstack.codeplex.com/workitem/list/advanced?keyword=&status=All&type=All&priority=All&release=v5.3%20Beta&assignedTo=All&component=Web%20API|Web%20API%20OData&sortField=AssignedTo&sortDirection=Ascending&page=0&reasonClosed=Fixed)
+This release also includes several bug fixes and minor feature updates. 
 
 <a id="OD"></a>
 ## ASP.NET Web API OData 5.3.1
 
-In this release we made a [bug fix](https://aspnetwebstack.codeplex.com/workitem/list/advanced?keyword=&amp;status=All&amp;type=All&amp;priority=All&amp;release=v5.3.1%20Beta&amp;assignedTo=All&amp;component=Web%20API%20OData&amp;sortField=LastUpdatedDate&amp;sortDirection=Descending&amp;page=0&amp;reasonClosed=All) to some of the AllowedFunctions enums. This release doesn't have any other bug fixes or new features.
+In this release we made a bug fix to some of the AllowedFunctions enums. This release doesn't have any other bug fixes or new features.

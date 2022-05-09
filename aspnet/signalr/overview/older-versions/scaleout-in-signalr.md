@@ -1,8 +1,8 @@
 ---
 uid: signalr/overview/older-versions/scaleout-in-signalr
-title: "Introduction to Scaleout in SignalR 1.x | Microsoft Docs"
+title: Introduction to Scaleout in SignalR 1.x | Microsoft Docs
 author: bradygaster
-description: ""
+description: Describes Scaleout and provides an introduction on the web application through illustration from diagrams.
 ms.author: bradyg
 ms.date: 04/29/2022
 ms.custom: devdivchpfy22
@@ -12,7 +12,7 @@ msc.type: authoredcontent
 ---
 # Introduction to Scaleout in SignalR 1.x
 
-by [Mike Wasson](https://github.com/MikeWasson), [Patrick Fletcher](https://github.com/pfletcher)
+by [Patrick Fletcher](https://github.com/pfletcher)
 
 [!INCLUDE [Consider ASP.NET Core SignalR](~/includes/signalr/signalr-version-disambiguation.md)]
 
@@ -28,6 +28,7 @@ The problem with scaling up is that you quickly hit a limit on the size of the m
 One solution is to forward messages between servers, using a component called a *backplane*. With a backplane enabled, each application instance sends messages to the backplane, and the backplane forwards them to the other application instances. (In electronics, a backplane is a group of parallel connectors. By analogy, a SignalR backplane connects multiple servers.)
 
 :::image type="content" source="scaleout-in-signalr/_static/image2.png" alt-text="Screenshot of the solution to forward messages between servers using a component called a backplane.":::
+
 
 SignalR currently provides three backplanes:
 

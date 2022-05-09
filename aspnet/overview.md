@@ -14,11 +14,11 @@ msc.type: content
 
 ASP.NET is a free web framework for building great websites and web applications using HTML, CSS, and JavaScript. You can also create Web APIs and use real-time technologies like Web Sockets.
 
-[ASP.NET Core](https://docs.microsoft.com/aspnet/core/) is an alternative to ASP.NET.  See the [guidance on how to choose between ASP.NET and ASP.NET Core](https://docs.microsoft.com/aspnet/core/choose-aspnet-framework).
+[ASP.NET Core](/aspnet/core/) is an alternative to ASP.NET.  See the [guidance on how to choose between ASP.NET and ASP.NET Core](/aspnet/core/choose-aspnet-framework).
 
 ## Get started
 
-Install [Visual Studio 2019](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=button+cta&utm_content=download+vs2019) Community edition, a free IDE for ASP.NET on Windows.
+Install [Visual Studio](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=button+cta&utm_content=download+vs) Community edition, a free IDE for ASP.NET on Windows.
 
 ## Websites and web applications
 

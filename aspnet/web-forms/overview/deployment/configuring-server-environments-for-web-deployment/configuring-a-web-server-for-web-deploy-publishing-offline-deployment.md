@@ -13,8 +13,6 @@ msc.type: authoredcontent
 
 by [Jason Lee](https://github.com/jrjlee)
 
-[Download PDF](https://msdnshared.blob.core.windows.net/media/MSDNBlogsFS/prod.evol.blogs.msdn.com/CommunityServer.Blogs.Components.WeblogFiles/00/00/00/63/56/8130.DeployingWebAppsInEnterpriseScenarios.pdf)
-
 > This topic describes how to configure an IIS web server to support offline web publishing and deployment.
 > 
 > When you work with Internet Information Services (IIS) Web Deployment Tool (Web Deploy) 2.0 or later, there are three main approaches you can use to get your applications or sites onto a web server. You can:
@@ -80,14 +78,14 @@ In this case, you need to install these things:
     > [!NOTE]
     > You may have already installed the .NET Framework 4.0 through Windows Update. If a product or component is already installed, the Web Platform Installer will indicate this by replacing the **Add** button with the text **Installed**.
 
-    ![](configuring-a-web-server-for-web-deploy-publishing-offline-deployment/_static/image1.png)
+    ![If a product or component is already installed, the Web Platform Installer will indicate this by replacing the Add button with the text Installed.](configuring-a-web-server-for-web-deploy-publishing-offline-deployment/_static/image1.png)
 6. In the **ASP.NET MVC 3 (Visual Studio 2010)** row, click **Add**.
 7. In the navigation pane, click **Server**.
 8. In the **IIS 7 Recommended Configuration** row, click **Add**.
 9. In the **Web Deployment Tool 2.1** row, click **Add**.
 10. Click **Install**. The Web Platform Installer will show you a list of products&#x2014;together with any associated dependencies&#x2014;to be installed and will prompt you to accept the license terms.
 
-    ![](configuring-a-web-server-for-web-deploy-publishing-offline-deployment/_static/image2.png)
+    ![Click Install. The Web Platform Installer will show you a list of products together with any associated dependencies to be installed and will prompt you to accept the license terms.](configuring-a-web-server-for-web-deploy-publishing-offline-deployment/_static/image2.png)
 11. Review the license terms, and if you consent to the terms, click **I Accept**.
 12. When the installation is complete, click **Finish**, and then close the **Web Platform Installer 3.0** window.
 
@@ -124,7 +122,7 @@ Although there's nothing stopping you from deploying content to the default webs
 2. On the **Start** menu, point to **Administrative Tools**, and then click **Internet Information Services (IIS) Manager**.
 3. In IIS Manager, in the **Connections** pane, expand the server node (for example, **PROWEB1**).
 
-    ![](configuring-a-web-server-for-web-deploy-publishing-offline-deployment/_static/image3.png)
+    ![In IIS Manager, in the Connections pane, expand the server node (for example, PROWEB1)](configuring-a-web-server-for-web-deploy-publishing-offline-deployment/_static/image3.png)
 4. Right-click the **Sites** node, and then click **Add Web Site**.
 5. In the **Site name** box, type a name for the IIS website (for example, **DemoSite**).
 6. In the **Physical path** box, type (or browse to) the path to your local folder (for example, **C:\DemoSite**).
@@ -134,18 +132,18 @@ Although there's nothing stopping you from deploying content to the default webs
     > The standard port numbers are 80 for HTTP and 443 for HTTPS. However, if you host this website on port 80, you'll need to stop the default website before you can access your site.
 8. Leave the **Host name** box blank, unless you want to configure a Domain Name System (DNS) record for the website, and then click **OK**.
 
-    ![](configuring-a-web-server-for-web-deploy-publishing-offline-deployment/_static/image4.png)
+    ![Leave the Host name box blank, unless you want to configure a Domain Name System (DNS) record for the website, and then click OK.](configuring-a-web-server-for-web-deploy-publishing-offline-deployment/_static/image4.png)
 
     > [!NOTE]
     > In a production environment, you'll likely want to host your website on port 80 and configure a host header, together with matching DNS records. For more information on configuring host headers in IIS 7, see [Configure a Host Header for a Web Site (IIS 7)](https://technet.microsoft.com/library/cc753195(WS.10).aspx). For more information on the DNS Server role in Windows Server 2008 R2, see [DNS Server Overview](https://technet.microsoft.com/library/cc770392.aspx) and [DNS Server](https://technet.microsoft.com/windowsserver/dd448607).
 9. In the **Actions** pane, under **Edit Site**, click **Bindings**.
 10. In the **Site Bindings** dialog box, click **Add**.
 
-    ![](configuring-a-web-server-for-web-deploy-publishing-offline-deployment/_static/image5.png)
+    ![In the Site Bindings dialog box, click Add.](configuring-a-web-server-for-web-deploy-publishing-offline-deployment/_static/image5.png)
 11. In the **Add Site Binding** dialog box, set the **IP address** and **Port** to match your existing site configuration.
 12. In the **Host name** box, type the name of your web server (for example, **PROWEB1**), and then click **OK**.
 
-    ![](configuring-a-web-server-for-web-deploy-publishing-offline-deployment/_static/image6.png)
+    ![In the Host name box, type the name of your web server (for example, PROWEB1), and then click OK.](configuring-a-web-server-for-web-deploy-publishing-offline-deployment/_static/image6.png)
 
     > [!NOTE]
     > The first site binding allows you to access the site locally using the IP address and port or `http://localhost:85`. The second site binding allows you to access the site from other computers on the domain using the machine name (for example, http://proweb1:85).
@@ -154,7 +152,7 @@ Although there's nothing stopping you from deploying content to the default webs
 15. In the **Application Pools** pane, right-click the name of your application pool, and then click **Basic Settings**. By default, the name of your application pool will match the name of your website (for example, **DemoSite**).
 16. In the **.NET Framework version** list, select **.NET Framework v4.0.30319**, and then click **OK**.
 
-    ![](configuring-a-web-server-for-web-deploy-publishing-offline-deployment/_static/image7.png)
+    ![In the .NET Framework version list, select .NET Framework v4.0.30319, and then click OK.](configuring-a-web-server-for-web-deploy-publishing-offline-deployment/_static/image7.png)
 
     > [!NOTE]
     > The sample solution requires .NET Framework 4.0. This is not a requirement for Web Deploy in general.
@@ -178,7 +176,7 @@ The most common approach is to assign permissions to the local **IIS\_IUSRS** gr
 3. On the **Security** tab, click **Edit**, and then click **Add**.
 4. Click **Locations**. In the **Locations** dialog box, select the local server, and then click **OK**.
 
-    ![](configuring-a-web-server-for-web-deploy-publishing-offline-deployment/_static/image8.png)
+    ![Click Locations. In the Locations dialog box, select the local server, and then click OK.](configuring-a-web-server-for-web-deploy-publishing-offline-deployment/_static/image8.png)
 5. In the **Select Users or Groups** dialog box, type **IIS\_IUSRS**, click **Check Names**, and then click **OK**.
 6. In the **Permissions for (folder name)** dialog box, notice that the new group has been assigned the **Read & execute**, **List folder contents**, and **Read** permissions by default. Leave this unchanged and click **OK**.
 7. Click **OK** to close the **(folder name) Properties** dialog box.
@@ -197,12 +195,12 @@ You can stop and disable a service in multiple ways, using various command-line 
 1. On the **Start** menu, point to **Administrative Tools**, and then click **Services**.
 2. In the Services console, locate the **Web Deployment Agent Service** row.
 
-    ![](configuring-a-web-server-for-web-deploy-publishing-offline-deployment/_static/image9.png)
+    ![In the Services console, locate the Web Deployment Agent Service row.](configuring-a-web-server-for-web-deploy-publishing-offline-deployment/_static/image9.png)
 3. Right-click **Web Deployment Agent Service**, and then click **Properties**.
 4. In the **Web Deployment Agent Service Properties** dialog box, click **Stop**.
 5. In the **Startup type** list, select **Disabled**, and then click **OK**.
 
-    ![](configuring-a-web-server-for-web-deploy-publishing-offline-deployment/_static/image10.png)
+    ![In the Startup type list, select Disabled, and then click OK.](configuring-a-web-server-for-web-deploy-publishing-offline-deployment/_static/image10.png)
 
 ## Conclusion
 

@@ -12,7 +12,7 @@ ms.custom: contperf-fy21q3
 ---
 # Enable cross-origin requests in ASP.NET Web API 2
 
-By [Mike Wasson](https://github.com/MikeWasson)
+By Mike Wasson
 
 This content is for a previous version of .NET. New development should use [ASP.NET Core](/aspnet/core/introduction-to-aspnet-core). For more information on using Web API and Cross-Origin Requests (CORS) in ASP.NET Core, see:
 

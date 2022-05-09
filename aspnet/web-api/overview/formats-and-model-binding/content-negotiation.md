@@ -12,8 +12,6 @@ msc.type: authoredcontent
 ---
 # Content Negotiation in ASP.NET Web API
 
-by [Mike Wasson](https://github.com/MikeWasson)
-
 This article describes how ASP.NET Web API implements content negotiation for ASP.NET 4.x.
 
 The HTTP specification (RFC 2616) defines content negotiation as "the process of selecting the best representation for a given response when there are multiple representations available." The primary mechanism for content negotiation in HTTP are these request headers:

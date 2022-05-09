@@ -13,7 +13,7 @@ msc.type: authoredcontent
 
 by [Scott Mitchell](https://twitter.com/ScottOnWriting)
 
-[Download Sample App](https://download.microsoft.com/download/4/a/7/4a7a3b18-d80e-4014-8e53-a6a2427f0d93/ASPNET_Data_Tutorial_54_CS.exe) or [Download PDF](uploading-files-cs/_static/datatutorial54cs1.pdf)
+[Download PDF](uploading-files-cs/_static/datatutorial54cs1.pdf)
 
 > Learn how to allow users to upload binary files (such as Word or PDF documents) to your Web site where they may be stored in either the server's file system or the database.
 
@@ -76,7 +76,7 @@ The main disadvantage of storing binary data on the file system is that it decou
 
 Alternatively, binary data can be stored directly in a Microsoft SQL Server 2005 database by creating a column of type `varbinary`. Like with other variable length data types, you can specify a maximum length of the binary data that can be held in this column. For example, to reserve at most 5,000 bytes use `varbinary(5000)`; `varbinary(MAX)` allows for the maximum storage size, about 2 GB.
 
-The main advantage of storing binary data directly in the database is the tight coupling between the binary data and the database record. This greatly simplifies database administration tasks, like backups or moving the database to a different site or server. Also, deleting a record automatically deletes the corresponding binary data. There are also more subtle benefits of storing the binary data in the database. See [Storing Binary Files Directly in the Database Using ASP.NET 2.0](http://aspnet.4guysfromrolla.com/articles/120606-1.aspx) for a more in-depth discussion.
+The main advantage of storing binary data directly in the database is the tight coupling between the binary data and the database record. This greatly simplifies database administration tasks, like backups or moving the database to a different site or server. Also, deleting a record automatically deletes the corresponding binary data. There are also more subtle benefits of storing the binary data in the database. See [Storing Binary Files Directly in the Database Using ASP.NET 2.0](https://beansoftware.com/ASP.NET-Tutorials/Binary-Files-To-Database.aspx) for a more in-depth discussion.
 
 > [!NOTE]
 > In Microsoft SQL Server 2000 and earlier versions, the `varbinary` data type had a maximum limit of 8,000 bytes. To store up to 2 GB of binary data the [`image` data type](https://msdn.microsoft.com/library/ms187993.aspx) needs to be used instead. With the addition of `MAX` in SQL Server 2005, however, the `image` data type has been deprecated. It s still supported for backwards compatibility, but Microsoft has announced that the `image` data type will be removed in a future version of SQL Server.
@@ -217,7 +217,7 @@ There are a number of techniques for resolving file name conflicts. One option i
 
 ## Challenges Involved with Very Large Amounts of Binary Data
 
-These tutorials assume that the binary data captured is modest in size. Working with very large amounts of binary data files that are several megabytes or larger introduces new challenges that are beyond the scope of these tutorials. For example, by default ASP.NET will reject uploads of more than 4 MB, although this can be configured through the [`<httpRuntime>` element](https://msdn.microsoft.com/library/e1f13641.aspx) in `Web.config`. IIS imposes its own file upload size limitations, too. See [IIS Upload File Size](http://vandamme.typepad.com/development/2005/09/iis_upload_file.html) for more information. Furthermore, the time taken to upload large files might exceed the default 110 seconds ASP.NET will wait for a request. There are also memory and performance issues that arise when working with large files.
+These tutorials assume that the binary data captured is modest in size. Working with very large amounts of binary data files that are several megabytes or larger introduces new challenges that are beyond the scope of these tutorials. For example, by default ASP.NET will reject uploads of more than 4 MB, although this can be configured through the [`<httpRuntime>` element](https://msdn.microsoft.com/library/e1f13641.aspx) in `Web.config`. IIS imposes its own file upload size limitations, too. See [IIS Upload File Size](https://ajaxuploader.com/large-file-upload-iis-asp-net.htm) for more information. Furthermore, the time taken to upload large files might exceed the default 110 seconds ASP.NET will wait for a request. There are also memory and performance issues that arise when working with large files.
 
 The FileUpload control is impractical for large file uploads. As the file s contents are being posted to the server, the end user must patiently wait without any confirmation that their upload is progressing. This is not so much an issue when dealing with smaller files that can be uploaded in a few seconds, but can be an issue when dealing with larger files that may take minutes to upload. There are a variety of third-party file upload controls that are better suited for handling large uploads and many of these vendors provide progress indicators and ActiveX upload managers that present a much more polished user experience.
 

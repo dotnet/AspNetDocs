@@ -12,8 +12,6 @@ msc.type: authoredcontent
 ---
 # Configuring ASP.NET Web API 2
 
-by [Mike Wasson](https://github.com/MikeWasson)
-
 This topic describes how to configure ASP.NET Web API.
 
 - [Configuration Settings](#settings)
@@ -114,7 +112,7 @@ Multiple-Instance Services
 |  <strong>ModelBinderProvider</strong>   |                                                                                                Returns a model binder for a given type.                                                                                                |
 | <strong>ModelMetadataProvider</strong>  |                                                                                                     Provides metadata for a model.                                                                                                     |
 | <strong>ModelValidatorProvider</strong> |                                                                                                   Provides a validator for a model.                                                                                                    |
-|  <strong>ValueProviderFactory</strong>  | Creates a value provider. For more information, see Mike Stall's blog post [How to create a custom value provider in WebAPI](https://docs.microsoft.com/archive/blogs/jmstall/how-to-create-a-custom-value-provider-in-webapi) |
+|  <strong>ValueProviderFactory</strong>  | Creates a value provider. For more information, see Mike Stall's blog post [How to create a custom value provider in WebAPI](/archive/blogs/jmstall/how-to-create-a-custom-value-provider-in-webapi) |
 
 To add a custom implementation to a multi-instance service, call **Add** or **Insert** on the **Services** collection:
 

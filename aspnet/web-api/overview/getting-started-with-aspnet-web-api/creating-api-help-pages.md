@@ -12,8 +12,6 @@ msc.type: authoredcontent
 ---
 # Creating Help Pages for ASP.NET Web API
 
-by [Mike Wasson](https://github.com/MikeWasson)
-
 This tutorial with code shows how to create help pages for ASP.NET Web API in ASP.NET 4.x.
 
 When you create a web API, it is often useful to create a help page, so that other developers will know how to call your API. You could create all of the documentation manually, but it is better to autogenerate as much as possible. To make this task easier, ASP.NET Web API provides a library for auto-generating help pages at run time.
@@ -117,7 +115,7 @@ The ApiExplorer class gets documentation strings from the **IDocumentationProvid
 
 You aren't limited to the help pages shown here. In fact, **ApiExplorer** is not limited to creating help pages. Yao Huang Lin has written some great blog posts to get you thinking out of the box:
 
-- [Adding a simple Test Client to ASP.NET Web API Help Page](https://docs.microsoft.com/archive/blogs/yaohuang1/adding-a-simple-test-client-to-asp-net-web-api-help-page)
-- [Making ASP.NET Web API Help Page work on self-hosted services](https://docs.microsoft.com/archive/blogs/yaohuang1/making-asp-net-web-api-help-page-work-on-self-hosted-services)
-- [Design-time generation of help page (or client) for ASP.NET Web API](https://docs.microsoft.com/archive/blogs/yaohuang1/design-time-generation-of-help-page-or-client-for-asp-net-web-api)
-- [Advanced Help Page customizations](https://docs.microsoft.com/archive/blogs/yaohuang1/asp-net-web-api-help-page-part-3-advanced-help-page-customizations)
+- [Adding a simple Test Client to ASP.NET Web API Help Page](/archive/blogs/yaohuang1/adding-a-simple-test-client-to-asp-net-web-api-help-page)
+- [Making ASP.NET Web API Help Page work on self-hosted services](/archive/blogs/yaohuang1/making-asp-net-web-api-help-page-work-on-self-hosted-services)
+- [Design-time generation of help page (or client) for ASP.NET Web API](/archive/blogs/yaohuang1/design-time-generation-of-help-page-or-client-for-asp-net-web-api)
+- [Advanced Help Page customizations](/archive/blogs/yaohuang1/asp-net-web-api-help-page-part-3-advanced-help-page-customizations)

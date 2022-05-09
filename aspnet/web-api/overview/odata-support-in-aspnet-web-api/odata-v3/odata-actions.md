@@ -11,7 +11,7 @@ msc.type: authoredcontent
 ---
 # Supporting OData Actions in ASP.NET Web API 2
 
-by [Mike Wasson](https://github.com/MikeWasson)
+by Mike Wasson
 
 [Download Completed Project](https://code.msdn.microsoft.com/ASPNET-Web-API-OData-cecdb524)
 
@@ -157,4 +157,3 @@ If the action is available, the lambda expression returns a link to the action. 
 
 ## Additional Resources
 
-[OData Actions Sample](http://aspnet.codeplex.com/sourcecontrol/latest#Samples/WebApi/OData/v3/ODataActionsSample/)
