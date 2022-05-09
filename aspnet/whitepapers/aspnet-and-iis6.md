@@ -43,7 +43,7 @@ On this screen you will need to select 'Application server (IIS, ASP.NET) as the
 
 Click 'Next &gt;'.
 
-![Screenshot of the  Windows configure your server wizard screen titled application server options. The Enable A S P dot net box is checked.](aspnet-and-iis6/_static/image4.jpg)
+![Screenshot of the  Windows configure your server wizard screen titled application server options. The Enable ASP.NET box is checked.](aspnet-and-iis6/_static/image4.jpg)
 
 After selecting to configure the server as an Application Server, this screen will be displayed prompting what additional capabilities should be installed. Neither option is selected by default. To enable ASP.NET automatically, you need to select 'Enable ASP.NET'.
 
@@ -71,21 +71,21 @@ If you do not wish to use the 'Configure Your Server Wizard' you can optionally 
 
 First open the Control Panel:
 
-![Screenshot of the add or remove programs screen with the M S D N Library for Visual Studio dot net 2003 option highlighted.](aspnet-and-iis6/_static/image8.jpg)
+![Screenshot of the add or remove programs screen with the MSDN Library for Visual Studio .NET 2003 option highlighted.](aspnet-and-iis6/_static/image8.jpg)
 
 Next, click on 'Add/Remove Windows Components' which will open the 'Windows Components Wizard':
 
-![Screenshot of the Windows components wizard window. A S P dot net is highlighted.](aspnet-and-iis6/_static/image9.jpg)
+![Screenshot of the Windows components wizard window. ASP.NET is highlighted.](aspnet-and-iis6/_static/image9.jpg)
 
 Highlight and check 'Application Server' and then click the 'Details?' button:
 
-![Screenshot of the application server screen. A S P dot net is highlighted.](aspnet-and-iis6/_static/image10.jpg)
+![Screenshot of the application server screen. ASP.NET is highlighted.](aspnet-and-iis6/_static/image10.jpg)
 
 To install ASP.NET, check 'ASP.NET'.
 
 Click 'OK' to return to the Windows Component Wizard. Click 'Next &gt;' from the Windows Component Wizard to begin installing:
 
-![Screenshot of the Windows components wizard application server screen. A S P dot net is highlighted.](aspnet-and-iis6/_static/image11.jpg)
+![Screenshot of the Windows components wizard application server screen. ASP.NET is highlighted.](aspnet-and-iis6/_static/image11.jpg)
 
 It is normal to see other dialog boxes appear as services are being installed. You may additionally be prompted for the location of the Windows 2003 Server installation CD.
 
@@ -110,15 +110,15 @@ It is recommended that you configure the memory recycling feature of IIS 6.0. To
 
 For each application pool:
 
-![Screenshot of the Windows I I S manager screen. The file menu shows the Application Pools folder highlighted.](aspnet-and-iis6/_static/image13.jpg)
+![Screenshot of the Windows IIS manager screen. The file menu shows the Application Pools folder highlighted.](aspnet-and-iis6/_static/image13.jpg)
 
 1. Right-click on the application pool, e.g. 'DefaultAppPool', and select 'Properties':
 
-![Screenshot of the Windows I I S manager DefaultAppPool Properties screen. The option Recycle worker processes (in minutes) is checked.](aspnet-and-iis6/_static/image14.jpg)
+![Screenshot of the Windows IIS manager DefaultAppPool Properties screen. The option Recycle worker processes (in minutes) is checked.](aspnet-and-iis6/_static/image14.jpg)
 
 2. Next, enable Memory recycling by clicking on either 'Maximum used memory (in megabytes):'. The value should not be more than the amount of physical (not virtual) memory on the server, a good approximation is 60% of the physical memory, i.e. for a server with 512MB of physical memory select 310. It is also recommended that the maximum not exceed 800MB when using a 2GB address space. If the memory address space of the server is 3GB, the maximum memory limit for the worker process can be as high as 1,800MB:
 
-![Screenshot of the Windows I I S manager DefaultAppPool Properties screen. The option Recycle worker processes (in minutes) is unchecked.](aspnet-and-iis6/_static/image15.jpg)
+![Screenshot of the Windows IIS manager DefaultAppPool Properties screen. The option Recycle worker processes (in minutes) is unchecked.](aspnet-and-iis6/_static/image15.jpg)
 
 Click 'Apply' and the 'OK' to exit the properties dialog. Repeat this for all available application pools.
 
@@ -128,17 +128,17 @@ By default IIS 6.0 is configured to recycle its worker process every 29 hours. T
 
 To disable automatic worker process recycling, first open Internet Information Services Manager (Start | Programs | Administrative Tools | Internet Information Services). Once open, expand the 'Application Pools' folder:
 
-![Screenshot of the Windows I I S manager screen. The file menu shows the folder Application Pools highlighted.](aspnet-and-iis6/_static/image16.jpg)
+![Screenshot of the Windows IIS manager screen. The file menu shows the folder Application Pools highlighted.](aspnet-and-iis6/_static/image16.jpg)
 
 For each application pool:
 
 1. Right-click on the application pool, e.g. 'DefaultAppPool', and select 'Properties':
 
-![Screenshot of the Windows I I S DefaultAppPool Properties screen with the option Recycle worker processes (in minutes) checked.](aspnet-and-iis6/_static/image17.jpg)
+![Screenshot of the Windows IIS DefaultAppPool Properties screen with the option Recycle worker processes (in minutes) checked.](aspnet-and-iis6/_static/image17.jpg)
 
 2. Uncheck 'Recycle worker process (in minutes):':
 
-![Screenshot of the Windows I I S DefaultAppPool Properties screen with the option Recycle worker processes (in minutes) unchecked.](aspnet-and-iis6/_static/image18.jpg)
+![Screenshot of the Windows IIS DefaultAppPool Properties screen with the option Recycle worker processes (in minutes) unchecked.](aspnet-and-iis6/_static/image18.jpg)
 
 Click 'Apply' and the 'OK' to exit the properties dialog. Repeat this for all available application pools.
 
@@ -148,15 +148,15 @@ If your application requires write access to the file system and you are using N
 
 For example, to grant ASP.NET write access to the c:\inetpub\wwwroot first open explorer and navigate to the directory:
 
-![Screenshot of file explorer showing the w w w root folder list.](aspnet-and-iis6/_static/image19.jpg)
+![Screenshot of file explorer showing the wwwroot folder list.](aspnet-and-iis6/_static/image19.jpg)
 
 Next, right-click on the directory, e.g. 'wwwroot' and select properties. After the properties dialog opens, select the 'Security' tab:
 
-![A screenshot of the Windows w w w root properties screen with the Security tab selected.](aspnet-and-iis6/_static/image20.jpg)
+![A screenshot of the Windows wwwroot properties screen with the Security tab selected.](aspnet-and-iis6/_static/image20.jpg)
 
 The c:\inetpub\wwwroot\ directory is a special directory in that the special IIS 6.0 group 'IIS\_WPG' is already granted Read &amp; Execute, List Folder Contents, and Read permissions. However, to grant Write permission, you need to click the Allow checkbox for Write:
 
-![A screenshot of the Windows w w w root properties screen. The Security tab is selected.](aspnet-and-iis6/_static/image21.jpg)
+![A screenshot of the Windows wwwroot properties screen. The Security tab is selected.](aspnet-and-iis6/_static/image21.jpg)
 
 IIS 6.0 now has write permission on this folder. To grant write permissions on other folders, follow these steps - note, you may need to add the IIS\_WPG group if it does not already exist.
 
@@ -177,15 +177,15 @@ To enable integrated authentication between SQL Server and ASP.NET, you will nee
 
 Open SQL Server Enterprise Manager (Start | Programs | Microsoft SQL Server | Enterprise Manager), select the appropriate server, and expand the Security folder:
 
-![A screenshot of the Windows S Q L Enterprise Manager screen. The menu has Logins highlighted.](aspnet-and-iis6/_static/image22.jpg)
+![A screenshot of the Windows SQL Enterprise Manager screen. The menu has Logins highlighted.](aspnet-and-iis6/_static/image22.jpg)
 
 If 'BUILTINT\IIS\_WPG' group is not listed, right-click on Logins and select 'New Login':
 
-![A screenshot of the Windows S Q L Enterprise Manager SQL Server Login Properties screen with the General tab selected.](aspnet-and-iis6/_static/image23.jpg)
+![A screenshot of the Windows SQL Enterprise Manager SQL Server Login Properties screen with the General tab selected.](aspnet-and-iis6/_static/image23.jpg)
 
 In the 'Name:' textbox either enter '[Server/Domain Name]\IIS\_WPG' or click on the ellipses button to open the Windows NT user/group picker:
 
-![A screenshot of the Windows S Q L Enterprise Manager SQL Server Login Properties screen. The screen shows a list of server names.](aspnet-and-iis6/_static/image24.jpg)
+![A screenshot of the Windows SQL Enterprise Manager SQL Server Login Properties screen. The screen shows a list of server names.](aspnet-and-iis6/_static/image24.jpg)
 
 Select the current machine's IIS\_WPG group and click 'Add' and OK to close the picker.
 
@@ -207,8 +207,8 @@ ASP.NET 1.0 on IIS 6.0 is only supported in IIS 5 compatibility mode.
 
 To configure ASP.NET 1.0 to run in IIS 5.0 compatibility mode, open Internet Services Manager and right click Web Sites and select properties:
 
-![A screenshot of the Windows I I S Manager screen. The web sites folder is highlighted.](aspnet-and-iis6/_static/image27.jpg)
+![A screenshot of the Windows IIS Manager screen. The web sites folder is highlighted.](aspnet-and-iis6/_static/image27.jpg)
 
 Switch to the Service Tab and check ?Run WWW Service in IIS 5.0 Isolation Mode?:
 
-![A screenshot of the Windows I I S Manager Web Site Properties screen. The Service tab is selected.](aspnet-and-iis6/_static/image28.jpg)
+![A screenshot of the Windows IIS Manager Web Site Properties screen. The Service tab is selected.](aspnet-and-iis6/_static/image28.jpg)

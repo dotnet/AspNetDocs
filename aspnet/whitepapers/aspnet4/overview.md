@@ -729,7 +729,7 @@ The control includes the following features:
 
 The following figures show examples of financial charts that are produced by the ASP.NET Chart control.
 
-<a id="0.2_graphic17"></a>![Four example financial charts produced by the A S P dot net chart control.](overview/_static/image1.png)
+<a id="0.2_graphic17"></a>![Four example financial charts produced by the ASP.NET chart control.](overview/_static/image1.png)
 
 Figure 2: ASP.NET Chart control examples
 
@@ -851,7 +851,7 @@ The result is that for the beginner, there is very little guidance on how to bui
 
 As the name suggests, the Empty Web Application template is a stripped-down Web Application project. You select this project template from the Visual Studio New Project dialog box, as shown in the following figure:
 
-[![Screenshot of the Visual Studio New Project Dialogue box. The entry titled Empty A S P dot net Web Application is highlighted.](overview/_static/image7.png)](overview/_static/image6.png)
+[![Screenshot of the Visual Studio New Project Dialogue box. The entry titled Empty ASP.NET Web Application is highlighted.](overview/_static/image7.png)](overview/_static/image6.png)
 
 ([Click to view full-size image](overview/_static/image8.png))
 
@@ -860,14 +860,16 @@ When you create an Empty ASP.NET Web Application, Visual Studio creates the foll
 <a id="0.2_graphic1D"></a>![Screenshot that shows the Visual Studio file menu. The file titled Web dot config is highlighted.](overview/_static/image9.png)
 
 This is similar to the Empty Web Site layout from earlier versions of ASP.NET, with one exception. In Visual Studio 2010, Empty Web Application and Empty Web Site projects contain the following minimal `Web.config` file that contains information used by Visual Studio to identify the framework that the project is targeting:
-```xml
-<?xml version ="1.0"?>
+
+<a id="0.2_graphic1E"></a>![!
+``<?xml version ="1.0"?>
 <configuration>
     <system.web>
         <compilation debug="true" targetFramework="4.0" />
     </system.web>
 </configuration>
-```
+``](overview/_static/image10.png)
+
 Without this *targetFramework* property, Visual Studio defaults to targeting the .NET Framework 2.0 in order to preserve compatibility when opening older applications.
 
 #### Web Application and Web Site Project Templates
@@ -883,8 +885,8 @@ The project includes a number of files that were not created in earlier versions
 ([Click to view full-size image](overview/_static/image14.png))
 
 The project also contains a second `Web.config` file in the `Account` directory. The second configuration file provides a way to secure access to the ChangePassword.aspx page for non-logged in users. The following example shows the contents of the second `Web.config` file.
-```xml
-<?xml version="1.0"?>
+
+![``<?xml version="1.0"?>
 <configuration>
     <location path="ChangePassword.aspx">
         <system.web>
@@ -894,7 +896,8 @@ The project also contains a second `Web.config` file in the `Account` directory.
         </system.web>
     </location>
 </configuration>
-```
+``](overview/_static/image15.png)
+
 The pages created by default in the new project templates also contain more content than in previous versions. The project contains a default master page and CSS file, and the default page (Default.aspx) is configured to use the master page by default. The result is that when you run the Web application or Web site for the first time, the default (home) page is already functional. In fact, it is similar to the default page you see when you start up a new MVC application.
 
 [![Screenshot that shows a browser view of the default page created when you start a new M V C application.](overview/_static/image17.png)](overview/_static/image16.png)
@@ -908,11 +911,11 @@ For example, imagine that for a new Web Application you want to change some of t
 <a id="0.2_graphic23"></a>![Screenshot that shows a file directory with an images folder containing a logo file.](overview/_static/image19.png)
 
 To add the image to the page, you then open the `Site.Master` file, find where the My ASP.NET Application text is defined, and replace it with an *image* element whose *src* attribute is set to the new logo image, as in the following example:
-```html
-<div class="title">
-    <img src="Content/Images/ASPNETLogo.jpg" width="376px" height="62px"  border="0" alt="ASP.NET Logo" />
-</div>
-```
+
+[![``<div class="title"><img src="Content/Images/ASPNETLogo.jpg" width="376px" height="62px"  border="0" alt="ASP.NET Logo" /> </div>``](overview/_static/image21.png)](overview/_static/image20.png)
+
+([Click to view full-size image](overview/_static/image22.png))
+
 You can then go into the Site.css file and modify CSS class definitions to change the background color of the page as well as that of the header.
 
 The result of these changes is that you can display a customized home page with very little effort:
