@@ -174,7 +174,7 @@ In this task, you will add a Controller class that will handle URLs to the Home 
     *Add Controller Command*
 2. The **Add Controller** dialog appears. Name the controller *HomeController* and press **Add**.
 
-    ![Add Controller Dialog](aspnet-mvc-4-fundamentals/_static/image6.png "Add Controller Dialog")
+    ![Screenshot of the Add Controller Dialog box with available options to create the controller.](aspnet-mvc-4-fundamentals/_static/image6.png "Add Controller Dialog")
 
     *Add Controller Dialog*
 3. The file **HomeController.cs** is created in the **Controllers** folder. In order to have the **HomeController** return a string on its Index action, replace the **Index** method with the following code:
@@ -231,7 +231,7 @@ In this task, you will add a new Controller.
       > One of the advantages of using NuGet is that you don't have to ship all the libraries in your project, reducing the project size. With NuGet Power Tools, by specifying the package versions in the Packages.config file, you will be able to download all the required libraries the first time you run the project. This is why you will have to run these steps after you open an existing solution from this lab.
 3. Add the new controller. To do this, right-click the **Controllers** folder within the Solution Explorer, select **Add** and then the **Controller** command. Change the **Controller Name** to *StoreController*, and click **Add**.
 
-    ![Add Controller Dialog](aspnet-mvc-4-fundamentals/_static/image8.png "Add Controller Dialog")
+    ![Add Controller Dialog screenshot with bar for entering controller name and an option for selecting scaffolding options.](aspnet-mvc-4-fundamentals/_static/image8.png "Add Controller Dialog")
 
     *Add Controller Dialog*
 
@@ -325,6 +325,7 @@ In this task, you will try out the Application in a web browser and use the **ge
 <a id="Ex3Task3"></a>
 
 <a id="Task_3_-_Adding_an_Id_Parameter_Embedded_in_the_URL"></a>
+
 #### Task 3 - Adding an Id Parameter Embedded in the URL
 
 In this task, you will use the **URL** to pass an **Id** parameter to the **Details** action method of the **StoreController**. ASP.NET MVC's default routing convention is to treat the segment of a URL after the action method name as a parameter named **Id**. If your action method has parameter named Id, then ASP.NET MVC will automatically pass the URL segment to you as a parameter. In the URL **Store/Details/5**, **Id** will be interpreted as **5**.
@@ -425,7 +426,7 @@ In this task, you will add a View template to generate the HTML response that wi
     *Adding a View from within the Index method*
 3. The **Add View** Dialog will appear to generate a View template file. By default, this dialog pre-populates the name of the View template so that it matches the action method that will use it. Because you used the **Add View** context menu within the **Index** action method within the HomeController, the **Add View** dialog has Index as the default view name. Click **Add**.
 
-    ![Add View Dialog](aspnet-mvc-4-fundamentals/_static/image14.png "Add View Dialog")
+    ![Add View Dialog screenshot. This shows a dialog box with specific options for adding a view template.](aspnet-mvc-4-fundamentals/_static/image14.png "Add View Dialog")
 
     *Add View Dialog*
 4. Visual Studio generates an **Index.cshtml** view template inside the **Views\Home** folder and then opens it.
@@ -578,7 +579,7 @@ In this task, you will create a View template that will use a StoreIndexViewMode
     *Adding a View*
 3. Because the **Add View Dialog** was invoked from the **StoreController**, it will add the View template by default in a **\Views\Store\Index.cshtml** file. Check the **Create a strongly-typed-view** checkbox and then select **StoreIndexViewModel** as the **Model class**. Also, make sure that the View engine selected is **Razor**. Click **Add**.
 
-    ![Add View Dialog](aspnet-mvc-4-fundamentals/_static/image24.png "Add View Dialog")
+    ![Screenshot of the Add View Dialog box, showing the options available and the selection to create a strongly-typed-view model class.](aspnet-mvc-4-fundamentals/_static/image24.png "Add View Dialog")
 
     *Add View Dialog*
 
@@ -598,23 +599,25 @@ In this task, you will update the View template created in the last task to retr
 
 [!code-cshtml[Main](aspnet-mvc-4-fundamentals/samples/sample14.cshtml)]
 
- > [!NOTE]
- > As soon as you finish typing the period after the word **Model**, Visual Studio's Intellisense will show a list of possible properties and methods to choose from.
- > 
- > ![](aspnet-mvc-4-fundamentals/_static/image25.png)
- > 
- > *Getting Model properties and methods with Visual Studio's IntelliSense*
- > 
- > The **Model** property references the **StoreIndexViewModel** object that the Controller passed to the View template. This means that you can access all of the data passed from the Controller to the View template via the **Model** property, and format it into an appropriate HTML response within the View template.
- > 
- > You can just select the **NumberOfGenres** property from the Intellisense list rather than typing it in and then it will auto-complete it by pressing the **tab key**.
+> [!NOTE]
+> As soon as you finish typing the period after the word **Model**, Visual Studio's Intellisense will show a list of possible properties and methods to choose from.
+> 
+> <!--![](aspnet-mvc-4-fundamentals/_static/image25.png)-->
+> 
+> *Getting Model properties and methods with Visual Studio's IntelliSense*
+> 
+> The **Model** property references the **StoreIndexViewModel** object that the Controller passed to the View template. This means that you can access all of the data passed from the Controller to the View template via the **Model** property, and format it into an appropriate HTML response within the View template.
+> 
+> You can just select the **NumberOfGenres** property from the Intellisense list rather than typing it in and then it will auto-complete it by pressing the **tab key**.
+
 2. Loop over the genre list in **StoreIndexViewModel** and create an HTML **&lt;ul&gt;** list using a **foreach** loop.
    (C#)
 
-    [!code-cshtml[Main](aspnet-mvc-4-fundamentals/samples/sample15.cshtml)]
+[!code-cshtml[Main](aspnet-mvc-4-fundamentals/samples/sample15.cshtml)]
+
 3. Press **F5** to run the Application and browse **/Store**. You will see the list of genres passed in the **StoreIndexViewModel** object from the **StoreController** to the View template.
 
-    ![View displaying a list of genres](aspnet-mvc-4-fundamentals/_static/image26.png "View displaying a list of genres")
+![View displaying a list of genres](aspnet-mvc-4-fundamentals/_static/image26.png "View displaying a list of genres")
 
     *View displaying a list of genres*
 4. Close the browser.
