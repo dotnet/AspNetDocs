@@ -176,7 +176,7 @@ You can configure the publish profile to run the grant script in the membership 
 
 4. In the database drop-down list select **ContosoUniversity**. Select **Execute**. 
 
-   ![](deploying-to-iis/_static/image12.png)
+   ![In the database drop-down list select ContosoUniversity. Select Execute.](deploying-to-iis/_static/image12.png)
 
 The default application pool identity now has sufficient permissions in the application database for Code First Migrations to create the database tables when the application runs.
 
@@ -354,7 +354,7 @@ Verify that an *ELMAH* folder exists in the *c:\inetpub\wwwroot\ContosoUniversit
 
 Open the *Web.config* file in the deployed application at *C:\inetpub\wwwroot\ContosoUniversity* and you can see where the deployment process configured Code First Migrations to automatically update the database to the latest version.
 
-![](deploying-to-iis/_static/image21.png)
+![Open the Web.config file in the deployed application at C:\inetpub\wwwroot\ContosoUniversity and see where the deployment process configured Code First Migrations to automatically update the database to the latest version.](deploying-to-iis/_static/image21.png)
 
 The deployment process also created a new connection string for Code First Migrations to use exclusively for updating the database schema:
 

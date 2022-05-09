@@ -21,7 +21,7 @@ by [Jason Lee](https://github.com/jrjlee)
 
 The Contact Manager solution consists of four individual projects:
 
-![](the-contact-manager-solution/_static/image1.png)
+![The Contact Manager solution consists of four individual projects.](the-contact-manager-solution/_static/image1.png)
 
 - **ContactManager.Mvc**. This is an ASP.NET MVC 3 web application project that represents the entry point for the solution. It offers some basic web application functionality, like providing users with the ability to create and view contact details. The application relies on a Windows Communication Foundation (WCF) service to manage contacts and an ASP.NET application services database to manage authentication and authorization.
 - **ContactManager.Database**. This is a Visual Studio database project. The project defines the schema for a database that stores contact details.
@@ -32,7 +32,7 @@ The solution also includes a solution folder named Publish. This contains variou
 
 At a conceptual level, the components of the solution fit together like this:
 
-![](the-contact-manager-solution/_static/image2.png)
+![How the components of the solution fit together at a conceptual level.](the-contact-manager-solution/_static/image2.png)
 
 > [!NOTE]
 > While the ASP.NET MVC 3 web application uses the ASP.NET membership provider, all the pages within the web application allow anonymous access. This is clearly not a realistic configuration. However, the solution is set up in this way to make it easier for you to deploy and test the solution without configuring user accounts and roles.

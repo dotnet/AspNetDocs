@@ -53,20 +53,20 @@ If you want to enable a user to create new team projects, the first high-level t
 1. On the TFS server, on the **Start** menu, point to **All Programs**, click **Microsoft Team Foundation Server 2010**, and then click **Team Foundation Administration Console**.
 2. In the navigation tree view, expand **Application Tier**, and then click **Team Project Collections**.
 
-    ![](creating-a-team-project-in-tfs/_static/image1.png)
+    ![In the navigation tree view, expand Application Tier, and then click Team Project Collections.](creating-a-team-project-in-tfs/_static/image1.png)
 3. In the **Team Project Collections** pane, select the team project collection you want to manage.
 
-    ![](creating-a-team-project-in-tfs/_static/image2.png)
+    ![In the Team Project Collections pane, select the team project collection you want to manage.](creating-a-team-project-in-tfs/_static/image2.png)
 4. On the **General** tab, click **Group Membership**.
 
-    ![](creating-a-team-project-in-tfs/_static/image3.png)
+    ![On the General tab, click Group Membership.](creating-a-team-project-in-tfs/_static/image3.png)
 5. In the **Global Groups** dialog box, select the **Project Collection Administrators** group, and then click **Properties**.
 6. In the **Team Foundation Server Group Properties** dialog box, select **Windows User or Group**, and then click **Add**.
 
-    ![](creating-a-team-project-in-tfs/_static/image4.png)
+    ![In the Team Foundation Server Group Properties dialog box, select Windows User or Group, and then click Add.](creating-a-team-project-in-tfs/_static/image4.png)
 7. In the **Select Users, Computers, or Groups** dialog box, type the user name of the user you want to be able to create new team projects, click **Check Names**, and then click **OK**.
 
-    ![](creating-a-team-project-in-tfs/_static/image5.png)
+    ![In the Select Users, Computers, or Groups dialog box, type the user name of the user you want to be able to create new team projects, click Check Names, and then click OK.](creating-a-team-project-in-tfs/_static/image5.png)
 8. In the **Team Foundation Server Group Properties** dialog box, click **OK**.
 9. In the **Global Groups** dialog box, click **Close**.
 
@@ -79,21 +79,21 @@ Next, you need to give the user permission to create new team sites in the Share
 1. In the Team Foundation Server Administration Console, on the **Team Project Collections** page, select the team project collection you want to manage.
 2. On the **SharePoint Site** tab, note the value of the **Current Default Site Location** URL.
 
-    ![](creating-a-team-project-in-tfs/_static/image6.png)
+    ![On the SharePoint Site tab, note the value of the Current Default Site Location URL.](creating-a-team-project-in-tfs/_static/image6.png)
 3. Open Internet Explorer, and then go to the URL you noted in step 2.
 
     > [!NOTE]
     > If you're not logged on to Windows as the user who created the team project collection, you'll need to sign in to SharePoint as this user in order to continue.
 4. On the **Site Actions** menu, click **Site Settings**.
 
-    ![](creating-a-team-project-in-tfs/_static/image7.png)
+    ![On the Site Actions menu, click Site Settings.](creating-a-team-project-in-tfs/_static/image7.png)
 5. On the **Site Settings** page, under **Users and Permissions**, click **People and groups**.
 6. In the left navigation panel, click **Groups**.
 
-    ![](creating-a-team-project-in-tfs/_static/image8.png)
+    ![In the left navigation panel, click Groups](creating-a-team-project-in-tfs/_static/image8.png)
 7. On the **People and Groups: All Groups** page, click **Set Up Groups for this Site**.
 
-    ![](creating-a-team-project-in-tfs/_static/image9.png)
+    ![On the People and Groups: All Groups page, click Set Up Groups for this Site.](creating-a-team-project-in-tfs/_static/image9.png)
 
    > [!NOTE]
    > You may receive an <strong>HTTP 404 Not Found</strong> error due to a double HTTP encoding bug. If this occurs, replace the URL with this:   
@@ -102,7 +102,7 @@ Next, you need to give the user permission to create new team sites in the Share
    > `http://tfs/sites/Fabrikam%20Web%20Projects/_layouts/permsetup.aspx` 
 8. On the **Set Up Groups for this Site** page, add the user who will create team projects to the **Owners** group, and then click **OK**.
 
-    ![](creating-a-team-project-in-tfs/_static/image10.png)
+    ![On the Set Up Groups for this Site page, add the user who will create team projects to the Owners group, and then click OK.](creating-a-team-project-in-tfs/_static/image10.png)
 
 For more information on enabling users to create new team projects within a team project collection, see [Set Administrator Permissions for Team Project Collections](https://msdn.microsoft.com/library/dd547204.aspx).
 
@@ -133,20 +133,20 @@ The next procedure describes how to create a new team project in TFS 2010.
 5. In the **Add/Remove Team Foundation Server** dialog box, click **Add**.
 6. In the **Add Team Foundation Server** dialog box, provide the details of your TFS instance, and then click **OK**.
 
-    ![](creating-a-team-project-in-tfs/_static/image11.png)
+    ![In the Add Team Foundation Server dialog box, provide the details of your TFS instance, and then click OK.](creating-a-team-project-in-tfs/_static/image11.png)
 7. In the **Add/Remove Team Foundation Server** dialog box, click **Close**.
 8. In the **Connect to Team Project** dialog box, select the TFS instance you want to connect to, select the team project collection you want to add to, and then click **Connect**.
 
-    ![](creating-a-team-project-in-tfs/_static/image12.png)
+    ![In the Connect to Team Project dialog box, select the TFS instance you want to connect to, select the team project collection you want to add to, and then click Connect.](creating-a-team-project-in-tfs/_static/image12.png)
 9. In the **Team Explorer** window, right-click the team project collection, and then click **New Team Project**.
 
-    ![](creating-a-team-project-in-tfs/_static/image13.png)
+    ![In the Team Explorer window, right-click the team project collection, and then click New Team Project.](creating-a-team-project-in-tfs/_static/image13.png)
 10. In the **New Team Project** dialog box, provide a name and a description for the team project, and then click **Next**.
 
     > [!NOTE]
     > If your team project includes spaces, you may face some issues when you come to use the Internet Information Services (IIS) Web Deployment Tool (Web Deploy) to deploy packages from the output path. Spaces in the path can make it a lot more difficult to run Web Deploy commands.
 
-    ![](creating-a-team-project-in-tfs/_static/image14.png)
+    ![Spaces in the path can make it a lot more difficult to run Web Deploy commands.](creating-a-team-project-in-tfs/_static/image14.png)
 11. On the **Select a Process Template** page, select the process template that you want to use to manage the development process, and then click **Next**.
 
     > [!NOTE]
@@ -166,17 +166,17 @@ Now that you've created the new team project, you can grant permissions to users
 
 1. In Visual Studio 2010, in the **Team Explorer** window, right-click the team project, point to **Team Project Settings**, and then click **Group Membership**.
 
-    ![](creating-a-team-project-in-tfs/_static/image15.png)
+    ![In Visual Studio 2010, in the Team Explorer window, right-click the team project, point to Team Project Settings, and then click Group Membership.](creating-a-team-project-in-tfs/_static/image15.png)
 2. To enable a user to add, modify, and remove code under source control, you need to add him or her to the **Contributors** group.
 3. In the **Project Groups** dialog box, select the **Contributors** group, and then click **Properties**.
 
-    ![](creating-a-team-project-in-tfs/_static/image16.png)
+    ![In the Project Groups dialog box, select the Contributors group, and then click Properties.](creating-a-team-project-in-tfs/_static/image16.png)
 4. In the **Team Foundation Server Group Properties** dialog box, select **Windows User or Group**, and then click **Add**.
 
-    ![](creating-a-team-project-in-tfs/_static/image17.png)
+    ![In the Team Foundation Server Group Properties dialog box, select Windows User or Group, and then click Add.](creating-a-team-project-in-tfs/_static/image17.png)
 5. In the **Select Users, Computers, or Groups** dialog box, type the user name of the user you want to add to the team project, click **Check Names**, and then click **OK**.
 
-    ![](creating-a-team-project-in-tfs/_static/image18.png)
+    ![In the Select Users, Computers, or Groups dialog box, type the user name of the user you want to add to the team project, click Check Names, and then click OK.](creating-a-team-project-in-tfs/_static/image18.png)
 6. In the **Team Foundation Server Group Properties** dialog box, click **OK**.
 7. In the **Project Groups** dialog box, click **Close**.
 

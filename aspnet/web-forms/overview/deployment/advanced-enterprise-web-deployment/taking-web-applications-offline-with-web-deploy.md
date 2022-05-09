@@ -45,14 +45,14 @@ The first task you need to complete is to add an *App\_offline* file to your web
 3. In the **Add New Item** dialog box, select **HTML Page**.
 4. In the **Name** box, type **App\_offline-template.htm**, and then click **Add**.
 
-    ![](taking-web-applications-offline-with-web-deploy/_static/image1.png)
+    ![In the Name box, type App\_offline-template.htm, and then click Add.](taking-web-applications-offline-with-web-deploy/_static/image1.png)
 5. Add some simple HTML to inform users that the application is unavailable, and then save the file. Do not include any server-side tags (for example, any tags that are prefixed with "asp:"). 
 
-    ![](taking-web-applications-offline-with-web-deploy/_static/image2.png)
+    ![Add some simple HTML to inform users that the application is unavailable, and then save the file. ](taking-web-applications-offline-with-web-deploy/_static/image2.png)
 6. In the **Solution Explorer** window, right-click the new file, and then click **Properties**.
 7. In the **Properties** window, in the **Build Action** row, select **None**.
 
-    ![](taking-web-applications-offline-with-web-deploy/_static/image3.png)
+    ![In the **Properties** window, in the **Build Action** row, select **None**.](taking-web-applications-offline-with-web-deploy/_static/image3.png)
 
 ## Deploying and Deleting an App\_Offline File
 
@@ -131,7 +131,7 @@ The next procedure shows you how to add this *.wpp.targets* file to a web applic
 3. In the **Add New Item** dialog box, select the **XML File** template.
 4. In the **Name** box, type *[project name]***.wpp.targets** (for example, **ContactManager.Mvc.wpp.targets**), and then click **Add**.
 
-    ![](taking-web-applications-offline-with-web-deploy/_static/image4.png)
+    ![In the Name box, type project name .wpp.targets, then click Add.](taking-web-applications-offline-with-web-deploy/_static/image4.png)
 
     > [!NOTE]
     > If you add a new item to the root node of a project, the file is created in the same folder as the project file. You can verify this by opening the folder in Windows Explorer.
