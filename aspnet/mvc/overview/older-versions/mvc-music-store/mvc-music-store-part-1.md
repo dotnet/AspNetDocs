@@ -25,37 +25,37 @@ The MVC Music Store is a tutorial application that introduces and explains step-
 
 The application we'll be building is a simple music store. There are three main parts to the application: shopping, checkout, and administration.
 
-![](mvc-music-store-part-1/_static/image1.jpg)
+![Screenshot of the ASP.Net Music Store overview menu, with options for selecting a genre or from the top picks selections.](mvc-music-store-part-1/_static/image1.jpg)
 
 Visitors can browse Albums by Genre:
 
-![](mvc-music-store-part-1/_static/image2.jpg)
+![Screenshot of the ASP.NET music store genre albums selections menu that shows the collection of albums in a given genre.](mvc-music-store-part-1/_static/image2.jpg)
 
 They can view a single album and add it to their cart:
 
-![](mvc-music-store-part-1/_static/image3.jpg)
+![Screenshot of the album selection window, showing the album's name, genre, artist, and price, with an option to add to cart.](mvc-music-store-part-1/_static/image3.jpg)
 
 They can review their cart, removing any items they no longer want:
 
-![](mvc-music-store-part-1/_static/image4.jpg)
+![Screenshot of the 'Review your cart' menu, with total price information and options to edit your cart or checkout. ](mvc-music-store-part-1/_static/image4.jpg)
 
 Proceeding to Checkout will prompt them to login or register for a user account.
 
-![](mvc-music-store-part-1/_static/image1.png)
+![Screenshot of the Log On menu bar, requesting the user to enter a user name and password, in addition to the option to click a 'remember me' button.](mvc-music-store-part-1/_static/image1.png)
 
-![](mvc-music-store-part-1/_static/image2.png)
+![Screenshot of the Create New Account menu bar, which requests a user name, email address, password, and password confirmation entries -password must be 6 characters long-, with the register button at the bottom.](mvc-music-store-part-1/_static/image2.png)
 
 After creating an account, they can complete the order by filling out shipping and payment information. To keep things simple, we're running an amazing promotion: everything's free if they enter promotion code "FREE"!
 
-![](mvc-music-store-part-1/_static/image5.jpg)
+![Screnshot showing the entry options for purchaser's shipping and payment information, with a placeholder for entering promo codes.](mvc-music-store-part-1/_static/image5.jpg)
 
 After ordering, they see a simple confirmation screen:
 
-![](mvc-music-store-part-1/_static/image6.jpg)
+![Screenshot of the confirmation screen that thanks the customer for their order and provides the order number.](mvc-music-store-part-1/_static/image6.jpg)
 
 In addition to customer-facing pages, we'll also build an administrator section that shows a list of albums from which Administrators can Create, Edit, and Delete albums:
 
-![](mvc-music-store-part-1/_static/image7.jpg)
+![Screenshot of the administrator section menu that shows a list of owned albums' title, artist, and genre; with the options to edit or delete each one.](mvc-music-store-part-1/_static/image7.jpg)
 
 ## 1. File -&gt; New Project
 
@@ -75,11 +75,11 @@ You can use either Visual Studio 2010 SP1 or Visual Web Developer 2010 Express S
 
 We'll start by selecting "New Project" from the File menu in Visual Web Developer. This brings up the New Project dialog.
 
-![](mvc-music-store-part-1/_static/image5.png)
+![Screenshot of the Visual Web Developer file menu that shows the selection and short cut keyboard commands for creating a new project.](mvc-music-store-part-1/_static/image5.png)
 
 We'll select the Visual C# -&gt; Web Templates group on the left, then choose the "ASP.NET MVC 3 Web Application" template in the center column. Name your project MvcMusicStore and press the OK button.
 
-![](mvc-music-store-part-1/_static/image8.jpg)
+![Screenshot of the New Project Dialog window menu, providing different application option templates.](mvc-music-store-part-1/_static/image8.jpg)
 
 This will display a secondary dialog which allows us to make some MVC specific settings for our project. Select the following:
 
@@ -91,15 +91,15 @@ Use HTML5 semantic markup - checked
 
 Verify that your settings are as shown below, then press the OK button.
 
-![](mvc-music-store-part-1/_static/image9.jpg)
+![Screenshot of a secondary dialog box, allowing user to select different settings for their project.](mvc-music-store-part-1/_static/image9.jpg)
 
 This will create our project. Let's take a look at the folders that have been added to our application in the Solution Explorer on the right side.
 
-![](mvc-music-store-part-1/_static/image10.jpg)
+![Screenshot of the Solution Explorer window, after project creation, which shows a list of the folders that have been added to the application.](mvc-music-store-part-1/_static/image10.jpg)
 
 The Empty MVC 3 template isn't completely empty – it adds a basic folder structure:
 
-![](mvc-music-store-part-1/_static/image6.png)
+![Zoomed screenshot view of the list of folders mentioned above, highlighting the name of the project that was created.](mvc-music-store-part-1/_static/image6.png)
 
 ASP.NET MVC makes use of some basic naming conventions for folder names:
 

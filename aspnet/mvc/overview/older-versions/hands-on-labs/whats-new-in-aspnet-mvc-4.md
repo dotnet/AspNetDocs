@@ -166,19 +166,19 @@ In this exercise, you will explore the enhancements in the ASP.NET MVC 4 Project
 
    *The ASP.NET MVC 4 Internet Application Project Template*
 
-    - **HTML 5 Markup**
+- **HTML 5 Markup**
 
-       Browse template views to find out the new theme markup.
+    Browse template views to find out the new theme markup.
 
-       ![New template, using Razor and HTML5 markup About.cshtml.](whats-new-in-aspnet-mvc-4/_static/image10.png "New template, using Razor and HTML5 markup About.cshtml.")
+    ![New template, using Razor and HTML5 markup About.cshtml.](whats-new-in-aspnet-mvc-4/_static/image10.png "New template, using Razor and HTML5 markup About.cshtml.")
 
-       *New template, using Razor and HTML5 markup (About.cshtml).*
-    - **Updated JavaScript libraries**
+    *New template, using Razor and HTML5 markup (About.cshtml).*
+- **Updated JavaScript libraries**
 
-       The ASP.NET MVC 4 default template now includes KnockoutJS, a JavaScript MVVM framework that lets you create rich and highly responsive web applications using JavaScript and HTML. Like in MVC3, jQuery and jQuery UI libraries are also included in ASP.NET MVC 4.
+    The ASP.NET MVC 4 default template now includes KnockoutJS, a JavaScript MVVM framework that lets you create rich and highly responsive web applications using JavaScript and HTML. Like in MVC3, jQuery and jQuery UI libraries are also included in ASP.NET MVC 4.
 
-     > [!NOTE]
-     > You can get more information about KnockOutJS library in this link: [[http://learn.knockoutjs.com/](http://learn.knockoutjs.com/)](http://learn.knockoutjs.com/). Additionally, you can learn about jQuery and jQuery UI in [[http://docs.jquery.com/](http://docs.jquery.com/)](http://docs.jquery.com/).
+    > [!NOTE]
+    > You can get more information about KnockOutJS library in this link: [[http://learn.knockoutjs.com/](http://learn.knockoutjs.com/)](http://learn.knockoutjs.com/). Additionally, you can learn about jQuery and jQuery UI in [[http://docs.jquery.com/](http://docs.jquery.com/)](http://docs.jquery.com/).
 
 <a id="Task_2_-_Exploring_the_Mobile_Application_Template"></a>
 #### Task 2 - Exploring the Mobile Application Template

@@ -25,7 +25,7 @@ We've completed all the major functionality for our site, but we still have some
 
 We want to expose the number of items in the user's shopping cart across the entire site.
 
-![](mvc-music-store-part-10/_static/image1.png)
+![Shopping cart summary screenshot, depicting the item in the cart with its pertinent information, such as genre, artist, and price.](mvc-music-store-part-10/_static/image1.png)
 
 We can easily implement this by creating a partial view which is added to our Site.master.
 
@@ -35,7 +35,7 @@ As shown previously, the ShoppingCart controller includes a CartSummary action m
 
 To create the CartSummary partial view, right-click on the Views/ShoppingCart folder and select Add View. Name the view CartSummary and check the "Create a partial view" checkbox as shown below.
 
-![](mvc-music-store-part-10/_static/image2.png)
+![Screenshot of the menu bar selections and options for creating a partial view of the shopping cart](mvc-music-store-part-10/_static/image2.png)
 
 The CartSummary partial view is really simple - it's just a link to the ShoppingCart Index view which shows the number of items in the cart. The complete code for CartSummary.cshtml is as follows:
 
@@ -51,7 +51,7 @@ Before adding this to the site Layout, we will also create the Genre Menu so we 
 
 We can make it a lot easier for our users to navigate through the store by adding a Genre Menu which lists all the Genres available in our store.
 
-![](mvc-music-store-part-10/_static/image3.png)
+![Screenshot of the partial view genre menu, displayed at the left of the shopping cart window.](mvc-music-store-part-10/_static/image3.png)
 
 We will follow the same steps also create a GenreMenu partial view, and then we can add them both to the Site master. First, add the following GenreMenu controller action to the StoreController:
 
@@ -63,7 +63,7 @@ This action returns a list of Genres which will be displayed by the partial view
 
 Right-click on the GenreMenu controller action and create a partial view named GenreMenu which is strongly typed using the Genre view data class as shown below.
 
-![](mvc-music-store-part-10/_static/image4.png)
+![Screenshot of the controller actions menu used for creating the partial view that lists the genre menu](mvc-music-store-part-10/_static/image4.png)
 
 Update the view code for the GenreMenu partial view to display the items using an unordered list as follows.
 
@@ -89,7 +89,7 @@ Here we are making use of Url.Action rather than Html.ActionLink so that we can 
 
 Now when we browse to a Genre, we will see the albums shown in a grid with the album artwork.
 
-![](mvc-music-store-part-10/_static/image5.png)
+![Music store screenshot, showing a grid view of the albums within one genre, and the partial list view that was created on the left of the window to show of all the genres.](mvc-music-store-part-10/_static/image5.png)
 
 ## Updating the Home Page to show Top Selling Albums
 
@@ -121,7 +121,7 @@ Finally, we'll need to update our Home Index view so that it can display a list 
 
 Now when we run the application, we'll see our updated home page with top selling albums and our promotional message.
 
-![](mvc-music-store-part-10/_static/image1.jpg)
+![Music store homepage screenshot, showing the list of genres in a partial left view, the top picks albums at the bottom, and a large promotional message in the center of the page.](mvc-music-store-part-10/_static/image1.jpg)
 
 ## Conclusion
 
