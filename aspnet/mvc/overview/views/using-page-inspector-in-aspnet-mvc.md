@@ -4,7 +4,8 @@ title: "Using Page Inspector in ASP.NET MVC | Microsoft Docs"
 author: rick-anderson
 description: "Page Inspector in Visual Studio 2012 is a web development tool with an integrated browser. Select any element in the integrated browser, and Page Inspector i..."
 ms.author: riande
-ms.date: 08/15/2012
+ms.date: 05/09/2022
+ms.custom: devdivchpfy22
 ms.assetid: c7e4e1ab-4932-4614-9f53-aaf7c706d498
 msc.legacyurl: /mvc/overview/views/using-page-inspector-in-aspnet-mvc
 msc.type: authoredcontent
@@ -151,7 +152,7 @@ Click **Inspect** to put Page Inspector in Inspection Mode.
 
 In the Page Inspector browser window, move the mouse pointer over the "Home Page" section until the **div.content-wrapper** label appears.
 
-![Hovering over div.content-wrapper](using-page-inspector-in-aspnet-mvc/_static/image26.png)
+![Hovering over the div.content-wrapper](using-page-inspector-in-aspnet-mvc/_static/image26.png)
 
 Click within the div.content-wrapper section once, and then move the mouse pointer to the **Styles** window. The **Styles** window shows all of the CSS rules for this element. Scroll down to find the .featured .content-wrapper class selector. Now clear the checkbox for the background-color property.
 
