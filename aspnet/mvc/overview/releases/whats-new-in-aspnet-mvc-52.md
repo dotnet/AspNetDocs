@@ -13,7 +13,7 @@ msc.type: authoredcontent
 
 by [Microsoft](https://github.com/microsoft)
 
-This topic describes what's new for ASP.NET MVC 5.2, [Microsoft.AspNet.MVC 5.2.2](#52) and [ASP.NET MVC 5.2.3 Beta](#mvc523Beta)
+This topic describes what's new for ASP.NET MVC 5.2, [Microsoft.AspNet.MVC 5.2.2] and [ASP.NET MVC 5.2.3 Beta]
 
 - [Software Requirements](#softRequire)
 - [Download](#download)
@@ -22,8 +22,8 @@ This topic describes what's new for ASP.NET MVC 5.2, [Microsoft.AspNet.MVC 5.2.2
 
     - [Attribute routing improvements](#attributerouting)
 - [Known Issues and Breaking Changes](#knownbreakingchanges)
-- [Bug Fixes](#bug-fixes)
-- [Microsoft.AspNet.MVC 5.2.2](#52)
+- [Bug Fixes]
+- [Microsoft.AspNet.MVC 5.2.2]
 
 <a id="softRequire"></a>
 ## Software Requirements

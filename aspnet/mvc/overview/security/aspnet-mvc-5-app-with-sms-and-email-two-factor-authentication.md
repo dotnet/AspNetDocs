@@ -31,7 +31,7 @@ Start by installing and running [Visual Studio Express 2013 for Web](https://vis
 > Warning: You should complete [Create a secure ASP.NET MVC 5 web app with log in, email confirmation and password reset](create-an-aspnet-mvc-5-web-app-with-email-confirmation-and-password-reset.md) before proceeding. You must install [Visual Studio 2013 Update 3](https://go.microsoft.com/fwlink/?LinkId=390465) or higher to complete this tutorial.
 
 1. Create a new ASP.NET Web project and select the MVC template. Web Forms also supports ASP.NET Identity, so you could follow similar steps in a web forms app.  
-    ![](aspnet-mvc-5-app-with-sms-and-email-two-factor-authentication/_static/image1.png)
+    ![Screenshot that shows the New A S P dot NET Project window. The default authentication, Individual User Accounts, is highlighted.](aspnet-mvc-5-app-with-sms-and-email-two-factor-authentication/_static/image1.png)
 2. Leave the default authentication as **Individual User Accounts**. If you'd like to host the app in Azure, leave the check box checked. Later in the tutorial we will deploy to Azure. You can [open an Azure account for free](https://azure.microsoft.com/pricing/free-trial/?WT.mc_id=A261C142F).
 3. Set the [project to use SSL](create-an-aspnet-mvc-5-app-with-facebook-and-google-oauth2-and-openid-sign-on.md).
 
@@ -52,7 +52,7 @@ This tutorial provides instructions for using either Twilio or ASPSMS but you ca
    ASPSMS:  
    The following service reference needs to be added:  
   
-    ![](aspnet-mvc-5-app-with-sms-and-email-two-factor-authentication/_static/image2.png)  
+    ![Screenshot that shows the Add Service Reference window. The Address and Namespace input bars are highlighted.](aspnet-mvc-5-app-with-sms-and-email-two-factor-authentication/_static/image2.png)  
   
    Address:  
     `https://webservice.aspsms.com/aspsmsx2.asmx?WSDL`  
@@ -100,16 +100,16 @@ This tutorial provides instructions for using either Twilio or ASPSMS but you ca
     [!code-csharp[Main](aspnet-mvc-5-app-with-sms-and-email-two-factor-authentication/samples/sample4.cs?highlight=3,16)]
 9. Run the app and log in with the account you previously registered.
 10. Click on your User ID, which activates the `Index` action method in `Manage` controller.  
-    ![](aspnet-mvc-5-app-with-sms-and-email-two-factor-authentication/_static/image3.png)
+    ![Screenshot that shows the A S P dot NET app Home page. USER ID is highlighted.](aspnet-mvc-5-app-with-sms-and-email-two-factor-authentication/_static/image3.png)
 11. Click Add.  
-    ![](aspnet-mvc-5-app-with-sms-and-email-two-factor-authentication/_static/image4.png)
+    ![Screenshot that shows the A S P dot NET app Account Settings page. None [Add] next to Phone Number section is highlighted.](aspnet-mvc-5-app-with-sms-and-email-two-factor-authentication/_static/image4.png)
 12. The `AddPhoneNumber` action method displays a dialog box to enter a phone number that can receive SMS messages.
 
     [!code-csharp[Main](aspnet-mvc-5-app-with-sms-and-email-two-factor-authentication/samples/sample5.cs)]
 
-    ![](aspnet-mvc-5-app-with-sms-and-email-two-factor-authentication/_static/image5.png)
+    ![Screenshot that shows the A S P dot NET app Add Phone Number page. A sample phone number is filled in with a Send Verification Code button below it.](aspnet-mvc-5-app-with-sms-and-email-two-factor-authentication/_static/image5.png)
 13. In a few seconds you will get a text message with the verification code. Enter it and press **Submit**.  
-    ![](aspnet-mvc-5-app-with-sms-and-email-two-factor-authentication/_static/image6.png)
+    ![Screenshot of the A S P dot NET app Add Phone Number page showing an input bar filled with a sample verification code and a Submit button below it.](aspnet-mvc-5-app-with-sms-and-email-two-factor-authentication/_static/image6.png)
 14. The Manage view shows your phone number was added.
 
 <a id="enable2"></a>
@@ -117,19 +117,19 @@ This tutorial provides instructions for using either Twilio or ASPSMS but you ca
 
 In the template generated app, you need to use the UI to enable two-factor authentication (2FA). To enable 2FA, click on your user ID (email alias) in the navigation bar.
 
-![](aspnet-mvc-5-app-with-sms-and-email-two-factor-authentication/_static/image7.png)
+![Screenshot that shows the A S P dot NET app Home page. USER ID is highlighted.](aspnet-mvc-5-app-with-sms-and-email-two-factor-authentication/_static/image7.png)
 
 Click on enable 2FA.
 
-![](aspnet-mvc-5-app-with-sms-and-email-two-factor-authentication/_static/image8.png)
+![Screenshot that shows the A S P dot NET app Account Settings page. Two-Factor Authentication: Disabled with an Enable link section is highlighted.](aspnet-mvc-5-app-with-sms-and-email-two-factor-authentication/_static/image8.png)
 
 Logout, then log back in. If you've enabled email (see my [previous tutorial](../../../identity/overview/features-api/account-confirmation-and-password-recovery-with-aspnet-identity.md)), you can select the SMS or email for 2FA.
 
-![](aspnet-mvc-5-app-with-sms-and-email-two-factor-authentication/_static/image9.png)
+![Screenshot that shows the A S P dot NET app Send Verification Code page. A dropdown menu showing PhoneCode and EmailCode is selected](aspnet-mvc-5-app-with-sms-and-email-two-factor-authentication/_static/image9.png)
 
 The Verify Code page is displayed where you can enter the code (from SMS or email).
 
-![](aspnet-mvc-5-app-with-sms-and-email-two-factor-authentication/_static/image10.png)
+![Screenshot that shows the A S P dot NET app Verify page for 2FA. Beneath a sample code, a checkbox with Remember this browser? is highlighted.](aspnet-mvc-5-app-with-sms-and-email-two-factor-authentication/_static/image10.png)
 
 Clicking on the **Remember this browser** check box will exempt you from needing to use 2FA to log in when using the browser and device where you checked the box. As long as malicious users can't gain access to your device, enabling 2FA and clicking on the **Remember this browser** will provide you with convenient one step password access, while still retaining strong 2FA protection for all access from non-trusted devices. You can do this on any private device you regularly use.
 

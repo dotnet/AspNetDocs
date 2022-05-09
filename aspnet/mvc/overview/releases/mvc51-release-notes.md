@@ -25,7 +25,7 @@ This topic describes what's new for ASP.NET Web MVC 5.1.
     - [Enum support in views](#Enum)
     - [Unobtrusive validation for MinLength/MaxLength Attributes](#Unobtrusive)
     - [Supporting the ‘this' context in Unobtrusive Ajax](#thisContext)
-- [Known Issues and Breaking Changes](#KnownBreakingChanges)- [Bug Fixes](#bug-fixes)
+- [Known Issues and Breaking Changes](#KnownBreakingChanges)- [Bug Fixes]
 
 <a id="SoftwareRequirements"></a>
 ## Software Requirements
