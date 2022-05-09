@@ -130,7 +130,7 @@ Start by adding a FormView above the products GridView. Create a new ObjectDataS
 
 As with the `ProductsBySupplierDataSource`, have the *`supplierID`* parameter assigned the value of the `SupplierID` querystring value.
 
-[![Image of the supplierID Parameter Value from the SupplierID Querystring Value](master-detail-filtering-across-two-pages-cs/_static/image42.png)](master-detail-filtering-across-two-pages-cs/_static/image41.png)
+[![Image of the supplierID Parameter Value](master-detail-filtering-across-two-pages-cs/_static/image42.png)](master-detail-filtering-across-two-pages-cs/_static/image41.png)
 
 **Figure 15**: Populate the *`supplierID`* Parameter Value from the `SupplierID` Querystring Value ([Click to view full-size image](master-detail-filtering-across-two-pages-cs/_static/image43.png))
 
