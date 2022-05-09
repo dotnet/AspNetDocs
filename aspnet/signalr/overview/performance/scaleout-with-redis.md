@@ -78,7 +78,7 @@ In Hyper-V, add a new VM. In the **Connect Virtual Hard Disk** step, select **Cr
 
 In the **Installation Options** step, select **Image file (.iso)**, click **Browse**, and browse to the Ubuntu installation ISO.
 
-![Screenshot that shows the New Virtual Machine Wizard on the Installation Options page. Install an O S from a boot C D D V D ROM and Image file dot i s o are selected](scaleout-with-redis/_static/image3.png)
+![Screenshot that shows the New Virtual Machine Wizard on the Installation Options page. Install an O S from a boot C D D V D ROM and Image file dot i s o are selected.](scaleout-with-redis/_static/image3.png)
 
 ## Install Redis
 
