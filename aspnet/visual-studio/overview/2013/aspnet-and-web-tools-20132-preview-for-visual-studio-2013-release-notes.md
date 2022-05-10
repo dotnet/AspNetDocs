@@ -159,7 +159,7 @@ The following screenshots demonstrate scaffolding models.
      ![Add new MVC5 controller with views](aspnet-and-web-tools-20132-preview-for-visual-studio-2013-release-notes/_static/image23.png)
 - **Add Controller** using the model:
 
-    ![](aspnet-and-web-tools-20132-preview-for-visual-studio-2013-release-notes/_static/image24.png)
+    ![Screenshot of Add Controller dialog, with Model class selected and Data context class field selected and highlighted.](aspnet-and-web-tools-20132-preview-for-visual-studio-2013-release-notes/_static/image24.png)
 - Check the generated code, for example Views/WeekdayModels/Edit.cshtml contains `@Html.EnumDropDownListFor`: ![View containing EnumDropDownListFor](aspnet-and-web-tools-20132-preview-for-visual-studio-2013-release-notes/_static/image25.png)
 - Run the page to see the enum combobox generated, notice that if a value can be null, an empty string can be chosen for the combo box. For example, the **Create** page shows the following:
 

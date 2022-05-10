@@ -1,8 +1,8 @@
 ---
 uid: web-api/overview/advanced/configuring-aspnet-web-api
-title: "Configuring ASP.NET Web API 2 - ASP.NET 4.x"
-author: MikeWasson
-description: "Configure ASP.NET Web API 2 for ASP.NET 4.x: Configure settings, ASP.NET 4.x hosting, OWIN self-hosting, global services and pre-controller configuration."
+title: Configuring ASP.NET Web API 2 - ASP.NET 4.x
+author: Rick-Anderson
+description: Configure ASP.NET Web API 2 for ASP.NET 4.x: Configure settings, ASP.NET 4.x hosting, OWIN self-hosting, global services and pre-controller configuration.
 ms.author: riande
 ms.date: 03/31/2014
 ms.custom: seoapril2019
@@ -53,11 +53,11 @@ Here is an example using an anonymous delegate:
 
 In Visual Studio 2017, the "ASP.NET Web Application" project template automatically sets up the configuration code, if you select "Web API" in the **New ASP.NET Project** dialog.
 
-[![](configuring-aspnet-web-api/_static/image2.png)](configuring-aspnet-web-api/_static/image1.png)
+[![Screenshot of New A S P dot NET Project dialog, with Web A P I checkbox selected to automatically set up configuration code.](configuring-aspnet-web-api/_static/image2.png)](configuring-aspnet-web-api/_static/image1.png)
 
 The project template creates a file named WebApiConfig.cs inside the App\_Start folder. This code file defines the delegate where you should put your Web API configuration code.
 
-![](configuring-aspnet-web-api/_static/image3.png)
+![Screenshot of Solution Explorer dialog, with Web A P I Config dot c s outlined in red, inside App Start folder.](configuring-aspnet-web-api/_static/image3.png)
 
 [!code-csharp[Main](configuring-aspnet-web-api/samples/sample2.cs?highlight=12)]
 

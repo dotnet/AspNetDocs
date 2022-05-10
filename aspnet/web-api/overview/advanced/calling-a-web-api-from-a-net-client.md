@@ -1,8 +1,8 @@
 ---
 uid: web-api/overview/advanced/calling-a-web-api-from-a-net-client
-title: "Call a Web API From a .NET Client (C#) - ASP.NET 4.x"
-author: MikeWasson
-description: "This tutorial shows how to call a web API from a .NET 4.x application."
+title: Call a Web API From a .NET Client (C#) - ASP.NET 4.x
+author: Rick-Anderson
+description: This tutorial shows how to call a web API from a .NET 4.x application.
 ms.author: riande
 ms.date: 11/24/2017
 msc.legacyurl: /web-api/overview/advanced/calling-a-web-api-from-a-net-client
