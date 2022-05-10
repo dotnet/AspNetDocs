@@ -23,7 +23,7 @@ This topic describes what's new for ASP.NET Web API 2.2.
     - [Attribute Routing Improvements](#ARI)
     - [Web API Client support for Windows Phone 8.1](#phone)
 - [Known Issues and Breaking Changes](#known-issues)
-- [Bug Fixes](#bug-fixes)
+- [Bug Fixes]()
 - [Microsoft.AspNet.OData 5.2.1](#odata521)
 - [Microsoft.AspNet.WebAPI 5.2.2](#522RC)
 - [Microsoft.AspNet.WebAPI 5.2.3 Beta](#523)

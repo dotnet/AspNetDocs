@@ -1,7 +1,7 @@
 ---
 uid: web-api/overview/security/authentication-and-authorization-in-aspnet-web-api
 title: "Authentication and Authorization in ASP.NET Web API | Microsoft Docs"
-author: MikeWasson
+author: Rick-Anderson
 description: "Gives a general overview of authentication and authorization in ASP.NET Web API."
 ms.author: riande
 ms.date: 11/27/2012
@@ -11,7 +11,7 @@ msc.type: authoredcontent
 ---
 # Authentication and Authorization in ASP.NET Web API
 
-by Mike Wasson
+by Rick Anderson
 
 You've created a web API, but now you want to control access to it. In this series of articles, we'll look at some options for securing a web API from unauthorized users. This series will cover both authentication and authorization.
 
@@ -63,7 +63,9 @@ Authorization happens later in the pipeline, closer to the controller. That lets
 - *Authorization filters* run before the controller action. If the request is not authorized, the filter returns an error response, and the action is not invoked.
 - Within a controller action, you can get the current principal from the **ApiController.User** property. For example, you might filter a list of resources based on the user name, returning only those resources that belong to that user.
 
-![](authentication-and-authorization-in-aspnet-web-api/_static/image1.png)
+:::image type="complex" source="authentication-and-authorization-in-aspnet-web-api/_static/image1.png" alt-text="Diagram of the authentication and authorization pipeline.":::
+   Diagram of the authentication and authorization pipeline. For the authentication stage, the request starts at the H T T P Module in I I S. An arrow connects the H T T P Module to the H T T P Message Handler in the Web A P I. An arrow connects the H T T P Message Handler to the Authorization Filter in the authorization stage. An arrow connects the Authorization Filter to the Controller.
+:::image-end:::
 
 <a id="auth3"></a>
 ### Using the [Authorize] Attribute
@@ -105,7 +107,10 @@ To write a custom authorization filter, derive from one of these types:
 
 The following diagram shows the class hierarchy for the **AuthorizeAttribute** class.
 
-![](authentication-and-authorization-in-aspnet-web-api/_static/image2.png)
+:::image type="complex" source="authentication-and-authorization-in-aspnet-web-api/_static/image2.png" alt-text="Diagram of the class hierarchy for the Authorize Attribute class.":::
+   Diagram of the class hierarchy for the Authorize Attribute class. Authorize Attribute is at the bottom, with an arrow pointing up to Authorization Filter Attribute, and an arrow pointing up to I Authorization Filter at the top.
+:::image-end:::
+
 
 ### Authorization Inside a Controller Action
 

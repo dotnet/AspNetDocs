@@ -1,6 +1,6 @@
 ---
 uid: whitepapers/index
-title: "Whitepapers | Microsoft Docs"
+title: "Whitepapers for Installing and Configuring ASP.NET| Microsoft Docs"
 author: rick-anderson
 description: "On this page you will find whitepapers to help you install and configure ASP.NET, and to assist you to write secure, fast and flexible ASP.NET applications."
 ms.author: riande
@@ -9,7 +9,7 @@ ms.assetid: 3824e2d7-446f-406b-9c8b-5a1634359a78
 msc.legacyurl: 
 msc.type: content
 ---
-# Whitepapers
+# Whitepapers for Installing and Configuring ASP.NET
 
 - [Whitepapers](overview.md)
 - [ASP.NET 4 and Visual Studio 2010 Web Development Overview](aspnet4/index.md)
