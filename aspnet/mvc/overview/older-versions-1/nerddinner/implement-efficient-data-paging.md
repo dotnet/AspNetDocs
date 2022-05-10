@@ -85,11 +85,11 @@ We can use the exact same Index() code we had before with our Querystring scenar
 
 And now when we run the application and type in */Dinners* we'll see the first 10 upcoming dinners:
 
-![Screenshot of the ](implement-efficient-data-paging/_static/image3.png)
+![Screenshot of the Nerd Dinners Upcoming Dinners list.](implement-efficient-data-paging/_static/image3.png)
 
 And when we type in */Dinners/Page/1* we'll see the next page of dinners:
 
-![](implement-efficient-data-paging/_static/image4.png)
+![Screenshot of the next page of Upcoming Dinners list.](implement-efficient-data-paging/_static/image4.png)
 
 ### Adding page navigation UI
 

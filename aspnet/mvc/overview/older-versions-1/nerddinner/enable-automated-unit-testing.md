@@ -87,7 +87,7 @@ Visual Studio 2008 Professional (and higher editions) includes a built-in test r
 
 Let's position our cursor within the DinnerTest class and type "Ctrl R, T" to run the two tests we just defined. When we do this a "Test Results" window will appear within Visual Studio and we'll see the results of our test run listed within it:
 
-![Sc](enable-automated-unit-testing/_static/image5.png)
+![Screenshot of the Test Results window in Visual Studio. The results of the test run are listed within.](enable-automated-unit-testing/_static/image5.png)
 
 *Note: The VS test results window does not show the Class Name column by default. You can add this by right-clicking within the Test Results window and using the Add/Remove Columns menu command.*
 
@@ -105,7 +105,7 @@ We'll create two test methods that verify the Details() action method on the Din
 
 The above code compiles clean. When we run the tests, though, they both fail:
 
-![](enable-automated-unit-testing/_static/image6.png)
+![Screenshot of the code. Both tests have failed.](enable-automated-unit-testing/_static/image6.png)
 
 If we look at the error messages, we'll see that the reason the tests failed was because our DinnersRepository class was unable to connect to a database. Our NerdDinner application is using a connection-string to a local SQL Server Express file which lives under the \App\_Data directory of the NerdDinner application project. Because our NerdDinner.Tests project compiles and runs in a different directory then the application project, the relative path location of our connection-string is incorrect.
 
