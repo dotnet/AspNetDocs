@@ -1,7 +1,7 @@
 ---
 uid: web-api/overview/advanced/http-cookies
-title: "HTTP Cookies in ASP.NET Web API - ASP.NET 4.x"
-author: MikeWasson
+title: HTTP Cookies in ASP.NET Web API - ASP.NET 4.x
+author: Rick-Anderson
 description: "Describes how to send and receive HTTP cookies in Web API for ASP.NET 4.x."
 ms.author: riande
 ms.date: 09/17/2012
@@ -30,7 +30,7 @@ To return a cookie to the server, the client includes a Cookie header in later r
 
 [!code-console[Main](http-cookies/samples/sample3.cmd)]
 
-![](http-cookies/_static/image1.png)
+![Diagram of process to return a cookie to the server, during which the client includes a Cookie header in later requests.](http-cookies/_static/image1.png)
 
 An HTTP response can include multiple Set-Cookie headers.
 
@@ -90,7 +90,7 @@ The **CookieState** class provides an indexer method to read the sub-values from
 
 The previous examples showed how to use cookies from within a Web API controller. Another option is to use [message handlers](http-message-handlers.md). Message handlers are invoked earlier in the pipeline than controllers. A message handler can read cookies from the request before the request reaches the controller, or add cookies to the response after the controller generates the response.
 
-![](http-cookies/_static/image2.png)
+![Diagram of process to set and receive cookies in a message handler. Illustrates how message handlers are invoked earlier in pipeline than controllers.](http-cookies/_static/image2.png)
 
 The following code shows a message handler for creating session IDs. The session ID is stored in a cookie. The handler checks the request for the session cookie. If the request does not include the cookie, the handler generates a new session ID. In either case, the handler stores the session ID in the **HttpRequestMessage.Properties** property bag. It also adds the session cookie to the HTTP response.
 
