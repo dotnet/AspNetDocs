@@ -1,7 +1,7 @@
 ---
 uid: web-api/overview/hosting-aspnet-web-api/host-aspnet-web-api-in-an-azure-worker-role
 title: "Host ASP.NET Web API 2 in an Azure Worker Role - ASP.NET 4.x"
-author: MikeWasson
+author: rick-anderson
 description: "Tutorial: Host ASP.NET Web API in an Azure Worker Role, using OWIN to self-host the Web API framework."
 ms.author: riande
 ms.date: 04/02/2014
