@@ -31,7 +31,7 @@ We are going to use mapping functionality in several places within our applicati
 
 We can create the map.ascx partial by right-clicking on the \Views\Dinners directory and choosing the Add-&gt;View menu command. We'll name the view "Map.ascx", check it as a partial view, and indicate that we are going to pass it a strongly-typed "Dinner" model class:
 
-![](use-ajax-to-implement-mapping-scenarios/_static/image1.png)
+![Screenshot of the Add View dialog. Nerd Dinner dot Models dot Dinner is written in the View data class box.](use-ajax-to-implement-mapping-scenarios/_static/image1.png)
 
 When we click the "Add" button our partial template will be created. We'll then update the Map.ascx file to have the following content:
 
@@ -67,15 +67,15 @@ The JavaScript function we've added to the partial uses jQuery to attach a "blur
 
 And now when we run our application again and click the "Host Dinner" tab we'll see a default map displayed along with our standard Dinner form elements:
 
-![](use-ajax-to-implement-mapping-scenarios/_static/image2.png)
+![Screenshot of the Host Dinner page with a default map displayed.](use-ajax-to-implement-mapping-scenarios/_static/image2.png)
 
 When we type in an address, and then tab away, the map will dynamically update to display the location, and our event handler will populate the latitude/longitude textboxes with the location values:
 
-![](use-ajax-to-implement-mapping-scenarios/_static/image3.png)
+![Screenshot of the Nerd Dinners page with a map displayed.](use-ajax-to-implement-mapping-scenarios/_static/image3.png)
 
 If we save the new dinner and then open it again for editing, we'll find that the map location is displayed when the page loads:
 
-![](use-ajax-to-implement-mapping-scenarios/_static/image4.png)
+![Screenshot of the Edit page on the Nerd Dinners site.](use-ajax-to-implement-mapping-scenarios/_static/image4.png)
 
 Every time the address field is changed, the map and the latitude/longitude coordinates will update.
 
@@ -85,7 +85,7 @@ Now that the map displays the Dinner location, we can also change the Latitude a
 
 And now our forms are a little more user-friendly and avoid displaying the raw latitude/longitude (while still storing them with each Dinner in the database):
 
-![](use-ajax-to-implement-mapping-scenarios/_static/image5.png)
+![Screenshot of a map on the Nerd Dinners page.](use-ajax-to-implement-mapping-scenarios/_static/image5.png)
 
 ### Integrating the Map with the Details View
 
@@ -97,19 +97,19 @@ Below is what the source code to the complete Details view (with map integration
 
 And now when a user navigates to a /Dinners/Details/[id] URL they'll see details about the dinner, the location of the dinner on the map (complete with a push-pin that when hovered over displays the title of the dinner and the address of it), and have an AJAX link to RSVP for it:
 
-![](use-ajax-to-implement-mapping-scenarios/_static/image6.png)
+![Screenshot of the Nerd Dinners web page. A map is shown.](use-ajax-to-implement-mapping-scenarios/_static/image6.png)
 
 ### Implementing Location Search in our Database and Repository
 
 To finish off our AJAX implementation, let's add a Map to the home page of the application that allows users to graphically search for dinners near them.
 
-![](use-ajax-to-implement-mapping-scenarios/_static/image7.png)
+![Screenshot of the home page of Nerd Dinners. A map is shown.](use-ajax-to-implement-mapping-scenarios/_static/image7.png)
 
 We'll begin by implementing support within our database and data repository layer to efficiently perform a location-based radius search for Dinners. We could use the new [geospatial features of SQL 2008](https://www.microsoft.com/sqlserver/2008/en/us/spatial-data.aspx) to implement this, or alternatively we can use a SQL function approach that Gary Dryden discussed in article here: [http://www.codeproject.com/KB/cs/distancebetweenlocations.aspx](http://www.codeproject.com/KB/cs/distancebetweenlocations.aspx).
 
 To implement this technique, we will open the "Server Explorer" within Visual Studio, select the NerdDinner database, and then right-click on the "functions" sub-node under it and choose to create a new "Scalar-valued function":
 
-![](use-ajax-to-implement-mapping-scenarios/_static/image8.png)
+![Screenshot of the Server Explorer in Visual Studio. Nerd Dinner database is selected and the functions sub node is selected. Scalar Valued Function is highlighted.](use-ajax-to-implement-mapping-scenarios/_static/image8.png)
 
 We'll then paste in the following DistanceBetween function:
 
@@ -117,7 +117,7 @@ We'll then paste in the following DistanceBetween function:
 
 We'll then create a new table-valued function in SQL Server that we'll call "NearestDinners":
 
-![](use-ajax-to-implement-mapping-scenarios/_static/image9.png)
+![Screenshot of the S Q L Server. Table-Valued function is highlighted.](use-ajax-to-implement-mapping-scenarios/_static/image9.png)
 
 This "NearestDinners" table function uses the DistanceBetween helper function to return all Dinners within 100 miles of the latitude and longitude we supply it:
 
@@ -125,11 +125,11 @@ This "NearestDinners" table function uses the DistanceBetween helper function to
 
 To call this function, we'll first open up the LINQ to SQL designer by double-clicking on the NerdDinner.dbml file within our \Models directory:
 
-![](use-ajax-to-implement-mapping-scenarios/_static/image10.png)
+![Screenshot of the Nerd Dinner dot d b m l file in the Models directory.](use-ajax-to-implement-mapping-scenarios/_static/image10.png)
 
 We'll then drag the NearestDinners and DistanceBetween functions onto the LINQ to SQL designer, which will cause them to be added as methods on our LINQ to SQL NerdDinnerDataContext class:
 
-![](use-ajax-to-implement-mapping-scenarios/_static/image11.png)
+![Screenshot of the Nearest Dinners and Distance Between functions.](use-ajax-to-implement-mapping-scenarios/_static/image11.png)
 
 We can then expose a "FindByLocation" query method on our DinnerRepository class that uses the NearestDinner function to return upcoming Dinners that are within 100 miles of the specified location:
 
@@ -171,13 +171,13 @@ The callbackUpdateMapDinners() method is where the real work is done. It uses jQ
 
 And now when we run the application and visit the home-page we'll be presented with a map. When we enter the name of a city the map will display the upcoming dinners near it:
 
-![](use-ajax-to-implement-mapping-scenarios/_static/image12.png)
+![Screenshot of the Nerd Dinner home page with a map shown.](use-ajax-to-implement-mapping-scenarios/_static/image12.png)
 
 Hovering over a dinner will display details about it.
 
 Clicking the Dinner title either in the bubble or on the right-hand side in the HTML list will navigate us to the dinner – which we can then optionally RSVP for:
 
-![](use-ajax-to-implement-mapping-scenarios/_static/image13.png)
+![Screenshot of the Nerd Dinner details page with a map showing navigation to a dinner.](use-ajax-to-implement-mapping-scenarios/_static/image13.png)
 
 ### Next Step
 
