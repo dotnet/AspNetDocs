@@ -1,7 +1,7 @@
 ---
 uid: web-api/overview/security/authentication-filters
 title: "Authentication Filters in ASP.NET Web API 2 | Microsoft Docs"
-author: MikeWasson
+author: Rick-Anderson
 description: "An authentication filter is a component that authenticates an HTTP request. Web API 2 and MVC 5 both support authentication filters, but they differ slightly..."
 ms.author: riande
 ms.date: 09/25/2014
@@ -71,11 +71,11 @@ Here is the flow in the Web API 2 pipeline:
 
 The following diagrams show two possible cases. In the first, the authentication filter successfully authenticates the request, an authorization filter authorizes the request, and the controller action returns 200 (OK).
 
-![](authentication-filters/_static/image1.png)
+![Diagram of successful authentication](authentication-filters/_static/image1.png)
 
 In the second example, the authentication filter authenticates the request, but the authorization filter returns 401 (Unauthorized). In this case, the controller action is not invoked. The authentication filter adds a Www-Authenticate header to the response.
 
-![](authentication-filters/_static/image2.png)
+![Diagram of unauthorized authentication](authentication-filters/_static/image2.png)
 
 Other combinations are possible&mdash;for example, if the controller action allows anonymous requests, you might have an authentication filter but no authorization.
 
@@ -124,7 +124,7 @@ The method is called on every authentication filter in the request pipeline.
 
 It's important to understand that **ChallengeAsync** is called *before* the HTTP response is created, and possibly even before the controller action runs. When **ChallengeAsync** is called, `context.Result` contains an **IHttpActionResult**, which is used later to create the HTTP response. So when **ChallengeAsync** is called, you don't know anything about the HTTP response yet. The **ChallengeAsync** method should replace the original value of `context.Result` with a new **IHttpActionResult**. This **IHttpActionResult** must wrap the original `context.Result`.
 
-![](authentication-filters/_static/image3.png)
+![Diagram of ChallengeAsync](authentication-filters/_static/image3.png)
 
 I'll call the original **IHttpActionResult** the *inner result*, and the new **IHttpActionResult** the *outer result*. The outer result must do the following:
 

@@ -53,7 +53,7 @@ ASP.NET 2.0 adds many new attributes to the @ Page directive. The following attr
 
 The Async attribute allows you to configure page to be executed asynchronously. Well cover asynchronous pages later in this module.
 
-## AsyncTimeout
+## Async Timeout
 
 Specified the timeout for asynchronous pages. The default is 45 seconds.
 
@@ -69,11 +69,11 @@ The CodeFileBaseClass attribute is used in cases where you want multiple pages t
 
 This attribute allows you to set the CompilationMode property of the ASPX page. The CompilationMode property is an enumeration containing the values **Always**, **Auto**, and **Never**. The default is **Always**. The **Auto** setting will prevent ASP.NET from dynamically compiling the page if possible. Excluding pages from dynamic compilation increases performance. However, if a page that is excluded contains that code that must be compiled, an error will be thrown when the page is browsed.
 
-## EnableEventValidation
+## Enable Event Validation
 
 This attribute specifies whether or not postback and callback events are validated. When this is enabled, arguments to postback or callback events are checked to ensure that they originated from the server control that originally rendered them.
 
-## EnableTheming
+## Enable Theming
 
 This attribute specifies whether or not ASP.NET themes are used on a page. The default is **false**. ASP.NET themes are covered in [Module 10](profiles-themes-and-web-parts.md).
 
@@ -95,15 +95,15 @@ Note that the src for this script block is WebResource.axd. This resource is not
 
 This attribute specifies the master page file for the current page. The path can be relative or absolute. Master pages are covered in [Module 4](master-pages.md).
 
-## StyleSheetTheme
+## Style Sheet Theme
 
 This attribute allows you to override user-interface appearance properties defined by an ASP.NET 2.0 theme. Themes are covered in [Module 10](profiles-themes-and-web-parts.md).
 
-## Theme
+## Theme Value
 
 Specifies the theme for the page. If a value is not specified for the StyleSheetTheme attribute, the Theme attribute overrides all styles applied to controls on the page.
 
-## Title
+## Title Value
 
 Sets the title for the page. The value specified here will appear in the &lt;title&gt; element of the rendered page.
 
@@ -119,7 +119,7 @@ Another new capability of the @ Page directive in ASP.NET 2.0 is the ability to 
 
 The **SomeText** attribute of the @ Page directive sets the initial value of the SomeText property in the base class to *Hello!*. The video below is a walkthrough of setting the initial value of a public property in a base class using the @ Page directive.
 
-![](the-asp-net-2-0-page-model/_static/image1.png)
+![Screenshot of the Microsoft Visual Studio window with a red arrow indicating a Some Text attribute on one of the lines.](the-asp-net-2-0-page-model/_static/image1.png)
 
 [Open Full-Screen Video](the-asp-net-2-0-page-model/_static/setprop1.wmv)
 
@@ -353,7 +353,7 @@ When the page is posted back, the Page that initiates the postback is accessible
 
 The video below is a walkthrough of a cross-page postback.
 
-![](the-asp-net-2-0-page-model/_static/image2.png)
+![Screenshot of a video walkthrough of a cross-page postback, showing an Internet Explorer browser page displaying a Submit Report option.](the-asp-net-2-0-page-model/_static/image2.png)
 
 [Open Full-Screen Video](the-asp-net-2-0-page-model/_static/xpage1.wmv)
 
@@ -408,7 +408,7 @@ The next step is to call the AddOnPreRenderCompleteAsync method at a point in th
 
 The video below is a walkthrough of an asynchronous page request.
 
-![](the-asp-net-2-0-page-model/_static/image3.png)
+![Screenshot of the video walkthrough of an asynchronous page request, showing the Microsoft Visual Code screen.](the-asp-net-2-0-page-model/_static/image3.png)
 
 [Open Full-Screen Video](the-asp-net-2-0-page-model/_static/async1.wmv)
 
@@ -501,7 +501,7 @@ The ICallbackEventHandler contains two methods that you need to implement in you
 
 Once you have completed the above steps, you are ready to perform a script callback in ASP.NET 2.0.
 
-![](the-asp-net-2-0-page-model/_static/image4.png)
+![Screenshot of the video walkthrough of performing the script callback in A S P dot NET 2 point 0. The Microsoft dropdown is highlighted.](the-asp-net-2-0-page-model/_static/image4.png)
 
 [Open Full-Screen Video](the-asp-net-2-0-page-model/_static/callback1.wmv)
 

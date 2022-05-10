@@ -2,7 +2,7 @@
 uid: mvc/overview/releases/whats-new-in-aspnet-mvc-52
 title: "What’s New in ASP.NET MVC 5.2 | Microsoft Docs"
 author: rick-anderson
-description: ""
+description: "These notes cover what's new in ASP.NET MVC 5.2, including software requirements, new features, known issues, and breaking changes."
 ms.author: riande
 ms.date: 12/25/2014
 ms.assetid: 97972587-2720-48b4-b158-f35f2e855fbf
@@ -13,7 +13,7 @@ msc.type: authoredcontent
 
 by [Microsoft](https://github.com/microsoft)
 
-This topic describes what's new for ASP.NET MVC 5.2, [Microsoft.AspNet.MVC 5.2.2](#52) and [ASP.NET MVC 5.2.3 Beta](#mvc523Beta)
+This topic describes what's new for ASP.NET MVC 5.2, [Microsoft.AspNet.MVC 5.2.2]() and [ASP.NET MVC 5.2.3 Beta]()
 
 - [Software Requirements](#softRequire)
 - [Download](#download)
@@ -22,8 +22,8 @@ This topic describes what's new for ASP.NET MVC 5.2, [Microsoft.AspNet.MVC 5.2.2
 
     - [Attribute routing improvements](#attributerouting)
 - [Known Issues and Breaking Changes](#knownbreakingchanges)
-- [Bug Fixes](#bug-fixes)
-- [Microsoft.AspNet.MVC 5.2.2](#52)
+- [Bug Fixes]()
+- [Microsoft.AspNet.MVC 5.2.2]()
 
 <a id="softRequire"></a>
 ## Software Requirements
