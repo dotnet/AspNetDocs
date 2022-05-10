@@ -58,7 +58,7 @@ The first three lines set the page title using ViewBag.Title. We'll look at how 
 
 Running the application shows that our new text is visible on the home page.
 
-![Screenshot of the music store's browser's home page, showing the text 'This is the Home Page'.](mvc-music-store-part-3/_static/image3.png)
+![Screenshot of the music store's browser's home page, showing the text 'This is the Home Page' under the logo image.](mvc-music-store-part-3/_static/image3.png)
 
 ## Using a Layout for common site elements
 
