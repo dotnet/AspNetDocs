@@ -39,11 +39,11 @@ The ASP.NET MVC Framework makes it easy and natural to unit test application fun
 
 When we created our NerdDinner application at the beginning of this tutorial, we were prompted with a dialog asking whether we wanted to create a unit test project to go along with the application project:
 
-![](enable-automated-unit-testing/_static/image1.png)
+![Screenshot of the Create Unit Test Project dialog. Yes, create a unit test project is selected.Nerd Dinner dot Tests is written as the Test project name.](enable-automated-unit-testing/_static/image1.png)
 
 We kept the "Yes, create a unit test project" radio button selected – which resulted in a "NerdDinner.Tests" project being added to our solution:
 
-![](enable-automated-unit-testing/_static/image2.png)
+![Screenshot of the Solution Explorer navigation tree. Nerd Dinner dot Tests is selected.](enable-automated-unit-testing/_static/image2.png)
 
 The NerdDinner.Tests project references the NerdDinner application project assembly, and enables us to easily add automated tests to it that verify the application functionality.
 
@@ -55,11 +55,11 @@ We'll start by creating a new folder within our test project called "Models" whe
 
 We'll choose to create a "Unit Test" and name it "DinnerTest.cs":
 
-![](enable-automated-unit-testing/_static/image3.png)
+![Screenshot of the Add New Test dialog box. Unit Test is highlighted. Dinner Test dot c s is written as the Test Name.](enable-automated-unit-testing/_static/image3.png)
 
 When we click the "ok" button Visual Studio will add (and open) a DinnerTest.cs file to the project:
 
-![](enable-automated-unit-testing/_static/image4.png)
+![Screenshot of the Dinner Test dot c s file in Visual Studio.](enable-automated-unit-testing/_static/image4.png)
 
 The default Visual Studio unit test template has a bunch of boiler-plate code within it that I find a little messy. Let's clean it up to just contain the code below:
 
@@ -87,7 +87,7 @@ Visual Studio 2008 Professional (and higher editions) includes a built-in test r
 
 Let's position our cursor within the DinnerTest class and type "Ctrl R, T" to run the two tests we just defined. When we do this a "Test Results" window will appear within Visual Studio and we'll see the results of our test run listed within it:
 
-![](enable-automated-unit-testing/_static/image5.png)
+![Sc](enable-automated-unit-testing/_static/image5.png)
 
 *Note: The VS test results window does not show the Class Name column by default. You can add this by right-clicking within the Test Results window and using the Add/Remove Columns menu command.*
 
@@ -142,7 +142,7 @@ Alternatively we can use the refactoring tools built-into Visual Studio Professi
 
 This will launch the "Extract Interface" dialog and prompt us for the name of the interface to create. It will default to IDinnerRepository and automatically select all public methods on the existing DinnerRepository class to add to the interface:
 
-![](enable-automated-unit-testing/_static/image8.png)
+![Screenshot of the Test Results window in Visual Studio.](enable-automated-unit-testing/_static/image8.png)
 
 When we click the "ok" button, Visual Studio will add a new IDinnerRepository interface to our application:
 
@@ -174,11 +174,11 @@ Let's create a FakeDinnerRepository class.
 
 We'll begin by creating a "Fakes" directory within our NerdDinner.Tests project and then add a new FakeDinnerRepository class to it (right-click on the folder and choose **Add-&gt;New Class**):
 
-![](enable-automated-unit-testing/_static/image9.png)
+![Screenshot of the Add New Class menu item. Add New Item is highlighted.](enable-automated-unit-testing/_static/image9.png)
 
 We'll update the code so that the FakeDinnerRepository class implements the IDinnerRepository interface. We can then right-click on it and choose the "Implement interface IDinnerRepository" context menu command:
 
-![](enable-automated-unit-testing/_static/image10.png)
+![Screenshot of the Implement interface I Dinner Repository context menu command.](enable-automated-unit-testing/_static/image10.png)
 
 This will cause Visual Studio to automatically add all of the IDinnerRepository interface members to our FakeDinnerRepository class with default "stub out" implementations:
 
@@ -198,7 +198,7 @@ Let's return to the DinnersController unit tests that failed earlier because the
 
 And now when we run these tests they both pass:
 
-![](enable-automated-unit-testing/_static/image11.png)
+![Screenshot of the unit tests, both tests have passed.](enable-automated-unit-testing/_static/image11.png)
 
 Best of all, they take only a fraction of a second to run, and do not require any complicated setup/cleanup logic. We can now unit test all of our DinnersController action method code (including listing, paging, details, create, update and delete) without ever needing to connect to a real database.
 
@@ -228,7 +228,7 @@ There are many .NET mocking frameworks that can be used with ASP.NET MVC (you ca
 
 Once downloaded, we'll add a reference in our NerdDinner.Tests project to the Moq.dll assembly:
 
-![](enable-automated-unit-testing/_static/image12.png)
+![Screenshot of the Nerd Dinner navigation tree. Moq is highlighted.](enable-automated-unit-testing/_static/image12.png)
 
 We'll then add a "CreateDinnersControllerAs(username)" helper method to our test class that takes a username as a parameter, and which then "mocks" the User.Identity.Name property on the DinnersController instance:
 
@@ -244,7 +244,7 @@ We can now write unit tests that use this helper method to test Edit scenarios i
 
 And now when we run the tests they pass:
 
-![](enable-automated-unit-testing/_static/image13.png)
+![Screenshot of the unit tests that use helper method. The tests have passed.](enable-automated-unit-testing/_static/image13.png)
 
 ### Testing UpdateModel() scenarios
 

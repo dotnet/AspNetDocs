@@ -33,7 +33,7 @@ The Index() action method within our DinnersController class currently looks lik
 
 When a request is made to the */Dinners* URL, it retrieves a list of all upcoming dinners and then renders a listing of all of them out:
 
-![](implement-efficient-data-paging/_static/image1.png)
+![Screenshot of the Nerd Dinner Upcoming Dinner list page.](implement-efficient-data-paging/_static/image1.png)
 
 ### Understanding IQueryable&lt;T&gt;
 
@@ -71,7 +71,7 @@ An alternative to using a querystring value would be to embed the page parameter
 
 We can register custom routing rules that map any incoming URL or URL format to any controller class or action method we want. All we need to-do is to open the Global.asax file within our project:
 
-![](implement-efficient-data-paging/_static/image2.png)
+![Screenshot of the Nerd Dinner navigation tree. Global dot a s a x is selected and highlighted.](implement-efficient-data-paging/_static/image2.png)
 
 And then register a new mapping rule using the MapRoute() helper method like the first call to routes.MapRoute() below:
 
@@ -85,7 +85,7 @@ We can use the exact same Index() code we had before with our Querystring scenar
 
 And now when we run the application and type in */Dinners* we'll see the first 10 upcoming dinners:
 
-![](implement-efficient-data-paging/_static/image3.png)
+![Screenshot of the ](implement-efficient-data-paging/_static/image3.png)
 
 And when we type in */Dinners/Page/1* we'll see the next page of dinners:
 
@@ -115,11 +115,11 @@ Notice above how we are using the Html.RouteLink() helper method to generate our
 
 And now when we run our application again we'll see 10 dinners at a time in our browser:
 
-![](implement-efficient-data-paging/_static/image5.png)
+![Screenshot of the Upcoming Dinners list on the Nerd Dinner page.](implement-efficient-data-paging/_static/image5.png)
 
 We also have &lt;&lt;&lt; and &gt;&gt;&gt; navigation UI at the bottom of the page that allows us to skip forwards and backwards over our data using search engine accessible URLs:
 
-![](implement-efficient-data-paging/_static/image6.png)
+![Screenshot of the Nerd Dinners page with Upcoming Dinners list.](implement-efficient-data-paging/_static/image6.png)
 
 | **Side Topic: Understanding the implications of IQueryable&lt;T&gt;** |
 | --- |
