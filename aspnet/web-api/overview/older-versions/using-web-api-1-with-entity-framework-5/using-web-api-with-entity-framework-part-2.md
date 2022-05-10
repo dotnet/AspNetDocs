@@ -1,7 +1,7 @@
 ---
 uid: web-api/overview/older-versions/using-web-api-1-with-entity-framework-5/using-web-api-with-entity-framework-part-2
 title: "Part 2: Creating the Domain Models | Microsoft Docs"
-author: MikeWasson
+author: Rick-Anderson
 description: ""
 ms.author: riande
 ms.date: 07/03/2012
@@ -11,7 +11,7 @@ msc.type: authoredcontent
 ---
 # Part 2: Creating the Domain Models
 
-by Mike Wasson
+by Rick Anderson
 
 [Download Completed Project](https://code.msdn.microsoft.com/ASP-NET-Web-API-with-afa30545)
 
@@ -35,7 +35,7 @@ We will create the following POCOs:
 
 To create each class, right-click the Models folder in Solution Explorer. From the context menu, select **Add** and then select **Class.**
 
-![](using-web-api-with-entity-framework-part-2/_static/image1.png)
+![Screenshot of the Solutions Explorer menu for the Models folder. The Add menu is open and the Class option is highlighted.](using-web-api-with-entity-framework-part-2/_static/image1.png)
 
 Add a `Product` class with the following implementation:
 
@@ -57,7 +57,7 @@ Add the `OrderDetail` class:
 
 An order contains many order details, and each order detail refers to a single product. To represent these relations, the `OrderDetail` class defines properties named `OrderId` and `ProductId`. Entity Framework will infer that these properties represent foreign keys, and will add foreign-key constraints to the database.
 
-![](using-web-api-with-entity-framework-part-2/_static/image2.png)
+![Screenshot of Visual Studio menus for the Orders, Products, and OrderDetails classes.](using-web-api-with-entity-framework-part-2/_static/image2.png)
 
 The `Order` and `OrderDetail` classes also include "navigation" properties, which contain references to the related objects. Given an order, you can navigate to the products in the order by following the navigation properties.
 
