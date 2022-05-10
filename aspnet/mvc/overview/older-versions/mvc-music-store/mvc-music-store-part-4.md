@@ -51,13 +51,13 @@ Next, make the following updates to the Genre class.
 
 We'll add an App\_Data directory to our project to hold our SQL Server Express database files. App\_Data is a special directory in ASP.NET which already has the correct security access permissions for database access. From the Project menu, select Add ASP.NET Folder, then App\_Data.
 
-![](mvc-music-store-part-4/_static/image1.png)
+![Screenshot of project menu options, highlighting the 'add A S P dot NET folder option, followed by the App underscore data option.](mvc-music-store-part-4/_static/image1.png)
 
 ### Creating a Connection String in the web.config file
 
 We will add a few lines to the website's configuration file so that Entity Framework knows how to connect to our database. Double-click on the Web.config file located in the root of the project.
 
-![](mvc-music-store-part-4/_static/image2.png)
+![Screenshot image of the music store drop-down menu in solution explorer, highlighting and pointing to the web dot config option.](mvc-music-store-part-4/_static/image2.png)
 
 Scroll to the bottom of this file and add a &lt;connectionStrings&gt; section directly above the last line, as shown below.
 
@@ -67,7 +67,7 @@ Scroll to the bottom of this file and add a &lt;connectionStrings&gt; section di
 
 Right-click the Models folder and add a new class named MusicStoreEntities.cs.
 
-![](mvc-music-store-part-4/_static/image3.png)
+![Screenshot of the music store menu options, highlighting the music store entities dot cs, inside the models folder.](mvc-music-store-part-4/_static/image3.png)
 
 This class will represent the Entity Framework database context, and will handle our create, read, update, and delete operations for us. The code for this class is shown below.
 
@@ -81,7 +81,7 @@ We will take advantage of a feature in Entity Framework which adds "seed" data t
 
 Within the Code / Models folder, locate the SampleData.cs file and drop it into the Models folder in our project, as shown below.
 
-![](mvc-music-store-part-4/_static/image4.png)
+![Screenshot of the models folder window, with a right-side image of the entire menu options, showing an arrow going from the sample data dot cs shown inside the folder window to the list view of the file location in the menu.](mvc-music-store-part-4/_static/image4.png)
 
 Now we need to add one line of code to tell Entity Framework about that SampleData class. Double-click on the Global.asax file in the root of the project to open it and add the following line to the top the Application\_Start method.
 
@@ -105,7 +105,7 @@ No changes need to happen to our View template since we're still returning the s
 
 When we run the project again and visit the "/Store" URL, we'll now see a list of all Genres in our database:
 
-![](mvc-music-store-part-4/_static/image1.jpg)
+![Screenshot of the browser window, showing the music store project and all of the selections under the browse genres title, in bulleted points.](mvc-music-store-part-4/_static/image1.jpg)
 
 ### Updating Store Browse and Details to use live data
 
@@ -127,7 +127,7 @@ We can now update the Store Browse View to display the albums which are availabl
 
 Running our application and browsing to /Store/Browse?genre=Jazz shows that our results are now being pulled from the database, displaying all albums in our selected Genre.
 
-![](mvc-music-store-part-4/_static/image2.jpg)
+![Screenshot of the music store browser window, showing a selected genre, in this case Jazz, with a bullet point list of all the albums under the Jazz genre.](mvc-music-store-part-4/_static/image2.jpg)
 
 We'll make the same change to our /Store/Details/[id] URL, and replace our dummy data with a database query which loads an Album whose ID matches the parameter value.
 
@@ -135,7 +135,7 @@ We'll make the same change to our /Store/Details/[id] URL, and replace our dummy
 
 Running our application and browsing to /Store/Details/1 shows that our results are now being pulled from the database.
 
-![](mvc-music-store-part-4/_static/image5.png)
+![Screenshot of the browser window, showing the album selection, 'The Best Of Men At Work'.](mvc-music-store-part-4/_static/image5.png)
 
 Now that our Store Details page is set up to display an album by the Album ID, let's update the **Browse** view to link to the Details view. We will use Html.ActionLink, exactly as we did to link from Store Index to Store Browse at the end of the previous section. The complete source for the Browse view appears below.
 
@@ -143,7 +143,7 @@ Now that our Store Details page is set up to display an album by the Album ID, l
 
 We're now able to browse from our Store page to a Genre page, which lists the available albums, and by clicking on an album we can view details for that album.
 
-![](mvc-music-store-part-4/_static/image6.png)
+![Screenshot of the music project on the browser, displaying the genre selection, Jazz, and the album selections typed in red and in bulleted points, which are now clickable.](mvc-music-store-part-4/_static/image6.png)
 
 > [!div class="step-by-step"]
 > [Previous](mvc-music-store-part-3.md)
