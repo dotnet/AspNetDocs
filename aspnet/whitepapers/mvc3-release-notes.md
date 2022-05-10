@@ -9,7 +9,7 @@ ms.assetid: f44c166e-7e91-48a0-a6f8-d9285f3594e5
 msc.legacyurl: /whitepapers/mvc3-release-notes
 msc.type: content
 ---
-# ASP.NET MVC 3
+# ASP.NET MVC 3 Release Notes
 
 - [Overview](#overview)
 - [Installation Notes](#installation-notes)

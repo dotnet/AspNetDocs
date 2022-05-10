@@ -129,7 +129,7 @@ Now set a breakpoint on the `return` statement (F9 with the cursor on that line)
 
 Click the magnifying glass to see the query in the **Text Visualizer**.
 
-![](advanced-entity-framework-scenarios-for-an-mvc-web-application/_static/image10.png)
+![One screenshot that shows the Course Controller with a line of code highlighted. Another screenshot that shows the Text Visualizer open and a magnifying glass is circled in red in the Value field.](advanced-entity-framework-scenarios-for-an-mvc-web-application/_static/image10.png)
 
 Now you'll add a drop-down list to the Courses Index page so that users can filter for a particular department. You'll sort the courses by title, and you'll specify eager loading for the `Department` navigation property.
 

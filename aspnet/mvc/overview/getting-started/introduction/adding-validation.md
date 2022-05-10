@@ -37,7 +37,7 @@ Now update the `Movie` class to take advantage of the built-in [`Required`](http
 
 The [`StringLength`](https://msdn.microsoft.com/library/system.componentmodel.dataannotations.stringlengthattribute.aspx) attribute sets the maximum length of the string, and it sets this limitation on the database, therefore the database schema will change. Right click on the **Movies** table in **Server explorer** and click **Open Table Definition**:
 
-![](adding-validation/_static/image1.png)
+![Screenshot that shows the Server Explorer window open and on the d b o dot Movies Design tab.](adding-validation/_static/image1.png)
 
 In the image above, you can see all the string fields are set to [NVARCHAR (MAX)](https://technet.microsoft.com/library/ms186939.aspx). We will use migrations to update the schema. Build the solution, and then open the **Package Manager Console** window and enter the following commands:
 
@@ -51,7 +51,7 @@ The `Genre` field is no longer nullable (that is, you must enter a value). The `
 
 Examine the Movie schema:
 
-![](adding-validation/_static/image2.png)
+![Screenshot that shows the d b o dot Movies Design tab. Title and Rating are checked in the Allow Nulls column.](adding-validation/_static/image2.png)
 
 The string fields show the new length limits and `Genre` is no longer checked as nullable.
 
@@ -94,17 +94,17 @@ The first (HTTP GET) `Create` action method displays the initial Create form. Th
 
 You can set a break point in the `HttpPost Create` method and verify the method is never called, client side validation will not submit the form data when validation errors are detected. If you disable JavaScript in your browser, then submit the form with errors, the break point will be hit. You still get full validation without JavaScript. The following image shows how to disable JavaScript in Internet Explorer.
 
-![](adding-validation/_static/image5.png)
+![Screenshot that shows the Internet Options window open and on the security tab. The Custom level window is open and Active scripting is disabled.](adding-validation/_static/image5.png)
 
-![](adding-validation/_static/image6.png)
+![Screenshot that shows the H t t p post and if Model state dot is valid is highlighted.](adding-validation/_static/image6.png)
 
 The following image shows how to disable JavaScript in the FireFox browser.
 
-![](adding-validation/_static/image7.png)
+![Screenshot that shows the Options window. Content is selected and Enable Java Script is circled in red.](adding-validation/_static/image7.png)
 
 The following image shows how to disable JavaScript in the Chrome browser.
 
-![](adding-validation/_static/image8.png)
+![Screenshot that shows the Java Script setting and the option to allow or disable.](adding-validation/_static/image8.png)
 
 Below is the *Create.cshtml* view template that you scaffolded earlier in the tutorial. It's used by the action methods shown above both to display the initial form and to redisplay it in the event of an error.
 

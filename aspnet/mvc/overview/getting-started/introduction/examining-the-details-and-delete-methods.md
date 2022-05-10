@@ -21,7 +21,7 @@ In this part of the tutorial, you'll examine the automatically generated `Detail
 
 Open the `Movie` controller and examine the `Details` method.
 
-![](examining-the-details-and-delete-methods/_static/image1.png)
+![Screenshot that shows the Movies Controller dot c s tab. In the Create drop down menu, Details is circled in red.](examining-the-details-and-delete-methods/_static/image1.png)
 
 [!code-csharp[Main](examining-the-details-and-delete-methods/samples/sample1.cs)]
 
@@ -51,7 +51,7 @@ Another common way to avoid a problem with methods that have identical names and
 
 You now have a complete ASP.NET MVC application that stores data in a local DB database. You can create, read, update, delete, and search for movies.
 
-![](examining-the-details-and-delete-methods/_static/image2.png)
+![Screenshot that shows the M V C Movie Search Index page.](examining-the-details-and-delete-methods/_static/image2.png)
 
 ## Next Steps
 

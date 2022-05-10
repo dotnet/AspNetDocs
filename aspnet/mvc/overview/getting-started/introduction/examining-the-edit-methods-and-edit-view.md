@@ -98,11 +98,11 @@ If you are using a US-English computer, you can skip this section and go to the 
 
 1. From the **Tools** menu click **NuGet Package Manager**, and then click **Manage NuGet Packages for Solution**.
 
-    ![](examining-the-edit-methods-and-edit-view/_static/image5.png)
+    ![Screenshot that shows the Index dot c s h t m l tab open. In the Tools drop down menu, Nu Get Package Manager and then Manage Nu Get Packages for Solution are selected.](examining-the-edit-methods-and-edit-view/_static/image5.png)
 2. On the left pane, select <strong>Browse*.</strong>*(See the image below.)
 3. In the input box, enter *Globalize**.
 
-    ![](examining-the-edit-methods-and-edit-view/_static/image6.png) Choose `jQuery.Validation.Globalize`, choose `MvcMovie` and click **Install**. The *Scripts\jquery.globalize\globalize.js* file will be added to your project. The *Scripts\jquery.globalize\cultures\* folder will contain many culture JavaScript files. Note, it may take five minutes to install this package.
+    ![Screenshot that shows the Manage Packages for Solution window. Globalize is entered in the input box and j Query dot Validation dot Globalize is circled in red. On the right, next to the Version field, the Install button is circled in red.](examining-the-edit-methods-and-edit-view/_static/image6.png) Choose `jQuery.Validation.Globalize`, choose `MvcMovie` and click **Install**. The *Scripts\jquery.globalize\globalize.js* file will be added to your project. The *Scripts\jquery.globalize\cultures\* folder will contain many culture JavaScript files. Note, it may take five minutes to install this package.
 
    The following code shows the modifications to the Views\Movies\Edit.cshtml file:
 

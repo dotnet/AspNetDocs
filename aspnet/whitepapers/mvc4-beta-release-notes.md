@@ -1,6 +1,6 @@
 ---
 uid: whitepapers/mvc4-beta-release-notes
-title: "ASP.NET MVC 4 | Microsoft Docs"
+title: "ASP.NET MVC 4 Beta | Microsoft Docs"
 author: rick-anderson
 description: "This document describes the release of ASP.NET MVC 4 Beta for Visual Studio 2010."
 ms.author: riande
@@ -9,7 +9,7 @@ ms.assetid: 666407bb-81de-4319-89ba-0302c382a208
 msc.legacyurl: /whitepapers/mvc4-beta-release-notes
 msc.type: content
 ---
-# ASP.NET MVC 4
+# ASP.NET MVC 4 Beta
 
 > This document describes the release of ASP.NET MVC 4 Beta for Visual Studio 2010.
 > 

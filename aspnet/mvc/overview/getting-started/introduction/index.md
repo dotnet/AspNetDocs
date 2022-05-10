@@ -9,7 +9,7 @@ ms.assetid: 9afe7454-f1bd-4e81-8ecf-12fe54d080c1
 msc.legacyurl: /mvc/overview/getting-started/introduction
 msc.type: chapter
 ---
-# Getting Started with ASP.NET MVC 5
+# Getting Started with ASP.NET MVC 5 Index
 
 > Introduction to ASP.NET MVC 5
 

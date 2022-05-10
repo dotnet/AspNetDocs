@@ -21,11 +21,11 @@ In this section, you'll create a new `MoviesController` class and write code tha
 
 In Solution Explorer, right-click the *Controllers* folder and then click **Add**, then **Controller**.
 
-![](accessing-your-models-data-from-a-controller/_static/image1.png)
+![Screenshot that shows the Solution Explorer window. The right click menu from the Controllers folder is open and Add is selected. Controller is selected in the sub menu.](accessing-your-models-data-from-a-controller/_static/image1.png)
 
 In the **Add Scaffold** dialog box, click **MVC 5 Controller with views, using Entity Framework**, and then click **Add**.
 
-![](accessing-your-models-data-from-a-controller/_static/image2.png)
+![Screenshot that shows the Add Scaffold dialog box. M V C 5 Controller with views, using Entity Framework is selected.](accessing-your-models-data-from-a-controller/_static/image2.png)
 
 - Select **Movie (MvcMovie.Models)** for the Model class.
 - Select **MovieDBContext (MvcMovie.Models)** for the Data context class.
@@ -33,7 +33,7 @@ In the **Add Scaffold** dialog box, click **MVC 5 Controller with views, using E
 
   The image below shows the completed dialog.  
   
-![](accessing-your-models-data-from-a-controller/_static/image3.png)   
+![Screenshot that shows the Add Controller dialog box with class and name data inputted.](accessing-your-models-data-from-a-controller/_static/image3.png)   
 
 Click **Add**. (If you get an error, you probably didn't build the application before starting adding the controller.) Visual Studio creates the following files and folders:
 
@@ -45,20 +45,20 @@ Visual Studio automatically created the [CRUD](http://en.wikipedia.org/wiki/Crea
 
 Run the application and click on the **MVC Movie** link (or browse to the `Movies` controller by appending */Movies* to the URL in the address bar of your browser). Because the application is relying on the default routing (defined in the *App\_Start\RouteConfig.cs* file), the browser request `http://localhost:xxxxx/Movies` is routed to the default `Index` action method of the `Movies` controller. In other words, the browser request `http://localhost:xxxxx/Movies` is effectively the same as the browser request `http://localhost:xxxxx/Movies/Index`. The result is an empty list of movies, because you haven't added any yet.
 
-![](accessing-your-models-data-from-a-controller/_static/image4.png)
+![Screenshot that shows the M V C Movie Page with an empty Index list.](accessing-your-models-data-from-a-controller/_static/image4.png)
 
 ### Creating a Movie
 
 Select the **Create New** link. Enter some details about a movie and then click the **Create** button.
 
-![](accessing-your-models-data-from-a-controller/_static/image5.png)
+![Screenshot that shows the Create Movie page.](accessing-your-models-data-from-a-controller/_static/image5.png)
 
 > [!NOTE]
 > You may not be able to enter decimal points or commas in the Price field. To support jQuery validation for non-English locales that use a comma (&quot;,&quot;) for a decimal point, and non US-English date formats, you must include *globalize.js* and your specific *cultures/globalize.cultures.js* file(from [https://github.com/jquery/globalize](https://github.com/jquery/globalize) ) and JavaScript to use `Globalize.parseFloat`. I'll show how to do this in the next tutorial. For now, just enter whole numbers like 10.
 
 Clicking the **Create** button causes the form to be posted to the server, where the movie information is saved in the database. You're then redirected to the */Movies* URL, where you can see the newly created movie in the listing.
 
-![](accessing-your-models-data-from-a-controller/_static/image6.png)
+![Screenshot that shows the Index page with a new movie added.](accessing-your-models-data-from-a-controller/_static/image6.png)
 
 Create a couple more movie entries. Try the **Edit**, **Details**, and **Delete** links, which are all functional.
 
@@ -120,7 +120,7 @@ Because the `Model` object is strongly typed (as an `IEnumerable<Movie>` object)
 
 Entity Framework Code First detected that the database connection string that was provided pointed to a `Movies` database that didn't exist yet, so Code First created the database automatically. You can verify that it's been created by looking in the *App\_Data* folder. If you don't see the *Movies.mdf* file, click the **Show All Files** button in the **Solution Explorer** toolbar, click the **Refresh** button, and then expand the *App\_Data* folder.
 
-![](accessing-your-models-data-from-a-controller/_static/image9.png)
+![Screenshot that shows the Solution Explorer window. The App Data folder and the Movies dot m d f subfolder are circled in red.](accessing-your-models-data-from-a-controller/_static/image9.png)
 
 Double-click *Movies.mdf* to open **SERVER EXPLORER**, then expand the **Tables** folder to see the Movies table. Note the key icon next to ID. By default, EF will make a property named ID the primary key. For more information on EF and MVC, see Tom Dykstra's excellent tutorial on [MVC and EF](../getting-started-with-ef-using-mvc/creating-an-entity-framework-data-model-for-an-asp-net-mvc-application.md).
 
@@ -128,21 +128,21 @@ Double-click *Movies.mdf* to open **SERVER EXPLORER**, then expand the **Tables*
 
 Right-click the `Movies` table and select **Show Table Data** to see the data you created.
 
-![](accessing-your-models-data-from-a-controller/_static/image11.png) 
+![Screenshot that shows the Server Explorer window. The Movies right click menu is open. Show Table Data is selected and circled in red.](accessing-your-models-data-from-a-controller/_static/image11.png) 
 
-![](accessing-your-models-data-from-a-controller/_static/image12.png)
+![Screenshot that shows the M V C Movie Microsoft Visual Studio window. The d b o dot Movies Data tab is selected.](accessing-your-models-data-from-a-controller/_static/image12.png)
 
 Right-click the `Movies` table and select **Open Table Definition** to see the table structure that Entity Framework Code First created for you.
 
-![](accessing-your-models-data-from-a-controller/_static/image13.png)
+![Screenshot that shows the Server Explorer window. The Movies right click menu is open. Open Table Definition is selected and circled in red.](accessing-your-models-data-from-a-controller/_static/image13.png)
 
-![](accessing-your-models-data-from-a-controller/_static/image14.png)
+![Screenshot that shows the M V C Movie Microsoft Visual Studio window. The d b o dot Movies Design tab is selected. ](accessing-your-models-data-from-a-controller/_static/image14.png)
 
 Notice how the schema of the `Movies` table maps to the `Movie` class you created earlier. Entity Framework Code First automatically created this schema for you based on your `Movie` class.
 
 When you're finished, close the connection by right clicking *MovieDBContext* and selecting **Close Connection**. (If you don't close the connection, you might get an error the next time you run the project).
 
-![](accessing-your-models-data-from-a-controller/_static/image15.png "CloseConnection")
+![Screenshot that shows the Server Explorer window. The Movie D B Context right click menu is open. Close Connection is selected and circled in red.](accessing-your-models-data-from-a-controller/_static/image15.png "CloseConnection")
 
 You now have a database and pages to display, edit, update and delete data. In the next tutorial, we'll examine the rest of the scaffolded code and add a `SearchIndex` method and a `SearchIndex` view that lets you search for movies in this database. For more information on using Entity Framework with MVC, see [Creating an Entity Framework Data Model for an ASP.NET MVC Application](../getting-started-with-ef-using-mvc/creating-an-entity-framework-data-model-for-an-asp-net-mvc-application.md).
 

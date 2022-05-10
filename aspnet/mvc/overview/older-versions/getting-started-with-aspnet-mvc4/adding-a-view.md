@@ -9,7 +9,7 @@ ms.assetid: dde851d7-882e-4d99-9b96-cf96daed81cc
 msc.legacyurl: /mvc/overview/older-versions/getting-started-with-aspnet-mvc4/adding-a-view
 msc.type: authoredcontent
 ---
-# Adding a View
+# Adding a View (2012)
 
 by [Rick Anderson](https://twitter.com/RickAndMSFT)
 

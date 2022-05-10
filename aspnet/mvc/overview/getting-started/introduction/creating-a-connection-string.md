@@ -31,11 +31,11 @@ By default, the Entity Framework looks for a connection string named the same as
 
 Open the application root *Web.config* file shown below. (Not the *Web.config* file in the *Views* folder.)
 
-![](creating-a-connection-string/_static/image1.png)
+![Screenshot that shows the Solution Explorer window and Web dot config is selected and circled in red.](creating-a-connection-string/_static/image1.png)
 
 Find the `<connectionStrings>` element:
 
-![](creating-a-connection-string/_static/image2.png)
+![Screenshot that shows code and the connection string element is circled in red.](creating-a-connection-string/_static/image2.png)
 
 Add the following connection string to the `<connectionStrings>` element in the *Web.config* file.
 

@@ -1,6 +1,6 @@
 ---
 uid: mvc/overview/older-versions/getting-started-with-aspnet-mvc4/adding-a-controller
-title: "Adding a Controller | Microsoft Docs"
+title: "Adding a Controller (2012)| Microsoft Docs"
 author: Rick-Anderson
 description: "Note: An updated version of this tutorial is available here that uses ASP.NET MVC 5 and Visual Studio 2013. It's more secure, much simpler to follow and demo..."
 ms.author: riande
@@ -9,7 +9,7 @@ ms.assetid: 0267d31c-892f-49a1-9e7a-3ae8cc12b2ca
 msc.legacyurl: /mvc/overview/older-versions/getting-started-with-aspnet-mvc4/adding-a-controller
 msc.type: authoredcontent
 ---
-# Adding a Controller
+# Adding a Controller (2012)
 
 by [Rick Anderson](https://twitter.com/RickAndMSFT)
 
