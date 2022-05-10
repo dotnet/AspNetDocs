@@ -87,7 +87,7 @@ Next, open the code for the `ValuesController` API controller, which is defined 
 
 Now build and run the application again, and navigate to the help pages. The documentation strings should appear in the API table.
 
-![Screenshot of the A P I table in the help pages, showing the documentation string.](creating-api-help-pages/_static/image8.png)
+![Screenshot of the A P I table in the help pages, showing the documentation string in the A P I value and description.](creating-api-help-pages/_static/image8.png)
 
 The help page reads the strings from the XML file at run time. (When you deploy the application, make sure to deploy the XML file.)
 

@@ -32,7 +32,7 @@ See [Create a web API with ASP.NET Core and Visual Studio for Windows](/aspnet/c
 
 In this tutorial, you will use ASP.NET Web API to create a web API that returns a list of products. The front-end web page uses jQuery to display the results.
 
-![Screenshot of the localhost browser window, showing the sample project with a list of products, their prices, and a search by I D field and button.](tutorial-your-first-web-api/_static/image1.png)
+![Screenshot of the local host browser window, showing the sample project with a list of products, their prices, and a search by I D field and button.](tutorial-your-first-web-api/_static/image1.png)
 
 Start Visual Studio and select **New Project** from the **Start** page. Or, from the **File** menu, select **New** and then **Project**.
 
