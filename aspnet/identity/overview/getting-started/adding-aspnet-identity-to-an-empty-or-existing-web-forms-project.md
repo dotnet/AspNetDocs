@@ -23,10 +23,10 @@ msc.type: authoredcontent
 2. Select **New Project** from the Start page, or you can use the menu and select **File**, and then **New Project**.
 3. In the left pane, expand **Visual C#**, then select **Web**, then **ASP.NET Web Application (.Net Framework)**. Name your project "WebFormsIdentity" and select **OK**.
   
-    ![](adding-aspnet-identity-to-an-empty-or-existing-web-forms-project/_static/image17.png)
+    ![Image displaying new project creation](adding-aspnet-identity-to-an-empty-or-existing-web-forms-project/_static/image17.png)
 4. In the **New ASP.NET Project** dialog, select the **Empty** template.
   
-    ![](adding-aspnet-identity-to-an-empty-or-existing-web-forms-project/_static/image2.png)  
+    ![New A S P dot N E T project dialog window](adding-aspnet-identity-to-an-empty-or-existing-web-forms-project/_static/image2.png)  
   
    Notice the **Change Authentication** button is disabled and no authentication support is provided in this template. The Web Forms, MVC and Web API templates allow you to select the authentication approach.
 
@@ -34,7 +34,7 @@ msc.type: authoredcontent
 
 In Solution Explorer, right-click your project and select **Manage NuGet Packages**. Search for and install the **Microsoft.AspNet.Identity.EntityFramework** package. 
   
-![](adding-aspnet-identity-to-an-empty-or-existing-web-forms-project/_static/image15.png)
+![Image illustrating how to access manage Nu Get packages](adding-aspnet-identity-to-an-empty-or-existing-web-forms-project/_static/image15.png)
   
 Note that this package will install the dependency packages: **EntityFramework** and **Microsoft ASP.NET Identity Core**.
 
@@ -42,7 +42,7 @@ Note that this package will install the dependency packages: **EntityFramework**
 
 1. In **Solution Explorer**, right-click your project and select **Add**, and then **Web Form**.
   
-    ![](adding-aspnet-identity-to-an-empty-or-existing-web-forms-project/_static/image4.png)
+    ![Image showing how to add a web form to registered users](adding-aspnet-identity-to-an-empty-or-existing-web-forms-project/_static/image4.png)
 2. In the **Specify Name for Item** dialog box, name the new web form **Register**, and then select **OK**
 3. Replace the markup in the generated *Register.aspx* file with the code below. The code changes are highlighted. 
 
@@ -63,7 +63,7 @@ Note that this package will install the dependency packages: **EntityFramework**
     > 5. The *IdentityResult* class represents the result of an identity operation.
 5. In **Solution Explorer**, right-click your project and select **Add**, **Add ASP.NET Folder** and then **App\_Data**.
   
-    ![](adding-aspnet-identity-to-an-empty-or-existing-web-forms-project/_static/image5.png)
+    ![Illustration of how to add app data](adding-aspnet-identity-to-an-empty-or-existing-web-forms-project/_static/image5.png)
 6. Open the *Web.config* file and add a connection string entry for the database we will use to store user information. The database will be created at runtime by EntityFramework for the Identity entities. The connection string is similar to one created for you when you create a new Web Forms project. The highlighted code shows the markup you should add:
 
     [!code-xml[Main](adding-aspnet-identity-to-an-empty-or-existing-web-forms-project/samples/sample3.xml?highlight=11-14)]
@@ -73,7 +73,7 @@ Note that this package will install the dependency packages: **EntityFramework**
     
 7. Right click file *Register.aspx* in your project and select **Set as Start Page**. Press Ctrl + F5 to build and run the web application. Enter a new user name and password and then select **Register**.
   
-    ![](adding-aspnet-identity-to-an-empty-or-existing-web-forms-project/_static/image6.png)  
+    ![Image successful new user registration](adding-aspnet-identity-to-an-empty-or-existing-web-forms-project/_static/image6.png)  
 
     > [!NOTE]
     > ASP.NET Identity has support for validation and in this sample you can verify the default behavior on User and Password validators that come from the Identity Core package. The default validator for User (`UserValidator`) has a property `AllowOnlyAlphanumericUserNames` that has default value set to `true`. The default validator for Password (`MinimumLengthValidator`) ensures that password has at least 6 characters. These validators are properties on `UserManager` that can be overridden if you want to have custom validation,
@@ -82,11 +82,11 @@ Note that this package will install the dependency packages: **EntityFramework**
 
 1. In the **View** menu, select **Server Explorer**.
   
-    ![](adding-aspnet-identity-to-an-empty-or-existing-web-forms-project/_static/image7.png)
+    ![Image of how to access server explorer](adding-aspnet-identity-to-an-empty-or-existing-web-forms-project/_static/image7.png)
 2. Expand **DefaultConnection (WebFormsIdentity)**, expand **Tables**, right-click **AspNetUsers** and then select **Show Table Data**.
   
-    ![](adding-aspnet-identity-to-an-empty-or-existing-web-forms-project/_static/image8.png)  
-    ![](adding-aspnet-identity-to-an-empty-or-existing-web-forms-project/_static/image9.png)
+    ![Image of how to access show table data](adding-aspnet-identity-to-an-empty-or-existing-web-forms-project/_static/image8.png)  
+    ![Image displaying table data of registered users](adding-aspnet-identity-to-an-empty-or-existing-web-forms-project/_static/image9.png)
 
 ## Configure the application for OWIN authentication
 
@@ -96,7 +96,7 @@ At this point we have only added support for creating users. Now, we are going t
 
 1. In Solution Explorer, right-click your project and select **Manage NuGet Packages**. Search for and install the ***Microsoft.AspNet.Identity.Owin*** package. 
   
-    ![](adding-aspnet-identity-to-an-empty-or-existing-web-forms-project/_static/image16.png)
+    ![Image of Nu Get package manager](adding-aspnet-identity-to-an-empty-or-existing-web-forms-project/_static/image16.png)
 
 2. Search for and install the ***Microsoft.Owin.Host.SystemWeb*** package.
 
@@ -108,7 +108,7 @@ At this point we have only added support for creating users. Now, we are going t
 
 1. In **Solution Explorer**, right-click your project, select **Add**, and then **Add New Item**. In the search text box dialog, type "*owin*". Name the class "*Startup*" and select **Add**. 
   
-    ![](adding-aspnet-identity-to-an-empty-or-existing-web-forms-project/_static/image11.png)
+    ![Image of add new item window](adding-aspnet-identity-to-an-empty-or-existing-web-forms-project/_static/image11.png)
 2. In the Startup.cs file, add the highlighted code shown below to configure OWIN cookie authentication.
 
     [!code-csharp[Main](adding-aspnet-identity-to-an-empty-or-existing-web-forms-project/samples/sample4.cs?highlight=1,3,15-19)]
@@ -128,7 +128,7 @@ At this point we have only added support for creating users. Now, we are going t
     > - You can sign in the user by using the AuthenticationManager from OWIN and calling `SignIn` and passing in the ClaimsIdentity as shown above. This code will sign in the user and generate a cookie as well. This call is analogous to [FormAuthentication.SetAuthCookie](https://msdn.microsoft.com/library/system.web.security.formsauthentication.setauthcookie.aspx) used by the [FormsAuthentication](https://msdn.microsoft.com/library/system.web.security.formsauthenticationmodule.aspx) module.
 2. In **Solution Explorer**, right-click your project, select **Add**, and then **Web Form**. Name the web form **Login**.
   
-    ![](adding-aspnet-identity-to-an-empty-or-existing-web-forms-project/_static/image12.png)
+    ![Image adding a new web form](adding-aspnet-identity-to-an-empty-or-existing-web-forms-project/_static/image12.png)
 3. Replace the contents of the *Login.aspx* file with the following code:
 
     [!code-aspx[Main](adding-aspnet-identity-to-an-empty-or-existing-web-forms-project/samples/sample6.aspx)]
@@ -151,10 +151,10 @@ At this point we have only added support for creating users. Now, we are going t
     >  Gets a reference to the `AuthenticationManager` from OWIN and calls `SignOut`. This is analogous to [FormsAuthentication.SignOut](https://msdn.microsoft.com/library/system.web.security.formsauthentication.signout.aspx) method used by the [FormsAuthentication](https://msdn.microsoft.com/library/system.web.security.formsauthenticationmodule.aspx) module.
 5. Press **Ctrl + F5** to build and run the web application. Enter a new user name and password and then select **Register**.
   
-    ![](adding-aspnet-identity-to-an-empty-or-existing-web-forms-project/_static/image13.png)  
+    ![Image of new usr registration](adding-aspnet-identity-to-an-empty-or-existing-web-forms-project/_static/image13.png)  
    Note: At this point, the new user is created and logged in.
 6. Select the **Log out** button. You are redirected to the Log in form.
 7. Enter an invalid user name or password and select the **Log in** button. 
    The `UserManager.Find`  method will return null and the error message: " *Invalid user name or password* " will be displayed.
   
-    ![](adding-aspnet-identity-to-an-empty-or-existing-web-forms-project/_static/image14.png)
+    ![Image of invalid login attempt](adding-aspnet-identity-to-an-empty-or-existing-web-forms-project/_static/image14.png)

@@ -21,7 +21,7 @@ In this section we are going to create a new SQL Express database that we'll use
 
 In the Choose Data Source dialog, select Microsoft SQL Server and select Continue.
 
-![](getting-started-with-mvc-part4/_static/image2.png)
+![Image of Server Explorer Data Connection](getting-started-with-mvc-part4/_static/image2.png)
 
 In the Add Connection dialog, enter ".\SQLEXPRESS" for your Server Name, and enter "Movies" as the name for your new database.
 

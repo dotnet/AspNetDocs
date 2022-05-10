@@ -2,7 +2,7 @@
 uid: signalr/overview/advanced/dependency-injection
 title: "Dependency Injection in SignalR | Microsoft Docs"
 author: bradygaster
-description: "Software versions used in this topic Visual Studio 2013 .NET 4.5 SignalR version 2 Previous versions of this topic For information about earlier versions of..."
+description: Provides on overview of Dependecy Injection in SignalR and provides a description of Dependency Injections.
 ms.author: bradyg
 ms.date: 06/10/2014
 ms.assetid: a14121ae-02cf-4024-8af0-9dd0dc810690
@@ -112,11 +112,11 @@ Next, we can refactor the code by creating an interface for `StockTicker`. We'll
 
 Visual Studio makes this kind of refactoring easy. Open the file StockTicker.cs, right-click on the `StockTicker` class declaration, and select **Refactor** ... **Extract Interface**.
 
-![](dependency-injection/_static/image1.png)
+![Screenshot of the right-click dropdown menu over Visual Studio code with the Refractor and Extract Interface options being highlighted.](dependency-injection/_static/image1.png)
 
 In the **Extract Interface** dialog, click **Select All**. Leave the other defaults. Click **OK**.
 
-![](dependency-injection/_static/image2.png)
+![Screenshot of the Extract Interface dialog with the Select All option being highlighted, with all the available options being selected.](dependency-injection/_static/image2.png)
 
 Visual Studio creates a new interface named `IStockTicker`, and also changes `StockTicker` to derive from `IStockTicker`.
 
@@ -189,6 +189,6 @@ Here is the complete code listing for `Startup.Configuration`.
 
 To run the StockTicker application in Visual Studio, press F5. In the browser window, navigate to `http://localhost:*port*/SignalR.Sample/StockTicker.html`.
 
-![](dependency-injection/_static/image3.png)
+![Screenshot of an Internet Explorer browser window, displaying the A S P dot NET Signal R Stock Ticker Sample webpage.](dependency-injection/_static/image3.png)
 
 The application has exactly the same functionality as before. (For a description, see [Server Broadcast with ASP.NET SignalR](../getting-started/tutorial-server-broadcast-with-signalr.md).) We haven't changed the behavior; just made the code easier to test, maintain, and evolve.

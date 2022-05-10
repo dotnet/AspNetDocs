@@ -2,7 +2,7 @@
 uid: mvc/overview/older-versions/mvc-music-store/mvc-music-store-part-6
 title: "Part 6: Using Data Annotations for Model Validation | Microsoft Docs"
 author: jongalloway
-description: "This tutorial series details all of the steps taken to build the ASP.NET MVC Music Store sample application. Part 6 covers Using Data Annotations for Model V..."
+description: This tutorial series details all of the steps taken to build the ASP.NET MVC Music Store sample application. Part 6 covers Using Data Annotations for Model V...
 ms.author: riande
 ms.date: 04/21/2011
 ms.assetid: b3193d33-2d0b-4d98-9712-58bd897c62ec
@@ -50,11 +50,11 @@ While we're there, we've also changed the Genre and Artist to virtual properties
 
 After having added these attributes to our Album model, our Create and Edit screen immediately begin validating fields and using the Display Names we've chosen (e.g. Album Art Url instead of AlbumArtUrl). Run the application and browse to /StoreManager/Create.
 
-![](mvc-music-store-part-6/_static/image1.png)
+![Screenshot of the Create form showing the Genre and Artist dropdowns and the Title, Price, and Album Art U R L fields.](mvc-music-store-part-6/_static/image1.png)
 
 Next, we'll break some validation rules. Enter a price of 0 and leave the Title blank. When we click on the Create button, we will see the form displayed with validation error messages showing which fields did not meet the validation rules we have defined.
 
-![](mvc-music-store-part-6/_static/image2.png)
+![Screenshot of the Create form showing the Title and Price fields in red due to errors in input and accompanying red error.](mvc-music-store-part-6/_static/image2.png)
 
 ## Testing the Client-Side Validation
 
@@ -68,7 +68,7 @@ Fortunately, the ASP.NET MVC 3 scaffold templates have client-side validation bu
 
 Typing a single letter in the Title field satisfies the validation requirements, so the validation message is immediately removed.
 
-![](mvc-music-store-part-6/_static/image3.png)
+![Screenshot of the Create form showing the Price field in red due to an error in input and accompanying red error text.](mvc-music-store-part-6/_static/image3.png)
 
 > [!div class="step-by-step"]
 > [Previous](mvc-music-store-part-5.md)

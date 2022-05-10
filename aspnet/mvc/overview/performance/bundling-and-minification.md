@@ -21,7 +21,7 @@ Most of the current major browsers limit the number of [simultaneous connections
 
 The gray bars show the time the request is queued by the browser waiting on the six connection limit. The yellow bar is the request time to first byte, that is, the time taken to send the request and receive the first response from the server. The blue bars show the time taken to receive the response data from the server. You can double-click on an asset to get detailed timing information. For example, the following image shows the timing details for loading the */Scripts/MyScripts/JavaScript6.js* file.
 
-![](bundling-and-minification/_static/image2.png)
+![Screenshot that shows the A S P dot NET developer tools network tab with asset request URLs on the left column and their timings on the right column.](bundling-and-minification/_static/image2.png)
 
 The preceding image shows the **Start** event, which gives the time the request was queued because of the browser limit the number of simultaneous connections. In this case, the request was queued for 46 milliseconds waiting for another request to complete.
 
@@ -31,7 +31,7 @@ Bundling is a new feature in ASP.NET 4.5 that makes it easy to combine or bundle
 
 The following image shows the same timing view of the About view shown previously, but this time with bundling and minification enabled.
 
-![](bundling-and-minification/_static/image3.png)
+![Screenshot that shows an asset's timing details tab on the I E F 12 developer tools. The Start event is highlighted.](bundling-and-minification/_static/image3.png)
 
 ## Minification
 
@@ -70,10 +70,10 @@ It's easy to debug your JavaScript in a development environment (where the [comp
 
 1. Select the **Script** tab and then select the **Start debugging** button.
 2. Select the bundle containing the JavaScript function you want to debug using the assets button.  
-    ![](bundling-and-minification/_static/image4.png)
-3. Format the minified JavaScript by selecting the **Configuration button** ![](bundling-and-minification/_static/image5.png), and then selecting **Format JavaScript**.
+    ![Screenshot that shows the I E F 12 developer tool's Script tab. The Search Script input box, a bundle, and a Java Script function are highlighted.](bundling-and-minification/_static/image4.png)
+3. Format the minified JavaScript by selecting the **Configuration button** ![Image that shows the Configuration button icon.](bundling-and-minification/_static/image5.png), and then selecting **Format JavaScript**.
 4. In the **Search Script** input box, select the name of the function you want to debug. In the following image, **AddAltToImg** was entered in the **Search Script** input box.  
-    ![](bundling-and-minification/_static/image6.png)
+    ![Screenshot that shows the I E F 12 developer tool's Script tab. The Search Script input box with Add Alt To lmg entered in it is highlighted.](bundling-and-minification/_static/image6.png)
 
 For more information on debugging with the F12 developer tools, see the MSDN article [Using the F12 Developer Tools to Debug JavaScript Errors](https://msdn.microsoft.com/library/ie/gg699336(v=vs.85).aspx).
 

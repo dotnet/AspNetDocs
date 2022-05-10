@@ -1,8 +1,8 @@
 ---
 uid: web-api/overview/data/using-web-api-with-entity-framework/part-2
-title: "Add Models and Controllers | Microsoft Docs"
-author: MikeWasson
-description: ""
+title: Add Models and Controllers | Microsoft Docs
+author: Rick-Anderson
+description: Describes how to add model classes that define database entries and how to add Web API controllers that perform CRUD operations.
 ms.author: riande
 ms.date: 06/16/2014
 ms.assetid: 88908ff8-51a9-40eb-931c-a8139128b680
@@ -26,7 +26,7 @@ We start by defining our domain objects as POCOs (plain-old CLR objects). We wil
 
 In Solution Explorer, right click the Models folder. Select **Add**, then select **Class**. Name the class `Author`.
 
-![](part-2/_static/image1.png)
+![Screenshot of the Solution Explorer folder showing the Models folder highlighted in blue and the Add and Class menu items highlighted in yellow.](part-2/_static/image1.png)
 
 Replace all of the boilerplate code in Author.cs with the following code.
 
@@ -46,17 +46,17 @@ In this section, we'll add Web API controllers that support CRUD operations (cre
 
 First, you can delete the file Controllers/ValuesController.cs. This file contains an example Web API controller, but you don't need it for this tutorial.
 
-![](part-2/_static/image2.png)
+![Screenshot of the Solution Explorer window showing with the Values Controllers dot c s file highlighted in red indicating it must be deleted.](part-2/_static/image2.png)
 
 Next, build the project. The Web API scaffolding uses reflection to find the model classes, so it needs the compiled assembly.
 
 In Solution Explorer, right-click the Controllers folder. Select **Add**, then select **Controller**.
 
-![](part-2/_static/image3.png)
+![Screenshot of the Solution Explorer window with the Controllers folder and the Add and Controller menu items highlighted in blue and yellow.](part-2/_static/image3.png)
 
 In the **Add Scaffold** dialog, select "Web API 2 Controller with actions, using Entity Framework". Click **Add**.
 
-![](part-2/_static/image4.png)
+![Screenshot of the Add Scaffold dialog showing the Web A P I 2 Controller with actions using Entity Framework option highlighted in blue.](part-2/_static/image4.png)
 
 In the **Add Controller** dialog, do the following:
 
@@ -65,22 +65,22 @@ In the **Add Controller** dialog, do the following:
 3. Leave the controller name as &quot;AuthorsController&quot;.
 4. Click plus (+) button next to **Data Context Class**.
 
-![](part-2/_static/image5.png)
+![Screenshot of the Add Controller dialog showing the plus button circled in red and the Author class selected in the Model class dropdown.](part-2/_static/image5.png)
 
 In the **New Data Context** dialog, leave the default name and click **Add**.
 
-![](part-2/_static/image6.png)
+![Screenshot of the New Data Context dialog showing the default name in the New data context type field.](part-2/_static/image6.png)
 
 Click **Add** to complete the **Add Controller** dialog. The dialog adds two classes to your project:
 
 - `AuthorsController` defines a Web API controller. The controller implements the REST API that clients use to perform CRUD operations on the list of authors.
 - `BookServiceContext` manages entity objects during run time, which includes populating objects with data from a database, change tracking, and persisting data to the database. It inherits from `DbContext`.
 
-![](part-2/_static/image7.png)
+![Screenshot of the Solution Explorer window with the Authors Controller dot c s file and the Book Service Context dot c s file circled in red.](part-2/_static/image7.png)
 
 At this point, build the project again. Now go through the same steps to add an API controller for `Book` entities. This time, select `Book` for the model class, and select the existing `BookServiceContext` class for the data context class. (Don't create a new data context.) Click **Add** to add the controller.
 
-![](part-2/_static/image8.png)
+![Screenshot of the Add Controller window with the Book model class selected in the Model class dropdown menu.](part-2/_static/image8.png)
 
 > [!div class="step-by-step"]
 > [Previous](part-1.md)

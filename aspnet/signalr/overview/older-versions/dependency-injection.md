@@ -1,8 +1,8 @@
 ---
 uid: signalr/overview/older-versions/dependency-injection
-title: "Dependency Injection in SignalR 1.x | Microsoft Docs"
+title: Dependency Injection in SignalR 1.x | Microsoft Docs
 author: bradygaster
-description: ""
+description: Describes the Dependency Injection in SignalR 1.x and outlines what a Dependency Injection is and provides information on Ninject Libraries.
 ms.author: bradyg
 ms.date: 05/15/2013
 ms.assetid: eaa206c4-edb3-487e-8fcb-54a3261fed36
@@ -95,11 +95,11 @@ Next, we can refactor the code by creating an interface for `StockTicker`. We'll
 
 Visual Studio makes this kind of refactoring easy. Open the file StockTicker.cs, right-click on the `StockTicker` class declaration, and select **Refactor** ... **Extract Interface**.
 
-![](dependency-injection/_static/image1.png)
+![Screenshot of the right-click dropdown menu displaying over Visual Studio Code, with the Refactor and Extract Interface options being highlighted.](dependency-injection/_static/image1.png)
 
 In the **Extract Interface** dialog, click **Select All**. Leave the other defaults. Click **OK**.
 
-![](dependency-injection/_static/image2.png)
+![Screenshot of the Extract Interface dialog with the Select All option being highlighted and O K option being displayed.](dependency-injection/_static/image2.png)
 
 Visual Studio creates a new interface named `IStockTicker`, and also changes `StockTicker` to derive from `IStockTicker`.
 
@@ -168,6 +168,6 @@ Here is the complete code listing for `RegisterHubs.Start`.
 
 To run the StockTicker application in Visual Studio, press F5. In the browser window, navigate to `http://localhost:*port*/SignalR.Sample/StockTicker.html`.
 
-![](dependency-injection/_static/image3.png)
+![Screenshot of the A S P dot NET Signal R Stock Ticker Sample screen displaying in an Internet Explorer browser window.](dependency-injection/_static/image3.png)
 
 The application has exactly the same functionality as before. (For a description, see [Server Broadcast with ASP.NET SignalR](index.md).) We haven't changed the behavior; just made the code easier to test, maintain, and evolve.

@@ -1,8 +1,8 @@
 ---
 uid: web-api/overview/advanced/sending-html-form-data-part-1
 title: "Sending HTML Form Data in ASP.NET Web API: Form-urlencoded Data - ASP.NET 4.x"
-author: MikeWasson
-description: "This article shows how to post form-urlencoded data to a Web API controller with ASP.NET 4.x"
+author: Rick-Anderson
+description: This article shows how to post form-urlencoded data to a Web API controller with ASP.NET 4.x
 ms.author: riande
 ms.date: 06/15/2012
 ms.custom: seoapril2019
@@ -60,7 +60,7 @@ Now let's write an HTML form for users to submit a status update.
 
 Notice that the **action** attribute on the form is the URI of our controller action. Here is the form with some values entered in:
 
-![](sending-html-form-data-part-1/_static/image1.png)
+![Screenshot of the Complex Type H T M L form with a Status field and a Date field filled in with values.](sending-html-form-data-part-1/_static/image1.png)
 
 When the user clicks Submit, the browser sends an HTTP request similar to the following:
 
@@ -81,7 +81,7 @@ The jQuery **submit** function replaces the form action with a new function. Thi
 
 When the request completes, the `.success()` or `.error()` handler displays an appropriate message to the user.
 
-![](sending-html-form-data-part-1/_static/image2.png)
+![Screenshot of the Complex Type H T M L form with a local host error displayed in bold text to the user.](sending-html-form-data-part-1/_static/image2.png)
 
 <a id="sending_simple_types"></a>
 ## Sending Simple Types
