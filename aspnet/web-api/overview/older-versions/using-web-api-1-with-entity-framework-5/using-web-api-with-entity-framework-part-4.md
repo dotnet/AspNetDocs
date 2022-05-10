@@ -27,11 +27,11 @@ The **HttpRouteUrl** method creates the URI to the web API, and we store this in
 
 Next, position the text cursor within the `Admin` action method, then right-click and select **Add View**. This will bring up the **Add View** dialog.
 
-![Screenshot of admin view menu. Add view and its keyboard shortcut Ctrl+M Ctrl+V are highlighted.](using-web-api-with-entity-framework-part-4/_static/image1.png)
+![Screenshot of admin view menu. Add view and its keyboard shortcut Ctrl + M Ctrl + V are highlighted.](using-web-api-with-entity-framework-part-4/_static/image1.png)
 
 In the **Add View** dialog, name the view "Admin". Select the check box labeled **Create a strongly-typed view**. Under **Model Class**, select "Product (ProductStore.Models)". Leave all the other options as their default values.
 
-![Screenshot of the add view dialogue box. Model class text is highlighted and reads Product (ProductStore.Models).](using-web-api-with-entity-framework-part-4/_static/image2.png)
+![Screenshot of the add view dialogue box.](using-web-api-with-entity-framework-part-4/_static/image2.png)
 
 Clicking **Add** adds a file named Admin.cshtml under Views/Home. Open this file and add the following HTML. This HTML defines the structure of the page, but no functionality is wired up yet.
 

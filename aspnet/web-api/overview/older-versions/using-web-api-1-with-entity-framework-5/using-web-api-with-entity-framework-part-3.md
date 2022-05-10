@@ -2,7 +2,7 @@
 uid: web-api/overview/older-versions/using-web-api-1-with-entity-framework-5/using-web-api-with-entity-framework-part-3
 title: "Part 3: Creating an Admin Controller | Microsoft Docs"
 author: Rick-Anderson
-description: "In this section, we'll add a Web API controller that supports CRUD (create, read, update, and delete) operations on products. "
+description: "Learn how to add a Web API controller that supports CRUD (create, read, update, and delete) operations on products."
 ms.author: riande
 ms.date: 07/04/2012
 ms.assetid: 6b9ae3c4-0274-4170-a1bb-9df9c546b2a9
@@ -32,7 +32,7 @@ In the **Add Controller** dialog, name the controller `AdminController`. Under *
 
 Selecting "&lt;New Data Context&gt;" will open the **New Data Context** dialog. Name the data context `ProductStore.Models.OrdersContext`.
 
-![Screenshot of the new data context dialogue box. A textbox shows the name of the new data context typed in.](using-web-api-with-entity-framework-part-3/_static/image3.png)
+![Screenshot of the new data context dialog. A textbox shows the name of the new data context typed in.](using-web-api-with-entity-framework-part-3/_static/image3.png)
 
 Click **OK** to dismiss the **New Data Context** dialog. In the **Add Controller** dialog, click **Add**.
 
