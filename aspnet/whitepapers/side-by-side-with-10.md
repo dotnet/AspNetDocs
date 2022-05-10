@@ -46,13 +46,13 @@ To prevent the automatic remapping of the entire ASP.NET application to the newe
 3. Type **cmd**.
 4. Click **OK**.  
   
-    ![](side-by-side-with-10/_static/image1.gif)
+    ![Screenshot that shows to prevent total remapping of ASP.NET application to newer version, go to 1. Start, 2. Click on Run, 3. Type "cmd" in the dialog box and 4. Click "OK."](side-by-side-with-10/_static/image1.gif)
 5. From the command prompt, type the following line to start the installation of the .NET Framework: **Dotnetfx.exe /c:"install /noaspupgrade?**.  
   
-    ![](side-by-side-with-10/_static/image2.gif)
+    ![Screenshot that shows from the command prompt, type the following line to start the installation of the .NET Framework: Dotnetfx.exe /c:"install /noaspupgrade?](side-by-side-with-10/_static/image2.gif)
 6. Click **Yes** in the Microsoft .NET Framework 1.1 Setup. This will start the setup process of the .NET Framework 1.1.  
   
-    ![](side-by-side-with-10/_static/image3.gif)
+    ![Screenshot that shows Click Yes in the Microsoft .NET Framework 1.1 Setup. This will start the setup process of the .NET Framework 1.1.](side-by-side-with-10/_static/image3.gif)
 
 <a id="2"></a>
 
@@ -75,17 +75,17 @@ The Aspnet\_regiis.exe provides two options for script mapping a Web application
 
 The path defines the Web application IIS metadata path, which is defined in the form of W3SVC/ROOT/{WebSiteNumber}/{Application\_Name}. For example, for a Web application called Portal located under the default Web site, the metabase path is W3SVC/1/ROOT/Portal.
 
-![](side-by-side-with-10/_static/image4.gif)
+![Screenshot that shows a Web application called Portal located under the default Web site, and the metabase path is W 3 S V C slash 1 slash ROOT slash Portal.](side-by-side-with-10/_static/image4.gif)
 
-Note You can also use a tool called the Metabase Editor to get the metabase path. You can download this tool from the Microsoft Support site at [https://support.microsoft.com/default.aspx?scid=kb;en-us;232068.](https://support.microsoft.com/default.aspx?scid=kb;en-us;232068)
+Note You can also use a tool called the Metabase Editor to get the metabase path. You can download this tool from the Microsoft Support site at [https://support.microsoft.com/default.a s p x ?scid=kb;en-us;232068.](https://support.microsoft.com/default.aspx?scid=kb;en-us;232068)
 
 - Run Aspnet\_regiis.exe -s W3SVC/1/ROOT/Portal to update the portal IIS script map and its subapplication.  
   
-    ![](side-by-side-with-10/_static/image5.gif)
+    ![Screenshot that shows to run Aspnet\_regiis.exe -s W 3 S V C slash 1 slash ROOT slash Portal to update the portal I I S script map and its subapplication.](side-by-side-with-10/_static/image5.gif)
 
 - Run Aspnet\_regiis.exe -sn W3SVC/1/ROOT/Portal to update the portal IIS script map, without affecting applications in the portal?s subdirectories.  
   
-    ![](side-by-side-with-10/_static/image6.gif)
+    ![Screenshot that shows to Run Aspnet\_regiis.exe -sn W 3 S V C slash 1 slash ROOT slash Portal to update the portal I I S script map, without affecting applications in the portal's subdirectories.](side-by-side-with-10/_static/image6.gif)
 
 <a id="3"></a>
 
@@ -99,19 +99,19 @@ An administrator can use the Internet Service Manager to find which version of t
 2. Click on **run**.
 3. Type **inetmgr**.  
   
-    ![](side-by-side-with-10/_static/image7.gif)
+    ![Screenshot that shows to start Internet Service Manager 1. Go to Start, 2. Click on run, and 3. Type inetmgr. Then click OK.](side-by-side-with-10/_static/image7.gif)
 4. From the Internet Service Manager, select the Web application whose version of the .NET Framework you want to know.  
   
-    ![](side-by-side-with-10/_static/image8.gif)
+    ![Screenshot that shows from the Internet Service Manager, select the Web application whose version of the .NET Framework you want to know. Here, Portal is selected.](side-by-side-with-10/_static/image8.gif)
 5. Right-click on the Web application, and click on **Properties.**  
   
-    ![](side-by-side-with-10/_static/image9.gif)
+    ![Screenshot that shows to right-click on the Web application, and click on Properties.](side-by-side-with-10/_static/image9.gif)
 6. From the Property window, select **Configuration.**  
   
-    ![](side-by-side-with-10/_static/image10.gif)
+    ![Screenshot that shows from the Property window, select Configuration.](side-by-side-with-10/_static/image10.gif)
 7. From the application mapping table, select **.aspx**, and click **Edit**.  
   
-    ![](side-by-side-with-10/_static/image11.gif)
+    ![Screenshot that shows from the application mapping table, select .a s p x, and click Edit.](side-by-side-with-10/_static/image11.gif)
 8. From the **Executable** text box, look at the version directory by scrolling. If the version directory is v.1.1.4322, the application is mapped to .NET Framework 1.1. Conversely, if the version directory is v1.0.3705, the application is mapped to .NET Framework 1.0.  
   
-    ![](side-by-side-with-10/_static/image12.gif)
+    ![Screenshot that shows the Executable text box and the version directory v . 1 .1 . 4 3 2 2 from scrolling, which is mapped to a .NET Framework 1.1.](side-by-side-with-10/_static/image12.gif)

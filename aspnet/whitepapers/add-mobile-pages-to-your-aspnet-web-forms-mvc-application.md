@@ -125,7 +125,7 @@ The great news for .NET developers is that ASP.NET's browser detection feature i
 
 By default, here's how a brand new Web Forms application displays on common mobile devices:
 
-![](add-mobile-pages-to-your-aspnet-web-forms-mvc-application/_static/image1.png)
+![Screenshot of two Web Forms applications as displayed on Windows Phone 7 and Opera Mobile.](add-mobile-pages-to-your-aspnet-web-forms-mvc-application/_static/image1.png)
 
 Clearly, neither layout looks very mobile-friendly – this page was designed for a large, landscape-oriented monitor, not for a small portrait-oriented screen. So what can you do about it?
 
@@ -194,7 +194,7 @@ This will ensure that mobile visitors to the page don't receive output previousl
 
 To see these techniques in action, download [this white paper's code samples](/aspnet/mobile/overview). The Web Forms sample application automatically redirects mobile users to a set of mobile-specific pages in a subfolder called Mobile. The markup and styling of those pages is better optimized for mobile browsers, as you can see from the following screenshots:
 
-![](add-mobile-pages-to-your-aspnet-web-forms-mvc-application/_static/image2.png)
+![Screenshot of two mobile Web Forms applications as displayed on Windows Phone 7 and Opera Mobile.](add-mobile-pages-to-your-aspnet-web-forms-mvc-application/_static/image2.png)
 
 For more tips about optimizing your markup and CSS for mobile browsers, see the section "Styling mobile pages for mobile browsers" later in this document.
 

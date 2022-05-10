@@ -2,7 +2,7 @@
 uid: web-forms/overview/ajax-control-toolkit/popup/handling-postbacks-from-a-popup-control-without-an-updatepanel-cs
 title: "Handling Postbacks from A Popup Control Without an UpdatePanel (C#) | Microsoft Docs"
 author: wenz
-description: "The PopupControl extender in the AJAX Control Toolkit offers an easy way to trigger a popup when any other control is activated. When a postback occurs in su..."
+description: "The PopupControl extender in the AJAX Control Toolkit offers an easy way to trigger a popup when any other control is activated (C#)."
 ms.author: riande
 ms.date: 06/02/2008
 ms.assetid: 25444121-5a72-4dac-8e50-ad2b7ac667af
@@ -37,7 +37,7 @@ When the page is loaded, JavaScript code adds an event handler to both text boxe
 
 [!code-html[Main](handling-postbacks-from-a-popup-control-without-an-updatepanel-cs/samples/sample3.html)]
 
-In the server-side code, the value of the hidden field must be read. Since hidden form fields are trivial to manipulate, a whitelist approach to validate the hidden value is required. Once the correct text box has been identified, the date from the calendar is written into it.
+In the server-side code, the value of the hidden field must be read. Since hidden form fields are trivial to manipulate, a safelist approach to validate the hidden value is required. Once the correct text box has been identified, the date from the calendar is written into it.
 
 [!code-aspx[Main](handling-postbacks-from-a-popup-control-without-an-updatepanel-cs/samples/sample4.aspx)]
 

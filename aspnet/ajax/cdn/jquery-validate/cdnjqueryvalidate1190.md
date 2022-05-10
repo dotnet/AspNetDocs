@@ -1,13 +1,13 @@
 ---
 uid: ajax/cdn/jquery-validate/cdnjqueryvalidate1190
-title: "jQuery Validation 1.19.0 | Microsoft Docs"
+title: "Validation for jQuery 1.19.0 | Microsoft Docs"
 author: guardrex
-description: ""
+description: "Information and helpful links for working with jQuery validation"
 ms.author: csfanos
 ms.date: 01/10/2019
 msc.type: content
 ---
-# jQuery Validation 1.19.0
+# Validation for jQuery  1.19.0
 
 The following files are hosted on the CDN:
 
