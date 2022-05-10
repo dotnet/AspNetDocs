@@ -1,7 +1,7 @@
 ---
 uid: aspnet/overview/owin-and-katana/enabling-windows-authentication-in-katana
 title: "Enabling Windows Authentication in Katana | Microsoft Docs"
-author: MikeWasson
+author: rick-anderson
 description: "This article shows how to enable Windows Authentication in Katana. It covers two scenarios: Using IIS to host Katana, and using HttpListener to self-host Kat..."
 ms.author: riande
 ms.date: 07/30/2013
@@ -33,7 +33,7 @@ Using Microsoft.Owin.Host.SystemWeb, you can simply enable Windows Authenticatio
 
 Let's start by creating a new ASP.NET application, using the "ASP.NET Empty Web Application" project template.
 
-![](enabling-windows-authentication-in-katana/_static/image1.png)
+![Example illustration](enabling-windows-authentication-in-katana/_static/image1.png)
 
 Next, add NuGet packages. From the **Tools** menu, select **NuGet Package Manager**, then select **Package Manager Console**. In the Package Manager Console window, enter the following command:
 
@@ -45,13 +45,13 @@ Now add a class named `Startup` with the following code:
 
 That's all you need to create a "Hello world" application for OWIN, running on IIS. Press F5 to debug the application. You should see "Hello World!" in the browser window.
 
-![](enabling-windows-authentication-in-katana/_static/image2.png)
+![Illustration example](enabling-windows-authentication-in-katana/_static/image2.png)
 
 Next, we'll enable Windows Authentication in IIS Express. From the **View** menu, select **Properties**. Click on the project name in Solution Explorer to view the project properties.
 
 In the **Properties** window, set **Anonymous Authentication** to **Disabled** and set **Windows Authentication** to **Enabled**.
 
-![](enabling-windows-authentication-in-katana/_static/image3.png)
+![Enabling authentication, illustration example](enabling-windows-authentication-in-katana/_static/image3.png)
 
 When you run the application from Visual Studio, IIS Express will require the user's Windows credentials. You can see this by using [Fiddler](http://fiddler2.com/home) or another HTTP debugging tool. Here is an example HTTP response:
 

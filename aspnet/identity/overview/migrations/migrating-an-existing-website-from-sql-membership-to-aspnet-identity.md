@@ -44,6 +44,7 @@ For this tutorial, we will take a web application template (Web Forms) created u
 
     :::image type="content" source="migrating-an-existing-website-from-sql-membership-to-aspnet-identity/_static/image4.png" alt-text="Screenshot of the Server Explorer to view the database to understand the tables created by the S Q L membership system.":::
 
+
 ### Migrating to Visual Studio 2013
 
 1. Install Visual Studio Express 2013 for Web or Visual Studio 2013 along with the [latest updates](https://www.microsoft.com/download/details.aspx?id=45326).
@@ -71,6 +72,7 @@ For this tutorial, we will take a web application template (Web Forms) created u
    - Microsoft.Owin.Security.Twitter
 
      :::image type="content" source="migrating-an-existing-website-from-sql-membership-to-aspnet-identity/_static/image6.png" alt-text="Screenshot of installing the Nuget packages in Solution Explorer.":::
+
 
 ### Migrate database to the new Identity system
 

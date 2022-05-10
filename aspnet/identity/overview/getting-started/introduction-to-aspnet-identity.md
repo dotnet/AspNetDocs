@@ -93,7 +93,7 @@ ASP.NET Identity is implemented using the following procedure. The purpose of th
 
 1. Create an ASP.NET MVC application with Individual Accounts. You can use ASP.NET Identity in ASP.NET MVC, Web Forms, Web API, SignalR etc. In this article we will start with an ASP.NET MVC application.  
   
-    ![](introduction-to-aspnet-identity/_static/image1.png)
+    ![Image of new ASP dot Net project window](introduction-to-aspnet-identity/_static/image1.png)
 2. The created project contains the following three packages for ASP.NET Identity.
 
     - [`Microsoft.AspNet.Identity.EntityFramework`](http://www.nuget.org/packages/Microsoft.AspNet.Identity.EntityFramework/)  
@@ -105,7 +105,7 @@ ASP.NET Identity is implemented using the following procedure. The purpose of th
 3. Creating a user.  
    Launch the application and then click on the **Register** link to create a user. The following image shows the Register page that collects the user name and password.  
   
-    ![](introduction-to-aspnet-identity/_static/image2.png)  
+    ![Image of create new account](introduction-to-aspnet-identity/_static/image2.png)  
   
    When the user selects the **Register** button, the `Register` action of the Account controller creates the user by calling the ASP.NET Identity API, as highlighted below:
 
@@ -128,7 +128,7 @@ ASP.NET Identity is implemented using the following procedure. The purpose of th
 
 The diagram below shows the components of the ASP.NET Identity system (select on [this](introduction-to-aspnet-identity/_static/image3.png) or on the diagram to enlarge it). The packages in green make up the ASP.NET Identity system. All the other packages are dependencies which are needed to use the ASP.NET Identity system in ASP.NET applications.
 
-[![](introduction-to-aspnet-identity/_static/image5.png)](introduction-to-aspnet-identity/_static/image4.png)
+[![Diagram showing the components of the A S P dot Net identity system](introduction-to-aspnet-identity/_static/image5.png)](introduction-to-aspnet-identity/_static/image4.png)
 
 The following is a brief description of the NuGet packages not mentioned previously:
 

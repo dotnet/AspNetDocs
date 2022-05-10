@@ -1,8 +1,8 @@
 ---
 uid: web-api/overview/advanced/sending-html-form-data-part-2
 title: "Sending HTML Form Data in ASP.NET Web API: File Upload and Multipart MIME - ASP.NET 4.x"
-author: MikeWasson
-description: "This tutorial shows how to upload files to a web API. It also describes how to process multipart MIME data."
+author: Rick-Anderson
+description: This tutorial shows how to upload files to a web API. It also describes how to process multipart MIME data.
 ms.author: riande
 ms.date: 06/21/2012
 ms.custom: seoapril2019
@@ -23,7 +23,7 @@ Here is an example of an HTML form for uploading a file:
 
 [!code-html[Main](sending-html-form-data-part-2/samples/sample1.html)]
 
-![](sending-html-form-data-part-2/_static/image1.png)
+![Screenshot of an HTML form showing a Image Caption field with the text Summer Vacation and an Image File file picker.](sending-html-form-data-part-2/_static/image1.png)
 
 This form contains a text input control and a file input control. When a form contains a file input control, the **enctype** attribute should always be &quot;multipart/form-data&quot;, which specifies that the form will be sent as a multipart MIME message.
 
@@ -80,7 +80,7 @@ You can get the value of the control from the **FormData** property of the **Mul
 
 [!code-html[Main](sending-html-form-data-part-2/samples/sample7.html)]
 
-![](sending-html-form-data-part-2/_static/image2.png)
+![Screenshot of the HTML form with the Round-Trip circle filled in and the Only show non-stop flights and My travel dates are flexible boxes checked.](sending-html-form-data-part-2/_static/image2.png)
 
 The request body might look like this:
 
