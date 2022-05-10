@@ -209,11 +209,7 @@ The workaround is to repair your Visual Studio 2012 installation to reinstall AS
 
 After installing ASP.NET and Web Tools 2012.2 you may see the following error when creating an MVC 4 project
 
-<<<<<<< HEAD
-![A screenshot of the Visual Studio error message that may appear when creating an M V C 4 project.](aspnet-and-web-tools-20122-release-notes/_static/image1.png)
-=======
 ![Screenshot that shows the Microsoft Visual Studio dialog box with an error message.](aspnet-and-web-tools-20122-release-notes/_static/image1.png)
->>>>>>> 68682cc2442182282da2663f164d2bc00c7233d4
 
 The ASP.NET and Web Tools 2012.2 ships NuGet 2.1 and will upgrade the extension in Visual Studio 2012. In some cases, the VSIX installer will fail to correctly update the VSIX. The following steps will allow you to address this problem:
 
