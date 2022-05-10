@@ -81,7 +81,7 @@ We will take advantage of a feature in Entity Framework which adds "seed" data t
 
 Within the Code / Models folder, locate the SampleData.cs file and drop it into the Models folder in our project, as shown below.
 
-![Screenshot of the models folder, with a right-side image of the menu options, and an arrow going from 'sample data dot c s' in the folder to the list view of the file location in the menu.](mvc-music-store-part-4/_static/image4.png)
+![Screenshot of the models folder, with an image of the menu options, and an arrow from 'sample data dot c s' to the list view of the file location.](mvc-music-store-part-4/_static/image4.png)
 
 Now we need to add one line of code to tell Entity Framework about that SampleData class. Double-click on the Global.asax file in the root of the project to open it and add the following line to the top the Application\_Start method.
 

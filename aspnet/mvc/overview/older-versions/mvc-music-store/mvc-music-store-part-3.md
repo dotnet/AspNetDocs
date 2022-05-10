@@ -80,7 +80,7 @@ The empty project template includes a very streamlined CSS file which just inclu
 
 The updated CSS file and Images are included in the Content directory of MvcMusicStore-Assets.zip which is available at [MVC-Music-Store](https://github.com/evilDave/MVC-Music-Store). We'll select both of them in Windows Explorer and drop them into our Solution's Content folder in Visual Web Developer, as shown below:
 
-![Side by side screenshot of the content directory and Music Store drop-down menu, showing the file path to the images folder in the content folder with an arrow.](mvc-music-store-part-3/_static/image5.png)
+![Side by side screenshot of the content directory and Music Store drop-down menu, showing the file path to the images folder in the content folder.](mvc-music-store-part-3/_static/image5.png)
 
 You'll be asked to confirm if you want to overwrite the existing Site.css file. Click Yes.
 
@@ -88,11 +88,11 @@ You'll be asked to confirm if you want to overwrite the existing Site.css file. 
 
 The Content folder of your application will now appear as follows:
 
-![Screenshot of the music store, drop-down menu, highlighting the content folder and showing within it the new image folder with the list of images underneath.](mvc-music-store-part-3/_static/image7.png)
+![Screenshot of the music store, drop-down menu, highlighting the content folder, showing the new image folder with the list of images underneath.](mvc-music-store-part-3/_static/image7.png)
 
 Now let's run the application and see how our changes look on the Home page.
 
-![Screenshot of the music store browser window home page, with the image that was selected, along with the words 'this is the home page' underneath the image.](mvc-music-store-part-3/_static/image8.png)
+![Screenshot of the music store browser window home page, with the image that was selected, along with the words 'this is the home page' underneath.](mvc-music-store-part-3/_static/image8.png)
 
 - Let's review what's changed: The HomeController's Index action method found and displayed the \Views\Home\Index.cshtmlView template, even though our code called "return View()", because our View template followed the standard naming convention.
 - The Home Page is displaying a simple welcome message that is defined within the \Views\Home\Index.cshtml view template.
@@ -110,7 +110,7 @@ First we'll create some Model classes to represent Genres and Albums within our 
 
 ![Screenshot of three side-by-side menu boxes, showing the file path directions, from right to left, to the class selection](mvc-music-store-part-3/_static/image2.jpg)
 
-![Screenshot of the 'add new item' menu options, displaying three menus selecting a template, sort style, and type; then the name field bar at the bottom.](mvc-music-store-part-3/_static/image9.png)
+![Screenshot of the add new item menu options, displaying three menus selecting a template, sort style, and type; then the name field bar at the bottom.](mvc-music-store-part-3/_static/image9.png)
 
 Then add a public string Name property to the class that was created:
 
@@ -142,7 +142,7 @@ Now we can modify the logic to return an Album object to the view. Later in this
 
 Let's now create a View template that uses our Album to generate an HTML response. Before we do that we need to build the project so that the Add View dialog knows about our newly created Album class. You can build the project by selecting the Debug⇨Build MvcMusicStore menu item (for extra credit, you can use the Ctrl-Shift-B shortcut to build the project).
 
-![Screenshot of the music store document editor, with the 'build' tab selected to show its drop-down menu, highlighting the 'build M V C music store option.](mvc-music-store-part-3/_static/image11.png)
+![Screenshot of the music store document editor, with the 'build' tab selected in the drop-down menu, highlighting the 'build M V C music store option.](mvc-music-store-part-3/_static/image11.png)
 
 Now that we've set up our supporting classes, we're ready to build our View template. Right-click within the Details method and select "Add View…" from the context menu.
 
@@ -210,13 +210,13 @@ Notice that we have full IntelliSense support as we enter this code, so that whe
 
 Within our "foreach" loop, Visual Web Developer knows that each item is of type Genre, so we see IntelliSense for each the Genre type.
 
-![Screenshot of the 'foreach loop' code, with a drop-down menu window over it, with the 'name' option selected and a 'string Genre dot name' popping up next to it.](mvc-music-store-part-3/_static/image19.png)
+![Screenshot of the 'foreach loop' code, with a drop-down menu window and the 'name' option selected with 'string Genre dot name' popping up next to it.](mvc-music-store-part-3/_static/image19.png)
 
 Next, the scaffolding feature examined the Genre object and determined that each will have a Name property, so it loops through and writes them out. It also generates Edit, Details, and Delete links to each individual item. We'll take advantage of that later in our store manager, but for now we'd like to have a simple list instead.
 
 When we run the application and browse to /Store, we see that both the count and list of Genres is displayed.
 
-![Screenshot of the browser window, showing the 'browse genre' title under the image logo, then a message, asking for a genre selection, followed by the titles below it.](mvc-music-store-part-3/_static/image20.png)
+![Screenshot of the browser window, showing the 'browse genre' title, then a message, asking for a genre selection, followed by the titles below it.](mvc-music-store-part-3/_static/image20.png)
 
 ## Adding Links between pages
 
@@ -246,7 +246,7 @@ Putting that all together, here's how we'll write those links to the Store Index
 
 Now when we run our project again and access the /Store/ URL we will see a list of genres. Each genre is a hyperlink – when clicked it will take us to our /Store/Browse?genre=*[genre]* URL.
 
-![Screenshot of the browser window, showing the Browse Genre title under the logo, then a message saying 'select from 3 genres' followed by three bulleted genre selections.](mvc-music-store-part-3/_static/image3.jpg)
+![Screenshot of the browser window, showing the Browse Genre title, with the message'select from 3 genres' followed by three bulleted genre selections.](mvc-music-store-part-3/_static/image3.jpg)
 
 The HTML for the genre list looks like this:
 
