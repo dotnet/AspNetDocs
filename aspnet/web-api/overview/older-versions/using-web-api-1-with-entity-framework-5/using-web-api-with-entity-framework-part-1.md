@@ -1,8 +1,8 @@
 ---
 uid: web-api/overview/older-versions/using-web-api-1-with-entity-framework-5/using-web-api-with-entity-framework-part-1
 title: "Part 1: Overview and Creating the Project | Microsoft Docs"
-author: MikeWasson
-description: ""
+author: Rick-Anderson
+description: "Learn how to create a simple store web application using Entity Framework ASP.NET Web API."
 ms.author: riande
 ms.date: 07/03/2012
 ms.assetid: 94421d86-68c4-4471-bf5f-82d654a17252
@@ -11,7 +11,7 @@ msc.type: authoredcontent
 ---
 # Part 1: Overview and Creating the Project
 
-by Mike Wasson
+by Rick Anderson
 
 [Download Completed Project](https://code.msdn.microsoft.com/ASP-NET-Web-API-with-afa30545)
 
@@ -21,11 +21,11 @@ Entity Framework is an object/relational mapping framework. It maps the domain o
 
 In this tutorial, you will create a simple store application. There are two main parts to the application. Normal users can view products and create orders:
 
-![](using-web-api-with-entity-framework-part-1/_static/image1.png)
+![Screenshot of a simple store application normal user view.](using-web-api-with-entity-framework-part-1/_static/image1.png)
 
 Administrators can create, delete, or edit products:
 
-![](using-web-api-with-entity-framework-part-1/_static/image2.png)
+![Screenshot of a simple store application administrator view.](using-web-api-with-entity-framework-part-1/_static/image2.png)
 
 ## Skills You'll Learn
 
@@ -50,11 +50,11 @@ At a high level, here is the architecture of the application:
 - ASP.NET Web API exposes CRUD operations on the data (products and orders).
 - Entity Framework translates the C# models used by Web API into database entities.
 
-![](using-web-api-with-entity-framework-part-1/_static/image3.png)
+![Diagram of of a web application using Entity Framework.](using-web-api-with-entity-framework-part-1/_static/image3.png)
 
 The following diagram shows how the domain objects are represented at various layers of the application: The database layer, the object model, and finally the wire format, which is used to transmit data to the client via HTTP.
 
-![](using-web-api-with-entity-framework-part-1/_static/image4.png)
+![Diagram showing the database layer connected to the object model by Entity Framework. The object model is connected to the wire format by a Web API.](using-web-api-with-entity-framework-part-1/_static/image4.png)
 
 ## Create the Visual Studio Project
 
@@ -64,11 +64,11 @@ From the **Start** page, click **New Project**.
 
 In the **Templates** pane, select **Installed Templates** and expand the **Visual C#** node. Under **Visual C#**, select **Web**. In the list of project templates, select **ASP.NET MVC 4 Web Application**. Name the project "ProductStore" and click **OK**.
 
-![](using-web-api-with-entity-framework-part-1/_static/image5.png)
+![Screenshot of the Visual Studio new project screen. A S P dot net M V C 4 web application is highlighted.](using-web-api-with-entity-framework-part-1/_static/image5.png)
 
 In the **New ASP.NET MVC 4 Project** dialog, select **Internet Application** and click **OK**.
 
-![](using-web-api-with-entity-framework-part-1/_static/image6.png)
+![Screenshot of the Visual Studio new A S P dot net M V C 4 project screen. The Internet Application template is highlighted.](using-web-api-with-entity-framework-part-1/_static/image6.png)
 
 The "Internet Application" template creates an ASP.NET MVC application that supports forms authentication. If you run the application now, it already has some features:
 
