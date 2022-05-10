@@ -67,7 +67,7 @@ Scroll to the bottom of this file and add a &lt;connectionStrings&gt; section di
 
 Right-click the Models folder and add a new class named MusicStoreEntities.cs.
 
-![Screenshot of the music store menu options, highlighting the music store entities dot cs, inside the models folder.](mvc-music-store-part-4/_static/image3.png)
+![Screenshot of the music store menu options, highlighting the music store entities dot c s, inside the models folder.](mvc-music-store-part-4/_static/image3.png)
 
 This class will represent the Entity Framework database context, and will handle our create, read, update, and delete operations for us. The code for this class is shown below.
 
@@ -81,7 +81,7 @@ We will take advantage of a feature in Entity Framework which adds "seed" data t
 
 Within the Code / Models folder, locate the SampleData.cs file and drop it into the Models folder in our project, as shown below.
 
-![Screenshot of the models folder window, with a right-side image of the entire menu options, showing an arrow going from the sample data dot cs shown inside the folder window to the list view of the file location in the menu.](mvc-music-store-part-4/_static/image4.png)
+![Screenshot of the models folder, with a right-side image of the menu options, and an arrow going from 'sample data dot c s' in the folder to the list view of the file location in the menu.](mvc-music-store-part-4/_static/image4.png)
 
 Now we need to add one line of code to tell Entity Framework about that SampleData class. Double-click on the Global.asax file in the root of the project to open it and add the following line to the top the Application\_Start method.
 
@@ -127,7 +127,7 @@ We can now update the Store Browse View to display the albums which are availabl
 
 Running our application and browsing to /Store/Browse?genre=Jazz shows that our results are now being pulled from the database, displaying all albums in our selected Genre.
 
-![Screenshot of the music store browser window, showing a selected genre, in this case Jazz, with a bullet point list of all the albums under the Jazz genre.](mvc-music-store-part-4/_static/image2.jpg)
+![Screenshot of the music store browser window, showing a selected genre, Jazz, with a bullet point list of all the albums under that genre.](mvc-music-store-part-4/_static/image2.jpg)
 
 We'll make the same change to our /Store/Details/[id] URL, and replace our dummy data with a database query which loads an Album whose ID matches the parameter value.
 
@@ -143,7 +143,7 @@ Now that our Store Details page is set up to display an album by the Album ID, l
 
 We're now able to browse from our Store page to a Genre page, which lists the available albums, and by clicking on an album we can view details for that album.
 
-![Screenshot of the music project on the browser, displaying the genre selection, Jazz, and the album selections typed in red and in bulleted points, which are now clickable.](mvc-music-store-part-4/_static/image6.png)
+![Screenshot of the music project on the browser, displaying the genre selection Jazz, and the album selections typed in red and in bulleted points.](mvc-music-store-part-4/_static/image6.png)
 
 > [!div class="step-by-step"]
 > [Previous](mvc-music-store-part-3.md)
