@@ -1,8 +1,8 @@
 ---
 uid: mvc/overview/older-versions/using-the-html5-and-jquery-ui-datepicker-popup-calendar-with-aspnet-mvc/using-the-html5-and-jquery-ui-datepicker-popup-calendar-with-aspnet-mvc-part-2
-title: "Using the HTML5 and jQuery UI Datepicker Popup Calendar with ASP.NET MVC - Part 2 | Microsoft Docs"
+title: Using the HTML5 and jQuery UI Datepicker Popup Calendar with ASP.NET MVC - Part 2 | Microsoft Docs"
 author: Rick-Anderson
-description: "This tutorial will teach you the basics of how to work with editor templates, display templates, and the jQuery UI datepicker popup calendar in an ASP.NET MV..."
+description: This second part of the tutorial series will teach you the basics of how to work with editor templates, display templates, and the jQuery UI datepicker popup calendar in an ASP.NET MV...
 ms.author: riande
 ms.date: 08/29/2011
 ms.assetid: 21a178de-4c5a-4211-8a9c-74ec576c0f30
@@ -39,7 +39,7 @@ Press CTRL+F5 to run the application.
 
 Notice that the `ReleaseDate` property now displays both the date and time, because that's the default when no formatting information is provided.
 
-![](using-the-html5-and-jquery-ui-datepicker-popup-calendar-with-aspnet-mvc-part-2/_static/image1.png)
+![Screenshot of the Movie jQuery window showing the Details view with the Release Date property highlighted with a red rectangle.](using-the-html5-and-jquery-ui-datepicker-popup-calendar-with-aspnet-mvc-part-2/_static/image1.png)
 
 ### Adding CSS Styles for Testing New Templates
 
@@ -65,13 +65,13 @@ In the **View name** box, type `DateTime`. (You must use this name in order to m
 
 Select the **Create as a partial view** check box. Make sure that the **Use a layout or master page** and **Create a strongly-typed view** check boxes are not selected.
 
-![](using-the-html5-and-jquery-ui-datepicker-popup-calendar-with-aspnet-mvc-part-2/_static/image2.png)
+![Screenshot of the Add View window showing the View name text box is filled in with the text Date Time.](using-the-html5-and-jquery-ui-datepicker-popup-calendar-with-aspnet-mvc-part-2/_static/image2.png)
 
 Click **Add**. A *DateTime.cshtml* template is created in the *Views\Shared\DisplayTemplates*.
 
 The following image shows the *Views* folder in **Solution Explorer** after the `DateTime` display and editor templates are created.
 
-![](using-the-html5-and-jquery-ui-datepicker-popup-calendar-with-aspnet-mvc-part-2/_static/image3.png)
+![Screenshot of the Solution Explorer window showing the folder hierarchy with the Shared and Editor Templates folders files highlighted in red.](using-the-html5-and-jquery-ui-datepicker-popup-calendar-with-aspnet-mvc-part-2/_static/image3.png)
 
 Open the *Views\Shared\DisplayTemplates\DateTime.cshtml* file and add the following markup, which uses the [String.Format](https://msdn.microsoft.com/library/system.string.format.aspx) method to format the property as a date without the time. (The `{0:d}` format specifies short date format.)
 
@@ -89,7 +89,7 @@ Press CTRL+F5 to run the application. The browser renders the Index view for the
 
 The `ReleaseDate` property now displays the date in a bold red font without the time.This helps you confirm that the `DateTime` templated helper in the *Views\Movies\DisplayTemplates* folder is selected over the `DateTime` templated helper in the shared folder (*Views\Shared\DisplayTemplates*).
 
-![](using-the-html5-and-jquery-ui-datepicker-popup-calendar-with-aspnet-mvc-part-2/_static/image4.png)
+![Screenshot of the Movie jQuery window showing the Index view with a list of the movies entered into the database.](using-the-html5-and-jquery-ui-datepicker-popup-calendar-with-aspnet-mvc-part-2/_static/image4.png)
 
 Now rename the *Views\Movies\DisplayTemplates\DateTime.cshtml* file to *Views\Movies\DisplayTemplates\LoudDateTime.cshtml*.
 
@@ -133,7 +133,7 @@ Press CTRL+F5 to run the application.
 
 Verify that the movie index page is using the *Views\Shared\DisplayTemplates\DateTime.cshtml* template (red bold) and the *Movie\Details* page is using the *Views\Movies\DisplayTemplates\LoudDateTime.cshtml* template (large and green).
 
-![](using-the-html5-and-jquery-ui-datepicker-popup-calendar-with-aspnet-mvc-part-2/_static/image5.png)
+![Screenshot of the Movie jQuery window showing the Details view with the Release Date field's text changed to a larger size and a green color.](using-the-html5-and-jquery-ui-datepicker-popup-calendar-with-aspnet-mvc-part-2/_static/image5.png)
 
 In the next section, you'll create a template for a complex type.
 

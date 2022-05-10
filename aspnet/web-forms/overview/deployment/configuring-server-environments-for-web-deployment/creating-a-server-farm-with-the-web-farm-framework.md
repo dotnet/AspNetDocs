@@ -27,7 +27,7 @@ You can use WFF 2.0 to provision, manage, and deploy content to a group of web s
 
 This shows how these server roles relate to the Fabrikam, Inc. staging and production environments:
 
-![](creating-a-server-farm-with-the-web-farm-framework/_static/image1.png)
+![How the server roles relate to the Fabrikam, Inc. staging and production environments](creating-a-server-farm-with-the-web-farm-framework/_static/image1.png)
 
 In this scenario, the staging environment and the production environment are both configured as WFF server farms. A single WFF controller server manages both farms. Within each server farm, any changes to the primary server are replicated to every secondary server.
 
@@ -67,10 +67,10 @@ To create a WFF controller server, you'll need to install both IIS 7 or later an
 4. In the **IIS 7 Recommended Configuration** row, click **Add**.
 5. In the <strong>Web Farm Framework 2.</strong><em>x</em> row, click <strong>Add</strong>.
 
-    ![](creating-a-server-farm-with-the-web-farm-framework/_static/image2.png)
+    ![In the Web Farm Framework 2 row, click Add.](creating-a-server-farm-with-the-web-farm-framework/_static/image2.png)
 6. Click **Install**. Notice that the Web Platform Installer has added the Web Deployment Tool, along with various other dependencies, to the installation list.
 
-    ![](creating-a-server-farm-with-the-web-farm-framework/_static/image3.png)
+    ![Click Install. Notice that the Web Platform Installer has added the Web Deployment Tool, along with various other dependencies, to the installation list.](creating-a-server-farm-with-the-web-farm-framework/_static/image3.png)
 7. Review the license terms, and if you consent to the terms, click **I Accept**.
 8. When the installation is complete, click **Finish**, and then close the **Web Platform Installer 3.0** window.
 
@@ -90,12 +90,12 @@ You can use the next procedure to add a domain account to the local administrato
 1. On the **Start** menu, point to **Administrative Tools**, and then click **Server Manager**.
 2. In the **Server Manager** window, in the tree view pane, expand **Configuration**, expand **Local Users and Groups**, and then click **Groups**.
 
-    ![](creating-a-server-farm-with-the-web-farm-framework/_static/image4.png)
+    ![In the Server Manager window, in the tree view pane, expand Configuration, expand Local Users and Groups, and then click Groups.](creating-a-server-farm-with-the-web-farm-framework/_static/image4.png)
 3. In the **Groups** pane, double-click **Administrators**.
 4. In the **Administrators Properties** dialog box, click **Add**.
 5. In the **Select Users, Computers, Service Accounts, or Groups** dialog box, type (or browse) to your domain account (for example, **FABRIKAM\stagingfarm**), and then click **OK**.
 
-    ![](creating-a-server-farm-with-the-web-farm-framework/_static/image5.png)
+    ![In the Select Users, Computers, Service Accounts, or Groups dialog box, type (or browse) to your domain account (for example, FABRIKAM\stagingfarm), and then click OK.](creating-a-server-farm-with-the-web-farm-framework/_static/image5.png)
 6. In the **Administrators Properties** dialog box, click **OK**.
 
 Your servers are now ready to be added to a server farm. In the case of the primary server, you can configure the server to meet your application requirements before or after you create the server farm&#x2014;in both cases, the WFF will synchronize the servers by deploying the same products, components, or configuration to your secondary servers. For the sake of simplicity, this tutorial assumes that you'll configure the primary server when you've finished creating the server farm.
@@ -117,18 +117,18 @@ The next step is to create the server farm in WFF. You can do this from IIS Mana
 3. In the **Create Server Farm** dialog box, type a meaningful name for the server farm (for example, **Staging Farm**), and then select **Provision server farm**.
 4. Type the user name and password of the domain account that you added to the local administrators group on each server.
 
-    ![](creating-a-server-farm-with-the-web-farm-framework/_static/image6.png)
+    ![Type the user name and password of the domain account that you added to the local administrators group on each server.](creating-a-server-farm-with-the-web-farm-framework/_static/image6.png)
 5. Click **Next**.
 6. On the **Add Servers** page, type the fully qualified domain name (FQDN) of the primary server, select **Primary Server**, and then click **Add**.
 7. At this point, WFF will attempt to contact the primary server using the credentials you provided. If the connection succeeds, the primary server will be added to the table on the **Add Servers** page.
 
-    ![](creating-a-server-farm-with-the-web-farm-framework/_static/image7.png)
+    ![At this point, WFF will attempt to contact the primary server using the credentials you provided. If the connection succeeds, the primary server will be added to the table on the Add Servers page.](creating-a-server-farm-with-the-web-farm-framework/_static/image7.png)
 
     > [!NOTE]
     > You might have noticed that **Server is available for Load Balancing** is selected by default. WFF uses the IIS ARR module to implement load balancing and thereby distribute requests across the web servers in your server farm. In most scenarios, you'd only clear the **Server is available for Load Balancing** option if you wanted to use a third-party load balancing solution instead.
 8. On the **Add Servers** page, type the FQDN of your first secondary server, and then click **Add**.
 
-    ![](creating-a-server-farm-with-the-web-farm-framework/_static/image8.png)
+    ![On the Add Servers page, type the FQDN of your first secondary server, and then click Add.](creating-a-server-farm-with-the-web-farm-framework/_static/image8.png)
 9. Repeat step 7 for any additional secondary servers in your farm, and then click **Finish**.
 
 Your WFF server farm is now up and running. Any web platform products or components that you install on the primary server, and any web applications or content that you deploy to the primary server, will be automatically provisioned on all your secondary servers.
@@ -144,28 +144,28 @@ You can manage basic application and platform provisioning settings from IIS Man
 
 1. In IIS Manager, in the **Connections** pane, select your server farm.
 
-    ![](creating-a-server-farm-with-the-web-farm-framework/_static/image9.png)
+    ![In IIS Manager, in the Connections pane, select your server farm.](creating-a-server-farm-with-the-web-farm-framework/_static/image9.png)
 2. In the **Server Farm** pane, double-click **Application Provisioning**.
 
-    ![](creating-a-server-farm-with-the-web-farm-framework/_static/image10.png)
+    ![In the Server Farm pane, double-click Application Provisioning.](creating-a-server-farm-with-the-web-farm-framework/_static/image10.png)
 3. As you can see, the server farm is currently configured to synchronize web content and configuration settings between the primary server and the secondary servers every 30 seconds.
 4. Click **Back**, and then double-click **Platform Provisioning**.
 
-    ![](creating-a-server-farm-with-the-web-farm-framework/_static/image11.png)
+    ![Click Back, and then double-click Platform Provisioning.](creating-a-server-farm-with-the-web-farm-framework/_static/image11.png)
 5. As you can see, the server farm is currently configured to synchronize web platform products and components between the primary server and the secondary servers every five minutes.
 6. Click **Back**.
 7. To force the server farm to synchronize web platform products immediately, in the **Actions** pane, click **Provision Platform**.
 
-    ![](creating-a-server-farm-with-the-web-farm-framework/_static/image12.png)
+    ![To force the server farm to synchronize web platform products immediately, in the Actions pane, click Provision Platform.](creating-a-server-farm-with-the-web-farm-framework/_static/image12.png)
 
     > [!NOTE]
     > Platform provisioning may take some time. The installer process runs in the background on the secondary servers in your server farm.
 8. Once you've allowed sufficient time for the provisioning process to complete, you can verify that the products and components that you added to the primary server have now been replicated on the secondary servers. For example, you can log on to a secondary server and use the **Server Manager** window to verify that the web server role has been installed.
 
-    ![](creating-a-server-farm-with-the-web-farm-framework/_static/image13.png)
+    ![For example, you can log on to a secondary server and use the Server Manager window to verify that the web server role has been installed.](creating-a-server-farm-with-the-web-farm-framework/_static/image13.png)
 9. You can also check the installed programs list to verify that various web platform components have been added.
 
-    ![](creating-a-server-farm-with-the-web-farm-framework/_static/image14.png)
+    ![You can also check the installed programs list to verify that various web platform components have been added.](creating-a-server-farm-with-the-web-farm-framework/_static/image14.png)
 
 ## Configure Load Balancing
 
@@ -185,18 +185,18 @@ Load balancing using ARR is a complex topic, most of which is beyond the scope o
 3. On the left side of the window, in the navigation pane, click **Server**.
 4. In the **Application Request Routing 2.5** row, click **Add**.
 
-    ![](creating-a-server-farm-with-the-web-farm-framework/_static/image15.png)
+    ![In the Application Request Routing 2.5 row, click Add.](creating-a-server-farm-with-the-web-farm-framework/_static/image15.png)
 5. Click **Install**, and then follow the instructions in the **Web Platform Installation** window.
 6. When the installation is complete, launch IIS Manager, and in the **Connections** pane, click your server farm node. Notice that several new icons have been added to the **Server Farm** pane.
 
-    ![](creating-a-server-farm-with-the-web-farm-framework/_static/image16.png)
+    ![When the installation is complete, launch IIS Manager, and in the Connections pane, click your server farm node. Notice that several new icons have been added to the Server Farm pane.](creating-a-server-farm-with-the-web-farm-framework/_static/image16.png)
 7. In the **Server Farm** pane, double-click **Load Balance**.
 8. In the **Load Balance** pane, select a load balance algorithm (for example, **Least current request**).
 
     > [!NOTE]
     > For more information on load balancing algorithms and other configuration settings, see [Application Request Routing Module](https://go.microsoft.com/?linkid=9805130).
 
-    ![](creating-a-server-farm-with-the-web-farm-framework/_static/image17.png)
+    ![In the Load Balance pane, select a load balance algorithm (for example, Least current request).](creating-a-server-farm-with-the-web-farm-framework/_static/image17.png)
 9. In the **Actions** pane, click **Apply**.
 
 You have now configured basic load balancing for the servers in your server farm. If you direct all your web farm traffic to the controller server, the requests will be distributed between the servers in your farm according to availability and the load balancing algorithm you selected.
@@ -207,7 +207,7 @@ For more information on how to configure load balancing with ARR, see [Applicati
 
 You can monitor the health of your server farm at any time through IIS Manager on the controller server. In the **Connections** pane, expand your server farm, and then click **Servers**. The center pane will show a summary of each server in the farm together with a trace log of recent activity.
 
-![](creating-a-server-farm-with-the-web-farm-framework/_static/image18.png)
+![In the Connections pane, expand your server farm, and then click Servers.](creating-a-server-farm-with-the-web-farm-framework/_static/image18.png)
 
 ## Conclusion
 

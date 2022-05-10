@@ -21,7 +21,7 @@ The EmberJS SPA template is designed to get you started quickly building interac
 
 "Single-page application" (SPA) is the general term for a web application that loads a single HTML page and then updates the page dynamically, instead of loading new pages. After the initial page load, the SPA talks with the server through AJAX requests.
 
-![](emberjs-template/_static/image1.png)
+![Diagram that shows two boxes labeled Client and Server. An arrow labeled AJAX goes from Client to Server. An arrow labeled H T M L and an arrow labeled J SON go from Server to Client.](emberjs-template/_static/image1.png)
 
 AJAX is nothing new, but today there are JavaScript frameworks that make it easier to build and maintain a large sophisticated SPA application. Also, HTML 5 and CSS3 are making it easier to create rich UIs.
 
@@ -35,11 +35,11 @@ Download and install the template by clicking the Download button above. You mig
 
 In the **Templates** pane, select **Installed Templates** and expand the **Visual C#** node. Under **Visual C#**, select **Web**. In the list of project templates, select **ASP.NET MVC 4 Web Application**. Name the project and click **OK**.
 
-![](emberjs-template/_static/image2.png)
+![Screenshot that shows the New Project dialog box. The A S P dot NET M V C 4 Web Application template is selected.](emberjs-template/_static/image2.png)
 
 In the **New Project** wizard, select **Ember.js SPA Project**.
 
-![](emberjs-template/_static/image4.png)
+![Screenshot that shows the New A S P dot NET M V C 4 Project dialog box. The Ember dot j s S P A Project template is selected.](emberjs-template/_static/image4.png)
 
 ## EmberJS SPA Template Overview
 

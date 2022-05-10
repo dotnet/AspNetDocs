@@ -15,11 +15,11 @@ by [Rick Anderson](https://twitter.com/RickAndMSFT)
 
 The HTML `Select` tag is ideal for presenting a list of fixed category data, but often times you need to add a new category. Suppose we want to add the genre "Opera" to the categories in our database? In this section, we will use jQuery UI to add a dialog box we can use to add a new category. The image below shows how the UI will present in the browser.
 
-![](adding-a-new-category-to-the-dropdownlist-using-jquery-ui/_static/image1.png)
+![Image of U I in a browser window](adding-a-new-category-to-the-dropdownlist-using-jquery-ui/_static/image1.png)
 
 When a user selects the **Add New Genre** link, a pop-up dialog box prompts the user for a new genre name (and optionally a description). The image below show the **Add Genre** pop-up dialog.
 
-![](adding-a-new-category-to-the-dropdownlist-using-jquery-ui/_static/image2.png)
+![Image of add genre pop-up dialog](adding-a-new-category-to-the-dropdownlist-using-jquery-ui/_static/image2.png)
 
 When a new genre name is entered and the **Save** button is pushed, the following happens:
 
@@ -29,7 +29,7 @@ When a new genre name is entered and the **Save** button is pushed, the followin
 
    In the image below, **Opera** was added to the database and selected in the **Genre** drop down list. 
 
-![](adding-a-new-category-to-the-dropdownlist-using-jquery-ui/_static/image3.png)
+![Image of drop down list selection](adding-a-new-category-to-the-dropdownlist-using-jquery-ui/_static/image3.png)
 
 Open the *Views\StoreManager\Create.cshtml* file and replace the genre markup with the following the following code:
 
@@ -49,15 +49,15 @@ creates a hidden div, with the ID of `genreDialog`. We will use jQuery to hook u
 
 Run the application and click on the **Add New Genre** button. In the **Add Genre** dialog box, enter **Opera** in the **Name** input box.
 
-![](adding-a-new-category-to-the-dropdownlist-using-jquery-ui/_static/image4.png)
+![Image of add genre dialog box](adding-a-new-category-to-the-dropdownlist-using-jquery-ui/_static/image4.png)
 
 Click the **Save** button. An AJAX call creates the Opera category and then populates the dropdown list with Opera, and sets Opera as the selected genre.
 
-![](adding-a-new-category-to-the-dropdownlist-using-jquery-ui/_static/image5.png)
+![Image of drop down list populated](adding-a-new-category-to-the-dropdownlist-using-jquery-ui/_static/image5.png)
 
 Enter an artist, title and price, then select the **Create** button. If you enter a price less than $8.99, the new album will appear at the top of the Index view. Verify the new album entry was saved in the database.
 
-![](adding-a-new-category-to-the-dropdownlist-using-jquery-ui/_static/image6.png)
+![Image verifying new album entry was saved in the database](adding-a-new-category-to-the-dropdownlist-using-jquery-ui/_static/image6.png)
 
 Try creating a new genre with only one letter. The following code in the *Models\Genre.cs* file sets the minimum and maximum length of the genre name.
 
@@ -65,7 +65,7 @@ Try creating a new genre with only one letter. The following code in the *Models
 
 Client side validation reports you must enter a string between 2 and 20 characters.
 
-![](adding-a-new-category-to-the-dropdownlist-using-jquery-ui/_static/image7.png)
+![Image of client side validation](adding-a-new-category-to-the-dropdownlist-using-jquery-ui/_static/image7.png)
 
 ### Examining How a New Genre is Added to the Database and the Select List.
 
@@ -89,16 +89,16 @@ The jQuery `$.post` line makes an AJAX call to the action attribute (`/StoreMana
 
 1. Select the HTML tab.
 2. Hit the refresh icon.  
-    ![](adding-a-new-category-to-the-dropdownlist-using-jquery-ui/_static/image8.png)
+    ![Image of refresh icon selection](adding-a-new-category-to-the-dropdownlist-using-jquery-ui/_static/image8.png)
 3. In the search box, enter GenreID.
 4. Using the next icon,   
-    ![](adding-a-new-category-to-the-dropdownlist-using-jquery-ui/_static/image9.png)  
+    ![Image of next icon selection](adding-a-new-category-to-the-dropdownlist-using-jquery-ui/_static/image9.png)  
    navigate to the following select tag:
 
     [!code-html[Main](adding-a-new-category-to-the-dropdownlist-using-jquery-ui/samples/sample9.html)]
 5. Expand the last option value.
 
-![](adding-a-new-category-to-the-dropdownlist-using-jquery-ui/_static/image10.png)
+![Image of expanded view](adding-a-new-category-to-the-dropdownlist-using-jquery-ui/_static/image10.png)
 
 The following code in the *Scripts\chooseGenre.js* file shows the how the **Add New Genre** button gets connected to the click event, and how the **Add New Genre** dialog box is created.
 
