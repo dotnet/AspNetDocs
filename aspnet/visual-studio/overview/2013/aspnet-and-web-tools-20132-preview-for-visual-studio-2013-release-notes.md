@@ -96,7 +96,9 @@ Firefox uses its own certificate store, so it will display a warning.
     ![Add New Item: SCSS Style Sheet](aspnet-and-web-tools-20132-preview-for-visual-studio-2013-release-notes/_static/image9.png)    ![Style sheet editor](aspnet-and-web-tools-20132-preview-for-visual-studio-2013-release-notes/_static/image10.png)
 - **New URL Picker in HTML, Razor, CSS, LESS and Sass documents:** VS 2013 shipped with no URL picker outside of Web Forms pages. The new URL picker for HTML, Razor, CSS, LESS and Sass editors is a dialog-free, fluent typing picker that understands '..' and filters file lists appropriately for img tags and links.
 
-    ![Screenshot of new dialog-free, fluent typing u r l Picker that filters file lists appropriately. Example illustrates image links.](aspnet-and-web-tools-20132-preview-for-visual-studio-2013-release-notes/_static/image11.png)    ![Screenshot of new dialog-free, fluent typing u r l Picker that filters file lists appropriately. Example illustrates h t m l links.](aspnet-and-web-tools-20132-preview-for-visual-studio-2013-release-notes/_static/image12.png)    ![Screenshot of new Picker for c s s editors that filters file lists appropriately for i m g tags and links.](aspnet-and-web-tools-20132-preview-for-visual-studio-2013-release-notes/_static/image13.png)
+    ![Screenshot of new dialog-free, fluent typing u r l Picker that filters file lists appropriately. Example illustrates image links.](aspnet-and-web-tools-20132-preview-for-visual-studio-2013-release-notes/_static/image11.png)
+    ![Screenshot of new dialog-free, fluent typing u r l Picker that filters file lists appropriately. Example illustrates h t m l links.](aspnet-and-web-tools-20132-preview-for-visual-studio-2013-release-notes/_static/image12.png)
+    ![Screenshot of new Picker for c s s editors that filters file lists appropriately for i m g tags and links.](aspnet-and-web-tools-20132-preview-for-visual-studio-2013-release-notes/_static/image13.png)
 - **Updates to LESS editor by adding more features**
 - **Knockout Intellisense Upgrade**: We added a non-standard KnockOut syntax for VS intelliSense, "ko-vs-editor viewModel:" syntax. It can be used to bind to multiple view models on a page using comments in the form:
 
@@ -111,7 +113,9 @@ Firefox uses its own certificate store, so it will display a warning.
     ![Intellisense showing full JavaScript object](aspnet-and-web-tools-20132-preview-for-visual-studio-2013-release-notes/_static/image15.png)
 - **New URL Picker in HTML, Razor, CSS, LESS and Sass documents**: VS 2013 shipped with no URL picker outside of Web Forms pages. The new URL picker for HTML, Razor, CSS, LESS and Sass editors is a dialog-free, fluent typing picker that understands '..' and filters file lists appropriately for img tags and links.
 
-    ![Screenshot of new dialog-free, fluent typing u r l Picker that filters file lists appropriately for i m g tags and links.](aspnet-and-web-tools-20132-preview-for-visual-studio-2013-release-notes/_static/image16.png)    ![Screenshot of new dialog-free, fluent typing u r l Picker that filters file lists appropriately, displaying h t m l links.](aspnet-and-web-tools-20132-preview-for-visual-studio-2013-release-notes/_static/image17.png)    ![Screenshot of new dialog-free, fluent typing Picker for c s s editors that filters file lists appropriately for i m g tags and links.](aspnet-and-web-tools-20132-preview-for-visual-studio-2013-release-notes/_static/image18.png)
+    ![Screenshot of new dialog-free, fluent typing u r l Picker that filters file lists appropriately for i m g tags and links.](aspnet-and-web-tools-20132-preview-for-visual-studio-2013-release-notes/_static/image16.png)
+    ![Screenshot of new dialog-free, fluent typing u r l Picker that filters file lists appropriately, displaying h t m l links.](aspnet-and-web-tools-20132-preview-for-visual-studio-2013-release-notes/_static/image17.png)
+    ![Screenshot of new dialog-free, fluent typing Picker for c s s editors that filters file lists appropriately for i m g tags and links.](aspnet-and-web-tools-20132-preview-for-visual-studio-2013-release-notes/_static/image18.png)
 
 <a id="browserlink"></a>
 ### Browser Link
