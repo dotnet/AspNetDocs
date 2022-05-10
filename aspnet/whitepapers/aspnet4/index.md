@@ -1,6 +1,6 @@
 ---
 uid: whitepapers/aspnet4/index
-title: "Overview of ASP.NET 4 and Visual Studio 2010 Web Development | Microsoft Docs"
+title: "Overview of ASP.NET 4 and Visual Studio 2010 Web Development"
 author: rick-anderson
 description: "This document provides an overview of many of the new features for ASP.NET that are included in the.NET Framework 4 and in Visual Studio 2010."
 ms.author: riande

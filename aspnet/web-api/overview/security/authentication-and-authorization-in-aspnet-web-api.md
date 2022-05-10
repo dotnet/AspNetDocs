@@ -63,9 +63,7 @@ Authorization happens later in the pipeline, closer to the controller. That lets
 - *Authorization filters* run before the controller action. If the request is not authorized, the filter returns an error response, and the action is not invoked.
 - Within a controller action, you can get the current principal from the **ApiController.User** property. For example, you might filter a list of resources based on the user name, returning only those resources that belong to that user.
 
-:::image type="complex" source="authentication-and-authorization-in-aspnet-web-api/_static/image1.png" alt-text="Diagram of the authentication and authorization pipeline.":::
-   Diagram of the authentication and authorization pipeline. For the authentication stage, the request starts at the H T T P Module in I I S. An arrow connects the H T T P Module to the H T T P Message Handler in the Web A P I. An arrow connects the H T T P Message Handler to the Authorization Filter in the authorization stage. An arrow connects the Authorization Filter to the Controller.
-:::image-end:::
+:::image type="content" source="authentication-and-authorization-in-aspnet-web-api/_static/image1.png" alt-text="Diagram of the authentication and authorization pipeline.":::
 
 <a id="auth3"></a>
 ### Using the [Authorize] Attribute

@@ -1,6 +1,6 @@
 ---
 uid: whitepapers/aspnet-and-web-tools-20122-release-notes
-title: "Release Notes for ASP.NET and Web Tools 2012.2 | Microsoft Docs"
+title: "Release Notes for ASP.NET and Web Tools 2012.2"
 author: rick-anderson
 description: "This document describes the release of ASP.NET and Web Tools 2012.2. It is an update to Visual Studio Web Tooling and ASP.NET."
 ms.author: riande

@@ -40,7 +40,7 @@ To add permissions to a directory, perform the following steps:
 - Ensure that the ASPNET account has the "Read &amp; Execute", "List Folder Contents", and "Read" checkboxes checked.
 - Hit OK to dismiss the dialog and save the changes.
 
-![Screenshot of the w w w root Properties screen.](denied-access-to-iis-directories/_static/image2.jpg)
+![Screenshot of the property dialog. O K is selected.](denied-access-to-iis-directories/_static/image2.jpg)
 
 If desired, these changes can be automated using scripts or the "cacls.exe" tool that ships with Windows. For more information on the ASPNET account, please see the [FAQ document](https://go.microsoft.com/fwlink/?LinkId=5828).
 
