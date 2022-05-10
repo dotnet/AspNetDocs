@@ -1,8 +1,8 @@
 ---
 uid: web-forms/overview/performance-and-caching/using-asynchronous-methods-in-aspnet-45
-title: "Using Asynchronous Methods in ASP.NET 4.5 | Microsoft Docs"
+title: Using Asynchronous Methods in ASP.NET 4.5 | Microsoft Docs
 author: Rick-Anderson
-description: "This tutorial will teach you the basics of building an asynchronous ASP.NET Web Forms application using Visual Studio Express 2012 for Web, which is a free..."
+description: This tutorial will teach you the basics of building an asynchronous ASP.NET Web Forms application using Visual Studio Express 2012 for Web, which is a free...
 ms.author: riande
 ms.date: 01/02/2019
 ms.assetid: a585c9a2-7c8e-478b-9706-90f3739c50d1
@@ -89,7 +89,7 @@ The following code shows the `GetGizmos` method of the gizmo service.
 The `GizmoService GetGizmos` method passes a URI to an ASP.NET Web API HTTP service which returns a list of gizmos data. The *WebAPIpgw* project contains the implementation of the Web API `gizmos, widget` and `product` controllers.  
 The following image shows the gizmos page from the sample project.
 
-![Gizmos](using-asynchronous-methods-in-aspnet-45/_static/image1.png)
+![Screenshot of the Sync Gizmos web browser page showing the the table of gizmos with corresponding details as entered into the web API controllers.](using-asynchronous-methods-in-aspnet-45/_static/image1.png)
 
 ## <a id="CreatingAsynchGizmos"></a>  Creating an Asynchronous Gizmos Page
 
@@ -135,7 +135,7 @@ The following code shows the `GetGizmos` and `GetGizmosAsync` methods.
 
 The following image shows the asynchronous gizmo view.
 
-![async](using-asynchronous-methods-in-aspnet-45/_static/image2.png)
+![Screenshot of the Gizmos Async web browser page showing the table of gizmos with corresponding details as entered into the web API controllers.](using-asynchronous-methods-in-aspnet-45/_static/image2.png)
 
 The browsers presentation of the gizmos data is identical to the view created by the synchronous call. The only difference is the asynchronous version may be more performant under heavy loads.
 
@@ -161,7 +161,7 @@ The asynchronous `PWGasync` code behind is shown below.
 
 The following image shows the view returned from the asynchronous *PWGasync.aspx* page.
 
-![](using-asynchronous-methods-in-aspnet-45/_static/image3.png)
+![Screenshot of the Asynchronous Widgets, Products, and Gizmos web browser page showing the Widgets, Products, and Gizmos tables.](using-asynchronous-methods-in-aspnet-45/_static/image3.png)
 
 ## <a id="CancelToken"></a>  Using a Cancellation Token
 
@@ -187,9 +187,9 @@ To realize the benefits of an asynchronous web application, you might need to ma
 
     - Open IIS manager and navigate to the Application Pools pane.
     - Right click on the target application pool and select **Advanced Settings**.  
-        ![advanced](using-asynchronous-methods-in-aspnet-45/_static/image4.png)
+        ![Screenshot of the Internet Information Services Manager showing the Advanced Settings menu highlighted with a red rectangle.](using-asynchronous-methods-in-aspnet-45/_static/image4.png)
     - In the **Advanced Settings** dialog box, change *Queue Length* from 1,000 to 5,000.  
-        ![Queue length](using-asynchronous-methods-in-aspnet-45/_static/image5.png)  
+        ![Screenshot of the Advanced Settings dialog box showing the Queue Length field set to 1000 and highlighted with a red rectangle.](using-asynchronous-methods-in-aspnet-45/_static/image5.png)  
   
   Note in the images above, the .NET framework is listed as v4.0, even though the application pool is using .NET 4.5. To understand this discrepancy, see the following:
 

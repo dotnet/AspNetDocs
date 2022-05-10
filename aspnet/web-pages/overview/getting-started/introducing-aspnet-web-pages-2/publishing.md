@@ -1,8 +1,8 @@
 ---
 uid: web-pages/overview/getting-started/introducing-aspnet-web-pages-2/publishing
-title: "Introducing ASP.NET Web Pages - Publishing a Site by Using WebMatrix | Microsoft Docs"
+title: Introducing ASP.NET Web Pages - Publishing a Site by Using WebMatrix | Microsoft Docs
 author: Rick-Anderson
-description: "This tutorial is the final installment in the tutorial set that introduces ASP.NET Web Pages and Microsoft WebMatrix. It discusses how to publish your site t..."
+description: This tutorial is the final installment in the tutorial set that introduces ASP.NET Web Pages and Microsoft WebMatrix. It discusses how to publish your site t...
 ms.author: riande
 ms.date: 05/28/2015
 ms.assetid: 7e85c70e-1a88-4408-8b3d-29611c7713ed
@@ -57,57 +57,57 @@ This tutorial will first show you how to deploy your site to Microsoft Azure. By
 
 In the WebMatrix ribbon, click the **Publish** button.
 
-!['Publish' button in WebMatrix ribbon](publishing/_static/image1.png)
+![Screenshot of the Web Matrix ribbon showing the Publish button highlighted with a red rectangle next to the Run button.](publishing/_static/image1.png)
 
 The **Publish Your Site** dialog box is displayed. If you have not signed in to your Microsoft account, the dialog box will contain a **Get started with Azure** link. Click this link.
 
-![Publish your site](publishing/_static/image2.png)
+![Screenshot of the Publish Your Site dialog box showing the Get started with Windows Azure option highlighted with a red rectangle.](publishing/_static/image2.png)
 
 If you have not signed in to a Microsoft account, you are again given the opportunity to sign in. You must sign in to a Microsoft account to publish your site on Azure.
 
-![Sign In](publishing/_static/image3.png)
+![Screenshot of the Microsoft Windows Azure sign-in dialog showing the Microsoft account and organization account sign-ins.](publishing/_static/image3.png)
 
 After signing in to your Microsoft account, the dialog box contains links to create a new site on Azure or connect to one of your existing sites on Azure.
 
-![Create New Site](publishing/_static/image4.png)
+![Screenshot of the Publish Your Site dialog box showing the Create a new site option highlighted with a red rectangle.](publishing/_static/image4.png)
 
 Select **Create a new site**.
 
 If you named your project **WebPagesMovies**, the default name for your site will be **webpagesmovies.azurewebsites.net**. This default name is most likely not available, as indicated by the red exclamation mark.
 
-![default Web site name](publishing/_static/image5.png)
+![Screenshot of the Create site on Windows Azure window showing the default name is not available as indicated by the red exclamation mark.](publishing/_static/image5.png)
 
 Change the site name to something that is available, and select a location that is close to your location.
 
-![changed site name](publishing/_static/image6.png)
+![Screenshot of the Create site on Windows Azure window showing the changed site name in the Site name field.](publishing/_static/image6.png)
 
 Click **OK**.
 
-WebMatrix performss a test to determine if the server is compatible with your site.
+WebMatrix performs a test to determine if the server is compatible with your site.
 
-![compatibility test](publishing/_static/image7.png)
+![Screenshot of the Web Matrix window showing a message indicating that a server test will initiate once the user selects the Continue button.](publishing/_static/image7.png)
 
 Select **Continue**.
 
 The results of the compatibility test are displayed.
 
-![compatibility result](publishing/_static/image8.png)
+![Screenshot of the Web Matrix window showing the results of the compatibility test with the successful items indicated by a green checkmark icon.](publishing/_static/image8.png)
 
 Select **Continue**.
 
 WebMatrix displays the files and databases that will be published to the site. Since this is the first time you are publishing the site, all of the files are listed. You can uncheck a file that is not ready to be published. In the subsequent publications, only the files that have changed will be displayed. See [Updating the Live Site: Republishing](#update).
 
-![publish preview](publishing/_static/image9.png)
+![Screenshot of the Publish Preview window showing all of the files and databases in a list with checkboxes corresponding to each item.](publishing/_static/image9.png)
 
 Select **Continue**.
 
 After the site has been deployed to Azure, a message is displayed that indicates the deployment has completed.
 
-![publish complete](publishing/_static/image10.png)
+![Screenshot of the publishing complete message indicating that the website deployment was successful.](publishing/_static/image10.png)
 
 Your site and database have been published to Azure, and are now available to the public. Click the link in the message indicating publishing has completed, and you will now see your deployed site. You or anyone with Internet access can add or modify records in the database.
 
-![](publishing/_static/image11.png)
+![Screenshot of the deployed website showing the U R L in the address bar highlighted with a red rectangle.](publishing/_static/image11.png)
 
 <a id="host"></a>
 ## Publishing Your Site to a Web Hosting Company
@@ -116,11 +116,11 @@ If you decide to not publish to Azure, you can instead publish your site to a we
 
 Click the **Find web hosting** link.
 
-!['Find web hosting' button in Publish Settings dialog box](publishing/_static/image12.png)
+![Screenshot of the Publish Your Site dialog box showing the Find Windows web hosting link highlighted with a red rectangle.](publishing/_static/image12.png)
 
 You go to a page on the Microsoft site that lists hosting providers that support ASP.NET.
 
-![Page on Microsoft site that lists hosting providers](publishing/_static/image13.png)
+![Screenshot of the Microsoft Find Web Hosting page showing a list of hosting providers that support A S P dot N E T.](publishing/_static/image13.png)
 
 Obviously, it can be difficult to know now exactly what hosting features you might require over the long term. Here are a couple of things to consider:
 
@@ -140,37 +140,37 @@ When you've signed up and are ready to publish, click the **Publish** button in 
 
 If the hosting provider sent you a publish settings file, click the **Import publish settings** link and import the file. If you don't have a publish settings file, fill in the fields by using the values that the hosting company sent you in email. Here's what the **Publish Settings** dialog box might look like when you're done:
 
-![Publish settings filled in in the 'Publish Settings' dialog box](publishing/_static/image14.png)
+![Screenshot of the Publish Settings dialog box showing the hosting company details filled into the text fields.](publishing/_static/image14.png)
 
 Click **Validate Connection**. If everything is ok, the dialog box reports **Connected successfully**, which means it can communicate with the hosting provider's server.
 
-![Success message if publish settings are correct](publishing/_static/image15.png)
+![Screenshot of the Validate Connection button with a green checkmark icon indicating that the connection was successful.](publishing/_static/image15.png)
 
 If there's a problem, WebMatrix does its best to tell you what the problem is:
 
-![Error message if there is a problem wiht publish settings](publishing/_static/image16.png)
+![Screenshot of the Validate Connection button with a yellow warning icon with an error message corresponding to the error.](publishing/_static/image16.png)
 
 Click **Save** to save your settings. WebMatrix offers to perform a test to make sure that it can communicate correctly with the hosting site:
 
-![Message offering to perform a test of the publishing process](publishing/_static/image17.png)
+![Screenshot of the Publish Compatibility dialog with a message explaining the site compatibility test prompting to select the Yes button to proceed.](publishing/_static/image17.png)
 
 Click **Yes**. WebMatrix uploads some sample files to the hosting provider. When the compatibility test is done, WebMatrix reports the results:
 
-![Results of the publishing test](publishing/_static/image18.png)
+![Screenshot of the Publish Compatibility test showing the results of the test with the successful items indicated by a green checkmark icon.](publishing/_static/image18.png)
 
 If you're ready to go, go ahead and click **Continue** to start the publish process for real. WebMatrix figures out what files are in your site and are already on the host server (right now, none) and gives you a preview of the publish process:
 
-![Preview of what the files that the publish process will upload](publishing/_static/image19.png)
+![Screenshot of the Publish Preview window showing a list of site files ready to be published to the website and a preview of the website.](publishing/_static/image19.png)
 
 The list of files to publish includes the web pages that you've created like *Movies.cshtml*. The list also includes files for helpers that you've installed, the files to run SQL Server Compact Edition for your database, and so on. As a result, the initial publish process can be substantial.
 
 Click **Continue**. WebMatrix copies your files to the hosting provider's server. When it's done, the results are reported in the status bar:
 
-![Status bar message when the publish process has finished successfully](publishing/_static/image20.png)
+![Screenshot of the status bar showing a highlighted yellow message when the publishing process has finished successfully.](publishing/_static/image20.png)
 
 To see your live site, click the link in the status bar. Add *Movies* to the URL, and you'll see the *Movies.cshtml* file that you created:
 
-![The live site showing the Movies page](publishing/_static/image21.png)
+![Screenshot showing the live site showing the altered Movies dot c s h t m l file by changing the red highlighted U R L in the address bar.](publishing/_static/image21.png)
 
 <a id="update"></a>
 ## Updating the Live Site: Republishing
@@ -181,7 +181,7 @@ To see how republishing works, open the *Movies.cshtml* site, make some small ch
 
 Click the **Publish** button in the ribbon. WebMatrix determines what's changed and shows you a preview of the files it will publish.
 
-![The 'Publish' dialog box showing changed files ready for republishing](publishing/_static/image22.png)
+![Screenshot of the Publish Preview dialog box showing the updated files in the changed files list and a message about overwriting remote databases.](publishing/_static/image22.png)
 
 > [!IMPORTANT] 
 > 
