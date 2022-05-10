@@ -116,7 +116,7 @@ To connect to authentication providers like Google and Facebook, you will need t
 5. Click the OAuth Consent screen menu item, then set your email address and product name. When you have completed the form click **Save**.
 6. Click the Library menu item, search **Google+ API**, click on it then press Enable.
   
-    ![Screenshot displaying a list of search results. The Google+ A P I search result is highlighted.](create-an-aspnet-mvc-5-app-with-facebook-and-google-oauth2-and-openid-sign-on/_static/image15.png)  
+    ![Screenshot displaying a list of search results. The Google plus A P I search result is highlighted.](create-an-aspnet-mvc-5-app-with-facebook-and-google-oauth2-and-openid-sign-on/_static/image15.png)  
   
    The image below shows the enabled APIs.  
   
