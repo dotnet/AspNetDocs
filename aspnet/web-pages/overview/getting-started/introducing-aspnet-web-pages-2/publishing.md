@@ -120,7 +120,7 @@ Click the **Find web hosting** link.
 
 You go to a page on the Microsoft site that lists hosting providers that support ASP.NET.
 
-![Screenshot of the Microsoft Find Web Hosting page showing a list of hosting providers that support A S P dot N E T.](publishing/_static/image13.png)
+![Screenshot of the Microsoft Find Web Hosting page showing a list of hosting providers that support A S P dot Net.](publishing/_static/image13.png)
 
 Obviously, it can be difficult to know now exactly what hosting features you might require over the long term. Here are a couple of things to consider:
 
