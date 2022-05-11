@@ -34,7 +34,7 @@ Before I describe the OData routing conventions in Web API, it's helpful to unde
 - The resource path
 - Query options
 
-![Screenshot to show what the Odata routing conventions looks like, displaying service root, resource path, and query options from left to right.](odata-routing-conventions/_static/image1.png)
+![Screenshot to show what the O Data routing conventions looks like, displaying service root, resource path, and query options from left to right.](odata-routing-conventions/_static/image1.png)
 
 For routing, the important part is the resource path. The resource path is divided into segments. For example, `/Products(1)/Supplier` has three segments:
 

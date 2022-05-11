@@ -39,7 +39,7 @@ From the **Tools** menu, select **NuGet Package Manager**, then select **Package
 
 This will install the WebAPI OWIN selfhost package and all the required OWIN packages.
 
-[![Screenshot of the package manager console, showing licensing information, followed by P M > at the and, signaling where to type the command.](use-owin-to-self-host-web-api/_static/image4.png)](use-owin-to-self-host-web-api/_static/image3.png)
+[![Screenshot of the package manager console, showing licensing information, followed by P M > at the end, signaling where to type the command.](use-owin-to-self-host-web-api/_static/image4.png)](use-owin-to-self-host-web-api/_static/image3.png)
 
 ## Configure Web API for self-host
 

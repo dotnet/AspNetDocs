@@ -33,7 +33,7 @@ Start Visual Studio with administrator privileges. Administrator privileges are 
 
 On the **File** menu, click **New**, then click **Project**. From **Installed Templates**, under Visual C#, click **Cloud** and then click **Windows Azure Cloud Service**. Name the project "AzureApp" and click **OK**.
 
-[![screenshot of the 'new project' dialog box, highlighting the steps in the menu options to create an Azure App project.](host-aspnet-web-api-in-an-azure-worker-role/_static/image2.png)](host-aspnet-web-api-in-an-azure-worker-role/_static/image1.png)
+[![Screenshot of the 'new project' dialog box, highlighting the steps in the menu options to create an Azure App project.](host-aspnet-web-api-in-an-azure-worker-role/_static/image2.png)](host-aspnet-web-api-in-an-azure-worker-role/_static/image1.png)
 
 In the **New Windows Azure Cloud Service** dialog, double-click **Worker Role**. Leave the default name ("WorkerRole1"). This step adds a worker role to the solution. Click **OK**.
 
@@ -66,7 +66,7 @@ Click **Endpoints**, and then click **Add Endpoint**.
 
 In the **Protocol** dropdown list, select "http". In **Public Port** and **Private Port**, type 80. These port numbers can be different. The public port is what clients use when they send a request to the role.
 
-[![Screenshot of the protocol dropdown menu options, that show the different service configurations and endpoint choices.](host-aspnet-web-api-in-an-azure-worker-role/_static/image8.png)](host-aspnet-web-api-in-an-azure-worker-role/_static/image7.png)
+[![Screenshot of the protocol dropdown menu options that show the different service configurations and endpoint choices.](host-aspnet-web-api-in-an-azure-worker-role/_static/image8.png)](host-aspnet-web-api-in-an-azure-worker-role/_static/image7.png)
 
 ## Configure Web API for Self-Host
 
