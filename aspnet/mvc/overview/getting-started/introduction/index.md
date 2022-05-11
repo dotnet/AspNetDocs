@@ -1,6 +1,6 @@
 ---
 uid: mvc/overview/getting-started/introduction/index
-title: "Getting Started with ASP.NET MVC 5 | Microsoft Docs"
+title: "Getting Started with ASP.NET MVC 5 Index | Microsoft Docs"
 author: rick-anderson
 description: "Introduction to ASP.NET MVC 5"
 ms.author: riande

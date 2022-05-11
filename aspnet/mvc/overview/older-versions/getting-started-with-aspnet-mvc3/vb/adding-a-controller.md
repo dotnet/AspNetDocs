@@ -47,7 +47,7 @@ Inside the new `public class HelloWorldController` block, create two new methods
 
 Your controller is named `HelloWorldController` and your new method is named `Index`. Run the application (press F5 or Ctrl+F5). Once your browser has started up, append &quot;HelloWorld&quot; to the path in the address bar. (On my computer, it's `http://localhost:43246/HelloWorld`) Your browser will look like the screenshot below. In the method above, the code returned a string directly. We told the system to just return some HTML, and it did!
 
-![](adding-a-controller/_static/image5.png)
+![Screenshot that shows the browser with the text This is my default action in the window.](adding-a-controller/_static/image5.png)
 
 ASP.NET MVC invokes different controller classes (and different action methods within them) depending on the incoming URL. The default mapping logic used by ASP.NET MVC uses a format like this to control what code is invoked:
 
@@ -57,7 +57,7 @@ The first part of the URL determines the controller class to execute. So */Hello
 
 Browse to `http://localhost:xxxx/HelloWorld/Welcome`. The `Welcome` method runs and returns the string &quot;This is the Welcome action method...&quot;. The default MVC mapping is `/[Controller]/[ActionName]/[Parameters]`. For this URL, the controller is `HelloWorld` and `Welcome` is the method. We haven't used the `[Parameters]` part of the URL yet.
 
-![](adding-a-controller/_static/image6.png)
+![Screenshot that shows the browser with the text This is the Welcome action method in the window.](adding-a-controller/_static/image6.png)
 
 Let's modify the example slightly so that we can pass some parameter information in from the URL to the controller (for example, */HelloWorld/Welcome?name=Scott&amp;numtimes=4*). Change your `Welcome` method to include two parameters as shown below. Note that we've used the VB optional parameter feature to indicate that the `numTimes` parameter should default to 1 if no value is passed for that parameter.
 
@@ -65,7 +65,7 @@ Let's modify the example slightly so that we can pass some parameter information
 
 Run your application and browse to `http://localhost:xxxx/HelloWorld/Welcome?name=Scott&numtimes=4`**.** You can try different values for `name` and `numtimes`. The system automatically maps the named parameters from your query string in the address bar to parameters in your method.
 
-![](adding-a-controller/_static/image7.png)
+![Screenshot that shows the browser with the text Hello Scott Num Times is 4 in the window.](adding-a-controller/_static/image7.png)
 
 In both these examples the controller has been doing the VC portion of MVC — that is the view and controller work. The controller is returning HTML directly. Ordinarily we don't want controllers returning HTML directly, since that becomes very cumbersome to code. Instead we'll typically use a separate view template file to help generate the HTML response. Let's look at how we can do this.
 

@@ -57,7 +57,7 @@ You've now updated the application code to support the new `Rating` property.
 
 Now run the application and navigate to the */Movies* URL. When you do this, though, you'll see the following error:
 
-![](adding-a-new-field/_static/image1.png)
+![Screenshot that shows the browser window with an error that states Server Error in Application.](adding-a-new-field/_static/image1.png)
 
 You're seeing this error because the updated `Movie` model class in the application is now different than the schema of the `Movie` table of the existing database. (There's no `Rating` column in the database table.)
 
@@ -80,7 +80,7 @@ Let's update the application so that Code First automatically drops and re-creat
 
 In **Solution Explorer**, right click the *Models* folder, select **Add**, and then select **Class**.
 
-![](adding-a-new-field/_static/image2.png)
+![Screenshot that shows the Solution Explorer window. Add is selected in the Models right click menu. Class is selected in the sub menu.](adding-a-new-field/_static/image2.png)
 
 Name the class "MovieInitializer". Update the `MovieInitializer` class to contain the following code:
 
@@ -92,7 +92,7 @@ Now that you've defined the `MovieInitializer` class, you'll want to wire it up 
 
 Open the *Global.asax* file that's at the root of the `MvcMovies` project:
 
-[![](adding-a-new-field/_static/image4.png)](adding-a-new-field/_static/image3.png)
+[![Screenshot that shows the Global dot asax dot c s tab. Global dot asax is circled in red in the Solution Explorer window.](adding-a-new-field/_static/image4.png)](adding-a-new-field/_static/image3.png)
 
 The *Global.asax* file contains the class that defines the entire application for the project, and contains an `Application_Start` event handler that runs when the application first starts.
 

@@ -33,7 +33,7 @@ You'll use a .NET Framework data-access technology known as the Entity Framework
 
 In **Solution Explorer**, right click the *Models* folder, select **Add**, and then select **Class**.
 
-![](adding-a-model/_static/image1.png)
+![Screenshot that shows the Solution Explorer window. Add is selected in the Models right click menu and Class is selected in the sub menu.](adding-a-model/_static/image1.png)
 
 Name the class "Movie".
 
@@ -63,7 +63,7 @@ The `MovieDBContext` class you created handles the task of connecting to the dat
 
 Open the application root *Web.config* file. (Not the *Web.config* file in the *Views* folder.) The image below show both *Web.config* files; open the *Web.config* file circled in red.
 
-![](adding-a-model/_static/image2.png)
+![Screenshot that shows the Solution Explorer window. Web dot config is circled in red.](adding-a-model/_static/image2.png)
 
 Add the following connection string to the `<connectionStrings>` element in the *Web.config* file.
 

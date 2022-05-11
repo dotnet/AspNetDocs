@@ -37,15 +37,15 @@ Start by using a view template with the `Index` method in the `HelloWorldControl
 
 This code uses a view template to generate an HTML response to the browser. In the project, add a view template that you can use with the `Index` method. To do this, right-click inside the `Index` method and click **Add View**.
 
-![](adding-a-view/_static/image1.png)
+![Screenshot that shows the parenthesis after Index highlighted. Add View is selected in the right click menu.](adding-a-view/_static/image1.png)
 
 The **Add View** dialog box appears. Leave the defaults the way they are and click the **Add** button:
 
-![](adding-a-view/_static/image2.png)
+![Screenshot that shows the Add View dialog box. Index is in the View name field.](adding-a-view/_static/image2.png)
 
 The *MvcMovie\Views\HelloWorld* folder and the *MvcMovie\Views\HelloWorld\Index.cshtml* file are created. You can see them in **Solution Explorer**:
 
-![](adding-a-view/_static/image3.png)
+![Screenshot that shows the Solution Explorer window. The Hello World sub folder and Index dot c s h t m l are circled in red under the Views folder.](adding-a-view/_static/image3.png)
 
 The following shows the *Index.cshtml* file that was created:
 
@@ -57,7 +57,7 @@ Add some HTML under the `<h2>` tag. The modified *MvcMovie\Views\HelloWorld\Inde
 
 Run the application and browse to the `HelloWorld` controller (`http://localhost:xxxx/HelloWorld`). The `Index` method in your controller didn't do much work; it simply ran the statement `return View()`, which specified that the method should use a view template file to render a response to the browser. Because you didn't explicitly specify the name of the view template file to use, ASP.NET MVC defaulted to using the *Index.cshtml* view file in the *\Views\HelloWorld* folder. The image below shows the string hard-coded in the view.
 
-![](adding-a-view/_static/image6.png)
+![Screenshot that shows the Index page in the My M V C Application.](adding-a-view/_static/image6.png)
 
 Looks pretty good. However, notice that the browser's title bar says "Index" and the big title on the page says "My MVC Application." Let's change those.
 
@@ -73,7 +73,7 @@ Layout templates allow you to specify the HTML container layout of your site in 
 
 Run the application and notice that it now says "MVC Movie App". Click the **About** link, and you see how that page shows "MVC Movie App", too. We were able to make the change once in the layout template and have all pages on the site reflect the new title.
 
-![](adding-a-view/_static/image9.png)
+![Screenshot that shows the About page in the M V C Movie App.](adding-a-view/_static/image9.png)
 
 The complete *\_Layout.cshtml* file is shown below:
 
@@ -91,7 +91,7 @@ Run the application and browse to `http://localhost:xx/HelloWorld`. Notice that 
 
 Also notice how the content in the *Index.cshtml* view template was merged with the *\_Layout.cshtml* view template and a single HTML response was sent to the browser. Layout templates make it really easy to make changes that apply across all of the pages in your application.
 
-![](adding-a-view/_static/image10.png)
+![Screenshot that shows the My Movie List in the M V C Movie App.](adding-a-view/_static/image10.png)
 
 Our little bit of "data" (in this case the "Hello from our View Template!" message) is hard-coded, though. The MVC application has a "V" (view) and you've got a "C" (controller), but no "M" (model) yet. Shortly, we'll walk through how create a database and retrieve model data from it.
 
@@ -115,7 +115,7 @@ Next, you need a Welcome view template! In the **Debug** menu, select **Build Mv
 
 Then right-click inside the `Welcome` method and click **Add View**. Here's what the **Add View** dialog box looks like:
 
-![](adding-a-view/_static/image13.png)
+![Screenshot that shows the Add View dialog box. Welcome is in the View name field.](adding-a-view/_static/image13.png)
 
 Click **Add**, and then add the following code under the `<h2>` element in the new *Welcome.cshtml* file. You'll create a loop that says "Hello" as many times as the user says it should. The complete *Welcome.cshtml* file is shown below.
 
@@ -127,7 +127,7 @@ Run the application and browse to the following URL:
 
 Now data is taken from the URL and passed to the controller automatically. The controller packages the data into a `ViewBag` object and passes that object to the view. The view then displays the data as HTML to the user.
 
-![](adding-a-view/_static/image14.png)
+![Screenshot that shows the Welcome page in the M V C Movie App.](adding-a-view/_static/image14.png)
 
 Well, that was a kind of an "M" for model, but not the database kind. Let's take what we've learned and create a database of movies.
 

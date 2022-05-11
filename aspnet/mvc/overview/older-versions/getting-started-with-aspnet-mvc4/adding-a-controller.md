@@ -1,6 +1,6 @@
 ---
 uid: mvc/overview/older-versions/getting-started-with-aspnet-mvc4/adding-a-controller
-title: "Adding a Controller | Microsoft Docs"
+title: "Adding a Controller (2012) | Microsoft Docs"
 author: Rick-Anderson
 description: "Note: An updated version of this tutorial is available here that uses ASP.NET MVC 5 and Visual Studio 2013. It's more secure, much simpler to follow and demo..."
 ms.author: riande
@@ -9,7 +9,7 @@ ms.assetid: 0267d31c-892f-49a1-9e7a-3ae8cc12b2ca
 msc.legacyurl: /mvc/overview/older-versions/getting-started-with-aspnet-mvc4/adding-a-controller
 msc.type: authoredcontent
 ---
-# Adding a Controller
+# Adding a Controller (2012)
 
 by [Rick Anderson](https://twitter.com/RickAndMSFT)
 
@@ -26,7 +26,7 @@ We'll be covering all these concepts in this tutorial series and show you how to
 
 Let's begin by creating a controller class. In **Solution Explorer**, right-click the *Controllers* folder and then select **Add Controller**.
 
-![](adding-a-controller/_static/image1.png)
+![Screenshot that shows the Solution Explorer window. Add is selected in the Controllers right click menu and Controller is selected in the sub menu.](adding-a-controller/_static/image1.png)
 
 Name your new controller &quot;HelloWorldController&quot;. Leave the default template as **Empty MVC controller** and click **Add**.
 
@@ -34,7 +34,7 @@ Name your new controller &quot;HelloWorldController&quot;. Leave the default tem
 
 Notice in **Solution Explorer** that a new file has been created named *HelloWorldController.cs*. The file is open in the IDE.
 
-![](adding-a-controller/_static/image3.png)
+![Screenshot that shows the Hello World Controller dot c s tab. Hello World Controller dot c s is selected in the Controllers folder in the Solution Explorer window.](adding-a-controller/_static/image3.png)
 
 Replace the contents of the file with the following code.
 
@@ -42,7 +42,7 @@ Replace the contents of the file with the following code.
 
 The controller methods will return a string of HTML as an example. The controller is named `HelloWorldController` and the first method above is named `Index`. Let's invoke it from a browser. Run the application (press F5 or Ctrl+F5). In the browser, append &quot;HelloWorld&quot; to the path in the address bar. (For example, in the illustration below, it's `http://localhost:1234/HelloWorld.`) The page in the browser will look like the following screenshot. In the method above, the code returned a string directly. You told the system to just return some HTML, and it did!
 
-![](adding-a-controller/_static/image4.png)
+![Screenshot that shows a browser with the text This is my default action in the window.](adding-a-controller/_static/image4.png)
 
 ASP.NET MVC invokes different controller classes (and different action methods within them) depending on the incoming URL. The default URL routing logic used by ASP.NET MVC uses a format like this to determine what code to invoke:
 
@@ -52,7 +52,7 @@ The first part of the URL determines the controller class to execute. So */Hello
 
 Browse to `http://localhost:xxxx/HelloWorld/Welcome`. The `Welcome` method runs and returns the string &quot;This is the Welcome action method...&quot;. The default MVC mapping is `/[Controller]/[ActionName]/[Parameters]`. For this URL, the controller is `HelloWorld` and `Welcome` is the action method. You haven't used the `[Parameters]` part of the URL yet.
 
-![](adding-a-controller/_static/image5.png)
+![Screenshot that shows a browser with the text This is the Welcome action method in the window.](adding-a-controller/_static/image5.png)
 
 Let's modify the example slightly so that you can pass some parameter information from the URL to the controller (for example, */HelloWorld/Welcome?name=Scott&amp;numtimes=4*). Change your `Welcome` method to include two parameters as shown below. Note that the code uses the C# optional-parameter feature to indicate that the `numTimes` parameter should default to 1 if no value is passed for that parameter.
 
@@ -60,7 +60,7 @@ Let's modify the example slightly so that you can pass some parameter informatio
 
 Run your application and browse to the example URL (`http://localhost:xxxx/HelloWorld/Welcome?name=Scott&numtimes=4)`. You can try different values for `name` and `numtimes` in the URL. The [ASP.NET MVC model binding system](http://odetocode.com/Blogs/scott/archive/2009/04/27/6-tips-for-asp-net-mvc-model-binding.aspx) automatically maps the named parameters from the query string in the address bar to parameters in your method.
 
-![](adding-a-controller/_static/image6.png)
+![Screenshot that shows a browser with the text Hello Scott Num Times is 4 in the window.](adding-a-controller/_static/image6.png)
 
 In both these examples the controller has been doing the &quot;VC&quot; portion of MVC — that is, the view and controller work. The controller is returning HTML directly. Ordinarily you don't want controllers returning HTML directly, since that becomes very cumbersome to code. Instead we'll typically use a separate view template file to help generate the HTML response. Let's look next at how we can do this.
 
