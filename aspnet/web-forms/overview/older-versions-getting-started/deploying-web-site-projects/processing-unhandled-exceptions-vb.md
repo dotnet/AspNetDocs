@@ -36,7 +36,7 @@ The `Error` event is one of many events in the [`HttpApplication` class](https:/
 
 Event handlers for the `HttpApplication` events can be placed in a special file named `Global.asax`. To create this file in your website, add a new item to the root of your website using the Global Application Class template with the name `Global.asax`.
 
-[![](processing-unhandled-exceptions-vb/_static/image2.png)](processing-unhandled-exceptions-vb/_static/image1.png)
+[![Sceenshot that shows the Global dot A S A X file. ](processing-unhandled-exceptions-vb/_static/image2.png)](processing-unhandled-exceptions-vb/_static/image1.png)
 
 **Figure 1**: Add `Global.asax` To Your Web Application  
  ([Click to view full-size image](processing-unhandled-exceptions-vb/_static/image3.png))
@@ -99,12 +99,12 @@ With this code in place anytime there's an error the developer is sent an email 
 
 **Figure 2** shows the email received when visiting `Genre.aspx?ID=foo`. The email body summarizes the exception information, while the `YSOD.htm` attachment displays the content that is shown in the Exception Details YSOD (see **Figure 3**).
 
-[![](processing-unhandled-exceptions-vb/_static/image5.png)](processing-unhandled-exceptions-vb/_static/image4.png)
+[![Screenshot that highlights the email sent to the developer.](processing-unhandled-exceptions-vb/_static/image5.png)](processing-unhandled-exceptions-vb/_static/image4.png)
 
 **Figure 2**: The Developer Is Sent An Email Notification Whenever There's An Unhandled Exception  
  ([Click to view full-size image](processing-unhandled-exceptions-vb/_static/image6.png))
 
-[![](processing-unhandled-exceptions-vb/_static/image8.png)](processing-unhandled-exceptions-vb/_static/image7.png)
+[![Screenshot that highlights that the email notification includes the exception details Y S O D as an attachment.](processing-unhandled-exceptions-vb/_static/image8.png)](processing-unhandled-exceptions-vb/_static/image7.png)
 
 **Figure 3**: The Email Notification Includes the Exception Details YSOD As An Attachment  
  ([Click to view full-size image](processing-unhandled-exceptions-vb/_static/image9.png))
@@ -117,7 +117,7 @@ It's natural to wonder whether the `Global.asax` file and `Application_Error` ev
 
 The reason for this behavior is because the custom error page is reached via a redirect. When an unhandled exception reaches the ASP.NET runtime the ASP.NET engine raises its `Error` event (which executes the `Application_Error` event handler) and then *redirects* the user to the custom error page by issuing a `Response.Redirect(customErrorPageUrl)`. The `Response.Redirect` method sends a response to the client with an HTTP 302 status code, instructing the browser to request a new URL, namely the custom error page. The browser then automatically requests this new page. You can tell that the custom error page was requested separately from the page where the error originated because the browser's Address bar changes to the custom error page URL (see **Figure 4**).
 
-[![](processing-unhandled-exceptions-vb/_static/image11.png)](processing-unhandled-exceptions-vb/_static/image10.png)
+[![Screenshot that highlights that the browser gets redirected when an error occurs.](processing-unhandled-exceptions-vb/_static/image11.png)](processing-unhandled-exceptions-vb/_static/image10.png)
 
 **Figure 4**: When an Error Occurs the Browser Gets Redirected to the Custom Error Page URL  
  ([Click to view full-size image](processing-unhandled-exceptions-vb/_static/image12.png))
