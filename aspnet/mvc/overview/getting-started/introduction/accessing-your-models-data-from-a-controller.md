@@ -2,7 +2,7 @@
 uid: mvc/overview/getting-started/introduction/accessing-your-models-data-from-a-controller
 title: "Accessing Your Model's Data from a Controller | Microsoft Docs"
 author: Rick-Anderson
-description: ""
+description: "In this section, you'll create a new `MoviesController` class and write code that retrieves the movie data and displays it in the browser using a view template."
 ms.author: riande
 ms.date: 10/17/2013
 ms.assetid: caa1ba4a-f9f0-4181-ba21-042e3997861d

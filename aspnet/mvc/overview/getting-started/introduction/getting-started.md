@@ -1,7 +1,8 @@
 ---
 uid: mvc/overview/getting-started/introduction/getting-started
-title: "Getting Started withP.N ASET MVC 5 | Microsoft Docs"
+title: "Getting Started with ASP.NET MVC 5 | Microsoft Docs"
 author: Rick-Anderson
+description: "This tutorial teaches you the basics of building an ASP.NET MVC 5 web app using Visual Studio 2017"
 ms.author: riande
 ms.date: 10/04/2018
 ms.assetid: f3d8adbe-55e7-4fd4-84a8-7155bc45c676

@@ -1,6 +1,6 @@
 ---
 uid: mvc/videos/mvc-3/index
-title: "ASP.NET MVC 3 | Microsoft Docs"
+title: "ASP.NET MVC 3 Index | Microsoft Docs"
 author: rick-anderson
 description: "ASP.NET MVC 3 Quick Hits"
 ms.author: riande

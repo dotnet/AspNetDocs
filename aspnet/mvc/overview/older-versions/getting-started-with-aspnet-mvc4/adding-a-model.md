@@ -2,7 +2,7 @@
 uid: mvc/overview/older-versions/getting-started-with-aspnet-mvc4/adding-a-model
 title: "Adding a Model (2012) | Microsoft Docs"
 author: Rick-Anderson
-description: "Note: An updated version of this tutorial is available here that uses ASP.NET MVC 5 and Visual Studio 2013. It's more secure, much simpler to follow and demo..."
+description: "In this section you'll add some classes for managing movies in a database. These classes will be the model part of the ASP.NET MVC application."
 ms.author: riande
 ms.date: 08/28/2012
 ms.assetid: 53db72da-e0b9-44d9-b60b-6e6988c00b28
@@ -24,7 +24,7 @@ You'll use a .NET Framework data-access technology known as the [Entity Framewor
 
 In **Solution Explorer**, right click the *Models* folder, select **Add**, and then select **Class**.
 
-![](adding-a-model/_static/image1.png)
+![Screenshot that shows the Solution Explorer window. Add is selected in the Models right click menu and Class is selected in the sub menu.](adding-a-model/_static/image1.png)
 
 Enter the *class* name &quot;Movie&quot;.
 
@@ -54,7 +54,7 @@ The `MovieDBContext` class you created handles the task of connecting to the dat
 
 Open the application root *Web.config* file. (Not the *Web.config* file in the *Views* folder.) Open the *Web.config* file outlined in red.
 
-![](adding-a-model/_static/image2.png)
+![Screenshot that shows the Solution Explorer window. Web dot config is circled in red.](adding-a-model/_static/image2.png)
 
 Add the following connection string to the `<connectionStrings>` element in the *Web.config* file.
 

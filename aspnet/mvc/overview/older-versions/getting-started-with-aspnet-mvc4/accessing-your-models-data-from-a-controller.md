@@ -2,7 +2,7 @@
 uid: mvc/overview/older-versions/getting-started-with-aspnet-mvc4/accessing-your-models-data-from-a-controller
 title: "Accessing Your Model's Data from a Controller (2012) | Microsoft Docs"
 author: Rick-Anderson
-description: "Note: An updated version of this tutorial is available here that uses ASP.NET MVC 5 and Visual Studio 2013. It's more secure, much simpler to follow and demo..."
+description: "Tutorial that shows you how to access your model's data from a controller. You will learn how to create a movie, examine the generated code, and work with SQL server LocalDB."
 ms.author: riande
 ms.date: 08/28/2012
 ms.assetid: 61e0206d-7f32-4018-992d-0a51b48b37dc
@@ -40,13 +40,13 @@ ASP.NET MVC 4 automatically created the CRUD (create, read, update, and delete) 
 
 Run the application and browse to the `Movies` controller by appending */Movies* to the URL in the address bar of your browser. Because the application is relying on the default routing (defined in the *Global.asax* file), the browser request `http://localhost:xxxxx/Movies` is routed to the default `Index` action method of the `Movies` controller. In other words, the browser request `http://localhost:xxxxx/Movies` is effectively the same as the browser request `http://localhost:xxxxx/Movies/Index`. The result is an empty list of movies, because you haven't added any yet.
 
-![](accessing-your-models-data-from-a-controller/_static/image2.png)
+![Screenshot that shows the M V C Movie Index page.](accessing-your-models-data-from-a-controller/_static/image2.png)
 
 ### Creating a Movie
 
 Select the **Create New** link. Enter some details about a movie and then click the **Create** button.
 
-![](accessing-your-models-data-from-a-controller/_static/image3.png)
+![Screenshot that shows the M V C Movie Create page.](accessing-your-models-data-from-a-controller/_static/image3.png)
 
 Clicking the **Create** button causes the form to be posted to the server, where the movie information is saved in the database. You're then redirected to the */Movies* URL, where you can see the newly created movie in the listing.
 
@@ -104,7 +104,7 @@ Because the `Model` object is strongly typed (as an `IEnumerable<Movie>` object)
 
 Entity Framework Code First detected that the database connection string that was provided pointed to a `Movies` database that didn't exist yet, so Code First created the database automatically. You can verify that it's been created by looking in the *App\_Data* folder. If you don't see the *Movies.mdf* file, click the **Show All Files** button in the **Solution Explorer** toolbar, click the **Refresh** button, and then expand the *App\_Data* folder.
 
-![](accessing-your-models-data-from-a-controller/_static/image6.png)
+![Screenshot that shows the Solution Explorer window. The Show All Files icon is circled in red and the App Data folder is selected.](accessing-your-models-data-from-a-controller/_static/image6.png)
 
 Double-click *Movies.mdf* to open **DATABASE EXPLORER**, then expand the **Tables** folder to see the Movies table.
 
@@ -123,19 +123,19 @@ Double-click *Movies.mdf* to open **DATABASE EXPLORER**, then expand the **Table
 
 Right-click the `Movies` table and select **Show Table Data** to see the data you created.
 
-![](accessing-your-models-data-from-a-controller/_static/image8.png)
+![Screenshot that shows the d b o dot Movies Data tab.](accessing-your-models-data-from-a-controller/_static/image8.png)
 
 Right-click the `Movies` table and select **Open Table Definition** to see the table structure that Entity Framework Code First created for you.
 
-![](accessing-your-models-data-from-a-controller/_static/image9.png "MoviesTable")
+![Screenshot that shows the Database Explorer window. Open Table Definition is selected in the Movies right click menu.](accessing-your-models-data-from-a-controller/_static/image9.png "MoviesTable")
 
-![](accessing-your-models-data-from-a-controller/_static/image10.png)
+![Screenshot that shows the d b o dot Movies tab and the Entity Framework Code underneath.](accessing-your-models-data-from-a-controller/_static/image10.png)
 
 Notice how the schema of the `Movies` table maps to the `Movie` class you created earlier. Entity Framework Code First automatically created this schema for you based on your `Movie` class.
 
 When you're finished, close the connection by right clicking *MovieDBContext* and selecting **Close Connection**. (If you don't close the connection, you might get an error the next time you run the project).
 
-![](accessing-your-models-data-from-a-controller/_static/image11.png "CloseConnection")
+![Screenshot that shows the Database Explorer window. Close Connection is selected in the Movie D B Context right click menu.](accessing-your-models-data-from-a-controller/_static/image11.png "CloseConnection")
 
 You now have the database and a simple listing page to display content from it. In the next tutorial, we'll examine the rest of the scaffolded code and add a `SearchIndex` method and a `SearchIndex` view that lets you search for movies in this database.
 

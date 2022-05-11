@@ -2,7 +2,7 @@
 uid: mvc/overview/getting-started/introduction/adding-a-model
 title: "Adding a Model | Microsoft Docs"
 author: Rick-Anderson
-description: ""
+description: "In this section you'll add some classes for managing movies in a database. These classes will be the model part of the ASP.NET MVC app."
 ms.author: riande
 ms.date: 05/28/2015
 ms.assetid: 276552b5-f349-4fcf-8f40-6d042f7aa88e

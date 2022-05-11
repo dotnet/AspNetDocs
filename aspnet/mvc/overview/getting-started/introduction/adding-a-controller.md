@@ -2,7 +2,7 @@
 uid: mvc/overview/getting-started/introduction/adding-a-controller
 title: "Adding a Controller | Microsoft Docs"
 author: Rick-Anderson
-description: ""
+description: "MVC stands for model-view-controller. MVC is a pattern for developing applications that are well architected, testable and easy to maintain. In this article you will learn how to add a controller."
 ms.author: riande
 ms.date: 10/17/2013
 ms.assetid: cc764f3b-6921-486a-8f44-c6ccd1249acd
@@ -82,7 +82,7 @@ Replace the Welcome method with the following code:
 
 Run the application and enter the following URL: `http://localhost:xxx/HelloWorld/Welcome/1?name=Scott`
 
-![Screenshot that shows a browser window with the U R L local host colon 1 2 3 4 forward slash Hello World forward slash Welcome forward slash 1 question mark name equals scott. The text in the window is Hello Scott ID 1](adding-a-controller/_static/image8.png)
+![Screenshot that shows a browser window with the U R L local host colon 1 2 3 4 forward slash Hello World forward slash Welcome forward slash 1 question mark name equals scott. The text in the window is Hello Scott ID 1.](adding-a-controller/_static/image8.png)
 
 This time the third URL segment matched the route parameter `ID.` The `Welcome` action method contains a parameter (`ID`) that matched the URL specification in the `RegisterRoutes` method.
 
