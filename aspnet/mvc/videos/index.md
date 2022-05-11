@@ -2,7 +2,7 @@
 uid: mvc/videos/index
 title: "ASP.NET Videos | Microsoft Docs"
 author: rick-anderson
-description: ""
+description: "ASP.NET MVC application resource videos"
 ms.author: riande
 ms.date: 06/24/2011
 ms.assetid: e618c37c-68f3-49aa-9fda-f86cb3b578b9
