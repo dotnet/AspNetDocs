@@ -30,7 +30,7 @@ Start Visual Studio and select **New Project** from the **Start** page. Or, from
 
 In the **Templates** pane, select **Installed Templates** and expand the **Visual C#** node. Under **Visual C#**, select **Windows**. In the list of project templates, select **Console Application**. Name the project &quot;SelfHost&quot; and click **OK**.
 
-![Screenshot of the New Project dialog box showing the Visual C# item in the folder list and the Windows Forms Application item highlighted in gray.](self-host-a-web-api/_static/image1.png)
+![Screenshot of the New Project dialog box showing the Visual C# item in the folder list and the Windows Forms Application item, which is highlighted in gray.](self-host-a-web-api/_static/image1.png)
 
 ## Set the Target Framework (Visual Studio 2010)
 
@@ -38,7 +38,7 @@ If you are using Visual Studio 2010, change the target framework to .NET Framewo
 
 In Solution Explorer, right-click the project and select **Properties**. In the **Target framework** dropdown list, change the target framework to .NET Framework 4.0. When prompted to apply the change, click **Yes**.
 
-![Screenshot of the Solution Explorer window showing the Target Framework dropdown list with the .NET Framework 4 item highlighted in blue.](self-host-a-web-api/_static/image2.png)
+![Screenshot of the Solution Explorer window showing the Target Framework dropdown list with the dot NET Framework 4 item, which is highlighted in blue.](self-host-a-web-api/_static/image2.png)
 
 ## Install NuGet Package Manager
 
@@ -56,7 +56,7 @@ To install NuGet Package Manager:
 6. After the download completes, you will be prompted to install.
 7. After the installation completes, you might be prompted to restart Visual Studio.
 
-![Screenshot of the Extensions and Updates dialog box showing NuGet Package Manager in the search results highlighted in gray.](self-host-a-web-api/_static/image3.png)
+![Screenshot of the Extensions and Updates dialog box showing NuGet Package Manager in the search results, which is highlighted in gray.](self-host-a-web-api/_static/image3.png)
 
 ## Add the Web API NuGet Package
 
@@ -72,7 +72,7 @@ After NuGet Package Manager is installed, add the Web API Self-Host package to y
 > [!NOTE]
 > Make sure to install the package named Microsoft.AspNet.WebApi.SelfHost, not AspNetWebApi.SelfHost.
 
-![Screenshot of the Manage NuGet Packages dialog box showing Microsoft A S P dot Net Web A P I Self Host highlighted in blue.](self-host-a-web-api/_static/image4.png)
+![Screenshot of the Manage NuGet Packages dialog box showing Microsoft A S P dot Net Web A P I Self Host, which is highlighted in blue.](self-host-a-web-api/_static/image4.png)
 
 ## Create the Model and Controller
 
@@ -130,7 +130,7 @@ Add a new console application project to the solution:
 - In Solution Explorer, right-click the solution and select **Add New Project**.
 - Create a new console application named &quot;ClientApp&quot;.
 
-![Screenshot of the Solution Explorer showing the right-click menu items Add and New Project highlighted in white.](self-host-a-web-api/_static/image5.png)
+![Screenshot of the Solution Explorer showing the right-click menu items Add and New Project, which is highlighted in white.](self-host-a-web-api/_static/image5.png)
 
 Use NuGet Package Manager to add the ASP.NET Web API Core Libraries package:
 
@@ -148,7 +148,7 @@ Add a reference in ClientApp to the SelfHost project:
 - Select the SelfHost project.
 - Click **OK**.
 
-![Screenshot of the Reference Manager dialog box showing the Self Host project highlighted with a blue box.](self-host-a-web-api/_static/image6.png)
+![Screenshot of the Reference Manager dialog box showing the Self Host project, which is highlighted with a blue box.](self-host-a-web-api/_static/image6.png)
 
 Open the Client/Program.cs file. Add the following **using** statement:
 
