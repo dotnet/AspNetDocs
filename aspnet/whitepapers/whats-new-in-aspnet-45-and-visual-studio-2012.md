@@ -439,7 +439,7 @@ By default, the parameter name is used as the key to find a value in the value p
 
 If this method is in the page's code, users can filter the results by passing a keyword using the query string:
 
-![Screenshot that shows if this method is in the page's code, users can filter the results by passing a keyword using a query string. Here, q = chef.](whats-new-in-aspnet-45-and-visual-studio-2012/_static/image4.png)
+![Screenshot that shows if this method is in the page's code, users can filter the results by passing a keyword using a query string. Here, q equal (=) chef.](whats-new-in-aspnet-45-and-visual-studio-2012/_static/image4.png)
 
 Model binding accomplishes many tasks that you would otherwise have to code by hand: reading the value, checking for a null value, attempting to convert it to the appropriate type, checking whether the conversion was successful, and finally, using the value in the query. Model binding results in far less code and in the ability to reuse the functionality throughout your application.
 
@@ -595,11 +595,11 @@ However, this type of UI help for complex properties has not been available in S
 
 For ASP.NET Web Forms controls, Smart Tasks appear on server tags as a small glyph when the insertion point is inside the element:
 
-![Screenshot that shows for A S P.NET Web Forms controls, Smart Tasks appear on server tags as a small glyph when the insertion point is inside the element.](whats-new-in-aspnet-45-and-visual-studio-2012/_static/image6.png)
+![Screenshot that shows for A S P dot NET Web Forms controls, Smart Tasks appear on server tags as a small glyph when the insertion point is inside the element.](whats-new-in-aspnet-45-and-visual-studio-2012/_static/image6.png)
 
 The Smart Task expands when you click the glyph or press CTRL+. (dot), just as in the code editors. It then displays shortcuts that are similar to the Smart Tasks in Design view.
 
-![Screenshot shows that Smart Task expands when you click the glyph or press C T R L + dot, just as in the code editors. The Smart Task in this illustration shows the GridView Tasks options.](whats-new-in-aspnet-45-and-visual-studio-2012/_static/image7.png)
+![Screenshot shows that Smart Task expands when you click the glyph or press C T R L plus dot, just as in the code editors. The Smart Task in this illustration shows the GridView Tasks options.](whats-new-in-aspnet-45-and-visual-studio-2012/_static/image7.png)
 
 For example, the Smart Task in the previous illustration shows the GridView Tasks options. If you choose Edit Columns, the following dialog box is displayed:
 
@@ -783,7 +783,7 @@ Analysis of hundreds of real-world CSS files shows that CSS hacks are very commo
 
 Typical selector hacks are also supported so that hierarchical indentation is maintained even when they are applied. A typical selector hack used to target Internet Explorer 7 is to prepend a selector with *\*:first-child + html*. Using that rule will maintain the hierarchical indentation:
 
-![Screenshot that shows a typical selector hack used to target Internet Explorer 7 to prepend a selector with slash : first-child plus h t m l. Using this rule maintains the hierarchical indentation.](whats-new-in-aspnet-45-and-visual-studio-2012/_static/image29.png)
+![Screenshot that shows a typical selector hack used to target Internet Explorer 7 to prepend a selector with slash : first-child plus H T M L. Using this rule maintains the hierarchical indentation.](whats-new-in-aspnet-45-and-visual-studio-2012/_static/image29.png)
 
 <a id="_Toc318097419"></a>
 #### Vendor specific schemas (-moz-, -webkit)
@@ -843,7 +843,7 @@ When a region is collapsed it displays the name of the region:
 
 Page Inspector is a tool that renders a web page (HTML, Web Forms, ASP.NET MVC, or Web Pages) in the Visual Studio IDE and lets you examine both the source code and the resulting output. For ASP.NET pages, Page Inspector lets you determine which server-side code has produced the HTML markup that is rendered to the browser.
 
-![Screenshot that shows for A S P.NET pages, Page Inspector lets you determine which server-side code has produced the H T M L markup that is rendered to the browser.](whats-new-in-aspnet-45-and-visual-studio-2012/_static/image37.png)
+![Screenshot that shows for A S P dot NET pages, Page Inspector lets you determine which server-side code has produced the H T M L markup that is rendered to the browser.](whats-new-in-aspnet-45-and-visual-studio-2012/_static/image37.png)
 
 For more information about Page Inspector, please see the following tutorials:
 
