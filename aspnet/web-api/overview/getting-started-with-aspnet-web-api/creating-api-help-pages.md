@@ -1,7 +1,7 @@
 ---
 uid: web-api/overview/getting-started-with-aspnet-web-api/creating-api-help-pages
 title: "Creating Help Pages for ASP.NET Web API - ASP.NET 4.x"
-author: MikeWasson
+author: rick-anderson
 description: "This tutorial with code shows how to create help pages for ASP.NET Web API in ASP.NET 4.x."
 ms.author: riande
 ms.date: 04/01/2013
@@ -16,7 +16,7 @@ This tutorial with code shows how to create help pages for ASP.NET Web API in AS
 
 When you create a web API, it is often useful to create a help page, so that other developers will know how to call your API. You could create all of the documentation manually, but it is better to autogenerate as much as possible. To make this task easier, ASP.NET Web API provides a library for auto-generating help pages at run time.
 
-![](creating-api-help-pages/_static/image1.png)
+![Screenshot of the A S P dot NET A P I help page, showing the available A P I products to select from and their descriptions.](creating-api-help-pages/_static/image1.png)
 
 ## Creating API Help Pages
 
@@ -24,15 +24,15 @@ Install [ASP.NET and Web Tools 2012.2 Update](https://go.microsoft.com/fwlink/?L
 
 Next, create a new ASP.NET MVC 4 project and select the Web API project template. The project template creates an example API controller named `ValuesController`. The template also creates the API help pages. All of the code files for the help page are placed in the Areas folder of the project.
 
-![](creating-api-help-pages/_static/image2.png)
+![Screenshot of the Web A P I project template's menu options, circling the area and help page folders.](creating-api-help-pages/_static/image2.png)
 
 When you run the application, the home page contains a link to the API help page. From the home page, the relative path is /Help.
 
-![](creating-api-help-pages/_static/image3.png)
+![Screenshot of the home page, pointing to the A P I clickable letters that will open the link to the help page.](creating-api-help-pages/_static/image3.png)
 
 This link brings you to an API summary page.
 
-![](creating-api-help-pages/_static/image4.png)
+![Screenshot of the A P I summary help page, showing the different A P I values and their description.](creating-api-help-pages/_static/image4.png)
 
 The MVC view for this page is defined in Areas/HelpPage/Views/Help/Index.cshtml. You can edit this page to modify the layout, introduction, title, styles, and so forth.
 
@@ -42,7 +42,7 @@ The "API" column lists the HTTP method and relative URI. The "Description" colum
 
 Each API has a link to a page with more detailed information, including example request and response bodies.
 
-![](creating-api-help-pages/_static/image5.png)
+![Screenshot of one of the A P I selection values, showing the response information and response body formats.](creating-api-help-pages/_static/image5.png)
 
 ## Adding Help Pages to an Existing Project
 
@@ -72,11 +72,11 @@ By default, the help pages have placeholder strings for documentation. You can u
 
 Now enable XML documentation. In Solution Explorer, right-click the project and select **Properties**. Select the **Build** page.
 
-![](creating-api-help-pages/_static/image6.png)
+![Screenshot of the project's drop-down menu in the solution explorer window, highlighting the build option.](creating-api-help-pages/_static/image6.png)
 
 Under **Output**, check **XML documentation file**. In the edit box, type "App\_Data/XmlDocument.xml".
 
-![](creating-api-help-pages/_static/image7.png)
+![Screenshot of the Output dialog box, showing the output path and the option to select the X M L documentation file.](creating-api-help-pages/_static/image7.png)
 
 Next, open the code for the `ValuesController` API controller, which is defined in /Controllers/ValuesController.cs. Add some documentation comments to the controller methods. For example:
 
@@ -87,7 +87,7 @@ Next, open the code for the `ValuesController` API controller, which is defined 
 
 Now build and run the application again, and navigate to the help pages. The documentation strings should appear in the API table.
 
-![](creating-api-help-pages/_static/image8.png)
+![Screenshot of the A P I table in the help pages, showing the documentation string in the A P I value and description.](creating-api-help-pages/_static/image8.png)
 
 The help page reads the strings from the XML file at run time. (When you deploy the application, make sure to deploy the XML file.)
 

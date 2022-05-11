@@ -105,7 +105,7 @@ For more information and tutorials, see [ASP.NET Scaffolding Overview](aspnet-sc
 
 The new [Browser Link](using-browser-link.md) feature lets you connect multiple browsers to Visual Studio and refresh them all by clicking a button in the toolbar. You can connect multiple browsers to your development site, including mobile emulators, and click refresh to refresh all the browsers all at the same time. Browser Link also exposes an API to enable developers to write Browser Link extensions.
 
-![](release-notes/_static/image3.png)
+![Screenshot of Visual Studio menu, with Refresh icon highlighted and Browser Link Dashboard highlighted in dropdown menu.](release-notes/_static/image3.png)
 
 By enabling developers to take advantage of the Browser Link API, it becomes possible to create very advanced scenarios that crosses boundaries between Visual Studio and any browser that's connected. Web Essentials takes advantage of the API to create an integrated experience between Visual Studio and the browser's developer tools, remote controlling mobile emulators and a lot more.
 

@@ -1,8 +1,8 @@
 ---
 uid: web-api/overview/older-versions/using-web-api-1-with-entity-framework-5/using-web-api-with-entity-framework-part-6
 title: "Part 6: Creating Product and Order Controllers | Microsoft Docs"
-author: MikeWasson
-description: ""
+author: Rick-Anderson
+description: "In this tutorial, learn how to create product and order controllers for a Web API with Entity Framework."
 ms.author: riande
 ms.date: 07/04/2012
 ms.assetid: 91ee29ee-0689-40ee-914a-e7dd733b6622
@@ -11,7 +11,7 @@ msc.type: authoredcontent
 ---
 # Part 6: Creating Product and Order Controllers
 
-by Mike Wasson
+by Rick Anderson
 
 [Download Completed Project](https://code.msdn.microsoft.com/ASP-NET-Web-API-with-afa30545)
 
@@ -31,7 +31,7 @@ Add a class named `ProductDTO` to the Models folder.
 
 Now add the controller. In Solution Explorer, right-click the Controllers folder. Select **Add**, then select **Controller**. In the **Add Controller** dialog, name the controller &quot;ProductsController&quot;. Under **Template**, select **Empty API controller**.
 
-![](using-web-api-with-entity-framework-part-6/_static/image1.png)
+![Screenshot of the add controller dialogue box.](using-web-api-with-entity-framework-part-6/_static/image1.png)
 
 Replace everything in the source file with the following code:
 
@@ -60,7 +60,7 @@ Now add the controller. In Solution Explorer, right-click the Controllers folder
 - Under **Model class**, select &quot;Order (ProductStore.Models)&quot;.
 - Under **Data context class**, select &quot;OrdersContext (ProductStore.Models)&quot;.
 
-![](using-web-api-with-entity-framework-part-6/_static/image2.png)
+![Screenshot of the add controller dialogue box. OrdersController is written in the text box.](using-web-api-with-entity-framework-part-6/_static/image2.png)
 
 Click **Add**. This adds a file named OrdersController.cs. Next, we need to modify the default implementation of the controller.
 

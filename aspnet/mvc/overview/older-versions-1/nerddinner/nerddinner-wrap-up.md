@@ -21,7 +21,7 @@ by [Microsoft](https://github.com/microsoft)
 
 Our NerdDinner application is now complete and ready to deploy on the web.
 
-![](nerddinner-wrap-up/_static/image1.png)
+![Screenshot of the Nerd Dinner application page. The Host a Dinner page is shown.](nerddinner-wrap-up/_static/image1.png)
 
 We used a broad set of ASP.NET MVC features to build NerdDinner. Hopefully the process of developing it shed some light on how the core ASP.NET MVC features work, and provided context on how these features integrate together within an application.
 

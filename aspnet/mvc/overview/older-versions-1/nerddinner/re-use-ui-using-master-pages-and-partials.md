@@ -33,11 +33,11 @@ Let's now look at ways we can apply the "DRY Principle" within our view template
 
 Currently we are using two different view templates – "Edit.aspx" and "Create.aspx" – to display our Dinner form UI. A quick visual comparison of them highlights how similar they are. Below is what the create form looks like:
 
-![](re-use-ui-using-master-pages-and-partials/_static/image1.png)
+![Screenshot of the My M V C Application page. The Host a Dinner form is shown.](re-use-ui-using-master-pages-and-partials/_static/image1.png)
 
 And here is what our "Edit" form looks like:
 
-![](re-use-ui-using-master-pages-and-partials/_static/image2.png)
+![Screenshot of the My M V C Application paage is shown. The Edit form is shown.](re-use-ui-using-master-pages-and-partials/_static/image2.png)
 
 Not much of a difference is there? Other than the title and header text, the form layout and input controls are identical.
 
@@ -49,11 +49,11 @@ ASP.NET MVC supports the ability to define "partial view" templates that can be 
 
 To help "DRY-up" our Edit.aspx and Create.aspx view template duplication, we can create a partial view template named "DinnerForm.ascx" that encapsulates the form layout and input elements common to both. We'll do this by right-clicking on our /Views/Dinners directory and choosing the "Add-&gt;View" menu command:
 
-![](re-use-ui-using-master-pages-and-partials/_static/image3.png)
+![Screenshot of the Solution Explorer navigation tree. Dinner is highlighted. Add and View are selected. View is highlighted.](re-use-ui-using-master-pages-and-partials/_static/image3.png)
 
 This will display the "Add View" dialog. We'll name the new view we want to create "DinnerForm", select the "Create a partial view" checkbox within the dialog, and indicate that we will pass it a DinnerFormViewModel class:
 
-![](re-use-ui-using-master-pages-and-partials/_static/image4.png)
+![Screenshot of the Add View dialog. Create a partial view is selected and highlighted.](re-use-ui-using-master-pages-and-partials/_static/image4.png)
 
 When we click the "Add" button, Visual Studio will create a new "DinnerForm.ascx" view template for us within the "\Views\Dinners" directory.
 
@@ -97,7 +97,7 @@ In addition to supporting partial views, ASP.NET MVC also supports the ability t
 
 By default, new ASP.NET MVC projects have a master page template automatically added to them. This master page is named "Site.master" and lives within the \Views\Shared\ folder:
 
-![](re-use-ui-using-master-pages-and-partials/_static/image5.png)
+![Screenshot of the Nerd Dinner navigation tree. Site Master is highlighted and selected.](re-use-ui-using-master-pages-and-partials/_static/image5.png)
 
 The default Site.master file looks like below. It defines the outer html of the site, along with a menu for navigation at the top. It contains two replaceable content placeholder controls – one for the title, and the other for where the primary content of a page should be replaced:
 
@@ -115,11 +115,11 @@ Let's update our Site.master's header section so that the header of our applicat
 
 When we save the Site.master file and refresh our browser we'll see our header changes show up across all views within our application. For example:
 
-![](re-use-ui-using-master-pages-and-partials/_static/image6.png)
+![Screenshot of the Nerd Dinner Upcoming Dinners list page.](re-use-ui-using-master-pages-and-partials/_static/image6.png)
 
 And with the */Dinners/Edit/[id]* URL:
 
-![](re-use-ui-using-master-pages-and-partials/_static/image7.png)
+![Screenshot of the Nerd Dinner Edit form page is shown.](re-use-ui-using-master-pages-and-partials/_static/image7.png)
 
 ### Next Step
 
