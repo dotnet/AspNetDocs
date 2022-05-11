@@ -1,8 +1,8 @@
 ---
 uid: web-api/overview/older-versions/using-web-api-1-with-entity-framework-5/using-web-api-with-entity-framework-part-5
 title: "Part 5: Creating a Dynamic UI with Knockout.js | Microsoft Docs"
-author: MikeWasson
-description: ""
+author: Rick-Anderson
+description: "In this section, we'll use Knockout.js, a Javascript library that makes it easy to bind HTML controls to data, to add functionality to the Admin view."
 ms.author: riande
 ms.date: 07/04/2012
 ms.assetid: 9d9cb3b0-f4a7-434e-a508-9fc0ad0eb813
@@ -11,7 +11,7 @@ msc.type: authoredcontent
 ---
 # Part 5: Creating a Dynamic UI with Knockout.js
 
-by Mike Wasson
+by Rick Anderson
 
 [Download Completed Project](https://code.msdn.microsoft.com/ASP-NET-Web-API-with-afa30545)
 
@@ -27,7 +27,9 @@ In this section, we'll use Knockout.js to add functionality to the Admin view.
 
 The view is data-bound to the view-model. Updates to the view-model are automatically reflected in the view. The view-model also gets events from the view, such as button clicks, and performs operations on the model, such as creating an order.
 
-![](using-web-api-with-entity-framework-part-5/_static/image1.png)
+:::image type="complex" source="using-web-api-with-entity-framework-part-5/_static/image1.png" alt-text="Diagram of interaction between H T M L data, the view-model, j son, and the Web A P I controller.":::
+Diagram that shows interaction between H T M L data, the view-model, j son, and the Web A P I controller. The H T M L data box is labeled view. A double arrow labeled data binding links the H T M L data box to the view model box. A double arrow labeled H T T P requests and j son model from server links the view-model to the Web A P I controller. 
+:::image-end:::
 
 First we'll define the view-model. After that, we will bind the HTML markup to the view-model.
 

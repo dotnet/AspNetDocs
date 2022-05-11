@@ -1,7 +1,7 @@
 ---
 uid: web-api/overview/odata-support-in-aspnet-web-api/using-select-expand-and-value
 title: "Using $select, $expand, and $value in ASP.NET Web API 2 OData - ASP.NET 4.x"
-author: MikeWasson
+author: rick-anderson
 description: "Overview and code samples for the $expand, $select, and $value options in OData Web API 2 for ASP.NET 4.x."
 ms.author: riande
 ms.date: 10/11/2013
@@ -24,7 +24,7 @@ Overview and code samples for the $expand, $select, and $value options in OData 
 
 For this article, I'll use an OData service that defines three entities: Product, Supplier, and Category. Each product has one category and one supplier.
 
-![](using-select-expand-and-value/_static/image1.png)
+![Diagram that shows a sample schema for the O Data service, defining a Products, Suppliers, and Categories as its entities.](using-select-expand-and-value/_static/image1.png)
 
 Here are the C# classes that define the entity models:
 

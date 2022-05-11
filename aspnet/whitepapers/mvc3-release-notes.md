@@ -1,15 +1,15 @@
 ---
 uid: whitepapers/mvc3-release-notes
-title: "ASP.NET MVC 3 | Microsoft Docs"
+title: "ASP.NET MVC 3 Release Notes"
 author: rick-anderson
-description: ""
+description: "Release notes for ASP.NET MVC 3 RTM for Visual Studio 2010. ASP.NET MVC is a framework for developing Web applications that uses the Model-View-Controller (MVC) pattern."
 ms.author: riande
 ms.date: 10/06/2010
 ms.assetid: f44c166e-7e91-48a0-a6f8-d9285f3594e5
 msc.legacyurl: /whitepapers/mvc3-release-notes
 msc.type: content
 ---
-# ASP.NET MVC 3
+# ASP.NET MVC 3 Release Notes
 
 - [Overview](#overview)
 - [Installation Notes](#installation-notes)
@@ -193,7 +193,7 @@ Scaffolding is a way of quickly generating a controller and views for your appli
 
 To launch the *Add Controller* dialog box in ASP.NET MVC 3, right-click the *Controllers* folder in *Solution Explorer*, click *Add*, and then click *Controller*. The dialog box has been enhanced to offer additional scaffolding options.
 
-![](mvc3-release-notes/_static/image1.png)
+![Screenshot of the Add Controller dialog box.](mvc3-release-notes/_static/image1.png)
 
 There are three scaffolding templates available by default.
 
@@ -236,7 +236,7 @@ You can select Advanced Optionsto specify further options for the generated view
 
 The dialog box you use to create new ASP.NET MVC 3 projects includes multiple improvements, as listed below.
 
-![](mvc3-release-notes/_static/image2.png)
+![Screenshot of the new project dialog box. The Intranet Application icon and the checkbox Use H T M L 5 semantic markup are highlighted.](mvc3-release-notes/_static/image2.png)
 
 #### New "Intranet Project" Template
 
@@ -287,7 +287,7 @@ For example, given the frequency of new jQuery releases, the version of jQuery i
 Because jQuery includes the version number in the file name, updating jQuery to the latest version also requires updating the `<script>` tag that references the jQuery file to use the new file name. Other included script libraries do not include the version number in the script name, so they can be more easily updated to their latest versions.
 
 <a id="tu-KI"></a>
-## Known Issues
+## Known Issues in ASP.NET MVC 3
 
 - In some cases, installation may fail with the error message "Installation failed with error code (0x80070643)". For information about how to work around this issue, see [KnowledgeBase article 2531566](https://support.microsoft.com/kb/2531566).
 - The scaffolding for adding a controller does not scaffold entities that take advantage of entity inheritance support within Entity Framework. For example, given a base *Person* class that's inherited by a *Student* class, scaffolding the *Student* class will result in generated code that does not compile.
@@ -335,7 +335,7 @@ This issue has been fixed in the RTM release so that the expression is correctly
 Renaming a Razor file using Solution Explorer while the file is opened in the editor window causes syntax highlighting and IntelliSense to stop working for that file. This has been fixed so that highlighting and IntelliSense are maintained after a rename.
 
 <a id="RTM-KI"></a>
-## Known Issues
+## Known Issues for ASP.NET MVC 3 RTM
 
 - If you close Visual Studio 2010 SP1 Beta while the NuGet Package Manager Console is open, Visual Studio crashes and attempts to restart. This will be fixed in the RTM release of Visual Studio 2010 SP1.
 - The ASP.NET MVC 3 installer is only able to install an initial version of the NuGet package manager. After you have installed the initial version, NuGet can be installed and updated using Visual Studio Extension Manager. If you already have NuGet installed, go to the Visual Studio Extension Gallery to update to the latest version of NuGet.
@@ -343,13 +343,13 @@ Renaming a Razor file using Solution Explorer while the file is opened in the ed
 - The installer might take much longer than previous versions of ASP.NET MVC to complete. This is because it updates components of Visual Studio 2010.
 - IntelliSense for Razor syntax does not work when ReSharper is installed. If you have ReSharper installed and want to take advantage of the Razor IntelliSense support in ASP.NET MVC 3, see the entry [Razor Intellisense and ReSharper](https://blogs.jetbrains.com/dotnet/2010/11/razor-intellisense-and-resharper/) on Hadi Hariri's blog, which discusses ways to use them together today.
 - CCSHTML and VBHTML views created with the Beta version of ASP.NET MVC 3 do not have their build action set correctly, with the result that these view types are omitted when the project is published. The Build Action value for these files should be set to "Content". ASP.NET MVC 3 RTM fixes this issue for new files, but doesn't correct the setting for existing files for a project created with prerelease versions.
-- ![](mvc3-release-notes/_static/image3.png)
+- ![Screenshot of the properties dialog box with the build action menu open. The content option is selected.](mvc3-release-notes/_static/image3.png)
 - During installation, the EULA acceptance dialog box displays the license terms in a window that is smaller than intended.
 - When you are editing a Razor view (.cshtml file), the Go To Controller menu item in Visual Studio will not be available, and there are no code snippets.
 - If you install ASP.NET MVC 3 for Visual Web Developer Express on a computer where Visual Studio is not installed, and then later install Visual Studio, you must reinstall ASP.NET MVC 3. Visual Studio and Visual Web Developer Express share components that are upgraded by the ASP.NET MVC 3 installer. The same issue applies if you install ASP.NET MVC 3 for Visual Studio on a computer that does not have Visual Web Developer Express and then later install Visual Web Developer Express.
 
 <a id="RTM-BC"></a>
-## Breaking Changes
+## Breaking Changes in ASP.NET MVC 3
 
 - In previous versions of ASP.NET MVC, action filters are create per request except in a few cases. This behavior was never a guaranteed behavior but merely an implementation detail and the contract for filters was to consider them stateless. In ASP.NET MVC 3, filters are cached more aggressively. Therefore, any custom action filters which improperly store instance state might be broken.
 - The order of execution for exception filters has changed for exception filters that have the same *Order* value. In ASP.NET MVC 2 and earlier, exception filters on the controller that have the same *Order* value as those on an action method are executed before the exception filters on the action method. This would typically be the case when exception filters are applied without a specified *Order* value. In ASP.NET MVC 3, this order has been reversed so that the most specific exception handler executes first. As in earlier versions, if the *Order* property is explicitly specified, the filters are run in the specified order.
@@ -451,7 +451,7 @@ A bug was fixed where the *LabelFor* method rendered a *for* attribute that matc
 In earlier versions, explicit values that were passed to the *RenderAction* method were being ignored in favor of the current form values during model binding inside a child action. The fix ensures that explicit values take precedence during model binding.
 
 <a id="_Toc2_BC"></a>
-## Breaking Changes
+## Breaking Changes in ASP.NET MVC 3 RC2
 
 - In previous versions of ASP.NET MVC, action filters were created per request except in a few cases. This behavior was never a guaranteed behavior but merely an implementation detail and the contract for filters was to consider them stateless. In ASP.NET MVC 3, filters are cached more aggressively. Therefore, any custom action filters which improperly store instance state might be broken.
 - The order of execution for exception filters has changed for exception filters that have the same *Order* value. In ASP.NET MVC 2 and earlier, exception filters on the controller that had the same *Order* value as those on an action method were executed before the exception filters on the action method. This would typically be the case when exception filters were applied without a specified *Order* value. In ASP.NET MVC 3, this order has been reversed so that the most specific exception handler executes first. As in earlier versions, if the *Order* property is explicitly specified, the filters are run in the specified order.
@@ -459,13 +459,13 @@ In earlier versions, explicit values that were passed to the *RenderAction* meth
 - Custom controller factory implementations that directly implement the *IControllerFactory* interface must provide an implementation of the new *GetControllerSessionBehavior* method that was added to the interface in this release. In general, it is recommended that you do not implement this interface directly and instead derive your class from *DefaultControllerFactory*.
 
 <a id="_Toc2_KI"></a>
-## Known Issues
+## Known Issues in ASP.NET MVC 3 RC2
 
 - The ASP.NET MVC 3 installer is only able to install an initial version of the NuGet package manager. After you have installed the initial version, NuGet can be installed and updated using Visual Studio Extension Manager. If you already have NuGet installed, go to the Visual Studio Extension Gallery to update to the latest version of NuGet.
 - Creating a new ASP.NET MVC 3 project within a solution folder causes a *NullReferenceException* error. The workaround is to create the ASP.NET MVC 3 project in the root of the solution and then move it into the solution folder.
 - The installer might take much longer than previous versions of ASP.NET MVC to complete. This is because it updates components of Visual Studio 2010.
 - IntelliSense for Razor syntax does not work when ReSharper is installed. If you have ReSharper installed and want to take advantage of the Razor IntelliSense support in ASP.NET MVC 3 RC2, see the entry [Razor Intellisense and ReSharper](https://blogs.jetbrains.com/dotnet/2010/11/razor-intellisense-and-resharper/) on Hadi Hariri's blog, which discusses ways to use them together today.
-- CSHTML and VBHTML views created with the Beta version of ASP.NET MVC 3 do not have their build action set correctly, with the result that these view types are omitted when the project is published. The *Build Action* value for these files should be set to Content". ASP.NET MVC 3 RC2 fixes this issue for new files, but doesn't correct the setting for existing files for a project created with the Beta version.![](mvc3-release-notes/_static/image4.png)
+- CSHTML and VBHTML views created with the Beta version of ASP.NET MVC 3 do not have their build action set correctly, with the result that these view types are omitted when the project is published. The *Build Action* value for these files should be set to Content". ASP.NET MVC 3 RC2 fixes this issue for new files, but doesn't correct the setting for existing files for a project created with the Beta version.![Screenshot of the properties dialog box. The build action menu is open and the content option is selected.](mvc3-release-notes/_static/image4.png)
 - During installation, the EULA acceptance dialog box displays the license terms in a window that is smaller than intended.
 - When you are editing a Razor view (.cshtml file), the Go To Controller menu item in Visual Studio will not be available, and there are no code snippets.
 - If you install ASP.NET MVC 3 for Visual Web Developer Express on a computer where Visual Studio is not installed, and then later install Visual Studio, you must reinstall ASP.NET MVC 3. Visual Studio and Visual Web Developer Express share components that are upgraded by the ASP.NET MVC 3 installer. The same issue applies if you install ASP.NET MVC 3 for Visual Studio on a computer that does not have Visual Web Developer Express and then later install Visual Web Developer Express.
@@ -495,7 +495,7 @@ For more information about NuGet, read the [Nuget Documentation](/nuget/).
 
 When you create a new project, the New Project dialog box now lets you specify the view engine as well as an ASP.NET MVC project type.
 
-![](mvc3-release-notes/_static/image5.png)
+![Screenshot of the new project dialog box. The view engine menu is open and razor is selected.](mvc3-release-notes/_static/image5.png)
 
 Support for modifying the list of templates and view engines listed in the dialog box is included in this release.
 
@@ -596,13 +596,13 @@ Alternatively, to turn off request validation for every property of the model, a
 [!code-csharp[Main](mvc3-release-notes/samples/sample24.cs)]
 
 <a id="_Toc276711794"></a>
-## Breaking Changes
+## Breaking Changes in ASP.NET MVC 3 RC
 
 - The order of execution for exception filters has changed for exception filters that have the same *Order* value. In ASP.NET MVC 2 and earlier, exception filters on the controller that had the same *Order* as those on an action method were executed before the exception filters on the action method. This would typically be the case when exception filters were applied without a specified *Order* value. In ASP.NET MVC 3, this order has been reversed so that the most specific exception handler executes first. As in earlier versions, if the *Order* property is explicitly specified, the filters are run in the specified order.
 - Added a new property named *FileExtensions* to the *VirtualPathProviderViewEngine* base class. When looking up a view by path (and not by name), only views with a file extension contained in the list specified by this new property is considered. This is a breaking change for those who register a custom build provider to enable a custom file extension for web form views and are referencing those views by using a full path rather than a name. The workaround is to modify the value of the *FileExtensions* property to include the custom file extension.
 
 <a id="_Toc276711795"></a>
-## Known Issues
+## Known Issues in ASP.NET MVC 3 RC
 
 - The installer may take much longer than previous versions of ASP.NET MVC to complete because it updates components of Visual Studio 2010.
 - The Add View scaffolding when selecting astrongly typed view scaffolds write-only properties. These should always be ignored by scaffolding. The Add View dialog also scaffolds read-only properties when generating an "Edit" or "Create" view. Read-only properties should only be scaffolded for the Display and List views.
@@ -636,7 +636,7 @@ For more information about NuGet, read the [NuGet Documentation](/nuget/).
 
 When you create a new project, the New Project dialog box now lets you specify the view engine as well as an ASP.NET MVC project type.
 
-![](mvc3-release-notes/_static/image6.png)
+![Screenshot of the new project dialog box. Razor is selected from the view engine menu.](mvc3-release-notes/_static/image6.png)
 
 Support for modifying the list of templates and view engines listed in the dialog box is not included in this release.
 

@@ -2,7 +2,7 @@
 uid: web-api/overview/releases/whats-new-in-aspnet-web-api-22
 title: "What's New in ASP.NET Web API 2.2 | Microsoft Docs"
 author: rick-anderson
-description: ""
+description: "This topic describes what's new for ASP.NET Web API 2.2, including new features and bug fixes."
 ms.author: riande
 ms.date: 12/25/2014
 ms.assetid: 99c59ae4-167e-4f66-a6cd-d3f1098c4e4a
@@ -23,7 +23,7 @@ This topic describes what's new for ASP.NET Web API 2.2.
     - [Attribute Routing Improvements](#ARI)
     - [Web API Client support for Windows Phone 8.1](#phone)
 - [Known Issues and Breaking Changes](#known-issues)
-- [Bug Fixes](#bug-fixes)
+- [Bug Fixes]()
 - [Microsoft.AspNet.OData 5.2.1](#odata521)
 - [Microsoft.AspNet.WebAPI 5.2.2](#522RC)
 - [Microsoft.AspNet.WebAPI 5.2.3 Beta](#523)
