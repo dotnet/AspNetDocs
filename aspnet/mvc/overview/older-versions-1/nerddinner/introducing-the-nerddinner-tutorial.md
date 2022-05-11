@@ -25,29 +25,29 @@ The best way to learn a new framework is to build something with it. This tutori
 
 The application we are going to build is called "NerdDinner". NerdDinner provides an easy way for people to find and organize dinners online:
 
-![](introducing-the-nerddinner-tutorial/_static/image1.png)
+![Screenshot of the Nerd Dinner application page. The Host a Dinner page is shown.](introducing-the-nerddinner-tutorial/_static/image1.png)
 
 NerdDinner enables registered users to create, edit and delete dinners. It enforces a consistent set of validation and business rules across the application:
 
-![](introducing-the-nerddinner-tutorial/_static/image2.png)
+![Screenshot of the Nerd Dinner application page. The Edit Dinner page is shown.](introducing-the-nerddinner-tutorial/_static/image2.png)
 
 Visitors can use an AJAX-based map to search for upcoming dinners being held near them:
 
-![](introducing-the-nerddinner-tutorial/_static/image3.png)
+![Screenshot of the Nerd Dinner A J A X based map page.](introducing-the-nerddinner-tutorial/_static/image3.png)
 
 Clicking a dinner will take them to a details page where they can learn more about it:
 
-![](introducing-the-nerddinner-tutorial/_static/image4.png)
+![Screenshot of the Nerd Dinner web page with details about the A S P dot NET Study Group dinner.](introducing-the-nerddinner-tutorial/_static/image4.png)
 
 If they are interested in attending the dinner they can login or register on the site:
 
-![](introducing-the-nerddinner-tutorial/_static/image5.png)
+![Screenshot of the Nerd Dinner Log On page.](introducing-the-nerddinner-tutorial/_static/image5.png)
 
 They can then click an AJAX-based RSVP link to attend the event:
 
-![](introducing-the-nerddinner-tutorial/_static/image6.png)
+![Screenshot of the Nerd Dinner Study Group page. The R S V P button can be found at the bottom.](introducing-the-nerddinner-tutorial/_static/image6.png)
 
-![](introducing-the-nerddinner-tutorial/_static/image7.png)
+![Screenshot of the Nerd Dinner details page. A message saying Thanks we'll see you there is shown.](introducing-the-nerddinner-tutorial/_static/image7.png)
 
 ### Implementing NerdDinner
 

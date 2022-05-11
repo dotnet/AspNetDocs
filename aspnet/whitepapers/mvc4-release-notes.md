@@ -1,6 +1,6 @@
 ---
 uid: whitepapers/mvc4-release-notes
-title: "ASP.NET MVC 4 Release Notes | Microsoft Docs"
+title: "ASP.NET MVC 4 Release Notes"
 author: rick-anderson
 description: "This document describes the release of ASP.NET MVC 4."
 ms.author: riande
@@ -100,11 +100,11 @@ For more details on ASP.NET Web API please visit [https://www.asp.net/web-api](.
 
 The template that is used to create new ASP.NET MVC 4 projects has been updated to create a more modern-looking website:
 
-![Screenshot that shows the A S P dot NET M V C Home Page.](mvc4-release-notes/_static/image1.png)
+![Screenshot of the browser view of the new project template page.](mvc4-release-notes/_static/image1.png)
 
 In addition to cosmetic improvements, there's improved functionality in the new template. The template employs a technique called adaptive rendering to look good in both desktop browsers and mobile browsers without any customization.
 
-![Screenshot that shows a mobile display of the A S P dot NET M V C Home Page.](mvc4-release-notes/_static/image2.png)
+![Screenshot of the mobile browser view of the desktop version of the new project template page.](mvc4-release-notes/_static/image2.png)
 
 To see adaptive rendering in action, you can use a mobile emulator or just try resizing the desktop browser window to be smaller. When the browser window gets small enough, the layout of the page will change.
 
@@ -113,7 +113,7 @@ To see adaptive rendering in action, you can use a mobile emulator or just try r
 
 If you're starting a new project and want to create a site specifically for mobile and tablet browsers, you can use the new Mobile Application project template. This is based on jQuery Mobile, an open-source library for building touch-optimized UI:
 
-![Screenshot that shows a mobile display of the Mobile Application project template Home Page.](mvc4-release-notes/_static/image3.png)
+![Screenshot of the mobile browser view of the mobile application project template.](mvc4-release-notes/_static/image3.png)
 
 This template contains the same application structure as the Internet Application template (and the controller code is virtually identical), but it's styled using jQuery Mobile to look good and behave well on touch-based mobile devices. To learn more about how to structure and style mobile UI, see the [jQuery Mobile project website](http://jquerymobile.com/).
 

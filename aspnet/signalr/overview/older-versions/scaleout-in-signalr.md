@@ -4,7 +4,8 @@ title: Introduction to Scaleout in SignalR 1.x | Microsoft Docs
 author: bradygaster
 description: Describes Scaleout and provides an introduction on the web application through illustration from diagrams.
 ms.author: bradyg
-ms.date: 04/29/2013
+ms.date: 04/29/2022
+ms.custom: devdivchpfy22
 ms.assetid: 3fd9f11c-799b-4001-bd60-1e70cfc61c19
 msc.legacyurl: /signalr/overview/older-versions/scaleout-in-signalr
 msc.type: authoredcontent
@@ -22,11 +23,12 @@ In general, there are two ways to scale a web application: *scale up* and *scale
 
 The problem with scaling up is that you quickly hit a limit on the size of the machine. Beyond that, you need to scale out. However, when you scale out, clients can get routed to different servers. A client that is connected to one server will not receive messages sent from another server.
 
-![Diagram of multiple computers and servers, showing the relationship between Client computers and the Load Balancer.](scaleout-in-signalr/_static/image1.png)
+:::image type="content" source="scaleout-in-signalr/_static/image1.png" alt-text="Screenshot of the issue a client faces when a server is scaled out is that since it is connected to one server it will not receive messages sent from another server.":::
 
 One solution is to forward messages between servers, using a component called a *backplane*. With a backplane enabled, each application instance sends messages to the backplane, and the backplane forwards them to the other application instances. (In electronics, a backplane is a group of parallel connectors. By analogy, a SignalR backplane connects multiple servers.)
 
-![A diagram showing the relationship between the Backpane, Signal R App, servers, and the affected computers.](scaleout-in-signalr/_static/image2.png)
+:::image type="content" source="scaleout-in-signalr/_static/image2.png" alt-text="Screenshot of the solution to forward messages between servers using a component called a backplane.":::
+
 
 SignalR currently provides three backplanes:
 
