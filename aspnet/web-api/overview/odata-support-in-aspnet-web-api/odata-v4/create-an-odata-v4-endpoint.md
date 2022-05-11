@@ -1,7 +1,7 @@
 ---
 uid: web-api/overview/odata-support-in-aspnet-web-api/odata-v4/create-an-odata-v4-endpoint
 title: "Create an OData v4 Endpoint Using ASP.NET Web API 2.2 | Microsoft Docs"
-author: MikeWasson
+author: rick-anderson
 description: "The Open Data Protocol (OData) is a data access protocol for the web. OData provides a uniform way to query and manipulate data sets through CRUD operations..."
 ms.author: riande
 ms.date: 01/23/2019
@@ -35,11 +35,11 @@ In Visual Studio, from the **File** menu, select **New** &gt; **Project**.
 
 Expand **Installed** &gt; **Visual C#** &gt; **Web**, and select the **ASP.NET Web Application (.NET Framework)** template. Name the project &quot;ProductService&quot;.
 
-[![](create-an-odata-v4-endpoint/_static/image7.png)](create-an-odata-v4-endpoint/_static/image7.png)
+[![Screenshot of the visual studio new project window, showing menu options to create an A S P dot NET Web Application with the dot NET Framework.](create-an-odata-v4-endpoint/_static/image7.png)](create-an-odata-v4-endpoint/_static/image7.png)
 
 Select **OK**.
 
-[![](create-an-odata-v4-endpoint/_static/image8.png)](create-an-odata-v4-endpoint/_static/image8.png)
+[![Screenshot of the A S P dot NET Web Application, showing available templates to create the application with a Web A P I folder and core reference.](create-an-odata-v4-endpoint/_static/image8.png)](create-an-odata-v4-endpoint/_static/image8.png)
 
 Select the **Empty** template. Under **Add folders and core references for:**, select **Web API**. Select **OK**.
 
@@ -57,7 +57,7 @@ A *model* is an object that represents a data entity in your application.
 
 In Solution Explorer, right-click the Models folder. From the context menu, select **Add** &gt; **Class**.
 
-[![](create-an-odata-v4-endpoint/_static/image6.png)](create-an-odata-v4-endpoint/_static/image5.png)
+[![Screenshot of the solution explorer window, highlighting the path to add a model class object to the project.](create-an-odata-v4-endpoint/_static/image6.png)](create-an-odata-v4-endpoint/_static/image5.png)
 
 > [!NOTE]
 > By convention, model classes are placed in the Models folder, but you don't have to follow this convention in your own projects.
