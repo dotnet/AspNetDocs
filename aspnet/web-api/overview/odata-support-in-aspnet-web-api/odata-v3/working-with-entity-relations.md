@@ -11,9 +11,9 @@ msc.type: authoredcontent
 ---
 # Supporting Entity Relations in OData v3 with Web API 2
 
-by [Mike Wasson](https://github.com/MikeWasson)
+by Mike Wasson
 
-[Download Completed Project](http://code.msdn.microsoft.com/ASPNET-Web-API-OData-cecdb524)
+[Download Completed Project](https://code.msdn.microsoft.com/ASPNET-Web-API-OData-cecdb524)
 
 > Most data sets define relations between entities: Customers have orders; books have authors; products have suppliers. Using OData, clients can navigate over entity relations. Given a product, you can find the supplier. You can also create or remove relationships. For example, you can set the supplier for a product.
 > 

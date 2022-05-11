@@ -11,14 +11,13 @@ msc.type: authoredcontent
 ---
 # MVC recommended tutorials and articles
 
-by [Rick Anderson]((https://twitter.com/RickAndMSFT))
+by [Rick Anderson](https://twitter.com/RickAndMSFT)
 
 <a id="pwd"></a>
 ## Getting Started
 
 - [Getting Started with ASP.NET MVC 5](introduction/getting-started.md) This 11 part series is a good place to start.
 - [Pluralsight ASP.NET MVC 5 Fundamentals](https://pluralsight.com/training/Player?author=scott-allen&amp;name=aspdotnet-mvc5-fundamentals-m1-introduction&amp;mode=live&amp;clip=0&amp;course=aspdotnet-mvc5-fundamentals) (video course)
-- [Intro to ASP.NET MVC](https://www.microsoftvirtualacademy.com/training-courses/introduction-to-asp-net-mvc) by Jon Galloway and Christopher Harrison
 - [Lifecycle of an ASP.NET MVC 5 Application](lifecycle-of-an-aspnet-mvc-5-application.md) PDF document that charts the lifecycle of an ASP.NET MVC 5 app.
 
 <a id="con"></a>
@@ -47,3 +46,13 @@ by [Rick Anderson]((https://twitter.com/RickAndMSFT))
 ## Performance and Debugging
 
 - [Profile and debug your ASP.NET MVC app with Glimpse](../performance/profile-and-debug-your-aspnet-mvc-app-with-glimpse.md)
+
+## ASP.NET MVC DropDownListFor with SelectListItem
+
+When using the <xref:System.Web.Mvc.Html.SelectExtensions.DropDownListFor%2A> helper and passing to it the collection of `SelectListItem` from which it is populated, the `DropdownListFor` modifies the passed collection after it is called. `DropdownListFor` changes the `SelectListItems` Selected properties to whatever was selected by the dropdown list. This leads to unexpected behavior.
+
+The <xref:System.Web.Mvc.Html.SelectExtensions.DropDownListFor%2A>, <xref:System.Web.Mvc.Html.SelectExtensions.DropDownList%2A>, <xref:System.Web.Mvc.Html.SelectExtensions.EnumDropDownListFor%2A>, <xref:System.Web.Mvc.Html.SelectExtensions.ListBox%2A>, and <xref:System.Web.Mvc.Html.SelectExtensions.ListBoxFor%2A> update the Selected property of any `IEnumerable<SelectListItem>` passed or found in ViewData.
+
+The workaround is to create separate enumerables, containing distinct `SelectListItem` instances, for each property in the model.
+
+For more information, see [GetSelectListWithDefaultValue Modifies IEnumerable<SelectListItem> selectList](https://github.com/aspnet/AspNetWebStack/issues/271)

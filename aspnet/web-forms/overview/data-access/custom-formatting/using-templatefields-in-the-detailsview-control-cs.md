@@ -13,7 +13,7 @@ msc.type: authoredcontent
 
 by [Scott Mitchell](https://twitter.com/ScottOnWriting)
 
-[Download Sample App](http://download.microsoft.com/download/9/6/9/969e5c94-dfb6-4e47-9570-d6d9e704c3c1/ASPNET_Data_Tutorial_13_CS.exe) or [Download PDF](using-templatefields-in-the-detailsview-control-cs/_static/datatutorial13cs1.pdf)
+[Download PDF](using-templatefields-in-the-detailsview-control-cs/_static/datatutorial13cs1.pdf)
 
 > The same TemplateFields capabilities available with the GridView are also available with the DetailsView control. In this tutorial we'll display one product at a time using a DetailsView containing TemplateFields.
 

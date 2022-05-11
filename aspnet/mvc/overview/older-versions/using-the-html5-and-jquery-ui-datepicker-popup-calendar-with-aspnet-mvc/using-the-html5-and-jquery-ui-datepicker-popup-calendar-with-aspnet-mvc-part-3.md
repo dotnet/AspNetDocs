@@ -1,8 +1,8 @@
 ---
 uid: mvc/overview/older-versions/using-the-html5-and-jquery-ui-datepicker-popup-calendar-with-aspnet-mvc/using-the-html5-and-jquery-ui-datepicker-popup-calendar-with-aspnet-mvc-part-3
-title: "Using the HTML5 and jQuery UI Datepicker Popup Calendar with ASP.NET MVC - Part 3 | Microsoft Docs"
+title: Using the HTML5 and jQuery UI Datepicker Popup Calendar with ASP.NET MVC - Part 3 | Microsoft Docs
 author: Rick-Anderson
-description: "This tutorial will teach you the basics of how to work with editor templates, display templates, and the jQuery UI datepicker popup calendar in an ASP.NET MV..."
+description: This third part of the tutorial series will teach you the basics of how to work with editor templates, display templates, and the jQuery UI datepicker popup calendar in an ASP.NET MV...
 ms.author: riande
 ms.date: 08/29/2011
 ms.assetid: 8f5f91ae-12d7-4cf3-ac09-4bb53d07ee60
@@ -11,7 +11,7 @@ msc.type: authoredcontent
 ---
 # Using the HTML5 and jQuery UI Datepicker Popup Calendar with ASP.NET MVC - Part 3
 
-by [Rick Anderson]((https://twitter.com/RickAndMSFT))
+by [Rick Anderson](https://twitter.com/RickAndMSFT)
 
 > This tutorial will teach you the basics of how to work with editor templates, display templates, and the jQuery UI datepicker popup calendar in an ASP.NET MVC Web application.
 
@@ -39,7 +39,7 @@ Press Ctrl+F5 to run the application and navigate to *Movies/PersonDetail*.
 
 The `PersonDetail` view doesn't contain the `Address` complex type, as you can see in this screenshot. (No address is shown.)
 
-![](using-the-html5-and-jquery-ui-datepicker-popup-calendar-with-aspnet-mvc-part-3/_static/image1.png)
+![Screenshot of the Movie jQuery window showing the PersonDetail view and the ID, First Name, Last Name, and Phone fields.](using-the-html5-and-jquery-ui-datepicker-popup-calendar-with-aspnet-mvc-part-3/_static/image1.png)
 
 The `Address` model data is not displayed because it's a complex type. To display the address information, open the *Views\Movies\PersonDetail.cshtml* file again and add the following markup.
 
@@ -51,7 +51,7 @@ The complete markup for the `PersonDetail` now view looks like this:
 
 Run the application again and display the `PersonDetail` view. The address information is now displayed:
 
-![](using-the-html5-and-jquery-ui-datepicker-popup-calendar-with-aspnet-mvc-part-3/_static/image2.png)
+![Screenshot of the Movie jQuery window showing the PersonDetail view with the new Street Address, City, and Postal Code fields.](using-the-html5-and-jquery-ui-datepicker-popup-calendar-with-aspnet-mvc-part-3/_static/image2.png)
 
 ### Creating a Template for a Complex Type
 
@@ -59,7 +59,7 @@ In this section you'll create a template that will be used to render the `Addres
 
 In the *Views\Shared\DisplayTemplates* folder, create a strongly typed partial view named **Address**:
 
-![](using-the-html5-and-jquery-ui-datepicker-popup-calendar-with-aspnet-mvc-part-3/_static/image3.png)
+![Screenshot of the Add View window with Address in the View name field and the Create a strongly-typed view and Create as a partial view boxes ticked.](using-the-html5-and-jquery-ui-datepicker-popup-calendar-with-aspnet-mvc-part-3/_static/image3.png)
 
 Click **Add**, and then open the new *Views\Shared\DisplayTemplates\Address.cshtml* file. The new view contains the following generated markup:
 
@@ -67,7 +67,7 @@ Click **Add**, and then open the new *Views\Shared\DisplayTemplates\Address.csht
 
 Run the application and display the `PersonDetail` view. This time, the `Address` template that you just created is used to display the `Address` complex type, so the display looks like the following:
 
-![](using-the-html5-and-jquery-ui-datepicker-popup-calendar-with-aspnet-mvc-part-3/_static/image4.png)
+![Screenshot of the Movie jQuery window showing the Person Detail view with a new Address box around the Street Address, City, and Postal Code fields.](using-the-html5-and-jquery-ui-datepicker-popup-calendar-with-aspnet-mvc-part-3/_static/image4.png)
 
 ### Summary: Ways to Specify the Model Display Format and Template
 

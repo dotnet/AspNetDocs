@@ -31,19 +31,19 @@ Download and install the template by clicking the Download button above. The tem
 
 In the **Templates** pane, select **Installed Templates** and expand the **Visual C#** node. Under **Visual C#**, select **Web**. In the list of project templates, select **ASP.NET MVC 4 Web Application**. Name the project and click **OK**.
 
-![](backbonejs-template/_static/image1.png)
+![Screenshot that shows the New Project dialog box. The A S P dot NET M V C 4 Web Application template is selected.](backbonejs-template/_static/image1.png)
 
 In the **New Project** wizard, select Backbone.js SPA Project.
 
-![](backbonejs-template/_static/image2.png)
+![Screenshot that shows the New A S P dot NET M V C 4 Project dialog box. The Backbone dot j s S P A Project template is selected.](backbonejs-template/_static/image2.png)
 
 Press Ctrl-F5 to build and run the application without debugging, or press F5 to run with debugging.
 
-![](backbonejs-template/_static/image3.png)
+![Screenshot that shows the My Backbone dot j s App Home page.](backbonejs-template/_static/image3.png)
 
 Clicking "My Account" brings up the login page:
 
-![](backbonejs-template/_static/image4.png)
+![Screenshot that shows the My Account login page.](backbonejs-template/_static/image4.png)
 
 ## Walkthrough: Client Code
 
@@ -73,7 +73,7 @@ The views are defined in ~/Scripts/application/views. There are two kinds of vie
 
 Extending with `Activable` adds two new methods to the view, `activate` and `deactivate`. The router calls these methods to activate and deactive the view.
 
-Modal views are implemented as [Twitter Bootstrap](http://twitter.github.com/bootstrap/) modal dialogs. The `Membership` and `Profile` views are modal views. Model views can be invoked by any application events. For example, in the `Navigation` view, clicking the "My Account" link shows either the `Membership` view or the `Profile` view, depending on whether the user is logged in. The `Navigation` attaches click event handlers to any child elements that have the `data-command` attribute. Here is the HTML markup:
+Modal views are implemented as [Twitter Bootstrap](https://getbootstrap.com/) modal dialogs. The `Membership` and `Profile` views are modal views. Model views can be invoked by any application events. For example, in the `Navigation` view, clicking the "My Account" link shows either the `Membership` view or the `Profile` view, depending on whether the user is logged in. The `Navigation` attaches click event handlers to any child elements that have the `data-command` attribute. Here is the HTML markup:
 
 [!code-html[Main](backbonejs-template/samples/sample3.html)]
 

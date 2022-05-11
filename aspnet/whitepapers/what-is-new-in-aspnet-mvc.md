@@ -64,7 +64,7 @@ To create a new area, in Solution Explorer, right-click the project, click Add, 
 
 The following figure shows an example layout for a project with two areas, Admin and Blogs.
 
-![](what-is-new-in-aspnet-mvc/_static/image1.png)
+![Screenshot that shows an example layout for a project in the Solution Explorer drop down box with two Areas, Admin and Blogs.](what-is-new-in-aspnet-mvc/_static/image1.png)
 
 When you create an area, Visual Studio adds a class that derives from AreaRegistration to each area. This class is required in order to register the area and its routes, as shown in the following example:
 
@@ -84,7 +84,7 @@ ASP.NET MVC 2 now allows controllers to process requests asynchronously. This ca
 
 The System.ComponentModel.DefaultValueAttribute class allows a default value to be supplied for the argument parameter to an action method. For example, assume that the following default route is defined:
 
-[!code-json[Main](what-is-new-in-aspnet-mvc/samples/sample3.json)]
+[!code-json[Main](what-is-new-in-aspnet-mvc/samples/sample3.txt)]
 
 Also assume that the following controller and action method is defined:
 

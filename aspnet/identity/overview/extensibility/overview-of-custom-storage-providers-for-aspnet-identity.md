@@ -51,7 +51,7 @@ ASP.NET Identity consists of classes called managers and stores. Managers are hi
 
 The following diagram shows how your web application interacts with the managers, and stores interact with the data access layer.
 
-![](overview-of-custom-storage-providers-for-aspnet-identity/_static/image1.png)
+![Diagram showing how your web application interacts with the managers](overview-of-custom-storage-providers-for-aspnet-identity/_static/image1.png)
 
 To create a customized storage provider for ASP.NET Identity, you have to create the data source, the data access layer, and the store classes that interact with this data access layer. You can continue using the same manager APIs to perform data operations on the user but now that data is saved to a different storage system.
 
@@ -76,18 +76,18 @@ This topic assumes you are familiar with the persistence mechanism that you are 
 
 You have a lot of freedom when designing the repositories for a customized store provider. You only need to create repositories for features that you intend to use in your application. For example, if you are not using roles in your application, you do not need to create storage for roles or user roles. Your technology and existing infrastructure may require a structure that is very different from the default implementation of ASP.NET Identity. In your data access layer, you provide the logic to work with the structure of your repositories.
 
-For a MySQL implementation of data repositories for ASP.NET Identity 2.0, see [MySQLIdentity.sql](https://aspnet.codeplex.com/SourceControl/latest#Samples/Identity/AspNet.Identity.MySQL/MySQLIdentity.sql).
+For a MySQL implementation of data repositories for ASP.NET Identity 2.0, see [MySQLIdentity.sql](https://github.com/aspnet/samples/blob/master/samples/aspnet/Identity/AspNet.Identity.MySQL/MySQLIdentity.sql).
 
 In the data access layer, you provide the logic to save the data from ASP.NET Identity to your data source. The data access layer for your customized storage provider might include the following classes to store user and role information.
 
 | Class | Description | Example |
 | --- | --- | --- |
-| Context | Encapsulates the information to connect to your persistence mechanism and execute queries. This class is central to your data access layer. The other data classes will require an instance of this class to perform their operations. You will also initialize your store classes with an instance of this class. | [MySQLDatabase](https://aspnet.codeplex.com/SourceControl/latest#Samples/Identity/AspNet.Identity.MySQL/MySQLDatabase.cs) |
-| User Storage | Stores and retrieves user information (such as user name and password hash). | [UserTable (MySQL)](https://aspnet.codeplex.com/SourceControl/latest#Samples/Identity/AspNet.Identity.MySQL/UserTable.cs) |
-| Role Storage | Stores and retrieves role information (such as the role name). | [RoleTable (MySQL)](https://aspnet.codeplex.com/SourceControl/latest#Samples/Identity/AspNet.Identity.MySQL/RoleTable.cs) |
-| UserClaims Storage | Stores and retrieves user claim information (such as the claim type and value). | [UserClaimsTable (MySQL)](https://aspnet.codeplex.com/SourceControl/latest#Samples/Identity/AspNet.Identity.MySQL/UserClaimsTable.cs) |
-| UserLogins Storage | Stores and retrieves user login information (such as an external authentication provider). | [UserLoginsTable (MySQL)](https://aspnet.codeplex.com/SourceControl/latest#Samples/Identity/AspNet.Identity.MySQL/UserLoginsTable.cs) |
-| UserRole Storage | Stores and retrieves which roles a user is assigned to. | [UserRoleTable (MySQL)](https://aspnet.codeplex.com/SourceControl/latest#Samples/Identity/AspNet.Identity.MySQL/UserRoleTable.cs) |
+| Context | Encapsulates the information to connect to your persistence mechanism and execute queries. This class is central to your data access layer. The other data classes will require an instance of this class to perform their operations. You will also initialize your store classes with an instance of this class. | [MySQLDatabase](https://github.com/aspnet/samples/blob/master/samples/aspnet/Identity/AspNet.Identity.MySQL/MySQLDatabase.cs) |
+| User Storage | Stores and retrieves user information (such as user name and password hash). | [UserTable (MySQL)](https://github.com/aspnet/samples/blob/master/samples/aspnet/Identity/AspNet.Identity.MySQL/UserTable.cs) |
+| Role Storage | Stores and retrieves role information (such as the role name). | [RoleTable (MySQL)](https://github.com/aspnet/samples/blob/master/samples/aspnet/Identity/AspNet.Identity.MySQL/RoleTable.cs) |
+| UserClaims Storage | Stores and retrieves user claim information (such as the claim type and value). | [UserClaimsTable (MySQL)](https://github.com/aspnet/samples/blob/master/samples/aspnet/Identity/AspNet.Identity.MySQL/UserClaimsTable.cs) |
+| UserLogins Storage | Stores and retrieves user login information (such as an external authentication provider). | [UserLoginsTable (MySQL)](https://github.com/aspnet/samples/blob/master/samples/aspnet/Identity/AspNet.Identity.MySQL/UserLoginsTable.cs) |
+| UserRole Storage | Stores and retrieves which roles a user is assigned to. | [UserRoleTable (MySQL)](https://github.com/aspnet/samples/blob/master/samples/aspnet/Identity/AspNet.Identity.MySQL/UserRoleTable.cs) |
 
 Again, you only need to implement the classes that you intend to use in your application.
 
@@ -104,7 +104,7 @@ When implementing your own storage provider, you must create a user class which 
 
 The following diagram shows the IdentityUser class that you must create and the interface to implement in this class.
 
-![](overview-of-custom-storage-providers-for-aspnet-identity/_static/image2.png)
+![Image of the Identity User class](overview-of-custom-storage-providers-for-aspnet-identity/_static/image2.png)
 
 The [IUser&lt;TKey&gt;](https://msdn.microsoft.com/library/dn613291(v=vs.108).aspx) interface defines the properties that the UserManager attempts to call when performing requested operations. The interface contains two properties - Id and UserName. The [IUser&lt;TKey&gt;](https://msdn.microsoft.com/library/dn613291(v=vs.108).aspx) interface enables you to specify the type of the key for the user through the generic **TKey** parameter. The type of the Id property matches the value of the TKey parameter.
 
@@ -114,7 +114,7 @@ The IdentityUser class implements IUser and contains any additional properties o
 
 [!code-csharp[Main](overview-of-custom-storage-providers-for-aspnet-identity/samples/sample2.cs)]
 
- For a complete implementation, see [IdentityUser (MySQL)](https://aspnet.codeplex.com/SourceControl/latest#Samples/Identity/AspNet.Identity.MySQL/IdentityUser.cs). 
+ For a complete implementation, see [IdentityUser (MySQL)](https://github.com/aspnet/samples/blob/master/samples/aspnet/Identity/AspNet.Identity.MySQL/IdentityUser.cs). 
 
 <a id="userstore"></a>
 ## Customize the user store
@@ -123,7 +123,7 @@ You also create a UserStore class that provides the methods for all data operati
 
 The following image shows the UserStore class you must create and the relevant interfaces.
 
-![](overview-of-custom-storage-providers-for-aspnet-identity/_static/image3.png)
+![Image of the User Store class](overview-of-custom-storage-providers-for-aspnet-identity/_static/image3.png)
 
 The default project template in Visual Studio contains code that assumes many of the optional interfaces have been implemented in the user store. If you are using the default template with a customized user store, you must either implement optional interfaces in your user store or alter the template code to no longer call methods in the interfaces you have not implemented.
 
@@ -141,7 +141,7 @@ Within your UserStore class, you use the data access classes that you created to
 
 The next image shows more details about the functionality defined in each interface. All of the optional interfaces inherit from IUserStore.
 
-![](overview-of-custom-storage-providers-for-aspnet-identity/_static/image4.png)
+![Illustration showing more details about the functionality defined in each interface](overview-of-custom-storage-providers-for-aspnet-identity/_static/image4.png)
 
 - **IUserStore**  
   The [IUserStore&lt;TUser, TKey&gt;](https://msdn.microsoft.com/library/dn613278(v=vs.108).aspx) interface is the only interface you must implement in your user store. It defines methods for creating, updating, deleting, and retrieving users.
@@ -170,7 +170,7 @@ The next image shows more details about the functionality defined in each interf
 
 [!code-csharp[Main](overview-of-custom-storage-providers-for-aspnet-identity/samples/sample5.cs)]
 
-For a complete implementation (including all of interfaces), see [UserStore (MySQL)](https://aspnet.codeplex.com/SourceControl/latest#Samples/Identity/AspNet.Identity.MySQL/UserStore.cs).
+For a complete implementation (including all of interfaces), see [UserStore (MySQL)](https://github.com/aspnet/samples/blob/master/samples/aspnet/Identity/AspNet.Identity.MySQL/UserStore.cs).
 
 ### IdentityUserClaim, IdentityUserLogin, and IdentityUserRole
 
@@ -185,7 +185,7 @@ When implementing your own storage provider, you must create a role class which 
 
 The following diagram shows the IdentityRole class that you must create and the interface to implement in this class.
 
-![](overview-of-custom-storage-providers-for-aspnet-identity/_static/image5.png)
+![Image of the Identity Role class](overview-of-custom-storage-providers-for-aspnet-identity/_static/image5.png)
 
 The [IRole&lt;TKey&gt;](https://msdn.microsoft.com/library/dn613268(v=vs.108).aspx) interface defines the properties that the RoleManager attempts to call when performing requested operations. The interface contains two properties - Id and Name. The [IRole&lt;TKey&gt;](https://msdn.microsoft.com/library/dn613268(v=vs.108).aspx) interface enables you to specify the type of the key for the role through the generic **TKey** parameter. The type of the Id property matches the value of the TKey parameter.
 
@@ -195,14 +195,14 @@ The following example shows an IdentityRole class that uses an integer for the k
 
 [!code-csharp[Main](overview-of-custom-storage-providers-for-aspnet-identity/samples/sample7.cs)]
 
- For a complete implementation, see [IdentityRole (MySQL)](https://aspnet.codeplex.com/SourceControl/latest#Samples/Identity/AspNet.Identity.MySQL/IdentityRole.cs). 
+ For a complete implementation, see [IdentityRole (MySQL)](https://github.com/aspnet/samples/blob/master/samples/aspnet/Identity/AspNet.Identity.MySQL/IdentityRole.cs). 
 
 <a id="rolestore"></a>
 ## Customize the role store
 
 You also create a RoleStore class that provides the methods for all data operations on roles. This class is equivalent to the [RoleStore&lt;TRole&gt;](https://msdn.microsoft.com/library/dn468181(v=vs.108).aspx) class in the Microsoft.ASP.NET.Identity.EntityFramework namespace. In your RoleStore class, you implement the [IRoleStore&lt;TRole, TKey&gt;](https://msdn.microsoft.com/library/dn613266(v=vs.108).aspx) and optionally the [IQueryableRoleStore&lt;TRole, TKey&gt;](https://msdn.microsoft.com/library/dn613262(v=vs.108).aspx) interface.
 
-![](overview-of-custom-storage-providers-for-aspnet-identity/_static/image6.png)
+![Image showing a role store class](overview-of-custom-storage-providers-for-aspnet-identity/_static/image6.png)
 
 The following example shows a role store class. The TRole generic parameter takes the type of your role class which usually is the IdentityRole class you defined. The TKey generic parameter takes the type of your role key. 
 
@@ -213,7 +213,7 @@ The following example shows a role store class. The TRole generic parameter take
 - **RoleStore&lt;TRole&gt;**  
   To customize RoleStore, create a class that implements the IRoleStore interface. You only have to implement this class if want to use roles on your system. The constructor that takes a parameter named *database* of type ExampleDatabase is only an illustration of how to pass in your data access class. For example, in the MySQL implementation, this constructor takes a parameter of type MySQLDatabase.  
   
-  For a complete implementation, see [RoleStore (MySQL)](https://aspnet.codeplex.com/SourceControl/latest#Samples/Identity/AspNet.Identity.MySQL/RoleStore.cs) .
+  For a complete implementation, see [RoleStore (MySQL)](https://github.com/aspnet/samples/blob/master/samples/aspnet/Identity/AspNet.Identity.MySQL/RoleStore.cs) .
 
 <a id="reconfigure"></a>
 ## Reconfigure application to use new storage provider
@@ -223,7 +223,7 @@ You have implemented your new storage provider. Now, you must configure your app
 ### Replace default storage provider in MVC project
 
 1. In the **Manage NuGet Packages** window, uninstall the **Microsoft ASP.NET Identity EntityFramework** package. You can find this package by searching in the Installed packages for Identity.EntityFramework.  
-    ![](overview-of-custom-storage-providers-for-aspnet-identity/_static/image7.png) You will be asked if you also want to uninstall Entity Framework. If you do not need it in other parts of your application, you can uninstall it.
+    ![Image of the Nu Get packages window](overview-of-custom-storage-providers-for-aspnet-identity/_static/image7.png) You will be asked if you also want to uninstall Entity Framework. If you do not need it in other parts of your application, you can uninstall it.
 2. In the IdentityModels.cs file in the Models folder, delete or comment out the **ApplicationUser** and **ApplicationDbContext** classes. In an MVC application, you can delete the entire IdentityModels.cs file. In a Web Forms application, delete the two classes but make sure you keep the helper class that is also located in the IdentityModels.cs file.
 3. If your storage provider resides in a separate project, add a reference to it in your web application.
 4. Replace all references to `using Microsoft.AspNet.Identity.EntityFramework;` with a using statement for the namespace of your storage provider.

@@ -15,7 +15,7 @@ by [Joe Stagner](https://github.com/JoeStagner)
 
 Video accompaniment to the Displaying Data in a Chart (Part 2) tutorial
 
-[&#9654; Watch video (9 minutes)](https://channel9.msdn.com/Blogs/ASP-NET-Site-Videos/displaying-data-in-a-chart-part-2)
+[&#9654; Watch video (9 minutes)](https://channel9.msdn.com/Blogs/ASP-NET-Site-Videos/displaying-data-in-a-chart-(part-2))
 
 > [!div class="step-by-step"]
 > [Previous](displaying-data-in-a-chart-part-1.md)

@@ -13,7 +13,7 @@ msc.type: authoredcontent
 
 by [Scott Mitchell](https://twitter.com/ScottOnWriting)
 
-[Download Sample App](http://download.microsoft.com/download/4/a/7/4a7a3b18-d80e-4014-8e53-a6a2427f0d93/ASPNET_Data_Tutorial_53_CS.exe) or [Download PDF](inserting-a-new-record-from-the-gridview-s-footer-cs/_static/datatutorial53cs1.pdf)
+[Download PDF](inserting-a-new-record-from-the-gridview-s-footer-cs/_static/datatutorial53cs1.pdf)
 
 > While the GridView control does not provide built-in support for inserting a new record of data, this tutorial shows how to augment the GridView to include an inserting interface.
 
@@ -59,7 +59,7 @@ At this point, the GridView and ObjectDataSource s declarative markup should loo
 
 ## Step 2: Adding a Footer Row
 
-Along with its header and data rows, the GridView includes a footer row. The header and footer rows are displayed depending on the values of the GridView s [`ShowHeader`](https://msdn.microsoft.com/en-gb/library/system.web.ui.webcontrols.gridview.showheader.aspx) and [`ShowFooter`](https://msdn.microsoft.com/en-gb/library/system.web.ui.webcontrols.gridview.showfooter.aspx) properties. To show the footer row, simply set the `ShowFooter` property to `true`. As Figure 6 illustrates, setting the `ShowFooter` property to `true` adds a footer row to the grid.
+Along with its header and data rows, the GridView includes a footer row. The header and footer rows are displayed depending on the values of the GridView s [`ShowHeader`](https://msdn.microsoft.com/library/system.web.ui.webcontrols.gridview.showheader.aspx) and [`ShowFooter`](https://msdn.microsoft.com/library/system.web.ui.webcontrols.gridview.showfooter.aspx) properties. To show the footer row, simply set the `ShowFooter` property to `true`. As Figure 6 illustrates, setting the `ShowFooter` property to `true` adds a footer row to the grid.
 
 [![To Display the Footer Row, Set ShowFooter to True](inserting-a-new-record-from-the-gridview-s-footer-cs/_static/image6.gif)](inserting-a-new-record-from-the-gridview-s-footer-cs/_static/image11.png)
 
@@ -156,7 +156,7 @@ Once you ve included the Add button, test out the page in a browser. Note that w
 **Figure 12**: The Add Button s Postback is Short Circuited if There is Invalid Data in the Inserting Interface ([Click to view full-size image](inserting-a-new-record-from-the-gridview-s-footer-cs/_static/image22.png))
 
 > [!NOTE]
-> The validation controls in the inserting interface were not assigned to a validation group. This works fine so long as the inserting interface is the only set of validation controls on the page. If, however, there are other validation controls on the page (such as validation controls in the grid s editing interface), the validation controls in the inserting interface and Add button s `ValidationGroup` properties should be assigned the same value so as to associate these controls with a particular validation group. See [Dissecting the Validation Controls in ASP.NET 2.0](http://aspnet.4guysfromrolla.com/articles/112305-1.aspx) for more information on partitioning the validation controls and buttons on a page into validation groups.
+> The validation controls in the inserting interface were not assigned to a validation group. This works fine so long as the inserting interface is the only set of validation controls on the page. If, however, there are other validation controls on the page (such as validation controls in the grid s editing interface), the validation controls in the inserting interface and Add button s `ValidationGroup` properties should be assigned the same value so as to associate these controls with a particular validation group. See [Dissecting the Validation Controls in ASP.NET 2.0](https://beansoftware.com/ASP.NET-Tutorials/Validation-In-ASP.NET.aspx) for more information on partitioning the validation controls and buttons on a page into validation groups.
 
 ## Step 5: Inserting a New Record Into the`Products`Table
 

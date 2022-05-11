@@ -13,7 +13,7 @@ msc.type: authoredcontent
 
 by [Scott Mitchell](https://twitter.com/ScottOnWriting)
 
-[Download Code](http://download.microsoft.com/download/3/f/5/3f5a8605-c526-4b34-b3fd-a34167117633/ASPNET_Security_Tutorial_06_VB.zip) or [Download PDF](http://download.microsoft.com/download/3/f/5/3f5a8605-c526-4b34-b3fd-a34167117633/aspnet_tutorial06_LoggingIn_vb.pdf)
+[Download Code](https://download.microsoft.com/download/3/f/5/3f5a8605-c526-4b34-b3fd-a34167117633/ASPNET_Security_Tutorial_06_VB.zip) or [Download PDF](https://download.microsoft.com/download/3/f/5/3f5a8605-c526-4b34-b3fd-a34167117633/aspnet_tutorial06_LoggingIn_vb.pdf)
 
 > In this tutorial we will examine how to validate a user's credentials against the Membership user store using both programmatic means and the Login control. We will also look at how to customize the login control's appearance and behavior.
 
@@ -33,7 +33,7 @@ To validate a user against the Membership framework, use the `Membership` class'
 
 The `SqlMembershipProvider` validates the supplied credentials by obtaining the specified user's password via the `aspnet_Membership_GetPasswordWithFormat` stored procedure. Recall that the `SqlMembershipProvider` stores users' passwords using one of three formats: clear, encrypted, or hashed. The `aspnet_Membership_GetPasswordWithFormat` stored procedure returns the password in its raw format. For encrypted or hashed passwords, the `SqlMembershipProvider` transforms the `password` value passed into the `ValidateUser` method into its equivalent encrypted or hashed state and then compares it with what was returned from the database. If the password stored in the database matches the formatted password entered by the user, the credentials are valid.
 
-Let's update our login page (~/`Login.aspx`) so that it validates the supplied credentials against the Membership framework user store. We created this login page back in the <a id="Tutorial02"></a>[*An Overview of Forms Authentication*](../introduction/an-overview-of-forms-authentication-vb.md) tutorial, creating an interface with two TextBoxes for the username and password, a Remember Me checkbox, and a Login button (see Figure 1). The code validates the entered credentials against a hard-coded list of username and password pairs (Scott/password, Jisun/password, and Sam/password). In the <a id="Tutorial03"></a>[*Forms Authentication Configuration and Advanced Topics*](../introduction/forms-authentication-configuration-and-advanced-topics-vb.md) tutorial we updated the login page's code to store additional information in the forms authentication ticket's `UserData` property.
+Let's update our login page (~/`Login.aspx`) so that it validates the supplied credentials against the Membership framework user store. We created this login page back in the <a id="Tutorial02"></a>[*An Overview of Forms Authentication*](../introduction/an-overview-of-forms-authentication-vb.md) tutorial, creating an interface with two TextBoxes for the username and password, a Remember Me checkbox, and a Login button (see Figure 1). The code validates the entered credentials against a hard-coded list of username and password pairs (Scott/password, Jisun/password, and Sam/password).
 
 [![The Login Page's Interface Includes Two TextBoxes, a CheckBoxList, and a Button](validating-user-credentials-against-the-membership-user-store-vb/_static/image2.png)](validating-user-credentials-against-the-membership-user-store-vb/_static/image1.png)
 

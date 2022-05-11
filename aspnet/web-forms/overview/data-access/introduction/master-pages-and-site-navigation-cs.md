@@ -13,7 +13,7 @@ msc.type: authoredcontent
 
 by [Scott Mitchell](https://twitter.com/ScottOnWriting)
 
-[Download Sample App](http://download.microsoft.com/download/4/6/3/463cf87c-4724-4cbc-b7b5-3f866f43ba50/ASPNET_Data_Tutorial_3_CS.exe) or [Download PDF](master-pages-and-site-navigation-cs/_static/datatutorial03cs1.pdf)
+[Download PDF](master-pages-and-site-navigation-cs/_static/datatutorial03cs1.pdf)
 
 > One common characteristic of user-friendly websites is that they have a consistent, site-wide page layout and navigation scheme. This tutorial looks at how you can create a consistent look and feel across all pages that can easily be updated.
 
@@ -21,7 +21,7 @@ by [Scott Mitchell](https://twitter.com/ScottOnWriting)
 
 One common characteristic of user-friendly websites is that they have a consistent, site-wide page layout and navigation scheme. ASP.NET 2.0 introduces two new features that greatly simplify implementing both a site-wide page layout and navigation scheme: master pages and site navigation. Master pages allow for developers to create a site-wide template with designated editable regions. This template can then be applied to ASP.NET pages in the site. Such ASP.NET pages need only provide content for the master page's specified editable regions all other markup in the master page is identical across all ASP.NET pages that use the master page. This model allows developers to define and centralize a site-wide page layout, thereby making it easier to create a consistent look and feel across all pages that can easily be updated.
 
-The [site navigation system](http://aspnet.4guysfromrolla.com/articles/111605-1.aspx) provides both a mechanism for page developers to define a site map and an API for that site map to be programmatically queried. The new navigation Web controls the Menu, TreeView, and SiteMapPath make it easy to render all or part of the site map in a common navigation user interface element. We'll be using the default site navigation provider, meaning that our site map will be defined in an XML-formatted file.
+The [site navigation system](/aspnet/web-forms/overview/data-access/introduction/master-pages-and-site-navigation-cs) provides both a mechanism for page developers to define a site map and an API for that site map to be programmatically queried. The new navigation Web controls the Menu, TreeView, and SiteMapPath make it easy to render all or part of the site map in a common navigation user interface element. We'll be using the default site navigation provider, meaning that our site map will be defined in an XML-formatted file.
 
 To illustrate these concepts and make our tutorials website more usable, let's spend this lesson defining a site-wide page layout, implementing a site map, and adding the navigation UI. By the end of this tutorial we'll have a polished website design for building our tutorial web pages.
 
@@ -111,7 +111,7 @@ Finally, add new files as shown in the Solution Explorer in Figure 8. When addin
 
 One of the challenges of managing a website composed of more than a handful of pages is providing a straightforward way for visitors to navigate through the site. To begin with, the site's navigational structure must be defined. Next, this structure must be translated into navigable user interface elements, such as menus or breadcrumbs. Finally, this whole process needs to be maintained and updated as new pages are added to the site and existing ones removed. Prior to ASP.NET 2.0, developers were on their own for creating the site's navigational structure, maintaining it, and translating it into navigable user interface elements. With ASP.NET 2.0, however, developers can utilize the very flexible built in site navigation system.
 
-The ASP.NET 2.0 site navigation system provides a means for a developer to define a site map and to then access this information through a programmatic API. ASP.NET ships with a site map provider that expects site map data to be stored in an XML file formatted in a particular way. But, since the site navigation system is built on the [provider model](http://aspnet.4guysfromrolla.com/articles/101905-1.aspx) it can be extended to support alternative ways for serializing the site map information. Jeff Prosise's article, [The SQL Site Map Provider You've Been Waiting For](https://msdn.microsoft.com/msdnmag/issues/06/02/WickedCode/default.aspx) shows how to create a site map provider that stores the site map in a SQL Server database; another option is to create [a site map provider based on the file system structure](http://aspnet.4guysfromrolla.com/articles/020106-1.aspx).
+The ASP.NET 2.0 site navigation system provides a means for a developer to define a site map and to then access this information through a programmatic API. ASP.NET ships with a site map provider that expects site map data to be stored in an XML file formatted in a particular way. But, since the site navigation system is built on the [provider model](/aspnet/web-forms/overview/data-access/introduction/master-pages-and-site-navigation-cs) it can be extended to support alternative ways for serializing the site map information. Jeff Prosise's article, [The SQL Site Map Provider You've Been Waiting For](https://msdn.microsoft.com/msdnmag/issues/06/02/WickedCode/default.aspx) shows how to create a site map provider that stores the site map in a SQL Server database; another option is to create [a site map provider based on the file system structure](/aspnet/web-forms/overview/data-access/introduction/master-pages-and-site-navigation-cs).
 
 For this tutorial, however, let's use the default site map provider that ships with ASP.NET 2.0. To create the site map, simply right-click on the project name in the Solution Explorer, choose Add New Item, and choose the Site Map option. Leave the name as `Web.sitemap` and click the Add button.
 
@@ -249,7 +249,7 @@ For more information on the topics discussed in this tutorial, refer to the foll
 - [Master Pages in ASP.NET 2.0](http://odetocode.com/Articles/419.aspx)
 - [ASP.NET 2.0 Design Templates](https://msdn.microsoft.com/asp.net/reference/design/templates/default.aspx)
 - [ASP.NET Site Navigation Overview](https://msdn.microsoft.com/library/e468hxky.aspx)
-- [Examining ASP.NET 2.0's Site Navigation](http://aspnet.4guysfromrolla.com/articles/111605-1.aspx)
+- [Examining ASP.NET 2.0's Site Navigation](/aspnet/web-forms/overview/data-access/introduction/master-pages-and-site-navigation-cs)
 - [ASP.NET 2.0 Site Navigation Features](https://weblogs.asp.net/scottgu/archive/2005/11/20/431019.aspx)
 - [Understanding ASP.NET View State](https://msdn.microsoft.com/library/default.asp?url=/library/dnaspp/html/viewstate.asp)
 - [How to: Enable Tracing for an ASP.NET Page](https://msdn.microsoft.com/library/94c55d08%28VS.80%29.aspx)

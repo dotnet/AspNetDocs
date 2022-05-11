@@ -12,7 +12,7 @@ msc.type: authoredcontent
 ---
 # ASP.NET Identity Recommended Resources
 
-by [Rick Anderson]((https://twitter.com/RickAndMSFT))
+by [Rick Anderson](https://twitter.com/RickAndMSFT)
 
 > This topic provides links to documentation resources about how to use ASP.NET Identity.
 >
@@ -33,7 +33,7 @@ by [Rick Anderson]((https://twitter.com/RickAndMSFT))
 ## Getting Started with ASP.NET Identity
 
 - [MVC 5 App with Facebook, Twitter, LinkedIn and Google OAuth2 Sign-on](../../../mvc/overview/security/create-an-aspnet-mvc-5-app-with-facebook-and-google-oauth2-and-openid-sign-on.md) This tutorial shows you how to write an ASP.NET MVC 5 app with Facebook and Google OAuth 2 authorization. It also shows how to add additional data to the Identity database.
-- [Deploy a Secure ASP.NET MVC app with Membership, OAuth, and SQL Database to a Azure](https://docs.microsoft.com/aspnet/core/security/authorization/secure-data). This tutorial adds Azure deployment, how to secure your app with roles, how to use the membership API to add users and roles, and additional security features.
+- [Deploy a Secure ASP.NET MVC app with Membership, OAuth, and SQL Database to a Azure](/aspnet/core/security/authorization/secure-data). This tutorial adds Azure deployment, how to secure your app with roles, how to use the membership API to add users and roles, and additional security features.
 - [Introduction to ASP.NET Identity](introduction-to-aspnet-identity.md)
 - [Create a secure ASP.NET MVC 5 web app with log in, email confirmation and password reset](../../../mvc/overview/security/create-an-aspnet-mvc-5-web-app-with-email-confirmation-and-password-reset.md)
 - [ASP.NET MVC 5 app with SMS and email Two-Factor Authentication](../../../mvc/overview/security/aspnet-mvc-5-app-with-sms-and-email-two-factor-authentication.md)
@@ -103,26 +103,25 @@ by [Rick Anderson]((https://twitter.com/RickAndMSFT))
     - [Introducing IdentityReboot](http://brockallen.com/2014/02/11/introducing-identityreboot/): a set of extensions to ASP.NET Identity that implement the major missing features I've complained about.
 - [Pranav Rastogi](https://twitter.com/rustd)
 
-    - [Get more information from Social providers](https://blogs.msdn.com/b/webdev/archive/2013/10/16/get-more-information-from-social-providers-used-in-the-vs-2013-project-templates.aspx)
+    - [Get more information from Social providers](https://devblogs.microsoft.com/dotnet/get-more-information-from-social-providers-used-in-the-vs-2013-project-templates/)
 - [@beabigrockstar](https://twitter.com/beabigrockstar) (Jerrie Pelser)
 
     - [2 Factor authentication](http://www.beabigrockstar.com/blog/2-factor-authentication-with-asp-net-identity-2-0-beta-1/)
     - [Using Google Authenticator with ASP.NET Identity](http://www.beabigrockstar.com/blog/using-google-authenticator-asp-net-identity/)
     - [ASP.NET MVC 5 Authentication Guides](http://www.beabigrockstar.com/)
-- [Get more information from Social providers used in the VS 2013 project templates](https://blogs.msdn.com/b/webdev/archive/2013/10/16/get-more-information-from-social-providers-used-in-the-vs-2013-project-templates.aspx)
-- [Building a simple ToDo application with ASP.NET Identity and associating Users with ToDoes](https://blogs.msdn.com/b/webdev/archive/2013/10/20/building-a-simple-todo-application-with-asp-net-identity-and-associating-users-with-todoes.aspx)
+- [Get more information from Social providers used in the VS 2013 project templates](https://devblogs.microsoft.com/dotnet/get-more-information-from-social-providers-used-in-the-vs-2013-project-templates/)
+- [Building a simple ToDo application with ASP.NET Identity and associating Users with ToDoes](https://devblogs.microsoft.com/dotnet/building-a-simple-todo-application-with-asp-net-identity-and-associating-users-with-todoes/)
 - [Google OpenId integration issues with ASP.NET Identity](http://blog.technovert.com/2014/01/google-openid-integration-issues-asp-net-identity/) If you get the error: HTTP Error 404.15 – Not Found The request filtering module is configured to deny a request where the query string is too long
 - [Thinktecture.IdentityManager as a replacement for the WSAT](http://www.hanselman.com/blog/ThinktectureIdentityManagerAsAReplacementForTheASPNETWebSiteAdministrationTool.aspx)
 - [AngularJS Token Authentication using ASP.NET Web API 2, Owin, and Identity](http://bitoftech.net/2014/06/09/angularjs-token-authentication-using-asp-net-web-api-2-owin-asp-net-identity/)
 - [Simple Asp.net Identity Core Without Entity Framework](https://code.msdn.microsoft.com/Simple-Aspnet-Identiy-Core-7475a961)
 - [Working with Roles in ASP.NET Identity for MVC](http://www.dotnetfunda.com/articles/show/2898/working-with-roles-in-aspnet-identity-for-mvc) by [Sheo Narayan](http://www.dotnetfunda.com/profile/sheonarayan.aspx)
-- [Moving to ASP.NET Identity from ASP.NET Membership](http://webdojo.sharepoint.com/ajmatthews/_layouts/15/start.aspx#/Lists/Posts/Post.aspx?ID=2) by Alistair Matthews
 
 <a id="video"></a>
 
 ## Videos
 
-- Channel 9 [Securing ASP.NET Applications and Services: Security Facelift for Modern Applications](https://channel9.msdn.com/Events/TechEd/NorthAmerica/2014/DEV-B421#fbid=PhVT9E1WRtr?hashlink=fbid) by Ido Flatow
+- Channel 9 [Securing ASP.NET Applications and Services: Security Facelift for Modern Applications](https://view.officeapps.live.com/op/view.aspx?src=https%3A%2F%2Fvideo.ch9.ms%2Fsessions%2Fteched%2Fna%2F2014%2FDEV-B421.pptx&wdOrigin=BROWSELINK) by Ido Flatow
 - Channel 9 [ASP.NET Identity Intro](https://channel9.msdn.com/Events/dotnetConf/2014/ASP-NET-Identity-Security) by Pranav Rastogi
 - Channel 9 [ASP.NET Authentication using ASP.NET Identity](https://channel9.msdn.com/Shows/Web+Camps+TV/Special-Movember-Episode-ASPNET-Authentication-Provider) by Cory Fowler
 - Channel 9 [Building Modern Web Apps: ASP.NET Identity](https://channel9.msdn.com/Series/Building-Modern-Web-Apps/03) by Jeff Koch

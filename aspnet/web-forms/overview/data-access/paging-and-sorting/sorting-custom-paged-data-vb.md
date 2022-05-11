@@ -13,7 +13,7 @@ msc.type: authoredcontent
 
 by [Scott Mitchell](https://twitter.com/ScottOnWriting)
 
-[Download Sample App](http://download.microsoft.com/download/9/c/1/9c1d03ee-29ba-4d58-aa1a-f201dcc822ea/ASPNET_Data_Tutorial_26_VB.exe) or [Download PDF](sorting-custom-paged-data-vb/_static/datatutorial26vb1.pdf)
+[Download PDF](sorting-custom-paged-data-vb/_static/datatutorial26vb1.pdf)
 
 > In the previous tutorial we learned how to implement custom paging when presenting data on a web page. In this tutorial we see how to extend the preceding example to include support for sorting custom paging.
 

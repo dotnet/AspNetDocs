@@ -11,12 +11,12 @@ public class ContosoChatHub : Hub
         return base.OnConnected();
     }
 
-    public override Task OnDisconnected()
+    public override Task OnDisconnected(bool stopCalled)
     {
         // Add your own code here.
         // For example: in a chat application, mark the user as offline, 
         // delete the association between the current connection id and user name.
-        return base.OnDisconnected();
+        return base.OnDisconnected(stopCalled);
     }
 
     public override Task OnReconnected()

@@ -29,7 +29,7 @@ Lots of organizations use staging environments to preview updates to web applica
 
 For example, in our [tutorial scenario](../deploying-web-applications-in-enterprise-scenarios/enterprise-web-deployment-scenario-overview.md), Team Foundation Server (TFS) manages the Contact Manager solution. The TFS administrator, Rob Walters, has created a build definition that lets developers trigger a deployment to the staging environment as required.
 
-![](scenario-configuring-a-staging-environment-for-web-deployment/_static/image1.png)
+![The TFS administrator, Rob Walters, has created a build definition that lets developers trigger a deployment to the staging environment as required.](scenario-configuring-a-staging-environment-for-web-deployment/_static/image1.png)
 
 Note that in most cases, you won't necessarily want to deploy the latest build to the staging environment. Instead, you're a lot more likely to want to deploy a specific build that has already undergone validation and verification in the test environment.
 

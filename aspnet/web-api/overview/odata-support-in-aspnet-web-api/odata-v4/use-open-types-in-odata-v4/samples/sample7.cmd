@@ -5,7 +5,7 @@
     "Press":{
       "Name":"Microsoft Press",
       "Category":"EBook",
-      "Blog":"http://blogs.msdn.com/b/microsoft_press/",
+      "Blog":"https://blogs.msdn.com/b/microsoft_press/",
       "Address":{
         "@odata.type":"#MyApp.Models.Address",
         "City":"Redmond",

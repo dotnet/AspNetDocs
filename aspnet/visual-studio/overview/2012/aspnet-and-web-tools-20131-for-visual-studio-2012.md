@@ -1,7 +1,7 @@
 ---
 uid: visual-studio/overview/2012/aspnet-and-web-tools-20131-for-visual-studio-2012
 title: "Release Notes for ASP.NET and Web Tools 2013.1 for Visual Studio 2012 | Microsoft Docs"
-author: microsoft
+author: rick-anderson
 description: "This document describes the release of ASP.NET and Web Tools 2013.1 for Visual Studio 2012."
 ms.author: riande
 ms.date: 11/13/2013
@@ -162,7 +162,7 @@ When you create an MVC 5 project in Visual Studio 2012 (or open in Visual Studio
 
 To resolve this issue, change the **Start Action** setting in your project to **Specific Page**. You do not need to provide a value for the page.
 
-![](aspnet-and-web-tools-20131-for-visual-studio-2012/_static/image1.png)
+![Screenshot that shows Specific Page selected under Web.](aspnet-and-web-tools-20131-for-visual-studio-2012/_static/image1.png)
 
 After making this change, selecting F5 navigates to the root of your application (`http://localhost:XXXX`). This behavior is not the same as the behavior for MVC 5 projects in Visual Studio 2013, where the **Current Page** setting launches the open page.
 

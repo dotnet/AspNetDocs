@@ -1,5 +1,5 @@
-- name: ASP.NET documentation
-  href: /aspnet/#pivot=aspnet
+- name: ASP.NET Core documentation
+  href: /aspnet/core/
 - name: ASP.NET overview
   href: overview.md
 - name: Tutorials
@@ -40,6 +40,8 @@
               href: web-forms/overview/getting-started/creating-a-basic-web-forms-page.md
             - name: Code Editing ASP.NET Web Forms in Visual Studio 2013
               href: web-forms/overview/getting-started/code-editing-in-web-forms-pages.md
+            - name: "How to: Consume Events"
+              href: web-forms/overview/how-to-consume-events.md
             - name: Using Page Inspector for Visual Studio 2012 in ASP.NET Web Forms
               href: web-forms/overview/getting-started/using-page-inspector-in-a-visual-studio-11-beta-web-forms-project.md
             - name: Visual Studio 2012 Hands On Labs
@@ -371,8 +373,6 @@
                   href: web-forms/overview/older-versions-getting-started/deploying-web-site-projects/core-differences-between-iis-and-the-asp-net-development-server-cs.md
                 - name: Deploying a Database (C#)
                   href: web-forms/overview/older-versions-getting-started/deploying-web-site-projects/deploying-a-database-cs.md
-                - name: Configuring the Production Web Application to Use the Production Database (C#)
-                  href: web-forms/overview/older-versions-getting-started/deploying-web-site-projects/configuring-the-production-web-application-to-use-the-production-database-cs.md
                 - name: Configuring a Website that Uses Application Services (C#)
                   href: web-forms/overview/older-versions-getting-started/deploying-web-site-projects/configuring-a-website-that-uses-application-services-cs.md
                 - name: Strategies for Database Development and Deployment (C#)
@@ -403,8 +403,6 @@
                   href: web-forms/overview/older-versions-getting-started/deploying-web-site-projects/core-differences-between-iis-and-the-asp-net-development-server-vb.md
                 - name: Deploying a Database (VB)
                   href: web-forms/overview/older-versions-getting-started/deploying-web-site-projects/deploying-a-database-vb.md
-                - name: Configuring the Production Web Application to Use the Production Database (VB)
-                  href: web-forms/overview/older-versions-getting-started/deploying-web-site-projects/configuring-the-production-web-application-to-use-the-production-database-vb.md
                 - name: Configuring a Website that Uses Application Services (VB)
                   href: web-forms/overview/older-versions-getting-started/deploying-web-site-projects/configuring-a-website-that-uses-application-services-vb.md
                 - name: Strategies for Database Development and Deployment (VB)
@@ -1059,14 +1057,10 @@
                   href: web-forms/overview/older-versions-security/introduction/security-basics-and-asp-net-support-cs.md
                 - name: Overview of Forms Authentication (C#)
                   href: web-forms/overview/older-versions-security/introduction/an-overview-of-forms-authentication-cs.md
-                - name: Forms Authentication Configuration and Advanced Topics (C#)
-                  href: web-forms/overview/older-versions-security/introduction/forms-authentication-configuration-and-advanced-topics-cs.md
                 - name: Security Basics and ASP.NET Support (VB)
                   href: web-forms/overview/older-versions-security/introduction/security-basics-and-asp-net-support-vb.md
                 - name: Overview of Forms Authentication (VB)
                   href: web-forms/overview/older-versions-security/introduction/an-overview-of-forms-authentication-vb.md
-                - name: Forms Authentication Configuration and Advanced Topics (VB)
-                  href: web-forms/overview/older-versions-security/introduction/forms-authentication-configuration-and-advanced-topics-vb.md
             - name: ASP.NET 3.5 - Membership
               href: web-forms/overview/older-versions-security/membership/index.md
               items: 
@@ -3007,7 +3001,7 @@
             - name: ASP.NET Web Pages Visual Basic
               href: web-pages/overview/getting-started/introducing-razor-syntax-vb.md
             - name: ASP.NET Web Pages (Razor) FAQ
-              href: web-pages/overview/getting-started/aspnet-web-pages-razor-faq.md
+              href: web-pages/overview/getting-started/aspnet-web-pages-razor-faq.yml
             - name: Sending Email from Your Site
               href: web-pages/overview/getting-started/11-adding-email-to-your-web-site.md
             - name: Adding Social Networking to Your Website
@@ -3338,11 +3332,10 @@
             - name: SignalR and Web Sockets
               href: signalr/videos/getting-started/signalr-and-web-sockets.md
 - name: Mobile
-  href: mobile/index.md
   items: 
-    - name: Mobile
+    - name: Overview
       href: mobile/overview.md
-    - name: ASP.NET Mobile Controls Tested Devices
+    - name: Controls-Tested Devices
       href: mobile/tested-devices.md
     - name: Simulate Popular Mobile Devices for Testing
       href: mobile/device-simulators.md
@@ -3752,7 +3745,9 @@
     - name: An Overview of Project Katana
       href: aspnet/overview/owin-and-katana/an-overview-of-project-katana.md
     - name: Getting Started with OWIN and Katana
-      href: aspnet/overview/owin-and-katana/getting-started-with-owin-and-katana.md
+      href: aspnet/overview/owin-and-katana/getting-started-with-owin-and-katana.md 
+    - name: OWIN SameSite
+      uid: owin-samesite
     - name: Katana Samples
       href: aspnet/overview/owin-and-katana/katana-samples.md
     - name: OWIN Startup Class Detection
@@ -3761,8 +3756,6 @@
       href: aspnet/overview/owin-and-katana/enabling-windows-authentication-in-katana.md
     - name: OWIN Middleware in the IIS Integrated Pipeline
       href: aspnet/overview/owin-and-katana/owin-middleware-in-the-iis-integrated-pipeline.md
-    - name: OWIN OAuth 2.0 Authorization Server
-      href: aspnet/overview/owin-and-katana/owin-oauth-20-authorization-server.md
     - name: Host OWIN in an Azure Worker Role
       href: aspnet/overview/owin-and-katana/host-owin-in-an-azure-worker-role.md
 - name: Whitepapers
@@ -3770,6 +3763,21 @@
   items: 
     - name: Whitepapers
       href: whitepapers/overview.md
+    - name: ASP.NET SameSite
+      items:
+        - name: SameSite cookies in ASP.NET
+          href: SameSite/system-web-samesite.md
+        - name: SameSite KB articles
+          uid: samesite/kbs-samesite
+        - name: C# MVC
+          uid: samesite/csMVC
+        - name: C# WebForms
+          uid: samesite/CSharpWebForms
+        - name: VB WebForms
+          uid: samesite/vbWF
+        - name: VB MVC
+          uid: samesite/vbMVC
+
     - name: ASP.NET 4 and Visual Studio 2010 Web Development Overview
       href: whitepapers/aspnet4/index.md
       items: 

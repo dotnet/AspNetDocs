@@ -1,22 +1,23 @@
 ---
 uid: ajax/cdn/overview
-title: "Microsoft Ajax Content Delivery Network | Microsoft Docs"
+title: "Microsoft Ajax Content Delivery Network Assets | Microsoft Docs"
 author: rick-anderson
-description: ""
+description: "The Microsoft Ajax Content Delivery Network (CDN) hosts popular third party JavaScript libraries such as jQuery and enables you to easily add them to your Web applications."
 ms.author: riande
-ms.date: 10/14/2017
+ms.date: 04/29/2022
+ms.custom: devdivchpfy22
 ms.assetid: 8935bf14-ca6d-4a4e-9dbe-b96ce74cef49
 msc.legacyurl: /ajax/cdn
 msc.type: content
 ---
-# Microsoft Ajax Content Delivery Network
+# Microsoft Ajax Content Delivery Network Assets
 
 > [!WARNING]
 > Production applications should not take a hard dependency on CDN assets. Applications should test for the CDN asset referenced, and use a fallback asset when the CDN is not available.
 >
 > The Microsoft Ajax CDN has no SLA above and beyond using an Azure CDN.
 >
-> Use [this GitHub issue](https://github.com/aspnet/AspNetDocs/issues/116) to report problems with the Microsoft Ajax CDN.
+> Use [this GitHub issue](https://github.com/dotnet/AspNetDocs/issues/116) to report problems with the Microsoft Ajax CDN.
 
 ## Table of Contents
 
@@ -58,7 +59,7 @@ The CDN hosts the following third party script libraries which have been uploade
 - jQuery (www.jquery.com)
 - jQuery UI (www.jqueryui.com)
 - jQuery Mobile (www.jquerymobile.com)
-- jQuery Validation (www.jquery.com)
+- jQuery Validation (https://jqueryvalidation.org/)
 - jQuery Cycle (www.malsup.com/jquery/cycle/)
 - jQuery DataTables (http://datatables.net/)
 
@@ -157,6 +158,30 @@ The CDN hosts some of the most popular third party JavaScript libraries. Microso
 ### jQuery Releases on the CDN
 
 The following releases of jQuery are hosted on the CDN:
+
+#### jQuery version 3.6.0
+- https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.6.0.js
+- https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.6.0.min.js
+- https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.6.0.min.map
+- https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.6.0.slim.js
+- https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.6.0.slim.min.js
+- https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.6.0.slim.min.map
+
+#### jQuery version 3.5.1
+- https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.5.1.js
+- https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.5.1.min.js
+- https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.5.1.min.map
+- https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.5.1.slim.js
+- https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.5.1.slim.min.js
+- https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.5.1.slim.min.map
+
+#### jQuery version 3.5.0
+- https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.5.0.js
+- https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.5.0.min.js
+- https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.5.0.min.map
+- https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.5.0.slim.js
+- https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.5.0.slim.min.js
+- https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.5.0.slim.min.map
 
 #### jQuery version 3.4.1
 - https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.js
@@ -571,6 +596,8 @@ jQuery Migrate version 1.2.0
 
 The following releases of the jQuery UI library are hosted on this CDN. Click each link to see the actual list of files.
 
+- [jQuery UI 1.13.1](jquery-ui/cdnjqueryui1131.md "jQuery UI 1.13.1 on the Microsoft Ajax CDN")
+- [jQuery UI 1.13.0](jquery-ui/cdnjqueryui1130.md "jQuery UI 1.13.0 on the Microsoft Ajax CDN")
 - [jQuery UI 1.12.1](jquery-ui/cdnjqueryui1121.md "jQuery UI 1.12.1 on the Microsoft Ajax CDN")
 - [jQuery UI 1.12.0](jquery-ui/cdnjqueryui1120.md "jQuery UI 1.12.0 on the Microsoft Ajax CDN")
 - [jQuery UI 1.11.4](jquery-ui/cdnjqueryui1114.md "jQuery UI 1.11.4 on the Microsoft Ajax CDN")
@@ -611,8 +638,9 @@ The following releases of the jQuery UI library are hosted on this CDN. Click ea
 
 ### jQuery Validation Releases on the CDN
 
-The following releases of the jQuery Validation library are hosted on this CDN. Click each link to see the actual list of files.
+The following releases of the [jQuery Validation](https://jqueryvalidation.org/ "jQuery Validation Plugin") plugin are hosted on this CDN. Click each link to see the actual list of files.
 
+- [jQuery Validate 1.19.2](jquery-validate/cdnjqueryvalidate1192.md "jQuery Validation 1.19.2")
 - [jQuery Validate 1.19.1](jquery-validate/cdnjqueryvalidate1191.md "jQuery Validation 1.19.1")
 - [jQuery Validate 1.19.0](jquery-validate/cdnjqueryvalidate1190.md "jQuery Validation 1.19.0")
 - [jQuery Validate 1.17.0](jquery-validate/cdnjqueryvalidate1170.md "jQuery Validation 1.17.0")
@@ -763,7 +791,6 @@ The following releases of [Globalize](https://github.com/jquery/globalize "Globa
 - https://ajax.aspnetcdn.com/ajax/globalize/0.1.1/cultures/globalize.cultures.js
 
     - all cultures
-- https://ajax.aspnetcdn.com/ajax/globalize/0.1.1/cultures/globalize.culture.{culture-code}.js
 
     - Replace "{culture-code}" with the desired culture code, e.g. globalize.culture.en-GB.js== Microsoft Files on the CDN ==These libraries were uploaded by Microsoft.
 
@@ -807,6 +834,66 @@ The following releases of [Respond](https://github.com/scottjehl/Respond "Respon
 ### Bootstrap Releases on the CDN
 
 The following releases of [getbootstrap.com](http://getbootstrap.com "getbootstrap.com") bootstrap are hosted on the CDN:
+
+#### Bootstrap version 4.6.0
+
+- https://ajax.aspnetcdn.com/ajax/bootstrap/4.6.0/bootstrap.js
+- https://ajax.aspnetcdn.com/ajax/bootstrap/4.6.0/bootstrap.min.js
+- https://ajax.aspnetcdn.com/ajax/bootstrap/4.6.0/bootstrap.bundle.js
+- https://ajax.aspnetcdn.com/ajax/bootstrap/4.6.0/css/bootstrap.css
+- https://ajax.aspnetcdn.com/ajax/bootstrap/4.6.0/css/bootstrap.css.map
+- https://ajax.aspnetcdn.com/ajax/bootstrap/4.6.0/css/bootstrap.min.css
+- https://ajax.aspnetcdn.com/ajax/bootstrap/4.6.0/css/bootstrap-grid.css
+- https://ajax.aspnetcdn.com/ajax/bootstrap/4.6.0/css/bootstrap-grid.min.css
+- https://ajax.aspnetcdn.com/ajax/bootstrap/4.6.0/css/bootstrap-grid.css.map
+- https://ajax.aspnetcdn.com/ajax/bootstrap/4.6.0/css/bootstrap-reboot.css
+- https://ajax.aspnetcdn.com/ajax/bootstrap/4.6.0/css/bootstrap-reboot.min.css
+- https://ajax.aspnetcdn.com/ajax/bootstrap/4.6.0/css/bootstrap-reboot.css.map
+
+#### Bootstrap version 4.5.2
+
+- https://ajax.aspnetcdn.com/ajax/bootstrap/4.5.2/bootstrap.js
+- https://ajax.aspnetcdn.com/ajax/bootstrap/4.5.2/bootstrap.min.js
+- https://ajax.aspnetcdn.com/ajax/bootstrap/4.5.2/bootstrap.bundle.js
+- https://ajax.aspnetcdn.com/ajax/bootstrap/4.5.2/css/bootstrap.css
+- https://ajax.aspnetcdn.com/ajax/bootstrap/4.5.2/css/bootstrap.css.map
+- https://ajax.aspnetcdn.com/ajax/bootstrap/4.5.2/css/bootstrap.min.css
+- https://ajax.aspnetcdn.com/ajax/bootstrap/4.5.2/css/bootstrap-grid.css
+- https://ajax.aspnetcdn.com/ajax/bootstrap/4.5.2/css/bootstrap-grid.min.css
+- https://ajax.aspnetcdn.com/ajax/bootstrap/4.5.2/css/bootstrap-grid.css.map
+- https://ajax.aspnetcdn.com/ajax/bootstrap/4.5.2/css/bootstrap-reboot.css
+- https://ajax.aspnetcdn.com/ajax/bootstrap/4.5.2/css/bootstrap-reboot.min.css
+- https://ajax.aspnetcdn.com/ajax/bootstrap/4.5.2/css/bootstrap-reboot.css.map
+
+#### Bootstrap version 4.5.0
+
+- https://ajax.aspnetcdn.com/ajax/bootstrap/4.5.0/bootstrap.js
+- https://ajax.aspnetcdn.com/ajax/bootstrap/4.5.0/bootstrap.min.js
+- https://ajax.aspnetcdn.com/ajax/bootstrap/4.5.0/bootstrap.bundle.js
+- https://ajax.aspnetcdn.com/ajax/bootstrap/4.5.0/css/bootstrap.css
+- https://ajax.aspnetcdn.com/ajax/bootstrap/4.5.0/css/bootstrap.css.map
+- https://ajax.aspnetcdn.com/ajax/bootstrap/4.5.0/css/bootstrap.min.css
+- https://ajax.aspnetcdn.com/ajax/bootstrap/4.5.0/css/bootstrap-grid.css
+- https://ajax.aspnetcdn.com/ajax/bootstrap/4.5.0/css/bootstrap-grid.min.css
+- https://ajax.aspnetcdn.com/ajax/bootstrap/4.5.0/css/bootstrap-grid.css.map
+- https://ajax.aspnetcdn.com/ajax/bootstrap/4.5.0/css/bootstrap-reboot.css
+- https://ajax.aspnetcdn.com/ajax/bootstrap/4.5.0/css/bootstrap-reboot.min.css
+- https://ajax.aspnetcdn.com/ajax/bootstrap/4.5.0/css/bootstrap-reboot.css.map
+
+#### Bootstrap version 4.4.1
+
+- https://ajax.aspnetcdn.com/ajax/bootstrap/4.4.1/bootstrap.js
+- https://ajax.aspnetcdn.com/ajax/bootstrap/4.4.1/bootstrap.min.js
+- https://ajax.aspnetcdn.com/ajax/bootstrap/4.4.1/bootstrap.bundle.js
+- https://ajax.aspnetcdn.com/ajax/bootstrap/4.4.1/css/bootstrap.css
+- https://ajax.aspnetcdn.com/ajax/bootstrap/4.4.1/css/bootstrap.css.map
+- https://ajax.aspnetcdn.com/ajax/bootstrap/4.4.1/css/bootstrap.min.css
+- https://ajax.aspnetcdn.com/ajax/bootstrap/4.4.1/css/bootstrap-grid.css
+- https://ajax.aspnetcdn.com/ajax/bootstrap/4.4.1/css/bootstrap-grid.min.css
+- https://ajax.aspnetcdn.com/ajax/bootstrap/4.4.1/css/bootstrap-grid.css.map
+- https://ajax.aspnetcdn.com/ajax/bootstrap/4.4.1/css/bootstrap-reboot.css
+- https://ajax.aspnetcdn.com/ajax/bootstrap/4.4.1/css/bootstrap-reboot.min.css
+- https://ajax.aspnetcdn.com/ajax/bootstrap/4.4.1/css/bootstrap-reboot.css.map
 
 #### Bootstrap version 4.3.1
 
@@ -1214,6 +1301,8 @@ The following ASP.NET MVC JavaScript files are hosted on this CDN:
 <a id="ASPNET_SignalR_Releases_on_the_CDN_17"></a>
 
 ### ASP.NET SignalR Releases on the CDN
+
+For SignalR, we recommend a 3rd party CDN such as [`<cdnjs>`](https://cdnjs.com/) or [UNPKG](https://unpkg.com/).
 
 The following ASP.NET SignalR JavaScript files are hosted on this CDN:
 

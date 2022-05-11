@@ -1,19 +1,19 @@
 ---
 uid: web-forms/overview/data-access/filtering-scenarios-with-the-datalist-and-repeater/master-detail-filtering-acess-two-pages-datalist-vb
-title: "Master/Detail Filtering Across Two Pages (VB) | Microsoft Docs"
+title: "Master/Detail Filtering Across Two Pages Using a Repeater Control and DataList (VB) | Microsoft Docs"
 author: rick-anderson
-description: "In this tutorial we look at how to separate a master/detail report across two pages. In the 'master' page we use a Repeater control to render a list of categ..."
+description: "In this tutorial we look at how to separate a master/detail report across two pages (VB)."
 ms.author: riande
 ms.date: 10/30/2010
 ms.assetid: f1a1be2c-6fd9-4a09-916e-aa1b98d5cf17
 msc.legacyurl: /web-forms/overview/data-access/filtering-scenarios-with-the-datalist-and-repeater/master-detail-filtering-acess-two-pages-datalist-vb
 msc.type: authoredcontent
 ---
-# Master/Detail Filtering Across Two Pages (VB)
+# Master/Detail Filtering Across Two Pages Using a Repeater Control and DataList (VB)
 
 by [Scott Mitchell](https://twitter.com/ScottOnWriting)
 
-[Download Sample App](http://download.microsoft.com/download/9/c/1/9c1d03ee-29ba-4d58-aa1a-f201dcc822ea/ASPNET_Data_Tutorial_34_VB.exe) or [Download PDF](master-detail-filtering-acess-two-pages-datalist-vb/_static/datatutorial34vb1.pdf)
+[Download PDF](master-detail-filtering-acess-two-pages-datalist-vb/_static/datatutorial34vb1.pdf)
 
 > In this tutorial we look at how to separate a master/detail report across two pages. In the "master" page we use a Repeater control to render a list of categories that, when clicked, will take the user to the "details" page where a two-column DataList shows those products belonging to the selected category.
 

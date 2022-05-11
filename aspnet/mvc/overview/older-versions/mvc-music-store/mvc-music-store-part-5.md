@@ -2,7 +2,7 @@
 uid: mvc/overview/older-versions/mvc-music-store/mvc-music-store-part-5
 title: "Part 5: Edit Forms and Templating | Microsoft Docs"
 author: jongalloway
-description: "This tutorial series details all of the steps taken to build the ASP.NET MVC Music Store sample application. Part 5 covers Edit Forms and Templating."
+description: This tutorial series details all of the steps taken to build the ASP.NET MVC Music Store sample application. Part 5 covers Edit Forms and Templating.
 ms.author: riande
 ms.date: 04/21/2011
 ms.assetid: 6b09413a-6d6a-425a-87c9-629f91b91b28
@@ -25,7 +25,7 @@ In the past chapter, we were loading data from our database and displaying it. I
 
 We'll begin by creating a new controller called **StoreManagerController**. For this controller, we will be taking advantage of the Scaffolding features available in the ASP.NET MVC 3 Tools Update. Set the options for the Add Controller dialog as shown below.
 
-![](mvc-music-store-part-5/_static/image1.png)
+![Screenshot of the Add Controller dialog with the Controller box and the Template, Model class, and Data context class dropdowns highlighted.](mvc-music-store-part-5/_static/image1.png)
 
 When you click the Add button, you'll see that the ASP.NET MVC 3 scaffolding mechanism does a good amount of work for you:
 
@@ -33,7 +33,7 @@ When you click the Add button, you'll see that the ASP.NET MVC 3 scaffolding mec
 - It adds a StoreManager folder to the project's Views folder
 - It adds Create.cshtml, Delete.cshtml, Details.cshtml, Edit.cshtml, and Index.cshtml view, strongly typed to the Album class
 
-![](mvc-music-store-part-5/_static/image2.png)
+![Screenshot of the Store Manager Controller window opened in Microsoft Visual Web Developer 2010 Express after creation.](mvc-music-store-part-5/_static/image2.png)
 
 The new StoreManager controller class includes CRUD (create, read, update, delete) controller actions which know how to work with the Album model class and use our Entity Framework context for database access.
 
@@ -53,19 +53,19 @@ The modified view code will appear as follows:
 
 Now run the application and browse to /StoreManager/. This displays the Store Manager Index we just modified, showing a list of the albums in the store with links to Edit, Details, and Delete.
 
-![](mvc-music-store-part-5/_static/image3.png)
+![Screenshot of the Store Manager index showing a list of albums in the store with links to Edit, Details, and Delete.](mvc-music-store-part-5/_static/image3.png)
 
 Clicking the Edit link displays an edit form with fields for the Album, including dropdowns for Genre and Artist.
 
-![](mvc-music-store-part-5/_static/image4.png)
+![Screenshot of the Edit dialog showing drop-down fields for Genre and Artist and text boxes for Artist, Title, Price, and Album Art U R L.](mvc-music-store-part-5/_static/image4.png)
 
 Click the "Back to List" link at the bottom, then click on the Details link for an Album. This displays the detail information for an individual Album.
 
-![](mvc-music-store-part-5/_static/image5.png)
+![Screenshot of the Details dialog showing the set values for Genre, Artist, Title, Price, and Album Art U R L.](mvc-music-store-part-5/_static/image5.png)
 
 Again, click the Back to List link, then click on a Delete link. This displays a confirmation dialog, showing the album details and asking if we're sure we want to delete it.
 
-![](mvc-music-store-part-5/_static/image6.png)
+![Screenshot of the Delete dialog showing the album details and prompting a user to confirm deletion of the selected album.](mvc-music-store-part-5/_static/image6.png)
 
 Clicking the Delete button at the bottom will delete the album and return you to the Index page, which shows the album deleted.
 
@@ -164,9 +164,9 @@ To test this out, run the application and browse to /StoreManager/Create/ - this
 
 Fill in some values and click the Create button to submit the form.
 
-![](mvc-music-store-part-5/_static/image7.png)
+![Screenshot of the Create Form showing the Genre and Artist dropdown fields and the Title, Price, and Album Art U R L text boxes.](mvc-music-store-part-5/_static/image7.png)
 
-![](mvc-music-store-part-5/_static/image8.png)
+![Screenshot of the album list highlighting the new album created from the Create form with a red arrow.](mvc-music-store-part-5/_static/image8.png)
 
 ### Handling Edits
 
@@ -180,15 +180,15 @@ The Edit HTTP-POST action is very similar to the Create HTTP-POST action. The on
 
 We can test this out by running the application and browsing to /StoreManger/, then clicking the Edit link for an album.
 
-![](mvc-music-store-part-5/_static/image9.png)
+![Screenshot of the album list with the Edit option corresponding to an album highlighted with a red arrow.](mvc-music-store-part-5/_static/image9.png)
 
 This displays the Edit form shown by the Edit HTTP-GET method. Fill in some values and click the Save button.
 
-![](mvc-music-store-part-5/_static/image10.png)
+![Screenshot of the Edit form with the Genre, Title, and Price text boxes highlighted in red rectangles.](mvc-music-store-part-5/_static/image10.png)
 
 This posts the form, saves the values, and returns us to the Album list, showing that the values were updated.
 
-![](mvc-music-store-part-5/_static/image11.png)
+![Screenshot of the album list showing the newly updated values for the album highlighted with a red arrow.](mvc-music-store-part-5/_static/image11.png)
 
 ### Handling Deletion
 
@@ -200,7 +200,7 @@ The HTTP-GET Delete controller action is exactly the same as our previous Store 
 
 We display a form that's strongly typed to an Album type, using the Delete view content template.
 
-![](mvc-music-store-part-5/_static/image12.png)
+![Screenshot of the Deletion form showing the selected album's details and demonstrating the Delete view content template.](mvc-music-store-part-5/_static/image12.png)
 
 The Delete template shows all the fields for the model, but we can simplify that down quite a bit. Change the view code in /Views/StoreManager/Delete.cshtml to the following.
 
@@ -208,7 +208,7 @@ The Delete template shows all the fields for the model, but we can simplify that
 
 This displays a simplified Delete confirmation.
 
-![](mvc-music-store-part-5/_static/image13.png)
+![Screenshot of the Delete Confirmation form prompting the user for confirmation to delete the selected album.](mvc-music-store-part-5/_static/image13.png)
 
 Clicking the Delete button causes the form to be posted back to the server, which executes the DeleteConfirmed action.
 
@@ -222,21 +222,21 @@ Our HTTP-POST Delete Controller Action takes the following actions:
 
 To test this, run the application and browse to /StoreManager. Select an album from the list and click the Delete link.
 
-![](mvc-music-store-part-5/_static/image14.png)
+![Screenshot of the album list with the Delete option associated with a listed album highlighted with a red arrow.](mvc-music-store-part-5/_static/image14.png)
 
 This displays our Delete confirmation screen.
 
-![](mvc-music-store-part-5/_static/image15.png)
+![Screenshot of the Delete Confirmation dialog prompting the user for confirmation to delete the select album.](mvc-music-store-part-5/_static/image15.png)
 
 Clicking the Delete button removes the album and returns us to the Store Manager Index page, which shows that the album has been deleted.
 
-![](mvc-music-store-part-5/_static/image16.png)
+![Screenshot of the album list screen showing that the deleted album is no longer on the album list, highlighted with a red arrow.](mvc-music-store-part-5/_static/image16.png)
 
 ### Using a custom HTML Helper to truncate text
 
 We've got one potential issue with our Store Manager Index page. Our Album Title and Artist Name properties can both be long enough that they could throw off our table formatting. We'll create a custom HTML Helper to allow us to easily truncate these and other properties in our Views.
 
-![](mvc-music-store-part-5/_static/image17.png)
+![Screenshot of the album list with two long artist names and two long album names highlighted in red rectangles.](mvc-music-store-part-5/_static/image17.png)
 
 Razor's @helper syntax has made it pretty easy to create your own helper functions for use in your views. Open the /Views/StoreManager/Index.cshtml view and add the following code directly after the @model line.
 
@@ -250,7 +250,7 @@ Now we can use our Truncate helper to ensure that both the Album Title and Artis
 
 Now when we browse the /StoreManager/ URL, the albums and titles are kept below our maximum lengths.
 
-![](mvc-music-store-part-5/_static/image18.png)
+![Screenshot of the album list with two long artist names and two long album names after the Truncate helper process highlighted in red rectangles.](mvc-music-store-part-5/_static/image18.png)
 
 Note: This shows the simple case of creating and using a helper in one view. To learn more about creating helpers that you can use throughout your site, see my blog post: [http://bit.ly/mvc3-helper-options](http://bit.ly/mvc3-helper-options)
 

@@ -1,7 +1,7 @@
 ---
 uid: mvc/overview/older-versions-1/deployment/using-asp-net-mvc-with-different-versions-of-iis-cs
 title: "Using ASP.NET MVC with Different Versions of IIS (C#) | Microsoft Docs"
-author: microsoft
+author: rick-anderson
 description: "In this tutorial, you learn how to use ASP.NET MVC, and URL Routing, with different versions of Internet Information Services. You learn different strategies..."
 ms.author: riande
 ms.date: 08/19/2008
@@ -93,7 +93,7 @@ Older versions of IIS only map certain requests to the ASP.NET framework. The re
 
 Therefore, to get ASP.NET Routing to work, we must modify the Default route so that it includes a file extension that is mapped to the ASP.NET framework.
 
-This is done using a script named `registermvc.wsf`. It was included with the ASP.NET MVC 1 release in `C:\Program Files\Microsoft ASP.NET\ASP.NET MVC\Scripts`, but as of ASP.NET 2 this script has been moved to the ASP.NET Futures, available at [http://aspnet.codeplex.com/releases/view/39978](http://aspnet.codeplex.com/releases/view/39978).
+This is done using a script named `registermvc.wsf`. It was included with the ASP.NET MVC 1 release in `C:\Program Files\Microsoft ASP.NET\ASP.NET MVC\Scripts`, but as of ASP.NET 2 this script has been moved to the ASP.NET Futures.
 
 Executing this script registers a new .mvc extension with IIS. After you register the .mvc extension, you can modify your routes in the Global.asax file so that the routes use the .mvc extension.
 

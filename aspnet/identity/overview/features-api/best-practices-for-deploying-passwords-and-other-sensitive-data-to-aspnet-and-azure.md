@@ -12,7 +12,7 @@ msc.type: authoredcontent
 ---
 # Best practices for deploying passwords and other sensitive data to ASP.NET and Azure App Service
 
-by [Rick Anderson]((https://twitter.com/RickAndMSFT))
+by [Rick Anderson](https://twitter.com/RickAndMSFT)
 
 > This tutorial shows how your code can securely store and access secure information. The most important point is you should never store passwords or other sensitive data in source code, and you shouldn't use production secrets in development and test mode.
 > 
@@ -50,7 +50,7 @@ The ASP.NET runtime merges the contents of the external file with the markup in 
 <a id="con"></a>
 ## Working with connection strings in the development environment
 
-Visual Studio creates new ASP.NET projects that use [LocalDB](https://blogs.msdn.com/b/sqlexpress/archive/2011/07/12/introducing-localdb-a-better-sql-express.aspx). LocalDB was created specifically for the development environment. It doesn't require a password, therefore you don't need to do anything to prevent secrets from being checked into your source code. Some development teams use the full versions of SQL Server (or other DBMS) that require a password.
+Visual Studio creates new ASP.NET projects that use [LocalDB](/archive/blogs/sqlexpress/introducing-localdb-an-improved-sql-express). LocalDB was created specifically for the development environment. It doesn't require a password, therefore you don't need to do anything to prevent secrets from being checked into your source code. Some development teams use the full versions of SQL Server (or other DBMS) that require a password.
 
 You can use the `configSource` attribute to replace the entire `<connectionStrings>` markup. Unlike the `<appSettings>` `file` attribute that merges the markup, the `configSource` attribute replaces the markup. The following markup shows the `configSource` attribute in the *web.config* file:
 

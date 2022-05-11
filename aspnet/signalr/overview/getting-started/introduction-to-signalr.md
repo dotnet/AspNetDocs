@@ -37,7 +37,15 @@ SignalR handles connection management automatically, and lets you broadcast mess
 
 SignalR supports "server push" functionality, in which server code can call out to client code in the browser using Remote Procedure Calls (RPC), rather than the request-response model common on the web today.
 
-SignalR applications can scale out to thousands of clients using Service Bus, SQL Server or [Redis](http://redis.io).
+SignalR applications can scale out to thousands of clients using built-in, and third-party scale-out providers.
+
+Built-in providers include:
+* [Service Bus](https://www.nuget.org/packages/Microsoft.AspNet.SignalR.ServiceBus3)
+* [SQL Server](https://www.nuget.org/packages/Microsoft.AspNet.SignalR.SqlServer)
+* [Redis](https://www.nuget.org/packages/Microsoft.AspNet.SignalR.Redis)
+
+Third-party providers include:
+* [NCache](https://www.alachisoft.com/ncache/asp-net-core-signalr.html).
 
 SignalR is open-source, accessible through [GitHub](https://github.com/signalr).
 
@@ -49,13 +57,22 @@ SignalR uses the new WebSocket transport where available and falls back to older
 
 ## Transports and fallbacks
 
-SignalR is an abstraction over some of the transports that are required to do real-time work between client and server. A SignalR connection starts as HTTP, and is then promoted to a WebSocket connection if it is available. WebSocket is the ideal transport for SignalR, since it makes the most efficient use of server memory, has the lowest latency, and has the most underlying features (such as full duplex communication between client and server), but it also has the most stringent requirements: WebSocket requires the server to be using Windows Server 2012 or Windows 8, and .NET Framework 4.5. If these requirements are not met, SignalR will attempt to use other transports to make its connections.
+SignalR is an abstraction over some of the transports that are required to do real-time work between client and server. SignalR first attempts to establish a WebSocket connection if possible. WebSocket is the optimal transport for SignalR because it has:
+
+* The most efficient use of server memory.
+* The lowest latency.
+* The most underlying features, such as full duplex communication between client and server.
+* The most stringent requirements, WebSocket requires the server:
+  * Run on Windows Server 2012 or Windows 8.
+  * .NET Framework 4.5.
+
+If these requirements are not met, SignalR attempts to use other transports to make its connections.
 
 ### HTML 5 transports
 
 These transports depend on support for [HTML 5](http://en.wikipedia.org/wiki/HTML5). If the client browser does not support the HTML 5 standard, older transports will be used.
 
-- **WebSocket** (if the both the server and browser indicate they can support Websocket). WebSocket is the only transport that establishes a true persistent, two-way connection between client and server. However, WebSocket also has the most stringent requirements; it is fully supported only in the latest versions of Microsoft Internet Explorer, Google Chrome, and Mozilla Firefox, and only has a partial implementation in other browsers such as Opera and Safari.
+- **WebSocket** (if both the server and browser indicate they can support Websocket). WebSocket is the only transport that establishes a true persistent, two-way connection between client and server. However, WebSocket also has the most stringent requirements; it is fully supported only in the latest versions of Microsoft Internet Explorer, Google Chrome, and Mozilla Firefox, and only has a partial implementation in other browsers such as Opera and Safari.
 - **Server Sent Events**, also known as EventSource (if the browser supports Server Sent Events, which is basically all browsers except Internet Explorer.)
 
 ### Comet transports

@@ -11,7 +11,7 @@ msc.type: authoredcontent
 ---
 # Examining the Edit Methods and Edit View (C#)
 
-by [Rick Anderson]((https://twitter.com/RickAndMSFT))
+by [Rick Anderson](https://twitter.com/RickAndMSFT)
 
 > > [!NOTE]
 > > An updated version of this tutorial is available [here](../../../getting-started/introduction/getting-started.md) that uses ASP.NET MVC 5 and Visual Studio 2013. It's more secure, much simpler to follow and demonstrates more features.
@@ -131,7 +131,7 @@ Run the application and navigate to */Movies/SearchIndex*. Append a query string
 
 If you change the signature of the `SearchIndex` method to have a parameter named `id`, the `id` parameter will match the `{id}` placeholder for the default routes set in the *Global.asax* file.
 
-[!code-json[Main](examining-the-edit-methods-and-edit-view/samples/sample11.json)]
+[!code-json[Main](examining-the-edit-methods-and-edit-view/samples/sample11.txt)]
 
 The modified `SearchIndex` method would look as follows:
 

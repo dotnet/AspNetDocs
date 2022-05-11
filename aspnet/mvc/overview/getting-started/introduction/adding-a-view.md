@@ -8,15 +8,15 @@ uid: mvc/overview/getting-started/introduction/adding-a-view
 ---
 # Adding a View
 
-by [Rick Anderson]((https://twitter.com/RickAndMSFT))
+by [Rick Anderson](https://twitter.com/RickAndMSFT)
 
-[!INCLUDE [Tutorial Note](sample/code-location.md)]
+[!INCLUDE [consider RP](~/includes/razor.md)]
 
 In this section you're going to modify the `HelloWorldController` class to use view template files to cleanly encapsulate the process of generating HTML responses to a client. 
 
 You'll create a view template file using the [Razor view engine](../../../../web-pages/overview/getting-started/introducing-razor-syntax-c.md). Razor-based view templates have a *.cshtml* file extension, and provide an elegant way to create HTML output using C#. Razor minimizes the number of characters and keystrokes required when writing a view template, and enables a fast, fluid coding workflow.
 
-Currently the `Index` method returns a string with a message that is hard-coded in the controller class. Change the `Index` method to call the controllers [View](/dotnet/api/microsoft.aspnetcore.mvc.controller.view#Microsoft_AspNetCore_Mvc_Controller_View) method, as shown in the following code:
+Currently the `Index` method returns a string with a message that is hard-coded in the controller class. Change the `Index` method to call the controllers [View](/dotnet/api/microsoft.aspnetcore.mvc.controller.view) method, as shown in the following code:
 
 [!code-csharp[Main](adding-a-view/samples/sample1.cs?highlight=1,3)]
 
@@ -138,7 +138,7 @@ Now data is taken from the URL and passed to the controller using the [model bin
 
 ![](adding-a-view/_static/image12.png)
 
-In the sample above, we used a `ViewBag` object to pass data from the controller to a view. Later in the tutorial, we will use a view model to pass data from a controller to a view. The view model approach to passing data is generally much preferred over the view bag approach. See the blog entry [Dynamic V Strongly Typed Views](https://blogs.msdn.com/b/rickandy/archive/2011/01/28/dynamic-v-strongly-typed-views.aspx) for more information. 
+In the sample above, we used a `ViewBag` object to pass data from the controller to a view. Later in the tutorial, we will use a view model to pass data from a controller to a view. The view model approach to passing data is generally much preferred over the view bag approach. See the blog entry [Dynamic V Strongly Typed Views](/archive/blogs/rickandy/dynamic-v-strongly-typed-views) for more information. 
 
 Well, that was a kind of an &quot;M&quot; for model, but not the database kind. Let's take what we've learned and create a database of movies.
 

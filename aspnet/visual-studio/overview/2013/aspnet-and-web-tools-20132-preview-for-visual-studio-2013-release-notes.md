@@ -1,8 +1,8 @@
 ---
 uid: visual-studio/overview/2013/aspnet-and-web-tools-20132-preview-for-visual-studio-2013-release-notes
-title: "ASP.NET and Web Tools 2013.2  for Visual Studio 2013 Release Notes | Microsoft Docs"
-author: microsoft
-description: ""
+title: ASP.NET and Web Tools 2013.2 for Visual Studio 2013 Release Notes | Microsoft Docs
+author: rick-anderson
+description: ASP.NET and Web Tools for Visual Studio 2013.2 are bundled in the main installer and can be downloaded as part of Visual Studio 2013 Update 2.
 ms.author: riande
 ms.date: 03/06/2014
 ms.assetid: 7ef5f73c-ca60-43c1-bdb2-702800347e7e
@@ -96,7 +96,9 @@ Firefox uses its own certificate store, so it will display a warning.
     ![Add New Item: SCSS Style Sheet](aspnet-and-web-tools-20132-preview-for-visual-studio-2013-release-notes/_static/image9.png)    ![Style sheet editor](aspnet-and-web-tools-20132-preview-for-visual-studio-2013-release-notes/_static/image10.png)
 - **New URL Picker in HTML, Razor, CSS, LESS and Sass documents:** VS 2013 shipped with no URL picker outside of Web Forms pages. The new URL picker for HTML, Razor, CSS, LESS and Sass editors is a dialog-free, fluent typing picker that understands '..' and filters file lists appropriately for img tags and links.
 
-    ![URL Picker for image tag](aspnet-and-web-tools-20132-preview-for-visual-studio-2013-release-notes/_static/image11.png)    ![URL Picker for views](aspnet-and-web-tools-20132-preview-for-visual-studio-2013-release-notes/_static/image12.png)    ![URL Picker for CSS](aspnet-and-web-tools-20132-preview-for-visual-studio-2013-release-notes/_static/image13.png)
+    ![Screenshot of new dialog-free, fluent typing u r l Picker that filters file lists appropriately. Example illustrates image links.](aspnet-and-web-tools-20132-preview-for-visual-studio-2013-release-notes/_static/image11.png)
+    ![Screenshot of new dialog-free, fluent typing u r l Picker that filters file lists appropriately. Example illustrates h t m l links.](aspnet-and-web-tools-20132-preview-for-visual-studio-2013-release-notes/_static/image12.png)
+    ![Screenshot of new Picker for c s s editors that filters file lists appropriately for i m g tags and links.](aspnet-and-web-tools-20132-preview-for-visual-studio-2013-release-notes/_static/image13.png)
 - **Updates to LESS editor by adding more features**
 - **Knockout Intellisense Upgrade**: We added a non-standard KnockOut syntax for VS intelliSense, "ko-vs-editor viewModel:" syntax. It can be used to bind to multiple view models on a page using comments in the form:
 
@@ -111,7 +113,9 @@ Firefox uses its own certificate store, so it will display a warning.
     ![Intellisense showing full JavaScript object](aspnet-and-web-tools-20132-preview-for-visual-studio-2013-release-notes/_static/image15.png)
 - **New URL Picker in HTML, Razor, CSS, LESS and Sass documents**: VS 2013 shipped with no URL picker outside of Web Forms pages. The new URL picker for HTML, Razor, CSS, LESS and Sass editors is a dialog-free, fluent typing picker that understands '..' and filters file lists appropriately for img tags and links.
 
-    ![URL Picker for image tag](aspnet-and-web-tools-20132-preview-for-visual-studio-2013-release-notes/_static/image16.png)    ![URL Picker for views](aspnet-and-web-tools-20132-preview-for-visual-studio-2013-release-notes/_static/image17.png)    ![URL Picker for CSS](aspnet-and-web-tools-20132-preview-for-visual-studio-2013-release-notes/_static/image18.png)
+    ![Screenshot of new dialog-free, fluent typing u r l Picker that filters file lists appropriately for i m g tags and links.](aspnet-and-web-tools-20132-preview-for-visual-studio-2013-release-notes/_static/image16.png)
+    ![Screenshot of new dialog-free, fluent typing u r l Picker that filters file lists appropriately, displaying h t m l links.](aspnet-and-web-tools-20132-preview-for-visual-studio-2013-release-notes/_static/image17.png)
+    ![Screenshot of new dialog-free, fluent typing Picker for c s s editors that filters file lists appropriately for i m g tags and links.](aspnet-and-web-tools-20132-preview-for-visual-studio-2013-release-notes/_static/image18.png)
 
 <a id="browserlink"></a>
 ### Browser Link
@@ -125,12 +129,12 @@ Firefox uses its own certificate store, so it will display a warning.
 ### Support for Azure App Service Web Apps in Visual Studio
 
 - **Support Azure sign in.**
-- **Remote debugging and Remote View for web apps**: We now support [remote debugging for web apps in Azure App Service](https://docs.microsoft.com/azure/app-service-web/web-sites-dotnet-troubleshoot-visual-studio) and remote view of web app content files in the server explorer.
+- **Remote debugging and Remote View for web apps**: We now support [remote debugging for web apps in Azure App Service](/azure/app-service-web/web-sites-dotnet-troubleshoot-visual-studio) and remote view of web app content files in the server explorer.
 
 <a id="AzureResources"></a>
 ### Create remote Azure resources when creating a new Web project
 
-We added an Azure ["Create Remote Resources"](https://docs.microsoft.com/azure/app-service-web/app-service-web-get-started-dotnet) checkbox on the new web application dialog. By choosing it, you will be able to integrate the experience of creating a new web application, setting up the Azure publishing site for testing, and creating publishing profile in a few simple steps.
+We added an Azure ["Create Remote Resources"](/azure/app-service-web/app-service-web-get-started-dotnet) checkbox on the new web application dialog. By choosing it, you will be able to integrate the experience of creating a new web application, setting up the Azure publishing site for testing, and creating publishing profile in a few simple steps.
 
 ![New Project with Azure resources](aspnet-and-web-tools-20132-preview-for-visual-studio-2013-release-notes/_static/image19.png)![Publishing to Azure](aspnet-and-web-tools-20132-preview-for-visual-studio-2013-release-notes/_static/image20.png)
 
@@ -159,7 +163,7 @@ The following screenshots demonstrate scaffolding models.
      ![Add new MVC5 controller with views](aspnet-and-web-tools-20132-preview-for-visual-studio-2013-release-notes/_static/image23.png)
 - **Add Controller** using the model:
 
-    ![](aspnet-and-web-tools-20132-preview-for-visual-studio-2013-release-notes/_static/image24.png)
+    ![Screenshot of Add Controller dialog, with Model class selected and Data context class field selected and highlighted.](aspnet-and-web-tools-20132-preview-for-visual-studio-2013-release-notes/_static/image24.png)
 - Check the generated code, for example Views/WeekdayModels/Edit.cshtml contains `@Html.EnumDropDownListFor`: ![View containing EnumDropDownListFor](aspnet-and-web-tools-20132-preview-for-visual-studio-2013-release-notes/_static/image25.png)
 - Run the page to see the enum combobox generated, notice that if a value can be null, an empty string can be chosen for the combo box. For example, the **Create** page shows the following:
 
@@ -186,13 +190,13 @@ NuGet 2.8.1 RTM will be released in April 2014. Here are the salient points from
     The cache fallback feature does not require any specific command arguments. Additionally, cache fallback currently works only in the package manager console - the behavior does not currently work in the package manager dialog.
 - **Bug Fixes**: One of the major bug fixes made was performance improvement in the update-package -reinstall command.
 
-    In addition to these features and the aforementioned performance fix, this release of NuGet also includes many other bug fixes. There were 181 total issues addressed in the release. For a full list of the work items fixed in NuGet 2.8, please view the [NuGet Issue Tracker](https://nuget.codeplex.com/workitem/list/advanced?release=NuGet%202.8&status=all) for this release.
+    In addition to these features and the aforementioned performance fix, this release of NuGet also includes many other bug fixes. There were 181 total issues addressed in the release. For a full list of the work items fixed in NuGet 2.8, please view the NuGet Issue Tracker for this release.
 
 <a id="webforms"></a>
 ### ASP.NET Web Forms
 
 - The Web Forms templates now show how to do Account Confirmation and Password Reset for ASP.NET Identity.
-- The Entity Data Source control and the Dynamic Data Provider for Entity Framework 6. For more details please see the following MSDN blog: [Dynamic Data provider and EntityDataSource control for Entity Framework 6](https://blogs.msdn.com/b/webdev/archive/2014/01/30/announcing-preview-of-dynamic-data-provider-and-entitydatasource-control-for-entity-framework-6.aspx).
+- The Entity Data Source control and the Dynamic Data Provider for Entity Framework 6. For more details please see the following MSDN blog: [Dynamic Data provider and EntityDataSource control for Entity Framework 6](https://devblogs.microsoft.com/dotnet/announcing-preview-of-dynamic-data-provider-and-entitydatasource-control-for-entity-framework-6/).
 
 <a id="mvc"></a>
 ### ASP.NET MVC 5.1.2
@@ -202,7 +206,7 @@ NuGet 2.8.1 RTM will be released in April 2014. Here are the salient points from
 - [Enum support in views](../../../mvc/overview/releases/mvc51-release-notes.md#Enum)
 - [Unobtrusive support for MinLength/ MaxLength attributes](../../../mvc/overview/releases/mvc51-release-notes.md#Unobtrusive)
 - [Supporting the 'this' context in Unobtrusive Ajax](../../../mvc/overview/releases/mvc51-release-notes.md#thisContext)
-- Various [bug fixes](https://aspnetwebstack.codeplex.com/workitem/list/advanced?keyword=&status=Closed&type=All&priority=All&release=v5.1%20Preview%7cv5.1%20RTM&assignedTo=All&component=MVC&sortField=AssignedTo&sortDirection=Ascending&page=0&reasonClosed=Fixed)
+
 
 <a id="webapi"></a>
 ### ASP.NET Web API 2.1.2
@@ -214,12 +218,11 @@ NuGet 2.8.1 RTM will be released in April 2014. Here are the salient points from
 - [BSON media-type formatter](../../../web-api/overview/releases/whats-new-in-aspnet-web-api-21.md#bson)
 - [Better support for async filters](../../../web-api/overview/releases/whats-new-in-aspnet-web-api-21.md#async-filters)
 - [Query parsing for the client formatting library](../../../web-api/overview/releases/whats-new-in-aspnet-web-api-21.md#query-parsing)
-- Various [bug fixes](https://aspnetwebstack.codeplex.com/workitem/list/advanced?keyword=&status=Closed&type=All&priority=All&release=v5.1%20Preview%7cv5.1%20RTM&assignedTo=All&component=Web%20API%7cWeb%20API%20OData&sortField=AssignedTo&sortDirection=Ascending&page=0&reasonClosed=Fixed)
+
 
 <a id="webpages"></a>
 ### ASP.NET Web Pages 3.1.2
 
-- Various [bug fixes](https://aspnetwebstack.codeplex.com/workitem/list/advanced?keyword=&status=Closed&type=All&priority=All&release=v5.1%20Preview%7cv5.1%20RTM&assignedTo=All&component=Web%20Pages/Razor&sortField=AssignedTo&sortDirection=Ascending&page=0&reasonClosed=Fixed)
 
 <a id="ef"></a>
 ### Entity Framework 6.1
@@ -252,12 +255,12 @@ Entity Framework has been updated to version 6.1 for both runtime and tooling. E
 
     - **User Manager**: You can use Factory implementation to obtain an instance of UserManager from the OWIN context. This pattern is similar to what we use for getting AuthenticationManager from OWIN context for SignIn and SignOut. This is a recommended way of obtaining an instance of UserManager per request for the application.
     - **DbContextFactory**: ASP.NET Identity uses Entity Framework for persisting the Identity system in SQL Server. To do this the Identity System has a reference to the ApplicationDbContext. The DbContextFactory Middleware returns an instance of the ApplicationDbContext per request that you can use in your application.
-- **ASP.NET Identity Samples NuGet package**: The Samples NuGet package can make it easier to install and run samples for ASP.NET Identity and follow the best practices. This is a sample ASP.NET MVC application. Please modify the code to suit your application before you deploy this in production. The sample should be installed in an empty ASP.NET application. For more information about the package, go to the following blog post: [Announcing RTM of ASP.NET Identity 2.0.0](https://blogs.msdn.com/b/webdev/archive/2014/03/20/test-announcing-rtm-of-asp-net-identity-2-0-0.aspx)
+- **ASP.NET Identity Samples NuGet package**: The Samples NuGet package can make it easier to install and run samples for ASP.NET Identity and follow the best practices. This is a sample ASP.NET MVC application. Please modify the code to suit your application before you deploy this in production. The sample should be installed in an empty ASP.NET application. For more information about the package, go to the following blog post: [Announcing RTM of ASP.NET Identity 2.0.0](https://devblogs.microsoft.com/dotnet/announcing-rtm-of-asp-net-identity-2-0-0/)
 
 <a id="owin"></a>
 ### Microsoft OWIN components
 
-There were lots of bugs that were fixed in this release. Please see the [release notes for the 2.1.0 release](https://katanaproject.codeplex.com/releases/view/113281) for more detailed information.
+There were lots of bugs that were fixed in this release. 
 
 <a id="signalr"></a>
 ### ASP.NET SignalR 2.0.2

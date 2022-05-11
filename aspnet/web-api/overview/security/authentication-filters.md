@@ -1,7 +1,7 @@
 ---
 uid: web-api/overview/security/authentication-filters
 title: "Authentication Filters in ASP.NET Web API 2 | Microsoft Docs"
-author: MikeWasson
+author: Rick-Anderson
 description: "An authentication filter is a component that authenticates an HTTP request. Web API 2 and MVC 5 both support authentication filters, but they differ slightly..."
 ms.author: riande
 ms.date: 09/25/2014
@@ -11,13 +11,13 @@ msc.type: authoredcontent
 ---
 # Authentication Filters in ASP.NET Web API 2
 
-by [Mike Wasson](https://github.com/MikeWasson)
+by Mike Wasson
 
 > An authentication filter is a component that authenticates an HTTP request. Web API 2 and MVC 5 both support authentication filters, but they differ slightly, mostly in the naming conventions for the filter interface. This topic describes Web API authentication filters.
 
 Authentication filters let you set an authentication scheme for individual controllers or actions. That way, your app can support different authentication mechanisms for different HTTP resources.
 
-In this article, I'll show code from the [Basic Authentication](http://aspnet.codeplex.com/sourcecontrol/latest#Samples/WebApi/BasicAuthentication/ReadMe.txt) sample on [http://aspnet.codeplex.com](http://aspnet.codeplex.com). The sample shows an authentication filter that implements the HTTP Basic Access Authentication scheme (RFC 2617). The filter is implemented in a class named `IdentityBasicAuthenticationAttribute`. I won't show all of the code from the sample, just the parts that illustrate how to write an authentication filter.
+In this article, I'll show code from the [Basic Authentication](https://github.com/aspnet/samples/tree/master/samples/aspnet/WebApi/BasicAuthentication) sample on [https://github.com/aspnet/samples](https://github.com/aspnet/samples). The sample shows an authentication filter that implements the HTTP Basic Access Authentication scheme (RFC 2617). The filter is implemented in a class named `IdentityBasicAuthenticationAttribute`. I won't show all of the code from the sample, just the parts that illustrate how to write an authentication filter.
 
 ## Setting an Authentication Filter
 
@@ -71,11 +71,11 @@ Here is the flow in the Web API 2 pipeline:
 
 The following diagrams show two possible cases. In the first, the authentication filter successfully authenticates the request, an authorization filter authorizes the request, and the controller action returns 200 (OK).
 
-![](authentication-filters/_static/image1.png)
+![Diagram of successful authentication](authentication-filters/_static/image1.png)
 
 In the second example, the authentication filter authenticates the request, but the authorization filter returns 401 (Unauthorized). In this case, the controller action is not invoked. The authentication filter adds a Www-Authenticate header to the response.
 
-![](authentication-filters/_static/image2.png)
+![Diagram of unauthorized authentication](authentication-filters/_static/image2.png)
 
 Other combinations are possible&mdash;for example, if the controller action allows anonymous requests, you might have an authentication filter but no authorization.
 
@@ -102,7 +102,7 @@ Here is a general outline for implementing **AuthenticateAsync**.
 5. If the credentials are bad, return 401 by setting `context.ErrorResult`.
 6. If the credentials are valid, create an **IPrincipal** and set `context.Principal`.
 
-The follow code shows the **AuthenticateAsync** method from the [Basic Authentication](http://aspnet.codeplex.com/sourcecontrol/latest#Samples/WebApi/BasicAuthentication/ReadMe.txt) sample. The comments indicate each step. The code shows several types of error: An Authorization header with no credentials, malformed credentials, and bad username/password.
+The follow code shows the **AuthenticateAsync** method from the [Basic Authentication](https://github.com/aspnet/samples/tree/master/samples/aspnet/WebApi/BasicAuthentication) sample. The comments indicate each step. The code shows several types of error: An Authorization header with no credentials, malformed credentials, and bad username/password.
 
 [!code-csharp[Main](authentication-filters/samples/sample5.cs)]
 
@@ -124,7 +124,7 @@ The method is called on every authentication filter in the request pipeline.
 
 It's important to understand that **ChallengeAsync** is called *before* the HTTP response is created, and possibly even before the controller action runs. When **ChallengeAsync** is called, `context.Result` contains an **IHttpActionResult**, which is used later to create the HTTP response. So when **ChallengeAsync** is called, you don't know anything about the HTTP response yet. The **ChallengeAsync** method should replace the original value of `context.Result` with a new **IHttpActionResult**. This **IHttpActionResult** must wrap the original `context.Result`.
 
-![](authentication-filters/_static/image3.png)
+![Diagram of ChallengeAsync](authentication-filters/_static/image3.png)
 
 I'll call the original **IHttpActionResult** the *inner result*, and the new **IHttpActionResult** the *outer result*. The outer result must do the following:
 

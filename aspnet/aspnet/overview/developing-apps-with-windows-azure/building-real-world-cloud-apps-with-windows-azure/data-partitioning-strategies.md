@@ -1,8 +1,8 @@
 ---
 uid: aspnet/overview/developing-apps-with-windows-azure/building-real-world-cloud-apps-with-windows-azure/data-partitioning-strategies
-title: "Data Partitioning Strategies (Building Real-World Cloud Apps with Azure) | Microsoft Docs"
-author: MikeWasson
-description: "The Building Real World Cloud Apps with Azure e-book is based on a presentation developed by Scott Guthrie. It explains 13 patterns and practices that can he..."
+title: Partitioning Strategies (Building Real-World Cloud Apps with Azure) | Microsoft Docs
+author: Rick-Anderson
+description: There is an e-book called Building Real World Cloud Apps with Azure. The e-book is based on a presentation developed by Scott Guthrie and explains 13 patterns and practices that can he...
 ms.author: riande
 ms.date: 06/12/2014
 ms.assetid: 513837a7-cfea-4568-a4e9-1f5901245d24
@@ -11,9 +11,9 @@ msc.type: authoredcontent
 ---
 # Data Partitioning Strategies (Building Real-World Cloud Apps with Azure)
 
-by [Mike Wasson](https://github.com/MikeWasson), [Rick Anderson]((https://twitter.com/RickAndMSFT)), [Tom Dykstra](https://github.com/tdykstra)
+by [Rick Anderson](https://twitter.com/RickAndMSFT), [Tom Dykstra](https://github.com/tdykstra)
 
-[Download Fix It Project](http://code.msdn.microsoft.com/Fix-It-app-for-Building-cdd80df4) or [Download E-book](http://blogs.msdn.com/b/microsoft_press/archive/2014/07/23/free-ebook-building-cloud-apps-with-microsoft-azure.aspx)
+[Download Fix It Project](https://code.msdn.microsoft.com/Fix-It-app-for-Building-cdd80df4) or [Download E-book](/archive/blogs/microsoft_press/free-ebook-building-cloud-apps-with-microsoft-azure)
 
 > The **Building Real World Cloud Apps with Azure** e-book is based on a presentation developed by Scott Guthrie. It explains 13 patterns and practices that can help you be successful developing web apps for the cloud. For information about the series, see [the first chapter](introduction.md).
 
@@ -45,7 +45,7 @@ For example, suppose my app stores data about people, including images:
 
 ![Data table](data-partitioning-strategies/_static/image1.png)
 
-When you represent this data as a table and look at the different varieties of data, you can see that the three columns on the left have string data that can be efficiently stored by a relational database, while the two columns on the right are essentially byte arrays that come from image files. It's possible to storage image file data in a relational database, and a lot of people do that because they don't want to save the data to the file system. They might not have a file system capable of storing the required volumes of data or they might not want to manage a separate back-up and restore system. This approach works well for on-premises databases and for small amounts of data in cloud databases. In the on-premises environment, it might be easier to just let the DBA take care of everything.
+When you represent this data as a table and look at the different varieties of data, you can see that the three columns on the left have string data that can be efficiently stored by a relational database, while the two columns on the right are essentially byte arrays that come from image files. It's possible to store image file data in a relational database, and a lot of people do that because they don't want to save the data to the file system. They might not have a file system capable of storing the required volumes of data or they might not want to manage a separate back-up and restore system. This approach works well for on-premises databases and for small amounts of data in cloud databases. In the on-premises environment, it might be easier to just let the DBA take care of everything.
 
 But in a cloud database, storage is relatively expensive, and a high volume of images could make the size of the database grow beyond the limits at which it can operate efficiently. You can address these problems by partitioning the data vertically, which means you choose the most appropriate data store for each column in your table of data. What might work best for this example is to put the string data in a relational database and the images in Blob storage.
 
@@ -81,7 +81,7 @@ The complications are manageable so long as you're planning for them before you 
 
 ## Summary
 
-An effective partitioning scheme can enable your cloud app to scale to petabytes of data in the cloud without bottlenecks. And you don't have to pay up front for massive machines or extensive infrastructure as you might if you were running the app in an on-premises data center. In the cloud you can you can incrementally add capacity as you need it, and you're only paying for as much as you're using when you use it.
+An effective partitioning scheme can enable your cloud app to scale to petabytes of data in the cloud without bottlenecks. And you don't have to pay up front for massive machines or extensive infrastructure as you might if you were running the app in an on-premises data center. In the cloud you can incrementally add capacity as you need it, and you're only paying for as much as you're using when you use it.
 
 In the [next chapter](unstructured-blob-storage.md) we'll see how the Fix It app implements vertical partitioning by storing images in Blob storage.
 
@@ -101,7 +101,7 @@ Videos:
 
 Sample code:
 
-- [Cloud Service Fundamentals in Windows Azure](https://code.msdn.microsoft.com/Cloud-Service-Fundamentals-4ca72649). Sample application that includes a sharded database. For a description of the sharding scheme implemented, see [DAL – Sharding of RDBMS](https://blogs.msdn.com/b/windowsazure/archive/2013/09/05/dal-sharding-of-rdbms.aspx) on the Windows Azure blog.
+- [Cloud Service Fundamentals in Windows Azure](https://code.msdn.microsoft.com/Cloud-Service-Fundamentals-4ca72649). Sample application that includes a sharded database. For a description of the sharding scheme implemented, see [DAL – Sharding of RDBMS](https://azure.microsoft.com/blog/dal-sharding-of-rdbms/) on the Windows Azure blog.
 
 > [!div class="step-by-step"]
 > [Previous](data-storage-options.md)

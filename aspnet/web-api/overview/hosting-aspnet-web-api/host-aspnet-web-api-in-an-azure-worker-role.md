@@ -12,7 +12,7 @@ msc.type: authoredcontent
 ---
 # Host ASP.NET Web API 2 in an Azure Worker Role
 
-by [Mike Wasson](https://github.com/MikeWasson)
+by Mike Wasson
 
 > This tutorial shows how to host ASP.NET Web API in an Azure Worker Role, using OWIN to self-host the Web API framework.
 >
@@ -29,7 +29,7 @@ by [Mike Wasson](https://github.com/MikeWasson)
 
 ## Create a Microsoft Azure Project
 
-Start Visual Studio with administrator privileges. Administrator privileges are needed to debug the application locally, using the Azure compute emulator.
+Start Visual Studio with administrator privileges. Administrator privileges are needed to debug the application locally, using the Azure Compute Emulator.
 
 On the **File** menu, click **New**, then click **Project**. From **Installed Templates**, under Visual C#, click **Cloud** and then click **Windows Azure Cloud Service**. Name the project "AzureApp" and click **OK**.
 
@@ -115,7 +115,7 @@ Here is the complete code for WorkerRole.cs:
 Build the solution, and press F5 to run the application locally in the Azure Compute Emulator. Depending on your firewall settings, you might need to allow the emulator through your firewall.
 
 > [!NOTE]
-> If you get an exception like the following, please see [this blog post](https://blogs.msdn.com/b/praburaj/archive/2013/11/20/fileloadexception-on-microsoft-owin-when-running-on-worker-role.aspx) for a workaround. "Could not load file or assembly 'Microsoft.Owin, Version=2.0.2.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35' or one of its dependencies. The located assembly's manifest definition does not match the assembly reference. (Exception from HRESULT: 0x80131040)"
+> If you get an exception like the following, please see [this blog post](/archive/blogs/praburaj/fileloadexception-on-microsoft-owin-when-running-on-worker-role) for a workaround. "Could not load file or assembly 'Microsoft.Owin, Version=2.0.2.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35' or one of its dependencies. The located assembly's manifest definition does not match the assembly reference. (Exception from HRESULT: 0x80131040)"
 
 The compute emulator assigns a local IP address to the endpoint. You can find the IP address by viewing the Compute Emulator UI. Right-click the emulator icon in the task bar notification area, and select **Show Compute Emulator UI**.
 
@@ -149,9 +149,7 @@ Click **Publish**.
 
 [![](host-aspnet-web-api-in-an-azure-worker-role/_static/image20.png)](host-aspnet-web-api-in-an-azure-worker-role/_static/image19.png)
 
-The Azure Activity Log window shows the progress of the deployment. When the app is deployed, browse to http://appname.cloudapp.net/test/1.
-
-![](host-aspnet-web-api-in-an-azure-worker-role/_static/image21.png)
+[Configuring a custom domain name for an Azure cloud service (classic)](/azure/cloud-services/cloud-services-custom-domain-name-portal)
 
 ## Additional Resources
 

@@ -51,7 +51,7 @@ This document contains the following sections:
 
 For a sample .NET client projects, see the following resources:
 
-- [gustavo-armenta / SignalR-Samples](https://github.com/gustavo-armenta/SignalR-Samples) on GitHub.com (WinRT, Silverlight, console app examples).
+- [gustavo-armenta / SignalR-Samples](https://github.com/gustavo-armenta/) on GitHub.com (WinRT, Silverlight, console app examples).
 - [DamianEdwards / SignalR-MoveShapeDemo / MoveShape.Desktop](https://github.com/DamianEdwards/SignalR-MoveShapeDemo/tree/master/MoveShape/MoveShape.Desktop) on GitHub.com (WPF example).
 - [SignalR / Microsoft.AspNet.SignalR.Client.Samples](https://github.com/SignalR/SignalR/tree/master/samples/Microsoft.AspNet.SignalR.Client.Samples) on GitHub.com (Console app example).
 

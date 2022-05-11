@@ -85,7 +85,7 @@ For this tutorial, you'll be using Migrations for deployment, but your `Seed` me
 
     **Sequence contains more than one element**
 
-    For information about how to handle redundant data such as two students named "Alexander Carson", see [Seeding and Debugging Entity Framework (EF) DBs](https://blogs.msdn.com/b/rickandy/archive/2013/02/12/seeding-and-debugging-entity-framework-ef-dbs.aspx) on Rick Anderson's blog. For more information about the `AddOrUpdate` method, see [Take care with EF 4.3 AddOrUpdate Method](http://thedatafarm.com/blog/data-access/take-care-with-ef-4-3-addorupdate-method/) on Julie Lerman's blog.
+    For information about how to handle redundant data such as two students named "Alexander Carson", see [Seeding and Debugging Entity Framework (EF) DBs](/archive/blogs/rickandy/seeding-and-debugging-entity-framework-ef-dbs) on Rick Anderson's blog. For more information about the `AddOrUpdate` method, see [Take care with EF 4.3 AddOrUpdate Method](http://thedatafarm.com/blog/data-access/take-care-with-ef-4-3-addorupdate-method/) on Julie Lerman's blog.
 
     The code that creates `Enrollment` entities assumes you have the `ID` value in the entities in the `students` collection, although you didn't set that property in the code that creates the collection.
 
@@ -133,7 +133,7 @@ Your Migrations `Seed` method inserts test data. If you were deploying to a prod
 ### Get an Azure account
 
 You'll need an Azure account. If you don't already have one, but you do have a Visual Studio subscription, you can [activate your subscription benefits](https://azure.microsoft.com/pricing/member-offers/credit-for-visual-studio-subscribers/
-). Otherwise, you can create a free trial account in just a couple of minutes. For details, see [Azure Free Trial](https://azure.microsoft.com/free/).
+). Otherwise, you can create a free trial account in just a couple of minutes. For details, see [Azure Free Trial](https://azure.microsoft.com/free/dotnet/).
 
 ### Create a web site and a SQL database in Azure
 
@@ -177,7 +177,7 @@ You'll deploy the database to Azure SQL database. SQL database is a cloud-based 
 
 2. On the **Pick a publish target** page, choose **App Service** and then **Select Existing**, and then choose **Publish**.
 
-    ![Pick a publish target page](migrations-and-deployment-with-the-entity-framework-in-an-asp-net-mvc-application/_static/publish-select-existing-azure-app-service.png)
+    ![Pick a publish target page](migrations-and-deployment-with-the-entity-framework-in-an-asp-net-mvc-application/_static/select-existing-app-service.png)
 
 3. If you haven't previously added your Azure subscription in Visual Studio, perform the steps on the screen. These steps enable Visual Studio to connect to your Azure subscription so that the list of **App Services** will include your web site.
 
@@ -210,7 +210,19 @@ You can find the deployed version of the Web.config file on your own computer in
 
 If you deploy a database by running migrations automatically as shown in this tutorial, and you are deploying to a web site that runs on multiple servers, you could get multiple servers trying to run migrations at the same time. Migrations are atomic, so if two servers try to run the same migration, one will succeed and the other will fail (assuming the operations can't be done twice). In that scenario if you want to avoid those issues, you can call migrations manually and set up your own code so that it only happens once. For more information, see [Running and Scripting Migrations from Code](http://romiller.com/2012/02/09/running-scripting-migrations-from-code/) on Rowan Miller's blog and [Migrate.exe](/ef/ef6/modeling/code-first/migrations/migrate-exe) (for executing migrations from the command line).
 
-For information about other migrations scenarios, see [Migrations Screencast Series](https://blogs.msdn.com/b/adonet/archive/2014/03/12/migrations-screencast-series.aspx).
+For information about other migrations scenarios, see [Migrations Screencast Series](/archive/blogs/adonet/migrations-screencast-series).
+
+## Update specific migration
+
+`update-database -target MigrationName`
+
+The `update-database -target MigrationName` command runs the targeted migration.
+
+## Ignore migration changes to database
+
+`Add-migration MigrationName -ignoreChanges`
+
+`ignoreChanges` creates an empty migration with the current model as a snapshot.
 
 ## Code First initializers
 

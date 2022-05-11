@@ -1,7 +1,7 @@
 ---
 uid: web-api/overview/formats-and-model-binding/json-and-xml-serialization
 title: "JSON and XML Serialization in ASP.NET Web API - ASP.NET 4.x"
-author: MikeWasson
+author: rick-anderson
 description: "Describes the JSON and XML formatters in ASP.NET Web API for ASP.NET 4.x."
 ms.author: riande
 ms.date: 05/30/2012
@@ -11,8 +11,6 @@ msc.legacyurl: /web-api/overview/formats-and-model-binding/json-and-xml-serializ
 msc.type: authoredcontent
 ---
 # JSON and XML Serialization in ASP.NET Web API
-
-by [Mike Wasson](https://github.com/MikeWasson)
 
 This article describes the JSON and XML formatters in ASP.NET Web API.
 
@@ -201,7 +199,7 @@ Consider the following object models and controller.
 
 [!code-csharp[Main](json-and-xml-serialization/samples/sample17.cs)]
 
-Invoking this action will cause the formatter to thrown an exception, which translates to a status code 500 (Internal Server Error) response to the client.
+Invoking this action will cause the formatter to throw an exception, which translates to a status code 500 (Internal Server Error) response to the client.
 
 To preserve object references in JSON, add the following code to **Application\_Start** method in the Global.asax file:
 

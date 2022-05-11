@@ -13,7 +13,7 @@ msc.type: authoredcontent
 
 by [Scott Mitchell](https://twitter.com/ScottOnWriting)
 
-[Download Sample App](http://download.microsoft.com/download/4/a/7/4a7a3b18-d80e-4014-8e53-a6a2427f0d93/ASPNET_Data_Tutorial_49_VB.exe) or [Download PDF](inserting-updating-and-deleting-data-with-the-sqldatasource-vb/_static/datatutorial49vb1.pdf)
+[Download PDF](inserting-updating-and-deleting-data-with-the-sqldatasource-vb/_static/datatutorial49vb1.pdf)
 
 > In previous tutorials we learned how the ObjectDataSource control allowed for inserting, updating, and deleting of data. The SqlDataSource control supports the same operations, but the approach is different, and this tutorial shows how to configure the SqlDataSource to insert, update, and delete data.
 

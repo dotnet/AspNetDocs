@@ -13,7 +13,7 @@ msc.type: authoredcontent
 
 by [Scott Mitchell](https://twitter.com/ScottOnWriting)
 
-[Download Sample App](http://download.microsoft.com/download/9/c/1/9c1d03ee-29ba-4d58-aa1a-f201dcc822ea/ASPNET_Data_Tutorial_25_VB.exe) or [Download PDF](efficiently-paging-through-large-amounts-of-data-vb/_static/datatutorial25vb1.pdf)
+[Download PDF](efficiently-paging-through-large-amounts-of-data-vb/_static/datatutorial25vb1.pdf)
 
 > The default paging option of a data presentation control is unsuitable when working with large amounts of data, as its underlying data source control retrieves all records, even though only a subset of data is displayed. In such circumstances, we must turn to custom paging.
 
@@ -24,7 +24,7 @@ As we discussed in the preceding tutorial, paging can be implemented in one of t
 - **Default Paging** can be implemented by simply checking the Enable Paging option in the data Web control s smart tag; however, whenever viewing a page of data, the ObjectDataSource retrieves *all* of the records, even though only a subset of them are displayed in the page
 - **Custom Paging** improves the performance of default paging by retrieving only those records from the database that need to be displayed for the particular page of data requested by the user; however, custom paging involves a bit more effort to implement than default paging
 
-Due to the ease of implementation just check a checkbox and you re done! default paging is an attractive option. Its na�ve approach in retrieving all of the records, though, makes it an implausible choice when paging through sufficiently large amounts of data or for sites with many concurrent users. In such circumstances, we must turn to custom paging in order to provide a responsive system.
+Due to the ease of implementation just check a checkbox and you re done! default paging is an attractive option. Its naive approach in retrieving all of the records, though, makes it an implausible choice when paging through sufficiently large amounts of data or for sites with many concurrent users. In such circumstances, we must turn to custom paging in order to provide a responsive system.
 
 The challenge of custom paging is being able to write a query that returns the precise set of records needed for a particular page of data. Fortunately, Microsoft SQL Server 2005 provides a new keyword for ranking results, which enables us to write a query that can efficiently retrieve the proper subset of records. In this tutorial we'll see how to use this new SQL Server 2005 keyword to implement custom paging in a GridView control. While the user interface for custom paging is identical to that for default paging, stepping from one page to the next using custom paging can be several orders of magnitude faster than default paging.
 
@@ -105,7 +105,7 @@ There are two general techniques used to efficiently associate a row index with 
   
   This approach s efficiency is based on the page number being requested, as the `SET ROWCOUNT` value is assigned the value of Start Row Index plus the Maximum Rows. When paging through low-numbered pages such as the first few pages of data this approach is very efficient. However, it exhibits default paging-like performance when retrieving a page near the end.
 
-This tutorial implements custom paging using the `ROW_NUMBER()` keyword. For more information on using the table variable and `SET ROWCOUNT` technique, see [A More Efficient Method for Paging Through Large Result Sets](http://www.4guysfromrolla.com/webtech/042606-1.shtml).
+This tutorial implements custom paging using the `ROW_NUMBER()` keyword. For more information on using the table variable and `SET ROWCOUNT` technique, see [A More Efficient Method for Paging Through Large Result Sets](https://www.cnblogs.com/tracy/archive/2010/07/22/1783145.html).
 
 The `ROW_NUMBER()` keyword associated a ranking with each record returned over a particular ordering using the following syntax:
 
@@ -245,7 +245,7 @@ After making these changes, visit this page through a browser. You should see 10
 **Figure 17**: The Data, Ordered by the Product s Name, is Paged Using Custom Paging ([Click to view full-size image](efficiently-paging-through-large-amounts-of-data-vb/_static/image21.png))
 
 > [!NOTE]
-> With custom paging, the page count value returned by the ObjectDataSource�s `SelectCountMethod` is stored in the GridView�s view state. Other GridView variables the `PageIndex`, `EditIndex`, `SelectedIndex`, `DataKeys` collection, and so on are stored in *control state*, which is persisted regardless of the value of the GridView�s `EnableViewState` property. Since the `PageCount` value is persisted across postbacks using view state, when using a paging interface that includes a link to take you to the last page, it is imperative that the GridView�s view state be enabled. (If your paging interface does not include a direct link to the last page, then you may disable view state.)
+> With custom paging, the page count value returned by the ObjectDataSource's `SelectCountMethod` is stored in the GridView's view state. Other GridView variables the `PageIndex`, `EditIndex`, `SelectedIndex`, `DataKeys` collection, and so on are stored in *control state*, which is persisted regardless of the value of the GridView's `EnableViewState` property. Since the `PageCount` value is persisted across postbacks using view state, when using a paging interface that includes a link to take you to the last page, it is imperative that the GridView's view state be enabled. (If your paging interface does not include a direct link to the last page, then you may disable view state.)
 
 Clicking the last page link causes a postback and instructs the GridView to update its `PageIndex` property. If the last page link is clicked, the GridView assigns its `PageIndex` property to a value one less than its `PageCount` property. With view state disabled, the `PageCount` value is lost across postbacks and the `PageIndex` is assigned the maximum integer value instead. Next, the GridView attempts to determine the starting row index by multiplying the `PageSize` and `PageCount` properties. This results in an `OverflowException` since the product exceeds the maximum allowed integer size.
 
@@ -263,7 +263,7 @@ The sorting only applies to the current page of data because the sorting is occu
 
 If you enabling deleting functionality in a GridView whose data is paged using custom paging techniques you will find that when deleting the last record from the last page, the GridView disappears rather than appropriately decrementing the GridView s `PageIndex`. To reproduce this bug, enable deleting for the tutorial just we just created. Go to the last page (page 9), where you should see a single product since we are paging through 81 products, 10 products at a time. Delete this product.
 
-Upon deleting the last product, the GridView *should* automatically go to the eighth page, and such functionality is exhibited with default paging. With custom paging, however, after deleting that last product on the last page, the GridView simply disappears from the screen altogether. The precise reason *why* this happens is a bit beyond the scope of this tutorial; see [Deleting the Last Record on the Last Page from a GridView with Custom Paging](http://scottonwriting.net/sowblog/posts/7326.aspx) for the low-level details as to the source of this problem. In summary it s due to the following sequence of steps that are performed by the GridView when the Delete button is clicked:
+Upon deleting the last product, the GridView *should* automatically go to the eighth page, and such functionality is exhibited with default paging. With custom paging, however, after deleting that last product on the last page, the GridView simply disappears from the screen altogether. The precise reason *why* this happens is a bit beyond the scope of this tutorial; see [Deleting the Last Record on the Last Page from a GridView with Custom Paging](https://www.c-sharpcorner.com/uploadfile/jitendra1987/gridview-paging-sorting-updating-and-deleting/) for the low-level details as to the source of this problem. In summary it s due to the following sequence of steps that are performed by the GridView when the Delete button is clicked:
 
 1. Delete the record
 2. Get the appropriate records to display for the specified `PageIndex` and `PageSize`

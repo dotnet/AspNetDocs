@@ -2,7 +2,7 @@
 uid: web-forms/overview/ajax-control-toolkit/popup/handling-postbacks-from-a-popup-control-without-an-updatepanel-vb
 title: "Handling Postbacks from A Popup Control Without an UpdatePanel (VB) | Microsoft Docs"
 author: wenz
-description: "The PopupControl extender in the AJAX Control Toolkit offers an easy way to trigger a popup when any other control is activated. When a postback occurs in su..."
+description: "The PopupControl extender in the AJAX Control Toolkit offers an easy way to trigger a popup when any other control is activated (VB)."
 ms.author: riande
 ms.date: 06/02/2008
 ms.assetid: a0b9186c-0912-4fff-916a-6d17e696a50b
@@ -13,7 +13,7 @@ msc.type: authoredcontent
 
 by [Christian Wenz](https://github.com/wenz)
 
-[Download Code](http://download.microsoft.com/download/9/3/f/93f8daea-bebd-4821-833b-95205389c7d0/PopupControl3.vb.zip) or [Download PDF](http://download.microsoft.com/download/2/d/c/2dc10e34-6983-41d4-9c08-f78f5387d32b/popupcontrol3VB.pdf)
+[Download PDF](https://download.microsoft.com/download/2/d/c/2dc10e34-6983-41d4-9c08-f78f5387d32b/popupcontrol3VB.pdf)
 
 > The PopupControl extender in the AJAX Control Toolkit offers an easy way to trigger a popup when any other control is activated. When a postback occurs in such a panel and there are several panels on the page it is hard to determine which panel has been clicked.
 
@@ -37,7 +37,7 @@ When the page is loaded, JavaScript code adds an event handler to both text boxe
 
 [!code-html[Main](handling-postbacks-from-a-popup-control-without-an-updatepanel-vb/samples/sample3.html)]
 
-In the server-side code, the value of the hidden field must be read. Since hidden form fields are trivial to manipulate, a whitelist approach to validate the hidden value is required. Once the correct text box has been identified, the date from the calendar is written into it.
+In the server-side code, the value of the hidden field must be read. Since hidden form fields are trivial to manipulate, a safelist approach to validate the hidden value is required. Once the correct text box has been identified, the date from the calendar is written into it.
 
 [!code-aspx[Main](handling-postbacks-from-a-popup-control-without-an-updatepanel-vb/samples/sample4.aspx)]
 

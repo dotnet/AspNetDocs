@@ -11,9 +11,9 @@ msc.type: authoredcontent
 ---
 # Accessing Your Model's Data from a Controller
 
-by [Rick Anderson]((https://twitter.com/RickAndMSFT))
+by [Rick Anderson](https://twitter.com/RickAndMSFT)
 
-[!INCLUDE [Tutorial Note](sample/code-location.md)]
+[!INCLUDE [consider RP](~/includes/razor.md)]
 
 In this section, you'll create a new `MoviesController` class and write code that retrieves the movie data and displays it in the browser using a view template.
 

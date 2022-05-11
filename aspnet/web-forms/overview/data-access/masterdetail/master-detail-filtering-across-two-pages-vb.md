@@ -1,19 +1,19 @@
 ---
 uid: web-forms/overview/data-access/masterdetail/master-detail-filtering-across-two-pages-vb
-title: "Master/Detail Filtering Across Two Pages (VB) | Microsoft Docs"
+title: "Master/Detail Filtering Across Two Pages With a GridView (VB) | Microsoft Docs"
 author: rick-anderson
-description: "In this tutorial we'll implement this pattern by using a GridView to list the suppliers in the database. Each supplier row in the GridView will contain a Vie..."
+description: "In this tutorial we'll implement this pattern by using a GridView to list the suppliers in the database (VB)."
 ms.author: riande
 ms.date: 03/31/2010
 ms.assetid: 361d6a44-3f1f-4daf-85df-d4c2b8bf065d
 msc.legacyurl: /web-forms/overview/data-access/masterdetail/master-detail-filtering-across-two-pages-vb
 msc.type: authoredcontent
 ---
-# Master/Detail Filtering Across Two Pages (VB)
+# Master/Detail Filtering Across Two Pages With a GridView (VB)
 
 by [Scott Mitchell](https://twitter.com/ScottOnWriting)
 
-[Download Sample App](http://download.microsoft.com/download/5/d/7/5d7571fc-d0b7-4798-ad4a-c976c02363ce/ASPNET_Data_Tutorial_9_VB.exe) or [Download PDF](master-detail-filtering-across-two-pages-vb/_static/datatutorial09vb1.pdf)
+[Download PDF](master-detail-filtering-across-two-pages-vb/_static/datatutorial09vb1.pdf)
 
 > In this tutorial we'll implement this pattern by using a GridView to list the suppliers in the database. Each supplier row in the GridView will contain a View Products link that, when clicked, will take the user to a separate page that lists those products for the selected supplier.
 
@@ -44,7 +44,7 @@ Also, when adding new pages to the project, be sure to update the site map file,
 
 With the `SupplierListMaster.aspx` and `ProductsForSupplierDetails.aspx` pages created, our next step is to create the GridView of suppliers in `SupplierListMaster.aspx`. Add a GridView to the page and bind it to a new ObjectDataSource. This ObjectDataSource should use the `SuppliersBLL` class's `GetSuppliers()` method to return all suppliers.
 
-[![Select the SuppliersBLL Class](master-detail-filtering-across-two-pages-vb/_static/image3.png)](master-detail-filtering-across-two-pages-vb/_static/image2.png)
+[![Image selecting the SuppliersBLL Class](master-detail-filtering-across-two-pages-vb/_static/image3.png)](master-detail-filtering-across-two-pages-vb/_static/image2.png)
 
 **Figure 2**: Select the `SuppliersBLL` Class ([Click to view full-size image](master-detail-filtering-across-two-pages-vb/_static/image4.png))
 
@@ -104,7 +104,7 @@ At this point the `SupplierListMaster.aspx` page is sending users to `ProductsFo
 
 The final step of the Configure Data Source wizard asks us to provide the source of the `GetProductsBySupplierID(supplierID)` method's *`supplierID`* parameter. To use the querystring value, set the Parameter source to QueryString and enter the name of the querystring value to use in the QueryStringField textbox (`SupplierID`).
 
-[![Populate the supplierID Parameter Value from the SupplierID Querystring Value](master-detail-filtering-across-two-pages-vb/_static/image30.png)](master-detail-filtering-across-two-pages-vb/_static/image29.png)
+[![Image of the supplierID Parameter Value from the SupplierID Querystring Value](master-detail-filtering-across-two-pages-vb/_static/image30.png)](master-detail-filtering-across-two-pages-vb/_static/image29.png)
 
 **Figure 11**: Populate the *`supplierID`* Parameter Value from the `SupplierID` Querystring Value ([Click to view full-size image](master-detail-filtering-across-two-pages-vb/_static/image31.png))
 
@@ -120,7 +120,7 @@ As Figure 12 shows, the `ProductsForSupplierDetails.aspx` page simply lists the 
 
 Start by adding a FormView above the products GridView. Create a new ObjectDataSource control named `SuppliersDataSource` that invokes the `SuppliersBLL` class's `GetSupplierBySupplierID(supplierID)` method.
 
-[![Select the SuppliersBLL Class](master-detail-filtering-across-two-pages-vb/_static/image36.png)](master-detail-filtering-across-two-pages-vb/_static/image35.png)
+[![Image of Data Source select the SuppliersBLL Class](master-detail-filtering-across-two-pages-vb/_static/image36.png)](master-detail-filtering-across-two-pages-vb/_static/image35.png)
 
 **Figure 13**: Select the `SuppliersBLL` Class ([Click to view full-size image](master-detail-filtering-across-two-pages-vb/_static/image37.png))
 
@@ -130,7 +130,7 @@ Start by adding a FormView above the products GridView. Create a new ObjectDataS
 
 As with the `ProductsBySupplierDataSource`, have the *`supplierID`* parameter assigned the value of the `SupplierID` querystring value.
 
-[![Populate the supplierID Parameter Value from the SupplierID Querystring Value](master-detail-filtering-across-two-pages-vb/_static/image42.png)](master-detail-filtering-across-two-pages-vb/_static/image41.png)
+[![Image of the supplierID Parameter value from the SupplierID Querystring value](master-detail-filtering-across-two-pages-vb/_static/image42.png)](master-detail-filtering-across-two-pages-vb/_static/image41.png)
 
 **Figure 15**: Populate the *`supplierID`* Parameter Value from the `SupplierID` Querystring Value ([Click to view full-size image](master-detail-filtering-across-two-pages-vb/_static/image43.png))
 
@@ -154,7 +154,7 @@ To improve the user experience for this report there are a couple of additions w
 
 **Figure 17**: Add a HyperLink Control to Take the User Back to `SupplierListMaster.aspx` ([Click to view full-size image](master-detail-filtering-across-two-pages-vb/_static/image49.png))
 
-If the user clicks on the View Products link for a supplier that doesn't have any products, the `ProductsBySupplierDataSource` ObjectDataSource in `ProductsForSupplierDetails.aspx` won't return any results. The GridView bound to the ObjectDataSource won't render any markup resulting in a blank region on the page in the user's browser. To more clearly communicate to the user that there are no products associated with the selected supplier we can set the GridView's `EmptyDataText` property to the message we want displayed when such a situation arises. I've set this property to "There are no products provided by this supplier�"
+If the user clicks on the View Products link for a supplier that doesn't have any products, the `ProductsBySupplierDataSource` ObjectDataSource in `ProductsForSupplierDetails.aspx` won't return any results. The GridView bound to the ObjectDataSource won't render any markup resulting in a blank region on the page in the user's browser. To more clearly communicate to the user that there are no products associated with the selected supplier we can set the GridView's `EmptyDataText` property to the message we want displayed when such a situation arises. I've set this property to "There are no products provided by this supplier'"
 
 By default, all suppliers in the Northwinds database provide at least one product. However, for this tutorial I've manually modified the `Products` table so that the supplier Escargots Nouveaux is no longer associated with any products. Figure 18 shows the details page for Escargots Nouveaux after this change has been made.
 

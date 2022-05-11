@@ -13,7 +13,7 @@ msc.type: authoredcontent
 
 by [Scott Mitchell](https://twitter.com/ScottOnWriting)
 
-[Download Sample App](http://download.microsoft.com/download/9/c/1/9c1d03ee-29ba-4d58-aa1a-f201dcc822ea/ASPNET_Data_Tutorial_23_VB.exe) or [Download PDF](limiting-data-modification-functionality-based-on-the-user-vb/_static/datatutorial23vb1.pdf)
+[Download PDF](limiting-data-modification-functionality-based-on-the-user-vb/_static/datatutorial23vb1.pdf)
 
 > In a web application that allows users to edit data, different user accounts may have different data-editing privileges. In this tutorial we'll examine how to dynamically adjust the data modification capabilities based on the visiting user.
 
@@ -34,7 +34,7 @@ In this tutorial we'll examine how to dynamically adjust the data modification c
 Let s get started!
 
 > [!NOTE]
-> ASP.NET 2.0 s membership system provides a standardized, extensible platform for creating, managing, and validating user accounts. Since an examination of the membership system is beyond the scope of these tutorials, this tutorial instead "fakes" membership by allowing anonymous visitors to choose whether they are from a particular supplier or from our company. For more on membership, refer to my [Examining ASP.NET 2.0 s Membership, Roles, and Profile](http://aspnet.4guysfromrolla.com/articles/120705-1.aspx) article series.
+> ASP.NET 2.0 s membership system provides a standardized, extensible platform for creating, managing, and validating user accounts. Since an examination of the membership system is beyond the scope of these tutorials, this tutorial instead "fakes" membership by allowing anonymous visitors to choose whether they are from a particular supplier or from our company. For more on membership, refer to [Examining ASP.NET 2.0 s Membership, Roles, and Profile](https://weblogs.asp.net/scottgu/ASP.NET-2.0-Membership-and-Roles-Tutorial-Series) article series.
 
 ## Step 1: Allowing the User to Specify their Access Rights
 

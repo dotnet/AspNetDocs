@@ -12,9 +12,9 @@ msc.type: authoredcontent
 ---
 # Enabling CRUD Operations in ASP.NET Web API 1
 
-by [Mike Wasson](https://github.com/MikeWasson)
+by Mike Wasson
 
-[Download Completed Project](http://code.msdn.microsoft.com/ASP-NET-Web-API-Tutorial-c4761894)
+[Download Completed Project](https://code.msdn.microsoft.com/ASP-NET-Web-API-Tutorial-c4761894)
 
 > This tutorial shows how to support CRUD operations in an HTTP service using ASP.NET Web API for ASP.NET 4.x.
 > 

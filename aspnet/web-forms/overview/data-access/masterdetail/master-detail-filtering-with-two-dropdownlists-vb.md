@@ -13,7 +13,7 @@ msc.type: authoredcontent
 
 by [Scott Mitchell](https://twitter.com/ScottOnWriting)
 
-[Download Sample App](http://download.microsoft.com/download/5/d/7/5d7571fc-d0b7-4798-ad4a-c976c02363ce/ASPNET_Data_Tutorial_8_VB.exe) or [Download PDF](master-detail-filtering-with-two-dropdownlists-vb/_static/datatutorial08vb1.pdf)
+[Download PDF](master-detail-filtering-with-two-dropdownlists-vb/_static/datatutorial08vb1.pdf)
 
 > This tutorial expands the master/detail relationship to add a third layer, using two DropDownList controls to select the desired parent and grandparent records.
 

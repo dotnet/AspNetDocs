@@ -11,8 +11,6 @@ msc.type: authoredcontent
 ---
 # Attribute Routing in ASP.NET Web API 2
 
-by [Mike Wasson](https://github.com/MikeWasson)
-
 *Routing* is how Web API matches a URI to an action. Web API 2 supports a new type of routing, called *attribute routing*. As the name implies, attribute routing uses attributes to define routes. Attribute routing gives you more control over the URIs in your web API. For example, you can easily create URIs that describe hierarchies of resources.
 
 The earlier style of routing, called convention-based routing, is still fully supported. In fact, you can combine both techniques in the same project.
@@ -30,7 +28,7 @@ Alternatively, use NuGet Package Manager to install the necessary packages. From
 <a id="why"></a>
 ## Why Attribute Routing?
 
-The first release of Web API used *convention-based* routing. In that type of routing, you define one or more route templates, which are basically parameterized strings. When the framework receives a request, it matches the URI against the route template. (For more information about convention-based routing, see [Routing in ASP.NET Web API](routing-in-aspnet-web-api.md).
+The first release of Web API used *convention-based* routing. In that type of routing, you define one or more route templates, which are basically parameterized strings. When the framework receives a request, it matches the URI against the route template. For more information about convention-based routing, see [Routing in ASP.NET Web API](routing-in-aspnet-web-api.md).
 
 One advantage of convention-based routing is that templates are defined in a single place, and the routing rules are applied consistently across all controllers. Unfortunately, convention-based routing makes it hard to support certain URI patterns that are common in RESTful APIs. For example, resources often contain child resources: Customers have orders, movies have actors, books have authors, and so forth. It's natural to create URIs that reflect these relations:
 
@@ -119,7 +117,7 @@ Any controller methods that do not have a route attribute use convention-based r
 
 Web API also selects actions based on the HTTP method of the request (GET, POST, etc). By default, Web API looks for a case-insensitive match with the start of the controller method name. For example, a controller method named `PutCustomers` matches an HTTP PUT request.
 
-You can override this convention by decorating the method with any the following attributes:
+You can override this convention by decorating the method with any of the following attributes:
 
 - **[HttpDelete]**
 - **[HttpGet]**
@@ -129,7 +127,7 @@ You can override this convention by decorating the method with any the following
 - **[HttpPost]**
 - **[HttpPut]**
 
-The following example maps the CreateBook method to HTTP POST requests.
+In the following example, Web API maps the CreateBook method to HTTP POST requests.
 
 [!code-csharp[Main](attribute-routing-in-web-api-2/samples/sample8.cs)]
 

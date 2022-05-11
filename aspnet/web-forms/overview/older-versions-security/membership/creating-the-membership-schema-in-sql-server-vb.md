@@ -13,7 +13,7 @@ msc.type: authoredcontent
 
 by [Scott Mitchell](https://twitter.com/ScottOnWriting)
 
-[Download Code](http://download.microsoft.com/download/3/f/5/3f5a8605-c526-4b34-b3fd-a34167117633/ASPNET_Security_Tutorial_04_VB.zip) or [Download PDF](http://download.microsoft.com/download/3/f/5/3f5a8605-c526-4b34-b3fd-a34167117633/aspnet_tutorial04_MembershipSetup_vb.pdf)
+[Download Code](https://download.microsoft.com/download/3/f/5/3f5a8605-c526-4b34-b3fd-a34167117633/ASPNET_Security_Tutorial_04_VB.zip) or [Download PDF](https://download.microsoft.com/download/3/f/5/3f5a8605-c526-4b34-b3fd-a34167117633/aspnet_tutorial04_MembershipSetup_vb.pdf)
 
 > This tutorial starts by examining techniques for adding the necessary schema to the database in order to use the SqlMembershipProvider. Following that, we will examine the key tables in the schema and discuss their purpose and importance. This tutorial ends with a look at how to tell an ASP.NET application which provider the Membership framework should use.
 
@@ -35,8 +35,8 @@ An ASP.NET application's data is commonly stored in a number of tables in a data
 
 I recommend locating the Membership schema in the same database as the application data for the following reasons:
 
-- **Maintainability** � an application whose data is encapsulated in one database is easier to understand, maintain, and deploy than an application that has two separate databases.
-- **Relational Integrity** � by locating the Membership-related tables in the same database as the application tables it is possible to establish [foreign key constraints](http://en.wikipedia.org/wiki/Foreign_key) between the primary keys in the Membership-related tables and related application tables.
+- **Maintainability**  an application whose data is encapsulated in one database is easier to understand, maintain, and deploy than an application that has two separate databases.
+- **Relational Integrity**  by locating the Membership-related tables in the same database as the application tables it is possible to establish [foreign key constraints](http://en.wikipedia.org/wiki/Foreign_key) between the primary keys in the Membership-related tables and related application tables.
 
 Decoupling the user store and application data into separate databases only makes sense if you have multiple applications that each use separate databases, but need to share a common user store.
 
@@ -207,7 +207,7 @@ Table 1 illustrates what these three columns might look like for the various sto
 **Table 1**: Example Values for the Password-Related Fields When Storing the Password MySecret!
 
 > [!NOTE]
-> The particular encryption or hashing algorithm used by the `SqlMembershipProvider` is determined by the settings in the `<machineKey>` element. We discussed this configuration element in Step 3 of the <a id="Tutorial3"></a>[*Forms Authentication Configuration and Advanced Topics*](../introduction/forms-authentication-configuration-and-advanced-topics-vb.md) tutorial.
+> The particular encryption or hashing algorithm used by the `SqlMembershipProvider` is determined by the settings in the `<machineKey>` element.
 
 ### Storing Roles and Role Associations
 
@@ -312,7 +312,7 @@ For more information on the topics discussed in this tutorial, refer to the foll
 - [Always Set the `applicationName` Property When Configuring ASP.NET 2.0 Membership and Other providers](https://weblogs.asp.net/scottgu/443634)
 - [Configuring ASP.NET 2.0 Application Services to Use SQL Server 2000 or SQL Server 2005](https://weblogs.asp.net/scottgu/archive/2005/08/25/423703.aspx)
 - [Download SQL Server Management Studio Express Edition](https://www.microsoft.com/downloads/details.aspx?FamilyId=C243A5AE-4BD1-4E3D-94B8-5A0F62BF7796&amp;displaylang=en)
-- [Examining ASP.NET 2.0�s Membership, Roles, and Profile](http://aspnet.4guysfromrolla.com/articles/120705-1.aspx)
+- [Examining ASP.NET 2.0s Membership, Roles, and Profile](http://aspnet.4guysfromrolla.com/articles/120705-1.aspx)
 - [The `<add>` Element for providers for Membership](https://msdn.microsoft.com/library/whae3t94.aspx)
 - [The `<membership>` Element](https://msdn.microsoft.com/library/1b9hw62f.aspx)
 - [The `<providers>` Element for Membership](https://msdn.microsoft.com/library/6d4936ht.aspx)

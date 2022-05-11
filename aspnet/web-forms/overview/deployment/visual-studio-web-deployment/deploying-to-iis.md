@@ -13,7 +13,9 @@ msc.type: authoredcontent
 
 by [Tom Dykstra](https://github.com/tdykstra)
 
-> This tutorial series shows you how to deploy (publish) an ASP.NET web application to Azure App Service Web Apps or to a third-party hosting provider using Visual Studio 2017. For information about the series, see [the first tutorial in the series](introduction.md).
+This tutorial series shows how to deploy (publish) an ASP.NET web application to Azure App Service Web Apps or to a third-party hosting provider using Visual Studio 2017. For information about the series, see [the first tutorial in the series](introduction.md).
+
+For a current version of deploying to Azure, see [Create an ASP.NET Core web app in Azure](/azure/app-service/app-service-web-get-started-dotnet).
 
 ## Overview
 
@@ -41,7 +43,7 @@ Reminder: If you receive an error message or something doesn't work as you go th
 
 Download and install the Contoso University Visual Studio starter solution and project. This solution contains the completed tutorial. 
 
-[Download Starter Project](http://go.microsoft.com/fwlink/p/?LinkId=282627)
+[Download Starter Project](https://go.microsoft.com/fwlink/p/?LinkId=282627)
 
 ## Install IIS
 
@@ -162,7 +164,7 @@ In Visual Studio, open the Contoso University solution. Right-click the solution
 
 ## Run the grant script in the application database
 
-You can configure the publish profile to run the grant script in the membership database during deployment because that database deployment uses the [dbDacFx](https://docs.microsoft.com/iis/publish/using-web-deploy/dbdacfx-provider-for-incremental-database-publishing) provider. You can't run scripts during Code First Migrations deployment, which is how you're deploying the application database. This means you have to manually run the script before deployment in the application database.
+You can configure the publish profile to run the grant script in the membership database during deployment because that database deployment uses the [dbDacFx](/iis/publish/using-web-deploy/dbdacfx-provider-for-incremental-database-publishing) provider. You can't run scripts during Code First Migrations deployment, which is how you're deploying the application database. This means you have to manually run the script before deployment in the application database.
 
 1. In Visual Studio, open the *Grant.sql* file that you created earlier.
 

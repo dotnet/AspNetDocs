@@ -13,7 +13,7 @@ msc.type: authoredcontent
 
 by [Scott Mitchell](https://twitter.com/ScottOnWriting)
 
-[Download Sample App](http://download.microsoft.com/download/4/a/7/4a7a3b18-d80e-4014-8e53-a6a2427f0d93/ASPNET_Data_Tutorial_55_CS.exe) or [Download PDF](displaying-binary-data-in-the-data-web-controls-cs/_static/datatutorial55cs1.pdf)
+[Download PDF](displaying-binary-data-in-the-data-web-controls-cs/_static/datatutorial55cs1.pdf)
 
 > In this tutorial we look at the options to present binary data on a Web page, including the display of an image file and the provision of a 'Download' link for a PDF file.
 
@@ -152,7 +152,7 @@ This exception could also be caused if the `CategoriesTableAdapter` s `GetCatego
 > [!NOTE]
 > Every time the `DisplayCategoryPicture.aspx` is visited, the database is accessed and the specified category s picture data is returned. If the category s picture hasn't changed since the user has last viewed it, though, this is wasted effort. Fortunately, HTTP allows for *conditional GETs*. With a conditional GET, the client making the HTTP request sends along an [`If-Modified-Since` HTTP header](http://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html) that provides the date and time the client last retrieved this resource from the web server. If the content has not changed since this specified date, the web server may respond with a [Not Modified status code (304)](http://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html) and forgo sending back the requested resource s content. In short, this technique relieves the web server from having to send back content for a resource if it has not been modified since the client last accessed it.
 
-To implement this behavior, however, requires that you add a `PictureLastModified` column to the `Categories` table to capture when the `Picture` column was last updated as well as code to check for the `If-Modified-Since` header. For more information on the `If-Modified-Since` header and the conditional GET workflow, see [HTTP Conditional GET for RSS Hackers](http://fishbowl.pastiche.org/2002/10/21/http_conditional_get_for_rss_hackers) and [A Deeper Look at Performing HTTP Requests in an ASP.NET Page](http://aspnet.4guysfromrolla.com/articles/122204-1.aspx).
+To implement this behavior, however, requires that you add a `PictureLastModified` column to the `Categories` table to capture when the `Picture` column was last updated as well as code to check for the `If-Modified-Since` header. For more information on the `If-Modified-Since` header and the conditional GET workflow, see [HTTP Conditional GET for RSS Hackers](http://fishbowl.pastiche.org/2002/10/21/http_conditional_get_for_rss_hackers) and [A Deeper Look at Performing HTTP Requests in an ASP.NET Page](https://www.c-sharpcorner.com/UploadFile/ashish_2008/http-requests-in-Asp-Net/).
 
 ## Step 4: Displaying the Category Pictures in a GridView
 

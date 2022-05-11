@@ -13,7 +13,7 @@ msc.type: authoredcontent
 
 by [Tom Dykstra](https://github.com/tdykstra)
 
-[Download Starter Project](http://go.microsoft.com/fwlink/p/?LinkId=282627)
+[Download Starter Project](https://go.microsoft.com/fwlink/p/?LinkId=282627)
 
 > This tutorial series shows you how to deploy (publish) an ASP.NET web application to Azure App Service Web Apps or to a third-party hosting provider, by using Visual Studio 2012 or Visual Studio 2010. For information about the series, see [the first tutorial in the series](introduction.md).
 
@@ -87,10 +87,10 @@ I would like to thank the following people who made significant contributions to
 - [Mike Pope, Microsoft](http://www.mikepope.com/blog/DisplayBlog.aspx)
 - Mohit Srivastava, Microsoft
 - [Raffaele Rialdi, Italy](http://www.iamraf.net/)
-- [Rick Anderson, Microsoft](https://blogs.msdn.com/b/rickandy/)
+- [Rick Anderson, Microsoft](/archive/blogs/rickandy/)
 - [Sayed Hashimi, Microsoft](http://sedodream.com/default.aspx)(twitter: [@sayedihashimi](http://twitter.com/sayedihashimi))
 - [Scott Hanselman](http://www.hanselman.com/blog/) (twitter: [@shanselman](http://twitter.com/shanselman))
-- [Scott Hunter, Microsoft](https://blogs.msdn.com/b/scothu/) (twitter: [@coolcsh](http://twitter.com/coolcsh))
+- [Scott Hunter, Microsoft](/archive/blogs/scothu/) (twitter: [@coolcsh](http://twitter.com/coolcsh))
 - [Srđan Božović, Serbia](http://msforge.net/blogs/zmajcek/)
 - [Vishal Joshi, Microsoft](http://vishaljoshi.blogspot.com/) (twitter: [@vishalrjoshi](http://twitter.com/vishalrjoshi))
 

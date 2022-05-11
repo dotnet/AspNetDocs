@@ -13,7 +13,7 @@ msc.type: authoredcontent
 
 by [Scott Mitchell](https://twitter.com/ScottOnWriting)
 
-[Download Sample App](http://download.microsoft.com/download/5/d/7/5d7571fc-d0b7-4798-ad4a-c976c02363ce/ASPNET_Data_Tutorial_4_VB.exe) or [Download PDF](displaying-data-with-the-objectdatasource-vb/_static/datatutorial04vb1.pdf)
+ [Download PDF](displaying-data-with-the-objectdatasource-vb/_static/datatutorial04vb1.pdf)
 
 > This tutorial looks at the ObjectDataSource control Using this control you can bind data retrieved from the BLL created in the previous tutorial without having to write a line of code!
 
@@ -172,7 +172,7 @@ We'll talk more about paging in future tutorials.
 
 The DetailsView is pretty rigid in how it displays each record returned from the ObjectDataSource. We may want a more flexible view of the data. For example, rather than showing the product's name, category, supplier, price, and discontinued information each on a separate row, we may want to show the product name and price in an `<h4>` heading, with the category and supplier information appearing below the name and price in a smaller font size. And we may not care to show the property names (Product, Category, and so on) next to the values.
 
-The [FormView control](https://msdn.microsoft.com/library/fyf1dk77.aspx) provides this level of customization. Rather than using fields (like the GridView and DetailsView do), the FormView uses templates, which allow for a mix of Web controls, static HTML, and [databinding syntax](http://www.15seconds.com/issue/040630.htm). If you are familiar with the Repeater control from ASP.NET 1.x, you can think of the FormView as the Repeater for showing a single record.
+The [FormView control](https://msdn.microsoft.com/library/fyf1dk77.aspx) provides this level of customization. Rather than using fields (like the GridView and DetailsView do), the FormView uses templates, which allow for a mix of Web controls, static HTML, and databinding syntax. If you are familiar with the Repeater control from ASP.NET 1.x, you can think of the FormView as the Repeater for showing a single record.
 
 Add a FormView control to the `SimpleDisplay.aspx` page's design surface. Initially the FormView displays as a gray block, informing us that we need to provide, at minimum, the control's `ItemTemplate`.
 
@@ -188,7 +188,7 @@ You can bind the FormView directly to a data source control through the FormView
 
 **Figure 18**: The First Product (Chai) is Displayed in a Custom Format ([Click to view full-size image](displaying-data-with-the-objectdatasource-vb/_static/image50.png))
 
-The `<%# Eval(propertyName) %>` is the databinding syntax. The `Eval` method returns the value of the specified property for the current object being bound to the FormView control. Check out Alex Homer's article [Simplified and Extended Data Binding Syntax in ASP.NET 2.0](http://www.15seconds.com/issue/040630.htm) for more information on the ins and outs of databinding.
+The `<%# Eval(propertyName) %>` is the databinding syntax. The `Eval` method returns the value of the specified property for the current object being bound to the FormView control. Check out Alex Homer's article Simplified and Extended Data Binding Syntax in ASP.NET 2.0 for more information on the ins and outs of databinding.
 
 Like the DetailsView, the FormView only shows the first record returned from the ObjectDataSource. You can enable paging in the FormView to allow visitors to step through the products one at a time.
 
@@ -206,7 +206,6 @@ For more information on the topics discussed in this tutorial, refer to the foll
 
 - [Create Your Own Data Source Controls](https://msdn.microsoft.com/library/ms364049.aspx)
 - [GridView Examples for ASP.NET 2.0](https://msdn.microsoft.com/library/aa479339.aspx)
-- [Simplified and Extended Data Binding Syntax in ASP.NET 2.0](http://www.15seconds.com/issue/040630.htm)
 - [Themes in ASP.NET 2.0](http://www.odetocode.com/Articles/423.aspx)
 - [Server-Side Styles Using Themes](https://quickstarts.asp.net/quickstartv20/aspnet/doc/themes/stylesheettheme.aspx)
 - [How To: Apply ASP.NET Themes Programmatically](https://msdn.microsoft.com/library/tx35bd89.aspx)

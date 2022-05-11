@@ -1,8 +1,8 @@
 ---
 uid: mvc/overview/releases/mvc51-release-notes
 title: "What's New in ASP.NET MVC 5.1 | Microsoft Docs"
-author: microsoft
-description: ""
+author: rick-anderson
+description: "These release notes cover what's new in ASP.NET MVC 5.1, including software requirements, new features, known issues, and breaking changes."
 ms.author: riande
 ms.date: 02/27/2014
 ms.assetid: 9a83a058-9b01-48aa-acce-ec041e694567
@@ -25,7 +25,7 @@ This topic describes what's new for ASP.NET Web MVC 5.1.
     - [Enum support in views](#Enum)
     - [Unobtrusive validation for MinLength/MaxLength Attributes](#Unobtrusive)
     - [Supporting the ‘this' context in Unobtrusive Ajax](#thisContext)
-- [Known Issues and Breaking Changes](#KnownBreakingChanges)- [Bug Fixes](#bug-fixes)
+- [Known Issues and Breaking Changes](#KnownBreakingChanges)- [Bug Fixes]()
 
 <a id="SoftwareRequirements"></a>
 ## Software Requirements
@@ -60,20 +60,20 @@ Tutorials and other information about ASP.NET MVC 5.1 RTM are available from the
 
 ### Enum support in views
 
-1. New `@Html.EnumDropDownListFor()` helper methods. These should be used like most of the HTML helpers with the caveat that the expression must evaluate to an [enum](https://msdn.microsoft.com/en-us/library/cc138362.aspx) type or a [Nullable&lt;T&gt;](https://msdn.microsoft.com/en-us/library/2cf62fcy.aspx) where `T` is an [enum](https://msdn.microsoft.com/en-us/library/cc138362.aspx) type. Use `EnumHelper.IsValidForEnumHelper()` to check these requirements.
+1. New `@Html.EnumDropDownListFor()` helper methods. These should be used like most of the HTML helpers with the caveat that the expression must evaluate to an [enum](https://msdn.microsoft.com/library/cc138362.aspx) type or a [Nullable&lt;T&gt;](https://msdn.microsoft.com/library/2cf62fcy.aspx) where `T` is an [enum](https://msdn.microsoft.com/library/cc138362.aspx) type. Use `EnumHelper.IsValidForEnumHelper()` to check these requirements.
 2. New `EnumHelper.GetSelectList()` methods which return an `IList<SelectListItem>`. This is useful when you need to manipulate a select list prior to calling, for example, `@Html.DropDownListFor()`, or when you wish to display the names which `@Html.EnumDropDownListFor()` shows.
 
 The following code shows these APIs.
 
 [!code-cshtml[Main](mvc51-release-notes/samples/sample2.cshtml)]
 
-You can see a complete example [here](https://aspnet.codeplex.com/SourceControl/latest#Samples/MVC/EnumSample/).
+You can see a complete example [here](https://github.com/aspnet/samples/tree/master/samples/aspnet/MVC/EnumSample/).
 
 <a id="Bootstrap"></a>
 
 ### Bootstrap support for editor templates
 
-We now allow passing in HTML attributes in [EditorFor](https://msdn.microsoft.com/en-us/library/system.web.mvc.html.editorextensions.editorfor(v=vs.100).aspx) as an [anonymous object](https://msdn.microsoft.com/en-us/library/bb397696.aspx).
+We now allow passing in HTML attributes in [EditorFor](https://msdn.microsoft.com/library/system.web.mvc.html.editorextensions.editorfor(v=vs.100).aspx) as an [anonymous object](https://msdn.microsoft.com/library/bb397696.aspx).
 
 For example:
 
@@ -83,7 +83,7 @@ For example:
 
 ### Unobtrusive validation for MinLengthAttribute and MaxLengthAttribute
 
-Client-side validation for string and array types will now be supported for properties decorated with the [MinLength](https://msdn.microsoft.com/en-us/library/system.componentmodel.dataannotations.minlengthattribute(v=vs.110).aspx) and [MaxLength](https://msdn.microsoft.com/en-us/library/system.componentmodel.dataannotations.maxlengthattribute(v=vs.110).aspx) attributes.
+Client-side validation for string and array types will now be supported for properties decorated with the [MinLength](https://msdn.microsoft.com/library/system.componentmodel.dataannotations.minlengthattribute(v=vs.110).aspx) and [MaxLength](https://msdn.microsoft.com/library/system.componentmodel.dataannotations.maxlengthattribute(v=vs.110).aspx) attributes.
 
 <a id="thisContext"></a>
 
@@ -121,12 +121,4 @@ Some of the types used for attribute routing extensibility are renamed in 5.1 RT
 | RouteProviderAttribute | RouteFactoryAttribute |
 | DirectRouteProviderContext | DirectRouteFactoryContext |
 
-<a id="bug-fixes"></a>
-## Bug Fixes
 
-This release also includes several bug fixes. You can find the complete list here:
-
-- [5.1.0 package](https://aspnetwebstack.codeplex.com/workitem/list/advanced?keyword=&amp;status=Closed&amp;type=All&amp;priority=All&amp;release=v5.1%20Preview|v5.1%20RTM&amp;assignedTo=All&amp;component=MVC&amp;sortField=AssignedTo&amp;sortDirection=Ascending&amp;page=0&amp;reasonClosed=Fixed)
-- [5.1.1 package](https://aspnetwebstack.codeplex.com/workitem/list/advanced?keyword=&amp;status=All&amp;type=All&amp;priority=All&amp;release=v5.1.1%20RTM&amp;assignedTo=All&amp;component=MVC&amp;sortField=AssignedTo&amp;sortDirection=Ascending&amp;page=0&amp;reasonClosed=Fixed)
-
-The 5.1.2 package contains IntelliSense updates but no bug fixes.

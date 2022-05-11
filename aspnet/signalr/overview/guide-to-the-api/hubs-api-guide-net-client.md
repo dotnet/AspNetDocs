@@ -66,7 +66,7 @@ This document contains the following sections:
 
 For a sample .NET client projects, see the following resources:
 
-- [gustavo-armenta / SignalR-Samples](https://github.com/gustavo-armenta/SignalR-Samples) on GitHub.com (WinRT, Silverlight, console app examples).
+- [gustavo-armenta / SignalR-Samples](https://github.com/gustavo-armenta) on GitHub.com (WinRT, Silverlight, console app examples).
 - [DamianEdwards / SignalR-MoveShapeDemo / MoveShape.Desktop](https://github.com/DamianEdwards/SignalR-MoveShapeDemo/tree/master/MoveShape/MoveShape.Desktop) on GitHub.com (WPF example).
 - [SignalR / Microsoft.AspNet.SignalR.Client.Samples](https://github.com/SignalR/SignalR/tree/master/samples/Microsoft.AspNet.SignalR.Client.Samples) on GitHub.com (Console app example).
 
@@ -91,7 +91,7 @@ If the version of SignalR that you have on the client is different from the vers
 
 Before you can establish a connection, you have to create a `HubConnection` object and create a proxy. To establish the connection, call the `Start` method on the `HubConnection` object.
 
-[!code-csharp[Main](hubs-api-guide-net-client/samples/sample1.cs?highlight=1,4)]
+[!code-csharp[Main](hubs-api-guide-net-client/samples/sample1.cs?highlight=1,5)]
 
 > [!NOTE]
 > For JavaScript clients you have to register at least one event handler before calling the `Start` method to establish the connection. This is not necessary for .NET clients. For JavaScript clients, the generated proxy code automatically creates proxies for all Hubs that exist on the server, and registering a handler is how you indicate which Hubs your client intends to use. But for a .NET client you create Hub proxies manually, so SignalR assumes that you will be using any Hub that you create a proxy for.
@@ -128,7 +128,7 @@ Before you establish a connection, you can specify any of the following options:
 
 In WPF clients, you might have to increase the maximum number of concurrent connections from its default value of 2. The recommended value is 10.
 
-[!code-csharp[Main](hubs-api-guide-net-client/samples/sample4.cs?highlight=4)]
+[!code-csharp[Main](hubs-api-guide-net-client/samples/sample4.cs?highlight=5)]
 
 For more information, see [ServicePointManager.DefaultConnectionLimit](https://msdn.microsoft.com/library/system.net.servicepointmanager.defaultconnectionlimit.aspx).
 
@@ -150,7 +150,7 @@ The following example shows how to read a query string parameter in server code.
 
 As part of the process of connecting, a SignalR client normally negotiates with the server to determine the best transport that is supported by both server and client. If you already know which transport you want to use, you can bypass this negotiation process. To specify the transport method, pass in a transport object to the Start method. The following example shows how to specify the transport method in client code.
 
-[!code-csharp[Main](hubs-api-guide-net-client/samples/sample7.cs?highlight=4)]
+[!code-csharp[Main](hubs-api-guide-net-client/samples/sample7.cs?highlight=5)]
 
 The [Microsoft.AspNet.SignalR.Client.Transports](https://msdn.microsoft.com/library/jj918090(v=vs.111).aspx) namespace includes the following classes that you can use to specify the transport.
 
@@ -191,7 +191,7 @@ In order to define methods on the client that a Hub can call from the server, an
 
 **Create client proxy for the Hub class**
 
-[!code-csharp[Main](hubs-api-guide-net-client/samples/sample11.cs?highlight=2)]
+[!code-csharp[Main](hubs-api-guide-net-client/samples/sample11.cs?highlight=3)]
 
 If you decorate your Hub class with a `HubName` attribute, use that name.
 
@@ -201,7 +201,7 @@ If you decorate your Hub class with a `HubName` attribute, use that name.
 
 **Create client proxy for the Hub class**
 
-[!code-csharp[Main](hubs-api-guide-net-client/samples/sample13.cs?highlight=2)]
+[!code-csharp[Main](hubs-api-guide-net-client/samples/sample13.cs?highlight=3)]
 
 If you call `HubConnection.CreateHubProxy` multiple times with the same `hubName`, you get the same cached `IHubProxy` object.
 
@@ -358,7 +358,7 @@ To handle errors from method invocations, wrap the code in a try-catch block.
 
 To enable client-side logging, set the `TraceLevel` and `TraceWriter` properties on the connection object.
 
-[!code-csharp[Main](hubs-api-guide-net-client/samples/sample34.cs?highlight=2-3)]
+[!code-csharp[Main](hubs-api-guide-net-client/samples/sample34.cs?highlight=3-4)]
 
 <a id="wpfsl"></a>
 

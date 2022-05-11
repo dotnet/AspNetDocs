@@ -4,7 +4,7 @@ title: Configuration builders for ASP.NET
 author: rick-anderson
 description: Learn how to get configuration data from sources other than web.config values from external sources.
 ms.author: riande
-ms.date: 10/29/2018
+ms.date: 7/17/2020
 msc.type: content
 ---
 
@@ -213,7 +213,6 @@ The secrets file has the following format:
     [mode|prefix|stripPrefix|tokenPattern]
     (vaultName="MyVaultName" |
      uri="https:/MyVaultName.vault.azure.net")
-    [connectionString="connection string"]
     [version="secrets version"]
     [preloadSecretNames="true"]
     type="Microsoft.Configuration.ConfigurationBuilders.AzureKeyVaultConfigBuilder,
@@ -225,7 +224,6 @@ The [AzureKeyVaultConfigBuilder](https://www.nuget.org/packages/Microsoft.Config
 `vaultName` is required (either the name of the vault or a URI to the vault). The other attributes allow control about which vault to connect to, but are only necessary if the application is not running in an environment that works with `Microsoft.Azure.Services.AppAuthentication`. The Azure Services Authentication library is used to automatically pick up connection information from the execution environment if possible. You can override automatically pick up of connection information by providing a connection string.
 
 * `vaultName` - Required if `uri` in not provided. Specifies the name of the vault in your Azure subscription from which to read key/value pairs.
-* `connectionString` - A connection string usable by [AzureServiceTokenProvider](https://docs.microsoft.com/en-us/azure/key-vault/service-to-service-authentication#connection-string-support)
 * `uri` - Connects to other Key Vault providers with the specified `uri` value. If not specified, Azure (`vaultName`) is the vault provider.
 * `version` - Azure Key Vault provides a versioning feature for secrets. If `version` is specified, the builder only retrieves secrets matching this version.
 * `preloadSecretNames` - By default, this builder querys **all** key names in the key vault when it is initialized. To prevent reading all key values, set this attribute to `false`. Setting this to `false` reads secrets one at a time. Reading secrets one at a time can useful if the vault allows "Get" access but not "List" access. **Note:** When using `Greedy` mode, `preloadSecretNames` must be `true` (the default.)
@@ -267,7 +265,7 @@ Attribute details:
     Microsoft.Configuration.ConfigurationBuilders.Json" />
 ```
 
-.NET Core projects frequently use JSON files for configuration. The [SimpleJsonConfigBuilder](https://www.nuget.org/packages/Microsoft.Configuration.ConfigurationBuilders.Json/) builder allows .NET Core JSON files to be used in the .NET Framework. This configuration builder is provides a basic mapping from a flat key/value source into specific key/value areas of .NET Framework configuration. This configuration builder does **not** provide for hierarchical configurations. The JSON backing file is similar to a dictionary, not a complex hierarchical object. A multi-level hierarchical file can be used. This provider `flatten`s the depth by appending the property name at each level using `:` as a delimiter.
+.NET Core projects frequently use JSON files for configuration. The [SimpleJsonConfigBuilder](https://www.nuget.org/packages/Microsoft.Configuration.ConfigurationBuilders.Json/) builder allows .NET Core JSON files to be used in the .NET Framework. This configuration builder provides a basic mapping from a flat key/value source into specific key/value areas of .NET Framework configuration. This configuration builder does **not** provide for hierarchical configurations. The JSON backing file is similar to a dictionary, not a complex hierarchical object. A multi-level hierarchical file can be used. This provider `flatten`s the depth by appending the property name at each level using `:` as a delimiter.
 
 Attribute details:
 
@@ -290,6 +288,10 @@ Attribute details:
         }
     }
 ```
+
+## Configuration builders order
+
+See [ConfigurationBuilders Order of Execution](https://github.com/aspnet/MicrosoftConfigurationBuilders/blob/main/README.md#configurationbuilders-order-of-execution) in the [aspnet/MicrosoftConfigurationBuilders](https://github.com/aspnet/MicrosoftConfigurationBuilders) GitHub repository.
 
 ## Implementing a custom key/value configuration builder
 

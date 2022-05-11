@@ -1,7 +1,7 @@
 ---
 uid: web-forms/videos/building-20-applications/lesson-3-understanding-more-about-events-and-postback
 title: "[Lesson 3:]  Understanding More About Events and Postback | Microsoft Docs"
-author: microsoft
+author: rick-anderson
 description: "In this lesson, you will learn how events can be used in your code, and how to react when those events occur."
 ms.author: riande
 ms.date: 11/28/2005

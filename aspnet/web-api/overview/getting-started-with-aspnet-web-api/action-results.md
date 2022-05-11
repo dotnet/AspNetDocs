@@ -1,7 +1,7 @@
 ---
 uid: web-api/overview/getting-started-with-aspnet-web-api/action-results
 title: "Action Results in Web API 2 - ASP.NET 4.x"
-author: MikeWasson
+author: rick-anderson
 description: "Describes how ASP.NET Web API converts the return value from a controller action into an HTTP response message in ASP.NET 4.x."
 ms.author: riande
 ms.date: 02/03/2014
@@ -12,7 +12,7 @@ msc.type: authoredcontent
 ---
 # Action Results in Web API 2
 
-by [Mike Wasson](https://github.com/MikeWasson)
+[!INCLUDE[](~/includes/coreWebAPI.md)]
 
 This topic describes how ASP.NET Web API converts the return value from a controller action into an HTTP response message.
 
@@ -90,7 +90,7 @@ Response:
 
 [!code-console[Main](action-results/samples/sample9.cmd)]
 
-More often, you will use the **IHttpActionResult** implementations defined in the **[System.Web.Http.Results](https://msdn.microsoft.com/library/system.web.http.results.aspx)** namespace. The **ApiController** class defines helper methods that return these built-in action results.
+More often, you use the **IHttpActionResult** implementations defined in the **[System.Web.Http.Results](https://msdn.microsoft.com/library/system.web.http.results.aspx)** namespace. The **ApiController** class defines helper methods that return these built-in action results.
 
 In the following example, if the request does not match an existing product ID, the controller calls [ApiController.NotFound](https://msdn.microsoft.com/library/system.web.http.apicontroller.notfound.aspx) to create a 404 (Not Found) response. Otherwise, the controller calls [ApiController.OK](https://msdn.microsoft.com/library/dn314591.aspx), which creates a 200 (OK) response that contains the product.
 
@@ -110,6 +110,6 @@ Example request
 
 [!code-console[Main](action-results/samples/sample12.cmd)]
 
-Example response:
+Example response
 
 [!code-console[Main](action-results/samples/sample13.cmd)]

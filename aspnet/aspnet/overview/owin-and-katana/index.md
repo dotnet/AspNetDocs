@@ -11,7 +11,7 @@ msc.type: chapter
 ---
 # OWIN and Katana
 
-> Katana is a flexible set of components for building and hosting Open Web Interface for .NET (OWIN)-based web applications.
+Katana is a flexible set of components for building and hosting Open Web Interface for .NET (OWIN)-based web apps. New development should use [ASP.NET Core](/aspnet/core/introduction-to-aspnet-core). The `Microsoft.Owin.*` libraries are not available for .NET Core because ASP.NET Core has equivalent replacements for them.
 
 - [An Overview of Project Katana](an-overview-of-project-katana.md)
 - [Getting Started with OWIN and Katana](getting-started-with-owin-and-katana.md)

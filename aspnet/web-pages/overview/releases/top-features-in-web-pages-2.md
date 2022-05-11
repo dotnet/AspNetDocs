@@ -1,7 +1,7 @@
 ---
 uid: web-pages/overview/releases/top-features-in-web-pages-2
 title: "The Top Features in ASP.NET Web Pages 2 | Microsoft Docs"
-author: microsoft
+author: rick-anderson
 description: "This topic provides an overview of the top new features in the ASP.NET Web Pages 2, a lightweight web programming framework that is included with the WebMatr..."
 ms.author: riande
 ms.date: 02/13/2012
@@ -460,7 +460,7 @@ To build and run the code sample:
 4. Run a mobile browser (or a mobile device emulator) and browse to *Page1.cshtml*. Notice that this time Web Pages renders the mobile version of the page. 
 
     > [!NOTE]
-    > To test mobile pages, you can use a mobile device simulator that runs on a desktop computer. This tool lets you test web pages as they would look on mobile devices (that is, typically with a much smaller display area). One example of a simulator is the [User Agent Switcher add-on](http://addons.mozilla.org/en-us/firefox/addon/user-agent-switcher/) for Mozilla Firefox, which lets you emulate various mobile browsers from a desktop version of Firefox.
+    > To test mobile pages, you can use a mobile device simulator that runs on a desktop computer. This tool lets you test web pages as they would look on mobile devices (that is, typically with a much smaller display area). One example of a simulator is the [User Agent Switcher add-on](http://addons.mozilla.org/firefox/addon/user-agent-switcher/) for Mozilla Firefox, which lets you emulate various mobile browsers from a desktop version of Firefox.
 
 *Page1.cshtml*
 
@@ -492,4 +492,4 @@ To build and run the code sample:
 
 - [WebMatrix 2 What's New](http://webmatrix.com/next)
 - [Microsoft WebMatrix Site](https://go.microsoft.com/fwlink/?LinkID=195076)
-- [Starting Web Development with Microsoft WebMatrix](https://msdn.microsoft.com/en-us/library/hh145669(v=VS.99).aspx)(includes a full-length sample Web Pages application)
+- [Starting Web Development with Microsoft WebMatrix](https://msdn.microsoft.com/library/hh145669(v=VS.99).aspx)(includes a full-length sample Web Pages application)

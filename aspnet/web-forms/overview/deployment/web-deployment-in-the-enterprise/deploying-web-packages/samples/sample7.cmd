@@ -3,7 +3,7 @@ MSDeploy.exe
   -dest:auto,
         computerName="https://stageweb1:8172/MSDeploy.axd?site=DemoSite",
         username="FABRIKAM\stagingdeployer",
-        password="Pa$$w0rd",
+        $CREDENTIAL_PLACEHOLDER$,
         authtype="Basic",
         includeAcls="False"
   -verb:sync

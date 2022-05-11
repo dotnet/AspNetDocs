@@ -13,7 +13,7 @@ msc.type: authoredcontent
 
 by [Scott Mitchell](https://twitter.com/ScottOnWriting)
 
-[Download Sample App](http://download.microsoft.com/download/9/6/9/969e5c94-dfb6-4e47-9570-d6d9e704c3c1/ASPNET_Data_Tutorial_14_CS.exe) or [Download PDF](using-the-formview-s-templates-cs/_static/datatutorial14cs1.pdf)
+[Download PDF](using-the-formview-s-templates-cs/_static/datatutorial14cs1.pdf)
 
 > Unlike the DetailsView, the FormView is not composed of fields. Instead, the FormView is rendered using templates. In this tutorial we'll examine using the FormView control to present a less rigid display of data.
 

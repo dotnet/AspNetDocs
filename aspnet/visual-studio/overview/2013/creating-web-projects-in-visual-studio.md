@@ -44,7 +44,7 @@ The following steps show how to create a web project:
 
     ![New Project dialog](creating-web-projects-in-visual-studio/_static/image1.png)
 
-    You can choose **Cloud** in the left pane to create an [Azure Cloud Service](https://docs.microsoft.com/azure/cloud-services/cloud-services-how-to-create-deploy), [Azure Mobile Service](https://msdn.microsoft.com/library/windows/apps/dn629482.aspx), or [Azure WebJob](https://azure.microsoft.com/documentation/articles/web-sites-dotnet-deploy-webjobs). This topic doesn't cover those templates.
+    You can choose **Cloud** in the left pane to create an [Azure Cloud Service](/azure/cloud-services/cloud-services-how-to-create-deploy), [Azure Mobile Service](https://msdn.microsoft.com/library/windows/apps/dn629482.aspx), or [Azure WebJob](https://azure.microsoft.com/documentation/articles/web-sites-dotnet-deploy-webjobs). This topic doesn't cover those templates.
 3. In the right pane, click the **Add Application Insights to Project** check box if you want health and usage monitoring for your application. For more information, see [Monitor performance in web applications](https://azure.microsoft.com/documentation/articles/app-insights-web-monitor-performance/).
 4. Specify project **Name**, **Location**, and other options, and then click **OK**.
 
@@ -86,7 +86,7 @@ The check box caption might be **Host in the cloud** or **Create remote resource
 
 ![Configure Azure App Settings](creating-web-projects-in-visual-studio/_static/image9.png)
 
-For more information about how to use this process for creating Azure resources, see [Get Started with Azure and ASP.NET](https://docs.microsoft.com/azure/app-service-web/app-service-web-get-started-dotnet) and [Creating a virtual machine for a web site with Visual Studio](https://azure.microsoft.com/documentation/articles/virtual-machines-dotnet-create-visual-studio-powershell/).
+For more information about how to use this process for creating Azure resources, see [Get Started with Azure and ASP.NET](/azure/app-service-web/app-service-web-get-started-dotnet) and [Creating a virtual machine for a web site with Visual Studio](https://azure.microsoft.com/documentation/articles/virtual-machines-dotnet-create-visual-studio-powershell/).
 
 The remainder of this article provides more information about the available templates and their options. The article also introduces Bootstrap, the layout and theming framework used in the templates.
 
@@ -109,7 +109,7 @@ You can also install a Visual Studio extension that provides a [Facebook templat
 
 For information about how to create projects that target .NET 4, see [Visual Studio 2012 Templates](#vs2012) later in this topic.
 
-For information about how to create ASP.NET applications for mobile clients, see [Mobile Support in ASP.NET](../../../mobile/index.md).
+For information about how to create ASP.NET applications for mobile clients, see [Mobile Support in ASP.NET](../../../mobile/overview.md).
 
 <a id="empty"></a>
 ### Empty Template
@@ -139,7 +139,7 @@ The Web Forms template creates a sample Web Forms application that uses [Bootstr
 
 ![Web Forms template app home page](creating-web-projects-in-visual-studio/_static/image10.png)
 
-For more information about Web Forms, see [ASP.NET Web Forms](https://asp.net/web-forms). For information about what the Web Forms template does for you, see [Building a basic Web Forms application using Visual Studio 2013](https://blogs.msdn.com/b/webdev/archive/2013/12/19/building-a-basic-web-forms-application-using-visual-studio-2013.aspx).
+For more information about Web Forms, see [ASP.NET Web Forms](https://asp.net/web-forms). For information about what the Web Forms template does for you, see [Building a basic Web Forms application using Visual Studio 2013](https://devblogs.microsoft.com/dotnet/building-a-basic-web-forms-application-using-visual-studio-2013/).
 
 <a id="mvc"></a>
 ### MVC Template
@@ -187,7 +187,7 @@ For information about how to create an application by using the SPA template, se
 For more information about ASP.NET Single Page Applications, and about additional SPA templates that use JavaScript frameworks other than KnockoutJS, see the following resources:
 
 - [ASP.NET Single Page Application](../../../single-page-application/index.md).
-- [Understanding Security Features in the SPA Template for VS2013 RC](https://blogs.msdn.com/b/webdev/archive/2013/09/20/understanding-security-features-in-spa-template.aspx)
+- [Understanding Security Features in the SPA Template for VS2013 RC](https://devblogs.microsoft.com/dotnet/understanding-security-features-in-the-spa-template-for-vs2013-rc/)
 - [Single-Page Applications: Build Modern, Responsive Web Apps with ASP.NET](https://msdn.microsoft.com/magazine/dn463786.aspx)
 
 <a id="facebook"></a>
@@ -197,7 +197,7 @@ You can install a [Visual Studio extension that provides a Facebook template](ht
 
 No authentication options are available for the Facebook template because Facebook applications run within the Facebook site and rely on Facebook's authentication.
 
-For more information about ASP.NET Facebook applications, see [Updating the MVC Facebook API](https://blogs.msdn.com/b/webdev/archive/2014/06/10/updating-the-mvc-facebook-api.aspx).
+For more information about ASP.NET Facebook applications, see [Updating the MVC Facebook API](https://devblogs.microsoft.com/dotnet/updating-the-mvc-facebook-api/comment-page-2/).
 
 <a id="vs2012"></a>
 ### Visual Studio 2012 Templates
@@ -314,7 +314,7 @@ For more information about the Individual User Accounts option, see the followin
 - [www.asp.net/identity](../../../identity/index.md). Documentation about ASP.NET Identity on the ASP.NET web site.
 - [Create an ASP.NET MVC 5 App with Facebook and Google OAuth2 and OpenID Sign-on](../../../mvc/overview/security/create-an-aspnet-mvc-5-app-with-facebook-and-google-oauth2-and-openid-sign-on.md). Also shows how to customize user profile data.
 - [Web API - External Authentication Services](../../../web-api/overview/security/external-authentication-services.md)
-- [Adding External Logins to your ASP.NET application in Visual Studio 2013](https://blogs.msdn.com/b/webdev/archive/2013/06/27/adding-external-logins-to-your-asp-net-application-in-visual-studio-2013.aspx)
+- [Adding External Logins to your ASP.NET application in Visual Studio 2013](https://devblogs.microsoft.com/dotnet/adding-external-logins-to-your-asp-net-application-in-visual-studio-2013/)
 
 <a id="orgauth"></a>
 ### Organizational Accounts
@@ -391,7 +391,7 @@ The settings that you enter and the application provisioning step are similar to
 
 For information about how to create applications that use **Cloud - Multi Organization** authentication, see the following resources:
 
-- [Easy Web App Integration with Azure Active Directory, ASP.NET &amp; Visual Studio](https://blogs.msdn.com/b/active_directory_team_blog/archive/2013/06/26/improved-windows-azure-active-directory-integration-with-asp-net-amp-visual-studio.aspx) on the Active Directory Team blog.
+- [Easy Web App Integration with Azure Active Directory, ASP.NET &amp; Visual Studio](https://techcommunity.microsoft.com/t5/azure-active-directory-identity/easy-web-app-integration-with-windows-azure-active-directory-asp/ba-p/243268) on the Active Directory Team blog.
 - [Developing Multi-Tenant Web Applications with Azure AD](https://msdn.microsoft.com/library/windowsazure/dn151789.aspx) tutorial. The tutorial hasn't yet been updated for Visual Studio 2013; some of what the tutorial directs you to do manually is automated in Visual Studio 2013.
 - [You Have to Sign Up With Your Own Multiple Organizations ASP.NET App Before You Can Sign In](http://www.cloudidentity.com/blog/2013/10/26/you-have-to-sign-up-with-your-own-multiple-organizations-asp-net-app-before-you-can-sign-in/). Blog by Vittorio Bertocci that explains how to resolve a common problem people encounter when creating a project that uses multi-organization authentication.
 

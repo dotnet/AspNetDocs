@@ -1,7 +1,7 @@
 ---
 uid: web-forms/videos/how-do-i/how-do-i-utilize-web-parts-and-personalization
 title: "[How Do I:] Utilize Web Parts and Personalization? | Microsoft Docs"
-author: microsoft
+author: rick-anderson
 description: "Learn how to use the new Web Parts and Personalization features to build customizable web pages whose content and layout can be modified by the user."
 ms.author: riande
 ms.date: 01/16/2006

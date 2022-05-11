@@ -13,7 +13,7 @@ msc.type: authoredcontent
 
 by [Scott Mitchell](https://twitter.com/ScottOnWriting)
 
-[Download Sample App](http://download.microsoft.com/download/9/c/1/9c1d03ee-29ba-4d58-aa1a-f201dcc822ea/ASPNET_Data_Tutorial_37_VB.exe) or [Download PDF](performing-batch-updates-vb/_static/datatutorial37vb1.pdf)
+[Download PDF](performing-batch-updates-vb/_static/datatutorial37vb1.pdf)
 
 > Learn how to create a fully-editable DataList where all of its items are in edit mode and whose values can be saved by clicking an "Update All" button on the page.
 

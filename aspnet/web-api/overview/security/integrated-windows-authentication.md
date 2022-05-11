@@ -1,7 +1,7 @@
 ---
 uid: web-api/overview/security/integrated-windows-authentication
 title: "Integrated Windows Authentication | Microsoft Docs"
-author: MikeWasson
+author: Rick-Anderson
 description: "Describes using Integrated Windows Authentication in ASP.NET Web API."
 ms.author: riande
 ms.date: 12/18/2012
@@ -11,13 +11,15 @@ msc.type: authoredcontent
 ---
 # Integrated Windows Authentication
 
-by [Mike Wasson](https://github.com/MikeWasson)
+by Mike Wasson
 
 Integrated Windows authentication enables users to log in with their Windows credentials, using Kerberos or NTLM. The client sends credentials in the Authorization header. Windows authentication is best suited for an intranet environment. For more information, see [Windows Authentication](https://www.iis.net/configreference/system.webserver/security/authentication/windowsauthentication).
 
 | Advantages | Disadvantages |
 | --- | --- |
-| - Built into IIS. - Does not send the user credentials in the request. - If the client computer belongs to the domain (for example, intranet application), the user does not need to enter credentials. | - Not recommended for Internet applications. - Requires Kerberos or NTLM support in the client. - Client must be in the Active Directory domain. |
+| Built into IIS. | Not recommended for Internet applications. | 
+| Does not send the user credentials in the request. | Requires Kerberos or NTLM support in the client. |
+| If the client computer belongs to the domain (for example, intranet application), the user does not need to enter credentials. | Client must be in the Active Directory domain. |
 
 > [!NOTE]
 > If your application is hosted on Azure and you have an on-premise Active Directory domain, consider federating your on-premise AD with Azure Active Directory. That way, users can log in with their on-premise credentials, but the authentication is performed by Azure AD. For more information, see [Azure Authentication](../../../visual-studio/overview/2012/windows-azure-authentication.md).

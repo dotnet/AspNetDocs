@@ -15,8 +15,6 @@ by [Patrick Fletcher](https://github.com/pfletcher)
 
 [!INCLUDE [Consider ASP.NET Core SignalR](~/includes/signalr/signalr-version-disambiguation.md)]
 
-[Download Completed Project](http://code.msdn.microsoft.com/SignalR-Self-Host-Sample-6da0f383)
-
 > This tutorial shows how to create a self-hosted SignalR 2 server, and how to connect to it with a JavaScript client.
 >
 > ## Software versions used in the tutorial
@@ -68,7 +66,7 @@ In this tutorial, you'll create a server that's hosted in a console application,
 
 1. Open Visual Studio 2013 with administrator privileges. Select **File**, **New Project**. Select **Windows** under the **Visual C#** node in the **Templates** pane, and select the **Console Application** template. Name the new project "SignalRSelfHost" and click **OK**.
 
-    ![](tutorial-signalr-self-host/_static/image1.png)
+    ![Screenshot of the New Project screen with the Windows option, the Console Application template, and the Name field being highlighted.](tutorial-signalr-self-host/_static/image1.png)
 2. Open the NuGet package manager console by selecting **Tools** > **NuGet Package Manager** > **Package Manager Console**.
 3. In the package manager console, enter the following command:
 
@@ -91,7 +89,7 @@ In this tutorial, you'll create a server that's hosted in a console application,
     - **MyHub**, the SignalR Hub class that the application will provide to clients. This class has a single method, **Send**, that clients will call to broadcast a message to all other connected clients.
 6. Compile and run the application. The address that the server is running should show in a console window.
 
-    ![](tutorial-signalr-self-host/_static/image2.png)
+    ![Screenshot of the server running in a console window.](tutorial-signalr-self-host/_static/image2.png)
 7. If execution fails with the exception `System.Reflection.TargetInvocationException was unhandled`, you will need to restart Visual Studio with administrator privileges.
 8. Stop the application before proceeding to the next section.
 
@@ -103,10 +101,10 @@ In this section, you'll use the same JavaScript client from the [Getting Started
 
 1. In **Solution Explorer**, right-click on the solution and select **Add**, **New Project**. Select the **Web** node, and select the **ASP.NET Web Application** template. Name the project "JavascriptClient" and click **OK**.
 
-    ![](tutorial-signalr-self-host/_static/image3.png)
+    ![Screenshot of the Add New Project screen with the Web node, A S P dot NET Web Application template, and Name field being highlighted.](tutorial-signalr-self-host/_static/image3.png)
 2. Select the **Empty** template, and leave the remaining options unselected. Select **Create Project**.
 
-    ![](tutorial-signalr-self-host/_static/image4.png)
+    ![Screenshot of the New A S P dot NET Project screen with the Empty template being selected and the Create Project option being highlighted.](tutorial-signalr-self-host/_static/image4.png)
 3. In the package manager console, select the "JavascriptClient" project in the **Default project** drop-down, and execute the following command:
 
     [!code-powershell[Main](tutorial-signalr-self-host/samples/sample4.ps1)]
@@ -114,7 +112,7 @@ In this section, you'll use the same JavaScript client from the [Getting Started
     This command installs the SignalR and JQuery libraries that you'll need in the client.
 4. Right-click on your project and select **Add**, **New Item**. Select the **Web** node, and select HTML Page. Name the page **Default.html**.
 
-    ![](tutorial-signalr-self-host/_static/image5.png)
+    ![Screenshot of the Add New Item screen with the Web option, H T M L Page template, and Name field being highlighted.](tutorial-signalr-self-host/_static/image5.png)
 5. Replace the contents of the new HTML page with the following code. Verify that the script references here match the scripts in the Scripts folder of the project.
 
     [!code-html[Main](tutorial-signalr-self-host/samples/sample5.html?highlight=31-32)]
@@ -124,7 +122,7 @@ In this section, you'll use the same JavaScript client from the [Getting Started
     [!code-javascript[Main](tutorial-signalr-self-host/samples/sample6.js)]
 6. Right-click on the solution, and select **Set Startup Projects...**. Select the **Multiple startup projects** radio button, and set both projects' **Action** to **Start**.
 
-    ![](tutorial-signalr-self-host/_static/image6.png)
+    ![Screenshot of the Solution Property Pages screen with the Multiple startup projects radio button and Start Action entries being highlighted.](tutorial-signalr-self-host/_static/image6.png)
 7. Right-click on "Default.html" and select **Set As Start Page**.
 8. Run the application. The server and page will launch. You may need to reload the web page (or select **Continue** in the debugger) if the page loads before the server is started.
 9. In the browser, provide a username when prompted. Copy the page's URL into another browser tab or window and provide a different username. You will be able to send messages from one browser pane to the other, as in the Getting Started tutorial.

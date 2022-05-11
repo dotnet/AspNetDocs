@@ -1,7 +1,7 @@
 ---
 uid: web-forms/overview/moving-to-aspnet-20/caching
 title: "Caching | Microsoft Docs"
-author: microsoft
+author: rick-anderson
 description: "An understanding of caching is important for a well-performing ASP.NET application. ASP.NET 1.x offered three different options for caching; output caching,..."
 ms.author: riande
 ms.date: 02/20/2005

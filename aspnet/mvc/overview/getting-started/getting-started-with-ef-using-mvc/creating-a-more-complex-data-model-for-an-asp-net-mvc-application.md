@@ -137,9 +137,13 @@ In *Models\Student.cs*, replace the code you added earlier with the following co
 
 ### The Required Attribute
 
-The [Required attribute](https://msdn.microsoft.com/library/system.componentmodel.dataannotations.requiredattribute.aspx) makes the name properties required fields. The `Required attribute` is not needed for value types such as DateTime, int, double, and float. Value types cannot be assigned a null value, so they are inherently treated as required fields. You could remove the [Required attribute](https://msdn.microsoft.com/library/system.componentmodel.dataannotations.requiredattribute.aspx) and replace it with a minimum length parameter for the `StringLength` attribute:
+The [Required attribute](https://msdn.microsoft.com/library/system.componentmodel.dataannotations.requiredattribute.aspx) makes the name properties required fields. The `Required attribute` is not needed for value types such as DateTime, int, double, and float. Value types cannot be assigned a null value, so they are inherently treated as required fields. 
+
+The `Required` attribute must be used with `MinimumLength` for the `MinimumLength` to be enforced.
 
 [!code-csharp[Main](creating-a-more-complex-data-model-for-an-asp-net-mvc-application/samples/sample8.cs?highlight=2)]
+
+`MinimumLength` and `Required` allow whitespace to satisfy the validation. Use the `RegularExpression` attribute for full controll over the string.
 
 ### The Display Attribute
 
@@ -332,7 +336,7 @@ The following code provides an example of how you could have used fluent API ins
 
 [!code-csharp[Main](creating-a-more-complex-data-model-for-an-asp-net-mvc-application/samples/sample31.cs)]
 
-For information about what "fluent API" statements are doing behind the scenes, see the [Fluent API](https://blogs.msdn.com/b/aspnetue/archive/2011/05/04/entity-framework-code-first-tutorial-supplement-what-is-going-on-in-a-fluent-api-call.aspx) blog post.
+For information about what "fluent API" statements are doing behind the scenes, see the [Fluent API](/archive/blogs/aspnetue/entity-framework-code-first-tutorial-supplement-what-is-going-on-in-a-fluent-api-call) blog post.
 
 ## Seed database with test data
 

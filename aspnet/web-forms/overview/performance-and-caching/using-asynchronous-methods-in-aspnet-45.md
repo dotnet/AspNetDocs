@@ -11,7 +11,7 @@ msc.type: authoredcontent
 ---
 # Using Asynchronous Methods in ASP.NET 4.5
 
-by [Rick Anderson]((https://twitter.com/RickAndMSFT))
+by [Rick Anderson](https://twitter.com/RickAndMSFT)
 
 > This tutorial will teach you the basics of building an asynchronous ASP.NET Web Forms application using [Visual Studio Express 2012 for Web](https://www.microsoft.com/visualstudio/11), which is a free version of Microsoft Visual Studio. You can also use [Visual Studio 2012](https://www.microsoft.com/visualstudio/11). The following sections are included in this tutorial.
 > 
@@ -32,7 +32,7 @@ ASP.NET 4.5 Web Pages in combination [.NET 4.5](https://msdn.microsoft.com/libra
 For more information on the using [await](https://msdn.microsoft.com/library/hh156528(VS.110).aspx) and [async](https://msdn.microsoft.com/library/hh156513(VS.110).aspx) keywords and the [Task](https://msdn.microsoft.com/library/system.threading.tasks.task.aspx) namespace, see the following references.
 
 - [Whitepaper: Asynchrony in .NET](https://go.microsoft.com/fwlink/?LinkId=204844)
-- [Async/Await FAQ](https://blogs.msdn.com/b/pfxteam/archive/2012/04/12/10293335.aspx)
+- [Async/Await FAQ](https://devblogs.microsoft.com/pfxteam/asyncawait-faq/)
 - [Visual Studio Asynchronous Programming](https://msdn.microsoft.com/vstudio/gg316360)
 
 ## <a id="HowRequestsProcessedByTP"></a>  How Requests Are Processed by the Thread Pool
@@ -43,7 +43,7 @@ This might not be a problem, because the thread pool can be made large enough to
 
 ## Processing Asynchronous Requests
 
-In web applications that see a large number of concurrent requests at start-up or has a bursty load (where concurrency increases suddenly), making web service calls asynchronous will increase the responsiveness of your application. An asynchronous request takes the same amount of time to process as a synchronous request. For example, if a request makes a web service call that requires two seconds to complete, the request takes two seconds whether it is performed synchronously or asynchronously. However, during an asynchronous call, a thread is not blocked from responding to other requests while it waits for the first request to complete. Therefore, asynchronous requests prevent request queuing and thread pool growth when there are many concurrent requests that invoke long-running operations.
+In web applications that see a large number of concurrent requests at start-up or have a bursty load (where concurrency increases suddenly), making web service calls asynchronous will increase the responsiveness of your application. An asynchronous request takes the same amount of time to process as a synchronous request. For example, if a request makes a web service call that requires two seconds to complete, the request takes two seconds whether it is performed synchronously or asynchronously. However, during an asynchronous call, a thread is not blocked from responding to other requests while it waits for the first request to complete. Therefore, asynchronous requests prevent request queuing and thread pool growth when there are many concurrent requests that invoke long-running operations.
 
 ## <a id="ChoosingSyncVasync"></a>  Choosing Synchronous or Asynchronous Methods
 
@@ -119,7 +119,7 @@ The asynchronous version:
 
 Inside of the `GetGizmosSvcAsync` method body another asynchronous method, `GetGizmosAsync` is called. `GetGizmosAsync` immediately returns a `Task<List<Gizmo>>` that will eventually complete when the data is available. Because you don't want to do anything else until you have the gizmo data, the code awaits the task (using the **await** keyword). You can use the **await** keyword only in methods annotated with the **async** keyword.
 
-The **await** keyword does not block the thread until the task is complete. It signs up the rest of the method as a callback on the task, and immediately returns. When the awaited task eventually completes, it will invoke that callback and thus resume the execution of the method right where it left off. For more information on using the [await](https://msdn.microsoft.com/library/hh156528(VS.110).aspx) and [async](https://msdn.microsoft.com/library/hh156513(VS.110).aspx) keywords and the [Task](https://msdn.microsoft.com/library/system.threading.tasks.task.aspx) namespace, see the [async references](https://docs.microsoft.com/dotnet/csharp/language-reference/keywords/async).
+The **await** keyword does not block the thread until the task is complete. It signs up the rest of the method as a callback on the task, and immediately returns. When the awaited task eventually completes, it will invoke that callback and thus resume the execution of the method right where it left off. For more information on using the [await](https://msdn.microsoft.com/library/hh156528(VS.110).aspx) and [async](https://msdn.microsoft.com/library/hh156513(VS.110).aspx) keywords and the [Task](https://msdn.microsoft.com/library/system.threading.tasks.task.aspx) namespace, see the [async references](/dotnet/csharp/language-reference/keywords/async).
 
 The following code shows the `GetGizmos` and `GetGizmosAsync` methods.
 
@@ -141,11 +141,13 @@ The browsers presentation of the gizmos data is identical to the view created by
 
 ## RegisterAsyncTask Notes
 
-Methods hooked up with `RegisterAsyncTask` will run immediately after [PreRender](https://msdn.microsoft.com/library/ms178472.aspx). You can also use async void page events directly, as shown in the following code:
+Methods hooked up with `RegisterAsyncTask` will run immediately after [PreRender](https://msdn.microsoft.com/library/ms178472.aspx).
+
+If you use async void page events directly, as shown in the following code:
 
 [!code-csharp[Main](using-asynchronous-methods-in-aspnet-45/samples/sample8.cs)]
 
-The downside to async void events is that developers no longer has full control over when events execute. For example, if both an .aspx and a .Master define `Page_Load` events and one or both of them are asynchronous, the order of execution can't be guaranteed. The same indeterminiate order for non event handlers (such as `async void Button_Click` ) applies. For most developers this should be acceptable, but those who require full control over the order of execution should only use APIs like `RegisterAsyncTask` that consume methods which return a Task object.
+you no longer have full control over when events execute. For example, if both an .aspx and a .Master define `Page_Load` events and one or both of them are asynchronous, the order of execution can't be guaranteed. The same indeterminate order for event handlers (such as `async void Button_Click` ) applies.
 
 ## <a id="Parallel"></a>  Performing Multiple Operations in Parallel
 
@@ -196,11 +198,11 @@ To realize the benefits of an asynchronous web application, you might need to ma
 - [.NET Framework Versions and Dependencies](https://msdn.microsoft.com/library/bb822049(VS.110).aspx)
 
 - If your application is using web services or System.NET to communicate with a backend over HTTP you may need to increase the [connectionManagement/maxconnection](https://msdn.microsoft.com/library/fb6y0fyc(VS.110).aspx) element. For ASP.NET applications, this is limited by the autoConfig feature to 12 times the number of CPUs. That means that on a quad-proc, you can have at most 12 \* 4 = 48 concurrent connections to an IP end point. Because this is tied to [autoConfig](https://msdn.microsoft.com/library/7w2sway1(VS.110).aspx), the easiest way to increase `maxconnection` in an ASP.NET application is to set [System.Net.ServicePointManager.DefaultConnectionLimit](https://msdn.microsoft.com/library/system.net.servicepointmanager.defaultconnectionlimit(VS.110).aspx) programmatically in the from `Application_Start` method in the *global.asax* file. See the sample download for an example.
-- In .NET 4.5, the default of 5000 for [MaxConcurrentRequestsPerCPU](https://blogs.msdn.com/tmarq/archive/2007/07/21/asp-net-thread-usage-on-iis-7-0-and-6-0.aspx) should be fine.
+- In .NET 4.5, the default of 5000 for [MaxConcurrentRequestsPerCPU](/archive/blogs/tmarq/asp-net-thread-usage-on-iis-7-5-iis-7-0-and-iis-6-0) should be fine.
 
 ## Contributors
 
 - [Levi Broderick](http://stackoverflow.com/users/59641/levi)
 - [Tom Dykstra](http://www.bing.com/search?q=site%3Aasp.net+%22Tom+Dykstra%22+-forums.asp.net&amp;qs=n&amp;form=QBRE&amp;pq=site%3Aasp.net+%22tom+dykstra%22+-forums.asp.net&amp;sc=8-42&amp;sp=-1&amp;sk=)
 - [Brad Wilson](http://bradwilson.typepad.com/)
-- [HongMei Ge](https://blogs.msdn.com/b/hongmeig/)
+- [HongMei Ge](/archive/blogs/hongmeig/)

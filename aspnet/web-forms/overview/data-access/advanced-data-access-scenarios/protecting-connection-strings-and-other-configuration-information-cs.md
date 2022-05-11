@@ -13,7 +13,7 @@ msc.type: authoredcontent
 
 by [Scott Mitchell](https://twitter.com/ScottOnWriting)
 
-[Download Code](http://download.microsoft.com/download/3/9/f/39f92b37-e92e-4ab3-909e-b4ef23d01aa3/ASPNET_Data_Tutorial_73_CS.zip) or [Download PDF](protecting-connection-strings-and-other-configuration-information-cs/_static/datatutorial73cs1.pdf)
+[Download PDF](protecting-connection-strings-and-other-configuration-information-cs/_static/datatutorial73cs1.pdf)
 
 > An ASP.NET application typically stores configuration information in a Web.config file. Some of this information is sensitive and warrants protection. By default this file will not be served to a Web site visitor, but an administrator or a hacker may gain access to the Web server's file system and view the contents of the file. In this tutorial we learn that ASP.NET 2.0 allows us to protect sensitive information by encrypting sections of the Web.config file.
 
@@ -39,11 +39,11 @@ Certain `Web.config` sections, however, contain sensitive information that may i
 In this tutorial we will look at techniques for protecting such sensitive configuration information. As we will see, the .NET Framework version 2.0 includes a protected configurations system that makes programmatically encrypting and decrypting selected configuration sections a breeze.
 
 > [!NOTE]
-> This tutorial concludes with a look at Microsoft s recommendations for connecting to a database from an ASP.NET application. In addition to encrypting your connection strings, you can help harden your system by ensuring that you are connecting to the database in a secure fashion.
+> This tutorial concludes with a look at Microsoft's recommendations for connecting to a database from an ASP.NET application. In addition to encrypting your connection strings, you can help harden your system by ensuring that you are connecting to the database in a secure fashion.
 
 ## Step 1: Exploring ASP.NET 2.0 s Protected Configuration Options
 
-ASP.NET 2.0 includes a protected configuration system for encrypting and decrypting configuration information. This includes methods in the .NET Framework that can be used to programmatically encrypt or decrypt configuration information. The protected configuration system uses the [provider model](http://aspnet.4guysfromrolla.com/articles/101905-1.aspx), which allows developers to choose what cryptographic implementation is used.
+ASP.NET 2.0 includes a protected configuration system for encrypting and decrypting configuration information. This includes methods in the .NET Framework that can be used to programmatically encrypt or decrypt configuration information. The protected configuration system uses the provider model which allows developers to choose what cryptographic implementation is used.
 
 The .NET Framework ships with two protected configuration providers:
 
@@ -164,9 +164,9 @@ These tutorials have used Windows authentication. You can tell what authenticati
 
 The Integrated Security=True and lack of a username and password indicate that Windows authentication is being used. In some connection strings the term Trusted Connection=Yes or Integrated Security=SSPI is used instead of Integrated Security=True, but all three indicate the use of Windows authentication.
 
-The following example shows a connection string that uses SQL authentication. Note the credentials embedded within the connection string:
+The following example shows a connection string that uses SQL authentication. `$CREDENTIAL_PLACEHOLDER$` is a placeholder for the password key-value pair. Note the credentials are embedded within the connection string:
 
-`Server=serverName; Database=Northwind; uid=userID; pwd=password`
+`Server=serverName; Database=Northwind; uid=userID; $CREDENTIAL_PLACEHOLDER$`
 
 Imagine that an attacker is able to view your application s `Web.config` file. If you use SQL authentication to connect to a database that is accessible over the Internet, the attacker can use this connection string to connect to your database through SQL Management Studio or from ASP.NET pages on their own website. To help mitigate this threat, encrypt the connection string information in `Web.config` using the protected configuration system.
 

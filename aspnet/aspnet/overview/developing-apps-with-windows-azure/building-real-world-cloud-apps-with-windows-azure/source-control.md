@@ -1,8 +1,8 @@
 ---
 uid: aspnet/overview/developing-apps-with-windows-azure/building-real-world-cloud-apps-with-windows-azure/source-control
 title: "Source Control (Building Real-World Cloud Apps with Azure) | Microsoft Docs"
-author: MikeWasson
-description: "The Building Real World Cloud Apps with Azure e-book is based on a presentation developed by Scott Guthrie. It explains 13 patterns and practices that can he..."
+author: Rick-Anderson
+description: "Building Real World Cloud Apps with Azure is available as an e-book, and is based on a presentation developed by Scott Guthrie. It explains 13 patterns and practices that can he..."
 ms.author: riande
 ms.date: 06/23/2015
 ms.assetid: 2a0370d3-c2fb-4bf3-88b8-aad5a736c793
@@ -11,9 +11,9 @@ msc.type: authoredcontent
 ---
 # Source Control (Building Real-World Cloud Apps with Azure)
 
-by [Mike Wasson](https://github.com/MikeWasson), [Rick Anderson]((https://twitter.com/RickAndMSFT)), [Tom Dykstra](https://github.com/tdykstra)
+by [Rick Anderson](https://twitter.com/RickAndMSFT), [Tom Dykstra](https://github.com/tdykstra)
 
-[Download Fix It Project](http://code.msdn.microsoft.com/Fix-It-app-for-Building-cdd80df4) or [Download E-book](http://blogs.msdn.com/b/microsoft_press/archive/2014/07/23/free-ebook-building-cloud-apps-with-microsoft-azure.aspx)
+[Download Fix It Project](https://code.msdn.microsoft.com/Fix-It-app-for-Building-cdd80df4) or [Download E-book](/archive/blogs/microsoft_press/free-ebook-building-cloud-apps-with-microsoft-azure)
 
 > The **Building Real World Cloud Apps with Azure** e-book is based on a presentation developed by Scott Guthrie. It explains 13 patterns and practices that can help you be successful developing web apps for the cloud. For information about the e-book, see [the first chapter](introduction.md).
 
@@ -52,7 +52,7 @@ How you implement branches in your repository affects your ability to both devel
 
 ![Source branch structure](source-control/_static/image1.png)
 
-The master branch always matches code that is in production. Branches underneath master correspond to different stages in the development life cycle. The development branch is where you implement new features. For a small team you might just have master and development, but we often recommend that people have a staging branch between development and master. You can use staging for final integration testing before an update is moved to production.
+The *main* branch always matches code that is in production. Branches underneath *main* correspond to different stages in the development life cycle. The development branch is where you implement new features. For a small team you might just have *main* and development, but we often recommend that people have a staging branch between development and *main*. You can use staging for final integration testing before an update is moved to production.
 
 For big teams there may be separate branches for each new feature; for a smaller team you might have everyone checking in to the development branch.
 
@@ -60,7 +60,7 @@ If you have a branch for each feature, when Feature A is ready you merge its sou
 
 Whether or not you use branches or toggles for features, a branching structure like this enables you to flow your code from development into production in an agile and repeatable way.
 
-This structure also enables you to react quickly to customer feedback. If you need to make a quick fix to production, you can also do that efficiently in an agile way. You can create a branch off of master or staging, and when it's ready merge it up into master and down into development and feature branches.
+This structure also enables you to react quickly to customer feedback. If you need to make a quick fix to production, you can also do that efficiently in an agile way. You can create a branch off of *main* or staging, and when it's ready merge it up into *main* and down into development and feature branches.
 
 ![Hotfix branch](source-control/_static/image2.png)
 
@@ -127,7 +127,7 @@ You can use any source control environment to implement the DevOps branching str
 
 [Git](http://git-scm.com/) is a popular distributed version control system. When you use Git for source control, you have a complete copy of the repository with all of its history on your local computer. Many people prefer that because it's easier to continue working when you're not connected to the network -- you can continue to do commits and rollbacks, create and switch branches, and so forth. Even when you're connected to the network, it's easier and quicker to create branches and switch branches when everything is local. You can also do local commits and rollbacks without having an impact on other developers. And you can batch commits before sending them to the server.
 
-[Azure Repos](/azure/devops/repos/index?view=vsts) offers both [Git](/azure/devops/repos/git/?view=vsts) and [Team Foundation Version Control](/azure/devops/repos/tfvc/index?view=vsts) (TFVC; centralized source control). Get started with Azure DevOps [here](https://app.vsaex.visualstudio.com/signup).
+[Azure Repos](/azure/devops/repos/index?view=vsts&preserve-view=true ) offers both [Git](/azure/devops/repos/git/?view=vsts&preserve-view=true ) and [Team Foundation Version Control](/azure/devops/repos/tfvc/index?view=vsts&preserve-view=true ) (TFVC; centralized source control). Get started with Azure DevOps [here](https://app.vsaex.visualstudio.com/signup).
 
 Visual Studio 2017 includes built-in, first-class [Git support](https://msdn.microsoft.com/library/hh850437.aspx). Here's a quick demo of how that works.
 
@@ -161,23 +161,23 @@ You can easily see what changes you're making and check them in.
 
 Suppose you need to make a branch – you can do that in Visual Studio too. In **Team Explorer**, click **New Branch**.
 
-![Team Explorer New Branch](source-control/_static/image16.png)
+![Team Explorer New Branch - Image 1](source-control/_static/image16.png)
 
 Enter a branch name, click **Create Branch**, and if you selected **Checkout branch**, Visual Studio automatically checks out the new branch.
 
-![Team Explorer New Branch](source-control/_static/image17.png)
+![Team Explorer New Branch - Image 2](source-control/_static/image17.png)
 
 You can now make changes to files and check them in to this branch. And you can easily switch between branches and Visual Studio automatically syncs the files to whichever branch you have checked out. In this example the web page title in *\_Layout.cshtml* has been changed to "Hot Fix 1" in HotFix1 branch.
 
 ![Hotfix1 branch](source-control/_static/image18.png)
 
-If you switch back to the master branch, the contents of the *\_Layout.cshtml* file automatically revert to what they are in the master branch.
+If you switch back to the *main* branch, the contents of the *\_Layout.cshtml* file automatically revert to what they are in the *main* branch.
 
-![Master branch](source-control/_static/image19.png)
+![main branch](source-control/_static/image19.png)
 
-This a simple example of how you can quickly create a branch and flip back and forth between branches. This feature enables a highly agile workflow using the branch structure and automation scripts presented in the [Automate Everything](automate-everything.md) chapter. For example, you can be working in the Development branch, create a hot fix branch off of master, switch to the new branch, make your changes there and commit them, and then switch back to the Development branch and continue what you were doing.
+This a simple example of how you can quickly create a branch and flip back and forth between branches. This feature enables a highly agile workflow using the branch structure and automation scripts presented in the [Automate Everything](automate-everything.md) chapter. For example, you can be working in the Development branch, create a hot fix branch off of *main*, switch to the new branch, make your changes there and commit them, and then switch back to the Development branch and continue what you were doing.
 
-What you've seen here is how you work with a local Git repository in Visual Studio. In a team environment you typically also push changes up to a common repository. The Visual Studio tools also enable you to point to a remote Git repository. You can use GitHub.com for that purpose, or you can use [Git and Azure Repos](/azure/devops/repos/git/overview?view=vsts) integrated with all the other Azure DevOps capabilities such as work item and bug tracking.
+What you've seen here is how you work with a local Git repository in Visual Studio. In a team environment you typically also push changes up to a common repository. The Visual Studio tools also enable you to point to a remote Git repository. You can use GitHub.com for that purpose, or you can use [Git and Azure Repos](/azure/devops/repos/git/overview?view=vsts&preserve-view=true ) integrated with all the other Azure DevOps capabilities such as work item and bug tracking.
 
 This isn't the only way you can implement an agile branching strategy, of course. You can enable the same agile workflow using a centralized source control repository.
 

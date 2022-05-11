@@ -1,7 +1,7 @@
 ---
 uid: web-api/overview/releases/whats-new-in-aspnet-web-api-21
 title: "What's New in ASP.NET Web API 2.1 | Microsoft Docs"
-author: microsoft
+author: rick-anderson
 description: ""
 ms.author: riande
 ms.date: 01/20/2014
@@ -59,14 +59,14 @@ For example, the following code uses System.Diagnostics.TraceSource to log all u
 
 You can also replace the default exception handler, so that you can fully customize the HTTP response message that is sent when an unhandled exception occurs.
 
-We have provided a [sample](http://aspnet.codeplex.com/SourceControl/latest#Samples/WebApi/Elmah/ReadMe.txt) that logs all unhandled exceptions via the popular ELMAH framework.
+We have provided a [sample](https://github.com/aspnet/samples/tree/master/samples/aspnet/WebApi/Elmah) that logs all unhandled exceptions via the popular ELMAH framework.
 
 <a id="attribute-routing"></a>
 ### Attribute Routing Improvements
 
 Attribute routing now supports constraints, enabling versioning and header-based route selection. Also, many aspects of attribute routes are now customizable via the **IDirectRouteFactory** interface and **RouteFactoryAttribute** class. The route prefix is now extensible via the **IRoutePrefix** interface and **RoutePrefixAttribute** class.
 
-We have provided a [sample](http://aspnet.codeplex.com/SourceControl/latest#Samples/WebApi/RoutingConstraintsSample/ReadMe.txt) that uses constraints to dynamically filter controllers by an 'api-version' HTTP header.
+We have provided a [sample](https://github.com/aspnet/samples/tree/master/samples/aspnet/WebApi/RoutingConstraintsSample) that uses constraints to dynamically filter controllers by an 'api-version' HTTP header.
 
 <a id="help-page"></a>
 ### Help Page Improvements
@@ -100,7 +100,7 @@ Here is how a .NET client can consume BSON format:
 
 [!code-csharp[Main](whats-new-in-aspnet-web-api-21/samples/sample5.cs)]
 
-We have provided a [sample](http://aspnet.codeplex.com/SourceControl/latest#Samples/WebApi/BSONSample/ReadMe.txt) that shows both the client and server side.
+We have provided a [sample](https://github.com/aspnet/samples/tree/master/samples/aspnet/WebApi/BSONSample) that shows both the client and server side.
 
 For more information, see [BSON Support in Web API 2.1](../formats-and-model-binding/bson-support-in-web-api-21.md)
 
@@ -155,6 +155,7 @@ Some of the types used for attribute routing extensibility were renamed from the
 
 Previously, if an async action threw an **AggregateException**, an exception filter would unwrap the exception, and **OnException** would get the base exception. In 2.1, the exception filter does not unwrap it, and **OnException** gets the original **AggregateException**.
 
+<--- these documents seem to no longer exist
 <a id="bug-fixes"></a>
 ## Bug Fixes
 
@@ -163,4 +164,4 @@ This release also includes several bug fixes. You can find the complete list her
 - [5.1.0 package](https://aspnetwebstack.codeplex.com/workitem/list/advanced?keyword=&amp;status=Closed&amp;type=All&amp;priority=All&amp;release=v5.1%20Preview|v5.1%20RTM&amp;assignedTo=All&amp;component=Web%20API|Web%20API%20OData&amp;sortField=AssignedTo&amp;sortDirection=Ascending&amp;page=0&amp;reasonClosed=Fixed)
 - [5.1.1 package](https://aspnetwebstack.codeplex.com/workitem/list/advanced?keyword=&status=All&type=All&priority=All&release=v5.1.1%20RTM&assignedTo=All&component=Web%20API&sortField=AssignedTo&sortDirection=Ascending&page=0&reasonClosed=Fixed)
 
-The 5.1.2 package contains IntelliSense updates but no bug fixes.
+The 5.1.2 package contains IntelliSense updates but no bug fixes. --->

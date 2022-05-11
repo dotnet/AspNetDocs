@@ -13,7 +13,7 @@ msc.type: authoredcontent
 
 by [Scott Mitchell](https://twitter.com/ScottOnWriting)
 
-[Download Code](http://download.microsoft.com/download/3/9/f/39f92b37-e92e-4ab3-909e-b4ef23d01aa3/ASPNET_Data_Tutorial_74_VB.zip) or [Download PDF](debugging-stored-procedures-vb/_static/datatutorial74vb1.pdf)
+[Download PDF](debugging-stored-procedures-vb/_static/datatutorial74vb1.pdf)
 
 > Visual Studio Professional and Team System editions allow you to set breakpoints and step in to stored procedures within SQL Server, making debugging stored procedures as easy as debugging application code. This tutorial demonstrates direct database debugging and application debugging of stored procedures.
 
@@ -32,7 +32,7 @@ Microsoft SQL Server 2005 was designed to provide integration with the [Common L
 
 SQL Server 2005 offers debugging support for both T-SQL and managed database objects. However, these objects can only be debugged through Visual Studio 2005 Professional and Team Systems editions. In this tutorial we will examine debugging T-SQL database objects. The subsequent tutorial looks at debugging managed database objects.
 
-The [Overview of T-SQL and CLR Debugging in SQL Server 2005](https://blogs.msdn.com/sqlclr/archive/2006/06/29/651644.aspx) blog entry from the [SQL Server 2005 CLR Integration team](https://blogs.msdn.com/sqlclr/default.aspx) highlights the three ways to debug SQL Server 2005 objects from Visual Studio:
+The [Overview of T-SQL and CLR Debugging in SQL Server 2005](https://techcommunity.microsoft.com/t5/sql-server-blog/overview-of-t-sql-and-clr-debugging-in-sql-server-2005/ba-p/383069) blog entry from the [SQL Server 2005 CLR Integration team](/archive/blogs/sqlclr/) highlights the three ways to debug SQL Server 2005 objects from Visual Studio:
 
 - **Direct Database Debugging (DDD)** - from Server Explorer we can step into any T-SQL database object, such as stored procedures and UDFs. We will examine DDD in Step 1.
 - **Application Debugging** - we can set breakpoints within a database object and then run our ASP.NET application. When the database object is executed, the breakpoint will be hit and control turned over to the debugger. Note that with application debugging we cannot step into a database object from application code. We must explicitly set breakpoints in those stored procedures or UDFs where we want the debugger to stop. Application debugging is examined starting in Step 2.
@@ -140,7 +140,7 @@ An example should help clarify things. Imagine that there is a Windows account n
 
 [!code-console[Main](debugging-stored-procedures-vb/samples/sample2.cmd)]
 
-For a more detailed explanation on this process, see [William R. Vaughn](http://betav.com/BLOG/billva/) s *Hitchhiker s Guide to Visual Studio and SQL Server, Seventh Edition* as well as [How To: Set SQL Server Permissions for Debugging](https://msdn.microsoft.com/library/w1bhybwz(VS.80).aspx).
+For a more detailed explanation on this process, see [William R. Vaughn](http://betav.com/BLOG/billva/) s *Hitchhiker s Guide to Visual Studio and SQL Server, Seventh Edition*.
 
 > [!NOTE]
 > If your development machine is running Windows XP Service Pack 2 you will need to configure the Internet Connection Firewall to allow remote debugging. [The How To: Enable SQL Server 2005 Debugging](https://msdn.microsoft.com/library/s0fk6z6e(VS.80).aspx) article notes that this involves two steps: (a) On the Visual Studio host machine, you must add `Devenv.exe` to the Exceptions list and open the TCP 135 port; and (b) On the remote (SQL) machine, you must open the TCP 135 port and add `sqlservr.exe` to the Exceptions list. If your domain policy requires network communication to be done through IPSec, you must open the UDP 4500 and UDP 500 ports.

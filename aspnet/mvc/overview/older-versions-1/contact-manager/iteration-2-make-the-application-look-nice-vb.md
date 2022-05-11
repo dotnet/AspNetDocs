@@ -1,7 +1,7 @@
 ---
 uid: mvc/overview/older-versions-1/contact-manager/iteration-2-make-the-application-look-nice-vb
 title: "Iteration #2 – Make the application look nice (VB) | Microsoft Docs"
-author: microsoft
+author: rick-anderson
 description: "In this iteration, we improve the appearance of the application by modifying the default ASP.NET MVC view master page and cascading style sheet."
 ms.author: riande
 ms.date: 02/20/2009
@@ -48,14 +48,6 @@ The goal of this iteration is to improve the appearance of the Contact Manager a
 In this iteration, I discuss two approaches to improving the visual design of our application. First, I show you how to take advantage of the ASP.NET MVC Design gallery to download a free ASP.NET MVC design template. The ASP.NET MVC Design gallery enables you to create a professional web application without doing any work.
 
 I decided to not use a template from the ASP.NET MVC Design gallery for the Contact Manager application. Instead, I had a custom design created by a professional design firm. In the second part of this tutorial, I explain how I worked with a professional design company to create the final ASP.NET MVC design.
-
-## The ASP.NET MVC Design Gallery
-
-The ASP.NET MVC Design Gallery is a free resource provided by Microsoft. The ASP.NET MVC Gallery is located at the following address:
-
-[https://www.asp.net/mvc/gallery](https://www.asp.net/mvc/gallery)
-
-The ASP.NET MVC Design Gallery hosts a collection of free website designs that were created specifically for using in an ASP.NET MVC project. Designs are uploaded by members of the community. Visitors to the Gallery can vote for their favorite designs (see Figure 2).
 
 [![The New Project dialog box](iteration-2-make-the-application-look-nice-vb/_static/image2.jpg)](iteration-2-make-the-application-look-nice-vb/_static/image3.png)
 

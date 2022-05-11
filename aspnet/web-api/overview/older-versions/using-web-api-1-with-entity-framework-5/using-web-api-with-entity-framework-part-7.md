@@ -1,8 +1,8 @@
 ---
 uid: web-api/overview/older-versions/using-web-api-1-with-entity-framework-5/using-web-api-with-entity-framework-part-7
 title: "Part 7: Creating the Main Page | Microsoft Docs"
-author: MikeWasson
-description: ""
+author: Rick-Anderson
+description: "How to create the main application page. This page will be more complex than the Admin page, so you'll see some more advanced Knockout.js techniques."
 ms.author: riande
 ms.date: 07/04/2012
 ms.assetid: eb32a17b-626c-4373-9a7d-3387992f3c04
@@ -11,15 +11,17 @@ msc.type: authoredcontent
 ---
 # Part 7: Creating the Main Page
 
-by [Mike Wasson](https://github.com/MikeWasson)
+by Rick Anderson
 
-[Download Completed Project](http://code.msdn.microsoft.com/ASP-NET-Web-API-with-afa30545)
+[Download Completed Project](https://code.msdn.microsoft.com/ASP-NET-Web-API-with-afa30545)
 
 ## Creating the Main Page
 
 In this section, you will create the main application page. This page will be more complex than the Admin page, so we'll approach it in several steps. Along the way, you'll see some more advanced Knockout.js techniques. Here is the basic layout of the page:
 
-![](using-web-api-with-entity-framework-part-7/_static/image1.png)
+:::image type="complex" source="using-web-api-with-entity-framework-part-7/_static/image1.png" alt-text="Diagram of interaction between products, cart, orders, and order details elements of a main page.":::
+Diagram of interaction between products, cart, orders, and order details elements of a main page. The products element is labeled GET A P I / products with an arrow pointing to the items element. The items element is connected to the orders element by an arrow labeled POST A P I / orders. The orders element is connected to the details element with an arrow labeled GET A P I / orders. The details element is lebeled GET A P I / orders / i d.
+:::image-end:::
 
 - "Products" holds an array of products.
 - "Cart" holds an array of products with quantities. Clicking "Add to Cart" updates the cart.

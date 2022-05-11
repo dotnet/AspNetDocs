@@ -11,9 +11,9 @@ msc.type: authoredcontent
 ---
 # Adding Validation
 
-by [Rick Anderson]((https://twitter.com/RickAndMSFT))
+by [Rick Anderson](https://twitter.com/RickAndMSFT)
 
-[!INCLUDE [Tutorial Note](sample/code-location.md)]
+[!INCLUDE [consider RP](~/includes/razor.md)]
 
 In this section you'll add validation logic to the `Movie` model, and you'll ensure that the validation rules are enforced any time a user attempts to create or edit a movie using the application.
 

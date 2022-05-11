@@ -13,8 +13,6 @@ msc.type: authoredcontent
 
 by [Stephen Walther](https://github.com/StephenWalther)
 
-[Download PDF](http://download.microsoft.com/download/8/4/8/84843d8d-1575-426c-bcb5-9d0c42e51416/ASPNET_MVC_Tutorial_06_VB.pdf)
-
 > Prevent JavaScript Injection Attacks and Cross-Site Scripting Attacks from happening to you. In this tutorial, Stephen Walther explains how you can easily defeat these types of attacks by HTML encoding your content.
 
 The goal of this tutorial is to explain how you can prevent JavaScript injection attacks in your ASP.NET MVC applications. This tutorial discusses two approaches to defending your website against a JavaScript injection attack. You learn how to prevent JavaScript injection attacks by encoding the data that you display. You also learn how to prevent JavaScript injection attacks by encoding the data that you accept.

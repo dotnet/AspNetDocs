@@ -13,7 +13,7 @@ msc.type: authoredcontent
 
 by [Scott Mitchell](https://twitter.com/ScottOnWriting)
 
-[Download Sample App](http://download.microsoft.com/download/4/a/7/4a7a3b18-d80e-4014-8e53-a6a2427f0d93/ASPNET_Data_Tutorial_47_VB.exe) or [Download PDF](querying-data-with-the-sqldatasource-control-vb/_static/datatutorial47vb1.pdf)
+[Download PDF](querying-data-with-the-sqldatasource-control-vb/_static/datatutorial47vb1.pdf)
 
 > In the preceding tutorials we used the ObjectDataSource control to fully separate the presentation layer from the Data Access layer. Starting with this tutorial, we learn how the SqlDataSource control can be used for simple applications that do not require such a strict separation of presentation and data access.
 
@@ -201,7 +201,6 @@ Happy Programming!
 
 For more information on the topics discussed in this tutorial, refer to the following resources:
 
-- [Accessing Relational Database Data](http://aspnet.4guysfromrolla.com/articles/022206-1.aspx)
 - [SqlDataSource Control Overview](https://msdn.microsoft.com/library/dz12d98w.aspx)
 - [ASP.NET Quickstart Tutorials: The SqlDataSource Control](https://quickstarts.asp.net/QuickStartv20/aspnet/doc/ctrlref/data/sqldatasource.aspx)
 - [The Web.config `<connectionStrings>` Element](https://msdn.microsoft.com/library/bf7sd233.aspx)

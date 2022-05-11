@@ -1,7 +1,7 @@
 ---
 uid: aspnet/overview/owin-and-katana/katana-samples
 title: "Katana Samples | Microsoft Docs"
-author: microsoft
+author: rick-anderson
 description: ""
 ms.author: riande
 ms.date: 01/17/2014

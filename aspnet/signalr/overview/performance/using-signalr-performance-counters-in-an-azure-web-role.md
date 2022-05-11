@@ -22,7 +22,7 @@ SignalR performance counters are used to monitor your app's performance in an Az
 
 * Visual Studio 2015 or [2017](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=button+cta&utm_content=download+vs2017)
 * [Microsoft Azure SDK for Visual Studio](https://azure.microsoft.com/downloads/) **Note: Restart your machine after installing the SDK.**
-* Microsoft Azure subscription: To sign up for a free Azure trial account, see [Azure Free Trial](https://azure.microsoft.com/free/).
+* Microsoft Azure subscription: To sign up for a free Azure trial account, see [Azure Free Trial](https://azure.microsoft.com/free/dotnet/).
 
 ## Creating an Azure Web Role application that exposes SignalR performance counters
 
@@ -140,7 +140,7 @@ SignalR performance counters are used to monitor your app's performance in an Az
 
     [!code-xml[Main](using-signalr-performance-counters-in-an-azure-web-role/samples/sample10.xml)]
 
-29. Deploy the application to your Azure subscription. For details on how to deploy an application to Azure, see [How to Create and Deploy a Cloud Service](https://docs.microsoft.com/azure/cloud-services/cloud-services-how-to-create-deploy).
+29. Deploy the application to your Azure subscription. For details on how to deploy an application to Azure, see [How to Create and Deploy a Cloud Service](/azure/cloud-services/cloud-services-how-to-create-deploy).
 
 30. Wait a few minutes. In **Cloud Explorer**, locate the storage account you configured above and find the `WADPerformanceCountersTable` table in it. You should see SignalR counters in the table data. If you don't see the table, you may need to re-enter your Azure Storage credentials. You may need to select the **Refresh** button to see the table in **Cloud Explorer** or select the **Refresh** button in the open table window to see data in the table.
 

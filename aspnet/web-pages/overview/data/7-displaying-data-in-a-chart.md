@@ -1,10 +1,11 @@
 ---
 uid: web-pages/overview/data/7-displaying-data-in-a-chart
 title: "Displaying Data in a Chart with ASP.NET Web Pages (Razor) | Microsoft Docs"
-author: microsoft
+author: rick-anderson
 description: "This chapter explains how to display data in a chart. In the previous chapters, you learned how to display data manually and in a grid. This chapter explains..."
 ms.author: riande
-ms.date: 05/22/2012
+ms.date: 04/27/2022
+ms.custom: devdivchpfy22
 ms.assetid: f889fd46-4dac-4ecb-83d8-60e64c22036e
 msc.legacyurl: /web-pages/overview/data/7-displaying-data-in-a-chart
 msc.type: authoredcontent
@@ -65,7 +66,7 @@ This procedure shows how you can create a chart from data in arrays, using the d
     The `Write` method actually renders the chart. In this case, because you didn't specify a chart type, the `Chart` helper renders its default chart, which is a column chart.
 3. Run the page in the browser. The browser displays the chart. 
 
-    ![](7-displaying-data-in-a-chart/_static/image8.jpg)
+    :::image type="content" source="7-displaying-data-in-a-chart/_static/image8.jpg" alt-text="Screenshot of the browser displaying the chart data.":::
 
 ### Using a Database Query for Chart Data
 
@@ -91,7 +92,7 @@ If the information you want to chart is in a database, you can run a database qu
     Both render the same results. The `AddSeries` method is more flexible because you can specify the chart type and data more explicitly, but the `DataBindTable` method is easier to use if you don't need the extra flexibility.
 5. Run the page in a browser. 
 
-    ![](7-displaying-data-in-a-chart/_static/image9.jpg)
+    :::image type="content" source="7-displaying-data-in-a-chart/_static/image9.jpg" alt-text="Screenshot of using a Database Query for Chart Data.":::
 
 ### Using XML Data
 
@@ -117,7 +118,7 @@ The third option for charting is to use an XML file as the data for the chart. T
     This example also shows you how to specify a particular chart type. When the data is added in the `AddSeries` method, the `chartType` parameter is also set to display a pie chart.
 7. Run the page in a browser. 
 
-    ![](7-displaying-data-in-a-chart/_static/image10.jpg)
+    :::image type="content" source="7-displaying-data-in-a-chart/_static/image10.jpg" alt-text="Screenshot of a particular chart type that you specify exammple pie chart.":::
 
 > [!TIP]
 > 
@@ -153,7 +154,7 @@ In the examples you've seen so far, you create a chart and then the chart is ren
 
 The second step is to display the resulting image in another page. To display the image, you use an HTML `<img>` element, in the same way you would to display any image. However, instead of referencing a *.jpg* or *.png* file, the `<img>` element references the *.cshtml* file that contains the `Chart` helper that creates the chart. When the display page runs, the `<img>` element gets the output of the `Chart` helper and renders the chart.
 
-![](7-displaying-data-in-a-chart/_static/image11.jpg)
+:::image type="content" source="7-displaying-data-in-a-chart/_static/image11.jpg" alt-text="Screenshot of charts displayed inside a web page.":::
 
 1. Create a file named *ShowChart.cshtml*.
 2. Replace the existing content with the following: 
@@ -190,7 +191,7 @@ You can specify the theme to use when you create a new chart.
     [!code-csharp[Main](7-displaying-data-in-a-chart/samples/sample11.cs)]
 3. Run the page in a browser. You see the same data as before, but the chart looks more polished: 
 
-    ![](7-displaying-data-in-a-chart/_static/image12.jpg)
+    :::image type="content" source="7-displaying-data-in-a-chart/_static/image12.jpg" alt-text="Screenshot of the chart looking more stylish.":::
 
 <a id="Saving_a_Chart"></a>
 ## Saving a Chart

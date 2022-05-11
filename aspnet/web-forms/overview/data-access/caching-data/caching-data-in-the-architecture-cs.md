@@ -13,7 +13,7 @@ msc.type: authoredcontent
 
 by [Scott Mitchell](https://twitter.com/ScottOnWriting)
 
-[Download Sample App](http://download.microsoft.com/download/4/a/7/4a7a3b18-d80e-4014-8e53-a6a2427f0d93/ASPNET_Data_Tutorial_59_CS.exe) or [Download PDF](caching-data-in-the-architecture-cs/_static/datatutorial59cs1.pdf)
+[Download Sample App](https://download.microsoft.com/download/4/a/7/4a7a3b18-d80e-4014-8e53-a6a2427f0d93/ASPNET_Data_Tutorial_59_CS.exe) or [Download PDF](caching-data-in-the-architecture-cs/_static/datatutorial59cs1.pdf)
 
 > In the previous tutorial we learned how to apply caching at the Presentation Layer. In this tutorial we learn how to take advantage of our layered architecture to cache data at the Business Logic Layer. We do this by extending the architecture to include a Caching Layer.
 

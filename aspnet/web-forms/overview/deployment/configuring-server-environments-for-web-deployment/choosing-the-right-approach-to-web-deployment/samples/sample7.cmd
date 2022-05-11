@@ -3,7 +3,7 @@ msdeploy.exe
   -dest:auto,
         computerName='https://STAGEWEB1:8172/MSDeploy.axd?site=DemoSite',
         userName='FABRIKAM\stagingdeployer',
-        password='Pa$$w0rd',
+        password=%ContactManagerPublishPassword%,
         authtype='Basic', 
   -verb:sync 
   -setParamFile:"…\ContactManager.Mvc.SetParameters.xml"   

@@ -13,7 +13,7 @@ msc.type: authoredcontent
 
 by [Scott Mitchell](https://twitter.com/ScottOnWriting)
 
-[Download Sample App](http://download.microsoft.com/download/9/6/9/969e5c94-dfb6-4e47-9570-d6d9e704c3c1/ASPNET_Data_Tutorial_12_CS.exe) or [Download PDF](using-templatefields-in-the-gridview-control-cs/_static/datatutorial12cs1.pdf)
+[Download PDF](using-templatefields-in-the-gridview-control-cs/_static/datatutorial12cs1.pdf)
 
 > To provide flexibility, the GridView offers the TemplateField, which renders using a template. A template can include a mix of static HTML, Web controls, and databinding syntax. In this tutorial we'll examine how to use the TemplateField to achieve a greater degree of customization with the GridView control.
 

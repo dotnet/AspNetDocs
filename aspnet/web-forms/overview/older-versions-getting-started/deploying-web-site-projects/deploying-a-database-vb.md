@@ -13,7 +13,7 @@ msc.type: authoredcontent
 
 by [Scott Mitchell](https://twitter.com/ScottOnWriting)
 
-[Download Code](http://download.microsoft.com/download/E/6/F/E6FE3A1F-EE3A-4119-989A-33D1A9F6F6DD/ASPNET_Hosting_Tutorial_07_VB.zip) or [Download PDF](http://download.microsoft.com/download/C/3/9/C391A649-B357-4A7B-BAA4-48C96871FEA6/aspnet_tutorial07_DeployDB_vb.pdf)
+[Download Code](https://download.microsoft.com/download/E/6/F/E6FE3A1F-EE3A-4119-989A-33D1A9F6F6DD/ASPNET_Hosting_Tutorial_07_VB.zip) or [Download PDF](https://download.microsoft.com/download/C/3/9/C391A649-B357-4A7B-BAA4-48C96871FEA6/aspnet_tutorial07_DeployDB_vb.pdf)
 
 > Deploying an ASP.NET web application entails getting the necessary files and resources from the development environment to the production environment. For data-driven web applications this includes the database schema and data. This tutorial is the first in a series that explores the steps needed to successfully deploy the database from the development environment to production.
 
@@ -164,4 +164,3 @@ For more information on the topics discussed in this tutorial, refer to the foll
 
 > [!div class="step-by-step"]
 > [Previous](core-differences-between-iis-and-the-asp-net-development-server-vb.md)
-> [Next](configuring-the-production-web-application-to-use-the-production-database-vb.md)

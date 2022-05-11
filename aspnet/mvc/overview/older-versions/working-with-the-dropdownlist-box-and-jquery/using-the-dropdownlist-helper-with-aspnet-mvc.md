@@ -11,7 +11,7 @@ msc.type: authoredcontent
 ---
 # Using the DropDownList Helper with ASP.NET MVC
 
-by [Rick Anderson]((https://twitter.com/RickAndMSFT))
+by [Rick Anderson](https://twitter.com/RickAndMSFT)
 
 This tutorial will teach you the basics of working with the [DropDownList](https://msdn.microsoft.com/library/dd492948.aspx) helper and the [ListBox](https://msdn.microsoft.com/library/system.web.mvc.html.selectextensions.listbox.aspx) helper in an ASP.NET MVC Web application. You can use Microsoft Visual Web Developer 2010 Express Service Pack 1, which is a free version of Microsoft Visual Studio to follow the tutorial. Before you start, make sure you've installed the prerequisites listed below. You can install all of them by clicking the following link: [Web Platform Installer](https://www.microsoft.com/web/gallery/install.aspx?appid=VWD2010SP1Pack). Alternatively, you can individually install the prerequisites using the following links:
 
@@ -19,7 +19,7 @@ This tutorial will teach you the basics of working with the [DropDownList](https
 - [ASP.NET MVC 3 Tools Update](https://www.microsoft.com/web/gallery/install.aspx?appsxml=&amp;appid=MVC3)
 - [SQL Server Compact 4.0](https://www.microsoft.com/web/gallery/install.aspx?appid=SQLCE;SQLCEVSTools_4_0)(runtime + tools support)
 
-If you're using Visual Studio 2010 instead of Visual Web Developer 2010, install the prerequisites by clicking the following link: [Visual Studio 2010 prerequisites](https://www.microsoft.com/web/gallery/install.aspx?appsxml=&amp;appid=VS2010SP1Pack). This tutorial assumes you have completed the [Intro to ASP.NET MVC](../getting-started-with-aspnet-mvc3/cs/intro-to-aspnet-mvc-3.md) tutorial or the[ASP.NET MVC Music Store](../mvc-music-store/mvc-music-store-part-1.md) tutorial or you are familiar with ASP.NET MVC development. This tutorial starts with a modified project from the [ASP.NET MVC Music Store](../mvc-music-store/mvc-music-store-part-1.md) tutorial. You can download the starter project with the following link [Download the C# version](https://archive.msdn.microsoft.com/Project/Download/FileDownload.aspx?ProjectName=aspnetmvcsamples&amp;DownloadId=15829).
+If you're using Visual Studio 2010 instead of Visual Web Developer 2010, install the prerequisites by clicking the following link: [Visual Studio 2010 prerequisites](https://www.microsoft.com/web/gallery/install.aspx?appsxml=&amp;appid=VS2010SP1Pack). This tutorial assumes you have completed the [Intro to ASP.NET MVC](../getting-started-with-aspnet-mvc3/cs/intro-to-aspnet-mvc-3.md) tutorial or the[ASP.NET MVC Music Store](../mvc-music-store/mvc-music-store-part-1.md) tutorial or you are familiar with ASP.NET MVC development. This tutorial starts with a modified project from the [ASP.NET MVC Music Store](../mvc-music-store/mvc-music-store-part-1.md) tutorial.
 
 A Visual Web Developer project with the completed tutorial C# source code is available to accompany this topic. [Download](https://code.msdn.microsoft.com/Using-the-DropDownList-67f9367d).
 
@@ -27,7 +27,7 @@ A Visual Web Developer project with the completed tutorial C# source code is ava
 
 You'll create action methods and views that use the [DropDownList](https://msdn.microsoft.com/library/system.web.mvc.html.selectextensions.dropdownlist.aspx) helper to select a category. You will also use **jQuery** to add an insert category dialog that can be used when a new category (such as genre or artist) is needed. Below is a screenshot of the Create view showing links to add a new genre and add a new artist.
 
-![](using-the-dropdownlist-helper-with-aspnet-mvc/_static/image1.png)
+![Image using drop down list helper](using-the-dropdownlist-helper-with-aspnet-mvc/_static/image1.png)
 
 ### Skills You'll Learn
 
@@ -40,17 +40,17 @@ Here's what you'll learn:
 
 Start by downloading the starter project with the following link, [Download](https://archive.msdn.microsoft.com/Project/Download/FileDownload.aspx?ProjectName=aspnetmvcsamples&amp;DownloadId=15829). In Windows Explorer, right click on the *DDL\_Starter.zip* file and select properties. In the **DDL\_Starter.zip Properties** dialog box, select Unblock.
 
-![](using-the-dropdownlist-helper-with-aspnet-mvc/_static/image2.png)
+![Image of properties dialog box select unblock](using-the-dropdownlist-helper-with-aspnet-mvc/_static/image2.png)
 
 Right click the DDL\_Starter.zip file and select **Extract All** to unzip the file. Open the *StartMusicStore.sln* file with Visual Web Developer 2010 Express ("Visual Web Developer" or "VWD" for short) or Visual Studio 2010.
 
 Press CTRL+F5 to run the application and click the **Test** link.
 
-![](using-the-dropdownlist-helper-with-aspnet-mvc/_static/image3.png)
+![Image of application test link](using-the-dropdownlist-helper-with-aspnet-mvc/_static/image3.png)
 
 Select the **Select Movie Category (Simple)** link. A Movie Type Select list is displayed, with Comedy the selected value.
 
-![](using-the-dropdownlist-helper-with-aspnet-mvc/_static/image4.png)
+![Image of movie type select list](using-the-dropdownlist-helper-with-aspnet-mvc/_static/image4.png)
 
 Right click in the browser and select view source. The HTML for the page is displayed. The code below shows the HTML for the select element.
 
@@ -60,15 +60,15 @@ You can see that each item in the select list has a value (0 for Action, 1 for D
 
 Change the select list to Drama and hit the **Submit** button. The URL in the browser is `http://localhost:2468/Home/CategoryChosen?MovieType=1` and the page displays **You Selected: 1**.
 
-![](using-the-dropdownlist-helper-with-aspnet-mvc/_static/image5.png)
+![Image of U R L in browser](using-the-dropdownlist-helper-with-aspnet-mvc/_static/image5.png)
 
 Open the *Controllers\HomeController.cs* file and examine the `SelectCategory` method.
 
 [!code-csharp[Main](using-the-dropdownlist-helper-with-aspnet-mvc/samples/sample2.cs)]
 
-The [DropDownList](https://msdn.microsoft.com/library/dd492738.aspx) helper used to create an HTML select list requires a **IEnumerable&lt;SelectListItem &gt;**, either explicitly or implicitly. That is, you can pass the **IEnumerable&lt;SelectListItem &gt;** explicitly to the [DropDownList](https://msdn.microsoft.com/library/dd492738.aspx) helper or you can add the **IEnumerable&lt;SelectListItem &gt;** to the [ViewBag](https://blogs.msdn.com/b/rickandy/archive/2011/01/28/dynamic-v-strongly-typed-views.aspx) using the same name for the **SelectListItem** as the model property. Passing in the **SelectListItem** implicitly and explicitly is covered in the next part of the tutorial. The code above shows the simplest possible way to create an **IEnumerable&lt;SelectListItem &gt;** and populate it with text and values. Note the `Comedy`[SelectListItem](https://msdn.microsoft.com/library/system.web.mvc.selectlistitem.aspx) has the [Selected](https://msdn.microsoft.com/library/system.web.mvc.selectlistitem.selected.aspx) property set to **true;** this will cause the rendered select list to show **Comedy** as the selected item in the list.
+The [DropDownList](https://msdn.microsoft.com/library/dd492738.aspx) helper used to create an HTML select list requires a **IEnumerable&lt;SelectListItem &gt;**, either explicitly or implicitly. That is, you can pass the **IEnumerable&lt;SelectListItem &gt;** explicitly to the [DropDownList](https://msdn.microsoft.com/library/dd492738.aspx) helper or you can add the **IEnumerable&lt;SelectListItem &gt;** to the [ViewBag](/archive/blogs/rickandy/dynamic-v-strongly-typed-views) using the same name for the **SelectListItem** as the model property. Passing in the **SelectListItem** implicitly and explicitly is covered in the next part of the tutorial. The code above shows the simplest possible way to create an **IEnumerable&lt;SelectListItem &gt;** and populate it with text and values. Note the `Comedy`[SelectListItem](https://msdn.microsoft.com/library/system.web.mvc.selectlistitem.aspx) has the [Selected](https://msdn.microsoft.com/library/system.web.mvc.selectlistitem.selected.aspx) property set to **true;** this will cause the rendered select list to show **Comedy** as the selected item in the list.
 
-The **IEnumerable&lt;SelectListItem &gt;** created above is added to the [ViewBag](https://blogs.msdn.com/b/rickandy/archive/2011/01/28/dynamic-v-strongly-typed-views.aspx) with the name MovieType. This is how we pass the **IEnumerable&lt;SelectListItem &gt;** implicitly to the [DropDownList](https://msdn.microsoft.com/library/dd492738.aspx) helper shown below.
+The **IEnumerable&lt;SelectListItem &gt;** created above is added to the [ViewBag](/archive/blogs/rickandy/dynamic-v-strongly-typed-views) with the name MovieType. This is how we pass the **IEnumerable&lt;SelectListItem &gt;** implicitly to the [DropDownList](https://msdn.microsoft.com/library/dd492738.aspx) helper shown below.
 
 Open the *Views\Home\SelectCategory.cshtml* file and examine the markup.
 
@@ -87,7 +87,7 @@ passes a string argument to the **DropDownList** helper. This string, "MovieType
 - It provides the key for the **DropDownList** helper to find a **IEnumerable&lt;SelectListItem &gt;** in the **ViewBag**.
 - It is data-bound to the MovieType form element. If the submit method is **HTTP GET**, `MovieType` will be a query string. If the submit method is **HTTP POST**, `MovieType` will be added in the message body. The following image shows the query string with the value of 1.
 
-![](using-the-dropdownlist-helper-with-aspnet-mvc/_static/image6.png)
+![Image of query string with value of 1](using-the-dropdownlist-helper-with-aspnet-mvc/_static/image6.png)
 
 The following code shows the `CategoryChosen` method the form was submitted to.
 
@@ -115,13 +115,13 @@ HTML Forms are typically used to post data to the server. The following code sho
 
 By passing a `eMovieCategories` enum to the `POST` method, we can extract both the enum value and the enum string. Run the sample and navigate to the Test page. Click on the `Select Movie Category(Enum Post)` link. Select a movie type and then hit the submit button. The display shows both the value and the name of the movie type.
 
-![](using-the-dropdownlist-helper-with-aspnet-mvc/_static/image7.png)
+![Image of value and name of movie type](using-the-dropdownlist-helper-with-aspnet-mvc/_static/image7.png)
 
 ### Creating a Multiple Section Select Element
 
 The [ListBox](https://msdn.microsoft.com/library/system.web.mvc.html.selectextensions.listbox.aspx) HTML helper renders the HTML `<select>` element with the `multiple` attribute, which allows the users to make multiple selections. Navigate to the Test link, then select the **Multi Select Country** link. The rendered UI allows you to select multiple countries. In the image below, Canada and China are selected.
 
-![](using-the-dropdownlist-helper-with-aspnet-mvc/_static/image8.png)
+![Image of multiple selections drop down list](using-the-dropdownlist-helper-with-aspnet-mvc/_static/image8.png)
 
 ### Examining the MultiSelectCountry Code
 
@@ -150,19 +150,19 @@ The `ViewBag.YouSelected` dynamic property contains the selected countries, obta
 
 ### Making a Select Element Friendly with the Harvest Chosen jQuery Plugin
 
-The Harvest [Chosen](http://harvesthq.github.com/chosen/) jQuery plugin can be added to an HTML &lt;select&gt; element to create a user friendly UI. The images below demonstrate the Harvest [Chosen](http://harvesthq.github.com/chosen/) jQuery plugin with `MultiSelectCountry` view.
+The Harvest [Chosen](https://harvesthq.github.com/chosen/) jQuery plugin can be added to an HTML &lt;select&gt; element to create a user friendly UI. The images below demonstrate the Harvest [Chosen](https://harvesthq.github.com/chosen/) jQuery plugin with `MultiSelectCountry` view.
 
-![](using-the-dropdownlist-helper-with-aspnet-mvc/_static/image9.png)
+![Image of Harvest Chosen j Query plugin](using-the-dropdownlist-helper-with-aspnet-mvc/_static/image9.png)
 
 In the two images below, **Canada** is selected.
 
-![](using-the-dropdownlist-helper-with-aspnet-mvc/_static/image10.png)
+![Image of Canada selected](using-the-dropdownlist-helper-with-aspnet-mvc/_static/image10.png)
 
-![](using-the-dropdownlist-helper-with-aspnet-mvc/_static/image11.png)
+![Image of Canada selected with X to remove](using-the-dropdownlist-helper-with-aspnet-mvc/_static/image11.png)
 
 In the image above, Canada is selected, and it contains an **x** you can click to remove the selection. The image below shows Canada, China, and Japan selected.
 
-![](using-the-dropdownlist-helper-with-aspnet-mvc/_static/image12.png)
+![Image of Canada China and Japan selected](using-the-dropdownlist-helper-with-aspnet-mvc/_static/image12.png)
 
 ### Hooking up the Harvest Chosen jQuery Plugin
 

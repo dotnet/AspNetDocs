@@ -7,11 +7,10 @@ author: BillWagner
 ms.author: wiwagn
 ms.date: 12/14/2018
 ms.assetid: c9f1d52c-b4bd-4b5d-b7f9-8f9ceaf778c4
-uid: mvc/overview/deployment/docker
 ---
 # Migrating ASP.NET MVC Applications to Windows Containers
 
-Running an existing .NET Framework-based application in a Windows container doesn't require any changes to your app. To run your app in a Windows container you create a Docker image containing your app and start the container. This topic explains how to take an existing [ASP.NET MVC application](http://www.asp.net/mvc) and deploy it in a Windows container.
+Running an existing .NET Framework-based application in a Windows container doesn't require any changes to your app. To run your app in a Windows container you create a Docker image containing your app and start the container. This topic explains how to take an existing [ASP.NET MVC application](https://dotnet.microsoft.com/apps/aspnet/mvc) and deploy it in a Windows container.
 
 You start with an existing ASP.NET MVC app, then build the published assets using Visual Studio. You use Docker to create the image that contains and runs your app. You'll browse to the site running in a Windows container and verify the app is working.
 
@@ -26,18 +25,18 @@ Moving your application involves these steps:
 1. [Starting a Docker container that runs your image.](#start-a-container)
 1. [Verifying the application using your browser.](#verify-in-the-browser)
 
-The [finished application](https://github.com/dotnet/samples/tree/master/framework/docker/MVCRandomAnswerGenerator) is on GitHub.
+The [finished application](https://github.com/dotnet/AspNetDocs/tree/main/aspnet/mvc/overview/deployment/docker-aspnetmvc/samples/MVCRandomAnswerGenerator) is on GitHub.
 
 ## Prerequisites
 
 The development machine must have the following software:
 
-- [Windows 10 Anniversary Update](https://www.microsoft.com/software-download/windows10/) (or higher) or [Windows Server 2016](https://www.microsoft.com/cloud-platform/windows-server) (or higher)
+- [Windows 10 Anniversary Update](https://www.microsoft.com/software-download/windows10) (or higher) or [Windows Server 2016](https://www.microsoft.com/cloud-platform/windows-server) (or higher)
 - [Docker for Windows](https://docs.docker.com/docker-for-windows/) - version Stable 1.13.0 or 1.12 Beta 26 (or newer versions)
 - [Visual Studio 2017](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=button+cta&utm_content=download+vs2017)
 
 > [!IMPORTANT]
-> If you are using Windows Server 2016, follow the instructions for [Container Host Deployment - Windows Server](https://msdn.microsoft.com/virtualization/windowscontainers/deployment/deployment).
+> If you are using Windows Server 2016, follow the instructions for [Container Host Deployment - Windows Server](/virtualization/windowscontainers/).
 
 After installing and starting Docker, right-click on the tray icon and select **Switch to Windows containers**. This is required to run
 Docker images based on Windows. This command takes a few seconds to execute:
@@ -97,7 +96,7 @@ docker build -t mvcrandomanswers .
 ```
 
 This command will build the new image using the instructions in your
-Dockerfile, naming (-t tagging) the image as mvcrandomanswers. This may include pulling the base image from [Docker Hub](http://hub.docker.com),
+Dockerfile, naming (-t tagging) the image as mvcrandomanswers. This may include pulling the base image from [Docker Hub](https://hub.docker.com),
 and then adding your app to that image.
 
 Once that command completes, you can run the `docker images` command
@@ -136,7 +135,7 @@ Once the container starts, connect to the running container using `http://localh
 > Some VPN or proxy software may prevent you from navigating to your site.
 > You can temporarily disable it to make sure your container is working.
 
-The sample directory on GitHub contains a [PowerShell script](https://github.com/dotnet/samples/blob/master/framework/docker/MVCRandomAnswerGenerator/run.ps1) that executes these commands for you. Open a PowerShell window, change directory to your solution directory, and type:
+The sample directory on GitHub contains a [PowerShell script](https://github.com/dotnet/samples/tree/main/framework/docker/ConsoleRandomAnswerGenerator/ConsoleRandomAnswerGenerator) that executes these commands for you. Open a PowerShell window, change directory to your solution directory, and type:
 
 ```console
 ./run.ps1

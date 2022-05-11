@@ -1,7 +1,7 @@
 ---
 uid: mvc/overview/older-versions-1/controllers-and-routing/creating-an-action-vb
 title: "Creating an Action (VB) | Microsoft Docs"
-author: microsoft
+author: rick-anderson
 description: "Learn how to add a new action to an ASP.NET MVC controller. Learn about the requirements for a method to be an action."
 ms.author: riande
 ms.date: 03/02/2009

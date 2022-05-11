@@ -1,19 +1,23 @@
 ---
 uid: web-api/overview/advanced/calling-a-web-api-from-a-net-client
-title: "Call a Web API From a .NET Client (C#) - ASP.NET 4.x"
-author: MikeWasson
-description: "This tutorial shows how to call a web API from a .NET 4.x application."
+title: Call a Web API From a .NET Client (C#) - ASP.NET 4.x
+author: Rick-Anderson
+description: This tutorial shows how to call a web API from a .NET 4.x application.
 ms.author: riande
 ms.date: 11/24/2017
-ms.custom: seoapril2019
 msc.legacyurl: /web-api/overview/advanced/calling-a-web-api-from-a-net-client
 msc.type: authoredcontent
+ms.custom: contperf-fy21q3
 ---
 # Call a Web API From a .NET Client (C#)
 
-by [Mike Wasson](https://github.com/MikeWasson) and [Rick Anderson](https://twitter.com/RickAndMSFT)
 
-[Download Completed Project](https://github.com/aspnet/AspNetDocs/tree/master/aspnet/web-api/overview/advanced/calling-a-web-api-from-a-net-client/sample). [Download instructions](/aspnet/core/tutorials/#how-to-download-a-sample). 
+This content is for a previous version of .NET. New development should use [ASP.NET Core](/aspnet/core/introduction-to-aspnet-core). For more information on using ASP.NET Core Web API, see:
+
+* [Tutorial: Create a web API with ASP.NET Core](/aspnet/core/tutorials/first-web-api)
+* [Call an HTTP endpoint from a .NET client](/dotnet/csharp/tutorials/console-webapiclient)
+
+[Download Completed Project](https://github.com/dotnet/AspNetDocs/tree/main/aspnet/web-api/overview/advanced/calling-a-web-api-from-a-net-client/sample). [Download instructions](/aspnet/core/tutorials/#how-to-download-a-sample). 
 
 This tutorial shows how to call a web API from a .NET application, using [System.Net.Http.HttpClient.](https://msdn.microsoft.com/library/system.net.http.httpclient(v=vs.110).aspx)
 
@@ -29,7 +33,12 @@ In this tutorial, a client app is written that consumes the following web API:
 To learn how to implement this API with ASP.NET Web API, see [Creating a Web API that Supports CRUD Operations](xref:web-api/overview/getting-started-with-aspnet-web-api/tutorial-your-first-web-api
 ).
 
-For simplicity, the client application in this tutorial is a Windows console application. **HttpClient** is also supported for Windows Phone and Windows Store apps. For more information, see [Writing Web API Client Code for Multiple Platforms Using Portable Libraries](https://blogs.msdn.com/b/webdev/archive/2013/07/19/writing-web-api-client-code-for-multiple-platforms-using-portable-libraries.aspx)
+For simplicity, the client application in this tutorial is a Windows console application. **HttpClient** is also supported for Windows Phone and Windows Store apps. For more information, see [Writing Web API Client Code for Multiple Platforms Using Portable Libraries](https://devblogs.microsoft.com/aspnet/writing-web-api-client-code-for-multiple-platforms-using-portable-libraries/)
+
+**NOTE:** If you pass base URLs and relative URIs as hard-coded values, be mindful of the rules for utilizing the `HttpClient` API. The `HttpClient.BaseAddress` property should be set to an address with a trailing forward slash (`/`). For example, when passing hard-coded resource URIs to the `HttpClient.GetAsync` method, don't include a leading forward slash. To get a `Product` by ID:
+
+1. Set `client.BaseAddress = new Uri("https://localhost:5001/");`
+1. Request a `Product`. For example, `client.GetAsync<Product>("api/products/4");`.
 
 <a id="CreateConsoleApp"></a>
 ## Create the Console Application
@@ -58,7 +67,7 @@ The preceding command adds the following NuGet packages to the project:
 * Microsoft.AspNet.WebApi.Client
 * Newtonsoft.Json
 
-Json.NET is a popular high-performance JSON framework for .NET.
+Newtonsoft.Json (also known as Json.NET) is a popular high-performance JSON framework for .NET.
 
 <a id="AddModelClass"></a>
 ## Add a Model Class
@@ -159,9 +168,9 @@ Like GET, a DELETE request does not have a request body. You don't need to speci
 
 To test the client app:
 
-1. [Download](https://github.com/aspnet/AspNetDocs/tree/master/aspnet/web-api/overview/advanced/calling-a-web-api-from-a-net-client/sample/server) and run the server app. [Download instructions](/aspnet/core/#how-to-download-a-sample). Verify the server app is working. For example, `http://localhost:64195/api/products` should return a list of products.
+1. [Download](https://github.com/dotnet/AspNetDocs/tree/main/aspnet/web-api/overview/advanced/calling-a-web-api-from-a-net-client/sample/server) and run the server app. [Download instructions](/aspnet/core/#how-to-download-a-sample). Verify the server app is working. For example, `http://localhost:64195/api/products` should return a list of products.
 2. Set the base URI for HTTP requests. Change the port number to the port used in the server app.
-    [!code-csharp[Main](calling-a-web-api-from-a-net-client/sample/client/Program.cs?name=snippet5&highlight=2)]
+    [!code-csharp[Main](calling-a-web-api-from-a-net-client/sample/client/Program.cs?name=snippet5)]
 
 3. Run the client app. The following output is produced:
 

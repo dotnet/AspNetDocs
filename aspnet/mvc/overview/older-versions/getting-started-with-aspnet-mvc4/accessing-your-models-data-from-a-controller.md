@@ -11,7 +11,7 @@ msc.type: authoredcontent
 ---
 # Accessing Your Model's Data from a Controller
 
-by [Rick Anderson]((https://twitter.com/RickAndMSFT))
+by [Rick Anderson](https://twitter.com/RickAndMSFT)
 
 > > [!NOTE]
 > > An updated version of this tutorial is available [here](../../getting-started/introduction/getting-started.md) that uses ASP.NET MVC 5 and Visual Studio 2013. It's more secure, much simpler to follow and demonstrates more features.
@@ -119,7 +119,7 @@ Double-click *Movies.mdf* to open **DATABASE EXPLORER**, then expand the **Table
 > - The database 'C:\Webs\MVC4\MVCMOVIE\MVCMOVIE\APP\_DATA\MOVIES.MDF' cannot be opened because it is version 706. This server supports version 655 and earlier. A downgrade path is not supported.
 > - &quot;InvalidOperation Exception was unhandled by user code&quot; The supplied SqlConnection does not specify an initial catalog.
 > 
-> You need to install the [SQL Server Data Tools](https://blogs.msdn.com/b/rickandy/archive/2012/08/02/installing-and-using-sql-server-data-tools-ssdt-on-visual-studio-2010-and-vwd.aspx) and [LocalDB](https://www.microsoft.com/web/gallery/install.aspx?appid=SQLLocalDBOnly_11_0). Verify the `MovieDBContext` connection string specified on the previous page.
+> You need to install the [SQL Server Data Tools](/archive/blogs/rickandy/installing-and-using-sql-server-data-tools-ssdt-on-visual-studio-2010-and-vwd) and [LocalDB](https://www.microsoft.com/web/gallery/install.aspx?appid=SQLLocalDBOnly_11_0). Verify the `MovieDBContext` connection string specified on the previous page.
 
 Right-click the `Movies` table and select **Show Table Data** to see the data you created.
 

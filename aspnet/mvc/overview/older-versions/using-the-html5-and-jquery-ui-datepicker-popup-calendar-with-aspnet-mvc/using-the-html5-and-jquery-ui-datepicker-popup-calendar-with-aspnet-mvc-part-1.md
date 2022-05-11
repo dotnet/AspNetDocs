@@ -1,8 +1,8 @@
 ---
 uid: mvc/overview/older-versions/using-the-html5-and-jquery-ui-datepicker-popup-calendar-with-aspnet-mvc/using-the-html5-and-jquery-ui-datepicker-popup-calendar-with-aspnet-mvc-part-1
-title: "Using the HTML5 and jQuery UI Datepicker Popup Calendar with ASP.NET MVC - Part 1 | Microsoft Docs"
+title: Using the HTML5 and jQuery UI Datepicker Popup Calendar with ASP.NET MVC - Part 1 | Microsoft Docs
 author: Rick-Anderson
-description: "This tutorial will teach you the basics of how to work with editor templates, display templates, and the jQuery UI datepicker popup calendar in an ASP.NET MV..."
+description: This first part of the tutorial series will teach you the basics of how to work with editor templates, display templates, and the jQuery UI datepicker popup calendar in an ASP.NET MV...
 ms.author: riande
 ms.date: 08/29/2011
 ms.assetid: c23d27f7-b0cf-44f2-8445-fb69e045c674
@@ -11,7 +11,7 @@ msc.type: authoredcontent
 ---
 # Using the HTML5 and jQuery UI Datepicker Popup Calendar with ASP.NET MVC - Part 1
 
-by [Rick Anderson]((https://twitter.com/RickAndMSFT))
+by [Rick Anderson](https://twitter.com/RickAndMSFT)
 
 > This tutorial will teach you the basics of how to work with editor templates, display templates, and the jQuery UI datepicker popup calendar in an ASP.NET MVC Web application.
 
@@ -26,16 +26,16 @@ Before you start, make sure you've installed the prerequisites listed below. You
 If you're using Visual Studio 2010 instead of Visual Web Developer, install the prerequisites by clicking the following link: [Visual Studio 2010 prerequisites](https://www.microsoft.com/web/gallery/install.aspx?appsxml=&amp;appid=VS2010SP1Pack).
 
 This tutorial assumes you have completed the [Getting Started with MVC 3](../getting-started-with-aspnet-mvc3/cs/intro-to-aspnet-mvc-3.md) tutorial or that you're familiar with ASP.NET MVC development. This tutorial starts with the completed project from the [Getting Started with MVC 3](../getting-started-with-aspnet-mvc3/cs/intro-to-aspnet-mvc-3.md) tutorial.
-
+<!-- these files no longer exist
 This tutorial shows code in C#. However, the [starter project](https://archive.msdn.microsoft.com/Project/Download/FileDownload.aspx?ProjectName=aspnetmvcsamples&amp;DownloadId=15800) and completed project are also available in Visual Basic.
 
-A Visual Studio project with C# and Visual Basic source code is available to accompany this topic: [Download](https://archive.msdn.microsoft.com/Project/Download/FileDownload.aspx?ProjectName=aspnetmvcsamples&amp;DownloadId=15800).
+A Visual Studio project with C# and Visual Basic source code is available to accompany this topic: [Download](https://archive.msdn.microsoft.com/Project/Download/FileDownload.aspx?ProjectName=aspnetmvcsamples&amp;DownloadId=15800). -->
 
 ### What You'll Build
 
-You'll add templates (specifically, edit and display templates) to the simple movie-listing application that was created in the [Getting Started with MVC 3](../getting-started-with-aspnet-mvc3/cs/intro-to-aspnet-mvc-3.md) tutorial. You will also add a [jQuery UI datepicker](http://jqueryui.com/demos/datepicker/) popup calendar to simplify the process of entering dates. The following screenshot shows the modified application with the jQuery UI datepicker popup calendar displayed.
+You'll add templates (specifically, edit and display templates) to the simple movie-listing application that was created in the [Getting Started with MVC 3](../getting-started-with-aspnet-mvc3/cs/intro-to-aspnet-mvc-3.md) tutorial. You will also add a [jQuery UI datepicker](/answers/questions/554686/datepicker-api.html) popup calendar to simplify the process of entering dates. The following screenshot shows the modified application with the jQuery UI datepicker popup calendar displayed.
 
-![finished jQuery](using-the-html5-and-jquery-ui-datepicker-popup-calendar-with-aspnet-mvc-part-1/_static/image1.png)
+![Screenshot of the Movie jQuery window showing the Edit view with a Title field and a Release Date field with a jQuery UI datepicker popup calendar.](using-the-html5-and-jquery-ui-datepicker-popup-calendar-with-aspnet-mvc-part-1/_static/image1.png)
 
 ### Skills You'll Learn
 
@@ -53,13 +53,13 @@ If you don't already have the movie-listing application from the starter project
 * In Windows Explorer, right-click the *MvcMovie.zip* file and select **Properties**. 
 * In the **MvcMovie.zip Properties** dialog box, select **Unblock**. (Unblocking prevents a security warning that occurs when you try to use a *.zip* file that you've downloaded from the web.)
 
-![](using-the-html5-and-jquery-ui-datepicker-popup-calendar-with-aspnet-mvc-part-1/_static/image2.png)
+![Screenshot showing the Mvc Movie dot zip Properties box with the Security section and Unblock button highlighted with a red rectangle.](using-the-html5-and-jquery-ui-datepicker-popup-calendar-with-aspnet-mvc-part-1/_static/image2.png)
 
 Right-click the *MvcMovie.zip* file and select **Extract All** to unzip the file. In Visual Web Developer or Visual Studio 2010, open the *MvcMovieCS\_TU.sln* file.
 
 In **Solution Explorer**, double-click the *Views\Shared\\_Layout.cshtml* to open it. Change the `H1` header from **MVC Movie App** to **Movie jQuery**. Press CTRL+F5 to run the application and click the **Home** tab, which takes you to the `Index` method of the movie controller. To try out the application, select the **Edit** link and the **Details** link for one of the movies. Notice that in the Index, Edit, and Details views, the release date and price are nicely formatted:
 
-![](using-the-html5-and-jquery-ui-datepicker-popup-calendar-with-aspnet-mvc-part-1/_static/image3.png)
+![Screenshot of the Movie jQuery window showing the Details view with the set values for the selected movie listed.](using-the-html5-and-jquery-ui-datepicker-popup-calendar-with-aspnet-mvc-part-1/_static/image3.png)
 
 The formatting for the date and the price is the result of using the [DisplayFormat](https://msdn.microsoft.com/library/system.componentmodel.dataannotations.displayformatattribute.aspx) attribute on properties of the `Movie` class.
 
@@ -69,7 +69,7 @@ Open the *Movie.cs* file and comment out the `DisplayFormat` attribute on the `R
 
 Press CTRL+F5 again to run the application and select the **Home** tab to view the movie list. This time the release date shows the date and time, and the price field no longer shows the currency symbol. Your change in the `Movie` class has undone the nice formatting that you saw earlier, but you'll fix that in a moment.
 
-![](using-the-html5-and-jquery-ui-datepicker-popup-calendar-with-aspnet-mvc-part-1/_static/image4.png)
+![Screenshot of the Movie jQuery window showing the Details view with the movie's set values shown after the edits made to the Movie dot cs file.](using-the-html5-and-jquery-ui-datepicker-popup-calendar-with-aspnet-mvc-part-1/_static/image4.png)
 
 ### Using the DataAnnotations DataType Attribute to Specify the Data Type
 

@@ -13,7 +13,7 @@ msc.type: authoredcontent
 
 by [Scott Mitchell](https://twitter.com/ScottOnWriting)
 
-[Download Code](http://download.microsoft.com/download/2/F/7/2F705A34-F9DE-4112-BBDE-60098089645E/ASPNET_Security_Tutorial_02_VB.zip) or [Download PDF](http://download.microsoft.com/download/2/F/7/2F705A34-F9DE-4112-BBDE-60098089645E/aspnet_tutorial02_FormsAuth_vb.pdf)
+[Download Code](https://download.microsoft.com/download/2/F/7/2F705A34-F9DE-4112-BBDE-60098089645E/ASPNET_Security_Tutorial_02_VB.zip) or [Download PDF](https://download.microsoft.com/download/2/F/7/2F705A34-F9DE-4112-BBDE-60098089645E/aspnet_tutorial02_FormsAuth_vb.pdf)
 
 > In this tutorial we will turn from mere discussion to implementation; in particular, we will look at implementing forms authentication. The web application we start constructing in this tutorial will continue to be built upon in subsequent tutorials, as we move from simple forms authentication to membership and roles.
 > 
@@ -236,7 +236,7 @@ When the user enters her credentials and submits the login page form, the creden
 Unless your website contains sensitive information, you will only need to use SSL on the login page and on other pages where the user's password would otherwise be sent over the wire in plain text. You do not need to worry about securing the forms authentication ticket since, by default, it is both encrypted and digitally signed (to prevent tampering). A more thorough discussion on forms authentication ticket security is presented in the following tutorial.
 
 > [!NOTE]
-> Many financial and medical websites are configured to use SSL on *all* pages accessible to authenticated users. If you are building such a website you can configure the forms authentication system so that the forms authentication ticket is only transmitted over a secure connection. We will look at the various forms authentication configuration options in the next tutorial, *[Forms Authentication Configuration and Advanced Topics](../membership/creating-the-membership-schema-in-sql-server-vb.md)*.
+> Many financial and medical websites are configured to use SSL on *all* pages accessible to authenticated users. If you are building such a website you can configure the forms authentication system so that the forms authentication ticket is only transmitted over a secure connection.
 
 ## Step 4: Detecting Authenticated Visitors and Determining Their Identity
 
@@ -424,4 +424,3 @@ This tutorial series was reviewed by many helpful reviewers. Lead reviewers for 
 
 > [!div class="step-by-step"]
 > [Previous](security-basics-and-asp-net-support-vb.md)
-> [Next](forms-authentication-configuration-and-advanced-topics-vb.md)

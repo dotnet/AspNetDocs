@@ -13,7 +13,7 @@ msc.type: authoredcontent
 
 by [Scott Mitchell](https://twitter.com/ScottOnWriting)
 
-[Download Code](http://download.microsoft.com/download/3/9/f/39f92b37-e92e-4ab3-909e-b4ef23d01aa3/ASPNET_Data_Tutorial_70_CS.zip) or [Download PDF](adding-additional-datatable-columns-cs/_static/datatutorial70cs1.pdf)
+[Download PDF](adding-additional-datatable-columns-cs/_static/datatutorial70cs1.pdf)
 
 > When using the TableAdapter Wizard to create a Typed DataSet, the corresponding DataTable contains the columns returned by the main database query. But there are occasions when the DataTable needs to include additional columns. In this tutorial we learn why stored procedures are recommended when we need additional DataTable columns.
 
@@ -25,7 +25,7 @@ The model of having the DataTable s schema reflect the TableAdapter s main query
 
 As discussed in the [Uploading Files](../working-with-binary-files/uploading-files-cs.md) tutorial, great care must be taken with TableAdapters that use ad-hoc SQL statements and have methods whose data fields do not precisely match the main query. If the TableAdapter Configuration wizard is re-run, it will update all of the TableAdapter s methods so that their data field list matches the main query. Consequently, any methods with customized column lists will revert to the main query s column list and not return the expected data. This issue does not arise when using stored procedures.
 
-In this tutorial we will look at how to extend a DataTable s schema to include additional columns. Due to the brittleness of the TableAdapter when using ad-hoc SQL statements, in this tutorial we will use stored procedures. Refer to the [Creating New Stored Procedures for the Typed DataSet s TableAdapters](creating-new-stored-procedures-for-the-typed-dataset-s-tableadapters-cs.md) and [Using Existing Stored Procedures for the Typed DataSet s TableAdapters](https://data-access/tutorials/using-existing-stored-procedures-for-the-typed-dataset-amp-rsquo-s-tableadapters-cs) tutorials for more information on configuring a TableAdapter to use stored procedures.
+In this tutorial we will look at how to extend a DataTable s schema to include additional columns. Due to the brittleness of the TableAdapter when using ad-hoc SQL statements, in this tutorial we will use stored procedures. Refer to the [Creating New Stored Procedures for the Typed DataSet s TableAdapters](creating-new-stored-procedures-for-the-typed-dataset-s-tableadapters-cs.md) tutorial for more information on configuring a TableAdapter to use stored procedures.
 
 ## Step 1: Adding a`PriceQuartile`Column to the`ProductsDataTable`
 

@@ -13,7 +13,7 @@ msc.type: video
 
 by [Joe Stagner](https://github.com/JoeStagner)
 
-Joe Stagner utilizes the previous code example to demonstrate how to change the authentication period for the ASP.NET application. For more information on this demo, a tutorial is located [here](../../overview/older-versions-security/introduction/forms-authentication-configuration-and-advanced-topics-vb.md).
+Joe Stagner utilizes the previous code example to demonstrate how to change the authentication period for the ASP.NET application.
 
 [&#9654; Watch video (7 minutes)](https://channel9.msdn.com/Blogs/ASP-NET-Site-Videos/how-to-change-the-forms-authentication-properties)
 

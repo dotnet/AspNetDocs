@@ -13,7 +13,7 @@ msc.type: authoredcontent
 
 by [Erik Reitan](https://github.com/Erikre)
 
-[Download Wingtip Toys Sample Project (C#)](http://go.microsoft.com/fwlink/?LinkID=389434&clcid=0x409) or [Download E-book (PDF)](http://download.microsoft.com/download/0/F/B/0FBFAA46-2BFD-478F-8E56-7BF3C672DF9D/Getting%20Started%20with%20ASP.NET%204.5%20Web%20Forms%20and%20Visual%20Studio%202013.pdf)
+[Download Wingtip Toys Sample Project (C#)](https://go.microsoft.com/fwlink/?LinkID=389434&clcid=0x409) or [Download E-book (PDF)](https://download.microsoft.com/download/0/F/B/0FBFAA46-2BFD-478F-8E56-7BF3C672DF9D/Getting%20Started%20with%20ASP.NET%204.5%20Web%20Forms%20and%20Visual%20Studio%202013.pdf)
 
 > This tutorial series will teach you the basics of building an ASP.NET Web Forms application using ASP.NET 4.5 and Microsoft Visual Studio Express 2013 for Web. A Visual Studio 2013 [project with C# source code](https://go.microsoft.com/fwlink/?LinkID=389434&clcid=0x409) is available to accompany this tutorial series.
 
@@ -303,7 +303,7 @@ In this tutorial, you have learned about handling errors at the application leve
 
 ## Tutorial Series Conclusion
 
-*Thanks for following along. I hope this set of tutorials helped you become more familiar with ASP.NET Web Forms. If you need more information about Web Forms features available in ASP.NET 4.5 and Visual Studio 2013, see* [*ASP.NET and Web Tools for Visual Studio 2013 Release Notes*](../../../../visual-studio/overview/2013/release-notes.md)*. Also, be sure to take a look at the tutorial mentioned in the* ***Next Steps****section and defintely try out the* [*free Azure trial*](https://azure.microsoft.com/pricing/free-trial/)*.*
+Thanks for following along. I hope this set of tutorials helped you become more familiar with ASP.NET Web Forms. If you need more information about Web Forms features available in ASP.NET 4.5 and Visual Studio 2013, see [ASP.NET and Web Tools for Visual Studio 2013 Release Notes](../../../../visual-studio/overview/2013/release-notes.md). Also, be sure to take a look at the tutorial mentioned in the **Next Steps** section and defintely try out the [free Azure trial](https://azure.microsoft.com/pricing/free-trial/).
 
 ![Thanks - Erik](aspnet-error-handling/_static/image10.png)  
 
@@ -339,9 +339,9 @@ I would like to thank the following people who made significant contributions to
 - [Mitchel Sellers, USA](http://www.mitchelsellers.com/) (twitter: [@MitchelSellers](http://twitter.com/MitchelSellers))
 - [Paul Cociuba, Microsoft](http://linqto.me/Links/pcociuba)
 - [Paulo Morgado, Portugal](http://paulomorgado.net/)
-- [Pranav Rastogi, Microsoft](https://blogs.msdn.com/b/pranav_rastogi)
+- [Pranav Rastogi, Microsoft](/archive/blogs/pranav_rastogi/)
 - [Tim Ammann, Microsoft](https://blogs.iis.net/timamm/default.aspx)
-- [Tom Dykstra, Microsoft](https://blogs.msdn.com/aspnetue)
+- [Tom Dykstra, Microsoft](/archive/blogs/aspnetue/)
 
 ## Community Contributions
 

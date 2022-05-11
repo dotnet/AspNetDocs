@@ -13,8 +13,6 @@ msc.type: authoredcontent
 
 by [Erik Reitan](https://github.com/Erikre)
 
-[Download Wingtip Toys Sample Project (C#)](http://go.microsoft.com/fwlink/?LinkID=389434&clcid=0x409) or [Download E-book (PDF)](http://download.microsoft.com/download/0/F/B/0FBFAA46-2BFD-478F-8E56-7BF3C672DF9D/Getting%20Started%20with%20ASP.NET%204.5%20Web%20Forms%20and%20Visual%20Studio%202013.pdf)
-
 > This tutorial series will teach you the basics of building an ASP.NET Web Forms application using ASP.NET 4.5 and Microsoft Visual Studio Express 2013 for Web. A Visual Studio 2013 [project with C# source code](https://go.microsoft.com/fwlink/?LinkID=389434&clcid=0x409) is available to accompany this tutorial series.
 
 This tutorial shows you how to update the Wingtip Toys sample application to add a custom role and use ASP.NET Identity. It also shows you how to implement an administration page from which the user with a custom role can add and remove products from the website.
@@ -228,9 +226,7 @@ You can run the application now to see how you can add, delete, and update items
     ![Membership and Administration - Log In Link](membership-and-administration/_static/image2.png)
 
    The *Login.aspx* page is displayed.
-3. Use the following user name and password:  
-   User name: canEditUser@wingtiptoys.com  
-   Password: Pa$$word1 
+3. Enter the user name and password.
 
     ![Membership and Administration - Log In Page](membership-and-administration/_static/image3.png)
 4. Click the **Log in** button near the bottom of the page.

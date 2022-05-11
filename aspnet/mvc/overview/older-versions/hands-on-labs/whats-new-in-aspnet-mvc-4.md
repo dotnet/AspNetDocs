@@ -166,19 +166,19 @@ In this exercise, you will explore the enhancements in the ASP.NET MVC 4 Project
 
    *The ASP.NET MVC 4 Internet Application Project Template*
 
-    - **HTML 5 Markup**
+- **HTML 5 Markup**
 
-       Browse template views to find out the new theme markup.
+    Browse template views to find out the new theme markup.
 
-       ![New template, using Razor and HTML5 markup About.cshtml.](whats-new-in-aspnet-mvc-4/_static/image10.png "New template, using Razor and HTML5 markup About.cshtml.")
+    ![New template, using Razor and HTML5 markup About.cshtml.](whats-new-in-aspnet-mvc-4/_static/image10.png "New template, using Razor and HTML5 markup About.cshtml.")
 
-       *New template, using Razor and HTML5 markup (About.cshtml).*
-    - **Updated JavaScript libraries**
+    *New template, using Razor and HTML5 markup (About.cshtml).*
+- **Updated JavaScript libraries**
 
-       The ASP.NET MVC 4 default template now includes KnockoutJS, a JavaScript MVVM framework that lets you create rich and highly responsive web applications using JavaScript and HTML. Like in MVC3, jQuery and jQuery UI libraries are also included in ASP.NET MVC 4.
+    The ASP.NET MVC 4 default template now includes KnockoutJS, a JavaScript MVVM framework that lets you create rich and highly responsive web applications using JavaScript and HTML. Like in MVC3, jQuery and jQuery UI libraries are also included in ASP.NET MVC 4.
 
-     > [!NOTE]
-     > You can get more information about KnockOutJS library in this link: [[http://learn.knockoutjs.com/](http://learn.knockoutjs.com/)](http://learn.knockoutjs.com/). Additionally, you can learn about jQuery and jQuery UI in [[http://docs.jquery.com/](http://docs.jquery.com/)](http://docs.jquery.com/).
+    > [!NOTE]
+    > You can get more information about KnockOutJS library in this link: [[http://learn.knockoutjs.com/](http://learn.knockoutjs.com/)](http://learn.knockoutjs.com/). Additionally, you can learn about jQuery and jQuery UI in [[http://docs.jquery.com/](http://docs.jquery.com/)](http://docs.jquery.com/).
 
 <a id="Task_2_-_Exploring_the_Mobile_Application_Template"></a>
 #### Task 2 - Exploring the Mobile Application Template
@@ -252,7 +252,7 @@ You will now explore how the adaptive rendering works, improving the readability
 
 1. Open the **PhotoGallery.sln** solution you have created at Task 1 and select the **PhotoGallery** project. Press **F5** to run the solution.
 2. Resize the browser's width, setting the windows to half or to less than a quarter of its original size. Notice what happens with the items in the header: Some elements will not appear in the visible area of the header.
-3. Open **Site.css** file from the Visual Studio Solution explorer, located in **Content** project folder. Press **CTRL + F** to open Visual Studio integrated search, and write **@media** to locate the **CSS media query**.
+3. Open **Site.css** file from the Visual Studio Solution explorer, located in **Content** project folder. Press **CTRL + F** to open Visual Studio integrated search, and write `@media` to locate the **CSS media query**.
 
     The media query condition defined in this template works in this way: When the browser's window size is below **850 px**, the CSS rules applied are the ones defined inside this media block.
 
@@ -261,7 +261,7 @@ You will now explore how the adaptive rendering works, improving the readability
     *Locating the media query*
 4. Replace the max-width attribute value set in 850 px with **10px**, in order to disable the adaptive rendering, and press **CTRL + S** to save the changes. Return to the browser and press **CTRL + F5** to refresh the page with the changes you have made. Notice the differences in both pages when adjusting the width of the window.
 
-    ![In the left, the page is applying the @media style, in the right, the style is omitted](whats-new-in-aspnet-mvc-4/_static/image17.png "In the left, the page is applying the @media style, in the right, the style is omitted")
+    ![The page is applying the @media style on the left and on the right, the style is omitted](whats-new-in-aspnet-mvc-4/_static/image17.png "In the left, the page is applying the @media style, in the right, the style is omitted")
 
     *In the left, the page is applying the @media style, in the right, the style is omitted*
 
@@ -760,17 +760,17 @@ You can install **Microsoft Visual Studio Express 2012 for Web** or another &quo
     *Install Visual Studio Express*
 4. Read all the products' licenses and terms and click **I Accept** to continue.
 
-    ![Accepting the license terms](whats-new-in-aspnet-mvc-4/_static/image45.png)
+    ![Accepting licensing terms](whats-new-in-aspnet-mvc-4/_static/image45.png)
 
     *Accepting the license terms*
 5. Wait until the downloading and installation process completes.
 
-    ![Installation progress](whats-new-in-aspnet-mvc-4/_static/image46.png)
+    ![Progress of installation](whats-new-in-aspnet-mvc-4/_static/image46.png)
 
     *Installation progress*
 6. When the installation completes, click **Finish**.
 
-    ![Installation completed](whats-new-in-aspnet-mvc-4/_static/image47.png)
+    ![Completed Installation](whats-new-in-aspnet-mvc-4/_static/image47.png)
 
     *Installation completed*
 7. Click **Exit** to close Web Platform Installer.
@@ -888,7 +888,7 @@ This appendix will show you how to create a new web site from the Windows Azure 
 <a id="Task_1_-_Creating_a_New_Web_Site_from_the_Windows_Azure_Portal"></a>
 #### Task 1 - Creating a New Web Site from the Windows Azure Portal
 
-1. Go to the [Windows Azure Management Portal](https://manage.windowsazure.com/) and sign in using the Microsoft credentials associated with your subscription.
+1. Go to the [Windows Azure Management Portal](https://ms.portal.azure.com/) and sign in using the Microsoft credentials associated with your subscription.
 
     > [!NOTE]
     > With Windows Azure you can host 10 ASP.NET Web Sites for free and then scale as your traffic grows. You can sign up [here](https://aka.ms/aspnet-hol-azure).

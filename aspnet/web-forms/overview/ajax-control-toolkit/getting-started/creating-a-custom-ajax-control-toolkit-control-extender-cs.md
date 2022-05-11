@@ -1,8 +1,8 @@
 ---
 uid: web-forms/overview/ajax-control-toolkit/getting-started/creating-a-custom-ajax-control-toolkit-control-extender-cs
 title: "Creating a Custom AJAX Control Toolkit Control Extender (C#) | Microsoft Docs"
-author: microsoft
-description: "Custom Extenders enable you to customize and extend the capabilities of ASP.NET controls without having to create new classes."
+author: rick-anderson
+description: "Custom Extenders enable you to customize and extend the capabilities of ASP.NET controls without having to create new classes (C#)."
 ms.author: riande
 ms.date: 05/12/2009
 ms.assetid: 96b56eca-a892-45a4-96b4-67e61178650a
@@ -29,13 +29,13 @@ Our new control extender is named the DisabledButton extender. This extender wil
 
 You hook the DisabledButton extender to a TextBox and Button control. Before you type any text, the Button is disabled and the TextBox and Button look like this:
 
-[![](creating-a-custom-ajax-control-toolkit-control-extender-cs/_static/image2.png)](creating-a-custom-ajax-control-toolkit-control-extender-cs/_static/image1.png)
+[![Image of disabled button](creating-a-custom-ajax-control-toolkit-control-extender-cs/_static/image2.png)](creating-a-custom-ajax-control-toolkit-control-extender-cs/_static/image1.png)
 
 ([Click to view full-size image](creating-a-custom-ajax-control-toolkit-control-extender-cs/_static/image3.png))
 
 After you start typing text, the Button is enabled and the TextBox and Button look like this:
 
-[![](creating-a-custom-ajax-control-toolkit-control-extender-cs/_static/image5.png)](creating-a-custom-ajax-control-toolkit-control-extender-cs/_static/image4.png)
+[![Image of enabled button](creating-a-custom-ajax-control-toolkit-control-extender-cs/_static/image5.png)](creating-a-custom-ajax-control-toolkit-control-extender-cs/_static/image4.png)
 
 ([Click to view full-size image](creating-a-custom-ajax-control-toolkit-control-extender-cs/_static/image6.png))
 
@@ -49,9 +49,9 @@ So a control extender consists of a server-side control, a client-side behavior,
 
 ## Creating the Custom Extender Website and Project
 
-The first step is to create a class library project and website in Visual Studio/Visual Web Developer. We�ll create the custom extender in the class library project and test the custom extender in the website.
+The first step is to create a class library project and website in Visual Studio/Visual Web Developer. We'll create the custom extender in the class library project and test the custom extender in the website.
 
-Let�s start with the website. Follow these steps to create the website:
+Let's start with the website. Follow these steps to create the website:
 
 1. Select the menu option **File, New Web Site**.
 2. Select the **ASP.NET Web Site** template.
@@ -92,7 +92,7 @@ After you complete these steps, your class library project References folder sho
 
 ## Creating the Custom Control Extender
 
-Now that we have our class library, we can start building our extender control. Let�s start with the bare bones of a custom extender control class (see Listing 1).
+Now that we have our class library, we can start building our extender control. Let's start with the bare bones of a custom extender control class (see Listing 1).
 
 **Listing 1 - MyCustomExtender.cs**
 
@@ -113,7 +113,7 @@ Notice that the control extender also includes a TargetControlType attribute. Th
 
 Finally, notice that the custom extender includes a property named MyProperty. The property is marked with the ExtenderControlProperty attribute. The GetPropertyValue() and SetPropertyValue() methods are used to pass the property value from the server-side control extender to the client-side behavior.
 
-Let�s go ahead and implement the code for our DisabledButton extender. The code for this extender can be found in Listing 2.
+Let's go ahead and implement the code for our DisabledButton extender. The code for this extender can be found in Listing 2.
 
 **Listing 2 - DisabledButtonExtender.cs**
 

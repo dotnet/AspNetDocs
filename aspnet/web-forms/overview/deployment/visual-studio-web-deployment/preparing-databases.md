@@ -11,9 +11,7 @@ msc.type: authoredcontent
 ---
 # ASP.NET Web Deployment using Visual Studio: Preparing for Database Deployment
 
-by [Tom Dykstra](https://github.com/tdykstra)
-
-[Download Starter Project](http://go.microsoft.com/fwlink/p/?LinkId=282627)
+[Download Starter Project](https://go.microsoft.com/fwlink/p/?LinkId=282627)
 
 > This tutorial series shows you how to deploy (publish) an ASP.NET web application to Azure App Service Web Apps or to a third-party hosting provider, by using Visual Studio 2012 or Visual Studio 2010. For information about the series, see [the first tutorial in the series](introduction.md).
 
@@ -161,7 +159,7 @@ You'll deploy the development users to the test environment and the production u
 
 You can create data deployment scripts manually, by using SQL Server Management Studio (SSMS), or by using a third-party tool. This remainder of this tutorial will show you how to do it in SSMS, but if you don't want to install and use SSMS you can get the scripts from the completed version of the project and skip to the section where you store them in the solution folder.
 
-To install SSMS, install it from [Download Center: Microsoft SQL Server 2012 Express](https://www.microsoft.com/download/details.aspx?id=29062) by clicking [ENU\x64\SQLManagementStudio\_x64\_ENU.exe](https://download.microsoft.com/download/8/D/D/8DD7BDBA-CEF7-4D8E-8C16-D9F69527F909/ENU/x64/SQLManagementStudio_x64_ENU.exe) or [ENU\x86\SQLManagementStudio\_x86\_ENU.exe](https://download.microsoft.com/download/8/D/D/8DD7BDBA-CEF7-4D8E-8C16-D9F69527F909/ENU/x86/SQLManagementStudio_x86_ENU.exe). If you choose the wrong one for your system it will fail to install and you can try the other one.
+To install SSMS, install it from [Download Center: Microsoft SQL Server 2012 Express](https://www.microsoft.com/en-us/download/details.aspx?id=43351) by clicking [ENU\x64\SQLManagementStudio\_x64\_ENU.exe](https://download.microsoft.com/download/8/D/D/8DD7BDBA-CEF7-4D8E-8C16-D9F69527F909/ENU/x64/SQLManagementStudio_x64_ENU.exe) or [ENU\x86\SQLManagementStudio\_x86\_ENU.exe](https://download.microsoft.com/download/8/D/D/8DD7BDBA-CEF7-4D8E-8C16-D9F69527F909/ENU/x86/SQLManagementStudio_x86_ENU.exe). If you choose the wrong one for your system it will fail to install and you can try the other one.
 
 (Note that this is a 600 megabyte download. It may take a long time to install and will require a reboot of your computer.)
 

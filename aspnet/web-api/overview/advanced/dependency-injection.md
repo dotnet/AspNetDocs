@@ -1,8 +1,8 @@
 ---
 uid: web-api/overview/advanced/dependency-injection
-title: "Dependency Injection in ASP.NET Web API 2 - ASP.NET 4.x"
-author: MikeWasson
-description: "This tutorial shows how to inject dependencies into your ASP.NET Web API controller for ASP.NET 4.x."
+title: Dependency Injection in ASP.NET Web API 2 - ASP.NET 4.x
+author: Rick-Anderson
+description: This tutorial shows how to inject dependencies into your ASP.NET Web API controller for ASP.NET 4.x.
 ms.author: riande
 ms.date: 01/20/2014
 ms.custom: seoapril2019
@@ -12,9 +12,7 @@ msc.type: authoredcontent
 ---
 # Dependency Injection in ASP.NET Web API 2
 
-by [Mike Wasson](https://github.com/MikeWasson)
-
-[Download Completed Project](http://code.msdn.microsoft.com/ASP-NET-Web-API-Tutorial-468ee148)
+[Download Completed Project](https://code.msdn.microsoft.com/ASP-NET-Web-API-Tutorial-468ee148)
 
 > This tutorial shows how to inject dependencies into your ASP.NET Web API controller.
 > 
@@ -88,9 +86,6 @@ For this tutorial, we'll use [Unity](https://msdn.microsoft.com/library/ff647202
 Here is an implementation of **IDependencyResolver** that wraps a Unity container.
 
 [!code-csharp[Main](dependency-injection/samples/sample8.cs)]
-
-> [!NOTE]
-> If the **GetService** method cannot resolve a type, it should return **null**. If the **GetServices** method cannot resolve a type, it should return an empty collection object. Don't throw exceptions for unknown types.
 
 ## Configuring the Dependency Resolver
 

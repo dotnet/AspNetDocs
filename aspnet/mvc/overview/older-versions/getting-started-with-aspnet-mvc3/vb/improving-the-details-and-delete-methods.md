@@ -11,7 +11,7 @@ msc.type: authoredcontent
 ---
 # Improving the Details and Delete Methods (VB)
 
-by [Rick Anderson]((https://twitter.com/RickAndMSFT))
+by [Rick Anderson](https://twitter.com/RickAndMSFT)
 
 > This tutorial will teach you the basics of building an ASP.NET MVC Web application using Microsoft Visual Web Developer 2010 Express Service Pack 1, which is a free version of Microsoft Visual Studio. Before you start, make sure you've installed the prerequisites listed below. You can install all of them by clicking the following link: [Web Platform Installer](https://www.microsoft.com/web/gallery/install.aspx?appid=VWD2010SP1Pack). Alternatively, you can individually install the prerequisites using the following links:
 > 
@@ -64,14 +64,14 @@ This basic tutorial got you started making controllers, associating them with vi
 If you'd like to deploy your application, it's helpful to first test the application on your local IIS 7 server. You can use this [Web Platform Installer](https://www.microsoft.com/web/gallery/install.aspx?appsxml=&amp;appid=ASPNET;) link to enable IIS setting for ASP.NET applications. See the following deployment links:
 
 - [ASP.NET Deployment Content Map](https://msdn.microsoft.com/library/dd394698.aspx)
-- [Enabling IIS 7.x](https://blogs.msdn.com/b/rickandy/archive/2011/03/14/enabling-iis-7-x-on-windows-7-vista-sp1-windows-2008-windows-2008-r2.aspx)
+- [Enabling IIS 7.x](/archive/blogs/rickandy/enabling-iis-7-x-on-windows-7-vista-sp1-windows-2008-windows-2008r2)
 - [Web Application Projects Deployment](https://msdn.microsoft.com/library/dd394698.aspx)
 
 I now encourage you to move on to our intermediate-level [Creating an Entity Framework Data Model for an ASP.NET MVC Application](../../../getting-started/getting-started-with-ef-using-mvc/creating-an-entity-framework-data-model-for-an-asp-net-mvc-application.md) and [MVC Music Store](../../mvc-music-store/mvc-music-store-part-1.md) tutorials, to explore the [ASP.NET articles on MSDN](https://msdn.microsoft.com/library/gg416514(VS.98).aspx), and to check out the many videos and resources at [https://asp.net/mvc](https://asp.net/mvc) to learn even more about ASP.NET MVC! The [ASP.NET MVC forums](https://forums.asp.net/1146.aspx) are a great place to ask questions.
 
 Enjoy!
 
-— Scott Hanselman ([http://hanselman.com](http://hanselman.com) and [@shanselman](http://twitter.com/shanselman) on Twitter) and Rick Anderson [blogs.msdn.com/rickAndy](https://blogs.msdn.com/rickAndy)
+— Scott Hanselman ([http://hanselman.com](http://hanselman.com) and [@shanselman](http://twitter.com/shanselman) on Twitter) and Rick Anderson [blogs.msdn.com/rickAndy](/archive/blogs/rickAndy/)
 
 > [!div class="step-by-step"]
 > [Previous](adding-validation-to-the-model.md)

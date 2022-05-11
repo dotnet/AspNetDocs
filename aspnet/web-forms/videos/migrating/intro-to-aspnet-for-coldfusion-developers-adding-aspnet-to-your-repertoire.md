@@ -1,7 +1,7 @@
 ---
 uid: web-forms/videos/migrating/intro-to-aspnet-for-coldfusion-developers-adding-aspnet-to-your-repertoire
 title: "Intro to ASP.NET for ColdFusion Developers: Adding ASP.NET to Your Repertoire | Microsoft Docs"
-author: microsoft
+author: rick-anderson
 description: "This sessions shows a simple yet real world code comparison between ColdFusion and ASP.NET."
 ms.author: riande
 ms.date: 07/25/2006

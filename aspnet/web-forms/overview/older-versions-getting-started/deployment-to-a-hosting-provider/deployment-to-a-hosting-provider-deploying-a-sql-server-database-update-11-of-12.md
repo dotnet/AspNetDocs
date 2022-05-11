@@ -13,7 +13,7 @@ msc.type: authoredcontent
 
 by [Tom Dykstra](https://github.com/tdykstra)
 
-[Download Starter Project](http://code.msdn.microsoft.com/Deploying-an-ASPNET-Web-4e31366b)
+[Download Starter Project](https://code.msdn.microsoft.com/Deploying-an-ASPNET-Web-4e31366b)
 
 > This series of tutorials shows you how to deploy (publish) an ASP.NET web application project that includes a SQL Server Compact database by using Visual Studio 2012 RC or Visual Studio Express 2012 RC for Web. You can also use Visual Studio 2010 if you install the Web Publish Update. For an introduction to the series, see [the first tutorial in the series](deployment-to-a-hosting-provider-introduction-1-of-12.md).
 > 
@@ -156,10 +156,10 @@ I would like to thank the following people who made significant contributions to
 - [Mike Pope, Microsoft](http://www.mikepope.com/blog/DisplayBlog.aspx)
 - Mohit Srivastava, Microsoft
 - [Raffaele Rialdi, Italy](http://www.iamraf.net/)
-- [Rick Anderson, Microsoft](https://blogs.msdn.com/b/rickandy/)
+- [Rick Anderson, Microsoft](/archive/blogs/rickandy/)
 - [Sayed Hashimi, Microsoft](http://sedodream.com/default.aspx)(twitter: [@sayedihashimi](http://twitter.com/sayedihashimi))
 - [Scott Hanselman](http://www.hanselman.com/blog/) (twitter: [@shanselman](http://twitter.com/shanselman))
-- [Scott Hunter, Microsoft](https://blogs.msdn.com/b/scothu/) (twitter: [@coolcsh](http://twitter.com/coolcsh))
+- [Scott Hunter, Microsoft](/archive/blogs/scothu/) (twitter: [@coolcsh](http://twitter.com/coolcsh))
 - [Srđan Božović, Serbia](http://msforge.net/blogs/zmajcek/)
 - [Vishal Joshi, Microsoft](http://vishaljoshi.blogspot.com/) (twitter: [@vishalrjoshi](http://twitter.com/vishalrjoshi))
 

@@ -1,15 +1,15 @@
 ---
 uid: whitepapers/aspnet4/overview
-title: "ASP.NET 4 and Visual Studio 2010 Web Development Overview | Microsoft Docs"
+title: "Overview: ASP.NET 4 and Visual Studio 2010 Web Development | Microsoft Docs"
 author: rick-anderson
-description: "This document provides an overview of many of the new features for ASP.NET that are included in the.NET Framework 4 and in Visual Studio 2010."
+description: "An overview of many of the new features for ASP.NET that are included in the.NET Framework 4 and in Visual Studio 2010."
 ms.author: riande
 ms.date: 02/10/2010
 ms.assetid: d7729af4-1eda-4ff2-8b61-dbbe4fc11d10
 msc.legacyurl: /whitepapers/aspnet4
 msc.type: content
 ---
-# ASP.NET 4 and Visual Studio 2010 Web Development Overview
+# Overview of ASP.NET 4 and Visual Studio 2010 for Web Development 
 
 > This document provides an overview of many of the new features for ASP.NET that are included in the.NET Framework 4 and in Visual Studio 2010.
 > 
@@ -190,11 +190,11 @@ ASP.NET 4 introduces new options for expanding the size of application URLs. Pre
 
 To allow longer or shorter paths (the portion of the URL that does not include protocol, server name, and query string), modify the *[maxUrlLength](https://msdn.microsoft.com/library/system.web.configuration.httpruntimesection.maxurllength.aspx)* attribute. To allow longer or shorter query strings, modify the value of the *[maxQueryStringLength](https://msdn.microsoft.com/library/system.web.configuration.httpruntimesection.maxquerystringlength.aspx)* attribute.
 
-ASP.NET 4 also enables you to configure the characters that are used by the URL character check. When ASP.NET finds an invalid character in the path portion of a URL, it rejects the request and issues an HTTP 400 error. In previous versions of ASP.NET, the URL character checks were limited to a fixed set of characters. In ASP.NET 4, you can customize the set of valid characters using the new *requestPathInvalidChars* attribute of the *httpRuntime* configuration element, as shown in the following example:
+ASP.NET 4 also enables you to configure the characters that are used by the URL character check. When ASP.NET finds an invalid character in the path portion of a URL, it rejects the request and issues an HTTP 400 error. In previous versions of ASP.NET, the URL character checks were limited to a fixed set of characters. In ASP.NET 4, you can customize the set of valid characters using the new *requestPathInvalidCharacters* attribute of the *httpRuntime* configuration element, as shown in the following example:
 
 [!code-xml[Main](overview/samples/sample11.xml)]
 
-By default, the *requestPathInvalidChars* attribute defines eight characters as invalid. (In the string that is assigned to *requestPathInvalidChars* by default, the less than (&lt;), greater than (&gt;), and ampersand (&amp;) characters are encoded, because the `Web.config` file is an XML file.) You can customize the set of invalid characters as needed.
+By default, the *requestPathInvalidCharacters* attribute defines eight characters as invalid. (In the string that is assigned to *requestPathInvalidCharacters* by default, the less than (&lt;), greater than (&gt;), and ampersand (&amp;) characters are encoded, because the `Web.config` file is an XML file.) You can customize the set of invalid characters as needed.
 
 > [!NOTE]
 > Note ASP.NET 4 always rejects URL paths that contain characters in the ASCII range of 0x00 to 0x1F, because those are invalid URL characters as defined in RFC 2396 of the IETF ([http://www.ietf.org/rfc/rfc2396.txt](http://www.ietf.org/rfc/rfc2396.txt)). On versions of Windows Server that run IIS 6 or higher, the http.sys protocol device driver automatically rejects URLs with these characters.
@@ -381,7 +381,7 @@ You can also set the *Keywords* and *Description* properties in the *@ Page* dir
 
 This will override the *meta* tag contents (if any) already declared in the page.
 
-The contents of the description *meta* tag are used for improving search listing previews in Google. (For details, see [Improve snippets with a meta description makeover](http://googlewebmastercentral.blogspot.com/2007/09/improve-snippets-with-meta-description.html) on the Google Webmaster Central blog.) Google and Windows Live Search do not use the contents of the keywords for anything, but other search engines might. For more information, see [Meta Keywords Advice](http://www.searchengineguide.com/richard-ball/meta-keywords-a.php) on the Search Engine Guide Web site.
+The contents of the description *meta* tag are used for improving search listing previews in Google. (For details, see [Improve snippets with a meta description makeover](https://googlewebmastercentral.blogspot.com/2007/09/improve-snippets-with-meta-description.html) on the Google Webmaster Central blog.) Google and Windows Live Search do not use the contents of the keywords for anything, but other search engines might. For more information, see [Meta Keywords Advice](http://www.searchengineguide.com/richard-ball/meta-keywords-a.php) on the Search Engine Guide Web site.
 
 These new properties are a simple feature, but they save you from the requirement to add these manually or from writing your own code to create the *meta* tags.
 
@@ -729,7 +729,7 @@ The control includes the following features:
 
 The following figures show examples of financial charts that are produced by the ASP.NET Chart control.
 
-<a id="0.2_graphic17"></a>![](overview/_static/image1.png)
+<a id="0.2_graphic17"></a>![Four example financial charts produced by the ASP.NET chart control.](overview/_static/image1.png)
 
 Figure 2: ASP.NET Chart control examples
 
@@ -749,7 +749,7 @@ The *Chart* control contains a *ChartAreas* collection, which can contain *Chart
 
 The figure below shows a 3-D chart with four series of the *Bar* chart type.
 
-<a id="0.2_graphic18"></a>![](overview/_static/image2.png)
+<a id="0.2_graphic18"></a>![3 dimensional bar chart showing four series of the Bar chart type.](overview/_static/image2.png)
 
 Figure 3: 3-D Bar Chart
 
@@ -761,7 +761,7 @@ Scale breaks and logarithmic scales are two additional ways to add sophisticatio
 
 The figure below shows the Y axis with scale breaks enabled.
 
-<a id="0.2_graphic19"></a>![](overview/_static/image3.png)
+<a id="0.2_graphic19"></a>![A bar chart that shows the Y axis with scale breaks enabled.](overview/_static/image3.png)
 
 Figure 4: Scale Breaks
 
@@ -839,11 +839,11 @@ Likewise, this syntax does not perform JavaScript encoding, such as when you cre
 
 In earlier versions of ASP.NET, when you use Visual Studio to create a new Web Site project or Web Application project, the resulting projects contain only a Default.aspx page, a default `Web.config` file, and the `App_Data` folder, as shown in the following illustration:
 
-<a id="0.2_graphic1A"></a>![](overview/_static/image4.png)
+<a id="0.2_graphic1A"></a>![Screenshot of Visual Studio file menu. An example new project is highlighted showing the default file and folder.](overview/_static/image4.png)
 
 Visual Studio also supports an Empty Web Site project type, which contains no files at all, as shown in the following figure:
 
-<a id="0.2_graphic1B"></a>![](overview/_static/image5.png)
+<a id="0.2_graphic1B"></a>![Screenshot of the Visual Studio file menu. An example project directory is shown to contain no files or folders.](overview/_static/image5.png)
 
 The result is that for the beginner, there is very little guidance on how to build a production Web application. Therefore, ASP.NET 4 introduces three new templates, one for an empty Web application project, and one each for a Web Application and Web Site project.
 
@@ -851,17 +851,24 @@ The result is that for the beginner, there is very little guidance on how to bui
 
 As the name suggests, the Empty Web Application template is a stripped-down Web Application project. You select this project template from the Visual Studio New Project dialog box, as shown in the following figure:
 
-[![](overview/_static/image7.png)](overview/_static/image6.png)
+[![Screenshot of the Visual Studio New Project Dialogue box. The entry titled Empty ASP.NET Web Application is highlighted.](overview/_static/image7.png)](overview/_static/image6.png)
 
 ([Click to view full-size image](overview/_static/image8.png))
 
 When you create an Empty ASP.NET Web Application, Visual Studio creates the following folder layout:
 
-<a id="0.2_graphic1D"></a>![](overview/_static/image9.png)
+<a id="0.2_graphic1D"></a>![Screenshot that shows the Visual Studio file menu. The file titled Web dot config is highlighted.](overview/_static/image9.png)
 
 This is similar to the Empty Web Site layout from earlier versions of ASP.NET, with one exception. In Visual Studio 2010, Empty Web Application and Empty Web Site projects contain the following minimal `Web.config` file that contains information used by Visual Studio to identify the framework that the project is targeting:
 
-<a id="0.2_graphic1E"></a>![](overview/_static/image10.png)
+<a id="0.2_graphic1E"></a>![!
+``<?xml version ="1.0"?>
+<configuration>
+    <system.web>
+        <compilation debug="true" targetFramework="4.0" />
+    </system.web>
+</configuration>
+``](overview/_static/image10.png)
 
 Without this *targetFramework* property, Visual Studio defaults to targeting the .NET Framework 2.0 in order to preserve compatibility when opening older applications.
 
@@ -869,21 +876,31 @@ Without this *targetFramework* property, Visual Studio defaults to targeting the
 
 The other two new project templates that are shipped with Visual Studio 2010 contain major changes. The following figure shows the project layout that is created when you create a new Web Application project. (The layout for a Web Site project is virtually identical.)
 
-- <a id="0.2_graphic1F"></a>![](overview/_static/image11.png)
+- <a id="0.2_graphic1F"></a>![Screenshot of the Visual Studio file menu showing the project files and folders created with a new project.](overview/_static/image11.png)
 
 The project includes a number of files that were not created in earlier versions. In addition, the new Web Application project is configured with basic membership functionality, which lets you quickly get started in securing access to the new application. Because of this inclusion, the `Web.config` file for the new project includes entries that are used to configure membership, roles, and profiles. The following example shows the `Web.config` file for a new Web Application project. (In this case, *roleManager* is disabled.)
 
-[![](overview/_static/image13.png)](overview/_static/image12.png)
+[![Screenshot of the Visual Studio editing environment showing an example of a configuration file from a web application project.](overview/_static/image13.png)](overview/_static/image12.png)
 
 ([Click to view full-size image](overview/_static/image14.png))
 
 The project also contains a second `Web.config` file in the `Account` directory. The second configuration file provides a way to secure access to the ChangePassword.aspx page for non-logged in users. The following example shows the contents of the second `Web.config` file.
 
-![](overview/_static/image15.png)
+![``<?xml version="1.0"?>
+<configuration>
+    <location path="ChangePassword.aspx">
+        <system.web>
+            <authorization>
+                <deny users="?"/>
+            </authorization>
+        </system.web>
+    </location>
+</configuration>
+``](overview/_static/image15.png)
 
 The pages created by default in the new project templates also contain more content than in previous versions. The project contains a default master page and CSS file, and the default page (Default.aspx) is configured to use the master page by default. The result is that when you run the Web application or Web site for the first time, the default (home) page is already functional. In fact, it is similar to the default page you see when you start up a new MVC application.
 
-[![](overview/_static/image17.png)](overview/_static/image16.png)
+[![Screenshot that shows a browser view of the default page created when you start a new MVC application.](overview/_static/image17.png)](overview/_static/image16.png)
 
 ([Click to view full-size image](overview/_static/image18.png))
 
@@ -891,11 +908,11 @@ The intention of these changes to the project templates is to provide guidance o
 
 For example, imagine that for a new Web Application you want to change some of the colors and insert your company logo in place of the My ASP.NET Application logo. To do this, you create a new directory under `Content` to store your logo image:
 
-<a id="0.2_graphic23"></a>![](overview/_static/image19.png)
+<a id="0.2_graphic23"></a>![Screenshot that shows a file directory with an images folder containing a logo file.](overview/_static/image19.png)
 
 To add the image to the page, you then open the `Site.Master` file, find where the My ASP.NET Application text is defined, and replace it with an *image* element whose *src* attribute is set to the new logo image, as in the following example:
 
-[![](overview/_static/image21.png)](overview/_static/image20.png)
+[![``<div class="title"><img src="Content/Images/ASPNETLogo.jpg" width="376px" height="62px"  border="0" alt="ASP.NET Logo" /> </div>``](overview/_static/image21.png)](overview/_static/image20.png)
 
 ([Click to view full-size image](overview/_static/image22.png))
 
@@ -903,7 +920,7 @@ You can then go into the Site.css file and modify CSS class definitions to chang
 
 The result of these changes is that you can display a customized home page with very little effort:
 
-[![](overview/_static/image24.png)](overview/_static/image23.png)
+[![Screenshot that shows a browser view of a customized home page.](overview/_static/image24.png)](overview/_static/image23.png)
 
 ([Click to view full-size image](overview/_static/image25.png))
 
@@ -1349,7 +1366,7 @@ The following Web sites provide additional information about ASP.NET 4 and Visua
 - [https://www.asp.net/](https://www.asp.net/) — The ASP.NET team's own Web site.
 - [https://www.asp.net/dynamicdata/](https://msdn.microsoft.com/library/cc488545.aspx) and [ASP.NET Dynamic Data Content Map](https://msdn.microsoft.com/library/cc488545%28VS.100%29.aspx) — Online resources on the ASP.NET team site and in the official documentation for ASP.NET Dynamic Data.
 - [https://www.asp.net/ajax/](../../ajax/index.md) — The main Web resource for ASP.NET Ajax development.
-- [https://blogs.msdn.com/webdevtools/](https://blogs.msdn.com/webdevtools/) — The Visual Web Developer Team blog, which includes information about features in Visual Studio 2010.
+- [https://devblogs.microsoft.com/dotnet/category/aspnet/](https://devblogs.microsoft.com/dotnet/category/aspnet/) — The Visual Web Developer Team blog, which includes information about features in Visual Studio 2010.
 - [ASP.NET WebStack](https://github.com/aspnet/AspNetWebStack) — The main Web resource for preview releases of ASP.NET.
 
 <a id="0.2__Toc224729061"></a><a id="0.2__Toc253429298"></a><a id="0.2__Toc243304669"></a>

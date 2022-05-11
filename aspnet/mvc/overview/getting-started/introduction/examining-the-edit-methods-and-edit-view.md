@@ -11,9 +11,9 @@ msc.type: authoredcontent
 ---
 # Examining the Edit Methods and Edit View
 
-by [Rick Anderson]((https://twitter.com/RickAndMSFT))
+by [Rick Anderson](https://twitter.com/RickAndMSFT)
 
-[!INCLUDE [Tutorial Note](sample/code-location.md)]
+[!INCLUDE [consider RP](~/includes/razor.md)]
 
 In this section, you'll examine the generated `Edit` action methods and views for the movie controller. But first we'll take a short diversion to make the release date look better. Open the *Models\Movie.cs* file and add the highlighted lines shown below:
 

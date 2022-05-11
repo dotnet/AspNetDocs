@@ -13,11 +13,13 @@ msc.type: content
 
 ## Develop Mobile Apps
 
-### [Cloud-Connected Mobile Apps - Create a Web Service with Azure Web Apps and WebJobs](https://msdn.microsoft.com/magazine/mt185572)(Part 1)
+### Cloud-Connected Mobile Apps
+
+[Part 1 - Create a Web Service with Azure Web Apps and WebJobs](https://msdn.microsoft.com/magazine/mt185572)
 
 In the first part of a two-part article, the authors explore some of the issues involved in creating a cloud back end that aggregates and processes data and serves it to mobile clients.
 
-### [Cloud-Connected Mobile Apps - Build a Xamarin App with Authentication and Offline Support](https://msdn.microsoft.com/magazine/mt422581.aspx)(Part 2)
+[Part 2 - Build a Xamarin App with Authentication and Offline Support](https://msdn.microsoft.com/magazine/mt422581.aspx)
 
 In the second article in their series, the authors discuss how they use Xamarin to target multiple mobile client platforms, and show how to implement authentication and maintain a synchronized client-side cache of the data.
 
@@ -39,7 +41,7 @@ Use Azure Mobile Services to send push notifications to a mobile device.
 
 ## Develop Mobile Sites
 
-### [Deploy an Mobile-Friendly ASP.NET MVC 5 Web Application on Windows Azure Web Sites](https://docs.microsoft.com/azure/app-service-web/web-sites-dotnet-deploy-aspnet-mvc-mobile-app)
+### [Deploy an Mobile-Friendly ASP.NET MVC 5 Web Application on Windows Azure Web Sites](/azure/app-service-web/web-sites-dotnet-deploy-aspnet-mvc-mobile-app)
 
 This tutorial will teach you the basics of how to deploy an MVC 5 application to a Windows Azure web site and create mobile-friendly views using responsive Bootstrap design.
 
@@ -51,14 +53,10 @@ This How To describes various ways to serve pages optimized for mobile devices f
 
 51degrees.mobi Foundation is a third-party open source project that enhances ASP.NET's Request.Browser API so you can easily detect recently-released mobile devices including Windows Phone 7, Android, and Apple iPad.
 
-### [Simulate popular mobile devices for testing](device-simulators.md)
-
-Links to device emulators and simulators that you can use to test your mobile web applications
-
 ### [Mobile Web Sites with ASP.NET MVC and the Mobile Browser Definition File](http://www.hanselman.com/blog/MixMobileWebSitesWithASPNETMVCAndTheMobileBrowserDefinitionFile.aspx)
 
 In this talk presented at the Microsoft MIX conference, Scott Hanselman discusses how you can create mobile device friendly websites using ASP.NET MVC.
 
-### [Develop iPhone applications with ASP.NET](http://labs.componentone.com/iPhone/)
+### [Develop iPhone applications with ASP.NET](https://www.componentsource.com/product/componentone-studio-for-iphone)
 
 ComponentOne Studio for iPhone is a suite of ASP.NET controls that mimic the look and feel of the iPhone and iPod touch user interfaces when rendered in Mobile Safari.

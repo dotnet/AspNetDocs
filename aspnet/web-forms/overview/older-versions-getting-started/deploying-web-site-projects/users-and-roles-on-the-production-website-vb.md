@@ -4,7 +4,8 @@ title: "Users and Roles On The Production Website (VB) | Microsoft Docs"
 author: rick-anderson
 description: "The ASP.NET Website Administration Tool (WSAT) provides a web-based user interface for configuring Membership and Roles settings and for creating, editing, a..."
 ms.author: riande
-ms.date: 06/09/2009
+ms.date: 04/27/2022
+ms.custom: devdivchpfy22
 ms.assetid: 491ed5ae-9be1-4191-87be-65e4e1c57690
 msc.legacyurl: /web-forms/overview/older-versions-getting-started/deploying-web-site-projects/users-and-roles-on-the-production-website-vb
 msc.type: authoredcontent
@@ -13,7 +14,7 @@ msc.type: authoredcontent
 
 by [Scott Mitchell](https://twitter.com/ScottOnWriting)
 
-[Download PDF](http://download.microsoft.com/download/5/C/5/5C57DB8C-5DEA-4B3A-92CA-4405544D313B/aspnet_tutorial16_CustomAWAT_vb.pdf)
+[Download PDF](https://download.microsoft.com/download/5/C/5/5C57DB8C-5DEA-4B3A-92CA-4405544D313B/aspnet_tutorial16_CustomAWAT_vb.pdf)
 
 > The ASP.NET Website Administration Tool (WSAT) provides a web-based user interface for configuring Membership and Roles settings and for creating, editing, and deleting users and roles. Unfortunately, the WSAT only works when visited from localhost, meaning that you cannot reach the production website's Administration Tool through your browser. The good news is that there are workarounds that make it possible to manage users and roles on production. This tutorial looks at these workarounds and others.
 
@@ -37,7 +38,7 @@ The WSAT is divided into three sections:
 
 The Security section (shown in **Figure 1**) includes links for creating new users, managing users, creating and managing roles, and creating and managing access rules. From here you can add a new role to the system, delete an existing user, or add or remove roles from a particular user account.
 
-[![](users-and-roles-on-the-production-website-vb/_static/image2.png)](users-and-roles-on-the-production-website-vb/_static/image1.png)
+:::image type="content" source="users-and-roles-on-the-production-website-vb/_static/image1.png" alt-text="Screenshot of the A S P . N E T Website Administration tool to create and manage users and roles and access rules.":::
 
 **Figure 1**: The WSAT Security Section Includes Options for Managing Users and Roles  
 ([Click to view full-size image](users-and-roles-on-the-production-website-vb/_static/image3.png))
@@ -52,21 +53,21 @@ In a nutshell, the WSAT must be accessed locally through the development environ
 
 To illustrate this functionality, open the `databaseConnectionStrings.config` file in Visual Studio on the development environment and replace the development database connection string with the production database connection string. Then launch the WSAT, go the Security tab, and add a new user named Sam with password "password!" (less the quotation marks). **Figure 2** shows the WSAT screen when creating this account.
 
-[![](users-and-roles-on-the-production-website-vb/_static/image5.png)](users-and-roles-on-the-production-website-vb/_static/image4.png)
+:::image type="content" source="users-and-roles-on-the-production-website-vb/_static/image4.png" alt-text="Screenshot of the A S P . N E T Website Administration tool to create a new user in the production environment.":::
 
 **Figure 2**: Create a New User Named Sam In the Production Environment  
 ([Click to view full-size image](users-and-roles-on-the-production-website-vb/_static/image6.png))
 
 Because we changed the connection string in `databaseConnectionStrings.config` to point to the production database server, Sam was added as a user in the production environment. To verify this, change the connection string in the `databaseConnectionStrings.config` file back to the development database and then visit the `Login.aspx` page in the development environment. Try to sign in as Sam (see **Figure 3**).
 
-[![](users-and-roles-on-the-production-website-vb/_static/image8.png)](users-and-roles-on-the-production-website-vb/_static/image7.png)
+:::image type="content" source="users-and-roles-on-the-production-website-vb/_static/image7.png" alt-text="Screenshot of the login screen where the new user created is unable to sign in in the development environment.":::
 
 **Figure 3**: You Cannot Sign In As Sam in the Development Environment  
 ([Click to view full-size image](users-and-roles-on-the-production-website-vb/_static/image9.png))
 
 You cannot sign in as Sam in the development environment because the user account information does not exist in the local database. Rather, is was added to the production database. To verify this, view the contents of the `aspnet_Users` table in both the development and production databases. In the development environment there should be only three records for users Scott, Jisun, and Alice. However, the `aspnet_Users` table in the production database has four records: Scott, Jisun, Alice, and Sam. Consequently, Sam can sign in through the website in production, but not through the development environment.
 
-[![](users-and-roles-on-the-production-website-vb/_static/image11.png)](users-and-roles-on-the-production-website-vb/_static/image10.png)
+:::image type="content" source="users-and-roles-on-the-production-website-vb/_static/image10.png" alt-text="Screenshot of the login screen where the new user created is able to sign in in the production website.":::
 
 **Figure 4**: Sam Can Sign In On the Production Website  
 ([Click to view full-size image](users-and-roles-on-the-production-website-vb/_static/image12.png))
@@ -82,7 +83,7 @@ ASP.NET includes a number of built-in Login-related Web controls that make imple
 
 In the [*Configuring a Website That Uses Application Services* tutorial](configuring-a-website-that-uses-application-services-vb.md) I added a page to the `Admin` folder named `CreateAccount.aspx`. This page allows an administrator to add a new user account to the site and to specify whether or not the newly created user is in the Admin role (see **Figure 5**).
 
-[![](users-and-roles-on-the-production-website-vb/_static/image14.png)](users-and-roles-on-the-production-website-vb/_static/image13.png)
+:::image type="content" source="users-and-roles-on-the-production-website-vb/_static/image13.png" alt-text="Screenshot of the Administrators being able to create new user accounts.":::
 
 **Figure 5**: Administrators Can Create New User Accounts  
 ([Click to view full-size image](users-and-roles-on-the-production-website-vb/_static/image15.png))

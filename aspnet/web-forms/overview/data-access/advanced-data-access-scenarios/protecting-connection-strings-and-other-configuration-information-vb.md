@@ -13,7 +13,7 @@ msc.type: authoredcontent
 
 by [Scott Mitchell](https://twitter.com/ScottOnWriting)
 
-[Download Code](http://download.microsoft.com/download/3/9/f/39f92b37-e92e-4ab3-909e-b4ef23d01aa3/ASPNET_Data_Tutorial_73_VB.zip) or [Download PDF](protecting-connection-strings-and-other-configuration-information-vb/_static/datatutorial73vb1.pdf)
+[Download PDF](protecting-connection-strings-and-other-configuration-information-vb/_static/datatutorial73vb1.pdf)
 
 > An ASP.NET application typically stores configuration information in a Web.config file. Some of this information is sensitive and warrants protection. By default this file will not be served to a Web site visitor, but an administrator or a hacker may gain access to the Web server's file system and view the contents of the file. In this tutorial we learn that ASP.NET 2.0 allows us to protect sensitive information by encrypting sections of the Web.config file.
 
@@ -43,7 +43,7 @@ In this tutorial we will look at techniques for protecting such sensitive config
 
 ## Step 1: Exploring ASP.NET 2.0 s Protected Configuration Options
 
-ASP.NET 2.0 includes a protected configuration system for encrypting and decrypting configuration information. This includes methods in the .NET Framework that can be used to programmatically encrypt or decrypt configuration information. The protected configuration system uses the [provider model](http://aspnet.4guysfromrolla.com/articles/101905-1.aspx), which allows developers to choose what cryptographic implementation is used.
+ASP.NET 2.0 includes a protected configuration system for encrypting and decrypting configuration information. This includes methods in the .NET Framework that can be used to programmatically encrypt or decrypt configuration information. The protected configuration system uses the provider model which allows developers to choose what cryptographic implementation is used.
 
 The .NET Framework ships with two protected configuration providers:
 
@@ -186,7 +186,6 @@ Happy Programming!
 For more information on the topics discussed in this tutorial, refer to the following resources:
 
 - [Building Secure ASP.NET Application: Authentication, Authorization, and Secure Communication](https://msdn.microsoft.com/library/aa302392.aspx)
-- [Encrypting Configuration Information in ASP.NET 2.0 Applications](http://aspnet.4guysfromrolla.com/articles/021506-1.aspx)
 - [Encrypting `Web.config` Values in ASP.NET 2.0](https://weblogs.asp.net/scottgu/archive/2006/01/09/434893.aspx)
 - [How To: Encrypt Configuration Sections in ASP.NET 2.0 Using DPAPI](https://msdn.microsoft.com/library/ms998280.aspx)
 - [How To: Encrypt Configuration Sections in ASP.NET 2.0 Using RSA](https://msdn.microsoft.com/library/ms998283.aspx)

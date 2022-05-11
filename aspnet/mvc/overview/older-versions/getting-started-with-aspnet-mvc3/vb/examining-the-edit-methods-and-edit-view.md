@@ -11,7 +11,7 @@ msc.type: authoredcontent
 ---
 # Examining the Edit Methods and Edit View (VB)
 
-by [Rick Anderson]((https://twitter.com/RickAndMSFT))
+by [Rick Anderson](https://twitter.com/RickAndMSFT)
 
 > This tutorial will teach you the basics of building an ASP.NET MVC Web application using Microsoft Visual Web Developer 2010 Express Service Pack 1, which is a free version of Microsoft Visual Studio. Before you start, make sure you've installed the prerequisites listed below. You can install all of them by clicking the following link: [Web Platform Installer](https://www.microsoft.com/web/gallery/install.aspx?appid=VWD2010SP1Pack). Alternatively, you can individually install the prerequisites using the following links:
 > 
@@ -131,7 +131,7 @@ Run the application and navigate to */Movies/SearchIndex*. Append a query string
 
 If you change the signature of the `SearchIndex` method to have a parameter named `id`, the `id` parameter will match the `{id}` placeholder for the default routes set in the *Global.asax* file.
 
-[!code-json[Main](examining-the-edit-methods-and-edit-view/samples/sample11.json)]
+[!code-json[Main](examining-the-edit-methods-and-edit-view/samples/sample11.txt)]
 
 The modified `SearchIndex` method would look as follows:
 

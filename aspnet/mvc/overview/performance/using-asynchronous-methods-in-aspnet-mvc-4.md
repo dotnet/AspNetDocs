@@ -11,7 +11,7 @@ msc.type: authoredcontent
 ---
 # Using Asynchronous Methods in ASP.NET MVC 4
 
-by [Rick Anderson]((https://twitter.com/RickAndMSFT))
+by [Rick Anderson](https://twitter.com/RickAndMSFT)
 
 > This tutorial will teach you the basics of building an asynchronous ASP.NET MVC Web application using [Visual Studio Express 2012 for Web](https://www.microsoft.com/visualstudio/11), which is a free version of Microsoft Visual Studio. You can also use [Visual Studio 2012](https://www.microsoft.com/visualstudio/11).
 > 
@@ -23,7 +23,7 @@ The ASP.NET MVC 4 [Controller](https://msdn.microsoft.com/library/system.web.mvc
 For more information on the using [await](https://msdn.microsoft.com/library/hh156528(VS.110).aspx) and [async](https://msdn.microsoft.com/library/hh156513(VS.110).aspx) keywords and the [Task](https://msdn.microsoft.com/library/system.threading.tasks.task.aspx) namespace, see the following references.
 
 - [Whitepaper: Asynchrony in .NET](https://go.microsoft.com/fwlink/?LinkId=204844)
-- [Async/Await FAQ](https://blogs.msdn.com/b/pfxteam/archive/2012/04/12/10293335.aspx)
+- [Async/Await FAQ](https://devblogs.microsoft.com/pfxteam/asyncawait-faq/)
 - [Visual Studio Asynchronous Programming](https://msdn.microsoft.com/vstudio/gg316360)
 
 ## <a id="HowRequestsProcessedByTP"></a>  How Requests Are Processed by the Thread Pool
@@ -46,7 +46,7 @@ In general, use synchronous methods for the following conditions:
 - Simplicity is more important than efficiency.
 - The operations are primarily CPU operations instead of operations that involve extensive disk or network overhead. Using asynchronous action methods on CPU-bound operations provides no benefits and results in more overhead.
 
-  In general, use asynchronous methods for the following conditions:
+In general, use asynchronous methods for the following conditions:
 
 - You're calling services that can be consumed through asynchronous methods, and you're using .NET 4.5 or higher.
 - The operations are network-bound or I/O-bound instead of CPU-bound.
@@ -55,7 +55,7 @@ In general, use synchronous methods for the following conditions:
 - When the benefit of switching threads outweighs the cost of the context switch. In general, you should make a method asynchronous if the synchronous method waits on the ASP.NET request thread while doing no work. By making the call asynchronous, the ASP.NET request thread is not stalled doing no work while it waits for the web service request to complete.
 - Testing shows that the blocking operations are a bottleneck in site performance and that IIS can service more requests by using asynchronous methods for these blocking calls.
 
-  The downloadable sample shows how to use asynchronous action methods effectively. The sample provided was designed to provide a simple demonstration of asynchronous programming in ASP.NET MVC 4 using .NET 4.5. The sample is not intended to be a reference architecture for asynchronous programming in ASP.NET MVC. The sample program calls [ASP.NET Web API](../../../web-api/index.md) methods which in turn call [Task.Delay](https://msdn.microsoft.com/library/hh139096(VS.110).aspx) to simulate long-running web service calls. Most production applications will not show such obvious benefits to using asynchronous action methods.   
+The downloadable sample shows how to use asynchronous action methods effectively. The sample provided was designed to provide a simple demonstration of asynchronous programming in ASP.NET MVC 4 using .NET 4.5. The sample is not intended to be a reference architecture for asynchronous programming in ASP.NET MVC. The sample program calls [ASP.NET Web API](../../../web-api/index.md) methods which in turn call [Task.Delay](https://msdn.microsoft.com/library/hh139096(VS.110).aspx) to simulate long-running web service calls. Most production applications will not show such obvious benefits to using asynchronous action methods.   
   
 Few applications require all action methods to be asynchronous. Often, converting a few synchronous action methods to asynchronous methods provides the best efficiency increase for the amount of work required.
 
@@ -102,7 +102,7 @@ The following code shows the `Gizmos` synchronous method and the `GizmosAsync` a
 
 Inside of the `GetGizmosAsync` method body another asynchronous method, `GetGizmosAsync` is called. `GetGizmosAsync` immediately returns a `Task<List<Gizmo>>` that will eventually complete when the data is available. Because you don't want to do anything else until you have the gizmo data, the code awaits the task (using the **await** keyword). You can use the **await** keyword only in methods annotated with the **async** keyword.
 
-The **await** keyword does not block the thread until the task is complete. It signs up the rest of the method as a callback on the task, and immediately returns. When the awaited task eventually completes, it will invoke that callback and thus resume the execution of the method right where it left off. For more information on using the [await](https://msdn.microsoft.com/library/hh156528(VS.110).aspx) and [async](https://msdn.microsoft.com/library/hh156513(VS.110).aspx) keywords and the [Task](https://msdn.microsoft.com/library/system.threading.tasks.task.aspx) namespace, see the [async references](https://docs.microsoft.com/dotnet/csharp/language-reference/keywords/async).
+The **await** keyword does not block the thread until the task is complete. It signs up the rest of the method as a callback on the task, and immediately returns. When the awaited task eventually completes, it will invoke that callback and thus resume the execution of the method right where it left off. For more information on using the [await](https://msdn.microsoft.com/library/hh156528(VS.110).aspx) and [async](https://msdn.microsoft.com/library/hh156513(VS.110).aspx) keywords and the [Task](https://msdn.microsoft.com/library/system.threading.tasks.task.aspx) namespace, see the [async references](/dotnet/csharp/language-reference/keywords/async).
 
 The following code shows the `GetGizmos` and `GetGizmosAsync` methods.
 
@@ -170,4 +170,4 @@ To realize the benefits of an asynchronous web application, you might need to ma
     - [How to set an IIS Application or AppPool to use ASP.NET 3.5 rather than 2.0](http://www.hanselman.com/blog/HowToSetAnIISApplicationOrAppPoolToUseASPNET35RatherThan20.aspx)
     - [.NET Framework Versions and Dependencies](https://msdn.microsoft.com/library/bb822049(VS.110).aspx)
 - If your application is using web services or System.NET to communicate with a backend over HTTP you may need to increase the [connectionManagement/maxconnection](https://msdn.microsoft.com/library/fb6y0fyc(VS.110).aspx) element. For ASP.NET applications, this is limited by the autoConfig feature to 12 times the number of CPUs. That means that on a quad-proc, you can have at most 12 \* 4 = 48 concurrent connections to an IP end point. Because this is tied to [autoConfig](https://msdn.microsoft.com/library/7w2sway1(VS.110).aspx), the easiest way to increase `maxconnection` in an ASP.NET application is to set [System.Net.ServicePointManager.DefaultConnectionLimit](https://msdn.microsoft.com/library/system.net.servicepointmanager.defaultconnectionlimit(VS.110).aspx) programmatically in the from `Application_Start` method in the *global.asax* file. See the sample download for an example.
-- In .NET 4.5, the default of 5000 for [MaxConcurrentRequestsPerCPU](https://blogs.msdn.com/tmarq/archive/2007/07/21/asp-net-thread-usage-on-iis-7-0-and-6-0.aspx) should be fine.
+- In .NET 4.5, the default of 5000 for [MaxConcurrentRequestsPerCPU](/archive/blogs/tmarq/asp-net-thread-usage-on-iis-7-5-iis-7-0-and-iis-6-0) should be fine.

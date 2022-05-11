@@ -13,7 +13,7 @@ msc.type: authoredcontent
 
 by [Scott Mitchell](https://twitter.com/ScottOnWriting)
 
-[Download Sample App](http://download.microsoft.com/download/9/c/1/9c1d03ee-29ba-4d58-aa1a-f201dcc822ea/ASPNET_Data_Tutorial_17_VB.exe) or [Download PDF](examining-the-events-associated-with-inserting-updating-and-deleting-vb/_static/datatutorial17vb1.pdf)
+[Download PDF](examining-the-events-associated-with-inserting-updating-and-deleting-vb/_static/datatutorial17vb1.pdf)
 
 > In this tutorial we'll examine using the events that occur before, during, and after an insert, update, or delete operation of an ASP.NET data Web control. We'll also see how to customize the editing interface to only update a subset of the product fields.
 
@@ -97,7 +97,7 @@ Our GridView, along with the `UpdateProduct` overload, allows a user to edit jus
 **Figure 6**: The Interface Allows Editing Just the Product's Name and Price ([Click to view full-size image](examining-the-events-associated-with-inserting-updating-and-deleting-vb/_static/image18.png))
 
 > [!NOTE]
-> As discussed in the previous tutorial, it is vitally important that the GridView s view state be enabled (the default behavior). If you set the GridView s `EnableViewState` property to `false`, you run the risk of having concurrent users unintentionally deleting or editing records. See [WARNING: Concurrency Issue with ASP.NET 2.0 GridViews/DetailsView/FormViews that Support Editing and/or Deleting and Whose View State is Disabled](http://scottonwriting.net/sowblog/posts/10054.aspx) for more information.
+> As discussed in the previous tutorial, it is vitally important that the GridView s view state be enabled (the default behavior). If you set the GridView s `EnableViewState` property to `false`, you run the risk of having concurrent users unintentionally deleting or editing records. 
 
 ## Improving the`UnitPrice`Formatting
 

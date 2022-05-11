@@ -1,20 +1,19 @@
 ---
 uid: mvc/overview/older-versions-1/views/creating-custom-html-helpers-cs
 title: "Creating Custom HTML Helpers (C#) | Microsoft Docs"
-author: microsoft
+author: rick-anderson
 description: "The goal of this tutorial is to demonstrate how you can create custom HTML Helpers that you can use within your MVC views. By taking advantage of HTML Helper..."
 ms.author: riande
 ms.date: 10/07/2008
 ms.assetid: e454c67d-a86e-4119-a858-eb04bbec2dff
 msc.legacyurl: /mvc/overview/older-versions-1/views/creating-custom-html-helpers-cs
 msc.type: authoredcontent
-uid: aspnet/mvc/overview/older-versions-1/views/creating-custom-html-helpers-cs
 ---
 # Creating Custom HTML Helpers (C#)
 
 by [Microsoft](https://github.com/microsoft)
 
-[Download PDF](http://download.microsoft.com/download/1/1/f/11f721aa-d749-4ed7-bb89-a681b68894e6/ASPNET_MVC_Tutorial_9_CS.pdf)
+[Download PDF](https://download.microsoft.com/download/1/1/f/11f721aa-d749-4ed7-bb89-a681b68894e6/ASPNET_MVC_Tutorial_9_CS.pdf)
 
 > The goal of this tutorial is to demonstrate how you can create custom HTML Helpers that you can use within your MVC views. By taking advantage of HTML Helpers, you can reduce the amount of tedious typing of HTML tags that you must perform to create a standard HTML page.
 

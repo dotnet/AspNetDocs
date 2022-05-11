@@ -1,8 +1,8 @@
 ---
 uid: web-api/overview/advanced/http-message-handlers
-title: "HTTP Message Handlers in ASP.NET Web API - ASP.NET 4.x"
-author: MikeWasson
-description: "An overview of HTTP message handlers in ASP.NET Web API for ASP.NET 4.x"
+title: HTTP Message Handlers in ASP.NET Web API - ASP.NET 4.x
+author: Rick-Anderson
+description: An overview of HTTP message handlers in ASP.NET Web API for ASP.NET 4.x
 ms.author: riande
 ms.date: 02/13/2012
 ms.custom: seoapril2019
@@ -12,13 +12,11 @@ msc.type: authoredcontent
 ---
 # HTTP Message Handlers in ASP.NET Web API
 
-by [Mike Wasson](https://github.com/MikeWasson)
-
 A *message handler* is a class that receives an HTTP request and returns an HTTP response. Message handlers derive from the abstract **HttpMessageHandler** class.
 
 Typically, a series of message handlers are chained together. The first handler receives an HTTP request, does some processing, and gives the request to the next handler. At some point, the response is created and goes back up the chain. This pattern is called a *delegating* handler.
 
-![](http-message-handlers/_static/image1.png)
+![Diagram of message handlers chained together, illustrating process to receive an H T T P request and return an H T T P response.](http-message-handlers/_static/image1.png)
 
 ## Server-Side Message Handlers
 
@@ -36,7 +34,7 @@ You can add custom handlers to the pipeline. Message handlers are good for cross
 
 This diagram shows two custom handlers inserted into the pipeline:
 
-![](http-message-handlers/_static/image2.png)
+![Diagram of server-side message handlers, displaying two custom handlers inserted into the Web A P I pipeline.](http-message-handlers/_static/image2.png)
 
 > [!NOTE]
 > On the client side, HttpClient also uses message handlers. For more information, see [HttpClient Message Handlers](httpclient-message-handlers.md).
@@ -67,7 +65,7 @@ A delegating handler can also skip the inner handler and directly create the res
 
 If a delegating handler creates the response without calling `base.SendAsync`, the request skips the rest of the pipeline. This can be useful for a handler that validates the request (creating an error response).
 
-![](http-message-handlers/_static/image3.png)
+![Diagram of custom message handlers, illustrating process to create the response without calling base dot Send Async.](http-message-handlers/_static/image3.png)
 
 ## Adding a Handler to the Pipeline
 
@@ -134,13 +132,13 @@ Alternatively, you can add a message handler to a specific route when you define
 
 In this example, if the request URI matches "Route2", the request is dispatched to `MessageHandler2`. The following diagram shows the pipeline for these two routes:
 
-![](http-message-handlers/_static/image4.png)
+![Diagram of per route message handlers pipeline, illustrating process to add a message handler to a specific route by defining the route.](http-message-handlers/_static/image4.png)
 
 Notice that `MessageHandler2` replaces the default **HttpControllerDispatcher**. In this example, `MessageHandler2` creates the response, and requests that match "Route2" never go to a controller. This lets you replace the entire Web API controller mechanism with your own custom endpoint.
 
 Alternatively, a per-route message handler can delegate to **HttpControllerDispatcher**, which then dispatches to a controller.
 
-![](http-message-handlers/_static/image5.png)
+![Diagram of per route message handlers pipeline, showing process to delegate to h t t p Controller Dispatcher, which then dispatches to a controller.](http-message-handlers/_static/image5.png)
 
 The following code shows how to configure this route:
 

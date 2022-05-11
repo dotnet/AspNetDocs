@@ -6,7 +6,6 @@ description: "Links to ASP.NET WebHooks source code and NuGet packages"
 ms.author: riande
 ms.date: 01/17/2012
 ms.assetid: 91a62bfa-ea3a-41f9-a2e1-e90d2c8fc8ca
-uid: webhooks/source
 ---
 # ASP.NET WebHooks source code and NuGet packages
 
@@ -20,6 +19,6 @@ The [NuGet packages](https://nuget.org/packages?q=Microsoft.AspNet.WebHooks) are
 
 * [Common](https://www.nuget.org/packages?q=Microsoft.AspNet.WebHooks.Common): A common package that is shared between senders and receivers.
 
-* [Sender](https://www.nuget.org/packages?q=Microsoft.AspNet.WebHooks.Custom): A set of packages supporting sending your own WebHooks to others. The functionality for sending WebHooks is described in more detail in [Sending WebHooks](sending/senders).
+* [Sender](https://www.nuget.org/packages?q=Microsoft.AspNet.WebHooks.Custom): A set of packages supporting sending your own WebHooks to others. The functionality for sending WebHooks is described in more detail in [Sending WebHooks](sending/senders.md).
 
 * [Receivers](https://www.nuget.org/packages?q=Microsoft.AspNet.WebHooks.Receivers): A set of packages supporting receiving WebHooks from others. The functionality for receiving WebHooks is described in more detail in [Receiving WebHooks](receiving/index.md).

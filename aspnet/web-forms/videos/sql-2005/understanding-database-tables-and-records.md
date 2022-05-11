@@ -1,7 +1,7 @@
 ---
 uid: web-forms/videos/sql-2005/understanding-database-tables-and-records
 title: "Understanding Database Tables and Records | Microsoft Docs"
-author: microsoft
+author: rick-anderson
 description: "SQL Server beginners will learn about tables and definitions of data types, properties, keys, etc. in this second video. Find out how table rows, columns, an..."
 ms.author: riande
 ms.date: 03/29/2006

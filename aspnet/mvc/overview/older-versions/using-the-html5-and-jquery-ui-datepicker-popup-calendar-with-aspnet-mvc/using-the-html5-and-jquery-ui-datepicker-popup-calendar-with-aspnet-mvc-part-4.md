@@ -11,7 +11,7 @@ msc.type: authoredcontent
 ---
 # Using the HTML5 and jQuery UI Datepicker Popup Calendar with ASP.NET MVC - Part 4
 
-by [Rick Anderson]((https://twitter.com/RickAndMSFT))
+by [Rick Anderson](https://twitter.com/RickAndMSFT)
 
 > This tutorial will teach you the basics of how to work with editor templates, display templates, and the jQuery UI datepicker popup calendar in an ASP.NET MVC Web application.
 
@@ -27,7 +27,7 @@ This code causes the `ReleaseDate` field to be displayed without the time in bot
 
 Press CTRL+F5 to run the application. Select an edit link to verify that the input field for the release date is showing only the date.
 
-![](using-the-html5-and-jquery-ui-datepicker-popup-calendar-with-aspnet-mvc-part-4/_static/image1.png)
+![Image of movie release date](using-the-html5-and-jquery-ui-datepicker-popup-calendar-with-aspnet-mvc-part-4/_static/image1.png)
 
 In **Solution Explorer**, expand the *Views* folder, expand the *Shared* folder, and then right-click the *Views\Shared\EditorTemplates* folder.
 
@@ -53,7 +53,7 @@ The `date` type is an HTML5 input type that enables HTML5-aware browsers to rend
 
 Press CTRL+F5 to run the application. You can verify that the `ReleaseDate` property in the edit view is using the edit template because the template displays &quot;Using Date Template&quot; just before the `ReleaseDate` text input box, as shown in this image:
 
-![](using-the-html5-and-jquery-ui-datepicker-popup-calendar-with-aspnet-mvc-part-4/_static/image2.png)
+![Image verifying template used](using-the-html5-and-jquery-ui-datepicker-popup-calendar-with-aspnet-mvc-part-4/_static/image2.png)
 
 In your browser, view the source of the page. (For example, right-click the page and select **View source**.) The following example shows some of the markup for the page, illustrating the `class` and `type` attributes in the rendered HTML.
 
@@ -71,19 +71,19 @@ First, you have to install the jQuery UI libraries. To do that, you'll use NuGet
 
 In Visual Web Developer, from the **Tools** menu, select **NuGet Package Manager** and then select **Manage NuGet Packages**.
 
-![](using-the-html5-and-jquery-ui-datepicker-popup-calendar-with-aspnet-mvc-part-4/_static/image3.png)
+![Image showing how to access Manage Nu Get Packages menu option](using-the-html5-and-jquery-ui-datepicker-popup-calendar-with-aspnet-mvc-part-4/_static/image3.png)
 
 Note: If the **Tools** menu doesn't display the **NuGet Package Manager** command, you need to install NuGet by following the instructions on the [Installing NuGet](http://docs.nuget.org/docs/start-here/installing-nuget) page of the NuGet website.   
   
 If you're using Visual Studio instead of Visual Web Developer, from the **Tools** menu, select **NuGet Package Manager** and then select **Add Library Package Reference**.
 
-![](using-the-html5-and-jquery-ui-datepicker-popup-calendar-with-aspnet-mvc-part-4/_static/image4.png)
+![Image showing Visual Studio version to access Nu Get Package manager](using-the-html5-and-jquery-ui-datepicker-popup-calendar-with-aspnet-mvc-part-4/_static/image4.png)
 
 In the **MVCMovie - Manage NuGet Packages** dialog box, click the **Online** tab on the left and then enter &quot;jQuery.UI&quot; in the search box. Select j **Query UI Widgets:Datepicker**, then select the **Install** button.
 
-![](using-the-html5-and-jquery-ui-datepicker-popup-calendar-with-aspnet-mvc-part-4/_static/image5.png)
+![Image showing j Query U I date picker](using-the-html5-and-jquery-ui-datepicker-popup-calendar-with-aspnet-mvc-part-4/_static/image5.png)
 
-![](using-the-html5-and-jquery-ui-datepicker-popup-calendar-with-aspnet-mvc-part-4/_static/image6.png)
+![Image 2](using-the-html5-and-jquery-ui-datepicker-popup-calendar-with-aspnet-mvc-part-4/_static/image6.png)
 
 NuGet adds these debug versions and minified versions of jQuery UI Core and the jQuery UI date picker to your project:
 
@@ -123,7 +123,7 @@ The [URL content helper](https://msdn.microsoft.com/library/system.web.mvc.urlhe
 
 Press CTRL+F5 to run the application. Select an edit link, then put the insertion point into the **ReleaseDate** field. The jQuery UI popup calendar is displayed.
 
-![](using-the-html5-and-jquery-ui-datepicker-popup-calendar-with-aspnet-mvc-part-4/_static/image7.png)
+![Image of release date field with date picker](using-the-html5-and-jquery-ui-datepicker-popup-calendar-with-aspnet-mvc-part-4/_static/image7.png)
 
 Like most jQuery controls, the datepicker lets you customize it extensively. For information, see [Visual Customization: Designing a jQuery UI theme](http://learn.jquery.com/jquery-ui/getting-started/#visual-customization-designing-a-jquery-ui-theme) on the [jQuery UI](http://learn.jquery.com/jquery-ui/getting-started/) site.
 
@@ -137,7 +137,7 @@ The first line of this script uses Modernizr to verify that HTML5 date input is 
 
 After you've made this change, you can test it by using a browser that supports HTML5, such as Opera 11. Run the application using an HTML5-compatible browser and edit a movie entry. The HTML5 date control is used instead of the jQuery UI popup calendar:
 
-![](using-the-html5-and-jquery-ui-datepicker-popup-calendar-with-aspnet-mvc-part-4/_static/image8.png)
+![Image of H T M L 5 date control](using-the-html5-and-jquery-ui-datepicker-popup-calendar-with-aspnet-mvc-part-4/_static/image8.png)
 
 Because new versions of browsers are implementing HTML5 incrementally, a good approach for now is to add code to your website that accommodates a wide variety of HTML5 support. For example, a more robust *DatePickerReady.js* script is shown below that lets your site support browsers that only partially support the HTML5 date control.
 
@@ -163,7 +163,7 @@ When this code runs, if the model is not null, the model's `DateTime` value is u
 
 This tutorial has covered the basics of ASP.NET templated helpers and shows you how to use the jQuery UI datepicker popup calendar in an ASP.NET MVC application. For more information, try these resources:
 
-- For information on localization, see Rajeesh's blog [JQueryUI Datepicker in ASP.NET MVC](http://www.rajeeshcv.com/2010/02/jqueryui-datepicker-in-asp-net-mvc/).
+- For information on localization, see Rajeesh's blog [JQueryUI Datepicker in ASP.NET MVC](https://www.rajeeshcv.com/2010/02/28/jqueryui-datepicker-in-asp-net-mvc/).
 - For information about jQuery UI, see [jQuery UI](http://docs.jquery.com/UI).
 - For information about how to localize the datepicker control, see [UI/Datepicker/Localization](http://docs.jquery.com/UI/Datepicker/Localization).
 - For more information about the ASP.NET MVC templates, see Brad Wilson's blog series on [ASP.NET MVC 2 Templates](http://bradwilson.typepad.com/blog/2009/10/aspnet-mvc-2-templates-part-1-introduction.html). Although the series was written for ASP.NET MVC 2, the material still applies for the current version of ASP.NET MVC.

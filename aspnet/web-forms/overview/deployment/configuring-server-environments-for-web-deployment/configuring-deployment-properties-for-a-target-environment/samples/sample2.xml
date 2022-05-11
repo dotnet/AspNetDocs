@@ -21,7 +21,7 @@
         DemoSite/ContactManagerService
     </ContactManagerServiceIisPath>
     <CmDatabaseConnectionString Condition=" '$(CmDatabaseConnectionString)'=='' ">
-      Data Source=STAGEDB1;User ID=sa;Password=Pa$$w0rd;
+      Data Source=STAGEDB1;User ID=sa;'$($CREDENTIAL_PLACEHOLDER$)'
     </CmDatabaseConnectionString>
     <CmTargetDatabase Condition=" '$(CmTargetDatabase)'=='' ">
       ContactManager

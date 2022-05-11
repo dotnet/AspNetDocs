@@ -2,7 +2,7 @@
 uid: mvc/overview/older-versions/mvc-music-store/mvc-music-store-part-8
 title: "Part 8: Shopping Cart with Ajax Updates | Microsoft Docs"
 author: jongalloway
-description: "This tutorial series details all of the steps taken to build the ASP.NET MVC Music Store sample application. Part 8 covers Shopping Cart with Ajax Updates."
+description: This tutorial series details all of the steps taken to build the ASP.NET MVC Music Store sample application. Part 8 covers Shopping Cart with Ajax Updates.
 ms.author: riande
 ms.date: 04/21/2011
 ms.assetid: 26b2f55e-ed42-4277-89b0-c941eb754145
@@ -81,11 +81,11 @@ We'll create two View Models for use in our Shopping Cart controller: the Shoppi
 
 Let's create a new ViewModels folder in the root of our project to keep things organized. Right-click the project, select Add / New Folder.
 
-![](mvc-music-store-part-8/_static/image1.jpg)
+![Screenshot of the project window showing the right-click menu with the Add and New Folder options highlighted in yellow.](mvc-music-store-part-8/_static/image1.jpg)
 
 Name the folder ViewModels.
 
-![](mvc-music-store-part-8/_static/image1.png)
+![Screenshot of the Solution Explorer showing the newly created and newly named folder, View Models, highlighted with a black box.](mvc-music-store-part-8/_static/image1.png)
 
 Next, add the ShoppingCartViewModel class in the ViewModels folder. It has two properties: a list of Cart items, and a decimal value to hold the total price for all items in the cart.
 
@@ -101,7 +101,7 @@ The Shopping Cart controller has three main purposes: adding items to a cart, re
 
 Add a new Shopping Cart controller to the project using the Empty controller template.
 
-![](mvc-music-store-part-8/_static/image2.png)
+![Screenshot of the Add Controller window with Shopping Cart Controller in the Controller name field and highlighted in blue.](mvc-music-store-part-8/_static/image2.png)
 
 Here's the complete ShoppingCart Controller. The Index and Add Controller actions should look very familiar. The Remove and CartSummary controller actions handle two special cases, which we'll discuss in the following section.
 
@@ -111,7 +111,7 @@ Here's the complete ShoppingCart Controller. The Index and Add Controller action
 
 We'll next create a Shopping Cart Index page that is strongly typed to the ShoppingCartViewModel and uses the List View template using the same method as before.
 
-![](mvc-music-store-part-8/_static/image3.png)
+![Screenshot of the Add View window showing the View name field, the View engine, Model Class, and Scaffold dropdowns, and the Use a layout file picker.](mvc-music-store-part-8/_static/image3.png)
 
 However, instead of using an Html.ActionLink to remove items from the cart, we'll use jQuery to "wire up" the click event for all links in this view which have the HTML class RemoveLink. Rather than posting the form, this click event handler will just make an AJAX callback to our RemoveFromCart controller action. The RemoveFromCart returns a JSON serialized result, which our jQuery callback then parses and performs four quick updates to the page using jQuery:
 
@@ -130,23 +130,23 @@ In order to test this out, we need to be able to add items to our shopping cart.
 
 Now we can click through the store and test adding and removing Albums to and from our shopping cart. Run the application and browse to the Store Index.
 
-![](mvc-music-store-part-8/_static/image4.png)
+![Screenshot of the Music Store window showing the genre details defined from all album data entered into the database.](mvc-music-store-part-8/_static/image4.png)
 
 Next, click on a Genre to view a list of albums.
 
-![](mvc-music-store-part-8/_static/image5.png)
+![Screenshot of the Music Store window showing the list of albums associated with the Disco genre in the album database.](mvc-music-store-part-8/_static/image5.png)
 
 Clicking on an Album title now shows our updated Album Details view, including the "Add to cart" button.
 
-![](mvc-music-store-part-8/_static/image6.png)
+![Screenshot of the Music Store window showing the updated Album Details view and the Add to cart button.](mvc-music-store-part-8/_static/image6.png)
 
 Clicking the "Add to cart" button shows our Shopping Cart Index view with the shopping cart summary list.
 
-![](mvc-music-store-part-8/_static/image7.png)
+![Screenshot of the Music Store window showing the Shopping Cart view with a summary list of all items in the cart.](mvc-music-store-part-8/_static/image7.png)
 
 After loading up your shopping cart, you can click on the Remove from cart link to see the Ajax update to your shopping cart.
 
-![](mvc-music-store-part-8/_static/image8.png)
+![Screenshot of the Music Store window showing the Shopping Cart view with the album removed from the summary list.](mvc-music-store-part-8/_static/image8.png)
 
 We've built out a working shopping cart which allows unregistered users to add items to their cart. In the following section, we'll allow them to register and complete the checkout process.
 

@@ -11,7 +11,6 @@ msc.type: authoredcontent
 ---
 # Getting Started with ASP.NET 4.5 Web Forms and Visual Studio 2017
 
-[Download Wingtip Toys Sample Project (C#)](http://go.microsoft.com/fwlink/?LinkID=389434&clcid=0x409) or [Download E-book (PDF)](http://download.microsoft.com/download/0/F/B/0FBFAA46-2BFD-478F-8E56-7BF3C672DF9D/Getting%20Started%20with%20ASP.NET%204.5%20Web%20Forms%20and%20Visual%20Studio%202013.pdf)
 
 This tutorial series shows you how to build an ASP.NET Web Forms application with ASP.NET 4.5 and Microsoft Visual Studio 2017. 
 
@@ -174,7 +173,7 @@ To run the completed project, open the *WingtipToys* folder and double-click the
 
 After completing the tutorial series, take a quiz to test your knowledge and reinforce key concepts. Each question provides an explanation and links to additional guidance.
 
-* [ASP.NET Web Forms Quiz](https://blogs.msdn.microsoft.com/erikreitan/2016/01/08/asp-net-web-forms-quiz/) 
+* [ASP.NET Web Forms Quiz](/archive/blogs/erikreitan/asp-net-web-forms-quiz) 
 
 ## Tutorial support and comments
 

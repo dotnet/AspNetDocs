@@ -13,7 +13,7 @@ msc.type: authoredcontent
 
 by [Scott Mitchell](https://twitter.com/ScottOnWriting)
 
-[Download PDF](http://download.microsoft.com/download/2/F/7/2F705A34-F9DE-4112-BBDE-60098089645E/aspnet_tutorial01_Basics_vb.pdf)
+[Download PDF](https://download.microsoft.com/download/2/F/7/2F705A34-F9DE-4112-BBDE-60098089645E/aspnet_tutorial01_Basics_vb.pdf)
 
 > This is the first tutorial in a series of tutorials that will explore techniques for authenticating visitors through a web form, authorizing access to particular pages and functionality, and managing user accounts in an ASP.NET application.
 
@@ -87,7 +87,7 @@ Once the user has successfully logged in, subsequent HTTP requests include the f
 
 **Figure 2**: The Forms Authentication Workflow
 
-We will dig into forms authentication in much greater detail in the next two tutorials,[An Overview of Forms Authentication](an-overview-of-forms-authentication-vb.md) and [Forms Authentication Configuration and Advanced Topics](forms-authentication-configuration-and-advanced-topics-vb.md). For more on ASP.NET's authentication options, see [ASP.NET Authentication](https://msdn.microsoft.com/library/eeyk640h.aspx).
+We will dig into forms authentication in much greater detail in the next tutorial,[An Overview of Forms Authentication](an-overview-of-forms-authentication-vb.md). For more on ASP.NET's authentication options, see [ASP.NET Authentication](https://msdn.microsoft.com/library/eeyk640h.aspx).
 
 ## Limiting Access to Web Pages, Directories, and Page Functionality
 
@@ -177,5 +177,4 @@ For more information on the topics discussed in this tutorial, refer to the foll
 This tutorial series was reviewed by many helpful reviewers. Lead reviewer for this tutorial was This tutorial series was reviewed by many helpful reviewers. Lead reviewers for this tutorial include Alicja Maziarz, John Suru, and Teresa Murphy. Interested in reviewing my upcoming MSDN articles? If so, drop me a line at [mitchell@4GuysFromRolla.com.](mailto:mitchell@4GuysFromRolla.com)
 
 > [!div class="step-by-step"]
-> [Previous](forms-authentication-configuration-and-advanced-topics-cs.md)
 > [Next](an-overview-of-forms-authentication-vb.md)

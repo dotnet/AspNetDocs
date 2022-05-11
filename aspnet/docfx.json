@@ -35,16 +35,15 @@
     ],
     "overwrite": [],
     "externalReference": [],
-    "xrefService": [
-      "https://xref.docs.microsoft.com/query?uid={uid}"
-    ],
     "globalMetadata": {
       "_navPath": "/foo",
       "_navRel": "/foo",
       "breadcrumb_path": "/aspnet/breadcrumb/toc.json",
+      "recommendations": true,
+      "extendBreadcrumb": true,
       "ms.prod": "aspnet-framework",
       "ms.topic": "conceptual",
-      "uhfHeaderId": "MSDocsHeader-DotNet",
+      "uhfHeaderId": "MSDocsHeader-AspNet",
       "searchScope": [
         "ASP.NET"
       ],
@@ -70,6 +69,9 @@
         "web-pages/**/**.md": "aspnet-webpages",
         "webhooks/**/**.md": "aspnet-webhooks",
         "whitepapers/**/**.md": "aspnet-whitepapers"
+      },
+      "recommendations": {
+        "mvc/overview/getting-started/introduction/*.md": false
       }
     },
     "template": [],

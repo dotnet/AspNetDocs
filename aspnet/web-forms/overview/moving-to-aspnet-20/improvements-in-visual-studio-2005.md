@@ -1,7 +1,7 @@
 ---
 uid: web-forms/overview/moving-to-aspnet-20/improvements-in-visual-studio-2005
 title: "Improvements in Visual Studio 2005 | Microsoft Docs"
-author: microsoft
+author: rick-anderson
 description: "Visual Studio 2005 provides Web application developers with a long list of improvements and enhancements to Web projects."
 ms.author: riande
 ms.date: 02/20/2005
@@ -30,7 +30,7 @@ For those developers who want to use FrontPage Server Extensions in their projec
 > [!NOTE]
 > FrontPage Server Extensions are still required for remote project creation, opening, etc.
 
-## ASP.NET Development Server
+## ASP.NET Development Server Overview
 
 Visual Studio 2005 ships with a new Web server called ASP.NET Development Server. (This Web server was previously known as Cassini.)
 
@@ -56,7 +56,7 @@ Web developers have many new options available for project creation in Visual St
 
 Click here to view a video walkthrough of creating Web projects in Visual Studio 2005.
 
-![](improvements-in-visual-studio-2005/_static/image1.png)
+:::image type="icon" source="improvements-in-visual-studio-2005/_static/image1.png" link="improvements-in-visual-studio-2005/_static/creating_projects1.wmv":::
 
 [Open Full-Screen Video](improvements-in-visual-studio-2005/_static/creating_projects1.wmv)
 
@@ -246,7 +246,7 @@ Another great enhancement to Visual Studio and the ASP.NET architecture is in th
 
 Click here to see a video walkthrough of the edit and continue feature in Visual Studio 2005.
 
-![](improvements-in-visual-studio-2005/_static/image2.png)
+:::image type="icon" source="improvements-in-visual-studio-2005/_static/image2.png" link="improvements-in-visual-studio-2005/_static/editcontinue1.wmv":::
 
 [Open Full-Screen Video](improvements-in-visual-studio-2005/_static/editcontinue1.wmv)
 
@@ -256,7 +256,7 @@ In Visual Studio 2005 using ASP.NET 2.0, the two compilation models outline abov
 
 Click here to see a video walkthrough of designer support for user controls.
 
-![](improvements-in-visual-studio-2005/_static/image3.png)
+:::image type="icon" source="improvements-in-visual-studio-2005/_static/image3.png" link="improvements-in-visual-studio-2005/_static/usercontrols1.wmv":::
 
 [Open Full-Screen Video](improvements-in-visual-studio-2005/_static/usercontrols1.wmv)
 
@@ -303,7 +303,7 @@ If you are copying a project to a remote Web site, that site must have the Front
 
 Click here for a video walkthrough of the Copy Web Site feature.
 
-![](improvements-in-visual-studio-2005/_static/image4.png)
+![Screenshot of the video walkthrough of the Copy Web Site feature in Visual Studio.](improvements-in-visual-studio-2005/_static/image4.png)
 
 [Open Full-Screen Video](improvements-in-visual-studio-2005/_static/copysite1.wmv)
 
@@ -358,7 +358,7 @@ This lab will walk you through remote debugging with Visual Studio 2005.
 
 Click here for a video walkthrough of this lab.
 
-![](improvements-in-visual-studio-2005/_static/image5.png)
+![Screenshot of the video walkthrough of remote debugging in Visual Studio.](improvements-in-visual-studio-2005/_static/image5.png)
 
 [Open Full-Screen Video](improvements-in-visual-studio-2005/_static/remdebug1.wmv)
 
@@ -377,7 +377,7 @@ This lab requires you to have two machines, one running Visual Studio 2005 and t
 
 You should hit the breakpoint as expected.
 
-## ASP.NET Development Server
+## Launching ASP.NET Development Server
 
 As we've already discussed, Visual Studio 2005 ships with a Web server called the ASP.NET Development Server. (The ASP.NET Development Server is sometimes referred to as Cassini.) This Web server is a convenient means to browse and debug Web applications running on the file system.
 
@@ -385,7 +385,7 @@ The ASP.NET Development Server is a restricted Web server. It does not allow rem
 
 The ASP.NET Development Server can be launched via the command line by running the WebDev.WebServer.exe file located at c:/Windows/Microsoft.NET/Framework/v2.0./*/*/*/*/*. The following dialog displays the parameters that are available.
 
-![](improvements-in-visual-studio-2005/_static/image11.jpg)
+![Screenshot of Visual Studio dialogue box displaying the parameters for launching A S P dot net Development server from the command line.](improvements-in-visual-studio-2005/_static/image11.jpg)
 
 **Figure 14**
 

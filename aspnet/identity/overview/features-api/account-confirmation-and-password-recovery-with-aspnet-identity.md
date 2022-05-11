@@ -22,19 +22,19 @@ A local user account requires the user to create a password for the account, and
 
 New users register their email alias, which creates a local account.
 
-![](account-confirmation-and-password-recovery-with-aspnet-identity/_static/image1.png)
+![Image of the account register window](account-confirmation-and-password-recovery-with-aspnet-identity/_static/image1.png)
 
 Selecting the Register button sends a confirmation email containing a validation token to their email address.
 
-![](account-confirmation-and-password-recovery-with-aspnet-identity/_static/image2.png)
+![Image showing email sent confirmation](account-confirmation-and-password-recovery-with-aspnet-identity/_static/image2.png)
 
 The user is sent an email with a confirmation token for their account.
 
-![](account-confirmation-and-password-recovery-with-aspnet-identity/_static/image3.png)
+![Image of confirmation token](account-confirmation-and-password-recovery-with-aspnet-identity/_static/image3.png)
 
 Selecting the link confirms the account.
 
-![](account-confirmation-and-password-recovery-with-aspnet-identity/_static/image4.png)
+![Image confirming email address](account-confirmation-and-password-recovery-with-aspnet-identity/_static/image4.png)
 
 <a id="passwordReset"></a>
 
@@ -42,18 +42,18 @@ Selecting the link confirms the account.
 
 Local users who forget their password can have a security token sent to their email account, enabling them to reset their password.  
   
-![](account-confirmation-and-password-recovery-with-aspnet-identity/_static/image5.png)  
+![Image of forgot password reset window](account-confirmation-and-password-recovery-with-aspnet-identity/_static/image5.png)  
   
 The user will soon get an email with a link allowing them to reset their password.  
   
-![](account-confirmation-and-password-recovery-with-aspnet-identity/_static/image6.png)  
+![Image showing reset password email](account-confirmation-and-password-recovery-with-aspnet-identity/_static/image6.png)  
 Selecting the link will take them to the Reset page.  
   
-![](account-confirmation-and-password-recovery-with-aspnet-identity/_static/image7.png)  
+![Image showing user password reset window](account-confirmation-and-password-recovery-with-aspnet-identity/_static/image7.png)  
   
 Selecting the **Reset** button will confirm the password has been reset.  
   
-![](account-confirmation-and-password-recovery-with-aspnet-identity/_static/image8.png)
+![Image showing password reset confirmation](account-confirmation-and-password-recovery-with-aspnet-identity/_static/image8.png)
 
 <a id="createMvc"></a>
 
@@ -68,16 +68,16 @@ Start by installing and running [Visual Studio 2017](https://visualstudio.micros
 
     The following image shows the `AspNetUsers` schema:
 
-    ![](account-confirmation-and-password-recovery-with-aspnet-identity/_static/image9.png)
+    ![Image showing A s p Net  Users schema](account-confirmation-and-password-recovery-with-aspnet-identity/_static/image9.png)
 5. Right-click on the **AspNetUsers** table and select **Show Table Data**.  
   
-    ![](account-confirmation-and-password-recovery-with-aspnet-identity/_static/image10.png)  
+    ![Image showing table data](account-confirmation-and-password-recovery-with-aspnet-identity/_static/image10.png)  
   
    At this point the email has not been confirmed.
 
 The default data store for ASP.NET Identity is Entity Framework, but you can configure it to use other data stores and to add additional fields. See [Additional Resources](#addRes) section at the end of this tutorial.
 
-The [OWIN startup class](../../../aspnet/overview/owin-and-katana/owin-startup-class-detection.md) ( *Startup.cs* ) is called when the app starts and invokes the `ConfigureAuth` method in *App\_Start\Startup.Auth.cs*, which configures the OWIN pipeline and initializes ASP.NET Identity. Examine the `ConfigureAuth` method. Each `CreatePerOwinContext` call registers a callback (saved in the `OwinContext`) that will be called once per request to create an instance of the specified type. You can set a break point in the constructor and `Create` method of each type (`ApplicationDbContext, ApplicationUserManager`) and verify they are called on each request. A instance of `ApplicationDbContext` and `ApplicationUserManager` is stored in the OWIN context, which can be accessed throughout the application. ASP.NET Identity hooks into the OWIN pipeline through cookie middleware. For more information, see [Per request lifetime management for UserManager class in ASP.NET Identity](https://blogs.msdn.com/b/webdev/archive/2014/02/12/per-request-lifetime-management-for-usermanager-class-in-asp-net-identity.aspx).
+The [OWIN startup class](../../../aspnet/overview/owin-and-katana/owin-startup-class-detection.md) ( *Startup.cs* ) is called when the app starts and invokes the `ConfigureAuth` method in *App\_Start\Startup.Auth.cs*, which configures the OWIN pipeline and initializes ASP.NET Identity. Examine the `ConfigureAuth` method. Each `CreatePerOwinContext` call registers a callback (saved in the `OwinContext`) that will be called once per request to create an instance of the specified type. You can set a break point in the constructor and `Create` method of each type (`ApplicationDbContext, ApplicationUserManager`) and verify they are called on each request. A instance of `ApplicationDbContext` and `ApplicationUserManager` is stored in the OWIN context, which can be accessed throughout the application. ASP.NET Identity hooks into the OWIN pipeline through cookie middleware. For more information, see [Per request lifetime management for UserManager class in ASP.NET Identity](https://devblogs.microsoft.com/dotnet/per-request-lifetime-management-for-usermanager-class-in-asp-net-identity/).
 
 When you change your security profile, a new security stamp is generated and stored in the `SecurityStamp` field of the *AspNetUsers* table. Note, the `SecurityStamp` field is different from the security cookie. The security cookie is not stored in the `AspNetUsers` table (or anywhere else in the Identity DB). The security cookie token is self-signed using [DPAPI](https://msdn.microsoft.com/library/system.security.cryptography.protecteddata.aspx) and is created with the `UserId, SecurityStamp` and expiration time information.
 
@@ -85,11 +85,11 @@ The cookie middleware checks the cookie on each request. The `SecurityStampValid
 
 Per the comments in the code, the `UseCookieAuthentication` method supports cookie authentication. The `SecurityStamp` field and associated code provides an extra layer of security to your app, when you change your password, you will be logged out of the browser you logged in with. The `SecurityStampValidator.OnValidateIdentity` method enables the app to validate the security token when the user logs in, which is used when you change a password or use the external login. This is needed to ensure that any tokens (cookies) generated with the old password are invalidated. In the sample project, if you change the users password then a new token is generated for the user, any previous tokens are invalidated and the `SecurityStamp` field is updated.
 
-The Identity system allow you to configure your app so when the users security profile changes (for example, when the user changes their password or changes associated login (such as from Facebook, Google, Microsoft account, etc.), the user is logged out of all browser instances. For example, the image below shows the [Single signout sample](https://aspnet.codeplex.com/SourceControl/latest#Samples/Identity/SingleSignOutSample/readme.txt) app, which allows the user to sign out of all browser instances (in this case, IE, Firefox and Chrome) by selecting one button. Alternatively, the sample allows you to only log out of a specific browser instance.
+The Identity system allow you to configure your app so when the users security profile changes (for example, when the user changes their password or changes associated login (such as from Facebook, Google, Microsoft account, etc.), the user is logged out of all browser instances. For example, the image below shows the [Single signout sample](https://github.com/aspnet/samples/tree/master/samples/aspnet/Identity/SingleSignOutSample) app, which allows the user to sign out of all browser instances (in this case, IE, Firefox and Chrome) by selecting one button. Alternatively, the sample allows you to only log out of a specific browser instance.
 
-![](account-confirmation-and-password-recovery-with-aspnet-identity/_static/image11.png)
+![Image showing the single sign-out sample app window](account-confirmation-and-password-recovery-with-aspnet-identity/_static/image11.png)
 
-The [Single signout sample](https://aspnet.codeplex.com/SourceControl/latest#Samples/Identity/SingleSignOutSample/readme.txt) app shows how ASP.NET Identity allows you to regenerate the security token. This is needed to ensure that any tokens (cookies) generated with the old password are invalidated. This feature provides an extra layer of security to your application; when you change your password, you will be logged out where you have logged into this application.
+The [Single signout sample](https://github.com/aspnet/samples/tree/master/samples/aspnet/Identity/SingleSignOutSample) app shows how ASP.NET Identity allows you to regenerate the security token. This is needed to ensure that any tokens (cookies) generated with the old password are invalidated. This feature provides an extra layer of security to your application; when you change your password, you will be logged out where you have logged into this application.
 
 The *App\_Start\IdentityConfig.cs* file contains the `ApplicationUserManager`, `EmailService` and `SmsService` classes. The `EmailService` and `SmsService` classes each implement the `IIdentityMessageService` interface, so you have common methods in each class to configure email and SMS. Although this tutorial only shows how to add email notification through [SendGrid](http://sendgrid.com/), you can send email using SMTP and other mechanisms.
 
@@ -108,7 +108,7 @@ The `ApplicationUserManager` class derives from the generic `UserManager<Applica
 
 The properties above coincide with the properties in the `AspNetUsers` table, shown above.
 
-Generic arguments on `IUser` enable you to derive a class using different types for the primary key. See the [ChangePK](https://aspnet.codeplex.com/SourceControl/latest#Samples/Identity/ChangePK/readme.txt) sample which shows how to change the primary key from string to int or GUID.
+Generic arguments on `IUser` enable you to derive a class using different types for the primary key. See the [ChangePK](https://github.com/aspnet/samples/tree/master/samples/aspnet/Identity/ChangePK) sample which shows how to change the primary key from string to int or GUID.
 
 ### ApplicationUser
 
@@ -169,7 +169,7 @@ The code above uses the model data to create a new user account using the email 
 
 ## Set up email confirmation
 
-Go to the [Azure SendGrid sign up page](https://azure.microsoft.com/gallery/store/sendgrid/sendgrid-azure/) and register for free account. Add code similar to the following to configure SendGrid:
+Go to the SendGrid sign up page and register for free account. Add code similar to the following to configure SendGrid:
 
 [!code-csharp[Main](account-confirmation-and-password-recovery-with-aspnet-identity/samples/sample7.cs?highlight=5)]
 
@@ -181,17 +181,17 @@ The following code shows how to send email using the [MailMessage](https://msdn.
 [!code-csharp[Main](account-confirmation-and-password-recovery-with-aspnet-identity/samples/sample8.cs)]
 
 > [!WARNING]
-> Security - Never store sensitive data in your source code. The account and credentials are stored in the appSetting. On Azure, you can securely store these values on the **[Configure](https://blogs.msdn.com/b/webdev/archive/2014/06/04/queuebackgroundworkitem-to-reliably-schedule-and-run-long-background-process-in-asp-net.aspx)** tab in the Azure portal. See [Best practices for deploying passwords and other sensitive data to ASP.NET and Azure](best-practices-for-deploying-passwords-and-other-sensitive-data-to-aspnet-and-azure.md).
+> Security - Never store sensitive data in your source code. The account and credentials are stored in the appSetting. On Azure, you can securely store these values on the **[Configure](https://devblogs.microsoft.com/dotnet/queuebackgroundworkitem-to-reliably-schedule-and-run-background-processes-in-asp-net/)** tab in the Azure portal. See [Best practices for deploying passwords and other sensitive data to ASP.NET and Azure](best-practices-for-deploying-passwords-and-other-sensitive-data-to-aspnet-and-azure.md).
 
-Enter your SendGrid credentials, run the app, register with an email alias can select the confirm link in your email. To see how to do this with your [Outlook.com](http://outlook.com) email account, see John Atten's [C# SMTP Configuration for Outlook.Com SMTP Host](http://typecastexception.com/post/2013/12/20/C-SMTP-Configuration-for-OutlookCom-SMTP-Host.aspx) and his[ASP.NET Identity 2.0: Setting Up Account Validation and Two-Factor Authorization](http://typecastexception.com/post/2014/04/20/ASPNET-Identity-20-Setting-Up-Account-Validation-and-Two-Factor-Authorization.aspx) posts.
+Enter your SendGrid credentials, run the app, register with an email alias can select the confirm link in your email. To see how to do this with your [Outlook.com](http://outlook.com) email account, see John Atten's [C# SMTP Configuration for Outlook.Com SMTP Host](http://johnatten.com/2013/12/20/c-smtp-configuration-for-outlook-com-smtp-host/) and his[ASP.NET Identity 2.0: Setting Up Account Validation and Two-Factor Authorization](http://typecastexception.com/post/2014/04/20/ASPNET-Identity-20-Setting-Up-Account-Validation-and-Two-Factor-Authorization.aspx) posts.
 
 Once a user selects the **Register** button a confirmation email containing a validation token is sent to their email address.
 
-![](account-confirmation-and-password-recovery-with-aspnet-identity/_static/image12.png)
+![Image of email sent confirmation window](account-confirmation-and-password-recovery-with-aspnet-identity/_static/image12.png)
 
 The user is sent an email with a confirmation token for their account.
 
-![](account-confirmation-and-password-recovery-with-aspnet-identity/_static/image13.png)
+![Image of email received](account-confirmation-and-password-recovery-with-aspnet-identity/_static/image13.png)
 
 ## Examine the code
 
@@ -224,4 +224,4 @@ The following code shows the email confirmation method:
 - [MVC 5 App with Facebook, Twitter, LinkedIn and Google OAuth2 Sign-on](../../../mvc/overview/security/create-an-aspnet-mvc-5-app-with-facebook-and-google-oauth2-and-openid-sign-on.md) also shows how to add profile information to the users table.
 - [ASP.NET MVC and Identity 2.0: Understanding the Basics](http://typecastexception.com/post/2014/04/20/ASPNET-MVC-and-Identity-20-Understanding-the-Basics.aspx) by John Atten.
 - [Introduction to ASP.NET Identity](../getting-started/introduction-to-aspnet-identity.md)
-- [Announcing RTM of ASP.NET Identity 2.0.0](https://blogs.msdn.com/b/webdev/archive/2014/03/20/test-announcing-rtm-of-asp-net-identity-2-0-0.aspx) by Pranav Rastogi.
+- [Announcing RTM of ASP.NET Identity 2.0.0](https://devblogs.microsoft.com/dotnet/announcing-rtm-of-asp-net-identity-2-0-0/) by Pranav Rastogi.

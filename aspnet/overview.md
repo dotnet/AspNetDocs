@@ -5,7 +5,7 @@ author: rick-anderson
 description: "Introduction to ASP.NET, a free framework for creating websites, web applications, and web APIs."
 ms.assetid: 3a309468-f1ca-4e51-b9c3-536af79d7a8b
 ms.author: riande
-ms.date: 03/12/2010
+ms.date: 08/10/2019
 msc.legacyurl:
 msc.type: content
 ---
@@ -14,11 +14,11 @@ msc.type: content
 
 ASP.NET is a free web framework for building great websites and web applications using HTML, CSS, and JavaScript. You can also create Web APIs and use real-time technologies like Web Sockets.
 
-[ASP.NET Core](https://docs.microsoft.com/aspnet/core/) is an alternative to ASP.NET.  See the [guidance on how to choose between ASP.NET and ASP.NET Core](https://docs.microsoft.com/aspnet/core/choose-aspnet-framework).
+[ASP.NET Core](/aspnet/core/) is an alternative to ASP.NET.  See the [guidance on how to choose between ASP.NET and ASP.NET Core](/aspnet/core/choose-aspnet-framework).
 
 ## Get started
 
-Install [Visual Studio 2017](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=button+cta&utm_content=download+vs2017) Community edition, a free IDE for ASP.NET on Windows.
+Install [Visual Studio](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=button+cta&utm_content=download+vs) Community edition, a free IDE for ASP.NET on Windows.
 
 ## Websites and web applications
 
@@ -78,7 +78,7 @@ ASP.NET SignalR is a new library for ASP.NET developers that makes developing re
 
 ASP.NET can power native mobile apps with a Web API back end, as well as mobile web sites using responsive design frameworks like Twitter Bootstrap. If you are building a native mobile app, it's easy to create a JSON-based Web API to handle data access, authentication, and push notifications for your app. If you are building a responsive mobile site, you can use any CSS framework or open grid system you prefer, or select a powerful mobile system like jQuery Mobile or Sencha and great mobile applications with PhoneGap.
 
-[Learn more about mobile app and site development](mobile/index.md)
+[Learn more about mobile app and site development](mobile/overview.md)
 
 <!-- Put first under mobile TOC:  Watch video (11 minutes) https://channel9.msdn.com/Blogs/ASP-NET-Site-Videos/aspnet-and-mobile -->
 

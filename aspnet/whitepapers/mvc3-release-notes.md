@@ -292,7 +292,7 @@ Because jQuery includes the version number in the file name, updating jQuery to 
 - In some cases, installation may fail with the error message "Installation failed with error code (0x80070643)". For information about how to work around this issue, see [KnowledgeBase article 2531566](https://support.microsoft.com/kb/2531566).
 - The scaffolding for adding a controller does not scaffold entities that take advantage of entity inheritance support within Entity Framework. For example, given a base *Person* class that's inherited by a *Student* class, scaffolding the *Student* class will result in generated code that does not compile.
 - Creating a new ASP.NET MVC 3 project within a solution folder causes a *NullReferenceException* error. The workaround is to create the ASP.NET MVC 3 project in the root of the solution and then move it into the solution folder.
-- IntelliSense for Razor syntax does not work when ReSharper is installed. If you have ReSharper installed and want to take advantage of the Razor IntelliSense support in ASP.NET MVC 3, see the entry [Razor Intellisense and ReSharper](http://blogs.jetbrains.com/dotnet/2010/11/razor-intellisense-and-resharper/) on Hadi Hariri's blog, which discusses ways to use them together today.
+- IntelliSense for Razor syntax does not work when ReSharper is installed. If you have ReSharper installed and want to take advantage of the Razor IntelliSense support in ASP.NET MVC 3, see the entry [Razor Intellisense and ReSharper](https://blogs.jetbrains.com/dotnet/2010/11/razor-intellisense-and-resharper/) on Hadi Hariri's blog, which discusses ways to use them together today.
 - During installation, the EULA acceptance dialog box displays the license terms in a window that is smaller than intended.
 - When you are editing a Razor view (.cshtml or .*vbhtml* file), views. ASP.NET MVC 3 does not include any snippets for Razor views..aspxselecting a code snippet for ASP.NET MVC will show snippets for
 - If you install ASP.NET MVC 3 for Visual Web Developer Express on a computer where Visual Studio is not installed, and then later install Visual Studio, you must reinstall ASP.NET MVC 3. Visual Studio and Visual Web Developer Express share components that are upgraded by the ASP.NET MVC 3 installer. The same issue applies if you install ASP.NET MVC 3 for Visual Studio on a computer that does not have Visual Web Developer Express and then later install Visual Web Developer Express.
@@ -341,7 +341,7 @@ Renaming a Razor file using Solution Explorer while the file is opened in the ed
 - The ASP.NET MVC 3 installer is only able to install an initial version of the NuGet package manager. After you have installed the initial version, NuGet can be installed and updated using Visual Studio Extension Manager. If you already have NuGet installed, go to the Visual Studio Extension Gallery to update to the latest version of NuGet.
 - Creating a new ASP.NET MVC 3 project within a solution folder causes a *NullReferenceException* error. The workaround is to create the ASP.NET MVC 3 project in the root of the solution and then move it into the solution folder.
 - The installer might take much longer than previous versions of ASP.NET MVC to complete. This is because it updates components of Visual Studio 2010.
-- IntelliSense for Razor syntax does not work when ReSharper is installed. If you have ReSharper installed and want to take advantage of the Razor IntelliSense support in ASP.NET MVC 3, see the entry [Razor Intellisense and ReSharper](http://blogs.jetbrains.com/dotnet/2010/11/razor-intellisense-and-resharper/) on Hadi Hariri's blog, which discusses ways to use them together today.
+- IntelliSense for Razor syntax does not work when ReSharper is installed. If you have ReSharper installed and want to take advantage of the Razor IntelliSense support in ASP.NET MVC 3, see the entry [Razor Intellisense and ReSharper](https://blogs.jetbrains.com/dotnet/2010/11/razor-intellisense-and-resharper/) on Hadi Hariri's blog, which discusses ways to use them together today.
 - CCSHTML and VBHTML views created with the Beta version of ASP.NET MVC 3 do not have their build action set correctly, with the result that these view types are omitted when the project is published. The Build Action value for these files should be set to "Content". ASP.NET MVC 3 RTM fixes this issue for new files, but doesn't correct the setting for existing files for a project created with prerelease versions.
 - ![](mvc3-release-notes/_static/image3.png)
 - During installation, the EULA acceptance dialog box displays the license terms in a window that is smaller than intended.
@@ -429,7 +429,7 @@ When the *Html.ValidationMessage* method displays a validation message, it skips
 <a id="_Toc2_10"></a>
 ### Fixed @model Declaration to not Add Whitespace to the Document
 
-In earlier releases, the *@model* declaration at the top of a view added a blank line to the rendered HTML output. This has been fixed so that the declaration does not introduce whitespace.
+In earlier releases, the `@model` declaration at the top of a view added a blank line to the rendered HTML output. This has been fixed so that the declaration does not introduce whitespace.
 
 <a id="_Toc2_11"></a>
 ### Added "FileExtensions" Property to View Engines to Support Engine-Specific File Names
@@ -464,7 +464,7 @@ In earlier versions, explicit values that were passed to the *RenderAction* meth
 - The ASP.NET MVC 3 installer is only able to install an initial version of the NuGet package manager. After you have installed the initial version, NuGet can be installed and updated using Visual Studio Extension Manager. If you already have NuGet installed, go to the Visual Studio Extension Gallery to update to the latest version of NuGet.
 - Creating a new ASP.NET MVC 3 project within a solution folder causes a *NullReferenceException* error. The workaround is to create the ASP.NET MVC 3 project in the root of the solution and then move it into the solution folder.
 - The installer might take much longer than previous versions of ASP.NET MVC to complete. This is because it updates components of Visual Studio 2010.
-- IntelliSense for Razor syntax does not work when ReSharper is installed. If you have ReSharper installed and want to take advantage of the Razor IntelliSense support in ASP.NET MVC 3 RC2, see the entry [Razor Intellisense and ReSharper](http://blogs.jetbrains.com/dotnet/2010/11/razor-intellisense-and-resharper/) on Hadi Hariri's blog, which discusses ways to use them together today.
+- IntelliSense for Razor syntax does not work when ReSharper is installed. If you have ReSharper installed and want to take advantage of the Razor IntelliSense support in ASP.NET MVC 3 RC2, see the entry [Razor Intellisense and ReSharper](https://blogs.jetbrains.com/dotnet/2010/11/razor-intellisense-and-resharper/) on Hadi Hariri's blog, which discusses ways to use them together today.
 - CSHTML and VBHTML views created with the Beta version of ASP.NET MVC 3 do not have their build action set correctly, with the result that these view types are omitted when the project is published. The *Build Action* value for these files should be set to Content". ASP.NET MVC 3 RC2 fixes this issue for new files, but doesn't correct the setting for existing files for a project created with the Beta version.![](mvc3-release-notes/_static/image4.png)
 - During installation, the EULA acceptance dialog box displays the license terms in a window that is smaller than intended.
 - When you are editing a Razor view (.cshtml file), the Go To Controller menu item in Visual Studio will not be available, and there are no code snippets.
@@ -488,7 +488,7 @@ ASP.NET MVC 3 includes the NuGet Package Manager (formerly known as NuPack), whi
 
 You can work with NuGet as a command-line tool, as an integrated console window inside Visual Studio 2010, from the Visual Studio context menu, and as a set of PowerShell cmdlets.
 
-For more information about NuGet, read the [Nuget Documentation](https://docs.microsoft.com/nuget/).
+For more information about NuGet, read the [Nuget Documentation](/nuget/).
 
 <a id="_Toc276711787"></a>
 ### Improved "New Project" Dialog Box
@@ -607,7 +607,7 @@ Alternatively, to turn off request validation for every property of the model, a
 - The installer may take much longer than previous versions of ASP.NET MVC to complete because it updates components of Visual Studio 2010.
 - The Add View scaffolding when selecting astrongly typed view scaffolds write-only properties. These should always be ignored by scaffolding. The Add View dialog also scaffolds read-only properties when generating an "Edit" or "Create" view. Read-only properties should only be scaffolded for the Display and List views.
 - Debugging doesn't work when ASP.NET MVC 3 is installed alongside the Async CTP. ASP.NET MVC 3 cannot be installed side-by-side with the Async CTP. Uninstall the Async CTP to repair debugging. For more details, read [this blog post](http://drew-prog.blogspot.com/2010/11/how-to-uninstall-microsoft-aspnet-mvc-3.html) about uninstalling all the pieces of ASP.NET MVC 3 RC.
-- Razor Intellisense does not work when Resharper is installed. If you have ReSharper installed and want to take advantage of the Razor intellisense support in ASP.NET MVC 3 RC, please read [this blog post](http://blogs.jetbrains.com/dotnet/2010/11/razor-intellisense-and-resharper/) from JetBrains which discusses ways to use them together today.
+- Razor Intellisense does not work when Resharper is installed. If you have ReSharper installed and want to take advantage of the Razor intellisense support in ASP.NET MVC 3 RC, please read [this blog post](https://blogs.jetbrains.com/dotnet/2010/11/razor-intellisense-and-resharper/) from JetBrains which discusses ways to use them together today.
 - CSHTML and VBHTML views created with Beta of ASP.NET MVC 3 do not have their build action correctly which omits them from publishing. The *Build Action* for these files should be set to "Content". ASP.NET MVC 3 RC fixes this issue for new files, but doesn't correct the setting for existing files for a project created with the Beta.
 - The installer may take much longer than previous versions of ASP.NET MVC to complete because it updates components of Visual Studio 2010.
 - The Add View scaffolding when selecting an "Edit" strongly typed view scaffolds read only properties. Likewise, write-only properties are scaffolded for "Display" views.
@@ -630,7 +630,7 @@ ASP.NET MVC 3 includes NuGet Package Manager, which is an integrated package man
 
 You can work with NuGet as a command line tool, as an integrated console window inside Visual Studio 2010, from the Visual Studio context menu, and as set of PowerShell cmdlets.
 
-For more information about NuGet, read the [NuGet Documentation](https://docs.microsoft.com/nuget/).
+For more information about NuGet, read the [NuGet Documentation](/nuget/).
 
 ### <a id="0.1__Toc274034217"></a>  Improved New Project Dialog Box
 
