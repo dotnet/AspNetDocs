@@ -1,7 +1,7 @@
 ---
 uid: web-api/overview/odata-support-in-aspnet-web-api/odata-routing-conventions
 title: "Routing Conventions in ASP.NET Web API 2 Odata - ASP.NET 4.x"
-author: MikeWasson
+author: rick-anderson
 description: "Describes routing conventions that Web API 2 in ASP.NET 4.x uses for OData endpoints."
 ms.author: riande
 ms.date: 07/31/2013
@@ -34,7 +34,7 @@ Before I describe the OData routing conventions in Web API, it's helpful to unde
 - The resource path
 - Query options
 
-![](odata-routing-conventions/_static/image1.png)
+![Screenshot to show what the Odata routing conventions looks like, displaying service root, resource path, and query options from left to right.](odata-routing-conventions/_static/image1.png)
 
 For routing, the important part is the resource path. The resource path is divided into segments. For example, `/Products(1)/Supplier` has three segments:
 

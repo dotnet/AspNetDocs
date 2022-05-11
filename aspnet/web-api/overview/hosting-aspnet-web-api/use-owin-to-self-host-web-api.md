@@ -29,7 +29,7 @@ msc.type: authoredcontent
 
 On the **File** menu,  **New**, then select **Project**. From **Installed**, under **Visual C#**, select **Windows Desktop** and then select **Console App (.Net Framework)**. Name the project "OwinSelfhostSample" and select **OK**.
 
-[![](use-owin-to-self-host-web-api/_static/image7.png)](use-owin-to-self-host-web-api/_static/image7.png)
+[![Screenshot of the 'create new project' dialog box, showing the menu options to select Windows Desktop then Console App from the dropdown list.](use-owin-to-self-host-web-api/_static/image7.png)](use-owin-to-self-host-web-api/_static/image7.png)
 
 ## Add the Web API and OWIN packages
 
@@ -39,13 +39,13 @@ From the **Tools** menu, select **NuGet Package Manager**, then select **Package
 
 This will install the WebAPI OWIN selfhost package and all the required OWIN packages.
 
-[![](use-owin-to-self-host-web-api/_static/image4.png)](use-owin-to-self-host-web-api/_static/image3.png)
+[![Screenshot of the package manager console, showing licensing information, followed by P M > at the and, signaling where to type the command.](use-owin-to-self-host-web-api/_static/image4.png)](use-owin-to-self-host-web-api/_static/image3.png)
 
 ## Configure Web API for self-host
 
 In Solution Explorer, right-click the project and select **Add** / **Class** to add a new class. Name the class `Startup`.
 
-![](use-owin-to-self-host-web-api/_static/image5.png)
+![Screenshot of the solution explorer dialog box menu, showing the steps to follow for adding a class to the project.](use-owin-to-self-host-web-api/_static/image5.png)
 
 Replace all of the boilerplate code in this file with the following:
 
@@ -71,7 +71,7 @@ To run the application, press F5 in Visual Studio. The output should look like t
 
 [!code-console[Main](use-owin-to-self-host-web-api/samples/sample4.cmd)]
 
-![](use-owin-to-self-host-web-api/_static/image6.png)
+![Screenshot of the console, showing the status code and information for the application as it's running.](use-owin-to-self-host-web-api/_static/image6.png)
 
 ## Additional resources
 

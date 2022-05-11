@@ -43,14 +43,14 @@ The first step of this end-to-end tutorial is to create a Web API project that s
 2. Click **File**, then **New**, and then **Project**.
 3. When the **New Project** dialog box is displayed, expand **Installed**, then **Templates**, then **Visual C#**, and then **Web**.
 
-   | [![](calling-web-api-from-a-windows-phone-8-application/_static/image2.png)](calling-web-api-from-a-windows-phone-8-application/_static/image1.png) |
+   | [![Screenshot of the 'new project' dialog box, showing the file path in the menu and highlighting the steps to create the new project.](calling-web-api-from-a-windows-phone-8-application/_static/image2.png)](calling-web-api-from-a-windows-phone-8-application/_static/image1.png) |
    |-----------------------------------------------------------------------------------------------------------------------------------------------------|
    |                                                                Click image to expand                                                                |
 
 4. Highlight **ASP.NET Web Application**, enter **BookStore** for the project name, and then click **OK**.
 5. When the **New ASP.NET Project** dialog box is displayed, select the **Web API** template, and then click **OK**.
 
-   | [![](calling-web-api-from-a-windows-phone-8-application/_static/image4.png)](calling-web-api-from-a-windows-phone-8-application/_static/image3.png) |
+   | [![Screenshot of the A S P dot NET project bookstore dialog box, showing template options and check boxes to select template folder and core reference.](calling-web-api-from-a-windows-phone-8-application/_static/image4.png)](calling-web-api-from-a-windows-phone-8-application/_static/image3.png) |
    |-----------------------------------------------------------------------------------------------------------------------------------------------------|
    |                                                                Click image to expand                                                                |
 
@@ -154,36 +154,36 @@ As mentioned in the *Prerequisites* section of this tutorial, when you are testi
 
 Once you have the testing environment configured, you will need to set the Windows Phone application as the startup project. To do so, highlight the **BookCatalog** application in the solution explorer, and then click **Set as StartUp Project**:
 
-| [![](calling-web-api-from-a-windows-phone-8-application/_static/image6.png)](calling-web-api-from-a-windows-phone-8-application/_static/image5.png) |
+| [![Screenshot of the solution explorer window, showing the menu options, to set the windows phone application in the 'set as start up project' option.](calling-web-api-from-a-windows-phone-8-application/_static/image6.png)](calling-web-api-from-a-windows-phone-8-application/_static/image5.png) |
 | --- |
 | Click image to expand |
 
 When you press F5, Visual Studio will start both the Windows Phone Emulator, which will display a &quot;Please Wait&quot; message while the application data is retrieved from your Web API:
 
-| [![](calling-web-api-from-a-windows-phone-8-application/_static/image8.png)](calling-web-api-from-a-windows-phone-8-application/_static/image7.png) |
+| [![Screenshot of the solution explorer window, showing the phone emulator pop up over it, displaying the title Book Store and the 'please wait' message.](calling-web-api-from-a-windows-phone-8-application/_static/image8.png)](calling-web-api-from-a-windows-phone-8-application/_static/image7.png) |
 | --- |
 | Click image to expand |
 
 If everything is successful, you should see the catalog displayed:
 
-| [![](calling-web-api-from-a-windows-phone-8-application/_static/image10.png)](calling-web-api-from-a-windows-phone-8-application/_static/image9.png) |
+| [![Screenshot of the solution explorer window, showing the phone emulator over it, displaying the Book Store with the titles in the catalog.](calling-web-api-from-a-windows-phone-8-application/_static/image10.png)](calling-web-api-from-a-windows-phone-8-application/_static/image9.png) |
 | --- |
 | Click image to expand |
 
 If you tap on any book title, the application will display the book description:
 
-| [![](calling-web-api-from-a-windows-phone-8-application/_static/image12.png)](calling-web-api-from-a-windows-phone-8-application/_static/image11.png) |
+| [![Screenshot of the phone emulator, over the solution explorer window, displaying a book title and description.](calling-web-api-from-a-windows-phone-8-application/_static/image12.png)](calling-web-api-from-a-windows-phone-8-application/_static/image11.png) |
 | --- |
 | Click image to expand |
 
 If the application cannot communicate with your Web API, an error message will be displayed:
 
-| [![](calling-web-api-from-a-windows-phone-8-application/_static/image14.png)](calling-web-api-from-a-windows-phone-8-application/_static/image13.png) |
+| [![Screenshot of the phone emulator, displayed over the solution explorer window, showing an 'An Error Occurred' and a brief description of the error.](calling-web-api-from-a-windows-phone-8-application/_static/image14.png)](calling-web-api-from-a-windows-phone-8-application/_static/image13.png) |
 | --- |
 | Click image to expand |
 
 If you tap on the error message, any additional details about the error will be displayed:
 
-| [![](calling-web-api-from-a-windows-phone-8-application/_static/image16.png)](calling-web-api-from-a-windows-phone-8-application/_static/image15.png) |
+| [![Screenshot of the phone emulator, over the solution explorer dialog box, showing 'An Error Occurred' followed by details of the error.](calling-web-api-from-a-windows-phone-8-application/_static/image16.png)](calling-web-api-from-a-windows-phone-8-application/_static/image15.png) |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------|
 |                                                                 Click image to expand                                                                 |
