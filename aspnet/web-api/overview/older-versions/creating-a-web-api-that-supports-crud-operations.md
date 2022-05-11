@@ -124,7 +124,7 @@ In **Solution Explorer**, right-click the Controllers folder. Select **Add** and
 
 In the **Add Controller** wizard, name the controller &quot;ProductsController&quot;. In the **Template** drop-down list, select **Empty API Controller**. Then click **Add**.
 
-![Screenshot of the add controller window, showing the controller name field to enter a name, and a drop down templates list, under scaffolding options.](creating-a-web-api-that-supports-crud-operations/_static/image7.png)
+![Screenshot of the add controller window, showing the controller name field to enter a name, and a dropdown templates list, under scaffolding options.](creating-a-web-api-that-supports-crud-operations/_static/image7.png)
 
 > [!NOTE]
 > It is not necessary to put your controllers into a folder named Controllers. The folder name is not important; it is simply a convenient way to organize your source files.
