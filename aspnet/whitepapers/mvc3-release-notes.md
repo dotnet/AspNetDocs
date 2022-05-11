@@ -2,7 +2,7 @@
 uid: whitepapers/mvc3-release-notes
 title: "ASP.NET MVC 3 Release Notes"
 author: rick-anderson
-description: ""
+description: "Release notes for ASP.NET MVC 3 RTM for Visual Studio 2010. ASP.NET MVC is a framework for developing Web applications that uses the Model-View-Controller (MVC) pattern."
 ms.author: riande
 ms.date: 10/06/2010
 ms.assetid: f44c166e-7e91-48a0-a6f8-d9285f3594e5
