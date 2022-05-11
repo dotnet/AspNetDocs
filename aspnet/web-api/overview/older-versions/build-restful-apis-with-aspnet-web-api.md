@@ -257,9 +257,9 @@ This task will demonstrate how to extract functionality into a Service layer to 
 19. Click the **Go to detailed view** button.
 20. Click the **Response body** tab. Note the JSON output of the API call, and how it represents the two contacts retrieved by the service layer.
 
-    ![Viewing the JSON output from the Web API in the developer tools window](build-restful-apis-with-aspnet-web-api/_static/image20.png "Viewing the JSON output from the Web API in the developer tools window")
+![Viewing the JSON output from the Web API in the developer tools window](build-restful-apis-with-aspnet-web-api/_static/image20.png "Viewing the JSON output from the Web API in the developer tools window")
 
-    *Viewing the JSON output from the Web API in the developer tools window*
+*Viewing the JSON output from the Web API in the developer tools window*
 
 <a id="Exercise2"></a>
 
