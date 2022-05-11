@@ -1,7 +1,7 @@
 ---
 uid: web-api/overview/older-versions/creating-a-web-api-that-supports-crud-operations
 title: "Enabling CRUD Operations in ASP.NET Web API 1 - ASP.NET 4.x"
-author: MikeWasson
+author: rick-anderson
 description: "Tutorial shows how to support CRUD operations in an HTTP service using ASP.NET Web API for ASP.NET 4.x."
 ms.author: riande
 ms.date: 01/28/2012
@@ -67,11 +67,11 @@ Start by running Visual Studio and select **New Project** from the **Start** pag
 
 In the **Templates** pane, select **Installed Templates** and expand the **Visual C#** node. Under **Visual C#**, select **Web**. In the list of project templates, select **ASP.NET MVC 4 Web Application**. Name the project &quot;ProductStore&quot; and click **OK**.
 
-![](creating-a-web-api-that-supports-crud-operations/_static/image1.png)
+![Screenshot of the new project window, showing the menu options and highlighting the path to create an A S P dot NET M V C 4 Web Application.](creating-a-web-api-that-supports-crud-operations/_static/image1.png)
 
 In the **New ASP.NET MVC 4 Project** dialog, select **Web API** and click **OK**.
 
-![](creating-a-web-api-that-supports-crud-operations/_static/image2.png)
+![Screenshot of the new A S P dot NET project, showing boxed images of available templates and highlighting the Web A P I template, in blue.](creating-a-web-api-that-supports-crud-operations/_static/image2.png)
 
 ## Adding a Model
 
@@ -81,7 +81,7 @@ For the ProductStore API, our data consists of products, so we'll create a new c
 
 If Solution Explorer is not already visible, click the **View** menu and select **Solution Explorer**. In Solution Explorer, right-click the **Models** folder. From the context menu, select **Add**, then select **Class**. Name the class &quot;Product&quot;.
 
-![](creating-a-web-api-that-supports-crud-operations/_static/image3.png)
+![Screenshot of the solution explorer menu, highlighting the selection for models to show an additional menu to select the add class option.](creating-a-web-api-that-supports-crud-operations/_static/image3.png)
 
 Add the following properties to the `Product` class.
 
@@ -93,11 +93,11 @@ We need to store a collection of products. It's a good idea to separate the coll
 
 In Solution Explorer, right-click the **Models** folder. Select **Add**, then select **New Item**.
 
-![](creating-a-web-api-that-supports-crud-operations/_static/image4.png)
+![Screenshot of the solution explorer menu, which highlights the models option and brings up a menu to add a new item.](creating-a-web-api-that-supports-crud-operations/_static/image4.png)
 
 In the **Templates** pane, select **Installed Templates** and expand the C# node. Under C#, select **Code**. In the list of code templates, select **Interface**. Name the interface &quot;IProductRepository&quot;.
 
-![](creating-a-web-api-that-supports-crud-operations/_static/image5.png)
+![Screenshot of the templates pane, showing the installed templates menu, which highlights the code and interface options in grey.](creating-a-web-api-that-supports-crud-operations/_static/image5.png)
 
 Add the following implementation:
 
@@ -120,11 +120,11 @@ Go ahead and delete ValuesController, by right-clicking the file in Solution Exp
 
 In **Solution Explorer**, right-click the Controllers folder. Select **Add** and then select **Controller**.
 
-![](creating-a-web-api-that-supports-crud-operations/_static/image6.png)
+![Screenshot of the solution explorer menu, highlighting the controllers category, which brings another menu, highlighting the path to add a controller.](creating-a-web-api-that-supports-crud-operations/_static/image6.png)
 
 In the **Add Controller** wizard, name the controller &quot;ProductsController&quot;. In the **Template** drop-down list, select **Empty API Controller**. Then click **Add**.
 
-![](creating-a-web-api-that-supports-crud-operations/_static/image7.png)
+![Screenshot of the add controller window, showing the controller name field to enter a name, and a drop down templates list, under scaffolding options.](creating-a-web-api-that-supports-crud-operations/_static/image7.png)
 
 > [!NOTE]
 > It is not necessary to put your controllers into a folder named Controllers. The folder name is not important; it is simply a convenient way to organize your source files.

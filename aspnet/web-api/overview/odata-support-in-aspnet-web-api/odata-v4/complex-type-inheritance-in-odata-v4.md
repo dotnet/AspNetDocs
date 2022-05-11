@@ -27,7 +27,7 @@ by [Microsoft](https://github.com/microsoft)
 
 To illustrate complex type inheritance, we'll use the following class hierarchy.
 
-![](complex-type-inheritance-in-odata-v4/_static/image1.png)
+![Diagram of the model hierarchy, illustrating the type inheritance for the class 'window' with arrows pointing to its children.](complex-type-inheritance-in-odata-v4/_static/image1.png)
 
 `Shape` is an abstract complex type. `Rectangle`, `Triangle`, and `Circle` are complex types derived from `Shape`, and `RoundRectangle` derives from `Rectangle`. `Window` is an entity type and contains a `Shape` instance.
 

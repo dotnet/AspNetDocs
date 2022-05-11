@@ -251,9 +251,9 @@ This task will demonstrate how to extract functionality into a Service layer to 
 17. Press **F5** to continue.
 18. Go back to Internet Explorer if it is not already in focus. Note the network capture window.
 
-    ![Network view in Internet Explorer showing results of the Web API call](build-restful-apis-with-aspnet-web-api/_static/image19.png "Network view in Internet Explorer showing results of the Web API call")
+![Network view in Internet Explorer showing results of the Web API call](build-restful-apis-with-aspnet-web-api/_static/image19.png "Network view in Internet Explorer showing results of the Web API call")
 
-    *Network view in Internet Explorer showing results of the Web API call*
+*Network view in Internet Explorer showing results of the Web API call*
 19. Click the **Go to detailed view** button.
 20. Click the **Response body** tab. Note the JSON output of the API call, and how it represents the two contacts retrieved by the service layer.
 
