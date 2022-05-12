@@ -1,10 +1,14 @@
 ---
 uid: whitepapers/mvc4-beta-release-notes
 <<<<<<< HEAD
+<<<<<<< HEAD
 title: "ASP.NET MVC 4 Beta | Microsoft Docs"
 =======
 title: "ASP.NET MVC 4 Beta Release Notes"
 >>>>>>> 45e25d76ded40a17ca353ccd06d098d6bcb5f631
+=======
+title: "ASP.NET MVC 4 Beta Release Notes"
+>>>>>>> 8a8af665d04b526aaa5a11725f2293edbc1df871
 author: rick-anderson
 description: "This document describes the release of ASP.NET MVC 4 Beta for Visual Studio 2010."
 ms.author: riande
@@ -14,10 +18,14 @@ msc.legacyurl: /whitepapers/mvc4-beta-release-notes
 msc.type: content
 ---
 <<<<<<< HEAD
+<<<<<<< HEAD
 # ASP.NET MVC 4 Beta
 =======
 # ASP.NET MVC 4 Beta Release Notes
 >>>>>>> 45e25d76ded40a17ca353ccd06d098d6bcb5f631
+=======
+# ASP.NET MVC 4 Beta Release Notes
+>>>>>>> 8a8af665d04b526aaa5a11725f2293edbc1df871
 
 > This document describes the release of ASP.NET MVC 4 Beta for Visual Studio 2010.
 > 
@@ -156,28 +164,38 @@ For more details on the Single Page Application support in ASP.NET MVC 4 please 
 The template that is used to create new ASP.NET MVC 4 projects has been updated to create a more modern-looking website:
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 ![Screenshot that shows the A S P dot NET M V C 4 Home Page.](mvc4-beta-release-notes/_static/image1.png)
 
 In addition to cosmetic improvements, there's improved functionality in the new template. The template employs a technique called adaptive rendering to look good in both desktop browsers and mobile browsers without any customization.
 
 ![Screenshot that shows a mobile display of the A S P dot NET M V C Home Page.](mvc4-beta-release-notes/_static/image2.png)
 =======
+=======
+>>>>>>> 8a8af665d04b526aaa5a11725f2293edbc1df871
 ![Screenshot of the browser view of the default project template.](mvc4-beta-release-notes/_static/image1.png)
 
 In addition to cosmetic improvements, there's improved functionality in the new template. The template employs a technique called adaptive rendering to look good in both desktop browsers and mobile browsers without any customization.
 
 ![Screenshot of the mobile browser view of the default project template.](mvc4-beta-release-notes/_static/image2.png)
+<<<<<<< HEAD
 >>>>>>> 45e25d76ded40a17ca353ccd06d098d6bcb5f631
+=======
+>>>>>>> 8a8af665d04b526aaa5a11725f2293edbc1df871
 
 To see adaptive rendering in action, you can use a mobile emulator or just try resizing the desktop browser window to be smaller. When the browser window gets small enough, the layout of the page will change.
 
 Another enhancement to the default project template is the use of JavaScript to provide a richer UI. The Login and Register links that are used in the template are examples of how to use the jQuery UI Dialog to present a rich login screen:
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 ![Screenshot that shows the A S P dot NET M V C log in page.](mvc4-beta-release-notes/_static/image3.png)
 =======
 ![Screenshot of the default project template log on screen.](mvc4-beta-release-notes/_static/image3.png)
 >>>>>>> 45e25d76ded40a17ca353ccd06d098d6bcb5f631
+=======
+![Screenshot of the default project template log on screen.](mvc4-beta-release-notes/_static/image3.png)
+>>>>>>> 8a8af665d04b526aaa5a11725f2293edbc1df871
 
 <a id="_Toc303253809"></a>
 ### Mobile Project Template
@@ -185,10 +203,14 @@ Another enhancement to the default project template is the use of JavaScript to 
 If you're starting a new project and want to create a site specifically for mobile and tablet browsers, you can use the new Mobile Application project template. This is based on jQuery Mobile, an open-source library for building touch-optimized UI:
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 ![Screenshot that shows a mobile display of the A S P dot NET M V C log in page.](mvc4-beta-release-notes/_static/image4.png)
 =======
 ![Screenshot of the mobile browser view of the default project template log on screen.](mvc4-beta-release-notes/_static/image4.png)
 >>>>>>> 45e25d76ded40a17ca353ccd06d098d6bcb5f631
+=======
+![Screenshot of the mobile browser view of the default project template log on screen.](mvc4-beta-release-notes/_static/image4.png)
+>>>>>>> 8a8af665d04b526aaa5a11725f2293edbc1df871
 
 This template contains the same application structure as the Internet Application template (and the controller code is virtually identical), but it's styled using jQuery Mobile to look good and behave well on touch-based mobile devices. To learn more about how to structure and style mobile UI, see the [jQuery Mobile project website](http://jquerymobile.com/).
 
@@ -230,10 +252,14 @@ After you install the package, run your application using a mobile browser (or e
 A convention for mobile-optimized web pages is to add a link whose text is something like Desktop view or Full site mode that lets users switch to a desktop version of the page. The jQuery.Mobile.MVC package includes a sample view-switcher component for this purpose. It's used in the default Views\Shared\\_Layout.Mobile.cshtml view, and it looks like this when the page is rendered:
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 ![Screenshot that shows the top of the mobile display that states Displaying mobile view Desktop view.](mvc4-beta-release-notes/_static/image5.png)
 =======
 ![Screenshot of the mobile view and desktop view links.](mvc4-beta-release-notes/_static/image5.png)
 >>>>>>> 45e25d76ded40a17ca353ccd06d098d6bcb5f631
+=======
+![Screenshot of the mobile view and desktop view links.](mvc4-beta-release-notes/_static/image5.png)
+>>>>>>> 8a8af665d04b526aaa5a11725f2293edbc1df871
 
 If visitors click the link, they're switched to the desktop version of the same page.
 
