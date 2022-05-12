@@ -23,7 +23,7 @@ Our ecommerce application will depend on two databases.
 
 For customer information we'll use the standard ASP.NET Membership database. For our shopping cart and product catalog we'll implement a SQL Express database as follows.
 
-![](tailspin-spyworks-part-2/_static/image1.jpg)
+![Screenshot that shows the S Q L Express database structure.](tailspin-spyworks-part-2/_static/image1.jpg)
 
 Having created the database (Commerce.mdf) in the application's App\_Data folder we can proceed to create our Data Access Layer using the .NET Entity Framework.
 
@@ -31,17 +31,17 @@ We'll create a folder named "Data\_Access" and them right click on that folder a
 
 In the "Installed Templates" item and then select "ADO.NET Entity Data Model" enter EDM\_Commerce.edmx as the name and click the "Add" button.
 
-![](tailspin-spyworks-part-2/_static/image2.jpg)
+![Screenshot that shows where to select A D O dot NET Entity Data Model.](tailspin-spyworks-part-2/_static/image2.jpg)
 
 Choose "Generate from Database".
 
-![](tailspin-spyworks-part-2/_static/image1.png)
+![Screenshot that shows where to select Generate from database.](tailspin-spyworks-part-2/_static/image1.png)
 
-![](tailspin-spyworks-part-2/_static/image2.png)
+![Screenshot that shows the entity connection string.](tailspin-spyworks-part-2/_static/image2.png)
 
-![](tailspin-spyworks-part-2/_static/image3.png)
+![Screenshot that shows where to select the database objects.](tailspin-spyworks-part-2/_static/image3.png)
 
-![](tailspin-spyworks-part-2/_static/image3.jpg)
+![Screenshot that shows the built database structure.](tailspin-spyworks-part-2/_static/image3.jpg)
 
 Save and build.
 
