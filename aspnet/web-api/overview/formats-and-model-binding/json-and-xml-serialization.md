@@ -1,7 +1,7 @@
 ---
 uid: web-api/overview/formats-and-model-binding/json-and-xml-serialization
 title: "JSON and XML Serialization in ASP.NET Web API - ASP.NET 4.x"
-author: MikeWasson
+author: rick-anderson
 description: "Describes the JSON and XML formatters in ASP.NET Web API for ASP.NET 4.x."
 ms.author: riande
 ms.date: 05/30/2012

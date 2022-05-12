@@ -2,9 +2,9 @@
 uid: web-forms/overview/older-versions-getting-started/deploying-web-site-projects/users-and-roles-on-the-production-website-vb
 title: "Users and Roles On The Production Website (VB) | Microsoft Docs"
 author: rick-anderson
-description: "The ASP.NET Website Administration Tool (WSAT) provides a web-based user interface for configuring Membership and Roles settings and for creating, editing, a..."
+description: "The ASP.NET Website Administration Tool (WSAT) provides a web-based user interface for configuring Membership and Roles settings and for creating, editing, and deleting users and roles, thus making it possible to manage users and roles on production."
 ms.author: riande
-ms.date: 04/27/2022
+ms.date: 05/09/2022
 ms.custom: devdivchpfy22
 ms.assetid: 491ed5ae-9be1-4191-87be-65e4e1c57690
 msc.legacyurl: /web-forms/overview/older-versions-getting-started/deploying-web-site-projects/users-and-roles-on-the-production-website-vb

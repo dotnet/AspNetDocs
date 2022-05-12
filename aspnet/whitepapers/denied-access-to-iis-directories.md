@@ -19,7 +19,7 @@ ASP.NET V1 RTM now runs using a less privileged windows account - registered as 
 
 On some locked down systems, this account may not by default have read security access to a website's content directories, the application root directory, or the web site root directory. In this case you will receive the following error when requesting pages from a given web application:
 
-![](denied-access-to-iis-directories/_static/image1.jpg)
+![Screenshot of the browser view of an error page titled Access denied.](denied-access-to-iis-directories/_static/image1.jpg)
 
 To fix this you will need to change the security permissions on the appropriate directories.
 
@@ -40,7 +40,7 @@ To add permissions to a directory, perform the following steps:
 - Ensure that the ASPNET account has the "Read &amp; Execute", "List Folder Contents", and "Read" checkboxes checked.
 - Hit OK to dismiss the dialog and save the changes.
 
-![](denied-access-to-iis-directories/_static/image2.jpg)
+![Screenshot of the property dialog. O K is selected.](denied-access-to-iis-directories/_static/image2.jpg)
 
 If desired, these changes can be automated using scripts or the "cacls.exe" tool that ships with Windows. For more information on the ASPNET account, please see the [FAQ document](https://go.microsoft.com/fwlink/?LinkId=5828).
 

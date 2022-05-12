@@ -29,7 +29,7 @@ Let's now implement support for logged-in users to RSVP their interest in attend
 
 Users can visit the */Dinners/Details/[id*] URL to see details about a particular dinner:
 
-![](use-ajax-to-deliver-dynamic-updates/_static/image1.png)
+![Screenshot of the Nerd Dinner web page with details about the Dinner.](use-ajax-to-deliver-dynamic-updates/_static/image1.png)
 
 The Details() action method is implemented like so:
 
@@ -45,11 +45,11 @@ We can then add the following code to our Details.aspx view template to display 
 
 And now when a user visits a Dinner they are registered for they'll see this message:
 
-![](use-ajax-to-deliver-dynamic-updates/_static/image2.png)
+![Screenshot of the Nerd Dinners details page, the message You Are Registered For This Event is shown at the bottom.](use-ajax-to-deliver-dynamic-updates/_static/image2.png)
 
 And when they visit a Dinner they are not registered for they'll see the below message:
 
-![](use-ajax-to-deliver-dynamic-updates/_static/image3.png)
+![Screenshot of the Nerd Dinners details page. The message You Are Not Registered For this Event is shown.](use-ajax-to-deliver-dynamic-updates/_static/image3.png)
 
 ### Implementing the Register Action Method
 
@@ -79,11 +79,11 @@ The Ajax.ActionLink() helper method used above is built-into ASP.NET MVC and is 
 
 And now when a user browses to a dinner they aren't registered for yet they'll see a link to RSVP for it:
 
-![](use-ajax-to-deliver-dynamic-updates/_static/image4.png)
+![Screenshot of the Nerd Dinners page with the R S V P button at the bottom.](use-ajax-to-deliver-dynamic-updates/_static/image4.png)
 
 If they click the "RSVP for this event" link they'll make an AJAX call to the Register action method on the RSVP controller, and when it completes they'll see an updated message like below:
 
-![](use-ajax-to-deliver-dynamic-updates/_static/image5.png)
+![Screenshot of the Nerd Dinner details page with the message Thanks We Will See You There at the bottom.](use-ajax-to-deliver-dynamic-updates/_static/image5.png)
 
 The network bandwidth and traffic involved when making this AJAX call is really lightweight. When the user clicks on the "RSVP for this event" link, a small HTTP POST network request is made to the */Dinners/Register/1* URL that looks like below on the wire:
 
@@ -119,7 +119,7 @@ We can then wire-up this JavaScript function to be called after our AJAX call su
 
 And now when the "RSVP for this event" link is clicked and our AJAX call completes successfully, the content message sent back will animate and grow large:
 
-![](use-ajax-to-deliver-dynamic-updates/_static/image6.png)
+![Screenshot of the Nerd Dinners page with the message Thanks We Will See You There in large print at the bottom.](use-ajax-to-deliver-dynamic-updates/_static/image6.png)
 
 In addition to providing an "OnSuccess" event, the AjaxOptions object exposes OnBegin, OnFailure, and OnComplete events that you can handle (along with a variety of other properties and useful options).
 

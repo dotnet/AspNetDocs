@@ -1,7 +1,7 @@
 ---
 uid: web-api/overview/formats-and-model-binding/parameter-binding-in-aspnet-web-api
 title: "Parameter Binding in ASP.NET Web API - ASP.NET 4.x"
-author: MikeWasson
+author: rick-anderson
 description: "Describes how Web API binds parameters and how to customize the binding process in ASP.NET 4.x."
 ms.author: riande
 ms.date: 07/11/2013
