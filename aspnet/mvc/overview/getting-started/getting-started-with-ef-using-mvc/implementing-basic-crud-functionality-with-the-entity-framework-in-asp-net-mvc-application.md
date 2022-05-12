@@ -118,7 +118,7 @@ In the following code, `courseID` doesn't match a parameter in the default route
 
     The value "OverPost" would then be successfully added to the `Secret` property of the inserted row, although you never intended that the web page be able to set that property.
 
-    It's best to use the `Include` parameter with the `Bind` attribute to *allowlist* fields. It's also possible to use the `Exclude` parameter to *blocklist* fields you want to exclude. The reason `Include` is more secure is that when you add a new property to the entity, the new field is not automatically protected by an `Exclude` list.
+    It's best to use the `Include` parameter with the `Bind` attribute to explicitly list fields. It's also possible to use the `Exclude` parameter to block fields you want to exclude. The reason `Include` is more secure is that when you add a new property to the entity, the new field is not automatically protected by an `Exclude` list.
 
     You can prevent overposting in edit scenarios is by reading the entity from the database first and then calling `TryUpdateModel`, passing in an explicit allowed properties list. That is the method used in these tutorials.
 
@@ -159,7 +159,7 @@ In the following code, `courseID` doesn't match a parameter in the default route
 
    The new code reads the existing entity and calls <xref:System.Web.Mvc.Controller.TryUpdateModel%2A> to update fields from user input in the posted form data. The Entity Framework's automatic change tracking sets the [EntityState.Modified](<xref:System.Data.EntityState.Modified>) flag on the entity. When the [SaveChanges](https://msdn.microsoft.com/library/system.data.entity.dbcontext.savechanges(v=VS.103).aspx) method is called, the <xref:System.Data.EntityState.Modified> flag causes the Entity Framework to create SQL statements to update the database row. [Concurrency conflicts](handling-concurrency-with-the-entity-framework-in-an-asp-net-mvc-application.md) are ignored, and all columns of the database row are updated, including those that the user didn't change. (A later tutorial shows how to handle concurrency conflicts, and if you only want individual fields to be updated in the database, you can set the entity to [EntityState.Unchanged](<xref:System.Data.EntityState.Unchanged>) and set individual fields to [EntityState.Modified](<xref:System.Data.EntityState.Modified>).)
 
-   To prevent overposting, the fields that you want to be updateable by the Edit page are allowlisted in the `TryUpdateModel` parameters. Currently there are no extra fields that you're protecting, but listing the fields that you want the model binder to bind ensures that if you add fields to the data model in the future, they're automatically protected until you explicitly add them here.
+   To prevent overposting, the fields that you want to be updateable by the Edit page are listed in the `TryUpdateModel` parameters. Currently there are no extra fields that you're protecting, but listing the fields that you want the model binder to bind ensures that if you add fields to the data model in the future, they're automatically protected until you explicitly add them here.
 
    As a result of these changes, the method signature of the HttpPost Edit method is the same as the HttpGet edit method; therefore you've renamed the method EditPost.
 
