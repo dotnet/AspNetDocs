@@ -402,7 +402,7 @@ The following example shows the code for a *GetCategories* method. This example 
 
 When the page runs, the *GridView* control calls the *GetCategories* method automatically and renders the returned data using the configured fields:
 
-![Screenshot that shows when the page runs, the GridView control calls the GetCategories method automatically and renders the returned data using configured fields.](whats-new-in-aspnet-45-and-visual-studio-2012/_static/image2.png)
+![Screenshot that shows a Grid View of a list of foods by category. There are eight food categories.](whats-new-in-aspnet-45-and-visual-studio-2012/_static/image2.png)
 
 Because the select method returns an *IQueryable* object, the *GridView* control can further manipulate the query before executing it. For example, the *GridView* control can add query expressions for sorting and paging to the returned *IQueryable* object before it is executed, so that those operations are performed by the underlying LINQ provider. In this case, Entity Framework will ensure those operations are performed in the database.
 
@@ -412,7 +412,7 @@ The following example shows the *GridView* control modified to allow sorting and
 
 Now when the page runs, the control can make sure that only the current page of data is displayed and that it's ordered by the selected column:
 
-![Screenshot that shows when the page runs, the control can make sure that only the current page of data is displayed and that it's ordered by the selected column.](whats-new-in-aspnet-45-and-visual-studio-2012/_static/image3.png)
+![Screenshot that shows a Grid View of a list of foods by category. There are three categories, Confections, Condiments and Beverages.](whats-new-in-aspnet-45-and-visual-studio-2012/_static/image3.png)
 
 To filter the returned data, parameters have to be added to the select method. These parameters will be populated by the model binding at run time, and you can use them to alter the query before returning the data.
 
@@ -439,7 +439,7 @@ By default, the parameter name is used as the key to find a value in the value p
 
 If this method is in the page's code, users can filter the results by passing a keyword using the query string:
 
-![Screenshot that shows if this method is in the page's code, users can filter the results by passing a keyword using a query string. Here, q equal (=) chef.](whats-new-in-aspnet-45-and-visual-studio-2012/_static/image4.png)
+![Screenshot that shows a browser on the My A S P dot Net Application page. There are two variables listed for Cajun food.](whats-new-in-aspnet-45-and-visual-studio-2012/_static/image4.png)
 
 Model binding accomplishes many tasks that you would otherwise have to code by hand: reading the value, checking for a null value, attempting to convert it to the appropriate type, checking whether the conversion was successful, and finally, using the value in the query. Model binding results in far less code and in the ability to reuse the functionality throughout your application.
 
@@ -464,7 +464,7 @@ Finally, update the *GetProducts* select method to take a new parameter that con
 
 Now when the page runs, users can select a category from the drop-down list, and the *GridView* control is automatically re-bound to show the filtered data. This is possible because model binding tracks the values of parameters for select methods and detects whether any parameter value has changed after a postback. If so, model binding forces the associated data control to re-bind to the data.
 
-![Screenshot that shows when the page runs, users can select a category from the drop-down list, and the GridView control is automatically rebound to show the filtered data.](whats-new-in-aspnet-45-and-visual-studio-2012/_static/image5.png)
+![Screenshot that shows a grid view of a list of confections by I D, name, unit price and number in stock.](whats-new-in-aspnet-45-and-visual-studio-2012/_static/image5.png)
 
 <a id="_Toc318097391"></a>
 ### HTML Encoded Data-Binding Expressions
@@ -595,19 +595,19 @@ However, this type of UI help for complex properties has not been available in S
 
 For ASP.NET Web Forms controls, Smart Tasks appear on server tags as a small glyph when the insertion point is inside the element:
 
-![Screenshot that shows for A S P dot NET Web Forms controls, Smart Tasks appear on server tags as a small glyph when the insertion point is inside the element.](whats-new-in-aspnet-45-and-visual-studio-2012/_static/image6.png)
+![Screenshot that shows the server tags as a small glyph when the insertion point is inside the element.](whats-new-in-aspnet-45-and-visual-studio-2012/_static/image6.png)
 
 The Smart Task expands when you click the glyph or press CTRL+. (dot), just as in the code editors. It then displays shortcuts that are similar to the Smart Tasks in Design view.
 
-![Screenshot shows that Smart Task expands when you click the glyph or press C T R L plus dot, just as in the code editors. The Smart Task in this illustration shows the GridView Tasks options.](whats-new-in-aspnet-45-and-visual-studio-2012/_static/image7.png)
+![Screenshot that shows a Grid View Tasks window.](whats-new-in-aspnet-45-and-visual-studio-2012/_static/image7.png)
 
 For example, the Smart Task in the previous illustration shows the GridView Tasks options. If you choose Edit Columns, the following dialog box is displayed:
 
-![Screenshot shows that if you choose Edit Columns, a dialog box is displayed. Here, a Fields dialog box is shown.](whats-new-in-aspnet-45-and-visual-studio-2012/_static/image8.png)
+![Screenshot that shows a Fields dialog.](whats-new-in-aspnet-45-and-visual-studio-2012/_static/image8.png)
 
 Filling in the dialog box sets the same properties you can set in Design view. When you click OK, the markup for the control is updated with the new settings:
 
-![Screenshot that shows filling in the dialog box sets the same properties you can set in Design view. When you click OK, the markup for the control is updated with the new settings.](whats-new-in-aspnet-45-and-visual-studio-2012/_static/image9.png)
+![Screenshot that shows the markup for the control updated with new settings.](whats-new-in-aspnet-45-and-visual-studio-2012/_static/image9.png)
 
 <a id="_Toc318097399"></a>
 #### WAI-ARIA support
@@ -616,22 +616,22 @@ Writing accessible websites is becoming increasingly important. The [WAI-ARIA ac
 
 For example, the *role* attribute now has full IntelliSense:
 
-![Screenshot that shows an accessible website. For example, here the Role attribute now has full IntelliSense.](whats-new-in-aspnet-45-and-visual-studio-2012/_static/image10.png)
+![Screenshot that shows menu item highlighted in a list as the Role attribute.](whats-new-in-aspnet-45-and-visual-studio-2012/_static/image10.png)
 
 The WAI-ARIA standard also introduces attributes that are prefixed with *aria-* that let you add semantics to an HTML5 document. Visual Studio also fully supports these *aria-* attributes:
 
-![Screenshot that shows the W A I-ARIA standard also introduces attributes that are prefixed with aria- that let you add semantics to an H T M L 5 document, which Visual Studio also supports.](whats-new-in-aspnet-45-and-visual-studio-2012/_static/image11.png) ![](whats-new-in-aspnet-45-and-visual-studio-2012/_static/image12.png)
+![Screenshot that shows the aria attributes. Aria drop effect is selected in the attribute list.](whats-new-in-aspnet-45-and-visual-studio-2012/_static/image11.png) ![Screenshot that shows the aria drop effect attributes with copy selected.](whats-new-in-aspnet-45-and-visual-studio-2012/_static/image12.png)
 
 <a id="_Toc318097400"></a>
 #### New HTML5 snippets
 
 To make it faster and easier to write commonly used HTML5 markup, Visual Studio includes a number of snippets. An example is the video snippet:
 
-![Screenshot that shows to make it faster and easier to write commonly used H T M L 5 markup, Visual Studio includes a number of snippets. Here is an example of a video snippet.](whats-new-in-aspnet-45-and-visual-studio-2012/_static/image13.png)
+![Screenshot that shows a Visual Studio video snippet selected.](whats-new-in-aspnet-45-and-visual-studio-2012/_static/image13.png)
 
 To invoke the snippet, press Tab twice when the element is selected in IntelliSense:
 
-![Screenshot that shows to invoke the snippet, press Tab twice when the element is selected in IntelliSense.](whats-new-in-aspnet-45-and-visual-studio-2012/_static/image14.png)
+![Screenshot that shows the element File selected in IntelliSense.](whats-new-in-aspnet-45-and-visual-studio-2012/_static/image14.png)
 
 This produces a snippet that you can customize.
 
@@ -642,25 +642,25 @@ In large web pages, it can be a good idea to move individual pieces into user co
 
 To make this easier, when you edit Web Forms pages in Source view, you can now select text in a page, right-click it, and then choose Extract to User Control:
 
-![Screenshot that shows to make editing Web Forms pages in Source View easier, you can now select text in a page, right-click it, and then choose Extract to User Control.](whats-new-in-aspnet-45-and-visual-studio-2012/_static/image2.jpg)
+![Screenshot that shows Extract to User Control selected in the context menu.](whats-new-in-aspnet-45-and-visual-studio-2012/_static/image2.jpg)
 
 <a id="_Toc318097402"></a>
 #### IntelliSense for code nuggets in attributes
 
 Visual Studio has always provided IntelliSense for server-side code nuggets in any page or control. Now Visual Studio includes IntelliSense for code nuggets in HTML attributes as well.
 
-![Screenshot that shows Visual Studio including IntelliSense for code nuggets in H T M L attributes.](whats-new-in-aspnet-45-and-visual-studio-2012/_static/image15.png)
+![Screenshot that shows Query String selected in a list.](whats-new-in-aspnet-45-and-visual-studio-2012/_static/image15.png)
 
 This makes it easier to create data-binding expressions:
 
-![Screenshot that shows creating data-binding expressions is easier.](whats-new-in-aspnet-45-and-visual-studio-2012/_static/image16.png)
+![Screenshot that shows Java Script String Encode selected.](whats-new-in-aspnet-45-and-visual-studio-2012/_static/image16.png)
 
 <a id="_Toc318097403"></a>
 #### Automatic renaming of matching tag when you rename an opening or closing tag
 
 If you rename an HTML element (for example, you change a *div* tag to be a *header* tag), the corresponding opening or closing tag also changes in real time.
 
-![Screenshot that shows if you rename an H T M L element (for example, you change a div tag to be a header tag), the corresponding opening or closing tag also changes in real time.](whats-new-in-aspnet-45-and-visual-studio-2012/_static/image17.png)
+![Screenshot that shows the opening and closing tags changing in real time. The word Heade is highlighted.](whats-new-in-aspnet-45-and-visual-studio-2012/_static/image17.png)
 
 This helps avoid the error where you forget to change a closing tag or change the wrong one.
 
@@ -669,37 +669,37 @@ This helps avoid the error where you forget to change a closing tag or change th
 
 Visual Studio now includes features in Source view to help you write event handlers and bind them manually. If you are editing an event name in Source view, IntelliSense displays &lt;Create New Event&gt;, which will create an event handler in the page's code that has the right signature:
 
-![Screenshot that shows if editing an event name in Source view, IntelliSense displays Create New Event, which creates an event handler in the page's code that has the right signature.](whats-new-in-aspnet-45-and-visual-studio-2012/_static/image3.jpg)
+![Screenshot that shows Create New Event at the insertion point in Source View.](whats-new-in-aspnet-45-and-visual-studio-2012/_static/image3.jpg)
 
 By default, the event handler will use the control's ID for the name of the event-handling method:
 
-![Screenshot shows that by default, the event handler will use the control's I D for the name of the event-handling method.](whats-new-in-aspnet-45-and-visual-studio-2012/_static/image4.jpg)
+![Screenshot that shows the control's I D for the name of the event-handling method.](whats-new-in-aspnet-45-and-visual-studio-2012/_static/image4.jpg)
 
 The resulting event handler will look like this (in this case, in C#):
 
-![Screenshot that shows the resulting event handler will look like this (in this case, in C pound (#)).](whats-new-in-aspnet-45-and-visual-studio-2012/_static/image18.png)
+![Screenshot that shows the resulting event handler in C sharp.](whats-new-in-aspnet-45-and-visual-studio-2012/_static/image18.png)
 
 <a id="_Toc318097405"></a>
 #### Smart indent
 
 When you press Enter while inside an empty HTML element, the editor will put the insertion point in the right place:
 
-![Screenshot that shows when you press Enter while inside an empty H T M L element, the editor will put the insertion point in the right place.](whats-new-in-aspnet-45-and-visual-studio-2012/_static/image19.png)
+![Screenshot that shows an insertion point between two H T M L elements.](whats-new-in-aspnet-45-and-visual-studio-2012/_static/image19.png)
 
 If you press Enter in this location, the closing tag is moved down and indented to match the opening tag. The insertion point is also indented:
 
-![Screenshot that shows if you press Enter in this location, the closing tag is moved down and indented to match the opening tag. The insertion point is also indented.](whats-new-in-aspnet-45-and-visual-studio-2012/_static/image20.png)
+![Screenshot that shows the closing tag is moved down and indented to match the opening tag. The insertion point is also indented.](whats-new-in-aspnet-45-and-visual-studio-2012/_static/image20.png)
 
 <a id="_Toc318097406"></a>
 #### Auto-reduce statement completion
 
 The IntelliSense list in Visual Studio now filters based on what you type so that it displays only relevant options:
 
-![Screenshot that shows the IntelliSense list in Visual Studio now filters based on what you type so that it displays only relevant options.](whats-new-in-aspnet-45-and-visual-studio-2012/_static/image21.png)
+![Screenshot that shows the word map selected in an IntelliSense list.](whats-new-in-aspnet-45-and-visual-studio-2012/_static/image21.png)
 
 IntelliSense also filters based on the title case of the individual words in the IntelliSense list. For example, if you type "dl", both dl and asp:DataList are displayed:
 
-![Screenshot that shows IntelliSense also filters based on the title case of the individual words in the IntelliSense list. For example, here, if you type d l, both d l and a s p:DataList are displayed.](whats-new-in-aspnet-45-and-visual-studio-2012/_static/image22.png)
+![Screenshot that shows d l selected because it was typed.](whats-new-in-aspnet-45-and-visual-studio-2012/_static/image22.png)
 
 This feature makes it faster to get statement completion for known elements.
 
@@ -753,44 +753,44 @@ You can now add JavaScript files to a central list that will be implicitly inclu
 
 The IntelliSense list for CSS now filters based on the CSS properties and values supported by the selected schema.
 
-![Screenshot that shows the IntelliSense list for C S S now filters based on the C S S properties and values supported by the selected schema.](whats-new-in-aspnet-45-and-visual-studio-2012/_static/image23.png)
+![Screenshot that shows border-radius selected in an IntelliSense list for C S S when radiu is typed.](whats-new-in-aspnet-45-and-visual-studio-2012/_static/image23.png)
 
 IntelliSense also supports title case searches:
 
-![Screenshot shows that IntelliSense also supports title case searches.](whats-new-in-aspnet-45-and-visual-studio-2012/_static/image24.png)
+![Screenshot shows font-weight selected after f w.](whats-new-in-aspnet-45-and-visual-studio-2012/_static/image24.png)
 
 <a id="_Toc318097417"></a>
 #### Hierarchical indentation
 
 The CSS editor uses indentation to display hierarchical rules, which gives you an overview of how the cascading rules are logically organized. In the following example, the #list a selector is a cascading child of list and is therefore indented.
 
-![Screenshot that shows an example of the #list selector as a cascading child of list and is therefore indented.](whats-new-in-aspnet-45-and-visual-studio-2012/_static/image25.png)
+![Screenshot that shows an example of the list indented.](whats-new-in-aspnet-45-and-visual-studio-2012/_static/image25.png)
 
 The following example shows more complex inheritance:
 
-![Screenshot that shows an example with more complex inheritance.](whats-new-in-aspnet-45-and-visual-studio-2012/_static/image26.png)
+![Screenshot that shows an additional list of variables.](whats-new-in-aspnet-45-and-visual-studio-2012/_static/image26.png)
 
 The indentation of a rule is determined by its parent rules. Hierarchical indentation is enabled by default, but you can disable it the Options dialog box (Tools, Options from the menu bar):
 
-![Screenshot that shows the indentation of a rule, which is determined by its parent rules. Hierarchical indentation is enabled by default, but you can disable it the Options dialog box (Tools, Options from the menu bar).](whats-new-in-aspnet-45-and-visual-studio-2012/_static/image27.png)
+![Screenshot that shows Options dialog. Hierarchical indentation is checked.](whats-new-in-aspnet-45-and-visual-studio-2012/_static/image27.png)
 
 <a id="_Toc318097418"></a>
 #### CSS hacks support
 
 Analysis of hundreds of real-world CSS files shows that CSS hacks are very common, and now Visual Studio supports the most widely used ones. This support includes IntelliSense and validation of the star (\*) and underscore (\_) property hacks:
 
-![Screenshot shows that C S S hacks, and now Visual Studio supports the most widely used ones. This support includes IntelliSense and validation of the star and underscore  property hacks.](whats-new-in-aspnet-45-and-visual-studio-2012/_static/image28.png)
+![Screenshot that shows height selected in the list.](whats-new-in-aspnet-45-and-visual-studio-2012/_static/image28.png)
 
 Typical selector hacks are also supported so that hierarchical indentation is maintained even when they are applied. A typical selector hack used to target Internet Explorer 7 is to prepend a selector with *\*:first-child + html*. Using that rule will maintain the hierarchical indentation:
 
-![Screenshot that shows a typical selector hack used to target Internet Explorer 7 to prepend a selector with slash : first-child plus H T M L. Using this rule maintains the hierarchical indentation.](whats-new-in-aspnet-45-and-visual-studio-2012/_static/image29.png)
+![Screenshot that shows an example of a typical selector hack.](whats-new-in-aspnet-45-and-visual-studio-2012/_static/image29.png)
 
 <a id="_Toc318097419"></a>
 #### Vendor specific schemas (-moz-, -webkit)
 
 CSS3 introduces many properties that have been implemented by different browsers at different times. This previously forced developers to code for specific browsers by using vendor-specific syntax. These browser-specific properties are now included in IntelliSense.
 
-![Screenshot shows that browser-specific properties are now included in IntelliSense.](whats-new-in-aspnet-45-and-visual-studio-2012/_static/image30.png)
+![Screenshot that shows m s word wrap selected in IntelliSense.](whats-new-in-aspnet-45-and-visual-studio-2012/_static/image30.png)
 
 <a id="_Toc318097420"></a>
 #### Commenting and uncommenting support
@@ -804,26 +804,26 @@ In previous versions of Visual Studio, IntelliSense for color-related attributes
 
 When you enter a color value, the color picker is displayed automatically and presents a list of previously used colors followed by a default color palette. You can select a color using the mouse or the keyboard.
 
-![Screenshot that shows when you enter a color value, the color picker is displayed automatically and presents a list of previously used colors followed by a default color palette. You can select a color using the mouse or the keyboard.](whats-new-in-aspnet-45-and-visual-studio-2012/_static/image31.png)
+![Screenshot that shows a list of previously used colors followed by a default color palette.](whats-new-in-aspnet-45-and-visual-studio-2012/_static/image31.png)
 
 The list can be expanded into a complete color picker. The picker lets you control the alpha channel by automatically converting any color into RGBA when you move the opacity slider:
 
-![Screenshot shows that the color picker lets you control the alpha channel by automatically converting any color into R G B A when you move the opacity slider.](whats-new-in-aspnet-45-and-visual-studio-2012/_static/image32.png)
+![Screenshot that shows a color picker by automatically converting any color into R G B A when you move the opacity slider.](whats-new-in-aspnet-45-and-visual-studio-2012/_static/image32.png)
 
 <a id="_Toc318097422"></a>
 #### Snippets
 
 Snippets in the CSS editor make it easier and faster to create cross-browser styles. Many CSS3 properties that require browser-specific settings have now been rolled into snippets.
 
-![Screenshot that shows Snippets in the C S S editor makes it easier and faster to create cross-browser styles. Many C S S 3 properties that require browser-specific settings have now been rolled into snippets.](whats-new-in-aspnet-45-and-visual-studio-2012/_static/image33.png)
+![Screenshot that shows Snippets in the C S S editor. The words ease in out is selected.](whats-new-in-aspnet-45-and-visual-studio-2012/_static/image33.png)
 
 CSS snippets support advanced scenarios (like CSS3 media queries) by typing the at-symbol (@), which shows the IntelliSense list.
 
-![Screenshot that shows C S S snippets supporting advanced scenarios (like C S S 3 media queries) by typing the at-symbol (@), which shows the IntelliSense list.](whats-new-in-aspnet-45-and-visual-studio-2012/_static/image34.png)
+![Screenshot that shows at media selected in the IntelliSense list.](whats-new-in-aspnet-45-and-visual-studio-2012/_static/image34.png)
 
 When you select @media value and press Tab, the CSS editor inserts the following snippet:
 
-![Screenshot that shows when you select the at (@) media value and press Tab, the C S S editor inserts a snippet.](whats-new-in-aspnet-45-and-visual-studio-2012/_static/image5.jpg)
+![Screenshot that shows a snippet with 1024 p x selected.](whats-new-in-aspnet-45-and-visual-studio-2012/_static/image5.jpg)
 
 As with snippets for code, you can create your own CSS snippets.
 
@@ -832,18 +832,18 @@ As with snippets for code, you can create your own CSS snippets.
 
 Named code regions, which are already available in the code editor, are now available for CSS editing. This lets you easily group related style blocks.
 
-![Screenshot that shows named code regions, which are already available in the code editor, are now available for C S S editing. This lets you easily group related style blocks.](whats-new-in-aspnet-45-and-visual-studio-2012/_static/image35.png)
+![Screenshot that shows the code editor. The style blocks used is for the region menu.](whats-new-in-aspnet-45-and-visual-studio-2012/_static/image35.png)
 
 When a region is collapsed it displays the name of the region:
 
-![Screenshot that shows when a region is collapsed, it displays the name of the region.](whats-new-in-aspnet-45-and-visual-studio-2012/_static/image36.png)
+![Screenshot that shows the Menu region collapsed.](whats-new-in-aspnet-45-and-visual-studio-2012/_static/image36.png)
 
 <a id="_Toc318097424"></a>
 ### Page Inspector
 
 Page Inspector is a tool that renders a web page (HTML, Web Forms, ASP.NET MVC, or Web Pages) in the Visual Studio IDE and lets you examine both the source code and the resulting output. For ASP.NET pages, Page Inspector lets you determine which server-side code has produced the HTML markup that is rendered to the browser.
 
-![Screenshot that shows for A S P dot NET pages, Page Inspector lets you determine which server-side code has produced the H T M L markup that is rendered to the browser.](whats-new-in-aspnet-45-and-visual-studio-2012/_static/image37.png)
+![Screenshot that shows Visual Studio code. The right pane has the source code and the left pane renders the web page.](whats-new-in-aspnet-45-and-visual-studio-2012/_static/image37.png)
 
 For more information about Page Inspector, please see the following tutorials:
 
