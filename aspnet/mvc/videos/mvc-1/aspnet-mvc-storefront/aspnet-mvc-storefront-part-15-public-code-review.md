@@ -9,6 +9,7 @@ ms.assetid: c06b991f-b1d8-4315-9bc7-d17bc644cbd3
 msc.legacyurl: /mvc/videos/mvc-1/aspnet-mvc-storefront/aspnet-mvc-storefront-part-15-public-code-review
 msc.type: video
 ---
+# ASP.NET MVC Storefront Part 15: Public Code Review 
 
 [&#9654; Watch video (37 minutes)](https://channel9.msdn.com/Blogs/ASP-NET-Site-Videos/aspnet-mvc-storefront-part-15-public-code-review)
 
