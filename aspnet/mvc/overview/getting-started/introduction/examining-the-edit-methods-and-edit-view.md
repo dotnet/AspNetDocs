@@ -1,15 +1,16 @@
 ---
 uid: mvc/overview/getting-started/introduction/examining-the-edit-methods-and-edit-view
-title: "Examining the Edit Methods and Edit View | Microsoft Docs"
+title: "Examining the Edit Action Methods and Views for the Movie Controller | Microsoft Docs"
 author: Rick-Anderson
 description: ""
 ms.author: riande
-ms.date: 01/06/2019
+ms.date: 05/02/2022
+ms.custom: devdivchpfy22
 ms.assetid: 52a4d5fe-aa31-4471-b3cb-a064f82cb791
 msc.legacyurl: /mvc/overview/getting-started/introduction/examining-the-edit-methods-and-edit-view
 msc.type: authoredcontent
 ---
-# Examining the Edit Methods and Edit View
+# Examining the Edit Action Methods and Views for the Movie Controller
 
 by [Rick Anderson](https://twitter.com/RickAndMSFT)
 
@@ -98,11 +99,14 @@ If you are using a US-English computer, you can skip this section and go to the 
 
 1. From the **Tools** menu click **NuGet Package Manager**, and then click **Manage NuGet Packages for Solution**.
 
-    ![](examining-the-edit-methods-and-edit-view/_static/image5.png)
+    :::image type="content" source="examining-the-edit-methods-and-edit-view/_static/image5.png" alt-text="Screenshot of the Tools menu to begin jQuery validation for non English locales.":::
+
 2. On the left pane, select <strong>Browse*.</strong>*(See the image below.)
 3. In the input box, enter *Globalize**.
 
-    ![](examining-the-edit-methods-and-edit-view/_static/image6.png) Choose `jQuery.Validation.Globalize`, choose `MvcMovie` and click **Install**. The *Scripts\jquery.globalize\globalize.js* file will be added to your project. The *Scripts\jquery.globalize\cultures\* folder will contain many culture JavaScript files. Note, it may take five minutes to install this package.
+    :::image type="content" source="examining-the-edit-methods-and-edit-view/_static/image6.png" alt-text="Screenshot of the input box to enter Globalize.":::
+    
+    Choose `jQuery.Validation.Globalize`, choose `MvcMovie` and click **Install**. The *Scripts\jquery.globalize\globalize.js* file will be added to your project. The *Scripts\jquery.globalize\cultures\* folder will contain many culture JavaScript files. Note, it may take five minutes to install this package.
 
    The following code shows the modifications to the Views\Movies\Edit.cshtml file:
 

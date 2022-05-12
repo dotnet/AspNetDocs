@@ -110,7 +110,7 @@ Here is an example request. Note the "Price" and "Published" properties.
 
 If you set a breakpoint in the controller method, you can see that Web API added these properties to the `Properties` dictionary.
 
-![](use-open-types-in-odata-v4/_static/image1.png)
+![Screenshot of the code that sends a POST request, highlighting the 'add books' part of the code to show the properties added by the Web A P I.](use-open-types-in-odata-v4/_static/image1.png)
 
 ## Additional Resources
 
