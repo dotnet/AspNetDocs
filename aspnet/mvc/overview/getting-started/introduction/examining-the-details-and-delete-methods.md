@@ -1,15 +1,15 @@
 ---
 uid: mvc/overview/getting-started/introduction/examining-the-details-and-delete-methods
-title: "Examining the Details and Delete Methods | Microsoft Docs"
+title: "Examining the MVC Details and Delete Methods | Microsoft Docs"
 author: Rick-Anderson
-description: ""
+description: "In this tutorial, you'll examine the automatically generated `Details` and `Delete` methods."
 ms.author: riande
 ms.date: 03/26/2015
 ms.assetid: f1d2a916-626c-4a54-8df4-77e6b9fff355
 msc.legacyurl: /mvc/overview/getting-started/introduction/examining-the-details-and-delete-methods
 msc.type: authoredcontent
 ---
-# Examining the Details and Delete Methods
+# Examining the Automatically Generated Details and Delete Methods
 
 by [Rick Anderson](https://twitter.com/RickAndMSFT)
 
@@ -21,7 +21,7 @@ In this part of the tutorial, you'll examine the automatically generated `Detail
 
 Open the `Movie` controller and examine the `Details` method.
 
-![](examining-the-details-and-delete-methods/_static/image1.png)
+![Screenshot that shows the Movies Controller dot c s tab. In the Create drop down menu, Details is circled in red.](examining-the-details-and-delete-methods/_static/image1.png)
 
 [!code-csharp[Main](examining-the-details-and-delete-methods/samples/sample1.cs)]
 
@@ -51,7 +51,7 @@ Another common way to avoid a problem with methods that have identical names and
 
 You now have a complete ASP.NET MVC application that stores data in a local DB database. You can create, read, update, delete, and search for movies.
 
-![](examining-the-details-and-delete-methods/_static/image2.png)
+![Screenshot that shows the M V C Movie Search Index page.](examining-the-details-and-delete-methods/_static/image2.png)
 
 ## Next Steps
 

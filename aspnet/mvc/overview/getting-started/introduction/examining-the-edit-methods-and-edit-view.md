@@ -2,7 +2,7 @@
 uid: mvc/overview/getting-started/introduction/examining-the-edit-methods-and-edit-view
 title: "Examining the Edit Action Methods and Views for the Movie Controller | Microsoft Docs"
 author: Rick-Anderson
-description: ""
+description: "In this tutorial, you'll examine the generated `Edit` action methods and views for the movie controller."
 ms.author: riande
 ms.date: 05/02/2022
 ms.custom: devdivchpfy22
