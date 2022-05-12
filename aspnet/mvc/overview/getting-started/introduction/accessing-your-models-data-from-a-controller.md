@@ -1,6 +1,6 @@
 ---
 uid: mvc/overview/getting-started/introduction/accessing-your-models-data-from-a-controller
-title: "Accessing Your Model's Data from a new Controller | Microsoft Docs"
+title: "Accessing Your Model's Data from a New Controller | Microsoft Docs"
 author: Rick-Anderson
 description: "In this section, you'll create a new `MoviesController` class and write code that retrieves the movie data and displays it in the browser using a view template."
 ms.author: riande
@@ -9,7 +9,7 @@ ms.assetid: caa1ba4a-f9f0-4181-ba21-042e3997861d
 msc.legacyurl: /mvc/overview/getting-started/introduction/accessing-your-models-data-from-a-controller
 msc.type: authoredcontent
 ---
-# Accessing Your Model's Data from a new Controller
+# Accessing Your Model's Data from a New Controller
 
 by [Rick Anderson](https://twitter.com/RickAndMSFT)
 
@@ -25,7 +25,7 @@ In Solution Explorer, right-click the *Controllers* folder and then click **Add*
 
 In the **Add Scaffold** dialog box, click **MVC 5 Controller with views, using Entity Framework**, and then click **Add**.
 
-![Screenshot that shows the Add Scaffold dialog box. M V C 5 Controller with views, using Entity Framework is selected.](accessing-your-models-data-from-a-controller/_static/image2.png)
+![Screenshot that shows the Add Scaffold dialog. M V C 5 Controller with views, using Entity Framework is selected.](accessing-your-models-data-from-a-controller/_static/image2.png)
 
 - Select **Movie (MvcMovie.Models)** for the Model class.
 - Select **MovieDBContext (MvcMovie.Models)** for the Data context class.
@@ -33,7 +33,7 @@ In the **Add Scaffold** dialog box, click **MVC 5 Controller with views, using E
 
   The image below shows the completed dialog.  
   
-![Screenshot that shows the Add Controller dialog box with class and name data inputted.](accessing-your-models-data-from-a-controller/_static/image3.png)   
+![Screenshot that shows the Add Controller dialog with class and name data inputted.](accessing-your-models-data-from-a-controller/_static/image3.png)   
 
 Click **Add**. (If you get an error, you probably didn't build the application before starting adding the controller.) Visual Studio creates the following files and folders:
 
