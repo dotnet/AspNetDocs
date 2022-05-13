@@ -56,7 +56,7 @@ The ability to integrate partial page rendering is integrated into ASP.NET with 
 1. Press F5 to launch your web site. Visual Studio will prompt you to add a web.config file to enable debugging; do so. When you click the button, notice that the page refreshes to change the text in the label, and there is a brief flicker as the page is redrawn.
 2. After closing your browser window, return to Visual Studio and to the markup page. Scroll down in the Visual Studio toolbox, and find the tab labeled AJAX Extensions. (If you do not have this tab because you are using an older version of AJAX or Atlas extensions, refer to the walkthrough for registering the AJAX Extensions toolbox items later in this whitepaper, or install the current version with the Windows Installer downloadable from the website).
 
-[![](understanding-partial-page-updates-with-asp-net-ajax/_static/image2.png)](understanding-partial-page-updates-with-asp-net-ajax/_static/image1.png)
+[![Screenshot that shows a tab called A J A X Estensions and Script Manager selected.](understanding-partial-page-updates-with-asp-net-ajax/_static/image2.png)](understanding-partial-page-updates-with-asp-net-ajax/_static/image1.png)
 
 ([Click to view full-size image](understanding-partial-page-updates-with-asp-net-ajax/_static/image3.png))
 
@@ -66,7 +66,7 @@ The ability to integrate partial page rendering is integrated into ASP.NET with 
 3. Drag the closing `</asp:UpdatePanel>` tag past the end of the Button element, so that the element is well-formed with the Label and Button controls wrapped.
 4. After the opening `<asp:UpdatePanel>` tag, begin opening a new tag. Note that IntelliSense prompts you with two options. In this case, create a `<ContentTemplate>` tag. Be sure to wrap this tag around your Label and Button so that the markup is well-formed.
 
-[![](understanding-partial-page-updates-with-asp-net-ajax/_static/image5.png)](understanding-partial-page-updates-with-asp-net-ajax/_static/image4.png)
+[![Screenshot that shows an a s p  Update Panel tag followed by a Content Template tag.](understanding-partial-page-updates-with-asp-net-ajax/_static/image5.png)](understanding-partial-page-updates-with-asp-net-ajax/_static/image4.png)
 
 ([Click to view full-size image](understanding-partial-page-updates-with-asp-net-ajax/_static/image6.png))
 
@@ -81,7 +81,7 @@ The ability to integrate partial page rendering is integrated into ASP.NET with 
 
 1. What's New in Visual Studio 2008: The web.config that comes with the ASP.NET Web Site project templates automatically includes all necessary references to the ASP.NET AJAX Extensions, and includes commented sections of configuration information that can be un-commented to enable additional functionality. Visual Studio 2005 had similar templates when ASP.NET 2.0 AJAX Extensions were installed. However, in Visual Studio 2008, the AJAX Extensions are opt-out by default (that is, they are referenced by default, but can be removed as references).
 
-[![](understanding-partial-page-updates-with-asp-net-ajax/_static/image8.png)](understanding-partial-page-updates-with-asp-net-ajax/_static/image7.png)
+[![Screenshot that shows an Untitled Page browser selected and a default Notepad.](understanding-partial-page-updates-with-asp-net-ajax/_static/image8.png)](understanding-partial-page-updates-with-asp-net-ajax/_static/image7.png)
 
 ([Click to view full-size image](understanding-partial-page-updates-with-asp-net-ajax/_static/image9.png))
 
@@ -219,11 +219,11 @@ The UpdatePanel operates as something of a black-box, wrapping ASP.NET postbacks
 
 Consider a form that, among other things, has a postal code textbox which is supposed to populate a city and state field on a form or control. This form ultimately collects membership information, including a user's name, address, and contact information. There are many design considerations to take into account, based on the requirements of a specific project.
 
-[![](understanding-partial-page-updates-with-asp-net-ajax/_static/image11.png)](understanding-partial-page-updates-with-asp-net-ajax/_static/image10.png)
+[![Screenshot that shows a city, state and zip code field on a form.](understanding-partial-page-updates-with-asp-net-ajax/_static/image11.png)](understanding-partial-page-updates-with-asp-net-ajax/_static/image10.png)
 
 ([Click to view full-size image](understanding-partial-page-updates-with-asp-net-ajax/_static/image12.png))
 
-[![](understanding-partial-page-updates-with-asp-net-ajax/_static/image14.png)](understanding-partial-page-updates-with-asp-net-ajax/_static/image13.png)
+[![Screenshot that shows a panel with the word Console on a tag.](understanding-partial-page-updates-with-asp-net-ajax/_static/image14.png)](understanding-partial-page-updates-with-asp-net-ajax/_static/image13.png)
 
 ([Click to view full-size image](understanding-partial-page-updates-with-asp-net-ajax/_static/image15.png))
 
@@ -235,7 +235,7 @@ It may also be of interest to see how ASP.NET AJAX updates the presentation. The
 
 The regeneration of the DOM triggers a number of additional issues:
 
-[![](understanding-partial-page-updates-with-asp-net-ajax/_static/image17.png)](understanding-partial-page-updates-with-asp-net-ajax/_static/image16.png)
+[![Screenshot that shows a panel with Console on a tab and code on the Response tab.](understanding-partial-page-updates-with-asp-net-ajax/_static/image17.png)](understanding-partial-page-updates-with-asp-net-ajax/_static/image16.png)
 
 ([Click to view full-size image](understanding-partial-page-updates-with-asp-net-ajax/_static/image18.png))
 
