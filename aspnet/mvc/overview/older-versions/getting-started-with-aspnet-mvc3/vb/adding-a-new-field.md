@@ -53,7 +53,7 @@ You've now updated the application code to support the new `Rating` property.
 
 Now run the application and navigate to the */Movies* URL. When you do this, though, you'll see the following error:
 
-![](adding-a-new-field/_static/image1.png)
+![Screenshot that shows a browser window with an error that states Server Error in Application.](adding-a-new-field/_static/image1.png)
 
 You're seeing this error because the updated `Movie` model class in the application is now different than the schema of the `Movie` table of the existing database. (There's no `Rating` column in the database table.)
 
@@ -76,7 +76,7 @@ Let's update the application so that Code First automatically drops and re-creat
 
 In **Solution Explorer**, right click the *Models* folder, select **Add**, and then select **Class**.
 
-![](adding-a-new-field/_static/image2.png)
+![Screenshot that shows the Solution Explorer window. Add is selected in the Models right click menu and Class is selected in the sub menu.](adding-a-new-field/_static/image2.png)
 
 Name the class &quot;MovieInitializer&quot;. Update the `MovieInitializer` class to contain the following code:
 

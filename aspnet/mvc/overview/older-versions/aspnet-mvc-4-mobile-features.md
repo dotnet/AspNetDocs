@@ -41,7 +41,7 @@ For this tutorial, you'll add mobile features to the simple conference-listing a
 
 You can use Internet Explorer version 9 or 10, FireFox or Chrome to develop your mobile application by setting the [user agent string](http://www.howtogeek.com/113439/how-to-change-your-browsers-user-agent-without-installing-any-extensions/). The following image shows the completed tutorial using Internet Explorer emulating an iPhone. You can use the Internet Explorer F-12 developer tools and the [Fiddler tool](http://www.fiddler2.com/fiddler2/) to help debug your application.
 
-![](aspnet-mvc-4-mobile-features/_static/image3.png)
+![Screenshot that shows the All tags page on a Windows 7 phone display.](aspnet-mvc-4-mobile-features/_static/image3.png)
 
 ### Skills You'll Learn
 
@@ -184,7 +184,7 @@ Install the *jQuery.Mobile.MVC* NuGet package by doing this:
 
 The following image shows the files added and changed to the MvcMobile project by the NuGet jQuery.Mobile.MVC package. Files which are added have [add] appended after the file name. The image does not show the GIF and PNG files added to the *Content\images* folder.
 
-![](aspnet-mvc-4-mobile-features/_static/image21.png)
+![Screenshot that shows the Microsoft Visual Web Developer Window. Library Package Manager is selected in the Tools drop down menu. Package Manager Console is selected in the sub menu.](aspnet-mvc-4-mobile-features/_static/image21.png)
 
 The jQuery.Mobile.MVC NuGet package installs the following:
 
