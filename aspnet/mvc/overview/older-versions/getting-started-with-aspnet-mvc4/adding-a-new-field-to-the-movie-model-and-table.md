@@ -26,11 +26,11 @@ If you are using Visual Studio 2012, double click the *Movies.mdf* file from Sol
 
 In the database tool (Database Explorer, Server Explorer or SQL Server Object Explorer), right click on `MovieDBContext` and select **Delete** to drop the movies database.
 
-![](adding-a-new-field-to-the-movie-model-and-table/_static/image1.png)
+![Screenshot that shows the Server Explorer window. Delete is selected in the Movie D B Context right click menu.](adding-a-new-field-to-the-movie-model-and-table/_static/image1.png)
 
 Navigate back to Solution Explorer. Right click on the *Movies.mdf* file and select **Delete** to remove the movies database.
 
-![](adding-a-new-field-to-the-movie-model-and-table/_static/image2.png)
+![Screenshot that shows the Solution Explorer window. Delete is selected in the Movies dot m d f right click menu.](adding-a-new-field-to-the-movie-model-and-table/_static/image2.png)
 
 Build the application to make sure there are no errors.
 
@@ -40,11 +40,11 @@ From the **Tools** menu, click **NuGet Package Manager** and then **Package Mana
 
 In the **Package Manager Console** window at the `PM>` prompt enter "Enable-Migrations -ContextTypeName MvcMovie.Models.MovieDBContext".
 
-![](adding-a-new-field-to-the-movie-model-and-table/_static/image4.png)
+![Screenshot that shows the Package Manager Console window. The Enable Migrations command is entered.](adding-a-new-field-to-the-movie-model-and-table/_static/image4.png)
 
 The **Enable-Migrations** command (shown above) creates a *Configuration.cs* file in a new *Migrations* folder.
 
-![](adding-a-new-field-to-the-movie-model-and-table/_static/image5.png)
+![Screenshot that shows the Solution Explorer window. The Migrations folder and Configuration dot c s file are circled in red.](adding-a-new-field-to-the-movie-model-and-table/_static/image5.png)
 
 Visual Studio opens the *Configuration.cs* file. Replace the `Seed` method in the *Configuration.cs* file with the following code:
 
@@ -52,7 +52,7 @@ Visual Studio opens the *Configuration.cs* file. Replace the `Seed` method in th
 
 Right click on the red squiggly line under `Movie` and select **Resolve** then **using** **MvcMovie.Models;**
 
-![](adding-a-new-field-to-the-movie-model-and-table/_static/image6.png)
+![Screenshot that shows Resolve selected in the Movie right click menu.](adding-a-new-field-to-the-movie-model-and-table/_static/image6.png)
 
 Doing so adds the following using statement:
 
@@ -68,19 +68,19 @@ The next step is to create a `DbMigration` class for the initial migration. This
 
 In the **Package Manager Console** window, enter the command "add-migration Initial" to create the initial migration. The name "Initial" is arbitrary and is used to name the migration file created.
 
-![](adding-a-new-field-to-the-movie-model-and-table/_static/image7.png)
+![Screenshot that shows the Package Manager Console window. The paragraph that begins with The Designer Code for this migration file is highlighted.](adding-a-new-field-to-the-movie-model-and-table/_static/image7.png)
 
 Code First Migrations creates another class file in the *Migrations* folder (with the name *{DateStamp}\_Initial.cs* ), and this class contains code that creates the database schema. The migration filename is pre-fixed with a timestamp to help with ordering. Examine the *{DateStamp}\_Initial.cs* file, it contains the instructions to create the Movies table for the Movie DB. When you update the database in the instructions below, this *{DateStamp}\_Initial.cs* file will run and create the DB schema. Then the **Seed** method will run to populate the DB with test data.
 
 In the **Package Manager Console**, enter the command "update-database" to create the database and run the **Seed** method.
 
-![](adding-a-new-field-to-the-movie-model-and-table/_static/image8.png)
+![Screenshot that shows the Package Manager Console window. The update database command is entered.](adding-a-new-field-to-the-movie-model-and-table/_static/image8.png)
 
 If you get an error that indicates a table already exists and can't be created, it is probably because you ran the application after you deleted the database and before you executed `update-database`. In that case, delete the *Movies.mdf* file again and retry the `update-database` command. If you still get an error, delete the migrations folder and contents then start with the instructions at the top of this page (that is delete the *Movies.mdf* file then proceed to Enable-Migrations).
 
 Run the application and navigate to the */Movies* URL. The seed data is displayed.
 
-![](adding-a-new-field-to-the-movie-model-and-table/_static/image9.png)
+![Screenshot that shows the M V C Movie Index page with a list of four movies.](adding-a-new-field-to-the-movie-model-and-table/_static/image9.png)
 
 ## Adding a Rating Property to the Movie Model
 
@@ -108,9 +108,9 @@ You've now updated the application code to support the new `Rating` property.
 
 Now run the application and navigate to the */Movies* URL. When you do this, though, you'll see one of the following errors:
 
-![](adding-a-new-field-to-the-movie-model-and-table/_static/image10.png)
+![Screenshot that shows the error Invalid Operation Exception was unhandled by user code.](adding-a-new-field-to-the-movie-model-and-table/_static/image10.png)
 
-![](adding-a-new-field-to-the-movie-model-and-table/_static/image11.png)
+![Screenshot that shows the browser window with an error that states Server Error in Application.](adding-a-new-field-to-the-movie-model-and-table/_static/image11.png)
 
 You're seeing this error because the updated `Movie` model class in the application is now different than the schema of the `Movie` table of the existing database. (There's no `Rating` column in the database table.)
 
@@ -140,11 +140,11 @@ Build the solution, and then enter the "update-database" command in the **Packag
 
 The following image shows the output in the **Package Manager Console** window (The date stamp prepending AddRatingMig will be different.)
 
-![](adding-a-new-field-to-the-movie-model-and-table/_static/image12.png)
+![Screenshot that shows the update database command.](adding-a-new-field-to-the-movie-model-and-table/_static/image12.png)
 
 Re-run the application and navigate to the /Movies URL. You can see the new Rating field.
 
-![](adding-a-new-field-to-the-movie-model-and-table/_static/image13.png)
+![Screenshot that shows the M V C Movie Index page with four movies listed.](adding-a-new-field-to-the-movie-model-and-table/_static/image13.png)
 
 Click the **Create New** link to add a new movie. Note that you can add a rating.
 
