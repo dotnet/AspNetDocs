@@ -2,7 +2,7 @@
 uid: mvc/overview/older-versions/getting-started-with-aspnet-mvc4/adding-a-new-field-to-the-movie-model-and-table
 title: "Adding a New Field to the Movie Model and Table | Microsoft Docs"
 author: Rick-Anderson
-description: "Note: An updated version of this tutorial is available here that uses ASP.NET MVC 5 and Visual Studio 2013. It's more secure, much simpler to follow and demo..."
+description: "In this tutorial you'll use Entity Framework Code First Migrations to migrate some changes to the model classes so the change is applied to the database."
 ms.author: riande
 ms.date: 08/28/2012
 ms.assetid: 9ef2c4f1-a305-4e0a-9fb8-bfbd9ef331d9

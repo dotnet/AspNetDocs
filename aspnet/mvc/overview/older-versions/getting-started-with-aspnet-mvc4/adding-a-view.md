@@ -2,7 +2,7 @@
 uid: mvc/overview/older-versions/getting-started-with-aspnet-mvc4/adding-a-view
 title: "Adding a View 2012 | Microsoft Docs"
 author: Rick-Anderson
-description: "Note: An updated version of this tutorial is available here that uses ASP.NET MVC 5 and Visual Studio 2013. It's more secure, much simpler to follow and demo..."
+description: "In this tutorial you're going to modify the HelloWorldController class to use view template files to cleanly encapsulate the process of generating HTML responses to a client."
 ms.author: riande
 ms.date: 08/28/2012
 ms.assetid: dde851d7-882e-4d99-9b96-cf96daed81cc
