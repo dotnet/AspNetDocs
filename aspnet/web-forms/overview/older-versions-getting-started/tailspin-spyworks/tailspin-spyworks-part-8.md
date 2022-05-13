@@ -23,7 +23,7 @@ Create a new page named ContactUs.aspx
 
 Using the designer, create the following form taking special note to include the ToolkitScriptManager and the Editor control from the AjaxControlToolkit. .
 
-![](tailspin-spyworks-part-8/_static/image1.jpg)
+![Screenshot that shows the new form.](tailspin-spyworks-part-8/_static/image1.jpg)
 
 Double click on the "Submit" button to generate a click event handler in the code behind file and implement a method to send the contact information as an email.
 
@@ -43,7 +43,7 @@ Lastly, throughout the application we have thrown exceptions and there are unfor
 
 We never want an unhandled exception to be displayed to a web site visitor.
 
-![](tailspin-spyworks-part-8/_static/image2.jpg)
+![Screenshot that shows an unhandled exception.](tailspin-spyworks-part-8/_static/image2.jpg)
 
 Apart from being a terrible user experience unhandled exceptions can also be a security problem.
 

@@ -78,7 +78,7 @@ First we'll add a button with a link to a form that we can use to enter a produc
 
 [!code-aspx[Main](tailspin-spyworks-part-7/samples/sample7.aspx)]
 
-![](tailspin-spyworks-part-7/_static/image1.jpg)
+![Screenshot that shows the link location.](tailspin-spyworks-part-7/_static/image1.jpg)
 
 Note that we are passing the ProductID in the query string
 
@@ -88,7 +88,7 @@ This page will use the ASP.NET AJAX Control Toolkit. If you have not already don
 
 In design mode, drag controls and validators from the toolbox and build a form like the one below.
 
-![](tailspin-spyworks-part-7/_static/image2.jpg)
+![Screenshot that shows the form.](tailspin-spyworks-part-7/_static/image2.jpg)
 
 The markup will look something like this.
 
@@ -102,7 +102,7 @@ Add this markup to the ProductDetails.aspx page.
 
 Running our application now and navigating to a product shows the product information including customer reviews.
 
-![](tailspin-spyworks-part-7/_static/image3.jpg)
+![Screenshot that shows customer reviews.](tailspin-spyworks-part-7/_static/image3.jpg)
 
 ## <a id="_Toc260221678"></a>  Popular Items Control (Creating User Controls)
 
@@ -116,7 +116,7 @@ In Visual Studio's solutions explorer, right-click on the solution name and crea
 
 Right-click on the controls folder and choose "New Item" :
 
-![](tailspin-spyworks-part-7/_static/image4.jpg)
+![Screenshot that shows where to select New Item.](tailspin-spyworks-part-7/_static/image4.jpg)
 
 Specify a name for our control of "PopularItems". Note that the file extension for user controls is .ascx not .aspx.
 
@@ -140,11 +140,11 @@ Now all we have to do is include our new control in our Default.aspx page.
 
 Use drag and drop to place an instance of the control in the open column of our Default form.
 
-![](tailspin-spyworks-part-7/_static/image5.jpg)
+![Screenshot that shows where to place an instance of the control.](tailspin-spyworks-part-7/_static/image5.jpg)
 
 Now when we run our application the home page displays the most popular items.
 
-![](tailspin-spyworks-part-7/_static/image6.jpg)
+![Screenshot that shows how the home page displays the most popular items.](tailspin-spyworks-part-7/_static/image6.jpg)
 
 ## <a id="_Toc260221679"></a>  "Also Purchased" Control (User Controls with Parameters)
 
@@ -168,11 +168,11 @@ To access the stored procedure from the Entity Data Model we need to import the 
 
 Double Click on the Entity Data Model in the Solutions Explorer to open it in the designer and open the Model Browser, then right-click in the designer and select "Add Function Import".
 
-![](tailspin-spyworks-part-7/_static/image1.png)
+![Screenshot that shows where to select Add Function Import.](tailspin-spyworks-part-7/_static/image1.png)
 
 Doing so will open this dialog.
 
-![](tailspin-spyworks-part-7/_static/image2.png)
+![Screenshot that shows the open dialog box.](tailspin-spyworks-part-7/_static/image2.png)
 
 Fill out the fields as you see above, selecting the "SelectPurchasedWithProducts" and use the procedure name for the name of our imported function.
 
@@ -220,11 +220,11 @@ Doing so will create a reference to the control at the top of the ProductDetails
 
 Since the AlsoPurchased user control requires a ProductId number we will set the ProductID property of our control by using an Eval statement against the current data model item of the page.
 
-![](tailspin-spyworks-part-7/_static/image3.png)
+![Screenshot that highlights the product I D. ](tailspin-spyworks-part-7/_static/image3.png)
 
 When we build and run now and browse to a product we see the "Also Purchased" items.
 
-![](tailspin-spyworks-part-7/_static/image7.jpg)
+![Screenshot that shows the items that were also purchased.](tailspin-spyworks-part-7/_static/image7.jpg)
 
 > [!div class="step-by-step"]
 > [Previous](tailspin-spyworks-part-6.md)

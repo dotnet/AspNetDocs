@@ -58,7 +58,7 @@ The XSRF request verification *session token* is stored as an HTTP cookie and cu
 - A security token, consisting of a random 128-bit identifier.   
  The following image shows the XSRF request verification session token displayed with the Internet Explorer F12 developer tools: (Note this is the current implementation and is subject, even likely, to change.)
 
-![](xsrfcsrf-prevention-in-aspnet-mvc-and-web-pages/_static/image1.png)
+![Screenshot that shows the My A S P dot NET M V C Application Index page. The Network tab is open.](xsrfcsrf-prevention-in-aspnet-mvc-and-web-pages/_static/image1.png)
 
 The *field token* is stored as an `<input type="hidden" />` and contains the following information in its payload:
 
