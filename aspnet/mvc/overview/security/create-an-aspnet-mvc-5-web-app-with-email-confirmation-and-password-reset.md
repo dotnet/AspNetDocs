@@ -26,7 +26,7 @@ Start by installing and running [Visual Studio Express 2013 for Web](/aspnet/vis
 > Warning: You must install [Visual Studio 2013 Update 3](https://go.microsoft.com/fwlink/?LinkId=390465) or higher to complete this tutorial.
 
 1. Create a new ASP.NET Web project and select the MVC template. Web Forms also supports ASP.NET Identity, so you could follow similar steps in a web forms app.  
-    ![](create-an-aspnet-mvc-5-web-app-with-email-confirmation-and-password-reset/_static/image1.png)
+    ![Screenshot that shows the New A S P dot Net Project page. The M V C template is selected and Individual User Accounts is highlighted.](create-an-aspnet-mvc-5-web-app-with-email-confirmation-and-password-reset/_static/image1.png)
 2. Leave the default authentication as **Individual User Accounts**. If you'd like to host the app in Azure, leave the check box checked. Later in the tutorial we will deploy to Azure. You can [open an Azure account for free](https://azure.microsoft.com/pricing/free-trial/?WT.mc_id=A261C142F).
 3. Set the [project to use SSL](create-an-aspnet-mvc-5-app-with-facebook-and-google-oauth2-and-openid-sign-on.md).
 4. Run the app, click the **Register** link and register a user. At this point, the only validation on the email is with the [[EmailAddress]](https://msdn.microsoft.com/library/system.componentmodel.dataannotations.emailaddressattribute(v=vs.110).aspx) attribute.
@@ -34,9 +34,9 @@ Start by installing and running [Visual Studio Express 2013 for Web](/aspnet/vis
 
     The following image shows the `AspNetUsers` schema:
 
-    ![](create-an-aspnet-mvc-5-web-app-with-email-confirmation-and-password-reset/_static/image2.png)
+    ![Screenshot that shows the A S P Net Users Script File tab in Server Explorer.](create-an-aspnet-mvc-5-web-app-with-email-confirmation-and-password-reset/_static/image2.png)
 6. Right click on the **AspNetUsers** table and select **Show Table Data**.  
-    ![](create-an-aspnet-mvc-5-web-app-with-email-confirmation-and-password-reset/_static/image3.png)  
+    ![Screenshot that shows the A S P Net Users schema. The Email Confirmed column labeled as False is highlighted.](create-an-aspnet-mvc-5-web-app-with-email-confirmation-and-password-reset/_static/image3.png)  
  At this point the email has not been confirmed.
 7. Click on the row and select delete. You'll add this email again in the next step, and send a confirmation email.
 
@@ -81,7 +81,7 @@ Verify the *Views\Account\ConfirmEmail.cshtml* file has correct razor syntax. ( 
 
 Run the app and click the Register link. Once you submit the registration form, you are logged in.
 
-![](create-an-aspnet-mvc-5-web-app-with-email-confirmation-and-password-reset/_static/image4.png)
+![Screenshot that shows the My A S P dot NET Log In Home page.](create-an-aspnet-mvc-5-web-app-with-email-confirmation-and-password-reset/_static/image4.png)
 
 Check your email account and click on the link to confirm your email.
 
@@ -147,21 +147,21 @@ Update the Login method to resend the password if the user account has not been 
 
 You can combine local and social accounts by clicking on your email link. In the following sequence **RickAndMSFT@gmail.com** is first created as a local login, but you can create the account as a social log in first, then add a local login.
 
-![](create-an-aspnet-mvc-5-web-app-with-email-confirmation-and-password-reset/_static/image5.png)
+![Screenshot that shows the My A S P dot Net Log In Home page. The sample User I D is highlighted.](create-an-aspnet-mvc-5-web-app-with-email-confirmation-and-password-reset/_static/image5.png)
 
 Click on the **Manage** link. Note the **External Logins: 0** associated with this account.
 
-![](create-an-aspnet-mvc-5-web-app-with-email-confirmation-and-password-reset/_static/image6.png)
+![Screenshot that shows the My A S P dot Net Manage your account page. Next to the External Logins line, 0 and a Manage link is highlighted.](create-an-aspnet-mvc-5-web-app-with-email-confirmation-and-password-reset/_static/image6.png)
 
 Click the link to another log in service and accept the app requests. The two accounts have been combined, you will be able to log on with either account. You might want your users to add local accounts in case their social log in authentication service is down, or more likely they have lost access to their social account.
 
 In the following image, Tom is a social log in (which you can see from the **External Logins: 1** shown on the page).
 
-![](create-an-aspnet-mvc-5-web-app-with-email-confirmation-and-password-reset/_static/image7.png)
+![Screenshot that shows the My A S P dot Net Manage your account page. The Pick a password and External Logins lines are highlighted.](create-an-aspnet-mvc-5-web-app-with-email-confirmation-and-password-reset/_static/image7.png)
 
 Clicking on **Pick a password** allows you to add a local log on associated with the same account.
 
-![](create-an-aspnet-mvc-5-web-app-with-email-confirmation-and-password-reset/_static/image8.png)
+![Screenshot that shows the My A S P dot Net Create Local Login page. A sample password is entered in the New password and Confirm new password text fields.](create-an-aspnet-mvc-5-web-app-with-email-confirmation-and-password-reset/_static/image8.png)
 
 ## Email confirmation in more depth
 
