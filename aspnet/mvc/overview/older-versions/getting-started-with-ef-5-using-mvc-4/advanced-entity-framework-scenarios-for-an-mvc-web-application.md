@@ -2,7 +2,7 @@
 uid: mvc/overview/older-versions/getting-started-with-ef-5-using-mvc-4/advanced-entity-framework-scenarios-for-an-mvc-web-application
 title: "Advanced Entity Framework Scenarios for an MVC Web Application (10 of 10) | Microsoft Docs"
 author: tdykstra
-description: "The Contoso University sample web application demonstrates how to create ASP.NET MVC 4 applications using the Entity Framework 5 Code First and Visual Studio..."
+description: "The Contoso University sample web application explains how to create ASP.NET MVC 4 applications using the Entity Framework 5 Code First and Visual Studio..."
 ms.author: riande
 ms.date: 07/30/2013
 ms.assetid: 64906a1d-f734-41cf-9615-ee95f8740996
@@ -31,11 +31,11 @@ In the previous tutorial you implemented the repository and unit of work pattern
 
 For most of these topics, you'll work with pages that you already created. To use raw SQL to do bulk updates you'll create a new page that updates the number of credits of all courses in the database:
 
-![Update_Course_Credits_initial_page](advanced-entity-framework-scenarios-for-an-mvc-web-application/_static/image1.png)
+![Update_Course_Credits_initial_new_page](advanced-entity-framework-scenarios-for-an-mvc-web-application/_static/image1.png)
 
 And to use a no-tracking query you'll add new validation logic to the Department Edit page:
 
-![Department_Edit_page_with_duplicate_administrator_error_message](advanced-entity-framework-scenarios-for-an-mvc-web-application/_static/image2.png)
+![Contoso_University_Department_Edit_page_with_duplicate_administrator_error_message](advanced-entity-framework-scenarios-for-an-mvc-web-application/_static/image2.png)
 
 ## Performing Raw SQL Queries
 
@@ -109,7 +109,7 @@ This method will be used for both `HttpGet` and `HttpPost`. When the `HttpGet` `
 
 When the **Update** button is clicked and the `HttpPost` method runs, `multiplier` will have the value entered in the text box. The code then calls the repository `UpdateCourseCredits` method, which returns the number of affected rows, and that value is stored in the `ViewBag` object. When the view receives the number of affected rows in the `ViewBag` object, it displays that number instead of the text box and submit button, as shown in the following illustration:
 
-![Update_Course_Credits_rows_affected_page](advanced-entity-framework-scenarios-for-an-mvc-web-application/_static/image6.png)
+![Contoso_University_Update_Course_Credits_rows_affected_page](advanced-entity-framework-scenarios-for-an-mvc-web-application/_static/image6.png)
 
 Create a view in the *Views\Course* folder for the Update Course Credits page:
 
