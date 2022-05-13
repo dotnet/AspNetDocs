@@ -289,7 +289,7 @@ The following image shows the search filter box at the top of the page that resu
 
 As you type each letter in the search box, jQuery Mobile filters the displayed list as shown in the image below.
 
-[![ps_data_filter_SC](aspnet-mvc-4-mobile-features/_static/image39.png)](aspnet-mvc-4-mobile-features/_static/image38.png)
+[![Screenshot that shows the All Speakers page in mobile view.](aspnet-mvc-4-mobile-features/_static/image39.png)](aspnet-mvc-4-mobile-features/_static/image38.png)
 
 ## Improving the Tags List
 
@@ -331,7 +331,7 @@ In this section, you'll create a mobile-specific view of sessions. The changes w
 
 In the mobile browser, tap the **Speaker** button, then enter `Sc` in the search box.
 
-[![ps_data_filter_SC](aspnet-mvc-4-mobile-features/_static/image47.png)](aspnet-mvc-4-mobile-features/_static/image46.png)
+[![Screenshot that shows the All Speakers page in mobile view with the letters S c entered into the search.](aspnet-mvc-4-mobile-features/_static/image47.png)](aspnet-mvc-4-mobile-features/_static/image46.png)
 
 Tap the **Scott Hanselman** link.
 
@@ -343,17 +343,17 @@ As you can see, the display is difficult to read on a mobile browser. The date c
 
 The code removes the room and tags columns, and formats the title, speaker, and date vertically, so that all this information is readable on a mobile browser. The image below reflects the code changes.
 
-[![ps_SessionsByScottHa](aspnet-mvc-4-mobile-features/_static/image51.png)](aspnet-mvc-4-mobile-features/_static/image50.png)
+[![Screenshot that shows the Sessions page in mobile view.](aspnet-mvc-4-mobile-features/_static/image51.png)](aspnet-mvc-4-mobile-features/_static/image50.png)
 
 ## Improving the SessionByCode View
 
 Finally, you'll create a mobile-specific view of the *SessionByCode* view. In the mobile browser, tap the **Speaker** button, then enter `Sc` in the search box.
 
-[![ps_data_filter_SC](aspnet-mvc-4-mobile-features/_static/image53.png)](aspnet-mvc-4-mobile-features/_static/image52.png)
+[![Screenshot that shows a mobile view of the All speakers page. S c is entered in the search.](aspnet-mvc-4-mobile-features/_static/image53.png)](aspnet-mvc-4-mobile-features/_static/image52.png)
 
 Tap the **Scott Hanselman** link. Scott Hanselman's sessions are displayed.
 
-[![ps_SessionsByScottHa](aspnet-mvc-4-mobile-features/_static/image55.png)](aspnet-mvc-4-mobile-features/_static/image54.png)
+[![Screenshot that shows a mobile view of the Sessions page.](aspnet-mvc-4-mobile-features/_static/image55.png)](aspnet-mvc-4-mobile-features/_static/image54.png)
 
 Choose the **An Overview of the MS Web Stack of Love** link.
 
