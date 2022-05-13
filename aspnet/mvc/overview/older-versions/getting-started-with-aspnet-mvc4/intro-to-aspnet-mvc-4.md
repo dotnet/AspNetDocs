@@ -37,11 +37,11 @@ by [Rick Anderson](https://twitter.com/RickAndMSFT)
 
 You'll implement a simple movie-listing application that supports creating, editing, searching and listing movies from a database. Below are two screenshots of the application you'll build. It includes a page that displays a list of movies from a database:
 
-![](intro-to-aspnet-mvc-4/_static/image1.png)
+![Screenshot that shows the M V C Movie app Search Index page. Ghost is entered in the Title search bar.](intro-to-aspnet-mvc-4/_static/image1.png)
 
 The application also lets you add, edit, and delete movies, as well as see details about individual ones. All data-entry scenarios include validation to ensure that the data stored in the database is correct.
 
-![](intro-to-aspnet-mvc-4/_static/image2.png)
+![Screenshot that shows the M V C Movie app Edit page. Two text fields, Release Date and Price, are highlighted, prompting the user to enter correct values.](intro-to-aspnet-mvc-4/_static/image2.png)
 
 ## Getting Started
 
@@ -49,31 +49,31 @@ Start by running Visual Studio Express 2012 or Visual Web Developer 2010 Express
 
 Visual Studio is an IDE, or integrated development environment. Just like you use Microsoft Word to write documents, you'll use an IDE to create applications. In Visual Studio there's a toolbar along the top showing various options available to you. There's also a menu that provides another way to perform tasks in the IDE. (For example, instead of selecting **New Project** from the **Start** page, you can use the menu and select **File** &gt; **New Project**.)
 
-![](intro-to-aspnet-mvc-4/_static/image3.png)
+![Screenshot that shows the Visual Studio Express Start page. The New Project option is highlighted.](intro-to-aspnet-mvc-4/_static/image3.png)
 
 ## Creating Your First Application
 
 You can create applications using either Visual Basic or Visual C# as the programming language. Select Visual C# on the left and then select **ASP.NET MVC 4 Web Application**. Name your project &quot;MvcMovie&quot; and then click **OK**.
 
-![](intro-to-aspnet-mvc-4/_static/image4.png)
+![Screenshot that shows the New Project window. A S P dot NET M V C 4 Web Application is selected.](intro-to-aspnet-mvc-4/_static/image4.png)
 
 In the **New ASP.NET MVC 4 Project** dialog box, select **Internet Application**. Leave **Razor** as the default view engine.
 
-![](intro-to-aspnet-mvc-4/_static/image5.png)
+![Screenshot that shows the New A S P dot NET M V C 4 Project window. The Internet Application template is selected.](intro-to-aspnet-mvc-4/_static/image5.png)
 
 Click **OK**. Visual Studio used a default template for the ASP.NET MVC project you just created, so you have a working application right now without doing anything! This is a simple &quot;Hello World!&quot; project, and it's a good place to start your application.
 
-![](intro-to-aspnet-mvc-4/_static/image6.png)
+![Screenshot that shows the A S P dot NET M V C Project Home Controller c s and Solution Explorer tabs opened.](intro-to-aspnet-mvc-4/_static/image6.png)
 
 From the **Debug** menu, select **Start Debugging**.
 
-![](intro-to-aspnet-mvc-4/_static/image7.png)
+![Screenshot that shows the A S P dot NET M V C project DEBUG dropwdown menu. The Start Debugging option is selected.](intro-to-aspnet-mvc-4/_static/image7.png)
 
 Notice that the keyboard shortcut to start debugging is F5.
 
 F5 causes Visual Studio to start IIS Express and run your web application. Visual Studio then launches a browser and opens the application's home page. Notice that the address bar of the browser says `localhost` and not something like `example.com`. That's because `localhost` always points to your own local computer, which in this case is running the application you just built. When Visual Studio runs a web project, a random port is used for the web server. In the image below, the port number is 41788. When you run the application, you'll probably see a different port number.
 
-![](intro-to-aspnet-mvc-4/_static/image8.png)
+![Screenshot that shows the M V C Movie Home page.](intro-to-aspnet-mvc-4/_static/image8.png)
 
 Right out of the box this default template gives you Home, Contact and About pages. It also provides support to register and log in, and links to Facebook and Twitter. The next step is to change how this application works and learn a little bit about ASP.NET MVC. Close your browser and let's change some code.
 

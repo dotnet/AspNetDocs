@@ -185,7 +185,7 @@ Now set a breakpoint in *GenericRepository.cs* on the `return query.ToList();` a
 
 [!code-json[Main](advanced-entity-framework-scenarios-for-an-mvc-web-application/samples/sample14.sql)]
 
-![](advanced-entity-framework-scenarios-for-an-mvc-web-application/_static/image12.png)
+![Screenshot that shows the sample web application Generic Repository tab. The query variable is selected.](advanced-entity-framework-scenarios-for-an-mvc-web-application/_static/image12.png)
 
 Queries can be too long to display in the debugging windows in Visual Studio. To see the entire query, you can copy the variable value and paste it into a text editor:
 

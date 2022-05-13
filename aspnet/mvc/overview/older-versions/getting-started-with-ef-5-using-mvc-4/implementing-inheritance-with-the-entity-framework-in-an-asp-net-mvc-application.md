@@ -91,22 +91,22 @@ Next you need to change `InstructorID` to `PersonID` and `StudentID` to `PersonI
    > Begin by closing all the open files in Visual Studio.
 2. Click **Find and Replace -- Find all Files** in the **Edit** menu, and then search for all files in the project that contain `InstructorID`.  
   
-    ![](implementing-inheritance-with-the-entity-framework-in-an-asp-net-mvc-application/_static/image1.png)
+    ![Screenshot that shows the Find and Replace window. Instructor I D, Current Project, Match case and Match whole word checkboxes, and Find All button are all highlighted.](implementing-inheritance-with-the-entity-framework-in-an-asp-net-mvc-application/_static/image1.png)
 3. Open each file in the **Find Results** window ***except*** the &lt;time-stamp&gt;*\_.cs* migration files in the *Migrations* folder, by double-clicking one line for each file.  
   
-    ![](implementing-inheritance-with-the-entity-framework-in-an-asp-net-mvc-application/_static/image2.png)
+    ![Screenshot that shows Find Results window. The time stamp migration files are crossed out in red.](implementing-inheritance-with-the-entity-framework-in-an-asp-net-mvc-application/_static/image2.png)
 4. Open the **Replace in Files** dialog and change **Look in** to **All Open Documents**.
 5. Use the **Replace in Files** dialog to change all `InstructorID` to `PersonID.`  
   
-    ![](implementing-inheritance-with-the-entity-framework-in-an-asp-net-mvc-application/_static/image3.png)
+    ![Screenshot that shows the Find and Replace window. Person I D is entered in the Replace with text field.](implementing-inheritance-with-the-entity-framework-in-an-asp-net-mvc-application/_static/image3.png)
 6. Find all the files in the project that contain `StudentID`.
 7. Open each file in the **Find Results** window ***except*** the &lt;time-stamp&gt;*\_\*.cs* migration files in the *Migrations* folder, by double-clicking one line for each file.  
   
-    ![](implementing-inheritance-with-the-entity-framework-in-an-asp-net-mvc-application/_static/image4.png)
+    ![Screenshot that shows the Find Results window. The time stamp migration files are crossed out.](implementing-inheritance-with-the-entity-framework-in-an-asp-net-mvc-application/_static/image4.png)
 8. Open the **Replace in Files** dialog and change **Look in** to **All Open Documents**.
 9. Use the **Replace in Files** dialog to change all `StudentID` to `PersonID`.   
   
-    ![](implementing-inheritance-with-the-entity-framework-in-an-asp-net-mvc-application/_static/image5.png)
+    ![Screenshot that shows the Find and Replace window. Replace in Files, All Open Documents, Match case and Match whole word checkboxes, and Replace All button are highlighted.](implementing-inheritance-with-the-entity-framework-in-an-asp-net-mvc-application/_static/image5.png)
 10. Build the project.
 
 (Note that this demonstrates a *disadvantage* of the `classnameID` pattern for naming primary keys. If you had named primary keys ID without prefixing the class name, *no* renaming would be necessary now.)
@@ -144,7 +144,7 @@ In **Server Explorer,** expand **SchoolContext** and then **Tables**, and you se
 
 Right-click the Person table, and then click **Show Table Data** to see the discriminator column.
 
-![](implementing-inheritance-with-the-entity-framework-in-an-asp-net-mvc-application/_static/image7.png)
+![Screenshot that shows the Person table. The Discriminator column name is highlighted.](implementing-inheritance-with-the-entity-framework-in-an-asp-net-mvc-application/_static/image7.png)
 
 The following diagram illustrates the structure of the new School database:
 

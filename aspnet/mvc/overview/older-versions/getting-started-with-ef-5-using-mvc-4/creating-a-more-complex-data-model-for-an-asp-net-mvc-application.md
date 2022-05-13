@@ -103,11 +103,11 @@ The addition of the [Column attribute](https://msdn.microsoft.com/library/system
 
 In **Server Explorer** (**Database Explorer** if you are using Express for Web), double-click the *Student* table.
 
-![](creating-a-more-complex-data-model-for-an-asp-net-mvc-application/_static/image4.png)
+![Screenshot that shows the Student table in Server Explorer.](creating-a-more-complex-data-model-for-an-asp-net-mvc-application/_static/image4.png)
 
 The following image shows the original column name as it was before you applied the first two migrations. In addition to the column name changing from `FirstMidName` to `FirstName`, the two name columns have changed from `MAX` length to 50 characters.
 
-![](creating-a-more-complex-data-model-for-an-asp-net-mvc-application/_static/image5.png)
+![Screenshot that shows the Student table in Server Explorer. The First Name line in the previous screenshot has changed to read as First Mid Name.](creating-a-more-complex-data-model-for-an-asp-net-mvc-application/_static/image5.png)
 
 You can also make database mapping changes using the [Fluent API](https://msdn.microsoft.com/data/jj591617), as you'll see later in this tutorial.
 
@@ -368,7 +368,7 @@ After you have finished editing the &lt;*timestamp&gt;\_Chap4.cs* file, enter th
 
 Open the database in **Server Explorer** as you did earlier, and expand the **Tables** node to see that all of the tables have been created. (If you still have **Server Explorer** open from the earlier time, click the **Refresh** button.)
 
-![](creating-a-more-complex-data-model-for-an-asp-net-mvc-application/_static/image14.png)
+![Screenshot that shows the Server Explorer database. The Tables node is expanded.](creating-a-more-complex-data-model-for-an-asp-net-mvc-application/_static/image14.png)
 
 You didn't create a model class for the `CourseInstructor` table. As explained earlier, this is a join table for the many-to-many relationship between the `Instructor` and `Course` entities.
 
