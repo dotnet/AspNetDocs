@@ -2,7 +2,7 @@
 uid: mvc/overview/older-versions/getting-started-with-aspnet-mvc3/vb/intro-to-aspnet-mvc-3
 title: "Intro to ASP.NET MVC 3 (VB) | Microsoft Docs"
 author: Rick-Anderson
-description: "This tutorial will teach you the basics of building an ASP.NET MVC Web application using Microsoft Visual Web Developer 2010 Express Service Pack 1, which is..."
+description: "This tutorial will teach you the basics of building an ASP.NET MVC Web application using Microsoft Visual Web Developer 2010 Express Service Pack 1. You will learn how to implement a simple movie-listing application that supports creating, editing, and listing movies from a database."
 ms.author: riande
 ms.date: 01/12/2011
 ms.assetid: a1b3d789-93b4-487f-b90d-80c9c9b4f8fa
@@ -59,7 +59,7 @@ Start by running Visual Web Developer 2010 Express ("VWD" for short) and select 
 
 Visual Web Developer is an IDE, or integrated development environment. Just like you use Microsoft Word to write documents, you'll use an IDE to create applications. In Visual Web Developer there's a toolbar along the top showing various options available to you. There's also a menu that provides another way to perform tasks in the IDE. (For example, instead of selecting **New Project** from the **Start** page, you can use the menu and select **File** &gt; **New Project**.)
 
-[![](intro-to-aspnet-mvc-3/_static/image6.png)](intro-to-aspnet-mvc-3/_static/image5.png)
+[![Screenshot that shows the Microsoft Visual Web Developer Start page.](intro-to-aspnet-mvc-3/_static/image6.png)](intro-to-aspnet-mvc-3/_static/image5.png)
 
 ## Creating Your First Application
 
@@ -73,17 +73,17 @@ In the **New ASP.NET MVC 3 Project** dialog box, select **Internet Application**
 
 Click **OK**. Visual Web Developer used a default template for the ASP.NET MVC project you just created, so you have a working application right now without doing anything! This is a simple "Hello World!" project, and it's a good place to start your application.
 
-[![](intro-to-aspnet-mvc-3/_static/image10.png)](intro-to-aspnet-mvc-3/_static/image9.png)
+[![Screenshot that shows the Home Controller dot v b tab. Home Controller dot v b is selected in the Controllers folder in the Solution Explorer window.](intro-to-aspnet-mvc-3/_static/image10.png)](intro-to-aspnet-mvc-3/_static/image9.png)
 
 From the **Debug** menu, select **Start Debugging**.
 
-![](intro-to-aspnet-mvc-3/_static/image11.png)
+![Screenshot that shows the Debug drop down menu.](intro-to-aspnet-mvc-3/_static/image11.png)
 
 Notice that the keyboard shortcut to start debugging is F5.
 
 F5 causes Visual Web Developer to start a development web server and run your web application. VWD then launches a browser and opens the application's home page. Notice that the address bar of the browser says `localhost` and not something like `example.com`. That's because `localhost` always points to your own local computer, which in this case is running the application you just built. When VWD runs a web project, a random port is used for the project. In the image below, the random port number is 43246. Your project will probably use a different port number.
 
-![](intro-to-aspnet-mvc-3/_static/image12.png)
+![Screenshot that shows the Welcome page on the My M V C Application.](intro-to-aspnet-mvc-3/_static/image12.png)
 
 Out of the box this default template gives you two pages to visit and a basic login page. Let's change how this application works and learn a little bit about ASP.NET MVC in the process. Close your browser and let's change some code.
 
