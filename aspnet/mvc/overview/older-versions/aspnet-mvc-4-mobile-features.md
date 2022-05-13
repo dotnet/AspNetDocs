@@ -184,7 +184,7 @@ Install the *jQuery.Mobile.MVC* NuGet package by doing this:
 
 The following image shows the files added and changed to the MvcMobile project by the NuGet jQuery.Mobile.MVC package. Files which are added have [add] appended after the file name. The image does not show the GIF and PNG files added to the *Content\images* folder.
 
-![Screenshot that shows the Microsoft Visual Web Developer Window. Library Package Manager is selected in the Tools drop down menu. Package Manager Console is selected in the sub menu.](aspnet-mvc-4-mobile-features/_static/image21.png)
+![Screenshot that shows the M V C Mobile folders and files.](aspnet-mvc-4-mobile-features/_static/image21.png)
 
 The jQuery.Mobile.MVC NuGet package installs the following:
 

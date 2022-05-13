@@ -2,7 +2,7 @@
 uid: mvc/overview/older-versions/getting-started-with-aspnet-mvc3/cs/adding-a-model
 title: "Adding a Model (C#) | Microsoft Docs"
 author: Rick-Anderson
-description: This tutorial will teach you the basics of building an ASP.NET MVC Web application using Microsoft Visual Web Developer 2010 Express Service Pack 1. You will learn how to add a model and model class and also work with SQL server compact to create a connection string."
+description: "Learn how to add a model, add a model class, and work with SQL server compact to create a connection string."
 ms.author: riande
 ms.date: 01/12/2011
 ms.assetid: 42355b95-5f1f-413e-8d16-14cdfaaefcd8
