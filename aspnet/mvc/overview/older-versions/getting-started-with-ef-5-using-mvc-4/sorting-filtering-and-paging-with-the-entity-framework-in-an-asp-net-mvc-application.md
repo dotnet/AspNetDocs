@@ -2,7 +2,7 @@
 uid: mvc/overview/older-versions/getting-started-with-ef-5-using-mvc-4/sorting-filtering-and-paging-with-the-entity-framework-in-an-asp-net-mvc-application
 title: "Sorting, Filtering, and Paging with the Entity Framework in an ASP.NET MVC Application (3 of 10) | Microsoft Docs"
 author: tdykstra
-description: "The Contoso University sample web application demonstrates how to create ASP.NET MVC 4 applications using the Entity Framework 5 Code First and Visual Studio."
+description: "The Contoso University sample web application tutorial explains how to create ASP.NET MVC 4 applications using the Entity Framework 5 Code First and Visual Studio."
 ms.author: riande
 ms.date: 07/30/2013
 ms.assetid: 8af630e0-fffa-4110-9eca-c96e201b2724
@@ -101,7 +101,7 @@ Notice the URL doesn't contain the "an" search string, which means that if you b
 
 To add paging to the Students Index page, you'll start by installing the **PagedList.Mvc** NuGet package. Then you'll make additional changes in the `Index` method and add paging links to the `Index` view. **PagedList.Mvc** is one of many good paging and sorting packages for ASP.NET MVC, and its use here is intended only as an example, not as a recommendation for it over other options. The following illustration shows the paging links.
 
-![Students_index_page_with_paging](sorting-filtering-and-paging-with-the-entity-framework-in-an-asp-net-mvc-application/_static/image5.png)
+![Screenshot of the Students Index page showing paging links.](sorting-filtering-and-paging-with-the-entity-framework-in-an-asp-net-mvc-application/_static/image5.png)
 
 ### Install the PagedList.MVC NuGet Package
 
@@ -262,7 +262,7 @@ Windows Azure SQL Database is a cloud-based relational database service that is 
     ![New button in Management Portal](sorting-filtering-and-paging-with-the-entity-framework-in-an-asp-net-mvc-application/_static/image11.png)
 2. Click **CUSTOM CREATE**.
 
-    ![Create with Database link in Management Portal](sorting-filtering-and-paging-with-the-entity-framework-in-an-asp-net-mvc-application/_static/image12.png)
+    ![Screenshot that shows the New dialog box. The Web Site and Custom Create options are highlighted.](sorting-filtering-and-paging-with-the-entity-framework-in-an-asp-net-mvc-application/_static/image12.png)
 
    The **New Web Site - Custom Create** wizard opens.
 3. In the **New Web Site** step of the wizard, enter a string in the **URL** box to use as the unique URL for your application. The complete URL will consist of what you enter here plus the suffix that you see next to the text box. The illustration shows "ConU", but that URL is probably taken so you will have to choose a different one.
@@ -271,10 +271,10 @@ Windows Azure SQL Database is a cloud-based relational database service that is 
 4. In the **Region** drop-down list, choose a region close to you. This setting specifies which data center your web site will run in.
 5. In the **Database** drop-down list, choose **Create a free 20 MB SQL database**.
 
-    ![Screenshot that shows the Create Web Site dialog box. In the database dropdown list, Choose a free 20 M B S Q L database is selected. The checkmark button is highlighted.](sorting-filtering-and-paging-with-the-entity-framework-in-an-asp-net-mvc-application/_static/image14.png)
+    ![Screenshot that shows the Create Web Site dialog box. In the database dropdown list, Choose a free 20 M B S Q L database is selected. The check mark button is highlighted.](sorting-filtering-and-paging-with-the-entity-framework-in-an-asp-net-mvc-application/_static/image14.png)
 6. In the **DB CONNECTION STRING NAME**, enter *SchoolContext*.
 
-    ![Screenshot that shows the Create Web Site dialog box. School Context is filled in the D B Connection String Name text field. The checkmark button is highlighted.](sorting-filtering-and-paging-with-the-entity-framework-in-an-asp-net-mvc-application/_static/image15.png)
+    ![Screenshot that shows the Create Web Site dialog box. School Context is filled in the D B Connection String Name text field. The check mark button is highlighted.](sorting-filtering-and-paging-with-the-entity-framework-in-an-asp-net-mvc-application/_static/image15.png)
 7. Click the arrow that points to the right at the bottom of the box. The wizard advances to the **Database Settings** step.
 8. In the **Name** box, enter *ContosoUniversityDB*.
 9. In the **Server** box, select **New SQL Database server**. Alternatively, if you previously created a server, you can select that server from the drop-down list.
@@ -282,7 +282,7 @@ Windows Azure SQL Database is a cloud-based relational database service that is 
 11. Choose the same **Region** that you chose for the web site.
 12. Click the check mark at the bottom right of the box to indicate that you're finished.   
   
-    ![Database Settings step of New Web Site - Create with Database wizard](sorting-filtering-and-paging-with-the-entity-framework-in-an-asp-net-mvc-application/_static/image16.png)  
+    ![Screenshot that shows the Specify database settings dialog box with all settings selected and a sample password included in text fields. The check mark button is highlighted.](sorting-filtering-and-paging-with-the-entity-framework-in-an-asp-net-mvc-application/_static/image16.png)  
 
     The following image shows using an existing SQL Server and Login.   
   

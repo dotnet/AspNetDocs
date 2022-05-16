@@ -2,7 +2,7 @@
 uid: mvc/overview/older-versions/getting-started-with-ef-5-using-mvc-4/updating-related-data-with-the-entity-framework-in-an-asp-net-mvc-application
 title: "Updating Related Data with the Entity Framework in an ASP.NET MVC Application (6 of 10) | Microsoft Docs"
 author: tdykstra
-description: "The Contoso University sample web application demonstrates how to create ASP.NET MVC 4 applications using the Entity Framework 5 Code First and Visual Studio."
+description: "The Contoso University sample web application describes how to create ASP.NET MVC 4 applications using the Entity Framework 5 Code First and Visual Studio."
 ms.author: riande
 ms.date: 07/30/2013
 ms.assetid: 7871dc05-2750-470f-8b4c-3a52511949bc
@@ -23,9 +23,9 @@ In the previous tutorial you displayed related data; in this tutorial you'll upd
 
 The following illustrations show the pages that you'll work with.
 
-![Course_create_page](updating-related-data-with-the-entity-framework-in-an-asp-net-mvc-application/_static/image1.png)
+![Screenshot that shows the Create Course page.](updating-related-data-with-the-entity-framework-in-an-asp-net-mvc-application/_static/image1.png)
 
-![Instructor_edit_page_with_courses](updating-related-data-with-the-entity-framework-in-an-asp-net-mvc-application/_static/image2.png)
+![Screenshot that displays the Instructor Edit page.](updating-related-data-with-the-entity-framework-in-an-asp-net-mvc-application/_static/image2.png)
 
 ## Customize the Create and Edit Pages for Courses
 
@@ -118,7 +118,7 @@ Run the page (select the **Instructors** tab and then click **Edit** on an instr
 
 Instructors may teach any number of courses. Now you'll enhance the Instructor Edit page by adding the ability to change course assignments using a group of check boxes, as shown in the following screen shot:
 
-![Instructor_edit_page_with_courses](updating-related-data-with-the-entity-framework-in-an-asp-net-mvc-application/_static/image7.png)
+![Screenshot that shows the Instructor Edit page with courses.](updating-related-data-with-the-entity-framework-in-an-asp-net-mvc-application/_static/image7.png)
 
 The relationship between the `Course` and `Instructor` entities is many-to-many, which means you do not have direct access to the join table. Instead, you will add and remove entities to and from the `Instructor.Courses` navigation property.
 
