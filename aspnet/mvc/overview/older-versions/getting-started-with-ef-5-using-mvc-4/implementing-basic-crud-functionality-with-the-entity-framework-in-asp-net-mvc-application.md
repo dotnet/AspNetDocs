@@ -67,7 +67,8 @@ The scaffolded code for the Students `Index` page left out the `Enrollments` pro
     The `ValidateAntiForgeryToken` attribute helps prevent [cross-site request forgery](../../security/xsrfcsrf-prevention-in-aspnet-mvc-and-web-pages.md) attacks.
 
 <a id="overpost"></a>
- ```> [!WARNING]
+```
+> [!WARNING]
     > Security - The `Bind` attribute is added to protect against *over-posting*. For example, suppose the `Student` entity includes a `Secret` property that you don't want this web page to update.
     > 
     > [!code-csharp[Main](implementing-basic-crud-functionality-with-the-entity-framework-in-asp-net-mvc-application/samples/sample5.cs?highlight=7)]
