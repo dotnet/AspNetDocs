@@ -31,11 +31,11 @@ In the previous tutorial you implemented the repository and unit of work pattern
 
 For most of these topics, you'll work with pages that you already created. To use raw SQL to do bulk updates you'll create a new page that updates the number of credits of all courses in the database:
 
-![Screenshot that shows the Update Course Credits initial page. 2 is entered in the text field.](advanced-entity-framework-scenarios-for-an-mvc-web-application/_static/image1.png)
+![Screenshot showing the Update Course Credits initial page. The number 2 is entered in the text field.](advanced-entity-framework-scenarios-for-an-mvc-web-application/_static/image1.png)
 
 And to use a no-tracking query you'll add new validation logic to the Department Edit page:
 
-![Screenshot that shows the Contoso University Department Edit page with duplicate administrator error message.](advanced-entity-framework-scenarios-for-an-mvc-web-application/_static/image2.png)
+![Screenshot that shows the Contoso University Department Edit page with a duplicate administrator error message.](advanced-entity-framework-scenarios-for-an-mvc-web-application/_static/image2.png)
 
 ## Performing Raw SQL Queries
 
@@ -81,13 +81,13 @@ In *HomeController.cs*, replace the LINQ statement in the `About` method with th
 
 Run the About page. It displays the same data it did before.
 
-![Screenshot that shows that Contoso University About page.](advanced-entity-framework-scenarios-for-an-mvc-web-application/_static/image4.png)
+![Screenshot that shows the Contoso University About page.](advanced-entity-framework-scenarios-for-an-mvc-web-application/_static/image4.png)
 
 ### Calling an Update Query
 
 Suppose Contoso University administrators want to be able to perform bulk changes in the database, such as changing the number of credits for every course. If the university has a large number of courses, it would be inefficient to retrieve them all as entities and change them individually. In this section you'll implement a web page that allows the user to specify a factor by which to change the number of credits for all courses, and you'll make the change by executing a SQL `UPDATE` statement. The web page will look like the following illustration:
 
-![Screenshot that shows the Update Course Credits initial page. 2 is entered in the text field.](advanced-entity-framework-scenarios-for-an-mvc-web-application/_static/image5.png)
+![Screenshot that shows the Update Course Credits initial page. The number 2 is entered in the text field.](advanced-entity-framework-scenarios-for-an-mvc-web-application/_static/image5.png)
 
 In the previous tutorial you used the generic repository to read and update `Course` entities in the `Course` controller. For this bulk update operation, you need to create a new repository method that isn't in the generic repository. To do that, you'll create a dedicated `CourseRepository` class that derives from the `GenericRepository` class.
 
@@ -113,7 +113,7 @@ When the **Update** button is clicked and the `HttpPost` method runs, `multiplie
 
 Create a view in the *Views\Course* folder for the Update Course Credits page:
 
-![Screnshot that shows the Add View dialog box for Update Course Credits.](https://asp.net/media/2578203/Windows-Live-Writer_Advanced-Entity-Framework-Scenarios-for-_CEF8_Add_View_dialog_box_for_Update_Course_Credits.png)
+![Screenshot that shows the Add View dialog box. Update Course Credits is entered in the View name text field.](https://asp.net/media/2578203/Windows-Live-Writer_Advanced-Entity-Framework-Scenarios-for-_CEF8_Add_View_dialog_box_for_Update_Course_Credits.png)
 
 In *Views\Course\UpdateCourseCredits.cshtml*, replace the template code with the following code:
 
@@ -121,15 +121,15 @@ In *Views\Course\UpdateCourseCredits.cshtml*, replace the template code with the
 
 Run the `UpdateCourseCredits` method by selecting the **Courses** tab, then adding "/UpdateCourseCredits" to the end of the URL in the browser's address bar (for example: `http://localhost:50205/Course/UpdateCourseCredits`). Enter a number in the text box:
 
-![Screenshot that shows the Update Course Credits initial page with 2 entered.](advanced-entity-framework-scenarios-for-an-mvc-web-application/_static/image7.png)
+![Screenshot showing the Update Course Credits initial page with the number 2 entered in the text field.](advanced-entity-framework-scenarios-for-an-mvc-web-application/_static/image7.png)
 
 Click **Update**. You see the number of rows affected:
 
-![Screenshot showing that Update Course Credits rows affected page.](advanced-entity-framework-scenarios-for-an-mvc-web-application/_static/image8.png)
+![Screenshot that shows the Update Course Credits page with the number of rows updated.](advanced-entity-framework-scenarios-for-an-mvc-web-application/_static/image8.png)
 
 Click **Back to List** to see the list of courses with the revised number of credits.
 
-![Screenshot that shows the Courses Index page showing revised credits.](advanced-entity-framework-scenarios-for-an-mvc-web-application/_static/image9.png)
+![Screenshot that shows the Courses Index page. A list of courses is shown with the revised number of credits.](advanced-entity-framework-scenarios-for-an-mvc-web-application/_static/image9.png)
 
 For more information about raw SQL queries, see [Raw SQL Queries](/archive/blogs/adonet/using-dbcontext-in-ef-4-1-part-10-raw-sql-queries) on the Entity Framework team blog.
 
@@ -154,11 +154,11 @@ Add code in the `try` block of the `HttpPost` `Edit` method to call this new met
 
 Run the Department Edit page and try to change a department's administrator to an instructor who is already the administrator of a different department. You get the expected error message:
 
-![Screenshot showing the Department Edit page with duplicate administrator error message.](advanced-entity-framework-scenarios-for-an-mvc-web-application/_static/image10.png)
+![Screenshot showing the Department Edit page with a duplicate administrator error message.](advanced-entity-framework-scenarios-for-an-mvc-web-application/_static/image10.png)
 
 Now run the Department Edit page again and this time change the **Budget** amount. When you click **Save**, you see an error page:
 
-![Screenshot that shows the Department Edit page with object state manager error message.](advanced-entity-framework-scenarios-for-an-mvc-web-application/_static/image11.png)
+![Screenshot that shows the Department Edit page with an object state manager error message.](advanced-entity-framework-scenarios-for-an-mvc-web-application/_static/image11.png)
 
 The exception error message is "`An object with the same key already exists in the ObjectStateManager. The ObjectStateManager cannot track multiple objects with the same key.`" This happened because of the following sequence of events:
 
