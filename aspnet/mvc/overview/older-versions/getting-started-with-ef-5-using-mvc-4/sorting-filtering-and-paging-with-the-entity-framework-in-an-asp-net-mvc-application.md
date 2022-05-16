@@ -2,7 +2,7 @@
 uid: mvc/overview/older-versions/getting-started-with-ef-5-using-mvc-4/sorting-filtering-and-paging-with-the-entity-framework-in-an-asp-net-mvc-application
 title: "Sorting, Filtering, and Paging with the Entity Framework in an ASP.NET MVC Application (3 of 10) | Microsoft Docs"
 author: tdykstra
-description: "The Contoso University sample web application demonstrates how to create ASP.NET MVC 4 applications using the Entity Framework 5 Code First and Visual Studio..."
+description: "The Contoso University sample web application tutorial explains how to create ASP.NET MVC 4 applications using the Entity Framework 5 Code First and Visual Studio."
 ms.author: riande
 ms.date: 07/30/2013
 ms.assetid: 8af630e0-fffa-4110-9eca-c96e201b2724
@@ -64,11 +64,11 @@ This code uses the information in the `ViewBag` properties to set up hyperlinks 
 
 Run the page and click the **Last Name** and **Enrollment Date** column headings to verify that sorting works.
 
-![Students_Index_page_with_sort_hyperlinks](sorting-filtering-and-paging-with-the-entity-framework-in-an-asp-net-mvc-application/_static/image2.png)
+![Screenshot that shows the Contoso University Students Index page. The column headings are Last Name, First Name, and Enrollment Date.](sorting-filtering-and-paging-with-the-entity-framework-in-an-asp-net-mvc-application/_static/image2.png)
 
 After you click the **Last Name** heading, students are displayed in descending last name order.
 
-![](sorting-filtering-and-paging-with-the-entity-framework-in-an-asp-net-mvc-application/_static/image3.png)
+![Screenshot that shows the Contoso University Students Index page with a list of students displayed in descending last name order.](sorting-filtering-and-paging-with-the-entity-framework-in-an-asp-net-mvc-application/_static/image3.png)
 
 ## Add a Search Box to the Students Index Page
 
@@ -101,7 +101,7 @@ Notice the URL doesn't contain the "an" search string, which means that if you b
 
 To add paging to the Students Index page, you'll start by installing the **PagedList.Mvc** NuGet package. Then you'll make additional changes in the `Index` method and add paging links to the `Index` view. **PagedList.Mvc** is one of many good paging and sorting packages for ASP.NET MVC, and its use here is intended only as an example, not as a recommendation for it over other options. The following illustration shows the paging links.
 
-![Students_index_page_with_paging](sorting-filtering-and-paging-with-the-entity-framework-in-an-asp-net-mvc-application/_static/image5.png)
+![Screenshot of the Students Index page showing paging links.](sorting-filtering-and-paging-with-the-entity-framework-in-an-asp-net-mvc-application/_static/image5.png)
 
 ### Install the PagedList.MVC NuGet Package
 
@@ -111,11 +111,11 @@ From the **Tools** menu, select **NuGet Package Manager** and then **Manage NuGe
 
 In the **Manage NuGet Packages** dialog box, click the **Online** tab on the left and then enter "paged" in the search box. When you see the **PagedList.Mvc** package, click **Install**.
 
-![](sorting-filtering-and-paging-with-the-entity-framework-in-an-asp-net-mvc-application/_static/image6.png)
+![Screenshot that shows the Manage N u GET Packages dialog box. The Online tab and search bar filled with the word paged are highlighted. The Paged List package is selected.](sorting-filtering-and-paging-with-the-entity-framework-in-an-asp-net-mvc-application/_static/image6.png)
 
 In the **Select Projects** box, click **OK**.
 
-![](sorting-filtering-and-paging-with-the-entity-framework-in-an-asp-net-mvc-application/_static/image7.png)
+![Screenshot that shows the Select Project dialog box. The O K button is selected.](sorting-filtering-and-paging-with-the-entity-framework-in-an-asp-net-mvc-application/_static/image7.png)
 
 ### Add Paging Functionality to the Index Method
 
@@ -185,11 +185,11 @@ The `PagedListPager` helper provides a number of options that you can customize,
 
 Run the page.
 
-![Students_index_page_with_paging](sorting-filtering-and-paging-with-the-entity-framework-in-an-asp-net-mvc-application/_static/image8.png)
+![Screenshot of the Students Index page.](sorting-filtering-and-paging-with-the-entity-framework-in-an-asp-net-mvc-application/_static/image8.png)
 
 Click the paging links in different sort orders to make sure paging works. Then enter a search string and try paging again to verify that paging also works correctly with sorting and filtering.
 
-![](sorting-filtering-and-paging-with-the-entity-framework-in-an-asp-net-mvc-application/_static/image9.png)
+![Screenshot that shows the Students Index page. The word an is entered in the Find by name search bar.](sorting-filtering-and-paging-with-the-entity-framework-in-an-asp-net-mvc-application/_static/image9.png)
 
 ## Create an About Page That Shows Student Statistics
 
@@ -262,7 +262,7 @@ Windows Azure SQL Database is a cloud-based relational database service that is 
     ![New button in Management Portal](sorting-filtering-and-paging-with-the-entity-framework-in-an-asp-net-mvc-application/_static/image11.png)
 2. Click **CUSTOM CREATE**.
 
-    ![Create with Database link in Management Portal](sorting-filtering-and-paging-with-the-entity-framework-in-an-asp-net-mvc-application/_static/image12.png)
+    ![Screenshot that shows the New dialog box. The Web Site and Custom Create options are highlighted.](sorting-filtering-and-paging-with-the-entity-framework-in-an-asp-net-mvc-application/_static/image12.png)
 
    The **New Web Site - Custom Create** wizard opens.
 3. In the **New Web Site** step of the wizard, enter a string in the **URL** box to use as the unique URL for your application. The complete URL will consist of what you enter here plus the suffix that you see next to the text box. The illustration shows "ConU", but that URL is probably taken so you will have to choose a different one.
@@ -271,10 +271,10 @@ Windows Azure SQL Database is a cloud-based relational database service that is 
 4. In the **Region** drop-down list, choose a region close to you. This setting specifies which data center your web site will run in.
 5. In the **Database** drop-down list, choose **Create a free 20 MB SQL database**.
 
-    ![](sorting-filtering-and-paging-with-the-entity-framework-in-an-asp-net-mvc-application/_static/image14.png)
+    ![Screenshot that shows the Create Web Site dialog box. In the database dropdown list, Choose a free 20 M B S Q L database is selected. The check mark button is highlighted.](sorting-filtering-and-paging-with-the-entity-framework-in-an-asp-net-mvc-application/_static/image14.png)
 6. In the **DB CONNECTION STRING NAME**, enter *SchoolContext*.
 
-    ![](sorting-filtering-and-paging-with-the-entity-framework-in-an-asp-net-mvc-application/_static/image15.png)
+    ![Screenshot that shows the Create Web Site dialog box. School Context is filled in the D B Connection String Name text field. The check mark button is highlighted.](sorting-filtering-and-paging-with-the-entity-framework-in-an-asp-net-mvc-application/_static/image15.png)
 7. Click the arrow that points to the right at the bottom of the box. The wizard advances to the **Database Settings** step.
 8. In the **Name** box, enter *ContosoUniversityDB*.
 9. In the **Server** box, select **New SQL Database server**. Alternatively, if you previously created a server, you can select that server from the drop-down list.
@@ -282,7 +282,7 @@ Windows Azure SQL Database is a cloud-based relational database service that is 
 11. Choose the same **Region** that you chose for the web site.
 12. Click the check mark at the bottom right of the box to indicate that you're finished.   
   
-    ![Database Settings step of New Web Site - Create with Database wizard](sorting-filtering-and-paging-with-the-entity-framework-in-an-asp-net-mvc-application/_static/image16.png)  
+    ![Screenshot that shows the Specify database settings dialog box with all settings selected and a sample password included in text fields. The check mark button is highlighted.](sorting-filtering-and-paging-with-the-entity-framework-in-an-asp-net-mvc-application/_static/image16.png)  
 
     The following image shows using an existing SQL Server and Login.   
   
@@ -356,7 +356,7 @@ Windows Azure SQL Database is a cloud-based relational database service that is 
 
 At this point your *SchoolContext* database has been created in the Windows Azure SQL Database because you selected **Execute Code First Migrations (runs on app start)**. The *Web.config* file in the deployed web site has been changed so that the [MigrateDatabaseToLatestVersion](https://msdn.microsoft.com/library/hh829476(v=vs.103).aspx) initializer would run the first time your code reads or writes data in the database (which happened when you selected the **Students** tab):
 
-![](sorting-filtering-and-paging-with-the-entity-framework-in-an-asp-net-mvc-application/_static/image33.png)
+![Screenshot of the code with Migrate Database To Latest Version highlighted.](sorting-filtering-and-paging-with-the-entity-framework-in-an-asp-net-mvc-application/_static/image33.png)
 
 The deployment process also created a new connection string *(SchoolContext\_DatabasePublish*) for Code First Migrations to use for updating the database schema and seeding the database.
 
@@ -369,7 +369,7 @@ You can find the deployed version of the Web.config file on your own computer in
 > [!NOTE]
 > The web app doesn't implement security, so anyone who finds the URL can change the data. For instructions on how to secure the web site, see [Deploy a Secure ASP.NET MVC app with Membership, OAuth, and SQL Database to a Windows Azure Web Site](/aspnet/core/security/authorization/secure-data). You can prevent other people from using the site by using the Windows Azure Management Portal or **Server Explorer** in Visual Studio to stop the site.
 
-![](sorting-filtering-and-paging-with-the-entity-framework-in-an-asp-net-mvc-application/_static/image35.png)
+![Screenshot of Server Explorer that shows The Windows Azure Website tab expanded and Con U below it selected. A dialog menu with the option Stop Web Site is highlighted. ](sorting-filtering-and-paging-with-the-entity-framework-in-an-asp-net-mvc-application/_static/image35.png)
 
 ## Code First Initializers
 
