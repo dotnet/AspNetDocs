@@ -1,7 +1,7 @@
 ---
 uid: web-api/overview/odata-support-in-aspnet-web-api/odata-v3/odata-actions
 title: "Supporting OData Actions in ASP.NET Web API 2 | Microsoft Docs"
-author: MikeWasson
+author: rick-anderson
 description: "In OData, actions are a way to add server-side behaviors that are not easily defined as CRUD operations on entities. Some uses for actions include: Implement..."
 ms.author: riande
 ms.date: 02/25/2014
@@ -11,7 +11,7 @@ msc.type: authoredcontent
 ---
 # Supporting OData Actions in ASP.NET Web API 2
 
-by [Mike Wasson](https://github.com/MikeWasson)
+by Mike Wasson
 
 [Download Completed Project](https://code.msdn.microsoft.com/ASPNET-Web-API-OData-cecdb524)
 
@@ -157,4 +157,3 @@ If the action is available, the lambda expression returns a link to the action. 
 
 ## Additional Resources
 
-[OData Actions Sample](http://aspnet.codeplex.com/sourcecontrol/latest#Samples/WebApi/OData/v3/ODataActionsSample/)

@@ -69,19 +69,19 @@ For this example, the data access layer classes contain SQL statements for worki
 
 1. Log in to the [Azure Portal](https://ms.portal.azure.com/).
 2. Click **+NEW** at the bottom of the page, and then select **STORE**.  
-    ![](implementing-a-custom-mysql-aspnet-identity-storage-provider/_static/image1.png)
+    ![Image showing how to access the Azure Portal store](implementing-a-custom-mysql-aspnet-identity-storage-provider/_static/image1.png)
 3. In the **Choose and Add-on** wizard, select **ClearDB MySQL Database** and click on the next arrow at the bottom right of the dialog.  
-    ![](implementing-a-custom-mysql-aspnet-identity-storage-provider/_static/image2.png)
+    ![Image displaying the Clear D B My S Q L Database ad-on](implementing-a-custom-mysql-aspnet-identity-storage-provider/_static/image2.png)
 4. Keep the default **Free** plan and change the **Name** to **IdentityMySQLDatabase**. Select the region nearest you and then click the next arrow.  
-    ![](implementing-a-custom-mysql-aspnet-identity-storage-provider/_static/image3.png)
+    ![Image of the free plan selected and name](implementing-a-custom-mysql-aspnet-identity-storage-provider/_static/image3.png)
 5. Click the checkmark to complete the database creation.  
-    ![](implementing-a-custom-mysql-aspnet-identity-storage-provider/_static/image4.png)
+    ![Image of review purchase and database creation](implementing-a-custom-mysql-aspnet-identity-storage-provider/_static/image4.png)
 6. After your database has been created, you can manage it from the **ADD-ONS** tab in the management portal.   
-    ![](implementing-a-custom-mysql-aspnet-identity-storage-provider/_static/image5.png)
+    ![Image of add-ons tab](implementing-a-custom-mysql-aspnet-identity-storage-provider/_static/image5.png)
 7. You can get the database connection information by clicking on **CONNECTION INFO** at the bottom of the page.  
-    ![](implementing-a-custom-mysql-aspnet-identity-storage-provider/_static/image6.png)
+    ![Image showing the connection info location](implementing-a-custom-mysql-aspnet-identity-storage-provider/_static/image6.png)
 8. Copy the connection string by clicking on the copy button and save it so you can use later in your MVC application.   
-    ![](implementing-a-custom-mysql-aspnet-identity-storage-provider/_static/image7.png)
+    ![Image showing connection string and U R L](implementing-a-custom-mysql-aspnet-identity-storage-provider/_static/image7.png)
 
 ## Create the ASP.NET Identity tables in a MySQL database
 
@@ -91,7 +91,7 @@ For this example, the data access layer classes contain SQL statements for worki
 2. Launch the app and add click on the **MySQLConnections +** button to add a new connection. Use the connection string data you copied from the Azure MySQL database you created earlier in this tutorial.
 3. After establishing the connection, open a new **Query** tab; paste the commands from [MySQLIdentity.sql](https://github.com/aspnet/samples/blob/master/samples/aspnet/Identity/AspNet.Identity.MySQL/MySQLIdentity.sql) into the query and execute it in order to create the database tables.
 4. You now have all the ASP.NET Identity necessary tables created on a MySQL database hosted on Azure as shown below.  
-    ![](implementing-a-custom-mysql-aspnet-identity-storage-provider/_static/image1.jpg)
+    ![Image showing identity necessary tables](implementing-a-custom-mysql-aspnet-identity-storage-provider/_static/image1.jpg)
 
 ## Create an MVC application project from template and configure it to use MySQL provider
 
@@ -109,8 +109,8 @@ If needed, install either [Visual Studio Express 2013 for Web](https://my.visual
 1. Right click the **AspNet.Identity.MySQL** solution and **Add**, **New Project**
 2. In the **Add New Project** Dialog select **Visual C#** on the left, then **Web** and then select **ASP.NET Web Application**. Name your project **IdentityMySQLDemo**; and then click OK.  
   
-    ![](implementing-a-custom-mysql-aspnet-identity-storage-provider/_static/image2.jpg)
-3. In the **New ASP.NET Project** dialog, select the MVC template with the default options (that includes **Individual User Accounts** as authentication method) and click **OK**.![](implementing-a-custom-mysql-aspnet-identity-storage-provider/_static/image3.jpg)
+    ![Image of the add new project dialog window](implementing-a-custom-mysql-aspnet-identity-storage-provider/_static/image2.jpg)
+3. In the **New ASP.NET Project** dialog, select the MVC template with the default options (that includes **Individual User Accounts** as authentication method) and click **OK**.![Image of the new A S P dot N E T project dialog window](implementing-a-custom-mysql-aspnet-identity-storage-provider/_static/image3.jpg)
 4. In Solution Explorer, right-click your IdentityMySQLDemo project and select **Manage NuGet Packages**. In the search text box dialog, type **Identity.EntityFramework**. Select this package in the list of results and click **Uninstall**. You will be prompted to uninstall the dependency package EntityFramework. Click on Yes as we will no longer this package on this application.
 5. Right click the IdentityMySQLDemo project, select **Add**, **Reference, Solution, Projects;** select the AspNet.Identity.MySQL project and click **OK**.
 6. In the IdentityMySQLDemo project, replace all references to  
@@ -134,16 +134,16 @@ If needed, install either [Visual Studio Express 2013 for Web](https://my.visual
 3. Click on **Register** tab on the top of the page.
 4. Enter a new user name and password and then click on **Register**.  
   
-    ![](implementing-a-custom-mysql-aspnet-identity-storage-provider/_static/image8.png)
+    ![Image showing new user name and password](implementing-a-custom-mysql-aspnet-identity-storage-provider/_static/image8.png)
 5. The new user is now registered and logged in.  
   
-    ![](implementing-a-custom-mysql-aspnet-identity-storage-provider/_static/image9.png)
+    ![Illustration showing the new user is registered and logged in](implementing-a-custom-mysql-aspnet-identity-storage-provider/_static/image9.png)
 6. Go back to the MySQL Workbench tool and inspect the **IdentityMySQLDatabase** table's contents. Inspect the users table for the entries as you register new users.  
   
-    ![](implementing-a-custom-mysql-aspnet-identity-storage-provider/_static/image10.png)
+    ![Image of My S Q L Workbench inspect tool](implementing-a-custom-mysql-aspnet-identity-storage-provider/_static/image10.png)
 
 ## Next Steps
 
 For more information on how to enable other authentication methods on this app, refer to [Create an ASP.NET MVC 5 App with Facebook and Google OAuth2 and OpenID Sign-on](../../../mvc/overview/security/create-an-aspnet-mvc-5-app-with-facebook-and-google-oauth2-and-openid-sign-on.md).
 
-To learn how to integrate your DB with OAuth and to set up roles to limit users access to your app, see [Deploy a Secure ASP.NET MVC 5 app with Membership, OAuth, and SQL Database to Azure](https://docs.microsoft.com/aspnet/core/security/authorization/secure-data).
+To learn how to integrate your DB with OAuth and to set up roles to limit users access to your app, see [Deploy a Secure ASP.NET MVC 5 app with Membership, OAuth, and SQL Database to Azure](/aspnet/core/security/authorization/secure-data).

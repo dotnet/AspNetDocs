@@ -1,7 +1,7 @@
 ---
 uid: web-api/overview/odata-support-in-aspnet-web-api/odata-v4/entity-relations-in-odata-v4
 title: "Entity Relations in OData v4 Using ASP.NET Web API 2.2 | Microsoft Docs"
-author: MikeWasson
+author: rick-anderson
 description: "Most data sets define relations between entities: Customers have orders; books have authors; products have suppliers. Using OData, clients can navigate over..."
 ms.author: riande
 ms.date: 06/26/2014
@@ -11,7 +11,7 @@ msc.type: authoredcontent
 ---
 # Entity Relations in OData v4 Using ASP.NET Web API 2.2
 
-by [Mike Wasson](https://github.com/MikeWasson)
+by Mike Wasson
 
 > Most data sets define relations between entities: Customers have orders; books have authors; products have suppliers. Using OData, clients can navigate over entity relations. Given a product, you can find the supplier. You can also create or remove relationships. For example, you can set the supplier for a product.
 >

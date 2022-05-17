@@ -1,7 +1,7 @@
 ---
 uid: web-api/overview/odata-support-in-aspnet-web-api/odata-v4/odata-actions-and-functions
 title: "Actions and Functions in OData v4 Using ASP.NET Web API 2.2 | Microsoft Docs"
-author: MikeWasson
+author: rick-anderson
 description: "In OData, actions and functions are a way to add server-side behaviors that are not easily defined as CRUD operations on entities. This tutorial shows how to..."
 ms.author: riande
 ms.date: 06/27/2014
@@ -11,7 +11,7 @@ msc.type: authoredcontent
 ---
 # Actions and Functions in OData v4 Using ASP.NET Web API 2.2
 
-by [Mike Wasson](https://github.com/MikeWasson)
+by Mike Wasson
 
 > In OData, actions and functions are a way to add server-side behaviors that are not easily defined as CRUD operations on entities. This tutorial shows how to add actions and functions to an OData v4 endpoint, using Web API 2.2. The tutorial builds on the tutorial [Create an OData v4 Endpoint Using ASP.NET Web API 2](create-an-odata-v4-endpoint.md)
 >

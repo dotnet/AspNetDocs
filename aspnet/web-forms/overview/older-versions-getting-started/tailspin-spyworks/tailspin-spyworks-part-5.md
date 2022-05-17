@@ -25,9 +25,9 @@ This means that we will need to implement the logic to convert the shopping cart
 
 Let's create a directory named "Classes" then Right-Click on the folder and create a new "Class" file named MyShoppingCart.cs
 
-![](tailspin-spyworks-part-5/_static/image1.jpg)
+![Screenshot that shows the new Class file named My Shopping Cart dot C S.](tailspin-spyworks-part-5/_static/image1.jpg)
 
-![](tailspin-spyworks-part-5/_static/image1.png)
+![Screenshot that shows the contents of the Classes folder.](tailspin-spyworks-part-5/_static/image1.png)
 
 As previously mentioned we will be extending the class that implements the MyShoppingCart.aspx page and we will do this using .NET's powerful "Partial Class" construct.
 
@@ -101,7 +101,7 @@ We'll implement the details later but doing this will let us build and run our a
 
 When you run the application and add an item to the shopping cart you will see this.
 
-![](tailspin-spyworks-part-5/_static/image2.jpg)
+![Screenshot that shows the updated shopping cart.](tailspin-spyworks-part-5/_static/image2.jpg)
 
 Note that we have deviated from the "default" grid display by implementing three custom columns.
 
@@ -117,7 +117,7 @@ Lastly we have a custom column that contains a CheckBox control that the user wi
 
 [!code-aspx[Main](tailspin-spyworks-part-5/samples/sample11.aspx)]
 
-![](tailspin-spyworks-part-5/_static/image3.jpg)
+![Screenshot that shows the updated Quantity and Remove Items.](tailspin-spyworks-part-5/_static/image3.jpg)
 
 As you can see, the Order Total line is empty so let's add some logic to calculate the Order Total.
 
@@ -131,11 +131,11 @@ Then in the Page\_Load event handler we'll can call our GetTotal method. At the 
 
 Now if the shopping cart is empty we get this:
 
-![](tailspin-spyworks-part-5/_static/image4.jpg)
+![Screenshot that shows the empty shopping cart.](tailspin-spyworks-part-5/_static/image4.jpg)
 
 And if not, we see our total.
 
-![](tailspin-spyworks-part-5/_static/image5.jpg)
+![Screenshot that shows the total amount for the items in the shopping cart.](tailspin-spyworks-part-5/_static/image5.jpg)
 
 However, this page is not yet complete.
 

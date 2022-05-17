@@ -4,7 +4,8 @@ title: "OWIN Startup Class Detection | Microsoft Docs"
 author: Praburaj
 description: "This tutorial shows how to configure which OWIN startup class is loaded. For more information on OWIN, see An Overview of Project Katana. This tutorial was..."
 ms.author: riande
-ms.date: 01/28/2019
+ms.date: 04/13/2022
+ms.custom: devdivchpfy22
 ms.assetid: 08257f55-36f4-4e39-9c88-2a5602838c79
 msc.legacyurl: /aspnet/overview/owin-and-katana/owin-startup-class-detection
 msc.type: authoredcontent
@@ -53,15 +54,15 @@ msc.type: authoredcontent
     [!code-powershell[Main](owin-startup-class-detection/samples/sample7.ps1)]
 2. Add an OWIN startup class. In Visual Studio 2017 right-click the project and select **Add Class**.- In the **Add New Item** dialog box, enter *OWIN* in the search field, and change the name to Startup.cs, and then select **Add**.
 
-     ![](owin-startup-class-detection/_static/image1.png)
+     :::image type="content" source="owin-startup-class-detection/_static/image1.png" alt-text="Screenshot of Add new item dialog.":::
 
    The next time you want to add an *Owin Startup class*, it will be in available from the **Add** menu.
 
-     ![](owin-startup-class-detection/_static/image2.png)
+     :::image type="content" source="owin-startup-class-detection/_static/image2.png" alt-text="Screenshot of Add menu to add an Owin startup class.":::
 
    Alternatively, you can right-click the project and select **Add**, then select **New Item**, and then select the **Owin Startup class**.
 
-     ![](owin-startup-class-detection/_static/image3.png)
+     :::image type="content" source="owin-startup-class-detection/_static/image3.png" alt-text="Screenshot of Select the Owin Startup class.":::
 
 - Replace the generated code in the *Startup.cs* file with the following:
 
@@ -71,11 +72,12 @@ msc.type: authoredcontent
      > [!NOTE]
      > In the code above we have commented out the `OwinStartup` attribute and we're relying on the convention of running the class named `Startup` .- Press ***F5*** to run the application. Hit refresh a few times.
 
-    ![](owin-startup-class-detection/_static/image4.png)
+    :::image type="content" source="owin-startup-class-detection/_static/image4.png" alt-text="Screenshot of the runtime application.":::
+
   Note: The number shown in the images in this tutorial will not match the number you see. The millisecond string is used to show a new response when you refresh the page.
   You can see the trace information in the **Output** window.
 
-    ![](owin-startup-class-detection/_static/image5.png)
+    :::image type="content" source="owin-startup-class-detection/_static/image5.png" alt-text="Screenshot of the output window.":::
 
 ## Add More Startup Classes
 
@@ -87,7 +89,8 @@ In this section we'll add another Startup class. You can add multiple OWIN start
     [!code-csharp[Main](owin-startup-class-detection/samples/sample9.cs?highlight=14-18)]
 3. Press Control F5 to run the app. The `OwinStartup` attribute specifies the production startup class is run.
 
-    ![](owin-startup-class-detection/_static/image6.png)
+    :::image type="content" source="owin-startup-class-detection/_static/image6.png" alt-text="Screenshot of production startup class.":::
+
 4. Create another OWIN Startup class and name it `TestStartup`.
 5. Replace the generated code with the following:
 
@@ -99,7 +102,8 @@ In this section we'll add another Startup class. You can add multiple OWIN start
     [!code-xml[Main](owin-startup-class-detection/samples/sample11.xml?highlight=3-5)]
 7. Press Control F5 to run the app. The app settings element takes precedent, and the test configuration is run.
 
-    ![](owin-startup-class-detection/_static/image7.png)
+    :::image type="content" source="owin-startup-class-detection/_static/image7.png" alt-text="Screenshot of test configuration.":::
+
 8. Remove the *friendly* name from the `OwinStartup` attribute in the `TestStartup` class.
 
     [!code-csharp[Main](owin-startup-class-detection/samples/sample12.cs)]
@@ -137,7 +141,7 @@ In this section we'll add another Startup class. You can add multiple OWIN start
     [!code-console[Main](owin-startup-class-detection/samples/sample20.cmd)]
 4. Launch a browser with the URL `http://localhost:5000/`.
 
-    ![](owin-startup-class-detection/_static/image8.png)
+    :::image type="content" source="owin-startup-class-detection/_static/image8.png" alt-text="Screenshot of launching a browser with the localhost URL.":::
 
    OwinHost honored the startup conventions listed above.
 5. In the command window, press Enter to exit OwinHost.
@@ -149,7 +153,7 @@ In this section we'll add another Startup class. You can add multiple OWIN start
     [!code-console[Main](owin-startup-class-detection/samples/sample22.cmd)]
 
    The Production startup class is loaded.
-    ![](owin-startup-class-detection/_static/image9.png)
+    :::image type="content" source="owin-startup-class-detection/_static/image9.png" alt-text="Screenshot of Production startup class.":::
 
    Our application has multiple startup classes, and in this example we have deferred which startup class to load until runtime.
 8. Test the following runtime startup options:

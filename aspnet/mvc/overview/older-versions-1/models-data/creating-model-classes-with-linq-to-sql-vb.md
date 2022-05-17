@@ -41,9 +41,8 @@ In this tutorial -- in order to illustrate how you can build model classes -- we
 
 After you create the new database, you can open the database by double-clicking the MoviesDB.mdf file in the App\_Data folder. Double-clicking the MoviesDB.mdf file opens the Server Explorer window (see Figure 2).
 
-|   | The Server Explorer window is called the Database Explorer window when using Visual Web Developer. |
-|---|----------------------------------------------------------------------------------------------------|
-|   |                                                                                                    |
+**The Server Explorer window is called the Database Explorer window when using Visual Web Developer.** 
+
 
 [![Using the Server Explorer window](creating-model-classes-with-linq-to-sql-vb/_static/image5.png)](creating-model-classes-with-linq-to-sql-vb/_static/image4.png)
 

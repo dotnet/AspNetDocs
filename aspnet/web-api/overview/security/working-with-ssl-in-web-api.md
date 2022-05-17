@@ -1,7 +1,7 @@
 ---
 uid: web-api/overview/security/working-with-ssl-in-web-api
 title: "Working with SSL in Web API | Microsoft Docs"
-author: MikeWasson
+author: Rick-Anderson
 description: "Shows how to use SSL with ASP.NET Web API, including using SSL client certificates."
 ms.author: riande
 ms.date: 02/22/2019
@@ -26,7 +26,7 @@ For details, see [How to Set Up SSL on IIS 7](https://www.iis.net/learn/manage/c
 
 For local testing, you can enable SSL in IIS Express from Visual Studio. In the Properties window, set **SSL Enabled** to **True**. Note the value of **SSL URL**; use this URL for testing HTTPS connections.
 
-![](working-with-ssl-in-web-api/_static/image1.png)
+![Image of S S L enabled true in properties](working-with-ssl-in-web-api/_static/image1.png)
 
 ### Enforcing SSL in a Web API Controller
 

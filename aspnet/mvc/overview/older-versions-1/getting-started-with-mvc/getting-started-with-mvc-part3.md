@@ -1,6 +1,6 @@
 ---
 uid: mvc/overview/older-versions-1/getting-started-with-mvc/getting-started-with-mvc-part3
-title: "Adding a View | Microsoft Docs"
+title: "Adding a View | Microsoft Docs - How to use a View template file to cleanly encapsulate generating HTML responses back to a client"
 author: shanselman
 description: "This is a beginner tutorial that introduces the basics of ASP.NET MVC. Create a simple web application that reads and writes from a database."
 ms.author: riande
@@ -9,7 +9,7 @@ ms.assetid: e8f1515c-c277-47ff-a23e-224118f13f02
 msc.legacyurl: /mvc/overview/older-versions-1/getting-started-with-mvc/getting-started-with-mvc-part3
 msc.type: authoredcontent
 ---
-# Adding a View
+# Adding a View - How to use a View template file to cleanly encapsulate generating HTML responses back to a client
 
 by [Scott Hanselman](https://github.com/shanselman)
 

@@ -1,6 +1,6 @@
 ---
 uid: visual-studio/overview/2012/aspnet-and-web-tools-20122-release-notes-rtw
-title: "ASP.NET and Web Tools 2012.2 Release Notes | Microsoft Docs"
+title: "ASP.NET and Web Tools 2012.2 Release Notes RTW | Microsoft Docs"
 author: rick-anderson
 description: "Release notes for ASP.NET and Web Tools 2012.2."
 ms.author: riande
@@ -9,7 +9,7 @@ ms.assetid: 9534e58b-1d15-4f1d-b04c-10c79b9d8227
 msc.legacyurl: /visual-studio/overview/2012/aspnet-and-web-tools-20122-release-notes-rtw
 msc.type: content
 ---
-# ASP.NET and Web Tools 2012.2 Release Notes
+# ASP.NET and Web Tools 2012.2 Release Notes (RTW)
 
 > This document describes the release of ASP.NET and Web Tools 2012.2. It is an update to Visual Studio Web Tooling and ASP.NET.
 
@@ -38,7 +38,7 @@ You can also install ASP.NET and Web Tools 2012.2 manually. You must have Visual
 1. Download [ASP.NET and Web Frameworks 2012.2](https://download.microsoft.com/download/6/5/6/6562AFBE-9503-4E64-970C-1427133FCD73/AspNetWebTools2012Setup.exe) installer from Download Center.
 2. When prompted click Run. You can also save the file to run it later.
 3. Verify the version of Visual Studio you will update. You can do this by launching the Visual Studio you wish to update. Then click the Help menu item.   
-    ![](aspnet-and-web-tools-20122-release-notes-rtw/_static/image1.jpg)
+    ![Screenshot that shows the Help drop down menu. About Microsoft Visual Studio Express 2012 for Web is circled in red.](aspnet-and-web-tools-20122-release-notes-rtw/_static/image1.jpg)
 4. If you see the menu item &quot;About Microsoft Visual Studio 2012 for Web&quot; then download Web Developer Tools 2012.2 - Visual Studio Express 2012 for Web. Otherwise download Web Developer Tools 2012.2 - Visual Studio 2012.
 5. When prompted click Run. You can also save the file to run it later.
 
@@ -97,7 +97,7 @@ This section describes features that have been introduced in the ASP.NET and Web
 - The new Facebook Application template makes writing Facebook Canvas applications easy. In a few simple steps, you can create a Facebook application that gets data from a logged in user and integrates with their friends. The template includes a new library to take care of all the plumbing involved in building a Facebook app, including authentication, permissions, accessing Facebook data and more. For more information on using the Facebook Application template see [https://go.microsoft.com/fwlink/?LinkID=269921](https://go.microsoft.com/fwlink/?LinkID=269921).
 - A new Single Page Application MVC template allows developers to build interactive client-side web apps using HTML 5, CSS 3, and the popular Knockout and jQuery JavaScript libraries, on top of ASP.NET Web API. The template includes a "todo" list application that demonstrates common practices for building a JavaScript HTML5 application that uses a RESTful server API. You can read more at [https://www.asp.net/single-page-application](../../../single-page-application/index.md).
 - You can now create a VSIX that adds new templates to the ASP.NET MVC New Project dialog. Learn how here: [https://go.microsoft.com/fwlink/?LinkId=275019](https://go.microsoft.com/fwlink/?LinkId=275019)
-- FixedDisplayModes package &#8211; MVC project templates have been updated to include the new ‘FixedDisplayModes' NuGet package, which contains a workaround for a bug in MVC 4. For more information on the fix contained in the package, refer to this blog post ([https://docs.microsoft.com/archive/blogs/rickandy/asp-net-mvc-4-mobile-caching-bug-fixed](https://docs.microsoft.com/archive/blogs/rickandy/asp-net-mvc-4-mobile-caching-bug-fixed)) from the MVC team.
+- FixedDisplayModes package &#8211; MVC project templates have been updated to include the new ‘FixedDisplayModes' NuGet package, which contains a workaround for a bug in MVC 4. For more information on the fix contained in the package, refer to this blog post ([/archive/blogs/rickandy/asp-net-mvc-4-mobile-caching-bug-fixed](/archive/blogs/rickandy/asp-net-mvc-4-mobile-caching-bug-fixed)) from the MVC team.
 
 <a id="_ASP.NET_Web_API"></a>
 ### ASP.NET Web API
@@ -207,7 +207,7 @@ The workaround is to repair your Visual Studio 2012 installation to reinstall AS
 
 After installing ASP.NET and Web Tools 2012.2 you may see the following error when creating an MVC 4 project
 
-![](aspnet-and-web-tools-20122-release-notes-rtw/_static/image1.png)
+![Screenshot that shows a Microsoft Visual Studio error message.](aspnet-and-web-tools-20122-release-notes-rtw/_static/image1.png)
 
 The ASP.NET and Web Tools 2012.2 ships NuGet 2.1 and will upgrade the extension in Visual Studio 2012. In some cases, the VSIX installer will fail to correctly update the VSIX. The following steps will allow you to address this problem:
 

@@ -31,15 +31,15 @@ The ASP.NET request validation feature proactively prevents these attacks by not
 
 The screen shot below shows some sample ASP.NET code:
 
-![](request-validation/_static/image1.png)
+![Screenshot that shows a sample of ASP.NET code.](request-validation/_static/image1.png)
 
 Running this code results in a simple page that allows you to enter some text in the textbox, click the button, and display the text in the label control:
 
-![](request-validation/_static/image2.png)
+![Screenshot that shows running this code results in a simple page that allows you to enter some text in the textbox, click the button, and display the text in the label control.](request-validation/_static/image2.png)
 
 However, were JavaScript, such as `<script>alert("hello!")</script>` to be entered and submitted we would get an exception:
 
-![](request-validation/_static/image3.png)
+![If JavaScript, such as <script>alert("hello!")</script>, were entered and submitted, one would get an exception.](request-validation/_static/image3.png)
 
 The error message states that a 'potentially dangerous Request.Form value was detected' and provides more details in the description as to exactly what occurred and how to change the behavior. For example:
 
@@ -67,11 +67,11 @@ If you wish to disable request validation for all applications on your server, y
 
 The code below is modified to turn off request validation:
 
-![](request-validation/_static/image4.png)
+![Screenshot that shows the code below is modified to turn off request validation.](request-validation/_static/image4.png)
 
 Now if the following JavaScript was entered into the textbox `<script>alert("hello!")</script>` the result would be:
 
-![](request-validation/_static/image5.png)
+![Screenshot that shows if the following JavaScript was entered into the textbox: <script>alert("hello!")</script> the result would be a button "Click Me!" and a dialog box that states "hello!" and a button to click "ok."](request-validation/_static/image5.png)
 
 To prevent this from happening, with request validation turned off, we need to HTML encode the content.
 
@@ -81,8 +81,8 @@ If you have disabled request validation, it is good practice to HTML-encode cont
 
 Content can be easily HTML-encoded on the server using the `Server.HtmlEncode(string)` API. Content can also be easily HTML-decoded, that is, reverted back to standard HTML using the `Server.HtmlDecode(string)` method.
 
-![](request-validation/_static/image6.png)
+![Screenshot that shows content can be easily HTML-encoded on the server using the Server.HtmlEncode(string) API. Content can also be easily HTML-decoded, that is, reverted back to standard HTML using the Server.HtmlDecode(string) method.](request-validation/_static/image6.png)
 
 Resulting in:
 
-![](request-validation/_static/image7.png)
+![Screenshot that shows a button "Click Me!" and "You entered: <script>alert("hello!");</script>" in the text box.](request-validation/_static/image7.png)

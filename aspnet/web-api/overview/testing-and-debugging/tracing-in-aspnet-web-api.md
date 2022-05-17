@@ -1,7 +1,7 @@
 ---
 uid: web-api/overview/testing-and-debugging/tracing-in-aspnet-web-api
 title: "Tracing in ASP.NET Web API 2 | Microsoft Docs"
-author: MikeWasson
+author: Rick-Anderson
 description: "Shows how to enable tracing in ASP.NET Web API."
 ms.author: riande
 ms.date: 02/25/2014
@@ -25,11 +25,11 @@ by [Mike Wasson](https://github.com/MikeWasson)
 
 First, we'll create a new ASP.NET Web Application project. In Visual Studio, from the **File** menu, select **New** > **Project**. Under **Templates**, **Web**, select **ASP.NET Web Application**.
 
-[![](tracing-in-aspnet-web-api/_static/image2.png)](tracing-in-aspnet-web-api/_static/image1.png)
+[![Image of new project dialog box](tracing-in-aspnet-web-api/_static/image2.png)](tracing-in-aspnet-web-api/_static/image1.png)
 
 Choose the Web API project template.
 
-[![](tracing-in-aspnet-web-api/_static/image4.png)](tracing-in-aspnet-web-api/_static/image3.png)
+[![Image of web A P I selected](tracing-in-aspnet-web-api/_static/image4.png)](tracing-in-aspnet-web-api/_static/image3.png)
 
 From the **Tools** menu, select **NuGet Package Manager**, then **Package Manage Console**.
 
@@ -50,11 +50,11 @@ This code adds the [SystemDiagnosticsTraceWriter](https://msdn.microsoft.com/lib
 
 To see the traces, run the application in the debugger. In the browser, navigate to `/api/values`.
 
-![](tracing-in-aspnet-web-api/_static/image5.png)
+![Image displaying modified U R L](tracing-in-aspnet-web-api/_static/image5.png)
 
 The trace statements are written to the Output window in Visual Studio. (From the **View** menu, select **Output**).
 
-[![](tracing-in-aspnet-web-api/_static/image7.png)](tracing-in-aspnet-web-api/_static/image6.png)
+[![Image of trace statements](tracing-in-aspnet-web-api/_static/image7.png)](tracing-in-aspnet-web-api/_static/image6.png)
 
 Because **SystemDiagnosticsTraceWriter** writes traces to **System.Diagnostics.Trace**, you can register additional trace listeners; for example, to write traces to a log file. For more information about trace writers, see the [Trace Listeners](https://msdn.microsoft.com/library/4y5y10s7.aspx) topic on MSDN.
 

@@ -54,7 +54,7 @@ In ASP.NET 2.0, control state solves that problem nicely via the introduction of
 
 This video is a walkthrough of view state and control state.
 
-![](server-controls/_static/image1.png)
+![Screenshot of the walkthrough video that describes the view state and control state fields, showing a Windows Explorer browser window.](server-controls/_static/image1.png)
 
 [Open Full-Screen Video](server-controls/_static/state1.wmv)
 
@@ -145,7 +145,7 @@ The following are new server controls in ASP.NET 2.0. We will go into more detai
 
 The ImageMap control allows you to add hotspots to an image that can initiate a post back or navigate to a URL. There are three types of hotspots available; CircleHotSpot, RectangleHotSpot, and PolygonHotSpot. Hotspots are added via a collection editor in Visual Studio or programmatically in code. There is no user-interface available for drawing hotspots on an image. The coordinates and size or radius of the hotspot must be specified declaratively. There is also no visual representation of a hotspot in the designer. If a hotspot is configured to navigate to a URL, the URL is specified via the NavigateUrl property of the hotspot. In the case of a post back hotspot, the PostBackValue property allows you to pass a string in the post back that can be retrieved in server-side code.
 
-![HotSpot Collection Editor in Visual Studio](server-controls/_static/image1.jpg)
+![Screenshot of the HotSpot Collection Editor screen being displayed over the Default dot A S P X file window.](server-controls/_static/image1.jpg)
 
 **Figure 1**: HotSpot Collection Editor in Visual Studio
 
@@ -153,7 +153,7 @@ The ImageMap control allows you to add hotspots to an image that can initiate a 
 
 The BulletedList control is a bulleted list that can easily be data bound. The list can be ordered (numbered) or unordered via the BulletStyle property. Each item in the list is represented by a ListItem object.
 
-![BulletedList Control in Visual Studio](server-controls/_static/image1.gif)
+![Screenshot of the Bulleted List tasks dropdown menu over an unordered list, with the Choose Data Source option being hovered over.](server-controls/_static/image1.gif)
 
 **Figure 2**: BulletedList Control in Visual Studio
 
@@ -190,7 +190,7 @@ It is fairly common to encounter ASP.NET developers struggling with attempting t
 
 This video is a walkthrough of the Wizard control.
 
-![](server-controls/_static/image2.png)
+![Screenshot of a video walkthrough of the Wizard Control. The Server Controls screen with a Microsoft Visual Studio window is displayed.](server-controls/_static/image2.png)
 
 [Open Full-Screen Video](server-controls/_static/wizard1.wmv)
 

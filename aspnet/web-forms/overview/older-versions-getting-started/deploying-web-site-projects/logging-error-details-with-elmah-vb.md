@@ -109,11 +109,11 @@ ELMAH's `SqlErrorLog` provider logs error details to a specified Microsoft SQL S
 
 **Figures 1** and **2** show the Database Explorer in Visual Studio after the database objects needed by the `SqlErrorLog` provider have been added.
 
-[![](logging-error-details-with-elmah-vb/_static/image2.png)](logging-error-details-with-elmah-vb/_static/image1.png)
+[![Screenshot that shows the ELMAH error table with the S Q L error log provider log errors.](logging-error-details-with-elmah-vb/_static/image2.png)](logging-error-details-with-elmah-vb/_static/image1.png)
 
 **Figure 1**: The `SqlErrorLog` Provider Logs Errors to the `ELMAH_Error` Table
 
-[![](logging-error-details-with-elmah-vb/_static/image4.png)](logging-error-details-with-elmah-vb/_static/image3.png)
+[![Screenshot that demonstrates how the S Q L error log provider uses three stored procedures.](logging-error-details-with-elmah-vb/_static/image4.png)](logging-error-details-with-elmah-vb/_static/image3.png)
 
 **Figure 2**: The `SqlErrorLog` Provider Uses Three Stored Procedures
 
@@ -128,19 +128,19 @@ ELMAH doesn't affect what content is shown to the user when an unhandled excepti
 
 **Figure 3** shows the error log when visiting `elmah.axd` from the development environment.
 
-[![](logging-error-details-with-elmah-vb/_static/image6.png)](logging-error-details-with-elmah-vb/_static/image5.png)
+[![Screenshot that displays the error log from a web page.](logging-error-details-with-elmah-vb/_static/image6.png)](logging-error-details-with-elmah-vb/_static/image5.png)
 
 **Figure 3**: `Elmah.axd` Displays the Error Log from a Web Page  
 ([Click to view full-size image](logging-error-details-with-elmah-vb/_static/image7.png))
 
 The error log in **Figure 3** contains six error entries. Each entry includes the HTTP status code (404 or 500, for these errors), the type, the description, the name of the logged on user when the error occurred, and the date and time. Clicking the Details link displays a page that includes the same error message shown in the Error Details Yellow Screen of Death (see **Figure 4**) along with the values of the server variables at the time of the error (see **Figure 5**). You can also view the raw XML in which the error details are saved, which includes additional information such as the values in the HTTP POST header.
 
-[![](logging-error-details-with-elmah-vb/_static/image9.png)](logging-error-details-with-elmah-vb/_static/image8.png)
+[![Screenshot that shows that you can view the error details Y S O D.](logging-error-details-with-elmah-vb/_static/image9.png)](logging-error-details-with-elmah-vb/_static/image8.png)
 
 **Figure 4**: View the Error Details YSOD  
 ([Click to view full-size image](logging-error-details-with-elmah-vb/_static/image10.png))
 
-[![](logging-error-details-with-elmah-vb/_static/image12.png)](logging-error-details-with-elmah-vb/_static/image11.png)
+[![Screenshot that shows how to explore the values of the server variables collection at the time of the error.](logging-error-details-with-elmah-vb/_static/image12.png)](logging-error-details-with-elmah-vb/_static/image11.png)
 
 **Figure 5**: Explore the Values of the Server Variables Collection at the Time of the Error  
 ([Click to view full-size image](logging-error-details-with-elmah-vb/_static/image13.png))
@@ -157,7 +157,7 @@ We've explored techniques for copying files from development to production in pr
 
 After deploying your site to production, visit the production website and generate an unhandled exception. As in the development environment, ELMAH has no affect on the error page displayed when an unhandled exception occurs; instead, it merely logs the error. If you attempt to visit the error log page (`elmah.axd`) from the production environment, you will be greeted with the Forbidden page shown in **Figure 6**.
 
-[![](logging-error-details-with-elmah-vb/_static/image15.png)](logging-error-details-with-elmah-vb/_static/image14.png)
+[![Screenshot that shows how, by default, remote visitors can't view the error log web page.](logging-error-details-with-elmah-vb/_static/image15.png)](logging-error-details-with-elmah-vb/_static/image14.png)
 
 **Figure 6**: By Default, Remote Visitors Cannot View the Error Log Web Page  
 ([Click to view full-size image](logging-error-details-with-elmah-vb/_static/image16.png))
@@ -173,7 +173,7 @@ The following configuration permits only users in the Admin role to access the e
 
 The error log on the production environment can now be viewed by remote users; refer back to **Figures 3**, **4**, and **5** for screen shots of the error log web page. However, if an anonymous or non-Admin user attempts to view the error log page they are automatically redirected to the login page (`Login.aspx`), as **Figure 7** shows.
 
-[![](logging-error-details-with-elmah-vb/_static/image18.png)](logging-error-details-with-elmah-vb/_static/image17.png)
+[![Screenshot that shows that unauthorized users are automatically redirected to the login page.](logging-error-details-with-elmah-vb/_static/image18.png)](logging-error-details-with-elmah-vb/_static/image17.png)
 
 **Figure 7**: Unauthorized Users are Automatically Redirected to the Login Page  
 ([Click to view full-size image](logging-error-details-with-elmah-vb/_static/image19.png))
@@ -200,7 +200,7 @@ With the above settings in place, whenever a runtime error occurs ELMAH sends an
 
 **Figure 8** shows ELMAH's error email generated by visiting `Genre.aspx?ID=foo`. While **Figure 8** shows only the error message and stack trace, the server variables are included further down in the email's body.
 
-[![](logging-error-details-with-elmah-vb/_static/image21.png)](logging-error-details-with-elmah-vb/_static/image20.png)
+[![Screenshot that shows how to configure ELMAH to send error details through email.](logging-error-details-with-elmah-vb/_static/image21.png)](logging-error-details-with-elmah-vb/_static/image20.png)
 
 **Figure 8**: You Can Configure ELMAH To Send Error Details Via Email  
 ([Click to view full-size image](logging-error-details-with-elmah-vb/_static/image22.png))

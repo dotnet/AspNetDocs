@@ -102,7 +102,6 @@ In order for EntityFramework to connect to MySQL database, you need to install a
 > This is a pre-release version of the assembly, and as such it may contain bugs. You should not use a pre-release version of the provider in production.
 
 [Click the following image to expand it.]
-
 :::image type="content" source="aspnet-identity-using-mysql-storage-with-an-entityframework-mysql-provider/_static/image21.png" alt-text="Screenshot of installing a MySQL provider for the Entity Framework to connect to MySQL database.":::
 
 ### Making project configuration changes to the Web.config file for your application
@@ -174,7 +173,7 @@ Once you have completed the steps in the preceding sections, you should test you
 
 1. Install the **MySQL Workbench** tool from the [MySQL downloads page](http://dev.mysql.com/downloads/windows/installer/)
 2. In the installation wizard: **Feature Selection** tab, select **MySQL Workbench** under **applications** section.
-3. Launch the app and add a new connection using the connection string data from the Azure MySQL database you created at the begging of this tutorial.
+3. Launch the app and add a new connection using the connection string data from the Azure MySQL database you created at the beginning of this tutorial.
 4. After establishing the connection, inspect the **ASP.NET Identity** tables created on the **IdentityMySQLDatabase.**
 5. You will see that all ASP.NET Identity required tables are created as shown in the image below:
 
@@ -185,4 +184,3 @@ Once you have completed the steps in the preceding sections, you should test you
 
    [Click the following image to expand it. ]
     :::image type="content" source="aspnet-identity-using-mysql-storage-with-an-entityframework-mysql-provider/_static/image25.png" alt-text="Screenshot of the A S P . N E T users table that you check for the entries as you register new users.":::
-

@@ -1,7 +1,7 @@
 ---
 uid: web-api/overview/getting-started-with-aspnet-web-api/tutorial-your-first-web-api
 title: Get Started with ASP.NET Web API 2 (C#) - ASP.NET 4.x
-author: MikeWasson
+author: rick-anderson
 description: "Tutorial with code. Use ASP.NET Web API to create a web API that returns a list of products."
 ms.author: riande
 ms.date: 11/28/2017
@@ -11,7 +11,7 @@ msc.type: authoredcontent
 ---
 # Get Started with ASP.NET Web API 2 (C#)
 
-by [Mike Wasson](https://github.com/MikeWasson)
+by Mike Wasson
 
 [Download Completed Project](https://code.msdn.microsoft.com/Sample-code-of-Getting-c56ccb28)
 
@@ -26,23 +26,23 @@ ASP.NET Web API is a framework for building web APIs on top of the .NET Framewor
 - [Visual Studio 2017](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=button+cta&utm_content=download+vs2017)
 - Web API 2
 
-See [Create a web API with ASP.NET Core and Visual Studio for Windows](https://docs.microsoft.com/aspnet/core/tutorials/first-web-api) for a newer version of this tutorial.
+See [Create a web API with ASP.NET Core and Visual Studio for Windows](/aspnet/core/tutorials/first-web-api) for a newer version of this tutorial.
 
 ## Create a Web API Project
 
 In this tutorial, you will use ASP.NET Web API to create a web API that returns a list of products. The front-end web page uses jQuery to display the results.
 
-![](tutorial-your-first-web-api/_static/image1.png)
+![Screenshot of the local host browser window, showing the sample project with a list of products, their prices, and a search by I D field and button.](tutorial-your-first-web-api/_static/image1.png)
 
 Start Visual Studio and select **New Project** from the **Start** page. Or, from the **File** menu, select **New** and then **Project**.
 
 In the **Templates** pane, select **Installed Templates** and expand the **Visual C#** node. Under **Visual C#**, select **Web**. In the list of project templates, select **ASP.NET Web Application**. Name the project "ProductsApp" and click **OK**.
 
-![](tutorial-your-first-web-api/_static/image2.png)
+![Screenshot of the 'add new project' template options, highlighting the steps and selections for creating the new project.](tutorial-your-first-web-api/_static/image2.png)
 
 In the **New ASP.NET Project** dialog, select the **Empty** template. Under &quot;Add folders and core references for&quot;, check **Web API**. Click **OK**.
 
-![](tutorial-your-first-web-api/_static/image3.png)
+![Screenshot of the new project dialog box, with different template options and three selections for folders and core reference.](tutorial-your-first-web-api/_static/image3.png)
 
 > [!NOTE]
 > You can also create a Web API project using the &quot;Web API&quot; template. The Web API template uses ASP.NET MVC to provide API help pages. I'm using the Empty template for this tutorial because I want to show Web API without MVC. In general, you don't need to know ASP.NET MVC to use Web API.
@@ -55,7 +55,7 @@ Let's start by creating a simple model that represents a product.
 
 If Solution Explorer is not already visible, click the **View** menu and select **Solution Explorer**. In Solution Explorer, right-click the Models folder. From the context menu, select **Add** then select **Class**.
 
-![](tutorial-your-first-web-api/_static/image4.png)
+![Screenshot of the solution explorer menu, displaying the options located in the models folder showing how to add a class.](tutorial-your-first-web-api/_static/image4.png)
 
 Name the class &quot;Product&quot;. Add the following properties to the `Product` class.
 
@@ -70,19 +70,19 @@ In Web API, a *controller* is an object that handles HTTP requests. We'll add a 
 
 In **Solution Explorer**, right-click the Controllers folder. Select **Add** and then select **Controller**.
 
-![](tutorial-your-first-web-api/_static/image5.png)
+![Screenshot of the solution explorer menu, displaying visual guidance for adding a controller class to the project.](tutorial-your-first-web-api/_static/image5.png)
 
 In the **Add Scaffold** dialog, select **Web API Controller - Empty**. Click **Add**.
 
-![](tutorial-your-first-web-api/_static/image6.png)
+![Screenshot showing the 'add scaffold' dialog box's menu options, highlighting the Web A P I controller - empty option.](tutorial-your-first-web-api/_static/image6.png)
 
 In the **Add Controller** dialog, name the controller &quot;ProductsController&quot;. Click **Add**.
 
-![](tutorial-your-first-web-api/_static/image7.png)
+![Screenshot of the 'add controller' dialog box, shoing the word 'products controller' in the field box, and the add button under it.](tutorial-your-first-web-api/_static/image7.png)
 
 The scaffolding creates a file named ProductsController.cs in the Controllers folder.
 
-![](tutorial-your-first-web-api/_static/image8.png)
+![Screenshot of the solution explorer menu options, circling the newly created option called 'products controller dot C S in the controllers folder.](tutorial-your-first-web-api/_static/image8.png)
 
 > [!NOTE]
 > You don't need to put your controllers into a folder named Controllers. The folder name is just a convenient way to organize your source files.
@@ -115,11 +115,11 @@ In this section, we'll add an HTML page that uses AJAX to call the web API. We'l
 
 In Solution Explorer, right-click the project and select **Add**, then select **New Item**.
 
-![](tutorial-your-first-web-api/_static/image9.png)
+![Screenshot of teh solution explorer menu, highlighting the products app option to show its menu selections to add a new item.](tutorial-your-first-web-api/_static/image9.png)
 
 In the **Add New Item** dialog, select the **Web** node under **Visual C#**, and then select the **HTML Page** item. Name the page &quot;index.html&quot;.
 
-![](tutorial-your-first-web-api/_static/image10.png)
+![Screenshot of the 'add new item' menu options, showing the web selection and the options available within it.](tutorial-your-first-web-api/_static/image10.png)
 
 Replace everything in this file with the following:
 
@@ -147,33 +147,31 @@ We still call `getJSON` to send the AJAX request, but this time we put the ID in
 
 Press F5 to start debugging the application. The web page should look like the following:
 
-![](tutorial-your-first-web-api/_static/image11.png)
+![Screenshot of the web browser, showing an all products bullet form, with their prices, followed by the 'search by I D' field under it.](tutorial-your-first-web-api/_static/image11.png)
 
 To get a product by ID, enter the ID and click Search:
 
-![](tutorial-your-first-web-api/_static/image12.png)
+![Screenshot of the browser, showing all products and prices, in bullet form, and the number 2 in the 'search by I D' field.](tutorial-your-first-web-api/_static/image12.png)
 
 If you enter an invalid ID, the server returns an HTTP error:
 
-![](tutorial-your-first-web-api/_static/image13.png)
+![Screenshot of the browser, listing all products and their prices, and showing the 'not found' error message under the 'search by I D' field.](tutorial-your-first-web-api/_static/image13.png)
 
 ## Using F12 to View the HTTP Request and Response
 
 When you are working with an HTTP service, it can be very useful to see the HTTP request and response messages. You can do this by using the F12 developer tools in Internet Explorer 9. From Internet Explorer 9, press **F12** to open the tools. Click the **Network** tab and press **Start Capturing**. Now go back to the web page and press **F5** to reload the web page. Internet Explorer will capture the HTTP traffic between the browser and the web server. The summary view shows all the network traffic for a page:
 
-![](tutorial-your-first-web-api/_static/image14.png)
+![Screenshot of the H T T P request and response message window, showing a list of U R Ls, and all the network traffic responses.](tutorial-your-first-web-api/_static/image14.png)
 
 Locate the entry for the relative URI "api/products/". Select this entry and click **Go to detailed view**. In the detail view, there are tabs to view the request and response headers and bodies. For example, if you click the **Request headers** tab, you can see that the client requested &quot;application/json&quot; in the Accept header.
 
-![](tutorial-your-first-web-api/_static/image15.png)
+![Screenshot of the H T T P request and response message dialog, showing an example of an individual A P I request response.](tutorial-your-first-web-api/_static/image15.png)
 
 If you click the Response body tab, you can see how the product list was serialized to JSON. Other browsers have similar functionality. Another useful tool is [Fiddler](http://www.fiddler2.com/fiddler2/), a web debugging proxy. You can use Fiddler to view your HTTP traffic, and also to compose HTTP requests, which gives you full control over the HTTP headers in the request.
 
 ## See this App Running on Azure
 
-Would you like to see the finished site running as a live web app? You can deploy a complete version of the app to your Azure account by simply clicking the following button.
-
-[![](https://azuredeploy.net/deploybutton.png)](https://deploy.azure.com/?WT.mc_id=deploy_azure_aspnet&repository=https://github.com/tfitzmac/WebAPI-ProductsApp#/form/setup)
+Would you like to see the finished site running as a live web app? You can [deploy a complete version of the app to your Azure account.](/aspnet/web-api/overview/hosting-aspnet-web-api/)
 
 You need an Azure account to deploy this solution to Azure. If you do not already have an account, you have the following options:
 

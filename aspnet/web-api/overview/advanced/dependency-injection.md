@@ -1,8 +1,8 @@
 ---
 uid: web-api/overview/advanced/dependency-injection
-title: "Dependency Injection in ASP.NET Web API 2 - ASP.NET 4.x"
-author: MikeWasson
-description: "This tutorial shows how to inject dependencies into your ASP.NET Web API controller for ASP.NET 4.x."
+title: Dependency Injection in ASP.NET Web API 2 - ASP.NET 4.x
+author: Rick-Anderson
+description: This tutorial shows how to inject dependencies into your ASP.NET Web API controller for ASP.NET 4.x.
 ms.author: riande
 ms.date: 01/20/2014
 ms.custom: seoapril2019
@@ -11,8 +11,6 @@ msc.legacyurl: /web-api/overview/advanced/dependency-injection
 msc.type: authoredcontent
 ---
 # Dependency Injection in ASP.NET Web API 2
-
-by [Mike Wasson](https://github.com/MikeWasson)
 
 [Download Completed Project](https://code.msdn.microsoft.com/ASP-NET-Web-API-Tutorial-468ee148)
 

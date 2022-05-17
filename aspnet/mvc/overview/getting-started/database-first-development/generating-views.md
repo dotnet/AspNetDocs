@@ -64,7 +64,7 @@ You will verify that the code added to your project correctly displays a list of
 
 Right-click the **Views** > **Home** > *Index.cshtml* file, and select **View in Browser**. On the application home page, select **List of students**.
 
-![](generating-views/_static/image6.png)
+![Screenshot that shows the My A S P dot NET Home Page. List of students is circled in red.](generating-views/_static/image6.png)
 
 On the **Index** page, notice the list of the students and links to modify this data. Select the **Create New** link and provide some values for a new student. Click **Create**, and notice the new student is added to your list.
 

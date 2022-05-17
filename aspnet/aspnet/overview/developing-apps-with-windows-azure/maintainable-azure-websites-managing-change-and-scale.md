@@ -245,7 +245,7 @@ In this exercise, you will deploy the **Geek Quiz** application to the staging e
 
 In this task, you will create a web app in **Azure App Service** from the management portal. You will also configure a **SQL Database** to persist the application data, and configure a local Git repository for source control.
 
-1. Go to the [Azure management portal](https://docs.microsoft.com/en-us/azure/azure-portal/azure-portal-overview) and sign in using the Microsoft account associated with your subscription.
+1. Go to the [Azure management portal](/azure/azure-portal/azure-portal-overview) and sign in using the Microsoft account associated with your subscription.
 
     ![Sign in to the Azure management portal](maintainable-azure-websites-managing-change-and-scale/_static/image13.png)
 
@@ -540,7 +540,7 @@ You will now push the changes you made in the previous task to the repository, w
 
     `Details: LINQ to Entities does not recognize the method 'Boolean MatchesOption ...`.
 9. Do not close the browser.
-10. In a new browser instance, navigate to the [Azure management portal](https://docs.microsoft.com/en-us/azure/azure-portal/azure-portal-overview and sign in using the Microsoft account associated with your subscription.
+10. In a new browser instance, navigate to the [Azure management portal](/azure/azure-portal/azure-portal-overview and sign in using the Microsoft account associated with your subscription.
 11. Select **Websites** and click the web app you created in Exercise 2.
 12. Navigate to the **Deployments** page. Notice that all the commits performed are listed in the deployment history.
 

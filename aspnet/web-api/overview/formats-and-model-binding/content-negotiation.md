@@ -1,7 +1,7 @@
 ---
 uid: web-api/overview/formats-and-model-binding/content-negotiation
 title: "Content Negotiation in ASP.NET Web API - ASP.NET 4.x"
-author: MikeWasson
+author: rick-anderson
 description: "Describes how ASP.NET Web API implements HTTP content negotiation for ASP.NET 4.x."
 ms.author: riande
 ms.date: 05/20/2012
@@ -11,8 +11,6 @@ msc.legacyurl: /web-api/overview/formats-and-model-binding/content-negotiation
 msc.type: authoredcontent
 ---
 # Content Negotiation in ASP.NET Web API
-
-by [Mike Wasson](https://github.com/MikeWasson)
 
 This article describes how ASP.NET Web API implements content negotiation for ASP.NET 4.x.
 
