@@ -1,8 +1,8 @@
 ---
 uid: aspnet/overview/developing-apps-with-windows-azure/building-real-world-cloud-apps-with-windows-azure/single-sign-on
 title: "Single Sign-On (Building Real-World Cloud Apps with Azure) | Microsoft Docs"
-author: MikeWasson
-description: "The Building Real World Cloud Apps with Azure e-book is based on a presentation developed by Scott Guthrie. It explains 13 patterns and practices that can he..."
+author: Rick-Anderson
+description: "Building Real World Cloud Apps with Azure, the e-book, is based on a presentation developed by Scott Guthrie."
 ms.author: riande
 ms.date: 06/12/2014
 ms.assetid: 7d82d5e9-0619-4f22-9e03-32a6d52940a5
@@ -13,7 +13,7 @@ msc.type: authoredcontent
 
 by [Rick Anderson](https://twitter.com/RickAndMSFT), [Tom Dykstra](https://github.com/tdykstra)
 
-[Download Fix It Project](https://code.msdn.microsoft.com/Fix-It-app-for-Building-cdd80df4) or [Download E-book](https://docs.microsoft.com/archive/blogs/microsoft_press/free-ebook-building-cloud-apps-with-microsoft-azure)
+[Download Fix It Project](https://code.msdn.microsoft.com/Fix-It-app-for-Building-cdd80df4) or [Download E-book](/archive/blogs/microsoft_press/free-ebook-building-cloud-apps-with-microsoft-azure)
 
 > The **Building Real World Cloud Apps with Azure** e-book is based on a presentation developed by Scott Guthrie. It explains 13 patterns and practices that can help you be successful developing web apps for the cloud. For information about the e-book, see [the first chapter](introduction.md).
 
@@ -21,7 +21,7 @@ There are many security issues to think about when you're developing a cloud app
 
 ## Introduction to Azure AD
 
-[Azure AD](https://docs.microsoft.com/azure/active-directory/) provides [Active Directory](https://msdn.microsoft.com/library/windows/desktop/aa746492.aspx) in the cloud. Key features include the following:
+[Azure AD](/azure/active-directory/) provides [Active Directory](https://msdn.microsoft.com/library/windows/desktop/aa746492.aspx) in the cloud. Key features include the following:
 
 - It integrates with on-premises Active Directory.
 - It enables single sign-on with your apps.
@@ -30,7 +30,7 @@ There are many security issues to think about when you're developing a cloud app
 
 Suppose you have an on-premises Windows Server Active Directory environment that you use to enable employees to sign on to Intranet apps:
 
-![](single-sign-on/_static/image1.png)
+![This illustration shows an oval shaped structure with multiple devices and two triangle towers, crossing a line and arrows between each device and its source, to show how each connect.](single-sign-on/_static/image1.png)
 
 What Azure AD enables you to do is create a directory in the cloud. It's a free feature and easy to set up.
 
@@ -74,7 +74,7 @@ You can create a new user who exists only in this directory, or you can register
 
 ![User types](single-sign-on/_static/image9.png)
 
-![Add user dialog](single-sign-on/_static/image10.png)
+![Add a user dialog](single-sign-on/_static/image10.png)
 
 You can assign the user to a role.
 
@@ -94,29 +94,29 @@ If you enable directory integration, and [download a tool](https://social.techne
 
 The tool is a wizard that is easy to use, as you can see from these screen shots. These are not complete instructions, just an example showing you the basic process. For more detailed how-to-do-it information, see the links in the [Resources](#resources) section at the end of the chapter.
 
-![WAAD Sync tool configuration wizard](single-sign-on/_static/image14.png)
+![WAAD Sync tool configuration wizard -Image 1](single-sign-on/_static/image14.png)
 
 Click **Next**, and then enter your Azure Active Directory credentials.
 
-![WAAD Sync tool configuration wizard](single-sign-on/_static/image15.png)
+![WAAD Sync tool configuration wizard - Image 2](single-sign-on/_static/image15.png)
 
 Click **Next**, and then enter your on-premises AD credentials.
 
-![WAAD Sync tool configuration wizard](single-sign-on/_static/image16.png)
+![WAAD Sync tool configuration wizard - Image 3](single-sign-on/_static/image16.png)
 
 Click **Next**, and then indicate if you want to store a hash of your AD passwords in the cloud.
 
-![WAAD Sync tool configuration wizard](single-sign-on/_static/image17.png)
+![WAAD Sync tool configuration wizard - Image 4](single-sign-on/_static/image17.png)
 
 The password hash that you can store in the cloud is a one-way hash; actual passwords are never stored in Azure AD. If you decide against storing hashes in the cloud, you'll have to use [Active Directory Federation Services](https://technet.microsoft.com/library/hh831502.aspx) (ADFS). There are also [other factors to consider when choosing whether or not to use ADFS](https://technet.microsoft.com/library/jj573653.aspx). The ADFS option requires a few additional configuration steps.
 
 If you choose to store hashes in the cloud, you're done, and the tool starts synchronizing directories when you click **Next**.
 
-![WAAD Sync tool configuration wizard](single-sign-on/_static/image18.png)
+![WAAD Sync tool configuration wizard - Image 5](single-sign-on/_static/image18.png)
 
 And in a few minutes you're done.
 
-![WAAD Sync tool configuration wizard](single-sign-on/_static/image19.png)
+![WAAD Sync tool configuration wizard - Image 6](single-sign-on/_static/image19.png)
 
 You only have to run this on one domain controller in the organization, on Windows 2003 or higher. And no need to reboot. When you're done, all of your users are in the cloud and you can do single sign-on from any web or mobile application, using SAML, OAuth, or WS-Fed.
 
@@ -173,14 +173,15 @@ The [next chapter](data-storage-options.md) looks at the data storage options av
 
 For more information, see the following resources:
 
-- [Azure Active Directory Documentation](https://docs.microsoft.com/azure/active-directory/). Portal page for Azure AD documentation on the windowsazure.com site. For step by step tutorials, see the **Develop** section.
-- [Azure Multi-Factor Authentication](https://docs.microsoft.com/azure/multi-factor-authentication/). Portal page for documentation about multi-factor authentication in Azure.
+- [Azure Active Directory Documentation](/azure/active-directory/). Portal page for Azure AD documentation on the windowsazure.com site. For step by step tutorials, see the **Develop** section.
+- [Azure Multi-Factor Authentication](/azure/multi-factor-authentication/). Portal page for documentation about multi-factor authentication in Azure.
 - [Organizational account authentication options](../../../../visual-studio/overview/2013/creating-web-projects-in-visual-studio.md#orgauthoptions). Explanation of the Azure AD authentication options in the Visual Studio 2013 new-project dialog.
 - [Microsoft Patterns and Practices - Federated Identity Pattern](https://msdn.microsoft.com/library/dn589790.aspx).
 - [HowTo: Install the Azure Active Directory Sync Tool](https://social.technet.microsoft.com/wiki/contents/articles/19098.howto-install-the-windows-azure-active-directory-sync-tool-now-with-pictures.aspx).
 - [Active Directory Federation Services 2.0 Content Map](https://social.technet.microsoft.com/wiki/contents/articles/2735.ad-fs-2-0-content-map.aspx). Links to documentation about ADFS 2.0.
 - [Role-Based and ACL-Based Authorization in a Windows Azure AD Application](https://code.msdn.microsoft.com/Role-Based-and-ACL-Based-86ad71a1). Sample application.
-- [Azure Active Directory Graph API blog](https://docs.microsoft.com/archive/blogs/aadgraphteam/).
+- [Azure Active Directory Graph API blog](/archive/blogs/aadgraphteam/).
+- [Access Control in BYOD and Directory Integration in a Hybrid Identity Infrastructure](https://channel9.msdn.com/Events/TechEd/NorthAmerica/2014/PCIT-B213#fbid=). Tech Ed 2014 session video by Gayana Bagdasaryan.
 
 > [!div class="step-by-step"]
 > [Previous](web-development-best-practices.md)

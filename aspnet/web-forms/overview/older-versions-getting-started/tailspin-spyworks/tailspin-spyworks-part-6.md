@@ -19,23 +19,23 @@ by [Joe Stagner](https://github.com/JoeStagner)
 
 ## <a id="_Toc260221672"></a>  Working with ASP.NET Membership
 
-![](tailspin-spyworks-part-6/_static/image1.png)
+![Screenshot that shows where to select A S P dot NET Configuration.](tailspin-spyworks-part-6/_static/image1.png)
 
 Click Security
 
-![](tailspin-spyworks-part-6/_static/image1.jpg)
+![Screenshot that shows where to click Security.](tailspin-spyworks-part-6/_static/image1.jpg)
 
 Make sure that we are using forms authentication.
 
-![](tailspin-spyworks-part-6/_static/image2.jpg)
+![Screenshot that shows how to confirm that you are using forms authentication.](tailspin-spyworks-part-6/_static/image2.jpg)
 
 Use the "Create User" link to create a couple of users.
 
-![](tailspin-spyworks-part-6/_static/image3.jpg)
+![Screenshot that shows where to click Create User.](tailspin-spyworks-part-6/_static/image3.jpg)
 
 When done, refer to the Solution Explorer window and refresh the view.
 
-![](tailspin-spyworks-part-6/_static/image2.png)
+![Screenshot that shows where to refresh the view.](tailspin-spyworks-part-6/_static/image2.png)
 
 Note that the ASPNETDB.MDF fine has been created. This file contains the tables to support the core ASP.NET services like membership.
 

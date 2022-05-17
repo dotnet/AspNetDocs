@@ -1,6 +1,6 @@
 ---
 uid: whitepapers/mvc4-release-notes
-title: "ASP.NET MVC 4 | Microsoft Docs"
+title: "ASP.NET MVC 4 Release Notes"
 author: rick-anderson
 description: "This document describes the release of ASP.NET MVC 4."
 ms.author: riande
@@ -9,7 +9,7 @@ ms.assetid: f014524f-25c0-4094-b8e1-886d99536f00
 msc.legacyurl: /whitepapers/mvc4-release-notes
 msc.type: content
 ---
-# ASP.NET MVC 4
+# ASP.NET MVC 4 Release Notes
 
 > This document describes the release of ASP.NET MVC 4 .
 
@@ -100,11 +100,11 @@ For more details on ASP.NET Web API please visit [https://www.asp.net/web-api](.
 
 The template that is used to create new ASP.NET MVC 4 projects has been updated to create a more modern-looking website:
 
-![](mvc4-release-notes/_static/image1.png)
+![Screenshot of the browser view of the new project template page.](mvc4-release-notes/_static/image1.png)
 
 In addition to cosmetic improvements, there's improved functionality in the new template. The template employs a technique called adaptive rendering to look good in both desktop browsers and mobile browsers without any customization.
 
-![](mvc4-release-notes/_static/image2.png)
+![Screenshot of the mobile browser view of the desktop version of the new project template page.](mvc4-release-notes/_static/image2.png)
 
 To see adaptive rendering in action, you can use a mobile emulator or just try resizing the desktop browser window to be smaller. When the browser window gets small enough, the layout of the page will change.
 
@@ -113,7 +113,7 @@ To see adaptive rendering in action, you can use a mobile emulator or just try r
 
 If you're starting a new project and want to create a site specifically for mobile and tablet browsers, you can use the new Mobile Application project template. This is based on jQuery Mobile, an open-source library for building touch-optimized UI:
 
-![](mvc4-release-notes/_static/image3.png)
+![Screenshot of the mobile browser view of the mobile application project template.](mvc4-release-notes/_static/image3.png)
 
 This template contains the same application structure as the Internet Application template (and the controller code is virtually identical), but it's styled using jQuery Mobile to look good and behave well on touch-based mobile devices. To learn more about how to structure and style mobile UI, see the [jQuery Mobile project website](http://jquerymobile.com/).
 
@@ -133,7 +133,7 @@ If you want to create more specific views, layouts, or partial views for other d
 
 [!code-csharp[Main](mvc4-release-notes/samples/sample1.cs)]
 
-After this code runs, when an Apple iPhone browser makes a request, your application will use the Views\Shared\\_Layout.iPhone.cshtml layout (if it exists). For more information on Display Mode, see [ASP.NET MVC 4 Mobile Features](../mvc/overview/older-versions/aspnet-mvc-4-mobile-features.md). Applications using DisplayModeProvider should install the [Fixed DisplayModes](http://nuget.org/packages/Microsoft.AspNet.Mvc.FixedDisplayModes) NuGet package. The [ASP.NET Fall 2012 Update](https://go.microsoft.com/fwlink/?LinkID=271322) includes the [Fixed DisplayModes](http://nuget.org/packages/Microsoft.AspNet.Mvc.FixedDisplayModes) NuGet package in the new project templates. See [ASP.NET MVC 4 Mobile Caching Bug Fixedd](https://docs.microsoft.com/archive/blogs/rickandy/asp-net-mvc-4-mobile-caching-bug-fixed) for details on the fix.
+After this code runs, when an Apple iPhone browser makes a request, your application will use the Views\Shared\\_Layout.iPhone.cshtml layout (if it exists). For more information on Display Mode, see [ASP.NET MVC 4 Mobile Features](../mvc/overview/older-versions/aspnet-mvc-4-mobile-features.md). Applications using DisplayModeProvider should install the [Fixed DisplayModes](http://nuget.org/packages/Microsoft.AspNet.Mvc.FixedDisplayModes) NuGet package. The [ASP.NET Fall 2012 Update](https://go.microsoft.com/fwlink/?LinkID=271322) includes the [Fixed DisplayModes](http://nuget.org/packages/Microsoft.AspNet.Mvc.FixedDisplayModes) NuGet package in the new project templates. See [ASP.NET MVC 4 Mobile Caching Bug Fixedd](/archive/blogs/rickandy/asp-net-mvc-4-mobile-caching-bug-fixed) for details on the fix.
 
 <a id="_Toc303253811"></a>
 ### jQuery Mobile and Mobile Features
@@ -243,7 +243,7 @@ The major changes from ASP.NET MVC 4 Release Candidate in this release are summa
 
 - **The RC and RTM version of ASP.NET MVC 4 incorrectly returned cached desktop views when mobile views should be returned.**
 
-    - See [ASP.NET MVC 4 Mobile Caching Bug Fixed](https://docs.microsoft.com/archive/blogs/rickandy/asp-net-mvc-4-mobile-caching-bug-fixed) for details on the fix. The fix can be installed from the [Fixed DisplayModes](http://nuget.org/packages/Microsoft.AspNet.Mvc.FixedDisplayModes) NuGet package.
+    - See [ASP.NET MVC 4 Mobile Caching Bug Fixed](/archive/blogs/rickandy/asp-net-mvc-4-mobile-caching-bug-fixed) for details on the fix. The fix can be installed from the [Fixed DisplayModes](http://nuget.org/packages/Microsoft.AspNet.Mvc.FixedDisplayModes) NuGet package.
 - **Breaking changes in the Razor View Engine**. The following types were removed from *System.Web.Mvc.Razor*: 
 
     - *ModelSpan*

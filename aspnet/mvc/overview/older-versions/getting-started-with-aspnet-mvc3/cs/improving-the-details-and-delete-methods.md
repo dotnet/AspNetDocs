@@ -2,7 +2,7 @@
 uid: mvc/overview/older-versions/getting-started-with-aspnet-mvc3/cs/improving-the-details-and-delete-methods
 title: "Improving the Details and Delete Methods (C#) | Microsoft Docs"
 author: Rick-Anderson
-description: "This tutorial will teach you the basics of building an ASP.NET MVC Web application using Microsoft Visual Web Developer 2010 Express Service Pack 1, which is..."
+description: "Learn how to make improvements to the auto generated Details and Delete methods. With just a few small bits of code, you can easily enhance the application."
 ms.author: riande
 ms.date: 01/12/2011
 ms.assetid: 3f42edd9-c5b8-4712-9055-970f7d38e350
@@ -61,21 +61,21 @@ Another way to avoid a problem with methods that have identical names and signat
 
 You now have a complete ASP.NET MVC application that stores data in a SQL Server Compact database. You can create, read, update, delete, and search for movies.
 
-![](improving-the-details-and-delete-methods/_static/image1.png)
+![Screenshot that shows the Search Index page in the M V C Movie App. The page shows a list of four movies.](improving-the-details-and-delete-methods/_static/image1.png)
 
 This basic tutorial got you started making controllers, associating them with views, and passing around hard-coded data. Then you created and designed a data model. Entity Framework Code First created a database from the data model on the fly, and the ASP.NET MVC scaffolding system automatically generated the action methods and views for basic CRUD operations. You then added a search form that let users search the database. You changed the database to include a new column of data, and then updated two pages to create and display this new data. You added validation by marking the data model with attributes from the `DataAnnotations` namespace. The resulting validation runs on the client and on the server.
 
 If you'd like to deploy your application, it's helpful to first test the application on your local IIS 7 server. You can use this [Web Platform Installer](https://www.microsoft.com/web/gallery/install.aspx?appsxml=&amp;appid=ASPNET;) link to enable IIS setting for ASP.NET applications. See the following deployment links:
 
 - [ASP.NET Deployment Content Map](https://msdn.microsoft.com/library/dd394698.aspx)
-- [Enabling IIS 7.x](https://docs.microsoft.com/archive/blogs/rickandy/enabling-iis-7-x-on-windows-7-vista-sp1-windows-2008-windows-2008r2)
+- [Enabling IIS 7.x](/archive/blogs/rickandy/enabling-iis-7-x-on-windows-7-vista-sp1-windows-2008-windows-2008r2)
 - [Web Application Projects Deployment](https://msdn.microsoft.com/library/dd394698.aspx)
 
 I now encourage you to move on to our intermediate-level [Creating an Entity Framework Data Model for an ASP.NET MVC Application](../../../getting-started/getting-started-with-ef-using-mvc/creating-an-entity-framework-data-model-for-an-asp-net-mvc-application.md) and [MVC Music Store](../../mvc-music-store/mvc-music-store-part-1.md) tutorials, to explore the [ASP.NET articles on MSDN](https://msdn.microsoft.com/library/gg416514(VS.98).aspx), and to check out the many videos and resources at [https://asp.net/mvc](https://asp.net/mvc) to learn even more about ASP.NET MVC! The [ASP.NET MVC forums](https://forums.asp.net/1146.aspx) are a great place to ask questions.
 
 Enjoy!
 
-— Scott Hanselman ([http://hanselman.com](http://hanselman.com) and [@shanselman](http://twitter.com/shanselman) on Twitter) and Rick Anderson [blogs.msdn.com/rickAndy](https://docs.microsoft.com/archive/blogs/rickAndy/)
+— Scott Hanselman ([http://hanselman.com](http://hanselman.com) and [@shanselman](http://twitter.com/shanselman) on Twitter) and Rick Anderson [blogs.msdn.com/rickAndy](/archive/blogs/rickAndy/)
 
 > [!div class="step-by-step"]
 > [Previous](adding-validation-to-the-model.md)

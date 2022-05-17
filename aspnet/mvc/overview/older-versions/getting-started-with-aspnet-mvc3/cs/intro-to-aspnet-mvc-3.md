@@ -36,7 +36,7 @@ You'll implement a simple movie-listing application that supports creating, edit
 
 The application also lets you add, edit, and delete movies, as well as see details about individual ones. All data-entry scenarios include validation to ensure that the data stored in the database is correct.
 
-![](intro-to-aspnet-mvc-3/_static/image2.png)
+:::image type="content" source="intro-to-aspnet-mvc-3/_static/image2.png" alt-text="Screenshot of the movie listing application that supports creating editing and listing movies from a database.":::
 
 ## Skills You'll Learn
 
@@ -54,31 +54,31 @@ Start by running Visual Web Developer 2010 Express ("Visual Web Developer" for s
 
 Visual Web Developer is an IDE, or integrated development environment. Just like you use Microsoft Word to write documents, you'll use an IDE to create applications. In Visual Web Developer there's a toolbar along the top showing various options available to you. There's also a menu that provides another way to perform tasks in the IDE. (For example, instead of selecting **New Project** from the **Start** page, you can use the menu and select **File** &gt; **New Project**.)
 
-[![](intro-to-aspnet-mvc-3/_static/image4.png)](intro-to-aspnet-mvc-3/_static/image3.png)
+:::image type="content" source="intro-to-aspnet-mvc-3/_static/image3.png" alt-text="Screenshot of Visual Web Developer 2010 Express to get started.":::
 
 ## Creating Your First Application
 
 You can create applications using either Visual Basic or Visual C# as the programming language. Select Visual C# on the left and then select **ASP.NET MVC 3 Web Application**. Name your project "MvcMovie" and then click **OK**. (If you prefer Visual Basic, switch to the [Visual Basic version](../vb/intro-to-aspnet-mvc-3.md) of this tutorial.)
 
-![](intro-to-aspnet-mvc-3/_static/image5.png)
+:::image type="content" source="intro-to-aspnet-mvc-3/_static/image5.png" alt-text="Screenshot of the New Project to create your first application using either Visual Basic or Visual C Sharp as the programming language.":::
 
 In the **New ASP.NET MVC 3 Project** dialog box, select **Internet Application**. Check **Use HTML5 markup** and leave **Razor** as the default view engine.
 
-![](intro-to-aspnet-mvc-3/_static/image6.png)
+:::image type="content" source="intro-to-aspnet-mvc-3/_static/image6.png" alt-text="Screenshot of the New A S P . N E T M V C 3 Project dialog box to select Internet Application.":::
 
 Click **OK**. Visual Web Developer used a default template for the ASP.NET MVC project you just created, so you have a working application right now without doing anything! This is a simple "Hello World!" project, and it's a good place to start your application.
 
-[![](intro-to-aspnet-mvc-3/_static/image8.png)](intro-to-aspnet-mvc-3/_static/image7.png)
+:::image type="content" source="intro-to-aspnet-mvc-3/_static/image7.png" alt-text="Screenshot of Visual Web Developer that used a default template for the A S P . N E T M V C project you created.":::
 
 From the **Debug** menu, select **Start Debugging**.
 
-![](intro-to-aspnet-mvc-3/_static/image9.png)
+:::image type="content" source="intro-to-aspnet-mvc-3/_static/image9.png" alt-text="Screenshot of the Debug menu to select Start Debugging.":::
 
 Notice that the keyboard shortcut to start debugging is F5.
 
 F5 causes Visual Web Developer to start a development web server and run your web application. Visual Web Developer then launches a browser and opens the application's home page. Notice that the address bar of the browser says `localhost` and not something like `example.com`. That's because `localhost` always points to your own local computer, which in this case is running the application you just built. When Visual Web Developer runs a web project, a random port is used for the web server. In the image below, the random port number is 43246. When you run the application, you'll probably see a different port number.
 
-![](intro-to-aspnet-mvc-3/_static/image10.png)
+:::image type="content" source="intro-to-aspnet-mvc-3/_static/image10.png" alt-text="Screenshot of Visual Web Developer launching a browser and opening the applications home page.":::
 
 Right out of the box this default template gives you two pages to visit and a basic login page. The next step is to change how this application works and learn a little bit about ASP.NET MVC in the process. Close your browser and let's change some code.
 

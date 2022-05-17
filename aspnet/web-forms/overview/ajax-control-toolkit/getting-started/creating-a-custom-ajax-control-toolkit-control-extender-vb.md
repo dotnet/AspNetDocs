@@ -2,7 +2,7 @@
 uid: web-forms/overview/ajax-control-toolkit/getting-started/creating-a-custom-ajax-control-toolkit-control-extender-vb
 title: "Creating a Custom AJAX Control Toolkit Control Extender (VB) | Microsoft Docs"
 author: rick-anderson
-description: "Custom Extenders enable you to customize and extend the capabilities of ASP.NET controls without having to create new classes."
+description: "Custom Extenders enable you to customize and extend the capabilities of ASP.NET controls without having to create new classes (VB)."
 ms.author: riande
 ms.date: 05/12/2009
 ms.assetid: 18b29834-c991-4e0c-b533-44d358fbfc9c
@@ -29,13 +29,13 @@ Our new control extender is named the DisabledButton extender. This extender wil
 
 You hook the DisabledButton extender to a TextBox and Button control. Before you type any text, the Button is disabled and the TextBox and Button look like this:
 
-[![](creating-a-custom-ajax-control-toolkit-control-extender-vb/_static/image2.png)](creating-a-custom-ajax-control-toolkit-control-extender-vb/_static/image1.png)
+[![Image of disabled button](creating-a-custom-ajax-control-toolkit-control-extender-vb/_static/image2.png)](creating-a-custom-ajax-control-toolkit-control-extender-vb/_static/image1.png)
 
 ([Click to view full-size image](creating-a-custom-ajax-control-toolkit-control-extender-vb/_static/image3.png))
 
 After you start typing text, the Button is enabled and the TextBox and Button look like this:
 
-[![](creating-a-custom-ajax-control-toolkit-control-extender-vb/_static/image5.png)](creating-a-custom-ajax-control-toolkit-control-extender-vb/_static/image4.png)
+[![Image of enabled button](creating-a-custom-ajax-control-toolkit-control-extender-vb/_static/image5.png)](creating-a-custom-ajax-control-toolkit-control-extender-vb/_static/image4.png)
 
 ([Click to view full-size image](creating-a-custom-ajax-control-toolkit-control-extender-vb/_static/image6.png))
 

@@ -1,6 +1,6 @@
 ---
 uid: signalr/overview/performance/index
-title: "SignalR Performance | Microsoft Docs"
+title: "SignalR Performance Index | Microsoft Docs"
 author: bradygaster
 description: "How to maximize the performance of SignalR applications."
 ms.author: bradyg
@@ -9,7 +9,7 @@ ms.assetid: fda81611-b67b-4c62-915e-8adc1924a401
 msc.legacyurl: /signalr/overview/performance
 msc.type: chapter
 ---
-# SignalR Performance
+# SignalR Performance Index
 
 > How to maximize the performance of SignalR applications.
 

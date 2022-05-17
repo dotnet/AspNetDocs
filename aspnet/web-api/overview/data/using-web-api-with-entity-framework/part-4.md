@@ -1,8 +1,8 @@
 ---
 uid: web-api/overview/data/using-web-api-with-entity-framework/part-4
-title: "Handling Entity Relations | Microsoft Docs"
-author: MikeWasson
-description: ""
+title: Handling Entity Relations | Microsoft Docs
+author: Rick-Anderson
+description: Describes how to handle circular navigation properties in model classes and how EF loads related entities.
 ms.author: riande
 ms.date: 06/16/2014
 ms.assetid: d2f5710c-23c7-40a5-9cd9-5d0516570cba
@@ -10,8 +10,6 @@ msc.legacyurl: /web-api/overview/data/using-web-api-with-entity-framework/part-4
 msc.type: authoredcontent
 ---
 # Handling Entity Relations
-
-by [Mike Wasson](https://github.com/MikeWasson)
 
 [Download Completed Project](https://github.com/MikeWasson/BookService)
 
@@ -89,7 +87,7 @@ What happens if you add the corresponding navigation property to the `Author` cl
 
 Unfortunately, this creates a problem when you serialize the models. If you load the related data, it creates a circular object graph.
 
-![](part-4/_static/image1.png)
+![Diagram that shows the Book class loading the Author class and vice versa, creating a circular object graph.](part-4/_static/image1.png)
 
 When the JSON or XML formatter tries to serialize the graph, it will throw an exception. The two formatters throw different exception messages. Here is an example for the JSON formatter:
 

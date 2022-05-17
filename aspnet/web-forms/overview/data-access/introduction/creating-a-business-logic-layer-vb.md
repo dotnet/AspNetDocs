@@ -13,7 +13,7 @@ msc.type: authoredcontent
 
 by [Scott Mitchell](https://twitter.com/ScottOnWriting)
 
-[Download Sample App](https://download.microsoft.com/download/5/d/7/5d7571fc-d0b7-4798-ad4a-c976c02363ce/ASPNET_Data_Tutorial_2_VB.exe) or [Download PDF](creating-a-business-logic-layer-vb/_static/datatutorial02vb1.pdf)
+[Download PDF](creating-a-business-logic-layer-vb/_static/datatutorial02vb1.pdf)
 
 > In this tutorial we'll see how to centralize your business rules into a Business Logic Layer (BLL) that serves as an intermediary for data exchange between the presentation layer and the DAL.
 
@@ -44,7 +44,7 @@ Next, create the four BLL class files in the `BLL` subfolder. To accomplish this
 Next, let's add methods to each of the classes to simply wrap the methods defined for the TableAdapters from the first tutorial. For now, these methods will just call directly into the DAL; we'll return later to add any needed business logic.
 
 > [!NOTE]
-> If you are using Visual Studio Standard Edition or above (that is, you're *not* using Visual Web Developer), you can optionally design your classes visually using the [Class Designer](https://msdn.microsoft.com/library/default.asp?url=/library/dv_vstechart/html/clssdsgnr.asp). Refer to the [Class Designer Blog](https://docs.microsoft.com/archive/blogs/classdesigner/) for more information on this new feature in Visual Studio.
+> If you are using Visual Studio Standard Edition or above (that is, you're *not* using Visual Web Developer), you can optionally design your classes visually using the [Class Designer](https://msdn.microsoft.com/library/default.asp?url=/library/dv_vstechart/html/clssdsgnr.asp). Refer to the [Class Designer Blog](/archive/blogs/classdesigner/) for more information on this new feature in Visual Studio.
 
 For the `ProductsBLL` class we need to add a total of seven methods:
 

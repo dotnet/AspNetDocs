@@ -87,10 +87,10 @@ I would like to thank the following people who made significant contributions to
 - [Mike Pope, Microsoft](http://www.mikepope.com/blog/DisplayBlog.aspx)
 - Mohit Srivastava, Microsoft
 - [Raffaele Rialdi, Italy](http://www.iamraf.net/)
-- [Rick Anderson, Microsoft](https://docs.microsoft.com/archive/blogs/rickandy/)
+- [Rick Anderson, Microsoft](/archive/blogs/rickandy/)
 - [Sayed Hashimi, Microsoft](http://sedodream.com/default.aspx)(twitter: [@sayedihashimi](http://twitter.com/sayedihashimi))
 - [Scott Hanselman](http://www.hanselman.com/blog/) (twitter: [@shanselman](http://twitter.com/shanselman))
-- [Scott Hunter, Microsoft](https://docs.microsoft.com/archive/blogs/scothu/) (twitter: [@coolcsh](http://twitter.com/coolcsh))
+- [Scott Hunter, Microsoft](/archive/blogs/scothu/) (twitter: [@coolcsh](http://twitter.com/coolcsh))
 - [Srđan Božović, Serbia](http://msforge.net/blogs/zmajcek/)
 - [Vishal Joshi, Microsoft](http://vishaljoshi.blogspot.com/) (twitter: [@vishalrjoshi](http://twitter.com/vishalrjoshi))
 

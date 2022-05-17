@@ -1,8 +1,8 @@
 ---
 uid: aspnet/overview/developing-apps-with-windows-azure/building-real-world-cloud-apps-with-windows-azure/queue-centric-work-pattern
-title: "Queue-Centric Work Pattern (Building Real-World Cloud Apps with Azure) | Microsoft Docs"
-author: MikeWasson
-description: "The Building Real World Cloud Apps with Azure e-book is based on a presentation developed by Scott Guthrie. It explains 13 patterns and practices that can he..."
+title: Queue-Centric Work Pattern (Building Real-World Cloud Apps with Azure) | Microsoft Docs
+author: Rick-Anderson
+description: Scott Guthrie wrote an e-book called The Building Real World Cloud Apps with Azure, which is based on a presentation he developed, and explains 13 patterns and practices.
 ms.author: riande
 ms.date: 06/12/2014
 ms.assetid: cc1ad51b-40c3-4c68-8620-9aaa0fd1f6cf
@@ -13,7 +13,7 @@ msc.type: authoredcontent
 
 by [Rick Anderson](https://twitter.com/RickAndMSFT), [Tom Dykstra](https://github.com/tdykstra)
 
-[Download Fix It Project](https://code.msdn.microsoft.com/Fix-It-app-for-Building-cdd80df4) or [Download E-book](https://docs.microsoft.com/archive/blogs/microsoft_press/free-ebook-building-cloud-apps-with-microsoft-azure)
+[Download Fix It Project](https://code.msdn.microsoft.com/Fix-It-app-for-Building-cdd80df4) or [Download E-book](/archive/blogs/microsoft_press/free-ebook-building-cloud-apps-with-microsoft-azure)
 
 > The **Building Real World Cloud Apps with Azure** e-book is based on a presentation developed by Scott Guthrie. It explains 13 patterns and practices that can help you be successful developing web apps for the cloud. For information about the e-book, see [the first chapter](introduction.md).
 
@@ -70,7 +70,7 @@ With much of its time-consuming work off-loaded to a backend service, the web ti
 
 You can scale the web tier and backend service independently. For example, you might need three web servers but only one server processing queue messages. Or if you're running a compute-intensive task in the background, you might need more backend servers.
 
-![](queue-centric-work-pattern/_static/image3.png)
+![Diagram that shows a representation of the Scale Tiers as they process the tasks in queue](queue-centric-work-pattern/_static/image3.png)
 
 Autoscaling works with backend services as well as with the web tier. You can scale up or scale down the number of VMs that are processing the tasks in the queue, based on the CPU usage of the backend VMs. Or, you can autoscale based on how many items are in a queue. For example, you can tell autoscale to try to keep no more than 10 items in the queue. If the queue has more than 10 items, autoscale will add VMs. When they catch up, autoscale will tear down the extra VMs.
 
@@ -81,7 +81,7 @@ To implement the queue pattern, we need to make two changes to the Fix It app.
 - When a user submits a new Fix It task, put the task in the queue, instead of writing it to the database.
 - Create a back-end service that processes messages in the queue.
 
-For the queue, we'll use the [Azure Queue Storage Service](https://www.windowsazure.com/develop/net/how-to-guides/queue-service/). Another option is to use [Azure Service Bus](https://docs.microsoft.com/azure/service-bus/).
+For the queue, we'll use the [Azure Queue Storage Service](https://www.windowsazure.com/develop/net/how-to-guides/queue-service/). Another option is to use [Azure Service Bus](/azure/service-bus/).
 
 To decide which queue service to use, consider how your app needs to send and receive the messages in the queue:
 
@@ -127,24 +127,24 @@ The following steps show how to add a worker role project to a solution that has
 
 First add a Cloud Service project to the Visual Studio solution. Right-click the solution and select **Add**, then **New Project**. In the left pane, expand **Visual C#** and select **Cloud**.
 
-[![](queue-centric-work-pattern/_static/image5.png)](queue-centric-work-pattern/_static/image4.png)
+![Screenshot of the steps to add a new project menu in the .Net Framework](queue-centric-work-pattern/_static/image4.png)
 
 In the **New Azure Cloud Service** dialog, expand the **Visual C#** node on the left pane. Select **Worker Role** and click the right-arrow icon.
 
-![](queue-centric-work-pattern/_static/image6.png)
+![The following screenshot shows a continuation of the previous image, and shows the different selections available for the Azure Cloud Service, highlighting the correct one.](queue-centric-work-pattern/_static/image6.png)
 
 (Notice that you can also add a *web role*. We could run the Fix It front-end in the same Cloud Service instead of running it in an Azure Web Site. That has some advantages in making connections between front-end and back-end easier to coordinate. However, to keep this demo simple, we're keeping the front-end in an Azure App Service Web App and only running the back-end in a Cloud Service.)
 
 A default name is assigned to the worker role. To change the name, hover the mouse over the worker role in the right pane, then click the pencil icon.
 
-![](queue-centric-work-pattern/_static/image7.png)
+![Screenshot showing the Worker Role Project, with the different assignations and how to change the names.](queue-centric-work-pattern/_static/image7.png)
 
 Click **OK** to complete the dialog. This adds two projects to the Visual Studio solution.
 
 - an Azure project that defines the cloud service, including configuration information.
 - A worker role project that defines the worker role.
 
-![](queue-centric-work-pattern/_static/image8.png)
+![Screenshot showing a worker role, defining the role and showing the list of 'MyFixIt' project solution options.](queue-centric-work-pattern/_static/image8.png)
 
 For more information, see [Creating an Azure Project with Visual Studio.](https://msdn.microsoft.com/library/windowsazure/ee405487.aspx)
 

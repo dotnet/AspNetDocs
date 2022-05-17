@@ -1,7 +1,7 @@
 ---
 uid: web-api/overview/formats-and-model-binding/parameter-binding-in-aspnet-web-api
 title: "Parameter Binding in ASP.NET Web API - ASP.NET 4.x"
-author: MikeWasson
+author: rick-anderson
 description: "Describes how Web API binds parameters and how to customize the binding process in ASP.NET 4.x."
 ms.author: riande
 ms.date: 07/11/2013
@@ -12,7 +12,6 @@ msc.type: authoredcontent
 ---
 # Parameter Binding in ASP.NET Web API
 
-by [Mike Wasson](https://github.com/MikeWasson)
 
 [!INCLUDE[](~/includes/coreWebAPI.md)]
 
@@ -65,7 +64,7 @@ The reason for this rule is that the request body might be stored in a non-buffe
 
 You can make Web API treat a class as a simple type (so that Web API will try to bind it from the URI) by creating a **TypeConverter** and providing a string conversion.
 
-The following code shows a `GeoPoint` class that represents a geographical point, plus a **TypeConverter** that converts from strings to `GeoPoint` instances. The `GeoPoint` class is decorated with a **[TypeConverter]** attribute to specify the type converter. (This example was inspired by Mike Stall's blog post [How to bind to custom objects in action signatures in MVC/WebAPI](https://docs.microsoft.com/archive/blogs/jmstall/how-to-bind-to-custom-objects-in-action-signatures-in-mvcwebapi).)
+The following code shows a `GeoPoint` class that represents a geographical point, plus a **TypeConverter** that converts from strings to `GeoPoint` instances. The `GeoPoint` class is decorated with a **[TypeConverter]** attribute to specify the type converter. (This example was inspired by Mike Stall's blog post [How to bind to custom objects in action signatures in MVC/WebAPI](/archive/blogs/jmstall/how-to-bind-to-custom-objects-in-action-signatures-in-mvcwebapi).)
 
 [!code-csharp[Main](parameter-binding-in-aspnet-web-api/samples/sample6.cs)]
 
@@ -203,8 +202,8 @@ If you wanted, you could replace the entire **IActionValueBinder** service with 
 
 Mike Stall wrote a good series of blog posts about Web API parameter binding:
 
-- [How Web API does Parameter Binding](https://docs.microsoft.com/archive/blogs/jmstall/how-webapi-does-parameter-binding)
-- [MVC Style parameter binding for Web API](https://docs.microsoft.com/archive/blogs/jmstall/mvc-style-parameter-binding-for-webapi)
-- [How to bind to custom objects in action signatures in MVC/Web API](https://docs.microsoft.com/archive/blogs/jmstall/how-to-bind-to-custom-objects-in-action-signatures-in-mvcwebapi)
-- [How to create a custom value provider in Web API](https://docs.microsoft.com/archive/blogs/jmstall/how-to-create-a-custom-value-provider-in-webapi)
+- [How Web API does Parameter Binding](/archive/blogs/jmstall/how-webapi-does-parameter-binding)
+- [MVC Style parameter binding for Web API](/archive/blogs/jmstall/mvc-style-parameter-binding-for-webapi)
+- [How to bind to custom objects in action signatures in MVC/Web API](/archive/blogs/jmstall/how-to-bind-to-custom-objects-in-action-signatures-in-mvcwebapi)
+- [How to create a custom value provider in Web API](/archive/blogs/jmstall/how-to-create-a-custom-value-provider-in-webapi)
 - [Web API Parameter binding under the hood](https://blogs.msdn.com/b/jmstall/archive/2012/05/11/webapi-parameter-binding-under-the-hood.aspx)

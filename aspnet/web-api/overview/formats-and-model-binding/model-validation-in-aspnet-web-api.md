@@ -1,7 +1,7 @@
 ---
 uid: web-api/overview/formats-and-model-binding/model-validation-in-aspnet-web-api
 title: "Model Validation in ASP.NET Web API - ASP.NET 4.x"
-author: MikeWasson
+author: rick-anderson
 description: "Overview of model validation in ASP.NET Web API for ASP.NET 4.x."
 ms.author: riande
 ms.date: 07/20/2012
@@ -11,8 +11,6 @@ msc.legacyurl: /web-api/overview/formats-and-model-binding/model-validation-in-a
 msc.type: authoredcontent
 ---
 # Model Validation in ASP.NET Web API
-
-by [Mike Wasson](https://github.com/MikeWasson)
 
 This article shows how to annotate your models, use the annotations for data validation, and handle validation errors in your web API. When a client sends data to your web API, often you want to validate the data before doing any processing. 
 
@@ -40,7 +38,7 @@ Model validation does not guarantee that client data is safe. Additional validat
 
 Here, the client did not specify values for `Price` or `Weight`. The JSON formatter assigns a default value of zero to the missing properties.
 
-![](model-validation-in-aspnet-web-api/_static/image1.png)
+![Screenshot of code snippet with Product Store dot Models dot Product's drop-down menu options over it.](model-validation-in-aspnet-web-api/_static/image1.png)
 
 The model state is valid, because zero is a valid value for these properties. Whether this is a problem depends on your scenario. For example, in an update operation, you might want to distinguish between "zero" and "not set." To force clients to set a value, make the property nullable and set the **Required** attribute:
 

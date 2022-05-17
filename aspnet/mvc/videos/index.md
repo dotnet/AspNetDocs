@@ -1,15 +1,15 @@
 ---
 uid: mvc/videos/index
-title: "Videos | Microsoft Docs"
+title: "ASP.NET Videos | Microsoft Docs"
 author: rick-anderson
-description: ""
+description: "ASP.NET MVC application resource videos"
 ms.author: riande
 ms.date: 06/24/2011
 ms.assetid: e618c37c-68f3-49aa-9fda-f86cb3b578b9
 msc.legacyurl: /mvc/videos
 msc.type: book
 ---
-# Videos
+# ASP.NET Videos
 
 - [ASP.NET MVC 4](mvc-4/index.md)
 

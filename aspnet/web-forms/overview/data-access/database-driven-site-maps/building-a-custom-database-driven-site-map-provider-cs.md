@@ -13,13 +13,13 @@ msc.type: authoredcontent
 
 by [Scott Mitchell](https://twitter.com/ScottOnWriting)
 
-[Download Code](https://download.microsoft.com/download/3/9/f/39f92b37-e92e-4ab3-909e-b4ef23d01aa3/ASPNET_Data_Tutorial_62_CS.zip) or [Download PDF](building-a-custom-database-driven-site-map-provider-cs/_static/datatutorial62cs1.pdf)
+[Download PDF](building-a-custom-database-driven-site-map-provider-cs/_static/datatutorial62cs1.pdf)
 
 > The default site map provider in ASP.NET 2.0 retrieves its data from a static XML file. While the XML-based provider is suitable to many small and medium-sized Web sites, larger Web applications require a more dynamic site map. In this tutorial we'll build a custom site map provider that retrieves its data from the Business Logic Layer, which in turn retrieves data from the database.
 
 ## Introduction
 
-ASP.NET 2.0 s site map feature enables a page developer to define a web application s site map in some persistent medium, such as in an XML file. Once defined, the site map data can be accessed programmatically through the [`SiteMap` class](https://msdn.microsoft.com/library/system.web.sitemap.aspx) in the [`System.Web` namespace](https://msdn.microsoft.com/library/system.web.aspx) or through a variety of navigation Web controls, such as the SiteMapPath, Menu, and TreeView controls. The site map system uses the [provider model](http://aspnet.4guysfromrolla.com/articles/101905-1.aspx) so that different site map serialization implementations can be created and plugged into a web application. The default site map provider that ships with ASP.NET 2.0 persists site map structure in an XML file. Back in the [Master Pages and Site Navigation](../introduction/master-pages-and-site-navigation-cs.md) tutorial we created a file named `Web.sitemap` that contained this structure and have been updating its XML with each new tutorial section.
+ASP.NET 2.0 s site map feature enables a page developer to define a web application s site map in some persistent medium, such as in an XML file. Once defined, the site map data can be accessed programmatically through the [`SiteMap` class](https://msdn.microsoft.com/library/system.web.sitemap.aspx) in the [`System.Web` namespace](https://msdn.microsoft.com/library/system.web.aspx) or through a variety of navigation Web controls, such as the SiteMapPath, Menu, and TreeView controls. The site map system uses the provider model so that different site map serialization implementations can be created and plugged into a web application. The default site map provider that ships with ASP.NET 2.0 persists site map structure in an XML file. Back in the [Master Pages and Site Navigation](../introduction/master-pages-and-site-navigation-cs.md) tutorial we created a file named `Web.sitemap` that contained this structure and have been updating its XML with each new tutorial section.
 
 The default XML-based site map provider works well if the site map s structure is fairly static, such as for these tutorials. In many scenarios, however, a more dynamic site map is needed. Consider the site map shown in Figure 1, where each category and product appear as sections in the website s structure. With this site map, visiting the web page corresponding to the root node might list all of the categories, whereas visiting a particular category s web page would list that category s products and viewing a particular product s web page would show that product s details.
 
@@ -291,7 +291,6 @@ Happy Programming!
 For more information on the topics discussed in this tutorial, refer to the following resources:
 
 - [Storing Site Maps in SQL Server](https://msdn.microsoft.com/msdnmag/issues/05/06/WickedCode/) and [The SQL Site Map Provider You ve Been Waiting For](https://msdn.microsoft.com/msdnmag/issues/06/02/wickedcode/default.aspx)
-- [A Look at ASP.NET 2.0 s Provider Model](http://aspnet.4guysfromrolla.com/articles/101905-1.aspx)
 - [The Provider Toolkit](https://msdn.microsoft.com/asp.net/aa336558.aspx)
 - [Examining ASP.NET 2.0 s Site Navigation Features](http://aspnet.4guysfromrolla.com/articles/111605-1.aspx)
 

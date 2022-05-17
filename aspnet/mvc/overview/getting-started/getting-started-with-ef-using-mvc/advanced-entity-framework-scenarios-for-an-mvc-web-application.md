@@ -129,7 +129,7 @@ Now set a breakpoint on the `return` statement (F9 with the cursor on that line)
 
 Click the magnifying glass to see the query in the **Text Visualizer**.
 
-![](advanced-entity-framework-scenarios-for-an-mvc-web-application/_static/image10.png)
+![One screenshot that shows the Course Controller with a line of code highlighted. Another screenshot that shows the Text Visualizer open and a magnifying glass is circled in red in the Value field.](advanced-entity-framework-scenarios-for-an-mvc-web-application/_static/image10.png)
 
 Now you'll add a drop-down list to the Courses Index page so that users can filter for a particular department. You'll sort the courses by title, and you'll specify eager loading for the `Department` navigation property.
 
@@ -228,7 +228,7 @@ Although the source code is open, Entity Framework is fully supported as a Micro
 ## Acknowledgments
 
 - Tom Dykstra wrote the original version of this tutorial, co-authored the EF 5 update, and wrote the EF 6 update. Tom is a senior programming writer on the Microsoft Web Platform and Tools Content Team.
-- [Rick Anderson](https://docs.microsoft.com/archive/blogs/rickandy/) (twitter [@RickAndMSFT](http://twitter.com/RickAndMSFT)) did most of the work updating the tutorial for EF 5 and MVC 4 and co-authored the EF 6 update. Rick is a senior programming writer for Microsoft focusing on Azure and MVC.
+- [Rick Anderson](/archive/blogs/rickandy/) (twitter [@RickAndMSFT](http://twitter.com/RickAndMSFT)) did most of the work updating the tutorial for EF 5 and MVC 4 and co-authored the EF 6 update. Rick is a senior programming writer for Microsoft focusing on Azure and MVC.
 - [Rowan Miller](http://www.romiller.com) and other members of the Entity Framework team assisted with code reviews and helped debug many issues with migrations that arose while we were updating the tutorial for EF 5 and EF 6.
 
 ## Troubleshoot common errors
@@ -261,7 +261,7 @@ Error Message (from the `Update-Database` command in the PMC):
 
 Solution
 
-One cause of this problem is validation errors when the `Seed` method runs. See [Seeding and Debugging Entity Framework (EF) DBs](https://docs.microsoft.com/archive/blogs/rickandy/seeding-and-debugging-entity-framework-ef-dbs) for tips on debugging the `Seed` method.
+One cause of this problem is validation errors when the `Seed` method runs. See [Seeding and Debugging Entity Framework (EF) DBs](/archive/blogs/rickandy/seeding-and-debugging-entity-framework-ef-dbs) for tips on debugging the `Seed` method.
 
 ### HTTP 500.19 error
 

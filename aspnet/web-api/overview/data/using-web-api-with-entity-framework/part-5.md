@@ -1,8 +1,8 @@
 ---
 uid: web-api/overview/data/using-web-api-with-entity-framework/part-5
-title: "Create Data Transfer Objects (DTOs) | Microsoft Docs"
-author: MikeWasson
-description: ""
+title: Create Data Transfer Objects (DTOs) | Microsoft Docs
+author: Rick-Anderson
+description: Describes how to create data transfer objects (DTOs) manually using code to change the shape of the data sent to the client.
 ms.author: riande
 ms.date: 06/16/2014
 ms.assetid: 0fd07176-b74b-48f0-9fac-0f02e3ffa213
@@ -10,8 +10,6 @@ msc.legacyurl: /web-api/overview/data/using-web-api-with-entity-framework/part-5
 msc.type: authoredcontent
 ---
 # Create Data Transfer Objects (DTOs)
-
-by [Mike Wasson](https://github.com/MikeWasson)
 
 [Download Completed Project](https://github.com/MikeWasson/BookService)
 

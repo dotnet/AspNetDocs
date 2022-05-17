@@ -4,8 +4,8 @@ title: "Migrating an Existing Website from SQL Membership to ASP.NET Identity - 
 author: Rick-Anderson
 description: "This tutorial illustrates the steps to migrate an existing web application with user and role data created using SQL Membership to the new ASP.NET Identity s..."
 ms.author: riande
-ms.date: 12/19/2014
-ms.custom: seoapril2019
+ms.date: 05/05/2022
+ms.custom: seoapril2019, devdivchpfy22
 ms.assetid: 220d3d75-16b2-4240-beae-a5b534f06419
 msc.legacyurl: /identity/overview/migrations/migrating-an-existing-website-from-sql-membership-to-aspnet-identity
 msc.type: authoredcontent
@@ -24,21 +24,26 @@ For this tutorial, we will take a web application template (Web Forms) created u
 
 1. We need to start with an existing application that uses SQL membership and has user and role data. For the purpose of this article, let's create a web application in Visual Studio 2010.
 
-    ![](migrating-an-existing-website-from-sql-membership-to-aspnet-identity/_static/image1.jpg)
+    :::image type="content" source="migrating-an-existing-website-from-sql-membership-to-aspnet-identity/_static/image1.jpg" alt-text="Screenshot of creating a web application in Visual Studio 2010.":::
+
 2. Using the ASP.NET Configuration tool, create 2 users: **oldAdminUser** and **oldUser.**
 
-    ![](migrating-an-existing-website-from-sql-membership-to-aspnet-identity/_static/image1.png)
+    :::image type="content" source="migrating-an-existing-website-from-sql-membership-to-aspnet-identity/_static/image1.png" alt-text="Screenshot of the A S P . N E T Configuration tool to create two users.":::
 
-    ![](migrating-an-existing-website-from-sql-membership-to-aspnet-identity/_static/image2.jpg)
+    :::image type="content" source="migrating-an-existing-website-from-sql-membership-to-aspnet-identity/_static/image2.jpg" alt-text="Screenshot of the website administration tool to manage all the security.":::
+
 3. Create a role named Admin and add 'oldAdminUser' as a user in that role.
 
-    ![](migrating-an-existing-website-from-sql-membership-to-aspnet-identity/_static/image2.png)
+    :::image type="content" source="migrating-an-existing-website-from-sql-membership-to-aspnet-identity/_static/image2.png" alt-text="Screenshot of the Admin role created as a user in that role.":::
+
 4. Create an Admin section of the site with a Default.aspx. Set the authorization tag in the web.config file to enable access only to users in Admin roles. More information can be found here [https://www.asp.net/web-forms/tutorials/security/roles/role-based-authorization-cs](../../../web-forms/overview/older-versions-security/roles/role-based-authorization-cs.md)
 
-    ![](migrating-an-existing-website-from-sql-membership-to-aspnet-identity/_static/image3.png)
+    :::image type="content" source="migrating-an-existing-website-from-sql-membership-to-aspnet-identity/_static/image3.png" alt-text="Screenshot of the site's Admin section.":::
+
 5. View the database in Server Explorer to understand the tables created by the SQL membership system. The user login data is stored in the aspnet\_Users and aspnet\_Membership tables, while role data is stored in the aspnet\_Roles table. Information about which users are in which roles is stored in the aspnet\_UsersInRoles table. For basic membership management it is sufficient to port the information in the above tables to the ASP.NET Identity system.
 
-    ![](migrating-an-existing-website-from-sql-membership-to-aspnet-identity/_static/image4.png)
+    :::image type="content" source="migrating-an-existing-website-from-sql-membership-to-aspnet-identity/_static/image4.png" alt-text="Screenshot of the Server Explorer to view the database to understand the tables created by the S Q L membership system.":::
+
 
 ### Migrating to Visual Studio 2013
 
@@ -46,11 +51,12 @@ For this tutorial, we will take a web application template (Web Forms) created u
 2. Open the above project in your installed version of Visual Studio. If SQL Server Express is not installed on the machine, a prompt is displayed when you open the project, since the connection string uses SQL Express. You can either choose to install SQL Express or as work around change the connection string to LocalDb. For this article we'll change it to LocalDb.
 3. Open web.config and change the connection string from .SQLExpress to (LocalDb)v11.0. Remove 'User Instance=true' from the connection string.
 
-    ![](migrating-an-existing-website-from-sql-membership-to-aspnet-identity/_static/image3.jpg)
+    :::image type="content" source="migrating-an-existing-website-from-sql-membership-to-aspnet-identity/_static/image3.jpg" alt-text="Screenshot of changing the connection string to migrate to Visual Studio 2013.":::
+
 4. Open Server Explorer and verify that the table schema and data can be observed.
 5. The ASP.NET Identity system works with version 4.5 or higher of the framework. Retarget the application to 4.5 or higher.
 
-    ![](migrating-an-existing-website-from-sql-membership-to-aspnet-identity/_static/image5.png)
+    :::image type="content" source="migrating-an-existing-website-from-sql-membership-to-aspnet-identity/_static/image5.png" alt-text="Screenshot of the A S P . N E T Identity system.":::
 
     Build the project to verify that there are no errors.
 
@@ -65,7 +71,8 @@ For this tutorial, we will take a web application template (Web Forms) created u
    - Microsoft.Owin.Security.MicrosoftAccount
    - Microsoft.Owin.Security.Twitter
 
-     ![](migrating-an-existing-website-from-sql-membership-to-aspnet-identity/_static/image6.png)
+     :::image type="content" source="migrating-an-existing-website-from-sql-membership-to-aspnet-identity/_static/image6.png" alt-text="Screenshot of installing the Nuget packages in Solution Explorer.":::
+
 
 ### Migrate database to the new Identity system
 
@@ -125,16 +132,17 @@ This script file is specific to this sample. For applications which have additio
 
 1. Open Server Explorer. Expand the 'ApplicationServices' connection to display the tables. Right click on the Tables node and select the 'New Query' option
 
-    ![](migrating-an-existing-website-from-sql-membership-to-aspnet-identity/_static/image7.png)
+    :::image type="content" source="migrating-an-existing-website-from-sql-membership-to-aspnet-identity/_static/image7.png" alt-text="Screenshot of the Open Server Explorer to expand the Application Services connection to display the tables.":::
+
 2. In the query window, copy and paste the entire SQL script from the Migrations.sql file. Run the script file by hitting the 'Execute' arrow button.
 
-    ![](migrating-an-existing-website-from-sql-membership-to-aspnet-identity/_static/image4.jpg)
+    :::image type="content" source="migrating-an-existing-website-from-sql-membership-to-aspnet-identity/_static/image4.jpg" alt-text="Screenshot of the query window to copy and paste the entire S Q L script.":::
 
     Refresh the Server Explorer window. Five new tables are created in the database.
 
-    ![](migrating-an-existing-website-from-sql-membership-to-aspnet-identity/_static/image8.png)
+    :::image type="content" source="migrating-an-existing-website-from-sql-membership-to-aspnet-identity/_static/image8.png" alt-text="Screenshot of refreshing the Server Explorer window to create five new tables in the database.":::
 
-    ![](migrating-an-existing-website-from-sql-membership-to-aspnet-identity/_static/image9.png)
+    :::image type="content" source="migrating-an-existing-website-from-sql-membership-to-aspnet-identity/_static/image9.png" alt-text="Screenshot of the Tables in Data Connections.":::
 
     Below is how the information in the SQL membership tables are mapped to the new Identity system.
 
@@ -154,7 +162,7 @@ In our sample, the AspNetRoles, AspNetUserClaims, AspNetLogins and AspNetUserRol
 
 1. Create a Models folder in the project and add a class User. The name of the class should match the data added in the 'Discriminator' column of 'AspnetUsers' table.
 
-    ![](migrating-an-existing-website-from-sql-membership-to-aspnet-identity/_static/image10.png)
+    :::image type="content" source="migrating-an-existing-website-from-sql-membership-to-aspnet-identity/_static/image10.png" alt-text="Screenshot of creating a Models folder in the project and adding a class User.":::
 
     The User class should extend the IdentityUser class found in the *Microsoft.AspNet.Identity.EntityFramework* dll. Declare the properties in class that map back to the AspNetUser columns. The properties ID, Username, PasswordHash and SecurityStamp are defined in the IdentityUser and so are omitted. Below is the code for the User class that has all the properties
 

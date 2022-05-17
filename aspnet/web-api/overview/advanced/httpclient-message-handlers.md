@@ -1,8 +1,8 @@
 ---
 uid: web-api/overview/advanced/httpclient-message-handlers
-title: "HttpClient Message Handlers in ASP.NET Web API - ASP.NET 4.x"
-author: MikeWasson
-description: "Create custom message handlers for ASP.NET Web API in ASP.NET 4.x"
+title: HttpClient Message Handlers in ASP.NET Web API - ASP.NET 4.x
+author: Rick-Anderson
+description: Create custom message handlers for ASP.NET Web API in ASP.NET 4.x
 ms.author: riande
 ms.date: 10/01/2012
 ms.custom: seoapril2019
@@ -12,17 +12,15 @@ msc.type: authoredcontent
 ---
 # HttpClient Message Handlers in ASP.NET Web API
 
-by [Mike Wasson](https://github.com/MikeWasson)
-
 A *message handler* is a class that receives an HTTP request and returns an HTTP response.
 
 Typically, a series of message handlers are chained together. The first handler receives an HTTP request, does some processing, and gives the request to the next handler. At some point, the response is created and goes back up the chain. This pattern is called a *delegating* handler.
 
-![](httpclient-message-handlers/_static/image1.png)
+![Diagram of message handlers chained together, illustrating process to receive an H T T P request and return an H T T P response.](httpclient-message-handlers/_static/image1.png)
 
 On the client side, the **HttpClient** class uses a message handler to process requests. The default handler is **HttpClientHandler**, which sends the request over the network and gets the response from the server. You can insert custom message handlers into the client pipeline:
 
-![](httpclient-message-handlers/_static/image2.png)
+![Diagram of process to insert custom message handlers into client pipeline. Shows h t t p Client class that uses a message handler to process requests.](httpclient-message-handlers/_static/image2.png)
 
 > [!NOTE]
 > ASP.NET Web API also uses message handlers on the server side. For more information, see [HTTP Message Handlers](http-message-handlers.md).
