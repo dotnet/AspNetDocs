@@ -28,7 +28,7 @@ We'll begin our NerdDinner application by selecting the **File-&gt;New Project**
 
 This will bring up the "New Project" dialog. To create a new ASP.NET MVC application, we'll select the "Web" node on the left-hand side of the dialog and then choose the "ASP.NET MVC Web Application" project template on the right:
 
-:::image type="content" source="acreate-a-new-aspnet-mvc-project/_static/image1.png" alt-text="Screenshot of the New Project dialog to create a new A S P . N E T M V C application.":::
+:::image type="content" source="create-a-new-aspnet-mvc-project/_static/image1.png" alt-text="Screenshot of the New Project dialog to create a new A S P . N E T M V C application.":::
 
 *Important: Make sure you've downloaded and installed ASP.NET MVC - otherwise it won't show up in the New Project dialog. You can use V2 of the [Microsoft Web Platform Installer](https://www.microsoft.com/web/downloads/platform.aspx) if you haven't installed it yet (ASP.NET MVC is available within the "Web Platform-&gt;Frameworks and Runtimes" section).*
 

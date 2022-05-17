@@ -2,7 +2,7 @@
 uid: mvc/overview/getting-started/introduction/adding-a-new-field
 title: "Adding a New Field | Microsoft Docs"
 author: Rick-Anderson
-description: ""
+description: "In this section you'll use Entity Framework Code First Migrations to migrate some changes to the model classes so that the change is applied to the database."
 ms.author: riande
 ms.date: 05/17/2022
 ms.custom: devdivchpfy22
