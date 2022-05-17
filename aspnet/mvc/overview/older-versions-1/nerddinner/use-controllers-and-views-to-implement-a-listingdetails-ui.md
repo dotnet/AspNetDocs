@@ -4,7 +4,8 @@ title: "Use Controllers and Views to Implement a Listing/Details UI | Microsoft 
 author: rick-anderson
 description: "Step 4 shows how to add a Controller to the application that takes advantage of our model to provide users with a data listing/details navigation experience..."
 ms.author: riande
-ms.date: 07/27/2010
+ms.date: 05/16/2022
+ms.custom: devdivchpfy22
 ms.assetid: 64116e56-1c9a-4f07-8097-bb36cbb6e57f
 msc.legacyurl: /mvc/overview/older-versions-1/nerddinner/use-controllers-and-views-to-implement-a-listingdetails-ui
 msc.type: authoredcontent
@@ -33,15 +34,15 @@ Now that we have built up a basic model for our NerdDinner application, our next
 
 We'll begin by right-clicking on the "Controllers" folder within our web project, and then select the **Add-&gt;Controller** menu command (you can also execute this command by typing Ctrl-M, Ctrl-C):
 
-![](use-controllers-and-views-to-implement-a-listingdetails-ui/_static/image1.png)
+:::image type="content" source="use-controllers-and-views-to-implement-a-listingdetails-ui/_static/image1.png" alt-text="Screenshot of the Controller folder to add a Dinners Controller.":::
 
 This will bring up the "Add Controller" dialog:
 
-![](use-controllers-and-views-to-implement-a-listingdetails-ui/_static/image2.png)
+:::image type="content" source="use-controllers-and-views-to-implement-a-listingdetails-ui/_static/image2.png" alt-text="Screenshot of the Add Controller dialog.":::
 
 We'll name the new controller "DinnersController" and click the "Add" button. Visual Studio will then add a DinnersController.cs file under our \Controllers directory:
 
-![](use-controllers-and-views-to-implement-a-listingdetails-ui/_static/image3.png)
+:::image type="content" source="use-controllers-and-views-to-implement-a-listingdetails-ui/_static/image3.png" alt-text="Screenshot of naming the new controller DinnersController.":::
 
 It will also open up the new DinnersController class within the code-editor.
 
@@ -60,11 +61,11 @@ We will publish initial implementations of these URLs by adding two public "acti
 
 We'll then run the NerdDinner application and use our browser to invoke them. Typing in the *"/Dinners/"* URL will cause our *Index()* method to run, and it will send back the following response:
 
-![](use-controllers-and-views-to-implement-a-listingdetails-ui/_static/image4.png)
+:::image type="content" source="use-controllers-and-views-to-implement-a-listingdetails-ui/_static/image4.png" alt-text="Screenshot of the response after running the NerdDinner application.":::
 
 Typing in the *"/Dinners/Details/2"* URL will cause our *Details()* method to run, and send back the following response:
 
-![](use-controllers-and-views-to-implement-a-listingdetails-ui/_static/image5.png)
+:::image type="content" source="use-controllers-and-views-to-implement-a-listingdetails-ui/_static/image5.png" alt-text="Screenshot of the response after the method runs.":::
 
 You might be wondering - how did ASP.NET MVC know to create our DinnersController class and invoke those methods? To understand that let's take a quick look at how routing works.
 
@@ -74,7 +75,7 @@ ASP.NET MVC includes a powerful URL routing engine that provides a lot of flexib
 
 By default, new ASP.NET MVC projects come with a preconfigured set of URL routing rules already registered. This enables us to easily get started on an application without having to explicitly configure anything. The default routing rule registrations can be found within the "Application" class of our projects – which we can open by double-clicking the "Global.asax" file in the root of our project:
 
-![](use-controllers-and-views-to-implement-a-listingdetails-ui/_static/image6.png)
+:::image type="content" source="use-controllers-and-views-to-implement-a-listingdetails-ui/_static/image6.png" alt-text="Screenshot of the Global . a s a x file in the Solution Explorer.":::
 
 The default ASP.NET MVC routing rules are registered within the "RegisterRoutes" method of this class:
 
@@ -121,7 +122,7 @@ We can update our DinnersController class to indicate that we want to use a view
 
 The signature of the *View()* helper method we are using above looks like below:
 
-![](use-controllers-and-views-to-implement-a-listingdetails-ui/_static/image7.png)
+:::image type="content" source="use-controllers-and-views-to-implement-a-listingdetails-ui/_static/image7.png" alt-text="Screenshot of the signature of View helper method.":::
 
 The first parameter to the *View()* helper method is the name of the view template file we want to use to render the HTML response. The second parameter is a model object that contains the data that the view template needs in order to render the HTML response.
 
@@ -141,19 +142,19 @@ We'll begin by implementing the "NotFound" view template – which displays a fr
 
 We'll create a new view template by positioning our text cursor within a controller action method, and then right click and choose the "Add View" menu command (we can also execute this command by typing Ctrl-M, Ctrl-V):
 
-![](use-controllers-and-views-to-implement-a-listingdetails-ui/_static/image8.png)
+:::image type="content" source="use-controllers-and-views-to-implement-a-listingdetails-ui/_static/image8.png" alt-text="Screenshot of the Add View menu command.":::
 
 This will bring up an "Add View" dialog like below. By default the dialog will pre-populate the name of the view to create to match the name of the action method the cursor was in when the dialog was launched (in this case "Details"). Because we want to first implement the "NotFound" template, we'll override this view name and set it to instead be "NotFound":
 
-![](use-controllers-and-views-to-implement-a-listingdetails-ui/_static/image9.png)
+:::image type="content" source="use-controllers-and-views-to-implement-a-listingdetails-ui/_static/image9.png" alt-text="Screenshot of the Add View dialog.":::
 
 When we click the "Add" button, Visual Studio will create a new "NotFound.aspx" view template for us within the "\Views\Dinners" directory (which it will also create if the directory doesn't already exist):
 
-![](use-controllers-and-views-to-implement-a-listingdetails-ui/_static/image10.png)
+:::image type="content" source="use-controllers-and-views-to-implement-a-listingdetails-ui/_static/image10.png" alt-text="Screenshot of the new Not Found . a s p x view template created in Visual Studio.":::
 
 It will also open up our new "NotFound.aspx" view template within the code-editor:
 
-![](use-controllers-and-views-to-implement-a-listingdetails-ui/_static/image11.png)
+:::image type="content" source="use-controllers-and-views-to-implement-a-listingdetails-ui/_static/image11.png" alt-text="Screenshot of the Not Found . a s p x view template within the code editor.":::
 
 View templates by default have two "content regions" where we can add content and code. The first allows us to customize the "title" of the HTML page sent back. The second allows us to customize the "main content" of the HTML page sent back.
 
@@ -163,7 +164,7 @@ To implement our "NotFound" view template we'll add some basic content:
 
 We can then try it out within the browser. To do this let's request the *"/Dinners/Details/9999"* URL. This will refer to a dinner that doesn't currently exist in the database, and will cause our DinnersController.Details() action method to render our "NotFound" view template:
 
-![](use-controllers-and-views-to-implement-a-listingdetails-ui/_static/image12.png)
+:::image type="content" source="use-controllers-and-views-to-implement-a-listingdetails-ui/_static/image12.png" alt-text="Screenshot of how to implement the Not Found view template to try it out within the browser.":::
 
 One thing you'll notice in the screen-shot above is that our basic view template has inherited a bunch of HTML that surrounds the main content on the screen. This is because our view-template is using a "master page" template that enables us to apply a consistent layout across all views on the site. We'll discuss how master pages work more in a later part of this tutorial.
 
@@ -173,11 +174,11 @@ Let's now implement the "Details" view template – which will generate HTML for
 
 We'll do this by positioning our text cursor within the Details action method, and then right click and choose the "Add View" menu command (or press Ctrl-M, Ctrl-V):
 
-![](use-controllers-and-views-to-implement-a-listingdetails-ui/_static/image13.png)
+:::image type="content" source="use-controllers-and-views-to-implement-a-listingdetails-ui/_static/image13.png" alt-text="Screenshot of positioning the text cursor within the Details action method to choose the Add View menu command.":::
 
 This will bring up the "Add View" dialog. We'll keep the default view name ("Details"). We'll also select the "Create a strongly-typed View" checkbox in the dialog and select (using the combobox dropdown) the name of the model type we are passing from the Controller to the View. For this view we are passing a Dinner object (the fully qualified name for this type is: "NerdDinner.Models.Dinner"):
 
-![](use-controllers-and-views-to-implement-a-listingdetails-ui/_static/image14.png)
+:::image type="content" source="use-controllers-and-views-to-implement-a-listingdetails-ui/_static/image14.png" alt-text="Screenshot of the Add View dialog to pass a Dinner object.":::
 
 Unlike the previous template, where we chose to create an "Empty View", this time we will choose to automatically "scaffold" the view using a "Details" template. We can indicate this by changing the "View content" drop-down in the dialog above.
 
@@ -185,7 +186,7 @@ Unlike the previous template, where we chose to create an "Empty View", this tim
 
 When we click the "Add" button, Visual Studio will create a new "Details.aspx" view template file for us within our "\Views\Dinners" directory:
 
-![](use-controllers-and-views-to-implement-a-listingdetails-ui/_static/image15.png)
+:::image type="content" source="use-controllers-and-views-to-implement-a-listingdetails-ui/_static/image15.png" alt-text="Screenshot of a new Details . a s p x view template file created in the Visual Studio directory.":::
 
 It will also open up our new "Details.aspx" view template within the code-editor. It will contain an initial scaffold implementation of a details view based on a Dinner model. The scaffolding engine uses .NET reflection to look at the public properties exposed on the class passed it, and will add appropriate content based on each type it finds:
 
@@ -193,7 +194,7 @@ It will also open up our new "Details.aspx" view template within the code-editor
 
 We can request the *"/Dinners/Details/1"* URL to see what this "details" scaffold implementation looks like in the browser. Using this URL will display one of the dinners we manually added to our database when we first created it:
 
-![](use-controllers-and-views-to-implement-a-listingdetails-ui/_static/image16.png)
+:::image type="content" source="use-controllers-and-views-to-implement-a-listingdetails-ui/_static/image16.png" alt-text="Screenshot of the URL that displays one of the dinners manually added to the database when we first created it.":::
 
 This gets us up and running quickly, and provides us with an initial implementation of our Details.aspx view. We can then go and tweak it to customize the UI to our satisfaction.
 
@@ -201,7 +202,7 @@ When we look at the Details.aspx template more closely, we'll find that it conta
 
 We can write code within our View that accesses the "Dinner" model object that was passed from our controller using a strongly-typed "Model" property. Visual Studio provides us with full code-intellisense when accessing this "Model" property within the editor:
 
-![](use-controllers-and-views-to-implement-a-listingdetails-ui/_static/image17.png)
+:::image type="content" source="use-controllers-and-views-to-implement-a-listingdetails-ui/_static/image17.png" alt-text="Screenshot of the full code intellisense that Visual Studio provides when accessing this Model property within the editor.":::
 
 Let's make some tweaks so that the source for our final Details view template looks like below:
 
@@ -209,7 +210,7 @@ Let's make some tweaks so that the source for our final Details view template lo
 
 When we access the *"/Dinners/Details/1"* URL again it will now render like below:
 
-![](use-controllers-and-views-to-implement-a-listingdetails-ui/_static/image18.png)
+:::image type="content" source="use-controllers-and-views-to-implement-a-listingdetails-ui/_static/image18.png" alt-text="Screenshot of the URL rendering when accessed again.":::
 
 ### Implementing the "Index" View Template
 
@@ -217,13 +218,13 @@ Let's now implement the "Index" view template – which will generate a listing 
 
 Within the "Add View" dialog we'll keep the view template named "Index" and select the "Create a strongly-typed view" checkbox. This time we will choose to automatically generate a "List" view template, and select "NerdDinner.Models.Dinner" as the model type passed to the view (which because we have indicated we are creating a "List" scaffold will cause the Add View dialog to assume we are passing a sequence of Dinner objects from our Controller to the View):
 
-![](use-controllers-and-views-to-implement-a-listingdetails-ui/_static/image19.png)
+:::image type="content" source="use-controllers-and-views-to-implement-a-listingdetails-ui/_static/image19.png" alt-text="Screenshot of the Add View dialog to implement the Index View Template.":::
 
 When we click the "Add" button, Visual Studio will create a new "Index.aspx" view template file for us within our "\Views\Dinners" directory. It will "scaffold" an initial implementation within it that provides an HTML table listing of the Dinners we pass to the view.
 
 When we run the application and access the *"/Dinners/"* URL it will render our list of dinners like so:
 
-![](use-controllers-and-views-to-implement-a-listingdetails-ui/_static/image20.png)
+:::image type="content" source="use-controllers-and-views-to-implement-a-listingdetails-ui/_static/image20.png" alt-text="Screenshot of how it renders the list of dinners when the application is run.":::
 
 The table solution above gives us a grid-like layout of our Dinner data – which isn't quite what we want for our consumer facing Dinner listing. We can update the Index.aspx view template and modify it to list fewer columns of data, and use a &lt;ul&gt; element to render them instead of a table using the code below:
 
@@ -231,17 +232,17 @@ The table solution above gives us a grid-like layout of our Dinner data – whic
 
 We are using the "var" keyword within the above foreach statement as we loop over each dinner in our Model. Those unfamiliar with C# 3.0 might think that using "var" means that the dinner object is late-bound. It instead means that the compiler is using type-inference against the strongly typed "Model" property (which is of type "IEnumerable&lt;Dinner&gt;") and compiling the local "dinner" variable as a Dinner type – which means we get full intellisense and compile-time checking for it within code blocks:
 
-![](use-controllers-and-views-to-implement-a-listingdetails-ui/_static/image21.png)
+:::image type="content" source="use-controllers-and-views-to-implement-a-listingdetails-ui/_static/image21.png" alt-text="Screenshot of using the code instead of the table to render them.":::
 
 When we hit refresh on the */Dinners* URL in our browser our updated view now looks like below:
 
-![](use-controllers-and-views-to-implement-a-listingdetails-ui/_static/image22.png)
+:::image type="content" source="use-controllers-and-views-to-implement-a-listingdetails-ui/_static/image22.png" alt-text="Screenshot of the URL after a refresh and gives an updated view in the browser.":::
 
 This is looking better – but isn't entirely there yet. Our last step is to enable end-users to click individual Dinners in the list and see details about them. We'll implement this by rendering HTML hyperlink elements that link to the Details action method on our DinnersController.
 
 We can generate these hyperlinks within our Index view in one of two ways. The first is to manually create HTML &lt;a&gt; elements like below, where we embed &lt;% %&gt; blocks within the &lt;a&gt; HTML element:
 
-![](use-controllers-and-views-to-implement-a-listingdetails-ui/_static/image23.png)
+:::image type="content" source="use-controllers-and-views-to-implement-a-listingdetails-ui/_static/image23.png" alt-text="Screenshot of generating these hyperlinks within the Index view.":::
 
 An alternative approach we can use is to take advantage of the built-in "Html.ActionLink()" helper method within ASP.NET MVC that supports programmatically creating an HTML &lt;a&gt; element that links to another action method on a Controller:
 
@@ -257,11 +258,11 @@ For our Index.aspx view we'll use the Html.ActionLink() helper method approach a
 
 And now when we hit the */Dinners* URL our dinner list looks like below:
 
-![](use-controllers-and-views-to-implement-a-listingdetails-ui/_static/image24.png)
+:::image type="content" source="use-controllers-and-views-to-implement-a-listingdetails-ui/_static/image24.png" alt-text="Screenshot of how the dinner list looks when we hit the URL.":::
 
 When we click any of the Dinners in the list we'll navigate to see details about it:
 
-![](use-controllers-and-views-to-implement-a-listingdetails-ui/_static/image25.png)
+:::image type="content" source="use-controllers-and-views-to-implement-a-listingdetails-ui/_static/image25.png" alt-text="Screenshot of how you can click any of the Dinners in the list to see details about it.":::
 
 ### Convention-based naming and the \Views directory structure
 
@@ -269,7 +270,7 @@ ASP.NET MVC applications by default use a convention-based directory naming stru
 
 For example, we've been working on the DinnersController class – which explicitly references three view templates: "Index", "Details" and "NotFound". ASP.NET MVC will by default look for these views within the *\Views\Dinners* directory underneath our application root directory:
 
-![](use-controllers-and-views-to-implement-a-listingdetails-ui/_static/image26.png)
+:::image type="content" source="use-controllers-and-views-to-implement-a-listingdetails-ui/_static/image26.png" alt-text="Screenshot of the Dinners directory underneath the application root directory.":::
 
 Notice above how there are currently three controller classes within the project (DinnersController, HomeController and AccountController – the last two were added by default when we created the project), and there are three sub-directories (one for each controller) within the \Views directory.
 

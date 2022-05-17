@@ -4,7 +4,8 @@ title: "Use AJAX to Deliver Dynamic Updates | Microsoft Docs"
 author: rick-anderson
 description: "Step 10 implements support for logged-in users to RSVP their interest in attending a dinner, using an Ajax-based approach integrated within the dinner detail..."
 ms.author: riande
-ms.date: 07/27/2010
+ms.date: 05/17/2022
+ms.custom: devdivchpfy22
 ms.assetid: 18700815-8e6c-4489-91af-7ea9dab6529e
 msc.legacyurl: /mvc/overview/older-versions-1/nerddinner/use-ajax-to-deliver-dynamic-updates
 msc.type: authoredcontent
@@ -29,7 +30,7 @@ Let's now implement support for logged-in users to RSVP their interest in attend
 
 Users can visit the */Dinners/Details/[id*] URL to see details about a particular dinner:
 
-![](use-ajax-to-deliver-dynamic-updates/_static/image1.png)
+:::image type="content" source="use-ajax-to-deliver-dynamic-updates/_static/image1.png" alt-text="Screenshot of the Dinners Details U R L to see details about a particular dinner.":::
 
 The Details() action method is implemented like so:
 
@@ -45,11 +46,11 @@ We can then add the following code to our Details.aspx view template to display 
 
 And now when a user visits a Dinner they are registered for they'll see this message:
 
-![](use-ajax-to-deliver-dynamic-updates/_static/image2.png)
+:::image type="content" source="use-ajax-to-deliver-dynamic-updates/_static/image2.png" alt-text="Screenshot of the message that registered users will see when they visit a Dinner.":::
 
 And when they visit a Dinner they are not registered for they'll see the below message:
 
-![](use-ajax-to-deliver-dynamic-updates/_static/image3.png)
+:::image type="content" source="use-ajax-to-deliver-dynamic-updates/_static/image3.png" alt-text="Screenshot of the message that unregistered users will see when they visit a Dinner.":::
 
 ### Implementing the Register Action Method
 
@@ -79,11 +80,11 @@ The Ajax.ActionLink() helper method used above is built-into ASP.NET MVC and is 
 
 And now when a user browses to a dinner they aren't registered for yet they'll see a link to RSVP for it:
 
-![](use-ajax-to-deliver-dynamic-updates/_static/image4.png)
+:::image type="content" source="use-ajax-to-deliver-dynamic-updates/_static/image4.png" alt-text="Screenshot of the message that users will see when they are not registered for yet and will see a link to R S V P for it.":::
 
 If they click the "RSVP for this event" link they'll make an AJAX call to the Register action method on the RSVP controller, and when it completes they'll see an updated message like below:
 
-![](use-ajax-to-deliver-dynamic-updates/_static/image5.png)
+:::image type="content" source="use-ajax-to-deliver-dynamic-updates/_static/image5.png" alt-text="Screenshot of the updated message for the users who clicked the R S V P link.":::
 
 The network bandwidth and traffic involved when making this AJAX call is really lightweight. When the user clicks on the "RSVP for this event" link, a small HTTP POST network request is made to the */Dinners/Register/1* URL that looks like below on the wire:
 
@@ -121,7 +122,7 @@ We can then wire-up this JavaScript function to be called after our AJAX call su
 
 And now when the "RSVP for this event" link is clicked and our AJAX call completes successfully, the content message sent back will animate and grow large:
 
-![](use-ajax-to-deliver-dynamic-updates/_static/image6.png)
+:::image type="content" source="use-ajax-to-deliver-dynamic-updates/_static/image6.png" alt-text="Screenshot of the success message for the R S V P response will animate and grow large.":::
 
 In addition to providing an "OnSuccess" event, the AjaxOptions object exposes OnBegin, OnFailure, and OnComplete events that you can handle (along with a variety of other properties and useful options).
 

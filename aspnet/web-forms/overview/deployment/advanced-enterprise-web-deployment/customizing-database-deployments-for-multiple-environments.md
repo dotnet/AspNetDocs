@@ -4,7 +4,8 @@ title: "Customizing Database Deployments for Multiple Environments | Microsoft D
 author: jrjlee
 description: "This topic describes how to tailor the properties of a database to specific target environments as part of the deployment process. Note: The topic assumes th..."
 ms.author: riande
-ms.date: 05/04/2012
+ms.date: 05/17/2022
+ms.custom: devdivchpfy22
 ms.assetid: a172979a-1318-4318-a9c6-4f9560d26267
 msc.legacyurl: /web-forms/overview/deployment/advanced-enterprise-web-deployment/customizing-database-deployments-for-multiple-environments
 msc.type: authoredcontent
@@ -80,14 +81,16 @@ To support the deployment of a database project to multiple destinations, you sh
 1. In Visual Studio 2010, in the **Solution Explorer** window, right-click your database project, and then click **Properties**.
 2. On the database project properties page, on the **Deploy** tab, in the **Deployment configuration file** row, click **New**.
 
-    ![](customizing-database-deployments-for-multiple-environments/_static/image1.png)
+    :::image type="content" source="customizing-database-deployments-for-multiple-environments/_static/image1.png" alt-text="Screenshot of the Deploy tab on the database project properties page.":::
+
 3. In the **New Deployment Configuration File** dialog box, give the file a meaningful name (for example, **TestEnvironment.sqldeployment**), and then click **Save**.
 4. On the *[Filename]***.sqldeployment** page, set the deployment properties to match the requirements of your destination environment, and then save the file.
 
-    ![](customizing-database-deployments-for-multiple-environments/_static/image2.png)
+    :::image type="content" source="customizing-database-deployments-for-multiple-environments/_static/image2.png" alt-text="Screenshot of the deployment properties to match the requirements of the destination environment.":::
+
 5. Notice that the new file is added to the Properties folder in your database project.
 
-    ![](customizing-database-deployments-for-multiple-environments/_static/image3.png)
+    :::image type="content" source="customizing-database-deployments-for-multiple-environments/_static/image3.png" alt-text="Screenshot of the new file added to the Properties folder in the database project.":::
 
 ## Specifying the Deployment Configuration File in VSDBCMD
 

@@ -4,7 +4,8 @@ title: "Build a Model with Business Rule Validations | Microsoft Docs"
 author: rick-anderson
 description: "Step 3 shows how to create a model that we can use to both query and update the database for our NerdDinner application."
 ms.author: riande
-ms.date: 07/27/2010
+ms.date: 05/16/2022
+ms.custom: devdivchpfy22
 ms.assetid: 0bc191b2-4311-479a-a83a-7f1b1c32e6fe
 msc.legacyurl: /mvc/overview/older-versions-1/nerddinner/build-a-model-with-business-rule-validations
 msc.type: authoredcontent
@@ -43,41 +44,41 @@ We can use the LINQ language support within VB and C# to write expressive querie
 
 We'll begin by right-clicking on the "Models" folder within our project, and select the **Add-&gt;New Item** menu command:
 
-![](build-a-model-with-business-rule-validations/_static/image1.png)
+:::image type="content" source="build-a-model-with-business-rule-validations/_static/image1.png" alt-text="Screenshot of the Models folder in the project to add new item.":::
 
 This will bring up the "Add New Item" dialog. We'll filter by the "Data" category and select the "LINQ to SQL Classes" template within it:
 
-![](build-a-model-with-business-rule-validations/_static/image2.png)
+:::image type="content" source="build-a-model-with-business-rule-validations/_static/image2.png" alt-text="Screenshot of the Add New Item dialog.":::
 
 We'll name the item "NerdDinner" and click the "Add" button. Visual Studio will add a NerdDinner.dbml file under our \Models directory, and then open the LINQ to SQL object relational designer:
 
-![](build-a-model-with-business-rule-validations/_static/image3.png)
+:::image type="content" source="build-a-model-with-business-rule-validations/_static/image3.png" alt-text="Screenshot of naming the new item and adding it to the directory.":::
 
 ### Creating Data Model Classes with LINQ to SQL
 
 LINQ to SQL enables us to quickly create data model classes from existing database schema. To-do this we'll open the NerdDinner database in the Server Explorer, and select the Tables we want to model in it:
 
-![](build-a-model-with-business-rule-validations/_static/image4.png)
+:::image type="content" source="build-a-model-with-business-rule-validations/_static/image4.png" alt-text="Screenshot of the Nerd Dinner database in the Server Explorer.":::
 
 We can then drag the tables onto the LINQ to SQL designer surface. When we do this LINQ to SQL will automatically create Dinner and RSVP classes using the schema of the tables (with class properties that map to the database table columns):
 
-![](build-a-model-with-business-rule-validations/_static/image5.png)
+:::image type="content" source="build-a-model-with-business-rule-validations/_static/image5.png" alt-text="Screenshot of the Nerd Dinner database to drag the tables onto the L I N Q to S Q L designer surface.":::
 
 By default the LINQ to SQL designer automatically "pluralizes" table and column names when it creates classes based on a database schema. For example: the "Dinners" table in our example above resulted in a "Dinner" class. This class naming helps make our models consistent with .NET naming conventions, and I usually find that having the designer fix this up convenient (especially when adding lots of tables). If you don't like the name of a class or property that the designer generates, though, you can always override it and change it to any name you want. You can do this either by editing the entity/property name in-line within the designer or by modifying it via the property grid.
 
 By default the LINQ to SQL designer also inspects the primary key/foreign key relationships of the tables, and based on them automatically creates default "relationship associations" between the different model classes it creates. For example, when we dragged the Dinners and RSVP tables onto the LINQ to SQL designer a one-to-many relationship association between the two was inferred based on the fact that the RSVP table had a foreign-key to the Dinners table (this is indicated by the arrow in the designer):
 
-![](build-a-model-with-business-rule-validations/_static/image6.png)
+:::image type="content" source="build-a-model-with-business-rule-validations/_static/image6.png" alt-text="Screenshot of the default relationship associations created automatically between the different model classes.":::
 
 The above association will cause LINQ to SQL to add a strongly typed "Dinner" property to the RSVP class that developers can use to access the Dinner associated with a given RSVP. It will also cause the Dinner class to have a "RSVPs" collection property that enables developers to retrieve and update RSVP objects associated with a particular Dinner.
 
 Below you can see an example of intellisense within Visual Studio when we create a new RSVP object and add it to a Dinner's RSVPs collection. Notice how LINQ to SQL automatically added a "RSVPs" collection on the Dinner object:
 
-![](build-a-model-with-business-rule-validations/_static/image7.png)
+:::image type="content" source="build-a-model-with-business-rule-validations/_static/image7.png" alt-text="Screenshot of the intellisense within Visual Studio when we create a new R S V P object and add it to a Dinners R S V P collection.":::
 
 By adding the RSVP object to the Dinner's RSVPs collection we are telling LINQ to SQL to associate a foreign-key relationship between the Dinner and the RSVP row in our database:
 
-![](build-a-model-with-business-rule-validations/_static/image8.png)
+:::image type="content" source="build-a-model-with-business-rule-validations/_static/image8.png" alt-text="Screenshot of adding the R S V P object to the Dinners R S V P collection.":::
 
 If you don't like how the designer has modeled or named a table association, you can override it. Just click on the association arrow within the designer and access its properties via the property grid to rename, delete or modify it. For our NerdDinner application, though, the default association rules work well for the data model classes we are building and we can just use the default behavior.
 
@@ -89,7 +90,7 @@ Our NerdDinnerDataContext class exposes two properties - "Dinners" and "RSVPs" -
 
 The following code demonstrates how to instantiate a NerdDinnerDataContext object and perform a LINQ query against it to obtain a sequence of Dinners that occur in the future. Visual Studio provides full intellisense when writing the LINQ query, and the objects returned from it are strongly-typed and also support intellisense:
 
-![](build-a-model-with-business-rule-validations/_static/image9.png)
+:::image type="content" source="build-a-model-with-business-rule-validations/_static/image9.png" alt-text="Screenshot of the code that demonstrates how to instantiate a Nerd Dinner Data Context object and perform a L I N Q query.":::
 
 In addition to allowing us to query for Dinner and RSVP objects, a NerdDinnerDataContext also automatically tracks any changes we subsequently make to the Dinner and RSVP objects we retrieve through it. We can use this functionality to easily save the changes back to the database - without having to write any explicit SQL update code.
 
@@ -113,7 +114,7 @@ For our NerdDinner application we'll define a DinnerRepository class with the be
 
 To implement this class we'll right-click on our "Models" folder and choose the **Add-&gt;New Item** menu command. Within the "Add New Item" dialog we'll select the "Class" template and name the file "DinnerRepository.cs":
 
-![](build-a-model-with-business-rule-validations/_static/image10.png)
+:::image type="content" source="build-a-model-with-business-rule-validations/_static/image10.png" alt-text="Screenshot of adding a new item by right clicking the Models folder to implement this class.":::
 
 We can then implement our DinnerRepository class using the code below:
 
@@ -171,7 +172,7 @@ For the purposes of our NerdDinner application, we'll use a relatively simple an
 
 We'll implement IsValid and GetRuleViolations() for our Dinner model by adding a "partial class" to our project. Partial classes can be used to add methods/properties/events to classes maintained by a VS designer (like the Dinner class generated by the LINQ to SQL designer) and help avoid the tool from messing with our code. We can add a new partial class to our project by right-clicking on the \Models folder, and then select the "Add New Item" menu command. We can then choose the "Class" template within the "Add New Item" dialog and name it Dinner.cs.
 
-![](build-a-model-with-business-rule-validations/_static/image11.png)
+:::image type="content" source="build-a-model-with-business-rule-validations/_static/image11.png" alt-text="Screenshot of implementing Is Valid and Get Rule Violations for the Dinner model.":::
 
 Clicking the "Add" button will add a Dinner.cs file to our project and open it within the IDE. We can then implement a basic rule/validation enforcement framework using the below code:
 

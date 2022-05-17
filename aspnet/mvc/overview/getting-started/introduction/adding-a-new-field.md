@@ -4,7 +4,8 @@ title: "Adding a New Field | Microsoft Docs"
 author: Rick-Anderson
 description: ""
 ms.author: riande
-ms.date: 10/17/2013
+ms.date: 05/17/2022
+ms.custom: devdivchpfy22
 ms.assetid: 4085de68-d243-4378-8a64-86236ea8d2da
 msc.legacyurl: /mvc/overview/getting-started/introduction/adding-a-new-field
 msc.type: authoredcontent
@@ -23,7 +24,7 @@ By default, when you use Entity Framework Code First to automatically create a d
 
 Navigate to Solution Explorer. Right click on the *Movies.mdf* file and select **Delete** to remove the movies database. If you don't see the *Movies.mdf* file, click on the **Show All Files** icon shown below in the red outline.
 
-![](adding-a-new-field/_static/image1.png)
+:::image type="content" source="adding-a-new-field/_static/image1.png" alt-text="Screenshot of the Solution Explorer to click on the Show All Files icon.":::
 
 Build the application to make sure there are no errors.
 
@@ -35,11 +36,11 @@ In the **Package Manager Console** window at the `PM>` prompt enter
 
 Enable-Migrations -ContextTypeName MvcMovie.Models.MovieDBContext
 
-![](adding-a-new-field/_static/image3.png)
+:::image type="content" source="adding-a-new-field/_static/image3.png" alt-text="Screenshot of the Package Manager Console window.":::
 
 The **Enable-Migrations** command (shown above) creates a *Configuration.cs* file in a new *Migrations* folder.
 
-![](adding-a-new-field/_static/image4.png)
+:::image type="content" source="adding-a-new-field/_static/image4.png" alt-text="Screenshot of the Configuration . c s file created in a new Migrations folder.":::
 
 Visual Studio opens the *Configuration.cs* file. Replace the `Seed` method in the *Configuration.cs* file with the following code:
 
@@ -47,7 +48,7 @@ Visual Studio opens the *Configuration.cs* file. Replace the `Seed` method in th
 
 Hover over the red squiggly line under `Movie` and click `Show Potential Fixes` and then click **using** **MvcMovie.Models;**
 
-![](adding-a-new-field/_static/image5.png)
+:::image type="content" source="adding-a-new-field/_static/image5.png" alt-text="Screenshot of the Configuration . c s file that Visual Studio opens as a code.":::
 
 Doing so adds the following using statement:
 
@@ -79,19 +80,19 @@ The next step is to create a `DbMigration` class for the initial migration. This
 
 In the **Package Manager Console** window, enter the command `add-migration Initial` to create the initial migration. The name "Initial" is arbitrary and is used to name the migration file created.
 
-![](adding-a-new-field/_static/image6.png)
+:::image type="content" source="adding-a-new-field/_static/image6.png" alt-text="Screenshot of the Package Manager Console window to create the initial migration.":::
 
 Code First Migrations creates another class file in the *Migrations* folder (with the name *{DateStamp}\_Initial.cs* ), and this class contains code that creates the database schema. The migration filename is pre-fixed with a timestamp to help with ordering. Examine the *{DateStamp}\_Initial.cs* file, it contains the instructions to create the `Movies` table for the Movie DB. When you update the database in the instructions below, this *{DateStamp}\_Initial.cs* file will run and create the DB schema. Then the **Seed** method will run to populate the DB with test data.
 
 In the **Package Manager Console**, enter the command `update-database` to create the database and run the `Seed` method.
 
-![](adding-a-new-field/_static/image7.png)
+:::image type="content" source="adding-a-new-field/_static/image7.png" alt-text="Screenshot of the Package Manager Console to create the database and run the Seed method.":::
 
 If you get an error that indicates a table already exists and can't be created, it is probably because you ran the application after you deleted the database and before you executed `update-database`. In that case, delete the *Movies.mdf* file again and retry the `update-database` command. If you still get an error, delete the migrations folder and contents then start with the instructions at the top of this page (that is delete the *Movies.mdf* file then proceed to Enable-Migrations). If you still get an error, open SQL Server Object Explorer and remove the database from the list. If you get an error indicating "Cannot attach the file .mdf as database", remove the Initial Catalog property as part of the connection string in the _web.config_ file.
 
 Run the application and navigate to the */Movies* URL. The seed data is displayed.
 
-![](adding-a-new-field/_static/image8.png)
+:::image type="content" source="adding-a-new-field/_static/image8.png" alt-text="Screenshot of the seed data being displayed when the application is run.":::
 
 ## Adding a Rating Property to the Movie Model
 
@@ -123,11 +124,11 @@ You've now updated the application code to support the new `Rating` property.
 
 Run the application and navigate to the */Movies* URL. When you do this, though, you'll see one of the following errors:
 
-![](adding-a-new-field/_static/image9.png)  
+:::image type="content" source="adding-a-new-field/_static/image9.png" alt-text="Screenshot of the errors seen when you run the application and navigate to the Movies U R L.":::  
   
 The model backing the 'MovieDBContext' context has changed since the database was created. Consider using Code First Migrations to update the database (https://go.microsoft.com/fwlink/?LinkId=238269).
 
-![](adding-a-new-field/_static/image10.png)
+:::image type="content" source="adding-a-new-field/_static/image10.png" alt-text="Screenshot of the error message and to consider using Code First Migrations to update the database.":::
 
 You're seeing this error because the updated `Movie` model class in the application is now different than the schema of the `Movie` table of the existing database. (There's no `Rating` column in the database table.)
 
@@ -157,11 +158,11 @@ Build the solution, and then enter the `update-database` command in the **Packag
 
 The following image shows the output in the **Package Manager Console** window (The date stamp prepending *Rating* will be different.)
 
-![](adding-a-new-field/_static/image11.png)
+:::image type="content" source="adding-a-new-field/_static/image11.png" alt-text="Screenshot of the output in the Package Manager Console window.":::
 
 Re-run the application and navigate to the /Movies URL. You can see the new Rating field.
 
-![](adding-a-new-field/_static/image12.png)
+:::image type="content" source="adding-a-new-field/_static/image12.png" alt-text="Screenshot of the new Rating field after you run the application again and navigate to the Movies U R L.":::
 
 Click the **Create New** link to add a new movie. Note that you can add a rating.
 

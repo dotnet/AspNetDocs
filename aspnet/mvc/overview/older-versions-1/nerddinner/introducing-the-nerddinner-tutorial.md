@@ -4,7 +4,8 @@ title: "Introducing the NerdDinner Tutorial | Microsoft Docs"
 author: shanselman
 description: "The best way to learn a new framework is to build something with it. This tutorial walks through how to build a small, but complete, application using ASP.NE..."
 ms.author: riande
-ms.date: 07/27/2010
+ms.date: 05/10/2022
+ms.custom: devdivchpfy22
 ms.assetid: 397522d5-0402-4b94-b810-a2fb564f869d
 msc.legacyurl: /mvc/overview/older-versions-1/nerddinner/introducing-the-nerddinner-tutorial
 msc.type: authoredcontent
@@ -25,29 +26,29 @@ The best way to learn a new framework is to build something with it. This tutori
 
 The application we are going to build is called "NerdDinner". NerdDinner provides an easy way for people to find and organize dinners online:
 
-![](introducing-the-nerddinner-tutorial/_static/image1.png)
+:::image type="content" source="introducing-the-nerddinner-tutorial/_static/image1.png" alt-text="Screenshot of the NerdDinner application to host a Dinner.":::
 
 NerdDinner enables registered users to create, edit and delete dinners. It enforces a consistent set of validation and business rules across the application:
 
-![](introducing-the-nerddinner-tutorial/_static/image2.png)
+:::image type="content" source="introducing-the-nerddinner-tutorial/_static/image2.png" alt-text="Screenshot of the NerdDinner application where registered users can create or edit or delete dinners.":::
 
 Visitors can use an AJAX-based map to search for upcoming dinners being held near them:
 
-![](introducing-the-nerddinner-tutorial/_static/image3.png)
+:::image type="content" source="introducing-the-nerddinner-tutorial/_static/image3.png" alt-text="Screenshot of the NerdDinner application where visitors can use an A J A X based map to search for upcoming dinners held near them.":::
 
 Clicking a dinner will take them to a details page where they can learn more about it:
 
-![](introducing-the-nerddinner-tutorial/_static/image4.png)
+:::image type="content" source="introducing-the-nerddinner-tutorial/_static/image4.png" alt-text="Screenshot of the details page when visitors click a dinner.":::
 
 If they are interested in attending the dinner they can login or register on the site:
 
-![](introducing-the-nerddinner-tutorial/_static/image5.png)
+:::image type="content" source="introducing-the-nerddinner-tutorial/_static/image5.png" alt-text="Screenshot of the Account information page to log on and register for the dinner if they are interested.":::
 
 They can then click an AJAX-based RSVP link to attend the event:
 
-![](introducing-the-nerddinner-tutorial/_static/image6.png)
+:::image type="content" source="introducing-the-nerddinner-tutorial/_static/image6.png" alt-text="Screenshot of the A J A X based R S V P link they can click to attend the event.":::
 
-![](introducing-the-nerddinner-tutorial/_static/image7.png)
+:::image type="content" source="introducing-the-nerddinner-tutorial/_static/image7.png" alt-text="Screenshot of the event confirmation page.":::
 
 ### Implementing NerdDinner
 

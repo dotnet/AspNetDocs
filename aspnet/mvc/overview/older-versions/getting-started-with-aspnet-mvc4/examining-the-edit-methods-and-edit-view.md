@@ -2,9 +2,10 @@
 uid: mvc/overview/older-versions/getting-started-with-aspnet-mvc4/examining-the-edit-methods-and-edit-view
 title: "Examining the Edit Methods and Edit View | Microsoft Docs"
 author: Rick-Anderson
-description: "Note: An updated version of this tutorial is available here that uses ASP.NET MVC 5 and Visual Studio 2013. It's more secure, much simpler to follow and demo..."
+description: "This tutorial aims to teach you that ASP.NET MVC 5 and Visual Studio 2013 is more secure, much simpler to follow and demonstrates more features."
 ms.author: riande
-ms.date: 08/28/2012
+ms.date: 05/17/2022
+ms.custom: devdivchpfy22
 ms.assetid: 41eb99ca-e88f-4720-ae6d-49a958da8116
 msc.legacyurl: /mvc/overview/older-versions/getting-started-with-aspnet-mvc4/examining-the-edit-methods-and-edit-view
 msc.type: authoredcontent
