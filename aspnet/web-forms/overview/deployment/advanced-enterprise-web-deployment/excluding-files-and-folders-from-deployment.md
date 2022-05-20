@@ -29,7 +29,7 @@ So how do you control what gets included in your web package? The project settin
 
 When you configure your web application project properties in Visual Studio, the **Items to deploy** list on the **Package/Publish Web** page lets you specify what you want to include in your web deployment package. By default, this is set to **Only files needed to run this application**.
 
-![](excluding-files-and-folders-from-deployment/_static/image1.png)
+![By default, this is set to Only files needed to run this application.](excluding-files-and-folders-from-deployment/_static/image1.png)
 
 When you choose **Only files needed to run this application**, the WPP will try to determine which files should be added to the web package. This includes:
 
@@ -51,7 +51,7 @@ In some cases, you'll want more fine-grained control over which files and folder
 
 However, this approach is not always convenient. For example, you may want to vary which files and folders are included according to your destination environment, and from outside Visual Studio. For example, in the Contact Manager sample solution, take a look at the contents of the ContactManager.Mvc project:
 
-![](excluding-files-and-folders-from-deployment/_static/image2.png)
+![The contents of the ContactManager.Mvc project.](excluding-files-and-folders-from-deployment/_static/image2.png)
 
 - The Internal folder contains some SQL scripts that the developer uses to create, drop, and populate local databases for development purposes. Nothing in this folder should be deployed to a staging or production environment.
 - The Scripts folder contains several JavaScript files. A lot of these files are included purely to support debugging or provide IntelliSense in Visual Studio. Some of these files should not be deployed to staging or production environments. However, you may want to deploy them to a developer test environment to facilitate troubleshooting.
@@ -82,7 +82,7 @@ The next procedure shows you how to add a *.wpp.targets* file to a web applicati
 3. In the **Add New Item** dialog box, select the **XML File** template.
 4. In the **Name** box, type *[project name]***.wpp.targets** (for example, **ContactManager.Mvc.wpp.targets**), and then click **Add**.
 
-    ![](excluding-files-and-folders-from-deployment/_static/image3.png)
+    ![In the Name box, type project name.wpp.targets, and then click Add.](excluding-files-and-folders-from-deployment/_static/image3.png)
 
     > [!NOTE]
     > If you add a new item to the root node of a project, the file is created in the same folder as the project file. You can verify this by opening the folder in Windows Explorer.

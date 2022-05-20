@@ -57,7 +57,7 @@ In more complex deployment scenarios, you'll often want to parameterize addition
 
 The easiest way to parameterize these properties is to add a *parameters.xml* file to the root folder of your web application project. For example, in the Contact Manager solution, the ContactManager.Mvc project includes a *parameters.xml* file in the root folder.
 
-![](configuring-parameters-for-web-package-deployment/_static/image1.png)
+![In the Contact Manager solution, the ContactManager.Mvc project includes a *parameters.xml* file in the root folder.](configuring-parameters-for-web-package-deployment/_static/image1.png)
 
 If you open this file, you'll see that it contains a single **parameter** entry. The entry uses an XML Path Language (XPath) query to locate and parameterize the endpoint URL of the ContactService Windows Communication Foundation (WCF) service in the *web.config* file.
 

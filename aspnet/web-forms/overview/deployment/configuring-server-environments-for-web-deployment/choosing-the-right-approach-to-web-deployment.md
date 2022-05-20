@@ -89,7 +89,7 @@ In the case of non-administrator users, the Web Management Service (WMSvc) will 
 
 [!code-console[Main](choosing-the-right-approach-to-web-deployment/samples/sample6.cmd)]
 
-```suggestion
+Suggestion
 For example, suppose a build process is configured to automatically deploy a web application to a staging environment after every successful build. If you used the remote agent approach, you'd need to make the build process identity an administrator on your destination servers. In contrast, using the Web Deploy Handler approach you can give a non-administrator user&#x2014;**FABRIKAM\stagingdeployer** in this case&#x2014;permission to a specific IIS website only, and the build process can provide these credentials to deploy the web package. Note the following example is using `%ContactManagerPublishPassword%`, which is pulling the password value from an environment variable. To successfully execute the script, `%ContactManagerPublishPassword%`  variable must be defined with the correct value.
 
 [!code-console[Main](choosing-the-right-approach-to-web-deployment/samples/sample7.cmd)]
@@ -107,7 +107,7 @@ In some cases, it's not possible or practical to deploy applications and content
 
 In scenarios like these, you can still use the packaging and publishing capabilities of Web Deploy; you just can't use them from a remote location. Instead, an administrator on the destination server must copy the web package onto the server and import it through IIS Manager.
 
-![](choosing-the-right-approach-to-web-deployment/_static/image1.png)
+![Instead, an administrator on the destination server must copy the web package onto the server and import it through IIS Manager.](choosing-the-right-approach-to-web-deployment/_static/image1.png)
 
 The offline deployment approach is typically useful in Internet-facing production environments, where servers in a perimeter network may have restricted connectivity with computers in the internal network.
 

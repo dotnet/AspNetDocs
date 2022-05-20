@@ -53,7 +53,7 @@ If you're using a custom project file to build your projects, you can include th
 
 [!code-xml[Main](troubleshooting-the-packaging-process/samples/sample3.xml)]
 
-If you're using a Team Foundation Server (TFS) build definition to build your projects, you can supply a value for the **EnablePackageProcessLoggingAndAssert** property in the **MSBuild Arguments** row:![](troubleshooting-the-packaging-process/_static/image1.png)
+If you're using a Team Foundation Server (TFS) build definition to build your projects, you can supply a value for the **EnablePackageProcessLoggingAndAssert** property in the **MSBuild Arguments** row:![If you're using a Team Foundation Server (T F S) build definition to build your projects, you can supply a value for the EnablePackageProcessLoggingAndAssert property in the MSBuild Arguments.](troubleshooting-the-packaging-process/_static/image1.png)
 
 > [!NOTE]
 > For more information on creating and configuring build definitions, see [Creating a Build Definition That Supports Deployment](../configuring-team-foundation-server-for-web-deployment/creating-a-build-definition-that-supports-deployment.md).
@@ -66,7 +66,7 @@ Alternatively, if you want to include the package in every build, you can modify
 
 When you build and package a web application project with **EnablePackageProcessLoggingAndAssert** set to **true**, MSBuild creates an additional folder named Log in the *ProjectName*\_Package folder. The Log folder contains various files:
 
-![](troubleshooting-the-packaging-process/_static/image2.png)
+![MSBuild creates an additional folder named Log in the ProjectName\_Package folder.](troubleshooting-the-packaging-process/_static/image2.png)
 
 The list of files that you see will vary according to the things in your project and your build process. However, these files are typically used to record the list of files that the WPP is collecting for packaging, at various stages of the process:
 

@@ -56,7 +56,7 @@ You can create a Transact-SQL script in a lot of different ways, and in any loca
 4. Right-click the **Test** folder, point to **Add**, and then click **Script**.
 5. In the **Add New Item** dialog box, give your script a meaningful name (for example, **AddRoleMemberships.sql**), and then click **Add**.
 
-    ![](deploying-database-role-memberships-to-test-environments/_static/image1.png)
+    ![In the Add New Item dialog box, give your script a meaningful name (for example, AddRoleMemberships.sql), and then click Add.](deploying-database-role-memberships-to-test-environments/_static/image1.png)
 6. In the *AddRoleMemberships.sql* file, add Transact-SQL statements that:
 
     1. Create a database user for the SQL Server login that will access your database.

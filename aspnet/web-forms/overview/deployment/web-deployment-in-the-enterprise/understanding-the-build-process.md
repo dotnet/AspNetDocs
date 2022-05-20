@@ -32,11 +32,11 @@ In the [Contact Manager solution](the-contact-manager-solution.md), three files 
 
 In the sample solution, you can find these three files in the Publish solution folder.
 
-![](understanding-the-build-process/_static/image1.png)
+![In the sample solution, you can find three files in the Publish solution folder.](understanding-the-build-process/_static/image1.png)
 
 Before you look at these files in more detail, let's take a look at how the overall build process works when you use this approach. At a high level, the build and deployment process looks like this:
 
-![](understanding-the-build-process/_static/image2.png)
+![What the build and deployment process looks like at a high level.](understanding-the-build-process/_static/image2.png)
 
 The first thing that happens is that the two project files&#x2014;one containing universal build and deployment instructions, and one containing environment-specific settings&#x2014;are merged into a single project file. MSBuild then works through the instructions in the project file. It builds each of the projects in the solution, using the project file for each project. It then calls out to other tools, like Web Deploy (MSDeploy.exe) and the VSDBCMD utility to deploy your web content and databases to the target environment.
 
