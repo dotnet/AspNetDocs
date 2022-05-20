@@ -214,7 +214,7 @@ Verify that an *Elmah* folder exists with only the placeholder file in it.
 
 Open the *Web.config* file in the deployed application at *C:\inetpub\wwwroot\ContosoUniversity* and you can see where the deployment process configured Code First Migrations to automatically update the database to the latest version.
 
-![](deployment-to-a-hosting-provider-deploying-to-iis-as-a-test-environment-5-of-12/_static/image35.png)
+![Screenshot that highlights where the deployment process configured Code First Migrations to automatically update the database to the latest version.](deployment-to-a-hosting-provider-deploying-to-iis-as-a-test-environment-5-of-12/_static/image35.png)
 
 The deployment process also created a new connection string for Code First Migrations to use exclusively for updating the database schema:
 

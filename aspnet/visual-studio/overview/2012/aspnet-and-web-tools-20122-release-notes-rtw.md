@@ -1,6 +1,6 @@
 ---
 uid: visual-studio/overview/2012/aspnet-and-web-tools-20122-release-notes-rtw
-title: "ASP.NET and Web Tools 2012.2 Release Notes | Microsoft Docs"
+title: "ASP.NET and Web Tools 2012.2 Release Notes RTW | Microsoft Docs"
 author: rick-anderson
 description: "Release notes for ASP.NET and Web Tools 2012.2."
 ms.author: riande
@@ -9,7 +9,7 @@ ms.assetid: 9534e58b-1d15-4f1d-b04c-10c79b9d8227
 msc.legacyurl: /visual-studio/overview/2012/aspnet-and-web-tools-20122-release-notes-rtw
 msc.type: content
 ---
-# ASP.NET and Web Tools 2012.2 Release Notes
+# ASP.NET and Web Tools 2012.2 Release Notes (RTW)
 
 > This document describes the release of ASP.NET and Web Tools 2012.2. It is an update to Visual Studio Web Tooling and ASP.NET.
 
@@ -38,7 +38,7 @@ You can also install ASP.NET and Web Tools 2012.2 manually. You must have Visual
 1. Download [ASP.NET and Web Frameworks 2012.2](https://download.microsoft.com/download/6/5/6/6562AFBE-9503-4E64-970C-1427133FCD73/AspNetWebTools2012Setup.exe) installer from Download Center.
 2. When prompted click Run. You can also save the file to run it later.
 3. Verify the version of Visual Studio you will update. You can do this by launching the Visual Studio you wish to update. Then click the Help menu item.   
-    ![](aspnet-and-web-tools-20122-release-notes-rtw/_static/image1.jpg)
+    ![Screenshot that shows the Help drop down menu. About Microsoft Visual Studio Express 2012 for Web is circled in red.](aspnet-and-web-tools-20122-release-notes-rtw/_static/image1.jpg)
 4. If you see the menu item &quot;About Microsoft Visual Studio 2012 for Web&quot; then download Web Developer Tools 2012.2 - Visual Studio Express 2012 for Web. Otherwise download Web Developer Tools 2012.2 - Visual Studio 2012.
 5. When prompted click Run. You can also save the file to run it later.
 
@@ -207,7 +207,7 @@ The workaround is to repair your Visual Studio 2012 installation to reinstall AS
 
 After installing ASP.NET and Web Tools 2012.2 you may see the following error when creating an MVC 4 project
 
-![](aspnet-and-web-tools-20122-release-notes-rtw/_static/image1.png)
+![Screenshot that shows a Microsoft Visual Studio error message.](aspnet-and-web-tools-20122-release-notes-rtw/_static/image1.png)
 
 The ASP.NET and Web Tools 2012.2 ships NuGet 2.1 and will upgrade the extension in Visual Studio 2012. In some cases, the VSIX installer will fail to correctly update the VSIX. The following steps will allow you to address this problem:
 

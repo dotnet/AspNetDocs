@@ -28,7 +28,7 @@ Each framework targets a different development style. The one you choose depends
 
 Below is an overview of each of the frameworks and some ideas for how to choose between them. If you prefer a video introduction, see [Making Websites with ASP.NET](https://channel9.msdn.com/Blogs/ASP-NET-Site-Videos/Making-Websites-with-ASPNET) and [What is Web Tools?](https://channel9.msdn.com/Blogs/ASP-NET-Site-Videos/what-is-web-tools)
 
-|   | If you have experience in | Development style | Expertise |
+| Framework  | If you have experience in | Development style | Expertise |
 |-----------|----------------------|-----------------------------------------------------|----------------|
 | Web Forms | Win Forms, WPF, .NET | Rapid development using a rich library of controls that encapsulate HTML markup | Mid-Level, Advanced RAD |
 | MVC       | Ruby on Rails, .NET  | Full control over HTML markup, code and markup separated, and easy to write tests. The best choice for mobile and single-page applications (SPA). | Mid-Level, Advanced |

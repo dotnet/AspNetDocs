@@ -37,7 +37,7 @@ The WSAT is divided into three sections:
 
 The Security section (shown in **Figure 1**) includes links for creating new users, managing users, creating and managing roles, and creating and managing access rules. From here you can add a new role to the system, delete an existing user, or add or remove roles from a particular user account.
 
-[![](users-and-roles-on-the-production-website-cs/_static/image2.png)](users-and-roles-on-the-production-website-cs/_static/image1.png)
+[![Screenshot that shows the options for managing users and roles.](users-and-roles-on-the-production-website-cs/_static/image2.png)](users-and-roles-on-the-production-website-cs/_static/image1.png)
 
 **Figure 1**: The WSAT Security Section Includes Options for Managing Users and Roles  
 ([Click to view full-size image](users-and-roles-on-the-production-website-cs/_static/image3.png))
@@ -52,21 +52,21 @@ In a nutshell, the WSAT must be accessed locally through the development environ
 
 To illustrate this functionality, open the `databaseConnectionStrings.config` file in Visual Studio on the development environment and replace the development database connection string with the production database connection string. Then launch the WSAT, go the Security tab, and add a new user named Sam with password "password!" (less the quotation marks). **Figure 2** shows the WSAT screen when creating this account.
 
-[![](users-and-roles-on-the-production-website-cs/_static/image5.png)](users-and-roles-on-the-production-website-cs/_static/image4.png)
+[![Screenshot that shows the new user created in the production environment.](users-and-roles-on-the-production-website-cs/_static/image5.png)](users-and-roles-on-the-production-website-cs/_static/image4.png)
 
 **Figure 2**: Create a New User Named Sam In the Production Environment  
 ([Click to view full-size image](users-and-roles-on-the-production-website-cs/_static/image6.png))
 
 Because we changed the connection string in `databaseConnectionStrings.config` to point to the production database server, Sam was added as a user in the production environment. To verify this, change the connection string in the `databaseConnectionStrings.config` file back to the development database and then visit the `Login.aspx` page in the development environment. Try to sign in as Sam (see **Figure 3**).
 
-[![](users-and-roles-on-the-production-website-cs/_static/image8.png)](users-and-roles-on-the-production-website-cs/_static/image7.png)
+[![Screenshot that shows that you cannot sign in as Sam in the development environment.](users-and-roles-on-the-production-website-cs/_static/image8.png)](users-and-roles-on-the-production-website-cs/_static/image7.png)
 
 **Figure 3**: You Cannot Sign In As Sam in the Development Environment  
 ([Click to view full-size image](users-and-roles-on-the-production-website-cs/_static/image9.png))
 
 You cannot sign in as Sam in the development environment because the user account information does not exist in the local database. Rather, is was added to the production database. To verify this, view the contents of the `aspnet_Users` table in both the development and production databases. In the development environment there should be only three records for users Scott, Jisun, and Alice. However, the `aspnet_Users` table in the production database has four records: Scott, Jisun, Alice, and Sam. Consequently, Sam can sign in through the website in production, but not through the development environment.
 
-[![](users-and-roles-on-the-production-website-cs/_static/image11.png)](users-and-roles-on-the-production-website-cs/_static/image10.png)
+[![Screenshot that shows that Sam can sign in to the production web site.](users-and-roles-on-the-production-website-cs/_static/image11.png)](users-and-roles-on-the-production-website-cs/_static/image10.png)
 
 **Figure 4**: Sam Can Sign In On the Production Website  
 ([Click to view full-size image](users-and-roles-on-the-production-website-cs/_static/image12.png))
@@ -82,7 +82,7 @@ ASP.NET includes a number of built-in Login-related Web controls that make imple
 
 In the [*Configuring a Website That Uses Application Services* tutorial](configuring-a-website-that-uses-application-services-cs.md) I added a page to the `Admin` folder named `CreateAccount.aspx`. This page allows an administrator to add a new user account to the site and to specify whether or not the newly created user is in the Admin role (see **Figure 5**).
 
-[![](users-and-roles-on-the-production-website-cs/_static/image14.png)](users-and-roles-on-the-production-website-cs/_static/image13.png)
+[![Screenshot that shows that administrators can create new user accounts.](users-and-roles-on-the-production-website-cs/_static/image14.png)](users-and-roles-on-the-production-website-cs/_static/image13.png)
 
 **Figure 5**: Administrators Can Create New User Accounts  
 ([Click to view full-size image](users-and-roles-on-the-production-website-cs/_static/image15.png))

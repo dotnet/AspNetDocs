@@ -1,8 +1,8 @@
 ---
 uid: aspnet/overview/developing-apps-with-windows-azure/building-real-world-cloud-apps-with-windows-azure/monitoring-and-telemetry
-title: "Monitoring and Telemetry (Building Real-World Cloud Apps with Azure) | Microsoft Docs"
-author: MikeWasson
-description: "The Building Real World Cloud Apps with Azure e-book is based on a presentation developed by Scott Guthrie. It explains 13 patterns and practices that can he..."
+title: Monitoring and Telemetry (Building Real-World Cloud Apps with Azure) | Microsoft Docs
+author: Rick-Anderson
+description: The e-book for 'Building Real World Cloud Apps with Azure' is based on a presentation developed by Scott Guthrie. This e-book explains 13 patterns and practices that can he...
 ms.author: riande
 ms.date: 07/09/2015
 ms.assetid: 7e986ab5-6615-4638-add7-4614ce7b51db
@@ -87,7 +87,7 @@ Here are just a few of the statistics you can see:
 
     ![External services](monitoring-and-telemetry/_static/image15.png)
 
-    ![External services](monitoring-and-telemetry/_static/image16.png)
+    ![External services2](monitoring-and-telemetry/_static/image16.png)
 
     ![External service](monitoring-and-telemetry/_static/image17.png)
 - Information about where in the world or where in the U.S. web app traffic came from.
@@ -181,7 +181,7 @@ So now for every time the Fix It app has made a call to SQL Database, you can se
 
 ![SQL Database query in logs](monitoring-and-telemetry/_static/image21.png)
 
-![](monitoring-and-telemetry/_static/image22.png)
+![screenshot showing the Edit Entity Properties and what each property should look like for a successful update with how much time it took.](monitoring-and-telemetry/_static/image22.png)
 
 If you go browsing through the logs, you can see that the time database calls take is variable. That information could be useful: because the app logs all this you can analyze historical trends in how the database service is performing over time. For instance, a service might be fast most of the time but requests might fail or responses might slow down at certain times of day.
 
@@ -235,7 +235,7 @@ After you enable logging in Azure, you can see logs in the Visual Studio Output 
 
 ![Streaming logs menu](http://wacomdpsstorage.blob.core.windows.net/articlesmedia/content-ppe.windowsazure.com/documentation/articles/web-sites-dotnet-troubleshoot-visual-studio/20140115062810/tws-viewlogsmenu.png)
 
-![Streaming logs menu](http://wacomdpsstorage.blob.core.windows.net/articlesmedia/content-ppe.windowsazure.com/documentation/articles/web-sites-dotnet-troubleshoot-visual-studio/20140115062810/tws-nologsyet.png)
+![Streaming logs menu2](http://wacomdpsstorage.blob.core.windows.net/articlesmedia/content-ppe.windowsazure.com/documentation/articles/web-sites-dotnet-troubleshoot-visual-studio/20140115062810/tws-nologsyet.png)
 
 You can also have logs written to your storage account and view them with any tool that can access the Azure Storage Table service, such as **Server Explorer** in Visual Studio or [Azure Storage Explorer](https://azure.microsoft.com/features/storage-explorer/).
 

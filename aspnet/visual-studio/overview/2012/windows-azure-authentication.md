@@ -32,7 +32,7 @@ by [Rick Anderson](https://twitter.com/RickAndMSFT)
 You can create any Web Application with Visual Studio 2012, this tutorial uses the ASP.NET MVC intranet template.
 
 1. Create a new ASP.NET MVC 4 Intranet Application and accept all the defaults. (It must be an In **tra** net and not In **ter** net project).
-     ![](windows-azure-authentication/_static/image1.png)
+     ![Screenshot that shows the Project Template dialog box. Intranet Application is selected.](windows-azure-authentication/_static/image1.png)
 
 ## Enable Window Azure Authentication (When you are a Global Administrator of the Tenet)
 
@@ -40,23 +40,23 @@ If you do not have an existing Windows Azure Active Directory tenant (For exampl
 
 1. From the Project menu select **Enable Windows Azure Authentication**:
 
-   ![](windows-azure-authentication/_static/image2.png)
+   ![Screenshot that shows the Project drop down menu. Enable Windows Azure Authentication is circled in red.](windows-azure-authentication/_static/image2.png)
 
 2. Enter the domain for your Windows Azure Active Directory tenant (for example, contoso.onmicrosoft.com) and click **Enable**:
 
-![](windows-azure-authentication/_static/image3.png)
+![Screenshot that shows Enable Windows Azure Authentication dialog box.](windows-azure-authentication/_static/image3.png)
 
 3. In the Web Authentication dialog sign in as an administrator for your Windows Azure Active Directory tenant:
 
-   ![](windows-azure-authentication/_static/image4.png)
+   ![Screenshot that shows the Microsoft Office 3 6 5 Web Authentication sign in page.](windows-azure-authentication/_static/image4.png)
 
-![](windows-azure-authentication/_static/image5.png)
+![Screenshot that shows Windows Azure sign in page.](windows-azure-authentication/_static/image5.png)
 
 ## Enable Window Azure by a non-administrator of the Tenet
 
 If you do not have Global Administrator privilege for your Windows Azure Active Directory tenant, you can uncheck the checkbox for provisioning the application.
 
-![](windows-azure-authentication/_static/image6.png)
+![Screenshot that shows the Enable Windows Azure Authentication dialog box.](windows-azure-authentication/_static/image6.png)
 
 The dialog will display the **Domain**, **Application Principal Id** and **Reply URL** which are required for provisioning the application with an Azure Active Directory tenet. You need to give this information to someone who has sufficient privilege to provision the application. See[How to implement single sign-on with Windows Azure Active Directory - ASP.NET Application](https://github.com/Azure-Samples/active-directory-dotnet-webapp-openidconnect) for details on how to use cmdlet to create the service principal manually.
 Once the application has been successfully provisioned, you can click on **Continue to update web.config with the selected settings**. If you want to continue developing the application while waiting for provisioning to happen, you can click **Close to remember the settings in project file**. The next time you invoke Enable Windows Azure Authentication and uncheck the provisioning checkbox, you will see the same settings and you can click **Continue**, then click, **Apply these settings in web.config**.
@@ -64,18 +64,18 @@ Once the application has been successfully provisioned, you can click on **Conti
 1. Wait while your application is configured for Windows Azure Authentication and provisioned with Windows Azure Active Directory.
 2. Once Windows Azure Authentication has been enabled for your application, click **Close:**
 
-    ![](windows-azure-authentication/_static/image7.png)
+    ![Screenshot that shows the dialog box titled Enable Windows Azure Authentication.](windows-azure-authentication/_static/image7.png)
 3. Hit F5 to run your application. You should automatically get redirected to login page. Use the directory tenet user credentials to login to the application..
 
-    ![](windows-azure-authentication/_static/image1.jpg)
+    ![Screenshot that shows the Windows Azure sign in page.](windows-azure-authentication/_static/image1.jpg)
 4. Because your application is currently using a self-signed test certificate you will receive a warning from the browser that the certificate was not issued by a trusted certificate authority.
 
     This warning can be safely ignored during local development by clicking **Continue to this website:**
 
-    ![](windows-azure-authentication/_static/image8.png)
+    ![Screenshot that shows a website security warning. Continue to this website not recommended is circled in red.](windows-azure-authentication/_static/image8.png)
 5. You have now successfully logged in to your application using Windows Azure Authentication!
 
-    ![](windows-azure-authentication/_static/image2.jpg)
+    ![Screenshot that shows the Home Page of My A S P dot NET.](windows-azure-authentication/_static/image2.jpg)
 
 Enabling Windows Azure authentication makes the following changes to your application:
 
@@ -83,7 +83,7 @@ Enabling Windows Azure authentication makes the following changes to your applic
 - The NuGet packages `System.IdentityModel.Tokens.ValidatingIssuerNameRegistry` is added to your project.
 - Windows Identity Foundation settings in your application will be configured to accept security tokens from your Windows Azure Active Directory tenant. Click on the image below to see an expanded view of the changes made to the *Web.config* file.
 
-     ![](windows-azure-authentication/_static/image9.png)
+     ![Screenshot that shows code lines 9 through 67. Some lines are removed from the screenshot and lines 92 through 97 are remaining.](windows-azure-authentication/_static/image9.png)
 - A service principal for your application in your Windows Azure Active Directory tenant will be provisioned.
 - HTTPS is enabled.
 
@@ -95,37 +95,37 @@ To publish an application using Windows Azure Authentication to an Azure Web Sit
 
 1. Right click on your application and select **Publish:**
 
-    ![](windows-azure-authentication/_static/image3.jpg)
+    ![Screenshot that shows the Win Azure Auth Demo right click menu. Publish is selected.](windows-azure-authentication/_static/image3.jpg)
 2. From the Publish Web dialog download and import a publishing profile for your Azure Web Site.
 
-    ![](windows-azure-authentication/_static/image4.jpg)
+    ![Screenshot that shows the Profile page in the Publish Web dialog box.](windows-azure-authentication/_static/image4.jpg)
 3. The **Connection** tab shows the **Destination URL** (the public facing URL for your application). Click **Validate Connection** to test your connection:
 
-    ![](windows-azure-authentication/_static/image5.jpg)
+    ![Screenshot that shows the Connection page in the Publish Web dialog box.](windows-azure-authentication/_static/image5.jpg)
 4. If you have published to this Azure Web Site previously consider checking the **Remove additional files at destination** setting to ensure your application publishes cleanly. Notice the **Enable Windows Azure Authentication** check box is selected.
 
-    ![](windows-azure-authentication/_static/image10.png)
+    ![Screenshot that shows the Settings page in the Publish Web dialog box. Enable Windows Azure Authentication is checked and circled in red.](windows-azure-authentication/_static/image10.png)
 5. Optional: On the **Preview** tab click **Start Preview** to see the files deployed.
 
-    ![](windows-azure-authentication/_static/image6.jpg)
+    ![Screenshot that shows the Preview page in the Publish Web dialog box.](windows-azure-authentication/_static/image6.jpg)
 6. Click **Publish.**
 
     You will be prompted to enable Windows Azure Authentication for the target host. Click **Enable** to continue:
 
-    ![](windows-azure-authentication/_static/image11.png)
+    ![Screenshot showing the Enable Windows Azure Authentication dialog box.](windows-azure-authentication/_static/image11.png)
 7. Enter your administrator credentials for your Windows Azure Active Directory tenant:
 
-    ![](windows-azure-authentication/_static/image7.jpg)
+    ![Screenshot that shows the Windows Azure Web Authentication sign in page.](windows-azure-authentication/_static/image7.jpg)
 8. Once your application has been successfully published, a browser will open to the published web site.
 
     > [!NOTE]
     > It may take up to five minutes (typically much less) for your application to be fully provisioned with Windows Azure Active Directory after enabling Windows Azure Authentication for the target host. When you first run your application if you receive error ACS50001: Relying party with name ‘[realm]' was not found, then wait a few minutes and try running the application again.
 9. When prompted, log in as a user in your directory:
 
-    ![](windows-azure-authentication/_static/image8.jpg)
+    ![Screenshot that shows the Windows Azure log in page.](windows-azure-authentication/_static/image8.jpg)
 10. You have now successfully logged into your Azure hosted application using Windows Azure Authentication.
 
-     ![](windows-azure-authentication/_static/image9.jpg)
+     ![Screenshot that shows the My A S P dot NET Home Page.](windows-azure-authentication/_static/image9.jpg)
 
 ## Known Issues
 

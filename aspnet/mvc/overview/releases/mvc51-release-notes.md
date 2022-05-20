@@ -2,7 +2,7 @@
 uid: mvc/overview/releases/mvc51-release-notes
 title: "What's New in ASP.NET MVC 5.1 | Microsoft Docs"
 author: rick-anderson
-description: ""
+description: "These release notes cover what's new in ASP.NET MVC 5.1, including software requirements, new features, known issues, and breaking changes."
 ms.author: riande
 ms.date: 02/27/2014
 ms.assetid: 9a83a058-9b01-48aa-acce-ec041e694567
@@ -25,7 +25,7 @@ This topic describes what's new for ASP.NET Web MVC 5.1.
     - [Enum support in views](#Enum)
     - [Unobtrusive validation for MinLength/MaxLength Attributes](#Unobtrusive)
     - [Supporting the ‘this' context in Unobtrusive Ajax](#thisContext)
-- [Known Issues and Breaking Changes](#KnownBreakingChanges)- [Bug Fixes](#bug-fixes)
+- [Known Issues and Breaking Changes](#KnownBreakingChanges)- [Bug Fixes]()
 
 <a id="SoftwareRequirements"></a>
 ## Software Requirements

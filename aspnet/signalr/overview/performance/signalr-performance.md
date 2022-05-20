@@ -2,7 +2,7 @@
 uid: signalr/overview/performance/signalr-performance
 title: "SignalR Performance | Microsoft Docs"
 author: bradygaster
-description: "SignalR Performance"
+description: "Describes how to design for, measure, and improve performance in a SignalR application."
 ms.author: bradyg
 ms.date: 06/10/2014
 ms.assetid: 3751f5e7-59db-4be0-a290-50abc24e5c84
@@ -137,7 +137,7 @@ Performance counters can be added to the server using a utility called SignalR.e
 1. In Visual Studio, select **Tools** > **NuGet Package Manager** > **Manage NuGet Packages for Solution**
 2. Search for **signalr.utils**, and select Install.
 
-    ![](signalr-performance/_static/image1.png)
+    ![Screenshot that shows Microsoft A S P dot NET Signal R Utilities selected.](signalr-performance/_static/image1.png)
 3. Accept the license agreement to install the package.
 4. SignalR.exe will be installed to `<project folder>/packages/Microsoft.AspNet.SignalR.Utils.<version>/tools`.
 

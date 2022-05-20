@@ -1,8 +1,8 @@
 ---
 uid: aspnet/overview/developing-apps-with-windows-azure/building-real-world-cloud-apps-with-windows-azure/automate-everything
-title: "Automate Everything (Building Real-World Cloud Apps with Azure) | Microsoft Docs"
-author: MikeWasson
-description: "The Building Real World Cloud Apps with Azure e-book is based on a presentation developed by Scott Guthrie. It explains 13 patterns and practices that can he..."
+title: Automate Everything (Building Real-World Cloud Apps with Azure) | Microsoft Docs
+author: Rick-Anderson
+description: The following e-book 'Building Real World Cloud Apps with Azure' is based on a presentation developed by Scott Guthrie. This e-book explains 13 patterns and practices that can he...
 ms.author: riande
 ms.date: 06/12/2014
 ms.assetid: ba6e6baa-9b9f-471f-b39d-b007a3addadc
@@ -243,10 +243,10 @@ In the [next chapter](source-control.md) we'll look at source code and explain w
 
 ## Resources
 
-- [Install and Configure Windows PowerShell for Azure](/powershell/azure/overview?view=azurermps-4.3.1). Explains how to install the Azure PowerShell cmdlets and how to install the certificate that you need on your computer in order to manage your Azure account. This is a great place to get started because it also has links to resources for learning PowerShell itself.
+- [Install and Configure Windows PowerShell for Azure](/powershell/azure/overview?view=azurermps-4.3.1&preserve-view=true). Explains how to install the Azure PowerShell cmdlets and how to install the certificate that you need on your computer in order to manage your Azure account. This is a great place to get started because it also has links to resources for learning PowerShell itself.
 - [Azure Script Center](/azure/automation/automation-runbook-gallery). WindowsAzure.com portal to resources for developing scripts that manage Azure services, with links to getting started tutorials, cmdlet reference documentation and source code, and sample scripts
 - [Weekend Scripter: Getting Started with Azure and PowerShell](https://blogs.technet.com/b/heyscriptingguy/archive/2013/06/22/weekend-scripter-getting-started-with-windows-azure-and-powershell.aspx). In a blog dedicated to Windows PowerShell, this post provides a great introduction to using PowerShell for Azure management functions.
-- [Install and Configure the Azure Cross-Platform Command-Line Interface](/cli/azure/install-azure-cli?view=azure-cli-latest). Getting-started tutorial for an Azure scripting framework that works on Mac and Linux as well as Windows systems.
+- [Install and Configure the Azure Cross-Platform Command-Line Interface](/cli/azure/install-azure-cli?view=azure-cli-latest&preserve-view=true). Getting-started tutorial for an Azure scripting framework that works on Mac and Linux as well as Windows systems.
 - [Command-line tools section of the Download Azure SDKs and Tools topic](https://azure.microsoft.com/downloads/). Portal page for documentation and downloads related to command-line tools for Azure.
 - [Automating everything with the Azure Management Libraries and .NET](http://www.hanselman.com/blog/PennyPinchingInTheCloudAutomatingEverythingWithTheWindowsAzureManagementLibrariesAndNET.aspx). Scott Hanselman introduces the .NET management API for Azure.
 - [Using Windows PowerShell Scripts to Publish to Dev and Test Environments](https://msdn.microsoft.com/library/azure/dn642480.aspx). MSDN documentation that explains how to use publish scripts that Visual Studio automatically generates for web projects.

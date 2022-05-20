@@ -21,13 +21,13 @@ by [Mads Kristensen](https://github.com/madskristensen)
 
 The Breeze/Angular SPA template is a variation on the [KnockoutJS SPA template](../introduction/knockoutjs-template.md) included in the ASP.NET and Web Tools 2012.2 Update. If you've got Visual Studio, you'll have an example SPA up and running in less than 60 seconds.
 
-![](http://www.breezejs.com/sites/all/images/spa-template/NgRunningTodoPage.png)
+:::image type="icon" source="http://www.breezejs.com/sites/all/images/spa-template/NgRunningTodoPage.png":::
 
 Outwardly, the application looks the very similar to the KnockoutJS SPA template. But it's quite different under the hood. The KnockoutJS template uses Knockout for data binding and raw AJAX for data access. The Breeze/Angular template uses Angular for data binding and Breeze for data access. These libraries enable additional capabilities, including page navigation and history.
 
 Here is the application's About page:
 
-![](http://www.breezejs.com/sites/all/images/spa-template/NgRunningAboutPage.png)
+:::image type="icon" source="http://www.breezejs.com/sites/all/images/spa-template/NgRunningAboutPage.png":::
 
 This page displays a running log of events during the current user session, including:
 
@@ -56,15 +56,15 @@ In the **Templates** pane, select **Installed Templates** and expand the **Visua
 
 In the **New Project** wizard, select **Breeze Angular SPA**.
 
-![](http://www.breezejs.com/sites/all/images/spa-template/SelectBreezeNgSpaTemplate.png)
+:::image type="icon" source="http://www.breezejs.com/sites/all/images/spa-template/SelectBreezeNgSpaTemplate.png":::
 
 Press Ctrl-F5 to build and run the application without debugging, or press F5 to run with debugging.
 
-![](http://www.breezejs.com/sites/all/images/spa-template/ZephyrLogin.png)
+:::image type="icon" source="http://www.breezejs.com/sites/all/images/spa-template/ZephyrLogin.png":::
 
 When the application first runs, it displays a login screen. Click the "Sign up" link and a new page glides into view, where you can enter a username and password. (The login and registration pages are built using ASP.NET MVC.) When you submit the registration form, the server generates a TodoList with two items for your account. Then it presents them to you on a yellow note.
 
-![](http://www.breezejs.com/sites/all/images/spa-template/TodoList.png)
+:::image type="icon" source="http://www.breezejs.com/sites/all/images/spa-template/TodoList.png":::
 
 Now you are in the land of SPA. Everything you see and experience while manipulating Todos is rendered and managed on the client with the help of Knockout and Breeze. Explore the app as a user … but with a developer's eye. Use the developer tools in your browser to capture the network traffic. (In Internet Explorer: Press F12, select the **Network** tab, and click **Start capturing**.) Now try the following:
 
@@ -90,7 +90,7 @@ Also, notice there is no network traffic when you switch between the TodoList an
 
 This application has a client side and a server side. The client-side stack consists of a little HTML and a combination of application JavaScript modules (in the "app" folder) plus third-party JavaScript libraries (in the "Scripts" folder).
 
-![](http://www.breezejs.com/sites/all/images/spa-template/NgClientArchitecture2.png)
+:::image type="icon" source="http://www.breezejs.com/sites/all/images/spa-template/NgClientArchitecture2.png":::
 
 The UI architecture separates the HTML widgets of the views from the supporting presentation code in the controllers. The Angular data-binding system coordinates views and controllers so that each can do its job without intimate knowledge of the other.
 
@@ -98,7 +98,7 @@ The controller asks the data context to acquire and save the model entities. The
 
 The server-side stack consists of some developer code and three principle .NET libraries: Web API, Entity Framework, and Breeze.NET:
 
-![](http://www.breezejs.com/sites/all/images/spa-template/ServerArchitecture.png)
+:::image type="icon" source="http://www.breezejs.com/sites/all/images/spa-template/ServerArchitecture.png":::
 
 The basic architecture is the same as the KnockoutJS SPA template. However, the implementation is much simpler: The DTOs were deleted, and most of the Entity Framework details have been delegated to Breeze.NET.
 

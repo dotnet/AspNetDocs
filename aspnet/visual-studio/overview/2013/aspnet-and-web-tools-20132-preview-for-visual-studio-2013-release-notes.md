@@ -1,8 +1,8 @@
 ---
 uid: visual-studio/overview/2013/aspnet-and-web-tools-20132-preview-for-visual-studio-2013-release-notes
-title: "ASP.NET and Web Tools 2013.2  for Visual Studio 2013 Release Notes | Microsoft Docs"
+title: ASP.NET and Web Tools 2013.2 for Visual Studio 2013 Release Notes | Microsoft Docs
 author: rick-anderson
-description: ""
+description: ASP.NET and Web Tools for Visual Studio 2013.2 are bundled in the main installer and can be downloaded as part of Visual Studio 2013 Update 2.
 ms.author: riande
 ms.date: 03/06/2014
 ms.assetid: 7ef5f73c-ca60-43c1-bdb2-702800347e7e
@@ -96,7 +96,9 @@ Firefox uses its own certificate store, so it will display a warning.
     ![Add New Item: SCSS Style Sheet](aspnet-and-web-tools-20132-preview-for-visual-studio-2013-release-notes/_static/image9.png)    ![Style sheet editor](aspnet-and-web-tools-20132-preview-for-visual-studio-2013-release-notes/_static/image10.png)
 - **New URL Picker in HTML, Razor, CSS, LESS and Sass documents:** VS 2013 shipped with no URL picker outside of Web Forms pages. The new URL picker for HTML, Razor, CSS, LESS and Sass editors is a dialog-free, fluent typing picker that understands '..' and filters file lists appropriately for img tags and links.
 
-    ![URL Picker for image tag](aspnet-and-web-tools-20132-preview-for-visual-studio-2013-release-notes/_static/image11.png)    ![URL Picker for views](aspnet-and-web-tools-20132-preview-for-visual-studio-2013-release-notes/_static/image12.png)    ![URL Picker for CSS](aspnet-and-web-tools-20132-preview-for-visual-studio-2013-release-notes/_static/image13.png)
+    ![Screenshot of new dialog-free, fluent typing u r l Picker that filters file lists appropriately. Example illustrates image links.](aspnet-and-web-tools-20132-preview-for-visual-studio-2013-release-notes/_static/image11.png)
+    ![Screenshot of new dialog-free, fluent typing u r l Picker that filters file lists appropriately. Example illustrates h t m l links.](aspnet-and-web-tools-20132-preview-for-visual-studio-2013-release-notes/_static/image12.png)
+    ![Screenshot of new Picker for c s s editors that filters file lists appropriately for i m g tags and links.](aspnet-and-web-tools-20132-preview-for-visual-studio-2013-release-notes/_static/image13.png)
 - **Updates to LESS editor by adding more features**
 - **Knockout Intellisense Upgrade**: We added a non-standard KnockOut syntax for VS intelliSense, "ko-vs-editor viewModel:" syntax. It can be used to bind to multiple view models on a page using comments in the form:
 
@@ -111,7 +113,9 @@ Firefox uses its own certificate store, so it will display a warning.
     ![Intellisense showing full JavaScript object](aspnet-and-web-tools-20132-preview-for-visual-studio-2013-release-notes/_static/image15.png)
 - **New URL Picker in HTML, Razor, CSS, LESS and Sass documents**: VS 2013 shipped with no URL picker outside of Web Forms pages. The new URL picker for HTML, Razor, CSS, LESS and Sass editors is a dialog-free, fluent typing picker that understands '..' and filters file lists appropriately for img tags and links.
 
-    ![URL Picker for image tag](aspnet-and-web-tools-20132-preview-for-visual-studio-2013-release-notes/_static/image16.png)    ![URL Picker for views](aspnet-and-web-tools-20132-preview-for-visual-studio-2013-release-notes/_static/image17.png)    ![URL Picker for CSS](aspnet-and-web-tools-20132-preview-for-visual-studio-2013-release-notes/_static/image18.png)
+    ![Screenshot of new dialog-free, fluent typing u r l Picker that filters file lists appropriately for i m g tags and links.](aspnet-and-web-tools-20132-preview-for-visual-studio-2013-release-notes/_static/image16.png)
+    ![Screenshot of new dialog-free, fluent typing u r l Picker that filters file lists appropriately, displaying h t m l links.](aspnet-and-web-tools-20132-preview-for-visual-studio-2013-release-notes/_static/image17.png)
+    ![Screenshot of new dialog-free, fluent typing Picker for c s s editors that filters file lists appropriately for i m g tags and links.](aspnet-and-web-tools-20132-preview-for-visual-studio-2013-release-notes/_static/image18.png)
 
 <a id="browserlink"></a>
 ### Browser Link
@@ -159,7 +163,7 @@ The following screenshots demonstrate scaffolding models.
      ![Add new MVC5 controller with views](aspnet-and-web-tools-20132-preview-for-visual-studio-2013-release-notes/_static/image23.png)
 - **Add Controller** using the model:
 
-    ![](aspnet-and-web-tools-20132-preview-for-visual-studio-2013-release-notes/_static/image24.png)
+    ![Screenshot of Add Controller dialog, with Model class selected and Data context class field selected and highlighted.](aspnet-and-web-tools-20132-preview-for-visual-studio-2013-release-notes/_static/image24.png)
 - Check the generated code, for example Views/WeekdayModels/Edit.cshtml contains `@Html.EnumDropDownListFor`: ![View containing EnumDropDownListFor](aspnet-and-web-tools-20132-preview-for-visual-studio-2013-release-notes/_static/image25.png)
 - Run the page to see the enum combobox generated, notice that if a value can be null, an empty string can be chosen for the combo box. For example, the **Create** page shows the following:
 

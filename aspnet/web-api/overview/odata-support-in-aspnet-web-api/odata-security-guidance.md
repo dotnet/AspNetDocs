@@ -1,7 +1,7 @@
 ---
 uid: web-api/overview/odata-support-in-aspnet-web-api/odata-security-guidance
 title: "Security Guidance for ASP.NET Web API 2 OData - ASP.NET 4.x"
-author: MikeWasson
+author: rick-anderson
 description: "Describes security issues to consider when exposing a dataset through OData for ASP.NET Web API 2 on ASP.NET 4.x."
 ms.author: riande
 ms.date: 02/06/2013

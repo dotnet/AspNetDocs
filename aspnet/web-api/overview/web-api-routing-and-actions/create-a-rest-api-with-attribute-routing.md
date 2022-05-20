@@ -1,8 +1,8 @@
 ---
 uid: web-api/overview/web-api-routing-and-actions/create-a-rest-api-with-attribute-routing
+description: Create a REST API with Attribute Routing in ASP.NET Web API 2
 title: "Create a REST API with Attribute Routing in ASP.NET Web API 2 | Microsoft Docs"
-author: MikeWasson
-description: ""
+author: Rick-Anderson
 ms.author: riande
 ms.date: 06/26/2013
 ms.assetid: 23fc77da-2725-4434-99a0-ff872d96336b
@@ -46,11 +46,11 @@ Start by running Visual Studio. From the **File** menu, select **New** and then 
 
 Expand the **Installed** > **Visual C#** category. Under **Visual C#**, select **Web**. In the list of project templates, select **ASP.NET Web Application (.NET Framework)**. Name the project &quot;BooksAPI&quot;.
 
-![](create-a-rest-api-with-attribute-routing/_static/image1.png)
+![Image of new project dialog box](create-a-rest-api-with-attribute-routing/_static/image1.png)
 
 In the **New ASP.NET Web Application** dialog, select the **Empty** template. Under "Add folders and core references for", select the **Web API** checkbox. Click **OK**.
 
-![](create-a-rest-api-with-attribute-routing/_static/image2.png)
+![Image of new A S P dot Net web application dialog](create-a-rest-api-with-attribute-routing/_static/image2.png)
 
 This creates a skeleton project that is configured for Web API functionality.
 
@@ -58,7 +58,7 @@ This creates a skeleton project that is configured for Web API functionality.
 
 Next, add classes for domain models. In Solution Explorer, right-click the Models folder. Select **Add**, then select **Class**. Name the class `Author`.
 
-![](create-a-rest-api-with-attribute-routing/_static/image3.png)
+![Image of create new class](create-a-rest-api-with-attribute-routing/_static/image3.png)
 
 Replace the code in Author.cs with the following:
 
@@ -76,23 +76,23 @@ Press CTRL+SHIFT+B to build the project. Entity Framework uses reflection to dis
 
 In Solution Explorer, right-click the Controllers folder. Select **Add**, then select **Controller**.
 
-![](create-a-rest-api-with-attribute-routing/_static/image4.png)
+![Image of add controller](create-a-rest-api-with-attribute-routing/_static/image4.png)
 
 In the **Add Scaffold** dialog, select **Web API 2 Controller with actions, using Entity Framework**.
 
-[![](create-a-rest-api-with-attribute-routing/_static/image6.png)](create-a-rest-api-with-attribute-routing/_static/image5.png)
+[![Image of add scaffold](create-a-rest-api-with-attribute-routing/_static/image6.png)](create-a-rest-api-with-attribute-routing/_static/image5.png)
 
 In the **Add Controller** dialog, for **Controller name**, enter &quot;BooksController&quot;. Select the &quot;Use async controller actions&quot; checkbox. For **Model class**, select &quot;Book&quot;. (If you don't see the `Book` class listed in the dropdown, make sure that you built the project.) Then click the "+" button.
 
-![](create-a-rest-api-with-attribute-routing/_static/image7.png)
+![Image of add controller dialog box](create-a-rest-api-with-attribute-routing/_static/image7.png)
 
 Click **Add** in the **New Data Context** dialog.
 
-![](create-a-rest-api-with-attribute-routing/_static/image8.png)
+![Image of new data context dialog box](create-a-rest-api-with-attribute-routing/_static/image8.png)
 
 Click **Add** in the **Add Controller** dialog. The scaffolding adds a class named `BooksController` that defines the API controller. It also adds a class named `BooksAPIContext` in the Models folder, which defines the data context for Entity Framework.
 
-![](create-a-rest-api-with-attribute-routing/_static/image9.png)
+![Image of new classes](create-a-rest-api-with-attribute-routing/_static/image9.png)
 
 ### Seed the Database
 
@@ -112,7 +112,7 @@ In the Package Manager Console window, type the following commands.
 
 These commands create a local database and invoke the Seed method to populate the database.
 
-![](create-a-rest-api-with-attribute-routing/_static/image10.png)
+![Image of Package Manager Console](create-a-rest-api-with-attribute-routing/_static/image10.png)
 
 ## Add DTO Classes
 

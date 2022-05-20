@@ -1,7 +1,7 @@
 ---
 uid: single-page-application/overview/introduction/knockoutjs-template
 title: "Single Page Application: KnockoutJS template | Microsoft Docs"
-author: MikeWasson
+author: Rick-Anderson
 description: "Knockout template"
 ms.author: riande
 ms.date: 01/30/2013
@@ -19,7 +19,7 @@ The ASP.NET and Web Tools 2012.2 update includes a Single-Page Application (SPA)
 
 "Single-page application" (SPA) is the general term for a web application that loads a single HTML page and then updates the page dynamically, instead of loading new pages. After the initial page load, the SPA talks with the server through AJAX requests.
 
-![](knockoutjs-template/_static/image1.png)
+![Diagram that shows two boxes labeled Client and Server. An arrow labeled AJAX goes from Client to Server. An arrow labeled H T M L and an arrow labeled J SON go from Server to Client.](knockoutjs-template/_static/image1.png)
 
 AJAX is nothing new, but today there are JavaScript frameworks that make it easier to build and maintain a large sophisticated SPA application. Also, HTML 5 and CSS3 are making it easier to create rich UIs.
 
@@ -36,33 +36,33 @@ Start Visual Studio and select **New Project** from the Start page. Or, from the
 
 In the **Templates** pane, select **Installed Templates** and expand the **Visual C#** node. Under **Visual C#**, select **Web**. In the list of project templates, select **ASP.NET MVC 4 Web Application**. Name the project and click **OK**.
 
-![](knockoutjs-template/_static/image2.png)
+![Screenshot that shows the New Project dialog box. A S P dot NET M V C 4 Web Application is selected from the list of Web Templates.](knockoutjs-template/_static/image2.png)
 
 In the **New Project** wizard, select **Single Page Application**.
 
-![](knockoutjs-template/_static/image3.png)
+![Screenshot that shows the New A S P dot NET M V C 4 Project dialog box. The Single Page Application template is selected.](knockoutjs-template/_static/image3.png)
 
 Press F5 to build and run the application. When the application first runs, it displays a login screen.
 
-![](knockoutjs-template/_static/image4.png)
+![Screenshot that shows the My To do List login screen.](knockoutjs-template/_static/image4.png)
 
 Click the &quot;Sign up&quot; link and create a new user.
 
-![](knockoutjs-template/_static/image5.png)
+![Screenshot that shows the Sign up screen.](knockoutjs-template/_static/image5.png)
 
 After you log in, the application creates a default Todo list with two items. You can click "Add Todo list" to add a new list.
 
-![](knockoutjs-template/_static/image6.png)
+![Screenshot that shows two To do Lists and an Add To do List button at the top.](knockoutjs-template/_static/image6.png)
 
 Rename the list, add items to the list, and check them off. You can also delete items or delete an entire list. The changes are automatically persisted to a database on the server (actually LocalDB at this point, because you are running the application locally).
 
-![](knockoutjs-template/_static/image7.png)
+![Screenshot that shows a list with three items. The last item is checked and has a strike through it.](knockoutjs-template/_static/image7.png)
 
 ## Architecture of the SPA Template
 
 This diagram shows the main building blocks for the application.
 
-![](knockoutjs-template/_static/image8.png)
+![Diagram that shows the separate building blocks of the Client and Server. Knockout dot j s, H T M L, and J SON are under Client. A S P dot NET M V C, A S P dot NET Web A P I, Entity Framework, and Database are under Server.](knockoutjs-template/_static/image8.png)
 
 On the server side, ASP.NET MVC serves the HTML and also handles forms-based authentication.
 
@@ -78,7 +78,7 @@ A big advantage of this architecture is that it separates the presentation layer
 
 In the Visual Studio project, the Models folder contains the models that are used on the server side. (There are also models on the client side; we'll get to those.)
 
-![](knockoutjs-template/_static/image9.png)
+![Screenshot that shows the Models folder open.](knockoutjs-template/_static/image9.png)
 
 **TodoItem, TodoList**
 
@@ -117,7 +117,7 @@ You can also add new items to the collection, update items, or delete items from
 
 In ASP.NET Web API, controllers are objects that handle HTTP requests. As mentioned, the SPA template uses Web API to enable CRUD operations on `ToDoList` and `ToDoItem` instances. The controllers are located in the Controllers folder of the solution.
 
-![](knockoutjs-template/_static/image10.png)
+![Screenshot that shows the Controllers folder open. To do Controller dot c s and To do List Controller dot c s are both circled in red.](knockoutjs-template/_static/image10.png)
 
 - `TodoController`: Handles HTTP requests for to-do items
 - `TodoListController`: Handles HTTP requests for to-do lists.
@@ -172,11 +172,11 @@ The SPA template organizes the client-side JavaScript into three layers:
 - todo.model.js: Defines the models.
 - todo.viewmodel.js: Defines the view model.
 
-![](knockoutjs-template/_static/image11.png)
+![Diagram that shows an arrow going from Knockout dot j s to View Model to Models to Data Context. The arrow between Knockout dot j s and View Model is labeled Data Binding and points to both items.](knockoutjs-template/_static/image11.png)
 
 These script files are located in the Scripts/app folder of the solution.
 
-![](knockoutjs-template/_static/image12.png)
+![Screenshot that shows the subfolder labeled app open.](knockoutjs-template/_static/image12.png)
 
 **todo.datacontext** handles all AJAX calls to the Web API controllers. (The AJAX calls for logging in are defined elsewhere, in ajaxlogin.js.)
 

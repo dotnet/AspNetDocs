@@ -2,7 +2,7 @@
 uid: web-pages/overview/releases/whats-new-in-aspnet-web-pages-32
 title: "What's New in ASP.NET Web Pages 3.2 | Microsoft Docs"
 author: rick-anderson
-description: ""
+description: Describes and compares what's new in ASP.Net Web Pages 3.2, compared to past versions and details bug fixes.
 ms.author: riande
 ms.date: 06/30/2014
 ms.assetid: a652beff-8e6b-48ad-bfe4-3703f7ccf0a5
@@ -43,21 +43,21 @@ Below is a table demonstrating the results of analyzing a [perfview](https://cha
 
 | **Area** | **Before (3.2)** | **After (3.2.1)** | **Delta %** |
 | --- | --- | --- | --- |
-| Total request (count) | 26,986 | 32,591 | <font style="background-color: #4bacc6">20.80%</font> |
+| Total request (count) | 26,986 | 32,591 | 20.80% |
 | Trace duration (seconds) | 196.20 | 198.60 | 1.20% |
-| Request/second | 137.53 | 164.10 | <font style="background-color: #4bacc6">19.30%</font> |
+| Request/second | 137.53 | 164.10 | 19.30% |
 | CPU Load | 68.80% | 68.50% |  -0.40% |
-| GC CPU Samples | 124,323 | 17,543 | <font style="background-color: #4bacc6">-85.90%</font> |
+| GC CPU Samples | 124,323 | 17,543 | -85.90% |
 | Total allocations (count) | 55,357,146 | 57,222,949 | 3.40% |
-| Total GC Pause (samples) | 15,091 | 8,515 | <font style="background-color: #4bacc6">-43.60%</font> |
+| Total GC Pause (samples) | 15,091 | 8,515 | -43.60% |
 | Gen0 GC (count) | 403 | 1,216 | 201.70% |
 | Gen1 GC (count) | 290 | 367 | 26.60% |
-| Gen2 GC (count) | 229 | 2 | <font style="background-color: #00ff00">-99.10%</font> |
+| Gen2 GC (count) | 229 | 2 | -99.10% |
 | CPU / request (samples/req) | 19.73 | 16.47 | -16.50% |
 
-| Color coding: | <font style="background-color: #00ff00">Core Improvement</font> | <font style="background-color: #4bacc6">Positive impact on performance</font> |
+<!---| Color coding: | <font style="background-color: #00ff00">Core Improvement</font> | <font style="background-color: #4bacc6">Positive impact on performance</font> |
 |---------------|-----------------------------------------------------------------|-------------------------------------------------------------------------------|
-|               |                                                                 |                                                                               |
+|               |                                                                 |                                                                               |--->
 
 ## ASP.NET Web Pages 3.2.3 beta1
 

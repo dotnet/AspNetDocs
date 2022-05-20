@@ -31,25 +31,25 @@ The product category menu will be dynamically created at runtime by querying the
 
 To accomplish this we will use two of ASP.NET's powerful data controls. The "Entity Data Source" control and the "ListView" control.
 
-![](tailspin-spyworks-part-3/_static/image1.jpg)
+![Screenshot that shows the Entity Data Source control and the ListView control.](tailspin-spyworks-part-3/_static/image1.jpg)
 
 Let's switch to "Design View" and use the helpers to configure our controls.
 
-![](tailspin-spyworks-part-3/_static/image2.jpg)
+![Screenshot that shows the Design View.](tailspin-spyworks-part-3/_static/image2.jpg)
 
 Let's set the EntityDataSource ID property to EDS\_Category\_Menu and click on "Configure Data Source".
 
-![](tailspin-spyworks-part-3/_static/image3.jpg)
+![Screenshot that shows where to click Configure Data Source.](tailspin-spyworks-part-3/_static/image3.jpg)
 
 Select the CommerceEntities Connection that was created for us when we created the Entity Data Source Model for our Commerce Database and click "Next".
 
-![](tailspin-spyworks-part-3/_static/image4.jpg)
+![Screenshot that shows where to click Next.](tailspin-spyworks-part-3/_static/image4.jpg)
 
 Select the "Categories" Entity set name and leave the rest of the options as default. Click "Finish".
 
 Now let's set the ID property of the ListView control instance that we placed on our page to ListView\_ProductsMenu and activate its helper.
 
-![](tailspin-spyworks-part-3/_static/image5.jpg)
+![Screenshot that shows where to set the Entity Data Source control.](tailspin-spyworks-part-3/_static/image5.jpg)
 
 Though we could use control options to format the data item display and formatting, our menu creation will only require simple markup so we will enter the code in the source view.
 
@@ -63,7 +63,7 @@ The statement Eval("CategoryName") instructs that, for the current entry in the 
 
 Lets run the application now.
 
-![](tailspin-spyworks-part-3/_static/image6.jpg)
+![Screenshot that shows the running application.](tailspin-spyworks-part-3/_static/image6.jpg)
 
 Note that our product category menu is now displayed and when we hover over one of the category menu items we can see the menu item link points to a page we have yet to implement named ProductsList.aspx and that we have built a dynamic query string argument that contains the category id.
 

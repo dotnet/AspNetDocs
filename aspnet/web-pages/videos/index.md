@@ -1,15 +1,15 @@
 ---
 uid: web-pages/videos/index
-title: "Videos | Microsoft Docs"
+title: Video Tutorials for ASP.Net and WebMatrix Web Pages | Microsoft Docs
 author: rick-anderson
-description: ""
+description: Provides a list of video tutorials that are related to ASP.Net Framework and WebMatrix web page functionalities.
 ms.author: riande
 ms.date: 05/18/2012
 ms.assetid: febf2824-4e3d-4dc6-84c5-f99777ec6144
 msc.legacyurl: /web-pages/videos
 msc.type: book
 ---
-# Videos
+# Video Tutorials for ASP.Net and WebMatrix Web Pages
 
 > [!NOTE] 
 > WebMatrix is no longer recommended as an integrated development environment for ASP.NET Web Pages. Use [Visual Studio](xref:web-pages/overview/getting-started/program-asp-net-web-pages-in-visual-studio) or [Visual Studio Code](https://code.visualstudio.com/).
