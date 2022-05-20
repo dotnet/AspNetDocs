@@ -1,15 +1,15 @@
 ---
 uid: web-pages/readme/overview
-title: "WebMatrix Readme | Microsoft Docs"
+title: WebMatrix 1.0 Release Readme | Microsoft Docs
 author: rick-anderson
-description: "WebMatrix and ASP.NET Web Pages (Razor) 1.0 Release Readme"
+description: Provides the WebMatrix and ASP.NET Web Pages (Razor) 1.0 Release Readme and explains changes from previous versions.
 ms.author: riande
 ms.date: 01/06/2011
 ms.assetid: 36c5beeb-45a7-48a0-9c30-f82cdf5c5f5f
 msc.legacyurl: /web-pages/readme
 msc.type: content
 ---
-# WebMatrix Readme
+# WebMatrix 1.0 Release Readme
 
 13 January 2011
 
