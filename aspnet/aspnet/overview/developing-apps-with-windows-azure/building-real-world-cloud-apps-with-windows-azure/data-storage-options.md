@@ -1,8 +1,8 @@
 ---
 uid: aspnet/overview/developing-apps-with-windows-azure/building-real-world-cloud-apps-with-windows-azure/data-storage-options
-title: "Data Storage Options (Building Real-World Cloud Apps with Azure) | Microsoft Docs"
-author: MikeWasson
-description: "The Building Real World Cloud Apps with Azure e-book is based on a presentation developed by Scott Guthrie. It explains 13 patterns and practices that can he..."
+title: Data Storage Options (Building Real-World Cloud Apps with Azure) | Microsoft Docs
+author: Rick-Anderson
+description: Scott Guthrie explains a representation of 13 patterns and practices in his e-book Building Real World Cloud Apps with Azure
 ms.author: riande
 ms.date: 06/12/2014
 ms.assetid: e51fcecb-cb33-4f9e-8428-6d2b3d0fe1bf
@@ -11,9 +11,9 @@ msc.type: authoredcontent
 ---
 # Data Storage Options (Building Real-World Cloud Apps with Azure)
 
-by [Mike Wasson](https://github.com/MikeWasson), [Rick Anderson](https://twitter.com/RickAndMSFT), [Tom Dykstra](https://github.com/tdykstra)
+by [Rick Anderson](https://twitter.com/RickAndMSFT), [Tom Dykstra](https://github.com/tdykstra)
 
-[Download Fix It Project](https://code.msdn.microsoft.com/Fix-It-app-for-Building-cdd80df4) or [Download E-book](https://docs.microsoft.com/archive/blogs/microsoft_press/free-ebook-building-cloud-apps-with-microsoft-azure)
+[Download Fix It Project](https://code.msdn.microsoft.com/Fix-It-app-for-Building-cdd80df4) or [Download E-book](/archive/blogs/microsoft_press/free-ebook-building-cloud-apps-with-microsoft-azure)
 
 > The **Building Real World Cloud Apps with Azure** e-book is based on a presentation developed by Scott Guthrie. It explains 13 patterns and practices that can help you be successful developing web apps for the cloud. For information about the e-book, see [the first chapter](introduction.md).
 
@@ -27,7 +27,7 @@ The purpose of this chapter is to give you a broader sense of the data storage o
 
 The cloud makes it relatively easy to use a variety of relational and NoSQL data stores. Here are some of the data storage platforms that you can use in Azure.
 
-![](data-storage-options/_static/image1.png)
+![Screenshot image that illustrates a table graph depicting the data storage options on Azure' NoSQL data stores](data-storage-options/_static/image1.png)
 
 The table shows four types of NoSQL databases:
 

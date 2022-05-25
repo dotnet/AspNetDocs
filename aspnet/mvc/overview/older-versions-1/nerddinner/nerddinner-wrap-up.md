@@ -21,15 +21,13 @@ by [Microsoft](https://github.com/microsoft)
 
 Our NerdDinner application is now complete and ready to deploy on the web.
 
-![](nerddinner-wrap-up/_static/image1.png)
+![Screenshot of the Nerd Dinner application page. The Host a Dinner page is shown.](nerddinner-wrap-up/_static/image1.png)
 
 We used a broad set of ASP.NET MVC features to build NerdDinner. Hopefully the process of developing it shed some light on how the core ASP.NET MVC features work, and provided context on how these features integrate together within an application.
 
 ### Learning More
 
 This NerdDinner tutorial is the first chapter of the new [Professional ASP.NET MVC 1.0](https://www.amazon.com/gp/product/0470384611?ie=UTF8&amp;tag=scoblo04-20&amp;linkCode=xm2&amp;camp=1789&amp;creativeASIN=0470384611) book from Wrox Press.
-
-[![](https://mscblogs.blob.core.windows.net/media/scottgu/Media/bookcover1_6CAECF94.png)](https://www.amazon.com/gp/product/0470384611?ie=UTF8&amp;tag=scoblo04-20&amp;linkCode=xm2&amp;camp=1789&amp;creativeASIN=0470384611)
 
 You can read the rest of the book to learn even more about ASP.NET MVC.
 

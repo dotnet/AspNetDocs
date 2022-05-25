@@ -2,7 +2,7 @@
 uid: mvc/overview/older-versions/getting-started-with-aspnet-mvc3/cs/accessing-your-models-data-from-a-controller
 title: "Accessing your Model's Data from a Controller (C#) | Microsoft Docs"
 author: Rick-Anderson
-description: "This tutorial will teach you the basics of building an ASP.NET MVC Web application using Microsoft Visual Web Developer 2010 Express Service Pack 1, which is..."
+description: "Learn how to create a movie, examine generated code, pass strongly typed data or objects to a view template, and work with SQL server compact."
 ms.author: riande
 ms.date: 01/12/2011
 ms.assetid: 002ada5c-f114-47ab-a441-57dbdb728ea0
@@ -51,13 +51,13 @@ The ASP.NET MVC 3 scaffolding mechanism automatically created the CRUD (create, 
 
 Run the application and browse to the `Movies` controller by appending */Movies* to the URL in the address bar of your browser. Because the application is relying on the default routing (defined in the *Global.asax* file), the browser request `http://localhost:xxxxx/Movies` is routed to the default `Index` action method of the `Movies` controller. In other words, the browser request `http://localhost:xxxxx/Movies` is effectively the same as the browser request `http://localhost:xxxxx/Movies/Index`. The result is an empty list of movies, because you haven't added any yet.
 
-![](accessing-your-models-data-from-a-controller/_static/image5.png)
+![Screenshot that shows the M V C Movie App browser window on the My Movie List page.](accessing-your-models-data-from-a-controller/_static/image5.png)
 
 ### Creating a Movie
 
 Select the **Create New** link. Enter some details about a movie and then click the **Create** button.
 
-![](accessing-your-models-data-from-a-controller/_static/image6.png)
+![Screenshot that shows the M V C Movie App browser window on the Create page.](accessing-your-models-data-from-a-controller/_static/image6.png)
 
 Clicking the **Create** button causes the form to be posted to the server, where the movie information is saved in the database. You're then redirected to the */Movies* URL, where you can see the newly created movie in the listing.
 

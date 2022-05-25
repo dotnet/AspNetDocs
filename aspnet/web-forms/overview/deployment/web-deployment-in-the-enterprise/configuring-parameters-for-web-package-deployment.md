@@ -13,8 +13,6 @@ msc.type: authoredcontent
 
 by [Jason Lee](https://github.com/jrjlee)
 
-[Download PDF](https://msdnshared.blob.core.windows.net/media/MSDNBlogsFS/prod.evol.blogs.msdn.com/CommunityServer.Blogs.Components.WeblogFiles/00/00/00/63/56/8130.DeployingWebAppsInEnterpriseScenarios.pdf)
-
 > This topic describes how to set parameter values, like Internet Information Services (IIS) web application names, connection strings, and service endpoints, when you deploy a web package to a remote IIS web server.
 
 When you build a web application project, the build and packaging process generates three key files:
@@ -59,7 +57,7 @@ In more complex deployment scenarios, you'll often want to parameterize addition
 
 The easiest way to parameterize these properties is to add a *parameters.xml* file to the root folder of your web application project. For example, in the Contact Manager solution, the ContactManager.Mvc project includes a *parameters.xml* file in the root folder.
 
-![](configuring-parameters-for-web-package-deployment/_static/image1.png)
+![In the Contact Manager solution, the ContactManager.Mvc project includes a *parameters.xml* file in the root folder.](configuring-parameters-for-web-package-deployment/_static/image1.png)
 
 If you open this file, you'll see that it contains a single **parameter** entry. The entry uses an XML Path Language (XPath) query to locate and parameterize the endpoint URL of the ContactService Windows Communication Foundation (WCF) service in the *web.config* file.
 

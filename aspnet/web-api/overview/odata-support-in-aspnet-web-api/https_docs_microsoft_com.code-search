@@ -1,0 +1,761 @@
+# Query: https://docs.microsoft.com
+# ContextLines: 1
+
+192 results - 88 files
+
+overview.md:
+  16  
+  17: [ASP.NET Core](/aspnet/core/) is an alternative to ASP.NET.  See the [guidance on how to choose between ASP.NET and ASP.NET Core](/aspnet/core/choose-aspnet-framework).
+  18  
+
+tutorials.md:
+  16  > [!NOTE]
+  17: > Looking for ASP.NET Core tutorials?  Find them [here](/aspnet/core/tutorials/).
+  18  
+
+aspnet\overview\developing-apps-with-windows-azure\building-real-world-cloud-apps-with-windows-azure\single-sign-on.md:
+  186  =======
+  187: - [Azure Active Directory Graph API blog](/archive/blogs/aadgraphteam/).
+  188  >>>>>>> 6a1f46a79e71504ca0beff707df870af064dfe81
+
+aspnet\overview\developing-apps-with-windows-azure\building-real-world-cloud-apps-with-windows-azure\source-control.md:
+  15  
+  16: [Download Fix It Project](https://code.msdn.microsoft.com/Fix-It-app-for-Building-cdd80df4) or [Download E-book](/archive/blogs/microsoft_press/free-ebook-building-cloud-apps-with-microsoft-azure)
+  17  
+
+identity\overview\features-api\best-practices-for-deploying-passwords-and-other-sensitive-data-to-aspnet-and-azure.md:
+  52  
+  53: Visual Studio creates new ASP.NET projects that use [LocalDB](/archive/blogs/sqlexpress/introducing-localdb-an-improved-sql-express). LocalDB was created specifically for the development environment. It doesn't require a password, therefore you don't need to do anything to prevent secrets from being checked into your source code. Some development teams use the full versions of SQL Server (or other DBMS) that require a password.
+  54  
+
+includes\signalr-updated-version.md:
+  1: `The preview version of SignalR for ASP.NET Core documentation is [here](/aspnet/core/signalr/introduction).`
+
+mvc\overview\deployment\docker-aspnetmvc.md:
+  38  > [!IMPORTANT]
+  39: > If you are using Windows Server 2016, follow the instructions for [Container Host Deployment - Windows Server](/virtualization/windowscontainers/).
+  40  
+
+mvc\overview\getting-started\recommended-resources-for-mvc.md:
+   85  - [Security In ASP.NET MVC](http://www.codeproject.com/Articles/654846/Security-In-ASP-NET-MVC)
+   86: - [Securing your ASP.NET MVC 4 App](/archive/blogs/rickandy/securing-your-asp-net-mvc-4-app-and-the-new-allowanonymous-attribute)
+   87  - [XSRF/CSRF Prevention in ASP.NET MVC and Web Pages](../security/xsrfcsrf-prevention-in-aspnet-mvc-and-web-pages.md)
+
+  111  - new
+  112: - [ASP.NET Identity and Azure Table Storage](/archive/blogs/stuartleeks/asp-net-identity-and-windows-azure-table-storage)
+  113  
+
+  148  - [Bundling, Minification and Optimization](../performance/bundling-and-minification.md)
+  149: - [Using CDNs and Expires to Improve Web Site Performance](/archive/blogs/rickandy/using-cdns-and-expires-to-improve-web-site-performance)
+  150  - [Async File Uploads in MVC](https://weblogs.asp.net/bryansampica/archive/2013/01/15/AsyncMVCFileUpload.aspx)
+
+  164  - [ELMAH and MiniProfiler In ASP.NET MVC 4](http://odetocode.com/Blogs/scott/archive/2012/09/11/elmah-and-miniprofiler-in-asp-net-mvc-4.aspx)
+  165: - [Using CDNs and Expires to Improve Web Site Performance](/archive/blogs/rickandy/using-cdns-and-expires-to-improve-web-site-performance)
+  166  - [Bundling and Minifying Inline CSS and JavaScript](https://weblogs.asp.net/imranbaloch/archive/2012/07/25/bundling-and-minifying-inline-css-and-js.aspx)
+
+  357  - [Get to Know Action Filters in ASP.NET MVC 3 Using HandleError](https://channel9.msdn.com/Shows/DevNuggets/Get2KnowActionFiltersUsingHandleError) (video)
+  358: - [Custom MVC 4 Template Walkthrough](/archive/blogs/yjhong/custom-mvc-4-template-walkthrough)
+  359  - [Browser history](http://msprogrammer.serviciipeweb.ro/2012/12/03/browser-historypart-5-conclusions/)
+
+mvc\overview\getting-started\getting-started-with-ef-using-mvc\migrations-and-deployment-with-the-entity-framework-in-an-asp-net-mvc-application.md:
+   87  
+   88:     For information about how to handle redundant data such as two students named "Alexander Carson", see [Seeding and Debugging Entity Framework (EF) DBs](/archive/blogs/rickandy/seeding-and-debugging-entity-framework-ef-dbs) on Rick Anderson's blog. For more information about the `AddOrUpdate` method, see [Take care with EF 4.3 AddOrUpdate Method](http://thedatafarm.com/blog/data-access/take-care-with-ef-4-3-addorupdate-method/) on Julie Lerman's blog.
+   89  
+
+  212  
+  213: For information about other migrations scenarios, see [Migrations Screencast Series](/archive/blogs/adonet/migrations-screencast-series).
+  214  
+
+mvc\overview\getting-started\getting-started-with-ef-using-mvc\sorting-filtering-and-paging-with-the-entity-framework-in-an-asp-net-mvc-application.md:
+  93  >
+  94: ⟪ 277 characters skipped ⟫null` as the value. By default, EF generates additional SQL operators to make equality between null values work in the database like it works in memory, but you can set the [UseDatabaseNullSemantics](/dotnet/api/system.data.entity.infrastructure.dbcontextconfiguration.usedatabasenullsemantics) flag in EF6 or call the 
+  95: [UseRelationalNulls](/dotnet/api/microsoft.entityframeworkcore.infrastructure.relationaldbcontextoptionsbuilder-2.userelationalnulls) method in EF Core to configure this behavior.
+  96  
+
+mvc\overview\getting-started\introduction\adding-a-model.md:
+  19  
+  20: You'll use a .NET Framework data-access technology known as the [Entity Framework](/ef/) to define and work with these model classes. The Entity Framework (often referred to as EF) supports a development paradigm called *Code First*. Code First allows you to create model objects by writing simple classes. (These are also known as POCO classes, from &quot;plain-old CLR objects.&quot;) You can then have the database created on the fly from your classes, which enables a very clean and rapid development workflow. If you are required to create the database first, you can still follow this tutorial to learn about MVC and EF app development. You can then follow Tom Fizmakens [ASP.NET Scaffolding](xref:visual-studio/overview/2013/aspnet-scaffolding-overview) tutorial, which covers the database first approach.
+  21  
+
+mvc\overview\getting-started\introduction\adding-a-view.md:
+  140  
+  141: In the sample above, we used a `ViewBag` object to pass data from the controller to a view. Later in the tutorial, we will use a view model to pass data from a controller to a view. The view model approach to passing data is generally much preferred over the view bag approach. See the blog entry [Dynamic V Strongly Typed Views](/archive/blogs/rickandy/dynamic-v-strongly-typed-views) for more information. 
+  142  
+
+mvc\overview\getting-started\introduction\adding-search.md:
+  124  
+  125: The code uses the `AddRange` method of the generic `List` collection to add all the distinct genres to the list. (Without the `Distinct` modifier, duplicate genres would be added — for example, comedy would be added twice in our sample). The code then stores the list of genres in the `ViewBag.MovieGenre` object. Storing category data (such a movie genres) as a [SelectList](/dotnet/api/system.web.mvc.selectlist) object in a `ViewBag`, then accessing the category data in a dropdown list box is a typical approach for MVC applications.
+  126  
+
+mvc\overview\getting-started\introduction\creating-a-connection-string.md:
+  19  
+  20: The `MovieDBContext` class you created handles the task of connecting to the database and mapping `Movie` objects to database records. One question you might ask, though, is how to specify which database it will connect to. You don't actually have to specify which database to use, Entity Framework will default to using [LocalDB](/sql/database-engine/configure-windows/sql-server-2016-express-localdb). In this section we'll explicitly add a connection string in the *Web.config* file of the application.
+  21  
+
+  23  
+  24: [LocalDB](/sql/database-engine/configure-windows/sql-server-2016-express-localdb) is a lightweight version of the SQL Server Express Database Engine that starts on demand and runs in user mode. LocalDB runs in a special execution mode of SQL Server Express that enables you to work with databases as *.mdf* files. Typically, LocalDB database files are kept in the *App\_Data* folder of a web project.
+  25  
+
+  47  
+  48: ⟪ 319 characters skipped ⟫membership database in this tutorial, for more information on membership, authentication and security, see my tutorial [Create an ASP.NET MVC app with auth and SQL DB and deploy to Azure App Service](/aspnet/core/security/authorization/secure-data).
+  49  
+
+mvc\overview\getting-started\introduction\examining-the-details-and-delete-methods.md:
+  57  
+  58: ⟪ 273 characters skipped ⟫ccount](https://www.windowsazure.com/pricing/free-trial/?WT.mc_id=A443DD604). I suggest you next follow my tutorial [Deploy a Secure ASP.NET MVC app with Membership, OAuth, and SQL Database to Azure](/aspnet/core/security/authorization/secure-data). An excellent tutorial is Tom Dykstra's intermediate-level [Creating an Entity Framework Data Model for an ASP.NET MVC Application](../getting-started-with-ef-using-mvc/creating-an-entity-framework-data-model-for-an-asp-net-mvc-application.md). [Stackoverflow](http://stackoverflow.com/help) and the [ASP.NET MVC forums](https://forums.asp.net/1146.aspx) are a great places to ask questions. Follow [me](https://twitter.com/RickAndMSFT) on twitter so you can get updates on my latest tutorials.
+  59  
+
+  61  
+  62: — [Rick Anderson](/archive/blogs/rickAndy/) twitter: [@RickAndMSFT](https://twitter.com/RickAndMSFT)  
+  63  — [Scott Hanselman](http://www.hanselman.com/blog/) twitter: [@shanselman](https://twitter.com/shanselman)
+
+mvc\overview\older-versions\aspnet-mvc-4-mobile-features.md:
+  71  
+  72: Note: Currently a bug exists in the mobile caching engine. For production applications, you must install the [Fixed DisplayModes](http://nuget.org/packages/Microsoft.AspNet.Mvc.FixedDisplayModes) nugget package. See [ASP.NET MVC 4 Mobile Caching Bug Fixed](/archive/blogs/rickandy/asp-net-mvc-4-mobile-caching-bug-fixed) for details on the fix.
+  73  
+
+mvc\overview\older-versions\using-oauth-providers-with-mvc.md:
+  106  
+  107: This tutorial does not cover how to customize the log in buttons for the external providers. For that information, see [Customizing the login UI when using OAuth/OpenID](/archive/blogs/pranav_rastogi/customizing-the-login-ui-when-using-oauthopenid).
+  108  
+
+  262  
+  263: - [Create an ASP.NET MVC app with auth and SQL DB and deploy to Azure App Service](/aspnet/core/security/authorization/secure-data)
+
+mvc\overview\older-versions\getting-started-with-aspnet-mvc3\cs\adding-a-model.md:
+  51  
+  52: The `MovieDBContext` class represents the Entity Framework movie database context, which handles fetching, storing, and updating `Movie` class instances in a database. The `MovieDBContext` derives from the `DbContext` base class provided by the Entity Framework. For more information about `DbContext` and `DbSet`, see [Productivity Improvements for the Entity Framework](/archive/blogs/efdesign/productivity-improvements-for-the-entity-framework).
+  53  
+
+mvc\overview\older-versions\getting-started-with-aspnet-mvc3\cs\improving-the-details-and-delete-methods.md:
+  70  - [ASP.NET Deployment Content Map](https://msdn.microsoft.com/library/dd394698.aspx)
+  71: - [Enabling IIS 7.x](/archive/blogs/rickandy/enabling-iis-7-x-on-windows-7-vista-sp1-windows-2008-windows-2008r2)
+  72  - [Web Application Projects Deployment](https://msdn.microsoft.com/library/dd394698.aspx)
+
+  77  
+  78: — Scott Hanselman ([http://hanselman.com](http://hanselman.com) and [@shanselman](http://twitter.com/shanselman) on Twitter) and Rick Anderson [blogs.msdn.com/rickAndy](/archive/blogs/rickAndy/)
+  79  
+
+mvc\overview\older-versions\getting-started-with-aspnet-mvc3\vb\adding-a-model.md:
+  49  
+  50: The `MovieDBContext` class represents the Entity Framework movie database context, which handles fetching, storing, and updating `Movie` class instances in a database. The `MovieDBContext` derives from the `DbContext` base class provided by the Entity Framework. For more information about `DbContext` and `DbSet`, see [Productivity Improvements for the Entity Framework](/archive/blogs/efdesign/productivity-improvements-for-the-entity-framework).
+  51  
+
+mvc\overview\older-versions\getting-started-with-aspnet-mvc3\vb\improving-the-details-and-delete-methods.md:
+  66  - [ASP.NET Deployment Content Map](https://msdn.microsoft.com/library/dd394698.aspx)
+  67: - [Enabling IIS 7.x](/archive/blogs/rickandy/enabling-iis-7-x-on-windows-7-vista-sp1-windows-2008-windows-2008r2)
+  68  - [Web Application Projects Deployment](https://msdn.microsoft.com/library/dd394698.aspx)
+
+  73  
+  74: — Scott Hanselman ([http://hanselman.com](http://hanselman.com) and [@shanselman](http://twitter.com/shanselman) on Twitter) and Rick Anderson [blogs.msdn.com/rickAndy](/archive/blogs/rickAndy/)
+  75  
+
+mvc\overview\older-versions\getting-started-with-aspnet-mvc4\accessing-your-models-data-from-a-controller.md:
+  121  > 
+  122: > You need to install the [SQL Server Data Tools](/archive/blogs/rickandy/installing-and-using-sql-server-data-tools-ssdt-on-visual-studio-2010-and-vwd) and [LocalDB](https://www.microsoft.com/web/gallery/install.aspx?appid=SQLLocalDBOnly_11_0). Verify the `MovieDBContext` connection string specified on the previous page.
+  123  
+
+mvc\overview\older-versions\getting-started-with-aspnet-mvc4\adding-a-view.md:
+  136  
+  137: In the sample above, we used a `ViewBag` object to pass data from the controller to a view. Latter in the tutorial, we will use a view model to pass data from a controller to a view. The view model approach to passing data is generally much preferred over the view bag approach. See the blog entry [Dynamic V Strongly Typed Views](/archive/blogs/rickandy/dynamic-v-strongly-typed-views) for more information.
+  138  
+
+mvc\overview\older-versions\getting-started-with-aspnet-mvc4\examining-the-details-and-delete-methods.md:
+  58  
+  59: ⟪ 300 characters skipped ⟫.windowsazure.com/pricing/free-trial/?WT.mc_id=A443DD604). I suggest you next follow my tutorial [Deploy a Secure ASP.NET MVC app with Membership, OAuth, and SQL Database to a Windows Azure Web Site](/aspnet/core/security/authorization/secure-data). An excellent tutorial is Tom Dykstra's intermediate-level [Creating an Entity Framework Data Model for an ASP.NET MVC Application](../../getting-started/getting-started-with-ef-using-mvc/creating-an-entity-framework-data-model-for-an-asp-net-mvc-application.md). [Stackoverflow](http://stackoverflow.com/help) and the [ASP.NET MVC forums](https://forums.asp.net/1146.aspx) are a great places to ask questions. Follow [me](https://twitter.com/RickAndMSFT) on twitter so you can get updates on my latest tutorials.
+  60  
+
+  62  
+  63: — [Rick Anderson](/archive/blogs/rickAndy/) twitter: [@RickAndMSFT](https://twitter.com/RickAndMSFT)  
+  64  — [Scott Hanselman](http://www.hanselman.com/blog/) twitter: [@shanselman](https://twitter.com/shanselman)
+
+mvc\overview\older-versions\getting-started-with-aspnet-mvc4\intro-to-aspnet-mvc-4.md:
+  22  > - [LocalDB](https://www.microsoft.com/web/gallery/install.aspx?appid=SQLLocalDBOnly_11_0)
+  23: > - [SSDT](/archive/blogs/rickandy/installing-and-using-sql-server-data-tools-ssdt-on-visual-studio-2010-and-vwd)
+  24  >
+
+  28  >
+  29: ⟪ 301 characters skipped ⟫rial/?WT.mc_id=A443DD604). For information about how to deploy a Visual Studio web project to a Windows Azure Web Site, see [Create and deploy an ASP.NET web site and SQL Database with Visual Studio](/dotnet/azure/). That tutorial also shows how to use Entity Framework Code First Migrations to deploy your SQL Server database to Windows Azure SQL Database (formerly SQL Azure).
+  30  >
+
+mvc\overview\older-versions\getting-started-with-ef-5-using-mvc-4\advanced-entity-framework-scenarios-for-an-mvc-web-application.md:
+  133  
+  134: For more information about raw SQL queries, see [Raw SQL Queries](/archive/blogs/adonet/using-dbcontext-in-ef-4-1-part-10-raw-sql-queries) on the Entity Framework team blog.
+  135  
+
+  229  
+  230: For more information, see [Working with Proxies](/archive/blogs/adonet/using-dbcontext-in-ef-4-1-part-8-working-with-proxies) on the Entity Framework team blog.
+  231  
+
+  245  
+  246: If you're tracking a large number of entities and you call one of these methods many times in a loop, you might get significant performance improvements by temporarily turning off automatic change detection using the [AutoDetectChangesEnabled](https://msdn.microsoft.com/library/system.data.entity.infrastructure.dbcontextconfiguration.autodetectchangesenabled(VS.103).aspx) property. For more information, see [Automatically Detecting Changes](/archive/blogs/adonet/using-dbcontext-in-ef-4-1-part-12-automatically-detecting-changes).
+  247  
+
+  249  
+  250: ⟪ 406 characters skipped ⟫ValidateOnSaveEnabled](https://msdn.microsoft.com/library/system.data.entity.infrastructure.dbcontextconfiguration.validateonsaveenabled(VS.103).aspx) property. For more information, see [Validation](/archive/blogs/adonet/ef-feature-ctp5-validation).
+  251  
+
+  264  - Tom Dykstra wrote the original version of this tutorial and is a senior programming writer on the Microsoft Web Platform and Tools Content Team.
+  265: - [Rick Anderson](/archive/blogs/rickandy/) (twitter [@RickAndMSFT](http://twitter.com/RickAndMSFT)) co-authored this tutorial and did most of the work updating it for EF 5 and MVC 4. Rick is a senior programming writer for Microsoft focusing on Azure and MVC.
+  266  - [Rowan Miller](http://www.romiller.com) and other members of the Entity Framework team assisted with code reviews and helped debug many issues with migrations that arose while we were updating the tutorial for EF 5.
+
+  303  
+  304: One cause of this problem is validation errors when the `Seed` method runs. See [Seeding and Debugging Entity Framework (EF) DBs](/archive/blogs/rickandy/seeding-and-debugging-entity-framework-ef-dbs) for tips on debugging the `Seed` method.
+  305  
+
+mvc\overview\older-versions\getting-started-with-ef-5-using-mvc-4\creating-a-more-complex-data-model-for-an-asp-net-mvc-application.md:
+  325  
+  326: For information about what "fluent API" statements are doing behind the scenes, see the [Fluent API](/archive/blogs/aspnetue/entity-framework-code-first-tutorial-supplement-what-is-going-on-in-a-fluent-api-call) blog post.
+  327  
+
+mvc\overview\older-versions\getting-started-with-ef-5-using-mvc-4\creating-an-entity-framework-data-model-for-an-asp-net-mvc-application.md:
+  180  
+  181: [LocalDB](/archive/blogs/sqlexpress/introducing-localdb-an-improved-sql-express) is a lightweight version of the SQL Server Express Database Engine that starts on demand and runs in user mode. LocalDB runs in a special execution mode of SQL Server Express that enables you to work with databases as *.mdf* files. Typically, LocalDB database files are kept in the *App\_Data* folder of a web project. The user instance feature in SQL Server Express also enables you to work with *.mdf* files, but the user instance feature is deprecated; therefore, LocalDB is recommended for working with *.mdf* files.
+  182  
+
+  198  
+  199: ⟪ 885 characters skipped ⟫o the migrations approach. For this tutorial you'll only use migrations. For more information, see [Code First Migrations](https://msdn.microsoft.com/data/jj591621) and [Migrations Screencast Series](/archive/blogs/adonet/migrations-screencast-series).
+  200  
+
+  251  
+  252:     For information about how to debug the `Seed` method and how to handle redundant data such as two students named "Alexander Carson", see [Seeding and Debugging Entity Framework (EF) DBs](/archive/blogs/rickandy/seeding-and-debugging-entity-framework-ef-dbs) on Rick Anderson's blog.
+  253  2. Build the project.
+
+mvc\overview\older-versions\getting-started-with-ef-5-using-mvc-4\handling-concurrency-with-the-entity-framework-in-an-asp-net-mvc-application.md:
+  222  
+  223: This completes the introduction to handling concurrency conflicts. For information about other ways to handle various concurrency scenarios, see [Optimistic Concurrency Patterns](/archive/blogs/adonet/using-dbcontext-in-ef-4-1-part-9-optimistic-concurrency-patterns) and [Working with Property Values](/archive/blogs/adonet/using-dbcontext-in-ef-4-1-part-5-working-with-property-values) on the Entity Framework team blog. The next tutorial shows how to implement table-per-hierarchy inheritance for the `Instructor` and `Student` entities.
+  224  
+
+mvc\overview\older-versions\getting-started-with-ef-5-using-mvc-4\sorting-filtering-and-paging-with-the-entity-framework-in-an-asp-net-mvc-application.md:
+  369  > [!NOTE]
+  370: > The web app doesn't implement security, so anyone who finds the URL can change the data. For instructions on how to secure the web site, see [Deploy a Secure ASP.NET MVC app with Membership, OAuth, and SQL Database to a Windows Azure Web Site](/aspnet/core/security/authorization/secure-data). You can prevent other people from using the site by using the Windows Azure Management Portal or **Server Explorer** in Visual Studio to stop the site.
+  371  
+
+mvc\overview\older-versions\working-with-the-dropdownlist-box-and-jquery\using-the-dropdownlist-helper-with-aspnet-mvc.md:
+  68  
+  69: The [DropDownList](https://msdn.microsoft.com/library/dd492738.aspx) helper used to create an HTML select list requires a **IEnumerable&lt;SelectListItem &gt;**, either explicitly or implicitly. That is, you can pass the **IEnumerable&lt;SelectListItem &gt;** explicitly to the [DropDownList](https://msdn.microsoft.com/library/dd492738.aspx) helper or you can add the **IEnumerable&lt;SelectListItem &gt;** to the [ViewBag](/archive/blogs/rickandy/dynamic-v-strongly-typed-views) using the same name for the **SelectListItem** as the model property. Passing in the **SelectListItem** implicitly and explicitly is covered in the next part of the tutorial. The code above shows the simplest possible way to create an **IEnumerable&lt;SelectListItem &gt;** and populate it with text and values. Note the `Comedy`[SelectListItem](https://msdn.microsoft.com/library/system.web.mvc.selectlistitem.aspx) has the [Selected](https://msdn.microsoft.com/library/system.web.mvc.selectlistitem.selected.aspx) property set to **true;** this will cause the rendered select list to show **Comedy** as the selected item in the list.
+  70  
+  71: The **IEnumerable&lt;SelectListItem &gt;** created above is added to the [ViewBag](/archive/blogs/rickandy/dynamic-v-strongly-typed-views) with the name MovieType. This is how we pass the **IEnumerable&lt;SelectListItem &gt;** implicitly to the [DropDownList](https://msdn.microsoft.com/library/dd492738.aspx) helper shown below.
+  72  
+
+mvc\overview\performance\bundling-and-minification.md:
+   94  
+   95: - For Web Pages, see the blog entry [Adding Web Optimization to a Web Pages Site](/archive/blogs/rickandy/adding-web-optimization-to-a-web-pages-site).
+   96: - For Web Forms, see the blog entry [Adding Bundling and Minification to Web Forms](/archive/blogs/rickandy/adding-bundling-and-minification-to-web-forms).
+   97  
+
+  191  
+  192: If you run the IE9 F12 developer tools and navigate to a previously loaded page, IE incorrectly shows conditional GET requests made to each bundle and the server returning HTTP 304. You can read why IE9 has problems determining if a conditional request was made in the blog entry [Using CDNs and Expires to Improve Web Site Performance](/archive/blogs/rickandy/using-cdns-and-expires-to-improve-web-site-performance).
+  193  
+
+  216  
+  217: ⟪ 557 characters skipped ⟫for each asset. In this case, bundling and minification provide a performance increase after the first page request. For details, see the blog [Using CDNs and Expires to Improve Web Site Performance](/archive/blogs/rickandy/using-cdns-and-expires-to-improve-web-site-performance).
+  218  
+  219: The browser limitation of six simultaneous connections per each hostname can be mitigated by using a [CDN](/archive/blogs/rickandy/using-cdns-and-expires-to-improve-web-site-performance). Because the CDN will have a different hostname than your hosting site, asset requests from the CDN will not count against the six simultaneous connections limit to your hosting environment. A CDN can also provide common package caching and edge caching advantages.
+  220  
+
+  229  - Video:[Bundling and Optimizing](https://channel9.msdn.com/Events/aspConf/aspConf/Bundling-and-Optimizing) by [Howard Dierking](https://twitter.com/#!/howard_dierking)
+  230: - [Adding Web Optimization to a Web Pages Site](/archive/blogs/rickandy/adding-web-optimization-to-a-web-pages-site).
+  231: - [Adding Bundling and Minification to Web Forms](/archive/blogs/rickandy/adding-bundling-and-minification-to-web-forms).
+  232: - [Performance Implications of Bundling and Minification on Web Browsing](/archive/blogs/henrikn/performance-implications-of-bundling-and-minification-on-web-browsing) by [Henrik F Nielsen](http://en.wikipedia.org/wiki/Henrik_Frystyk_Nielsen) [@frystyk](https://twitter.com/frystyk)
+  233: - [Using CDNs and Expires to Improve Web Site Performance](/archive/blogs/rickandy/using-cdns-and-expires-to-improve-web-site-performance) by Rick Anderson [@RickAndMSFT](https://twitter.com/#!/RickAndMSFT)
+  234  - [Minimize RTT (round-trip times)](https://developers.google.com/speed/docs/best-practices/rtt)
+
+mvc\overview\performance\using-asynchronous-methods-in-aspnet-mvc-4.md:
+  104  
+  105: ⟪ 406 characters skipped ⟫nd [async](https://msdn.microsoft.com/library/hh156513(VS.110).aspx) keywords and the [Task](https://msdn.microsoft.com/library/system.threading.tasks.task.aspx) namespace, see the [async references](/dotnet/csharp/language-reference/keywords/async).
+  106  
+
+  172  - If your application is using web services or System.NET to communicate with a backend over HTTP you may need to increase the [connectionManagement/maxconnection](https://msdn.microsoft.com/library/fb6y0fyc(VS.110).aspx) element. For ASP.NET applications, this is limited by the autoConfig feature to 12 times the number of CPUs. That means that on a quad-proc, you can have at most 12 \* 4 = 48 concurrent connections to an IP end point. Because this is tied to [autoConfig](https://msdn.microsoft.com/library/7w2sway1(VS.110).aspx), the easiest way to increase `maxconnection` in an ASP.NET application is to set [System.Net.ServicePointManager.DefaultConnectionLimit](https://msdn.microsoft.com/library/system.net.servicepointmanager.defaultconnectionlimit(VS.110).aspx) programmatically in the from `Application_Start` method in the *global.asax* file. See the sample download for an example.
+  173: - In .NET 4.5, the default of 5000 for [MaxConcurrentRequestsPerCPU](/archive/blogs/tmarq/asp-net-thread-usage-on-iis-7-5-iis-7-0-and-iis-6-0) should be fine.
+
+mvc\overview\security\aspnet-mvc-5-app-with-sms-and-email-two-factor-authentication.md:
+   17  > 
+   18: > This tutorial was written by [Rick Anderson](/archive/blogs/rickAndy/) ( Twitter: [@RickAndMSFT](https://twitter.com/RickAndMSFT) ).
+   19  
+
+  144  - [MVC 5 App with Facebook, Twitter, LinkedIn and Google OAuth2 Sign-on](create-an-aspnet-mvc-5-app-with-facebook-and-google-oauth2-and-openid-sign-on.md) This tutorial shows you how to write an ASP.NET MVC 5 app with Facebook and Google OAuth 2 authorization. It also shows how to add additional data to the Identity database.
+  145: - [Deploy a Secure ASP.NET MVC app with Membership, OAuth, and SQL Database to Azure Web](/aspnet/core/security/authorization/secure-data). This tutorial adds Azure deployment, how to secure your app with roles, how to use the membership API to add users and roles, and additional security features.
+  146  - [Creating a Google app for OAuth 2 and connecting the app to the project](create-an-aspnet-mvc-5-app-with-facebook-and-google-oauth2-and-openid-sign-on.md#goog)
+
+mvc\overview\security\create-an-aspnet-mvc-5-app-with-facebook-and-google-oauth2-and-openid-sign-on.md:
+   21  > 
+   22: > The tutorial also shows how to add profile data for the user, and how to use the Membership API to add roles. This tutorial was written by [Rick Anderson](/archive/blogs/rickAndy/) ( Please follow me on Twitter: [@RickAndMSFT](https://twitter.com/RickAndMSFT) ).
+   23  
+
+   84      ![](create-an-aspnet-mvc-5-app-with-facebook-and-google-oauth2-and-openid-sign-on/_static/image10.png)
+   85: ⟪ 321 characters skipped ⟫e application. See the section &quot;Protect the Application with SSL and the Authorize Attribute&quot; in my tutorial [Create an ASP.NET MVC app with auth and SQL DB and deploy to Azure App Service](/aspnet/core/security/authorization/secure-data). A portion of the Home controller is shown below.
+   86  
+
+  227  
+  228: Follow my tutorial [Create an ASP.NET MVC app with auth and SQL DB and deploy to Azure App Service](/aspnet/core/security/authorization/secure-data), which continues this tutorial and shows the following:
+  229  
+
+mvc\overview\security\create-an-aspnet-mvc-5-web-app-with-email-confirmation-and-password-reset.md:
+  185  - [MVC 5 App with Facebook, Twitter, LinkedIn and Google OAuth2 Sign-on](create-an-aspnet-mvc-5-app-with-facebook-and-google-oauth2-and-openid-sign-on.md) This tutorial shows you how to write an ASP.NET MVC 5 app with Facebook and Google OAuth 2 authorization. It also shows how to add additional data to the Identity database.
+  186: - [Deploy a Secure ASP.NET MVC app with Membership, OAuth, and SQL Database to Azure](/aspnet/core/security/authorization/secure-data). This tutorial adds Azure deployment, how to secure your app with roles, how to use the membership API to add users and roles, and additional security features.
+  187  - [Creating a Google app for OAuth 2 and connecting the app to the project](create-an-aspnet-mvc-5-app-with-facebook-and-google-oauth2-and-openid-sign-on.md#goog)
+
+mvc\overview\security\xsrfcsrf-prevention-in-aspnet-mvc-and-web-pages.md:
+  177  
+  178: The anti-XSRF routines currently do not defend against [clickjacking](https://www.owasp.org/index.php/Clickjacking). Applications that wish to defend themselves against clickjacking may easily do so by sending an X-Frame-Options: SAMEORIGIN header with each response. This header is supported by all recent browsers. For more information, see the [IE blog](/archive/blogs/ieinternals/combating-clickjacking-with-x-frame-options), the [SDL blog](https://www.microsoft.com/security/blog/2009/02/05/clickjacking-defense-in-ie8/), and [OWASP](https://www.owasp.org/index.php/Clickjacking). The ASP.NET Web Stack Runtime may in some future release make the MVC and Web Pages anti-XSRF helpers automatically set this header so that applications are automatically protected against this attack.
+  179  
+
+SameSite\owin-samesite.md:
+  78  The 2016 `SameSite` standard mandated that unknown values must be treated as `SameSite=Strict` values. Apps accessed from older browsers which support the 2016 `SameSite` standard may break when they get a `SameSite` property with a value of `None`. Web apps must implement browser detection if they intend to support older browsers. ASP.NET doesn't implement browser detection because User-Agents values are highly volatile and change frequently. An extension point in [ICookieManager](/previous-versions/aspnet/dn800238(v%3Dvs.113)) allows plugging in User-Agent specific logic.
+  79: <!-- /previous-versions/aspnet/dn800238(v%3Dvs.113) -->
+  80  
+
+signalr\overview\older-versions\scaleout-with-windows-azure-service-bus.md:
+  51  
+  52: Create a Cloud Service, as described in [How to Create and Deploy a Cloud Service](/azure/cloud-services/cloud-services-how-to-create-deploy). Follow the steps in the section "How to: Create a cloud service using Quick Create". For this tutorial, you do not need to upload a certificate.
+  53  
+
+  55  
+  56: Create a new Service Bus namespace, as described in [How to Use Service Bus Topics/Subscriptions](/azure/service-bus-messaging/service-bus-dotnet-how-to-use-topics-subscriptions). Follow the steps in the section "Create a Service Namespace".
+  57  
+
+signalr\overview\older-versions\signalr-performance.md:
+  239  - [ASP.NET Performance Overview](https://msdn.microsoft.com/library/cc668225(v=vs.100).aspx)
+  240: - [ASP.NET Thread Usage on IIS 7.5, IIS 7.0, and IIS 6.0](/archive/blogs/tmarq/asp-net-thread-usage-on-iis-7-5-iis-7-0-and-iis-6-0)
+  241  - [&lt;applicationPool&gt; Element (Web Settings)](https://msdn.microsoft.com/library/dd560842.aspx)
+
+signalr\overview\older-versions\tutorial-getting-started-with-signalr.md:
+  160  
+  161: ⟪ 263 characters skipped ⟫ndowsazure.com/pricing/free-trial/?WT.mc_id=A443DD604). For a walkthrough on how to deploy the sample SignalR application, see [Publish the SignalR Getting Started Sample as a Windows Azure Web Site](/archive/blogs/timlee/publish-the-signalr-getting-started-sample-as-a-windows-azure-web-site). For detailed information about how to deploy a Visual Studio web project to a Windows Azure Web Site, see [Deploying an ASP.NET Application to a Windows Azure Web Site](/azure/app-service-web/app-service-web-get-started-dotnet). (Note: The WebSocket transport is not currently supported for Windows Azure Web Sites. When WebSocket transport is not available, SignalR uses the other available transports as described in the Transports section of the [Introduction to SignalR topic](index.md).)
+  162  
+
+signalr\overview\performance\scaleout-with-windows-azure-service-bus.md:
+  17  
+  18: In this tutorial, you will deploy a SignalR application to a Windows Azure Web Role, using the Service Bus backplane to distribute messages to each role instance. (You can also use the Service Bus backplane with [web apps in Azure App Service](/azure/app-service-web/).)
+  19  
+
+  53  
+  54: Create a Cloud Service, as described in [How to Create and Deploy a Cloud Service](/azure/cloud-services/cloud-services-how-to-create-deploy). Follow the steps in the section "How to: Create a cloud service using Quick Create". For this tutorial, you do not need to upload a certificate.
+  55  
+
+  57  
+  58: Create a new Service Bus namespace, as described in [How to Use Service Bus Topics/Subscriptions](/azure/service-bus-messaging/service-bus-dotnet-how-to-use-topics-subscriptions). Follow the steps in the section "Create a Service Namespace".
+  59  
+
+signalr\overview\performance\signalr-performance.md:
+  275  - [ASP.NET Performance Overview](https://msdn.microsoft.com/library/cc668225(v=vs.100).aspx)
+  276: - [ASP.NET Thread Usage on IIS 7.5, IIS 7.0, and IIS 6.0](/archive/blogs/tmarq/asp-net-thread-usage-on-iis-7-5-iis-7-0-and-iis-6-0)
+  277  - [&lt;applicationPool&gt; Element (Web Settings)](https://msdn.microsoft.com/library/dd560842.aspx)
+
+signalr\overview\performance\using-signalr-performance-counters-in-an-azure-web-role.md:
+  142  
+  143: 29. Deploy the application to your Azure subscription. For details on how to deploy an application to Azure, see [How to Create and Deploy a Cloud Service](/azure/cloud-services/cloud-services-how-to-create-deploy).
+  144  
+
+visual-studio\overview\2012\aspnet-and-web-tools-20122-release-notes-rtw.md:
+   99  - You can now create a VSIX that adds new templates to the ASP.NET MVC New Project dialog. Learn how here: [https://go.microsoft.com/fwlink/?LinkId=275019](https://go.microsoft.com/fwlink/?LinkId=275019)
+  100: - FixedDisplayModes package &#8211; MVC project templates have been updated to include the new ‘FixedDisplayModes' NuGet package, which contains a workaround for a bug in MVC 4. For more information on the fix contained in the package, refer to this blog post ([/archive/blogs/rickandy/asp-net-mvc-4-mobile-caching-bug-fixed](/archive/blogs/rickandy/asp-net-mvc-4-mobile-caching-bug-fixed)) from the MVC team.
+  101  
+
+visual-studio\overview\2012\windows-azure-authentication.md:
+   15  
+   16: ⟪ 388 characters skipped ⟫eated in your own custom Windows Azure Active Directory domain. Enabling Windows Azure Authentication configures your application to authenticate users using a single [Windows Azure Active Directory](/azure/active-directory/) tenant.
+   17  >
+
+   91  
+   92: For complete instructions, see [Deploying an ASP.NET Web Application to a Windows Azure Web Site](/azure/app-service-web/app-service-web-get-started-dotnet).
+   93  
+
+  153  
+  154: - [Microsoft ASP.NET Tools for Windows Azure Active Directory – Visual Studio 2012](/archive/blogs/vbertocci/microsoft-asp-net-tools-for-windows-azure-active-directory-visual-studio-2012) – Vittorio Bertocci
+  155: - [Windows Azure Features: Identity](/azure/active-directory/)
+  156  - [TechNet: Windows Azure Active Directory](https://technet.microsoft.com/library/hh967619.aspx)
+
+  159  - [How to implement single sign-on with Windows Azure Active Directory](https://github.com/Azure-Samples/active-directory-dotnet-webapp-openidconnect)
+  160: - [Single Sign-On with Windows Azure Active Directory: a Deep Dive](/archive/blogs/vbertocci/single-sign-on-with-windows-azure-active-directory-a-deep-dive) – Vittorio Bertocci
+  161  - [Use AD FS 2.0 to implement and manage single sign-on](https://technet.microsoft.com/library/jj205462.aspx)
+
+visual-studio\overview\2013\aspnet-and-web-tools-20132-preview-for-visual-studio-2013-release-notes.md:
+  127  - **Support Azure sign in.**
+  128: - **Remote debugging and Remote View for web apps**: We now support [remote debugging for web apps in Azure App Service](/azure/app-service-web/web-sites-dotnet-troubleshoot-visual-studio) and remote view of web app content files in the server explorer.
+  129  
+
+  132  
+  133: We added an Azure ["Create Remote Resources"](/azure/app-service-web/app-service-web-get-started-dotnet) checkbox on the new web application dialog. By choosing it, you will be able to integrate the experience of creating a new web application, setting up the Azure publishing site for testing, and creating publishing profile in a few simple steps.
+  134  
+
+visual-studio\overview\2013\creating-web-projects-in-visual-studio.md:
+  46  
+  47:     You can choose **Cloud** in the left pane to create an [Azure Cloud Service](/azure/cloud-services/cloud-services-how-to-create-deploy), [Azure Mobile Service](https://msdn.microsoft.com/library/windows/apps/dn629482.aspx), or [Azure WebJob](https://azure.microsoft.com/documentation/articles/web-sites-dotnet-deploy-webjobs). This topic doesn't cover those templates.
+  48  3. In the right pane, click the **Add Application Insights to Project** check box if you want health and usage monitoring for your application. For more information, see [Monitor performance in web applications](https://azure.microsoft.com/documentation/articles/app-insights-web-monitor-performance/).
+
+  88  
+  89: For more information about how to use this process for creating Azure resources, see [Get Started with Azure and ASP.NET](/azure/app-service-web/app-service-web-get-started-dotnet) and [Creating a virtual machine for a web site with Visual Studio](https://azure.microsoft.com/documentation/articles/virtual-machines-dotnet-create-visual-studio-powershell/).
+  90  
+
+web-api\samples-list.md:
+   20  
+   21: **Google Maps Sample** | [detailed description](/archive/blogs/henrikn/httpclient-downloading-to-a-local-file) | [VS 2012 source](https://github.com/aspnet/samples/blob/master/samples/aspnet/HttpClient/GoogleMapsSample)
+   22  
+
+   24  
+   25: **Twitter Client Sample** | [detailed description](/archive/blogs/henrikn/extending-httpclient-with-oauth-to-access-twitter) | [VS 2012 source](https://github.com/aspnet/samples/blob/master/samples/aspnet/HttpClient/TwitterSample)
+   26  
+
+   50  
+   51: **Content Controller Sample** | [detailed description](/archive/blogs/henrikn/async-streaming-in-asp-net-web-api) | [VS 2010 source](https://github.com/aspnet/samples/blob/master/samples/aspnet/WebApi/ContentControllerSample/Net40) | [VS 2012 source](https://github.com/aspnet/samples/blob/master/samples/aspnet/WebApi/ContentControllerSample/Net45)
+   52  
+
+   58  
+   59: **Custom Media Type Formatter Sample** | [detailed description](/archive/blogs/henrikn/recent-asp-net-web-api-updates-april-24) | [VS 2010 source](https://github.com/aspnet/samples/blob/master/samples/aspnet/WebApi/CustomMediaTypeFormatterSample)
+   60  
+
+   71  
+   72: **File Upload Sample** | [detailed description](/archive/blogs/henrikn/asynchronous-file-upload-using-asp-net-web-api) | [VS 2012 source](https://github.com/aspnet/samples/tree/master/samples/aspnet/WebApi/FileUploadSample)
+   73  
+
+   75  
+   76: **File Upload to Azure Blob Store Sample** | [detailed description](/archive/blogs/yaohuang1/asp-net-web-api-and-azure-blob-storage) | [VS 2012 source](https://github.com/aspnet/samples/tree/master/samples/aspnet/WebApi/AzureBlobsFileUploadSample)
+   77  
+   78: This sample is similar to the File Upload Sample, but instead of saving the uploaded files on local disk, it asynchronously uploads the files to [Azure Blob Store](/azure/storage/blobs/storage-dotnet-how-to-use-blobs) using [Windows Azure SDK for .NET](https://www.windowsazure.com/develop/net/). It also provides a mechanism for listing the blobs currently present in an [Azure Blob Storage Container](/azure/storage/blobs/storage-dotnet-how-to-use-blobs). You can try out the sample running against **Azure Storage Emulator** that comes with the Azure SDK. If you have an [Azure Storage Account](/azure/storage/blobs/storage-dotnet-how-to-use-blobs), you can run against the real storage service as well.
+   79  
+   80: **Http Message Handler Pipeline Sample** | [detailed description](/archive/blogs/henrikn/httpclient-httpclienthandler-and-webrequesthandler-explained) | [VS 2010 source](https://github.com/aspnet/samples/tree/master/samples/aspnet/WebApi/HttpMessageHandlerPipelineSample)
+   81  
+
+   87  
+   88: **Mashup Sample** | [detailed description](/archive/blogs/henrikn/async-mashups-using-asp-net-web-api) | [VS 2012 source](https://github.com/aspnet/samples/tree/master/samples/aspnet/WebApi/MashupSample)
+   89  
+
+   91  
+   92: **Memory Tracing Sample** | [detailed description](/archive/blogs/roncain/tracing-in-asp-net-web-api) | [VS 2010 source](https://github.com/aspnet/samples/tree/master/samples/aspnet/WebApi/MemoryTracingSample)
+   93  
+
+   95  
+   96: **MongoDB Sample** | [detailed description](/archive/blogs/henrikn/using-mongodb-with-asp-net-web-api) | [VS 2012 source](https://github.com/aspnet/samples/tree/master/samples/aspnet/WebApi/MongoSample)
+   97  
+
+  103  
+  104: **Upload XDocument Sample** | [detailed description](/archive/blogs/henrikn/push-and-pull-streams-using-httpclient) | [VS 2012 source](https://github.com/aspnet/samples/tree/master/samples/aspnet/WebApi/UploadXDocumentSample)
+  105  
+
+  111  
+  112: **Web Form Sample** | [detailed description](/archive/blogs/henrikn/using-asp-net-web-api-with-asp-net-web-forms) | [VS 2010 source](https://github.com/aspnet/samples/tree/master/samples/aspnet/WebApi/WebFormSample)
+  113  
+
+web-api\overview\advanced\configuring-aspnet-web-api.md:
+  116  | <strong>ModelValidatorProvider</strong> |                                                                                                   Provides a validator for a model.                                                                                                    |
+  117: |  <strong>ValueProviderFactory</strong>  | Creates a value provider. For more information, see Mike Stall's blog post [How to create a custom value provider in WebAPI](/archive/blogs/jmstall/how-to-create-a-custom-value-provider-in-webapi) |
+  118  
+
+web-api\overview\data\using-web-api-with-entity-framework\part-3.md:
+  75  
+  76: When you ran the Update-Database command, EF created the database and called the `Seed` method. When you run the application locally, EF uses [LocalDB](/archive/blogs/sqlexpress/introducing-localdb-an-improved-sql-express). You can view the database in Visual Studio. From the **View** menu, select **SQL Server Object Explorer**.
+  77  
+
+web-api\overview\formats-and-model-binding\parameter-binding-in-aspnet-web-api.md:
+   67  
+   68: The following code shows a `GeoPoint` class that represents a geographical point, plus a **TypeConverter** that converts from strings to `GeoPoint` instances. The `GeoPoint` class is decorated with a **[TypeConverter]** attribute to specify the type converter. (This example was inspired by Mike Stall's blog post [How to bind to custom objects in action signatures in MVC/WebAPI](/archive/blogs/jmstall/how-to-bind-to-custom-objects-in-action-signatures-in-mvcwebapi).)
+   69  
+
+  205  
+  206: - [How Web API does Parameter Binding](/archive/blogs/jmstall/how-webapi-does-parameter-binding)
+  207: - [MVC Style parameter binding for Web API](/archive/blogs/jmstall/mvc-style-parameter-binding-for-webapi)
+  208: - [How to bind to custom objects in action signatures in MVC/Web API](/archive/blogs/jmstall/how-to-bind-to-custom-objects-in-action-signatures-in-mvcwebapi)
+  209: - [How to create a custom value provider in Web API](/archive/blogs/jmstall/how-to-create-a-custom-value-provider-in-webapi)
+  210  - [Web API Parameter binding under the hood](https://blogs.msdn.com/b/jmstall/archive/2012/05/11/webapi-parameter-binding-under-the-hood.aspx)
+
+web-api\overview\getting-started-with-aspnet-web-api\creating-api-help-pages.md:
+  119  
+  120: - [Adding a simple Test Client to ASP.NET Web API Help Page](/archive/blogs/yaohuang1/adding-a-simple-test-client-to-asp-net-web-api-help-page)
+  121: - [Making ASP.NET Web API Help Page work on self-hosted services](/archive/blogs/yaohuang1/making-asp-net-web-api-help-page-work-on-self-hosted-services)
+  122: - [Design-time generation of help page (or client) for ASP.NET Web API](/archive/blogs/yaohuang1/design-time-generation-of-help-page-or-client-for-asp-net-web-api)
+  123: - [Advanced Help Page customizations](/archive/blogs/yaohuang1/asp-net-web-api-help-page-part-3-advanced-help-page-customizations)
+
+web-api\overview\getting-started-with-aspnet-web-api\tutorial-your-first-web-api.md:
+  28  
+  29: See [Create a web API with ASP.NET Core and Visual Studio for Windows](/aspnet/core/tutorials/first-web-api) for a newer version of this tutorial.
+  30  
+
+web-api\overview\hosting-aspnet-web-api\host-aspnet-web-api-in-an-azure-worker-role.md:
+  117  > [!NOTE]
+  118: > If you get an exception like the following, please see [this blog post](/archive/blogs/praburaj/fileloadexception-on-microsoft-owin-when-running-on-worker-role) for a workaround. "Could not load file or assembly 'Microsoft.Owin, Version=2.0.2.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35' or one of its dependencies. The located assembly's manifest definition does not match the assembly reference. (Exception from HRESULT: 0x80131040)"
+  119  
+
+web-api\overview\odata-support-in-aspnet-web-api\odata-v3\calling-an-odata-service-from-a-net-client.md:
+  194  > [!NOTE]
+  195: > Why PATCH versus MERGE? The original HTTP 1.1 specification ([RCF 2616](http://tools.ietf.org/html/rfc2616)) did not define any HTTP method with "partial update" semantics. To support partial updates, the OData specification defined the MERGE method. In 2010, [RFC 5789](http://tools.ietf.org/html/rfc5789) defined the PATCH method for partial updates. You can read some of the history in this [blog post](/archive/blogs/astoriateam/merge-vs-replace-semantics-for-update-operations) on the WCF Data Services Blog. Today, PATCH is preferred over MERGE. The OData controller created by the Web API scaffolding supports both methods.
+  196  
+
+web-api\overview\testing-and-debugging\unit-testing-controllers-in-web-api.md:
+  114  - [Mocking Entity Framework when Unit Testing ASP.NET Web API 2](mocking-entity-framework-when-unit-testing-aspnet-web-api-2.md)
+  115: - [Writing tests for an ASP.NET Web API service](/archive/blogs/youssefm/writing-tests-for-an-asp-net-web-api-service) (blog post by Youssef Moussaoui).
+  116  - [Debugging ASP.NET Web API with Route Debugger](https://devblogs.microsoft.com/dotnet/debugging-asp-net-web-api-with-route-debugger/)
+
+web-forms\overview\advanced\aspnet-web-forms-connection-resiliency-and-command-interception.md:
+  101  
+  102: ⟪ 270 characters skipped ⟫r example, or to write them to blob storage in Windows Azure. See some of the options, and links to other resources for more information, in [Troubleshooting Windows Azure Web Sites in Visual Studio](/azure/app-service-web/web-sites-dotnet-troubleshoot-visual-studio). For this tutorial, you'll only look at logs in the Visual Studio **Output** window.
+  103  
+
+web-forms\overview\data-access\advanced-data-access-scenarios\debugging-stored-procedures-cs.md:
+  34  
+  35: The [Overview of T-SQL and CLR Debugging in SQL Server 2005](https://techcommunity.microsoft.com/t5/sql-server-blog/overview-of-t-sql-and-clr-debugging-in-sql-server-2005/ba-p/383069) blog entry from the [SQL Server 2005 CLR Integration team](/archive/blogs/sqlclr/) highlights the three ways to debug SQL Server 2005 objects from Visual Studio:
+  36  
+
+web-forms\overview\data-access\advanced-data-access-scenarios\debugging-stored-procedures-vb.md:
+  34  
+  35: The [Overview of T-SQL and CLR Debugging in SQL Server 2005](https://techcommunity.microsoft.com/t5/sql-server-blog/overview-of-t-sql-and-clr-debugging-in-sql-server-2005/ba-p/383069) blog entry from the [SQL Server 2005 CLR Integration team](/archive/blogs/sqlclr/) highlights the three ways to debug SQL Server 2005 objects from Visual Studio:
+  36  
+
+web-forms\overview\data-access\introduction\creating-a-business-logic-layer-cs.md:
+  44  > [!NOTE]
+  45: > If you are using Visual Studio Standard Edition or above (that is, you're *not* using Visual Web Developer), you can optionally design your classes visually using the [Class Designer](https://msdn.microsoft.com/library/default.asp?url=/library/dv_vstechart/html/clssdsgnr.asp). Refer to the [Class Designer Blog](/archive/blogs/classdesigner/) for more information on this new feature in Visual Studio.
+  46  
+
+web-forms\overview\data-access\introduction\creating-a-business-logic-layer-vb.md:
+  46  > [!NOTE]
+  47: > If you are using Visual Studio Standard Edition or above (that is, you're *not* using Visual Web Developer), you can optionally design your classes visually using the [Class Designer](https://msdn.microsoft.com/library/default.asp?url=/library/dv_vstechart/html/clssdsgnr.asp). Refer to the [Class Designer Blog](/archive/blogs/classdesigner/) for more information on this new feature in Visual Studio.
+  48  
+
+web-forms\overview\data-access\working-with-batched-data\wrapping-database-modifications-within-a-transaction-cs.md:
+  209  - [Managing Transactions in SQL Server Stored Procedures](http://www.4guysfromrolla.com/webtech/080305-1.shtml)
+  210: - [Transactions Made Easy: `System.Transactions`](/archive/blogs/florinlazar/transactions-made-easy-system-transactions)
+  211  - [TransactionScope and DataAdapters](http://andyclymer.blogspot.com/2007/01/transactionscope-and-dataadapters.html)
+
+web-forms\overview\data-access\working-with-batched-data\wrapping-database-modifications-within-a-transaction-vb.md:
+  209  - [Managing Transactions in SQL Server Stored Procedures](http://www.4guysfromrolla.com/webtech/080305-1.shtml)
+  210: - [Transactions Made Easy: `System.Transactions`](/archive/blogs/florinlazar/transactions-made-easy-system-transactions)
+  211  - [TransactionScope and DataAdapters](http://andyclymer.blogspot.com/2007/01/transactionscope-and-dataadapters.html)
+
+web-forms\overview\deployment\visual-studio-web-deployment\deploying-extra-files.md:
+  89  - [Raffaele Rialdi, Italy](http://www.iamraf.net/)
+  90: - [Rick Anderson, Microsoft](/archive/blogs/rickandy/)
+  91  - [Sayed Hashimi, Microsoft](http://sedodream.com/default.aspx)(twitter: [@sayedihashimi](http://twitter.com/sayedihashimi))
+  92  - [Scott Hanselman](http://www.hanselman.com/blog/) (twitter: [@shanselman](http://twitter.com/shanselman))
+  93: - [Scott Hunter, Microsoft](/archive/blogs/scothu/) (twitter: [@coolcsh](http://twitter.com/coolcsh))
+  94  - [Srđan Božović, Serbia](http://msforge.net/blogs/zmajcek/)
+
+web-forms\overview\deployment\visual-studio-web-deployment\deploying-to-iis.md:
+  166  
+  167: You can configure the publish profile to run the grant script in the membership database during deployment because that database deployment uses the [dbDacFx](/iis/publish/using-web-deploy/dbdacfx-provider-for-incremental-database-publishing) provider. You can't run scripts during Code First Migrations deployment, which is how you're deploying the application database. This means you have to manually run the script before deployment in the application database.
+  168  
+
+web-forms\overview\deployment\visual-studio-web-deployment\deploying-to-production.md:
+   43  > [!NOTE]
+   44: > The following steps show how to create a web app in Azure App Service by using the Azure management portal. In the latest version of the Azure SDK, you can also do this without leaving Visual Studio, by using Server Explorer. In Visual Studio 2013, you can also create a web app directly from the Publish dialog. For more information, see [Create an ASP.NET web app in Azure App Service.](/azure/app-service-web/app-service-web-get-started-dotnet)
+   45  
+
+   89  > [!NOTE]
+   90: ⟪ 329 characters skipped ⟫unt. In Visual Studio 2013, you can sign in to Azure from the **Web Publish** dialog or from the **Server Explorer** window. For more information, see [Create an ASP.NET web app in Azure App Service](/azure/app-service-web/app-service-web-get-started-dotnet).
+   91  
+
+  181  
+  182: The first of these methods is the most effective but is not covered in this tutorial because it would require that you deploy to an Azure Cloud Service instead of Azure App Service. For more information about Cloud Services and IP restrictions in Azure, see [Compute Hosting Options Provided by Azure](/azure/cloud-services/cloud-services-choose-me) and [Block Specific IP Addresses from Accessing a Web Role](https://msdn.microsoft.com/library/windowsazure/jj154098.aspx). If you are deploying to a third-party hosting provider, contact the provider to find out how to implement IP restrictions.
+  183  
+
+web-forms\overview\getting-started\getting-started-with-aspnet-45-web-forms\aspnet-error-handling.md:
+  341  - [Paulo Morgado, Portugal](http://paulomorgado.net/)
+  342: - [Pranav Rastogi, Microsoft](/archive/blogs/pranav_rastogi/)
+  343  - [Tim Ammann, Microsoft](https://blogs.iis.net/timamm/default.aspx)
+  344: - [Tom Dykstra, Microsoft](/archive/blogs/aspnetue/)
+  345  
+
+web-forms\overview\getting-started\getting-started-with-aspnet-45-web-forms\create_the_data_access_layer.md:
+  173  [Code First Data Annotations](https://msdn.microsoft.com/data/gg193958)  
+  174: [Productivity Improvements for the Entity Framework](/archive/blogs/efdesign/productivity-improvements-for-the-entity-framework)
+  175  
+
+web-forms\overview\getting-started\getting-started-with-aspnet-45-web-forms\introduction-and-overview.md:
+  175  
+  176: * [ASP.NET Web Forms Quiz](/archive/blogs/erikreitan/asp-net-web-forms-quiz) 
+  177  
+
+web-forms\overview\getting-started\getting-started-with-aspnet-45-web-forms\shopping-cart.md:
+  43  > 
+  44: ⟪ 687 characters skipped ⟫ed caching service that is external to the web site and solves the problem of using in-process session state. For more information see, [How to Use ASP.NET Session State with Windows Azure Web Sites](/azure/redis-cache/cache-aspnet-session-state-provider).
+  45  
+
+web-forms\overview\older-versions-getting-started\continuing-with-ef\maximizing-performance-with-the-entity-framework-in-an-asp-net-web-application.md:
+  240  - [How to: Pre-Generate Views to Improve Query Performance](https://msdn.microsoft.com/library/bb896240.aspx) on the MSDN web site. Explains how to use the `EdmGen.exe` command-line tool to pre-generate views.
+  241: - [Isolating Performance with Precompiled/Pre-generated Views in the Entity Framework 4](/archive/blogs/appfabriccat/isolating-performance-with-precompiledpre-generated-views-in-the-entity-framework-4) on the Windows Server AppFabric Customer Advisory Team blog.
+  242  
+
+  246  - [Performance-related posts on the Entity Framework Team blog](https://blogs.msdn.com/b/adonet/archive/tags/performance/).
+  247: - [EF Merge Options and Compiled Queries](/archive/blogs/dsimmons/ef-merge-options-and-compiled-queries). Blog post that explains unexpected behaviors of compiled queries and merge options such as `NoTracking`. If you plan to use compiled queries or manipulate merge option settings in your application, read this first.
+  248  - [Entity Framework-related posts in the Data and Modeling Customer Advisory Team blog](https://blogs.msdn.com/b/dmcat/archive/tags/entity+framework/). Includes posts on compiled queries and using the Visual Studio 2010 Profiler to discover performance issues.
+
+web-forms\overview\older-versions-getting-started\continuing-with-ef\using-the-entity-framework-and-the-objectdatasource-control-part-1-getting-started.md:
+  151  > [!NOTE]
+  152: > A common practice is to create a repository class for each entity type. In this tutorial, one repository class for multiple entity types is used. For more information about the repository pattern, see the posts in [the Entity Framework team's blog](/archive/blogs/adonet/using-repository-and-unit-of-work-patterns-with-entity-framework-4-0) and [Julie Lerman's blog](http://thedatafarm.com/blog/data-access/agile-ef4-repository-part-3-fine-tuning-the-repository/).
+  153  
+
+web-forms\overview\older-versions-getting-started\continuing-with-ef\what-s-new-in-the-entity-framework-4.md:
+   46  
+   47: As you can see in the Entity Framework team's [blog post on Foreign Key associations](/archive/blogs/efdesign/foreign-keys-in-the-entity-framework), there are other cases where the difference in code complexity is much greater. To meet the needs of those who prefer to live with implementation details in the conceptual data model for the sake of simpler code, the Entity Framework now gives you the option of including foreign keys in the data model.
+   48  
+
+  181  - [Working with POCO Entities](https://msdn.microsoft.com/library/dd456853.aspx). This is an MSDN document that's an overview of POCOs, with links to other documents that have more detailed information.
+  182: - [Walkthrough: POCO Template for the Entity Framework](/archive/blogs/adonet/walkthrough-poco-template-for-the-entity-framework) This is a blog post from the Entity Framework development team, with links to other blog posts about POCOs.
+  183  
+
+  202  - [What's New in ADO.NET](https://msdn.microsoft.com/library/ex6y04yf.aspx) MSDN topic on new features in version 4 of the Entity Framework.
+  203: - [Announcing the release of Entity Framework 4](/archive/blogs/efdesign/announcing-the-release-of-entity-framework-4) The Entity Framework development team's blog post about new features in version 4.
+  204  
+
+web-forms\overview\older-versions-getting-started\deploying-web-site-projects\logging-error-details-with-asp-net-health-monitoring-cs.md:
+  128  
+  129: ⟪ 296 characters skipped ⟫can create your own health monitoring events and log sources, should the need arise. If you are interested in learning more about health monitoring, a good first step is to read through [Erik Reitan](/archive/blogs/erikreitan/faq-health-monitoring-in-asp-net-2-0)'s [health monitoring FAQ](/archive/blogs/erikreitan/faq-health-monitoring-in-asp-net-2-0). Following that, consult [How To: Use Health Monitoring in ASP.NET 2.0](https://msdn.microsoft.com/library/ms998306.aspx).
+  130  
+
+  138  - [Configuring and Customizing the Health Monitoring System of ASP.NET](http://dotnetslackers.com/articles/aspnet/ConfiguringAndCustomizingTheHealthMonitoringSystemOfASPNET.aspx)
+  139: - [FAQ - Health Monitoring in ASP.NET 2.0](/archive/blogs/erikreitan/faq-health-monitoring-in-asp-net-2-0)
+  140  - [How To: Send E-Mail for Health Monitoring Notifications](https://msdn.microsoft.com/library/ms227553.aspx)
+
+web-forms\overview\older-versions-getting-started\deploying-web-site-projects\logging-error-details-with-asp-net-health-monitoring-vb.md:
+  128  
+  129: ⟪ 296 characters skipped ⟫can create your own health monitoring events and log sources, should the need arise. If you are interested in learning more about health monitoring, a good first step is to read through [Erik Reitan](/archive/blogs/erikreitan/faq-health-monitoring-in-asp-net-2-0)'s [health monitoring FAQ](/archive/blogs/erikreitan/faq-health-monitoring-in-asp-net-2-0). Following that, consult [How To: Use Health Monitoring in ASP.NET 2.0](https://msdn.microsoft.com/library/ms998306.aspx).
+  130  
+
+  138  - [Configuring and Customizing the Health Monitoring System of ASP.NET](http://dotnetslackers.com/articles/aspnet/ConfiguringAndCustomizingTheHealthMonitoringSystemOfASPNET.aspx)
+  139: - [FAQ - Health Monitoring in ASP.NET 2.0](/archive/blogs/erikreitan/faq-health-monitoring-in-asp-net-2-0)
+  140  - [How To: Send E-Mail for Health Monitoring Notifications](https://msdn.microsoft.com/library/ms227553.aspx)
+
+web-forms\overview\older-versions-getting-started\deployment-to-a-hosting-provider\deployment-to-a-hosting-provider-deploying-a-sql-server-database-update-11-of-12.md:
+  158  - [Raffaele Rialdi, Italy](http://www.iamraf.net/)
+  159: - [Rick Anderson, Microsoft](/archive/blogs/rickandy/)
+  160  - [Sayed Hashimi, Microsoft](http://sedodream.com/default.aspx)(twitter: [@sayedihashimi](http://twitter.com/sayedihashimi))
+  161  - [Scott Hanselman](http://www.hanselman.com/blog/) (twitter: [@shanselman](http://twitter.com/shanselman))
+  162: - [Scott Hunter, Microsoft](/archive/blogs/scothu/) (twitter: [@coolcsh](http://twitter.com/coolcsh))
+  163  - [Srđan Božović, Serbia](http://msforge.net/blogs/zmajcek/)
+
+web-forms\overview\older-versions-getting-started\deployment-to-a-hosting-provider\deployment-to-a-hosting-provider-deploying-to-iis-as-a-test-environment-5-of-12.md:
+  237  - [Core Differences Between IIS and the ASP.NET Development Server](../deploying-web-site-projects/core-differences-between-iis-and-the-asp-net-development-server-cs.md) on the ASP.NET site.
+  238: - [Test your ASP.NET MVC or Web Forms Application on IIS 7 in 30 seconds](/archive/blogs/rickandy/test-your-asp-net-mvc-or-webforms-application-on-iis-7-in-30-seconds) on Rick Anderson's blog. This entry provides examples of why testing with the Visual Studio Development Server (Cassini) is not as reliable as testing in IIS Express, and why testing in IIS Express is not as reliable as testing in IIS.
+  239  
+
+web-forms\overview\older-versions-getting-started\getting-started-with-ef\the-entity-framework-and-aspnet-getting-started-part-8.md:
+  116  - [Entity Framework FAQ](http://www.ef-faq.org/introduction.html)
+  117: - [The Entity Framework Team Blog](/archive/blogs/adonet/)
+  118  - [Entity Framework in the MSDN Library](https://msdn.microsoft.com/library/bb399572.aspx)
+
+web-forms\overview\performance-and-caching\using-asynchronous-methods-in-aspnet-45.md:
+  121  
+  122: ⟪ 406 characters skipped ⟫nd [async](https://msdn.microsoft.com/library/hh156513(VS.110).aspx) keywords and the [Task](https://msdn.microsoft.com/library/system.threading.tasks.task.aspx) namespace, see the [async references](/dotnet/csharp/language-reference/keywords/async).
+  123  
+
+  200  - If your application is using web services or System.NET to communicate with a backend over HTTP you may need to increase the [connectionManagement/maxconnection](https://msdn.microsoft.com/library/fb6y0fyc(VS.110).aspx) element. For ASP.NET applications, this is limited by the autoConfig feature to 12 times the number of CPUs. That means that on a quad-proc, you can have at most 12 \* 4 = 48 concurrent connections to an IP end point. Because this is tied to [autoConfig](https://msdn.microsoft.com/library/7w2sway1(VS.110).aspx), the easiest way to increase `maxconnection` in an ASP.NET application is to set [System.Net.ServicePointManager.DefaultConnectionLimit](https://msdn.microsoft.com/library/system.net.servicepointmanager.defaultconnectionlimit(VS.110).aspx) programmatically in the from `Application_Start` method in the *global.asax* file. See the sample download for an example.
+  201: - In .NET 4.5, the default of 5000 for [MaxConcurrentRequestsPerCPU](/archive/blogs/tmarq/asp-net-thread-usage-on-iis-7-5-iis-7-0-and-iis-6-0) should be fine.
+  202  
+
+  207  - [Brad Wilson](http://bradwilson.typepad.com/)
+  208: - [HongMei Ge](/archive/blogs/hongmeig/)
+
+web-forms\overview\presenting-and-managing-data\model-binding\retrieving-data.md:
+  115  
+  116: This tutorial uses [Code First Migrations](/ef/ef6/modeling/code-first/migrations/) to create objects and database tables. These tables store information about the students and their courses.
+  117  
+
+  157     
+  158:    * The `ItemType` property is set to the `Student` class created earlier. This setting allows you to reference class properties in the markup. For example, the `Student` class has a collection named `Enrollments`. You can use `Item.Enrollments` to retrieve that collection and then use [LINQ syntax](/dotnet/csharp/programming-guide/concepts/linq/query-syntax-and-method-syntax-in-linq) to retrieve each student's enrolled credits sum.
+  159     
+
+web-pages\readme\overview.md:
+  177  > **Workaround**   
+  178: > To work with packages in Visual Studio, use the NuGet extension instead of the web-based package manager. For information, see the [NuGet documentation](/nuget/). If you are working with other files in the *App\_Data* folder, consider keeping the files elsewhere to avoid this issue. If that's not practical, delete the *app\_offline.htm* file manually or wait until the site comes back online automatically (by default, after 30 seconds).
+  179  
+
+whitepapers\add-mobile-pages-to-your-aspnet-web-forms-mvc-application.md:
+   31  
+   32: For downloadable code samples demonstrating this white paper's techniques for both ASP.NET Web Forms and MVC, see [Mobile Apps & Sites with ASP.NET](/aspnet/mobile/overview).
+   33  
+
+  194  
+  195: To see these techniques in action, download [this white paper's code samples](/aspnet/mobile/overview). The Web Forms sample application automatically redirects mobile users to a set of mobile-specific pages in a subfolder called Mobile. The markup and styling of those pages is better optimized for mobile browsers, as you can see from the following screenshots:
+  196  
+
+  284  
+  285: To see these techniques in action, download [this white paper's code associated samples](/aspnet/mobile/overview). The sample includes an ASP.NET MVC 3 (Release Candidate) application enhanced to support mobile devices using the methods described above.
+  286  
+
+whitepapers\aspnet-and-web-tools-20122-release-notes.md:
+   99  - You can now create a VSIX that adds new templates to the ASP.NET MVC New Project dialog. Learn how here: [https://go.microsoft.com/fwlink/?LinkId=275019](https://go.microsoft.com/fwlink/?LinkId=275019)
+  100: - FixedDisplayModes package &#8211; MVC project templates have been updated to include the new ‘FixedDisplayModes' NuGet package, which contains a workaround for a bug in MVC 4. For more information on the fix contained in the package, refer to this blog post ([/archive/blogs/rickandy/asp-net-mvc-4-mobile-caching-bug-fixed](/archive/blogs/rickandy/asp-net-mvc-4-mobile-caching-bug-fixed)) from the MVC team.
+  101  
+
+whitepapers\aspnet-data-access-content-map.md:
+   92  - [ASP.NET Web Deployment using Visual Studio](../web-forms/overview/deployment/visual-studio-web-deployment/introduction.md). 2-part tutorial series that shows how to use Code First Migrations to deploy a database.
+   93: - [Deploy a Secure ASP.NET MVC 5 app with Membership, OAuth, and SQL Database to a Windows Azure Web Site](/aspnet/core/security/authorization/secure-data). Microsoft Azure). How to use migrations to deploy membership and application data to Azure.
+   94  - [Web Deployment Overview for Visual Studio and ASP.NET](https://msdn.microsoft.com/library/dd394698.aspx#dbdeployment). See the **Configuring Database Deployment in Visual Studio** section for an explanation of how Code First Migrations is integrated into Visual Studio web deployment features.
+   95  - [Data Developer Center - Code First Migrations](https://msdn.microsoft.com/data/jj591621) (MSDN). The Entity Framework team's Migrations documentation.
+   96: - [Migrations Screencast Series](/archive/blogs/adonet/migrations-screencast-series). EF blog). Three videos on advanced topics in Code First Migrations.
+   97  - [Code First Migrations With ASP.NET Web Pages Sites](http://www.mikesdotnetting.com/Article/217/Code-First-Migrations-With-ASP.NET-Web-Pages-Sites). Mikesdotnetting blog). Shows how to use Code First migrations with an ASP.NET Web Pages site by putting the data context in a Visual Studio class library project.
+
+  147  
+  148: - [Entity Framework (ADO.NET) team blog](/archive/blogs/adonet/). One of the best resources for the most current information and announcements of new enhancements. For other EF-related blogs, see the Blogroll at [Get Started with Entity Framework](https://msdn.microsoft.com/data/ee712907).
+  149  - [MSDN Magazine](https://msdn.microsoft.com/magazine/default.aspx). See the **Data Points** column, which is frequently about topics related to the Entity Framework.
+
+  210  - [LocalDB: Where is My Database?](https://go.microsoft.com/fwlink/?LinkId=234376) (SQL Server Express blog). Information about where LocalDB database files are created.
+  211: - [Using LocalDB with Full IIS, Part 1: User Profile](/archive/blogs/sqlexpress/using-localdb-with-full-iis-part-1-user-profile) (SQL Server Express blog). LocalDB is not designed to work with IIS. This series of blog posts explains the issues and some workarounds.
+  212  
+
+  217  - [SQL Server Connection Strings for ASP.NET Web Applications](https://msdn.microsoft.com/library/jj653752.aspx) (MSDN). If you use the AttachDBFileName connection string setting with SQL Server Express, see especially the User Instance section of this page.
+  218: - [How to take ownership of your local SQL Server Express 2008](/archive/blogs/sqlexpress/how-to-take-ownership-of-your-local-sql-server-2008-express) (SQL Server Express blog). A common problem is not being able to work with SQL Server Express databases because you're not an administrator on the SQL Server Express instance. By default, only the person who installed SQL Server Express is an administrator. This blog explains how to make yourself a SQL Server Express administrator if you're an administrator on the computer.
+  219  - [Can my ASP.NET web application use a SQL Server Express database in production?](https://msdn.microsoft.com/library/jj653753.aspx#sql_express_in_production) (MSDN).
+
+  224  
+  225: - [Deploy a Secure ASP.NET MVC app with Membership, OAuth, and SQL Database to a Windows Azure Web Site](/aspnet/core/security/authorization/secure-data) (Microsoft Azure site).
+  226: - [SQL Databases](/azure/sql-database/) (Microsoft Azure site). Getting started tutorials and how-to guides.
+  227  - [Windows Azure SQL Database](https://msdn.microsoft.com/library/windowsazure/ee336279.aspx) (MSDN). The top-level node of the table of contents for SQL Database in MSDN.
+
+  252  
+  253: - [Windows Azure Data Services](https://www.windowsazure.com/develop/net/data/) (Microsoft Azure site). See the [Table Service feature guide](/azure/) and the **Big Data** section of the page.
+  254  - [ASP.NET Multi-Tier Application Using Storage Tables, Queues, and Blobs](https://code.msdn.microsoft.com/Windows-Azure-Multi-Tier-eadceb36) (Microsoft Azure site). End-to-end tutorial with downloadable sample application that uses Windows Azure storage NoSQL tables.
+
+whitepapers\aspnet-web-deployment-content-map.md:
+   48  - [Web Deployment Overview for Visual Studio and ASP.NET](https://msdn.microsoft.com/library/dd394698.aspx) (MSDN).
+   49: - [How to Deploy a Windows Azure Web Site](/azure/app-service-web/web-sites-deploy). Explains options and links to resources for deploying web projects to Windows Azure Web Sites, including [continuous delivery](../aspnet/overview/developing-apps-with-windows-azure/building-real-world-cloud-apps-with-windows-azure/continuous-integration-and-continuous-delivery.md) (automated from [source control](../aspnet/overview/developing-apps-with-windows-azure/building-real-world-cloud-apps-with-windows-azure/source-control.md)) as well as using Visual Studio.
+   50  - [Visual Studio 2012 Web Publishing Improvements](../visual-studio/overview/2012/visual-studio-2012-web-publishing-improvements.md) (Video by Scott Hanselman).
+
+   62  
+   63: - [How to Deploy a Windows Azure Web Site](/azure/app-service-web/web-sites-deploy). Explains options and provides links to resources for deploying web projects to Windows Azure Web Sites. Includes a section about deploying from Visual Studio.
+   64  - [ASP.NET Web Deployment using Visual Studio](../web-forms/overview/deployment/visual-studio-web-deployment/introduction.md). 12-part tutorial series, shows how to deploy web applications with SQL Server databases. For database deployment uses both the dbDacFx provider and Entity Framework Code First Migrations. Also includes information about [Web.config file transformations](../web-forms/overview/deployment/visual-studio-web-deployment/web-config-transformations.md), [deploying individual files](../web-forms/overview/deployment/visual-studio-web-deployment/deploying-a-code-update.md#specificfiles), [command-line deployment](../web-forms/overview/deployment/visual-studio-web-deployment/command-line-deployment.md), and [how to customize the Visual Studio web publish pipeline by editing .pubxml files](../web-forms/overview/deployment/visual-studio-web-deployment/deploying-extra-files.md). Applies to all ASP.NET web projects, including Web Forms, MVC, and Web API.)
+
+   84  - [Continuous Integration and Continuous Delivery (Building Real-World Cloud Apps with Windows Azure).](../aspnet/overview/developing-apps-with-windows-azure/building-real-world-cloud-apps-with-windows-azure/continuous-integration-and-continuous-delivery.md) E-book chapter that introduces continuous integration and continuous delivery.
+   85: - [How to Deploy a Windows Azure Web Site](/azure/app-service-web/web-sites-deploy). Explains options and links to resources for deploying web projects to Windows Azure Web Sites. Includes a section about automating deployment from source control.
+   86  - [Deploying Web Applications in Enterprise Scenarios](../web-forms/overview/deployment/deploying-web-applications-in-enterprise-scenarios/deploying-web-applications-in-enterprise-scenarios.md). 40-part tutorial series, shows how to automate deployment in a CI process using Visual Studio 2010 and Team Foundation Server 2010.
+
+  133  - [How to: Deploy a Web Project Using One-Click Publish in Visual Studio](https://msdn.microsoft.com/library/dd465337.aspx) (MSDN).
+  134: - [Deploy a Secure ASP.NET MVC 5 app with Membership, OAuth, and SQL Database to a Windows Azure Web Site](/aspnet/core/security/authorization/secure-data). A long tutorial that builds and deploys an application that uses a single SQL Server database both for membership and application data.
+  135  - [Deploying an ASP.NET Web Application with SQL Server Compact using Visual Studio](../web-forms/overview/older-versions-getting-started/deployment-to-a-hosting-provider/deployment-to-a-hosting-provider-introduction-1-of-12.md). 12-part tutorial series, shows how to deploy SQL Server Compact databases and how to migrate from SQL Server Compact to a full edition of SQL Server.
+
+  143  - [SQL Server Data Tools](https://msdn.microsoft.com/library/hh272686(v=vs.103).aspx) (MSDN).
+  144: - [Including Data in a SQL Server Database Project](/archive/blogs/ssdt/including-data-in-a-sql-server-database-project) (SQL Server Data Tools team blog). How to deploy both schema and data when deploying a database.
+  145: - [How to Deploy a Database to Windows Azure](/azure/sql-database/sql-database-cloud-migrate) (Microsoft Azure site)
+  146  - [Migrating Databases to Windows Azure SQL Database (formerly SQL Azure)](https://msdn.microsoft.com/library/windowsazure/ee730904.aspx) (MSDN).
+  147: - [Migrating a Database to SQL Azure using SSDT](/archive/blogs/ssdt/including-data-in-a-sql-server-database-project) (SQL Server Data Tools team blog).
+  148  - [Migrating Data-Centric Applications to Windows Azure](https://msdn.microsoft.com/library/jj156154.aspx) (MSDN).
+
+  154  
+  155: - [Deploy a Secure ASP.NET MVC 5 app with Membership, OAuth, and SQL Database to a Windows Azure Web Site](/aspnet/core/security/authorization/secure-data). A long tutorial that builds and deploys an application that uses a single SQL Server database both for membership and application data.
+  156  - [ASP.NET Identity](https://asp.net/identity/). Resources for ASP.NET Identity.
+
+  181  - [Setting Folder Permissions on Web Publish](http://sedodream.com/2011/11/08/SettingFolderPermissionsOnWebPublish.aspx) (Sayed Hashimi's blog).
+  182: - [How to extend the targets file to include registry settings for a web project package](/archive/blogs/ssdt/including-data-in-a-sql-server-database-project) (Web Development Tools blog).
+  183  - [Extending XML (Web.config) transformation](http://sedodream.com/2010/09/09/ExtendingXMLWebconfigConfigTransformation.aspx) (Sayed Hashimi's blog). Shows how to create custom XDT transforms.
+
+  205  
+  206: - [Troubleshooting Windows Azure Web Sites in Visual Studio](/azure/app-service-web/web-sites-dotnet-troubleshoot-visual-studio) (Microsoft Azure site).
+  207  - [ASP.NET Web Deployment using Visual Studio: Troubleshooting](../web-forms/overview/deployment/visual-studio-web-deployment/troubleshooting.md).
+
+whitepapers\mvc3-release-notes.md:
+  490  
+  491: For more information about NuGet, read the [Nuget Documentation](/nuget/).
+  492  
+
+  632  
+  633: For more information about NuGet, read the [NuGet Documentation](/nuget/).
+  634  
+
+whitepapers\mvc4-release-notes.md:
+  135  
+  136: ⟪ 525 characters skipped ⟫D=271322) includes the [Fixed DisplayModes](http://nuget.org/packages/Microsoft.AspNet.Mvc.FixedDisplayModes) NuGet package in the new project templates. See [ASP.NET MVC 4 Mobile Caching Bug Fixedd](/archive/blogs/rickandy/asp-net-mvc-4-mobile-caching-bug-fixed) for details on the fix.
+  137  
+
+  245  
+  246:     - See [ASP.NET MVC 4 Mobile Caching Bug Fixed](/archive/blogs/rickandy/asp-net-mvc-4-mobile-caching-bug-fixed) for details on the fix. The fix can be installed from the [Fixed DisplayModes](http://nuget.org/packages/Microsoft.AspNet.Mvc.FixedDisplayModes) NuGet package.
+  247  - **Breaking changes in the Razor View Engine**. The following types were removed from *System.Web.Mvc.Razor*: 

@@ -39,25 +39,25 @@ The default Visual Studio project template for ASP.NET MVC automatically enables
 
 The default Site.master master page displays a "Log On" link at the top-right of the site when the user accessing it is not authenticated:
 
-![](secure-applications-using-authentication-and-authorization/_static/image1.png)
+![Screenshot of the Nerd Dinner Host a Dinner page. Log On is highlighted in the top right corner.](secure-applications-using-authentication-and-authorization/_static/image1.png)
 
 Clicking the "Log On" link takes a user to the */Account/LogOn* URL:
 
-![](secure-applications-using-authentication-and-authorization/_static/image2.png)
+![Screenshot of the Nerd Dinner Log On page.](secure-applications-using-authentication-and-authorization/_static/image2.png)
 
 Visitors who haven't registered can do so by clicking the "Register" link – which will take them to the */Account/Register* URL and allow them to enter account details:
 
-![](secure-applications-using-authentication-and-authorization/_static/image3.png)
+![Screenshot of the Nerd Dinner Create a New Account page.](secure-applications-using-authentication-and-authorization/_static/image3.png)
 
 Clicking the "Register" button will create a new user within the ASP.NET Membership system, and authenticate the user onto the site using forms authentication.
 
 When a user is logged-in, the Site.master changes the top-right of the page to output a "Welcome [username]!" message and renders a "Log Off" link instead of a "Log On" one. Clicking the "Log Off" link logs out the user:
 
-![](secure-applications-using-authentication-and-authorization/_static/image4.png)
+![Screenshot of the Nerd Dinner Host a Dinner form page. The Welcome and Log Off buttons are highlighted in the top right corner.](secure-applications-using-authentication-and-authorization/_static/image4.png)
 
 The above login, logout, and registration functionality is implemented within the AccountController class that was added to our project by Visual Studio when it created the project. The UI for the AccountController is implemented using view templates within the \Views\Account directory:
 
-![](secure-applications-using-authentication-and-authorization/_static/image5.png)
+![Screenshot of the Nerd Dinner navigation tree. Account Controller dot c s is highlighted. The Account Folder and menu items are also highlighted.](secure-applications-using-authentication-and-authorization/_static/image5.png)
 
 The AccountController class uses the ASP.NET Forms Authentication system to issue encrypted authentication cookies, and the ASP.NET Membership API to store and validate usernames/passwords. The ASP.NET Membership API is extensible and enables any password credential store to be used. ASP.NET ships with built-in membership provider implementations that store username/passwords within a SQL database, or within Active Directory.
 
@@ -65,7 +65,7 @@ We can configure which membership provider our NerdDinner application should use
 
 The default "ApplicationServices" connection string (which is specified within the &lt;connectionStrings&gt; section of the web.config file) is configured to use SQL Express. It points to a SQL Express database named "ASPNETDB.MDF" under the application's "App\_Data" directory. If this database doesn't exist the first time the Membership API is used within the application, ASP.NET will automatically create the database and provision the appropriate membership database schema within it:
 
-![](secure-applications-using-authentication-and-authorization/_static/image6.png)
+![Screenshot of the Nerd Dinner navigation tree. App Data is expanded and A S P NET D B dot M D F is selected.](secure-applications-using-authentication-and-authorization/_static/image6.png)
 
 If instead of using SQL Express we wanted to use a full SQL Server instance (or connect to a remote database), all we'd need to-do is to update the "ApplicationServices" connection string within the web.config file and make sure that the appropriate membership schema has been added to the database it points at. You can run the "aspnet\_regsql.exe" utility within the \Windows\Microsoft.NET\Framework\v2.0.50727\ directory to add the appropriate schema for membership and the other ASP.NET application services to a database.
 
@@ -121,7 +121,7 @@ We can then right-click on the \Views\Dinners directory and choose the Add-&gt;V
 
 And now when a user attempts to edit a dinner they don't own, they'll get an error message:
 
-![](secure-applications-using-authentication-and-authorization/_static/image7.png)
+![Screenshot of the Error Message on the Nerd Dinner web page.](secure-applications-using-authentication-and-authorization/_static/image7.png)
 
 We can repeat the same steps for the Delete() action methods within our controller to lock down permission to delete Dinners as well, and ensure that only the host of a Dinner can delete it.
 
@@ -129,7 +129,7 @@ We can repeat the same steps for the Delete() action methods within our controll
 
 We are linking to the Edit and Delete action method of our DinnersController class from our Details URL:
 
-![](secure-applications-using-authentication-and-authorization/_static/image8.png)
+![Screenshot of the Nerd Dinner page. The Edit and Delete buttons are circled at the bottom. The details U R L is circled at the top.](secure-applications-using-authentication-and-authorization/_static/image8.png)
 
 Currently we are showing the Edit and Delete action links regardless of whether the visitor to the details URL is the host of the dinner. Let's change this so that the links are only displayed if the visiting user is the owner of the dinner.
 

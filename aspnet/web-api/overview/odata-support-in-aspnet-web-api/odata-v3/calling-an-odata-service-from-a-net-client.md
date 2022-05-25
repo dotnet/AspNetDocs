@@ -1,7 +1,7 @@
 ---
 uid: web-api/overview/odata-support-in-aspnet-web-api/odata-v3/calling-an-odata-service-from-a-net-client
 title: "Calling an OData Service From a .NET Client (C#) | Microsoft Docs"
-author: MikeWasson
+author: rick-anderson
 description: "This tutorial shows how to call an OData service from a C# client application. Software versions used in the tutorial Visual Studio 2013 (works with Visual S..."
 ms.author: riande
 ms.date: 02/26/2014
@@ -11,7 +11,7 @@ msc.type: authoredcontent
 ---
 # Calling an OData Service From a .NET Client (C#)
 
-by [Mike Wasson](https://github.com/MikeWasson)
+by Mike Wasson
 
 [Download Completed Project](https://code.msdn.microsoft.com/ASPNET-Web-API-OData-cecdb524)
 
@@ -30,7 +30,7 @@ In this tutorial, I'll walk through creating a client application that calls an 
 - `Supplier`
 - `ProductRating`
 
-![](calling-an-odata-service-from-a-net-client/_static/image1.png)
+![Diagram showing the O Data service entities and a list of their properties, with connecting arrows to show how each relate or work together.](calling-an-odata-service-from-a-net-client/_static/image1.png)
 
 The following articles describe how to implement the OData service in Web API. (You don't need to read them to understand this tutorial, however.)
 
@@ -42,7 +42,7 @@ The following articles describe how to implement the OData service in Web API. (
 
 The first step is to generate a service proxy. The service proxy is a .NET class that defines methods for accessing the OData service. The proxy translates method calls into HTTP requests.
 
-![](calling-an-odata-service-from-a-net-client/_static/image2.png)
+![Diagram showing the service proxy's H T T P request calls running back and forth from the application, through the service proxy, and to the O Data service.](calling-an-odata-service-from-a-net-client/_static/image2.png)
 
 Start by opening the OData service project in Visual Studio. Press CTRL+F5 to run the service locally in IIS Express. Note the local address, including the port number that Visual Studio assigns. You will need this address when you create the proxy.
 
@@ -53,7 +53,7 @@ Next, open another instance of Visual Studio and create a console application pr
 
 In Solution Explorer, right-click **References** and select **Add Service Reference**.
 
-![](calling-an-odata-service-from-a-net-client/_static/image3.png)
+![Screenshot of the solution explorer window, showing the menu under 'references' in order to add a new service reference.](calling-an-odata-service-from-a-net-client/_static/image3.png)
 
 In the **Add Service Reference** dialog, type the address of the OData service:
 
@@ -61,17 +61,17 @@ In the **Add Service Reference** dialog, type the address of the OData service:
 
 where *port* is the port number.
 
-[![](calling-an-odata-service-from-a-net-client/_static/image5.png)](calling-an-odata-service-from-a-net-client/_static/image4.png)
+[![Screenshot of the 'add service reference' window, which shows the port number in the U R L address field and a field to add a Name space.](calling-an-odata-service-from-a-net-client/_static/image5.png)](calling-an-odata-service-from-a-net-client/_static/image4.png)
 
 For **Namespace**, type "ProductService". This option defines the namespace of the proxy class.
 
 Click **Go**. Visual Studio reads the OData metadata document to discover the entities in the service.
 
-[![](calling-an-odata-service-from-a-net-client/_static/image7.png)](calling-an-odata-service-from-a-net-client/_static/image6.png)
+[![Screenshot of the 'add service reference' dialog box, highlighting the container service, to show the operations running in it.](calling-an-odata-service-from-a-net-client/_static/image7.png)](calling-an-odata-service-from-a-net-client/_static/image6.png)
 
 Click **OK** to add the proxy class to your project.
 
-![](calling-an-odata-service-from-a-net-client/_static/image8.png)
+![Screenshot of the solution explorer dialog box, showing the menu under the 'product service client' and highlighting the option for 'Product Service'.](calling-an-odata-service-from-a-net-client/_static/image8.png)
 
 ## Create an Instance of the Service Proxy Class
 
@@ -192,7 +192,7 @@ To update an entity, call the **UpdateObject** method.
 The update is performed when you call **SaveChanges**. By default, WCF sends an HTTP MERGE request. The **PatchOnUpdate** option tells WCF to send an HTTP PATCH instead.
 
 > [!NOTE]
-> Why PATCH versus MERGE? The original HTTP 1.1 specification ([RCF 2616](http://tools.ietf.org/html/rfc2616)) did not define any HTTP method with "partial update" semantics. To support partial updates, the OData specification defined the MERGE method. In 2010, [RFC 5789](http://tools.ietf.org/html/rfc5789) defined the PATCH method for partial updates. You can read some of the history in this [blog post](https://docs.microsoft.com/archive/blogs/astoriateam/merge-vs-replace-semantics-for-update-operations) on the WCF Data Services Blog. Today, PATCH is preferred over MERGE. The OData controller created by the Web API scaffolding supports both methods.
+> Why PATCH versus MERGE? The original HTTP 1.1 specification ([RCF 2616](http://tools.ietf.org/html/rfc2616)) did not define any HTTP method with "partial update" semantics. To support partial updates, the OData specification defined the MERGE method. In 2010, [RFC 5789](http://tools.ietf.org/html/rfc5789) defined the PATCH method for partial updates. You can read some of the history in this [blog post](/archive/blogs/astoriateam/merge-vs-replace-semantics-for-update-operations) on the WCF Data Services Blog. Today, PATCH is preferred over MERGE. The OData controller created by the Web API scaffolding supports both methods.
 
 If you want to replace the entire entity (PUT semantics), specify the **ReplaceOnUpdate** option. This causes WCF to send an HTTP PUT request.
 

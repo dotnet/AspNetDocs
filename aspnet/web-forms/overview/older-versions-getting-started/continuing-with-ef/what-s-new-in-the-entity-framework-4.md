@@ -44,7 +44,7 @@ Without foreign keys in the data model, you'd handle the `Inserting` event of th
 
 [!code-csharp[Main](what-s-new-in-the-entity-framework-4/samples/sample3.cs)]
 
-As you can see in the Entity Framework team's [blog post on Foreign Key associations](https://docs.microsoft.com/archive/blogs/efdesign/foreign-keys-in-the-entity-framework), there are other cases where the difference in code complexity is much greater. To meet the needs of those who prefer to live with implementation details in the conceptual data model for the sake of simpler code, the Entity Framework now gives you the option of including foreign keys in the data model.
+As you can see in the Entity Framework team's [blog post on Foreign Key associations](/archive/blogs/efdesign/foreign-keys-in-the-entity-framework), there are other cases where the difference in code complexity is much greater. To meet the needs of those who prefer to live with implementation details in the conceptual data model for the sake of simpler code, the Entity Framework now gives you the option of including foreign keys in the data model.
 
 In Entity Framework terminology, if you include foreign keys in the data model you're using *foreign key associations*, and if you exclude foreign keys you're using *independent associations*.
 
@@ -179,7 +179,7 @@ The Entity Framework 4 introduces the ability to use entity classes that don't i
 For more information about using POCOs in the Entity Framework, see the following resources:
 
 - [Working with POCO Entities](https://msdn.microsoft.com/library/dd456853.aspx). This is an MSDN document that's an overview of POCOs, with links to other documents that have more detailed information.
-- [Walkthrough: POCO Template for the Entity Framework](https://docs.microsoft.com/archive/blogs/adonet/walkthrough-poco-template-for-the-entity-framework) This is a blog post from the Entity Framework development team, with links to other blog posts about POCOs.
+- [Walkthrough: POCO Template for the Entity Framework](/archive/blogs/adonet/walkthrough-poco-template-for-the-entity-framework) This is a blog post from the Entity Framework development team, with links to other blog posts about POCOs.
 
 ## Code-First Development
 
@@ -200,7 +200,7 @@ In addition, a new MVC Code-First tutorial that builds an application similar to
 This completes the overview to what's new in the Entity Framework and this Continuing with the Entity Framework tutorial series. For more information about new features in the Entity Framework 4 that aren't covered here, see the following resources:
 
 - [What's New in ADO.NET](https://msdn.microsoft.com/library/ex6y04yf.aspx) MSDN topic on new features in version 4 of the Entity Framework.
-- [Announcing the release of Entity Framework 4](https://docs.microsoft.com/archive/blogs/efdesign/announcing-the-release-of-entity-framework-4) The Entity Framework development team's blog post about new features in version 4.
+- [Announcing the release of Entity Framework 4](/archive/blogs/efdesign/announcing-the-release-of-entity-framework-4) The Entity Framework development team's blog post about new features in version 4.
 
 > [!div class="step-by-step"]
 > [Previous](maximizing-performance-with-the-entity-framework-in-an-asp-net-web-application.md)

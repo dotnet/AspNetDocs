@@ -1,15 +1,15 @@
 ---
 uid: mvc/overview/older-versions/getting-started-with-aspnet-mvc4/adding-validation-to-the-model
-title: "Adding Validation to the Model | Microsoft Docs"
+title: "Adding Validation Logic to the Movie Model | Microsoft Docs"
 author: Rick-Anderson
-description: "Note: An updated version of this tutorial is available here that uses ASP.NET MVC 5 and Visual Studio 2013. It's more secure, much simpler to follow and demo..."
+description: "In this tutorial you'll add validation logic to the Movie model, and you'll ensure that the validation rules are enforced any time a user attempts to create or edit a movie using the application."
 ms.author: riande
 ms.date: 08/28/2012
 ms.assetid: 5d9a2999-fcc4-4c45-a018-271fddf74a3b
 msc.legacyurl: /mvc/overview/older-versions/getting-started-with-aspnet-mvc4/adding-validation-to-the-model
 msc.type: authoredcontent
 ---
-# Adding Validation to the Model
+# Adding Validation Logic to the Movie Model
 
 by [Rick Anderson](https://twitter.com/RickAndMSFT)
 
@@ -90,7 +90,7 @@ You might have noticed for the properties `Title` and `Genre`, the required attr
 
 The above sequence will trigger the required validation without hitting the submit button. Simply hitting the submit button without entering any of the fields will trigger client side validation. The form data is not sent to the server until there are no client side validation errors. You can test this by putting a break point in the HTTP Post method or using the [fiddler tool](http://fiddler2.com/fiddler2/) or the IE 9 [F12 developer tools](https://msdn.microsoft.com/ie/aa740478).
 
-![](adding-validation-to-the-model/_static/image2.png)
+![Screenshot that shows the M V C Movie Create page. An alert next to Title states that The Title field is required. An alert next to Genre states that The Genre field is required.](adding-validation-to-the-model/_static/image2.png)
 
 ## How Validation Occurs in the Create View and Create Action Method
 
@@ -102,17 +102,17 @@ The first (HTTP GET) `Create` action method displays the initial Create form. Th
 
 You can set a break point in the `HttpPost Create` method and verify the method is never called, client side validation will not submit the form data when validation errors are detected. If you disable JavaScript in your browser, then submit the form with errors, the break point will be hit. You still get full validation without JavaScript. The following image shows how to disable JavaScript in Internet Explorer.
 
-![](adding-validation-to-the-model/_static/image3.png)
+![Screenshot that shows the Internet Options window open to the security tab. Custom level is circled in red. In the Security Settings window, Active scripting is set to disable. The scroll bar is circled in red.](adding-validation-to-the-model/_static/image3.png)
 
-![](adding-validation-to-the-model/_static/image4.png)
+![Screenshot that shows the H t t p post. If Model State dot Is Valid is highlighted.](adding-validation-to-the-model/_static/image4.png)
 
 The following image shows how to disable JavaScript in the FireFox browser.
 
-![](adding-validation-to-the-model/_static/image5.png)
+![Screenshot that shows the Options window. Content is selected and Enable Java Script is checked.](adding-validation-to-the-model/_static/image5.png)
 
 The following image shows how to disable JavaScript with the Chrome browser.
 
-![](adding-validation-to-the-model/_static/image6.png)
+![Screenshot that shows the Options page. Under the Hood is selected and circled in red. In the Content Settings, Java Script is set to Allow all sites to run Java Script.](adding-validation-to-the-model/_static/image6.png)
 
 Below is the *Create.cshtml* view template that you scaffolded earlier in the tutorial. It's used by the action methods shown above both to display the initial form and to redisplay it in the event of an error.
 
@@ -150,7 +150,7 @@ Run the application and browse to the `Movies` controller. The release date and 
 
 The image below shows the same data displayed with the default culture (English US).
 
-![](adding-validation-to-the-model/_static/image8.png)
+![Screenshot that shows the M V C Movie Index page with four movies listed.](adding-validation-to-the-model/_static/image8.png)
 
 In the next part of the series, we'll review the application and make some improvements to the automatically generated `Details` and `Delete` methods.
 

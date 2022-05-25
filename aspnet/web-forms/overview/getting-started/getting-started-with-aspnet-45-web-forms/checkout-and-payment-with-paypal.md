@@ -307,7 +307,7 @@ The `ShortcutExpressCheckout` method collects the test purchase information and 
 
 > [!NOTE] 
 > 
-> PayPal allows you to include optional purchase details based on [PayPal's API specification](https://cms.paypal.com/us/cgi-bin/?cmd=_render-content&amp;content_ID=developer/e_howto_api_nvp_r_SetExpressCheckout). By extending the code in the Wingtip Toys sample application, you can include localization details, product descriptions, tax, a customer service number, as well as many other optional fields.
+> PayPal allows you to include optional purchase details based on [PayPal's API specification](https://developer.paypal.com/api/rest/). By extending the code in the Wingtip Toys sample application, you can include localization details, product descriptions, tax, a customer service number, as well as many other optional fields.
 
 Notice that the return and cancel URLs that are specified in the **ShortcutExpressCheckout** method use a port number.
 

@@ -26,4 +26,4 @@ The jQuery Mobile 1.1.0 RC 2 library includes the following files:
 - https://ajax.aspnetcdn.com/ajax/jquery.mobile/1.1.0rc2/images/icons-18-black.png
 - https://ajax.aspnetcdn.com/ajax/jquery.mobile/1.1.0rc2/images/icons-18-white.png
 - https://ajax.aspnetcdn.com/ajax/jquery.mobile/1.1.0rc2/images/icons-36-black.png
-- https://ajax.aspnetcdn.com/ajax/jquery.mobile/1.1.0rc2/imagesicons-36-white.png
+- https://ajax.aspnetcdn.com/ajax/jquery.mobile/1.1.0rc2/images/icons-36-white.png

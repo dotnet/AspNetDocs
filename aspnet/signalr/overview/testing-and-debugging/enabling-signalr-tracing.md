@@ -140,7 +140,7 @@ The [SignalR codebase](https://github.com/SignalR/SignalR/archive/master.zip) in
 
 The trace output will then be written to a new [TextBlock](https://msdn.microsoft.com/library/windows/apps/windows.ui.xaml.controls.textblock.aspx) created in the [StackPanel](https://msdn.microsoft.com/library/windows/apps/windows.ui.xaml.controls.stackpanel.aspx) you passed in:
 
-![](enabling-signalr-tracing/_static/image2.png)
+![Screenshot that shows a Windows Phone sample with output in the display.](enabling-signalr-tracing/_static/image2.png)
 
 <a id="phone_debug"></a>
 ### Logging Windows Phone client events to the debug console
@@ -151,7 +151,7 @@ To send output to the debug console rather than the UI, create an implementation
 
 Trace information will then be written to the debug window in Visual Studio:
 
-![](enabling-signalr-tracing/_static/image3.png)
+![Screenshot that shows the Output dialog box. Debug is in the Show output from field.](enabling-signalr-tracing/_static/image3.png)
 
 <a id="javascript"></a>
 ## Enabling tracing in the JavaScript client

@@ -1,8 +1,8 @@
 ---
 uid: web-api/overview/older-versions/using-web-api-1-with-entity-framework-5/using-web-api-with-entity-framework-part-4
 title: "Part 4: Adding an Admin View | Microsoft Docs"
-author: MikeWasson
-description: ""
+author: Rick-Anderson
+description: "How to add a page that can consume data from the Admin controller, allowing users to create, edit, or delete products by sending AJAX requests."
 ms.author: riande
 ms.date: 07/04/2012
 ms.assetid: 792f4513-a508-4d14-a0dd-1a2fe282c7bb
@@ -11,7 +11,7 @@ msc.type: authoredcontent
 ---
 # Part 4: Adding an Admin View
 
-by [Mike Wasson](https://github.com/MikeWasson)
+by Rick Anderson
 
 [Download Completed Project](https://code.msdn.microsoft.com/ASP-NET-Web-API-with-afa30545)
 
@@ -27,11 +27,11 @@ The **HttpRouteUrl** method creates the URI to the web API, and we store this in
 
 Next, position the text cursor within the `Admin` action method, then right-click and select **Add View**. This will bring up the **Add View** dialog.
 
-![](using-web-api-with-entity-framework-part-4/_static/image1.png)
+![Screenshot of admin view menu. Add view and its keyboard shortcut Ctrl + M Ctrl + V are highlighted.](using-web-api-with-entity-framework-part-4/_static/image1.png)
 
 In the **Add View** dialog, name the view "Admin". Select the check box labeled **Create a strongly-typed view**. Under **Model Class**, select "Product (ProductStore.Models)". Leave all the other options as their default values.
 
-![](using-web-api-with-entity-framework-part-4/_static/image2.png)
+![Screenshot of the add view dialogue box.](using-web-api-with-entity-framework-part-4/_static/image2.png)
 
 Clicking **Add** adds a file named Admin.cshtml under Views/Home. Open this file and add the following HTML. This HTML defines the structure of the page, but no functionality is wired up yet.
 
@@ -48,7 +48,7 @@ In Solution Explorer, expand the Views folder and then expand the Shared folder.
 
 Run the application and click the "Admin" link that appears at the top of the home page. The Admin page should look like the following:
 
-![](using-web-api-with-entity-framework-part-4/_static/image3.png)
+![Screenshot of a browser view of the Admin page.](using-web-api-with-entity-framework-part-4/_static/image3.png)
 
 Right now, the page doesn't do anything. In the next section, we'll use Knockout.js to create a dynamic UI.
 

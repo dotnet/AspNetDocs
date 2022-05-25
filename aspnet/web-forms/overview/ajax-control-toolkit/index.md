@@ -14,7 +14,7 @@ msc.type: chapter
 > How to get started with the Ajax Control Toolkit, and how to use some of the most popular controls. DevExpress maintains the free and open sourced Ajax Control Toolkit.
 > 
 > 
-> ![](index/_static/image1.png) DevExpress, developers of award-winning ASP.NET WebForms, MVC and HTML5 UI Controls and Frameworks, took over the maintenance of the ASP.NET AJAX Control Toolkit in order to bring this highly-demanded open-source library back to a dependable state. [Learn more](https://go.devexpress.com/AjaxControlToolkit_ASP_Resources_Tutorials.aspx).
+> ![DevExpress logo](index/_static/image1.png) DevExpress, developers of award-winning ASP.NET WebForms, MVC and HTML5 UI Controls and Frameworks, took over the maintenance of the ASP.NET AJAX Control Toolkit in order to bring this highly-demanded open-source library back to a dependable state. [Learn more](https://go.devexpress.com/AjaxControlToolkit_ASP_Resources_Tutorials.aspx).
 
 - [Getting Started](getting-started/index.md)
 

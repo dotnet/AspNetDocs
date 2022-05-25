@@ -1,8 +1,8 @@
 ---
 uid: aspnet/overview/developing-apps-with-windows-azure/building-real-world-cloud-apps-with-windows-azure/the-fix-it-sample-application
 title: "Appendix: The Fix It Sample Application (Building Real-World Cloud Apps with Azure) | Microsoft Docs"
-author: MikeWasson
-description: "The Building Real World Cloud Apps with Azure e-book is based on a presentation developed by Scott Guthrie. It explains 13 patterns and practices that can he..."
+author: Rick-Anderson
+description: "Building Real World Cloud Apps with Azure, an e-book by Scott Guthrie"
 ms.author: riande
 ms.date: 06/12/2014
 ms.assetid: 1bc333c5-f096-4ea7-b170-779accc21c1a
@@ -11,7 +11,7 @@ msc.type: authoredcontent
 ---
 # Appendix: The Fix It Sample Application (Building Real-World Cloud Apps with Azure)
 
-by [Mike Wasson](https://github.com/MikeWasson), [Rick Anderson](https://twitter.com/RickAndMSFT), [Tom Dykstra](https://github.com/tdykstra)
+by [Rick Anderson](https://twitter.com/RickAndMSFT), [Tom Dykstra](https://github.com/tdykstra)
 
 [Download The Fix It Project](https://code.msdn.microsoft.com/Fix-It-app-for-Building-cdd80df4)
 
@@ -53,7 +53,7 @@ An administrator should be able to change ownership on existing tasks. For examp
 Queue message processing in the Fix It app was designed to be simple in order to illustrate the queue-centric work pattern with a minimum amount of code. This simple code would not be adequate for an actual production application.
 
 - The code does not guarantee that each queue message will be processed at most once. When you get a message from the queue, there is a timeout period, during which the message is invisible to other queue listeners. If the timeout expires before the message is deleted, the message becomes visible again. Therefore, if a worker role instance spends a long time processing a message, it is theoretically possible for the same message to get processed twice, resulting in a duplicate task in the database. For more information about this issue, see [Using Azure Storage Queues](https://msdn.microsoft.com/library/ff803365.aspx#sec7).
-- The queue polling logic could be more cost-effective, by batching message retrieval. Every time you call [CloudQueue.GetMessageAsync](https://msdn.microsoft.com/library/microsoft.windowsazure.storage.queue.cloudqueue.getmessageasync.aspx), there is a transaction cost. Instead, you can call [CloudQueue.GetMessagesAsync](https://msdn.microsoft.com/library/microsoft.windowsazure.storage.queue.cloudqueue.getmessagesasync.aspx) (note the plural 's'), which gets multiple messages in a single transaction. The transaction costs for Azure Storage Queues are very low, so the impact on costs is not substantial in most scenarios.
+- The queue polling logic could be more cost-effective, by batching message retrieval. Every time you call CloudQueue.GetMessageAsync, there is a transaction cost. Instead, you can call CloudQueue.GetMessagesAsync (note the plural 's'), which gets multiple messages in a single transaction. The transaction costs for Azure Storage Queues are very low, so the impact on costs is not substantial in most scenarios.
 - The tight loop in the queue message-processing code causes CPU affinity, which does not utilize multi-core VMs efficiently. A better design would use task parallelism to run several async tasks in parallel.
 - Queue message-processing has only rudimentary exception handling. For example, the code doesn't handle [poison messages](https://msdn.microsoft.com/library/ms789028.aspx). (When message processing causes an exception, you have to log the error and delete the message, or the worker role will try to process it again, and the loop will continue indefinitely.)
 
@@ -63,7 +63,7 @@ Current Fix It code places no limit on how many rows the queries for Index pages
 
 ### View models recommended
 
-The Fix It app uses the FixItTask entity class to pass information between the controller and the view. A best practice is to use view models. The domain model (e.g., the FixItTask entity class) is designed around what is needed for data persistence, while a view model can be designed for data presentation. For more information, see [12 ASP.NET MVC Best Practices](https://codeclimber.net.nz/archive/2009/10/27/12-asp.net-mvc-best-practices.aspx).
+The Fix It app uses the FixItTask entity class to pass information between the controller and the view. A best practice is to use view models. The domain model (e.g., the FixItTask entity class) is designed around what is needed for data persistence, while a view model can be designed for data presentation. 
 
 ### Secure image blob recommended
 
@@ -182,7 +182,7 @@ Typically, the **Run** method on a worker role contains an infinite loop. When t
 
 ### Opt out of Automatic MIME Sniffing Procedure
 
-In some cases, Internet Explorer reports a MIME type different than the type specified by the web server. For instance, if Internet Explorer finds HTML content in a file delivered with the HTTP response header Content-Type: text/plain, Internet Explorer determines that the content should be rendered as HTML. Unfortunately, this "MIME-sniffing" can also lead to security problems for servers hosting untrusted content. To combat this problem, Internet Explorer 8 has made a number of changes to MIME-type determination code and allows application developers to [opt out of MIME-sniffing](https://docs.microsoft.com/archive/blogs/ie/ie8-security-part-v-comprehensive-protection). The following code was added to the *Web.config* file.
+In some cases, Internet Explorer reports a MIME type different than the type specified by the web server. For instance, if Internet Explorer finds HTML content in a file delivered with the HTTP response header Content-Type: text/plain, Internet Explorer determines that the content should be rendered as HTML. Unfortunately, this "MIME-sniffing" can also lead to security problems for servers hosting untrusted content. To combat this problem, Internet Explorer 8 has made a number of changes to MIME-type determination code and allows application developers to [opt out of MIME-sniffing](/archive/blogs/ie/ie8-security-part-v-comprehensive-protection). The following code was added to the *Web.config* file.
 
 [!code-xml[Main](the-fix-it-sample-application/samples/sample16.xml?highlight=2-7)]
 
@@ -257,7 +257,7 @@ If you want to run in Azure without using queues, and you made the changes to ru
 
 These instructions assume you have already downloaded and run the Fix It solution locally, and that you have an Azure account or have an Azure subscription that you are authorized to manage.
 
-1. Install the **Azure PowerShell** console. For instructions, see [How to install and configure Azure PowerShell](https://docs.microsoft.com/powershell/azure/overview?view=azurermps-4.3.1).
+1. Install the **Azure PowerShell** console. For instructions, see [How to install and configure Azure PowerShell](/powershell/azure/overview?view=azurermps-4.3.1&preserve-view=true).
 
     This customized console is configured to work with your Azure subscription. The Azure module is installed in the *Program Files* directory and is automatically imported on every use of the Azure PowerShell console.
 
@@ -367,7 +367,7 @@ Then deploy the MVC application to an web app in Azure App Service, as described
 
 Next, create a new Azure cloud service. The scripts included with the Fix It app do not create or deploy the cloud service, so you must use Azure portal for this. In the portal, click **New** -- **Compute** – **Cloud Service** -- **Quick Create**, and then enter a URL and a data center location. Use the same data center where you deployed the web app.
 
-![](the-fix-it-sample-application/_static/image1.png)
+![Diagram showing the Azure Cloud Service Portal and the multiple tabs, with their available selections, for creating a new Azure cloud service project](the-fix-it-sample-application/_static/image1.png)
 
 Before you can deploy the cloud service, you need to update some of the configuration files.
 
@@ -381,7 +381,7 @@ In the same MyFixIt.WorkerRole\app.config file, under `appSettings`, replace the
 
 [!code-xml[Main](the-fix-it-sample-application/samples/sample33.xml?highlight=2-3)]
 
-You can get the access key from the portal. See [How To Manage Storage Accounts](https://docs.microsoft.com/azure/storage/common/storage-create-storage-account).
+You can get the access key from the portal. See [How To Manage Storage Accounts](/azure/storage/common/storage-create-storage-account).
 
 In MyFixItCloudService\ServiceConfiguration.Cloud.cscfg, replace the same two placeholders values for the Azure storage account.
 

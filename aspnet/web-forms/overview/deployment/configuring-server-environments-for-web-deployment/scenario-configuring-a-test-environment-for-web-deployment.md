@@ -25,11 +25,11 @@ When developers work on web applications, they're often given access to a server
 
 For example, in our [tutorial scenario](../deploying-web-applications-in-enterprise-scenarios/enterprise-web-deployment-scenario-overview.md), Matt Hink is a developer at Fabrikam, Inc. Matt is working on the Contact Manager solution and regularly needs to deploy changes to a test environment. Matt is an administrator on the test web server and the test database server. Initially, Matt needs to be able to deploy the solution to the test environment directly.
 
-![](scenario-configuring-a-test-environment-for-web-deployment/_static/image1.png)
+![Example from tutorial scenario.](scenario-configuring-a-test-environment-for-web-deployment/_static/image1.png)
 
 As work progresses and more developers join the team, the Contact Manager solution is configured for continuous integration (CI) in Team Foundation Server (TFS). Whenever a developer checks in content, Team Build should build the solution, run any unit tests, and automatically deploy the solution to the test environment.
 
-![](scenario-configuring-a-test-environment-for-web-deployment/_static/image2.png)
+![As work progresses and more developers join the team, the Contact Manager solution is configured for continuous integration (CI) in Team Foundation Server (TFS).](scenario-configuring-a-test-environment-for-web-deployment/_static/image2.png)
 
 ## Solution Overview
 

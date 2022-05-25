@@ -1,7 +1,7 @@
 ---
 uid: web-api/overview/formats-and-model-binding/media-formatters
 title: "Media Formatters in ASP.NET Web API 2 - ASP.NET 4.x"
-author: MikeWasson
+author: rick-anderson
 description: "Shows how to support additional media formats in ASP.NET Web API for ASP.NET 4.x."
 ms.author: riande
 ms.date: 01/20/2014
@@ -11,8 +11,6 @@ msc.legacyurl: /web-api/overview/formats-and-model-binding/media-formatters
 msc.type: authoredcontent
 ---
 # Media Formatters in ASP.NET Web API 2
-
-by [Mike Wasson](https://github.com/MikeWasson)
 
 This tutorial shows how to support additional media formats in ASP.NET Web API.
 

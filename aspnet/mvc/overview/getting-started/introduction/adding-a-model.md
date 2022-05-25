@@ -1,15 +1,15 @@
 ---
 uid: mvc/overview/getting-started/introduction/adding-a-model
-title: "Adding a Model | Microsoft Docs"
+title: "Adding a New Model | Microsoft Docs"
 author: Rick-Anderson
-description: ""
+description: "In this section you'll add some classes for managing movies in a database. These classes will be the model part of the ASP.NET MVC app."
 ms.author: riande
 ms.date: 05/28/2015
 ms.assetid: 276552b5-f349-4fcf-8f40-6d042f7aa88e
 msc.legacyurl: /mvc/overview/getting-started/introduction/adding-a-model
 msc.type: authoredcontent
 ---
-# Adding a Model
+# Adding a New Model
 
 by [Rick Anderson](https://twitter.com/RickAndMSFT)
 
@@ -17,13 +17,13 @@ by [Rick Anderson](https://twitter.com/RickAndMSFT)
 
 In this section you'll add some classes for managing movies in a database. These classes will be the &quot;model&quot; part of the ASP.NET MVC app.
 
-You'll use a .NET Framework data-access technology known as the [Entity Framework](https://docs.microsoft.com/ef/) to define and work with these model classes. The Entity Framework (often referred to as EF) supports a development paradigm called *Code First*. Code First allows you to create model objects by writing simple classes. (These are also known as POCO classes, from &quot;plain-old CLR objects.&quot;) You can then have the database created on the fly from your classes, which enables a very clean and rapid development workflow. If you are required to create the database first, you can still follow this tutorial to learn about MVC and EF app development. You can then follow Tom Fizmakens [ASP.NET Scaffolding](xref:visual-studio/overview/2013/aspnet-scaffolding-overview) tutorial, which covers the database first approach.
+You'll use a .NET Framework data-access technology known as the [Entity Framework](/ef/) to define and work with these model classes. The Entity Framework (often referred to as EF) supports a development paradigm called *Code First*. Code First allows you to create model objects by writing simple classes. (These are also known as POCO classes, from &quot;plain-old CLR objects.&quot;) You can then have the database created on the fly from your classes, which enables a very clean and rapid development workflow. If you are required to create the database first, you can still follow this tutorial to learn about MVC and EF app development. You can then follow Tom Fizmakens [ASP.NET Scaffolding](xref:visual-studio/overview/2013/aspnet-scaffolding-overview) tutorial, which covers the database first approach.
 
 ## Adding Model Classes
 
 In **Solution Explorer**, right click the *Models* folder, select **Add**, and then select **Class**.
 
-![](adding-a-model/_static/image1.png)
+![Screenshot that shows the Solution Explorer window. The Models folder right click menu and the Add submenu are open. Class is selected.](adding-a-model/_static/image1.png)
 
 Enter the *class* name &quot;Movie&quot;.
 
@@ -47,11 +47,11 @@ In order to be able to reference `DbContext` and `DbSet`, you need to add the fo
 
 You can do this by manually adding the using statement, or you can hover over the red squiggly lines, click `Show potential fixes` and click `using System.Data.Entity;`
 
-![](adding-a-model/_static/image2.png)
+![Screenshot that shows the Show potential fixes menu. Using System Data Entity is selected and a cannot be found warning is shown.](adding-a-model/_static/image2.png)
 
 Note: Several unused `using` statements have been removed. Visual Studio will show unused dependencies as gray. You can remove unused dependencies by hovering over the gray dependencies, click `Show potential fixes` and click **Remove Unused Usings.**
 
-![](adding-a-model/_static/image3.png)
+![Screenshot that shows the Show potential fixes menu. Remove Unnecessary Usings is selected.](adding-a-model/_static/image3.png)
 
 We've finally added a model (the M in MVC). In the next section you'll work with the database connection string.
 

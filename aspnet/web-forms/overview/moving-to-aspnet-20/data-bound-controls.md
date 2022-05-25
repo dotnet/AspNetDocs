@@ -144,14 +144,14 @@ To define a column field collection declaratively, first add opening and closing
 
 Explicitly declared column fields can be displayed in combination with automatically generated column fields. When both are used, explicitly declared column fields are rendered first, followed by the automatically generated column fields.
 
-## Binding to Data
+## Binding to a Data Source Control
 
 The GridView control can be bound to a data source control (such as **SqlDataSource**, **ObjectDataSource**, and so on), as well as any data source that implements the System.Collections.IEnumerable interface (such as System.Data.DataView, System.Collections.ArrayList, or System.Collections.Hashtable). Use one of the following methods to bind the GridView control to the appropriate data source type:
 
 - To bind to a data source control, set the DataSourceID property of the GridView control to the ID value of the data source control. The GridView control automatically binds to the specified data source control and can take advantage of the data source control's capabilities to perform sorting, updating, deleting, and paging functionality. This is the preferred method to bind to data.
 - To bind to a data source that implements the System.Collections.IEnumerable interface, programmatically set the DataSource property of the GridView control to the data source and then call the DataBind method. When using this method, the GridView control does not provide built-in sorting, updating, deleting, and paging functionality. You need to provide this functionality yourself.
 
-## Data Operations
+## GridView Control Operations
 
 The GridView control provides many built-in capabilities that allow the user to sort, update, delete, select, and page through items in the control. When the GridView control is bound to a data source control, the GridView control can take advantage of the data source control's capabilities and provide automatic sorting, updating, and deleting functionality.
 
@@ -167,7 +167,7 @@ The automatic updating, deleting, and selection functionalities are enabled when
 
 Instead of displaying all the records in the data source at the same time, the GridView control can automatically break the records up into pages. To enable paging, set the AllowPaging property to **true**.
 
-## Customizing the User Interface
+## Customizing Appearance of GridView
 
 You can customize the appearance of the GridView control by setting the style properties for the different parts of the control. The following table lists the different style properties.
 
@@ -245,7 +245,7 @@ The FormView control can be bound to a data source control (such as **SqlDataSou
 - To bind to a data source control, set the DataSourceID property of the FormView control to the ID value of the data source control. The FormView control automatically binds to the specified data source control and can take advantage of the data source control's capabilities to perform inserting, updating, deleting, and paging functionality. This is the preferred method to bind to data.
 - To bind to a data source that implements the **System.Collections.IEnumerable** interface, programmatically set the DataSource property of the FormView control to the data source and then call the DataBind method. When using this method, the FormView control does not provide built-in inserting, updating, deleting, and paging functionality. You need to provide this functionality by using the appropriate event.
 
-## Data Operations
+## FormView Control Operations
 
 The FormView control provides many built-in capabilities that allow the user to update, delete, insert, and page through items in the control. When the FormView control is bound to a data source control, the FormView control can take advantage of the data source control's capabilities and provide automatic updating, deleting, inserting, and paging functionality. The FormView control can provide support for update, delete, insert, and paging operations with other types of data sources; however, you must provide an appropriate event handler with the implementation for these operations.
 
@@ -267,7 +267,7 @@ Likewise, the content contained in the **InsertItemTemplate** property is displa
 
 The FormView control provides a paging feature, which allows the user to navigate to other records in the data source. When enabled, a pager row is displayed in the FormView control that contains the page navigation controls. To enable paging, set the **AllowPaging** property to **true**. You can customize the pager row by setting the properties of objects contained in the PagerStyle and the PagerSettings property. Instead of using the built-in pager row UI, you can create your own UI by using the **PagerTemplate** property.
 
-## Customizing the User Interface
+## Customizing Appearance of FormView
 
 You can customize the appearance of the FormView control by setting the style properties for the different parts of the control. The following table lists the different style properties.
 
@@ -281,7 +281,7 @@ You can customize the appearance of the FormView control by setting the style pr
 | PagerStyle | The style settings for the pager row displayed in the FormView control when the paging feature is enabled. |
 | RowStyle | The style settings for the data row when the FormView control is in read-only mode. |
 
-## Events
+## FormView Events
 
 The FormView control provides several events that you can program against. This allows you to run a custom routine whenever an event occurs. The following table lists the events supported by the FormView control.
 
@@ -332,7 +332,7 @@ Automatically generating the rows provides a quick and easy way to display every
 > [!NOTE]
 > Automatically generated row fields are not added to the Fields collection.
 
-## Binding to Data
+## Binding to Data with DetailsView
 
 The DetailsView control can be bound to a data source control, such as **SqlDataSource** or AccessDataSource, or to any data source that implements the System.Collections.IEnumerable interface, such as System.Data.DataView, System.Collections.ArrayList and System.Collections.Hashtable.
 
@@ -345,7 +345,7 @@ Use one of the following methods to bind the DetailsView control to the appropri
 
 This control can be used to display user input, which might include malicious client script. Check any information that is sent from a client for executable script, SQL statements, or other code before displaying it in your application. ASP.NET provides an input request validation feature to block script and HTML in user input.
 
-## Data Operations
+## Data Operations in DetailsView
 
 The DetailsView control provides built-in capabilities that allow the user to update, delete, insert, and page through items in the control. When the DetailsView control is bound to a data source control, the DetailsView control can take advantage of the data source control's capabilities and provide automatic updating, deleting, inserting, and paging functionality.
 
@@ -355,7 +355,7 @@ The DetailsView control can automatically add a **CommandField** row field with 
 
 The DetailsView control provides a paging feature, which allows the user to navigate to other records in the data source. When enabled, page navigation controls are displayed in a pager row. To enable paging, set the AllowPaging property to **true**. The pager row can be customized using the PagerStyle and PagerSettings properties.
 
-## Customizing the User Interface
+## Customizing Appearance of DetailsView
 
 You can customize the appearance of the DetailsView control by setting the style properties for the different parts of the control. The following table lists the different style properties.
 
@@ -372,7 +372,7 @@ You can customize the appearance of the DetailsView control by setting the style
 | RowStyle | The style settings for the data rows in the DetailsView control. When the **AlternatingRowStyle** property is also set, the data rows are displayed alternating between the **RowStyle** settings and the **AlternatingRowStyle** settings. |
 | FieldHeaderStyle | The style settings for the header column of the DetailsView control. |
 
-## Events
+## Events in DetailsView
 
 The DetailsView control provides several events that you can program against. This allows you to run a custom routine whenever an event occurs. The following table lists the events supported by the DetailsView control. The DetailsView control also inherits these events from its base classes: DataBinding, DataBound, Disposed, Init, Load, PreRender, and Render.
 
@@ -510,7 +510,7 @@ The **ShowLines** property controls whether or not lines are displayed connectin
 
 To customize the appearance of TreeView lines, Visual Studio .NET 2005 includes a Line Designer tool. You can access this tool using the Smart Tag button on the TreeView control as below.
 
-![](data-bound-controls/_static/image1.jpg)
+![A screenshot of Visual Studio line designer tool. The cursor hovers over the Customize Line Images selection.](data-bound-controls/_static/image1.jpg)
 
 **Figure 1**
 
@@ -534,7 +534,7 @@ The **SelectAction** property allows you to configure which event is fired when 
 - TreeNodeSelectAction.Select Raises the SelectedNodeChanged event when the node is selected.
 - TreeNodeSelectAction.SelectExpand Raises both the SelectedNodeChanged event and the TreeNodeExpanded event when the node is selected.
 
-## Controlling Appearance with Styles
+## Controlling Appearance with TreeView
 
 The TreeView control provides many properties for controlling the appearance of the control with styles. The following properties are available.
 
@@ -582,7 +582,7 @@ The properties that control the operation of the SiteMapPath control are as foll
 
 The SiteMapControl is a templated control, and as such, you can define different templates for use in displaying the control. To edit templates in a SiteMapPath control, click the Smart Tag button on the control and choose Edit Templates from the menu. This displays the SiteMapTasks menu as shown below where you can choose between the different templates available.
 
-![](data-bound-controls/_static/image2.jpg)
+![A screenshot of the SiteMapControl template editing mode menu. NodeTemplate is highlighted.](data-bound-controls/_static/image2.jpg)
 
 **Figure 2**
 
@@ -592,7 +592,7 @@ The **NodeTemplate** template refers to any node in the SiteMapPath. If the node
 
 The SiteMapPath control has two events that are not derived from the Control class; the **ItemCreated** event and the **ItemDataBound** event. The ItemCreated event is raised when a SiteMapPath item is created. ItemDataBound is raised when the DataBind method is called during the data binding of a SiteMapPath node. A **SiteMapNodeItemEventArgs** object provides access to the specific SiteMapNodeItem via the Item property.
 
-## Controlling Appearance with Styles
+## Controlling Appearance with SiteMapPath
 
 The following styles are available for formatting of a SiteMapPath control.
 
@@ -662,9 +662,10 @@ This exercise assumes that you have SQL Server running locally and that the Nort
 8. Select **Northwind** in the connection dropdown and click Next.
 9. Select **Products** from the **Name** dropdown and check the **ProductID**, **ProductName**, **UnitPrice**, and **UnitsInStock** checkboxes as shown below. 
 
-![](data-bound-controls/_static/image3.jpg)
+![A screenshot of the configure data source products screen.](data-bound-controls/_static/image3.jpg)
 
-    **Figure 3**
+*Figure 3*
+
 10. Click **Next**.
 11. Click **Finish**.
 12. Switch to Source view and examine the code that was generated. Notice the **SelectCommand**, **DeleteCommand**, **InsertCommand**, and **UpdateCommand** that were added to the SqlDataSource control. Also notice the parameters that were added.
@@ -672,9 +673,10 @@ This exercise assumes that you have SQL Server running locally and that the Nort
 14. Select **Products** from the **Choose Data Source** dropdown.
 15. Check **Enable Paging** and **Enable Selection** as shown below. 
 
-![](data-bound-controls/_static/image4.jpg)
+![A screenshot of the GridView Tasks menu.](data-bound-controls/_static/image4.jpg)
 
-    **Figure 4**
+*Figure 4*
+
 16. Click the **Edit Columns** link and make sure that **Auto-generate fields** is checked.
 17. Click **OK**.
 18. With the GridView control selected, click the button next to the **DataKeyNames** property in the Properties pane.
@@ -699,9 +701,9 @@ This exercise assumes that you have SQL Server running locally and that the Nort
 37. In the **Choose Data Source** dropdown, choose **Details**.
 38. Check the **Enable Editing** checkbox as shown below. 
 
-![](data-bound-controls/_static/image1.gif)
+![A screenshot of the DetailsView Tasks menu.](data-bound-controls/_static/image1.gif)
 
-    **Figure 5**
+*Figure 5*
 39. Save the page and browse Default.aspx.
 40. Click the **Select** link next to different records to see the DetailsView update automatically.
 41. Click the **Edit** link in the DetailsView control.

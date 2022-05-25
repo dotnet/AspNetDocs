@@ -23,7 +23,7 @@ The scenarios shown apply to both Azure and third-party hosting providers. For m
 
 - [Troubleshoot a web app in Azure App Service using Visual Studio](https://azure.microsoft.com/documentation/articles/web-sites-dotnet-troubleshoot-visual-studio/)
 - [Monitor Web Apps in Azure App Service](https://azure.microsoft.com/documentation/articles/web-sites-monitor//)
-- [Announcing the release of Windows Azure SDK 2.0 for .NET](http://https://weblogs.asp.net/scottgu/announcing-the-release-of-windows-azure-sdk-2-0-for-net) (ScottGu's blog, shows how to get diagnostic logs in Visual Studio)
+- [Announcing the release of Windows Azure SDK 2.0 for .NET](https://www.webpronews.com/microsoft-releases-windows-azure-sdk-2-0-for-net/) (ScottGu's blog, shows how to get diagnostic logs in Visual Studio)
 
 ## Server Error in '/' Application - Current Custom Error Settings Prevent Details of the Error from Being Viewed Remotely
 
@@ -170,7 +170,7 @@ System.Data.SqlClient.SqlException: Cannot open database "DatabaseName" requeste
 
 ### Possible Cause and Solution
 
-The name of the *.mdf* file cannot match the name of any SQL Server Express database that has ever existed on your computer, even if you deleted the *.mdf* file of the previously existing database. Change the name of the *.mdf* file to a name that has never been used as a database name and change the *Web.config* file to use the new name. As an alternative, you can use [SQL Server Management Studio Express](https://www.microsoft.com/download/details.aspx?displaylang=en&amp;id=7593) to delete previously existing SQL Server Express databases.
+The name of the *.mdf* file cannot match the name of any SQL Server Express database that has ever existed on your computer, even if you deleted the *.mdf* file of the previously existing database. Change the name of the *.mdf* file to a name that has never been used as a database name and change the *Web.config* file to use the new name. As an alternative, you can use [SQL Server Management Studio Express](/sql/ssms/download-sql-server-management-studio-ssms) to delete previously existing SQL Server Express databases.
 
 ## Model Compatibility Cannot be Checked
 
@@ -182,7 +182,7 @@ Model compatibility cannot be checked because the database does not contain mode
 
 ### Possible Cause and Solution
 
-If the database name you put in the Web.config file was ever used before on your computer, a database might already exist with some tables in it. Select a new name that has not been used on your computer before and change the *Web.config* file to point to use this new database name. As an alternative, you can use [SQL Server Express Utility](https://www.microsoft.com/download/details.aspx?DisplayLang=en&amp;id=3990) or [SQL Server Management Studio Express](https://www.microsoft.com/download/details.aspx?displaylang=en&amp;id=7593) to delete the existing database.
+If the database name you put in the Web.config file was ever used before on your computer, a database might already exist with some tables in it. Select a new name that has not been used on your computer before and change the *Web.config* file to point to use this new database name. As an alternative, you can use [SQL Server Express Utility](/sql/relational-databases/manage/sql-server-utility-features-and-tasks) or [SQL Server Management Studio Express](/sql/ssms/download-sql-server-management-studio-ssms) to delete the existing database.
 
 ## SQL Error When a Script Attempts to Create Users or Roles
 

@@ -4,7 +4,8 @@ title: "Processing Unhandled Exceptions (VB) | Microsoft Docs"
 author: rick-anderson
 description: "When a runtime error occurs on a web application in production it is important to notify a developer and to log the error so that it may be diagnosed at a la..."
 ms.author: riande
-ms.date: 06/09/2009
+ms.date: 05/03/2022
+ms.custom: devdivchpfy22
 ms.assetid: 051296f0-9519-4e78-835c-d868da13b0a0
 msc.legacyurl: /web-forms/overview/older-versions-getting-started/deploying-web-site-projects/processing-unhandled-exceptions-vb
 msc.type: authoredcontent
@@ -36,7 +37,7 @@ The `Error` event is one of many events in the [`HttpApplication` class](https:/
 
 Event handlers for the `HttpApplication` events can be placed in a special file named `Global.asax`. To create this file in your website, add a new item to the root of your website using the Global Application Class template with the name `Global.asax`.
 
-[![](processing-unhandled-exceptions-vb/_static/image2.png)](processing-unhandled-exceptions-vb/_static/image1.png)
+:::image type="content" source="processing-unhandled-exceptions-vb/_static/image1.png" alt-text="Screenshot of adding a new item to the root of your website using the Global Application Class template with the name Global.asax to create this file in your website.":::
 
 **Figure 1**: Add `Global.asax` To Your Web Application  
  ([Click to view full-size image](processing-unhandled-exceptions-vb/_static/image3.png))
@@ -99,12 +100,12 @@ With this code in place anytime there's an error the developer is sent an email 
 
 **Figure 2** shows the email received when visiting `Genre.aspx?ID=foo`. The email body summarizes the exception information, while the `YSOD.htm` attachment displays the content that is shown in the Exception Details YSOD (see **Figure 3**).
 
-[![](processing-unhandled-exceptions-vb/_static/image5.png)](processing-unhandled-exceptions-vb/_static/image4.png)
+:::image type="content" source="processing-unhandled-exceptions-vb/_static/image4.png" alt-text="Screenshot of the email received with the exception information.":::
 
 **Figure 2**: The Developer Is Sent An Email Notification Whenever There's An Unhandled Exception  
  ([Click to view full-size image](processing-unhandled-exceptions-vb/_static/image6.png))
 
-[![](processing-unhandled-exceptions-vb/_static/image8.png)](processing-unhandled-exceptions-vb/_static/image7.png)
+:::image type="content" source="processing-unhandled-exceptions-vb/_static/image7.png" alt-text="Screenshot of the email notification received by the Developer when there is an unhandled exception.":::
 
 **Figure 3**: The Email Notification Includes the Exception Details YSOD As An Attachment  
  ([Click to view full-size image](processing-unhandled-exceptions-vb/_static/image9.png))
@@ -117,7 +118,7 @@ It's natural to wonder whether the `Global.asax` file and `Application_Error` ev
 
 The reason for this behavior is because the custom error page is reached via a redirect. When an unhandled exception reaches the ASP.NET runtime the ASP.NET engine raises its `Error` event (which executes the `Application_Error` event handler) and then *redirects* the user to the custom error page by issuing a `Response.Redirect(customErrorPageUrl)`. The `Response.Redirect` method sends a response to the client with an HTTP 302 status code, instructing the browser to request a new URL, namely the custom error page. The browser then automatically requests this new page. You can tell that the custom error page was requested separately from the page where the error originated because the browser's Address bar changes to the custom error page URL (see **Figure 4**).
 
-[![](processing-unhandled-exceptions-vb/_static/image11.png)](processing-unhandled-exceptions-vb/_static/image10.png)
+:::image type="content" source="processing-unhandled-exceptions-vb/_static/image10.png" alt-text="Screenshot of the browser that gets redirected to the Custom Error Page U R L when an error occurs.":::
 
 **Figure 4**: When an Error Occurs the Browser Gets Redirected to the Custom Error Page URL  
  ([Click to view full-size image](processing-unhandled-exceptions-vb/_static/image12.png))

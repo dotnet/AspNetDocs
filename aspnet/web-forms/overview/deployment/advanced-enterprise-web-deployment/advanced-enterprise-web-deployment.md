@@ -13,8 +13,6 @@ msc.type: authoredcontent
 
 by [Jason Lee](https://github.com/jrjlee)
 
-[Download PDF](https://msdnshared.blob.core.windows.net/media/MSDNBlogsFS/prod.evol.blogs.msdn.com/CommunityServer.Blogs.Components.WeblogFiles/00/00/00/63/56/8130.DeployingWebAppsInEnterpriseScenarios.pdf)
-
 > This tutorial will show you how to perform various tasks that are required or desirable in a lot of enterprise deployment scenarios.
 > 
 > For an Italian translation of these tutorials, visit [http://www.lucamorelli.it](http://www.lucamorelli.it).

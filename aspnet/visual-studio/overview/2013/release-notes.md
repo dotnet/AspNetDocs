@@ -105,7 +105,7 @@ For more information and tutorials, see [ASP.NET Scaffolding Overview](aspnet-sc
 
 The new [Browser Link](using-browser-link.md) feature lets you connect multiple browsers to Visual Studio and refresh them all by clicking a button in the toolbar. You can connect multiple browsers to your development site, including mobile emulators, and click refresh to refresh all the browsers all at the same time. Browser Link also exposes an API to enable developers to write Browser Link extensions.
 
-![](release-notes/_static/image3.png)
+![Screenshot of Visual Studio menu, with Refresh icon highlighted and Browser Link Dashboard highlighted in dropdown menu.](release-notes/_static/image3.png)
 
 By enabling developers to take advantage of the Browser Link API, it becomes possible to create very advanced scenarios that crosses boundaries between Visual Studio and any browser that's connected. Web Essentials takes advantage of the API to create an integrated experience between Visual Studio and the browser's developer tools, remote controlling mobile emulators and a lot more.
 
@@ -573,7 +573,8 @@ ASP.NET Razor 3 includes the following new features:
   > [!NOTE]
   > This is a breaking change, and makes Razor 3 incompatible with MVC4 and earlier, while Razor 2 is incompatible with MVC5 or assemblies compiled against MVC5.
 
-Razor 3 issues fixed in Visual Studio 2013 from pre-release versions can be found [here](https://aspnetwebstack.codeplex.com/workitem/list/advanced?keyword=&status=Resolved%7cClosed&type=All&priority=All&release=All%7cv5.0%2bPreview%7cv5.0%2bRC%7cv5.0%2bRTM&assignedTo=All&component=Web%2bPages%252fRazor&reasonClosed=Fixed&sortField=LastUpdatedDate&sortDirection=Descending&page=0).
+
+=======
 
 <a id="TOC15"></a>
 ## ASP.NET App Suspend
@@ -587,9 +588,9 @@ This section describes known issues and breaking changes in the ASP.NET and Web 
 
 ### NuGet
 
-- [New package restore doesn't work on Mono when using SLN file](https://nuget.codeplex.com/workitem/3596) – will be fixed in an upcoming nuget.exe download and [NuGet.CommandLine package](http://www.nuget.org/packages/NuGet.CommandLine/) update.
-- [New package restore doesn't work with Wix projects](https://nuget.codeplex.com/workitem/3598) – will be fixed in an upcoming nuget.exe download and [NuGet.CommandLine package](http://www.nuget.org/packages/NuGet.CommandLine/) update.
-- [Automatic Package restore doesn't work for projects under a solution folder](https://nuget.codeplex.com/workitem/3625) – will be fixed in NuGet 2.8.
+- New package restore doesn't work on Mono when using SLN file – will be fixed in an upcoming nuget.exe download and [NuGet.CommandLine package](http://www.nuget.org/packages/NuGet.CommandLine/) update.
+- New package restore doesn't work with Wix projects – will be fixed in an upcoming nuget.exe download and [NuGet.CommandLine package](http://www.nuget.org/packages/NuGet.CommandLine/) update.
+
 
 ### ASP.NET Web API
 
@@ -606,7 +607,6 @@ This section describes known issues and breaking changes in the ASP.NET and Web 
 
     In a batching scenario, **UrlHelper** is null when accessed from **Request.Url** or **RequestContext.Url**.
 
-    This issue is currently tracked here: [BatchRequestContext.Url is null for batching request](http://aspnetwebstack.codeplex.com/workitem/1301).
 
     The workaround for this issue is to create a new instance of **UrlHelper**, as in the following example:
 
@@ -622,7 +622,7 @@ This section describes known issues and breaking changes in the ASP.NET and Web 
 
     *Server Error in '/' Application.*
 
-    <em>A claim of type '<http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier>' or '<https://schemas.microsoft.com/accesscontrolservice/2010/07/claims/identityprovider>' was not present on the provided ClaimsIdentity. To enable anti-forgery token support with claims-based authentication, please verify that the configured claims provider is providing both of these claims on the ClaimsIdentity instances it generates. If the configured claims provider instead uses a different claim type as a unique identifier, it can be configured by setting the static property AntiForgeryConfig.UniqueClaimTypeIdentifier.</em>
+    <em>A claim of type `http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier` or `https://schemas.microsoft.com/accesscontrolservice/2010/07/claims/identityprovider` was not present on the provided ClaimsIdentity. To enable anti-forgery token support with claims-based authentication, please verify that the configured claims provider is providing both of these claims on the ClaimsIdentity instances it generates. If the configured claims provider instead uses a different claim type as a unique identifier, it can be configured by setting the static property AntiForgeryConfig.UniqueClaimTypeIdentifier.</em>
 
     **Workaround**:
 
