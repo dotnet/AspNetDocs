@@ -115,7 +115,7 @@ In the **Import Publish Settings** dialog box, select the *.publishsettings* fil
 
 ![Publish Web wizard Connection tab](deployment-to-a-hosting-provider-deploying-to-the-production-environment-7-of-12/_static/image26.png)
 
-The .publishsettings file puts the planned permanent URL for the site in the Destination URL box, but if you haven't purchased that domain yet, replace the value with the temporary URL. For this example, the URL is *[http://contosouniversity.com.vserver01.cytanium.com](http://contosouniversity.com.vserver01.cytanium.com).* The only purpose of this box is to specify what URL the browser will open to automatically after successfully after deployment. If you leave it blank, the only consequence is that the browser won't start automatically after deployment.
+The .publishsettings file puts the planned permanent URL for the site in the Destination URL box, but if you haven't purchased that domain yet, replace the value with the temporary URL. For this example, the URL is *`http://contosouniversity.com.vserver01.cytanium.com`* The only purpose of this box is to specify what URL the browser will open to automatically after successfully after deployment. If you leave it blank, the only consequence is that the browser won't start automatically after deployment.
 
 Click **Validate Connection** to verify that the settings are correct and you can connect to the server. As you saw earlier, a green check mark verifies that the connection is successful.
 

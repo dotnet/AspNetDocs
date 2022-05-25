@@ -47,7 +47,7 @@ Reminder: If you get an error message or something doesn't work as you go throug
 
 SQL Server Express is automatically installed by default with Visual Studio 2010, but by default it is not installed with Visual Studio 2012. To install SQL Server 2012 Express, click the following link
 
-- [SQL Server Express 2012](https://www.microsoft.com/download/details.aspx?id=29062)
+- [SQL Server Express 2012](https://www.microsoft.com/en-us/download/details.aspx?id=43351)
 
 Choose *ENU/x64/SQLEXPR\_x64\_ENU.exe* or *ENU/x86/SQLEXPR\_x86\_ENU.exe*, and in the installation wizard accept the default settings. For more information about installation options, see [Install SQL Server 2012 from the Installation Wizard (Setup)](https://msdn.microsoft.com/library/ms143219.aspx).
 
@@ -355,7 +355,7 @@ Select the **Profile** tab.
 
 Click **Import**, and select the .publishsettings file that you downloaded earlier.
 
-On the **Connection** tab, change the **Destination URL** to the correct temporary URL, which in this example is http://contosouniversity.com.vserver01.cytanium.com.
+On the **Connection** tab, change the **Destination URL** to the correct temporary URL, which in this example is `http://contosouniversity.com.vserver01.cytanium.com`.
 
 Rename the profile to Production. (Select the **Profile** tab and click **Manage Profiles** to do that).
 

@@ -13,8 +13,6 @@ msc.type: authoredcontent
 
 by [Scott Mitchell](https://twitter.com/ScottOnWriting)
 
-[Download Code](https://download.microsoft.com/download/1/0/C/10CC829F-A808-4302-97D3-59989B8F9C01/ASPNET_Hosting_Tutorial_13_VB.zip) or [Download PDF](https://download.microsoft.com/download/5/C/5/5C57DB8C-5DEA-4B3A-92CA-4405544D313B/aspnet_tutorial13_HealthMonitoring_vb.pdf)
-
 > Microsoft's health monitoring system provides an easy and customizable way to log various web events, including unhandled exceptions. This tutorial walks through setting up the health monitoring system to log unhandled exceptions to a database and to notify developers via an email message.
 
 ## Introduction
@@ -97,7 +95,7 @@ The health monitoring system includes a log source provider that "logs" an event
 
 Let's update the Book Reviews website's configuration so that we receive an email whenever an exception occurs. To accomplish this we need to perform three tasks:
 
-1. Configure the ASP.NET web application to send email. This is accomplished by specifying how email messages are sent via the `<system.net>` configuration element. For more information on sending email messages in an ASP.NET application refer to [Sending Email in ASP.NET](http://aspnet.4guysfromrolla.com/articles/072606-1.aspx) and the [System.Net.Mail FAQ](http://systemnetmail.com/).
+1. Configure the ASP.NET web application to send email. This is accomplished by specifying how email messages are sent via the `<system.net>` configuration element. For more information on sending email messages in an ASP.NET application refer to [Sending Email in ASP.NET](/aspnet/web-pages/overview/getting-started/11-adding-email-to-your-web-site) and the [System.Net.Mail FAQ](http://systemnetmail.com/).
 2. Register the email log source provider in the `<providers>` element, and
 3. Add an entry to the `<rules>` element that maps the "All Errors" event to the log source provider added in step (2).
 
@@ -139,7 +137,7 @@ For more information on the topics discussed in this tutorial, refer to the foll
 - [FAQ - Health Monitoring in ASP.NET 2.0](https://docs.microsoft.com/archive/blogs/erikreitan/faq-health-monitoring-in-asp-net-2-0)
 - [How To: Send E-Mail for Health Monitoring Notifications](https://msdn.microsoft.com/library/ms227553.aspx)
 - [How To: Use Health Monitoring in ASP.NET](https://msdn.microsoft.com/library/ms998306.aspx)
-- [Health Monitoring in ASP.NET](http://aspnet.4guysfromrolla.com/articles/031407-1.aspx)
+- [Health Monitoring in ASP.NET](/previous-versions/aspnet/bb398933(v=vs.100))
 
 > [!div class="step-by-step"]
 > [Previous](processing-unhandled-exceptions-vb.md)

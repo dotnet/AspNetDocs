@@ -13,8 +13,6 @@ msc.type: authoredcontent
 
 by [Scott Mitchell](https://twitter.com/ScottOnWriting)
 
-[Download Code](https://download.microsoft.com/download/1/0/C/10CC829F-A808-4302-97D3-59989B8F9C01/ASPNET_Hosting_Tutorial_11_CS.zip) or [Download PDF](https://download.microsoft.com/download/5/C/5/5C57DB8C-5DEA-4B3A-92CA-4405544D313B/aspnet_tutorial11_CustomErrors_cs.pdf)
-
 > What does the user see when a runtime error occurs in an ASP.NET web application? The answer depends on how the website's &lt;customErrors&gt; configuration. By default, users are shown an unsightly yellow screen proclaiming that a runtime error has occurred. This tutorial shows how to customize these settings to display an aesthetically-pleasing custom error page that matches your site's look and feel.
 
 ## Introduction
@@ -158,7 +156,7 @@ For more information on the topics discussed in this tutorial, refer to the foll
 
 - [Error Pages, One More Time](http://www.smashingmagazine.com/2009/01/29/404-error-pages-one-more-time/)
 - [Design Guidelines for Exceptions](https://msdn.microsoft.com/library/ms229014.aspx)
-- [User-Friendly Error Pages](http://aspnet.4guysfromrolla.com/articles/090606-1.aspx)
+- [User-Friendly Error Pages](/troubleshoot/developer/webapps/aspnet/development/custom-error-reporting-page)
 - [Handling and Throwing Exceptions](https://msdn.microsoft.com/library/5b2yeyab.aspx)
 - [Properly Using Custom Error Pages in ASP.NET](http://professionalaspnet.com/archive/2007/09/30/Properly-Using-Custom-Error-Pages-in-ASP.NET.aspx)
 - [ASP.NET Tracing Overview](/previous-versions/aspnet/bb386420(v%3Dvs.100))

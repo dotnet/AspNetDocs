@@ -246,7 +246,6 @@ This completes the introduction to improving performance in an ASP.NET web appli
 - [Performance-related posts on the Entity Framework Team blog](https://blogs.msdn.com/b/adonet/archive/tags/performance/).
 - [EF Merge Options and Compiled Queries](https://docs.microsoft.com/archive/blogs/dsimmons/ef-merge-options-and-compiled-queries). Blog post that explains unexpected behaviors of compiled queries and merge options such as `NoTracking`. If you plan to use compiled queries or manipulate merge option settings in your application, read this first.
 - [Entity Framework-related posts in the Data and Modeling Customer Advisory Team blog](https://blogs.msdn.com/b/dmcat/archive/tags/entity+framework/). Includes posts on compiled queries and using the Visual Studio 2010 Profiler to discover performance issues.
-- [Entity Framework forum thread with advice on improving performance of highly complex queries](https://social.msdn.microsoft.com/Forums/adodotnetentityframework/thread/ffe8b2ab-c5b5-4331-8988-33a872d0b5f6).
 - [ASP.NET State Management Recommendations](https://msdn.microsoft.com/library/z1hkazw7.aspx).
 - [Using the Entity Framework and the ObjectDataSource: Custom Paging](http://geekswithblogs.net/Frez/articles/using-the-entity-framework-and-the-objectdatasource-custom-paging.aspx). Blog post that builds on the ContosoUniversity application created in these tutorials to explain how to implement paging in the *Departments.aspx* page.
 

@@ -13,8 +13,6 @@ msc.type: authoredcontent
 
 by [Scott Cate](https://github.com/scottcate)
 
-[Download PDF](https://download.microsoft.com/download/C/1/9/C19A3451-1D14-477C-B703-54EF22E197EE/AJAX_tutorial01_Partial_Page_Updates_cs.pdf)
-
 > Perhaps the most visible feature of the ASP.NET AJAX Extensions is the ability to do a partial or incremental page updates without doing a full postback to the server, with no code changes and minimal markup changes. The advantages are extensive – the state of your multimedia (such as Adobe Flash or Windows Media) is unchanged, bandwidth costs are reduced, and the client does not experience the flicker usually associated with a postback.
 
 ## Introduction

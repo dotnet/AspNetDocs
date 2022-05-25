@@ -13,7 +13,7 @@ msc.type: authoredcontent
 
 by [Scott Mitchell](https://twitter.com/ScottOnWriting)
 
-[Download Code](https://download.microsoft.com/download/4/5/F/45F815EC-8B0E-46D3-9FB8-2DC015CCA306/ASPNET_Hosting_Tutorial_02_VB.zip) or [Download PDF](https://download.microsoft.com/download/E/8/9/E8920AE6-D441-41A7-8A77-9EF8FF970D8B/aspnet_tutorial02_FilesToDeploy_vb.pdf)
+[Download PDF](https://download.microsoft.com/download/E/8/9/E8920AE6-D441-41A7-8A77-9EF8FF970D8B/aspnet_tutorial02_FilesToDeploy_vb.pdf)
 
 > What files need to be deployed from the development environment to the production environment depends in part on whether the ASP.NET application was built using the Web Site Model or Web Application Model. Learn more about these two project models and how the project model affects deployment.
 
@@ -160,11 +160,11 @@ For more information on the topics discussed in this tutorial, refer to the foll
 
 - [ASP.NET Compilation Overview](https://msdn.microsoft.com/library/ms178466.aspx)
 - [ASP.NET User Controls](https://msdn.microsoft.com/library/y6wb1a0e.aspx)
-- [Examining ASP.NET's Site Navigation](http://aspnet.4guysfromrolla.com/articles/111605-1.aspx)
+- [Examining ASP.NET's Site Navigation](/previous-versions/aspnet/e468hxky(v=vs.100))
 - [Introduction to Web Application Projects](https://msdn.microsoft.com/library/aa730880.aspx)
 - [Master Page Tutorials](../master-pages/creating-a-site-wide-layout-using-master-pages-cs.md)
 - [Sharing Code Between Pages](https://quickstarts.asp.net/QuickStartv20/aspnet/doc/pages/code.aspx)
-- [Using a Custom Base Class For Your ASP.NET Pages' Code-Behind Classes](http://aspnet.4guysfromrolla.com/articles/041305-1.aspx)
+- [Using a Custom Base Class For Your ASP.NET Pages' Code-Behind Classes](/previous-versions/aspnet/ms178138(v=vs.100))
 - [Visual Studio 2005's Web Site Project System: What Is It and Why Did We Do It?](https://weblogs.asp.net/scottgu/archive/2005/08/21/423201.aspx)
 - [Walkthrough: Converting a Web Site Project to a Web Application Project in Visual Studio](https://msdn.microsoft.com/library/aa983476.aspx)
 

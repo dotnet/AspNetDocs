@@ -13,8 +13,6 @@ msc.type: authoredcontent
 
 by [Scott Mitchell](https://twitter.com/ScottOnWriting)
 
-[Download Code](https://download.microsoft.com/download/E/6/F/E6FE3A1F-EE3A-4119-989A-33D1A9F6F6DD/ASPNET_Hosting_Tutorial_09_CS.zip) or [Download PDF](https://download.microsoft.com/download/C/3/9/C391A649-B357-4A7B-BAA4-48C96871FEA6/aspnet_tutorial09_AppServicesConfig_cs.pdf)
-
 > ASP.NET version 2.0 introduced a series of application services, which are part of the .NET Framework and serve as a suite of building block services that you can use to add rich functionality to your web application. This tutorial explores how to configure a website in the production environment to use application services and addresses common issues with managing user accounts and roles on the production environment.
 
 ## Introduction
@@ -33,7 +31,7 @@ The application services APIs are not tied to a specific implementation. Instead
 Using the application services and SQL Server providers adds some challenges when deploying the application. For starters, the application services database objects must be properly created on both the development and production databases and appropriately initialized. There are also important configuration settings that need to be made.
 
 > [!NOTE]
-> The application services APIs were designed using the [*provider model*](http://aspnet.4guysfromrolla.com/articles/101905-1.aspx), a design pattern that allows for an API s implementation details to be provided at runtime. The .NET Framework ships with a number of application service providers that can be used, such as the `SqlMembershipProvider` and `SqlRoleProvider`, which are providers for the Membership and Roles APIs that use a SQL Server database implementation. You can also create and plug-in a custom provider. In fact, the Book Reviews web application already contains a custom provider for the Site Map API (`ReviewSiteMapProvider`), which constructs the site map from the data in the `Genres` and `Books` tables in the database.
+> The application services APIs were designed using the *provider model*, a design pattern that allows for an API s implementation details to be provided at runtime. The .NET Framework ships with a number of application service providers that can be used, such as the `SqlMembershipProvider` and `SqlRoleProvider`, which are providers for the Membership and Roles APIs that use a SQL Server database implementation. You can also create and plug-in a custom provider. In fact, the Book Reviews web application already contains a custom provider for the Site Map API (`ReviewSiteMapProvider`), which constructs the site map from the data in the `Genres` and `Books` tables in the database.
 
 This tutorial starts with a look at how I extended the Book Reviews web application to use the Membership and Roles APIs. It then walks through deploying a web application that uses application services with a SQL Server database implementation, and concludes by addressing common issues with managing user accounts and roles on the production environment.
 
@@ -147,13 +145,13 @@ The good news is that all of the functionality exposed provided by the WSAT is a
 Recall that an earlier tutorial updated the Book Reviews web application to include an `~/Admin` folder, and this folder has been configured to only allow users in the Admin role. I added a page to that folder named `CreateAccount.aspx` from which an administrator can create a new user account. This page uses the CreateUserWizard control to display the user interface and backend logic for creating a new user account. What s more, I customized the control to include a CheckBox that prompts whether the new user should also be added to the Admin role (see Figure 5). With a little bit of work you can build a custom set of pages that implements the user and role management-related tasks that would otherwise be provided by the WSAT.
 
 > [!NOTE]
-> For more information on using the Membership and Roles APIs along with the Login-related ASP.NET Web controls, be sure to read my [*Website Security Tutorials*](../../older-versions-security/introduction/security-basics-and-asp-net-support-cs.md). For more on customizing the CreateUserWizard control refer to the [*Creating User Accounts*](../../older-versions-security/membership/creating-user-accounts-cs.md) and [*Storing Additional User Information*](../../older-versions-security/membership/storing-additional-user-information-cs.md) tutorials, or check out [*Erich Peterson*](http://www.erichpeterson.com/) s article, [*Customizing the CreateUserWizard Control*](http://aspnet.4guysfromrolla.com/articles/070506-1.aspx).
+> For more information on using the Membership and Roles APIs along with the Login-related ASP.NET Web controls, be sure to read my [*Website Security Tutorials*](../../older-versions-security/introduction/security-basics-and-asp-net-support-cs.md). For more on customizing the CreateUserWizard control refer to the [*Creating User Accounts*](../../older-versions-security/membership/creating-user-accounts-cs.md) and [*Storing Additional User Information*](../../older-versions-security/membership/storing-additional-user-information-cs.md) tutorials, or check out [*Erich Peterson*](http://www.erichpeterson.com/) s article, [*Customizing the CreateUserWizard Control*](/previous-versions/aspnet/ms178342(v=vs.100)).
 
 [![Administrators Can Create New User Accounts](configuring-a-website-that-uses-application-services-cs/_static/image14.jpg)](configuring-a-website-that-uses-application-services-cs/_static/image13.jpg)
 
 **Figure 5**: Administrators Can Create New User Accounts ([Click to view full-size image](configuring-a-website-that-uses-application-services-cs/_static/image15.jpg))
 
-If you need the full functionality of the WSAT check out [*Rolling Your Own Web Site Administration Tool*](http://aspnet.4guysfromrolla.com/articles/052307-1.aspx), in which author Dan Clem walks through the process of building a custom WSAT-like tool. Dan shares his application s source code (in C#) and provides step-by-step instructions for adding it to your hosted website.
+If you need the full functionality of the WSAT check out *Rolling Your Own Web Site Administration Tool*, in which author Dan Clem walks through the process of building a custom WSAT-like tool. Dan shares his application s source code (in C#) and provides step-by-step instructions for adding it to your hosted website.
 
 ## Summary
 
@@ -168,8 +166,8 @@ For more information on the topics discussed in this tutorial, refer to the foll
 - [*ASP.NET SQL Server Registration Tool (aspnet_regsql.exe)*](https://msdn.microsoft.com/library/ms229862.aspx)
 - [*Creating the Application Services Database for SQL Server*](https://msdn.microsoft.com/library/x28wfk74.aspx)
 - [*Creating the Membership Schema in SQL Server*](../../older-versions-security/membership/creating-the-membership-schema-in-sql-server-cs.md)
-- [*Examining ASP.NET s Membership, Roles, and Profile*](http://aspnet.4guysfromrolla.com/articles/120705-1.aspx)
-- [*Rolling Your Own Web Site Administration Tool*](http://aspnet.4guysfromrolla.com/articles/052307-1.aspx)
+- [*Examining ASP.NET's Membership, Roles, and Profile*](/previous-versions/aspnet/yh26yfzy(v=vs.100))
+- *Rolling Your Own Web Site Administration Tool*
 - [*Website Security Tutorials*](../../older-versions-security/introduction/security-basics-and-asp-net-support-cs.md)
 - [*Web Site Administration Tool Overview*](https://msdn.microsoft.com/library/yy40ytx0.aspx)
 
