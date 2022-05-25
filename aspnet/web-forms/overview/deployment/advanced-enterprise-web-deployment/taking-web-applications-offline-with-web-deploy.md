@@ -13,8 +13,6 @@ msc.type: authoredcontent
 
 by [Jason Lee](https://github.com/jrjlee)
 
-[Download PDF](https://msdnshared.blob.core.windows.net/media/MSDNBlogsFS/prod.evol.blogs.msdn.com/CommunityServer.Blogs.Components.WeblogFiles/00/00/00/63/56/8130.DeployingWebAppsInEnterpriseScenarios.pdf)
-
 > This topic describes how to take a web application offline for the duration of an automated deployment using the Internet Information Services (IIS) Web Deployment Tool (Web Deploy). Users who browse to the web application are redirected to an *App\_offline.htm* file until the deployment is complete.
 
 This topic forms part of a series of tutorials based around the enterprise deployment requirements of a fictional company named Fabrikam, Inc. This tutorial series uses a sample solution&#x2014;the [Contact Manager solution](../web-deployment-in-the-enterprise/the-contact-manager-solution.md)&#x2014;to represent a web application with a realistic level of complexity, including an ASP.NET MVC 3 application, a Windows Communication Foundation (WCF) service, and a database project.
@@ -47,14 +45,14 @@ The first task you need to complete is to add an *App\_offline* file to your web
 3. In the **Add New Item** dialog box, select **HTML Page**.
 4. In the **Name** box, type **App\_offline-template.htm**, and then click **Add**.
 
-    ![](taking-web-applications-offline-with-web-deploy/_static/image1.png)
+    ![In the Name box, type App\_offline-template.htm, and then click Add.](taking-web-applications-offline-with-web-deploy/_static/image1.png)
 5. Add some simple HTML to inform users that the application is unavailable, and then save the file. Do not include any server-side tags (for example, any tags that are prefixed with "asp:"). 
 
-    ![](taking-web-applications-offline-with-web-deploy/_static/image2.png)
+    ![Add some simple H T M L to inform users that the application is unavailable, and then save the file. ](taking-web-applications-offline-with-web-deploy/_static/image2.png)
 6. In the **Solution Explorer** window, right-click the new file, and then click **Properties**.
 7. In the **Properties** window, in the **Build Action** row, select **None**.
 
-    ![](taking-web-applications-offline-with-web-deploy/_static/image3.png)
+    ![In the **Properties** window, in the **Build Action** row, select **None**.](taking-web-applications-offline-with-web-deploy/_static/image3.png)
 
 ## Deploying and Deleting an App\_Offline File
 
@@ -133,7 +131,7 @@ The next procedure shows you how to add this *.wpp.targets* file to a web applic
 3. In the **Add New Item** dialog box, select the **XML File** template.
 4. In the **Name** box, type *[project name]***.wpp.targets** (for example, **ContactManager.Mvc.wpp.targets**), and then click **Add**.
 
-    ![](taking-web-applications-offline-with-web-deploy/_static/image4.png)
+    ![In the Name box, type project name .wpp.targets, then click Add.](taking-web-applications-offline-with-web-deploy/_static/image4.png)
 
     > [!NOTE]
     > If you add a new item to the root node of a project, the file is created in the same folder as the project file. You can verify this by opening the folder in Windows Explorer.

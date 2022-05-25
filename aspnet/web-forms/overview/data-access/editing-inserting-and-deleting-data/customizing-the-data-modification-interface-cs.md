@@ -13,7 +13,7 @@ msc.type: authoredcontent
 
 by [Scott Mitchell](https://twitter.com/ScottOnWriting)
 
-[Download Sample App](https://download.microsoft.com/download/9/c/1/9c1d03ee-29ba-4d58-aa1a-f201dcc822ea/ASPNET_Data_Tutorial_20_CS.exe) or [Download PDF](customizing-the-data-modification-interface-cs/_static/datatutorial20cs1.pdf)
+[Download PDF](customizing-the-data-modification-interface-cs/_static/datatutorial20cs1.pdf)
 
 > In this tutorial we'll look at how to customize the interface of an editable GridView, by replacing the standard TextBox and CheckBox controls with alternative input Web controls.
 
@@ -79,7 +79,7 @@ At this point the GridView's read-only behavior is complete. When viewing the da
 **Figure 4**: The GridView's Read-Only Interface is Complete ([Click to view full-size image](customizing-the-data-modification-interface-cs/_static/image12.png))
 
 > [!NOTE]
-> As discussed in [An Overview of Inserting, Updating, and Deleting Data tutorial](an-overview-of-inserting-updating-and-deleting-data-cs.md), it is vitally important that the GridView s view state be enabled (the default behavior). If you set the GridView s `EnableViewState` property to `false`, you run the risk of having concurrent users unintentionally deleting or editing records. See [WARNING: Concurrency Issue with ASP.NET 2.0 GridViews/DetailsView/FormViews that Support Editing and/or Deleting and Whose View State is Disabled](http://scottonwriting.net/sowblog/posts/10054.aspx) for more information.
+> As discussed in [An Overview of Inserting, Updating, and Deleting Data tutorial](an-overview-of-inserting-updating-and-deleting-data-cs.md), it is vitally important that the GridView s view state be enabled (the default behavior). If you set the GridView s `EnableViewState` property to `false`, you run the risk of having concurrent users unintentionally deleting or editing records.
 
 ## Step 3: Using a DropDownList for the Category and Supplier Editing Interfaces
 

@@ -666,7 +666,7 @@ This appendix will show you how to create a new web site from the Azure Portal a
 <a id="Task_1_-_Creating_a_New_Web_Site_from_the_Windows_Azure_Portal"></a>
 #### Task 1 - Creating a New Web Site from the Azure Portal
 
-1. Go to the [Azure Management Portal](https://manage.windowsazure.com/) and sign in using the Microsoft credentials associated with your subscription.
+1. Go to the [Azure Management Portal](https://portal.azure.com/) and sign in using the Microsoft credentials associated with your subscription.
 
     > [!NOTE]
     > With Azure you can host 10 ASP.NET Web Sites for free and then scale as your traffic grows. You can sign up [here](https://aka.ms/aspnet-hol-azure).

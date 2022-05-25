@@ -13,8 +13,6 @@ msc.type: authoredcontent
 
 by [Jason Lee](https://github.com/jrjlee)
 
-[Download PDF](https://msdnshared.blob.core.windows.net/media/MSDNBlogsFS/prod.evol.blogs.msdn.com/CommunityServer.Blogs.Components.WeblogFiles/00/00/00/63/56/8130.DeployingWebAppsInEnterpriseScenarios.pdf)
-
 > This topic provides a walkthrough of an enterprise-scale build and deployment process. The approach described in this topic uses custom Microsoft Build Engine (MSBuild) project files to provide fine-grained control over every aspect of the process. Within the project files, custom MSBuild targets are used to run deployment utilities like the Internet Information Services (IIS) Web Deployment Tool (MSDeploy.exe) and the database deployment utility VSDBCMD.exe.
 > 
 > > [!NOTE]
@@ -34,11 +32,11 @@ In the [Contact Manager solution](the-contact-manager-solution.md), three files 
 
 In the sample solution, you can find these three files in the Publish solution folder.
 
-![](understanding-the-build-process/_static/image1.png)
+![In the sample solution, you can find three files in the Publish solution folder.](understanding-the-build-process/_static/image1.png)
 
 Before you look at these files in more detail, let's take a look at how the overall build process works when you use this approach. At a high level, the build and deployment process looks like this:
 
-![](understanding-the-build-process/_static/image2.png)
+![What the build and deployment process looks like at a high level.](understanding-the-build-process/_static/image2.png)
 
 The first thing that happens is that the two project files&#x2014;one containing universal build and deployment instructions, and one containing environment-specific settings&#x2014;are merged into a single project file. MSBuild then works through the instructions in the project file. It builds each of the projects in the solution, using the project file for each project. It then calls out to other tools, like Web Deploy (MSDeploy.exe) and the VSDBCMD utility to deploy your web content and databases to the target environment.
 

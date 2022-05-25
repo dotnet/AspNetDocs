@@ -13,8 +13,6 @@ msc.type: authoredcontent
 
 by [Jason Lee](https://github.com/jrjlee)
 
-[Download PDF](https://msdnshared.blob.core.windows.net/media/MSDNBlogsFS/prod.evol.blogs.msdn.com/CommunityServer.Blogs.Components.WeblogFiles/00/00/00/63/56/8130.DeployingWebAppsInEnterpriseScenarios.pdf)
-
 > This topic describes how to build a command file that will let you run a deployment using Microsoft Build Engine (MSBuild) project files as a single-step, repeatable process.
 
 This topic forms part of a series of tutorials based around the enterprise deployment requirements of a fictional company named Fabrikam, Inc. This tutorial series uses a sample solution&#x2014;the [Contact Manager](the-contact-manager-solution.md) solution&#x2014;to represent a web application with a realistic level of complexity, including an ASP.NET MVC 3 application, a Windows Communication Foundation (WCF) service, and a database project.
@@ -71,7 +69,7 @@ When you've created a command file for your target environment, you should be ab
 3. If an **Open File – Security Warning** dialog box appears, click **Run**.
 4. If your configuration settings and test servers are set up correctly, the Command Prompt window will show a **Build succeeded** message when MSBuild has finished processing the project files.
 
-    ![](creating-and-running-a-deployment-command-file/_static/image1.png)
+    ![If your configuration settings and test servers are set up correctly, the Command Prompt window will show a Build succeeded message when MSBuild has finished processing the project files.](creating-and-running-a-deployment-command-file/_static/image1.png)
 5. If this is the first time you've deployed the solution to this environment, you'll need to add the test web server machine account to the **db\_datawriter** and **db\_datareader** roles on the **ContactManager** database. This procedure is described in [Configure a Database Server for Web Deploy Publishing](../configuring-server-environments-for-web-deployment/configuring-a-database-server-for-web-deploy-publishing.md).
 
     > [!NOTE]
@@ -79,7 +77,7 @@ When you've created a command file for your target environment, you should be ab
 6. Open Internet Explorer and browse to the URL of the Contact Manager application (for example, `http://testweb1:85/ContactManager/`).
 7. Verify that the application works as expected and you're able to add contacts.
 
-    ![](creating-and-running-a-deployment-command-file/_static/image2.png)
+    ![Verify that the application works as expected and you're able to add contacts.](creating-and-running-a-deployment-command-file/_static/image2.png)
 
 ## Conclusion
 

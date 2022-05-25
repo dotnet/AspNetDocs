@@ -245,7 +245,7 @@ In this exercise, you will deploy the **Geek Quiz** application to the staging e
 
 In this task, you will create a web app in **Azure App Service** from the management portal. You will also configure a **SQL Database** to persist the application data, and configure a local Git repository for source control.
 
-1. Go to the [Azure management portal](https://manage.windowsazure.com) and sign in using the Microsoft account associated with your subscription.
+1. Go to the [Azure management portal](/azure/azure-portal/azure-portal-overview) and sign in using the Microsoft account associated with your subscription.
 
     ![Sign in to the Azure management portal](maintainable-azure-websites-managing-change-and-scale/_static/image13.png)
 
@@ -540,7 +540,7 @@ You will now push the changes you made in the previous task to the repository, w
 
     `Details: LINQ to Entities does not recognize the method 'Boolean MatchesOption ...`.
 9. Do not close the browser.
-10. In a new browser instance, navigate to the [Azure management portal](https://manage.windowsazure.com) and sign in using the Microsoft account associated with your subscription.
+10. In a new browser instance, navigate to the [Azure management portal](/azure/azure-portal/azure-portal-overview and sign in using the Microsoft account associated with your subscription.
 11. Select **Websites** and click the web app you created in Exercise 2.
 12. Navigate to the **Deployments** page. Notice that all the commits performed are listed in the deployment history.
 
@@ -576,7 +576,7 @@ In this exercise, you will move the static content of your application to a Blob
 
 In this task you will learn how to create a new storage account using the management portal.
 
-1. Navigate to the [Azure management portal](https://manage.windowsazure.com) and sign in using the Microsoft account associated with your subscription.
+1. Navigate to the [Azure management portal](/azure/azure-portal/azure-portal-overview) and sign in using the Microsoft account associated with your subscription.
 2. Select **New | Data Services | Storage | Quick Create** to start creating a new storage account. Enter a unique name for the account and select a **Region** from the list. Click **Create Storage Account** to continue.
 
     ![Creating a new Storage Account](maintainable-azure-websites-managing-change-and-scale/_static/image57.png "Creating a new Storage Account")
@@ -729,7 +729,7 @@ In this exercise you will go through the steps required to configure the **Autos
 
 In this task you will use the Azure management portal to enable the Autoscale feature for the web app you created in Exercise 2.
 
-1. In the [Azure management portal](https://manage.windowsazure.com/), select **Websites** and click the web app you created in Exercise 2.
+1. In the [Azure management portal](/azure/azure-portal/azure-portal-overview), select **Websites** and click the web app you created in Exercise 2.
 2. Navigate to the **Scale** page. Under the **capacity** section, select **CPU** for the **Scale by Metric** configuration.
 
     > [!NOTE]
@@ -769,10 +769,6 @@ Now that **Autoscale** has been configured, you will create a **Web Performance 
 
     ![Adding a request to WebTest1](maintainable-azure-websites-managing-change-and-scale/_static/image81.png "Adding a request to WebTest1")
 
-    *Adding a request to WebTest1*
-4. In the **Properties** window of the new request node, update the **Url** property to point to the URL of your web app (e.g. *[http://geek-quiz.azurewebsites.net/](http://geek-quiz.azurewebsites.net/)*).
-
-    ![Changing the Url property](maintainable-azure-websites-managing-change-and-scale/_static/image82.png "Changing the Url property")
 
     *Changing the Url property*
 5. In the **WebTest1.webtest** window, right-click **WebTest1** and click **Add Loop...**.

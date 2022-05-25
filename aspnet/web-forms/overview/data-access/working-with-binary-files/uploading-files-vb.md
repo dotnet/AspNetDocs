@@ -13,7 +13,7 @@ msc.type: authoredcontent
 
 by [Scott Mitchell](https://twitter.com/ScottOnWriting)
 
-[Download Sample App](https://download.microsoft.com/download/4/a/7/4a7a3b18-d80e-4014-8e53-a6a2427f0d93/ASPNET_Data_Tutorial_54_VB.exe) or [Download PDF](uploading-files-vb/_static/datatutorial54vb1.pdf)
+[Download PDF](uploading-files-vb/_static/datatutorial54vb1.pdf)
 
 > Learn how to allow users to upload binary files (such as Word or PDF documents) to your Web site where they may be stored in either the server's file system or the database.
 
@@ -217,7 +217,7 @@ There are a number of techniques for resolving file name conflicts. One option i
 
 ## Challenges Involved with Very Large Amounts of Binary Data
 
-These tutorials assume that the binary data captured is modest in size. Working with very large amounts of binary data files that are several megabytes or larger introduces new challenges that are beyond the scope of these tutorials. For example, by default ASP.NET will reject uploads of more than 4 MB, although this can be configured through the [`<httpRuntime>` element](https://msdn.microsoft.com/library/e1f13641.aspx) in `Web.config`. IIS imposes its own file upload size limitations, too. See [IIS Upload File Size](http://vandamme.typepad.com/development/2005/09/iis_upload_file.html) for more information. Furthermore, the time taken to upload large files might exceed the default 110 seconds ASP.NET will wait for a request. There are also memory and performance issues that arise when working with large files.
+These tutorials assume that the binary data captured is modest in size. Working with very large amounts of binary data files that are several megabytes or larger introduces new challenges that are beyond the scope of these tutorials. For example, by default ASP.NET will reject uploads of more than 4 MB, although this can be configured through the [`<httpRuntime>` element](https://msdn.microsoft.com/library/e1f13641.aspx) in `Web.config`. IIS imposes its own file upload size limitations, too. See [IIS Upload File Size](https://ajaxuploader.com/large-file-upload-iis-asp-net.htm) for more information. Furthermore, the time taken to upload large files might exceed the default 110 seconds ASP.NET will wait for a request. There are also memory and performance issues that arise when working with large files.
 
 The FileUpload control is impractical for large file uploads. As the file s contents are being posted to the server, the end user must patiently wait without any confirmation that their upload is progressing. This is not so much an issue when dealing with smaller files that can be uploaded in a few seconds, but can be an issue when dealing with larger files that may take minutes to upload. There are a variety of third-party file upload controls that are better suited for handling large uploads and many of these vendors provide progress indicators and ActiveX upload managers that present a much more polished user experience.
 

@@ -73,11 +73,11 @@ You apply the `Authorize` attribute to hubs, but not persistent connections. To 
 
 SignalR mitigates the risk of executing malicious commands by validating the identity of the sender. For each request, the client and server pass a connection token which contains the connection id and username for authenticated users. The connection id uniquely identifies each connected client. The server randomly generates the connection id when a new connection is created, and persists that id for the duration of the connection. The authentication mechanism for the web application provides the username. SignalR uses encryption and a digital signature to protect the connection token.
 
-![](introduction-to-security/_static/image2.png)
+![Diagram that shows an arrow from Client New Connection Request to Server Received Connection Request to Server Response to Client Received Response. The Authentication System generates a Connection Token in the Response and Received Response boxes.](introduction-to-security/_static/image2.png)
 
 For each request, the server validates the contents of the token to ensure that the request is coming from the specified user. The username must correspond to the connection id. By validating both the connection id and the username, SignalR prevents a malicious user from easily impersonating another user. If the server cannot validate the connection token, the request fails.
 
-![](introduction-to-security/_static/image4.png)
+![Diagram that shows an arrow from Client Request to Server Received Request to Saved Token. Connection Token and Message are in both the Client box and the Server box.](introduction-to-security/_static/image4.png)
 
 Because the connection id is part of the verification process, you should not reveal one user's connection id to other users or store the value on the client, such as in a cookie.
 

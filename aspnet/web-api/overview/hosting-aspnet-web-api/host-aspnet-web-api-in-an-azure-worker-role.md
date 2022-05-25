@@ -1,7 +1,7 @@
 ---
 uid: web-api/overview/hosting-aspnet-web-api/host-aspnet-web-api-in-an-azure-worker-role
 title: "Host ASP.NET Web API 2 in an Azure Worker Role - ASP.NET 4.x"
-author: MikeWasson
+author: rick-anderson
 description: "Tutorial: Host ASP.NET Web API in an Azure Worker Role, using OWIN to self-host the Web API framework."
 ms.author: riande
 ms.date: 04/02/2014
@@ -12,7 +12,7 @@ msc.type: authoredcontent
 ---
 # Host ASP.NET Web API 2 in an Azure Worker Role
 
-by [Mike Wasson](https://github.com/MikeWasson)
+by Mike Wasson
 
 > This tutorial shows how to host ASP.NET Web API in an Azure Worker Role, using OWIN to self-host the Web API framework.
 >
@@ -33,11 +33,11 @@ Start Visual Studio with administrator privileges. Administrator privileges are 
 
 On the **File** menu, click **New**, then click **Project**. From **Installed Templates**, under Visual C#, click **Cloud** and then click **Windows Azure Cloud Service**. Name the project "AzureApp" and click **OK**.
 
-[![](host-aspnet-web-api-in-an-azure-worker-role/_static/image2.png)](host-aspnet-web-api-in-an-azure-worker-role/_static/image1.png)
+[![Screenshot of the 'new project' dialog box, highlighting the steps in the menu options to create an Azure App project.](host-aspnet-web-api-in-an-azure-worker-role/_static/image2.png)](host-aspnet-web-api-in-an-azure-worker-role/_static/image1.png)
 
 In the **New Windows Azure Cloud Service** dialog, double-click **Worker Role**. Leave the default name ("WorkerRole1"). This step adds a worker role to the solution. Click **OK**.
 
-[![](host-aspnet-web-api-in-an-azure-worker-role/_static/image4.png)](host-aspnet-web-api-in-an-azure-worker-role/_static/image3.png)
+[![Screenshot of the 'New Windows Azure Cloud Service' dialog box, showing the menu options to create a worker role.](host-aspnet-web-api-in-an-azure-worker-role/_static/image4.png)](host-aspnet-web-api-in-an-azure-worker-role/_static/image3.png)
 
 The Visual Studio solution that is created contains two projects:
 
@@ -46,7 +46,7 @@ The Visual Studio solution that is created contains two projects:
 
 In general, an Azure application can contain multiple roles, although this tutorial uses a single role.
 
-![](host-aspnet-web-api-in-an-azure-worker-role/_static/image5.png)
+![Screenshot of the solution explorer window, highlighting the new Azure App project and showing the app name and worker role option below it.](host-aspnet-web-api-in-an-azure-worker-role/_static/image5.png)
 
 ## Add the Web API and OWIN Packages
 
@@ -60,19 +60,19 @@ In the Package Manager Console window, enter the following command:
 
 In Solution Explorer, expand the AzureApp project. Expand the Roles node, right-click WorkerRole1, and select **Properties**.
 
-![](host-aspnet-web-api-in-an-azure-worker-role/_static/image6.png)
+![Screenshot of the solution explorer window menu, highlighting the steps to select the worker role's property settings.](host-aspnet-web-api-in-an-azure-worker-role/_static/image6.png)
 
 Click **Endpoints**, and then click **Add Endpoint**.
 
 In the **Protocol** dropdown list, select "http". In **Public Port** and **Private Port**, type 80. These port numbers can be different. The public port is what clients use when they send a request to the role.
 
-[![](host-aspnet-web-api-in-an-azure-worker-role/_static/image8.png)](host-aspnet-web-api-in-an-azure-worker-role/_static/image7.png)
+[![Screenshot of the protocol dropdown menu options that show the different service configurations and endpoint choices.](host-aspnet-web-api-in-an-azure-worker-role/_static/image8.png)](host-aspnet-web-api-in-an-azure-worker-role/_static/image7.png)
 
 ## Configure Web API for Self-Host
 
 In Solution Explorer, right click the WorkerRole1 project and select **Add** / **Class** to add a new class. Name the class `Startup`.
 
-![](host-aspnet-web-api-in-an-azure-worker-role/_static/image9.png)
+![Screenshot of the solution explorer window, showing the menu options and highlighting the path to adding a class.](host-aspnet-web-api-in-an-azure-worker-role/_static/image9.png)
 
 Replace all of the boilerplate code in this file with the following:
 
@@ -115,15 +115,15 @@ Here is the complete code for WorkerRole.cs:
 Build the solution, and press F5 to run the application locally in the Azure Compute Emulator. Depending on your firewall settings, you might need to allow the emulator through your firewall.
 
 > [!NOTE]
-> If you get an exception like the following, please see [this blog post](https://docs.microsoft.com/archive/blogs/praburaj/fileloadexception-on-microsoft-owin-when-running-on-worker-role) for a workaround. "Could not load file or assembly 'Microsoft.Owin, Version=2.0.2.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35' or one of its dependencies. The located assembly's manifest definition does not match the assembly reference. (Exception from HRESULT: 0x80131040)"
+> If you get an exception like the following, please see [this blog post](/archive/blogs/praburaj/fileloadexception-on-microsoft-owin-when-running-on-worker-role) for a workaround. "Could not load file or assembly 'Microsoft.Owin, Version=2.0.2.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35' or one of its dependencies. The located assembly's manifest definition does not match the assembly reference. (Exception from HRESULT: 0x80131040)"
 
 The compute emulator assigns a local IP address to the endpoint. You can find the IP address by viewing the Compute Emulator UI. Right-click the emulator icon in the task bar notification area, and select **Show Compute Emulator UI**.
 
-[![](host-aspnet-web-api-in-an-azure-worker-role/_static/image11.png)](host-aspnet-web-api-in-an-azure-worker-role/_static/image10.png)
+[![Screenshot of the Azure Compute Emulator U I, showing the menu and the I P endpoint address information, when selecting the 'service details' option.](host-aspnet-web-api-in-an-azure-worker-role/_static/image11.png)](host-aspnet-web-api-in-an-azure-worker-role/_static/image10.png)
 
 Find the IP address under Service Deployments, deployment [id], Service Details. Open a web browser and navigate to http://<em>address</em>/test/1, where <em>address</em> is the IP address assigned by the compute emulator; for example, `http://127.0.0.1:80/test/1`. You should see the response from the Web API controller:
 
-![](host-aspnet-web-api-in-an-azure-worker-role/_static/image12.png)
+![Screenshot of the browser window showing the Web A P I controller response after inputting the I P address assigned by the compute emulator.](host-aspnet-web-api-in-an-azure-worker-role/_static/image12.png)
 
 ## Deploy to Azure
 
@@ -131,27 +131,25 @@ For this step, you must have an Azure account. If you don't already have one, yo
 
 In Solution Explorer, right-click the AzureApp project. Select **Publish**.
 
-![](host-aspnet-web-api-in-an-azure-worker-role/_static/image13.png)
+![Screenshot of the solution explorer window's menu options, which highlights the steps to follow in order to deploy or publish the project.](host-aspnet-web-api-in-an-azure-worker-role/_static/image13.png)
 
 If you are not signed in to your Azure account, click **Sign In**.
 
-[![](host-aspnet-web-api-in-an-azure-worker-role/_static/image15.png)](host-aspnet-web-api-in-an-azure-worker-role/_static/image14.png)
+[![Screenshot of the 'publish Azure application' dialog box, which requests a sign in option before other options become available.](host-aspnet-web-api-in-an-azure-worker-role/_static/image15.png)](host-aspnet-web-api-in-an-azure-worker-role/_static/image14.png)
 
 After you are signed in, choose a subscription and click **Next**.
 
-[![](host-aspnet-web-api-in-an-azure-worker-role/_static/image17.png)](host-aspnet-web-api-in-an-azure-worker-role/_static/image16.png)
+[![Screenshot of the 'publish Azure application' after sign in, prompting user to choose a subscription type before continuing to the next step.](host-aspnet-web-api-in-an-azure-worker-role/_static/image17.png)](host-aspnet-web-api-in-an-azure-worker-role/_static/image16.png)
 
 Enter a name for the cloud service and choose a region. Click **Create**.
 
-![](host-aspnet-web-api-in-an-azure-worker-role/_static/image18.png)
+![Screenshot of the 'create cloud service and storage account' dialog box, requesting user to enter a name and region for their application's service.](host-aspnet-web-api-in-an-azure-worker-role/_static/image18.png)
 
 Click **Publish**.
 
-[![](host-aspnet-web-api-in-an-azure-worker-role/_static/image20.png)](host-aspnet-web-api-in-an-azure-worker-role/_static/image19.png)
+[![Screenshot of the 'publish Azure application' window, confirming all of the settings selections made, and providing button options to go back or publish.](host-aspnet-web-api-in-an-azure-worker-role/_static/image20.png)](host-aspnet-web-api-in-an-azure-worker-role/_static/image19.png)
 
-The Azure Activity Log window shows the progress of the deployment. When the app is deployed, browse to http://appname.cloudapp.net/test/1.
-
-![](host-aspnet-web-api-in-an-azure-worker-role/_static/image21.png)
+[Configuring a custom domain name for an Azure cloud service (classic)](/azure/cloud-services/cloud-services-custom-domain-name-portal)
 
 ## Additional Resources
 

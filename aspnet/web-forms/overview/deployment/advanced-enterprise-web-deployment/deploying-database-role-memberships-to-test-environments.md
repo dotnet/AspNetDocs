@@ -13,8 +13,6 @@ msc.type: authoredcontent
 
 by [Jason Lee](https://github.com/jrjlee)
 
-[Download PDF](https://msdnshared.blob.core.windows.net/media/MSDNBlogsFS/prod.evol.blogs.msdn.com/CommunityServer.Blogs.Components.WeblogFiles/00/00/00/63/56/8130.DeployingWebAppsInEnterpriseScenarios.pdf)
-
 > This topic describes how to add user accounts to database roles as part of a solution deployment to a test environment.
 > 
 > When you deploy a solution containing a database project to a staging or production environment, you typically don't want the developer to automate the addition of user accounts to database roles. In most cases, the developer won't know which user accounts need to be added to which database roles, and these requirements could change at any time. However, when you deploy a solution containing a database project to a development or test environment, the situation is usually rather different:
@@ -58,7 +56,7 @@ You can create a Transact-SQL script in a lot of different ways, and in any loca
 4. Right-click the **Test** folder, point to **Add**, and then click **Script**.
 5. In the **Add New Item** dialog box, give your script a meaningful name (for example, **AddRoleMemberships.sql**), and then click **Add**.
 
-    ![](deploying-database-role-memberships-to-test-environments/_static/image1.png)
+    ![In the Add New Item dialog box, give your script a meaningful name (for example, AddRoleMemberships.sql), and then click Add.](deploying-database-role-memberships-to-test-environments/_static/image1.png)
 6. In the *AddRoleMemberships.sql* file, add Transact-SQL statements that:
 
     1. Create a database user for the SQL Server login that will access your database.

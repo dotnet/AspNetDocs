@@ -1,8 +1,8 @@
 ---
 uid: web-api/overview/data/using-web-api-with-entity-framework/part-7
-title: "Create the View (UI) | Microsoft Docs"
-author: MikeWasson
-description: ""
+title: Create the View (UI) | Microsoft Docs
+author: Rick-Anderson
+description: Describes how to define the application's HTML and add data binding between the HTML and the view model.
 ms.author: riande
 ms.date: 06/16/2014
 ms.assetid: b2445062-a1fe-4133-8994-f510280f6d9a
@@ -10,8 +10,6 @@ msc.legacyurl: /web-api/overview/data/using-web-api-with-entity-framework/part-7
 msc.type: authoredcontent
 ---
 # Create the View (UI)
-
-by [Mike Wasson](https://github.com/MikeWasson)
 
 [Download Completed Project](https://github.com/MikeWasson/BookService)
 
@@ -41,7 +39,7 @@ Here the `text` binding reads the Author property of each book.
 
 If you run the application now, it should look like this:
 
-![](part-7/_static/image1.png)
+![Screenshot of the application window showing the Books pane listing the books and corresponding links to details.](part-7/_static/image1.png)
 
 The list of books loads asynchronously, after the page loads. Right now, the &quot;Details&quot; links are not functional. We'll add this functionality in the next section.
 

@@ -1,8 +1,8 @@
 ---
 uid: web-api/overview/data/using-web-api-with-entity-framework/part-9
-title: "Add a New Item to the Database | Microsoft Docs"
-author: MikeWasson
-description: ""
+title: Add a New Item to the Database | Microsoft Docs
+author: Rick-Anderson
+description: Describes how to add the functionality that allows users to add new books to the book service application.
 ms.author: riande
 ms.date: 06/16/2014
 ms.assetid: 0967c29e-e124-4db0-a788-c45d0ff5aff2
@@ -10,8 +10,6 @@ msc.legacyurl: /web-api/overview/data/using-web-api-with-entity-framework/part-9
 msc.type: authoredcontent
 ---
 # Add a New Item to the Database
-
-by [Mike Wasson](https://github.com/MikeWasson)
 
 [Download Completed Project](https://github.com/MikeWasson/BookService)
 

@@ -1,8 +1,8 @@
 ---
 uid: web-api/overview/advanced/calling-a-web-api-from-a-net-client
-title: "Call a Web API From a .NET Client (C#) - ASP.NET 4.x"
-author: MikeWasson
-description: "This tutorial shows how to call a web API from a .NET 4.x application."
+title: Call a Web API From a .NET Client (C#) - ASP.NET 4.x
+author: Rick-Anderson
+description: This tutorial shows how to call a web API from a .NET 4.x application.
 ms.author: riande
 ms.date: 11/24/2017
 msc.legacyurl: /web-api/overview/advanced/calling-a-web-api-from-a-net-client
@@ -11,7 +11,6 @@ ms.custom: contperf-fy21q3
 ---
 # Call a Web API From a .NET Client (C#)
 
-by [Mike Wasson](https://github.com/MikeWasson) and [Rick Anderson](https://twitter.com/RickAndMSFT)
 
 This content is for a previous version of .NET. New development should use [ASP.NET Core](/aspnet/core/introduction-to-aspnet-core). For more information on using ASP.NET Core Web API, see:
 

@@ -1,7 +1,7 @@
 ---
 uid: web-api/overview/odata-support-in-aspnet-web-api/odata-v3/creating-an-odata-endpoint
 title: "Creating an OData v3 Endpoint with Web API 2 | Microsoft Docs"
-author: MikeWasson
+author: rick-anderson
 description: "The Open Data Protocol (OData) is a data access protocol for the web. OData provides a uniform way to structure data, query the data, and manipulate the data..."
 ms.author: riande
 ms.date: 02/25/2014
@@ -11,7 +11,7 @@ msc.type: authoredcontent
 ---
 # Creating an OData v3 Endpoint with Web API 2
 
-by [Mike Wasson](https://github.com/MikeWasson)
+by Mike Wasson
 
 [Download Completed Project](https://code.msdn.microsoft.com/ASPNET-Web-API-OData-cecdb524)
 
@@ -49,11 +49,11 @@ Start Visual Studio and select **New Project** from the Start page. Or, from the
 
 In the **Templates** pane, select **Installed Templates** and expand the Visual C# node. Under **Visual C#**, select **Web**. Select **the ASP.NET Web Application** template.
 
-![](creating-an-odata-endpoint/_static/image1.png)
+![Screenshot of the new project window, showing the path to the template pane, and displaying highlighted directions to select the A S P dot NET Web Application option.](creating-an-odata-endpoint/_static/image1.png)
 
 In the **New ASP.NET Project** dialog, select the **Empty** template. Under &quot;Add folders and core references for...&quot;, check **Web API**. Click **OK**.
 
-![](creating-an-odata-endpoint/_static/image2.png)
+![Screenshot of the A S P dot NET project dialog box, showing the template options boxes and highlighting the 'empty' option.](creating-an-odata-endpoint/_static/image2.png)
 
 <a id="add-model"></a>
 ## Add an Entity Model
@@ -62,11 +62,11 @@ A *model* is an object that represents the data in your application. For this tu
 
 In Solution Explorer, right-click the Models folder. From the context menu, select **Add** then select **Class**.
 
-![](creating-an-odata-endpoint/_static/image3.png)
+![Screenshot of the solution explorer dialog box, showing the menu list for each selection as it highlights each, leading the the class option.](creating-an-odata-endpoint/_static/image3.png)
 
 In the **Add New** Item dialog, name the class &quot;Product&quot;.
 
-![](creating-an-odata-endpoint/_static/image4.png)
+![Screenshot of the 'add new project' window, displaying default sort and showing the class option, and the words 'product dot c s' in the empty field below.](creating-an-odata-endpoint/_static/image4.png)
 
 > [!NOTE]
 > By convention, model classes are placed in the Models folder. You don't have to follow this convention in your own projects, but we'll use it for this tutorial.
@@ -86,34 +86,34 @@ A *controller* is a class that handles HTTP requests. You define a separate cont
 
 In Solution Explorer, right-click the Controllers folder. Select **Add** and then select **Controller**.
 
-![](creating-an-odata-endpoint/_static/image5.png)
+![Screenshot of the solution explorer window, which highlights the controller option that then displays the menus to add an O Data controller.](creating-an-odata-endpoint/_static/image5.png)
 
 In the **Add Scaffold** dialog, select &quot;Web API 2 OData Controller with actions, using Entity Framework&quot;.
 
-![](creating-an-odata-endpoint/_static/image6.png)
+![Screenshot of the 'add scaffold' screen, showing the controller options menu, and highlighting the Web A P I 2 O Data controller.](creating-an-odata-endpoint/_static/image6.png)
 
 In the **Add Controller** dialog, name the controller "ProductsController". Select the &quot;Use async controller actions&quot; checkbox. In the **Model** drop-down list, select the Product class.
 
-![](creating-an-odata-endpoint/_static/image7.png)
+![Screenshot of the add controller dialog box, displaying fields for controller name, model class drop down list, and data context class.](creating-an-odata-endpoint/_static/image7.png)
 
 Click the **New data context...** button. Leave the default name for the data context type, and click **Add**.
 
-![](creating-an-odata-endpoint/_static/image8.png)
+![Screenshot of the new data context window, showing a field for 'new data context type' and showing the default name for the data context type.](creating-an-odata-endpoint/_static/image8.png)
 
 Click Add in the Add Controller dialog to add the controller.
 
-![](creating-an-odata-endpoint/_static/image9.png)
+![Screenshot of the add controller dialog box, showing the different field requirements, with a checkbox to 'use async controller actions'.](creating-an-odata-endpoint/_static/image9.png)
 
 Note: If you get an error message that says &quot;There was an error getting the type...&quot;, make sure that you built the Visual Studio project after you added the Product class. The scaffolding uses reflection to find the class.
 
-![](creating-an-odata-endpoint/_static/image10.png)
+![Screenshot of the Microsoft Visual Studio, displaying a red circled 'X' followed by the word 'error' and a detailed message of the error.](creating-an-odata-endpoint/_static/image10.png)
 
 The scaffolding adds two code files to the project:
 
 - Products.cs defines the Web API controller that implements the OData endpoint.
 - ProductServiceContext.cs provides methods to query the underlying database, using Entity Framework.
 
-![](creating-an-odata-endpoint/_static/image11.png)
+![Screenshot of the project window, showing the product service menu and circling the two newly added files under controllers and under models.](creating-an-odata-endpoint/_static/image11.png)
 
 <a id="edm"></a>
 ## Add the EDM and Route
@@ -152,7 +152,7 @@ From the **Tools** menu, select **NuGet Package Manager**, then select **Package
 
 This adds a folder named Migrations and a code file named Configuration.cs.
 
-![](creating-an-odata-endpoint/_static/image12.png)
+![Screenshot of the solution explorer's product service menu, circling the newly added folder called migrations, and showing the file within it.](creating-an-odata-endpoint/_static/image12.png)
 
 Open this file and add the following code to the `Configuration.Seed` method.
 
@@ -179,15 +179,15 @@ The *service document* contains a list of the entity sets for the OData endpoint
 
 Using Fiddler, enter the following URI in the **Composer** tab: `http://localhost:port/odata/`, where *port* is the port number.
 
-![](creating-an-odata-endpoint/_static/image13.png)
+![Screenshot of the service document window, displaying the different tabs with the 'parsed' tab chosen and showing the U R L data in the composer field.](creating-an-odata-endpoint/_static/image13.png)
 
 Click the **Execute** button. Fiddler sends an HTTP GET request to your application. You should see the response in the Web Sessions list. If everything is working, the status code will be 200.
 
-![](creating-an-odata-endpoint/_static/image14.png)
+![Screenshot of the web sessions list, showing the H T T P protocol with the result number 200, and the U R L address and host.](creating-an-odata-endpoint/_static/image14.png)
 
 Double-click the response in the Web Sessions list to see the details of the response message in the Inspectors tab.
 
-![](creating-an-odata-endpoint/_static/image15.png)
+![Screenshot of the web sessions list's inspector tab, displaying the Request Headers response and the X M L information.](creating-an-odata-endpoint/_static/image15.png)
 
 The raw HTTP response message should look similar to the following:
 
@@ -197,7 +197,7 @@ By default, Web API returns the service document in AtomPub format. To request J
 
 `Accept: application/json`
 
-![](creating-an-odata-endpoint/_static/image16.png)
+![Screenshot of the web sessions window, showing the response from the A P I in the Request Headers section, and circling where to write the j son request.](creating-an-odata-endpoint/_static/image16.png)
 
 Now the HTTP response contains a JSON payload:
 

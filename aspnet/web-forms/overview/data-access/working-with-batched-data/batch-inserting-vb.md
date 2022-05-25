@@ -13,7 +13,7 @@ msc.type: authoredcontent
 
 by [Scott Mitchell](https://twitter.com/ScottOnWriting)
 
-[Download Code](https://download.microsoft.com/download/3/9/f/39f92b37-e92e-4ab3-909e-b4ef23d01aa3/ASPNET_Data_Tutorial_66_VB.zip) or [Download PDF](batch-inserting-vb/_static/datatutorial66vb1.pdf)
+[Download PDF](batch-inserting-vb/_static/datatutorial66vb1.pdf)
 
 > Learn how to insert multiple database records in a single operation. In the User Interface Layer we extend the GridView to allow the user to enter multiple new records. In the Data Access Layer we wrap the multiple Insert operations within a transaction to ensure that all insertions succeed or all insertions are rolled back.
 
@@ -35,7 +35,7 @@ In this tutorial we will create a page that implements the batch inserting inter
 
 This tutorial will consist of a single page that is divided into two regions: a display region and an inserting region. The display interface, which we'll create in this step, shows the products in a GridView and includes a button titled Process Product Shipment. When this button is clicked, the display interface is replaced with the inserting interface, which is shown in Figure 1. The display interface returns after the Add Products from Shipment or Cancel buttons are clicked. We'll create the inserting interface in Step 2.
 
-When creating a page that has two interfaces, only one of which is visible at a time, each interface typically is placed within a [Panel Web control](http://www.w3schools.com/aspnet/control_panel.asp), which serves as a container for other controls. Therefore, our page will have two Panel controls one for each interface.
+When creating a page that has two interfaces, only one of which is visible at a time, each interface typically is placed within a [Panel Web control](/previous-versions/aspnet/cd2zztdd(v=vs.100)), which serves as a container for other controls. Therefore, our page will have two Panel controls one for each interface.
 
 Start by opening the `BatchInsert.aspx` page in the `BatchData` folder and drag a Panel from the Toolbox onto the Designer (see Figure 2). Set the Panel s `ID` property to `DisplayInterface`. When adding the Panel to the Designer, its `Height` and `Width` properties are set to 50px and 125px, respectively. Clear out these property values from the Properties window.
 

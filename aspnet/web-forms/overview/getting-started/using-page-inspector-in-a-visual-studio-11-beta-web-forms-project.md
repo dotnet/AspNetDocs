@@ -44,7 +44,7 @@ by Tim Ammann
 - [Visual Studio 2012](https://www.microsoft.com/visualstudio/11) or [Visual Studio Express 2012 for Web](https://www.microsoft.com/visualstudio/11/downloads#express-web).
 
 > [!NOTE]
-> To get the latest version of Page Inspector, use [Web Platform Installer](https://go.microsoft.com/fwlink/?LinkId=255386) to install the Azure SDK for .NET 2.0.
+> To get the latest version of Page Inspector, use [Web Platform Installer](https://www.microsoft.com/web/downloads/platform.aspx) to install the Azure SDK for .NET 2.0.
 
 Page Inspector is bundled with Microsoft Web Developer Tools. The latest version is 1.3. To check which version you have, run Visual Studio and select **About Microsoft Visual Studio** from the **Help** menu.
 

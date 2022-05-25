@@ -1,7 +1,7 @@
 ---
 uid: web-api/overview/odata-support-in-aspnet-web-api/odata-routing-conventions
 title: "Routing Conventions in ASP.NET Web API 2 Odata - ASP.NET 4.x"
-author: MikeWasson
+author: rick-anderson
 description: "Describes routing conventions that Web API 2 in ASP.NET 4.x uses for OData endpoints."
 ms.author: riande
 ms.date: 07/31/2013
@@ -28,13 +28,13 @@ In part 2, I show how to add custom routing conventions. Currently the built-in 
 <a id="conventions"></a>
 ## Built-in Routing Conventions
 
-Before I describe the OData routing conventions in Web API, it's helpful to understand OData URIs. An [OData URI](http://www.odata.org/documentation/odata-v3-documentation/url-conventions/) consists of:
+Before I describe the OData routing conventions in Web API, it's helpful to understand OData URIs. An [OData URI](https://www.odata.org/documentation/odata-version-3-0/url-conventions/) consists of:
 
 - The service root
 - The resource path
 - Query options
 
-![](odata-routing-conventions/_static/image1.png)
+![Screenshot to show what the O Data routing conventions looks like, displaying service root, resource path, and query options from left to right.](odata-routing-conventions/_static/image1.png)
 
 For routing, the important part is the resource path. The resource path is divided into segments. For example, `/Products(1)/Supplier` has three segments:
 
@@ -168,9 +168,8 @@ The next step is adding the new convention to the list of routing conventions. T
 
 Here are some other sample routing conventions that be useful to study:
 
-- [CompositeKeyRoutingConvention](http://aspnet.codeplex.com/sourcecontrol/latest#Samples/WebApi/ODataCompositeKeySample/ODataCompositeKeySample/Extensions/CompositeKeyRoutingConvention.cs)
-- [CustomNavigationRoutingConvention](http://aspnet.codeplex.com/sourcecontrol/latest#Samples/WebApi/ODataServiceSample/ODataService/Extensions/CustomNavigationRoutingConvention.cs)
-- [NonBindableActionRoutingConvention](http://aspnet.codeplex.com/sourcecontrol/latest#Samples/WebApi/ODataActionsSample/ODataActionsSample/NonBindableActionRoutingConvention.cs)
-- [ODataVersionRouteConstraint](http://aspnet.codeplex.com/sourcecontrol/latest#Samples/WebApi/ODataVersioningSample/ODataVersioningSample/Extensions/ODataVersionRouteConstraint.cs)
+- [CustomNavigationRoutingConvention](/odata/webapi/custom-routing-convention)
+- [NonBindableActionRoutingConvention](/dynamicsax-2012/appuser-itpro/nonbindableactionroutingconvention-properties-microsoft-dynamics-retail-retailserverlibrary-odataextensions)
+- [ODataVersionRouteConstraint](/previous-versions/aspnet/dn746967(v=vs.118))
 
-And of course Web API itself is open-source, so you can see the [source code](http://aspnetwebstack.codeplex.com/) for the built-in routing conventions. These are defined in the **System.Web.Http.OData.Routing.Conventions** namespace.
+And of course Web API itself is open-source, so you can see the [source code](https://github.com/aspnet/AspNetWebStack) for the built-in routing conventions. These are defined in the **System.Web.Http.OData.Routing.Conventions** namespace.

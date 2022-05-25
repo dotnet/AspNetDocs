@@ -1,7 +1,7 @@
 ---
 uid: web-api/overview/security/forms-authentication
 title: "Forms Authentication in ASP.NET Web API | Microsoft Docs"
-author: MikeWasson
+author: Rick-Anderson
 description: "Describes using Forms Authentication in ASP.NET Web API."
 ms.author: riande
 ms.date: 12/12/2012
@@ -11,7 +11,7 @@ msc.type: authoredcontent
 ---
 # Forms Authentication in ASP.NET Web API
 
-by [Mike Wasson](https://github.com/MikeWasson)
+by Mike Wasson
 
 Forms authentication uses an HTML form to send the user's credentials to the server. It is not an Internet standard. Forms authentication is only appropriate for web APIs that are called from a web application, so that the user can interact with the HTML form.
 
@@ -27,7 +27,7 @@ Briefly, forms authentication in ASP.NET works like this:
 4. The server returns another HTTP 302 that redirects back to the original URI. This response includes an authentication cookie.
 5. The client requests the resource again. The request includes the authentication cookie, so the server grants the request.
 
-![](forms-authentication/_static/image1.png)
+![Illustration of how forms authentication in A S P dot Net works](forms-authentication/_static/image1.png)
 
 For more information, see [An Overview of Forms Authentication.](../../../web-forms/overview/older-versions-security/introduction/an-overview-of-forms-authentication-cs.md)
 

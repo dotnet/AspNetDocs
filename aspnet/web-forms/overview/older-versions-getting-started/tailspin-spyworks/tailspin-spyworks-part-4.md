@@ -21,23 +21,23 @@ by [Joe Stagner](https://github.com/JoeStagner)
 
 Let's begin implementing our ProductsList.aspx page by "Right Clicking" on our solution and selecting "Add" and "New Item".
 
-![](tailspin-spyworks-part-4/_static/image1.jpg)
+![Screenshot that shows where to select New Item.](tailspin-spyworks-part-4/_static/image1.jpg)
 
 Choose "Web Form Using Master Page" and enter a page name of ProductsList.aspx".
 
 Click "Add".
 
-![](tailspin-spyworks-part-4/_static/image2.jpg)
+![Screenshot that shows where to click Add.](tailspin-spyworks-part-4/_static/image2.jpg)
 
 Next choose the "Styles" folder where we placed the Site.Master page and select it from the "Contents of folder" window.
 
-![](tailspin-spyworks-part-4/_static/image3.jpg)
+![Screenshow that shows the contents of the Styles folder.](tailspin-spyworks-part-4/_static/image3.jpg)
 
 Click "Ok" to create the page.
 
 Our database is populated with product data as seen below.
 
-![](tailspin-spyworks-part-4/_static/image4.jpg)
+![Screenshot that shows the database populated with product data.](tailspin-spyworks-part-4/_static/image4.jpg)
 
 After our page is created we'll again use an Entity Data Source to access that product data, but in this instance we need to select the Product Entities and we need to restrict the items that are returned to only those for the selected Category.
 
@@ -62,15 +62,15 @@ We are dynamically building several links for each displayed product.
 
 Also, before we test own new page we need to create the directory structure for the product catalog images as follows.
 
-![](tailspin-spyworks-part-4/_static/image1.png)
+![Screenshot that shows the directory structure.](tailspin-spyworks-part-4/_static/image1.png)
 
 Once our product images are accessible we can test our product list page.
 
-![](tailspin-spyworks-part-4/_static/image5.jpg)
+![Screenshot that shows the product list page.](tailspin-spyworks-part-4/_static/image5.jpg)
 
 From the site's home page, click on one of the Category List Links.
 
-![](tailspin-spyworks-part-4/_static/image6.jpg)
+![Screenshot that shows the Category List links.](tailspin-spyworks-part-4/_static/image6.jpg)
 
 Now we need to implement the ProductDetails.aspx page and the AddToCart functionality.
 

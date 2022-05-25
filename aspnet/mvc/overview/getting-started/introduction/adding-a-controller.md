@@ -1,15 +1,15 @@
 ---
 uid: mvc/overview/getting-started/introduction/adding-a-controller
-title: "Adding a Controller | Microsoft Docs"
+title: "Adding a New Controller | Microsoft Docs"
 author: Rick-Anderson
-description: ""
+description: "MVC stands for model-view-controller. MVC is a pattern for developing applications that are well architected, testable and easy to maintain. In this article you will learn how to add a controller."
 ms.author: riande
 ms.date: 10/17/2013
 ms.assetid: cc764f3b-6921-486a-8f44-c6ccd1249acd
 msc.legacyurl: /mvc/overview/getting-started/introduction/adding-a-controller
 msc.type: authoredcontent
 ---
-# Adding a Controller
+# Adding a New Controller
 
 by [Rick Anderson](https://twitter.com/RickAndMSFT)
 
@@ -25,11 +25,11 @@ We'll be covering all these concepts in this tutorial series and show you how to
 
 Let's begin by creating a controller class. In **Solution Explorer**, right-click the *Controllers* folder and then click **Add**, then **Controller**.
 
-![](adding-a-controller/_static/image1.png)
+![Screenshot that shows the Solution Explorer window. The Controllers right click menu and the Add sub menu are open.](adding-a-controller/_static/image1.png)
 
 In the **Add Scaffold** dialog box, click **MVC 5 Controller - Empty**, and then click **Add**.
 
-![](adding-a-controller/_static/image2.png)  
+![Screenshot that shows the Add Scaffold dialog box. M V C 5 Controller Empty is selected.](adding-a-controller/_static/image2.png)  
 
 Name your new controller "HelloWorldController" and click **Add**.
 
@@ -37,7 +37,7 @@ Name your new controller "HelloWorldController" and click **Add**.
 
 Notice in **Solution Explorer** that a new file has been created named *HelloWorldController.cs* and a new folder *Views\HelloWorld*. The controller is open in the IDE.
 
-![](adding-a-controller/_static/image4.png)
+![Screenshot that shows the Hello World Controller dot c s tab open. In the Solution Explorer, the Hello World Controller dot c s subfolder and the Hello World subfolder are circled in red.](adding-a-controller/_static/image4.png)
 
 Replace the contents of the file with the following code.
 
@@ -45,7 +45,7 @@ Replace the contents of the file with the following code.
 
 The controller methods will return a string of HTML as an example. The controller is named `HelloWorldController` and the first method is named `Index`. Let's invoke it from a browser. Run the application (press F5 or Ctrl+F5). In the browser, append &quot;HelloWorld&quot; to the path in the address bar. (For example, in the illustration below, it's `http://localhost:1234/HelloWorld.`) The page in the browser will look like the following screenshot. In the method above, the code returned a string directly. You told the system to just return some HTML, and it did!
 
-![](adding-a-controller/_static/image5.png)
+![Screenshot that shows the local host tab with the text This is my default action in the window.](adding-a-controller/_static/image5.png)
 
 ASP.NET MVC invokes different controller classes (and different action methods within them) depending on the incoming URL. The default URL routing logic used by ASP.NET MVC uses a format like this to determine what code to invoke:
 
@@ -61,7 +61,7 @@ The first part of the URL determines the controller class to execute. So */Hello
 
 Browse to `http://localhost:xxxx/HelloWorld/Welcome`. The `Welcome` method runs and returns the string &quot;This is the Welcome action method...&quot;. The default MVC mapping is `/[Controller]/[ActionName]/[Parameters]`. For this URL, the controller is `HelloWorld` and `Welcome` is the action method. You haven't used the `[Parameters]` part of the URL yet.
 
-![](adding-a-controller/_static/image6.png)
+![Screenshot that shows the local host tab with the text This is the Welcome action method in the window.](adding-a-controller/_static/image6.png)
 
 Let's modify the example slightly so that you can pass some parameter information from the URL to the controller (for example, */HelloWorld/Welcome?name=Scott&amp;numtimes=4*). Change your `Welcome` method to include two parameters as shown below. Note that the code uses the C# optional-parameter feature to indicate that the `numTimes` parameter should default to 1 if no value is passed for that parameter.
 
@@ -72,7 +72,7 @@ Let's modify the example slightly so that you can pass some parameter informatio
 
  Run your application and browse to the example URL (`http://localhost:xxxx/HelloWorld/Welcome?name=Scott&numtimes=4`). You can try different values for `name` and `numtimes` in the URL. The [ASP.NET MVC model binding system](http://odetocode.com/Blogs/scott/archive/2009/04/27/6-tips-for-asp-net-mvc-model-binding.aspx) automatically maps the named parameters from the query string in the address bar to parameters in your method.
 
-![](adding-a-controller/_static/image7.png)
+![Screenshot that shows a browser window with the U R L local host colon 1 2 3 4 forward slash Hello World forward slash Welcome question mark name equals Scott and num times equals 4. The text in the window is Hello Scott Num Times is 4.](adding-a-controller/_static/image7.png)
 
 In the sample above, the URL segment ( `Parameters`) is not used, the `name` and `numTimes` parameters are passed as [query strings](http://en.wikipedia.org/wiki/Query_string). The ? (question mark) in the above URL is a separator, and the query strings follow. The &amp; character separates query strings.
 
@@ -82,7 +82,7 @@ Replace the Welcome method with the following code:
 
 Run the application and enter the following URL: `http://localhost:xxx/HelloWorld/Welcome/1?name=Scott`
 
-![](adding-a-controller/_static/image8.png)
+![Screenshot that shows a browser window with the U R L local host colon 1 2 3 4 forward slash Hello World forward slash Welcome forward slash 1 question mark name equals scott. The text in the window is Hello Scott ID 1.](adding-a-controller/_static/image8.png)
 
 This time the third URL segment matched the route parameter `ID.` The `Welcome` action method contains a parameter (`ID`) that matched the URL specification in the `RegisterRoutes` method.
 
@@ -94,7 +94,7 @@ In ASP.NET MVC applications, it's more typical to pass in parameters as route da
 
 Run the application and browse to `/localhost:XXX/HelloWorld/Welcome/Scott/3`.
 
-![](adding-a-controller/_static/image9.png)
+![Screenshot that shows a browser window with the U R L local host colon 1 2 3 4 forward slash Hello World forward slash Welcome forward slash Scott forward slash 3. The text in the window is Hello Scott ID 3.](adding-a-controller/_static/image9.png)
 
 For many MVC applications, the default route works fine. You'll learn later in this tutorial to pass data using the model binder, and you won't have to modify the default route for that.
 
