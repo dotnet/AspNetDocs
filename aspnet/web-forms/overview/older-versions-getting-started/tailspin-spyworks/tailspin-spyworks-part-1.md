@@ -49,8 +49,6 @@ After ordering, they see a simple confirmation screen:
 
 We'll begin by creating a new ASP.NET WebForms project in Visual Studio 2010, and we'll incrementally add features to create a complete functioning application. Along the way, we'll cover database access, list and grid views, data update pages, data validation, using master pages for consistent page layout, AJAX, validation, user membership, and more.
 
-You can follow along step by step, or you can download the completed application from [http://tailspinspyworks.codeplex.com/](http://tailspinspyworks.codeplex.com/)
-
 You can use either Visual Studio 2010 or the free Visual Web Developer 2010 from [https://www.microsoft.com/express/Web/](https://www.microsoft.com/express/Web/). To build the application, you can use either SQL Server or the free SQL Server Express to host the database.
 
 ## <a id="_Toc260221667"></a>  File / New Project
