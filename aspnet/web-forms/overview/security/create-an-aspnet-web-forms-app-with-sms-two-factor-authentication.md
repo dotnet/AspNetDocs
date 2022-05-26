@@ -31,7 +31,7 @@ This tutorial guides you through the steps required to create an ASP.NET Web For
 <a id="createWebForms"></a>
 ## Create an ASP.NET Web Forms App
 
-Start by installing and running [Visual Studio Express 2013 for Web](https://go.microsoft.com/fwlink/?LinkId=299058) or [Visual Studio 2013](https://go.microsoft.com/fwlink/?LinkId=306566). Install [Visual Studio 2013 Update 3](https://go.microsoft.com/fwlink/?LinkId=390465) or higher as well. Also, you will need to create a [Twilio](https://www.twilio.com/try-twilio) account, as explained below.
+Start by installing and running <!---[Visual Studio Express 2013 for Web](https://go.microsoft.com/fwlink/?LinkId=299058) or---> [Visual Studio 2013](https://go.microsoft.com/fwlink/?LinkId=306566). Install [Visual Studio 2013 Update 3](https://go.microsoft.com/fwlink/?LinkId=390465) or higher as well. Also, you will need to create a [Twilio](https://www.twilio.com/try-twilio) account, as explained below.
 
 > [!NOTE]
 > Important: You must install [Visual Studio 2013 Update 3](https://go.microsoft.com/fwlink/?LinkId=390465) or higher to complete this tutorial.
