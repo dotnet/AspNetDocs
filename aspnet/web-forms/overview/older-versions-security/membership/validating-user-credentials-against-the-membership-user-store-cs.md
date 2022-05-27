@@ -263,8 +263,8 @@ Happy Programming!
 
 For more information on the topics discussed in this tutorial, refer to the following resources:
 
-- [Displaying Custom Messages to Locked Out and Non-Approved Users](http://aspnet.4guysfromrolla.com/articles/050306-1.aspx)
-- [Examining ASP.NET 2.0's Membership, Roles, and Profile](http://aspnet.4guysfromrolla.com/articles/120705-1.aspx)
+- [Displaying Custom Messages to Locked Out and Non-Approved Users](/aspnet/web-forms/overview/older-versions-security/membership/validating-user-credentials-against-the-membership-user-store-cs)
+- [Examining ASP.NET 2.0's Membership, Roles, and Profile](/aspnet/web-forms/overview/older-versions-security/roles/creating-and-managing-roles-cs)
 - [How To: Create an ASP.NET Login Page](https://msdn.microsoft.com/library/ms178331.aspx)
 - [Login Control Technical Documentation](https://msdn.microsoft.com/library/system.web.ui.webcontrols.login.aspx)
 - [Using the Login Controls](https://quickstarts.asp.net/QuickStartv20/aspnet/doc/security/login.aspx)

@@ -13,7 +13,7 @@ msc.type: authoredcontent
 
 by [Scott Mitchell](https://twitter.com/ScottOnWriting)
 
-[Download Code](https://download.microsoft.com/download/e/e/f/eef369f5-743a-4a52-908f-b6532c4ce0a4/ASPNET_MasterPages_Tutorial_01_CS.zip) or [Download PDF](https://download.microsoft.com/download/8/f/6/8f6349e4-6554-405a-bcd7-9b094ba5089a/ASPNET_MasterPages_Tutorial_01_CS.pdf)
+[Download PDF](https://download.microsoft.com/download/8/f/6/8f6349e4-6554-405a-bcd7-9b094ba5089a/ASPNET_MasterPages_Tutorial_01_CS.pdf)
 
 > This tutorial will show master page basics. Namely, what are master pages, how does one create a master page, what are content place holders, how does one create an ASP.NET page that uses a master page, how modifying the master page is automatically reflected in its associated content pages, and so on.
 
@@ -236,7 +236,7 @@ For more information on the topics discussed in this tutorial, refer to the foll
 - [ASP.NET for Designers: Free Design Templates and Guidance on Building ASP.NET Websites Using Web Standards](https://msdn.microsoft.com/asp.net/aa336602.aspx)
 - [ASP.NET Master Pages Overview](https://msdn.microsoft.com/library/wtxbf3hh.aspx)
 - [Cascading Stylesheets (CSS) Tutorials](http://www.w3schools.com/css/default.asp)
-- [Dynamically Setting the Page's Title](http://aspnet.4guysfromrolla.com/articles/051006-1.aspx)
+- [Dynamically Setting the Page's Title](/aspnet/web-forms/overview/older-versions-getting-started/master-pages/specifying-the-title-meta-tags-and-other-html-headers-in-the-master-page-cs)
 - [Master Pages in ASP.NET](http://www.odetocode.com/articles/419.aspx)
 - [Master Pages QuickStart Tutorials](https://quickstarts.asp.net/QuickStartv20/aspnet/doc/masterpages/default.aspx)
 

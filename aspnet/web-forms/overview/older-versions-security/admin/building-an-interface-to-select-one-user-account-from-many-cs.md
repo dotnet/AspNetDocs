@@ -13,8 +13,6 @@ msc.type: authoredcontent
 
 by [Scott Mitchell](https://twitter.com/ScottOnWriting)
 
-[Download Code](https://download.microsoft.com/download/6/0/e/60e1bd94-e5f9-4d5a-a079-f23c98f4f67d/CS.12.zip) or [Download PDF](https://download.microsoft.com/download/6/0/e/60e1bd94-e5f9-4d5a-a079-f23c98f4f67d/aspnet_tutorial12_SelectUser_cs.pdf)
-
 > In this tutorial we will build a user interface with a paged, filterable grid. In particular, our user interface will consist of a series of LinkButtons for filtering the results based on the starting letter of the username, and a GridView control to show the matching users. We'll start by listing all of the user accounts in a GridView. Then, in Step 3, we will add the filter LinkButtons. Step 4 looks at paging the filtered results. The interface constructed in Steps 2 through 4 will be used in the subsequent tutorials to perform administrative tasks for a particular user account.
 
 ## Introduction
@@ -222,9 +220,8 @@ Happy Programming!
 
 For more information on the topics discussed in this tutorial, refer to the following resources:
 
-- [Custom Paging in ASP.NET with SQL Server 2005](http://aspnet.4guysfromrolla.com/articles/031506-1.aspx)
+- [Custom Paging in ASP.NET with SQL Server 2005](/aspnet/web-forms/overview/data-access/paging-and-sorting/efficiently-paging-through-large-amounts-of-data-cs)
 - [Efficiently Paging Through Large Amounts of Data](https://asp.net/learn/data-access/tutorial-25-cs.aspx)
-- [Rolling Your Own Website Administration Tool](http://aspnet.4guysfromrolla.com/articles/052307-1.aspx)
 
 ### About the Author
 

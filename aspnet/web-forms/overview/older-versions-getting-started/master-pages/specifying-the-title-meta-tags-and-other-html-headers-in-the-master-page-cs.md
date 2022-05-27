@@ -13,7 +13,7 @@ msc.type: authoredcontent
 
 by [Scott Mitchell](https://twitter.com/ScottOnWriting)
 
-[Download Code](https://download.microsoft.com/download/e/e/f/eef369f5-743a-4a52-908f-b6532c4ce0a4/ASPNET_MasterPages_Tutorial_03_CS.zip) or [Download PDF](https://download.microsoft.com/download/8/f/6/8f6349e4-6554-405a-bcd7-9b094ba5089a/ASPNET_MasterPages_Tutorial_03_CS.pdf)
+[Download PDF](https://download.microsoft.com/download/8/f/6/8f6349e4-6554-405a-bcd7-9b094ba5089a/ASPNET_MasterPages_Tutorial_03_CS.pdf)
 
 > Looks at different techniques for defining assorted &lt;head&gt; elements in the Master Page from the content page.
 
@@ -152,11 +152,11 @@ ASP.NET offers a robust site map framework that enables page developers to defin
 The site map structure can also be accessed programmatically from an ASP.NET page's code-behind class. In this manner we can automatically set a page's title to the title of its corresponding node in the site map. Let's enhance the `BasePage` class created in Step 2 so that it offers this functionality. But first we need to create a site map for our site.
 
 > [!NOTE]
-> This tutorial assumes the reader already is familiar with ASP.NET's site map features. For more information on using the site map, consult my multi-part article series, [Examining ASP.NET's Site Navigation](http://aspnet.4guysfromrolla.com/articles/111605-1.aspx).
+> This tutorial assumes the reader already is familiar with ASP.NET's site map features. For more information on using the site map, consult my multi-part article series, [Examining ASP.NET's Site Navigation](/aspnet/web-forms/overview/data-access/introduction/master-pages-and-site-navigation-cs).
 
 ### Creating the Site Map
 
-The site map system is built atop the [provider model](http://aspnet.4guysfromrolla.com/articles/101905-1.aspx), which decouples the site map API from the logic that serializes site map information between memory and a persistent store. The .NET Framework ships with the [`XmlSiteMapProvider` class](https://msdn.microsoft.com/library/system.web.xmlsitemapprovider.aspx), which is the default site map provider. As its name implies, `XmlSiteMapProvider` uses an XML file as its site map store. Let's use this provider for defining our site map.
+The site map system is built atop the [provider model](/dotnet/api/system.configuration.provider.providerbase?view=dotnet-plat-ext-6.0), which decouples the site map API from the logic that serializes site map information between memory and a persistent store. The .NET Framework ships with the [`XmlSiteMapProvider` class](https://msdn.microsoft.com/library/system.web.xmlsitemapprovider.aspx), which is the default site map provider. As its name implies, `XmlSiteMapProvider` uses an XML file as its site map store. Let's use this provider for defining our site map.
 
 Start by creating a site map file in the website's root folder named `Web.sitemap`. To accomplish this, right-click on the website name in Solution Explorer, choose Add New Item, and select the Site Map template. Ensure that the file is named `Web.sitemap` and click Add.
 
@@ -280,11 +280,11 @@ Happy Programming!
 
 For more information on the topics discussed in this tutorial, refer to the following resources:
 
-- [Dynamically Setting the Page's Title in ASP.NET](http://aspnet.4guysfromrolla.com/articles/051006-1.aspx)
-- [Examining ASP.NET's Site Navigation](http://aspnet.4guysfromrolla.com/articles/111605-1.aspx)
-- [How To Use HTML Meta Tags](http://searchenginewatch.com/showPage.html?page=2167931)
+- [Dynamically Setting the Page's Title in ASP.NET](/aspnet/web-forms/overview/older-versions-getting-started/master-pages/specifying-the-title-meta-tags-and-other-html-headers-in-the-master-page-cs)
+- [Examining ASP.NET's Site Navigation](/aspnet/web-forms/overview/data-access/introduction/master-pages-and-site-navigation-cs)
+- [How To Use HTML Meta Tags](https://www.searchenginewatch.com/2012/05/01/how-to-use-html-meta-tags/)
 - [Master Pages in ASP.NET](http://www.odetocode.com/articles/419.aspx)
-- [Using ASP.NET 3.5's ListView and DataPager Controls](http://aspnet.4guysfromrolla.com/articles/122607-1.aspx)
+- [Using ASP.NET 3.5's ListView and DataPager Controls](/previous-versions/aspnet/bb398790(v=vs.100))
 - [Using a Custom Base Class for Your ASP.NET Pages' Code-Behind Classes](http://aspnet.4guysfromrolla.com/articles/041305-1.aspx)
 
 ### About the Author

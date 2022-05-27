@@ -144,10 +144,10 @@ Happy Programming!
 For more information on the topics discussed in this tutorial, refer to the following resources:
 
 - [ASP.NET HTTP Modules and HTTP Handlers Overview](https://support.microsoft.com/kb/307985)
-- [Gracefully Responding to Unhandled Exceptions - Processing Unhandled Exceptions](http://aspnet.4guysfromrolla.com/articles/091306-1.aspx)
+- [Gracefully Responding to Unhandled Exceptions - Processing Unhandled Exceptions](https://docs.microsoft.com/en-us/aspnet/web-forms/overview/older-versions-getting-started/deploying-web-site-projects/processing-unhandled-exceptions-cs)
 - [`HttpApplication` Class and the ASP.NET Application Object](http://www.eggheadcafe.com/articles/20030211.asp)
-- [HTTP Handlers and HTTP Modules in ASP.NET](http://www.15seconds.com/Issue/020417.htm)
-- [Sending Email in ASP.NET](http://aspnet.4guysfromrolla.com/articles/072606-1.aspx)
+- [HTTP Handlers and HTTP Modules in ASP.NET](/previous-versions/aspnet/bb398986(v=vs.100))
+- [Sending Email in ASP.NET](/aspnet/web-pages/overview/getting-started/11-adding-email-to-your-web-site)
 - [Understanding the `Global.asax` File](http://aspalliance.com/1114_Understanding_the_Globalasax_file.all)
 - [Using HTTP Modules and Handlers to Create Pluggable ASP.NET Components](https://msdn.microsoft.com/library/aa479332.aspx)
 - [Working with the ASP.NET `Global.asax` File](http://articles.techrepublic.com.com/5100-10878_11-5771721.html)

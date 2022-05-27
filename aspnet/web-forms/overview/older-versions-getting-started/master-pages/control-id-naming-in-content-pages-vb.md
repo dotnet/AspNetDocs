@@ -13,7 +13,7 @@ msc.type: authoredcontent
 
 by [Scott Mitchell](https://twitter.com/ScottOnWriting)
 
-[Download Code](https://download.microsoft.com/download/e/e/f/eef369f5-743a-4a52-908f-b6532c4ce0a4/ASPNET_MasterPages_Tutorial_05_VB.zip) or [Download PDF](https://download.microsoft.com/download/8/f/6/8f6349e4-6554-405a-bcd7-9b094ba5089a/ASPNET_MasterPages_Tutorial_05_VB.pdf)
+[Download PDF](https://download.microsoft.com/download/8/f/6/8f6349e4-6554-405a-bcd7-9b094ba5089a/ASPNET_MasterPages_Tutorial_05_VB.pdf)
 
 > Illustrates how ContentPlaceHolder controls serve as a naming container and therefore make programmatically working with a control difficult (via FindControl). Looks at this issue and workarounds. Also discusses how to programmatically access the resulting ClientID value.
 
@@ -155,7 +155,7 @@ So having `Control.FindControl` search just *Control*'s naming container makes s
 The good news is that we can create our own `FindControl` method that recursively searches all naming containers. In fact, using *extension methods* we can tack on a `FindControlRecursive` method to the `Control` class to accompany its existing `FindControl` method.
 
 > [!NOTE]
-> Extension methods are a feature new to C# 3.0 and Visual Basic 9, which are the languages that ship with the .NET Framework version 3.5 and Visual Studio 2008. In short, extension methods allow for a developer to create a new method for an existing class type through a special syntax. For more information on this helpful feature, refer to my article, [Extending Base Type Functionality with Extension Methods](http://aspnet.4guysfromrolla.com/articles/120507-1.aspx).
+> Extension methods are a feature new to C# 3.0 and Visual Basic 9, which are the languages that ship with the .NET Framework version 3.5 and Visual Studio 2008. In short, extension methods allow for a developer to create a new method for an existing class type through a special syntax. For more information on this helpful feature, refer to my article, [Extending Base Type Functionality with Extension Methods](/dotnet/visual-basic/programming-guide/language-features/procedures/extension-methods).
 
 To create the extension method, add a new file to the `App_Code` folder named `PageExtensionMethods.vb`. Add an extension method named `FindControlRecursive` that takes as an input a `String` parameter named `controlID`. For extension methods to work properly, it is vital that the class be marked as a `Module` and that the extension methods be prefixed with the `<Extension()>` attribute. Moreover, all extension methods must accept as their first parameter an object of the type to which the extension method applies.
 

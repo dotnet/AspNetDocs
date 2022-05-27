@@ -27,7 +27,7 @@ When deploying a web application it is important that the correct configuration 
 
 The `Web.config` file includes an assortment of configuration information for an ASP.NET application. Some of this configuration information is the same regardless of the environment. For instance, the authentication settings and URL authorization rules spelled out in the `Web.config` file's `<authentication>` and `<authorization>` elements are usually the same regardless of the environment. But other configuration information - such as information about external resources - typically differs depending on the environment.
 
-Database connections strings are a prime example of configuration information that differs based on the environment. When a web application communicates with a database server it must first establish a connection, and that is achieved through a [connection string](http://www.connectionstrings.com/Articles/Show/what-is-a-connection-string). While it is possible to hard-code the database connection string directly in the web pages or the code that connects to the database, it is best to place it `Web.config`'s [`<connectionStrings>` element](https://msdn.microsoft.com/library/bf7sd233.aspx) so that the connection string information is in a single, centralized location. Oftentimes a different database is used during development than is used in production; consequently, the connection string information must be unique for each environment.
+Database connections strings are a prime example of configuration information that differs based on the environment. When a web application communicates with a database server it must first establish a connection, and that is achieved through a [connection string](https://www.connectionstrings.com/connection-strings-explained/). While it is possible to hard-code the database connection string directly in the web pages or the code that connects to the database, it is best to place it `Web.config`'s [`<connectionStrings>` element](https://msdn.microsoft.com/library/bf7sd233.aspx) so that the connection string information is in a single, centralized location. Oftentimes a different database is used during development than is used in production; consequently, the connection string information must be unique for each environment.
 
 > [!NOTE]
 > Future tutorials explore deploying data-driven applications, at which point we'll dive into the specifics of how database connection strings are stored in the configuration file.
@@ -41,7 +41,7 @@ When an ASP.NET page is visited for the first time (or the first time after it h
 The debug attribute is one of the most important attributes in the `<compilation>` element. If the `debug` attribute is set to "true" then the compiled assemblies include debug symbols, which are needed when debugging an application in Visual Studio. But debug symbols increase the size of the assembly and impose additional memory requirements when running the code. Furthermore, when the `debug` attribute is set to "true" any content returned by `WebResource.axd` is not cached, meaning that each time a user visits a page they will need to re-download the static content returned by `WebResource.axd`.
 
 > [!NOTE]
-> `WebResource.axd` is a built-in HTTP Handler introduced in ASP.NET 2.0 that server controls use to retrieve embedded resources, such as script files, images, CSS files, and other content. For more information on how `WebResource.axd` works and how you can use it to access embedded resources from your custom server controls, see [Accessing Embedded Resources Through a URL Using `WebResource.axd`](http://aspnet.4guysfromrolla.com/articles/080906-1.aspx).
+> `WebResource.axd` is a built-in HTTP Handler introduced in ASP.NET 2.0 that server controls use to retrieve embedded resources, such as script files, images, CSS files, and other content. For more information on how `WebResource.axd` works and how you can use it to access embedded resources from your custom server controls, see Accessing Embedded Resources Through a URL Using `WebResource.axd`.
 
 The `<compilation>` element's `debug` attribute is usually set to "true" in the development environment. In fact, this attribute must be set to "true" in order to debug a web application; if you try to debug an ASP.NET application from Visual Studio and the `debug` attribute is set to "false", Visual Studio will display a message explaining that the application cannot be debugged until the `debug` attribute is set to "true" and will offer to make this change for you.
 
@@ -114,11 +114,11 @@ For more information on the topics discussed in this tutorial, refer to the foll
 - [Connection Strings Explained](http://www.connectionstrings.com/Articles/Show/what-is-a-connection-string)
 - [Database Connection Strings @ ConnectionStrings.com](http://www.connectionstrings.com/)
 - [Don't Run Production ASP.NET Applications with `debug="true"` Enabled](https://weblogs.asp.net/scottgu/Don_1920_t-run-production-ASP.NET-Applications-with-debug_3D001D20_true_1D20_-enabled)
-- [Gracefully Responding to Unhandled Exceptions - Displaying User-Friendly Error Pages](http://aspnet.4guysfromrolla.com/articles/090606-1.aspx)
+- Gracefully Responding to Unhandled Exceptions - Displaying User-Friendly Error Pages
 - [How Do I: Use a Visual Studio 2008 Web Deployment Project?](../../../videos/how-do-i/how-do-i-use-a-visual-studio-2008-web-deployment-project.md)
-- [Key Configuration Settings When Deploying a Database](http://aspnet.4guysfromrolla.com/articles/121008-1.aspx)
-- [Visual Studio 2008 Web Deployment Projects Download](https://www.microsoft.com/downloads/details.aspx?FamilyId=0AA30AE8-C73B-4BDD-BB1B-FE697256C459&amp;displaylang=en) | [Visual Studio 2005 Web Deployment Projects Download](https://download.microsoft.com/download/9/4/9/9496adc4-574e-4043-bb70-bc841e27f13c/WebDeploymentSetup.msi)
-- [VS 2008 Web Deployment Projects](https://weblogs.asp.net/scottgu/archive/2005/11/06/429723.aspx) | [VS 2008 Web Deployment Project Support Released](https://weblogs.asp.net/scottgu/archive/2008/01/28/vs-2008-web-deployment-project-support-released.aspx)
+- Key Configuration Settings When Deploying a Database.
+- [Visual Studio 2008 Web Deployment Projects Download](https://www.microsoft.com/downloads/details.aspx?FamilyId=0AA30AE8-C73B-4BDD-BB1B-FE697256C459&amp;displaylang=en) | Visual Studio 2005 Web Deployment Projects Download
+- [VS 2008 Web Deployment Projects](https://weblogs.asp.net/scottgu/archive/2005/11/06/429723.aspx) | [VS 2008 Web Deployment Project Support Released](https://weblogs.asp.net/scottgu/vs-2008-web-deployment-project-support-released)
 - [Web Deployment Projects](https://msdn.microsoft.com/magazine/cc163448.aspx)
 
 > [!div class="step-by-step"]

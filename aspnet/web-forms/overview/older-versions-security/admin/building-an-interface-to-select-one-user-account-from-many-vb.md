@@ -13,8 +13,6 @@ msc.type: authoredcontent
 
 by [Scott Mitchell](https://twitter.com/ScottOnWriting)
 
-[Download Code](https://download.microsoft.com/download/6/0/e/60e1bd94-e5f9-4d5a-a079-f23c98f4f67d/VB.12.zip) or [Download PDF](https://download.microsoft.com/download/6/0/e/60e1bd94-e5f9-4d5a-a079-f23c98f4f67d/aspnet_tutorial12_SelectUser_vb.pdf)
-
 > In this tutorial we will build a user interface with a paged, filterable grid. In particular, our user interface will consist of a series of LinkButtons for filtering the results based on the starting letter of the username, and a GridView control to show the matching users. We'll start by listing all of the user accounts in a GridView. Then, in Step 3, we will add the filter LinkButtons. Step 4 looks at paging the filtered results. The interface constructed in Steps 2 through 4 will be used in the subsequent tutorials to perform administrative tasks for a particular user account.
 
 ## Introduction
@@ -119,7 +117,7 @@ Start by updating the `ManageUser.aspx` page's code-behind class so that it incl
 
 [!code-vb[Main](building-an-interface-to-select-one-user-account-from-many-vb/samples/sample8.vb)]
 
-The `UsernameToMatch` property stores its value it is assigned into the `ViewState` collection using the key 'UsernameToMatch'. When this property's value is read, it checks to see if a value exists in the `ViewState` collection; if not, it returns the default value, an empty string. The `UsernameToMatch` property exhibits a common pattern, namely persisting a value to view state so that any changes to the property are persisted across postbacks. For more information on this pattern, read [Understanding ASP.NET View State](https://msdn.microsoftn-us/library/ms972976.aspx).
+The `UsernameToMatch` property stores its value it is assigned into the `ViewState` collection using the key 'UsernameToMatch'. When this property's value is read, it checks to see if a value exists in the `ViewState` collection; if not, it returns the default value, an empty string. The `UsernameToMatch` property exhibits a common pattern, namely persisting a value to view state so that any changes to the property are persisted across postbacks. For more information on this pattern, read [Understanding ASP.NET View State](/previous-versions/aspnet/bb386448(v=vs.100)).
 
 Next, update the `BindUserAccounts` method so that instead of calling `Membership.GetAllUsers`, it calls `Membership.FindUsersByName`, passing in the value of the `UsernameToMatch` property appended with the SQL wildcard character, %.
 
@@ -149,7 +147,7 @@ The GridView control offers two types of paging:
 The performance difference between default and custom paging can be quite substantial when paging through thousands of records. Because we are building this interface assuming that there may be hundreds or thousands of user accounts, let's use custom paging.
 
 > [!NOTE]
-> For a more thorough discussion on the differences between default and custom paging, as well as the challenges involved in implementing custom paging, refer to [Efficiently Paging Through Large Amounts of Data](https://asp.net/learn/data-access/tutorial-25-vb.aspx). For some analysis of the performance difference between default and custom paging, see [Custom Paging in ASP.NET with SQL Server 2005](http://aspnet.4guysfromrolla.com/articles/031506-1.aspx).
+> For a more thorough discussion on the differences between default and custom paging, as well as the challenges involved in implementing custom paging, refer to [Efficiently Paging Through Large Amounts of Data](https://asp.net/learn/data-access/tutorial-25-vb.aspx). For some analysis of the performance difference between default and custom paging, see [Custom Paging in ASP.NET with SQL Server 2005](/aspnet/web-forms/overview/data-access/paging-and-sorting/efficiently-paging-through-large-amounts-of-data-cs).
 
 To implement custom paging we first need some mechanism by which to retrieve the precise subset of records being displayed by the GridView. The good news is that the `Membership` class's `FindUsersByName` method has an overload that allows us to specify the page index and page size, and returns only those user accounts that fall within that range of records.
 
@@ -220,9 +218,8 @@ Happy Programming!
 
 For more information on the topics discussed in this tutorial, refer to the following resources:
 
-- [Custom Paging in ASP.NET with SQL Server 2005](http://aspnet.4guysfromrolla.com/articles/031506-1.aspx)
+- [Custom Paging in ASP.NET with SQL Server 2005](/aspnet/web-forms/overview/data-access/paging-and-sorting/efficiently-paging-through-large-amounts-of-data-cs)
 - [Efficiently Paging Through Large Amounts of Data](https://asp.net/learn/data-access/tutorial-25-vb.aspx)
-- [Rolling Your Own Website Administration Tool](http://aspnet.4guysfromrolla.com/articles/052307-1.aspx)
 
 ### About the Author
 

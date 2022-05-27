@@ -332,7 +332,7 @@ Happy Programming!
 For more information on the topics discussed in this tutorial, refer to the following resources:
 
 - [Adding Authorization Rules to Business and Data Layers Using `PrincipalPermissionAttributes`](https://weblogs.asp.net/scottgu/archive/2006/10/04/Tip_2F00_Trick_3A00_-Adding-Authorization-Rules-to-Business-and-Data-Layers-using-PrincipalPermissionAttributes.aspx)
-- [Examining ASP.NET 2.0's Membership, Roles, and Profile: Working with Roles](http://aspnet.4guysfromrolla.com/articles/121405-1.aspx)
+- [Examining ASP.NET 2.0's Membership, Roles, and Profile: Working with Roles](/aspnet/web-forms/overview/older-versions-security/roles/creating-and-managing-roles-vb)
 - [Security Question List for ASP.NET 2.0](https://msdn.microsoft.com/library/ms998375.aspx)
 - [Technical documentation for the `<roleManager>` Element](https://msdn.microsoft.com/library/ms164660.aspx)
 
