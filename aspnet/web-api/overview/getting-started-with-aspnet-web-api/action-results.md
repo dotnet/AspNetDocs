@@ -1,7 +1,7 @@
 ---
 uid: web-api/overview/getting-started-with-aspnet-web-api/action-results
 title: "Action Results in Web API 2 - ASP.NET 4.x"
-author: MikeWasson
+author: rick-anderson
 description: "Describes how ASP.NET Web API converts the return value from a controller action into an HTTP response message in ASP.NET 4.x."
 ms.author: riande
 ms.date: 02/03/2014

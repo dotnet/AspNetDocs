@@ -29,11 +29,11 @@ We'll begin our MVC Music Store application by adding a Controller class that wi
 
 Right-click the "Controllers" folder within the Solution Explorer and select "Add", and then the "Controller…" command:
 
-![](mvc-music-store-part-2/_static/image1.jpg)
+![Screenshot of the different list options for adding a Home Controler option to your music store.](mvc-music-store-part-2/_static/image1.jpg)
 
 This will bring up the "Add Controller" dialog. Name the controller "HomeController" and press the Add button.
 
-![](mvc-music-store-part-2/_static/image1.png)
+![Screenshot of the Home Controller dialog box, containing different options for creating your button.](mvc-music-store-part-2/_static/image1.png)
 
 This will create a new file, HomeController.cs, with the following code:
 
@@ -53,16 +53,16 @@ The method should now look like this:
 Now let's run the site. We can start our web-server and try out the site using any of the following::
 
 - Choose the Debug ⇨ Start Debugging menu item
-- Click the Green arrow button in the toolbar ![](mvc-music-store-part-2/_static/image2.jpg)
+- Click the Green arrow button in the toolbar ![Screenshot of the music store toolbar options, emphasizing the debug option and marking the arrow to click on for instructing the application to run the debug feature.](mvc-music-store-part-2/_static/image2.jpg)
 - Use the keyboard shortcut, F5.
 
 Using any of the above steps will compile our project, and then cause the ASP.NET Development Server that is built-into Visual Web Developer to start. A notification will appear in the bottom corner of the screen to indicate that the ASP.NET Development Server has started up, and will show the port number that it is running under.
 
-![](mvc-music-store-part-2/_static/image2.png)
+![Screenshot of the pop-up notification that displays at the bottom right corner of the page, indicating that the development server has started in localhost 26641.](mvc-music-store-part-2/_static/image2.png)
 
 Visual Web Developer will then automatically open a browser window whose URL points to our web-server. This will allow us to quickly try out our web application:
 
-![](mvc-music-store-part-2/_static/image3.png)
+![Screenshot of the browser window that was automatically started when the development server began in the localhost. The window displays the words 'hello from home' on the browser.](mvc-music-store-part-2/_static/image3.png)
 
 Okay, that was pretty quick – we created a new website, added a three line function, and we've got text in a browser. Not rocket science, but it's a start.
 
@@ -80,7 +80,7 @@ We'll start by adding a new StoreController class.. If you haven't already, stop
 
 Now add a new StoreController. Just like we did with HomeController, we'll do this by right-clicking on the "Controllers" folder within the Solution Explorer and choosing the Add-&gt;Controller menu item
 
-![](mvc-music-store-part-2/_static/image4.png)
+![Screenshot of a window menu with selections for adding store controller options to the music store application.](mvc-music-store-part-2/_static/image4.png)
 
 Our new StoreController already has an "Index" method. We'll use this "Index" method to implement our listing page that lists all genres in our music store. We'll also add two additional methods to implement the two other scenarios we want our StoreController to handle: Browse and Details.
 
@@ -98,7 +98,7 @@ Run the project again and browse the following URLs:
 
 Accessing these URLs will invoke the action methods within our Controller and return string responses:
 
-![](mvc-music-store-part-2/_static/image5.png)
+![Screenshot of the window browser, showing an example of the action methods invoked when accessing the U R L. It shows the following string response: Hello from Store.Details()](mvc-music-store-part-2/_static/image5.png)
 
 That's great, but these are just constant strings. Let's make them dynamic, so they take information from the URL and display it in the page output.
 
@@ -110,7 +110,7 @@ First we'll change the Browse action method to retrieve a querystring value from
 
 Now let's browse to /Store/Browse?Genre=Disco
 
-![](mvc-music-store-part-2/_static/image6.png)
+![Screenshot showing another example of a string (Store.Browse, Genre = Disco) being returned by URL when retrieving a querystring value when adding the 'genre' parameter to it.](mvc-music-store-part-2/_static/image6.png)
 
 Let's next change the Details action to read and display an input parameter named ID. Unlike our previous method, we won't be embedding the ID value as a querystring parameter. Instead we'll embed it directly within the URL itself. For example: /Store/Details/5.
 
@@ -120,7 +120,7 @@ ASP.NET MVC lets us easily do this without having to configure anything. ASP.NET
 
 Run the application and browse to /Store/Details/5:
 
-![](mvc-music-store-part-2/_static/image7.png)
+![Screenshot of the parameter being passed from the U R L segment. The parameter is a string that reads Store.Details, ID=5.](mvc-music-store-part-2/_static/image7.png)
 
 Let's recap what we've done so far:
 

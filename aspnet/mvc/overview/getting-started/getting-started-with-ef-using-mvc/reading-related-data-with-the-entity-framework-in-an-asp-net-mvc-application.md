@@ -17,7 +17,7 @@ In the previous tutorial you completed the School data model. In this tutorial y
 
 The following illustrations show the pages that you'll work with.
 
-![](reading-related-data-with-the-entity-framework-in-an-asp-net-mvc-application/_static/image1.png)
+![Screenshot that shows the Courses page with a list of courses.](reading-related-data-with-the-entity-framework-in-an-asp-net-mvc-application/_static/image1.png)
 
 ![Instructors_index_page_with_instructor_and_course_selected](reading-related-data-with-the-entity-framework-in-an-asp-net-mvc-application/_static/image2.png)
 

@@ -2,7 +2,7 @@
 uid: signalr/overview/older-versions/signalr-performance
 title: "SignalR Performance (SignalR 1.x) | Microsoft Docs"
 author: bradygaster
-description: "SignalR Performance"
+description: "This topic describes how to design for, measure, and improve performance in a SignalR application."
 ms.author: bradyg
 ms.date: 07/03/2013
 ms.assetid: 9594d644-66b6-4223-acdd-23e29a6e4c46
@@ -117,7 +117,7 @@ Performance counters can be added to the server using a utility called SignalR.e
 1. In Visual Studio, select **Tools** > **NuGet Package Manager** > **Manage NuGet Packages for Solution**
 2. Search for **signalr.utils**, and select Install.
 
-    ![](signalr-performance/_static/image1.png)
+    ![Screenshot that shows Microsoft A S P dot NET Signal R Utilities Command line utilities for A S P dot NET Signal R highlighted.](signalr-performance/_static/image1.png)
 3. Accept the license agreement to install the package.
 4. SignalR.exe will be installed to `<project folder>/packages/Microsoft.AspNet.SignalR.Utils.<version>/tools`.
 
@@ -237,5 +237,5 @@ The following performance counters may also be useful in monitoring your applica
 For more information on ASP.NET performance monitoring and tuning, see the following topics:
 
 - [ASP.NET Performance Overview](https://msdn.microsoft.com/library/cc668225(v=vs.100).aspx)
-- [ASP.NET Thread Usage on IIS 7.5, IIS 7.0, and IIS 6.0](https://docs.microsoft.com/archive/blogs/tmarq/asp-net-thread-usage-on-iis-7-5-iis-7-0-and-iis-6-0)
+- [ASP.NET Thread Usage on IIS 7.5, IIS 7.0, and IIS 6.0](/archive/blogs/tmarq/asp-net-thread-usage-on-iis-7-5-iis-7-0-and-iis-6-0)
 - [&lt;applicationPool&gt; Element (Web Settings)](https://msdn.microsoft.com/library/dd560842.aspx)

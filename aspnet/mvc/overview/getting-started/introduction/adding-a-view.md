@@ -6,7 +6,7 @@ ms.author: riande
 ms.date: 01/23/2019
 uid: mvc/overview/getting-started/introduction/adding-a-view
 ---
-# Adding a View
+# Adding a View to an MVC Application
 
 by [Rick Anderson](https://twitter.com/RickAndMSFT)
 
@@ -24,21 +24,21 @@ The `Index` method above uses a view template to generate an HTML response to th
 
 Right click the *Views\HelloWorld* folder and click **Add**, then click **MVC 5 View Page with Layout (Razor)**.
   
-![](adding-a-view/_static/image1.png)   
+![Screenshot that shows the Solution Explorer window. The Hello World right click menu and Add submenu are open and M V C 5 View Page with Layout Razor is selected.](adding-a-view/_static/image1.png)   
   
 In the **Specify Name for Item** dialog box, enter *Index*, and then click **OK**.  
   
-![](adding-a-view/_static/image2.png)  
+![Screenshot that shows the Specify Name for item dialog. Index is in the Item name field.](adding-a-view/_static/image2.png)  
   
 In the **Select a Layout Page** dialog, accept the default **\_Layout.cshtml** and click **OK**.  
   
-![](adding-a-view/_static/image3.png)  
+![Screenshot that shows the Select a Layout Page. The Shared subfolder is open and Layout dot c s h t m l is selected.](adding-a-view/_static/image3.png)  
   
 In the dialog above, the *Views\Shared* folder is selected in the left pane. If you had a custom layout file in another folder, you could select it. We'll talk about the layout file later in the tutorial
 
 The *MvcMovie\Views\HelloWorld\Index.cshtml* file is created.
 
-![](adding-a-view/_static/image4.png)
+![Screenshot that shows the Solution Explorer window. The Views folder and Hello World subfolder are open.](adding-a-view/_static/image4.png)
 
 Add the following highlighted markup.
 
@@ -52,7 +52,7 @@ You can also right click the *Index.cshtml* file and select **View in Page Inspe
 
 Alternatively, run the application and browse to the `HelloWorld` controller (`http://localhost:xxxx/HelloWorld`). The `Index` method in your controller didn't do much work; it simply ran the statement `return View()`, which specified that the method should use a view template file to render a response to the browser. Because you didn't explicitly specify the name of the view template file to use, ASP.NET MVC defaulted to using the *Index.cshtml* view file in the *\Views\HelloWorld* folder. The image below shows the string &quot;Hello from our View Template!&quot; hard-coded in the view.
 
-![](adding-a-view/_static/image6.png)
+![Screenshot that shows the Index page and the text Hello from our View Template.](adding-a-view/_static/image6.png)
 
 Looks pretty good. However, notice that the browser's title bar shows "Index - My ASP.NET Application," and the big link at the top of the page says "Application name." Depending on how small you make your browser window, you might need to click the three bars in the upper right to see the to the **Home**, **About**, **Contact**, **Register** and **Log in** links.
 
@@ -70,7 +70,7 @@ Change the contents of the title element. Change the [ActionLink](https://msdn.m
 
 Run the application and notice that it now says &quot;MVC Movie &quot;. Click the **About** link, and you see how that page shows &quot;MVC Movie&quot;, too. We were able to make the change once in the layout template and have all pages on the site reflect the new title.
 
-![](adding-a-view/_static/image8.png)
+![Screenshot that shows the M V C Movie About page.](adding-a-view/_static/image8.png)
 
 When we first created the *Views\HelloWorld\Index.cshtml* file, it contained the following code:
 
@@ -98,7 +98,7 @@ Run the application. Notice that the browser title, the primary heading, and the
 
 Also notice how the content in the *Index.cshtml* view template was merged with the *\_Layout.cshtml* view template and a single HTML response was sent to the browser. Layout templates make it really easy to make changes that apply across all of the pages in your application.
 
-![](adding-a-view/_static/image9.png)
+![Screenshot that shows the M V C Movie My Movie List page.](adding-a-view/_static/image9.png)
 
 Our little bit of &quot;data&quot; (in this case the &quot;Hello from our View Template!&quot; message) is hard-coded, though. The MVC application has a &quot;V&quot; (view) and you've got a &quot;C&quot; (controller), but no &quot;M&quot; (model) yet. Shortly, we'll walk through how to create a database and retrieve model data from it.
 
@@ -116,13 +116,13 @@ Return to the *HelloWorldController.cs* file and change the `Welcome` method to 
 
 Now the `ViewBag` object contains data that will be passed to the view automatically. Next, you need a Welcome view template! In the **Build** menu, select **Build Solution** (or Ctrl+Shift+B) to make sure the project is compiled. Right click the *Views\HelloWorld* folder and click **Add**, then click **MVC 5 View Page with Layout (Razor)**.
   
-![](adding-a-view/_static/image10.png)   
+![Screenshot that shows the Solution Explorer window. The Hello World right click menu and Add submenu are open. M V C 5 View Page with Layout Razor is selected.](adding-a-view/_static/image10.png)   
   
 In the **Specify Name for Item** dialog box, enter *Welcome*, and then click **OK**.   
   
 In the **Select a Layout Page** dialog, accept the default **\_Layout.cshtml** and click **OK**.  
   
-![](adding-a-view/_static/image11.png)   
+![Screenshot that shows the Select a Layout Page. The subfolder labeled Shared is open and Layout dot c s h t m l is selected.](adding-a-view/_static/image11.png)   
 
 The *MvcMovie\Views\HelloWorld\Welcome.cshtml* file is created.
 
@@ -136,9 +136,9 @@ Run the application and browse to the following URL:
 
 Now data is taken from the URL and passed to the controller using the [model binder](http://odetocode.com/Blogs/scott/archive/2009/04/27/6-tips-for-asp-net-mvc-model-binding.aspx). The controller packages the data into a `ViewBag` object and passes that object to the view. The view then displays the data as HTML to the user.
 
-![](adding-a-view/_static/image12.png)
+![Screenshot that shows the M V C Movie Welcome page.](adding-a-view/_static/image12.png)
 
-In the sample above, we used a `ViewBag` object to pass data from the controller to a view. Later in the tutorial, we will use a view model to pass data from a controller to a view. The view model approach to passing data is generally much preferred over the view bag approach. See the blog entry [Dynamic V Strongly Typed Views](https://docs.microsoft.com/archive/blogs/rickandy/dynamic-v-strongly-typed-views) for more information. 
+In the sample above, we used a `ViewBag` object to pass data from the controller to a view. Later in the tutorial, we will use a view model to pass data from a controller to a view. The view model approach to passing data is generally much preferred over the view bag approach. See the blog entry [Dynamic V Strongly Typed Views](/archive/blogs/rickandy/dynamic-v-strongly-typed-views) for more information. 
 
 Well, that was a kind of an &quot;M&quot; for model, but not the database kind. Let's take what we've learned and create a database of movies.
 

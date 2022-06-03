@@ -75,7 +75,7 @@ In this section, you'll update the application created in the [SignalR 1.x versi
     [!code-csharp[Main](upgrading-signalr-1x-projects-to-20/samples/sample4.cs)]
 6. Right-click the solution, and select **Add**, **New Item...**. In the dialog, select **Owin Startup Class**. Name the new class **Startup.cs**.
 
-    ![](upgrading-signalr-1x-projects-to-20/_static/image1.png)
+    ![Screenshot that shows the Add New Item dialog box. OWIN Startup class is selected and Startup dot C S is in the Name field.](upgrading-signalr-1x-projects-to-20/_static/image1.png)
 7. Replace the contents of Startup.cs with the following code:
 
     [!code-csharp[Main](upgrading-signalr-1x-projects-to-20/samples/sample5.cs)]

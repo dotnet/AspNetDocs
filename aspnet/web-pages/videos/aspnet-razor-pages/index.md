@@ -1,15 +1,15 @@
 ---
 uid: web-pages/videos/aspnet-razor-pages/index
-title: "ASP.NET Razor Pages | Microsoft Docs"
+title: ASP.NET Razor Video Tutorials | Microsoft Docs
 author: rick-anderson
-description: "Which videos you can view to drill down into Web Pages and WebMatrix."
+description: Provides a list of video tutorials that are related to ASP.Net Razor and WebMatrix web page functionalities.
 ms.author: riande
 ms.date: 05/18/2012
 ms.assetid: ffad842d-548c-40c6-84c5-10858133e972
 msc.legacyurl: /web-pages/videos/aspnet-razor-pages
 msc.type: chapter
 ---
-# ASP.NET Web Pages
+# ASP.NET Web Pages Video Tutorials
 
 > Which videos you can view to drill down into Web Pages and WebMatrix.
 

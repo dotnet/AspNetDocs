@@ -41,7 +41,7 @@ For this tutorial, you'll add mobile features to the simple conference-listing a
 
 You can use Internet Explorer version 9 or 10, FireFox or Chrome to develop your mobile application by setting the [user agent string](http://www.howtogeek.com/113439/how-to-change-your-browsers-user-agent-without-installing-any-extensions/). The following image shows the completed tutorial using Internet Explorer emulating an iPhone. You can use the Internet Explorer F-12 developer tools and the [Fiddler tool](http://www.fiddler2.com/fiddler2/) to help debug your application.
 
-![](aspnet-mvc-4-mobile-features/_static/image3.png)
+![Screenshot that shows the All tags page on a Windows 7 phone display.](aspnet-mvc-4-mobile-features/_static/image3.png)
 
 ### Skills You'll Learn
 
@@ -69,7 +69,7 @@ The display is very readable on a mobile device. Choose the ASP.NET link.
 
 The ASP.NET tag view is very cluttered. For example, the **Date** column is very difficult to read. Later in the tutorial you'll create a version of the *AllTags* view that's specifically for mobile browsers and that will make the display readable.
 
-Note: Currently a bug exists in the mobile caching engine. For production applications, you must install the [Fixed DisplayModes](http://nuget.org/packages/Microsoft.AspNet.Mvc.FixedDisplayModes) nugget package. See [ASP.NET MVC 4 Mobile Caching Bug Fixed](https://docs.microsoft.com/archive/blogs/rickandy/asp-net-mvc-4-mobile-caching-bug-fixed) for details on the fix.
+Note: Currently a bug exists in the mobile caching engine. For production applications, you must install the [Fixed DisplayModes](http://nuget.org/packages/Microsoft.AspNet.Mvc.FixedDisplayModes) nugget package. See [ASP.NET MVC 4 Mobile Caching Bug Fixed](/archive/blogs/rickandy/asp-net-mvc-4-mobile-caching-bug-fixed) for details on the fix.
 
 ## CSS Media Queries
 
@@ -184,7 +184,7 @@ Install the *jQuery.Mobile.MVC* NuGet package by doing this:
 
 The following image shows the files added and changed to the MvcMobile project by the NuGet jQuery.Mobile.MVC package. Files which are added have [add] appended after the file name. The image does not show the GIF and PNG files added to the *Content\images* folder.
 
-![](aspnet-mvc-4-mobile-features/_static/image21.png)
+![Screenshot that shows the M V C Mobile folders and files.](aspnet-mvc-4-mobile-features/_static/image21.png)
 
 The jQuery.Mobile.MVC NuGet package installs the following:
 
@@ -289,7 +289,7 @@ The following image shows the search filter box at the top of the page that resu
 
 As you type each letter in the search box, jQuery Mobile filters the displayed list as shown in the image below.
 
-[![ps_data_filter_SC](aspnet-mvc-4-mobile-features/_static/image39.png)](aspnet-mvc-4-mobile-features/_static/image38.png)
+[![Screenshot that shows the All Speakers page in mobile view.](aspnet-mvc-4-mobile-features/_static/image39.png)](aspnet-mvc-4-mobile-features/_static/image38.png)
 
 ## Improving the Tags List
 
@@ -331,7 +331,7 @@ In this section, you'll create a mobile-specific view of sessions. The changes w
 
 In the mobile browser, tap the **Speaker** button, then enter `Sc` in the search box.
 
-[![ps_data_filter_SC](aspnet-mvc-4-mobile-features/_static/image47.png)](aspnet-mvc-4-mobile-features/_static/image46.png)
+[![Screenshot that shows the All Speakers page in mobile view with the letters S c entered into the search.](aspnet-mvc-4-mobile-features/_static/image47.png)](aspnet-mvc-4-mobile-features/_static/image46.png)
 
 Tap the **Scott Hanselman** link.
 
@@ -343,17 +343,17 @@ As you can see, the display is difficult to read on a mobile browser. The date c
 
 The code removes the room and tags columns, and formats the title, speaker, and date vertically, so that all this information is readable on a mobile browser. The image below reflects the code changes.
 
-[![ps_SessionsByScottHa](aspnet-mvc-4-mobile-features/_static/image51.png)](aspnet-mvc-4-mobile-features/_static/image50.png)
+[![Screenshot that shows the Sessions page in mobile view.](aspnet-mvc-4-mobile-features/_static/image51.png)](aspnet-mvc-4-mobile-features/_static/image50.png)
 
 ## Improving the SessionByCode View
 
 Finally, you'll create a mobile-specific view of the *SessionByCode* view. In the mobile browser, tap the **Speaker** button, then enter `Sc` in the search box.
 
-[![ps_data_filter_SC](aspnet-mvc-4-mobile-features/_static/image53.png)](aspnet-mvc-4-mobile-features/_static/image52.png)
+[![Screenshot that shows a mobile view of the All speakers page. S c is entered in the search.](aspnet-mvc-4-mobile-features/_static/image53.png)](aspnet-mvc-4-mobile-features/_static/image52.png)
 
 Tap the **Scott Hanselman** link. Scott Hanselman's sessions are displayed.
 
-[![ps_SessionsByScottHa](aspnet-mvc-4-mobile-features/_static/image55.png)](aspnet-mvc-4-mobile-features/_static/image54.png)
+[![Screenshot that shows a mobile view of the Sessions page.](aspnet-mvc-4-mobile-features/_static/image55.png)](aspnet-mvc-4-mobile-features/_static/image54.png)
 
 Choose the **An Overview of the MS Web Stack of Love** link.
 

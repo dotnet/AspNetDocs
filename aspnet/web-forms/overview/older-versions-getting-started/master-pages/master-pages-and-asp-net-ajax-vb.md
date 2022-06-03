@@ -13,8 +13,6 @@ msc.type: authoredcontent
 
 by [Scott Mitchell](https://twitter.com/ScottOnWriting)
 
-[Download Code](https://download.microsoft.com/download/1/8/4/184e24fa-fcc8-47fa-ac99-4b6a52d41e97/ASPNET_MasterPages_Tutorial_08_VB.zip) or [Download PDF](https://download.microsoft.com/download/e/b/4/eb4abb10-c416-4ba4-9899-32577715b1bd/ASPNET_MasterPages_Tutorial_08_VB.pdf)
-
 > Discusses options for using ASP.NET AJAX and master pages. Looks at using the ScriptManagerProxy class; discusses how the various JS files are loaded depending on whether the ScriptManager is used in the Master page or Content page.
 
 ## Introduction
@@ -213,9 +211,9 @@ For more information on the topics discussed in this tutorial, refer to the foll
 - [ASP.NET AJAX Framework](../../../../ajax/index.md)
 - [ASP.NET AJAX Tutorials](../aspnet-ajax/understanding-partial-page-updates-with-asp-net-ajax.md)
 - [ASP.NET AJAX Videos](../../../videos/aspnet-ajax/index.md)
-- [Building Interactive User Interface with Microsoft ASP.NET AJAX](http://aspnet.4guysfromrolla.com/articles/101007-1.aspx)
+- [Building Interactive User Interface with Microsoft ASP.NET AJAX](/previous-versions/aspnet/bb398874(v=vs.100))
 - [Using NEWID to Randomly Sort Records](http://www.sqlteam.com/article/using-newid-to-randomly-sort-records)
-- [Using the Timer Control](http://aspnet.4guysfromrolla.com/articles/061808-1.aspx)
+- [Using the Timer Control](/previous-versions/aspnet/bb398865(v=vs.100))
 
 ### About the Author
 

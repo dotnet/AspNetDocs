@@ -13,8 +13,6 @@ msc.type: authoredcontent
 
 by [Jason Lee](https://github.com/jrjlee)
 
-[Download PDF](https://msdnshared.blob.core.windows.net/media/MSDNBlogsFS/prod.evol.blogs.msdn.com/CommunityServer.Blogs.Components.WeblogFiles/00/00/00/63/56/8130.DeployingWebAppsInEnterpriseScenarios.pdf)
-
 > This [series of tutorials](web-deployment-in-the-enterprise.md) uses a sample solution&#x2014;the Contact Manager solution&#x2014;to represent an enterprise-scale application with a realistic level of complexity. This topic introduces the Contact Manager solution, describes the key components of the solution, and identifies the challenges in deploying this kind of application to various destination platforms in an enterprise environment.
 > 
 > As you work through the topics in these tutorials, you can use the Contact Manager solution as a reference implementation that demonstrates how you can meet specific challenges in enterprise deployment scenarios. The next topic, [Setting Up the Contact Manager Solution](setting-up-the-contact-manager-solution.md), describes how to download and run the solution on your developer workstation.
@@ -23,7 +21,7 @@ by [Jason Lee](https://github.com/jrjlee)
 
 The Contact Manager solution consists of four individual projects:
 
-![](the-contact-manager-solution/_static/image1.png)
+![The Contact Manager solution consists of four individual projects.](the-contact-manager-solution/_static/image1.png)
 
 - **ContactManager.Mvc**. This is an ASP.NET MVC 3 web application project that represents the entry point for the solution. It offers some basic web application functionality, like providing users with the ability to create and view contact details. The application relies on a Windows Communication Foundation (WCF) service to manage contacts and an ASP.NET application services database to manage authentication and authorization.
 - **ContactManager.Database**. This is a Visual Studio database project. The project defines the schema for a database that stores contact details.
@@ -34,7 +32,7 @@ The solution also includes a solution folder named Publish. This contains variou
 
 At a conceptual level, the components of the solution fit together like this:
 
-![](the-contact-manager-solution/_static/image2.png)
+![How the components of the solution fit together at a conceptual level.](the-contact-manager-solution/_static/image2.png)
 
 > [!NOTE]
 > While the ASP.NET MVC 3 web application uses the ASP.NET membership provider, all the pages within the web application allow anonymous access. This is clearly not a realistic configuration. However, the solution is set up in this way to make it easier for you to deploy and test the solution without configuring user accounts and roles.

@@ -172,7 +172,7 @@ Regardless of what approach you use, the GridView's resulting declarative markup
 [!code-aspx[Main](creating-and-managing-roles-vb/samples/sample10.aspx)]
 
 > [!NOTE]
-> The array's contents are displayed using the databinding syntax `<%# Container.DataItem %>`. A thorough description of why this syntax is used when displaying the contents of an array bound to the GridView is beyond the scope of this tutorial. For more information on this matter, refer to [Binding a Scalar Array to a Data Web Control](http://aspnet.4guysfromrolla.com/articles/082504-1.aspx).
+> The array's contents are displayed using the databinding syntax `<%# Container.DataItem %>`. A thorough description of why this syntax is used when displaying the contents of an array bound to the GridView is beyond the scope of this tutorial. For more information on this matter, refer to [Binding a Scalar Array to a Data Web Control](/aspnet/web-forms/overview/data-access/introduction/creating-a-data-access-layer-vb).
 
 Currently, the `RoleList` GridView is only bound to the list of roles when the page is first visited. We need to refresh the grid whenever a new role is added. To accomplish this, update the `CreateRoleButton` Button's `Click` event handler so that it calls the `DisplayRolesInGrid` method if a new role is created.
 
@@ -224,10 +224,9 @@ Happy Programming!
 
 For more information on the topics discussed in this tutorial, refer to the following resources:
 
-- [Examining ASP.NET 2.0's Membership, Roles, and Profile](http://aspnet.4guysfromrolla.com/articles/120705-1.aspx)
+- [Examining ASP.NET 2.0's Membership, Roles, and Profile](/aspnet/web-forms/overview/older-versions-security/roles/creating-and-managing-roles-vb)
 - [How To: Use Role Manager in ASP.NET 2.0](https://msdn.microsoft.com/library/ms998314.aspx)
 - [Role Providers](https://msdn.microsoft.com/library/aa478950.aspx)
-- [Rolling Your Own Website Administration Tool](http://aspnet.4guysfromrolla.com/articles/052307-1.aspx)
 - [Technical documentation for the `<roleManager>` Element](https://msdn.microsoft.com/library/ms164660.aspx)
 - [Using the Membership and Role Manager APIs](https://quickstarts.asp.net/QuickStartv20/aspnet/doc/security/membership.aspx)
 

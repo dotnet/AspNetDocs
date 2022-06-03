@@ -1,19 +1,19 @@
 ---
 uid: web-forms/overview/data-access/filtering-scenarios-with-the-datalist-and-repeater/master-detail-filtering-with-a-dropdownlist-datalist-vb
-title: "Master/Detail Filtering With a DropDownList (VB) | Microsoft Docs"
+title: "Master/Detail Filtering With a DropDownList and DataList (VB) | Microsoft Docs"
 author: rick-anderson
-description: "In this tutorial we see how to display master/detail reports in a single web page using DropDownLists to display the 'master' records and a DataList to displ..."
+description: "In this tutorial we see how to display master/detail reports in a single web page using DropDownLists to display the 'master' records (VB)."
 ms.author: riande
 ms.date: 07/18/2007
 ms.assetid: ad0f1014-1eff-465f-bdc6-93058de00e44
 msc.legacyurl: /web-forms/overview/data-access/filtering-scenarios-with-the-datalist-and-repeater/master-detail-filtering-with-a-dropdownlist-datalist-vb
 msc.type: authoredcontent
 ---
-# Master/Detail Filtering With a DropDownList (VB)
+# Master/Detail Filtering With a DropDownList and DataList (VB)
 
 by [Scott Mitchell](https://twitter.com/ScottOnWriting)
 
-[Download Sample App](https://download.microsoft.com/download/9/c/1/9c1d03ee-29ba-4d58-aa1a-f201dcc822ea/ASPNET_Data_Tutorial_33_VB.exe) or [Download PDF](master-detail-filtering-with-a-dropdownlist-datalist-vb/_static/datatutorial33vb1.pdf)
+[Download PDF](master-detail-filtering-with-a-dropdownlist-datalist-vb/_static/datatutorial33vb1.pdf)
 
 > In this tutorial we see how to display master/detail reports in a single web page using DropDownLists to display the "master" records and a DataList to display the "details".
 

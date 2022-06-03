@@ -74,7 +74,7 @@ In this lab, you will create a new master page and define three ContentPlaceHold
     3. Select the ContentPlaceHolder control by clicking the shaded top border of the control and then delete it by hitting the DEL key on your keyboard.
     4. Insert a new table using the *Header and side* template as shown in figure 3. Change the width and height to 90% each so that the entire table is visible in the designer.
 
-![](master-pages/_static/image3.jpg)
+![Screenshot that shows an Insert Table with the Header and side Template selected from the drop down list.](master-pages/_static/image3.jpg)
 
 **Figure 3**
 
@@ -163,7 +163,7 @@ Note that in this scenario, the child master is also a content page for the pare
 
 This video shows a walkthrough of using nested master pages.
 
-![](master-pages/_static/image1.png)
+![Screenshot that shows a small web page with a message outlined in red.](master-pages/_static/image1.png)
 
 [Open Full-Screen Video](master-pages/_static/nested1.wmv)
 

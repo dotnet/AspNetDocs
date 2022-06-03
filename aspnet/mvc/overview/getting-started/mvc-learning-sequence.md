@@ -55,4 +55,4 @@ The <xref:System.Web.Mvc.Html.SelectExtensions.DropDownListFor%2A>, <xref:System
 
 The workaround is to create separate enumerables, containing distinct `SelectListItem` instances, for each property in the model.
 
-For more information, see [GetSelectListWithDefaultValue Modifies IEnumerable<SelectListItem> selectList](https://github.com/aspnet/AspNetWebStack/issues/271)
+For more information, see [GetSelectListWithDefaultValue Modifies IEnumerable\<SelectListItem\> selectList](https://github.com/aspnet/AspNetWebStack/issues/271)

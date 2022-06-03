@@ -2,7 +2,7 @@
 uid: web-forms/overview/deployment/visual-studio-web-deployment/deploying-to-iis
 title: "ASP.NET Web Deployment using Visual Studio: Deploying to Test | Microsoft Docs"
 author: tdykstra
-description: "This tutorial series shows you how to deploy (publish) an ASP.NET web application to Azure App Service Web Apps or to a third-party hosting provider, by usin..."
+description: "How to deploy an ASP.NET web application to Azure App Service Web Apps or to a third-party hosting provider by using Visual Studio 2017"
 ms.author: riande
 ms.date: 01/16/2019
 ms.assetid: 8bf2c4fb-4ee5-4841-bfc2-03462c1f7a7a
@@ -164,7 +164,7 @@ In Visual Studio, open the Contoso University solution. Right-click the solution
 
 ## Run the grant script in the application database
 
-You can configure the publish profile to run the grant script in the membership database during deployment because that database deployment uses the [dbDacFx](https://docs.microsoft.com/iis/publish/using-web-deploy/dbdacfx-provider-for-incremental-database-publishing) provider. You can't run scripts during Code First Migrations deployment, which is how you're deploying the application database. This means you have to manually run the script before deployment in the application database.
+You can configure the publish profile to run the grant script in the membership database during deployment because that database deployment uses the [dbDacFx](/iis/publish/using-web-deploy/dbdacfx-provider-for-incremental-database-publishing) provider. You can't run scripts during Code First Migrations deployment, which is how you're deploying the application database. This means you have to manually run the script before deployment in the application database.
 
 1. In Visual Studio, open the *Grant.sql* file that you created earlier.
 
@@ -176,7 +176,7 @@ You can configure the publish profile to run the grant script in the membership 
 
 4. In the database drop-down list select **ContosoUniversity**. Select **Execute**. 
 
-   ![](deploying-to-iis/_static/image12.png)
+   ![In the database drop-down list select ContosoUniversity. Select Execute.](deploying-to-iis/_static/image12.png)
 
 The default application pool identity now has sufficient permissions in the application database for Code First Migrations to create the database tables when the application runs.
 
@@ -354,7 +354,7 @@ Verify that an *ELMAH* folder exists in the *c:\inetpub\wwwroot\ContosoUniversit
 
 Open the *Web.config* file in the deployed application at *C:\inetpub\wwwroot\ContosoUniversity* and you can see where the deployment process configured Code First Migrations to automatically update the database to the latest version.
 
-![](deploying-to-iis/_static/image21.png)
+![Open the Web.config file in the deployed application at C:\inetpub\wwwroot\ContosoUniversity and see where the deployment process configured Code First Migrations to automatically update the database to the latest version.](deploying-to-iis/_static/image21.png)
 
 The deployment process also created a new connection string for Code First Migrations to use exclusively for updating the database schema:
 

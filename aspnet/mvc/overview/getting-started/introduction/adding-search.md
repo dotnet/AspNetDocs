@@ -2,7 +2,7 @@
 uid: mvc/overview/getting-started/introduction/adding-search
 title: "Search | Microsoft Docs"
 author: Rick-Anderson
-description: ""
+description: "In this section you'll add search capability to the Index action method that lets you search movies by genre or name."
 ms.author: riande
 ms.date: 01/17/2019
 ms.assetid: df001954-18bf-4550-b03d-43911a0ea186
@@ -68,7 +68,7 @@ The modified `Index` method would look as follows:
 
 You can now pass the search title as route data (a URL segment) instead of as a query string value.
 
-![](adding-search/_static/image2.png)
+![Screenshot that shows the M V C Movie Index page. Local host colon 1 2 3 4 forward slash Movies forward slash index forward slash ghost is in the U R L field and circled in red.](adding-search/_static/image2.png)
 
 However, you can't expect users to modify the URL every time they want to search for a movie. So now you'll add UI to help them filter movies. If you changed the signature of the `Index` method to test how to pass the route-bound ID parameter, change it back so that your `Index` method takes a string parameter named `searchString`:
 
@@ -82,11 +82,11 @@ The `Html.BeginForm` helper creates an opening `<form>` tag. The `Html.BeginForm
 
 Visual Studio 2013 has a nice improvement when displaying and editing View files. When you run the application with a view file open, Visual Studio 2013 invokes the correct controller action method to display the view.
 
-![](adding-search/_static/image3.png)
+![Screenshot that shows the Index dot c s h t m l tab and Solution Explorer open. In Solution Explorer, the subfolder Movies is open and Index dot c s h t m l is selected.](adding-search/_static/image3.png)
 
 With the Index view open in Visual Studio (as shown in the image above), tap Ctr F5 or F5 to run the application and then try searching for a movie.
 
-![](adding-search/_static/image4.png)
+![Screenshot that shows the Index page with a title entered into the Title field.](adding-search/_static/image4.png)
 
 There's no `HttpPost` overload of the `Index` method. You don't need it, because the method isn't changing the state of the application, just filtering data.
 
@@ -122,7 +122,7 @@ The following code is a LINQ query that retrieves all the genres from the databa
 
 [!code-csharp[Main](adding-search/samples/sample12.cs)]
 
-The code uses the `AddRange` method of the generic `List` collection to add all the distinct genres to the list. (Without the `Distinct` modifier, duplicate genres would be added — for example, comedy would be added twice in our sample). The code then stores the list of genres in the `ViewBag.MovieGenre` object. Storing category data (such a movie genres) as a [SelectList](https://docs.microsoft.com/dotnet/api/system.web.mvc.selectlist) object in a `ViewBag`, then accessing the category data in a dropdown list box is a typical approach for MVC applications.
+The code uses the `AddRange` method of the generic `List` collection to add all the distinct genres to the list. (Without the `Distinct` modifier, duplicate genres would be added — for example, comedy would be added twice in our sample). The code then stores the list of genres in the `ViewBag.MovieGenre` object. Storing category data (such a movie genres) as a [SelectList](/dotnet/api/system.web.mvc.selectlist) object in a `ViewBag`, then accessing the category data in a dropdown list box is a typical approach for MVC applications.
 
 The following code shows how to check the `movieGenre` parameter. If it's not empty, the code further constrains the movies query to limit the selected movies to the specified genre.
 
@@ -152,7 +152,7 @@ You can also set an option to be selected by default. If you wanted "Comedy" as 
 
 Run the application and browse to */Movies/Index*. Try a search by genre, by movie name, and by both criteria.
 
-![](adding-search/_static/image8.png)
+![Screenshot that shows the Index page. A type of genre is selected.](adding-search/_static/image8.png)
 
 In this section you created a search action method and view that let users search by movie title and genre. In the next section, you'll look at how to add a property to the `Movie` model and how to add an initializer that will automatically create a test database.
 

@@ -1,7 +1,7 @@
 ---
 uid: web-api/overview/security/individual-accounts-in-web-api
 title: "Secure a Web API with Individual Accounts and Local Login in ASP.NET Web API 2.2 | Microsoft Docs"
-author: MikeWasson
+author: Rick-Anderson
 description: "This topic shows how to secure a web API using OAuth2 to authenticate against a membership database. Software versions used in the tutorial Visual Studio 201..."
 ms.author: riande
 ms.date: 10/15/2014
@@ -11,7 +11,7 @@ msc.type: authoredcontent
 ---
 # Secure a Web API with Individual Accounts and Local Login in ASP.NET Web API 2.2
 
-by [Mike Wasson](https://github.com/MikeWasson)
+by Mike Wasson
 
 [Download Sample App](https://github.com/MikeWasson/LocalAccountsApp)
 
@@ -41,7 +41,7 @@ This article looks at the local login scenario. For both local and social login,
 
 In this article, I'll demonstrate a simple app that lets the user log in and send authenticated AJAX calls to a web API. You can download the sample code [here](https://github.com/MikeWasson/LocalAccountsApp). The readme describes how to create the sample from scratch in Visual Studio.
 
-[![](individual-accounts-in-web-api/_static/image2.png)](individual-accounts-in-web-api/_static/image1.png)
+[![Image of sample form](individual-accounts-in-web-api/_static/image2.png)](individual-accounts-in-web-api/_static/image1.png)
 
 The sample app uses Knockout.js for data-binding and jQuery for sending AJAX requests. I'll be focusing on the AJAX calls, so you don't need to know Knockout.js for this article.
 
@@ -72,11 +72,11 @@ For local login, Web API uses the [resource owner password flow](http://oauthlib
 3. The authorization server authenticates the credentials and returns an access token.
 4. To access a protected resource, the client includes the access token in the Authorization header of the HTTP request.
 
-![](individual-accounts-in-web-api/_static/image3.png)
+![Diagram of local login credential flow](individual-accounts-in-web-api/_static/image3.png)
 
 When you select **Individual accounts** in the Web API project template, the project includes an authorization server that validates user credentials and issues tokens. The following diagram shows the same credential flow in terms of Web API components.
 
-![](individual-accounts-in-web-api/_static/image4.png)
+![Diagram when individual accounts is selected in the Web A P I](individual-accounts-in-web-api/_static/image4.png)
 
 In this scenario, Web API controllers act as resource servers. An authentication filter validates access tokens, and the **[Authorize]** attribute is used to protect a resource. When a controller or action has the **[Authorize]** attribute, all requests to that controller or action must be authenticated. Otherwise, authorization is denied, and Web API returns a 401 (Unauthorized) error.
 
@@ -86,7 +86,7 @@ The authorization server and the authentication filter both call into an [OWIN m
 
 To get started, run the app and click the **Call API** button. When the request completes, you should see an error message in the **Result** box. That's because the request does not contain an access token, so the request is unauthorized.
 
-[![](individual-accounts-in-web-api/_static/image6.png)](individual-accounts-in-web-api/_static/image5.png)
+[![Image of result error message](individual-accounts-in-web-api/_static/image6.png)](individual-accounts-in-web-api/_static/image5.png)
 
 The **Call API** button sends an AJAX request to ~/api/values, which invokes a Web API controller action. Here is the section of JavaScript code that sends the AJAX request. In the sample app, all of the JavaScript app code is located in the Scripts\app.js file.
 
@@ -110,7 +110,7 @@ In the **Register** section of the app, enter an email and password, and click t
 
 You don't need to use a valid email address for this sample, but a real app would confirm the address. (See [Create a secure ASP.NET MVC 5 web app with log in, email confirmation and password reset](../../../mvc/overview/security/create-an-aspnet-mvc-5-web-app-with-email-confirmation-and-password-reset.md).) For the password, use something like "Password1!", with an upper case letter, lower case letter, number, and non-alpha-numeric character. To keep the app simple, I left out client-side validation, so if there is a problem with the password format, you'll get a 400 (Bad Request) error.
 
-[![](individual-accounts-in-web-api/_static/image8.png)](individual-accounts-in-web-api/_static/image7.png)
+[![Image of register a user section](individual-accounts-in-web-api/_static/image8.png)](individual-accounts-in-web-api/_static/image7.png)
 
 The **Register** button sends a POST request to ~/api/Account/Register/. The request body is a JSON object that holds the name and password. Here is the JavaScript code that sends the request:
 
@@ -128,13 +128,13 @@ This request is handled by the `AccountController` class. Internally, `AccountCo
 
 If you run the app locally from Visual Studio, user accounts are stored in LocalDB, in the AspNetUsers table. To view the tables in Visual Studio, click the **View** menu, select **Server Explorer**, then expand **Data Connections**.
 
-![](individual-accounts-in-web-api/_static/image9.png)
+![Image of Data Connections](individual-accounts-in-web-api/_static/image9.png)
 
 ## Get an Access Token
 
 So far we have not done any OAuth, but now we'll see the OAuth authorization server in action, when we request an access token. In the **Log In** area of the sample app, enter the email and password and click **Log In**.
 
-[![](individual-accounts-in-web-api/_static/image11.png)](individual-accounts-in-web-api/_static/image10.png)
+[![Image of log in section](individual-accounts-in-web-api/_static/image11.png)](individual-accounts-in-web-api/_static/image10.png)
 
 The **Log In** button sends a request to the token endpoint. The body of the request contains the following form-url-encoded data:
 
@@ -166,7 +166,7 @@ The `access_token`, `token_type`, and `expires_in` properties are defined by the
 
 Now that we have a bearer token, we can make an authenticated request to the API. This is done by setting the Authorization header in the request. Click the **Call API** button again to see this.
 
-[![](individual-accounts-in-web-api/_static/image13.png)](individual-accounts-in-web-api/_static/image12.png)
+[![Image after call A P I button has been clicked](individual-accounts-in-web-api/_static/image13.png)](individual-accounts-in-web-api/_static/image12.png)
 
 HTTP request:
 
@@ -197,7 +197,7 @@ Here are the main application classes that implement these features:
 - `ApplicationUserManager`, defined in /App\_Start/IdentityConfig.cs This class derives from [UserManager](https://msdn.microsoft.com/library/dn613290.aspx) and performs operations on user accounts, such as creating a new user, verifying passwords, and so forth, and automatically persists changes to the database.
 - `ApplicationOAuthProvider`. This object plugs into the OWIN middleware, and processes events raised by the middleware. It derives from [OAuthAuthorizationServerProvider](https://msdn.microsoft.com/library/microsoft.owin.security.oauth.oauthauthorizationserverprovider.aspx).
 
-![](individual-accounts-in-web-api/_static/image14.png)
+![Image of main application classes](individual-accounts-in-web-api/_static/image14.png)
 
 ### Configuring the Authorization Server
 
@@ -216,7 +216,7 @@ Here is the basic flow when the app wants to get a token:
 3. The provider calls the `ApplicationUserManager` to validate the credentials and create a claims identity.
 4. If that succeeds, the provider creates an authentication ticket, which is used to generate the token.
 
-[![](individual-accounts-in-web-api/_static/image16.png)](individual-accounts-in-web-api/_static/image15.png)
+[![Diagram of authorization flow](individual-accounts-in-web-api/_static/image16.png)](individual-accounts-in-web-api/_static/image15.png)
 
 The OAuth middleware doesn't know anything about the user accounts. The provider communicates between the middleware and ASP.NET Identity. For more information about implementing the authorization server, see [OWIN OAuth 2.0 Authorization Server](../../../aspnet/overview/owin-and-katana/owin-oauth-20-authorization-server.md).
 
@@ -241,7 +241,7 @@ When the client requests a protected resource, here is what happens in the Web A
 4. The authorization filter examines the claims identity. If the claims authorize the user for that resource, the request is authorized. By default, the **[Authorize]** attribute will authorize any request that is authenticated. However, you can authorize by role or by other claims. For more information, see [Authentication and Authorization in Web API](authentication-and-authorization-in-aspnet-web-api.md).
 5. If the previous steps are successful, the controller returns the protected resource. Otherwise, the client receives a 401 (Unauthorized) error.
 
-[![](individual-accounts-in-web-api/_static/image18.png)](individual-accounts-in-web-api/_static/image17.png)
+[![Diagram of when the client requests a protected resource](individual-accounts-in-web-api/_static/image18.png)](individual-accounts-in-web-api/_static/image17.png)
 
 ## Additional Resources
 

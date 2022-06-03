@@ -1,7 +1,7 @@
 ---
 uid: web-api/overview/formats-and-model-binding/bson-support-in-web-api-21
 title: "BSON Support in ASP.NET Web API 2.1 - ASP.NET 4.x"
-author: MikeWasson
+author: rick-anderson
 description: "shows how to use BSON in a Web API controller (server side) and in a .NET client app for ASP.NET 4.x."
 ms.author: riande
 ms.date: 01/20/2014
@@ -11,8 +11,6 @@ msc.legacyurl: /web-api/overview/formats-and-model-binding/bson-support-in-web-a
 msc.type: authoredcontent
 ---
 # BSON Support in ASP.NET Web API 2.1
-
-by [Mike Wasson](https://github.com/MikeWasson)
 
 This topic shows how to use BSON in your Web API controller (server side) and in a .NET client app. Web API 2.1 introduces support for BSON. 
 
@@ -58,7 +56,7 @@ Here is the response:
 
 Here I've replaced the binary data with &quot;.&quot; characters. The following screen shot from Fiddler shows the raw hex values.
 
-[![](bson-support-in-web-api-21/_static/image2.png)](bson-support-in-web-api-21/_static/image1.png)
+[![Screenshot of a window pane showing the binary data's raw hex values in the colors green on the top and middle, and black at the bottom.](bson-support-in-web-api-21/_static/image2.png)](bson-support-in-web-api-21/_static/image1.png)
 
 ## Using BSON with HttpClient
 

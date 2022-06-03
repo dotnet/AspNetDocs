@@ -13,8 +13,6 @@ msc.type: authoredcontent
 
 by [Jason Lee](https://github.com/jrjlee)
 
-[Download PDF](https://msdnshared.blob.core.windows.net/media/MSDNBlogsFS/prod.evol.blogs.msdn.com/CommunityServer.Blogs.Components.WeblogFiles/00/00/00/63/56/8130.DeployingWebAppsInEnterpriseScenarios.pdf)
-
 > This topic describes how to run a Windows PowerShell script as part of a build and deployment process. You can run a script locally (in other words, on the build server) or remotely, like on a destination web server or database server.
 > 
 > There are lots of reasons why you might want to run a post-deployment Windows PowerShell script. For example, you might want to:
@@ -61,7 +59,7 @@ To make the **LogDeploy.ps1** script available to MSBuild, you need to:
 
 You don't need to deploy the script with your solution content, regardless of whether you plan to run the script on the build server or on a remote computer. One option is to add the script to a solution folder. In the Contact Manager example, because you want to use the Windows PowerShell script as part of the deployment process, it makes sense to add the script to the Publish solution folder.
 
-![](running-windows-powershell-scripts-from-msbuild-project-files/_static/image1.png)
+![In the Contact Manager example, because you want to use the Windows PowerShell script as part of the deployment process, it makes sense to add the script to the Publish solution folder.](running-windows-powershell-scripts-from-msbuild-project-files/_static/image1.png)
 
 The contents of solution folders are copied to build servers as source material. However, they form no part of any project output.
 
@@ -145,7 +143,7 @@ This topic described how to run a Windows PowerShell script from an MSBuild proj
 
 ## Further Reading
 
-For guidance on signing Windows PowerShell scripts and managing execution policies, see [Running Windows PowerShell Scripts](https://technet.microsoft.com/library/ee176949.aspx). For guidance on running Windows PowerShell commands from a remote computer, see [Running Remote Commands](https://technet.microsoft.com/library/dd819505.aspx).
+For guidance on signing Windows PowerShell scripts and managing execution policies, see [Running Windows PowerShell Scripts](https://technet.microsoft.com/library/ee176949.aspx). For guidance on running Windows PowerShell commands from a remote computer, see [Running Remote Commands](/powershell/scripting/learn/remoting/running-remote-commands).
 
 For more information on using custom MSBuild project files to control the deployment process, see [Understanding the Project File](../web-deployment-in-the-enterprise/understanding-the-project-file.md) and [Understanding the Build Process](../web-deployment-in-the-enterprise/understanding-the-build-process.md).
 

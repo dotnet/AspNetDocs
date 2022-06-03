@@ -47,13 +47,13 @@ The abundance of external authentication services that are currently available t
 
 In the past, developers have had two choices: create their own authentication implementation, or learn how to integrate an external authentication service into their applications. At the most basic level, the following diagram illustrates a simple request flow for a user agent (web browser) that is requesting information from a web application that is configured to use an external authentication service:
 
-[![](external-authentication-services/_static/image2.png "Click to Expand the Image")](external-authentication-services/_static/image1.png)
+[![Illustration of a simple request flow for a user agent](external-authentication-services/_static/image2.png "Click to Expand the Image")](external-authentication-services/_static/image1.png)
 
 In the preceding diagram, the user agent (or web browser in this example) makes a request to a web application, which redirects the web browser to an external authentication service. The user agent sends its credentials to the external authentication service, and if the user agent has successfully authenticated, the external authentication service will redirect the user agent to the original web application with some form of token which the user agent will send to the web application. The web application will use the token to verify that the user agent has been successfully authenticated by the external authentication service, and the web application may use the token to gather more information about the user agent. Once the application is done processing the user agent's information, the web application will return the appropriate response to the user agent based on its authorization settings.
 
 In this second example, the user agent negotiates with the web application and external authorization server, and the web application performs additional communication with the external authorization server to retrieve additional information about the user agent:
 
-[![](external-authentication-services/_static/image4.png "Click to Expand the Image")](external-authentication-services/_static/image3.png)
+[![Illustration of user agent negotiating with the web application](external-authentication-services/_static/image4.png "Click to Expand the Image")](external-authentication-services/_static/image3.png)
 
 Visual Studio 2017 and ASP.NET 4.7.2 make integration with external authentication services easier for developers by providing built-in integration for the following authentication services:
 
@@ -78,11 +78,11 @@ Start Visual Studio 2017 and select **New Project** from the Start page. Or, fro
 
 When the **New Project** dialog box is displayed, select **Installed** and expand **Visual C#**. Under **Visual C#**, select **Web**. In the list of project templates, select **ASP.NET Web Application (.Net Framework)**. Enter a name for your project and click **OK**.
 
-[![](external-authentication-services/_static/image71.png "Click to Expand the Image")](external-authentication-services/_static/image71.png)
+[![Image of New Project dialog box](external-authentication-services/_static/image71.png "Click to Expand the Image")](external-authentication-services/_static/image71.png)
 
 When the **New ASP.NET Project** is displayed, select the **Single Page Application** template and click **Create Project**.
 
-[![](external-authentication-services/_static/image72.png "Click to Expand the Image")](external-authentication-services/_static/image72.png)
+[![Image of template selection](external-authentication-services/_static/image72.png "Click to Expand the Image")](external-authentication-services/_static/image72.png)
 
 Wait as Visual Studio 2017 creates your project.
 
@@ -96,7 +96,7 @@ When you first create the project, none of the external authentication services 
 
 When you press F5 to build and debug your web application, it will display a login screen where you will see that no external authentication services have been defined.
 
-[![](external-authentication-services/_static/image73.png "Click to Expand the Image")](external-authentication-services/_static/image73.png)
+[![Image of login screen](external-authentication-services/_static/image73.png "Click to Expand the Image")](external-authentication-services/_static/image73.png)
 
 In the following sections, you will learn how to enable each of the external authentication services that are provided with ASP.NET in Visual Studio 2017.
 
@@ -117,16 +117,16 @@ Once you have obtained your application ID and secret key, use the following ste
     [!code-csharp[Main](external-authentication-services/samples/sample3.cs)]
 4. When you press F5 to open your web application in your web browser, you will see that Facebook has been defined as an external authentication service:
 
-    [![](external-authentication-services/_static/image74.png "Click to Expand the Image")](external-authentication-services/_static/image74.png)
+    [![Image of Facebook defined](external-authentication-services/_static/image74.png "Click to Expand the Image")](external-authentication-services/_static/image74.png)
 5. When you click the **Facebook** button, your browser will be redirected to the Facebook login page:
 
-    [![](external-authentication-services/_static/image22.png "Click to Expand the Image")](external-authentication-services/_static/image21.png)
+    [![Image of Facebook login page](external-authentication-services/_static/image22.png "Click to Expand the Image")](external-authentication-services/_static/image21.png)
 6. After you enter your Facebook credentials and click **Log in**, your web browser will be redirected back to your web application, which will prompt you for the **User name** that you want to associate with your Facebook account:
 
-    [![](external-authentication-services/_static/image24.png "Click to Expand the Image")](external-authentication-services/_static/image23.png)
+    [![Image of web application](external-authentication-services/_static/image24.png "Click to Expand the Image")](external-authentication-services/_static/image23.png)
 7. After you have entered your user name and clicked the **Sign up** button, your web application will display the default **home page** for your Facebook account:
 
-    [![](external-authentication-services/_static/image26.png "Click to Expand the Image")](external-authentication-services/_static/image25.png)
+    [![Image displaying default Facebook home page](external-authentication-services/_static/image26.png "Click to Expand the Image")](external-authentication-services/_static/image25.png)
 
 <a id="GOOGLE"></a>
 ## Enabling Google Authentication
@@ -145,19 +145,19 @@ To enable Google authentication for your web application, use the following step
     [!code-csharp[Main](external-authentication-services/samples/sample5.cs)]
 4. When you press F5 to open your web application in your web browser, you will see that Google has been defined as an external authentication service:
 
-    [![](external-authentication-services/_static/image75.png "Click to Expand the Image")](external-authentication-services/_static/image75.png)
+    [![Image Google has been defined](external-authentication-services/_static/image75.png "Click to Expand the Image")](external-authentication-services/_static/image75.png)
 5. When you click the **Google** button, your browser will be redirected to the Google login page:
 
-    [![](external-authentication-services/_static/image32.png "Click to Expand the Image")](external-authentication-services/_static/image31.png)
+    [![Image of Google login page](external-authentication-services/_static/image32.png "Click to Expand the Image")](external-authentication-services/_static/image31.png)
 6. After you enter your Google credentials and click **Sign in**, Google will prompt you to verify that your web application has permissions to access your Google account:
 
-    [![](external-authentication-services/_static/image34.png "Click to Expand the Image")](external-authentication-services/_static/image33.png)
+    [![Image of Google permissions](external-authentication-services/_static/image34.png "Click to Expand the Image")](external-authentication-services/_static/image33.png)
 7. When you click **Accept**, your web browser will be redirected back to your web application, which will prompt you for the **User name** that you want to associate with your Google account:
 
-    [![](external-authentication-services/_static/image36.png "Click to Expand the Image")](external-authentication-services/_static/image35.png)
+    [![Image of web application prompt for user name to associate](external-authentication-services/_static/image36.png "Click to Expand the Image")](external-authentication-services/_static/image35.png)
 8. After you have entered your user name and clicked the **Sign up** button, your web application will display the default **home page** for your Google account:
 
-    [![](external-authentication-services/_static/image38.png "Click to Expand the Image")](external-authentication-services/_static/image37.png)
+    [![Image of Google default home page](external-authentication-services/_static/image38.png "Click to Expand the Image")](external-authentication-services/_static/image37.png)
 
 <a id="MICROSOFT"></a>
 ## Enabling Microsoft Authentication
@@ -176,19 +176,19 @@ Once you have obtained your consumer key and consumer secret, use the following 
     [!code-csharp[Main](external-authentication-services/samples/sample7.cs)]
 4. When you press F5 to open your web application in your web browser, you will see that Microsoft has been defined as an external authentication service:
 
-    [![](external-authentication-services/_static/image42.png "Click to Expand the Image")](external-authentication-services/_static/image41.png)
+    [![Image of Microsoft defined](external-authentication-services/_static/image42.png "Click to Expand the Image")](external-authentication-services/_static/image41.png)
 5. When you click the **Microsoft** button, your browser will be redirected to the Microsoft login page:
 
-    [![](external-authentication-services/_static/image44.png "Click to Expand the Image")](external-authentication-services/_static/image43.png)
+    [![Image of Microsoft login page](external-authentication-services/_static/image44.png "Click to Expand the Image")](external-authentication-services/_static/image43.png)
 6. After you enter your Microsoft credentials and click **Sign in**, you will be prompted to verify that your web application has permissions to access your Microsoft account:
 
-    [![](external-authentication-services/_static/image46.png "Click to Expand the Image")](external-authentication-services/_static/image45.png)
+    [![Image of Microsoft permissions](external-authentication-services/_static/image46.png "Click to Expand the Image")](external-authentication-services/_static/image45.png)
 7. When you click **Yes**, your web browser will be redirected back to your web application, which will prompt you for the **User name** that you want to associate with your Microsoft account:
 
-    [![](external-authentication-services/_static/image48.png "Click to Expand the Image")](external-authentication-services/_static/image47.png)
+    [![Image of Google account to associate](external-authentication-services/_static/image48.png "Click to Expand the Image")](external-authentication-services/_static/image47.png)
 8. After you have entered your user name and clicked the **Sign up** button, your web application will display the default **home page** for your Microsoft account:
 
-    [![](external-authentication-services/_static/image50.png "Click to Expand the Image")](external-authentication-services/_static/image49.png)
+    [![Image of default Microsoft home page](external-authentication-services/_static/image50.png "Click to Expand the Image")](external-authentication-services/_static/image49.png)
 
 <a id="TWITTER"></a>
 ## Enabling Twitter Authentication
@@ -207,16 +207,16 @@ Once you have obtained your consumer key and consumer secret, use the following 
     [!code-csharp[Main](external-authentication-services/samples/sample9.cs)]
 4. When you press F5 to open your web application in your web browser, you will see that Twitter has been defined as an external authentication service:
 
-    [![](external-authentication-services/_static/image54.png "Click to Expand the Image")](external-authentication-services/_static/image53.png)
+    [![Image of Twitter defined](external-authentication-services/_static/image54.png "Click to Expand the Image")](external-authentication-services/_static/image53.png)
 5. When you click the **Twitter** button, your browser will be redirected to the Twitter login page:
 
-    [![](external-authentication-services/_static/image56.png "Click to Expand the Image")](external-authentication-services/_static/image55.png)
+    [![Image of Twitter login page](external-authentication-services/_static/image56.png "Click to Expand the Image")](external-authentication-services/_static/image55.png)
 6. After you enter your Twitter credentials and click **Authorize app**, your web browser will be redirected back to your web application, which will prompt you for the **User name** that you want to associate with your Twitter account:
 
-    [![](external-authentication-services/_static/image58.png "Click to Expand the Image")](external-authentication-services/_static/image57.png)
+    [![Image of Twitter account to associate in web app](external-authentication-services/_static/image58.png "Click to Expand the Image")](external-authentication-services/_static/image57.png)
 7. After you have entered your user name and clicked the **Sign up** button, your web application will display the default **home page** for your Twitter account:
 
-    [![](external-authentication-services/_static/image60.png "Click to Expand the Image")](external-authentication-services/_static/image59.png)
+    [![Image of default Twitter home page](external-authentication-services/_static/image60.png "Click to Expand the Image")](external-authentication-services/_static/image59.png)
 
 <a id="MOREINFO"></a>
 ## Additional Information
@@ -231,7 +231,7 @@ For additional information about creating applications that use OAuth and OpenID
 
 For greater flexibility, you can define multiple external authentication services at the same time - this allows your web application's users to use an account from any of the enabled external authentication services:
 
-[![](external-authentication-services/_static/image62.png "Click to Expand the Image")](external-authentication-services/_static/image61.png)
+[![Image of multiple external authentication services](external-authentication-services/_static/image62.png "Click to Expand the Image")](external-authentication-services/_static/image61.png)
 
 <a id="FQDN"></a>
 ### Configure IIS Express to use a fully qualified domain name
@@ -277,12 +277,12 @@ Linking an application to Windows Live for Microsoft Authentication is a simple 
    <!--  [![](external-authentication-services/_static/image64.png "Click to Expand the Image")](external-authentication-services/_static/image63.png) -->
 2. Select **Add an app** and enter the name of your application when prompted, and then click **Create**:
 
-    [![](external-authentication-services/_static/image79.png "Click to Expand the Image")](external-authentication-services/_static/image79.png)
+    [![Image of add an app](external-authentication-services/_static/image79.png "Click to Expand the Image")](external-authentication-services/_static/image79.png)
 3. Select your app under **Name** and its application properties page appears.
 
 4. Enter the redirect domain for your application. Copy the **Application ID** and, under **Application Secrets**, select **Generate Password**. Copy the password that appears. The application ID and password are your client ID and client secret. Select **Ok** and then **Save**.
 
-    [![](external-authentication-services/_static/image77.png "Click to Expand the Image")](external-authentication-services/_static/image77.png)
+    [![Image of redirect domain information](external-authentication-services/_static/image77.png "Click to Expand the Image")](external-authentication-services/_static/image77.png)
 
 <a id="DISABLE"></a>
 ### Optional: Disable Local Registration
@@ -293,4 +293,4 @@ The current ASP.NET local registration functionality does not prevent automated 
 
 Once the local login panel and the registration link have been disabled, your login page will only display the external authentication providers that you have enabled:
 
-[![](external-authentication-services/_static/image70.png "Click to Expand the Image")](external-authentication-services/_static/image69.png)
+[![Image of external providers only login](external-authentication-services/_static/image70.png "Click to Expand the Image")](external-authentication-services/_static/image69.png)

@@ -1,8 +1,8 @@
 ---
 uid: aspnet/overview/developing-apps-with-windows-azure/building-real-world-cloud-apps-with-windows-azure/distributed-caching
-title: "Distributed Caching (Building Real-World Cloud Apps with Azure) | Microsoft Docs"
-author: rick-anderson
-description: "The Building Real World Cloud Apps with Azure e-book is based on a presentation developed by Scott Guthrie. It explains 13 patterns and practices that can he..."
+title: Distributed Caching (Building Real-World Cloud Apps with Azure) | Microsoft Docs
+author: Rick-Anderson
+description: Mr. Scott Guthrie, explains a representation of 13 patterns and practices in an e-book he called Building Real World Cloud Apps with Azure
 ms.author: riande
 ms.date: 06/02/2022
 ms.custom: devdivchpfy22

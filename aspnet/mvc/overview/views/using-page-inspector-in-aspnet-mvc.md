@@ -1,15 +1,16 @@
 ---
 uid: mvc/overview/views/using-page-inspector-in-aspnet-mvc
-title: "Using Page Inspector in ASP.NET MVC | Microsoft Docs"
+title: "Using Page Inspector with an Integrated browser in ASP.NET MVC | Microsoft Docs"
 author: rick-anderson
 description: "Page Inspector in Visual Studio 2012 is a web development tool with an integrated browser. Select any element in the integrated browser, and Page Inspector i..."
 ms.author: riande
-ms.date: 08/15/2012
+ms.date: 05/09/2022
+ms.custom: devdivchpfy22
 ms.assetid: c7e4e1ab-4932-4614-9f53-aaf7c706d498
 msc.legacyurl: /mvc/overview/views/using-page-inspector-in-aspnet-mvc
 msc.type: authoredcontent
 ---
-# Using Page Inspector in ASP.NET MVC
+# Using Page Inspector with an Integrated Browser in ASP.NET MVC
 
 by Tim Ammann
 
@@ -151,7 +152,7 @@ Click **Inspect** to put Page Inspector in Inspection Mode.
 
 In the Page Inspector browser window, move the mouse pointer over the "Home Page" section until the **div.content-wrapper** label appears.
 
-![Hovering over div.content-wrapper](using-page-inspector-in-aspnet-mvc/_static/image26.png)
+![Hovering over the div.content-wrapper](using-page-inspector-in-aspnet-mvc/_static/image26.png)
 
 Click within the div.content-wrapper section once, and then move the mouse pointer to the **Styles** window. The **Styles** window shows all of the CSS rules for this element. Scroll down to find the .featured .content-wrapper class selector. Now clear the checkbox for the background-color property.
 
@@ -179,11 +180,11 @@ In the Page Inspector browser, move the mouse pointer over the "Home Page" secti
 
 The **Styles** window shows all of the CSS rules for this element. Scroll down to find the .featured .content-wrapper class selector. Click on ".featured .content-wrapper". Page Inspector opens the CSS file that defines this style (Site.css) and highlights the corresponding CSS style.
 
-![](using-page-inspector-in-aspnet-mvc/_static/image32.png)
+:::image type="content" source="using-page-inspector-in-aspnet-mvc/_static/image32.png" alt-text="Screenshot of the CSS file that highlights the style.":::
 
 Now change the value for `background-color` to "red". The change appears immediately in the Page Inspector browser.
 
-![](using-page-inspector-in-aspnet-mvc/_static/image34.png)
+:::image type="content" source="using-page-inspector-in-aspnet-mvc/_static/image34.png" alt-text="Screenshot of the Page Inspector browser where the change appears.":::
 
 <a id="css_color_picker"></a>
 ## Using the CSS Color Picker
@@ -228,7 +229,7 @@ In modern web applications, elements in the page are often generated dynamically
 With version 1.3, Page Inspector can now map items that were dynamically added to the page back to the corresponding JavaScript code. To demonstrate this feature, we'll use the [Single Page Application (SPA) template](../../../single-page-application/overview/introduction/knockoutjs-template.md).
 
 > [!NOTE]
-> The SPA template requires the [ASP.NET and Web Tools 2012.2](https://go.microsoft.com/fwlink/?LinkId=282650) update.
+> The SPA template requires the [ASP.NET and Web Tools 2012.2](/aspnet/visual-studio/overview/2012/aspnet-and-web-tools-20122-release-notes-rtw) update.
 
 In Visual Studio, choose **File** &gt; **New Project**. On the left, expand **Visual C#**, select **Web**, and then select **ASP.NET MVC4 Web Application**. Click **OK**.
 
@@ -240,21 +241,21 @@ The first thing that is displayed in the Page Inspector browser is a login page.
 
 Click **Inspect** to put Page Inspector in Inspection Mode. In the Page Inspector browser, click on one of the to-do items. Notice that instead of being highlighted in blue, the element is highlighted in orange, with "JS" next to the element name. This indicates that the element was created dynamically through script.
 
-![](using-page-inspector-in-aspnet-mvc/_static/image44.png)
+:::image type="content" source="using-page-inspector-in-aspnet-mvc/_static/image44.png" alt-text="Screenshot of the Page Inspector browser To Do List to show that the element was created dynamically through script.":::
 
 In addition, an orange underline appears on the **Call Stack** tab. This indicates that the **Call Stack** pane has more information about the element.
 
 Click on the **Call Stack** tab. The **Call Stack** pane shows the call stack for the JavaScript call that created the element. Calls to external libraries such as jQuery are collapsed, so that you can easily see the calls to your application script.
 
-![](using-page-inspector-in-aspnet-mvc/_static/image46.png)
+:::image type="content" source="using-page-inspector-in-aspnet-mvc/_static/image46.png" alt-text="Screenshot of the Call Stack tab to easily see the calls to your application script.":::
 
 To see the full stack, including calls to external libraries, you can expand the nodes labeled "External Libraries":
 
-![](using-page-inspector-in-aspnet-mvc/_static/image48.png)
+:::image type="content" source="using-page-inspector-in-aspnet-mvc/_static/image48.png" alt-text="Screenshot of the External Libraries in the Call Stack tab to see the full stack including calls to external libraries.":::
 
 If you click an item in the call stack, Visual Studio opens the code file and highlights the corresponding script.
 
-![](using-page-inspector-in-aspnet-mvc/_static/image50.png)
+:::image type="content" source="using-page-inspector-in-aspnet-mvc/_static/image50.png" alt-text="Screenshot of the code file that Visual Studio opens and highlights the corresponding script if you click an item in the call stack.":::
 
 ## See Also
 

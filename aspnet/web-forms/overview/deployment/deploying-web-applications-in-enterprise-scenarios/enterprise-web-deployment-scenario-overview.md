@@ -33,7 +33,7 @@ Each of these environments has different configuration and security requirements
 
 This is the high-level development and deployment infrastructure at Fabrikam, Inc.
 
-![](enterprise-web-deployment-scenario-overview/_static/image1.png)
+![The high-level development and deployment infrastructure at Fabrikam, Inc.](enterprise-web-deployment-scenario-overview/_static/image1.png)
 
 The developer workstations, the source control infrastructure, the developer test environment, and the staging environment all reside on the intranet network within the Fabrikam.net domain. The production environment resides on a perimeter network (also known as DMZ, demilitarized zone, and screened subnet), which is isolated from the intranet network by a firewall. This is a common deployment scenario: you typically isolate your Internet-facing web servers from your internal server infrastructure through the use of firewalls or gateway servers.
 
@@ -66,7 +66,7 @@ These users are involved in creating, managing, building, and publishing the Con
 
 The Contact Manager solution is designed to let registered, logged-in users add and edit contact information through a web interface. The Contact Manager solution consists of four individual projects:
 
-![](enterprise-web-deployment-scenario-overview/_static/image2.png)
+![The Contact Manager solution is designed to let registered, logged-in users add and edit contact information through a web interface.](enterprise-web-deployment-scenario-overview/_static/image2.png)
 
 - **ContactManager.Mvc**. This is an ASP.NET MVC3 web application project that represents the entry point for the solution. It offers some basic web application functionality, like providing users with the ability to create and view contact details. The application relies on a Windows Communication Foundation (WCF) service to manage contacts and an ASP.NET application services database to manage authentication and authorization.
 - **ContactManager.Database**. This is a Visual Studio 2010 database project. The project defines the schema for a database that stores contact details.
@@ -81,7 +81,7 @@ A complete review of the solution and its deployment requirements is provided in
 
 There are several distinct tasks involved in deploying applications to different environments in a large organization. These are the key tasks that the tutorials cover:
 
-![](enterprise-web-deployment-scenario-overview/_static/image3.png)
+![There are several distinct tasks involved in deploying applications to different environments in a large organization.](enterprise-web-deployment-scenario-overview/_static/image3.png)
 
 Here is a list of each step in the deployment process from the perspective of the users described earlier in this document:
 

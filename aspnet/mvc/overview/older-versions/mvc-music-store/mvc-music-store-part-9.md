@@ -2,7 +2,7 @@
 uid: mvc/overview/older-versions/mvc-music-store/mvc-music-store-part-9
 title: "Part 9: Registration and Checkout | Microsoft Docs"
 author: jongalloway
-description: "This tutorial series details all of the steps taken to build the ASP.NET MVC Music Store sample application. Part 9 covers Registration and Checkout."
+description: This tutorial series details all of the steps taken to build the ASP.NET MVC Music Store sample application. Part 9 covers Registration and Checkout.
 ms.author: riande
 ms.date: 04/21/2011
 ms.assetid: d65c5c2b-a039-463f-ad29-25cf9fb7a1ba
@@ -23,23 +23,23 @@ In this section, we will be creating a CheckoutController which will collect the
 
 Users will navigate to the checkout process from their shopping cart by clicking the "Checkout" button.
 
-![](mvc-music-store-part-9/_static/image1.jpg)
+![Screenshot of the Music Store window showing the checkout view with the Checkout button highlighted by a red arrow.](mvc-music-store-part-9/_static/image1.jpg)
 
 If the user is not logged in, they will be prompted to.
 
-![](mvc-music-store-part-9/_static/image1.png)
+![Screenshot of the Music Store window showing the log on view with User name and Password fields.](mvc-music-store-part-9/_static/image1.png)
 
 Upon successful login, the user is then shown the Address and Payment view.
 
-![](mvc-music-store-part-9/_static/image2.png)
+![Screenshot of the Music Store window showing the address and payment view with fields to collect shipping address and payment information.](mvc-music-store-part-9/_static/image2.png)
 
 Once they have filled the form and submitted the order, they will be shown the order confirmation screen.
 
-![](mvc-music-store-part-9/_static/image3.png)
+![Screenshot of the Music Store window showing the checkout complete view that informs the user that the order is complete.](mvc-music-store-part-9/_static/image3.png)
 
 Attempting to view either a non-existent order or an order that doesn't belong to you will show the Error view.
 
-![](mvc-music-store-part-9/_static/image4.png)
+![Screenshot of the Music Store window showing the error view when the user attempts to view another person's order or a fictitious order.](mvc-music-store-part-9/_static/image4.png)
 
 ## Migrating the Shopping Cart
 
@@ -65,7 +65,7 @@ That's it - now an anonymous shopping cart will be automatically transferred to 
 
 Right-click on the Controllers folder and add a new Controller to the project named CheckoutController using the Empty controller template.
 
-![](mvc-music-store-part-9/_static/image5.png)
+![Screenshot of the Add Controller window with the Controller name field filled with the text Checkout Controller.](mvc-music-store-part-9/_static/image5.png)
 
 First, add the Authorize attribute above the Controller class declaration to require users to register before checkout:
 
@@ -111,7 +111,7 @@ The complete CheckoutController code is as follows:
 
 Now, let's create the AddressAndPayment view. Right-click on one of the AddressAndPayment controller actions and add a view named AddressAndPayment which is strongly typed as an Order and uses the Edit template, as shown below.
 
-![](mvc-music-store-part-9/_static/image6.png)
+![Screenshot of the Add View window with the View name field, the Create a view checkbox, and the Model class and Scaffold dropdowns highlighted in red.](mvc-music-store-part-9/_static/image6.png)
 
 This view will make use of two of the techniques we looked at while building the StoreManagerEdit view:
 
@@ -130,7 +130,7 @@ Now that our view is set up, we will set up the validation rules for our Order m
 
 Attempting to submit the form with missing or invalid information will now show error message using client-side validation.
 
-![](mvc-music-store-part-9/_static/image7.png)
+![Screenshot of the Music Store window showing the address and payment view with a string of invalid information in the phone and email fields.](mvc-music-store-part-9/_static/image7.png)
 
 Okay, we've done most of the hard work for the checkout process; we just have a few odds and ends to finish. We need to add two simple views, and we need to take care of the handoff of the cart information during the login process.
 
@@ -138,7 +138,7 @@ Okay, we've done most of the hard work for the checkout process; we just have a 
 
 The Checkout Complete view is pretty simple, as it just needs to display the Order ID. Right-click on the Complete controller action and add a view named Complete which is strongly typed as an int.
 
-![](mvc-music-store-part-9/_static/image8.png)
+![Screenshot of the Add View window with the View name field and the Model class dropdown highlighted in red rectangles.](mvc-music-store-part-9/_static/image8.png)
 
 Now we will update the view code to display the Order ID, as shown below.
 

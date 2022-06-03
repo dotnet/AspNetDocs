@@ -4,7 +4,8 @@ title: "Breeze/Knockout template | Microsoft Docs"
 author: madskristensen
 description: "Breeze/Knockout Single Page Application template"
 ms.author: riande
-ms.date: 01/30/2013
+ms.date: 04/27/2022
+ms.custom: devdivchpfy22
 ms.assetid: 3bd94827-3c59-448f-abc3-36e6df4858db
 msc.legacyurl: /single-page-application/overview/templates/breezeknockout-template
 msc.type: authoredcontent
@@ -19,7 +20,7 @@ by [Mads Kristensen](https://github.com/madskristensen)
 
 You've heard of "single page application" (SPA) and wondered what it is. While you could read about it, you'd rather experience it for yourself. But who has time to download a sample? If you've got Visual Studio, you'll have an example SPA up and running in less than 60 seconds with the ASP.NET MVC 4 "Breeze/Knockout Single Page Application" template.
 
-![](http://www.breezejs.com/sites/all/images/spa-template/ZephyrRunning.png)
+:::image type="content" source="http://www.breezejs.com/sites/all/images/spa-template/ZephyrRunning.png" alt-text="Screenshot of the Breeze Knockout Single Page Application template.":::
 
 ## What is the Breeze/Knockout SPA Template?
 
@@ -51,15 +52,15 @@ In the **Templates** pane, select **Installed Templates** and expand the **Visua
 
 In the **New Project** wizard, select **Breeze Knockout SPA**.
 
-![](http://www.breezejs.com/sites/all/images/spa-template/SelectBreezeKOSpaTemplate.png)
+:::image type="content" source="http://www.breezejs.com/sites/all/images/spa-template/SelectBreezeKOSpaTemplate.png" alt-text="Screenshot of the Templates pane in Visual Studio to select Installed Templates.":::
 
 Press Ctrl-F5 to build and run the application without debugging, or press F5 to run with debugging.
 
-![](http://www.breezejs.com/sites/all/images/spa-template/ZephyrRunning.png)
+:::image type="content" source="http://www.breezejs.com/sites/all/images/spa-template/ZephyrRunning.png" alt-text="Screenshot of the application to run with or without debugging.":::
 
 When the application first runs, it displays a login screen. Click the "Sign up" link and a new page glides into view, where you can enter a username and password. (The login and registration pages are built using ASP.NET MVC.) When you submit the registration form, the server generates a TodoList with two items for your account. Then it presents them to you on a yellow note.
 
-![](http://www.breezejs.com/sites/all/images/spa-template/TodoList.png)
+:::image type="content" source="http://www.breezejs.com/sites/all/images/spa-template/TodoList.png" alt-text="Screenshot of the To do List with two items for your account on a yellow note.":::
 
 Now you are in the land of SPA. Everything you see and experience while manipulating Todos is rendered and managed on the client with the help of Knockout and Breeze. Explore the app as a user … but with a developer's eye. Use the developer tools in your browser to capture the network traffic. (In Internet Explorer: Press F12, select the **Network** tab, and click **Start capturing**.) Now try the following:
 
@@ -82,7 +83,7 @@ Review the network traffic. Notice that there were no calls to the server when B
 
 This application has a client side and a server side. The client-side stack consists of a little HTML and a combination of application JavaScript modules (in the "app" folder) plus third-party JavaScript libraries (in the "Scripts" folder).
 
-![](http://www.breezejs.com/sites/all/images/spa-template/ClientArchitecture.png)
+:::image type="content" source="http://www.breezejs.com/sites/all/images/spa-template/ClientArchitecture.png" alt-text="Screenshot of the Client Architecture of the application having a client side and a server side.":::
 
 If you've investigated the KnockoutJS SPA template, this should look very familiar. Focus on the blue boxes. The UI architecture is Model-View-ViewModel (MVVM), in which the HTML widgets of the view are cleanly separated from the supporting presentation code in the view-model. A data binding system (Knockout in this case) coordinates the view and view-model so that each can do its job without intimate knowledge of the other.
 
@@ -90,7 +91,7 @@ The model encapsulates the Todo data. Entities in the model are constructed by B
 
 The server-side stack consists of some developer code and three principle .NET libraries: Web API, Entity Framework, and Breeze.NET:
 
-![](http://www.breezejs.com/sites/all/images/spa-template/ServerArchitecture.png)
+:::image type="content" source="http://www.breezejs.com/sites/all/images/spa-template/ServerArchitecture.png" alt-text="Screenshot of the Server Architecture with details about the server side stack.":::
 
 The basic architecture is the same as the KnockoutJS SPA template. However, the implementation is much simpler: The DTOs were deleted, and most of the Entity Framework details have been delegated to Breeze.NET.
 

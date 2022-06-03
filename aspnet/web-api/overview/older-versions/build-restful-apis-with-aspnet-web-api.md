@@ -26,7 +26,7 @@ This lab requires a basic understanding of HTTP, REST, and assumes you have a ba
 > > ASP.NET Web API, similar to ASP.NET MVC 4, has great flexibility in terms of separating the service layer from the controllers allowing you to use several of the available Dependency Injection frameworks fairly easy. 
 > 
 > 
-> All sample code and snippets are included in the Web Camps Training Kit, available at [https://go.microsoft.com/fwlink/?LinkID=248297&clcid=0x409](https://go.microsoft.com/fwlink/?LinkID=248297&clcid=0x409).
+> All sample code and snippets are included in the Web Camps Training Kit, available at [https://github.com/Microsoft-Web/WebCampTrainingKit/releases](https://github.com/Microsoft-Web/WebCampTrainingKit/releases).
 
 <a id="Objectives"></a>
 ### Objectives
@@ -251,15 +251,15 @@ This task will demonstrate how to extract functionality into a Service layer to 
 17. Press **F5** to continue.
 18. Go back to Internet Explorer if it is not already in focus. Note the network capture window.
 
-    ![Network view in Internet Explorer showing results of the Web API call](build-restful-apis-with-aspnet-web-api/_static/image19.png "Network view in Internet Explorer showing results of the Web API call")
+![Network view in Internet Explorer showing results of the Web API call](build-restful-apis-with-aspnet-web-api/_static/image19.png "Network view in Internet Explorer showing results of the Web API call")
 
-    *Network view in Internet Explorer showing results of the Web API call*
+*Network view in Internet Explorer showing results of the Web API call*
 19. Click the **Go to detailed view** button.
 20. Click the **Response body** tab. Note the JSON output of the API call, and how it represents the two contacts retrieved by the service layer.
 
-    ![Viewing the JSON output from the Web API in the developer tools window](build-restful-apis-with-aspnet-web-api/_static/image20.png "Viewing the JSON output from the Web API in the developer tools window")
+![Viewing the JSON output from the Web API in the developer tools window](build-restful-apis-with-aspnet-web-api/_static/image20.png "Viewing the JSON output from the Web API in the developer tools window")
 
-    *Viewing the JSON output from the Web API in the developer tools window*
+*Viewing the JSON output from the Web API in the developer tools window*
 
 <a id="Exercise2"></a>
 
@@ -521,7 +521,7 @@ This appendix will show you how to create a new web site from the Azure Portal a
 <a id="Task_1_-_Creating_a_New_Web_Site_from_the_Windows_Azure_Portal"></a>
 #### Task 1 - Creating a New Web Site from the Azure Portal
 
-1. Go to the [Azure Management Portal](https://manage.windowsazure.com/) and sign in using the Microsoft credentials associated with your subscription.
+1. Go to the [Azure Management Portal](https://ms.portal.azure.com/) and sign in using the Microsoft credentials associated with your subscription.
 
     > [!NOTE]
     > With Azure you can host 10 ASP.NET Web Sites for free and then scale as your traffic grows. You can sign up [here](https://aka.ms/aspnet-hol-azure).

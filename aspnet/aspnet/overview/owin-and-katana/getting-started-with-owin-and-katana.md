@@ -2,7 +2,7 @@
 uid: aspnet/overview/owin-and-katana/getting-started-with-owin-and-katana
 title: "Getting Started with OWIN and Katana | Microsoft Docs"
 author: rick-anderson
-description: ""
+description: "Description and examples for getting started with OWIN and Katana using .NET"
 ms.author: riande
 ms.date: 06/02/2022
 ms.custom: devdivchpfy22
@@ -11,8 +11,6 @@ msc.legacyurl: /aspnet/overview/owin-and-katana/getting-started-with-owin-and-ka
 msc.type: authoredcontent
 ---
 # Getting Started with OWIN and Katana
-
-by [Mike Wasson](https://github.com/MikeWasson)
 
 [Open Web Interface for .NET (OWIN)](http://owin.org/) defines an abstraction between .NET web servers and web applications. By decoupling the web server from the application, OWIN makes it easier to create middleware for .NET web development. Also, OWIN makes it easier to port web applications to other hosts&#8212;for example, self-hosting in a Windows service or other process.
 
@@ -26,11 +24,11 @@ In this section, we'll host OWIN in IIS. This option gives you the flexibility a
 
 First, create a new ASP.NET Web Application project. (In Visual Studio 2012, use the ASP.NET Empty Web Application project type.)
 
-![Screenshot of the new A S P dot NET Web Application project to host OWIN in I I S.](getting-started-with-owin-and-katana/_static/image1.png)
+![New ASP.NET project illustration](getting-started-with-owin-and-katana/_static/image1.png)
 
 In the **New ASP.NET Project** dialog, select the **Empty** template.
 
-![Screenshot of the A S P dot NET Project dialog to select the empty template.](getting-started-with-owin-and-katana/_static/image2.png)
+![Example illustration](getting-started-with-owin-and-katana/_static/image2.png)
 
 ### Add NuGet Packages
 
@@ -38,13 +36,13 @@ Next, add the required NuGet packages. From the **Tools** menu, select **NuGet P
 
 `install-package Microsoft.Owin.Host.SystemWeb –Pre`
 
-![Screenshot of adding the required NuGet packages.](getting-started-with-owin-and-katana/_static/image3.png)
+![Installing Package Manager, example illustration](getting-started-with-owin-and-katana/_static/image3.png)
 
 ### Add a Startup Class
 
 Next, add an OWIN startup class. In Solution Explorer, right-click the project and select **Add**, then select **New Item**. In the **Add New Item** dialog, select **Owin Startup class**. For more info on configuring the startup class, see [OWIN Startup Class Detection](owin-startup-class-detection.md).
 
-![Screenshot of the Add New Item dialog to select OWIN Startup class.](getting-started-with-owin-and-katana/_static/image4.png)
+![Adding a Startup Class example](getting-started-with-owin-and-katana/_static/image4.png)
 
 Add the following code to the `Startup1.Configuration` method:
 
@@ -61,7 +59,7 @@ This code adds a simple piece of middleware to the OWIN pipeline, implemented as
 
 Press F5 to begin debugging. Visual Studio will open a browser window to `http://localhost:*port*/`. The page should look like the following:
 
-![Screenshot of Visual Studio that opens in a browser window when you run the application.](getting-started-with-owin-and-katana/_static/image5.png)
+![Successful page load illustration](getting-started-with-owin-and-katana/_static/image5.png)
 
 ## Self-Host OWIN in a Console Application
 
@@ -79,7 +77,7 @@ Implement the application's `Main` method as follows.
 
 When you run the console application, the server starts listening to `http://localhost:9000`. If you navigate to this address in a web browser, you will see the "Hello world" page.
 
-![Screenshot of the Hello world page when you run the console application.](getting-started-with-owin-and-katana/_static/image6.png)
+![Console listening image example](getting-started-with-owin-and-katana/_static/image6.png)
 
 ## Add OWIN Diagnostics
 
@@ -95,7 +93,7 @@ Change the code in your `Startup1.Configuration` method as follows:
 
 Now use CTRL+F5 to run the application without debugging, so that Visual Studio will not break on the exception. The application behaves the same as before, until you navigate to `http://localhost/fail`, at which point the application throws the exception. The error page middleware will catch the exception and display an HTML page with information about the error. You can click the tabs to see the stack, query string, cookies, request header, and OWIN environment variables.
 
-![Screenshot of the application throwing the exceptions.](getting-started-with-owin-and-katana/_static/image7.png)
+![Random exeption image example](getting-started-with-owin-and-katana/_static/image7.png)
 
 ## Next Steps
 
