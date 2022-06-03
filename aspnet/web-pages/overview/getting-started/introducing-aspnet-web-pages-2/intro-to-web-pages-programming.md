@@ -1,6 +1,6 @@
 ---
 uid: web-pages/overview/getting-started/introducing-aspnet-web-pages-2/intro-to-web-pages-programming
-title: "Introducing ASP.NET Web Pages - Programming Basics | Microsoft Docs"
+title: Introducing ASP.NET Web Pages - Programming Basics | Microsoft Docs
 author: Rick-Anderson
 description: "This tutorial gives you an overview of how to program in ASP.NET Web Pages with Razor syntax. What you'll learn: The basic 'Razor' syntax that you use for pr..."
 ms.author: riande
@@ -41,7 +41,7 @@ In this section you'll play a bit with Razor so you can get a sense of the basic
 
 Start WebMatrix if it's not already running. You'll use the website you created in the previous tutorial ([Getting Started With Web Pages](https://go.microsoft.com/fwlink/?LinkId=251578)). To reopen it, click **My Sites** and choose **WebPageMovies**:
 
-![WebMatrix start screen showing the Open Site options and My Sites highlighted](intro-to-web-pages-programming/_static/image1.png)
+![Screenshot of the Web Matrix start screen showing the Open Site options and My Sites highlighted with a red rectangle.](intro-to-web-pages-programming/_static/image1.png)
 
 Select the **Files** workspace.
 
@@ -100,11 +100,11 @@ The example is also designed to show you that you can do work in different ways.
 
 Right-click the name of the file and then choose **Launch in browser**. You see the page in the browser with all the values and expressions resolved in the page.
 
-!['TestRazor' page running in browser](intro-to-web-pages-programming/_static/image2.png)
+![Screenshot of the Test Razor page running in a browser window, showing three boxes with the values and expressions resolved.](intro-to-web-pages-programming/_static/image2.png)
 
 Look at the source in the browser.
 
-!['Test Razor' page source in the browser](intro-to-web-pages-programming/_static/image3.png)
+![Screenshot of the Test Razor page source, comparing the page source to the rendered web browser output.](intro-to-web-pages-programming/_static/image3.png)
 
 As you expect from your experience in the previous tutorial, none of the Razor code is in the page. All you see are the actual display values. When you run a page, you're actually making a request to the web server that's built into WebMatrix. When the request is received, ASP.NET resolves all the values and expressions and renders their values into the page. It then sends the page to the browser.
 
@@ -190,7 +190,7 @@ The point here is that you can add if conditions in both the code block at the t
 
 Run the page and click **Submit**. This time you not only see a different message when you submit ("Now you've submitted ..."), but you see a new message that lists the date and time.
 
-!['Test Razor 2' page running in browser with timestamp showing after submit](intro-to-web-pages-programming/_static/image4.png)
+![Screenshot of the Test Razor 2 page running in the web browser with a timestamp message showing after page submission.](intro-to-web-pages-programming/_static/image4.png)
 
 ### Testing the value of a query string
 
@@ -249,11 +249,11 @@ Click **Submit**. You see the date and time, but still no message.
 
 In your browser, go to the URL box and add the following to the end of the URL: ?show=true and then press Enter.
 
-!['Test Razor 2' page in browser showing query string](intro-to-web-pages-programming/_static/image5.png)
+![Screenshot of the Test Razor 2 page in a web browser showing a query string in the U R L box.](intro-to-web-pages-programming/_static/image5.png)
 
 The page is displayed again. (Because you changed the URL, this is a new request, not a submit.) Click **Submit** again. The message is displayed again, as is the date and time.
 
-!['Test Razor 2' page after submit when there is a query string](intro-to-web-pages-programming/_static/image6.png)
+![Screenshot of the Test Razor 2 page in a web browser after page submission with a query string in the U R L box.](intro-to-web-pages-programming/_static/image6.png)
 
 In the URL, change ?show=true to ?show=false and press Enter. Submit the page again. The page is back to how you started — no message.
 
@@ -271,15 +271,15 @@ You can register your own Gravatar at the Gravatar website at [http://www.gravat
 
 In WebMatrix, click the **NuGet** button.
 
-![NuGet Gallery dialog box in WebMatrix](intro-to-web-pages-programming/_static/image7.png)
+![Screenshot of the Web Matrix user interface showing the Nu Get button highlighted with a red rectangle.](intro-to-web-pages-programming/_static/image7.png)
 
 This launches the NuGet package manager and displays available packages. (Not all of the packages are helpers; some add functionality to WebMatrix itself, some are additional templates, and so on.) You may get an error message about version incompatibility. You can ignore this error message by clicking **OK** and proceeding with this tutorial.
 
-![NuGet Gallery dialog box in WebMatrix](intro-to-web-pages-programming/_static/image8.png)
+![Screenshot of the Nu Get Gallery dialog box in Web Matrix showing a list of available packages to install.](intro-to-web-pages-programming/_static/image8.png)
 
 In the search box, enter "asp.net helpers". NuGet shows the packages that match the search terms.
 
-![NuGet Gallery in WebMatrix showing packages](intro-to-web-pages-programming/_static/image9.png)
+![Screenshot of the Nu Get Gallery dialog box in Web Matrix showing the A S P dot N E T Web Helpers Library item highlighted with a red rectangle.](intro-to-web-pages-programming/_static/image9.png)
 
 The ASP.NET Web Helpers Library contains code to simplify many common tasks, including the use of Gravatar images. Select the **ASP.NET Web Helpers Library** package and then click **Install** to launch the installer. Select **Yes** when asked if you want to install the package, and accept the terms to complete the installation.
 
@@ -301,7 +301,7 @@ The @ character is the same character you've been using to mark Razor code. **Gr
 
 As soon as you type the period (.), WebMatrix displays a list of *methods* (functions) that the Gravatar helper makes available:
 
-![Gravatar helper IntelliSense drop-down list](intro-to-web-pages-programming/_static/image10.png)
+![Screenshot of the source editor showing the Gravatar helper IntelliSense drop-down list with the Get H T M L item highlighted in yellow.](intro-to-web-pages-programming/_static/image10.png)
 
 This feature is known as *IntelliSense*. It helps you code by providing context-appropriate choices. IntelliSense works with HTML, CSS, ASP.NET code, JavaScript, and other languages that are supported in WebMatrix. It's another feature that makes it easier to develop web pages in WebMatrix.
 
@@ -311,7 +311,7 @@ Press G on the keyboard, and you see that IntelliSense finds the GetHtml method.
 
 Now view the page in a browser. Either your picture or the default image is displayed, depending on whether you have a Gravatar account.
 
-![Gravatar](intro-to-web-pages-programming/_static/image11.png) ![default image](intro-to-web-pages-programming/_static/image12.png)
+![Screenshot of the web browser window showing the user-selected Gravatar image of a man with glasses.](intro-to-web-pages-programming/_static/image11.png) ![Screenshot of the web browser window showing the default Gravatar image of a stylized and rotated letter G.](intro-to-web-pages-programming/_static/image12.png)
 
 To get an idea of what the helper is doing for you, view the source of the page in the browser. Along with the HTML that you had in your page, you see an image element that includes an identifier. This is code that the helper rendered into the page at the place where you had @Gravatar.GetHtml. The helper took the information you provided and generated the code that talks directly to Gravatar in order to get back the correct image for supplied account.
 
@@ -321,7 +321,7 @@ The GetHtml method also enables you to customize the image by providing other pa
 
 This code produces something like the following result (the default image will randomly vary).
 
-![](intro-to-web-pages-programming/_static/image13.png)
+![Screenshot of the web browser page showing the new specified default image with the set parameters defined in the Get H T M L method.](intro-to-web-pages-programming/_static/image13.png)
 
 ## Coming Up Next
 
