@@ -1,11 +1,11 @@
 ---
 uid: web-api/overview/advanced/configuring-aspnet-web-api
 title: "Configuring ASP.NET Web API 2 - ASP.NET 4.x"
-author: MikeWasson
+author: rick-anderson
 description: "Configure ASP.NET Web API 2 for ASP.NET 4.x: Configure settings, ASP.NET 4.x hosting, OWIN self-hosting, global services and pre-controller configuration."
 ms.author: riande
-ms.date: 03/31/2014
-ms.custom: seoapril2019
+ms.date: 06/01/2022
+ms.custom: seoapril2019, devdivchpfy22
 ms.assetid: 9e10a700-8d91-4d2e-a31e-b8b569fe867c
 msc.legacyurl: /web-api/overview/advanced/configuring-aspnet-web-api
 msc.type: authoredcontent
@@ -55,11 +55,11 @@ Here is an example using an anonymous delegate:
 
 In Visual Studio 2017, the "ASP.NET Web Application" project template automatically sets up the configuration code, if you select "Web API" in the **New ASP.NET Project** dialog.
 
-[![](configuring-aspnet-web-api/_static/image2.png)](configuring-aspnet-web-api/_static/image1.png)
+[![Screenshot of the New A S P dot NET Project dialog.](configuring-aspnet-web-api/_static/image2.png)](configuring-aspnet-web-api/_static/image1.png)
 
 The project template creates a file named WebApiConfig.cs inside the App\_Start folder. This code file defines the delegate where you should put your Web API configuration code.
 
-![](configuring-aspnet-web-api/_static/image3.png)
+![Screenshot of the Solution Explorer with the project template.](configuring-aspnet-web-api/_static/image3.png)
 
 [!code-csharp[Main](configuring-aspnet-web-api/samples/sample2.cs?highlight=12)]
 
@@ -114,7 +114,7 @@ Multiple-Instance Services
 |  <strong>ModelBinderProvider</strong>   |                                                                                                Returns a model binder for a given type.                                                                                                |
 | <strong>ModelMetadataProvider</strong>  |                                                                                                     Provides metadata for a model.                                                                                                     |
 | <strong>ModelValidatorProvider</strong> |                                                                                                   Provides a validator for a model.                                                                                                    |
-|  <strong>ValueProviderFactory</strong>  | Creates a value provider. For more information, see Mike Stall's blog post [How to create a custom value provider in WebAPI](https://docs.microsoft.com/archive/blogs/jmstall/how-to-create-a-custom-value-provider-in-webapi) |
+|  <strong>ValueProviderFactory</strong>  | Creates a value provider. For more information, see Mike Stall's blog post [How to create a custom value provider in WebAPI](/archive/blogs/jmstall/how-to-create-a-custom-value-provider-in-webapi) |
 
 To add a custom implementation to a multi-instance service, call **Add** or **Insert** on the **Services** collection:
 

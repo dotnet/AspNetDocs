@@ -4,9 +4,9 @@ title: "Account Confirmation & Password Recovery - ASP.NET Identity (C#) - ASP.N
 author: HaoK
 description: "Before doing this tutorial you should first complete Create a secure ASP.NET MVC 5 web app with log in, email confirmation and password reset. This tutorial..."
 ms.author: riande
-ms.date: 01/23/2019
+ms.date: 06/01/2022
 ms.assetid: 8d54180d-f826-4df7-b503-7debf5ed9fb3
-ms.custom: seoapril2019
+ms.custom: seoapril2019, devdivchpfy22
 msc.legacyurl: /identity/overview/features-api/account-confirmation-and-password-recovery-with-aspnet-identity
 msc.type: authoredcontent
 ---
@@ -22,19 +22,19 @@ A local user account requires the user to create a password for the account, and
 
 New users register their email alias, which creates a local account.
 
-![](account-confirmation-and-password-recovery-with-aspnet-identity/_static/image1.png)
+![Screenshot of the Register page to create a new account.](account-confirmation-and-password-recovery-with-aspnet-identity/_static/image1.png)
 
 Selecting the Register button sends a confirmation email containing a validation token to their email address.
 
-![](account-confirmation-and-password-recovery-with-aspnet-identity/_static/image2.png)
+![Screenshot of the confirmation email that contains a validation token sent to the new user's email address.](account-confirmation-and-password-recovery-with-aspnet-identity/_static/image2.png)
 
 The user is sent an email with a confirmation token for their account.
 
-![](account-confirmation-and-password-recovery-with-aspnet-identity/_static/image3.png)
+![Screenshot of the link to click and confirm your account.](account-confirmation-and-password-recovery-with-aspnet-identity/_static/image3.png)
 
 Selecting the link confirms the account.
 
-![](account-confirmation-and-password-recovery-with-aspnet-identity/_static/image4.png)
+![Screenshot of the Confirm email page to then log in to your account.](account-confirmation-and-password-recovery-with-aspnet-identity/_static/image4.png)
 
 <a id="passwordReset"></a>
 
@@ -42,18 +42,19 @@ Selecting the link confirms the account.
 
 Local users who forget their password can have a security token sent to their email account, enabling them to reset their password.  
   
-![](account-confirmation-and-password-recovery-with-aspnet-identity/_static/image5.png)  
+![Screenshot of the Forgot your password page to enter your email address for password recovery or reset.](account-confirmation-and-password-recovery-with-aspnet-identity/_static/image5.png)  
   
 The user will soon get an email with a link allowing them to reset their password.  
   
-![](account-confirmation-and-password-recovery-with-aspnet-identity/_static/image6.png)  
+![Screenshot of the reset password page to enter your email address for password reset.](account-confirmation-and-password-recovery-with-aspnet-identity/_static/image6.png)
+  
 Selecting the link will take them to the Reset page.  
   
-![](account-confirmation-and-password-recovery-with-aspnet-identity/_static/image7.png)  
+![Screenshot of the reset password page to reset your password.](account-confirmation-and-password-recovery-with-aspnet-identity/_static/image7.png)  
   
 Selecting the **Reset** button will confirm the password has been reset.  
   
-![](account-confirmation-and-password-recovery-with-aspnet-identity/_static/image8.png)
+![Screenshot of selecting the Reset button to confirm that the password has been reset.](account-confirmation-and-password-recovery-with-aspnet-identity/_static/image8.png)
 
 <a id="createMvc"></a>
 
@@ -68,10 +69,11 @@ Start by installing and running [Visual Studio 2017](https://visualstudio.micros
 
     The following image shows the `AspNetUsers` schema:
 
-    ![](account-confirmation-and-password-recovery-with-aspnet-identity/_static/image9.png)
+    ![Screenshot of the A S P NET Users schema.](account-confirmation-and-password-recovery-with-aspnet-identity/_static/image9.png)
+
 5. Right-click on the **AspNetUsers** table and select **Show Table Data**.  
   
-    ![](account-confirmation-and-password-recovery-with-aspnet-identity/_static/image10.png)  
+    ![Screenshot of the A S P NET Users table to select Show Table Data.](account-confirmation-and-password-recovery-with-aspnet-identity/_static/image10.png)  
   
    At this point the email has not been confirmed.
 
@@ -87,7 +89,7 @@ Per the comments in the code, the `UseCookieAuthentication` method supports cook
 
 The Identity system allow you to configure your app so when the users security profile changes (for example, when the user changes their password or changes associated login (such as from Facebook, Google, Microsoft account, etc.), the user is logged out of all browser instances. For example, the image below shows the [Single signout sample](https://github.com/aspnet/samples/tree/master/samples/aspnet/Identity/SingleSignOutSample) app, which allows the user to sign out of all browser instances (in this case, IE, Firefox and Chrome) by selecting one button. Alternatively, the sample allows you to only log out of a specific browser instance.
 
-![](account-confirmation-and-password-recovery-with-aspnet-identity/_static/image11.png)
+![Screenshot of the Single signout sample app that allows the user to sign out of all browser instances.](account-confirmation-and-password-recovery-with-aspnet-identity/_static/image11.png)
 
 The [Single signout sample](https://github.com/aspnet/samples/tree/master/samples/aspnet/Identity/SingleSignOutSample) app shows how ASP.NET Identity allows you to regenerate the security token. This is needed to ensure that any tokens (cookies) generated with the old password are invalidated. This feature provides an extra layer of security to your application; when you change your password, you will be logged out where you have logged into this application.
 
@@ -187,11 +189,11 @@ Enter your SendGrid credentials, run the app, register with an email alias can s
 
 Once a user selects the **Register** button a confirmation email containing a validation token is sent to their email address.
 
-![](account-confirmation-and-password-recovery-with-aspnet-identity/_static/image12.png)
+![Screenshot of selecting the Register button for a confirmation email to be sent.](account-confirmation-and-password-recovery-with-aspnet-identity/_static/image12.png)
 
 The user is sent an email with a confirmation token for their account.
 
-![](account-confirmation-and-password-recovery-with-aspnet-identity/_static/image13.png)
+![Screenshot of the link to confirm your account after an email has been sent.](account-confirmation-and-password-recovery-with-aspnet-identity/_static/image13.png)
 
 ## Examine the code
 

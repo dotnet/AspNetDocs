@@ -4,7 +4,8 @@ title: "Tutorial: Get started with EF Database First using MVC 5"
 description: "This tutorial shows how to start with an existing database and quickly create a web application that enables users to interact with the data."
 author: Rick-Anderson
 ms.author: riande
-ms.date: 01/15/2019
+ms.date: 06/01/2022
+ms.custom: devdivchpfy22
 ms.topic: tutorial
 ms.assetid: 095abad4-3bfe-4f06-b092-ae6a735b7e49
 msc.legacyurl: /mvc/overview/getting-started/database-first-development/setting-up-database
@@ -68,7 +69,7 @@ Add the following T-SQL code to the post-deployment script. This script simply a
 
 [!code-sql[Main](setting-up-database/samples/sample4.sql)]
 
-It is important to note that the post-deployment script is run every time you deploy your database project. Therefore, you need to carefully consider your requirements when writing this script. In some cases, you may wish to start over from a known set of data every time the project is deployed. In other cases, you may not want to alter the existing data in any way. Based on your requirements, you can decide whether you need a post-deployment script or what you need to include in the script. For more information about populating your database with a post-deployment script, see [Including Data in a SQL Server Database Project](https://docs.microsoft.com/archive/blogs/ssdt/including-data-in-a-sql-server-database-project).
+It is important to note that the post-deployment script is run every time you deploy your database project. Therefore, you need to carefully consider your requirements when writing this script. In some cases, you may wish to start over from a known set of data every time the project is deployed. In other cases, you may not want to alter the existing data in any way. Based on your requirements, you can decide whether you need a post-deployment script or what you need to include in the script. For more information about populating your database with a post-deployment script, see [Including Data in a SQL Server Database Project](/archive/blogs/ssdt/including-data-in-a-sql-server-database-project).
 
 You now have 4 SQL script files but no actual tables. You are ready to deploy your database project to localdb. In Visual Studio, click the Start button (or F5) to build and deploy your database project. Check the **Output** tab to verify that the build and deployment succeeded.
 

@@ -1,10 +1,11 @@
 ---
 uid: aspnet/overview/owin-and-katana/host-owin-in-an-azure-worker-role
 title: "Host OWIN in an Azure Worker Role | Microsoft Docs"
-author: MikeWasson
+author: rick-anderson
 description: "This tutorial shows how to self-host OWIN in a Microsoft Azure worker role. Open Web Interface for .NET (OWIN) defines an abstraction between .NET web server..."
 ms.author: riande
-ms.date: 04/11/2014
+ms.date: 06/01/2022
+ms.custom: devdivchpfy22
 ms.assetid: 07aa855a-92ee-4d43-ba66-5bfd7de20ee6
 msc.legacyurl: /aspnet/overview/owin-and-katana/host-owin-in-an-azure-worker-role
 msc.type: authoredcontent
@@ -32,11 +33,11 @@ Start Visual Studio with administrator privileges. Administrator privileges are 
 
 On the **File** menu, click **New**, then click **Project**. From **Installed Templates**, under Visual C#, click **Cloud** and then click **Windows Azure Cloud Service**. Name the project "AzureApp" and click **OK**.
 
-[![](host-owin-in-an-azure-worker-role/_static/image2.png)](host-owin-in-an-azure-worker-role/_static/image1.png)
+[![Screenshot of creating a new Microsoft Azure Project.](host-owin-in-an-azure-worker-role/_static/image2.png)](host-owin-in-an-azure-worker-role/_static/image1.png)
 
 In the **New Windows Azure Cloud Service** dialog, double-click **Worker Role**. Leave the default name ("WorkerRole1"). This step adds a worker role to the solution. Click **OK**.
 
-[![](host-owin-in-an-azure-worker-role/_static/image4.png)](host-owin-in-an-azure-worker-role/_static/image3.png)
+[![Screenshot of the new Windows Azure Cloud Service dialog.](host-owin-in-an-azure-worker-role/_static/image4.png)](host-owin-in-an-azure-worker-role/_static/image3.png)
 
 The Visual Studio solution that is created contains two projects:
 
@@ -45,7 +46,7 @@ The Visual Studio solution that is created contains two projects:
 
 In general, an Azure application can contain multiple roles, although this tutorial uses a single role.
 
-![](host-owin-in-an-azure-worker-role/_static/image5.png)
+![Screenshot of the Visual Studio solution that is created.](host-owin-in-an-azure-worker-role/_static/image5.png)
 
 ## Add the OWIN Self-Host Packages
 
@@ -59,13 +60,13 @@ In the Package Manager Console window, enter the following command:
 
 In Solution Explorer, expand the AzureApp project. Expand the Roles node, right-click WorkerRole1, and select **Properties**.
 
-![](host-owin-in-an-azure-worker-role/_static/image6.png)
+![Screenshot of the Solution Explorer to add an HTTP Endpoint.](host-owin-in-an-azure-worker-role/_static/image6.png)
 
 Click **Endpoints**, and then click **Add Endpoint**.
 
 In the **Protocol** dropdown list, select "http". In **Public Port** and **Private Port**, type 80. These port numbers can be different. The public port is what clients use when they send a request to the role.
 
-[![](host-owin-in-an-azure-worker-role/_static/image8.png)](host-owin-in-an-azure-worker-role/_static/image7.png)
+[![Screenshot of the Protocol dropdown list to select HTTP.](host-owin-in-an-azure-worker-role/_static/image8.png)](host-owin-in-an-azure-worker-role/_static/image7.png)
 
 ## Create the OWIN Startup Class
 
@@ -107,11 +108,11 @@ Build the solution, and press F5 to run the application locally in the Azure Com
 
 The compute emulator assigns a local IP address to the endpoint. You can find the IP address by viewing the Compute Emulator UI. Right-click the emulator icon in the task bar notification area, and select **Show Compute Emulator UI**.
 
-[![](host-owin-in-an-azure-worker-role/_static/image10.png)](host-owin-in-an-azure-worker-role/_static/image9.png)
+[![Screenshot of the Windows Azure Compute Emulator to start the OWIN host.](host-owin-in-an-azure-worker-role/_static/image10.png)](host-owin-in-an-azure-worker-role/_static/image9.png)
 
 Find the IP address under Service Deployments, deployment [id], Service Details. Open a web browser and navigate to http:\/\/*address*, where *address* is the IP address assigned by the compute emulator; for example, `http://127.0.0.1:80`. You should see the OWIN welcome page:
 
-![](host-owin-in-an-azure-worker-role/_static/image11.png)
+![Screenshot of the OWIN welcome page.](host-owin-in-an-azure-worker-role/_static/image11.png)
 
 ## Deploy to Azure
 
@@ -119,23 +120,23 @@ For this step, you must have an Azure account. If you don't already have one, yo
 
 In Solution Explorer, right-click the AzureApp project. Select **Publish**.
 
-![](host-owin-in-an-azure-worker-role/_static/image12.png)
+![Screenshot of the Solution Explorer to publish the AzureApp project.](host-owin-in-an-azure-worker-role/_static/image12.png)
 
 If you are not signed in to your Azure account, click **Sign In**.
 
-[![](host-owin-in-an-azure-worker-role/_static/image14.png)](host-owin-in-an-azure-worker-role/_static/image13.png)
+[![Screenshot of the Azure account to click Sign In.](host-owin-in-an-azure-worker-role/_static/image14.png)](host-owin-in-an-azure-worker-role/_static/image13.png)
 
 After you are signed in, choose a subscription and click **Next**.
 
-[![](host-owin-in-an-azure-worker-role/_static/image16.png)](host-owin-in-an-azure-worker-role/_static/image15.png)
+[![Screenshot of choosing a subscription.](host-owin-in-an-azure-worker-role/_static/image16.png)](host-owin-in-an-azure-worker-role/_static/image15.png)
 
 Enter a name for the cloud service and choose a region. Click **Create**.
 
-![](host-owin-in-an-azure-worker-role/_static/image17.png)
+![Screenshot of entering a name for the cloud service and choosing a region.](host-owin-in-an-azure-worker-role/_static/image17.png)
 
 Click **Publish**.
 
-[![](host-owin-in-an-azure-worker-role/_static/image19.png)](host-owin-in-an-azure-worker-role/_static/image18.png)
+[![Screenshot of the Publish dialog.](host-owin-in-an-azure-worker-role/_static/image19.png)](host-owin-in-an-azure-worker-role/_static/image18.png)
 
 The Azure Activity Log window shows the progress of the deployment. When the app is deployed, browse to `http://appname.cloudapp.net/`, where *appname* is the name of your cloud service.
 
