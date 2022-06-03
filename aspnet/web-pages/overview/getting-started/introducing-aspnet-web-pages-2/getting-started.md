@@ -1,6 +1,6 @@
 ---
 uid: web-pages/overview/getting-started/introducing-aspnet-web-pages-2/getting-started
-title: Getting Started with ASP.NET | Microsoft Docs
+title: "Getting Started with ASP.NET | Microsoft Docs"
 author: Rick-Anderson
 description: "WebMatrix is no longer recommended as an integrated development environment for ASP.NET Web Pages. Use Visual Studio or Visual Studio Code. This guidance an..."
 ms.author: riande
@@ -100,11 +100,11 @@ The tutorial set you've just started covers these features of ASP.NET Web Pages:
 
 This tutorial set and subsequent ones revolve around a website where you can list movies that you like. You'll be able to enter movies, edit them, and list them. Here are a couple of the pages you'll create in this tutorial set. The first one shows the movie listing page that you'll create:
 
-![Screenshot of the My Movie Site application showing a movie listing, Search Genre and Search Title buttons, and search fields.](getting-started/_static/image1.png)
+![Finshed Movie app showing a movie listing](getting-started/_static/image1.png)
 
 And here's the page that lets you add new movie information to your site:
 
-![Screenshot of the finished movie app showing the Add Movie page with Title, Genre, and Year text fields.](getting-started/_static/image2.png)
+![Finished movie app showing the Add Movie page](getting-started/_static/image2.png)
 
 Subsequent tutorial sets build on this set and add more functionality, like uploading pictures, letting people log in, sending email, and integrating with social media.
 
@@ -112,7 +112,7 @@ Subsequent tutorial sets build on this set and add more functionality, like uplo
 
 Would you like to see the finished site running as a live web app? You can deploy a complete version of the app to your Azure account by simply clicking the following button.
 
-[:::image type="icon" source="http://azuredeploy.net/deploybutton.png":::](https://azuredeploy.net/?WT.mc_id=deploy_azure_aspnet&repository=https://github.com/tfitzmac/WebPagesMovies)
+![Button for the Azure deployment function.](http://azuredeploy.net/deploybutton.png)](https://azuredeploy.net/?WT.mc_id=deploy_azure_aspnet&repository=https://github.com/tfitzmac/WebPagesMovies)
 
 You need an Azure account to deploy this solution to Azure. If you do not already have an account, you have the following options:
 
@@ -127,11 +127,11 @@ To use Web Pages, you have to be have at least Windows XP with SP3 installed, or
 
 On the [Web Pages page](../../../index.md) of the ASP.NET website, click **Install**.
 
-![Screenshot of the A S P dot N E T website showing the Install Web Matrix for free button highlighted with a red rectangle.](getting-started/_static/image3.png)
+![ASP.NET Web site showing &quot;Install WebMatrix&quot; button](getting-started/_static/image3.png)
 
 You are asked to accept the license terms and privacy statement before installing WebMatrix.
 
-![Screenshot of the Microsoft Web Platform Installer dialog box showing the green Accept and Install button.](getting-started/_static/image4.png)
+![accept term to begin installation](getting-started/_static/image4.png)
 
 Click **Run** to start the installation. (If you want to save the installer, click **Save** and then run the installer from the folder where you saved it.)
 
@@ -153,31 +153,31 @@ You do not have to sign in right now to continue with this tutorial. If you do n
 
 At this point, either sign in with your Microsoft account or select **Not Now** in the lower right corner.
 
-![Screenshot of the Windows Azure sign in dialog with the Microsoft account and organizational account sign in options.](getting-started/_static/image7.png)
+![Sign In](getting-started/_static/image7.png)
 
 To begin, you'll create a blank website and add a page. In a later tutorial in this set you'll play with one of the built-in website templates.
 
 In the start window, click **New**.
 
-![Screenshot of the Web Matrix Quick Start window showing the New icon highlighted with a red rectangle.](getting-started/_static/image8.png)
+![WebMatrix startup screen](getting-started/_static/image8.png)
 
 Templates are prebuilt files and pages for different types of websites. To see all of the templates that are available by default, select the Template Gallery option.
 
-![Screenshot of the Web Matrix Quick Start window showing the Template Gallery list item highlighted with red rectangle.](getting-started/_static/image9.png)
+![Select Template Gallery](getting-started/_static/image9.png)
 
 In the **Quick Start** window, select **Empty Site** from the **ASP.NET** group and name the new site "WebPagesMovies".
 
-![Screenshot of the Web Matrix Quick Start window with the Empty Site template and the Site Name field highlighted with a red rectangle.](getting-started/_static/image10.png)
+![WebMatrix Quick Start window with Empty Site template selected](getting-started/_static/image10.png)
 
 Click **Next**.
 
 If you have signed in to your Microsoft account, you will be given the opportunity to create the site on Azure. Based on the name of your site, the default name of **WebPagesMovies.azurewebsites.net** is suggested; however, the exclamation point indicates that this name is not available on Windows Azure. For simplicity, select **Skip** to bypass creating the web site on Azure right now. Later in this series, we will publish the site to Azure.
 
-![Screenshot of the Site from Template dialog box showing the Site Name field exclamation mark and the Skip button highlighted with a red rectangle.](getting-started/_static/image11.png)
+![create azure site](getting-started/_static/image11.png)
 
 WebMatrix creates and opens the site:
 
-![Screenshot of the Microsoft Web Matrix window showing the Web Pages Movies folder highlighted in light blue in the folder hierarchy.](getting-started/_static/image12.png)
+![New WebPagesMovies site open in WebMatrix](getting-started/_static/image12.png)
 
 At the top, there's a Quick Access Toolbar and a ribbon. At the bottom left, you see the workspace selector where you switch between tasks (**Site**, **Files**, **Databases**, **Reports**). On the right is the content pane for the editor and for reports. And across the bottom you'll occasionally see a notification bar for messages.
 
@@ -189,21 +189,21 @@ To become familiar with WebMatrix and ASP.NET Web Pages, you'll create a simple 
 
 In the workspace selector, select the **Files** workspace. This workspace lets you work with files and folders. The left pane shows the file structure of your site. The ribbon changes to show file-related tasks.
 
-![Screenshot of the Microsoft Web Matrix window with the Web Pages Movies site opened in the new Files workspace.](getting-started/_static/image13.png)
+![File Workspace in WebMatrix](getting-started/_static/image13.png)
 
 In the ribbon, click the arrow under **New** and then click **New File**.
 
-![Screenshot of the Microsoft Web Matrix ribbon with the New button and New file menu item highlighted in yellow and with a red rectangle.](getting-started/_static/image14.png)
+![Using the &quot;New&quot; command in the ribbon to create a new file](getting-started/_static/image14.png)
 
 WebMatrix displays a list of file types. Select **CSHTML**, and in the **Name** box, type "HelloWorld". A CSHTML page is an ASP.NET Web Pages page.
 
-![Screenshot of the Choose a File Type dialog with the C S H T M L icon and the Name field box highlighted with a red rectangle.](getting-started/_static/image15.png)
+![Creating a new CSHTML page named HelloWorld.cshtml](getting-started/_static/image15.png)
 
 Click **OK**.
 
 WebMatrix creates the page and opens it in the editor.
 
-![Screenshot of the Web Matrix page editor showing the contents of the Hello World dot C S H T M L file.](getting-started/_static/image16.png)
+![The new HelloWorld page in the WebMatrix editor](getting-started/_static/image16.png)
 
 As you can see, the page contains mostly ordinary HTML markup, except for a block at the top that looks like this:
 
@@ -219,17 +219,17 @@ Add content for the `<head>` and `<body>` elements like in the following example
 
 In the Quick Access Toolbar or in the **File** menu, click **Save**.
 
-![Screenshot of the Web Matrix window showing the File menu with the Save button highlighted in yellow.](getting-started/_static/image17.png)
+![Save button in WebMatrix Quick Access Toolbar](getting-started/_static/image17.png)
 
 ## Testing the Page
 
 In the **Files** workspace, right-click the *HelloWorld.cshtml* page and then click **Launch in browser**.
 
-![Screenshot of the Files workspace showing the Hello World dot c s h t m l file highlighted in blue and the Launch in browser menu item highlighted.](getting-started/_static/image18.png)
+![Running a page using the Run button in the WebMatrix ribbon](getting-started/_static/image18.png)
 
 WebMatrix starts a built-in web server (IIS Express) that you can use to test pages on your computer. (Without IIS Express in WebMatrix, you'd have to publish your page to a web server somewhere before you could test it.) The page is displayed in your default browser.
 
-![Screenshot of the web browser showing the Hello World page with a Hello World message and the U R L box with the localhost U R L.](getting-started/_static/image19.png)
+![&quot;Hello World&quot; page running in the browser](getting-started/_static/image19.png)
 
 Notice that when you test a page in WebMatrix, the URL in the browser is something like `http://localhost:33651/HelloWorld.cshtml.` The name *localhost* refers to a local server, meaning that the page is served by a web server that's on your own computer. As noted, WebMatrix includes a web server program named IIS Express that runs when you launch a page.
 
@@ -255,7 +255,7 @@ This code gets the value that you put into the `currentDateTime` variable at the
 
 Run the page again (WebMatrix saves the changes for you before it runs the page). This time you see the date and time in the page.
 
-![Screenshot of the web browser showing the Hello World page with the date and time in addition to the Hello World message.](getting-started/_static/image20.png)
+![&quot;Hello World&quot; page running in the browser with a dynamically generated time display](getting-started/_static/image20.png)
 
 Wait a few moments and then refresh the page in the browser. The date and time display is updated.
 
@@ -269,7 +269,7 @@ Notice that the `@{ }` block at the top isn't there. Also notice that the date a
 
 When you read that ASP.NET Web Pages produces dynamic web content, what you've seen here is the idea. The page you just created contains the same HTML markup that you've seen before. It can also contain code that can perform all sorts of tasks. In this example, it did the trivial task of getting the current date and time. As you saw, you can intersperse code with the HTML to produce output in the page. When someone requests a *.cshtml* page in the browser, ASP.NET processes the page while it's still in the hands of the web server. ASP.NET inserts the output of the code (if any) into the page as HTML. When the code processing is done, ASP.NET sends the resulting page to the browser. All the browser ever gets is HTML. Here's a diagram:
 
-![Diagram that shows a browser sending a request to a web server and the web server sending a response back to the browser.](getting-started/_static/image21.png)
+![Conceptual flow of how ASP.NET generates HTML dynamically](getting-started/_static/image21.png)
 
 The idea is simple, but there are many interesting tasks that the code can perform, and there are many interesting ways in which you can dynamically add HTML content to the page. And ASP.NET *.cshtml* pages, like any HTML page, can also include code that runs in the browser itself (JavaScript and jQuery code). You'll explore all of these things in this tutorial set and in subsequent ones.
 
