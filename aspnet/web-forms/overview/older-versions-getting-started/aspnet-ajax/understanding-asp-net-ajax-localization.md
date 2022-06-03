@@ -96,11 +96,11 @@ For those unfamiliar with JavaScript Regex syntax, text within single forward sl
 1. Press F5. If prompted, enable debugging. When the page is loaded, press the Delete button. Note that you are prompted in English (unless your computer is set to prefer Spanish-language resources by default) for confirmation.
 2. Close the browser window and return to default.aspx. In the @Page header directive, replace auto for Culture and UICulture with es-ES. Press F5 again to launch the web application in the browser again. This time, note that you are prompted to delete the file in Spanish:
 
-[![](understanding-asp-net-ajax-localization/_static/image2.png)](understanding-asp-net-ajax-localization/_static/image1.png)
+[![Screenshot that shows a Windows Internet Explorer dialog with a Spanish language prompt to click O K.](understanding-asp-net-ajax-localization/_static/image2.png)](understanding-asp-net-ajax-localization/_static/image1.png)
 
 ([Click to view full-size image](understanding-asp-net-ajax-localization/_static/image3.png))
 
-[![](understanding-asp-net-ajax-localization/_static/image5.png)](understanding-asp-net-ajax-localization/_static/image4.png)
+[![Screenshot that shows a prompt to delete the file in Spanish.](understanding-asp-net-ajax-localization/_static/image5.png)](understanding-asp-net-ajax-localization/_static/image4.png)
 
 ([Click to view full-size image](understanding-asp-net-ajax-localization/_static/image6.png))
 
