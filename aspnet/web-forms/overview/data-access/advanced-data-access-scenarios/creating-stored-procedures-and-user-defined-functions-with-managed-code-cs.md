@@ -19,7 +19,7 @@ by [Scott Mitchell](https://twitter.com/ScottOnWriting)
 
 ## Introduction
 
-Databases like Microsoft s SQL Server 2005 use the [Transact-Structured Query Language (T-SQL)](http://en.wikipedia.org/wiki/Transact-SQL) for inserting, modifying, and retrieving data. Most database systems include constructs for grouping a series of SQL statements that can then be executed as a single, reusable unit. Stored procedures are one example. Another is *User-Defined Functions*(UDFs), a construct that we will examine in greater detail in Step 9.
+Databases like Microsoft's SQL Server 2005 use the [Transact-Structured Query Language (T-SQL)](http://en.wikipedia.org/wiki/Transact-SQL) for inserting, modifying, and retrieving data. Most database systems include constructs for grouping a series of SQL statements that can then be executed as a single, reusable unit. Stored procedures are one example. Another is *User-Defined Functions*(UDFs), a construct that we will examine in greater detail in Step 9.
 
 At its core, SQL is designed for working with sets of data. The `SELECT`, `UPDATE`, and `DELETE` statements inherently apply to all records in the corresponding table and are only limited by their `WHERE` clauses. Yet there are many language features designed for working with one record at a time and for manipulating scalar data. [`CURSOR` s](http://www.sqlteam.com/item.asp?ItemID=553) allow for a set of records to be looped through one at a time. String manipulation functions like `LEFT`, `CHARINDEX`, and `PATINDEX` work with scalar data. SQL also includes control flow statements like `IF` and `WHILE`.
 
