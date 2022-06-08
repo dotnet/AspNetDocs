@@ -4,7 +4,8 @@ title: "Enable Automated Unit Testing | Microsoft Docs"
 author: rick-anderson
 description: "Step 12 shows how to develop a suite of automated unit tests that verify our NerdDinner functionality, and which will give us the confidence to make changes..."
 ms.author: riande
-ms.date: 07/27/2010
+ms.date: 06/08/2022
+ms.custom: devdivchpfy22
 ms.assetid: a19ff2ce-3f7e-4358-9a51-a1403da9c63e
 msc.legacyurl: /mvc/overview/older-versions-1/nerddinner/enable-automated-unit-testing
 msc.type: authoredcontent
@@ -138,7 +139,7 @@ We can define this interface contract manually by right-clicking on the \Models 
 
 Alternatively we can use the refactoring tools built-into Visual Studio Professional (and higher editions) to automatically extract and create an interface for us from our existing DinnerRepository class. To extract this interface using VS, simply position the cursor in the text editor on the DinnerRepository class, and then right-click and choose the **Refactor-&gt;Extract Interface** menu command:
 
-![](enable-automated-unit-testing/_static/image7.png)
+![Screenshot of the Extract Interface menu command.](enable-automated-unit-testing/_static/image7.png)
 
 This will launch the "Extract Interface" dialog and prompt us for the name of the interface to create. It will default to IDinnerRepository and automatically select all public methods on the existing DinnerRepository class to add to the interface:
 

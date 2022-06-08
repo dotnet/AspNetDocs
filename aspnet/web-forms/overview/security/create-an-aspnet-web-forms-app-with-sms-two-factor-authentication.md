@@ -4,7 +4,8 @@ title: "Create an ASP.NET Web Forms app with SMS Two-Factor Authentication (C#) 
 author: Erikre
 description: "This tutorial shows you how to build an ASP.NET Web Forms app with Two-Factor Authentication. This tutorial was designed to complement the tutorial titled Cr..."
 ms.author: riande
-ms.date: 10/09/2014
+ms.date: 06/07/2022
+ms.custom: devdivchpfy22
 ms.assetid: 716264ae-ab72-45de-bfc5-53a6237089cf
 msc.legacyurl: /web-forms/overview/security/create-an-aspnet-web-forms-app-with-sms-two-factor-authentication
 msc.type: authoredcontent
@@ -78,23 +79,32 @@ This tutorial uses Twilio, but you can use any SMS provider.
 10. In **Solution Explorer**, right-click *Default.aspx* and select **Set As Start Page**.
 11. By testing your app, first build the app (**Ctrl**+**Shift**+**B**) and then run the app (**F5**) and either select **Register** to create a new user account or select **Log in** if the user account has already been registered.
 12. Once you (as the user) have logged in, click on the User ID (email address) in the navigation bar to display the **Manage Account** page (Manage.aspx).  
-    ![](create-an-aspnet-web-forms-app-with-sms-two-factor-authentication/_static/image2.png)
+    ![Screenshot of the A S P dot NET application homepage.](create-an-aspnet-web-forms-app-with-sms-two-factor-authentication/_static/image2.png)
+
 13. Click **Add** next to **Phone Number** on the **Manage Account** page.  
-    ![](create-an-aspnet-web-forms-app-with-sms-two-factor-authentication/_static/image3.png)
+    ![Screenshot of the Manage Account page.](create-an-aspnet-web-forms-app-with-sms-two-factor-authentication/_static/image3.png)
+
 14. Add the phone number where you (as the user) would like to receive SMS messages (text messages) and click the **Submit** button.   
-    ![](create-an-aspnet-web-forms-app-with-sms-two-factor-authentication/_static/image4.png)  
+    ![Screenshot of the page to add phone number.](create-an-aspnet-web-forms-app-with-sms-two-factor-authentication/_static/image4.png)
+  
     At this point, the app will use the credentials from the *Web.config* to contact Twilio. A SMS message (text message) will be sent to the phone associated with the user account. You can verify that the Twilio message was sent by viewing the Twilio dashboard.
 15. In a few seconds, the phone associated with the user account will get a text message containing the verification code. Enter the verification code and press **Submit**.  
-     ![](create-an-aspnet-web-forms-app-with-sms-two-factor-authentication/_static/image5.png)
+     ![Screenshot of the page to verify phone number.](create-an-aspnet-web-forms-app-with-sms-two-factor-authentication/_static/image5.png)
 
 <a id="use2FA"></a>
 ## Enable Two-Factor Authentication for a Registered User
 
 At this point, you have enabled two-factor authentication for your app. For a user to use two-factor authentication, they can simply change their settings using the UI. 
 
-1. As a user of your app you can enable two-factor authentication for your specific account by clicking on the user ID (email alias) in the navigation bar to display the **Manage Account** page.Then, click on the **Enable** link to enable two-factor authentication for the account.![](create-an-aspnet-web-forms-app-with-sms-two-factor-authentication/_static/image6.png)
-2. Log off, then log back in. If you've enabled email, you can select either SMS or email for two-factor authentication. If you haven't enabled email, see the tutorial titled [Create a Secure ASP.NET Web Forms App with User Registration, Email Confirmation and Password Reset](create-a-secure-aspnet-web-forms-app-with-user-registration-email-confirmation-and-password-reset.md).![](create-an-aspnet-web-forms-app-with-sms-two-factor-authentication/_static/image7.png)
-3. The Two-Factor Authentication page is displayed where you can enter the code (from SMS or email).![](create-an-aspnet-web-forms-app-with-sms-two-factor-authentication/_static/image8.png)  
+1. As a user of your app you can enable two-factor authentication for your specific account by clicking on the user ID (email alias) in the navigation bar to display the **Manage Account** page.Then, click on the **Enable** link to enable two-factor authentication for the account.
+![Screenshot of the Manage Account page to enable two factor authentication.](create-an-aspnet-web-forms-app-with-sms-two-factor-authentication/_static/image6.png)
+
+1. Log off, then log back in. If you've enabled email, you can select either SMS or email for two-factor authentication. If you haven't enabled email, see the tutorial titled [Create a Secure ASP.NET Web Forms App with User Registration, Email Confirmation and Password Reset](create-a-secure-aspnet-web-forms-app-with-user-registration-email-confirmation-and-password-reset.md).
+![Screenshot of the two factor authentication page.](create-an-aspnet-web-forms-app-with-sms-two-factor-authentication/_static/image7.png)
+
+1. The Two-Factor Authentication page is displayed where you can enter the code (from SMS or email).
+![Screenshot of the two factor authentication page to enter the verification code.](create-an-aspnet-web-forms-app-with-sms-two-factor-authentication/_static/image8.png) 
+
  Clicking on the **Remember this browser** check box will exempt you from needing to use two-factor authentication to log in when using the browser and device where you checked the box. As long as malicious users can't gain access to your device, enabling two-factor authentication and clicking on the **Remember this browser** will provide you with convenient one step password access, while still retaining strong two-factor authentication protection for all access from non-trusted devices. You can do this on any private device you regularly use.
 
 <a id="addRes"></a>

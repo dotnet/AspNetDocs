@@ -4,7 +4,8 @@ title: "Using Asynchronous Methods in ASP.NET 4.5 | Microsoft Docs"
 author: Rick-Anderson
 description: "This tutorial will teach you the basics of building an asynchronous ASP.NET Web Forms application using Visual Studio Express 2012 for Web, which is a free..."
 ms.author: riande
-ms.date: 01/02/2019
+ms.date: 06/08/2022
+ms.custom: devdivchpfy22
 ms.assetid: a585c9a2-7c8e-478b-9706-90f3739c50d1
 msc.legacyurl: /web-forms/overview/performance-and-caching/using-asynchronous-methods-in-aspnet-45
 msc.type: authoredcontent
@@ -161,7 +162,7 @@ The asynchronous `PWGasync` code behind is shown below.
 
 The following image shows the view returned from the asynchronous *PWGasync.aspx* page.
 
-![](using-asynchronous-methods-in-aspnet-45/_static/image3.png)
+![Screenshot of the view returned from the asynchronous page.](using-asynchronous-methods-in-aspnet-45/_static/image3.png)
 
 ## <a id="CancelToken"></a>  Using a Cancellation Token
 

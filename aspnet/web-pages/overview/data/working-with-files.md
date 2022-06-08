@@ -4,7 +4,8 @@ title: "Working with Files in an ASP.NET Web Pages (Razor) Site | Microsoft Docs
 author: Rick-Anderson
 description: "This chapter explains how to read, write, append, delete, and upload files."
 ms.author: riande
-ms.date: 02/20/2014
+ms.date: 06/07/2022
+ms.custom: devdivchpfy22
 ms.assetid: eee916e4-ba4c-439a-a24e-68df7d45a569
 msc.legacyurl: /web-pages/overview/data/working-with-files
 msc.type: authoredcontent
@@ -77,7 +78,8 @@ If you want to store data in a text file, you can use the `File.WriteAllText` me
 
 - Run the page in a browser. 
 
-    ![](working-with-files/_static/image1.jpg)
+    ![Screenshot of running the page in a browser.](working-with-files/_static/image1.jpg)
+
 - Enter values into the fields and then click **Submit**.
 - Close the browser.
 - Return to the project and refresh the view.

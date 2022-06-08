@@ -4,7 +4,8 @@ title: "Introducing ASP.NET Web Pages - Publishing a Site by Using WebMatrix | M
 author: Rick-Anderson
 description: "This tutorial is the final installment in the tutorial set that introduces ASP.NET Web Pages and Microsoft WebMatrix. It discusses how to publish your site t..."
 ms.author: riande
-ms.date: 05/28/2015
+ms.date: 06/08/2022
+ms.custom: devdivchpfy22
 ms.assetid: 7e85c70e-1a88-4408-8b3d-29611c7713ed
 msc.legacyurl: /web-pages/overview/getting-started/introducing-aspnet-web-pages-2/publishing
 msc.type: authoredcontent
@@ -107,7 +108,7 @@ After the site has been deployed to Azure, a message is displayed that indicates
 
 Your site and database have been published to Azure, and are now available to the public. Click the link in the message indicating publishing has completed, and you will now see your deployed site. You or anyone with Internet access can add or modify records in the database.
 
-![](publishing/_static/image11.png)
+![Screenshot of the link in the message that indicates publishing has completed.](publishing/_static/image11.png)
 
 <a id="host"></a>
 ## Publishing Your Site to a Web Hosting Company
