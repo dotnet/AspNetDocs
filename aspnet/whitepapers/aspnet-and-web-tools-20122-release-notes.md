@@ -41,7 +41,7 @@ You can also install ASP.NET and Web Tools 2012.2 manually. You must have Visual
 
     ![Screenshot of the Visual Studio help menu. The menu entry titled About Microsoft Visual Studio Express 2012 for Web is highlighted.](aspnet-and-web-tools-20122-release-notes/_static/image1.jpg)
 
-4. If you see the menu item &quot;About Microsoft Visual Studio 2012 for Web&quot; then download [Web Developer Tools 2012.2 - Visual Studio Express 2012 for Web](https://go.microsoft.com/fwlink/?LinkID=282228). Otherwise download [Web Developer Tools 2012.2 - Visual Studio 2012](https://go.microsoft.com/fwlink/?LinkID=282228).
+4. If you see the menu item &quot;About Microsoft Visual Studio 2012 for Web&quot; then download [Web Developer Tools 2012.2 - Visual Studio Express 2012 for Web](/visual-studio/overview/2012/aspnet-and-web-tools-20122-release-notes-rtw#_Installation).
 5. When prompted click Run. You can also save the file to run it later.
 
 > [!NOTE]
@@ -230,10 +230,7 @@ The OData URI parser fails to parse partial datetime literals properly. For exam
 
 #### OData doesn't support case-insensitive property names.
 
-OData doesn't support case-insensitive property names in OData queries and odata path. See workitems:
-
-- [http://aspnetwebstack.codeplex.com/workitem/366](http://aspnetwebstack.codeplex.com/workitem/366)
-- [http://aspnetwebstack.codeplex.com/workitem/704](http://aspnetwebstack.codeplex.com/workitem/704)
+OData doesn't support case-insensitive property names in OData queries and odata path.
 
 If users have different casing on javascript client side and server side, they probably will encounter this issue. This issue is by design in odata protocol. However, many users reports this issue. To work around it, users have to correct their cases in URL.
 

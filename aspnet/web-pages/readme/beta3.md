@@ -453,9 +453,7 @@ This section of the document describes new features, changes, and known issues w
 > On Windows Server 2003, when you launch a page or start IIS Express, IIS Express does not start. For Web pages, an error is displayed that indicates that the application has been started by a non-administrative user.
 > 
 > **Workaround**  
-> Start WebMatrix Beta 3 as an administrative user. For more details, see the following KnowledgeBase article:  
->   
-> [An application that is started by a non-administrative user cannot listen to the HTTP traffic of the computer on which the application is running in Windows Vista, Windows Server 2003, or Windows XP.](https://support.microsoft.com/kb/939786)
+> Start WebMatrix Beta 3 as an administrative user. 
 
 #### Issue: Google Chrome is not available as a Run option
 
@@ -501,4 +499,4 @@ For more information about WebMatrix Beta 3, see the following websites:
 
 ---
 
-© 2010 Microsoft Corporation. All Rights Reserved. [Terms of Use](https://msdn.microsoft.cos/cc300389.aspx).
+© 2010 Microsoft Corporation. All Rights Reserved. [Terms of Use](https://www.microsoft.com/en-us/servicesagreement).
