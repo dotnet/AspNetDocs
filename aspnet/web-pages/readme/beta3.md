@@ -498,5 +498,3 @@ For more information about WebMatrix Beta 3, see the following websites:
 - [Microsoft.com/web](https://www.microsoft.com/web)
 
 ---
-
-© 2010 Microsoft Corporation. All Rights Reserved. [Terms of Use](https://www.microsoft.com/en-us/servicesagreement).
