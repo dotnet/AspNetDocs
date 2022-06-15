@@ -506,4 +506,3 @@ For more information about WebMatrix 1.0, see the following websites:
 - [ASP.NET](https://asp.net/webmatrix)
 - [Microsoft.com/web](https://www.microsoft.com/web)
 
-© 2011 Microsoft Corporation. All Rights Reserved. [Terms of Use](https://www.microsoft.com/en-us/servicesagreement).
