@@ -204,7 +204,7 @@ The login page will not stop automated programs (sometimes referred to as *web r
 
 ![/media/38777/ch16securitymembership-18.jpg](16-adding-security-and-membership/_static/image1.jpg)
 
-1. Register your website the [Recaptcha service](https://www.google.com/recaptcha/about/). When you've completed registration, you'll get a public key and a private key.
+1. Register your website with the [ReCaptcha service](http://www.google.com/recaptcha/admin). When you've completed registration, you'll get a public key and a private key.
 2. Add the ASP.NET Web Helpers Library to your website as described in [Installing Helpers in an ASP.NET Web Pages Site](https://go.microsoft.com/fwlink/?LinkId=252372), if you haven't already.
 3. In the *Account* folder, open the file named *Register.cshtml*.
 4. In the code at the top of the page, find the following lines and uncomment them by removing the `//` comment characters:
