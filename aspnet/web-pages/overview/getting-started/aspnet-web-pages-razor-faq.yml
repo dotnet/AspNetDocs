@@ -113,7 +113,7 @@ sections:
           Here are some blog posts that illustrate ways to use jQuery with ASP.NET Web Pages:
           
           - [Adding jQuery Goodness to ASP.NET Web Pages using WebMatrix](https://rachelappel.com/2012/02/02/webmatrixcreating-helpers-for-asp-net-web-pages-with-webmatrix/) by Rachel Appel
-          - [5 min: WebMatrix + jQuery UI + json + jQuery templates](http://joeriks.com/2011/01/30/5-min-webmatrix-jquery-ui-json-jquery-templates/) by Jonas Eriksson
+         
           - [WebMatrix And jQuery Forms](http://mikesdotnetting.com/Article/155/WebMatrix-And-jQuery-Forms) by Mike Brind
 
 additionalContent: |
