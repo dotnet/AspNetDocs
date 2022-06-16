@@ -309,7 +309,6 @@ Happy Programming!
 For more information on the topics discussed in this tutorial, refer to the following resources:
 
 - [Creating and Maintaining Stored Procedures](https://msdn.microsoft.com/library/aa214299(SQL.80).aspx)
-- [Retrieving Scalar Data from a Stored Procedure](http://aspnet.4guysfromrolla.com/articles/062905-1.aspx)
 - [SQL Server Stored Procedure Basics](http://www.awprofessional.com/articles/article.asp?p=25288&amp;rl=1)
 - [Stored Procedures: An Overview](http://www.sqlteam.com/item.asp?ItemID=563)
 - [Writing a Stored Procedure](http://www.4guysfromrolla.com/webtech/111499-1.shtml)
