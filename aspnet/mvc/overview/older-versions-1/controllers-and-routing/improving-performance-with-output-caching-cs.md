@@ -29,7 +29,7 @@ You enable output caching by adding an [OutputCache] attribute to either an indi
 
 [!code-csharp[Main](improving-performance-with-output-caching-cs/samples/sample1.cs)]
 
-In the Beta versions of ASP.NET MVC, output caching does not work for a URL like [http://www.MySite.com/](http://www.mysite.com/). Instead, you must enter a URL like [http://www.MySite.com/Home/Index](http://www.mysite.com/Home/Index). 
+In the Beta versions of ASP.NET MVC, output caching does not work for a URL like `http://www.MySite.com/`. Instead, you must enter a URL like `http://www.MySite.com/Home/Index`. 
 
 In Listing 1, the output of the Index() action is cached for 10 seconds. If you prefer, you can specify a much longer cache duration. For example, if you want to cache the output of a controller action for one day then you can specify a cache duration of 86400 seconds (60 seconds \* 60 minutes \* 24 hours).
 
