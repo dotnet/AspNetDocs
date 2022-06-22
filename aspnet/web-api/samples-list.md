@@ -44,7 +44,7 @@ Shows how to use ASP.NET Web API to build web APIs that support browser clients 
 
 This sample uses ASP.NET Web API to build a simple contact manager application. The application consists of a contact manager web API that is used by an ASP.NET MVC application and a Windows Phone application to display and manage a list of contacts.
 
-**Batching Sample** | [detailed description](http://trocolate.wordpress.com/2012/07/19/mitigate-issue-260-in-batching-scenario/) | [VS 2012 source](https://github.com/aspnet/samples/blob/master/samples/aspnet/WebApi/BatchSample)
+**Batching Sample** | detailed description | [VS 2012 source](https://github.com/aspnet/samples/blob/master/samples/aspnet/WebApi/BatchSample)
 
 Shows how to implement HTTP batching within ASP.NET. The batching consists of putting multiple HTTP requests within a single MIME multipart entity body, which is then sent to the server as an HTTP POST. The requests are processed individually, and the responses are put into another MIME multipart entity body, which is returned to the client.
 

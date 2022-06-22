@@ -33,11 +33,11 @@ Since the ReturnUrl querystring parameter is not validated, an attacker can modi
 
 ### A more complex Open Redirection Attack
 
-Open redirection attacks are especially dangerous because an attacker knows that we're trying to log into a specific website, which makes us vulnerable to a [phishing attack](https://www.microsoft.com/protect/fraud/phishing/symptoms.aspx). For example, an attacker could send malicious emails to website users in an attempt to capture their passwords. Let's look at how this would work on the NerdDinner site. (Note that the live NerdDinner site has been updated to protect against open redirection attacks.)
+Open redirection attacks are especially dangerous because an attacker knows that we're trying to log into a specific website, which makes us vulnerable to a [phishing attack](/microsoft-365/security/intelligence/phishing?view=o365-worldwide). For example, an attacker could send malicious emails to website users in an attempt to capture their passwords. Let's look at how this would work on the NerdDinner site. (Note that the live NerdDinner site has been updated to protect against open redirection attacks.)
 
 First, an attacker sends us a link to the login page on NerdDinner that includes a redirect to their forged page:
 
-[http://nerddinner.com/Account/LogOn?returnUrl=http://nerddiner.com/Account/LogOn](http://nerddinner.com/Account/LogOn?returnUrl=http://nerddiner.com/Account/LogOn)
+`http://nerddinner.com/Account/LogOn?returnUrl=http://nerddiner.com/Account/LogOn`
 
 Note that the return URL points to nerddiner.com, which is missing an "n" from the word dinner. In this example, this is a domain that the attacker controls. When we access the above link, we're taken to the legitimate NerdDinner.com login page.
 
