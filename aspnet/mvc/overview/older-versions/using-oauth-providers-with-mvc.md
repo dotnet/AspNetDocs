@@ -73,7 +73,7 @@ This tutorial does not show all of the steps you must perform to register with t
 
 - [Facebook](https://developers.facebook.com/)
 - [Google](https://developers.google.com/)
-- [Microsoft](http://manage.dev.live.com/)
+- [Microsoft](https://developer.microsoft.com/)
 - [Twitter](https://dev.twitter.com/)
 
 When registering your site with Facebook, you can provide &quot;localhost&quot; for the site domain and `&quot;http://localhost/&quot;` for the URL, as shown in the image below. Using localhost works with most providers, but currently does not work with the Microsoft provider. For the Microsoft provider, you must include a valid web site URL.
@@ -104,7 +104,7 @@ That is all you have to do to enable external credentials in your site. Run your
 
 ![external login](using-oauth-providers-with-mvc/_static/image6.png)
 
-This tutorial does not cover how to customize the log in buttons for the external providers. For that information, see [Customizing the login UI when using OAuth/OpenID](https://docs.microsoft.com/archive/blogs/pranav_rastogi/customizing-the-login-ui-when-using-oauthopenid).
+This tutorial does not cover how to customize the log in buttons for the external providers. For that information, see [Customizing the login UI when using OAuth/OpenID](/archive/blogs/pranav_rastogi/customizing-the-login-ui-when-using-oauthopenid).
 
 Click on the Facebook button to log in with Facebook credentials. When you select one of the external providers, you are redirected to that site and prompted by that service to log in.
 
@@ -216,7 +216,7 @@ After completing registration, close the browser. Look in the database to notice
 
 ## Install NuGet package for Facebook API
 
-Facebook provides an [API](https://developers.facebook.com/docs/reference/apis/) that you can call to perform operations. You can call the Facebook API either by directing sending HTTP requests, or by using installing a NuGet package that facilitates sending those requests. Using a NuGet package is shown in this tutorial, but installing NuGet package is not essential. This tutorial shows how to use the Facebook C# SDK package. There are other NuGet packages that assist with calling the Facebook API.
+Facebook provides an [API](https://developers.facebook.com/docs/) that you can call to perform operations. You can call the Facebook API either by directing sending HTTP requests, or by using installing a NuGet package that facilitates sending those requests. Using a NuGet package is shown in this tutorial, but installing NuGet package is not essential. This tutorial shows how to use the Facebook C# SDK package. There are other NuGet packages that assist with calling the Facebook API.
 
 From the **Manage NuGet Packages** windows, select the Facebook C# SDK package.
 
@@ -260,4 +260,4 @@ In this tutorial, you created a site that is integrated with Facebook for user a
 
 ## Related topics
 
-- [Create an ASP.NET MVC app with auth and SQL DB and deploy to Azure App Service](https://docs.microsoft.com/aspnet/core/security/authorization/secure-data)
+- [Create an ASP.NET MVC app with auth and SQL DB and deploy to Azure App Service](/aspnet/core/security/authorization/secure-data)

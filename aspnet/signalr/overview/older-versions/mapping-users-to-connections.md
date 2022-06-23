@@ -36,11 +36,11 @@ The best approach for your application depends on:
 
 The following table shows which approach works for these considerations.
 
-|  | More than one server | Get list of currently connected users | Persist information after restarts | Optimal performance |
+| Consideration | More than one server | Get list of currently connected users | Persist information after restarts | Optimal performance |
 | --- | --- | --- | --- | --- |
-| In-memory |  | ![](mapping-users-to-connections/_static/image1.png) |  | ![](mapping-users-to-connections/_static/image2.png) |
-| Single-user groups | ![](mapping-users-to-connections/_static/image3.png) |  |  | ![](mapping-users-to-connections/_static/image4.png) |
-| Permanent, external | ![](mapping-users-to-connections/_static/image5.png) | ![](mapping-users-to-connections/_static/image6.png) | ![](mapping-users-to-connections/_static/image7.png) |  |
+| In-memory |  | :::image type="icon" source="mapping-users-to-connections/_static/image1.png" ::: |  | :::image type="icon" source="mapping-users-to-connections/_static/image1.png" ::: |
+| Single-user groups | :::image type="icon" source="mapping-users-to-connections/_static/image1.png" ::: |  |  | :::image type="icon" source="mapping-users-to-connections/_static/image1.png" ::: |
+| Permanent, external | :::image type="icon" source="mapping-users-to-connections/_static/image1.png" ::: | :::image type="icon" source="mapping-users-to-connections/_static/image1.png" ::: | :::image type="icon" source="mapping-users-to-connections/_static/image1.png" ::: |  |
 
 <a id="inmemory"></a>
 

@@ -13,8 +13,6 @@ msc.type: authoredcontent
 
 by [Jason Lee](https://github.com/jrjlee)
 
-[Download PDF](https://msdnshared.blob.core.windows.net/media/MSDNBlogsFS/prod.evol.blogs.msdn.com/CommunityServer.Blogs.Components.WeblogFiles/00/00/00/63/56/8130.DeployingWebAppsInEnterpriseScenarios.pdf)
-
 > Microsoft Build Engine (MSBuild) project files lie at the heart of the build and deployment process. This topic starts with a conceptual overview of MSBuild and the project file. It describes the key components you'll come across when you work with project files, and it works through an example of how you can use project files to deploy real-world applications.
 > 
 > What you'll learn:
@@ -44,7 +42,7 @@ When you create your own project files, you can use any file extension you like.
 
 If you've worked with web application projects in Visual Studio 2010, like ASP.NET web applications and ASP.NET MVC web applications, you'll know that these projects include built-in support for packaging and deploying the web application to a target environment. The **Properties** pages for these projects include **Package/Publish Web** and **Package/Publish SQL** tabs that you can use to configure how the components of your application are packaged and deployed. This shows the **Package/Publish Web** tab:
 
-![](understanding-the-project-file/_static/image1.png)
+![The **Package/Publish Web** tab](understanding-the-project-file/_static/image1.png)
 
 The underlying technology behind these capabilities is known as the Web Publishing Pipeline (WPP). The WPP essentially brings MSBuild and [Web Deploy](https://go.microsoft.com/?linkid=9805122) together to provide a complete build, package, and deployment process for your web applications.
 
@@ -63,7 +61,7 @@ Before you look at the build process in more detail, it's worth taking a few mom
 
 This shows the relationship between the key elements in an MSBuild project file:
 
-![](understanding-the-project-file/_static/image2.png)
+![The relationship between the key elements in an MSBuild project file.](understanding-the-project-file/_static/image2.png)
 
 ### The Project Element
 
@@ -200,7 +198,7 @@ The **Import** element is used to import the contents of another MSBuild project
 
 This effectively merges the contents of the two files into a single project file. Using this approach, you can create one project file containing your universal build configuration and multiple supplementary project files containing environment-specific properties. As a result, simply running a command with a different parameter value lets you deploy your solution to a different environment.
 
-![](understanding-the-project-file/_static/image3.png)
+![Running a command with a different parameter value lets you deploy your solution to a different environment.](understanding-the-project-file/_static/image3.png)
 
 Splitting your project files in this way is a good practice to follow. It allows developers to deploy to multiple environments by running a single command, while avoiding the duplication of universal build properties across multiple project files.
 
@@ -215,7 +213,7 @@ The next topic, [Understanding the Build Process](understanding-the-build-proces
 
 ## Further Reading
 
-For a more in-depth introduction to project files and the WPP, see [Inside the Microsoft Build Engine: Using MSBuild and Team Foundation Build](http://amzn.com/0735645248) by Sayed Ibrahim Hashimi and William Bartholomew, ISBN: 978-0-7356-4524-0.
+For a more in-depth introduction to project files and the WPP, see [Inside the Microsoft Build Engine: Using MSBuild and Team Foundation Build](https://www.amazon.com/Inside-Microsoft%C2%AE-Build-Engine-Foundation/dp/0735626286) by Sayed Ibrahim Hashimi and William Bartholomew, ISBN: 978-0-7356-4524-0.
 
 > [!div class="step-by-step"]
 > [Previous](setting-up-the-contact-manager-solution.md)

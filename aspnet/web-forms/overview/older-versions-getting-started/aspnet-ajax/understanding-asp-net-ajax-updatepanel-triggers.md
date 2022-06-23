@@ -13,8 +13,6 @@ msc.type: authoredcontent
 
 by [Scott Cate](https://github.com/scottcate)
 
-[Download PDF](https://download.microsoft.com/download/C/1/9/C19A3451-1D14-477C-B703-54EF22E197EE/AJAX_tutorial02_Triggers_cs.pdf)
-
 > When working in the markup editor in Visual Studio, you may notice (from IntelliSense) that there are two child elements of an UpdatePanel control. One of which is the Triggers element, which specifies the controls on the page (or the user control, if you are using one) that will trigger a partial render of the UpdatePanel control in which the element resides.
 
 ## Introduction
@@ -69,7 +67,7 @@ Similarly, the `<asp:PostBackTrigger>` element can be used to trigger a partial 
 
 1. Press F5 to build and run the project. Note that, when you click Update Both Panels, both labels change text; however, when you click Update This Panel, only Label1 updates.
 
-[![](understanding-asp-net-ajax-updatepanel-triggers/_static/image2.png)](understanding-asp-net-ajax-updatepanel-triggers/_static/image1.png)
+[![Screenshot that shows the first button that states Update Both Panels and the second button that states Update This Panel.](understanding-asp-net-ajax-updatepanel-triggers/_static/image2.png)](understanding-asp-net-ajax-updatepanel-triggers/_static/image1.png)
 
 ([Click to view full-size image](understanding-asp-net-ajax-updatepanel-triggers/_static/image3.png))
 
@@ -81,7 +79,7 @@ An examination of the page source code shows almost nothing out of the ordinary;
 
 Click the Update This Panel button, and notice the top UpdatePanel will be updated with the current server time. In FireBug, choose the Console tab so that you can examine the request. Examine the POST request parameters first:
 
-[![](understanding-asp-net-ajax-updatepanel-triggers/_static/image5.png)](understanding-asp-net-ajax-updatepanel-triggers/_static/image4.png)
+[![Screenshot that shows a Firebug dialog with Console selected.](understanding-asp-net-ajax-updatepanel-triggers/_static/image5.png)](understanding-asp-net-ajax-updatepanel-triggers/_static/image4.png)
 
 ([Click to view full-size image](understanding-asp-net-ajax-updatepanel-triggers/_static/image6.png))
 
@@ -93,7 +91,7 @@ As we can see, because no special code is utilized to perform an AJAX postback, 
 
 For instance, consider a CheckBox control; examine the class disassembly in .NET Reflector. To do so, ensure that your System.Web assembly is open, and navigate to the `System.Web.UI.WebControls.CheckBox` class, opening the `RenderInputTag` method. Look for a conditional that checks the `AutoPostBack` property:
 
-[![](understanding-asp-net-ajax-updatepanel-triggers/_static/image8.png)](understanding-asp-net-ajax-updatepanel-triggers/_static/image7.png)
+[![Screenshot that shows code that begins with on Click equals.](understanding-asp-net-ajax-updatepanel-triggers/_static/image8.png)](understanding-asp-net-ajax-updatepanel-triggers/_static/image7.png)
 
 ([Click to view full-size image](understanding-asp-net-ajax-updatepanel-triggers/_static/image9.png))
 
@@ -115,7 +113,7 @@ And here is the new code-behind:
 
 The idea behind this page is that the drop-down list selects one of three colors to show the second label, that the check box determines both whether it is bold, and whether the labels display the date as well as the time. The check box should not cause an AJAX update, but the drop-down list should, even though it is not housed within an UpdatePanel.
 
-[![](understanding-asp-net-ajax-updatepanel-triggers/_static/image11.png)](understanding-asp-net-ajax-updatepanel-triggers/_static/image10.png)
+[![Screenshot that shows a web browser called Untitled Page and a drop down list with the color Blue selected below the button that says Update Both Panels.](understanding-asp-net-ajax-updatepanel-triggers/_static/image11.png)](understanding-asp-net-ajax-updatepanel-triggers/_static/image10.png)
 
 ([Click to view full-size image](understanding-asp-net-ajax-updatepanel-triggers/_static/image12.png))
 

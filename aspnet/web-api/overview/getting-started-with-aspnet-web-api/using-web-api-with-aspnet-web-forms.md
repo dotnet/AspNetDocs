@@ -1,7 +1,7 @@
 ---
 uid: web-api/overview/getting-started-with-aspnet-web-api/using-web-api-with-aspnet-web-forms
 title: "Using Web API with ASP.NET Web Forms - ASP.NET 4.x"
-author: MikeWasson
+author: rick-anderson
 description: "Tutorial with code step by step to add Web API to an ASP.NET Forms application for ASP.NET 4.x"
 ms.author: riande
 ms.date: 04/03/2012
@@ -12,7 +12,7 @@ msc.type: authoredcontent
 ---
 # Using Web API with ASP.NET Web Forms
 
-by [Mike Wasson](https://github.com/MikeWasson)
+by Mike Wasson
 
 This tutorial walks you through the steps to add Web API to a traditional ASP.NET Web Forms application in ASP.NET 4.x. 
 
@@ -31,7 +31,7 @@ Start Visual Studio and select **New Project** from the **Start** page. Or, from
 
 In the **Templates** pane, select **Installed Templates** and expand the **Visual C#** node. Under **Visual C#**, select **Web**. In the list of project templates, select **ASP.NET Web Forms Application**. Enter a name for the project and click **OK**.
 
-![](using-web-api-with-aspnet-web-forms/_static/image1.png)
+![Screenshot of the new project template pane, showing the available menu options for creating the new web A S P dot NET application form.](using-web-api-with-aspnet-web-forms/_static/image1.png)
 
 ## Create the Model and Controller
 
@@ -45,11 +45,11 @@ Next, add a Web API controller to the project., A *controller* is the object tha
 
 In **Solution Explorer**, right-click the project. Select **Add New Item**.
 
-![](using-web-api-with-aspnet-web-forms/_static/image2.png)
+![Screenshot of the solution explorer menu options, showing a visual guide for how to add a new project item.](using-web-api-with-aspnet-web-forms/_static/image2.png)
 
 Under **Installed Templates**, expand **Visual C#** and select **Web**. Then, from the list of templates, select **Web API Controller Class**. Name the controller "ProductsController" and click **Add**.
 
-![](using-web-api-with-aspnet-web-forms/_static/image3.png)
+![Screenshot showing of how to add a new web item as a web A P I controller class, labeling it Product Controller in the name field.](using-web-api-with-aspnet-web-forms/_static/image3.png)
 
 The **Add New Item** wizard will create a file named ProductsController.cs. Delete the methods that the wizard included and add the following methods:
 
@@ -89,7 +89,7 @@ Next, add a reference to the jQuery source file in the `HeaderContent` section:
 
 Note: You can easily add the script reference by dragging and dropping the file from **Solution Explorer** into the code editor window.
 
-![](using-web-api-with-aspnet-web-forms/_static/image4.png)
+![Screenshots of the solution explorer and code editor windows, using a green arrow to show where to drop the script in the code.](using-web-api-with-aspnet-web-forms/_static/image4.png)
 
 Below the jQuery script tag, add the following script block:
 
@@ -99,4 +99,4 @@ When the document loads, this script makes an AJAX request to &quot;api/products
 
 When you run the application, it should look like this:
 
-![](using-web-api-with-aspnet-web-forms/_static/image5.png)
+![Screenshot of the web browser displaying the products label, names, and prices, as a sample to represent what it should look like.](using-web-api-with-aspnet-web-forms/_static/image5.png)

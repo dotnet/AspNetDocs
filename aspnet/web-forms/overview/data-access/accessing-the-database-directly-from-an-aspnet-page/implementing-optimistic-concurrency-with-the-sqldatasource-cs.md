@@ -13,7 +13,7 @@ msc.type: authoredcontent
 
 by [Scott Mitchell](https://twitter.com/ScottOnWriting)
 
-[Download Sample App](https://download.microsoft.com/download/4/a/7/4a7a3b18-d80e-4014-8e53-a6a2427f0d93/ASPNET_Data_Tutorial_50_CS.exe) or [Download PDF](implementing-optimistic-concurrency-with-the-sqldatasource-cs/_static/datatutorial50cs1.pdf)
+[Download PDF](implementing-optimistic-concurrency-with-the-sqldatasource-cs/_static/datatutorial50cs1.pdf)
 
 > In this tutorial we review the essentials of optimistic concurrency control and then explore how to implement it using the SqlDataSource control.
 
@@ -52,7 +52,7 @@ Optimistic concurrency control works by ensuring that the record being updated o
 
 **Figure 3**: For the Update or Delete to Succeed, the Original Values Must Be Equal to the Current Database Values ([Click to view full-size image](implementing-optimistic-concurrency-with-the-sqldatasource-cs/_static/image4.png))
 
-There are various approaches to implementing optimistic concurrency (see [Peter A. Bromberg](http://www.eggheadcafe.com/articles/pbrombergresume.asp)'s [Optimistic Concurrency Updating Logic](http://www.eggheadcafe.com/articles/20050719.asp) for a brief look at a number of options). The technique used by the SqlDataSource (as well as by the ADO.NET Typed DataSets used in our Data Access Layer) augments the `WHERE` clause to include a comparison of all of the original values. The following `UPDATE` statement, for example, updates the name and price of a product only if the current database values are equal to the values that were originally retrieved when updating the record in the GridView. The `@ProductName` and `@UnitPrice` parameters contain the new values entered by the user, whereas `@original_ProductName` and `@original_UnitPrice` contain the values that were originally loaded into the GridView when the Edit button was clicked:
+There are various approaches to implementing optimistic concurrency (see [Peter A. Bromberg](https://mvp.microsoft.com/en-us/PublicProfile/9560)'s [Optimistic Concurrency Updating Logic](http://www.eggheadcafe.com/articles/20050719.asp) for a brief look at a number of options). The technique used by the SqlDataSource (as well as by the ADO.NET Typed DataSets used in our Data Access Layer) augments the `WHERE` clause to include a comparison of all of the original values. The following `UPDATE` statement, for example, updates the name and price of a product only if the current database values are equal to the values that were originally retrieved when updating the record in the GridView. The `@ProductName` and `@UnitPrice` parameters contain the new values entered by the user, whereas `@original_ProductName` and `@original_UnitPrice` contain the values that were originally loaded into the GridView when the Edit button was clicked:
 
 [!code-sql[Main](implementing-optimistic-concurrency-with-the-sqldatasource-cs/samples/sample1.sql)]
 

@@ -13,9 +13,9 @@ msc.type: authoredcontent
 
 by [Microsoft](https://github.com/microsoft)
 
-> According to the OData v4 [specification](http://www.odata.org/documentation/odata-version-4-0/), a complex type can inherit from another complex type. (A *complex* type is a structured type without a key.) Web API OData 5.3 supports complex type inheritance.
+> According to the OData v4 [specification](http://www.odata.org/documentation/), a complex type can inherit from another complex type. (A *complex* type is a structured type without a key.) Web API OData 5.3 supports complex type inheritance.
 > 
-> This topic shows how to build an entity data model (EDM) with complex inheritance types. For the complete source code, see [OData Complex Type Inheritance Sample](http://aspnet.codeplex.com/sourcecontrol/latest#Samples/WebApi/OData/v4/ODataComplexTypeInheritanceSample/ReadMe.txt).
+> This topic shows how to build an entity data model (EDM) with complex inheritance types. 
 > 
 > ## Software versions used in the tutorial
 > 
@@ -27,7 +27,7 @@ by [Microsoft](https://github.com/microsoft)
 
 To illustrate complex type inheritance, we'll use the following class hierarchy.
 
-![](complex-type-inheritance-in-odata-v4/_static/image1.png)
+![Diagram of the model hierarchy, illustrating the type inheritance for the class 'window' with arrows pointing to its children.](complex-type-inheritance-in-odata-v4/_static/image1.png)
 
 `Shape` is an abstract complex type. `Rectangle`, `Triangle`, and `Circle` are complex types derived from `Shape`, and `RoundRectangle` derives from `Rectangle`. `Window` is an entity type and contains a `Shape` instance.
 

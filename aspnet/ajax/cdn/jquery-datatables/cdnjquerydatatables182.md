@@ -16,13 +16,4 @@ The following files for the jQuery DataTables plugins are hosted on the CDN:
 - https://ajax.aspnetcdn.com/ajax/jquery.dataTables/1.8.2/jquery.dataTables.js
 - https://ajax.aspnetcdn.com/ajax/jquery.dataTables/1.8.2/jquery.dataTables.min.js
 - https://ajax.aspnetcdn.com/ajax/jquery.dataTables/1.8.2/css/jquery.dataTables.css
-- https://ajax.aspnetcdn.com/ajax/jquery.dataTables/1.8.2/css/jquery.dataTables\_themeroller.css
-- https://ajax.aspnetcdn.com/ajax/jquery.dataTables/1.8.2/images/back\_disabled.jpg
-- https://ajax.aspnetcdn.com/ajax/jquery.dataTables/1.8.2/images/back\_enabled.jpg
-- https://ajax.aspnetcdn.com/ajax/jquery.dataTables/1.8.2/images/forward\_disabled.jpg
-- https://ajax.aspnetcdn.com/ajax/jquery.dataTables/1.8.2/images/forward\_enabled.jpg
-- https://ajax.aspnetcdn.com/ajax/jquery.dataTables/1.8.2/images/sort\_asc.png
-- https://ajax.aspnetcdn.com/ajax/jquery.dataTables/1.8.2/images/sort\_asc\_disabled.png
-- https://ajax.aspnetcdn.com/ajax/jquery.dataTables/1.8.2/images/sort\_both.png
-- https://ajax.aspnetcdn.com/ajax/jquery.dataTables/1.8.2/images/sort\_desc.png
-- https://ajax.aspnetcdn.com/ajax/jquery.dataTables/1.8.2/images/sort\_desc\_disabled.png
+

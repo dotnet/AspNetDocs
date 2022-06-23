@@ -1,8 +1,8 @@
 ---
 uid: web-api/overview/data/using-web-api-with-entity-framework/part-6
-title: "Create the JavaScript Client | Microsoft Docs"
-author: MikeWasson
-description: ""
+title: Create the JavaScript Client | Microsoft Docs
+author: Rick-Anderson
+description: Describes how to use HTML, JavaScript, and the Knockout.js library to create the application client.
 ms.author: riande
 ms.date: 06/16/2014
 ms.assetid: 20360326-b123-4b1e-abae-1d350edf4ce4
@@ -10,8 +10,6 @@ msc.legacyurl: /web-api/overview/data/using-web-api-with-entity-framework/part-6
 msc.type: authoredcontent
 ---
 # Create the JavaScript Client
-
-by [Mike Wasson](https://github.com/MikeWasson)
 
 [Download Completed Project](https://github.com/MikeWasson/BookService)
 
@@ -29,7 +27,7 @@ The Knockout library uses the Model-View-ViewModel (MVVM) pattern:
 
 The view is data-bound to the view model. Updates to the view model are automatically reflected in the view. The view model also gets events from the view, such as button clicks.
 
-![](part-6/_static/image1.png)
+![Diagram showing the server web A P I and the client Model J S O N linked by A J A X and the View Model and the View H T M L linked by Data Binding.](part-6/_static/image1.png)
 
 This approach makes it easy to change the layout and UI of your app, because you can change the bindings, without rewriting any code. For example, you might show a list of items as a `<ul>`, then change it later to a table.
 

@@ -31,7 +31,7 @@ This topic covers the following:
 
 ## Building the Identity sample
 
-In this section, you'll use NuGet to download a sample we will work with. Start by installing and running [Visual Studio Express 2013 for Web](https://go.microsoft.com/fwlink/?LinkId=299058) or [Visual Studio 2013](https://go.microsoft.com/fwlink/?LinkId=306566). Install Visual Studio [2013 Update 2](https://go.microsoft.com/fwlink/?LinkId=390521) or higher.
+In this section, you'll use NuGet to download a sample we will work with. Start by installing and running [Visual Studio Express 2013 for Web](https://www.microsoft.com/download/details.aspx?id=40767) or [Visual Studio 2013](https://go.microsoft.com/fwlink/?LinkId=306566). Install Visual Studio [2013 Update 2](https://go.microsoft.com/fwlink/?LinkId=390521) or higher.
 
 > [!NOTE]
 > Warning: You must install Visual Studio [2013 Update 2](https://go.microsoft.com/fwlink/?LinkId=390521) to complete this tutorial.
@@ -69,7 +69,7 @@ This tutorial provides instructions for using either Twilio or ASPSMS but you ca
    ASPSMS:  
    The following service reference needs to be added:  
   
-    ![](two-factor-authentication-using-sms-and-email-with-aspnet-identity/_static/image1.png)  
+    ![Image of add service reference window](two-factor-authentication-using-sms-and-email-with-aspnet-identity/_static/image1.png)  
   
    Address:  
     `https://webservice.aspsms.com/aspsmsx2.asmx?WSDL`  
@@ -112,16 +112,16 @@ This tutorial provides instructions for using either Twilio or ASPSMS but you ca
 7. Run the app and log in with the account you previously registered.
 8. Click on your User ID, which activates the `Index` action method in `Manage` controller.  
   
-    ![](two-factor-authentication-using-sms-and-email-with-aspnet-identity/_static/image2.png)
+    ![Image of registered account logged into the app](two-factor-authentication-using-sms-and-email-with-aspnet-identity/_static/image2.png)
 9. Click Add.  
   
-    ![](two-factor-authentication-using-sms-and-email-with-aspnet-identity/_static/image3.png)
+    ![Image of add phone number link](two-factor-authentication-using-sms-and-email-with-aspnet-identity/_static/image3.png)
 10. In a few seconds you will get a text message with the verification code. Enter it and press **Submit**.  
   
-    ![](two-factor-authentication-using-sms-and-email-with-aspnet-identity/_static/image4.png)
+    ![Image showing phone verification code entry](two-factor-authentication-using-sms-and-email-with-aspnet-identity/_static/image4.png)
 11. The Manage view shows your phone number was added.  
   
-    ![](two-factor-authentication-using-sms-and-email-with-aspnet-identity/_static/image5.png)
+    ![Image of manage view window showing phone number](two-factor-authentication-using-sms-and-email-with-aspnet-identity/_static/image5.png)
 
 ### Examine the code
 
@@ -131,13 +131,13 @@ The `Index` action method in `Manage` controller sets the status message based o
   
 `https://localhost:44300/Manage?Message=RemovePhoneSuccess`
 
-[![](two-factor-authentication-using-sms-and-email-with-aspnet-identity/_static/image6.png)]
+[![Image of phone number removed](two-factor-authentication-using-sms-and-email-with-aspnet-identity/_static/image6.png)]
 
 The `AddPhoneNumber` action method displays a dialog box to enter a phone number that can receive SMS messages.
 
 [!code-csharp[Main](two-factor-authentication-using-sms-and-email-with-aspnet-identity/samples/sample4.cs)]
 
-![](two-factor-authentication-using-sms-and-email-with-aspnet-identity/_static/image7.png)
+![Image of add phone number action dialog box](two-factor-authentication-using-sms-and-email-with-aspnet-identity/_static/image7.png)
 
 Clicking on the **Send verification code** button posts the phone number to the HTTP POST `AddPhoneNumber` action method.
 
@@ -145,7 +145,7 @@ Clicking on the **Send verification code** button posts the phone number to the 
 
 The `GenerateChangePhoneNumberTokenAsync` method generates the security token which will be set in the SMS message. If the SMS service has been configured, the token is sent as the string &quot;Your security code is &lt;token&gt;&quot;. The `SmsService.SendAsync` method to is called asynchronously, then the app is redirected to the `VerifyPhoneNumber` action method (which displays the following dialog), where you can enter the verification code.
 
-![](two-factor-authentication-using-sms-and-email-with-aspnet-identity/_static/image8.png)
+![Image of verify phone number action method dialog box](two-factor-authentication-using-sms-and-email-with-aspnet-identity/_static/image8.png)
 
 Once you enter the code and click submit, the code is posted to the HTTP POST `VerifyPhoneNumber` action method.
 
@@ -173,8 +173,8 @@ With the above code changes, you can change your security profile (for example, 
 
 ## Enable two-factor authentication
 
-In the sample app, you need to use the UI to enable two-factor authentication (2FA). To enable 2FA, click on your user ID (email alias) in the navigation bar.![](two-factor-authentication-using-sms-and-email-with-aspnet-identity/_static/image9.png)  
-Click on enable 2FA.![](two-factor-authentication-using-sms-and-email-with-aspnet-identity/_static/image10.png) Log out, then log back in. If you've enabled email (see my [previous tutorial](account-confirmation-and-password-recovery-with-aspnet-identity.md)), you can select the SMS or email for 2FA.![](two-factor-authentication-using-sms-and-email-with-aspnet-identity/_static/image11.png) The Verify Code page is displayed where you can enter the code (from SMS or email).![](two-factor-authentication-using-sms-and-email-with-aspnet-identity/_static/image12.png) Clicking on the **Remember this browser** check box will exempt you from needing to use 2FA to log on with that computer and browser. Enabling 2FA and clicking on the **Remember this browser** will provide you with strong 2FA protection from malicious users trying to access your account, as long as they don't have access to your computer. You can do this on any private machine you regularly use. By setting **Remember this browser**, you get the added security of 2FA from computers you don't regularly use, and you get the convenience on not having to go through 2FA on your own computers. 
+In the sample app, you need to use the UI to enable two-factor authentication (2FA). To enable 2FA, click on your user ID (email alias) in the navigation bar.![Image of U I to enable two-factor authentication](two-factor-authentication-using-sms-and-email-with-aspnet-identity/_static/image9.png)  
+Click on enable 2FA.![Image after clicking user I D showing two-factor authentication enable link](two-factor-authentication-using-sms-and-email-with-aspnet-identity/_static/image10.png) Log out, then log back in. If you've enabled email (see my [previous tutorial](account-confirmation-and-password-recovery-with-aspnet-identity.md)), you can select the SMS or email for 2FA.![Image displaying verification send options](two-factor-authentication-using-sms-and-email-with-aspnet-identity/_static/image11.png) The Verify Code page is displayed where you can enter the code (from SMS or email).![Image of verify code page](two-factor-authentication-using-sms-and-email-with-aspnet-identity/_static/image12.png) Clicking on the **Remember this browser** check box will exempt you from needing to use 2FA to log on with that computer and browser. Enabling 2FA and clicking on the **Remember this browser** will provide you with strong 2FA protection from malicious users trying to access your account, as long as they don't have access to your computer. You can do this on any private machine you regularly use. By setting **Remember this browser**, you get the added security of 2FA from computers you don't regularly use, and you get the convenience on not having to go through 2FA on your own computers. 
 
 <a id="reg"></a>
 ## How to register a Two-factor authentication provider
@@ -210,21 +210,21 @@ You can add more 2FA providers such as QR code generators or you can write you o
 
 You can combine local and social accounts by clicking on your email link. In the following sequence &quot;RickAndMSFT@gmail.com&quot; is first created as a local login, but you can create the account as a social log in first, then add a local login.
 
-![](two-factor-authentication-using-sms-and-email-with-aspnet-identity/_static/image13.png)
+![Image selecting email link](two-factor-authentication-using-sms-and-email-with-aspnet-identity/_static/image13.png)
 
 Click on the **Manage** link. Note the 0 external (social logins) associated with this account.
 
-![](two-factor-authentication-using-sms-and-email-with-aspnet-identity/_static/image14.png)
+![Image displaying next page and selecting manage](two-factor-authentication-using-sms-and-email-with-aspnet-identity/_static/image14.png)
 
 Click the link to another log in service and accept the app requests. The two accounts have been combined, you will be able to log on with either account. You might want your users to add local accounts in case their social log in authentication service is down, or more likely they have lost access to their social account.
 
 In the following image, Tom is a social log in (which you can see from the **External Logins: 1** shown on the page).
 
-![](two-factor-authentication-using-sms-and-email-with-aspnet-identity/_static/image15.png)
+![Image showing external logins and location of pick a password](two-factor-authentication-using-sms-and-email-with-aspnet-identity/_static/image15.png)
 
 Clicking on **Pick a password** allows you to add a local log on associated with the same account.
 
-![](two-factor-authentication-using-sms-and-email-with-aspnet-identity/_static/image16.png)
+![Image of pick a password page](two-factor-authentication-using-sms-and-email-with-aspnet-identity/_static/image16.png)
 
 <a id="lock"></a>
 

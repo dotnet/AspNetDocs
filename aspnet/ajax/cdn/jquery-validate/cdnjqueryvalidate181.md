@@ -18,4 +18,3 @@ The following files are hosted on the CDN:
 - https://ajax.aspnetcdn.com/ajax/jquery.validate/1.8.1/jquery.validate-vsdoc.js
 - https://ajax.aspnetcdn.com/ajax/jquery.validate/1.8.1/additional-methods.js
 - https://ajax.aspnetcdn.com/ajax/jquery.validate/1.8.1/additional-methods.min.js
-- Localization Files at https://ajax.aspnetcdn.com/ajax/jquery.validate/1.8.1/localization/messages\_##.js where ## is the loc code.

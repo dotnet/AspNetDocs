@@ -30,7 +30,7 @@ by [Tom FitzMacken](https://github.com/tfitzmac)
 
 ## Introduction
 
-This topic demonstrates how to add a Twitter Helper to your application and use Razor syntax to call the helper methods. The Twitter Helper makes it easy to incorporate Twitter buttons and widgets in your application. To use a Twitter widget, such as a user's timeline or the search results for a hashtag, you must first create the [widget on Twitter](https://twitter.com/settings/widgets). After creating your widget, you will receive a widget id. You pass this widget id as a parameter when calling the helper methods that show widget.
+This topic demonstrates how to add a Twitter Helper to your application and use Razor syntax to call the helper methods. The Twitter Helper makes it easy to incorporate Twitter buttons and widgets in your application. To use a Twitter widget, such as a user's timeline or the search results for a hashtag, you must first create the [widget on Twitter](https://developer.twitter.com/en/docs/twitter-for-websites/javascript-api/guides/set-up-twitter-for-websites). After creating your widget, you will receive a widget id. You pass this widget id as a parameter when calling the helper methods that show widget.
 
 This topic was written for version 1.1 of the Twitter API. By directly adding the Twitter Helper code to your project, you can update the helper code if the Twitter API changes.
 

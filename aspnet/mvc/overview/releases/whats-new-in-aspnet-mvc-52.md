@@ -2,7 +2,7 @@
 uid: mvc/overview/releases/whats-new-in-aspnet-mvc-52
 title: "What’s New in ASP.NET MVC 5.2 | Microsoft Docs"
 author: rick-anderson
-description: ""
+description: "These notes cover what's new in ASP.NET MVC 5.2, including software requirements, new features, known issues, and breaking changes."
 ms.author: riande
 ms.date: 12/25/2014
 ms.assetid: 97972587-2720-48b4-b158-f35f2e855fbf
@@ -13,7 +13,7 @@ msc.type: authoredcontent
 
 by [Microsoft](https://github.com/microsoft)
 
-This topic describes what's new for ASP.NET MVC 5.2, [Microsoft.AspNet.MVC 5.2.2](#52) and [ASP.NET MVC 5.2.3 Beta](#mvc523Beta)
+This topic describes what's new for ASP.NET MVC 5.2, [Microsoft.AspNet.MVC 5.2.2]() and [ASP.NET MVC 5.2.3 Beta]()
 
 - [Software Requirements](#softRequire)
 - [Download](#download)
@@ -22,8 +22,8 @@ This topic describes what's new for ASP.NET MVC 5.2, [Microsoft.AspNet.MVC 5.2.2
 
     - [Attribute routing improvements](#attributerouting)
 - [Known Issues and Breaking Changes](#knownbreakingchanges)
-- [Bug Fixes](#bug-fixes)
-- [Microsoft.AspNet.MVC 5.2.2](#52)
+- [Bug Fixes]()
+- [Microsoft.AspNet.MVC 5.2.2]()
 
 <a id="softRequire"></a>
 ## Software Requirements
@@ -94,19 +94,4 @@ The issue is reported at [https://github.com/jzaefferer/jquery-validation/issues
 
 If you update to ASP.NET MVC 5.2 without updating Visual Studio 2013, you will not get Visual Studio editor support for syntax highlighting while editing the Razor views. You will need to update Visual Studio 2013 to get this support.
 
-<a id="bug-fixes"></a>
-## Bug Fixes and Minor feature updates
 
-This release also includes several bug fixes and minor feature updates. You can find the complete list here:
-
-- [5.2 package](https://aspnetwebstack.codeplex.com/workitem/list/advanced?keyword=&amp;status=Closed&amp;type=All&amp;priority=All&amp;release=v5.2%20RC&amp;assignedTo=All&amp;component=MVC&amp;sortField=AssignedTo&amp;sortDirection=Ascending&amp;page=0&amp;reasonClosed=Fixed)
-
-<a id="52"></a>
-## Microsoft.AspNet.MVC 5.2.2
-
-This release doesn't have any new features or bug fixes in MVC. We made a [change in Web Pages](https://devblogs.microsoft.com/dotnet/announcing-the-beta-release-of-web-pages-3-2-1/) for a significant performance improvement and have subsequently updated all other dependent packages we own to depend on this new version of Web Pages.
-
-<a id="mvc523Beta"></a>
-## ASP.NET MVC 5.2.3 Beta
-
-You can read about the release [here](https://devblogs.microsoft.com/dotnet/asp-net-mvc-5-2-3-web-pages-3-2-3-and-web-api-5-2-3-beta-releases/). This release contains only bug fixes. You can use [this query](https://aspnetwebstack.codeplex.com/workitem/list/advanced?keyword=&amp;status=Closed&amp;type=All&amp;priority=All&amp;release=v5.2.3%20Beta&amp;assignedTo=All&amp;component=MVC&amp;sortField=LastUpdatedDate&amp;sortDirection=Descending&amp;page=0&amp;reasonClosed=Fixed) to see the list of issues fixed in this release.

@@ -1,7 +1,7 @@
 ---
 uid: web-api/overview/security/basic-authentication
 title: "Basic Authentication in ASP.NET Web API | Microsoft Docs"
-author: MikeWasson
+author: Rick-Anderson
 description: "Describes using Basic Authentication in ASP.NET Web API."
 ms.author: riande
 ms.date: 10/02/2014
@@ -11,7 +11,7 @@ msc.type: authoredcontent
 ---
 # Basic Authentication in ASP.NET Web API
 
-by [Mike Wasson](https://github.com/MikeWasson)
+by Mike Wasson
 
 Basic authentication is defined in [RFC 2617, HTTP Authentication: Basic and Digest Access Authentication](http://www.ietf.org/rfc/rfc2617.txt).
 
@@ -36,7 +36,7 @@ Basic authentication works as follows:
 
 Basic authentication is performed within the context of a "realm." The server includes the name of the realm in the WWW-Authenticate header. The user's credentials are valid within that realm. The exact scope of a realm is defined by the server. For example, you might define several realms in order to partition resources.
 
-![](basic-authentication/_static/image1.png)
+![Diagram of basic authentication](basic-authentication/_static/image1.png)
 
 Because the credentials are sent unencrypted, Basic authentication is only secure over HTTPS. See [Working with SSL in Web API](working-with-ssl-in-web-api.md).
 
@@ -52,7 +52,7 @@ To enable Basic authentication using IIS, set the authentication mode to "Window
 
 In this mode, IIS uses Windows credentials to authenticate. In addition, you must enable Basic authentication in IIS. In IIS Manager, go to Features View, select Authentication, and enable Basic authentication.
 
-![](basic-authentication/_static/image2.png)
+![Image of I I S Manager dashboard](basic-authentication/_static/image2.png)
 
 In your Web API project, add the `[Authorize]` attribute for any controller actions that need authentication.
 

@@ -13,7 +13,7 @@ msc.type: authoredcontent
 
 by [Scott Mitchell](https://twitter.com/ScottOnWriting)
 
-[Download Code](https://download.microsoft.com/download/3/9/f/39f92b37-e92e-4ab3-909e-b4ef23d01aa3/ASPNET_Data_Tutorial_75_CS.zip) or [Download PDF](creating-stored-procedures-and-user-defined-functions-with-managed-code-cs/_static/datatutorial75cs1.pdf)
+[Download PDF](creating-stored-procedures-and-user-defined-functions-with-managed-code-cs/_static/datatutorial75cs1.pdf)
 
 > Microsoft SQL Server 2005 integrates with the .NET Common Language Runtime to allow developers to create database objects through managed code. This tutorial shows how to create managed stored procedures and managed user-defined functions with your Visual Basic or C# code. We also see how these editions of Visual Studio allow you to debug such managed database objects.
 
@@ -456,7 +456,6 @@ For more information on the topics discussed in this tutorial, refer to the foll
 
 - [Advantages and Drawbacks of User-Defined Functions](http://www.samspublishing.com/articles/article.asp?p=31724&amp;rl=1)
 - [Creating SQL Server 2005 Objects in Managed Code](https://channel9.msdn.com/Showpost.aspx?postid=142413)
-- [Creating Triggers Using Managed Code in SQL Server 2005](http://www.15seconds.com/issue/041006.htm)
 - [How To: Create and Run a CLR SQL Server Stored Procedure](https://msdn.microsoft.com/library/5czye81z(VS.80).aspx)
 - [How To: Create and Run a CLR SQL Server User-Defined Function](https://msdn.microsoft.com/library/w2kae45k(VS.80).aspx)
 - [How To: Edit the `Test.sql` Script to Run SQL Objects](https://msdn.microsoft.com/library/ms233682(VS.80).aspx)

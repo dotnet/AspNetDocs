@@ -2,7 +2,7 @@
 uid: signalr/overview/performance/scaleout-in-signalr
 title: "Introduction to Scaleout in SignalR | Microsoft Docs"
 author: bradygaster
-description: "Software versions used in this topic Visual Studio 2013 .NET 4.5 SignalR version 2 Previous versions of this topic For information about earlier versions of..."
+description: "Tutorial on how to scaleout using a backplane: Azure Service Bus, Redis, or SQL server."
 ms.author: bradyg
 ms.date: 06/10/2014
 ms.assetid: 7e781fc1-1c1f-45a8-bc1d-338e96dbe9c9
@@ -39,11 +39,11 @@ In general, there are two ways to scale a web application: *scale up* and *scale
 
 The problem with scaling up is that you quickly hit a limit on the size of the machine. Beyond that, you need to scale out. However, when you scale out, clients can get routed to different servers. A client that is connected to one server will not receive messages sent from another server.
 
-![](scaleout-in-signalr/_static/image1.png)
+![Diagram that shows arrows going from Clients to Load Balancer to servers.](scaleout-in-signalr/_static/image1.png)
 
 One solution is to forward messages between servers, using a component called a *backplane*. With a backplane enabled, each application instance sends messages to the backplane, and the backplane forwards them to the other application instances. (In electronics, a backplane is a group of parallel connectors. By analogy, a SignalR backplane connects multiple servers.)
 
-![](scaleout-in-signalr/_static/image2.png)
+![Diagram that shows arrows going from Signal R App server to Backplane to Signal R App server to computers.](scaleout-in-signalr/_static/image2.png)
 
 SignalR currently provides three backplanes:
 

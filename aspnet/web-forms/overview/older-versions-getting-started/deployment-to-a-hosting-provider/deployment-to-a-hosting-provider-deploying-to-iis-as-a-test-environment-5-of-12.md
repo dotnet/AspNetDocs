@@ -214,7 +214,7 @@ Verify that an *Elmah* folder exists with only the placeholder file in it.
 
 Open the *Web.config* file in the deployed application at *C:\inetpub\wwwroot\ContosoUniversity* and you can see where the deployment process configured Code First Migrations to automatically update the database to the latest version.
 
-![](deployment-to-a-hosting-provider-deploying-to-iis-as-a-test-environment-5-of-12/_static/image35.png)
+![Screenshot that highlights where the deployment process configured Code First Migrations to automatically update the database to the latest version.](deployment-to-a-hosting-provider-deploying-to-iis-as-a-test-environment-5-of-12/_static/image35.png)
 
 The deployment process also created a new connection string for Code First Migrations to use exclusively for updating the database schema:
 
@@ -235,7 +235,7 @@ For information about running IIS or IIS Express in Visual Studio, see the follo
 - [Introducing IIS Express](https://weblogs.asp.net/scottgu/archive/2010/06/28/introducing-iis-express.aspx) on Scott Guthrie's blog.
 - [How to: Specify the Web Server for Web Projects in Visual Studio](https://msdn.microsoft.com/library/ms178108.aspx).
 - [Core Differences Between IIS and the ASP.NET Development Server](../deploying-web-site-projects/core-differences-between-iis-and-the-asp-net-development-server-cs.md) on the ASP.NET site.
-- [Test your ASP.NET MVC or Web Forms Application on IIS 7 in 30 seconds](https://docs.microsoft.com/archive/blogs/rickandy/test-your-asp-net-mvc-or-webforms-application-on-iis-7-in-30-seconds) on Rick Anderson's blog. This entry provides examples of why testing with the Visual Studio Development Server (Cassini) is not as reliable as testing in IIS Express, and why testing in IIS Express is not as reliable as testing in IIS.
+- [Test your ASP.NET MVC or Web Forms Application on IIS 7 in 30 seconds](/archive/blogs/rickandy/test-your-asp-net-mvc-or-webforms-application-on-iis-7-in-30-seconds) on Rick Anderson's blog. This entry provides examples of why testing with the Visual Studio Development Server (Cassini) is not as reliable as testing in IIS Express, and why testing in IIS Express is not as reliable as testing in IIS.
 
 For information about what issues might arise when your application runs in medium trust, see [Hosting ASP.NET Applications in Medium Trust](http://www.4guysfromrolla.com/articles/100307-1.aspx) on the 4 Guys from Rolla site.
 

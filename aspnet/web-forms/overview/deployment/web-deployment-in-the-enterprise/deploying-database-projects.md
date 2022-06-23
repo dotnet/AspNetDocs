@@ -13,14 +13,12 @@ msc.type: authoredcontent
 
 by [Jason Lee](https://github.com/jrjlee)
 
-[Download PDF](https://msdnshared.blob.core.windows.net/media/MSDNBlogsFS/prod.evol.blogs.msdn.com/CommunityServer.Blogs.Components.WeblogFiles/00/00/00/63/56/8130.DeployingWebAppsInEnterpriseScenarios.pdf)
-
 > [!NOTE]
 > In lots of enterprise deployment scenarios, you need the ability to publish incremental updates to a deployed database. The alternative is to recreate the database on every deployment, which means you lose any data in the existing database. When you work with Visual Studio 2010, using VSDBCMD is the recommended approach to incremental database publishing. However, the next version of Visual Studio and the Web Publishing Pipeline (WPP) will include tooling that supports incremental publishing directly.
 
 If you open the Contact Manager sample solution in Visual Studio 2010, you'll see that the database project includes a Properties folder that contains four files.
 
-![](deploying-database-projects/_static/image1.png)
+![If you open the Contact Manager sample solution in Visual Studio 2010, you'll see that the database project includes a Properties folder that contains four files.](deploying-database-projects/_static/image1.png)
 
 Together with the project file (*ContactManager.Database.dbproj* in this case), these files control various aspects of the build and deployment process:
 
@@ -38,7 +36,7 @@ When you build a database project, the build process creates two files:
 
 This shows the relationship between these resources:
 
-![](deploying-database-projects/_static/image2.png)
+![The relationship between the above resources](deploying-database-projects/_static/image2.png)
 
 As you can see, the .sqlsettings file and the .sqlpermissions file are inputs to the build process. Along with the database project file, these files are used to create the database schema file. The .sqldeployment file and the .sqlcmdvars file pass through the build process unchanged. The deployment manifest indicates the location of the database schema, the .sqldeployment file, the .sqlcmdvars file, and any pre-deployment or post-deployment SQL scripts.
 
@@ -60,7 +58,7 @@ There are three main approaches you can use to deploy a database project:
 
 From this overview, you can see that using VSDBCMD with MSBuild is the approach best suited to a typical enterprise deployment scenario:
 
-|  | Visual Studio 2010 | Web Deploy 2.0 | VSDBCMD.exe |
+| Supports | Visual Studio 2010 | Web Deploy 2.0 | VSDBCMD.exe |
 | --- | --- | --- | --- |
 | Supports remote deployment? | Yes | Yes | Yes |
 | Supports incremental updates? | Yes | No | Yes |
@@ -105,7 +103,7 @@ The value of this property is set according to the properties of the database pr
 > [!NOTE]
 > These settings are associated with a specific build configuration and platform. For example, if you configure settings for the **Debug** configuration and then publish using the **Release** configuration, your settings will not be used.
 
-![](deploying-database-projects/_static/image3.png)
+![For example, if you configure settings for the Debug configuration and then publish using the Release configuration, your settings will not be used.](deploying-database-projects/_static/image3.png)
 
 > [!NOTE]
 > In this scenario, the **Deploy action** should always be set to **Create a deployment script (.sql)**, because you don't want Visual Studio 2010 to deploy your database. In other words, the **DeployToDatabase** property should always be **False**.

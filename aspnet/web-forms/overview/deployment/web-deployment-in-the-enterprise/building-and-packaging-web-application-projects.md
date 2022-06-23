@@ -13,8 +13,6 @@ msc.type: authoredcontent
 
 by [Jason Lee](https://github.com/jrjlee)
 
-[Download PDF](https://msdnshared.blob.core.windows.net/media/MSDNBlogsFS/prod.evol.blogs.msdn.com/CommunityServer.Blogs.Components.WeblogFiles/00/00/00/63/56/8130.DeployingWebAppsInEnterpriseScenarios.pdf)
-
 > When you want to deploy a web application project to a remote server environment, your first task is to build the project and generate a web deployment package. This topic describes how the build process works for web application projects. In particular, it explains:
 > 
 > - How the Web Publishing Pipeline (WPP) extends the build process to include deployment functionality.
@@ -23,7 +21,7 @@ by [Jason Lee](https://github.com/jrjlee)
 
 In Visual Studio 2010, the build and deployment process for web application projects is supported by the WPP. The WPP provides a set of Microsoft Build Engine (MSBuild) targets that extend the functionality of MSBuild and enable it to integrate with Web Deploy. Within Visual Studio, you can see this extended functionality on the property pages for your web application project. The **Package/Publish Web** page, together with the **Package/Publish SQL** page, lets you configure how your web application project is packaged for deployment when the build process is complete.
 
-![](building-and-packaging-web-application-projects/_static/image1.png)
+![The Package/Publish Web page, together with the Package/Publish S Q L page, lets you configure how your web application project is packaged for deployment when the build process is complete.](building-and-packaging-web-application-projects/_static/image1.png)
 
 ## How Does the WPP Work?
 
@@ -46,7 +44,7 @@ The **Package** target is defined in the *Microsoft.Web.Publishing.targets* file
 
 > [!NOTE]
 > To view a project file (for example, <em>ContactManager.Mvc.csproj</em>) in Visual Studio 2010, you first need to unload the project from your solution. In the <strong>Solution Explorer</strong> window, right-click the project node, and then click <strong>Unload Project</strong>. Right-click the project node again, and then click <strong>Edit</strong><em>[project file]</em>). The project file will open in its raw XML form. Remember to reload the project when you're done.  
-> For more information on MSBuild targets, tasks, and <strong>Import</strong> statements, see [Understanding the Project File](understanding-the-project-file.md). For a more in-depth introduction to project files and the WPP, see [Inside the Microsoft Build Engine: Using MSBuild and Team Foundation Build](http://amzn.com/0735645248) by Sayed Ibrahim Hashimi and William Bartholomew, ISBN: 978-0-7356-4524-0.
+> For more information on MSBuild targets, tasks, and <strong>Import</strong> statements, see [Understanding the Project File](understanding-the-project-file.md). For a more in-depth introduction to project files and the WPP, see [Inside the Microsoft Build Engine: Using MSBuild and Team Foundation Build](https://www.amazon.com/Inside-Microsoft%C2%AE-Build-Engine-Foundation/dp/0735626286) by Sayed Ibrahim Hashimi and William Bartholomew, ISBN: 978-0-7356-4524-0.
 
 ## What Is a Web Deployment Package?
 
@@ -62,7 +60,7 @@ Once the web deployment package has been generated, you can publish it to an IIS
 
 This shows what happens when you build and package a web application project:
 
-![](building-and-packaging-web-application-projects/_static/image2.png)
+![What happens when you build and package a web application project.](building-and-packaging-web-application-projects/_static/image2.png)
 
 When you build a web application project, the build process generates a file named *[project name].SourceManifest.xml*. Along with the project file and the build output, this *.SourceManifest.xml* file tells Web Deploy what it needs to include in the web deployment package. Using these inputs, Web Deploy generates a web deployment package named *[project name].zip*.
 
@@ -86,7 +84,7 @@ Once you've created a web deployment package, your next step is to deploy it. Fo
 
 The next topics in this tutorial, [Configuring Parameters for Web Package Deployment](configuring-parameters-for-web-package-deployment.md) and [Deploying Web Packages](deploying-web-packages.md), provide guidance on how to use the web package you've created. The final tutorial in this series, [Advanced Enterprise Web Deployment](../advanced-enterprise-web-deployment/advanced-enterprise-web-deployment.md), provides guidance on how to customize and troubleshoot the packaging process.
 
-For a more in-depth introduction to project files and the WPP, see [Inside the Microsoft Build Engine: Using MSBuild and Team Foundation Build](http://amzn.com/0735645248) by Sayed Ibrahim Hashimi and William Bartholomew, ISBN: 978-0-7356-4524-0.
+For a more in-depth introduction to project files and the WPP, see [Inside the Microsoft Build Engine: Using MSBuild and Team Foundation Build](https://www.amazon.com/Inside-Microsoft%C2%AE-Build-Engine-Foundation/dp/0735626286) by Sayed Ibrahim Hashimi and William Bartholomew, ISBN: 978-0-7356-4524-0.
 
 > [!div class="step-by-step"]
 > [Previous](understanding-the-build-process.md)

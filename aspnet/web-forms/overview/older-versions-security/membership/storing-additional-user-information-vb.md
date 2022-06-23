@@ -239,7 +239,7 @@ The `Guestbook.aspx` page is where authenticated users can view the guestbook an
 
 Open the `Guestbook.aspx` page in Visual Studio and construct a user interface consisting of two TextBox controls, one for the new comment's subject and one for its body. Set the first TextBox control's `ID` property to `Subject` and its `Columns` property to 40; set second's `ID` to `Body`, its `TextMode` to `MultiLine`, and its `Width` and `Rows` properties to "95%" and 8, respectively. To complete the user interface, add a Button Web control named `PostCommentButton` and set its `Text` property to "Post Your Comment".
 
-Since each guestbook comment requires a subject and body, add a RequiredFieldValidator for each of the TextBoxes. Set the `ValidationGroup` property of these controls to "EnterComment"; likewise, set the `PostCommentButton` control's `ValidationGroup` property to "EnterComment". For more information on ASP.NET's validation controls, check out [Form Validation in ASP.NET](http://www.4guysfromrolla.com/webtech/090200-1.shtml), [Dissecting the Validation Controls in ASP.NET 2.0](http://aspnet.4guysfromrolla.com/articles/112305-1.aspx), and the [Validation Server Controls Tutorial](http://www.w3schools.com/aspnet/aspnet_refvalidationcontrols.asp) on [W3Schools](http://www.w3schools.com/).
+Since each guestbook comment requires a subject and body, add a RequiredFieldValidator for each of the TextBoxes. Set the `ValidationGroup` property of these controls to "EnterComment"; likewise, set the `PostCommentButton` control's `ValidationGroup` property to "EnterComment". For more information on ASP.NET's validation controls, check out [Form Validation in ASP.NET](/aspnet/web-pages/overview/ui-layouts-and-themes/validating-user-input-in-aspnet-web-pages-sites), [Dissecting the Validation Controls in ASP.NET 2.0](http://aspnet.4guysfromrolla.com/articles/112305-1.aspx).
 
 After crafting the user interface your page's declarative markup should look something like the following:
 
@@ -276,7 +276,7 @@ Figure 17 shows the contents of the `GuestbookComments` table after two comments
 In addition to leaving comments, a user visiting the `Guestbook.aspx` page should also be able to view the guestbook's existing comments. To accomplish this, add a ListView control named `CommentList` to the bottom of the page.
 
 > [!NOTE]
-> The ListView control is new to ASP.NET version 3.5. It is designed to display a list of items in a very customizable and flexible layout, yet still offer built-in editing, inserting, deleting, paging, and sorting functionality like the GridView. If you are using ASP.NET 2.0, you will need to use the DataList or Repeater control instead. For more information on using the ListView, see [Scott Guthrie](https://weblogs.asp.net/scottgu/)'s blog entry, [The asp:ListView Control](https://weblogs.asp.net/scottgu/archive/2007/08/10/the-asp-listview-control-part-1-building-a-product-listing-page-with-clean-css-ui.aspx), and my article, [Displaying Data with the ListView Control](http://aspnet.4guysfromrolla.com/articles/122607-1.aspx).
+> The ListView control is new to ASP.NET version 3.5. It is designed to display a list of items in a very customizable and flexible layout, yet still offer built-in editing, inserting, deleting, paging, and sorting functionality like the GridView. If you are using ASP.NET 2.0, you will need to use the DataList or Repeater control instead. For more information on using the ListView, see [Scott Guthrie](https://weblogs.asp.net/scottgu/)'s blog entry, [The asp:ListView Control](https://weblogs.asp.net/scottgu/archive/2007/08/10/the-asp-listview-control-part-1-building-a-product-listing-page-with-clean-css-ui.aspx), and my article, [Displaying Data with the ListView Control](/previous-versions/aspnet/bb515102(v=vs.100)).
 
 Open the ListView's Smart Tag and, from the Choose Data Source drop-down list, bind the control to a new data source. As we saw in Step 2, this will launch the Data Source Configuration Wizard. Select the Database icon, name the resulting SqlDataSource `CommentsDataSource`, and click OK. Next, select the `SecurityTutorialsConnectionString` connection string from the drop-down list and click Next.
 
@@ -360,7 +360,7 @@ We can specify a URL to send the user to when the Continue button is clicked via
 
 The CreateUserWizard control's default interface is sufficient for simple account creation scenarios where only core user account information like username, password, and email need be collected. But what if we wanted to prompt the visitor to enter her home town, homepage, and signature while creating her account? It is possible to customize the CreateUserWizard control's interface to collect additional information at signup, and this information may be used in the `CreatedUser` event handler to insert additional records into the underlying database.
 
-The CreateUserWizard control extends the ASP.NET Wizard control, which is a control that allows a page developer to define a series of ordered `WizardSteps`. The Wizard control renders the active step and provides a navigation interface that allows the visitor to move through these steps. The Wizard control is ideal for breaking down a long task into several short steps. For more information on the Wizard control, see [Creating a Step-by-Step User Interface with the ASP.NET 2.0 Wizard Control](http://aspnet.4guysfromrolla.com/articles/061406-1.aspx).
+The CreateUserWizard control extends the ASP.NET Wizard control, which is a control that allows a page developer to define a series of ordered `WizardSteps`. The Wizard control renders the active step and provides a navigation interface that allows the visitor to move through these steps. The Wizard control is ideal for breaking down a long task into several short steps. For more information on the Wizard control, see [Creating a Step-by-Step User Interface with the ASP.NET 2.0 Wizard Control](/archive/msdn-magazine/2004/november/cutting-edge-the-asp-net-2-0-wizard-control).
 
 The CreateUserWizard control's default markup defines two `WizardSteps`: `CreateUserWizardStep` and `CompleteWizardStep`.
 
@@ -444,16 +444,16 @@ Happy Programming!
 
 For more information on the topics discussed in this tutorial, refer to the following resources:
 
-- [Accessing and Updating Data in ASP.NET 2.0](http://aspnet.4guysfromrolla.com/articles/011106-1.aspx)
+- [Accessing and Updating Data in ASP.NET 2.0](/aspnet/web-forms/overview/data-access/accessing-the-database-directly-from-an-aspnet-page/inserting-updating-and-deleting-data-with-the-sqldatasource-vb)
 - [ASP.NET 2.0 Wizard Control](https://weblogs.asp.net/scottgu/archive/2006/02/21/438732.aspx)
-- [Creating a Step-by-Step User Interface with the ASP.NET 2.0 Wizard Control](http://aspnet.4guysfromrolla.com/articles/061406-1.aspx)
-- [Creating Custom DataSource Control Parameters](http://aspnet.4guysfromrolla.com/articles/110106-1.aspx)
-- [Customizing the CreateUserWizard Control](http://aspnet.4guysfromrolla.com/articles/070506-1.aspx)
+- [Creating a Step-by-Step User Interface with the ASP.NET 2.0 Wizard Control](/archive/msdn-magazine/2004/november/cutting-edge-the-asp-net-2-0-wizard-control)
+- [Creating Custom DataSource Control Parameters](/previous-versions/aspnet/xt50s8kz(v=vs.100))
+- [Customizing the CreateUserWizard Control](/previous-versions/aspnet/ms178342(v=vs.100))
 - [DetailsView Control QuickStarts](https://quickstarts.asp.net/QuickStartv20/aspnet/doc/ctrlref/data/detailsview.aspx)
-- [Displaying Data with the ListView Control](http://aspnet.4guysfromrolla.com/articles/122607-1.aspx)
-- [Dissecting the Validation Controls in ASP.NET 2.0](http://aspnet.4guysfromrolla.com/articles/112305-1.aspx)
+- [Displaying Data with the ListView Control](/previous-versions/aspnet/bb398790(v=vs.100))
+- [Dissecting the Validation Controls in ASP.NET 2.0](/previous-versions/aspnet/debza5t0(v=vs.100))
 - [Editing Insert and Deleting Data](../../data-access/editing-inserting-and-deleting-data/an-overview-of-inserting-updating-and-deleting-data-cs.md)
-- [Form Validation in ASP.NET](http://www.4guysfromrolla.com/webtech/090200-1.shtml)
+- [Form Validation in ASP.NET](/aspnet/web-pages/overview/ui-layouts-and-themes/validating-user-input-in-aspnet-web-pages-sites)
 - [Gathering Custom User Registration Information](https://weblogs.asp.net/scottgu/archive/2006/07/05/Tip_2F00_Trick_3A00_-Gathering-Custom-User-Registration-Information.aspx)
 - [Profiles in ASP.NET 2.0](http://www.odetocode.com/Articles/440.aspx)
 - [The asp:ListView Control](https://weblogs.asp.net/scottgu/archive/2007/08/10/the-asp-listview-control-part-1-building-a-product-listing-page-with-clean-css-ui.aspx)

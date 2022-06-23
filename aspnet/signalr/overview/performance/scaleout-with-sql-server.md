@@ -2,7 +2,7 @@
 uid: signalr/overview/performance/scaleout-with-sql-server
 title: "SignalR Scaleout with SQL Server | Microsoft Docs"
 author: bradygaster
-description: "Software versions used in this topic Visual Studio 2013 .NET 4.5 SignalR version 2 Previous versions of this topic For information about earlier versions of..."
+description: "To use SQL Server to distribute messages across a SignalR application that is deployed on two separate IIS instances."
 ms.author: bradyg
 ms.date: 06/10/2014
 ms.assetid: 98358b6e-9139-4239-ba3a-2d7dd74dd664
@@ -34,7 +34,7 @@ by [Patrick Fletcher](https://github.com/pfletcher)
 
 In this tutorial, you will use SQL Server to distribute messages across a SignalR application that is deployed in two separate IIS instances. You can also run this tutorial on a single test machine, but to get the full effect, you need to deploy the SignalR application to two or more servers. You must also install SQL Server on one of the servers, or on a separate dedicated server. Another option is to run the tutorial using VMs on Azure.
 
-![](scaleout-with-sql-server/_static/image1.png)
+![Diagram that shows arrows going from S Q L Server to V M to computers. One arrow labeled Update starts at V M and goes to S Q L Server.](scaleout-with-sql-server/_static/image1.png)
 
 ## Prerequisites
 
@@ -62,7 +62,7 @@ Decide whether the application will use Windows authentication or SQL Server aut
 
 Create a new database for the backplane to use. You can give the database any name. You don't need to create any tables in the database; the backplane will create the necessary tables.
 
-![](scaleout-with-sql-server/_static/image2.png)
+![Screenshot of the Object Explorer dialog box. The folder labeled Databases is selected.](scaleout-with-sql-server/_static/image2.png)
 
 ## Enable Service Broker
 
@@ -72,7 +72,7 @@ To check whether Service Broker is enabled, query the **is\_broker\_enabled** co
 
 [!code-sql[Main](scaleout-with-sql-server/samples/sample2.sql)]
 
-![](scaleout-with-sql-server/_static/image3.png)
+![Screenshot of a window displaying the sys dot databases catalog view.](scaleout-with-sql-server/_static/image3.png)
 
 To enable Service Broker, use the following SQL query:
 
@@ -104,15 +104,15 @@ Prepare your Windows Server instances to deploy the SignalR application.
 
 Add the IIS role. Include "Application Development" features, including the WebSocket Protocol.
 
-![](scaleout-with-sql-server/_static/image4.png)
+![Screenshot that shows the Add Roles and Features Wizard dialog box. Server Roles and WebSocket Protocol are selected.](scaleout-with-sql-server/_static/image4.png)
 
 Also include the Management Service (listed under "Management Tools").
 
-![](scaleout-with-sql-server/_static/image5.png)
+![Screenshot that shows the Add Roles and Features Wizard dialog box. Server Roles and Management Service are selected.](scaleout-with-sql-server/_static/image5.png)
 
 **Install Web Deploy 3.0.** When you run IIS Manager, it will prompt you to install Microsoft Web Platform, or you can [download the installer](https://www.microsoft.com/en-us/download/details.aspx?id=43717). In the Platform Installer, search for Web Deploy and install Web Deploy 3.0
 
-![](scaleout-with-sql-server/_static/image6.png)
+![Screenshot with web deploy 3 point 0 selected in the search results.](scaleout-with-sql-server/_static/image6.png)
 
 Check that the Web Management Service is running. If not, start the service. (If you don't see Web Management Service in the list of Windows services, make sure that you installed the Management Service when you added the IIS role.)
 
@@ -124,10 +124,10 @@ For more detailed documentation about web deployment, see [Web Deployment Conten
 
 If you deploy the application to two servers, you can open each instance in a separate browser window and see that they each receive SignalR messages from the other. (Of course, in a production environment, the two servers would sit behind a load balancer.)
 
-![](scaleout-with-sql-server/_static/image7.png)
+![Screenshot of two browser windows open showing the application deployed to two servers.](scaleout-with-sql-server/_static/image7.png)
 
 After you run the application, you can see that SignalR has automatically created tables in the database:
 
-![](scaleout-with-sql-server/_static/image8.png)
+![Screenshot of the Object Explorer dialog box displaying folders and files.](scaleout-with-sql-server/_static/image8.png)
 
 SignalR manages the tables. As long as your application is deployed, don't delete rows, modify the table, and so forth.

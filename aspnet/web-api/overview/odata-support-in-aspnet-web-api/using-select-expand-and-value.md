@@ -1,7 +1,7 @@
 ---
 uid: web-api/overview/odata-support-in-aspnet-web-api/using-select-expand-and-value
 title: "Using $select, $expand, and $value in ASP.NET Web API 2 OData - ASP.NET 4.x"
-author: MikeWasson
+author: rick-anderson
 description: "Overview and code samples for the $expand, $select, and $value options in OData Web API 2 for ASP.NET 4.x."
 ms.author: riande
 ms.date: 10/11/2013
@@ -12,7 +12,7 @@ msc.type: authoredcontent
 ---
 # Using $select, $expand, and $value in ASP.NET Web API 2 OData
 
-by [Mike Wasson](https://github.com/MikeWasson)
+by Mike Wasson
 
 Overview and code samples for the $expand, $select, and $value options in OData Web API 2 for ASP.NET 4.x. These options allow a client to control the representation that it gets back from the server.
 
@@ -24,7 +24,7 @@ Overview and code samples for the $expand, $select, and $value options in OData 
 
 For this article, I'll use an OData service that defines three entities: Product, Supplier, and Category. Each product has one category and one supplier.
 
-![](using-select-expand-and-value/_static/image1.png)
+![Diagram that shows a sample schema for the O Data service, defining a Products, Suppliers, and Categories as its entities.](using-select-expand-and-value/_static/image1.png)
 
 Here are the C# classes that define the entity models:
 
@@ -84,7 +84,7 @@ By default, Web API limits the maximum expansion depth to 2. That prevents the c
 
 [!code-csharp[Main](using-select-expand-and-value/samples/sample11.cs)]
 
-For more information about the $expand option, see [Expand System Query Option ($expand)](http://www.odata.org/documentation/odata-v2-documentation/uri-conventions/#46_Expand_System_Query_Option_expand) in the official OData documentation.
+For more information about the $expand option, see [Expand System Query Option ($expand)](https://www.odata.org/documentation/odata-version-2-0/uri-conventions/#46_Expand_System_Query_Option_expand) in the official OData documentation.
 
 ## Using $select
 
@@ -112,7 +112,7 @@ Here is the response body:
 
 [!code-console[Main](using-select-expand-and-value/samples/sample17.cmd)]
 
-For more information about the $select option, see [Select System Query Option ($select)](http://www.odata.org/documentation/odata-v2-documentation/uri-conventions/#48_Select_System_Query_Option_select) in the official OData documentation.
+For more information about the $select option, see [Select System Query Option ($select)](https://www.odata.org/documentation/odata-version-2-0/uri-conventions/#48_Select_System_Query_Option_select) in the official OData documentation.
 
 ## Getting Individual Properties of an Entity ($value)
 

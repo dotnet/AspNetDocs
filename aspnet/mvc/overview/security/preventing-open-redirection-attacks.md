@@ -25,7 +25,7 @@ To understand the vulnerability, let's look at how the login redirection works i
 
 In the screenshot below, we can see that an attempt to access the /Account/ChangePassword view when not logged in results in a redirect to /Account/LogOn?ReturnUrl=%2fAccount%2fChangePassword%2f.
 
-[![](preventing-open-redirection-attacks/_static/image2.png)](preventing-open-redirection-attacks/_static/image1.png)
+[![Screenshot that shows the My M V C Application Log On page. The title bar is highlighted.](preventing-open-redirection-attacks/_static/image2.png)](preventing-open-redirection-attacks/_static/image1.png)
 
 **Figure 01**: Login page with an open redirection
 
@@ -41,13 +41,13 @@ First, an attacker sends us a link to the login page on NerdDinner that includes
 
 Note that the return URL points to nerddiner.com, which is missing an "n" from the word dinner. In this example, this is a domain that the attacker controls. When we access the above link, we're taken to the legitimate NerdDinner.com login page.
 
-[![](preventing-open-redirection-attacks/_static/image4.png)](preventing-open-redirection-attacks/_static/image3.png)
+[![Screenshot that shows the Nerd Dinner dot com Home page. The title bar is highlighted and filled with the U R L that points to Nerd Diner dot com.](preventing-open-redirection-attacks/_static/image4.png)](preventing-open-redirection-attacks/_static/image3.png)
 
 **Figure 02**: NerdDinner login page with an open redirection
 
 When we correctly log in, the ASP.NET MVC AccountController's LogOn action redirects us to the URL specified in the returnUrl querystring parameter. In this case, it's the URL that the attacker has entered, which is [http://nerddiner.com/Account/LogOn](http://nerddiner.com/Account/LogOn). Unless we're extremely watchful, it's very likely we won't notice this, especially because the attacker has been careful to make sure that their forged page looks exactly like the legitimate login page. This login page includes an error message requesting that we login again. Clumsy us, we must have mistyped our password.
 
-[![](preventing-open-redirection-attacks/_static/image6.png)](preventing-open-redirection-attacks/_static/image5.png)
+[![Screenshot showing the forged Nerd Dinner Log On page, prompting the user to reenter their credentials. The forged U R L in the title bar is highlighted.](preventing-open-redirection-attacks/_static/image6.png)](preventing-open-redirection-attacks/_static/image5.png)
 
 **Figure 03**: Forged NerdDinner Login screen
 
@@ -99,13 +99,13 @@ Now that the IsLocalUrl() method is in place, we can call it from our LogOn acti
 
 Now we can test an open redirection attack by attempting to log in using an external return URL. Let's use /Account/LogOn?ReturnUrl=<http://www.bing.com/> again.
 
-[![](preventing-open-redirection-attacks/_static/image8.png)](preventing-open-redirection-attacks/_static/image7.png)
+[![Screenshot that shows the My M V C Application Log On page. The title bar is highlighted and filled with the external return U R L.](preventing-open-redirection-attacks/_static/image8.png)](preventing-open-redirection-attacks/_static/image7.png)
 
 **Figure 04**: Testing the updated LogOn Action
 
 After successfully logging in, we are redirected to the Home/Index Controller action rather than the external URL.
 
-[![](preventing-open-redirection-attacks/_static/image10.png)](preventing-open-redirection-attacks/_static/image9.png)
+[![Screenshot that shows the My M V C Application Index page.](preventing-open-redirection-attacks/_static/image10.png)](preventing-open-redirection-attacks/_static/image9.png)
 
 **Figure 05**: Open Redirection attack defeated
 

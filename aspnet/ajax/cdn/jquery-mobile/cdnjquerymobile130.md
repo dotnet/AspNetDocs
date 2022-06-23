@@ -22,7 +22,6 @@ The jQuery Mobile 1.3.0 library includes the following files:
 - https://ajax.aspnetcdn.com/ajax/jquery.mobile/1.3.0/jquery.mobile-1.3.0.min.css
 - https://ajax.aspnetcdn.com/ajax/jquery.mobile/1.3.0/jquery.mobile-1.3.0.min.js
 - https://ajax.aspnetcdn.com/ajax/jquery.mobile/1.3.0/images/ajax-loader.gif
-- https://ajax.aspnetcdn.com/ajax/jquery.mobile/1.3.0/images/ajax-loader.png
 - https://ajax.aspnetcdn.com/ajax/jquery.mobile/1.3.0/images/icons-18-black.png
 - https://ajax.aspnetcdn.com/ajax/jquery.mobile/1.3.0/images/icons-18-white.png
 - https://ajax.aspnetcdn.com/ajax/jquery.mobile/1.3.0/images/icons-36-black.png

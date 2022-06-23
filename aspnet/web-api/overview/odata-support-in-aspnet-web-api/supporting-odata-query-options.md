@@ -1,7 +1,7 @@
 ---
 uid: web-api/overview/odata-support-in-aspnet-web-api/supporting-odata-query-options
 title: "Supporting OData Query Options in ASP.NET Web API 2 - ASP.NET 4.x"
-author: MikeWasson
+author: rick-anderson
 description: "Overview with code examples shows the supporting OData Query Options in ASP.NET Web API 2 for ASP.NET 4.x."
 ms.author: riande
 ms.date: 02/04/2013
@@ -12,7 +12,7 @@ msc.type: authoredcontent
 ---
 # Supporting OData Query Options in ASP.NET Web API 2
 
-by [Mike Wasson](https://github.com/MikeWasson)
+by Mike Wasson
 
 This overview with code examples demonstrates the supporting OData Query Options in ASP.NET Web API 2 for ASP.NET 4.x. 
 

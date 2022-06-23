@@ -83,7 +83,7 @@ SignalR doesn't add any particular complications to deploying an application to 
 
 WebSockets needs to be explicitly enabled in your web app to be used in a SignalR application; otherwise, other protocols will be used (See [Transports and Fallbacks](../getting-started/introduction-to-signalr.md#transports) for details).
 
-In order to use WebSockets on Azure App Service Web Apps, enable it in the configuration section of the web app. To do this, open your web app in the [Azure Management Portal](https://manage.windowsazure.com/), and select Configure.
+In order to use WebSockets on Azure App Service Web Apps, enable it in the configuration section of the web app. To do this, open your web app in the [Azure Management Portal](/azure/azure-portal/azure-portal-overview), and select Configure.
 
 ![Configure tab](using-signalr-with-azure-web-sites/_static/image8.png)
 

@@ -2,7 +2,7 @@
 uid: mvc/overview/older-versions/getting-started-with-ef-5-using-mvc-4/implementing-inheritance-with-the-entity-framework-in-an-asp-net-mvc-application
 title: "Implementing Inheritance with the Entity Framework in an ASP.NET MVC Application (8 of 10) | Microsoft Docs"
 author: tdykstra
-description: "The Contoso University sample web application demonstrates how to create ASP.NET MVC 4 applications using the Entity Framework 5 Code First and Visual Studio..."
+description: "The Contoso University sample web application demonstrates to users how to create ASP.NET MVC 4 applications using the Entity Framework 5 Code First and Visual Studio."
 ms.author: riande
 ms.date: 07/30/2013
 ms.assetid: a5c3feff-5335-4cdd-a97d-f7a8785c2494
@@ -27,21 +27,21 @@ In object-oriented programming, you can use inheritance to eliminate redundant c
 
 In object-oriented programming, you can use inheritance to make it easier to work with related classes. For example, the `Instructor` and `Student` classes in the `School` data model share several properties, which results in redundant code:
 
-![Student_and_Instructor_classes](https://asp.net/media/2578113/Windows-Live-Writer_58f5a93579b2_CC7B_Student_and_Instructor_classes_e7a32f99-8bc4-48ce-aeaf-216a18071a8b.png)
+![Screenshots that show the Student and Instructor classes with redundant codes highlighted.](https://asp.net/media/2578113/Windows-Live-Writer_58f5a93579b2_CC7B_Student_and_Instructor_classes_e7a32f99-8bc4-48ce-aeaf-216a18071a8b.png)
 
 Suppose you want to eliminate the redundant code for the properties that are shared by the `Instructor` and `Student` entities. You could create a `Person` base class which contains only those shared properties, then make the `Instructor` and `Student` entities inherit from that base class, as shown in the following illustration:
 
-![Student_and_Instructor_classes_deriving_from_Person_class](https://asp.net/media/2578119/Windows-Live-Writer_58f5a93579b2_CC7B_Student_and_Instructor_classes_deriving_from_Person_class_671d708c-cbb8-454a-a8f8-c2d99439acd9.png)
+![Screenshot that shows the Student and Instructor classes deriving from the Person class.](https://asp.net/media/2578119/Windows-Live-Writer_58f5a93579b2_CC7B_Student_and_Instructor_classes_deriving_from_Person_class_671d708c-cbb8-454a-a8f8-c2d99439acd9.png)
 
 There are several ways this inheritance structure could be represented in the database. You could have a `Person` table that includes information about both students and instructors in a single table. Some of the columns could apply only to instructors (`HireDate`), some only to students (`EnrollmentDate`), some to both (`LastName`, `FirstName`). Typically, you'd have a *discriminator* column to indicate which type each row represents. For example, the discriminator column might have "Instructor" for instructors and "Student" for students.
 
-![Table-per-hierarchy_example](https://asp.net/media/2578125/Windows-Live-Writer_58f5a93579b2_CC7B_Table-per-hierarchy_example_244067cd-b451-4e9b-9595-793b9afca505.png)
+![Screenshot that shows the inheritance structure from the Person entity class.](https://asp.net/media/2578125/Windows-Live-Writer_58f5a93579b2_CC7B_Table-per-hierarchy_example_244067cd-b451-4e9b-9595-793b9afca505.png)
 
 This pattern of generating an entity inheritance structure from a single database table is called *table-per-hierarchy* (TPH) inheritance.
 
 An alternative is to make the database look more like the inheritance structure. For example, you could have only the name fields in the `Person` table and have separate `Instructor` and `Student` tables with the date fields.
 
-![Table-per-type_inheritance](https://asp.net/media/2578131/Windows-Live-Writer_58f5a93579b2_CC7B_Table-per-type_inheritance.png)
+![Screenshot that shows new Instructor and Student database tables deriving from the Person entity class.](https://asp.net/media/2578131/Windows-Live-Writer_58f5a93579b2_CC7B_Table-per-type_inheritance.png)
 
 This pattern of making a database table for each entity class is called *table per type* (TPT) inheritance.
 
@@ -91,22 +91,22 @@ Next you need to change `InstructorID` to `PersonID` and `StudentID` to `PersonI
    > Begin by closing all the open files in Visual Studio.
 2. Click **Find and Replace -- Find all Files** in the **Edit** menu, and then search for all files in the project that contain `InstructorID`.  
   
-    ![](implementing-inheritance-with-the-entity-framework-in-an-asp-net-mvc-application/_static/image1.png)
+    ![Screenshot that shows the Find and Replace window. Instructor I D, Current Project, Match case and Match whole word checkboxes, and Find All button are all highlighted.](implementing-inheritance-with-the-entity-framework-in-an-asp-net-mvc-application/_static/image1.png)
 3. Open each file in the **Find Results** window ***except*** the &lt;time-stamp&gt;*\_.cs* migration files in the *Migrations* folder, by double-clicking one line for each file.  
   
-    ![](implementing-inheritance-with-the-entity-framework-in-an-asp-net-mvc-application/_static/image2.png)
+    ![Screenshot that shows Find Results window. The time stamp migration files are crossed out in red.](implementing-inheritance-with-the-entity-framework-in-an-asp-net-mvc-application/_static/image2.png)
 4. Open the **Replace in Files** dialog and change **Look in** to **All Open Documents**.
 5. Use the **Replace in Files** dialog to change all `InstructorID` to `PersonID.`  
   
-    ![](implementing-inheritance-with-the-entity-framework-in-an-asp-net-mvc-application/_static/image3.png)
+    ![Screenshot that shows the Find and Replace window. Person I D is entered in the Replace with text field.](implementing-inheritance-with-the-entity-framework-in-an-asp-net-mvc-application/_static/image3.png)
 6. Find all the files in the project that contain `StudentID`.
 7. Open each file in the **Find Results** window ***except*** the &lt;time-stamp&gt;*\_\*.cs* migration files in the *Migrations* folder, by double-clicking one line for each file.  
   
-    ![](implementing-inheritance-with-the-entity-framework-in-an-asp-net-mvc-application/_static/image4.png)
+    ![Screenshot that shows the Find Results window. The time stamp migration files are crossed out.](implementing-inheritance-with-the-entity-framework-in-an-asp-net-mvc-application/_static/image4.png)
 8. Open the **Replace in Files** dialog and change **Look in** to **All Open Documents**.
 9. Use the **Replace in Files** dialog to change all `StudentID` to `PersonID`.   
   
-    ![](implementing-inheritance-with-the-entity-framework-in-an-asp-net-mvc-application/_static/image5.png)
+    ![Screenshot that shows the Find and Replace window. Replace in Files, All Open Documents, Match case and Match whole word checkboxes, and Replace All button are highlighted.](implementing-inheritance-with-the-entity-framework-in-an-asp-net-mvc-application/_static/image5.png)
 10. Build the project.
 
 (Note that this demonstrates a *disadvantage* of the `classnameID` pattern for naming primary keys. If you had named primary keys ID without prefixing the class name, *no* renaming would be necessary now.)
@@ -140,15 +140,15 @@ Run the site and try various pages. Everything works the same as it did before.
 
 In **Server Explorer,** expand **SchoolContext** and then **Tables**, and you see that the **Student** and **Instructor** tables have been replaced by a **Person** table. Expand the **Person** table and you see that it has all of the columns that used to be in the **Student** and **Instructor** tables.
 
-![Server_Explorer_showing_Person_table](implementing-inheritance-with-the-entity-framework-in-an-asp-net-mvc-application/_static/image6.png)
+![Screenshot that shows the Server Explorer window. The Data Connections, School Context, and Tables tabs are expanded to show the Person table.](implementing-inheritance-with-the-entity-framework-in-an-asp-net-mvc-application/_static/image6.png)
 
 Right-click the Person table, and then click **Show Table Data** to see the discriminator column.
 
-![](implementing-inheritance-with-the-entity-framework-in-an-asp-net-mvc-application/_static/image7.png)
+![Screenshot that shows the Person table. The Discriminator column name is highlighted.](implementing-inheritance-with-the-entity-framework-in-an-asp-net-mvc-application/_static/image7.png)
 
 The following diagram illustrates the structure of the new School database:
 
-![School_database_diagram](https://asp.net/media/2578143/Windows-Live-Writer_58f5a93579b2_CC7B_School_database_diagram_6350a801-7199-413f-bbac-4a2009ed19d7.png)
+![Screenshot that shows the School database diagram.](https://asp.net/media/2578143/Windows-Live-Writer_58f5a93579b2_CC7B_School_database_diagram_6350a801-7199-413f-bbac-4a2009ed19d7.png)
 
 ## Summary
 

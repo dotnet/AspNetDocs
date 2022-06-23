@@ -13,8 +13,6 @@ msc.type: authoredcontent
 
 by [Jason Lee](https://github.com/jrjlee)
 
-[Download PDF](https://msdnshared.blob.core.windows.net/media/MSDNBlogsFS/prod.evol.blogs.msdn.com/CommunityServer.Blogs.Components.WeblogFiles/00/00/00/63/56/8130.DeployingWebAppsInEnterpriseScenarios.pdf)
-
 > This topic describes how to tailor the properties of a database to specific target environments as part of the deployment process.
 > 
 > > [!NOTE]
@@ -80,14 +78,14 @@ To support the deployment of a database project to multiple destinations, you sh
 1. In Visual Studio 2010, in the **Solution Explorer** window, right-click your database project, and then click **Properties**.
 2. On the database project properties page, on the **Deploy** tab, in the **Deployment configuration file** row, click **New**.
 
-    ![](customizing-database-deployments-for-multiple-environments/_static/image1.png)
+    ![On the database project properties page, on the Deploy tab, in the Deployment configuration file row, click New.](customizing-database-deployments-for-multiple-environments/_static/image1.png)
 3. In the **New Deployment Configuration File** dialog box, give the file a meaningful name (for example, **TestEnvironment.sqldeployment**), and then click **Save**.
 4. On the *[Filename]***.sqldeployment** page, set the deployment properties to match the requirements of your destination environment, and then save the file.
 
-    ![](customizing-database-deployments-for-multiple-environments/_static/image2.png)
+    ![On the Filename .sqldeployment page, set the deployment properties to match the requirements of your destination environment, and then save the file.](customizing-database-deployments-for-multiple-environments/_static/image2.png)
 5. Notice that the new file is added to the Properties folder in your database project.
 
-    ![](customizing-database-deployments-for-multiple-environments/_static/image3.png)
+    ![Notice that the new file is added to the Properties folder in your database project.](customizing-database-deployments-for-multiple-environments/_static/image3.png)
 
 ## Specifying the Deployment Configuration File in VSDBCMD
 

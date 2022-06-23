@@ -13,8 +13,6 @@ msc.type: authoredcontent
 
 by [Jason Lee](https://github.com/jrjlee)
 
-[Download PDF](https://msdnshared.blob.core.windows.net/media/MSDNBlogsFS/prod.evol.blogs.msdn.com/CommunityServer.Blogs.Components.WeblogFiles/00/00/00/63/56/8130.DeployingWebAppsInEnterpriseScenarios.pdf)
-
 > This topic describes how to download and configure the Contact Manager solution to run locally on a developer workstation.
 
 ## System Requirements
@@ -58,7 +56,7 @@ The remainder of this section provides more guidance on how to complete each of 
     3. Use the **–d** switch to specify a name for your application services database. If you omit this switch, the utility will create a database with the default name of **aspnetdb**.
 3. When the database has been created successfully, the command prompt will show a confirmation.
 
-    ![](setting-up-the-contact-manager-solution/_static/image1.png)
+    ![When the database has been created successfully, the command prompt will show a confirmation.](setting-up-the-contact-manager-solution/_static/image1.png)
 
 > [!NOTE]
 > For more information on the aspnet\_regsql utility, see [ASP.NET SQL Server Registration Tool (Aspnet\_regsql.exe)](https://msdn.microsoft.com/library/ms229862(v=vs.100).aspx).
@@ -73,13 +71,13 @@ The next step is to make sure that the connection strings in the Contact Manager
     > [!NOTE]
     > The ContactManager.Mvc project includes two *web.config* files. You need to edit the project-level file.
 
-    ![](setting-up-the-contact-manager-solution/_static/image2.png)
+    ![The ContactManager.Mvc project includes two web.config files. You need to edit the project-level file.](setting-up-the-contact-manager-solution/_static/image2.png)
 3. In the **connectionStrings** element, verify that the connection string named **ApplicationServices** points to your local ASP.NET application services database.
 
     [!code-xml[Main](setting-up-the-contact-manager-solution/samples/sample2.xml)]
 4. In the **Solution Explorer** window, expand the **ContactManager.Service** project, and then double-click the **Web.config** node.
 
-    ![](setting-up-the-contact-manager-solution/_static/image3.png)
+    ![In the Solution Explorer window, expand the ContactManager.Service project, and then double-click the Web.config node.](setting-up-the-contact-manager-solution/_static/image3.png)
 5. In the **connectionStrings** element, in the connection string named **ContactManagerContext**, verify that the **Data Source** property is set to your local instance of SQL Server Express. You don't need to change anything else in the connection string.
 
     [!code-xml[Main](setting-up-the-contact-manager-solution/samples/sample3.xml)]
@@ -95,16 +93,16 @@ You should now be ready to run the Contact Manager solution on your local machin
 1. In Visual Studio 2010, press F5.
 2. Internet Explorer starts up and requests the URL of the Contact Manager ASP.NET MVC 3 application. By default, the application displays the **All Contacts** page.
 
-    ![](setting-up-the-contact-manager-solution/_static/image4.png)
+    ![By default, the application displays the All Contacts page.](setting-up-the-contact-manager-solution/_static/image4.png)
 3. Add a few contacts, and then verify that the application works as expected.
 
-    ![](setting-up-the-contact-manager-solution/_static/image5.png)
+    ![Add a few contacts, and then verify that the application works as expected.](setting-up-the-contact-manager-solution/_static/image5.png)
 4. Browse to `http://localhost:50114/Account/Register` (adjust the URL if you're hosting the application on a different port). Add a user name, email address, and password, and verify that you're able to register an account successfully.
 
-    ![](setting-up-the-contact-manager-solution/_static/image6.png)
+    ![Add a user name, email address, and password, and verify that you're able to register an account successfully.](setting-up-the-contact-manager-solution/_static/image6.png)
 5. Browse to `http://localhost:50114/Account/LogOn` (adjust the URL if you're hosting the application on a different port). Verify that you're able to log on using the account you just created.
 
-    ![](setting-up-the-contact-manager-solution/_static/image7.png)
+    ![Verify that you're able to log on using the account you just created.](setting-up-the-contact-manager-solution/_static/image7.png)
 6. Close Internet Explorer to stop debugging.
 
 ## Conclusion

@@ -1,6 +1,6 @@
 ---
 uid: web-pages/overview/getting-started/introducing-aspnet-web-pages-2/getting-started
-title: "Getting Started | Microsoft Docs"
+title: "Getting Started with ASP.NET | Microsoft Docs"
 author: Rick-Anderson
 description: "WebMatrix is no longer recommended as an integrated development environment for ASP.NET Web Pages. Use Visual Studio or Visual Studio Code. This guidance an..."
 ms.author: riande
@@ -9,7 +9,7 @@ ms.assetid: a36d3bdf-ef1b-47a4-b932-3a0cf4cad716
 msc.legacyurl: /web-pages/overview/getting-started/introducing-aspnet-web-pages-2/getting-started
 msc.type: authoredcontent
 ---
-# Getting Started
+# Getting Started with ASP.NET
 
 by [Tom FitzMacken](https://github.com/tfitzmac)
 
@@ -112,7 +112,7 @@ Subsequent tutorial sets build on this set and add more functionality, like uplo
 
 Would you like to see the finished site running as a live web app? You can deploy a complete version of the app to your Azure account by simply clicking the following button.
 
-[![](http://azuredeploy.net/deploybutton.png)](https://azuredeploy.net/?WT.mc_id=deploy_azure_aspnet&repository=https://github.com/tfitzmac/WebPagesMovies)
+![Button for the Azure deployment function.](http://azuredeploy.net/deploybutton.png)](https://azuredeploy.net/?WT.mc_id=deploy_azure_aspnet&repository=https://github.com/tfitzmac/WebPagesMovies)
 
 You need an Azure account to deploy this solution to Azure. If you do not already have an account, you have the following options:
 
@@ -135,11 +135,11 @@ You are asked to accept the license terms and privacy statement before installin
 
 Click **Run** to start the installation. (If you want to save the installer, click **Save** and then run the installer from the folder where you saved it.)
 
-![](getting-started/_static/image5.png)
+![Screenshot of the browser window program running banner showing the Run button highlighted with a red rectangle.](getting-started/_static/image5.png)
 
 The Web Platform Installer appears, ready to install WebMatrix. Click **Install**.
 
-![](getting-started/_static/image6.png)
+![Screenshot of the Web Platform Installer showing the Microsoft Web Matrix installer with the Install button highlighted with a red rectangle.](getting-started/_static/image6.png)
 
 The installation process figures out what it has to install on your computer and starts the process. Depending on what exactly has to be installed, the process can take anywhere from a few moments to several minutes. Select **I Accept** to accept the license terms.
 

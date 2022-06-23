@@ -33,7 +33,7 @@ by [Rick Anderson](https://twitter.com/RickAndMSFT)
 ## Getting Started with ASP.NET Identity
 
 - [MVC 5 App with Facebook, Twitter, LinkedIn and Google OAuth2 Sign-on](../../../mvc/overview/security/create-an-aspnet-mvc-5-app-with-facebook-and-google-oauth2-and-openid-sign-on.md) This tutorial shows you how to write an ASP.NET MVC 5 app with Facebook and Google OAuth 2 authorization. It also shows how to add additional data to the Identity database.
-- [Deploy a Secure ASP.NET MVC app with Membership, OAuth, and SQL Database to a Azure](https://docs.microsoft.com/aspnet/core/security/authorization/secure-data). This tutorial adds Azure deployment, how to secure your app with roles, how to use the membership API to add users and roles, and additional security features.
+- [Deploy a Secure ASP.NET MVC app with Membership, OAuth, and SQL Database to a Azure](/aspnet/core/security/authorization/secure-data). This tutorial adds Azure deployment, how to secure your app with roles, how to use the membership API to add users and roles, and additional security features.
 - [Introduction to ASP.NET Identity](introduction-to-aspnet-identity.md)
 - [Create a secure ASP.NET MVC 5 web app with log in, email confirmation and password reset](../../../mvc/overview/security/create-an-aspnet-mvc-5-web-app-with-email-confirmation-and-password-reset.md)
 - [ASP.NET MVC 5 app with SMS and email Two-Factor Authentication](../../../mvc/overview/security/aspnet-mvc-5-app-with-sms-and-email-two-factor-authentication.md)
@@ -121,7 +121,7 @@ by [Rick Anderson](https://twitter.com/RickAndMSFT)
 
 ## Videos
 
-- Channel 9 [Securing ASP.NET Applications and Services: Security Facelift for Modern Applications](https://channel9.msdn.com/Events/TechEd/NorthAmerica/2014/DEV-B421#fbid=PhVT9E1WRtr?hashlink=fbid) by Ido Flatow
+- Channel 9 [Securing ASP.NET Applications and Services: Security Facelift for Modern Applications](https://view.officeapps.live.com/op/view.aspx?src=https%3A%2F%2Fvideo.ch9.ms%2Fsessions%2Fteched%2Fna%2F2014%2FDEV-B421.pptx&wdOrigin=BROWSELINK) by Ido Flatow
 - Channel 9 [ASP.NET Identity Intro](https://channel9.msdn.com/Events/dotnetConf/2014/ASP-NET-Identity-Security) by Pranav Rastogi
 - Channel 9 [ASP.NET Authentication using ASP.NET Identity](https://channel9.msdn.com/Shows/Web+Camps+TV/Special-Movember-Episode-ASPNET-Authentication-Provider) by Cory Fowler
 - Channel 9 [Building Modern Web Apps: ASP.NET Identity](https://channel9.msdn.com/Series/Building-Modern-Web-Apps/03) by Jeff Koch

@@ -1,8 +1,8 @@
 ---
 uid: web-forms/overview/performance-and-caching/using-asynchronous-methods-in-aspnet-45
-title: "Using Asynchronous Methods in ASP.NET 4.5 | Microsoft Docs"
+title: Using Asynchronous Methods in ASP.NET 4.5 | Microsoft Docs
 author: Rick-Anderson
-description: "This tutorial will teach you the basics of building an asynchronous ASP.NET Web Forms application using Visual Studio Express 2012 for Web, which is a free..."
+description: This tutorial will teach you the basics of building an asynchronous ASP.NET Web Forms application using Visual Studio Express 2012 for Web, which is a free...
 ms.author: riande
 ms.date: 01/02/2019
 ms.assetid: a585c9a2-7c8e-478b-9706-90f3739c50d1
@@ -89,7 +89,7 @@ The following code shows the `GetGizmos` method of the gizmo service.
 The `GizmoService GetGizmos` method passes a URI to an ASP.NET Web API HTTP service which returns a list of gizmos data. The *WebAPIpgw* project contains the implementation of the Web API `gizmos, widget` and `product` controllers.  
 The following image shows the gizmos page from the sample project.
 
-![Gizmos](using-asynchronous-methods-in-aspnet-45/_static/image1.png)
+![Screenshot of the Sync Gizmos web browser page showing the the table of gizmos with corresponding details as entered into the web API controllers.](using-asynchronous-methods-in-aspnet-45/_static/image1.png)
 
 ## <a id="CreatingAsynchGizmos"></a>  Creating an Asynchronous Gizmos Page
 
@@ -119,7 +119,7 @@ The asynchronous version:
 
 Inside of the `GetGizmosSvcAsync` method body another asynchronous method, `GetGizmosAsync` is called. `GetGizmosAsync` immediately returns a `Task<List<Gizmo>>` that will eventually complete when the data is available. Because you don't want to do anything else until you have the gizmo data, the code awaits the task (using the **await** keyword). You can use the **await** keyword only in methods annotated with the **async** keyword.
 
-The **await** keyword does not block the thread until the task is complete. It signs up the rest of the method as a callback on the task, and immediately returns. When the awaited task eventually completes, it will invoke that callback and thus resume the execution of the method right where it left off. For more information on using the [await](https://msdn.microsoft.com/library/hh156528(VS.110).aspx) and [async](https://msdn.microsoft.com/library/hh156513(VS.110).aspx) keywords and the [Task](https://msdn.microsoft.com/library/system.threading.tasks.task.aspx) namespace, see the [async references](https://docs.microsoft.com/dotnet/csharp/language-reference/keywords/async).
+The **await** keyword does not block the thread until the task is complete. It signs up the rest of the method as a callback on the task, and immediately returns. When the awaited task eventually completes, it will invoke that callback and thus resume the execution of the method right where it left off. For more information on using the [await](https://msdn.microsoft.com/library/hh156528(VS.110).aspx) and [async](https://msdn.microsoft.com/library/hh156513(VS.110).aspx) keywords and the [Task](https://msdn.microsoft.com/library/system.threading.tasks.task.aspx) namespace, see the [async references](/dotnet/csharp/language-reference/keywords/async).
 
 The following code shows the `GetGizmos` and `GetGizmosAsync` methods.
 
@@ -135,7 +135,7 @@ The following code shows the `GetGizmos` and `GetGizmosAsync` methods.
 
 The following image shows the asynchronous gizmo view.
 
-![async](using-asynchronous-methods-in-aspnet-45/_static/image2.png)
+![Screenshot of the Gizmos Async web browser page showing the table of gizmos with corresponding details as entered into the web API controllers.](using-asynchronous-methods-in-aspnet-45/_static/image2.png)
 
 The browsers presentation of the gizmos data is identical to the view created by the synchronous call. The only difference is the asynchronous version may be more performant under heavy loads.
 
@@ -161,7 +161,7 @@ The asynchronous `PWGasync` code behind is shown below.
 
 The following image shows the view returned from the asynchronous *PWGasync.aspx* page.
 
-![](using-asynchronous-methods-in-aspnet-45/_static/image3.png)
+![Screenshot of the Asynchronous Widgets, Products, and Gizmos web browser page showing the Widgets, Products, and Gizmos tables.](using-asynchronous-methods-in-aspnet-45/_static/image3.png)
 
 ## <a id="CancelToken"></a>  Using a Cancellation Token
 
@@ -187,9 +187,9 @@ To realize the benefits of an asynchronous web application, you might need to ma
 
     - Open IIS manager and navigate to the Application Pools pane.
     - Right click on the target application pool and select **Advanced Settings**.  
-        ![advanced](using-asynchronous-methods-in-aspnet-45/_static/image4.png)
+        ![Screenshot of the Internet Information Services Manager showing the Advanced Settings menu highlighted with a red rectangle.](using-asynchronous-methods-in-aspnet-45/_static/image4.png)
     - In the **Advanced Settings** dialog box, change *Queue Length* from 1,000 to 5,000.  
-        ![Queue length](using-asynchronous-methods-in-aspnet-45/_static/image5.png)  
+        ![Screenshot of the Advanced Settings dialog box showing the Queue Length field set to 1000 and highlighted with a red rectangle.](using-asynchronous-methods-in-aspnet-45/_static/image5.png)  
   
   Note in the images above, the .NET framework is listed as v4.0, even though the application pool is using .NET 4.5. To understand this discrepancy, see the following:
 
@@ -198,11 +198,11 @@ To realize the benefits of an asynchronous web application, you might need to ma
 - [.NET Framework Versions and Dependencies](https://msdn.microsoft.com/library/bb822049(VS.110).aspx)
 
 - If your application is using web services or System.NET to communicate with a backend over HTTP you may need to increase the [connectionManagement/maxconnection](https://msdn.microsoft.com/library/fb6y0fyc(VS.110).aspx) element. For ASP.NET applications, this is limited by the autoConfig feature to 12 times the number of CPUs. That means that on a quad-proc, you can have at most 12 \* 4 = 48 concurrent connections to an IP end point. Because this is tied to [autoConfig](https://msdn.microsoft.com/library/7w2sway1(VS.110).aspx), the easiest way to increase `maxconnection` in an ASP.NET application is to set [System.Net.ServicePointManager.DefaultConnectionLimit](https://msdn.microsoft.com/library/system.net.servicepointmanager.defaultconnectionlimit(VS.110).aspx) programmatically in the from `Application_Start` method in the *global.asax* file. See the sample download for an example.
-- In .NET 4.5, the default of 5000 for [MaxConcurrentRequestsPerCPU](https://docs.microsoft.com/archive/blogs/tmarq/asp-net-thread-usage-on-iis-7-5-iis-7-0-and-iis-6-0) should be fine.
+- In .NET 4.5, the default of 5000 for [MaxConcurrentRequestsPerCPU](/archive/blogs/tmarq/asp-net-thread-usage-on-iis-7-5-iis-7-0-and-iis-6-0) should be fine.
 
 ## Contributors
 
 - [Levi Broderick](http://stackoverflow.com/users/59641/levi)
 - [Tom Dykstra](http://www.bing.com/search?q=site%3Aasp.net+%22Tom+Dykstra%22+-forums.asp.net&amp;qs=n&amp;form=QBRE&amp;pq=site%3Aasp.net+%22tom+dykstra%22+-forums.asp.net&amp;sc=8-42&amp;sp=-1&amp;sk=)
 - [Brad Wilson](http://bradwilson.typepad.com/)
-- [HongMei Ge](https://docs.microsoft.com/archive/blogs/hongmeig/)
+- [HongMei Ge](/archive/blogs/hongmeig/)
