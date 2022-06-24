@@ -26,7 +26,7 @@ Install [Visual Studio](https://visualstudio.microsoft.com/downloads/?utm_medium
 
 Each framework targets a different development style. The one you choose depends on a combination of your programming assets (knowledge, skills, and development experience), the type of application you're creating, and the development approach you're comfortable with.
 
-Below is an overview of each of the frameworks and some ideas for how to choose between them. If you prefer a video introduction, see [Making Websites with ASP.NET](https://channel9.msdn.com/Blogs/ASP-NET-Site-Videos/Making-Websites-with-ASPNET) and [What is Web Tools?](https://channel9.msdn.com/Blogs/ASP-NET-Site-Videos/what-is-web-tools)
+Below is an overview of each of the frameworks and some ideas for how to choose between them. If you prefer a video introduction, see [Making Websites with ASP.NET](https://docs.microsoft.com/en-us/shows/asp-net-site-videos/making-websites-aspnet) and [What is Web Tools?](https://channel9.msdn.com/Blogs/ASP-NET-Site-Videos/what-is-web-tools)
 
 | Framework  | If you have experience in | Development style | Expertise |
 |-----------|----------------------|-----------------------------------------------------|----------------|
