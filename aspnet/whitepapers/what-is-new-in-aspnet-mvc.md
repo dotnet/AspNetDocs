@@ -11,7 +11,7 @@ msc.type: content
 ---
 # What's New in ASP.NET MVC 2
 
-> This document describes new features and improvements introduced in ASP.NET MVC 2. This document is also available for [Download](https://download.microsoft.com/download/F/1/6/F16F9AF9-8EF4-4845-BC97-639791D5699C/WhatIsNewInMVC_2.pdf)
+> This document describes new features and improvements introduced in ASP.NET MVC 2. 
 
 [Introduction](#_TOC1)   
 [Upgrading an ASP.NET MVC 1.0 Project to ASP.NET MVC 2](#_TOC2)   

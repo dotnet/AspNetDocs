@@ -100,7 +100,7 @@ See also [Making sure an application is off-line during deployment](aspnet-web-d
 - [Web Tools 2012.2 - web.config transforms](https://www.youtube.com/watch?v=HdPK8mxpKEI) (YouTube video by Sayed Hashimi). Shows how to set up and preview Web.config transforms.
 - [How do I disable Web.config transformation?](https://msdn.microsoft.com/library/ee942158.aspx#disable_web_config_transformation) (MSDN).
 - [When should I use Web Deploy parameters instead of Web.config transformations?](https://msdn.microsoft.com/library/ee942158.aspx#web_deploy_parameters) (MSDN).
-- [XDT (XML Document Transform) released on codeplex.com](https://devblogs.microsoft.com/dotnet/windows-azure-web-sites-how-application-strings-and-connection-strings-work/) (.NET Web Development and Tools blog). Announces availability of the source code for the Web.config file transformation engine and lists some tools that use it.
+- [XDT (XML Document Transform) released on codeplex.com](https://devblogs.microsoft.com/dotnet/xdt-xml-document-transform-released-on-codeplex-com/) (.NET Web Development and Tools blog). Announces availability of the source code for the Web.config file transformation engine and lists some tools that use it.
 - [Windows Azure Web Sites: How Application Strings and Connection Strings Work](https://azure.microsoft.com/blog/windows-azure-web-sites-how-application-strings-and-connection-strings-work/) (Microsoft Azure blog). An alternative to Web.config transforms if your destination environment is Windows Azure Web Sites and you want to transform `appSettings` or `connectionStrings`.
 
 <a id="webdeployparms"></a>

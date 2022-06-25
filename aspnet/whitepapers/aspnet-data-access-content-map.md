@@ -205,7 +205,7 @@ See also the following sections on working with SQL Server Express and LocalDB, 
 
 - [SQL Server Express 2012 LocalDB](https://msdn.microsoft.com/library/hh510202(v=sql.110).aspx) (MSDN). The official MSDN introduction to LocalDB.
 - [SQL Server Connection Strings for ASP.NET Web Applications](https://msdn.microsoft.com/library/jj653752.aspx) (MSDN).
-- [How to: Upgrade to LocalDB](https://msdn.microsoft.com/library/hh873188.aspx) (MSDN). How to migrate an .mdf file from an earlier version of SQL Server Express to LocalDB. You also have to go through this process if you download one of the [SQL Server 2012 sample databases](https://go.microsoft.com/fwlink/?linkid=117483).
+- [How to: Upgrade to LocalDB](https://msdn.microsoft.com/library/hh873188.aspx) (MSDN). How to migrate an .mdf file from an earlier version of SQL Server Express to LocalDB. You also have to go through this process if you download one of the [SQL Server 2012 sample databases](https://github.com/Microsoft/sql-server-samples/releases/tag/adventureworks2012).
 - [Introducing LocalDB, an improved SQL Express](https://go.microsoft.com/fwlink/?LinkId=234375) (SQL Server Express blog). Has more background on why LocalDB was created than is included in MSDN.
 - [LocalDB: Where is My Database?](https://go.microsoft.com/fwlink/?LinkId=234376) (SQL Server Express blog). Information about where LocalDB database files are created.
 - [Using LocalDB with Full IIS, Part 1: User Profile](/archive/blogs/sqlexpress/using-localdb-with-full-iis-part-1-user-profile) (SQL Server Express blog). LocalDB is not designed to work with IIS. This series of blog posts explains the issues and some workarounds.
@@ -232,7 +232,6 @@ See also the following sections on working with SQL Server Express and LocalDB, 
 - [Windows Azure SQL Database Community Forum](https://social.msdn.microsoft.com/Forums/ssdsgetstarted/threads).
 - [Moving to Windows Azure SQL Database](https://msdn.microsoft.com/library/ff803375.aspx) (MSDN). One chapter of a comprehensive end-to-end scenario by the Microsoft Patterns and Practices team. Covers why you might want to migrate and how to migrate from SQL Server to SQL Database.
 - [Migrating SQL Server Databases to Windows Azure SQL Database](https://msdn.microsoft.com/library/windowsazure/jj156160.aspx) (MSDN).
-- [SQL Database Migration Wizard](http://sqlazuremw.codeplex.com/). An open source tool for migrating databases to and from SQL Database.
 
 <a id="ssdbchoosing"></a>
 

@@ -33,7 +33,7 @@ We fixed one bug and made one minor feature enhancement in this release. You can
 
 ## ASP.NET Web Pages 3.2.2
 
-This release rolls-up the change in the [ASP.NET Web Pages 3.2.1 Beta release](https://devblogs.microsoft.com/dotnet/announcing-the-beta-release-of-web-pages-3-2-1/) which provides a significant performance improvement in rendering large razor pages. See[Codeplex Issue 585](https://aspnetwebstack.codeplex.com/workitem/585). This release aligns with the MVC 5.2.2 packages which will now depend on this version.
+This release rolls-up the change in the [ASP.NET Web Pages 3.2.1 Beta release](https://devblogs.microsoft.com/dotnet/announcing-the-beta-release-of-web-pages-3-2-1/) which provides a significant performance improvement in rendering large razor pages. This release aligns with the MVC 5.2.2 packages which will now depend on this version.
 
 We worked with the MSN team on rendering large pages. When pages render over 80 Kilobytes of data, we end up with objects on the large object heap. When multiple layers of layouts are used this effect can be multiplied.
 
