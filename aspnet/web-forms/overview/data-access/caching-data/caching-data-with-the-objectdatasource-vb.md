@@ -13,7 +13,7 @@ msc.type: authoredcontent
 
 by [Scott Mitchell](https://twitter.com/ScottOnWriting)
 
-[Download Sample App](https://download.microsoft.com/download/4/a/7/4a7a3b18-d80e-4014-8e53-a6a2427f0d93/ASPNET_Data_Tutorial_58_VB.exe) or [Download PDF](caching-data-with-the-objectdatasource-vb/_static/datatutorial58vb1.pdf)
+[Download PDF](caching-data-with-the-objectdatasource-vb/_static/datatutorial58vb1.pdf)
 
 > Caching can mean the difference between a slow and a fast Web application. This tutorial is the first of four that take a detailed look at caching in ASP.NET. Learn the key concepts of caching and how to apply caching to the Presentation Layer through the ObjectDataSource control.
 
@@ -21,7 +21,7 @@ by [Scott Mitchell](https://twitter.com/ScottOnWriting)
 
 In computer science, *caching* is the process of taking data or information that is expensive to obtain and storing a copy of it in a location that is quicker to access. For data-driven applications, large and complex queries commonly consume the majority of the application s execution time. Such an application s performance, then, can often be improved by storing the results of expensive database queries in the application s memory.
 
-ASP.NET 2.0 offers a variety of caching options. An entire web page or User Control s rendered markup can be cached through *output caching*. The ObjectDataSource and SqlDataSource controls provide caching capabilities as well, thereby allowing data to be cached at the control level. And ASP.NET s *data cache* provides a rich caching API that enables page developers to programmatically cache objects. In this tutorial and the next three we'll examine using the ObjectDataSource s caching features as well as the data cache. We'll also explore how to cache application-wide data at startup and how to keep cached data fresh through the use of SQL cache dependencies. These tutorials do not explore output caching. For a detailed look at output caching, see [Output Caching in ASP.NET 2.0](http://aspnet.4guysfromrolla.com/articles/121306-1.aspx).
+ASP.NET 2.0 offers a variety of caching options. An entire web page or User Control s rendered markup can be cached through *output caching*. The ObjectDataSource and SqlDataSource controls provide caching capabilities as well, thereby allowing data to be cached at the control level. And ASP.NET s *data cache* provides a rich caching API that enables page developers to programmatically cache objects. In this tutorial and the next three we'll examine using the ObjectDataSource s caching features as well as the data cache. We'll also explore how to cache application-wide data at startup and how to keep cached data fresh through the use of SQL cache dependencies. These tutorials do not explore output caching. For a detailed look at output caching, see [Output Caching in ASP.NET 2.0](/aspnet/web-forms/overview/moving-to-aspnet-20/caching).
 
 Caching can be applied at any place in the architecture, from the Data Access Layer up through the Presentation Layer. In this tutorial we'll look at applying caching to the Presentation Layer through the ObjectDataSource control. In the next tutorial we'll examine caching data at the Business Logic Layer.
 
@@ -195,7 +195,6 @@ For more information on the topics discussed in this tutorial, refer to the foll
 
 - [ASP.NET Caching: Techniques and Best Practices](https://msdn.microsoft.com/library/aa478965.aspx)
 - [Caching Architecture Guide for .NET Framework Applications](https://msdn.microsoft.com/library/ee817645.aspx)
-- [Output Caching in ASP.NET 2.0](http://aspnet.4guysfromrolla.com/articles/121306-1.aspx)
 
 ## About the Author
 

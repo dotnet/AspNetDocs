@@ -442,7 +442,7 @@ For more information on the topics discussed in this tutorial, refer to the foll
 - [Designing Data Tier Components and Passing Data Through Tiers](https://msdn.microsoft.com/library/ms978496.aspx)
 - [Build a Data Access Layer with the Visual Studio 2005 DataSet Designer](http://www.theserverside.net/articles/showarticle.tss?id=DataSetDesigner)
 - [Encrypting Configuration Information in ASP.NET 2.0 Applications](/aspnet/web-forms/overview/data-access/advanced-data-access-scenarios/protecting-connection-strings-and-other-configuration-information-cs)
-- [TableAdapter Overview](https://msdn.microsoft.com/library/bz9tthwx.aspx)
+- [TableAdapter Overview](/previous-versions/visualstudio/visual-studio-2015/data-tools/create-and-configure-tableadapters?view=vs-2015&preserve-view=true)
 - [Working with a Typed DataSet](https://msdn.microsoft.com/library/esbykkzb.aspx)
 - [Using Strongly-Typed Data Access in Visual Studio 2005 and ASP.NET 2.0](https://weblogs.asp.net/scottgu/435498)
 - [How to Extend TableAdapter Methods](https://devblogs.microsoft.com/vbteam/how-to-extend-tableadapter-methods/)

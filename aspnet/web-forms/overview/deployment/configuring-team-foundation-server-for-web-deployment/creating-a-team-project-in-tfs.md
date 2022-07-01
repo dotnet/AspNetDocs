@@ -117,7 +117,7 @@ Next, you need to give the user permission to create new team sites in the Share
     ![On the Set Up Groups for this Site page, add the user who will create team projects to the Owners group, and then click OK.](creating-a-team-project-in-tfs/_static/image10.png)
 
 
-For more information on enabling users to create new team projects within a team project collection, see [Set Administrator Permissions for Team Project Collections](https://msdn.microsoft.com/library/dd547204.aspx).
+For more information on enabling users to create new team projects within a team project collection, see [Set Administrator Permissions for Team Project Collections](/previous-versions/visualstudio/visual-studio-2010/dd547204(v=vs.100)).
 
 ## Create a New Team Project and Add Users
 
@@ -208,7 +208,7 @@ The next topic, [Adding Content to Source Control](adding-content-to-source-cont
 
 ## Further Reading
 
-For broader guidance on creating team projects in TFS, see [Create a Team Project](https://msdn.microsoft.com/library/ms181477(v=VS.100).aspx). For more information on enabling users to create new team projects within a team project collection, see [Set Administrator Permissions for Team Project Collections](https://msdn.microsoft.com/library/dd547204.aspx). For more information on adding users to team projects, see [Add Users to Team Projects](https://msdn.microsoft.com/library/bb558971.aspx).
+For broader guidance on creating team projects in TFS, see [Create a Team Project](https://msdn.microsoft.com/library/ms181477(v=VS.100).aspx). For more information on enabling users to create new team projects within a team project collection, see [Set Administrator Permissions for Team Project Collections](/previous-versions/visualstudio/visual-studio-2010/dd547204(v=vs.100)). For more information on adding users to team projects, see [Add Users to Team Projects](https://msdn.microsoft.com/library/bb558971.aspx).
 
 > [!div class="step-by-step"]
 > [Previous](configuring-team-foundation-server-for-web-deployment.md)

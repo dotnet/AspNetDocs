@@ -290,7 +290,7 @@ Since custom paging only retrieves the needed records, whereas default paging re
 
 Unfortunately, there s no one size fits all answer here. The performance gain depends on a number of factors, the most prominent two being the number of records being paged through and the load placed on the database server and communication channels between the web server and database server. For small tables with just a few dozen records, the performance difference may be negligible. For large tables, with thousands to hundreds of thousands of rows, though, the performance difference is acute.
 
-An article of mine, [Custom Paging in ASP.NET 2.0 with SQL Server 2005](http://aspnet.4guysfromrolla.com/articles/031506-1.aspx), contains some performance tests I ran to exhibit the differences in performance between these two paging techniques when paging through a database table with 50,000 records. In these tests I examined both the time to execute the query at the SQL Server level (using [SQL Profiler](https://msdn.microsoft.com/library/ms173757.aspx)) and at the ASP.NET page using [ASP.NET s tracing features](https://msdn.microsoft.com/library/y13fw6we.aspx). Keep in mind that these tests were run on my development box with a single active user, and therefore are unscientific and do not mimic typical website load patterns. Regardless, the results illustrate the relative differences in execution time for default and custom paging when working with sufficiently large amounts of data.
+An article of mine, "Custom Paging in ASP.NET 2.0 with SQL Server 2005," contains some performance tests I ran to exhibit the differences in performance between these two paging techniques when paging through a database table with 50,000 records. In these tests I examined both the time to execute the query at the SQL Server level (using [SQL Profiler](https://msdn.microsoft.com/library/ms173757.aspx)) and at the ASP.NET page using [ASP.NET s tracing features](https://msdn.microsoft.com/library/y13fw6we.aspx). Keep in mind that these tests were run on my development box with a single active user, and therefore are unscientific and do not mimic typical website load patterns. Regardless, the results illustrate the relative differences in execution time for default and custom paging when working with sufficiently large amounts of data.
 
 |  | **Avg. Duration (sec)** | **Reads** |
 | --- | --- | --- |
@@ -299,7 +299,7 @@ An article of mine, [Custom Paging in ASP.NET 2.0 with SQL Server 2005](http://a
 | **Default Paging ASP.NET Trace** | 2.379 | *N/A* |
 | **Custom Paging ASP.NET Trace** | 0.029 | *N/A* |
 
-As you can see, retrieving a particular page of data required 354 less reads on average and completed in a fraction of the time. At the ASP.NET page, custom the page was able to render in close to 1/100<sup>th</sup> of the time it took when using default paging. See [my article](http://aspnet.4guysfromrolla.com/articles/031506-1.aspx) for more information on these results along with code and a database you can download to reproduce these tests in your own environment.
+As you can see, retrieving a particular page of data required 354 less reads on average and completed in a fraction of the time. At the ASP.NET page, custom the page was able to render in close to 1/100<sup>th</sup> of the time it took when using default paging.
 
 ## Summary
 

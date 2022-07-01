@@ -33,7 +33,7 @@ by [Web Camps Team](https://twitter.com/webcamps)
 > 
 > In the official ASP.NET portal you can find more examples of the new features in ASP.NET WebForms 4.5: [What's New in ASP.NET 4.5 and Visual Studio 2012](../../../../whitepapers/whats-new-in-aspnet-45-and-visual-studio-2012.md#_Toc318097385)
 > 
-> All sample code and snippets are included in the Web Camps Training Kit, available at [https://go.microsoft.com/fwlink/?LinkID=248297&clcid=0x409](https://go.microsoft.com/fwlink/?LinkID=248297&clcid=0x409).
+> All sample code and snippets are included in the [Web Camps Training Kit](https://github.com/Microsoft-Web/WebCampTrainingKit).
 
 <a id="Objectives"></a>
 ### Objectives
@@ -551,7 +551,7 @@ In this task, you will update the product details page to allow the user to spec
     (Code Snippet - *Web Forms Lab - Ex03 - UpdateProductImage Call*)
 
     [!code-csharp[Main](whats-new-in-web-forms-in-aspnet-45/samples/sample34.cs)]
-7. Run the application and try to upload an image for a product. For example, you can use the following image URL from Office Clip Arts: [[http://officeimg.vo.msecnd.net/images/MB900437099.jpg](http://officeimg.vo.msecnd.net/images/MB900437099.jpg)](http://officeimg.vo.msecnd.net/images/MB900437099.jpg)
+7. Run the application and try to upload an image for a product.
 
     ![Setting an image for a product](whats-new-in-web-forms-in-aspnet-45/_static/image23.png "Setting an image for a product")
 
