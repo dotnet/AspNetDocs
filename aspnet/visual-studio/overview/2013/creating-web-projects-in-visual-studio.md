@@ -86,7 +86,7 @@ The check box caption might be **Host in the cloud** or **Create remote resource
 
 ![Configure Azure App Settings](creating-web-projects-in-visual-studio/_static/image9.png)
 
-For more information about how to use this process for creating Azure resources, see [Get Started with Azure and ASP.NET](/azure/app-service-web/app-service-web-get-started-dotnet) and [Creating a virtual machine for a web site with Visual Studio](https://azure.microsoft.com/documentation/articles/virtual-machines-dotnet-create-visual-studio-powershell/).
+For more information about how to use this process for creating Azure resources, see [Get Started with Azure and ASP.NET](/azure/app-service-web/app-service-web-get-started-dotnet).
 
 The remainder of this article provides more information about the available templates and their options. The article also introduces Bootstrap, the layout and theming framework used in the templates.
 

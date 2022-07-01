@@ -1,15 +1,15 @@
 ---
 uid: mvc/overview/getting-started/introduction/adding-a-model
-title: "Adding a Model | Microsoft Docs"
+title: "Adding a New Model | Microsoft Docs"
 author: Rick-Anderson
-description: ""
+description: "In this section you'll add some classes for managing movies in a database. These classes will be the model part of the ASP.NET MVC app."
 ms.author: riande
 ms.date: 05/28/2015
 ms.assetid: 276552b5-f349-4fcf-8f40-6d042f7aa88e
 msc.legacyurl: /mvc/overview/getting-started/introduction/adding-a-model
 msc.type: authoredcontent
 ---
-# Adding a Model
+# Adding a New Model
 
 by [Rick Anderson](https://twitter.com/RickAndMSFT)
 
@@ -23,7 +23,7 @@ You'll use a .NET Framework data-access technology known as the [Entity Framewor
 
 In **Solution Explorer**, right click the *Models* folder, select **Add**, and then select **Class**.
 
-![](adding-a-model/_static/image1.png)
+![Screenshot that shows the Solution Explorer window. The Models folder right click menu and the Add submenu are open. Class is selected.](adding-a-model/_static/image1.png)
 
 Enter the *class* name &quot;Movie&quot;.
 
@@ -47,11 +47,11 @@ In order to be able to reference `DbContext` and `DbSet`, you need to add the fo
 
 You can do this by manually adding the using statement, or you can hover over the red squiggly lines, click `Show potential fixes` and click `using System.Data.Entity;`
 
-![](adding-a-model/_static/image2.png)
+![Screenshot that shows the Show potential fixes menu. Using System Data Entity is selected and a cannot be found warning is shown.](adding-a-model/_static/image2.png)
 
 Note: Several unused `using` statements have been removed. Visual Studio will show unused dependencies as gray. You can remove unused dependencies by hovering over the gray dependencies, click `Show potential fixes` and click **Remove Unused Usings.**
 
-![](adding-a-model/_static/image3.png)
+![Screenshot that shows the Show potential fixes menu. Remove Unnecessary Usings is selected.](adding-a-model/_static/image3.png)
 
 We've finally added a model (the M in MVC). In the next section you'll work with the database connection string.
 

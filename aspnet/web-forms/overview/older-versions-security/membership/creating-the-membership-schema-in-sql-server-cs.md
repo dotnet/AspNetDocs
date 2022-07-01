@@ -21,7 +21,7 @@ by [Scott Mitchell](https://twitter.com/ScottOnWriting)
 
 The previous two tutorials examined using forms authentication to identify website visitors. The forms authentication framework makes it easy for developers to log a user into a website and to remember them across page visits through the use of authentication tickets. The `FormsAuthentication` class includes methods for generating the ticket and adding it to the visitor's cookies. The `FormsAuthenticationModule` examines all incoming requests and, for those with a valid authentication ticket, creates and associates a `GenericPrincipal` and a `FormsIdentity` object with the current request. Forms authentication is merely a mechanism for granting an authentication ticket to a visitor when logging in and, on subsequent requests, parsing that ticket to determine the user's identity. For a web application to support user accounts, we still need to implement a user store and add functionality to validate credentials, register new users, and the myriad of other user account-related tasks.
 
-Prior to ASP.NET 2.0, developers were on the hook for implementing all of these user account-related tasks. Fortunately the ASP.NET team recognized this shortcoming and introduced the Membership framework with ASP.NET 2.0. The Membership framework is a set of classes in the .NET Framework that provide a programmatic interface for accomplishing core user account-related tasks. This framework is built atop the [provider model](http://aspnet.4guysfromrolla.com/articles/101905-1.aspx), which allows developers to plug a customized implementation into a standardized API.
+Prior to ASP.NET 2.0, developers were on the hook for implementing all of these user account-related tasks. Fortunately the ASP.NET team recognized this shortcoming and introduced the Membership framework with ASP.NET 2.0. The Membership framework is a set of classes in the .NET Framework that provide a programmatic interface for accomplishing core user account-related tasks. This framework is built atop the [provider model](/previous-versions/aspnet/sx3h274z(v=vs.100)), which allows developers to plug a customized implementation into a standardized API.
 
 As discussed in the <a id="Tutorial1"></a>[*Security Basics and ASP.NET Support*](../introduction/security-basics-and-asp-net-support-cs.md) tutorial, the .NET Framework ships with two built-in Membership providers: [`ActiveDirectoryMembershipProvider`](https://msdn.microsoft.com/library/system.web.security.activedirectorymembershipprovider.aspx) and [`SqlMembershipProvider`](https://msdn.microsoft.com/library/system.web.security.sqlmembershipprovider.aspx). As its name implies, the `SqlMembershipProvider` uses a Microsoft SQL Server database as the user store. In order to use this provider in an application, we need to tell the provider what database to use as the store. As you might imagine, the `SqlMembershipProvider` expects the user store database to have certain database tables, views, and stored procedures. We need to add this expected schema to the selected database.
 
@@ -312,12 +312,12 @@ For more information on the topics discussed in this tutorial, refer to the foll
 - [Always Set the `applicationName` Property When Configuring ASP.NET 2.0 Membership and Other Providers](https://weblogs.asp.net/scottgu/443634)
 - [Configuring ASP.NET 2.0 Application Services to Use SQL Server 2000 or SQL Server 2005](https://weblogs.asp.net/scottgu/archive/2005/08/25/423703.aspx)
 - [Download SQL Server Management Studio Express Edition](https://www.microsoft.com/downloads/details.aspx?FamilyId=C243A5AE-4BD1-4E3D-94B8-5A0F62BF7796&amp;displaylang=en)
-- [Examining ASP.NET 2.0's Membership, Roles, and Profile](http://aspnet.4guysfromrolla.com/articles/120705-1.aspx)
+- [Examining ASP.NET 2.0's Membership, Roles, and Profile](/aspnet/web-forms/overview/older-versions-security/roles/creating-and-managing-roles-cs)
 - [The `<add>` Element for Providers for Membership](https://msdn.microsoft.com/library/whae3t94.aspx)
 - [The `<membership>` Element](https://msdn.microsoft.com/library/1b9hw62f.aspx)
 - [The `<providers>` Element for Membership](https://msdn.microsoft.com/library/6d4936ht.aspx)
 - [Using `<clear />` When Adding Providers](https://weblogs.asp.net/scottgu/archive/2006/11/20/common-gotcha-don-t-forget-to-clear-when-adding-providers.aspx)
-- [Working Directly with the `SqlMembershipProvider`](http://aspnet.4guysfromrolla.com/articles/091207-1.aspx)
+- [Working Directly with the `SqlMembershipProvider`](/dotnet/api/system.web.security.sqlmembershipprovider?view=netframework-4.8)
 
 ### Video Training on Topics Contained in this Tutorial
 

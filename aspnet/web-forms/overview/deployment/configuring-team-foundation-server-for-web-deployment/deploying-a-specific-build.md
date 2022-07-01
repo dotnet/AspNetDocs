@@ -14,8 +14,6 @@ msc.type: authoredcontent
 
 by [Jason Lee](https://github.com/jrjlee)
 
-[Download PDF](https://msdnshared.blob.core.windows.net/media/MSDNBlogsFS/prod.evol.blogs.msdn.com/CommunityServer.Blogs.Components.WeblogFiles/00/00/00/63/56/8130.DeployingWebAppsInEnterpriseScenarios.pdf)
-
 > This topic describes how to deploy web packages and database scripts from a specific previous build to a new destination, like a staging or production environment.
 
 This topic forms part of a series of tutorials based around the enterprise deployment requirements of a fictional company named Fabrikam, Inc. This tutorial series uses a sample solution&#x2014;the [Contact Manager solution](../web-deployment-in-the-enterprise/the-contact-manager-solution.md)&#x2014;to represent a web application with a realistic level of complexity, including an ASP.NET MVC 3 application, a Windows Communication Foundation (WCF) service, and a database project.
@@ -28,7 +26,9 @@ Until now, the topics in this tutorial set have focused on how to build, package
 
 Consider the continuous integration (CI) scenario described in the previous topic, [Creating a Build Definition That Supports Deployment](creating-a-build-definition-that-supports-deployment.md). You've created a build definition in Team Foundation Server (TFS) 2010. Every time a developer checks code into TFS, Team Build will build your code, create web packages and database scripts as part of the build process, run any unit tests, and deploy your resources to a test environment. Depending on the retention policy you configured when you created the build definition, TFS will retain a certain number of previous builds.
 
-:::image type="content" source="deploying-a-specific-build/_static/image1.png" alt-text="Screenshot of the list of previous builds retained by T F S based on the retention policy you configured when you created the build definition.":::
+
+![Depending on the retention policy you configured when you created the build definition, T F S will retain a certain number of previous builds.](deploying-a-specific-build/_static/image1.png)=======
+
 
 Now, suppose you've performed verification and validation testing against one of these builds in your test environment, and you're ready to deploy your application to a staging environment. In the meantime, developers may have checked in new code. You don't want to rebuild the solution and deploy to the staging environment, and you don't want to deploy the latest build to the staging environment. Instead, you want to deploy the specific build that you've verified and validated on the test servers.
 
@@ -63,24 +63,26 @@ In this case, you don't want the build definition to actually build anything&#x2
 
 1. In Visual Studio 2010, in the **Team Explorer** window, expand your team project node, right-click **Builds**, and then click **New Build Definition**.
 
-    :::image type="content" source="deploying-a-specific-build/_static/image2.png" alt-text="Screenshot of the Team Explorer window in Visual Studio 2010 to click New Build Definition.":::
+
+    ![In Visual Studio 2010, in the Team Explorer window, expand your team project node, right-click Builds, and then click New Build Definition](deploying-a-specific-build/_static/image2.png)
 
 2. On the **General** tab, give the build definition a name (for example, **DeployToStaging**) and an optional description.
 3. On the **Trigger** tab, select **Manual – Check-ins do not trigger a new build**.
 4. On the **Build Defaults** tab, in the **Copy build output to the following drop folder** box, type the Universal Naming Convention (UNC) path of your drop folder (for example, **\\TFSBUILD\Drops**).
 
-    :::image type="content" source="deploying-a-specific-build/_static/image3.png" alt-text="Screenshot of the Copy build output to the following drop folder box on the Build Defaults tab to type the Universal Naming Convention path of your drop folder.":::
 
+    ![On the Build Defaults tab, in the Copy build output to the following drop folder box, type the Universal Naming Convention (U N C) path of your drop folder (for example, \\TFSBUILD\Drops).](deploying-a-specific-build/_static/image3.png)
 5. On the **Process** tab, in the **Build process file** dropdown list, leave **DefaultTemplate.xaml** selected. This is one of the default build process templates that get added to all new team projects.
 6. In the **Build process parameters** table, click in the **Items to Build** row, and then click the **ellipsis** button.
 
-    :::image type="content" source="deploying-a-specific-build/_static/image4.png" alt-text="Screenshot of the Build process parameters table to click in the Items to Build row, and then click the ellipsis button.":::
+    ![In the Build process parameters table, click in the Items to Build row, and then click the ellipsis button.](deploying-a-specific-build/_static/image4.png)
 
 7. In the **Items to Build** dialog box, click **Add**.
 8. In the **Items of type** dropdown list, select **MSBuild Project files**.
 9. Browse to the location of the custom project file with which you control the deployment process, select the file, and then click **OK**.
 
-    :::image type="content" source="deploying-a-specific-build/_static/image5.png" alt-text="Screenshot of the custom project file location.":::
+
+    ![Browse to the location of the custom project file with which you control the deployment process, select the file, and then click OK.](deploying-a-specific-build/_static/image5.png)
 
 10. In the **Items to Build** dialog box, click **OK**.
 11. In the **Build process parameters** table, expand the **Advanced** section.
@@ -88,7 +90,9 @@ In this case, you don't want the build definition to actually build anything&#x2
 
     [!code-console[Main](deploying-a-specific-build/samples/sample4.cmd)]
 
-    :::image type="content" source="deploying-a-specific-build/_static/image6.png" alt-text="Screenshot of the M S Build Arguments row to specify the location of your environment specific project file and add a placeholder.":::
+
+    ![In the MSBuild Arguments row, specify the location of your environment-specific project file and add a placeholder for the location of your build folder.](deploying-a-specific-build/_static/image6.png)
+
 
     > [!NOTE]
     > You'll need to override the **OutputRoot** value every time you queue a build. This is covered in the next procedure.
@@ -100,14 +104,17 @@ When you trigger a build, you need to update the **OutputRoot** property to poin
 
 1. In the **Team Explorer** window, right-click the build definition, and then click **Queue New Build**.
 
-    :::image type="content" source="deploying-a-specific-build/_static/image7.png" alt-text="Screenshot of the Team Explorer window to deploy a specific build from a build definition.":::
+
+    ![In the Team Explorer window, right-click the build definition, and then click Queue New Build.](deploying-a-specific-build/_static/image7.png)
 
 2. In the **Queue Build** dialog box, on the **Parameters** tab, expand the **Advanced** section.
 3. In the **MSBuild Arguments** row, replace the value of the **OutputRoot** property with the location of your build folder. For example:
 
     [!code-console[Main](deploying-a-specific-build/samples/sample5.cmd)]
 
-    :::image type="content" source="deploying-a-specific-build/_static/image8.png" alt-text="Screenshot of the Queue Build dialog box in the M S Build Arguments row to replace the value of the Output Root property with the location of your build folder.":::
+
+    ![In the MSBuild Arguments row, replace the value of the OutputRoot property with the location of your build folder.](deploying-a-specific-build/_static/image8.png)
+
 
     > [!NOTE]
     > Be sure to include a trailing slash at the end of the path to your build folder.

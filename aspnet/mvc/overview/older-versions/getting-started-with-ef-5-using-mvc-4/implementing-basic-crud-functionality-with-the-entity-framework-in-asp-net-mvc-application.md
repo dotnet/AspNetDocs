@@ -2,7 +2,7 @@
 uid: mvc/overview/older-versions/getting-started-with-ef-5-using-mvc-4/implementing-basic-crud-functionality-with-the-entity-framework-in-asp-net-mvc-application
 title: "Implementing Basic CRUD Functionality with the Entity Framework in ASP.NET MVC Application (2 of 10) | Microsoft Docs"
 author: tdykstra
-description: "The Contoso University sample web application demonstrates how to create ASP.NET MVC 4 applications using the Entity Framework 5 Code First and Visual Studio..."
+description: "The Contoso University sample web application tutorial demonstrates how to create ASP.NET MVC 4 applications using the Entity Framework 5 Code First and Visual Studio."
 ms.author: riande
 ms.date: 07/30/2013
 ms.assetid: f7bace3f-b85a-47ff-b5fe-49e81441cdf9
@@ -26,13 +26,13 @@ In the previous tutorial you created an MVC application that stores and displays
 
 In this tutorial, you'll create the following web pages:
 
-![Student_Details_page](implementing-basic-crud-functionality-with-the-entity-framework-in-asp-net-mvc-application/_static/image1.png)
+![Screenshot showing the Contoso University Student Details page.](implementing-basic-crud-functionality-with-the-entity-framework-in-asp-net-mvc-application/_static/image1.png)
 
-![Student_Edit_page](implementing-basic-crud-functionality-with-the-entity-framework-in-asp-net-mvc-application/_static/image2.png)
+![Screenshot showing the Contoso University Student Edit page.](implementing-basic-crud-functionality-with-the-entity-framework-in-asp-net-mvc-application/_static/image2.png)
 
-![Student_Create_page](implementing-basic-crud-functionality-with-the-entity-framework-in-asp-net-mvc-application/_static/image3.png)
+![Screenshot showing the Contoso University Student Create page.](implementing-basic-crud-functionality-with-the-entity-framework-in-asp-net-mvc-application/_static/image3.png)
 
-![Student_delete_page](implementing-basic-crud-functionality-with-the-entity-framework-in-asp-net-mvc-application/_static/image4.png)
+![Screenshot that shows the Student Delete page.](implementing-basic-crud-functionality-with-the-entity-framework-in-asp-net-mvc-application/_static/image4.png)
 
 ## Creating a Details Page
 
@@ -67,8 +67,8 @@ The scaffolded code for the Students `Index` page left out the `Enrollments` pro
     The `ValidateAntiForgeryToken` attribute helps prevent [cross-site request forgery](../../security/xsrfcsrf-prevention-in-aspnet-mvc-and-web-pages.md) attacks.
 
 <a id="overpost"></a>
-
-    > [!WARNING]
+```
+> [!WARNING]
     > Security - The `Bind` attribute is added to protect against *over-posting*. For example, suppose the `Student` entity includes a `Secret` property that you don't want this web page to update.
     > 
     > [!code-csharp[Main](implementing-basic-crud-functionality-with-the-entity-framework-in-asp-net-mvc-application/samples/sample5.cs?highlight=7)]
@@ -79,7 +79,7 @@ The scaffolded code for the Students `Index` page left out the `Enrollments` pro
     > 
     > The value "OverPost" would then be successfully added to the `Secret` property of the inserted row, although you never intended that the web page be able to update that property.
     > 
-    > It's a security best practice to use the `Include` parameter with the `Bind` attribute to *whitelist* fields. It's also possible to use the `Exclude` parameter to *blacklist* fields you want to exclude. The reason `Include` is more secure is that when you add a new property to the entity, the new field is not automatically protected by an `Exclude` list.
+    > It's a security best practice to use the `Include` parameter with the `Bind` attribute to *allowed attributes* fields. It's also possible to use the `Exclude` parameter to *blocked attributes* fields you want to exclude. The reason `Include` is more secure is that when you add a new property to the entity, the new field is not automatically protected by an `Exclude` list.
     > 
     > Another alternative approach, and one preferred by many, is to use only view models with model binding. The view model contains only the properties you want to bind. Once the MVC model binder has finished, you copy the view model properties to the entity instance.
 
@@ -92,6 +92,7 @@ The scaffolded code for the Students `Index` page left out the `Enrollments` pro
     *Create.cshtml* also includes `@Html.AntiForgeryToken()`, which works with the `ValidateAntiForgeryToken` attribute in the controller to help prevent [cross-site request forgery](../../security/xsrfcsrf-prevention-in-aspnet-mvc-and-web-pages.md) attacks.
 
     No changes are required in *Create.cshtml*.
+```
 2. Run the page by selecting the **Students** tab and clicking **Create New**.
 
     ![Student_Create_page](implementing-basic-crud-functionality-with-the-entity-framework-in-asp-net-mvc-application/_static/image7.png)

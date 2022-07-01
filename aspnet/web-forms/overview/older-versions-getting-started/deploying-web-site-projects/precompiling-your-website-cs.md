@@ -14,8 +14,6 @@ msc.type: authoredcontent
 
 by [Scott Mitchell](https://twitter.com/ScottOnWriting)
 
-[Download Code](https://download.microsoft.com/download/1/0/C/10CC829F-A808-4302-97D3-59989B8F9C01/ASPNET_Hosting_Tutorial_15_CS.zip) or [Download PDF](https://download.microsoft.com/download/5/C/5/5C57DB8C-5DEA-4B3A-92CA-4405544D313B/aspnet_tutorial15_Precompiling_cs.pdf)
-
 > Visual Studio offers ASP.NET developers two types of projects: Web Application Projects (WAPs) and Web Site Projects (WSPs). One of the key differences between the two project types is that WAPs must have the code explicitly compiled prior to deployment whereas the code in a WSP can be automatically compiled on the web server. However, it is possible to precompile a WSP prior to deployment. This tutorial explores the benefits of precompilation and shows how to precompile a website from within Visual Studio and from the command line.
 
 ## Introduction
@@ -174,7 +172,7 @@ For more information on the topics discussed in this tutorial, refer to the foll
 - [ASP.NET Web Site Precompilation](https://msdn.microsoft.com/library/ms228015.aspx)
 - [Codebehind and Compilation in ASP.NET 2.0](https://msdn.microsoft.com/magazine/cc163675.aspx)
 - [Precompilation in ASP.NET](http://www.odetocode.com/Articles/417.aspx)
-- [Precompiled Site Options in ASP.NET](http://www.dotnetperls.com/precompiled)
+- [Precompiled Site Options in ASP.NET](/previous-versions/aspnet/bb398860(v=vs.100))
 
 > [!div class="step-by-step"]
 > [Previous](logging-error-details-with-elmah-cs.md)

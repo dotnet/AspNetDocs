@@ -13,9 +13,11 @@ msc.type: authoredcontent
 
 by [Scott Mitchell](https://twitter.com/ScottOnWriting)
 
-[Download Code](https://download.microsoft.com/download/e/e/f/eef369f5-743a-4a52-908f-b6532c4ce0a4/ASPNET_MasterPages_Tutorial_04_CS.zip) or [Download PDF](https://download.microsoft.com/download/8/f/6/8f6349e4-6554-405a-bcd7-9b094ba5089a/ASPNET_MasterPages_Tutorial_04_CS.pdf)
+[Download PDF](https://download.microsoft.com/download/8/f/6/8f6349e4-6554-405a-bcd7-9b094ba5089a/ASPNET_MasterPages_Tutorial_04_CS.pdf)
 
 > Addresses how URLs in the master page can break due to the master page file being in a different relative directory than the content page. Looks at rebasing URLs via ~ in the declarative syntax and using ResolveUrl and ResolveClientUrl programmatically. (Also look at
+
+
 
 ## Introduction
 
@@ -107,7 +109,7 @@ After making this change to the master page, revisit the `~/Admin/Default.aspx` 
 [!code-html[Main](urls-in-master-pages-cs/samples/sample6.html)]
 
 > [!NOTE]
-> In addition to being used in URL-based Web control properties, the `~` can also be used when calling the `Response.Redirect` and `Server.MapPath` methods, among others. Also, the `ResolveClientUrl` method may be invoked directly from an ASP.NET or master page's declarative markup, if needed; see [Fritz Onion](https://www.pluralsight.com/blogs/fritz/)'s blog entry [Using `ResolveClientUrl` in Markup](https://www.pluralsight.com/blogs/fritz/archive/2006/02/06/18596.aspx).
+> In addition to being used in URL-based Web control properties, the `~` can also be used when calling the `Response.Redirect` and `Server.MapPath` methods, among others. Also, the `ResolveClientUrl` method may be invoked directly from an ASP.NET or master page's declarative markup.
 
 ## Fixing the Master Page's Remaining Relative URLs
 
@@ -149,7 +151,6 @@ For more information on the topics discussed in this tutorial, refer to the foll
 
 - [Master Pages in ASP.NET](http://www.odetocode.com/Articles/419.aspx)
 - [URL Rebasing in a Master Page](https://quickstarts.asp.net/QuickStartv20/aspnet/doc/masterpages/default.aspx#urls)
-- [Using `ResolveClientUrl` in Markup](https://www.pluralsight.com/blogs/fritz/archive/2006/02/06/18596.aspx)
 
 ### About the Author
 

@@ -2,7 +2,7 @@
 uid: mvc/overview/older-versions/getting-started-with-aspnet-mvc3/cs/adding-a-model
 title: "Adding a Model (C#) | Microsoft Docs"
 author: Rick-Anderson
-description: "Note: An updated version of this tutorial is available here that uses ASP.NET MVC 5 and Visual Studio 2013. It's more secure, much simpler to follow and demo..."
+description: "Learn how to add a model, add a model class, and work with SQL server compact to create a connection string."
 ms.author: riande
 ms.date: 01/12/2011
 ms.assetid: 42355b95-5f1f-413e-8d16-14cdfaaefcd8
@@ -33,7 +33,7 @@ You'll use a .NET Framework data-access technology known as the Entity Framework
 
 In **Solution Explorer**, right click the *Models* folder, select **Add**, and then select **Class**.
 
-![](adding-a-model/_static/image1.png)
+![Screenshot that shows the Solution Explorer window. Add is selected in the Models right click menu. Class is selected in the sub menu.](adding-a-model/_static/image1.png)
 
 Name the *class* "Movie".
 
@@ -65,7 +65,7 @@ The `MovieDBContext` class you created handles the task of connecting to the dat
 
 Open the application root *Web.config* file. (Not the *Web.config* file in the *Views* folder.) The image below show both *Web.config* files; open the *Web.config* file circled in red.
 
-![](adding-a-model/_static/image4.png)
+![Screenshot that shows the Solution Explorer window. Web dot config is circled in red.](adding-a-model/_static/image4.png)
 
 Add the following connection string to the `<connectionStrings>` element in the *Web.config* file.
 

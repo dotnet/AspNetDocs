@@ -206,7 +206,6 @@ For more information on the topics discussed in this tutorial, refer to the foll
 
 - [Create Your Own Data Source Controls](https://msdn.microsoft.com/library/ms364049.aspx)
 - [GridView Examples for ASP.NET 2.0](https://msdn.microsoft.com/library/aa479339.aspx)
-- [Simplified and Extended Data Binding Syntax in ASP.NET 2.0](http://www.15seconds.com/issue/040630.htm)
 - [Themes in ASP.NET 2.0](http://www.odetocode.com/Articles/423.aspx)
 - [Server-Side Styles Using Themes](https://quickstarts.asp.net/quickstartv20/aspnet/doc/themes/stylesheettheme.aspx)
 - [How To: Apply ASP.NET Themes Programmatically](https://msdn.microsoft.com/library/tx35bd89.aspx)
@@ -217,7 +216,7 @@ For more information on the topics discussed in this tutorial, refer to the foll
 
 ## Special Thanks To
 
-This tutorial series was reviewed by many helpful reviewers. Lead reviewer for this tutorial was Hilton Giesenow. Interested in reviewing my upcoming MSDN articles? If so, drop me a line at [mitchell@4GuysFromRolla.com.](mailto:mitchell@4GuysFromRolla.com)
+This tutorial series was reviewed by many helpful reviewers. Lead reviewer for this tutorial was Hilton Giesenow. Interested in reviewing my upcoming MSDN articles? If so, drop me a line at [mitchell@4GuysFromRolla.com](mailto:mitchell@4GuysFromRolla.com).
 
 > [!div class="step-by-step"]
 > [Next](declarative-parameters-cs.md)

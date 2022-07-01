@@ -287,7 +287,7 @@ HTML comments start with `<!--` characters and end with `-->`. You can use HTML 
 
 Unlike Razor comments, HTML comments *are* rendered to the page and the user can see them by viewing the page source.
 
-Razor has limitations on nested blocks of C#. For more information see [Named C# Variables and Nested Blocks Generate Broken Code](http://aspnetwebstack.codeplex.com/workitem/1914)
+Razor has limitations on nested blocks of C#. For more information see [Named C# Variables and Nested Blocks Generate Broken Code](/aspnet/core/mvc/views/razor?view=aspnetcore-6.0)
 
 ## Variables
 

@@ -1,15 +1,15 @@
 ---
 uid: web-forms/videos/index
-title: "Videos | Microsoft Docs"
+title: Video Tutorials for ASP.NET | Microsoft Docs
 author: rick-anderson
-description: ""
+description: Provides a list of step-by-step video tutorials for a variety of best practices and ASP.NET Framework issues.
 ms.author: riande
 ms.date: 08/08/2011
 ms.assetid: f215d6b9-8a84-4bd8-8881-e9527d814950
 msc.legacyurl: /web-forms/videos
 msc.type: book
 ---
-# Videos
+# Videos for ASP.NET
 
 - [How Do I?](how-do-i/index.md)
 

@@ -13,8 +13,6 @@ msc.type: authoredcontent
 
 by [Jason Lee](https://github.com/jrjlee)
 
-[Download PDF](https://msdnshared.blob.core.windows.net/media/MSDNBlogsFS/prod.evol.blogs.msdn.com/CommunityServer.Blogs.Components.WeblogFiles/00/00/00/63/56/8130.DeployingWebAppsInEnterpriseScenarios.pdf)
-
 > This topic illustrates how a fictional company manages the deployment of an ASP.NET web application through test, staging, and production environments as part of a continuous development process. Throughout the topic, links are provided to further information and walkthroughs on how to perform specific tasks.
 > 
 > The topic is designed to provide a high-level overview for a [series of tutorials](deploying-web-applications-in-enterprise-scenarios.md) on web deployment in the enterprise. Don't worry if you're not familiar with some of the concepts described here&#x2014;the tutorials that follow provide detailed information on all of these tasks and techniques.
@@ -39,11 +37,11 @@ At a high level, the Contact Manager solution goes through these stages as part 
 
 These stages form part of a continuous development cycle.
 
-![](application-lifecycle-management-from-development-to-production/_static/image1.png)
+![These stages form part of a continuous development cycle.](application-lifecycle-management-from-development-to-production/_static/image1.png)
 
 In practice, the process is slightly more complicated than this, as you'll see when we look at each stage in more detail. Fabrikam, Inc. uses a different approach to deployment for each target environment.
 
-![](application-lifecycle-management-from-development-to-production/_static/image2.png)
+![Fabrikam, Inc. uses a different approach to deployment for each target environment.](application-lifecycle-management-from-development-to-production/_static/image2.png)
 
 The rest of this topic examines these key stages of this deployment lifecycle:
 
@@ -111,7 +109,7 @@ The development team has created a build definition in TFS named **DeployToTest*
 
 The end result is that if the solution builds successfully and passes unit tests, the web packages and any other deployment resources are deployed to the test environment.
 
-![](application-lifecycle-management-from-development-to-production/_static/image3.png)
+![The end result is that if the solution builds successfully and passes unit tests, the web packages and any other deployment resources are deployed to the test environment.](application-lifecycle-management-from-development-to-production/_static/image3.png)
 
 ### How Does the Deployment Process Work?
 
@@ -132,7 +130,7 @@ The conditional logic is accomplished by evaluating the **BuildingInTeamBuild** 
 
 When a build meets all of the requirements of the developer team in the test environment, the team may want to deploy the same build to a staging environment. Staging environments are typically configured to match the characteristics of the production or "live" environment as closely as possible, for example, in terms of server specifications, operating systems and software, and network configuration. Staging environments are often used for load testing, user acceptance testing, and broader internal reviews. Builds are deployed to the staging environment directly from the build server.
 
-![](application-lifecycle-management-from-development-to-production/_static/image4.png)
+![Builds are deployed to the staging environment directly from the build server.](application-lifecycle-management-from-development-to-production/_static/image4.png)
 
 The build definitions used to deploy the solution to the staging environment, **DeployToStaging-WhatIf** and **DeployToStaging**, share these characteristics:
 
@@ -157,7 +155,7 @@ The **DeployToStaging** build definition supplies these arguments to MSBuild:
 
 The **TargetEnvPropsFile** property tells the *Publish.proj* file where to find the environment-specific project file to import. The **OutputRoot** property overrides the built-in value and indicates the location of the build folder that contains the resources you want to deploy. When Rob queues the build, he uses the **Parameters** tab to provide an updated value for the **OutputRoot** property.
 
-![](application-lifecycle-management-from-development-to-production/_static/image5.png)
+![When Rob queues the build, he uses the **Parameters** tab to provide an updated value for the OutputRoot property.](application-lifecycle-management-from-development-to-production/_static/image5.png)
 
 > [!NOTE]
 > For more information on how to create a build definition like this, see [Deploy a Specific Build](../configuring-team-foundation-server-for-web-deployment/deploying-a-specific-build.md).
@@ -182,7 +180,7 @@ When a build has been approved in the staging environment, the Fabrikam, Inc. te
 
 The production environment is in an Internet-facing perimeter network. This is isolated from the internal network that contains the build server. The production environment administrator, Lisa Andrews, must manually copy the web deployment packages from the build server and import them into IIS on the primary production web server.
 
-![](application-lifecycle-management-from-development-to-production/_static/image6.png)
+![The production environment administrator must manually copy the web deployment packages from the build server and import them into I I S on the primary production web server.](application-lifecycle-management-from-development-to-production/_static/image6.png)
 
 This is the high-level process for a deployment to the production environment:
 

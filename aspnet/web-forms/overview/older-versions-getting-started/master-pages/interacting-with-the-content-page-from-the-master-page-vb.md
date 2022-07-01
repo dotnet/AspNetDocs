@@ -13,8 +13,6 @@ msc.type: authoredcontent
 
 by [Scott Mitchell](https://twitter.com/ScottOnWriting)
 
-[Download Code](https://download.microsoft.com/download/1/8/4/184e24fa-fcc8-47fa-ac99-4b6a52d41e97/ASPNET_MasterPages_Tutorial_07_VB.zip) or [Download PDF](https://download.microsoft.com/download/e/b/4/eb4abb10-c416-4ba4-9899-32577715b1bd/ASPNET_MasterPages_Tutorial_07_VB.pdf)
-
 > Examines how to call methods, set properties, etc. of the Content Page from code in the Master Page.
 
 ## Introduction
@@ -207,9 +205,9 @@ Happy Programming!
 
 For more information on the topics discussed in this tutorial, refer to the following resources:
 
-- [Accessing and Updating Data in ASP.NET](http://aspnet.4guysfromrolla.com/articles/011106-1.aspx)
+- [Accessing and Updating Data in ASP.NET](/aspnet/web-pages/overview/getting-started/introducing-aspnet-web-pages-2/updating-data)
 - [Events and Delegates](https://msdn.microsoft.com/library/17sde2xt.aspx)
-- [Passing Information Between Content and Master Pages](http://aspnet.4guysfromrolla.com/articles/013107-1.aspx)
+- [Passing Information Between Content and Master Pages](/previous-versions/aspnet/6c3yckfw(v=vs.100))
 - [Working with Data in ASP.NET Tutorials](../../data-access/index.md)
 
 ### About the Author

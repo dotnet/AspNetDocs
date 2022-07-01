@@ -2,7 +2,7 @@
 uid: mvc/overview/older-versions/getting-started-with-aspnet-mvc3/vb/accessing-your-models-data-from-a-controller
 title: "Accessing your Model's Data from a Controller (VB) | Microsoft Docs"
 author: Rick-Anderson
-description: "This tutorial will teach you the basics of building an ASP.NET MVC Web application using Microsoft Visual Web Developer 2010 Express Service Pack 1, which is..."
+description: "This tutorial will teach you the basics of building an ASP.NET MVC Web application using Microsoft Visual Web Developer 2010 Express Service Pack 1. You will learn how to create a new MoviesController class and write code that retrieves the movie data and displays it in the browser using a view template."
 ms.author: riande
 ms.date: 01/12/2011
 ms.assetid: cad00de1-3c68-4ff4-a436-54236d449459
@@ -47,13 +47,13 @@ The ASP.NET MVC 3 scaffolding mechanism automatically created the CRUD (create, 
 
 Run the application and browse to the `Movies` controller by appending */Movies* to the URL in the address bar of your browser. Because the application is relying on the default routing (defined in the *Global.asax* file), the browser request `http://localhost:xxxxx/Movies` is routed to the default `Index` action method of the `Movies` controller. In other words, the browser request `http://localhost:xxxxx/Movies` is effectively the same as the browser request `http://localhost:xxxxx/Movies/Index`. The result is an empty list of movies, because you haven't added any yet.
 
-![](accessing-your-models-data-from-a-controller/_static/image5.png)
+![Screenshot that shows the My Movie List page on the M V C Movie App.](accessing-your-models-data-from-a-controller/_static/image5.png)
 
 ## Creating a Movie
 
 Select the **Create New** link. Enter some details about a movie and then click the **Create** button.
 
-![](accessing-your-models-data-from-a-controller/_static/image6.png)
+![Screenshot that shows the Create page on the M V C Movie App.](accessing-your-models-data-from-a-controller/_static/image6.png)
 
 Clicking the **Create** button causes the form to be posted to the server, where the movie information is saved in the database. You're then redirected to the */Movies* URL, where you can see the newly created movie in the listing.
 

@@ -41,7 +41,7 @@ If you're using SQL Server 7.0 or later as your membership store, you can use th
 
 Once you run that command, you will be presented with the ASP.NET SQL Server Setup Wizard as shown below.
 
-![](membership/_static/image1.jpg)
+![Screenshot that shows an A S P dot NET S Q L Server Setup Wizard.](membership/_static/image1.jpg)
 
 **Figure 1**
 
@@ -57,7 +57,7 @@ The next step in configuring Membership is to add the necessary information to t
 
 You can launch the Web interface by clicking the ASP.NET Configuration button on the Solution Explorer toolbar as shown below. You can also launch the Web interface via pop-ups that are displayed when Login controls are inserted.
 
-![](membership/_static/image2.jpg)
+![Screenshot that shows a Solution Explorer toolbar with web.config selected.](membership/_static/image2.jpg)
 
 **Figure 2**
 
@@ -72,7 +72,7 @@ The Web Site Administration Tool allows you to easily create new users, create n
 
 To launch the Windows interface, open the Internet Information Services snap-in, right-click on your application, and choose Properties. Click the ASP.NET tab and then click the Edit Configuration button. (The application must be running under ASP.NET 2.0 for the Edit Configuration button to be enabled. You can configure the ASP.NET version in the ASP.NET dialog as well.) The ASP.NET Configuration Settings dialog is displayed as shown below.
 
-![](membership/_static/image3.jpg)
+![Screenshot that shows a General tab on the A S P dot N E T Configuration Settings dialog.](membership/_static/image3.jpg)
 
 **Figure 3**
 
@@ -80,7 +80,7 @@ On the General tab, connection strings and application settings are listed. Any 
 
 The Authentication tab is shown below. This is where you will configure your membership settings. Forms authentication settings, membership providers, and role providers can be configured here.
 
-![](membership/_static/image4.jpg)
+![Screenshot that shows an Authentication tab on the A S P dot N E T Configurations dialog.](membership/_static/image4.jpg)
 
 **Figure 4**
 
@@ -118,7 +118,7 @@ The LoginName control displays the username of the user currently logged into th
 
 The CreateUserWizard control provides users with a convenient way to register for your membership system. You can add steps (implemented as a collection of WizardSteps) via the interface shown below.
 
-![](membership/_static/image5.jpg)
+![Screenshot that shows a Create User Wizard Tasks dialog with a drop down menu to Sign Up for Your New Account.](membership/_static/image5.jpg)
 
 **Figure 5**
 
@@ -150,7 +150,7 @@ To enable role management in your application, make the following change in your
 
 When the **cacheRolesInCookie** attribute is set to true, ASP.NET caches a users role membership in a cookie on the client. This allows role lookups to occur without calls into the RoleProvider. When using this attribute, developers are encouraged to ensure that the **cookieProtection** attribute is set to All. (This is the default setting.) This ensures that the cookie data are encrypted and helps to ensure that the cookies contents haven't been altered. Roles can be added using the Web Site Administration Tool. It allows you to easily define roles, configure access to parts of the site based on those roles, and assign users to roles.
 
-![](membership/_static/image6.jpg)
+![Screenshot that shows an A S P dot N E T Web Site Administration Tool with the Add Role button.](membership/_static/image6.jpg)
 
 **Figure 6**
 
@@ -158,13 +158,13 @@ As shown above, new roles can be added by simply entering the name of the role a
 
 When you manage a role, you can add or remove users as shown below.
 
-![](membership/_static/image7.jpg)
+![Screenshot that shows an A S P dot N E T Web Site Administration Tool with the Find User button.](membership/_static/image7.jpg)
 
 **Figure 7**
 
 By checking the User Is In Role checkbox, you can easily add a user to a specific role. ASP.NET will automatically update your membership database with the appropriate entries. You will also want to configure access rules for your application. ASP.NET 1.x developers are familiar with doing this via the &lt;authorization&gt; element in the web.config file, and that option is still available in ASP.NET 2.0. However, its easier to manage access rules using the Web Site Administration Tool as shown below.
 
-![](membership/_static/image8.jpg)
+![Screenshot that shows the A S P dot N E T Web Site Administration tool with items selected under Users and Roles.](membership/_static/image8.jpg)
 
 **Figure 8**
 
@@ -186,13 +186,13 @@ ASP.NET also creates a RolePrincipal instance as a member of the current context
 
 Now that you have an understanding of role management and membership, lets discuss briefly how the LoginView control takes advantage of this capability in ASP.NET 2.0. As previously discussed, the LoginView control is a templated control that contains two templates by default; the AnonymousTemplate and the LoggedInTemplate. Within the LoginView Tasks dialog is a link (shown below) that allows you to edit RoleGroups.
 
-![](membership/_static/image9.jpg)
+![Screenshot that shows the Login View control within the Login View Tasks dialog with a drop down and Role Group selected.](membership/_static/image9.jpg)
 
 **Figure 9**
 
 Each RoleGroup object contains an array of strings that defines which roles that RoleGroup applies to. To add a new RoleGroup to the LoginView control, click the Edit RoleGroups link. In the image above, you can see that I have added a new RoleGroup for Administrators. By selecting that RoleGroup (RoleGroup[0]) from the Views dropdown, I can configure a template that will only be displayed to members of the Administrators role. In the image below, I have added a new RoleGroup that applies to members of the Sales role and the Distribution role. This adds a second RoleGroup to the Views dropdown in the LoginView Tasks dialog and anything added to that template will be visible by any user in either the Sales or Distribution role.
 
-![](membership/_static/image10.jpg)
+![Screenshot that shows a Role Group Collection Editor dialog with a dropdown selecting Administrators.](membership/_static/image10.jpg)
 
 **Figure 10**
 

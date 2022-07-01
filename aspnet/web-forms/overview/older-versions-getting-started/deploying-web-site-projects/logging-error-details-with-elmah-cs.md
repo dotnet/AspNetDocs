@@ -13,8 +13,6 @@ msc.type: authoredcontent
 
 by [Scott Mitchell](https://twitter.com/ScottOnWriting)
 
-[Download Code](https://download.microsoft.com/download/1/0/C/10CC829F-A808-4302-97D3-59989B8F9C01/ASPNET_Hosting_Tutorial_14_CS.zip) or [Download PDF](https://download.microsoft.com/download/5/C/5/5C57DB8C-5DEA-4B3A-92CA-4405544D313B/aspnet_tutorial14_ELMAH_cs.pdf)
-
 > Error Logging Modules And Handlers (ELMAH) offers another approach to logging runtime errors in a production environment. ELMAH is a free, open source error logging library that includes features like error filtering and the ability to view the error log from a web page, as an RSS feed, or to download it as a comma-delimited file. This tutorial walks through downloading and configuring ELMAH.
 
 ## Introduction

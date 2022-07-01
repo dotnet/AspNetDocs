@@ -1,15 +1,15 @@
 ---
 uid: web-pages/overview/security/index
-title: "Security (Enabling Additional Protection) | Microsoft Docs"
+title: Login Capabilities and App Protection | Microsoft Docs
 author: rick-anderson
-description: "How to add login capabilities to an ASP.NET Web Pages application, and how to help protect the application from bots."
+description: How to add login capabilities to an ASP.NET Web Pages application, and how to help protect the application from bots.
 ms.author: riande
 ms.date: 09/08/2014
 ms.assetid: 58187ddb-bd53-406d-88be-8908905d726c
 msc.legacyurl: /web-pages/overview/security
 msc.type: chapter
 ---
-# Security
+# Login Capabilities and App Protection
 
 > How to add login capabilities to an ASP.NET Web Pages application, and how to help protect the application from bots.
 

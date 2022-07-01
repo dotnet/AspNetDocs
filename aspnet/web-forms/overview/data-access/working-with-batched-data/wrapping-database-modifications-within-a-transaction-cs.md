@@ -205,7 +205,6 @@ Happy Programming!
 
 For more information on the topics discussed in this tutorial, refer to the following resources:
 
-- [Maintaining Database Consistency with Transactions](http://aspnet.4guysfromrolla.com/articles/072705-1.aspx)
 - [Managing Transactions in SQL Server Stored Procedures](http://www.4guysfromrolla.com/webtech/080305-1.shtml)
 - [Transactions Made Easy: `System.Transactions`](/archive/blogs/florinlazar/transactions-made-easy-system-transactions)
 - [TransactionScope and DataAdapters](http://andyclymer.blogspot.com/2007/01/transactionscope-and-dataadapters.html)

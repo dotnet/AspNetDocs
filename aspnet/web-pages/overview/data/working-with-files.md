@@ -1,8 +1,8 @@
 ---
 uid: web-pages/overview/data/working-with-files
-title: "Working with Files in an ASP.NET Web Pages (Razor) Site | Microsoft Docs"
+title: Working with Files in an ASP.NET Web Pages (Razor) Site | Microsoft Docs
 author: Rick-Anderson
-description: "This chapter explains how to read, write, append, delete, and upload files."
+description: This chapter explains how to read, write, append, delete, and upload files for an ASP.NET Web Pages site.
 ms.author: riande
 ms.date: 02/20/2014
 ms.assetid: eee916e4-ba4c-439a-a24e-68df7d45a569
@@ -77,13 +77,13 @@ If you want to store data in a text file, you can use the `File.WriteAllText` me
 
 - Run the page in a browser. 
 
-    ![](working-with-files/_static/image1.jpg)
+    ![Screenshot of the browser window showing the First Name, Last Name, and Email text fields with a Submit button following them.](working-with-files/_static/image1.jpg)
 - Enter values into the fields and then click **Submit**.
 - Close the browser.
 - Return to the project and refresh the view.
 - Open the *data.txt* file. The data you submitted in the form is in the file. 
 
-    ![[image]](working-with-files/_static/image2.jpg)
+    ![Screenshot of the data dot t x t file showing the data entered into the web browser fields has been recorded into the t x t file.](working-with-files/_static/image2.jpg)
 - Close the *data.txt* file.
 
 <a id="Appending_Data"></a>
@@ -103,7 +103,7 @@ In the previous example, you used `WriteAllText` to create a text file that's go
 6. Return to your project, right-click the project folder, and then click **Refresh**.
 7. Open the *data.txt* file. It now contains the new data that you just entered. 
 
-    ![[image]](working-with-files/_static/image3.jpg)
+    ![Screenshot of the data dot t x t file showing the data entered into the web browser fields has been recorded without overwriting previous data.](working-with-files/_static/image3.jpg)
 
 <a id="Reading_and_Displaying_Data"></a>
 ## Reading and Displaying Data from a File
@@ -130,7 +130,7 @@ This procedure shows you how to read and display the data that you created in th
     The code illustrates how to use two data types, an array and the `char` data type. The array is required because the `File.ReadAllLines` method returns data as an array. The `char` data type is required because the `Split` method returns an `array` in which each element is of the type `char`. (For information about arrays, see [Introduction to ASP.NET Web Programming Using the Razor Syntax](https://go.microsoft.com/fwlink/?LinkId=202890#ID_CollectionsAndObjects).)
 3. Run the page in a browser. The data you entered for the previous examples is displayed. 
 
-    ![[image]](working-with-files/_static/image4.jpg)
+    ![Screenshot of the browser window showing the data from the data from the data dot t x t file displayed in an array.](working-with-files/_static/image4.jpg)
 
 > [!TIP] 
 > 
@@ -161,7 +161,7 @@ To delete files from your website, you can use the `File.Delete` method. This pr
     To delete the file, the code calls the `File.Delete` method, passing it the full path that you just constructed. At the end of the markup, code displays a confirmation message that the file was deleted.
 5. Run the page in a browser. 
 
-    ![[image]](working-with-files/_static/image5.jpg)
+    ![Screenshot of the browser window showing the Delete a Photo from the Site page with a field for the file name and the Submit button.](working-with-files/_static/image5.jpg)
 6. Enter the name of the file to delete and then click **Submit**. If the file was deleted, the name of the file is displayed at the bottom of the page.
 
 <a id="Letting_Users_Upload_a_File"></a>
@@ -178,7 +178,7 @@ The `FileUpload` helper lets users upload files to your website. The procedure b
 
     The body portion of the page uses the `FileUpload` helper to create the upload box and buttons that you're probably familiar with:
 
-    ![[image]](working-with-files/_static/image6.jpg)
+    ![Screenshot of the File Upload web browser page showing the File Upload helper file picker and Upload button.](working-with-files/_static/image6.jpg)
 
     The properties that you set for the `FileUpload` helper specify that you want a single box for the file to upload and that you want the submit button to read **Upload**. (You'll add more boxes later in the article.)
 
@@ -197,19 +197,19 @@ The `FileUpload` helper lets users upload files to your website. The procedure b
     Once you've gotten the name of the uploaded file, you can build a new path for where you want to store the uploaded file in your website. In this case, you combine `Server.MapPath`, the folder names (*App\_Data/UploadedFiles*), and the newly stripped file name to create a new path. You can then call the uploaded file's `SaveAs` method to actually save the file.
 5. Run the page in a browser. 
 
-    ![[image]](working-with-files/_static/image7.jpg)
+    ![Screenshot of the File Upload Single File Example web browser page showing the file picker and the Upload button.](working-with-files/_static/image7.jpg)
 6. Click **Browse** and then select a file to upload. 
 
-    ![[image]](working-with-files/_static/image8.jpg)
+    ![Screenshot of the File Explorer window showing a file selected and highlighted in blue and the Open button highlighted in a blue rectangle.](working-with-files/_static/image8.jpg)
 
     The text box next to the **Browse** button will contain the path and file location.
 
-    ![[image]](working-with-files/_static/image9.jpg)
+    ![Screenshot of the File Upload Single File Example web browser page showing the file picker with the selected file and the Upload button.](working-with-files/_static/image9.jpg)
 7. Click **Upload**.
 8. In the website, right-click the project folder and then click **Refresh**.
 9. Open the *UploadedFiles* folder. The file that you uploaded is in the folder. 
 
-    ![[image]](working-with-files/_static/image10.jpg)
+    ![Screenshot of the project folder hierarchy showing the Samples dot t x t file highlighted in blue inside of the Uploaded Files folder.](working-with-files/_static/image10.jpg)
 
 <a id="Letting_Users_Upload_Multiple_Files"></a>
 ## Letting Users Upload Multiple Files
@@ -224,7 +224,7 @@ In the previous example, you let users upload one file. But you can use the `Fil
 
     In this example, the `FileUpload` helper in the body of the page is configured to let users upload two files by default. Because `allowMoreFilesToBeAdded` is set to `true`, the helper renders a link that lets user add more upload boxes:
 
-    ![[image]](working-with-files/_static/image11.jpg)
+    ![Screenshot of the File Upload Multiple File Example web browser page showing two file pickers and an Upload button.](working-with-files/_static/image11.jpg)
 
     To process the files that the user uploads, the code uses the same basic technique that you used in the previous example &#8212; get a file from `Request.Files` and then save it. (Including the various things you need to do to get the right file name and path.) The innovation this time is that the user might be uploading multiple files and you don't know many. To find out, you can get `Request.Files.Count`.
 
@@ -239,7 +239,7 @@ In the previous example, you let users upload one file. But you can use the `Fil
 5. Select two files to upload.
 6. Click **Add another file**. The page displays a new upload box. 
 
-    ![[image]](working-with-files/_static/image12.jpg)
+    ![Screenshot of the File Upload Multiple File Example web browser page showing two file pickers with selected files and an Upload button.](working-with-files/_static/image12.jpg)
 7. Click **Upload**.
 8. In the website, right-click the project folder and then click **Refresh**.
 9. Open the *UploadedFiles* folder to see the successfully uploaded files.

@@ -45,7 +45,7 @@ WebMatrix is a set of tools that provides an easy way to build Web sites for Mic
 
 **Read**
 
-- [Microsoft Web Camps training kit for WebMatrix](http://trainingkit.webcamps.ms/WebMatrix.htm)
+- [Microsoft Web Camps training kit for WebMatrix](https://github.com/Microsoft-Web/WebCampTrainingKit)
 - [Submit a bug or suggestion](https://go.microsoft.com/fwlink/?LinkId=195940)
 - [WebMatrix Readme](readme/index.md)
 - [App Gallery FAQs](https://go.microsoft.com/fwlink/?LinkId=196179)

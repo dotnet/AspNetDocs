@@ -2,7 +2,7 @@
 uid: mvc/overview/getting-started/introduction/creating-a-connection-string
 title: "Creating a Connection String and Working with SQL Server LocalDB | Microsoft Docs"
 author: Rick-Anderson
-description: ""
+description: "In this section we'll explicitly add a connection string in the Web.config file of the application."
 ms.author: riande
 ms.date: 10/17/2013
 ms.assetid: 6127804d-c1a9-414d-8429-7f3dd0f56e97
@@ -31,11 +31,11 @@ By default, the Entity Framework looks for a connection string named the same as
 
 Open the application root *Web.config* file shown below. (Not the *Web.config* file in the *Views* folder.)
 
-![](creating-a-connection-string/_static/image1.png)
+![Screenshot that shows the Solution Explorer window and Web dot config is selected and circled in red.](creating-a-connection-string/_static/image1.png)
 
 Find the `<connectionStrings>` element:
 
-![](creating-a-connection-string/_static/image2.png)
+![Screenshot that shows code and the connection string element is circled in red.](creating-a-connection-string/_static/image2.png)
 
 Add the following connection string to the `<connectionStrings>` element in the *Web.config* file.
 

@@ -1,15 +1,15 @@
 ---
 uid: web-pages/readme/overview
-title: "WebMatrix Readme | Microsoft Docs"
+title: WebMatrix 1.0 Release Readme | Microsoft Docs
 author: rick-anderson
-description: "WebMatrix and ASP.NET Web Pages (Razor) 1.0 Release Readme"
+description: Provides the WebMatrix and ASP.NET Web Pages (Razor) 1.0 Release Readme and explains changes from previous versions.
 ms.author: riande
 ms.date: 01/06/2011
 ms.assetid: 36c5beeb-45a7-48a0-9c30-f82cdf5c5f5f
 msc.legacyurl: /web-pages/readme
 msc.type: content
 ---
-# WebMatrix Readme
+# WebMatrix 1.0 Release Readme
 
 13 January 2011
 
@@ -42,7 +42,7 @@ msc.type: content
 
 ## Installation
 
-> To install WebMatrix 1.0, you must first install the [Microsoft Web Platform Installer 3.0](https://go.microsoft.com/fwlink/?LinkID=194638). After you've installed the Web Platform Installer, you can use it to install WebMatrix.
+> To install WebMatrix 1.0, you must first install the [Microsoft Web Platform Installer 3.0](https://www.iis.net/downloads/microsoft/web-platform-installer). After you've installed the Web Platform Installer, you can use it to install WebMatrix.
 > 
 > If you have problems during installation, refer to [Troubleshooting Problems with Microsoft Web Platform Installer](https://go.microsoft.com/fwlink/?LinkId=196212).
 
@@ -506,4 +506,3 @@ For more information about WebMatrix 1.0, see the following websites:
 - [ASP.NET](https://asp.net/webmatrix)
 - [Microsoft.com/web](https://www.microsoft.com/web)
 
-© 2011 Microsoft Corporation. All Rights Reserved. [Terms of Use](https://msdn.microsoft.cos/cc300389.aspx).

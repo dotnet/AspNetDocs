@@ -59,7 +59,7 @@ To make the **LogDeploy.ps1** script available to MSBuild, you need to:
 
 You don't need to deploy the script with your solution content, regardless of whether you plan to run the script on the build server or on a remote computer. One option is to add the script to a solution folder. In the Contact Manager example, because you want to use the Windows PowerShell script as part of the deployment process, it makes sense to add the script to the Publish solution folder.
 
-![](running-windows-powershell-scripts-from-msbuild-project-files/_static/image1.png)
+![In the Contact Manager example, because you want to use the Windows PowerShell script as part of the deployment process, it makes sense to add the script to the Publish solution folder.](running-windows-powershell-scripts-from-msbuild-project-files/_static/image1.png)
 
 The contents of solution folders are copied to build servers as source material. However, they form no part of any project output.
 

@@ -32,8 +32,6 @@ This tutorial guides you through the steps required to create an ASP.NET Web For
 <a id="createWebForms"></a>
 ## Create an ASP.NET Web Forms App
 
-Start by installing and running [Visual Studio Express 2013 for Web](https://go.microsoft.com/fwlink/?LinkId=299058) or [Visual Studio 2013](https://go.microsoft.com/fwlink/?LinkId=306566). Install [Visual Studio 2013 Update 3](https://go.microsoft.com/fwlink/?LinkId=390465) or higher as well.
-
 > [!NOTE]
 > Warning: You must install [Visual Studio 2013 Update 3](https://go.microsoft.com/fwlink/?LinkId=390465) or higher to complete this tutorial.
 
@@ -69,7 +67,7 @@ Although this tutorial only shows how to add email notification through [SendGri
 
 1. In Visual Studio, open the **Package Manager Console** (**Tools** -&gt; **NuGet Package Manger** -&gt; **Package Manager Console**), and enter the following command:  
     `Install-Package SendGrid`
-2. Go to the [Azure SendGrid sign-up page](https://azure.microsoft.com/gallery/store/sendgrid/sendgrid-azure/) and register for free SendGrid account. You can also sign-up for a free SendGrid account directly on [SendGrid's site](http://www.sendgrid.com).
+2. Go to the [Azure SendGrid sign-up page](https://signup.sendgrid.com/) and register for free SendGrid account. You can also sign-up for a free SendGrid account directly on [SendGrid's site](https://sendgrid.com).
 3. From **Solution Explorer** open the *IdentityConfig.cs* file in the *App\_Start* folder and add the following code highlighted in yellow to the `EmailService` class to configure **SendGrid**:
 
     [!code-csharp[Main](create-a-secure-aspnet-web-forms-app-with-user-registration-email-confirmation-and-password-reset/samples/sample1.cs?highlight=3,5,8-37)]

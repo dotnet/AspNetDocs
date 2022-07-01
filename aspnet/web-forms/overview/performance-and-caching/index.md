@@ -1,15 +1,15 @@
 ---
 uid: web-forms/overview/performance-and-caching/index
-title: "Performance | Microsoft Docs"
+title: Caching Site Content | Microsoft Docs
 author: rick-anderson
-description: "How to cache site content for faster performance."
+description: Describes how to cache site content that use the ASP.NET Framework for faster performance.
 ms.author: riande
 ms.date: 08/08/2011
 ms.assetid: da2d581a-019e-4183-84a6-70bf04822b44
 msc.legacyurl: /web-forms/overview/performance-and-caching
 msc.type: chapter
 ---
-# Performance
+# Caching Site Content
 
 > How to cache site content for faster performance.
 
