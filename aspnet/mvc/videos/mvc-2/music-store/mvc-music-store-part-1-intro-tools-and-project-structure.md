@@ -15,7 +15,7 @@ by [Jon Galloway](https://github.com/jongalloway)
 
 Jon Galloway begins the MVC Music Store tutorial with an introduction, overview of the application, and review of the directory structure of an MVC application.
 
-[&#9654; Watch video (6 minutes)](https://channel9.msdn.com/Blogs/ASP-NET-Site-Videos/mvc-music-store-part-1-intro-tools-and-project-structure)
+[&#9654; Watch video (6 minutes)](/shows/asp-net-site-videos/mvc-music-store-part-1-intro,-tools,-project-structure)
 
 > [!div class="step-by-step"]
 > [Next](mvc-music-store-part-2-controllers.md)

@@ -11,7 +11,7 @@ msc.type: authoredcontent
 ---
 # SignalR Scaleout with Azure Service Bus
 
-by [Mike Wasson](https://github.com/MikeWasson), [Patrick Fletcher](https://github.com/pfletcher)
+by [Patrick Fletcher](https://github.com/pfletcher)
 
 [!INCLUDE [Consider ASP.NET Core SignalR](~/includes/signalr/signalr-version-disambiguation.md)]
 
