@@ -1,6 +1,7 @@
 ---
 uid: ajax/cdn/jquery-mobile/cdnjquerymobile10
 title: "jQuery Mobile 1.0 on the Microsoft Ajax CDN | Microsoft Docs"
+description: This article includes a list of files that are included in the jQuery Mobile 1.0 library on the Microsoft Ajax CDN.
 author: rick-anderson
 description: ""
 ms.author: riande
