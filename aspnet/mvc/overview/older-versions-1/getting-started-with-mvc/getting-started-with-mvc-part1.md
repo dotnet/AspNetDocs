@@ -48,7 +48,7 @@ Start by running Visual Web Developer 2010 Express (I'll call it "VWD" from now 
 
 Visual Web Developer is an IDE, or Integrated Developer Environment. Just like you use Microsoft Word to write documents, you'll use an IDE to create applications. There's a toolbar along the top showing various options available to you, as well as the menu you could also have used to Select File | New project.
 
-[![Microsoft Visual Web Developer 2010 Express](getting-started-with-mvc-part1/_static/image6.png)](getting-started-with-mvc-part1/_static/image5.png)
+[![Screenshot of the Microsoft Visual Web Developer 2010 Express window, which shows the Start Page.](getting-started-with-mvc-part1/_static/image6.png)](getting-started-with-mvc-part1/_static/image5.png)
 
 ## Creating Your First Application
 
@@ -58,7 +58,7 @@ You can create applications using Visual Basic or Visual C#. For now, Select Vis
 
 On the right-hand side is the Solution Explorer showing all the files and folders in your application. The big window in the middle is where you edit your code and spend most of your time. Visual Studio used a default template for the ASP.NET MVC project you just created, so you have a working application right now without doing anything! This is a simple "Hello World! project, and it is a good place to start for our application.
 
-[![Microsoft Visual Web Developer 2010 Express](getting-started-with-mvc-part1/_static/image10.png)](getting-started-with-mvc-part1/_static/image9.png)
+[![Screenshot of the Microsoft Visual Web Developer 2010 Express window, which shows the new Home Controller dot c s file is open in the code editor.](getting-started-with-mvc-part1/_static/image10.png)](getting-started-with-mvc-part1/_static/image9.png)
 
 Select the "play" button to the toolbar.
 

@@ -43,13 +43,13 @@ After you create the new database, you can open the database by double-clicking 
 
 The Server Explorer window is called the Database Explorer window when using Visual Web Developer.
 
-[![Using the Server Explorer window](creating-model-classes-with-linq-to-sql-cs/_static/image5.png)](creating-model-classes-with-linq-to-sql-cs/_static/image4.png)
+[![Screenshot of the Server Explorer window, which shows that the Tables folder is highlighted in the folder hierarchy.](creating-model-classes-with-linq-to-sql-cs/_static/image5.png)](creating-model-classes-with-linq-to-sql-cs/_static/image4.png)
 
 **Figure 02**: Using the Server Explorer window ([Click to view full-size image](creating-model-classes-with-linq-to-sql-cs/_static/image6.png))
 
 We need to add one table to our database that represents our movies. Right-click the Tables folder and select the menu option **Add New Table**. Selecting this menu option opens the Table Designer (see Figure 3).
 
-[![Using the Server Explorer window](creating-model-classes-with-linq-to-sql-cs/_static/image8.png)](creating-model-classes-with-linq-to-sql-cs/_static/image7.png)
+[![Screenshot of the Microsoft Visual Studio window, which shows the Table Designer feature.](creating-model-classes-with-linq-to-sql-cs/_static/image8.png)](creating-model-classes-with-linq-to-sql-cs/_static/image7.png)
 
 **Figure 03**: The Table Designer ([Click to view full-size image](creating-model-classes-with-linq-to-sql-cs/_static/image9.png))
 
