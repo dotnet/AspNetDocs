@@ -2,7 +2,7 @@
 uid: web-forms/overview/data-access/custom-formatting/custom-formatting-based-upon-data-vb
 title: "Custom Formatting Based Upon Data (VB) | Microsoft Docs"
 author: rick-anderson
-description: "Adjusting the format of the GridView, DetailsView, or FormView based upon the data bound to it can be accomplished in multiple ways. In this tutorial we'll l..."
+description: "Adjusting the format of the GridView, DetailsView, or FormView based upon the data bound to it can be accomplished in multiple ways. In this tutorial we'll l... (VB)"
 ms.author: riande
 ms.date: 03/31/2010
 ms.assetid: df5a1525-386f-4632-972c-57b199870bc3
