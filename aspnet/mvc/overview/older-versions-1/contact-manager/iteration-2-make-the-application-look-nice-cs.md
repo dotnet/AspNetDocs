@@ -70,7 +70,7 @@ As I write this tutorial, the most popular design in the gallery is a design nam
 
 **Figure 04**: Overwriting files in the Solution Explorer ([Click to view full-size image](iteration-2-make-the-application-look-nice-cs/_static/image8.png))
 
-[![Screenshot shows replacing ProjectName with ContactManager](iteration-2-make-the-application-look-nice-cs/_static/image5.jpg)](iteration-2-make-the-application-look-nice-cs/_static/image9.png)
+[![Screenshot shows replacing ProjectName with ContactManager.](iteration-2-make-the-application-look-nice-cs/_static/image5.jpg)](iteration-2-make-the-application-look-nice-cs/_static/image9.png)
 
 **Figure 05**: Replacing [ProjectName] with ContactManager ([Click to view full-size image](iteration-2-make-the-application-look-nice-cs/_static/image10.png))
 
