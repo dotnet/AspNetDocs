@@ -42,7 +42,7 @@ After the project is created, the VSIX designer will be opened.
 
 The designer can be used to edit some of the general properties of the extension that will be shown to users when they install the extension or browse the installed extensions in Visual Studio (**Tools > Extensions and Updates**). Once you have completed the general information click on the **Install Targets tab**.
 
-![Project Designer Install Targets](custom-mvc-templates/_static/image3.jpg)
+![Screenshot shows the Install Targets tab of Project Designer.](custom-mvc-templates/_static/image3.jpg)
 
 This tab is used to specify the SKUs and versions of Visual Studio that are supported by your extension. Select the checkbox for **This VSIX is installed for all users** to enable per-machine installs of the VSIX. Click on the **New** button on the right to add additional SKUs such as Web Developer Express (VWD).
 
@@ -50,7 +50,7 @@ This tab is used to specify the SKUs and versions of Visual Studio that are supp
 
 If you intend to support all the Professional and higher SKUs (Professional, Premium and Ultimate) you only need to select the minimum SKU in the family, **Microsoft.VisualStudio.Pro**. Remember to save all your changes once you have completed the Install Targets.
 
-![Project Designer Install Targets](custom-mvc-templates/_static/image5.jpg)
+![Screenshot shows the Install Targets tab of Project Designer with specified Identifiers and Version Ranges.](custom-mvc-templates/_static/image5.jpg)
 
 The **Assets** tab is used to add all your content files to the VSIX. Since MVC requires custom metadata you will be editing the raw XML of the VSIX manifest file instead of using the **Assets** tab to add content. Start by adding the template contents to the VSIX project. It is important that the structure of the folder and the contents mirror the layout of the project. The example below contains four project templates that were derived from the Basic MVC project template. Make sure that all the files that comprise your project template (everything underneath the ProjectTemplates folder) are added to the **Content** itemgroup in the VSIX project file and that each item contains the **CopyToOutputDirectory** and **IncludeInVsix** metadata set as shown in the example below.
 

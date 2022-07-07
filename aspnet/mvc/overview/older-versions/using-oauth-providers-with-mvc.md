@@ -118,7 +118,7 @@ After logging in with Facebook credentials, a page informs the user that the sit
 
 After selecting **Go to App**, the user must register for the site. The following image shows the registration page after a user has logged in with Facebook credentials. The user name is typically pre-filled with a name from the provider.
 
-![register](using-oauth-providers-with-mvc/_static/image9.png)
+![Screenshot shows a Register page where you can associate your Facebook account with this app.](using-oauth-providers-with-mvc/_static/image9.png)
 
 Click **Register** to complete registration. Close the browser.
 
@@ -210,7 +210,7 @@ You are now almost ready to run the application and register a new user with the
 
 Run the application and register the new user. Notice that this time the confirmation page contains more values.
 
-![register](using-oauth-providers-with-mvc/_static/image12.png)
+![Screenshot shows where you can enter a user name and other information after associating a Facebook account with the app.](using-oauth-providers-with-mvc/_static/image12.png)
 
 After completing registration, close the browser. Look in the database to notice the new values in the **ExtraUserInformation** table.
 

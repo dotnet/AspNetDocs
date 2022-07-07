@@ -62,7 +62,7 @@ For example, `ServiceID` will contain:
 
 The following image shows the `<appSettings/>` keys/values from the preceding *web.config* file set in the environment editor:
 
-![environment editor](config-builder/static/env.png)
+![Screenshot shows the Environmental Variables editor with the ServiceID and ServiceKey variables highlighted.](config-builder/static/env.png)
 
 Note: You might need to exit and restart Visual Studio to see changes in environment variables.
 
@@ -85,7 +85,7 @@ With the preceding markup, the same flat key/value source can be used to populat
 
 The following image shows the `<appSettings/>` and `<connectionStrings/>` keys/values from the preceding *web.config* file set in the environment editor:
 
-![environment editor](config-builder/static/prefix.png)
+![Screenshot shows the Environmental Variables editor with the AppSetting_default, AppSetting_ServiceID, and ConnStr_default variables highlighted.](config-builder/static/prefix.png)
 
 The following code reads the `<appSettings/>` and `<connectionStrings/>` keys/values contained in the preceding *web.config* file:
 
@@ -118,7 +118,7 @@ In the preceding *web.config* file, the `default` key is in both the `<appSettin
 
 The following image shows the `<appSettings/>` and `<connectionStrings/>` keys/values from the preceding *web.config* file set in the environment editor:
 
-![environment editor](config-builder/static/prefix.png)
+![Screenshot shows the Environmental Variables editor with the AppSetting_default, AppSetting_ServiceID, and ConnStr_default variables highlighted.](config-builder/static/prefix.png)
 
 The following code reads the `<appSettings/>` and `<connectionStrings/>` keys/values contained in the preceding *web.config* file:
 
