@@ -1,8 +1,8 @@
 ---
 uid: ajax/cdn/jquery-templates/index
 title: "jQuery Templates | Microsoft Docs"
+description: References a list of the jQuery Templates articles, which provide information about the files that are included in tcd heir respective libraries.
 author: rick-anderson
-description: ""
 ms.author: riande
 ms.date: 07/23/2014
 ms.assetid: 77431f19-f341-410f-a67f-802f6ce8c845

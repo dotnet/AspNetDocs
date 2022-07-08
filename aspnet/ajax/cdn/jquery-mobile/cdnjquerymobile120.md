@@ -1,8 +1,8 @@
 ---
 uid: ajax/cdn/jquery-mobile/cdnjquerymobile120
 title: "jQuery Mobile 1.2.0 on the Microsoft Ajax CDN | Microsoft Docs"
+description: This article provides a list of the files that are included in the jQuery Mobile 1.2.0 library on the Microsoft Ajax CDN.
 author: rick-anderson
-description: ""
 ms.author: riande
 ms.date: 07/23/2014
 ms.assetid: 62622f82-77e2-4e6c-b114-32d1674de7af
