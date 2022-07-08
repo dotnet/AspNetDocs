@@ -2,7 +2,7 @@
 uid: web-forms/overview/older-versions-getting-started/master-pages/nested-master-pages-cs
 title: "Nested Master Pages (C#) | Microsoft Docs"
 author: rick-anderson
-description: "Shows how to nest one master page within another."
+description: "Shows how to nest one master page within another. (C#)"
 ms.author: riande
 ms.date: 07/28/2008
 ms.assetid: 32b7fb6e-d74b-4048-91f8-70631b2523ee
