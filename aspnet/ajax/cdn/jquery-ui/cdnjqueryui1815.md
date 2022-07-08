@@ -1,8 +1,8 @@
 ---
 uid: ajax/cdn/jquery-ui/cdnjqueryui1815
 title: "jQuery UI 1.8.15 on the Microsoft Ajax CDN | Microsoft Docs"
+description: Shows examples of the jQuery UI 1.8.15 themes that are hosted on the Microsoft Ajax CDN, including links to the theme's CDN hosted CSS file.
 author: rick-anderson
-description: ""
 ms.author: riande
 ms.date: 07/23/2014
 ms.assetid: 4947e9c7-f037-4115-94e9-8e0a8b9d122d
