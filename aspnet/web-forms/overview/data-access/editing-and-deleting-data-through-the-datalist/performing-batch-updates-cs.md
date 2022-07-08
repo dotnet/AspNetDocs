@@ -2,7 +2,7 @@
 uid: web-forms/overview/data-access/editing-and-deleting-data-through-the-datalist/performing-batch-updates-cs
 title: "Performing Batch Updates (C#) | Microsoft Docs"
 author: rick-anderson
-description: "Learn how to create a fully-editable DataList where all of its items are in edit mode and whose values can be saved by clicking an 'Update All' button on the..."
+description: "Learn how to create a fully-editable DataList where all of its items are in edit mode and whose values can be saved by clicking an 'Update All' button on the... (C#)"
 ms.author: riande
 ms.date: 10/30/2006
 ms.assetid: 57743ca7-5695-4e07-aed1-44b297f245a9

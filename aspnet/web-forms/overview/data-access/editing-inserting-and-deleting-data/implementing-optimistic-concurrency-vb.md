@@ -2,7 +2,7 @@
 uid: web-forms/overview/data-access/editing-inserting-and-deleting-data/implementing-optimistic-concurrency-vb
 title: "Implementing Optimistic Concurrency (VB) | Microsoft Docs"
 author: rick-anderson
-description: "For a web application that allows multiple users to edit data, there is the risk that two users may be editing the same data at the same time. In this tutori..."
+description: "For a web application that allows multiple users to edit data, there is the risk that two users may be editing the same data at the same time. In this tutori... (VB)"
 ms.author: riande
 ms.date: 07/17/2006
 ms.assetid: 2646968c-2826-4418-b1d0-62610ed177e3

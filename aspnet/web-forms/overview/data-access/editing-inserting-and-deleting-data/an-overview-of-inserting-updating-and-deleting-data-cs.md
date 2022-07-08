@@ -2,7 +2,7 @@
 uid: web-forms/overview/data-access/editing-inserting-and-deleting-data/an-overview-of-inserting-updating-and-deleting-data-cs
 title: "An Overview of Inserting, Updating, and Deleting Data (C#) | Microsoft Docs"
 author: rick-anderson
-description: "In this tutorial we'll see how to map an ObjectDataSource's Insert(), Update(), and Delete() methods to the methods of BLL classes, as well as how to configu..."
+description: "In this tutorial we'll see how to map an ObjectDataSource's Insert(), Update(), and Delete() methods to the methods of BLL classes, as well as how to configu... (C#)"
 ms.author: riande
 ms.date: 07/17/2006
 ms.assetid: b651dc58-93c7-4f83-a74e-3b99f6d60848
