@@ -70,7 +70,7 @@ Next, add the following markup within the Web Form of `Simple.master`:
 
 This markup displays a link titled "Nested Master Pages (Simple)" at the top of the page in a large white font on a navy background. Beneath that is the `MainContent` ContentPlaceHolder. Figure 1 shows the `Simple.master` master page when loaded in the Visual Studio Designer.
 
-[![The Nested Master Page Defines Content Specific to the Pages in the Administration Section](nested-master-pages-cs/_static/image2.png)](nested-master-pages-cs/_static/image1.png)
+[![The Simple dot master master page when loaded in the Visual Studio Designer.](nested-master-pages-cs/_static/image2.png)](nested-master-pages-cs/_static/image1.png)
 
 **Figure 01**: The Nested Master Page Defines Content Specific to the Pages in the Administration Section ([Click to view full-size image](nested-master-pages-cs/_static/image3.png))
 
