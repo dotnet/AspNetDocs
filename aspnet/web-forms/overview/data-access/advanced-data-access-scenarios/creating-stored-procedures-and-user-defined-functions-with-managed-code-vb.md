@@ -2,7 +2,7 @@
 uid: web-forms/overview/data-access/advanced-data-access-scenarios/creating-stored-procedures-and-user-defined-functions-with-managed-code-vb
 title: "Creating Stored Procedures and User-Defined Functions with Managed Code (VB) | Microsoft Docs"
 author: rick-anderson
-description: "Microsoft SQL Server 2005 integrates with the .NET Common Language Runtime to allow developers to create database objects through managed code. This tutorial..."
+description: "Microsoft SQL Server 2005 integrates with the .NET Common Language Runtime to allow developers to create database objects through managed code. This tutorial... (VB)"
 ms.author: riande
 ms.date: 08/03/2007
 ms.assetid: 8be9a51b-ea6b-46c7-bfa2-476d9b14c24c

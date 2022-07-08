@@ -2,7 +2,7 @@
 uid: web-forms/overview/data-access/accessing-the-database-directly-from-an-aspnet-page/using-parameterized-queries-with-the-sqldatasource-cs
 title: "Using Parameterized Queries with the SqlDataSource (C#) | Microsoft Docs"
 author: rick-anderson
-description: "In this tutorial, we continue our look at the SqlDataSource control and learn how to define parameterized queries. The parameters can be specified both decla..."
+description: "In this tutorial, we continue our look at the SqlDataSource control and learn how to define parameterized queries. The parameters can be specified both decla... (C#)"
 ms.author: riande
 ms.date: 02/20/2007
 ms.assetid: 9128aaac-afe2-449f-84b2-bb1d035083c4
