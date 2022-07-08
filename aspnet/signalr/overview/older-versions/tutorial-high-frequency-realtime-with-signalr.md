@@ -27,7 +27,7 @@ by [Patrick Fletcher](https://github.com/pfletcher)
 
 This tutorial demonstrates how to create an application that shares the state of an object with other browsers in real time. The application we'll create is called MoveShape. The MoveShape page will display an HTML Div element that the user can drag; when the user drags the Div, its new position will be sent to the server, which will then tell all other connected clients to update the shape's position to match.
 
-![The application window](tutorial-high-frequency-realtime-with-signalr/_static/image1.png)
+![Screenshot showing the MoveShape application page.](tutorial-high-frequency-realtime-with-signalr/_static/image1.png)
 
 The application created in this tutorial is based on a demo by Damian Edwards. A video containing this demo can be seen [here](https://channel9.msdn.com/Series/Building-Web-Apps-with-ASP-NET-Jump-Start/Building-Web-Apps-with-ASPNET-Jump-Start-08-Real-time-Communication-with-SignalR).
 
@@ -123,7 +123,7 @@ In this section, we'll create a browser application that sends the location of t
     The above HTML and JavaScript code creates a red Div called Shape, enables the shape's dragging behavior using the jQuery library, and uses the shape's `drag` event to send the shape's position to the server.
 9. Start the application by pressing F5. Copy the page's URL, and paste it into a second browser window. Drag the shape in one of the browser windows; the shape in the other browser window should move.
 
-    ![The application window](tutorial-high-frequency-realtime-with-signalr/_static/image4.png)
+    ![Screenshot showing how a shape you drag in one browser window moves in another window.](tutorial-high-frequency-realtime-with-signalr/_static/image4.png)
 
 <a id="clientloop"></a>
 
@@ -138,7 +138,7 @@ Since sending the location of the shape on every mouse move event will create an
     The above update adds the `updateServerModel` function, which gets called on a fixed frequency. This function sends the position data to the server whenever the `moved` flag indicates that there is new position data to send.
 2. Start the application by pressing F5. Copy the page's URL, and paste it into a second browser window. Drag the shape in one of the browser windows; the shape in the other browser window should move. Since the number of messages that get sent to the server will be throttled, the animation will not appear as smooth as in the previous section.
 
-    ![The application window](tutorial-high-frequency-realtime-with-signalr/_static/image5.png)
+    ![Screenshot showing how a shape you drag in one browser window moves in another window when you add a client loop.](tutorial-high-frequency-realtime-with-signalr/_static/image5.png)
 
 <a id="serverloop"></a>
 
@@ -159,7 +159,7 @@ In the current application, messages sent from the server to the client go out a
     Lastly, instead of calling the client method from the hub directly, the `Broadcaster` class needs to obtain a reference to the currently operating hub (`_hubContext`) using the `GlobalHost`.
 2. Start the application by pressing F5. Copy the page's URL, and paste it into a second browser window. Drag the shape in one of the browser windows; the shape in the other browser window should move. There will not be a visible difference in the browser from the previous section, but the number of messages that get sent to the client will be throttled.
 
-    ![The application window](tutorial-high-frequency-realtime-with-signalr/_static/image6.png)
+    ![Screenshot showing how a shape you drag in one browser window moves in another window when you add a server loop.](tutorial-high-frequency-realtime-with-signalr/_static/image6.png)
 
 <a id="animation"></a>
 
@@ -174,7 +174,7 @@ The application is almost complete, but we could make one more improvement, in t
     The above code moves the shape from the old location to the new one given by the server over the course of the animation interval (in this case, 100 milliseconds). Any previous animation running on the shape is cleared before the new animation starts.
 2. Start the application by pressing F5. Copy the page's URL, and paste it into a second browser window. Drag the shape in one of the browser windows; the shape in the other browser window should move. The movement of the shape in the other window should appear less jerky as its movement is interpolated over time rather than being set once per incoming message.
 
-    ![The application window](tutorial-high-frequency-realtime-with-signalr/_static/image7.png)
+    ![Screenshot showing how a shape you drag in one browser window moves in another window when you add smooth animation on the client.](tutorial-high-frequency-realtime-with-signalr/_static/image7.png)
 
 <a id="furthersteps"></a>
 
