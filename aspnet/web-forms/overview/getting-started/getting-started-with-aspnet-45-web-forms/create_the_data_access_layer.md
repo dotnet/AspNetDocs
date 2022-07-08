@@ -59,7 +59,7 @@ In this tutorial, you'll start out by adding simple entity classes representing 
    The **Add New Item** dialog box is displayed.
 2. Under **Visual C#** from the **Installed** pane on the left, select **Code**. 
 
-    ![This is a screenshot of the Add New Item page showing the Installed pane on the left with Visual C# open and Code selected.](create_the_data_access_layer/_static/image2.png)
+    ![This is a screenshot of the Add New Item page showing the Installed pane on the left with Visual C# open and Code selected .](create_the_data_access_layer/_static/image2.png)
 3. Select **Class** from the middle pane and name this new class *Product.cs*.
 4. Click **Add**.  
    The new class file is displayed in the editor.

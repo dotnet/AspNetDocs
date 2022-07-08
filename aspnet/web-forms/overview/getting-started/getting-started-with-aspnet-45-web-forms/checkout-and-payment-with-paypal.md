@@ -264,7 +264,7 @@ To use the PayPal testing environment, you must create and verify a developer te
     > 
     > You will need the buyer email addresses and password to test the Wingtip Toys sample application at the end of this tutorial.
 
-    ![This is a screenshot of the Create test account page displaying the fields of an account that is being created.](checkout-and-payment-with-paypal/_static/image16.png)
+    ![This is a screenshot of the Create test account page displaying the fields of an account that is being created .](checkout-and-payment-with-paypal/_static/image16.png)
 7. Create the buyer test account by clicking the **Create Account** button.  
  The **Sandbox Test accounts** page is displayed. 
 

@@ -46,7 +46,7 @@ In this tutorial you will create, review, and run the default project in Visual 
 
 7. Select the **Web Forms** template and click the **OK** button.
 
-    ![This is a screenshot of the New ASP.NET Project page with the Web Forms template and OK button selected.](create-the-project/_static/image3.png)
+    ![This is a screenshot of the New ASP.NET Project page with the Web Forms template and OK button selected .](create-the-project/_static/image3.png)
 
 The project will take a little time to create. When it's ready, open the **Default.aspx** page.
 

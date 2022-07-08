@@ -38,7 +38,7 @@ Now you'll add code that runs when the **Select** link is clicked and displays a
     [!code-aspx[Main](deploying-a-code-update/samples/sample1.aspx)]
 2. Run the page and select an instructor. You see a list of courses taught by that instructor.
 
-    ![This is a screenshot showing the Instructors page with a single Instructor highlighted and displaying the courses that they teach.](deploying-a-code-update/_static/image2.png)
+    ![This is a screenshot showing the Instructors page with a single Instructor highlighted and displaying the courses that they teach .](deploying-a-code-update/_static/image2.png)
 3. Close the browser.
 
 ## Deploy the code update to the test environment

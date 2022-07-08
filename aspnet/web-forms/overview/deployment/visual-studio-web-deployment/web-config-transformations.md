@@ -89,7 +89,7 @@ A page opens that shows you the development *Web.config* file on the left and wh
 
 ![Preview of debug transform](web-config-transformations/_static/image5.png)
 
-![This is a screenshot showing the Web.config Preview with the development file on the left and what the deployed file will look like on the right with the changes highlighted.](web-config-transformations/_static/image6.png)
+![This is a screenshot showing the Web.config Preview with the development file on the left and what the deployed file will look like on the right with the changes highlighted .](web-config-transformations/_static/image6.png)
 
 ( In the preview, you might notice some additional changes that you didn't write transforms for: these typically involve the removal of white space that doesn't affect functionality.)
 
