@@ -2,7 +2,7 @@
 uid: ajax/cdn/jquery-validate/cdnjqueryvalidate1192
 title: jQuery Validation 1.19.2
 author: rick-anderson
-description: ""
+description: This article provides a list of the files that are included in the jQuery Validation 1.19.2 hosted on the CDN.
 ms.author: riande
 ms.date: 07/26/2015
 msc.type: content
