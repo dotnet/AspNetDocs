@@ -2,7 +2,7 @@
 uid: mvc/overview/older-versions/getting-started-with-aspnet-mvc3/cs/intro-to-aspnet-mvc-3
 title: "Intro to ASP.NET MVC 3 (C#) | Microsoft Docs"
 author: Rick-Anderson
-description: "This tutorial will teach you the basics of building an ASP.NET MVC Web application using Microsoft Visual Web Developer 2010 Express Service Pack 1, which is..."
+description: "This tutorial will teach you the basics of building an ASP.NET MVC Web application using Microsoft Visual Web Developer 2010 Express Service Pack 1, which is... (C#)"
 ms.author: riande
 ms.date: 05/05/2022
 ms.custom: devdivchpfy22

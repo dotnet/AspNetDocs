@@ -2,7 +2,7 @@
 uid: mvc/overview/older-versions/getting-started-with-aspnet-mvc3/cs/examining-the-edit-methods-and-edit-view
 title: "Examining the Edit Methods and Edit View (C#) | Microsoft Docs"
 author: Rick-Anderson
-description: "This tutorial will teach you the basics of building an ASP.NET MVC Web application using Microsoft Visual Web Developer 2010 Express Service Pack 1, which is..."
+description: "This tutorial will teach you the basics of building an ASP.NET MVC Web application using Microsoft Visual Web Developer 2010 Express Service Pack 1, which is... (C#)"
 ms.author: riande
 ms.date: 01/12/2011
 ms.assetid: 1d266bf0-a61e-423b-a3d2-13773d7dafe2
