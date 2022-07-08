@@ -140,7 +140,7 @@ Open the *SchoolRepository.cs* file and specify eager loading for the `Courses` 
 
 Run the page. In addition to the sorting and filtering capability that you added earlier, the GridView control now shows nested course details for each department.
 
-[![A screenshot that shows the GridView control displaying nested course details.](using-the-entity-framework-and-the-objectdatasource-control-part-3-sorting-and-filtering/_static/image8.png)](using-the-entity-framework-and-the-objectdatasource-control-part-3-sorting-and-filtering/_static/image7.png)
+[![A screenshot that shows the Grid View control displaying nested course details.](using-the-entity-framework-and-the-objectdatasource-control-part-3-sorting-and-filtering/_static/image8.png)](using-the-entity-framework-and-the-objectdatasource-control-part-3-sorting-and-filtering/_static/image7.png)
 
 This completes the introduction to sorting, filtering, and master-detail scenarios. In the next tutorial, you'll see how to handle concurrency.
 
