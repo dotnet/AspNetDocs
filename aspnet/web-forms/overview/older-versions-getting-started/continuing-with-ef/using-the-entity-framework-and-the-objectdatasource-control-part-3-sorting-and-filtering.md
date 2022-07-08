@@ -21,7 +21,7 @@ In the previous tutorial you implemented the repository pattern in an n-tier web
 - A list of courses for each department that's shown in the grid.
 - The ability to sort by clicking column headings.
 
-[![Image01](using-the-entity-framework-and-the-objectdatasource-control-part-3-sorting-and-filtering/_static/image2.png)](using-the-entity-framework-and-the-objectdatasource-control-part-3-sorting-and-filtering/_static/image1.png)
+[![A screenshot that shows the Departments page ready for enhancements.](using-the-entity-framework-and-the-objectdatasource-control-part-3-sorting-and-filtering/_static/image2.png)](using-the-entity-framework-and-the-objectdatasource-control-part-3-sorting-and-filtering/_static/image1.png)
 
 ## Adding the Ability to Sort GridView Columns
 
@@ -140,7 +140,7 @@ Open the *SchoolRepository.cs* file and specify eager loading for the `Courses` 
 
 Run the page. In addition to the sorting and filtering capability that you added earlier, the GridView control now shows nested course details for each department.
 
-[![Image01](using-the-entity-framework-and-the-objectdatasource-control-part-3-sorting-and-filtering/_static/image8.png)](using-the-entity-framework-and-the-objectdatasource-control-part-3-sorting-and-filtering/_static/image7.png)
+[![A screenshot that shows the GridView control displaying nested course details.](using-the-entity-framework-and-the-objectdatasource-control-part-3-sorting-and-filtering/_static/image8.png)](using-the-entity-framework-and-the-objectdatasource-control-part-3-sorting-and-filtering/_static/image7.png)
 
 This completes the introduction to sorting, filtering, and master-detail scenarios. In the next tutorial, you'll see how to handle concurrency.
 
