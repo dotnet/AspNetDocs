@@ -2,7 +2,7 @@
 uid: web-forms/overview/older-versions-getting-started/master-pages/urls-in-master-pages-vb
 title: "URLs in Master Pages (VB) | Microsoft Docs"
 author: rick-anderson
-description: "Addresses how URLs in the master page can break due to the master page file being in a different relative directory than the content page. Looks at rebasing..."
+description: "Addresses how URLs in the master page can break due to the master page file being in a different relative directory than the content page. Looks at rebasing... (VB)"
 ms.author: riande
 ms.date: 06/10/2008
 ms.assetid: 43d1e83c-0092-4dcf-977c-e709c4dce7c3

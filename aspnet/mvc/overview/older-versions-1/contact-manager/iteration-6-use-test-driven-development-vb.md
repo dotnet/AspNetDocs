@@ -2,7 +2,7 @@
 uid: mvc/overview/older-versions-1/contact-manager/iteration-6-use-test-driven-development-vb
 title: "Iteration #6 – Use test-driven development (VB) | Microsoft Docs"
 author: rick-anderson
-description: "In this sixth iteration, we add new functionality to our application by writing unit tests first and writing code against the unit tests. In this iteration,..."
+description: "In this sixth iteration, we add new functionality to our application by writing unit tests first and writing code against the unit tests. In this iteration,... (VB)"
 ms.author: riande
 ms.date: 02/20/2009
 ms.assetid: e1fd226f-3f8e-4575-a179-5c75b240333d
