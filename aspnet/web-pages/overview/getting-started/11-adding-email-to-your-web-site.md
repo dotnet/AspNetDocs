@@ -46,7 +46,7 @@ To use the `WebMail` helper, you have to have access to an SMTP server. (SMTP st
 
 In this procedure, you create two pages. The first page has a form that lets users enter a description, as if they were filling in a technical-support form. The first page submits its information to a second page. In the second page, code extracts the user's information and sends an email message. It also displays a message confirming that the problem report has been received.
 
-![[image]](11-adding-email-to-your-web-site/_static/image1.jpg)
+![[Screenshot shows a message confirming the problem report has been received.]](11-adding-email-to-your-web-site/_static/image1.jpg)
 
 > [!NOTE]
 > To keep this example simple, the code initializes the `WebMail` helper right in the page where you use it. However, for real websites, it's a better idea to put initialization code like this in a global file, so that you initialize the `WebMail` helper for all files in your website. For more information, see [Customizing Site-Wide Behavior for ASP.NET Web Pages](https://go.microsoft.com/fwlink/?LinkId=202906#Setting_Values_For_Helpers).
@@ -95,7 +95,7 @@ In this procedure, you create two pages. The first page has a form that lets use
 4. Run the *EmailRequest.cshtml* page in a browser. (Make sure the page is selected in the **Files** workspace before you run it.)
 5. Enter your name and a problem description, and then click the **Submit** button. You're redirected to the *ProcessRequest.cshtml* page, which confirms your message and which sends you an email message. 
 
-    ![[image]](11-adding-email-to-your-web-site/_static/image2.jpg)
+    ![[Screenshot shows the Process Request page.]](11-adding-email-to-your-web-site/_static/image2.jpg)
 
 <a id="Sending_a_File"></a>
 ## Sending a File Using Email

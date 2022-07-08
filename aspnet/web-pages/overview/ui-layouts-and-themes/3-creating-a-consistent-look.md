@@ -112,7 +112,7 @@ The following procedure shows how to create a layout page and link content pages
     This is a page that will use a layout page. The code block at the top of the page indicates which layout page to use to format this content.
 7. Run *Content1.cshtml* in a browser. The rendered page uses the format and style sheet defined in *\_Layout1.cshtml* and the text (content) defined in *Content1.cshtml*.
 
-    ![[image]](3-creating-a-consistent-look/_static/image4.png)
+    ![[The screenshot shows running Content 1 dot CSHTML in a browser.]](3-creating-a-consistent-look/_static/image4.png)
 
     You can repeat step 6 to create additional content pages that can then share the same layout page.
 
@@ -185,7 +185,7 @@ Here's another diagram. This one shows how ASP.NET can use the `PageData` proper
 
 The following procedure shows how to pass data from a content page to a layout page. When the page runs, it displays a button that lets the user hide or show a list that's defined in the layout page. When users click the button, it sets a true/false (Boolean) value in the `PageData` property. The layout page reads that value, and if it's false, hides the list. The value is also used in the content page to determine whether to display the **Hide List** button or the **Show List** button.
 
-![[image]](3-creating-a-consistent-look/_static/image9.jpg)
+![[Screenshot shows the Passing Data page.]](3-creating-a-consistent-look/_static/image9.jpg)
 
 1. In the root folder, create a file named *Content3.cshtml* and replace any existing content with the following:
 

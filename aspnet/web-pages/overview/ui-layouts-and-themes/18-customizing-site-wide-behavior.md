@@ -45,7 +45,7 @@ You can do this by creating a page named *\_AppStart.cshtml* in the root of the 
 
 The following diagram shows how the *\_AppStart.cshtml* page works. When a request comes in for a page, and if this is the first request for any page in the site, ASP.NET first checks whether a *\_AppStart.cshtml* page exists. If so, any code in the *\_AppStart.cshtml* page runs, and then the requested page runs.
 
-![[image]](18-customizing-site-wide-behavior/_static/image1.jpg)
+![[Image shows how App Star dot CSHTML works.]](18-customizing-site-wide-behavior/_static/image1.jpg)
 
 ## Setting Global Values for Your Website
 
@@ -66,7 +66,7 @@ The following diagram shows how the *\_AppStart.cshtml* page works. When a reque
     This code extracts the value from the `AppState` object that you set in the *\_AppStart.cshtml* page.
 5. Run the *AppName.cshtml* page in a browser. (Make sure the page is selected in the **Files** workspace before you run it.) The page displays the global value. 
 
-    ![[image]](18-customizing-site-wide-behavior/_static/image2.jpg)
+    ![[Screenshot shows the page displaying the global value.]](18-customizing-site-wide-behavior/_static/image2.jpg)
 
 <a id="Setting_Values_For_Helpers"></a>
 ## Setting Values for Helpers
@@ -109,7 +109,7 @@ For pages in particular folders, you can create code in a file named *\_PageStar
 
 Inside the *\_PageStart.cshtml* page, you can specify where during processing you want the requested page to run by including a `RunPage` method. This lets you run code before the requested page runs and then again after it. If you don't include `RunPage`, all the code in *\_PageStart.cshtml* runs, and then the requested page runs automatically.
 
-![[image]](18-customizing-site-wide-behavior/_static/image3.jpg)
+![[Image shows how the requested page will run automatically.]](18-customizing-site-wide-behavior/_static/image3.jpg)
 
 ASP.NET lets you create a hierarchy of *\_PageStart.cshtml* files. You can put a *\_PageStart.cshtml* file in the root of the site and in any subfolder. When a page is requested, the *\_PageStart.cshtml* file at the top-most level (nearest to the site root) runs, followed by the *\_PageStart.cshtml* file in the next subfolder, and so on down the subfolder structure until the request reaches the folder that contains the requested page. After all the applicable *\_PageStart.cshtml* files have run, the requested page runs.
 
@@ -145,7 +145,7 @@ A good use for *\_PageStart.cshtml* files is to initialize the same layout page 
     [!code-html[Main](18-customizing-site-wide-behavior/samples/sample12.html)]
 7. Run *Content1.cshtml* in a browser. 
 
-    ![[image]](18-customizing-site-wide-behavior/_static/image4.jpg)
+    ![[Image shows running Content 1 dot CSHTML in a browser.]](18-customizing-site-wide-behavior/_static/image4.jpg)
 
     When the *Content1.cshtml* page runs, the *\_PageStart.cshtml* file sets `Layout` and also sets `PageData["MyBackground"]` to a color. In *Content1.cshtml*, the layout and color are applied.
 8. Display *Content2.cshtml* in a browser. 
@@ -175,7 +175,7 @@ Another good use for the *\_PageStart.cshtml* file is to create a way to handle 
 5. In the toolbar, click **Save**.
 6. Run *Exception.cshtml* in a browser. 
 
-    ![[image]](18-customizing-site-wide-behavior/_static/image5.jpg)
+    ![[Screenshot shows running Exception dot CSHTML in a browser.]](18-customizing-site-wide-behavior/_static/image5.jpg)
 
     Because an error occurs in *Exception.cshtml*, the *\_PageStart.cshtml* page redirects to the *Error.cshtml* file, which displays the message.
 

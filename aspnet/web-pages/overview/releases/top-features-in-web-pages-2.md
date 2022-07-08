@@ -277,18 +277,18 @@ Now you can test Google and Yahoo logins.
 
     The web page redirects the request to the Google login page.
 
-    [![topSeven-oauth-6](top-features-in-web-pages-2/_static/image18.png)](top-features-in-web-pages-2/_static/image17.png)
+    [![Screenshot shows the web page redirecting to the Google login page.](top-features-in-web-pages-2/_static/image18.png)](top-features-in-web-pages-2/_static/image17.png)
 3. Enter credentials for an existing Google account.
 4. If Google asks you whether you want to allow Localhost to use information from the account, click **Allow**.
 
     The code uses the Google token to authenticate the user, and then returns to this page on your website. This page lets users associate their Google login with an existing account on your website, or they can register a new account on your site to associate the external login with.
 
-    [![topSeven-oauth-5](top-features-in-web-pages-2/_static/image20.png)](top-features-in-web-pages-2/_static/image19.png)
+    [![Screenshot shows the register page.](top-features-in-web-pages-2/_static/image20.png)](top-features-in-web-pages-2/_static/image19.png)
 5. Choose the **Associate** button. The browser returns to your application's home page.
 
-    [![topSeven-oauth-3](top-features-in-web-pages-2/_static/image22.png)](top-features-in-web-pages-2/_static/image21.png)
+    [![Screenshot shows the application's home page.](top-features-in-web-pages-2/_static/image22.png)](top-features-in-web-pages-2/_static/image21.png)
 
-    [![topSeven-oauth-3](top-features-in-web-pages-2/_static/image24.png)](top-features-in-web-pages-2/_static/image23.png)
+    [![Screenshot shows another version of the application's home page.](top-features-in-web-pages-2/_static/image24.png)](top-features-in-web-pages-2/_static/image23.png)
 
 **To enable Facebook logins**:
 
@@ -324,17 +324,17 @@ Now you can test the Facebook login.
 
     The web page redirects the request to the Facebook login page.
 
-    [![topSeven-oauth-2](top-features-in-web-pages-2/_static/image26.png)](top-features-in-web-pages-2/_static/image25.png)
+    [![Screenshot shows a page for registration.](top-features-in-web-pages-2/_static/image26.png)](top-features-in-web-pages-2/_static/image25.png)
 3. Log into a Facebook account. 
 
     The code uses the Facebook token to authenticate you and then returns to a page where you can associate your Facebook login with your site's login. Your user name or email address is filled into the **Email** field on the form.
 
-    [![topSeven-oauth-5](top-features-in-web-pages-2/_static/image28.png)](top-features-in-web-pages-2/_static/image27.png)
+    [![Screenshot shows the user name or email field on the registration page.](top-features-in-web-pages-2/_static/image28.png)](top-features-in-web-pages-2/_static/image27.png)
 4. Choose the **Associate** button. 
 
     The browser returns to the home page and you are logged in.
 
-    [![topSeven-oauth-3](top-features-in-web-pages-2/_static/image30.png)](top-features-in-web-pages-2/_static/image29.png)
+    [![Screenshot shows the browser returning to the home page.](top-features-in-web-pages-2/_static/image30.png)](top-features-in-web-pages-2/_static/image29.png)
 
 **To enable Twitter logins:** 
 
@@ -372,16 +372,16 @@ Now you can test the Twitter login.
 
     The web page redirects the request to a Twitter login page for the application you created.
 
-    [![topSeven-oauth-4](top-features-in-web-pages-2/_static/image32.png)](top-features-in-web-pages-2/_static/image31.png)
+    [![Screenshot shows the web page redirecting to a Twitter login page.](top-features-in-web-pages-2/_static/image32.png)](top-features-in-web-pages-2/_static/image31.png)
 3. Log into a Twitter account.
 4. The code uses the Twitter token to authenticate the user and then returns you to a page where you can associate your login with your website account. Your name or email address is filled into the **Email** field on the form.
 
-    [![topSeven-oauth-5](top-features-in-web-pages-2/_static/image34.png)](top-features-in-web-pages-2/_static/image33.png)
+    [![Screenshot shows the name or email address being filled in on the form.](top-features-in-web-pages-2/_static/image34.png)](top-features-in-web-pages-2/_static/image33.png)
 5. Choose the **Associate** button. 
 
     The browser returns to the home page and you are logged in.
 
-    [![topSeven-oauth-3](top-features-in-web-pages-2/_static/image36.png)](top-features-in-web-pages-2/_static/image35.png)
+    [![Screenshot shows the browser returning to the home page and the user being logged in.](top-features-in-web-pages-2/_static/image36.png)](top-features-in-web-pages-2/_static/image35.png)
 
 <a id="maphelper"></a>
 ### Adding Maps Using the Maps Helper
