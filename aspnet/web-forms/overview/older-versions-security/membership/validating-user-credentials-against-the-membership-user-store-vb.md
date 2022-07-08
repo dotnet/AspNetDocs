@@ -98,7 +98,7 @@ The Login control uses four factors to determine the appropriate page to redirec
 
 Figure 4 depicts the how the Login control uses these four parameters to arrive at its appropriate page decision.
 
-[![Add a Login Control to the Page](validating-user-credentials-against-the-membership-user-store-vb/_static/image11.png)](validating-user-credentials-against-the-membership-user-store-vb/_static/image10.png)
+[![The Login control uses four parameters to arrive at its appropriate page decision.](validating-user-credentials-against-the-membership-user-store-vb/_static/image11.png)](validating-user-credentials-against-the-membership-user-store-vb/_static/image10.png)
 
 **Figure 4**: Add a Login Control to the Page  ([Click to view full-size image](validating-user-credentials-against-the-membership-user-store-vb/_static/image12.png))
 

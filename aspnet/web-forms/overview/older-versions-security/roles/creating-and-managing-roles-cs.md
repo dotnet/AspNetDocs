@@ -58,7 +58,7 @@ Finally, let's update the site map (`Web.sitemap`) to include these new web page
 
 With the site map updated, visit the site through a browser. As Figure 2 shows, the navigation on the left now includes items for the Roles tutorials.
 
-[![Four New Pages Have Been Added to the Roles Folder](creating-and-managing-roles-cs/_static/image5.png)](creating-and-managing-roles-cs/_static/image4.png)
+[![The navigation on the left now includes items for the Roles tutorials.](creating-and-managing-roles-cs/_static/image5.png)](creating-and-managing-roles-cs/_static/image4.png)
 
 **Figure 2**: Four New Pages Have Been Added to the `Roles` Folder  ([Click to view full-size image](creating-and-managing-roles-cs/_static/image6.png))
 

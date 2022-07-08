@@ -185,7 +185,7 @@ Setting `DisplayUserName` to True is useful if you want to let a logged out user
 
 Visit the `ChangePassword.aspx` page through a browser and change your password. Note that an error message is displayed if you enter a new password that fails to meet the password length and non-alphanumeric character requirements specified in the Membership configuration (see Figure 7).
 
-[![Add a ChangePassword Control to the Page](recovering-and-changing-passwords-cs/_static/image20.png)](recovering-and-changing-passwords-cs/_static/image19.png)
+[![An error message is displayed if you enter a new password that fails to meet the password length and non-alphanumeric character requirements.](recovering-and-changing-passwords-cs/_static/image20.png)](recovering-and-changing-passwords-cs/_static/image19.png)
 
 **Figure 7**: Add a ChangePassword Control to the Page  ([Click to view full-size image](recovering-and-changing-passwords-cs/_static/image21.png))
 
