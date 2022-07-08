@@ -1,8 +1,8 @@
 ---
 uid: ajax/cdn/jquery-mobile/cdnjquerymobile140
 title: "jQuery Mobile 1.4.0 on the Microsoft Ajax CDN | Microsoft Docs"
+Description: This article provides a list of the files that are included in the jQuery Mobile 1.4.0 library on the Microsoft Ajax CDN.
 author: rick-anderson
-description: ""
 ms.author: riande
 ms.date: 07/23/2014
 ms.assetid: 423d024d-eda3-4c9d-b6e8-4c6d479be692
