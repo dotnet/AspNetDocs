@@ -891,7 +891,7 @@ You will now execute the load test you created in the previous task and see how 
     >
     > - Increase the duration of the load test (e.g. to **10 minutes**)
     > - Reduce the maximum and minimum values of the **Target CPU** range in the Autoscale configuration of your web app
-    > - Run the load test in the cloud with **Azure Test Plans**. More information [here](/azure/devops/test/load-test/index?view=vsts&preserve-view=true)
+    > - Run the load test in the cloud with **Azure Test Plans**. More information [here](/azure/devops/test/load-test/index)
 
 ---
 

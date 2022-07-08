@@ -12,7 +12,7 @@ msc.type: content
 
 # ASP.NET API reference
 
-* [ASP.NET API Reference](/dotnet/api/?term=system.web&view=netframework-4.8&preserve-view=true)
+* [ASP.NET API Reference](/dotnet/api/?term=system.web)
 
 * [ASP.NET MVC API Reference](/previous-versions/aspnet/mt134468(v=vs.118))
 
