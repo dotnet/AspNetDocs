@@ -2,7 +2,7 @@
 uid: web-forms/overview/data-access/working-with-binary-files/updating-and-deleting-existing-binary-data-vb
 title: "Updating and Deleting Existing Binary Data (VB) | Microsoft Docs"
 author: rick-anderson
-description: "In earlier tutorials we saw how the GridView control makes it simple to edit and delete text data. In this tutorial we see how the GridView control also make..."
+description: "In earlier tutorials we saw how the GridView control makes it simple to edit and delete text data. In this tutorial we see how the GridView control also make... (VB)"
 ms.author: riande
 ms.date: 03/27/2007
 ms.assetid: 3a052ced-9cf5-47b8-a400-934f0b687c26

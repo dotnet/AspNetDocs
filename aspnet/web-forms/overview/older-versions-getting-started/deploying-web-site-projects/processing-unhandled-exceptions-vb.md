@@ -2,7 +2,7 @@
 uid: web-forms/overview/older-versions-getting-started/deploying-web-site-projects/processing-unhandled-exceptions-vb
 title: "Processing Unhandled Exceptions (VB) | Microsoft Docs"
 author: rick-anderson
-description: "When a runtime error occurs on a web application in production it is important to notify a developer and to log the error so that it may be diagnosed at a la..."
+description: "When a runtime error occurs on a web application in production it is important to notify a developer and to log the error so that it may be diagnosed at a la... (VB)"
 ms.author: riande
 ms.date: 05/03/2022
 ms.custom: devdivchpfy22
