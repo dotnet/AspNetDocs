@@ -175,7 +175,7 @@ Another good use for the *\_PageStart.cshtml* file is to create a way to handle 
 5. In the toolbar, click **Save**.
 6. Run *Exception.cshtml* in a browser. 
 
-    ![[Screenshot shows running Exception do CSHTML in a browser.]](18-customizing-site-wide-behavior/_static/image5.jpg)
+    ![[Screenshot shows running Exception dot CSHTML in a browser.]](18-customizing-site-wide-behavior/_static/image5.jpg)
 
     Because an error occurs in *Exception.cshtml*, the *\_PageStart.cshtml* page redirects to the *Error.cshtml* file, which displays the message.
 
