@@ -144,7 +144,7 @@ Happy Programming!
 For more information on the topics discussed in this tutorial, refer to the following resources:
 
 - [ASP.NET HTTP Modules and HTTP Handlers Overview](https://support.microsoft.com/kb/307985)
-- [Gracefully Responding to Unhandled Exceptions - Processing Unhandled Exceptions](https://docs.microsoft.com/en-us/aspnet/web-forms/overview/older-versions-getting-started/deploying-web-site-projects/processing-unhandled-exceptions-cs)
+- [Gracefully Responding to Unhandled Exceptions - Processing Unhandled Exceptions](/aspnet/web-forms/overview/older-versions-getting-started/deploying-web-site-projects/processing-unhandled-exceptions-cs)
 - [`HttpApplication` Class and the ASP.NET Application Object](http://www.eggheadcafe.com/articles/20030211.asp)
 - [HTTP Handlers and HTTP Modules in ASP.NET](/previous-versions/aspnet/bb398986(v=vs.100))
 - [Sending Email in ASP.NET](/aspnet/web-pages/overview/getting-started/11-adding-email-to-your-web-site)

@@ -2,7 +2,7 @@
 uid: web-api/overview/releases/whats-new-in-aspnet-web-api-21
 title: "What's New in ASP.NET Web API 2.1 | Microsoft Docs"
 author: rick-anderson
-description: ""
+description: This topic describes the new features and bug fixes introduced in ASP.NET Web API 2.1 and provides links to downloads and documentation.
 ms.author: riande
 ms.date: 01/20/2014
 ms.assetid: b6721bba-38c8-48c4-acbf-274c1a34e817

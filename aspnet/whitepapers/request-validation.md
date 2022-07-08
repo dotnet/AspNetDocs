@@ -39,7 +39,7 @@ Running this code results in a simple page that allows you to enter some text in
 
 However, were JavaScript, such as `<script>alert("hello!")</script>` to be entered and submitted we would get an exception:
 
-![If JavaScript, such as <script>alert("hello!")</script>, were entered and submitted, one would get an exception.](request-validation/_static/image3.png)
+![If JavaScript is entered and submitted, one would get an exception.](request-validation/_static/image3.png)
 
 The error message states that a 'potentially dangerous Request.Form value was detected' and provides more details in the description as to exactly what occurred and how to change the behavior. For example:
 
@@ -71,7 +71,7 @@ The code below is modified to turn off request validation:
 
 Now if the following JavaScript was entered into the textbox `<script>alert("hello!")</script>` the result would be:
 
-![Screenshot that shows if the following JavaScript was entered into the textbox: <script>alert("hello!")</script> the result would be a button "Click Me!" and a dialog box that states "hello!" and a button to click "ok."](request-validation/_static/image5.png)
+![Screenshot that shows if the JavaScript was entered into the textbox: the result would be a button "Click Me!" and a dialog box that states "hello!".](request-validation/_static/image5.png)
 
 To prevent this from happening, with request validation turned off, we need to HTML encode the content.
 
@@ -85,4 +85,4 @@ Content can be easily HTML-encoded on the server using the `Server.HtmlEncode(st
 
 Resulting in:
 
-![Screenshot that shows a button "Click Me!" and "You entered: <script>alert("hello!");</script>" in the text box.](request-validation/_static/image7.png)
+![Screenshot that shows a button "Click Me!" and a successful JavaScript entry message in the text box.](request-validation/_static/image7.png)
