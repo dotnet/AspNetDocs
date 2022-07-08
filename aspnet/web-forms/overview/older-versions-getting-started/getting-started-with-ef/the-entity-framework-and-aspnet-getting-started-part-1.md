@@ -42,7 +42,7 @@ by [Tom Dykstra](https://github.com/tdykstra)
 
 The application you'll be building in these tutorials is a simple university website.
 
-[![Image03](the-entity-framework-and-aspnet-getting-started-part-1/_static/image2.png)](the-entity-framework-and-aspnet-getting-started-part-1/_static/image1.png)
+[![Screenshot of the Contoso University home page, which is showing links to the Home, About, Students, Courses, Instructors, and Departments pages.](the-entity-framework-and-aspnet-getting-started-part-1/_static/image2.png)](the-entity-framework-and-aspnet-getting-started-part-1/_static/image1.png)
 
 Users can view and update student, course, and instructor information. A few of the screens you'll create are shown below.
 
@@ -78,7 +78,7 @@ Open the *Default.aspx* page and change the `Content` control named `BodyContent
 
 You now have a simple home page with links to the various pages that you'll be creating:
 
-[![Image03](the-entity-framework-and-aspnet-getting-started-part-1/_static/image16.png)](the-entity-framework-and-aspnet-getting-started-part-1/_static/image15.png)
+[![Screenshot of the Contoso University home page, which shows links to the Home, About, Students, Courses, Instructors, and Departments pages.](the-entity-framework-and-aspnet-getting-started-part-1/_static/image16.png)](the-entity-framework-and-aspnet-getting-started-part-1/_static/image15.png)
 
 ## Creating the Database
 

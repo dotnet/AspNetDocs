@@ -19,11 +19,11 @@ by [Tom Dykstra](https://github.com/tdykstra)
 
 In the previous tutorial you created a web site, a database, and a data model. In this tutorial you work with the `EntityDataSource` control that ASP.NET provides in order to make it easy to work with an Entity Framework data model. You'll create a `GridView` control for displaying and editing student data, a `DetailsView` control for adding new students, and a `DropDownList` control for selecting a department (which you'll use later for displaying associated courses).
 
-[![Image20](the-entity-framework-and-aspnet-getting-started-part-2/_static/image2.png)](the-entity-framework-and-aspnet-getting-started-part-2/_static/image1.png)
+[![Screenshot of the Internet Explorer window, which is showing the Student List view with a list of students' names, enrollment dates, and courses.](the-entity-framework-and-aspnet-getting-started-part-2/_static/image2.png)](the-entity-framework-and-aspnet-getting-started-part-2/_static/image1.png)
 
-[![Image09](the-entity-framework-and-aspnet-getting-started-part-2/_static/image4.png)](the-entity-framework-and-aspnet-getting-started-part-2/_static/image3.png)
+[![Screenshot of the Internet Explorer window, showing the Add New Students view with John Smith's name and enrollment date filled into the text fields.](the-entity-framework-and-aspnet-getting-started-part-2/_static/image4.png)](the-entity-framework-and-aspnet-getting-started-part-2/_static/image3.png)
 
-[![Image18](the-entity-framework-and-aspnet-getting-started-part-2/_static/image6.png)](the-entity-framework-and-aspnet-getting-started-part-2/_static/image5.png)
+[![Screenshot of the Internet Explorer window, which is showing the Courses by Department view with a dropdown menu for departments.](the-entity-framework-and-aspnet-getting-started-part-2/_static/image6.png)](the-entity-framework-and-aspnet-getting-started-part-2/_static/image5.png)
 
 Note that in this application you won't be adding input validation to pages that update the database, and some of the error handling will not be as robust as would be required in a production application. That keeps the tutorial focused on the Entity Framework and keeps it from getting too long. For details about how to add these features to your application, see [Validating User Input in ASP.NET Web Pages](https://msdn.microsoft.com/library/7kh55542.aspx) and [Error Handling in ASP.NET Pages and Applications](https://msdn.microsoft.com/library/w16865z6.aspx).
 
@@ -187,7 +187,7 @@ In the `Eval` expression, you can reference the navigation property `StudentGrad
 
 Run the page and you now see how many courses each student is enrolled in.
 
-[![Image20](the-entity-framework-and-aspnet-getting-started-part-2/_static/image42.png)](the-entity-framework-and-aspnet-getting-started-part-2/_static/image41.png)
+[![Screenshot of the Internet Explorer window, showing the Add New Students view with John Smith's name and enrollment date filled into the text fields.](the-entity-framework-and-aspnet-getting-started-part-2/_static/image42.png)](the-entity-framework-and-aspnet-getting-started-part-2/_static/image41.png)
 
 ## Using a DetailsView Control to Insert Entities
 
@@ -201,7 +201,7 @@ This markup creates an `EntityDataSource` control that is similar to the one you
 
 Run the page and add a new student.
 
-[![Image09](the-entity-framework-and-aspnet-getting-started-part-2/_static/image44.png)](the-entity-framework-and-aspnet-getting-started-part-2/_static/image43.png)
+[![Screenshot of the Internet Explorer window, showing the Add New Students view with John Smith's name and enrollment date filled into the text fields.](the-entity-framework-and-aspnet-getting-started-part-2/_static/image44.png)](the-entity-framework-and-aspnet-getting-started-part-2/_static/image43.png)
 
 Nothing will happen after you insert a new student, but if you now run *Students.aspx*, you'll see the new student information.
 
@@ -235,7 +235,7 @@ As a reminder, change the markup for the `EntityDataSource` control at this poin
 
 Run the page and you can select a department from the drop-down list.
 
-[![Image18](the-entity-framework-and-aspnet-getting-started-part-2/_static/image52.png)](the-entity-framework-and-aspnet-getting-started-part-2/_static/image51.png)
+[![Screenshot of the Internet Explorer browser window, which shows the Courses by Department view with a dropdown menu for departments.](the-entity-framework-and-aspnet-getting-started-part-2/_static/image52.png)](the-entity-framework-and-aspnet-getting-started-part-2/_static/image51.png)
 
 This completes the introduction to using the `EntityDataSource` control. Working with this control is generally no different from working with other ASP.NET data source controls, except that you reference entities and properties instead of tables and columns. The only exception is when you want to access navigation properties. In the next tutorial you'll see that the syntax you use with `EntityDataSource` control might also differ from other data source controls when you filter, group, and order data.
 

@@ -59,7 +59,7 @@ Figure 1 shows FileZilla after the necessary files have been copied. FileZilla d
 > [!NOTE]
 > There is no harm in having the source code files on the production server, as they are ignored. ASP.NET forbids HTTP requests to source code files by default so that even if the source code files are present on the production server they are inaccessible to visitors to your website. (That is, if a user tries to visit `http://www.yoursite.com/Default.aspx.cs` they will get an error page that explains that these types of files - `.cs` files - are forbidden.)
 
-[![Use an FTP Client to Copy the Necessary Files from Your Desktop to the Web Server at the Web Host Provider](deploying-your-site-using-an-ftp-client-cs/_static/image2.png)](deploying-your-site-using-an-ftp-client-cs/_static/image1.png)
+[![Screenshot of the FileZilla FTP client, which shows that some ASP dot Net source code files were not copied to the remote server.](deploying-your-site-using-an-ftp-client-cs/_static/image2.png)](deploying-your-site-using-an-ftp-client-cs/_static/image1.png)
 
 **Figure 1**: Use an FTP Client to Copy the Necessary Files from Your Desktop to the Web Server at the Web Host Provider ([Click to view full-size image](deploying-your-site-using-an-ftp-client-cs/_static/image3.png))
 
@@ -109,7 +109,7 @@ Once you've successfully built the project, use your FTP client to copy the foll
 
 Figure 3 shows FileZilla after copying up the necessary files. As you can see, the ASP.NET source code files, such as `About.aspx.cs`, are present on both the local computer (the development environment) and the web host provider (the production environment) because code files need to be deployed when using automatic compilation.
 
-[![Use an FTP Client to Copy the Necessary Files from Your Desktop to the Web Server at the Web Host Provider](deploying-your-site-using-an-ftp-client-cs/_static/image8.png)](deploying-your-site-using-an-ftp-client-cs/_static/image7.png)
+[![Screenshot of the FileZilla FTP client window, which shows the ASP dot Net source code files have been successfully uploaded to the server.](deploying-your-site-using-an-ftp-client-cs/_static/image8.png)](deploying-your-site-using-an-ftp-client-cs/_static/image7.png)
 
 **Figure 3**: Use an FTP Client to Copy the Necessary Files from Your Desktop to the Web Server at the Web Host Provider ([Click to view full-size image](deploying-your-site-using-an-ftp-client-cs/_static/image9.png))
 

@@ -21,11 +21,11 @@ In the previous tutorial you began to use the `EntityDataSource` control to work
 
 You'll create a page that adds courses that are assigned to departments. The departments already exist, and when you create a new course, at the same time you'll establish a relationship between it and an existing department.
 
-[![Image02](the-entity-framework-and-aspnet-getting-started-part-5/_static/image2.png)](the-entity-framework-and-aspnet-getting-started-part-5/_static/image1.png)
+[![Screenshot of the Internet Explorer window, which is showing the Add Courses view with ID, Title, and Credits text fields and a Department dropdown.](the-entity-framework-and-aspnet-getting-started-part-5/_static/image2.png)](the-entity-framework-and-aspnet-getting-started-part-5/_static/image1.png)
 
 You'll also create a page that works with a many-to-many relationship by assigning an instructor to a course (adding a relationship between two entities that you select) or removing an instructor from a course (removing a relationship between two entities that you select). In the database, adding a relationship between an instructor and a course results in a new row being added to the `CourseInstructor` association table; removing a relationship involves deleting a row from the `CourseInstructor` association table. However, you do this in the Entity Framework by setting navigation properties, without referring to the `CourseInstructor` table explicitly.
 
-[![Image01](the-entity-framework-and-aspnet-getting-started-part-5/_static/image4.png)](the-entity-framework-and-aspnet-getting-started-part-5/_static/image3.png)
+[![Screenshot of the Internet Explorer window, which is showing the Assign Instructors to Courses or Remove from Courses view.](the-entity-framework-and-aspnet-getting-started-part-5/_static/image4.png)](the-entity-framework-and-aspnet-getting-started-part-5/_static/image3.png)
 
 ## Adding an Entity with a Relationship to an Existing Entity
 
@@ -57,7 +57,7 @@ The Entity Framework will take care of adding this course to the `Courses` navig
 
 Run the page.
 
-[![Image02](the-entity-framework-and-aspnet-getting-started-part-5/_static/image6.png)](the-entity-framework-and-aspnet-getting-started-part-5/_static/image5.png)
+[![Screenshot of the Internet Explorer window, which shows the Add Courses view with ID, Title, and Credits text fields and a Department dropdown.](the-entity-framework-and-aspnet-getting-started-part-5/_static/image6.png)](the-entity-framework-and-aspnet-getting-started-part-5/_static/image5.png)
 
 Enter an ID, a title, a number of credits, and select a department, then click **Insert**.
 
@@ -111,7 +111,7 @@ Add code to the `Page_Load` method that makes sure the error messages are not vi
 
 Run the page.
 
-[![Image01](the-entity-framework-and-aspnet-getting-started-part-5/_static/image10.png)](the-entity-framework-and-aspnet-getting-started-part-5/_static/image9.png)
+[![Screenshot of the Internet Explorer window, which shows the Assign Instructors to Courses or Remove from Courses view with corresponding dropdowns.](the-entity-framework-and-aspnet-getting-started-part-5/_static/image10.png)](the-entity-framework-and-aspnet-getting-started-part-5/_static/image9.png)
 
 Select an instructor. The <strong>Assign a Course</strong> drop-down list displays the courses that the instructor doesn't teach, and the <strong>Remove a Course</strong> drop-down list displays the courses that the instructor is already assigned to. In the <strong>Assign a Course</strong> section, select a course and then click <strong>Assign</strong>. The course moves to the <strong>Remove a Course</strong> drop-down list. Select a course in the <strong>Remove a Course</strong> section and click <strong>Remove</strong><em>.</em> The course moves to the <strong>Assign a Course</strong> drop-down list.
 
