@@ -2,7 +2,7 @@
 uid: mvc/overview/older-versions-1/models-data/performing-simple-validation-cs
 title: "Performing Simple Validation (C#) | Microsoft Docs"
 author: StephenWalther
-description: "Learn how to perform validation in an ASP.NET MVC application. In this tutorial, Stephen Walther introduces you to model state and the validation HTML helper..."
+description: "Learn how to perform validation in an ASP.NET MVC application. In this tutorial, Stephen Walther introduces you to model state and the validation HTML helper... (C#)"
 ms.author: riande
 ms.date: 03/02/2009
 ms.assetid: 21383c9d-6aea-4bad-a99b-b5f2c9d6503f

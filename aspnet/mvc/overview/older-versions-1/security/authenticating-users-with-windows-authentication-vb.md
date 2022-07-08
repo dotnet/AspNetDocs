@@ -2,7 +2,7 @@
 uid: mvc/overview/older-versions-1/security/authenticating-users-with-windows-authentication-vb
 title: "Authenticating Users with Windows Authentication (VB) | Microsoft Docs"
 author: rick-anderson
-description: "Learn how to use Windows authentication in the context of an MVC application. You learn how to enable Windows authentication within your application's web co..."
+description: "Learn how to use Windows authentication in the context of an MVC application. You learn how to enable Windows authentication within your application's web co... (VB)"
 ms.author: riande
 ms.date: 01/27/2009
 ms.assetid: 532fa051-7d5c-4d6d-87f6-339ce4b84c44

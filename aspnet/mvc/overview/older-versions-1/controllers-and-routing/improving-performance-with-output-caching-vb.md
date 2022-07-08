@@ -2,7 +2,7 @@
 uid: mvc/overview/older-versions-1/controllers-and-routing/improving-performance-with-output-caching-vb
 title: "Improving Performance with Output Caching (VB) | Microsoft Docs"
 author: rick-anderson
-description: "In this tutorial, you learn how you can dramatically improve the performance of your ASP.NET MVC web applications by taking advantage of output caching. You..."
+description: "In this tutorial, you learn how you can dramatically improve the performance of your ASP.NET MVC web applications by taking advantage of output caching. You... (VB)"
 ms.author: riande
 ms.date: 01/27/2009
 ms.assetid: 0e7b4d85-2c46-4eaf-b6a8-6cd566a67334
