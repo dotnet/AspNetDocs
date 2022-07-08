@@ -46,11 +46,11 @@ In this tutorial you will create, review, and run the default project in Visual 
 
 7. Select the **Web Forms** template and click the **OK** button.
 
-    ![Create the Project - New Project Template](create-the-project/_static/image3.png)
+    ![This is a screenshot of the New ASP.NET Project page with the Web Forms template and OK button selected.](create-the-project/_static/image3.png)
 
 The project will take a little time to create. When it's ready, open the **Default.aspx** page.
 
-![Create the Project - New Project Template](create-the-project/_static/image4.png)
+![This is a screenshot of the Microsoft Visual Studio Express 2013 for Web application displaying the Default.aspx page.](create-the-project/_static/image4.png)
 
 You can switch between **Design** view and **Source** view by selecting an option at the bottom of the center window. **Design** view displays ASP.NET Web pages, master pages, content pages, HTML pages, and user controls using a near-WYSIWYG view. **Source** view displays the HTML markup for your Web page, which you can edit.
 
@@ -149,7 +149,7 @@ When a Web server receives a request for a page, it finds the page, processes it
 > 
 > The ASP.NET Web Forms Application template includes a set of [NuGet](http://www.nuget.org/) packages. These packages provide componentized functionality in the form of open source libraries and tools. There is a wide variety of packages to help you create and test your applications. Visual Studio makes it easy to add, remove, and update NuGet packages. Developers can create and add packages to NuGet as well.
 > 
-> ![Create the Project - NuGet Dialog Box](create-the-project/_static/image8.png)
+> ![This is a screenshot of the Manage NuGet Packages page with jQuery highlighted.](create-the-project/_static/image8.png)
 > 
 > When you install a package, NuGet copies files to your solution and automatically makes whatever changes are needed, such as adding references and changing the configuration associated with your Web application. If you decide to remove the library, NuGet removes files and reverses whatever changes it made in your project so that no clutter is left. NuGet is available from the **Tools** menu in Visual Studio.
 > 
@@ -171,7 +171,7 @@ When a Web server receives a request for a page, it finds the page, processes it
 
 The primary windows in Visual Studio include the **Solution Explorer**, the **Server Explorer** (**Database Explorer** in Express), the **Properties Window**, the **Toolbox**, the **Toolbar**, and the **Document Window**.
 
-![Create the Project - NuGet Dialog Box](create-the-project/_static/image9.png)
+![This is a diagram showing the primary windows in Visual Studio.](create-the-project/_static/image9.png)
 
 For more information about Visual Studio, see [Visual Guide to Visual Web Developer](https://msdn.microsoft.com/library/ee410104.aspx).
 

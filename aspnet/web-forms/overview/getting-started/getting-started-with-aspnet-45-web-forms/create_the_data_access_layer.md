@@ -54,12 +54,12 @@ In this tutorial, you'll start out by adding simple entity classes representing 
 
 1. In **Solution Explorer**, right-click the *Models* folder and then select **Add** -&gt; **New Item**. 
 
-    ![Create the Data Access Layer - New Item Menu](create_the_data_access_layer/_static/image1.png)
+    ![Screenshot of the Solution Explorer page with the Models folder highlighted and the dropdown menus Add and New Item selected.](create_the_data_access_layer/_static/image1.png)
 
    The **Add New Item** dialog box is displayed.
 2. Under **Visual C#** from the **Installed** pane on the left, select **Code**. 
 
-    ![Create the Data Access Layer - New Item Menu](create_the_data_access_layer/_static/image2.png)
+    ![Screenshot of the Add New Item page showing the Installed pane on the left with Visual C# open and Code selected.](create_the_data_access_layer/_static/image2.png)
 3. Select **Class** from the middle pane and name this new class *Product.cs*.
 4. Click **Add**.  
    The new class file is displayed in the editor.
