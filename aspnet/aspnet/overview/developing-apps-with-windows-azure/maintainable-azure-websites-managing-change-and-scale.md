@@ -853,7 +853,7 @@ Now that **Autoscale** has been configured, you will create a **Web Performance 
 20. In **Solution Explorer**, double-click the **Local.settings** file to explore the test settings. By default, Visual Studio uses your local computer to run the tests.
 
     > [!NOTE]
-    > Alternatively, you can configure your test project to run the load tests in the cloud using **Azure Test Plans**. Azure Test Plans provides a cloud-based load testing service that simulates a more realistic load, avoiding local environment constraints like CPU capacity, available memory, and network bandwidth. For more information about using Azure Test Plans to run load tests, see [Load testing scenarios](/azure/devops/test/load-test/overview?view=vsts).
+    > Alternatively, you can configure your test project to run the load tests in the cloud using **Azure Test Plans**. Azure Test Plans provides a cloud-based load testing service that simulates a more realistic load, avoiding local environment constraints like CPU capacity, available memory, and network bandwidth. For more information about using Azure Test Plans to run load tests, see [Load testing scenarios](/azure/devops/test/load-test/overview?view=vsts&preserve-view=true).
 
     ![Test settings](maintainable-azure-websites-managing-change-and-scale/_static/image98.png)
 
@@ -891,7 +891,7 @@ You will now execute the load test you created in the previous task and see how 
     >
     > - Increase the duration of the load test (e.g. to **10 minutes**)
     > - Reduce the maximum and minimum values of the **Target CPU** range in the Autoscale configuration of your web app
-    > - Run the load test in the cloud with **Azure Test Plans**. More information [here](/azure/devops/test/load-test/index?view=vsts)
+    > - Run the load test in the cloud with **Azure Test Plans**. More information [here](/azure/devops/test/load-test/index?view=vsts&preserve-view=true)
 
 ---
 

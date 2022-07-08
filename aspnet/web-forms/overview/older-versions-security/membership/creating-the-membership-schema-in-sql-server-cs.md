@@ -317,7 +317,7 @@ For more information on the topics discussed in this tutorial, refer to the foll
 - [The `<membership>` Element](https://msdn.microsoft.com/library/1b9hw62f.aspx)
 - [The `<providers>` Element for Membership](https://msdn.microsoft.com/library/6d4936ht.aspx)
 - [Using `<clear />` When Adding Providers](https://weblogs.asp.net/scottgu/archive/2006/11/20/common-gotcha-don-t-forget-to-clear-when-adding-providers.aspx)
-- [Working Directly with the `SqlMembershipProvider`](/dotnet/api/system.web.security.sqlmembershipprovider?view=netframework-4.8)
+- [Working Directly with the `SqlMembershipProvider`](/dotnet/api/system.web.security.sqlmembershipprovider?view=netframework-4.8&preserve-view=true)
 
 ### Video Training on Topics Contained in this Tutorial
 

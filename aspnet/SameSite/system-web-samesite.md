@@ -72,7 +72,7 @@ To target .NET 4.7.2 or later:
     <httpRuntime targetFramework="4.7.2"/>
   </system.web>
 
-* Verify the project file contains the correct [TargetFrameworkVersion](/visualstudio/msbuild/msbuild-target-framework-and-target-platform?view=vs-2019):
+* Verify the project file contains the correct [TargetFrameworkVersion](/visualstudio/msbuild/msbuild-target-framework-and-target-platform?view=vs-2019&preserve-view=true):
 
   ```xml
   <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>

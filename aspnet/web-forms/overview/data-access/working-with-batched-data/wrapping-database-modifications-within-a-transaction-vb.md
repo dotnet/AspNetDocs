@@ -208,7 +208,7 @@ For more information on the topics discussed in this tutorial, refer to the foll
 - [Managing Transactions in SQL Server Stored Procedures](http://www.4guysfromrolla.com/webtech/080305-1.shtml)
 - [Transactions Made Easy: `System.Transactions`](/archive/blogs/florinlazar/transactions-made-easy-system-transactions)
 - [TransactionScope and DataAdapters](http://andyclymer.blogspot.com/2007/01/transactionscope-and-dataadapters.html)
-- [Using Oracle Database Transactions in .NET](/dotnet/api/system.data.oracleclient.oracletransaction?view=netframework-4.8)
+- [Using Oracle Database Transactions in .NET](/dotnet/api/system.data.oracleclient.oracletransaction?view=netframework-4.8&preserve-view=true)
 
 ## About the Author
 

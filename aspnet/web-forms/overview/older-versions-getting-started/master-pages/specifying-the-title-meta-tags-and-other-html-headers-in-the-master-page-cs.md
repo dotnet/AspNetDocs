@@ -156,7 +156,7 @@ The site map structure can also be accessed programmatically from an ASP.NET pag
 
 ### Creating the Site Map
 
-The site map system is built atop the [provider model](/dotnet/api/system.configuration.provider.providerbase?view=dotnet-plat-ext-6.0), which decouples the site map API from the logic that serializes site map information between memory and a persistent store. The .NET Framework ships with the [`XmlSiteMapProvider` class](https://msdn.microsoft.com/library/system.web.xmlsitemapprovider.aspx), which is the default site map provider. As its name implies, `XmlSiteMapProvider` uses an XML file as its site map store. Let's use this provider for defining our site map.
+The site map system is built atop the [provider model](/dotnet/api/system.configuration.provider.providerbase?view=dotnet-plat-ext-6.0&preserve-view=true), which decouples the site map API from the logic that serializes site map information between memory and a persistent store. The .NET Framework ships with the [`XmlSiteMapProvider` class](https://msdn.microsoft.com/library/system.web.xmlsitemapprovider.aspx), which is the default site map provider. As its name implies, `XmlSiteMapProvider` uses an XML file as its site map store. Let's use this provider for defining our site map.
 
 Start by creating a site map file in the website's root folder named `Web.sitemap`. To accomplish this, right-click on the website name in Solution Explorer, choose Add New Item, and select the Site Map template. Ensure that the file is named `Web.sitemap` and click Add.
 
