@@ -114,7 +114,7 @@ Run the application now to view all products or a category's products.
 3. Select **Products** from the navigation menu at the top.  
    Again, the *ProductList.aspx* page is displayed, however this time it shows the entire list of products.   
 
-    ![Display Data Items and Details - Products](display_data_items_and_details/_static/image3.png)
+    ![Screenshot of the ProductList.aspx page showing the entire list of products.](display_data_items_and_details/_static/image3.png)
 
 4. Close the browser and return to Visual Studio.
 
@@ -154,7 +154,7 @@ Now you can run the application to see an individual product displayed based on 
 3. Select **Paper Boat** from the product list.
    The *ProductDetails.aspx* page is displayed.
 
-    ![Display Data Items and Details - Products](display_data_items_and_details/_static/image4.png)
+    ![Screenshot of the Paper Boat Product Details page.](display_data_items_and_details/_static/image4.png)
     
 4. Close the browser.
 
