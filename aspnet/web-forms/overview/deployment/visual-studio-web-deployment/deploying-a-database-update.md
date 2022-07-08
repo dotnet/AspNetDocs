@@ -63,7 +63,7 @@ In this section, you add a birth date column to the `Person` base class for the 
 
     When the page loads, you see that it has the new birth date field.
 
-    ![Screenshot of the Instructors page showing their Name, Hire Date, Birth Date, and Office Assignment.](deploying-a-database-update/_static/image2.png)
+    ![This is a screenshot of the Instructors page showing their Name, Hire Date, Birth Date, and Office Assignment.](deploying-a-database-update/_static/image2.png)
 3. Close the browser.
 
 ### Deploy the database update
@@ -114,7 +114,7 @@ In this section, you add a *Comments* column to the *User* table in the membersh
 4. Right-click the *UserInfo.aspx* page and click **View in Browser**.
 5. Log in with your *admin* user credentials (password is *devpwd*) and add some comments to a user to verify that the page works correctly.
 
-    ![Screenshot showing the UserInfo page displaying the UserName test and the Comment Tom's test account.](deploying-a-database-update/_static/image6.png)
+    ![This is a screenshot showing the UserInfo page displaying the UserName test and the Comment Tom's test account.](deploying-a-database-update/_static/image6.png)
 6. Close the browser.
 
 ## Deploy the database update
@@ -154,9 +154,9 @@ To deploy by using the dbDacFx provider, you just need to select the **Update da
 
 You've now deployed an application update that included a database change using both Code First Migrations and the dbDacFx provider.
 
-![Screenshot showing the Instructors page displaying their Name, Hire Date, Birth Date, and Office Assignment.](deploying-a-database-update/_static/image8.png)
+![This is a screenshot showing the Instructors page displaying their Name, Hire Date, Birth Date, and Office Assignment.](deploying-a-database-update/_static/image8.png)
 
-![Screenshot of the UserInfo page showing the UserName test and the Comment Tom's test account.](deploying-a-database-update/_static/image9.png)
+![This is a screenshot of the UserInfo page showing the UserName test and the Comment Tom's test account.](deploying-a-database-update/_static/image9.png)
 
 The next tutorial shows you how to execute deployments by using the command line.
 

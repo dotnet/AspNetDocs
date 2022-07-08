@@ -57,7 +57,7 @@ Open a browser and go to `http://localhost/ContosoUniversity`, then click the **
 
 If you haven't created any students in test, you'll see an empty page under the **Student Body Statistics** heading. Go to the **Students** page, click **Add Student**, and add some students, and then return to the **About** page to see student statistics.
 
-![Screenshot showing the Student Body Statistics on the About page.](command-line-deployment/_static/image4.png)
+![This is a screenshot showing the Student Body Statistics on the About page.](command-line-deployment/_static/image4.png)
 
 ## Key command line options
 
@@ -130,7 +130,7 @@ The process for deploying to production is similar to the process for staging.
 
 You have now deployed an application update by using the command line.
 
-![Screenshot showing the About page displaying the Student Body Statistics.](command-line-deployment/_static/image6.png)
+![This is a screenshot showing the About page displaying the Student Body Statistics.](command-line-deployment/_static/image6.png)
 
 In the next tutorial, you will see an example of how to extend the web publish pipeline. The example will show you how to deploy files that are not included in the project.
 
