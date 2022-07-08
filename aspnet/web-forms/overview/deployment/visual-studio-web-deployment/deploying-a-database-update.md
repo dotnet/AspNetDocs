@@ -114,7 +114,7 @@ In this section, you add a *Comments* column to the *User* table in the membersh
 4. Right-click the *UserInfo.aspx* page and click **View in Browser**.
 5. Log in with your *admin* user credentials (password is *devpwd*) and add some comments to a user to verify that the page works correctly.
 
-    ![This is a screenshot showing the UserInfo page displaying the UserName test and the Comment Tom's test account .](deploying-a-database-update/_static/image6.png)
+    ![This is a screenshot showing the UserInfo page displaying the UserName test and the Comment Tom's test account.](deploying-a-database-update/_static/image6.png)
 6. Close the browser.
 
 ## Deploy the database update

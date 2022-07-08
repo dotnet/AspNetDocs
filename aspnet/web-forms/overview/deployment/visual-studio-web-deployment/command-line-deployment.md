@@ -57,7 +57,7 @@ Open a browser and go to `http://localhost/ContosoUniversity`, then click the **
 
 If you haven't created any students in test, you'll see an empty page under the **Student Body Statistics** heading. Go to the **Students** page, click **Add Student**, and add some students, and then return to the **About** page to see student statistics.
 
-![This is a screenshot showing the Student Body Statistics on the About page .](command-line-deployment/_static/image4.png)
+![This is a screenshot showing the Student Body Statistics on the About page.](command-line-deployment/_static/image4.png)
 
 ## Key command line options
 
