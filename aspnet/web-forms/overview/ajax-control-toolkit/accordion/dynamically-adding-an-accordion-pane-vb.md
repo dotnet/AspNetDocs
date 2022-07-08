@@ -2,7 +2,7 @@
 uid: web-forms/overview/ajax-control-toolkit/accordion/dynamically-adding-an-accordion-pane-vb
 title: "Dynamically Adding An Accordion Pane (VB) | Microsoft Docs"
 author: wenz
-description: "The Accordion control in the AJAX Control Toolkit provides multiple panes and allows the user to display one of them at a time. Panels are usually declared w..."
+description: "The Accordion control in the AJAX Control Toolkit provides multiple panes and allows the user to display one of them at a time. Panels are usually declared w... (VB)"
 ms.author: riande
 ms.date: 06/02/2008
 ms.assetid: fae968c9-1902-487d-b053-86a46dd52c3f

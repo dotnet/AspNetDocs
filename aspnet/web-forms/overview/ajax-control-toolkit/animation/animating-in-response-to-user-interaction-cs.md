@@ -2,7 +2,7 @@
 uid: web-forms/overview/ajax-control-toolkit/animation/animating-in-response-to-user-interaction-cs
 title: "Animating in Response To User Interaction (C#) | Microsoft Docs"
 author: wenz
-description: "The Animation control in the ASP.NET AJAX Control Toolkit is not just a control but a whole framework to add animations to a control. The animations can star..."
+description: "The Animation control in the ASP.NET AJAX Control Toolkit is not just a control but a whole framework to add animations to a control. The animations can star... (C#)"
 ms.author: riande
 ms.date: 06/02/2008
 ms.assetid: ea26549d-fbbf-4973-a108-b14cd1d6de26

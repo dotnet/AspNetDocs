@@ -2,7 +2,7 @@
 uid: web-forms/overview/ajax-control-toolkit/hovermenu/using-hovermenu-with-a-repeater-control-cs
 title: "Using HoverMenu with a Repeater Control (C#) | Microsoft Docs"
 author: wenz
-description: "The HoverMenu control in the AJAX Control Toolkit provides a simple popup effect: When the mouse pointer hovers over an element, a popup appears at a specifi..."
+description: "The HoverMenu control in the AJAX Control Toolkit provides a simple popup effect: When the mouse pointer hovers over an element, a popup appears at a specifi... (C#)"
 ms.author: riande
 ms.date: 06/02/2008
 ms.assetid: e7700e7b-edc3-4183-a713-70e507cc7490
