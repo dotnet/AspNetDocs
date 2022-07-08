@@ -81,7 +81,7 @@ ASP.NET MVC Web Application Project. Launch Visual Studio and select the menu op
 
 Make sure that you have .NET Framework 3.5 selected from the dropdown list at the top right of the **New Project** dialog. Otherwise, the ASP.NET MVC Web Application template won't appear.
 
-[![The New Project dialog box](iteration-1-create-the-application-cs/_static/image1.jpg)](iteration-1-create-the-application-cs/_static/image1.png)
+[![Screenshot shows the New Project dialog box with ASP dot NET MVC Web Application selected.](iteration-1-create-the-application-cs/_static/image1.jpg)](iteration-1-create-the-application-cs/_static/image1.png)
 
 **Figure 01**: The New Project dialog([Click to view full-size image](iteration-1-create-the-application-cs/_static/image2.png))
 
@@ -91,13 +91,13 @@ ASP.NET MVC application, the **Create Unit Test Project** dialog appears. You ca
 > 
 > Because Visual Web Developer does not support Test projects, you do not get the Create Unit Test Project dialog when using Visual Web Developer.
 
-[![The New Project dialog box](iteration-1-create-the-application-cs/_static/image2.jpg)](iteration-1-create-the-application-cs/_static/image3.png)
+[![Screenshot shows the Create Unit Test Project dialog box.](iteration-1-create-the-application-cs/_static/image2.jpg)](iteration-1-create-the-application-cs/_static/image3.png)
 
 **Figure 02**: The Create Unit Test Project dialog ([Click to view full-size image](iteration-1-create-the-application-cs/_static/image4.png))
 
 ASP.NET MVC application appears in the Visual Studio Solution Explorer window (see Figure 3). If you don t see the Solution Explorer window then you can open this window by selecting the menu option **View, Solution Explorer**. Notice that the solution contains two projects: the ASP.NET MVC project and the Test project. The ASP.NET MVC project is named ContactManager and the Test project is named ContactManager.Tests.
 
-[![The New Project dialog box](iteration-1-create-the-application-cs/_static/image3.jpg)](iteration-1-create-the-application-cs/_static/image5.png)
+[![Screenshot shows to Solution Explorer window.](iteration-1-create-the-application-cs/_static/image3.jpg)](iteration-1-create-the-application-cs/_static/image5.png)
 
 **Figure 03**: The Solution Explorer window ([Click to view full-size image](iteration-1-create-the-application-cs/_static/image6.png))
 
@@ -125,7 +125,7 @@ The ASP.NET MVC framework with any modern database including Microsoft SQL Serve
 
 Create a new database by right-clicking the App\_Data folder in the Solution Explorer window and selecting the menu option **Add, New Item**. In the **Add New Item** dialog, select the **Data** category and the **SQL Server Database** template (see Figure 4). Name the new database ContactManagerDB.mdf and click the OK button.
 
-[![The New Project dialog box](iteration-1-create-the-application-cs/_static/image4.jpg)](iteration-1-create-the-application-cs/_static/image7.png)
+[![Screenshot shows creating a new Microsoft Sequel Server Express database.](iteration-1-create-the-application-cs/_static/image4.jpg)](iteration-1-create-the-application-cs/_static/image7.png)
 
 **Figure 04**: Creating a new Microsoft SQL Server Express database ([Click to view full-size image](iteration-1-create-the-application-cs/_static/image8.png))
 
@@ -137,7 +137,7 @@ After you create the new database, the database appears in the App\_Data folder 
 
 You can use the Server Explorer window to create new database objects such as database tables, views, triggers, and stored procedures. Right-click the Tables folder and select the menu option **Add New Table**. The Database Table Designer appears (see Figure 5).
 
-[![The New Project dialog box](iteration-1-create-the-application-cs/_static/image5.jpg)](iteration-1-create-the-application-cs/_static/image9.png)
+[![Screenshot shows the Database Table Designer.](iteration-1-create-the-application-cs/_static/image5.jpg)](iteration-1-create-the-application-cs/_static/image9.png)
 
 **Figure 05**: The Database Table Designer ([Click to view full-size image](iteration-1-create-the-application-cs/_static/image10.png))
 
@@ -179,19 +179,19 @@ Follow these steps to create the data model classes:
 4. In the **Choose Your Data Connection** step, select the ContactManagerDB.mdf database and enter the name *ContactManagerDBEntities* for the Entity Connection Settings (see Figure 8).
 5. In the **Choose Your Database Objects** step, select the checkbox labeled Tables (see Figure 9). The data model will include all tables contained in your database (there is just one, the Contacts table). Enter the namespace *Models*. Click the Finish button to complete the wizard.
 
-[![The New Project dialog box](iteration-1-create-the-application-cs/_static/image6.jpg)](iteration-1-create-the-application-cs/_static/image11.png)
+[![Screenshot shows the Add New Item dialog box.](iteration-1-create-the-application-cs/_static/image6.jpg)](iteration-1-create-the-application-cs/_static/image11.png)
 
 **Figure 06**: The Add New Item dialog ([Click to view full-size image](iteration-1-create-the-application-cs/_static/image12.png))
 
-[![The New Project dialog box](iteration-1-create-the-application-cs/_static/image7.jpg)](iteration-1-create-the-application-cs/_static/image13.png)
+[![Screenshot shows selecting Choose Model Contents.](iteration-1-create-the-application-cs/_static/image7.jpg)](iteration-1-create-the-application-cs/_static/image13.png)
 
 **Figure 07**: Choose Model Contents ([Click to view full-size image](iteration-1-create-the-application-cs/_static/image14.png))
 
-[![The New Project dialog box](iteration-1-create-the-application-cs/_static/image8.jpg)](iteration-1-create-the-application-cs/_static/image15.png)
+[![Screenshot shows selecting Choose Your Data Connection.](iteration-1-create-the-application-cs/_static/image8.jpg)](iteration-1-create-the-application-cs/_static/image15.png)
 
 **Figure 08**: Choose Your Data Connection ([Click to view full-size image](iteration-1-create-the-application-cs/_static/image16.png))
 
-[![The New Project dialog box](iteration-1-create-the-application-cs/_static/image9.jpg)](iteration-1-create-the-application-cs/_static/image17.png)
+[![Screenshot shows selecting Choose Your Database Objects.](iteration-1-create-the-application-cs/_static/image9.jpg)](iteration-1-create-the-application-cs/_static/image17.png)
 
 **Figure 09**: Choose Your Database Objects ([Click to view full-size image](iteration-1-create-the-application-cs/_static/image18.png))
 
@@ -199,7 +199,7 @@ After you complete the Entity Data Model Wizard, the Entity Data Model Designer 
 
 The Entity Data Model wizard generates class names based on database table names. You almost always need to change the name of the class generated by the wizard. Right-click the Contacts class in the designer and select the menu option **Rename**. Change the name of the class from Contacts (plural) to Contact (singular). After you change the class name, the class should appear like Figure 10.
 
-[![The New Project dialog box](iteration-1-create-the-application-cs/_static/image10.jpg)](iteration-1-create-the-application-cs/_static/image19.png)
+[![Screenshot shows the Contact class.](iteration-1-create-the-application-cs/_static/image10.jpg)](iteration-1-create-the-application-cs/_static/image19.png)
 
 **Figure 10**: The Contact class ([Click to view full-size image](iteration-1-create-the-application-cs/_static/image20.png))
 
@@ -211,7 +211,7 @@ The next step is to create our Home controller. The Home controller is the defau
 
 Create the Home controller class by right-clicking the Controllers folder in the Solution Explorer window and selecting the menu option **Add, Controller** (see Figure 11). Notice the checkbox labeled **Add action methods for Create, Update, and Details scenarios**. Make sure that this checkbox is checked before clicking the **Add** button.
 
-[![The New Project dialog box](iteration-1-create-the-application-cs/_static/image11.jpg)](iteration-1-create-the-application-cs/_static/image21.png)
+[![Screenshot shows adding the Home controller.](iteration-1-create-the-application-cs/_static/image11.jpg)](iteration-1-create-the-application-cs/_static/image21.png)
 
 **Figure 11**: Adding the Home controller ([Click to view full-size image](iteration-1-create-the-application-cs/_static/image22.png))
 
@@ -239,13 +239,13 @@ Now that we ve created the Index controller, we next need to create the Index vi
 
 You create the Index view by right-clicking the Index() method and selecting the menu option **Add View** (see Figure 12). Selecting this menu option opens the **Add View** dialog (see Figure 13).
 
-[![The New Project dialog box](iteration-1-create-the-application-cs/_static/image12.jpg)](iteration-1-create-the-application-cs/_static/image23.png)
+[![Screenshot shows adding the Index view.](iteration-1-create-the-application-cs/_static/image12.jpg)](iteration-1-create-the-application-cs/_static/image23.png)
 
 **Figure 12**: Adding the Index view ([Click to view full-size image](iteration-1-create-the-application-cs/_static/image24.png))
 
 In the **Add View** dialog, check the checkbox labeled **Create a strongly-typed view**. Select the View data class ContactManager.Models.Contact and the View content List. Selecting these options generates a view that displays a list of Contact records.
 
-[![The New Project dialog box](iteration-1-create-the-application-cs/_static/image13.jpg)](iteration-1-create-the-application-cs/_static/image25.png)
+[![Screenshot shows the Add View dialog.](iteration-1-create-the-application-cs/_static/image13.jpg)](iteration-1-create-the-application-cs/_static/image25.png)
 
 **Figure 13**: The Add View dialog ([Click to view full-size image](iteration-1-create-the-application-cs/_static/image26.png))
 
@@ -263,13 +263,13 @@ We need to make one modification to the Index view. Because we are not creating 
 
 After you modify the Index view, you can run the Contact Manager application. Select the menu option Debug, Start Debugging or simply press F5. The first time you run the application, you get the dialog in Figure 14. Select the option **Modify the Web.config file to enable debugging** and click the OK button.
 
-[![The New Project dialog box](iteration-1-create-the-application-cs/_static/image14.jpg)](iteration-1-create-the-application-cs/_static/image27.png)
+[![Screenshot shows enabling debugging.](iteration-1-create-the-application-cs/_static/image14.jpg)](iteration-1-create-the-application-cs/_static/image27.png)
 
 **Figure 14**: Enabling debugging ([Click to view full-size image](iteration-1-create-the-application-cs/_static/image28.png))
 
 The Index view is returned by default. This view lists all of the data from the Contacts database table (see Figure 15).
 
-[![The New Project dialog box](iteration-1-create-the-application-cs/_static/image15.jpg)](iteration-1-create-the-application-cs/_static/image29.png)
+[![Screenshot shows the Index view.](iteration-1-create-the-application-cs/_static/image15.jpg)](iteration-1-create-the-application-cs/_static/image29.png)
 
 **Figure 15**: The Index view ([Click to view full-size image](iteration-1-create-the-application-cs/_static/image30.png))
 
@@ -295,13 +295,13 @@ In the body of the Create() method, the Entity Framework is used to insert the n
 
 You can generate an HTML form for creating new Contacts by right-clicking either of the two Create() methods and selecting the menu option **Add View** (see Figure 16).
 
-[![The New Project dialog box](iteration-1-create-the-application-cs/_static/image16.jpg)](iteration-1-create-the-application-cs/_static/image31.png)
+[![Screenshot shows adding the Create view.](iteration-1-create-the-application-cs/_static/image16.jpg)](iteration-1-create-the-application-cs/_static/image31.png)
 
 **Figure 16**: Adding the Create view ([Click to view full-size image](iteration-1-create-the-application-cs/_static/image32.png))
 
 In the **Add View** dialog, select the **ContactManager.Models.Contact** class and the **Create** option for view content (see Figure 17). When you click the **Add** button, a Create view is generated automatically.
 
-[![The New Project dialog box](iteration-1-create-the-application-cs/_static/image17.jpg)](iteration-1-create-the-application-cs/_static/image33.png)
+[![Screenshot shows seeing a page explode.](iteration-1-create-the-application-cs/_static/image17.jpg)](iteration-1-create-the-application-cs/_static/image33.png)
 
 **Figure 17**: Seeing a page explode ([Click to view full-size image](iteration-1-create-the-application-cs/_static/image34.png))
 
@@ -313,7 +313,7 @@ The Create view contains form fields for each of the properties of the Contact c
 
 After you modify the Create() methods and add the Create view, you can run the Contact Manger application and create new contacts. Click the **Create New** link that appears in the Index view to navigate to the Create view. You should see the view in Figure 18.
 
-[![The New Project dialog box](iteration-1-create-the-application-cs/_static/image18.jpg)](iteration-1-create-the-application-cs/_static/image35.png)
+[![Screenshot shows the Create View.](iteration-1-create-the-application-cs/_static/image18.jpg)](iteration-1-create-the-application-cs/_static/image35.png)
 
 **Figure 18**: The Create View ([Click to view full-size image](iteration-1-create-the-application-cs/_static/image36.png))
 
@@ -333,7 +333,7 @@ The Entity Framework is used to save the modified Contact to the database. The o
 
 You can generate the view that contains the Edit form by right-clicking the Edit() method and selecting the menu option Add View. In the Add View dialog, select the **ContactManager.Models.Contact** class and the **Edit** view content (see Figure 19).
 
-[![The New Project dialog box](iteration-1-create-the-application-cs/_static/image19.jpg)](iteration-1-create-the-application-cs/_static/image37.png)
+[![Screenshot shows adding an Edit View.](iteration-1-create-the-application-cs/_static/image19.jpg)](iteration-1-create-the-application-cs/_static/image37.png)
 
 **Figure 19**: Adding an Edit View ([Click to view full-size image](iteration-1-create-the-application-cs/_static/image38.png))
 
@@ -359,7 +359,7 @@ The two new Delete() methods are contained in Listing 8.
 
 The first Delete() method returns a confirmation form for deleting a contact record from the database (see Figure20). The second Delete() method performs the actual delete operation against the database. After the original contact has been retrieved from the database, the Entity Framework DeleteObject() and SaveChanges() methods are called to perform the database delete.
 
-[![The New Project dialog box](iteration-1-create-the-application-cs/_static/image20.jpg)](iteration-1-create-the-application-cs/_static/image39.png)
+[![Screenshot shows the delete confirmation view.](iteration-1-create-the-application-cs/_static/image20.jpg)](iteration-1-create-the-application-cs/_static/image39.png)
 
 **Figure 20**: The delete confirmation view ([Click to view full-size image](iteration-1-create-the-application-cs/_static/image40.png))
 
@@ -367,7 +367,7 @@ We need to modify the Index view so that it contains a link for deleting contact
 
 Html.ActionLink( { id=item.Id }) %&gt;
 
-[![The New Project dialog box](iteration-1-create-the-application-cs/_static/image21.jpg)](iteration-1-create-the-application-cs/_static/image41.png)
+[![Screenshot shows the Index view with Edit link.](iteration-1-create-the-application-cs/_static/image21.jpg)](iteration-1-create-the-application-cs/_static/image41.png)
 
 **Figure 21**: Index view with Edit link ([Click to view full-size image](iteration-1-create-the-application-cs/_static/image42.png))
 
@@ -375,7 +375,7 @@ Next, we need to create the delete confirmation view. Right-click the Delete() m
 
 Unlike in the case of the List, Create, and Edit views, the Add View dialog does not contain an option to create a Delete view. Instead, select the **ContactManager.Models.Contact** data class and the **Empty** view content. Selecting the Empty view content option will require us to create the view ourselves.
 
-[![The New Project dialog box](iteration-1-create-the-application-cs/_static/image22.jpg)](iteration-1-create-the-application-cs/_static/image43.png)
+[![Screenshot shows adding the delete confirmation view.](iteration-1-create-the-application-cs/_static/image22.jpg)](iteration-1-create-the-application-cs/_static/image43.png)
 
 **Figure 22**: Adding the delete confirmation view ([Click to view full-size image](iteration-1-create-the-application-cs/_static/image44.png))
 
@@ -391,11 +391,11 @@ It might bother you that the name of our controller class for working with conta
 
 This issue is easy enough to fix. First, we need to refactor the name of the Home controller. Open the HomeController class in the Visual Studio Code Editor, right click the name of the class and select the menu option **Refactor, Rename**. Selecting this menu option opens the Rename dialog.
 
-[![The New Project dialog box](iteration-1-create-the-application-cs/_static/image23.jpg)](iteration-1-create-the-application-cs/_static/image45.png)
+[![Screenshot shows refactoring a controller name.](iteration-1-create-the-application-cs/_static/image23.jpg)](iteration-1-create-the-application-cs/_static/image45.png)
 
 **Figure 23**: Refactoring a controller name ([Click to view full-size image](iteration-1-create-the-application-cs/_static/image46.png))
 
-[![The New Project dialog box](iteration-1-create-the-application-cs/_static/image24.jpg)](iteration-1-create-the-application-cs/_static/image47.png)
+[![Screenshot shows using the Rename dialog.](iteration-1-create-the-application-cs/_static/image24.jpg)](iteration-1-create-the-application-cs/_static/image47.png)
 
 **Figure 24**: Using the Rename dialog ([Click to view full-size image](iteration-1-create-the-application-cs/_static/image48.png))
 
@@ -403,7 +403,7 @@ If you rename your controller class, Visual Studio will update the name of the f
 
 After you make this change, your application will no longer have a Home controller. When you run your application, you'll get the error page in Figure 25.
 
-[![The New Project dialog box](iteration-1-create-the-application-cs/_static/image25.jpg)](iteration-1-create-the-application-cs/_static/image49.png)
+[![Screenshot shows no default controller.](iteration-1-create-the-application-cs/_static/image25.jpg)](iteration-1-create-the-application-cs/_static/image49.png)
 
 **Figure 25**: No default controller ([Click to view full-size image](iteration-1-create-the-application-cs/_static/image50.png))
 
