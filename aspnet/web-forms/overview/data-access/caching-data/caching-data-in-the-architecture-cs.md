@@ -2,7 +2,7 @@
 uid: web-forms/overview/data-access/caching-data/caching-data-in-the-architecture-cs
 title: "Caching Data in the Architecture (C#) | Microsoft Docs"
 author: rick-anderson
-description: "In the previous tutorial we learned how to apply caching at the Presentation Layer. In this tutorial we learn how to take advantage of our layered architectu..."
+description: "In the previous tutorial we learned how to apply caching at the Presentation Layer. In this tutorial we learn how to take advantage of our layered architectu... (C#)"
 ms.author: riande
 ms.date: 05/30/2007
 ms.assetid: d29a7c41-0628-4a23-9dfc-bfea9c6c1054
