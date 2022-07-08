@@ -2,7 +2,7 @@
 uid: ajax/cdn/jquery-validate/cdnjqueryvalidate19
 title: "jquery.validate version 1.9 | Microsoft Docs"
 author: rick-anderson
-description: ""
+description: This article provides a list of the files that are included in the jquery.validate version 1.9 hosted on the CDN.
 ms.author: riande
 ms.date: 07/23/2014
 ms.assetid: 26c7a53e-576b-4925-8272-6e58dbc8a0ea

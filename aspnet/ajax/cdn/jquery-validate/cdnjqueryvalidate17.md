@@ -2,7 +2,7 @@
 uid: ajax/cdn/jquery-validate/cdnjqueryvalidate17
 title: "jquery.validate version 1.7 | Microsoft Docs"
 author: rick-anderson
-description: ""
+description: This article provides a list of the files that are included in the jquery.validate version 1.7 hosted on the CDN.
 ms.author: riande
 ms.date: 07/23/2014
 ms.assetid: cef6b8be-ac1a-4661-85e3-8e444782ad88
