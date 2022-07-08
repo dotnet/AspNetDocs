@@ -69,7 +69,7 @@ After you install either Visual Studio 2008 or Visual Web Developer 2008, you ne
 
 Let's start by creating a new ASP.NET MVC Web Application project in Visual Studio 2008. Select the menu option **File, New Project** and you will see the New Project dialog box in Figure 1. Select C# as the programming language and select the ASP.NET MVC Web Application project template. Give your project the name MovieApp and click the OK button.
 
-[![Screenshot of New Project window with C# selected as the programming language, MVC Web Application as the Template, and MovieApp entered as the name.](create-a-movie-database-application-in-15-minutes-with-asp-net-mvc-cs/_static/image1.jpg)](create-a-movie-database-application-in-15-minutes-with-asp-net-mvc-cs/_static/image1.png)
+[![Screenshot of New Project window with C# selected as the programming language, MVC Web Application as the Template, and MovieApp as the name.](create-a-movie-database-application-in-15-minutes-with-asp-net-mvc-cs/_static/image1.jpg)](create-a-movie-database-application-in-15-minutes-with-asp-net-mvc-cs/_static/image1.png)
 
 **Figure 01**: The New Project dialog box ([Click to view full-size image](create-a-movie-database-application-in-15-minutes-with-asp-net-mvc-cs/_static/image2.png))
 
@@ -181,7 +181,7 @@ Follow these steps:
 
 After you complete these steps, the controller in Listing 1 is created. Notice that it contains methods named Index, Details, Create, and Edit. In the following sections, we'll add the necessary code to get these methods to work.
 
-[![Screenshot of Add Controller box with HomeController entered and box checked for Add action methods for Create, Update, and details scenarios.](create-a-movie-database-application-in-15-minutes-with-asp-net-mvc-cs/_static/image8.jpg)](create-a-movie-database-application-in-15-minutes-with-asp-net-mvc-cs/_static/image15.png)
+[![Screenshot of Add Controller box with HomeController entered and box checked for Add action methods for Create, Update, and Details scenarios.](create-a-movie-database-application-in-15-minutes-with-asp-net-mvc-cs/_static/image8.jpg)](create-a-movie-database-application-in-15-minutes-with-asp-net-mvc-cs/_static/image15.png)
 
 **Figure 08**: Adding a new ASP.NET MVC Controller ([Click to view full-size image](create-a-movie-database-application-in-15-minutes-with-asp-net-mvc-cs/_static/image16.png))
 
