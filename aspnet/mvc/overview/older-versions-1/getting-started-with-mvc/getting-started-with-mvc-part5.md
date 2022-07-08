@@ -39,7 +39,7 @@ Click add and the system will automatically generate the code for a View for us 
 
 Run your application and visit /Movies in the address bar. Now we've retrieved data from the database using a basic query inside the Controller and returned the data to a View that knows about Movies. That View then spins through the list of Movies and creates a table of data for us.
 
-[![Movie List - Windows Internet Explorer](getting-started-with-mvc-part5/_static/image7.png)](getting-started-with-mvc-part5/_static/image6.png)
+[![Screenshot of the Internet Explorer browser window, which shows the My Movie List with Ghostbusters 2 and Ghostbusters 3 in the list.](getting-started-with-mvc-part5/_static/image7.png)](getting-started-with-mvc-part5/_static/image6.png)
 
 We won't be implementing Edit, Details and Delete functionality with this application - so we don't need the default links that the scaffold template created for us. Open up the /Movies/Index.aspx file and remove them.
 
@@ -49,7 +49,7 @@ Here is the source code for what our updated View template should look like once
 
 It's creating links that we won't need, so we'll delete them for this example. We will keep our Create New link though, as that's next! Here's what our app looks like with that column removed.
 
-[![Movie List - Windows Internet Explorer](getting-started-with-mvc-part5/_static/image9.png)](getting-started-with-mvc-part5/_static/image8.png)
+[![Screenshot of the Internet Explorer browser window, which shows the My Movie List with the Edit, Details, and Delete links removed.](getting-started-with-mvc-part5/_static/image9.png)](getting-started-with-mvc-part5/_static/image8.png)
 
 We now have a simple listing of our movie data. However, if we click the "Create New" link, we'll get an error as it's not hooked up! Let's implement a Create Action method and enable a user to enter new movies in our database.
 

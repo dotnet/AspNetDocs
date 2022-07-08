@@ -46,7 +46,7 @@ The request processing mode is determined by the application pool. You can deter
 
 By default, IIS is configured to support two application pools: **DefaultAppPool** and **Classic .NET AppPool**. If DefaultAppPool is selected, then your application is running in integrated request processing mode. If Classic .NET AppPool is selected, your application is running in classic request processing mode.
 
-[![The New Project dialog box](using-asp-net-mvc-with-different-versions-of-iis-cs/_static/image1.jpg)](using-asp-net-mvc-with-different-versions-of-iis-cs/_static/image1.png)
+[![Screenshot of the Edit Application dialog box, which shows that IIS is configured to run the application in integrated request processing mode.](using-asp-net-mvc-with-different-versions-of-iis-cs/_static/image1.jpg)](using-asp-net-mvc-with-different-versions-of-iis-cs/_static/image1.png)
 
 **Figure 1**: Detecting the request processing mode([Click to view full-size image](using-asp-net-mvc-with-different-versions-of-iis-cs/_static/image2.png))
 
@@ -85,7 +85,7 @@ The Default route configured in Listing 1 enables you to route URLs that look li
 
 Unfortunately, older versions of IIS won't pass these requests to the ASP.NET framework. Therefore, these requests won't get routed to a controller. For example, if you make a browser request for the URL /Home/Index then you'll get the error page in Figure 2.
 
-[![The New Project dialog box](using-asp-net-mvc-with-different-versions-of-iis-cs/_static/image2.jpg)](using-asp-net-mvc-with-different-versions-of-iis-cs/_static/image3.png)
+[![Screenshot of the Microsoft Internet Explorer window, which shows a 404 Not Found error.](using-asp-net-mvc-with-different-versions-of-iis-cs/_static/image2.jpg)](using-asp-net-mvc-with-different-versions-of-iis-cs/_static/image3.png)
 
 **Figure 2**: Receiving a 404 Not Found error([Click to view full-size image](using-asp-net-mvc-with-different-versions-of-iis-cs/_static/image4.png))
 
@@ -155,7 +155,7 @@ Here's how you enable a wildcard script map for IIS 7.0:
 6. Enter the name MVC
 7. Click the **OK** button
 
-[![The New Project dialog box](using-asp-net-mvc-with-different-versions-of-iis-cs/_static/image3.jpg)](using-asp-net-mvc-with-different-versions-of-iis-cs/_static/image5.png)
+[![Screenshot of the Internet Information Services Manager 7 point 0 window, which shows the Add Wildcard Script Map dialog box.](using-asp-net-mvc-with-different-versions-of-iis-cs/_static/image3.jpg)](using-asp-net-mvc-with-different-versions-of-iis-cs/_static/image5.png)
 
 **Figure 3**: Creating a wildcard script map with IIS 7.0([Click to view full-size image](using-asp-net-mvc-with-different-versions-of-iis-cs/_static/image6.png))
 
@@ -170,13 +170,13 @@ Follow these steps to create a wildcard script map with IIS 6.0:
 7. Uncheck the checkbox labeled **Verify that file exists**
 8. Click the **OK** button
 
-[![The New Project dialog box](using-asp-net-mvc-with-different-versions-of-iis-cs/_static/image4.jpg)](using-asp-net-mvc-with-different-versions-of-iis-cs/_static/image7.png)
+[![Screenshot of the Internet Information Services 6 point 0 window, which shows the Add slash Edit Application Extension Mapping dialog box.](using-asp-net-mvc-with-different-versions-of-iis-cs/_static/image4.jpg)](using-asp-net-mvc-with-different-versions-of-iis-cs/_static/image7.png)
 
 **Figure 4**: Creating a wildcard script map with IIS 6.0([Click to view full-size image](using-asp-net-mvc-with-different-versions-of-iis-cs/_static/image8.png))
 
 After you enable wildcard script maps, you need to modify the route table in the Global.asax file so that it includes a Root route. Otherwise, you'll get the error page in Figure 5 when you make a request for the root page of your application. You can use the modified Global.asax file in Listing 4.
 
-[![The New Project dialog box](using-asp-net-mvc-with-different-versions-of-iis-cs/_static/image5.jpg)](using-asp-net-mvc-with-different-versions-of-iis-cs/_static/image9.png)
+[![Screenshot of the Microsoft Internet Explorer window, which shows the Missing Root route error: The incoming request does not match any route.](using-asp-net-mvc-with-different-versions-of-iis-cs/_static/image5.jpg)](using-asp-net-mvc-with-different-versions-of-iis-cs/_static/image9.png)
 
 **Figure 5**: Missing Root route error([Click to view full-size image](using-asp-net-mvc-with-different-versions-of-iis-cs/_static/image10.png))
 
