@@ -1,8 +1,8 @@
 ---
 uid: ajax/cdn/jquery-ui/cdnjqueryui1114
 title: "jQuery UI 1.11.4 on the Microsoft Ajax CDN | Microsoft Docs"
+description: Shows examples of the jQuery UI 1.11.4 themes that are hosted on the Microsoft Ajax CDN, including links to the theme's CDN hosted CSS file.
 author: rick-anderson
-description: ""
 ms.author: riande
 ms.date: 03/13/2015
 ms.assetid: 04f31668-eb5c-498b-8eae-9864fa159a49
