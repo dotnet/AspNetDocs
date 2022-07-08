@@ -120,7 +120,7 @@ In this task, you will learn how to use the Page Inspector in the context of an 
     *Toggle Inspection Mode button*
 6. In the Page Inspector browser, move the mouse pointer over the page elements. While you move the mouse pointer over any part of the rendered page, the element type is displayed and the corresponding source markup or code is highlighted in the Visual Studio editor.
 
-    ![Screenshot showing the Page Inspector window and the Visual Studio editor with the element type displayed and the corresponding source markup is highlighted.](using-page-inspector-in-visual-studio-2012/_static/image5.png)
+    ![Screenshot showing the Page Inspector window and the Visual Studio editor with the element type displayed and the corresponding source markup highlighted.](using-page-inspector-in-visual-studio-2012/_static/image5.png)
 
     *Inspection mode in action*
 
@@ -212,7 +212,7 @@ In this task, you will use the Page inspector and fix some issues the Photo Gall
 
     Notice that the **#login** style is automatically located in **Site.css** after you click. Moreover, the code is now highlighted.
 
-    ![Screenshot of the Styles tab on the navigation bar the CSS styles for login is selected with the corresponding code highlighted.](using-page-inspector-in-visual-studio-2012/_static/image16.png "Selecting the CSS styles")
+    ![Screenshot of the Styles tab, on the navigation bar the CSS styles for login is selected with the corresponding code highlighted.](using-page-inspector-in-visual-studio-2012/_static/image16.png "Selecting the CSS styles")
 
     *Selecting the CSS styles*
 4. Uncomment the **text-align** attribute in the highlighted code by removing the opening and closing characters and save the **Site.css** file.
