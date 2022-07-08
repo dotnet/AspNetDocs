@@ -42,7 +42,7 @@ The following steps show how to create a web project:
 1. Click **New Project** in the **Start** page or in the **File** menu.
 2. In the **New Project** dialog, click **Web** in the left pane and **ASP.NET Web Application** in the middle pane.
 
-    ![New Project dialog](creating-web-projects-in-visual-studio/_static/image1.png)
+    ![Screenshot showing the New Project window with ASP.NET Web Application selected.](creating-web-projects-in-visual-studio/_static/image1.png)
 
     You can choose **Cloud** in the left pane to create an [Azure Cloud Service](/azure/cloud-services/cloud-services-how-to-create-deploy), [Azure Mobile Service](https://msdn.microsoft.com/library/windows/apps/dn629482.aspx), or [Azure WebJob](https://azure.microsoft.com/documentation/articles/web-sites-dotnet-deploy-webjobs). This topic doesn't cover those templates.
 3. In the right pane, click the **Add Application Insights to Project** check box if you want health and usage monitoring for your application. For more information, see [Monitor performance in web applications](https://azure.microsoft.com/documentation/articles/app-insights-web-monitor-performance/).
@@ -50,13 +50,13 @@ The following steps show how to create a web project:
 
     The **New ASP.NET Project** dialog appears.
 
-    ![New Project dialog](creating-web-projects-in-visual-studio/_static/image2.png)
+    ![Screenshot showing the New ASP.NET Project window.](creating-web-projects-in-visual-studio/_static/image2.png)
 5. Click a template.
 
-    ![Select a template](creating-web-projects-in-visual-studio/_static/image3.png)
+    ![Screenshot showing the Select a template window with the Web Forms template selected.](creating-web-projects-in-visual-studio/_static/image3.png)
 6. If you want to add support for additional frameworks not included in the template, click the appropriate check box. (In the example shown, you could add MVC and/or Web API to a Web Forms project.)
 
-    ![Add frameworks](creating-web-projects-in-visual-studio/_static/image4.png)
+    ![Screenshot showing the New ASP.NET Project window with the Web Forms checkbox selected.](creating-web-projects-in-visual-studio/_static/image4.png)
 7. <a id="testproj"></a>If you want to add a unit test project, click **Add unit tests**.
 
     ![Add unit tests](creating-web-projects-in-visual-studio/_static/image5.png)
@@ -64,7 +64,7 @@ The following steps show how to create a web project:
 
     ![Configure authentication button](creating-web-projects-in-visual-studio/_static/image6.png)
 
-    ![Configure authentication dialog](creating-web-projects-in-visual-studio/_static/image7.png)
+    ![Screenshot showing the Change Authentication window.](creating-web-projects-in-visual-studio/_static/image7.png)
 
 <a id="azurenewproj"></a>
 ### Create a web app or virtual machine in Azure
@@ -137,7 +137,7 @@ The Web Forms framework doesn't lend itself as readily as ASP.NET MVC to pattern
 
 The Web Forms template creates a sample Web Forms application that uses [Bootstrap](#bootstrap) to provide responsive design and theming features. The following illustration shows the home page.
 
-![Web Forms template app home page](creating-web-projects-in-visual-studio/_static/image10.png)
+![Screenshot showing the Web Forms template app home page.](creating-web-projects-in-visual-studio/_static/image10.png)
 
 For more information about Web Forms, see [ASP.NET Web Forms](https://asp.net/web-forms). For information about what the Web Forms template does for you, see [Building a basic Web Forms application using Visual Studio 2013](https://devblogs.microsoft.com/dotnet/building-a-basic-web-forms-application-using-visual-studio-2013/).
 
@@ -219,7 +219,7 @@ The **Visual Studio 2012** node lets you choose the following web templates that
 
 The Visual Studio 2013 project templates use [Bootstrap](http://getbootstrap.com/), a layout and theming framework created by Twitter. Bootstrap uses CSS3 to provide responsive design, which means layouts can dynamically adapt to different browser window sizes. For example, in a wide browser window the home page created by the Web Forms template looks like the following illustration:
 
-![Web Forms template app home page](creating-web-projects-in-visual-studio/_static/image16.png)
+![Screenshot showing the Web Forms template app home page in a wide browser window.](creating-web-projects-in-visual-studio/_static/image16.png)
 
 Make the window narrower, and the horizontally arranged columns move into vertical arrangement:
 
@@ -251,9 +251,9 @@ If you use the Web Forms designer in Visual Studio, note that the designer doesn
 
 When you select a template, the check box for the framework(s) used by the template is automatically selected. For example, if you select the **Web Forms** template, the **Web Forms** check box is selected and you can't clear it.
 
-![Select a template](creating-web-projects-in-visual-studio/_static/image21.png)
+![Screenshot showing what happens when the Web Forms template is selected in the Select a template window.](creating-web-projects-in-visual-studio/_static/image21.png)
 
-![Add frameworks](creating-web-projects-in-visual-studio/_static/image22.png)
+![Screenshot showing the New ASP.NET Project window with the Web Forms checkbox preselected.](creating-web-projects-in-visual-studio/_static/image22.png)
 
 You can select the check box for a framework that isn't included in the template in order to add support for that framework when the project is created. For example, to enable the use of Web Forms *.aspx* pages when you've selected the MVC template, select the **Web Forms** check box. Or to enable MVC when you're using the Web Forms template, click the **MVC** check box. Adding a framework enables design-time as well as run-time support. For example, if you add MVC support to a Web Forms project, you will be able to scaffold controllers and views.
 
@@ -287,7 +287,7 @@ Visual Studio 2013 offers several authentication options for the Web Forms, MVC,
 - [Organizational Accounts](#orgauth) (Windows Server Active Directory or Azure Active Directory)
 - [Windows Authentication](#winauth) (Intranet)
 
-![Configure authentication dialog](creating-web-projects-in-visual-studio/_static/image23.png)
+![Screenshot showing the Change Authentication window with Individual User Accounts selected.](creating-web-projects-in-visual-studio/_static/image23.png)
 
 <a id="noauth"></a>
 
