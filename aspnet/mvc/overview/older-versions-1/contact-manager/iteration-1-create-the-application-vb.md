@@ -125,7 +125,7 @@ The ASP.NET MVC framework with any modern database including Microsoft SQL Serve
 
 Create a new database by right-clicking the App\_Data folder in the Solution Explorer window and selecting the menu option **Add, New Item**. In the **Add New Item** dialog, select the **Data** category and the **SQL Server Database** template (see Figure 4). Name the new database ContactManagerDB.mdf and click the OK button.
 
-[![Screenshot shows creating a new Microsoft SQL Server Express database.](iteration-1-create-the-application-vb/_static/image4.jpg)](iteration-1-create-the-application-vb/_static/image7.png)
+[![Screenshot shows creating a new Microsoft Sequel Server Express database.](iteration-1-create-the-application-vb/_static/image4.jpg)](iteration-1-create-the-application-vb/_static/image7.png)
 
 **Figure 04**: Creating a new Microsoft SQL Server Express database ([Click to view full-size image](iteration-1-create-the-application-vb/_static/image8.png))
 
