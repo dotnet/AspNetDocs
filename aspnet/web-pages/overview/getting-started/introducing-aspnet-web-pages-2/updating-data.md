@@ -172,7 +172,7 @@ The query is performed by using `db.QuerySingle` (not `db.Query`, as you used fo
 
 If you'd like to test your page, run the *Movies* page now and click an **Edit** link next to any movie. You'll see the *EditMovie* page with the details filled in for the movie you selected:
 
-![Edit Movie page showing movie to be edited](updating-data/_static/image3.png)
+![Screenshot shows the Edit Movie page showing movie to be edited.](updating-data/_static/image3.png)
 
 Notice that the URL of the page includes something like `?id=10` (or some other number). So far you've tested that **Edit** links in the *Movie* page work, that your page is reading the ID from the query string, and that the database query to get a single movie record is working.
 

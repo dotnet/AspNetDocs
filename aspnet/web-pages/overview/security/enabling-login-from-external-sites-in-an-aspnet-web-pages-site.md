@@ -74,7 +74,7 @@ This article provides separate instructions for the following tasks:
 
     The code uses the Google token to authenticate the user, and then returns to this page on your website. This page lets users associate their Google login with an existing account on your website, or they can register a new account on your site to associate the external login with.
 
-    ![oauth-5](enabling-login-from-external-sites-in-an-aspnet-web-pages-site/_static/image3.png)
+    ![Screenshot shows the registration page.](enabling-login-from-external-sites-in-an-aspnet-web-pages-site/_static/image3.png)
 5. Choose the **Associate** button. The browser returns to your application's home page.
 
 <a id="To_enable_Facebook_logins"></a>
@@ -114,7 +114,7 @@ Now you make changes to two pages in your website so that users will able to log
 
     The code uses the Facebook token to authenticate you and then returns to a page where you can associate your Facebook login with your site's login. Your user name or email address is filled into the **Email** field on the form.
 
-    ![oauth-5](enabling-login-from-external-sites-in-an-aspnet-web-pages-site/_static/image5.png)
+    ![Screenshot shows the Register an Account page.](enabling-login-from-external-sites-in-an-aspnet-web-pages-site/_static/image5.png)
 4. Choose the **Associate** button. 
 
     The browser returns to the home page and you are logged in.
@@ -157,7 +157,7 @@ Now you make changes to two pages in your website so that users will be able to 
 3. Log into a Twitter account.
 4. The code uses the Twitter token to authenticate the user and then returns you to a page where you can associate your login with your website account. Your name or email address is filled into the **Email** field on the form.
 
-    ![oauth-5](enabling-login-from-external-sites-in-an-aspnet-web-pages-site/_static/image7.png)
+    ![Screenshot shows an account registration page.](enabling-login-from-external-sites-in-an-aspnet-web-pages-site/_static/image7.png)
 5. Choose the **Associate** button. 
 
     The browser returns to the home page and you are logged in.

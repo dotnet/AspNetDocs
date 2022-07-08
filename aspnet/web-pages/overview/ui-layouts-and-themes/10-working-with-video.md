@@ -106,7 +106,7 @@ This procedure shows you how to play a Flash video named *sample.swf*. The proce
     [!code-cshtml[Main](10-working-with-video/samples/sample2.cshtml)]
 4. Run the page in a browser. (Make sure the page is selected in the **Files** workspace before you run it.) The page is displayed and the video plays automatically. 
 
-    ![[image]](10-working-with-video/_static/image1.jpg "ch08_video-1.jpg")
+    ![[Screenshot shows the video playing automatically.]](10-working-with-video/_static/image1.jpg "ch08_video-1.jpg")
 
 You can set the `quality` parameter for a Flash video to `low`, `autolow`, `autohigh`, `medium`, `high`, and `best`:
 
@@ -136,7 +136,7 @@ The following procedure shows you how to play a Window Media video named *sample
     [!code-cshtml[Main](10-working-with-video/samples/sample5.cshtml)]
 4. Run the page in a browser. The video loads and plays automatically. 
 
-    ![[image]](10-working-with-video/_static/image2.jpg "ch08_video-2.jpg")
+    ![[Screenshot shows the video playing automatically when the page is run in a browser.]](10-working-with-video/_static/image2.jpg "ch08_video-2.jpg")
 
 You can set `playCount` to an integer that indicates how many times to play the video automatically:
 
@@ -166,7 +166,7 @@ This procedure shows you how to play video contained in a Silverlight *.xap* pag
     [!code-cshtml[Main](10-working-with-video/samples/sample10.cshtml)]
 4. Run the page in a browser. 
 
-    ![[image]](10-working-with-video/_static/image3.jpg "ch08_video-3.jpg")
+    ![[Screenshot shows the page run in a browser.]](10-working-with-video/_static/image3.jpg "ch08_video-3.jpg")
 
 <a id="Additional_Resources"></a>
 ## Additional Resources

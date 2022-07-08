@@ -291,7 +291,7 @@ What's new here is that you've added `tableStyle`, `headerStyle`, and `alternati
 
 Run the page, and this time you see a grid that looks much less plain than before:
 
-![WebGrid display that includes parameters set to CSS class names](displaying-data/_static/image20.png)
+![Screenshot shows a WebGrid display that includes parameters set to CSS class names.](displaying-data/_static/image20.png)
 
 To see what the `GetHtml` method generated, you can look at the source of the page in the browser. We won't go into detail here, but the important point is that by specifying parameters like `tableStyle`, you caused the grid to generate HTML tags like the following:
 

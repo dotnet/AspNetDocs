@@ -52,7 +52,7 @@ Sometimes, though, you need to be able to display images dynamically &#8212; tha
 
 The procedure in this section shows how to display an image on the fly where users specify the image file name from a list of image names. They select the name of the image from a drop-down list, and when they submit the page, the image they selected is displayed.
 
-![[image]](9-working-with-images/_static/image1.jpg "ch9images-1.jpg")
+![[Screenshot shows an image being displayed after being selected from a dropdown list.]](9-working-with-images/_static/image1.jpg "ch9images-1.jpg")
 
 1. In WebMatrix, create a new website.
 2. Add a new page named *DynamicImage.cshtml*.
@@ -82,7 +82,7 @@ The procedure in this section shows how to display an image on the fly where use
 
 The previous example showed you how to display an image dynamically, but it worked only with images that were already on your website. This procedure shows how to let users upload an image, which is then displayed on the page. In ASP.NET, you can manipulate images on the fly using the `WebImage` helper, which has methods that let you create, manipulate, and save images. The `WebImage` helper supports all the common web image file types, including *.jpg*, *.png*, and *.bmp*. Throughout this article, you'll use *.jpg* images, but you can use any of the image types.
 
-![[image]](9-working-with-images/_static/image2.jpg "ch9images-2.jpg")
+![[Screenshot shows the Upload an Image page.]](9-working-with-images/_static/image2.jpg "ch9images-2.jpg")
 
 1. Add a new page and name it *UploadImage.cshtml*.
 2. Replace the existing content in the page with the following: 
@@ -133,7 +133,7 @@ If your website accepts images from a user, you might want to resize the images 
 
 This procedure shows how to resize an uploaded image to create a thumbnail and then save the thumbnail and original image in the website. You display the thumbnail on the page and use a hyperlink to redirect users to the full-sized image.
 
-![[image]](9-working-with-images/_static/image3.jpg "ch9images-3.jpg")
+![[Screenshot shows the Thumbnail Image page.]](9-working-with-images/_static/image3.jpg "ch9images-3.jpg")
 
 1. Add a new page named *Thumbnail.cshtml*.
 2. In the *images* folder, create a subfolder named *thumbs*.
@@ -154,7 +154,7 @@ This procedure shows how to resize an uploaded image to create a thumbnail and t
 
 The `WebImage` helper also lets you flip and rotate images. This procedure shows how to get an image from the server, flip the image upside down (vertically), save it, and then display the flipped image on the page. In this example, you're just using a file you already have on the server (*Photo2.jpg*). In a real application, you'd probably flip an image whose name you get dynamically, like you did in previous examples.
 
-![[image]](9-working-with-images/_static/image4.jpg "ch9images-4.jpg")
+![[Screenshot shows the Flip Image Vertical page.]](9-working-with-images/_static/image4.jpg "ch9images-4.jpg")
 
 1. Add a new page named *FlipImage.cshtml*.
 2. Replace the existing content in the page with the following: 
@@ -178,7 +178,7 @@ To rotate an image, you use the same code, except that instead of calling the `F
 
 When you add images to your website, you might want to add a watermark to the image before you save it or display it on a page. People often use watermarks to add copyright information to an image or to advertise their business name.
 
-![[image]](9-working-with-images/_static/image5.jpg "ch9images-5.jpg")
+![[Screenshot shows the Adding a Watermark to an Image page.]](9-working-with-images/_static/image5.jpg "ch9images-5.jpg")
 
 1. Add a new page named *Watermark.cshtml*.
 2. Replace the existing content in the page with the following: 
@@ -195,7 +195,7 @@ When you add images to your website, you might want to add a watermark to the im
 
 Instead of using text for a watermark, you can use another image. People sometimes use images like a company logo as a watermark, or they use a watermark image instead of text for copyright information.
 
-![[image]](9-working-with-images/_static/image6.jpg "ch9images-6.jpg")
+![[Screenshot shows the Using an Image as a Watermark page.]](9-working-with-images/_static/image6.jpg "ch9images-6.jpg")
 
 1. Add a new page named *ImageWatermark.cshtml*.
 2. Add an image to the *images* folder that you can use as a logo, and rename the image *MyCompanyLogo.jpg*. This image should be an image that you can see clearly when it's set to 80 pixels wide and 20 pixels high.
