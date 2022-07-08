@@ -89,7 +89,7 @@ A page opens that shows you the development *Web.config* file on the left and wh
 
 ![Preview of debug transform](web-config-transformations/_static/image5.png)
 
-![This is a screenshot showing the Web.config Preview with the development file on the left and what the deployed file will look like on the right with the changes highlighted.](web-config-transformations/_static/image6.png)
+![Screenshot showing the Web.config Preview with the development file on the left and what the deployed file will look like on the right with the changes highlighted.](web-config-transformations/_static/image6.png)
 
 ( In the preview, you might notice some additional changes that you didn't write transforms for: these typically involve the removal of white space that doesn't affect functionality.)
 
@@ -132,7 +132,7 @@ Although the default transform file contains an example that shows how to update
 
 You have now done as much as you can with *Web.config* transformations before you create the publish profiles, and you've seen a preview of what will be in the deployed Web.config file.
 
-![This is a screenshot showing the Web.config Preview with the Original Web.config file on the left and what the Transformed Web.config file will look like on the right with the changes highlighted.](web-config-transformations/_static/image8.png)
+![Screenshot showing the Web.config Preview with the Original Web.config file on the left and what the Transformed Web.config file will look like on the right with the changes highlighted.](web-config-transformations/_static/image8.png)
 
 In the following tutorial, you'll take care of deployment set-up tasks that require setting project properties.
 
