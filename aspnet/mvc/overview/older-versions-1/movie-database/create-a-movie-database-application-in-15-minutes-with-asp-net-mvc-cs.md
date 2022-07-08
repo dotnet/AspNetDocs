@@ -217,7 +217,7 @@ You should build your project (select the menu option **Build, Build Solution**)
 
 After you complete these steps, a new view named Index.aspx is added to the Views\Home folder. The contents of the Index view are included in Listing 3.
 
-[![Screenshot of the right-click dropdown box inside the code editor with Add View selected](create-a-movie-database-application-in-15-minutes-with-asp-net-mvc-cs/_static/image9.jpg)](create-a-movie-database-application-in-15-minutes-with-asp-net-mvc-cs/_static/image17.png)
+[![Screenshot of the right-click dropdown box inside the code editor with Add View selected.](create-a-movie-database-application-in-15-minutes-with-asp-net-mvc-cs/_static/image9.jpg)](create-a-movie-database-application-in-15-minutes-with-asp-net-mvc-cs/_static/image17.png)
 
 **Figure 09**: Adding a view from a controller action ([Click to view full-size image](create-a-movie-database-application-in-15-minutes-with-asp-net-mvc-cs/_static/image18.png))
 
@@ -279,7 +279,7 @@ After you add the Create view, you can add new Movie records to the database. Ru
 
 Notice that you get form validation automatically. If you neglect to enter a release date for a movie, or you enter an invalid release date, then the form is redisplayed and the release date field is highlighted.
 
-[![Screenshot of browser displaying the Create view page including required database entries of title, director, and date released.](create-a-movie-database-application-in-15-minutes-with-asp-net-mvc-cs/_static/image13.jpg)](create-a-movie-database-application-in-15-minutes-with-asp-net-mvc-cs/_static/image25.png)
+[![Screenshot of browser displaying the Create view page including required database fields of title, director, and date released.](create-a-movie-database-application-in-15-minutes-with-asp-net-mvc-cs/_static/image13.jpg)](create-a-movie-database-application-in-15-minutes-with-asp-net-mvc-cs/_static/image25.png)
 
 **Figure 13**: Creating a new movie database record ([Click to view full-size image](create-a-movie-database-application-in-15-minutes-with-asp-net-mvc-cs/_static/image26.png))
 
