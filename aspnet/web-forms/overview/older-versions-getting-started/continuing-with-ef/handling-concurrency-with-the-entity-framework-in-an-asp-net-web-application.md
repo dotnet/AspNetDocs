@@ -130,7 +130,7 @@ Call the new method from the `Updated` event handler that you added earlier. In 
 
 Run the *Departments.aspx* page.
 
-[![Image17](handling-concurrency-with-the-entity-framework-in-an-asp-net-web-application/_static/image14.png)](handling-concurrency-with-the-entity-framework-in-an-asp-net-web-application/_static/image13.png)
+[![A screenshot that shows the Departments page.](handling-concurrency-with-the-entity-framework-in-an-asp-net-web-application/_static/image14.png)](handling-concurrency-with-the-entity-framework-in-an-asp-net-web-application/_static/image13.png)
 
 Click **Edit** in a row and change the value in the **Budget** column. (Remember that you can only edit records that you've created for this tutorial, because the existing `School` database records contain some invalid data. The record for the Economics department is a safe one to experiment with.)
 
@@ -138,7 +138,7 @@ Click **Edit** in a row and change the value in the **Budget** column. (Remember
 
 Open a new browser window and run the page again (copy the URL from the first browser window's address box to the second browser window).
 
-[![Image17](handling-concurrency-with-the-entity-framework-in-an-asp-net-web-application/_static/image18.png)](handling-concurrency-with-the-entity-framework-in-an-asp-net-web-application/_static/image17.png)
+[![A screenshot that shows a new browser window ready for input.](handling-concurrency-with-the-entity-framework-in-an-asp-net-web-application/_static/image18.png)](handling-concurrency-with-the-entity-framework-in-an-asp-net-web-application/_static/image17.png)
 
 Click **Edit** in the same row you edited earlier and change the **Budget** value to something different.
 
@@ -227,7 +227,7 @@ Add the following `Page_Init` method, which enables Dynamic Data functionality. 
 
 Run the *OfficeAssignments.aspx* page.
 
-[![Image10](handling-concurrency-with-the-entity-framework-in-an-asp-net-web-application/_static/image32.png)](handling-concurrency-with-the-entity-framework-in-an-asp-net-web-application/_static/image31.png)
+[![A screenshot that shows the Office Assignments page.](handling-concurrency-with-the-entity-framework-in-an-asp-net-web-application/_static/image32.png)](handling-concurrency-with-the-entity-framework-in-an-asp-net-web-application/_static/image31.png)
 
 Click **Edit** in a row and change the value in the **Location** column.
 
@@ -235,7 +235,7 @@ Click **Edit** in a row and change the value in the **Location** column.
 
 Open a new browser window and run the page again (copy the URL from the first browser window to the second browser window).
 
-[![Image10](handling-concurrency-with-the-entity-framework-in-an-asp-net-web-application/_static/image36.png)](handling-concurrency-with-the-entity-framework-in-an-asp-net-web-application/_static/image35.png)
+[![A screenshot that shows a new browser window.](handling-concurrency-with-the-entity-framework-in-an-asp-net-web-application/_static/image36.png)](handling-concurrency-with-the-entity-framework-in-an-asp-net-web-application/_static/image35.png)
 
 Click **Edit** in the same row you edited earlier and change the **Location** value to something different.
 
