@@ -21,9 +21,9 @@ by [Tom Dykstra](https://github.com/tdykstra)
 
 In the previous two tutorials you worked with related data. This tutorial shows how to handle concurrency. You'll create web pages that work with the `Department` entity, and the pages that edit and delete `Department` entities will handle concurrency errors. The following illustrations show the Index and Delete pages, including some messages that are displayed if a concurrency conflict occurs.
 
-![Department_Index_page_before_edits](handling-concurrency-with-the-entity-framework-in-an-asp-net-mvc-application/_static/image1.png)
+![Screenshot shows the Contoso University Departments page before edits.](handling-concurrency-with-the-entity-framework-in-an-asp-net-mvc-application/_static/image1.png)
 
-![Department_Edit_page_2_after_clicking_Save](handling-concurrency-with-the-entity-framework-in-an-asp-net-mvc-application/_static/image2.png)
+![Screenshot shows the University page with a message that explains that the operation is canceled because the value has been changed by another user.](handling-concurrency-with-the-entity-framework-in-an-asp-net-mvc-application/_static/image2.png)
 
 ## Concurrency Conflicts
 
@@ -130,7 +130,7 @@ In *Views\Department\Index.cshtml*, replace the existing code with the following
 
 Run the site and click **Departments**:
 
-![Department_Index_page_before_edits](handling-concurrency-with-the-entity-framework-in-an-asp-net-mvc-application/_static/image5.png)
+![Screenshot shows the Contoso University Departments page.](handling-concurrency-with-the-entity-framework-in-an-asp-net-mvc-application/_static/image5.png)
 
 Right click the **Edit** hyperlink for Kim Abercrombie and select **Open in new tab,** then click the **Edit** hyperlink for Kim Abercrombie. The two windows display the same information.
 
@@ -150,7 +150,7 @@ Change the any field in the second browser window and click **Save**.
 
 Click **Save** in the second browser window. You see an error message:
 
-![Department_Edit_page_2_after_clicking_Save](handling-concurrency-with-the-entity-framework-in-an-asp-net-mvc-application/_static/image10.png)
+![Screenshot shows the University page with an error message, ready for the user to select Save again.](handling-concurrency-with-the-entity-framework-in-an-asp-net-mvc-application/_static/image10.png)
 
 Click **Save** again. The value you entered in the second browser is saved along with the original value of the data you change in the first browser. You see the saved values when the Index page appears.
 

@@ -188,7 +188,7 @@ In this task, you will test that the logging filter is working. You will start t
 1. Press **F5** to run the application.
 2. Browse to **/ActionLog** to see log view initial state:
 
-    ![Log tracker status before page activity](aspnet-mvc-4-custom-action-filters/_static/image3.png "Log tracker status before page activity")
+    ![Screenshot shows the Action Log status before page activity.](aspnet-mvc-4-custom-action-filters/_static/image3.png "Log tracker status before page activity")
 
     *Log tracker status before page activity*
 
@@ -203,7 +203,7 @@ In this task, you will test that the logging filter is working. You will start t
 3. Click one of the **Genres** from the menu and perform some actions there, like browsing an available album.
 4. Browse to **/ActionLog** and if the log is empty press **F5** to refresh the page. Check that your visits were tracked:
 
-    ![Action log with activity logged](aspnet-mvc-4-custom-action-filters/_static/image4.png "Action log with activity logged")
+    ![Screenshot shows the Action Log where you can verify your visits.](aspnet-mvc-4-custom-action-filters/_static/image4.png "Action log with activity logged")
 
     *Action log with activity logged*
 
@@ -267,13 +267,13 @@ In this task, you will add a new custom filter into the StoreController Class an
 2. Now, run the application in order to see how these two Custom Action Filters work. To do this, press **F5** and wait until the application starts.
 3. Browse to **/ActionLog** to see log view initial state.
 
-    ![Log tracker status before page activity](aspnet-mvc-4-custom-action-filters/_static/image5.png "Log tracker status before page activity")
+    ![Screenshot shows the Action Log tracker status in its initial state.](aspnet-mvc-4-custom-action-filters/_static/image5.png "Log tracker status before page activity")
 
     *Log tracker status before page activity*
 4. Click one of the **Genres** from the menu and perform some actions there, like browsing an available album.
 5. Check that this time; your visits were tracked twice: once for each of the Custom Action Filters you added in the **StorageController** class.
 
-    ![Action log with activity logged](aspnet-mvc-4-custom-action-filters/_static/image6.png "Action log with activity logged")
+    ![Screenshot shows the Action Log with your visits tracked twice.](aspnet-mvc-4-custom-action-filters/_static/image6.png "Action log with activity logged")
 
     *Action log with activity logged*
 6. Close the browser.
@@ -291,13 +291,13 @@ In this task, you will learn how to manage the filters' execution order by using
 2. Now, verify how the filters are executed depending on its Order property's value. You will find that the filter with the smallest Order value (**CustomActionFilter**) is the first one that is executed. Press **F5** and wait until the application starts.
 3. Browse to **/ActionLog** to see log view initial state.
 
-    ![Log tracker status before page activity](aspnet-mvc-4-custom-action-filters/_static/image7.png "Log tracker status before page activity")
+    ![Screenshot shows the Action Log before page activity.](aspnet-mvc-4-custom-action-filters/_static/image7.png "Log tracker status before page activity")
 
     *Log tracker status before page activity*
 4. Click one of the **Genres** from the menu and perform some actions there, like browsing an available album.
 5. Check that this time, your visits were tracked ordered by the filters' Order value: **CustomActionFilter** logs' first.
 
-    ![Action log with activity logged](aspnet-mvc-4-custom-action-filters/_static/image8.png "Action log with activity logged")
+    ![Screenshot shows the Action Log with activity ordered by CustomActionFilter.](aspnet-mvc-4-custom-action-filters/_static/image8.png "Action log with activity logged")
 
     *Action log with activity logged*
 6. Now, you will update the Filters' order value and verify how the logging order changes. In the **StoreController** class, update the Filters' Order value like shown below.
@@ -307,7 +307,7 @@ In this task, you will learn how to manage the filters' execution order by using
 8. Click one of the **Genres** from the menu and perform some actions there, like browsing an available album.
 9. Check that this time, the logs created by **MyNewCustomActionFilter** filter appears first.
 
-    ![Action log with activity logged](aspnet-mvc-4-custom-action-filters/_static/image9.png "Action log with activity logged")
+    ![Screenshot shows the Action Log with logs created by the specified filter first.](aspnet-mvc-4-custom-action-filters/_static/image9.png "Action log with activity logged")
 
     *Action log with activity logged*
 
@@ -337,7 +337,7 @@ In this task, you will update the solution to register the new filter (**MyNewCu
 7. Click one of the **Genres** from the menu and perform some actions there, like browsing an available album.
 8. Check that now **[MyNewCustomActionFilter]** is being injected in HomeController and ActionLogController too.
 
-    ![Action log with activity logged](aspnet-mvc-4-custom-action-filters/_static/image11.png "Action log with activity logged")
+    ![Screenshot shows the Action Log where you can check your new custom filter.](aspnet-mvc-4-custom-action-filters/_static/image11.png "Action log with activity logged")
 
     *Action log with global activity logged*
 

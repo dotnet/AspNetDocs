@@ -14,9 +14,9 @@ msc.type: authoredcontent
 
 In earlier tutorials you learned how to update data. This tutorial shows how to use optimistic concurrency to handle conflicts when multiple users update the same entity at the same time. You change the web pages that work with the `Department` entity so that they handle concurrency errors. The following illustrations show the Edit and Delete pages, including some messages that are displayed if a concurrency conflict occurs.
 
-![Department_Edit_page_2_after_clicking_Save](handling-concurrency-with-the-entity-framework-in-an-asp-net-mvc-application/_static/image10.png)
+![Screenshot shows the Edit page with values for Department Name, Budget, Start Date, and Administrator with current values highlighted.](handling-concurrency-with-the-entity-framework-in-an-asp-net-mvc-application/_static/image10.png)
 
-![Department_Edit_page_2_after_clicking_Save](handling-concurrency-with-the-entity-framework-in-an-asp-net-mvc-application/_static/image15.png)
+![Screenshot shows the Delete page for a record with a message about the delete operation and a Delete button.](handling-concurrency-with-the-entity-framework-in-an-asp-net-mvc-application/_static/image15.png)
 
 In this tutorial, you:
 
@@ -142,7 +142,7 @@ The browser shows the Index page with the changed value.
 
 Change a field in the second browser tab and click **Save**. You see an error message:
 
-![Department_Edit_page_2_after_clicking_Save](handling-concurrency-with-the-entity-framework-in-an-asp-net-mvc-application/_static/image10.png)
+![Screenshot shows the Edit page with a message that explains that the operation is canceled because the value has been changed by another user.](handling-concurrency-with-the-entity-framework-in-an-asp-net-mvc-application/_static/image10.png)
 
 Click **Save** again. The value you entered in the second browser tab is saved along with the original value of the data you changed in the first browser. You see the saved values when the Index page appears.
 

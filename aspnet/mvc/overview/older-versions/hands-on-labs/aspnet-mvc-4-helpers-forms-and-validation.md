@@ -544,7 +544,7 @@ In this task, you will test that the **StoreManager** **Delete** View page displ
 1. Press **F5** to run the Application.
 2. The project starts in the Home page. Change the URL to **/StoreManager**. Select one album to delete by clicking **Delete** and verify that the new view is uploaded.
 
-    ![Deleting an Album](aspnet-mvc-4-helpers-forms-and-validation/_static/image16.png "Deleting an Album")
+    ![Screenshot shows a Delete link selected, which causes a Delete Confirmation window to open.](aspnet-mvc-4-helpers-forms-and-validation/_static/image16.png "Deleting an Album")
 
     *Deleting an Album*
 
@@ -572,7 +572,7 @@ In this task, you will test that the **StoreManager Delete** View page lets you 
 1. Press **F5** to run the Application.
 2. The project starts in the Home page. Change the URL to **/StoreManager**. Select one album to delete by clicking **Delete.** Confirm the deletion by clicking **Delete** button:
 
-    ![Deleting an Album](aspnet-mvc-4-helpers-forms-and-validation/_static/image17.png "Deleting an Album")
+    ![Screenshot shows the Delete Confirmation window.](aspnet-mvc-4-helpers-forms-and-validation/_static/image17.png "Deleting an Album")
 
     *Deleting an Album*
 3. Verify that the album was deleted since it does not appear in the **Index** page.
