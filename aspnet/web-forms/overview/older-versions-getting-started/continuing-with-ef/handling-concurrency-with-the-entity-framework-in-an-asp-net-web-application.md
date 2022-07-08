@@ -138,7 +138,7 @@ Click **Edit** in a row and change the value in the **Budget** column. (Remember
 
 Open a new browser window and run the page again (copy the URL from the first browser window's address box to the second browser window).
 
-[![A screenshot that shows a new browser window.](handling-concurrency-with-the-entity-framework-in-an-asp-net-web-application/_static/image18.png)](handling-concurrency-with-the-entity-framework-in-an-asp-net-web-application/_static/image17.png)
+[![A screenshot that shows a new browser window ready for input.](handling-concurrency-with-the-entity-framework-in-an-asp-net-web-application/_static/image18.png)](handling-concurrency-with-the-entity-framework-in-an-asp-net-web-application/_static/image17.png)
 
 Click **Edit** in the same row you edited earlier and change the **Budget** value to something different.
 
