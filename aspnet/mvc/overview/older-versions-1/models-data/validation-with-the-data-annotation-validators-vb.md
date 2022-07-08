@@ -2,7 +2,7 @@
 uid: mvc/overview/older-versions-1/models-data/validation-with-the-data-annotation-validators-vb
 title: "Validation with the Data Annotation Validators (VB) | Microsoft Docs"
 author: rick-anderson
-description: "Take advantage of the Data Annotation Model Binder to perform validation within an ASP.NET MVC application. Learn how to use the different types of validator..."
+description: "Take advantage of the Data Annotation Model Binder to perform validation within an ASP.NET MVC application. Learn how to use the different types of validator... (VB)"
 ms.author: riande
 ms.date: 05/29/2009
 ms.assetid: 0d23ff2b-f2ec-434a-be3b-1180beeccba3
