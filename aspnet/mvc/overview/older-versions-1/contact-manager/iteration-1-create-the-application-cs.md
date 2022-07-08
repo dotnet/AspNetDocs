@@ -81,7 +81,7 @@ ASP.NET MVC Web Application Project. Launch Visual Studio and select the menu op
 
 Make sure that you have .NET Framework 3.5 selected from the dropdown list at the top right of the **New Project** dialog. Otherwise, the ASP.NET MVC Web Application template won't appear.
 
-[![Screenshot shows the New Project dialog box with ASP.NET MVC Web Application selected.](iteration-1-create-the-application-cs/_static/image1.jpg)](iteration-1-create-the-application-cs/_static/image1.png)
+[![Screenshot shows the New Project dialog box with ASP dot NET MVC Web Application selected.](iteration-1-create-the-application-cs/_static/image1.jpg)](iteration-1-create-the-application-cs/_static/image1.png)
 
 **Figure 01**: The New Project dialog([Click to view full-size image](iteration-1-create-the-application-cs/_static/image2.png))
 
