@@ -86,7 +86,7 @@ Open Visual Studio and navigate to the `Reviews.mdf` database. If you are using 
 
 Right-click on the database name and choose the "Publish to provider" option from the context menu. This launches the Database Publishing Wizard (see Figure 5). Click Next to advance past the splash screen.
 
-[![The Database Publishing Wizard Splash Screen](deploying-a-database-vb/_static/image14.jpg)](deploying-a-database-vb/_static/image13.jpg) 
+[![Screenshot of the Database Publishing Wizard window, which is showing the splash screen and the Next button to advance the wizard.](deploying-a-database-vb/_static/image14.jpg)](deploying-a-database-vb/_static/image13.jpg) 
 
 **Figure 5**: The Database Publishing Wizard Splash Screen ([Click to view full-size image](deploying-a-database-vb/_static/image15.jpg))
 
@@ -95,7 +95,7 @@ The second screen in the wizard lists the databases accessible to the Database P
 > [!NOTE]
 > If you get the error "There are no objects in database *databaseName* of the types scriptable by this wizard" when clicking Next in the screen shown in Figure 6, make sure that the path to your database file is not overly long. As noted in [this discussion item](http://www.codeplex.com/sqlhost/Thread/View.aspx?ThreadId=11014) on the Database Publishing Wizard project page, this error can arise if the path to the database file is too long.
 
-[![The Database Publishing Wizard Splash Screen](deploying-a-database-vb/_static/image17.jpg)](deploying-a-database-vb/_static/image16.jpg) 
+[![Screenshot of the Database Publishing Wizard window, which is showing a highlighted database in the list and a filled Script all objects checkbox.](deploying-a-database-vb/_static/image17.jpg)](deploying-a-database-vb/_static/image16.jpg) 
 
 **Figure 6**: The Database Publishing Wizard Splash Screen ([Click to view full-size image](deploying-a-database-vb/_static/image18.jpg))
 
@@ -123,13 +123,13 @@ A better approach is to connect directly to the production database server using
 
 Launch SSMS and connect to your web host s database server using the information provided by your web host provider.
 
-[![Connect to Your Web Host Provider s Database Server](deploying-a-database-vb/_static/image26.jpg)](deploying-a-database-vb/_static/image25.jpg) 
+[![Screenshot of the Connect to Server dialog box, which is showing the web host's data server information in the text fields.](deploying-a-database-vb/_static/image26.jpg)](deploying-a-database-vb/_static/image25.jpg) 
 
 **Figure 9**: Connect to Your Web Host Provider s Database Server ([Click to view full-size image](deploying-a-database-vb/_static/image27.jpg))
 
 Expand the Databases tab and locate your database. Click the New Query button in the upper left corner of the Toolbar, paste in the SQL commands from the script file created by the Database Publishing Wizard, and click the Execute button to run these commands on the production database server. If your script file is especially large it may take several minutes to execute the commands.
 
-[![Connect to Your Web Host Provider s Database Server](deploying-a-database-vb/_static/image29.jpg)](deploying-a-database-vb/_static/image28.jpg) 
+[![Screenshot of the Microsoft SQL Server Management Studio window, which is showing the script file commands being executed on the production server.](deploying-a-database-vb/_static/image29.jpg)](deploying-a-database-vb/_static/image28.jpg) 
 
 **Figure 10**: Connect to Your Web Host Provider s Database Server ([Click to view full-size image](deploying-a-database-vb/_static/image30.jpg))
 
