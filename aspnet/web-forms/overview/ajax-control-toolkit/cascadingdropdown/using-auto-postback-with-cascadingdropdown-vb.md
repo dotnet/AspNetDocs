@@ -2,7 +2,7 @@
 uid: web-forms/overview/ajax-control-toolkit/cascadingdropdown/using-auto-postback-with-cascadingdropdown-vb
 title: "Using Auto-Postback with CascadingDropDown (VB) | Microsoft Docs"
 author: wenz
-description: "The CascadingDropDown control in the AJAX Control Toolkit extends a DropDownList control so that changes in one DropDownList loads associated values in anoth... (VB)"
+description: "The CascadingDropDown control of the AJAX Control Toolkit extends a DropDownList control so that changes for one DropDownList loads associated values in anoth... (VB)"
 ms.author: riande
 ms.date: 06/02/2008
 ms.assetid: 0b34f7f6-a0cc-4b9f-9761-643fb0bb3ece
