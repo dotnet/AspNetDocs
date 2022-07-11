@@ -1,6 +1,7 @@
 ---
 uid: ajax/cdn/cdnajax35
 title: "ASP.NET Ajax 3.5 | Microsoft Docs"
+description: Provides a list of the ASP.NET Ajax 3.5 files that are hosted on the CDN.
 author: rick-anderson
 description: ""
 ms.author: riande
