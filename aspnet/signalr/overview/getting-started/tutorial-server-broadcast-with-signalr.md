@@ -19,7 +19,7 @@ This tutorial shows how to create a web application that uses ASP.NET SignalR 2 
 
 The application that you'll create in this tutorial simulates a stock ticker, a typical scenario for server broadcast functionality. Periodically, the server randomly updates stock prices and broadcast the updates to all connected clients. In the browser, the numbers and symbols in the **Change** and **%** columns dynamically change in response to notifications from the server. If you open additional browsers to the same URL, they all show the same data and the same changes to the data simultaneously.
 
-![Create web](tutorial-server-broadcast-with-signalr/_static/image1.png)
+![Screenshot showing how multiple web browsers show the same updated data simultaneously.](tutorial-server-broadcast-with-signalr/_static/image1.png)
 
 In this tutorial, you:
 
@@ -45,7 +45,7 @@ This section shows how to use Visual Studio 2017 to create an empty ASP.NET Web 
 
 1. In Visual Studio, create an ASP.NET Web Application.
 
-    ![Create web](tutorial-server-broadcast-with-signalr/_static/image2.png)
+    ![Screenshot showing how to create an ASP.NET Web Application.](tutorial-server-broadcast-with-signalr/_static/image2.png)
 
 1. In the **New ASP.NET Web Application - SignalR.StockTicker** window, leave **Empty** selected and select **OK**.
 

@@ -78,10 +78,10 @@ In this section, you'll add a unit test for the application created in the [Gett
 9. Build the solution by pressing **F6**.
 10. Run the unit test. In Visual Studio, select **Test**, **Windows**, **Test Explorer**. In the Test Explorer window, right-click **HubsAreMockableViaDynamic** and select **Run Selected Tests**.
 
-    ![Test Explorer](unit-testing-signalr-applications/_static/image5.png)
+    ![Screenshot showing HubsAreMockableViaDynamic selected in the Test Explorer window.](unit-testing-signalr-applications/_static/image5.png)
 11. Verify that the test passed by checking the lower pane in the Test Explorer window. The window will show that the test passed.
 
-    ![Test passed](unit-testing-signalr-applications/_static/image6.png)
+    ![Screenshot showing the unit test using a dynamic object has passed.](unit-testing-signalr-applications/_static/image6.png)
 
 <a id="type"></a>
 ### Unit testing by type
@@ -99,7 +99,7 @@ In this section, you'll add a test for the application created in the [Getting S
 3. Build the solution by pressing **F6**.
 4. Run the unit test. In Visual Studio, select **Test**, **Windows**, **Test Explorer**. In the Test Explorer window, right-click **HubsAreMockableViaDynamic** and select **Run Selected Tests**.
 
-    ![Test Explorer](unit-testing-signalr-applications/_static/image7.png)
+    ![Screenshot showing HubsAreMockableViaType selected in the Test Explorer window.](unit-testing-signalr-applications/_static/image7.png)
 5. Verify that the test passed by checking the lower pane in the Test Explorer window. The window will show that the test passed.
 
-    ![Test passed](unit-testing-signalr-applications/_static/image8.png)
+    ![Screenshot showing the unit test by type has passed.](unit-testing-signalr-applications/_static/image8.png)
