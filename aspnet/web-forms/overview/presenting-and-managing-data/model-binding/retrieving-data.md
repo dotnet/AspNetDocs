@@ -2,7 +2,7 @@
 uid: web-forms/overview/presenting-and-managing-data/model-binding/retrieving-data
 title: "Retrieving and displaying data with model binding and web forms | Microsoft Docs"
 author: Rick-Anderson
-description: "This tutorial series demonstrates basic aspects of using model binding with an ASP.NET Web Forms project. Model binding makes data interaction more straight-..."
+description: "This series of tutorials demonstrates basic aspects of using model binding with an ASP.NET Web Forms project. Model binding makes data interaction more straight-forward."
 ms.author: riande
 ms.date: 02/27/2014
 ms.assetid: 9f24fb82-c7ac-48da-b8e2-51b3da17e365

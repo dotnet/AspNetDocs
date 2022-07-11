@@ -2,7 +2,7 @@
 uid: web-forms/overview/presenting-and-managing-data/model-binding/sorting-paging-and-filtering-data
 title: "Sorting, paging, and filtering data with model binding and web forms | Microsoft Docs"
 author: Rick-Anderson
-description: "This tutorial series demonstrates basic aspects of using model binding with an ASP.NET Web Forms project. Model binding makes data interaction more straight-..."
+description: "This tutorial series demonstrates some basic aspects of using model binding with an ASP.NET Web Forms project. Model binding makes data interaction more straight-..."
 ms.author: riande
 ms.date: 02/27/2014
 ms.assetid: 266e7866-e327-4687-b29d-627a0925e87d
