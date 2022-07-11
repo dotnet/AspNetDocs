@@ -2,7 +2,7 @@
 uid: web-api/videos/index
 title: "ASP.NET Web API Videos | Microsoft Docs"
 author: rick-anderson
-description: ""
+description: This topic provides a list of links to a walkthrough series regarding usage of the ASP.NET Web API and development using the API.
 ms.author: riande
 ms.date: 02/16/2012
 ms.assetid: 8ed7e133-707b-43e6-bce4-e9d266935573

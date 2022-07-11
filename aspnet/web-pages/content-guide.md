@@ -1,6 +1,7 @@
 ---
 uid: web-pages/content-guide
 title: "WebMatrix Content Guide | Microsoft Docs"
+description: This topic provides a list of links to articles, videos, and resources that discuss development scenarios for WebMatrix content.
 author: rick-anderson
 description: ""
 ms.author: riande
