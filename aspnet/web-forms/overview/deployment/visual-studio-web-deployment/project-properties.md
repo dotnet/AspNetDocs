@@ -2,7 +2,7 @@
 uid: web-forms/overview/deployment/visual-studio-web-deployment/project-properties
 title: "ASP.NET Web Deployment using Visual Studio: Project Properties | Microsoft Docs"
 author: tdykstra
-description: "This tutorial series shows you how to deploy (publish) an ASP.NET web application to Azure App Service Web Apps or to a third-party hosting provider, by usin..."
+description: "This tutorial series shows how to deploy, or publish, an ASP.NET web application to Azure App Service Web Apps or to a third-party hosting provider, by usin..."
 ms.author: riande
 ms.date: 02/15/2013
 ms.assetid: ec1cec4c-a75f-47af-a2ba-b1e2f971d24b
