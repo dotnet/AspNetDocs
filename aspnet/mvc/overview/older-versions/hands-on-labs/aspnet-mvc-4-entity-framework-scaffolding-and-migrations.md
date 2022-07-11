@@ -101,7 +101,7 @@ In this exercise, you will learn how to use ASP.NET MVC 4 scaffolding with code 
     [!code-csharp[Main](aspnet-mvc-4-entity-framework-scaffolding-and-migrations/samples/sample1.cs)]
 6. Click **Build | Build Solution** to save the changes and build the project.
 
-    ![Building the application](aspnet-mvc-4-entity-framework-scaffolding-and-migrations/_static/image3.png "Building the application")
+    ![Screenshot shows Visual Studio Express 2012 with Build menu, then Build Solutions selected.](aspnet-mvc-4-entity-framework-scaffolding-and-migrations/_static/image3.png "Building the application")
 
     *Building the Application*
 7. In the Solution Explorer, right-click the controllers folder and select **Add | Controller**.
@@ -189,7 +189,7 @@ In this task you will update the database using Entity Framework Migrations. You
     [!code-csharp[Main](aspnet-mvc-4-entity-framework-scaffolding-and-migrations/samples/sample4.cs)]
 5. Select **Build | Build Solution** on the menu to build the application.
 
-    ![Building the application](aspnet-mvc-4-entity-framework-scaffolding-and-migrations/_static/image13.png "Building the application")
+    ![Screenshot shows the Build menu, then Build Solutions selected.](aspnet-mvc-4-entity-framework-scaffolding-and-migrations/_static/image13.png "Building the application")
 
     *Building the application*
 6. In the Package Manager Console, enter the following command:

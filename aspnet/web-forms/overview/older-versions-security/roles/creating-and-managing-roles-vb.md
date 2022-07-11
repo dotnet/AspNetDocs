@@ -2,7 +2,7 @@
 uid: web-forms/overview/older-versions-security/roles/creating-and-managing-roles-vb
 title: "Creating and Managing Roles (VB) | Microsoft Docs"
 author: rick-anderson
-description: "This tutorial examines the steps necessary for configuring the Roles framework. Following that, we will build web pages to create and delete roles."
+description: "This tutorial examines the steps necessary for configuring the Roles framework. Following that, we will build web pages to create and delete roles. (VB)"
 ms.author: riande
 ms.date: 03/24/2008
 ms.assetid: 83af9f5f-9a00-4f83-8afc-e98bdd49014e
@@ -58,7 +58,7 @@ Finally, let's update the site map (`Web.sitemap`) to include these new web page
 
 With the site map updated, visit the site through a browser. As Figure 2 shows, the navigation on the left now includes items for the Roles tutorials.
 
-[![Four New Pages Have Been Added to the Roles Folder](creating-and-managing-roles-vb/_static/image5.png)](creating-and-managing-roles-vb/_static/image4.png)
+[![The navigation on the left now includes items for the Roles tutorials.](creating-and-managing-roles-vb/_static/image5.png)](creating-and-managing-roles-vb/_static/image4.png)
 
 **Figure 2**: Four New Pages Have Been Added to the `Roles` Folder  ([Click to view full-size image](creating-and-managing-roles-vb/_static/image6.png))
 

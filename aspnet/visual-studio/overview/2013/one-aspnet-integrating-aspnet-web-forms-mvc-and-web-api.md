@@ -210,7 +210,7 @@ Now that the **Person** model is created, you will use ASP.NET MVC scaffolding w
 
 1. In **Solution Explorer**, right-click the **Controllers** folder of the **MyHybridSite** project and select **Add | New Scaffolded Item...**.
 
-    ![Creating a new scaffolded Controller](one-aspnet-integrating-aspnet-web-forms-mvc-and-web-api/_static/image13.png)
+    ![Screenshot showing how to create an MVC Controller by selecting New Scaffolded Item in Solution Explorer.](one-aspnet-integrating-aspnet-web-forms-mvc-and-web-api/_static/image13.png)
 
     *Creating a new Scaffolded Controller*
 2. In the **Add Scaffold** dialog box, select **MVC 5 Controller with views, using Entity Framework** and then click **Add.**
@@ -292,7 +292,7 @@ In this task you will create a new **Web API Controller** that will expose the p
     > If you start with the Begin solution from Exercise 3, press **CTRL + SHIFT + B** to build the solution.
 2. In **Solution Explorer**, right-click the **Controllers** folder of the **MyHybridSite** project and select **Add | New Scaffolded Item...**.
 
-    ![Creating a new scaffolded Controller](one-aspnet-integrating-aspnet-web-forms-mvc-and-web-api/_static/image23.png)
+    ![Screenshot showing how to create a Web API Controller by selecting New Scaffolded Item in Solution Explorer.](one-aspnet-integrating-aspnet-web-forms-mvc-and-web-api/_static/image23.png)
 
     *Creating a new scaffolded Controller*
 3. In the **Add Scaffold** dialog box, select **Web API** in the left pane, then **Web API 2 Controller with actions, using Entity Framework** in the middle pane and then click **Add.**

@@ -72,7 +72,7 @@ This procedure shows you how to create a database named SmallBakery by using the
 5. In the left pane, expand the **SmallBakery.sdf** node and then click **Tables**.
 6. In the ribbon, click **New Table**. WebMatrix opens the table designer.
 
-    ![[image]](5-working-with-data/_static/image1.jpg)
+    ![[Screenshot shows Web Matrix opening the table designer.]](5-working-with-data/_static/image1.jpg)
 7. Click in the **Name** column and enter &quot;Id&quot;.
 8. In the **Data Type** column, select **int**.
 9. Set the **Is Primary Key?** and **Is Identify?** options to **Yes**.
@@ -88,7 +88,7 @@ This procedure shows you how to create a database named SmallBakery by using the
 
     When you're done, the definition will look like this:
 
-    ![[image]](5-working-with-data/_static/image2.png)
+    ![[Screenshot shows what the definition will look like when finished.]](5-working-with-data/_static/image2.png)
 17. Press Ctrl+S to save the table.
 
 ## Adding Data to the Database
@@ -112,7 +112,7 @@ Now you can add some sample data to your database that you'll work with later in
 
     When you're finished entering the data, the table designer will look like this:
 
-    ![[image]](5-working-with-data/_static/image3.jpg)
+    ![[Screenshot shows what the table designer will look like when the data is finished being entered.]](5-working-with-data/_static/image3.jpg)
 4. Close the tab that contains the database data.
 
 ## Displaying Data from a Database
@@ -139,7 +139,7 @@ Once you've got a database with data in it, you can display the data in an ASP.N
     In the body of the page, the markup creates an HTML table that will be used to display the data. Inside the `<tbody>` element, you use a `foreach` loop to individually get each data row that's returned by the query. For each data row, you create an HTML table row (`<tr>` element). Then you create HTML table cells (`<td>` elements) for each column. Each time you go through the loop, the next available row from the database is in the `row` variable (you set this up in the `foreach` statement). To get an individual column from the row, you can use `row.Name` or `row.Description` or whatever the name is of the column you want.
 4. Run the page in a browser. (Make sure the page is selected in the **Files** workspace before you run it.) The page displays a list like the following:
 
-    ![[image]](5-working-with-data/_static/image4.jpg)
+    ![[Screenshot shows the list the page will display in the browser.]](5-working-with-data/_static/image4.jpg)
 
 > [!TIP] 
 > 
@@ -215,11 +215,11 @@ The page includes validation to make sure that the data that the user enters is 
 
 1. View the page in a browser. The page displays a form that's similar to the one that's shown in the following illustration.
 
-    ![[image]](5-working-with-data/_static/image5.jpg)
+    ![[Screenshot shows a form that will display on the page in a browser.]](5-working-with-data/_static/image5.jpg)
 2. Enter values for all the columns, but make sure that you leave the *Price* column blank.
 3. Click **Insert**. The page displays an error message, as shown in the following illustration. (No new record is created.)
 
-    ![[image]](5-working-with-data/_static/image6.jpg)
+    ![[Screenshot shows an error message.]](5-working-with-data/_static/image6.jpg)
 4. Fill the form out completely, and then click **Insert**. This time, the *ListProducts.cshtml* page is displayed and shows the new record.
 
 ## Updating Data in a Database
@@ -252,7 +252,7 @@ After data has been entered into a table, you might need to update it. This proc
     In other words, the product number to be edited will be passed in the URL.
 3. View the page in a browser. The page displays the data in a format like this:
 
-    ![[image]](5-working-with-data/_static/image7.jpg)
+    ![[Screenshot shows the data displayed on the page in the browser.]](5-working-with-data/_static/image7.jpg)
 
     Next, you'll create the page that lets users actually update the data. The update page includes validation to validate the data that the user enters. For example, code in the page makes sure that a value has been entered for all required columns.
 4. In the website, create a new CSHTML file named *UpdateProducts.cshtml*.
@@ -300,7 +300,7 @@ After data has been entered into a table, you might need to update it. This proc
 6. Save the page.
 7. Run the *EditProducts.cshtml* page (not the update page) and then click **Edit** to select a product to edit. The *UpdateProducts.cshtml* page is displayed, showing the record you selected.
 
-    ![[image]](5-working-with-data/_static/image8.jpg)
+    ![[Screenshot shows the Update Products page, along with the selected record.]](5-working-with-data/_static/image8.jpg)
 8. Make a change and click **Update**. The products list is shown again with your updated data.
 
 ## Deleting Data in a Database
@@ -343,7 +343,7 @@ This section shows how to let users delete a product from the *Product* database
     The code runs a SQL statement that deletes the specified record and then redirects the user back to the listing page.
 5. Run *ListProductsForDelete.cshtml* in a browser.
 
-    ![[image]](5-working-with-data/_static/image9.jpg)
+    ![[Screenshot shows running list products for delete dot CSHTML in the browser.]](5-working-with-data/_static/image9.jpg)
 6. Click the **Delete** link for one of the products. The *DeleteProduct.cshtml* page is displayed to confirm that you want to delete that record.
 7. Click the **Delete** button. The product record is deleted and the page is refreshed with an updated product listing.
 

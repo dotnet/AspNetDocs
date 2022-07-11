@@ -2,7 +2,7 @@
 uid: web-forms/overview/older-versions-getting-started/deploying-web-site-projects/strategies-for-database-development-and-deployment-vb
 title: "Strategies for Database Development and Deployment (VB) | Microsoft Docs"
 author: rick-anderson
-description: "When deploying a data-driven application for the first time you can blindly copy the database in the development environment to the production environment. B..."
+description: "When deploying a data-driven application for the first time you can blindly copy the database in the development environment to the production environment. B... (VB)"
 ms.author: riande
 ms.date: 04/23/2009
 ms.assetid: 07b8905d-78ac-4252-97fb-8675b3fb0bbf

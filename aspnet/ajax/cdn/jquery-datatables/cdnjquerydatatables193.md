@@ -2,7 +2,7 @@
 uid: ajax/cdn/jquery-datatables/cdnjquerydatatables193
 title: "jQuery DataTables 1.9.3 | Microsoft Docs"
 author: rick-anderson
-description: ""
+description: "Provides a list of files for the jQuery DataTables 1.9.3 plugins that are hosted on the CDN."
 ms.author: riande
 ms.date: 07/23/2014
 ms.assetid: 90ba3e9a-ff80-4049-9ad4-08571cdf3880

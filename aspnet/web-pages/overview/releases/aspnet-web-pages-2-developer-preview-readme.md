@@ -1,6 +1,7 @@
 ---
 uid: web-pages/overview/releases/aspnet-web-pages-2-developer-preview-readme
 title: "ASP.NET Web Pages 2 Developer Preview ReadMe | Microsoft Docs"
+description: This ReadMe provides installation notes and descriptions of fixes, known issues, and changes for the developer preview release of ASP.Net Web Pages 2.
 author: rick-anderson
 description: ""
 ms.author: riande

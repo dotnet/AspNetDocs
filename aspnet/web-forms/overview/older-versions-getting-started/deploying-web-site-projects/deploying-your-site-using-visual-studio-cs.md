@@ -2,7 +2,7 @@
 uid: web-forms/overview/older-versions-getting-started/deploying-web-site-projects/deploying-your-site-using-visual-studio-cs
 title: "Deploying Your Site Using Visual Studio (C#) | Microsoft Docs"
 author: rick-anderson
-description: "Visual Studio includes tools for deploying a website. Learn more about these tools in this tutorial."
+description: "Visual Studio includes tools for deploying a website. Learn more about these tools in this tutorial. (C#)"
 ms.author: riande
 ms.date: 04/01/2009
 ms.assetid: cde4ee53-a5d0-4937-a54b-67877e8266c3
@@ -50,7 +50,7 @@ You can connect to the destination website by selecting one of the four options 
 
 Most web host providers support FTP, but fewer offer FrontPage Server Extension support. For that reason, I've selected the FTP Site option and then entered the connection information as shown in Figure 2.
 
-[![Specify the Destination Website](deploying-your-site-using-visual-studio-cs/_static/image5.png)](deploying-your-site-using-visual-studio-cs/_static/image4.png)
+[![Screenshot of the Open Web Site dialog, which shows the connection information is filled into the text fields.](deploying-your-site-using-visual-studio-cs/_static/image5.png)](deploying-your-site-using-visual-studio-cs/_static/image4.png)
 
 **Figure 2**: Specify the Destination Website ([Click to view full-size image](deploying-your-site-using-visual-studio-cs/_static/image6.png))
 
@@ -95,7 +95,7 @@ Let's look at deploying the Book Reviews application using the Publish option. S
 
 There's also an option to upload the contents of the `App_Data` folder.
 
-[![Specify the Destination Website](deploying-your-site-using-visual-studio-cs/_static/image17.png)](deploying-your-site-using-visual-studio-cs/_static/image16.png)
+[![Screenshot of the Publish Web dialog, which shows the filled Delete all existing files prior to publish and Only files needed to run checkboxes.](deploying-your-site-using-visual-studio-cs/_static/image17.png)](deploying-your-site-using-visual-studio-cs/_static/image16.png)
 
 **Figure 6**: Specify the Destination Website ([Click to view full-size image](deploying-your-site-using-visual-studio-cs/_static/image18.png))
 

@@ -53,7 +53,7 @@ When users enter values into an HTML form, the values that they enter are string
 
 You might also have certain restrictions on the values. Even if users correctly enter an integer, for example, you might need to make sure that the value falls within a certain range.
 
-![Validation errors that use CSS style classes](validating-user-input-in-aspnet-web-pages-sites/_static/image1.png)
+![Screenshot shows Validation errors that use CSS style classes.](validating-user-input-in-aspnet-web-pages-sites/_static/image1.png)
 
 > [!NOTE] 
 > 

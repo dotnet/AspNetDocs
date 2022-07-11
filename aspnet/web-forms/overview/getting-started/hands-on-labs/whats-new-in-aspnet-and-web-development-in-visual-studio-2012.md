@@ -75,12 +75,12 @@ Visual Studio now includes features that help developers access, work and organi
 In this task, you will discover the new features of the CSS Editor. This new editor will help you increase your productivity by taking advantage of the new smart indentation, the improved code comments and the enhanced IntelliSense list.
 
 1. Start **Visual Studio** and open the **WhatsNewASPNET.sln** solution located in the **Source\WhatsNewASPNET** folder of this lab.
-2. In Solution Explorer, open the **Site.css** file located under the **Styles** folder. Make sure the **Text Editor** tools are visible on the toolbar. To do that, select the **View** | **Toolbars** menu option, and check the **Text Editor** options. You will notice that, since this new version, the **Comment** button (![comment-button](whats-new-in-aspnet-and-web-development-in-visual-studio-2012/_static/image1.png) ) and the **Uncomment** button (![uncomment-button](whats-new-in-aspnet-and-web-development-in-visual-studio-2012/_static/image2.png) ) are also enabled for the CSS editor.
+2. In Solution Explorer, open the **Site.css** file located under the **Styles** folder. Make sure the **Text Editor** tools are visible on the toolbar. To do that, select the **View** | **Toolbars** menu option, and check the **Text Editor** options. You will notice that, since this new version, the **Comment** button (:::image type="icon" source="whats-new-in-aspnet-and-web-development-in-visual-studio-2012/_static/image1.png":::) and the **Uncomment** button (:::image type="icon" source="whats-new-in-aspnet-and-web-development-in-visual-studio-2012/_static/image2.png":::) are also enabled for the CSS editor.
 
     ![Enabling Editor and CSS Tools](whats-new-in-aspnet-and-web-development-in-visual-studio-2012/_static/image3.png "Enabling Editor and CSS Tools")
 
     *Enabling Editor and CSS Tools*
-3. Scroll the code and select any CSS class definition. Click the **Comment** (![comment-button](whats-new-in-aspnet-and-web-development-in-visual-studio-2012/_static/image4.png) ) button to comment the selected lines. Then, click the **Uncomment** (![uncomment-button](whats-new-in-aspnet-and-web-development-in-visual-studio-2012/_static/image5.png) ) button to undo the changes.
+3. Scroll the code and select any CSS class definition. Click the **Comment** (:::image type="icon" source="whats-new-in-aspnet-and-web-development-in-visual-studio-2012/_static/image4.png":::) button to comment the selected lines. Then, click the **Uncomment** (:::image type="icon" source="whats-new-in-aspnet-and-web-development-in-visual-studio-2012/_static/image5.png":::) button to undo the changes.
 4. Click the **Collapse** (![collapse](whats-new-in-aspnet-and-web-development-in-visual-studio-2012/_static/image6.png) ) and **Expand** (![expand](whats-new-in-aspnet-and-web-development-in-visual-studio-2012/_static/image7.png) ) buttons located on the left margin of the text. Notice that you can now hide the styles you don't use to have a cleaner view.
 
     ![Collapsing CSS classes](whats-new-in-aspnet-and-web-development-in-visual-studio-2012/_static/image8.png "Collapsing CSS classes")
@@ -214,7 +214,7 @@ In this task, you will change the DOCTYPE of a page to see how the HTML editor b
 2. Open the **Site.Master** page.
 3. Notice the Target Schema for Validation Toolbar. The way the HTML editor behaves (Validation, IntelliSense, etc.) will properly change to fit the Doctype selected.
 
-    ![Use Doctype in HTML Source Editing toolbar](whats-new-in-aspnet-and-web-development-in-visual-studio-2012/_static/image22.png "Use Doctype in HTML Source Editing toolbar")
+    ![Screenshot showing the Target Schema for Validation Toolbar with DOCTYPE: XHTML5 selected from the dropdown list.](whats-new-in-aspnet-and-web-development-in-visual-studio-2012/_static/image22.png "Use Doctype in HTML Source Editing toolbar")
 
     *Use Doctype in HTML Source Editing toolbar*
 4. Change the Target Schema to HTML 4.01.
@@ -229,7 +229,7 @@ In this task, you will change the DOCTYPE of a page to see how the HTML editor b
     *HTML5 elements not listed*
 6. Undo the changes to the Target Schema for Validation Toolbar, picking DOCTYPE: XHTML5 from the dropdown list.
 
-    ![Use Doctype in HTML Source Editing toolbar](whats-new-in-aspnet-and-web-development-in-visual-studio-2012/_static/image25.png "Use Doctype in HTML Source Editing toolbar")
+    ![Screenshot of the Target Schema for Validation Toolbar with DOCTYPE: XHTML5 selected from the dropdown list.](whats-new-in-aspnet-and-web-development-in-visual-studio-2012/_static/image25.png "Use Doctype in HTML Source Editing toolbar")
 
     *Reset Doctype in HTML Source Editing toolbar*
 7. Place the cursor under the **body** element and start typing an HTML5 element again (For example, like **video**). Notice that the HTML5 elements are now available in the IntelliSense list.

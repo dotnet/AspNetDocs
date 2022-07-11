@@ -109,7 +109,7 @@ You're not done yet, but now is a good time to test.
 
 In the tree view of files in WebMatrix, right-click the *AddMovie.cshtml* page and then click **Launch in browser**.
 
-!['Add Movie' page in browser](entering-data/_static/image2.png)
+![Screenshot shows the 'Add Movie' page in browser.](entering-data/_static/image2.png)
 
 (If you end up with a different page in the browser, make sure that the URL is `http://localhost:nnnnn/AddMovie`), where *nnnnn* is the port number that you're using.)
 

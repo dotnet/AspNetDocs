@@ -2,7 +2,7 @@
 uid: visual-studio/overview/2012/visual-studio-2012-css-editor
 title: "Visual Studio 2012 CSS Editor | Microsoft Docs"
 author: shanselman
-description: ""
+description: This topic provides a 4 minute video that shows the features inside of the Visual Studio 2012 CSS Editor.
 ms.author: riande
 ms.date: 08/15/2012
 ms.assetid: aba1e91b-57cf-4c02-9ab1-5374310be497

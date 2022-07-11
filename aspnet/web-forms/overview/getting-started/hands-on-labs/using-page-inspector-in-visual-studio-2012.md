@@ -120,7 +120,7 @@ In this task, you will learn how to use the Page Inspector in the context of an 
     *Toggle Inspection Mode button*
 6. In the Page Inspector browser, move the mouse pointer over the page elements. While you move the mouse pointer over any part of the rendered page, the element type is displayed and the corresponding source markup or code is highlighted in the Visual Studio editor.
 
-    ![Inspection mode in action](using-page-inspector-in-visual-studio-2012/_static/image5.png)
+    ![Screenshot showing the Page Inspector window and the Visual Studio editor with the element type displayed and the corresponding source markup highlighted.](using-page-inspector-in-visual-studio-2012/_static/image5.png)
 
     *Inspection mode in action*
 
@@ -129,7 +129,7 @@ In this task, you will learn how to use the Page Inspector in the context of an 
 
     If you pay attention to the **Index.cshtml** file, you will notice that the portion of source code that generates the selected element is highlighted. This feature facilitates the editing of long source files, providing a direct and fast way to access the code.
 
-    ![Inspecting elements](using-page-inspector-in-visual-studio-2012/_static/image6.png)
+    ![Screenshot of the Page Inspector window and the Visual Studio editor Index.cshtml file showing that the portion of source code generating the selected element is highlighted.](using-page-inspector-in-visual-studio-2012/_static/image6.png)
 
     *Inspecting elements*
 7. Click the **Toggle Inspection Mode** button (![Select the HTML tab to display the HTML code rendered in the Page Inspector browser.](using-page-inspector-in-visual-studio-2012/_static/image7.png "Select the HTML tab to display the HTML code rendered in the Page Inspector browser.") ) to disable the cursor.
@@ -151,7 +151,7 @@ In this task, you will learn how to use the Page Inspector in the context of an 
     *Discovering styles and source files of a selected element*
 11. With the toggle inspection pointer enabled, move the mouse pointer below the blue featured bar and click the half circle.
 
-    ![Selecting an element](using-page-inspector-in-visual-studio-2012/_static/image10.png "Selecting an element")
+    ![Screenshot of the Page Inspector window showing the mouse pointer selecting the half circle below the blue featured bar in the upper left of the screen.](using-page-inspector-in-visual-studio-2012/_static/image10.png "Selecting an element")
 
     *Selecting an element*
 12. In the Styles pane, locate the **background-image** item under the **.main-content** group. **Uncheck** the **background-image** and see what happens. You will notice that the browser will reflect the changes immediately and the circle is hidden.
@@ -175,7 +175,7 @@ In this task, you will learn how to use the Page Inspector in the context of an 
     *CSS styles tracing of the selected element*
 16. Another feature of Page Inspector is the Layout pane. Using the inspection mode, select the navigation bar and then click the **Layout** tab on the right pane. You will see the exact size of the selected element, as well as its offset, margin, padding and border size. Notice that you can also modify the values from this view.
 
-    ![Element layout in Page Inspector](using-page-inspector-in-visual-studio-2012/_static/image14.png "Element layout in Page Inspector")
+    ![Screenshot showing the navigation bar with the Layout tab selected displaying a diagram of the element layout.](using-page-inspector-in-visual-studio-2012/_static/image14.png "Element layout in Page Inspector")
 
     *Element layout in Page Inspector*
 
@@ -212,7 +212,7 @@ In this task, you will use the Page inspector and fix some issues the Photo Gall
 
     Notice that the **#login** style is automatically located in **Site.css** after you click. Moreover, the code is now highlighted.
 
-    ![Selecting the CSS styles](using-page-inspector-in-visual-studio-2012/_static/image16.png "Selecting the CSS styles")
+    ![Screenshot of the Styles tab, on the navigation bar the CSS styles for login is selected with the corresponding code highlighted.](using-page-inspector-in-visual-studio-2012/_static/image16.png "Selecting the CSS styles")
 
     *Selecting the CSS styles*
 4. Uncomment the **text-align** attribute in the highlighted code by removing the opening and closing characters and save the **Site.css** file.
@@ -220,28 +220,28 @@ In this task, you will use the Page inspector and fix some issues the Photo Gall
     Page Inspector is aware of all the different files that compose the current page, and it can detect when any of these files change. It alerts you whenever the current page in browser is not in sync with the source files.
 5. In the Page Inspector browser, click the bar located below the address bar to reload the page.
 
-    ![Reloading the page](using-page-inspector-in-visual-studio-2012/_static/image17.png)
+    ![Screenshot of the Page Inspector browser displaying the bar located below the address bar that is used to save the changes and reload the page.](using-page-inspector-in-visual-studio-2012/_static/image17.png)
 
     *Reloading the page*
 
     The links are now at the right, but they still look like a bulleted list. Now, you will remove the bullets and align the links horizontally.
 
-    ![Updated page](using-page-inspector-in-visual-studio-2012/_static/image18.png)
+    ![Screenshot of the upper right of the Page Inspector window showing the Register and Log in links displayed as a bulleted list.](using-page-inspector-in-visual-studio-2012/_static/image18.png)
 
     *Updated page*
 6. Using the inspection mode, select any of the **&lt;li&gt;** items that contain the &quot;Register&quot; and &quot;Log in&quot; links. Then, click the **&lt;section&gt; #login** item to access **Styles.css** code.
 
-    ![Finding the style](using-page-inspector-in-visual-studio-2012/_static/image19.png "Finding the style")
+    ![Screenshot showing the Page Inspector window in inspection mode and selecting the Register and Log in links to access Styles.css code.](using-page-inspector-in-visual-studio-2012/_static/image19.png "Finding the style")
 
     *Finding the style*
 7. In **Style.css**, uncomment the code for **#login li** items. The style you are adding will hide the bullet and display the items horizontally.
 
-    ![Restyling the login links](using-page-inspector-in-visual-studio-2012/_static/image20.png "Restyling the login links")
+    ![Screenshot of Style.css restyling the login links to display horizontally.](using-page-inspector-in-visual-studio-2012/_static/image20.png "Restyling the login links")
 
     *Restyling the login links*
 8. Save **Style.css** file and click once on the bar located below the address to reload the page. Notice that the links appear correctly.
 
-    ![Links aligned to the right side](using-page-inspector-in-visual-studio-2012/_static/image21.png "Links aligned to the right side")
+    ![Screenshot of the upper right of the Page Inspector window showing the Register and Log in links aligned horizontally.](using-page-inspector-in-visual-studio-2012/_static/image21.png "Links aligned to the right side")
 
     *Links aligned to the right side*
 9. Finally, you will change the header title. Use the inspection mode to click **your logo here** text and get to the source code that generates it.
@@ -311,7 +311,7 @@ In this task, you will learn how to use the Page Inspector features in the conte
     *Toggle Inspection Mode button*
 6. In the Page Inspector browser, move the mouse over the page elements. While you move the mouse pointer over any part of the rendered page, the element type is displayed and the corresponding source markup or code is highlighted in the Visual Studio editor.
 
-    ![Inspection mode in action](using-page-inspector-in-visual-studio-2012/_static/image28.png "Inspection mode in action")
+    ![Screenshot of the Page Inspector window and the Visual Studio editor with the element type displayed and the corresponding code is highlighted.](using-page-inspector-in-visual-studio-2012/_static/image28.png "Inspection mode in action")
 
     *Inspection mode in action*
 
@@ -320,7 +320,7 @@ In this task, you will learn how to use the Page Inspector features in the conte
 
     If you pay attention to **Default.aspx** file, you will notice that the portion of source code that generates the selected element is highlighted. This feature facilitates the edition of long source files, providing a direct and fast way to access the code.
 
-    ![Inspecting elements](using-page-inspector-in-visual-studio-2012/_static/image29.png "Inspecting elements")
+    ![Screenshot of the Page Inspector window and the Visual Studio editor Default.aspx file showing that the portion of source code generating the selected element is highlighted.](using-page-inspector-in-visual-studio-2012/_static/image29.png "Inspecting elements")
 
     *Inspecting elements*
 7. Click the **Toggle Inspection Mode** button (![Select-the-HTML-tab-to-display-the-HTML-code-rendered-in-the-Page-Inspector-browser.](using-page-inspector-in-visual-studio-2012/_static/image30.png "Select-the-HTML-tab-to-display-the-HTML-code-rendered-in-the-Page-Inspector-browser.") ), located in Page Inspector tabs, to disable the cursor.
@@ -342,7 +342,7 @@ In this task, you will learn how to use the Page Inspector features in the conte
     *Discovering styles and source files of a selected element*
 11. With the toggle inspection pointer enabled, move the mouse pointer below the menu bar and click the blank half circle.
 
-    ![Selecting an element](using-page-inspector-in-visual-studio-2012/_static/image33.png "Selecting an element")
+    ![Screenshot of the upper left of the Page Inspector window showing the mouse pointer selecting the half circle below the blue featured bar.](using-page-inspector-in-visual-studio-2012/_static/image33.png "Selecting an element")
 
     *Selecting an element*
 12. In the Styles pane, locate the **background-image** item under the **.main-content** group. **Uncheck** the **background-image** and see what happens. You will notice that the browser will reflect the changes immediately and the circle is hidden.
@@ -366,7 +366,7 @@ In this task, you will learn how to use the Page Inspector features in the conte
     *CSS styles tracing of the selected element*
 16. Another feature of Page Inspector is the Layout pane. Using the inspection mode, select the navigation bar and then click the **Layout** tab on the right pane. You will see the exact size of the selected element, as well as its offset, margin, padding and border size. Notice that you can also modify the values from this view.
 
-    ![Element layout in Page Inspector](using-page-inspector-in-visual-studio-2012/_static/image37.png "Element layout in Page Inspector")
+    ![Screenshot of the navigation bar with the Layout tab selected displaying a diagram of the element layout.](using-page-inspector-in-visual-studio-2012/_static/image37.png "Element layout in Page Inspector")
 
     *Element layout in Page Inspector*
 
@@ -403,7 +403,7 @@ In this task, you will use the Page inspector for fixing some issues of the Phot
 
     Notice that the **#login** style is automatically located in **Site.css** after you click. Moreover, the code is now highlighted.
 
-    ![Selecting the CSS styles](using-page-inspector-in-visual-studio-2012/_static/image39.png "Selecting the CSS styles")
+    ![Screenshot showing the Styles tab on the navigation bar the CSS styles for login is selected with the corresponding code highlighted.](using-page-inspector-in-visual-studio-2012/_static/image39.png "Selecting the CSS styles")
 
     *Selecting the CSS styles*
 4. Uncomment the **text-align** attribute in the highlighted code by removing the opening and closing characters and save the **Site.css** file.
@@ -411,28 +411,28 @@ In this task, you will use the Page inspector for fixing some issues of the Phot
     Page Inspector is aware of all the different files that compose the current page, and it can detect when any of these files change. It alerts you whenever the current page in browser is not in sync with the source files.
 5. In the Page Inspector browser, click the bar located below the address bar to save the changes and reload the page.
 
-    ![Reloading the page](using-page-inspector-in-visual-studio-2012/_static/image40.png)
+    ![Screenshot of the Page Inspector browser showing the bar located below the address bar that is used to save the changes and reload the page.](using-page-inspector-in-visual-studio-2012/_static/image40.png)
 
     *Reloading the page*
 
     The links are now at the right, but they still look like a bulleted list. Now, you will remove the bullets and align the links horizontally.
 
-    ![Updated page](using-page-inspector-in-visual-studio-2012/_static/image41.png)
+    ![Screenshot displaying the upper right of the Page Inspector window showing the Register and Log in links as a bulleted list.](using-page-inspector-in-visual-studio-2012/_static/image41.png)
 
     *Updated page*
 6. Using the inspection mode, select any of the **&lt;li&gt;** items that contain the &quot;Register&quot; and &quot;Log in&quot; links. Then, click the **&lt;section&gt; #login** item to access **Styles.css** code.
 
-    ![Finding the style](using-page-inspector-in-visual-studio-2012/_static/image42.png "Finding the style")
+    ![Screenshot of the Page Inspector window in inspection mode and selecting the Register and Log in links to access Styles.css code.](using-page-inspector-in-visual-studio-2012/_static/image42.png "Finding the style")
 
     *Finding the style*
 7. In **Style.css**, uncomment the code for **#login li** items. The style you are adding will hide the bullet and display the items horizontally.
 
-    ![Restyling the login links](using-page-inspector-in-visual-studio-2012/_static/image43.png "Restyling the login links")
+    ![Screenshot of Style.css adding the style so the login links will display horizontally.](using-page-inspector-in-visual-studio-2012/_static/image43.png "Restyling the login links")
 
     *Restyling the login links*
 8. Save **Style.css** file and click once on the bar located below the address to reload the page. Notice that the links appear correctly.
 
-    ![Links aligned to the right side](using-page-inspector-in-visual-studio-2012/_static/image44.png "Links aligned to the right side")
+    ![Screenshot showing the upper right of the Page Inspector window displaying the links Register and Log in aligned horizontally.](using-page-inspector-in-visual-studio-2012/_static/image44.png "Links aligned to the right side")
 
     *Links aligned to the right side*
 9. Finally, you will change the header title. Instead of searching for the '**your logo here'** text in all the files, use the inspection mode to click the text and get to source code that generates it.

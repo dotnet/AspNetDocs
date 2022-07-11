@@ -2,7 +2,7 @@
 uid: web-forms/overview/data-access/enhancing-the-gridview/adding-a-gridview-column-of-checkboxes-cs
 title: "Adding a GridView Column of Checkboxes (C#) | Microsoft Docs"
 author: rick-anderson
-description: "This tutorial looks at how to add a column of check boxes to a GridView control to provide the user with an intuitive way of selecting multiple rows of the G..."
+description: "This tutorial looks at how to add a column of check boxes to a GridView control to provide the user with an intuitive way of selecting multiple rows of the G... (C#)"
 ms.author: riande
 ms.date: 03/06/2007
 ms.assetid: f63a9443-2db0-4f80-8246-840d3e86c2a3

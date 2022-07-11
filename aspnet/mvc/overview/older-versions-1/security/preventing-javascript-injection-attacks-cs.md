@@ -2,7 +2,7 @@
 uid: mvc/overview/older-versions-1/security/preventing-javascript-injection-attacks-cs
 title: "Preventing JavaScript Injection Attacks (C#) | Microsoft Docs"
 author: StephenWalther
-description: "Prevent JavaScript Injection Attacks and Cross-Site Scripting Attacks from happening to you. In this tutorial, Stephen Walther explains how you can easily de..."
+description: "Prevent JavaScript Injection Attacks and Cross-Site Scripting Attacks from happening to you. In this tutorial, Stephen Walther explains how you can easily de... (C#)"
 ms.author: riande
 ms.date: 08/19/2008
 ms.assetid: d0136da6-81a4-4815-b002-baa84744c09e

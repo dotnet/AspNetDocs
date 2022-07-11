@@ -106,7 +106,7 @@ The user name is used as the ID to find the selected record in the **Edit**, **D
 
 The next step is to add a `Details` action method and view in order to display user details.
 
-![Details](creating-a-mvc-3-application-with-razor-and-unobtrusive-javascript/_static/image10.png)
+![Screenshot shows the Details Fields with UserName, FirstName, LastName, and City for a user.](creating-a-mvc-3-application-with-razor-and-unobtrusive-javascript/_static/image10.png)
 
 Add the following `Details` method to the home controller:
 
@@ -118,7 +118,7 @@ Right-click inside the `Details` method and then select <strong>Add View</strong
 
 Run the application and select a details link. The automatic scaffolding shows each property in the model.
 
-![Details](creating-a-mvc-3-application-with-razor-and-unobtrusive-javascript/_static/image12.png)
+![Screenshot shows the Details Fields with values for a user.](creating-a-mvc-3-application-with-razor-and-unobtrusive-javascript/_static/image12.png)
 
 ## Creating the Edit View
 

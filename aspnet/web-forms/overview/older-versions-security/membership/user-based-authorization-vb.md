@@ -2,7 +2,7 @@
 uid: web-forms/overview/older-versions-security/membership/user-based-authorization-vb
 title: "User-Based Authorization (VB) | Microsoft Docs"
 author: rick-anderson
-description: "In this tutorial we will look at limiting access to pages and restricting page-level functionality through a variety of techniques."
+description: "In this tutorial we will look at limiting access to pages and restricting page-level functionality through a variety of techniques. (VB)"
 ms.author: riande
 ms.date: 01/18/2008
 ms.assetid: bc937e9d-5c14-4fc4-aec7-440da924dd18

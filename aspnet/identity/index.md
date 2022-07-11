@@ -2,7 +2,7 @@
 uid: identity/index
 title: "ASP.NET Identity | Microsoft Docs"
 author: rick-anderson
-description: ""
+description: This index topic provides a list of topics related to ASP.NET Identity, a cross-platform modern membership system.
 ms.author: riande
 ms.date: 10/02/2013
 ms.assetid: 0c2df5d4-c2dd-486d-b0ed-fe831c6b596c

@@ -244,12 +244,12 @@ In this task, you will check that the Store Index page will now display the Genr
 1. Rebuild the solution and press **F5** to run the Application.
 2. The project starts in the Home page. Verify that the menu of **Genres** is no longer a hardcoded list, and the data is directly retrieved from the database.
 
-    ![BrowsingGenresFromDataBase](aspnet-mvc-4-models-and-data-access/_static/image16.png)
+    ![Screenshot shows a music genre page where you can verify the Genres menu.](aspnet-mvc-4-models-and-data-access/_static/image16.png)
 
     *Browsing Genres from the database*
 3. Now browse to any genre and verify the albums are populated from database.
 
-    ![Browsing Albums from the database](aspnet-mvc-4-models-and-data-access/_static/image17.png "Browsing Albums from the database")
+    ![Screenshot shows a view where you can browse albums from the database.](aspnet-mvc-4-models-and-data-access/_static/image17.png "Browsing Albums from the database")
 
     *Browsing Albums from the database*
 
@@ -410,12 +410,12 @@ In this task, you will check that the Store Index page will now display the Genr
 1. Rebuild the solution and press **F5** to run the Application.
 2. The project starts in the Home page. Verify that the menu of **Genres** is no longer a hardcoded list, and the data is directly retrieved from the database.
 
-    ![BrowsingGenresFromDataBase](aspnet-mvc-4-models-and-data-access/_static/image22.png)
+    ![Screenshot shows a music genre page where you can verify that the Genres menu is retrieved from the database.](aspnet-mvc-4-models-and-data-access/_static/image22.png)
 
     *Browsing Genres from the database*
 3. Now browse to any genre and verify the albums are populated from database.
 
-    ![Browsing Albums from the database](aspnet-mvc-4-models-and-data-access/_static/image23.png "Browsing Albums from the database")
+    ![Screenshot shows a view where you verify that the albums are populated from the database.](aspnet-mvc-4-models-and-data-access/_static/image23.png "Browsing Albums from the database")
 
     *Browsing Albums from the database*
 

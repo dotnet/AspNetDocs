@@ -2,7 +2,7 @@
 uid: mvc/overview/older-versions-1/controllers-and-routing/creating-a-controller-vb
 title: "Creating a Controller (VB) | Microsoft Docs"
 author: StephenWalther
-description: "In this tutorial, Stephen Walther demonstrates how you can add a controller to an ASP.NET MVC application."
+description: "In this tutorial, Stephen Walther demonstrates how you can add a controller to an ASP.NET MVC application. (VB)"
 ms.author: riande
 ms.date: 03/02/2009
 ms.assetid: 204b7e86-f560-4611-8adb-785b33e777b9
@@ -21,11 +21,11 @@ The goal of this tutorial is to explain how you can create new ASP.NET MVC contr
 
 The easiest way to create a new controller is to right-click the Controllers folder in the Visual Studio Solution Explorer window and select the **Add, Controller** menu option (see Figure 1). Selecting this menu option opens the **Add Controller** dialog (see Figure 2).
 
-[![The New Project dialog box](creating-a-controller-vb/_static/image1.jpg)](creating-a-controller-vb/_static/image1.png)
+[![Screenshot of the Visual Studio Solution Explorer window, which is showing the Add and Controller options in the right-click menu.](creating-a-controller-vb/_static/image1.jpg)](creating-a-controller-vb/_static/image1.png)
 
 **Figure 01**: Adding a new controller([Click to view full-size image](creating-a-controller-vb/_static/image2.png))
 
-[![The New Project dialog box](creating-a-controller-vb/_static/image2.jpg)](creating-a-controller-vb/_static/image3.png)
+[![Screenshot of the Add Controller dialog box, which is showing Default 1 Controller in the Controller Name field.](creating-a-controller-vb/_static/image2.jpg)](creating-a-controller-vb/_static/image3.png)
 
 **Figure 02**: The Add Controller dialog ([Click to view full-size image](creating-a-controller-vb/_static/image4.png))
 

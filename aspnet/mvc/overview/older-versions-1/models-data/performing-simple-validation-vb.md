@@ -2,7 +2,7 @@
 uid: mvc/overview/older-versions-1/models-data/performing-simple-validation-vb
 title: "Performing Simple Validation (VB) | Microsoft Docs"
 author: StephenWalther
-description: "Learn how to perform validation in an ASP.NET MVC application. In this tutorial, Stephen Walther introduces you to model state and the validation HTML helper..."
+description: "Learn how to perform validation in an ASP.NET MVC application. In this tutorial, Stephen Walther introduces you to model state and the validation HTML helper... (VB)"
 ms.author: riande
 ms.date: 03/02/2009
 ms.assetid: df6cf4b7-0bb3-4c4e-b17a-bd78a759a6bc
@@ -45,11 +45,11 @@ The Html.ValidationMessage() and Html.ValidationSummary() helpers are used in th
 
 Make sure that you build your application before adding a view. Otherwise, the list of classes won't appear in the **View data class** dropdown list.
 
-[![The New Project dialog box](performing-simple-validation-vb/_static/image1.jpg)](performing-simple-validation-vb/_static/image1.png)
+[![Screenshot of the Product Controller dot c s file in the code editor, which is showing the right-click menu with the highlighted Add View menu item.](performing-simple-validation-vb/_static/image1.jpg)](performing-simple-validation-vb/_static/image1.png)
 
 **Figure 01**: Adding a view([Click to view full-size image](performing-simple-validation-vb/_static/image2.png))
 
-[![The New Project dialog box](performing-simple-validation-vb/_static/image2.jpg)](performing-simple-validation-vb/_static/image3.png)
+[![Screenshot of the Add View dialog box, which is showing that the Create a strongly-typed view checkbox is filled.](performing-simple-validation-vb/_static/image2.jpg)](performing-simple-validation-vb/_static/image3.png)
 
 **Figure 02**: Creating a strongly-typed view ([Click to view full-size image](performing-simple-validation-vb/_static/image4.png))
 
@@ -65,7 +65,7 @@ The Html.ValidationMessage() helper is called next to each of the HTML form fiel
 
 The page in Figure 3 illustrates the error messages rendered by the validation helpers when the form is submitted with missing fields and invalid values.
 
-[![The New Project dialog box](performing-simple-validation-vb/_static/image3.jpg)](performing-simple-validation-vb/_static/image5.png)
+[![Screenshot of the Internet Explorer window, which is showing the Create view with error messages resulting from fields filled with invalid values.](performing-simple-validation-vb/_static/image3.jpg)](performing-simple-validation-vb/_static/image5.png)
 
 **Figure 03**: The Create view submitted with problems ([Click to view full-size image](performing-simple-validation-vb/_static/image6.png))
 
@@ -87,7 +87,7 @@ You can modify these cascading style sheet classes, and therefore modify the app
 
 If you submit the HTML form for creating a Product, and you enter an invalid value for the price field and no value for the UnitsInStock field, then you'll get the validation messages displayed in Figure 4. Where do these validation error messages come from?
 
-[![The New Project dialog box](performing-simple-validation-vb/_static/image4.jpg)](performing-simple-validation-vb/_static/image7.png)
+[![Screenshot of the Internet Explorer window, which is showing the Price and Units in Stock fields are flagging validation errors.](performing-simple-validation-vb/_static/image4.jpg)](performing-simple-validation-vb/_static/image7.png)
 
 **Figure 04**: Prebinding Validation Errors([Click to view full-size image](performing-simple-validation-vb/_static/image8.png))
 

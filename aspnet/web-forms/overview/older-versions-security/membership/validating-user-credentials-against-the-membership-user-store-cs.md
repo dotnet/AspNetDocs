@@ -2,7 +2,7 @@
 uid: web-forms/overview/older-versions-security/membership/validating-user-credentials-against-the-membership-user-store-cs
 title: "Validating User Credentials Against the Membership User Store (C#) | Microsoft Docs"
 author: rick-anderson
-description: "In this tutorial we will examine how to validate a user's credentials against the Membership user store using both programmatic means and the Login control...."
+description: "In this tutorial we will examine how to validate a user's credentials against the Membership user store using both programmatic means and the Login control.... (C#)"
 ms.author: riande
 ms.date: 01/18/2008
 ms.assetid: 61aa4e08-aa81-4aeb-8ebe-19ba7a65e04c
@@ -98,7 +98,7 @@ The Login control uses four factors to determine the appropriate page to redirec
 
 Figure 4 depicts the how the Login control uses these four parameters to arrive at its appropriate page decision.
 
-[![Add a Login Control to the Page](validating-user-credentials-against-the-membership-user-store-cs/_static/image11.png)](validating-user-credentials-against-the-membership-user-store-cs/_static/image10.png)
+[![The Login control uses four parameters to arrive at its appropriate page decision.](validating-user-credentials-against-the-membership-user-store-cs/_static/image11.png)](validating-user-credentials-against-the-membership-user-store-cs/_static/image10.png)
 
 **Figure 4**: Add a Login Control to the Page  ([Click to view full-size image](validating-user-credentials-against-the-membership-user-store-cs/_static/image12.png))
 

@@ -2,7 +2,7 @@
 uid: web-forms/overview/older-versions-getting-started/deploying-web-site-projects/configuring-a-website-that-uses-application-services-vb
 title: "Configuring a Website that Uses Application Services (VB) | Microsoft Docs"
 author: rick-anderson
-description: "ASP.NET version 2.0 introduced a series of application services, which are part of the .NET Framework and serve as a suite of building block services that yo..."
+description: "ASP.NET version 2.0 introduced a series of application services, which are part of the .NET Framework and serve as a suite of building block services that yo... (VB)"
 ms.author: riande
 ms.date: 04/23/2009
 ms.assetid: 9c31a42f-d8bb-4c0f-9ccc-597d4f70ac42
@@ -166,7 +166,7 @@ For more information on the topics discussed in this tutorial, refer to the foll
 - [*ASP.NET SQL Server Registration Tool (aspnet_regsql.exe)*](https://msdn.microsoft.com/library/ms229862.aspx)
 - [*Creating the Application Services Database for SQL Server*](https://msdn.microsoft.com/library/x28wfk74.aspx)
 - [*Creating the Membership Schema in SQL Server*](../../older-versions-security/membership/creating-the-membership-schema-in-sql-server-vb.md)
-- [*Examining ASP.NET s Membership, Roles, and Profile*](https://docs.microsoft.com/en-us/previous-versions/aspnet/yh26yfzy(v=vs.100))
+- [*Examining ASP.NET s Membership, Roles, and Profile*](/previous-versions/aspnet/yh26yfzy(v=vs.100))
 - *Rolling Your Own Web Site Administration Tool*
 - [*Website Security Tutorials*](../../older-versions-security/introduction/security-basics-and-asp-net-support-cs.md)
 - [*Web Site Administration Tool Overview*](https://msdn.microsoft.com/library/yy40ytx0.aspx)

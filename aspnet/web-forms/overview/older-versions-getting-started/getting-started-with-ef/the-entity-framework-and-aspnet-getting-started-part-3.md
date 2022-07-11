@@ -21,13 +21,13 @@ In the previous tutorial you used the `EntityDataSource` control to display and 
 
 You'll change the *Students.aspx* page to filter for students, sort by name, and search on name. You'll also change the *Courses.aspx* page to display courses for the selected department and search for courses by name. Finally, you'll add student statistics to the *About.aspx* page.
 
-[![Image02](the-entity-framework-and-aspnet-getting-started-part-3/_static/image2.png)](the-entity-framework-and-aspnet-getting-started-part-3/_static/image1.png)
+[![Screenshot of the Internet Explorer window, which is showing the Student List view with a table of students.](the-entity-framework-and-aspnet-getting-started-part-3/_static/image2.png)](the-entity-framework-and-aspnet-getting-started-part-3/_static/image1.png)
 
-[![Image11](the-entity-framework-and-aspnet-getting-started-part-3/_static/image4.png)](the-entity-framework-and-aspnet-getting-started-part-3/_static/image3.png)
+[![Screenshot of the Internet Explorer window, which is showing the Courses by Department and Courses by Name views.](the-entity-framework-and-aspnet-getting-started-part-3/_static/image4.png)](the-entity-framework-and-aspnet-getting-started-part-3/_static/image3.png)
 
-[![Image10](the-entity-framework-and-aspnet-getting-started-part-3/_static/image6.png)](the-entity-framework-and-aspnet-getting-started-part-3/_static/image5.png)
+[![Screenshot of the Internet Explorer window, which is showing the Student Body Statistics view with a table of enrollment dates.](the-entity-framework-and-aspnet-getting-started-part-3/_static/image6.png)](the-entity-framework-and-aspnet-getting-started-part-3/_static/image5.png)
 
-[![Image14](the-entity-framework-and-aspnet-getting-started-part-3/_static/image8.png)](the-entity-framework-and-aspnet-getting-started-part-3/_static/image7.png)
+[![Screenshot of the Internet Explorer window, which is showing the Find Students by Name view with the letter g entered into the search query.](the-entity-framework-and-aspnet-getting-started-part-3/_static/image8.png)](the-entity-framework-and-aspnet-getting-started-part-3/_static/image7.png)
 
 ## Using the EntityDataSource "Where" Property to Filter Data
 
@@ -41,7 +41,7 @@ The syntax you use in the `Where` property of the `EntityDataSource` control is 
 
 Run the page. The students list now contains only students. (There are no rows displayed where there's no enrollment date.)
 
-[![Image02](the-entity-framework-and-aspnet-getting-started-part-3/_static/image12.png)](the-entity-framework-and-aspnet-getting-started-part-3/_static/image11.png)
+[![Screenshot of the Internet Explorer window, which shows the Student List view with a table of students.](the-entity-framework-and-aspnet-getting-started-part-3/_static/image12.png)](the-entity-framework-and-aspnet-getting-started-part-3/_static/image11.png)
 
 ## Using the EntityDataSource "OrderBy" Property to Order Data
 
@@ -116,7 +116,7 @@ Add the following markup to create a `GridView` control to display the data.
 
 Run the page to see a list showing the number of students by enrollment date.
 
-[![Image10](the-entity-framework-and-aspnet-getting-started-part-3/_static/image28.png)](the-entity-framework-and-aspnet-getting-started-part-3/_static/image27.png)
+[![Screenshot of the Internet Explorer window, which shows the Student Body Statistics view with a table of enrollment dates.](the-entity-framework-and-aspnet-getting-started-part-3/_static/image28.png)](the-entity-framework-and-aspnet-getting-started-part-3/_static/image27.png)
 
 ## Using the QueryExtender Control for Filtering and Ordering
 
@@ -148,7 +148,7 @@ The first column is a template field that displays the department name. The data
 
 Run the page. The initial display shows a list of all courses in order by department and then by course title.
 
-[![Image11](the-entity-framework-and-aspnet-getting-started-part-3/_static/image30.png)](the-entity-framework-and-aspnet-getting-started-part-3/_static/image29.png)
+[![Screenshot of the Internet Explorer window, which shows the Courses by Department and Courses by Name views.](the-entity-framework-and-aspnet-getting-started-part-3/_static/image30.png)](the-entity-framework-and-aspnet-getting-started-part-3/_static/image29.png)
 
 Enter an "m" and click **Search** to see all courses whose titles begin with "m" (the search is not case sensitive).
 
@@ -170,7 +170,7 @@ Run the page. Initially you see all of the students because the default value fo
 
 Enter the letter "g" in the text box and click **Search**. You see a list of students that have a "g" in either the first or last name.
 
-[![Image14](the-entity-framework-and-aspnet-getting-started-part-3/_static/image36.png)](the-entity-framework-and-aspnet-getting-started-part-3/_static/image35.png)
+[![Screenshot of the Internet Explorer window, which shows the Find Students by Name view with the letter g entered into the search query.](the-entity-framework-and-aspnet-getting-started-part-3/_static/image36.png)](the-entity-framework-and-aspnet-getting-started-part-3/_static/image35.png)
 
 You've now displayed, updated, filtered, ordered, and grouped data from individual tables. In the next tutorial you'll begin to work with related data (master-detail scenarios).
 

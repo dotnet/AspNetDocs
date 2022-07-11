@@ -2,7 +2,7 @@
 uid: ajax/cdn/cdnajax452
 title: "ASP.NET Web Forms and Ajax 4.5.2 | Microsoft Docs"
 author: rick-anderson
-description: ""
+description: "Provides a list of the ASP.NET Web Forms and Ajax 4.5.2 files that are hosted on the CDN."
 ms.author: riande
 ms.date: 11/26/2014
 ms.assetid: 0b25ecc9-b1b0-4738-ad80-09f1e33faf09

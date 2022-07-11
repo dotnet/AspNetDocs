@@ -129,7 +129,7 @@ The download includes resources in the *WingtipToys-Assets* folder that are used
   
     **Solution Explorer** now shows the updated project files. 
 
-    ![UI and Navigation - Solution Explorer](ui_and_navigation/_static/image2.png)
+    ![Screenshot of the Solution Explorer window with the Images folder open containing the updated project file named logo.jpg.](ui_and_navigation/_static/image2.png)
 
 ### Adding Pages
 
@@ -163,7 +163,7 @@ In this tutorial, you will change look and feel of the Wingtip Toys application 
 7. Download both the *bootstrap.css* file and the *bootstrap.min.css* file to the *Content* folder. Use the path to the content folder that is displayed in the **File Explorer** window that you previously opened.
 8. In **Visual Studio** at the top of **Solution Explorer**, select the **Show All Files** option to display the new files in the Content folder. 
 
-    ![UI and Navigation - Solution Explorer](ui_and_navigation/_static/image6.png)
+    ![Screenshot of the Solution Explorer window with the Content folder open displaying all of the files inside.](ui_and_navigation/_static/image6.png)
 
    You will see the two new CSS files in the **Content** folder, but notice that the icon next to each file name is grayed out. This means that the file has not yet been added to the project.
 9. Right-click the *bootstrap.css* and the *bootstrap.min.css* files and select **Include In Project**.   

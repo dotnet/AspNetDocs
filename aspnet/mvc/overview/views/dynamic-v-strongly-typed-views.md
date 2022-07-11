@@ -2,7 +2,7 @@
 uid: mvc/overview/views/dynamic-v-strongly-typed-views
 title: "Dynamic v. Strongly Typed Views | Microsoft Docs"
 author: Rick-Anderson
-description: ""
+description: This topic provides an example application that compares and contrasts dynamic views and strongly typed views using a list of blogs.
 ms.author: riande
 ms.date: 01/27/2011
 ms.assetid: 0cbd88da-0da6-4605-b222-2835c6478304
