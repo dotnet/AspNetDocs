@@ -2,7 +2,7 @@
 uid: ajax/cdn/jquery-datatables/cdnjquerydatatables105
 title: "jQuery DataTables 1.10.5 | Microsoft Docs"
 author: rick-anderson
-description: ""
+description: "Provides a list of files for the jQuery DataTables 1.10.5 plugins that are hosted on the CDN."
 ms.author: riande
 ms.date: 03/10/2015
 ms.assetid: 7a06c2a5-fd96-436c-baa1-2d148b8f7116

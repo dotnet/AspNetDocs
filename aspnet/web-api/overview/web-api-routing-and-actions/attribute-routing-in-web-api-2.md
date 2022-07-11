@@ -1,7 +1,7 @@
 ---
 uid: web-api/overview/web-api-routing-and-actions/attribute-routing-in-web-api-2
 title: "Attribute Routing in ASP.NET Web API 2 | Microsoft Docs"
-author: MikeWasson
+author: Rick-Anderson
 description: This topic discusses how to enable attribute routing in ASP.NET Web API 2 and describes various options for attribute routing.
 ms.author: riande
 ms.date: 01/20/2014

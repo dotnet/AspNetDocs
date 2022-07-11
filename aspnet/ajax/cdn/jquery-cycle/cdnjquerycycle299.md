@@ -2,7 +2,7 @@
 uid: ajax/cdn/jquery-cycle/cdnjquerycycle299
 title: "jQuery Cycle 2.99 | Microsoft Docs"
 author: rick-anderson
-description: ""
+description: "Provides a list of the jQuery Cycle 2.99 files that are hosted on the CDN."
 ms.author: riande
 ms.date: 07/23/2014
 ms.assetid: c4941287-f0bf-42cc-abb0-8d68838a4e98

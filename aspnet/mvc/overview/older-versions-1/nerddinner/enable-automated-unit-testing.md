@@ -138,7 +138,7 @@ We can define this interface contract manually by right-clicking on the \Models 
 
 Alternatively we can use the refactoring tools built-into Visual Studio Professional (and higher editions) to automatically extract and create an interface for us from our existing DinnerRepository class. To extract this interface using VS, simply position the cursor in the text editor on the DinnerRepository class, and then right-click and choose the **Refactor-&gt;Extract Interface** menu command:
 
-![](enable-automated-unit-testing/_static/image7.png)
+![Screenshot that shows Extract Interface selected in the Refactor submenu.](enable-automated-unit-testing/_static/image7.png)
 
 This will launch the "Extract Interface" dialog and prompt us for the name of the interface to create. It will default to IDinnerRepository and automatically select all public methods on the existing DinnerRepository class to add to the interface:
 
