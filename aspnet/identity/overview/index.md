@@ -2,7 +2,7 @@
 uid: identity/overview/index
 title: "ASP.NET Identity Overview - ASP.NET 4.x"
 author: rick-anderson
-description: ""
+description: This overview topic provides a list of topics related to ASP.NET Identity, a cross-platform modern membership system.
 ms.author: riande
 ms.date: 10/02/2013
 ms.assetid: d3972a0e-9ff6-4de1-bf4d-c94943cab048

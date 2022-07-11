@@ -2,7 +2,7 @@
 uid: mvc/overview/older-versions/working-with-the-dropdownlist-box-and-jquery/examining-how-aspnet-mvc-scaffolds-the-dropdownlist-helper
 title: "Examining  how  ASP.NET MVC scaffolds the DropDownList Helper | Microsoft Docs"
 author: Rick-Anderson
-description: ""
+description: This second part of a tutorial series describes how ASP.NET MVC scaffolds the DropDownList Helper object.
 ms.author: riande
 ms.date: 01/12/2012
 ms.assetid: 8921d7f2-21f0-427a-8b27-2df7251174b0

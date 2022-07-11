@@ -1,6 +1,7 @@
 ---
 uid: web-pages/overview/releases/whats-new-aspnet-web-pages-31
 title: "What's New in ASP.NET Web Pages 3.1 | Microsoft Docs"
+description: This topic describes the 3.1 release of ASP.NET Web Pages, which fixes bugs and does not introduce any new features.
 author: rick-anderson
 description: ""
 ms.author: riande
