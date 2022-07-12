@@ -26,9 +26,9 @@ Recall that to support inserting, updating, and deleting, with the ObjectDataSou
 > [!NOTE]
 > Since we ve already discussed the inserting, editing, and deleting capabilities of the GridView, DetailsView, and FormView controls, this tutorial will focus on configuring the SqlDataSource control to support these operations. If you need to brush up on implementing these features within the GridView, DetailsView, and FormView, return to the Editing, Inserting, and Deleting Data tutorials, starting with [An Overview of Inserting, Updating, and Deleting](../editing-inserting-and-deleting-data/an-overview-of-inserting-updating-and-deleting-data-vb.md).
 
-## Step 1: Specifying`INSERT`,`UPDATE`, and`DELETE`Statements
+## Step 1: Specifying INSERT, UPDATE, and DELETE Statements
 
-As we ve seen in the past two tutorials, to retrieve data from a SqlDataSource control we need to set two properties:
+As we've seen in the past two tutorials, to retrieve data from a SqlDataSource control we need to set two properties:
 
 1. `ConnectionString`, which specifies what database to send the query to, and
 2. `SelectCommand`, which specifies the ad-hoc SQL statement or stored procedure name to execute to return the results.
@@ -45,7 +45,7 @@ Start by opening the `InsertUpdateDelete.aspx` and `Querying.aspx` pages from th
 
 **Figure 1**: All of the Products are Listed, Ordered by `ProductID` ([Click to view full-size image](inserting-updating-and-deleting-data-with-the-sqldatasource-vb/_static/image2.png))
 
-## Adding the SqlDataSource s`DeleteCommand`and`DeleteParameters`Properties
+## Adding the SqlDataSource's DeleteCommand and DeleteParameters Properties
 
 At this point we have a SqlDataSource that simply returns all of the records from the `Products` table and a GridView that renders this data. Our goal is to extend this example to allow for the user to delete products via the GridView. To accomplish this we need to specify values for the SqlDataSource control s `DeleteCommand` and `DeleteParameters` properties and then configure the GridView to support deleting.
 
@@ -60,7 +60,7 @@ We'll examine how to automatically have the `DELETE` statement created in Step 2
 
 From the Designer in `InsertUpdateDelete.aspx`, click on the `ProductsDataSource` SqlDataSource and then bring up the Properties window (from the View menu, choose Properties window, or simply hit F4). Select the DeleteQuery property, which will bring up a set of ellipses.
 
-![Select the DeleteQuery Property from the Properties Window](inserting-updating-and-deleting-data-with-the-sqldatasource-vb/_static/image2.gif)
+![Screenshot showing the ProductsDataSource Properties window with the DeleteQuery property selected.](inserting-updating-and-deleting-data-with-the-sqldatasource-vb/_static/image2.gif)
 
 **Figure 2**: Select the DeleteQuery Property from the Properties Window
 
@@ -73,7 +73,7 @@ Click the ellipses in the DeleteQuery property to bring up the Command and Param
 
 Next, click the Refresh Parameters button to add the `@ProductID` parameter to the list of parameters below.
 
-[![Select the DeleteQuery Property from the Properties Window](inserting-updating-and-deleting-data-with-the-sqldatasource-vb/_static/image3.gif)](inserting-updating-and-deleting-data-with-the-sqldatasource-vb/_static/image3.png)
+[![Screenshot showing the Command and Parameter Editor window with the @ProductID parameter added to the list of DELETE command parameters.](inserting-updating-and-deleting-data-with-the-sqldatasource-vb/_static/image3.gif)](inserting-updating-and-deleting-data-with-the-sqldatasource-vb/_static/image3.png)
 
 **Figure 3**: Select the DeleteQuery Property from the Properties Window ([Click to view full-size image](inserting-updating-and-deleting-data-with-the-sqldatasource-vb/_static/image4.png))
 
@@ -109,7 +109,7 @@ Figure 5 depicts this interaction graphically. Refer back to the [Examining the 
 
 **Figure 5**: Clicking the Delete Button in the GridView Invokes the SqlDataSource s `Delete()` Method
 
-## Step 2: Automatically Generating the`INSERT`,`UPDATE`, and`DELETE`Statements
+## Step 2: Automatically Generating the `INSERT`, `UPDATE`, and `DELETE` Statements
 
 As Step 1 examined, `INSERT`, `UPDATE`, and `DELETE` SQL statements can be specified through the Properties window or the control s declarative syntax. However, this approach requires that we manually write out the SQL statements by hand, which can be monotonous and error-prone. Fortunately, the Configure Data Source wizard provides an option to have the `INSERT`, `UPDATE`, and `DELETE` statements automatically generated when using the Specify columns from a table of view screen.
 

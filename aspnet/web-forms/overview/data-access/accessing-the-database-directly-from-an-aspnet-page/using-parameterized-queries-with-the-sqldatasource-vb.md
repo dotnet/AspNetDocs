@@ -46,7 +46,7 @@ When picking columns from an existing table or view, the parameters for the `WHE
 
 Since creating a parameterized query depends on how the SqlDataSource s `SelectCommand` is specified, let s take a look at all three approaches. To get started, open the `ParameterizedQueries.aspx` page in the `SqlDataSource` folder, drag a SqlDataSource control from the Toolbox onto the Designer, and set its `ID` to `Products25BucksAndUnderDataSource`. Next, click the Configure Data Source link from the control s smart tag. Select the database to use (`NORTHWINDConnectionString`) and click Next.
 
-## Step 1: Adding a`WHERE`Clause When Picking the Columns from a Table or View
+## Step 1: Adding a WHERE Clause When Picking the Columns from a Table or View
 
 When selecting the data to return from the database with the SqlDataSource control, the Configure Data Source wizard allows us to simply pick the columns to return from an existing table or view (see Figure 1). Doing so automatically builds up a SQL `SELECT` statement, which is what is sent to the database when the SqlDataSource s `Select()` method is invoked. As we did in the previous tutorial, select the Products table from the drop-down list and check the `ProductID`, `ProductName`, and `UnitPrice` columns.
 
@@ -177,7 +177,7 @@ Test out the page in a browser. Only those products that belong to the Beverages
 
 **Figure 12**: All of the Beverages are Displayed ([Click to view full-size image](using-parameterized-queries-with-the-sqldatasource-vb/_static/image24.png))
 
-## Step 4: Programmatically Invoking a SqlDataSource s`Select()`Statement
+## Step 4: Programmatically Invoking a SqlDataSource's Select() Statement
 
 The examples we ve seen in the previous tutorial and this tutorial so far have bound SqlDataSource controls directly to a GridView. The SqlDataSource control s data, however, can be programmatically accessed and enumerated in code. This can be particularly useful when you need to query data to inspect it, but don t need to display it. Rather than having to write all of the boilerplate ADO.NET code to connect to the database, specify the command, and retrieve the results, you can let the SqlDataSource handle this monotonous code.
 
@@ -221,7 +221,7 @@ All of the examples we ve seen so far in this tutorial have used either a hard-c
 
 Start by adding a GridView to the page and bind it to a new SqlDataSource named `ProductsByCategoryDataSource`. Much like we did in Step 3, configure the SqlDataSource so that it invokes the `GetProductsByCategory` stored procedure. Leave the Parameter source drop-down list set to None, but do not enter a default value, as we will set this default value programmatically.
 
-[![Do Not Specify a Parameter Source or Default Value](using-parameterized-queries-with-the-sqldatasource-vb/_static/image14.gif)](using-parameterized-queries-with-the-sqldatasource-vb/_static/image27.png)
+[![Screenshot showing the Configure Data Source window with the Parameter source set to None.](using-parameterized-queries-with-the-sqldatasource-vb/_static/image14.gif)](using-parameterized-queries-with-the-sqldatasource-vb/_static/image27.png)
 
 **Figure 14**: Do Not Specify a Parameter Source or Default Value ([Click to view full-size image](using-parameterized-queries-with-the-sqldatasource-vb/_static/image28.png))
 
@@ -235,7 +235,7 @@ We can assign the `DefaultValue` of the `CategoryID` parameter programmatically 
 
 With this addition, the page includes a GridView that shows the products associated with the randomly selected category.
 
-[![Do Not Specify a Parameter Source or Default Value](using-parameterized-queries-with-the-sqldatasource-vb/_static/image15.gif)](using-parameterized-queries-with-the-sqldatasource-vb/_static/image29.png)
+[![Screenshot showing the Your Randomly Selected Category page.](using-parameterized-queries-with-the-sqldatasource-vb/_static/image15.gif)](using-parameterized-queries-with-the-sqldatasource-vb/_static/image29.png)
 
 **Figure 15**: Do Not Specify a Parameter Source or Default Value ([Click to view full-size image](using-parameterized-queries-with-the-sqldatasource-vb/_static/image30.png))
 
