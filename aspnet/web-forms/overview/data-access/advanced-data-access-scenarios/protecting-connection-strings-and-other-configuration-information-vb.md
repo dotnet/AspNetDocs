@@ -71,7 +71,7 @@ Beneath the TextBox, add two Button controls named `EncryptConnStrings` and `Dec
 
 At this point your screen should look similar to Figure 2.
 
-[![Add a TextBox and Two Button Web Controls to the Page](protecting-connection-strings-and-other-configuration-information-vb/_static/image5.png)](protecting-connection-strings-and-other-configuration-information-vb/_static/image4.png)
+[![Screenshot showing Visual Studio opened to the EncryptingConfigSections.aspx page, which has a new TextBox and two Button controls.](protecting-connection-strings-and-other-configuration-information-vb/_static/image5.png)](protecting-connection-strings-and-other-configuration-information-vb/_static/image4.png)
 
 **Figure 2**: Add a TextBox and Two Button Web Controls to the Page ([Click to view full-size image](protecting-connection-strings-and-other-configuration-information-vb/_static/image6.png))
 
@@ -95,7 +95,7 @@ After calling the `ProtectSection(provider)` or `UnprotectSection` method, you m
 
 Once you have entered the above code, test it by visiting the `EncryptingConfigSections.aspx` page through a browser. You should initially see a page that lists the contents of `Web.config` with the `<connectionStrings>` section displayed in plain-text (see Figure 3).
 
-[![Add a TextBox and Two Button Web Controls to the Page](protecting-connection-strings-and-other-configuration-information-vb/_static/image8.png)](protecting-connection-strings-and-other-configuration-information-vb/_static/image7.png)
+[![Screenshot showing the EncryptingConfigSections.aspx page loaded in a web browser.](protecting-connection-strings-and-other-configuration-information-vb/_static/image8.png)](protecting-connection-strings-and-other-configuration-information-vb/_static/image7.png)
 
 **Figure 3**: Add a TextBox and Two Button Web Controls to the Page ([Click to view full-size image](protecting-connection-strings-and-other-configuration-information-vb/_static/image9.png))
 
@@ -126,7 +126,7 @@ When the connection string information is accessed from `Web.config` - either by
 
 To revert the `<connectionStrings>` section back to its plain-text representation, click the Decrypt Connection Strings button. On postback you should see the connection strings in `Web.config` in plain-text. At this point your screen should look like it did when first visiting this page (see in Figure 3).
 
-## Step 3: Encrypting Configuration Sections Using`aspnet_regiis.exe`
+## Step 3: Encrypting Configuration Sections Using aspnet_regiis.exe
 
 The .NET Framework includes a variety of command line tools in the `$WINDOWS$\Microsoft.NET\Framework\version\` folder. In the [Using SQL Cache Dependencies](../caching-data/using-sql-cache-dependencies-vb.md) tutorial, for instance, we looked at using the `aspnet_regsql.exe` command line tool to add the infrastructure necessary for SQL cache dependencies. Another useful command line tool in this folder is the [ASP.NET IIS Registration tool (`aspnet_regiis.exe`)](https://msdn.microsoft.com/library/k6h9cz8h(VS.80).aspx). As its name implies, the ASP.NET IIS Registration tool is primarily used to register an ASP.NET 2.0 application with Microsoft s professional-grade Web server, IIS. In addition to its IIS-related features, the ASP.NET IIS Registration tool can also be used to encrypt or decrypt specified configuration sections in `Web.config`.
 

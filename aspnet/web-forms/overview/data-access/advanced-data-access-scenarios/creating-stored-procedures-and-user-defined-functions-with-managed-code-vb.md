@@ -30,7 +30,7 @@ In this tutorial we will examine how to create managed stored procedures and Use
 > [!NOTE]
 > Managed database objects offer some advantages over their SQL counterparts. Language richness and familiarity and the ability to reuse existing code and logic are the main advantages. But managed database objects are likely to be less efficient when working with sets of data that do not involve much procedural logic. For a more thorough discussion on the advantages of using managed code versus T-SQL, check out the [Advantages of Using Managed Code to Create Database Objects](https://msdn.microsoft.com/library/k2e1fb36(VS.80).aspx).
 
-## Step 1: Moving the Northwind Database Out of`App_Data`
+## Step 1: Moving the Northwind Database Out of App_Data
 
 All of our tutorials thus far have used a Microsoft SQL Server 2005 Express Edition database file in the web application s `App_Data` folder. Placing the database in `App_Data` simplified distributing and running these tutorials as all of the files were located within one directory and required no additional configuration steps to test the tutorial.
 
@@ -40,7 +40,7 @@ The download for this tutorial has the two database files - `NORTHWND.MDF` and `
 
 Launch SQL Server Management Studio. As Figure 1 shows, Management Studio starts by asking what server to connect to. Enter localhost\SQLExpress for the server name, choose Windows Authentication in the Authentication drop-down list, and click Connect.
 
-![Connect to the Appropriate Database Instance](creating-stored-procedures-and-user-defined-functions-with-managed-code-vb/_static/image1.png)
+![Screenshot showing the Connect to Server window of SQL Server Management Studio.](creating-stored-procedures-and-user-defined-functions-with-managed-code-vb/_static/image1.png)
 
 **Figure 1**: Connect to the Appropriate Database Instance
 
@@ -48,7 +48,7 @@ Once you ve connected, the Object Explorer window will list information about th
 
 We need to attach the Northwind database in the `DataFiles` folder (or wherever you may have moved it) to the SQL Server 2005 Express Edition database instance. Right-click on the Databases folder and choose the Attach option from the context menu. This will bring up the Attach Databases dialog box. Click the Add button, drill down to the appropriate `NORTHWND.MDF` file, and click OK. At this point your screen should look similar to Figure 2.
 
-[![Connect to the Appropriate Database Instance](creating-stored-procedures-and-user-defined-functions-with-managed-code-vb/_static/image3.png)](creating-stored-procedures-and-user-defined-functions-with-managed-code-vb/_static/image2.png)
+[![Screenshot of the Attach Databases window showing how to attach to a database MDF file.](creating-stored-procedures-and-user-defined-functions-with-managed-code-vb/_static/image3.png)](creating-stored-procedures-and-user-defined-functions-with-managed-code-vb/_static/image2.png)
 
 **Figure 2**: Connect to the Appropriate Database Instance ([Click to view full-size image](creating-stored-procedures-and-user-defined-functions-with-managed-code-vb/_static/image4.png))
 
@@ -422,7 +422,7 @@ From Management Studio, expand the Programmability folder in the Northwind datab
 
 **Figure 30**: Add the `ManuallyCreatedDBObjects.dll` Assembly to the Database ([Click to view full-size image](creating-stored-procedures-and-user-defined-functions-with-managed-code-vb/_static/image74.png))
 
-![The ManuallyCreatedDBObjects.dll is Listed in the Object Explorer](creating-stored-procedures-and-user-defined-functions-with-managed-code-vb/_static/image75.png)
+![Screenshot of the Object Explorer window with the ManuallyCreatedDBObjects.dll assembly highlighted.](creating-stored-procedures-and-user-defined-functions-with-managed-code-vb/_static/image75.png)
 
 **Figure 31**: The `ManuallyCreatedDBObjects.dll` is Listed in the Object Explorer
 
@@ -438,7 +438,7 @@ After executing the above script, refresh the Stored Procedures folder in the Ob
 
 As Figure 32 shows, the above command displays information for those products with a `UnitPrice` greater than $24.95.
 
-[![The ManuallyCreatedDBObjects.dll is Listed in the Object Explorer](creating-stored-procedures-and-user-defined-functions-with-managed-code-vb/_static/image77.png)](creating-stored-procedures-and-user-defined-functions-with-managed-code-vb/_static/image76.png)
+[![Screenshot of the Microsoft SQL Server Management Studio window showing the GetProductsWithPriceGreaterThan stored procedure executed, which displays products with a UnitPrice greater than $24.95.](creating-stored-procedures-and-user-defined-functions-with-managed-code-vb/_static/image77.png)](creating-stored-procedures-and-user-defined-functions-with-managed-code-vb/_static/image76.png)
 
 **Figure 32**: The `ManuallyCreatedDBObjects.dll` is Listed in the Object Explorer ([Click to view full-size image](creating-stored-procedures-and-user-defined-functions-with-managed-code-vb/_static/image78.png))
 
