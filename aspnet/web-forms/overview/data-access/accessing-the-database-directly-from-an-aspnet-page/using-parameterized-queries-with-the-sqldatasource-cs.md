@@ -221,7 +221,7 @@ All of the examples we ve seen so far in this tutorial have used either a hard-c
 
 Start by adding a GridView to the page and bind it to a new SqlDataSource named `ProductsByCategoryDataSource`. Much like we did in Step 3, configure the SqlDataSource so that it invokes the `GetProductsByCategory` stored procedure. Leave the Parameter source drop-down list set to None, but do not enter a default value, as we will set this default value programmatically.
 
-[![Do Not Specify a Parameter Source or Default Value](using-parameterized-queries-with-the-sqldatasource-cs/_static/image14.gif)](using-parameterized-queries-with-the-sqldatasource-cs/_static/image27.png)
+[![Screenshot showing the Configure Data Source window with the Parameter source set to None.](using-parameterized-queries-with-the-sqldatasource-cs/_static/image14.gif)](using-parameterized-queries-with-the-sqldatasource-cs/_static/image27.png)
 
 **Figure 14**: Do Not Specify a Parameter Source or Default Value ([Click to view full-size image](using-parameterized-queries-with-the-sqldatasource-cs/_static/image28.png))
 
@@ -235,7 +235,7 @@ We can assign the `DefaultValue` of the `CategoryID` parameter programmatically 
 
 With this addition, the page includes a GridView that shows the products associated with the randomly selected category.
 
-[![Do Not Specify a Parameter Source or Default Value](using-parameterized-queries-with-the-sqldatasource-cs/_static/image15.gif)](using-parameterized-queries-with-the-sqldatasource-cs/_static/image29.png)
+[![Screenshot showing the Your Randomly Selected Category page.](using-parameterized-queries-with-the-sqldatasource-cs/_static/image15.gif)](using-parameterized-queries-with-the-sqldatasource-cs/_static/image29.png)
 
 **Figure 15**: Do Not Specify a Parameter Source or Default Value ([Click to view full-size image](using-parameterized-queries-with-the-sqldatasource-cs/_static/image30.png))
 
