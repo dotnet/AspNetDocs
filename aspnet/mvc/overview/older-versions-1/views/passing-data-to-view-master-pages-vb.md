@@ -2,7 +2,7 @@
 uid: mvc/overview/older-versions-1/views/passing-data-to-view-master-pages-vb
 title: "Passing Data to View Master Pages (VB) | Microsoft Docs"
 author: rick-anderson
-description: "The goal of this tutorial is to explain how you can pass data from a controller to a view master page. We examine two strategies for passing data to a view m..."
+description: "The goal of this tutorial is to explain how you can pass data from a controller to a view master page. We examine two strategies for passing data to a view m... (VB)"
 ms.author: riande
 ms.date: 10/16/2008
 ms.assetid: 37a1ebae-8773-408f-8645-d21da7ff9ae1
