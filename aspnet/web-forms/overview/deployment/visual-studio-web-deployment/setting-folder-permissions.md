@@ -2,7 +2,7 @@
 uid: web-forms/overview/deployment/visual-studio-web-deployment/setting-folder-permissions
 title: "ASP.NET Web Deployment using Visual Studio: Setting Folder Permissions | Microsoft Docs"
 author: tdykstra
-description: "This tutorial series shows you how to deploy (publish) an ASP.NET web application to Azure App Service Web Apps or to a third-party hosting provider, by usin..."
+description: "This tutorial series shows how to deploy (publish) an ASP.NET web application to Azure App Service Web Apps or to a third-party hosting provider."
 ms.author: riande
 ms.date: 02/15/2013
 ms.assetid: 9715a121-fa55-4f1b-a5d2-fb3f6cd8be8f
