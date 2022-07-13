@@ -100,7 +100,7 @@ As first covered in the [An Overview of Inserting, Updating, and Deleting Data](
 
 Start by dragging a DetailsView from the Toolbox onto the Designer above the GridView, setting its `ID` property to `NewCategory` and clearing out the `Height` and `Width` property values. From the DetailsView s smart tag, bind it to the existing `CategoriesDataSource` and then check the Enable Inserting checkbox.
 
-[![Bind the DetailsView to the CategoriesDataSource and Enable Inserting](including-a-file-upload-option-when-adding-a-new-record-vb/_static/image6.gif)](including-a-file-upload-option-when-adding-a-new-record-vb/_static/image11.png)
+[![Screenshot of DetailsView with the CategoryID property set to NewCategory, the Height and Width property values are empty, and the Enable Inserting checkbox selected.](including-a-file-upload-option-when-adding-a-new-record-vb/_static/image6.gif)](including-a-file-upload-option-when-adding-a-new-record-vb/_static/image11.png)
 
 **Figure 6**: Bind the DetailsView to the `CategoriesDataSource` and Enable Inserting ([Click to view full-size image](including-a-file-upload-option-when-adding-a-new-record-vb/_static/image12.png))
 
@@ -110,7 +110,7 @@ Note that the DetailsView has five BoundFields `CategoryID`, `CategoryName`, `De
 
 Remove the `NumberOfProducts` BoundField from the DetailsView altogether and then update the `HeaderText` properties of the `CategoryName` and `BrochurePath` BoundFields to Category and Brochure, respectively. Next, convert the `BrochurePath` BoundField into a TemplateField and add a new TemplateField for the picture, giving this new TemplateField a `HeaderText` value of Picture. Move the `Picture` TemplateField so that it is between the `BrochurePath` TemplateField and CommandField.
 
-![Bind the DetailsView to the CategoriesDataSource and Enable Inserting](including-a-file-upload-option-when-adding-a-new-record-vb/_static/image7.gif)
+![Screenshot showing the fields window with TemplateField, Picture, and HeaderText highlighted.](including-a-file-upload-option-when-adding-a-new-record-vb/_static/image7.gif)
 
 **Figure 7**: Bind the DetailsView to the `CategoriesDataSource` and Enable Inserting
 
