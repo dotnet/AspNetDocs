@@ -52,7 +52,7 @@ To explore this shortcoming, create a temporary Typed DataSet in the `~/App_Code
 
 [!code-sql[Main](updating-the-tableadapter-to-use-joins-cs/samples/sample3.sql)]
 
-[![Screenshot showing the TableaAdaptor Configuration Wizard window with a query entered that contains JOINs.](updating-the-tableadapter-to-use-joins-cs/_static/image2.png)](updating-the-tableadapter-to-use-joins-cs/_static/image1.png)
+[![Screenshot showing the TableAdaptor Configuration Wizard window with a query entered that contains JOINs.](updating-the-tableadapter-to-use-joins-cs/_static/image2.png)](updating-the-tableadapter-to-use-joins-cs/_static/image1.png)
 
 **Figure 1**: Enter a Main Query that Contains `JOIN` s ([Click to view full-size image](updating-the-tableadapter-to-use-joins-cs/_static/image3.png))
 
