@@ -52,13 +52,13 @@ To explore this shortcoming, create a temporary Typed DataSet in the `~/App_Code
 
 [!code-sql[Main](updating-the-tableadapter-to-use-joins-cs/samples/sample3.sql)]
 
-[![Enter a Main Query that Contains JOINs](updating-the-tableadapter-to-use-joins-cs/_static/image2.png)](updating-the-tableadapter-to-use-joins-cs/_static/image1.png)
+[![Screenshot showing the TableAdaptor Configuration Wizard window with a query entered that contains JOINs.](updating-the-tableadapter-to-use-joins-cs/_static/image2.png)](updating-the-tableadapter-to-use-joins-cs/_static/image1.png)
 
 **Figure 1**: Enter a Main Query that Contains `JOIN` s ([Click to view full-size image](updating-the-tableadapter-to-use-joins-cs/_static/image3.png))
 
 By default, the TableAdapter will automatically create `INSERT`, `UPDATE`, and `DELETE` statements based on the main query. If you click the Advanced button you can see that this feature is enabled. Despite this setting, the TableAdapter will not be able to create the `INSERT`, `UPDATE`, and `DELETE` statements because the main query contains a `JOIN`.
 
-![Enter a Main Query that Contains JOINs](updating-the-tableadapter-to-use-joins-cs/_static/image4.png)
+![Screenshot showing the Advanced Options window with the Generate Insert, Update and Delete statements checkbox selected.](updating-the-tableadapter-to-use-joins-cs/_static/image4.png)
 
 **Figure 2**: Enter a Main Query that Contains `JOIN` s
 
