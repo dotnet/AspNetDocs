@@ -2,7 +2,7 @@
 uid: web-forms/overview/ajax-control-toolkit/animation/adding-animation-to-a-control-vb
 title: "Adding Animation to a Control (VB) | Microsoft Docs"
 author: wenz
-description: "The Animation control in the ASP.NET AJAX Control Toolkit is not just a control but a whole framework to add animations to a control. This tutorial shows how..."
+description: "The Animation control in the ASP.NET AJAX Control Toolkit is not just a control but a whole framework to add animations to a control. This tutorial shows how... (VB)"
 ms.author: riande
 ms.date: 06/02/2008
 ms.assetid: c120187e-963e-4439-bb85-32771bc7f1f4
