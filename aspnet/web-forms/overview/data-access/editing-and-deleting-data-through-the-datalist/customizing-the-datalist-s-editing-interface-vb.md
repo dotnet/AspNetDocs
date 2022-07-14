@@ -95,7 +95,7 @@ Create these two event handlers and have them use the following code:
 
 With these two event handlers in place, clicking the Edit button displays the editing interface and clicking the Cancel button returns the edited item to its read-only mode. Figure 8 shows the DataList after the Edit button has been clicked for Chef Anton s Gumbo Mix. Since we ve yet to add any databinding syntax to the editing interface, the `ProductName` TextBox is blank, the `Discontinued` CheckBox unchecked, and the first items selected from the `Categories` and `Suppliers` DropDownLists.
 
-[![Clicking the Edit Button Displays the Editing Interface](customizing-the-datalist-s-editing-interface-vb/_static/image23.png)](customizing-the-datalist-s-editing-interface-vb/_static/image22.png)
+[![Screenshot showing the DataList EditItemTemplate after the EditCommand and CancelCommand event handlers have been added and the Edit button has been selected.](customizing-the-datalist-s-editing-interface-vb/_static/image23.png)](customizing-the-datalist-s-editing-interface-vb/_static/image22.png)
 
 **Figure 8**: Clicking the Edit Button Displays the Editing Interface ([Click to view full-size image](customizing-the-datalist-s-editing-interface-vb/_static/image24.png))
 
@@ -105,7 +105,7 @@ To have the editing interface display the current product s values, we need to u
 
 Assign the `ProductName` data field value to the `ProductName` TextBox s `Text` property, the `CategoryID` and `SupplierID` data field values to the `Categories` and `Suppliers` DropDownLists `SelectedValue` properties, and the `Discontinued` data field value to the `Discontinued` CheckBox s `Checked` property. After making these changes, either through the Designer or directly through the declarative markup, revisit the page through a browser and click the Edit button for Chef Anton s Gumbo Mix. As Figure 9 shows, the databinding syntax has added the current values into the TextBox, DropDownLists, and CheckBox.
 
-[![Clicking the Edit Button Displays the Editing Interface](customizing-the-datalist-s-editing-interface-vb/_static/image26.png)](customizing-the-datalist-s-editing-interface-vb/_static/image25.png)
+[![Screenshot showing the DataList EditItemTemplate after the DataBinding syntax has been added and the Edit button has been selected.](customizing-the-datalist-s-editing-interface-vb/_static/image26.png)](customizing-the-datalist-s-editing-interface-vb/_static/image25.png)
 
 **Figure 9**: Clicking the Edit Button Displays the Editing Interface ([Click to view full-size image](customizing-the-datalist-s-editing-interface-vb/_static/image27.png))
 
