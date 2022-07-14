@@ -128,7 +128,7 @@ When initially visiting this page through a browser, neither the `pageIndex` nor
 
 Without a paging interface, there s currently no straightforward means for a user to navigate to the second page of data. We'll create a paging interface in step 4. For now, though, paging can only be accomplished by directly specifying the paging criteria in the querystring. For example, to view the second page, change the URL in the browser s Address bar from `Paging.aspx` to `Paging.aspx?pageIndex=2` and hit Enter. This causes the second page of data to be displayed (see Figure 9).
 
-[![The Second Page of Data is Displayed](paging-report-data-in-a-datalist-or-repeater-control-vb/_static/image20.png)](paging-report-data-in-a-datalist-or-repeater-control-vb/_static/image19.png)
+[![Screenshot of the Paging Data in a DataList window showing the second page of data.](paging-report-data-in-a-datalist-or-repeater-control-vb/_static/image20.png)](paging-report-data-in-a-datalist-or-repeater-control-vb/_static/image19.png)
 
 **Figure 9**: The Second Page of Data is Displayed ([Click to view full-size image](paging-report-data-in-a-datalist-or-repeater-control-vb/_static/image21.png))
 
@@ -204,7 +204,7 @@ Figure 10 shows `Paging.aspx` when first visited. Since the querystring is empty
 
 **Figure 10**: The First Page of Data is Displayed ([Click to view full-size image](paging-report-data-in-a-datalist-or-repeater-control-vb/_static/image24.png))
 
-[![The Second Page of Data is Displayed](paging-report-data-in-a-datalist-or-repeater-control-vb/_static/image26.png)](paging-report-data-in-a-datalist-or-repeater-control-vb/_static/image25.png)
+[![Screenshot displaying page 2 of the Paging Data in a DataList window.](paging-report-data-in-a-datalist-or-repeater-control-vb/_static/image26.png)](paging-report-data-in-a-datalist-or-repeater-control-vb/_static/image25.png)
 
 **Figure 11**: The Second Page of Data is Displayed ([Click to view full-size image](paging-report-data-in-a-datalist-or-repeater-control-vb/_static/image27.png))
 
