@@ -256,7 +256,7 @@ As we've seen in earlier tutorials, the DetailsView control displays one record 
 
 To demonstrate the data modification capabilities of the GridView, start by adding a DetailsView to the `Basics.aspx` page above the existing GridView and bind it to the existing ObjectDataSource through the DetailsView's smart tag. Next, clear out the DetailsView's `Height` and `Width` properties, and check the Enable Paging option from the smart tag. To enable editing, inserting, and deleting support, simply check the Enable Editing, Enable Inserting, and Enable Deleting checkboxes in the smart tag.
 
-![Configure the DetailsView to Support Editing, Inserting, and Deleting](an-overview-of-inserting-updating-and-deleting-data-cs/_static/image41.png)
+![Screenshot showing the DetailsView Tasks window with the Enable Inserting, Enable Editing, and Enable Deleting checkboxes selected.](an-overview-of-inserting-updating-and-deleting-data-cs/_static/image41.png)
 
 **Figure 17**: Configure the DetailsView to Support Editing, Inserting, and Deleting
 
@@ -266,7 +266,7 @@ As with the GridView, adding editing, inserting, or deleting support adds a Comm
 
 Note that for the DetailsView the CommandField appears at the end of the Columns collection by default. Since the DetailsView's fields are rendered as rows, the CommandField appears as a row with Insert, Edit, and Delete buttons at the bottom of the DetailsView.
 
-[![Configure the DetailsView to Support Editing, Inserting, and Deleting](an-overview-of-inserting-updating-and-deleting-data-cs/_static/image43.png)](an-overview-of-inserting-updating-and-deleting-data-cs/_static/image42.png)
+[![Screenshot of the DetailsView with the CommandField appearing as a bottom row with Insert, Edit, and Delete buttons.](an-overview-of-inserting-updating-and-deleting-data-cs/_static/image43.png)](an-overview-of-inserting-updating-and-deleting-data-cs/_static/image42.png)
 
 **Figure 18**: Configure the DetailsView to Support Editing, Inserting, and Deleting ([Click to view full-size image](an-overview-of-inserting-updating-and-deleting-data-cs/_static/image44.png))
 
@@ -276,13 +276,13 @@ For inserting, the end user is presented with a New button that, when clicked, r
 
 When binding a data source to a DetailsView through the smart tag, Visual Studio sets the `InsertVisible` property to `false` only for auto-increment fields. Read-only fields, like `CategoryName` and `SupplierName`, will be displayed in the "insert mode" user interface unless their `InsertVisible` property is explicitly set to `false`. Take a moment to set these two fields' `InsertVisible` properties to `false`, either through the DetailsView's declarative syntax or through the Edit Fields link in the smart tag. Figure 19 shows setting the `InsertVisible` properties to `false` by clicking on the Edit Fields link.
 
-[![Northwind Traders Now Offers Acme Tea](an-overview-of-inserting-updating-and-deleting-data-cs/_static/image46.png)](an-overview-of-inserting-updating-and-deleting-data-cs/_static/image45.png)
+[![Screenshot showing the Fields window with the InsertVisible property set to False.](an-overview-of-inserting-updating-and-deleting-data-cs/_static/image46.png)](an-overview-of-inserting-updating-and-deleting-data-cs/_static/image45.png)
 
 **Figure 19**: Northwind Traders Now Offers Acme Tea ([Click to view full-size image](an-overview-of-inserting-updating-and-deleting-data-cs/_static/image47.png))
 
 After setting the `InsertVisible` properties, view the `Basics.aspx` page in a browser and click the New button. Figure 20 shows the DetailsView when adding a new beverage, Acme Tea, to our product line.
 
-[![Northwind Traders Now Offers Acme Tea](an-overview-of-inserting-updating-and-deleting-data-cs/_static/image49.png)](an-overview-of-inserting-updating-and-deleting-data-cs/_static/image48.png)
+[![Screenshot showing the DetailsView of the Basics.aspx page in a web browser.](an-overview-of-inserting-updating-and-deleting-data-cs/_static/image49.png)](an-overview-of-inserting-updating-and-deleting-data-cs/_static/image48.png)
 
 **Figure 20**: Northwind Traders Now Offers Acme Tea ([Click to view full-size image](an-overview-of-inserting-updating-and-deleting-data-cs/_static/image50.png))
 
