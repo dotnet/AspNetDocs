@@ -107,7 +107,7 @@ As discussed in the [Displaying Data With the ObjectDataSource](../basic-reporti
 
 To add a Skin file, right-click on the `App_Themes/DataWebControls` folder, choose Add a New Item, and select the Skin File option from the list. Name the file `DataList.skin`.
 
-[![Create a New Skin File Named DataList.skin](displaying-data-with-the-datalist-and-repeater-controls-cs/_static/image22.png)](displaying-data-with-the-datalist-and-repeater-controls-cs/_static/image21.png)
+[![Screenshot showing the Add New Item window with Default.skin entered as the new Skin file name.](displaying-data-with-the-datalist-and-repeater-controls-cs/_static/image22.png)](displaying-data-with-the-datalist-and-repeater-controls-cs/_static/image21.png)
 
 **Figure 9**: Create a New Skin File Named `DataList.skin` ([Click to view full-size image](displaying-data-with-the-datalist-and-repeater-controls-cs/_static/image23.png))
 
@@ -119,7 +119,7 @@ These settings assign the same CSS classes to the appropriate DataList propertie
 
 With the addition of this Skin file, the DataList s appearance is updated in the Designer (you may need to refresh the Designer view to see the effects of the new Skin file; from the View menu, choose Refresh). As Figure 10 shows, each alternating product has a light pink background color.
 
-[![Create a New Skin File Named DataList.skin](displaying-data-with-the-datalist-and-repeater-controls-cs/_static/image25.png)](displaying-data-with-the-datalist-and-repeater-controls-cs/_static/image24.png)
+[![Screenshot showing how the new Skin file updates the appearance of DataList in the Designer.](displaying-data-with-the-datalist-and-repeater-controls-cs/_static/image25.png)](displaying-data-with-the-datalist-and-repeater-controls-cs/_static/image24.png)
 
 **Figure 10**: Create a New Skin File Named `DataList.skin` ([Click to view full-size image](displaying-data-with-the-datalist-and-repeater-controls-cs/_static/image26.png))
 

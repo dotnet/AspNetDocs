@@ -166,7 +166,7 @@ Keep in mind that these events are raised *in addition to* the `ItemCommand` eve
 
 Add to the `EditItemTemplate` two Button Web controls, one whose `CommandName` is set to Update and the other s set to Cancel. After adding these two Button Web controls the Designer should look similar to the following:
 
-[![Add Update and Cancel Buttons to the EditItemTemplate](an-overview-of-editing-and-deleting-data-in-the-datalist-vb/_static/image26.png)](an-overview-of-editing-and-deleting-data-in-the-datalist-vb/_static/image25.png)
+[![Screenshot showing the DataList EditItemTemplate with the Update and Cancel buttons added.](an-overview-of-editing-and-deleting-data-in-the-datalist-vb/_static/image26.png)](an-overview-of-editing-and-deleting-data-in-the-datalist-vb/_static/image25.png)
 
 **Figure 11**: Add Update and Cancel Buttons to the `EditItemTemplate` ([Click to view full-size image](an-overview-of-editing-and-deleting-data-in-the-datalist-vb/_static/image27.png))
 
@@ -180,7 +180,7 @@ At this point our DataList has an editing interface defined via its `EditItemTem
 
 After you have added this Edit button, take a moment to view the page through a browser. With this addition, each product listing should include an Edit button.
 
-[![Add Update and Cancel Buttons to the EditItemTemplate](an-overview-of-editing-and-deleting-data-in-the-datalist-vb/_static/image29.png)](an-overview-of-editing-and-deleting-data-in-the-datalist-vb/_static/image28.png)
+[![Screenshot showing the DataList EditItemTemplate with the Edit button added.](an-overview-of-editing-and-deleting-data-in-the-datalist-vb/_static/image29.png)](an-overview-of-editing-and-deleting-data-in-the-datalist-vb/_static/image28.png)
 
 **Figure 12**: Add Update and Cancel Buttons to the `EditItemTemplate` ([Click to view full-size image](an-overview-of-editing-and-deleting-data-in-the-datalist-vb/_static/image30.png))
 

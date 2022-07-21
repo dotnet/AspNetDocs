@@ -245,13 +245,13 @@ Take a moment to view this page through a browser. The SiteMapPath added in Figu
 
 To have the SiteMapPath added in Figure 16 use the custom site map provider we created in Step 6, set its [`SiteMapProvider` property](https://msdn.microsoft.com/library/system.web.ui.webcontrols.sitemappath.sitemapprovider.aspx) to Northwind, the name we assigned to the `NorthwindSiteMapProvider` in `Web.config`. Unfortunately, the Designer continues to use the default site map provider, but if you visit the page through a browser after making this property change you'll see that the breadcrumb now uses the custom site map provider.
 
-[![The Breadcrumb Now Uses the Custom Site Map Provider NorthwindSiteMapProvider](building-a-custom-database-driven-site-map-provider-cs/_static/image25.gif)](building-a-custom-database-driven-site-map-provider-cs/_static/image24.gif)
+[![Screenshot showing how the breadcrumb displays the custom site map provider.](building-a-custom-database-driven-site-map-provider-cs/_static/image25.gif)](building-a-custom-database-driven-site-map-provider-cs/_static/image24.gif)
 
 **Figure 18**: The Breadcrumb Now Uses the Custom Site Map Provider `NorthwindSiteMapProvider` ([Click to view full-size image](building-a-custom-database-driven-site-map-provider-cs/_static/image26.gif))
 
 The SiteMapPath control displays a more functional user interface in the `ProductsByCategory.aspx` and `ProductDetails.aspx` pages. Add a SiteMapPath to these pages, setting the `SiteMapProvider` property in both to Northwind. From `Default.aspx` click on the View Products link for Beverages, and then on the View Details link for Chai Tea. As Figure 19 shows, the breadcrumb includes the current site map section ( Chai Tea ) and its ancestors: Beverages and All Categories .
 
-[![The Breadcrumb Now Uses the Custom Site Map Provider NorthwindSiteMapProvider](building-a-custom-database-driven-site-map-provider-cs/_static/image27.gif)](building-a-custom-database-driven-site-map-provider-cs/_static/image21.png)
+[![Screenshot showing how the breadcrumb displays the current site map section (Chai Tea) and its ancestors (Beverages and All Categories).](building-a-custom-database-driven-site-map-provider-cs/_static/image27.gif)](building-a-custom-database-driven-site-map-provider-cs/_static/image21.png)
 
 **Figure 19**: The Breadcrumb Now Uses the Custom Site Map Provider `NorthwindSiteMapProvider` ([Click to view full-size image](building-a-custom-database-driven-site-map-provider-cs/_static/image22.png))
 

@@ -91,7 +91,7 @@ In this tutorial, you will use the Page Inspector browser pane, and the **HTML**
 
 Next, you will see how Page Inspector's Inspection Mode works. In the Page Inspector window, click the **Inspect** button.
 
-![Inspect Element](using-page-inspector-in-a-visual-studio-11-beta-web-forms-project/_static/image7.png)
+![Screenshot showing how to select the Inspect button of the Page Inspector browser window to enable Inspection Mode.](using-page-inspector-in-a-visual-studio-11-beta-web-forms-project/_static/image7.png)
 
 To see inspection mode in action, move your mouse over different parts of the page within the Page Inspector browser window. As you do, the mouse pointer changes to a large plus sign, and the element underneath is highlighted:
 
@@ -141,7 +141,7 @@ Next, you will have a quick look at the HTML window and how it maps elements for
 
 Put Page Inspector in Inspection Mode.
 
-![Inspect Element](using-page-inspector-in-a-visual-studio-11-beta-web-forms-project/_static/image12.png)
+![Screenshot showing how to select the Inspect button of the Page Inspector browser window to use Inspection Mode.](using-page-inspector-in-a-visual-studio-11-beta-web-forms-project/_static/image12.png)
 
 Click the top part of the page that says "your logo here". You are examining a particular element in more detail, so the display in the browser window no longer changes as you move the mouse pointer.
 
@@ -205,7 +205,7 @@ Next, you'll learn how to use Page Inspector to quickly find and change the CSS 
 
 Click the **Inspect** button.
 
-![Inspect Element](using-page-inspector-in-a-visual-studio-11-beta-web-forms-project/_static/image20.png)
+![Screenshot showing how to select the Inspect button of the Page Inspector browser window to use CSS.](using-page-inspector-in-a-visual-studio-11-beta-web-forms-project/_static/image20.png)
 
 In the Page Inspector browser window, move the mouse pointer over the highlighted "videos, tutorials, and samples" text so that the CSS "mark" label appears.
 

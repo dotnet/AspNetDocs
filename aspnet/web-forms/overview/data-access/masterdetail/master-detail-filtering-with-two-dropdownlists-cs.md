@@ -69,7 +69,7 @@ With the `Categories` DropDownList completed, our next step is to display a Drop
 
 Since the `ProductsByCategory` DropDownList needs to display just those products belonging to the selected category, have the ObjectDataSource invoke the `GetProductsByCategoryID(categoryID)` method from the `ProductsBLL` object.
 
-[![Choose to Use the ProductsBLL Class](master-detail-filtering-with-two-dropdownlists-cs/_static/image23.png)](master-detail-filtering-with-two-dropdownlists-cs/_static/image22.png)
+[![Screenshot of the Configure Data Source - productsByCategoryDataSource window with ProductsBLL selected and the Next button highlighted.](master-detail-filtering-with-two-dropdownlists-cs/_static/image23.png)](master-detail-filtering-with-two-dropdownlists-cs/_static/image22.png)
 
 **Figure 8**: Choose to Use the `ProductsBLL` Class ([Click to view full-size image](master-detail-filtering-with-two-dropdownlists-cs/_static/image24.png))
 
@@ -109,7 +109,7 @@ Currently the `productsByCategory` DropDownList, when changed, does *not* cause 
 
 The final step is to display the details for the selected product in a DetailsView. To accomplish this, add a DetailsView to the page, set its `ID` property to `ProductDetails`, and create a new ObjectDataSource for it. Configure this ObjectDataSource to pull its data from the `ProductsBLL` class's `GetProductByProductID(productID)` method using the selected value of the `ProductsByCategory` DropDownList for the value of the *`productID`* parameter.
 
-[![Choose to Use the ProductsBLL Class](master-detail-filtering-with-two-dropdownlists-cs/_static/image44.png)](master-detail-filtering-with-two-dropdownlists-cs/_static/image43.png)
+[![Screenshot of the Configure Data Source - productsByCategoryDataSource window where ProductsBLL is selected and the Next button is highlighted.](master-detail-filtering-with-two-dropdownlists-cs/_static/image44.png)](master-detail-filtering-with-two-dropdownlists-cs/_static/image43.png)
 
 **Figure 15**: Choose to Use the `ProductsBLL` Class ([Click to view full-size image](master-detail-filtering-with-two-dropdownlists-cs/_static/image45.png))
 

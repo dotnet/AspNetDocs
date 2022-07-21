@@ -2,7 +2,7 @@
 uid: web-forms/overview/deployment/visual-studio-web-deployment/preparing-databases
 title: "ASP.NET Web Deployment using Visual Studio: Preparing for Database Deployment | Microsoft Docs"
 author: tdykstra
-description: "This tutorial series shows you how to deploy (publish) an ASP.NET web application to Azure App Service Web Apps or to a third-party hosting provider, by usin..."
+description: "This tutorial series shows you how to deploy (publish) an ASP.NET web application to Azure App Service Web Apps or a third-party hosting provider, by usin..."
 ms.author: riande
 ms.date: 02/15/2013
 ms.assetid: ae4def81-fa37-4883-a13e-d9896cbf6c36

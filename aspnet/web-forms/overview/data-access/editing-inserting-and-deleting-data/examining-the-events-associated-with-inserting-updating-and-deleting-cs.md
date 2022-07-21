@@ -121,7 +121,7 @@ The formatting instructions specified in the `DataFormatString` property can be 
 
 With this change, the value of the `UnitPrice` displayed in the edited row is also formatted as a currency.
 
-[![The Edited Row's UnitPrice Value is Now Formatted as a Currency](examining-the-events-associated-with-inserting-updating-and-deleting-cs/_static/image29.png)](examining-the-events-associated-with-inserting-updating-and-deleting-cs/_static/image28.png)
+[![Screenshot of the GridView showing the edited row's UnitPrice value formatted as a currency.](examining-the-events-associated-with-inserting-updating-and-deleting-cs/_static/image29.png)](examining-the-events-associated-with-inserting-updating-and-deleting-cs/_static/image28.png)
 
 **Figure 10**: The Edited Row's `UnitPrice` Value is Now Formatted as a Currency ([Click to view full-size image](examining-the-events-associated-with-inserting-updating-and-deleting-cs/_static/image30.png))
 
@@ -135,7 +135,7 @@ If the user has supplied a `UnitPrice` value (such as "$19.00"), this value is o
 
 Figure 11 shows both the problem caused by currency symbols in the user-supplied `UnitPrice`, along with how the GridView's `RowUpdating` event handler can be utilized to correctly parse such input.
 
-[![The Edited Row's UnitPrice Value is Now Formatted as a Currency](examining-the-events-associated-with-inserting-updating-and-deleting-cs/_static/image32.png)](examining-the-events-associated-with-inserting-updating-and-deleting-cs/_static/image31.png)
+[![Diagram showing how the ObjectDataSource processes the UnitPrice field and how the RowUpdate event handler of the GridView converts a string to a decimal.](examining-the-events-associated-with-inserting-updating-and-deleting-cs/_static/image32.png)](examining-the-events-associated-with-inserting-updating-and-deleting-cs/_static/image31.png)
 
 **Figure 11**: The Edited Row's `UnitPrice` Value is Now Formatted as a Currency ([Click to view full-size image](examining-the-events-associated-with-inserting-updating-and-deleting-cs/_static/image33.png))
 

@@ -2,7 +2,7 @@
 uid: web-forms/overview/data-access/enhancing-the-gridview/adding-a-gridview-column-of-radio-buttons-vb
 title: "Adding a GridView Column of Radio Buttons (VB) | Microsoft Docs"
 author: rick-anderson
-description: "This tutorial looks at how to add a column of radio buttons to a GridView control to provide the user with a more intuitive way of selecting a single row of..."
+description: "This tutorial looks at how to add a column of radio buttons to a GridView control to provide the user with a more intuitive way of selecting a single row of... (VB)"
 ms.author: riande
 ms.date: 03/06/2007
 ms.assetid: 2e31b60b-8723-4f14-b7ee-37859454dc3b
@@ -66,19 +66,19 @@ Start by opening the `RadioButtonField.aspx` page in the `EnhancedGridView` fold
 
 **Figure 4**: Create a New ObjectDataSource Named `SuppliersDataSource` ([Click to view full-size image](adding-a-gridview-column-of-radio-buttons-vb/_static/image4.png))
 
-[![Configure the ObjectDataSource to Use the SuppliersBLL Class](adding-a-gridview-column-of-radio-buttons-vb/_static/image5.gif)](adding-a-gridview-column-of-radio-buttons-vb/_static/image5.png)
+[![Screenshot of the Configure Data Source - SuppliersDataSource window with the business object dropdown menu open. SuppliersBLL is selected and the Next button is highlighted.](adding-a-gridview-column-of-radio-buttons-vb/_static/image5.gif)](adding-a-gridview-column-of-radio-buttons-vb/_static/image5.png)
 
 **Figure 5**: Configure the ObjectDataSource to Use the `SuppliersBLL` Class ([Click to view full-size image](adding-a-gridview-column-of-radio-buttons-vb/_static/image6.png))
 
 Since we only want to list those suppliers in the USA, choose the `GetSuppliersByCountry(country)` method from the drop-down list in the SELECT tab.
 
-[![Configure the ObjectDataSource to Use the SuppliersBLL Class](adding-a-gridview-column-of-radio-buttons-vb/_static/image6.gif)](adding-a-gridview-column-of-radio-buttons-vb/_static/image7.png)
+[![Screenshot of the Configure Data Source - SuppliersDataSource window on the SELECT tab with the method dropdown menu open. The method option GetSupplierByCountry is selected and the Next button is highlighted.](adding-a-gridview-column-of-radio-buttons-vb/_static/image6.gif)](adding-a-gridview-column-of-radio-buttons-vb/_static/image7.png)
 
 **Figure 6**: Configure the ObjectDataSource to Use the `SuppliersBLL` Class ([Click to view full-size image](adding-a-gridview-column-of-radio-buttons-vb/_static/image8.png))
 
 From the UPDATE tab, select the (None) option and click Next.
 
-[![Configure the ObjectDataSource to Use the SuppliersBLL Class](adding-a-gridview-column-of-radio-buttons-vb/_static/image7.gif)](adding-a-gridview-column-of-radio-buttons-vb/_static/image9.png)
+[![Screenshot of the Configure Data Source - SuppliersDataSource window on the  UPDATE tab with the method dropdown menu open. The method option (None) is selected and the Next button is highlighted.](adding-a-gridview-column-of-radio-buttons-vb/_static/image7.gif)](adding-a-gridview-column-of-radio-buttons-vb/_static/image9.png)
 
 **Figure 7**: Configure the ObjectDataSource to Use the `SuppliersBLL` Class ([Click to view full-size image](adding-a-gridview-column-of-radio-buttons-vb/_static/image10.png))
 

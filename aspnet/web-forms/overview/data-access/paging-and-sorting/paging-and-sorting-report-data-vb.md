@@ -2,7 +2,7 @@
 uid: web-forms/overview/data-access/paging-and-sorting/paging-and-sorting-report-data-vb
 title: "Paging and Sorting Report Data (VB) | Microsoft Docs"
 author: rick-anderson
-description: "Paging and sorting are two very common features when displaying data in an online application. In this tutorial we'll take a first look at adding sorting and..."
+description: "Paging and sorting are two very common features when displaying data in an online application. In this tutorial we'll take a first look at adding sorting and... (VB)"
 ms.author: riande
 ms.date: 08/15/2006
 ms.assetid: b895e37e-0e69-45cc-a7e4-17ddd2e1b38d
@@ -191,7 +191,7 @@ This syntax indicates to use white text when displaying those hyperlinks within 
 
 After this CSS addition, when visiting the page through a browser your screen should look similar to Figure 12. In particular, Figure 12 shows the results after the Price field s header link has been clicked.
 
-[![The Results Have Been Sorted by the UnitPrice in Ascending Order](paging-and-sorting-report-data-vb/_static/image25.png)](paging-and-sorting-report-data-vb/_static/image24.png)
+[![Screenshot of Working with Data Tutorials on the Simple Paging & Sorting page showing the results sorted by the Price column in ascending order.](paging-and-sorting-report-data-vb/_static/image25.png)](paging-and-sorting-report-data-vb/_static/image24.png)
 
 **Figure 12**: The Results Have Been Sorted by the UnitPrice in Ascending Order ([Click to view full-size image](paging-and-sorting-report-data-vb/_static/image26.png))
 
@@ -213,7 +213,7 @@ When binding an ObjectDataSource to the GridView through the drop-down list in t
 
 A field can be configured so that it s not sortable by clearing out its `SortExpression` property (assigning it to an empty string). To illustrate this, imagine that we didn't want to let our customers sort our products by price. The `UnitPrice` BoundField s `SortExpression` property can be removed either from the declarative markup or through the Fields dialog box (which is accessible by clicking on the Edit Columns link in the GridView s smart tag).
 
-![The Results Have Been Sorted by the UnitPrice in Ascending Order](paging-and-sorting-report-data-vb/_static/image27.png)
+![Screenshot of the Fields window where the field Price is selected and the property SortExpression is highlighted.](paging-and-sorting-report-data-vb/_static/image27.png)
 
 **Figure 13**: The Results Have Been Sorted by the UnitPrice in Ascending Order
 
