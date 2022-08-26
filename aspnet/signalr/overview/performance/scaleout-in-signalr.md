@@ -50,14 +50,16 @@ SignalR currently provides three backplanes:
 - **Azure Service Bus**. Service Bus is a messaging infrastructure that allows components to send messages in a loosely coupled way.
 - **Redis**. Redis is an in-memory key-value store. Redis supports a publish/subscribe ("pub/sub") pattern for sending messages.
 - **SQL Server**. The SQL Server backplane writes messages to SQL tables. The backplane uses Service Broker for efficient messaging. However, it also works if Service Broker is not enabled.
+- **NCache**. [NCache](https://www.alachisoft.com/ncache/asp-net-core-signalr.html) is an open source in-memory distributed cache natively developed in .NET / .NET Core. NCache also provides publish/subscribe (“pub/sub”) pattern for asynchronous messaging.
 
-If you deploy your application on Azure, consider using the Redis backplane using [Azure Redis Cache](https://azure.microsoft.com/services/cache/). If you are deploying to your own server farm, consider the SQL Server or Redis backplanes.
+If you deploy your application on Azure, consider using the Redis backplane using [Azure Redis Cache](https://azure.microsoft.com/services/cache/). If you are deploying to your own server farm, consider the SQL Server, Redis or NCache backplanes.
 
 The following topics contain step-by-step tutorials for each backplane:
 
 - [SignalR Scaleout with Azure Service Bus](scaleout-with-windows-azure-service-bus.md)
 - [SignalR Scaleout with Redis](scaleout-with-redis.md)
 - [SignalR Scaleout with SQL Server](scaleout-with-sql-server.md)
+- [SignalR Scaleout with NCache](https://www.alachisoft.com/resources/docs/ncache/prog-guide/asp-net-core-signalr.html)
 
 ## Implementation
 
