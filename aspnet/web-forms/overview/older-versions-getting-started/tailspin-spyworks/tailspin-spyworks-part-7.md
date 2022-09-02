@@ -220,7 +220,7 @@ Doing so will create a reference to the control at the top of the ProductDetails
 
 Since the AlsoPurchased user control requires a ProductId number we will set the ProductID property of our control by using an Eval statement against the current data model item of the page.
 
-![Screenshot that highlights the product I D. ](tailspin-spyworks-part-7/_static/image3.png)
+![Screenshot that highlights the product I D.](tailspin-spyworks-part-7/_static/image3.png)
 
 When we build and run now and browse to a product we see the "Also Purchased" items.
 
