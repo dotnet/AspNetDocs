@@ -127,7 +127,7 @@ You can use any source control environment to implement the DevOps branching str
 
 [Git](http://git-scm.com/) is a popular distributed version control system. When you use Git for source control, you have a complete copy of the repository with all of its history on your local computer. Many people prefer that because it's easier to continue working when you're not connected to the network -- you can continue to do commits and rollbacks, create and switch branches, and so forth. Even when you're connected to the network, it's easier and quicker to create branches and switch branches when everything is local. You can also do local commits and rollbacks without having an impact on other developers. And you can batch commits before sending them to the server.
 
-[Azure Repos](/azure/devops/repos/index?view=vsts&preserve-view=true ) offers both [Git](/azure/devops/repos/git/?view=vsts&preserve-view=true ) and [Team Foundation Version Control](/azure/devops/repos/tfvc/index?view=vsts&preserve-view=true ) (TFVC; centralized source control). Get started with Azure DevOps [here](https://app.vsaex.visualstudio.com/signup).
+[Azure Repos](/azure/devops/repos/index?view=vsts&preserve-view=true) offers both [Git](/azure/devops/repos/git/?view=vsts&preserve-view=true) and [Team Foundation Version Control](/azure/devops/repos/tfvc/index?view=vsts&preserve-view=true) (TFVC; centralized source control). Get started with Azure DevOps [here](https://app.vsaex.visualstudio.com/signup).
 
 Visual Studio 2017 includes built-in, first-class [Git support](https://msdn.microsoft.com/library/hh850437.aspx). Here's a quick demo of how that works.
 
@@ -177,7 +177,7 @@ If you switch back to the *main* branch, the contents of the *\_Layout.cshtml* f
 
 This a simple example of how you can quickly create a branch and flip back and forth between branches. This feature enables a highly agile workflow using the branch structure and automation scripts presented in the [Automate Everything](automate-everything.md) chapter. For example, you can be working in the Development branch, create a hot fix branch off of *main*, switch to the new branch, make your changes there and commit them, and then switch back to the Development branch and continue what you were doing.
 
-What you've seen here is how you work with a local Git repository in Visual Studio. In a team environment you typically also push changes up to a common repository. The Visual Studio tools also enable you to point to a remote Git repository. You can use GitHub.com for that purpose, or you can use [Git and Azure Repos](/azure/devops/repos/git/overview?view=vsts&preserve-view=true ) integrated with all the other Azure DevOps capabilities such as work item and bug tracking.
+What you've seen here is how you work with a local Git repository in Visual Studio. In a team environment you typically also push changes up to a common repository. The Visual Studio tools also enable you to point to a remote Git repository. You can use GitHub.com for that purpose, or you can use [Git and Azure Repos](/azure/devops/repos/git/overview?view=vsts&preserve-view=true) integrated with all the other Azure DevOps capabilities such as work item and bug tracking.
 
 This isn't the only way you can implement an agile branching strategy, of course. You can enable the same agile workflow using a centralized source control repository.
 
