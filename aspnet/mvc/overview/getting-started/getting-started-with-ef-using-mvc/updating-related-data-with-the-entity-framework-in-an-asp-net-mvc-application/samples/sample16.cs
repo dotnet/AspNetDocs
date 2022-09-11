@@ -9,11 +9,11 @@ public ActionResult Edit(int? id)
         .Include(i => i.Courses)
         .Where(i => i.ID == id)
         .Single();
-    PopulateAssignedCourseData(instructor);
     if (instructor == null)
     {
         return HttpNotFound();
     }
+    PopulateAssignedCourseData(instructor);
     return View(instructor);
 }
 
