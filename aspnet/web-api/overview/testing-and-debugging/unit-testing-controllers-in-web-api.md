@@ -11,7 +11,7 @@ msc.type: authoredcontent
 ---
 # Unit Testing Controllers in ASP.NET Web API 2
 
-by [Mike Wasson](https://github.com/MikeWasson)
+
 
 > This topic describes some specific techniques for unit testing controllers in Web API 2. Before reading this topic, you might want to read the tutorial [Unit Testing ASP.NET Web API 2](unit-testing-with-aspnet-web-api.md), which shows how to add a unit-test project to your solution.
 >
