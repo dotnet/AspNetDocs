@@ -11,7 +11,7 @@ msc.type: authoredcontent
 ---
 # Preventing Cross-Site Request Forgery (CSRF) Attacks in ASP.NET MVC Application
 
-by [Mike Wasson](https://github.com/MikeWasson)
+
 
 Cross-Site Request Forgery (CSRF) is an attack where a malicious site sends a request to a vulnerable site where the user is currently logged in
 

@@ -11,7 +11,7 @@ msc.type: authoredcontent
 ---
 # Tracing in ASP.NET Web API 2
 
-by [Mike Wasson](https://github.com/MikeWasson)
+
 
 > When you are trying to debug a web-based application, there is no substitute for a good set of trace logs. This tutorial shows how to enable tracing in ASP.NET Web API. You can use this feature to trace what the Web API framework does before and after it invokes your controller. You can also use it to trace your own code.
 >
