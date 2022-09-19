@@ -209,7 +209,7 @@ There are two ways to run the Fix It app:
 <a id="runbase"></a>
 ### Run the base application
 
-1. Install [Visual Studio 2017](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=button+cta&utm_content=download+vs2017).
+1. Install [Visual Studio 2017](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=learn.microsoft.com&utm_campaign=button+cta&utm_content=download+vs2017).
 2. Install the [Azure SDK for .NET for Visual Studio](https://azure.microsoft.com/downloads/).
 3. Download the .zip file from the [MSDN Code Gallery](https://code.msdn.microsoft.com/Fix-It-app-for-Building-cdd80df4).
 4. In File Explorer, right-click the .zip file and click Properties, then in the Properties window click Unblock.

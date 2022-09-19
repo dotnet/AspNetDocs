@@ -112,7 +112,7 @@ The `ObjectInfo` helper displays the type and the value of each object you pass 
 
 ## Using Debugging Tools in Visual Studio
 
-For a more comprehensive debugging experience, use [Visual Studio](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=button+cta&utm_content=download+vs2017). With Visual Studio, you can set a breakpoint in your code at the line that you want to inspect.
+For a more comprehensive debugging experience, use [Visual Studio](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=learn.microsoft.com&utm_campaign=button+cta&utm_content=download+vs2017). With Visual Studio, you can set a breakpoint in your code at the line that you want to inspect.
 
 ![set breakpoint](introduction-to-debugging/_static/image1.png)
 

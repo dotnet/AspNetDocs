@@ -18,7 +18,7 @@ ASP.NET is a free web framework for building great websites and web applications
 
 ## Get started
 
-Install [Visual Studio](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=button+cta&utm_content=download+vs) Community edition, a free IDE for ASP.NET on Windows.
+Install [Visual Studio](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=learn.microsoft.com&utm_campaign=button+cta&utm_content=download+vs) Community edition, a free IDE for ASP.NET on Windows.
 
 ## Websites and web applications
 
@@ -103,7 +103,7 @@ Copy Web Deployment in Enterprise from WebForms to MVC
 Move under ASP.NET Best practices
 	What not to do in ASP​.NET, and what to do instead https://review.docs.microsoft.cus/aspnet/aspnet/overview/web-development-best-practices/what-not-to-do-in-aspnet-and-what-to-do-instead
 	Async and await https://channel9.msdn.com/Blogs/ASP-NET-Site-Videos/async-and-await
-	Building Real World Cloud Apps with Azure https://review.docs.microsoft.com/aspnet/aspnet/overview/developing-apps-with-windows-azure/building-real-world-cloud-apps-with-windows-azure/introduction
-	Hands on Lab: Maintainable Azure Websites: Managing Change and Scale https://review.docs.microsoft.com/aspnet/aspnet/overview/developing-apps-with-windows-azure/maintainable-azure-websites-managing-change-and-scale
+	Building Real World Cloud Apps with Azure https://review.learn.microsoft.com/aspnet/aspnet/overview/developing-apps-with-windows-azure/building-real-world-cloud-apps-with-windows-azure/introduction
+	Hands on Lab: Maintainable Azure Websites: Managing Change and Scale https://review.learn.microsoft.com/aspnet/aspnet/overview/developing-apps-with-windows-azure/maintainable-azure-websites-managing-change-and-scale
 
 -->
