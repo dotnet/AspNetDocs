@@ -15,7 +15,7 @@ by [Rick Anderson](https://twitter.com/RickAndMSFT)
 
 [!INCLUDE [consider RP](../../../../includes/razor.md)]
 
-This tutorial teaches you the basics of building an ASP.NET MVC 5 web app using [Visual Studio 2017](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=button+cta&utm_content=download+vs2017). The final source code for the tutorial is located on [GitHub](https://github.com/dotnet/AspNetDocs/tree/main/aspnet/mvc/overview/getting-started/introduction/sample/MvcMovie/MvcMovie).
+This tutorial teaches you the basics of building an ASP.NET MVC 5 web app using [Visual Studio 2017](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=learn.microsoft.com&utm_campaign=button+cta&utm_content=download+vs2017). The final source code for the tutorial is located on [GitHub](https://github.com/dotnet/AspNetDocs/tree/main/aspnet/mvc/overview/getting-started/introduction/sample/MvcMovie/MvcMovie).
 
 This tutorial was written by [Scott Guthrie](https://weblogs.asp.net/scottgu/) (twitter[@scottgu](https://twitter.com/scottgu) ), [Scott Hanselman](http://www.hanselman.com/blog/) (twitter: [@shanselman](https://twitter.com/shanselman) ), and [Rick Anderson](https://twitter.com/RickAndMSFT) ( [@RickAndMSFT](https://twitter.com/#!/RickAndMSFT) )
 
@@ -26,7 +26,7 @@ You need an Azure account to deploy this app to Azure:
 
 ## Get started
 
-Start by [installing Visual Studio 2017](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=button+cta&utm_content=download+vs2017). Then, open Visual Studio.
+Start by [installing Visual Studio 2017](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=learn.microsoft.com&utm_campaign=button+cta&utm_content=download+vs2017). Then, open Visual Studio.
 
 Visual Studio is an IDE, or integrated development environment. Just like you use Microsoft Word to write documents, you'll use an IDE to create applications. In Visual Studio, there's a list along the bottom showing various options available to you. There's also a menu that provides another way to perform tasks in the IDE. For example, instead of selecting **New Project** on the **Start page**, you can use the menu bar and select **File** > **New Project**.
 

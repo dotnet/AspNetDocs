@@ -25,7 +25,7 @@ Browser security prevents a web page from making AJAX requests to another domain
 
 ## Software used in the tutorial
 
-- [Visual Studio](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=button+cta&utm_content=download+vs2017)
+- [Visual Studio](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=learn.microsoft.com&utm_campaign=button+cta&utm_content=download+vs2017)
 - Web API 2.2
 
 ## Introduction
