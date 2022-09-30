@@ -287,7 +287,7 @@ Using MongoDB on Azure:
 
 HDInsight (Hadoop on Azure):
 
-- [HDInsight](https://azure.microsoft.com/documentation/services/hdinsight/). Portal to HDInsight documentation on the [Azure](https://azure.microsoft.com/) website.
+- [HDInsight](/azure/hdinsight/). Portal to HDInsight documentation on the [Azure](https://azure.microsoft.com/) website.
 - [Hadoop and HDInsight: Big Data in Azure](https://msdn.microsoft.com/magazine/dn385705.aspx). MSDN Magazine article by Bruno Terkaly and Ricardo Villalobos, introducing Hadoop on Azure.
 - [Microsoft Patterns and Practices - Azure Guidance](https://msdn.microsoft.com/library/dn568099.aspx). See MapReduce pattern.
 

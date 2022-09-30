@@ -1,6 +1,6 @@
 # Contribute to the ASP.NET documentation
 
-This document covers the process for contributing to the articles and code samples that are hosted on the [ASP.NET documentation site](https://docs.microsoft.com/aspnet/). Typo corrections, bug fixes, and new articles are welcome.
+This document covers the process for contributing to the articles and code samples that are hosted on the [ASP.NET documentation site](https://learn.microsoft.com/aspnet/). Typo corrections, bug fixes, and new articles are welcome.
 
 ## How to make a simple correction or suggestion
 
@@ -16,7 +16,7 @@ You need a basic understanding of [Git and GitHub.com](https://guides.github.com
 * If your PR has the label 'cla-required' assigned, [complete the Contribution License Agreement (CLA)](https://cla.dotnetfoundation.org/).
 * Respond to PR feedback.
 
-For an example where this process led to publication of a new article, see [Issue &num;67](https://github.com/dotnet/docs/issues/67) and [Pull Request &num;798](https://github.com/dotnet/docs/pull/798) in the .NET Docs repository. The new article is [Documenting your code](https://docs.microsoft.com/dotnet/articles/csharp/codedoc).
+For an example where this process led to publication of a new article, see [Issue &num;67](https://github.com/dotnet/docs/issues/67) and [Pull Request &num;798](https://github.com/dotnet/docs/pull/798) in the .NET Docs repository. The new article is [Documenting your code](https://learn.microsoft.com/dotnet/articles/csharp/codedoc).
 
 ## Docs Authoring Pack extension in Visual Studio Code
 
@@ -84,7 +84,7 @@ To render a portion of a file as a snippet by using line numbers:
 [!code-html[](configuration/index/sample/Views/Home/Index.cshtml?range=1-10,20,30,40-50]
 ```
 
-For C# snippets, reference a [C# region](https://docs.microsoft.com/dotnet/csharp/language-reference/preprocessor-directives/preprocessor-region). Whenever possible, use regions rather than line numbers because line numbers in a code file tend to change and become out of sync with line number references in Markdown. C# regions can be nested. If referencing the outer region, the inner `#region` and `#endregion` directives aren't rendered in a snippet.
+For C# snippets, reference a [C# region](https://learn.microsoft.com/dotnet/csharp/language-reference/preprocessor-directives/preprocessor-region). Whenever possible, use regions rather than line numbers because line numbers in a code file tend to change and become out of sync with line number references in Markdown. C# regions can be nested. If referencing the outer region, the inner `#region` and `#endregion` directives aren't rendered in a snippet.
 
 To render a C# region named "snippet_Example":
 
@@ -103,7 +103,7 @@ To highlight selected lines in a rendered snippet (usually renders as yellow bac
 
 ## Test changes with DocFX
 
-Test your changes with the [DocFX command-line tool](https://dotnet.github.io/docfx/tutorial/docfx_getting_started.html#2-use-docfx-as-a-command-line-tool), which creates a locally hosted version of the site. DocFX doesn't render style and site extensions created for docs.microsoft.com.
+Test your changes with the [DocFX command-line tool](https://dotnet.github.io/docfx/tutorial/docfx_getting_started.html#2-use-docfx-as-a-command-line-tool), which creates a locally hosted version of the site. DocFX doesn't render style and site extensions created for Microsoft Docs.
 
 DocFX requires:
 
@@ -153,7 +153,7 @@ Our goal is to write documentation that is easily understandable by the widest p
 
 ## Microsoft Writing Style Guide
 
-The [Microsoft Writing Style Guide](https://docs.microsoft.com/style-guide/welcome/) provides writing style and terminology guidance for all forms of technology communication, including the ASP.NET Core documentation.
+The [Microsoft Writing Style Guide](https://learn.microsoft.com/style-guide/welcome/) provides writing style and terminology guidance for all forms of technology communication, including the ASP.NET Core documentation.
 
 ## Redirects
 

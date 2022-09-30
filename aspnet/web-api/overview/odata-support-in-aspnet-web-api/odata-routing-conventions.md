@@ -12,7 +12,7 @@ msc.type: authoredcontent
 ---
 # Routing Conventions in ASP.NET Web API 2 Odata
 
-by [Mike Wasson](https://github.com/MikeWasson)
+
 
 > This article describes the routing conventions that Web API 2 in ASP.NET 4.x uses for OData endpoints.
 

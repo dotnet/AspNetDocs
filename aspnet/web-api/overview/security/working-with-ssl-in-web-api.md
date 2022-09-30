@@ -11,7 +11,7 @@ msc.type: authoredcontent
 ---
 # Working with SSL in Web API
 
-by [Mike Wasson](https://github.com/MikeWasson)
+
 
 Several common authentication schemes are not secure over plain HTTP. In particular, Basic authentication and forms authentication send unencrypted credentials. To be secure, these authentication schemes *must* use SSL. In addition, SSL client certificates can be used to authenticate clients.
 

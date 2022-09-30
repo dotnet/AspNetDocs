@@ -18,7 +18,7 @@ ASP.NET is a free web framework for building great websites and web applications
 
 ## Get started
 
-Install [Visual Studio](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=button+cta&utm_content=download+vs) Community edition, a free IDE for ASP.NET on Windows.
+Install [Visual Studio](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=learn.microsoft.com&utm_campaign=button+cta&utm_content=download+vs) Community edition, a free IDE for ASP.NET on Windows.
 
 ## Websites and web applications
 
@@ -26,7 +26,7 @@ Install [Visual Studio](https://visualstudio.microsoft.com/downloads/?utm_medium
 
 Each framework targets a different development style. The one you choose depends on a combination of your programming assets (knowledge, skills, and development experience), the type of application you're creating, and the development approach you're comfortable with.
 
-Below is an overview of each of the frameworks and some ideas for how to choose between them. If you prefer a video introduction, see [Making Websites with ASP.NET](https://docs.microsoft.com/en-us/shows/asp-net-site-videos/making-websites-aspnet) and [What is Web Tools?](https://channel9.msdn.com/Blogs/ASP-NET-Site-Videos/what-is-web-tools)
+Below is an overview of each of the frameworks and some ideas for how to choose between them. If you prefer a video introduction, see [Making Websites with ASP.NET](/shows/asp-net-site-videos/making-websites-aspnet) and [What is Web Tools?](https://channel9.msdn.com/Blogs/ASP-NET-Site-Videos/what-is-web-tools)
 
 | Framework  | If you have experience in | Development style | Expertise |
 |-----------|----------------------|-----------------------------------------------------|----------------|
@@ -103,7 +103,7 @@ Copy Web Deployment in Enterprise from WebForms to MVC
 Move under ASP.NET Best practices
 	What not to do in ASP​.NET, and what to do instead https://review.docs.microsoft.cus/aspnet/aspnet/overview/web-development-best-practices/what-not-to-do-in-aspnet-and-what-to-do-instead
 	Async and await https://channel9.msdn.com/Blogs/ASP-NET-Site-Videos/async-and-await
-	Building Real World Cloud Apps with Azure https://review.docs.microsoft.com/aspnet/aspnet/overview/developing-apps-with-windows-azure/building-real-world-cloud-apps-with-windows-azure/introduction
-	Hands on Lab: Maintainable Azure Websites: Managing Change and Scale https://review.docs.microsoft.com/aspnet/aspnet/overview/developing-apps-with-windows-azure/maintainable-azure-websites-managing-change-and-scale
+	Building Real World Cloud Apps with Azure https://review.learn.microsoft.com/aspnet/aspnet/overview/developing-apps-with-windows-azure/building-real-world-cloud-apps-with-windows-azure/introduction
+	Hands on Lab: Maintainable Azure Websites: Managing Change and Scale https://review.learn.microsoft.com/aspnet/aspnet/overview/developing-apps-with-windows-azure/maintainable-azure-websites-managing-change-and-scale
 
 -->
