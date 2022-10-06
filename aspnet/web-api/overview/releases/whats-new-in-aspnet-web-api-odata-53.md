@@ -56,7 +56,7 @@ This query is equivalent to:
 <a id="open-entity-types"></a>
 ### Support for Open Entity Types
 
-An *open type* is a structured type that contains dynamic properties, in addition to any properties that are declared in the type definition. Open types let you add flexibility to your data models. For more information, see xxxx.
+  An *open type* is a structured type that contains dynamic properties, in addition to any properties that are declared in the type definition. Open types let you add flexibility to your data models. For more information, see [Open Types in OData v4 with ASP.NET Web API](https://learn.microsoft.com/en-us/aspnet/web-api/overview/odata-support-in-aspnet-web-api/odata-v4/use-open-types-in-odata-v4).
 
 ### Support for dynamic collection properties in open types
 
