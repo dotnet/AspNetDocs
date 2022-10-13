@@ -460,7 +460,7 @@ To build and run the code sample:
 4. Run a mobile browser (or a mobile device emulator) and browse to *Page1.cshtml*. Notice that this time Web Pages renders the mobile version of the page. 
 
     > [!NOTE]
-    > To test mobile pages, you can use a mobile device simulator that runs on a desktop computer. This tool lets you test web pages as they would look on mobile devices (that is, typically with a much smaller display area). One example of a simulator is the [User Agent Switcher add-on](https://addons.mozilla.org/en-US/firefox/addon/uaswitcher/) for Mozilla Firefox, which lets you emulate various mobile browsers from a desktop version of Firefox.
+    > To test mobile pages, you can use a mobile device simulator that runs on a desktop computer. This tool lets you test web pages as they would look on mobile devices (that is, typically with a much smaller display area). One example of a simulator is the [User Agent Switcher add-on](https://addons.mozilla.org/firefox/addon/uaswitcher/) for Mozilla Firefox, which lets you emulate various mobile browsers from a desktop version of Firefox.
 
 *Page1.cshtml*
 
