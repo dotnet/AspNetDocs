@@ -17,7 +17,7 @@ Forms authentication uses an HTML form to send the user's credentials to the ser
 
 | Advantages | Disadvantages |
 | --- | --- |
-| - Easy to implement: Built into ASP.NET. - Uses ASP.NET membership provider, which makes it easy to manage user accounts. | - Not a standard HTTP authentication mechanism; uses HTTP cookies instead of the standard Authorization header. - Requires a browser client. - Credentials are sent as plaintext. - Vulnerable to cross-site request forgery (CSRF); requires anti-CSRF measures. - Difficult to use from nonbrowser clients. Login requires a browser. - User credentials are sent in the request. - Some users disable cookies. |
+| <ul><li>Easy to implement: Built into ASP.NET.</li><li>Uses ASP.NET membership provider, which makes it easy to manage user accounts.</li></ul> | <ul><li>Not a standard HTTP authentication mechanism; uses HTTP cookies instead of the standard Authorization header; some users disable cookies.</li><li>Difficult to use from nonbrowser clients. Login requires a browser.</li><li>User credentials are sent as plaintext in the request.</li><li>Vulnerable to cross-site request forgery (CSRF); requires anti-CSRF measures.</li></ul> |
 
 Briefly, forms authentication in ASP.NET works like this:
 
