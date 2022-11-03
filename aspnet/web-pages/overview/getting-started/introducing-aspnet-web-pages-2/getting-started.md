@@ -112,7 +112,7 @@ Subsequent tutorial sets build on this set and add more functionality, like uplo
 
 Would you like to see the finished site running as a live web app? You can deploy a complete version of the app to your Azure account by simply clicking the following button.
 
-![Button for the Azure deployment function.](http://azuredeploy.net/deploybutton.png)](https://azuredeploy.net/?WT.mc_id=deploy_azure_aspnet&repository=https://github.com/tfitzmac/WebPagesMovies)
+[![Button for the Azure deployment function.](http://azuredeploy.net/deploybutton.png)](https://azuredeploy.net/?WT.mc_id=deploy_azure_aspnet&repository=https://github.com/tfitzmac/WebPagesMovies)
 
 You need an Azure account to deploy this solution to Azure. If you do not already have an account, you have the following options:
 
