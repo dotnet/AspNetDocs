@@ -167,6 +167,23 @@ The following releases of jQuery are hosted on the CDN:
 - https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.6.2.slim.min.js
 - https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.6.2.slim.min.map
 
+#### jQuery version 3.6.3
+- https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.6.3.js
+- https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.6.3.min.js
+- https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.6.3.min.map
+- https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.6.3.slim.js
+- https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.6.3.slim.min.js
+- https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.6.3.slim.min.map
+
+#### jQuery version 3.6.1
+- https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.6.1.js
+- https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.6.1.min.js
+- https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.6.1.min.map
+- https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.6.1.slim.js
+- https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.6.1.slim.min.js
+- https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.6.1.slim.min.map
+
+
 #### jQuery version 3.6.0
 - https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.6.0.js
 - https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.6.0.min.js
