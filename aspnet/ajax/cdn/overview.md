@@ -159,6 +159,31 @@ The CDN hosts some of the most popular third party JavaScript libraries. Microso
 
 The following releases of jQuery are hosted on the CDN:
 
+#### jQuery version 3.6.2
+- https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.6.2.js
+- https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.6.2.min.js
+- https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.6.2.min.map
+- https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.6.2.slim.js
+- https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.6.2.slim.min.js
+- https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.6.2.slim.min.map
+
+#### jQuery version 3.6.3
+- https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.6.3.js
+- https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.6.3.min.js
+- https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.6.3.min.map
+- https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.6.3.slim.js
+- https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.6.3.slim.min.js
+- https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.6.3.slim.min.map
+
+#### jQuery version 3.6.1
+- https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.6.1.js
+- https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.6.1.min.js
+- https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.6.1.min.map
+- https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.6.1.slim.js
+- https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.6.1.slim.min.js
+- https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.6.1.slim.min.map
+
+
 #### jQuery version 3.6.0
 - https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.6.0.js
 - https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.6.0.min.js
@@ -835,6 +860,21 @@ The following releases of [Respond](https://github.com/scottjehl/Respond "Respon
 ### Bootstrap Releases on the CDN
 
 The following releases of [getbootstrap.com](http://getbootstrap.com "getbootstrap.com") bootstrap are hosted on the CDN:
+
+#### Bootstrap version 5.2.3
+
+- https://ajax.aspnetcdn.com/ajax/bootstrap/5.2.3/bootstrap.js
+- https://ajax.aspnetcdn.com/ajax/bootstrap/5.2.3/bootstrap.min.js
+- https://ajax.aspnetcdn.com/ajax/bootstrap/5.2.3/bootstrap.bundle.js
+- https://ajax.aspnetcdn.com/ajax/bootstrap/5.2.3/css/bootstrap.css
+- https://ajax.aspnetcdn.com/ajax/bootstrap/5.2.3/css/bootstrap.css.map
+- https://ajax.aspnetcdn.com/ajax/bootstrap/5.2.3/css/bootstrap.min.css
+- https://ajax.aspnetcdn.com/ajax/bootstrap/5.2.3/css/bootstrap-grid.css
+- https://ajax.aspnetcdn.com/ajax/bootstrap/5.2.3/css/bootstrap-grid.min.css
+- https://ajax.aspnetcdn.com/ajax/bootstrap/5.2.3/css/bootstrap-grid.css.map
+- https://ajax.aspnetcdn.com/ajax/bootstrap/5.2.3/css/bootstrap-reboot.css
+- https://ajax.aspnetcdn.com/ajax/bootstrap/5.2.3/css/bootstrap-reboot.min.css
+- https://ajax.aspnetcdn.com/ajax/bootstrap/5.2.3/css/bootstrap-reboot.css.map
 
 #### Bootstrap version 4.6.0
 

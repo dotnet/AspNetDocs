@@ -10,7 +10,7 @@ public class Movie
     [DisplayFormat(DataFormatString = "{0:yyyy-MM-dd}", ApplyFormatInEditMode = true)]
     public DateTime ReleaseDate { get; set; }
   
-    [RegularExpression(@"^[A-Z]+[a-zA-Z'\s]*$")]
+    [RegularExpression(@"^[A-Z]+[a-zA-Z]*$")]
     [Required]
     [StringLength(30)]
     public string Genre { get; set; }
@@ -19,7 +19,7 @@ public class Movie
     [DataType(DataType.Currency)]
     public decimal Price { get; set; }
 
-    [RegularExpression(@"^[A-Z]+[a-zA-Z'\s]*$")]
+    [RegularExpression(@"^[A-Z]+[a-zA-Z]*$")]
     [StringLength(5)]
     public string Rating { get; set; }
 }
