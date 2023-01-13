@@ -9,7 +9,7 @@ ms.assetid: 91a62bfa-ea3a-41f9-a2e1-e90d2c8fc8ca
 ---
 # ASP.NET WebHooks source code and NuGet packages
 
-Microsoft ASP.NET WebHooks is part of the Microsoft ASP.NET family of modules and is hosted as an [Open Source Project on GitHub](https://github.com/aspnet/WebHooks). This means that we accept contributions, but please look at the [Contribution Guidelines](https://github.com/aspnet/Home/blob/master/CONTRIBUTING.md) before submitting a pull request.
+Microsoft ASP.NET WebHooks is part of the Microsoft ASP.NET family of modules and is hosted as an [Open Source Project on GitHub](https://github.com/aspnet/aspnetwebhooks). This means that we accept contributions, but please look at the [Contribution Guidelines](https://github.com/aspnet/Home/blob/master/CONTRIBUTING.md) before submitting a pull request.
 
 This online documentation which you are reading now is also hosted as [Open Source on GitHub](https://github.com/aspnet/AspNetWebHooks) and also accepts contributions.
 
