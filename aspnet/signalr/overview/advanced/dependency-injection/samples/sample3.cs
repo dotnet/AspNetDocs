@@ -1,20 +1,23 @@
 // With dependency injection.
 class SomeComponent
 {
-    ILogger _logger;
+    private readonly ILogger _logger;
 
     // Inject ILogger into the object.
     public SomeComponent(ILogger logger)
     {
-        if (logger == null)
-        {
-            throw new NullReferenceException("logger");
-        }
-        _logger = logger;
+        _logger = logger ?? throw new NullReferenceException(nameof("logger"));
     }
 
     public void DoSomething()
     {
-        _logger.LogMessage("DoSomething");
+        try
+        {
+            _logger.LogMessage($"2 + 2 = {2 + 2}");
+        }
+        catch(Exception ex)
+        {
+            _logger.LogError(new EventId(50100, "SignalR_IOC_DI"), ex, ex.Message);
+        }
     }
 }
