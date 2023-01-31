@@ -15,7 +15,7 @@ by [Stephen Walther](https://github.com/StephenWalther)
 
 > In this tutorial, Stephen Walther shows how the ASP.NET MVC framework maps browser requests to controller actions.
 
-In this tutorial, you are introduced to an important feature of every ASP.NET MVC application called *ASP.NET Routing*. The ASP.NET Routing module is responsible for mapping incoming browser requests to particular MVC controller actions. By the end of this tutorial, you will understand how the standard route table maps requests to controller actions.
+In this tutorial, you are introduced to an important feature of every ASP.NET MVC application called *ASP.NET Routing*. The ASP.NET Routing module is responsible for mapping incoming requests to particular MVC controller actions. By the end of this tutorial, you will understand how the standard route table maps requests to controller actions.
 
 ## Using the Default Route Table
 
