@@ -18,7 +18,7 @@ You may be wondering why the resources have been blocked from loading in the des
 
 If you inject any scripts or resources from a third party into your web page, this could expose you to a potential security vulnerability by using WLP and BrowserLink to make a [Cross-Site Scripting (XSS) attack](/aspnet/web-forms/videos/how-do-i/how-do-i-understand-and-defend-against-script-injection-attacks-in-aspnet).
 
-If a third party resource can inject malicious code into the site, the code could use the Browser Link script injected into the designer to make calls back to Visual Studio as mentioned previously. The injected script could allow the code to write arbitrary content in files open in Visual Studio or open up other attack vectors.
+If a third party resource can inject malicious code into the site, the code could use the Browser Link script injected into the designer to make calls back to Visual Studio. The injected script could allow the code to write arbitrary content in files open in Visual Studio or open up other attack vectors.
 
 Currently, there's no good way to prevent attackers from communicating via the BrowserLink script back to Visual Studio.
 
