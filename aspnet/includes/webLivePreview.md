@@ -6,9 +6,9 @@ If you have any external resources from a third party domain that are in your pa
 
 You may be wondering why the resources have been blocked from loading in the designer, and why the toast is showing. This article explains why resources have been blocked.
 
-### Overview of Web Live Preview / BrowserLink
+### Overview of Web Live Preview and BrowserLink
 
-[Web Live Preview](https://devblogs.microsoft.com/dotnet/introducing-web-live-preview/) (WLP) is a Visual Studio extension built on top of [BrowserLink](/aspnet/core/client-side/using-browserlink). WLP uses BrowserLink to provide a channel for two-way communication between Visual Studio and the designer. This two-way communication allows WLP to provide many features such as the the following:
+[Web Live Preview](https://devblogs.microsoft.com/dotnet/introducing-web-live-preview/) (WLP) is a Visual Studio extension built on top of [BrowserLink](/aspnet/core/client-side/using-browserlink). WLP uses BrowserLink to provide a channel for two-way communication between Visual Studio and the designer. This two-way communication allows WLP to provide many features:
 
 * Synchronizing the contents and currently selected node in the designer with that of the editor.
 * Pushing new content created from the designer into the editor.
@@ -16,7 +16,7 @@ You may be wondering why the resources have been blocked from loading in the des
 
 ## Potential Security Vulnerabilities with Web Live Preview and BrowserLink
 
-If you inject any scripts or resources from a third party into your web page, this could expose you to a potential security vulnerability - using WLP and BrowserLink to make a [Cross-Site Scripting (XSS) attack](/aspnet/web-forms/videos/how-do-i/how-do-i-understand-and-defend-against-script-injection-attacks-in-aspnet).
+If you inject any scripts or resources from a third party into your web page, this could expose you to a potential security vulnerability by using WLP and BrowserLink to make a [Cross-Site Scripting (XSS) attack](/aspnet/web-forms/videos/how-do-i/how-do-i-understand-and-defend-against-script-injection-attacks-in-aspnet).
 
 If a third party resource can inject malicious code into the site, the code could use the Browser Link script injected into the designer to make calls back to Visual Studio as mentioned previously. The injected script could allow the code to write arbitrary content in files open in Visual Studio or open up other attack vectors.
 
