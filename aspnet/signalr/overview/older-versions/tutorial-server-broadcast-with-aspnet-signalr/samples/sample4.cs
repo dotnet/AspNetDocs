@@ -84,7 +84,7 @@ namespace SignalR.StockTicker
 
         private bool TryUpdateStockPrice(Stock stock)
         {
-            // Randomly choose whether to udpate this stock or not
+            // Randomly choose whether to update this stock or not
             var r = _updateOrNotRandom.NextDouble();
             if (r > .1)
             {
