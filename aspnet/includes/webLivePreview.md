@@ -1,6 +1,6 @@
 ## Why are external resources in my page being blocked in Web Live Preview?
 
-If you have any external resources from a 3rd party domain that are in your page, you may notice that the designer in Web Live Preview has prevented them from loading, and shows this toast:
+If you have any external resources from a third party domain that are in your page, you may notice that the designer in Web Live Preview has prevented them from loading, and shows this toast:
 
 ![Blocked Resources Toast](https://user-images.githubusercontent.com/8541576/220452947-52dc80dc-19c5-40e9-9f10-12007d209491.png)
 
@@ -12,9 +12,9 @@ You may be wondering why the resources have been blocked from loading in the des
 
 ## Potential Security Vulnerabilities with Web Live Preview / BrowserLink:
 
-If you inject any scripts or resources from a 3rd party into your web page, this could expose you to a potential security vulnerability - leveraging WLP / BrowserLink to make a Cross-Site Scripting (XSS) attack.
+If you inject any scripts or resources from a third party into your web page, this could expose you to a potential security vulnerability - using WLP / BrowserLink to make a Cross-Site Scripting (XSS) attack.
 
-If a 3rd party resource can inject malicious code into the site, the code could use the Browser Link script injected into the designer to make calls back to Visual Studio as mentioned above. This could allow the code to write arbitrary content in files open in Visual Studio or open up other attack vectors.
+If a third party resource can inject malicious code into the site, the code could use the Browser Link script injected into the designer to make calls back to Visual Studio as mentioned above. This could allow the code to write arbitrary content in files open in Visual Studio or open up other attack vectors.
 
 Currently, there is no good way to prevent attackers from communicating via the BrowserLink script back to Visual Studio.
 
