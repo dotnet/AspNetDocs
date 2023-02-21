@@ -1,4 +1,3 @@
-
 ## Why are external resources in my page being blocked in Web Live Preview?
 
 If you have any external resources from a 3rd party domain that are in your page, you may notice that the designer in Web Live Preview has prevented them from loading, and shows this toast:
