@@ -159,13 +159,13 @@ The CDN hosts some of the most popular third party JavaScript libraries. Microso
 
 The following releases of jQuery are hosted on the CDN:
 
-#### jQuery version 3.6.2
-- https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.6.2.js
-- https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.6.2.min.js
-- https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.6.2.min.map
-- https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.6.2.slim.js
-- https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.6.2.slim.min.js
-- https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.6.2.slim.min.map
+#### jQuery version 3.6.4
+- https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.6.4.js
+- https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.6.4.min.js
+- https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.6.4.min.map
+- https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.6.4.slim.js
+- https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.6.4.slim.min.js
+- https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.6.4.slim.min.map
 
 #### jQuery version 3.6.3
 - https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.6.3.js
