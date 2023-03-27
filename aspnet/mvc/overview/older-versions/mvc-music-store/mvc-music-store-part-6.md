@@ -34,7 +34,7 @@ We'll use the following Data Annotation attributes:
 - **Bind** – Lists fields to exclude or include when binding parameter or form values to model properties
 - **ScaffoldColumn** – Allows hiding fields from editor forms
 
-*Note: For more information on Model Validation using Data Annotation attributes, see the MSDN documentation at*[`https://go.microsoft.com/fwlink/?LinkId=159063`](https://go.microsoft.com/fwlink/?LinkId=159063)
+*Note: For more information on Model Validation using Data Annotation attributes, see the MSDN documentation at *[`https://go.microsoft.com/fwlink/?LinkId=159063`](https://go.microsoft.com/fwlink/?LinkId=159063)
 
 Open the Album class and add the following *using* statements to the top.
 
