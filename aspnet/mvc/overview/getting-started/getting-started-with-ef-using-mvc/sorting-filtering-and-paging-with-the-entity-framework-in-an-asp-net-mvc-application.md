@@ -122,7 +122,7 @@ The NuGet **PagedList.Mvc** package automatically installs the **PagedList** pac
 
 3. Build the project.
 
-> [!NOTE]
+[!NOTE]
 > PageList package is no longer maintained. So, for current projects it is better to use the [X.PagedList](https://github.com/dncuug/X.PagedList) package. The main difference is that X.PagedList is a portable assembly. This means that the package is cross-platform and can be used for web projects as well as other .NET projects. 
 > The new package shouldn't cause compatibility problems, because it was ported to .NET 6 since version 8.4.
 
