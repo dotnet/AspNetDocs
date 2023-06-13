@@ -73,7 +73,7 @@ In Visual Web Developer, from the **Tools** menu, select **NuGet Package Manager
 
 ![Image showing how to access Manage Nu Get Packages menu option](using-the-html5-and-jquery-ui-datepicker-popup-calendar-with-aspnet-mvc-part-4/_static/image3.png)
 
-Note: If the **Tools** menu doesn't display the **NuGet Package Manager** command, you need to install NuGet by following the instructions on the [Installing NuGet](http://docs.nuget.org/docs/start-here/installing-nuget) page of the NuGet website.   
+Note: If the **Tools** menu doesn't display the **NuGet Package Manager** command, you need to install NuGet by following the instructions on the [Installing NuGet](https://docs.nuget.org/docs/start-here/installing-nuget) page of the NuGet website.   
   
 If you're using Visual Studio instead of Visual Web Developer, from the **Tools** menu, select **NuGet Package Manager** and then select **Add Library Package Reference**.
 
