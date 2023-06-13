@@ -222,7 +222,7 @@ If your application has fire-and-forget work that runs within ASP.NET, your appl
 
 You should move this type of work outside of ASP.NET. You can use a Web Jobs, Windows Service or a Worker role in Azure to perform ongoing work, and run that code from another process.
 
-If you must perform this work within ASP.NET, you can add the Nuget package called [WebBackgrounder](http://www.nuget.org/packages/webbackgrounder) to run the code.
+If you must perform this work within ASP.NET, you can add the Nuget package called [WebBackgrounder](https://www.nuget.org/packages/webbackgrounder) to run the code.
 
 <a id="requestentity"></a>
 
@@ -266,7 +266,7 @@ By enabling view state for only the controls that need it, you can shrink the si
 
 Recommendation: Use Universal Providers.
 
-In the current project templates, SqlMembershipProvider has been replaced by [ASP.NET Universal Providers](http://www.nuget.org/packages/Microsoft.AspNet.Providers), which is available as a NuGet package. If you are using SqlMembershipProvider in a project that was built with an earlier version of the templates, you should switch to Universal Providers. The Universal Providers work with all databases that are supported by Entity Framework.
+In the current project templates, SqlMembershipProvider has been replaced by [ASP.NET Universal Providers](https://www.nuget.org/packages/Microsoft.AspNet.Providers), which is available as a NuGet package. If you are using SqlMembershipProvider in a project that was built with an earlier version of the templates, you should switch to Universal Providers. The Universal Providers work with all databases that are supported by Entity Framework.
 
 For more information, see [Introducing ASP.NET Universal Providers](http://www.hanselman.com/blog/IntroducingSystemWebProvidersASPNETUniversalProvidersForSessionMembershipRolesAndUserProfileOnSQLCompactAndSQLAzure.aspx).
 

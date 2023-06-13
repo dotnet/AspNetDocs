@@ -144,9 +144,9 @@ If you want to write your own provider, read [Overview of Custom Storage Provide
 - Azure Table Storage: [AspNet.Identity.TableStorage](https://github.com/stuartleeks/leeksnet.AspNet.Identity.TableStorage) by [@stuartleeks](https://twitter.com/stuartleeks).
 - [CouchDB / Cloudant by Daniel Wertheim.](https://github.com/danielwertheim/mycouch.aspnet.identity)
 - [Elastic Search: Elastic Identity](https://github.com/bmbsqd/elastic-identity) by Bombsquad AB.
-- [MongoDB](http://www.nuget.org/packages/MongoDB.AspNet.Identity/) by Jonathan Sheely Jonathan Sheely.
+- [MongoDB](https://www.nuget.org/packages/MongoDB.AspNet.Identity/) by Jonathan Sheely Jonathan Sheely.
 - [NHibernate.AspNet.Identity](https://github.com/milesibastos/NHibernate.AspNet.Identity) by Antônio Milesi Bastos.
-- [RavenDB](http://www.nuget.org/packages/AspNet.Identity.RavenDB/1.0.0) by [@tourismgeek](https://twitter.com/tourismgeek).
+- [RavenDB](https://www.nuget.org/packages/AspNet.Identity.RavenDB/1.0.0) by [@tourismgeek](https://twitter.com/tourismgeek).
 - [RavenDB.AspNet.Identity](https://github.com/ILMServices/RavenDB.AspNet.Identity) by [ILMServices](http://www.ilmservice.com/).
 - Redis: [Redis.AspNet.Identity](https://github.com/aminjam/Redis.AspNet.Identity)
 - T4 Templates to generate EF code for a "database first" user store: [AspNet.Identity.EntityFramework](https://github.com/cbfrank/AspNet.Identity.EntityFramework)

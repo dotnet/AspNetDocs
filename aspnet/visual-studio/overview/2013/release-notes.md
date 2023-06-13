@@ -588,8 +588,8 @@ This section describes known issues and breaking changes in the ASP.NET and Web 
 
 ### NuGet
 
-- New package restore doesn't work on Mono when using SLN file – will be fixed in an upcoming nuget.exe download and [NuGet.CommandLine package](http://www.nuget.org/packages/NuGet.CommandLine/) update.
-- New package restore doesn't work with Wix projects – will be fixed in an upcoming nuget.exe download and [NuGet.CommandLine package](http://www.nuget.org/packages/NuGet.CommandLine/) update.
+- New package restore doesn't work on Mono when using SLN file – will be fixed in an upcoming nuget.exe download and [NuGet.CommandLine package](https://www.nuget.org/packages/NuGet.CommandLine/) update.
+- New package restore doesn't work with Wix projects – will be fixed in an upcoming nuget.exe download and [NuGet.CommandLine package](https://www.nuget.org/packages/NuGet.CommandLine/) update.
 
 
 ### ASP.NET Web API

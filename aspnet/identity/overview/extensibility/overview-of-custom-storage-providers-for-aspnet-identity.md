@@ -30,7 +30,7 @@ by [Tom FitzMacken](https://github.com/tfitzmac)
 
 By default, the ASP.NET Identity system stores user information in a SQL Server database, and uses Entity Framework Code First to create the database. For many applications, this approach works well. However, you may prefer to use a different type of persistence mechanism, such as Azure Table Storage, or you may already have database tables with a very different structure than the default implementation. In either case, you can write a customized provider for your storage mechanism and plug that provider into your application.
 
-ASP.NET Identity is included by default in many of the Visual Studio 2013 templates. You can get updates to ASP.NET Identity through [Microsoft AspNet Identity EntityFramework NuGet package](http://www.nuget.org/packages/Microsoft.AspNet.Identity.EntityFramework/).
+ASP.NET Identity is included by default in many of the Visual Studio 2013 templates. You can get updates to ASP.NET Identity through [Microsoft AspNet Identity EntityFramework NuGet package](https://www.nuget.org/packages/Microsoft.AspNet.Identity.EntityFramework/).
 
 This topic includes the following sections:
 
@@ -253,9 +253,9 @@ You have implemented your new storage provider. Now, you must configure your app
 - Azure Table Storage: [AspNet.Identity.TableStorage](https://github.com/stuartleeks/leeksnet.AspNet.Identity.TableStorage) by [@stuartleeks](https://twitter.com/stuartleeks).
 - [CouchDB / Cloudant by Daniel Wertheim.](https://github.com/danielwertheim/mycouch.aspnet.identity)
 - Elastic Searc[h: Elastic Identity](https://github.com/bmbsqd/elastic-identity) by Bombsquad AB.
-- [MongoDB](http://www.nuget.org/packages/MongoDB.AspNet.Identity/) by Jonathan Sheely Jonathan Sheely.
+- [MongoDB](https://www.nuget.org/packages/MongoDB.AspNet.Identity/) by Jonathan Sheely Jonathan Sheely.
 - [NHibernate.AspNet.Identity](https://github.com/milesibastos/NHibernate.AspNet.Identity) by Antônio Milesi Bastos.
-- [RavenDB](http://www.nuget.org/packages/AspNet.Identity.RavenDB/1.0.0) by [@tourismgeek](https://twitter.com/tourismgeek).
+- [RavenDB](https://www.nuget.org/packages/AspNet.Identity.RavenDB/1.0.0) by [@tourismgeek](https://twitter.com/tourismgeek).
 - [RavenDB.AspNet.Identity](https://github.com/ILMServices/RavenDB.AspNet.Identity) by [ILMServices](http://www.ilmservice.com/).
 - Redis: [Redis.AspNet.Identity](https://github.com/aminjam/Redis.AspNet.Identity)
 - T4 Templates to generate EF code for a "database first" user store: [AspNet.Identity.EntityFramework](https://github.com/cbfrank/AspNet.Identity.EntityFramework)

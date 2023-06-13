@@ -61,7 +61,7 @@ The Glimpse HUD page details the timing information shown above. The unobtrusive
 
 ![Glimpse panel](profile-and-debug-your-aspnet-mvc-app-with-glimpse/_static/image7.png)
 
-In the image above, the Execution tab is selected, which shows timing details of the actions and filters in the pipeline. You can see my [Stop Watch filter timer](http://www.nuget.org/packages/StopWatch/) start at stage 6 of the pipeline. While my light weight timer can provide useful profile/timing data, it misses all the time spent in authorization and rendering the view. You can read about my timer at [Profile and Time your ASP.NET MVC app all the way to Azure](https://devblogs.microsoft.com/dotnet/profile-and-time-your-asp-net-mvc-app-all-the-way-to-azure/).
+In the image above, the Execution tab is selected, which shows timing details of the actions and filters in the pipeline. You can see my [Stop Watch filter timer](https://www.nuget.org/packages/StopWatch/) start at stage 6 of the pipeline. While my light weight timer can provide useful profile/timing data, it misses all the time spent in authorization and rendering the view. You can read about my timer at [Profile and Time your ASP.NET MVC app all the way to Azure](https://devblogs.microsoft.com/dotnet/profile-and-time-your-asp-net-mvc-app-all-the-way-to-azure/).
 
 <a id="Time"></a>
 ## The Timeline tab

@@ -147,7 +147,7 @@ When a Web server receives a request for a page, it finds the page, processes it
 > 
 > **NuGet Packages**
 > 
-> The ASP.NET Web Forms Application template includes a set of [NuGet](http://www.nuget.org/) packages. These packages provide componentized functionality in the form of open source libraries and tools. There is a wide variety of packages to help you create and test your applications. Visual Studio makes it easy to add, remove, and update NuGet packages. Developers can create and add packages to NuGet as well.
+> The ASP.NET Web Forms Application template includes a set of [NuGet](https://www.nuget.org/) packages. These packages provide componentized functionality in the form of open source libraries and tools. There is a wide variety of packages to help you create and test your applications. Visual Studio makes it easy to add, remove, and update NuGet packages. Developers can create and add packages to NuGet as well.
 > 
 > ![Screenshot of the Manage NuGet Packages window with jQuery highlighted.](create-the-project/_static/image8.png)
 > 

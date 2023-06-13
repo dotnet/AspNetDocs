@@ -96,11 +96,11 @@ ASP.NET Identity is implemented using the following procedure. The purpose of th
     ![Image of new ASP dot Net project window](introduction-to-aspnet-identity/_static/image1.png)
 2. The created project contains the following three packages for ASP.NET Identity.
 
-    - [`Microsoft.AspNet.Identity.EntityFramework`](http://www.nuget.org/packages/Microsoft.AspNet.Identity.EntityFramework/)  
+    - [`Microsoft.AspNet.Identity.EntityFramework`](https://www.nuget.org/packages/Microsoft.AspNet.Identity.EntityFramework/)  
    This package has the Entity Framework implementation of ASP.NET Identity which will persist the ASP.NET Identity data and schema to SQL Server.
-    - [`Microsoft.AspNet.Identity.Core`](http://www.nuget.org/packages/Microsoft.AspNet.Identity.Core/)  
+    - [`Microsoft.AspNet.Identity.Core`](https://www.nuget.org/packages/Microsoft.AspNet.Identity.Core/)  
    This package has the core interfaces for ASP.NET Identity. This package can be used to write an implementation for ASP.NET Identity that targets different persistence stores such as Azure Table Storage, NoSQL databases etc.
-    - [`Microsoft.AspNet.Identity.OWIN`](http://www.nuget.org/packages/Microsoft.AspNet.Identity.Owin/)  
+    - [`Microsoft.AspNet.Identity.OWIN`](https://www.nuget.org/packages/Microsoft.AspNet.Identity.Owin/)  
    This package contains functionality that is used to plug in OWIN authentication with ASP.NET Identity in ASP.NET applications. This is used when you add sign in functionality to your application and call into OWIN Cookie Authentication middleware to generate a cookie.
 3. Creating a user.  
    Launch the application and then click on the **Register** link to create a user. The following image shows the Register page that collects the user name and password.  
@@ -132,9 +132,9 @@ The diagram below shows the components of the ASP.NET Identity system (select on
 
 The following is a brief description of the NuGet packages not mentioned previously:
 
-- [Microsoft.Owin.Security.Cookies](http://www.nuget.org/packages/Microsoft.Owin.Security.Cookies/)  
+- [Microsoft.Owin.Security.Cookies](https://www.nuget.org/packages/Microsoft.Owin.Security.Cookies/)  
  Middleware that enables an application to use cookie based authentication, similar to ASP.NET's Forms Authentication.
-- [EntityFramework](http://www.nuget.org/packages/EntityFramework/)  
+- [EntityFramework](https://www.nuget.org/packages/EntityFramework/)  
  Entity Framework is Microsoft's recommended data access technology for relational databases.
 
 ## Migrating from Membership to ASP.NET Identity

@@ -104,7 +104,7 @@ The following steps use [Visual Studio Express 2013 for Web](https://www.microso
 
     The most relevant portion for discussion is the following highlighted line: `UserProfile profile = JsonConvert.DeserializeObject<UserProfile>(responseString);`. This line represents the name of the user, which has been deserialized from the JSON response and is presented in the View.
 
-    You can call the Graph API using HttpClient and handle the raw data yourself, but an easier way is to use the [Graph Client Library which is available via NuGet](http://www.nuget.org/packages/Microsoft.Azure.ActiveDirectory.GraphClient/). The Client Library handles the raw HTTP requests and the transformation of the returned data for you, and makes it much easier to work with the Graph API in a .NET environment. See the related Graph API code samples on [GitHub.](https://github.com/AzureADSamples)
+    You can call the Graph API using HttpClient and handle the raw data yourself, but an easier way is to use the [Graph Client Library which is available via NuGet](https://www.nuget.org/packages/Microsoft.Azure.ActiveDirectory.GraphClient/). The Client Library handles the raw HTTP requests and the transformation of the returned data for you, and makes it much easier to work with the Graph API in a .NET environment. See the related Graph API code samples on [GitHub.](https://github.com/AzureADSamples)
 
 ## Deploy the Application to Azure
 
