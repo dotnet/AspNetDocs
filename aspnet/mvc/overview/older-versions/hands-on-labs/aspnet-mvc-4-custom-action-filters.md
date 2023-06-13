@@ -134,7 +134,7 @@ In this task you will create a custom filter attribute class that will contain t
       > [!NOTE]
       > One of the advantages of using NuGet is that you don't have to ship all the libraries in your project, reducing the project size. With NuGet Power Tools, by specifying the package versions in the Packages.config file, you will be able to download all the required libraries the first time you run the project. This is why you will have to run these steps after you open an existing solution from this lab.
       > 
-      > For more information, see this article: [http://docs.nuget.org/docs/workflows/using-nuget-without-committing-packages](http://docs.nuget.org/docs/workflows/using-nuget-without-committing-packages).
+      > For more information, see this article: [https://docs.nuget.org/docs/workflows/using-nuget-without-committing-packages](https://docs.nuget.org/docs/workflows/using-nuget-without-committing-packages).
 2. Add a new C# class into the **Filters** folder and name it *CustomActionFilter.cs*. This folder will store all the custom filters.
 3. Open **CustomActionFilter.cs** and add a reference to **System.Web.Mvc** and **MvcMusicStore.Models** namespaces:
 
@@ -238,7 +238,7 @@ In this task, you will create a new Custom Action Filter to inject into the Stor
         > [!NOTE]
         > One of the advantages of using NuGet is that you don't have to ship all the libraries in your project, reducing the project size. With NuGet Power Tools, by specifying the package versions in the Packages.config file, you will be able to download all the required libraries the first time you run the project. This is why you will have to run these steps after you open an existing solution from this lab.
         > 
-        > For more information, see this article: [http://docs.nuget.org/docs/workflows/using-nuget-without-committing-packages](http://docs.nuget.org/docs/workflows/using-nuget-without-committing-packages).
+        > For more information, see this article: [https://docs.nuget.org/docs/workflows/using-nuget-without-committing-packages](https://docs.nuget.org/docs/workflows/using-nuget-without-committing-packages).
 2. Add a new C# class into the **Filters** folder and name it *MyNewCustomActionFilter.cs*
 3. Open **MyNewCustomActionFilter.cs** and add a reference to **System.Web.Mvc** and the **MvcMusicStore.Models** namespace:
 

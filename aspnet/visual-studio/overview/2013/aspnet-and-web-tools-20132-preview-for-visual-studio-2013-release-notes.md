@@ -172,7 +172,7 @@ The following screenshots demonstrate scaffolding models.
 <a id="nuget"></a>
 ### NuGet 2.8.1
 
-NuGet 2.8.1 RTM will be released in April 2014. Here are the salient points from the release notes, but please check the [full release notes](http://docs.nuget.org/docs/release-notes/nuget-2.8) for more information on these changes.
+NuGet 2.8.1 RTM will be released in April 2014. Here are the salient points from the release notes, but please check the [full release notes](https://docs.nuget.org/docs/release-notes/nuget-2.8) for more information on these changes.
 
 - **Target Windows Phone 8.1 Applications**: NuGet 2.8.1 now supports targeting Windows Phone 8.1 Applications using the target framework monikers 'WindowsPhoneApp', 'WPA', 'WindowsPhoneApp81', and 'WPA81'.
 

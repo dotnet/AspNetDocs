@@ -145,7 +145,7 @@ For more information about ASP.NET web deployment, see [the ASP.NET site](https:
 <a id="nuget"></a>
 ## NuGet 2.7
 
-NuGet 2.7 includes a rich set of new features which are described in detail at [NuGet 2.7 Release Notes](http://docs.nuget.org/docs/release-notes/nuget-2.7).
+NuGet 2.7 includes a rich set of new features which are described in detail at [NuGet 2.7 Release Notes](https://docs.nuget.org/docs/release-notes/nuget-2.7).
 
 This version of NuGet also removes the need to provide explicit consent for NuGet's package restore feature to download packages. Consent (and the associated checkbox in NuGet's preferences dialog) is now granted by installing NuGet. Now package restore simply works by default.
 

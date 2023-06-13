@@ -230,7 +230,7 @@ The SQL Server Compact database engine and both databases are now ready to be de
 
 ## More Information
 
-For more information on NuGet, see [Manage Project Libraries with NuGet](https://msdn.microsoft.com/magazine/hh547106.aspx) and [NuGet Documentation](http://docs.nuget.org/docs/start-here/overview). If you don't want to use NuGet, you'll need to learn how to analyze a NuGet package to determine what it does when it is installed. (For example, it might configure *Web.config* transformations, configure PowerShell scripts to run at build time, etc.) To learn more about how NuGet works, see especially [Creating and Publishing a Package](http://docs.nuget.org/docs/creating-packages/creating-and-publishing-a-package) and [Configuration File and Source Code Transformations](http://docs.nuget.org/docs/creating-packages/configuration-file-and-source-code-transformations).
+For more information on NuGet, see [Manage Project Libraries with NuGet](https://msdn.microsoft.com/magazine/hh547106.aspx) and [NuGet Documentation](https://docs.nuget.org/docs/start-here/overview). If you don't want to use NuGet, you'll need to learn how to analyze a NuGet package to determine what it does when it is installed. (For example, it might configure *Web.config* transformations, configure PowerShell scripts to run at build time, etc.) To learn more about how NuGet works, see especially [Creating and Publishing a Package](https://docs.nuget.org/docs/creating-packages/creating-and-publishing-a-package) and [Configuration File and Source Code Transformations](https://docs.nuget.org/docs/creating-packages/configuration-file-and-source-code-transformations).
 
 > [!div class="step-by-step"]
 > [Previous](deployment-to-a-hosting-provider-introduction-1-of-12.md)
