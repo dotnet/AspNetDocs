@@ -204,5 +204,5 @@ To realize the benefits of an asynchronous web application, you might need to ma
 
 - [Levi Broderick](http://stackoverflow.com/users/59641/levi)
 - [Tom Dykstra](http://www.bing.com/search?q=site%3Aasp.net+%22Tom+Dykstra%22+-forums.asp.net&amp;qs=n&amp;form=QBRE&amp;pq=site%3Aasp.net+%22tom+dykstra%22+-forums.asp.net&amp;sc=8-42&amp;sp=-1&amp;sk=)
-- [Brad Wilson](http://bradwilson.typepad.com/)
+- [Brad Wilson](https://bradwilson.typepad.com/)
 - [HongMei Ge](/archive/blogs/hongmeig/)

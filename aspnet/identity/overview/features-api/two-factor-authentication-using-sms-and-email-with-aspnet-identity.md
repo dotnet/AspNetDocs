@@ -199,7 +199,7 @@ The `EnableTFA` action method enables 2FA:
 
 Note the `SignInAsync` must be called because enable 2FA is a change to the security profile. When 2FA is enabled, the user will need to use 2FA to log in, using the 2FA approaches they have registered (SMS and email in the sample).
 
-You can add more 2FA providers such as QR code generators or you can write you own (See [Using Google Authenticator with ASP.NET Identity](https://www.jerriepelser.com//blog/using-google-authenticator-asp-net-identity/)).
+You can add more 2FA providers such as QR code generators or you can write your own.
 
 > [!NOTE]
 > The 2FA codes are generated using [Time-based One-time Password Algorithm](http://en.wikipedia.org/wiki/Time-based_One-time_Password_Algorithm) and codes are valid for six minutes. If you take more than six minutes to enter the code, you'll get an Invalid code error message.
