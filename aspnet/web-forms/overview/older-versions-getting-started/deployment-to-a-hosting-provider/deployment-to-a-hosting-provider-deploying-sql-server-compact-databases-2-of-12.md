@@ -50,10 +50,10 @@ You can start with SQL Server Compact and then upgrade later as your needs evolv
 
 The software required for data access in the Contoso University application was added by installing the following NuGet packages:
 
-- [SqlServerCompact](http://nuget.org/List/Packages/SqlServerCompact)
-- [System.Web.Providers](http://nuget.org/List/Packages/System.Web.Providers) (ASP.NET universal providers)
-- [EntityFramework](http://nuget.org/List/Packages/EntityFramework)
-- [EntityFramework.SqlServerCompact](http://nuget.org/List/Packages/EntityFramework.sqlservercompact)
+- [SqlServerCompact](https://nuget.org/List/Packages/SqlServerCompact)
+- [System.Web.Providers](https://nuget.org/List/Packages/System.Web.Providers) (ASP.NET universal providers)
+- [EntityFramework](https://nuget.org/List/Packages/EntityFramework)
+- [EntityFramework.SqlServerCompact](https://nuget.org/List/Packages/EntityFramework.sqlservercompact)
 
 The links point to the current versions of these packages, which might be newer than what is installed in the starter project that you downloaded for this tutorial. For deployment to a hosting provider, make sure that you use Entity Framework 5.0 or later. Earlier versions of Code First Migrations require Full Trust, and at many hosting providers your application will run in Medium Trust. For more information about Medium Trust, see the [Deploying to IIS as a Test Environment](deployment-to-a-hosting-provider-deploying-to-iis-as-a-test-environment-5-of-12.md) tutorial.
 

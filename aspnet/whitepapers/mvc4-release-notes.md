@@ -133,7 +133,7 @@ If you want to create more specific views, layouts, or partial views for other d
 
 [!code-csharp[Main](mvc4-release-notes/samples/sample1.cs)]
 
-After this code runs, when an Apple iPhone browser makes a request, your application will use the Views\Shared\\_Layout.iPhone.cshtml layout (if it exists). For more information on Display Mode, see [ASP.NET MVC 4 Mobile Features](../mvc/overview/older-versions/aspnet-mvc-4-mobile-features.md). Applications using DisplayModeProvider should install the [Fixed DisplayModes](http://nuget.org/packages/Microsoft.AspNet.Mvc.FixedDisplayModes) NuGet package. The [ASP.NET Fall 2012 Update](https://go.microsoft.com/fwlink/?LinkID=271322) includes the [Fixed DisplayModes](http://nuget.org/packages/Microsoft.AspNet.Mvc.FixedDisplayModes) NuGet package in the new project templates. See [ASP.NET MVC 4 Mobile Caching Bug Fixedd](/archive/blogs/rickandy/asp-net-mvc-4-mobile-caching-bug-fixed) for details on the fix.
+After this code runs, when an Apple iPhone browser makes a request, your application will use the Views\Shared\\_Layout.iPhone.cshtml layout (if it exists). For more information on Display Mode, see [ASP.NET MVC 4 Mobile Features](../mvc/overview/older-versions/aspnet-mvc-4-mobile-features.md). Applications using DisplayModeProvider should install the [Fixed DisplayModes](https://nuget.org/packages/Microsoft.AspNet.Mvc.FixedDisplayModes) NuGet package. The [ASP.NET Fall 2012 Update](https://go.microsoft.com/fwlink/?LinkID=271322) includes the [Fixed DisplayModes](https://nuget.org/packages/Microsoft.AspNet.Mvc.FixedDisplayModes) NuGet package in the new project templates. See [ASP.NET MVC 4 Mobile Caching Bug Fixedd](/archive/blogs/rickandy/asp-net-mvc-4-mobile-caching-bug-fixed) for details on the fix.
 
 <a id="_Toc303253811"></a>
 ### jQuery Mobile and Mobile Features
@@ -243,7 +243,7 @@ The major changes from ASP.NET MVC 4 Release Candidate in this release are summa
 
 - **The RC and RTM version of ASP.NET MVC 4 incorrectly returned cached desktop views when mobile views should be returned.**
 
-    - See [ASP.NET MVC 4 Mobile Caching Bug Fixed](/archive/blogs/rickandy/asp-net-mvc-4-mobile-caching-bug-fixed) for details on the fix. The fix can be installed from the [Fixed DisplayModes](http://nuget.org/packages/Microsoft.AspNet.Mvc.FixedDisplayModes) NuGet package.
+    - See [ASP.NET MVC 4 Mobile Caching Bug Fixed](/archive/blogs/rickandy/asp-net-mvc-4-mobile-caching-bug-fixed) for details on the fix. The fix can be installed from the [Fixed DisplayModes](https://nuget.org/packages/Microsoft.AspNet.Mvc.FixedDisplayModes) NuGet package.
 - **Breaking changes in the Razor View Engine**. The following types were removed from *System.Web.Mvc.Razor*: 
 
     - *ModelSpan*

@@ -79,7 +79,7 @@ The application delegate then is simply an implementation of the Func delegate t
 
 From an implementation perspective, OWIN is a specification ([http://owin.org/html/owin.html](http://owin.org/html/owin.html)). Its goal is not to be the next Web framework, but rather a specification for how Web frameworks and Web servers interact.
 
-If you've investigated [OWIN](http://owin.org/) or [Katana](https://github.com/aspnet/AspNetKatana/wiki), you may also have noticed the [Owin NuGet package](http://nuget.org/packages/Owin) and Owin.dll. This library contains a single interface, [IAppBuilder]/dotnet/api/microsoft.aspnetcore.builder.iapplicationbuilder), which formalizes and codifies the startup sequence described in [section 4](http://owin.org/html/owin.html#4-application-startup) of the OWIN specification. While not required in order to build OWIN servers, the [IAppBuilder]/dotnet/api/microsoft.aspnetcore.builder.iapplicationbuilder) interface provides a concrete reference point, and it is used by the Katana project components.
+If you've investigated [OWIN](http://owin.org/) or [Katana](https://github.com/aspnet/AspNetKatana/wiki), you may also have noticed the [Owin NuGet package](https://nuget.org/packages/Owin) and Owin.dll. This library contains a single interface, [IAppBuilder]/dotnet/api/microsoft.aspnetcore.builder.iapplicationbuilder), which formalizes and codifies the startup sequence described in [section 4](http://owin.org/html/owin.html#4-application-startup) of the OWIN specification. While not required in order to build OWIN servers, the [IAppBuilder]/dotnet/api/microsoft.aspnetcore.builder.iapplicationbuilder) interface provides a concrete reference point, and it is used by the Katana project components.
 
 ## Project Katana
 
@@ -99,7 +99,7 @@ One notable difference between JavaScript and .NET development is the presence (
 
 ![Screenshot of the ASP.Net Project - WebApplication1 menu, depicting how to Get Started Window Pane to create a 'Hello World' project. Shows a window with different templates to select from and the options to add core references and unit tests.](an-overview-of-project-katana/_static/image1.png)
 
-Next, we will install the [Microsoft.Owin.Host.SystemWeb](http://nuget.org/packages/Microsoft.Owin.Host.SystemWeb) NuGet package into the project. This package provides an OWIN server that runs in the ASP.NET request pipeline. It can be found on the [NuGet gallery](http://nuget.org/packages/Microsoft.Owin.Host.SystemWeb) and can be installed using either the Visual Studio package manager dialog or the package manager console with the following command:
+Next, we will install the [Microsoft.Owin.Host.SystemWeb](https://nuget.org/packages/Microsoft.Owin.Host.SystemWeb) NuGet package into the project. This package provides an OWIN server that runs in the ASP.NET request pipeline. It can be found on the [NuGet gallery](https://nuget.org/packages/Microsoft.Owin.Host.SystemWeb) and can be installed using either the Visual Studio package manager dialog or the package manager console with the following command:
 
 [!code-console[Main](an-overview-of-project-katana/samples/sample2.cmd)]
 

@@ -57,7 +57,7 @@ Contoso University is a Visual Studio web application project. Most of the deplo
 
 ## Deploying ASP.NET MVC Projects
 
-For this tutorial you deploy an ASP.NET Web Forms project, but everything you learn how to do is applicable to ASP.NET MVC as well. A Visual Studio MVC project is just another form of web application project. The only difference is that if you're deploying to a hosting provider that does not support ASP.NET MVC or your target version of it, you must make sure that you have installed the appropriate ([MVC 3](http://nuget.org/packages/AspNetMvc/3.0.20105.0) or [MVC 4](http://nuget.org/packages/aspnetmvc)) NuGet package in your project.
+For this tutorial you deploy an ASP.NET Web Forms project, but everything you learn how to do is applicable to ASP.NET MVC as well. A Visual Studio MVC project is just another form of web application project. The only difference is that if you're deploying to a hosting provider that does not support ASP.NET MVC or your target version of it, you must make sure that you have installed the appropriate ([MVC 3](https://nuget.org/packages/AspNetMvc/3.0.20105.0) or [MVC 4](https://nuget.org/packages/aspnetmvc)) NuGet package in your project.
 
 ## Programming Language
 
