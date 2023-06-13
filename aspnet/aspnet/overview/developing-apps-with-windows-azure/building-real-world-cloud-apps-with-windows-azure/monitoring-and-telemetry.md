@@ -151,7 +151,7 @@ One possible reason for using a framework such as NLog is to facilitate dividing
 
 ### Semantic Logging
 
-For a relatively new way to do logging that can produce more useful diagnostic information, see [Enterprise Library Semantic Logging Application Block (SLAB)](http://convective.wordpress.com/2013/08/12/semantic-logging-application-block-slab/). SLAB uses [Event Tracing for Windows](https://msdn.microsoft.com/library/windows/desktop/bb968803.aspx) (ETW) and [EventSource](https://msdn.microsoft.com/library/system.diagnostics.tracing.eventsource.aspx) support in .NET 4.5 to enable you to create more structured and queryable logs. You define a different method for each type of event that you log, which enables you to customize the information you write. For example, to log a SQL Database error you might call a `LogSQLDatabaseError` method. For that kind of exception, you know a key piece of information is the error number, so you could include an error number parameter in the method signature and record the error number as a separate field in the log record you write. Because the number is in a separate field you can more easily and reliably get reports based on SQL error numbers than you could if you were just concatenating the error number into a message string.
+For a relatively new way to do logging that can produce more useful diagnostic information, see [Enterprise Library Semantic Logging Application Block (SLAB)](https://convective.wordpress.com/2013/08/12/semantic-logging-application-block-slab/). SLAB uses [Event Tracing for Windows](https://msdn.microsoft.com/library/windows/desktop/bb968803.aspx) (ETW) and [EventSource](https://msdn.microsoft.com/library/system.diagnostics.tracing.eventsource.aspx) support in .NET 4.5 to enable you to create more structured and queryable logs. You define a different method for each type of event that you log, which enables you to customize the information you write. For example, to log a SQL Database error you might call a `LogSQLDatabaseError` method. For that kind of exception, you know a key piece of information is the error number, so you could include an error number parameter in the method signature and record the error number as a separate field in the log record you write. Because the number is in a separate field you can more easily and reliably get reports based on SQL error numbers than you could if you were just concatenating the error number into a message string.
 
 ## Logging in the Fix It app
 
@@ -233,13 +233,13 @@ The Fix It app uses System.Diagnostics tracing. All you need to do to enable Sys
 
 After you enable logging in Azure, you can see logs in the Visual Studio Output window as they are created.
 
-![Streaming logs menu](http://wacomdpsstorage.blob.core.windows.net/articlesmedia/content-ppe.windowsazure.com/documentation/articles/web-sites-dotnet-troubleshoot-visual-studio/20140115062810/tws-viewlogsmenu.png)
+![Streaming logs menu](monitoring-and-telemetry/_static/tws-viewlogsmenu.png)
 
-![Streaming logs menu2](http://wacomdpsstorage.blob.core.windows.net/articlesmedia/content-ppe.windowsazure.com/documentation/articles/web-sites-dotnet-troubleshoot-visual-studio/20140115062810/tws-nologsyet.png)
+![Streaming logs menu2](monitoring-and-telemetry/_static/tws-nologsyet.png)
 
 You can also have logs written to your storage account and view them with any tool that can access the Azure Storage Table service, such as **Server Explorer** in Visual Studio or [Azure Storage Explorer](https://azure.microsoft.com/features/storage-explorer/).
 
-![Logs in Server Explorer](http://wacomdpsstorage.blob.core.windows.net/articlesmedia/content-ppe.windowsazure.com/documentation/articles/web-sites-dotnet-troubleshoot-visual-studio/20140115062810/tws-storagelogs.png)
+![Logs in Server Explorer](monitoring-and-telemetry/_static/tws-storagelogs.png)
 
 ## Summary
 
@@ -260,7 +260,7 @@ Documentation mainly about telemetry:
 
 Documentation mainly about logging:
 
-- [Semantic Logging Application Block (SLAB)](http://convective.wordpress.com/2013/08/12/semantic-logging-application-block-slab/). Neil Mackenzie presents the case for semantic logging with SLAB.
+- [Semantic Logging Application Block (SLAB)](https://convective.wordpress.com/2013/08/12/semantic-logging-application-block-slab/). Neil Mackenzie presents the case for semantic logging with SLAB.
 - [Creating Structured and Meaningful Logs with Semantic Logging](https://channel9.msdn.com/Events/Build/2013/3-336). (Video) Julian Dominguez presents the case for semantic logging with SLAB.
 - [EF6 SQL Logging – Part 1: Simple Logging](http://blog.oneunicorn.com/2013/05/08/ef6-sql-logging-part-1-simple-logging/). Arthur Vickers shows how to log queries executed by Entity Framework in EF 6.
 - [Connection Resiliency and Command Interception with the Entity Framework in an ASP.NET MVC Application](../../../../mvc/overview/getting-started/getting-started-with-ef-using-mvc/connection-resiliency-and-command-interception-with-the-entity-framework-in-an-asp-net-mvc-application.md). Fourth in a nine-part tutorial series, shows how to use the EF 6 command interception feature to log SQL commands sent to the database by Entity Framework.

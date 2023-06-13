@@ -27,7 +27,7 @@ You've now seen 13 patterns that provide guidance on how to be successful in clo
     - [Azure Hybrid Cloud](https://www.amazon.com/dp/B00EOP4UQW). Hardcopy book or e-book by Danny Garber, Jamal Malik, and Adam Fazio.
 - Security, authentication, and authorization issues unique to cloud applications
 
-    - [Azure Security Guidance](https://azure.microsoft.com/blog/2014/02/10/best-practices-windows-azure-websites-waws/)
+    - [Azure security best practices and patterns](/azure/security/fundamentals/best-practices-and-patterns)
     - [Microsoft Patterns and Practices - Azure Guidance](https://msdn.microsoft.com/library/dn568099.aspx). See Gatekeeper pattern, Federated Identity pattern.
     - [Azure Network Security](https://download.microsoft.com/download/4/3/9/43902EC9-410E-4875-8800-0788BE146A3D/Windows%20Azure%20Network%20Security%20Whitepaper%20-%20FINAL.docx). White paper by Ashin Palekar.
 
