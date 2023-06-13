@@ -25,7 +25,7 @@ To install a community-created template, visit one of the template pages listed 
 
 ## BreezeJS
 
-[BreezeJS](http://www.breezejs.com/?utm_source=ms-spa) is an open source library for managing rich data in a JavaScript client. Breeze handles querying, caching, change tracking, validation, and more. Two templates feature Breeze:
+[BreezeJS](https://www.getbreezenow.com/) is an open source library for managing rich data in a JavaScript client. Breeze handles querying, caching, change tracking, validation, and more. Two templates feature Breeze:
 
 - The [Breeze/Knockout](../templates/breezeknockout-template.md) template extends the Knockout SPA template, showing how easily you can build a single-page application with Breeze for data management and KnockoutJS for data binding.
 - The [Breeze/Angular](../templates/breezeangular-template.md) template also extends the Knockout SPA template with Breeze, but using the [AngularJS](http://angularjs.org) library for data binding, dependency injection, and screen management.

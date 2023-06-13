@@ -47,7 +47,7 @@ Clicking "My Account" brings up the login page:
 
 ## Walkthrough: Client Code
 
-Let's starts with the client side. The client application scripts are located in the ~/Scripts/application folder. The application is written in [TypeScript](http://www.typescriptlang.org/) (.ts files) which are compiled into JavaScript (.js files).
+Let's starts with the client side. The client application scripts are located in the ~/Scripts/application folder. The application is written in [TypeScript](https://www.typescriptlang.org/) (.ts files) which are compiled into JavaScript (.js files).
 
 **Application**
 

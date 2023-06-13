@@ -38,7 +38,7 @@ The KnockoutJS SPA template makes service requests with raw jQuery AJAX, which i
 
 The BreezeJS library handles these chores for you, freeing you to develop the application logic and user experience that matter most.
 
-[**Breeze**](http://www.breezejs.com/?utm_source=ms-spa) is an open source library for building rich data applications in JavaScript and HTML, the kinds of apps that have historically been delivered as stand-alone desktop applications.
+[**Breeze**](https://www.getbreezenow.com/) is an open source library for building rich data applications in JavaScript and HTML, the kinds of apps that have historically been delivered as stand-alone desktop applications.
 
 The Breeze/Knockout template helps you take that first crucial step toward a more robust data management infrastructure. It produces a sample Todo application that is outwardly identical to the KnockoutJS SPA template. On the inside, it replaces the AJAX data layer with Breeze, so you can compare the two approaches side-by-side. Of course, it barely touches the potential of a Breeze application. But you'll see how Breeze works and how little is required to make that transition.
 
