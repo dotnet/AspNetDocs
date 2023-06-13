@@ -29,7 +29,7 @@ In the screenshot below, we can see that an attempt to access the /Account/Chang
 
 **Figure 01**: Login page with an open redirection
 
-Since the ReturnUrl querystring parameter is not validated, an attacker can modify it to inject any URL address into the parameter to conduct an open redirection attack. To demonstrate this, we can modify the ReturnUrl parameter to [http://bing.com](http://bing.com), so the resulting login URL will be /Account/LogOn?ReturnUrl=<http://www.bing.com/>. Upon successfully logging in to the site, we are redirected to [http://bing.com](http://bing.com). Since this redirection is not validated, it could instead point to a malicious site that attempts to trick the user.
+Since the ReturnUrl querystring parameter is not validated, an attacker can modify it to inject any URL address into the parameter to conduct an open redirection attack. To demonstrate this, we can modify the ReturnUrl parameter to [https://bing.com](https://bing.com), so the resulting login URL will be /Account/LogOn?ReturnUrl=<https://www.bing.com/>. Upon successfully logging in to the site, we are redirected to [https://bing.com](https://bing.com). Since this redirection is not validated, it could instead point to a malicious site that attempts to trick the user.
 
 ### A more complex Open Redirection Attack
 
@@ -97,7 +97,7 @@ Now that the IsLocalUrl() method is in place, we can call it from our LogOn acti
 
 [!code-csharp[Main](preventing-open-redirection-attacks/samples/sample6.cs)]
 
-Now we can test an open redirection attack by attempting to log in using an external return URL. Let's use /Account/LogOn?ReturnUrl=<http://www.bing.com/> again.
+Now we can test an open redirection attack by attempting to log in using an external return URL. Let's use /Account/LogOn?ReturnUrl=<https://www.bing.com/> again.
 
 [![Screenshot that shows the My M V C Application Log On page. The title bar is highlighted and filled with the external return U R L.](preventing-open-redirection-attacks/_static/image8.png)](preventing-open-redirection-attacks/_static/image7.png)
 
