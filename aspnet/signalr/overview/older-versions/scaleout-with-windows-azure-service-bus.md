@@ -38,8 +38,8 @@ Before we get to the detailed tutorial, here is a quick overview of what you wil
 1. Use the Windows Azure portal to create a new Service Bus namespace.
 2. Add these NuGet packages to your application: 
 
-    - [Microsoft.AspNet.SignalR](http://nuget.org/packages/Microsoft.AspNet.SignalR)
-    - [Microsoft.AspNet.SignalR.ServiceBus](http://www.nuget.org/packages/SignalR.WindowsAzureServiceBus)
+    - [Microsoft.AspNet.SignalR](https://nuget.org/packages/Microsoft.AspNet.SignalR)
+    - [Microsoft.AspNet.SignalR.ServiceBus](https://www.nuget.org/packages/SignalR.WindowsAzureServiceBus)
 3. Create a SignalR application.
 4. Add the following code to Global.asax to configure the backplane: 
 

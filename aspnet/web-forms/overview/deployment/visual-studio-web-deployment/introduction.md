@@ -56,7 +56,7 @@ The sample application that you download and deploy for these tutorials is a Vis
 
 ## Deploying ASP.NET MVC projects
 
-The sample application is an ASP.NET Web Forms project, but everything you learn how to do is applicable to ASP.NET MVC as well. A Visual Studio MVC project is just another form of web application project. The only difference is that if you're deploying to a hosting provider that does not support ASP.NET MVC or your target version of it, you must make sure that you have installed the appropriate ([MVC 3](http://nuget.org/packages/AspNetMvc/3.0.20105.0), [MVC 4](http://www.nuget.org/packages/Microsoft.AspNet.Mvc/4.0.30506.0), or [MVC 5](http://www.nuget.org/packages/Microsoft.AspNet.Mvc)) NuGet package in your project.
+The sample application is an ASP.NET Web Forms project, but everything you learn how to do is applicable to ASP.NET MVC as well. A Visual Studio MVC project is just another form of web application project. The only difference is that if you're deploying to a hosting provider that does not support ASP.NET MVC or your target version of it, you must make sure that you have installed the appropriate ([MVC 3](https://nuget.org/packages/AspNetMvc/3.0.20105.0), [MVC 4](https://www.nuget.org/packages/Microsoft.AspNet.Mvc/4.0.30506.0), or [MVC 5](https://www.nuget.org/packages/Microsoft.AspNet.Mvc)) NuGet package in your project.
 
 ## Programming language
 

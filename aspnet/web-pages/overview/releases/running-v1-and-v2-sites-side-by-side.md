@@ -45,7 +45,7 @@ Here are some things to remember when you install the Web Pages with WebMatrix:
   `- If you do not specify a version in the *web.config* file, a site is deployed as the latest version. (The assemblies are copied to the *bin* folder in the deployed site.)
 - New applications that you create using the site templates in Web Matrix include the Web Pages version assemblies in the site's *bin* folder.
 
-In general, you can always control which version of Web Pages to use with your site by using NuGet to install the appropriate assemblies into the site's *bin* folder. To find packages, visit [NuGet.org](http://NuGet.org).
+In general, you can always control which version of Web Pages to use with your site by using NuGet to install the appropriate assemblies into the site's *bin* folder. To find packages, visit [NuGet.org](https://NuGet.org).
 
 ## Additional Resources
 

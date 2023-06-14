@@ -72,7 +72,7 @@ One solution is to use an IoC container. An IoC container is a software componen
 
 ## Using IoC Containers in SignalR
 
-The Chat application is probably too simple to benefit from an IoC container. Instead, let's look at the [StockTicker](http://nuget.org/packages/microsoft.aspnet.signalr.sample) sample.
+The Chat application is probably too simple to benefit from an IoC container. Instead, let's look at the [StockTicker](https://nuget.org/packages/microsoft.aspnet.signalr.sample) sample.
 
 The StockTicker sample defines two main classes:
 

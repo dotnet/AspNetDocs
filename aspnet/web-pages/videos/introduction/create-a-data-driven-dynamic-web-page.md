@@ -15,4 +15,4 @@ by [Advaiya](https://twitter.com/Advaiyasolns)
 
 Part 5 is all about data, where you'll learn how to use a database in your web page, and make it more dynamic.
 
-[&#9654; Watch video (4 minutes)](https://learn.microsoft.com/en-us/shows/asp-net-site-videos/create-data-driven-dynamic-web-page)
+[&#9654; Watch video (4 minutes)](/shows/asp-net-site-videos/create-data-driven-dynamic-web-page)

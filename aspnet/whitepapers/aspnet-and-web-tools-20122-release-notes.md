@@ -41,7 +41,7 @@ You can also install ASP.NET and Web Tools 2012.2 manually. You must have Visual
 
     ![Screenshot of the Visual Studio help menu. The menu entry titled About Microsoft Visual Studio Express 2012 for Web is highlighted.](aspnet-and-web-tools-20122-release-notes/_static/image1.jpg)
 
-4. If you see the menu item &quot;About Microsoft Visual Studio 2012 for Web&quot; then download [Web Developer Tools 2012.2 - Visual Studio Express 2012 for Web](/visual-studio/overview/2012/aspnet-and-web-tools-20122-release-notes-rtw#_Installation).
+4. If you see the menu item &quot;About Microsoft Visual Studio 2012 for Web&quot; then download Web Developer Tools 2012.2 - Visual Studio Express 2012 for Web.
 5. When prompted click Run. You can also save the file to run it later.
 
 > [!NOTE]
@@ -112,7 +112,7 @@ ASP.NET Web API has been enhanced with several new features:
 
 #### ASP.NET Web API OData
 
-ASP.NET Web API OData gives you the flexibility you need to build OData endpoints with rich business logic over any data source. With ASP.NET Web API OData you control the amount of OData semantics that you want to expose. ASP.NET Web API OData is included with the ASP.NET MVC 4 project templates and is also available from NuGet ([http://www.nuget.org/packages/microsoft.aspnet.webapi.odata](http://www.nuget.org/packages/microsoft.aspnet.webapi.odata)).
+ASP.NET Web API OData gives you the flexibility you need to build OData endpoints with rich business logic over any data source. With ASP.NET Web API OData you control the amount of OData semantics that you want to expose. ASP.NET Web API OData is included with the ASP.NET MVC 4 project templates and is also available from NuGet ([https://www.nuget.org/packages/microsoft.aspnet.webapi.odata](https://www.nuget.org/packages/microsoft.aspnet.webapi.odata)).
 
 ASP.NET Web API OData currently supports the following features:
 
@@ -138,19 +138,19 @@ ASP.NET Web API OData currently supports the following features:
 - Collection properties.
 - Enums.
 - OData actions.
-- Built upon the same foundation as WCF Data Services, namely ODataLib ([http://www.nuget.org/packages/microsoft.data.odata](http://www.nuget.org/packages/microsoft.data.odata)).
+- Built upon the same foundation as WCF Data Services, namely ODataLib ([https://www.nuget.org/packages/microsoft.data.odata](https://www.nuget.org/packages/microsoft.data.odata)).
 
 For more information on ASP.NET Web API OData see [https://go.microsoft.com/fwlink/?LinkId=271141](https://go.microsoft.com/fwlink/?LinkId=271141).
 
 #### ASP.NET Web API Tracing
 
-ASP.NET Web API Tracing integrates tracing data from your web APIs with .NET Tracing. It is now enabled by default in the Web API project template. Tracing data for your web APIs is sent to the Output window and is made available through IntelliTrace. ASP.NET Web API Tracing enables you to trace information about your Web API when hosted on Windows Azure through integration with [Windows Azure Diagnostics](https://msdn.microsoft.com/library/windowsazure/hh411529.aspx). You can also install and enable ASP.NET Web API Tracing in any application using the ASP.NET Web API Tracing NuGet package ([http://www.nuget.org/packages/microsoft.aspnet.webapi.tracing](http://www.nuget.org/packages/microsoft.aspnet.webapi.tracing)).
+ASP.NET Web API Tracing integrates tracing data from your web APIs with .NET Tracing. It is now enabled by default in the Web API project template. Tracing data for your web APIs is sent to the Output window and is made available through IntelliTrace. ASP.NET Web API Tracing enables you to trace information about your Web API when hosted on Windows Azure through integration with [Windows Azure Diagnostics](https://msdn.microsoft.com/library/windowsazure/hh411529.aspx). You can also install and enable ASP.NET Web API Tracing in any application using the ASP.NET Web API Tracing NuGet package ([https://www.nuget.org/packages/microsoft.aspnet.webapi.tracing](https://www.nuget.org/packages/microsoft.aspnet.webapi.tracing)).
 
 For more information on configuring and using ASP.NET Web API Tracing see [https://go.microsoft.com/fwlink/?LinkID=269874](https://go.microsoft.com/fwlink/?LinkID=269874).
 
 #### ASP.NET Web API Help Page
 
-The ASP.NET Web API Help Page is now included by default in the Web API project template. The ASP.NET Web API Help Page automatically generates documentation for web APIs including the HTTP endpoints, the supported HTTP methods, parameters and example request and response message payloads. Documentation is automatically pulled from comments in your code. You can also add the ASP.NET Web API Help Page to any application using the ASP.NET Web API Help Page NuGet package ([http://www.nuget.org/packages/microsoft.aspnet.webapi.helppage](http://www.nuget.org/packages/microsoft.aspnet.webapi.helppage)).
+The ASP.NET Web API Help Page is now included by default in the Web API project template. The ASP.NET Web API Help Page automatically generates documentation for web APIs including the HTTP endpoints, the supported HTTP methods, parameters and example request and response message payloads. Documentation is automatically pulled from comments in your code. You can also add the ASP.NET Web API Help Page to any application using the ASP.NET Web API Help Page NuGet package ([https://www.nuget.org/packages/microsoft.aspnet.webapi.helppage](https://www.nuget.org/packages/microsoft.aspnet.webapi.helppage)).
 
 For more information on setting up and customizing the ASP.NET Web API Help Page see [https://go.microsoft.com/fwlink/?LinkId=271140](https://go.microsoft.com/fwlink/?LinkId=271140).
 
@@ -236,7 +236,7 @@ If users have different casing on javascript client side and server side, they p
 
 #### Default OData routing conventions doesn't support POST/PUT on navigation property.
 
-Default OData routing conventions doesn't support POST/PUT on navigation property. See workitem [http://aspnetwebstack.codeplex.com/workitem/366](http://aspnetwebstack.codeplex.com/workitem/366). We are missing this commonly used convention in default conventions.
+Default OData routing conventions doesn't support POST/PUT on navigation property. We are missing this commonly used convention in default conventions.
 
 To work around it, users need to extend new routing convention to support it.
 

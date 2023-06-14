@@ -133,7 +133,7 @@ For more information see the following resources.
 Stateless web servers:
 
 - [Microsoft Patterns and Practices - Autoscaling guidance](https://msdn.microsoft.com/library/dn589774.aspx).
-- [Disabling ARR's Instance Affinity in Windows Azure Web Sites](https://azure.microsoft.com/blog/2013/11/18/disabling-arrs-instance-affinity-in-windows-azure-web-sites/). Blog post by Erez Benari, explains session affinity in Windows Azure Web Sites.
+- [Disabling ARR's Instance Affinity in Windows Azure Web Sites](https://azure.microsoft.com/blog/disabling-arrs-instance-affinity-in-windows-azure-web-sites/). Blog post by Erez Benari, explains session affinity in Windows Azure Web Sites.
 
 CDN:
 

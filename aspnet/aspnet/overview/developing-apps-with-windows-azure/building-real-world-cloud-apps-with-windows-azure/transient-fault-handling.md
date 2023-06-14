@@ -81,7 +81,6 @@ Documentation
 - [Best Practices for the Design of Large-Scale Services on Azure Cloud Services](https://msdn.microsoft.com/library/windowsazure/jj717232.aspx). White paper by Mark Simms and Michael Thomassy. Similar to the Failsafe series but goes into more how-to details. See the Telemetry and Diagnostics section.
 - [Failsafe: Guidance for Resilient Cloud Architectures](https://msdn.microsoft.com/library/windowsazure/jj853352.aspx). White paper by Marc Mercuri, Ulrich Homann, and Andrew Townhill. Web page version of the FailSafe video series.
 - [Microsoft Patterns and Practices - Azure Guidance](https://msdn.microsoft.com/library/dn568099.aspx). See Retry pattern, Scheduler Agent Supervisor pattern.
-- [Fault-tolerance in Azure SQL Database](https://azure.microsoft.com/blog/fault-tolerance-in-windows-azure-sql-database/). Blog post by Tony Petrossian.
 - [Entity Framework - Connection Resiliency / Retry Logic](https://msdn.microsoft.com/data/dn456835). How to use and customize the transient fault handling feature of Entity Framework 6.
 - [Connection Resiliency and Command Interception with the Entity Framework in an ASP.NET MVC Application](../../../../mvc/overview/getting-started/getting-started-with-ef-using-mvc/connection-resiliency-and-command-interception-with-the-entity-framework-in-an-asp-net-mvc-application.md). Fourth in a nine-part tutorial series, shows how to set up the EF 6 connection resilience feature for SQL Database.
 
@@ -92,7 +91,7 @@ Videos
 
 Code sample
 
-- [Cloud Service Fundamentals in Azure](https://code.msdn.microsoft.com/Cloud-Service-Fundamentals-4ca72649). Sample application created by the Microsoft Azure Customer Advisory Team that demonstrates how to use the [Enterprise Library Transient Fault Handling Block](http://nuget.org/packages/EnterpriseLibrary.TransientFaultHandling/) (TFH). For more information, see [Cloud Service Fundamentals Data Access Layer – Transient Fault Handling](https://social.technet.microsoft.com/wiki/contents/articles/18665.cloud-service-fundamentals-data-access-layer-transient-fault-handling.aspx). TFH is recommended for database access using ADO.NET directly (without using Entity Framework).
+- [Cloud Service Fundamentals in Azure](https://code.msdn.microsoft.com/Cloud-Service-Fundamentals-4ca72649). Sample application created by the Microsoft Azure Customer Advisory Team that demonstrates how to use the [Enterprise Library Transient Fault Handling Block](https://nuget.org/packages/EnterpriseLibrary.TransientFaultHandling/) (TFH). For more information, see [Cloud Service Fundamentals Data Access Layer – Transient Fault Handling](https://social.technet.microsoft.com/wiki/contents/articles/18665.cloud-service-fundamentals-data-access-layer-transient-fault-handling.aspx). TFH is recommended for database access using ADO.NET directly (without using Entity Framework).
 
 > [!div class="step-by-step"]
 > [Previous](monitoring-and-telemetry.md)

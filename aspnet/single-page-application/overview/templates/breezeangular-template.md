@@ -17,7 +17,7 @@ by [Mads Kristensen](https://github.com/madskristensen)
 > 
 > [Download the Breeze/Angular MVC Template](https://go.microsoft.com/fwlink/?LinkId=286437)
 
-[AngularJS](http://angularjs.org) is an open source library from Google for building Single Page Applications (SPAs). It offers data binding, dependency injection, and screen management. Combine it with [BreezeJS](http://www.breezejs.com/?utm_source=ms-spa), another open source library for data modeling and data management, and you have the essential ingredients for a great HTML/JavaScript client app.
+[AngularJS](http://angularjs.org) is an open source library from Google for building Single Page Applications (SPAs). It offers data binding, dependency injection, and screen management. Combine it with [BreezeJS](https://www.getbreezenow.com/breezejs), another open source library for data modeling and data management, and you have the essential ingredients for a great HTML/JavaScript client app.
 
 The Breeze/Angular SPA template is a variation on the [KnockoutJS SPA template](../introduction/knockoutjs-template.md) included in the ASP.NET and Web Tools 2012.2 Update. If you've got Visual Studio, you'll have an example SPA up and running in less than 60 seconds.
 
@@ -104,7 +104,7 @@ The basic architecture is the same as the KnockoutJS SPA template. However, the 
 
 ## Next Steps
 
-We suggest that you explore the code, guided by the [extensive discussion](http://www.breezejs.com/ng-spa-template?utm_source=ms-spa) of both the client and the server stacks on the Breeze website.
+We suggest that you explore the code, guided by the extensive discussion of both the client and the server stacks on the Breeze website.
 
 You might try playing with Breeze client-side query; add some filters and sorts. You might add more model properties and more entities to get a better feel for end-to-end SPA development. When you are confident of the design, you can tear out the Todo features and replace them with your own.
 

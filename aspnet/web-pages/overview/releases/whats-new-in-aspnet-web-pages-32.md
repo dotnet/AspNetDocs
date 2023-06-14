@@ -21,7 +21,7 @@ This release fixes a bug and introduces one new feature.
 
 ## Download
 
-The runtime features are released as NuGet packages on the NuGet gallery. All the runtime packages follow the [Semantic Versioning](http://semver.org/) specification. The ASP.NET Web Pages 3.2 package has the following version: &ldquo;3.2.0&rdquo;. You can install or update these packages through [NuGet](http://www.nuget.org/packages/Microsoft.AspNet.WebPages/). The release also includes corresponding localized packages on NuGet.
+The runtime features are released as NuGet packages on the NuGet gallery. All the runtime packages follow the [Semantic Versioning](http://semver.org/) specification. The ASP.NET Web Pages 3.2 package has the following version: &ldquo;3.2.0&rdquo;. You can install or update these packages through [NuGet](https://www.nuget.org/packages/Microsoft.AspNet.WebPages/). The release also includes corresponding localized packages on NuGet.
 
 You can install or update to the released NuGet packages by using the NuGet Package Manager Console:
 

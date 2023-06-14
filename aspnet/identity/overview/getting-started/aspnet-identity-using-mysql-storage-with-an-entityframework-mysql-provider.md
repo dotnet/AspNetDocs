@@ -74,7 +74,7 @@ To complete the steps in this section of the tutorial, you will first need to in
 
 ### Update the Entity Framework assembly for your project
 
-The MVC application that was created from the Visual Studio 2013 template contains a reference to the [EntityFramework 6.0.0](http://www.nuget.org/packages/EntityFramework) package, but there have been updates to that assembly since its release which contain significant performance improvements. In order to use these latest updates in your application, use the following steps.
+The MVC application that was created from the Visual Studio 2013 template contains a reference to the [EntityFramework 6.0.0](https://www.nuget.org/packages/EntityFramework) package, but there have been updates to that assembly since its release which contain significant performance improvements. In order to use these latest updates in your application, use the following steps.
 
 1. Open your MVC project in Visual Studio.
 2. Click **Tools**, then click **NuGet Package Manager**, and then click **Package Manager Console**:

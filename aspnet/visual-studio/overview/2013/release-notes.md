@@ -145,7 +145,7 @@ For more information about ASP.NET web deployment, see [the ASP.NET site](https:
 <a id="nuget"></a>
 ## NuGet 2.7
 
-NuGet 2.7 includes a rich set of new features which are described in detail at [NuGet 2.7 Release Notes](http://docs.nuget.org/docs/release-notes/nuget-2.7).
+NuGet 2.7 includes a rich set of new features which are described in detail at [NuGet 2.7 Release Notes](https://docs.nuget.org/docs/release-notes/nuget-2.7).
 
 This version of NuGet also removes the need to provide explicit consent for NuGet's package restore feature to download packages. Consent (and the associated checkbox in NuGet's preferences dialog) is now granted by installing NuGet. Now package restore simply works by default.
 
@@ -588,8 +588,8 @@ This section describes known issues and breaking changes in the ASP.NET and Web 
 
 ### NuGet
 
-- New package restore doesn't work on Mono when using SLN file – will be fixed in an upcoming nuget.exe download and [NuGet.CommandLine package](http://www.nuget.org/packages/NuGet.CommandLine/) update.
-- New package restore doesn't work with Wix projects – will be fixed in an upcoming nuget.exe download and [NuGet.CommandLine package](http://www.nuget.org/packages/NuGet.CommandLine/) update.
+- New package restore doesn't work on Mono when using SLN file – will be fixed in an upcoming nuget.exe download and [NuGet.CommandLine package](https://www.nuget.org/packages/NuGet.CommandLine/) update.
+- New package restore doesn't work with Wix projects – will be fixed in an upcoming nuget.exe download and [NuGet.CommandLine package](https://www.nuget.org/packages/NuGet.CommandLine/) update.
 
 
 ### ASP.NET Web API

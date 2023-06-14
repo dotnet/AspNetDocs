@@ -31,7 +31,7 @@ by [Patrick Fletcher](https://github.com/pfletcher)
 >
 > To use Visual Studio 2012 with this tutorial, do the following:
 >
-> - Update your [Package Manager](http://docs.nuget.org/docs/start-here/installing-nuget) to the latest version.
+> - Update your [Package Manager](https://docs.nuget.org/docs/start-here/installing-nuget) to the latest version.
 > - Install the [Web Platform Installer](https://www.microsoft.com/web/downloads/platform.aspx).
 > - In the Web Platform Installer, search for and install **ASP.NET and Web Tools 2013.1 for Visual Studio 2012**. This will install Visual Studio templates for SignalR classes such as **Hub**.
 > - Some templates (such as **OWIN Startup Class**) will not be available; for these, use a Class file instead.

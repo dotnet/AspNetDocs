@@ -309,13 +309,13 @@ If it is not practical to remap the Web site to ASP.NET 2.0 or to change the loc
 
 ## Event Handlers Might Not Be Not Raised in a Default Document in IIS 7 or IIS 7.5 Integrated Mode
 
-ASP.NET 4 includes modifications that change how the **action** attribute of the HTML **form** element is rendered when an extensionless URL resolves to a default document. An example of an extensionless URL resolving to a default document would be [http://contoso.com/](http://contoso.com/), resulting in a request to [http://contoso.com/Default.aspx](http://contoso.com/Default.aspx).
+ASP.NET 4 includes modifications that change how the **action** attribute of the HTML **form** element is rendered when an extensionless URL resolves to a default document. An example of an extensionless URL resolving to a default document would be `http://contoso.com/`, resulting in a request to `http://contoso.com/Default.aspx`.
 
-ASP.NET 4 now renders the HTML **form** element's **action** attribute value as an empty string when a request is made to an extensionless URL that has a default document mapped to it. For example, in earlier releases of ASP.NET, a request to [http://contoso.com](http://contoso.com) would result in a request to `Default.aspx`. In that document, the opening **form** tag would be rendered as in the following example:
+ASP.NET 4 now renders the HTML **form** element's **action** attribute value as an empty string when a request is made to an extensionless URL that has a default document mapped to it. For example, in earlier releases of ASP.NET, a request to `http://contoso.com` would result in a request to `Default.aspx`. In that document, the opening **form** tag would be rendered as in the following example:
 
 `<form action="Default.aspx" />`
 
-In ASP.NET 4, a request to [http://contoso.com](http://contoso.com) also results in a request to `Default.aspx`. However, ASP.NET now renders the HTML opening **form** tag as in the following example:
+In ASP.NET 4, a request to `http://contoso.com` also results in a request to `Default.aspx`. However, ASP.NET now renders the HTML opening **form** tag as in the following example:
 
 `<form action="" />`
 

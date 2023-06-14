@@ -257,7 +257,7 @@ In this task, you will create a view that performs a service call to generate a 
       > [!NOTE]
       > One of the advantages of using NuGet is that you don't have to ship all the libraries in your project, reducing the project size. With NuGet Power Tools, by specifying the package versions in the Packages.config file, you will be able to download all the required libraries the first time you run the project. This is why you will have to run these steps after you open an existing solution from this lab.
       > 
-      > For more information, see this article: [http://docs.nuget.org/docs/workflows/using-nuget-without-committing-packages](http://docs.nuget.org/docs/workflows/using-nuget-without-committing-packages).
+      > For more information, see this article: [https://docs.nuget.org/docs/workflows/using-nuget-without-committing-packages](https://docs.nuget.org/docs/workflows/using-nuget-without-committing-packages).
 2. Include the **MessageService.cs** and the **IMessageService.cs** classes located in the **Source \Assets** folder in **/Services**. To do this, right-click **Services** folder and select **Add Existing Item**. Browse to the files' location and include them.
 
     ![Adding Message Service and Service Interface](aspnet-mvc-4-dependency-injection/_static/image8.png "Adding Message Service and Service Interface")
@@ -395,7 +395,7 @@ In this task, you will include in the Music Store a custom action filter to trac
       > [!NOTE]
       > One of the advantages of using NuGet is that you don't have to ship all the libraries in your project, reducing the project size. With NuGet Power Tools, by specifying the package versions in the Packages.config file, you will be able to download all the required libraries the first time you run the project. This is why you will have to run these steps after you open an existing solution from this lab.
       > 
-      > For more information, see this article: [http://docs.nuget.org/docs/workflows/using-nuget-without-committing-packages](http://docs.nuget.org/docs/workflows/using-nuget-without-committing-packages).
+      > For more information, see this article: [https://docs.nuget.org/docs/workflows/using-nuget-without-committing-packages](https://docs.nuget.org/docs/workflows/using-nuget-without-committing-packages).
 2. Include **TraceActionFilter.cs** file from **/Sources/Assets** to **/Filters** folder.
 
     [!code-csharp[Main](aspnet-mvc-4-dependency-injection/samples/sample18.cs)]

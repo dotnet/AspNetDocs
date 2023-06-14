@@ -204,7 +204,7 @@ by [Rick Anderson](https://twitter.com/RickAndMSFT)
 - [CascadingDropDown jQuery Plugin for ASP.NET MVC](https://weblogs.asp.net/rajbk/Contents/Item/Display/31)
 - [MVC, JsonResult, DateTime and TimeZone](http://msprogrammer.serviciipeweb.ro/2013/03/10/mvc-jsonresult-datetime-and-timezone/)
 - [Client Side Progress Bar in ASP.NET MVC using jQuery UI, WebAPI and JsRender](http://www.devcurry.com/2012/10/responsive-aspnet-mvc-ui-using-webapi.html)
-- [ASP.NET MVC Ajax using jQuery – Quick Start sample](http://evolpin.wordpress.com/2011/03/15/asp-net-mvc-ajax-using-jquery-quick-start-sample/)
+- [ASP.NET MVC Ajax using jQuery – Quick Start sample](https://evolpin.wordpress.com/2011/03/15/asp-net-mvc-ajax-using-jquery-quick-start-sample/)
 - [Creating Cascading DropDownLists using ASP.NET MVC 4 and jQuery](http://www.binaryintellect.net/articles/b58fde6b-415e-454d-985b-d5dc4ad2fca8.aspx)
 
 <a id="html5"></a>
@@ -224,10 +224,10 @@ by [Rick Anderson](https://twitter.com/RickAndMSFT)
 - [Lifecycle of an ASP.NET MVC 5 Application](lifecycle-of-an-aspnet-mvc-5-application.md) (PDF)
 - [Using Constraints for Better Routing in MVC](http://blog.greatrexpectations.com/2012/08/03/using-constraints-for-better-routing-in-mvc/)
 - [In depth: The ASP.NET MVC Pipeline](http://blog.stevensanderson.com/2007/11/20/aspnet-mvc-pipeline-lifecycle/)
-- [ASP.NET MVC Routing](http://evolpin.wordpress.com/2011/03/27/asp-net-mvc-routing/)
+- [ASP.NET MVC Routing](https://evolpin.wordpress.com/2011/03/27/asp-net-mvc-routing/)
 - [ASP.NET MVC Routing Extensibility](http://www.simple-talk.com/dotnet/.net-framework/asp.net-mvc-routing-extensibility/)
 - [An Introduction to ASP.NET MVC Extensibility](http://www.simple-talk.com/content/article.aspx?article=1358)
-- [ASP.NET MVC Routing](http://evolpin.wordpress.com/2011/03/27/asp-net-mvc-routing/)
+- [ASP.NET MVC Routing](https://evolpin.wordpress.com/2011/03/27/asp-net-mvc-routing/)
 - [Strongly typed routing for MVC 4](http://dysphoria.net/2013/03/14/strongly-typed-action-references-in-microsoft-mvc4/)
 
 <a id="global"></a>

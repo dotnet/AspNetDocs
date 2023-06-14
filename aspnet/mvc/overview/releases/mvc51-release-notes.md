@@ -36,7 +36,7 @@ This topic describes what's new for ASP.NET Web MVC 5.1.
 <a id="download"></a>
 ## Download
 
-The runtime features are released as NuGet packages on the NuGet gallery. All the runtime packages follow the [Semantic Versioning](http://semver.org/) specification. The latest ASP.NET MVC 5.1 RTM package has the following version: "5.1.2". You can install or update these packages through [NuGet](http://www.nuget.org/packages/Microsoft.AspNet.Mvc/). The release also includes corresponding localized packages on NuGet.
+The runtime features are released as NuGet packages on the NuGet gallery. All the runtime packages follow the [Semantic Versioning](http://semver.org/) specification. The latest ASP.NET MVC 5.1 RTM package has the following version: "5.1.2". You can install or update these packages through [NuGet](https://www.nuget.org/packages/Microsoft.AspNet.Mvc/). The release also includes corresponding localized packages on NuGet.
 
 You can install or update to the released NuGet packages by using the NuGet Package Manager Console:
 
