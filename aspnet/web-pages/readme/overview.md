@@ -502,7 +502,7 @@ For information about issues that involve installing SQL Server Compact as part 
 
 For more information about WebMatrix 1.0, see the following websites:
 
-- [IIS.net](http://iis.net/)
+- [IIS.net](https://iis.net/)
 - [ASP.NET](https://asp.net/webmatrix)
 - [Microsoft.com/web](https://www.microsoft.com/web)
 

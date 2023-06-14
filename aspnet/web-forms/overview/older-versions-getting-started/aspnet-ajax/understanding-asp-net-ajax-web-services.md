@@ -245,7 +245,7 @@ Using the PageMethods object is very similar to using a JavaScript proxy object.
 
 ## The AutoCompleteExtender and the ASP.NET AJAX Toolkit
 
-The ASP.NET AJAX Toolkit (available from [http://ajax.asp.net](http://ajax.asp.net)) offers several controls that can be used to access Web Services. Specifically, the toolkit contains a useful control named `AutoCompleteExtender` that can be used to call Web Services and show data in pages without writing any JavaScript code at all.
+The ASP.NET AJAX Toolkit (available from [https://www.devexpress.com/Products/AJAX-Control-Toolkit](https://www.devexpress.com/Products/AJAX-Control-Toolkit)) offers several controls that can be used to access Web Services. Specifically, the toolkit contains a useful control named `AutoCompleteExtender` that can be used to call Web Services and show data in pages without writing any JavaScript code at all.
 
 The AutoCompleteExtender control can be used to extend existing functionality of a textbox and help users more easily locate data they're looking for. As they type into a textbox the control can be used to query a Web Service and shows results below the textbox dynamically. Figure 4 shows an example of using the AutoCompleteExtender control to display customer ids for a support application. As the user types different characters into the textbox, different items will be shown below it based upon their input. Users can then select the desired customer id.
 

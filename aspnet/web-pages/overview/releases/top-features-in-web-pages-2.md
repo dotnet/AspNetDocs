@@ -490,6 +490,5 @@ To build and run the code sample:
 
 ### WebMatrix Resources
 
-- [WebMatrix 2 What's New](http://webmatrix.com/next)
 - [Microsoft WebMatrix Site](https://go.microsoft.com/fwlink/?LinkID=195076)
 - [Starting Web Development with Microsoft WebMatrix](https://msdn.microsoft.com/library/hh145669(v=VS.99).aspx)(includes a full-length sample Web Pages application)

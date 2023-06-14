@@ -41,7 +41,7 @@ You can also install ASP.NET and Web Tools 2012.2 manually. You must have Visual
 
     ![Screenshot of the Visual Studio help menu. The menu entry titled About Microsoft Visual Studio Express 2012 for Web is highlighted.](aspnet-and-web-tools-20122-release-notes/_static/image1.jpg)
 
-4. If you see the menu item &quot;About Microsoft Visual Studio 2012 for Web&quot; then download [Web Developer Tools 2012.2 - Visual Studio Express 2012 for Web](/visual-studio/overview/2012/aspnet-and-web-tools-20122-release-notes-rtw#_Installation).
+4. If you see the menu item &quot;About Microsoft Visual Studio 2012 for Web&quot; then download Web Developer Tools 2012.2 - Visual Studio Express 2012 for Web.
 5. When prompted click Run. You can also save the file to run it later.
 
 > [!NOTE]
@@ -236,7 +236,7 @@ If users have different casing on javascript client side and server side, they p
 
 #### Default OData routing conventions doesn't support POST/PUT on navigation property.
 
-Default OData routing conventions doesn't support POST/PUT on navigation property. See workitem [http://aspnetwebstack.codeplex.com/workitem/366](http://aspnetwebstack.codeplex.com/workitem/366). We are missing this commonly used convention in default conventions.
+Default OData routing conventions doesn't support POST/PUT on navigation property. We are missing this commonly used convention in default conventions.
 
 To work around it, users need to extend new routing convention to support it.
 
