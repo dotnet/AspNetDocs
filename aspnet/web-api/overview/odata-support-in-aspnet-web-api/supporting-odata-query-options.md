@@ -59,7 +59,7 @@ The **EnableQuerySupport** method enables query options globally for any control
 <a id="examples"></a>
 ## Example Queries
 
-This section shows the types of queries that are possible using the OData query options. For specific details about the query options, refer to the OData documentation at [www.odata.org](http://www.odata.org/).
+This section shows the types of queries that are possible using the OData query options. For specific details about the query options, refer to the OData documentation at [www.odata.org](https://www.odata.org/).
 
 For information about $expand and $select, see [Using $select, $expand, and $value in ASP.NET Web API OData](using-select-expand-and-value.md).
 
