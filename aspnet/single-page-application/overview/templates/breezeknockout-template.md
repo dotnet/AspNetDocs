@@ -85,7 +85,7 @@ The basic architecture is the same as the KnockoutJS SPA template. However, the 
 
 ## Next Steps
 
-We suggest that you explore the code, guided by the [extensive discussion](http://www.breezejs.com/spa-template?utm_source=ms-spa) of both the client and the server stacks on the Breeze website.
+We suggest that you explore the code, guided by the extensive discussion of both the client and the server stacks on the Breeze website.
 
 You might try playing with Breeze client-side query; add some filters and sorts. You might add more model properties and more entities to get a better feel for end-to-end SPA development. When you are confident of the design, you can tear out the Todo features and replace them with your own.
 
