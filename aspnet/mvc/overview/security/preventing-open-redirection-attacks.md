@@ -29,11 +29,11 @@ In the screenshot below, we can see that an attempt to access the /Account/Chang
 
 **Figure 01**: Login page with an open redirection
 
-Since the ReturnUrl querystring parameter is not validated, an attacker can modify it to inject any URL address into the parameter to conduct an open redirection attack. To demonstrate this, we can modify the ReturnUrl parameter to [http://bing.com](http://bing.com), so the resulting login URL will be /Account/LogOn?ReturnUrl=<http://www.bing.com/>. Upon successfully logging in to the site, we are redirected to [http://bing.com](http://bing.com). Since this redirection is not validated, it could instead point to a malicious site that attempts to trick the user.
+Since the ReturnUrl querystring parameter is not validated, an attacker can modify it to inject any URL address into the parameter to conduct an open redirection attack. To demonstrate this, we can modify the ReturnUrl parameter to [https://bing.com](https://bing.com), so the resulting login URL will be /Account/LogOn?ReturnUrl=<https://www.bing.com/>. Upon successfully logging in to the site, we are redirected to [https://bing.com](https://bing.com). Since this redirection is not validated, it could instead point to a malicious site that attempts to trick the user.
 
 ### A more complex Open Redirection Attack
 
-Open redirection attacks are especially dangerous because an attacker knows that we're trying to log into a specific website, which makes us vulnerable to a [phishing attack](/microsoft-365/security/intelligence/phishing?view=o365-worldwide). For example, an attacker could send malicious emails to website users in an attempt to capture their passwords. Let's look at how this would work on the NerdDinner site. (Note that the live NerdDinner site has been updated to protect against open redirection attacks.)
+Open redirection attacks are especially dangerous because an attacker knows that we're trying to log into a specific website, which makes us vulnerable to a [phishing attack](/microsoft-365/security/intelligence/phishing). For example, an attacker could send malicious emails to website users in an attempt to capture their passwords. Let's look at how this would work on the NerdDinner site. (Note that the live NerdDinner site has been updated to protect against open redirection attacks.)
 
 First, an attacker sends us a link to the login page on NerdDinner that includes a redirect to their forged page:
 
@@ -45,7 +45,7 @@ Note that the return URL points to nerddiner.com, which is missing an "n" from t
 
 **Figure 02**: NerdDinner login page with an open redirection
 
-When we correctly log in, the ASP.NET MVC AccountController's LogOn action redirects us to the URL specified in the returnUrl querystring parameter. In this case, it's the URL that the attacker has entered, which is [http://nerddiner.com/Account/LogOn](http://nerddiner.com/Account/LogOn). Unless we're extremely watchful, it's very likely we won't notice this, especially because the attacker has been careful to make sure that their forged page looks exactly like the legitimate login page. This login page includes an error message requesting that we login again. Clumsy us, we must have mistyped our password.
+When we correctly log in, the ASP.NET MVC AccountController's LogOn action redirects us to the URL specified in the returnUrl querystring parameter. In this case, it's the URL that the attacker has entered, which is `http://nerddiner.com/Account/LogOn`. Unless we're extremely watchful, it's very likely we won't notice this, especially because the attacker has been careful to make sure that their forged page looks exactly like the legitimate login page. This login page includes an error message requesting that we login again. Clumsy us, we must have mistyped our password.
 
 [![Screenshot showing the forged Nerd Dinner Log On page, prompting the user to reenter their credentials. The forged U R L in the title bar is highlighted.](preventing-open-redirection-attacks/_static/image6.png)](preventing-open-redirection-attacks/_static/image5.png)
 
@@ -97,7 +97,7 @@ Now that the IsLocalUrl() method is in place, we can call it from our LogOn acti
 
 [!code-csharp[Main](preventing-open-redirection-attacks/samples/sample6.cs)]
 
-Now we can test an open redirection attack by attempting to log in using an external return URL. Let's use /Account/LogOn?ReturnUrl=<http://www.bing.com/> again.
+Now we can test an open redirection attack by attempting to log in using an external return URL. Let's use /Account/LogOn?ReturnUrl=<https://www.bing.com/> again.
 
 [![Screenshot that shows the My M V C Application Log On page. The title bar is highlighted and filled with the external return U R L.](preventing-open-redirection-attacks/_static/image8.png)](preventing-open-redirection-attacks/_static/image7.png)
 

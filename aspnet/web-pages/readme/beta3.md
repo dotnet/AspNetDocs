@@ -39,7 +39,7 @@ msc.type: content
 
 ## Installation
 
-> To install WebMatrix Beta 3, you use [Microsoft Web Platform Installer 3.0](https://go.microsoft.com/fwlink/?LinkID=194638). After you've installed the Web Platform Installer, you can use it to install WebMatrix Beta 3.
+> To install WebMatrix Beta 3, you use [Microsoft Web Platform Installer 3.0](/iis/install/web-platform-installer/web-platform-installer-direct-downloads). After you've installed the Web Platform Installer, you can use it to install WebMatrix Beta 3.
 > 
 > If you have problems during installation, refer to [Troubleshooting Problems with Microsoft Web Platform Installer](https://go.microsoft.com/fwlink/?LinkId=196212).
 
@@ -195,7 +195,7 @@ This section of the document describes new features, changes, and known issues w
 
 > If a WebMatrix Web application uses SQL Server Express and is running IIS 7.5 on Windows 7 or Windows Server 2008 R2, you might see an error that indicates that SQL Server cannot retrieve the user's local application path at run time.
 > 
-> **Workaround** Make sure that the Windows account that the application runs under (typically NETWORK SERVICE) has read/write permissions for root folders of the application and for subfolders such as *App\_Data*. More detailed information is available in the KnowledgeBase article [Problems with SQL Server Express user instancing and ASP.net Web Application Projects](https://support.microsoft.com/kb/2002980).
+> **Workaround** Make sure that the Windows account that the application runs under (typically NETWORK SERVICE) has read/write permissions for root folders of the application and for subfolders such as *App\_Data*. More detailed information is available at [Problems with SQL Server Express user instancing and ASP.net Web Application Projects](https://stackoverflow.com/questions/2910164/problems-with-sql-server-express-user-instancing-and-asp-net-web-application-pro).
 
 #### Issue: In Visual Studio, namespaces for custom assemblies (DLLs) are not imported automatically
 
@@ -446,7 +446,7 @@ This section of the document describes new features, changes, and known issues w
 > The **Site from Web Gallery** option is disabled if the Web Platform Installer 3.0 is not installed.
 > 
 > **Workaround**  
-> Install the [Microsoft Web Platform Installer 3.0](https://go.microsoft.com/fwlink/?LinkID=194638).
+> Install the [Microsoft Web Platform Installer 3.0](/iis/install/web-platform-installer/web-platform-installer-direct-downloads).
 
 #### Issue: On Windows Server 2003, IIS Express does not start for a non-administrative user
 
@@ -493,7 +493,7 @@ This section of the document describes new features, changes, and known issues w
 
 For more information about WebMatrix Beta 3, see the following websites:
 
-- [IIS.net](http://iis.net/)
+- [IIS.net](https://iis.net/)
 - [ASP.NET](https://asp.net/webmatrix)
 - [Microsoft.com/web](https://www.microsoft.com/web)
 

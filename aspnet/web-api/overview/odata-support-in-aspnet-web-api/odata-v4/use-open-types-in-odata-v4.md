@@ -29,7 +29,7 @@ First, some OData terminology:
 - Complex type: A structured type without a key.
 - Open type: A type with dynamic properties. Both entity types and complex types can be open.
 
-The value of a dynamic property can be a primitive type, complex type, or enumeration type; or a collection of any of those types. For more information about open types, see the [OData v4 specification](http://www.odata.org/documentation/).
+The value of a dynamic property can be a primitive type, complex type, or enumeration type; or a collection of any of those types. For more information about open types, see the [OData v4 specification](https://www.odata.org/documentation/).
 
 ## Install the Web OData Libraries
 

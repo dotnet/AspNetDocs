@@ -176,8 +176,8 @@ The following `ActionResult` types and corresponding helper methods are new or e
 By default, Ajax and validation helpers in MVC 3 use an unobtrusive JavaScript approach. Unobtrusive JavaScript avoids injecting inline JavaScript into HTML. This makes your HTML smaller and less cluttered, and makes it easier to swap out or customize JavaScript libraries. Validation helpers in MVC 3 also use the `jQueryValidate` plugin by default. If you want MVC 2 behavior, you can disable unobtrusive JavaScript using a *web.config* file setting. For more information about JavaScript and Ajax improvements, see the following resources:
 
 - [Basic introduction to unobtrusive JavaScript on the Wikipedia site](http://en.wikipedia.org/wiki/Unobtrusive_JavaScript)
-- [Brad Wilson's Unobtrusive JavaScript Post](http://bradwilson.typepad.com/blog/2010/10/mvc3-unobtrusive-ajax.html)
-- [Brad Wilson's Unobtrusive JavaScript Validation Post](http://bradwilson.typepad.com/blog/2010/10/mvc3-unobtrusive-validation.html)
+- [Brad Wilson's Unobtrusive JavaScript Post](https://bradwilson.typepad.com/blog/2010/10/mvc3-unobtrusive-ajax.html)
+- [Brad Wilson's Unobtrusive JavaScript Validation Post](https://bradwilson.typepad.com/blog/2010/10/mvc3-unobtrusive-validation.html)
 - [Creating a MVC 3 Application with Razor and Unobtrusive JavaScript](overview/older-versions/creating-a-mvc-3-application-with-razor-and-unobtrusive-javascript.md) (tutorial on the ASP.NET site)
 - [MVC 3 Release Notes](../whitepapers/mvc3-release-notes.md)
 
@@ -245,7 +245,7 @@ MVC 3 supports the [Common Service Locator](https://github.com/unitycontainer/co
 
 For more information about DI in MVC 3, see the following resources:
 
-- [Brad Wilson's series of blog posts on Service Location](http://bradwilson.typepad.com/blog/2010/07/service-location-pt1-introduction.html)
+- [Brad Wilson's series of blog posts on Service Location](https://bradwilson.typepad.com/blog/2010/07/service-location-pt1-introduction.html)
 - [MVC 3 Release Notes](../whitepapers/mvc3-release-notes.md)
 
 <a id="BM_Other_New_Features"></a>

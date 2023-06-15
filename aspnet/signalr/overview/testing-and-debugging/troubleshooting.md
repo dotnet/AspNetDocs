@@ -62,7 +62,7 @@ Verify that you do not have a duplicate method on the client that differs only b
 
 ### Missing JSON parser on the client
 
-SignalR requires a JSON parser to be present to serialize calls between the server and the client. If your client doesn't have a built-in JSON parser (such as Internet Explorer 7), you'll need to include one in your application. You can download the JSON parser [here](http://nuget.org/packages/json2).
+SignalR requires a JSON parser to be present to serialize calls between the server and the client. If your client doesn't have a built-in JSON parser (such as Internet Explorer 7), you'll need to include one in your application. You can download the JSON parser [here](https://nuget.org/packages/json2).
 
 ### Mixing Hub and PersistentConnection syntax
 

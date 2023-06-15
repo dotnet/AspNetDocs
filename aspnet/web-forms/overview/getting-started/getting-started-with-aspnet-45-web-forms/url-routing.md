@@ -29,7 +29,7 @@ In this tutorial, you will modify the Wingtip Toys sample application to support
 
 URL routing allows you to configure an application to accept request URLs that do not map to physical files. A request URL is simply the URL a user enters into their browser to find a page on your web site. You use routing to define URLs that are semantically meaningful to users and that can help with search-engine optimization (SEO).
 
-By default, the Web Forms template includes [ASP.NET Friendly URLs](http://www.nuget.org/packages/Microsoft.AspNet.FriendlyUrls/). Much of the basic routing work will be implemented by using *Friendly URLs*. However, in this tutorial you will add customized routing capabilities.
+By default, the Web Forms template includes [ASP.NET Friendly URLs](https://www.nuget.org/packages/Microsoft.AspNet.FriendlyUrls/). Much of the basic routing work will be implemented by using *Friendly URLs*. However, in this tutorial you will add customized routing capabilities.
 
 Before customizing URL routing, the Wingtip Toys sample application can link to a product using the following URL:
 
@@ -138,7 +138,7 @@ In this tutorial, you have added routes for categories and products. You have le
 
 ## Additional Resources
 
-[ASP.NET Friendly URLs](http://www.nuget.org/packages/Microsoft.AspNet.FriendlyUrls/)  
+[ASP.NET Friendly URLs](https://www.nuget.org/packages/Microsoft.AspNet.FriendlyUrls/)  
 [Deploy a Secure ASP.NET Web Forms App with Membership, OAuth, and SQL Database to Azure App Service](https://azure.microsoft.com/documentation/articles/web-sites-dotnet-deploy-aspnet-webforms-app-membership-oauth-sql-database/)  
 [Microsoft Azure - Free Trial](https://azure.microsoft.com/pricing/free-trial/)
 

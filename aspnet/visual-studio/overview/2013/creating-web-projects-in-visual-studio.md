@@ -22,7 +22,7 @@ by [Tom Dykstra](https://github.com/tdykstra)
 > - The use of [Bootstrap](#bootstrap) to provide responsive design and theming capabilities.
 > - New features for Web Forms that used to be offered only for MVC, such as [automatic test project creation](#testproj) and an [Intranet site template](#winauth).
 > 
-> For information about how to create web projects for Azure Cloud Services or Azure Mobile Services, see [Get Started with Azure Cloud Services and ASP.NET](https://azure.microsoft.com/documentation/articles/cloud-services-dotnet-get-started/) and [Creating a Leaderboard App with Azure Mobile Services .NET Backend](https://azure.microsoft.com/documentation/articles/mobile-services-dotnet-backend-windows-store-dotnet-leaderboard/).
+> For information about how to create web projects for Azure Cloud Services or Azure Mobile Services, see [Get Started with Azure Cloud Services and ASP.NET](https://azure.microsoft.com/documentation/articles/cloud-services-dotnet-get-started/) and [Creating a Leaderboard App with Azure Mobile Services .NET Backend](https://github.com/Huachao/azure-content/blob/master/articles/mobile-services/mobile-services-dotnet-backend-windows-store-dotnet-leaderboard.md).
 
 <a id="prerequisites"></a>
 ## Prerequisites
@@ -44,7 +44,7 @@ The following steps show how to create a web project:
 
     ![Screenshot showing the New Project window with ASP.NET Web Application selected.](creating-web-projects-in-visual-studio/_static/image1.png)
 
-    You can choose **Cloud** in the left pane to create an [Azure Cloud Service](/azure/cloud-services/cloud-services-how-to-create-deploy), [Azure Mobile Service](https://msdn.microsoft.com/library/windows/apps/dn629482.aspx), or [Azure WebJob](https://azure.microsoft.com/documentation/articles/web-sites-dotnet-deploy-webjobs). This topic doesn't cover those templates.
+    You can choose **Cloud** in the left pane to create an [Azure Cloud Service](/azure/cloud-services/cloud-services-how-to-create-deploy), [Azure Mobile Service](https://msdn.microsoft.com/library/windows/apps/dn629482.aspx), or [Azure WebJob](https://github.com/Huachao/azure-content/blob/master/articles/app-service-web/websites-dotnet-deploy-webjobs.md). This topic doesn't cover those templates.
 3. In the right pane, click the **Add Application Insights to Project** check box if you want health and usage monitoring for your application. For more information, see [Monitor performance in web applications](https://azure.microsoft.com/documentation/articles/app-insights-web-monitor-performance/).
 4. Specify project **Name**, **Location**, and other options, and then click **OK**.
 
@@ -102,7 +102,7 @@ Visual Studio 2013 provides the following choices for web project templates for 
 - [MVC template](#mvc)
 - [Web API template](#webapi)
 - [Single Page Application template](#spa)
-- [Azure Mobile Service template](https://azure.microsoft.com/documentation/articles/mobile-services-dotnet-backend-windows-store-dotnet-leaderboard/)
+- [Azure Mobile Service template](https://github.com/Huachao/azure-content/blob/master/articles/mobile-services/mobile-services-dotnet-backend-windows-store-dotnet-leaderboard.md)
 - [Visual Studio 2012 Templates](#vs2012)
 
 You can also install a Visual Studio extension that provides a [Facebook template](#facebook).

@@ -22,7 +22,7 @@ msc.type: authoredcontent
 >
 > - [Visual Studio 2013](https://my.visualstudio.com/Downloads?q=visual%20studio%202013)
 > - [Azure SDK for .NET 2.3](https://azure.microsoft.com/downloads/)
-> - [Microsoft.Owin.Selfhost 2.1.0](http://www.nuget.org/packages/Microsoft.Owin.SelfHost/2.1.0)
+> - [Microsoft.Owin.Selfhost 2.1.0](https://www.nuget.org/packages/Microsoft.Owin.SelfHost/2.1.0)
 
 ## Create a Microsoft Azure Project
 

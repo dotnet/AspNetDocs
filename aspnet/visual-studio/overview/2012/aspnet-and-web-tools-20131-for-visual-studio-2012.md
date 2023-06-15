@@ -108,7 +108,7 @@ With this update, Visual Studio 2012 now supports Razor 3 tooling/editing.
 <a id="nuget"></a>
 ### NuGet 2.7
 
-NuGet 2.7 includes a rich set of new features which are described in detail at [NuGet 2.7 Release Notes](http://docs.nuget.org/docs/release-notes/nuget-2.7).
+NuGet 2.7 includes a rich set of new features which are described in detail at [NuGet 2.7 Release Notes](https://docs.nuget.org/docs/release-notes/nuget-2.7).
 
 This version of NuGet removes the need for users to explicitly allow NuGet to restore missing packages. When installing NuGet 2.7, users implicitly consent to automatically restoring missing packages. Users can explicitly opt out of package restoration through the NuGet settings in Visual Studio. This change simplifies how package restoration works.
 

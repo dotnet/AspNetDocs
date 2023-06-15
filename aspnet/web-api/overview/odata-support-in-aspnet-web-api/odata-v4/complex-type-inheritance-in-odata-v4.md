@@ -13,7 +13,7 @@ msc.type: authoredcontent
 
 by [Microsoft](https://github.com/microsoft)
 
-> According to the OData v4 [specification](http://www.odata.org/documentation/), a complex type can inherit from another complex type. (A *complex* type is a structured type without a key.) Web API OData 5.3 supports complex type inheritance.
+> According to the OData v4 [specification](https://www.odata.org/documentation/), a complex type can inherit from another complex type. (A *complex* type is a structured type without a key.) Web API OData 5.3 supports complex type inheritance.
 > 
 > This topic shows how to build an entity data model (EDM) with complex inheritance types. 
 > 

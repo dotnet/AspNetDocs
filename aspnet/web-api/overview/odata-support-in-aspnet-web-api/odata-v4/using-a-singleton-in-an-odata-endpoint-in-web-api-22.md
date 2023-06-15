@@ -58,7 +58,7 @@ For reference, method signatures for every action definition in the singleton co
 
 [!code-csharp[Main](using-a-singleton-in-an-odata-endpoint-in-web-api-22/samples/sample7.cs)]
 
-Basically, this is all you need to do on the service side. The [sample project](http://aspnet.codeplex.com/sourcecontrol/latest#Samples/WebApi/OData/v4/ODataSingletonSample/) contains all of the code for the solution and the OData client that shows how to use the singleton. The client is built by following the steps in [Create an OData v4 Client App](create-an-odata-v4-client-app.md).
+Basically, this is all you need to do on the service side. The [sample project](https://github.com/OData/ODataSamples/tree/master/WebApiCore/ODataSingletonSample/ODataSingletonSample) contains all of the code for the solution and the OData client that shows how to use the singleton. The client is built by following the steps in [Create an OData v4 Client App](create-an-odata-v4-client-app.md).
 
 . 
 

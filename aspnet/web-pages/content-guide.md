@@ -3,7 +3,6 @@ uid: web-pages/content-guide
 title: "WebMatrix Content Guide | Microsoft Docs"
 description: This topic provides a list of links to articles, videos, and resources that discuss development scenarios for WebMatrix content.
 author: rick-anderson
-description: ""
 ms.author: riande
 ms.date: 01/13/2011
 ms.assetid: b558e481-775a-4aa0-bd3b-ad61e530c2d2
@@ -47,7 +46,6 @@ WebMatrix is a set of tools that provides an easy way to build Web sites for Mic
 **Read**
 
 - [Microsoft Web Camps training kit for WebMatrix](https://github.com/Microsoft-Web/WebCampTrainingKit)
-- [Submit a bug or suggestion](https://go.microsoft.com/fwlink/?LinkId=195940)
 - [WebMatrix Readme](readme/index.md)
 - [App Gallery FAQs](https://go.microsoft.com/fwlink/?LinkId=196179)
 - [IIS Express Documentation](https://go.microsoft.com/fwlink/?LinkID=195075)

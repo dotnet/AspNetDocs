@@ -169,7 +169,7 @@ In this scenario, the IIS 7 and IIS 7.5 native configuration system returns a co
 
 The workaround for the first scenario is to update the application-level `Web.config` file by including the boilerplate configuration text from a `Web.config` file that was generated automatically by Visual Studio 2008.
 
-An alternative workaround for the first scenario is to install Service Pack 2 for Vista or Windows Server 2008 on your computer or to install hotfix KB958854 ([https://support.microsoft.com/kb/958854](https://support.microsoft.com/kb/958854)) to fix the incorrect configuration-merge behavior of the IIS configuration system. However, after you perform either of these actions, your application will likely encounter a configuration error due to the issue described for the second scenario.
+An alternative workaround for the first scenario is to install Service Pack 2 for Vista or Windows Server 2008 on your computer to fix the incorrect configuration-merge behavior of the IIS configuration system. However, after you perform either of these actions, your application will likely encounter a configuration error due to the issue described for the second scenario.
 
 The workaround for the second scenario is to delete or comment out all the **system.web.extensions** configuration section definitions and configuration section group definitions from the application-level `Web.config` file. These definitions are usually at the top of the application-level `Web.config` file and can be identified by the **configSections** element and its children.
 
@@ -309,13 +309,13 @@ If it is not practical to remap the Web site to ASP.NET 2.0 or to change the loc
 
 ## Event Handlers Might Not Be Not Raised in a Default Document in IIS 7 or IIS 7.5 Integrated Mode
 
-ASP.NET 4 includes modifications that change how the **action** attribute of the HTML **form** element is rendered when an extensionless URL resolves to a default document. An example of an extensionless URL resolving to a default document would be [http://contoso.com/](http://contoso.com/), resulting in a request to [http://contoso.com/Default.aspx](http://contoso.com/Default.aspx).
+ASP.NET 4 includes modifications that change how the **action** attribute of the HTML **form** element is rendered when an extensionless URL resolves to a default document. An example of an extensionless URL resolving to a default document would be `http://contoso.com/`, resulting in a request to `http://contoso.com/Default.aspx`.
 
-ASP.NET 4 now renders the HTML **form** element's **action** attribute value as an empty string when a request is made to an extensionless URL that has a default document mapped to it. For example, in earlier releases of ASP.NET, a request to [http://contoso.com](http://contoso.com) would result in a request to `Default.aspx`. In that document, the opening **form** tag would be rendered as in the following example:
+ASP.NET 4 now renders the HTML **form** element's **action** attribute value as an empty string when a request is made to an extensionless URL that has a default document mapped to it. For example, in earlier releases of ASP.NET, a request to `http://contoso.com` would result in a request to `Default.aspx`. In that document, the opening **form** tag would be rendered as in the following example:
 
 `<form action="Default.aspx" />`
 
-In ASP.NET 4, a request to [http://contoso.com](http://contoso.com) also results in a request to `Default.aspx`. However, ASP.NET now renders the HTML opening **form** tag as in the following example:
+In ASP.NET 4, a request to `http://contoso.com` also results in a request to `Default.aspx`. However, ASP.NET now renders the HTML opening **form** tag as in the following example:
 
 `<form action="" />`
 

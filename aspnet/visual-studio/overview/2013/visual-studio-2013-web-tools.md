@@ -372,12 +372,12 @@ HTML5 introduced more than 25 new semantic tags. Visual Studio already had Intel
 
     > [!NOTE]
     > By pressing the **TAB** key twice, the code snippet is inserted. The audio snippet shows the standard usage of the *audio* tag, with two source files for improved support.
-3. Delete the second line and update the source of the first line with the following link to the WebCampsTV Katana show: [http://media.ch9.ms/ch9/11d8/604b8163-fad3-4f12-9607-b404201211d8/KatanaProject.mp3](http://media.ch9.ms/ch9/11d8/604b8163-fad3-4f12-9607-b404201211d8/KatanaProject.mp3). The resulting code is shown below.
+3. Delete the second line and update the source of the first line with the following link to the **Installing ASP.NET and Web Tools** show: [https://learn.microsoft.com/shows/asp-net-site-videos/installing-aspnet-web-tools](/shows/asp-net-site-videos/installing-aspnet-web-tools). The resulting code is shown below.
 
     [!code-html[Main](visual-studio-2013-web-tools/samples/sample7.html)]
 
     > [!NOTE]
-    > The source file *KatanaProject.mp3* is used as an example. You can use another source if you prefer.
+    > The source file is used as an example. You can use another source if you prefer.
 4. Press **CTRL** + **S** to save the file.
 5. Press **CTRL** + **F5** to start the application.
 6. Notice that an audio player was added to the application.

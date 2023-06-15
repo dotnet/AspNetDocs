@@ -56,7 +56,7 @@ Before we get to the detailed tutorial, here is a quick overview of what you wil
 1. Install Redis and start the Redis server.
 2. Add these NuGet packages to your application:
 
-    - [Microsoft.AspNet.SignalR](http://nuget.org/packages/Microsoft.AspNet.SignalR)
+    - [Microsoft.AspNet.SignalR](https://nuget.org/packages/Microsoft.AspNet.SignalR)
     - [Microsoft.AspNet.SignalR.StackExchangeRedis](https://www.nuget.org/packages/Microsoft.AspNet.SignalR.StackExchangeRedis)
     
 3. Create a SignalR application.

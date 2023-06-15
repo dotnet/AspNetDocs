@@ -123,12 +123,12 @@ Rick.Anderson[at]Microsoft.com
 
 - [Radu Enuca](https://weblogs.asp.net/raduenuca/default.aspx)
 - Jean-Sébastien Goupil
-- [Brad Wilson](http://bradwilson.typepad.com/)
+- [Brad Wilson](https://bradwilson.typepad.com/)
 
 ### Reviewers
 
 - Jean-Sébastien Goupil
-- [Brad Wilson](http://bradwilson.typepad.com/)
+- [Brad Wilson](https://bradwilson.typepad.com/)
 - Mike Pope
 - Tom Dykstra
 

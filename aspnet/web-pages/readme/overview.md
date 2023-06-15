@@ -144,13 +144,13 @@ This section of the document describes new features, changes, and known issues w
 
 > Under some circumstances, trying to create users or otherwise work with the ASP.NET membership system can cause the page to display the error *The Admin Module requires access to ~/App\_Data*. This occurs if the account that IIS or IIS Express is running under does not have permissions to create and write to the *App\_Data* folder under the website root. 
 > 
-> **Workaround** Manually create an *App\_Data* folder for the website. Then make sure that the Windows account that the application runs under (typically NETWORK SERVICE) has read/write permissions for root folders of the application and for subfolders such as App\_Data. More detailed information is available in the KnowledgeBase article [Problems with SQL Server Express user instancing and ASP.net Web Application Projects](https://support.microsoft.com/kb/2002980).
+> **Workaround** Manually create an *App\_Data* folder for the website. Then make sure that the Windows account that the application runs under (typically NETWORK SERVICE) has read/write permissions for root folders of the application and for subfolders such as App\_Data. More detailed information is available at [Problems with SQL Server Express user instancing and ASP.net Web Application Projects](https://stackoverflow.com/questions/2910164/problems-with-sql-server-express-user-instancing-and-asp-net-web-application-pro).
 
 #### Issue: "Failed to generate a user instance of SQL Server" error
 
 > If a WebMatrix Web application uses SQL Server Express and is running IIS 7.5 on Windows 7 or Windows Server 2008 R2, you might see an error that indicates that SQL Server cannot retrieve the user's local application path at run time.
 > 
-> **Workaround** Make sure that the Windows account that the application runs under (typically NETWORK SERVICE) has read/write permissions for root folders of the application and for subfolders such as *App\_Data*. More detailed information is available in the KnowledgeBase article [Problems with SQL Server Express user instancing and ASP.net Web Application Projects](https://support.microsoft.com/kb/2002980).
+> **Workaround** Make sure that the Windows account that the application runs under (typically NETWORK SERVICE) has read/write permissions for root folders of the application and for subfolders such as *App\_Data*. More detailed information is available at [Problems with SQL Server Express user instancing and ASP.net Web Application Projects](https://stackoverflow.com/questions/2910164/problems-with-sql-server-express-user-instancing-and-asp-net-web-application-pro).
 
 #### Issue: Files that contains package-manager resources or package-manager passwords are servable under IIS 6.0 and earlier
 
@@ -306,7 +306,7 @@ This section of the document describes known issues for the WebMatrix developmen
 > The **Site from Web Gallery** option is disabled if the Web Platform Installer 3.0 is not installed.
 > 
 > **Workaround**  
-> Install the [Microsoft Web Platform Installer 3.0](https://go.microsoft.com/fwlink/?LinkID=194638).
+> Install the [Microsoft Web Platform Installer 3.0](/iis/install/web-platform-installer/web-platform-installer-direct-downloads).
 
 #### Issue: Google Chrome is not available as a Run option
 
@@ -502,7 +502,7 @@ For information about issues that involve installing SQL Server Compact as part 
 
 For more information about WebMatrix 1.0, see the following websites:
 
-- [IIS.net](http://iis.net/)
+- [IIS.net](https://iis.net/)
 - [ASP.NET](https://asp.net/webmatrix)
 - [Microsoft.com/web](https://www.microsoft.com/web)
 

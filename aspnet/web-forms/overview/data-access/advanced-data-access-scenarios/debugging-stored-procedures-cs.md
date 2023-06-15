@@ -140,7 +140,7 @@ An example should help clarify things. Imagine that there is a Windows account n
 
 [!code-console[Main](debugging-stored-procedures-cs/samples/sample2.cmd)]
 
-For a more detailed explanation on this process, see [William R. Vaughn](http://betav.com/BLOG/billva/) s *Hitchhiker s Guide to Visual Studio and SQL Server, Seventh Edition*.
+For a more detailed explanation on this process, see [William R. Vaughn](https://betav.com/)'s *Hitchhiker s Guide to Visual Studio and SQL Server, Seventh Edition*.
 
 > [!NOTE]
 > If your development machine is running Windows XP Service Pack 2 you will need to configure the Internet Connection Firewall to allow remote debugging. [The How To: Enable SQL Server 2005 Debugging](https://msdn.microsoft.com/library/s0fk6z6e(VS.80).aspx) article notes that this involves two steps: (a) On the Visual Studio host machine, you must add `Devenv.exe` to the Exceptions list and open the TCP 135 port; and (b) On the remote (SQL) machine, you must open the TCP 135 port and add `sqlservr.exe` to the Exceptions list. If your domain policy requires network communication to be done through IPSec, you must open the UDP 4500 and UDP 500 ports.

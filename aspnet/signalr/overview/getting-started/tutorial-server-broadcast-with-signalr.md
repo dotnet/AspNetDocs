@@ -213,7 +213,7 @@ First, you'll add the HTML client.
 
     * A StockTicker script file that you'll create later.
 
-    The app dynamically generates the SignalR proxies script file. It specifies the "/signalr/hubs" URL and defines proxy methods for the methods on the Hub class, in this case, for `StockTickerHub.GetAllStocks`. If you prefer, you can generate this JavaScript file manually by using [SignalR Utilities](http://nuget.org/packages/Microsoft.AspNet.SignalR.Utils/). Don't forget to disable dynamic file creation in the `MapHubs` method call.
+    The app dynamically generates the SignalR proxies script file. It specifies the "/signalr/hubs" URL and defines proxy methods for the methods on the Hub class, in this case, for `StockTickerHub.GetAllStocks`. If you prefer, you can generate this JavaScript file manually by using [SignalR Utilities](https://nuget.org/packages/Microsoft.AspNet.SignalR.Utils/). Don't forget to disable dynamic file creation in the `MapHubs` method call.
 
 1. In **Solution Explorer**, expand **Scripts**.
 
@@ -332,7 +332,7 @@ For any given connection, SignalR chooses the best transport method that both th
 
 ## Install the StockTicker sample
 
-The [Microsoft.AspNet.SignalR.Sample](http://nuget.org/packages/microsoft.aspnet.signalr.sample) installs the StockTicker application. The NuGet package includes more features than the simplified version that you created from scratch. In this section of the tutorial, you install the NuGet package and review the new features and the code that implements them.
+The [Microsoft.AspNet.SignalR.Sample](https://nuget.org/packages/microsoft.aspnet.signalr.sample) installs the StockTicker application. The NuGet package includes more features than the simplified version that you created from scratch. In this section of the tutorial, you install the NuGet package and review the new features and the code that implements them.
 
 > [!IMPORTANT]
 > If you install the package without performing the earlier steps of this tutorial, you must add an OWIN startup class to your project. This readme.txt file for the NuGet package explains this step.

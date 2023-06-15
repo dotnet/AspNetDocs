@@ -47,8 +47,8 @@ Before we get to the detailed tutorial, here is a quick overview of what you wil
 1. Create a new empty database. The backplane will create the necessary tables in this database.
 2. Add these NuGet packages to your application:
 
-    - [Microsoft.AspNet.SignalR](http://nuget.org/packages/Microsoft.AspNet.SignalR)
-    - [Microsoft.AspNet.SignalR.SqlServer](http://nuget.org/packages/Microsoft.AspNet.SignalR.SqlServer)
+    - [Microsoft.AspNet.SignalR](https://nuget.org/packages/Microsoft.AspNet.SignalR)
+    - [Microsoft.AspNet.SignalR.SqlServer](https://nuget.org/packages/Microsoft.AspNet.SignalR.SqlServer)
 3. Create a SignalR application.
 4. Add the following code to Startup.cs to configure the backplane:
 

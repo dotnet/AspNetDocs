@@ -59,7 +59,7 @@ To install Web Pages, you can use the Microsoft Web Platform Installer, which is
 The RC version release in June 2012 has a few changes from the Beta version refresh that was released in March 2012. These changes are:
 
 - A `Validation.AddFormError` method was added to the `Validation` helper. This is useful if you perform validation manually (for example, you validate a value that is passed in the query string) and you want to add an error message that can be displayed by the `Html.ValidationSummary` method. For more information, see the section [Validating Data That Doesn't Come Directly From Users](https://go.microsoft.com/fwlink/?LinkId=253002#Validating_Data_That_Doesnt_Come_Directly_from_Users) in [Validating User Input in ASP.NET Web Pages (Razor) Sites](https://go.microsoft.com/fwlink/?LinkId=253002).
-- The functionality for bundling and minification has been removed from the core ASP.NET Web Pages 2 assemblies. As a consequence, the `Assets` helper listed later in this document is not available. Instead, you must install the [ASP.NET Optimization](http://nuget.org/packages/Microsoft.Web.Optimization/0.1) NuGet package. For more information, see [Bundling and Minifying Assets in an ASP.NET Web Pages (Razor) Site](https://go.microsoft.com/fwlink/?LinkId=255373).
+- The functionality for bundling and minification has been removed from the core ASP.NET Web Pages 2 assemblies. As a consequence, the `Assets` helper listed later in this document is not available. Instead, you must install the [ASP.NET Optimization](https://nuget.org/packages/Microsoft.Web.Optimization/0.1) NuGet package. For more information, see [Bundling and Minifying Assets in an ASP.NET Web Pages (Razor) Site](https://go.microsoft.com/fwlink/?LinkId=255373).
 - Additional assemblies to support ASP.NET Web Pages 2 have been added. The only noticeable effect of this change is that you might see more assemblies in a site's *bin* folder after you create a site or deploy a site to a hosting provider.
 
 <a id="Changes_for_the_Beta_Version"></a>
@@ -439,7 +439,7 @@ Here are some things to remember when you install the Web Pages 2 Beta with WebM
   `- If you do not specify a version in the *web.config* file, a site is deployed as a version 2 site. (The version 2 assemblies are copied to the *bin* folder in the deployed site.)
 - New applications that you create using the site templates in Web Matrix version 2 Beta include the Web Pages version 2 assemblies in the site's *bin* folder.
 
-In general, you can always control which version of Web Pages to use with your site by using NuGet to install the appropriate assemblies into the site's *bin* folder. To find packages, visit [NuGet.org](http://NuGet.org).
+In general, you can always control which version of Web Pages to use with your site by using NuGet to install the appropriate assemblies into the site's *bin* folder. To find packages, visit [NuGet.org](https://NuGet.org).
 
 <a id="mobile"></a>
 ### Rendering Pages for Mobile Devices
@@ -490,6 +490,5 @@ To build and run the code sample:
 
 ### WebMatrix Resources
 
-- [WebMatrix 2 What's New](http://webmatrix.com/next)
 - [Microsoft WebMatrix Site](https://go.microsoft.com/fwlink/?LinkID=195076)
 - [Starting Web Development with Microsoft WebMatrix](https://msdn.microsoft.com/library/hh145669(v=VS.99).aspx)(includes a full-length sample Web Pages application)
