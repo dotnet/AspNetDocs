@@ -25,10 +25,10 @@ Outwardly, the application looks very similar to the KnockoutJS SPA template. Bu
 
 The application's About page displays a running log of events during the current user session, including:
 
-- Paging. Note the Todo controller creation at #2 and #7.
-- Remote queries (#3) and local cache queries (#7).
-- Saving new (#5, #6) and modified (#4) entities.
-- Changes validated on the client (#9), so the user can correct mistakes before committing changes to the database.
+- Paging. Note the Todo controller creation.
+- Remote queries and local cache queries.
+- Saving new and modified entities.
+- Changes validated on the client, so the user can correct mistakes before committing changes to the database.
 
 There's more to explore in this template, including:
 
