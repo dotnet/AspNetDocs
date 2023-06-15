@@ -154,7 +154,7 @@ You updated the *Web.config* file connection string to point to a SQL Server Exp
 
 ### Possible Cause and Solution
 
-The name of the *.mdf* file cannot match the name of any SQL Server Express database that has ever existed on your computer, even if you deleted the *.mdf* file of the previously existing database. Change the name of the *.mdf* file to a name that has never been used as a database name and change the *Web.config* file to use the new name. As an alternative, you can use [SQL Server Management Studio Express](https://www.microsoft.com/en-us/download/details.aspx?id=14630) to delete previously existing SQL Server Express databases.
+The name of the *.mdf* file cannot match the name of any SQL Server Express database that has ever existed on your computer, even if you deleted the *.mdf* file of the previously existing database. Change the name of the *.mdf* file to a name that has never been used as a database name and change the *Web.config* file to use the new name. As an alternative, you can use [SQL Server Management Studio Express](https://www.microsoft.com/download/details.aspx?id=14630) to delete previously existing SQL Server Express databases.
 
 ## Model Compatibility Cannot be Checked
 
@@ -166,7 +166,7 @@ You updated the *Web.config* file connection string to point to a new SQL Server
 
 ### Possible Cause and Solution
 
-If the database name you put in the Web.config file was ever used before on your computer, a database might already exist with some tables in it. Select a new name that has not been used on your computer before and change the *Web.config* file to point to use this new database name. As an alternative, you can use [SQL Server Management Studio Express](https://www.microsoft.com/en-US/Download/confirmation.aspx?id=14630) to delete the existing database.
+If the database name you put in the Web.config file was ever used before on your computer, a database might already exist with some tables in it. Select a new name that has not been used on your computer before and change the *Web.config* file to point to use this new database name. As an alternative, you can use [SQL Server Management Studio Express](https://www.microsoft.com/Download/confirmation.aspx?id=14630) to delete the existing database.
 
 ## SQL Error When a Script Attempts to Create Users or Roles
 
