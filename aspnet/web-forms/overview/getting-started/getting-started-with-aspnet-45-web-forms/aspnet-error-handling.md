@@ -327,14 +327,14 @@ I would like to thank the following people who made significant contributions to
 
 - [Alberto Poblacion, MVP &amp; MCT, Spain](https://mvp.microsoft.com/mvp/Alberto%20Poblacion%20Bolano-36772)
 - [Alex Thissen, Netherlands](http://blog.alexthissen.nl/) (twitter: [@alexthissen](http://twitter.com/alexthissen))
-- [Andre Tournier, USA](http://andret503.wordpress.com/)
+- [Andre Tournier, USA](https://andret503.wordpress.com/)
 - Apurva Joshi, Microsoft
 - [Bojan Vrhovnik, Slovenia](http://twitter.com/bvrhovnik)
-- [Bruno Sonnino, Brazil](http://msmvps.com/blogs/bsonnino) (twitter: [@bsonnino](http://twitter.com/bsonnino))
+- [Bruno Sonnino, Brazil](https://www.linkedin.com/in/brunosonnino/) (twitter: [@bsonnino](http://twitter.com/bsonnino))
 - [Carlos dos Santos, Brazil](http://www.carloscds.net/)
 - [Dave Campbell, USA](http://www.wynapse.com/) (twitter: [@windowsdevnews](http://twitter.com/windowsdevnews))
 - [Jon Galloway, Microsoft](https://weblogs.asp.net/jgalloway) (twitter: [@jongalloway](http://twitter.com/jongalloway))
-- [Michael Sharps, USA](http://www.930solutions.com/) (twitter: [@mrsharps](http://twitter.com/mrsharps))
+- [Michael Sharps, USA](https://www.linkedin.com/in/mrsharps/) (twitter: [@mrsharps](http://twitter.com/mrsharps))
 - Mike Pope
 - [Mitchel Sellers, USA](http://www.mitchelsellers.com/) (twitter: [@MitchelSellers](http://twitter.com/MitchelSellers))
 - [Paul Cociuba, Microsoft](http://linqto.me/Links/pcociuba)
