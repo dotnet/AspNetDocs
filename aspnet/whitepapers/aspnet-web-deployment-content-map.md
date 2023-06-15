@@ -184,7 +184,6 @@ See also  Deploying a web application by creating and installing a web deploymen
 - [Web Deployment Tool (MSDeploy) Custom Provider Take 1](http://sedodream.com/2010/03/11/WebDeploymentToolMSDeployCustomProviderTake1.aspx) (Sayed Hashimi's blog). Shows how to create a Web Deploy custom provider.
 - [How to package and deploy COM components](https://devblogs.microsoft.com/dotnet/how-to-package-and-deploy-com-component/) (Web Development Tools blog).
 - [How to package .NET assemblies](https://devblogs.microsoft.com/dotnet/how-to-package-net-assemblies/) (Web Development Tools blog). How to deploy assemblies to the GAC.
-- [Script Out Everything - Initialize Your Windows Azure VM for Your Web Server with IIS, Web Deploy and Other Stuff](http://www.tugberkugurlu.com/archive/script-out-everything-initialize-your-windows-azure-vm-for-your-web-server-with-iis-web-deploy-and-other-stuff) (Tugberk Ugurlu's blog).
 
 <a id="configuringservers"></a>
 

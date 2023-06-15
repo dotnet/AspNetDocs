@@ -24,7 +24,7 @@ by [Rick Anderson](https://twitter.com/RickAndMSFT)
 ## Requirements:
 
 - Visual Studio 2012 or [Visual Studio Express 2012](https://www.microsoft.com/visualstudio/11/products/express)
-- [Web Tools Extensions for Visual Studio 2012](https://go.microsoft.com/fwlink/?LinkID=282228&amp;clcid=0x409) or [Web Tools Extensions for Visual Studio Express 2012](https://go.microsoft.com/fwlink/?LinkID=282231&amp;clcid=0x409)
+- [Web Tools Extensions for Visual Studio 2012](aspnet-and-web-tools-20131-for-visual-studio-2012.md#installation-notes) or [Web Tools Extensions for Visual Studio Express 2012](aspnet-and-web-tools-20131-for-visual-studio-2012.md#installation-notes)
 - [Microsoft ASP.NET Tools for Windows Azure Active Directory – Visual Studio 2012](https://go.microsoft.com/fwlink/?LinkID=282306) or [Microsoft ASP.NET Tools for Windows Azure Active Directory – Visual Studio Express 2012 for Web](https://go.microsoft.com/fwlink/?LinkId=282652)
 
 ## Create an ASP.NET Web Application with Visual Studio 2012

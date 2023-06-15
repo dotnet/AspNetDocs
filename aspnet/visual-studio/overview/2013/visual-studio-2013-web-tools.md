@@ -372,7 +372,7 @@ HTML5 introduced more than 25 new semantic tags. Visual Studio already had Intel
 
     > [!NOTE]
     > By pressing the **TAB** key twice, the code snippet is inserted. The audio snippet shows the standard usage of the *audio* tag, with two source files for improved support.
-3. Delete the second line and update the source of the first line with the following link to the **Installing ASP.NET and Web Tools** show: [https://learn.microsoft.com/shows/asp-net-site-videos/installing-aspnet-web-tools](https://learn.microsoft.com/shows/asp-net-site-videos/installing-aspnet-web-tools). The resulting code is shown below.
+3. Delete the second line and update the source of the first line with the following link to the **Installing ASP.NET and Web Tools** show: [https://learn.microsoft.com/shows/asp-net-site-videos/installing-aspnet-web-tools](/shows/asp-net-site-videos/installing-aspnet-web-tools). The resulting code is shown below.
 
     [!code-html[Main](visual-studio-2013-web-tools/samples/sample7.html)]
 

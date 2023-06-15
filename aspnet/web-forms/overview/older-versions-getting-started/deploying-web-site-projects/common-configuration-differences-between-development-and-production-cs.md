@@ -111,9 +111,9 @@ Happy Programming!
 
 For more information on the topics discussed in this tutorial, refer to the following resources:
 
-- [Connection Strings Explained](http://www.connectionstrings.com/Articles/Show/what-is-a-connection-string)
+- [Connection Strings Explained](https://www.connectionstrings.com/connection-strings-explained/)
 - [Database Connection Strings @ ConnectionStrings.com](http://www.connectionstrings.com/)
-- [Don't Run Production ASP.NET Applications with `debug="true"` Enabled](https://weblogs.asp.net/scottgu/Don_1920_t-run-production-ASP.NET-Applications-with-debug_3D001D20_true_1D20_-enabled)
+- Don't Run Production ASP.NET Applications with `debug="true"` Enabled
 - Gracefully Responding to Unhandled Exceptions - Displaying User-Friendly Error Pages
 - [How Do I: Use a Visual Studio 2008 Web Deployment Project?](../../../videos/how-do-i/how-do-i-use-a-visual-studio-2008-web-deployment-project.md)
 - Key Configuration Settings When Deploying a Database.

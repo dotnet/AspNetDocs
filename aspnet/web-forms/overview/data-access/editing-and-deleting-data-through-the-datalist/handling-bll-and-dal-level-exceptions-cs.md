@@ -116,7 +116,7 @@ Happy Programming!
 For more information on the topics discussed in this tutorial, refer to the following resources:
 
 - [Design Guidelines for Exceptions](https://msdn.microsoft.com/library/ms298399.aspx)
-- [Error Logging Modules and Handlers (ELMAH)](http://workspaces.gotdotnet.com/elmah) (an open-source library for logging errors)
+- [Error Logging Modules and Handlers (ELMAH)](https://elmah.github.io/) (an open-source library for logging errors)
 - [Enterprise Library for .NET Framework 2.0](https://www.microsoft.com/downloads/details.aspx?familyid=5A14E870-406B-4F2A-B723-97BA84AE80B5&amp;displaylang=en) (includes the Exception Management Application Block)
 
 ## About the Author
