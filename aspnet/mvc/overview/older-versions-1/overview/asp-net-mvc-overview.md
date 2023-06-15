@@ -51,7 +51,7 @@ The ASP.NET MVC framework offers the following advantages:
 
 - It makes it easier to manage complexity by dividing an application into the model, the view, and the controller.
 - It does not use view state or server-based forms. This makes the MVC framework ideal for developers who want full control over the behavior of an application.
-- It uses a Front Controller pattern that processes Web application requests through a single controller. This enables you to design an application that supports a rich routing infrastructure. For more information, see [Front Controller](https://go.microsoft.com/fwlink/?LinkId=106357 "Front Controller") on the MSDN Web site.
+- It uses a Front Controller pattern that processes Web application requests through a single controller. This enables you to design an application that supports a rich routing infrastructure. For more information, see [Front Controller](https://www.martinfowler.com/eaaCatalog/frontController.html).
 - It provides better support for test-driven development (TDD).
 - It works well for Web applications that are supported by large teams of developers and Web designers who need a high degree of control over the application behavior.
 
@@ -60,7 +60,7 @@ The ASP.NET MVC framework offers the following advantages:
 The Web Forms-based framework offers the following advantages:
 
 - It supports an event model that preserves state over HTTP, which benefits line-of-business Web application development. The Web Forms-based application provides dozens of events that are supported in hundreds of server controls.
-- It uses a Page Controller pattern that adds functionality to individual pages. For more information, see [Page Controller](https://go.microsoft.com/fwlink/?LinkId=106359 "Page Controller") on the MSDN Web site.
+- It uses a Page Controller pattern that adds functionality to individual pages. For more information, see [Page Controller](https://www.martinfowler.com/eaaCatalog/pageController.html).
 - It uses view state or server-based forms, which can make managing state information easier.
 - It works well for small teams of Web developers and designers who want to take advantage of the large number of components available for rapid application development.
 - In general, it is less complex for application development, because the components (the **Page** class, controls, and so on) are tightly integrated and usually require less code than the MVC model.

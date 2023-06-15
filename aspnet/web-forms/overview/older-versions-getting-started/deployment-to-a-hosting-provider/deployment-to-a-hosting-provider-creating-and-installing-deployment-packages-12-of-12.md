@@ -166,7 +166,7 @@ You updated the *Web.config* file connection string to point to a new SQL Server
 
 ### Possible Cause and Solution
 
-If the database name you put in the Web.config file was ever used before on your computer, a database might already exist with some tables in it. Select a new name that has not been used on your computer before and change the *Web.config* file to point to use this new database name. As an alternative, you can use [SQL Server Management Studio Express](https://www.microsoft.com/download/details.aspx?displaylang=en&amp;id=7593) to delete the existing database.
+If the database name you put in the Web.config file was ever used before on your computer, a database might already exist with some tables in it. Select a new name that has not been used on your computer before and change the *Web.config* file to point to use this new database name. As an alternative, you can use [SQL Server Management Studio Express](https://www.microsoft.com/en-US/Download/confirmation.aspx?id=14630) to delete the existing database.
 
 ## SQL Error When a Script Attempts to Create Users or Roles
 

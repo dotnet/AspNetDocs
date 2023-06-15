@@ -228,7 +228,6 @@ See also the following sections on working with SQL Server Express and LocalDB, 
 - [Windows Azure SQL Database TechNet Wiki Articles Index](https://social.technet.microsoft.com/wiki/contents/articles/2267.windows-azure-sql-database-technet-wiki-articles-index-en-us.aspx) (Microsoft TechNet site).
 - [Transient Fault Handling Application Block](https://msdn.microsoft.com/library/hh680934(v=PandP.50).aspx). A framework that enables you to handle transient network faults and connection errors that result from throttling. Available in a NuGet package: [Enterprise Library 5.0 - Transient Fault Handling Application Block](https://nuget.org/packages/EnterpriseLibrary.WindowsAzure.TransientFaultHandling).
 - [Getting Started with SQL Database and Entity Framework](https://msdn.microsoft.com/data/jj556244) (MSDN).
-- [Windows Azure Training Kit](https://www.microsoft.com/download/details.aspx?id=8396) (Microsoft Download Center). Includes hands-on labs for SQL Database.
 - [Windows Azure SQL Database Community Forum](https://social.msdn.microsoft.com/Forums/ssdsgetstarted/threads).
 - [Moving to Windows Azure SQL Database](https://msdn.microsoft.com/library/ff803375.aspx) (MSDN). One chapter of a comprehensive end-to-end scenario by the Microsoft Patterns and Practices team. Covers why you might want to migrate and how to migrate from SQL Server to SQL Database.
 - [Migrating SQL Server Databases to Windows Azure SQL Database](https://msdn.microsoft.com/library/windowsazure/jj156160.aspx) (MSDN).
@@ -257,7 +256,7 @@ See also the following sections on working with SQL Server Express and LocalDB, 
 ## Using LINQ Queries in ASP.NET Applications
 
 - [ASP.NET Data Access Options](https://msdn.microsoft.com/library/ms178359.aspx#linq) (MSDN). Includes an introduction to LINQ.
-- [LINQ Training Videos](http://www.misfitgeek.com/windows-client-linq-training-videos-20/) (Joe Stagner's blog).
+- [LINQ Training Videos](/shows/asp-net-site-videos/aspnet-data-access-technologies-introduction-to-linq).
 - [ASP.NET Forum thread with links to dynamic LINQ resources](https://forums.asp.net/p/1961037/5601994.aspx?Please+suggest+good+books+so+that+one+can+write+and+understand+dynamic+linq).
 
 <a id="dd"></a>
