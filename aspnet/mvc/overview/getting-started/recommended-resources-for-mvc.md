@@ -156,7 +156,6 @@ by [Rick Anderson](https://twitter.com/RickAndMSFT)
 - [Async and Await](http://blog.stephencleary.com/2012/02/async-and-await.html) in ASP.NET by Stephen Cleary
 - [Debugging and Performance using Glimpse](http://www.hanselman.com/blog/NuGetPackageOfTheWeek5DebuggingASPNETMVCApplicationsWithGlimpse.aspx)
 - [Improve perceived performance of ASP.NET MVC websites with asynchronous partial views](http://blog.michaelckennedy.net/2012/11/13/improve-perceived-performance-of-asp-net-mvc-websites-with-async-partialviews/)
-- [Asynchronous Database Calls With Task-based Asynchronous Programming Model (TAP) in ASP.NET MVC 4](http://www.tugberkugurlu.com/archive/asynchronous-database-calls-with-task-based-asynchronous-programming-model-tap-in-asp-net-mvc-4)
 - [ASP.NET 4.5 &amp; MVC 4: Revisiting IBundleTransform](http://www.dotnetexpertguide.com/2012/10/aspnet-45-mvc-4-revisiting-IBundleTransform-in-bundling.html)
 - [ASP.NET MVC 4: Cookieless domain for bundling and static resources](http://www.dotnetexpertguide.com/2012/10/aspnet-mvc-4-cookieless-domain-for-bundling-and-static-resources.html)
 - [Advanced Options of ASP.NET Bundling and Minification](https://weblogs.asp.net/imranbaloch/archive/2012/09/30/hidden-options-of-asp-net-bundling-and-minification.aspx)
