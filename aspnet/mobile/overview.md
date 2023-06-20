@@ -31,11 +31,11 @@ This end-to-end tutorial shows how to create an ASP.NET Web API application that
 
 Get started using Azure Mobile Services with ASP.NET Web API. This tutorial shows how to create a Mobile Services app from the Azure Management Portal.
 
-### [Authentication in Azure Mobile Services](https://github.com/Huachao/azure-content/blob/master/articles/mobile-services/mobile-services-dotnet-backend-windows-store-dotnet-get-started-users.md)
+### [Authentication in Azure Mobile Services](https://github.com/Huachao/azure-content/blob/master/articles/mobile-services/mobile-services-dotnet-backend-windows-universal-dotnet-get-started-users.md)
 
 This tutorial shows how to authenticate users in Azure Mobile Services from your app.
 
-### [Using Push Notifications in Azure Mobile Services](https://github.com/Huachao/azure-content/blob/master/articles/mobile-services/mobile-services-dotnet-backend-windows-store-dotnet-get-started-push.md)
+### [Using Push Notifications in Azure Mobile Services](https://github.com/Huachao/azure-content/blob/master/articles/mobile-services/mobile-services-dotnet-backend-windows-universal-dotnet-get-started-push.md)
 
 Use Azure Mobile Services to send push notifications to a mobile device.
 

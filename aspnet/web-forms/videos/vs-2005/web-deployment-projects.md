@@ -11,7 +11,7 @@ msc.type: video
 ---
 # Web Deployment Projects
 
-by [Bradley Bartz](https://github.com/BradleyBartz)
+by [Bradley Bartz](https://github.com/BradBartz)
 
 Bradley Bartz and Richard Ersek show how the Web Deployment Projects provide additional functionality for building and deploying web site applications created in Visual Studio 2005.
 
