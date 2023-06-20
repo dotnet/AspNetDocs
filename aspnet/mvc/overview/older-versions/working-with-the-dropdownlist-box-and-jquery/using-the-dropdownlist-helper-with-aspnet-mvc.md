@@ -150,7 +150,7 @@ The `ViewBag.YouSelected` dynamic property contains the selected countries, obta
 
 ### Making a Select Element Friendly with the Harvest Chosen jQuery Plugin
 
-The Harvest [Chosen](https://harvesthq.github.com/chosen/) jQuery plugin can be added to an HTML &lt;select&gt; element to create a user friendly UI. The images below demonstrate the Harvest [Chosen](https://harvesthq.github.com/chosen/) jQuery plugin with `MultiSelectCountry` view.
+The Harvest [Chosen](https://github.com/harvesthq/chosen/) jQuery plugin can be added to an HTML &lt;select&gt; element to create a user friendly UI. The images below demonstrate the Harvest [Chosen](https://github.com/harvesthq/chosen/) jQuery plugin with `MultiSelectCountry` view.
 
 ![Image of Harvest Chosen j Query plugin](using-the-dropdownlist-helper-with-aspnet-mvc/_static/image9.png)
 
