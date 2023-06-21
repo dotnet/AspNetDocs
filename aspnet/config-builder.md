@@ -178,7 +178,7 @@ The [EnvironmentConfigBuilder](https://www.nuget.org/packages/Microsoft.Configur
 ```xml
 <add name="UserSecrets"
     [mode|prefix|stripPrefix|tokenPattern]
-    (userSecretsId="{secret string, typically a GUID}" | userSecretsFile="~\secrets.file")
+    (userSecretsId="{secret string, typically a GUID}" | userSecretsFile="~/secrets.file")
     [optional="true"]
     type="Microsoft.Configuration.ConfigurationBuilders.UserSecretsConfigBuilder,
     Microsoft.Configuration.ConfigurationBuilders.UserSecrets" />
