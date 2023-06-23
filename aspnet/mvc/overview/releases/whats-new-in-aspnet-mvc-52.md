@@ -68,7 +68,7 @@ With the new attribute routing extensibility of IDirectRouteProvider, a user cou
 
 ### Facebook fixes for changed API surface
 
-The MVC Facebook package [was broken](https://aspnetwebstack.codeplex.com/workitem/list/advanced?keyword=&amp;status=All&amp;type=All&amp;priority=All&amp;release=v5.2%20RC&amp;assignedTo=All&amp;component=Facebook&amp;sortField=AssignedTo&amp;sortDirection=Ascending&amp;page=0&amp;reasonClosed=All) due to few API changes made by Facebook. We are also releasing a new Facebook package (Microsoft.AspNet.Facebook 1.0.0) to fix these issues.
+The MVC Facebook package was broken due to few API changes made by Facebook. We are also releasing a new Facebook package (Microsoft.AspNet.Facebook 1.0.0) to fix these issues.
 
 <a id="knownbreakingchanges"></a>
 ## Known Issues and Breaking Changes

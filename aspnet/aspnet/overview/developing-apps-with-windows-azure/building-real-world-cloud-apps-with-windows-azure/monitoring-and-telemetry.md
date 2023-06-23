@@ -28,7 +28,7 @@ One of the things that's great about the cloud environment is that it's really e
 
 - [New Relic](http://newrelic.com/)
 - [AppDynamics](http://www.appdynamics.com/)
-- [Dynatrace](https://datamarket.azure.com/application/b4011de2-1212-4375-9211-e882766121ff)
+- [Dynatrace](https://www.dynatrace.com/)
 
 [Microsoft System Center](http://www.petri.co.il/microsoft-system-center-introduction.htm#) also includes monitoring features.
 

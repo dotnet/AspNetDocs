@@ -310,7 +310,7 @@ I have added the `udf_GetProductsByCategoryID` UDF to the Northwind database; Fi
 **Figure 24**: The `ProductID`, `ProductName`, and `CategoryID` are Listed for Each Beverage ([Click to view full-size image](creating-stored-procedures-and-user-defined-functions-with-managed-code-cs/_static/image58.png))
 
 > [!NOTE]
-> For more information on creating and using UDFs, check out [Intro to User-Defined Functions](http://www.sqlteam.com/item.asp?ItemID=1955). Also check out [Advantages and Drawbacks of User-Defined Functions](http://www.samspublishing.com/articles/article.asp?p=31724&amp;rl=1).
+> For more information on creating and using UDFs, check out [Intro to User-Defined Functions](http://www.sqlteam.com/item.asp?ItemID=1955). Also check out [Advantages and Drawbacks of User-Defined Functions](https://www.informit.com/articles/article.aspx?p=31724&seqNum=2).
 
 ## Step 10: Creating a Managed UDF
 
@@ -454,7 +454,7 @@ Happy Programming!
 
 For more information on the topics discussed in this tutorial, refer to the following resources:
 
-- [Advantages and Drawbacks of User-Defined Functions](http://www.samspublishing.com/articles/article.asp?p=31724&amp;rl=1)
+- [Advantages and Drawbacks of User-Defined Functions](https://www.informit.com/articles/article.aspx?p=31724&seqNum=2)
 - [Creating SQL Server 2005 Objects in Managed Code](https://channel9.msdn.com/Showpost.aspx?postid=142413)
 - [How To: Create and Run a CLR SQL Server Stored Procedure](https://msdn.microsoft.com/library/5czye81z(VS.80).aspx)
 - [How To: Create and Run a CLR SQL Server User-Defined Function](https://msdn.microsoft.com/library/w2kae45k(VS.80).aspx)
