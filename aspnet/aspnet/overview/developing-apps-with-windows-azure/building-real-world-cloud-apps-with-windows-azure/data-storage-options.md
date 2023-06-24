@@ -121,7 +121,7 @@ Azure makes IaaS data storage options as easy to use as possible, but the PaaS o
 - You don't have to buy licenses; license fees are included in the service fees.
 - You only pay for what you use.
 
-PaaS data storage options in Azure include offerings by third-party providers. For example, you can choose the [MongoLab Add-On](https://azure.microsoft.com/documentation/articles/store-mongolab-web-sites-dotnet-store-data-mongodb/) from the Azure Store to provision a MongoDB database as a service.
+PaaS data storage options in Azure include offerings by third-party providers.
 
 ## Choosing a data storage option
 

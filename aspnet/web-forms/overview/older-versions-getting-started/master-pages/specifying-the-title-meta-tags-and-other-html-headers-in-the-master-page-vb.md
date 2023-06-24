@@ -99,7 +99,7 @@ All ASP.NET web pages derive from the `Page` class in the System.Web.UI namespac
 In this step we create a base page that automatically sets the page's title to the ASP.NET page's filename if the title has not otherwise been explicitly set. Step 3 looks at setting the page's title based on the site map.
 
 > [!NOTE]
-> A thorough examination of creating and using custom base page classes is beyond the scope of this tutorial series. For more information, read [Using a Custom Base Class for Your ASP.NET Pages' Code-Behind Classes](http://aspnet.4guysfromrolla.com/articles/041305-1.aspx).
+> A thorough examination of creating and using custom base page classes is beyond the scope of this tutorial series. For more information, read [Using a Custom Base Class for Your ASP.NET Pages' Code-Behind Classes](https://4guysfromrolla.com/articles/041305-1.aspx).
 
 ### Creating the Base Page Class
 
@@ -181,7 +181,7 @@ We will update the site map structure in future tutorials as we add new examples
 Now that we have a site map defined, let's update the master page to include navigation Web controls. Specifically, let's add a ListView control to the left column in the Lessons section that renders an unordered list with a list item for each node defined in the site map.
 
 > [!NOTE]
-> The ListView control is new to ASP.NET version 3.5. If you are using a prior version of ASP.NET, use the Repeater control instead. For more information on the ListView control, see [Using ASP.NET 3.5's ListView and DataPager Controls](http://aspnet.4guysfromrolla.com/articles/122607-1.aspx).
+> The ListView control is new to ASP.NET version 3.5. If you are using a prior version of ASP.NET, use the Repeater control instead. For more information on the ListView control, see [Using ASP.NET 3.5's ListView and DataPager Controls](https://4guysfromrolla.com/articles/122607-1.aspx).
 
 Start by removing the existing unordered list markup from the Lessons section. Next, drag a ListView control from the Toolbox and drop it beneath the Lessons heading. The ListView is located in the Data section of the Toolbox, alongside the other view controls: the GridView, DetailsView, and FormView. Set the ListView's `ID` property to `LessonsList`.
 
@@ -285,7 +285,7 @@ For more information on the topics discussed in this tutorial, refer to the foll
 - [How To Use HTML Meta Tags](https://www.searchenginewatch.com/2012/05/01/how-to-use-html-meta-tags/)
 - [Master Pages in ASP.NET](http://www.odetocode.com/articles/419.aspx)
 - [Using ASP.NET 3.5's ListView and DataPager Controls](/previous-versions/aspnet/bb398790(v=vs.100))
-- [Using a Custom Base Class for Your ASP.NET Pages' Code-Behind Classes](http://aspnet.4guysfromrolla.com/articles/041305-1.aspx)
+- [Using a Custom Base Class for Your ASP.NET Pages' Code-Behind Classes](https://4guysfromrolla.com/articles/041305-1.aspx)
 
 ### About the Author
 

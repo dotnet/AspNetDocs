@@ -23,8 +23,6 @@ First, we'll create a containment domain model in the OData service, using this 
 
 An account contains many PaymentInstruments (PI), but we don't define an entity set for a PI. Instead, the PIs can only be accessed through an Account.
 
-You can download the solution used in this topic from [CodePlex](https://aspnet.codeplex.com/SourceControl/latest#Samples/WebApi/OData/v4/ODataContainmentSample/).
-
 ## Defining the data model
 
 1. Define the CLR types.

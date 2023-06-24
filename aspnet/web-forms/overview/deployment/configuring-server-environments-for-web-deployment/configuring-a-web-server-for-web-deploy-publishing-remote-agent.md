@@ -140,7 +140,7 @@ Although there's nothing stopping you from deploying content to the default webs
     ![Leave the Host name box blank, unless you want to configure a Domain Name System (DNS) record for the website, and then click OK.](configuring-a-web-server-for-web-deploy-publishing-remote-agent/_static/image4.png)
 
     > [!NOTE]
-    > In a production environment, you'll likely want to host your website on port 80 and configure a host header, together with matching DNS records. For more information on configuring host headers in IIS 7, see [Configure a Host Header for a Web Site (IIS 7)](https://technet.microsoft.com/library/cc753195(WS.10).aspx). For more information on the DNS Server role in Windows Server 2008 R2, see [DNS Server Overview](https://technet.microsoft.com/library/cc770392.aspx) and [DNS Server](https://technet.microsoft.com/windowsserver/dd448607).
+    > In a production environment, you'll likely want to host your website on port 80 and configure a host header, together with matching DNS records. For more information on configuring host headers in IIS 7, see [Configure a Host Header for a Web Site (IIS 7)](https://technet.microsoft.com/library/cc753195(WS.10).aspx). For more information on the DNS Server role in Windows Server 2008 R2, see [DNS Server Overview](https://technet.microsoft.com/library/cc770392.aspx).
 9. In the **Actions** pane, under **Edit Site**, click **Bindings**.
 10. In the **Site Bindings** dialog box, click **Add**.
 
