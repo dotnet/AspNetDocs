@@ -155,13 +155,9 @@ Some of the types used for attribute routing extensibility were renamed from the
 
 Previously, if an async action threw an **AggregateException**, an exception filter would unwrap the exception, and **OnException** would get the base exception. In 2.1, the exception filter does not unwrap it, and **OnException** gets the original **AggregateException**.
 
-<--- these documents seem to no longer exist
 <a id="bug-fixes"></a>
 ## Bug Fixes
 
-This release also includes several bug fixes. You can find the complete list here:
+This release also includes several bug fixes.
 
-- [5.1.0 package](https://aspnetwebstack.codeplex.com/workitem/list/advanced?keyword=&amp;status=Closed&amp;type=All&amp;priority=All&amp;release=v5.1%20Preview|v5.1%20RTM&amp;assignedTo=All&amp;component=Web%20API|Web%20API%20OData&amp;sortField=AssignedTo&amp;sortDirection=Ascending&amp;page=0&amp;reasonClosed=Fixed)
-- [5.1.1 package](https://aspnetwebstack.codeplex.com/workitem/list/advanced?keyword=&status=All&type=All&priority=All&release=v5.1.1%20RTM&assignedTo=All&component=Web%20API&sortField=AssignedTo&sortDirection=Ascending&page=0&reasonClosed=Fixed)
-
-The 5.1.2 package contains IntelliSense updates but no bug fixes. --->
+The 5.1.2 package contains IntelliSense updates but no bug fixes.

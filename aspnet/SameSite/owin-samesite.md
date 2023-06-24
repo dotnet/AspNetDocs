@@ -30,7 +30,7 @@ For the ASP.NET 4.x version of this article, see <xref:samesite/system-web-sames
 
 * That is not directly dependent on the one in `System.Web`.
 * `SameSite` works on all versions targetable by the `Microsoft.Owin` packages, .NET 4.5 and later.
-* Only the [SystemWebCookieManager](https://github.com/aspnet/AspNetKatana/blob/dev/src/Microsoft.Owin.Host.SystemWeb/SystemWebCookieManager.cs) component directly interacts with the `System.Web` `HttpCookie` class.
+* Only the [SystemWebCookieManager](https://github.com/aspnet/AspNetKatana/blob/main/src/Microsoft.Owin.Host.SystemWeb/SystemWebCookieManager.cs) component directly interacts with the `System.Web` `HttpCookie` class.
 
 `SystemWebCookieManager` depends on the .NET 4.7.2 `System.Web` APIs to enable `SameSite` support, and the patches to change the behavior.
 
@@ -47,15 +47,15 @@ owinContext.Response.Cookies.Append("My Key", "My Value", new CookieOptions()
 
 The following APIs use `SameSite`:
 
-* [Microsoft.Owin.SameSiteMode](https://github.com/aspnet/AspNetKatana/blob/dev/src/Microsoft.Owin/SameSiteMode.cs)
+* [Microsoft.Owin.SameSiteMode](https://github.com/aspnet/AspNetKatana/blob/main/src/Microsoft.Owin/SameSiteMode.cs)
 * [CookieOptions.SameSite](xref:Microsoft.AspNetCore.Http.CookieOptions.SameSite)
 * [CookieAuthenticationOptions Class](/previous-versions/aspnet/dn385599(v%3Dvs.113)) <!-- CookieAuthenticationOptions.CookieSameSite not published -->
-* [CookieAuthenticationOptions.CookieSameSite](https://github.com/aspnet/AspNetKatana/blob/dev/src/Microsoft.Owin.Security.Cookies/CookieAuthenticationOptions.cs#L68-#L72)
+* [CookieAuthenticationOptions.CookieSameSite](https://github.com/aspnet/AspNetKatana/blob/main/src/Microsoft.Owin.Security.Cookies/CookieAuthenticationOptions.cs#L68-#L72)
 * [ICookieManager](/previous-versions/aspnet/dn800238(v%3Dvs.113))
-* [SystemWebCookieManager](https://github.com/aspnet/AspNetKatana/blob/dev/src/Microsoft.Owin.Host.SystemWeb/SystemWebCookieManager.cs)
-* [SystemWebChunkingCookieManager](https://github.com/aspnet/AspNetKatana/blob/dev/src/Microsoft.Owin.Host.SystemWeb/SystemWebChunkingCookieManager.cs)
-* [CookieAuthenticationOptions.CookieManager](https://github.com/aspnet/AspNetKatana/blob/dev/src/Microsoft.Owin.Security.Cookies/CookieAuthenticationOptions.cs#L143-#AL148)
-* [OpenIdConnectAuthenticationOptions.CookieManager](https://github.com/aspnet/AspNetKatana/blob/dev/src/Microsoft.Owin.Security.OpenIdConnect/OpenIdConnectAuthenticationOptions.cs#L315-#L318)
+* [SystemWebCookieManager](https://github.com/aspnet/AspNetKatana/blob/main/src/Microsoft.Owin.Host.SystemWeb/SystemWebCookieManager.cs)
+* [SystemWebChunkingCookieManager](https://github.com/aspnet/AspNetKatana/blob/main/src/Microsoft.Owin.Host.SystemWeb/SystemWebChunkingCookieManager.cs)
+* [CookieAuthenticationOptions.CookieManager](https://github.com/aspnet/AspNetKatana/blob/main/src/Microsoft.Owin.Security.Cookies/CookieAuthenticationOptions.cs#L143-#AL148)
+* [OpenIdConnectAuthenticationOptions.CookieManager](https://github.com/aspnet/AspNetKatana/blob/main/src/Microsoft.Owin.Security.OpenIdConnect/OpenIdConnectAuthenticationOptions.cs#L315-#L318)
 
 ## History and changes
 

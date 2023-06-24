@@ -19,7 +19,7 @@ In addition to debugging your own code, it is possible to debug directly into Mi
 
 ![Options and Settings](_static/SourceSymbols.png)
 
-Then add a link to [symbolsource.org](http://symbolsource.org) for downloading the source and symbols. Go to the **Symbols** tab of the menu above and add the following as a symbol location:
+Then add a link to [symbolsource.org](http://www.symbolsource.org/Public) for downloading the source and symbols. Go to the **Symbols** tab of the menu above and add the following as a symbol location:
 
 ```
 http://srv.symbolsource.org/pdb/Public

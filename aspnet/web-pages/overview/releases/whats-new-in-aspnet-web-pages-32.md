@@ -29,7 +29,7 @@ You can install or update to the released NuGet packages by using the NuGet Pack
 
 ## New Feature and Bug Fix
 
-We fixed one bug and made one minor feature enhancement in this release. You can find the query for the same [here](https://aspnetwebstack.codeplex.com/workitem/list/advanced?keyword=&amp;status=Closed&amp;type=All&amp;priority=All&amp;release=v5.2%20RC|v5.2%20RTM&amp;assignedTo=All&amp;component=Web%20Pages%2FRazor&amp;sortField=Id&amp;sortDirection=Descending&amp;page=0&amp;reasonClosed=Fixed).
+We fixed one bug and made one minor feature enhancement in this release.
 
 ## ASP.NET Web Pages 3.2.2
 
@@ -61,4 +61,4 @@ Below is a table demonstrating the results of analyzing a [perfview](https://cha
 
 ## ASP.NET Web Pages 3.2.3 beta1
 
-This release contains only bug fixes. You can use [this query](https://aspnetwebstack.codeplex.com/workitem/list/advanced?keyword=&amp;status=Closed&amp;type=All&amp;priority=All&amp;release=v5.2.3%20Beta&amp;assignedTo=All&amp;component=Web%20Pages%2FRazor&amp;sortField=LastUpdatedDate&amp;sortDirection=Descending&amp;page=0&amp;reasonClosed=Fixed) to see the list of issues fixed in this release.
+This release contains only bug fixes.

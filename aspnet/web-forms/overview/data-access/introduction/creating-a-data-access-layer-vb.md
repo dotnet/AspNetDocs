@@ -111,7 +111,7 @@ After selecting the database and clicking Next, you'll be asked if you want to s
 
 Next, we need to define the schema for the first strongly-typed DataTable and provide the first method for our TableAdapter to use when populating the strongly-typed DataSet. These two steps are accomplished simultaneously by creating a query that returns the columns from the table that we want reflected in our DataTable. At the end of the wizard we'll give a method name to this query. Once that's been accomplished, this method can be invoked from our presentation layer. The method will execute the defined query and populate a strongly-typed DataTable.
 
-To get started defining the SQL query we must first indicate how we want the TableAdapter to issue the query. We can use an ad-hoc SQL statement, create a new stored procedure, or use an existing stored procedure. For these tutorials we'll use ad-hoc SQL statements. Refer to [Brian Noyes](http://briannoyes.net/)'s article, [Build a Data Access Layer with the Visual Studio 2005 DataSet Designer](http://www.theserverside.net/articles/showarticle.tss?id=DataSetDesigner) for an example of using stored procedures.
+To get started defining the SQL query we must first indicate how we want the TableAdapter to issue the query. We can use an ad-hoc SQL statement, create a new stored procedure, or use an existing stored procedure. For these tutorials we'll use ad-hoc SQL statements.
 
 [![Query the Data Using an Ad-Hoc SQL Statement](creating-a-data-access-layer-vb/_static/image18.png)](creating-a-data-access-layer-vb/_static/image17.png)
 
@@ -440,13 +440,12 @@ For more information on the topics discussed in this tutorial, refer to the foll
 
 - [Building a DAL using Strongly Typed TableAdapters and DataTables in VS 2005 and ASP.NET 2.0](https://weblogs.asp.net/scottgu/435498)
 - [Designing Data Tier Components and Passing Data Through Tiers](https://msdn.microsoft.com/library/ms978496.aspx)
-- [Build a Data Access Layer with the Visual Studio 2005 DataSet Designer](http://www.theserverside.net/articles/showarticle.tss?id=DataSetDesigner)
 - [Encrypting Configuration Information in ASP.NET 2.0 Applications](/aspnet/web-forms/overview/data-access/advanced-data-access-scenarios/protecting-connection-strings-and-other-configuration-information-cs)
 - [TableAdapter Overview](/previous-versions/visualstudio/visual-studio-2015/data-tools/create-and-configure-tableadapters?view=vs-2015&preserve-view=true)
 - [Working with a Typed DataSet](https://msdn.microsoft.com/library/esbykkzb.aspx)
 - [Using Strongly-Typed Data Access in Visual Studio 2005 and ASP.NET 2.0](https://weblogs.asp.net/scottgu/435498)
 - [How to Extend TableAdapter Methods](https://devblogs.microsoft.com/vbteam/how-to-extend-tableadapter-methods/)
-- "Retrieving Scalar Data from a Stored Procedure"`(http://aspnet.4guysfromrolla.com/articles/062905-1.aspx)`
+- "Retrieving Scalar Data from a Stored Procedure"`(https://4guysfromrolla.com/articles/062905-1.aspx)`
 
 ### Video Training on Topics Contained in this Tutorial
 

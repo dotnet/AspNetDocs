@@ -11,7 +11,7 @@ msc.type: video
 ---
 # Web Application Projects & Web Deployment Projects
 
-by [Bradley Bartz](https://github.com/BradleyBartz)
+by [Bradley Bartz](https://github.com/BradBartz)
 
 Bradley Bartz shows how the Web Application Projects and Web Deployment Projects for Visual Studio 2005 make developing and deploying ASP.NET projects similar to the Visual Studio .NET 2003 model.
 
