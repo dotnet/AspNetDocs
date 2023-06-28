@@ -13,6 +13,9 @@ msc.type: authoredcontent
 
 by [Scott Mitchell](https://twitter.com/ScottOnWriting)
 
+> [!NOTE]
+> Since this document was written, the in-box ASP.Net Membership providers have been superseded by '[ASP.Net Identity](https://learn.microsoft.com/en-us/aspnet/identity/overview/getting-started/introduction-to-aspnet-identity)'. Please update applications to use the [ASP.Net Identity](https://learn.microsoft.com/en-us/aspnet/identity/overview/getting-started/introduction-to-aspnet-identity) platform instead of the in-box Membership providers.
+
 > ASP.NET version 2.0 introduced a series of application services, which are part of the .NET Framework and serve as a suite of building block services that you can use to add rich functionality to your web application. This tutorial explores how to configure a website in the production environment to use application services and addresses common issues with managing user accounts and roles on the production environment.
 
 ## Introduction
