@@ -13,6 +13,8 @@ msc.type: authoredcontent
 
 by [Scott Mitchell](https://twitter.com/ScottOnWriting)
 
+[!INCLUDE[](~/includes/identity/identity_replace_membership.md)]
+
 > This tutorial shows how to build a web page for administrators to manage users' locked out and approved statuses. We will also see how to approve new users only after they have verified their email address.
 
 ## Introduction

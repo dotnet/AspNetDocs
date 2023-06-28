@@ -13,6 +13,8 @@ msc.type: authoredcontent
 
 by [Microsoft](https://github.com/microsoft)
 
+[!INCLUDE[](~/includes/identity/identity_replace_membership.md)]
+
 > There are major changes in configuration and instrumentation in ASP.NET 2.0. The new ASP.NET configuration API allows for configuration changes to be made programmatically. In addition, many new configuration settings exist allow for new configurations and instrumentation.
 
 There are major changes in configuration and instrumentation in ASP.NET 2.0. The new ASP.NET configuration API allows for configuration changes to be made programmatically. In addition, many new configuration settings exist allow for new configurations and instrumentation.
