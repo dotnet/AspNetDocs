@@ -184,6 +184,8 @@ The [EnvironmentConfigBuilder](https://www.nuget.org/packages/Microsoft.Configur
     Microsoft.Configuration.ConfigurationBuilders.UserSecrets" />
 ```
 
+In the preceding XML, the `userSecretsFile` path can use use `~/` or `~\`. For example, the path could be written as `userSecretsFile="~/secrets.file`. See the [ConfigurationBuilders Utils](https://github.com/aspnet/MicrosoftConfigurationBuilders/blob/main/src/Base/Utils.cs#L45) class for more information.
+
 This configuration builder provides a feature similar to [ASP.NET Core Secret Manager](/aspnet/core/security/app-secrets).
 
 The [UserSecretsConfigBuilder](https://www.nuget.org/packages/Microsoft.Configuration.ConfigurationBuilders.UserSecrets/) can be used in .NET Framework projects, but a secrets file must be specified. Alternatively, you can define the `UserSecretsId` property in the project file and create the raw secrets file in the correct location for reading. To keep external dependencies out of your project, the secret file is XML formatted. The XML formatting is an implementation detail, and the format should not be relied upon. If you need to share a *secrets.json* file with .NET Core projects, consider using the [SimpleJsonConfigBuilder](#simplejsonconfigbuilder). The `SimpleJsonConfigBuilder` format for .NET Core should also be considered an implementation detail subject to change.
