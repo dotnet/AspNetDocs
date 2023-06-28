@@ -13,6 +13,8 @@ msc.type: authoredcontent
 
 by [Scott Mitchell](https://twitter.com/ScottOnWriting)
 
+[!INCLUDE[](~/includes/identity/identity_replace_membership.md)]
+
 [Download Code](https://download.microsoft.com/download/3/f/5/3f5a8605-c526-4b34-b3fd-a34167117633/ASPNET_Security_Tutorial_06_CS.zip) or [Download PDF](https://download.microsoft.com/download/3/f/5/3f5a8605-c526-4b34-b3fd-a34167117633/aspnet_tutorial06_LoggingIn_cs.pdf)
 
 > In this tutorial we will examine how to validate a user's credentials against the Membership user store using both programmatic means and the Login control. We will also look at how to customize the login control's appearance and behavior.
