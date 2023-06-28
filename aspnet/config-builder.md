@@ -184,7 +184,7 @@ The [EnvironmentConfigBuilder](https://www.nuget.org/packages/Microsoft.Configur
     Microsoft.Configuration.ConfigurationBuilders.UserSecrets" />
 ```
 
-In the preceding XML, the `userSecretsFile` path can use use `~/` or `~/`. For example, the path could be written as `userSecretsFile="~/secrets.file`. See the [ConfigurationBuilders Utils](https://github.com/aspnet/MicrosoftConfigurationBuilders/blob/main/src/Base/Utils.cs#L45) class for more information.
+In the preceding XML, the `userSecretsFile` path can use use `~/` or `~\`. For example, the path could be written as `userSecretsFile="~/secrets.file`. See the [ConfigurationBuilders Utils](https://github.com/aspnet/MicrosoftConfigurationBuilders/blob/main/src/Base/Utils.cs#L45) class for more information.
 
 This configuration builder provides a feature similar to [ASP.NET Core Secret Manager](/aspnet/core/security/app-secrets).
 
