@@ -13,8 +13,7 @@ msc.type: authoredcontent
 
 by [Jason Lee](https://github.com/jrjlee)
 
-> [!NOTE]
-> Since this article was written, the in-box ASP.NET Membership providers have been superseded by '[ASP.NET Identity](../../../../identity/overview/getting-started/introduction-to-aspnet-identity.md)'. Please update applications to use the [ASP.NET Identity](../../../../identity/overview/getting-started/introduction-to-aspnet-identity.md) platform instead of the in-box Membership providers.
+[!INCLUDE[](~/includes/identity/identity_replace_membership.md)]
 
 > This topic explains the key considerations and challenges you'll need to overcome when you provision ASP.NET application services databases (more commonly referred to as membership databases) in test, staging, or production environments. It also describes approaches you can use to meet these challenges.
 
