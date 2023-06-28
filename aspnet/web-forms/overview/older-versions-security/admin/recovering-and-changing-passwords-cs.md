@@ -13,8 +13,7 @@ msc.type: authoredcontent
 
 by [Scott Mitchell](https://twitter.com/ScottOnWriting)
 
-> [!NOTE]
-> Since this document was written, the in-box ASP.Net Membership providers have been superseded by '[ASP.Net Identity](https://learn.microsoft.com/en-us/aspnet/identity/overview/getting-started/introduction-to-aspnet-identity)'. Please update applications to use the [ASP.Net Identity](https://learn.microsoft.com/en-us/aspnet/identity/overview/getting-started/introduction-to-aspnet-identity) platform instead of the in-box Membership providers.
+[!INCLUDE[](~/includes/identity/identity_replace_membership.md)]
 
 > ASP.NET includes two Web controls for assisting with recovering and changing passwords. The PasswordRecovery control enables a visitor to recover his lost password. The ChangePassword control allows the user to update his password. Like the other Login-related Web controls we've seen throughout this tutorial series, the PasswordRecovery and ChangePassword controls work with the Membership framework behind the scenes to reset or modify users' passwords.
 

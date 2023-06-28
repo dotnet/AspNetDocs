@@ -13,8 +13,7 @@ msc.type: authoredcontent
 
 by [Scott Mitchell](https://twitter.com/ScottOnWriting)
 
-> [!NOTE]
-> Since this document was written, the in-box ASP.Net Membership providers have been superseded by '[ASP.Net Identity](https://learn.microsoft.com/en-us/aspnet/identity/overview/getting-started/introduction-to-aspnet-identity)'. Please update applications to use the [ASP.Net Identity](https://learn.microsoft.com/en-us/aspnet/identity/overview/getting-started/introduction-to-aspnet-identity) platform instead of the in-box Membership providers.
+[!INCLUDE[](~/includes/identity/identity_replace_membership.md)]
 
 [Download Code](https://download.microsoft.com/download/6/0/3/6032582f-360d-4739-b935-38721fdb86ea/VB.10.zip) or [Download PDF](https://download.microsoft.com/download/6/0/3/6032582f-360d-4739-b935-38721fdb86ea/aspnet_tutorial10_AssigningRoles_vb.pdf)
 

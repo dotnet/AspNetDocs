@@ -13,8 +13,7 @@ msc.type: authoredcontent
 
 by [Microsoft](https://github.com/microsoft)
 
-> [!NOTE]
-> Since this document was written, the in-box ASP.Net Membership providers have been superseded by '[ASP.Net Identity](https://learn.microsoft.com/en-us/aspnet/identity/overview/getting-started/introduction-to-aspnet-identity)'. Please update applications to use the [ASP.Net Identity](https://learn.microsoft.com/en-us/aspnet/identity/overview/getting-started/introduction-to-aspnet-identity) platform instead of the in-box Membership providers.
+[!INCLUDE[](~/includes/identity/identity_replace_membership.md)]
 
 > There are major changes in configuration and instrumentation in ASP.NET 2.0. The new ASP.NET configuration API allows for configuration changes to be made programmatically. In addition, many new configuration settings exist allow for new configurations and instrumentation.
 

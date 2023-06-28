@@ -14,8 +14,7 @@ msc.type: authoredcontent
 
 by [Scott Mitchell](https://twitter.com/ScottOnWriting)
 
-> [!NOTE]
-> Since this document was written, the in-box ASP.Net Membership providers have been superseded by '[ASP.Net Identity](https://learn.microsoft.com/en-us/aspnet/identity/overview/getting-started/introduction-to-aspnet-identity)'. Please update applications to use the [ASP.Net Identity](https://learn.microsoft.com/en-us/aspnet/identity/overview/getting-started/introduction-to-aspnet-identity) platform instead of the in-box Membership providers.
+[!INCLUDE[](~/includes/identity/identity_replace_membership.md)]
 
 > The ASP.NET Website Administration Tool (WSAT) provides a web-based user interface for configuring Membership and Roles settings and for creating, editing, and deleting users and roles. Unfortunately, the WSAT only works when visited from localhost, meaning that you cannot reach the production website's Administration Tool through your browser. The good news is that there are workarounds that make it possible to manage users and roles on production. This tutorial looks at these workarounds and others.
 
