@@ -31,7 +31,7 @@ One of the defining characteristics of the MVC pattern is the strict "separation
 
 When a Controller class decides to render an HTML response back to a client, it is responsible for explicitly passing to the view template all of the data needed to render the response. View templates should never perform any data retrieval or application logic – and should instead limit themselves to only have rendering code that is driven off of the model/data passed to it by the controller.
 
-Right now the model data being passed by our DinnersController class to our view templates is simple and straight-forward – a list of Dinner objects in the case of Index(), and a single Dinner object in the case of Details(), Edit(), Create() and Delete(). As we add more UI capabilities to our application, we are often going to need to pass more than just this data to render HTML responses within our view templates. For example, we might want to change the "Country" field within our Edit and Create views from being an HTML textbox to a dropdownlist. Rather than hard-code the dropdown list of country/region names in the view template, we might want to generate it from a list of supported countries/regions that we populate dynamically. We will need a way to pass both the Dinner object *and* the list of supported countries/regions from our controller to our view templates.
+Right now the model data being passed by our DinnersController class to our view templates is simple and straight-forward – a list of Dinner objects in the case of Index(), and a single Dinner object in the case of Details(), Edit(), Create() and Delete(). As we add more UI capabilities to our application, we are often going to need to pass more than just this data to render HTML responses within our view templates. For example, we might want to change the "Country" field within our Edit and Create views from being an HTML textbox to a dropdownlist. Rather than hard-code the dropdown list of country and region names in the view template, we might want to generate it from a list of supported countries and regions that we populate dynamically. We will need a way to pass both the Dinner object *and* the list of supported countries and regions from our controller to our view templates.
 
 Let's look at two ways we can accomplish this.
 
@@ -43,7 +43,7 @@ For example, to support the scenario where we want to change the "Country" textb
 
 [!code-csharp[Main](use-viewdata-and-implement-viewmodel-classes/samples/sample1.cs)]
 
-The constructor of the SelectList above is accepting a list of countries/regions to populate the drop-downlist with, as well as the currently selected value.
+The constructor of the SelectList above is accepting a list of countries and regions to populate the drop-downlist with, as well as the currently selected value.
 
 We can then update our Edit.aspx view template to use the Html.DropDownList() helper method instead of the Html.TextBox() helper method we used previously:
 
@@ -51,9 +51,9 @@ We can then update our Edit.aspx view template to use the Html.DropDownList() he
 
 The Html.DropDownList() helper method above takes two parameters. The first is the name of the HTML form element to output. The second is the "SelectList" model we passed via the ViewData dictionary. We are using the C# "as" keyword to cast the type within the dictionary as a SelectList.
 
-And now when we run our application and access the */Dinners/Edit/1* URL within our browser we'll see that our edit UI has been updated to display a dropdownlist of countries/regions instead of a textbox:
+And now when we run our application and access the */Dinners/Edit/1* URL within our browser we'll see that our edit UI has been updated to display a dropdownlist of countries and regions instead of a textbox:
 
-![Screenshot of the edit user interface with the dropdown list of countries/regions highlighted with a red arrow.](use-viewdata-and-implement-viewmodel-classes/_static/image1.png)
+![Screenshot of the edit user interface with the dropdown list of countries and regions highlighted with a red arrow.](use-viewdata-and-implement-viewmodel-classes/_static/image1.png)
 
 Because we also render the Edit view template from the HTTP-POST Edit method (in scenarios when errors occur), we'll want to make sure that we also update this method to add the SelectList to ViewData when the view template is rendered in error scenarios:
 
@@ -101,7 +101,7 @@ Below is the implementation of the HTTP-POST Create method:
 
 [!code-csharp[Main](use-viewdata-and-implement-viewmodel-classes/samples/sample10.cs)]
 
-And now both our Edit and Create screens support drop-downlists for picking the country/region.
+And now both our Edit and Create screens support drop-downlists for picking the country or region.
 
 ### Custom-shaped ViewModel classes
 
