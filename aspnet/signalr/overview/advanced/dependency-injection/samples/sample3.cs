@@ -6,7 +6,7 @@ class SomeComponent
     // Inject ILogger into the object.
     public SomeComponent(ILogger logger)
     {
-        _logger = logger ?? throw new NullReferenceException(nameof("logger"));
+        _logger = logger ?? throw new NullReferenceException(nameof(logger));
     }
 
     public void DoSomething()
