@@ -58,16 +58,5 @@ The application also provides support to register and log in. The next step is t
 
 For a list of current tutorials, see [MVC recommended articles](../mvc-learning-sequence.md).
 
-## See this app running on Azure
-
-Would you like to see the finished site running as a live web app? You can deploy a complete version of the app to your Azure account by simply clicking the following button.
-
-:::image type="icon" source="https://azuredeploy.net/?repository=https://github.com/dotnet/AspNetDocs/tree/main/aspnet/mvc/overview/getting-started/introduction/sample/MvcMovie&amp;WT.mc_id=deploy_azure_aspnet":::
-
-You need an Azure account to deploy this solution to Azure. If you don't already have an account, use one of the following options to create one:
-
-- [Open an Azure account for free](https://azure.microsoft.com/pricing/free-trial/?WT.mc_id=A443DD604) - You get credits you can use to try out paid Azure services, and even after they're used up you can keep the account and use free Azure services.
-- [Activate Visual Studio subscriber benefits](https://azure.microsoft.com/pricing/member-offers/credit-for-visual-studio-subscribers) - Your Visual Studio subscription gives you credits every month that you can use for paid Azure services.
-
 > [!div class="step-by-step"]
 > [Next](adding-a-controller.md)
