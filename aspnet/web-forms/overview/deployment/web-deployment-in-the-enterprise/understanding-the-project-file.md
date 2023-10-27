@@ -44,7 +44,7 @@ If you've worked with web application projects in Visual Studio 2010, like ASP.N
 
 ![The **Package/Publish Web** tab](understanding-the-project-file/_static/image1.png)
 
-The underlying technology behind these capabilities is known as the Web Publishing Pipeline (WPP). The WPP essentially brings MSBuild and [Web Deploy](https://learn.microsoft.com/en-us/iis/publish/using-web-deploy/introduction-to-web-deploy) together to provide a complete build, package, and deployment process for your web applications.
+The underlying technology behind these capabilities is known as the Web Publishing Pipeline (WPP). The WPP essentially brings MSBuild and [Web Deploy](/iis/publish/using-web-deploy/introduction-to-web-deploy) together to provide a complete build, package, and deployment process for your web applications.
 
 The good news is that you can take advantage of the integration points that the WPP provides when you create custom project files for web projects. You can include deployment instructions in your project file, which allows you to build your projects, create web deployment packages, and install these packages on remote servers through a single project file and a single call to MSBuild. You can also call any other executables as part of your build process. For example, you can run the VSDBCMD.exe command-line tool to deploy a database from a schema file. Over the course of this topic, you'll see how you can take advantage of these capabilities to meet the requirements of your enterprise deployment scenarios.
 
