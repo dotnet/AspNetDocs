@@ -4,4 +4,6 @@ public class User
     public string Password { get; set; } 
     [Required, Compare("Password")] 
     public string ComparePassword { get; set; } 
+
+    // just testing 
 }
