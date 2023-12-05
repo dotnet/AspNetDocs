@@ -36,6 +36,8 @@
     "overwrite": [],
     "externalReference": [],
     "globalMetadata": {
+      "feedback_system": "Standard",
+      "feedback_help_link_url": "https://learn.microsoft.com/en-us/answers/tags/174/aspnet"
       "_navPath": "/foo",
       "_navRel": "/foo",
       "breadcrumb_path": "/aspnet/breadcrumb/toc.json",
