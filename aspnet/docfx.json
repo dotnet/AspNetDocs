@@ -36,6 +36,7 @@
     "overwrite": [],
     "externalReference": [],
     "globalMetadata": {
+      "ms.service": "aspnet-framework",
       "feedback_system": "Standard",
       "feedback_help_link_type": "get-help-at-qna",
       "feedback_help_link_url": "https://learn.microsoft.com/answers/tags/174/aspnet",
@@ -43,7 +44,6 @@
       "_navRel": "/foo",
       "breadcrumb_path": "/aspnet/breadcrumb/toc.json",
       "recommendations": true,
-      "ms.prod": "aspnet-framework",
       "ms.topic": "conceptual",
       "uhfHeaderId": "MSDocsHeader-AspNet",
       "searchScope": [
