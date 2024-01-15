@@ -36,6 +36,7 @@
     "overwrite": [],
     "externalReference": [],
     "globalMetadata": {
+      "ms.service": "aspnet-framework",
       "feedback_system": "Standard",
       "feedback_help_link_type": "get-help-at-qna",
       "feedback_help_link_url": "https://learn.microsoft.com/answers/tags/174/aspnet",
@@ -43,7 +44,6 @@
       "_navRel": "/foo",
       "breadcrumb_path": "/aspnet/breadcrumb/toc.json",
       "recommendations": true,
-      "ms.prod": "aspnet-framework",
       "ms.topic": "conceptual",
       "uhfHeaderId": "MSDocsHeader-AspNet",
       "searchScope": [
@@ -57,20 +57,22 @@
       }
     },
     "fileMetadata": {
+      "ms.subservice": {
+        "aspnet/**/**.md": "overview",
+        "single-page-application/**/**.md": "spa",
+        "signalr/**/**.md": "signalr",
+        "mobile/**/**.md": "mobile",
+        "web-api/**/**.md": "web-api",
+        "web-pages/**/**.md": "web-pages",
+        "identity/**/**.md": "identity",
+        "webhooks/**/**.md": "web-hooks",
+        "web-forms/**/**.md": "web-forms",
+        "ajax/**/**.md": "ajax",
+        "visual-studio/**/**.md": "visual-studio",
+        "mvc/**/**.md": "mvc",
+        "whitepapers/**/**.md": "whitepapers"
+      },
       "ms.technology": {
-        "ajax/**/**.md": "aspnet-ajax",
-        "aspnet/**/**.md": "aspnet-aspnet",
-        "identity/**/**.md": "aspnet-identity",
-        "mobile/**/**.md": "aspnet-mobile",
-        "mvc/**/**.md": "aspnet-mvc",
-        "signalr/**/**.md": "aspnet-signalr",
-        "single-page-application/**/**.md": "aspnet-spa",
-        "visual-studio/**/**.md": "aspnet-visualstudio",
-        "web-api/**/**.md": "aspnet-webapi",
-        "web-forms/**/**.md": "aspnet-webforms",
-        "web-pages/**/**.md": "aspnet-webpages",
-        "webhooks/**/**.md": "aspnet-webhooks",
-        "whitepapers/**/**.md": "aspnet-whitepapers"
       },
       "recommendations": {
         "mvc/overview/getting-started/introduction/*.md": false
