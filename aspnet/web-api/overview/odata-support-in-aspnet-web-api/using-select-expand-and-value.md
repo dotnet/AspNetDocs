@@ -5,7 +5,6 @@ author: rick-anderson
 description: "Overview and code samples for the $expand, $select, and $value options in OData Web API 2 for ASP.NET 4.x."
 ms.author: riande
 ms.date: 10/11/2013
-ms.custom: seoapril2019
 ms.assetid: 43279a80-a96c-4564-b6ea-ad992a2d6828
 msc.legacyurl: /web-api/overview/odata-support-in-aspnet-web-api/using-select-expand-and-value
 msc.type: authoredcontent

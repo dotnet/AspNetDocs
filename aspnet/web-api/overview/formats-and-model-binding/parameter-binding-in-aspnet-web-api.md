@@ -5,7 +5,6 @@ author: rick-anderson
 description: "Describes how Web API binds parameters and how to customize the binding process in ASP.NET 4.x."
 ms.author: riande
 ms.date: 07/11/2013
-ms.custom: seoapril2019
 ms.assetid: e42c8388-04ed-4341-9fdb-41b1b4c06320
 msc.legacyurl: /web-api/overview/formats-and-model-binding/parameter-binding-in-aspnet-web-api
 msc.type: authoredcontent

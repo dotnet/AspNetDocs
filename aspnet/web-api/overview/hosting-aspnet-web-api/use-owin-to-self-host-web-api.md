@@ -5,7 +5,6 @@ author: rick-anderson
 description: "Tutorial with code showing how to host ASP.NET Web API in a console application."
 ms.author: riande
 ms.date: 07/09/2013
-ms.custom: seoapril2019
 ms.assetid: a90a04ce-9d07-43ad-8250-8a92fb2bd3d5
 msc.legacyurl: /web-api/overview/hosting-aspnet-web-api/use-owin-to-self-host-web-api
 msc.type: authoredcontent
