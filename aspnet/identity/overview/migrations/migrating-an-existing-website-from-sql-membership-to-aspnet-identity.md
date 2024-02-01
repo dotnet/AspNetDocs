@@ -5,7 +5,7 @@ author: Rick-Anderson
 description: "This tutorial illustrates the steps to migrate an existing web application with user and role data created using SQL Membership to the new ASP.NET Identity s..."
 ms.author: riande
 ms.date: 05/05/2022
-ms.custom: seoapril2019, devdivchpfy22
+ms.custom: devdivchpfy22
 ms.assetid: 220d3d75-16b2-4240-beae-a5b534f06419
 msc.legacyurl: /identity/overview/migrations/migrating-an-existing-website-from-sql-membership-to-aspnet-identity
 msc.type: authoredcontent

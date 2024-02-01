@@ -6,7 +6,6 @@ description: "ASP.NET Identity is an extensible system that enables you to creat
 ms.author: riande
 ms.date: 05/22/2015
 ms.assetid: 248f5fe7-39ba-40ea-ab1e-71a69b0bd649
-ms.custom: seoapril2019
 msc.legacyurl: /identity/overview/extensibility/implementing-a-custom-mysql-aspnet-identity-storage-provider
 msc.type: authoredcontent
 ---

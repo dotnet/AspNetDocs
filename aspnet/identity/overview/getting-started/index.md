@@ -6,7 +6,6 @@ description: "The ASP.NET Identity system is designed to replace the previous AS
 ms.author: riande
 ms.date: 10/02/2013
 ms.assetid: 72bb0051-a696-437e-a4e6-ca1225a6e271
-ms.custom: seoapril2019
 msc.legacyurl: /identity/overview/getting-started
 msc.type: chapter
 ---

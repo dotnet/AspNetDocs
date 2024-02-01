@@ -5,7 +5,6 @@ author: Rick-Anderson
 description: Create custom message handlers for ASP.NET Web API in ASP.NET 4.x
 ms.author: riande
 ms.date: 10/01/2012
-ms.custom: seoapril2019
 ms.assetid: 5a4b6c80-b2e9-4710-8969-d5076f7f82b8
 msc.legacyurl: /web-api/overview/advanced/httpclient-message-handlers
 msc.type: authoredcontent
