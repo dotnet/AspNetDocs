@@ -6,7 +6,6 @@ description: "The ASP.NET membership system was introduced with ASP.NET 2.0 back
 ms.author: riande
 ms.date: 01/22/2019
 ms.assetid: 38717fc1-5989-43cf-952d-4007cc1dd923
-ms.custom: seoapril2019
 msc.legacyurl: /identity/overview/getting-started/introduction-to-aspnet-identity
 msc.type: authoredcontent
 ---

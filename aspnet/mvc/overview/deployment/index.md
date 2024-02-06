@@ -5,7 +5,6 @@ author: rick-anderson
 description: "How to deploy ASP.NET MVC 5.0 projects to a server."
 ms.author: riande
 ms.date: 08/18/2011
-ms.custom: seoapril2019
 ms.assetid: 31922c31-59df-4399-99d2-e935a476f16a
 msc.legacyurl: /mvc/overview/deployment
 msc.type: chapter
