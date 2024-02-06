@@ -5,7 +5,6 @@ author: rick-anderson
 description: "Tutorial: Host ASP.NET Web API in an Azure Worker Role, using OWIN to self-host the Web API framework."
 ms.author: riande
 ms.date: 04/02/2014
-ms.custom: seoapril2019
 ms.assetid: 6980ee2e-d6b0-4a08-8fb6-ab96362dd0e3
 msc.legacyurl: /web-api/overview/hosting-aspnet-web-api/host-aspnet-web-api-in-an-azure-worker-role
 msc.type: authoredcontent

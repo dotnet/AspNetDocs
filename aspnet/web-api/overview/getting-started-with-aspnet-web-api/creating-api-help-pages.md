@@ -5,7 +5,6 @@ author: rick-anderson
 description: "This tutorial with code shows how to create help pages for ASP.NET Web API in ASP.NET 4.x."
 ms.author: riande
 ms.date: 04/01/2013
-ms.custom: seoapril2019
 ms.assetid: 0150e67b-c50d-4613-83ea-7b4ef8cacc5a
 msc.legacyurl: /web-api/overview/getting-started-with-aspnet-web-api/creating-api-help-pages
 msc.type: authoredcontent

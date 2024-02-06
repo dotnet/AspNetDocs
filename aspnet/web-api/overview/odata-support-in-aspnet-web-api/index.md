@@ -5,7 +5,6 @@ author: rick-anderson
 description: "How to create OData endpoints in ASP.NET Web API for ASP.NET 4.x"
 ms.author: riande
 ms.date: 08/17/2012
-ms.custom: seoapril2019
 ms.assetid: 9151c605-e911-4f24-95b5-ca310b105abf
 msc.legacyurl: /web-api/overview/odata-support-in-aspnet-web-api
 msc.type: chapter

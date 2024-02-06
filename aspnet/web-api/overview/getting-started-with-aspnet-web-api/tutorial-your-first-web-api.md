@@ -5,7 +5,6 @@ author: rick-anderson
 description: "Tutorial with code. Use ASP.NET Web API to create a web API that returns a list of products."
 ms.author: riande
 ms.date: 11/28/2017
-ms.custom: seoapril2019
 msc.legacyurl: /web-api/overview/getting-started-with-aspnet-web-api/tutorial-your-first-web-api
 msc.type: authoredcontent
 ---

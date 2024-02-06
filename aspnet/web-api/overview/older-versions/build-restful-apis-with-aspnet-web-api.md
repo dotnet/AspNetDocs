@@ -5,7 +5,6 @@ author: rick-anderson
 description: "Hands on lab: Use Web API in ASP.NET 4.x to build a simple REST API for a contact manager application."
 ms.author: riande
 ms.date: 02/18/2013
-ms.custom: seoapril2019
 ms.assetid: 87daa99f-3810-407e-b969-dd28a192959d
 msc.legacyurl: /web-api/overview/older-versions/build-restful-apis-with-aspnet-web-api
 msc.type: authoredcontent

@@ -5,7 +5,6 @@ author: rick-anderson
 description: "Step by step code: Build a Single Page Application (SPA) with ASP.NET Web API and Angular.js for ASP.NET 4.x."
 ms.author: riande
 ms.date: 09/30/2015
-ms.custom: seoapril2019
 ms.assetid: 719727b7-bef3-45ad-bfe9-ba5bcdb2305f
 msc.legacyurl: /web-api/overview/getting-started-with-aspnet-web-api/build-a-single-page-application-spa-with-aspnet-web-api-and-angularjs
 msc.type: authoredcontent

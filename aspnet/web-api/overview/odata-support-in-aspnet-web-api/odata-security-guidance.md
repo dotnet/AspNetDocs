@@ -5,7 +5,6 @@ author: rick-anderson
 description: "Describes security issues to consider when exposing a dataset through OData for ASP.NET Web API 2 on ASP.NET 4.x."
 ms.author: riande
 ms.date: 02/06/2013
-ms.custom: seoapril2019
 ms.assetid: b91e6424-1544-4747-bd0b-d1f8418c9653
 msc.legacyurl: /web-api/overview/odata-support-in-aspnet-web-api/odata-security-guidance
 msc.type: authoredcontent
