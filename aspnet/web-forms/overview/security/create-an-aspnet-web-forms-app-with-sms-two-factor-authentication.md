@@ -13,8 +13,6 @@ msc.type: authoredcontent
 
 by [Erik Reitan](https://github.com/Erikre)
 
-[Download ASP.NET Web Forms App with Email and SMS Two-Factor Authentication](https://code.msdn.microsoft.com/ASPNET-Web-Forms-App-with-5a0ff94e)
-
 > This tutorial shows you how to build an ASP.NET Web Forms app with Two-Factor Authentication. This tutorial was designed to complement the tutorial titled [Create a secure ASP.NET Web Forms app with user registration, email confirmation and password reset](create-a-secure-aspnet-web-forms-app-with-user-registration-email-confirmation-and-password-reset.md). In addition, this tutorial was based on Rick Anderson's [MVC tutorial](../../../mvc/overview/security/aspnet-mvc-5-app-with-sms-and-email-two-factor-authentication.md).
 
 ## Introduction
