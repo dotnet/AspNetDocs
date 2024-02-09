@@ -5,7 +5,6 @@ author: rick-anderson
 description: "ASP.NET Web API guidance list for ASP.NET 4.x"
 ms.author: riande
 ms.date: 01/17/2012
-ms.custom: seoapril2019
 ms.assetid: daca6735-b5d3-4ef5-af33-ee682926238b
 msc.legacyurl: /web-api/overview
 msc.type: book

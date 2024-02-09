@@ -5,7 +5,6 @@ author: rick-anderson
 description: "Learn to use ASP.NET Web API in ASP.NET 4.x to quickly build HTTP services that reach a broad range of clients."
 ms.author: riande
 ms.date: 01/17/2012
-ms.custom: seoapril2019
 ms.assetid: a36e178f-de46-46d9-b150-61fb3ba1b4d3
 msc.legacyurl: /web-api/overview/getting-started-with-aspnet-web-api
 msc.type: chapter

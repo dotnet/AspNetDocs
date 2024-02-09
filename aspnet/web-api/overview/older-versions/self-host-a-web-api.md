@@ -5,7 +5,6 @@ author: rick-anderson
 description: Tutorial with code shows how to host a web API inside a console application using ASP.Net 4.x and Visual Studio 2012.
 ms.author: riande
 ms.date: 01/26/2012
-ms.custom: seoapril2019
 ms.assetid: be5ab1e2-4140-4275-ac59-ca82a1bac0c1
 msc.legacyurl: /web-api/overview/older-versions/self-host-a-web-api
 msc.type: authoredcontent

@@ -5,7 +5,6 @@ author: rick-anderson
 description: "Overview of model validation in ASP.NET Web API for ASP.NET 4.x."
 ms.author: riande
 ms.date: 07/20/2012
-ms.custom: seoapril2019
 ms.assetid: 7d061207-22b8-4883-bafa-e89b1e7749ca
 msc.legacyurl: /web-api/overview/formats-and-model-binding/model-validation-in-aspnet-web-api
 msc.type: authoredcontent

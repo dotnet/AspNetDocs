@@ -5,7 +5,6 @@ author: rick-anderson
 description: "Describes routing conventions that Web API 2 in ASP.NET 4.x uses for OData endpoints."
 ms.author: riande
 ms.date: 07/31/2013
-ms.custom: seoapril2019
 ms.assetid: adbc175a-14eb-4ab2-a441-d056ffa8266f
 msc.legacyurl: /web-api/overview/odata-support-in-aspnet-web-api/odata-routing-conventions
 msc.type: authoredcontent

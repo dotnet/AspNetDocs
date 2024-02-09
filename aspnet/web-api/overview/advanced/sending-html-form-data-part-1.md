@@ -5,7 +5,6 @@ author: Rick-Anderson
 description: This article shows how to post form-urlencoded data to a Web API controller with ASP.NET 4.x
 ms.author: riande
 ms.date: 06/15/2012
-ms.custom: seoapril2019
 ms.assetid: 585351c4-809a-4bf5-bcbe-35d624f565fe
 msc.legacyurl: /web-api/overview/advanced/sending-html-form-data-part-1
 msc.type: authoredcontent

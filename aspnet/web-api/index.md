@@ -5,7 +5,6 @@ author: rick-anderson
 description: Download ASP.NET MVC 4 and build HTTP services that reach a broad range of clients.
 ms.author: riande
 ms.date: 01/17/2012
-ms.custom: seoapril2019
 ms.assetid: f571ca7a-c06b-400d-8051-f62f9f0bcc9b
 msc.legacyurl: /web-api
 msc.type: categoryindex

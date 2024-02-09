@@ -5,7 +5,6 @@ author: rick-anderson
 description: "Extensibility"
 ms.author: riande
 ms.date: 10/02/2013
-ms.custom: seoapril2019
 ms.assetid: d1c6e7d0-ead9-4f08-a5b9-9d7a30be78e3
 msc.legacyurl: /identity/overview/extensibility
 msc.type: chapter

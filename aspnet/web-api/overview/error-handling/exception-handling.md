@@ -5,7 +5,6 @@ author: Rick-Anderson
 description: Describes ASP.NET Web API executes error and exception handling and provides examples for errors and exceptions.
 ms.author: riande
 ms.date: 03/12/2012
-ms.custom: seoapril2019
 ms.assetid: cbebeb37-2594-41f2-b71a-f4f26520d512
 msc.legacyurl: /web-api/overview/error-handling/exception-handling
 msc.type: authoredcontent

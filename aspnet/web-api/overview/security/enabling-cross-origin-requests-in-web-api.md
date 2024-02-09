@@ -8,7 +8,6 @@ ms.date: 01/29/2019
 ms.assetid: 9b265a5a-6a70-4a82-adce-2d7c56ae8bdd
 msc.legacyurl: /web-api/overview/security/enabling-cross-origin-requests-in-web-api
 msc.type: authoredcontent
-ms.custom: contperf-fy21q3
 ---
 # Enable cross-origin requests in ASP.NET Web API 2
 
