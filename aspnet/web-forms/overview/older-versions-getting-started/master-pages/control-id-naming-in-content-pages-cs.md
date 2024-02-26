@@ -213,14 +213,13 @@ For more information on the topics discussed in this tutorial, refer to the foll
 
 - [ASP.NET Master Pages and `FindControl`](http://www.west-wind.com/WebLog/posts/5127.aspx)
 - [Creating Dynamic Data Entry User Interfaces](https://msdn.microsoft.com/library/aa479330.aspx)
-- [Extending Base Type Functionality with Extension Methods](https://4guysfromrolla.com/articles/120507-1.aspx)
 - [How To: Reference ASP.NET Master Page Content](https://msdn.microsoft.com/library/xxwa0ff0.aspx)
 - [Mater Pages: Tips, Tricks, and Traps](http://www.odetocode.com/articles/450.aspx)
 - [Working with Client-Side Script](https://msdn.microsoft.com/library/aa479302.aspx)
 
 ### About the Author
 
-[Scott Mitchell](http://www.4guysfromrolla.com/ScottMitchell.shtml), author of multiple ASP/ASP.NET books and founder of 4GuysFromRolla.com, has been working with Microsoft Web technologies since 1998. Scott works as an independent consultant, trainer, and writer. His latest book is [*Sams Teach Yourself ASP.NET 3.5 in 24 Hours*](https://www.amazon.com/exec/obidos/ASIN/0672327384/4guysfromrollaco). Scott can be reached at [mitchell@4GuysFromRolla.com](mailto:mitchell@4GuysFromRolla.com) or via his blog at [http://ScottOnWriting.NET](http://scottonwriting.net/).
+Scott Mitchell, author of multiple ASP/ASP.NET books and founder of 4GuysFromRolla.com, has been working with Microsoft Web technologies since 1998. Scott works as an independent consultant, trainer, and writer. His latest book is [*Sams Teach Yourself ASP.NET 3.5 in 24 Hours*](https://www.amazon.com/exec/obidos/ASIN/0672327384/4guysfromrollaco). Scott can be reached at [mitchell@4GuysFromRolla.com](mailto:mitchell@4GuysFromRolla.com) or via his blog at [http://ScottOnWriting.NET](http://scottonwriting.net/).
 
 ### Special Thanks To
 

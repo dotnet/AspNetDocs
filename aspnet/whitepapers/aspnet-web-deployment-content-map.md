@@ -209,7 +209,6 @@ See also  Deploying a web application by creating and installing a web deploymen
 - [Web Deployment FAQ for Visual Studio and ASP.NET](https://msdn.microsoft.com/library/ee942158.aspx) (MSDN).
 - [Core Differences Between IIS and the ASP.NET Development Server](../web-forms/overview/older-versions-getting-started/deploying-web-site-projects/core-differences-between-iis-and-the-asp-net-development-server-cs.md).
 - [Common Configuration Differences Between Development and Production](../web-forms/overview/older-versions-getting-started/deploying-web-site-projects/common-configuration-differences-between-development-and-production-cs.md).
-- [Hosting ASP.NET Applications in Medium Trust](http://www.4guysfromrolla.com/articles/100307-1.aspx) (4 Guys from Rolla site).
 
 <a id="gettinghelp"></a>
 

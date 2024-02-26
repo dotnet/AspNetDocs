@@ -225,7 +225,7 @@ See also the following sections on working with SQL Server Express and LocalDB, 
 - [Deploy a Secure ASP.NET MVC app with Membership, OAuth, and SQL Database to a Windows Azure Web Site](/aspnet/core/security/authorization/secure-data) (Microsoft Azure site).
 - [SQL Databases](/azure/sql-database/) (Microsoft Azure site). Getting started tutorials and how-to guides.
 - [Windows Azure SQL Database](https://msdn.microsoft.com/library/windowsazure/ee336279.aspx) (MSDN). The top-level node of the table of contents for SQL Database in MSDN.
-- [Windows Azure SQL Database TechNet Wiki Articles Index](https://social.technet.microsoft.com/wiki/contents/articles/2267.windows-azure-sql-database-technet-wiki-articles-index-en-us.aspx) (Microsoft TechNet site).
+- [Windows Azure SQL Database Articles Index](/azure/azure-sql/) (Microsoft Learn site).
 - [Transient Fault Handling Application Block](https://msdn.microsoft.com/library/hh680934(v=PandP.50).aspx). A framework that enables you to handle transient network faults and connection errors that result from throttling. Available in a NuGet package: [Enterprise Library 5.0 - Transient Fault Handling Application Block](https://nuget.org/packages/EnterpriseLibrary.WindowsAzure.TransientFaultHandling).
 - [Getting Started with SQL Database and Entity Framework](https://msdn.microsoft.com/data/jj556244) (MSDN).
 - [Windows Azure SQL Database Community Forum](https://social.msdn.microsoft.com/Forums/ssdsgetstarted/threads).
@@ -236,9 +236,9 @@ See also the following sections on working with SQL Server Express and LocalDB, 
 
 ### Choosing between SQL Server and Windows Azure SQL Database
 
-- [Compare SQL Server with Windows Azure SQL Database](https://social.technet.microsoft.com/wiki/contents/articles/996.compare-sql-server-with-windows-azure-sql-database-en-us.aspx) (Microsoft TechNet site).
+- [T-SQL differences between SQL Server and Azure SQL Database](/azure/azure-sql/database/transact-sql-tsql-differences-sql-server) (Microsoft Learn site).
 - [Data Migration to Windows Azure SQL Database: Tools and Techniques](https://msdn.microsoft.com/library/windowsazure/hh694043.aspx) (MSDN). Includes sections that compare SQL Server to SQL Database and provide guidance on when to migrate from SQL Server to SQL Database.
-- [Windows Azure SQL Database Delivery Guide](https://social.technet.microsoft.com/wiki/contents/articles/3398.windows-azure-sql-database-delivery-guide-en-us.aspx) (Microsoft TechNet site).
+- [Connecting the Dots of Azure SQL CICD](https://devblogs.microsoft.com/azure-sql/connecting-the-dots-of-azure-sql-cicd-part-1-getting-started/) (Microsoft Blog site).
 - [SQL Server Feature Limitations (Windows Azure SQL Database)](https://msdn.microsoft.com/library/windowsazure/ff394115.aspx) (MSDN).
 - [Windows Azure Table Storage and Windows Azure SQL Database - Compared and Contrasted](https://msdn.microsoft.com/library/jj553018.aspx) (MSDN). For an application that you deploy to Windows Azure, Windows Azure Table storage might be an alternative to Windows Azure SQL Database. This topic helps you decide between these alternatives.
 - [Windows Azure SQL Database](https://msdn.microsoft.com/library/windowsazure/ee336279) (MSDN).

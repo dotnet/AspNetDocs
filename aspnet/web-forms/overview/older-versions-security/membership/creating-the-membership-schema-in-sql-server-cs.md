@@ -83,7 +83,7 @@ In order to use the `aspnet_regsql.exe` tool we need to know the server and data
 
 The database name is a bit trickier to determine. Databases in the `App_Data` folder typically have a database name that includes a [globally unique identifier](http://en.wikipedia.org/wiki/Globally_Unique_Identifier) along with the path to the database file. We need to determine this database name in order to add the application services schema through `aspnet_regsql.exe`.
 
-The easiest way to ascertain the database name is to examine it through SQL Server Management Studio. SQL Server Management Studio provides a graphical interface for managing SQL Server 2005 databases, but it does not ship with the Express Edition of SQL Server 2005. The good news is that [you can download](https://www.microsoft.com/downloads/details.aspx?FamilyId=C243A5AE-4BD1-4E3D-94B8-5A0F62BF7796&amp;displaylang=en) the free Express Edition of SQL Server Management Studio.
+The easiest way to ascertain the database name is to examine it through SQL Server Management Studio. SQL Server Management Studio provides a graphical interface for managing SQL Server 2005 databases, but it does not ship with the Express Edition of SQL Server 2005. The good news is that [you can download](/sql/ssms/download-sql-server-management-studio-ssms) the free Express Edition of SQL Server Management Studio.
 
 > [!NOTE]
 > If you also have a non-Express Edition version of SQL Server 2005 installed on your desktop then the full version of Management Studio is likely installed. You can use the full version to determine the database name, following the same steps as outlined below for the Express Edition.
@@ -313,7 +313,7 @@ For more information on the topics discussed in this tutorial, refer to the foll
 
 - [Always Set the `applicationName` Property When Configuring ASP.NET 2.0 Membership and Other Providers](https://weblogs.asp.net/scottgu/443634)
 - [Configuring ASP.NET 2.0 Application Services to Use SQL Server 2000 or SQL Server 2005](https://weblogs.asp.net/scottgu/archive/2005/08/25/423703.aspx)
-- [Download SQL Server Management Studio Express Edition](https://www.microsoft.com/downloads/details.aspx?FamilyId=C243A5AE-4BD1-4E3D-94B8-5A0F62BF7796&amp;displaylang=en)
+- [Download SQL Server Management Studio](/sql/ssms/download-sql-server-management-studio-ssms)
 - [Examining ASP.NET 2.0's Membership, Roles, and Profile](/aspnet/web-forms/overview/older-versions-security/roles/creating-and-managing-roles-cs)
 - [The `<add>` Element for Providers for Membership](https://msdn.microsoft.com/library/whae3t94.aspx)
 - [The `<membership>` Element](https://msdn.microsoft.com/library/1b9hw62f.aspx)

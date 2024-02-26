@@ -383,8 +383,6 @@ For information about running IIS or IIS Express in Visual Studio, see the follo
 - [Web Servers in Visual Studio for ASP.NET Web Projects](https://msdn.microsoft.com/library/58wxa9w5.aspx).
 - [Core Differences Between IIS and the ASP.NET Development Server](../../older-versions-getting-started/deploying-web-site-projects/core-differences-between-iis-and-the-asp-net-development-server-cs.md) on the ASP.NET site.
 
-For information about what issues might arise when your application runs in medium trust, see [Hosting ASP.NET Applications in Medium Trust](http://www.4guysfromrolla.com/articles/100307-1.aspx) on the four Guys from Rolla site.
-
 > [!div class="step-by-step"]
 > [Previous](project-properties.md)
 > [Next](setting-folder-permissions.md)
