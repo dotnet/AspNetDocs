@@ -24,5 +24,4 @@ msc.type: chapter
 - [Debugging](debugging.md)
 - [CSS](css.md)
 - [MasterPages](masterpages.md)
-- [Validation](validation.md)
 - [Login Controls](login-controls.md)
