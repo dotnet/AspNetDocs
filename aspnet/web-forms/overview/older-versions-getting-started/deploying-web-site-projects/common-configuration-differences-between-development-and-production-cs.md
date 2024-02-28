@@ -115,7 +115,6 @@ For more information on the topics discussed in this tutorial, refer to the foll
 - [Database Connection Strings @ ConnectionStrings.com](http://www.connectionstrings.com/)
 - Don't Run Production ASP.NET Applications with `debug="true"` Enabled
 - Gracefully Responding to Unhandled Exceptions - Displaying User-Friendly Error Pages
-- [How Do I: Use a Visual Studio 2008 Web Deployment Project?](../../../videos/how-do-i/how-do-i-use-a-visual-studio-2008-web-deployment-project.md)
 - Key Configuration Settings When Deploying a Database.
 - [Visual Studio 2008 Web Deployment Projects Download](https://www.microsoft.com/downloads/details.aspx?FamilyId=0AA30AE8-C73B-4BDD-BB1B-FE697256C459&amp;displaylang=en) | Visual Studio 2005 Web Deployment Projects Download
 - [VS 2008 Web Deployment Projects](https://weblogs.asp.net/scottgu/archive/2005/11/06/429723.aspx) | [VS 2008 Web Deployment Project Support Released](https://weblogs.asp.net/scottgu/vs-2008-web-deployment-project-support-released)

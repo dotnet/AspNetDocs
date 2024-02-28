@@ -17,6 +17,3 @@ In this video Joe Stagner looks at working with the built-in providers, availabl
 
 [&#9654; Watch video (22 minutes)](https://channel9.msdn.com/Blogs/ASP-NET-Site-Videos/understanding-aspnet-memberships)
 
-> [!div class="step-by-step"]
-> [Previous](use-custom-principal-objects.md)
-> [Next](configuring-sql-to-work-with-membership-schemas.md)
