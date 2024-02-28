@@ -324,8 +324,6 @@ For more information on the topics discussed in this tutorial, refer to the foll
 ### Video Training on Topics Contained in this Tutorial
 
 - [Understanding ASP.NET Memberships](../../../videos/authentication/understanding-aspnet-memberships.md)
-- [Configuring SQL To Work with Membership Schemas](../../../videos/authentication/configuring-sql-to-work-with-membership-schemas.md)
-- [Changing Membership Settings in the Default Membership Schema](../../../videos/authentication/changing-membership-settings-in-the-default-membership-schema.md)
 
 ### About the Author
 

@@ -122,7 +122,6 @@ Happy Programming!
 For more information on the topics discussed in this tutorial, refer to the following resources:
 
 - [Copying Web Site with the Copy Web Site Tool](https://msdn.microsoft.com/library/1cc82atw.aspx)
-- [How Do I: Deploy a Web Site Using the Copy Web Site Tool](../../../videos/how-do-i/how-do-i-deploy-a-web-site-using-the-copy-web-site-tool.md) (Video)
 - [How To: Publish Web Application Projects](https://msdn.microsoft.com/library/aa983453.aspx)
 - [How To: Publish Web Sites](https://msdn.microsoft.com/library/20yh9f1b.aspx)
 - [Setup and Deployment Projects in Visual Studio](https://msdn.microsoft.com/library/wx3b589t.aspx)

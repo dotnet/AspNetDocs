@@ -180,8 +180,7 @@ For more information about Visual Studio, see [Visual Guide to Visual Web Develo
 In this tutorial you have created, reviewed and run the default Web Forms application. You have reviewed the different features of the default Web forms application and learned some basics about how to use the Visual Studio environment. In the following tutorials you'll create the data access layer.
 
 ## Additional Resources
-
-[Choosing the Right Programming Model](../../../videos/how-do-i/choosing-the-right-programming-model.md)   
+ 
 [Web Application Projects versus Web Site Projects](https://msdn.microsoft.com/library/dd547590.aspx)   
 [ASP.NET Web Forms Pages Overview](https://msdn.microsoft.com/library/428509ah.aspx)
 
