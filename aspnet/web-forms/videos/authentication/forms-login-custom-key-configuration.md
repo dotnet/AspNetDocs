@@ -17,6 +17,3 @@ Joe Stagner will examine the machine key setting in your ASP.NET application.
 
 [&#9654; Watch video (7 minutes)](https://channel9.msdn.com/Blogs/ASP-NET-Site-Videos/forms-login-custom-key-configuration)
 
-> [!div class="step-by-step"]
-> [Previous](asp-forms-login-relocation.md)
-> [Next](add-custom-data-to-the-authentication-method.md)
