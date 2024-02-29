@@ -435,7 +435,7 @@ In this task, you will create a mobile version of the index view with content ad
     > 
     > - The **data-filter** attribute set to **true** will generate a search box.
     > 
-    > You can learn more about jQuery Mobile conventions in the project documentation: [[http://jquerymobile.com/demos/1.1.1/](http://jquerymobile.com/demos/1.1.1/)](http://jquerymobile.com/demos/1.1.1/)
+    > You can learn more about jQuery Mobile conventions in the project documentation: [[https://demos.jquerymobile.com/1.1.1/](https://demos.jquerymobile.com/1.1.1/)](https://demos.jquerymobile.com/1.1.1/)
 3. Press **CTRL + S** to save the changes.
 4. Switch to the **Windows Phone Emulator** and refresh the site. Notice the new look and feel of the gallery list, as well as the new search box located on the top. Then, type a word in the search box (for instance, **Tulips**) to start a search in the photo gallery.
 

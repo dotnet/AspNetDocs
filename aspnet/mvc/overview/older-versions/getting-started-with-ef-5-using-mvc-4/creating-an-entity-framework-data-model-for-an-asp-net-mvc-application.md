@@ -45,10 +45,6 @@ by [Tom Dykstra](https://github.com/tdykstra)
 > ## Acknowledgments
 > 
 > See the last tutorial in the series for [acknowledgments and a note about VB](advanced-entity-framework-scenarios-for-an-mvc-web-application.md#acknowledgments).
-> 
-> ## Original version of the tutorial
-> 
-> The original version of the tutorial is available in the [EF 4.1 / MVC 3 e-book](https://social.technet.microsoft.com/wiki/contents/articles/11608.e-book-gallery-for-microsoft-technologies.aspx#GettingStartedwiththeEntityFramework4.1usingASP.NETMVC).
 
 ## The Contoso University Web Application
 

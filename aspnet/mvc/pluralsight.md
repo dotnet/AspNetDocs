@@ -30,5 +30,5 @@ msc.type: content
 
 Unlock access to 3,000+ dev, IT, and creative courses that you can watch anytime, anywhere.
 
-* [ASP.NET MVC 5 Fundamentals](https://www.pluralsight.com/courses/aspdotnet-mvc5-fundamentals)
+* [ASP.NET MVC 5 Fundamentals](https://www.pluralsight.com/courses/asp-net-mvc5-web-apps)
 * [Pluralsight Pricing and plans](https://www.pluralsight.com/pricing)
