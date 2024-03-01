@@ -37,7 +37,7 @@ This technique works well for paging using a specific sort order (`ProductName` 
 Unfortunately, parameterized `ORDER BY` clauses are not allowed. Instead, we must create a stored procedure that accepts a `@sortExpression` input parameter, but uses one of the following workarounds:
 
 - Write hard-coded queries for each of the sort expressions that may be used; then, use `IF/ELSE` T-SQL statements to determine which query to execute.
-- Use a `CASE` statement to provide dynamic `ORDER BY` expressions based on the `@sortExpressio` n input parameter; see the Used to Dynamically Sort Query Results section in [The Power of SQL `CASE` Statements](http://www.4guysfromrolla.com/webtech/102704-1.shtml) for more information.
+- Use a `CASE` statement to provide dynamic `ORDER BY` expressions based on the `@sortExpressio` n input parameter; see the Used to Dynamically Sort Query Results section in [T-SQL `CASE` Statements](/sql/t-sql/language-elements/case-transact-sql) for more information.
 - Craft the appropriate query as a string in the stored procedure and then use [the `sp_executesql` system stored procedure](https://msdn.microsoft.com/library/ms188001.aspx) to execute the dynamic query.
 
 Each of these workarounds has some drawbacks. The first option is not as maintainable as the other two as it requires that you create a query for each possible sort expression. Therefore, if later you decide to add new, sortable fields to the GridView you will also need to go back and update the stored procedure. The second approach has some subtleties that introduce performance concerns when sorting by non-string database columns and also suffers from the same maintainability issues as the first. And the third choice, which uses dynamic SQL, introduces the risk for a SQL injection attack if an attacker is able to execute the stored procedure passing in the input parameter values of their choosing.
@@ -148,7 +148,7 @@ Happy Programming!
 
 ## About the Author
 
-[Scott Mitchell](http://www.4guysfromrolla.com/ScottMitchell.shtml), author of seven ASP/ASP.NET books and founder of [4GuysFromRolla.com](http://www.4guysfromrolla.com), has been working with Microsoft Web technologies since 1998. Scott works as an independent consultant, trainer, and writer. His latest book is [*Sams Teach Yourself ASP.NET 2.0 in 24 Hours*](https://www.amazon.com/exec/obidos/ASIN/0672327384/4guysfromrollaco). He can be reached at [mitchell@4GuysFromRolla.com.](mailto:mitchell@4GuysFromRolla.com) or via his blog, which can be found at [http://ScottOnWriting.NET](http://ScottOnWriting.NET).
+Scott Mitchell, author of seven ASP/ASP.NET books and founder of [4GuysFromRolla.com](http://www.4guysfromrolla.com), has been working with Microsoft Web technologies since 1998. Scott works as an independent consultant, trainer, and writer. His latest book is [*Sams Teach Yourself ASP.NET 2.0 in 24 Hours*](https://www.amazon.com/exec/obidos/ASIN/0672327384/4guysfromrollaco). He can be reached at [mitchell@4GuysFromRolla.com.](mailto:mitchell@4GuysFromRolla.com) or via his blog, which can be found at [http://ScottOnWriting.NET](http://ScottOnWriting.NET).
 
 ## Special Thanks To
 
