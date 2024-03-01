@@ -116,7 +116,6 @@ For more information on the topics discussed in this tutorial, refer to the foll
 - [Don't Run Production ASP.NET Applications with `debug="true"` Enabled](https://weblogs.asp.net/scottgu/442448)
 - Gracefully Responding to Unhandled Exceptions - Displaying User-Friendly Error Pages
 - Key Configuration Settings When Deploying a Database
-- [Visual Studio 2008 Web Deployment Projects Download](https://www.microsoft.com/downloads/details.aspx?FamilyId=0AA30AE8-C73B-4BDD-BB1B-FE697256C459&amp;displaylang=en) | Visual Studio 2005 Web Deployment Projects Download
 - [VS 2008 Web Deployment Projects](https://weblogs.asp.net/scottgu/archive/2005/11/06/429723.aspx) | [VS 2008 Web Deployment Project Support Released](https://weblogs.asp.net/scottgu/vs-2008-web-deployment-project-support-released)
 - [Web Deployment Projects](https://msdn.microsoft.com/magazine/cc163448.aspx)
 

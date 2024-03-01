@@ -76,7 +76,7 @@ Another approach is to use the Database Publishing Wizard. The Database Publishi
 
 ### Generating the SQL Commands to Create the Database Schema and Data Using the Database Publishing Wizard
 
-Let s walk through using the Database Publishing Wizard to deploy the Book Reviews database to production. If you are using Visual Studio 2008 or beyond, the Database Publishing Wizard is already installed. If you are using Visual Studio 2005 then you will need to first [download and install](https://www.microsoft.com/downloads/details.aspx?familyid=56E5B1C5-BF17-42E0-A410-371A838E570A&amp;displaylang=en) the wizard.
+Let s walk through using the Database Publishing Wizard to deploy the Book Reviews database to production. If you are using Visual Studio 2008 or beyond, the Database Publishing Wizard is already installed.
 
 Open Visual Studio and navigate to the `Reviews.mdf` database. If you are using Visual Web Developer, go to the Database Explorer; if you are using Visual Studio, use the Server Explorer. Figure 4 shows the `Reviews.mdf` database in the Database Explorer in Visual Web Developer. As Figure 4 shows, the `Reviews.mdf` database is composed of four tables, three stored procedures, and a user-defined function.
 
@@ -119,7 +119,7 @@ The final two screens summarize the actions that are about to be taken and then 
 
 Now that we have the script that contains the SQL commands to create the database and its data all that remains is to execute the script on the production database. Some web host providers offer a textbox in their Control Panel where you can enter SQL commands to execute on your database. If you have a very large script file then this option might not work (the `REVIEWS.MDF.sql` script file is over 425 KB in size, for instance).
 
-A better approach is to connect directly to the production database server using SQL Server Management Studio (SSMS). If you have a non-Express Edition of SQL Server installed on your computer then you likely already have SSMS installed. Otherwise, you can [download and install](https://www.microsoft.com/downloads/details.aspx?FamilyId=C243A5AE-4BD1-4E3D-94B8-5A0F62BF7796&amp;displaylang=en) a free copy of SQL Server Management Studio Express Edition.
+A better approach is to connect directly to the production database server using SQL Server Management Studio (SSMS). If you have a non-Express Edition of SQL Server installed on your computer then you likely already have SSMS installed. Otherwise, you can [download and install](/sql/ssms/download-sql-server-management-studio-ssms) a free copy of SQL Server Management Studio Express Edition.
 
 Launch SSMS and connect to your web host s database server using the information provided by your web host provider.
 
@@ -155,10 +155,9 @@ Happy Programming!
 
 #### Further Reading
 
-For more information on the topics discussed in this tutorial, refer to the following resources:
+For more information on the topics discussed in this tutorial, refer to the following resource:
 
-- [Download the Microsoft SQL Server Database Publishing Wizard 1.1](https://www.microsoft.com/downloads/details.aspx?familyid=56E5B1C5-BF17-42E0-A410-371A838E570A&amp;displaylang=en)
-- [Download the Microsoft SQL Server Management Studio Express Edition](https://www.microsoft.com/downloads/details.aspx?FamilyId=C243A5AE-4BD1-4E3D-94B8-5A0F62BF7796&amp;displaylang=en)
+- [Download the Microsoft SQL Server Management Studio](/sql/ssms/download-sql-server-management-studio-ssms)
 
 > [!div class="step-by-step"]
 > [Previous](core-differences-between-iis-and-the-asp-net-development-server-cs.md)

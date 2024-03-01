@@ -74,7 +74,7 @@ msc.type: content
 #### Issue: Cannot install WebMatrix Beta 3 if Microsoft Visual Studio 2008 is installed without Microsoft Visual Studio 2008 SP1
 
 > **Workaround**  
-> Install [Microsoft Visual Studio 2008 SP1](https://www.microsoft.com/downloads/details.aspx?FamilyId=FBEE1648-7106-44A7-9649-6D9F6D58056E&amp;displaylang=en) from the Microsoft Download Center.
+> Install [Microsoft Visual Studio 2008 Service Pack 1](https://www.microsoft.com/download/details.aspx?id=42540) from the Microsoft Download Center.
 
 #### Issue: Some assemblies for SQL Server Compact 4.0 are not installed in the GAC
 
@@ -171,7 +171,7 @@ This section of the document describes new features, changes, and known issues w
 > In the Beta 3 release, to disable validation for an individual field or set of fields, you can call the `Validation.Exclude` method, passing in the name or names of the fields to exclude from validation. A new syntax is available in the Beta 3 release for bypassing validation. The `Validation` method used in Beta 3 has been removed.
 > 
 > > [!NOTE]
-> > If you do not disable request validation, if users try to upload HTML markup (for example, by using a rich text editor on a page), the website will report an error like *A potentially dangerous Request.Form value was detected from the client* and the user input is not accepted. If you disable request validation, you must manually check user input to make sure that it does not contain potentially dangerous markup or script using something like the [Microsoft Anti-Cross Site Scripting Library V4.0](https://www.microsoft.com/downloads/en/details.aspx?FamilyID=f4cd231b-7e06-445b-bec7-343e5884e651).
+> > If you do not disable request validation, if users try to upload HTML markup (for example, by using a rich text editor on a page), the website will report an error like *A potentially dangerous Request.Form value was detected from the client* and the user input is not accepted. If you disable request validation, you must manually check user input to make sure that it does not contain potentially dangerous markup or script by [Preventing Cross-Site Scripting (XSS) in ASP.NET Core](/aspnet/core/security/cross-site-scripting).
 > 
 > 
 > To disable automatic request validation, call the `Request.Unvalidated` method, passing it the name of the field or other post object that you want to bypass request validation for. You can use this method to bypass validation for any items in the `Form`, `QueryString`, `Cookies`, and `ServerVariables` collections. The following examples show how to use the `Unvalidated` method:
@@ -368,9 +368,9 @@ This section of the document describes new features, changes, and known issues w
 > Uninstall SQL Server Compact 4.0 CTP1. Download and install the full versions of the .NET Framework from the following location:
 > 
 > [Microsoft .NET Framework 3.5 Service pack 1 (Full Package)](https://go.microsoft.com/fwlink/?LinkId=194828)  
-> [Microsoft .NET Framework 4.0 Release (Full Package)](https://www.microsoft.com/downloads/details.aspx?FamilyID=9cfb2d51-5ff4-4491-b0e5-b386f32c0992&amp;displaylang=en)
+> [Microsoft .NET Framework 4.0 Release (Full Package)](https://www.microsoft.com/Download/confirmation.aspx?id=17718)
 > 
-> Then reinstall [SQL Server Compact 4.0 CTP1](https://www.microsoft.com/downloads/details.aspx?FamilyID=0d2357ea-324f-46fd-88fc-7364c80e4fdb&amp;displaylang=en).
+> Then reinstall [SQL Server Compact 4.0 SP1](https://www.microsoft.com/download/details.aspx?id=30709&lc=1033).
 
 <a id="Known_Issues_Installing_Applications"></a>
 

@@ -237,8 +237,6 @@ For information about running IIS or IIS Express in Visual Studio, see the follo
 - [Core Differences Between IIS and the ASP.NET Development Server](../deploying-web-site-projects/core-differences-between-iis-and-the-asp-net-development-server-cs.md) on the ASP.NET site.
 - [Test your ASP.NET MVC or Web Forms Application on IIS 7 in 30 seconds](/archive/blogs/rickandy/test-your-asp-net-mvc-or-webforms-application-on-iis-7-in-30-seconds) on Rick Anderson's blog. This entry provides examples of why testing with the Visual Studio Development Server (Cassini) is not as reliable as testing in IIS Express, and why testing in IIS Express is not as reliable as testing in IIS.
 
-For information about what issues might arise when your application runs in medium trust, see [Hosting ASP.NET Applications in Medium Trust](http://www.4guysfromrolla.com/articles/100307-1.aspx) on the 4 Guys from Rolla site.
-
 > [!div class="step-by-step"]
 > [Previous](deployment-to-a-hosting-provider-configuring-project-properties-4-of-12.md)
 > [Next](deployment-to-a-hosting-provider-setting-folder-permissions-6-of-12.md)

@@ -213,7 +213,6 @@ For more information on the topics discussed in this tutorial, refer to the foll
 
 - [ASP.NET Master Pages and `FindControl`](http://www.west-wind.com/WebLog/posts/5127.aspx)
 - [Creating Dynamic Data Entry User Interfaces](https://msdn.microsoft.com/library/aa479330.aspx)
-- [Extending Base Type Functionality with Extension Methods](https://4guysfromrolla.com/articles/120507-1.aspx)
 - [How To: Reference ASP.NET Master Page Content](https://msdn.microsoft.com/library/xxwa0ff0.aspx)
 - [Mater Pages: Tips, Tricks, and Traps](http://www.odetocode.com/articles/450.aspx)
 - [Working with Client-Side Script](https://msdn.microsoft.com/library/aa479302.aspx)
