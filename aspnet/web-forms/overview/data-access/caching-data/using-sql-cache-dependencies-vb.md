@@ -62,7 +62,7 @@ For this tutorial add the triggers to the `Products`, `Categories`, and `Supplie
 
 ## Step 2: Referencing a Microsoft SQL Server 2005 Express Edition Database in`App_Data`
 
-The `aspnet_regsql.exe` command line program requires the database and server name in order to add the necessary polling infrastructure. But what is the database and server name for a Microsoft SQL Server 2005 Express database that resides in the `App_Data` folder? Rather than having to discover what the database and server names are, I ve found that the simplest approach is to attach the database to the `localhost\SQLExpress` database instance and rename the data using [SQL Server Management Studio](https://msdn.microsoft.com/library/ms174173.aspx). If you have one of the full versions of SQL Server 2005 installed on your machine, then you likely already have SQL Server Management Studio installed on your computer. If you only have the Express edition, you can download the free [Microsoft SQL Server Management Studio Express Edition](https://www.microsoft.com/downloads/details.aspx?displaylang=en&amp;FamilyID=C243A5AE-4BD1-4E3D-94B8-5A0F62BF7796).
+The `aspnet_regsql.exe` command line program requires the database and server name in order to add the necessary polling infrastructure. But what is the database and server name for a Microsoft SQL Server 2005 Express database that resides in the `App_Data` folder? Rather than having to discover what the database and server names are, I ve found that the simplest approach is to attach the database to the `localhost\SQLExpress` database instance and rename the data using [SQL Server Management Studio](https://msdn.microsoft.com/library/ms174173.aspx). If you have one of the full versions of SQL Server 2005 installed on your machine, then you likely already have SQL Server Management Studio installed on your computer. If you only have the Express edition, you can download the free [Microsoft SQL Server Management Studio](/sql/ssms/download-sql-server-management-studio-ssms).
 
 Start by closing Visual Studio. Next, open SQL Server Management Studio and choose to connect to the `localhost\SQLExpress` server using Windows Authentication.
 
@@ -260,7 +260,7 @@ For more information on the topics discussed in this tutorial, refer to the foll
 
 ## About the Author
 
-[Scott Mitchell](http://www.4guysfromrolla.com/ScottMitchell.shtml), author of seven ASP/ASP.NET books and founder of [4GuysFromRolla.com](http://www.4guysfromrolla.com), has been working with Microsoft Web technologies since 1998. Scott works as an independent consultant, trainer, and writer. His latest book is [*Sams Teach Yourself ASP.NET 2.0 in 24 Hours*](https://www.amazon.com/exec/obidos/ASIN/0672327384/4guysfromrollaco). He can be reached at [mitchell@4GuysFromRolla.com.](mailto:mitchell@4GuysFromRolla.com) or via his blog, which can be found at [http://ScottOnWriting.NET](http://ScottOnWriting.NET).
+Scott Mitchell, author of seven ASP/ASP.NET books and founder of [4GuysFromRolla.com](http://www.4guysfromrolla.com), has been working with Microsoft Web technologies since 1998. Scott works as an independent consultant, trainer, and writer. His latest book is [*Sams Teach Yourself ASP.NET 2.0 in 24 Hours*](https://www.amazon.com/exec/obidos/ASIN/0672327384/4guysfromrollaco). He can be reached at [mitchell@4GuysFromRolla.com.](mailto:mitchell@4GuysFromRolla.com) or via his blog, which can be found at [http://ScottOnWriting.NET](http://ScottOnWriting.NET).
 
 ## Special Thanks To
 

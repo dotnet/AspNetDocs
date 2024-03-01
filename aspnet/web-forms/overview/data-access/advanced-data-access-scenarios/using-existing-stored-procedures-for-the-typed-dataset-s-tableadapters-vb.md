@@ -164,7 +164,7 @@ The template starts by defining a `TRY...CATCH` block, a construct new to SQL Se
 If there are no errors executing the SQL statements that makeup the transaction, the `COMMIT TRANSACTION` statement commits the changes and completes the transaction. If, however, one of the statements results in an error, the `ROLLBACK TRANSACTION` in the `CATCH` block returns the database to its state prior to the start of the transaction. The stored procedure also raises an error using the [RAISERROR command](https://msdn.microsoft.com/library/ms178592.aspx), which causes a `SqlException` to be raised in the application.
 
 > [!NOTE]
-> Since the `TRY...CATCH` block is new to SQL Server 2005, the above template will not work if you are using older versions of Microsoft SQL Server. If you are not using SQL Server 2005, consult [Managing Transactions in SQL Server Stored Procedures](http://www.4guysfromrolla.com/webtech/080305-1.shtml) for a template that will work with other versions of SQL Server.
+> Since the `TRY...CATCH` block is new to SQL Server 2005, the above template will not work if you are using older versions of Microsoft SQL Server.
 
 Let s look at a concrete example. A foreign key constraint exists between the `Categories` and `Products` tables, meaning that each `CategoryID` field in the `Products` table must map to a `CategoryID` value in the `Categories` table. Any action that would violate this constraint, such as attempting to delete a category that has associated products, results in a foreign key constraint violation. To verify this, revisit the Updating and Deleting Existing Binary Data example in the Working with Binary Data section (`~/BinaryData/UpdatingAndDeleting.aspx`). This page lists each category in the system along with Edit and Delete buttons (see Figure 13), but if you attempt to delete a category that has associated products - such as Beverages - the delete fails due to a foreign key constraint violation (see Figure 14).
 
@@ -222,7 +222,7 @@ Happy Programming!
 
 ## About the Author
 
-[Scott Mitchell](http://www.4guysfromrolla.com/ScottMitchell.shtml), author of seven ASP/ASP.NET books and founder of [4GuysFromRolla.com](http://www.4guysfromrolla.com), has been working with Microsoft Web technologies since 1998. Scott works as an independent consultant, trainer, and writer. His latest book is [*Sams Teach Yourself ASP.NET 2.0 in 24 Hours*](https://www.amazon.com/exec/obidos/ASIN/0672327384/4guysfromrollaco). He can be reached at [mitchell@4GuysFromRolla.com.](mailto:mitchell@4GuysFromRolla.com) or via his blog, which can be found at [http://ScottOnWriting.NET](http://ScottOnWriting.NET).
+Scott Mitchell, author of seven ASP/ASP.NET books and founder of [4GuysFromRolla.com](http://www.4guysfromrolla.com), has been working with Microsoft Web technologies since 1998. Scott works as an independent consultant, trainer, and writer. His latest book is [*Sams Teach Yourself ASP.NET 2.0 in 24 Hours*](https://www.amazon.com/exec/obidos/ASIN/0672327384/4guysfromrollaco). He can be reached at [mitchell@4GuysFromRolla.com.](mailto:mitchell@4GuysFromRolla.com) or via his blog, which can be found at [http://ScottOnWriting.NET](http://ScottOnWriting.NET).
 
 ## Special Thanks To
 
