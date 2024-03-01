@@ -69,7 +69,7 @@ ASP.NET MVC framework. You can download the ASP.NET MVC framework from the follo
 
 In this tutorial, we use the Microsoft Entity Framework to access a database. The Entity Framework is included with .NET Framework 3.5 Service Pack 1. You can download this service pack from the following location:
 
-[https://www.microsoft.com/downloads/details.aspx?familyid=ab99342f-5d1a-413d-8319-81da479ab0d7&amp;displaylang=en](https://www.microsoft.com/downloads/details.aspx?familyid=ab99342f-5d1a-413d-8319-81da479ab0d7&amp;displaylang=en)
+[https://www.microsoft.com/download/details.aspx?id=22&desc=dotnet35](https://www.microsoft.com/download/details.aspx?id=22&desc=dotnet35)
 
 As an alternative to performing each of these downloads one by one, you can take advantage of the Web Platform Installer (Web PI). You can download the Web PI from the following address:
 

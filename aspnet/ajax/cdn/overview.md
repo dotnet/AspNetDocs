@@ -88,7 +88,7 @@ The CDN used to use the microsoft.com domain name and has been changed to use th
 
 To use the .vsdoc files properly with Visual Studio 2008 you need to make sure that you have VS 2008 SP1 installed and the hotfix for vsdoc files installed. You can get these from here:
 
-- [Download Visual Studio 2008 SP1](https://www.microsoft.com/downloads/en/details.aspx?FamilyId=FBEE1648-7106-44A7-9649-6D9F6D58056E&amp;displaylang=en "Download Visual Studio 2008 SP1")
+- [Download Visual Studio 2008 SP1](https://www.microsoft.com/download/details.aspx?id=42540 "Download Visual Studio 2008 SP1")
 - [Download .vsdoc hotfix for Visual Studio 2008 SP1](https://code.msdn.microsoft.com/KB958502/Release/ProjectReleases.aspx?ReleaseId=1736 "Download .vsdoc hotfix for Visual Studio 2008 SP1")
 
 Visual Studio 2010 supports .vsdoc files without any additional patches.

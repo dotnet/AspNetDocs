@@ -167,7 +167,7 @@ In this section we've seen how to create mobile layouts and views and how to cre
 
 ## Using jQuery Mobile
 
-The [jQuery Mobile](http://jquerymobile.com/demos/1.0b3/#/demos/1.0b3/docs/about/intro.html) library provides a user interface framework that works on all the major mobile browsers. jQuery Mobile applies *progressive enhancement* to mobile browsers that support CSS and JavaScript. Progressive enhancement allows all browsers to display the basic content of a web page, while allowing more powerful browsers and devices to have a richer display. The JavaScript and CSS files that are included with jQuery Mobile style many elements to fit mobile browsers without making any markup changes.
+The [jQuery Mobile](https://demos.jquerymobile.com/1.0b3/docs/about/intro.html) library provides a user interface framework that works on all the major mobile browsers. jQuery Mobile applies *progressive enhancement* to mobile browsers that support CSS and JavaScript. Progressive enhancement allows all browsers to display the basic content of a web page, while allowing more powerful browsers and devices to have a richer display. The JavaScript and CSS files that are included with jQuery Mobile style many elements to fit mobile browsers without making any markup changes.
 
 In this section you'll install the *jQuery.Mobile.MVC* NuGet package, which installs jQuery Mobile and a view-switcher widget.
 
@@ -383,6 +383,6 @@ This tutorial has introduced the new mobile features of ASP.NET MVC 4 Developer 
 ## See Also
 
 - [jQuery Mobile](http://jquerymobile.com) site.
-- [jQuery Mobile Overview](http://jquerymobile.com/demos/1.0b3/docs/about/intro.html)
+- [jQuery Mobile Overview](https://demos.jquerymobile.com/1.0b3/docs/about/intro.html)
 - [W3C Recommendation Mobile Web Application Best Practices](http://www.w3.org/TR/mwabp/)
 - [W3C Candidate Recommendation for media queries](http://www.w3.org/TR/css3-mediaqueries/)

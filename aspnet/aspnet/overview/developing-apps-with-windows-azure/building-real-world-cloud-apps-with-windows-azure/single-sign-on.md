@@ -90,7 +90,7 @@ What's great for enterprise single sign-on, though, is the **Directory Integrati
 
 ![Directory Integration tab](single-sign-on/_static/image13.png)
 
-If you enable directory integration, and [download a tool](https://social.technet.microsoft.com/wiki/contents/articles/19098.howto-install-the-windows-azure-active-directory-sync-tool-now-with-pictures.aspx), you can sync this cloud directory with your existing on-premises Active Directory that you're already using inside your organization. Then all of the users stored in your directory will show up in this cloud directory. Your cloud apps can now authenticate all of your employees using their existing Active Directory credentials. And all this is free – both the sync tool and Azure AD itself.
+If you enable directory integration, you can sync this cloud directory with your existing on-premises Active Directory that you're already using inside your organization. Then all of the users stored in your directory will show up in this cloud directory. Your cloud apps can now authenticate all of your employees using their existing Active Directory credentials. And all this is free – both the sync tool and Azure AD itself.
 
 The tool is a wizard that is easy to use, as you can see from these screen shots. These are not complete instructions, just an example showing you the basic process. For more detailed how-to-do-it information, see the links in the [Resources](#resources) section at the end of the chapter.
 
@@ -177,8 +177,6 @@ For more information, see the following resources:
 - [Azure Multi-Factor Authentication](/azure/multi-factor-authentication/). Portal page for documentation about multi-factor authentication in Azure.
 - [Organizational account authentication options](../../../../visual-studio/overview/2013/creating-web-projects-in-visual-studio.md#orgauthoptions). Explanation of the Azure AD authentication options in the Visual Studio 2013 new-project dialog.
 - [Microsoft Patterns and Practices - Federated Identity Pattern](https://msdn.microsoft.com/library/dn589790.aspx).
-- [HowTo: Install the Azure Active Directory Sync Tool](https://social.technet.microsoft.com/wiki/contents/articles/19098.howto-install-the-windows-azure-active-directory-sync-tool-now-with-pictures.aspx).
-- [Active Directory Federation Services 2.0 Content Map](https://social.technet.microsoft.com/wiki/contents/articles/2735.ad-fs-2-0-content-map.aspx). Links to documentation about ADFS 2.0.
 - [Role-Based and ACL-Based Authorization in a Windows Azure AD Application](https://code.msdn.microsoft.com/Role-Based-and-ACL-Based-86ad71a1). Sample application.
 - [Azure Active Directory Graph API blog](/archive/blogs/aadgraphteam/).
 - [Access Control in BYOD and Directory Integration in a Hybrid Identity Infrastructure](https://channel9.msdn.com/Events/TechEd/NorthAmerica/2014/PCIT-B213#fbid=). Tech Ed 2014 session video by Gayana Bagdasaryan.
