@@ -88,7 +88,7 @@ I would like to thank the following people who made significant contributions to
 - Mohit Srivastava, Microsoft
 - [Raffaele Rialdi, Italy](http://www.iamraf.net/)
 - [Rick Anderson, Microsoft](/archive/blogs/rickandy/)
-- [Sayed Hashimi, Microsoft](http://sedodream.com/default.aspx)(twitter: [@sayedihashimi](http://twitter.com/sayedihashimi))
+- [Sayed Hashimi, Microsoft](https://devblogs.microsoft.com/visualstudio/author/hass0002/)(twitter: [@sayedihashimi](http://twitter.com/sayedihashimi))
 - [Scott Hanselman](http://www.hanselman.com/blog/) (twitter: [@shanselman](http://twitter.com/shanselman))
 - [Scott Hunter, Microsoft](/archive/blogs/scothu/) (twitter: [@coolcsh](http://twitter.com/coolcsh))
 - [Srđan Božović, Serbia](http://msforge.net/blogs/zmajcek/)
