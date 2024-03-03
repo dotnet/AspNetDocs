@@ -11,4 +11,4 @@ msc.type: content
 ---
 # MVC Video Training
 
-Bing CoPilot can be used to search for MVC videos.
+[Microsoft Copilot](https://copilot.microsoft.com/)  can be used to search for MVC videos.
