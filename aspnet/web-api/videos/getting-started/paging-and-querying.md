@@ -10,3 +10,10 @@ msc.legacyurl: /web-api/videos/getting-started/paging-and-querying
 msc.type: video
 ---
 # ASP.NET Web API, Part 4: Paging and Querying
+
+by [Jon Galloway](https://github.com/jongalloway)
+
+> [!NOTE]
+> This video contains information from a pre-release version of ASP.NET Web API.
+
+[&#9654; Watch video (5 minutes)](https://learn.microsoft.com/en-us/shows/asp-net-site-videos/paging-querying)
