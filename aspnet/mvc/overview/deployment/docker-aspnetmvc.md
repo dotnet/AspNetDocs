@@ -69,9 +69,9 @@ Click **Publish**, and Visual Studio will copy all the needed assets to the dest
 Create a new file named *Dockerfile* to define your Docker image. *Dockerfile* contains instructions to build the final image and includes any base image names, required components, the app you want to run, and other configuration images. *Dockerfile* is the input to the `docker build` command that creates the image.
 
 For this exercise, you will build an image based on the `microsoft/aspnet`
-image located on [Docker Hub](https://hub.docker.com/r/microsoft/aspnet/).
-The base image, `microsoft/aspnet`, is a Windows Server image. It contains
-Windows Server Core, IIS, and ASP.NET 4.7.2. When you run this image in your container, it will automatically start IIS and installed websites.
+image located on [Docker Hub](https://hub.docker.com/r/microsoft/dotnet-framework/).
+The base image, `mcr.microsoft.com/dotnet/framework/aspnet:4.8`, is a Windows Server image. It contains
+Windows Server Core, IIS, and ASP.NET 4.8. When you run this image in your container, it will automatically start IIS and installed websites.
 
 The Dockerfile that creates your image looks like this:
 
