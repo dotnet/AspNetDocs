@@ -116,7 +116,7 @@ In addition, you'll need to specify various other [provider-specific settings](h
 
 **To deploy a web application using MSDeploy.exe using an access token**
 
-MSDeploy V3 supports authentication with an access token, also known as a bearer token. If available, it is recommended to use an access token for best security.
+MSDeploy V3 supports authentication with an access token, also known as a bearer token. Access tokens are recommended because they are the most secure.
 
 1. Build and package the web application project, as described in [Building and Packaging Web Application Projects](building-and-packaging-web-application-projects.md).
 1. Modify the *ContactManager.Mvc.SetParameters.xml* file to contain the correct parameter values for your staging environment, as described in [Configuring Parameters for Web Package Deployment](configuring-parameters-for-web-package-deployment.md).
@@ -148,7 +148,7 @@ MSDeploy V3 supports authentication with an access token, also known as a bearer
 In this example:
 
 - The **–source** parameter specifies the **package** provider and indicates the location of the web package.
-- The **–dest** parameter specifies the **auto** provider. The **computerName** setting provides the service URL of the Web Deploy Handler on the destination server. The **authtype** setting `Bearer` indicates that you want to use an access token for authentication, and as such you need to provide the token value as the **password**. Finally, the **includeAcls="False"** setting indicates that you don't want to copy the access control lists (ACLs) of the files in your source web application to the destination server.
+- The **–dest** parameter specifies the **auto** provider. The **computerName** setting provides the service URL of the Web Deploy Handler on the destination server. The **authtype** setting `Bearer` indicates that you want to use an access token for authentication, and as such you need to provide the token value as the **password**. The **includeAcls="False"** setting indicates that you don't want to copy the access control lists (ACLs) of the files in your source web application to the destination server.
 - The **–verb:sync** argument indicates that you want to replicate the source content on the destination server.
 - The **–disableLink** arguments indicate that you don't want to replicate application pools, virtual directory configuration, or Secure Sockets Layer (SSL) certificates on the destination server. For more information, see [Web Deploy Link Extensions](https://technet.microsoft.com/library/dd569028(WS.10).aspx).
 - The **–setParamFile** parameter provides the location of the *SetParameters.xml* file.
