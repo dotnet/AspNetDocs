@@ -4,7 +4,7 @@ title: "Deploying Web Packages | Microsoft Docs"
 author: jrjlee
 description: "This topic describes how you can publish web deployment packages to a remote server by using the Internet Information Services (IIS) Web Deployment Tool (Web..."
 ms.author: riande
-ms.date: 05/04/2012
+ms.date: 08/08/2024
 ms.assetid: a5c5eed2-8683-40a5-a2e1-35c9f8d17c29
 msc.legacyurl: /web-forms/overview/deployment/web-deployment-in-the-enterprise/deploying-web-packages
 msc.type: authoredcontent
@@ -52,7 +52,7 @@ You must specify either a **/T** flag or a **/Y** flag, to indicate whether you 
 | **/T** | Calls MSDeploy.exe with the **–whatif** flag, which indicates a trial run. Rather than deploying the package, it creates a report of what would happen if you did deploy the package. |
 | **/Y** | Calls MSDeploy.exe without the **–whatif** flag. This deploys the package to the local computer or the specified destination server. |
 | **/M** | Specifies the destination server name or service URL. For more information on the values you can provide here, see the **Endpoint Considerations** section in this topic. If you omit the **/M** flag, the package will be deployed to the local computer. |
-| **/A** | Specifies the authentication type that MSDeploy.exe should use to perform the deployment. Possible values are **NTLM** and **Basic**. If you omit the **/A** flag, the authentication type defaults to **NTLM** for deployment to the Web Deploy Remote Agent service and to **Basic** for deployment to the Web Deploy Handler. |
+| **/A** | Specifies the authentication type that MSDeploy.exe should use to perform the deployment. Possible values are **Bearer**, **NTLM** and **Basic**. If you omit the **/A** flag, the authentication type defaults to **NTLM** for deployment to the Web Deploy Remote Agent service and to **Basic** for deployment to the Web Deploy Handler. |
 | **/U** | Specifies the user name. This applies only if you're using basic authentication. |
 | **/P** | Specifies the password. This applies only if you're using basic authentication. |
 | **/L** | Indicates that the package should be deployed to the local IIS Express instance. |
@@ -114,11 +114,54 @@ MSDeploy.exe relies on [Web Deploy providers](https://technet.microsoft.com/libr
 
 In addition, you'll need to specify various other [provider-specific settings](https://technet.microsoft.com/library/dd569001(WS.10).aspx) and general [operation settings](https://technet.microsoft.com/library/dd569089(WS.10).aspx). For example, suppose you want to deploy the ContactManager.Mvc web application to a staging environment. The deployment will target the Web Deploy Handler and must use basic authentication. To deploy the web application, you need to complete the next steps.
 
-**To deploy a web application using MSDeploy.exe**
+**To deploy a web application using MSDeploy.exe using an access token**
+
+MSDeploy V3 supports authentication with an access token, also known as a bearer token. Access tokens are recommended because they are the most secure.
+
+1. Build and package the web application project, as described in [Building and Packaging Web Application Projects](building-and-packaging-web-application-projects.md).
+1. Modify the *ContactManager.Mvc.SetParameters.xml* file to contain the correct parameter values for your staging environment, as described in [Configuring Parameters for Web Package Deployment](configuring-parameters-for-web-package-deployment.md).
+1. Open a Command Prompt window and browse to the location of MSDeploy.exe. This is typically at `%PROGRAMFILES%\IIS\Microsoft Web Deploy {version}\msdeploy.exe`.
+1. If you don't have an access token, create one using the command:
+
+   `az account get-access-token --query accessToken`
+
+1. Type this command, and then press Enter (disregard the line breaks):
+
+   ```cmd
+   MSDeploy.exe
+     -source:package="[path]\ContactManager.Mvc.zip"
+     -dest:auto,
+           computerName="https://stageweb1:8172/MSDeploy.axd?site=DemoSite",
+           username="FABRIKAM\stagingdeployer",
+           $CREDENTIAL_PLACEHOLDER$,
+           authtype="Bearer",
+           includeAcls="False",
+           Password="{token}"
+     -verb:sync
+     -disableLink:AppPoolExtension
+     -disableLink:ContentExtension
+     -disableLink:CertificateExtension
+     -setParamFile:"[path]\ContactManager.Mvc.SetParameters.xml"
+     -allowUntrusted
+     ```
+
+In this example:
+
+- The **–source** parameter specifies the **package** provider and indicates the location of the web package.
+- The **–dest** parameter specifies the **auto** provider. The **computerName** setting provides the service URL of the Web Deploy Handler on the destination server. The **authtype** setting `Bearer` indicates that you want to use an access token for authentication, and as such you need to provide the token value as the **password**. The **includeAcls="False"** setting indicates that you don't want to copy the access control lists (ACLs) of the files in your source web application to the destination server.
+- The **–verb:sync** argument indicates that you want to replicate the source content on the destination server.
+- The **–disableLink** arguments indicate that you don't want to replicate application pools, virtual directory configuration, or Secure Sockets Layer (SSL) certificates on the destination server. For more information, see [Web Deploy Link Extensions](https://technet.microsoft.com/library/dd569028(WS.10).aspx).
+- The **–setParamFile** parameter provides the location of the *SetParameters.xml* file.
+- The **–allowUntrusted** switch indicates that Web Deploy should accept SSL certificates that were not issued by a trusted certification authority. If you're deploying to the Web Deploy Handler, and you've used a self-signed certificate to secure the service URL, you need to include this switch.
+
+**To deploy a web application using MSDeploy.exe and Basic authentication**
+
+> [!WARNING]
+> Basic authentication is not recommended if more secure methods (bearer token) are available.
 
 1. Build and package the web application project, as described in [Building and Packaging Web Application Projects](building-and-packaging-web-application-projects.md).
 2. Modify the *ContactManager.Mvc.SetParameters.xml* file to contain the correct parameter values for your staging environment, as described in [Configuring Parameters for Web Package Deployment](configuring-parameters-for-web-package-deployment.md).
-3. Open a Command Prompt window and browse to the location of MSDeploy.exe. This is typically at %PROGRAMFILES%\IIS\Microsoft Web Deploy V2\msdeploy.exe.
+3. Open a Command Prompt window and browse to the location of MSDeploy.exe. This is typically at `%PROGRAMFILES%\IIS\Microsoft Web Deploy {version}\msdeploy.exe`.
 4. Type this command, and then press Enter (disregard the line breaks):
 
     [!code-console[Main](deploying-web-packages/samples/sample7.cmd)]
@@ -170,10 +213,10 @@ This is because the non-administrator user doesn't have server-level access to I
 
 ## Authentication Considerations
 
-Regardless of whether you deploy your web package by running the *.deploy.cmd* file or by using MSDeploy.exe directly, you need to specify an authentication type. Web Deploy accepts two possible values: **NTLM** or **Basic**. If you specify basic authentication, you also need to provide a user name and password. There are various factors you need to be aware of when you select an authentication type:
+Regardless of whether you deploy your web package by running the *.deploy.cmd* file or by using MSDeploy.exe directly, you need to specify an authentication type. Web Deploy accepts possible values: **Bearer**, **NTLM**, or **Basic**. If you specify **Bearer**, you need to provide the token as the password and any value for the user name. If you specify basic authentication, you also need to provide a user name and password. There are various factors you need to be aware of when you select an authentication type:
 
 - If you're deploying to the Web Deploy Remote Agent service, you must use NTLM authentication. The remote agent service doesn't accept basic authentication credentials.
-- If you're deploying to the Web Deploy Handler, you can use either NTLM or basic authentication. The default setting is basic authentication. Although basic authentication relies on user names and passwords being transmitted in plain text, your credentials are protected as the Web Deploy Handler always uses SSL encryption.
+- If you're deploying to the Web Deploy Handler, you can use either an access token (bearer token), NTLM or basic authentication. The default setting is basic authentication. Basic authentication relies on user names and passwords being transmitted in plain text, your credentials are protected as the Web Deploy Handler always uses SSL encryption. The most secure method is to use an access token, which avoids sending an actual password.
 - If your web package includes a database, and the web server and database server are separate machines, you won't be able to deploy the database using NTLM authentication due to the [NTLM "double-hop" limitation](https://go.microsoft.com/?linkid=9805120). You need to either use SQL Server credentials in your deployment connection string or supply basic authentication credentials to Web Deploy. This issue is described in more detail in [Deploying Membership Databases to Enterprise Environments](../advanced-enterprise-web-deployment/deploying-membership-databases-to-enterprise-environments.md).
 
 ## Conclusion
