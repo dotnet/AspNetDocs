@@ -2999,8 +2999,6 @@
 - name: Visual Studio 2013
   href: visual-studio/overview/2013/index.md
   items: 
-    - name: Creating ASP.NET Web Projects in Visual Studio 2013
-      href: visual-studio/overview/2013/creating-web-projects-in-visual-studio.md
     - name: Visual Studio 2013 Web Editor Features - Browser Link
       href: visual-studio/overview/2013/visual-studio-2013-web-editor-features-browser-link.md
     - name: Visual Studio 2013 Web Editor Features - CSS
