@@ -112,8 +112,6 @@ The load method creates and opens the Add Genre dialog and calls the jQuery `par
 
 In this section you have learned how to create a dialog that can be used to add new category data to a select list. You can follow the same procedure to create UI to add a new artist to the artist select list. This tutorial has given an overview of working with the ASP.NET MVC HTML helper **DropDownList**. For additional information on working with the **DropDownList**, see the addition references section below. Please let us know if this tutorial has been helpful.
 
-Rick.Anderson[at]Microsoft.com
-
 ### Additional References
 
 - [ASP.NET MVC–Cascading Dropdown Lists Tutorial](https://weblogs.asp.net/raduenuca/archive/2011/03/06/asp-net-mvc-cascading-dropdown-lists-tutorial-part-1-defining-the-problem-and-the-context.aspx) by [Radu Enuca](https://weblogs.asp.net/raduenuca/default.aspx)

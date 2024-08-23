@@ -3075,8 +3075,6 @@
               href: identity/overview/getting-started/aspnet-identity-recommended-resources.md
             - name: Adding ASP.NET Identity to an Empty or Existing Web Forms Project
               href: identity/overview/getting-started/adding-aspnet-identity-to-an-empty-or-existing-web-forms-project.md
-            - name: Developing ASP.NET Apps with Azure Active Directory
-              href: identity/overview/getting-started/developing-aspnet-apps-with-windows-azure-active-directory.md
             - name: "ASP.NET Identity: Using MySQL Storage with an EntityFramework MySQL Provider (C#)"
               href: identity/overview/getting-started/aspnet-identity-using-mysql-storage-with-an-entityframework-mysql-provider.md
         - name: Features & API
