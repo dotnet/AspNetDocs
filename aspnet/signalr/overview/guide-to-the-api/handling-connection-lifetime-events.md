@@ -1,5 +1,5 @@
 ---
-uid: signalr/overview/guide-to-the-api/handling-connection-lifetime-events
+uid: signalr/overview/guide-to-the-api/handling-connection-lifetime-events 
 title: "Understanding and Handling Connection Lifetime Events in SignalR | Microsoft Docs"
 author: bradygaster
 description: "This article describes how to use the events that are exposed by the Hubs API."
@@ -80,6 +80,7 @@ This article will differentiate between *SignalR connections*, *transport connec
 In the following diagram, the SignalR connection is represented by the Hubs API and PersistentConnection API SignalR layer, the transport connection is represented by the Transports layer, and the physical connection is represented by the lines between the server and the clients.
 
 ![SignalR architecture diagram](handling-connection-lifetime-events/_static/image1.png)
+<p><img src="handling-connection-lifetime-events/_static/image6.png" alt="Server failure and timeout" data-linktype="relative-path"></p>
 
 When you call the `Start` method in a SignalR client, you are providing SignalR client code with all the information it needs in order to establish a physical connection to a server. SignalR client code uses this information to make an HTTP request and establish a physical connection that uses one of the four transport methods. If the transport connection fails or the server fails, the SignalR connection doesn't go away immediately because the client still has the information it needs to automatically re-establish a new transport connection to the same SignalR URL. In this scenario, no intervention from the user application is involved, and when the SignalR client code establishes a new transport connection, it does not start a new SignalR connection. The continuity of the SignalR connection is reflected in the fact that the connection ID, which is created when you call the `Start` method, does not change.
 
@@ -105,11 +106,11 @@ The following diagram illustrates the client and server events that are raised i
 - The transport is WebSockets, forever frame, or server-sent events.
 - There are varying periods of interruption in the physical network connection.
 - The transport API does not become aware of the interruptions, so SignalR relies on the keepalive functionality to detect them.
-
+<p><img src="handling-connection-lifetime-events/_static/image6.png" alt="Server failure and timeout" data-linktype="relative-path"></p>
 ![Transport disconnections](handling-connection-lifetime-events/_static/image2.png)
 
 If the client goes into reconnecting mode but can't establish a transport connection within the disconnect timeout limit, the server terminates the SignalR connection. When that happens, the server executes the Hub's `OnDisconnected` method and queues up a disconnect message to send to the client in case the client manages to connect later. If the client then does reconnect, it receives the disconnect command and calls the `Stop` method. In this scenario, `OnReconnected` is not executed when the client reconnects, and `OnDisconnected` is not executed when the client calls `Stop`. The following diagram illustrates this scenario.
-
+<p><img src="handling-connection-lifetime-events/_static/image6.png" alt="Server failure and timeout" data-linktype="relative-path"></p>
 ![Transport disruptions - server timeout](handling-connection-lifetime-events/_static/image3.png)
 
 The SignalR connection lifetime events that may be raised on the client are the following:
