@@ -107,6 +107,7 @@ The following diagram illustrates the client and server events that are raised i
 - The transport API does not become aware of the interruptions, so SignalR relies on the keepalive functionality to detect them.
 
 ![Transport disconnections](handling-connection-lifetime-events/_static/image2.png)
+![the Transport disconnections](https://github.com/user-attachments/assets/72609cb1-7560-426f-b242-4a1860774c09)
 
 If the client goes into reconnecting mode but can't establish a transport connection within the disconnect timeout limit, the server terminates the SignalR connection. When that happens, the server executes the Hub's `OnDisconnected` method and queues up a disconnect message to send to the client in case the client manages to connect later. If the client then does reconnect, it receives the disconnect command and calls the `Stop` method. In this scenario, `OnReconnected` is not executed when the client reconnects, and `OnDisconnected` is not executed when the client calls `Stop`. The following diagram illustrates this scenario.
 
