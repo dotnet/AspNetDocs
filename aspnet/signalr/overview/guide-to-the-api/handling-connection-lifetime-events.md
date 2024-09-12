@@ -106,12 +106,17 @@ The following diagram illustrates the client and server events that are raised i
 - There are varying periods of interruption in the physical network connection.
 - The transport API does not become aware of the interruptions, so SignalR relies on the keepalive functionality to detect them.
 
+<!--
 ![Transport disconnections](handling-connection-lifetime-events/_static/image2.png)
+-->
 ![the Transport disconnections](https://github.com/user-attachments/assets/72609cb1-7560-426f-b242-4a1860774c09)
 
 If the client goes into reconnecting mode but can't establish a transport connection within the disconnect timeout limit, the server terminates the SignalR connection. When that happens, the server executes the Hub's `OnDisconnected` method and queues up a disconnect message to send to the client in case the client manages to connect later. If the client then does reconnect, it receives the disconnect command and calls the `Stop` method. In this scenario, `OnReconnected` is not executed when the client reconnects, and `OnDisconnected` is not executed when the client calls `Stop`. The following diagram illustrates this scenario.
 
+<!--
 ![Transport disruptions - server timeout](handling-connection-lifetime-events/_static/image3.png)
+-->
+<img  alt="Transport disruptions - server timeout" src="https://github.com/user-attachments/assets/ce60953d-b4cf-4a07-bdb6-fb009e86bf14">
 
 The SignalR connection lifetime events that may be raised on the client are the following:
 
@@ -150,7 +155,10 @@ In a browser client, the SignalR client code that maintains a SignalR connection
 
 If a client application or the computer that it's running on crashes or goes to sleep (for example, when the user closes the laptop), the server is not informed about what happened. As far as the server knows, the loss of the client might be due to connectivity interruption and the client might be trying to reconnect. Therefore, in these scenarios the server waits to give the client a chance to reconnect, and `OnDisconnected` does not execute until the disconnect timeout period expires (about 30 seconds by default). The following diagram illustrates this scenario.
 
+<!-- <img width="343" alt="
 ![Client computer failure](handling-connection-lifetime-events/_static/image4.png)
+-->
+<img alt="Client computer failure" src="https://github.com/user-attachments/assets/59c71d6e-101a-440c-8b0b-5bccd2bb41bd">
 
 <a id="serverdisconnect"></a>
 
@@ -158,8 +166,10 @@ If a client application or the computer that it's running on crashes or goes to 
 
 When a server goes offline -- it reboots, fails, the app domain recycles, etc. -- the result might be similar to a lost connection, or the transport API and SignalR might know immediately that the server is gone, and SignalR might begin trying to reconnect without raising the `ConnectionSlow` event. If the client goes into reconnecting mode, and if the server recovers or restarts or a new server is brought online before the disconnect timeout period expires, the client will reconnect to the restored or new server. In that case, the SignalR connection continues on the client and the `Reconnected` event is raised. On the first server, `OnDisconnected` is never executed, and on the new server, `OnReconnected` is executed although `OnConnected` was never executed for that client on that server before. (The effect is the same if the client reconnects to the same server after a reboot or app domain recycle, because when the server restarts it has no memory of prior connection activity.) The following diagram assumes that the transport API becomes aware of the lost connection immediately, so the `ConnectionSlow` event is not raised.
 
+<!--
 ![Server failure and reconnection](handling-connection-lifetime-events/_static/image5.png)
-
+-->
+<img alt="Server failure and reconnection" src="https://github.com/user-attachments/assets/de59cde4-f797-4249-98de-b63e4d4ed2bf">
 If a server does not become available within the disconnect timeout period, the SignalR connection ends. In this scenario, the `Closed` event (`disconnected` in JavaScript clients) is raised on the client but `OnDisconnected` is never called on the server. The following diagram assumes that the transport API does not become aware of the lost connection, so it is detected by SignalR keepalive functionality and the `ConnectionSlow` event is raised.
 
 ![Server failure and timeout](handling-connection-lifetime-events/_static/image6.png)
@@ -177,8 +187,10 @@ The default `ConnectionTimeout`, `DisconnectTimeout`, and `KeepAlive` values are
 This setting represents the amount of time to leave a transport connection open and waiting for a response before closing it and opening a new connection. The default value is 110 seconds.
 
 This setting applies only when keepalive functionality is disabled, which normally applies only to the long polling transport. The following diagram illustrates the effect of this setting on a long polling transport connection.
-
+<!--
 ![Long polling transport connection](handling-connection-lifetime-events/_static/image7.png)
+-->
+<img  alt="Long polling transport connection" src="https://github.com/user-attachments/assets/369cb0b5-a5eb-4b58-a20e-3eb9cb9a9118">
 
 <a id="disconnecttimeout"></a>
 
