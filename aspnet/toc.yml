@@ -2999,8 +2999,6 @@
 - name: Visual Studio 2013
   href: visual-studio/overview/2013/index.md
   items: 
-    - name: Creating ASP.NET Web Projects in Visual Studio 2013
-      href: visual-studio/overview/2013/creating-web-projects-in-visual-studio.md
     - name: Visual Studio 2013 Web Editor Features - Browser Link
       href: visual-studio/overview/2013/visual-studio-2013-web-editor-features-browser-link.md
     - name: Visual Studio 2013 Web Editor Features - CSS
@@ -3054,8 +3052,6 @@
       href: visual-studio/overview/2012/visual-studio-vnext-videos-page-inspector-introduction.md
     - name: Page Inspector - Decomposing your Web Application
       href: visual-studio/overview/2012/visual-studio-vnext-videos-page-inspector-decomposing-your-web-application.md
-    - name: Windows Azure Authentication
-      href: visual-studio/overview/2012/windows-azure-authentication.md
     - name: ASP.NET and Web Tools 2012.2 Release Notes
       href: visual-studio/overview/2012/aspnet-and-web-tools-20122-release-notes-rtw.md
 - name: Entity Framework
