@@ -20,7 +20,7 @@ by [Rick Anderson](https://twitter.com/RickAndMSFT)
 
 We recommend using the most secure secure authentication option. For Azure services, the most secure authentication is [managed identities](/entra/identity/managed-identities-azure-resources/overview). For many apps, the most secure option is to use the [Azure Key Vault](/azure/key-vault/general/overview).
 
-Avoid Resource Owner Password Credentials Grant because it:
+Avoid [Resource Owner Password Credentials Grant](/entra/identity-platform/developer-glossary#resource-owner) because it:
 
 * Exposes the user's password to the client.
 * Is a significant security risk.
