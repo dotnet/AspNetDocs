@@ -13,7 +13,7 @@ msc.type: authoredcontent
 
 by [Rick Anderson](https://twitter.com/RickAndMSFT)
 
-> Warning
+> [!WARNING]
 >
 > * Never store passwords or other sensitive data in source code, including configuration files.
 > * Never use production secrets in development and test.
