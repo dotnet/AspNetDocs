@@ -17,9 +17,9 @@ by [Rick Anderson](https://twitter.com/RickAndMSFT)
 >
 > This tutorial will teach you the basics of building an ASP.NET MVC 4 Web application using Microsoft [Visual Studio Express 2012](https://www.microsoft.com/visualstudio/11/products/express) or Visual Web Developer 2010 Express Service Pack 1. Visual Studio 2012 is recommended, you won't need to install anything to complete the tutorial. If you are using Visual Studio 2010 you must install the components below. You can install all of them by clicking the following links:
 >
-> - [Visual Studio Web Developer Express SP1 prerequisites](https://www.microsoft.com/web/gallery/install.aspx?appid=VWD2010SP1Pack)
+> - [Visual Studio Web Developer Express SP1 prerequisites](https://my.visualstudio.com/Downloads?q=visual%20studio%202010%20service%20pack%201)
 > - [WPI installer for ASP.NET MVC 4](https://go.microsoft.com/fwlink/?LinkId=243392)
-> - [LocalDB](https://www.microsoft.com/web/gallery/install.aspx?appid=SQLLocalDBOnly_11_0)
+> - [LocalDB](/sql/database-engine/configure-windows/sql-server-express-localdb?view=sql-server-ver16#install-localdb)
 > - [SSDT](/archive/blogs/rickandy/installing-and-using-sql-server-data-tools-ssdt-on-visual-studio-2010-and-vwd)
 >
 > If you're using Visual Studio 2010 instead of Visual Web Developer 2010, install the [WPI installer for ASP.NET MVC 4](https://go.microsoft.com/fwlink/?LinkId=243392) and the: [Visual Studio 2010 prerequisites](https://www.microsoft.com/web/gallery/install.aspx?appsxml=&amp;appid=VS2010SP1Pack)
