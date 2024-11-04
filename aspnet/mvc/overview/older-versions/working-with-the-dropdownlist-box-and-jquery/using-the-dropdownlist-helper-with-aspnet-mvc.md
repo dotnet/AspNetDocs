@@ -13,11 +13,11 @@ msc.type: authoredcontent
 
 by [Rick Anderson](https://twitter.com/RickAndMSFT)
 
-This tutorial will teach you the basics of working with the [DropDownList](https://msdn.microsoft.com/library/dd492948.aspx) helper and the [ListBox](https://msdn.microsoft.com/library/system.web.mvc.html.selectextensions.listbox.aspx) helper in an ASP.NET MVC Web application. You can use Microsoft Visual Web Developer 2010 Express Service Pack 1, which is a free version of Microsoft Visual Studio to follow the tutorial. Before you start, make sure you've installed the prerequisites listed below. You can install all of them by clicking the following link: [Web Platform Installer](https://www.microsoft.com/web/gallery/install.aspx?appid=VWD2010SP1Pack). Alternatively, you can individually install the prerequisites using the following links:
+This tutorial will teach you the basics of working with the [DropDownList](https://msdn.microsoft.com/library/dd492948.aspx) helper and the [ListBox](https://msdn.microsoft.com/library/system.web.mvc.html.selectextensions.listbox.aspx) helper in an ASP.NET MVC Web application. You can use Microsoft Visual Web Developer 2010 Express Service Pack 1, which is a free version of Microsoft Visual Studio to follow the tutorial. Before you start, make sure you've installed the prerequisites listed below. You can install all of them by clicking the following link: [Web Platform Installer](https://my.visualstudio.com/Downloads?q=visual%20studio%202010%20service%20pack%201). Alternatively, you can individually install the prerequisites using the following links:
 
-- [Visual Studio Web Developer Express SP1 prerequisites](https://www.microsoft.com/web/gallery/install.aspx?appid=VWD2010SP1Pack) <a id="post"></a>
+- [Visual Studio Web Developer Express SP1 prerequisites](https://my.visualstudio.com/Downloads?q=visual%20studio%202010%20service%20pack%201) <a id="post"></a>
 - [ASP.NET MVC 3 Tools Update](https://www.microsoft.com/web/gallery/install.aspx?appsxml=&amp;appid=MVC3)
-- [SQL Server Compact 4.0](https://www.microsoft.com/web/gallery/install.aspx?appid=SQLCE;SQLCEVSTools_4_0)(runtime + tools support)
+- [SQL Server Compact 4.0](https://www.microsoft.com/download/details.aspx?id=30709)(runtime + tools support)
 
 If you're using Visual Studio 2010 instead of Visual Web Developer 2010, install the prerequisites by clicking the following link: [Visual Studio 2010 prerequisites](https://www.microsoft.com/web/gallery/install.aspx?appsxml=&amp;appid=VS2010SP1Pack). This tutorial assumes you have completed the [Intro to ASP.NET MVC](../getting-started-with-aspnet-mvc3/cs/intro-to-aspnet-mvc-3.md) tutorial or the[ASP.NET MVC Music Store](../mvc-music-store/mvc-music-store-part-1.md) tutorial or you are familiar with ASP.NET MVC development. This tutorial starts with a modified project from the [ASP.NET MVC Music Store](../mvc-music-store/mvc-music-store-part-1.md) tutorial.
 
