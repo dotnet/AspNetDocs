@@ -82,7 +82,7 @@ Before you start, make sure that you have Windows 7 or later and one of the foll
 If you have Visual Studio 2010 SP1 or Visual Web Developer Express 2010 SP1, install the following products also:
 
 - [Azure SDK for .NET (VS 2010 SP1)](https://go.microsoft.com/fwlink/?LinkID=208120) (includes the Web Publish Update)
-- [Microsoft Visual Studio 2010 SP1 Tools for SQL Server Compact 4.0](https://www.microsoft.com/web/gallery/install.aspx?appid=SQLCEVSTools)
+- [Microsoft Visual Studio 2010 SP1 Tools for SQL Server Compact 4.0](/visualstudio/releasenotes/vs2010-sp1-vs#sql-server-ce-4-support)
 
 Some other software is required in order to complete the tutorial, but you don't have to have that loaded yet. The tutorial will walk you through the steps for installing it when you need it.
 

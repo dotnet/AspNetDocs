@@ -61,9 +61,7 @@ After you install either Visual Studio 2008 or Visual Web Developer 2008, you ne
 
 > [!NOTE] 
 > 
-> Instead of downloading the ASP.NET framework and the ASP.NET MVC framework individually, you can take advantage of the Web Platform Installer. The Web Platform Installer is an application that enables you to easily manage the installed applications are your computer:
-> 
-> [https://www.microsoft.com/web/gallery/Install.aspx](https://www.microsoft.com/web/gallery/Install.aspx)
+> Instead of downloading the ASP.NET framework and the ASP.NET MVC framework individually, you can take advantage of the Web Platform Installer. The Web Platform Installer is an application that enables you to easily manage the installed applications are your computer.
 
 ## Creating an ASP.NET MVC Web Application Project
 
