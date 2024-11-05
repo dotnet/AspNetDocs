@@ -751,7 +751,7 @@ With code snippets, you have all the code you need at your fingertips. The lab d
 
 You can install **Microsoft Visual Studio Express 2012 for Web** or another &quot;Express&quot; version using the **[Microsoft Web Platform Installer](https://www.microsoft.com/web/downloads/platform.aspx)**. The following instructions guide you through the steps required to install *Visual studio Express 2012 for Web* using *Microsoft Web Platform Installer*.
 
-1. Go to [[https://go.microsoft.com/?linkid=9810169](https://go.microsoft.com/?linkid=9810169)](https://go.microsoft.com/?linkid=9810169). Alternatively, if you already have installed Web Platform Installer, you can open it and search for the product &quot;*Visual Studio Express 2012 for Web with Windows Azure SDK*&quot;.
+1. Go to [[/iis/extensions/introduction-to-iis-express/iis-express-overview?linkid=9810169](/iis/extensions/introduction-to-iis-express/iis-express-overview?linkid=9810169)](/iis/extensions/introduction-to-iis-express/iis-express-overview?linkid=9810169). Alternatively, if you already have installed Web Platform Installer, you can open it and search for the product &quot;*Visual Studio Express 2012 for Web with Windows Azure SDK*&quot;.
 2. Click on **Install Now**. If you do not have **Web Platform Installer** you will be redirected to download and install it first.
 3. Once **Web Platform Installer** is open, click **Install** to start the setup.
 
@@ -792,7 +792,7 @@ To run your site in a simulated iPhone device you can use the WebMatrix extensio
 <a id="Task_1_-_Installing_WebMatrix_2"></a>
 #### Task 1 - Installing WebMatrix 2
 
-1. Go to [[https://go.microsoft.com/?linkid=9809776](https://go.microsoft.com/?linkid=9809776)](https://go.microsoft.com/?linkid=9810169). Alternatively, if you already have installed Web Platform Installer, you can open it and search for the product &quot;*WebMatrix 2*&quot;.
+1. Go to [[/iis/extensions/introduction-to-iis-express/iis-express-overview?linkid=9810169](/iis/extensions/introduction-to-iis-express/iis-express-overview?linkid=9810169)](/iis/extensions/introduction-to-iis-express/iis-express-overview?linkid=9810169). Alternatively, if you already have installed Web Platform Installer, you can open it and search for the product &quot;*WebMatrix 2*&quot;.
 2. Click on **Install Now**. If you do not have **Web Platform Installer** you will be redirected to download and install it first.
 3. Once **Web Platform Installer** is open, click **Install** to start the setup.
 

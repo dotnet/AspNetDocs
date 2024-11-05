@@ -228,7 +228,7 @@ Happy Programming!
 
 For more information on the topics discussed in this tutorial, refer to the following resources:
 
-- [ASP.NET Page Lifecycle Diagram](http://emanish.googlepages.com/Asp.Net2.0Lifecycle.PNG)
+- ASP.NET Page Lifecycle Diagram
 - [ASP.NET Page Lifecycle Overview](https://msdn.microsoft.com/library/ms178472.aspx)
 - [ASP.NET Themes and Skins Overview](https://msdn.microsoft.com/library/ykzx33wh.aspx)
 - [Master Pages: Tips, Tricks, and Traps](http://www.odetocode.com/articles/450.aspx)

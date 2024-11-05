@@ -28,7 +28,7 @@ In this tutorial, you:
 ## Prerequisite
 
 * [Create the web application and data models](creating-the-web-application.md)
-* When using Visual Studio 2022, install **Net Framework project and item templates**. For more information, see [this GitHub issue](https://github.com/dotnet/AspNetDocs/issues/591).
+* When using Visual Studio 2022, install **Net Framework project and item templates**. For more information, see this GitHub issue.
 
 ## Add scaffold
 
