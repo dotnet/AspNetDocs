@@ -30,7 +30,7 @@ One of the things that's great about the cloud environment is that it's really e
 - [AppDynamics](http://www.appdynamics.com/)
 - [Dynatrace](https://www.dynatrace.com/)
 
-[Microsoft System Center](http://www.petri.co.il/microsoft-system-center-introduction.htm#) also includes monitoring features.
+[Microsoft System Center](https://petri.com/microsoft-system-center-introduction/#) also includes monitoring features.
 
 We'll quickly walk through setting up New Relic to show how easy it can be to use a telemetry system.
 
