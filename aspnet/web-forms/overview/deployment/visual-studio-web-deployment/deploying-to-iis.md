@@ -164,7 +164,7 @@ In Visual Studio, open the Contoso University solution. Right-click the solution
 
 ## Run the grant script in the application database
 
-You can configure the publish profile to run the grant script in the membership database during deployment because that database deployment uses the [dbDacFx](/iis/publish/using-web-deploy/dbdacfx-provider-for-incremental-database-publishing) provider. You can't run scripts during Code First Migrations deployment, which is how you're deploying the application database. This means you have to manually run the script before deployment in the application database.
+You can configure the publish profile to run the grant script in the membership database during deployment because that database deployment uses the dbDacFx provider. You can't run scripts during Code First Migrations deployment, which is how you're deploying the application database. This means you have to manually run the script before deployment in the application database.
 
 1. In Visual Studio, open the *Grant.sql* file that you created earlier.
 

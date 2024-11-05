@@ -83,7 +83,7 @@ The new dialog enables you to change the default authentication options for many
 
 ![Authentication options](release-notes/_static/image2.png)
 
-For more information about the new process for creating web projects, see [Creating ASP.NET Web Projects in Visual Studio 2013](creating-web-projects-in-visual-studio.md). For more information about the new authentication options, see [ASP.NET Identity](#TOC8) later in this document.
+For more information about the new process for creating web projects, see Creating ASP.NET Web Projects in Visual Studio 2013. For more information about the new authentication options, see [ASP.NET Identity](#TOC8) later in this document.
 
 <a id="scaffold"></a>
 ## ASP.NET Scaffolding
@@ -154,15 +154,15 @@ This version of NuGet also removes the need to provide explicit consent for NuGe
 
 ### One ASP.NET
 
-The Web Forms project templates integrate seamlessly with the new One ASP.NET experience. You can add MVC and Web API support to your Web Forms project, and you can configure authentication using the One ASP.NET project creation wizard. For more information, see [Creating ASP.NET Web Projects in Visual Studio 2013](creating-web-projects-in-visual-studio.md).
+The Web Forms project templates integrate seamlessly with the new One ASP.NET experience. You can add MVC and Web API support to your Web Forms project, and you can configure authentication using the One ASP.NET project creation wizard. For more information, see Creating ASP.NET Web Projects in Visual Studio 2013.
 
 ### ASP.NET Identity
 
-The Web Forms project templates support the new ASP.NET Identity framework. In addition, the templates now support creation of a Web Forms intranet project. For more information, see [Authentication Methods](creating-web-projects-in-visual-studio.md#auth) in **Creating ASP.NET Web Projects in Visual Studio 2013**.
+The Web Forms project templates support the new ASP.NET Identity framework. In addition, the templates now support creation of a Web Forms intranet project. For more information, see Authentication Methods in **Creating ASP.NET Web Projects in Visual Studio 2013**.
 
 ### Bootstrap
 
-The Web Forms templates use [Bootstrap](http://twitter.github.io/bootstrap/) to provide a sleek and responsive look and feel that you can easily customize. For more information, see [Bootstrap in the Visual Studio 2013 web project templates](creating-web-projects-in-visual-studio.md#bootstrap).
+The Web Forms templates use [Bootstrap](http://twitter.github.io/bootstrap/) to provide a sleek and responsive look and feel that you can easily customize. For more information, see Bootstrap in the Visual Studio 2013 web project templates.
 
 <a id="TOC10"></a>
 ## ASP.NET MVC 5
@@ -179,7 +179,7 @@ The MVC project templates have been updated to use ASP.NET Identity for authenti
 
 ### Bootstrap
 
-The MVC project template has been updated to use [Bootstrap](http://getbootstrap.com/) to provide a sleek and responsive look and feel that you can easily customize. For more information, see [Bootstrap in the Visual Studio 2013 web project templates](creating-web-projects-in-visual-studio.md#bootstrap).
+The MVC project template has been updated to use [Bootstrap](http://getbootstrap.com/) to provide a sleek and responsive look and feel that you can easily customize. For more information, see Bootstrap in the Visual Studio 2013 web project templates.
 
 ### Authentication filters
 
@@ -490,7 +490,7 @@ In SignalR 2.0, all JavaScript error handling callbacks return JavaScript error 
 
 ### New ASP.NET Membership System
 
-ASP.NET Identity is the new membership system for ASP.NET applications. ASP.NET Identity makes it easy to integrate user-specific profile data with application data. ASP.NET Identity also allows you to choose the persistence model for user profiles in your application. You can store the data in a SQL Server database or another data store, including NoSQL data stores such as Azure Storage Tables. For more information, see [Individual User Accounts](creating-web-projects-in-visual-studio.md#indauth) in **Creating ASP.NET Web Projects in Visual Studio 2013**.
+ASP.NET Identity is the new membership system for ASP.NET applications. ASP.NET Identity makes it easy to integrate user-specific profile data with application data. ASP.NET Identity also allows you to choose the persistence model for user profiles in your application. You can store the data in a SQL Server database or another data store, including NoSQL data stores such as Azure Storage Tables. For more information, see Individual User Accounts in **Creating ASP.NET Web Projects in Visual Studio 2013**.
 
 ### Claims-based authentication
 
@@ -498,7 +498,7 @@ ASP.NET now supports claims-based authentication, where the user's identity is r
 
 ### Integration with Azure Active Directory and Windows Server Active Directory
 
-You can now create ASP.NET projects that use Azure Active Directory or Windows Server Active Directory (AD) for authentication. For more information, see [Organizational Accounts](creating-web-projects-in-visual-studio.md#orgauth) in **Creating ASP.NET Web Projects in Visual Studio 2013**.
+You can now create ASP.NET projects that use Azure Active Directory or Windows Server Active Directory (AD) for authentication. For more information, see Organizational Accounts in **Creating ASP.NET Web Projects in Visual Studio 2013**.
 
 ### OWIN Integration
 

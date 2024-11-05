@@ -39,7 +39,7 @@ msc.type: content
 
 ## Installation
 
-> To install WebMatrix Beta 3, you use [Microsoft Web Platform Installer 3.0](/iis/install/web-platform-installer/web-platform-installer-direct-downloads). After you've installed the Web Platform Installer, you can use it to install WebMatrix Beta 3.
+> To install WebMatrix Beta 3, you use [Microsoft Web Platform Installer 3.0](/iis/install/installing-publishing-technologies/installing-and-configuring-web-deploy). After you've installed the Web Platform Installer, you can use it to install WebMatrix Beta 3.
 > 
 > If you have problems during installation, refer to [Troubleshooting Problems with Microsoft Web Platform Installer](https://go.microsoft.com/fwlink/?LinkId=196212).
 
@@ -446,7 +446,7 @@ This section of the document describes new features, changes, and known issues w
 > The **Site from Web Gallery** option is disabled if the Web Platform Installer 3.0 is not installed.
 > 
 > **Workaround**  
-> Install the [Microsoft Web Platform Installer 3.0](/iis/install/web-platform-installer/web-platform-installer-direct-downloads).
+> Install the [Microsoft Web Platform Installer 3.0](/iis/install/installing-publishing-technologies/installing-and-configuring-web-deploy).
 
 #### Issue: On Windows Server 2003, IIS Express does not start for a non-administrative user
 

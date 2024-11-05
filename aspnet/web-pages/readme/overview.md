@@ -306,7 +306,7 @@ This section of the document describes known issues for the WebMatrix developmen
 > The **Site from Web Gallery** option is disabled if the Web Platform Installer 3.0 is not installed.
 > 
 > **Workaround**  
-> Install the [Microsoft Web Platform Installer 3.0](/iis/install/web-platform-installer/web-platform-installer-direct-downloads).
+> Install the [Microsoft Web Platform Installer 3.0](/iis/install/installing-publishing-technologies/installing-and-configuring-web-deploy).
 
 #### Issue: Google Chrome is not available as a Run option
 
