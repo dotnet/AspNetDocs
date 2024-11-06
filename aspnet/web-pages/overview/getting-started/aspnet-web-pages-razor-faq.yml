@@ -94,7 +94,7 @@ sections:
       - question: |
           Do I have to use the WebSecurity helper to support logins?
         answer: |
-          No. The `SimpleMembership` provider that is part of ASP.NET Web Pages is one option. The security providers that are part of ASP.NET (that you might be used to working with in Web Forms) are also available. For example, you can use forms authentication in ASP.NET Web Pages just as you would in Web Forms. For one example of how to use forms authentication, see the Microsoft Support article [How To Implement Forms-Based Authentication in Your ASP.NET Application by Using C#.NET](https://support.microsoft.com/kb/301240). To download a simple example, see ASP.NET version of "Login &amp; Password.
+          No. The `SimpleMembership` provider that is part of ASP.NET Web Pages is one option. The security providers that are part of ASP.NET (that you might be used to working with in Web Forms) are also available. For example, you can use forms authentication in ASP.NET Web Pages just as you would in Web Forms. For one example of how to use forms authentication, see the Microsoft Support article [How To Implement Forms-Based Authentication in Your ASP.NET Application by Using C#.NET](https://support.microsoft.com/kb/301240).
           
           For information about how to use Windows authentication, see the blog post [Using Windows authentication in ASP.NET Web Pages](http://mikepope.com/blog/DisplayBlog.aspx?permalink=2298).
           
