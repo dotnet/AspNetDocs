@@ -30,7 +30,6 @@ In Visual Studio 2013, the Web API project template gives you three options for 
 - **Organizational accounts.** Users sign in with their Azure Active Directory, Office 365, or on-premise Active Directory credentials.
 - **Windows authentication.** This option is intended for Intranet applications, and uses the Windows Authentication IIS module.
 
-For more details about these options, see [Creating ASP.NET Web Projects in Visual Studio 2013](../../../visual-studio/overview/2013/creating-web-projects-in-visual-studio.md#auth).
 
 Individual accounts provide two ways for a user to log in:
 
