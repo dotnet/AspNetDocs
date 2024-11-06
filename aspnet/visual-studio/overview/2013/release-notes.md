@@ -83,7 +83,7 @@ The new dialog enables you to change the default authentication options for many
 
 ![Authentication options](release-notes/_static/image2.png)
 
-For more information about the new process for creating web projects, see Creating ASP.NET Web Projects in Visual Studio 2013. For more information about the new authentication options, see [ASP.NET Identity](#TOC8) later in this document.
+For more information about the new authentication options, see [ASP.NET Identity](#TOC8) later in this document.
 
 <a id="scaffold"></a>
 ## ASP.NET Scaffolding
@@ -154,15 +154,15 @@ This version of NuGet also removes the need to provide explicit consent for NuGe
 
 ### One ASP.NET
 
-The Web Forms project templates integrate seamlessly with the new One ASP.NET experience. You can add MVC and Web API support to your Web Forms project, and you can configure authentication using the One ASP.NET project creation wizard. For more information, see Creating ASP.NET Web Projects in Visual Studio 2013.
+The Web Forms project templates integrate seamlessly with the new One ASP.NET experience. You can add MVC and Web API support to your Web Forms project, and you can configure authentication using the One ASP.NET project creation wizard.
 
 ### ASP.NET Identity
 
-The Web Forms project templates support the new ASP.NET Identity framework. In addition, the templates now support creation of a Web Forms intranet project. For more information, see Authentication Methods in **Creating ASP.NET Web Projects in Visual Studio 2013**.
+The Web Forms project templates support the new ASP.NET Identity framework. In addition, the templates now support creation of a Web Forms intranet project.
 
 ### Bootstrap
 
-The Web Forms templates use [Bootstrap](http://twitter.github.io/bootstrap/) to provide a sleek and responsive look and feel that you can easily customize. For more information, see Bootstrap in the Visual Studio 2013 web project templates.
+The Web Forms templates use [Bootstrap](http://twitter.github.io/bootstrap/) to provide a sleek and responsive look and feel that you can easily customize.
 
 <a id="TOC10"></a>
 ## ASP.NET MVC 5
@@ -179,7 +179,7 @@ The MVC project templates have been updated to use ASP.NET Identity for authenti
 
 ### Bootstrap
 
-The MVC project template has been updated to use [Bootstrap](http://getbootstrap.com/) to provide a sleek and responsive look and feel that you can easily customize. For more information, see Bootstrap in the Visual Studio 2013 web project templates.
+The MVC project template has been updated to use [Bootstrap](http://getbootstrap.com/) to provide a sleek and responsive look and feel that you can easily customize.
 
 ### Authentication filters
 

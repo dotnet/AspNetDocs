@@ -225,7 +225,6 @@ This code moves the shape from the old location to the new one. The server gives
 
 ## Additional resources
 
-The communication paradigm you just learned about is useful for developing online games and other simulations, like the ShootR game created with SignalR.
 
 For more about SignalR, see the following resources:
 
