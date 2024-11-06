@@ -77,7 +77,7 @@ The path defines the Web application IIS metadata path, which is defined in the 
 
 ![Screenshot that shows a Web application called Portal located under the default Web site, and the metabase path is W 3 S V C slash 1 slash ROOT slash Portal.](side-by-side-with-10/_static/image4.gif)
 
-Note You can also use a tool called the Metabase Editor to get the metabase path. You can download this tool from the Microsoft Support site at [https://support.microsoft.com/default.a s p x ?scid=kb;en-us;232068.](https://support.microsoft.com/default.aspx?scid=kb;en-us;232068)
+Note You can also use a tool called the Metabase Editor to get the metabase path.
 
 - Run Aspnet\_regiis.exe -s W3SVC/1/ROOT/Portal to update the portal IIS script map and its subapplication.  
   

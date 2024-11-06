@@ -105,7 +105,7 @@ https://www.asp.net/learn/whitepapers/mvc3-release-notes
 
 To install ASP.NET MVC 3 RTM using the Web Platform Installer (Web PI), visit the following page:
 
-[https://www.microsoft.com/web/gallery/install.aspx?appid=MVC3](https://www.microsoft.com/web/gallery/install.aspx?appid=MVC3)
+[https://www.microsoft.com/en-us/download/details.aspx?id=4211](https://www.microsoft.com/en-us/download/details.aspx?id=4211)
 
 Alternatively, you can download the installer for ASP.NET MVC 3 RTM for Visual Studio 2010 from the following page:
 
