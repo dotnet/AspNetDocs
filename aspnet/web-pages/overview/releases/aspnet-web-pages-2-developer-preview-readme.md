@@ -23,7 +23,7 @@ by [Microsoft](https://github.com/microsoft)
 
 To install Web Pages 2 Developer Preview, you have these options:
 
-- Install WebMatrix 2 Beta using the [Web Platform Installer](https://go.microsoft.com/fwlink/?LinkId=226883). WebMatrix is a set of free web development tools that includes ASP.NET Web Pages. For more information, see the installation section in [The Top Features in ASP.NET Web Pages 2 Developer Preview](https://go.microsoft.com/fwlink/?LinkID=227824).
+- Install WebMatrix 2 Beta using the [Web Platform Installer](https://www.microsoft.com/web/downloads/platform.aspx). WebMatrix is a set of free web development tools that includes ASP.NET Web Pages. For more information, see the installation section in [The Top Features in ASP.NET Web Pages 2 Developer Preview](https://go.microsoft.com/fwlink/?LinkID=227824).
 
 - Install Web Pages 2 Developer Preview directly using the [download link](https://www.microsoft.com/download/details.aspx?id=34600). Use this approach if you want to create Web Pages applications using a text editor such as Notepad. In order to run Web Pages 2 applications, you must have IIS Express 7.5. (This is included automatically with WebMatrix.) For tips on how to test a Web Pages page using IIS Express, see the sidebar "Creating and Testing ASP.NET Pages Using Your Own Text Editor" in [Getting Started with WebMatrix and ASP.NET Web Pages](https://go.microsoft.com/fwlink/?LinkId=202889).
 

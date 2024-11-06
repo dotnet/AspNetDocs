@@ -41,7 +41,7 @@ msc.type: content
 
 > To install WebMatrix Beta 3, you use [Microsoft Web Platform Installer 3.0](/iis/install/web-platform-installer/web-platform-installer-direct-downloads). After you've installed the Web Platform Installer, you can use it to install WebMatrix Beta 3.
 > 
-> If you have problems during installation, refer to [Troubleshooting Problems with Microsoft Web Platform Installer](https://go.microsoft.com/fwlink/?LinkId=196212).
+> If you have problems during installation, refer to [Troubleshooting Problems with Microsoft Web Platform Installer](/troubleshoot/developer/webapps/iis/deployment-migration/troubleshoot-web-deploy-problems-with-visual-studio?LinkId=196212).
 
 <a id="Installation_Notes0"></a>
 
