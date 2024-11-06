@@ -43,7 +43,7 @@ To install Web Pages, you can use the Microsoft Web Platform Installer, which is
 
 1. Browse to the installation page for the latest version of the Web Platform Installer:
 
-    [https://go.microsoft.com/fwlink/?LinkId=226883](https://go.microsoft.com/fwlink/?LinkId=226883)
+    [https://www.microsoft.com/web/downloads/platform.aspx](https://www.microsoft.com/web/downloads/platform.aspx)
 
     > [!NOTE]
     > If you already have WebMatrix 1 installed, this installation updates it to WebMatrix 2 Beta. You can run websites that were created using version 1 or 2 on the same computer. For more information, see the section on [Running Web Pages Applications Side by Side](#sidebyside).

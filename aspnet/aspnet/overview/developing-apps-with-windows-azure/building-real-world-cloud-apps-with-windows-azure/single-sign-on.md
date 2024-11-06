@@ -175,7 +175,7 @@ For more information, see the following resources:
 
 - [Azure Active Directory Documentation](/azure/active-directory/). Portal page for Azure AD documentation on the windowsazure.com site. For step by step tutorials, see the **Develop** section.
 - [Azure Multi-Factor Authentication](/azure/multi-factor-authentication/). Portal page for documentation about multi-factor authentication in Azure.
-- [Organizational account authentication options](../../../../visual-studio/overview/2013/creating-web-projects-in-visual-studio.md#orgauthoptions). Explanation of the Azure AD authentication options in the Visual Studio 2013 new-project dialog.
+- Organizational account authentication options. Explanation of the Azure AD authentication options in the Visual Studio 2013 new-project dialog.
 - [Microsoft Patterns and Practices - Federated Identity Pattern](https://msdn.microsoft.com/library/dn589790.aspx).
 - [Role-Based and ACL-Based Authorization in a Windows Azure AD Application](https://code.msdn.microsoft.com/Role-Based-and-ACL-Based-86ad71a1). Sample application.
 - [Azure Active Directory Graph API blog](/archive/blogs/aadgraphteam/).

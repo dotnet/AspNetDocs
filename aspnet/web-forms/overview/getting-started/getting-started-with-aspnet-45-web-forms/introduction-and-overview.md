@@ -82,8 +82,8 @@ This tutorial series is intended for someone familiar with programming concepts,
 
 The ASP.NET 4.5 provided in this tutorial series includes the following features:
 
-- A simple UI for creating projects that offers [support for many ASP.NET frameworks](../../../../visual-studio/overview/2013/creating-web-projects-in-visual-studio.md#add) (Web Forms, MVC, and Web API).
-- [Bootstrap](../../../../visual-studio/overview/2013/creating-web-projects-in-visual-studio.md#bootstrap), a layout, theming, and responsive design framework.
+- A simple UI for creating projects that offers [support for many ASP.NET frameworks](/aspnet/visual-studio/overview/2013/#auth) (Web Forms, MVC, and Web API).
+- [Bootstrap](/power-pages/configure/bootstrap-overview), a layout, theming, and responsive design framework.
 - [ASP.NET Identity](../../../../identity/index.md), a new ASP.NET membership system that works the same in all ASP.NET frameworks and works with web hosting software other than IIS.
 - [Entity Framework 6](https://msdn.microsoft.com/data/ef.aspx)
 

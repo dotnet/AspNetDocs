@@ -42,7 +42,7 @@ msc.type: content
 > [!NOTE] 
 > WebMatrix is no longer recommended as an integrated development environment for ASP.NET Web Pages. Use [Visual Studio](xref:web-pages/overview/getting-started/program-asp-net-web-pages-in-visual-studio) or [Visual Studio Code](https://code.visualstudio.com/).
 > 
-> If you have problems during installation, refer to [Troubleshooting Problems with Microsoft Web Platform Installer](https://go.microsoft.com/fwlink/?LinkId=196212).
+> If you have problems during installation, refer to [Troubleshooting Problems with Microsoft Web Platform Installer](/troubleshoot/developer/webapps/iis/deployment-migration/troubleshoot-web-deploy-problems-with-visual-studio?LinkId=196212).
 
 <a id="Installation_Notes0"></a>
 
