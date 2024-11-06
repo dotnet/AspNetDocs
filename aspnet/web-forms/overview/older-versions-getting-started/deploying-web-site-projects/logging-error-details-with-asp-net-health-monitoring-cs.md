@@ -95,7 +95,7 @@ The health monitoring system includes a log source provider that "logs" an event
 
 Let's update the Book Reviews website's configuration so that we receive an email whenever an exception occurs. To accomplish this we need to perform three tasks:
 
-1. Configure the ASP.NET web application to send email. This is accomplished by specifying how email messages are sent via the `<system.net>` configuration element. For more information on sending email messages in an ASP.NET application refer to [Sending Email in ASP.NET](/aspnet/web-pages/overview/getting-started/11-adding-email-to-your-web-site) and the [System.Net.Mail FAQ](http://systemnetmail.com/).
+1. Configure the ASP.NET web application to send email. This is accomplished by specifying how email messages are sent via the `<system.net>` configuration element. For more information on sending email messages in an ASP.NET application refer to [Sending Email in ASP.NET](/aspnet/web-pages/overview/getting-started/11-adding-email-to-your-web-site) and the [System.Net.Mail FAQ](https://learn.microsoft.com/dotnet/api/system.net.mail.mailmessage?view=net-8.0).
 2. Register the email log source provider in the `<providers>` element, and
 3. Add an entry to the `<rules>` element that maps the "All Errors" event to the log source provider added in step (2).
 
