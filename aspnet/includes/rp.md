@@ -1,1 +1,1 @@
-For new web app development, we recommend Blazor. For more information, see [ASP.NET Core Blazor tutorials](/aspnet/core/blazor/tutorials/).
+For new web app development, we recommend [Blazor](xref:blazor/index).
