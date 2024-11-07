@@ -1,6 +1,6 @@
 We recommend using the most secure secure authentication option. For .NET apps deployed to Azure, see:
 
-* [Azure Key Vault libraries for .NET](/dotnet/api/overview/azure/key-vault) 
+* [Azure Key Vault libraries for .NET](/dotnet/api/overview/azure/key-vault)
 * [.NET Aspire Azure Key Vault integration](/dotnet/aspire/security/azure-security-key-vault-integration)
 
 Azure Key Vault and [.NET Aspire](/dotnet/aspire/get-started/aspire-overview) provide the most secure way to store and retrieve secrets. Azure Key Vault is a cloud service that safeguards encryption keys and secrets like certificates, connection strings, and passwords. For .NET Aspire, see [Secure communication between hosting and client integrations](/dotnet/aspire/extensibility/secure-communication-between-integrations).
