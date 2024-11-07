@@ -13,7 +13,6 @@ msc.type: chapter
 
 > Developing ASP.NET web apps with Visual Studio 2013
 
-- [Creating ASP.NET Web Projects in Visual Studio 2013](creating-web-projects-in-visual-studio.md)
 - [Visual Studio 2013 Web Editor Features - Browser Link](visual-studio-2013-web-editor-features-browser-link.md)
 - [Visual Studio 2013 Web Editor Features - CSS](visual-studio-2013-web-editor-features-css.md)
 - [Visual Studio 2013 Web Editor Features - JavaScript](visual-studio-2013-web-editor-features-javascript.md)

@@ -119,7 +119,7 @@ Double-click *Movies.mdf* to open **DATABASE EXPLORER**, then expand the **Table
 > - The database 'C:\Webs\MVC4\MVCMOVIE\MVCMOVIE\APP\_DATA\MOVIES.MDF' cannot be opened because it is version 706. This server supports version 655 and earlier. A downgrade path is not supported.
 > - &quot;InvalidOperation Exception was unhandled by user code&quot; The supplied SqlConnection does not specify an initial catalog.
 > 
-> You need to install the [SQL Server Data Tools](/archive/blogs/rickandy/installing-and-using-sql-server-data-tools-ssdt-on-visual-studio-2010-and-vwd) and [LocalDB](https://www.microsoft.com/web/gallery/install.aspx?appid=SQLLocalDBOnly_11_0). Verify the `MovieDBContext` connection string specified on the previous page.
+> You need to install the [SQL Server Data Tools](/archive/blogs/rickandy/installing-and-using-sql-server-data-tools-ssdt-on-visual-studio-2010-and-vwd) and [LocalDB](/sql/database-engine/configure-windows/sql-server-express-localdb?view=sql-server-ver16#install-localdb). Verify the `MovieDBContext` connection string specified on the previous page.
 
 Right-click the `Movies` table and select **Show Table Data** to see the data you created.
 

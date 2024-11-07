@@ -255,7 +255,7 @@ The SiteMapPath control displays a more functional user interface in the `Produc
 
 **Figure 19**: The Breadcrumb Now Uses the Custom Site Map Provider `NorthwindSiteMapProvider` ([Click to view full-size image](building-a-custom-database-driven-site-map-provider-vb/_static/image22.png))
 
-Other navigation user interface elements can be used in addition to the SiteMapPath, such as the Menu and TreeView controls. The `Default.aspx`, `ProductsByCategory.aspx`, and `ProductDetails.aspx` pages in the download for this tutorial, for example, all include Menu controls (see Figure 20). See [ASP.NET 2.0's Sophisticated Site Navigation Features](https://www.developer.com/microsoft/asp/asp-net-2-0s-sophisticated-site-navigation-features) and the [Using Site Navigation Controls](https://quickstarts.asp.net/QuickStartv20/aspnet/doc/navigation/sitenavcontrols.aspx) section of the [ASP.NET 2.0 QuickStarts](https://quickstarts.asp.net/QuickStartv20/aspnet/) for a more in-depth look at the navigation controls and site map system in ASP.NET 2.0.
+Other navigation user interface elements can be used in addition to the SiteMapPath, such as the Menu and TreeView controls. The `Default.aspx`, `ProductsByCategory.aspx`, and `ProductDetails.aspx` pages in the download for this tutorial, for example, all include Menu controls (see Figure 20). See [ASP.NET 2.0's Sophisticated Site Navigation Features](https://www.codeguru.com/csharp/asp-net-2-0s-sophisticated-site-navigation-features/) and the [Using Site Navigation Controls](https://quickstarts.asp.net/QuickStartv20/aspnet/doc/navigation/sitenavcontrols.aspx) section of the [ASP.NET 2.0 QuickStarts](https://quickstarts.asp.net/QuickStartv20/aspnet/) for a more in-depth look at the navigation controls and site map system in ASP.NET 2.0.
 
 [![The Menu Control Lists Each of the Categories and Products](building-a-custom-database-driven-site-map-provider-vb/_static/image29.gif)](building-a-custom-database-driven-site-map-provider-vb/_static/image28.gif)
 
@@ -292,7 +292,7 @@ For more information on the topics discussed in this tutorial, refer to the foll
 
 - [Storing Site Maps in SQL Server](https://msdn.microsoft.com/msdnmag/issues/05/06/WickedCode/) and [The SQL Site Map Provider You ve Been Waiting For](https://msdn.microsoft.com/msdnmag/issues/06/02/wickedcode/default.aspx)
 - [The Provider Toolkit](https://msdn.microsoft.com/asp.net/aa336558.aspx)
-- [ASP.NET 2.0's Sophisticated Site Navigation Features](https://www.developer.com/microsoft/asp/asp-net-2-0s-sophisticated-site-navigation-features)
+- [ASP.NET 2.0's Sophisticated Site Navigation Features](https://www.codeguru.com/csharp/asp-net-2-0s-sophisticated-site-navigation-features/)
 
 ## About the Author
 

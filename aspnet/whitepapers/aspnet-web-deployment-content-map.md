@@ -119,7 +119,7 @@ See also [Making sure an application is off-line during deployment](aspnet-web-d
 ## Making sure an application is off-line during deployment
 
 - [ASP.NET Web Deployment using Visual Studio: Deploying a Code Update](../web-forms/overview/deployment/visual-studio-web-deployment/deploying-a-code-update.md). See the section **Take the application offline during deployment.**
-- [Taking an Application Offline before Publishing](https://www.iis.net/learn/publish/deploying-application-packages/taking-an-application-offline-before-publishing) (IIS.net site). Explains a feature built into Web Deploy 3.0 that automates handling of an app\_offline.htm file. This feature does not work with custom app\_offline.htm files.
+- [Taking an Application Offline before Publishing](https://learn.microsoft.com/aspnet/core/tutorials/publish-to-iis?view=aspnetcore-8.0) (IIS.net site). Explains a feature built into Web Deploy 3.0 that automates handling of an app\_offline.htm file. This feature does not work with custom app\_offline.htm files.
 - [How to take your web app offline during publishing](http://sedodream.com/2012/01/08/HowToTakeYourWebAppOfflineDuringPublishing.aspx) (Sayed Hashimi's blog). How to automate the process of using a custom app\_offline.htm file.
 - [Web publishing updates for app offline and usechecksum](https://devblogs.microsoft.com/dotnet/web-publishing-updates-for-app-offline-and-usechecksum/) (Microsoft Web Development blog). Another option for automating use of app\_offline.htm file.
 - [Web Deploy 3.5 RTW](https://blogs.iis.net/msdeploy/archive/2013/07/09/webdeploy-3-5-rtw.aspx) (IIS.net site). New feature in Web Deploy 3.5 for custom app\_offline.htm files.
@@ -196,7 +196,7 @@ See also  Deploying a web application by creating and installing a web deploymen
 ## Configuring servers for a hosting provider
 
 - [Microsoft ASP.NET 4 Hosting Deployment Guide](https://go.microsoft.com/fwlink/?LinkId=191365) (Microsoft Download Center).
-- [Generate a Profile XML File](https://www.iis.net/learn/web-hosting/joining-the-web-hosting-gallery/generate-a-profile-xml-file) (IIS.net site).
+- [Generate a Profile XML File](https://learn.microsoft.com/iis/web-hosting/configuring-servers-in-the-windows-web-platform/quick-guide-for-shared-hosting-deployment) (IIS.net site).
 
 <a id="troubleshooting"></a>
 

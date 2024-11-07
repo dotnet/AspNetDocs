@@ -262,7 +262,7 @@ For more information on the topics discussed in this tutorial, refer to the foll
 - [ChangePassword Control QuickStarts](https://quickstarts.asp.net/QuickStartv20/aspnet/doc/ctrlref/login/changepassword.aspx)
 - [PasswordRecovery Control QuickStarts](https://quickstarts.asp.net/QuickStartv20/aspnet/doc/ctrlref/login/passwordrecovery.aspx)
 - [Sending Email in ASP.NET](/aspnet/web-pages/overview/getting-started/11-adding-email-to-your-web-site)
-- [`System.Net.Mail` FAQs](http://www.systemnetmail.com/)
+- [`System.Net.Mail` FAQs](/dotnet/api/system.net.mail.mailmessage?view=net-8.0)
 
 ### About the Author
 

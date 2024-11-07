@@ -4,7 +4,7 @@ title: Outbound WebForms Routing | Microsoft Docs
 author: JoeStagner
 description: "In this video you will see how to use the routing mechanism to dynamically create an outbound URL based on input from the user."
 ms.author: riande
-ms.date: 11/11/2009
+ms.date: 10/02/2024
 ms.assetid: 90d79218-505c-4b6d-87f5-a59592d59ccc
 msc.legacyurl: /web-forms/videos/net-4/routing/aspnet-4-quick-hit-outbound-webforms-routing
 msc.type: video
@@ -15,7 +15,7 @@ by [Joe Stagner](https://github.com/JoeStagner)
 
 In this video you will see how to use the routing mechanism to dynamically create an outbound URL based on input from the user. 
 
-[&#9654; Watch video (6 minutes)](https://channel9.msdn.com/Blogs/ASP-NET-Site-Videos/aspnet-4-quick-hit-outbound-webforms-routing)
+[&#9654; Watch video (6 minutes)](/shows/asp-net-site-videos/aspnet-4-quick-hit-outbound-webforms-routing)
 
 > [!div class="step-by-step"]
 > [Previous](aspnet-4-quick-hit-declarative-webforms-routing.md)
