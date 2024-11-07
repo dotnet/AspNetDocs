@@ -1,0 +1,1 @@
+We recommend using the most secure secure authentication option. For .NET apps deployed to Azure, [Azure Key Vault libraries for .NET](/dotnet/api/overview/azure/key-vault) provides the most secure way to store and retrieve secrets. Azure Key Vault is a cloud service that safeguards encryption keys and secrets like certificates, connection strings, and passwords.
