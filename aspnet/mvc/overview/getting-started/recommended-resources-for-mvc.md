@@ -159,7 +159,7 @@ by [Rick Anderson](https://twitter.com/RickAndMSFT)
 - [ASP.NET 4.5 &amp; MVC 4: Revisiting IBundleTransform](http://www.dotnetexpertguide.com/2012/10/aspnet-45-mvc-4-revisiting-IBundleTransform-in-bundling.html)
 - [ASP.NET MVC 4: Cookieless domain for bundling and static resources](http://www.dotnetexpertguide.com/2012/10/aspnet-mvc-4-cookieless-domain-for-bundling-and-static-resources.html)
 - [Advanced Options of ASP.NET Bundling and Minification](https://weblogs.asp.net/imranbaloch/archive/2012/09/30/hidden-options-of-asp-net-bundling-and-minification.aspx)
-- [A harsh reminder about the importance of debug="false"](http://encosia.com/a-harsh-reminder-about-the-importance-of-debug-false/)
+- A harsh reminder about the importance of debug="false"
 - [ELMAH and MiniProfiler In ASP.NET MVC 4](http://odetocode.com/Blogs/scott/archive/2012/09/11/elmah-and-miniprofiler-in-asp-net-mvc-4.aspx)
 - [Using CDNs and Expires to Improve Web Site Performance](/archive/blogs/rickandy/using-cdns-and-expires-to-improve-web-site-performance)
 - [Bundling and Minifying Inline CSS and JavaScript](https://weblogs.asp.net/imranbaloch/archive/2012/07/25/bundling-and-minifying-inline-css-and-js.aspx)
