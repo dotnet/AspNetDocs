@@ -13,9 +13,7 @@ msc.type: video
 
 by [Joe Stagner](https://github.com/JoeStagner)
 
-In a traditional Web site the browser and the server do not maintain an ongoing communication, but communicate only in response to the user performing an action. In a modern Web site where the page becomes an application container, it can be advantageous for the browser and the server to maintain an ongoing communication so that page updates can occur without the user performing an action. This is known as the Persistent Communications Pattern for AJAX. ASP.NET AJAX provides two main ways for Web developers to implement the Persistent Communications Pattern. In an earlier video we saw how to use the ASP.NET AJAX UpdatePanel as the basis of the implementation. In this video we learn how to implement the same pattern using a JavaScrpt call to a Web service, which removes the need for an ASP.NET AJAX UpdatePanel.
-
-[&#9654; Watch video (16 minutes)](https://channel9.msdn.com/Blogs/ASP-NET-Site-Videos/how-do-i-implement-the-persistent-communications-pattern-using-web-services)
+In a traditional Web site the browser and the server do not maintain an ongoing communication, but communicate only in response to the user performing an action. In a modern Web site where the page becomes an application container, it can be advantageous for the browser and the server to maintain an ongoing communication so that page updates can occur without the user performing an action. This is known as the Persistent Communications Pattern for AJAX. ASP.NET AJAX provides two main ways for Web developers to implement the Persistent Communications Pattern. In an earlier video we saw how to use the ASP.NET AJAX UpdatePanel as the basis of the implementation. 
 
 > [!div class="step-by-step"]
 > [Previous](how-do-i-localize-an-aspnet-ajax-application.md)

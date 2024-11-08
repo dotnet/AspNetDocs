@@ -61,7 +61,7 @@ To create a WFF controller server, you'll need to install both IIS 7 or later an
 
 **To create the WFF controller server**
 
-1. Download and install the [Web Platform Installer](https://go.microsoft.com/?linkid=9739157).
+1. Download and [install the Web Platform Installer](https://www.microsoft.com/web/downloads/platform.aspx).
 2. At the top of the **Web Platform Installer 3.0** window, click **Products**.
 3. On the left side of the window, in the navigation pane, click **Server**.
 4. In the **IIS 7 Recommended Configuration** row, click **Add**.

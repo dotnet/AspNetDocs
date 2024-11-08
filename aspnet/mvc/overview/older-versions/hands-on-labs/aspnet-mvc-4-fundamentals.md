@@ -973,7 +973,7 @@ By completing this Hands-On Lab you have learned the fundamentals of ASP.NET MVC
 
 You can install **Microsoft Visual Studio Express 2012 for Web** or another &quot;Express&quot; version using the **[Microsoft Web Platform Installer](https://www.microsoft.com/web/downloads/platform.aspx)**. The following instructions guide you through the steps required to install *Visual studio Express 2012 for Web* using *Microsoft Web Platform Installer*.
 
-1. Go to [[https://go.microsoft.com/?linkid=9810169](https://go.microsoft.com/?linkid=9810169)](https://go.microsoft.com/?linkid=9810169). Alternatively, if you already have installed Web Platform Installer, you can open it and search for the product &quot;<em>Visual Studio Express 2012 for Web with Windows Azure SDK</em>&quot;.
+1. Go to [[/iis/extensions/introduction-to-iis-express/iis-express-overview?linkid=9810169](/iis/extensions/introduction-to-iis-express/iis-express-overview?linkid=9810169)](/iis/extensions/introduction-to-iis-express/iis-express-overview?linkid=9810169). Alternatively, if you already have installed Web Platform Installer, you can open it and search for the product &quot;<em>Visual Studio Express 2012 for Web with Windows Azure SDK</em>&quot;.
 2. Click on **Install Now**. If you do not have **Web Platform Installer** you will be redirected to download and install it first.
 3. Once **Web Platform Installer** is open, click **Install** to start the setup.
 
