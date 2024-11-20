@@ -74,8 +74,6 @@
         - name: Security, Authentication, and Authorization
           href: web-forms/overview/security/index.md
           items: 
-            - name: Create a secure ASP.NET Web Forms app with user registration, email confirmation and password reset (C#)
-              href: web-forms/overview/security/create-a-secure-aspnet-web-forms-app-with-user-registration-email-confirmation-and-password-reset.md
             - name: Create an ASP.NET Web Forms app with SMS Two-Factor Authentication (C#)
               href: web-forms/overview/security/create-an-aspnet-web-forms-app-with-sms-two-factor-authentication.md
         - name: Performance
