@@ -164,7 +164,7 @@ For more information on the topics discussed in this tutorial, refer to the foll
 - [ASP.NET Authorization](https://msdn.microsoft.com/library/wce3kxhd.aspx)
 - [ASP.NET Login Controls Overview](https://msdn.microsoft.com/library/ms178329.aspx)
 - [Examining ASP.NET 2.0's Membership, Roles, and Profile](/aspnet/web-forms/overview/older-versions-security/roles/creating-and-managing-roles-vb)
-- [How Do I: Secure My Site Using Membership and Roles?](https://asp.net/learn/videos/video-45.aspx) (Video)
+- [How Do I: Secure My Site Using Membership and Roles?](/shows/asp-net-site-videos/how-do-i-secure-my-site-using-membership-roles) (Video)
 - [Introduction to Membership](https://msdn.microsoft.com/library/yh26yfzy.aspx)
 - [MSDN Security Developer Center](https://msdn.microsoft.com/security/default.aspx)
 - [Professional ASP.NET 2.0 Security, Membership, and Role Management](http://www.wrox.com/WileyCDA/WroxTitle/productCd-0764596985.html) (ISBN: 978-0-7645-9698-8)

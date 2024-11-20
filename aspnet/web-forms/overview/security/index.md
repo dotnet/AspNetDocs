@@ -11,7 +11,9 @@ msc.type: chapter
 ---
 # Security, Authentication, and Authorization in ASP.NET Web Forms
 
-> How to let users to log in to your site (and optionally be assigned to roles) using either a login form or Windows authentication.
+[!INCLUDE[](~/includes/secure_auth.md)]
+
+How to let users to log in to your site (and optionally be assigned to roles) using either a login form or Windows authentication.
 
 - [Create a secure ASP.NET Web Forms app with user registration, email confirmation and password reset (C#)](create-a-secure-aspnet-web-forms-app-with-user-registration-email-confirmation-and-password-reset.md)
 - [Create an ASP.NET Web Forms app with SMS Two-Factor Authentication (C#)](create-an-aspnet-web-forms-app-with-sms-two-factor-authentication.md)
