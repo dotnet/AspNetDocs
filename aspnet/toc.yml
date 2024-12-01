@@ -1062,8 +1062,6 @@
             - name: ASP.NET 3.5 - Membership
               href: web-forms/overview/older-versions-security/membership/index.md
               items: 
-                - name: Creating the Membership Schema in SQL Server (C#)
-                  href: web-forms/overview/older-versions-security/membership/creating-the-membership-schema-in-sql-server-cs.md
                 - name: Creating User Accounts (C#)
                   href: web-forms/overview/older-versions-security/membership/creating-user-accounts-cs.md
                 - name: Validating User Credentials Against the Membership User Store (C#)
@@ -1072,8 +1070,6 @@
                   href: web-forms/overview/older-versions-security/membership/user-based-authorization-cs.md
                 - name: Storing Additional User Information (C#)
                   href: web-forms/overview/older-versions-security/membership/storing-additional-user-information-cs.md
-                - name: Creating the Membership Schema in SQL Server (VB)
-                  href: web-forms/overview/older-versions-security/membership/creating-the-membership-schema-in-sql-server-vb.md
                 - name: Creating User Accounts (VB)
                   href: web-forms/overview/older-versions-security/membership/creating-user-accounts-vb.md
                 - name: Validating User Credentials Against the Membership User Store (VB)
@@ -1894,8 +1890,6 @@
           items: 
             - name: Create an ASP.NET MVC 5 App with Facebook, Twitter, LinkedIn and Google OAuth2 Sign-on (C#)
               href: mvc/overview/security/create-an-aspnet-mvc-5-app-with-facebook-and-google-oauth2-and-openid-sign-on.md
-            - name: Create a secure ASP.NET MVC 5 web app with log in, email confirmation and password reset (C#)
-              href: mvc/overview/security/create-an-aspnet-mvc-5-web-app-with-email-confirmation-and-password-reset.md
             - name: ASP.NET MVC 5 app with SMS and email Two-Factor Authentication
               href: mvc/overview/security/aspnet-mvc-5-app-with-sms-and-email-two-factor-authentication.md
             - name: XSRF/CSRF Prevention in ASP.NET MVC and Web Pages
