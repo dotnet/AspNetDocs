@@ -1,0 +1,1 @@
+For new web app development, we recommend [Minimal APIs](/aspnet/core/fundamentals/minimal-apis/overview)

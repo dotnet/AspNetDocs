@@ -11,6 +11,10 @@ msc.type: authoredcontent
 ---
 # External Authentication Services with ASP.NET Web API (C#)
 
+[!INCLUDE[](~/includes/min_api.md)]
+
+[!INCLUDE[](~/includes/secure_auth.md)]
+
 Visual Studio 2017 and ASP.NET 4.7.2 expand the security options for [Single Page Applications](../../../single-page-application/index.md) (SPA) and [Web API](../../index.md) services to integrate with external authentication services, which include several OAuth/OpenID and social media authentication services: Microsoft Accounts, Twitter, Facebook, and Google.  
 
 ### In this Walkthrough
