@@ -1,87 +1,87 @@
 {
   "redirections": [
     {
-      "source_path": "aspnet/aspnet/overview/developing-apps-with-windows-azure\building-real-world-cloud-apps-with-windows-azure/automate-everything.md",
+      "source_path": "aspnet/aspnet/overview/developing-apps-with-windows-azure/building-real-world-cloud-apps-with-windows-azure/automate-everything.md",
       "redirect_url": "https://learn.microsoft.com/training/paths/create-microservices-with-dotnet",
       "redirect_document_id": false
     },
     {
-      "source_path": "aspnet/aspnet/overview/developing-apps-with-windows-azure\building-real-world-cloud-apps-with-windows-azure/continuous-integration-and-continuous-delivery.md",
+      "source_path": "aspnet/aspnet/overview/developing-apps-with-windows-azure/building-real-world-cloud-apps-with-windows-azure/continuous-integration-and-continuous-delivery.md",
       "redirect_url": "https://learn.microsoft.com/training/paths/create-microservices-with-dotnet",
       "redirect_document_id": false
     },
     {
-      "source_path": "aspnet/aspnet/overview/developing-apps-with-windows-azure\building-real-world-cloud-apps-with-windows-azure/data-partitioning-strategies.md",
+      "source_path": "aspnet/aspnet/overview/developing-apps-with-windows-azure/building-real-world-cloud-apps-with-windows-azure/data-partitioning-strategies.md",
       "redirect_url": "https://learn.microsoft.com/training/paths/create-microservices-with-dotnet",
       "redirect_document_id": false
     },
     {
-      "source_path": "aspnet/aspnet/overview/developing-apps-with-windows-azure\building-real-world-cloud-apps-with-windows-azure/data-storage-options.md",
+      "source_path": "aspnet/aspnet/overview/developing-apps-with-windows-azure/building-real-world-cloud-apps-with-windows-azure/data-storage-options.md",
       "redirect_url": "https://learn.microsoft.com/training/paths/create-microservices-with-dotnet",
       "redirect_document_id": false
     },
     {
-      "source_path": "aspnet/aspnet/overview/developing-apps-with-windows-azure\building-real-world-cloud-apps-with-windows-azure/design-to-survive-failures.md",
+      "source_path": "aspnet/aspnet/overview/developing-apps-with-windows-azure/building-real-world-cloud-apps-with-windows-azure/design-to-survive-failures.md",
       "redirect_url": "https://learn.microsoft.com/training/paths/create-microservices-with-dotnet",
       "redirect_document_id": false
     },
     {
-      "source_path": "aspnet/aspnet/overview/developing-apps-with-windows-azure\building-real-world-cloud-apps-with-windows-azure/distributed-caching.md",
+      "source_path": "aspnet/aspnet/overview/developing-apps-with-windows-azure/building-real-world-cloud-apps-with-windows-azure/distributed-caching.md",
       "redirect_url": "https://learn.microsoft.com/training/paths/create-microservices-with-dotnet",
       "redirect_document_id": false
     },
     {
-      "source_path": "aspnet/aspnet/overview/developing-apps-with-windows-azure\building-real-world-cloud-apps-with-windows-azure/index.md",
+      "source_path": "aspnet/aspnet/overview/developing-apps-with-windows-azure/building-real-world-cloud-apps-with-windows-azure/index.md",
       "redirect_url": "https://learn.microsoft.com/training/paths/create-microservices-with-dotnet",
       "redirect_document_id": false
     },
     {
-      "source_path": "aspnet/aspnet/overview/developing-apps-with-windows-azure\building-real-world-cloud-apps-with-windows-azure/introduction.md",
+      "source_path": "aspnet/aspnet/overview/developing-apps-with-windows-azure/building-real-world-cloud-apps-with-windows-azure/introduction.md",
       "redirect_url": "https://learn.microsoft.com/training/paths/create-microservices-with-dotnet",
       "redirect_document_id": false
     },
     {
-      "source_path": "aspnet/aspnet/overview/developing-apps-with-windows-azure\building-real-world-cloud-apps-with-windows-azure/monitoring-and-telemetry.md",
+      "source_path": "aspnet/aspnet/overview/developing-apps-with-windows-azure/building-real-world-cloud-apps-with-windows-azure/monitoring-and-telemetry.md",
       "redirect_url": "https://learn.microsoft.com/training/paths/create-microservices-with-dotnet",
       "redirect_document_id": false
     },
     {
-      "source_path": "aspnet/aspnet/overview/developing-apps-with-windows-azure\building-real-world-cloud-apps-with-windows-azure/more-patterns-and-guidance.md",
+      "source_path": "aspnet/aspnet/overview/developing-apps-with-windows-azure/building-real-world-cloud-apps-with-windows-azure/more-patterns-and-guidance.md",
       "redirect_url": "https://learn.microsoft.com/training/paths/create-microservices-with-dotnet",
       "redirect_document_id": false
     },
     {
-      "source_path": "aspnet/aspnet/overview/developing-apps-with-windows-azure\building-real-world-cloud-apps-with-windows-azure/queue-centric-work-pattern.md",
+      "source_path": "aspnet/aspnet/overview/developing-apps-with-windows-azure/building-real-world-cloud-apps-with-windows-azure/queue-centric-work-pattern.md",
       "redirect_url": "https://learn.microsoft.com/training/paths/create-microservices-with-dotnet",
       "redirect_document_id": false
     },
     {
-      "source_path": "aspnet/aspnet/overview/developing-apps-with-windows-azure\building-real-world-cloud-apps-with-windows-azure/single-sign-on.md",
+      "source_path": "aspnet/aspnet/overview/developing-apps-with-windows-azure/building-real-world-cloud-apps-with-windows-azure/single-sign-on.md",
       "redirect_url": "https://learn.microsoft.com/training/paths/create-microservices-with-dotnet",
       "redirect_document_id": false
     },
     {
-      "source_path": "aspnet/aspnet/overview/developing-apps-with-windows-azure\building-real-world-cloud-apps-with-windows-azure/source-control.md",
+      "source_path": "aspnet/aspnet/overview/developing-apps-with-windows-azure/building-real-world-cloud-apps-with-windows-azure/source-control.md",
       "redirect_url": "https://learn.microsoft.com/training/paths/create-microservices-with-dotnet",
       "redirect_document_id": false
     },
     {
-      "source_path": "aspnet/aspnet/overview/developing-apps-with-windows-azure\building-real-world-cloud-apps-with-windows-azure/the-fix-it-sample-application.md",
+      "source_path": "aspnet/aspnet/overview/developing-apps-with-windows-azure/building-real-world-cloud-apps-with-windows-azure/the-fix-it-sample-application.md",
       "redirect_url": "https://learn.microsoft.com/training/paths/create-microservices-with-dotnet",
       "redirect_document_id": false
     },
     {
-      "source_path": "aspnet/aspnet/overview/developing-apps-with-windows-azure\building-real-world-cloud-apps-with-windows-azure/transient-fault-handling.md",
+      "source_path": "aspnet/aspnet/overview/developing-apps-with-windows-azure/building-real-world-cloud-apps-with-windows-azure/transient-fault-handling.md",
       "redirect_url": "https://learn.microsoft.com/training/paths/create-microservices-with-dotnet",
       "redirect_document_id": false
     },
     {
-      "source_path": "aspnet/aspnet/overview/developing-apps-with-windows-azure\building-real-world-cloud-apps-with-windows-azure/unstructured-blob-storage.md",
+      "source_path": "aspnet/aspnet/overview/developing-apps-with-windows-azure/building-real-world-cloud-apps-with-windows-azure/unstructured-blob-storage.md",
       "redirect_url": "https://learn.microsoft.com/training/paths/create-microservices-with-dotnet",
       "redirect_document_id": false
     },
     {
-      "source_path": "aspnet/aspnet/overview/developing-apps-with-windows-azure\building-real-world-cloud-apps-with-windows-azure/web-development-best-practices.md",
+      "source_path": "aspnet/aspnet/overview/developing-apps-with-windows-azure/building-real-world-cloud-apps-with-windows-azure/web-development-best-practices.md",
       "redirect_url": "https://learn.microsoft.com/training/paths/create-microservices-with-dotnet",
       "redirect_document_id": false
     },
