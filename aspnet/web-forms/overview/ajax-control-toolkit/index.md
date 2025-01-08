@@ -2,7 +2,7 @@
 uid: web-forms/overview/ajax-control-toolkit/index
 title: "Older Versions - Ajax Control Toolkit | Microsoft Docs"
 author: rick-anderson
-description: "How to get started with the Ajax Control Toolkit, and how to use some of the most popular controls. DevExpress maintains the free and open sourced Ajax Contr..."
+description: "How to get started with the Ajax Control Toolkit, and how to use some of the most popular controls."
 ms.author: riande
 ms.date: 10/05/2011
 ms.assetid: 76242ce9-e611-41d2-95e8-dc5f406d4bfc
@@ -11,10 +11,7 @@ msc.type: chapter
 ---
 # Older Versions - Ajax Control Toolkit
 
-> How to get started with the Ajax Control Toolkit, and how to use some of the most popular controls. DevExpress maintains the free and open sourced Ajax Control Toolkit.
-> 
-> 
-> ![DevExpress logo](index/_static/image1.png) DevExpress, developers of award-winning ASP.NET WebForms, MVC and HTML5 UI Controls and Frameworks, took over the maintenance of the ASP.NET AJAX Control Toolkit in order to bring this highly-demanded open-source library back to a dependable state. [Learn more](https://go.devexpress.com/AjaxControlToolkit_ASP_Resources_Tutorials.aspx).
+> How to get started with the Ajax Control Toolkit, and how to use some of the most popular controls.
 
 - [Getting Started](getting-started/index.md)
 
