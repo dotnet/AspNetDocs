@@ -73,12 +73,13 @@ Next, add the certificate to the test server's "Trusted Root Certification Autho
 
 1. Open MMC.
 2. Under **File**, select **Add/Remove Snap-In**.
-3. Select **Computer Account**.
-4. Select **Local computer** and complete the wizard.
-5. Under the navigation pane, expand the "Trusted Root Certification Authorities" node.
-6. On the **Action** menu, point to **All Tasks**, and then click **Import** to start the Certificate Import Wizard.
-7. Browse to the certificate file, TempCA.cer.
-8. Click **Open**, then click **Next** and complete the wizard. (You will be prompted to re-enter the password.)
+3. Under **Available snap-ins**, select **Certificates**, then click **Add**.
+4. Select **Computer Account**.
+5. Select **Local computer** and complete the wizard.
+6. Under the navigation pane, expand the "Trusted Root Certification Authorities" node.
+7. On the **Action** menu, point to **All Tasks**, and then click **Import** to start the Certificate Import Wizard.
+8. Browse to the certificate file, TempCA.cer.
+9. Click **Open**, then click **Next** and complete the wizard. (You will be prompted to re-enter the password.)
 
 Now create a client certificate that is signed by the first certificate:
 
