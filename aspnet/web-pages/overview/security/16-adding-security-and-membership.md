@@ -68,8 +68,6 @@ The following procedure describes how to create the site and configure it.
 3. In the left pane, click the **Files** workspace selector.
 4. In the root folder of your website, open the *\_AppStart.cshtml* file, which is a special file that's used to contain global settings. It contains some statements that are commented out using the `//` characters:
 
-    [!code-csharp[Main](16-adding-security-and-membership/samples/sample1.cs)]
-
     These statements configure the `WebMail` helper, which can be used to send email. The membership system can use email to send confirmation messages when users register or when they want to change their passwords. (For example, after users register, they get an email that includes a link that they can click in order to finish the registration process.)
 
     Sending email requires access to an SMTP server, as described in [Adding Email to an ASP.NET Web Pages Site](https://go.microsoft.com/fwlink/?LinkId=202899). You'll store the email settings in this central *\_AppStart.cshtml* file so that you don't have to code them repeatedly into each page that can send email. (You don't need to configure SMTP settings to set up a registration database; you only need SMTP settings if you want to validate users from their email alias and let users reset a forgotten password.)
