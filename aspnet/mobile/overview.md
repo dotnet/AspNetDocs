@@ -19,10 +19,6 @@ msc.type: content
 
 In the first part of a two-part article, the authors explore some of the issues involved in creating a cloud back end that aggregates and processes data and serves it to mobile clients.
 
-[Part 2 - Build a Xamarin App with Authentication and Offline Support](https://msdn.microsoft.com/magazine/mt422581.aspx)
-
-In the second article in their series, the authors discuss how they use Xamarin to target multiple mobile client platforms, and show how to implement authentication and maintain a synchronized client-side cache of the data.
-
 ### [Calling Web API from a Windows Phone 8 Application](../web-api/overview/mobile-clients/calling-web-api-from-a-windows-phone-8-application.md)
 
 This end-to-end tutorial shows how to create an ASP.NET Web API application that provides data to a Windows Phone 8 application.

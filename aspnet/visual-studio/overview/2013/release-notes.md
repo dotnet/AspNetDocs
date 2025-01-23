@@ -380,6 +380,9 @@ The following code demonstrates how to enable CORS or JSONP in a SignalR 2.0 pro
 
 ### iOS and Android support via MonoTouch and MonoDroid
 
+> [!IMPORTANT]
+> Xamarin.Android, Xamarin.iOS, Xamarin.Mac are now integrated directly into .NET (starting with .NET 6) as .NET for Android, .NET for iOS, and .NET for macOS. If you're building with these project types today, they should be upgraded to .NET SDK-style projects for continued support. For more information about upgrading Xamarin projects to .NET, see the [Upgrade from Xamarin to .NET & .NET MAUI](/dotnet/maui/migration) documentation.
+
 Support has been added for iOS and Android clients using MonoTouch and MonoDroid components from the [Xamarin library](https://xamarin.com/). For more information on how to use them, see [Using Xamarin Components](https://github.com/SignalR/SignalR/wiki/Building-Mono.Mobile.sln). These components will be available in the [Xamarin Store](https://store.xamarin.com/) when the SignalR RTW release is available.
 
 <a id="portable"></a> ### Portable .NET client

@@ -36,8 +36,6 @@ The `StrengthIndicatorType` provides the information how to present the strength
 
 Run the page and type away: Only after you have entered lowercase letters, uppercase letters, digits and symbols, the password is deemed as unbreakable .
 
-[![Now the password is (quite) good](testing-the-strength-of-a-password-vb/_static/image2.png)](testing-the-strength-of-a-password-vb/_static/image1.png)
-
 Now the password is (quite) good ([Click to view full-size image](testing-the-strength-of-a-password-vb/_static/image3.png))
 
 > [!div class="step-by-step"]

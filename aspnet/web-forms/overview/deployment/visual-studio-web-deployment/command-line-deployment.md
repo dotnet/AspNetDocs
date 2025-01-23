@@ -96,36 +96,6 @@ Three publish methods are supported for command line publishing:
 
 The build configuration and platform must be set in Visual Studio or on the command line. The publish profiles include properties that are named `LastUsedBuildConfiguration` and `LastUsedPlatform`, but you can't set these properties in order to determine how the project is built. For more information, see [MSBuild: how to set the configuration property](http://sedodream.com/2012/10/27/MSBuildHowToSetTheConfigurationProperty.aspx) on Sayed Hashimi's blog.
 
-## Deploy to staging
-
-To deploy to Azure, you must add the password to the command line. If you saved the password in the publish profile in Visual Studio, it was stored in encrypted form in the your *.pubxml.user* file. That file is not accessed by MSBuild when you do a command line deployment, so you have to pass in the password in a command line parameter.
-
-1. Copy the password that you need from the *.publishsettings* file that you downloaded earlier for the staging web site. The password is the value of the `userPWD` attribute for the Web Deploy `publishProfile` element.
-
-    ![Web Deploy password](command-line-deployment/_static/image5.png)
-2. In the Windows 8 Start page, search for **Developer Command Prompt for VS2012**, and click the icon to open the command prompt. (You don't have to open it as administrator this time because you aren't deploying to IIS on the local computer.)
-3. Enter the following command at the command prompt, replacing the path to the solution file with the path to your solution file and the password with your password:
-
-    [!code-console[Main](command-line-deployment/samples/sample6.cmd)]
-
-    Notice that this command line includes an extra parameter: `/p:AllowUntrustedCertificate=true`. As this tutorial is being written, the `AllowUntrustedCertificate` property must be set when you publish to Azure from the command line. When the fix for this bug is released, you won't need that parameter.
-4. Open a browser and go to the URL of your staging site, and then click the **About** page to verify that the deployment was successful.
-
-    As you saw earlier for the test environment, you might have to create some students to see statistics on the **About** page.
-
-## Deploy to production
-
-The process for deploying to production is similar to the process for staging.
-
-1. Copy the password that you need from the *.publishsettings* file that you downloaded earlier for the production web site.
-2. Open **Developer Command Prompt for VS2012**.
-3. Enter the following command at the command prompt, replacing the path to the solution file with the path to your solution file and the password with your password:
-
-    [!code-console[Main](command-line-deployment/samples/sample7.cmd)]
-
-    For a real production site, if there was also a database change, you would typically copy the *app\_offline.htm* file to the site before deployment and delete it after successful deployment.
-4. Open a browser and go to the URL of your staging site, and then click the **About** page to verify that the deployment was successful.
-
 ## Summary
 
 You have now deployed an application update by using the command line.
