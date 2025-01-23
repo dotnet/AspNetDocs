@@ -17,7 +17,7 @@ by [Scott Mitchell](https://twitter.com/ScottOnWriting)
 
 > ASP.NET includes two Web controls for assisting with recovering and changing passwords. The PasswordRecovery control enables a visitor to recover his lost password. The ChangePassword control allows the user to update his password. Like the other Login-related Web controls we've seen throughout this tutorial series, the PasswordRecovery and ChangePassword controls work with the Membership framework behind the scenes to reset or modify users' passwords.
 
-## Introduction
+## Introduction \
 
 Between the websites for my bank, utility company, phone company, email accounts, and personalized web portals, I, like most people, have dozens of different passwords to remember. With so many credentials to memorize these days, it's not uncommon for people to forget their password. To account for this, websites that offer user accounts need to include a way for a user to recover his password. This process typically involves generating a new, random password and emailing it to the user's email address on file. After receiving their new password most users return to the site and change their password from the randomly generated one to a more memorable one.
 
@@ -72,8 +72,6 @@ The mail delivery configuration is specified through the [`<system.net>` element
 
 > [!NOTE]
 > `<system.net>` is a child element of the root `<configuration>` element and a sibling of `<system.web>`. Therefore, do not put the `<system.net>` element within the `<system.web>` element; instead, put it at the same level.
-
-[!code-xml[Main](recovering-and-changing-passwords-cs/samples/sample1.xml)]
 
 In addition to using an SMTP server on the network, you can alternatively specify a pickup directory where email messages to be sent should be deposited.
 
