@@ -68,13 +68,15 @@ Fill in the user information fields on the left using the following information:
 | **Field** | **Value** |
 | --- | --- |
 | **User Name** | Administrator |
-| **Password** | password123! |
-| **Confirm Password** | password123! |
+| **Password** |  |
+| **Confirm Password** |  |
 | **E-mail** | (any email address will work) |
 | **Security Question** | (whatever you like) |
 | **Security Answer** | (whatever you like) |
 
-*Note: You can of course use any password you'd like. The default password security settings require a password that is 7 characters long and contains one non-alphanumeric character.*
+**Note**: 
+* In the preceding table, the password has been ommited.
+* You can of course use any password you'd like. The default password security settings require a password that is 7 characters long and contains one non-alphanumeric character.
 
 Select the Administrator role for this user, and click the Create User button.
 

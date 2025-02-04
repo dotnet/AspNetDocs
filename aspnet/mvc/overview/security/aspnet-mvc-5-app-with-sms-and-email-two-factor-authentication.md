@@ -60,6 +60,8 @@ This tutorial provides instructions for using either Twilio or ASPSMS but you ca
    Namespace:  
     `ASPSMSX2`
 3. **Figuring out SMS Provider User credentials**  
+
+  [!INCLUDE[](~/includes/secure_auth.md)]
   
    Twilio:  
    From the **Dashboard** tab of your Twilio account, copy the **Account SID** and **Auth token**.  

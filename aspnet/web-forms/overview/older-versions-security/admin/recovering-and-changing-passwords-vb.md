@@ -73,8 +73,6 @@ The mail delivery configuration is specified through the [`<system.net>` element
 > [!NOTE]
 > `<system.net>` is a child element of the root `<configuration>` element and a sibling of `<system.web>`. Therefore, do not put the `<system.net>` element within the `<system.web>` element; instead, put it at the same level.
 
-[!code-xml[Main](recovering-and-changing-passwords-vb/samples/sample1.xml)]
-
 In addition to using an SMTP server on the network, you can alternatively specify a pickup directory where email messages to be sent should be deposited.
 
 Once you have configured the SMTP settings, visit the `RecoverPassword.aspx` page through a browser. First try entering a username that doesn't exist in the user store. As Figure 2 shows, the PasswordRecovery control displays a message indicating that the user information could not be accessed. The text of the message can be customized through the control's [`UserNameFailureText` property](https://msdn.microsoft.com/library/system.web.ui.webcontrols.passwordrecovery.usernamefailuretext.aspx).

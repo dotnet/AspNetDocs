@@ -2,7 +2,7 @@
                           [/M:<computer name>]
                           [/A:<Basic | NTLM>]
                           [/U:<user name>]
-                          [/P:<password>]
+                          [/P:</pass/word>]
                           [/L]
                           [/G:<true | false>]
                           [Additional MSDeploy.exe flags]

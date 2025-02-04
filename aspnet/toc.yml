@@ -3070,8 +3070,6 @@
               href: identity/overview/features-api/best-practices-for-deploying-passwords-and-other-sensitive-data-to-aspnet-and-azure.md
             - name: Account Confirmation and Password Recovery with ASP.NET Identity (C#)
               href: identity/overview/features-api/account-confirmation-and-password-recovery-with-aspnet-identity.md
-            - name: Two-factor authentication using SMS and email with ASP.NET Identity
-              href: identity/overview/features-api/two-factor-authentication-using-sms-and-email-with-aspnet-identity.md
         - name: Extensibility
           href: identity/overview/extensibility/index.md
           items: 

@@ -136,7 +136,7 @@ MSDeploy V3 supports authentication with an access token, also known as a bearer
            $CREDENTIAL_PLACEHOLDER$,
            authtype="Bearer",
            includeAcls="False",
-           Password="{token}"
+           Password="{-token:}"
      -verb:sync
      -disableLink:AppPoolExtension
      -disableLink:ContentExtension

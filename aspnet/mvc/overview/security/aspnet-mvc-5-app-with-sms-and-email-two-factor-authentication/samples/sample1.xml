@@ -4,9 +4,9 @@
       <!-- Markup removed for clarity. -->
       <!-- SendGrid-->
       <add key="mailAccount" value="account" />
-      <add key="mailPassword" value="password" />
+      <add key="mailPassword" value=<"$CREDENTIAL_PLACEHOLDER$"> />
       <add key="SMSAccountIdentification" value="My Identification" />
-      <add key="SMSAccountPassword" value="My Password" />
+      <add key="SMSAccountPassword" value=<"$CREDENTIAL_PLACEHOLDER$"> />
       <add key="SMSAccountFrom" value="+12065551234" />
    </appSettings>
   <system.web>
