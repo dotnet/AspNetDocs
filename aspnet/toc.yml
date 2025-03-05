@@ -1412,8 +1412,6 @@
               href: web-forms/videos/aspnet-ajax/how-do-i-use-the-conditional-updatemode-of-the-updatepanel.md
             - name: Implement the Persistent Communications Pattern with the UpdatePanel
               href: web-forms/videos/aspnet-ajax/how-do-i-implement-the-persistent-communications-pattern-with-the-updatepanel.md
-            - name: Localize an ASP.NET AJAX Application
-              href: web-forms/videos/aspnet-ajax/how-do-i-localize-an-aspnet-ajax-application.md
             - name: Implement the Persistent Communications Pattern using Web Services
               href: web-forms/videos/aspnet-ajax/how-do-i-implement-the-persistent-communications-pattern-using-web-services.md
             - name: Trigger an UpdatePanel Refresh from a DropDownList Control

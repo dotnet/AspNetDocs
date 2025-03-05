@@ -47,7 +47,6 @@ msc.type: categoryindex
             - [Adding Business Logic Layer](overview/presenting-and-managing-data/model-binding/adding-business-logic-layer.md)
     - [Security, Authentication, and Authorization](overview/security/index.md)
 
-        - [Create a secure ASP.NET Web Forms app with user registration, email confirmation and password reset (C#)](overview/security/create-a-secure-aspnet-web-forms-app-with-user-registration-email-confirmation-and-password-reset.md)
         - [Create an ASP.NET Web Forms app with SMS Two-Factor Authentication (C#)](overview/security/create-an-aspnet-web-forms-app-with-sms-two-factor-authentication.md)
     - [Performance](overview/performance-and-caching/index.md)
 
@@ -661,7 +660,6 @@ msc.type: categoryindex
 
         - [Intro to Unit Testing with Team System](videos/vs-2005/introduction-to-unit-testing-with-team-system.md)
         - [Intro to Testing Web Applications with Team System](videos/vs-2005/introduction-to-testing-web-applications-with-team-system.md)
-        - [Intro to Load Testing Web Applications with Team System](videos/vs-2005/introduction-to-load-testing-web-applications-with-team-system.md)
         - [Intro to Manual Testing with Team System](videos/vs-2005/introduction-to-manual-testing-with-team-system.md)
         - [Intro to Managing and Running Tests with Team System](videos/vs-2005/introduction-to-managing-and-running-tests-with-team-system.md)
         - [Measuring the Business Value of AJAX](videos/vs-2005/measuring-the-business-value-of-ajax.md)
@@ -749,7 +747,6 @@ msc.type: categoryindex
         - [Get Started with the ASP.NET AJAX Animation Extender Control](videos/ajax-control-toolkit/how-do-i-get-started-with-the-aspnet-ajax-animation-extender-control.md)
         - [ASP.NET AJAX ConfirmButton Extender](videos/ajax-control-toolkit/how-do-i-use-the-aspnet-ajax-confirmbutton-extender.md)
         - [ASP.NET AJAX Slider Control](videos/ajax-control-toolkit/how-do-i-use-the-aspnet-ajax-slider-control.md)
-        - [ASP.NET AJAX AutoComplete Control](videos/ajax-control-toolkit/how-do-i-use-the-aspnet-ajax-autocomplete-control.md)
         - [Configure the ASP.NET AJAX Calendar Control](videos/ajax-control-toolkit/how-do-i-configure-the-aspnet-ajax-calendar-control.md)
         - [ASP.NET AJAX DropDown Control](videos/ajax-control-toolkit/how-do-i-use-the-aspnet-ajax-dropdown-control.md)
         - [ASP.NET AJAX MaskedEdit Controls](videos/ajax-control-toolkit/how-do-i-use-the-aspnet-ajax-maskededit-controls.md)
@@ -799,7 +796,6 @@ msc.type: categoryindex
         - [Determine Whether an Asynchronous Postback has Occurred](videos/aspnet-ajax/how-do-i-determine-whether-an-asynchronous-postback-has-occurred.md)
         - [Use the Conditional UpdateMode of the UpdatePanel](videos/aspnet-ajax/how-do-i-use-the-conditional-updatemode-of-the-updatepanel.md)
         - [Implement the Persistent Communications Pattern with the UpdatePanel](videos/aspnet-ajax/how-do-i-implement-the-persistent-communications-pattern-with-the-updatepanel.md)
-        - [Localize an ASP.NET AJAX Application](videos/aspnet-ajax/how-do-i-localize-an-aspnet-ajax-application.md)
         - [Implement the Persistent Communications Pattern using Web Services](videos/aspnet-ajax/how-do-i-implement-the-persistent-communications-pattern-using-web-services.md)
         - [Trigger an UpdatePanel Refresh from a DropDownList Control](videos/aspnet-ajax/how-do-i-trigger-an-updatepanel-refresh-from-a-dropdownlist-control.md)
         - [Create an ASP.NET AJAX Extender from Scratch](videos/aspnet-ajax/how-do-i-create-an-aspnet-ajax-extender-from-scratch.md)

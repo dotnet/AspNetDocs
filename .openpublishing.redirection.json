@@ -56,6 +56,11 @@
       "redirect_document_id": false
     },
     {
+      "source_path": "aspnet/web-forms/videos/vs-2005/introduction-to-load-testing-web-applications-with-team-system.md",
+      "redirect_url": "https://learn.microsoft.com/shows/asp-net-site-videos/",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "aspnet/web-forms/videos/vs-2005/how-do-i-integrate-defect-tracking-with-testing.md",
       "redirect_url": "https://learn.microsoft.com/shows/asp-net-site-videos/",
       "redirect_document_id": false
@@ -152,11 +157,6 @@
     },
     {
       "source_path": "aspnet/web-forms/videos/visual-studio-2010/visual-studio-2010-quick-hit-code-optimized-profile.md",
-      "redirect_url": "https://learn.microsoft.com/shows/asp-net-site-videos/",
-      "redirect_document_id": false
-    },
-    {
-      "source_path": "aspnet/",
       "redirect_url": "https://learn.microsoft.com/shows/asp-net-site-videos/",
       "redirect_document_id": false
     },
