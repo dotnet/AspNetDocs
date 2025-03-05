@@ -1,6 +1,201 @@
 {
   "redirections": [
     {
+      "source_path": "aspnet/web-forms/videos/vs-2005/index.md",
+      "redirect_url": "https://learn.microsoft.com/shows/asp-net-site-videos/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "aspnet/web-forms/videos/vs-2005/introduction-to-unit-testing-with-team-system.md",
+      "redirect_url": "https://learn.microsoft.com/shows/asp-net-site-videos/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "aspnet/web-forms/videos/vs-2005/introduction-to-testing-web-applications-with-team-system.md",
+      "redirect_url": "https://learn.microsoft.com/shows/asp-net-site-videos/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "aspnet/web-forms/videos/vs-2005/introduction-to-manual-testing-with-team-system.md",
+      "redirect_url": "https://learn.microsoft.com/shows/asp-net-site-videos/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "aspnet/web-forms/videos/vs-2005/introduction-to-managing-and-running-tests-with-team-system.md",
+      "redirect_url": "https://learn.microsoft.com/shows/asp-net-site-videos/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "aspnet/web-forms/videos/vs-2005/measuring-the-business-value-of-ajax.md",
+      "redirect_url": "https://learn.microsoft.com/shows/asp-net-site-videos/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "aspnet/web-forms/videos/vs-2005/code-coverage-of-automated-tests.md",
+      "redirect_url": "https://learn.microsoft.com/shows/asp-net-site-videos/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "aspnet/web-forms/videos/vs-2005/custom-extraction-rules-and-coded-web-tests.md",
+      "redirect_url": "https://learn.microsoft.com/shows/asp-net-site-videos/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "aspnet/web-forms/videos/vs-2005/the-effects-of-caching.md",
+      "redirect_url": "https://learn.microsoft.com/shows/asp-net-site-videos/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "aspnet/web-forms/videos/vs-2005/using-the-load-test-agent.md",
+      "redirect_url": "https://learn.microsoft.com/shows/asp-net-site-videos/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "aspnet/web-forms/videos/vs-2005/the-effects-of-viewstate.md",
+      "redirect_url": "https://learn.microsoft.com/shows/asp-net-site-videos/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "aspnet/web-forms/videos/vs-2005/how-do-i-integrate-defect-tracking-with-testing.md",
+      "redirect_url": "https://learn.microsoft.com/shows/asp-net-site-videos/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "aspnet/web-forms/videos/vs-2005/how-do-i-create-my-own-bug-work-item.md",
+      "redirect_url": "https://learn.microsoft.com/shows/asp-net-site-videos/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "aspnet/web-forms/videos/vs-2005/how-do-i-write-code-more-quickly-with-unit-tests.md",
+      "redirect_url": "https://learn.microsoft.com/shows/asp-net-site-videos/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "aspnet/web-forms/videos/vs-2005/how-do-i-practice-test-driven-development.md",
+      "redirect_url": "https://learn.microsoft.com/shows/asp-net-site-videos/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "aspnet/web-forms/videos/vs-2005/how-do-i-load-test-a-web-application.md",
+      "redirect_url": "https://learn.microsoft.com/shows/asp-net-site-videos/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "aspnet/web-forms/videos/vs-2005/how-do-i-tune-web-application-performance-with-profiling.md",
+      "redirect_url": "https://learn.microsoft.com/shows/asp-net-site-videos/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "aspnet/web-forms/videos/vs-2005/how-do-i-set-up-distributed-load-testing-for-high-volume-tests.md",
+      "redirect_url": "https://learn.microsoft.com/shows/asp-net-site-videos/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "aspnet/web-forms/videos/vs-2005/how-do-i-enforce-coding-standards-with-code-analysis.md",
+      "redirect_url": "https://learn.microsoft.com/shows/asp-net-site-videos/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "aspnet/web-forms/videos/vs-2005/how-do-i-use-generic-tests.md",
+      "redirect_url": "https://learn.microsoft.com/shows/asp-net-site-videos/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "aspnet/web-forms/videos/vs-2005/how-do-i-publish-and-analyze-test-results.md",
+      "redirect_url": "https://learn.microsoft.com/shows/asp-net-site-videos/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "aspnet/web-forms/videos/vs-2005/how-do-i-discover-application-changes-prior-to-deployment.md",
+      "redirect_url": "https://learn.microsoft.com/shows/asp-net-site-videos/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "aspnet/web-forms/videos/vs-2005/how-do-i-implement-continuous-integration-with-team-foundation.md",
+      "redirect_url": "https://learn.microsoft.com/shows/asp-net-site-videos/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "aspnet/web-forms/videos/vs-2005/how-do-i-automate-testing-using-team-build.md",
+      "redirect_url": "https://learn.microsoft.com/shows/asp-net-site-videos/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "aspnet/web-forms/videos/vs-2005/how-do-i-deploy-a-web-application-during-a-team-build.md",
+      "redirect_url": "https://learn.microsoft.com/shows/asp-net-site-videos/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "aspnet/web-forms/videos/vs-2005/how-do-i-run-unit-tests-against-a-deployed-database.md",
+      "redirect_url": "https://learn.microsoft.com/shows/asp-net-site-videos/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "aspnet/web-forms/videos/vs-2005/how-do-i-enable-code-coverage-and-profiling-in-production-applications.md",
+      "redirect_url": "https://learn.microsoft.com/shows/asp-net-site-videos/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "aspnet/web-forms/videos/vs-2005/web-deployment-projects.md",
+      "redirect_url": "https://learn.microsoft.com/shows/asp-net-site-videos/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "aspnet/web-forms/videos/vs-2005/web-application-projects-web-deployment-projects.md",
+      "redirect_url": "https://learn.microsoft.com/shows/asp-net-site-videos/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "aspnet/web-forms/videos/visual-studio-2010/index.md",
+      "redirect_url": "https://learn.microsoft.com/shows/asp-net-site-videos/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "aspnet/web-forms/videos/visual-studio-2010/visual-studio-2010-quick-hit-code-optimized-profile.md",
+      "redirect_url": "https://learn.microsoft.com/shows/asp-net-site-videos/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "aspnet/",
+      "redirect_url": "https://learn.microsoft.com/shows/asp-net-site-videos/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "aspnet/web-forms/videos/visual-studio-2010/visual-studio-2010-quick-hit-code-search-view-hierarchy.md",
+      "redirect_url": "https://learn.microsoft.com/shows/asp-net-site-videos/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "aspnet/web-forms/videos/visual-studio-2010/visual-studio-2010-quick-hit-intellisense-smart-lists.md",
+      "redirect_url": "https://learn.microsoft.com/shows/asp-net-site-videos/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "aspnet/web-forms/videos/visual-studio-2010/visual-studio-2010-quick-hit-multi-monitor-support.md",
+      "redirect_url": "https://learn.microsoft.com/shows/asp-net-site-videos/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "aspnet/web-forms/videos/visual-studio-2010/visual-studio-2010-quick-hit-new-web-project-template.md",
+      "redirect_url": "https://learn.microsoft.com/shows/asp-net-site-videos/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "aspnet/web-forms/videos/visual-studio-2010/visual-studio-2010-quick-hit-new-multi-targeting.md",
+      "redirect_url": "https://learn.microsoft.com/shows/asp-net-site-videos/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "aspnet/web-forms/videos/visual-studio-2010/visual-studio-2010-quick-hit-websites-instead-of-web-projects.md",
+      "redirect_url": "https://learn.microsoft.com/shows/asp-net-site-videos/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "aspnet/web-forms/videos/visual-studio-2010/visual-studio-2010-quick-hit-snippets-intellisense.md",
+      "redirect_url": "https://learn.microsoft.com/shows/asp-net-site-videos/",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "aspnet/aspnet/overview/developing-apps-with-windows-azure/building-real-world-cloud-apps-with-windows-azure/automate-everything.md",
       "redirect_url": "https://learn.microsoft.com/training/paths/create-microservices-with-dotnet",
       "redirect_document_id": false
