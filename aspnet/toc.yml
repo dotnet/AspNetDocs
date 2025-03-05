@@ -1217,67 +1217,6 @@
               href: web-forms/videos/sql-2005/creating-and-using-stored-procedures.md
             - name: Enabling Full-Text Search in your Text Data
               href: web-forms/videos/sql-2005/enabling-full-text-search-in-your-text-data.md
-        - name: Visual Studio 2005
-          href: web-forms/videos/vs-2005/index.md
-          items: 
-            - name: Intro to Unit Testing with Team System
-              href: web-forms/videos/vs-2005/introduction-to-unit-testing-with-team-system.md
-            - name: Intro to Testing Web Applications with Team System
-              href: web-forms/videos/vs-2005/introduction-to-testing-web-applications-with-team-system.md
-            - name: Intro to Load Testing Web Applications with Team System
-              href: web-forms/videos/vs-2005/introduction-to-load-testing-web-applications-with-team-system.md
-            - name: Intro to Manual Testing with Team System
-              href: web-forms/videos/vs-2005/introduction-to-manual-testing-with-team-system.md
-            - name: Intro to Managing and Running Tests with Team System
-              href: web-forms/videos/vs-2005/introduction-to-managing-and-running-tests-with-team-system.md
-            - name: Measuring the Business Value of AJAX
-              href: web-forms/videos/vs-2005/measuring-the-business-value-of-ajax.md
-            - name: Code Coverage of Automated Tests
-              href: web-forms/videos/vs-2005/code-coverage-of-automated-tests.md
-            - name: Custom Extraction Rules and Coded Web Tests
-              href: web-forms/videos/vs-2005/custom-extraction-rules-and-coded-web-tests.md
-            - name: Effects of Caching
-              href: web-forms/videos/vs-2005/the-effects-of-caching.md
-            - name: Load Test Agent
-              href: web-forms/videos/vs-2005/using-the-load-test-agent.md
-            - name: Effects of ViewState
-              href: web-forms/videos/vs-2005/the-effects-of-viewstate.md
-            - name: Integrate Defect Tracking with Testing
-              href: web-forms/videos/vs-2005/how-do-i-integrate-defect-tracking-with-testing.md
-            - name: Create My Own Bug Work Item
-              href: web-forms/videos/vs-2005/how-do-i-create-my-own-bug-work-item.md
-            - name: Write Code More Quickly with Unit Tests
-              href: web-forms/videos/vs-2005/how-do-i-write-code-more-quickly-with-unit-tests.md
-            - name: Practice Test-Driven Development
-              href: web-forms/videos/vs-2005/how-do-i-practice-test-driven-development.md
-            - name: Load Test a Web Application
-              href: web-forms/videos/vs-2005/how-do-i-load-test-a-web-application.md
-            - name: Tune Web Application Performance with Profiling
-              href: web-forms/videos/vs-2005/how-do-i-tune-web-application-performance-with-profiling.md
-            - name: Set Up Distributed Load Testing for High Volume Tests
-              href: web-forms/videos/vs-2005/how-do-i-set-up-distributed-load-testing-for-high-volume-tests.md
-            - name: Enforce Coding Standards with Code Analysis
-              href: web-forms/videos/vs-2005/how-do-i-enforce-coding-standards-with-code-analysis.md
-            - name: Use Generic Tests
-              href: web-forms/videos/vs-2005/how-do-i-use-generic-tests.md
-            - name: Publish and Analyze Test Results
-              href: web-forms/videos/vs-2005/how-do-i-publish-and-analyze-test-results.md
-            - name: Discover Application Changes Prior to Deployment
-              href: web-forms/videos/vs-2005/how-do-i-discover-application-changes-prior-to-deployment.md
-            - name: Implement Continuous Integration with Team Foundation
-              href: web-forms/videos/vs-2005/how-do-i-implement-continuous-integration-with-team-foundation.md
-            - name: Automate Testing using Team Build
-              href: web-forms/videos/vs-2005/how-do-i-automate-testing-using-team-build.md
-            - name: Deploy a Web Application during a Team Build
-              href: web-forms/videos/vs-2005/how-do-i-deploy-a-web-application-during-a-team-build.md
-            - name: Run Unit Tests against a Deployed Database
-              href: web-forms/videos/vs-2005/how-do-i-run-unit-tests-against-a-deployed-database.md
-            - name: Enable Code Coverage and Profiling in Production Applications
-              href: web-forms/videos/vs-2005/how-do-i-enable-code-coverage-and-profiling-in-production-applications.md
-            - name: Web Deployment Projects
-              href: web-forms/videos/vs-2005/web-deployment-projects.md
-            - name: Web Application Projects & Web Deployment Projects
-              href: web-forms/videos/vs-2005/web-application-projects-web-deployment-projects.md
         - name: Migrating
           href: web-forms/videos/migrating/index.md
           items: 
@@ -1337,25 +1276,6 @@
               href: web-forms/videos/iis/bit-rate-throttling.md
             - name: IIS7 Playlists
               href: web-forms/videos/iis/iis7-playlists.md
-        - name: General VS 2010 Tips
-          href: web-forms/videos/visual-studio-2010/index.md
-          items: 
-            - name: Code Optimized Profile
-              href: web-forms/videos/visual-studio-2010/visual-studio-2010-quick-hit-code-optimized-profile.md
-            - name: Code Search View Hierarchy
-              href: web-forms/videos/visual-studio-2010/visual-studio-2010-quick-hit-code-search-view-hierarchy.md
-            - name: IntelliSense Smart Lists
-              href: web-forms/videos/visual-studio-2010/visual-studio-2010-quick-hit-intellisense-smart-lists.md
-            - name: Multi-Monitor Support
-              href: web-forms/videos/visual-studio-2010/visual-studio-2010-quick-hit-multi-monitor-support.md
-            - name: New Web Project Template
-              href: web-forms/videos/visual-studio-2010/visual-studio-2010-quick-hit-new-web-project-template.md
-            - name: New Multi-Targeting
-              href: web-forms/videos/visual-studio-2010/visual-studio-2010-quick-hit-new-multi-targeting.md
-            - name: Websites Instead of Web Projects
-              href: web-forms/videos/visual-studio-2010/visual-studio-2010-quick-hit-websites-instead-of-web-projects.md
-            - name: Snippets IntelliSense
-              href: web-forms/videos/visual-studio-2010/visual-studio-2010-quick-hit-snippets-intellisense.md
         - name: Ajax Control Toolkit
           href: web-forms/videos/ajax-control-toolkit/index.md
           items: 
