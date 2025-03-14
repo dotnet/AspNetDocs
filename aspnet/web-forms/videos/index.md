@@ -58,7 +58,6 @@ msc.type: book
 
     - [Intro to Unit Testing with Team System](vs-2005/introduction-to-unit-testing-with-team-system.md)
     - [Intro to Testing Web Applications with Team System](vs-2005/introduction-to-testing-web-applications-with-team-system.md)
-    - [Intro to Load Testing Web Applications with Team System](vs-2005/introduction-to-load-testing-web-applications-with-team-system.md)
     - [Intro to Manual Testing with Team System](vs-2005/introduction-to-manual-testing-with-team-system.md)
     - [Intro to Managing and Running Tests with Team System](vs-2005/introduction-to-managing-and-running-tests-with-team-system.md)
     - [Measuring the Business Value of AJAX](vs-2005/measuring-the-business-value-of-ajax.md)
@@ -146,7 +145,6 @@ msc.type: book
     - [Get Started with the ASP.NET AJAX Animation Extender Control](ajax-control-toolkit/how-do-i-get-started-with-the-aspnet-ajax-animation-extender-control.md)
     - [ASP.NET AJAX ConfirmButton Extender](ajax-control-toolkit/how-do-i-use-the-aspnet-ajax-confirmbutton-extender.md)
     - [ASP.NET AJAX Slider Control](ajax-control-toolkit/how-do-i-use-the-aspnet-ajax-slider-control.md)
-    - [ASP.NET AJAX AutoComplete Control](ajax-control-toolkit/how-do-i-use-the-aspnet-ajax-autocomplete-control.md)
     - [Configure the ASP.NET AJAX Calendar Control](ajax-control-toolkit/how-do-i-configure-the-aspnet-ajax-calendar-control.md)
     - [ASP.NET AJAX DropDown Control](ajax-control-toolkit/how-do-i-use-the-aspnet-ajax-dropdown-control.md)
     - [ASP.NET AJAX MaskedEdit Controls](ajax-control-toolkit/how-do-i-use-the-aspnet-ajax-maskededit-controls.md)
@@ -196,7 +194,6 @@ msc.type: book
     - [Determine Whether an Asynchronous Postback has Occurred](aspnet-ajax/how-do-i-determine-whether-an-asynchronous-postback-has-occurred.md)
     - [Use the Conditional UpdateMode of the UpdatePanel](aspnet-ajax/how-do-i-use-the-conditional-updatemode-of-the-updatepanel.md)
     - [Implement the Persistent Communications Pattern with the UpdatePanel](aspnet-ajax/how-do-i-implement-the-persistent-communications-pattern-with-the-updatepanel.md)
-    - [Localize an ASP.NET AJAX Application](aspnet-ajax/how-do-i-localize-an-aspnet-ajax-application.md)
     - [Implement the Persistent Communications Pattern using Web Services](aspnet-ajax/how-do-i-implement-the-persistent-communications-pattern-using-web-services.md)
     - [Trigger an UpdatePanel Refresh from a DropDownList Control](aspnet-ajax/how-do-i-trigger-an-updatepanel-refresh-from-a-dropdownlist-control.md)
     - [Create an ASP.NET AJAX Extender from Scratch](aspnet-ajax/how-do-i-create-an-aspnet-ajax-extender-from-scratch.md)
