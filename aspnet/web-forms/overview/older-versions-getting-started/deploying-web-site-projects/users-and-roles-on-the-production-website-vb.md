@@ -51,7 +51,7 @@ Note that the `<membership>` and `<roleManager>` sections reference the `SqlMemb
 
 In a nutshell, the WSAT must be accessed locally through the development environment, and it works with the user and role information in the database specified in the `databaseConnectionStrings.config` file. Consequently, if we change the connection string information in the `databaseConnectionStrings.config` file on the development environment we can use the WSAT locally to manage users and roles in the production environment.
 
-To illustrate this functionality, open the `databaseConnectionStrings.config` file in Visual Studio on the development environment and replace the development database connection string with the production database connection string. Then launch the WSAT, go the Security tab, and add a new user named Sam with password "password!" (less the quotation marks). **Figure 2** shows the WSAT screen when creating this account.
+To illustrate this functionality, open the `databaseConnectionStrings.config` file in Visual Studio on the development environment and replace the development database connection string with the production database connection string. Then launch the WSAT, go the Security tab, and add a new user named Sam. **Figure 2** shows the WSAT screen when creating this account.
 
 :::image type="content" source="users-and-roles-on-the-production-website-vb/_static/image4.png" alt-text="Screenshot of the A S P . N E T Website Administration tool to create a new user in the production environment.":::
 
