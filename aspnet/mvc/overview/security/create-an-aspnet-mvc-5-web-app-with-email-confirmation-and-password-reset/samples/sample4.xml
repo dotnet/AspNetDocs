@@ -4,6 +4,6 @@
       <!-- Markup removed for clarity. -->
       
       <add key="mailAccount" value="xyz" />
-      <add key="mailPassword" value="password" />
+      <add key="mailPassword" value=`` />
    </appSettings>
   <system.web>

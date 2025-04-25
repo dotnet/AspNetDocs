@@ -2,7 +2,7 @@
     configProtectionProvider="DataProtectionConfigurationProvider">
   <EncryptedData>
     <CipherData>
-      <CipherValue>AQAAANCMnd8BFdERjHoAwE/...zChw==</CipherValue>
+      <CipherValue>==</CipherValue>
     </CipherData>
   </EncryptedData>
 </connectionStrings>
