@@ -8,6 +8,7 @@ ms.date: 07/21/2010
 ms.assetid: f70a310c-9557-4743-82cb-655265676d39
 msc.legacyurl: /web-forms/overview/older-versions-getting-started/tailspin-spyworks/tailspin-spyworks-part-6
 msc.type: authoredcontent
+ms.topic: article
 ---
 # Part 6: ASP.NET Membership
 

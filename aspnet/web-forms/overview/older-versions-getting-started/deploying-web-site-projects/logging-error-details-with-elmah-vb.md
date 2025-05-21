@@ -8,6 +8,7 @@ ms.date: 06/09/2009
 ms.assetid: a5f0439f-18b2-4c89-96ab-75b02c616f46
 msc.legacyurl: /web-forms/overview/older-versions-getting-started/deploying-web-site-projects/logging-error-details-with-elmah-vb
 msc.type: authoredcontent
+ms.topic: how-to
 ---
 # Logging Error Details with ELMAH (VB)
 

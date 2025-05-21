@@ -8,6 +8,7 @@ ms.date: 03/13/2007
 ms.assetid: 958e1bc8-65a8-4fe0-ad2d-f98691d5fdf1
 msc.legacyurl: /web-forms/videos/ajax-control-toolkit/how-do-i-use-the-aspnet-ajax-slider-control
 msc.type: video
+ms.topic: article
 ---
 # [How Do I:] Use the ASP.NET AJAX Slider Control?
 

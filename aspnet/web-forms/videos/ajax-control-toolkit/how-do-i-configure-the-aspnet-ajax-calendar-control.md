@@ -8,6 +8,7 @@ ms.date: 03/30/2007
 ms.assetid: bee087cc-7fed-4dce-8b52-19987f2d38a6
 msc.legacyurl: /web-forms/videos/ajax-control-toolkit/how-do-i-configure-the-aspnet-ajax-calendar-control
 msc.type: video
+ms.topic: article
 ---
 # [How Do I:] Configure the ASP.NET AJAX Calendar Control?
 

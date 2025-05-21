@@ -8,6 +8,7 @@ ms.date: 11/17/2011
 ms.assetid: cd03a188-e947-4f55-9bda-b8bce201d8c6
 msc.legacyurl: /web-forms/overview/older-versions-getting-started/deployment-to-a-hosting-provider/deployment-to-a-hosting-provider-setting-folder-permissions-6-of-12
 msc.type: authoredcontent
+ms.topic: concept-article
 ---
 # Deploying an ASP.NET Web Application with SQL Server Compact using Visual Studio or Visual Web Developer: Setting Folder Permissions - 6 of 12
 

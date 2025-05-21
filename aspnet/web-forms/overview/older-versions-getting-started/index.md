@@ -8,6 +8,7 @@ ms.date: 10/18/2014
 ms.assetid: e03585c2-80bf-4083-99ba-9fcbc883ccd8
 msc.legacyurl: /web-forms/overview/older-versions-getting-started
 msc.type: chapter
+ms.topic: get-started
 ---
 # Older Versions - Web Forms Getting Started
 

@@ -8,6 +8,7 @@ ms.date: 06/09/2009
 ms.assetid: cb061642-faf3-41b2-9372-69e13444d458
 msc.legacyurl: /web-forms/overview/older-versions-getting-started/deploying-web-site-projects/displaying-a-custom-error-page-cs
 msc.type: authoredcontent
+ms.topic: concept-article
 ---
 # Displaying a Custom Error Page (C#)
 

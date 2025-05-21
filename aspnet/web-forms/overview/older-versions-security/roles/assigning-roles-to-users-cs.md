@@ -8,6 +8,7 @@ ms.date: 03/24/2008
 ms.assetid: d522639a-5aca-421e-9a76-d73f95607f57
 msc.legacyurl: /web-forms/overview/older-versions-security/roles/assigning-roles-to-users-cs
 msc.type: authoredcontent
+ms.topic: concept-article
 ---
 # Assigning Roles to Users (C#)
 

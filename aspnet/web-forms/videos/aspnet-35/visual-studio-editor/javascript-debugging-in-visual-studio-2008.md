@@ -8,6 +8,7 @@ ms.date: 11/15/2007
 ms.assetid: 8b726bc6-b718-43a8-b019-7ea7f26944ca
 msc.legacyurl: /web-forms/videos/aspnet-35/visual-studio-editor/javascript-debugging-in-visual-studio-2008
 msc.type: video
+ms.topic: article
 ---
 # JavaScript Debugging in Visual Studio 2008
 

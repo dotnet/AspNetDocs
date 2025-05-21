@@ -8,6 +8,7 @@ ms.date: 04/01/2009
 ms.assetid: f8d78a88-cc91-40d8-bce3-3d7954f6033b
 msc.legacyurl: /web-forms/overview/older-versions-getting-started/deploying-web-site-projects/determining-what-files-need-to-be-deployed-cs
 msc.type: authoredcontent
+ms.topic: concept-article
 ---
 # Determining What Files Need to Be Deployed (C#)
 

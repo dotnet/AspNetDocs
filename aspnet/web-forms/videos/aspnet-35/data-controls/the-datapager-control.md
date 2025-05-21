@@ -8,6 +8,7 @@ ms.date: 11/15/2007
 ms.assetid: 561fc945-2506-4549-af92-af92556df266
 msc.legacyurl: /web-forms/videos/aspnet-35/data-controls/the-datapager-control
 msc.type: video
+ms.topic: article
 ---
 # The DataPager Control
 

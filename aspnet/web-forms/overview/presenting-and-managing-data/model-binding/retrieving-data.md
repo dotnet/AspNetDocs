@@ -8,6 +8,7 @@ ms.date: 02/27/2014
 ms.assetid: 9f24fb82-c7ac-48da-b8e2-51b3da17e365
 msc.legacyurl: /web-forms/overview/presenting-and-managing-data/model-binding/retrieving-data
 msc.type: authoredcontent
+ms.topic: how-to
 ---
 # Retrieving and displaying data with model binding and web forms
 

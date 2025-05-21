@@ -8,6 +8,7 @@ ms.date: 03/24/2008
 ms.assetid: fd208ee9-69cc-4467-9783-b4e039bdd1d3
 msc.legacyurl: /web-forms/overview/older-versions-security/roles/assigning-roles-to-users-vb
 msc.type: authoredcontent
+ms.topic: concept-article
 ---
 # Assigning Roles to Users (VB)
 

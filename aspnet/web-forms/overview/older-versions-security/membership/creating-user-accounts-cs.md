@@ -8,6 +8,7 @@ ms.date: 01/18/2008
 ms.assetid: f175278c-6079-4d91-b9b4-2493ed43d9ec
 msc.legacyurl: /web-forms/overview/older-versions-security/membership/creating-user-accounts-cs
 msc.type: authoredcontent
+ms.topic: how-to
 ---
 # Creating User Accounts (C#)
 

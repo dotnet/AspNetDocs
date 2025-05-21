@@ -8,6 +8,7 @@ ms.date: 05/21/2008
 ms.assetid: ea8196f5-039d-43ec-8447-8997ad4d3900
 msc.legacyurl: /web-forms/overview/older-versions-getting-started/master-pages/specifying-the-title-meta-tags-and-other-html-headers-in-the-master-page-vb
 msc.type: authoredcontent
+ms.topic: concept-article
 ---
 # Specifying the Title, Meta Tags, and Other HTML Headers in the Master Page (VB)
 

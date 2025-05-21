@@ -8,6 +8,7 @@ ms.date: 04/10/2008
 ms.assetid: 782eca6d-51d6-4c8e-b2ea-59dfa567740a
 msc.legacyurl: /web-forms/videos/aspnet-ajax/basic-aspnet-authentication-in-an-ajax-enabled-application
 msc.type: video
+ms.topic: article
 ---
 # Basic ASP.NET Authentication in an AJAX Enabled Application
 

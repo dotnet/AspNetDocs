@@ -8,6 +8,7 @@ ms.date: 10/05/2011
 ms.assetid: b715c4ec-6f4b-4f7e-8ee3-b1613477ce61
 msc.legacyurl: /web-forms/overview/older-versions-security/admin
 msc.type: chapter
+ms.topic: article
 ---
 # ASP.NET 3.5 - Security Administration
 

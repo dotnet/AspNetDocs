@@ -8,6 +8,7 @@ ms.date: 09/01/2007
 ms.assetid: db9e13d3-c8f5-4051-ad9d-dc5649b1c41f
 msc.legacyurl: /web-forms/videos/aspnet-ajax/how-do-i-build-custom-server-controls-that-work-with-or-without-aspnet-ajax
 msc.type: video
+ms.topic: article
 ---
 # [How Do I:] Build Custom Server Controls that Work With or Without ASP.NET AJAX?
 

@@ -8,6 +8,7 @@ ms.date: 02/24/2009
 ms.assetid: f2b4fff1-523f-4636-aa70-63fcc1257a1f
 msc.legacyurl: /web-forms/videos/aspnet-35/aspnet-ajax/aspnet-ajax-a-demonstration-of-aspnet-ajax
 msc.type: video
+ms.topic: article
 ---
 # ASP.NET AJAX: A demonstration of ASP.NET AJAX
 

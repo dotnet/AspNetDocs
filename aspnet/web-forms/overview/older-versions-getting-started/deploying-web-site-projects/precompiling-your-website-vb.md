@@ -8,6 +8,7 @@ ms.date: 06/09/2009
 ms.assetid: c285dc6f-a1c6-46e6-ac03-3830947f57e3
 msc.legacyurl: /web-forms/overview/older-versions-getting-started/deploying-web-site-projects/precompiling-your-website-vb
 msc.type: authoredcontent
+ms.topic: concept-article
 ---
 # Precompiling Your Website (VB)
 

@@ -8,6 +8,7 @@ ms.date: 11/15/2007
 ms.assetid: 01305c35-5b83-408b-bc9d-fa31b17a723f
 msc.legacyurl: /web-forms/videos/aspnet-35/visual-studio-editor/new-designer-support-in-visual-studio-2008
 msc.type: video
+ms.topic: article
 ---
 # New Designer Support in Visual Studio 2008
 

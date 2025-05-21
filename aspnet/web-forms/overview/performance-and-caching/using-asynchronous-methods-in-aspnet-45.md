@@ -8,6 +8,7 @@ ms.date: 01/02/2019
 ms.assetid: a585c9a2-7c8e-478b-9706-90f3739c50d1
 msc.legacyurl: /web-forms/overview/performance-and-caching/using-asynchronous-methods-in-aspnet-45
 msc.type: authoredcontent
+ms.topic: concept-article
 ---
 # Using Asynchronous Methods in ASP.NET 4.5
 

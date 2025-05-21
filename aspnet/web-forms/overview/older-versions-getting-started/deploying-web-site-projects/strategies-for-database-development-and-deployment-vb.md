@@ -8,6 +8,7 @@ ms.date: 04/23/2009
 ms.assetid: 07b8905d-78ac-4252-97fb-8675b3fb0bbf
 msc.legacyurl: /web-forms/overview/older-versions-getting-started/deploying-web-site-projects/strategies-for-database-development-and-deployment-vb
 msc.type: authoredcontent
+ms.topic: article
 ---
 # Strategies for Database Development and Deployment (VB)
 

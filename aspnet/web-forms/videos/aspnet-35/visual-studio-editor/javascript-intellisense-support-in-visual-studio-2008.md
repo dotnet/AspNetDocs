@@ -8,6 +8,7 @@ ms.date: 11/15/2007
 ms.assetid: a4429553-d43e-4169-9fb3-086405ec9c93
 msc.legacyurl: /web-forms/videos/aspnet-35/visual-studio-editor/javascript-intellisense-support-in-visual-studio-2008
 msc.type: video
+ms.topic: article
 ---
 # JavaScript Intellisense Support in Visual Studio 2008
 

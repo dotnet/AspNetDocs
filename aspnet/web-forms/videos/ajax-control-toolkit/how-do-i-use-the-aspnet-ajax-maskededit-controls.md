@@ -8,6 +8,7 @@ ms.date: 04/04/2007
 ms.assetid: 806a8bfe-54be-4c96-8ffd-66303cc2b2f9
 msc.legacyurl: /web-forms/videos/ajax-control-toolkit/how-do-i-use-the-aspnet-ajax-maskededit-controls
 msc.type: video
+ms.topic: article
 ---
 # [How Do I:] Use the ASP.NET AJAX MaskedEdit Controls?
 

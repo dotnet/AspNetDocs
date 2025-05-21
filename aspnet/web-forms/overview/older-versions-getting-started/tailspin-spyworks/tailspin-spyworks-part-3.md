@@ -8,6 +8,7 @@ ms.date: 07/21/2010
 ms.assetid: 94ea1a70-a9bc-4241-8f36-08366d64bab9
 msc.legacyurl: /web-forms/overview/older-versions-getting-started/tailspin-spyworks/tailspin-spyworks-part-3
 msc.type: authoredcontent
+ms.topic: article
 ---
 # Part 3: Layout and Category Menu
 

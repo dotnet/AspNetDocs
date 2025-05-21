@@ -8,6 +8,7 @@ ms.date: 07/11/2008
 ms.assetid: 0c55eb66-ba44-4d49-98e8-5c87fd9b1111
 msc.legacyurl: /web-forms/overview/older-versions-getting-started/master-pages/master-pages-and-asp-net-ajax-cs
 msc.type: authoredcontent
+ms.topic: article
 ---
 # Master Pages and ASP.NET AJAX (C#)
 

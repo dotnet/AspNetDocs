@@ -8,6 +8,7 @@ ms.date: 01/26/2007
 ms.assetid: 5ef4c879-aa90-4492-859b-d4568b87bab3
 msc.legacyurl: /web-forms/videos/aspnet-ajax/how-do-i-add-aspnet-ajax-features-to-an-existing-web-application
 msc.type: video
+ms.topic: article
 ---
 # [How Do I:] Add ASP.NET AJAX Features to an Existing Web Application?
 

@@ -8,6 +8,7 @@ ms.date: 04/01/2009
 ms.assetid: 09279194-bcf9-4b59-a09d-c68e5926a758
 msc.legacyurl: /web-forms/overview/older-versions-getting-started/deploying-web-site-projects/deploying-your-site-using-an-ftp-client-vb
 msc.type: authoredcontent
+ms.topic: concept-article
 ---
 # Deploying Your Site Using an FTP Client (VB)
 

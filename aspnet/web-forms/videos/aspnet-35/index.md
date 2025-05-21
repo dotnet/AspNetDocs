@@ -8,6 +8,7 @@ ms.date: 10/05/2011
 ms.assetid: 2e6e9c24-bb97-446a-b05e-1bd88824d352
 msc.legacyurl: /web-forms/videos/aspnet-35
 msc.type: chapter
+ms.topic: article
 ---
 # ASP.NET 3.5
 

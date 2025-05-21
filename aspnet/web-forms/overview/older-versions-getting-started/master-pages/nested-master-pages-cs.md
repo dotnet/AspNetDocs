@@ -8,6 +8,7 @@ ms.date: 07/28/2008
 ms.assetid: 32b7fb6e-d74b-4048-91f8-70631b2523ee
 msc.legacyurl: /web-forms/overview/older-versions-getting-started/master-pages/nested-master-pages-cs
 msc.type: authoredcontent
+ms.topic: article
 ---
 # Nested Master Pages (C#)
 

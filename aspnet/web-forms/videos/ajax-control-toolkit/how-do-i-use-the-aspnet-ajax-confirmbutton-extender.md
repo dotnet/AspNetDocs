@@ -8,6 +8,7 @@ ms.date: 03/05/2007
 ms.assetid: 40287d43-6e0d-47ec-881f-c4dff970d1b9
 msc.legacyurl: /web-forms/videos/ajax-control-toolkit/how-do-i-use-the-aspnet-ajax-confirmbutton-extender
 msc.type: video
+ms.topic: article
 ---
 # [How Do I:] Use the ASP.NET AJAX ConfirmButton Extender?
 

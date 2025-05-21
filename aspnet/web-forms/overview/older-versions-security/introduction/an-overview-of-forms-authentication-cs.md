@@ -8,6 +8,7 @@ ms.date: 01/14/2008
 ms.assetid: de2d65b9-aadc-42ba-abe1-4e87e66521a0
 msc.legacyurl: /web-forms/overview/older-versions-security/introduction/an-overview-of-forms-authentication-cs
 msc.type: authoredcontent
+ms.topic: article
 ---
 # An Overview of Forms Authentication (C#)
 

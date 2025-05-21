@@ -8,6 +8,7 @@ ms.date: 02/27/2014
 ms.assetid: 7ef664b3-1cc8-4cbf-bb18-9f0f3a3ada2b
 msc.legacyurl: /web-forms/overview/presenting-and-managing-data/model-binding/adding-business-logic-layer
 msc.type: authoredcontent
+ms.topic: how-to
 ---
 # Adding business logic layer to a project that uses model binding and web forms
 

@@ -8,6 +8,7 @@ ms.date: 07/16/2007
 ms.assetid: dfc9f5bb-5e51-46ec-8e1d-2ef9942d258b
 msc.legacyurl: /web-forms/videos/ajax-control-toolkit/how-do-i-use-the-aspnet-ajax-slideshow-extender
 msc.type: video
+ms.topic: article
 ---
 # [How Do I:] Use the ASP.NET AJAX SlideShow Extender?
 

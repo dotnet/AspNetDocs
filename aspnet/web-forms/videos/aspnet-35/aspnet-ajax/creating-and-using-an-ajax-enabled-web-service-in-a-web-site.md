@@ -8,6 +8,7 @@ ms.date: 11/15/2007
 ms.assetid: bfccf680-efc7-400e-ac16-104e288cd430
 msc.legacyurl: /web-forms/videos/aspnet-35/aspnet-ajax/creating-and-using-an-ajax-enabled-web-service-in-a-web-site
 msc.type: video
+ms.topic: concept-article
 ---
 # Creating and Using an AJAX-enabled Web Service in a Web Site
 

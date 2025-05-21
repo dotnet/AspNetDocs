@@ -9,6 +9,7 @@ ms.custom: devdivchpfy22
 ms.assetid: ecd5a4de-beb7-4d1d-bbbb-e31003633267
 msc.legacyurl: /web-forms/overview/older-versions-getting-started/deploying-web-site-projects/precompiling-your-website-cs
 msc.type: authoredcontent
+ms.topic: concept-article
 ---
 # Precompiling Your Website (C#)
 

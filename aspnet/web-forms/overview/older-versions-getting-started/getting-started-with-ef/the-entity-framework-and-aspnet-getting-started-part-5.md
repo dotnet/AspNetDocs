@@ -8,6 +8,7 @@ ms.date: 12/03/2010
 ms.assetid: 24ad4379-3fb2-44dc-ba59-85fe0ffcb2ae
 msc.legacyurl: /web-forms/overview/older-versions-getting-started/getting-started-with-ef/the-entity-framework-and-aspnet-getting-started-part-5
 msc.type: authoredcontent
+ms.topic: get-started
 ---
 # Getting Started with Entity Framework 4.0 Database First and ASP.NET 4 Web Forms - Part 5
 

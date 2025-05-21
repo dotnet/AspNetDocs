@@ -8,6 +8,7 @@ ms.date: 11/15/2007
 ms.assetid: f20c5f1c-e49c-4909-b18f-8b5a442eafe3
 msc.legacyurl: /web-forms/videos/aspnet-35/visual-studio-editor/quick-tour-of-the-visual-studio-2008-integrated-development-environment
 msc.type: video
+ms.topic: article
 ---
 # Quick Tour of the Visual Studio 2008 Integrated Development Environment
 

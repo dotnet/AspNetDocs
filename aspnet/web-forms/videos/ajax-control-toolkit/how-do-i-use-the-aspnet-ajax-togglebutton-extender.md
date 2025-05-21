@@ -8,6 +8,7 @@ ms.date: 02/01/2007
 ms.assetid: 3116e9bc-681c-48f9-813e-1bcfcec145da
 msc.legacyurl: /web-forms/videos/ajax-control-toolkit/how-do-i-use-the-aspnet-ajax-togglebutton-extender
 msc.type: video
+ms.topic: article
 ---
 # [How Do I:] Use the ASP.NET AJAX ToggleButton Extender?
 

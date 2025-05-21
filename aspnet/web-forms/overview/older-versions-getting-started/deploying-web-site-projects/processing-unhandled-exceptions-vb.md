@@ -9,6 +9,7 @@ ms.custom: devdivchpfy22
 ms.assetid: 051296f0-9519-4e78-835c-d868da13b0a0
 msc.legacyurl: /web-forms/overview/older-versions-getting-started/deploying-web-site-projects/processing-unhandled-exceptions-vb
 msc.type: authoredcontent
+ms.topic: concept-article
 ---
 # Processing Unhandled Exceptions (VB)
 

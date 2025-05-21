@@ -8,6 +8,7 @@ ms.date: 07/28/2008
 ms.assetid: 7c4a3445-2440-4aee-b9fd-779c05e6abb2
 msc.legacyurl: /web-forms/overview/older-versions-getting-started/master-pages/specifying-the-master-page-programmatically-cs
 msc.type: authoredcontent
+ms.topic: concept-article
 ---
 # Specifying the Master Page Programmatically (C#)
 

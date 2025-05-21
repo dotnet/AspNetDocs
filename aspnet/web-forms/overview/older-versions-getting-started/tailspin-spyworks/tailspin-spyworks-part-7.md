@@ -8,6 +8,7 @@ ms.date: 07/21/2010
 ms.assetid: 50223ee9-11b9-4cf3-bca2-e2f10bf471f3
 msc.legacyurl: /web-forms/overview/older-versions-getting-started/tailspin-spyworks/tailspin-spyworks-part-7
 msc.type: authoredcontent
+ms.topic: how-to
 ---
 # Part 7: Adding Features
 

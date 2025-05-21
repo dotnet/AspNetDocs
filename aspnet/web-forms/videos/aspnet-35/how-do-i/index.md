@@ -8,6 +8,7 @@ ms.date: 11/14/2011
 ms.assetid: 6a25069b-c80f-45f3-a901-4548442c37b6
 msc.legacyurl: /web-forms/videos/aspnet-35/how-do-i
 msc.type: chapter
+ms.topic: article
 ---
 # How Do I
 

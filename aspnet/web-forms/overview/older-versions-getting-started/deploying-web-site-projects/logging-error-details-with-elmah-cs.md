@@ -8,6 +8,7 @@ ms.date: 06/09/2009
 ms.assetid: 11f6fe44-64ef-4a38-a3b4-35c7bb992352
 msc.legacyurl: /web-forms/overview/older-versions-getting-started/deploying-web-site-projects/logging-error-details-with-elmah-cs
 msc.type: authoredcontent
+ms.topic: how-to
 ---
 # Logging Error Details with ELMAH (C#)
 

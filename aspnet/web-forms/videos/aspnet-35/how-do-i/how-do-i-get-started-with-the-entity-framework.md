@@ -8,6 +8,7 @@ ms.date: 05/22/2008
 ms.assetid: 2039bdcd-04f0-4813-b85b-4a3ccc916702
 msc.legacyurl: /web-forms/videos/aspnet-35/how-do-i/how-do-i-get-started-with-the-entity-framework
 msc.type: video
+ms.topic: get-started
 ---
 # [How Do I:] Get Started with the Entity Framework
 

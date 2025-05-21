@@ -8,6 +8,7 @@ ms.date: 01/18/2008
 ms.assetid: 3c815a9e-2296-4b9b-b945-776d54989daa
 msc.legacyurl: /web-forms/overview/older-versions-security/membership/user-based-authorization-cs
 msc.type: authoredcontent
+ms.topic: article
 ---
 # User-Based Authorization (C#)
 

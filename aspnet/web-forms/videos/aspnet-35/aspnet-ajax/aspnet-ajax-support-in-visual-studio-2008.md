@@ -8,6 +8,7 @@ ms.date: 11/15/2007
 ms.assetid: e18480cd-432c-47e5-bcfe-4cb86ebf73ab
 msc.legacyurl: /web-forms/videos/aspnet-35/aspnet-ajax/aspnet-ajax-support-in-visual-studio-2008
 msc.type: video
+ms.topic: article
 ---
 # ASP.NET AJAX Support in Visual Studio 2008
 

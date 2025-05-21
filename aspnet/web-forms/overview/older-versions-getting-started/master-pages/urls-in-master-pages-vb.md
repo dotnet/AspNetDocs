@@ -8,6 +8,7 @@ ms.date: 06/10/2008
 ms.assetid: 43d1e83c-0092-4dcf-977c-e709c4dce7c3
 msc.legacyurl: /web-forms/overview/older-versions-getting-started/master-pages/urls-in-master-pages-vb
 msc.type: authoredcontent
+ms.topic: article
 ---
 # URLs in Master Pages (VB)
 

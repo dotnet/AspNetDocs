@@ -8,6 +8,7 @@ ms.date: 07/25/2007
 ms.assetid: 1165e0b4-2240-4dc2-aa94-ef6664c71a8c
 msc.legacyurl: /web-forms/videos/aspnet-ajax/how-do-i-build-a-custom-aspnet-ajax-server-control
 msc.type: video
+ms.topic: article
 ---
 # [How Do I:] Build a Custom ASP.NET AJAX Server Control?
 

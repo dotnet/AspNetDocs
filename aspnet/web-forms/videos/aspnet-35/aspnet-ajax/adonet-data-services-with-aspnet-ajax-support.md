@@ -8,6 +8,7 @@ ms.date: 12/20/2007
 ms.assetid: c7aa9192-8859-403f-a9a8-c372081f75bd
 msc.legacyurl: /web-forms/videos/aspnet-35/aspnet-ajax/adonet-data-services-with-aspnet-ajax-support
 msc.type: video
+ms.topic: article
 ---
 # ADO.NET Data Services with ASP.NET AJAX Support
 

@@ -8,6 +8,7 @@ ms.date: 08/08/2011
 ms.assetid: caeb0bcb-b2e3-4c37-a1d5-420bb4e917ac
 msc.legacyurl: /web-forms/overview/older-versions-getting-started/tailspin-spyworks
 msc.type: chapter
+ms.topic: article
 ---
 # ASP.NET 4 - Tailspin Spyworks
 

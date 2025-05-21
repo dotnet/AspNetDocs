@@ -8,6 +8,7 @@ ms.date: 07/01/2007
 ms.assetid: f85fcce9-a897-4f43-b12f-5c6f5f2733cd
 msc.legacyurl: /web-forms/videos/ajax-control-toolkit/how-do-i-use-the-aspnet-ajax-tabs-control
 msc.type: video
+ms.topic: article
 ---
 # [How Do I:] Use the ASP.NET AJAX Tabs Control?
 

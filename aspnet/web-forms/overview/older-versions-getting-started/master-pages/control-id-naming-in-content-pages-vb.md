@@ -8,6 +8,7 @@ ms.date: 06/10/2008
 ms.assetid: dbb024a6-f043-4fc5-ad66-56556711875b
 msc.legacyurl: /web-forms/overview/older-versions-getting-started/master-pages/control-id-naming-in-content-pages-vb
 msc.type: authoredcontent
+ms.topic: article
 ---
 # Control ID Naming in Content Pages (VB)
 

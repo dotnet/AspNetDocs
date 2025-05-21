@@ -8,6 +8,7 @@ ms.date: 10/18/2014
 ms.assetid: 2f952638-6b1f-48b6-b019-1c5d1e9ab746
 msc.legacyurl: /web-forms/overview/older-versions-security
 msc.type: chapter
+ms.topic: article
 ---
 # Older Versions - Security
 

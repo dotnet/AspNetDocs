@@ -8,6 +8,7 @@ ms.date: 01/31/2007
 ms.assetid: 61086ed8-ad8b-499a-84d2-5b6b68ede15a
 msc.legacyurl: /web-forms/videos/ajax-control-toolkit/how-do-i-use-the-aspnet-ajax-hovermenu-extender
 msc.type: video
+ms.topic: article
 ---
 # [How Do I:] Use the ASP.NET AJAX HoverMenu Extender?
 

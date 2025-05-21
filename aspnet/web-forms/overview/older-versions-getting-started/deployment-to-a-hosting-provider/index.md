@@ -8,6 +8,7 @@ ms.date: 11/29/2011
 ms.assetid: 6798c7e4-f08e-4802-9fa5-443f67d5df62
 msc.legacyurl: /web-forms/overview/older-versions-getting-started/deployment-to-a-hosting-provider
 msc.type: chapter
+ms.topic: article
 ---
 # ASP.NET 4 - Web Deployment with SQL Server Compact using Visual Studio
 

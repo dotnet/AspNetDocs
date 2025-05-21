@@ -8,6 +8,7 @@ ms.date: 02/27/2014
 ms.assetid: 266e7866-e327-4687-b29d-627a0925e87d
 msc.legacyurl: /web-forms/overview/presenting-and-managing-data/model-binding/sorting-paging-and-filtering-data
 msc.type: authoredcontent
+ms.topic: article
 ---
 # Sorting, paging, and filtering data with model binding and web forms
 

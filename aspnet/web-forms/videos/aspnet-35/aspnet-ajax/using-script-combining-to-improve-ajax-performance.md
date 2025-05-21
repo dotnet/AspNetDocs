@@ -8,6 +8,7 @@ ms.date: 05/08/2008
 ms.assetid: f5445f4a-bc78-4950-b74f-de748bf8b0be
 msc.legacyurl: /web-forms/videos/aspnet-35/aspnet-ajax/using-script-combining-to-improve-ajax-performance
 msc.type: video
+ms.topic: concept-article
 ---
 # Using Script Combining to improve AJAX performance
 

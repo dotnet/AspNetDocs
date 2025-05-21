@@ -8,6 +8,7 @@ ms.date: 11/15/2007
 ms.assetid: e7c3b221-87ce-444e-9106-bb0609665009
 msc.legacyurl: /web-forms/videos/aspnet-35/visual-studio-editor/creating-and-modifying-a-css-file
 msc.type: video
+ms.topic: concept-article
 ---
 # Creating and Modifying a CSS File
 

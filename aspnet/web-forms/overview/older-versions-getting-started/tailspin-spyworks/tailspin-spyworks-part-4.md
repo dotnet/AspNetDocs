@@ -8,6 +8,7 @@ ms.date: 07/21/2010
 ms.assetid: 4fab47d5-a6ec-4fdc-91f0-651a093a24b9
 msc.legacyurl: /web-forms/overview/older-versions-getting-started/tailspin-spyworks/tailspin-spyworks-part-4
 msc.type: authoredcontent
+ms.topic: article
 ---
 # Part 4: Listing Products
 

@@ -8,6 +8,7 @@ ms.date: 04/01/2008
 ms.assetid: f9adcb5d-6d70-4885-a3bf-ed95efb4da1a
 msc.legacyurl: /web-forms/overview/older-versions-security/admin/recovering-and-changing-passwords-vb
 msc.type: authoredcontent
+ms.topic: concept-article
 ---
 # Recovering and Changing Passwords (VB)
 

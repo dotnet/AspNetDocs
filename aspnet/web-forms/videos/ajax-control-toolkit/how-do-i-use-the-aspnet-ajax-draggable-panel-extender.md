@@ -8,6 +8,7 @@ ms.date: 01/31/2007
 ms.assetid: 6f93a786-93f3-4a48-8fd5-001016550619
 msc.legacyurl: /web-forms/videos/ajax-control-toolkit/how-do-i-use-the-aspnet-ajax-draggable-panel-extender
 msc.type: video
+ms.topic: article
 ---
 # [How Do I:] Use the ASP.NET AJAX Draggable Panel Extender?
 

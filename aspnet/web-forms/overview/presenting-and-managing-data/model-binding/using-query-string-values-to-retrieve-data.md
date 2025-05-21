@@ -8,6 +8,7 @@ ms.date: 02/27/2014
 ms.assetid: b90978bd-795d-4871-9ade-1671caff5730
 msc.legacyurl: /web-forms/overview/presenting-and-managing-data/model-binding/using-query-string-values-to-retrieve-data
 msc.type: authoredcontent
+ms.topic: how-to
 ---
 # Using query string values to filter data with model binding and web forms
 

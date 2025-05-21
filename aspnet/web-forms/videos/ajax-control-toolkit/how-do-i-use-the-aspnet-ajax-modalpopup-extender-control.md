@@ -8,6 +8,7 @@ ms.date: 01/26/2007
 ms.assetid: 37c50e6c-e34d-4fd0-b272-01950ada7667
 msc.legacyurl: /web-forms/videos/ajax-control-toolkit/how-do-i-use-the-aspnet-ajax-modalpopup-extender-control
 msc.type: video
+ms.topic: article
 ---
 # [How Do I:] Use the ASP.NET AJAX ModalPopup Extender Control?
 

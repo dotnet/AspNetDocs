@@ -8,6 +8,7 @@ ms.date: 05/22/2008
 ms.assetid: ce4a5e6c-8aec-4955-a145-337f1e48af05
 msc.legacyurl: /web-forms/videos/aspnet-35/how-do-i/how-do-i-use-the-new-entity-data-source
 msc.type: video
+ms.topic: article
 ---
 # [How Do I:] Use the New Entity Data Source
 

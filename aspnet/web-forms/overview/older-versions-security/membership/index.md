@@ -8,6 +8,7 @@ ms.date: 10/05/2011
 ms.assetid: 96fc5552-05cd-4547-909f-9bb3176e44d6
 msc.legacyurl: /web-forms/overview/older-versions-security/membership
 msc.type: chapter
+ms.topic: article
 ---
 # ASP.NET 3.5 - Membership
 

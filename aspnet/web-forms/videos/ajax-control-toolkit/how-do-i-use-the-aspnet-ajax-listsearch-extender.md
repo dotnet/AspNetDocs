@@ -8,6 +8,7 @@ ms.date: 05/25/2007
 ms.assetid: 459490f0-79cb-4859-9fd2-885dae4d23fd
 msc.legacyurl: /web-forms/videos/ajax-control-toolkit/how-do-i-use-the-aspnet-ajax-listsearch-extender
 msc.type: video
+ms.topic: article
 ---
 # [How Do I:] Use the ASP.NET AJAX ListSearch Extender?
 

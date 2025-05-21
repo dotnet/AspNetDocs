@@ -8,6 +8,7 @@ ms.date: 11/14/2011
 ms.assetid: 93486ab8-7a8c-4075-935a-83900817b3db
 msc.legacyurl: /web-forms/videos/aspnet-35/aspnet-ajax
 msc.type: chapter
+ms.topic: article
 ---
 # ASP.NET Ajax
 

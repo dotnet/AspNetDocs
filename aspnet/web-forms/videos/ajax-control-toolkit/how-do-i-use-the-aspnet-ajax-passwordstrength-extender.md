@@ -8,6 +8,7 @@ ms.date: 02/01/2007
 ms.assetid: 4acc8d48-845f-4451-8a83-0d6d935c4564
 msc.legacyurl: /web-forms/videos/ajax-control-toolkit/how-do-i-use-the-aspnet-ajax-passwordstrength-extender
 msc.type: video
+ms.topic: article
 ---
 # [How Do I:] Use the ASP.NET AJAX PasswordStrength Extender?
 

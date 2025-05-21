@@ -8,6 +8,7 @@ ms.date: 07/01/2007
 ms.assetid: 99b23369-dac6-458b-b002-56be35f43236
 msc.legacyurl: /web-forms/videos/ajax-control-toolkit/how-do-i-use-the-aspnet-ajax-resizablecontrol-extender
 msc.type: video
+ms.topic: article
 ---
 # [How Do I:] Use the ASP.NET AJAX ResizableControl Extender?
 

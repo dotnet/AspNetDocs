@@ -8,6 +8,7 @@ ms.date: 04/01/2008
 ms.assetid: 041854a5-ea8c-4de0-82f1-121ba6cb2893
 msc.legacyurl: /web-forms/overview/older-versions-security/admin/unlocking-and-approving-user-accounts-vb
 msc.type: authoredcontent
+ms.topic: concept-article
 ---
 # Unlocking and Approving User Accounts (VB)
 

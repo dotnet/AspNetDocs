@@ -8,6 +8,7 @@ ms.date: 06/09/2009
 ms.assetid: dbc54313-5d05-4285-98b3-726edea6d0c9
 msc.legacyurl: /web-forms/overview/older-versions-getting-started/deploying-web-site-projects/users-and-roles-on-the-production-website-cs
 msc.type: authoredcontent
+ms.topic: article
 ---
 # Users and Roles On The Production Website (C#)
 

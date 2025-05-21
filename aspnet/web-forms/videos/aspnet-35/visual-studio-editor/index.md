@@ -8,6 +8,7 @@ ms.date: 11/14/2011
 ms.assetid: 8d424d7b-5206-4790-a068-36d01c05ceb0
 msc.legacyurl: /web-forms/videos/aspnet-35/visual-studio-editor
 msc.type: chapter
+ms.topic: article
 ---
 # Visual Studio Editor
 

@@ -8,6 +8,7 @@ ms.date: 01/14/2008
 ms.assetid: 83267f7d-64d9-41ee-82cf-da91b1bf534d
 msc.legacyurl: /web-forms/overview/older-versions-security/introduction/an-overview-of-forms-authentication-vb
 msc.type: authoredcontent
+ms.topic: article
 ---
 # An Overview of Forms Authentication (VB)
 

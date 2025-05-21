@@ -8,6 +8,7 @@ ms.date: 01/31/2007
 ms.assetid: 919b509c-37e8-4765-92a4-70277bd87269
 msc.legacyurl: /web-forms/videos/ajax-control-toolkit/how-do-i-use-the-aspnet-ajax-filteredtextbox-extender
 msc.type: video
+ms.topic: article
 ---
 # [How Do I:] Use the ASP.NET AJAX FilteredTextbox Extender?
 

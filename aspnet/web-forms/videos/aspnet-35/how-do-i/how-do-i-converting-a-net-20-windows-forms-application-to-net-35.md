@@ -8,6 +8,7 @@ ms.date: 02/14/2008
 ms.assetid: 30274ca7-8dc8-41b2-b5b4-40881046079a
 msc.legacyurl: /web-forms/videos/aspnet-35/how-do-i/how-do-i-converting-a-net-20-windows-forms-application-to-net-35
 msc.type: video
+ms.topic: article
 ---
 # [How Do I:] Converting a .NET 2.0 Windows Forms Application to .NET 3.5
 

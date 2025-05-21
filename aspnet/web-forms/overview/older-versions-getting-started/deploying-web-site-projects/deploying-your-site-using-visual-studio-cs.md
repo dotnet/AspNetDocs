@@ -8,6 +8,7 @@ ms.date: 04/01/2009
 ms.assetid: cde4ee53-a5d0-4937-a54b-67877e8266c3
 msc.legacyurl: /web-forms/overview/older-versions-getting-started/deploying-web-site-projects/deploying-your-site-using-visual-studio-cs
 msc.type: authoredcontent
+ms.topic: concept-article
 ---
 # Deploying Your Site Using Visual Studio (C#)
 

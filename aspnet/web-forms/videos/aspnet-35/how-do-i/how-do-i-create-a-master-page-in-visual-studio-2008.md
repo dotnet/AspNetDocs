@@ -8,6 +8,7 @@ ms.date: 02/14/2008
 ms.assetid: b0a08145-5569-482c-abca-18df242628ec
 msc.legacyurl: /web-forms/videos/aspnet-35/how-do-i/how-do-i-create-a-master-page-in-visual-studio-2008
 msc.type: video
+ms.topic: article
 ---
 # [How Do I:] Create a Master Page in Visual Studio 2008
 

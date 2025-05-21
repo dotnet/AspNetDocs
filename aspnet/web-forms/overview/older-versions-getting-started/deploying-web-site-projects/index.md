@@ -8,6 +8,7 @@ ms.date: 05/16/2012
 ms.assetid: 6f72bde8-f2f1-4e4a-94e5-494c3c153c14
 msc.legacyurl: /web-forms/overview/older-versions-getting-started/deploying-web-site-projects
 msc.type: chapter
+ms.topic: concept-article
 ---
 # Deploying Web Site Projects in Visual Studio 2008 and earlier
 

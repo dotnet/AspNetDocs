@@ -8,6 +8,7 @@ ms.date: 01/30/2007
 ms.assetid: 9e81b071-89a2-4674-aeec-ba49a0f23429
 msc.legacyurl: /web-forms/videos/ajax-control-toolkit/how-do-i-use-the-aspnet-ajax-accordion-control
 msc.type: video
+ms.topic: article
 ---
 # [How Do I:] Use the ASP.NET AJAX Accordion Control?
 
