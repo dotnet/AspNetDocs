@@ -8,6 +8,7 @@ ms.date: 08/08/2011
 ms.assetid: b3fb4480-0f41-495b-add6-163ca92dc8a3
 msc.legacyurl: /web-forms/overview
 msc.type: book
+ms.topic: article
 ---
 # ASP.NET Web Forms Guidance
 

@@ -8,6 +8,7 @@ ms.date: 01/26/2011
 ms.assetid: 4e43455e-dfa1-42db-83cb-c987703f04b5
 msc.legacyurl: /web-forms/overview/older-versions-getting-started/continuing-with-ef/maximizing-performance-with-the-entity-framework-in-an-asp-net-web-application
 msc.type: authoredcontent
+ms.topic: concept-article
 ---
 # Maximizing Performance with the Entity Framework 4.0 in an ASP.NET 4 Web Application
 

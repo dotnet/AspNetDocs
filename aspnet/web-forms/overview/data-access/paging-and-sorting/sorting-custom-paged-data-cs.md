@@ -8,6 +8,7 @@ ms.date: 08/15/2006
 ms.assetid: 778baa4e-4af8-4665-947e-7a01d1a4dff2
 msc.legacyurl: /web-forms/overview/data-access/paging-and-sorting/sorting-custom-paged-data-cs
 msc.type: authoredcontent
+ms.topic: how-to
 ---
 # Sorting Custom Paged Data (C#)
 

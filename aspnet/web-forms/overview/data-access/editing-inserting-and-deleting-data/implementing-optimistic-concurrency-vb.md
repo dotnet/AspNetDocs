@@ -8,6 +8,7 @@ ms.date: 07/17/2006
 ms.assetid: 2646968c-2826-4418-b1d0-62610ed177e3
 msc.legacyurl: /web-forms/overview/data-access/editing-inserting-and-deleting-data/implementing-optimistic-concurrency-vb
 msc.type: authoredcontent
+ms.topic: how-to
 ---
 # Implementing Optimistic Concurrency (VB)
 

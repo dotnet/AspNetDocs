@@ -8,6 +8,7 @@ ms.date: 05/16/2012
 ms.assetid: 83e0a572-428f-4bea-9638-1a031c6901c0
 msc.legacyurl: /web-forms/overview/deployment/web-deployment-in-the-enterprise
 msc.type: chapter
+ms.topic: article
 ---
 # ASP.NET 4 - Enterprise Deployment Series 1
 

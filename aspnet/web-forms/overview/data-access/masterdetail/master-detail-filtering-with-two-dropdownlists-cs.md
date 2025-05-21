@@ -8,6 +8,7 @@ ms.date: 03/31/2010
 ms.assetid: ac4b0d77-4816-4ded-afd0-88dab667aedd
 msc.legacyurl: /web-forms/overview/data-access/masterdetail/master-detail-filtering-with-two-dropdownlists-cs
 msc.type: authoredcontent
+ms.topic: article
 ---
 # Master/Detail Filtering With Two DropDownLists (C#)
 

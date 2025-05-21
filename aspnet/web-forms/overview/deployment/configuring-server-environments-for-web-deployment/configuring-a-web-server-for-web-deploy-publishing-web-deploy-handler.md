@@ -8,6 +8,7 @@ ms.date: 01/29/2017
 ms.assetid: 90ebf911-1c46-4470-b876-1335bd0f590f
 msc.legacyurl: /web-forms/overview/deployment/configuring-server-environments-for-web-deployment/configuring-a-web-server-for-web-deploy-publishing-web-deploy-handler
 msc.type: authoredcontent
+ms.topic: install-set-up-deploy
 ---
 # Configuring a Web Server for Web Deploy Publishing (Web Deploy Handler)
 

@@ -8,6 +8,7 @@ ms.date: 11/11/2011
 ms.assetid: 74f3a86b-81fa-4d64-820a-304613f72caa
 msc.legacyurl: /web-forms/overview/data-access/introduction
 msc.type: chapter
+ms.topic: concept-article
 ---
 # Introduction
 

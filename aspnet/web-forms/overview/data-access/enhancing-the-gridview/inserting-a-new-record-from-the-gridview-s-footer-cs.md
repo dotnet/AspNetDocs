@@ -8,6 +8,7 @@ ms.date: 03/06/2007
 ms.assetid: 49545652-98af-46ba-9dbc-9ab529805d9b
 msc.legacyurl: /web-forms/overview/data-access/enhancing-the-gridview/inserting-a-new-record-from-the-gridview-s-footer-cs
 msc.type: authoredcontent
+ms.topic: concept-article
 ---
 # Inserting a New Record from the GridView's Footer (C#)
 

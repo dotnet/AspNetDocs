@@ -8,6 +8,7 @@ ms.date: 03/31/2010
 ms.assetid: 0f982827-f8f9-420d-b36b-57b23f5aa519
 msc.legacyurl: /web-forms/overview/data-access/masterdetail/master-detail-using-a-selectable-master-gridview-with-a-details-detailview-cs
 msc.type: authoredcontent
+ms.topic: article
 ---
 # Master/Detail Using a Selectable Master GridView with a Details DetailView (C#)
 

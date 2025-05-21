@@ -8,6 +8,7 @@ ms.date: 01/26/2011
 ms.assetid: a5aa22a6-fb7f-4f41-9c7f-addda151940b
 msc.legacyurl: /web-forms/overview/older-versions-getting-started/continuing-with-ef/handling-concurrency-with-the-entity-framework-in-an-asp-net-web-application
 msc.type: authoredcontent
+ms.topic: concept-article
 ---
 # Handling Concurrency with the Entity Framework 4.0 in an ASP.NET 4 Web Application
 

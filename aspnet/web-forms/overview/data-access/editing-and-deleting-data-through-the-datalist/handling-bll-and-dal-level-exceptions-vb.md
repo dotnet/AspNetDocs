@@ -8,6 +8,7 @@ ms.date: 10/30/2006
 ms.assetid: ca665073-b379-4239-9404-f597663ca65e
 msc.legacyurl: /web-forms/overview/data-access/editing-and-deleting-data-through-the-datalist/handling-bll-and-dal-level-exceptions-vb
 msc.type: authoredcontent
+ms.topic: concept-article
 ---
 # Handling BLL- and DAL-Level Exceptions (VB)
 

@@ -9,6 +9,7 @@ ms.custom: devdivchpfy22
 ms.assetid: c979535f-48a3-4ec4-a633-a77889b86ddb
 msc.legacyurl: /web-forms/overview/deployment/configuring-team-foundation-server-for-web-deployment/deploying-a-specific-build
 msc.type: authoredcontent
+ms.topic: how-to
 ---
 # Deploying a Specific Build
 

@@ -8,6 +8,7 @@ ms.date: 04/05/2010
 ms.assetid: 6227233a-6254-4b6b-9a89-947efef22330
 msc.legacyurl: /web-forms/overview/data-access/introduction/creating-a-data-access-layer-vb
 msc.type: authoredcontent
+ms.topic: concept-article
 ---
 # Creating a Data Access Layer (VB)
 

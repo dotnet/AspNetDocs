@@ -8,6 +8,7 @@ ms.date: 07/17/2006
 ms.assetid: 9dc264a6-feb8-474b-8b91-008c50708065
 msc.legacyurl: /web-forms/overview/data-access/editing-inserting-and-deleting-data/limiting-data-modification-functionality-based-on-the-user-vb
 msc.type: authoredcontent
+ms.topic: concept-article
 ---
 # Limiting Data Modification Functionality Based on the User (VB)
 

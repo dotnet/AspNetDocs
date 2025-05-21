@@ -8,6 +8,7 @@ ms.date: 03/31/2010
 ms.assetid: 022801d8-a327-4d0c-8780-6094c9cee00d
 msc.legacyurl: /web-forms/overview/data-access/introduction/master-pages-and-site-navigation-vb
 msc.type: authoredcontent
+ms.topic: article
 ---
 # Master Pages and Site Navigation (VB)
 

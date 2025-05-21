@@ -8,6 +8,7 @@ ms.date: 02/13/2013
 ms.assetid: d0b8ff04-70e0-4453-a331-a4a4f57d72a8
 msc.legacyurl: /web-forms/overview/getting-started/hands-on-labs
 msc.type: chapter
+ms.topic: article
 ---
 # Visual Studio 2012 Hands On Labs
 

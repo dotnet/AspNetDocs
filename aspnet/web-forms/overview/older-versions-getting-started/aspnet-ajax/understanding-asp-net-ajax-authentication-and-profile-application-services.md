@@ -8,6 +8,7 @@ ms.date: 03/14/2008
 ms.assetid: 6ab4efb6-aab6-45ac-ad2c-bdec5848ef9e
 msc.legacyurl: /web-forms/overview/older-versions-getting-started/aspnet-ajax/understanding-asp-net-ajax-authentication-and-profile-application-services
 msc.type: authoredcontent
+ms.topic: concept-article
 ---
 # Understanding ASP.NET AJAX Authentication and Profile Application Services
 

@@ -8,6 +8,7 @@ ms.date: 07/17/2006
 ms.assetid: c9bd10a7-eff8-4d8c-bec9-963c2aef2d6e
 msc.legacyurl: /web-forms/overview/data-access/editing-inserting-and-deleting-data/examining-the-events-associated-with-inserting-updating-and-deleting-vb
 msc.type: authoredcontent
+ms.topic: how-to
 ---
 # Examining the Events Associated with Inserting, Updating, and Deleting (VB)
 

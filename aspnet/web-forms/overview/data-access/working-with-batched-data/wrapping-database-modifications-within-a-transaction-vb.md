@@ -8,6 +8,7 @@ ms.date: 06/26/2007
 ms.assetid: 7d821db5-6cbb-4b38-af14-198f9155fc82
 msc.legacyurl: /web-forms/overview/data-access/working-with-batched-data/wrapping-database-modifications-within-a-transaction-vb
 msc.type: authoredcontent
+ms.topic: how-to
 ---
 # Wrapping Database Modifications within a Transaction (VB)
 

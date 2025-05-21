@@ -8,6 +8,7 @@ ms.date: 03/06/2007
 ms.assetid: 2e31b60b-8723-4f14-b7ee-37859454dc3b
 msc.legacyurl: /web-forms/overview/data-access/enhancing-the-gridview/adding-a-gridview-column-of-radio-buttons-vb
 msc.type: authoredcontent
+ms.topic: concept-article
 ---
 # Adding a GridView Column of Radio Buttons (VB)
 

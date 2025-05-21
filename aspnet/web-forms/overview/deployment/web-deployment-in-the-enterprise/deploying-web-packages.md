@@ -8,6 +8,7 @@ ms.date: 08/08/2024
 ms.assetid: a5c5eed2-8683-40a5-a2e1-35c9f8d17c29
 msc.legacyurl: /web-forms/overview/deployment/web-deployment-in-the-enterprise/deploying-web-packages
 msc.type: authoredcontent
+ms.topic: how-to
 ---
 # Deploying Web Packages
 

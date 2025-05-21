@@ -8,6 +8,7 @@ ms.date: 02/15/2013
 ms.assetid: 9715a121-fa55-4f1b-a5d2-fb3f6cd8be8f
 msc.legacyurl: /web-forms/overview/deployment/visual-studio-web-deployment/setting-folder-permissions
 msc.type: authoredcontent
+ms.topic: article
 ---
 # ASP.NET Web Deployment using Visual Studio: Setting Folder Permissions
 

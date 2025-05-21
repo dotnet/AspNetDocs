@@ -8,6 +8,7 @@ ms.date: 03/03/2014
 ms.assetid: 5344b74e-b888-479a-92bc-601a33bd61a2
 msc.legacyurl: /web-forms/overview/getting-started/code-editing-in-web-forms-pages
 msc.type: authoredcontent
+ms.topic: how-to
 ---
 # Code Editing ASP.NET Web Forms in Visual Studio 2013
 

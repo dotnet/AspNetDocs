@@ -8,6 +8,7 @@ ms.date: 10/30/2006
 ms.assetid: f8fd58e2-f932-4f08-ab3d-fbf8ff3295d2
 msc.legacyurl: /web-forms/overview/data-access/editing-and-deleting-data-through-the-datalist/handling-bll-and-dal-level-exceptions-cs
 msc.type: authoredcontent
+ms.topic: concept-article
 ---
 # Handling BLL- and DAL-Level Exceptions (C#)
 

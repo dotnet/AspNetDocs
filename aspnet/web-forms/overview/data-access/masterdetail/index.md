@@ -8,6 +8,7 @@ ms.date: 10/05/2011
 ms.assetid: 104e4d22-22cf-44a4-aefe-f604f62e0cf8
 msc.legacyurl: /web-forms/overview/data-access/masterdetail
 msc.type: chapter
+ms.topic: article
 ---
 # Master/Detail
 

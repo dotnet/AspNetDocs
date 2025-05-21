@@ -8,6 +8,7 @@ ms.date: 08/15/2006
 ms.assetid: 59c01998-9326-4ecb-9392-cb9615962140
 msc.legacyurl: /web-forms/overview/data-access/paging-and-sorting/efficiently-paging-through-large-amounts-of-data-cs
 msc.type: authoredcontent
+ms.topic: article
 ---
 # Efficiently Paging Through Large Amounts of Data (C#)
 

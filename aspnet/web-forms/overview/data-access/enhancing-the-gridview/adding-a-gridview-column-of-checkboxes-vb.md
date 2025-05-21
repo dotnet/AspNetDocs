@@ -8,6 +8,7 @@ ms.date: 03/06/2007
 ms.assetid: 39253d05-75c0-41c7-b9d4-a6c58ecf69ce
 msc.legacyurl: /web-forms/overview/data-access/enhancing-the-gridview/adding-a-gridview-column-of-checkboxes-vb
 msc.type: authoredcontent
+ms.topic: concept-article
 ---
 # Adding a GridView Column of Checkboxes (VB)
 

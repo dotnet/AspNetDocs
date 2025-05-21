@@ -8,6 +8,7 @@ ms.date: 08/15/2012
 ms.assetid: 2ece0bf4-aae5-4ff4-8f62-28e0819d4f86
 msc.legacyurl: /web-forms/overview/getting-started/using-page-inspector-in-a-visual-studio-11-beta-web-forms-project
 msc.type: authoredcontent
+ms.topic: concept-article
 ---
 # Using Page Inspector for Visual Studio 2012 in ASP.NET Web Forms
 

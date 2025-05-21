@@ -8,6 +8,7 @@ ms.date: 03/31/2010
 ms.assetid: 552d2d50-fe73-4153-9a7f-2b379bec4625
 msc.legacyurl: /web-forms/overview/data-access/masterdetail/master-detail-filtering-across-two-pages-cs
 msc.type: authoredcontent
+ms.topic: article
 ---
 # Master/Detail Filtering Across Two Pages With GridView (C#)
 

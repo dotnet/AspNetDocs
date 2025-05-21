@@ -8,6 +8,7 @@ ms.date: 10/05/2011
 ms.assetid: d4287e40-272a-412f-b0e9-59a5d97421bd
 msc.legacyurl: /web-forms/overview/moving-to-aspnet-20
 msc.type: chapter
+ms.topic: article
 ---
 # Older Versions - ASP.NET 2.0
 

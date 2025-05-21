@@ -8,6 +8,7 @@ ms.date: 04/01/2009
 ms.assetid: 492f5ae2-bad7-4107-89a9-f04a9525dee7
 msc.legacyurl: /web-forms/overview/older-versions-getting-started/deploying-web-site-projects/asp-net-hosting-options-vb
 msc.type: authoredcontent
+ms.topic: article
 ---
 # ASP.NET Hosting Options (VB)
 

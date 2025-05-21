@@ -8,6 +8,7 @@ ms.date: 05/16/2012
 ms.assetid: b71d1611-5f26-40dd-8315-b65b9d69b198
 msc.legacyurl: /web-forms/overview/deployment/configuring-team-foundation-server-for-web-deployment
 msc.type: chapter
+ms.topic: article
 ---
 # ASP.NET 4 - Enterprise Deployment Series 3 Configuring TFS
 

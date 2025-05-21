@@ -8,6 +8,7 @@ ms.date: 03/06/2007
 ms.assetid: f63a9443-2db0-4f80-8246-840d3e86c2a3
 msc.legacyurl: /web-forms/overview/data-access/enhancing-the-gridview/adding-a-gridview-column-of-checkboxes-cs
 msc.type: authoredcontent
+ms.topic: concept-article
 ---
 # Adding a GridView Column of Checkboxes (C#)
 

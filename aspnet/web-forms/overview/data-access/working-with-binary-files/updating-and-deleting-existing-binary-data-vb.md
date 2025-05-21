@@ -8,6 +8,7 @@ ms.date: 03/27/2007
 ms.assetid: 3a052ced-9cf5-47b8-a400-934f0b687c26
 msc.legacyurl: /web-forms/overview/data-access/working-with-binary-files/updating-and-deleting-existing-binary-data-vb
 msc.type: authoredcontent
+ms.topic: how-to
 ---
 # Updating and Deleting Existing Binary Data (VB)
 

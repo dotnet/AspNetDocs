@@ -8,6 +8,7 @@ ms.date: 05/04/2012
 ms.assetid: 55f1ae45-fcb5-43a9-8415-fa5b935fc9c9
 msc.legacyurl: /web-forms/overview/deployment/advanced-enterprise-web-deployment/running-windows-powershell-scripts-from-msbuild-project-files
 msc.type: authoredcontent
+ms.topic: concept-article
 ---
 # Running Windows PowerShell Scripts from MSBuild Project Files
 

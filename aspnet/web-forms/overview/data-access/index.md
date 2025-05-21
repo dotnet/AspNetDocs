@@ -8,6 +8,7 @@ ms.date: 10/05/2011
 ms.assetid: cf54a6fb-a362-4481-b967-c158b98092f7
 msc.legacyurl: /web-forms/overview/data-access
 msc.type: chapter
+ms.topic: article
 ---
 # Older Versions - Data Access
 

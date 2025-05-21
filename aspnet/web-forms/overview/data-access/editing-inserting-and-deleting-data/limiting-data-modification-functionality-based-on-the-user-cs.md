@@ -8,6 +8,7 @@ ms.date: 07/17/2006
 ms.assetid: 2b251c82-77cf-4e36-baa9-b648eddaa394
 msc.legacyurl: /web-forms/overview/data-access/editing-inserting-and-deleting-data/limiting-data-modification-functionality-based-on-the-user-cs
 msc.type: authoredcontent
+ms.topic: concept-article
 ---
 # Limiting Data Modification Functionality Based on the User (C#)
 

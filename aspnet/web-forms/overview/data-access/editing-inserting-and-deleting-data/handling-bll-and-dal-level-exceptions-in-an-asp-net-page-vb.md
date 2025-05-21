@@ -8,6 +8,7 @@ ms.date: 07/17/2006
 ms.assetid: 129d4338-1315-4f40-89b5-2b84b807707d
 msc.legacyurl: /web-forms/overview/data-access/editing-inserting-and-deleting-data/handling-bll-and-dal-level-exceptions-in-an-asp-net-page-vb
 msc.type: authoredcontent
+ms.topic: how-to
 ---
 # Handling BLL- and DAL-Level Exceptions in an ASP.NET Page (VB)
 

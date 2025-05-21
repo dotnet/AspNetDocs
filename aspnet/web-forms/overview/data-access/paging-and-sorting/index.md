@@ -8,6 +8,7 @@ ms.date: 10/05/2011
 ms.assetid: d45a8c0c-e8ec-46d3-bc1c-ce446df005c8
 msc.legacyurl: /web-forms/overview/data-access/paging-and-sorting
 msc.type: chapter
+ms.topic: concept-article
 ---
 # Paging and Sorting
 

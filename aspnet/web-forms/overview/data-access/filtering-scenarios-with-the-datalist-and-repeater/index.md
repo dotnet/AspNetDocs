@@ -8,6 +8,7 @@ ms.date: 10/05/2011
 ms.assetid: 80b17464-8395-4b82-8f11-5d8ee1351d53
 msc.legacyurl: /web-forms/overview/data-access/filtering-scenarios-with-the-datalist-and-repeater
 msc.type: chapter
+ms.topic: concept-article
 ---
 # Filtering Scenarios with the DataList and Repeater
 

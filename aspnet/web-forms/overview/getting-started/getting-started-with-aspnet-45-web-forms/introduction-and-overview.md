@@ -8,6 +8,7 @@ ms.date: 01/09/2019
 ms.assetid: 9b96eaa1-8ef0-4338-a2e8-e0f970bfaf68
 msc.legacyurl: /web-forms/overview/getting-started/getting-started-with-aspnet-45-web-forms/introduction-and-overview
 msc.type: authoredcontent
+ms.topic: get-started
 ---
 # Getting Started with ASP.NET 4.5 Web Forms and Visual Studio 2017
 

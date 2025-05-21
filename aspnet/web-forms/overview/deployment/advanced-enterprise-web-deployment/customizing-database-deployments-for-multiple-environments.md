@@ -8,6 +8,7 @@ ms.date: 05/04/2012
 ms.assetid: a172979a-1318-4318-a9c6-4f9560d26267
 msc.legacyurl: /web-forms/overview/deployment/advanced-enterprise-web-deployment/customizing-database-deployments-for-multiple-environments
 msc.type: authoredcontent
+ms.topic: how-to
 ---
 # Customizing Database Deployments for Multiple Environments
 

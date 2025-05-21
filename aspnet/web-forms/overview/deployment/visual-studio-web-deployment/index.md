@@ -8,6 +8,7 @@ ms.date: 02/15/2013
 ms.assetid: e733027a-525f-47ae-b1c0-2e5ecf6677aa
 msc.legacyurl: /web-forms/overview/deployment/visual-studio-web-deployment
 msc.type: chapter
+ms.topic: article
 ---
 # ASP.NET Web Deployment using Visual Studio
 

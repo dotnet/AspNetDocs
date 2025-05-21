@@ -8,6 +8,7 @@ ms.date: 10/05/2011
 ms.assetid: b7d13a9f-3d44-431d-bea7-eb2da524de9d
 msc.legacyurl: /web-forms/overview/older-versions-getting-started/aspnet-ajax
 msc.type: chapter
+ms.topic: article
 ---
 # ASP.NET 3.5 - AJAX
 

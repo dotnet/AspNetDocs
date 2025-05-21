@@ -8,6 +8,7 @@ ms.date: 03/31/2010
 ms.assetid: 361d6a44-3f1f-4daf-85df-d4c2b8bf065d
 msc.legacyurl: /web-forms/overview/data-access/masterdetail/master-detail-filtering-across-two-pages-vb
 msc.type: authoredcontent
+ms.topic: article
 ---
 # Master/Detail Filtering Across Two Pages With a GridView (VB)
 

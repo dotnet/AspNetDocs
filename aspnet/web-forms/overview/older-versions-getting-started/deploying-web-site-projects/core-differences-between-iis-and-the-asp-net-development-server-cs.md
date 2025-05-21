@@ -8,6 +8,7 @@ ms.date: 04/01/2009
 ms.assetid: 13a5a423-9235-4dde-b408-2fd10f791d63
 msc.legacyurl: /web-forms/overview/older-versions-getting-started/deploying-web-site-projects/core-differences-between-iis-and-the-asp-net-development-server-cs
 msc.type: authoredcontent
+ms.topic: article
 ---
 # Core Differences Between IIS and the ASP.NET Development Server (C#)
 

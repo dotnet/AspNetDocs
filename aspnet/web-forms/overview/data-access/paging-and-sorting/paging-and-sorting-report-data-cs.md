@@ -8,6 +8,7 @@ ms.date: 08/15/2006
 ms.assetid: 811a6ef2-ec66-4c8e-a089-6f795056e288
 msc.legacyurl: /web-forms/overview/data-access/paging-and-sorting/paging-and-sorting-report-data-cs
 msc.type: authoredcontent
+ms.topic: how-to
 ---
 # Paging and Sorting Report Data (C#)
 

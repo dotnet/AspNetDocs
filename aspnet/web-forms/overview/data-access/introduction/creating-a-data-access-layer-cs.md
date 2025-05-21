@@ -8,6 +8,7 @@ ms.date: 04/05/2010
 ms.assetid: cfe2a6a0-1e56-4dc8-9537-c8ec76ba96a4
 msc.legacyurl: /web-forms/overview/data-access/introduction/creating-a-data-access-layer-cs
 msc.type: authoredcontent
+ms.topic: concept-article
 ---
 # Creating a Data Access Layer (C#)
 

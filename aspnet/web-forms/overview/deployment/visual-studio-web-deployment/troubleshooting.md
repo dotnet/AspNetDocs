@@ -8,6 +8,7 @@ ms.date: 06/01/2015
 ms.assetid: c0090595-ab3b-4b9b-9e16-7a1891e8cb2f
 msc.legacyurl: /web-forms/overview/deployment/visual-studio-web-deployment/troubleshooting
 msc.type: authoredcontent
+ms.topic: troubleshooting-general
 ---
 # ASP.NET Web Deployment using Visual Studio: Troubleshooting
 

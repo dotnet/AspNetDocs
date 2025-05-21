@@ -8,6 +8,7 @@ ms.date: 07/17/2006
 ms.assetid: 6331e02e-c465-4cdf-bd3f-f07680c289d6
 msc.legacyurl: /web-forms/overview/data-access/editing-inserting-and-deleting-data/adding-client-side-confirmation-when-deleting-vb
 msc.type: authoredcontent
+ms.topic: concept-article
 ---
 # Adding Client-Side Confirmation When Deleting (VB)
 

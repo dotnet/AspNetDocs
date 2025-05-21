@@ -8,6 +8,7 @@ ms.date: 03/27/2007
 ms.assetid: 5cbeb9f8-5f92-4ba8-87ae-0b4d460ae6d4
 msc.legacyurl: /web-forms/overview/data-access/working-with-binary-files/displaying-binary-data-in-the-data-web-controls-cs
 msc.type: authoredcontent
+ms.topic: concept-article
 ---
 # Displaying Binary Data in the Data Web Controls (C#)
 

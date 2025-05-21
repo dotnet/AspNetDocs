@@ -8,6 +8,7 @@ ms.date: 03/31/2010
 ms.assetid: 85554606-47cb-4e4f-9848-eed9da579056
 msc.legacyurl: /web-forms/overview/data-access/introduction/creating-a-business-logic-layer-cs
 msc.type: authoredcontent
+ms.topic: concept-article
 ---
 # Creating a Business Logic Layer (C#)
 

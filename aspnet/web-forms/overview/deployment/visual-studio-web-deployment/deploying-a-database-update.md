@@ -8,6 +8,7 @@ ms.date: 02/15/2013
 ms.assetid: 9cad0833-486a-4474-a7f3-7715542ec4ce
 msc.legacyurl: /web-forms/overview/deployment/visual-studio-web-deployment/deploying-a-database-update
 msc.type: authoredcontent
+ms.topic: article
 ---
 # ASP.NET Web Deployment using Visual Studio: Deploying a Database Update
 

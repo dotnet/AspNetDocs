@@ -8,6 +8,7 @@ ms.date: 04/09/2012
 ms.assetid: dc6aa59a-9cb0-4a81-b5f3-ec545a0e958d
 msc.legacyurl: /web-forms/overview/getting-started/getting-started-with-aspnet-45-web-forms
 msc.type: chapter
+ms.topic: get-started
 ---
 # Getting Started with ASP.NET 4.5 Web Forms and Visual Studio 2013
 

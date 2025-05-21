@@ -8,6 +8,7 @@ ms.date: 03/03/2014
 ms.assetid: a2f1c635-0817-4a9a-8c13-d5b5d29727c0
 msc.legacyurl: /web-forms/overview/getting-started/creating-a-basic-web-forms-page
 msc.type: authoredcontent
+ms.topic: how-to
 ---
 
 # Using Visual Studio 2013 to create a Basic ASP.NET 4.5 Web Forms Page

@@ -8,6 +8,7 @@ ms.date: 07/17/2006
 ms.assetid: e3d7028a-7a22-4a4f-babe-d53afc41c0e2
 msc.legacyurl: /web-forms/overview/data-access/editing-inserting-and-deleting-data/adding-validation-controls-to-the-editing-and-inserting-interfaces-vb
 msc.type: authoredcontent
+ms.topic: how-to
 ---
 # Adding Validation Controls to the Editing and Inserting Interfaces (VB)
 

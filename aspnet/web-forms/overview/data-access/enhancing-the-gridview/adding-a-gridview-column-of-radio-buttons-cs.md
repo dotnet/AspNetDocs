@@ -8,6 +8,7 @@ ms.date: 03/06/2007
 ms.assetid: 32377145-ec25-4715-8370-a1c590a331d5
 msc.legacyurl: /web-forms/overview/data-access/enhancing-the-gridview/adding-a-gridview-column-of-radio-buttons-cs
 msc.type: authoredcontent
+ms.topic: concept-article
 ---
 # Adding a GridView Column of Radio Buttons (C#)
 

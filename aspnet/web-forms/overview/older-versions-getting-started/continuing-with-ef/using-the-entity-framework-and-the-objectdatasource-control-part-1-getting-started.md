@@ -8,6 +8,7 @@ ms.date: 01/26/2011
 ms.assetid: 244278c1-fec8-4255-8a8a-13bde491c4f5
 msc.legacyurl: /web-forms/overview/older-versions-getting-started/continuing-with-ef/using-the-entity-framework-and-the-objectdatasource-control-part-1-getting-started
 msc.type: authoredcontent
+ms.topic: get-started
 ---
 # Using the Entity Framework 4.0 and the ObjectDataSource Control, Part 1: Getting Started
 

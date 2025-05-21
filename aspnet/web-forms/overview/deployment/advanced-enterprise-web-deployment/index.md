@@ -8,6 +8,7 @@ ms.date: 05/16/2012
 ms.assetid: eacf0e3a-c2e9-4f77-a676-249146f393e8
 msc.legacyurl: /web-forms/overview/deployment/advanced-enterprise-web-deployment
 msc.type: chapter
+ms.topic: article
 ---
 # ASP.NET 4 - Enterprise Deployment Series 4 Advanced Topics
 

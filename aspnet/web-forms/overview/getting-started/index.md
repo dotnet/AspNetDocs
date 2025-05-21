@@ -8,6 +8,7 @@ ms.date: 08/08/2011
 ms.assetid: f645d3b1-1092-43c6-a28a-074b413924b4
 msc.legacyurl: /web-forms/overview/getting-started
 msc.type: chapter
+ms.topic: get-started
 ---
 # Getting Started with ASP.NET Web Forms
 

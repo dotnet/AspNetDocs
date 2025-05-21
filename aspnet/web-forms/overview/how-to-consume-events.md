@@ -14,6 +14,7 @@ helpviewer_keywords:
   - "events [ASP.NET], consuming"
   - "Web Forms, event handling"
 ms.assetid: 73bf8638-c4ec-4069-b0bb-a1dc79b92e32
+ms.topic: how-to
 ---
 # How to: Consume events in a Web Forms app
 

@@ -8,6 +8,7 @@ ms.date: 10/05/2011
 ms.assetid: 2d08658a-16c4-4877-9f43-c6503adda7bf
 msc.legacyurl: /web-forms/overview/data-access/working-with-binary-files
 msc.type: chapter
+ms.topic: concept-article
 ---
 # Working with Binary Files
 

@@ -8,6 +8,7 @@ ms.date: 05/16/2012
 ms.assetid: 489b414b-2322-4385-8638-04e08c0b6c90
 msc.legacyurl: /web-forms/overview/deployment/configuring-server-environments-for-web-deployment
 msc.type: chapter
+ms.topic: article
 ---
 # ASP.NET 4 - Enterprise Deployment Series 2 Configuring Servers
 

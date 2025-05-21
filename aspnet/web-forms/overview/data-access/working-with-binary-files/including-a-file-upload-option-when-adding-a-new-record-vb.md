@@ -8,6 +8,7 @@ ms.date: 03/27/2007
 ms.assetid: 5776281d-4637-4d1e-a65b-2621d2cade44
 msc.legacyurl: /web-forms/overview/data-access/working-with-binary-files/including-a-file-upload-option-when-adding-a-new-record-vb
 msc.type: authoredcontent
+ms.topic: concept-article
 ---
 # Including a File Upload Option When Adding a New Record (VB)
 

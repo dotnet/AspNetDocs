@@ -8,6 +8,7 @@ ms.date: 05/04/2012
 ms.assetid: 794bd819-00fc-47e2-876d-fc5d15e0de1c
 msc.legacyurl: /web-forms/overview/deployment/advanced-enterprise-web-deployment/troubleshooting-the-packaging-process
 msc.type: authoredcontent
+ms.topic: troubleshooting-general
 ---
 # Troubleshooting the Packaging Process
 

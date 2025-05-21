@@ -8,6 +8,7 @@ ms.date: 02/15/2013
 ms.assetid: 24ad086d-865e-433c-9ac9-05f1a553da16
 msc.legacyurl: /web-forms/overview/deployment/visual-studio-web-deployment/introduction
 msc.type: authoredcontent
+ms.topic: article
 ---
 # ASP.NET Web Deployment using Visual Studio: Introduction
 

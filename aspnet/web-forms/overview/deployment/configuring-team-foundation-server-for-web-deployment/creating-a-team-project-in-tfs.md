@@ -9,6 +9,7 @@ ms.custom: devdivchpfy22
 ms.assetid: b28d3e2d-0bb4-4e29-a780-af810b964722
 msc.legacyurl: /web-forms/overview/deployment/configuring-team-foundation-server-for-web-deployment/creating-a-team-project-in-tfs
 msc.type: authoredcontent
+ms.topic: how-to
 ---
 # Creating a Team Project in TFS
 

@@ -8,6 +8,7 @@ ms.date: 03/31/2010
 ms.assetid: 53e659cc-eefb-40c1-a1dc-559481c99443
 msc.legacyurl: /web-forms/overview/data-access/masterdetail/master-detail-filtering-with-a-dropdownlist-cs
 msc.type: authoredcontent
+ms.topic: article
 ---
 # Master/Detail Filtering With a DropDownList Control and GridView (C#)
 

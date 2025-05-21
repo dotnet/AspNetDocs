@@ -8,6 +8,7 @@ ms.date: 02/18/2013
 ms.assetid: 73232292-a5fe-4720-82a1-8f6553effd1f
 msc.legacyurl: /web-forms/overview/getting-started/hands-on-labs/using-page-inspector-in-visual-studio-2012
 msc.type: authoredcontent
+ms.topic: how-to
 ---
 # Using Page Inspector in Visual Studio 2012
 

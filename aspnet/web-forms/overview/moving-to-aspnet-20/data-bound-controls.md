@@ -8,6 +8,7 @@ ms.date: 02/20/2005
 ms.assetid: 0e23ff32-646d-43f3-8bec-6b2313d3abd6
 msc.legacyurl: /web-forms/overview/moving-to-aspnet-20/data-bound-controls
 msc.type: authoredcontent
+ms.topic: article
 ---
 # Data Bound Controls
 

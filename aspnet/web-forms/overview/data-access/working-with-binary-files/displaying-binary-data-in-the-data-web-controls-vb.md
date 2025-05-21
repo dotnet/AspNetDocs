@@ -8,6 +8,7 @@ ms.date: 03/27/2007
 ms.assetid: 9201656a-e1c2-4020-824b-18fb632d2925
 msc.legacyurl: /web-forms/overview/data-access/working-with-binary-files/displaying-binary-data-in-the-data-web-controls-vb
 msc.type: authoredcontent
+ms.topic: concept-article
 ---
 # Displaying Binary Data in the Data Web Controls (VB)
 

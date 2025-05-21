@@ -8,6 +8,7 @@ ms.date: 05/04/2012
 ms.assetid: e7c447f9-eddf-4bbe-9f18-3326d965d093
 msc.legacyurl: /web-forms/overview/deployment/configuring-server-environments-for-web-deployment/configuring-a-database-server-for-web-deploy-publishing
 msc.type: authoredcontent
+ms.topic: install-set-up-deploy
 ---
 # Configuring a Database Server for Web Deploy Publishing
 
