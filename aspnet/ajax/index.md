@@ -8,6 +8,7 @@ ms.date: 12/15/2009
 ms.assetid: 42b0bd66-bf2f-4993-8b5a-bac3028201fc
 msc.legacyurl: /ajax
 msc.type: content
+ms.topic: article
 ---
 # ASP.NET Ajax : Enhanced Interactivity and Responsiveness
 

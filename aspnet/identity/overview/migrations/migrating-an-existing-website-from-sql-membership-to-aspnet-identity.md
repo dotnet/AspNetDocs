@@ -9,6 +9,7 @@ ms.custom: devdivchpfy22
 ms.assetid: 220d3d75-16b2-4240-beae-a5b534f06419
 msc.legacyurl: /identity/overview/migrations/migrating-an-existing-website-from-sql-membership-to-aspnet-identity
 msc.type: authoredcontent
+ms.topic: how-to
 ---
 # Migrating an Existing Website from SQL Membership to ASP.NET Identity
 

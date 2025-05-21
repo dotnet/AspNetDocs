@@ -8,6 +8,7 @@ ms.date: 07/30/2013
 ms.assetid: f81f3d80-3674-4d8e-a9b1-87feed1a93c9
 msc.legacyurl: /mvc/overview/older-versions/getting-started-with-ef-5-using-mvc-4/creating-a-more-complex-data-model-for-an-asp-net-mvc-application
 msc.type: authoredcontent
+ms.topic: concept-article
 ---
 # Creating a More Complex Data Model for an ASP.NET MVC Application (4 of 10)
 

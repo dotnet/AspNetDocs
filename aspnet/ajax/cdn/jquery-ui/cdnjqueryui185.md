@@ -8,6 +8,7 @@ ms.date: 07/23/2014
 ms.assetid: 3ca97a10-882c-41bc-9e0c-0807bb92cdd3
 msc.legacyurl: /ajax/cdn/jquery-ui/cdnjqueryui185
 msc.type: content
+ms.topic: article
 ---
 # jQuery UI 1.8.5
 

@@ -8,6 +8,7 @@ ms.date: 09/28/2011
 ms.assetid: 67bdeec1-5301-4756-8615-cd9e8c5749e0
 msc.legacyurl: /mvc/overview/older-versions/getting-started-with-aspnet-mvc3
 msc.type: chapter
+ms.topic: get-started
 ---
 # Getting Started with ASP.NET MVC3
 

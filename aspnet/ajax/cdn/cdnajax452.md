@@ -8,6 +8,7 @@ ms.date: 11/26/2014
 ms.assetid: 0b25ecc9-b1b0-4738-ad80-09f1e33faf09
 msc.legacyurl: /ajax/cdn/cdnajax452
 msc.type: content
+ms.topic: article
 ---
 # ASP.NET Web Forms and Ajax 4.5.2
 

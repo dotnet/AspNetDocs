@@ -8,6 +8,7 @@ ms.date: 07/23/2014
 ms.assetid: 1252d4fa-e900-45fe-bc32-87b0af33b51c
 msc.legacyurl: /ajax/cdn/jquery-mobile/cdnjquerymobile111
 msc.type: content
+ms.topic: article
 ---
 # jQuery Mobile 1.1.1 on the Microsoft Ajax CDN
 

@@ -8,6 +8,7 @@ ms.author: riande
 ms.date: 03/12/2010
 msc.legacyurl: /entity-framework
 msc.type: content
+ms.topic: article
 ---
 # Entity Framework
 

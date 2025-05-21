@@ -8,6 +8,7 @@ ms.date: 10/02/2013
 ms.assetid: 0c2df5d4-c2dd-486d-b0ed-fe831c6b596c
 msc.legacyurl: /identity
 msc.type: categoryindex
+ms.topic: article
 ---
 # ASP.NET Identity
 

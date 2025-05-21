@@ -8,6 +8,7 @@ ms.date: 06/24/2011
 ms.assetid: 466e52b9-bddf-4b2d-847a-f8df9a2513d7
 msc.legacyurl: /mvc
 msc.type: categoryindex
+ms.topic: article
 ---
 # ASP.NET MVC
 

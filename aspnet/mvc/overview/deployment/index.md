@@ -8,6 +8,7 @@ ms.date: 08/18/2011
 ms.assetid: 31922c31-59df-4399-99d2-e935a476f16a
 msc.legacyurl: /mvc/overview/deployment
 msc.type: chapter
+ms.topic: article
 ---
 # ASP.NET MVC Deployment
 

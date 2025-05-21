@@ -8,6 +8,7 @@ ms.date: 01/28/2011
 ms.assetid: 51b447d5-eaa1-4df1-917c-f4f2746ed62d
 msc.legacyurl: /mobile/tested-devices
 msc.type: content
+ms.topic: article
 ---
 # ASP.NET Mobile Controls Tested Devices
 

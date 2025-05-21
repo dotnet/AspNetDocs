@@ -5,6 +5,7 @@ description: Adding a view to an MVC app
 ms.author: riande
 ms.date: 01/23/2019
 uid: mvc/overview/getting-started/introduction/adding-a-view
+ms.topic: concept-article
 ---
 # Adding a View to an MVC Application
 

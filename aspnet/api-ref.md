@@ -8,6 +8,7 @@ ms.author: riande
 ms.date: 01/30/2017
 msc.legacyurl: 
 msc.type: content
+ms.topic: article
 ---
 
 # ASP.NET API reference

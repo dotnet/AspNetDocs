@@ -8,6 +8,7 @@ ms.date: 11/11/2014
 ms.assetid: b458470f-ed44-4c2d-9c81-f1976daf7fad
 msc.legacyurl: /ajax/cdn/jquery-ui/cdnjqueryui1112
 msc.type: content
+ms.topic: article
 ---
 # jQuery UI 1.11.2 on the Microsoft Ajax CDN
 

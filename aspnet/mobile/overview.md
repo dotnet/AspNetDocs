@@ -8,6 +8,7 @@ ms.date: 01/28/2011
 ms.assetid: 1febce65-cdd4-47da-bdb5-1e6022ccd20a
 msc.legacyurl: /mobile
 msc.type: content
+ms.topic: article
 ---
 # Mobile Apps & Sites with ASP.NET
 

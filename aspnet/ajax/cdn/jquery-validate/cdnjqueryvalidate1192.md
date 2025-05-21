@@ -6,6 +6,7 @@ description: This article provides a list of the files that are included in the 
 ms.author: riande
 ms.date: 07/26/2015
 msc.type: content
+ms.topic: article
 ---
 
 # jQuery Validation 1.19.2

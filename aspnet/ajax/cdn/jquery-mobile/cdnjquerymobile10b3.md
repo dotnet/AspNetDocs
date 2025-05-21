@@ -8,6 +8,7 @@ ms.date: 07/23/2014
 ms.assetid: f71316df-b4f4-4cf5-8511-c0415391231c
 msc.legacyurl: /ajax/cdn/jquery-mobile/cdnjquerymobile10b3
 msc.type: content
+ms.topic: article
 ---
 # jQuery Mobile 1.0 Beta 3 on the Microsoft Ajax CDN
 

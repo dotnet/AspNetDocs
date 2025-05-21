@@ -6,6 +6,7 @@ description: "Informational links to work with jQuery validation 1.19.1"
 ms.author: csfanos
 ms.date: 06/28/2019
 msc.type: content
+ms.topic: article
 ---
 # jQuery Validation 1.19.1
 

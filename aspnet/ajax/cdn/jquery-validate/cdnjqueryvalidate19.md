@@ -8,6 +8,7 @@ ms.date: 07/23/2014
 ms.assetid: 26c7a53e-576b-4925-8272-6e58dbc8a0ea
 msc.legacyurl: /ajax/cdn/jquery-validate/cdnjqueryvalidate19
 msc.type: content
+ms.topic: article
 ---
 # jquery.validate version 1.9
 

@@ -8,6 +8,7 @@ ms.date: 08/31/2011
 ms.assetid: d916dbe0-1895-491b-8bb6-93f4594ce757
 msc.legacyurl: /mvc/overview/getting-started
 msc.type: chapter
+ms.topic: get-started
 ---
 # ASP.NET MVC Getting Started
 

@@ -8,6 +8,7 @@ ms.date: 10/04/2018
 ms.assetid: f3d8adbe-55e7-4fd4-84a8-7155bc45c676
 msc.legacyurl: /mvc/overview/getting-started/introduction/getting-started
 msc.type: authoredcontent
+ms.topic: get-started
 ---
 # Getting started with ASP.NET MVC 5
 

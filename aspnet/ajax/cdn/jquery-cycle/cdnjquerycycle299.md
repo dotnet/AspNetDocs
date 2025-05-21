@@ -8,6 +8,7 @@ ms.date: 07/23/2014
 ms.assetid: c4941287-f0bf-42cc-abb0-8d68838a4e98
 msc.legacyurl: /ajax/cdn/jquery-cycle/cdnjquerycycle299
 msc.type: content
+ms.topic: article
 ---
 # jQuery Cycle 2.99
 

@@ -9,6 +9,7 @@ ms.custom: devdivchpfy22
 ms.assetid: 8935bf14-ca6d-4a4e-9dbe-b96ce74cef49
 msc.legacyurl: /ajax/cdn
 msc.type: content
+ms.topic: article
 ---
 # Microsoft Ajax Content Delivery Network Assets
 

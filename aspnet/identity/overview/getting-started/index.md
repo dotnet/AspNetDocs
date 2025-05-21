@@ -8,6 +8,7 @@ ms.date: 10/02/2013
 ms.assetid: 72bb0051-a696-437e-a4e6-ca1225a6e271
 msc.legacyurl: /identity/overview/getting-started
 msc.type: chapter
+ms.topic: get-started
 ---
 # Getting Started with ASP.NET Identity
 

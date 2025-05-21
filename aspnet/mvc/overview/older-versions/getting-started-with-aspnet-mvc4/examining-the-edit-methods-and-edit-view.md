@@ -9,6 +9,7 @@ ms.custom: devdivchpfy22
 ms.assetid: 41eb99ca-e88f-4720-ae6d-49a958da8116
 msc.legacyurl: /mvc/overview/older-versions/getting-started-with-aspnet-mvc4/examining-the-edit-methods-and-edit-view
 msc.type: authoredcontent
+ms.topic: concept-article
 ---
 # Examining the Action Methods and Views for the Movie Controller
 

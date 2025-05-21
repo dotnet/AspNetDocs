@@ -8,6 +8,7 @@ ms.date: 08/15/2012
 ms.assetid: 27dc4fc8-1b51-43b0-933f-fc1b52476523
 msc.legacyurl: /mvc/overview/older-versions/aspnet-mvc-4-mobile-features
 msc.type: authoredcontent
+ms.topic: article
 ---
 # ASP.NET MVC 4 Mobile Features
 

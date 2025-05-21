@@ -8,6 +8,7 @@ ms.date: 07/22/2014
 ms.assetid: e63308f2-b467-40db-896e-95eba90b2a16
 msc.legacyurl: /ajax/cdn/jquery-ui/cdnjqueryui191
 msc.type: content
+ms.topic: article
 ---
 # jQuery UI 1.9.1 on the Microsoft Ajax CDN
 

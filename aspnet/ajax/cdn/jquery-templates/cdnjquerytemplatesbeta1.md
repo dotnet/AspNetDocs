@@ -8,6 +8,7 @@ ms.date: 07/23/2014
 ms.assetid: f54e7adf-237d-4098-931a-1b48164c9790
 msc.legacyurl: /ajax/cdn/jquery-templates/cdnjquerytemplatesbeta1
 msc.type: content
+ms.topic: article
 ---
 # jQuery Templates Beta 1
 

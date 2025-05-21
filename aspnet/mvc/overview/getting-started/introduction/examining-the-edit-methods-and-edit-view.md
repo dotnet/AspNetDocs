@@ -9,6 +9,7 @@ ms.custom: devdivchpfy22
 ms.assetid: 52a4d5fe-aa31-4471-b3cb-a064f82cb791
 msc.legacyurl: /mvc/overview/getting-started/introduction/examining-the-edit-methods-and-edit-view
 msc.type: authoredcontent
+ms.topic: how-to
 ---
 # Examining the Edit Action Methods and Views for the Movie Controller
 

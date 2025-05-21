@@ -8,6 +8,7 @@ ms.date: 10/05/2010
 ms.assetid: dddc8812-a0bc-49f9-aafb-caf2064c2b8c
 msc.legacyurl: /mvc/mvc3
 msc.type: content
+ms.topic: article
 ---
 # ASP.NET MVC 3
 

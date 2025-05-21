@@ -8,6 +8,7 @@ ms.date: 05/22/2015
 ms.assetid: 8513a57a-2d45-4d6b-881c-15a01c5cbb1c
 msc.legacyurl: /mvc/overview/getting-started/mvc-learning-sequence
 msc.type: authoredcontent
+ms.topic: tutorial
 ---
 # MVC recommended tutorials and articles
 

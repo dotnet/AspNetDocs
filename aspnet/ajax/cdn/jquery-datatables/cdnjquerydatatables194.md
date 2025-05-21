@@ -8,6 +8,7 @@ ms.date: 07/23/2014
 ms.assetid: f117b38e-38b9-4f3c-911b-21c1621a7797
 msc.legacyurl: /ajax/cdn/jquery-datatables/cdnjquerydatatables194
 msc.type: content
+ms.topic: article
 ---
 # jQuery DataTables 1.9.4
 

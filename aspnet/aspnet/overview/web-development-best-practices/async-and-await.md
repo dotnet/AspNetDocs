@@ -8,6 +8,7 @@ ms.date: 08/15/2012
 ms.assetid: 776bf687-c2c2-438f-8796-a93d0ccd164b
 msc.legacyurl: /aspnet/overview/web-development-best-practices/async-and-await
 msc.type: video
+ms.topic: article
 ---
 # Async and Await
 

@@ -8,6 +8,7 @@ ms.date: 07/23/2014
 ms.assetid: c3d609b5-ad52-4ff8-a79d-58a815efdb63
 msc.legacyurl: /ajax/cdn/jquery-datatables
 msc.type: folder
+ms.topic: article
 ---
 # jQuery DataTables
 

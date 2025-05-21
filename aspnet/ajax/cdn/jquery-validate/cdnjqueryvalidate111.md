@@ -8,6 +8,7 @@ ms.date: 07/23/2014
 ms.assetid: 028452a2-a3c2-494b-b5e9-b1677cb5c07d
 msc.legacyurl: /ajax/cdn/jquery-validate/cdnjqueryvalidate111
 msc.type: content
+ms.topic: article
 ---
 # jQuery Validation 1.11.0
 

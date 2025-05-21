@@ -8,6 +8,7 @@ ms.date: 02/15/2012
 ms.assetid: a35183ac-cbcb-4070-9233-6331cde921ad
 msc.legacyurl: /mvc/overview/older-versions/getting-started-with-aspnet-mvc4
 msc.type: chapter
+ms.topic: get-started
 ---
 # Getting Started with ASP.NET MVC 4
 

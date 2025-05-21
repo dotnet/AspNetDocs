@@ -8,6 +8,7 @@ ms.date: 01/12/2011
 ms.assetid: 28970e1b-1845-4015-86ef-121e52a6c397
 msc.legacyurl: /mvc/overview/older-versions/getting-started-with-aspnet-mvc3/vb/adding-a-new-field
 msc.type: authoredcontent
+ms.topic: how-to
 ---
 # Adding a New Field to the Movie Model and Database Table (VB)
 

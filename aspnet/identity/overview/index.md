@@ -8,6 +8,7 @@ ms.date: 10/02/2013
 ms.assetid: d3972a0e-9ff6-4de1-bf4d-c94943cab048
 msc.legacyurl: /identity/overview
 msc.type: book
+ms.topic: concept-article
 ---
 # ASP.NET Identity Overview
 

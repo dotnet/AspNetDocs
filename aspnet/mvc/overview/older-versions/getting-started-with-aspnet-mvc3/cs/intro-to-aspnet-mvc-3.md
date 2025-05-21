@@ -9,6 +9,7 @@ ms.custom: devdivchpfy22
 ms.assetid: 86a80b35-88bd-4b7c-bd58-f6e7997197d4
 msc.legacyurl: /mvc/overview/older-versions/getting-started-with-aspnet-mvc3/cs/intro-to-aspnet-mvc-3
 msc.type: authoredcontent
+ms.topic: article
 ---
 # Intro to ASP.NET MVC 3 (C#)
 

@@ -8,6 +8,7 @@ ms.date: 11/07/2013
 ms.assetid: d031c021-33c2-45a5-bf9f-98f8fa78c2ab
 msc.legacyurl: /aspnet/overview/owin-and-katana/owin-middleware-in-the-iis-integrated-pipeline
 msc.type: authoredcontent
+ms.topic: article
 ---
 # OWIN Middleware in the IIS integrated pipeline
 

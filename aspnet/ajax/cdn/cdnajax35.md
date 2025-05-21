@@ -8,6 +8,7 @@ ms.date: 07/28/2014
 ms.assetid: d5af74c6-3bdf-4d56-8dba-316e3dc0092f
 msc.legacyurl: /ajax/cdn/cdnajax35
 msc.type: content
+ms.topic: article
 ---
 # ASP.NET Ajax 3.5
 
