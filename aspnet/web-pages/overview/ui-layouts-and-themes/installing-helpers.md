@@ -8,6 +8,7 @@ ms.date: 02/18/2014
 ms.assetid: 5e968ead-906a-45ea-ac2a-c70e57e1a9b1
 msc.legacyurl: /web-pages/overview/ui-layouts-and-themes/installing-helpers
 msc.type: authoredcontent
+ms.topic: how-to
 ---
 # Installing a Helper in an ASP.NET Web Pages (Razor) Site
 

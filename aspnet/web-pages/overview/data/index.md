@@ -8,6 +8,7 @@ ms.date: 09/08/2014
 ms.assetid: b5d61ce5-0dd4-40ef-939f-c4b17bcb9c3b
 msc.legacyurl: /web-pages/overview/data
 msc.type: chapter
+ms.topic: concept-article
 ---
 # Working with Data
 

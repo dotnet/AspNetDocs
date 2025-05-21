@@ -9,6 +9,7 @@ ms.custom: devdivchpfy22
 ms.assetid: f889fd46-4dac-4ecb-83d8-60e64c22036e
 msc.legacyurl: /web-pages/overview/data/7-displaying-data-in-a-chart
 msc.type: authoredcontent
+ms.topic: how-to
 ---
 # Displaying Data in a Chart with ASP.NET Web Pages (Razor)
 

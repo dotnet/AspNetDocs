@@ -8,6 +8,7 @@ ms.date: 04/12/2011
 ms.assetid: 7dc21790-5607-467d-a08b-fcf3c80b0174
 msc.legacyurl: /web-pages/videos/introduction/create-an-edit-data-page-in-webmatrix
 msc.type: video
+ms.topic: article
 ---
 # Create an Edit Data Page in WebMatrix
 

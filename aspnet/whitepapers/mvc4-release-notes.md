@@ -8,6 +8,7 @@ ms.date: 09/09/2011
 ms.assetid: f014524f-25c0-4094-b8e1-886d99536f00
 msc.legacyurl: /whitepapers/mvc4-release-notes
 msc.type: content
+ms.topic: release-notes
 ---
 # ASP.NET MVC 4 Release Notes
 

@@ -8,6 +8,7 @@ ms.date: 02/25/2011
 ms.assetid: 78046868-917c-473e-9c89-4ad28a76514b
 msc.legacyurl: /web-pages/videos/aspnet-razor-pages/adding-search-to-your-web-site
 msc.type: video
+ms.topic: concept-article
 ---
 # Adding Search to Your Web Site
 

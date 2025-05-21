@@ -8,6 +8,7 @@ ms.date: 09/09/2011
 ms.assetid: 666407bb-81de-4319-89ba-0302c382a208
 msc.legacyurl: /whitepapers/mvc4-beta-release-notes
 msc.type: content
+ms.topic: release-notes
 ---
 # ASP.NET MVC 4 Beta Release Notes
 

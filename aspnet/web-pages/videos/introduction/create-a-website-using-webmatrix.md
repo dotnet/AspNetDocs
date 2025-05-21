@@ -8,6 +8,7 @@ ms.date: 04/12/2011
 ms.assetid: a60d0b1f-38c4-4a7a-901e-8de57b087dd4
 msc.legacyurl: /web-pages/videos/introduction/create-a-website-using-webmatrix
 msc.type: video
+ms.topic: article
 ---
 # Create a Website Using WebMatrix
 

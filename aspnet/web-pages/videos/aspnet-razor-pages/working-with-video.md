@@ -8,6 +8,7 @@ ms.date: 02/25/2011
 ms.assetid: 7544e93f-a754-4e1d-bd0f-461f38e11db9
 msc.legacyurl: /web-pages/videos/aspnet-razor-pages/working-with-video
 msc.type: video
+ms.topic: concept-article
 ---
 # Working with Video
 

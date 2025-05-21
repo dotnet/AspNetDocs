@@ -8,6 +8,7 @@ ms.date: 05/18/2012
 ms.assetid: 5418ba96-ff49-4a43-9cbb-09dea4949d23
 msc.legacyurl: /web-pages
 msc.type: categoryindex
+ms.topic: article
 ---
 # ASP.NET Web Resource List
 

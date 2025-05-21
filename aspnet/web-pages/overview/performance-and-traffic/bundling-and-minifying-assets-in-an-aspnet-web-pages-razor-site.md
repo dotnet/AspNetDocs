@@ -8,6 +8,7 @@ ms.date: 06/21/2012
 ms.assetid: 8906f1e9-4b66-4a03-8e8a-9e9debf8ed91
 msc.legacyurl: /web-pages/overview/performance-and-traffic/bundling-and-minifying-assets-in-an-aspnet-web-pages-razor-site
 msc.type: authoredcontent
+ms.topic: concept-article
 ---
 # Bundling and Minifying Assets in an ASP.NET Web Pages (Razor) Site
 

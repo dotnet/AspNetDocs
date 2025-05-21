@@ -8,6 +8,7 @@ ms.date: 02/20/2014
 ms.assetid: 68de4326-7611-4b9b-b5f6-79b7adc3069f
 msc.legacyurl: /web-pages/overview/testing-and-debugging/introduction-to-debugging
 msc.type: authoredcontent
+ms.topic: article
 ---
 # Introduction to Debugging ASP.NET Web Pages (Razor) Sites
 

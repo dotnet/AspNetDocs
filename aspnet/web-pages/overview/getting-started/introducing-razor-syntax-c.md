@@ -8,6 +8,7 @@ ms.date: 02/07/2014
 ms.assetid: aa67d304-583b-4bf8-a231-195656cfb587
 msc.legacyurl: /web-pages/overview/getting-started/introducing-razor-syntax-c
 msc.type: authoredcontent
+ms.topic: article
 ---
 # Introduction to ASP.NET Web Programming Using the Razor Syntax (C#)
 

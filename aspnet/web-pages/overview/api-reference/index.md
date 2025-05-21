@@ -8,6 +8,7 @@ ms.date: 09/08/2014
 ms.assetid: c29776f2-10b5-4632-b383-5f43656d5900
 msc.legacyurl: /web-pages/overview/api-reference
 msc.type: chapter
+ms.topic: article
 ---
 # API Reference
 

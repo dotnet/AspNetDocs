@@ -8,6 +8,7 @@ ms.date: 01/06/2011
 ms.assetid: 9ded2fdb-ac4c-448f-9774-10bff657514c
 msc.legacyurl: 
 msc.type: content
+ms.topic: article
 ---
 # WebMatrix Release Readmes
 

@@ -8,6 +8,7 @@ ms.date: 02/25/2011
 ms.assetid: 427471f0-7ad8-4e48-87ee-f693bd082423
 msc.legacyurl: /web-pages/videos/aspnet-razor-pages/getting-started-with-webmatrix-and-aspnet-web-pages
 msc.type: video
+ms.topic: get-started
 ---
 # Getting Started with WebMatrix and ASP.NET Web Pages
 

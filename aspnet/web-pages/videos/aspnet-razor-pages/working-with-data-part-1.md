@@ -8,6 +8,7 @@ ms.date: 02/25/2011
 ms.assetid: ebeac83f-2bca-4225-899e-1687480476f6
 msc.legacyurl: /web-pages/videos/aspnet-razor-pages/working-with-data-part-1
 msc.type: video
+ms.topic: concept-article
 ---
 # Working with Data (Part 1)
 

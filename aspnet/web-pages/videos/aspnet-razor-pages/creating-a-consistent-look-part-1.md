@@ -8,6 +8,7 @@ ms.date: 02/25/2011
 ms.assetid: 1057d00f-187f-4187-a674-194b6262c3a3
 msc.legacyurl: /web-pages/videos/aspnet-razor-pages/creating-a-consistent-look-part-1
 msc.type: video
+ms.topic: concept-article
 ---
 # Creating a Consistent Look (Part 1)
 

@@ -8,6 +8,7 @@ ms.date: 02/20/2014
 ms.assetid: 778c4e58-4372-4d25-bab9-aec4a8d8e38d
 msc.legacyurl: /web-pages/overview/ui-layouts-and-themes/9-working-with-images
 msc.type: authoredcontent
+ms.topic: how-to
 ---
 # Working with Images in an ASP.NET Web Pages (Razor) Site
 

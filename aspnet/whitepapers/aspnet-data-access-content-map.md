@@ -8,6 +8,7 @@ ms.date: 07/25/2013
 ms.assetid: f8157be1-4ab9-469e-ad3a-0ccc80b56c00
 msc.legacyurl: /whitepapers/aspnet-data-access-content-map
 msc.type: content
+ms.topic: article
 ---
 # ASP.NET Data Access - Recommended Resources
 

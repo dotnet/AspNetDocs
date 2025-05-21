@@ -8,6 +8,7 @@ ms.date: 02/20/2014
 ms.assetid: fc49bcb9-f1a9-4048-8c3f-b60951853200
 msc.legacyurl: /web-pages/overview/getting-started/11-adding-email-to-your-web-site
 msc.type: authoredcontent
+ms.topic: how-to
 ---
 # Sending Email from an ASP.NET Web Pages (Razor) Site
 

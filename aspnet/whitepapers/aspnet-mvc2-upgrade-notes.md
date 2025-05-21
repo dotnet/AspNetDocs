@@ -8,6 +8,7 @@ ms.date: 04/08/2010
 ms.assetid: f1a01759-d251-4b09-8835-e112e336c6dd
 msc.legacyurl: /whitepapers/aspnet-mvc2-upgrade-notes
 msc.type: content
+ms.topic: how-to
 ---
 # Upgrading an ASP.NET MVC 1.0 Application to ASP.NET MVC 2
 

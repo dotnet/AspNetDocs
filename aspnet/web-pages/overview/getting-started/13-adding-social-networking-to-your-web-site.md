@@ -8,6 +8,7 @@ ms.date: 02/21/2014
 ms.assetid: 03c342f9-b35c-4d7c-b9ed-cd9aaaffedb6
 msc.legacyurl: /web-pages/overview/getting-started/13-adding-social-networking-to-your-web-site
 msc.type: authoredcontent
+ms.topic: how-to
 ---
 # Adding Social Networking to ASP.NET Web Pages (Razor) Sites
 

@@ -8,6 +8,7 @@ ms.date: 02/14/2014
 ms.assetid: 961e525b-7700-469e-8a68-d7010b6fb68c
 msc.legacyurl: /web-pages/overview/performance-and-traffic/15-caching-to-improve-the-performance-of-your-website
 msc.type: authoredcontent
+ms.topic: how-to
 ---
 # Caching Data in an ASP.NET Web Pages (Razor) Site for Better Performance
 

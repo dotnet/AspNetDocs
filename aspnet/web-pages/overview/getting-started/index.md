@@ -8,6 +8,7 @@ ms.date: 05/18/2012
 ms.assetid: 99253c4e-a125-4c21-85e7-a6dd74d93892
 msc.legacyurl: /web-pages/overview/getting-started
 msc.type: chapter
+ms.topic: get-started
 ---
 # Getting Started with ASP.NET Web Pages
 

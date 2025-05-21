@@ -8,6 +8,7 @@ ms.date: 05/18/2012
 ms.assetid: ffad842d-548c-40c6-84c5-10858133e972
 msc.legacyurl: /web-pages/videos/aspnet-razor-pages
 msc.type: chapter
+ms.topic: tutorial
 ---
 # ASP.NET Web Pages Video Tutorials
 

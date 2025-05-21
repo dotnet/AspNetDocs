@@ -8,6 +8,7 @@ ms.date: 11/15/2011
 ms.assetid: 3824e2d7-446f-406b-9c8b-5a1634359a78
 msc.legacyurl: 
 msc.type: content
+ms.topic: article
 ---
 # Whitepapers for Installing and Configuring ASP.NET
 

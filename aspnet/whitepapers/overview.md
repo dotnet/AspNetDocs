@@ -8,6 +8,7 @@ ms.date: 11/15/2011
 ms.assetid: d5e79470-01f2-4d65-8077-11c3e10a6784
 msc.legacyurl: /whitepapers
 msc.type: content
+ms.topic: install-set-up-deploy
 ---
 # Install and Configure ASP.NET
 

@@ -8,6 +8,7 @@ ms.date: 02/10/2010
 ms.assetid: 5a5537bf-2aaa-49e7-839f-9e6522b829d8
 msc.legacyurl: /whitepapers/aspnet-and-iis6
 msc.type: content
+ms.topic: how-to
 ---
 # Running ASP.NET 1.1 with IIS 6.0
 

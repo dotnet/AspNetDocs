@@ -8,6 +8,7 @@ ms.date: 04/12/2011
 ms.assetid: 3e84d61e-e462-44a1-b3c2-ac8a1f7fcac6
 msc.legacyurl: /web-pages/videos/introduction/create-a-delete-data-page-in-webmatrix
 msc.type: video
+ms.topic: article
 ---
 # Create a Delete Data Page in WebMatrix
 

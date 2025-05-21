@@ -8,6 +8,7 @@ ms.date: 06/17/2015
 ms.assetid: 7526ed45-a97d-4e8a-8301-01324ef0eff9
 msc.legacyurl: /web-pages/overview/getting-started/introducing-aspnet-web-pages-2/intro-to-web-pages-programming
 msc.type: authoredcontent
+ms.topic: concept-article
 ---
 # Introducing ASP.NET Web Pages - Programming Basics
 

@@ -8,6 +8,7 @@ ms.date: 02/29/2012
 ms.assetid: ba1fabb4-31a3-4ebf-8327-41a6bbba6eaf
 msc.legacyurl: /whitepapers/whats-new-in-aspnet-45-and-visual-studio-2012
 msc.type: content
+ms.topic: whats-new
 ---
 # What's New in ASP.NET 4.5 and Visual Studio 2012
 

@@ -8,6 +8,7 @@ ms.date: 02/10/2010
 ms.assetid: 3cb27b8a-354f-4332-bfe0-232b13bbf8aa
 msc.legacyurl: /whitepapers/denied-access-to-iis-directories
 msc.type: content
+ms.topic: article
 ---
 # ASP.NET Denied Access to IIS Directories
 

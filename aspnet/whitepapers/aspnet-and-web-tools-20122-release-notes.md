@@ -8,6 +8,7 @@ ms.date: 02/14/2013
 ms.assetid: bdb18d02-9f61-4676-836d-6fdea94f9282
 msc.legacyurl: /whitepapers/aspnet-and-web-tools-20122-release-notes
 msc.type: content
+ms.topic: release-notes
 ---
 # Release Notes for ASP.NET and Web Tools 2012.2
 

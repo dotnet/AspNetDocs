@@ -8,6 +8,7 @@ ms.date: 01/02/2018
 ms.assetid: 75b5c1cf-84bd-434f-8a86-85c568eb5b09
 msc.legacyurl: /web-pages/overview/getting-started/introducing-aspnet-web-pages-2/deleting-data
 msc.type: authoredcontent
+ms.topic: concept-article
 ---
 # Introducing ASP.NET Web Pages - Deleting Database Data
 

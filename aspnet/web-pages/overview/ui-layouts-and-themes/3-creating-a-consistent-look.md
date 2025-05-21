@@ -8,6 +8,7 @@ ms.date: 03/10/2014
 ms.assetid: d7bd001b-6db2-4422-9b78-f3d08b743b00
 msc.legacyurl: /web-pages/overview/ui-layouts-and-themes/3-creating-a-consistent-look
 msc.type: authoredcontent
+ms.topic: how-to
 ---
 # Creating a Consistent Layout in ASP.NET Web Pages (Razor) Sites
 

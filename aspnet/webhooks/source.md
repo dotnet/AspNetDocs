@@ -6,6 +6,7 @@ description: "Links to ASP.NET WebHooks source code and NuGet packages"
 ms.author: riande
 ms.date: 01/17/2012
 ms.assetid: 91a62bfa-ea3a-41f9-a2e1-e90d2c8fc8ca
+ms.topic: article
 ---
 # ASP.NET WebHooks source code and NuGet packages
 

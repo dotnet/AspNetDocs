@@ -8,6 +8,7 @@ ms.date: 05/18/2012
 ms.assetid: b8a43660-177f-4a00-bb51-be887364c607
 msc.legacyurl: /web-pages/videos/introduction
 msc.type: chapter
+ms.topic: concept-article
 ---
 # Introduction to Web Pages Videos
 

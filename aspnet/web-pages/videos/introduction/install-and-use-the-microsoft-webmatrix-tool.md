@@ -8,6 +8,7 @@ ms.date: 04/12/2011
 ms.assetid: c0087185-82eb-40fd-b3fd-9d0c6937ee9a
 msc.legacyurl: /web-pages/videos/introduction/install-and-use-the-microsoft-webmatrix-tool
 msc.type: video
+ms.topic: install-set-up-deploy
 ---
 # Install and Use the Microsoft WebMatrix Tool
 

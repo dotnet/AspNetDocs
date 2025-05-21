@@ -8,6 +8,7 @@ ms.date: 05/28/2015
 ms.assetid: d37c93fc-25fd-4e94-8671-0d437beef206
 msc.legacyurl: /web-pages/overview/getting-started/introducing-aspnet-web-pages-2/entering-data
 msc.type: authoredcontent
+ms.topic: how-to
 ---
 # Introducing ASP.NET Web Pages - Entering Database Data by Using Forms
 

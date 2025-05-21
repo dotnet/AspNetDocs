@@ -8,6 +8,7 @@ ms.date: 02/10/2010
 ms.assetid: 1365eebb-bdf7-4a05-8d18-7f200531be55
 msc.legacyurl: /whitepapers/ms03-32-issue
 msc.type: content
+ms.topic: how-to
 ---
 # Fix for 'Server Application Unavailable' Error after Applying Security Update for IE
 

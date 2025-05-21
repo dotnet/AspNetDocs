@@ -8,6 +8,7 @@ ms.date: 09/08/2014
 ms.assetid: 58187ddb-bd53-406d-88be-8908905d726c
 msc.legacyurl: /web-pages/overview/security
 msc.type: chapter
+ms.topic: article
 ---
 # Login Capabilities and App Protection
 

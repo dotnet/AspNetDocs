@@ -8,6 +8,7 @@ ms.date: 02/25/2011
 ms.assetid: 7245123a-244d-4665-bff4-5238d5ad3427
 msc.legacyurl: /web-pages/videos/aspnet-razor-pages/working-with-files
 msc.type: video
+ms.topic: concept-article
 ---
 # Working with Files
 

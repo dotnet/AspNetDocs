@@ -8,6 +8,7 @@ ms.date: 02/10/2010
 ms.assetid: d601c540-f86b-4feb-890c-20c806b3da6c
 msc.legacyurl: /whitepapers/aspnet4/breaking-changes
 msc.type: content
+ms.topic: article
 ---
 # ASP.NET 4 Breaking Changes
 

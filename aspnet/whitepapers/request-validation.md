@@ -8,6 +8,7 @@ ms.date: 02/10/2010
 ms.assetid: fa429113-5f8f-4ef4-97c5-5c04900a19fa
 msc.legacyurl: /whitepapers/request-validation
 msc.type: content
+ms.topic: article
 ---
 # Request Validation - Preventing Script Attacks
 

@@ -8,6 +8,7 @@ ms.date: 05/21/2012
 ms.assetid: 2b381a41-2cb3-40c0-8545-1d393e22877f
 msc.legacyurl: /web-pages/overview/security/using-a-catpcha-to-prevent-automated-programs-bots-from-using-your-aspnet-web-site
 msc.type: authoredcontent
+ms.topic: how-to
 ---
 # Using a CAPTCHA to Prevent Bots from Using Your ASP.NET Web Razor) Site
 

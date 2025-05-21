@@ -8,6 +8,7 @@ ms.date: 02/10/2010
 ms.assetid: d7729af4-1eda-4ff2-8b61-dbbe4fc11d10
 msc.legacyurl: /whitepapers/aspnet4
 msc.type: content
+ms.topic: article
 ---
 # Overview of ASP.NET 4 and Visual Studio 2010 for Web Development 
 

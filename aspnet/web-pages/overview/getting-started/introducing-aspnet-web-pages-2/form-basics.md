@@ -8,6 +8,7 @@ ms.date: 05/28/2015
 ms.assetid: 81ed82bf-b940-44f1-b94a-555d0cb7cc98
 msc.legacyurl: /web-pages/overview/getting-started/introducing-aspnet-web-pages-2/form-basics
 msc.type: authoredcontent
+ms.topic: concept-article
 ---
 # Introducing ASP.NET Web Pages - HTML Form Basics
 

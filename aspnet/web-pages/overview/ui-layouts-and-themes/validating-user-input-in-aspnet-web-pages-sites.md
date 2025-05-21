@@ -8,6 +8,7 @@ ms.date: 02/20/2014
 ms.assetid: 4eb060cc-cf14-41ae-bab1-14a2c15332d0
 msc.legacyurl: /web-pages/overview/ui-layouts-and-themes/validating-user-input-in-aspnet-web-pages-sites
 msc.type: authoredcontent
+ms.topic: how-to
 ---
 # Validating User Input in ASP.NET Web Pages (Razor) Sites
 

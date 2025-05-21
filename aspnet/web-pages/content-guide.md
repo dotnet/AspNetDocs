@@ -8,6 +8,7 @@ ms.date: 01/13/2011
 ms.assetid: b558e481-775a-4aa0-bd3b-ad61e530c2d2
 msc.legacyurl: /web-pages/content-guide
 msc.type: content
+ms.topic: article
 ---
 # WebMatrix Content Guide
 

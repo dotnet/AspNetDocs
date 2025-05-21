@@ -8,6 +8,7 @@ ms.date: 02/20/2014
 ms.assetid: eee916e4-ba4c-439a-a24e-68df7d45a569
 msc.legacyurl: /web-pages/overview/data/working-with-files
 msc.type: authoredcontent
+ms.topic: how-to
 ---
 # Working with Files in an ASP.NET Web Pages (Razor) Site
 

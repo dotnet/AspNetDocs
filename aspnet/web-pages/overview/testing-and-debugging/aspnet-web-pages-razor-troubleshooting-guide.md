@@ -8,6 +8,7 @@ ms.date: 02/10/2014
 ms.assetid: 2a2c1833-0bfe-4e2e-9cc0-341b52c7b121
 msc.legacyurl: /web-pages/overview/testing-and-debugging/aspnet-web-pages-razor-troubleshooting-guide
 msc.type: authoredcontent
+ms.topic: troubleshooting-general
 ---
 # ASP.NET Web Pages (Razor) Troubleshooting Guide
 

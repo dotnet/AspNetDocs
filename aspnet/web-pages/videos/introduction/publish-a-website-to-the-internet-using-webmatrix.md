@@ -8,6 +8,7 @@ ms.date: 04/12/2011
 ms.assetid: 090f5500-1124-49a7-a295-db97ef739c6a
 msc.legacyurl: /web-pages/videos/introduction/publish-a-website-to-the-internet-using-webmatrix
 msc.type: video
+ms.topic: article
 ---
 # Publish a Website to the Internet Using WebMatrix
 

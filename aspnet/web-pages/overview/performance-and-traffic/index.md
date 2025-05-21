@@ -8,6 +8,7 @@ ms.date: 09/08/2014
 ms.assetid: ce798572-e7dc-44c1-a7fe-a029820e195e
 msc.legacyurl: /web-pages/overview/performance-and-traffic
 msc.type: chapter
+ms.topic: concept-article
 ---
 # Caching Site Content and Measuring Site Traffic
 
