@@ -8,6 +8,7 @@ ms.date: 04/10/2008
 ms.assetid: 5e18f005-8b3d-4b9a-866c-c567874aa826
 msc.legacyurl: /web-forms/videos/aspnet-ajax/implement-infinite-data-patterns-in-ajax
 msc.type: video
+ms.topic: article
 ---
 # Implement Infinite Data Patterns in AJAX
 

@@ -8,6 +8,7 @@ ms.date: 08/04/2008
 ms.assetid: bccd102b-67d5-4c66-833d-6b5f6f51ca55
 msc.legacyurl: /web-forms/videos/authentication/understanding-aspnet-memberships
 msc.type: video
+ms.topic: concept-article
 ---
 # Understanding ASP.NET Memberships
 

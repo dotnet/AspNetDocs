@@ -8,6 +8,7 @@ ms.date: 11/15/2007
 ms.assetid: 24282199-9edf-4211-ac6e-f05df68cccbe
 msc.legacyurl: /web-forms/videos/data-access/how-do-i-with-linq/how-do-i-linq-to-sql-data-model
 msc.type: video
+ms.topic: article
 ---
 # [How Do I:] LINQ to SQL: Data Model
 

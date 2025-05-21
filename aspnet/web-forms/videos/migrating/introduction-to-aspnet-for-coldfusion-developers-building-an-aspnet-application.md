@@ -8,6 +8,7 @@ ms.date: 07/25/2006
 ms.assetid: 47316dec-a4cd-4818-8ba7-87e29d963c38
 msc.legacyurl: /web-forms/videos/migrating/introduction-to-aspnet-for-coldfusion-developers-building-an-aspnet-application
 msc.type: video
+ms.topic: concept-article
 ---
 # Introduction to ASP.NET for ColdFusion Developers: Building an ASP.NET Application
 

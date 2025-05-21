@@ -8,6 +8,7 @@ ms.date: 11/04/2011
 ms.assetid: e0af2f02-b132-4ad4-b881-f6b5ab86b1ae
 msc.legacyurl: /web-forms/videos/data-access/adonet-data-services
 msc.type: chapter
+ms.topic: article
 ---
 # ADO.NET Data Services
 

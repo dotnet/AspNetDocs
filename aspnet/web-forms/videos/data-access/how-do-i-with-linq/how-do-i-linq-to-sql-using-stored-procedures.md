@@ -8,6 +8,7 @@ ms.date: 01/10/2008
 ms.assetid: b1abfcaa-3b7d-42b9-be11-38904910ece0
 msc.legacyurl: /web-forms/videos/data-access/how-do-i-with-linq/how-do-i-linq-to-sql-using-stored-procedures
 msc.type: video
+ms.topic: article
 ---
 # [How Do I:] LINQ to SQL: Using Stored Procedures
 

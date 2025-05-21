@@ -8,6 +8,7 @@ ms.date: 11/14/2006
 ms.assetid: 817bc763-7faa-4ac5-880b-b3f5531e9d07
 msc.legacyurl: /web-forms/videos/sql-2005/creating-and-using-stored-procedures
 msc.type: video
+ms.topic: concept-article
 ---
 # Creating and Using Stored Procedures
 

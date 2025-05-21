@@ -8,6 +8,7 @@ ms.date: 02/27/2024
 ms.assetid: f215d6b9-8a84-4bd8-8881-e9527d814950
 msc.legacyurl: /web-forms/videos
 msc.type: book
+ms.topic: tutorial
 ---
 # Videos for ASP.NET
 

@@ -8,6 +8,7 @@ ms.date: 11/29/2005
 ms.assetid: 49625de7-06c3-484c-bd76-d322b9ca41ea
 msc.legacyurl: /web-forms/videos/building-20-applications/lesson-7-databinding-to-user-interface-controls
 msc.type: video
+ms.topic: article
 ---
 # [Lesson 7:] Databinding to User Interface Controls
 

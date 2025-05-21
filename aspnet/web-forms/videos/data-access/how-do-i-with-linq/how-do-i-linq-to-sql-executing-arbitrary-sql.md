@@ -8,6 +8,7 @@ ms.date: 03/13/2008
 ms.assetid: 9251bc80-33d9-4b86-9d96-a2e6f5c52a03
 msc.legacyurl: /web-forms/videos/data-access/how-do-i-with-linq/how-do-i-linq-to-sql-executing-arbitrary-sql
 msc.type: video
+ms.topic: article
 ---
 # How Do I: LINQ to SQL: Executing Arbitrary SQL
 

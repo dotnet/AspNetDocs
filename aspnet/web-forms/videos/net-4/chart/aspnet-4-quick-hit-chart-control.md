@@ -8,6 +8,7 @@ ms.date: 11/05/2009
 ms.assetid: b93334e7-2167-4efb-a92d-e0ef5d98ac06
 msc.legacyurl: /web-forms/videos/net-4/chart/aspnet-4-quick-hit-chart-control
 msc.type: video
+ms.topic: article
 ---
 # ASP.NET 4 "Quick Hit" - Chart Control
 

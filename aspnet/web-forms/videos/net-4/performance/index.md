@@ -8,6 +8,7 @@ ms.date: 11/14/2011
 ms.assetid: 5752873e-07b4-4450-9bf8-6cff8b3b5f50
 msc.legacyurl: /web-forms/videos/net-4/performance
 msc.type: chapter
+ms.topic: article
 ---
 # Web Form Optimization
 

@@ -8,6 +8,7 @@ ms.date: 10/02/2024
 ms.assetid: 08f9d0a7-cfa0-4914-a672-8a64295d7ba8
 msc.legacyurl: /web-forms/videos/net-4/routing/how-do-i-work-with-urls-in-aspnet-routing
 msc.type: video
+ms.topic: article
 ---
 # How Do I: Work with URLs in ASP.NET Routing?
 

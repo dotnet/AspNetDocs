@@ -8,6 +8,7 @@ ms.date: 04/16/2008
 ms.assetid: 6e0eca38-0344-4732-97de-73acf0551c28
 msc.legacyurl: /web-forms/videos/aspnet-ajax/how-to-dynamically-change-css-using-the-aspnet-ajax-updatepanel
 msc.type: video
+ms.topic: how-to
 ---
 # How To Dynamically Change CSS Using the ASP.NET AJAX UpdatePanel
 

@@ -8,6 +8,7 @@ ms.date: 08/07/2008
 ms.assetid: 536aa7a6-84fb-487c-a14f-6ca3eb8a4a33
 msc.legacyurl: /web-forms/videos/data-access/adonet-data-services/data-access-layers-in-aspnet-applications
 msc.type: video
+ms.topic: article
 ---
 # Data Access Layers in ASP.NET Applications
 

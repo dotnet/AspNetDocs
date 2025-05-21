@@ -8,6 +8,7 @@ ms.date: 07/25/2006
 ms.assetid: 835a2484-e9e5-468e-9e43-5ae4e61531b6
 msc.legacyurl: /web-forms/videos/migrating/intro-to-aspnet-for-coldfusion-developers-adding-aspnet-to-your-repertoire
 msc.type: video
+ms.topic: article
 ---
 # Intro to ASP.NET for ColdFusion Developers: Adding ASP.NET to Your Repertoire
 

@@ -8,6 +8,7 @@ ms.date: 02/24/2012
 ms.assetid: 11b3547a-7c4f-4849-8e27-3cfbe255034e
 msc.legacyurl: /web-forms/videos/data-access/how-do-i-with-linq
 msc.type: chapter
+ms.topic: article
 ---
 # How Do I with LINQ
 

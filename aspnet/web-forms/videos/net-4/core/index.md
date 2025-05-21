@@ -8,6 +8,7 @@ ms.date: 11/14/2011
 ms.assetid: 257686f7-7e10-4c4b-a2e9-299f93c0f917
 msc.legacyurl: /web-forms/videos/net-4/core
 msc.type: chapter
+ms.topic: article
 ---
 # Core
 

@@ -8,6 +8,7 @@ ms.date: 11/16/2009
 ms.assetid: 3d8c871d-7e00-4f13-937c-aa1f9b5a7dba
 msc.legacyurl: /web-forms/videos/net-4/markup-control/aspnet-4-quick-hit-table-free-templated-controls
 msc.type: video
+ms.topic: article
 ---
 # ASP.NET 4 "Quick Hit" – Table Free Templated Controls
 

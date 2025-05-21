@@ -8,6 +8,7 @@ ms.date: 11/16/2009
 ms.assetid: edb30028-1fc4-4730-9d6f-1013b6fd5637
 msc.legacyurl: /web-forms/videos/net-4/markup-control/aspnet-4-quick-hit-disabled-control-styling
 msc.type: video
+ms.topic: article
 ---
 # ASP.NET 4 "Quick Hit" - Disabled Control Styling
 

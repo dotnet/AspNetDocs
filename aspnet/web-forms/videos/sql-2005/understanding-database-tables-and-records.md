@@ -8,6 +8,7 @@ ms.date: 03/29/2006
 ms.assetid: 9ebe8ebc-eae6-41c1-83a6-38410b610331
 msc.legacyurl: /web-forms/videos/sql-2005/understanding-database-tables-and-records
 msc.type: video
+ms.topic: concept-article
 ---
 # Understanding Database Tables and Records
 

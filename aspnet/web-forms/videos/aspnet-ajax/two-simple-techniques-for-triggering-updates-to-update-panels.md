@@ -8,6 +8,7 @@ ms.date: 03/13/2008
 ms.assetid: c844da8a-10e6-45c9-a9e2-331a3b8d3e03
 msc.legacyurl: /web-forms/videos/aspnet-ajax/two-simple-techniques-for-triggering-updates-to-update-panels
 msc.type: video
+ms.topic: article
 ---
 # Two Simple Techniques for Triggering Updates to Update Panels
 

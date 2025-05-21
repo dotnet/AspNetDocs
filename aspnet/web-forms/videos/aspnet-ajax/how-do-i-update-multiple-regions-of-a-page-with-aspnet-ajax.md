@@ -8,6 +8,7 @@ ms.date: 07/09/2007
 ms.assetid: 7572654d-6fa2-4ea3-a43b-56a8578af0f6
 msc.legacyurl: /web-forms/videos/aspnet-ajax/how-do-i-update-multiple-regions-of-a-page-with-aspnet-ajax
 msc.type: video
+ms.topic: article
 ---
 # [How Do I:] Update Multiple Regions of a Page with ASP.NET AJAX?
 

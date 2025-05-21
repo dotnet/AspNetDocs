@@ -8,6 +8,7 @@ ms.date: 03/13/2007
 ms.assetid: 28d5bb59-9aad-4cdd-8088-1e9d3d230ac5
 msc.legacyurl: /web-forms/videos/aspnet-ajax/how-do-i-implement-the-incremental-page-display-pattern-using-http-get-and-post
 msc.type: video
+ms.topic: article
 ---
 # [How Do I:] Implement the Incremental Page Display Pattern using HTTP GET and POST?
 

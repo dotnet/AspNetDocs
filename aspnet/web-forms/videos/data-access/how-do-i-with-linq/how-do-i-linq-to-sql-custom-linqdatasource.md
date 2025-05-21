@@ -8,6 +8,7 @@ ms.date: 01/10/2008
 ms.assetid: 9d020ec8-a7a8-4753-b73a-d9d0584d72e3
 msc.legacyurl: /web-forms/videos/data-access/how-do-i-with-linq/how-do-i-linq-to-sql-custom-linqdatasource
 msc.type: video
+ms.topic: article
 ---
 # [How Do I:] LINQ to SQL: Custom LinqDataSource
 

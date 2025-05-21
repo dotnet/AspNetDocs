@@ -8,6 +8,7 @@ ms.date: 03/09/2009
 ms.assetid: fb6b54c6-5459-4528-98a0-1fb16144836a
 msc.legacyurl: /web-forms/videos/iis/developing-and-deploying-in-a-shared-hosting
 msc.type: video
+ms.topic: concept-article
 ---
 # Developing and Deploying In a Shared Hosting
 

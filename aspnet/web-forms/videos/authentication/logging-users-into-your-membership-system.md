@@ -8,6 +8,7 @@ ms.date: 07/29/2010
 ms.assetid: 39a7142b-8228-4dae-8578-c26d70e3ae71
 msc.legacyurl: /web-forms/videos/authentication/logging-users-into-your-membership-system
 msc.type: video
+ms.topic: concept-article
 ---
 # Logging Users Into Your Membership System
 

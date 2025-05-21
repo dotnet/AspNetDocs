@@ -8,6 +8,7 @@ ms.date: 04/08/2010
 ms.assetid: 77b9f76c-0c38-4525-bf1b-581c19e127ab
 msc.legacyurl: /web-forms/videos/net-4/chart/aspnet-4-how-do-i-introducing-the-new-chart-control-in-visual-studio-2010
 msc.type: video
+ms.topic: article
 ---
 # How Do I: Introducing the New Chart Control in Visual Studio 2010
 

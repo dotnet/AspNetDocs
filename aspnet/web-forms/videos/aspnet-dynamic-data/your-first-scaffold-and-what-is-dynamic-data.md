@@ -8,6 +8,7 @@ ms.date: 05/08/2008
 ms.assetid: aff67466-d3e1-4ecb-8df3-2a79583f65b2
 msc.legacyurl: /web-forms/videos/aspnet-dynamic-data/your-first-scaffold-and-what-is-dynamic-data
 msc.type: video
+ms.topic: concept-article
 ---
 # Your First Scaffold and What is Dynamic Data?
 

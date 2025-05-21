@@ -8,6 +8,7 @@ ms.date: 03/20/2007
 ms.assetid: fadc5c5a-e481-4472-b339-715cc036dc4e
 msc.legacyurl: /web-forms/videos/aspnet-ajax/how-do-i-use-the-aspnet-ajax-updateprogress-control
 msc.type: video
+ms.topic: article
 ---
 # [How Do I:] Use the ASP.NET AJAX UpdateProgress Control?
 

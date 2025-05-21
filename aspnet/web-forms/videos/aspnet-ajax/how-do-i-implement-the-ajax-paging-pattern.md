@@ -8,6 +8,7 @@ ms.date: 03/06/2007
 ms.assetid: deba7d7e-3da2-48a1-8a9e-49c36c4bcc39
 msc.legacyurl: /web-forms/videos/aspnet-ajax/how-do-i-implement-the-ajax-paging-pattern
 msc.type: video
+ms.topic: article
 ---
 # [How Do I:] Implement the AJAX Paging Pattern?
 

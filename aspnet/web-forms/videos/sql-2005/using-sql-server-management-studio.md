@@ -8,6 +8,7 @@ ms.date: 10/23/2006
 ms.assetid: bf1f345e-55c8-4dc8-b62a-365326bb6ed7
 msc.legacyurl: /web-forms/videos/sql-2005/using-sql-server-management-studio
 msc.type: video
+ms.topic: concept-article
 ---
 # Using SQL Server Management Studio
 

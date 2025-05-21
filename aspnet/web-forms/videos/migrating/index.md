@@ -8,6 +8,7 @@ ms.date: 10/05/2011
 ms.assetid: baa03541-3f84-4e46-8a2c-2395e64f484d
 msc.legacyurl: /web-forms/videos/migrating
 msc.type: chapter
+ms.topic: concept-article
 ---
 # Migrating
 

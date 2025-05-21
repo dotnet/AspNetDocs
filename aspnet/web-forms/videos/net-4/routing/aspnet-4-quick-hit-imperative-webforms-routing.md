@@ -8,6 +8,7 @@ ms.date: 10/02/2024
 ms.assetid: c78fd810-4309-4d58-afd9-81e9ffa77429
 msc.legacyurl: /web-forms/videos/net-4/routing/aspnet-4-quick-hit-imperative-webforms-routing
 msc.type: video
+ms.topic: article
 ---
 # ASP.NET 4 "Quick Hit" - Imperative WebForms Routing
 

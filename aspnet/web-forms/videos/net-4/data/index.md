@@ -8,6 +8,7 @@ ms.date: 11/14/2011
 ms.assetid: fdc32a00-aab5-458b-8303-67147cbd9277
 msc.legacyurl: /web-forms/videos/net-4/data
 msc.type: chapter
+ms.topic: article
 ---
 # Data
 

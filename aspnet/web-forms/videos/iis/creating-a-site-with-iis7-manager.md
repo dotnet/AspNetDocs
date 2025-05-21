@@ -8,6 +8,7 @@ ms.date: 03/09/2009
 ms.assetid: f52814a3-b458-415c-ab9f-b0f904c48705
 msc.legacyurl: /web-forms/videos/iis/creating-a-site-with-iis7-manager
 msc.type: video
+ms.topic: concept-article
 ---
 # Creating a Site with IIS7 Manager
 

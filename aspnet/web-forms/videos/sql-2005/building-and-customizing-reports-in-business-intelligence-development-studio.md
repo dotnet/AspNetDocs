@@ -8,6 +8,7 @@ ms.date: 10/22/2006
 ms.assetid: f38a1055-d387-49c2-aa1b-693688417c15
 msc.legacyurl: /web-forms/videos/sql-2005/building-and-customizing-reports-in-business-intelligence-development-studio
 msc.type: video
+ms.topic: concept-article
 ---
 # Building and Customizing Reports in Business Intelligence Development Studio
 

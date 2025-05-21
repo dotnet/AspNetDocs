@@ -8,6 +8,7 @@ ms.date: 12/18/2009
 ms.assetid: 2ab9d1eb-25b7-4bb6-b334-b83e45e9fcbb
 msc.legacyurl: /web-forms/videos/aspnet-ajax/how-do-i-use-aspnet-ajax-client-templates
 msc.type: video
+ms.topic: article
 ---
 # How Do I: Use ASP.NET AJAX Client Templates
 

@@ -8,6 +8,7 @@ ms.date: 10/02/2024
 ms.assetid: 90d79218-505c-4b6d-87f5-a59592d59ccc
 msc.legacyurl: /web-forms/videos/net-4/routing/aspnet-4-quick-hit-outbound-webforms-routing
 msc.type: video
+ms.topic: article
 ---
 # ASP.NET 4 "Quick Hit" - Outbound WebForms Routing
 

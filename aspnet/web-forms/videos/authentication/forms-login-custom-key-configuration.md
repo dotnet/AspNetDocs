@@ -8,6 +8,7 @@ ms.date: 07/16/2008
 ms.assetid: 6310b458-5e6e-497e-9989-9fbdf0ba9db4
 msc.legacyurl: /web-forms/videos/authentication/forms-login-custom-key-configuration
 msc.type: video
+ms.topic: article
 ---
 # Forms Login Custom Key Configuration
 

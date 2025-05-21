@@ -8,6 +8,7 @@ ms.date: 11/28/2005
 ms.assetid: 321513ca-a52e-4142-9124-24eacb6048b4
 msc.legacyurl: /web-forms/videos/building-20-applications/lesson-6-working-with-stylesheets-and-master-pages
 msc.type: video
+ms.topic: article
 ---
 # [Lesson 6:] Working with Stylesheets and Master Pages
 

@@ -8,6 +8,7 @@ ms.date: 03/09/2009
 ms.assetid: 7ece1ff3-febd-43c0-9c4f-b5c15c3309f7
 msc.legacyurl: /web-forms/videos/iis/working-with-iis7-deligated-admin
 msc.type: video
+ms.topic: concept-article
 ---
 # Working with IIS7 Delegated Admin
 

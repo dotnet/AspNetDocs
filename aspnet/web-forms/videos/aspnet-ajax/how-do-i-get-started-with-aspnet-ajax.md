@@ -8,6 +8,7 @@ ms.date: 01/23/2007
 ms.assetid: 75707a81-244f-4fdc-aab3-eaefd9300e43
 msc.legacyurl: /web-forms/videos/aspnet-ajax/how-do-i-get-started-with-aspnet-ajax
 msc.type: video
+ms.topic: get-started
 ---
 # [How Do I:] Get Started with ASP.NET AJAX?
 

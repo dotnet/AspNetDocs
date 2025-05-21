@@ -8,6 +8,7 @@ ms.date: 07/25/2006
 ms.assetid: 826b9a37-0bc3-4405-92fb-d8dc87db195e
 msc.legacyurl: /web-forms/videos/migrating/intro-to-aspnet-for-jsp-developers-building-applications
 msc.type: video
+ms.topic: article
 ---
 # Intro to ASP.NET for JSP Developers: Building Applications
 

@@ -8,6 +8,7 @@ ms.date: 08/22/2008
 ms.assetid: 33087707-9876-4575-9042-42e0d0947fa5
 msc.legacyurl: /web-forms/videos/authentication/creating-user-accounts-programmatically
 msc.type: video
+ms.topic: concept-article
 ---
 # Creating User Accounts Programmatically
 

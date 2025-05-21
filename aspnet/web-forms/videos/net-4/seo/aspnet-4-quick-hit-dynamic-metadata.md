@@ -8,6 +8,7 @@ ms.date: 11/05/2009
 ms.assetid: 16b680a1-8b3e-4c06-953d-7dac8f7d7a72
 msc.legacyurl: /web-forms/videos/net-4/seo/aspnet-4-quick-hit-dynamic-metadata
 msc.type: video
+ms.topic: article
 ---
 # ASP.NET 4 "Quick Hit" - Dynamic Metadata
 

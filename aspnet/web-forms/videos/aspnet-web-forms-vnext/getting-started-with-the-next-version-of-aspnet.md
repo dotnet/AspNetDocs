@@ -8,6 +8,7 @@ ms.date: 11/18/2011
 ms.assetid: ebe337ae-9646-49f4-bb38-e6d3138b39fd
 msc.legacyurl: /web-forms/videos/aspnet-web-forms-vnext/getting-started-with-the-next-version-of-aspnet
 msc.type: video
+ms.topic: get-started
 ---
 # Getting Started with the Next Version of ASP.NET
 

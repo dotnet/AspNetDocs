@@ -8,6 +8,7 @@ ms.date: 11/16/2009
 ms.assetid: 8e2c66c5-1b67-483a-9e74-ed67b3d85051
 msc.legacyurl: /web-forms/videos/net-4/performance/aspnet-4-quick-hit-easy-state-compression
 msc.type: video
+ms.topic: article
 ---
 # ASP.NET 4 "Quick Hit" – Easy State Compression
 

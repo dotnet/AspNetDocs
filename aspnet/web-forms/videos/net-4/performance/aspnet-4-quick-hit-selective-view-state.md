@@ -8,6 +8,7 @@ ms.date: 11/11/2009
 ms.assetid: ad960512-65f3-4439-ab68-0862cdd7943e
 msc.legacyurl: /web-forms/videos/net-4/performance/aspnet-4-quick-hit-selective-view-state
 msc.type: video
+ms.topic: article
 ---
 # ASP.NET 4 "Quick Hit" - Selective View State
 

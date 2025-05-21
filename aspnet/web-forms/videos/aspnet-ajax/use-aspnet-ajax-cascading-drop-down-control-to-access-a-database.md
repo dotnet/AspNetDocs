@@ -8,6 +8,7 @@ ms.date: 03/13/2008
 ms.assetid: 3c21fefc-6858-40e1-8307-22f68cbd0e31
 msc.legacyurl: /web-forms/videos/aspnet-ajax/use-aspnet-ajax-cascading-drop-down-control-to-access-a-database
 msc.type: video
+ms.topic: article
 ---
 # Use ASP.NET AJAX Cascading Drop Down Control to Access a Database
 

@@ -8,6 +8,7 @@ ms.date: 03/09/2009
 ms.assetid: 0496ce17-5755-4f4b-82ee-34f5a0fefdd7
 msc.legacyurl: /web-forms/videos/iis/feature-specific-delegated-management
 msc.type: video
+ms.topic: article
 ---
 # Feature Specific Delegated Management
 

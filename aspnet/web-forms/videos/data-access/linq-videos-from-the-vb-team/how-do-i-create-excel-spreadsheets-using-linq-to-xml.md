@@ -8,6 +8,7 @@ ms.date: 11/15/2007
 ms.assetid: 147e51e3-3488-4e48-a06c-059c2cebd728
 msc.legacyurl: /web-forms/videos/data-access/linq-videos-from-the-vb-team/how-do-i-create-excel-spreadsheets-using-linq-to-xml
 msc.type: video
+ms.topic: article
 ---
 # [How Do I:] Create Excel Spreadsheets using LINQ to XML?
 

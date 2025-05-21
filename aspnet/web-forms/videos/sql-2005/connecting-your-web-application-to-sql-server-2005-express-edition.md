@@ -8,6 +8,7 @@ ms.date: 03/20/2006
 ms.assetid: 2ba89851-337e-47dc-a604-82f73a68bc63
 msc.legacyurl: /web-forms/videos/sql-2005/connecting-your-web-application-to-sql-server-2005-express-edition
 msc.type: video
+ms.topic: concept-article
 ---
 # Connecting your Web Application to SQL Server 2005 Express Edition
 

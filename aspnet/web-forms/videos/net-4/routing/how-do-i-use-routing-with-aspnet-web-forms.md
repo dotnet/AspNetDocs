@@ -8,6 +8,7 @@ ms.date: 10/02/2024
 ms.assetid: a3ab6cd9-8f71-4b73-9336-21c0de078269
 msc.legacyurl: /web-forms/videos/net-4/routing/how-do-i-use-routing-with-aspnet-web-forms
 msc.type: video
+ms.topic: article
 ---
 # How Do I: Use Routing with ASP.NET Web Forms?
 

@@ -8,6 +8,7 @@ ms.date: 11/15/2007
 ms.assetid: f8d01146-8048-4750-a43b-aae53e3bd5f6
 msc.legacyurl: /web-forms/videos/data-access/how-do-i-with-linq/how-do-i-linq-to-sql-overview
 msc.type: video
+ms.topic: concept-article
 ---
 # [How Do I:] LINQ to SQL: Overview
 

@@ -8,6 +8,7 @@ ms.date: 10/23/2008
 ms.assetid: 2011925a-789d-4160-af31-4667097727f1
 msc.legacyurl: /web-forms/videos/aspnet-dynamic-data/getting-started-with-dynamic-data
 msc.type: video
+ms.topic: get-started
 ---
 # Getting Started with Dynamic Data
 

@@ -8,6 +8,7 @@ ms.date: 07/16/2008
 ms.assetid: 368733eb-0822-4b97-8e5a-127be6c88a61
 msc.legacyurl: /web-forms/videos/authentication/use-custom-principal-objects
 msc.type: video
+ms.topic: article
 ---
 # Use Custom Principal Objects
 

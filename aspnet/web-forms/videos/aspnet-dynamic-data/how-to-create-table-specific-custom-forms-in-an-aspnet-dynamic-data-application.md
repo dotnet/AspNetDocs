@@ -8,6 +8,7 @@ ms.date: 12/11/2008
 ms.assetid: 14d3a727-8a1a-4950-8e8f-ce97f5b2ec1f
 msc.legacyurl: /web-forms/videos/aspnet-dynamic-data/how-to-create-table-specific-custom-forms-in-an-aspnet-dynamic-data-application
 msc.type: video
+ms.topic: how-to
 ---
 # How to Create Table Specific Custom Forms in an ASP.NET Dynamic Data Application
 

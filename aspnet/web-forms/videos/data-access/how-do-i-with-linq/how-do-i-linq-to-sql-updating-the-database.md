@@ -8,6 +8,7 @@ ms.date: 11/15/2007
 ms.assetid: d37b9859-1fc1-4669-89ea-b16f3c349d82
 msc.legacyurl: /web-forms/videos/data-access/how-do-i-with-linq/how-do-i-linq-to-sql-updating-the-database
 msc.type: video
+ms.topic: article
 ---
 # [How Do I:] LINQ to SQL: Updating the Database
 

@@ -8,6 +8,7 @@ ms.date: 10/02/2024
 ms.assetid: adea2a1f-4650-4e3d-8bff-3ff5cd22f895
 msc.legacyurl: /web-forms/videos/net-4/routing/aspnet-4-quick-hit-permanent-redirect
 msc.type: video
+ms.topic: article
 ---
 # ASP.NET 4 "Quick Hit" - Permanent Redirect
 

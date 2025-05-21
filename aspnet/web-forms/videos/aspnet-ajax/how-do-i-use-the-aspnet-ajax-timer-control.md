@@ -8,6 +8,7 @@ ms.date: 02/13/2007
 ms.assetid: 1488f788-54ca-43ce-bf65-8179ebbe2c7c
 msc.legacyurl: /web-forms/videos/aspnet-ajax/how-do-i-use-the-aspnet-ajax-timer-control
 msc.type: video
+ms.topic: article
 ---
 # [How Do I:] Use the ASP.NET AJAX Timer Control?
 

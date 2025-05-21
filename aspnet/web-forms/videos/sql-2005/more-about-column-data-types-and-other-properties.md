@@ -8,6 +8,7 @@ ms.date: 02/22/2006
 ms.assetid: 8fcd3402-1711-4f19-b0cc-b91edfe285fc
 msc.legacyurl: /web-forms/videos/sql-2005/more-about-column-data-types-and-other-properties
 msc.type: video
+ms.topic: article
 ---
 # More about Column Data Types and Other Properties
 

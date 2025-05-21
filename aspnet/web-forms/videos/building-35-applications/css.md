@@ -8,6 +8,7 @@ ms.date: 04/30/2009
 ms.assetid: 50a55e3b-3f5c-429b-baf9-730221e9ef4c
 msc.legacyurl: /web-forms/videos/building-35-applications/css
 msc.type: video
+ms.topic: article
 ---
 # CSS
 

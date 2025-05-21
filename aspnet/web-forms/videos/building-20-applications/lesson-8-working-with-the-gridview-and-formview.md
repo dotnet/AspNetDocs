@@ -8,6 +8,7 @@ ms.date: 11/29/2005
 ms.assetid: be41acae-1e1e-403c-bdd2-28cdcd11a22a
 msc.legacyurl: /web-forms/videos/building-20-applications/lesson-8-working-with-the-gridview-and-formview
 msc.type: video
+ms.topic: article
 ---
 # [Lesson 8:] Working with the GridView and FormView
 

@@ -8,6 +8,7 @@ ms.date: 04/16/2008
 ms.assetid: 718e7b1d-e02c-41fe-85d5-44c0d288201f
 msc.legacyurl: /web-forms/videos/aspnet-ajax/how-to-dynamically-add-controls-to-a-web-page
 msc.type: video
+ms.topic: how-to
 ---
 # How To Dynamically Add Controls to a Web Page
 

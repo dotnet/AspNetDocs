@@ -8,6 +8,7 @@ ms.date: 10/23/2008
 ms.assetid: e5b0f6da-635c-461d-8f34-ab815715888a
 msc.legacyurl: /web-forms/videos/aspnet-dynamic-data/begin-editing-the-templates-in-aspnet-dynamic-data-applications
 msc.type: video
+ms.topic: article
 ---
 # Begin Editing the Templates in ASP.NET Dynamic Data Applications
 

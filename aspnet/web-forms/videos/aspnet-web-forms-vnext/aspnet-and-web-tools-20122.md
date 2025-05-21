@@ -8,6 +8,7 @@ ms.date: 02/18/2013
 ms.assetid: ca7458bd-b238-4633-a8b4-468a4c300acc
 msc.legacyurl: /web-forms/videos/aspnet-web-forms-vnext/aspnet-and-web-tools-20122
 msc.type: video
+ms.topic: article
 ---
 # ASP.NET and Web Tools 2012.2
 

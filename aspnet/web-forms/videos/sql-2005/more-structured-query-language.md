@@ -8,6 +8,7 @@ ms.date: 03/29/2006
 ms.assetid: f86aee1e-958a-4604-a593-dc40a1149239
 msc.legacyurl: /web-forms/videos/sql-2005/more-structured-query-language
 msc.type: video
+ms.topic: article
 ---
 # More Structured Query Language
 

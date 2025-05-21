@@ -8,6 +8,7 @@ ms.date: 08/22/2011
 ms.assetid: 63c42590-08ac-44da-91f8-bd79489b9ecc
 msc.legacyurl: /web-forms/videos/aspnet-web-forms-vnext/aspnet-vnext-videos-model-binding-part-3-updating
 msc.type: video
+ms.topic: article
 ---
 # ASP.NET vNext Videos: Model Binding Part 3 - Updating
 

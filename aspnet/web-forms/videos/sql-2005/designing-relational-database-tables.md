@@ -8,6 +8,7 @@ ms.date: 03/29/2006
 ms.assetid: f8ce88a0-bddb-4f29-8d87-b3af40fc5b61
 msc.legacyurl: /web-forms/videos/sql-2005/designing-relational-database-tables
 msc.type: video
+ms.topic: concept-article
 ---
 # Designing Relational Database Tables
 

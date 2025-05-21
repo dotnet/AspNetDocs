@@ -8,6 +8,7 @@ ms.date: 06/21/2007
 ms.assetid: 9a382d8e-ea3a-4fa4-bd24-b56f9051f4db
 msc.legacyurl: /web-forms/videos/aspnet-ajax/how-do-i-implement-the-ajax-after-processing-pattern
 msc.type: video
+ms.topic: article
 ---
 # [How Do I:] Implement the AJAX After Processing Pattern?
 

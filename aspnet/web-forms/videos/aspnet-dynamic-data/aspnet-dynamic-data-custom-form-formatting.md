@@ -8,6 +8,7 @@ ms.date: 12/11/2008
 ms.assetid: acd329de-7676-41b4-8638-189f3e1039f7
 msc.legacyurl: /web-forms/videos/aspnet-dynamic-data/aspnet-dynamic-data-custom-form-formatting
 msc.type: video
+ms.topic: article
 ---
 # ASP.NET Dynamic Data Custom Form Formatting
 

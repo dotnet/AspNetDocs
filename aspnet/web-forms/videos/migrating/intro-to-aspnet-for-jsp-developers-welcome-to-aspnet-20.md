@@ -8,6 +8,7 @@ ms.date: 07/25/2006
 ms.assetid: 1a95474a-a897-4ba1-b372-8a112cb324ba
 msc.legacyurl: /web-forms/videos/migrating/intro-to-aspnet-for-jsp-developers-welcome-to-aspnet-20
 msc.type: video
+ms.topic: article
 ---
 # Intro to ASP.NET for JSP Developers: Welcome to ASP.NET 2.0
 

@@ -8,6 +8,7 @@ ms.date: 11/28/2005
 ms.assetid: 22ddc59d-cd84-4def-a58b-ec3ca57f0d85
 msc.legacyurl: /web-forms/videos/building-20-applications/lesson-4-understanding-web-application-state
 msc.type: video
+ms.topic: concept-article
 ---
 # [Lesson 4:] Understanding Web Application State
 

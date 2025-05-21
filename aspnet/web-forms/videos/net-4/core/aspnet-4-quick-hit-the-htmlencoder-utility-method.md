@@ -8,6 +8,7 @@ ms.date: 11/11/2009
 ms.assetid: e1f67fe5-32ce-409b-bba4-d8f730851b33
 msc.legacyurl: /web-forms/videos/net-4/core/aspnet-4-quick-hit-the-htmlencoder-utility-method
 msc.type: video
+ms.topic: article
 ---
 # ASP.NET 4 "Quick Hit" – The HtmlEncoder Utility Method
 

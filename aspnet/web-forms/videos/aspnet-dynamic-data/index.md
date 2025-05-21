@@ -8,6 +8,7 @@ ms.date: 10/05/2011
 ms.assetid: cd51e6c4-6ff9-419d-8ac8-a39b79d63c78
 msc.legacyurl: /web-forms/videos/aspnet-dynamic-data
 msc.type: chapter
+ms.topic: article
 ---
 # ASP.NET Dynamic Data
 

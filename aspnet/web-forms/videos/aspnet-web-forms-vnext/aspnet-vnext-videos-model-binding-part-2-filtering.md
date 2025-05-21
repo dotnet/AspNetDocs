@@ -8,6 +8,7 @@ ms.date: 08/12/2011
 ms.assetid: b1d73fae-57c9-4b06-b5df-d68dc3b3cf5e
 msc.legacyurl: /web-forms/videos/aspnet-web-forms-vnext/aspnet-vnext-videos-model-binding-part-2-filtering
 msc.type: video
+ms.topic: article
 ---
 # ASP.NET vNext Videos: Model Binding Part 2 - Filtering
 

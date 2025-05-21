@@ -8,6 +8,7 @@ ms.date: 02/24/2012
 ms.assetid: 257373bb-eab0-47bc-b5a2-37a9e91666d6
 msc.legacyurl: /web-forms/videos/data-access/linq-videos-from-the-vb-team
 msc.type: chapter
+ms.topic: article
 ---
 # LINQ Videos from the VB Team
 

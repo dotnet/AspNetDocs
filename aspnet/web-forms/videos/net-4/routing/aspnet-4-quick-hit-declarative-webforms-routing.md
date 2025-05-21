@@ -8,6 +8,7 @@ ms.date: 10/02/2024
 ms.assetid: bfeb728e-3216-4310-8303-6cdb79255c15
 msc.legacyurl: /web-forms/videos/net-4/routing/aspnet-4-quick-hit-declarative-webforms-routing
 msc.type: video
+ms.topic: article
 ---
 # ASP.NET 4 "Quick Hit" - Declarative WebForms Routing
 

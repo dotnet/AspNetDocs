@@ -8,6 +8,7 @@ ms.date: 08/22/2007
 ms.assetid: e90defdb-b6b1-4f38-8f6a-7adccbb426ef
 msc.legacyurl: /web-forms/videos/aspnet-ajax/how-do-i-trigger-an-updatepanel-refresh-from-a-dropdownlist-control
 msc.type: video
+ms.topic: article
 ---
 # [How Do I:] Trigger an UpdatePanel Refresh from a DropDownList Control?
 

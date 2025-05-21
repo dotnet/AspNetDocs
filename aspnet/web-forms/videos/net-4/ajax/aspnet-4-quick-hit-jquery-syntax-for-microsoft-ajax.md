@@ -8,6 +8,7 @@ ms.date: 11/16/2009
 ms.assetid: 997897e3-8fe2-46ca-8a86-b59dbf93e65e
 msc.legacyurl: /web-forms/videos/net-4/ajax/aspnet-4-quick-hit-jquery-syntax-for-microsoft-ajax
 msc.type: video
+ms.topic: article
 ---
 # ASP.NET 4 "Quick Hit" - jQuery Syntax for Microsoft Ajax
 

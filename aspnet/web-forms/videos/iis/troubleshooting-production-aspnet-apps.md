@@ -8,6 +8,7 @@ ms.date: 03/09/2009
 ms.assetid: ee45ab78-bc04-45dc-bfac-5c0c023b3f17
 msc.legacyurl: /web-forms/videos/iis/troubleshooting-production-aspnet-apps
 msc.type: video
+ms.topic: troubleshooting-general
 ---
 # Troubleshooting Production ASP.NET Apps
 

@@ -8,6 +8,7 @@ ms.date: 08/07/2008
 ms.assetid: 4ea744fa-ee7f-45a5-a0de-e3b17af67d8c
 msc.legacyurl: /web-forms/videos/data-access/adonet-data-services/how-to-work-with-datasets-and-filters-from-an-asp-application
 msc.type: video
+ms.topic: how-to
 ---
 # How to Work with Datasets and Filters from an ASP Application
 

@@ -8,6 +8,7 @@ ms.date: 04/09/2009
 ms.assetid: 541d38fd-2d62-4db5-bb9f-182163829326
 msc.legacyurl: /web-forms/videos/building-35-applications/intellisense
 msc.type: video
+ms.topic: article
 ---
 # IntelliSense
 

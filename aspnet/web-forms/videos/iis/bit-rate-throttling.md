@@ -8,6 +8,7 @@ ms.date: 03/09/2009
 ms.assetid: 8dc90862-97d6-48d1-8bfc-79c70d622474
 msc.legacyurl: /web-forms/videos/iis/bit-rate-throttling
 msc.type: video
+ms.topic: article
 ---
 # Bit Rate Throttling
 

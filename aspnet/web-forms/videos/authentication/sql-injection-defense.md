@@ -8,6 +8,7 @@ ms.date: 10/29/2009
 ms.assetid: b9fb1e01-06d9-43d9-9e8f-5fa1e4c6a211
 msc.legacyurl: /web-forms/videos/authentication/sql-injection-defense
 msc.type: video
+ms.topic: article
 ---
 # SQL Injection Defense
 

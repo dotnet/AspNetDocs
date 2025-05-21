@@ -8,6 +8,7 @@ ms.date: 03/13/2008
 ms.assetid: b041ea07-a174-4a57-b2a8-4ce64232bdae
 msc.legacyurl: /web-forms/videos/data-access/how-do-i-with-linq/how-do-i-linq-to-sql-updating-with-stored-procedures
 msc.type: video
+ms.topic: article
 ---
 # How Do I: LINQ to SQL: Updating with Stored Procedures
 

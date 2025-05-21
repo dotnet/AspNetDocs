@@ -8,6 +8,7 @@ ms.date: 11/15/2007
 ms.assetid: e9c01c16-7211-4b42-b2fb-daf9a314c0a4
 msc.legacyurl: /web-forms/videos/data-access/linq-videos-from-the-vb-team/how-do-i-upgrade-visual-basic-projects-to-enable-linq
 msc.type: video
+ms.topic: upgrade-and-migration-article
 ---
 # [How Do I:] Upgrade Visual Basic Projects to Enable LINQ?
 

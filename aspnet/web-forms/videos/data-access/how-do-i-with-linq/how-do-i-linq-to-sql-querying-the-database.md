@@ -8,6 +8,7 @@ ms.date: 11/15/2007
 ms.assetid: 199c6ca0-3a9e-4a88-96c5-70fce8d4d9bf
 msc.legacyurl: /web-forms/videos/data-access/how-do-i-with-linq/how-do-i-linq-to-sql-querying-the-database
 msc.type: video
+ms.topic: article
 ---
 # [How Do I:] LINQ to SQL: Querying the Database
 

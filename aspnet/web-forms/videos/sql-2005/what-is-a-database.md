@@ -8,6 +8,7 @@ ms.date: 03/29/2006
 ms.assetid: 560d2455-ce08-4b2a-900d-7e9ccf82e048
 msc.legacyurl: /web-forms/videos/sql-2005/what-is-a-database
 msc.type: video
+ms.topic: concept-article
 ---
 # What is a Database?
 

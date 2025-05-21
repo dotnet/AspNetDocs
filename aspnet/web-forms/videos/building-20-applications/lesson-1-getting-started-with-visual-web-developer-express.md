@@ -8,6 +8,7 @@ ms.date: 09/08/2005
 ms.assetid: e9341b0b-1f01-4371-bfe0-0fb7410916a4
 msc.legacyurl: /web-forms/videos/building-20-applications/lesson-1-getting-started-with-visual-web-developer-express
 msc.type: video
+ms.topic: get-started
 ---
 # [Lesson 1:] Getting Started with Visual Web Developer Express
 

@@ -6,6 +6,7 @@ description: "Receiver dependencies and dependency injection in ASP.NET WebHooks
 ms.author: riande
 ms.date: 01/17/2012
 ms.assetid: 5125e483-c2bb-435b-8cd1-21d3499bfaaf
+ms.topic: article
 ---
 # ASP.NET WebHooks receiver dependencies
 

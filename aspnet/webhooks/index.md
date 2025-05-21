@@ -6,6 +6,7 @@ description: "An introduction to ASP.NET WebHooks."
 ms.author: riande
 ms.date: 01/17/2012
 ms.assetid: 5e2843f0-f499-448f-a712-33d4e9858321
+ms.topic: concept-article
 ---
 # ASP.NET WebHooks overview
 

@@ -8,6 +8,7 @@ ms.date: 11/28/2005
 ms.assetid: 59f0bccd-b604-47fa-a42b-71d8ab187bd2
 msc.legacyurl: /web-forms/videos/building-20-applications/lesson-3-understanding-more-about-events-and-postback
 msc.type: video
+ms.topic: concept-article
 ---
 # [Lesson 3:]  Understanding More About Events and Postback
 

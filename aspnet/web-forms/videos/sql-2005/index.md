@@ -8,6 +8,7 @@ ms.date: 10/05/2011
 ms.assetid: cf0b487c-f387-46dd-b3bc-6b3c4af17c9c
 msc.legacyurl: /web-forms/videos/sql-2005
 msc.type: chapter
+ms.topic: article
 ---
 # SQL 2005
 

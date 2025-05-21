@@ -8,6 +8,7 @@ ms.date: 08/22/2008
 ms.assetid: c11eec26-25a2-41fb-9330-ddc123c0423a
 msc.legacyurl: /web-forms/videos/authentication/validating-users-manually
 msc.type: video
+ms.topic: concept-article
 ---
 # Validating Users Manually
 
