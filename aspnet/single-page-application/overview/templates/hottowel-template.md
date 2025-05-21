@@ -8,6 +8,7 @@ ms.date: 02/09/2013
 ms.assetid: 75af2e17-6ed3-4d24-8ea1-bc340027c318
 msc.legacyurl: /single-page-application/overview/templates/hottowel-template
 msc.type: authoredcontent
+ms.topic: article
 ---
 # Hot Towel template
 

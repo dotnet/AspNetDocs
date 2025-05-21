@@ -8,6 +8,7 @@ ms.date: 04/03/2012
 ms.assetid: 25da8c3f-4e90-4946-9765-4f160985e1e4
 msc.legacyurl: /web-api/overview/getting-started-with-aspnet-web-api/using-web-api-with-aspnet-web-forms
 msc.type: authoredcontent
+ms.topic: concept-article
 ---
 # Using Web API with ASP.NET Web Forms
 

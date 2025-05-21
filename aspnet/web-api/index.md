@@ -8,6 +8,7 @@ ms.date: 01/17/2012
 ms.assetid: f571ca7a-c06b-400d-8051-f62f9f0bcc9b
 msc.legacyurl: /web-api
 msc.type: categoryindex
+ms.topic: article
 ---
 # ASP.NET 4.x Web API
 

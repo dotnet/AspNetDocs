@@ -8,6 +8,7 @@ ms.date: 08/17/2012
 ms.assetid: 9151c605-e911-4f24-95b5-ca310b105abf
 msc.legacyurl: /web-api/overview/odata-support-in-aspnet-web-api
 msc.type: chapter
+ms.topic: article
 ---
 # OData in ASP.NET Web API
 

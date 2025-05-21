@@ -8,6 +8,7 @@ ms.date: 02/22/2019
 ms.assetid: 97f6164f-59cf-45c0-b820-e4aa29b45396
 msc.legacyurl: /web-api/overview/security/working-with-ssl-in-web-api
 msc.type: authoredcontent
+ms.topic: how-to
 ---
 # Working with SSL in Web API
 

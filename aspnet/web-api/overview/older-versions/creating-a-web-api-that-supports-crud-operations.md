@@ -8,6 +8,7 @@ ms.date: 01/28/2012
 ms.assetid: c125ca47-606a-4d6f-a1fc-1fc62928af93
 msc.legacyurl: /web-api/overview/older-versions/creating-a-web-api-that-supports-crud-operations
 msc.type: authoredcontent
+ms.topic: concept-article
 ---
 # Enabling CRUD Operations in ASP.NET Web API 1
 

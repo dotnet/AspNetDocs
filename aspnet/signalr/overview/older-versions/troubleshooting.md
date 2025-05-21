@@ -8,6 +8,7 @@ ms.date: 06/05/2013
 ms.assetid: 347210ba-c452-4feb-886f-b51d89f58971
 msc.legacyurl: /signalr/overview/older-versions/troubleshooting
 msc.type: authoredcontent
+ms.topic: troubleshooting-general
 ---
 # SignalR Troubleshooting (SignalR 1.x)
 

@@ -8,6 +8,7 @@ ms.date: 02/13/2012
 ms.assetid: 9002018b-3aa3-4358-bb1c-fbb5bc751d01
 msc.legacyurl: /web-api/overview/advanced/http-message-handlers
 msc.type: authoredcontent
+ms.topic: article
 ---
 # HTTP Message Handlers in ASP.NET Web API
 

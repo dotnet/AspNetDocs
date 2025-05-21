@@ -8,6 +8,7 @@ ms.date: 03/31/2014
 ms.assetid: 9e10a700-8d91-4d2e-a31e-b8b569fe867c
 msc.legacyurl: /web-api/overview/advanced/configuring-aspnet-web-api
 msc.type: authoredcontent
+ms.topic: concept-article
 ---
 # Configuring ASP.NET Web API 2
 

@@ -8,6 +8,7 @@ ms.date: 02/16/2012
 ms.assetid: 8ed7e133-707b-43e6-bce4-e9d266935573
 msc.legacyurl: /web-api/videos
 msc.type: book
+ms.topic: article
 ---
 # ASP.NET Web API Videos
 

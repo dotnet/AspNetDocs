@@ -8,6 +8,7 @@ ms.date: 02/15/2012
 ms.assetid: 14f2554f-ca12-4ffe-af53-1f33b45042ef
 msc.legacyurl: /web-api/videos/getting-started/authorization
 msc.type: video
+ms.topic: article
 ---
 # ASP.NET Web API, Part 6: Authorization
 

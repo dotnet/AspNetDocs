@@ -8,6 +8,7 @@ ms.date: 06/16/2014
 ms.assetid: 20360326-b123-4b1e-abae-1d350edf4ce4
 msc.legacyurl: /web-api/overview/data/using-web-api-with-entity-framework/part-6
 msc.type: authoredcontent
+ms.topic: article
 ---
 # Create the JavaScript Client
 

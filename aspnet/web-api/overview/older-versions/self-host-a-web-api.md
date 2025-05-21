@@ -8,6 +8,7 @@ ms.date: 01/26/2012
 ms.assetid: be5ab1e2-4140-4275-ac59-ca82a1bac0c1
 msc.legacyurl: /web-api/overview/older-versions/self-host-a-web-api
 msc.type: authoredcontent
+ms.topic: article
 ---
 # Self-Host ASP.NET Web API 1 (C#)
 

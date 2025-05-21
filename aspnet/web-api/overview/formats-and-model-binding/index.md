@@ -8,6 +8,7 @@ ms.date: 01/17/2012
 ms.assetid: 2d520763-3860-4b3f-8b99-ac71fb01cf37
 msc.legacyurl: /web-api/overview/formats-and-model-binding
 msc.type: chapter
+ms.topic: article
 ---
 # Serialization and Model Binding in ASP.NET Web API
 

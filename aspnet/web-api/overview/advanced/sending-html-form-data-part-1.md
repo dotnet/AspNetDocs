@@ -8,6 +8,7 @@ ms.date: 06/15/2012
 ms.assetid: 585351c4-809a-4bf5-bcbe-35d624f565fe
 msc.legacyurl: /web-api/overview/advanced/sending-html-form-data-part-1
 msc.type: authoredcontent
+ms.topic: concept-article
 ---
 # Sending HTML Form Data in ASP.NET Web API: Form-urlencoded Data
 

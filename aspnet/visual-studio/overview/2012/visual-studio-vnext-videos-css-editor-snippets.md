@@ -8,6 +8,7 @@ ms.date: 08/30/2011
 ms.assetid: a87af3be-589d-4b0c-846d-4de60a8745c0
 msc.legacyurl: /visual-studio/overview/2012/visual-studio-vnext-videos-css-editor-snippets
 msc.type: video
+ms.topic: article
 ---
 # Visual Studio vNext Videos: CSS Snippets
 

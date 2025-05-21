@@ -8,6 +8,7 @@ ms.date: 04/17/2013
 ms.assetid: dcd4593b-1118-418a-af71-d12ff33fb36d
 msc.legacyurl: /signalr/overview/older-versions/signalr-1x-hubs-api-guide-javascript-client
 msc.type: authoredcontent
+ms.topic: article
 ---
 # SignalR 1.x Hubs API Guide - JavaScript Client
 

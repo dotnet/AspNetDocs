@@ -8,6 +8,7 @@ ms.date: 07/03/2012
 ms.assetid: fe3ef85f-bdc6-4e10-9768-25aa565c01d0
 msc.legacyurl: /web-api/overview/older-versions/using-web-api-1-with-entity-framework-5/using-web-api-with-entity-framework-part-2
 msc.type: authoredcontent
+ms.topic: article
 ---
 # Part 2: Creating the Domain Models
 

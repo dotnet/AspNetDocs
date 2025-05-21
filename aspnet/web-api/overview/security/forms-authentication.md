@@ -8,6 +8,7 @@ ms.date: 12/12/2012
 ms.assetid: 9f06c1f2-ffaa-4831-94a0-2e4a3befdf07
 msc.legacyurl: /web-api/overview/security/forms-authentication
 msc.type: authoredcontent
+ms.topic: article
 ---
 # Forms Authentication in ASP.NET Web API
 

@@ -8,6 +8,7 @@ ms.date: 10/17/2013
 ms.assetid: 45bf07c6-145f-435e-a703-3233e710d528
 msc.legacyurl: /visual-studio/overview/2013/visual-studio-2013-web-editor-features-browser-link
 msc.type: video
+ms.topic: article
 ---
 # Visual Studio 2013 Web Editor Features - Browser Link
 

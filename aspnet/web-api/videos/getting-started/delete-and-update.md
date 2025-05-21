@@ -8,6 +8,7 @@ ms.date: 02/15/2012
 ms.assetid: c7b6d27f-e2e9-481f-94e5-0ec7ceca9273
 msc.legacyurl: /web-api/videos/getting-started/delete-and-update
 msc.type: video
+ms.topic: article
 ---
 # ASP.NET Web API, Part 3: Delete and Update
 

@@ -8,6 +8,7 @@ ms.date: 09/19/2014
 ms.assetid: fda81611-b67b-4c62-915e-8adc1924a401
 msc.legacyurl: /signalr/overview/performance
 msc.type: chapter
+ms.topic: article
 ---
 # SignalR Performance Index
 

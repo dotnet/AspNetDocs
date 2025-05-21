@@ -8,6 +8,7 @@ ms.date: 11/27/2012
 ms.assetid: 6dfb51ea-9f4d-4e70-916c-8ef8344a88d6
 msc.legacyurl: /web-api/overview/security/authentication-and-authorization-in-aspnet-web-api
 msc.type: authoredcontent
+ms.topic: article
 ---
 # Authentication and Authorization in ASP.NET Web API
 

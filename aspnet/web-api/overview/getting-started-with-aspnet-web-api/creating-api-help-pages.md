@@ -8,6 +8,7 @@ ms.date: 04/01/2013
 ms.assetid: 0150e67b-c50d-4613-83ea-7b4ef8cacc5a
 msc.legacyurl: /web-api/overview/getting-started-with-aspnet-web-api/creating-api-help-pages
 msc.type: authoredcontent
+ms.topic: concept-article
 ---
 # Creating Help Pages for ASP.NET Web API
 

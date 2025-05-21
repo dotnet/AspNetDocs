@@ -8,6 +8,7 @@ ms.date: 01/20/2014
 ms.assetid: 979d6c9f-0129-4e5b-ae56-4507b281b86d
 msc.legacyurl: /web-api/overview/web-api-routing-and-actions/attribute-routing-in-web-api-2
 msc.type: authoredcontent
+ms.topic: how-to
 ---
 # Attribute Routing in ASP.NET Web API 2
 

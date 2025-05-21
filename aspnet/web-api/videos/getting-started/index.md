@@ -8,6 +8,7 @@ ms.date: 02/16/2012
 ms.assetid: 1c7cc326-04f5-4578-bf62-a7d381f380f7
 msc.legacyurl: /web-api/videos/getting-started
 msc.type: chapter
+ms.topic: get-started
 ---
 # ASP.NET Web API Overview and Getting Started Videos
 

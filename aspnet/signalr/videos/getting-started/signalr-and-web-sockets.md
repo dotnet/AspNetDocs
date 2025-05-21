@@ -8,6 +8,7 @@ ms.date: 08/15/2012
 ms.assetid: d20b4bfc-2cc1-4aeb-b235-733146df1eca
 msc.legacyurl: /signalr/videos/getting-started/signalr-and-web-sockets
 msc.type: video
+ms.topic: article
 ---
 # SignalR and Web Sockets
 

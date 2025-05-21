@@ -8,6 +8,7 @@ ms.date: 02/06/2013
 ms.assetid: b91e6424-1544-4747-bd0b-d1f8418c9653
 msc.legacyurl: /web-api/overview/odata-support-in-aspnet-web-api/odata-security-guidance
 msc.type: authoredcontent
+ms.topic: article
 ---
 # Security Guidance for ASP.NET Web API 2 OData
 

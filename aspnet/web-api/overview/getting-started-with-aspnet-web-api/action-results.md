@@ -8,6 +8,7 @@ ms.date: 02/03/2014
 ms.assetid: 2fc4797c-38ef-4cc7-926c-ca431c4739e8
 msc.legacyurl: /web-api/overview/getting-started-with-aspnet-web-api/action-results
 msc.type: authoredcontent
+ms.topic: how-to
 ---
 # Action Results in Web API 2
 

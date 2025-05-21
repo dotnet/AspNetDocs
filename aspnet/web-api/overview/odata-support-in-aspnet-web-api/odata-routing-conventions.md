@@ -8,6 +8,7 @@ ms.date: 07/31/2013
 ms.assetid: adbc175a-14eb-4ab2-a441-d056ffa8266f
 msc.legacyurl: /web-api/overview/odata-support-in-aspnet-web-api/odata-routing-conventions
 msc.type: authoredcontent
+ms.topic: how-to
 ---
 # Routing Conventions in ASP.NET Web API 2 Odata
 

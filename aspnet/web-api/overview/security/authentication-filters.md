@@ -8,6 +8,7 @@ ms.date: 09/25/2014
 ms.assetid: b9882e53-b3ca-4def-89b0-322846973ccb
 msc.legacyurl: /web-api/overview/security/authentication-filters
 msc.type: authoredcontent
+ms.topic: article
 ---
 # Authentication Filters in ASP.NET Web API 2
 

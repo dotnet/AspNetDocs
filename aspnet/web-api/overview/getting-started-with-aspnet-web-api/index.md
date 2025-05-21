@@ -8,6 +8,7 @@ ms.date: 01/17/2012
 ms.assetid: a36e178f-de46-46d9-b150-61fb3ba1b4d3
 msc.legacyurl: /web-api/overview/getting-started-with-aspnet-web-api
 msc.type: chapter
+ms.topic: get-started
 ---
 # Getting Started with ASP.NET Web API
 

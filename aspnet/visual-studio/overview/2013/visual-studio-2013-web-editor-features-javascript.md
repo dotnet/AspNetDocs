@@ -8,6 +8,7 @@ ms.date: 10/17/2013
 ms.assetid: 1de7c3df-203c-4d2c-bba0-ddc6ffb6c9c5
 msc.legacyurl: /visual-studio/overview/2013/visual-studio-2013-web-editor-features-javascript
 msc.type: video
+ms.topic: article
 ---
 # Visual Studio 2013 Web Editor Features - JavaScript
 

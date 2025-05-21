@@ -8,6 +8,7 @@ ms.date: 01/30/2013
 ms.assetid: 04d5f142-5f62-494a-b5ea-4f3d068d34cb
 msc.legacyurl: /single-page-application/overview/templates/emberjs-template
 msc.type: authoredcontent
+ms.topic: article
 ---
 # EmberJS template
 

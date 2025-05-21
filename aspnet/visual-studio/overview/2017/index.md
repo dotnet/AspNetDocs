@@ -7,6 +7,7 @@ ms.author: riande
 ms.date: 08/25/2018
 
 msc.type: chapter
+ms.topic: article
 ---
 # ASP.NET and Visual Studio 2017
 

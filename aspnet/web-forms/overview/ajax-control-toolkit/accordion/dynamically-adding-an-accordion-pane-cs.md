@@ -8,6 +8,7 @@ ms.date: 06/02/2008
 ms.assetid: 66d88cfa-f26f-46b1-ad52-1c9e03c04a48
 msc.legacyurl: /web-forms/overview/ajax-control-toolkit/accordion/dynamically-adding-an-accordion-pane-cs
 msc.type: authoredcontent
+ms.topic: article
 ---
 # Dynamically Adding An Accordion Pane (C#)
 

@@ -8,6 +8,7 @@ ms.date: 08/15/2012
 ms.assetid: 61222942-e650-40ee-9ee1-8fcb879ae92f
 msc.legacyurl: /visual-studio/overview/2012/visual-studio-2012-web-publishing-improvements
 msc.type: video
+ms.topic: article
 ---
 # Visual Studio 2012 Web Publishing Improvements
 

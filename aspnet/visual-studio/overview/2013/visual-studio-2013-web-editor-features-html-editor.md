@@ -8,6 +8,7 @@ ms.date: 10/17/2013
 ms.assetid: 5a6b4558-0555-4cac-99c7-06865169007f
 msc.legacyurl: /visual-studio/overview/2013/visual-studio-2013-web-editor-features-html-editor
 msc.type: video
+ms.topic: article
 ---
 # Visual Studio 2013 Web Editor Features - HTML Editor
 

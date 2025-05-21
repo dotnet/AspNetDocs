@@ -8,6 +8,7 @@ ms.date: 05/01/2013
 ms.assetid: 6abecf80-8ffa-41ba-b0d9-1d9edbe7687b
 msc.legacyurl: /signalr/overview/older-versions/scaleout-with-redis
 msc.type: authoredcontent
+ms.topic: article
 ---
 # SignalR Scaleout with Redis (SignalR 1.x)
 

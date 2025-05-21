@@ -6,6 +6,7 @@ description: Optimize build performance for solution
 ms.author: riande
 ms.date: 08/29/2018
 msc.type: authoredcontent
+ms.topic: article
 ---
 # Optimize build performance for solution
 

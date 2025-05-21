@@ -8,6 +8,7 @@ ms.date: 08/30/2011
 ms.assetid: fc12ff1f-c063-4786-9783-b9d6e6452019
 msc.legacyurl: /visual-studio/overview/2012/visual-studio-vnext-videos-page-inspector-introduction
 msc.type: video
+ms.topic: concept-article
 ---
 # Visual Studio vNext Videos: Page Inspector - Introduction
 

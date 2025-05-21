@@ -8,6 +8,7 @@ ms.date: 06/02/2008
 ms.assetid: fae968c9-1902-487d-b053-86a46dd52c3f
 msc.legacyurl: /web-forms/overview/ajax-control-toolkit/accordion/dynamically-adding-an-accordion-pane-vb
 msc.type: authoredcontent
+ms.topic: article
 ---
 # Dynamically Adding An Accordion Pane (VB)
 

@@ -8,6 +8,7 @@ ms.date: 10/21/2013
 ms.assetid: 22929efd-68c9-4609-b76d-f8ba42fda01e
 msc.legacyurl: /signalr/overview/older-versions/working-with-groups
 msc.type: authoredcontent
+ms.topic: concept-article
 ---
 # Working with Groups in SignalR 1.x
 

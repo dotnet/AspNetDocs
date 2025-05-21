@@ -8,6 +8,7 @@ ms.date: 10/21/2013
 ms.assetid: c34bc627-41af-4c21-a817-e97a19a7f252
 msc.legacyurl: /signalr/overview/older-versions/persistent-connection-authorization
 msc.type: authoredcontent
+ms.topic: article
 ---
 # Authentication and Authorization for SignalR Persistent Connections (SignalR 1.x)
 

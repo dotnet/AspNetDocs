@@ -8,6 +8,7 @@ ms.date: 02/27/2024
 ms.assetid: 7e4ce5d2-ab22-44f0-9825-c12eed7b8fcb
 msc.legacyurl: /web-forms
 msc.type: categoryindex
+ms.topic: article
 ---
 # ASP.NET Web Forms
 

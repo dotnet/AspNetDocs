@@ -8,6 +8,7 @@ ms.date: 11/14/2012
 ms.assetid: 4760328c-3d73-4757-a36f-ab80a5b3f611
 msc.legacyurl: /single-page-application
 msc.type: categoryindex
+ms.topic: article
 ---
 # ASP.NET Single Page Application
 

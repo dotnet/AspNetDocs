@@ -8,6 +8,7 @@ ms.date: 09/19/2014
 ms.assetid: 8faa734d-ab55-4b09-be54-564595d2ec78
 msc.legacyurl: /signalr/overview/security
 msc.type: chapter
+ms.topic: article
 ---
 # SignalR Security
 

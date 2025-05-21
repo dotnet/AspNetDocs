@@ -8,6 +8,7 @@ ms.date: 11/14/2012
 ms.assetid: a17452c8-35fc-4ac2-811e-16d29f647cf7
 msc.legacyurl: /single-page-application/overview
 msc.type: book
+ms.topic: concept-article
 ---
 # Single Page Application Overview
 

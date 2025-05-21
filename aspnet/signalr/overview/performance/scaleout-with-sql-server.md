@@ -8,6 +8,7 @@ ms.date: 06/10/2014
 ms.assetid: 98358b6e-9139-4239-ba3a-2d7dd74dd664
 msc.legacyurl: /signalr/overview/performance/scaleout-with-sql-server
 msc.type: authoredcontent
+ms.topic: article
 ---
 # SignalR Scaleout with SQL Server
 

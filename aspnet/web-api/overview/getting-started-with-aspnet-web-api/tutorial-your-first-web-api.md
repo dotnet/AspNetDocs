@@ -7,6 +7,7 @@ ms.author: riande
 ms.date: 11/28/2017
 msc.legacyurl: /web-api/overview/getting-started-with-aspnet-web-api/tutorial-your-first-web-api
 msc.type: authoredcontent
+ms.topic: get-started
 ---
 # Get Started with ASP.NET Web API 2 (C#)
 

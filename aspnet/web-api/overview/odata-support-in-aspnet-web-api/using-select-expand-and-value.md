@@ -8,6 +8,7 @@ ms.date: 10/11/2013
 ms.assetid: 43279a80-a96c-4564-b6ea-ad992a2d6828
 msc.legacyurl: /web-api/overview/odata-support-in-aspnet-web-api/using-select-expand-and-value
 msc.type: authoredcontent
+ms.topic: concept-article
 ---
 # Using $select, $expand, and $value in ASP.NET Web API 2 OData
 

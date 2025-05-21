@@ -6,6 +6,7 @@ description: A list of step-by-step guides for developing ASP.NET applications.
 ms.assetid: fddf8e5e-c055-4f81-b691-78deef871112
 ms.author: riande
 ms.date: 09/20/2017
+ms.topic: tutorial
 ---
 # ASP.NET tutorials
 

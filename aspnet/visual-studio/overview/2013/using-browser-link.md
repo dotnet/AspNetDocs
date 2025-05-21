@@ -8,6 +8,7 @@ ms.date: 10/04/2013
 ms.assetid: 46cbfe20-b4dc-449b-9016-80657dd44fbe
 msc.legacyurl: /visual-studio/overview/2013/using-browser-link
 msc.type: authoredcontent
+ms.topic: concept-article
 ---
 # Using Browser Link in Visual Studio 2013
 

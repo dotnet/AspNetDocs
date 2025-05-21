@@ -8,6 +8,7 @@ ms.date: 01/17/2012
 ms.assetid: daca6735-b5d3-4ef5-af33-ee682926238b
 msc.legacyurl: /web-api/overview
 msc.type: book
+ms.topic: article
 ---
 # Web API Guidance
 

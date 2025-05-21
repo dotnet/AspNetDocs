@@ -8,6 +8,7 @@ ms.date: 04/10/2013
 ms.assetid: ab7b2554-956a-4f6d-b2a0-4ae0c62e8580
 msc.legacyurl: /signalr/overview/older-versions/tutorial-server-broadcast-with-aspnet-signalr
 msc.type: authoredcontent
+ms.topic: tutorial
 ---
 # Tutorial: Server Broadcast with ASP.NET SignalR 1.x
 

@@ -8,6 +8,7 @@ ms.date: 02/18/2013
 ms.assetid: fdc3599a-5217-44c1-951f-0eec9812dce7
 msc.legacyurl: /signalr/overview/older-versions/tutorial-getting-started-with-signalr
 msc.type: authoredcontent
+ms.topic: get-started
 ---
 # Tutorial: Getting Started with SignalR 1.x
 

@@ -8,6 +8,7 @@ ms.date: 09/17/2012
 ms.assetid: 243db2ec-8f67-4a5e-a382-4ddcec4b4164
 msc.legacyurl: /web-api/overview/advanced/http-cookies
 msc.type: authoredcontent
+ms.topic: article
 ---
 # HTTP Cookies in ASP.NET Web API
 

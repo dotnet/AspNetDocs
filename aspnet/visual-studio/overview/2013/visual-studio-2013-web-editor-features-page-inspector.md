@@ -8,6 +8,7 @@ ms.date: 10/17/2013
 ms.assetid: 17b67048-c61c-4ac0-a73a-a8079b493253
 msc.legacyurl: /visual-studio/overview/2013/visual-studio-2013-web-editor-features-page-inspector
 msc.type: video
+ms.topic: article
 ---
 # Visual Studio 2013 Web Editor Features - Page Inspector
 

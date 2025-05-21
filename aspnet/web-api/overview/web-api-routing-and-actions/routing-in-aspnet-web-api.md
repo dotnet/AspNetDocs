@@ -8,6 +8,7 @@ ms.date: 10/29/2018
 ms.assetid: 0675bdc7-282f-4f47-b7f3-7e02133940ca
 msc.legacyurl: /web-api/overview/web-api-routing-and-actions/routing-in-aspnet-web-api
 msc.type: authoredcontent
+ms.topic: concept-article
 ---
 # Routing in ASP.NET Web API
 

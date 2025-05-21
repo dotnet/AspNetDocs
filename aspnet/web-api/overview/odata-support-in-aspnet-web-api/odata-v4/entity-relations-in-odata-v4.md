@@ -8,6 +8,7 @@ ms.date: 06/26/2014
 ms.assetid: 72657550-ec09-4779-9bfc-2fb15ecd51c7
 msc.legacyurl: /web-api/overview/odata-support-in-aspnet-web-api/odata-v4/entity-relations-in-odata-v4
 msc.type: authoredcontent
+ms.topic: article
 ---
 # Entity Relations in OData v4 Using ASP.NET Web API 2.2
 

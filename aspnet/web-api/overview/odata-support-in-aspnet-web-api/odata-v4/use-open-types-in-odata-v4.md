@@ -8,6 +8,7 @@ ms.date: 09/15/2014
 ms.assetid: f25f5ac5-4800-4950-abe5-c97750a27fc6
 msc.legacyurl: /web-api/overview/odata-support-in-aspnet-web-api/odata-v4/use-open-types-in-odata-v4
 msc.type: authoredcontent
+ms.topic: article
 ---
 # Open Types in OData v4 with ASP.NET Web API
 

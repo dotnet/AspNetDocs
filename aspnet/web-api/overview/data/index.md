@@ -8,6 +8,7 @@ ms.date: 10/23/2014
 ms.assetid: 995cbe38-7dbd-4c36-a5d0-a761944c7636
 msc.legacyurl: /web-api/overview/data
 msc.type: chapter
+ms.topic: concept-article
 ---
 # Working with Data in ASP.NET Web API
 

@@ -8,6 +8,7 @@ ms.date: 01/23/2019
 ms.assetid: 07ec7d37-023f-43ea-b471-60b08ce338f7
 msc.legacyurl: /web-api/overview/testing-and-debugging/troubleshooting-http-405-errors-after-publishing-web-api-applications
 msc.type: authoredcontent
+ms.topic: troubleshooting-general
 ---
 
 # Troubleshoot Web API2 apps that work in Visual Studio and fail on a production IIS server

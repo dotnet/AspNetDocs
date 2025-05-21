@@ -8,6 +8,7 @@ ms.date: 04/16/2013
 ms.assetid: ad2a5da5-2e79-40ea-bc84-028d327f5982
 msc.legacyurl: /signalr/overview/older-versions/tutorial-high-frequency-realtime-with-signalr
 msc.type: authoredcontent
+ms.topic: article
 ---
 # High-Frequency Realtime with SignalR 1.x
 

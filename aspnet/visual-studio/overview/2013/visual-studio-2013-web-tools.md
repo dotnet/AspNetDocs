@@ -8,6 +8,7 @@ ms.date: 07/16/2014
 ms.assetid: 09e82351-816b-402d-acd1-0f9ac6901d16
 msc.legacyurl: /visual-studio/overview/2013/visual-studio-2013-web-tools
 msc.type: authoredcontent
+ms.topic: article
 ---
 # Hands On Lab: Visual Studio 2013 Web Tools
 

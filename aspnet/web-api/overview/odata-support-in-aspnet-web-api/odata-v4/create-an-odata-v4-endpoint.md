@@ -8,6 +8,7 @@ ms.date: 01/23/2019
 ms.assetid: 1e1927c0-ded1-4752-80fd-a146628d2f09
 msc.legacyurl: /web-api/overview/odata-support-in-aspnet-web-api/odata-v4/create-an-odata-v4-endpoint
 msc.type: authoredcontent
+ms.topic: article
 ---
 # Create an OData v4 Endpoint Using ASP.NET Web API 
 

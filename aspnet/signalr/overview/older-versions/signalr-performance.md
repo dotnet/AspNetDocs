@@ -8,6 +8,7 @@ ms.date: 07/03/2013
 ms.assetid: 9594d644-66b6-4223-acdd-23e29a6e4c46
 msc.legacyurl: /signalr/overview/older-versions/signalr-performance
 msc.type: authoredcontent
+ms.topic: article
 ---
 # SignalR Performance (SignalR 1.x)
 

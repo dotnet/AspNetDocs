@@ -8,6 +8,7 @@ ms.date: 01/13/2014
 ms.assetid: bb68c415-ba45-4562-a964-d9a27b78f532
 msc.legacyurl: /web-api/overview/releases
 msc.type: chapter
+ms.topic: article
 ---
 # ASP.NET Web API Releases
 

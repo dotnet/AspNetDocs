@@ -8,6 +8,7 @@ ms.date: 06/16/2014
 ms.assetid: 0967c29e-e124-4db0-a788-c45d0ff5aff2
 msc.legacyurl: /web-api/overview/data/using-web-api-with-entity-framework/part-9
 msc.type: authoredcontent
+ms.topic: article
 ---
 # Add a New Item to the Database
 

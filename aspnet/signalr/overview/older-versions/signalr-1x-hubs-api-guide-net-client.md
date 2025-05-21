@@ -8,6 +8,7 @@ ms.date: 04/17/2013
 ms.assetid: c334adc3-d6dc-44f3-9f06-f7634475aad3
 msc.legacyurl: /signalr/overview/older-versions/signalr-1x-hubs-api-guide-net-client
 msc.type: authoredcontent
+ms.topic: article
 ---
 # ASP.NET SignalR Hubs API Guide - .NET Client (SignalR 1.x)
 

@@ -8,6 +8,7 @@ ms.date: 11/14/2012
 ms.assetid: f0643c61-c310-4906-a238-dfc86f09b940
 msc.legacyurl: /single-page-application/overview/introduction
 msc.type: chapter
+ms.topic: concept-article
 ---
 # Introduction to ASP.NET Single Page Application
 

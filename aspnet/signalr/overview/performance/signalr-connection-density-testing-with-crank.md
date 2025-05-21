@@ -8,6 +8,7 @@ ms.date: 02/22/2015
 ms.assetid: 148d9ca7-1af1-44b6-a9fb-91e261b9b463
 msc.legacyurl: /signalr/overview/performance/signalr-connection-density-testing-with-crank
 msc.type: authoredcontent
+ms.topic: article
 ---
 # SignalR Connection Density Testing with Crank
 

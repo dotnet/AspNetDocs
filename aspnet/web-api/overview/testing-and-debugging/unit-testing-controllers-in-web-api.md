@@ -8,6 +8,7 @@ ms.date: 06/11/2014
 ms.assetid: 43a6cce7-a3ef-42aa-ad06-90d36d49f098
 msc.legacyurl: /web-api/overview/testing-and-debugging/unit-testing-controllers-in-web-api
 msc.type: authoredcontent
+ms.topic: article
 ---
 # Unit Testing Controllers in ASP.NET Web API 2
 

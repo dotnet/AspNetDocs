@@ -8,6 +8,7 @@ ms.date: 01/05/2015
 ms.assetid: a610c796-c131-473c-baef-2e6c568cb2a2
 msc.legacyurl: /signalr/overview/security/hub-authorization
 msc.type: authoredcontent
+ms.topic: article
 ---
 # Authentication and Authorization for SignalR Hubs
 

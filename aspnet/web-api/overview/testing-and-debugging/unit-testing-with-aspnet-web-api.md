@@ -8,6 +8,7 @@ ms.date: 06/05/2014
 ms.assetid: bf20f78d-ff91-48be-abd1-88e23dcc70ba
 msc.legacyurl: /web-api/overview/testing-and-debugging/unit-testing-with-aspnet-web-api
 msc.type: authoredcontent
+ms.topic: article
 ---
 # Unit Testing ASP.NET Web API 2
 

@@ -8,6 +8,7 @@ ms.date: 08/15/2012
 ms.assetid: 90f33da5-b3fb-4715-b890-b27e263c808e
 msc.legacyurl: /visual-studio/overview/2012/visual-studio-2012-page-inspector
 msc.type: video
+ms.topic: article
 ---
 # Visual Studio 2012 Page Inspector
 

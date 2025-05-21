@@ -8,6 +8,7 @@ ms.date: 01/26/2012
 ms.assetid: 8447679a-2556-4411-b758-bbe55cfa4805
 msc.legacyurl: /web-api/overview/web-api-routing-and-actions
 msc.type: chapter
+ms.topic: article
 ---
 # Web API Routing
 

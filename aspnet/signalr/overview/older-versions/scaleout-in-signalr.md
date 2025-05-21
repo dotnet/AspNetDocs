@@ -9,6 +9,7 @@ ms.custom: devdivchpfy22
 ms.assetid: 3fd9f11c-799b-4001-bd60-1e70cfc61c19
 msc.legacyurl: /signalr/overview/older-versions/scaleout-in-signalr
 msc.type: authoredcontent
+ms.topic: concept-article
 ---
 # Introduction to Scaleout in SignalR 1.x
 

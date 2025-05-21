@@ -8,6 +8,7 @@ ms.date: 06/25/2013
 ms.assetid: 51900291-7787-4a6e-be4e-fa558486f5ff
 msc.legacyurl: /visual-studio/overview/2012
 msc.type: chapter
+ms.topic: article
 ---
 # ASP.NET and Visual Studio 2012
 

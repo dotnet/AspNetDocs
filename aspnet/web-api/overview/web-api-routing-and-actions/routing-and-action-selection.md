@@ -8,6 +8,7 @@ ms.date: 12/14/2018
 ms.assetid: bcf2d223-cb7f-411e-be05-f43e96a14015
 msc.legacyurl: /web-api/overview/web-api-routing-and-actions/routing-and-action-selection
 msc.type: authoredcontent
+ms.topic: how-to
 ---
 # Routing and Action Selection in ASP.NET Web API
 

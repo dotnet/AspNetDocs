@@ -9,6 +9,7 @@ ms.date: 10/03/2018
 ms.assetid: 2a127d3b-21ed-4cc9-bec0-cdab4e742a25
 msc.legacyurl: /signalr/overview/performance/using-signalr-performance-counters-in-an-azure-web-role
 msc.type: authoredcontent
+ms.topic: how-to
 ---
 # Using SignalR performance counters in an Azure Web Role
 

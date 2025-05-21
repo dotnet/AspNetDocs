@@ -8,6 +8,7 @@ ms.date: 06/10/2014
 ms.assetid: 7e781fc1-1c1f-45a8-bc1d-338e96dbe9c9
 msc.legacyurl: /signalr/overview/performance/scaleout-in-signalr
 msc.type: authoredcontent
+ms.topic: concept-article
 ---
 # Introduction to Scaleout in SignalR
 

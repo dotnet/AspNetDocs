@@ -8,6 +8,7 @@ ms.date: 06/25/2013
 ms.assetid: 646edfc7-dc62-4fa0-84c2-926996c92aeb
 msc.legacyurl: /visual-studio/overview/2013
 msc.type: chapter
+ms.topic: article
 ---
 # ASP.NET and Visual Studio 2013
 

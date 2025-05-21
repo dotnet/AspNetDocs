@@ -8,6 +8,7 @@ ms.date: 02/15/2012
 ms.assetid: f8eadb72-fa15-4537-8c6d-1b120e6d3aab
 msc.legacyurl: /web-api/videos/getting-started/custom-validation
 msc.type: video
+ms.topic: article
 ---
 # ASP.NET Web API, Part 5: Custom Validation
 
