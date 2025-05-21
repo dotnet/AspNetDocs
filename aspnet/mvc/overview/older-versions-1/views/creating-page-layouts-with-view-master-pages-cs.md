@@ -8,6 +8,7 @@ ms.date: 10/16/2008
 ms.assetid: dff54fcb-68b1-4488-89a2-ca97532d6a4c
 msc.legacyurl: /mvc/overview/older-versions-1/views/creating-page-layouts-with-view-master-pages-cs
 msc.type: authoredcontent
+ms.topic: concept-article
 ---
 # Creating Page Layouts with View Master Pages (C#)
 

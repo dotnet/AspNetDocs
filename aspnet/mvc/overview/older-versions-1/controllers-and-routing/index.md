@@ -8,6 +8,7 @@ ms.date: 09/28/2011
 ms.assetid: 124df537-428c-4861-b6c2-4830c094fe0c
 msc.legacyurl: /mvc/overview/older-versions-1/controllers-and-routing
 msc.type: chapter
+ms.topic: article
 ---
 # Controllers and Routing
 

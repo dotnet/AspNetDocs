@@ -8,6 +8,7 @@ ms.date: 08/19/2008
 ms.assetid: 87313792-0a96-4caf-89fc-1457d54e5c1e
 msc.legacyurl: /mvc/overview/older-versions-1/overview/understanding-models-views-and-controllers-cs
 msc.type: authoredcontent
+ms.topic: concept-article
 ---
 # Understanding Models, Views, and Controllers (C#)
 

@@ -8,6 +8,7 @@ ms.date: 02/16/2009
 ms.assetid: 6ac5758b-6199-42af-adcb-21954b864951
 msc.legacyurl: /mvc/overview/older-versions-1/controllers-and-routing/creating-custom-routes-vb
 msc.type: authoredcontent
+ms.topic: concept-article
 ---
 # Creating Custom Routes (VB)
 

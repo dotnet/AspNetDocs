@@ -8,6 +8,7 @@ ms.date: 03/09/2011
 ms.assetid: 87612fe1-258c-4f50-88d8-c3047dec3f14
 msc.legacyurl: /mvc/pluralsight
 msc.type: content
+ms.topic: article
 ---
 # MVC Video Training
 

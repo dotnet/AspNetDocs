@@ -8,6 +8,7 @@ ms.date: 01/27/2009
 ms.assetid: 532fa051-7d5c-4d6d-87f6-339ce4b84c44
 msc.legacyurl: /mvc/overview/older-versions-1/security/authenticating-users-with-windows-authentication-vb
 msc.type: authoredcontent
+ms.topic: concept-article
 ---
 # Authenticating Users with Windows Authentication (VB)
 

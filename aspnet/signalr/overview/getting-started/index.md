@@ -8,6 +8,7 @@ ms.date: 09/19/2014
 ms.assetid: 2acff246-c74c-4277-b539-35bc42988c6f
 msc.legacyurl: /signalr/overview/getting-started
 msc.type: chapter
+ms.topic: get-started
 ---
 # SignalR Getting Started
 

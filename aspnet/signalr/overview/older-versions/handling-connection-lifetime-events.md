@@ -8,6 +8,7 @@ ms.date: 06/05/2013
 ms.assetid: e608e263-264d-448b-b0eb-6eeb77713b22
 msc.legacyurl: /signalr/overview/older-versions/handling-connection-lifetime-events
 msc.type: authoredcontent
+ms.topic: concept-article
 ---
 # Understanding and Handling Connection Lifetime Events in SignalR 1.x
 

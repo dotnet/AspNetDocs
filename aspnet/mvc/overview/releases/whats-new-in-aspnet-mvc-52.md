@@ -8,6 +8,7 @@ ms.date: 12/25/2014
 ms.assetid: 97972587-2720-48b4-b158-f35f2e855fbf
 msc.legacyurl: /mvc/overview/releases/whats-new-in-aspnet-mvc-52
 msc.type: authoredcontent
+ms.topic: article
 ---
 # What’s New in ASP.NET MVC 5.2
 

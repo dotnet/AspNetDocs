@@ -8,6 +8,7 @@ ms.date: 01/27/2011
 ms.assetid: 0cbd88da-0da6-4605-b222-2835c6478304
 msc.legacyurl: /mvc/overview/views/dynamic-v-strongly-typed-views
 msc.type: authoredcontent
+ms.topic: article
 ---
 # Dynamic v. Strongly Typed Views
 

@@ -8,6 +8,7 @@ ms.date: 02/16/2008
 ms.assetid: c28ba88d-3a93-47f5-a306-049bd766714d
 msc.legacyurl: /mvc/overview/older-versions-1/views/asp-net-mvc-views-overview-vb
 msc.type: authoredcontent
+ms.topic: concept-article
 ---
 # ASP.NET MVC Views Overview (VB)
 

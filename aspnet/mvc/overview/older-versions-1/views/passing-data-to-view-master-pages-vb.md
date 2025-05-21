@@ -8,6 +8,7 @@ ms.date: 10/16/2008
 ms.assetid: 37a1ebae-8773-408f-8645-d21da7ff9ae1
 msc.legacyurl: /mvc/overview/older-versions-1/views/passing-data-to-view-master-pages-vb
 msc.type: authoredcontent
+ms.topic: concept-article
 ---
 # Passing Data to View Master Pages (VB)
 

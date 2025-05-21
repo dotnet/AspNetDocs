@@ -8,6 +8,7 @@ ms.date: 08/14/2010
 ms.assetid: e8f1515c-c277-47ff-a23e-224118f13f02
 msc.legacyurl: /mvc/overview/older-versions-1/getting-started-with-mvc/getting-started-with-mvc-part3
 msc.type: authoredcontent
+ms.topic: how-to
 ---
 # Adding a View - How to use a View template file to cleanly encapsulate generating HTML responses back to a client
 

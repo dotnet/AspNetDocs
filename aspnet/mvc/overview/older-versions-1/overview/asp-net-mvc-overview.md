@@ -8,6 +8,7 @@ ms.date: 01/27/2009
 ms.assetid: 2dcb44a4-5cbf-4d62-b363-718104082d86
 msc.legacyurl: /mvc/overview/older-versions-1/overview/asp-net-mvc-overview
 msc.type: authoredcontent
+ms.topic: concept-article
 ---
 # ASP.NET MVC Overview
 

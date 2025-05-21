@@ -8,6 +8,7 @@ ms.date: 08/19/2008
 ms.assetid: b0cf4a34-2c1d-4717-bb54-ff029e722990
 msc.legacyurl: /mvc/overview/older-versions-1/deployment/using-asp-net-mvc-with-different-versions-of-iis-cs
 msc.type: authoredcontent
+ms.topic: how-to
 ---
 # Using ASP.NET MVC with Different Versions of IIS (C#)
 

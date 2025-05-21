@@ -8,6 +8,7 @@ ms.date: 02/18/2013
 ms.assetid: 093c1362-f10b-407c-a708-be370f4b62b0
 msc.legacyurl: /mvc/overview/older-versions/hands-on-labs/aspnet-mvc-4-entity-framework-scaffolding-and-migrations
 msc.type: authoredcontent
+ms.topic: article
 ---
 # ASP.NET MVC 4 Entity Framework Scaffolding and Migrations
 

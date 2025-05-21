@@ -8,6 +8,7 @@ ms.date: 02/20/2009
 ms.assetid: f65cb436-e493-46fd-9608-384b27385aa1
 msc.legacyurl: /mvc/overview/older-versions-1/contact-manager/iteration-2-make-the-application-look-nice-vb
 msc.type: authoredcontent
+ms.topic: article
 ---
 # Iteration #2 – Make the application look nice (VB)
 

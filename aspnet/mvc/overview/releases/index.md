@@ -8,6 +8,7 @@ ms.date: 01/09/2014
 ms.assetid: a1e9ec42-700a-49a6-b91e-8cf9ef6d027b
 msc.legacyurl: /mvc/overview/releases
 msc.type: chapter
+ms.topic: article
 ---
 # Releases
 

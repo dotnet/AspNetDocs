@@ -8,6 +8,7 @@ ms.date: 09/28/2011
 ms.assetid: c2dea264-0d8c-4216-bbe5-70d2421597b0
 msc.legacyurl: /mvc/overview/older-versions-1/views
 msc.type: chapter
+ms.topic: article
 ---
 # ASP.NET MVC Views
 

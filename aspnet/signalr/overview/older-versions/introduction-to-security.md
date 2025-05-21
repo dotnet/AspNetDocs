@@ -8,6 +8,7 @@ ms.date: 10/17/2013
 ms.assetid: 715a4059-d307-4631-abbb-c789c95d6eb4
 msc.legacyurl: /signalr/overview/older-versions/introduction-to-security
 msc.type: authoredcontent
+ms.topic: article
 ---
 # Introduction to SignalR Security (SignalR 1.x)
 

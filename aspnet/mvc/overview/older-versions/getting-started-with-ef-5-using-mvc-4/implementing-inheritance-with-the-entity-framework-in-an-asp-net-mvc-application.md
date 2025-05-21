@@ -8,6 +8,7 @@ ms.date: 07/30/2013
 ms.assetid: a5c3feff-5335-4cdd-a97d-f7a8785c2494
 msc.legacyurl: /mvc/overview/older-versions/getting-started-with-ef-5-using-mvc-4/implementing-inheritance-with-the-entity-framework-in-an-asp-net-mvc-application
 msc.type: authoredcontent
+ms.topic: how-to
 ---
 # Implementing Inheritance with the Entity Framework in an ASP.NET MVC Application (8 of 10)
 

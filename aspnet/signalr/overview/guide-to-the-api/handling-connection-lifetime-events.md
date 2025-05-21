@@ -8,6 +8,7 @@ ms.date: 01/15/2019
 ms.assetid: 03960de2-8d95-4444-9169-4426dcc64913
 msc.legacyurl: /signalr/overview/guide-to-the-api/handling-connection-lifetime-events
 msc.type: authoredcontent
+ms.topic: concept-article
 ---
 # Understanding and Handling Connection Lifetime Events in SignalR
 

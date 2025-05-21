@@ -8,6 +8,7 @@ ms.date: 04/21/2011
 ms.assetid: 0c6e4c2f-fcdb-4978-9656-1990c6f15727
 msc.legacyurl: /mvc/overview/older-versions/mvc-music-store/mvc-music-store-part-10
 msc.type: authoredcontent
+ms.topic: article
 ---
 # Part 10: Final Updates to Navigation and Site Design, Conclusion
 

@@ -8,6 +8,7 @@ ms.date: 02/27/2024
 ms.assetid: e618c37c-68f3-49aa-9fda-f86cb3b578b9
 msc.legacyurl: /mvc/videos
 msc.type: book
+ms.topic: article
 ---
 # ASP.NET Videos
 

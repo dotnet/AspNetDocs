@@ -8,6 +8,7 @@ ms.date: 01/27/2009
 ms.assetid: ff8322c9-12f3-4e24-aba6-a38046b9bb0d
 msc.legacyurl: /mvc/overview/older-versions-1/models-data/creating-model-classes-with-the-entity-framework-vb
 msc.type: authoredcontent
+ms.topic: how-to
 ---
 # Creating Model Classes with the Entity Framework (VB)
 

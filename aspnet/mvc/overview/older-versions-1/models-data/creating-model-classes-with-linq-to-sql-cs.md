@@ -8,6 +8,7 @@ ms.date: 10/07/2008
 ms.assetid: f84b4a16-e8bb-49e8-87a0-1832879a3501
 msc.legacyurl: /mvc/overview/older-versions-1/models-data/creating-model-classes-with-linq-to-sql-cs
 msc.type: authoredcontent
+ms.topic: concept-article
 ---
 # Creating Model Classes with LINQ to SQL (C#)
 

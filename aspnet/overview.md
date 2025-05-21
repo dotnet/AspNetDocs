@@ -8,6 +8,7 @@ ms.author: riande
 ms.date: 08/10/2019
 msc.legacyurl:
 msc.type: content
+ms.topic: concept-article
 ---
 
 # ASP.NET overview

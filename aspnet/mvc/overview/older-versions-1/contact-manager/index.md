@@ -8,6 +8,7 @@ ms.date: 09/28/2011
 ms.assetid: 6b0f1fd7-6768-4549-ae9c-be9131103c4d
 msc.legacyurl: /mvc/overview/older-versions-1/contact-manager
 msc.type: chapter
+ms.topic: article
 ---
 # Contact Manager
 

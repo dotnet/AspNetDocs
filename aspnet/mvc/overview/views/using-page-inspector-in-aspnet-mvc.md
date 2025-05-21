@@ -9,6 +9,7 @@ ms.custom: devdivchpfy22
 ms.assetid: c7e4e1ab-4932-4614-9f53-aaf7c706d498
 msc.legacyurl: /mvc/overview/views/using-page-inspector-in-aspnet-mvc
 msc.type: authoredcontent
+ms.topic: concept-article
 ---
 # Using Page Inspector with an Integrated Browser in ASP.NET MVC
 

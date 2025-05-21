@@ -8,6 +8,7 @@ ms.date: 02/27/2014
 ms.assetid: 9a83a058-9b01-48aa-acce-ec041e694567
 msc.legacyurl: /mvc/overview/releases/mvc51-release-notes
 msc.type: authoredcontent
+ms.topic: whats-new
 ---
 # What's New in ASP.NET MVC 5.1
 

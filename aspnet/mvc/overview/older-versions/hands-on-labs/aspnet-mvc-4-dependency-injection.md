@@ -8,6 +8,7 @@ ms.date: 02/18/2013
 ms.assetid: 84c7baca-1c54-4c44-8f52-4282122d6acb
 msc.legacyurl: /mvc/overview/older-versions/hands-on-labs/aspnet-mvc-4-dependency-injection
 msc.type: authoredcontent
+ms.topic: article
 ---
 # ASP.NET MVC 4 Dependency Injection
 

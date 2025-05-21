@@ -8,6 +8,7 @@ ms.date: 03/02/2009
 ms.assetid: 3a8a9d9f-82dd-4959-b7c6-960e9ce95df1
 msc.legacyurl: /mvc/overview/older-versions-1/models-data/validating-with-the-idataerrorinfo-interface-vb
 msc.type: authoredcontent
+ms.topic: concept-article
 ---
 # Validating with the IDataErrorInfo Interface (VB)
 

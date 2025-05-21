@@ -8,6 +8,7 @@ ms.date: 09/19/2014
 ms.assetid: 607f4617-380f-41fa-bf46-147e82bb8124
 msc.legacyurl: /signalr/overview/older-versions
 msc.type: chapter
+ms.topic: article
 ---
 # SignalR Older Versions
 

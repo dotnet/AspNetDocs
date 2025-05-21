@@ -8,6 +8,7 @@ ms.date: 10/07/2008
 ms.assetid: e454c67d-a86e-4119-a858-eb04bbec2dff
 msc.legacyurl: /mvc/overview/older-versions-1/views/creating-custom-html-helpers-cs
 msc.type: authoredcontent
+ms.topic: concept-article
 ---
 # Creating Custom HTML Helpers (C#)
 

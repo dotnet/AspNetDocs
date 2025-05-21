@@ -8,6 +8,7 @@ ms.date: 02/16/2009
 ms.assetid: 892edb27-1cc2-4eaf-8314-dbc2efc6228a
 msc.legacyurl: /mvc/overview/older-versions-1/controllers-and-routing/creating-a-custom-route-constraint-vb
 msc.type: authoredcontent
+ms.topic: concept-article
 ---
 # Creating a Custom Route Constraint (VB)
 

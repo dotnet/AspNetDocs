@@ -8,6 +8,7 @@ ms.date: 12/30/2014
 ms.assetid: f80c08b1-3f1f-432c-980c-c7b6edeb31b1
 msc.legacyurl: /signalr/overview/guide-to-the-api/mapping-users-to-connections
 msc.type: authoredcontent
+ms.topic: concept-article
 ---
 # Mapping SignalR Users to Connections
 

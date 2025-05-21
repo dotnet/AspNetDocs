@@ -1,10 +1,11 @@
-﻿---
+---
 title: SameSite cookie sample for ASP.NET 4.7.2 VB WebForms
 author: blowdart
 description: SameSite cookie sample for ASP.NET 4.7.2 VB WebForms
 ms.author: riande
 ms.date: 2/15/2019
 uid: samesite/vbWF
+ms.topic: article
 ---
 
 # SameSite cookie sample for ASP.NET 4.7.2 VB WebForms

@@ -8,6 +8,7 @@ ms.date: 09/28/2011
 ms.assetid: 9086d8a8-7952-4a7e-82a7-724d48178555
 msc.legacyurl: /mvc/overview/older-versions-1/models-data
 msc.type: chapter
+ms.topic: article
 ---
 # Models (Data)
 

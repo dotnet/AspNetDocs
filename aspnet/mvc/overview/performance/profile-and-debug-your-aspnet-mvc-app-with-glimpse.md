@@ -8,6 +8,7 @@ ms.date: 03/26/2015
 ms.assetid: c205805f-efdd-4fa7-9616-f26eab180611
 msc.legacyurl: /mvc/overview/performance/profile-and-debug-your-aspnet-mvc-app-with-glimpse
 msc.type: authoredcontent
+ms.topic: article
 ---
 # Profile and debug your ASP.NET MVC app with Glimpse
 

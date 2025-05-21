@@ -8,6 +8,7 @@ ms.date: 07/27/2010
 ms.assetid: 7e0e9928-8fdc-4b74-9882-55fac0976628
 msc.legacyurl: /mvc/overview/older-versions-1/nerddinner/create-a-new-aspnet-mvc-project
 msc.type: authoredcontent
+ms.topic: article
 ---
 # Create a New ASP.NET MVC Project
 

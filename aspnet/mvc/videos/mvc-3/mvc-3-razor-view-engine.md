@@ -8,6 +8,7 @@ ms.date: 04/04/2011
 ms.assetid: 300978f7-108c-4729-a8f5-f84ef585a81f
 msc.legacyurl: /mvc/videos/mvc-3/mvc-3-razor-view-engine
 msc.type: video
+ms.topic: article
 ---
 # MVC 3 - Razor View Engine
 

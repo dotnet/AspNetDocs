@@ -9,6 +9,7 @@ ms.custom: devdivchpfy22
 ms.assetid: bbb976e5-6150-4283-a374-c22fbafe29f5
 msc.legacyurl: /mvc/overview/older-versions-1/nerddinner/provide-crud-create-read-update-delete-data-form-entry-support
 msc.type: authoredcontent
+ms.topic: article
 ---
 # Provide CRUD (Create, Read, Update, Delete) Data Form Entry Support
 

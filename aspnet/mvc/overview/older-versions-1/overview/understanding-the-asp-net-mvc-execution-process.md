@@ -8,6 +8,7 @@ ms.date: 01/27/2009
 ms.assetid: d1608db3-660d-4079-8c15-f452ff01f1db
 msc.legacyurl: /mvc/overview/older-versions-1/overview/understanding-the-asp-net-mvc-execution-process
 msc.type: authoredcontent
+ms.topic: concept-article
 ---
 # Understanding the ASP.NET MVC Execution Process
 

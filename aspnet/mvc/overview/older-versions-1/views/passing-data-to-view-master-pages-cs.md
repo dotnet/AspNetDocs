@@ -8,6 +8,7 @@ ms.date: 10/16/2008
 ms.assetid: 5fee879b-8bde-42a9-a434-60ba6b1cf747
 msc.legacyurl: /mvc/overview/older-versions-1/views/passing-data-to-view-master-pages-cs
 msc.type: authoredcontent
+ms.topic: concept-article
 ---
 # Passing Data to View Master Pages (C#)
 

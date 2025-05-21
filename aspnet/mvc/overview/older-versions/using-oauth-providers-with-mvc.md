@@ -8,6 +8,7 @@ ms.date: 06/19/2013
 ms.assetid: 7a87f16f-0e19-4f15-a88a-094ae866c4a2
 msc.legacyurl: /mvc/overview/older-versions/using-oauth-providers-with-mvc
 msc.type: authoredcontent
+ms.topic: how-to
 ---
 # Using OAuth Providers with MVC 4
 

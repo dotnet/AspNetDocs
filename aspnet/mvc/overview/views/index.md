@@ -8,6 +8,7 @@ ms.date: 08/10/2011
 ms.assetid: 786e452d-c0d6-45fb-85eb-22c820304667
 msc.legacyurl: /mvc/overview/views
 msc.type: chapter
+ms.topic: article
 ---
 # ASP.NET MVC UI, Layouts, and Themes
 

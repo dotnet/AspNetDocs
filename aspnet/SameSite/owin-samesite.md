@@ -5,6 +5,7 @@ description: Work with SameSite cookies and the Open Web Interface for .NET (OWI
 ms.author: riande
 ms.date: 12/6/2019
 uid: owin-samesite
+ms.topic: article
 ---
 
 # SameSite cookies and the Open Web Interface for .NET (OWIN)

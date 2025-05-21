@@ -8,6 +8,7 @@ ms.date: 09/28/2011
 ms.assetid: b3384347-2f88-4fb4-a775-7b96bf88b9d8
 msc.legacyurl: /mvc/videos/mvc-3
 msc.type: chapter
+ms.topic: article
 ---
 # ASP.NET MVC 3: Razor View Engine and Razor Helpers
 

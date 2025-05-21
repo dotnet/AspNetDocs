@@ -9,6 +9,7 @@ ms.custom: devdivchpfy22
 ms.assetid: ab55ca81-ab9b-44a0-8700-dc6da2599335
 msc.legacyurl: /mvc/overview/older-versions/mvc-music-store/mvc-music-store-part-4
 msc.type: authoredcontent
+ms.topic: article
 ---
 # Part 4: Models and Data Access
 

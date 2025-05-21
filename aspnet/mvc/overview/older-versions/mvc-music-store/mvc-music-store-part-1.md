@@ -8,6 +8,7 @@ ms.date: 04/21/2011
 ms.assetid: bd356ca3-5bdb-4067-9dac-c9e9923a86e8
 msc.legacyurl: /mvc/overview/older-versions/mvc-music-store/mvc-music-store-part-1
 msc.type: authoredcontent
+ms.topic: concept-article
 ---
 # Part 1: Overview and File->New Project
 

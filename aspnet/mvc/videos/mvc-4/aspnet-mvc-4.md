@@ -8,6 +8,7 @@ ms.date: 08/15/2012
 ms.assetid: 8a6417d5-801d-4fd7-8a06-164cd5441d3d
 msc.legacyurl: /mvc/videos/mvc-4/aspnet-mvc-4
 msc.type: video
+ms.topic: article
 ---
 # ASP.NET MVC 4 New Features
 

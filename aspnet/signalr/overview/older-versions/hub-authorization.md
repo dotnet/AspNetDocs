@@ -8,6 +8,7 @@ ms.date: 10/17/2013
 ms.assetid: 3d2dfc0e-eac2-4076-a468-325d3d01cc7b
 msc.legacyurl: /signalr/overview/older-versions/hub-authorization
 msc.type: authoredcontent
+ms.topic: article
 ---
 # Authentication and Authorization for SignalR Hubs (SignalR 1.x)
 

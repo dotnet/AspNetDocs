@@ -8,6 +8,7 @@ ms.date: 09/19/2014
 ms.assetid: 62482bdd-e2a4-46e5-b909-6d0c6bc07114
 msc.legacyurl: /signalr/overview/deployment
 msc.type: chapter
+ms.topic: article
 ---
 # SignalR Deployment and Hosting
 

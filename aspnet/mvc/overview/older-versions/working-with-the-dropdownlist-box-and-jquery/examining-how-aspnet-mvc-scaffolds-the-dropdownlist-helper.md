@@ -8,6 +8,7 @@ ms.date: 01/12/2012
 ms.assetid: 8921d7f2-21f0-427a-8b27-2df7251174b0
 msc.legacyurl: /mvc/overview/older-versions/working-with-the-dropdownlist-box-and-jquery/examining-how-aspnet-mvc-scaffolds-the-dropdownlist-helper
 msc.type: authoredcontent
+ms.topic: how-to
 ---
 # Examining  how  ASP.NET MVC scaffolds the DropDownList Helper
 

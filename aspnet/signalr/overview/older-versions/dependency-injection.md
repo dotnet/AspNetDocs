@@ -8,6 +8,7 @@ ms.date: 05/15/2013
 ms.assetid: eaa206c4-edb3-487e-8fcb-54a3261fed36
 msc.legacyurl: /signalr/overview/older-versions/dependency-injection
 msc.type: authoredcontent
+ms.topic: article
 ---
 # Dependency Injection in SignalR 1.x
 

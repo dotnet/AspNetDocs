@@ -8,6 +8,7 @@ ms.date: 10/07/2008
 ms.assetid: 5bb4587f-5bcd-44f5-b368-3c1709162b35
 msc.legacyurl: /mvc/overview/older-versions-1/models-data/displaying-a-table-of-database-data-vb
 msc.type: authoredcontent
+ms.topic: how-to
 ---
 # Displaying a Table of Database Data (VB)
 

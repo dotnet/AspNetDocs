@@ -8,6 +8,7 @@ ms.date: 08/19/2008
 ms.assetid: d3a270b9-d7b1-47f2-8775-fc3beb518b5c
 msc.legacyurl: /mvc/overview/older-versions-1/unit-testing/creating-unit-tests-for-asp-net-mvc-applications-cs
 msc.type: authoredcontent
+ms.topic: concept-article
 ---
 # Creating Unit Tests for ASP.NET MVC Applications (C#)
 

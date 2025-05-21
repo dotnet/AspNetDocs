@@ -1,10 +1,11 @@
-﻿---
+---
 title: SameSite cookie sample for ASP.NET 4.7.2 C# MVC
 author: blowdart
 description: SameSite cookie sample for ASP.NET 4.7.2 C# MVC
 ms.author: riande
 ms.date: 2/15/2019
 uid: samesite/csMVC
+ms.topic: article
 ---
 
 # SameSite cookie sample for ASP.NET 4.7.2 C# MVC

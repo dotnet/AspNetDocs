@@ -8,6 +8,7 @@ ms.date: 09/28/2011
 ms.assetid: 346c6b44-0ff4-49af-ac94-6e74d952b4eb
 msc.legacyurl: /mvc/overview/older-versions-1/security
 msc.type: chapter
+ms.topic: article
 ---
 # Security (Password Protection)
 

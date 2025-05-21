@@ -8,6 +8,7 @@ ms.date: 11/08/2011
 ms.assetid: 057f01bf-0ad9-488a-ae75-c8f85b8e1f23
 msc.legacyurl: /mvc/overview/older-versions-1/getting-started-with-mvc
 msc.type: chapter
+ms.topic: get-started
 ---
 # Getting Started With MVC
 

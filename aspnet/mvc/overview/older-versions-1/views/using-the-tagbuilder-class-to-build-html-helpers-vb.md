@@ -8,6 +8,7 @@ ms.date: 03/02/2009
 ms.assetid: ec26f264-d0ea-4031-9943-825505a3ac4b
 msc.legacyurl: /mvc/overview/older-versions-1/views/using-the-tagbuilder-class-to-build-html-helpers-vb
 msc.type: authoredcontent
+ms.topic: concept-article
 ---
 # Using the TagBuilder Class to Build HTML Helpers (VB)
 

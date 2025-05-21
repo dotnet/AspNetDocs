@@ -8,6 +8,7 @@ ms.date: 06/10/2014
 ms.assetid: cd378ecd-3e9e-4236-b902-65916d85a048
 msc.legacyurl: /signalr/overview/guide-to-the-api/working-with-groups
 msc.type: authoredcontent
+ms.topic: concept-article
 ---
 # Working with Groups in SignalR
 

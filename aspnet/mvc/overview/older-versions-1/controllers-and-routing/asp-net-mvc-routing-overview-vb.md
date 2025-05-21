@@ -8,6 +8,7 @@ ms.date: 08/19/2008
 ms.assetid: 4bc8d19a-80f1-44b4-adbf-95ed22d691ca
 msc.legacyurl: /mvc/overview/older-versions-1/controllers-and-routing/asp-net-mvc-routing-overview-vb
 msc.type: authoredcontent
+ms.topic: concept-article
 ---
 # ASP.NET MVC Routing Overview (VB)
 

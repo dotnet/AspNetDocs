@@ -8,6 +8,7 @@ ms.date: 01/27/2009
 ms.assetid: 68acd884-fb57-4486-a1be-aaa93e380780
 msc.legacyurl: /mvc/overview/older-versions-1/controllers-and-routing/adding-dynamic-content-to-a-cached-page-vb
 msc.type: authoredcontent
+ms.topic: concept-article
 ---
 # Adding Dynamic Content to a Cached Page (VB)
 

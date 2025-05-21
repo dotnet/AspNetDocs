@@ -8,6 +8,7 @@ ms.date: 03/02/2009
 ms.assetid: 344bb38e-4965-4c47-bda1-f6d29ae5b83a
 msc.legacyurl: /mvc/overview/older-versions-1/models-data/validating-with-a-service-layer-vb
 msc.type: authoredcontent
+ms.topic: concept-article
 ---
 # Validating with a Service Layer (VB)
 

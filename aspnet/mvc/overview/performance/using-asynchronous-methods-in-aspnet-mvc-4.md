@@ -8,6 +8,7 @@ ms.date: 06/06/2012
 ms.assetid: a56572ba-81c3-47af-826d-941e9c4775ec
 msc.legacyurl: /mvc/overview/performance/using-asynchronous-methods-in-aspnet-mvc-4
 msc.type: authoredcontent
+ms.topic: concept-article
 ---
 # Using Asynchronous Methods in ASP.NET MVC 4
 

@@ -8,6 +8,7 @@ ms.date: 02/20/2009
 ms.assetid: 4805e75a-7911-46e3-b11b-229a6eed245e
 msc.legacyurl: /mvc/overview/older-versions-1/contact-manager/iteration-3-add-form-validation-vb
 msc.type: authoredcontent
+ms.topic: article
 ---
 # Iteration #3 – Add form validation (VB)
 

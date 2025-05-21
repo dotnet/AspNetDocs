@@ -8,6 +8,7 @@ ms.date: 03/02/2009
 ms.assetid: 204b7e86-f560-4611-8adb-785b33e777b9
 msc.legacyurl: /mvc/overview/older-versions-1/controllers-and-routing/creating-a-controller-vb
 msc.type: authoredcontent
+ms.topic: how-to
 ---
 # Creating a Controller (VB)
 

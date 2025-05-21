@@ -5,6 +5,7 @@ description: Learn how to use to SameSite cookies in ASP.NET.
 ms.author: riande
 ms.date: 12/03/2019
 uid: samesite/kbs-samesite
+ms.topic: article
 ---
 
 # KB articles that support SameSite in .NET Framework

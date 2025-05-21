@@ -8,6 +8,7 @@ ms.date: 07/27/2010
 ms.assetid: 18700815-8e6c-4489-91af-7ea9dab6529e
 msc.legacyurl: /mvc/overview/older-versions-1/nerddinner/use-ajax-to-deliver-dynamic-updates
 msc.type: authoredcontent
+ms.topic: article
 ---
 # Use AJAX to Deliver Dynamic Updates
 

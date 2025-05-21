@@ -8,6 +8,7 @@ ms.date: 02/18/2013
 ms.assetid: 187ee9cd-bc70-479b-bfed-f568b8da96eb
 msc.legacyurl: /mvc/overview/older-versions/hands-on-labs/aspnet-mvc-4-helpers-forms-and-validation
 msc.type: authoredcontent
+ms.topic: article
 ---
 # ASP.NET MVC 4 Helpers, Forms and Validation
 

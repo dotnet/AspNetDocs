@@ -8,6 +8,7 @@ ms.date: 02/20/2009
 ms.assetid: 829f589f-e201-4f6e-9ae6-08ae84322065
 msc.legacyurl: /mvc/overview/older-versions-1/contact-manager/iteration-4-make-the-application-loosely-coupled-cs
 msc.type: authoredcontent
+ms.topic: article
 ---
 # Iteration #4 – Make the application loosely coupled (C#)
 

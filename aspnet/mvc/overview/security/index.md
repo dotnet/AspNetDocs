@@ -8,6 +8,7 @@ ms.date: 08/10/2011
 ms.assetid: 1c1aa6a6-82f4-4553-8495-dc99814162df
 msc.legacyurl: /mvc/overview/security
 msc.type: chapter
+ms.topic: article
 ---
 # Security, Authentication, and Authorization with ASP.NET MVC
 
