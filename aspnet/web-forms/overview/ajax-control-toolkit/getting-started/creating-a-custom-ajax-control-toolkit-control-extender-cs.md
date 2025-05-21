@@ -8,6 +8,7 @@ ms.date: 05/12/2009
 ms.assetid: 96b56eca-a892-45a4-96b4-67e61178650a
 msc.legacyurl: /web-forms/overview/ajax-control-toolkit/getting-started/creating-a-custom-ajax-control-toolkit-control-extender-cs
 msc.type: authoredcontent
+ms.topic: how-to
 ---
 # Creating a Custom AJAX Control Toolkit Control Extender (C#)
 

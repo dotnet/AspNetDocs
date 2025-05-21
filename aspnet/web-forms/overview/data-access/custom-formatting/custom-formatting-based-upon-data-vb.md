@@ -8,6 +8,7 @@ ms.date: 03/31/2010
 ms.assetid: df5a1525-386f-4632-972c-57b199870bc3
 msc.legacyurl: /web-forms/overview/data-access/custom-formatting/custom-formatting-based-upon-data-vb
 msc.type: authoredcontent
+ms.topic: article
 ---
 # Custom Formatting Based Upon Data (VB)
 

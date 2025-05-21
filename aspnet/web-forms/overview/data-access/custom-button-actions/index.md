@@ -8,6 +8,7 @@ ms.date: 10/05/2011
 ms.assetid: d062986e-9d2e-4de4-94e8-ea83ec76fef2
 msc.legacyurl: /web-forms/overview/data-access/custom-button-actions
 msc.type: chapter
+ms.topic: article
 ---
 # Custom Button Actions
 

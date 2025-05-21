@@ -8,6 +8,7 @@ ms.date: 06/02/2008
 ms.assetid: 70d5d106-b547-442c-a7fd-3492b3e3d646
 msc.legacyurl: /web-forms/overview/ajax-control-toolkit/reorderlist/using-postbacks-with-reorderlist-cs
 msc.type: authoredcontent
+ms.topic: concept-article
 ---
 # Using Postbacks with ReorderList (C#)
 

@@ -8,6 +8,7 @@ ms.date: 06/02/2008
 ms.assetid: b7a28c0d-efb9-443a-80a4-1a5ee54671cd
 msc.legacyurl: /web-forms/overview/ajax-control-toolkit/animation/animation-depending-on-a-condition-cs
 msc.type: authoredcontent
+ms.topic: article
 ---
 # Animation Depending On a Condition (C#)
 

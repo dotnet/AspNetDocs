@@ -8,6 +8,7 @@ ms.date: 05/12/2009
 ms.assetid: 9f8fa166-49a2-402c-b236-20caef0c658f
 msc.legacyurl: /web-forms/overview/ajax-control-toolkit/getting-started/get-started-with-the-ajax-control-toolkit-vb
 msc.type: authoredcontent
+ms.topic: get-started
 ---
 # Get Started with the AJAX Control Toolkit (VB)
 

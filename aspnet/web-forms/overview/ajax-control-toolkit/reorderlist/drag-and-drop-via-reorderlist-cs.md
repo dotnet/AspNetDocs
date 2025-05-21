@@ -8,6 +8,7 @@ ms.date: 06/02/2008
 ms.assetid: 6350ee8e-11d6-4aff-b51c-942878014835
 msc.legacyurl: /web-forms/overview/ajax-control-toolkit/reorderlist/drag-and-drop-via-reorderlist-cs
 msc.type: authoredcontent
+ms.topic: article
 ---
 # Drag and Drop via ReorderList (C#)
 

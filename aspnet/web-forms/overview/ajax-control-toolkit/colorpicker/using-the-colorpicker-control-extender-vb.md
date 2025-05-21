@@ -8,6 +8,7 @@ ms.date: 05/12/2009
 ms.assetid: 577ae07b-a872-4818-a804-bca489b40ad0
 msc.legacyurl: /web-forms/overview/ajax-control-toolkit/colorpicker/using-the-colorpicker-control-extender-vb
 msc.type: authoredcontent
+ms.topic: how-to
 ---
 # Using the ColorPicker Control Extender (VB)
 

@@ -8,6 +8,7 @@ ms.date: 06/02/2008
 ms.assetid: b0abec39-a1c9-422d-ba9a-ef16f6185af8
 msc.legacyurl: /web-forms/overview/ajax-control-toolkit/animation/modifying-animations-from-the-server-side-cs
 msc.type: authoredcontent
+ms.topic: concept-article
 ---
 # Modifying Animations From The Server Side (C#)
 

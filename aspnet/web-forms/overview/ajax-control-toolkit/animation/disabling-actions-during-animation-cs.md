@@ -8,6 +8,7 @@ ms.date: 06/02/2008
 ms.assetid: 918026b4-2f63-421d-8546-df12856960a8
 msc.legacyurl: /web-forms/overview/ajax-control-toolkit/animation/disabling-actions-during-animation-cs
 msc.type: authoredcontent
+ms.topic: concept-article
 ---
 # Disabling Actions during Animation (C#)
 

@@ -8,6 +8,7 @@ ms.date: 06/02/2008
 ms.assetid: 4d85e9fb-91e6-41f2-9c13-754549b19c27
 msc.legacyurl: /web-forms/overview/ajax-control-toolkit/slider/using-the-slider-control-with-auto-postback-cs
 msc.type: authoredcontent
+ms.topic: concept-article
 ---
 # Using the Slider Control With Auto-Postback (C#)
 

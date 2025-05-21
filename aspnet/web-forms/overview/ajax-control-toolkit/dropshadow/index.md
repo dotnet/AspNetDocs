@@ -8,6 +8,7 @@ ms.date: 11/14/2011
 ms.assetid: ccd48877-ed83-43fe-9b3b-ed8855e58833
 msc.legacyurl: /web-forms/overview/ajax-control-toolkit/dropshadow
 msc.type: chapter
+ms.topic: article
 ---
 # DropShadow
 

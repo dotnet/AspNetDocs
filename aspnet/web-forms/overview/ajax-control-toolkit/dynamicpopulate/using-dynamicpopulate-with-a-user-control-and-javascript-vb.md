@@ -8,6 +8,7 @@ ms.date: 06/02/2008
 ms.assetid: 778b9009-76f2-4665-940e-afc0e35bc917
 msc.legacyurl: /web-forms/overview/ajax-control-toolkit/dynamicpopulate/using-dynamicpopulate-with-a-user-control-and-javascript-vb
 msc.type: authoredcontent
+ms.topic: concept-article
 ---
 # Using DynamicPopulate with a User Control And JavaScript (VB)
 

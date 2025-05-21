@@ -8,6 +8,7 @@ ms.date: 11/14/2011
 ms.assetid: ee920155-b136-4f87-9545-8b5777ade9f3
 msc.legacyurl: /web-forms/overview/ajax-control-toolkit/textboxwatermark
 msc.type: chapter
+ms.topic: article
 ---
 # TextBoxWatermark
 

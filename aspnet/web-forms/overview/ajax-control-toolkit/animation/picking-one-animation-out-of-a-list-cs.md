@@ -8,6 +8,7 @@ ms.date: 06/02/2008
 ms.assetid: 06a776fe-7c73-4ca7-8e02-5260a86edc03
 msc.legacyurl: /web-forms/overview/ajax-control-toolkit/animation/picking-one-animation-out-of-a-list-cs
 msc.type: authoredcontent
+ms.topic: concept-article
 ---
 # Picking One Animation Out Of a List (C#)
 

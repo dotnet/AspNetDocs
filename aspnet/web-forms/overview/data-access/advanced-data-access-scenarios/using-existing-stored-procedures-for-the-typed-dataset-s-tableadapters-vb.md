@@ -8,6 +8,7 @@ ms.date: 07/18/2007
 ms.assetid: 2da25f6a-757e-4e7b-a812-1575288d8f7a
 msc.legacyurl: /web-forms/overview/data-access/advanced-data-access-scenarios/using-existing-stored-procedures-for-the-typed-dataset-s-tableadapters-vb
 msc.type: authoredcontent
+ms.topic: how-to
 ---
 # Using Existing Stored Procedures for the Typed DataSet's TableAdapters (VB)
 

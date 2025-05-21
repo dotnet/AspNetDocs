@@ -8,6 +8,7 @@ ms.date: 05/30/2007
 ms.assetid: d29a7c41-0628-4a23-9dfc-bfea9c6c1054
 msc.legacyurl: /web-forms/overview/data-access/caching-data/caching-data-in-the-architecture-cs
 msc.type: authoredcontent
+ms.topic: concept-article
 ---
 # Caching Data in the Architecture (C#)
 

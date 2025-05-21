@@ -8,6 +8,7 @@ ms.date: 11/14/2011
 ms.assetid: 0941d3c3-de6f-447c-b3e1-22fbd4147054
 msc.legacyurl: /web-forms/overview/ajax-control-toolkit/hovermenu
 msc.type: chapter
+ms.topic: article
 ---
 # HoverMenu
 

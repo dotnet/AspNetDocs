@@ -8,6 +8,7 @@ ms.date: 06/02/2008
 ms.assetid: 27305347-7b5d-4519-97b7-197a357e7f6e
 msc.legacyurl: /web-forms/overview/ajax-control-toolkit/dynamicpopulate/dynamically-populating-a-control-vb
 msc.type: authoredcontent
+ms.topic: article
 ---
 # Dynamically Populating a Control (VB)
 

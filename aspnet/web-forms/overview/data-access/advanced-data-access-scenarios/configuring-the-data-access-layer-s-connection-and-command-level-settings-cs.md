@@ -8,6 +8,7 @@ ms.date: 08/03/2007
 ms.assetid: cd330dd9-6254-4305-9351-dd727384c83b
 msc.legacyurl: /web-forms/overview/data-access/advanced-data-access-scenarios/configuring-the-data-access-layer-s-connection-and-command-level-settings-cs
 msc.type: authoredcontent
+ms.topic: concept-article
 ---
 # Configuring the Data Access Layer's Connection- and Command-Level Settings (C#)
 

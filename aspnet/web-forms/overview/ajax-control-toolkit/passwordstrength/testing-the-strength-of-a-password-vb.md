@@ -8,6 +8,7 @@ ms.date: 06/02/2008
 ms.assetid: 9215a37f-3133-4887-8ed2-3689f3a53551
 msc.legacyurl: /web-forms/overview/ajax-control-toolkit/passwordstrength/testing-the-strength-of-a-password-vb
 msc.type: authoredcontent
+ms.topic: concept-article
 ---
 # Testing the Strength of a Password (VB)
 

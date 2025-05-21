@@ -8,6 +8,7 @@ ms.date: 03/31/2010
 ms.assetid: 0ecb03b6-52a0-4731-8c7a-436391d36838
 msc.legacyurl: /web-forms/overview/data-access/basic-reporting/programmatically-setting-the-objectdatasource-s-parameter-values-vb
 msc.type: authoredcontent
+ms.topic: article
 ---
 # Programmatically Setting the ObjectDataSource's Parameter Values (VB)
 

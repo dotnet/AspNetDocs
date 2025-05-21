@@ -8,6 +8,7 @@ ms.date: 06/02/2008
 ms.assetid: afa59dfa-fef1-43d3-8fdd-aea3be36ed3c
 msc.legacyurl: /web-forms/overview/ajax-control-toolkit/numericupdown/creating-a-numeric-up-down-control-with-a-web-service-backend-vb
 msc.type: authoredcontent
+ms.topic: concept-article
 ---
 # Creating a Numeric Up/Down Control with a Web Service Backend (VB)
 

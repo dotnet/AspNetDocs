@@ -8,6 +8,7 @@ ms.date: 05/12/2009
 ms.assetid: 763650a9-ffde-46a9-b779-7a9145dd5d88
 msc.legacyurl: /web-forms/overview/ajax-control-toolkit/getting-started/using-ajax-control-toolkit-controls-and-control-extenders-vb
 msc.type: authoredcontent
+ms.topic: how-to
 ---
 # Using AJAX Control Toolkit Controls and Control Extenders (VB)
 

@@ -8,6 +8,7 @@ ms.date: 06/26/2007
 ms.assetid: 04b7591d-106f-4f05-87e9-d416cb65a8a6
 msc.legacyurl: /web-forms/overview/data-access/database-driven-site-maps/building-a-custom-database-driven-site-map-provider-cs
 msc.type: authoredcontent
+ms.topic: concept-article
 ---
 # Building a Custom Database-Driven Site Map Provider (C#)
 

@@ -8,6 +8,7 @@ ms.date: 06/02/2008
 ms.assetid: 7dc02b18-2b5d-4844-b7c5-cbd818477163
 msc.legacyurl: /web-forms/overview/ajax-control-toolkit/animation/executing-several-animations-after-each-other-cs
 msc.type: authoredcontent
+ms.topic: concept-article
 ---
 # Executing Several Animations after Each Other (C#)
 

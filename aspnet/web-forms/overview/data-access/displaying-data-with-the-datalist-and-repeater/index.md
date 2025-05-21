@@ -8,6 +8,7 @@ ms.date: 10/05/2011
 ms.assetid: 3005174a-ba3d-4937-8b3e-b913ee4172ac
 msc.legacyurl: /web-forms/overview/data-access/displaying-data-with-the-datalist-and-repeater
 msc.type: chapter
+ms.topic: concept-article
 ---
 # Displaying Data with the DataList and Repeater
 

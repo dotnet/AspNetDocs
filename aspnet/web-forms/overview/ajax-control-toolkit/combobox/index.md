@@ -8,6 +8,7 @@ ms.date: 11/14/2011
 ms.assetid: 151b7865-e84a-4965-ad0e-9468a5b50e3b
 msc.legacyurl: /web-forms/overview/ajax-control-toolkit/combobox
 msc.type: chapter
+ms.topic: article
 ---
 # ComboBox
 

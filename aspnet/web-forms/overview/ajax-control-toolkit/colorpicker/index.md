@@ -8,6 +8,7 @@ ms.date: 11/14/2011
 ms.assetid: 7a46340d-d7b0-427d-abbc-7fee884219ed
 msc.legacyurl: /web-forms/overview/ajax-control-toolkit/colorpicker
 msc.type: chapter
+ms.topic: article
 ---
 # ColorPicker
 

@@ -8,6 +8,7 @@ ms.date: 06/02/2008
 ms.assetid: 21ece509-79cc-4d9d-892d-7b6e9c4d3502
 msc.legacyurl: /web-forms/overview/ajax-control-toolkit/animation/executing-several-animations-after-each-other-vb
 msc.type: authoredcontent
+ms.topic: concept-article
 ---
 # Executing Several Animations after Each Other (VB)
 

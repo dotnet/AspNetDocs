@@ -8,6 +8,7 @@ ms.date: 10/05/2011
 ms.assetid: 76242ce9-e611-41d2-95e8-dc5f406d4bfc
 msc.legacyurl: /web-forms/overview/ajax-control-toolkit
 msc.type: chapter
+ms.topic: article
 ---
 # Older Versions - Ajax Control Toolkit
 

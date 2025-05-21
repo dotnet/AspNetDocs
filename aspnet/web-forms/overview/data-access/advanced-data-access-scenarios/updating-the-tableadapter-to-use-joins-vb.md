@@ -8,6 +8,7 @@ ms.date: 07/18/2007
 ms.assetid: e624a3e0-061b-4efc-8b0e-5877f9ff6714
 msc.legacyurl: /web-forms/overview/data-access/advanced-data-access-scenarios/updating-the-tableadapter-to-use-joins-vb
 msc.type: authoredcontent
+ms.topic: concept-article
 ---
 # Updating the TableAdapter to Use JOINs (VB)
 

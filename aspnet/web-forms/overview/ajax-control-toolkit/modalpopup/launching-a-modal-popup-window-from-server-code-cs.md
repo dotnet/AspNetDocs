@@ -8,6 +8,7 @@ ms.date: 06/02/2008
 ms.assetid: 2f67d8ef-73ca-447d-a0cc-6e3168431e6a
 msc.legacyurl: /web-forms/overview/ajax-control-toolkit/modalpopup/launching-a-modal-popup-window-from-server-code-cs
 msc.type: authoredcontent
+ms.topic: concept-article
 ---
 # Launching a Modal Popup Window from Server Code (C#)
 

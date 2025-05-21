@@ -8,6 +8,7 @@ ms.date: 05/30/2007
 ms.assetid: bd87413c-8160-4520-a8a2-43b555c4183a
 msc.legacyurl: /web-forms/overview/data-access/caching-data/caching-data-with-the-objectdatasource-cs
 msc.type: authoredcontent
+ms.topic: concept-article
 ---
 # Caching Data with the ObjectDataSource (C#)
 

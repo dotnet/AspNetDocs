@@ -8,6 +8,7 @@ ms.date: 09/13/2006
 ms.assetid: e2f401ae-37bb-4b19-aa97-d6b385d40f88
 msc.legacyurl: /web-forms/overview/data-access/displaying-data-with-the-datalist-and-repeater/formatting-the-datalist-and-repeater-based-upon-data-vb
 msc.type: authoredcontent
+ms.topic: how-to
 ---
 # Formatting the DataList and Repeater Based Upon Data (VB)
 

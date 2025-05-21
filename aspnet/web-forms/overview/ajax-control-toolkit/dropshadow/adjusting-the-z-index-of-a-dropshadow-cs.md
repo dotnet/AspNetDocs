@@ -8,6 +8,7 @@ ms.date: 06/02/2008
 ms.assetid: 14133833-e518-4347-87b9-6b6f71f14a77
 msc.legacyurl: /web-forms/overview/ajax-control-toolkit/dropshadow/adjusting-the-z-index-of-a-dropshadow-cs
 msc.type: authoredcontent
+ms.topic: concept-article
 ---
 # Adjusting the Z-Index of a DropShadow (C#)
 

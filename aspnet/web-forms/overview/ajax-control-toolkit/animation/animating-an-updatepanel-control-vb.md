@@ -8,6 +8,7 @@ ms.date: 06/02/2008
 ms.assetid: 4c306a2c-92b6-4904-b70b-365b847334fe
 msc.legacyurl: /web-forms/overview/ajax-control-toolkit/animation/animating-an-updatepanel-control-vb
 msc.type: authoredcontent
+ms.topic: concept-article
 ---
 # Animating an UpdatePanel Control (VB)
 

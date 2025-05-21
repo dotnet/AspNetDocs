@@ -8,6 +8,7 @@ ms.date: 06/02/2008
 ms.assetid: 1f68f59d-9c1e-4cf3-b304-c13ae6b7203e
 msc.legacyurl: /web-forms/overview/ajax-control-toolkit/popup/handling-postbacks-from-a-popup-control-with-an-updatepanel-cs
 msc.type: authoredcontent
+ms.topic: concept-article
 ---
 # Handling Postbacks from A Popup Control With an UpdatePanel (C#)
 

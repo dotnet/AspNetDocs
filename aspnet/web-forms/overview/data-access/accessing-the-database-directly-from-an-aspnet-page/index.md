@@ -8,6 +8,7 @@ ms.date: 10/05/2011
 ms.assetid: 134a202f-4eef-41fc-8e91-70efba338389
 msc.legacyurl: /web-forms/overview/data-access/accessing-the-database-directly-from-an-aspnet-page
 msc.type: chapter
+ms.topic: concept-article
 ---
 # Accessing the Database Directly from an ASP.NET Page
 

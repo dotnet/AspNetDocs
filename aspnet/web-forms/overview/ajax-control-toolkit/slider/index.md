@@ -8,6 +8,7 @@ ms.date: 11/14/2011
 ms.assetid: fd7812d1-55d7-4e4a-96c8-1614b375db56
 msc.legacyurl: /web-forms/overview/ajax-control-toolkit/slider
 msc.type: chapter
+ms.topic: article
 ---
 # Slider
 

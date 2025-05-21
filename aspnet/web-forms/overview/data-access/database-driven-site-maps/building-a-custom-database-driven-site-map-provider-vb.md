@@ -8,6 +8,7 @@ ms.date: 06/26/2007
 ms.assetid: f904cd2c-a408-4484-9324-8b8d7fe33893
 msc.legacyurl: /web-forms/overview/data-access/database-driven-site-maps/building-a-custom-database-driven-site-map-provider-vb
 msc.type: authoredcontent
+ms.topic: concept-article
 ---
 # Building a Custom Database-Driven Site Map Provider (VB)
 

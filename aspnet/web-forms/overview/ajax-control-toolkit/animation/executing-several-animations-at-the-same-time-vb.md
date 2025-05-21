@@ -8,6 +8,7 @@ ms.date: 06/02/2008
 ms.assetid: 2469f7ea-1489-42fb-a8e1-414c90141ce9
 msc.legacyurl: /web-forms/overview/ajax-control-toolkit/animation/executing-several-animations-at-the-same-time-vb
 msc.type: authoredcontent
+ms.topic: concept-article
 ---
 # Executing Several Animations at The Same Time (VB)
 

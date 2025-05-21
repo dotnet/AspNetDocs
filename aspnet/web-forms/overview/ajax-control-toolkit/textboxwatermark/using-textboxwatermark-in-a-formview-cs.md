@@ -8,6 +8,7 @@ ms.date: 06/02/2008
 ms.assetid: e6ee90bf-32a5-4987-a384-15cc7dd30c8a
 msc.legacyurl: /web-forms/overview/ajax-control-toolkit/textboxwatermark/using-textboxwatermark-in-a-formview-cs
 msc.type: authoredcontent
+ms.topic: concept-article
 ---
 # Using TextBoxWatermark in a FormView (C#)
 

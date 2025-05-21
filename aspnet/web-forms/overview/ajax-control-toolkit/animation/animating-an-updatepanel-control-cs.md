@@ -8,6 +8,7 @@ ms.date: 06/02/2008
 ms.assetid: e57f8c7c-3940-4bc0-9468-3a0ca69158ea
 msc.legacyurl: /web-forms/overview/ajax-control-toolkit/animation/animating-an-updatepanel-control-cs
 msc.type: authoredcontent
+ms.topic: concept-article
 ---
 # Animating an UpdatePanel Control (C#)
 

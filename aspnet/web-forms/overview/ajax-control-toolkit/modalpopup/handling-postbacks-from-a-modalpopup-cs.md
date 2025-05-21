@@ -8,6 +8,7 @@ ms.date: 06/02/2008
 ms.assetid: 7963890b-4ea3-4a1c-b65d-6098a3d56f62
 msc.legacyurl: /web-forms/overview/ajax-control-toolkit/modalpopup/handling-postbacks-from-a-modalpopup-cs
 msc.type: authoredcontent
+ms.topic: concept-article
 ---
 # Handling Postbacks from a ModalPopup (C#)
 

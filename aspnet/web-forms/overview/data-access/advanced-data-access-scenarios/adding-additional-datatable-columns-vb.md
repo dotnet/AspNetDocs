@@ -8,6 +8,7 @@ ms.date: 07/18/2007
 ms.assetid: 1e8e65f9-fe3e-4250-810b-c90227786bed
 msc.legacyurl: /web-forms/overview/data-access/advanced-data-access-scenarios/adding-additional-datatable-columns-vb
 msc.type: authoredcontent
+ms.topic: concept-article
 ---
 # Adding Additional DataTable Columns (VB)
 

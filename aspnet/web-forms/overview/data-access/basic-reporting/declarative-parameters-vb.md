@@ -8,6 +8,7 @@ ms.date: 03/31/2010
 ms.assetid: dc1234a3-114f-4c9a-8d25-50ca03cc8e8e
 msc.legacyurl: /web-forms/overview/data-access/basic-reporting/declarative-parameters-vb
 msc.type: authoredcontent
+ms.topic: article
 ---
 # Declarative Parameters (VB)
 

@@ -8,6 +8,7 @@ ms.date: 06/02/2008
 ms.assetid: a86c0276-6481-46ee-8b4f-8c2009399ee9
 msc.legacyurl: /web-forms/overview/ajax-control-toolkit/animation/disabling-actions-during-animation-vb
 msc.type: authoredcontent
+ms.topic: concept-article
 ---
 # Disabling Actions during Animation (VB)
 

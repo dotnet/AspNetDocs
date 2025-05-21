@@ -8,6 +8,7 @@ ms.date: 06/02/2008
 ms.assetid: 2bfbc5cc-f942-44b7-a62d-a29520f1da9a
 msc.legacyurl: /web-forms/overview/ajax-control-toolkit/animation/changing-an-animation-using-client-side-code-cs
 msc.type: authoredcontent
+ms.topic: concept-article
 ---
 # Changing an Animation Using Client-Side Code (C#)
 

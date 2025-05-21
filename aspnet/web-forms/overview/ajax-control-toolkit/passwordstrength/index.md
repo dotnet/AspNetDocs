@@ -8,6 +8,7 @@ ms.date: 11/14/2011
 ms.assetid: bdbeb8f7-90e7-4bc5-aeb6-0f928660fb4f
 msc.legacyurl: /web-forms/overview/ajax-control-toolkit/passwordstrength
 msc.type: chapter
+ms.topic: article
 ---
 # PasswordStrength
 

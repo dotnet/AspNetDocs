@@ -8,6 +8,7 @@ ms.date: 11/14/2011
 ms.assetid: e87dbaaf-fcbe-4e42-87ee-e60e25856e8c
 msc.legacyurl: /web-forms/overview/ajax-control-toolkit/getting-started
 msc.type: chapter
+ms.topic: get-started
 ---
 # Getting Started Ajax Control Toolkit
 

@@ -8,6 +8,7 @@ ms.date: 06/02/2008
 ms.assetid: 4f3ba53f-d166-422d-b29c-403348057836
 msc.legacyurl: /web-forms/overview/ajax-control-toolkit/slider/databinding-the-slider-control-vb
 msc.type: authoredcontent
+ms.topic: concept-article
 ---
 # Databinding the Slider Control (VB)
 

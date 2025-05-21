@@ -8,6 +8,7 @@ ms.date: 06/02/2008
 ms.assetid: 6755d8d9-14be-4a1d-86e5-1a6110f3dea8
 msc.legacyurl: /web-forms/overview/ajax-control-toolkit/cascadingdropdown/using-auto-postback-with-cascadingdropdown-cs
 msc.type: authoredcontent
+ms.topic: concept-article
 ---
 # Using Auto-Postback with CascadingDropDown (C#)
 

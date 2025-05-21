@@ -8,6 +8,7 @@ ms.date: 06/02/2008
 ms.assetid: a973ed3e-400c-4925-ace2-0b086b479301
 msc.legacyurl: /web-forms/overview/ajax-control-toolkit/confirmbutton/using-a-confirmbutton-in-a-repeater-cs
 msc.type: authoredcontent
+ms.topic: concept-article
 ---
 # Using a ConfirmButton In a Repeater (C#)
 

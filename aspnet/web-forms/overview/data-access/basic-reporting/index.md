@@ -8,6 +8,7 @@ ms.date: 10/05/2011
 ms.assetid: cbd98d24-8281-4415-87df-8365f0fbe7fc
 msc.legacyurl: /web-forms/overview/data-access/basic-reporting
 msc.type: chapter
+ms.topic: article
 ---
 # Basic Reporting
 

@@ -8,6 +8,7 @@ ms.date: 06/02/2008
 ms.assetid: a7fe5de5-a964-4780-ae5e-70821dfb50a0
 msc.legacyurl: /web-forms/overview/ajax-control-toolkit/animation/changing-an-animation-using-client-side-code-vb
 msc.type: authoredcontent
+ms.topic: concept-article
 ---
 # Changing an Animation Using Client-Side Code (VB)
 

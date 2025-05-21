@@ -8,6 +8,7 @@ ms.date: 06/02/2008
 ms.assetid: ea26549d-fbbf-4973-a108-b14cd1d6de26
 msc.legacyurl: /web-forms/overview/ajax-control-toolkit/animation/animating-in-response-to-user-interaction-cs
 msc.type: authoredcontent
+ms.topic: concept-article
 ---
 # Animating in Response To User Interaction (C#)
 

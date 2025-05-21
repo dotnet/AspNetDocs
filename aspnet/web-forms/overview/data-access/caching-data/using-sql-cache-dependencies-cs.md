@@ -8,6 +8,7 @@ ms.date: 05/30/2007
 ms.assetid: 0e91842c-7f10-4aed-8c23-4ee3e2774014
 msc.legacyurl: /web-forms/overview/data-access/caching-data/using-sql-cache-dependencies-cs
 msc.type: authoredcontent
+ms.topic: concept-article
 ---
 # Using SQL Cache Dependencies (C#)
 

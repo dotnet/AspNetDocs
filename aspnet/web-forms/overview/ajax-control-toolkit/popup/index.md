@@ -8,6 +8,7 @@ ms.date: 11/14/2011
 ms.assetid: c993c38f-ffcc-412c-a8bb-09569a4cba23
 msc.legacyurl: /web-forms/overview/ajax-control-toolkit/popup
 msc.type: chapter
+ms.topic: article
 ---
 # Popup
 

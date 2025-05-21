@@ -8,6 +8,7 @@ ms.date: 06/02/2008
 ms.assetid: 90582e54-3e90-432a-9da5-689fb39ed56b
 msc.legacyurl: /web-forms/overview/ajax-control-toolkit/dynamicpopulate/dynamically-populating-a-control-using-javascript-code-vb
 msc.type: authoredcontent
+ms.topic: article
 ---
 # Dynamically Populating a Control Using JavaScript Code (VB)
 

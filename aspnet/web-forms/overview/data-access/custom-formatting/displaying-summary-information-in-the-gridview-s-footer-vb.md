@@ -8,6 +8,7 @@ ms.date: 03/31/2010
 ms.assetid: 41c818b7-603a-402b-8847-890a63547b6f
 msc.legacyurl: /web-forms/overview/data-access/custom-formatting/displaying-summary-information-in-the-gridview-s-footer-vb
 msc.type: authoredcontent
+ms.topic: how-to
 ---
 # Displaying Summary Information in the GridView's Footer (VB)
 

@@ -8,6 +8,7 @@ ms.date: 06/02/2008
 ms.assetid: 11be4211-2fb9-4e15-b6d4-2aa623d81f3e
 msc.legacyurl: /web-forms/overview/ajax-control-toolkit/dropshadow/manipulating-dropshadow-properties-from-client-code-vb
 msc.type: authoredcontent
+ms.topic: concept-article
 ---
 # Manipulating DropShadow Properties from Client Code (VB)
 

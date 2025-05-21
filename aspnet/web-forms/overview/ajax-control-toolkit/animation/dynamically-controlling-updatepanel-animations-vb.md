@@ -8,6 +8,7 @@ ms.date: 06/02/2008
 ms.assetid: bea66072-59b6-42b4-98fa-211812f5925f
 msc.legacyurl: /web-forms/overview/ajax-control-toolkit/animation/dynamically-controlling-updatepanel-animations-vb
 msc.type: authoredcontent
+ms.topic: article
 ---
 # Dynamically Controlling UpdatePanel Animations (VB)
 

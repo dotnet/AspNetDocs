@@ -8,6 +8,7 @@ ms.date: 06/02/2008
 ms.assetid: a0b9186c-0912-4fff-916a-6d17e696a50b
 msc.legacyurl: /web-forms/overview/ajax-control-toolkit/popup/handling-postbacks-from-a-popup-control-without-an-updatepanel-vb
 msc.type: authoredcontent
+ms.topic: concept-article
 ---
 # Handling Postbacks from A Popup Control Without an UpdatePanel (VB)
 

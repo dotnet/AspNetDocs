@@ -8,6 +8,7 @@ ms.date: 06/02/2008
 ms.assetid: e6c2cb98-f745-4bc8-973a-813879c8a891
 msc.legacyurl: /web-forms/overview/ajax-control-toolkit/textboxwatermark/using-textboxwatermark-with-validation-controls-vb
 msc.type: authoredcontent
+ms.topic: concept-article
 ---
 # Using TextBoxWatermark With Validation Controls (VB)
 

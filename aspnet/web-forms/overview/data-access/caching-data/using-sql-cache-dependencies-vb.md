@@ -8,6 +8,7 @@ ms.date: 05/30/2007
 ms.assetid: bd347d93-4251-4532-801c-a36f2dfa7f96
 msc.legacyurl: /web-forms/overview/data-access/caching-data/using-sql-cache-dependencies-vb
 msc.type: authoredcontent
+ms.topic: concept-article
 ---
 # Using SQL Cache Dependencies (VB)
 

@@ -8,6 +8,7 @@ ms.date: 06/02/2008
 ms.assetid: f70ac2b3-900f-40fa-858f-ab057904506b
 msc.legacyurl: /web-forms/overview/ajax-control-toolkit/modalpopup/handling-postbacks-from-a-modalpopup-vb
 msc.type: authoredcontent
+ms.topic: concept-article
 ---
 # Handling Postbacks from a ModalPopup (VB)
 

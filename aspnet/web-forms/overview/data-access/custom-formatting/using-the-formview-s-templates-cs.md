@@ -8,6 +8,7 @@ ms.date: 03/31/2010
 ms.assetid: d3f062af-88cf-426d-af44-e41f32c41672
 msc.legacyurl: /web-forms/overview/data-access/custom-formatting/using-the-formview-s-templates-cs
 msc.type: authoredcontent
+ms.topic: concept-article
 ---
 # Using the FormView's Templates (C#)
 

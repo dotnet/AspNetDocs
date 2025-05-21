@@ -8,6 +8,7 @@ ms.date: 10/05/2011
 ms.assetid: 7d7ee56c-a867-4777-9407-ec8f73a605a3
 msc.legacyurl: /web-forms/overview/data-access/caching-data
 msc.type: chapter
+ms.topic: concept-article
 ---
 # Caching Data
 

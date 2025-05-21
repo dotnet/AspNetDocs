@@ -8,6 +8,7 @@ ms.date: 07/18/2007
 ms.assetid: 675531a7-cb54-4dd6-89ac-2636e4c285a5
 msc.legacyurl: /web-forms/overview/data-access/advanced-data-access-scenarios/updating-the-tableadapter-to-use-joins-cs
 msc.type: authoredcontent
+ms.topic: concept-article
 ---
 # Updating the TableAdapter to Use JOINs (C#)
 

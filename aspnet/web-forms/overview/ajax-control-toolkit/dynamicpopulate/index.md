@@ -8,6 +8,7 @@ ms.date: 11/14/2011
 ms.assetid: 68c6e54f-87ed-4768-b140-d0e3e76af841
 msc.legacyurl: /web-forms/overview/ajax-control-toolkit/dynamicpopulate
 msc.type: chapter
+ms.topic: article
 ---
 # DynamicPopulate
 
