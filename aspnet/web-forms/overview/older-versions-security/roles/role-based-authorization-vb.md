@@ -8,6 +8,7 @@ ms.date: 03/24/2008
 ms.assetid: 83b4f5a4-4f5a-4380-ba33-f0b5c5ac6a75
 msc.legacyurl: /web-forms/overview/older-versions-security/roles/role-based-authorization-vb
 msc.type: authoredcontent
+ms.custom: sfi-image-nochange
 ---
 # Role-Based Authorization (VB)
 

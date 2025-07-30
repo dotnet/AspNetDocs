@@ -8,6 +8,7 @@ ms.date: 04/01/2009
 ms.assetid: 721a5c37-7e21-48e0-832e-535c6351dcae
 msc.legacyurl: /web-forms/overview/older-versions-getting-started/deploying-web-site-projects/common-configuration-differences-between-development-and-production-cs
 msc.type: authoredcontent
+ms.custom: sfi-ropc-nochange
 ---
 # Common Configuration Differences Between Development and Production (C#)
 

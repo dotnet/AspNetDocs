@@ -8,6 +8,7 @@ ms.date: 07/01/2015
 ms.assetid: 2a7517a0-b88c-4162-ade3-9bf6ca7062fd
 msc.legacyurl: /signalr/overview/deployment/using-signalr-with-azure-web-sites
 msc.type: authoredcontent
+ms.custom: sfi-image-nochange
 ---
 # Using SignalR with Web Apps in Azure App Service
 

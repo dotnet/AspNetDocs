@@ -8,6 +8,7 @@ ms.date: 07/04/2012
 ms.assetid: 6b9ae3c4-0274-4170-a1bb-9df9c546b2a9
 msc.legacyurl: /web-api/overview/older-versions/using-web-api-1-with-entity-framework-5/using-web-api-with-entity-framework-part-3
 msc.type: authoredcontent
+ms.custom: sfi-ropc-nochange
 ---
 # Part 3: Creating an Admin Controller
 

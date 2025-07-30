@@ -8,6 +8,9 @@ ms.date: 08/03/2007
 ms.assetid: ad8dd396-30f7-4abe-ac02-a0b84422e5be
 msc.legacyurl: /web-forms/overview/data-access/advanced-data-access-scenarios/protecting-connection-strings-and-other-configuration-information-cs
 msc.type: authoredcontent
+ms.custom:
+  - sfi-image-nochange
+  - sfi-ropc-nochange
 ---
 # Protecting Connection Strings and Other Configuration Information (C#)
 

@@ -8,6 +8,7 @@ ms.date: 02/15/2013
 ms.assetid: c76dbc35-a914-4ee3-919c-4f4d1fa05104
 msc.legacyurl: /web-forms/overview/deployment/visual-studio-web-deployment/deploying-a-code-update
 msc.type: authoredcontent
+ms.custom: sfi-image-nochange
 ---
 # ASP.NET Web Deployment using Visual Studio: Deploying a Code Update
 

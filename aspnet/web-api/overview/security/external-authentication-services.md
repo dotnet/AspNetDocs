@@ -8,6 +8,7 @@ ms.date: 01/28/2019
 ms.assetid: 3bb8eb15-b518-44f5-a67d-a27e051aedc6
 msc.legacyurl: /web-api/overview/security/external-authentication-services
 msc.type: authoredcontent
+ms.custom: sfi-image-nochange
 ---
 # External Authentication Services with ASP.NET Web API (C#)
 

@@ -8,6 +8,7 @@ ms.date: 04/21/2011
 ms.assetid: d65c5c2b-a039-463f-ad29-25cf9fb7a1ba
 msc.legacyurl: /mvc/overview/older-versions/mvc-music-store/mvc-music-store-part-9
 msc.type: authoredcontent
+ms.custom: sfi-image-nochange
 ---
 # Part 9: Registration and Checkout
 

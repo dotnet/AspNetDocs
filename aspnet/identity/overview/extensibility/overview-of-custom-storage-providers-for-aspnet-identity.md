@@ -8,6 +8,7 @@ ms.date: 10/13/2014
 ms.assetid: 681a9204-462e-4260-9a0b-19f0644d6ad7
 msc.legacyurl: /identity/overview/extensibility/overview-of-custom-storage-providers-for-aspnet-identity
 msc.type: authoredcontent
+ms.custom: sfi-image-nochange
 ---
 # Overview of Custom Storage Providers for ASP.NET Identity
 

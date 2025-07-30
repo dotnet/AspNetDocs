@@ -8,6 +8,7 @@ ms.date: 02/20/2007
 ms.assetid: e322f34c-83b7-41ea-ab65-ab1e0bdcc609
 msc.legacyurl: /web-forms/overview/data-access/accessing-the-database-directly-from-an-aspnet-page/using-parameterized-queries-with-the-sqldatasource-vb
 msc.type: authoredcontent
+ms.custom: sfi-ropc-nochange
 ---
 # Using Parameterized Queries with the SqlDataSource (VB)
 

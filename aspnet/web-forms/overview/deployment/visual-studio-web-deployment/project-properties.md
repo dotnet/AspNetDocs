@@ -8,6 +8,7 @@ ms.date: 02/15/2013
 ms.assetid: ec1cec4c-a75f-47af-a2ba-b1e2f971d24b
 msc.legacyurl: /web-forms/overview/deployment/visual-studio-web-deployment/project-properties
 msc.type: authoredcontent
+ms.custom: sfi-image-nochange
 ---
 # ASP.NET Web Deployment using Visual Studio: Project Properties
 

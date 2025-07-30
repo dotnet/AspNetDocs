@@ -8,6 +8,7 @@ ms.date: 02/20/2007
 ms.assetid: a526f0ec-779e-4a2b-a476-6604090d25ce
 msc.legacyurl: /web-forms/overview/data-access/accessing-the-database-directly-from-an-aspnet-page/inserting-updating-and-deleting-data-with-the-sqldatasource-cs
 msc.type: authoredcontent
+ms.custom: sfi-ropc-nochange
 ---
 # Inserting, Updating, and Deleting Data with the SqlDataSource (C#)
 

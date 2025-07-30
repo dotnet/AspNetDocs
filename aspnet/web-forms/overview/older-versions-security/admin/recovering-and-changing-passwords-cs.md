@@ -8,6 +8,7 @@ ms.date: 04/01/2008
 ms.assetid: 19c4d042-4e34-4b44-9f1d-6bf2253ba366
 msc.legacyurl: /web-forms/overview/older-versions-security/admin/recovering-and-changing-passwords-cs
 msc.type: authoredcontent
+ms.custom: sfi-image-nochange
 ---
 # Recovering and Changing Passwords (C#)
 

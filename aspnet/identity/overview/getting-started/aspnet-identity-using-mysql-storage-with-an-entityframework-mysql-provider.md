@@ -8,6 +8,9 @@ ms.date: 12/10/2013
 ms.assetid: 15253312-a92c-43ba-908e-b5dacd3d08b8
 msc.legacyurl: /identity/overview/getting-started/aspnet-identity-using-mysql-storage-with-an-entityframework-mysql-provider
 msc.type: authoredcontent
+ms.custom:
+  - sfi-image-nochange
+  - sfi-ropc-nochange
 ---
 # ASP.NET Identity: Using MySQL Storage with an EntityFramework MySQL Provider (C#)
 

@@ -8,6 +8,7 @@ ms.date: 07/16/2014
 ms.assetid: 4fe2558d-67cc-4d12-a5c1-6fb9f6f16137
 msc.legacyurl: /visual-studio/overview/2013/one-aspnet-integrating-aspnet-web-forms-mvc-and-web-api
 msc.type: authoredcontent
+ms.custom: sfi-image-nochange
 ---
 # Hands On Lab: One ASP.NET: Integrating ASP.NET Web Forms, MVC and Web API
 

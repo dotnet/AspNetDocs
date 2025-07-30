@@ -8,6 +8,7 @@ ms.date: 06/09/2009
 ms.assetid: 5bc1afd5-2484-4528-b158-ab218ba150e8
 msc.legacyurl: /web-forms/overview/older-versions-getting-started/deploying-web-site-projects/processing-unhandled-exceptions-cs
 msc.type: authoredcontent
+ms.custom: sfi-image-nochange
 ---
 # Processing Unhandled Exceptions (C#)
 

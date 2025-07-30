@@ -8,6 +8,7 @@ ms.date: 04/01/2008
 ms.assetid: 5346aab1-9974-489f-a065-ae3883b8a350
 msc.legacyurl: /web-forms/overview/older-versions-security/admin/unlocking-and-approving-user-accounts-cs
 msc.type: authoredcontent
+ms.custom: sfi-image-nochange
 ---
 # Unlocking and Approving User Accounts (C#)
 

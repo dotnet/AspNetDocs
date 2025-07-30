@@ -8,6 +8,9 @@ ms.date: 01/18/2008
 ms.assetid: 112a674d-716f-41a6-99b8-4074d65a54c0
 msc.legacyurl: /web-forms/overview/older-versions-security/membership/creating-the-membership-schema-in-sql-server-vb
 msc.type: authoredcontent
+ms.custom:
+  - sfi-image-nochange
+  - sfi-ropc-nochange
 ---
 # Creating the Membership Schema in SQL Server (VB)
 

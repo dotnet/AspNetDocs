@@ -8,6 +8,7 @@ ms.date: 08/03/2007
 ms.assetid: 9ed8ccb5-5f31-4eb4-976d-cabf4b45ca09
 msc.legacyurl: /web-forms/overview/data-access/advanced-data-access-scenarios/debugging-stored-procedures-vb
 msc.type: authoredcontent
+ms.custom: sfi-ropc-nochange
 ---
 # Debugging Stored Procedures (VB)
 

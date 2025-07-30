@@ -8,6 +8,9 @@ ms.date: 07/11/2008
 ms.assetid: 3282df5e-516c-4972-8666-313828b90fb5
 msc.legacyurl: /web-forms/overview/older-versions-getting-started/master-pages/interacting-with-the-content-page-from-the-master-page-cs
 msc.type: authoredcontent
+ms.custom:
+  - sfi-image-nochange
+  - sfi-ropc-nochange
 ---
 # Interacting with the Content Page from the Master Page (C#)
 

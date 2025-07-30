@@ -8,6 +8,7 @@ ms.date: 02/18/2013
 ms.assetid: 0a1f88bd-97da-4ed1-86f1-605199dc75a4
 msc.legacyurl: /web-forms/overview/getting-started/hands-on-labs/whats-new-in-web-forms-in-aspnet-45
 msc.type: authoredcontent
+ms.custom: sfi-image-nochange
 ---
 # What's New in Web Forms in ASP.NET 4.5
 

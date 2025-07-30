@@ -8,6 +8,7 @@ ms.date: 01/26/2011
 ms.assetid: 393df4a8-b1db-44c4-9db7-2b533ca887d0
 msc.legacyurl: /web-forms/overview/older-versions-getting-started/continuing-with-ef/what-s-new-in-the-entity-framework-4
 msc.type: authoredcontent
+ms.custom: sfi-image-nochange
 ---
 # What's New in the Entity Framework 4.0
 

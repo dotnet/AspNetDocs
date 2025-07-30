@@ -8,6 +8,7 @@ ms.date: 07/21/2010
 ms.assetid: 5a9d5429-d70b-411c-8474-f42cf7ef8a2b
 msc.legacyurl: /web-forms/overview/older-versions-getting-started/tailspin-spyworks/tailspin-spyworks-part-2
 msc.type: authoredcontent
+ms.custom: sfi-image-nochange
 ---
 # Part 2: Data Access Layer
 

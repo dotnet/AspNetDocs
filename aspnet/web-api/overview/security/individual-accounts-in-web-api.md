@@ -8,6 +8,7 @@ ms.date: 10/15/2014
 ms.assetid: 92c84846-f0ea-4b5e-94b6-5004874eb060
 msc.legacyurl: /web-api/overview/security/individual-accounts-in-web-api
 msc.type: authoredcontent
+ms.custom: sfi-image-nochange
 ---
 # Secure a Web API with Individual Accounts and Local Login in ASP.NET Web API 2.2
 

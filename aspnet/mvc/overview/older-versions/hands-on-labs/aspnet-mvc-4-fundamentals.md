@@ -8,6 +8,7 @@ ms.date: 02/18/2013
 ms.assetid: b7dba543-73c3-4534-a9a0-ba70fa2c6a8a
 msc.legacyurl: /mvc/overview/older-versions/hands-on-labs/aspnet-mvc-4-fundamentals
 msc.type: authoredcontent
+ms.custom: sfi-image-nochange
 ---
 # ASP.NET MVC 4 Fundamentals
 

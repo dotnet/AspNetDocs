@@ -8,6 +8,7 @@ ms.date: 02/18/2013
 ms.assetid: 969ab824-1b98-4552-81fe-b60ef5fc6887
 msc.legacyurl: /mvc/overview/older-versions/hands-on-labs/aspnet-mvc-4-custom-action-filters
 msc.type: authoredcontent
+ms.custom: sfi-image-nochange
 ---
 # ASP.NET MVC 4 Custom Action Filters
 

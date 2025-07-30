@@ -8,6 +8,7 @@ ms.date: 05/04/2012
 ms.assetid: 832f226a-1aa3-4093-8c29-ce4196793259
 msc.legacyurl: /web-forms/overview/deployment/web-deployment-in-the-enterprise/deploying-database-projects
 msc.type: authoredcontent
+ms.custom: sfi-ropc-nochange
 ---
 # Deploying Database Projects
 

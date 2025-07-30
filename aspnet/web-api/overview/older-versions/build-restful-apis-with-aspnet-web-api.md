@@ -8,6 +8,7 @@ ms.date: 02/18/2013
 ms.assetid: 87daa99f-3810-407e-b969-dd28a192959d
 msc.legacyurl: /web-api/overview/older-versions/build-restful-apis-with-aspnet-web-api
 msc.type: authoredcontent
+ms.custom: sfi-image-nochange
 ---
 # Build RESTful APIs with ASP.NET Web API
 

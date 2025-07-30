@@ -8,6 +8,7 @@ ms.date: 02/20/2007
 ms.assetid: a8fa72ee-8328-4854-a419-c1b271772303
 msc.legacyurl: /web-forms/overview/data-access/accessing-the-database-directly-from-an-aspnet-page/implementing-optimistic-concurrency-with-the-sqldatasource-vb
 msc.type: authoredcontent
+ms.custom: sfi-ropc-nochange
 ---
 # Implementing Optimistic Concurrency with the SqlDataSource (VB)
 

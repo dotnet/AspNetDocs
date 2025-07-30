@@ -8,6 +8,7 @@ ms.date: 05/21/2008
 ms.assetid: b9b9798b-027d-46cc-9636-473378e437ac
 msc.legacyurl: /web-forms/overview/older-versions-getting-started/master-pages/multiple-contentplaceholders-and-default-content-cs
 msc.type: authoredcontent
+ms.custom: sfi-image-nochange
 ---
 # Multiple ContentPlaceHolders and Default Content (C#)
 

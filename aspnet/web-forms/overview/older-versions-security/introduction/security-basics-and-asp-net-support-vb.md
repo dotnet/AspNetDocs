@@ -8,6 +8,7 @@ ms.date: 01/13/2008
 ms.assetid: ab68a92b-fc81-40a4-a7dc-406625d2c5d4
 msc.legacyurl: /web-forms/overview/older-versions-security/introduction/security-basics-and-asp-net-support-vb
 msc.type: authoredcontent
+ms.custom: sfi-image-nochange
 ---
 # Security Basics and ASP.NET Support (VB)
 
