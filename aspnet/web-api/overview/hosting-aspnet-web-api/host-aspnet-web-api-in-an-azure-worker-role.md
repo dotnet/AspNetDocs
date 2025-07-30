@@ -8,6 +8,7 @@ ms.date: 04/02/2014
 ms.assetid: 6980ee2e-d6b0-4a08-8fb6-ab96362dd0e3
 msc.legacyurl: /web-api/overview/hosting-aspnet-web-api/host-aspnet-web-api-in-an-azure-worker-role
 msc.type: authoredcontent
+ms.custom: sfi-image-nochange
 ---
 # Host ASP.NET Web API 2 in an Azure Worker Role
 

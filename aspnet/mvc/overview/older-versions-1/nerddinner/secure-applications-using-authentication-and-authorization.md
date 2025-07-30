@@ -8,6 +8,7 @@ ms.date: 07/27/2010
 ms.assetid: 9e4d5cac-b071-440c-b044-20b6d0c964fb
 msc.legacyurl: /mvc/overview/older-versions-1/nerddinner/secure-applications-using-authentication-and-authorization
 msc.type: authoredcontent
+ms.custom: sfi-image-nochange
 ---
 # Secure Applications Using Authentication and Authorization
 

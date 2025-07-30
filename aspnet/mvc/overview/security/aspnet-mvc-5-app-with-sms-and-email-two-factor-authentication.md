@@ -8,6 +8,7 @@ ms.date: 08/20/2015
 ms.assetid: f50a5cdb-c06a-46ed-aa14-fc5b049dc8dc
 msc.legacyurl: /mvc/overview/security/aspnet-mvc-5-app-with-sms-and-email-two-factor-authentication
 msc.type: authoredcontent
+ms.custom: sfi-image-nochange
 ---
 # ASP.NET MVC 5 app with SMS and email Two-Factor Authentication
 

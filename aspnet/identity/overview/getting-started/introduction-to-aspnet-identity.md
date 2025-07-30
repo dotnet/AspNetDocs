@@ -8,6 +8,7 @@ ms.date: 01/22/2019
 ms.assetid: 38717fc1-5989-43cf-952d-4007cc1dd923
 msc.legacyurl: /identity/overview/getting-started/introduction-to-aspnet-identity
 msc.type: authoredcontent
+ms.custom: sfi-image-nochange
 ---
 # Introduction to ASP.NET Identity
 

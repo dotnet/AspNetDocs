@@ -8,6 +8,7 @@ ms.date: 01/18/2008
 ms.assetid: 17772912-b47b-4557-9ce9-80f22df642f7
 msc.legacyurl: /web-forms/overview/older-versions-security/membership/validating-user-credentials-against-the-membership-user-store-vb
 msc.type: authoredcontent
+ms.custom: sfi-image-nochange
 ---
 # Validating User Credentials Against the Membership User Store (VB)
 

@@ -9,6 +9,7 @@ ms.topic: tutorial
 ms.assetid: bc8f2bd5-ff57-4dcd-8418-a5bd517d8953
 msc.legacyurl: /mvc/overview/getting-started/database-first-development/creating-the-web-application
 msc.type: authoredcontent
+ms.custom: sfi-image-nochange
 ---
 
 # Tutorial: Create the Web Application and Data Models for EF Database First with ASP.NET MVC

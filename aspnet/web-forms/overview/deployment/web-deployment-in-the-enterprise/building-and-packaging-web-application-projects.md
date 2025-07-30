@@ -8,6 +8,7 @@ ms.date: 05/04/2012
 ms.assetid: 94e92f80-a7e3-4d18-9375-ff8be5d666ac
 msc.legacyurl: /web-forms/overview/deployment/web-deployment-in-the-enterprise/building-and-packaging-web-application-projects
 msc.type: authoredcontent
+ms.custom: sfi-image-nochange
 ---
 # Building and Packaging Web Application Projects
 

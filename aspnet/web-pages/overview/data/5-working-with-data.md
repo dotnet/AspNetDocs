@@ -8,6 +8,7 @@ ms.date: 02/18/2014
 ms.assetid: 673d502f-2c16-4a6f-bb63-dbfd9a77ef47
 msc.legacyurl: /web-pages/overview/data/5-working-with-data
 msc.type: authoredcontent
+ms.custom: sfi-ropc-nochange
 ---
 # Introduction to Working with a Database in ASP.NET Web Pages (Razor) Sites
 

@@ -8,6 +8,7 @@ ms.date: 10/09/2013
 ms.assetid: b9775f41-352a-4f82-baa6-23e95b342e20
 msc.legacyurl: /web-api/overview/mobile-clients/calling-web-api-from-a-windows-phone-8-application
 msc.type: authoredcontent
+ms.custom: sfi-image-nochange
 ---
 # Calling Web API from a Windows Phone 8 Application (C#)
 

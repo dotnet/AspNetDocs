@@ -8,6 +8,7 @@ ms.date: 02/24/2014
 ms.assetid: 7a77c2c0-deea-4290-a9c3-97958891758e
 msc.legacyurl: /web-pages/overview/security/16-adding-security-and-membership
 msc.type: authoredcontent
+ms.custom: sfi-image-nochange
 ---
 # Adding Security and Membership to an ASP.NET Web Pages (Razor) Site
 

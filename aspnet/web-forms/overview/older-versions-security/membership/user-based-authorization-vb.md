@@ -8,6 +8,7 @@ ms.date: 01/18/2008
 ms.assetid: bc937e9d-5c14-4fc4-aec7-440da924dd18
 msc.legacyurl: /web-forms/overview/older-versions-security/membership/user-based-authorization-vb
 msc.type: authoredcontent
+ms.custom: sfi-image-nochange
 ---
 # User-Based Authorization (VB)
 

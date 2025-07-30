@@ -5,10 +5,12 @@ author: jongalloway
 description: "This tutorial series details all of the steps taken to build the ASP.NET MVC Music Store sample application. Part 4 covers Models and Data Access."
 ms.author: riande
 ms.date: 05/04/2022
-ms.custom: devdivchpfy22
 ms.assetid: ab55ca81-ab9b-44a0-8700-dc6da2599335
 msc.legacyurl: /mvc/overview/older-versions/mvc-music-store/mvc-music-store-part-4
 msc.type: authoredcontent
+ms.custom:
+  - devdivchpfy22
+  - sfi-ropc-nochange
 ---
 # Part 4: Models and Data Access
 

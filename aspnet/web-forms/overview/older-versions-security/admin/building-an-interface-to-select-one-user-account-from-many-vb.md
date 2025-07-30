@@ -8,6 +8,7 @@ ms.date: 04/01/2008
 ms.assetid: da53380c-a16b-41c7-a20d-24343c735c52
 msc.legacyurl: /web-forms/overview/older-versions-security/admin/building-an-interface-to-select-one-user-account-from-many-vb
 msc.type: authoredcontent
+ms.custom: sfi-image-nochange
 ---
 # Building an Interface to Select One User Account from Many (VB)
 

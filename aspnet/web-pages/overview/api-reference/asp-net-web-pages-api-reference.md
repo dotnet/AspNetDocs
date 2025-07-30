@@ -8,6 +8,7 @@ ms.date: 02/10/2014
 ms.assetid: 4001cb9b-3bfd-4ace-8a89-1561d8421e2c
 msc.legacyurl: /web-pages/overview/api-reference/asp-net-web-pages-api-reference
 msc.type: authoredcontent
+ms.custom: sfi-ropc-nochange
 ---
 # ASP.NET Web Pages (Razor) API Quick Reference
 

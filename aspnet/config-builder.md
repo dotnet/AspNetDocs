@@ -6,6 +6,9 @@ description: Learn how to get configuration data from sources other than web.con
 ms.author: riande
 ms.date: 7/17/2020
 msc.type: content
+ms.custom:
+  - sfi-image-nochange
+  - sfi-ropc-nochange
 ---
 
 # Configuration builders for ASP.NET

@@ -8,6 +8,7 @@ ms.date: 01/22/2019
 ms.assetid: 1cbc0ed2-5bd6-4b62-8d34-4c193dcd8b25
 msc.legacyurl: /identity/overview/getting-started/adding-aspnet-identity-to-an-empty-or-existing-web-forms-project
 msc.type: authoredcontent
+ms.custom: sfi-image-nochange
 ---
 # Adding ASP.NET Identity to an Empty or Existing Web Forms Project
 

@@ -8,6 +8,7 @@ ms.date: 07/18/2007
 ms.assetid: a5a4a9ba-d18d-489a-a6b0-a3c26d6b0274
 msc.legacyurl: /web-forms/overview/data-access/advanced-data-access-scenarios/creating-new-stored-procedures-for-the-typed-dataset-s-tableadapters-vb
 msc.type: authoredcontent
+ms.custom: sfi-image-nochange
 ---
 # Creating New Stored Procedures for the Typed DataSet's TableAdapters (VB)
 

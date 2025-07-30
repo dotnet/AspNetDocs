@@ -8,6 +8,7 @@ ms.date: 03/14/2014
 ms.assetid: 58b583cd-c4ab-47a3-8527-8c92c298c91f
 msc.legacyurl: /whitepapers/aspnet-web-deployment-content-map
 msc.type: content
+ms.custom: sfi-ropc-nochange
 ---
 # ASP.NET Web Deployment - Recommended Resources
 

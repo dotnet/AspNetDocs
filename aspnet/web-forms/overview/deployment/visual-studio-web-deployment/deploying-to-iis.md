@@ -8,6 +8,7 @@ ms.date: 01/16/2019
 ms.assetid: 8bf2c4fb-4ee5-4841-bfc2-03462c1f7a7a
 msc.legacyurl: /web-forms/overview/deployment/visual-studio-web-deployment/deploying-to-iis
 msc.type: authoredcontent
+ms.custom: sfi-image-nochange
 ---
 # ASP.NET Web Deployment using Visual Studio: Deploying to Test
 

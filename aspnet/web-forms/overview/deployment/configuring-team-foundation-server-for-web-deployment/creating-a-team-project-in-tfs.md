@@ -5,10 +5,12 @@ author: jrjlee
 description: "This topic describes how to create a new team project in Team Foundation Server (TFS) 2010."
 ms.author: riande
 ms.date: 05/09/2022
-ms.custom: devdivchpfy22
 ms.assetid: b28d3e2d-0bb4-4e29-a780-af810b964722
 msc.legacyurl: /web-forms/overview/deployment/configuring-team-foundation-server-for-web-deployment/creating-a-team-project-in-tfs
 msc.type: authoredcontent
+ms.custom:
+  - devdivchpfy22
+  - sfi-image-nochange
 ---
 # Creating a Team Project in TFS
 
