@@ -74,6 +74,9 @@
       },
       "ms.technology": {
       },
+      "ms.update-cycle": {
+        "**/**.{md,yml}": "3650-days"
+      },
       "recommendations": {
         "mvc/overview/getting-started/introduction/*.md": false
       }
