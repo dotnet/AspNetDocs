@@ -3,7 +3,7 @@ uid: whitepapers/mvc4-beta-release-notes
 title: "ASP.NET MVC 4 Beta Release Notes"
 author: rick-anderson
 description: "This document describes the release of ASP.NET MVC 4 Beta for Visual Studio 2010."
-ms.author: riande
+ms.author: wpickett
 ms.date: 09/09/2011
 ms.assetid: 666407bb-81de-4319-89ba-0302c382a208
 msc.legacyurl: /whitepapers/mvc4-beta-release-notes
@@ -308,3 +308,4 @@ ASP.NET MVC 4 Beta supports the September 2011 1.5 release of the Windows Azure 
 
       [!code-xml[Main](mvc4-beta-release-notes/samples/sample16.xml)]
   4. Save the changes, close the project (.csproj) file you were editing, and then right-click the project and select Reload.
+

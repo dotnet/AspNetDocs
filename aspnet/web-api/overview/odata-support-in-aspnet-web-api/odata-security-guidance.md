@@ -3,7 +3,7 @@ uid: web-api/overview/odata-support-in-aspnet-web-api/odata-security-guidance
 title: "Security Guidance for ASP.NET Web API 2 OData - ASP.NET 4.x"
 author: rick-anderson
 description: "Describes security issues to consider when exposing a dataset through OData for ASP.NET Web API 2 on ASP.NET 4.x."
-ms.author: riande
+ms.author: tdykstra
 ms.date: 02/06/2013
 ms.assetid: b91e6424-1544-4747-bd0b-d1f8418c9653
 msc.legacyurl: /web-api/overview/odata-support-in-aspnet-web-api/odata-security-guidance
@@ -70,3 +70,4 @@ If you know that all clients are trusted (for example, in an enterprise environm
 
     [!code-csharp[Main](odata-security-guidance/samples/sample10.cs)]
 - In general, consider which $filter functions you need. If your clients do not need the full expressiveness of $filter, you can limit the allowed functions.
+

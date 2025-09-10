@@ -3,7 +3,7 @@ uid: mvc/overview/older-versions/getting-started-with-aspnet-mvc4/intro-to-aspne
 title: "Intro to ASP.NET MVC 4 | Microsoft Docs"
 author: Rick-Anderson
 description: "An updated version of this tutorial is available here using Visual Studio 2013. The new tutorial uses ASP.NET MVC 5."
-ms.author: riande
+ms.author: tdykstra
 ms.date: 08/15/2012
 ms.assetid: ed66530a-04d5-49eb-b76a-85be1f57c437
 msc.legacyurl: /mvc/overview/older-versions/getting-started-with-aspnet-mvc4/intro-to-aspnet-mvc-4
@@ -79,3 +79,4 @@ Right out of the box this default template gives you Home, Contact and About pag
 
 > [!div class="step-by-step"]
 > [Next](adding-a-controller.md)
+

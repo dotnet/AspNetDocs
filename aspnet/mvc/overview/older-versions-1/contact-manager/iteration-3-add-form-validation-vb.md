@@ -3,7 +3,7 @@ uid: mvc/overview/older-versions-1/contact-manager/iteration-3-add-form-validati
 title: "Iteration #3 – Add form validation (VB) | Microsoft Docs"
 author: rick-anderson
 description: "In the third iteration, we add basic form validation. We prevent people from submitting a form without completing required form fields. We also validate emai... (VB)"
-ms.author: riande
+ms.author: tdykstra
 ms.date: 02/20/2009
 ms.assetid: 4805e75a-7911-46e3-b11b-229a6eed245e
 msc.legacyurl: /mvc/overview/older-versions-1/contact-manager/iteration-3-add-form-validation-vb
@@ -115,3 +115,4 @@ In the next iteration, we will refactor our validation logic and database access
 > [!div class="step-by-step"]
 > [Previous](iteration-2-make-the-application-look-nice-vb.md)
 > [Next](iteration-4-make-the-application-loosely-coupled-vb.md)
+

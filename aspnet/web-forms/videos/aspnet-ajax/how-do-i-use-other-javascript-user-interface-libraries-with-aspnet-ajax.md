@@ -3,7 +3,7 @@ uid: web-forms/videos/aspnet-ajax/how-do-i-use-other-javascript-user-interface-l
 title: "[How Do I:] Use Other JavaScript User Interface Libraries with ASP.NET AJAX? | Microsoft Docs"
 author: JoeStagner
 description: "Microsoft is part of the OpenAjax alliance and the Microsoft AJAX Library is designed to work seamlessly with third-party JavaScript user interface libraries..."
-ms.author: riande
+ms.author: wpickett
 ms.date: 07/16/2007
 ms.assetid: 35cf5142-e2d0-40de-884b-00039cc7ecb7
 msc.legacyurl: /web-forms/videos/aspnet-ajax/how-do-i-use-other-javascript-user-interface-libraries-with-aspnet-ajax
@@ -20,3 +20,4 @@ Microsoft is part of the [OpenAjax alliance](http://www.openajax.org/) and the M
 > [!div class="step-by-step"]
 > [Previous](how-do-i-choose-between-methods-of-ajax-page-updates.md)
 > [Next](how-do-i-use-the-aspnet-ajax-profile-services.md)
+

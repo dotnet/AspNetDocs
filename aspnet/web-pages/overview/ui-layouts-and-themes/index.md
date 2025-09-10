@@ -3,7 +3,7 @@ uid: web-pages/overview/ui-layouts-and-themes/index
 title: "UI, Layouts, and Themes | Microsoft Docs"
 author: rick-anderson
 description: "How to customize the site UI in an ASP.NET Web Pages application."
-ms.author: riande
+ms.author: wpickett
 ms.date: 09/08/2014
 ms.assetid: d7ec6e8a-3e05-4c0d-9207-d17a49f9a64d
 msc.legacyurl: /web-pages/overview/ui-layouts-and-themes
@@ -23,3 +23,4 @@ msc.type: chapter
 - [Installing a Helper](installing-helpers.md)
 - [Twitter Helper with ASP.NET Web Pages](twitter-helper.md)
 - [Displaying Maps in an ASP.NET Web Pages Site](displaying-maps-in-an-aspnet-web-pages-site.md)
+

@@ -3,7 +3,7 @@ uid: mvc/overview/getting-started/lifecycle-of-an-aspnet-mvc-5-application
 title: "Lifecycle of an ASP.NET MVC 5 Application | Microsoft Docs"
 author: cephalin
 description: "Download a PDF document that charts the lifecycle of an ASP.NET MVC 5 application. This lifecycle document provides a high-level view of the MVC lifecycle an..."
-ms.author: riande
+ms.author: tdykstra
 ms.date: 02/28/2014
 ms.assetid: 9c1e3a75-b644-4480-8326-11300b1ec4b3
 msc.legacyurl: /mvc/overview/getting-started/lifecycle-of-an-aspnet-mvc-5-application
@@ -29,3 +29,4 @@ Here you can download a PDF document that charts the lifecycle of every ASP.NET 
 ## Next Steps
 
 Does this document meet your need? We'd appreciate your feedback. If you have any question on the ASP.NET MVC lifecycle in your application, [Stackoverflow](http://stackoverflow.com/help) and the [ASP.NET MVC forums](https://forums.asp.net/1146.aspx) are great places to ask. Follow [me](https://twitter.com/Cephas_MSFT) on twitter so you can get updates on my latest tutorials.
+

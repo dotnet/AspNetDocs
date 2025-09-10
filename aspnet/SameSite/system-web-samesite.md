@@ -2,7 +2,7 @@
 title: Work with SameSite cookies in ASP.NET
 author: rick-anderson
 description: Learn how to use to SameSite cookies in ASP.NET
-ms.author: riande
+ms.author: tdykstra
 ms.date: 2/15/2019
 uid: samesite/system-web-samesite
 ---
@@ -310,3 +310,4 @@ Update *web.config* to include the following configuration settings:
 * [.NET SameSite Patches](/aspnet/samesite/kbs-samesite)
 * [Azure Web Applications Same Site Information](https://azure.microsoft.com/updates/app-service-samesite-cookie-update/)
 * [Azure ActiveDirectory Same Site Information](/azure/active-directory/develop/howto-handle-samesite-cookie-changes-chrome-browser)
+

@@ -3,7 +3,7 @@ uid: visual-studio/overview/2013/release-notes
 title: "ASP.NET and Web Tools for Visual Studio 2013 Release Notes | Microsoft Docs"
 author: rick-anderson
 description: "This document describes the release of ASP.NET and Web Tools for Visual Studio 2013."
-ms.author: riande
+ms.author: tdykstra
 ms.date: 10/17/2013
 ms.assetid: 08815768-2702-42ae-ae85-0a59934a11d1
 msc.legacyurl: /visual-studio/overview/2013/release-notes
@@ -700,3 +700,4 @@ Workaround:
       [!code-csharp[Main](release-notes/samples/sample27.cs)]
 
       [!code-vb[Main](release-notes/samples/sample28.vb)]
+

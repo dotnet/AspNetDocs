@@ -3,7 +3,7 @@ uid: mvc/overview/security/create-an-aspnet-mvc-5-app-with-facebook-and-google-o
 title: "Create MVC 5 App with Facebook, Twitter, LinkedIn and Google OAuth2 Sign-on (C#) | Microsoft Docs"
 author: Rick-Anderson
 description: "This tutorial shows you how to build an ASP.NET MVC 5 web application that enables users to log in using OAuth 2.0 with credentials from an external authenti..."
-ms.author: riande
+ms.author: tdykstra
 ms.date: 04/03/2015
 ms.assetid: 81ee500f-fc37-40d6-8722-f1b64720fbb6
 msc.legacyurl: /mvc/overview/security/create-an-aspnet-mvc-5-app-with-facebook-and-google-oauth2-and-openid-sign-on
@@ -232,3 +232,4 @@ Follow my tutorial [Create an ASP.NET MVC app with auth and SQL DB and deploy to
 4. How to use the membership API to add users and roles.
 
 For an good explanation of how ASP.NET External Authentication Services work, see Robert McMurray's [External Authentication Services](https://asp.net/web-api/overview/security/external-authentication-services). Robert's article also goes into detail in enabling Microsoft and Twitter authentication. Tom Dykstra's excellent [EF/MVC tutorial](../getting-started/getting-started-with-ef-using-mvc/creating-an-entity-framework-data-model-for-an-asp-net-mvc-application.md) shows how to work with the Entity Framework.
+

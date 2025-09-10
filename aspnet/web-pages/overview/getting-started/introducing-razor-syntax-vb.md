@@ -3,7 +3,7 @@ uid: web-pages/overview/getting-started/introducing-razor-syntax-vb
 title: "Introduction to ASP.NET Web Programming Using the Razor Syntax (Visual Basic) | Microsoft Docs"
 author: Rick-Anderson
 description: "This appendix gives you an overview of programming with ASP.NET Web pages in Visual Basic, using the Razor syntax."
-ms.author: riande
+ms.author: wpickett
 ms.date: 02/07/2014
 ms.assetid: 5da59646-e973-41cd-88a9-c6b2c0594027
 msc.legacyurl: /web-pages/overview/getting-started/introducing-razor-syntax-vb
@@ -732,3 +732,4 @@ If your code didn't handle the exception, you would see an error page like the p
 
 - [ASP.NET](https://msdn.microsoft.com/library/ee532866.aspx)
 - [Visual Basic Language](https://msdn.microsoft.com/library/2x7h1hfk.aspx)
+

@@ -3,7 +3,7 @@ uid: web-forms/overview/getting-started/hands-on-labs/whats-new-in-web-forms-in-
 title: "What's New in Web Forms in ASP.NET 4.5 | Microsoft Docs"
 author: rick-anderson
 description: "The new version of ASP.NET Web Forms introduces a number of improvements focused on improving user experience when working with data. In previous versions of..."
-ms.author: riande
+ms.author: wpickett
 ms.date: 02/18/2013
 ms.assetid: 0a1f88bd-97da-4ed1-86f1-605199dc75a4
 msc.legacyurl: /web-forms/overview/getting-started/hands-on-labs/whats-new-in-web-forms-in-aspnet-45
@@ -838,3 +838,4 @@ With code snippets, you have all the code you need at your fingertips. The lab d
 ![Pick the relevant snippet from the list, by clicking on it](whats-new-in-web-forms-in-aspnet-45/_static/image55.png "Pick the relevant snippet from the list, by clicking on it")
 
 *Pick the relevant snippet from the list, by clicking on it*
+

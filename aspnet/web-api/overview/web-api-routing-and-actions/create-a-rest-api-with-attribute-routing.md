@@ -3,7 +3,7 @@ uid: web-api/overview/web-api-routing-and-actions/create-a-rest-api-with-attribu
 description: Create a REST API with Attribute Routing in ASP.NET Web API 2
 title: "Create a REST API with Attribute Routing in ASP.NET Web API 2 | Microsoft Docs"
 author: Rick-Anderson
-ms.author: riande
+ms.author: tdykstra
 ms.date: 06/26/2013
 ms.assetid: 23fc77da-2725-4434-99a0-ff872d96336b
 msc.legacyurl: /web-api/overview/web-api-routing-and-actions/create-a-rest-api-with-attribute-routing
@@ -245,3 +245,4 @@ Here is the complete code for the BooksController class.
 ## Summary
 
 Attribute routing gives you more control and greater flexibility when designing the URIs for your API.
+

@@ -3,7 +3,7 @@ uid: web-forms/videos/sql-2005/designing-relational-database-tables
 title: "Designing Relational Database Tables | Microsoft Docs"
 author: rick-anderson
 description: "Why are relational databases the most popular? SQL Server beginners will learn to differentiate between primary and foreign keys, design relational database..."
-ms.author: riande
+ms.author: wpickett
 ms.date: 03/29/2006
 ms.assetid: f8ce88a0-bddb-4f29-8d87-b3af40fc5b61
 msc.legacyurl: /web-forms/videos/sql-2005/designing-relational-database-tables
@@ -20,3 +20,4 @@ Why are relational databases the most popular? SQL Server beginners will learn t
 > [!div class="step-by-step"]
 > [Previous](more-about-column-data-types-and-other-properties.md)
 > [Next](manipulating-database-data.md)
+

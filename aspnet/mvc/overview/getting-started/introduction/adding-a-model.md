@@ -3,7 +3,7 @@ uid: mvc/overview/getting-started/introduction/adding-a-model
 title: "Adding a New Model | Microsoft Docs"
 author: Rick-Anderson
 description: "In this section, you'll add some classes for managing movies in a database. These classes will be the model part of the ASP.NET MVC app."
-ms.author: riande
+ms.author: tdykstra
 ms.date: 05/28/2015
 ms.assetid: 276552b5-f349-4fcf-8f40-6d042f7aa88e
 msc.legacyurl: /mvc/overview/getting-started/introduction/adding-a-model
@@ -58,3 +58,4 @@ We've finally added a model (the M in MVC). In the next section you'll work with
 > [!div class="step-by-step"]
 > [Previous](adding-a-view.md)
 > [Next](creating-a-connection-string.md)
+

@@ -3,7 +3,7 @@ uid: web-forms/overview/data-access/caching-data/caching-data-at-application-sta
 title: "Caching Data at Application Startup (C#) | Microsoft Docs"
 author: rick-anderson
 description: "In any Web application some data will be frequently used and some data will be infrequently used. We can improve the performance of our ASP.NET application b... (C#)"
-ms.author: riande
+ms.author: tdykstra
 ms.date: 05/30/2007
 ms.assetid: 22ca8efa-7cd1-45a7-b9ce-ce6eb3b3ff95
 msc.legacyurl: /web-forms/overview/data-access/caching-data/caching-data-at-application-startup-cs
@@ -170,3 +170,4 @@ This tutorial series was reviewed by many helpful reviewers. Lead reviewers for 
 > [!div class="step-by-step"]
 > [Previous](caching-data-in-the-architecture-cs.md)
 > [Next](using-sql-cache-dependencies-cs.md)
+

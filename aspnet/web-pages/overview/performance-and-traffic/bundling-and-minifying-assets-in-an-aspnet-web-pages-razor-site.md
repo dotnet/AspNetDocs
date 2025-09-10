@@ -3,7 +3,7 @@ uid: web-pages/overview/performance-and-traffic/bundling-and-minifying-assets-in
 title: "Bundling and Minifying Assets in an ASP.NET Web Pages (Razor) Site | Microsoft Docs"
 author: rick-anderson
 description: "Bundling and minification are ways to make your site faster. Bundling lets you combine multiple JavaScript ( .js ) files or multiple cascading style sheet (..."
-ms.author: riande
+ms.author: wpickett
 ms.date: 06/21/2012
 ms.assetid: 8906f1e9-4b66-4a03-8e8a-9e9debf8ed91
 msc.legacyurl: /web-pages/overview/performance-and-traffic/bundling-and-minifying-assets-in-an-aspnet-web-pages-razor-site
@@ -17,3 +17,4 @@ by [Microsoft](https://github.com/microsoft)
 > 
 > > [!NOTE]
 > > The RC release of ASP.NET Web Pages 2 does not support bundling and minification because the package that contains the required elements is not yet available in Microsoft WebMatrix. We apologize for this inconvenience. The package is expected to be available in the final release of ASP.NET Web Pages 2 and WebMatrix 2.
+

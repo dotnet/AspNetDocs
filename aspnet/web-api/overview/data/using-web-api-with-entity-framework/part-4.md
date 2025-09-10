@@ -3,7 +3,7 @@ uid: web-api/overview/data/using-web-api-with-entity-framework/part-4
 title: Handling Entity Relations | Microsoft Docs
 author: Rick-Anderson
 description: Describes how to handle circular navigation properties in model classes and how EF loads related entities.
-ms.author: riande
+ms.author: tdykstra
 ms.date: 06/16/2014
 ms.assetid: d2f5710c-23c7-40a5-9cd9-5d0516570cba
 msc.legacyurl: /web-api/overview/data/using-web-api-with-entity-framework/part-4
@@ -104,3 +104,4 @@ For this tutorial, you don't need the `Author.Book` navigation property, so you 
 > [!div class="step-by-step"]
 > [Previous](part-3.md)
 > [Next](part-5.md)
+

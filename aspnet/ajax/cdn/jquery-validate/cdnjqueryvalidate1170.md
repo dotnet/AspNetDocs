@@ -3,7 +3,7 @@ uid: ajax/cdn/jquery-validate/cdnjqueryvalidate1170
 title: "jQuery Validation 1.17.0 | Microsoft Docs"
 author: guardrex
 description: This article provides a list of the files that are included in the jQuery Validation 1.17.0 hosted on the CDN.
-ms.author: riande
+ms.author: tdykstra
 ms.date: 10/14/2017
 ms.assetid: f038f3d6-daad-43de-8514-d2483c7e6609
 msc.legacyurl: /ajax/cdn/jquery-validate/cdnjqueryvalidate1170

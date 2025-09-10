@@ -3,7 +3,7 @@ uid: web-api/overview/advanced/http-message-handlers
 title: HTTP Message Handlers in ASP.NET Web API - ASP.NET 4.x
 author: Rick-Anderson
 description: An overview of HTTP message handlers in ASP.NET Web API for ASP.NET 4.x
-ms.author: riande
+ms.author: tdykstra
 ms.date: 02/13/2012
 ms.assetid: 9002018b-3aa3-4358-bb1c-fbb5bc751d01
 msc.legacyurl: /web-api/overview/advanced/http-message-handlers
@@ -142,3 +142,4 @@ Alternatively, a per-route message handler can delegate to **HttpControllerDispa
 The following code shows how to configure this route:
 
 [!code-csharp[Main](http-message-handlers/samples/sample12.cs)]
+

@@ -3,7 +3,7 @@ uid: mvc/overview/older-versions/getting-started-with-aspnet-mvc3/vb/adding-a-ne
 title: "Adding a New Field to the Movie Model and Database Table (VB) | Microsoft Docs"
 author: Rick-Anderson
 description: "This tutorial will teach you the basics of building an ASP.NET MVC Web application using Microsoft Visual Web Developer 2010 Express Service Pack 1. You will learn how to make changes to the model classes and learn how you can update the database schema to match the model changes."
-ms.author: riande
+ms.author: tdykstra
 ms.date: 01/12/2011
 ms.assetid: 28970e1b-1845-4015-86ef-121e52a6c397
 msc.legacyurl: /mvc/overview/older-versions/getting-started-with-aspnet-mvc3/vb/adding-a-new-field
@@ -115,3 +115,4 @@ In this section you saw how you can modify model objects and keep the database i
 > [!div class="step-by-step"]
 > [Previous](examining-the-edit-methods-and-edit-view.md)
 > [Next](adding-validation-to-the-model.md)
+

@@ -3,7 +3,7 @@ uid: mvc/overview/getting-started/mvc-learning-sequence
 title: "MVC recommended tutorials and articles | Microsoft Docs"
 author: Rick-Anderson
 description: "This page contains links to ASP.NET MVC tutorials and a suggested sequence to follow them."
-ms.author: riande
+ms.author: tdykstra
 ms.date: 05/22/2015
 ms.assetid: 8513a57a-2d45-4d6b-881c-15a01c5cbb1c
 msc.legacyurl: /mvc/overview/getting-started/mvc-learning-sequence
@@ -56,3 +56,4 @@ The <xref:System.Web.Mvc.Html.SelectExtensions.DropDownListFor%2A>, <xref:System
 The workaround is to create separate enumerables, containing distinct `SelectListItem` instances, for each property in the model.
 
 For more information, see [GetSelectListWithDefaultValue Modifies IEnumerable\<SelectListItem\> selectList](https://github.com/aspnet/AspNetWebStack/issues/271)
+

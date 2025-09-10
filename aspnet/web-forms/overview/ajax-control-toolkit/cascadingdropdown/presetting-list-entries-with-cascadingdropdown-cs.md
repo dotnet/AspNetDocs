@@ -3,7 +3,7 @@ uid: web-forms/overview/ajax-control-toolkit/cascadingdropdown/presetting-list-e
 title: "Presetting List Entries with CascadingDropDown (C#) | Microsoft Docs"
 author: wenz
 description: "The CascadingDropDown control in the AJAX Control Toolkit extends a DropDownList control so that changes for one DropDownList loads associated values in anoth... (C#)"
-ms.author: riande
+ms.author: tdykstra
 ms.date: 06/02/2008
 ms.assetid: 04c79748-0f21-4a3b-aba5-e1ce3161c32e
 msc.legacyurl: /web-forms/overview/ajax-control-toolkit/cascadingdropdown/presetting-list-entries-with-cascadingdropdown-cs
@@ -52,3 +52,4 @@ The list is filled and preselected automatically ([Click to view full-size image
 > [!div class="step-by-step"]
 > [Previous](using-cascadingdropdown-with-a-database-cs.md)
 > [Next](using-auto-postback-with-cascadingdropdown-cs.md)
+

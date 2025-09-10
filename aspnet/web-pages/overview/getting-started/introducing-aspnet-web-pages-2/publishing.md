@@ -3,7 +3,7 @@ uid: web-pages/overview/getting-started/introducing-aspnet-web-pages-2/publishin
 title: Introducing ASP.NET Web Pages - Publishing a Site by Using WebMatrix | Microsoft Docs
 author: Rick-Anderson
 description: This tutorial is the final installment in the tutorial set that introduces ASP.NET Web Pages and Microsoft WebMatrix. It discusses how to publish your site t...
-ms.author: riande
+ms.author: wpickett
 ms.date: 05/28/2015
 ms.assetid: 7e85c70e-1a88-4408-8b3d-29611c7713ed
 msc.legacyurl: /web-pages/overview/getting-started/introducing-aspnet-web-pages-2/publishing
@@ -208,3 +208,4 @@ Go to the live site (you can click the link in the success message if it's still
 
 > [!div class="step-by-step"]
 > [Previous](layouts.md)
+

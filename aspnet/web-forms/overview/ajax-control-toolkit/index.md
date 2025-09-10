@@ -3,7 +3,7 @@ uid: web-forms/overview/ajax-control-toolkit/index
 title: "Older Versions - Ajax Control Toolkit | Microsoft Docs"
 author: rick-anderson
 description: "How to get started with the Ajax Control Toolkit, and how to use some of the most popular controls."
-ms.author: riande
+ms.author: tdykstra
 ms.date: 10/05/2011
 ms.assetid: 76242ce9-e611-41d2-95e8-dc5f406d4bfc
 msc.legacyurl: /web-forms/overview/ajax-control-toolkit
@@ -163,3 +163,4 @@ msc.type: chapter
     - [Using TextBoxWatermark With Validation Controls (C#)](textboxwatermark/using-textboxwatermark-with-validation-controls-cs.md)
     - [Using TextBoxWatermark in a FormView (VB)](textboxwatermark/using-textboxwatermark-in-a-formview-vb.md)
     - [Using TextBoxWatermark With Validation Controls (VB)](textboxwatermark/using-textboxwatermark-with-validation-controls-vb.md)
+

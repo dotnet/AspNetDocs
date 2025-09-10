@@ -3,7 +3,7 @@ uid: web-forms/overview/deployment/advanced-enterprise-web-deployment/customizin
 title: "Customizing Database Deployments for Multiple Environments | Microsoft Docs"
 author: jrjlee
 description: "This topic describes how to tailor the properties of a database to specific target environments as part of the deployment process. Note: The topic assumes th..."
-ms.author: riande
+ms.author: wpickett
 ms.date: 05/04/2012
 ms.assetid: a172979a-1318-4318-a9c6-4f9560d26267
 msc.legacyurl: /web-forms/overview/deployment/advanced-enterprise-web-deployment/customizing-database-deployments-for-multiple-environments
@@ -130,3 +130,4 @@ These articles on MSDN provide more general guidance on database deployment:
 > [!div class="step-by-step"]
 > [Previous](performing-a-what-if-deployment.md)
 > [Next](deploying-database-role-memberships-to-test-environments.md)
+

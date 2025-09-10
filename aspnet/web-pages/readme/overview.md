@@ -3,7 +3,7 @@ uid: web-pages/readme/overview
 title: WebMatrix 1.0 Release Readme | Microsoft Docs
 author: rick-anderson
 description: Provides the WebMatrix and ASP.NET Web Pages (Razor) 1.0 Release Readme and explains changes from previous versions.
-ms.author: riande
+ms.author: wpickett
 ms.date: 01/06/2011
 ms.assetid: 36c5beeb-45a7-48a0-9c30-f82cdf5c5f5f
 msc.legacyurl: /web-pages/readme
@@ -505,4 +505,5 @@ For more information about WebMatrix 1.0, see the following websites:
 - [IIS.net](https://iis.net/)
 - [ASP.NET](https://asp.net/webmatrix)
 - [Microsoft.com/web](https://www.microsoft.com/web)
+
 

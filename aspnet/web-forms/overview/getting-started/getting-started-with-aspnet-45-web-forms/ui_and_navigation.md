@@ -3,7 +3,7 @@ uid: web-forms/overview/getting-started/getting-started-with-aspnet-45-web-forms
 title: "UI and Navigation | Microsoft Docs"
 author: Erikre
 description: "This tutorial series will teach the basics of building an ASP.NET Web Forms application by using ASP.NET 4.5 and Microsoft Visual Studio Express 2013 for We..."
-ms.author: riande
+ms.author: wpickett
 ms.date: 09/08/2014
 ms.assetid: 5c76891d-e515-4885-b576-76bd2c494efe
 msc.legacyurl: /web-forms/overview/getting-started/getting-started-with-aspnet-45-web-forms/ui_and_navigation
@@ -280,3 +280,4 @@ In this tutorial of the series you have added some basic UI, graphics, pages, an
 > [!div class="step-by-step"]
 > [Previous](create_the_data_access_layer.md)
 > [Next](display_data_items_and_details.md)
+

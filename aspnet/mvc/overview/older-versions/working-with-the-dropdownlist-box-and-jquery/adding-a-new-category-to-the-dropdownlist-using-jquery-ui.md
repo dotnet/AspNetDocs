@@ -3,7 +3,7 @@ uid: mvc/overview/older-versions/working-with-the-dropdownlist-box-and-jquery/ad
 title: "Adding a New Category to the DropDownList using jQuery UI | Microsoft Docs"
 author: Rick-Anderson
 description: This third part of a tutorial series describes how to add a new category to the DropDownList object using jQuery UI.
-ms.author: riande
+ms.author: tdykstra
 ms.date: 01/12/2012
 ms.assetid: 44aa1ac4-6ea2-48a2-972d-52710c48eae5
 msc.legacyurl: /mvc/overview/older-versions/working-with-the-dropdownlist-box-and-jquery/adding-a-new-category-to-the-dropdownlist-using-jquery-ui
@@ -132,3 +132,4 @@ In this section you have learned how to create a dialog that can be used to add 
 
 > [!div class="step-by-step"]
 > [Previous](examining-how-aspnet-mvc-scaffolds-the-dropdownlist-helper.md)
+

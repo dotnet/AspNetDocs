@@ -3,7 +3,7 @@ uid: web-forms/overview/older-versions-getting-started/master-pages/nested-maste
 title: "Nested Master Pages (VB) | Microsoft Docs"
 author: rick-anderson
 description: "Shows how to nest one master page within another. (VB)"
-ms.author: riande
+ms.author: wpickett
 ms.date: 07/28/2008
 ms.assetid: 14d9aa1b-4dca-43a0-aa9d-a6e891fee019
 msc.legacyurl: /web-forms/overview/older-versions-getting-started/master-pages/nested-master-pages-vb
@@ -308,3 +308,4 @@ This tutorial series was reviewed by many helpful reviewers. Interested in revie
 
 > [!div class="step-by-step"]
 > [Previous](specifying-the-master-page-programmatically-vb.md)
+

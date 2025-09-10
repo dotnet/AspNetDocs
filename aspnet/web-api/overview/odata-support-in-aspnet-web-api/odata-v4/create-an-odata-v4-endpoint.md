@@ -3,7 +3,7 @@ uid: web-api/overview/odata-support-in-aspnet-web-api/odata-v4/create-an-odata-v
 title: "Create an OData v4 Endpoint Using ASP.NET Web API 2.2 | Microsoft Docs"
 author: rick-anderson
 description: "The Open Data Protocol (OData) is a data access protocol for the web. OData provides a uniform way to query and manipulate data sets through CRUD operations..."
-ms.author: riande
+ms.author: tdykstra
 ms.date: 01/23/2019
 ms.assetid: 1e1927c0-ded1-4752-80fd-a146628d2f09
 msc.legacyurl: /web-api/overview/odata-support-in-aspnet-web-api/odata-v4/create-an-odata-v4-endpoint
@@ -166,3 +166,4 @@ In the case of PATCH, the controller uses the **Delta&lt;T&gt;** type to track t
 To enable clients to delete a product from the database, add the following method to `ProductsController`.
 
 [!code-csharp[Main](create-an-odata-v4-endpoint/samples/sample12.cs)]
+

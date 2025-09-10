@@ -3,7 +3,7 @@ uid: mvc/overview/older-versions-1/controllers-and-routing/creating-a-controller
 title: "Creating a Controller (VB) | Microsoft Docs"
 author: StephenWalther
 description: "In this tutorial, Stephen Walther demonstrates how you can add a controller to an ASP.NET MVC application. (VB)"
-ms.author: riande
+ms.author: tdykstra
 ms.date: 03/02/2009
 ms.assetid: 204b7e86-f560-4611-8adb-785b33e777b9
 msc.legacyurl: /mvc/overview/older-versions-1/controllers-and-routing/creating-a-controller-vb
@@ -80,3 +80,4 @@ The controller in Listing 3 exposes one action named Index() that returns the st
 > [!div class="step-by-step"]
 > [Previous](adding-dynamic-content-to-a-cached-page-vb.md)
 > [Next](creating-an-action-vb.md)
+

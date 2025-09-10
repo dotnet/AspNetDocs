@@ -3,7 +3,7 @@ uid: mvc/overview/older-versions-1/controllers-and-routing/adding-dynamic-conten
 title: "Adding Dynamic Content to a Cached Page (C#) | Microsoft Docs"
 author: rick-anderson
 description: "Learn how to mix dynamic and cached content in the same page. Post-cache substitution enables you to display dynamic content, such as banner advertisements o... (C#)"
-ms.author: riande
+ms.author: tdykstra
 ms.date: 01/27/2009
 ms.assetid: 2ddd4407-d143-4a94-877c-21771bfb97a6
 msc.legacyurl: /mvc/overview/older-versions-1/controllers-and-routing/adding-dynamic-content-to-a-cached-page-cs
@@ -88,3 +88,4 @@ Take advantage of caching whenever possible – it can have a dramatic impact on
 > [!div class="step-by-step"]
 > [Previous](improving-performance-with-output-caching-cs.md)
 > [Next](creating-a-controller-cs.md)
+

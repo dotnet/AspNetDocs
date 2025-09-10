@@ -3,7 +3,7 @@ uid: web-api/overview/formats-and-model-binding/model-validation-in-aspnet-web-a
 title: "Model Validation in ASP.NET Web API - ASP.NET 4.x"
 author: rick-anderson
 description: "Overview of model validation in ASP.NET Web API for ASP.NET 4.x."
-ms.author: riande
+ms.author: tdykstra
 ms.date: 07/20/2012
 ms.assetid: 7d061207-22b8-4883-bafa-e89b1e7749ca
 msc.legacyurl: /web-api/overview/formats-and-model-binding/model-validation-in-aspnet-web-api
@@ -77,3 +77,4 @@ To apply this filter to all Web API controllers, add an instance of the filter t
 Another option is to set the filter as an attribute on individual controllers or controller actions:
 
 [!code-csharp[Main](model-validation-in-aspnet-web-api/samples/sample12.cs)]
+

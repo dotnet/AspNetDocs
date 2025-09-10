@@ -3,7 +3,7 @@ uid: web-api/overview/releases/whats-new-in-aspnet-web-api-22
 title: "What's New in ASP.NET Web API 2.2 | Microsoft Docs"
 author: rick-anderson
 description: "This topic describes what's new for ASP.NET Web API 2.2, including new features and bug fixes."
-ms.author: riande
+ms.author: tdykstra
 ms.date: 12/25/2014
 ms.assetid: 99c59ae4-167e-4f66-a6cd-d3f1098c4e4a
 msc.legacyurl: /web-api/overview/releases/whats-new-in-aspnet-web-api-22
@@ -174,3 +174,4 @@ In this release we have made a dependency change for `Json.Net 6.0.4`. For more 
 ## Microsoft.AspNet.WebAPI 5.2.3 Beta
 
 You can read about the release [here](https://devblogs.microsoft.com/dotnet/asp-net-mvc-5-2-3-web-pages-3-2-3-and-web-api-5-2-3-beta-releases/). This release contains only bug fixes.
+

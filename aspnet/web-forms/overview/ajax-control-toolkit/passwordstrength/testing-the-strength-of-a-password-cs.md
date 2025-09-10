@@ -3,7 +3,7 @@ uid: web-forms/overview/ajax-control-toolkit/passwordstrength/testing-the-streng
 title: "Testing the Strength of a Password (C#) | Microsoft Docs"
 author: wenz
 description: "Passwords are required almost anywhere, so that lazy users tend to choose simple passwords which are easy to break. The PasswordStrength control in the ASP.N... (C#)"
-ms.author: riande
+ms.author: tdykstra
 ms.date: 06/02/2008
 ms.assetid: cb4afbae-9b8f-483d-9729-476d4b9f85fc
 msc.legacyurl: /web-forms/overview/ajax-control-toolkit/passwordstrength/testing-the-strength-of-a-password-cs
@@ -41,3 +41,4 @@ Now the password is (quite) good ([Click to view full-size image](testing-the-st
 
 > [!div class="step-by-step"]
 > [Next](testing-the-strength-of-a-password-vb.md)
+

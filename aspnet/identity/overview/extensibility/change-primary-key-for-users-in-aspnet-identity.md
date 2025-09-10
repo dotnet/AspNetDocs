@@ -3,7 +3,7 @@ uid: identity/overview/extensibility/change-primary-key-for-users-in-aspnet-iden
 title: "Change Primary Key for Users in ASP.NET Identity - ASP.NET 4.x"
 author: Rick-Anderson
 description: "In Visual Studio 2013, the default web application uses a string value for the key for user accounts. ASP.NET Identity enables you to change the type of the..."
-ms.author: riande
+ms.author: tdykstra
 ms.date: 09/30/2014
 ms.assetid: 44925849-5762-4504-a8cd-8f0cd06f6dc3
 msc.legacyurl: /identity/overview/extensibility/change-primary-key-for-users-in-aspnet-identity
@@ -270,3 +270,4 @@ If you have previously created the ASP.NET Identity tables with a different prim
 - [Migrating an Existing Website from SQL Membership to ASP.NET Identity](../migrations/migrating-an-existing-website-from-sql-membership-to-aspnet-identity.md)
 - [Migrating Universal Provider Data for Membership and User Profiles to ASP.NET Identity](../migrations/migrating-universal-provider-data-for-membership-and-user-profiles-to-aspnet-identity.md)
 - [Sample application](https://github.com/aspnet/samples/tree/master/samples/aspnet/Identity/ChangePK) with changed primary key
+

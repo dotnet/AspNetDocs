@@ -3,7 +3,7 @@ uid: web-forms/overview/older-versions-security/admin/unlocking-and-approving-us
 title: "Unlocking and Approving User Accounts (C#) | Microsoft Docs"
 author: rick-anderson
 description: "This tutorial shows how to build a web page for administrators to manage users' locked out and approved statuses. We will also see how to approve new users o... (C#)"
-ms.author: riande
+ms.author: wpickett
 ms.date: 04/01/2008
 ms.assetid: 5346aab1-9974-489f-a065-ae3883b8a350
 msc.legacyurl: /web-forms/overview/older-versions-security/admin/unlocking-and-approving-user-accounts-cs
@@ -190,3 +190,4 @@ This tutorial series was reviewed by many helpful reviewers. Interested in revie
 > [!div class="step-by-step"]
 > [Previous](recovering-and-changing-passwords-cs.md)
 > [Next](building-an-interface-to-select-one-user-account-from-many-vb.md)
+

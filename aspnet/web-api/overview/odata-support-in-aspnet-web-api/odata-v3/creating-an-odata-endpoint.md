@@ -3,7 +3,7 @@ uid: web-api/overview/odata-support-in-aspnet-web-api/odata-v3/creating-an-odata
 title: "Creating an OData v3 Endpoint with Web API 2 | Microsoft Docs"
 author: rick-anderson
 description: "The Open Data Protocol (OData) is a data access protocol for the web. OData provides a uniform way to structure data, query the data, and manipulate the data..."
-ms.author: riande
+ms.author: tdykstra
 ms.date: 02/25/2014
 ms.assetid: 262843d6-43a2-4f1c-82d9-0b90ae6df0cf
 msc.legacyurl: /web-api/overview/odata-support-in-aspnet-web-api/odata-v3/creating-an-odata-endpoint
@@ -255,3 +255,4 @@ This format conveys more metadata in the response body, which can add considerab
 - [Add Entity Relations](working-with-entity-relations.md)
 - [Add OData Actions](odata-actions.md)
 - [Call the OData Service From a .NET Client](calling-an-odata-service-from-a-net-client.md)
+

@@ -3,7 +3,7 @@ uid: web-api/overview/getting-started-with-aspnet-web-api/build-a-single-page-ap
 title: "Hands On Lab: Build a Single Page Application (SPA) with ASP.NET Web API and Angular.js - ASP.NET 4.x"
 author: rick-anderson
 description: "Step by step code: Build a Single Page Application (SPA) with ASP.NET Web API and Angular.js for ASP.NET 4.x."
-ms.author: riande
+ms.author: tdykstra
 ms.date: 09/30/2015
 ms.assetid: 719727b7-bef3-45ad-bfe9-ba5bcdb2305f
 msc.legacyurl: /web-api/overview/getting-started-with-aspnet-web-api/build-a-single-page-application-spa-with-aspnet-web-api-and-angularjs
@@ -438,3 +438,4 @@ By completing this hands-on lab you have learned how to:
 - Install AngularJS from the Visual Studio Package Manager Console
 - Implement AngularJS templates and controllers
 - Use CSS3 transitions to perform animation effects
+

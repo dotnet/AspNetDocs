@@ -3,7 +3,7 @@ uid: web-forms/overview/ajax-control-toolkit/slider/index
 title: "Slider | Microsoft Docs"
 author: rick-anderson
 description: "This tutorial shows how to use the Slider control to display a graphical slider that users can control using the mouse."
-ms.author: riande
+ms.author: tdykstra
 ms.date: 11/14/2011
 ms.assetid: fd7812d1-55d7-4e4a-96c8-1614b375db56
 msc.legacyurl: /web-forms/overview/ajax-control-toolkit/slider
@@ -17,3 +17,4 @@ msc.type: chapter
 - [Databinding the Slider Control (C#)](databinding-the-slider-control-cs.md)
 - [Slider Control With Auto-Postback (VB)](using-the-slider-control-with-auto-postback-vb.md)
 - [Databinding the Slider Control (VB)](databinding-the-slider-control-vb.md)
+

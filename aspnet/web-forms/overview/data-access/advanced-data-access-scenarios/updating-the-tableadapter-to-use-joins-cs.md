@@ -3,7 +3,7 @@ uid: web-forms/overview/data-access/advanced-data-access-scenarios/updating-the-
 title: "Updating the TableAdapter to Use JOINs (C#) | Microsoft Docs"
 author: rick-anderson
 description: "When working with a database it is common to request data that is spread across multiple tables. To retrieve data from two different tables we can use either... (C#)"
-ms.author: riande
+ms.author: tdykstra
 ms.date: 07/18/2007
 ms.assetid: 675531a7-cb54-4dd6-89ac-2636e4c285a5
 msc.legacyurl: /web-forms/overview/data-access/advanced-data-access-scenarios/updating-the-tableadapter-to-use-joins-cs
@@ -222,3 +222,4 @@ This tutorial series was reviewed by many helpful reviewers. Lead reviewers for 
 > [!div class="step-by-step"]
 > [Previous](using-existing-stored-procedures-for-the-typed-dataset-s-tableadapters-cs.md)
 > [Next](adding-additional-datatable-columns-cs.md)
+

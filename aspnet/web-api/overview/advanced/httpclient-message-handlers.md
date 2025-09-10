@@ -3,7 +3,7 @@ uid: web-api/overview/advanced/httpclient-message-handlers
 title: HttpClient Message Handlers in ASP.NET Web API - ASP.NET 4.x
 author: Rick-Anderson
 description: Create custom message handlers for ASP.NET Web API in ASP.NET 4.x
-ms.author: riande
+ms.author: tdykstra
 ms.date: 10/01/2012
 ms.assetid: 5a4b6c80-b2e9-4710-8969-d5076f7f82b8
 msc.legacyurl: /web-api/overview/advanced/httpclient-message-handlers
@@ -52,3 +52,4 @@ To add custom handlers to **HttpClient**, use the **HttpClientFactory.Create** m
 [!code-csharp[Main](httpclient-message-handlers/samples/sample4.cs)]
 
 Message handlers are called in the order that you pass them into the **Create** method. Because handlers are nested, the response message travels in the other direction. That is, the last handler is the first to get the response message.
+

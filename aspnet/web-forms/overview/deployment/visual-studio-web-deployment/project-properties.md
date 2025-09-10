@@ -3,7 +3,7 @@ uid: web-forms/overview/deployment/visual-studio-web-deployment/project-properti
 title: "ASP.NET Web Deployment using Visual Studio: Project Properties | Microsoft Docs"
 author: tdykstra
 description: "This tutorial series shows how to deploy, or publish, an ASP.NET web application to Azure App Service Web Apps or to a third-party hosting provider, by usin..."
-ms.author: riande
+ms.author: wpickett
 ms.date: 02/15/2013
 ms.assetid: ec1cec4c-a75f-47af-a2ba-b1e2f971d24b
 msc.legacyurl: /web-forms/overview/deployment/visual-studio-web-deployment/project-properties
@@ -62,3 +62,4 @@ You have now completed all of the deployment set-up tasks. In the next tutorial,
 > [!div class="step-by-step"]
 > [Previous](web-config-transformations.md)
 > [Next](deploying-to-iis.md)
+

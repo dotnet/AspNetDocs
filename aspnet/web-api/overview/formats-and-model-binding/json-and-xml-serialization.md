@@ -3,7 +3,7 @@ uid: web-api/overview/formats-and-model-binding/json-and-xml-serialization
 title: "JSON and XML Serialization in ASP.NET Web API - ASP.NET 4.x"
 author: rick-anderson
 description: "Describes the JSON and XML formatters in ASP.NET Web API for ASP.NET 4.x."
-ms.author: riande
+ms.author: tdykstra
 ms.date: 05/30/2012
 ms.assetid: 1cd7525d-de5e-4ab6-94f0-51480d3255d1
 msc.legacyurl: /web-api/overview/formats-and-model-binding/json-and-xml-serialization
@@ -231,3 +231,4 @@ If you want to avoid attributes on your model class, there is another option: Cr
 As you design your web API, it is useful to test how your data objects will be serialized. You can do this without creating a controller or invoking a controller action.
 
 [!code-csharp[Main](json-and-xml-serialization/samples/sample23.cs)]
+

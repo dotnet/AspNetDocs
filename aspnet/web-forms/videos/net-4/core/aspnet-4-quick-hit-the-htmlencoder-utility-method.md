@@ -3,7 +3,7 @@ uid: web-forms/videos/net-4/core/aspnet-4-quick-hit-the-htmlencoder-utility-meth
 title: The HtmlEncoder Utility Method | Microsoft Docs
 author: JoeStagner
 description: "In this video you will learn about the HtmlEncoder utility method."
-ms.author: riande
+ms.author: wpickett
 ms.date: 11/11/2009
 ms.assetid: e1f67fe5-32ce-409b-bba4-d8f730851b33
 msc.legacyurl: /web-forms/videos/net-4/core/aspnet-4-quick-hit-the-htmlencoder-utility-method
@@ -19,3 +19,4 @@ In this video you will learn about the HtmlEncoder utility method.
 
 > [!div class="step-by-step"]
 > [Previous](aspnet-4-quick-hit-predictable-client-ids.md)
+

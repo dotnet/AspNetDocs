@@ -3,7 +3,7 @@ uid: web-forms/overview/older-versions-security/admin/recovering-and-changing-pa
 title: "Recovering and Changing Passwords (VB) | Microsoft Docs"
 author: rick-anderson
 description: "ASP.NET includes two Web controls for assisting with recovering and changing passwords. The PasswordRecovery control enables a visitor to recover his lost pa... (VB)"
-ms.author: riande
+ms.author: wpickett
 ms.date: 04/01/2008
 ms.assetid: f9adcb5d-6d70-4885-a3bf-ed95efb4da1a
 msc.legacyurl: /web-forms/overview/older-versions-security/admin/recovering-and-changing-passwords-vb
@@ -274,3 +274,4 @@ This tutorial series was reviewed by many helpful reviewers. Lead reviewers for 
 > [!div class="step-by-step"]
 > [Previous](building-an-interface-to-select-one-user-account-from-many-vb.md)
 > [Next](unlocking-and-approving-user-accounts-vb.md)
+

@@ -3,7 +3,7 @@ uid: mvc/overview/older-versions/getting-started-with-aspnet-mvc4/examining-the-
 title: "Examining the Details and Delete Action Methods | Microsoft Docs"
 author: Rick-Anderson
 description: "In this section, you'll examine the automatically generated Details and Delete methods."
-ms.author: riande
+ms.author: tdykstra
 ms.date: 08/28/2012
 ms.assetid: 11425ff3-09fc-4efa-be9a-b53bce503460
 msc.legacyurl: /mvc/overview/older-versions/getting-started-with-aspnet-mvc4/examining-the-details-and-delete-methods
@@ -65,3 +65,4 @@ Feedback is welcome.
 
 > [!div class="step-by-step"]
 > [Previous](adding-validation-to-the-model.md)
+

@@ -3,7 +3,7 @@ uid: mvc/overview/older-versions-1/nerddinner/use-ajax-to-deliver-dynamic-update
 title: "Use AJAX to Deliver Dynamic Updates | Microsoft Docs"
 author: rick-anderson
 description: "Step 10 implements support for logged-in users to RSVP their interest in attending a dinner, using an Ajax-based approach integrated within the dinner detail..."
-ms.author: riande
+ms.author: tdykstra
 ms.date: 07/27/2010
 ms.assetid: 18700815-8e6c-4489-91af-7ea9dab6529e
 msc.legacyurl: /mvc/overview/older-versions-1/nerddinner/use-ajax-to-deliver-dynamic-updates
@@ -144,3 +144,4 @@ Let's now look at how we can use AJAX even further and add interactive mapping s
 > [!div class="step-by-step"]
 > [Previous](secure-applications-using-authentication-and-authorization.md)
 > [Next](use-ajax-to-implement-mapping-scenarios.md)
+

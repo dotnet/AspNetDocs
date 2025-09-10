@@ -3,7 +3,7 @@ uid: mvc/overview/security/preventing-open-redirection-attacks
 title: "Preventing Open Redirection Attacks (C#) | Microsoft Docs"
 author: jongalloway
 description: "This tutorial explains how you can prevent open redirection attacks in your ASP.NET MVC applications. This tutorial discusses the changes that have been made..."
-ms.author: riande
+ms.author: tdykstra
 ms.date: 02/27/2014
 ms.assetid: 69fb02e0-f5b7-4c35-878c-fa87164fc785
 msc.legacyurl: /mvc/overview/security/preventing-open-redirection-attacks
@@ -113,3 +113,4 @@ After successfully logging in, we are redirected to the Home/Index Controller ac
 ## Summary
 
 Open redirection attacks can occur when redirection URLs are passed as parameters in the URL for an application. The ASP.NET MVC 3 template includes code to protect against open redirection attacks. You can add this code with some modification to ASP.NET MVC 1.0 and 2 applications. To protect against open redirection attacks when logging into ASP.NET 1.0 and 2 applications, add a IsLocalUrl() method and validate the returnUrl parameter in the LogOn action.
+

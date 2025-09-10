@@ -3,7 +3,7 @@ uid: web-api/overview/testing-and-debugging/troubleshooting-http-405-errors-afte
 title: Troubleshoot Web API2 apps that work in Visual Studio and fail on a production IIS server
 author: rmcmurray
 description: Troubleshoot Web API2 apps that work in Visual Studio and fail on a production IIS server
-ms.author: riande
+ms.author: tdykstra
 ms.date: 01/23/2019
 ms.assetid: 07ec7d37-023f-43ea-b471-60b08ce338f7
 msc.legacyurl: /web-api/overview/testing-and-debugging/troubleshooting-http-405-errors-after-publishing-web-api-applications
@@ -94,3 +94,4 @@ To resolve that issue, you would need to reinstall any application that is attem
 ## Summary
 
 HTTP 405 errors are caused when an HTTP method is not allowed by a web server for a requested URL. This condition is often seen when a particular handler has been defined for a specific verb, and that handler is overriding the handler that you expect to process the request.
+

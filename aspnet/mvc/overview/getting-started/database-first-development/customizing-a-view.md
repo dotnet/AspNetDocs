@@ -3,7 +3,7 @@ uid: mvc/overview/getting-started/database-first-development/customizing-a-view
 title: "Tutorial: Customize view for EF Database First with ASP.NET MVC app"
 description: "This tutorial focuses on changing the automatically-generated views to enhance the presentation."
 author: Rick-Anderson
-ms.author: riande
+ms.author: tdykstra
 ms.date: 01/24/2019
 ms.topic: tutorial
 ms.assetid: 269380ff-d7e1-4035-8ad1-fe1316a25f76
@@ -53,3 +53,4 @@ In this tutorial, you:
 Advance to the next tutorial to learn how to add data annotations to specify validation requirements and display formatting.
 > [!div class="nextstepaction"]
 > [Enhance data validation](enhancing-data-validation.md)
+

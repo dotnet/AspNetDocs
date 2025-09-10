@@ -3,7 +3,7 @@ uid: web-forms/overview/older-versions-getting-started/deployment-to-a-hosting-p
 title: "Deploying an ASP.NET Web Application with SQL Server Compact using Visual Studio or Visual Web Developer: Deploying SQL Server Compact Databases - 2 of 12 | Microsoft Docs"
 author: tdykstra
 description: "This series of tutorials shows you how to deploy (publish) an ASP.NET web application project that includes a SQL Server Compact database by using Visual Stu... (2 of 12)"
-ms.author: riande
+ms.author: wpickett
 ms.date: 11/17/2011
 ms.assetid: c3c76516-4c48-4153-bd03-d70e3a3edbb0
 msc.legacyurl: /web-forms/overview/older-versions-getting-started/deployment-to-a-hosting-provider/deployment-to-a-hosting-provider-deploying-sql-server-compact-databases-2-of-12
@@ -236,3 +236,4 @@ For more information on NuGet, see [Manage Project Libraries with NuGet](https:/
 > [!div class="step-by-step"]
 > [Previous](deployment-to-a-hosting-provider-introduction-1-of-12.md)
 > [Next](deployment-to-a-hosting-provider-web-config-file-transformations-3-of-12.md)
+

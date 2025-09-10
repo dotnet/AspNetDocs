@@ -3,7 +3,7 @@ uid: web-pages/overview/testing-and-debugging/introduction-to-debugging
 title: "Introduction to Debugging ASP.NET Web Pages (Razor) Sites | Microsoft Docs"
 author: Rick-Anderson
 description: "Debugging is the process of finding and fixing errors in your code pages. This chapter shows you some tools and techniques you can use to debug and to analyz..."
-ms.author: riande
+ms.author: wpickett
 ms.date: 02/20/2014
 ms.assetid: 68de4326-7611-4b9b-b5f6-79b7adc3069f
 msc.legacyurl: /web-pages/overview/testing-and-debugging/introduction-to-debugging
@@ -131,3 +131,4 @@ For information about using the integrated debugger in Visual Studio to debug AS
 - [Programming ASP.NET Web Pages (Razor) Using Visual Studio](https://go.microsoft.com/fwlink/?LinkId=205854)
 - [IIS Server Variables](https://msdn.microsoft.com/library/ms524602(VS.90).aspx) (MSDN)
 - [Recognized Environment Variables](https://technet.microsoft.com/library/dd560744(WS.10).aspx) (TechNet)
+

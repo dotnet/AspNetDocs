@@ -3,7 +3,7 @@ uid: web-api/overview/older-versions/build-restful-apis-with-aspnet-web-api
 title: "Build RESTful APIs with ASP.NET Web API - ASP.NET 4.x"
 author: rick-anderson
 description: "Hands on lab: Use Web API in ASP.NET 4.x to build a simple REST API for a contact manager application."
-ms.author: riande
+ms.author: tdykstra
 ms.date: 02/18/2013
 ms.assetid: 87daa99f-3810-407e-b969-dd28a192959d
 msc.legacyurl: /web-api/overview/older-versions/build-restful-apis-with-aspnet-web-api
@@ -652,3 +652,4 @@ If your application makes use of SQL Server databases you will need to create a 
     ![Application published to Windows Azure](build-restful-apis-with-aspnet-web-api/_static/image59.png "Application published to Windows Azure")
 
     *Application published to Azure*
+

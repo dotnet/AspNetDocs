@@ -3,7 +3,7 @@ uid: web-forms/overview/data-access/editing-inserting-and-deleting-data/handling
 title: "Handling BLL- and DAL-Level Exceptions in an ASP.NET Page (VB) | Microsoft Docs"
 author: rick-anderson
 description: "In this tutorial we will see how to display a friendly, informative error message should an exception occur during an insert, update, or delete operation of... (VB)"
-ms.author: riande
+ms.author: wpickett
 ms.date: 07/17/2006
 ms.assetid: 129d4338-1315-4f40-89b5-2b84b807707d
 msc.legacyurl: /web-forms/overview/data-access/editing-inserting-and-deleting-data/handling-bll-and-dal-level-exceptions-in-an-asp-net-page-vb
@@ -192,3 +192,4 @@ This tutorial series was reviewed by many helpful reviewers. Lead reviewer for t
 > [!div class="step-by-step"]
 > [Previous](examining-the-events-associated-with-inserting-updating-and-deleting-vb.md)
 > [Next](adding-validation-controls-to-the-editing-and-inserting-interfaces-vb.md)
+

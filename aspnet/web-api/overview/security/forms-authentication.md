@@ -3,7 +3,7 @@ uid: web-api/overview/security/forms-authentication
 title: "Forms Authentication in ASP.NET Web API | Microsoft Docs"
 author: Rick-Anderson
 description: "Describes using Forms Authentication in ASP.NET Web API."
-ms.author: riande
+ms.author: tdykstra
 ms.date: 12/12/2012
 ms.assetid: 9f06c1f2-ffaa-4831-94a0-2e4a3befdf07
 msc.legacyurl: /web-api/overview/security/forms-authentication
@@ -40,3 +40,4 @@ In your web API controllers, you can restrict access by using the `[Authorize]` 
 Forms-authentication uses a session cookie to authenticate requests. Browsers automatically send all relevant cookies to the destination web site. This feature makes forms authentication potentially vulnerable to cross-site request forgery (CSRF) attacks See [Preventing Cross-Site Request Forgery (CSRF) Attacks](preventing-cross-site-request-forgery-csrf-attacks.md).
 
 Forms authentication does not encrypt the user's credentials. Therefore, forms authentication is not secure unless used with SSL. See [Working with SSL in Web API](working-with-ssl-in-web-api.md).
+

@@ -3,7 +3,7 @@ uid: web-api/overview/hosting-aspnet-web-api/host-aspnet-web-api-in-an-azure-wor
 title: "Host ASP.NET Web API 2 in an Azure Worker Role - ASP.NET 4.x"
 author: rick-anderson
 description: "Tutorial: Host ASP.NET Web API in an Azure Worker Role, using OWIN to self-host the Web API framework."
-ms.author: riande
+ms.author: tdykstra
 ms.date: 04/02/2014
 ms.assetid: 6980ee2e-d6b0-4a08-8fb6-ab96362dd0e3
 msc.legacyurl: /web-api/overview/hosting-aspnet-web-api/host-aspnet-web-api-in-an-azure-worker-role
@@ -155,3 +155,4 @@ Click **Publish**.
 
 - [An Overview of Project Katana](../../../aspnet/overview/owin-and-katana/an-overview-of-project-katana.md)
 - [Katana Project on GitHub](https://github.com/aspnet/AspNetKatana)
+

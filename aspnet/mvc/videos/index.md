@@ -3,7 +3,7 @@ uid: mvc/videos/index
 title: "ASP.NET Videos | Microsoft Docs"
 author: rick-anderson
 description: "ASP.NET MVC application resource videos"
-ms.author: riande
+ms.author: tdykstra
 ms.date: 02/27/2024
 ms.assetid: e618c37c-68f3-49aa-9fda-f86cb3b578b9
 msc.legacyurl: /mvc/videos
@@ -19,3 +19,4 @@ msc.type: book
 
     - [MVC 3 - Razor View Engine](mvc-3/mvc-3-razor-view-engine.md)
     - [MVC 3 - Razor Helpers](mvc-3/mvc-3-razor-helpers.md)
+

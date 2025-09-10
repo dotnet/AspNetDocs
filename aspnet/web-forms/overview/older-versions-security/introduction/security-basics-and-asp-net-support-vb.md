@@ -3,7 +3,7 @@ uid: web-forms/overview/older-versions-security/introduction/security-basics-and
 title: "Security Basics and ASP.NET Support (VB) | Microsoft Docs"
 author: rick-anderson
 description: "This is the first tutorial in a series of tutorials that will explore techniques for authenticating visitors through a web form, authorizing access to partic... (VB)"
-ms.author: riande
+ms.author: wpickett
 ms.date: 01/13/2008
 ms.assetid: ab68a92b-fc81-40a4-a7dc-406625d2c5d4
 msc.legacyurl: /web-forms/overview/older-versions-security/introduction/security-basics-and-asp-net-support-vb
@@ -181,3 +181,4 @@ This tutorial series was reviewed by many helpful reviewers. Lead reviewer for t
 
 > [!div class="step-by-step"]
 > [Next](an-overview-of-forms-authentication-vb.md)
+

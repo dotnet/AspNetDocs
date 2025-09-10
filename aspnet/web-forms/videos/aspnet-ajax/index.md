@@ -3,7 +3,7 @@ uid: web-forms/videos/aspnet-ajax/index
 title: "ASP.NET AJAX | Microsoft Docs"
 author: rick-anderson
 description: "Ways to work with ASP.NET AJAX to create highly responsive pages, even if you're not a JavaScript expert."
-ms.author: riande
+ms.author: wpickett
 ms.date: 10/05/2011
 ms.assetid: 754b8c66-cefc-42d6-9f02-685efabdfcc6
 msc.legacyurl: /web-forms/videos/aspnet-ajax
@@ -56,3 +56,4 @@ msc.type: chapter
 - [Set Up Your Development Environment for ASP.NET 2.0](set-up-your-development-environment-for-aspnet-20.md)
 - [Customize Error Handling for the ASP.NET AJAX UpdatePanel](how-do-i-customize-error-handling-for-the-aspnet-ajax-updatepanel.md)
 - [Use ASP.NET AJAX Client Templates](how-do-i-use-aspnet-ajax-client-templates.md)
+

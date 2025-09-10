@@ -3,7 +3,7 @@ uid: web-forms/videos/sql-2005/more-about-column-data-types-and-other-properties
 title: "More about Column Data Types and Other Properties | Microsoft Docs"
 author: rick-anderson
 description: "SQL Server beginners will explore data integrity, learn which data types to use for what, and avoid common data type pitfalls."
-ms.author: riande
+ms.author: wpickett
 ms.date: 02/22/2006
 ms.assetid: 8fcd3402-1711-4f19-b0cc-b91edfe285fc
 msc.legacyurl: /web-forms/videos/sql-2005/more-about-column-data-types-and-other-properties
@@ -20,3 +20,4 @@ SQL Server beginners will explore data integrity, learn which data types to use 
 > [!div class="step-by-step"]
 > [Previous](understanding-database-tables-and-records.md)
 > [Next](designing-relational-database-tables.md)
+

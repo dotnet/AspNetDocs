@@ -3,7 +3,7 @@ uid: web-forms/overview/moving-to-aspnet-20/improvements-in-visual-studio-2005
 title: "Improvements in Visual Studio 2005 | Microsoft Docs"
 author: rick-anderson
 description: "Visual Studio 2005 provides Web application developers with a long list of improvements and enhancements to Web projects."
-ms.author: riande
+ms.author: wpickett
 ms.date: 02/20/2005
 ms.assetid: 72d90cd0-b3d9-454c-b2eb-ed0d9812f32c
 msc.legacyurl: /web-forms/overview/moving-to-aspnet-20/improvements-in-visual-studio-2005
@@ -391,3 +391,4 @@ The ASP.NET Development Server can be launched via the command line by running t
 
 > [!NOTE]
 > The ASP.NET Development Server is not supported when launched explicitly via the command line.
+

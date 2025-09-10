@@ -3,7 +3,7 @@ uid: web-pages/videos/aspnet-razor-pages/adding-search-to-your-web-site
 title: "Adding Search to Your Web Site | Microsoft Docs"
 author: JoeStagner
 description: "Video accompaniment to the Adding Search to Your Web Site tutorial"
-ms.author: riande
+ms.author: wpickett
 ms.date: 02/25/2011
 ms.assetid: 78046868-917c-473e-9c89-4ad28a76514b
 msc.legacyurl: /web-pages/videos/aspnet-razor-pages/adding-search-to-your-web-site
@@ -20,3 +20,4 @@ Video accompaniment to the Adding Search to Your Web Site tutorial
 > [!div class="step-by-step"]
 > [Previous](adding-email-to-your-web-site.md)
 > [Next](adding-social-networking-to-your-website.md)
+

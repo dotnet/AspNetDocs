@@ -3,7 +3,7 @@ uid: web-forms/overview/getting-started/using-page-inspector-in-a-visual-studio-
 title: "Using Page Inspector for Visual Studio 2012 in ASP.NET Web Forms | Microsoft Docs"
 author: rick-anderson
 description: "Page Inspector for Visual Studio 2012 is a web development tool with an integrated browser. Select any element in the integrated browser, and Page Inspector..."
-ms.author: riande
+ms.author: wpickett
 ms.date: 08/15/2012
 ms.assetid: 2ece0bf4-aae5-4ff4-8f62-28e0819d4f86
 msc.legacyurl: /web-forms/overview/getting-started/using-page-inspector-in-a-visual-studio-11-beta-web-forms-project
@@ -282,3 +282,4 @@ To save all your files and refresh the Page Inspector browser, press Ctrl+Alt+En
 [Introducing Page Inspector](https://channel9.msdn.com/posts/visual-studio-vnext-introducing-page-inspector) (Channel 9 video)
 
 [Page Inspector Error Messages](https://go.microsoft.com/?linkid=9813062) (MSDN)
+

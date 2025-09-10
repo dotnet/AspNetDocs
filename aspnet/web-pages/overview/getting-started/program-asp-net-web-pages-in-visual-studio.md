@@ -3,7 +3,7 @@ uid: web-pages/overview/getting-started/program-asp-net-web-pages-in-visual-stud
 title: "Programming ASP.NET Web Pages (Razor) Using Visual Studio | Microsoft Docs"
 author: Rick-Anderson
 description: "This appendix explains how you can use Visual Studio 2010 or Visual Web Developer 2010 Express to program ASP.NET Web Pages with the Razor syntax."
-ms.author: riande
+ms.author: wpickett
 ms.date: 02/13/2014
 ms.assetid: 0acfec5a-48f2-4766-a801-a0f426966f0a
 msc.legacyurl: /web-pages/overview/getting-started/program-asp-net-web-pages-in-visual-studio
@@ -139,3 +139,4 @@ This section shows how to install Visual Web Developer Express 2010 and the ASP.
 
     ![WebPi install options](program-asp-net-web-pages-in-visual-studio/_static/image11.png)
 5. Click **Install** to complete the installation.
+

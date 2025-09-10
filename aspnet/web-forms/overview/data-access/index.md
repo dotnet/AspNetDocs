@@ -3,7 +3,7 @@ uid: web-forms/overview/data-access/index
 title: "Older Versions - Data Access | Microsoft Docs"
 author: rick-anderson
 description: "How to perform a variety of data-related tasks using ASP.NET Web Forms data controls."
-ms.author: riande
+ms.author: tdykstra
 ms.date: 10/05/2011
 ms.assetid: cf54a6fb-a362-4481-b967-c158b98092f7
 msc.legacyurl: /web-forms/overview/data-access
@@ -195,3 +195,4 @@ msc.type: chapter
     - [Protecting Connection Strings and Other Configuration Information (VB)](advanced-data-access-scenarios/protecting-connection-strings-and-other-configuration-information-vb.md)
     - [Debugging Stored Procedures (VB)](advanced-data-access-scenarios/debugging-stored-procedures-vb.md)
     - [Creating Stored Procedures and User-Defined Functions with Managed Code (VB)](advanced-data-access-scenarios/creating-stored-procedures-and-user-defined-functions-with-managed-code-vb.md)
+

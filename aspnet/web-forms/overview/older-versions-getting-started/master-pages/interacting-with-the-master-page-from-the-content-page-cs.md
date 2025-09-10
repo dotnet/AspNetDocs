@@ -3,7 +3,7 @@ uid: web-forms/overview/older-versions-getting-started/master-pages/interacting-
 title: "Interacting with the Master Page from the Content Page (C#) | Microsoft Docs"
 author: rick-anderson
 description: "Examines how to call methods, set properties, etc. of the Master Page from code in the Content Page. (C#)"
-ms.author: riande
+ms.author: wpickett
 ms.date: 07/11/2008
 ms.assetid: 32d54638-71b2-491d-81f4-f7417a13a62f
 msc.legacyurl: /web-forms/overview/older-versions-getting-started/master-pages/interacting-with-the-master-page-from-the-content-page-cs
@@ -234,3 +234,4 @@ This tutorial series was reviewed by many helpful reviewers. Lead reviewer for t
 > [!div class="step-by-step"]
 > [Previous](control-id-naming-in-content-pages-cs.md)
 > [Next](interacting-with-the-content-page-from-the-master-page-cs.md)
+

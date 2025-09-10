@@ -3,7 +3,7 @@ uid: single-page-application/overview/templates/backbonejs-template
 title: "Backbone Template | Microsoft Docs"
 author: madskristensen
 description: "Backbone.js SPA Template"
-ms.author: riande
+ms.author: tdykstra
 ms.date: 04/04/2013
 ms.assetid: 00aca413-f067-4108-9bd1-cf21e64a2646
 msc.legacyurl: /single-page-application/overview/templates/backbonejs-template
@@ -127,3 +127,4 @@ To send email, the template uses [Postal](http://aboutcode.net/postal). However,
 ## GitHub
 
 You can also find the Backbone.js SPA template on [GitHub](https://github.com/kazimanzurrashid/AspNetMvcBackboneJsSpa).
+

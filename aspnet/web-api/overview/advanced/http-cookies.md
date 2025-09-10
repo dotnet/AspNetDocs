@@ -3,7 +3,7 @@ uid: web-api/overview/advanced/http-cookies
 title: HTTP Cookies in ASP.NET Web API - ASP.NET 4.x
 author: Rick-Anderson
 description: "Describes how to send and receive HTTP cookies in Web API for ASP.NET 4.x."
-ms.author: riande
+ms.author: tdykstra
 ms.date: 09/17/2012
 ms.assetid: 243db2ec-8f67-4a5e-a382-4ddcec4b4164
 msc.legacyurl: /web-api/overview/advanced/http-cookies
@@ -100,3 +100,4 @@ This implementation does not validate that the session ID from the client was ac
 A controller can get the session ID from the **HttpRequestMessage.Properties** property bag.
 
 [!code-csharp[Main](http-cookies/samples/sample12.cs)]
+

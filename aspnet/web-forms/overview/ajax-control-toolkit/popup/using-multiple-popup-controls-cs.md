@@ -3,7 +3,7 @@ uid: web-forms/overview/ajax-control-toolkit/popup/using-multiple-popup-controls
 title: "Using Multiple Popup Controls (C#) | Microsoft Docs"
 author: wenz
 description: "The PopupControl extender in the AJAX Control Toolkit offers an easy way to trigger a popup when any other control is activated. It is also possible to use m... (C#)"
-ms.author: riande
+ms.author: tdykstra
 ms.date: 06/02/2008
 ms.assetid: 91511b0b-311d-481f-9e7c-73f07b813b79
 msc.legacyurl: /web-forms/overview/ajax-control-toolkit/popup/using-multiple-popup-controls-cs
@@ -47,3 +47,4 @@ The Calendar appears when the user clicks into the textbox ([Click to view full-
 
 > [!div class="step-by-step"]
 > [Next](handling-postbacks-from-a-popup-control-with-an-updatepanel-cs.md)
+

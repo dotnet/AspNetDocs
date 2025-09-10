@@ -3,7 +3,7 @@ uid: mvc/overview/older-versions-1/overview/asp-net-mvc-overview
 title: "ASP.NET MVC Overview | Microsoft Docs"
 author: rick-anderson
 description: "Learn about the differences between ASP.NET MVC application and ASP.NET Web Forms applications. Learn how to decide when to build an ASP.NET MVC application."
-ms.author: riande
+ms.author: tdykstra
 ms.date: 01/27/2009
 ms.assetid: 2dcb44a4-5cbf-4d62-b363-718104082d86
 msc.legacyurl: /mvc/overview/older-versions-1/overview/asp-net-mvc-overview
@@ -74,3 +74,4 @@ The ASP.NET MVC framework provides the following features:
 - A powerful URL-mapping component that lets you build applications that have comprehensible and searchable URLs. URLs do not have to include file-name extensions, and are designed to support URL naming patterns that work well for search engine optimization (SEO) and representational state transfer (REST) addressing.
 - Support for using the markup in existing ASP.NET page (.aspx files), user control (.ascx files), and master page (.master files) markup files as view templates. You can use existing ASP.NET features with the ASP.NET MVC framework, such as nested master pages, in-line expressions (&lt;%= %&gt;), declarative server controls, templates, data-binding, localization, and so on.
 - Support for existing ASP.NET features. ASP.NET MVC lets you use features such as forms authentication and Windows authentication, URL authorization, membership and roles, output and data caching, session and profile state management, health monitoring, the configuration system, and the provider architecture.
+

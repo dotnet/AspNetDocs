@@ -3,7 +3,7 @@ uid: ajax/cdn/jquery-validate/cdnjqueryvalidate19
 title: "jquery.validate version 1.9 | Microsoft Docs"
 author: rick-anderson
 description: This article provides a list of the files that are included in the jquery.validate version 1.9 hosted on the CDN.
-ms.author: riande
+ms.author: tdykstra
 ms.date: 07/23/2014
 ms.assetid: 26c7a53e-576b-4925-8272-6e58dbc8a0ea
 msc.legacyurl: /ajax/cdn/jquery-validate/cdnjqueryvalidate19
@@ -17,3 +17,4 @@ The following files are hosted on the CDN:
 - https://ajax.aspnetcdn.com/ajax/jquery.validate/1.9/jquery.validate.min.js
 - https://ajax.aspnetcdn.com/ajax/jquery.validate/1.9/additional-methods.js
 - https://ajax.aspnetcdn.com/ajax/jquery.validate/1.9/additional-methods.min.js
+

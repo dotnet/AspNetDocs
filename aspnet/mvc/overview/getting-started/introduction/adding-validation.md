@@ -3,7 +3,7 @@ uid: mvc/overview/getting-started/introduction/adding-validation
 title: "Adding Validation | Microsoft Docs"
 author: Rick-Anderson
 description: "In this section you'll add validation logic to the Movie model, and you'll ensure that the validation rules are enforced any time a user attempts to create or edit a movie using the application."
-ms.author: riande
+ms.author: tdykstra
 ms.date: 01/06/2019
 ms.assetid: 9f35ca15-e216-4db6-9ebf-24380b0f31b4
 msc.legacyurl: /mvc/overview/getting-started/introduction/adding-validation
@@ -156,3 +156,4 @@ In the next part of the series, we'll review the application and make some impro
 > [!div class="step-by-step"]
 > [Previous](adding-a-new-field.md)
 > [Next](examining-the-details-and-delete-methods.md)
+

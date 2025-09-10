@@ -3,7 +3,7 @@ uid: web-forms/overview/older-versions-getting-started/getting-started-with-ef/t
 title: "Getting Started with Entity Framework 4.0 Database First and ASP.NET 4 Web Forms - Part 2 | Microsoft Docs"
 author: tdykstra
 description: "The Contoso University sample web application demonstrates how to create ASP.NET Web Forms applications using the Entity Framework. The sample application is... (Part 2)"
-ms.author: riande
+ms.author: wpickett
 ms.date: 12/03/2010
 ms.assetid: fb63a326-a4ae-4b0c-a4f5-412327197216
 msc.legacyurl: /web-forms/overview/older-versions-getting-started/getting-started-with-ef/the-entity-framework-and-aspnet-getting-started-part-2
@@ -245,3 +245,4 @@ This completes the introduction to using the `EntityDataSource` control. Working
 > [!div class="step-by-step"]
 > [Previous](the-entity-framework-and-aspnet-getting-started-part-1.md)
 > [Next](the-entity-framework-and-aspnet-getting-started-part-3.md)
+

@@ -3,7 +3,7 @@ uid: web-forms/overview/ajax-control-toolkit/nobot/fighting-bots-cs
 title: "Fighting Bots (C#) | Microsoft Docs"
 author: wenz
 description: "Automated bots plaster weblogs and other websites with spam, submitting comment forms without any user interaction. The NoBot control in the ASP.NET AJAX Con... (C#)"
-ms.author: riande
+ms.author: tdykstra
 ms.date: 06/02/2008
 ms.assetid: 0a1917e0-884a-4576-8e93-9ed660faae51
 msc.legacyurl: /web-forms/overview/ajax-control-toolkit/nobot/fighting-bots-cs
@@ -63,3 +63,4 @@ This error message could have been caused by a bot ([Click to view full-size ima
 
 > [!div class="step-by-step"]
 > [Next](fighting-bots-vb.md)
+

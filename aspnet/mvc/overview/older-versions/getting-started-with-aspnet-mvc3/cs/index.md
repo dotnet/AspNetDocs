@@ -3,7 +3,7 @@ uid: mvc/overview/older-versions/getting-started-with-aspnet-mvc3/cs/index
 title: "Getting Started with ASP.NET MVC 3 (C#) | Microsoft Docs"
 author: rick-anderson
 description: "The basics of building an ASP.NET MVC Web application using Microsoft Visual Web Developer 2010 Express using C#."
-ms.author: riande
+ms.author: tdykstra
 ms.date: 04/12/2012
 ms.assetid: 807b50ae-2e7c-450c-b559-e04bd56457bd
 msc.legacyurl: /mvc/overview/older-versions/getting-started-with-aspnet-mvc3/cs
@@ -22,3 +22,4 @@ msc.type: chapter
 - [Adding a New Field to the Movie Model and Table (C#)](adding-a-new-field.md)
 - [Adding Validation to the Model (C#)](adding-validation-to-the-model.md)
 - [Improving the Details and Delete Methods (C#)](improving-the-details-and-delete-methods.md)
+

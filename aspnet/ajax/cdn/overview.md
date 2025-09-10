@@ -3,7 +3,7 @@ uid: ajax/cdn/overview
 title: "Microsoft Ajax Content Delivery Network Assets | Microsoft Docs"
 author: rick-anderson
 description: "The Microsoft Ajax Content Delivery Network (CDN) hosts popular third party JavaScript libraries such as jQuery and enables you to easily add them to your Web applications."
-ms.author: riande
+ms.author: wpickett
 ms.date: 04/29/2022
 ms.custom: devdivchpfy22
 ms.assetid: 8935bf14-ca6d-4a4e-9dbe-b96ce74cef49
@@ -1429,3 +1429,4 @@ The following ASP.NET SignalR JavaScript files are hosted on this CDN:
 - https://ajax.aspnetcdn.com/ajax/signalr/jquery.signalr-1.0.1.js
 
 For information about the terms of use for the CDN, see [Microsoft Ajax CDN Terms of Use](https://www.asp.net/terms-of-use "Microsoft Ajax CDN Terms of Use").
+

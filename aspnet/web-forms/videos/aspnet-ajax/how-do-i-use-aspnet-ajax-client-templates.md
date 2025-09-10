@@ -3,7 +3,7 @@ uid: web-forms/videos/aspnet-ajax/how-do-i-use-aspnet-ajax-client-templates
 title: "How Do I: Use ASP.NET AJAX Client Templates | Microsoft Docs"
 author: rick-anderson
 description: "There are two key steps involved in building AJAX interactions, calling services asynchronously and updating the page with the resulting data. ASP.NET AJAX h..."
-ms.author: riande
+ms.author: wpickett
 ms.date: 12/18/2009
 ms.assetid: 2ab9d1eb-25b7-4bb6-b334-b83e45e9fcbb
 msc.legacyurl: /web-forms/videos/aspnet-ajax/how-do-i-use-aspnet-ajax-client-templates
@@ -19,3 +19,4 @@ There are two key steps involved in building AJAX interactions, calling services
 
 > [!div class="step-by-step"]
 > [Previous](how-do-i-customize-error-handling-for-the-aspnet-ajax-updatepanel.md)
+

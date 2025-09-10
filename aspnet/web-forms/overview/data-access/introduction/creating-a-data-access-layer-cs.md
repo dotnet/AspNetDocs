@@ -3,7 +3,7 @@ uid: web-forms/overview/data-access/introduction/creating-a-data-access-layer-cs
 title: "Creating a Data Access Layer (C#) | Microsoft Docs"
 author: rick-anderson
 description: "In this tutorial we'll start from the very beginning and create the Data Access Layer (DAL), using typed DataSets, to access the information in a database. (C#)"
-ms.author: riande
+ms.author: wpickett
 ms.date: 04/05/2010
 ms.assetid: cfe2a6a0-1e56-4dc8-9537-c8ec76ba96a4
 msc.legacyurl: /web-forms/overview/data-access/introduction/creating-a-data-access-layer-cs
@@ -465,3 +465,4 @@ This tutorial series was reviewed by many helpful reviewers. Lead reviewers for 
 
 > [!div class="step-by-step"]
 > [Next](creating-a-business-logic-layer-cs.md)
+

@@ -3,7 +3,7 @@ uid: mvc/overview/older-versions/getting-started-with-ef-5-using-mvc-4/index
 title: "Getting Started with EF 5 using MVC 4 | Microsoft Docs"
 author: rick-anderson
 description: "The basics of using Entity Framework 5 to display and edit data in an ASP.NET MVC 4 application."
-ms.author: riande
+ms.author: tdykstra
 ms.date: 10/26/2013
 ms.assetid: 5bd2e5db-8053-459e-9246-08731a4c8036
 msc.legacyurl: /mvc/overview/older-versions/getting-started-with-ef-5-using-mvc-4
@@ -24,3 +24,4 @@ msc.type: chapter
 - [Implementing the Repository and Unit of Work Patterns](implementing-the-repository-and-unit-of-work-patterns-in-an-asp-net-mvc-application.md)
 - [Advanced Entity Framework Scenarios](advanced-entity-framework-scenarios-for-an-mvc-web-application.md)
 - [Building the Chapter Downloads](building-the-ef5-mvc4-chapter-downloads.md)
+

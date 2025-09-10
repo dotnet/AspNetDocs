@@ -3,7 +3,7 @@ uid: web-pages/overview/getting-started/13-adding-social-networking-to-your-web-
 title: "Adding Social Networking to ASP.NET Web Pages (Razor) Sites | Microsoft Docs"
 author: Rick-Anderson
 description: "This chapter explains how to integrate your site with social networking services. In this chapter, you'll learn how to let people bookmark/link your website..."
-ms.author: riande
+ms.author: wpickett
 ms.date: 02/21/2014
 ms.assetid: 03c342f9-b35c-4d7c-b9ed-cd9aaaffedb6
 msc.legacyurl: /web-pages/overview/getting-started/13-adding-social-networking-to-your-web-site
@@ -101,3 +101,4 @@ When people play Microsoft Xbox games online, each user has a unique ID. Statist
 3. Run the page in your browser. The page displays the Xbox gamer card that you specified.
 
     ![Picture 5](13-adding-social-networking-to-your-web-site/_static/image4.jpg)
+

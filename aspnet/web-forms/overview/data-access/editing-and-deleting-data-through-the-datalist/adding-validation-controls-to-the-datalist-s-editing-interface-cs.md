@@ -3,7 +3,7 @@ uid: web-forms/overview/data-access/editing-and-deleting-data-through-the-datali
 title: "Adding Validation Controls to the DataList's Editing Interface (C#) | Microsoft Docs"
 author: rick-anderson
 description: "In this tutorial we'll see how easy it is to add validation controls to the DataList's EditItemTemplate in order to provide a more foolproof editing user int... (C#)"
-ms.author: riande
+ms.author: wpickett
 ms.date: 10/30/2006
 ms.assetid: 3ecc21c5-da0e-40ab-abb4-fac1e47398ad
 msc.legacyurl: /web-forms/overview/data-access/editing-and-deleting-data-through-the-datalist/adding-validation-controls-to-the-datalist-s-editing-interface-cs
@@ -172,3 +172,4 @@ This tutorial series was reviewed by many helpful reviewers. Lead reviewers for 
 > [!div class="step-by-step"]
 > [Previous](handling-bll-and-dal-level-exceptions-cs.md)
 > [Next](customizing-the-datalist-s-editing-interface-cs.md)
+

@@ -3,7 +3,7 @@ uid: mvc/overview/getting-started/recommended-resources-for-mvc
 title: "MVC Recommended Resources | Microsoft Docs"
 author: Rick-Anderson
 description: "This topic provides links to documentation resources about ASP.NET MVC 5. If you know a great blog post, stackoverflow thread or any other link that would be..."
-ms.author: riande
+ms.author: tdykstra
 ms.date: 04/10/2014
 ms.assetid: 7958d725-e958-4566-a85b-535eeb985f94
 msc.legacyurl: /mvc/overview/getting-started/recommended-resources-for-mvc
@@ -380,3 +380,4 @@ by [Rick Anderson](https://twitter.com/RickAndMSFT)
 - [image is getting contenttype text/html after outputcache RSS](https://forums.asp.net/t/1808414.aspx/1?image+is+getting+contenttype+text+html+after+outputcache)
 - [How to get the controller and action names or even the route name from an absolutepath?](https://forums.asp.net/t/1833547.aspx/1?How+to+get+the+controller+and+action+names+or+even+the+route+name+from+an+absolutepath+)
 - [Unobtrusive AJAX client side validation Remote method calls to check uniqueness of value](https://forums.asp.net/t/1851343.aspx/1?Unobtrusive+AJAX+client+side+validation+Remote+method+calls+to+check+uniqueness+of+value)
+

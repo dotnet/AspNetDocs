@@ -3,7 +3,7 @@ uid: mvc/overview/deployment/index
 title: "Deployment ASP.NET MVC 5.0 | ASP.NET 4.x"
 author: rick-anderson
 description: "How to deploy ASP.NET MVC 5.0 projects to a server."
-ms.author: riande
+ms.author: tdykstra
 ms.date: 08/18/2011
 ms.assetid: 31922c31-59df-4399-99d2-e935a476f16a
 msc.legacyurl: /mvc/overview/deployment
@@ -23,3 +23,4 @@ msc.type: chapter
 - [ASP.NET 4 - Enterprise Deployment Series 3 Configuring TFS](../../../web-forms/overview/deployment/configuring-team-foundation-server-for-web-deployment/index.md)
 - [ASP.NET 4 - Enterprise Deployment Series 4 Advanced Topics](../../../web-forms/overview/deployment/advanced-enterprise-web-deployment/index.md)
 - [ASP.NET Web Deployment - Recommended Resources](../../../whitepapers/aspnet-web-deployment-content-map.md)
+

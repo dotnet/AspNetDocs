@@ -3,7 +3,7 @@ uid: web-pages/overview/releases/whats-new-in-aspnet-web-pages-32
 title: "What's New in ASP.NET Web Pages 3.2 | Microsoft Docs"
 author: rick-anderson
 description: Describes and compares what's new in ASP.Net Web Pages 3.2, compared to past versions and details bug fixes.
-ms.author: riande
+ms.author: wpickett
 ms.date: 06/30/2014
 ms.assetid: a652beff-8e6b-48ad-bfe4-3703f7ccf0a5
 msc.legacyurl: /web-pages/overview/releases/whats-new-in-aspnet-web-pages-32
@@ -62,3 +62,4 @@ Below is a table demonstrating the results of analyzing a [perfview](https://cha
 ## ASP.NET Web Pages 3.2.3 beta1
 
 This release contains only bug fixes.
+

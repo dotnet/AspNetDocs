@@ -3,7 +3,7 @@ uid: mvc/overview/older-versions/getting-started-with-aspnet-mvc4/accessing-your
 title: "Accessing Your Model's Data from a Controller Using a View Template | Microsoft Docs"
 author: Rick-Anderson
 description: "In this section, you'll create a new MoviesController class and write code that retrieves the movie data and displays it in the browser using a view template."
-ms.author: riande
+ms.author: tdykstra
 ms.date: 08/28/2012
 ms.assetid: 61e0206d-7f32-4018-992d-0a51b48b37dc
 msc.legacyurl: /mvc/overview/older-versions/getting-started-with-aspnet-mvc4/accessing-your-models-data-from-a-controller
@@ -142,3 +142,4 @@ You now have the database and a simple listing page to display content from it. 
 > [!div class="step-by-step"]
 > [Previous](adding-a-model.md)
 > [Next](examining-the-edit-methods-and-edit-view.md)
+

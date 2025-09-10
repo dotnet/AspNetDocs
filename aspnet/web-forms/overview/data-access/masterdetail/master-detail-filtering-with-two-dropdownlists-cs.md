@@ -3,7 +3,7 @@ uid: web-forms/overview/data-access/masterdetail/master-detail-filtering-with-tw
 title: "Master/Detail Filtering With Two DropDownLists (C#) | Microsoft Docs"
 author: rick-anderson
 description: "This tutorial expands the master/detail relationship to add a third layer, using two DropDownList controls to select the desired parent and grandparent recor... (C#)"
-ms.author: riande
+ms.author: wpickett
 ms.date: 03/31/2010
 ms.assetid: ac4b0d77-4816-4ded-afd0-88dab667aedd
 msc.legacyurl: /web-forms/overview/data-access/masterdetail/master-detail-filtering-with-two-dropdownlists-cs
@@ -176,3 +176,4 @@ This tutorial series was reviewed by many helpful reviewers. Lead reviewer for t
 > [!div class="step-by-step"]
 > [Previous](master-detail-filtering-with-a-dropdownlist-cs.md)
 > [Next](master-detail-filtering-across-two-pages-cs.md)
+

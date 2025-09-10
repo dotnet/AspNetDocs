@@ -3,7 +3,7 @@ uid: web-forms/overview/data-access/working-with-binary-files/index
 title: "Working with Binary Files | Microsoft Docs"
 author: rick-anderson
 description: "These tutorials show how to let users upload binary files (like Word or PDF documents) to the server, where they can be stored in folders or in the database."
-ms.author: riande
+ms.author: wpickett
 ms.date: 10/05/2011
 ms.assetid: 2d08658a-16c4-4877-9f43-c6503adda7bf
 msc.legacyurl: /web-forms/overview/data-access/working-with-binary-files
@@ -21,3 +21,4 @@ msc.type: chapter
 - [Displaying Binary Data in the Data Web Controls (VB)](displaying-binary-data-in-the-data-web-controls-vb.md)
 - [Including a File Upload Option When Adding a New Record (VB)](including-a-file-upload-option-when-adding-a-new-record-vb.md)
 - [Updating and Deleting Existing Binary Data (VB)](updating-and-deleting-existing-binary-data-vb.md)
+

@@ -3,7 +3,7 @@ uid: web-pages/overview/ui-layouts-and-themes/twitter-helper
 title: "Twitter Helper with ASP.NET Web Pages | Microsoft Docs"
 author: Rick-Anderson
 description: "This topic and application show how to add a Twitter Helper to your WebMatrix 3 project. It contains the Twitter Helper code and shows how to call the helper..."
-ms.author: riande
+ms.author: wpickett
 ms.date: 11/26/2018
 ms.assetid: c1a1244e-b9c8-42e6-a00b-8456a4ec027c
 msc.legacyurl: /web-pages/overview/ui-layouts-and-themes/twitter-helper
@@ -81,3 +81,4 @@ The above code produces the following buttons and widgets. These buttons and wid
 ### Search
 
 [Tweets about &quot;#asp.net&quot;](https://twitter.com/search?q=%23asp.net)`<script>!function (d, s, id) { var js, fjs = d.getElementsByTagName(s)[0], p = /^http:/.test(d.location) ? 'http' : 'https'; if (!d.getElementById(id)) { js = d.createElement(s); js.id = id; js.src = p + "://platform.twitter.com/widgets.js"; fjs.parentNode.insertBefore(js, fjs); } }(document, "script", "twitter-wjs");</script>`
+

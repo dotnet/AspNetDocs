@@ -3,7 +3,7 @@ uid: mvc/overview/older-versions-1/models-data/creating-model-classes-with-linq-
 title: "Creating Model Classes with LINQ to SQL (VB) | Microsoft Docs"
 author: rick-anderson
 description: "The goal of this tutorial is to explain one method of creating model classes for an ASP.NET MVC application. In this tutorial, you learn how to build model c... (VB)"
-ms.author: riande
+ms.author: tdykstra
 ms.date: 10/07/2008
 ms.assetid: a4a25a75-d71f-4509-98b4-df72e748985a
 msc.legacyurl: /mvc/overview/older-versions-1/models-data/creating-model-classes-with-linq-to-sql-vb
@@ -179,3 +179,4 @@ Next, we explored a slightly more difficult, but definitely more virtuous, path 
 > [!div class="step-by-step"]
 > [Previous](creating-model-classes-with-the-entity-framework-vb.md)
 > [Next](displaying-a-table-of-database-data-vb.md)
+

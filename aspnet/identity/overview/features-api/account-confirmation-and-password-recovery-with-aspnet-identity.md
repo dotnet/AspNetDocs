@@ -3,7 +3,7 @@ uid: identity/overview/features-api/account-confirmation-and-password-recovery-w
 title: "Account Confirmation & Password Recovery - ASP.NET Identity (C#) - ASP.NET 4.x"
 author: HaoK
 description: "Before doing this tutorial you should first complete Create a secure ASP.NET MVC 5 web app with log in, email confirmation and password reset. This tutorial..."
-ms.author: riande
+ms.author: tdykstra
 ms.date: 01/23/2019
 ms.assetid: 8d54180d-f826-4df7-b503-7debf5ed9fb3
 msc.legacyurl: /identity/overview/features-api/account-confirmation-and-password-recovery-with-aspnet-identity
@@ -225,3 +225,4 @@ The following code shows the email confirmation method:
 - [ASP.NET MVC and Identity 2.0: Understanding the Basics](http://typecastexception.com/post/2014/04/20/ASPNET-MVC-and-Identity-20-Understanding-the-Basics.aspx) by John Atten.
 - [Introduction to ASP.NET Identity](../getting-started/introduction-to-aspnet-identity.md)
 - [Announcing RTM of ASP.NET Identity 2.0.0](https://devblogs.microsoft.com/dotnet/announcing-rtm-of-asp-net-identity-2-0-0/) by Pranav Rastogi.
+

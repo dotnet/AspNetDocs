@@ -3,7 +3,7 @@ uid: mvc/overview/older-versions/getting-started-with-aspnet-mvc4/adding-a-model
 title: "Adding a Model 2012 | Microsoft Docs"
 author: Rick-Anderson
 description: "In this section you'll add some classes for managing movies in a database. These classes will be the model part of the ASP.NET MVC app."
-ms.author: riande
+ms.author: tdykstra
 ms.date: 08/28/2012
 ms.assetid: 53db72da-e0b9-44d9-b60b-6e6988c00b28
 msc.legacyurl: /mvc/overview/older-versions/getting-started-with-aspnet-mvc4/adding-a-model
@@ -72,3 +72,4 @@ Next, you'll build a new `MoviesController` class that you can use to display th
 > [!div class="step-by-step"]
 > [Previous](adding-a-view.md)
 > [Next](accessing-your-models-data-from-a-controller.md)
+

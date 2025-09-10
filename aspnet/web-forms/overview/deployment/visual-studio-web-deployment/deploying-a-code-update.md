@@ -3,7 +3,7 @@ uid: web-forms/overview/deployment/visual-studio-web-deployment/deploying-a-code
 title: "ASP.NET Web Deployment using Visual Studio: Deploying a Code Update | Microsoft Docs"
 author: tdykstra
 description: "This tutorial series shows how to deploy (publish) an ASP.NET web application to Azure App Service Web Apps or to a third-party hosting provider, by usin..."
-ms.author: riande
+ms.author: wpickett
 ms.date: 02/15/2013
 ms.assetid: c76dbc35-a914-4ee3-919c-4f4d1fa05104
 msc.legacyurl: /web-forms/overview/deployment/visual-studio-web-deployment/deploying-a-code-update
@@ -201,3 +201,4 @@ The next tutorial shows you how to deploy a database change: you'll add a birthd
 > [!div class="step-by-step"]
 > [Previous](deploying-to-production.md)
 > [Next](deploying-a-database-update.md)
+

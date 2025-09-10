@@ -3,7 +3,7 @@ uid: mvc/overview/older-versions/getting-started-with-aspnet-mvc4/adding-validat
 title: "Adding Validation Logic to the Movie Model | Microsoft Docs"
 author: Rick-Anderson
 description: "In this tutorial you'll add validation logic to the Movie model, and you'll ensure that the validation rules are enforced any time a user attempts to create or edit a movie using the application."
-ms.author: riande
+ms.author: tdykstra
 ms.date: 08/28/2012
 ms.assetid: 5d9a2999-fcc4-4c45-a018-271fddf74a3b
 msc.legacyurl: /mvc/overview/older-versions/getting-started-with-aspnet-mvc4/adding-validation-to-the-model
@@ -157,3 +157,4 @@ In the next part of the series, we'll review the application and make some impro
 > [!div class="step-by-step"]
 > [Previous](adding-a-new-field-to-the-movie-model-and-table.md)
 > [Next](examining-the-details-and-delete-methods.md)
+

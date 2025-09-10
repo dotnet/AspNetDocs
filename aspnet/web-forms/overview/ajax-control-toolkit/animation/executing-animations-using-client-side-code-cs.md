@@ -3,7 +3,7 @@ uid: web-forms/overview/ajax-control-toolkit/animation/executing-animations-usin
 title: "Executing Animations Using Client-Side Code (C#) | Microsoft Docs"
 author: wenz
 description: "The Animation control in the ASP.NET AJAX Control Toolkit is not just a control but a whole framework to add animations to a control. The animation execution... (C#)"
-ms.author: riande
+ms.author: tdykstra
 ms.date: 06/02/2008
 ms.assetid: 0270e0df-6fde-4a8f-a2cb-2cacc55143f2
 msc.legacyurl: /web-forms/overview/ajax-control-toolkit/animation/executing-animations-using-client-side-code-cs
@@ -62,3 +62,4 @@ The animation runs immediately, without a mouse click ([Click to view full-size 
 > [!div class="step-by-step"]
 > [Previous](modifying-animations-from-the-server-side-cs.md)
 > [Next](changing-an-animation-using-client-side-code-cs.md)
+

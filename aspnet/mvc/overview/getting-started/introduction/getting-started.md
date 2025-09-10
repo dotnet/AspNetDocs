@@ -3,7 +3,7 @@ uid: mvc/overview/getting-started/introduction/getting-started
 title: "Getting Started with ASP.NET MVC 5 | Microsoft Docs"
 author: Rick-Anderson
 description: "This tutorial teaches you the basics of building an ASP.NET MVC 5 web app using Visual Studio 2017"
-ms.author: riande
+ms.author: tdykstra
 ms.date: 10/04/2018
 ms.assetid: f3d8adbe-55e7-4fd4-84a8-7155bc45c676
 msc.legacyurl: /mvc/overview/getting-started/introduction/getting-started
@@ -60,3 +60,4 @@ For a list of current tutorials, see [MVC recommended articles](../mvc-learning-
 
 > [!div class="step-by-step"]
 > [Next](adding-a-controller.md)
+

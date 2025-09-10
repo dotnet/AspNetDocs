@@ -3,7 +3,7 @@ uid: web-forms/overview/ajax-control-toolkit/cascadingdropdown/using-cascadingdr
 title: "Using CascadingDropDown with a Database (VB) | Microsoft Docs"
 author: wenz
 description: "The CascadingDropDown control in the AJAX Control Toolkit extends a DropDownList control so that changes in one DropDownList loads associated values in anoth... (VB)"
-ms.author: riande
+ms.author: tdykstra
 ms.date: 06/02/2008
 ms.assetid: 97a3d33c-c856-43f3-8acb-f1ccbc48221a
 msc.legacyurl: /web-forms/overview/ajax-control-toolkit/cascadingdropdown/using-cascadingdropdown-with-a-database-vb
@@ -89,3 +89,4 @@ The second list is filled according to the selection in the first list ([Click t
 > [!div class="step-by-step"]
 > [Previous](filling-a-list-using-cascadingdropdown-vb.md)
 > [Next](presetting-list-entries-with-cascadingdropdown-vb.md)
+

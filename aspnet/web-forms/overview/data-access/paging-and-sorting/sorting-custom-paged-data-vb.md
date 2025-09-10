@@ -3,7 +3,7 @@ uid: web-forms/overview/data-access/paging-and-sorting/sorting-custom-paged-data
 title: "Sorting Custom Paged Data (VB) | Microsoft Docs"
 author: rick-anderson
 description: "In the previous tutorial we learned how to implement custom paging when presenting data on a web page. In this tutorial we see how to extend the preceding... (VB)"
-ms.author: riande
+ms.author: wpickett
 ms.date: 08/15/2006
 ms.assetid: 4823a186-caaf-4116-a318-c7ff4d955ddc
 msc.legacyurl: /web-forms/overview/data-access/paging-and-sorting/sorting-custom-paged-data-vb
@@ -157,3 +157,4 @@ This tutorial series was reviewed by many helpful reviewers. Lead reviewer for t
 > [!div class="step-by-step"]
 > [Previous](efficiently-paging-through-large-amounts-of-data-vb.md)
 > [Next](creating-a-customized-sorting-user-interface-vb.md)
+

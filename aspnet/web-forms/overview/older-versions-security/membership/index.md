@@ -3,7 +3,7 @@ uid: web-forms/overview/older-versions-security/membership/index
 title: "ASP.NET 3.5 - Membership | Microsoft Docs"
 author: rick-anderson
 description: "This tutorial series examines techniques for using the built-in membership (security) system to create user accounts and configure authorization rules."
-ms.author: riande
+ms.author: wpickett
 ms.date: 10/05/2011
 ms.assetid: 96fc5552-05cd-4547-909f-9bb3176e44d6
 msc.legacyurl: /web-forms/overview/older-versions-security/membership
@@ -23,3 +23,4 @@ msc.type: chapter
 - [Validating User Credentials Against the Membership User Store (VB)](validating-user-credentials-against-the-membership-user-store-vb.md)
 - [User-Based Authorization (VB)](user-based-authorization-vb.md)
 - [Storing Additional User Information (VB)](storing-additional-user-information-vb.md)
+

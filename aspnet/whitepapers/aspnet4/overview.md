@@ -3,7 +3,7 @@ uid: whitepapers/aspnet4/overview
 title: "Overview: ASP.NET 4 and Visual Studio 2010 Web Development | Microsoft Docs"
 author: rick-anderson
 description: "An overview of many of the new features for ASP.NET that are included in the.NET Framework 4 and in Visual Studio 2010."
-ms.author: riande
+ms.author: wpickett
 ms.date: 02/10/2010
 ms.assetid: d7729af4-1eda-4ff2-8b61-dbbe4fc11d10
 msc.legacyurl: /whitepapers/aspnet4
@@ -1393,3 +1393,4 @@ Unless otherwise noted, the example companies, organizations, products, domain n
 Microsoft and Windows are either registered trademarks or trademarks of Microsoft Corporation in the United States and/or other countries.
 
 The names of actual companies and products mentioned herein may be the trademarks of their respective owners.
+

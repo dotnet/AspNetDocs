@@ -3,7 +3,7 @@ uid: mvc/overview/older-versions/hands-on-labs/whats-new-in-aspnet-mvc-4
 title: "What's New in ASP.NET MVC 4 | Microsoft Docs"
 author: rick-anderson
 description: "ASP.NET MVC 4 is a framework for building scalable, standards-based web applications using well-established design patterns and the power of the ASP.NET and..."
-ms.author: riande
+ms.author: tdykstra
 ms.date: 02/18/2013
 ms.assetid: 48f7feb3-872f-485d-b96f-e30011ff8c4a
 msc.legacyurl: /mvc/overview/older-versions/hands-on-labs/whats-new-in-aspnet-mvc-4
@@ -1020,3 +1020,4 @@ If your application makes use of SQL Server databases you will need to create a 
     ![Application published to Windows Azure](whats-new-in-aspnet-mvc-4/_static/image81.png "Application published to Windows Azure")
 
     *Application published to Windows Azure*
+

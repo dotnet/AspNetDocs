@@ -3,7 +3,7 @@ uid: web-forms/overview/data-access/editing-inserting-and-deleting-data/an-overv
 title: "An Overview of Inserting, Updating, and Deleting Data (VB) | Microsoft Docs"
 author: rick-anderson
 description: "In this tutorial we'll see how to map an ObjectDataSource's Insert(), Update(), and Delete() methods to the methods of BLL classes, as well as how to configu... (VB)"
-ms.author: riande
+ms.author: wpickett
 ms.date: 07/17/2006
 ms.assetid: 35b40b8f-2ca8-4ab3-9c19-f361a91a3647
 msc.legacyurl: /web-forms/overview/data-access/editing-inserting-and-deleting-data/an-overview-of-inserting-updating-and-deleting-data-vb
@@ -372,3 +372,4 @@ Scott Mitchell, author of seven ASP/ASP.NET books and founder of 4GuysFromRolla.
 > [!div class="step-by-step"]
 > [Previous](limiting-data-modification-functionality-based-on-the-user-cs.md)
 > [Next](examining-the-events-associated-with-inserting-updating-and-deleting-vb.md)
+

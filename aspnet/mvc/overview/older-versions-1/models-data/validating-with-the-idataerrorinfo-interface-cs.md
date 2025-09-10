@@ -3,7 +3,7 @@ uid: mvc/overview/older-versions-1/models-data/validating-with-the-idataerrorinf
 title: "Validating with the IDataErrorInfo Interface (C#) | Microsoft Docs"
 author: StephenWalther
 description: "Stephen Walther shows you how to display custom validation error messages by implementing the IDataErrorInfo interface in a model class. (C#)"
-ms.author: riande
+ms.author: tdykstra
 ms.date: 03/02/2009
 ms.assetid: 4733b9f1-9999-48fb-8b73-6038fbcc5ecb
 msc.legacyurl: /mvc/overview/older-versions-1/models-data/validating-with-the-idataerrorinfo-interface-cs
@@ -144,3 +144,4 @@ In this tutorial, you learned how to use the IDataErrorInfo interface to generat
 > [!div class="step-by-step"]
 > [Previous](performing-simple-validation-cs.md)
 > [Next](validating-with-a-service-layer-cs.md)
+

@@ -3,7 +3,7 @@ uid: web-forms/videos/aspnet-ajax/how-do-i-trigger-an-updatepanel-refresh-from-a
 title: "[How Do I:] Trigger an UpdatePanel Refresh from a DropDownList Control? | Microsoft Docs"
 author: JoeStagner
 description: "In most of our videos on the ASP.NET AJAX UpdatePanel, we have used a Button control to cause an UpdatePanel to refresh its content. Yet we may use any event..."
-ms.author: riande
+ms.author: wpickett
 ms.date: 08/22/2007
 ms.assetid: e90defdb-b6b1-4f38-8f6a-7adccbb426ef
 msc.legacyurl: /web-forms/videos/aspnet-ajax/how-do-i-trigger-an-updatepanel-refresh-from-a-dropdownlist-control
@@ -17,3 +17,4 @@ In most of our videos on the ASP.NET AJAX UpdatePanel, we have used a Button con
 > [!div class="step-by-step"]
 > [Previous](how-do-i-implement-the-persistent-communications-pattern-using-web-services.md)
 > [Next](how-do-i-create-an-aspnet-ajax-extender-from-scratch.md)
+

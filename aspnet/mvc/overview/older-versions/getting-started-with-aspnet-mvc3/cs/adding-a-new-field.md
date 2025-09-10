@@ -3,7 +3,7 @@ uid: mvc/overview/older-versions/getting-started-with-aspnet-mvc3/cs/adding-a-ne
 title: "Adding a New Field to the Movie Model and Table (C#) | Microsoft Docs"
 author: Rick-Anderson
 description: "Learn how to add a rating property, manage model and database schema differences, and automatically re-create the database on model changes."
-ms.author: riande
+ms.author: tdykstra
 ms.date: 01/12/2011
 ms.assetid: b4e76c1a-f66e-43a0-aa72-f39df79c07c1
 msc.legacyurl: /mvc/overview/older-versions/getting-started-with-aspnet-mvc3/cs/adding-a-new-field
@@ -125,3 +125,4 @@ In this section you saw how you can modify model objects and keep the database i
 > [!div class="step-by-step"]
 > [Previous](examining-the-edit-methods-and-edit-view.md)
 > [Next](adding-validation-to-the-model.md)
+

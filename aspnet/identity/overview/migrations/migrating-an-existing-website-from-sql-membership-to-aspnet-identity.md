@@ -3,7 +3,7 @@ uid: identity/overview/migrations/migrating-an-existing-website-from-sql-members
 title: "Migrating an Existing Website from SQL Membership to ASP.NET Identity - ASP.NET 4.x"
 author: Rick-Anderson
 description: "This tutorial illustrates the steps to migrate an existing web application with user and role data created using SQL Membership to the new ASP.NET Identity s..."
-ms.author: riande
+ms.author: tdykstra
 ms.date: 05/05/2022
 ms.assetid: 220d3d75-16b2-4240-beae-a5b534f06419
 msc.legacyurl: /identity/overview/migrations/migrating-an-existing-website-from-sql-membership-to-aspnet-identity
@@ -226,3 +226,4 @@ In this tutorial we showed how to port users from SQL membership to ASP.NET Iden
 You can leave feedback at the bottom of this article.
 
 *Thanks to Tom Dykstra and Rick Anderson for reviewing the article.*
+

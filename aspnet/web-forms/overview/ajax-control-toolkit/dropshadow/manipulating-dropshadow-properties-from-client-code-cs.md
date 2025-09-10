@@ -3,7 +3,7 @@ uid: web-forms/overview/ajax-control-toolkit/dropshadow/manipulating-dropshadow-
 title: "Manipulating DropShadow Properties from Client Code (C#) | Microsoft Docs"
 author: wenz
 description: "Customizing the DataList's Editing Interface"
-ms.author: riande
+ms.author: tdykstra
 ms.date: 06/02/2008
 ms.assetid: c83ca3e6-c0bf-4158-a166-40c1ab0f33da
 msc.legacyurl: /web-forms/overview/ajax-control-toolkit/dropshadow/manipulating-dropshadow-properties-from-client-code-cs
@@ -54,3 +54,4 @@ The opacity is changed on the client side ([Click to view full-size image](manip
 > [!div class="step-by-step"]
 > [Previous](adjusting-the-z-index-of-a-dropshadow-cs.md)
 > [Next](adjusting-the-z-index-of-a-dropshadow-vb.md)
+

@@ -3,7 +3,7 @@ uid: web-api/overview/security/working-with-ssl-in-web-api
 title: "Working with SSL in Web API | Microsoft Docs"
 author: Rick-Anderson
 description: "Shows how to use SSL with ASP.NET Web API, including using SSL client certificates."
-ms.author: riande
+ms.author: tdykstra
 ms.date: 02/22/2019
 ms.assetid: 97f6164f-59cf-45c0-b820-e4aa29b45396
 msc.legacyurl: /web-api/overview/security/working-with-ssl-in-web-api
@@ -90,3 +90,4 @@ Now create a client certificate that is signed by the first certificate:
 On the server side, you can get the client certificate by calling [GetClientCertificate](https://msdn.microsoft.com/library/system.net.http.httprequestmessageextensions.getclientcertificate.aspx) on the request message. The method returns null if there is no client certificate. Otherwise, it returns an **X509Certificate2** instance. Use this object to get information from the certificate, such as the issuer and subject. Then you can use this information for authentication and/or authorization.
 
 [!code-csharp[Main](working-with-ssl-in-web-api/samples/sample6.cs)]
+

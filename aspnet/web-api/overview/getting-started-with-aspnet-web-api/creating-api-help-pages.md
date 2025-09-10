@@ -3,7 +3,7 @@ uid: web-api/overview/getting-started-with-aspnet-web-api/creating-api-help-page
 title: "Creating Help Pages for ASP.NET Web API - ASP.NET 4.x"
 author: rick-anderson
 description: "This tutorial with code shows how to create help pages for ASP.NET Web API in ASP.NET 4.x."
-ms.author: riande
+ms.author: tdykstra
 ms.date: 04/01/2013
 ms.assetid: 0150e67b-c50d-4613-83ea-7b4ef8cacc5a
 msc.legacyurl: /web-api/overview/getting-started-with-aspnet-web-api/creating-api-help-pages
@@ -118,3 +118,4 @@ You aren't limited to the help pages shown here. In fact, **ApiExplorer** is not
 - [Making ASP.NET Web API Help Page work on self-hosted services](/archive/blogs/yaohuang1/making-asp-net-web-api-help-page-work-on-self-hosted-services)
 - [Design-time generation of help page (or client) for ASP.NET Web API](/archive/blogs/yaohuang1/design-time-generation-of-help-page-or-client-for-asp-net-web-api)
 - [Advanced Help Page customizations](/archive/blogs/yaohuang1/asp-net-web-api-help-page-part-3-advanced-help-page-customizations)
+

@@ -3,7 +3,7 @@ uid: web-forms/overview/deployment/configuring-team-foundation-server-for-web-de
 title: "Creating a Build Definition That Supports Deployment | Microsoft Docs"
 author: jrjlee
 description: "If you want to perform any kind of build in Team Foundation Server (TFS) 2010, you need to create a build definition within your team project. This topic des..."
-ms.author: riande
+ms.author: wpickett
 ms.date: 05/04/2012
 ms.assetid: fe47a018-f6d0-4979-80e7-5b1fa75a5865
 msc.legacyurl: /web-forms/overview/deployment/configuring-team-foundation-server-for-web-deployment/creating-a-build-definition-that-supports-deployment
@@ -149,3 +149,4 @@ For more information on creating build definitions, see [Create a Basic Build De
 > [!div class="step-by-step"]
 > [Previous](configuring-a-tfs-build-server-for-web-deployment.md)
 > [Next](deploying-a-specific-build.md)
+

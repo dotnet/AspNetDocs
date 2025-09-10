@@ -3,7 +3,7 @@ uid: web-forms/overview/data-access/paging-and-sorting/paging-and-sorting-report
 title: "Paging and Sorting Report Data (VB) | Microsoft Docs"
 author: rick-anderson
 description: "Paging and sorting are two very common features when displaying data in an online application. In this tutorial we'll take a first look at adding sorting and... (VB)"
-ms.author: riande
+ms.author: wpickett
 ms.date: 08/15/2006
 ms.assetid: b895e37e-0e69-45cc-a7e4-17ddd2e1b38d
 msc.legacyurl: /web-forms/overview/data-access/paging-and-sorting/paging-and-sorting-report-data-vb
@@ -259,3 +259,4 @@ Scott Mitchell, author of seven ASP/ASP.NET books and founder of 4GuysFromRolla.
 > [!div class="step-by-step"]
 > [Previous](creating-a-customized-sorting-user-interface-cs.md)
 > [Next](efficiently-paging-through-large-amounts-of-data-vb.md)
+

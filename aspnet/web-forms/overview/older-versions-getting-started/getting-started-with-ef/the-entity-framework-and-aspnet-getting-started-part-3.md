@@ -3,7 +3,7 @@ uid: web-forms/overview/older-versions-getting-started/getting-started-with-ef/t
 title: "Getting Started with Entity Framework 4.0 Database First and ASP.NET 4 Web Forms - Part 3 | Microsoft Docs"
 author: tdykstra
 description: "The Contoso University sample web application demonstrates how to create ASP.NET Web Forms applications using the Entity Framework. The sample application is... (Part 3)"
-ms.author: riande
+ms.author: wpickett
 ms.date: 12/03/2010
 ms.assetid: ccdc3f8c-2568-40a7-8f8b-3c23d2e05388
 msc.legacyurl: /web-forms/overview/older-versions-getting-started/getting-started-with-ef/the-entity-framework-and-aspnet-getting-started-part-3
@@ -178,3 +178,4 @@ You've now displayed, updated, filtered, ordered, and grouped data from individu
 > [!div class="step-by-step"]
 > [Previous](the-entity-framework-and-aspnet-getting-started-part-2.md)
 > [Next](the-entity-framework-and-aspnet-getting-started-part-4.md)
+

@@ -3,7 +3,7 @@ uid: webhooks/diagnostics/logging
 title: "ASP.NET WebHooks logging | Microsoft Docs"
 author: rick-anderson
 description: "How to do logging in ASP.NET WebHooks."
-ms.author: riande
+ms.author: wpickett
 ms.date: 01/17/2012
 ms.assetid: f71bc442-5f80-481b-a32c-a0ec18dee9d6
 ---
@@ -18,3 +18,4 @@ In addition, logs can be obtained straight from inside Visual Studio as describe
 ## Redirecting Logs
 
 Instead of writing logs to [System.Diagnostics.Trace](https://msdn.microsoft.com/library/system.diagnostics.trace), it is possible to provide an alternate logging implementation that can log directly to a log manager such as [Log4Net](http://logging.apache.org/log4net/) and [NLog](http://nlog-project.org/). Simply provide an implementation of [ILogger](https://github.com/aspnet/AspNetWebHooks/blob/master/src/Microsoft.AspNet.WebHooks.Common/Diagnostics/ILogger.cs) and register it with a dependency injection engine of your choice and it will get picked up by Microsoft ASP.NET WebHooks. Please see [Dependency Injection in ASP.NET Web API 2](https://www.asp.net/web-api/overview/advanced/dependency-injection) for details.
+

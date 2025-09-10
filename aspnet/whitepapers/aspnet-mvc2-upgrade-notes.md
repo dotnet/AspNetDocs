@@ -3,7 +3,7 @@ uid: whitepapers/aspnet-mvc2-upgrade-notes
 title: "Upgrading an ASP.NET MVC 1.0 Application to ASP.NET MVC 2 | Microsoft Docs"
 author: rick-anderson
 description: "This document describes both how to upgrade manually and with a wizard an ASP.NET MVC 1.0 Application to ASP.NET MVC 2. This document is also available for d..."
-ms.author: riande
+ms.author: wpickett
 ms.date: 04/08/2010
 ms.assetid: f1a01759-d251-4b09-8835-e112e336c6dd
 msc.legacyurl: /whitepapers/aspnet-mvc2-upgrade-notes
@@ -42,3 +42,4 @@ To manually upgrade an existing ASP.NET MVC 1.0 application to version 2, follow
 7. Create a new empty ASP.NET MVC 2 application. Copy the files from the Scripts folder of the new application into the Scripts folder of the existing application.
 8. Update the existing applicationâ€™s CSS file with the CSS style definitions in the Site.css file.
 9. Compile the application and run it. If any errors occur, refer to the Breaking Changes section of the [What's New in ASP.NET MVC 2](https://go.microsoft.com/fwlink/?LinkID=185038) page.
+

@@ -3,7 +3,7 @@ uid: mvc/overview/getting-started/getting-started-with-ef-using-mvc/reading-rela
 title: "Tutorial: Read related data with EF in an ASP.NET MVC app"
 description: "In this tutorial you'll read and display related data — that is, data that the Entity Framework loads into navigation properties."
 author: tdykstra
-ms.author: riande
+ms.author: tdykstra
 ms.date: 01/22/2019
 ms.topic: tutorial
 ms.assetid: 18cdd896-8ed9-4547-b143-114711e3eafb
@@ -264,3 +264,4 @@ Advance to the next article to learn how to update related data.
 
 > [!div class="nextstepaction"]
 > [Update related data](updating-related-data-with-the-entity-framework-in-an-asp-net-mvc-application.md)
+

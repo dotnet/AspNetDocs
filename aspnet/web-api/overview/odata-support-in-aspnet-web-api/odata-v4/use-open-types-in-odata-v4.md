@@ -3,7 +3,7 @@ uid: web-api/overview/odata-support-in-aspnet-web-api/odata-v4/use-open-types-in
 title: "Open Types in OData v4 with ASP.NET Web API | Microsoft Docs"
 author: rick-anderson
 description: "In OData v4, an open type is a structured type that contains dynamic properties, in addition to any properties that are declared in the type definition. Open..."
-ms.author: riande
+ms.author: tdykstra
 ms.date: 09/15/2014
 ms.assetid: f25f5ac5-4800-4950-abe5-c97750a27fc6
 msc.legacyurl: /web-api/overview/odata-support-in-aspnet-web-api/odata-v4/use-open-types-in-odata-v4
@@ -115,3 +115,4 @@ If you set a breakpoint in the controller method, you can see that Web API added
 ## Additional Resources
 
 [OData Open Type Sample](https://devblogs.microsoft.com/odata/tutorial-sample-how-to-use-open-type-in-odata/)
+

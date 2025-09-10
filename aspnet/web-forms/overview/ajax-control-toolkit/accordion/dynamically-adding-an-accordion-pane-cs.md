@@ -3,7 +3,7 @@ uid: web-forms/overview/ajax-control-toolkit/accordion/dynamically-adding-an-acc
 title: "Dynamically Adding An Accordion Pane (C#) | Microsoft Docs"
 author: wenz
 description: "The Accordion control in the AJAX Control Toolkit provides multiple panes and allows the user to display one of them at a time. Panels are usually declared w... (C#)"
-ms.author: riande
+ms.author: tdykstra
 ms.date: 06/02/2008
 ms.assetid: 66d88cfa-f26f-46b1-ad52-1c9e03c04a48
 msc.legacyurl: /web-forms/overview/ajax-control-toolkit/accordion/dynamically-adding-an-accordion-pane-cs
@@ -54,3 +54,4 @@ The data in the accordion was dynamically added by server-side code ([Click to v
 > [!div class="step-by-step"]
 > [Previous](databinding-to-an-accordion-cs.md)
 > [Next](databinding-to-an-accordion-vb.md)
+

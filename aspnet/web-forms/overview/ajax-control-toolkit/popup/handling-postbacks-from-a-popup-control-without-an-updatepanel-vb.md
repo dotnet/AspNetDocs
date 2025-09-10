@@ -3,7 +3,7 @@ uid: web-forms/overview/ajax-control-toolkit/popup/handling-postbacks-from-a-pop
 title: "Handling Postbacks from A Popup Control Without an UpdatePanel (VB) | Microsoft Docs"
 author: wenz
 description: "The PopupControl extender in the AJAX Control Toolkit offers an easy way to trigger a popup when any other control is activated (VB)."
-ms.author: riande
+ms.author: tdykstra
 ms.date: 06/02/2008
 ms.assetid: a0b9186c-0912-4fff-916a-6d17e696a50b
 msc.legacyurl: /web-forms/overview/ajax-control-toolkit/popup/handling-postbacks-from-a-popup-control-without-an-updatepanel-vb
@@ -51,3 +51,4 @@ Clicking on a date puts it in the textbox ([Click to view full-size image](handl
 
 > [!div class="step-by-step"]
 > [Previous](handling-postbacks-from-a-popup-control-with-an-updatepanel-vb.md)
+

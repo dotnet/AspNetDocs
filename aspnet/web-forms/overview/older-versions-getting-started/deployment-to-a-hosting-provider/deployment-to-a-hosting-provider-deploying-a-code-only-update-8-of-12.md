@@ -3,7 +3,7 @@ uid: web-forms/overview/older-versions-getting-started/deployment-to-a-hosting-p
 title: "Deploying an ASP.NET Web Application with SQL Server Compact using Visual Studio or Visual Web Developer: Deploying a Code-Only Update - 8 of 12 | Microsoft Docs"
 author: tdykstra
 description: "This series of tutorials shows you how to deploy (publish) an ASP.NET web application project that includes a SQL Server Compact database by using Visual Stu... (8 of 12)"
-ms.author: riande
+ms.author: wpickett
 ms.date: 11/17/2011
 ms.assetid: ddf6252f-9413-4c0c-a360-2cef8d231717
 msc.legacyurl: /web-forms/overview/older-versions-getting-started/deployment-to-a-hosting-provider/deployment-to-a-hosting-provider-deploying-a-code-only-update-8-of-12
@@ -129,3 +129,4 @@ You've now deployed an application update that did not involve a database change
 > [!div class="step-by-step"]
 > [Previous](deployment-to-a-hosting-provider-deploying-to-the-production-environment-7-of-12.md)
 > [Next](deployment-to-a-hosting-provider-deploying-a-database-update-9-of-12.md)
+

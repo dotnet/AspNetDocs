@@ -3,7 +3,7 @@ uid: web-forms/overview/ajax-control-toolkit/modalpopup/launching-a-modal-popup-
 title: "Launching a Modal Popup Window from Server Code (C#) | Microsoft Docs"
 author: wenz
 description: "The ModalPopup control in the AJAX Control Toolkit offers a simple way to create a modal popup using client-side means. However some scenarios require that t... (C#)"
-ms.author: riande
+ms.author: tdykstra
 ms.date: 06/02/2008
 ms.assetid: 2f67d8ef-73ca-447d-a0cc-6e3168431e6a
 msc.legacyurl: /web-forms/overview/ajax-control-toolkit/modalpopup/launching-a-modal-popup-window-from-server-code-cs
@@ -63,3 +63,4 @@ The modal popup appears when either of the buttons is clicked ([Click to view fu
 
 > [!div class="step-by-step"]
 > [Next](using-modalpopup-with-a-repeater-control-cs.md)
+

@@ -3,7 +3,7 @@ uid: mvc/overview/older-versions/getting-started-with-aspnet-mvc3/cs/accessing-y
 title: "Accessing your Model's Data from a Controller (C#) | Microsoft Docs"
 author: Rick-Anderson
 description: "Learn how to create a movie, examine generated code, pass strongly typed data or objects to a view template, and work with SQL server compact."
-ms.author: riande
+ms.author: tdykstra
 ms.date: 01/12/2011
 ms.assetid: 002ada5c-f114-47ab-a441-57dbdb728ea0
 msc.legacyurl: /mvc/overview/older-versions/getting-started-with-aspnet-mvc3/cs/accessing-your-models-data-from-a-controller
@@ -136,3 +136,4 @@ You now have the database and a simple listing page to display content from it. 
 > [!div class="step-by-step"]
 > [Previous](adding-a-model.md)
 > [Next](examining-the-edit-methods-and-edit-view.md)
+

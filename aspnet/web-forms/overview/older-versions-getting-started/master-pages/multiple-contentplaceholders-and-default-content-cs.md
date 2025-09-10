@@ -3,7 +3,7 @@ uid: web-forms/overview/older-versions-getting-started/master-pages/multiple-con
 title: "Multiple ContentPlaceHolders and Default Content (C#) | Microsoft Docs"
 author: rick-anderson
 description: "Examines how to add multiple content place holders to a master page as well as how to specify default content in the content place holders. (C#)"
-ms.author: riande
+ms.author: wpickett
 ms.date: 05/21/2008
 ms.assetid: b9b9798b-027d-46cc-9636-473378e437ac
 msc.legacyurl: /web-forms/overview/older-versions-getting-started/master-pages/multiple-contentplaceholders-and-default-content-cs
@@ -162,3 +162,4 @@ This tutorial series was reviewed by many helpful reviewers. Lead reviewer for t
 > [!div class="step-by-step"]
 > [Previous](creating-a-site-wide-layout-using-master-pages-cs.md)
 > [Next](specifying-the-title-meta-tags-and-other-html-headers-in-the-master-page-cs.md)
+

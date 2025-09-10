@@ -3,7 +3,7 @@ uid: web-api/overview/data/using-web-api-with-entity-framework/part-2
 title: Add Models and Controllers | Microsoft Docs
 author: Rick-Anderson
 description: Describes how to add model classes that define database entries and how to add Web API controllers that perform CRUD operations.
-ms.author: riande
+ms.author: tdykstra
 ms.date: 06/16/2014
 ms.assetid: 88908ff8-51a9-40eb-931c-a8139128b680
 msc.legacyurl: /web-api/overview/data/using-web-api-with-entity-framework/part-2
@@ -85,3 +85,4 @@ At this point, build the project again. Now go through the same steps to add an 
 > [!div class="step-by-step"]
 > [Previous](part-1.md)
 > [Next](part-3.md)
+

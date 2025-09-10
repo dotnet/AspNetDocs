@@ -3,7 +3,7 @@ uid: web-forms/overview/getting-started/getting-started-with-aspnet-45-web-forms
 title: "Getting Started with ASP.NET 4.7 Web Forms and Visual Studio 2017 | Microsoft Docs"
 author: Erikre
 description: "This step-by-step tutorial series will teach you the basics of building an ASP.NET Web Forms application using ASP.NET 4.7 and Microsoft Visual Studio"
-ms.author: riande
+ms.author: wpickett
 ms.date: 01/09/2019
 ms.assetid: 9b96eaa1-8ef0-4338-a2e8-e0f970bfaf68
 msc.legacyurl: /web-forms/overview/getting-started/getting-started-with-aspnet-45-web-forms/introduction-and-overview
@@ -186,3 +186,4 @@ If an error occurs, the corresponding error messages could be confusing, with no
 
 > [!div class="step-by-step"]
 > [Next](create-the-project.md)
+

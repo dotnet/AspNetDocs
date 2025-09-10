@@ -3,7 +3,7 @@ uid: web-api/overview/odata-support-in-aspnet-web-api/index
 title: "OData in ASP.NET Web API - ASP.NET 4.x"
 author: rick-anderson
 description: "How to create OData endpoints in ASP.NET Web API for ASP.NET 4.x"
-ms.author: riande
+ms.author: tdykstra
 ms.date: 08/17/2012
 ms.assetid: 9151c605-e911-4f24-95b5-ca310b105abf
 msc.legacyurl: /web-api/overview/odata-support-in-aspnet-web-api
@@ -33,3 +33,4 @@ msc.type: chapter
 - [Using $select, $expand, and $value in Web API 2 OData](using-select-expand-and-value.md)
 - [Routing Conventions in Web API 2 OData](odata-routing-conventions.md)
 - [Security Guidance for Web API 2 OData](odata-security-guidance.md)
+

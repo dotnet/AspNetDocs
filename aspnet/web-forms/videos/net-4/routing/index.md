@@ -3,7 +3,7 @@ uid: web-forms/videos/net-4/routing/index
 title: SEO-friendly URLs for Web Form Applications | Microsoft Docs
 author: rick-anderson
 description: This video shows you how to create intuitive and SEO-friendly URLs for your Web Forms applications.
-ms.author: riande
+ms.author: wpickett
 ms.date: 11/14/2011
 ms.assetid: 8a1cfb18-df04-4607-ae93-2bebd2d3fa31
 msc.legacyurl: /web-forms/videos/net-4/routing
@@ -19,3 +19,4 @@ msc.type: chapter
 - [Outbound WebForms Routing](aspnet-4-quick-hit-outbound-webforms-routing.md)
 - [Use Routing with ASP.NET Web Forms](how-do-i-use-routing-with-aspnet-web-forms.md)
 - [Work with URLs in ASP.NET Routing](how-do-i-work-with-urls-in-aspnet-routing.md)
+

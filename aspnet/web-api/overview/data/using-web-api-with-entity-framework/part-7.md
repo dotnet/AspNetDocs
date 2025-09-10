@@ -3,7 +3,7 @@ uid: web-api/overview/data/using-web-api-with-entity-framework/part-7
 title: Create the View (UI) | Microsoft Docs
 author: Rick-Anderson
 description: Describes how to define the application's HTML and add data binding between the HTML and the view model.
-ms.author: riande
+ms.author: tdykstra
 ms.date: 06/16/2014
 ms.assetid: b2445062-a1fe-4133-8994-f510280f6d9a
 msc.legacyurl: /web-api/overview/data/using-web-api-with-entity-framework/part-7
@@ -46,3 +46,4 @@ The list of books loads asynchronously, after the page loads. Right now, the &qu
 > [!div class="step-by-step"]
 > [Previous](part-6.md)
 > [Next](part-8.md)
+

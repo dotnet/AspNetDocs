@@ -3,7 +3,7 @@ uid: visual-studio/overview/2013/using-browser-link
 title: Using Browser Link in Visual Studio 2013 | Microsoft Docs
 author: Rick-Anderson
 description: Browser Link is a feature in Visual Studio 2013 that creates a communication channel between the development environment and one or more web browsers.
-ms.author: riande
+ms.author: tdykstra
 ms.date: 10/04/2013
 ms.assetid: 46cbfe20-b4dc-449b-9016-80657dd44fbe
 msc.legacyurl: /visual-studio/overview/2013/using-browser-link
@@ -111,3 +111,4 @@ Browser Link uses [SignalR](../../../signalr/index.md) to create a communication
 Your source files are not modified. The HTTP module injects the script references dynamically.
 
 Because the browser-side code is all JavaScript, it works on all browsers that [SignalR supports](../../../signalr/overview/getting-started/supported-platforms.md), without requiring any browser plug-in.
+

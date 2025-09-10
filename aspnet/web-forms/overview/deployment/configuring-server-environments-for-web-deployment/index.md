@@ -3,7 +3,7 @@ uid: web-forms/overview/deployment/configuring-server-environments-for-web-deplo
 title: "ASP.NET 4 - Enterprise Deployment Series 2 Configuring Servers | Microsoft Docs"
 author: rick-anderson
 description: "This tutorial will show you how to set up server environments to support one-click, or automated, website deployment and publishing in various different scen..."
-ms.author: riande
+ms.author: wpickett
 ms.date: 05/16/2012
 ms.assetid: 489b414b-2322-4385-8638-04e08c0b6c90
 msc.legacyurl: /web-forms/overview/deployment/configuring-server-environments-for-web-deployment
@@ -24,3 +24,4 @@ msc.type: chapter
 - [Configuring a Database Server for Web Deploy Publishing](configuring-a-database-server-for-web-deploy-publishing.md)
 - [Creating a Server Farm with the Web Farm Framework](creating-a-server-farm-with-the-web-farm-framework.md)
 - [Configuring Deployment Properties for a Target Environment](configuring-deployment-properties-for-a-target-environment.md)
+

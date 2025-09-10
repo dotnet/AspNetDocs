@@ -3,7 +3,7 @@ uid: mvc/overview/getting-started/getting-started-with-ef-using-mvc/migrations-a
 title: "Tutorial: Use EF Migrations in an ASP.NET MVC app and deploy to Azure"
 author: tdykstra
 description: "In this tutorial, you enable Code First migrations and deploy the application to the cloud in Azure."
-ms.author: riande
+ms.author: tdykstra
 ms.date: 01/16/2019
 ms.topic: tutorial
 ms.assetid: d4dfc435-bda6-4621-9762-9ba270f8de4e
@@ -250,3 +250,4 @@ In this tutorial, you:
 Advance to the next article to learn how to create a more complex data model for an ASP.NET MVC Application.
 > [!div class="nextstepaction"]
 > [Create a more complex data model](creating-a-more-complex-data-model-for-an-asp-net-mvc-application.md)
+

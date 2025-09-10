@@ -3,7 +3,7 @@ uid: web-api/overview/mobile-clients/calling-web-api-from-a-windows-phone-8-appl
 title: "Calling Web API from a Windows Phone 8 Application (C#) - ASP.NET 4.x"
 author: rmcmurray
 description: "Tutorial with code: Create an ASP.NET Web API application in ASP.NET 4.x that provides a catalog of books to a Windows Phone 8 application."
-ms.author: riande
+ms.author: tdykstra
 ms.date: 10/09/2013
 ms.assetid: b9775f41-352a-4f82-baa6-23e95b342e20
 msc.legacyurl: /web-api/overview/mobile-clients/calling-web-api-from-a-windows-phone-8-application
@@ -187,3 +187,4 @@ If you tap on the error message, any additional details about the error will be 
 | [![Screenshot of the phone emulator, over the solution explorer dialog box, showing 'An Error Occurred' followed by details of the error.](calling-web-api-from-a-windows-phone-8-application/_static/image16.png)](calling-web-api-from-a-windows-phone-8-application/_static/image15.png) |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------|
 |                                                                 Click image to expand                                                                 |
+

@@ -3,7 +3,7 @@ uid: whitepapers/mvc4-release-notes
 title: "ASP.NET MVC 4 Release Notes"
 author: rick-anderson
 description: "This document describes the release of ASP.NET MVC 4."
-ms.author: riande
+ms.author: wpickett
 ms.date: 09/09/2011
 ms.assetid: f014524f-25c0-4094-b8e1-886d99536f00
 msc.legacyurl: /whitepapers/mvc4-release-notes
@@ -285,3 +285,4 @@ The major changes from ASP.NET MVC 4 Release Candidate in this release are summa
 - **Google and LinkedIn providers are not supported within Azure Web Sites.** Use alternative authentication providers when deploying to Azure Web Sites.
 - **When using UriPathExtensionMapping with IIS 8 Express/IIS, you would receive 404 Not Found errors when you try to use the extension.** The static file handler will interfere with requests to web APIs that use *UriPathExtensionMappings*. Set *runAllManagedModulesForAllRequests=true* in web.config to work around the issue.
 - **Controller.Execute method is no longer called.** All MVC controllers are now always executed asynchronously.
+

@@ -3,7 +3,7 @@ uid: mvc/overview/getting-started/getting-started-with-ef-using-mvc/async-and-st
 title: "Tutorial: Use async and stored procedures with EF in an ASP.NET MVC App"
 description: "In this tutorial you see how to implement the asynchronous programming model and learn how to use stored procedures."
 author: tdykstra
-ms.author: riande
+ms.author: tdykstra
 ms.date: 01/18/2019
 ms.topic: tutorial
 ms.assetid: 27d110fc-d1b7-4628-a763-26f1e6087549
@@ -160,3 +160,4 @@ In this tutorial, you:
 Advance to the next article to learn how to handle conflicts when multiple users update the same entity at the same time.
 > [!div class="nextstepaction"]
 > [Handling concurrency](handling-concurrency-with-the-entity-framework-in-an-asp-net-mvc-application.md)
+

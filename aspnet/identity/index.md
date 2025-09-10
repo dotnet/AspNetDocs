@@ -3,7 +3,7 @@ uid: identity/index
 title: ASP.NET Identity
 author: rick-anderson
 description: This index topic provides a list of topics related to ASP.NET Identity, a cross-platform modern membership system.
-ms.author: riande
+ms.author: tdykstra
 ms.date: 10/02/2013
 ms.assetid: 0c2df5d4-c2dd-486d-b0ed-fe831c6b596c
 msc.legacyurl: /identity
@@ -34,3 +34,4 @@ msc.type: categoryindex
 
         - [Migrating an Existing Website from SQL Membership to ASP.NET Identity](overview/migrations/migrating-an-existing-website-from-sql-membership-to-aspnet-identity.md)
         - [Migrating Universal Provider Data for Membership and User Profiles to ASP.NET Identity (C#)](overview/migrations/migrating-universal-provider-data-for-membership-and-user-profiles-to-aspnet-identity.md)
+

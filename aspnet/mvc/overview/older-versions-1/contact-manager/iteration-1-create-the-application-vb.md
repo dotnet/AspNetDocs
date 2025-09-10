@@ -3,7 +3,7 @@ uid: mvc/overview/older-versions-1/contact-manager/iteration-1-create-the-applic
 title: "Iteration #1 – Create the Application (VB) | Microsoft Docs"
 author: rick-anderson
 description: "In the first iteration, we create the Contact Manager in the simplest way possible. We add support for basic database operations: Create, Read, Update, and D... (VB)"
-ms.author: riande
+ms.author: tdykstra
 ms.date: 02/20/2009
 ms.assetid: 5b033582-1646-42c2-b20d-7edc8814e970
 msc.legacyurl: /mvc/overview/older-versions-1/contact-manager/iteration-1-create-the-application-vb
@@ -431,3 +431,4 @@ Finally, and most importantly, the current iteration of the Contact Manager appl
 > [!div class="step-by-step"]
 > [Previous](iteration-7-add-ajax-functionality-cs.md)
 > [Next](iteration-2-make-the-application-look-nice-vb.md)
+

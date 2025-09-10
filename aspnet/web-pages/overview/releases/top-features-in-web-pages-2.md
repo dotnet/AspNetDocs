@@ -3,7 +3,7 @@ uid: web-pages/overview/releases/top-features-in-web-pages-2
 title: "The Top Features in ASP.NET Web Pages 2 | Microsoft Docs"
 author: rick-anderson
 description: "This topic provides an overview of the top new features in the ASP.NET Web Pages 2, a lightweight web programming framework that is included with the WebMatr..."
-ms.author: riande
+ms.author: wpickett
 ms.date: 02/13/2012
 ms.assetid: cc712e72-c3d0-4e43-bc2d-28cc09cd8f71
 msc.legacyurl: /web-pages/overview/releases/top-features-in-web-pages-2
@@ -493,3 +493,4 @@ To build and run the code sample:
 
 - [Microsoft WebMatrix Site](https://go.microsoft.com/fwlink/?LinkID=195076)
 - [Starting Web Development with Microsoft WebMatrix](https://msdn.microsoft.com/library/hh145669(v=VS.99).aspx)(includes a full-length sample Web Pages application)
+

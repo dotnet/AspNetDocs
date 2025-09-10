@@ -3,7 +3,7 @@ uid: web-api/overview/odata-support-in-aspnet-web-api/odata-v4/entity-relations-
 title: "Entity Relations in OData v4 Using ASP.NET Web API 2.2 | Microsoft Docs"
 author: rick-anderson
 description: "Most data sets define relations between entities: Customers have orders; books have authors; products have suppliers. Using OData, clients can navigate over..."
-ms.author: riande
+ms.author: tdykstra
 ms.date: 06/26/2014
 ms.assetid: 72657550-ec09-4779-9bfc-2fb15ecd51c7
 msc.legacyurl: /web-api/overview/odata-support-in-aspnet-web-api/odata-v4/entity-relations-in-odata-v4
@@ -155,3 +155,4 @@ To support this in Web API, we need to include an extra parameter in the `Delete
 [!code-csharp[Main](entity-relations-in-odata-v4/samples/sample21.cs)]
 
 The *key* parameter is the key for the supplier, and the *relatedKey* parameter is the key for the product to remove from the `Products` relationship. Note that Web API automatically gets the key from the query string.
+

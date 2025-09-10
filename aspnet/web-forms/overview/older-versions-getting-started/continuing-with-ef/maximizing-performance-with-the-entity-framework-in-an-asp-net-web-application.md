@@ -3,7 +3,7 @@ uid: web-forms/overview/older-versions-getting-started/continuing-with-ef/maximi
 title: "Maximizing Performance with the Entity Framework 4.0 in an ASP.NET 4 Web Application | Microsoft Docs"
 author: tdykstra
 description: "This tutorial series builds on the Contoso University web application that is created by the Getting Started with the Entity Framework 4.0 tutorial series."
-ms.author: riande
+ms.author: wpickett
 ms.date: 01/26/2011
 ms.assetid: 4e43455e-dfa1-42db-83cb-c987703f04b5
 msc.legacyurl: /web-forms/overview/older-versions-getting-started/continuing-with-ef/maximizing-performance-with-the-entity-framework-in-an-asp-net-web-application
@@ -255,3 +255,4 @@ The next tutorial reviews some of the important enhancements to the Entity Frame
 > [!div class="step-by-step"]
 > [Previous](handling-concurrency-with-the-entity-framework-in-an-asp-net-web-application.md)
 > [Next](what-s-new-in-the-entity-framework-4.md)
+
