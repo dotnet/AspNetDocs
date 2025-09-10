@@ -3,7 +3,7 @@ uid: web-pages/overview/mobile/rendering-aspnet-web-pages-sites-for-mobile-devic
 title: "Rendering ASP.NET Web Pages (Razor) Sites for Mobile Devices | Microsoft Docs"
 author: Rick-Anderson
 description: "This article describes how to create pages in an ASP.NET Web Pages (Razor) site that will render appropriately on mobile devices. What you'll learn: How to u..."
-ms.author: riande
+ms.author: wpickett
 ms.date: 02/17/2014
 ms.assetid: f15ab392-c05e-4269-83bf-7c6d2b8c8ec8
 msc.legacyurl: /web-pages/overview/mobile/rendering-aspnet-web-pages-sites-for-mobile-devices
@@ -52,3 +52,4 @@ The following example shows how to enable mobile rendering by adding a content p
 ## Additional Resources
 
 [Windows Phone Emulator](https://msdn.microsoft.com/library/ff402563(v=VS.92).aspx)
+

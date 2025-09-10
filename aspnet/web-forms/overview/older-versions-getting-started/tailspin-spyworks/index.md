@@ -3,7 +3,7 @@ uid: web-forms/overview/older-versions-getting-started/tailspin-spyworks/index
 title: "ASP.NET 4 - Tailspin Spyworks | Microsoft Docs"
 author: rick-anderson
 description: "Learn how to use new features in ASP.NET 4 to build an online store, including shopping, checkout, and administration."
-ms.author: riande
+ms.author: wpickett
 ms.date: 08/08/2011
 ms.assetid: caeb0bcb-b2e3-4c37-a1d5-420bb4e917ac
 msc.legacyurl: /web-forms/overview/older-versions-getting-started/tailspin-spyworks
@@ -21,3 +21,4 @@ msc.type: chapter
 - [Part 6: ASP.NET Membership](tailspin-spyworks-part-6.md)
 - [Part 7: Adding Features](tailspin-spyworks-part-7.md)
 - [Part 8: Final Pages, Exception Handling, and Conclusion](tailspin-spyworks-part-8.md)
+

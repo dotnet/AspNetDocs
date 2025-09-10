@@ -3,7 +3,7 @@ uid: web-forms/overview/moving-to-aspnet-20/caching
 title: "Caching | Microsoft Docs"
 author: rick-anderson
 description: "An understanding of caching is important for a well-performing ASP.NET application. ASP.NET 1.x offered three different options for caching; output caching,..."
-ms.author: riande
+ms.author: wpickett
 ms.date: 02/20/2005
 ms.assetid: 2bb109d2-e299-46ea-9054-fa0263b59165
 msc.legacyurl: /web-forms/overview/moving-to-aspnet-20/caching
@@ -302,3 +302,4 @@ This lab uses the project you created in the previous module that allows for edi
 10. Add a new GridView to the showdata.aspx page.
 11. Choose SqlDataSource1 from the dropdown.
 12. Save and browse showdata.aspx. Make note of the time displayed.
+

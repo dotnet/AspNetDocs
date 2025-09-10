@@ -3,7 +3,7 @@ uid: web-forms/overview/data-access/accessing-the-database-directly-from-an-aspn
 title: "Inserting, Updating, and Deleting Data with the SqlDataSource (VB) | Microsoft Docs"
 author: rick-anderson
 description: "In previous tutorials we learned how the ObjectDataSource control allowed for inserting, updating, and deleting of data. The SqlDataSource control supports t... (VB)"
-ms.author: riande
+ms.author: tdykstra
 ms.date: 02/20/2007
 ms.assetid: 9673bef3-892c-45ba-a7d8-0da3d6f48ec5
 msc.legacyurl: /web-forms/overview/data-access/accessing-the-database-directly-from-an-aspnet-page/inserting-updating-and-deleting-data-with-the-sqldatasource-vb
@@ -185,3 +185,4 @@ Scott Mitchell, author of seven ASP/ASP.NET books and founder of 4GuysFromRolla.
 > [!div class="step-by-step"]
 > [Previous](using-parameterized-queries-with-the-sqldatasource-vb.md)
 > [Next](implementing-optimistic-concurrency-with-the-sqldatasource-vb.md)
+

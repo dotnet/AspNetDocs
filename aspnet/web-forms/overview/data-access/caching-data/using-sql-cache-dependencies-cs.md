@@ -3,7 +3,7 @@ uid: web-forms/overview/data-access/caching-data/using-sql-cache-dependencies-cs
 title: "Using SQL Cache Dependencies (C#) | Microsoft Docs"
 author: rick-anderson
 description: "The simplest caching strategy is to allow cached data to expire after a specified period of time. But this simple approach means that the cached data maintai... (C#)"
-ms.author: riande
+ms.author: tdykstra
 ms.date: 05/30/2007
 ms.assetid: 0e91842c-7f10-4aed-8c23-4ee3e2774014
 msc.legacyurl: /web-forms/overview/data-access/caching-data/using-sql-cache-dependencies-cs
@@ -269,3 +269,4 @@ This tutorial series was reviewed by many helpful reviewers. Lead reviewers for 
 > [!div class="step-by-step"]
 > [Previous](caching-data-at-application-startup-cs.md)
 > [Next](caching-data-with-the-objectdatasource-vb.md)
+

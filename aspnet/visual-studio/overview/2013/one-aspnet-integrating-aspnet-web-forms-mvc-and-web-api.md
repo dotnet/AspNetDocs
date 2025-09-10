@@ -3,7 +3,7 @@ uid: visual-studio/overview/2013/one-aspnet-integrating-aspnet-web-forms-mvc-and
 title: "Hands On Lab: One ASP.NET: Integrating ASP.NET Web Forms, MVC and Web API | Microsoft Docs"
 author: rick-anderson
 description: "ASP.NET is a framework for building Web sites, apps and services using specialized technologies such as MVC, Web API and others. With the expansion ASP.NET h..."
-ms.author: riande
+ms.author: tdykstra
 ms.date: 07/16/2014
 ms.assetid: 4fe2558d-67cc-4d12-a5c1-6fb9f6f16137
 msc.legacyurl: /visual-studio/overview/2013/one-aspnet-integrating-aspnet-web-forms-mvc-and-web-api
@@ -428,3 +428,4 @@ By completing this hands-on lab you have learned how to:
 - Generate MVC controllers and views from your model classes using ASP.NET Scaffolding
 - Generate Web API controllers, which use features such as Async Programming and data access through Entity Framework
 - Automatically generate Web API Help Pages for your controllers
+

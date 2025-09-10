@@ -3,7 +3,7 @@ uid: mvc/overview/getting-started/database-first-development/creating-the-web-ap
 title: "Tutorial: Create the Web Application and Data Models for EF Database First with ASP.NET MVC"
 description: "This tutorial focuses on creating the web application, and generating the data models based on your database tables."
 author: Rick-Anderson
-ms.author: riande
+ms.author: tdykstra
 ms.date: 01/28/2019
 ms.topic: tutorial
 ms.assetid: bc8f2bd5-ff57-4dcd-8418-a5bd517d8953
@@ -101,3 +101,4 @@ In this tutorial, you:
 Advance to the next tutorial to learn how to create generate code based on the data models.
 > [!div class="nextstepaction"]
 > [Generating views](generating-views.md)
+

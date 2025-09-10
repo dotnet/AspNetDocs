@@ -3,7 +3,7 @@ uid: web-forms/overview/deployment/configuring-server-environments-for-web-deplo
 title: "Creating a Server Farm with the Web Farm Framework | Microsoft Docs"
 author: jrjlee
 description: "This topic describes how to use the Web Farm Framework (WFF) 2.0 to create and configure a web server farm from a collection of servers."
-ms.author: riande
+ms.author: wpickett
 ms.date: 05/04/2012
 ms.assetid: 656dd06d-806c-467c-863d-9fc45e5ba3ab
 msc.legacyurl: /web-forms/overview/deployment/configuring-server-environments-for-web-deployment/creating-a-server-farm-with-the-web-farm-framework
@@ -221,3 +221,4 @@ For more guidance on all aspects of configuring and using the WFF, see the [Micr
 > [!div class="step-by-step"]
 > [Previous](configuring-a-database-server-for-web-deploy-publishing.md)
 > [Next](configuring-deployment-properties-for-a-target-environment.md)
+

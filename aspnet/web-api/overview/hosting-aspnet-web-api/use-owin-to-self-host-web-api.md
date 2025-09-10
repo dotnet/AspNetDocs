@@ -3,7 +3,7 @@ uid: web-api/overview/hosting-aspnet-web-api/use-owin-to-self-host-web-api
 title: "Use OWIN to Self-Host ASP.NET Web API - ASP.NET 4.x"
 author: rick-anderson
 description: "Tutorial with code showing how to host ASP.NET Web API in a console application."
-ms.author: riande
+ms.author: tdykstra
 ms.date: 07/09/2013
 ms.assetid: a90a04ce-9d07-43ad-8250-8a92fb2bd3d5
 msc.legacyurl: /web-api/overview/hosting-aspnet-web-api/use-owin-to-self-host-web-api
@@ -78,3 +78,4 @@ To run the application, press F5 in Visual Studio. The output should look like t
 [An Overview of Project Katana](../../../aspnet/overview/owin-and-katana/an-overview-of-project-katana.md)
 
 [Host ASP.NET Web API in an Azure Worker Role](host-aspnet-web-api-in-an-azure-worker-role.md)
+

@@ -3,7 +3,7 @@ uid: identity/overview/extensibility/implementing-a-custom-mysql-aspnet-identity
 title: "Implementing a Custom MySQL ASP.NET Identity Storage Provider - ASP.NET 4.x"
 author: raquelsa
 description: "ASP.NET Identity is an extensible system that enables you to create your own storage provider and plug it into your application without re-working the appli..."
-ms.author: riande
+ms.author: tdykstra
 ms.date: 05/22/2015
 ms.assetid: 248f5fe7-39ba-40ea-ab1e-71a69b0bd649
 msc.legacyurl: /identity/overview/extensibility/implementing-a-custom-mysql-aspnet-identity-storage-provider
@@ -147,3 +147,4 @@ If needed, install either [Visual Studio Express 2013 for Web](https://my.visual
 For more information on how to enable other authentication methods on this app, refer to [Create an ASP.NET MVC 5 App with Facebook and Google OAuth2 and OpenID Sign-on](../../../mvc/overview/security/create-an-aspnet-mvc-5-app-with-facebook-and-google-oauth2-and-openid-sign-on.md).
 
 To learn how to integrate your DB with OAuth and to set up roles to limit users access to your app, see [Deploy a Secure ASP.NET MVC 5 app with Membership, OAuth, and SQL Database to Azure](/aspnet/core/security/authorization/secure-data).
+

@@ -3,7 +3,7 @@ uid: mvc/overview/older-versions/creating-a-mvc-3-application-with-razor-and-uno
 title: "Creating a MVC 3 Application with Razor and Unobtrusive JavaScript | Microsoft Docs"
 author: rick-anderson
 description: "The User List sample web application demonstrates how simple it is to create ASP.NET MVC 3 applications using the Razor view engine. The sample application s..."
-ms.author: riande
+ms.author: tdykstra
 ms.date: 11/01/2010
 ms.assetid: 658b149b-d770-46bf-8b4b-4e47cca242f3
 msc.legacyurl: /mvc/overview/older-versions/creating-a-mvc-3-application-with-razor-and-unobtrusive-javascript
@@ -203,3 +203,4 @@ Add a `Delete` view as in the previous steps, setting **View content** to **Dele
 ![Delete View](creating-a-mvc-3-application-with-razor-and-unobtrusive-javascript/_static/image16.png)
 
 You now have a simple but fully functional ASP.NET MVC 3 application with validation.
+

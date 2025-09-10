@@ -3,7 +3,7 @@ uid: web-pages/overview/security/enabling-login-from-external-sites-in-an-aspnet
 title: "Logging In Using External Sites in an ASP.NET Web Pages (Razor) Site | Microsoft Docs"
 author: Rick-Anderson
 description: "This article explains how to log in to your ASP.NET Web Pages (Razor) site using Facebook, Google, Twitter, Yahoo, and other sites — that is, how to support..."
-ms.author: riande
+ms.author: wpickett
 ms.date: 02/21/2014
 ms.assetid: ef852096-a5bf-47b3-9945-125cde065093
 msc.legacyurl: /web-pages/overview/security/enabling-login-from-external-sites-in-an-aspnet-web-pages-site
@@ -168,3 +168,4 @@ Now you make changes to two pages in your website so that users will be able to 
 
 - [Customizing Site-Wide Behavior](https://go.microsoft.com/fwlink/?LinkId=202906)
 - [Adding Security and Membership to an ASP.NET Web Pages Site](https://go.microsoft.com/fwlink/?LinkID=202904)
+

@@ -3,7 +3,7 @@ uid: mvc/overview/getting-started/database-first-development/changing-the-databa
 title: "Tutorial: Change the database for EF Database First with ASP.NET MVC app"
 description: "This tutorial focuses on making an update to the database structure and propagating that change throughout the web application."
 author: Rick-Anderson
-ms.author: riande
+ms.author: tdykstra
 ms.date: 01/28/2019
 ms.topic: tutorial
 ms.assetid: cfd5c083-a319-482e-8f25-5b38caa93954

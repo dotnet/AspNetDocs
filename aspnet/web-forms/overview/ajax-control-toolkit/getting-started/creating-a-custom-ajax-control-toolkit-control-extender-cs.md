@@ -3,7 +3,7 @@ uid: web-forms/overview/ajax-control-toolkit/getting-started/creating-a-custom-a
 title: "Creating a Custom AJAX Control Toolkit Control Extender (C#) | Microsoft Docs"
 author: rick-anderson
 description: "Custom Extenders enable you to customize and extend the capabilities of ASP.NET controls without having to create new classes (C#)."
-ms.author: riande
+ms.author: tdykstra
 ms.date: 05/12/2009
 ms.assetid: 96b56eca-a892-45a4-96b4-67e61178650a
 msc.legacyurl: /web-forms/overview/ajax-control-toolkit/getting-started/creating-a-custom-ajax-control-toolkit-control-extender-cs
@@ -210,3 +210,4 @@ The goal of this tutorial was to explain how you can extend the AJAX Control Too
 > [!div class="step-by-step"]
 > [Previous](using-ajax-control-toolkit-controls-and-control-extenders-cs.md)
 > [Next](get-started-with-the-ajax-control-toolkit-vb.md)
+

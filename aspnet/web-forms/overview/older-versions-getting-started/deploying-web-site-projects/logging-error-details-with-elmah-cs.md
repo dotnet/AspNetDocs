@@ -3,7 +3,7 @@ uid: web-forms/overview/older-versions-getting-started/deploying-web-site-projec
 title: "Logging Error Details with ELMAH (C#) | Microsoft Docs"
 author: rick-anderson
 description: "Error Logging Modules And Handlers (ELMAH) offers another approach to logging runtime errors in a production environment. ELMAH is a free, open source error... (C#)"
-ms.author: riande
+ms.author: wpickett
 ms.date: 06/09/2009
 ms.assetid: 11f6fe44-64ef-4a38-a3b4-35c7bb992352
 msc.legacyurl: /web-forms/overview/older-versions-getting-started/deploying-web-site-projects/logging-error-details-with-elmah-cs
@@ -242,3 +242,4 @@ For more information on the topics discussed in this tutorial, refer to the foll
 > [!div class="step-by-step"]
 > [Previous](logging-error-details-with-asp-net-health-monitoring-cs.md)
 > [Next](precompiling-your-website-cs.md)
+

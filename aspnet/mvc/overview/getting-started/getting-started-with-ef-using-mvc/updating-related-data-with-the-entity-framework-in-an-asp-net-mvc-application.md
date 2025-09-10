@@ -3,7 +3,7 @@ uid: mvc/overview/getting-started/getting-started-with-ef-using-mvc/updating-rel
 title: "Tutorial: Update related data with EF in an ASP.NET MVC app"
 description: "In this tutorial you'll update related data. For most relationships, this can be done by updating either foreign key fields or navigation properties."
 author: tdykstra
-ms.author: riande
+ms.author: tdykstra
 ms.date: 01/19/2019
 ms.topic: tutorial
 
@@ -282,3 +282,4 @@ In this tutorial, you:
 Advance to the next article to learn how to implement an asynchronous programming model.
 > [!div class="nextstepaction"]
 > [Asynchronous programming model](async-and-stored-procedures-with-the-entity-framework-in-an-asp-net-mvc-application.md)
+

@@ -3,7 +3,7 @@ uid: mvc/overview/security/aspnet-mvc-5-app-with-sms-and-email-two-factor-authen
 title: "ASP.NET MVC 5 app with SMS and email Two-Factor Authentication | Microsoft Docs"
 author: Rick-Anderson
 description: "This tutorial shows you how to build an ASP.NET MVC 5 web app with Two-Factor Authentication. You should complete Create a secure ASP.NET MVC 5 web app with..."
-ms.author: riande
+ms.author: tdykstra
 ms.date: 08/20/2015
 ms.assetid: f50a5cdb-c06a-46ed-aa14-fc5b049dc8dc
 msc.legacyurl: /mvc/overview/security/aspnet-mvc-5-app-with-sms-and-email-two-factor-authentication
@@ -150,3 +150,4 @@ This tutorial provides a quick introduction to enabling 2FA on a new ASP.NET MVC
 - [Creating the app in Facebook and connecting the app to the project](create-an-aspnet-mvc-5-app-with-facebook-and-google-oauth2-and-openid-sign-on.md#fb)
 - [Setting up SSL in the Project](create-an-aspnet-mvc-5-app-with-facebook-and-google-oauth2-and-openid-sign-on.md#ssl)
 - [How to set up your C# and ASP.NET MVC development environment](https://www.twilio.com/docs/usage/tutorials/how-to-set-up-your-csharp-and-asp-net-mvc-development-environment)
+

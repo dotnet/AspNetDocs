@@ -3,7 +3,7 @@ uid: mvc/overview/older-versions-1/models-data/displaying-a-table-of-database-da
 title: "Displaying a Table of Database Data (VB) | Microsoft Docs"
 author: rick-anderson
 description: "In this tutorial, I demonstrate two methods of displaying a set of database records. I show two methods of formatting a set of database records in an HTML ta... (VB)"
-ms.author: riande
+ms.author: tdykstra
 ms.date: 10/07/2008
 ms.assetid: 5bb4587f-5bcd-44f5-b368-3c1709162b35
 msc.legacyurl: /mvc/overview/older-versions-1/models-data/displaying-a-table-of-database-data-vb
@@ -159,3 +159,4 @@ The goal of this tutorial was to explain how you can display a set of database r
 > [!div class="step-by-step"]
 > [Previous](creating-model-classes-with-linq-to-sql-vb.md)
 > [Next](performing-simple-validation-vb.md)
+

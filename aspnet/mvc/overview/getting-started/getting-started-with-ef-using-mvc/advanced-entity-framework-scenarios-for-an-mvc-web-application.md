@@ -3,7 +3,7 @@ uid: mvc/overview/getting-started/getting-started-with-ef-using-mvc/advanced-ent
 title: "Tutorial: Learn about advanced EF Scenarios for an MVC 5 Web app"
 description: "This tutorial includes introduces several topics that are useful to be aware of when you go beyond the basics of developing ASP.NET web applications that use Entity Framework Code First."
 author: tdykstra
-ms.author: riande
+ms.author: tdykstra
 ms.date: 01/22/2019
 ms.topic: tutorial
 ms.assetid: f35a9b0c-49ef-4cde-b06d-19d1543feb0b
@@ -318,3 +318,4 @@ You also learned about:
 This completes this series of tutorials on using the Entity Framework in an ASP.NET MVC application. If you want to learn about EF Database First, see the DB First tutorial series.
 > [!div class="nextstepaction"]
 > [Entity Framework Database First](../database-first-development/setting-up-database.md)
+

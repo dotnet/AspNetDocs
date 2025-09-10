@@ -3,7 +3,7 @@ uid: identity/overview/features-api/best-practices-for-deploying-passwords-and-o
 title: "Deploying passwords and other sensitive data to ASP.NET and Azure App Service - ASP.NET 4.x"
 author: Rick-Anderson
 description: "This tutorial shows how your code can securely store and access secure information. The most important point is you should never store passwords or other sen..."
-ms.author: riande
+ms.author: tdykstra
 ms.date: 5/21/2024
 ms.assetid: 97902c66-cb61-4d11-be52-73f962f2db0a
 msc.legacyurl: /identity/overview/features-api/best-practices-for-deploying-passwords-and-other-sensitive-data-to-aspnet-and-azure
@@ -42,3 +42,4 @@ For more information, see:
 * [Connecting from your application to resources without handling credentials in your code](/entra/identity/managed-identities-azure-resources/overview-for-developers?tabs=portal%2Cdotnet)
 * [Azure services that can use managed identities to access other services](/entra/identity/managed-identities-azure-resources/managed-identities-status)
 * [IETF OAuth 2.0 Security Best Current Practice](https://datatracker.ietf.org/doc/html/draft-ietf-oauth-security-topics#section-2.4)
+

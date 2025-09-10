@@ -3,7 +3,7 @@ uid: web-forms/videos/net-4/ajax/aspnet-4-quick-hit-the-scriptloader
 title: Visual Studio 2010 Quick Hit - The ScriptLoader | Microsoft Docs
 author: JoeStagner
 description: "In this video will learn about the ScriptLoader."
-ms.author: riande
+ms.author: wpickett
 ms.date: 11/16/2009
 ms.assetid: b79562dd-ddd2-4a6b-a681-6aa75f25e59c
 msc.legacyurl: /web-forms/videos/net-4/ajax/aspnet-4-quick-hit-the-scriptloader
@@ -20,3 +20,4 @@ In this video will learn about the ScriptLoader.
 > [!div class="step-by-step"]
 > [Previous](aspnet-4-quick-hit-imperative-javascript-syntax-for-microsoft-client-side-controls.md)
 > [Next](aspnet-4-quick-hit-jquery-syntax-for-microsoft-ajax.md)
+

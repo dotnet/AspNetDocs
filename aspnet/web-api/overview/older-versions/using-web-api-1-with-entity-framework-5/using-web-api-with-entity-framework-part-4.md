@@ -3,7 +3,7 @@ uid: web-api/overview/older-versions/using-web-api-1-with-entity-framework-5/usi
 title: "Part 4: Adding an Admin View | Microsoft Docs"
 author: Rick-Anderson
 description: "How to add a page that can consume data from the Admin controller, allowing users to create, edit, or delete products by sending AJAX requests."
-ms.author: riande
+ms.author: tdykstra
 ms.date: 07/04/2012
 ms.assetid: 792f4513-a508-4d14-a0dd-1a2fe282c7bb
 msc.legacyurl: /web-api/overview/older-versions/using-web-api-1-with-entity-framework-5/using-web-api-with-entity-framework-part-4
@@ -78,3 +78,4 @@ Now only administrators can view the Admin page. Also, if you send an HTTP reque
 > [!div class="step-by-step"]
 > [Previous](using-web-api-with-entity-framework-part-3.md)
 > [Next](using-web-api-with-entity-framework-part-5.md)
+

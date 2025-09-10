@@ -3,7 +3,7 @@ uid: mvc/overview/older-versions-1/security/preventing-javascript-injection-atta
 title: "Preventing JavaScript Injection Attacks (C#) | Microsoft Docs"
 author: StephenWalther
 description: "Prevent JavaScript Injection Attacks and Cross-Site Scripting Attacks from happening to you. In this tutorial, Stephen Walther explains how you can easily de... (C#)"
-ms.author: riande
+ms.author: tdykstra
 ms.date: 08/19/2008
 ms.assetid: d0136da6-81a4-4815-b002-baa84744c09e
 msc.legacyurl: /mvc/overview/older-versions-1/security/preventing-javascript-injection-attacks-cs
@@ -106,3 +106,4 @@ The purpose of this tutorial was to scare you about the prospect of a JavaScript
 > [!div class="step-by-step"]
 > [Previous](authenticating-users-with-windows-authentication-cs.md)
 > [Next](authenticating-users-with-forms-authentication-vb.md)
+

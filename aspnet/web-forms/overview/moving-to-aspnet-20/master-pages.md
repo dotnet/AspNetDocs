@@ -3,7 +3,7 @@ uid: web-forms/overview/moving-to-aspnet-20/master-pages
 title: "Master Pages | Microsoft Docs"
 author: rick-anderson
 description: "One of the key components to a successful Web site is a consistent look and feel. In ASP.NET 1.x, developers used user controls to replicate common page elem..."
-ms.author: riande
+ms.author: wpickett
 ms.date: 02/20/2005
 ms.assetid: 9c0cce4d-efd9-4c14-b0e8-a1a140abb3f4
 msc.legacyurl: /web-forms/overview/moving-to-aspnet-20/master-pages
@@ -170,3 +170,4 @@ This video shows a walkthrough of using nested master pages.
 ![Selecting a Master Page](master-pages/_static/image4.jpg)
 
 **Figure 8**: Selecting a Master Page
+

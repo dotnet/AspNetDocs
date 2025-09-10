@@ -3,7 +3,7 @@ uid: web-forms/overview/ajax-control-toolkit/cascadingdropdown/using-auto-postba
 title: "Using Auto-Postback with CascadingDropDown (VB) | Microsoft Docs"
 author: wenz
 description: "The CascadingDropDown control of the AJAX Control Toolkit extends a DropDownList control so that changes for one DropDownList loads associated values in anoth... (VB)"
-ms.author: riande
+ms.author: tdykstra
 ms.date: 06/02/2008
 ms.assetid: 0b34f7f6-a0cc-4b9f-9761-643fb0bb3ece
 msc.legacyurl: /web-forms/overview/ajax-control-toolkit/cascadingdropdown/using-auto-postback-with-cascadingdropdown-vb
@@ -55,3 +55,4 @@ Selecting a list element causes a postback ([Click to view full-size image](usin
 
 > [!div class="step-by-step"]
 > [Previous](presetting-list-entries-with-cascadingdropdown-vb.md)
+

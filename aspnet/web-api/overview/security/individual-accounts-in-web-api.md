@@ -3,7 +3,7 @@ uid: web-api/overview/security/individual-accounts-in-web-api
 title: "Secure a Web API with Individual Accounts and Local Login in ASP.NET Web API 2.2 | Microsoft Docs"
 author: Rick-Anderson
 description: "This topic shows how to secure a web API using OAuth2 to authenticate against a membership database. Software versions used in the tutorial Visual Studio 201..."
-ms.author: riande
+ms.author: tdykstra
 ms.date: 10/15/2014
 ms.assetid: 92c84846-f0ea-4b5e-94b6-5004874eb060
 msc.legacyurl: /web-api/overview/security/individual-accounts-in-web-api
@@ -251,3 +251,4 @@ When the client requests a protected resource, here is what happens in the Web A
 - [Host authentication and Web API with OWIN](http://brockallen.com/2013/10/27/host-authentication-and-web-api-with-owin-and-active-vs-passive-authentication-middleware/). A good explanation of `SuppressDefaultHostAuthentication` and `HostAuthenticationFilter` by Brock Allen.
 - [Customizing profile information in ASP.NET Identity in VS 2013 templates](https://devblogs.microsoft.com/dotnet/customizing-profile-information-in-asp-net-identity-in-vs-2013-templates/). MSDN blog post by Pranav Rastogi.
 - [Per request lifetime management for UserManager class in ASP.NET Identity](https://devblogs.microsoft.com/dotnet/per-request-lifetime-management-for-usermanager-class-in-asp-net-identity/). MSDN blog post by Suhas Joshi, with a good explanation of the `UserManager` class.
+

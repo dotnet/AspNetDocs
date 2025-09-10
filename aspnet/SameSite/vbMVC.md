@@ -1,8 +1,8 @@
-﻿---
+---
 title: SameSite cookie sample for ASP.NET 4.7.2 VB MVC
 author: blowdart
 description: SameSite cookie sample for ASP.NET 4.7.2 VB MVC
-ms.author: riande
+ms.author: tdykstra
 ms.date: 2/15/2019
 uid: samesite/vbMVC
 ---

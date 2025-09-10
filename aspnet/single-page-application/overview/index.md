@@ -3,7 +3,7 @@ uid: single-page-application/overview/index
 title: "Single Page Application Overview | Microsoft Docs"
 author: rick-anderson
 description: "This is the Description of the SPA-draft: The ASP.NET Single Page Application (SPA) is a new feature in MVC 4 beta preview. It provides a better end-to-end e..."
-ms.author: riande
+ms.author: tdykstra
 ms.date: 11/14/2012
 ms.assetid: a17452c8-35fc-4ac2-811e-16d29f647cf7
 msc.legacyurl: /single-page-application/overview
@@ -22,3 +22,4 @@ msc.type: book
     - [Breeze/Knockout template](templates/breezeknockout-template.md)
     - [EmberJS template](templates/emberjs-template.md)
     - [Hot Towel template](templates/hottowel-template.md)
+

@@ -3,7 +3,7 @@ uid: web-forms/overview/deployment/web-deployment-in-the-enterprise/understandin
 title: "Understanding the Build Process | Microsoft Docs"
 author: jrjlee
 description: "This topic provides a walkthrough of an enterprise-scale build and deployment process. The approach described in this topic uses custom Microsoft Build Engin..."
-ms.author: riande
+ms.author: wpickett
 ms.date: 05/04/2012
 ms.assetid: 5b982451-547b-4a2f-a5dc-79bc64d84d40
 msc.legacyurl: /web-forms/overview/deployment/web-deployment-in-the-enterprise/understanding-the-build-process
@@ -208,3 +208,4 @@ For a more in-depth introduction to project files and the WPP, see [Inside the M
 > [!div class="step-by-step"]
 > [Previous](understanding-the-project-file.md)
 > [Next](building-and-packaging-web-application-projects.md)
+

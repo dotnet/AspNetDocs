@@ -3,7 +3,7 @@ uid: web-pages/overview/api-reference/asp-net-web-pages-api-reference
 title: "ASP.NET Web Pages (Razor) API Quick Reference | Microsoft Docs"
 author: Rick-Anderson
 description: "This page contains a list with brief examples of the most commonly used objects, properties, and methods for programming ASP.NET Web Pages with Razor syntax."
-ms.author: riande
+ms.author: wpickett
 ms.date: 02/10/2014
 ms.assetid: 4001cb9b-3bfd-4ace-8a89-1561d8421e2c
 msc.legacyurl: /web-pages/overview/api-reference/asp-net-web-pages-api-reference
@@ -758,3 +758,4 @@ Sets the user name for the SMTP server. Normally you should set this property in
 (v2) Specifies a validation test when you use the `Validation.Add` method.
 
 [!code-javascript[Main](asp-net-web-pages-api-reference/samples/sample115.js)]
+

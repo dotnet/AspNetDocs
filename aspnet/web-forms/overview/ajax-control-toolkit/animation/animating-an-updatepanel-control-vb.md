@@ -3,7 +3,7 @@ uid: web-forms/overview/ajax-control-toolkit/animation/animating-an-updatepanel-
 title: "Animating an UpdatePanel Control (VB) | Microsoft Docs"
 author: wenz
 description: "The Animation control in the ASP.NET AJAX Control Toolkit is not just a control but an entire framework to add animations to a control. For the contents of an... (VB)"
-ms.author: riande
+ms.author: tdykstra
 ms.date: 06/02/2008
 ms.assetid: 4c306a2c-92b6-4904-b70b-365b847334fe
 msc.legacyurl: /web-forms/overview/ajax-control-toolkit/animation/animating-an-updatepanel-control-vb
@@ -49,3 +49,4 @@ The next wizard step is fading in ([Click to view full-size image](animating-an-
 > [!div class="step-by-step"]
 > [Previous](changing-an-animation-using-client-side-code-vb.md)
 > [Next](dynamically-controlling-updatepanel-animations-vb.md)
+

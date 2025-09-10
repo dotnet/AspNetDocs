@@ -3,7 +3,7 @@ uid: mvc/overview/advanced/custom-mvc-templates
 title: "Custom MVC Template | Microsoft Docs"
 author: joeloff
 description: "Create a template as a VSIX extension."
-ms.author: riande
+ms.author: tdykstra
 ms.date: 12/10/2012
 ms.assetid: b0a214c7-2f38-4dbc-b47f-bd7bd9df97bd
 msc.legacyurl: /mvc/overview/advanced/custom-mvc-templates
@@ -127,3 +127,4 @@ After closing the window you can create an MVC 4 project to see whether your new
 
 1. The MVC wizard does not support localized custom templates.
 2. The wizard will not report any errors if it fails to locate custom templates. If any of the required custom attributes are absent, the template would simply be excluded from the Wizard.
+

@@ -3,7 +3,7 @@ uid: mvc/overview/older-versions-1/getting-started-with-mvc/getting-started-with
 title: "Creating a Database | Microsoft Docs"
 author: shanselman
 description: "This is a beginner tutorial that introduces the basics of ASP.NET MVC. Create a simple web application that reads and writes from a database. (4 of 8)"
-ms.author: riande
+ms.author: tdykstra
 ms.date: 08/14/2010
 ms.assetid: 742df67f-484d-4ef3-af6b-8c791e556b43
 msc.legacyurl: /mvc/overview/older-versions-1/getting-started-with-mvc/getting-started-with-mvc-part4
@@ -81,3 +81,4 @@ Now, let's work with some real data!
 > [!div class="step-by-step"]
 > [Previous](getting-started-with-mvc-part3.md)
 > [Next](getting-started-with-mvc-part5.md)
+

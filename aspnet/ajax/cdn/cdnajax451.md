@@ -3,7 +3,7 @@ uid: ajax/cdn/cdnajax451
 title: "ASP.NET Web Forms and Ajax 4.5.1 | Microsoft Docs"
 author: rick-anderson
 description: "Provides a list of the ASP.NET Web Forms and Ajax 4.5.1 files that are hosted on the CDN."
-ms.author: riande
+ms.author: tdykstra
 ms.date: 03/18/2015
 ms.assetid: d7ec655d-49b0-4968-af5e-3064616aff9a
 msc.legacyurl: /ajax/cdn/cdnajax451
@@ -53,3 +53,4 @@ The following files are hosted on the CDN:
 Note: The globalization scripts, such as fr-FR.js, can be found in the following folder:
 
 - https://ajax.aspnetcdn.com/ajax/4.5.1/1/globalization/
+

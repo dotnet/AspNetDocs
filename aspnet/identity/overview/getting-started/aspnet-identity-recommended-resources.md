@@ -3,7 +3,7 @@ uid: identity/overview/getting-started/aspnet-identity-recommended-resources
 title: "ASP.NET Identity Recommended Resources - ASP.NET 4.x"
 author: Rick-Anderson
 description: "This topic provides links to documentation resources about how to use ASP.NET Identity. If you know a great blog post, stackoverflow thread, or any other lin..."
-ms.author: riande
+ms.author: tdykstra
 ms.date: 04/09/2015
 ms.assetid: 0f78aec2-f509-46fa-b20f-d5208425d8ec
 msc.legacyurl: /identity/overview/getting-started/aspnet-identity-recommended-resources
@@ -180,3 +180,4 @@ If you want to write your own provider, read [Overview of Custom Storage Provide
 - Q: I'd like to save the returned email address from a social provider to the DB, how do I do that? Answer [here](http://stackoverflow.com/questions/22888397/save-claims-to-db-on-login/22970969#22970969):
 - Q: How can I detect when a user logs in both with/with-out a "remember me" cookie? Answer [here](http://stackoverflow.com/questions/22956486/how-can-i-detect-when-a-user-logs-in-with-microsoft-aspnet-identity/22970698#22970698).
 - Q: Can I modify claims in ASP.NET Identity with OWIN after calling SignIn? Answer: Calling SignIn is exactly what you are supposed to do when you want to modify the claims for the user. It basically causes the ClaimsIdentity to be serialized into the cookie, which is why you see the new claims show up on subsequent requests.
+

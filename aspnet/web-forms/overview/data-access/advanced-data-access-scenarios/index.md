@@ -3,7 +3,7 @@ uid: web-forms/overview/data-access/advanced-data-access-scenarios/index
 title: "Advanced Data Access Scenarios | Microsoft Docs"
 author: rick-anderson
 description: "These tutorials cover how to work with stored procedures and computed columns, how to use joins with database tables, and how to encrypt data connection info..."
-ms.author: riande
+ms.author: tdykstra
 ms.date: 10/05/2011
 ms.assetid: 00d198ed-fddc-4fd3-a86e-3f29c5f707cc
 msc.legacyurl: /web-forms/overview/data-access/advanced-data-access-scenarios
@@ -31,3 +31,4 @@ msc.type: chapter
 - [Protecting Connection Strings and Other Configuration Information (VB)](protecting-connection-strings-and-other-configuration-information-vb.md)
 - [Debugging Stored Procedures (VB)](debugging-stored-procedures-vb.md)
 - [Creating Stored Procedures and User-Defined Functions with Managed Code (VB)](creating-stored-procedures-and-user-defined-functions-with-managed-code-vb.md)
+

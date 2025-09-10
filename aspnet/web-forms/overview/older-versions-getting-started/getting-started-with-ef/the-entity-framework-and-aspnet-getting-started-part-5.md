@@ -3,7 +3,7 @@ uid: web-forms/overview/older-versions-getting-started/getting-started-with-ef/t
 title: "Getting Started with Entity Framework 4.0 Database First and ASP.NET 4 Web Forms - Part 5 | Microsoft Docs"
 author: tdykstra
 description: "The Contoso University sample web application demonstrates how to create ASP.NET Web Forms applications using the Entity Framework. The sample application is... (Part 5)"
-ms.author: riande
+ms.author: wpickett
 ms.date: 12/03/2010
 ms.assetid: 24ad4379-3fb2-44dc-ba59-85fe0ffcb2ae
 msc.legacyurl: /web-forms/overview/older-versions-getting-started/getting-started-with-ef/the-entity-framework-and-aspnet-getting-started-part-5
@@ -120,3 +120,4 @@ You have now seen some more ways to work with related data. In the following tut
 > [!div class="step-by-step"]
 > [Previous](the-entity-framework-and-aspnet-getting-started-part-4.md)
 > [Next](the-entity-framework-and-aspnet-getting-started-part-6.md)
+

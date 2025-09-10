@@ -3,7 +3,7 @@ uid: web-forms/videos/building-20-applications/index
 title: "Building 2.0 Applications | Microsoft Docs"
 author: rick-anderson
 description: "Building ASP.NET 2.0 Applications"
-ms.author: riande
+ms.author: wpickett
 ms.date: 10/05/2011
 ms.assetid: ea40322d-2e77-4c37-8227-e650b286e373
 msc.legacyurl: /web-forms/videos/building-20-applications
@@ -22,3 +22,4 @@ msc.type: chapter
 - [[Lesson 7:] Databinding to User Interface Controls](lesson-7-databinding-to-user-interface-controls.md)
 - [[Lesson 8:] Working with the GridView and FormView](lesson-8-working-with-the-gridview-and-formview.md)
 - [Watch ASP.NET Development in Action](watch-aspnet-development-in-action.md)
+

@@ -3,7 +3,7 @@ uid: web-forms/videos/ajax-control-toolkit/color-picker
 title: "Color Picker | Microsoft Docs"
 author: JoeStagner
 description: "This video will demonstrate how to use the new Color Picker control from the Microsoft AJAX Control Toolkit."
-ms.author: riande
+ms.author: wpickett
 ms.date: 05/13/2009
 ms.assetid: 8f2cb811-d9d3-4a6a-a7d6-f2035cfe51e5
 msc.legacyurl: /web-forms/videos/ajax-control-toolkit/color-picker
@@ -20,3 +20,4 @@ This video will demonstrate how to use the new Color Picker control from the Mic
 > [!div class="step-by-step"]
 > [Previous](control-extenders.md)
 > [Next](combo-box.md)
+

@@ -3,7 +3,7 @@ uid: mvc/overview/older-versions/aspnet-mvc-4-mobile-features
 title: "ASP.NET MVC 4 Mobile Features | Microsoft Docs"
 author: Rick-Anderson
 description: "There is now an MVC 5 version of this tutorial with code samples at Deploy an ASP.NET MVC 5 Mobile Web Application on Azure Web Sites ."
-ms.author: riande
+ms.author: tdykstra
 ms.date: 08/15/2012
 ms.assetid: 27dc4fc8-1b51-43b0-933f-fc1b52476523
 msc.legacyurl: /mvc/overview/older-versions/aspnet-mvc-4-mobile-features
@@ -386,3 +386,4 @@ This tutorial has introduced the new mobile features of ASP.NET MVC 4 Developer 
 - [jQuery Mobile Overview](https://demos.jquerymobile.com/1.0b3/docs/about/intro.html)
 - [W3C Recommendation Mobile Web Application Best Practices](http://www.w3.org/TR/mwabp/)
 - [W3C Candidate Recommendation for media queries](http://www.w3.org/TR/css3-mediaqueries/)
+

@@ -3,7 +3,7 @@ uid: web-forms/overview/deployment/web-deployment-in-the-enterprise/building-and
 title: "Building and Packaging Web Application Projects | Microsoft Docs"
 author: jrjlee
 description: "When you want to deploy a web application project to a remote server environment, your first task is to build the project and generate a web deployment packa..."
-ms.author: riande
+ms.author: wpickett
 ms.date: 05/04/2012
 ms.assetid: 94e92f80-a7e3-4d18-9375-ff8be5d666ac
 msc.legacyurl: /web-forms/overview/deployment/web-deployment-in-the-enterprise/building-and-packaging-web-application-projects
@@ -90,3 +90,4 @@ For a more in-depth introduction to project files and the WPP, see [Inside the M
 > [!div class="step-by-step"]
 > [Previous](understanding-the-build-process.md)
 > [Next](configuring-parameters-for-web-package-deployment.md)
+

@@ -3,7 +3,7 @@ uid: whitepapers/denied-access-to-iis-directories
 title: "ASP.NET Denied Access to IIS Directories | Microsoft Docs"
 author: rick-anderson
 description: "This whitepaper describes what you must do if a request to your ASP.NET application returns the error, “Denied Access to DirectoryName directory. Failed to s..."
-ms.author: riande
+ms.author: wpickett
 ms.date: 02/10/2010
 ms.assetid: 3cb27b8a-354f-4332-bfe0-232b13bbf8aa
 msc.legacyurl: /whitepapers/denied-access-to-iis-directories
@@ -47,3 +47,4 @@ If desired, these changes can be automated using scripts or the "cacls.exe" tool
 If a given web application relies on having write or modify permissions to a particular folder or file, this can be granted by following the same procedure and checking the "Write" and/or "Modify" checkboxes.
 
 On machines that allow Everyone or the Users group read access to these directories (which is the default configuration), no issues will be encountered and the above steps will not be required.
+

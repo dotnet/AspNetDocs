@@ -3,7 +3,7 @@ uid: web-pages/overview/getting-started/11-adding-email-to-your-web-site
 title: "Sending Email from an ASP.NET Web Pages (Razor) Site | Microsoft Docs"
 author: Rick-Anderson
 description: "This chapter explains how to send an automated email message from a website."
-ms.author: riande
+ms.author: wpickett
 ms.date: 02/20/2014
 ms.assetid: fc49bcb9-f1a9-4048-8c3f-b60951853200
 msc.legacyurl: /web-pages/overview/getting-started/11-adding-email-to-your-web-site
@@ -129,3 +129,4 @@ You can also send files that are attached to email messages. In this procedure, 
 - [ASP.NET Web Pages (Razor) Troubleshooting Guide](https://go.microsoft.com/fwlink/?LinkId=253001)
 - [Simple Mail Transfer Protocol](https://msdn.microsoft.com/library/aa480435.aspx)
 - [Customizing Site-Wide Behavior for ASP.NET Web Pages](https://go.microsoft.com/fwlink/?LinkId=202906)
+

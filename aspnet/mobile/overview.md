@@ -3,7 +3,7 @@ uid: mobile/overview
 title: "Mobile Apps & Sites with ASP.NET | Microsoft Docs"
 author: rick-anderson
 description: "Learn how ASP.NET makes it easy to build mobile Web applications"
-ms.author: riande
+ms.author: tdykstra
 ms.date: 01/28/2011
 ms.assetid: 1febce65-cdd4-47da-bdb5-1e6022ccd20a
 msc.legacyurl: /mobile
@@ -56,3 +56,4 @@ In this talk presented at the Microsoft MIX conference, Scott Hanselman discusse
 ### [Develop iPhone applications with ASP.NET](https://www.componentsource.com/product/componentone-studio-for-iphone)
 
 ComponentOne Studio for iPhone is a suite of ASP.NET controls that mimic the look and feel of the iPhone and iPod touch user interfaces when rendered in Mobile Safari.
+

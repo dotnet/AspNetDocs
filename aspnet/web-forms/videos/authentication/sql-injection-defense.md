@@ -3,7 +3,7 @@ uid: web-forms/videos/authentication/sql-injection-defense
 title: "SQL Injection Defense | Microsoft Docs"
 author: JoeStagner
 description: "A SQL Injection vulnerability in your application can ruin your whole day. In this video, Microsoft's Joe Stagner explains how SQL Injection attacks can happ..."
-ms.author: riande
+ms.author: wpickett
 ms.date: 10/29/2009
 ms.assetid: b9fb1e01-06d9-43d9-9e8f-5fa1e4c6a211
 msc.legacyurl: /web-forms/videos/authentication/sql-injection-defense
@@ -19,3 +19,4 @@ A SQL Injection vulnerability in your application can ruin your whole day. In th
 
 > [!div class="step-by-step"]
 > [Previous](creating-inactive-users.md)
+

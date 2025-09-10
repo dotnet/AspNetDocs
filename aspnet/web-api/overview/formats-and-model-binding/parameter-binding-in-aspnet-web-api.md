@@ -3,7 +3,7 @@ uid: web-api/overview/formats-and-model-binding/parameter-binding-in-aspnet-web-
 title: "Parameter Binding in ASP.NET Web API - ASP.NET 4.x"
 author: rick-anderson
 description: "Describes how Web API binds parameters and how to customize the binding process in ASP.NET 4.x."
-ms.author: riande
+ms.author: tdykstra
 ms.date: 07/11/2013
 ms.assetid: e42c8388-04ed-4341-9fdb-41b1b4c06320
 msc.legacyurl: /web-api/overview/formats-and-model-binding/parameter-binding-in-aspnet-web-api
@@ -206,3 +206,4 @@ Mike Stall wrote a good series of blog posts about Web API parameter binding:
 - [How to bind to custom objects in action signatures in MVC/Web API](/archive/blogs/jmstall/how-to-bind-to-custom-objects-in-action-signatures-in-mvcwebapi)
 - [How to create a custom value provider in Web API](/archive/blogs/jmstall/how-to-create-a-custom-value-provider-in-webapi)
 - [Web API Parameter binding under the hood](https://blogs.msdn.com/b/jmstall/archive/2012/05/11/webapi-parameter-binding-under-the-hood.aspx)
+

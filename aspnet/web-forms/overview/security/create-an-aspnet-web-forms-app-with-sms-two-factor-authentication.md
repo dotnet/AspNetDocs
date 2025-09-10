@@ -3,7 +3,7 @@ uid: web-forms/overview/security/create-an-aspnet-web-forms-app-with-sms-two-fac
 title: Create an ASP.NET Web Forms app with SMS Two-Factor Authentication (C#) | Microsoft Docs
 author: Erikre
 description: This tutorial shows you how to build an ASP.NET Web Forms app with Two-Factor Authentication. This tutorial was designed to complement the tutorial titled Cr...
-ms.author: riande
+ms.author: wpickett
 ms.date: 10/09/2014
 ms.assetid: 716264ae-ab72-45de-bfc5-53a6237089cf
 msc.legacyurl: /web-forms/overview/security/create-an-aspnet-web-forms-app-with-sms-two-factor-authentication
@@ -106,3 +106,4 @@ At this point, you have enabled two-factor authentication for your app. For a us
 - [ASP.NET Web Forms tutorial series - Enable SSL for the Project](../getting-started/getting-started-with-aspnet-45-web-forms/checkout-and-payment-with-paypal.md#SSLWebForms)
 - [Account Confirmation and Password Recovery with ASP.NET Identity](../../../identity/overview/features-api/account-confirmation-and-password-recovery-with-aspnet-identity.md)
 - [Creating the app in Facebook and connecting the app to the project](../../../mvc/overview/security/create-an-aspnet-mvc-5-app-with-facebook-and-google-oauth2-and-openid-sign-on.md#fb)
+

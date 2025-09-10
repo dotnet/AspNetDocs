@@ -3,7 +3,7 @@ uid: web-forms/overview/older-versions-getting-started/master-pages/master-pages
 title: "Master Pages and ASP.NET AJAX (C#) | Microsoft Docs"
 author: rick-anderson
 description: "Discusses options for using ASP.NET AJAX and master pages. Looks at using the ScriptManagerProxy class; discusses how the various JS files are loaded dependi... (C#)"
-ms.author: riande
+ms.author: wpickett
 ms.date: 07/11/2008
 ms.assetid: 0c55eb66-ba44-4d49-98e8-5c87fd9b1111
 msc.legacyurl: /web-forms/overview/older-versions-getting-started/master-pages/master-pages-and-asp-net-ajax-cs
@@ -229,3 +229,4 @@ This tutorial series was reviewed by many helpful reviewers. Interested in revie
 > [!div class="step-by-step"]
 > [Previous](interacting-with-the-content-page-from-the-master-page-cs.md)
 > [Next](specifying-the-master-page-programmatically-cs.md)
+

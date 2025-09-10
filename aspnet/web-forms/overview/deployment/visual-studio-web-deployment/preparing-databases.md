@@ -3,7 +3,7 @@ uid: web-forms/overview/deployment/visual-studio-web-deployment/preparing-databa
 title: "ASP.NET Web Deployment using Visual Studio: Preparing for Database Deployment | Microsoft Docs"
 author: tdykstra
 description: "This tutorial series shows you how to deploy (publish) an ASP.NET web application to Azure App Service Web Apps or a third-party hosting provider, by usin..."
-ms.author: riande
+ms.author: wpickett
 ms.date: 02/15/2013
 ms.assetid: ae4def81-fa37-4883-a13e-d9896cbf6c36
 msc.legacyurl: /web-forms/overview/deployment/visual-studio-web-deployment/preparing-databases
@@ -222,3 +222,4 @@ For more information on NuGet, see [Manage Project Libraries with NuGet](https:/
 > [!div class="step-by-step"]
 > [Previous](introduction.md)
 > [Next](web-config-transformations.md)
+

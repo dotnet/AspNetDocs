@@ -3,7 +3,7 @@ uid: mvc/overview/older-versions-1/controllers-and-routing/index
 title: "Controllers and Routing | Microsoft Docs"
 author: rick-anderson
 description: "In this tutorial set, you learn about ASP.NET routing, which maps browser requests to ASP.NET MVC controller actions."
-ms.author: riande
+ms.author: tdykstra
 ms.date: 09/28/2011
 ms.assetid: 124df537-428c-4861-b6c2-4830c094fe0c
 msc.legacyurl: /mvc/overview/older-versions-1/controllers-and-routing
@@ -33,3 +33,4 @@ msc.type: chapter
 - [Creating Custom Routes (VB)](creating-custom-routes-vb.md)
 - [Creating a Route Constraint (VB)](creating-a-route-constraint-vb.md)
 - [Creating a Custom Route Constraint (VB)](creating-a-custom-route-constraint-vb.md)
+

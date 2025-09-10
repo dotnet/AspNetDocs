@@ -3,7 +3,7 @@ uid: web-forms/overview/older-versions-getting-started/master-pages/urls-in-mast
 title: "URLs in Master Pages (C#) | Microsoft Docs"
 author: rick-anderson
 description: "Addresses how URLs in the master page can break due to the master page file being in a different relative directory than the content page. Looks at rebasing... (C#)"
-ms.author: riande
+ms.author: wpickett
 ms.date: 06/10/2008
 ms.assetid: 48b58a18-5ea4-468c-b326-f35331b3e1e9
 msc.legacyurl: /web-forms/overview/older-versions-getting-started/master-pages/urls-in-master-pages-cs
@@ -163,3 +163,4 @@ Interested in reviewing my upcoming MSDN articles? If so, drop me a line at [mit
 > [!div class="step-by-step"]
 > [Previous](specifying-the-title-meta-tags-and-other-html-headers-in-the-master-page-cs.md)
 > [Next](control-id-naming-in-content-pages-cs.md)
+

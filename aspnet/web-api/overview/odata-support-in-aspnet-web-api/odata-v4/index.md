@@ -3,7 +3,7 @@ uid: web-api/overview/odata-support-in-aspnet-web-api/odata-v4/index
 title: "Supporting OData v4 in ASP.NET Web API | Microsoft Docs"
 author: rick-anderson
 description: "Use ASP.NET Web API to create endpoints that support OData Version 4."
-ms.author: riande
+ms.author: tdykstra
 ms.date: 06/26/2014
 ms.assetid: bb807fdd-0bd8-43d0-b068-e88de7e5fd87
 msc.legacyurl: /web-api/overview/odata-support-in-aspnet-web-api/odata-v4
@@ -21,3 +21,4 @@ msc.type: chapter
 - [Create a Singleton in OData v4](using-a-singleton-in-an-odata-endpoint-in-web-api-22.md)
 - [Open Types in OData v4](use-open-types-in-odata-v4.md)
 - [Complex Type Inheritance in OData v4](complex-type-inheritance-in-odata-v4.md)
+

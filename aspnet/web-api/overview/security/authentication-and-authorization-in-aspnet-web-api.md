@@ -3,7 +3,7 @@ uid: web-api/overview/security/authentication-and-authorization-in-aspnet-web-ap
 title: "Authentication and Authorization in ASP.NET Web API | Microsoft Docs"
 author: Rick-Anderson
 description: "Gives a general overview of authentication and authorization in ASP.NET Web API."
-ms.author: riande
+ms.author: tdykstra
 ms.date: 11/27/2012
 ms.assetid: 6dfb51ea-9f4d-4e70-916c-8ef8344a88d6
 msc.legacyurl: /web-api/overview/security/authentication-and-authorization-in-aspnet-web-api
@@ -115,3 +115,4 @@ The following diagram shows the class hierarchy for the **AuthorizeAttribute** c
 In some cases, you might allow a request to proceed, but change the behavior based on the principal. For example, the information that you return might change depending on the user's role. Within a controller method, you can get the current principal from the **ApiController.User** property.
 
 [!code-csharp[Main](authentication-and-authorization-in-aspnet-web-api/samples/sample7.cs)]
+

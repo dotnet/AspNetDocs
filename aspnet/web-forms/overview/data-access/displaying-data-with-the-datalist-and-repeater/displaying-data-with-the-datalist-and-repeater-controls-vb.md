@@ -3,7 +3,7 @@ uid: web-forms/overview/data-access/displaying-data-with-the-datalist-and-repeat
 title: "Displaying Data with the DataList and Repeater Controls (VB) | Microsoft Docs"
 author: rick-anderson
 description: "In the preceding tutorials we have used the GridView control to display data. Starting with this tutorial, we look at building common reporting patterns with... (VB)"
-ms.author: riande
+ms.author: tdykstra
 ms.date: 09/13/2006
 ms.assetid: 58618954-a9ed-4ca0-8c2d-95a5ffd9c03e
 msc.legacyurl: /web-forms/overview/data-access/displaying-data-with-the-datalist-and-repeater/displaying-data-with-the-datalist-and-repeater-controls-vb
@@ -263,3 +263,4 @@ This tutorial series was reviewed by many helpful reviewers. Lead reviewers for 
 > [!div class="step-by-step"]
 > [Previous](nested-data-web-controls-cs.md)
 > [Next](formatting-the-datalist-and-repeater-based-upon-data-vb.md)
+

@@ -3,7 +3,7 @@ uid: web-api/overview/data/using-web-api-with-entity-framework/part-10
 title: Publish the App to Azure Azure App Service | Microsoft Docs
 author: Rick-Anderson
 description: This tenth part of this tutorial series will teach you how to publish the application to Azure. The tutorial uses Entity Framework 6 for the data lay...
-ms.author: riande
+ms.author: tdykstra
 ms.date: 06/16/2014
 ms.assetid: 10fd812b-94d6-4967-be97-a31ce9c45e2c
 msc.legacyurl: /web-api/overview/data/using-web-api-with-entity-framework/part-10
@@ -49,3 +49,4 @@ Click the **Settings** tab and check &quot;Execute Code First Migrations&quot;. 
 
 > [!div class="step-by-step"]
 > [Previous](part-9.md)
+

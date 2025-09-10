@@ -3,7 +3,7 @@ uid: identity/overview/index
 title: "ASP.NET Identity Overview - ASP.NET 4.x"
 author: rick-anderson
 description: This overview topic provides a list of topics related to ASP.NET Identity, a cross-platform modern membership system.
-ms.author: riande
+ms.author: wpickett
 ms.date: 10/02/2013
 ms.assetid: d3972a0e-9ff6-4de1-bf4d-c94943cab048
 msc.legacyurl: /identity/overview
@@ -32,3 +32,4 @@ msc.type: book
 
     - [Migrating an Existing Website from SQL Membership to ASP.NET Identity](migrations/migrating-an-existing-website-from-sql-membership-to-aspnet-identity.md)
     - [Migrating Universal Provider Data for Membership and User Profiles to ASP.NET Identity (C#)](migrations/migrating-universal-provider-data-for-membership-and-user-profiles-to-aspnet-identity.md)
+

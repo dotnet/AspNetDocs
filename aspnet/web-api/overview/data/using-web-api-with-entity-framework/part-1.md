@@ -3,7 +3,7 @@ uid: web-api/overview/data/using-web-api-with-entity-framework/part-1
 title: Using Web API 2 with Entity Framework 6 | Microsoft Docs
 author: Rick-Anderson
 description: This tutorial will teach you the basics of creating a web application with an ASP.NET Web API back end. The tutorial uses Entity Framework 6 for the data lay...
-ms.author: riande
+ms.author: tdykstra
 ms.date: 01/17/2019
 ms.assetid: e879487e-dbcd-4b33-b092-d67c37ae768c
 msc.legacyurl: /web-api/overview/data/using-web-api-with-entity-framework/part-1
@@ -94,3 +94,4 @@ After you create the project, you can choose to deploy to Azure App Service Web 
 
 > [!div class="step-by-step"]
 > [Next](part-2.md)
+

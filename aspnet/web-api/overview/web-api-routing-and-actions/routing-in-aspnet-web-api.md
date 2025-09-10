@@ -3,7 +3,7 @@ uid: web-api/overview/web-api-routing-and-actions/routing-in-aspnet-web-api
 title: "Routing in ASP.NET Web API | Microsoft Docs"
 author: Rick-Anderson
 description: This article describes how ASP.NET Web API routes HTTP requests to controllers.
-ms.author: riande
+ms.author: tdykstra
 ms.date: 10/29/2018
 ms.assetid: 0675bdc7-282f-4f47-b7f3-7e02133940ca
 msc.legacyurl: /web-api/overview/web-api-routing-and-actions/routing-in-aspnet-web-api
@@ -120,3 +120,4 @@ To prevent a method from getting invoked as an action, use the `[NonAction]` att
 ## Further Reading
 
 This topic provided a high-level view of routing. For more detail, see [Routing and Action Selection](routing-and-action-selection.md), which describes exactly how the framework matches a URI to a route, selects a controller, and then selects the action to invoke.
+

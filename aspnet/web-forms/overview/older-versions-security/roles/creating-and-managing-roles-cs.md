@@ -3,7 +3,7 @@ uid: web-forms/overview/older-versions-security/roles/creating-and-managing-role
 title: "Creating and Managing Roles (C#) | Microsoft Docs"
 author: rick-anderson
 description: "This tutorial examines the steps necessary for configuring the Roles framework. Following that, we will build web pages to create and delete roles. (C#)"
-ms.author: riande
+ms.author: wpickett
 ms.date: 03/24/2008
 ms.assetid: 113f10b3-a19a-471b-8ff6-db3c79ce8a91
 msc.legacyurl: /web-forms/overview/older-versions-security/roles/creating-and-managing-roles-cs
@@ -243,3 +243,4 @@ This tutorial series was reviewed by many helpful reviewers. Lead reviewers for 
 
 > [!div class="step-by-step"]
 > [Next](assigning-roles-to-users-cs.md)
+

@@ -3,7 +3,7 @@ uid: mvc/overview/older-versions-1/views/creating-custom-html-helpers-cs
 title: "Creating Custom HTML Helpers (C#) | Microsoft Docs"
 author: rick-anderson
 description: "The goal of this tutorial is to demonstrate how you can create custom HTML Helpers that you can use within your MVC views. By taking advantage of HTML Helper... (C#)"
-ms.author: riande
+ms.author: tdykstra
 ms.date: 10/07/2008
 ms.assetid: e454c67d-a86e-4119-a858-eb04bbec2dff
 msc.legacyurl: /mvc/overview/older-versions-1/views/creating-custom-html-helpers-cs
@@ -113,3 +113,4 @@ In this tutorial, I focused on building an extremely simple HTML Helper method. 
 > [!div class="step-by-step"]
 > [Previous](asp-net-mvc-views-overview-cs.md)
 > [Next](using-the-tagbuilder-class-to-build-html-helpers-cs.md)
+

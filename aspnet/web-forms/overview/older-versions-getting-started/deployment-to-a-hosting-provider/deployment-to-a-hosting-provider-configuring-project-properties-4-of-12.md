@@ -3,7 +3,7 @@ uid: web-forms/overview/older-versions-getting-started/deployment-to-a-hosting-p
 title: "Deploying an ASP.NET Web Application with SQL Server Compact using Visual Studio or Visual Web Developer: Configuring Project Properties - 4 of 12 | Microsoft Docs"
 author: tdykstra
 description: "This series of tutorials shows you how to deploy (publish) an ASP.NET web application project that includes a SQL Server Compact database by using Visual Stu... (4 of 12)"
-ms.author: riande
+ms.author: wpickett
 ms.date: 11/17/2011
 ms.assetid: 8b013630-842c-4d44-a6fc-c6be43e7210f
 msc.legacyurl: /web-forms/overview/older-versions-getting-started/deployment-to-a-hosting-provider/deployment-to-a-hosting-provider-configuring-project-properties-4-of-12
@@ -63,3 +63,4 @@ You have now completed all of the deployment set-up tasks. In the next tutorial,
 > [!div class="step-by-step"]
 > [Previous](deployment-to-a-hosting-provider-web-config-file-transformations-3-of-12.md)
 > [Next](deployment-to-a-hosting-provider-deploying-to-iis-as-a-test-environment-5-of-12.md)
+

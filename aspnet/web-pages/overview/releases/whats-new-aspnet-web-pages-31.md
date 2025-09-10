@@ -3,7 +3,7 @@ uid: web-pages/overview/releases/whats-new-aspnet-web-pages-31
 title: "What's New in ASP.NET Web Pages 3.1 | Microsoft Docs"
 description: This topic describes the 3.1 release of ASP.NET Web Pages, which fixes bugs and does not introduce any new features.
 author: rick-anderson
-ms.author: riande
+ms.author: wpickett
 ms.date: 01/20/2014
 ms.assetid: 97ac3da0-2141-4904-aa05-27e280db1e4e
 msc.legacyurl: /web-pages/overview/releases/whats-new-aspnet-web-pages-31
@@ -25,3 +25,4 @@ The runtime features are released as NuGet packages on the NuGet gallery. All th
 You can install or update to the released NuGet packages by using the NuGet Package Manager Console:
 
 [!code-console[Main](whats-new-aspnet-web-pages-31/samples/sample1.cmd)]
+

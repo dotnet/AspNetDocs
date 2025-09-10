@@ -3,7 +3,7 @@ uid: web-forms/overview/data-access/accessing-the-database-directly-from-an-aspn
 title: "Implementing Optimistic Concurrency with the SqlDataSource (C#) | Microsoft Docs"
 author: rick-anderson
 description: "In this tutorial we review the essentials of optimistic concurrency control and then explore how to implement it using the SqlDataSource control. (C#)"
-ms.author: riande
+ms.author: tdykstra
 ms.date: 02/20/2007
 ms.assetid: df999966-ac48-460e-b82b-4877a57d6ab9
 msc.legacyurl: /web-forms/overview/data-access/accessing-the-database-directly-from-an-aspnet-page/implementing-optimistic-concurrency-with-the-sqldatasource-cs
@@ -193,3 +193,4 @@ Scott Mitchell, author of seven ASP/ASP.NET books and founder of 4GuysFromRolla.
 > [!div class="step-by-step"]
 > [Previous](inserting-updating-and-deleting-data-with-the-sqldatasource-cs.md)
 > [Next](querying-data-with-the-sqldatasource-control-vb.md)
+

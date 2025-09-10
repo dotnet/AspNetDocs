@@ -3,7 +3,7 @@ uid: whitepapers/request-validation
 title: "Request Validation - Preventing Script Attacks | Microsoft Docs"
 author: rick-anderson
 description: "This paper describes the request validation feature of ASP.NET where, by default, the application is prevented from processing unencoded HTML content submitt..."
-ms.author: riande
+ms.author: wpickett
 ms.date: 02/10/2010
 ms.assetid: fa429113-5f8f-4ef4-97c5-5c04900a19fa
 msc.legacyurl: /whitepapers/request-validation
@@ -86,3 +86,4 @@ Content can be easily HTML-encoded on the server using the `Server.HtmlEncode(st
 Resulting in:
 
 ![Screenshot that shows a button "Click Me!" and a successful JavaScript entry message in the text box.](request-validation/_static/image7.png)
+

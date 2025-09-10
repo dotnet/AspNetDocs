@@ -3,7 +3,7 @@ uid: web-forms/overview/data-access/custom-formatting/index
 title: "Custom Formatting | Microsoft Docs"
 author: rick-anderson
 description: "These tutorials look at how to customize data display during data binding by using event handlers in the GridView, DetailsView, and FormView controls."
-ms.author: riande
+ms.author: tdykstra
 ms.date: 10/05/2011
 ms.assetid: 320b7d26-837f-4fa7-a242-1ab82f8bdbe9
 msc.legacyurl: /web-forms/overview/data-access/custom-formatting
@@ -23,3 +23,4 @@ msc.type: chapter
 - [Using TemplateFields in the DetailsView Control (VB)](using-templatefields-in-the-detailsview-control-vb.md)
 - [FormView's Templates (VB)](using-the-formview-s-templates-vb.md)
 - [Displaying Summary Information in the GridView's Footer (VB)](displaying-summary-information-in-the-gridview-s-footer-vb.md)
+

@@ -3,7 +3,7 @@ uid: web-forms/videos/net-4/markup-control/index
 title: "Markup Control | Microsoft Docs"
 author: rick-anderson
 description: "This video series demonstrates improvements to controls for Web Forms pages in ASP.NET 4."
-ms.author: riande
+ms.author: wpickett
 ms.date: 11/14/2011
 ms.assetid: 36667bfc-90ba-4c37-8c1c-65b6642e6d47
 msc.legacyurl: /web-forms/videos/net-4/markup-control
@@ -18,3 +18,4 @@ msc.type: chapter
 - [Tableless Menu Control](aspnet-4-quick-hit-tableless-menu-control.md)
 - [Hidden Field Divs](aspnet-4-quick-hit-hidden-field-divs.md)
 - [Disabled Control Styling](aspnet-4-quick-hit-disabled-control-styling.md)
+

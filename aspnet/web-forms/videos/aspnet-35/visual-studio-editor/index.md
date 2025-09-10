@@ -3,7 +3,7 @@ uid: web-forms/videos/aspnet-35/visual-studio-editor/index
 title: "Visual Studio Editor | Microsoft Docs"
 author: rick-anderson
 description: "This video series shows you new features of the Visual Studio 2008 editor, including enhanced support for JavaScript and CSS."
-ms.author: riande
+ms.author: wpickett
 ms.date: 11/14/2011
 ms.assetid: 8d424d7b-5206-4790-a068-36d01c05ceb0
 msc.legacyurl: /web-forms/videos/aspnet-35/visual-studio-editor
@@ -20,3 +20,4 @@ msc.type: chapter
 - [IntelliSense for Jscript and ASP.NET AJAX](intellisense-for-jscript-and-aspnet-ajax.md)
 - [Quick Tour of the Visual Studio 2008 Integrated Development Environment](quick-tour-of-the-visual-studio-2008-integrated-development-environment.md)
 - [Creating and Modifying a CSS File](creating-and-modifying-a-css-file.md)
+

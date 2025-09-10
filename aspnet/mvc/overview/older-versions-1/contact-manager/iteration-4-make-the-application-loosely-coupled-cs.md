@@ -3,7 +3,7 @@ uid: mvc/overview/older-versions-1/contact-manager/iteration-4-make-the-applicat
 title: "Iteration #4 – Make the application loosely coupled (C#) | Microsoft Docs"
 author: rick-anderson
 description: "In this fourth iteration, we take advantage of several software design patterns to make it easier to maintain and modify the Contact Manager application. For... (C#)"
-ms.author: riande
+ms.author: tdykstra
 ms.date: 02/20/2009
 ms.assetid: 829f589f-e201-4f6e-9ae6-08ae84322065
 msc.legacyurl: /mvc/overview/older-versions-1/contact-manager/iteration-4-make-the-application-loosely-coupled-cs
@@ -185,3 +185,4 @@ Finally, we took advantage of a software design pattern named the Dependency Inj
 > [!div class="step-by-step"]
 > [Previous](iteration-3-add-form-validation-cs.md)
 > [Next](iteration-5-create-unit-tests-cs.md)
+

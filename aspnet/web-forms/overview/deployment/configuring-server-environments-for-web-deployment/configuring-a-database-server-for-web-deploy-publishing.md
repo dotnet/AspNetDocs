@@ -3,7 +3,7 @@ uid: web-forms/overview/deployment/configuring-server-environments-for-web-deplo
 title: "Configuring a Database Server for Web Deploy Publishing | Microsoft Docs"
 author: jrjlee
 description: "This topic describes how to configure a SQL Server 2008 R2 database server to support web deployment and publishing. The tasks described in this topic are co..."
-ms.author: riande
+ms.author: wpickett
 ms.date: 05/04/2012
 ms.assetid: e7c447f9-eddf-4bbe-9f18-3326d965d093
 msc.legacyurl: /web-forms/overview/deployment/configuring-server-environments-for-web-deployment/configuring-a-database-server-for-web-deploy-publishing
@@ -216,3 +216,4 @@ For guidance on deploying database projects, see [Deploying Database Projects](.
 > [!div class="step-by-step"]
 > [Previous](configuring-a-web-server-for-web-deploy-publishing-offline-deployment.md)
 > [Next](creating-a-server-farm-with-the-web-farm-framework.md)
+

@@ -3,7 +3,7 @@ uid: web-forms/overview/older-versions-security/roles/creating-and-managing-role
 title: "Creating and Managing Roles (VB) | Microsoft Docs"
 author: rick-anderson
 description: "This tutorial examines the steps necessary for configuring the Roles framework. Following that, we will build web pages to create and delete roles. (VB)"
-ms.author: riande
+ms.author: wpickett
 ms.date: 03/24/2008
 ms.assetid: 83af9f5f-9a00-4f83-8afc-e98bdd49014e
 msc.legacyurl: /web-forms/overview/older-versions-security/roles/creating-and-managing-roles-vb
@@ -244,3 +244,4 @@ This tutorial series was reviewed by many helpful reviewers. Lead reviewers for 
 > [!div class="step-by-step"]
 > [Previous](role-based-authorization-cs.md)
 > [Next](assigning-roles-to-users-vb.md)
+

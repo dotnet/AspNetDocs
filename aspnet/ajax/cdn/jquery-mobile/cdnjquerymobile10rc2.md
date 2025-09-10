@@ -3,7 +3,7 @@ uid: ajax/cdn/jquery-mobile/cdnjquerymobile10rc2
 title: "jQuery Mobile 1.0 RC2 on the Microsoft Ajax CDN | Microsoft Docs"
 description: This article provides a list of the files that are included in the jQuery Mobile 1.0 RC2 library on the Microsoft Ajax CDN.
 author: rick-anderson
-ms.author: riande
+ms.author: tdykstra
 ms.date: 07/23/2014
 ms.assetid: 8e588bfd-15f7-4bbd-8b3e-97223b70af52
 msc.legacyurl: /ajax/cdn/jquery-mobile/cdnjquerymobile10rc2
@@ -24,3 +24,4 @@ The jQuery Mobile 1.0 RC 2 library includes the following files:
 - https://ajax.aspnetcdn.com/ajax/jquery.mobile/1.0rc2/images/icons-18-white.png
 - https://ajax.aspnetcdn.com/ajax/jquery.mobile/1.0rc2/images/icons-36-black.png
 - https://ajax.aspnetcdn.com/ajax/jquery.mobile/1.0rc2/images/icons-36-white.png
+

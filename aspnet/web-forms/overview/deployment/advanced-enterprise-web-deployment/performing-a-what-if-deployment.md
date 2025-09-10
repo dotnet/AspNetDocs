@@ -3,7 +3,7 @@ uid: web-forms/overview/deployment/advanced-enterprise-web-deployment/performing
 title: Performing a What If Deployment | Microsoft Docs
 author: jrjlee
 description: This topic describes how to perform 'what if' (or simulated) deployments using the Internet Information Services (IIS) Web Deployment Tool (Web Deploy) and V...
-ms.author: riande
+ms.author: wpickett
 ms.date: 05/04/2012
 ms.assetid: c711b453-01ac-4e65-a48c-93d99bf22e58
 msc.legacyurl: /web-forms/overview/deployment/advanced-enterprise-web-deployment/performing-a-what-if-deployment
@@ -116,3 +116,4 @@ For more information on Web Deploy command-line syntax, see [Web Deploy Operatio
 > [!div class="step-by-step"]
 > [Previous](advanced-enterprise-web-deployment.md)
 > [Next](customizing-database-deployments-for-multiple-environments.md)
+

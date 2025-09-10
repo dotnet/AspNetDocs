@@ -3,7 +3,7 @@ uid: mvc/overview/getting-started/getting-started-with-ef-using-mvc/handling-con
 title: "Tutorial: Handle Concurrency with EF in an ASP.NET MVC 5 app"
 description: "This tutorial shows how to use optimistic concurrency to handle conflicts when multiple users update the same entity at the same time."
 author: tdykstra
-ms.author: riande
+ms.author: tdykstra
 ms.topic: tutorial
 ms.date: 01/15/2019
 ms.assetid: be0c098a-1fb2-457e-b815-ddca601afc65
@@ -226,3 +226,4 @@ In this tutorial, you:
 Advance to the next article to learn how to implement inheritance in the data model.
 > [!div class="nextstepaction"]
 > [Implement inheritance in the data model](implementing-inheritance-with-the-entity-framework-in-an-asp-net-mvc-application.md)
+

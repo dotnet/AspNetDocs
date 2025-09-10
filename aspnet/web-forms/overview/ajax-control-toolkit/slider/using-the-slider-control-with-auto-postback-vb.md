@@ -3,7 +3,7 @@ uid: web-forms/overview/ajax-control-toolkit/slider/using-the-slider-control-wit
 title: "Using the Slider Control With Auto-Postback (VB) | Microsoft Docs"
 author: wenz
 description: "The Slider control in the AJAX Control Toolkit provides a graphical slider that can be controlled using the mouse. It is possible to make the slider autopost... (VB)"
-ms.author: riande
+ms.author: tdykstra
 ms.date: 06/02/2008
 ms.assetid: 41d1abba-97a5-4a45-9b44-d05624c19777
 msc.legacyurl: /web-forms/overview/ajax-control-toolkit/slider/using-the-slider-control-with-auto-postback-vb
@@ -54,3 +54,4 @@ Afterwards, the date of this change is written in the label ([Click to view full
 > [!div class="step-by-step"]
 > [Previous](databinding-the-slider-control-cs.md)
 > [Next](databinding-the-slider-control-vb.md)
+

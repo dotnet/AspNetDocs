@@ -3,7 +3,7 @@ uid: web-forms/overview/advanced/aspnet-web-forms-connection-resiliency-and-comm
 title: "ASP.NET Web Forms Connection Resiliency and Command Interception | Microsoft Docs"
 author: Erikre
 description: "This tutorial describes how to modify a sample application to support connection resiliency and command interception."
-ms.author: riande
+ms.author: tdykstra
 ms.date: 03/31/2014
 ms.assetid: 6d497001-fa80-4765-b4cc-181fe90b894e
 msc.legacyurl: /web-forms/overview/advanced/aspnet-web-forms-connection-resiliency-and-command-interception
@@ -169,3 +169,4 @@ In this tutorial you've seen how to modify a Web Forms sample application to sup
 ## Next Steps
 
 After you have reviewed connection resiliency and command interception in ASP.NET Web Forms, review the ASP.NET Web Forms topic [Asynchronous Methods in ASP.NET 4.5](../performance-and-caching/using-asynchronous-methods-in-aspnet-45.md). The topic will teach you the basics of building an asynchronous ASP.NET Web Forms application using Visual Studio.
+

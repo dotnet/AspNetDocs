@@ -2,7 +2,7 @@
 title: Adding a View to an MVC app
 author: Rick-Anderson
 description: Adding a view to an MVC app
-ms.author: riande
+ms.author: tdykstra
 ms.date: 01/23/2019
 uid: mvc/overview/getting-started/introduction/adding-a-view
 ---
@@ -145,3 +145,4 @@ Well, that was a kind of an &quot;M&quot; for model, but not the database kind. 
 > [!div class="step-by-step"]
 > [Previous](adding-a-controller.md)
 > [Next](adding-a-model.md)
+

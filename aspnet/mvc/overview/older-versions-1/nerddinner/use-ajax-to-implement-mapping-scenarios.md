@@ -3,7 +3,7 @@ uid: mvc/overview/older-versions-1/nerddinner/use-ajax-to-implement-mapping-scen
 title: "Use AJAX to Implement Mapping Scenarios | Microsoft Docs"
 author: rick-anderson
 description: "Step 11 shows how to integrate AJAX mapping support into our NerdDinner application, enabling users who are creating, editing or viewing dinners to see the l..."
-ms.author: riande
+ms.author: tdykstra
 ms.date: 07/27/2010
 ms.assetid: f731990a-0a81-4d62-81df-87d676cdedd6
 msc.legacyurl: /mvc/overview/older-versions-1/nerddinner/use-ajax-to-implement-mapping-scenarios
@@ -186,3 +186,4 @@ We've now implemented all the application functionality of our NerdDinner applic
 > [!div class="step-by-step"]
 > [Previous](use-ajax-to-deliver-dynamic-updates.md)
 > [Next](enable-automated-unit-testing.md)
+

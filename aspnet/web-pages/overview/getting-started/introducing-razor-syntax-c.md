@@ -3,7 +3,7 @@ uid: web-pages/overview/getting-started/introducing-razor-syntax-c
 title: "Introduction to ASP.NET Web Programming Using the Razor Syntax (C#) | Microsoft Docs"
 author: Rick-Anderson
 description: "This chapter gives you an overview of programming with ASP.NET Web Pages using the Razor syntax. ASP.NET is Microsoft's technology for running dynamic web pa..."
-ms.author: riande
+ms.author: wpickett
 ms.date: 02/07/2014
 ms.assetid: aa67d304-583b-4bf8-a231-195656cfb587
 msc.legacyurl: /web-pages/overview/getting-started/introducing-razor-syntax-c
@@ -835,3 +835,4 @@ If your code didn't handle the exception, you would see an error page like the p
 [ASP.NET](https://msdn.microsoft.com/library/ee532866.aspx)
 
 [C# Language](https://msdn.microsoft.com/library/kx37x362.aspx)
+

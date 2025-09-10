@@ -3,7 +3,7 @@ uid: web-pages/overview/security/16-adding-security-and-membership
 title: "Adding Security and Membership to an ASP.NET Web Pages (Razor) Site | Microsoft Docs"
 author: Rick-Anderson
 description: "This chapter shows you how to secure your website so that some of the pages are available only to people who log in. (You'll also see how to create pages tha..."
-ms.author: riande
+ms.author: wpickett
 ms.date: 02/24/2014
 ms.assetid: 7a77c2c0-deea-4290-a9c3-97958891758e
 msc.legacyurl: /web-pages/overview/security/16-adding-security-and-membership
@@ -260,3 +260,4 @@ To manage roles, you can use the [Roles](https://msdn.microsoft.com/library/gg53
 - [WebSecurity Class API reference](https://msdn.microsoft.com/library/webmatrix.webdata.websecurity(v=vs.99)) (MSDN)
 - [SimpleRoleProvider Class API reference](https://msdn.microsoft.com/library/webmatrix.webdata.simpleroleprovider(v=vs.99)) (MSDN)
 - [SimpleMembershipProvider Class API reference](https://msdn.microsoft.com/library/webmatrix.webdata.simplemembershipprovider(v=vs.99)) (MSDN)
+

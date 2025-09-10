@@ -3,7 +3,7 @@ uid: mvc/overview/older-versions-1/controllers-and-routing/understanding-action-
 title: "Understanding Action Filters (VB) | Microsoft Docs"
 author: rick-anderson
 description: "The goal of this tutorial is to explain action filters. An action filter is an attribute that you can apply to a controller action -- or an entire controller... (VB)"
-ms.author: riande
+ms.author: tdykstra
 ms.date: 10/16/2008
 ms.assetid: e83812f2-c53e-4a43-a7c1-d64c59ecf694
 msc.legacyurl: /mvc/overview/older-versions-1/controllers-and-routing/understanding-action-filters-vb
@@ -116,3 +116,4 @@ Finally, you learned how to implement a simple action filter. We created a Log a
 > [!div class="step-by-step"]
 > [Previous](asp-net-mvc-routing-overview-vb.md)
 > [Next](improving-performance-with-output-caching-vb.md)
+

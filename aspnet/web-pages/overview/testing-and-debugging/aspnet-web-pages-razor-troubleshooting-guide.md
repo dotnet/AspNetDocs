@@ -3,7 +3,7 @@ uid: web-pages/overview/testing-and-debugging/aspnet-web-pages-razor-troubleshoo
 title: "ASP.NET Web Pages (Razor) Troubleshooting Guide | Microsoft Docs"
 author: Rick-Anderson
 description: "This article describes issues that you might have when working with ASP.NET Web Pages (Razor) and some suggested solutions. Software versions ASP.NET Web Pag..."
-ms.author: riande
+ms.author: wpickett
 ms.date: 02/10/2014
 ms.assetid: 2a2c1833-0bfe-4e2e-9cc0-341b52c7b121
 msc.legacyurl: /web-pages/overview/testing-and-debugging/aspnet-web-pages-razor-troubleshooting-guide
@@ -150,3 +150,4 @@ Substitute the appropriate values for `your-SMTP-server-name`, and so on. Some o
 [ASP.NET Web Pages (Razor) FAQ](https://go.microsoft.com/fwlink/?LinkId=253000)
 
 [WebMatrix and ASP.NET Web Pages](https://forums.asp.net/1224.aspx/1?WebMatrix) forum on the ASP.NET website
+

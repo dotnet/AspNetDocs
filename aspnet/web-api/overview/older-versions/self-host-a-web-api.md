@@ -3,7 +3,7 @@ uid: web-api/overview/older-versions/self-host-a-web-api
 title: Self-Host ASP.NET Web API 1 (C#) - ASP.NET 4.x
 author: rick-anderson
 description: Tutorial with code shows how to host a web API inside a console application using ASP.Net 4.x and Visual Studio 2012.
-ms.author: riande
+ms.author: tdykstra
 ms.date: 01/26/2012
 ms.assetid: be5ab1e2-4140-4275-ac59-ca82a1bac0c1
 msc.legacyurl: /web-api/overview/older-versions/self-host-a-web-api
@@ -180,3 +180,4 @@ This should output the following. (Remember to run the SelfHost application firs
 [!code-console[Main](self-host-a-web-api/samples/sample11.cmd)]
 
 ![Screenshot of the console window showing an outputted list of products associated with I D and categories.](self-host-a-web-api/_static/image7.png)
+

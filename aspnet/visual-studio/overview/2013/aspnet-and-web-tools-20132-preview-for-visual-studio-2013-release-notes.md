@@ -3,7 +3,7 @@ uid: visual-studio/overview/2013/aspnet-and-web-tools-20132-preview-for-visual-s
 title: ASP.NET and Web Tools 2013.2 for Visual Studio 2013 Release Notes | Microsoft Docs
 author: rick-anderson
 description: ASP.NET and Web Tools for Visual Studio 2013.2 are bundled in the main installer and can be downloaded as part of Visual Studio 2013 Update 2.
-ms.author: riande
+ms.author: tdykstra
 ms.date: 03/06/2014
 ms.assetid: 7ef5f73c-ca60-43c1-bdb2-702800347e7e
 msc.legacyurl: /visual-studio/overview/2013/aspnet-and-web-tools-20132-preview-for-visual-studio-2013-release-notes
@@ -267,3 +267,4 @@ There were lots of bugs that were fixed in this release.
 ### ASP.NET SignalR 2.0.2
 
 There were lots of bugs that were fixed in this release. Please see the [release notes for the 2.0.2 release](https://github.com/SignalR/SignalR/releases/tag/2.0.2) for more detailed information.
+

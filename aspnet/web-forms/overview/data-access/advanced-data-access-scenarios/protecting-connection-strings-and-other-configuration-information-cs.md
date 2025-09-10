@@ -3,7 +3,7 @@ uid: web-forms/overview/data-access/advanced-data-access-scenarios/protecting-co
 title: "Protecting Connection Strings and Other Configuration Information (C#) | Microsoft Docs"
 author: rick-anderson
 description: "An ASP.NET application typically stores configuration information in a Web.config file. Some of this information is sensitive and warrants protection. By def... (C#)"
-ms.author: riande
+ms.author: tdykstra
 ms.date: 08/03/2007
 ms.assetid: ad8dd396-30f7-4abe-ac02-a0b84422e5be
 msc.legacyurl: /web-forms/overview/data-access/advanced-data-access-scenarios/protecting-connection-strings-and-other-configuration-information-cs
@@ -207,3 +207,4 @@ This tutorial series was reviewed by many helpful reviewers. Lead reviewers for 
 > [!div class="step-by-step"]
 > [Previous](configuring-the-data-access-layer-s-connection-and-command-level-settings-cs.md)
 > [Next](debugging-stored-procedures-cs.md)
+

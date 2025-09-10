@@ -3,7 +3,7 @@ uid: web-api/overview/older-versions/using-web-api-1-with-entity-framework-5/usi
 title: "Part 3: Creating an Admin Controller | Microsoft Docs"
 author: Rick-Anderson
 description: "Learn how to add a Web API controller that supports CRUD (create, read, update, and delete) operations on products."
-ms.author: riande
+ms.author: tdykstra
 ms.date: 07/04/2012
 ms.assetid: 6b9ae3c4-0274-4170-a1bb-9df9c546b2a9
 msc.legacyurl: /web-api/overview/older-versions/using-web-api-1-with-entity-framework-5/using-web-api-with-entity-framework-part-3
@@ -96,3 +96,4 @@ Send an HTTP request to "`http://localhost:*portnum*/api/admin`. The first reque
 > [!div class="step-by-step"]
 > [Previous](using-web-api-with-entity-framework-part-2.md)
 > [Next](using-web-api-with-entity-framework-part-4.md)
+

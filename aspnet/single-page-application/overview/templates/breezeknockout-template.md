@@ -3,7 +3,7 @@ uid: single-page-application/overview/templates/breezeknockout-template
 title: "Breeze/Knockout template | Microsoft Docs"
 author: madskristensen
 description: "Breeze/Knockout Single Page Application template"
-ms.author: riande
+ms.author: tdykstra
 ms.date: 04/27/2022
 ms.custom: devdivchpfy22
 ms.assetid: 3bd94827-3c59-448f-abc3-36e6df4858db
@@ -90,3 +90,4 @@ We suggest that you explore the code, guided by the extensive discussion of both
 You might try playing with Breeze client-side query; add some filters and sorts. You might add more model properties and more entities to get a better feel for end-to-end SPA development. When you are confident of the design, you can tear out the Todo features and replace them with your own.
 
 Soon you'll be ready for the next big step: Adding client-side screens and navigating among them. You'll leave this SPA template behind and turn to a more complete SPA stack, such as [John Papa's Hot Towel](https://github.com/johnpapa/HotTowel#readme "Hot Towel"), which adds Durandal to the Breeze and Knockout mix.
+

@@ -3,7 +3,7 @@ uid: web-forms/overview/moving-to-aspnet-20/data-source-controls
 title: "Data Source Controls | Microsoft Docs"
 author: rick-anderson
 description: "The DataGrid control in ASP.NET 1.x marked a great improvement in data access in Web applications. However, it wasn't as user-friendly as it could have been...."
-ms.author: riande
+ms.author: wpickett
 ms.date: 02/20/2005
 ms.assetid: 78fd0e92-f9c6-4e96-a5e9-0375b307a828
 msc.legacyurl: /web-forms/overview/moving-to-aspnet-20/data-source-controls
@@ -263,3 +263,4 @@ This exercise will demonstrate how to use the ObjectDataSource control and a sou
     [!code-aspx[Main](data-source-controls/samples/sample12.aspx)]
 8. Save all files and browse object.aspx.
 9. Interact with the interface by viewing details, editing employees, adding employees, and deleting employees.
+

@@ -3,7 +3,7 @@ uid: web-forms/overview/deployment/visual-studio-web-deployment/deploying-to-pro
 title: "ASP.NET Web Deployment using Visual Studio: Deploying to Production | Microsoft Docs"
 author: tdykstra
 description: "This tutorial series shows you how to deploy (publish) an ASP.NET web application to Azure App Service Web Apps or a third-party hosting provider."
-ms.author: riande
+ms.author: wpickett
 ms.date: 02/15/2013
 ms.assetid: 416438a1-3b2f-4d27-bf53-6b76223c33bf
 msc.legacyurl: /web-forms/overview/deployment/visual-studio-web-deployment/deploying-to-production
@@ -293,3 +293,4 @@ In the next tutorial, you'll update application code and deploy the change to th
 > [!div class="step-by-step"]
 > [Previous](setting-folder-permissions.md)
 > [Next](deploying-a-code-update.md)
+

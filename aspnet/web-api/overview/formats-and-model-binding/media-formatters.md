@@ -3,7 +3,7 @@ uid: web-api/overview/formats-and-model-binding/media-formatters
 title: "Media Formatters in ASP.NET Web API 2 - ASP.NET 4.x"
 author: rick-anderson
 description: "Shows how to support additional media formats in ASP.NET Web API for ASP.NET 4.x."
-ms.author: riande
+ms.author: tdykstra
 ms.date: 01/20/2014
 ms.assetid: 4c56f64a-086a-44ce-99c2-4c69604cd7fd
 msc.legacyurl: /web-api/overview/formats-and-model-binding/media-formatters
@@ -87,3 +87,4 @@ In the constructor, add one or more [System.Text.Encoding](https://msdn.microsof
 In the **WriteToStream** and **ReadFromStream** methods, call [MediaTypeFormatter.SelectCharacterEncoding](https://msdn.microsoft.com/library/hh969054.aspx) to select the preferred character encoding. This method matches the request headers against the list of supported encodings. Use the returned **Encoding** when you read or write from the stream:
 
 [!code-csharp[Main](media-formatters/samples/sample11.cs?highlight=3,5)]
+

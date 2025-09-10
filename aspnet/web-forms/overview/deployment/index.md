@@ -3,7 +3,7 @@ uid: web-forms/overview/deployment/index
 title: "Deployment Overview | Microsoft Docs"
 author: rick-anderson
 description: "How to deploy ASP.NET Web Forms projects to a server."
-ms.author: riande
+ms.author: wpickett
 ms.date: 08/18/2011
 ms.assetid: 05e4c88f-5101-4277-a323-b6774d98f69e
 msc.legacyurl: /web-forms/overview/deployment
@@ -78,3 +78,4 @@ msc.type: chapter
     - [Taking Web Applications Offline with Web Deploy](advanced-enterprise-web-deployment/taking-web-applications-offline-with-web-deploy.md)
     - [Running Windows PowerShell Scripts from MSBuild Project Files](advanced-enterprise-web-deployment/running-windows-powershell-scripts-from-msbuild-project-files.md)
     - [Troubleshooting the Packaging Process](advanced-enterprise-web-deployment/troubleshooting-the-packaging-process.md)
+

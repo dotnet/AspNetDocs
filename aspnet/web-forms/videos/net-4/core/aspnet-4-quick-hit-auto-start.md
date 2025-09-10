@@ -3,7 +3,7 @@ uid: web-forms/videos/net-4/core/aspnet-4-quick-hit-auto-start
 title: Auto Start | Microsoft Docs
 author: JoeStagner
 description: "In this video you will learn about the new auto-start scalability feature which provides a controlled approach for starting up an application pool, initializ..."
-ms.author: riande
+ms.author: wpickett
 ms.date: 11/11/2009
 ms.assetid: ff2bba8e-4dbb-4b73-95fe-0bba17152ef5
 msc.legacyurl: /web-forms/videos/net-4/core/aspnet-4-quick-hit-auto-start
@@ -19,3 +19,4 @@ In this video you will learn about the new auto-start scalability feature which 
 
 > [!div class="step-by-step"]
 > [Next](aspnet-4-quick-hit-clean-webconfig-files.md)
+

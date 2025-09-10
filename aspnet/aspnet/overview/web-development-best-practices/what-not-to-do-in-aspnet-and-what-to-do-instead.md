@@ -3,7 +3,7 @@ uid: aspnet/overview/web-development-best-practices/what-not-to-do-in-aspnet-and
 title: "What not to do in ASP.NET, and what to do instead | Microsoft Docs"
 author: Rick-Anderson
 description: "This topic describes several common mistakes people make within ASP.NET web projects. It provides recommendations for what you should do to avoid these commo..."
-ms.author: riande
+ms.author: tdykstra
 ms.date: 01/28/2019
 ms.assetid: c39b9965-545c-4b04-8f55-21be7f28a9e5
 msc.legacyurl: /aspnet/overview/web-development-best-practices/what-not-to-do-in-aspnet-and-what-to-do-instead

@@ -3,7 +3,7 @@ uid: mvc/overview/older-versions-1/contact-manager/iteration-2-make-the-applicat
 title: "Iteration #2 – Make the application look nice (VB) | Microsoft Docs"
 author: rick-anderson
 description: "In this iteration, we improve the appearance of the application by modifying the default ASP.NET MVC view master page and cascading style sheet. (VB)"
-ms.author: riande
+ms.author: tdykstra
 ms.date: 02/20/2009
 ms.assetid: f65cb436-e493-46fd-9608-384b27385aa1
 msc.legacyurl: /mvc/overview/older-versions-1/contact-manager/iteration-2-make-the-application-look-nice-vb
@@ -133,3 +133,4 @@ In the next iteration, we tackle the very important subject of validation. We ad
 > [!div class="step-by-step"]
 > [Previous](iteration-1-create-the-application-vb.md)
 > [Next](iteration-3-add-form-validation-vb.md)
+

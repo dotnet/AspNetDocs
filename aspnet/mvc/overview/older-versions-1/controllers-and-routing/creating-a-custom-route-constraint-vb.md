@@ -3,7 +3,7 @@ uid: mvc/overview/older-versions-1/controllers-and-routing/creating-a-custom-rou
 title: "Creating a Custom Route Constraint (VB) | Microsoft Docs"
 author: StephenWalther
 description: "Stephen Walther demonstrates how you can create a custom route constraint. We implement a simple custom constraint that prevents a route from being matched w..."
-ms.author: riande
+ms.author: tdykstra
 ms.date: 02/16/2009
 ms.assetid: 892edb27-1cc2-4eaf-8314-dbc2efc6228a
 msc.legacyurl: /mvc/overview/older-versions-1/controllers-and-routing/creating-a-custom-route-constraint-vb
@@ -45,3 +45,4 @@ Notice that the Default route has been commented out from the Global.asax file i
 
 > [!div class="step-by-step"]
 > [Previous](creating-a-route-constraint-vb.md)
+

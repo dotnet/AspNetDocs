@@ -3,7 +3,7 @@ uid: web-forms/videos/data-access/linq-videos-from-the-vb-team/how-do-i-upgrade-
 title: "[How Do I:] Upgrade Visual Basic Projects to Enable LINQ? | Microsoft Docs"
 author: bethmassi
 description: "Visual Basic programmers will learn about the new multi-targeting feature and how to upgrade projects written in Visual Basic 2005 to Visual Basic 2008 Beta..."
-ms.author: riande
+ms.author: wpickett
 ms.date: 11/15/2007
 ms.assetid: e9c01c16-7211-4b42-b2fb-daf9a314c0a4
 msc.legacyurl: /web-forms/videos/data-access/linq-videos-from-the-vb-team/how-do-i-upgrade-visual-basic-projects-to-enable-linq
@@ -20,3 +20,4 @@ Visual Basic programmers will learn about the new multi-targeting feature and ho
 > [!div class="step-by-step"]
 > [Previous](how-do-i-perform-group-and-aggregate-queries.md)
 > [Next](how-do-i-get-started-with-linq-to-xml.md)
+

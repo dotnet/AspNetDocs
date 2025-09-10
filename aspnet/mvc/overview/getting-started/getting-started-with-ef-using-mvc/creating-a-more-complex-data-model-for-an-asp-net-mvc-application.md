@@ -3,7 +3,7 @@ uid: mvc/overview/getting-started/getting-started-with-ef-using-mvc/creating-a-m
 title: "Tutorial: Create a more complex data model for an ASP.NET MVC app"
 author: tdykstra
 description: "In this tutorial you'll add more entities and relationships and you'll customize the data model by specifying formatting, validation, and database mapping rules."
-ms.author: riande
+ms.author: tdykstra
 ms.date: 01/22/2019
 ms.topic: tutorial
 ms.assetid: 46f7f3c9-274f-4649-811d-92222a9b27e2
@@ -424,3 +424,4 @@ Advance to the next article to learn how to read and display related data that t
 
 > [!div class="nextstepaction"]
 > [Read related data](reading-related-data-with-the-entity-framework-in-an-asp-net-mvc-application.md)
+

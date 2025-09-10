@@ -3,7 +3,7 @@ uid: web-api/overview/security/external-authentication-services
 title: "External Authentication Services with ASP.NET Web API (C#) | Microsoft Docs"
 author: rmcmurray
 description: "Describes using External Authentication Services in ASP.NET Web API."
-ms.author: riande
+ms.author: tdykstra
 ms.date: 01/28/2019
 ms.assetid: 3bb8eb15-b518-44f5-a67d-a27e051aedc6
 msc.legacyurl: /web-api/overview/security/external-authentication-services
@@ -299,3 +299,4 @@ The current ASP.NET local registration functionality does not prevent automated 
 Once the local login panel and the registration link have been disabled, your login page will only display the external authentication providers that you have enabled:
 
 [![Image of external providers only login](external-authentication-services/_static/image70.png "Click to Expand the Image")](external-authentication-services/_static/image69.png)
+

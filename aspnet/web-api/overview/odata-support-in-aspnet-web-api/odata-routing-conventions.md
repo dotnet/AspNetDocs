@@ -3,7 +3,7 @@ uid: web-api/overview/odata-support-in-aspnet-web-api/odata-routing-conventions
 title: "Routing Conventions in ASP.NET Web API 2 Odata - ASP.NET 4.x"
 author: rick-anderson
 description: "Describes routing conventions that Web API 2 in ASP.NET 4.x uses for OData endpoints."
-ms.author: riande
+ms.author: tdykstra
 ms.date: 07/31/2013
 ms.assetid: adbc175a-14eb-4ab2-a441-d056ffa8266f
 msc.legacyurl: /web-api/overview/odata-support-in-aspnet-web-api/odata-routing-conventions
@@ -172,3 +172,4 @@ Here are some other sample routing conventions that be useful to study:
 - [ODataVersionRouteConstraint](/previous-versions/aspnet/dn746967(v=vs.118))
 
 And of course Web API itself is open-source, so you can see the [source code](https://github.com/aspnet/AspNetWebStack) for the built-in routing conventions. These are defined in the **System.Web.Http.OData.Routing.Conventions** namespace.
+

@@ -3,7 +3,7 @@ uid: visual-studio/overview/2013/aspnet-scaffolding-overview
 title: "ASP.NET Scaffolding in Visual Studio 2013 | Microsoft Docs"
 author: Rick-Anderson
 description: "ASP.NET Scaffolding is a new feature that is included in Visual Studio 2013."
-ms.author: riande
+ms.author: tdykstra
 ms.date: 04/09/2014
 ms.assetid: a41ec9d4-8287-4f31-9e2a-460e7b7f04be
 msc.legacyurl: /visual-studio/overview/2013/aspnet-scaffolding-overview
@@ -87,3 +87,4 @@ For an example of using scaffolding with **Database First development**, see [EF
 For an example of using scaffolding in an **MVC** project, see [Getting Started with ASP.NET MVC 5](../../../mvc/overview/getting-started/introduction/getting-started.md).
 
 For an example of using scaffolding in a **Web API** project, see [Create a REST API with Attribute Routing in Web API 2](../../../web-api/overview/web-api-routing-and-actions/create-a-rest-api-with-attribute-routing.md).
+

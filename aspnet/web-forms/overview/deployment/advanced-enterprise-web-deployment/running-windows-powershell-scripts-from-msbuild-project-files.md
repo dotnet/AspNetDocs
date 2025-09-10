@@ -3,7 +3,7 @@ uid: web-forms/overview/deployment/advanced-enterprise-web-deployment/running-wi
 title: "Running Windows PowerShell Scripts from MSBuild Project Files | Microsoft Docs"
 author: jrjlee
 description: "This topic describes how to run a Windows PowerShell script as part of a build and deployment process. You can run a script locally (in other words, on the b..."
-ms.author: riande
+ms.author: wpickett
 ms.date: 05/04/2012
 ms.assetid: 55f1ae45-fcb5-43a9-8415-fa5b935fc9c9
 msc.legacyurl: /web-forms/overview/deployment/advanced-enterprise-web-deployment/running-windows-powershell-scripts-from-msbuild-project-files
@@ -150,3 +150,4 @@ For more information on using custom MSBuild project files to control the deploy
 > [!div class="step-by-step"]
 > [Previous](taking-web-applications-offline-with-web-deploy.md)
 > [Next](troubleshooting-the-packaging-process.md)
+

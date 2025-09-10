@@ -3,7 +3,7 @@ uid: mvc/overview/older-versions-1/getting-started-with-mvc/getting-started-with
 title: "Adding a Create Method and Create View | Microsoft Docs"
 author: shanselman
 description: "This is a beginner tutorial that introduces the basics of ASP.NET MVC. Create a simple web application that reads and writes from a database. (6 of 8)"
-ms.author: riande
+ms.author: tdykstra
 ms.date: 08/14/2010
 ms.assetid: a3a90963-0286-4fa0-9b3d-c230cc18b0a3
 msc.legacyurl: /mvc/overview/older-versions-1/getting-started-with-mvc/getting-started-with-mvc-part6
@@ -58,3 +58,4 @@ We aren't checking if our movies are correct, though, and the database won't all
 > [!div class="step-by-step"]
 > [Previous](getting-started-with-mvc-part5.md)
 > [Next](getting-started-with-mvc-part7.md)
+

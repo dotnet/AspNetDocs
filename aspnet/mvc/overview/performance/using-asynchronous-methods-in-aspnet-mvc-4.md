@@ -3,7 +3,7 @@ uid: mvc/overview/performance/using-asynchronous-methods-in-aspnet-mvc-4
 title: "Using Asynchronous Methods in ASP.NET MVC 4 | Microsoft Docs"
 author: Rick-Anderson
 description: "This tutorial will teach you the basics of building an asynchronous ASP.NET MVC Web application using Visual Studio Express 2012 for Web, which is a free ve..."
-ms.author: riande
+ms.author: tdykstra
 ms.date: 06/06/2012
 ms.assetid: a56572ba-81c3-47af-826d-941e9c4775ec
 msc.legacyurl: /mvc/overview/performance/using-asynchronous-methods-in-aspnet-mvc-4
@@ -171,3 +171,4 @@ To realize the benefits of an asynchronous web application, you might need to ma
     - [.NET Framework Versions and Dependencies](https://msdn.microsoft.com/library/bb822049(VS.110).aspx)
 - If your application is using web services or System.NET to communicate with a backend over HTTP you may need to increase the [connectionManagement/maxconnection](https://msdn.microsoft.com/library/fb6y0fyc(VS.110).aspx) element. For ASP.NET applications, this is limited by the autoConfig feature to 12 times the number of CPUs. That means that on a quad-proc, you can have at most 12 \* 4 = 48 concurrent connections to an IP end point. Because this is tied to [autoConfig](https://msdn.microsoft.com/library/7w2sway1(VS.110).aspx), the easiest way to increase `maxconnection` in an ASP.NET application is to set [System.Net.ServicePointManager.DefaultConnectionLimit](https://msdn.microsoft.com/library/system.net.servicepointmanager.defaultconnectionlimit(VS.110).aspx) programmatically in the from `Application_Start` method in the *global.asax* file. See the sample download for an example.
 - In .NET 4.5, the default of 5000 for [MaxConcurrentRequestsPerCPU](/archive/blogs/tmarq/asp-net-thread-usage-on-iis-7-5-iis-7-0-and-iis-6-0) should be fine.
+

@@ -3,7 +3,7 @@ uid: web-api/overview/web-api-routing-and-actions/attribute-routing-in-web-api-2
 title: "Attribute Routing in ASP.NET Web API 2 | Microsoft Docs"
 author: Rick-Anderson
 description: This topic discusses how to enable attribute routing in ASP.NET Web API 2 and describes various options for attribute routing.
-ms.author: riande
+ms.author: tdykstra
 ms.date: 01/20/2014
 ms.assetid: 979d6c9f-0129-4e5b-ae56-4507b281b86d
 msc.legacyurl: /web-api/overview/web-api-routing-and-actions/attribute-routing-in-web-api-2
@@ -263,3 +263,4 @@ These routes are ordered as follows.
 5. orders/pending
 
 Notice that "details" is a literal segment and appears before "{id}", but "pending" appears last because the **Order** property is 1. (This example assumes there are no customers named "details" or "pending". In general, try to avoid ambiguous routes. In this example, a better route template for `GetByCustomer` is "customers/{customerName}" )
+

@@ -3,7 +3,7 @@ uid: web-forms/videos/aspnet-dynamic-data/index
 title: "ASP.NET Dynamic Data | Microsoft Docs"
 author: rick-anderson
 description: "How to use ASP.NET Dynamic Data to create scaffolded applications that automatically know how to perform data access."
-ms.author: riande
+ms.author: wpickett
 ms.date: 10/05/2011
 ms.assetid: cd51e6c4-6ff9-419d-8ac8-a39b79d63c78
 msc.legacyurl: /web-forms/videos/aspnet-dynamic-data
@@ -30,3 +30,4 @@ msc.type: chapter
 - [Remove Columns From Your DynamicData Data Grids](how-to-remove-columns-from-your-dynamicdata-data-grids.md)
 - [Create Table Specific Custom Forms in an ASP.NET Dynamic Data Application](how-to-create-table-specific-custom-forms-in-an-aspnet-dynamic-data-application.md)
 - [ASP.NET Dynamic Data Custom Form Formatting](aspnet-dynamic-data-custom-form-formatting.md)
+

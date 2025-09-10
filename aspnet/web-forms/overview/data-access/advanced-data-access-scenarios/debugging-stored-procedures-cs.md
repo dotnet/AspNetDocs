@@ -3,7 +3,7 @@ uid: web-forms/overview/data-access/advanced-data-access-scenarios/debugging-sto
 title: "Debugging Stored Procedures (C#) | Microsoft Docs"
 author: rick-anderson
 description: "Visual Studio Professional and Team System editions allow you to set breakpoints and step in to stored procedures within SQL Server, making debugging stored... (C#)"
-ms.author: riande
+ms.author: tdykstra
 ms.date: 08/03/2007
 ms.assetid: c655c324-2ffa-4c21-8265-a254d79a693d
 msc.legacyurl: /web-forms/overview/data-access/advanced-data-access-scenarios/debugging-stored-procedures-cs
@@ -163,3 +163,4 @@ Scott Mitchell, author of seven ASP/ASP.NET books and founder of 4GuysFromRolla.
 > [!div class="step-by-step"]
 > [Previous](protecting-connection-strings-and-other-configuration-information-cs.md)
 > [Next](creating-stored-procedures-and-user-defined-functions-with-managed-code-cs.md)
+

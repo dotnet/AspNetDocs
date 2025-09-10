@@ -3,7 +3,7 @@ uid: single-page-application/overview/introduction/knockoutjs-template
 title: "Single Page Application: KnockoutJS template | Microsoft Docs"
 author: Rick-Anderson
 description: "Knockout template"
-ms.author: riande
+ms.author: tdykstra
 ms.date: 01/30/2013
 ms.assetid: f9c07af0-4b20-4b08-af8f-47fc3df169a2
 msc.legacyurl: /single-page-application/overview/introduction/knockoutjs-template
@@ -223,3 +223,4 @@ ASP.NET MVC provides built-in support for anti-forgery tokens, through the [Anti
 ## Conclusion
 
 The SPA template is designed to get you started quickly writing modern, interactive web applications. It uses the Knockout.js library to separate presentation (HTML markup) from the data and application logic. But Knockout is not the only JavaScript library you can use to create a SPA. If you want to explore some other options, take a look at the [community-created SPA templates](../templates/index.md).
+

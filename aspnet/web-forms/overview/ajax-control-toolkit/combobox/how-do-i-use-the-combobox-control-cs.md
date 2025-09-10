@@ -3,7 +3,7 @@ uid: web-forms/overview/ajax-control-toolkit/combobox/how-do-i-use-the-combobox-
 title: "How do I use the ComboBox Control? (C#) | Microsoft Docs"
 author: rick-anderson
 description: "ComboBox is an ASP.NET AJAX control that combines the flexibility of a TextBox with a list of options from which users can choose. (C#)"
-ms.author: riande
+ms.author: tdykstra
 ms.date: 05/12/2009
 ms.assetid: 0bbf4134-04df-4226-8930-d5bb99e27128
 msc.legacyurl: /web-forms/overview/ajax-control-toolkit/combobox/how-do-i-use-the-combobox-control-cs
@@ -147,3 +147,4 @@ In this tutorial, you learned how to use the ComboBox control to display a fixed
 
 > [!div class="step-by-step"]
 > [Next](how-do-i-use-the-combobox-control-vb.md)
+

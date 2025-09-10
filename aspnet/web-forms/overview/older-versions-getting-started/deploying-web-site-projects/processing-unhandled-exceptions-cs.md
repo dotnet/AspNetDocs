@@ -3,7 +3,7 @@ uid: web-forms/overview/older-versions-getting-started/deploying-web-site-projec
 title: "Processing Unhandled Exceptions (C#) | Microsoft Docs"
 author: rick-anderson
 description: "When a runtime error occurs on a web application in production it is important to notify a developer and to log the error so that it may be diagnosed at a la... (C#)"
-ms.author: riande
+ms.author: wpickett
 ms.date: 06/09/2009
 ms.assetid: 5bc1afd5-2484-4528-b158-ab218ba150e8
 msc.legacyurl: /web-forms/overview/older-versions-getting-started/deploying-web-site-projects/processing-unhandled-exceptions-cs
@@ -156,3 +156,4 @@ For more information on the topics discussed in this tutorial, refer to the foll
 > [!div class="step-by-step"]
 > [Previous](displaying-a-custom-error-page-cs.md)
 > [Next](logging-error-details-with-asp-net-health-monitoring-cs.md)
+

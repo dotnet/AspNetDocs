@@ -3,7 +3,7 @@ uid: web-api/samples-list
 title: Web API Samples List - ASP.NET 4.x
 author: rick-anderson
 description: ASP.NET Web API samples list for ASP.NET 4.x
-ms.author: riande
+ms.author: tdykstra
 ms.date: 09/18/2012
 ms.assetid: 8cbd9d7f-7027-4390-b098-cb81a63ecd6f
 msc.legacyurl: /web-api/samples-list
@@ -115,3 +115,4 @@ Shows an ApiController added to a Web Forms project.
 **[RestBugs Sample](https://github.com/howarddierking/RestBugs)**
 
 RestBugs is a simple bug tracking application that shows how to use ASP.NET Web API and the new HTTP Client library to create a hypermedia-driven system. The sample includes both client and server implementations, using ASP.NET Web API. The server uses a custom Razor formatter to generate resource representations. The sample also provides a node.js server to illustrate the benefits that come from using a hypermedia design to decouple clients and servers.
+

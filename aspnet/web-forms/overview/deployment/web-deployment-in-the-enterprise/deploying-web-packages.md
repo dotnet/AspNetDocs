@@ -3,7 +3,7 @@ uid: web-forms/overview/deployment/web-deployment-in-the-enterprise/deploying-we
 title: "Deploying Web Packages | Microsoft Docs"
 author: jrjlee
 description: "This topic describes how you can publish web deployment packages to a remote server by using the Internet Information Services (IIS) Web Deployment Tool (Web..."
-ms.author: riande
+ms.author: wpickett
 ms.date: 08/08/2024
 ms.assetid: a5c5eed2-8683-40a5-a2e1-35c9f8d17c29
 msc.legacyurl: /web-forms/overview/deployment/web-deployment-in-the-enterprise/deploying-web-packages
@@ -230,3 +230,4 @@ For guidance on how to create and parameterize a web deployment package, see [Bu
 > [!div class="step-by-step"]
 > [Previous](configuring-parameters-for-web-package-deployment.md)
 > [Next](deploying-database-projects.md)
+

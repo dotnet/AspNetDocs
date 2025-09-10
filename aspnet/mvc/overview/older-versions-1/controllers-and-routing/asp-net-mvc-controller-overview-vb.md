@@ -3,7 +3,7 @@ uid: mvc/overview/older-versions-1/controllers-and-routing/asp-net-mvc-controlle
 title: "ASP.NET MVC Controller Overview (VB) | Microsoft Docs"
 author: StephenWalther
 description: "In this tutorial, Stephen Walther introduces you to ASP.NET MVC controllers. You learn how to create new controllers and return different types of action res... (VB)"
-ms.author: riande
+ms.author: tdykstra
 ms.date: 02/16/2008
 ms.assetid: 94c3e5d9-a904-445e-a34e-d92fd1ca108a
 msc.legacyurl: /mvc/overview/older-versions-1/controllers-and-routing/asp-net-mvc-controller-overview-vb
@@ -116,3 +116,4 @@ The purpose of this tutorial was to introduce you to the concepts of ASP.NET MVC
 > [!div class="step-by-step"]
 > [Previous](creating-a-custom-route-constraint-cs.md)
 > [Next](creating-custom-routes-vb.md)
+

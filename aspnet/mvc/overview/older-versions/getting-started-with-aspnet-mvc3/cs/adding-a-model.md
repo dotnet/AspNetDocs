@@ -3,7 +3,7 @@ uid: mvc/overview/older-versions/getting-started-with-aspnet-mvc3/cs/adding-a-mo
 title: "Adding a Model (C#) | Microsoft Docs"
 author: Rick-Anderson
 description: "Learn how to add a model, add a model class, and work with SQL server compact to create a connection string."
-ms.author: riande
+ms.author: tdykstra
 ms.date: 01/12/2011
 ms.assetid: 42355b95-5f1f-413e-8d16-14cdfaaefcd8
 msc.legacyurl: /mvc/overview/older-versions/getting-started-with-aspnet-mvc3/cs/adding-a-model
@@ -83,3 +83,4 @@ Next, you'll build a new `MoviesController` class that you can use to display th
 > [!div class="step-by-step"]
 > [Previous](adding-a-view.md)
 > [Next](accessing-your-models-data-from-a-controller.md)
+

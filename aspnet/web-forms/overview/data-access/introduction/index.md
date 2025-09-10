@@ -3,7 +3,7 @@ uid: web-forms/overview/data-access/introduction/index
 title: "Introduction | Microsoft Docs"
 author: rick-anderson
 description: "This introductory set of tutorials explains how to create a Data Access Layer (DAL), a Business Logic Layer (BLL), and a consistent look across your site."
-ms.author: riande
+ms.author: wpickett
 ms.date: 11/11/2011
 ms.assetid: 74f3a86b-81fa-4d64-820a-304613f72caa
 msc.legacyurl: /web-forms/overview/data-access/introduction
@@ -19,3 +19,4 @@ msc.type: chapter
 - [Creating a Data Access Layer (VB)](creating-a-data-access-layer-vb.md)
 - [Creating a Business Logic Layer (VB)](creating-a-business-logic-layer-vb.md)
 - [Master Pages and Site Navigation (VB)](master-pages-and-site-navigation-vb.md)
+

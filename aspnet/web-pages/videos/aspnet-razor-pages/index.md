@@ -3,7 +3,7 @@ uid: web-pages/videos/aspnet-razor-pages/index
 title: ASP.NET Razor Video Tutorials | Microsoft Docs
 author: rick-anderson
 description: Provides a list of video tutorials that are related to ASP.Net Razor and WebMatrix web page functionalities.
-ms.author: riande
+ms.author: wpickett
 ms.date: 05/18/2012
 ms.assetid: ffad842d-548c-40c6-84c5-10858133e972
 msc.legacyurl: /web-pages/videos/aspnet-razor-pages
@@ -30,3 +30,4 @@ msc.type: chapter
 - [Adding Email to Your Web Site](adding-email-to-your-web-site.md)
 - [Adding Search to Your Web Site](adding-search-to-your-web-site.md)
 - [Adding Social Networking to Your Website](adding-social-networking-to-your-website.md)
+

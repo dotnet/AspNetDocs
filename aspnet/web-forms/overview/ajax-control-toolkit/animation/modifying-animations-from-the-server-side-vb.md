@@ -3,7 +3,7 @@ uid: web-forms/overview/ajax-control-toolkit/animation/modifying-animations-from
 title: "Modifying Animations From The Server Side (VB) | Microsoft Docs"
 author: wenz
 description: "The Animation control in the ASP.NET AJAX Control Toolkit is not just a control but a whole framework to add animations to a control. The animations may also... (VB)"
-ms.author: riande
+ms.author: tdykstra
 ms.date: 06/02/2008
 ms.assetid: addcf4aa-340a-460b-9c64-506424a1f725
 msc.legacyurl: /web-forms/overview/ajax-control-toolkit/animation/modifying-animations-from-the-server-side-vb
@@ -54,3 +54,4 @@ The animation is created using server-side C#/VB code ([Click to view full-size 
 > [!div class="step-by-step"]
 > [Previous](triggering-an-animation-in-another-control-vb.md)
 > [Next](executing-animations-using-client-side-code-vb.md)
+

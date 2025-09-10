@@ -3,7 +3,7 @@ uid: web-forms/overview/older-versions-getting-started/master-pages/specifying-t
 title: "Specifying the Title, Meta Tags, and Other HTML Headers in the Master Page (VB) | Microsoft Docs"
 author: rick-anderson
 description: "Looks at different techniques for defining assorted &lt;head&gt; elements in the Master Page from the content page. (VB)"
-ms.author: riande
+ms.author: wpickett
 ms.date: 05/21/2008
 ms.assetid: ea8196f5-039d-43ec-8447-8997ad4d3900
 msc.legacyurl: /web-forms/overview/older-versions-getting-started/master-pages/specifying-the-title-meta-tags-and-other-html-headers-in-the-master-page-vb
@@ -298,3 +298,4 @@ This tutorial series was reviewed by many helpful reviewers. Lead reviewers for 
 > [!div class="step-by-step"]
 > [Previous](multiple-contentplaceholders-and-default-content-vb.md)
 > [Next](urls-in-master-pages-vb.md)
+

@@ -3,7 +3,7 @@ uid: web-forms/overview/data-access/caching-data/index
 title: "Caching Data | Microsoft Docs"
 author: rick-anderson
 description: "This tutorial set explains caching, which can improve site performance, and how to apply caching to the Presentation Layer using the ObjectDataSource control..."
-ms.author: riande
+ms.author: tdykstra
 ms.date: 10/05/2011
 ms.assetid: 7d7ee56c-a867-4777-9407-ec8f73a605a3
 msc.legacyurl: /web-forms/overview/data-access/caching-data
@@ -21,3 +21,4 @@ msc.type: chapter
 - [Caching Data in the Architecture (VB)](caching-data-in-the-architecture-vb.md)
 - [Caching Data at Application Startup (VB)](caching-data-at-application-startup-vb.md)
 - [Using SQL Cache Dependencies (VB)](using-sql-cache-dependencies-vb.md)
+

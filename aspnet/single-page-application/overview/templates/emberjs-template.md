@@ -3,7 +3,7 @@ uid: single-page-application/overview/templates/emberjs-template
 title: "EmberJS template | Microsoft Docs"
 author: xqiu
 description: "EmberJS template"
-ms.author: riande
+ms.author: tdykstra
 ms.date: 01/30/2013
 ms.assetid: 04d5f142-5f62-494a-b5ea-4f3d068d34cb
 msc.legacyurl: /single-page-application/overview/templates/emberjs-template
@@ -151,3 +151,4 @@ Called with no arguments, the function renders all of the template files in the 
 When **debug** is **false** in Web.config, the application includes the bundle item "~/bundles/templates". This bundle item is added in BundleConfig.cs, using the Handlebars compiler library:
 
 [!code-csharp[Main](emberjs-template/samples/sample14.cs)]
+

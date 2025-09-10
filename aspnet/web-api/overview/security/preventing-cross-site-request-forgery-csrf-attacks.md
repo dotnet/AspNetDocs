@@ -3,7 +3,7 @@ uid: web-api/overview/security/preventing-cross-site-request-forgery-csrf-attack
 title: "Preventing Cross-Site Request Forgery (CSRF) Attacks in ASP.NET MVC"
 author: Rick-Anderson
 description: "Describes the cross-site request forgery (CSRF) attack and how to implement anti-CSRF measures in ASP.NET Web MVC."
-ms.author: riande
+ms.author: tdykstra
 ms.date: 12/12/2012
 ms.assetid: 81d46f14-8f48-4d8c-830d-cc8d594dc11b
 msc.legacyurl: /web-api/overview/security/preventing-cross-site-request-forgery-csrf-attacks
@@ -67,3 +67,4 @@ The form token can be a problem for AJAX requests, because an AJAX request might
 When you process the request, extract the tokens from the request header. Then call the **AntiForgery.Validate** method to validate the tokens. The **Validate** method throws an exception if the tokens are not valid.
 
 [!code-csharp[Main](preventing-cross-site-request-forgery-csrf-attacks/samples/sample5.cs)]
+

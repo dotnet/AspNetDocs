@@ -3,7 +3,7 @@ uid: web-forms/overview/deployment/visual-studio-web-deployment/deploying-to-iis
 title: "ASP.NET Web Deployment using Visual Studio: Deploying to Test | Microsoft Docs"
 author: tdykstra
 description: "How to deploy an ASP.NET web application to Azure App Service Web Apps or to a third-party hosting provider by using Visual Studio 2017"
-ms.author: riande
+ms.author: wpickett
 ms.date: 01/16/2019
 ms.assetid: 8bf2c4fb-4ee5-4841-bfc2-03462c1f7a7a
 msc.legacyurl: /web-forms/overview/deployment/visual-studio-web-deployment/deploying-to-iis
@@ -387,3 +387,4 @@ For information about running IIS or IIS Express in Visual Studio, see the follo
 > [!div class="step-by-step"]
 > [Previous](project-properties.md)
 > [Next](setting-folder-permissions.md)
+

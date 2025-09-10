@@ -3,7 +3,7 @@ uid: web-pages/overview/data/5-working-with-data
 title: "Introduction to Working with a Database in ASP.NET Web Pages (Razor) Sites | Microsoft Docs"
 author: Rick-Anderson
 description: "This chapter describes how to access data from a database and display it using ASP.NET Web Pages."
-ms.author: riande
+ms.author: wpickett
 ms.date: 02/18/2014
 ms.assetid: 673d502f-2c16-4a6f-bb63-dbfd9a77ef47
 msc.legacyurl: /web-pages/overview/data/5-working-with-data
@@ -380,3 +380,4 @@ This section shows how to let users delete a product from the *Product* database
 - [SQL Server Compact](https://www.microsoft.com/sqlserver/2008/en/us/compact.aspx)
 - [Connecting to a SQL Server or MySQL Database in WebMatrix](https://go.microsoft.com/fwlink/?LinkId=208661)
 - [Validating User Input in ASP.NET Web Pages Sites](https://go.microsoft.com/fwlink/?LinkId=253002)
+

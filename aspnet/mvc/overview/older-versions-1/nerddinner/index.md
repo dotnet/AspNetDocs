@@ -3,7 +3,7 @@ uid: mvc/overview/older-versions-1/nerddinner/index
 title: "NerdDinner | Microsoft Docs"
 author: rick-anderson
 description: "How to build the NerdDinner.com website using ASP.NET MVC 1. For the ASP.NET MVC 3 version, visit nerddinner on GitHub."
-ms.author: riande
+ms.author: tdykstra
 ms.date: 09/28/2011
 ms.assetid: 6edfe14c-415a-4281-b6fa-69e9b38a82c8
 msc.legacyurl: /mvc/overview/older-versions-1/nerddinner
@@ -27,3 +27,4 @@ msc.type: chapter
 - [Use AJAX to Implement Mapping Scenarios](use-ajax-to-implement-mapping-scenarios.md)
 - [Enable Automated Unit Testing](enable-automated-unit-testing.md)
 - [NerdDinner Wrap Up](nerddinner-wrap-up.md)
+

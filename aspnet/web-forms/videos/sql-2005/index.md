@@ -3,7 +3,7 @@ uid: web-forms/videos/sql-2005/index
 title: "SQL 2005 | Microsoft Docs"
 author: rick-anderson
 description: "How to work with SQL Server Express to add database capabilities to your ASP.NET applications."
-ms.author: riande
+ms.author: wpickett
 ms.date: 10/05/2011
 ms.assetid: cf0b487c-f387-46dd-b3bc-6b3c4af17c9c
 msc.legacyurl: /web-forms/videos/sql-2005
@@ -26,3 +26,4 @@ msc.type: chapter
 - [Building and Customizing Reports in Business Intelligence Development Studio](building-and-customizing-reports-in-business-intelligence-development-studio.md)
 - [Creating and Using Stored Procedures](creating-and-using-stored-procedures.md)
 - [Enabling Full-Text Search in your Text Data](enabling-full-text-search-in-your-text-data.md)
+

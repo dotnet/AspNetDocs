@@ -3,7 +3,7 @@ uid: mvc/overview/older-versions/using-oauth-providers-with-mvc
 title: "Using OAuth Providers with MVC 4 | Microsoft Docs"
 author: Rick-Anderson
 description: "This tutorial shows you how to build an ASP.NET MVC 4 web application that enables users to log in with credentials from an external provider, such as Facebo..."
-ms.author: riande
+ms.author: tdykstra
 ms.date: 06/19/2013
 ms.assetid: 7a87f16f-0e19-4f15-a88a-094ae866c4a2
 msc.legacyurl: /mvc/overview/older-versions/using-oauth-providers-with-mvc
@@ -262,3 +262,4 @@ In this tutorial, you created a site that is integrated with Facebook for user a
 ## Related topics
 
 - [Create an ASP.NET MVC app with auth and SQL DB and deploy to Azure App Service](/aspnet/core/security/authorization/secure-data)
+

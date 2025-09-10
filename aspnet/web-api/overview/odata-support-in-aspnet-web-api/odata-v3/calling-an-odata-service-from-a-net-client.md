@@ -3,7 +3,7 @@ uid: web-api/overview/odata-support-in-aspnet-web-api/odata-v3/calling-an-odata-
 title: "Calling an OData Service From a .NET Client (C#) | Microsoft Docs"
 author: rick-anderson
 description: "This tutorial shows how to call an OData service from a C# client application. Software versions used in the tutorial Visual Studio 2013 (works with Visual S..."
-ms.author: riande
+ms.author: tdykstra
 ms.date: 02/26/2014
 ms.assetid: 6f448917-ad23-4dcc-9789-897fad74051b
 msc.legacyurl: /web-api/overview/odata-support-in-aspnet-web-api/odata-v3/calling-an-odata-service-from-a-net-client
@@ -219,3 +219,4 @@ For more information, see[Calling Service Operations and Actions](https://msdn.m
 One option is to extend the **Container** class to provide a strongly typed method that invokes the action:
 
 [!code-csharp[Main](calling-an-odata-service-from-a-net-client/samples/sample25.cs)]
+

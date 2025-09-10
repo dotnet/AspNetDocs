@@ -3,7 +3,7 @@ uid: identity/overview/extensibility/overview-of-custom-storage-providers-for-as
 title: "Overview of Custom Storage Providers for ASP.NET Identity - ASP.NET 4.x"
 author: Rick-Anderson
 description: "ASP.NET Identity is an extensible system which enables you to create your own storage provider and plug it into your application without re-working the appli..."
-ms.author: riande
+ms.author: tdykstra
 ms.date: 10/13/2014
 ms.assetid: 681a9204-462e-4260-9a0b-19f0644d6ad7
 msc.legacyurl: /identity/overview/extensibility/overview-of-custom-storage-providers-for-aspnet-identity
@@ -259,3 +259,4 @@ You have implemented your new storage provider. Now, you must configure your app
 - [RavenDB.AspNet.Identity](https://github.com/ILMServices/RavenDB.AspNet.Identity) by [ILMServices](http://www.ilmservice.com/).
 - Redis: [Redis.AspNet.Identity](https://github.com/aminjam/Redis.AspNet.Identity)
 - T4 Templates to generate EF code for a "database first" user store: [AspNet.Identity.EntityFramework](https://github.com/cbfrank/AspNet.Identity.EntityFramework)
+

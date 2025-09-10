@@ -3,7 +3,7 @@ uid: mvc/overview/getting-started/getting-started-with-ef-using-mvc/connection-r
 title: "Tutorial: Use connection resiliency and command interception with EF in an ASP.NET MVC app"
 author: tdykstra
 description: "In this tutorial you'll learn how to use connection resiliency and command interception. They are two important features of Entity Framework 6."
-ms.author: riande
+ms.author: tdykstra
 ms.date: 01/22/2019
 ms.topic: tutorial
 ms.assetid: c89d809f-6c65-4425-a3fa-c9f6e8ac89f2
@@ -188,3 +188,4 @@ In this tutorial, you:
 Advance to the next article to learn about Code First migrations and Azure deployment.
 > [!div class="nextstepaction"]
 > [Code First migrations and Azure deployment](migrations-and-deployment-with-the-entity-framework-in-an-asp-net-mvc-application.md)
+

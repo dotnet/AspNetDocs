@@ -3,7 +3,7 @@ uid: web-forms/overview/older-versions-security/membership/creating-user-account
 title: "Creating User Accounts (C#) | Microsoft Docs"
 author: rick-anderson
 description: "In this tutorial we will explore using the Membership framework (via the SqlMembershipProvider) to create new user accounts. We will see how to create new us... (C#)"
-ms.author: riande
+ms.author: wpickett
 ms.date: 01/18/2008
 ms.assetid: f175278c-6079-4d91-b9b4-2493ed43d9ec
 msc.legacyurl: /web-forms/overview/older-versions-security/membership/creating-user-accounts-cs
@@ -342,3 +342,4 @@ This tutorial series was reviewed by many helpful reviewers. Lead reviewer for t
 > [!div class="step-by-step"]
 > [Previous](creating-the-membership-schema-in-sql-server-cs.md)
 > [Next](validating-user-credentials-against-the-membership-user-store-cs.md)
+
