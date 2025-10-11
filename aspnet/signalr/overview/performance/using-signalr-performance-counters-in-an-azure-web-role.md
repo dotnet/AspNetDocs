@@ -23,7 +23,7 @@ SignalR performance counters are used to monitor your app's performance in an Az
 
 * Visual Studio 2015 or [2017](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=learn.microsoft.com&utm_campaign=button+cta&utm_content=download+vs2017)
 * [Microsoft Azure SDK for Visual Studio](https://azure.microsoft.com/downloads/) **Note: Restart your machine after installing the SDK.**
-* Microsoft Azure subscription: To sign up for a free Azure trial account, see [Azure Free Trial](https://azure.microsoft.com/free/dotnet/).
+* Microsoft Azure subscription: To sign up for a free Azure trial account, see [Azure Free Trial](https://azure.microsoft.com/pricing/purchase-options/azure-account?cid=msft_learn).
 
 ## Creating an Azure Web Role application that exposes SignalR performance counters
 

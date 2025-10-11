@@ -54,7 +54,7 @@ Now your site is ready for publication. First, you will see how to deploy the si
 <a id="azure"></a>
 ## Publishing Your Site to Microsoft Azure
 
-This tutorial will first show you how to deploy your site to Microsoft Azure. By signing in with a Microsoft account, you can create up to 10 free sites on Azure. These free sites provide a convenient way to test your sites. You can always delete this example site later to avoid using all of your free sites. You can create a free trial account in just a couple of minutes. For details, see [Azure Free Trial](https://azure.microsoft.com/free/dotnet/).
+This tutorial will first show you how to deploy your site to Microsoft Azure. By signing in with a Microsoft account, you can create up to 10 free sites on Azure. These free sites provide a convenient way to test your sites. You can always delete this example site later to avoid using all of your free sites. You can create a free trial account in just a couple of minutes. For details, see [Azure Free Trial](https://azure.microsoft.com/pricing/purchase-options/azure-account?cid=msft_learn).
 
 In the WebMatrix ribbon, click the **Publish** button.
 
