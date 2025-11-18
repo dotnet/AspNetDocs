@@ -252,7 +252,7 @@ Your Migrations `Seed` method inserts test data. If you were deploying to a prod
 
 ### Get a Windows Azure account
 
-You'll need a Windows Azure account. If you don't already have one, you can create a free trial account in just a couple of minutes. For details, see [Windows Azure Free Trial](https://azure.microsoft.com/free/dotnet/).
+You'll need a Windows Azure account. If you don't already have one, you can create a free trial account in just a couple of minutes. For details, see [Windows Azure Free Trial](https://azure.microsoft.com/pricing/purchase-options/azure-account?cid=msft_learn).
 
 ### Create a web site and a SQL database in Windows Azure
 
