@@ -75,6 +75,13 @@ If you wish to submit your JavaScript library and your library is one of the top
 
 <a id="ajaxmicrosoftcom_renamed_to_ajaxaspnetcdncom_18"></a>
 
+> [!WARNING]
+> Production applications should not take a hard dependency on CDN assets. Applications should test for the CDN asset referenced, and use a fallback asset when the CDN is not available.
+>
+> The Microsoft Ajax CDN has no SLA above and beyond using an Azure CDN.
+>
+> Use [this GitHub issue](https://github.com/dotnet/AspNetCore.Docs/issues/34049) to report problems with the Microsoft Ajax CDN.
+
 ## ajax.microsoft.com renamed to ajax.aspnetcdn.com
 
 The CDN used to use the microsoft.com domain name and has been changed to use the aspnetcdn.com domain name. This change was made to increase performance because when a browser referenced the microsoft.com domain it would send any cookies from that domain across the wire with each request. By renaming to a domain name other than microsoft.com performance can be increased by as much to 25%. Note ajax.microsoft.com will continue to function but ajax.aspnetcdn.com is recommended.
@@ -147,11 +154,30 @@ All of the standard jQuery UI themes are hosted on the CDN. [Visit this page](jq
 
 To learn more about the jQuery UI library, visit the official [jQuery UI website](http://jQueryUI.com "jQuery UI website").
 
+
+> [!WARNING]
+> Production applications should not take a hard dependency on CDN assets. Applications should test for the CDN asset referenced, and use a fallback asset when the CDN is not available.
+>
+> The Microsoft Ajax CDN has no SLA above and beyond using an Azure CDN.
+>
+> Use [this GitHub issue](https://github.com/dotnet/AspNetCore.Docs/issues/34049) to report problems with the Microsoft Ajax CDN.
+
+
 <a id="Third-Party_Files_on_the_CDN_23"></a>
 
 ## Third-Party Files on the CDN
 
 The CDN hosts some of the most popular third party JavaScript libraries. Microsoft does not claim ownership of any third-party libraries hosted on this CDN. The copyright owners of the libraries are licensing these libraries to you. Any rights that you may have to download and use such libraries are granted solely by the respective copyright owners. Because these are not Microsoft libraries, Microsoft provides no warranties or intellectual property rights licenses (including no implied patent rights) for the third party libraries hosted on this CDN.
+
+
+
+> [!WARNING]
+> Production applications should not take a hard dependency on CDN assets. Applications should test for the CDN asset referenced, and use a fallback asset when the CDN is not available.
+>
+> The Microsoft Ajax CDN has no SLA above and beyond using an Azure CDN.
+>
+> Use [this GitHub issue](https://github.com/dotnet/AspNetCore.Docs/issues/34049) to report problems with the Microsoft Ajax CDN.
+
 
 <a id="jQuery_Releases_on_the_CDN_0"></a>
 
@@ -595,6 +621,15 @@ The following releases of jQuery are hosted on the CDN:
 - https://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.3.2-vsdoc.js
 - https://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.3.2.min-vsdoc.js
 
+
+> [!WARNING]
+> Production applications should not take a hard dependency on CDN assets. Applications should test for the CDN asset referenced, and use a fallback asset when the CDN is not available.
+>
+> The Microsoft Ajax CDN has no SLA above and beyond using an Azure CDN.
+>
+> Use [this GitHub issue](https://github.com/dotnet/AspNetCore.Docs/issues/34049) to report problems with the Microsoft Ajax CDN.
+
+
 <a id="jQuery_Migrate_Releases_on_the_CDN_1"></a>
 
 ### jQuery Migrate Releases on the CDN
@@ -870,6 +905,16 @@ The following releases of [Respond](https://github.com/scottjehl/Respond "Respon
 #### Respond version 1.2.0
 
 - https://ajax.aspnetcdn.com/ajax/respond/1.2.0/respond.js
+
+
+> [!WARNING]
+> Production applications should not take a hard dependency on CDN assets. Applications should test for the CDN asset referenced, and use a fallback asset when the CDN is not available.
+>
+> The Microsoft Ajax CDN has no SLA above and beyond using an Azure CDN.
+>
+> Use [this GitHub issue](https://github.com/dotnet/AspNetCore.Docs/issues/34049) to report problems with the Microsoft Ajax CDN.
+
+
 
 <a id="Bootstrap_Releases_on_the_CDN_14"></a>
 
@@ -1272,6 +1317,15 @@ The following releases of [getbootstrap.com](http://getbootstrap.com "getbootstr
 - https://ajax.aspnetcdn.com/ajax/bootstrap/2.3.1/css/bootstrap-responsive.min.css
 - https://ajax.aspnetcdn.com/ajax/bootstrap/2.3.1/img/glyphicons-halflings.png
 - https://ajax.aspnetcdn.com/ajax/bootstrap/2.3.1/img/glyphicons-halflings-white.png
+
+
+> [!WARNING]
+> Production applications should not take a hard dependency on CDN assets. Applications should test for the CDN asset referenced, and use a fallback asset when the CDN is not available.
+>
+> The Microsoft Ajax CDN has no SLA above and beyond using an Azure CDN.
+>
+> Use [this GitHub issue](https://github.com/dotnet/AspNetCore.Docs/issues/34049) to report problems with the Microsoft Ajax CDN.
+
 
 <a id="BootstrapTouchCarousel_Releases_on_the_CDN_18"></a>
 
