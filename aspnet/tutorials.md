@@ -45,7 +45,6 @@ The following step-by-step guides for developing ASP.NET applications are availa
 * [XSRF/CSRF Prevention in ASP.NET MVC and Web Pages](mvc/overview/security/xsrfcsrf-prevention-in-aspnet-mvc-and-web-pages.md)
 * [Preventing Open Redirection Attacks (C#)](mvc/overview/security/preventing-open-redirection-attacks.md)
 * [Migrating ASP.NET MVC Applications to Windows Containers](mvc/overview/deployment/docker-aspnetmvc.md)
-* [Profile and debug your ASP.NET MVC app with Glimpse](mvc/overview/performance/profile-and-debug-your-aspnet-mvc-app-with-glimpse.md)
 * [Using Asynchronous Methods in ASP.NET MVC 4](mvc/overview/performance/using-asynchronous-methods-in-aspnet-mvc-4.md)
 * [How to Upgrade an ASP.NET MVC 4 and Web API Project to ASP.NET MVC 5 and Web API 2](mvc/overview/releases/how-to-upgrade-an-aspnet-mvc-4-and-web-api-project-to-aspnet-mvc-5-and-web-api-2.md)
 
