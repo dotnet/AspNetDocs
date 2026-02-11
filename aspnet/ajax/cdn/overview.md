@@ -19,6 +19,9 @@ msc.type: content
 >
 > Use [this GitHub issue](https://github.com/dotnet/AspNetCore.Docs/issues/34049) to report problems with the Microsoft Ajax CDN.
 
+> [!WARNING]
+> The Microsoft Ajax CDN is no longer being actively updated.  Consumers should transition to a resource with updated assets at their first opportunity.  The CDN itself will be decommissioned in the future with notifications posted here as appropriate.
+
 ## Table of Contents
 
 **[ajax.microsoft.com renamed to ajax.aspnetcdn.com](#ajaxmicrosoftcom_renamed_to_ajaxaspnetcdncom_18)**  
