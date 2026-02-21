@@ -3,7 +3,7 @@ uid: web-api/overview/odata-support-in-aspnet-web-api/odata-v3/working-with-enti
 title: "Supporting Entity Relations in OData v3 with Web API 2 | Microsoft Docs"
 author: rick-anderson
 description: "The majority of data sets define relations between entities: Customers have orders; books have authors; products have suppliers, etc."
-ms.author: riande
+ms.author: tdykstra
 ms.date: 02/26/2014
 ms.assetid: 1e4c2eb4-b6cf-42ff-8a65-4d71ddca0394
 msc.legacyurl: /web-api/overview/odata-support-in-aspnet-web-api/odata-v3/working-with-entity-relations
@@ -107,3 +107,4 @@ This request removes order 1 from customer 1. In this case, the DeleteLink metho
 [!code-csharp[Main](working-with-entity-relations/samples/sample13.cs)]
 
 The *relatedKey* parameter gives the key for the related entity. So in your `DeleteLink` method, look up the primary entity by the *key* parameter, find the related entity by the *relatedKey* parameter, and then remove the association. Depending on your data model, you might need to implement both versions of `DeleteLink`. Web API will call the correct version based on the request URI.
+

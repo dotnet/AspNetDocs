@@ -8,6 +8,7 @@ ms.date: 08/08/2014
 ms.assetid: 30060acb-be3e-4347-996f-3870f0c37829
 msc.legacyurl: /signalr/overview/testing-and-debugging/enabling-signalr-tracing
 msc.type: authoredcontent
+ms.custom: sfi-image-nochange
 ---
 # Enabling SignalR Tracing
 

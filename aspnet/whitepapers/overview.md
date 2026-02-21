@@ -3,7 +3,7 @@ uid: whitepapers/overview
 title: "Install and Configure ASP.NET"
 author: rick-anderson
 description: "On this page you will find whitepapers to help you install and configure ASP.NET, and to assist you to write secure, fast and flexible ASP.NET applications."
-ms.author: riande
+ms.author: wpickett
 ms.date: 11/15/2011
 ms.assetid: d5e79470-01f2-4d65-8077-11c3e10a6784
 msc.legacyurl: /whitepapers
@@ -319,3 +319,4 @@ The ASP.NET Server Controls for Silverlight ("ASP.NET Silverlight controls"), wh
 [Building High Performance Web Applications](https://devexpress.com/act)
 
 Learn how to use the new features in ASP.NET Ajax Library to build High Performance Web Applications
+

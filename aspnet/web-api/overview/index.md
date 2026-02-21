@@ -3,7 +3,7 @@ uid: web-api/overview/index
 title: "Web API Guidance - ASP.NET 4.x"
 author: rick-anderson
 description: "ASP.NET Web API guidance list for ASP.NET 4.x"
-ms.author: riande
+ms.author: tdykstra
 ms.date: 01/17/2012
 ms.assetid: daca6735-b5d3-4ef5-af33-ee682926238b
 msc.legacyurl: /web-api/overview
@@ -127,3 +127,4 @@ msc.type: book
         - [Creating the Main Page](older-versions/using-web-api-1-with-entity-framework-5/using-web-api-with-entity-framework-part-7.md)
     - [Self-Host Web API 1 (C#)](older-versions/self-host-a-web-api.md)
     - [Build RESTful API's with ASP.NET Web API](older-versions/build-restful-apis-with-aspnet-web-api.md)
+

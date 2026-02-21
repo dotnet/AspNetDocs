@@ -3,7 +3,7 @@ uid: mvc/overview/views/using-page-inspector-in-aspnet-mvc
 title: "Using Page Inspector with an Integrated browser in ASP.NET MVC | Microsoft Docs"
 author: rick-anderson
 description: "Page Inspector in Visual Studio 2012 is a web development tool with an integrated browser. Select any element in the integrated browser, and Page Inspector i..."
-ms.author: riande
+ms.author: tdykstra
 ms.date: 05/09/2022
 ms.custom: devdivchpfy22
 ms.assetid: c7e4e1ab-4932-4614-9f53-aaf7c706d498
@@ -264,3 +264,4 @@ If you click an item in the call stack, Visual Studio opens the code file and hi
 [Introducing Page Inspector](https://channel9.msdn.com/posts/visual-studio-vnext-introducing-page-inspector/) (Channel 9 video)
 
 [Page Inspector Error Messages](https://go.microsoft.com/?linkid=9813062) (MSDN)
+

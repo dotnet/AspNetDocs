@@ -3,7 +3,7 @@ uid: web-api/overview/odata-support-in-aspnet-web-api/odata-v4/using-a-singleton
 title: "Create a Singleton in OData v4 Using Web API 2.2 | Microsoft Docs"
 author: rick-anderson
 description: "This topic shows how to define a singleton in an OData endpoint in Web API 2.2."
-ms.author: riande
+ms.author: tdykstra
 ms.date: 06/27/2014
 ms.assetid: 4064ab14-26ee-4d5c-ae58-1bdda525ad06
 msc.legacyurl: /web-api/overview/odata-support-in-aspnet-web-api/odata-v4/using-a-singleton-in-an-odata-endpoint-in-web-api-22
@@ -63,3 +63,4 @@ Basically, this is all you need to do on the service side. The [sample project](
 . 
 
 *Thanks to Leo Hu for the original content of this article.*
+

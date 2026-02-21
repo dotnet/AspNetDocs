@@ -3,7 +3,7 @@ uid: mvc/overview/older-versions-1/getting-started-with-mvc/getting-started-with
 title: "Intro to ASP.NET MVC | Microsoft Docs"
 author: shanselman
 description: "This is a beginner tutorial that introduces the basics of ASP.NET MVC. Create a simple web application that reads and writes from a database. (1 of 8)"
-ms.author: riande
+ms.author: tdykstra
 ms.date: 08/14/2010
 ms.assetid: bf4a1c19-0a94-4208-b268-a96ddcf26946
 msc.legacyurl: /mvc/overview/older-versions-1/getting-started-with-mvc/getting-started-with-mvc-part1
@@ -76,3 +76,4 @@ Out of the box this default template gives you two pages to visit and a basic lo
 
 > [!div class="step-by-step"]
 > [Next](getting-started-with-mvc-part2.md)
+

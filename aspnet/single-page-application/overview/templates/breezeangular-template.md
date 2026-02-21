@@ -3,7 +3,7 @@ uid: single-page-application/overview/templates/breezeangular-template
 title: "Breeze/Angular template | Microsoft Docs"
 author: madskristensen
 description: "Breeze/Angular Single Page Application template"
-ms.author: riande
+ms.author: tdykstra
 ms.date: 03/08/2013
 ms.assetid: db31e909-563a-4516-aadd-62aa210ac7e4
 msc.legacyurl: /single-page-application/overview/templates/breezeangular-template
@@ -93,3 +93,4 @@ We suggest that you explore the code, guided by the extensive discussion of both
 You might try playing with Breeze client-side query; add some filters and sorts. You might add more model properties and more entities to get a better feel for end-to-end SPA development. When you are confident of the design, you can tear out the Todo features and replace them with your own.
 
 Happy coding!
+

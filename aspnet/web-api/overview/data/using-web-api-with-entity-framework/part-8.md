@@ -3,7 +3,7 @@ uid: web-api/overview/data/using-web-api-with-entity-framework/part-8
 title: Display Item Details | Microsoft Docs
 author: Rick-Anderson
 description: Describes how to add the view details functionality for every book listed in the book service application.
-ms.author: riande
+ms.author: tdykstra
 ms.date: 06/16/2014
 ms.assetid: 75ef94b1-bbec-4681-9210-452dba816144
 msc.legacyurl: /web-api/overview/data/using-web-api-with-entity-framework/part-8
@@ -44,3 +44,4 @@ Now if you run the app and click one of the &quot;Detail&quot; links, the app wi
 > [!div class="step-by-step"]
 > [Previous](part-7.md)
 > [Next](part-9.md)
+

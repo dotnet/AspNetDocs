@@ -3,7 +3,7 @@ uid: mvc/overview/performance/profile-and-debug-your-aspnet-mvc-app-with-glimpse
 title: "Profile and debug your ASP.NET MVC app with Glimpse | Microsoft Docs"
 author: Rick-Anderson
 description: "Glimpse is a thriving and growing family of open source NuGet packages that provides detailed performance, debugging and diagnostic information for ASP.NET a..."
-ms.author: riande
+ms.author: tdykstra
 ms.date: 03/26/2015
 ms.assetid: c205805f-efdd-4fa7-9616-f26eab180611
 msc.legacyurl: /mvc/overview/performance/profile-and-debug-your-aspnet-mvc-app-with-glimpse
@@ -116,3 +116,4 @@ For information on adding roles, see my [Deploy a Secure ASP.NET MVC 5 web app w
 ## Additional Resources
 
 - [Deploy a Secure ASP.NET MVC 5 app with Membership, OAuth, and SQL Database to Azure](https://azure.microsoft.com/documentation/articles/web-sites-dotnet-deploy-aspnet-mvc-app-membership-oauth-sql-database/)
+

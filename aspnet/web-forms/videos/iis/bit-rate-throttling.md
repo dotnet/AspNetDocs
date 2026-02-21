@@ -3,7 +3,7 @@ uid: web-forms/videos/iis/bit-rate-throttling
 title: "Bit Rate Throttling | Microsoft Docs"
 author: JoeStagner
 description: "This video will teach how to install and configure a great new IIS7 feature – Bit Rate Throttling. With BRT you can serve media files or big downloads withou..."
-ms.author: riande
+ms.author: wpickett
 ms.date: 03/09/2009
 ms.assetid: 8dc90862-97d6-48d1-8bfc-79c70d622474
 msc.legacyurl: /web-forms/videos/iis/bit-rate-throttling
@@ -20,3 +20,4 @@ This video will teach how to install and configure a great new IIS7 feature – 
 > [!div class="step-by-step"]
 > [Previous](installing-ftp7.md)
 > [Next](iis7-playlists.md)
+

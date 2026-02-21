@@ -3,7 +3,7 @@ uid: aspnet/overview/owin-and-katana/katana-samples
 title: "Katana Samples | Microsoft Docs"
 author: rick-anderson
 description: "This article provides a collection of Katana-based sample code."
-ms.author: riande
+ms.author: tdykstra
 ms.date: 01/17/2014
 ms.assetid: bec04f5d-2638-4417-b288-97c58c8d6379
 msc.legacyurl: /aspnet/overview/owin-and-katana/katana-samples

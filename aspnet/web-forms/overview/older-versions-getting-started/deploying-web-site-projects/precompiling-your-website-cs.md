@@ -3,7 +3,7 @@ uid: web-forms/overview/older-versions-getting-started/deploying-web-site-projec
 title: "Precompiling Your Website (C#) | Microsoft Docs"
 author: rick-anderson
 description: "Visual Studio offers ASP.NET developers two types of projects: Web Application Projects (WAPs) and Web Site Projects (WSPs). One of the key differences betwe... (C#)"
-ms.author: riande
+ms.author: wpickett
 ms.date: 05/02/2022
 ms.custom: devdivchpfy22
 ms.assetid: ecd5a4de-beb7-4d1d-bbbb-e31003633267
@@ -177,3 +177,4 @@ For more information on the topics discussed in this tutorial, refer to the foll
 > [!div class="step-by-step"]
 > [Previous](logging-error-details-with-elmah-cs.md)
 > [Next](users-and-roles-on-the-production-website-cs.md)
+

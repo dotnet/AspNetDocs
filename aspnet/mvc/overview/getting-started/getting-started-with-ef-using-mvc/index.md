@@ -3,7 +3,7 @@ uid: mvc/overview/getting-started/getting-started-with-ef-using-mvc/index
 title: "Getting Started with Entity Framework 6 Code First using MVC 5 | Microsoft Docs"
 author: rick-anderson
 description: "The basics of using Entity Framework 6 to display and edit data in an ASP.NET MVC 5 application."
-ms.author: riande
+ms.author: tdykstra
 ms.date: 10/05/2011
 ms.assetid: 2aebcde0-b04c-47db-b9c9-077714a5db77
 msc.legacyurl: /mvc/overview/getting-started/getting-started-with-ef-using-mvc
@@ -25,3 +25,4 @@ msc.type: chapter
 - [Handling Concurrency](handling-concurrency-with-the-entity-framework-in-an-asp-net-mvc-application.md)
 - [Implementing Inheritance](implementing-inheritance-with-the-entity-framework-in-an-asp-net-mvc-application.md)
 - [Advanced Entity Framework Scenarios](advanced-entity-framework-scenarios-for-an-mvc-web-application.md)
+

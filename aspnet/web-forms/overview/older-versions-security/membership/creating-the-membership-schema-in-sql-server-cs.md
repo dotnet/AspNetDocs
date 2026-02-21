@@ -3,11 +3,14 @@ uid: web-forms/overview/older-versions-security/membership/creating-the-membersh
 title: "Creating the Membership Schema in SQL Server (C#) | Microsoft Docs"
 author: rick-anderson
 description: "This tutorial starts by examining techniques for adding the necessary schema to the database in order to use the SqlMembershipProvider. Following that, we wi... (C#)"
-ms.author: riande
+ms.author: wpickett
 ms.date: 01/18/2008
 ms.assetid: b4ac129d-1b8e-41ca-a38f-9b19d7c7bb0e
 msc.legacyurl: /web-forms/overview/older-versions-security/membership/creating-the-membership-schema-in-sql-server-cs
 msc.type: authoredcontent
+ms.custom:
+  - sfi-image-nochange
+  - sfi-ropc-nochange
 ---
 # Creating the Membership Schema in SQL Server (C#)
 
@@ -335,3 +338,4 @@ This tutorial series was reviewed by many helpful reviewers. Lead reviewer for t
 
 > [!div class="step-by-step"]
 > [Next](creating-user-accounts-cs.md)
+

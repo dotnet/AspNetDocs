@@ -3,7 +3,7 @@ uid: web-forms/overview/older-versions-getting-started/master-pages/index
 title: "ASP.NET 3.5 - Web Forms Master Pages | Microsoft Docs"
 author: rick-anderson
 description: "How to create and use ASP.NET master pages and content pages to create a consistent layout in Web Forms applications."
-ms.author: riande
+ms.author: wpickett
 ms.date: 11/04/2011
 ms.assetid: bc30f0ec-cf8f-4a33-9eee-513be872ac9c
 msc.legacyurl: /web-forms/overview/older-versions-getting-started/master-pages
@@ -33,3 +33,4 @@ msc.type: chapter
 - [Master Pages and ASP.NET AJAX (VB)](master-pages-and-asp-net-ajax-vb.md)
 - [Specifying the Master Page Programmatically (VB)](specifying-the-master-page-programmatically-vb.md)
 - [Nested Master Pages (VB)](nested-master-pages-vb.md)
+

@@ -3,7 +3,7 @@ uid: web-forms/overview/data-access/working-with-binary-files/uploading-files-cs
 title: "Uploading Files (C#) | Microsoft Docs"
 author: rick-anderson
 description: "Learn how to allow users to upload binary files (such as Word or PDF documents) to your Web site where they may be stored in either the server's file system... (C#)"
-ms.author: riande
+ms.author: wpickett
 ms.date: 03/27/2007
 ms.assetid: b381b1da-feb3-4776-bc1b-75db53eb90ab
 msc.legacyurl: /web-forms/overview/data-access/working-with-binary-files/uploading-files-cs
@@ -248,3 +248,4 @@ This tutorial series was reviewed by many helpful reviewers. Lead reviewers for 
 
 > [!div class="step-by-step"]
 > [Next](displaying-binary-data-in-the-data-web-controls-cs.md)
+

@@ -3,7 +3,7 @@ uid: mvc/overview/older-versions-1/overview/understanding-the-asp-net-mvc-execut
 title: "Understanding the ASP.NET MVC Execution Process | Microsoft Docs"
 author: rick-anderson
 description: "Learn how the ASP.NET MVC framework processes a browser request step-by-step."
-ms.author: riande
+ms.author: tdykstra
 ms.date: 01/27/2009
 ms.assetid: d1608db3-660d-4079-8c15-f452ff01f1db
 msc.legacyurl: /mvc/overview/older-versions-1/overview/understanding-the-asp-net-mvc-execution-process
@@ -49,3 +49,4 @@ The following lists the stages of execution for an MVC Web project:
 - Execute result 
 
     - A typical action method might receive user input, prepare the appropriate response data, and then execute the result by returning a result type. The built-in result types that can be executed include the following: **ViewResult** (which renders a view and is the most-often used result type), **RedirectToRouteResult**, **RedirectResult**, **ContentResult**, **JsonResult**, and **EmptyResult**.
+

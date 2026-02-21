@@ -3,7 +3,7 @@ uid: mvc/overview/older-versions/getting-started-with-ef-5-using-mvc-4/advanced-
 title: "Advanced Entity Framework Scenarios for an MVC Web Application (10 of 10) | Microsoft Docs"
 author: tdykstra
 description: "The Contoso University sample web application explains how to create ASP.NET MVC 4 applications using the Entity Framework 5 Code First and Visual Studio."
-ms.author: riande
+ms.author: tdykstra
 ms.date: 07/30/2013
 ms.assetid: 64906a1d-f734-41cf-9615-ee95f8740996
 msc.legacyurl: /mvc/overview/older-versions/getting-started-with-ef-5-using-mvc-4/advanced-entity-framework-scenarios-for-an-mvc-web-application
@@ -327,3 +327,4 @@ Check connection string. If you have manually deleted the database, change the n
 > [!div class="step-by-step"]
 > [Previous](implementing-the-repository-and-unit-of-work-patterns-in-an-asp-net-mvc-application.md)
 > [Next](building-the-ef5-mvc4-chapter-downloads.md)
+

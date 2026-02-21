@@ -3,7 +3,7 @@ uid: visual-studio/overview/2013/index
 title: "ASP.NET and Visual Studio 2013 | Microsoft Docs"
 author: rick-anderson
 description: "Visual Studio 2013"
-ms.author: riande
+ms.author: tdykstra
 ms.date: 06/25/2013
 ms.assetid: 646edfc7-dc62-4fa0-84c2-926996c92aeb
 msc.legacyurl: /visual-studio/overview/2013
@@ -26,3 +26,4 @@ msc.type: chapter
 - [ASP.NET and Web Tools 2013.2 for Visual Studio 2013 Release Notes](aspnet-and-web-tools-20132-preview-for-visual-studio-2013-release-notes.md)
 - [Hands On Lab: Visual Studio 2013 Web Tools](visual-studio-2013-web-tools.md)
 - [Hands On Lab: One ASP.NET: Integrating ASP.NET Web Forms, MVC and Web API](one-aspnet-integrating-aspnet-web-forms-mvc-and-web-api.md)
+

@@ -3,7 +3,7 @@ uid: mvc/overview/getting-started/introduction/adding-a-controller
 title: "Adding a New Controller | Microsoft Docs"
 author: Rick-Anderson
 description: "MVC stands for model-view-controller. MVC is a pattern for developing applications that are well architected, testable and easy to maintain. In this article you will learn how to add a controller."
-ms.author: riande
+ms.author: tdykstra
 ms.date: 10/17/2013
 ms.assetid: cc764f3b-6921-486a-8f44-c6ccd1249acd
 msc.legacyurl: /mvc/overview/getting-started/introduction/adding-a-controller
@@ -103,3 +103,4 @@ In these examples the controller has been doing the &quot;VC&quot; portion of MV
 > [!div class="step-by-step"]
 > [Previous](getting-started.md)
 > [Next](adding-a-view.md)
+

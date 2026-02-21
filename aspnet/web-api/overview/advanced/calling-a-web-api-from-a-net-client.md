@@ -3,7 +3,7 @@ uid: web-api/overview/advanced/calling-a-web-api-from-a-net-client
 title: Call a Web API From a .NET Client (C#) - ASP.NET 4.x
 author: Rick-Anderson
 description: This tutorial shows how to call a web API from a .NET 4.x application.
-ms.author: riande
+ms.author: tdykstra
 ms.date: 11/24/2017
 msc.legacyurl: /web-api/overview/advanced/calling-a-web-api-from-a-net-client
 msc.type: authoredcontent
@@ -180,3 +180,4 @@ To test the client app:
    Name: Gizmo     Price: 80.0     Category: Widgets
    Deleted (HTTP Status = 204)
    ```
+

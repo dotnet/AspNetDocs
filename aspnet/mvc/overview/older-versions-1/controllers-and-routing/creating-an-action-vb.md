@@ -3,7 +3,7 @@ uid: mvc/overview/older-versions-1/controllers-and-routing/creating-an-action-vb
 title: "Creating an Action (VB) | Microsoft Docs"
 author: rick-anderson
 description: "Learn how to add a new action to an ASP.NET MVC controller. Learn about the requirements for a method to be an action. (VB)"
-ms.author: riande
+ms.author: tdykstra
 ms.date: 03/02/2009
 ms.assetid: c8d93e11-ef78-4a30-afbc-f30419000a60
 msc.legacyurl: /mvc/overview/older-versions-1/controllers-and-routing/creating-an-action-vb
@@ -56,3 +56,4 @@ If you attempt to invoke the CompanySecrets() controller action by typing /Work/
 > [!div class="step-by-step"]
 > [Previous](creating-a-controller-vb.md)
 > [Next](aspnet-mvc-controllers-overview-cs.md)
+

@@ -3,7 +3,7 @@ uid: web-api/overview/older-versions/creating-a-web-api-that-supports-crud-opera
 title: "Enabling CRUD Operations in ASP.NET Web API 1 - ASP.NET 4.x"
 author: rick-anderson
 description: "Tutorial shows how to support CRUD operations in an HTTP service using ASP.NET Web API for ASP.NET 4.x."
-ms.author: riande
+ms.author: tdykstra
 ms.date: 01/28/2012
 ms.assetid: c125ca47-606a-4d6f-a1fc-1fc62928af93
 msc.legacyurl: /web-api/overview/older-versions/creating-a-web-api-that-supports-crud-operations
@@ -211,3 +211,4 @@ To delete a resource, define a "Delete..." method.
 [!code-csharp[Main](creating-a-web-api-that-supports-crud-operations/samples/sample12.cs)]
 
 If a DELETE request succeeds, it can return status 200 (OK) with an entity-body that describes the status; status 202 (Accepted) if the deletion is still pending; or status 204 (No Content) with no entity body. In this case, the `DeleteProduct` method has a `void` return type, so ASP.NET Web API automatically translates this into status code 204 (No Content).
+

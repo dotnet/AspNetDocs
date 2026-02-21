@@ -3,7 +3,7 @@ uid: web-forms/overview/data-access/caching-data/caching-data-in-the-architectur
 title: "Caching Data in the Architecture (VB) | Microsoft Docs"
 author: rick-anderson
 description: "In the previous tutorial we learned how to apply caching at the Presentation Layer. In this tutorial we learn how to take advantage of our layered architectu... (VB)"
-ms.author: riande
+ms.author: tdykstra
 ms.date: 05/30/2007
 ms.assetid: 5e189dd7-f4f9-4f28-9b3a-6cb7d392e9c7
 msc.legacyurl: /web-forms/overview/data-access/caching-data/caching-data-in-the-architecture-vb
@@ -172,3 +172,4 @@ This tutorial series was reviewed by many helpful reviewers. Lead reviewer for t
 > [!div class="step-by-step"]
 > [Previous](caching-data-with-the-objectdatasource-vb.md)
 > [Next](caching-data-at-application-startup-vb.md)
+

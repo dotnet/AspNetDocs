@@ -3,7 +3,7 @@ uid: web-forms/overview/older-versions-getting-started/deploying-web-site-projec
 title: "Deploying a Database (C#) | Microsoft Docs"
 author: rick-anderson
 description: "Deploying an ASP.NET web application entails getting the necessary files and resources from the development environment to the production environment. For da... (C#)"
-ms.author: riande
+ms.author: wpickett
 ms.date: 04/23/2009
 ms.assetid: ff537a10-9f1f-43fe-9bcb-3dda161ba8f5
 msc.legacyurl: /web-forms/overview/older-versions-getting-started/deploying-web-site-projects/deploying-a-database-cs
@@ -161,3 +161,4 @@ For more information on the topics discussed in this tutorial, refer to the foll
 
 > [!div class="step-by-step"]
 > [Previous](core-differences-between-iis-and-the-asp-net-development-server-cs.md)
+

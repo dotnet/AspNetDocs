@@ -3,7 +3,7 @@ uid: ajax/cdn/jquery-mobile/index
 title: "jQuery Mobile | Microsoft Docs"
 description: References a list of the jQuery Mobile articles, which provide information about the files that are included in their respective libraries.
 author: rick-anderson
-ms.author: riande
+ms.author: tdykstra
 ms.date: 07/23/2014
 ms.assetid: c13785b6-5538-4511-92de-4afdb4a1d0f1
 msc.legacyurl: /ajax/cdn/jquery-mobile
@@ -28,3 +28,4 @@ msc.type: folder
 - [jQuery Mobile 1.0 RC1 on the Microsoft Ajax CDN](cdnjquerymobile10rc1.md)
 - [jQuery Mobile 1.0 Beta 3 on the Microsoft Ajax CDN](cdnjquerymobile10b3.md)
 - [jQuery Mobile 1.4.5 on the Microsoft Ajax CDN](cdnjquerymobile145.md)
+

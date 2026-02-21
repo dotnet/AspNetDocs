@@ -3,7 +3,7 @@ uid: web-forms/overview/moving-to-aspnet-20/index
 title: "Older Versions - ASP.NET 2.0 | Microsoft Docs"
 author: rick-anderson
 description: "How to migrate ASP.NET 1.x applications to ASP.NET 2.0."
-ms.author: riande
+ms.author: wpickett
 ms.date: 10/05/2011
 ms.assetid: d4287e40-272a-412f-b0e9-59a5d97421bd
 msc.legacyurl: /web-forms/overview/moving-to-aspnet-20
@@ -23,3 +23,4 @@ msc.type: chapter
 - [Membership](membership.md)
 - [Configuration and Instrumentation](configuration-and-instrumentation.md)
 - [Profiles, Themes, and Web Parts](profiles-themes-and-web-parts.md)
+

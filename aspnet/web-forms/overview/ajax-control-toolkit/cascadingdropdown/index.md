@@ -3,7 +3,7 @@ uid: web-forms/overview/ajax-control-toolkit/cascadingdropdown/index
 title: "CascadingDropdown | Microsoft Docs"
 author: rick-anderson
 description: "This tutorial shows how to use the CascadingDropDown control to create related drop-down lists that update when users make a selection."
-ms.author: riande
+ms.author: tdykstra
 ms.date: 11/14/2011
 ms.assetid: 5cc304e2-0013-4c26-8fe6-e897a533809f
 msc.legacyurl: /web-forms/overview/ajax-control-toolkit/cascadingdropdown
@@ -21,3 +21,4 @@ msc.type: chapter
 - [Using CascadingDropDown with a Database (VB)](using-cascadingdropdown-with-a-database-vb.md)
 - [Presetting List Entries with CascadingDropDown (VB)](presetting-list-entries-with-cascadingdropdown-vb.md)
 - [Using Auto-Postback with CascadingDropDown (VB)](using-auto-postback-with-cascadingdropdown-vb.md)
+

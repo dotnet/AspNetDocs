@@ -3,7 +3,7 @@ uid: web-forms/videos/building-20-applications/lesson-5-debugging-and-tracing-yo
 title: "[Lesson 5:] Debugging and Tracing Your Website | Microsoft Docs"
 author: rick-anderson
 description: "In this lesson, you will learn how to debug and monitor your ASP.NET 2.0 Web applications."
-ms.author: riande
+ms.author: wpickett
 ms.date: 11/29/2005
 ms.assetid: 923573b7-91aa-43d5-85d8-ea27a972d913
 msc.legacyurl: /web-forms/videos/building-20-applications/lesson-5-debugging-and-tracing-your-website
@@ -20,3 +20,4 @@ In this lesson, you will learn how to debug and monitor your ASP.NET 2.0 Web app
 > [!div class="step-by-step"]
 > [Previous](lesson-4-understanding-web-application-state.md)
 > [Next](lesson-6-working-with-stylesheets-and-master-pages.md)
+

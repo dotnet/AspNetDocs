@@ -3,7 +3,7 @@ uid: web-forms/overview/data-access/working-with-batched-data/index
 title: "Working with Batched Data | Microsoft Docs"
 author: rick-anderson
 description: "These tutorials look at updating, deleting, and inserting batches of data using transactions."
-ms.author: riande
+ms.author: wpickett
 ms.date: 10/05/2011
 ms.assetid: 95a1d7d3-7fc2-44ac-b27b-912e0e045ee5
 msc.legacyurl: /web-forms/overview/data-access/working-with-batched-data
@@ -21,3 +21,4 @@ msc.type: chapter
 - [Batch Updating (VB)](batch-updating-vb.md)
 - [Batch Deleting (VB)](batch-deleting-vb.md)
 - [Batch Inserting (VB)](batch-inserting-vb.md)
+

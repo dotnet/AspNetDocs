@@ -3,7 +3,7 @@ uid: web-pages/content-guide
 title: "WebMatrix Content Guide | Microsoft Docs"
 description: This topic provides a list of links to articles, videos, and resources that discuss development scenarios for WebMatrix content.
 author: rick-anderson
-ms.author: riande
+ms.author: wpickett
 ms.date: 01/13/2011
 ms.assetid: b558e481-775a-4aa0-bd3b-ad61e530c2d2
 msc.legacyurl: /web-pages/content-guide
@@ -70,3 +70,4 @@ WebMatrix is a set of tools that provides an easy way to build Web sites for Mic
 - [Optimize for search](https://mediadl.microsoft.com/mediadl/www/s/silverlight/video/web/webmatrix/webx-seo.mp4)
 - [Site publishing](https://mediadl.microsoft.com/mediadl/www/s/silverlight/video/web/webmatrix/webx-publish.mp4)
 - [Customize and deploy your CMS](https://mediadl.microsoft.com/mediadl/www/s/silverlight/video/web/webmatrix/walkthrough2b.mp4)
+

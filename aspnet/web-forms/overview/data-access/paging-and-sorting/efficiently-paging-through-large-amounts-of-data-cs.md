@@ -3,7 +3,7 @@ uid: web-forms/overview/data-access/paging-and-sorting/efficiently-paging-throug
 title: "Efficiently Paging Through Large Amounts of Data (C#) | Microsoft Docs"
 author: rick-anderson
 description: "The default paging option of a data presentation control is unsuitable when working with large amounts of data, as its underlying data source control retriev... (C#)"
-ms.author: riande
+ms.author: wpickett
 ms.date: 08/15/2006
 ms.assetid: 59c01998-9326-4ecb-9392-cb9615962140
 msc.legacyurl: /web-forms/overview/data-access/paging-and-sorting/efficiently-paging-through-large-amounts-of-data-cs
@@ -318,3 +318,4 @@ Scott Mitchell, author of seven ASP/ASP.NET books and founder of 4GuysFromRolla.
 > [!div class="step-by-step"]
 > [Previous](paging-and-sorting-report-data-cs.md)
 > [Next](sorting-custom-paged-data-cs.md)
+

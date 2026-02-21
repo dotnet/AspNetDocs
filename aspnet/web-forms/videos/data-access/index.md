@@ -3,7 +3,7 @@ uid: web-forms/videos/data-access/index
 title: "Data Access | Microsoft Docs"
 author: rick-anderson
 description: "How to create a Data Access Layer (DAL)."
-ms.author: riande
+ms.author: wpickett
 ms.date: 11/14/2011
 ms.assetid: a923735c-2d34-456c-8327-40aa62a4c1d6
 msc.legacyurl: /web-forms/videos/data-access
@@ -38,3 +38,4 @@ msc.type: chapter
     - [Enable XML IntelliSense and Use XML Namespaces](linq-videos-from-the-vb-team/how-do-i-enable-xml-intellisense-and-use-xml-namespaces.md)
     - [Create XML Documents from SQL Data](linq-videos-from-the-vb-team/how-do-i-create-xml-documents-from-sql-data.md)
     - [Create Excel Spreadsheets using LINQ to XML](linq-videos-from-the-vb-team/how-do-i-create-excel-spreadsheets-using-linq-to-xml.md)
+

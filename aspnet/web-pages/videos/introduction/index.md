@@ -3,7 +3,7 @@ uid: web-pages/videos/introduction/index
 title: "Introduction to Web Pages Videos | Microsoft Docs"
 author: rick-anderson
 description: "Which videos you can view to learn the basics about Web Pages and WebMatrix."
-ms.author: riande
+ms.author: wpickett
 ms.date: 05/18/2012
 ms.assetid: b8a43660-177f-4a00-bb51-be887364c607
 msc.legacyurl: /web-pages/videos/introduction
@@ -26,3 +26,4 @@ msc.type: chapter
 - [Create an Edit Data Page in WebMatrix](create-an-edit-data-page-in-webmatrix.md)
 - [Create a Delete Data Page in WebMatrix](create-a-delete-data-page-in-webmatrix.md)
 - [Publish a Website to the Internet Using WebMatrix](publish-a-website-to-the-internet-using-webmatrix.md)
+

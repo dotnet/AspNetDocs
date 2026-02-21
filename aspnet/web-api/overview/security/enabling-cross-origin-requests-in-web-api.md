@@ -3,7 +3,7 @@ uid: web-api/overview/security/enabling-cross-origin-requests-in-web-api
 title: "Enabling Cross-Origin Requests in ASP.NET Web API 2 | Microsoft Docs"
 author: Rick-Anderson
 description: "Shows how to support Cross-Origin Resource Sharing (CORS) in ASP.NET Web API."
-ms.author: riande
+ms.author: tdykstra
 ms.date: 01/29/2019
 ms.assetid: 9b265a5a-6a70-4a82-adce-2d7c56ae8bdd
 msc.legacyurl: /web-api/overview/security/enabling-cross-origin-requests-in-web-api
@@ -298,3 +298,4 @@ To set the **ICorsPolicyProviderFactory**, call the **SetCorsPolicyProviderFacto
 ## Browser support
 
 The Web API CORS package is a server-side technology. The user's browser also needs to support CORS. Fortunately, the current versions of all major browsers include [support for CORS](http://caniuse.com/cors).
+

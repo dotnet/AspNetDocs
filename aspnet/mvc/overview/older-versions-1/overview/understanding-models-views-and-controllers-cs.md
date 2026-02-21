@@ -3,7 +3,7 @@ uid: mvc/overview/older-versions-1/overview/understanding-models-views-and-contr
 title: "Understanding Models, Views, and Controllers (C#) | Microsoft Docs"
 author: StephenWalther
 description: "Confused about Models, Views, and Controllers? In this tutorial, Stephen Walther introduces you to the different parts of an ASP.NET MVC application. (C#)"
-ms.author: riande
+ms.author: tdykstra
 ms.date: 08/19/2008
 ms.assetid: 87313792-0a96-4caf-89fc-1457d54e5c1e
 msc.legacyurl: /mvc/overview/older-versions-1/overview/understanding-models-views-and-controllers-cs
@@ -168,3 +168,4 @@ In general, you should strive for fat models and skinny controllers. Your contro
 ## Summary
 
 This tutorial provided you with a high level overview of the different parts of an ASP.NET MVC web application. You learned how ASP.NET Routing maps incoming browser requests to particular controller actions. You learned how controllers orchestrate how views are returned to the browser. Finally, you learned how models contain application business, validation, and database access logic.
+

@@ -3,7 +3,7 @@ uid: web-forms/videos/aspnet-35/visual-studio-editor/multi-targeting-support-in-
 title: "Multi Targeting Support in Visual Studio 2008 | Microsoft Docs"
 author: JoeStagner
 description: "I will illustrate the MultiTarget feature of Visual Studio 2008. In the past, you had to choose the version of Visual Studio to match the targeted .NET versi..."
-ms.author: riande
+ms.author: wpickett
 ms.date: 11/15/2007
 ms.assetid: 297bd67d-10d9-406d-9c6e-9db0bbe35491
 msc.legacyurl: /web-forms/videos/aspnet-35/visual-studio-editor/multi-targeting-support-in-visual-studio-2008
@@ -20,3 +20,4 @@ I will illustrate the MultiTarget feature of Visual Studio 2008. In the past, yo
 > [!div class="step-by-step"]
 > [Previous](javascript-debugging-in-visual-studio-2008.md)
 > [Next](intellisense-for-jscript-and-aspnet-ajax.md)
+

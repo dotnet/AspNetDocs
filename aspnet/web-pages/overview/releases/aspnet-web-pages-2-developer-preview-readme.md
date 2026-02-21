@@ -3,7 +3,7 @@ uid: web-pages/overview/releases/aspnet-web-pages-2-developer-preview-readme
 title: "ASP.NET Web Pages 2 Developer Preview ReadMe | Microsoft Docs"
 description: This ReadMe provides installation notes and descriptions of fixes, known issues, and changes for the developer preview release of ASP.Net Web Pages 2.
 author: rick-anderson
-ms.author: riande
+ms.author: wpickett
 ms.date: 09/14/2011
 ms.assetid: 159a92e2-e011-4da7-b61d-2edde2a967da
 msc.legacyurl: /web-pages/overview/releases/aspnet-web-pages-2-developer-preview-readme
@@ -66,3 +66,4 @@ ASP.NET Web Pages 2 requires the .NET Framework 4. It also works with the .NET F
 #### <a id="_Toc303701289"></a>  Disclaimer
 
 © 2011 Microsoft Corporation. All rights reserved. This document is provided "as-is." Information and views expressed in this document, including URL and other Internet Web site references, may change without notice. You bear the risk of using it.
+

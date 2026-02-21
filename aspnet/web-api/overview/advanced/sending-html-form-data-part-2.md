@@ -3,7 +3,7 @@ uid: web-api/overview/advanced/sending-html-form-data-part-2
 title: "Sending HTML Form Data in ASP.NET Web API: File Upload and Multipart MIME - ASP.NET 4.x"
 author: Rick-Anderson
 description: This tutorial shows how to upload files to a web API. It also describes how to process multipart MIME data.
-ms.author: riande
+ms.author: tdykstra
 ms.date: 06/21/2012
 ms.assetid: a7f3c1b5-69d9-4261-b082-19ffafa5f16a
 msc.legacyurl: /web-api/overview/advanced/sending-html-form-data-part-2
@@ -91,3 +91,4 @@ In that case, the **FormData** collection would contain the following key/value 
 - options: nonstop
 - options: dates
 - seat: window
+

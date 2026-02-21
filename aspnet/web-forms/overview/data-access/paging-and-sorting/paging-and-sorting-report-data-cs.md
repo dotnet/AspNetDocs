@@ -3,7 +3,7 @@ uid: web-forms/overview/data-access/paging-and-sorting/paging-and-sorting-report
 title: "Paging and Sorting Report Data (C#) | Microsoft Docs"
 author: rick-anderson
 description: "Paging and sorting are two very common features when displaying data in an online application. In this tutorial we'll take a first look at adding sorting and... (C#)"
-ms.author: riande
+ms.author: wpickett
 ms.date: 08/15/2006
 ms.assetid: 811a6ef2-ec66-4c8e-a089-6f795056e288
 msc.legacyurl: /web-forms/overview/data-access/paging-and-sorting/paging-and-sorting-report-data-cs
@@ -258,3 +258,4 @@ Scott Mitchell, author of seven ASP/ASP.NET books and founder of 4GuysFromRolla.
 
 > [!div class="step-by-step"]
 > [Next](efficiently-paging-through-large-amounts-of-data-cs.md)
+

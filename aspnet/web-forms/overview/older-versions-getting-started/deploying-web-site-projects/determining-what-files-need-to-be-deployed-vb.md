@@ -3,7 +3,7 @@ uid: web-forms/overview/older-versions-getting-started/deploying-web-site-projec
 title: "Determining What Files Need to Be Deployed (VB) | Microsoft Docs"
 author: rick-anderson
 description: "What files need to be deployed from the development environment to the production environment depends in part on whether the ASP.NET application was built us... (VB)"
-ms.author: riande
+ms.author: wpickett
 ms.date: 04/01/2009
 ms.assetid: ea918f62-c9d6-4a7f-9bc6-e054d3764b2c
 msc.legacyurl: /web-forms/overview/older-versions-getting-started/deploying-web-site-projects/determining-what-files-need-to-be-deployed-vb
@@ -171,3 +171,4 @@ For more information on the topics discussed in this tutorial, refer to the foll
 > [!div class="step-by-step"]
 > [Previous](asp-net-hosting-options-vb.md)
 > [Next](deploying-your-site-using-an-ftp-client-vb.md)
+

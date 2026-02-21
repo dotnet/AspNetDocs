@@ -3,7 +3,7 @@ uid: mvc/overview/getting-started/index
 title: "ASP.NET MVC Getting Started | Microsoft Docs"
 author: rick-anderson
 description: "Learn About ASP.NET MVC ASP.NET MVC gives you a powerful, patterns-based way to build dynamic websites that enables a clean separation of concerns and that g..."
-ms.author: riande
+ms.author: tdykstra
 ms.date: 08/31/2011
 ms.assetid: d916dbe0-1895-491b-8bb6-93f4594ce757
 msc.legacyurl: /mvc/overview/getting-started
@@ -51,3 +51,4 @@ msc.type: chapter
 - [Lifecycle of an ASP.NET MVC 5 Application](lifecycle-of-an-aspnet-mvc-5-application.md)
 - [MVC Recommended Resources](recommended-resources-for-mvc.md)
 - [MVC recommended tutorials and articles](mvc-learning-sequence.md)
+

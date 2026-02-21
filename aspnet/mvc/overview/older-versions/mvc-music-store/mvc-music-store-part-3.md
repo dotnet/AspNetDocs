@@ -3,7 +3,7 @@ uid: mvc/overview/older-versions/mvc-music-store/mvc-music-store-part-3
 title: "Part 3: Views and ViewModels | Microsoft Docs"
 author: jongalloway
 description: "This tutorial series details all of the steps taken to build the ASP.NET MVC Music Store sample application. Part 3 covers Views and ViewModels."
-ms.author: riande
+ms.author: tdykstra
 ms.date: 04/21/2011
 ms.assetid: 94297aa0-1f2d-4d72-bbcb-63f64653e0c0
 msc.legacyurl: /mvc/overview/older-versions/mvc-music-store/mvc-music-store-part-3
@@ -255,3 +255,4 @@ The HTML for the genre list looks like this:
 > [!div class="step-by-step"]
 > [Previous](mvc-music-store-part-2.md)
 > [Next](mvc-music-store-part-4.md)
+

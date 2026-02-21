@@ -3,7 +3,7 @@ uid: identity/overview/getting-started/index
 title: "Getting Started with ASP.NET Identity - ASP.NET 4.x"
 author: rick-anderson
 description: "The ASP.NET Identity system is designed to replace the previous ASP.NET Membership and Simple Membership systems. It includes profile support, OAuth integrat..."
-ms.author: riande
+ms.author: tdykstra
 ms.date: 10/02/2013
 ms.assetid: 72bb0051-a696-437e-a4e6-ca1225a6e271
 msc.legacyurl: /identity/overview/getting-started
@@ -20,3 +20,4 @@ The ASP.NET Identity system is designed to replace the previous ASP.NET Membersh
 - [Adding ASP.NET Identity to an Empty or Existing Web Forms Project](adding-aspnet-identity-to-an-empty-or-existing-web-forms-project.md)
 - [Developing ASP.NET Apps with Azure Active Directory](developing-aspnet-apps-with-windows-azure-active-directory.md)
 - [ASP.NET Identity: Using MySQL Storage with an EntityFramework MySQL Provider (C#)](aspnet-identity-using-mysql-storage-with-an-entityframework-mysql-provider.md)
+

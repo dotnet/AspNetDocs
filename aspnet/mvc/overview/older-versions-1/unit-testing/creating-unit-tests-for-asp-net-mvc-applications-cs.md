@@ -3,7 +3,7 @@ uid: mvc/overview/older-versions-1/unit-testing/creating-unit-tests-for-asp-net-
 title: "Creating Unit Tests for ASP.NET MVC Applications (C#) | Microsoft Docs"
 author: StephenWalther
 description: "Learn how to create unit tests for controller actions. In this tutorial, Stephen Walther demonstrates how to test whether a controller action returns a parti... (C#)"
-ms.author: riande
+ms.author: tdykstra
 ms.date: 08/19/2008
 ms.assetid: d3a270b9-d7b1-47f2-8775-fc3beb518b5c
 msc.legacyurl: /mvc/overview/older-versions-1/unit-testing/creating-unit-tests-for-asp-net-mvc-applications-cs
@@ -105,3 +105,4 @@ Finally, we discussed how you can test whether different types of action results
 
 > [!div class="step-by-step"]
 > [Next](creating-unit-tests-for-asp-net-mvc-applications-vb.md)
+

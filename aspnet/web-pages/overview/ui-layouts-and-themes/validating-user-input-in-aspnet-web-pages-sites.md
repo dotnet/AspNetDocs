@@ -3,7 +3,7 @@ uid: web-pages/overview/ui-layouts-and-themes/validating-user-input-in-aspnet-we
 title: "Validating User Input in ASP.NET Web Pages (Razor) Sites | Microsoft Docs"
 author: Rick-Anderson
 description: "This article discusses how to validate information you get from users &mdash; that is, to make sure that users enter valid information in HTML forms in an AS..."
-ms.author: riande
+ms.author: wpickett
 ms.date: 02/20/2014
 ms.assetid: 4eb060cc-cf14-41ae-bab1-14a2c15332d0
 msc.legacyurl: /web-pages/overview/ui-layouts-and-themes/validating-user-input-in-aspnet-web-pages-sites
@@ -185,3 +185,4 @@ To display this error, you can add the error to the list of validation errors by
 ## Additional Resources
 
 [Working with HTML Forms in ASP.NET Web Pages Sites](https://go.microsoft.com/fwlink/?LinkID=202892)
+

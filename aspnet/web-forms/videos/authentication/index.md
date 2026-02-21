@@ -3,7 +3,7 @@ uid: web-forms/videos/authentication/index
 title: "Authentication | Microsoft Docs"
 author: rick-anderson
 description: "How to implement and manage security (authentication) in an ASP.NET application."
-ms.author: riande
+ms.author: wpickett
 ms.date: 02/27/2024
 ms.assetid: 4a365e58-9b18-4bd2-bfd5-6981e7f2e179
 msc.legacyurl: /web-forms/videos/authentication
@@ -25,3 +25,4 @@ msc.type: chapter
 - [Simple Web Service Authentication](simple-web-service-authentication.md)
 - [Creating Inactive Users](creating-inactive-users.md)
 - [SQL Injection Defense](sql-injection-defense.md)
+

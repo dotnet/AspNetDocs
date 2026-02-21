@@ -3,7 +3,7 @@ uid: web-forms/videos/sql-2005/more-structured-query-language
 title: "More Structured Query Language | Microsoft Docs"
 author: rick-anderson
 description: "SQL Server beginners will discover more SQL statements like sub-select and learn stored procedures and their counterparts in C# and VB methods."
-ms.author: riande
+ms.author: wpickett
 ms.date: 03/29/2006
 ms.assetid: f86aee1e-958a-4604-a593-dc40a1149239
 msc.legacyurl: /web-forms/videos/sql-2005/more-structured-query-language
@@ -20,3 +20,4 @@ SQL Server beginners will discover more SQL statements like sub-select and learn
 > [!div class="step-by-step"]
 > [Previous](manipulating-database-data.md)
 > [Next](understanding-security-and-network-connectivity.md)
+

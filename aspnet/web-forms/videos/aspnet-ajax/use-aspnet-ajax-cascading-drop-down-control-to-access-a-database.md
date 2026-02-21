@@ -3,7 +3,7 @@ uid: web-forms/videos/aspnet-ajax/use-aspnet-ajax-cascading-drop-down-control-to
 title: "Use ASP.NET AJAX Cascading Drop Down Control to Access a Database | Microsoft Docs"
 author: JoeStagner
 description: "This video demonstrates how ASP.NET's standard DropDownList can become AJAX-enabled using the CascadingDropDown control extender from the ASP.NET AJAX Contro..."
-ms.author: riande
+ms.author: wpickett
 ms.date: 03/13/2008
 ms.assetid: 3c21fefc-6858-40e1-8307-22f68cbd0e31
 msc.legacyurl: /web-forms/videos/aspnet-ajax/use-aspnet-ajax-cascading-drop-down-control-to-access-a-database
@@ -20,3 +20,4 @@ This video demonstrates how ASP.NET's standard DropDownList can become AJAX-enab
 > [!div class="step-by-step"]
 > [Previous](two-simple-techniques-for-triggering-updates-to-update-panels.md)
 > [Next](implement-infinite-data-patterns-in-ajax.md)
+

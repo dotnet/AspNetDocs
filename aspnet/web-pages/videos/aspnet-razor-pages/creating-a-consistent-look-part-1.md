@@ -3,7 +3,7 @@ uid: web-pages/videos/aspnet-razor-pages/creating-a-consistent-look-part-1
 title: "Creating a Consistent Look (Part 1) | Microsoft Docs"
 author: JoeStagner
 description: "Video accompaniment to the Creating a Consistent Look tutorial (part 1)"
-ms.author: riande
+ms.author: wpickett
 ms.date: 02/25/2011
 ms.assetid: 1057d00f-187f-4187-a674-194b6262c3a3
 msc.legacyurl: /web-pages/videos/aspnet-razor-pages/creating-a-consistent-look-part-1
@@ -20,3 +20,4 @@ Video accompaniment to the Creating a Consistent Look tutorial (part 1)
 > [!div class="step-by-step"]
 > [Previous](introduction-to-aspnet-web-programming-using-the-razor-syntax.md)
 > [Next](creating-a-consistent-look-part-2.md)
+

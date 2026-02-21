@@ -3,12 +3,13 @@ uid: mvc/overview/getting-started/getting-started-with-ef-using-mvc/migrations-a
 title: "Tutorial: Use EF Migrations in an ASP.NET MVC app and deploy to Azure"
 author: tdykstra
 description: "In this tutorial, you enable Code First migrations and deploy the application to the cloud in Azure."
-ms.author: riande
+ms.author: tdykstra
 ms.date: 01/16/2019
 ms.topic: tutorial
 ms.assetid: d4dfc435-bda6-4621-9762-9ba270f8de4e
 msc.legacyurl: /mvc/overview/getting-started/getting-started-with-ef-using-mvc/migrations-and-deployment-with-the-entity-framework-in-an-asp-net-mvc-application
 msc.type: authoredcontent
+ms.custom: sfi-ropc-nochange
 ---
 
 # Tutorial: Use EF Migrations in an ASP.NET MVC app and deploy to Azure
@@ -133,7 +134,7 @@ Your Migrations `Seed` method inserts test data. If you were deploying to a prod
 ### Get an Azure account
 
 You'll need an Azure account. If you don't already have one, but you do have a Visual Studio subscription, you can [activate your subscription benefits](https://azure.microsoft.com/pricing/member-offers/credit-for-visual-studio-subscribers/
-). Otherwise, you can create a free trial account in just a couple of minutes. For details, see [Azure Free Trial](https://azure.microsoft.com/free/dotnet/).
+). Otherwise, you can create a free trial account in just a couple of minutes. For details, see [Azure Free Trial](https://azure.microsoft.com/pricing/purchase-options/azure-account?cid=msft_learn).
 
 ### Create a web site and a SQL database in Azure
 
@@ -249,3 +250,4 @@ In this tutorial, you:
 Advance to the next article to learn how to create a more complex data model for an ASP.NET MVC Application.
 > [!div class="nextstepaction"]
 > [Create a more complex data model](creating-a-more-complex-data-model-for-an-asp-net-mvc-application.md)
+

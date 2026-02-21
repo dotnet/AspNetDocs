@@ -3,7 +3,7 @@ uid: mvc/overview/getting-started/getting-started-with-ef-using-mvc/sorting-filt
 title: "Tutorial: Add sorting, filtering, and paging with the Entity Framework in an ASP.NET MVC application | Microsoft Docs"
 author: tdykstra
 description: "In this tutorial you add sorting, filtering, and paging functionality to the **Students** Index page. You also create a simple grouping page."
-ms.author: riande
+ms.author: tdykstra
 ms.date: 01/14/2019
 ms.assetid: d5723e46-41fe-4d09-850a-e03b9e285bfa
 msc.legacyurl: /mvc/overview/getting-started/getting-started-with-ef-using-mvc/sorting-filtering-and-paging-with-the-entity-framework-in-an-asp-net-mvc-application
@@ -263,3 +263,4 @@ In this tutorial, you:
 Advance to the next article to learn how to use connection resiliency and command interception.
 > [!div class="nextstepaction"]
 > [Connection resiliency and command interception](connection-resiliency-and-command-interception-with-the-entity-framework-in-an-asp-net-mvc-application.md)
+

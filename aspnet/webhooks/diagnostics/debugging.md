@@ -3,7 +3,7 @@ uid: webhooks/diagnostics/debugging
 title: "ASP.NET WebHooks debugging | Microsoft Docs"
 author: rick-anderson
 description: "How to debug ASP.NET WebHooks."
-ms.author: riande
+ms.author: wpickett
 ms.date: 01/17/2012
 ms.assetid: 467da78b-3c35-4c51-8b08-77a32379e4a8
 ---
@@ -34,3 +34,4 @@ C:\SymCache
 The settings should look similar to this:
 
 ![Options Symbol File Location Example](_static/SymSource.png)
+

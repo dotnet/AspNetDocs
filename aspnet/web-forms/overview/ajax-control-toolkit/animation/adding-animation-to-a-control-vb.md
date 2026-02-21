@@ -3,7 +3,7 @@ uid: web-forms/overview/ajax-control-toolkit/animation/adding-animation-to-a-con
 title: "Adding Animation to a Control (VB) | Microsoft Docs"
 author: wenz
 description: "The Animation control in the ASP.NET AJAX Control Toolkit is not just a control but a whole framework to add animations to a control. This tutorial shows how... (VB)"
-ms.author: riande
+ms.author: tdykstra
 ms.date: 06/02/2008
 ms.assetid: c120187e-963e-4439-bb85-32771bc7f1f4
 msc.legacyurl: /web-forms/overview/ajax-control-toolkit/animation/adding-animation-to-a-control-vb
@@ -71,3 +71,4 @@ The panel is fading out ([Click to view full-size image](adding-animation-to-a-c
 > [!div class="step-by-step"]
 > [Previous](dynamically-controlling-updatepanel-animations-cs.md)
 > [Next](executing-several-animations-at-the-same-time-vb.md)
+

@@ -3,7 +3,7 @@ uid: web-pages/overview/ui-layouts-and-themes/3-creating-a-consistent-look
 title: "Creating a Consistent Layout in ASP.NET Web Pages (Razor) Sites | Microsoft Docs"
 author: Rick-Anderson
 description: "To make it more efficient to create web pages for your site, you can create reusable blocks of content (like headers and footers) for your website, and you c..."
-ms.author: riande
+ms.author: wpickett
 ms.date: 03/10/2014
 ms.assetid: d7bd001b-6db2-4422-9b78-f3d08b743b00
 msc.legacyurl: /web-pages/overview/ui-layouts-and-themes/3-creating-a-consistent-look
@@ -213,3 +213,4 @@ The following procedure shows how to pass data from a content page to a layout p
 ## Additional Resources
 
 [Customizing Site-Wide Behavior for ASP.NET Web Pages](https://go.microsoft.com/fwlink/?LinkId=202906)
+

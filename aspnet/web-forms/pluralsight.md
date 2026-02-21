@@ -3,7 +3,7 @@ uid: web-forms/pluralsight
 title: "Web Forms Video Training from Pluralsight | Microsoft Docs"
 author: rick-anderson
 description: "Web Forms Video Training from Pluralsight This ASP.NET Web Forms development course introduces you to several key technologies you need to know as a .NET dev..."
-ms.author: riande
+ms.author: tdykstra
 ms.date: 12/16/2011
 ms.assetid: c71bb9b2-7136-4ce6-a40a-cc4d9978cfb7
 msc.legacyurl: /web-forms/pluralsight
@@ -32,3 +32,4 @@ Scott Hanselman, Principal Program Manager, Web Platform and Azure Tools, Micros
 Unlock access to 3,000+ dev, IT and creative courses that you can watch anytime, anywhere.
 
 **Starting at $ 29/mo.**[Start Free Trial](https://pluralsight.com/microsoft/olt/subscribe/SubscriptionRedirector.aspx?freetrial=true&amp;utm_source=microsoft&amp;utm_medium=sponsored-page&amp;utm_content=webmatrix&amp;utm_campaign=microsoft-sponsored-course)[Subscribe Now](https://pluralsight.com/microsoft/OLT/subscriptions.aspx?utm_source=microsoft&amp;utm_medium=sponsored-page&amp;utm_content=webmatrix&amp;utm_campaign=microsoft-sponsored-course)
+

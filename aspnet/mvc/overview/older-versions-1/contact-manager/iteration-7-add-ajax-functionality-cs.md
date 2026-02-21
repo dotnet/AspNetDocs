@@ -3,7 +3,7 @@ uid: mvc/overview/older-versions-1/contact-manager/iteration-7-add-ajax-function
 title: "Iteration #7 – Add Ajax functionality (C#) | Microsoft Docs"
 author: rick-anderson
 description: "In the seventh iteration, we improve the responsiveness and performance of our application by adding support for Ajax. (C#)"
-ms.author: riande
+ms.author: tdykstra
 ms.date: 02/20/2009
 ms.assetid: f1b0809e-8909-444e-b6bb-a5cd1dea3f72
 msc.legacyurl: /mvc/overview/older-versions-1/contact-manager/iteration-7-add-ajax-functionality-cs
@@ -228,3 +228,4 @@ Finally, we created a delete link that supports HTTP DELETE operations. By perfo
 > [!div class="step-by-step"]
 > [Previous](iteration-6-use-test-driven-development-cs.md)
 > [Next](iteration-1-create-the-application-vb.md)
+

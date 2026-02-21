@@ -3,7 +3,7 @@ uid: mvc/overview/older-versions/working-with-the-dropdownlist-box-and-jquery/ex
 title: "Examining  how  ASP.NET MVC scaffolds the DropDownList Helper | Microsoft Docs"
 author: Rick-Anderson
 description: This second part of a tutorial series describes how ASP.NET MVC scaffolds the DropDownList Helper object.
-ms.author: riande
+ms.author: tdykstra
 ms.date: 01/12/2012
 ms.assetid: 8921d7f2-21f0-427a-8b27-2df7251174b0
 msc.legacyurl: /mvc/overview/older-versions/working-with-the-dropdownlist-box-and-jquery/examining-how-aspnet-mvc-scaffolds-the-dropdownlist-helper
@@ -200,3 +200,4 @@ In this section we have learned three approaches to using the **DropDownList** w
 > [!div class="step-by-step"]
 > [Previous](using-the-dropdownlist-helper-with-aspnet-mvc.md)
 > [Next](adding-a-new-category-to-the-dropdownlist-using-jquery-ui.md)
+

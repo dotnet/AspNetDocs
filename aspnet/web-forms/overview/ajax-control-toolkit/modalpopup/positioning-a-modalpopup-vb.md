@@ -3,7 +3,7 @@ uid: web-forms/overview/ajax-control-toolkit/modalpopup/positioning-a-modalpopup
 title: "Positioning a ModalPopup (VB) | Microsoft Docs"
 author: wenz
 description: "The ModalPopup control in the AJAX Control Toolkit offers a simple way to create a modal popup using client-side means. However the control does not offer a... (VB)"
-ms.author: riande
+ms.author: tdykstra
 ms.date: 06/02/2008
 ms.assetid: 8a07210c-eb0e-485e-9ee8-82a101520e65
 msc.legacyurl: /web-forms/overview/ajax-control-toolkit/modalpopup/positioning-a-modalpopup-vb
@@ -53,3 +53,4 @@ The modal popup appears at the designated position ([Click to view full-size ima
 
 > [!div class="step-by-step"]
 > [Previous](handling-postbacks-from-a-modalpopup-vb.md)
+

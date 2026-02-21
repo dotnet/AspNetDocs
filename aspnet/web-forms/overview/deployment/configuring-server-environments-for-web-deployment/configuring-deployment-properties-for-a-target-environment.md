@@ -3,7 +3,7 @@ uid: web-forms/overview/deployment/configuring-server-environments-for-web-deplo
 title: "Configuring Deployment Properties for a Target Environment | Microsoft Docs"
 author: jrjlee
 description: "This topic describes how to configure environment-specific properties in order to deploy the sample Contact Manager solution to a specific target environment..."
-ms.author: riande
+ms.author: wpickett
 ms.date: 05/04/2012
 ms.assetid: b5b86e03-b8ed-46e6-90fa-e1da88ef34e9
 msc.legacyurl: /web-forms/overview/deployment/configuring-server-environments-for-web-deployment/configuring-deployment-properties-for-a-target-environment
@@ -103,3 +103,4 @@ To use these project files as part of a single-step, repeatable deployment proce
 
 > [!div class="step-by-step"]
 > [Previous](creating-a-server-farm-with-the-web-farm-framework.md)
+

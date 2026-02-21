@@ -3,7 +3,7 @@ uid: web-forms/overview/ajax-control-toolkit/dropshadow/manipulating-dropshadow-
 title: "Manipulating DropShadow Properties from Client Code (VB) | Microsoft Docs"
 author: wenz
 description: "The DropShadow control in the AJAX Control Toolkit extends a panel with a drop shadow. Properties of this extender can also be changed using client JavaScrip..."
-ms.author: riande
+ms.author: tdykstra
 ms.date: 06/02/2008
 ms.assetid: 11be4211-2fb9-4e15-b6d4-2aa623d81f3e
 msc.legacyurl: /web-forms/overview/ajax-control-toolkit/dropshadow/manipulating-dropshadow-properties-from-client-code-vb
@@ -53,3 +53,4 @@ The opacity is changed on the client side ([Click to view full-size image](manip
 
 > [!div class="step-by-step"]
 > [Previous](adjusting-the-z-index-of-a-dropshadow-vb.md)
+

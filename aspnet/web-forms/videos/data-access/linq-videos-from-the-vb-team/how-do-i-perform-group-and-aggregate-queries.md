@@ -3,7 +3,7 @@ uid: web-forms/videos/data-access/linq-videos-from-the-vb-team/how-do-i-perform-
 title: "[How Do I:] Perform Group and Aggregate Queries? | Microsoft Docs"
 author: bethmassi
 description: "Visual Basic programmers will learn how to perform group and aggregate queries over business object collections and how to display them in related grids."
-ms.author: riande
+ms.author: wpickett
 ms.date: 11/15/2007
 ms.assetid: 8d07ae36-c4f3-48d7-87d3-cfe9a5bb336e
 msc.legacyurl: /web-forms/videos/data-access/linq-videos-from-the-vb-team/how-do-i-perform-group-and-aggregate-queries
@@ -20,3 +20,4 @@ Visual Basic programmers will learn how to perform group and aggregate queries o
 > [!div class="step-by-step"]
 > [Previous](how-do-i-get-started-with-linq.md)
 > [Next](how-do-i-upgrade-visual-basic-projects-to-enable-linq.md)
+

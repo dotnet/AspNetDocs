@@ -3,7 +3,7 @@ uid: web-forms/videos/aspnet-ajax/how-do-i-build-custom-server-controls-that-wor
 title: "[How Do I:] Build Custom Server Controls that Work With or Without ASP.NET AJAX? | Microsoft Docs"
 author: rick-anderson
 description: "Do you have an idea for a custom server control that should be able to work without ASP.NET AJAX, yet could take advantage of ASP.NET AJAX if it is available..."
-ms.author: riande
+ms.author: wpickett
 ms.date: 09/01/2007
 ms.assetid: db9e13d3-c8f5-4051-ad9d-dc5649b1c41f
 msc.legacyurl: /web-forms/videos/aspnet-ajax/how-do-i-build-custom-server-controls-that-work-with-or-without-aspnet-ajax
@@ -20,3 +20,4 @@ Do you have an idea for a custom server control that should be able to work with
 > [!div class="step-by-step"]
 > [Previous](how-do-i-create-an-aspnet-ajax-extender-from-scratch.md)
 > [Next](how-do-i-associate-ajax-client-behavior-with-an-aspnet-server-control.md)
+

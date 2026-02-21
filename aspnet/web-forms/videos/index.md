@@ -3,7 +3,7 @@ uid: web-forms/videos/index
 title: Video Tutorials for ASP.NET | Microsoft Docs
 author: rick-anderson
 description: Provides a list of step-by-step video tutorials for a variety of best practices and ASP.NET Framework issues.
-ms.author: riande
+ms.author: wpickett
 ms.date: 02/27/2024
 ms.assetid: f215d6b9-8a84-4bd8-8881-e9527d814950
 msc.legacyurl: /web-forms/videos
@@ -354,3 +354,4 @@ msc.type: book
     - [Bundling and Minification](aspnet-web-forms-vnext/aspnet-vnext-videos-bundling-and-minification.md)
     - [Getting Started with the Next Version of ASP.NET](aspnet-web-forms-vnext/getting-started-with-the-next-version-of-aspnet.md)
     - [ASP.NET and Web Tools 2012.2](aspnet-web-forms-vnext/aspnet-and-web-tools-20122.md)
+

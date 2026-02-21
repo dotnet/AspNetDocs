@@ -3,7 +3,7 @@ uid: web-api/overview/getting-started-with-aspnet-web-api/tutorial-your-first-we
 title: Get Started with ASP.NET Web API 2 (C#) - ASP.NET 4.x
 author: rick-anderson
 description: "Tutorial with code. Use ASP.NET Web API to create a web API that returns a list of products."
-ms.author: riande
+ms.author: tdykstra
 ms.date: 11/28/2017
 msc.legacyurl: /web-api/overview/getting-started-with-aspnet-web-api/tutorial-your-first-web-api
 msc.type: authoredcontent
@@ -182,3 +182,4 @@ You need an Azure account to deploy this solution to Azure. If you do not alread
 - For a more complete example of an HTTP service that supports POST, PUT, and DELETE actions and writes to a database, see [Using Web API 2 with Entity Framework 6](../data/using-web-api-with-entity-framework/part-1.md).
 - For more about creating fluid and responsive web applications on top of an HTTP service, see [ASP.NET Single Page Application](../../../single-page-application/index.md).
 - For information about how to deploy a Visual Studio web project to Azure App Service, see [Create an ASP.NET web app in Azure App Service](https://azure.microsoft.com/documentation/articles/web-sites-dotnet-get-started/).
+

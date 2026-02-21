@@ -3,7 +3,7 @@ uid: mvc/overview/older-versions/getting-started-with-aspnet-mvc3/cs/adding-a-vi
 title: "Adding a View (C#) | Microsoft Docs"
 author: Rick-Anderson
 description: "Learn how to change the Views and Layout pages and pass data from the Controller to the View using Microsoft Visual Web Developer 2010 Express Service Pack 1."
-ms.author: riande
+ms.author: tdykstra
 ms.date: 01/12/2011
 ms.assetid: abc7c78d-cb09-4a4c-a887-61bc401d40e3
 msc.legacyurl: /mvc/overview/older-versions/getting-started-with-aspnet-mvc3/cs/adding-a-view
@@ -134,3 +134,4 @@ Well, that was a kind of an "M" for model, but not the database kind. Let's take
 > [!div class="step-by-step"]
 > [Previous](adding-a-controller.md)
 > [Next](adding-a-model.md)
+

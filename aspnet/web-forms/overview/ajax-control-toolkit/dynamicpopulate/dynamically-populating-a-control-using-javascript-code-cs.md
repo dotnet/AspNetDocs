@@ -3,7 +3,7 @@ uid: web-forms/overview/ajax-control-toolkit/dynamicpopulate/dynamically-populat
 title: "Dynamically Populating a Control Using JavaScript Code (C#) | Microsoft Docs"
 author: wenz
 description: "The DynamicPopulate control in the ASP.NET AJAX Control Toolkit calls a web service (or page method). It fills the resulting value into a target control on t... (C#)"
-ms.author: riande
+ms.author: tdykstra
 ms.date: 06/02/2008
 ms.assetid: cc4c2def-e88c-4456-ae8b-a6ae0ff8cc2d
 msc.legacyurl: /web-forms/overview/ajax-control-toolkit/dynamicpopulate/dynamically-populating-a-control-using-javascript-code-cs
@@ -54,3 +54,4 @@ A click on the button retrieves the date from the server, in the format specifie
 > [!div class="step-by-step"]
 > [Previous](dynamically-populating-a-control-cs.md)
 > [Next](using-dynamicpopulate-with-a-user-control-and-javascript-cs.md)
+

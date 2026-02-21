@@ -3,7 +3,7 @@ uid: web-api/overview/web-api-routing-and-actions/routing-and-action-selection
 title: "Routing and Action Selection in ASP.NET Web API | Microsoft Docs"
 author: Rick-Anderson
 description: Routing and Action Selection in ASP.NET Web API
-ms.author: riande
+ms.author: tdykstra
 ms.date: 12/14/2018
 ms.assetid: bcf2d223-cb7f-411e-be05-f43e96a14015
 msc.legacyurl: /web-api/overview/web-api-routing-and-actions/routing-and-action-selection
@@ -226,3 +226,4 @@ Web API provides extension points for some parts of the routing process.
 To provide your own implementation for any of these interfaces, use the **Services** collection on the **HttpConfiguration** object:
 
 [!code-csharp[Main](routing-and-action-selection/samples/sample11.cs)]
+

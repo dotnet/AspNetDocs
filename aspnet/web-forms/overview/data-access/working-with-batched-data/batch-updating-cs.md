@@ -3,7 +3,7 @@ uid: web-forms/overview/data-access/working-with-batched-data/batch-updating-cs
 title: "Batch Updating (C#) | Microsoft Docs"
 author: rick-anderson
 description: "Learn how to update multiple database records in a single operation. In the User Interface Layer we build a GridView where each row is editable. In the Data... (C#)"
-ms.author: riande
+ms.author: wpickett
 ms.date: 06/26/2007
 ms.assetid: 4e849bcc-c557-4bc3-937e-f7453ee87265
 msc.legacyurl: /web-forms/overview/data-access/working-with-batched-data/batch-updating-cs
@@ -245,3 +245,4 @@ This tutorial series was reviewed by many helpful reviewers. Lead reviewers for 
 > [!div class="step-by-step"]
 > [Previous](wrapping-database-modifications-within-a-transaction-cs.md)
 > [Next](batch-deleting-cs.md)
+

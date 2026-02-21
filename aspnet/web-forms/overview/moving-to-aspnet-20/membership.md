@@ -3,7 +3,7 @@ uid: web-forms/overview/moving-to-aspnet-20/membership
 title: "Membership | Microsoft Docs"
 author: rick-anderson
 description: "ASP.NET Membership builds on the success of the Forms authentication model from ASP.NET 1.x. ASP.NET Forms authentication provides a convenient way to incorp..."
-ms.author: riande
+ms.author: wpickett
 ms.date: 02/20/2005
 ms.assetid: f2339485-5d78-4c5e-8c0a-dc9b8a315345
 msc.legacyurl: /web-forms/overview/moving-to-aspnet-20/membership
@@ -252,3 +252,4 @@ Here is an example of the Initialize method.
 In order to validate the user when they submit your login form, you will need to use the ValidateUser method. This method fires when the user clicks the login button in the Login control. You will place your code that does the user lookup in this method.
 
 As you can see, writing your own membership provider is not difficult and allows you to extend this powerful functionality of ASP.NET 2.0.
+

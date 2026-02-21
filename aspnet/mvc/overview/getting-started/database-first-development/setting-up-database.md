@@ -3,7 +3,7 @@ uid: mvc/overview/getting-started/database-first-development/setting-up-database
 title: "Tutorial: Get started with EF Database First using MVC 5"
 description: "This tutorial shows how to start with an existing database and quickly create a web application that enables users to interact with the data."
 author: Rick-Anderson
-ms.author: riande
+ms.author: tdykstra
 ms.date: 01/15/2019
 ms.topic: tutorial
 ms.assetid: 095abad4-3bfe-4f06-b092-ae6a735b7e49
@@ -96,3 +96,4 @@ In this tutorial, you:
 Advance to the next tutorial to learn how to create the web application and data models.
 > [!div class="nextstepaction"]
 > [Create the web application and data models](creating-the-web-application.md)
+

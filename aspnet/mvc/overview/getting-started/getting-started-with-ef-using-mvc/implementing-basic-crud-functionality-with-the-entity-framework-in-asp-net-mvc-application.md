@@ -3,7 +3,7 @@ uid: mvc/overview/getting-started/getting-started-with-ef-using-mvc/implementing
 title: "Tutorial: Implement CRUD Functionality with the Entity Framework in ASP.NET MVC | Microsoft Docs"
 description: "Review and customize the create, read, update, delete (CRUD) code that the MVC scaffolding automatically creates in controllers and views."
 author: tdykstra
-ms.author: riande
+ms.author: tdykstra
 ms.date: 01/22/2019
 ms.topic: tutorial
 ms.assetid: a2f70ba4-83d1-4002-9255-24732726c4f2
@@ -266,3 +266,4 @@ In this tutorial, you:
 Advance to the next article to learn how to add sorting, filtering, and paging to the project.
 > [!div class="nextstepaction"]
 > [Sorting, Filtering, and Paging](sorting-filtering-and-paging-with-the-entity-framework-in-an-asp-net-mvc-application.md)
+

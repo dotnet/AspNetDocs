@@ -3,7 +3,7 @@ uid: web-forms/overview/deployment/visual-studio-web-deployment/troubleshooting
 title: "ASP.NET Web Deployment using Visual Studio: Troubleshooting | Microsoft Docs"
 author: tdykstra
 description: "This tutorial series shows how to deploy, or publish, an ASP.NET web application to Azure App Service Web Apps or to a third-party hosting provider."
-ms.author: riande
+ms.author: wpickett
 ms.date: 06/01/2015
 ms.assetid: c0090595-ab3b-4b9b-9e16-7a1891e8cb2f
 msc.legacyurl: /web-forms/overview/deployment/visual-studio-web-deployment/troubleshooting
@@ -369,3 +369,4 @@ ASP.NET 4.5 might not be installed on your computer. See the steps in the Deploy
 
 > [!div class="step-by-step"]
 > [Previous](deploying-extra-files.md)
+

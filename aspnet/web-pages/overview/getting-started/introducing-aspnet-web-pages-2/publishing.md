@@ -3,11 +3,12 @@ uid: web-pages/overview/getting-started/introducing-aspnet-web-pages-2/publishin
 title: Introducing ASP.NET Web Pages - Publishing a Site by Using WebMatrix | Microsoft Docs
 author: Rick-Anderson
 description: This tutorial is the final installment in the tutorial set that introduces ASP.NET Web Pages and Microsoft WebMatrix. It discusses how to publish your site t...
-ms.author: riande
+ms.author: wpickett
 ms.date: 05/28/2015
 ms.assetid: 7e85c70e-1a88-4408-8b3d-29611c7713ed
 msc.legacyurl: /web-pages/overview/getting-started/introducing-aspnet-web-pages-2/publishing
 msc.type: authoredcontent
+ms.custom: sfi-image-nochange
 ---
 # Introducing ASP.NET Web Pages - Publishing a Site by Using WebMatrix
 
@@ -53,7 +54,7 @@ Now your site is ready for publication. First, you will see how to deploy the si
 <a id="azure"></a>
 ## Publishing Your Site to Microsoft Azure
 
-This tutorial will first show you how to deploy your site to Microsoft Azure. By signing in with a Microsoft account, you can create up to 10 free sites on Azure. These free sites provide a convenient way to test your sites. You can always delete this example site later to avoid using all of your free sites. You can create a free trial account in just a couple of minutes. For details, see [Azure Free Trial](https://azure.microsoft.com/free/dotnet/).
+This tutorial will first show you how to deploy your site to Microsoft Azure. By signing in with a Microsoft account, you can create up to 10 free sites on Azure. These free sites provide a convenient way to test your sites. You can always delete this example site later to avoid using all of your free sites. You can create a free trial account in just a couple of minutes. For details, see [Azure Free Trial](https://azure.microsoft.com/pricing/purchase-options/azure-account?cid=msft_learn).
 
 In the WebMatrix ribbon, click the **Publish** button.
 
@@ -207,3 +208,4 @@ Go to the live site (you can click the link in the success message if it's still
 
 > [!div class="step-by-step"]
 > [Previous](layouts.md)
+

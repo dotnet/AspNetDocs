@@ -8,6 +8,7 @@ ms.date: 06/10/2014
 ms.assetid: ed562717-8591-4936-8e10-c7e63dcb570a
 msc.legacyurl: /signalr/overview/security/introduction-to-security
 msc.type: authoredcontent
+ms.custom: sfi-image-nochange
 ---
 # Introduction to SignalR Security
 

@@ -3,7 +3,7 @@ uid: web-forms/overview/ajax-control-toolkit/animation/triggering-an-animation-i
 title: "Triggering an Animation in another Control (VB) | Microsoft Docs"
 author: wenz
 description: "The Animation control in the ASP.NET AJAX Control Toolkit is not just a control but a whole framework to add animations to a control. Generally, launching an... (VB)"
-ms.author: riande
+ms.author: tdykstra
 ms.date: 06/02/2008
 ms.assetid: 25ebaf1f-5a9f-423d-98c7-1d694e93664f
 msc.legacyurl: /web-forms/overview/ajax-control-toolkit/animation/triggering-an-animation-in-another-control-vb
@@ -56,3 +56,4 @@ A mouse click on the button starts the panel animation ([Click to view full-size
 > [!div class="step-by-step"]
 > [Previous](disabling-actions-during-animation-vb.md)
 > [Next](modifying-animations-from-the-server-side-vb.md)
+

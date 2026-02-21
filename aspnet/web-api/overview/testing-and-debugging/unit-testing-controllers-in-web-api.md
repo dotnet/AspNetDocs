@@ -3,7 +3,7 @@ uid: web-api/overview/testing-and-debugging/unit-testing-controllers-in-web-api
 title: "Unit Testing Controllers in ASP.NET Web API 2 | Microsoft Docs"
 author: Rick-Anderson
 description: "This topic describes some specific techniques for unit testing controllers in Web API 2. Before reading this topic, you might want to read the tutorial Unit..."
-ms.author: riande
+ms.author: tdykstra
 ms.date: 06/11/2014
 ms.assetid: 43a6cce7-a3ef-42aa-ad06-90d36d49f098
 msc.legacyurl: /web-api/overview/testing-and-debugging/unit-testing-controllers-in-web-api
@@ -114,3 +114,4 @@ The `Put` method calls `Content` to return an HTTP 202 (Accepted) response with 
 - [Mocking Entity Framework when Unit Testing ASP.NET Web API 2](mocking-entity-framework-when-unit-testing-aspnet-web-api-2.md)
 - [Writing tests for an ASP.NET Web API service](/archive/blogs/youssefm/writing-tests-for-an-asp-net-web-api-service) (blog post by Youssef Moussaoui).
 - [Debugging ASP.NET Web API with Route Debugger](https://devblogs.microsoft.com/dotnet/debugging-asp-net-web-api-with-route-debugger/)
+

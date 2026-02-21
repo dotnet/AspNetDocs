@@ -3,7 +3,7 @@ uid: web-forms/overview/moving-to-aspnet-20/server-controls
 title: "Server Controls | Microsoft Docs"
 author: rick-anderson
 description: "ASP.NET 2.0 enhances server controls in many ways. In this module, we'll cover some of the architectural changes to the way ASP.NET 2.0 and Visual Studio 200..."
-ms.author: riande
+ms.author: wpickett
 ms.date: 02/20/2005
 ms.assetid: 43f6ac47-76fc-4cf7-8e9f-c18ce673dfd8
 msc.legacyurl: /web-forms/overview/moving-to-aspnet-20/server-controls
@@ -291,3 +291,4 @@ The ChangePassword control allows users to change their password for an ASP.NET 
 ## Various WebParts
 
 ASP.NET 2.0 ships with various Web Parts. These will be covered in detail in a later module.
+

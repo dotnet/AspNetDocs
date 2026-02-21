@@ -3,7 +3,7 @@ uid: mvc/overview/older-versions/working-with-the-dropdownlist-box-and-jquery/us
 title: "Using the DropDownList Helper with ASP.NET MVC | Microsoft Docs"
 author: Rick-Anderson
 description: This first part of a tutorial series shows how to use the DropDownList helper an the ListBox helper in an ASP.NET MVC Web application.
-ms.author: riande
+ms.author: tdykstra
 ms.date: 01/12/2012
 ms.assetid: 53767e05-c8ab-42e1-a94b-22d906195200
 msc.legacyurl: /mvc/overview/older-versions/working-with-the-dropdownlist-box-and-jquery/using-the-dropdownlist-helper-with-aspnet-mvc
@@ -210,3 +210,4 @@ In the next section you'll see how the ASP.NET MVC scaffolding mechanism works w
 
 > [!div class="step-by-step"]
 > [Next](examining-how-aspnet-mvc-scaffolds-the-dropdownlist-helper.md)
+

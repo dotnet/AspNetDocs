@@ -3,7 +3,7 @@ uid: mvc/overview/older-versions/getting-started-with-aspnet-mvc4/adding-a-new-f
 title: "Adding a New Field to the Movie Model and Table | Microsoft Docs"
 author: Rick-Anderson
 description: "In this tutorial you'll use Entity Framework Code First Migrations to migrate some changes to the model classes so the change is applied to the database."
-ms.author: riande
+ms.author: tdykstra
 ms.date: 08/28/2012
 ms.assetid: 9ef2c4f1-a305-4e0a-9fb8-bfbd9ef331d9
 msc.legacyurl: /mvc/overview/older-versions/getting-started-with-aspnet-mvc4/adding-a-new-field-to-the-movie-model-and-table
@@ -163,3 +163,4 @@ In this section you saw how you can modify model objects and keep the database i
 > [!div class="step-by-step"]
 > [Previous](examining-the-edit-methods-and-edit-view.md)
 > [Next](adding-validation-to-the-model.md)
+

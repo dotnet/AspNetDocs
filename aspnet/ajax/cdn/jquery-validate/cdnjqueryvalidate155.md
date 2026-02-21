@@ -3,7 +3,7 @@ uid: ajax/cdn/jquery-validate/cdnjqueryvalidate155
 title: "jQuery Validate 1.5.5 | Microsoft Docs"
 author: rick-anderson
 description: This article provides a list of the files that are included in the jQuery Validation 1.5.5 hosted on the CDN.
-ms.author: riande
+ms.author: tdykstra
 ms.date: 07/23/2014
 ms.assetid: d1c0bb58-4450-464c-8db7-8ddaf2283ffa
 msc.legacyurl: /ajax/cdn/jquery-validate/cdnjqueryvalidate155
@@ -16,3 +16,4 @@ The following files are hosted on the CDN:
 - https://ajax.aspnetcdn.com/ajax/jquery.validate/1.5.5/jquery.validate.js
 - https://ajax.aspnetcdn.com/ajax/jquery.validate/1.5.5/jquery.validate.min.js
 - https://ajax.aspnetcdn.com/ajax/jquery.validate/1.5.5/jquery.validate-vsdoc.js
+

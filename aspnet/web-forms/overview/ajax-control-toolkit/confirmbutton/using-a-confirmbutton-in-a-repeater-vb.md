@@ -3,7 +3,7 @@ uid: web-forms/overview/ajax-control-toolkit/confirmbutton/using-a-confirmbutton
 title: "Using a ConfirmButton In a Repeater (VB) | Microsoft Docs"
 author: wenz
 description: "The ConfirmButton extender in the AJAX Control Toolkit creates a Yes/No popup when the user clicks on a button (including LinkButton control). Only if Yes is... (VB)"
-ms.author: riande
+ms.author: tdykstra
 ms.date: 06/02/2008
 ms.assetid: 18c31709-3f9d-4d93-8b01-f1356bf610b4
 msc.legacyurl: /web-forms/overview/ajax-control-toolkit/confirmbutton/using-a-confirmbutton-in-a-repeater-vb
@@ -45,3 +45,4 @@ The confirm button appears next to each entry from the data source ([Click to vi
 
 > [!div class="step-by-step"]
 > [Previous](using-a-confirmbutton-in-a-repeater-cs.md)
+

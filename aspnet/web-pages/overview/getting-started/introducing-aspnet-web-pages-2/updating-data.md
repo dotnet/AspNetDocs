@@ -3,7 +3,7 @@ uid: web-pages/overview/getting-started/introducing-aspnet-web-pages-2/updating-
 title: "Introducing ASP.NET Web Pages - Updating Database Data | Microsoft Docs"
 author: Rick-Anderson
 description: "This tutorial shows you how to update (change) an existing database entry when you use ASP.NET Web Pages (Razor). It assumes you have completed the series th..."
-ms.author: riande
+ms.author: wpickett
 ms.date: 01/02/2018
 ms.assetid: ac86ec9c-6b69-485b-b9e0-8b9127b13e6b
 msc.legacyurl: /web-pages/overview/getting-started/introducing-aspnet-web-pages-2/updating-data
@@ -301,3 +301,4 @@ In the next tutorial, you'll see how to delete a movie record.
 > [!div class="step-by-step"]
 > [Previous](entering-data.md)
 > [Next](deleting-data.md)
+

@@ -3,7 +3,7 @@ uid: web-forms/videos/building-20-applications/lesson-4-understanding-web-applic
 title: "[Lesson 4:] Understanding Web Application State | Microsoft Docs"
 author: rick-anderson
 description: "In this lesson, you will see how to maintain state in ASP.NET, including the various objects you can use to store information for your ASP.NET 2.0 applicatio..."
-ms.author: riande
+ms.author: wpickett
 ms.date: 11/28/2005
 ms.assetid: 22ddc59d-cd84-4def-a58b-ec3ca57f0d85
 msc.legacyurl: /web-forms/videos/building-20-applications/lesson-4-understanding-web-application-state
@@ -20,3 +20,4 @@ In this lesson, you will see how to maintain state in ASP.NET, including the var
 > [!div class="step-by-step"]
 > [Previous](lesson-3-understanding-more-about-events-and-postback.md)
 > [Next](lesson-5-debugging-and-tracing-your-website.md)
+

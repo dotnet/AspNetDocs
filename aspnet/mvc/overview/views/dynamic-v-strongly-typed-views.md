@@ -3,7 +3,7 @@ uid: mvc/overview/views/dynamic-v-strongly-typed-views
 title: "Dynamic v. Strongly Typed Views | Microsoft Docs"
 author: Rick-Anderson
 description: This topic provides an example application that compares and contrasts dynamic views and strongly typed views using a list of blogs.
-ms.author: riande
+ms.author: tdykstra
 ms.date: 01/27/2011
 ms.assetid: 0cbd88da-0da6-4605-b222-2835c6478304
 msc.legacyurl: /mvc/overview/views/dynamic-v-strongly-typed-views
@@ -50,3 +50,4 @@ Notice it's exactly the same return View(topBlogs); call as the non-strongly typ
 Inside the new view template we get intellisense support.
 
 [![7002.IntelliSense[1]](dynamic-v-strongly-typed-views/_static/image8.png)](dynamic-v-strongly-typed-views/_static/image7.png)
+

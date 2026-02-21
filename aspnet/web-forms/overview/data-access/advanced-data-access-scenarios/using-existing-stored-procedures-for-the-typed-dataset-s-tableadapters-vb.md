@@ -3,7 +3,7 @@ uid: web-forms/overview/data-access/advanced-data-access-scenarios/using-existin
 title: "Using Existing Stored Procedures for the Typed DataSet's TableAdapters (VB) | Microsoft Docs"
 author: rick-anderson
 description: "In the previous tutorial we learned how to use the TableAdapter Wizard to generate new stored procedures. In this tutorial we learn how the same TableAdapter... (VB)"
-ms.author: riande
+ms.author: tdykstra
 ms.date: 07/18/2007
 ms.assetid: 2da25f6a-757e-4e7b-a812-1575288d8f7a
 msc.legacyurl: /web-forms/overview/data-access/advanced-data-access-scenarios/using-existing-stored-procedures-for-the-typed-dataset-s-tableadapters-vb
@@ -231,3 +231,4 @@ This tutorial series was reviewed by many helpful reviewers. Lead reviewers for 
 > [!div class="step-by-step"]
 > [Previous](creating-new-stored-procedures-for-the-typed-dataset-s-tableadapters-vb.md)
 > [Next](updating-the-tableadapter-to-use-joins-vb.md)
+

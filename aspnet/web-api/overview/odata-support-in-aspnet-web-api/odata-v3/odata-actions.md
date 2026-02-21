@@ -3,7 +3,7 @@ uid: web-api/overview/odata-support-in-aspnet-web-api/odata-v3/odata-actions
 title: "Supporting OData Actions in ASP.NET Web API 2 | Microsoft Docs"
 author: rick-anderson
 description: "In OData, actions are a way to add server-side behaviors that are not easily defined as CRUD operations on entities. Some uses for actions include: Implement..."
-ms.author: riande
+ms.author: tdykstra
 ms.date: 02/25/2014
 ms.assetid: 2d7b3aa2-aa47-4e6e-b0ce-3d65a1c6fe02
 msc.legacyurl: /web-api/overview/odata-support-in-aspnet-web-api/odata-v3/odata-actions
@@ -156,4 +156,5 @@ Also, you must provide a function that returns an action link for a given entity
 If the action is available, the lambda expression returns a link to the action. The OData serializer includes this link when it serializes the entity. When the action is not available, the function returns `null`.
 
 ## Additional Resources
+
 

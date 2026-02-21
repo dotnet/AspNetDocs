@@ -3,7 +3,7 @@ uid: web-forms/videos/building-35-applications/index
 title: "Building 3.5 Applications | Microsoft Docs"
 author: rick-anderson
 description: "The basics of creating ASP.NET Web Forms applications."
-ms.author: riande
+ms.author: wpickett
 ms.date: 02/27/2024
 ms.assetid: 20060b05-3c1b-41ca-9621-4434ba233adc
 msc.legacyurl: /web-forms/videos/building-35-applications
@@ -25,3 +25,4 @@ msc.type: chapter
 - [CSS](css.md)
 - [MasterPages](masterpages.md)
 - [Login Controls](login-controls.md)
+

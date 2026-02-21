@@ -3,7 +3,7 @@ uid: whitepapers/index
 title: "Whitepapers for Installing and Configuring ASP.NET| Microsoft Docs"
 author: rick-anderson
 description: "On this page, you will find whitepapers to help you install and configure ASP.NET, and to assist you to write secure, fast and flexible ASP.NET applications."
-ms.author: riande
+ms.author: wpickett
 ms.date: 11/15/2011
 ms.assetid: 3824e2d7-446f-406b-9c8b-5a1634359a78
 msc.legacyurl: 
@@ -31,3 +31,4 @@ msc.type: content
 - [ASP.NET Web Deployment - Recommended Resources](aspnet-web-deployment-content-map.md)
 - [ASP.NET and Web Tools 2012.2 Release Notes](aspnet-and-web-tools-20122-release-notes.md)
 - [What's New in ASP.NET 4.5 and Visual Studio 2012](whats-new-in-aspnet-45-and-visual-studio-2012.md)
+

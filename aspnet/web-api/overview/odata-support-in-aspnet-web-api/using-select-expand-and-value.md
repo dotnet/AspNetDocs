@@ -3,7 +3,7 @@ uid: web-api/overview/odata-support-in-aspnet-web-api/using-select-expand-and-va
 title: "Using $select, $expand, and $value in ASP.NET Web API 2 OData - ASP.NET 4.x"
 author: rick-anderson
 description: "Overview and code samples for the $expand, $select, and $value options in OData Web API 2 for ASP.NET 4.x."
-ms.author: riande
+ms.author: tdykstra
 ms.date: 10/11/2013
 ms.assetid: 43279a80-a96c-4564-b6ea-ad992a2d6828
 msc.legacyurl: /web-api/overview/odata-support-in-aspnet-web-api/using-select-expand-and-value
@@ -136,3 +136,4 @@ Here is the response. Notice that the content type is "text/plain", not JSON.
 To support these queries in your OData controller, add a method named `GetProperty`, where `Property` is the name of the property. For example, the method to get the Name property would be named `GetName`. The method should return the value of that property:
 
 [!code-csharp[Main](using-select-expand-and-value/samples/sample22.cs)]
+

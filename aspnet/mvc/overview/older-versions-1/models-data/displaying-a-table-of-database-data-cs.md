@@ -3,7 +3,7 @@ uid: mvc/overview/older-versions-1/models-data/displaying-a-table-of-database-da
 title: "Displaying a Table of Database Data (C#) | Microsoft Docs"
 author: rick-anderson
 description: "In this tutorial, I demonstrate two methods of displaying a set of database records. I show two methods of formatting a set of database records in an HTML ta... (C#)"
-ms.author: riande
+ms.author: tdykstra
 ms.date: 10/07/2008
 ms.assetid: d6e758b6-6571-484d-a132-34ee6c47747a
 msc.legacyurl: /mvc/overview/older-versions-1/models-data/displaying-a-table-of-database-data-cs
@@ -163,3 +163,4 @@ The goal of this tutorial was to explain how you can display a set of database r
 > [!div class="step-by-step"]
 > [Previous](creating-model-classes-with-linq-to-sql-cs.md)
 > [Next](performing-simple-validation-cs.md)
+

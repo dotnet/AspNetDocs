@@ -3,7 +3,7 @@ uid: web-forms/overview/ajax-control-toolkit/animation/executing-several-animati
 title: "Executing Several Animations after Each Other (C#) | Microsoft Docs"
 author: wenz
 description: "The Animation control in the ASP.NET AJAX Control Toolkit is not just a control but an entire framework to add animations to a control. It allows to run severa... (C#)"
-ms.author: riande
+ms.author: tdykstra
 ms.date: 06/02/2008
 ms.assetid: 7dc02b18-2b5d-4844-b7c5-cbd818477163
 msc.legacyurl: /web-forms/overview/ajax-control-toolkit/animation/executing-several-animations-after-each-other-cs
@@ -54,3 +54,4 @@ Then the height is decreased ([Click to view full-size image](executing-several-
 > [!div class="step-by-step"]
 > [Previous](executing-several-animations-at-the-same-time-cs.md)
 > [Next](animation-depending-on-a-condition-cs.md)
+

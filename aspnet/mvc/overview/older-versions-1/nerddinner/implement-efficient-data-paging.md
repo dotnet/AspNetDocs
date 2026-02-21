@@ -3,7 +3,7 @@ uid: mvc/overview/older-versions-1/nerddinner/implement-efficient-data-paging
 title: "Implement Efficient Data Paging | Microsoft Docs"
 author: rick-anderson
 description: "Step 8 shows how to add paging support to our /Dinners URL so that instead of displaying 1000s of dinners at once, we'll only display 10 upcoming dinners at..."
-ms.author: riande
+ms.author: tdykstra
 ms.date: 07/27/2010
 ms.assetid: adea836d-dbc2-4005-94ea-53aef09e9e34
 msc.legacyurl: /mvc/overview/older-versions-1/nerddinner/implement-efficient-data-paging
@@ -132,3 +132,4 @@ Let's now look at how we can add authentication and authorization support to our
 > [!div class="step-by-step"]
 > [Previous](re-use-ui-using-master-pages-and-partials.md)
 > [Next](secure-applications-using-authentication-and-authorization.md)
+

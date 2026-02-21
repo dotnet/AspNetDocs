@@ -3,7 +3,7 @@ uid: web-forms/overview/ajax-control-toolkit/animation/index
 title: "Animation | Microsoft Docs"
 author: rick-anderson
 description: "This tutorial shows how to create animations using the Animation control and animation framework."
-ms.author: riande
+ms.author: tdykstra
 ms.date: 11/11/2011
 ms.assetid: 90b3a37e-2694-41c4-8b10-d6893b53a9d4
 msc.legacyurl: /web-forms/overview/ajax-control-toolkit/animation
@@ -39,3 +39,4 @@ msc.type: chapter
 - [Changing an Animation Using Client-Side Code (VB)](changing-an-animation-using-client-side-code-vb.md)
 - [Animating an UpdatePanel Control (VB)](animating-an-updatepanel-control-vb.md)
 - [Dynamically Controlling UpdatePanel Animations (VB)](dynamically-controlling-updatepanel-animations-vb.md)
+

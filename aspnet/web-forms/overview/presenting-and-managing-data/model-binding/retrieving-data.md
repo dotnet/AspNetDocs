@@ -3,7 +3,7 @@ uid: web-forms/overview/presenting-and-managing-data/model-binding/retrieving-da
 title: "Retrieving and displaying data with model binding and web forms | Microsoft Docs"
 author: Rick-Anderson
 description: "This series of tutorials demonstrates basic aspects of using model binding with an ASP.NET Web Forms project. Model binding makes data interaction more straight-forward."
-ms.author: riande
+ms.author: wpickett
 ms.date: 02/27/2014
 ms.assetid: 9f24fb82-c7ac-48da-b8e2-51b3da17e365
 msc.legacyurl: /web-forms/overview/presenting-and-managing-data/model-binding/retrieving-data
@@ -20,7 +20,7 @@ msc.type: authoredcontent
 > You can [download](https://go.microsoft.com/fwlink/?LinkId=286116) the complete project in C# or Visual Basic. The downloadable code works with Visual Studio 2012 and later. It uses the Visual Studio 2012 template, which is slightly different than the Visual Studio 2017 template shown in this tutorial.
 > 
 > In the tutorial you run the application in Visual Studio. You can also deploy the application to a hosting provider and make it available over the internet. Microsoft offers free web hosting for up to 10 web sites in a  
-> [free Azure trial account](https://azure.microsoft.com/free/dotnet/). For information about how to deploy a Visual Studio web project to Azure App Service Web Apps, see the [ASP.NET Web Deployment using Visual Studio](../../deployment/visual-studio-web-deployment/introduction.md) series. That tutorial also shows how to use Entity Framework Code First Migrations to deploy your SQL Server database to Azure SQL Database.
+> [free Azure trial account](https://azure.microsoft.com/pricing/purchase-options/azure-account?cid=msft_learn). For information about how to deploy a Visual Studio web project to Azure App Service Web Apps, see the [ASP.NET Web Deployment using Visual Studio](../../deployment/visual-studio-web-deployment/introduction.md) series. That tutorial also shows how to use Entity Framework Code First Migrations to deploy your SQL Server database to Azure SQL Database.
 > 
 > ## Software versions used in the tutorial
 > 
@@ -209,3 +209,4 @@ In the next [tutorial](updating-deleting-and-creating-data.md) in this series, y
 
 > [!div class="step-by-step"]
 > [Next](updating-deleting-and-creating-data.md)
+

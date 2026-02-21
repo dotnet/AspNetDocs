@@ -3,7 +3,7 @@ uid: web-forms/videos/sql-2005/getting-started-with-reporting-services
 title: "Getting Started with Reporting Services | Microsoft Docs"
 author: rick-anderson
 description: "SQL Server Reporting Services allows you to design and deploy nicely formatted and interactive reports representative of your data. Suitable for print or onl..."
-ms.author: riande
+ms.author: wpickett
 ms.date: 10/21/2006
 ms.assetid: f348a388-d3a2-4ea8-baf0-be2e6ef8efe1
 msc.legacyurl: /web-forms/videos/sql-2005/getting-started-with-reporting-services
@@ -20,3 +20,4 @@ SQL Server Reporting Services allows you to design and deploy nicely formatted a
 > [!div class="step-by-step"]
 > [Previous](using-sql-server-management-studio.md)
 > [Next](building-and-customizing-reports-in-business-intelligence-development-studio.md)
+

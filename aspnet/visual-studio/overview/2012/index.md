@@ -3,7 +3,7 @@ uid: visual-studio/overview/2012/index
 title: "ASP.NET and Visual Studio 2012 | Microsoft Docs"
 author: rick-anderson
 description: "Developing ASP.NET web apps with Visual Studio 2012"
-ms.author: riande
+ms.author: tdykstra
 ms.date: 06/25/2013
 ms.assetid: 51900291-7787-4a6e-be4e-fa558486f5ff
 msc.legacyurl: /visual-studio/overview/2012
@@ -27,3 +27,4 @@ msc.type: chapter
 - [Page Inspector - Decomposing your Web Application](visual-studio-vnext-videos-page-inspector-decomposing-your-web-application.md)
 - [Windows Azure Authentication](windows-azure-authentication.md)
 - [ASP.NET and Web Tools 2012.2 Release Notes](aspnet-and-web-tools-20122-release-notes-rtw.md)
+

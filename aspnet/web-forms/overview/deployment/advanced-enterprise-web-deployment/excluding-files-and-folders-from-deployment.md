@@ -3,7 +3,7 @@ uid: web-forms/overview/deployment/advanced-enterprise-web-deployment/excluding-
 title: "Excluding Files and Folders from Deployment | Microsoft Docs"
 author: jrjlee
 description: "This topic describes how you can exclude files and folders from a web deployment package when you build and package a web application project."
-ms.author: riande
+ms.author: wpickett
 ms.date: 05/04/2012
 ms.assetid: f4cc2d40-6a78-429b-b06f-07d000d4caad
 msc.legacyurl: /web-forms/overview/deployment/advanced-enterprise-web-deployment/excluding-files-and-folders-from-deployment
@@ -119,3 +119,4 @@ For more information on using custom Microsoft Build Engine (MSBuild) project fi
 > [!div class="step-by-step"]
 > [Previous](deploying-membership-databases-to-enterprise-environments.md)
 > [Next](taking-web-applications-offline-with-web-deploy.md)
+

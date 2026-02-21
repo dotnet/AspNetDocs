@@ -3,11 +3,14 @@ uid: mvc/overview/older-versions/getting-started-with-ef-5-using-mvc-4/sorting-f
 title: "Sorting, Filtering, and Paging with the Entity Framework in an ASP.NET MVC Application (3 of 10) | Microsoft Docs"
 author: tdykstra
 description: "The Contoso University sample web application tutorial explains how to create ASP.NET MVC 4 applications using the Entity Framework 5 Code First and Visual Studio."
-ms.author: riande
+ms.author: tdykstra
 ms.date: 07/30/2013
 ms.assetid: 8af630e0-fffa-4110-9eca-c96e201b2724
 msc.legacyurl: /mvc/overview/older-versions/getting-started-with-ef-5-using-mvc-4/sorting-filtering-and-paging-with-the-entity-framework-in-an-asp-net-mvc-application
 msc.type: authoredcontent
+ms.custom:
+  - sfi-image-nochange
+  - sfi-ropc-nochange
 ---
 # Sorting, Filtering, and Paging with the Entity Framework in an ASP.NET MVC Application (3 of 10)
 
@@ -249,7 +252,7 @@ Your Migrations `Seed` method inserts test data. If you were deploying to a prod
 
 ### Get a Windows Azure account
 
-You'll need a Windows Azure account. If you don't already have one, you can create a free trial account in just a couple of minutes. For details, see [Windows Azure Free Trial](https://azure.microsoft.com/free/dotnet/).
+You'll need a Windows Azure account. If you don't already have one, you can create a free trial account in just a couple of minutes. For details, see [Windows Azure Free Trial](https://azure.microsoft.com/pricing/purchase-options/azure-account?cid=msft_learn).
 
 ### Create a web site and a SQL database in Windows Azure
 
@@ -384,3 +387,4 @@ Links to other Entity Framework resources can be found in the [ASP.NET Data Acce
 > [!div class="step-by-step"]
 > [Previous](implementing-basic-crud-functionality-with-the-entity-framework-in-asp-net-mvc-application.md)
 > [Next](creating-a-more-complex-data-model-for-an-asp-net-mvc-application.md)
+

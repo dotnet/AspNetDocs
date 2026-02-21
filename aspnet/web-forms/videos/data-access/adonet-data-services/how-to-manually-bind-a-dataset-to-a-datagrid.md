@@ -3,7 +3,7 @@ uid: web-forms/videos/data-access/adonet-data-services/how-to-manually-bind-a-da
 title: "How to Manually Bind a Dataset to a Datagrid | Microsoft Docs"
 author: JoeStagner
 description: "In this video, part 2 of 3, Joe Stagner uses the sample ASP application created in part one, to demonstrate how to manually bind a dataset to a datagrid. For..."
-ms.author: riande
+ms.author: wpickett
 ms.date: 08/07/2008
 ms.assetid: 1e339f8a-72ea-463a-b186-c09dd7b12993
 msc.legacyurl: /web-forms/videos/data-access/adonet-data-services/how-to-manually-bind-a-dataset-to-a-datagrid
@@ -20,3 +20,4 @@ In this video, part 2 of 3, Joe Stagner uses the sample ASP application created 
 > [!div class="step-by-step"]
 > [Previous](data-access-layers-in-aspnet-applications.md)
 > [Next](how-to-work-with-datasets-and-filters-from-an-asp-application.md)
+

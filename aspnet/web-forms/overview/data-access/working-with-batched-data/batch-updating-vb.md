@@ -3,7 +3,7 @@ uid: web-forms/overview/data-access/working-with-batched-data/batch-updating-vb
 title: "Batch Updating (VB) | Microsoft Docs"
 author: rick-anderson
 description: "Learn how to update multiple database records in a single operation. In the User Interface Layer we build a GridView where each row is editable. In the Data... (VB)"
-ms.author: riande
+ms.author: wpickett
 ms.date: 06/26/2007
 ms.assetid: d191a204-d7ea-458d-b81c-0b9049ecb55f
 msc.legacyurl: /web-forms/overview/data-access/working-with-batched-data/batch-updating-vb
@@ -245,3 +245,4 @@ This tutorial series was reviewed by many helpful reviewers. Lead reviewers for 
 > [!div class="step-by-step"]
 > [Previous](wrapping-database-modifications-within-a-transaction-vb.md)
 > [Next](batch-deleting-vb.md)
+

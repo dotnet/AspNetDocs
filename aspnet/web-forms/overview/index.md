@@ -3,7 +3,7 @@ uid: web-forms/overview/index
 title: "ASP.NET Web Forms Guidance | Microsoft Docs"
 author: rick-anderson
 description: This topic provides links to articles and resources about ASP.NET Web Forms and using it for development.
-ms.author: riande
+ms.author: tdykstra
 ms.date: 08/08/2011
 ms.assetid: b3fb4480-0f41-495b-add6-163ca92dc8a3
 msc.legacyurl: /web-forms/overview
@@ -611,3 +611,4 @@ msc.type: book
     - [Membership](moving-to-aspnet-20/membership.md)
     - [Configuration and Instrumentation](moving-to-aspnet-20/configuration-and-instrumentation.md)
     - [Profiles, Themes, and Web Parts](moving-to-aspnet-20/profiles-themes-and-web-parts.md)
+

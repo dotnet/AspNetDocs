@@ -3,7 +3,7 @@ uid: mvc/overview/older-versions/getting-started-with-aspnet-mvc3/cs/improving-t
 title: "Improving the Details and Delete Methods (C#) | Microsoft Docs"
 author: Rick-Anderson
 description: "Learn how to make improvements to the auto generated Details and Delete methods. With just a few small bits of code, you can easily enhance the application."
-ms.author: riande
+ms.author: tdykstra
 ms.date: 01/12/2011
 ms.assetid: 3f42edd9-c5b8-4712-9055-970f7d38e350
 msc.legacyurl: /mvc/overview/older-versions/getting-started-with-aspnet-mvc3/cs/improving-the-details-and-delete-methods
@@ -79,3 +79,4 @@ Enjoy!
 
 > [!div class="step-by-step"]
 > [Previous](adding-validation-to-the-model.md)
+

@@ -3,7 +3,7 @@ uid: whitepapers/aspnet-and-web-tools-20122-release-notes
 title: "Release Notes for ASP.NET and Web Tools 2012.2"
 author: rick-anderson
 description: "This document describes the release of ASP.NET and Web Tools 2012.2. It is an update to Visual Studio Web Tooling and ASP.NET."
-ms.author: riande
+ms.author: wpickett
 ms.date: 02/14/2013
 ms.assetid: bdb18d02-9f61-4676-836d-6fdea94f9282
 msc.legacyurl: /whitepapers/aspnet-and-web-tools-20122-release-notes
@@ -278,3 +278,4 @@ File index.cshtml, add the following blacked text:
  &lt;form data-bind=&quot;submit: addTodo&quot;&gt;  
  &lt;input class=&quot;addTodo&quot; type=&quot;text&quot; data-bind=&quot;value: newTodoTitle, placeholder: 'Type here to add', blurOnEnter: true, **hasfocus: isSelected**, event: { blur: addTodo }&quot; /&gt;  
  &lt;/form&gt;
+

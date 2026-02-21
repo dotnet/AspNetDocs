@@ -3,7 +3,7 @@ uid: mvc/overview/older-versions/getting-started-with-aspnet-mvc4/adding-a-contr
 title: "Adding a Controller 2012 | Microsoft Docs"
 author: Rick-Anderson
 description: "In this tutorial you will learn how to build an application using the concepts of MVC (Models, Views, and Controllers)."
-ms.author: riande
+ms.author: tdykstra
 ms.date: 08/28/2012
 ms.assetid: 0267d31c-892f-49a1-9e7a-3ae8cc12b2ca
 msc.legacyurl: /mvc/overview/older-versions/getting-started-with-aspnet-mvc4/adding-a-controller
@@ -67,3 +67,4 @@ In both these examples the controller has been doing the &quot;VC&quot; portion 
 > [!div class="step-by-step"]
 > [Previous](intro-to-aspnet-mvc-4.md)
 > [Next](adding-a-view.md)
+

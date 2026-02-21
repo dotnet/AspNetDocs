@@ -3,7 +3,7 @@ uid: web-forms/overview/ajax-control-toolkit/textboxwatermark/using-textboxwater
 title: "Using TextBoxWatermark in a FormView (C#) | Microsoft Docs"
 author: wenz
 description: "The TextBoxWatermark control of the AJAX Control Toolkit extends a text box so that a text is displayed within the box. When a user clicks into the box, it i... (C#)"
-ms.author: riande
+ms.author: tdykstra
 ms.date: 06/02/2008
 ms.assetid: e6ee90bf-32a5-4987-a384-15cc7dd30c8a
 msc.legacyurl: /web-forms/overview/ajax-control-toolkit/textboxwatermark/using-textboxwatermark-in-a-formview-cs
@@ -47,3 +47,4 @@ The watermark in the field comes from the extender ([Click to view full-size ima
 
 > [!div class="step-by-step"]
 > [Next](using-textboxwatermark-with-validation-controls-cs.md)
+

@@ -3,7 +3,7 @@ uid: web-forms/overview/moving-to-aspnet-20/the-asp-net-2-0-page-model
 title: "The ASP.NET 2.0 Page Model | Microsoft Docs"
 author: rick-anderson
 description: "In ASP.NET 1.x, developers had a choice between an inline code model and a code-behind code model. Code-behind could be implemented using either the Src attr..."
-ms.author: riande
+ms.author: wpickett
 ms.date: 02/20/2005
 ms.assetid: af4575a3-0ae3-4638-ba4d-218fad7a1642
 msc.legacyurl: /web-forms/overview/moving-to-aspnet-20/the-asp-net-2-0-page-model
@@ -578,3 +578,4 @@ Here are some of the other useful methods of the ClientScriptManager class.
 | <strong>RegisterClientScriptResource</strong> |     Registers a Web resource with the page. These are resources embedded in an assembly and handled by the new WebResource.axd handler.      |
 |     <strong>RegisterHiddenField</strong>      |                                                 Registers a hidden form field with the page.                                                 |
 |  <strong>RegisterOnSubmitStatement</strong>   |                                  Registers client-side code that executes when the HTML form is submitted.                                   |
+

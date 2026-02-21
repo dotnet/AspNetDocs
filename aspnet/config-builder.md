@@ -3,9 +3,12 @@ uid: config-builder
 title: Configuration builders for ASP.NET
 author: rick-anderson
 description: Learn how to get configuration data from sources other than web.config values from external sources.
-ms.author: riande
+ms.author: tdykstra
 ms.date: 7/17/2020
 msc.type: content
+ms.custom:
+  - sfi-image-nochange
+  - sfi-ropc-nochange
 ---
 
 # Configuration builders for ASP.NET
@@ -310,3 +313,4 @@ The `KeyValueConfigBuilder` base class provides much of the work and consistent 
 
 * [Configuration Builders GitHub repository](https://github.com/aspnet/MicrosoftConfigurationBuilders)
 * [Service-to-service authentication to Azure Key Vault using .NET](/azure/key-vault/service-to-service-authentication#connection-string-support)
+

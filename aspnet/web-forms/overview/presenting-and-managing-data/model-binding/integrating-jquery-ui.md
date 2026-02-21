@@ -3,7 +3,7 @@ uid: web-forms/overview/presenting-and-managing-data/model-binding/integrating-j
 title: "Integrating JQuery UI Datepicker with model binding and web forms | Microsoft Docs"
 author: Rick-Anderson
 description: "This series of tutorials demonstrates some basic aspects of using model binding with an ASP.NET Web Forms project. Model binding makes data interaction more straight-..."
-ms.author: riande
+ms.author: wpickett
 ms.date: 02/27/2014
 ms.assetid: 3cbab37b-fb0f-4751-9ec4-74e068c3f380
 msc.legacyurl: /web-forms/overview/presenting-and-managing-data/model-binding/integrating-jquery-ui
@@ -108,3 +108,4 @@ In the next [tutorial](using-query-string-values-to-retrieve-data.md), you will 
 > [!div class="step-by-step"]
 > [Previous](sorting-paging-and-filtering-data.md)
 > [Next](using-query-string-values-to-retrieve-data.md)
+

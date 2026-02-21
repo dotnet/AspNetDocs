@@ -3,7 +3,7 @@ uid: web-forms/overview/data-access/editing-inserting-and-deleting-data/customiz
 title: "Customizing the Data Modification Interface (C#) | Microsoft Docs"
 author: rick-anderson
 description: "In this tutorial we'll look at how to customize the interface of an editable GridView, by replacing the standard TextBox and CheckBox controls with alternati... (C#)"
-ms.author: riande
+ms.author: wpickett
 ms.date: 07/17/2006
 ms.assetid: 22e99600-8d18-4a94-a20e-a3a62bb63798
 msc.legacyurl: /web-forms/overview/data-access/editing-inserting-and-deleting-data/customizing-the-data-modification-interface-cs
@@ -233,3 +233,4 @@ Scott Mitchell, author of seven ASP/ASP.NET books and founder of 4GuysFromRolla.
 > [!div class="step-by-step"]
 > [Previous](adding-validation-controls-to-the-editing-and-inserting-interfaces-cs.md)
 > [Next](implementing-optimistic-concurrency-cs.md)
+

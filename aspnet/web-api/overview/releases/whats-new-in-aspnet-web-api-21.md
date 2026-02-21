@@ -3,7 +3,7 @@ uid: web-api/overview/releases/whats-new-in-aspnet-web-api-21
 title: "What's New in ASP.NET Web API 2.1 | Microsoft Docs"
 author: rick-anderson
 description: This topic describes the new features and bug fixes introduced in ASP.NET Web API 2.1 and provides links to downloads and documentation.
-ms.author: riande
+ms.author: tdykstra
 ms.date: 01/20/2014
 ms.assetid: b6721bba-38c8-48c4-acbf-274c1a34e817
 msc.legacyurl: /web-api/overview/releases/whats-new-in-aspnet-web-api-21
@@ -161,3 +161,4 @@ Previously, if an async action threw an **AggregateException**, an exception fil
 This release also includes several bug fixes.
 
 The 5.1.2 package contains IntelliSense updates but no bug fixes.
+

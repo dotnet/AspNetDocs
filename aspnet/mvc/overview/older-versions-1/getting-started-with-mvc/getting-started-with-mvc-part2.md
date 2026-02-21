@@ -3,7 +3,7 @@ uid: mvc/overview/older-versions-1/getting-started-with-mvc/getting-started-with
 title: "Adding a Controller | Microsoft Docs - Introduces the basics of ASP.NET MVC"
 author: shanselman
 description: "An updated version if this tutorial is available here using Visual Studio 2013. The new tutorial uses ASP.NET MVC 5, which provides many improvements over t..."
-ms.author: riande
+ms.author: tdykstra
 ms.date: 08/14/2010
 ms.assetid: ff03dcc0-da97-458d-838f-0823e7482642
 msc.legacyurl: /mvc/overview/older-versions-1/getting-started-with-mvc/getting-started-with-mvc-part2
@@ -70,3 +70,4 @@ In both these examples the controller has been doing all the work, and has been 
 > [!div class="step-by-step"]
 > [Previous](getting-started-with-mvc-part1.md)
 > [Next](getting-started-with-mvc-part3.md)
+

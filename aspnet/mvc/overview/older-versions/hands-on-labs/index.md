@@ -3,7 +3,7 @@ uid: mvc/overview/older-versions/hands-on-labs/index
 title: "ASP.NET MVC 4 Hands On Labs | Microsoft Docs"
 author: rick-anderson
 description: "Learn how to develop with ASP.NET MVC with these Hands On Labs"
-ms.author: riande
+ms.author: tdykstra
 ms.date: 02/18/2013
 ms.assetid: eb23eb99-bfca-4043-9b48-2cf7838dd754
 msc.legacyurl: /mvc/overview/older-versions/hands-on-labs
@@ -20,3 +20,4 @@ Learn how to develop with ASP.NET MVC with these Hands On Labs
 - [ASP.NET MVC 4 Entity Framework Scaffolding and Migrations](aspnet-mvc-4-entity-framework-scaffolding-and-migrations.md)
 - [ASP.NET MVC 4 Dependency Injection](aspnet-mvc-4-dependency-injection.md)
 - [ASP.NET MVC 4 Helpers, Forms and Validation](aspnet-mvc-4-helpers-forms-and-validation.md)
+

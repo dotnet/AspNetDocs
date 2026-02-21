@@ -3,7 +3,7 @@ uid: mvc/overview/getting-started/getting-started-with-ef-using-mvc/implementing
 title: "Tutorial: Implement Inheritance with EF in an ASP.NET MVC 5 appS"
 description: "This tutorial will show you how to implement inheritance in the data model."
 author: tdykstra
-ms.author: riande
+ms.author: tdykstra
 ms.date: 01/21/2019
 ms.topic: tutorial
 ms.assetid: 08834147-77ec-454a-bb7a-d931d2a40dab
@@ -178,3 +178,4 @@ In this tutorial, you:
 Advance to the next article to learn about topics that are useful to be aware of when you go beyond the basics of developing ASP.NET web applications that use Entity Framework Code First.
 > [!div class="nextstepaction"]
 > [Advanced Entity Framework Scenarios](advanced-entity-framework-scenarios-for-an-mvc-web-application.md)
+

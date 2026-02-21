@@ -4,7 +4,7 @@ title: "Entity Framework | Microsoft Docs"
 author: rick-anderson
 description: "This article provides an overview of the Entity Framework."
 ms.assetid: faa761a9-86b3-4859-b9c0-60d5c5bc5e93
-ms.author: riande
+ms.author: tdykstra
 ms.date: 03/12/2010
 msc.legacyurl: /entity-framework
 msc.type: content
@@ -23,3 +23,4 @@ Use Entity Framework with ASP.NET
 - [Web Forms Tutorials](web-forms/overview/older-versions-getting-started/getting-started-with-ef/the-entity-framework-and-aspnet-getting-started-part-1.md)
 - [MVC Tutorials](mvc/overview/getting-started/getting-started-with-ef-using-mvc/creating-an-entity-framework-data-model-for-an-asp-net-mvc-application.md)
 - [Sample Application](https://webpifeed.blob.core.windows.net/webpifeed/Partners/ASP.NET%20MVC%20Application%20Using%20Entity%20Framework%20Code%20First.zip)
+

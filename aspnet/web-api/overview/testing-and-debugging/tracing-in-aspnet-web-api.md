@@ -3,7 +3,7 @@ uid: web-api/overview/testing-and-debugging/tracing-in-aspnet-web-api
 title: "Tracing in ASP.NET Web API 2 | Microsoft Docs"
 author: Rick-Anderson
 description: "Shows how to enable tracing in ASP.NET Web API."
-ms.author: riande
+ms.author: tdykstra
 ms.date: 02/25/2014
 ms.assetid: 66a837e9-600b-4b72-97a9-19804231c64a
 msc.legacyurl: /web-api/overview/testing-and-debugging/tracing-in-aspnet-web-api
@@ -121,3 +121,4 @@ You can also replace the entire Web API trace framework with your own custom fra
 [!code-csharp[Main](tracing-in-aspnet-web-api/samples/sample7.cs)]
 
 Implement **ITraceManager.Initialize** to initialize your tracing system. Be aware that this replaces the *entire* trace framework, including all of the tracing code that is built into Web API.
+

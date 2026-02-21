@@ -3,7 +3,7 @@ uid: mvc/overview/older-versions/getting-started-with-ef-5-using-mvc-4/reading-r
 title: "Reading Related Data with the Entity Framework in an ASP.NET MVC Application (5 of 10) | Microsoft Docs"
 author: tdykstra
 description: "The Contoso University sample web application tutorial demonstrates how to create ASP.NET MVC 4 applications using the Entity Framework 5 Code First and Visual Studio."
-ms.author: riande
+ms.author: tdykstra
 ms.date: 07/30/2013
 ms.assetid: 0d6fb83b-71f7-425d-8dec-981197d7ec42
 msc.legacyurl: /mvc/overview/older-versions/getting-started-with-ef-5-using-mvc-4/reading-related-data-with-the-entity-framework-in-an-asp-net-mvc-application
@@ -273,3 +273,4 @@ Links to other Entity Framework resources can be found in the [ASP.NET Data Acce
 > [!div class="step-by-step"]
 > [Previous](creating-a-more-complex-data-model-for-an-asp-net-mvc-application.md)
 > [Next](updating-related-data-with-the-entity-framework-in-an-asp-net-mvc-application.md)
+

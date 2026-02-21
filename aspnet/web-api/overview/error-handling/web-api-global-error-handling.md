@@ -3,7 +3,7 @@ uid: web-api/overview/error-handling/web-api-global-error-handling
 title: "Global Error Handling in ASP.NET Web API 2 - ASP.NET 4.x"
 author: davidmatson
 description: "An overview of global error handling in ASP.NET Web API 2 for ASP.NET 4.x."
-ms.author: riande
+ms.author: tdykstra
 ms.date: 02/03/2014
 ms.assetid: bffd7863-f63b-4b23-a13c-372b5492e9fb
 msc.legacyurl: /web-api/overview/error-handling/web-api-global-error-handling
@@ -121,3 +121,4 @@ If you use the "ASP.NET MVC 4 Web Application" project template to create your p
 ## Appendix: Base Class Details
 
 [!code-csharp[Main](web-api-global-error-handling/samples/sample8.cs)]
+

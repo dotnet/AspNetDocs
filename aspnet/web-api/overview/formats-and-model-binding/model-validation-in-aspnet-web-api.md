@@ -3,7 +3,7 @@ uid: web-api/overview/formats-and-model-binding/model-validation-in-aspnet-web-a
 title: "Model Validation in ASP.NET Web API - ASP.NET 4.x"
 author: rick-anderson
 description: "Overview of model validation in ASP.NET Web API for ASP.NET 4.x."
-ms.author: riande
+ms.author: tdykstra
 ms.date: 07/20/2012
 ms.assetid: 7d061207-22b8-4883-bafa-e89b1e7749ca
 msc.legacyurl: /web-api/overview/formats-and-model-binding/model-validation-in-aspnet-web-api
@@ -55,9 +55,6 @@ You don't want users to update the `IsAdmin` property and elevate themselves to 
 
 [!code-csharp[Main](model-validation-in-aspnet-web-api/samples/sample8.cs)]
 
-> [!NOTE]
-> Brad Wilson's blog post "[Input Validation vs. Model Validation in ASP.NET MVC](https://bradwilson.typepad.com/blog/2010/01/input-validation-vs-model-validation-in-aspnet-mvc.html)" has a good discussion of under-posting and over-posting. Although the post is about ASP.NET MVC 2, the issues are still relevant to Web API.
-
 ## Handling Validation Errors
 
 Web API does not automatically return an error to the client when validation fails. It is up to the controller action to check the model state and respond appropriately.
@@ -77,3 +74,4 @@ To apply this filter to all Web API controllers, add an instance of the filter t
 Another option is to set the filter as an attribute on individual controllers or controller actions:
 
 [!code-csharp[Main](model-validation-in-aspnet-web-api/samples/sample12.cs)]
+

@@ -3,7 +3,7 @@ uid: mvc/overview/older-versions-1/controllers-and-routing/creating-a-route-cons
 title: "Creating a Route Constraint (VB) | Microsoft Docs"
 author: StephenWalther
 description: "In this tutorial, Stephen Walther demonstrates how you can control how browser requests match routes by creating route constraints with regular expressions. (VB)"
-ms.author: riande
+ms.author: tdykstra
 ms.date: 02/16/2009
 ms.assetid: b7cce113-c82c-45bf-b97b-357e5d9f7f56
 msc.legacyurl: /mvc/overview/older-versions-1/controllers-and-routing/creating-a-route-constraint-vb
@@ -68,3 +68,4 @@ These browser requests will be handled by another route or, if there are no matc
 > [!div class="step-by-step"]
 > [Previous](creating-custom-routes-vb.md)
 > [Next](creating-a-custom-route-constraint-vb.md)
+

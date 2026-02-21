@@ -8,6 +8,7 @@ ms.date: 06/10/2014
 ms.assetid: 6ecd08c1-e364-4cd7-ad4c-806521911585
 msc.legacyurl: /signalr/overview/performance/scaleout-with-redis
 msc.type: authoredcontent
+ms.custom: sfi-image-nochange
 ---
 # SignalR Scaleout with Redis
 

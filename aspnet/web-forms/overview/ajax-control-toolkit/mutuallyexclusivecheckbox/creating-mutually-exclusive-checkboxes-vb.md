@@ -3,7 +3,7 @@ uid: web-forms/overview/ajax-control-toolkit/mutuallyexclusivecheckbox/creating-
 title: "Creating Mutually Exclusive Checkboxes (VB) | Microsoft Docs"
 author: wenz
 description: "When only one of a set of options may be selected, radio buttons are usually used. There is a drawback, though: Once one radio button in a group is selected,... (VB)"
-ms.author: riande
+ms.author: tdykstra
 ms.date: 06/02/2008
 ms.assetid: e9dd1d5a-a1db-4114-981d-6a91acb1d709
 msc.legacyurl: /web-forms/overview/ajax-control-toolkit/mutuallyexclusivecheckbox/creating-mutually-exclusive-checkboxes-vb
@@ -45,3 +45,4 @@ Only one checkbox can be checked at a time ([Click to view full-size image](crea
 
 > [!div class="step-by-step"]
 > [Previous](creating-mutually-exclusive-checkboxes-cs.md)
+

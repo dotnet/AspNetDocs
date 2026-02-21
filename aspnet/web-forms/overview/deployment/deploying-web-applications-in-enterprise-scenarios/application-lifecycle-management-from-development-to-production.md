@@ -3,7 +3,7 @@ uid: web-forms/overview/deployment/deploying-web-applications-in-enterprise-scen
 title: "Application Lifecycle Management: From Development to Production | Microsoft Docs"
 author: jrjlee
 description: "This topic illustrates how a fictional company manages the deployment of an ASP.NET web application through test, staging, and production environments as par..."
-ms.author: riande
+ms.author: wpickett
 ms.date: 05/04/2012
 ms.assetid: f97a1145-6470-4bca-8f15-ccfb25fb903c
 msc.legacyurl: /web-forms/overview/deployment/deploying-web-applications-in-enterprise-scenarios/application-lifecycle-management-from-development-to-production
@@ -206,3 +206,4 @@ This topic forms part of a series of tutorials that provide guidance on various 
 
 > [!div class="step-by-step"]
 > [Previous](enterprise-web-deployment-scenario-overview.md)
+

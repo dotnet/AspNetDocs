@@ -3,7 +3,7 @@ uid: web-api/overview/testing-and-debugging/unit-testing-with-aspnet-web-api
 title: "Unit Testing ASP.NET Web API 2 | Microsoft Docs"
 author: Rick-Anderson
 description: "This guidance and application demonstrate how to create simple unit tests for your Web API 2 application. This tutorial shows how to include a unit test proj..."
-ms.author: riande
+ms.author: tdykstra
 ms.date: 06/05/2014
 ms.assetid: bf20f78d-ff91-48be-abd1-88e23dcc70ba
 msc.legacyurl: /web-api/overview/testing-and-debugging/unit-testing-with-aspnet-web-api
@@ -152,3 +152,4 @@ Open the **Test Explorer** window, and notice the results of the tests.
 ## Summary
 
 You have completed this tutorial. The data in this tutorial was intentionally simplified to focus on unit testing conditions. For unit testing more advanced data scenarios, see [Mocking Entity Framework when Unit Testing ASP.NET Web API 2](mocking-entity-framework-when-unit-testing-aspnet-web-api-2.md).
+

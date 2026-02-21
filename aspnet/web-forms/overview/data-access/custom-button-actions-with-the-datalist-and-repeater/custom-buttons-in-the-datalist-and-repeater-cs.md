@@ -3,7 +3,7 @@ uid: web-forms/overview/data-access/custom-button-actions-with-the-datalist-and-
 title: "Custom Buttons in the DataList and Repeater (C#) | Microsoft Docs"
 author: rick-anderson
 description: "In this tutorial we'll build an interface that uses a Repeater to list the categories in the system, with each category providing a button to show its associ... (C#)"
-ms.author: riande
+ms.author: tdykstra
 ms.date: 11/13/2006
 ms.assetid: 1f42e332-78dc-438b-9e35-0c97aa0ad929
 msc.legacyurl: /web-forms/overview/data-access/custom-button-actions-with-the-datalist-and-repeater/custom-buttons-in-the-datalist-and-repeater-cs
@@ -140,3 +140,4 @@ This tutorial series was reviewed by many helpful reviewers. Lead reviewer for t
 
 > [!div class="step-by-step"]
 > [Next](custom-buttons-in-the-datalist-and-repeater-vb.md)
+

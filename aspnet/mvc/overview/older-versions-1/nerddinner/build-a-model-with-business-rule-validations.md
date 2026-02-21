@@ -3,7 +3,7 @@ uid: mvc/overview/older-versions-1/nerddinner/build-a-model-with-business-rule-v
 title: "Build a Model with Business Rule Validations | Microsoft Docs"
 author: rick-anderson
 description: "Step 3 shows how to create a model that we can use to both query and update the database for our NerdDinner application."
-ms.author: riande
+ms.author: tdykstra
 ms.date: 07/27/2010
 ms.assetid: 0bc191b2-4311-479a-a83a-7f1b1c32e6fe
 msc.legacyurl: /mvc/overview/older-versions-1/nerddinner/build-a-model-with-business-rule-validations
@@ -220,3 +220,4 @@ Let's now add some controllers and views to the project that we can use to build
 > [!div class="step-by-step"]
 > [Previous](create-a-database.md)
 > [Next](use-controllers-and-views-to-implement-a-listingdetails-ui.md)
+

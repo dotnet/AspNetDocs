@@ -3,7 +3,7 @@ uid: web-api/overview/advanced/configuring-aspnet-web-api
 title: Configuring ASP.NET Web API 2 - ASP.NET 4.x
 author: Rick-Anderson
 description: Configure settings, ASP.NET 4.x hosting, OWIN self-hosting, global services and pre-controller configuration.
-ms.author: riande
+ms.author: tdykstra
 ms.date: 03/31/2014
 ms.assetid: 9e10a700-8d91-4d2e-a31e-b8b569fe867c
 msc.legacyurl: /web-api/overview/advanced/configuring-aspnet-web-api
@@ -144,3 +144,4 @@ The **IControllerConfiguration.Initialize** method takes two parameters:
 The **HttpControllerDescriptor** contains a description of the controller, which you can examine for informational purposes (say, to distinguish between two controllers).
 
 Use the **HttpControllerSettings** object to configure the controller. This object contains the subset of configuration parameters that you can override on a per-controller basis. Any settings that you don't change default to the global **HttpConfiguration** object.
+

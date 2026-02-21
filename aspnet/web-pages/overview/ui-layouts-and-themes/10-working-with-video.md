@@ -3,7 +3,7 @@ uid: web-pages/overview/ui-layouts-and-themes/10-working-with-video
 title: "Displaying Video in an ASP.NET Web Pages (Razor) Site | Microsoft Docs"
 author: Rick-Anderson
 description: "This chapter explains how to display video in an ASP.NET Web Pages with Razor syntax page."
-ms.author: riande
+ms.author: wpickett
 ms.date: 02/20/2014
 ms.assetid: 332fb3da-e2a5-460d-bb90-dd911e1e2c95
 msc.legacyurl: /web-pages/overview/ui-layouts-and-themes/10-working-with-video
@@ -176,3 +176,4 @@ This procedure shows you how to play video contained in a Silverlight *.xap* pag
 [Flash OBJECT and EMBED tag attributes](http://kb2.adobe.com/cps/127/tn_12701.html)
 
 [Windows Media Player 11 SDK PARAM Tags](https://msdn.microsoft.com/library/aa392321(VS.85).aspx)
+

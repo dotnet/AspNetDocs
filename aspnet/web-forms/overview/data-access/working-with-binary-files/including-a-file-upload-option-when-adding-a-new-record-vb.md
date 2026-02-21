@@ -3,7 +3,7 @@ uid: web-forms/overview/data-access/working-with-binary-files/including-a-file-u
 title: "Including a File Upload Option When Adding a New Record (VB) | Microsoft Docs"
 author: rick-anderson
 description: "This tutorial shows how to create a Web interface that allows the user to both enter text data and upload binary files. To illustrate the options available t... (VB)"
-ms.author: riande
+ms.author: wpickett
 ms.date: 03/27/2007
 ms.assetid: 5776281d-4637-4d1e-a65b-2621d2cade44
 msc.legacyurl: /web-forms/overview/data-access/working-with-binary-files/including-a-file-upload-option-when-adding-a-new-record-vb
@@ -239,3 +239,4 @@ This tutorial series was reviewed by many helpful reviewers. Lead reviewers for 
 > [!div class="step-by-step"]
 > [Previous](displaying-binary-data-in-the-data-web-controls-vb.md)
 > [Next](updating-and-deleting-existing-binary-data-vb.md)
+

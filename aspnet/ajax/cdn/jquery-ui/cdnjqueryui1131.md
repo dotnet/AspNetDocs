@@ -3,7 +3,7 @@ uid: ajax/cdn/jquery-ui/cdnjqueryui1131
 title: "jQuery UI 1.13.1 on the Microsoft Ajax CDN | Microsoft Docs"
 description: Shows examples of the jQuery UI 1.13.1 themes that are hosted on the Microsoft Ajax CDN, including links to the theme's CDN hosted CSS file.
 author: rick-anderson
-ms.author: riande
+ms.author: tdykstra
 ms.date: 09/20/2016
 ms.assetid: 7bac1346-7135-4016-9d7a-4a5271159adb
 msc.legacyurl: /ajax/cdn/jquery-ui/cdnjqueryui1121
@@ -133,3 +133,4 @@ Click any of the input fields to select the full URL to the theme's CDN hosted C
 **Vader**  
 [![Screenshot of a j Query UI 1 point 13 point 1 Calendar with the Vader theme.](cdnjqueryui1121/_static/image24.png)](http://jqueryui.com/themeroller/#tr&ffDefault=Helvetica,+Arial,+sans-serif&fwDefault=normal&fsDefault=1.1&fsDefaultUnit=em&cornerRadius=5&cornerRadiusUnit=px&bgColorHeader=888888&bgTextureHeader=04_highlight_hard.png&bgImgOpacityHeader=15&borderColorHeader=404040&fcHeader=ffffff&iconColorHeader=cccccc&bgColorContent=121212&bgTextureContent=12_gloss_wave.png&bgImgOpacityContent=16&borderColorContent=404040&fcContent=eeeeee&iconColorContent=bbbbbb&bgColorDefault=adadad&bgTextureDefault=03_highlight_soft.png&bgImgOpacityDefault=35&borderColorDefault=cccccc&fcDefault=333333&iconColorDefault=666666&bgColorHover=dddddd&bgTextureHover=03_highlight_soft.png&bgImgOpacityHover=60&borderColorHover=dddddd&fcHover=000000&iconColorHover=c98000&bgColorActive=121212&bgTextureActive=05_inset_soft.png&bgImgOpacityActive=15&borderColorActive=000000&fcActive=ffffff&iconColorActive=f29a00&bgColorHighlight=555555&bgTextureHighlight=04_highlight_hard.png&bgImgOpacityHighlight=55&borderColorHighlight=404040&fcHighlight=cccccc&iconColorHighlight=aaaaaa&bgColorError=fef1ec&bgTextureError=02_glass.png&bgImgOpacityError=95&borderColorError=cd0a0a&fcError=cd0a0a&iconColorError=cd0a0a)  
 - https://ajax.aspnetcdn.com/ajax/jquery.ui/1.13.1/themes/vader/jquery-ui.css
+

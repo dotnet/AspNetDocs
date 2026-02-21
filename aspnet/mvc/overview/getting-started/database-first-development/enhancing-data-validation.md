@@ -3,7 +3,7 @@ uid: mvc/overview/getting-started/database-first-development/enhancing-data-vali
 title: "Tutorial: Enhance data validation for EF Database First with ASP.NET MVC app"
 description: "This tutorial focuses on adding data annotations to the data model to specify validation requirements and display formatting."
 author: Rick-Anderson
-ms.author: riande
+ms.author: tdykstra
 ms.date: 01/28/2019
 ms.topic: tutorial
 ms.assetid: 0ed5e67a-34c0-4b57-84a6-802b0fb3cd00
@@ -102,3 +102,4 @@ In this tutorial, you:
 To learn how to deploy a web app and SQL database to Azure App Service, see this tutorial:
 > [!div class="nextstepaction"]
 > [Deploy a .NET app to Azure App Service](/azure/app-service/app-service-web-tutorial-dotnet-sqldatabase/)
+

@@ -3,7 +3,7 @@ uid: web-pages/overview/routing/creating-readable-urls-in-aspnet-web-pages-sites
 title: "Creating Readable URLs in ASP.NET Web Pages (Razor) Sites | Microsoft Docs"
 author: Rick-Anderson
 description: "This article describes routing in an ASP.NET Web Pages (Razor) website, and how this lets you use URLs that are more readable and better for SEO. What you'll..."
-ms.author: riande
+ms.author: wpickett
 ms.date: 02/17/2014
 ms.assetid: a8aac1ac-89de-4415-afe0-97a41c6423d2
 msc.legacyurl: /web-pages/overview/routing/creating-readable-urls-in-aspnet-web-pages-sites
@@ -85,3 +85,4 @@ As described in the rules above, the request will go to your page. Inside the pa
 ## Additional Resources
 
 [WebMatrix - URLs, UrlData and Routing for SEO](http://www.mikesdotnetting.com/Article/165/WebMatrix-URLs-UrlData-and-Routing-for-SEO). This blog entry by Mike Brind provides some additional details on how routing works in ASP.NET Web Pages.
+

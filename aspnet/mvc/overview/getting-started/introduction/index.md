@@ -3,7 +3,7 @@ uid: mvc/overview/getting-started/introduction/index
 title: "Getting Started with ASP.NET MVC 5 Index | Microsoft Docs"
 author: rick-anderson
 description: "Introduction to ASP.NET MVC 5"
-ms.author: riande
+ms.author: tdykstra
 ms.date: 06/10/2013
 ms.assetid: 9afe7454-f1bd-4e81-8ecf-12fe54d080c1
 msc.legacyurl: /mvc/overview/getting-started/introduction
@@ -28,3 +28,4 @@ This following tutorial series covers ASP.NET MVC: Source located on [GitHub](ht
 - [Adding a New Field](adding-a-new-field.md)
 - [Adding Validation](adding-validation.md)
 - [Examining the Details and Delete Methods](examining-the-details-and-delete-methods.md)
+

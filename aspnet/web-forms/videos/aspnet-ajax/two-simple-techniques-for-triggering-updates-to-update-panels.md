@@ -3,7 +3,7 @@ uid: web-forms/videos/aspnet-ajax/two-simple-techniques-for-triggering-updates-t
 title: "Two Simple Techniques for Triggering Updates to Update Panels | Microsoft Docs"
 author: JoeStagner
 description: "In this video I will demonstrate two simple update techniques. First, using the selected index changed event from the drop down list control as an event trig..."
-ms.author: riande
+ms.author: wpickett
 ms.date: 03/13/2008
 ms.assetid: c844da8a-10e6-45c9-a9e2-331a3b8d3e03
 msc.legacyurl: /web-forms/videos/aspnet-ajax/two-simple-techniques-for-triggering-updates-to-update-panels
@@ -20,3 +20,4 @@ In this video I will demonstrate two simple update techniques. First, using the 
 > [!div class="step-by-step"]
 > [Previous](how-do-i-retrieve-values-from-server-side-ajax-controls.md)
 > [Next](use-aspnet-ajax-cascading-drop-down-control-to-access-a-database.md)
+

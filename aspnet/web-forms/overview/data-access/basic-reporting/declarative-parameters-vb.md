@@ -3,7 +3,7 @@ uid: web-forms/overview/data-access/basic-reporting/declarative-parameters-vb
 title: "Declarative Parameters (VB) | Microsoft Docs"
 author: rick-anderson
 description: "In this tutorial we'll illustrate how to use a parameter set to a hard-coded value to select the data to display in a DetailsView control. (VB)"
-ms.author: riande
+ms.author: tdykstra
 ms.date: 03/31/2010
 ms.assetid: dc1234a3-114f-4c9a-8d25-50ca03cc8e8e
 msc.legacyurl: /web-forms/overview/data-access/basic-reporting/declarative-parameters-vb
@@ -135,3 +135,4 @@ This tutorial series was reviewed by many helpful reviewers. Lead reviewer for t
 > [!div class="step-by-step"]
 > [Previous](displaying-data-with-the-objectdatasource-vb.md)
 > [Next](programmatically-setting-the-objectdatasource-s-parameter-values-vb.md)
+

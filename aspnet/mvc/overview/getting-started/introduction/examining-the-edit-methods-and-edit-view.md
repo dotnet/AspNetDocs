@@ -3,7 +3,7 @@ uid: mvc/overview/getting-started/introduction/examining-the-edit-methods-and-ed
 title: "Examining the Edit Action Methods and Views for the Movie Controller | Microsoft Docs"
 author: Rick-Anderson
 description: "In this tutorial, you'll examine the generated Edit action methods and views for the movie controller."
-ms.author: riande
+ms.author: tdykstra
 ms.date: 05/02/2022
 ms.custom: devdivchpfy22
 ms.assetid: 52a4d5fe-aa31-4471-b3cb-a064f82cb791
@@ -125,3 +125,4 @@ As a temporary fix, if you can't get validation working in your locale, you can 
 > [!div class="step-by-step"]
 > [Previous](accessing-your-models-data-from-a-controller.md)
 > [Next](adding-search.md)
+

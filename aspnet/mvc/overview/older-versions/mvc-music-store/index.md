@@ -3,7 +3,7 @@ uid: mvc/overview/older-versions/mvc-music-store/index
 title: "ASP.NET MVC 3 Music Store | Microsoft Docs"
 author: rick-anderson
 description: "How to create the MVC Music Store application, a sample application that sells music albums online, and that implements site administration, user sign-in, an..."
-ms.author: riande
+ms.author: tdykstra
 ms.date: 09/28/2011
 ms.assetid: f016a6b4-2a38-4e83-8c34-f6d7f2b49ba2
 msc.legacyurl: /mvc/overview/older-versions/mvc-music-store
@@ -23,3 +23,4 @@ msc.type: chapter
 - [Part 8: Shopping Cart with Ajax Updates](mvc-music-store-part-8.md)
 - [Part 9: Registration and Checkout](mvc-music-store-part-9.md)
 - [Part 10: Final Updates to Navigation and Site Design, Conclusion](mvc-music-store-part-10.md)
+

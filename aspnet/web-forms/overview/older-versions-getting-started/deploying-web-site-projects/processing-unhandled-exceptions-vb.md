@@ -3,7 +3,7 @@ uid: web-forms/overview/older-versions-getting-started/deploying-web-site-projec
 title: "Processing Unhandled Exceptions (VB) | Microsoft Docs"
 author: rick-anderson
 description: "When a runtime error occurs on a web application in production it is important to notify a developer and to log the error so that it may be diagnosed at a la... (VB)"
-ms.author: riande
+ms.author: wpickett
 ms.date: 05/03/2022
 ms.custom: devdivchpfy22
 ms.assetid: 051296f0-9519-4e78-835c-d868da13b0a0
@@ -156,3 +156,4 @@ For more information on the topics discussed in this tutorial, refer to the foll
 > [!div class="step-by-step"]
 > [Previous](displaying-a-custom-error-page-vb.md)
 > [Next](logging-error-details-with-asp-net-health-monitoring-vb.md)
+

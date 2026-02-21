@@ -3,7 +3,7 @@ uid: visual-studio/overview/2012/aspnet-and-web-tools-20131-for-visual-studio-20
 title: "Release Notes for ASP.NET and Web Tools 2013.1 for Visual Studio 2012 | Microsoft Docs"
 author: rick-anderson
 description: "This document describes the release of ASP.NET and Web Tools 2013.1 for Visual Studio 2012."
-ms.author: riande
+ms.author: tdykstra
 ms.date: 11/13/2013
 ms.assetid: ca26e5bb-630e-41d2-8512-2a9386c431cb
 msc.legacyurl: /visual-studio/overview/2012/aspnet-and-web-tools-20131-for-visual-studio-2012
@@ -189,3 +189,4 @@ Alternatively, you can enable ASP.NET 4.5 through the command line.
 1. Open Command Prompt in the Administrator mode.
 2. Run the following command to enable ASP.NET 4.5.  
     `dism /Online /Enable-Feature /FeatureName:NetFx4Extended-ASPNET45 /Quiet /NoRestart`
+

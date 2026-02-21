@@ -3,7 +3,7 @@ uid: web-forms/overview/presenting-and-managing-data/model-binding/updating-dele
 title: "Updating, deleting, and creating data with model binding and web forms | Microsoft Docs"
 author: Rick-Anderson
 description: "This tutorial series demonstrates basic aspects of using model binding with an ASP.NET Web Forms project. Model binding makes data interaction more straight-forward."
-ms.author: riande
+ms.author: wpickett
 ms.date: 02/27/2014
 ms.assetid: 602baa94-5a4f-46eb-a717-7a9e539c1db4
 msc.legacyurl: /web-forms/overview/presenting-and-managing-data/model-binding/updating-deleting-and-creating-data
@@ -126,3 +126,4 @@ In the next [tutorial](sorting-paging-and-filtering-data.md) in this series, you
 > [!div class="step-by-step"]
 > [Previous](retrieving-data.md)
 > [Next](sorting-paging-and-filtering-data.md)
+

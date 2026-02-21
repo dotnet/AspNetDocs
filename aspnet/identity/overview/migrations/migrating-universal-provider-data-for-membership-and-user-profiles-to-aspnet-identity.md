@@ -3,7 +3,7 @@ uid: identity/overview/migrations/migrating-universal-provider-data-for-membersh
 title: "Migrating Universal Provider Data for Membership and User Profiles to ASP.NET Identity (C#) - ASP.NET 4.x"
 author: rustd
 description: "This tutorial describes the steps that are necessary to migrate user and role data and user profile data created using Universal Providers of an existing app..."
-ms.author: riande
+ms.author: tdykstra
 ms.date: 04/26/2022
 ms.custom: devdivchpfy22
 ms.assetid: 2e260430-d13c-4658-bd05-e256fc0d63b8
@@ -136,3 +136,4 @@ The Profile data for the old user and the new users should be retrieved and stor
 The article described the process of migrating web applications that used the provider model for membership to ASP.NET Identity. The article additionally outlined migrating profile data for users to be hooked into the Identity system. Please leave comments below for questions and issues encountered when you migrate your app.
 
 *Thanks to Rick Anderson and Robert McMurray for reviewing the article.*
+

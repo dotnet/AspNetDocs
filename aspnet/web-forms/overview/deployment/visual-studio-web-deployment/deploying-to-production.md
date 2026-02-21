@@ -3,11 +3,14 @@ uid: web-forms/overview/deployment/visual-studio-web-deployment/deploying-to-pro
 title: "ASP.NET Web Deployment using Visual Studio: Deploying to Production | Microsoft Docs"
 author: tdykstra
 description: "This tutorial series shows you how to deploy (publish) an ASP.NET web application to Azure App Service Web Apps or a third-party hosting provider."
-ms.author: riande
+ms.author: wpickett
 ms.date: 02/15/2013
 ms.assetid: 416438a1-3b2f-4d27-bf53-6b76223c33bf
 msc.legacyurl: /web-forms/overview/deployment/visual-studio-web-deployment/deploying-to-production
 msc.type: authoredcontent
+ms.custom:
+  - sfi-image-nochange
+  - sfi-ropc-nochange
 ---
 # ASP.NET Web Deployment using Visual Studio: Deploying to Production
 
@@ -27,7 +30,7 @@ Reminder: If you get an error message or something doesn't work as you go throug
 
 ## Get a Microsoft Azure account
 
-If you don't already have an Azure account, you can create a free trial account in just a couple of minutes. For details, see [Azure Free Trial](https://azure.microsoft.com/free/dotnet/).
+If you don't already have an Azure account, you can create a free trial account in just a couple of minutes. For details, see [Azure Free Trial](https://azure.microsoft.com/pricing/purchase-options/azure-account?cid=msft_learn).
 
 ## Create a staging environment
 
@@ -290,3 +293,4 @@ In the next tutorial, you'll update application code and deploy the change to th
 > [!div class="step-by-step"]
 > [Previous](setting-folder-permissions.md)
 > [Next](deploying-a-code-update.md)
+

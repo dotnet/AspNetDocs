@@ -3,7 +3,7 @@ uid: mvc/overview/older-versions/getting-started-with-ef-5-using-mvc-4/implement
 title: "Implementing the Repository and Unit of Work Patterns in an ASP.NET MVC Application (9 of 10) | Microsoft Docs"
 author: tdykstra
 description: "The Contoso University sample web application demonstrates how users can create ASP.NET MVC 4 applications by using the Entity Framework 5 Code First and Visual Studio."
-ms.author: riande
+ms.author: tdykstra
 ms.date: 07/30/2013
 ms.assetid: 44761193-04ba-4990-9f90-145d3c10a716
 msc.legacyurl: /mvc/overview/older-versions/getting-started-with-ef-5-using-mvc-4/implementing-the-repository-and-unit-of-work-patterns-in-an-asp-net-mvc-application
@@ -238,3 +238,4 @@ Links to other Entity Framework resources can be found in the [ASP.NET Data Acce
 > [!div class="step-by-step"]
 > [Previous](implementing-inheritance-with-the-entity-framework-in-an-asp-net-mvc-application.md)
 > [Next](advanced-entity-framework-scenarios-for-an-mvc-web-application.md)
+

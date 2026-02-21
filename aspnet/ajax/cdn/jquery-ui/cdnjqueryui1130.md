@@ -3,7 +3,7 @@ uid: ajax/cdn/jquery-ui/cdnjqueryui1130
 title: "jQuery UI 1.13.0 on the Microsoft Ajax CDN | Microsoft Docs"
 description: Shows examples of the jQuery UI 1.13.0 themes that are hosted on the Microsoft Ajax CDN, including links to the theme's CDN hosted CSS file.
 author: rick-anderson
-ms.author: riande
+ms.author: tdykstra
 ms.date: 10/13/2021
 ms.assetid: 7bac1346-7135-4016-9d7a-4a5271159adb
 msc.legacyurl: /ajax/cdn/jquery-ui/cdnjqueryui1121
@@ -109,3 +109,4 @@ Click any of the input fields to select the full URL to the theme's CDN hosted C
 
 **Vader**  
 - https://ajax.aspnetcdn.com/ajax/jquery.ui/1.13.0/themes/vader/jquery-ui.css
+

@@ -3,7 +3,7 @@ uid: web-forms/videos/aspnet-ajax/implement-infinite-data-patterns-in-ajax
 title: "Implement Infinite Data Patterns in AJAX | Microsoft Docs"
 author: JoeStagner
 description: "In this video I will show you how to implement what I refer to as the infinite data pattern for AJAX."
-ms.author: riande
+ms.author: wpickett
 ms.date: 04/10/2008
 ms.assetid: 5e18f005-8b3d-4b9a-866c-c567874aa826
 msc.legacyurl: /web-forms/videos/aspnet-ajax/implement-infinite-data-patterns-in-ajax
@@ -20,3 +20,4 @@ In this video I will show you how to implement what I refer to as the infinite d
 > [!div class="step-by-step"]
 > [Previous](use-aspnet-ajax-cascading-drop-down-control-to-access-a-database.md)
 > [Next](basic-aspnet-authentication-in-an-ajax-enabled-application.md)
+

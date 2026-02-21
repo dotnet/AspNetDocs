@@ -3,7 +3,7 @@ uid: web-api/overview/data/using-web-api-with-entity-framework/part-6
 title: Create the JavaScript Client | Microsoft Docs
 author: Rick-Anderson
 description: Describes how to use HTML, JavaScript, and the Knockout.js library to create the application client.
-ms.author: riande
+ms.author: tdykstra
 ms.date: 06/16/2014
 ms.assetid: 20360326-b123-4b1e-abae-1d350edf4ce4
 msc.legacyurl: /web-api/overview/data/using-web-api-with-entity-framework/part-6
@@ -65,3 +65,4 @@ Open the file App\_Start/BundleConfig.cs. Add the following code to the Register
 > [!div class="step-by-step"]
 > [Previous](part-5.md)
 > [Next](part-7.md)
+

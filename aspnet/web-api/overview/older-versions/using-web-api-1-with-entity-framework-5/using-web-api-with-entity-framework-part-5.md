@@ -3,7 +3,7 @@ uid: web-api/overview/older-versions/using-web-api-1-with-entity-framework-5/usi
 title: "Part 5: Creating a Dynamic UI with Knockout.js | Microsoft Docs"
 author: Rick-Anderson
 description: "In this section, we'll use Knockout.js, a Javascript library that makes it easy to bind HTML controls to data, to add functionality to the Admin view."
-ms.author: riande
+ms.author: tdykstra
 ms.date: 07/04/2012
 ms.assetid: 9d9cb3b0-f4a7-434e-a508-9fc0ad0eb813
 msc.legacyurl: /web-api/overview/older-versions/using-web-api-1-with-entity-framework-5/using-web-api-with-entity-framework-part-5
@@ -92,3 +92,4 @@ Run the application, log in with the Administrator account, and click the "Admin
 > [!div class="step-by-step"]
 > [Previous](using-web-api-with-entity-framework-part-4.md)
 > [Next](using-web-api-with-entity-framework-part-6.md)
+

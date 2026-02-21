@@ -3,7 +3,7 @@ uid: mvc/overview/older-versions-1/nerddinner/provide-crud-create-read-update-de
 title: "Provide CRUD (Create, Read, Update, Delete) Data Form Entry Support | Microsoft Docs"
 author: rick-anderson
 description: "Step 5 shows how to take our DinnersController class further by enable support for editing, creating and deleting Dinners with it as well."
-ms.author: riande
+ms.author: tdykstra
 ms.date: 04/20/2022
 ms.custom: devdivchpfy22
 ms.assetid: bbb976e5-6150-4283-a374-c22fbafe29f5
@@ -421,3 +421,4 @@ Let's now look at how we can use ViewData and ViewModel classes to enable even r
 > [!div class="step-by-step"]
 > [Previous](use-controllers-and-views-to-implement-a-listingdetails-ui.md)
 > [Next](use-viewdata-and-implement-viewmodel-classes.md)
+

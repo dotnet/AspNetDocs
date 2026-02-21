@@ -3,7 +3,7 @@ uid: web-api/overview/error-handling/exception-handling
 title: Exception Handling in ASP.NET Web API - ASP.NET 4.x
 author: Rick-Anderson
 description: Describes ASP.NET Web API executes error and exception handling and provides examples for errors and exceptions.
-ms.author: riande
+ms.author: tdykstra
 ms.date: 03/12/2012
 ms.assetid: cbebeb37-2594-41f2-b71a-f4f26520d512
 msc.legacyurl: /web-api/overview/error-handling/exception-handling
@@ -104,3 +104,4 @@ For more information about model validation, see [Model Validation in ASP.NET We
 The previous examples return an **HttpResponseMessage** message from the controller action, but you can also use **HttpResponseException** to return an **HttpError**. This lets you return a strongly-typed model in the normal success case, while still returning **HttpError** if there is an error:
 
 [!code-csharp[Main](exception-handling/samples/sample12.cs)]
+

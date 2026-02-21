@@ -3,7 +3,7 @@ uid: web-api/overview/security/basic-authentication
 title: "Basic Authentication in ASP.NET Web API | Microsoft Docs"
 author: Rick-Anderson
 description: "Describes using Basic Authentication in ASP.NET Web API."
-ms.author: riande
+ms.author: tdykstra
 ms.date: 10/02/2014
 ms.assetid: 41423767-0021-47c3-9e53-0021b457c39f
 msc.legacyurl: /web-api/overview/security/basic-authentication
@@ -75,3 +75,4 @@ To enable the HTTP module, add the following to your web.config file in the **sy
 Replace "YourAssemblyName" with the name of the assembly (not including the "dll" extension).
 
 You should disable other authentication schemes, such as Forms or Windows auth.
+

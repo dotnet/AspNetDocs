@@ -2,7 +2,7 @@
 title: Work with SameSite cookies and the Open Web Interface for .NET (OWIN)
 author: rick-anderson
 description: Work with SameSite cookies and the Open Web Interface for .NET (OWIN)
-ms.author: riande
+ms.author: tdykstra
 ms.date: 12/6/2019
 uid: owin-samesite
 ---
@@ -144,3 +144,4 @@ Versions of Electron include older versions of Chromium. For example, the versio
 * [Chromium Blog:Developers: Get Ready for New SameSite=None; Secure Cookie Settings](https://blog.chromium.org/2019/10/developers-get-ready-for-new.html)
 * [SameSite cookies explained](https://web.dev/samesite-cookies-explained/)
 * [OWIN and System.Web response cookie integration issues](https://github.com/aspnet/AspNetKatana/wiki/System.Web-response-cookie-integration-issues)
+

@@ -3,7 +3,7 @@ uid: web-pages/videos/aspnet-razor-pages/displaying-data-in-a-chart-part-1
 title: "Displaying Data in a Chart (Part 1) | Microsoft Docs"
 author: JoeStagner
 description: "Video accompaniment to the Displaying Data in a Chart tutorial (Part 1)"
-ms.author: riande
+ms.author: wpickett
 ms.date: 02/25/2011
 ms.assetid: 47b7f30e-ae86-46e4-b5a4-e7452093becc
 msc.legacyurl: /web-pages/videos/aspnet-razor-pages/displaying-data-in-a-chart-part-1
@@ -20,3 +20,4 @@ Video accompaniment to the Displaying Data in a Chart tutorial (Part 1)
 > [!div class="step-by-step"]
 > [Previous](displaying-data-in-a-grid.md)
 > [Next](displaying-data-in-a-chart-part-2.md)
+

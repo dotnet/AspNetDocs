@@ -3,7 +3,7 @@ uid: web-api/overview/releases/whats-new-in-aspnet-web-api-odata-53
 title: "What's New in ASP.NET Web API OData 5.3 | Microsoft Docs"
 author: rick-anderson
 description: This topic describes the new features and bug fixes introduced in ASP.NET Web API OData 5.3 and provides links to downloads and documentation.
-ms.author: riande
+ms.author: tdykstra
 ms.date: 09/16/2014
 ms.assetid: e39eaa25-83ff-41dc-869d-3818d59a88ae
 msc.legacyurl: /web-api/overview/releases/whats-new-in-aspnet-web-api-odata-53
@@ -102,3 +102,4 @@ This release also includes several bug fixes and minor feature updates.
 ## ASP.NET Web API OData 5.3.1
 
 In this release we made a bug fix to some of the AllowedFunctions enums. This release doesn't have any other bug fixes or new features.
+

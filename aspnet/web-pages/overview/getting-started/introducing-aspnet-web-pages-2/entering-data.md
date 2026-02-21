@@ -3,7 +3,7 @@ uid: web-pages/overview/getting-started/introducing-aspnet-web-pages-2/entering-
 title: "Introducing ASP.NET Web Pages - Entering Database Data by Using Forms | Microsoft Docs"
 author: Rick-Anderson
 description: "This tutorial shows you how to create an entry form and then enter the data that you get from the form into a database table when you use ASP.NET Web Pages (..."
-ms.author: riande
+ms.author: wpickett
 ms.date: 05/28/2015
 ms.assetid: d37c93fc-25fd-4e94-8671-0d437beef206
 msc.legacyurl: /web-pages/overview/getting-started/introducing-aspnet-web-pages-2/entering-data
@@ -252,3 +252,4 @@ In the next tutorial, you'll learn how to let users edit data that's already in 
 > [!div class="step-by-step"]
 > [Previous](form-basics.md)
 > [Next](updating-data.md)
+

@@ -3,7 +3,7 @@ uid: web-forms/videos/aspnet-35/index
 title: "ASP.NET 3.5 | Microsoft Docs"
 author: rick-anderson
 description: "How to build ASP.NET 3.5 applications, with an emphasis on new features."
-ms.author: riande
+ms.author: wpickett
 ms.date: 10/05/2011
 ms.assetid: 2e6e9c24-bb97-446a-b05e-1bd88824d352
 msc.legacyurl: /web-forms/videos/aspnet-35
@@ -51,3 +51,4 @@ msc.type: chapter
     - [IntelliSense for Jscript and ASP.NET AJAX](visual-studio-editor/intellisense-for-jscript-and-aspnet-ajax.md)
     - [Quick Tour of the Visual Studio 2008 Integrated Development Environment](visual-studio-editor/quick-tour-of-the-visual-studio-2008-integrated-development-environment.md)
     - [Creating and Modifying a CSS File](visual-studio-editor/creating-and-modifying-a-css-file.md)
+

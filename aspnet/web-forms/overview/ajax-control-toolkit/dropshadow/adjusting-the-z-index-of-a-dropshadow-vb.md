@@ -3,7 +3,7 @@ uid: web-forms/overview/ajax-control-toolkit/dropshadow/adjusting-the-z-index-of
 title: "Adjusting the Z-Index of a DropShadow (VB) | Microsoft Docs"
 author: wenz
 description: "The DropShadow control in the AJAX Control Toolkit extends a panel with a drop shadow. However this shadow sometimes conflicts with other controls, for insta... (VB)"
-ms.author: riande
+ms.author: tdykstra
 ms.date: 06/02/2008
 ms.assetid: ecb004b5-82c0-44fb-bcaf-233fffac6195
 msc.legacyurl: /web-forms/overview/ajax-control-toolkit/dropshadow/adjusting-the-z-index-of-a-dropshadow-vb
@@ -59,3 +59,4 @@ After: The menu entry appears ([Click to view full-size image](adjusting-the-z-i
 > [!div class="step-by-step"]
 > [Previous](manipulating-dropshadow-properties-from-client-code-cs.md)
 > [Next](manipulating-dropshadow-properties-from-client-code-vb.md)
+

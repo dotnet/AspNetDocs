@@ -3,7 +3,7 @@ uid: web-api/overview/advanced/sending-html-form-data-part-1
 title: "Sending HTML Form Data in ASP.NET Web API: Form-urlencoded Data - ASP.NET 4.x"
 author: Rick-Anderson
 description: This article shows how to post form-urlencoded data to a Web API controller with ASP.NET 4.x
-ms.author: riande
+ms.author: tdykstra
 ms.date: 06/15/2012
 ms.assetid: 585351c4-809a-4bf5-bcbe-35d624f565fe
 msc.legacyurl: /web-api/overview/advanced/sending-html-form-data-part-1
@@ -122,3 +122,4 @@ You can use the same approach to send an array of simple types:
 ## Additional Resources
 
 [Part 2: File Upload and Multipart MIME](sending-html-form-data-part-2.md)
+

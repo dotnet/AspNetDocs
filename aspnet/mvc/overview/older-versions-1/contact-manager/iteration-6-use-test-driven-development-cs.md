@@ -3,7 +3,7 @@ uid: mvc/overview/older-versions-1/contact-manager/iteration-6-use-test-driven-d
 title: "Iteration #6 – Use test-driven development (C#) | Microsoft Docs"
 author: rick-anderson
 description: "In this sixth iteration, we add new functionality to our application by writing unit tests first and writing code against the unit tests. In this iteration,... (C#)"
-ms.author: riande
+ms.author: tdykstra
 ms.date: 02/20/2009
 ms.assetid: 013c3c26-7dc3-41d1-8064-f233c86008b5
 msc.legacyurl: /mvc/overview/older-versions-1/contact-manager/iteration-6-use-test-driven-development-cs
@@ -332,3 +332,4 @@ In the next iteration -- the final iteration -- we rewrite our application to ta
 > [!div class="step-by-step"]
 > [Previous](iteration-5-create-unit-tests-cs.md)
 > [Next](iteration-7-add-ajax-functionality-cs.md)
+

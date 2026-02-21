@@ -3,7 +3,7 @@ uid: mvc/overview/older-versions-1/contact-manager/index
 title: "Contact Manager | Microsoft Docs"
 author: rick-anderson
 description: "How to build an entire Contact Management application from start to finish."
-ms.author: riande
+ms.author: tdykstra
 ms.date: 09/28/2011
 ms.assetid: 6b0f1fd7-6768-4549-ae9c-be9131103c4d
 msc.legacyurl: /mvc/overview/older-versions-1/contact-manager
@@ -27,3 +27,4 @@ msc.type: chapter
 - [Iteration #5 – Create unit tests (VB)](iteration-5-create-unit-tests-vb.md)
 - [Iteration #6 – Use test-driven development (VB)](iteration-6-use-test-driven-development-vb.md)
 - [Iteration #7 – Add Ajax functionality (VB)](iteration-7-add-ajax-functionality-vb.md)
+

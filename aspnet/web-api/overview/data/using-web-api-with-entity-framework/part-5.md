@@ -3,7 +3,7 @@ uid: web-api/overview/data/using-web-api-with-entity-framework/part-5
 title: Create Data Transfer Objects (DTOs) | Microsoft Docs
 author: Rick-Anderson
 description: Describes how to create data transfer objects (DTOs) manually using code to change the shape of the data sent to the client.
-ms.author: riande
+ms.author: tdykstra
 ms.date: 06/16/2014
 ms.assetid: 0fd07176-b74b-48f0-9fac-0f02e3ffa213
 msc.legacyurl: /web-api/overview/data/using-web-api-with-entity-framework/part-5
@@ -46,3 +46,4 @@ Finally, modify the `PostBook` method to return a DTO.
 > [!div class="step-by-step"]
 > [Previous](part-4.md)
 > [Next](part-6.md)
+

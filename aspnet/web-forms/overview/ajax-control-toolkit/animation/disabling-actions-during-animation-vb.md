@@ -3,7 +3,7 @@ uid: web-forms/overview/ajax-control-toolkit/animation/disabling-actions-during-
 title: "Disabling Actions during Animation (VB) | Microsoft Docs"
 author: wenz
 description: "The Animation control in the ASP.NET AJAX Control Toolkit is not just a control but a whole framework to add animations to a control. It also supports action... (VB)"
-ms.author: riande
+ms.author: tdykstra
 ms.date: 06/02/2008
 ms.assetid: a86c0276-6481-46ee-8b4f-8c2009399ee9
 msc.legacyurl: /web-forms/overview/ajax-control-toolkit/animation/disabling-actions-during-animation-vb
@@ -54,3 +54,4 @@ The button is disabled as soon as the animation runs ([Click to view full-size i
 > [!div class="step-by-step"]
 > [Previous](animating-in-response-to-user-interaction-vb.md)
 > [Next](triggering-an-animation-in-another-control-vb.md)
+

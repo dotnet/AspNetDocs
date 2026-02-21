@@ -3,11 +3,12 @@ uid: web-forms/overview/deployment/configuring-server-environments-for-web-deplo
 title: "Configuring a Web Server for Web Deploy Publishing (Remote Agent) | Microsoft Docs"
 author: jrjlee
 description: "This topic describes how to configure an Internet Information Services (IIS) web server to support web publishing and deployment using the IIS Web Deployment..."
-ms.author: riande
+ms.author: wpickett
 ms.date: 05/04/2012
 ms.assetid: 239c7aa8-d09a-4d02-9c0e-6bd52be5f0d5
 msc.legacyurl: /web-forms/overview/deployment/configuring-server-environments-for-web-deployment/configuring-a-web-server-for-web-deploy-publishing-remote-agent
 msc.type: authoredcontent
+ms.custom: sfi-image-nochange
 ---
 # Configuring a Web Server for Web Deploy Publishing (Remote Agent)
 
@@ -221,3 +222,4 @@ For guidance on how to configure custom Microsoft Build Engine (MSBuild) project
 > [!div class="step-by-step"]
 > [Previous](scenario-configuring-a-production-environment-for-web-deployment.md)
 > [Next](configuring-a-web-server-for-web-deploy-publishing-web-deploy-handler.md)
+

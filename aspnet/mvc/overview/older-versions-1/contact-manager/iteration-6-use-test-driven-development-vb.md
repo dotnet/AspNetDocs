@@ -3,7 +3,7 @@ uid: mvc/overview/older-versions-1/contact-manager/iteration-6-use-test-driven-d
 title: "Iteration #6 – Use test-driven development (VB) | Microsoft Docs"
 author: rick-anderson
 description: "In this sixth iteration, we add new functionality to our application by writing unit tests first and writing code against the unit tests. In this iteration,... (VB)"
-ms.author: riande
+ms.author: tdykstra
 ms.date: 02/20/2009
 ms.assetid: e1fd226f-3f8e-4575-a179-5c75b240333d
 msc.legacyurl: /mvc/overview/older-versions-1/contact-manager/iteration-6-use-test-driven-development-vb
@@ -332,3 +332,4 @@ In the next iteration -- the final iteration -- we rewrite our application to ta
 > [!div class="step-by-step"]
 > [Previous](iteration-5-create-unit-tests-vb.md)
 > [Next](iteration-7-add-ajax-functionality-vb.md)
+

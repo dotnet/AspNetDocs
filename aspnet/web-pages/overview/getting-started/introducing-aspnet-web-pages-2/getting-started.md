@@ -3,7 +3,7 @@ uid: web-pages/overview/getting-started/introducing-aspnet-web-pages-2/getting-s
 title: "Getting Started with ASP.NET | Microsoft Docs"
 author: Rick-Anderson
 description: "WebMatrix is no longer recommended as an integrated development environment for ASP.NET Web Pages. Use Visual Studio or Visual Studio Code. This guidance an..."
-ms.author: riande
+ms.author: wpickett
 ms.date: 05/28/2015
 ms.assetid: a36d3bdf-ef1b-47a4-b932-3a0cf4cad716
 msc.legacyurl: /web-pages/overview/getting-started/introducing-aspnet-web-pages-2/getting-started
@@ -147,7 +147,7 @@ The installation process figures out what it has to install on your computer and
 
 When it's done, the installation process can launch WebMatrix automatically. If it doesn't, in Windows, from the **Start** menu, launch **Microsoft WebMatrix**.
 
-When you launch WebMatrix for the first time, you are given a chance to sign in to Microsoft Azure with your Microsoft account. By signing in, you will receive 10 free web apps through Azure. These free web apps provide a convenient way to test your apps. If you don't already have an Azure account, but you do have an MSDN subscription, you can [activate your MSDN subscription benefits](https://www.windowsazure.com/pricing/member-offers/msdn-benefits-details/?WT.mc_id=A443DD604). Otherwise, you can create a free trial account in just a couple of minutes. For details, see [Azure Free Trial](https://azure.microsoft.com/free/dotnet/).
+When you launch WebMatrix for the first time, you are given a chance to sign in to Microsoft Azure with your Microsoft account. By signing in, you will receive 10 free web apps through Azure. These free web apps provide a convenient way to test your apps. If you don't already have an Azure account, but you do have an MSDN subscription, you can [activate your MSDN subscription benefits](https://www.windowsazure.com/pricing/member-offers/msdn-benefits-details/?WT.mc_id=A443DD604). Otherwise, you can create a free trial account in just a couple of minutes. For details, see [Azure Free Trial](https://azure.microsoft.com/pricing/purchase-options/azure-account?cid=msft_learn).
 
 You do not have to sign in right now to continue with this tutorial. If you do not sign in now, you will still have the option to sign in later. The last [topic](publishing.md) in this tutorial series covers how to deploy your website to Azure; therefore, you would need to sign in to complete that topic.
 
@@ -283,3 +283,4 @@ In the next tutorial in this series, you explore ASP.NET Web Pages programming a
 
 > [!div class="step-by-step"]
 > [Next](intro-to-web-pages-programming.md)
+

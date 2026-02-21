@@ -3,7 +3,7 @@ uid: mvc/overview/older-versions-1/index
 title: "Older Versions - MVC 1 and 2 | Microsoft Docs"
 author: rick-anderson
 description: "Resources for learning how to program MVC 1 and 2."
-ms.author: riande
+ms.author: tdykstra
 ms.date: 10/10/2014
 ms.assetid: 1506f70f-6919-45bd-8c75-a17aff77510c
 msc.legacyurl: /mvc/overview/older-versions-1
@@ -131,3 +131,4 @@ msc.type: chapter
 
     - [Create a Movie Database Application in 15 Minutes with ASP.NET MVC (C#)](movie-database/create-a-movie-database-application-in-15-minutes-with-asp-net-mvc-cs.md)
     - [Create a Movie Database Application in 15 Minutes with ASP.NET MVC (VB)](movie-database/create-a-movie-database-application-in-15-minutes-with-asp-net-mvc-vb.md)
+

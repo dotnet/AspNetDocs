@@ -3,7 +3,7 @@ uid: web-pages/overview/index
 title: "Web Pages Guidance | Microsoft Docs"
 author: rick-anderson
 description: "Web Pages Guidance"
-ms.author: riande
+ms.author: wpickett
 ms.date: 05/18/2012
 ms.assetid: 1a2ed0e8-63da-4110-9896-e2731d86f7c4
 msc.legacyurl: /web-pages/overview
@@ -77,3 +77,4 @@ msc.type: book
     - [Top Features in ASP.NET Web Pages 2](releases/top-features-in-web-pages-2.md)
     - [ASP.NET Web Pages 2 Developer Preview ReadMe](releases/aspnet-web-pages-2-developer-preview-readme.md)
     - [Running Different Versions of ASP.NET Web Pages Side by Side](releases/running-v1-and-v2-sites-side-by-side.md)
+

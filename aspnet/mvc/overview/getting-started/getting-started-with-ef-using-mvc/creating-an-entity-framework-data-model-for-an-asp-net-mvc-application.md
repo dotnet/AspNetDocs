@@ -3,12 +3,13 @@ uid: mvc/overview/getting-started/getting-started-with-ef-using-mvc/creating-an-
 title: "Tutorial: Get Started with Entity Framework 6 Code First using MVC 5 | Microsoft Docs"
 description: "In this series of tutorials, you learn how to build an ASP.NET MVC 5 application that uses Entity Framework 6 for data access."
 author: tdykstra
-ms.author: riande
+ms.author: tdykstra
 ms.date: 01/22/2019
 ms.topic: tutorial
 ms.assetid: 00bc8b51-32ed-4fd3-9745-be4c2a9c1eaf
 msc.legacyurl: /mvc/overview/getting-started/getting-started-with-ef-using-mvc/creating-an-entity-framework-data-model-for-an-asp-net-mvc-application
 msc.type: authoredcontent
+ms.custom: sfi-ropc-nochange
 ---
 
 # Tutorial: Get Started with Entity Framework 6 Code First using MVC 5
@@ -314,3 +315,4 @@ In this tutorial, you:
 Advance to the next article to learn how to review and customize the create, read, update, delete (CRUD) code in your controllers and views.
 > [!div class="nextstepaction"]
 > [Implement basic CRUD functionality](implementing-basic-crud-functionality-with-the-entity-framework-in-asp-net-mvc-application.md)
+

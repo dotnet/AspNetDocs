@@ -3,7 +3,7 @@ uid: web-forms/overview/deployment/advanced-enterprise-web-deployment/advanced-e
 title: "Advanced Enterprise Web Deployment | Microsoft Docs"
 author: jrjlee
 description: "This tutorial will show you how to perform various tasks that are required or desirable in a lot of enterprise deployment scenarios. For an Italian translati..."
-ms.author: riande
+ms.author: wpickett
 ms.date: 05/04/2012
 ms.assetid: 7dcaba80-f2ec-4db3-ad98-daadc3afdb49
 msc.legacyurl: /web-forms/overview/deployment/advanced-enterprise-web-deployment/advanced-enterprise-web-deployment
@@ -59,3 +59,4 @@ This forms part of a series of five tutorials on enterprise-scale web deployment
 
 > [!div class="step-by-step"]
 > [Next](performing-a-what-if-deployment.md)
+

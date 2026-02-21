@@ -3,7 +3,7 @@ uid: web-forms/overview/deployment/configuring-team-foundation-server-for-web-de
 title: "Configuring a TFS Build Server for Web Deployment | Microsoft Docs"
 author: jrjlee
 description: "This topic describes how to prepare a Team Foundation Server (TFS) build server to build and deploy your solutions using Team Build and the Internet Informat..."
-ms.author: riande
+ms.author: wpickett
 ms.date: 05/04/2012
 ms.assetid: f8400241-4f4b-4bbd-9994-54fb64909e6e
 msc.legacyurl: /web-forms/overview/deployment/configuring-team-foundation-server-for-web-deployment/configuring-a-tfs-build-server-for-web-deployment
@@ -106,3 +106,4 @@ For more general guidance on working with Team Build, see [Administering Team Fo
 > [!div class="step-by-step"]
 > [Previous](adding-content-to-source-control.md)
 > [Next](creating-a-build-definition-that-supports-deployment.md)
+

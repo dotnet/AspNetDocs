@@ -3,7 +3,7 @@ uid: whitepapers/aspnet-data-access-content-map
 title: "ASP.NET Data Access - Recommended Resources | Microsoft Docs"
 author: rick-anderson
 description: "This topic provides links to documentation resources about how to access data in ASP.NET web applications, primarily by using the Entity Framework and SQL Se..."
-ms.author: riande
+ms.author: wpickett
 ms.date: 07/25/2013
 ms.assetid: f8157be1-4ab9-469e-ad3a-0ccc80b56c00
 msc.legacyurl: /whitepapers/aspnet-data-access-content-map
@@ -308,3 +308,4 @@ See also [Optimizing Entity Framework performance](#optimizingef) earlier in thi
 - [ASP.NET MVC Content Map](../mvc/overview/getting-started/recommended-resources-for-mvc.md).
 - [ASP.NET Web Pages Tutorials - Data](../web-pages/overview/data/index.md).
 - [Accessing Data in Visual Studio](https://msdn.microsoft.com/library/wzabh8c4.aspx) (MSDN). Provides a list of links similar to this content map but with a focus on Visual Studio rather than ASP.NET.
+

@@ -3,11 +3,14 @@ uid: identity/overview/getting-started/aspnet-identity-using-mysql-storage-with-
 title: "ASP.NET Identity: Using MySQL Storage with an EntityFramework MySQL Provider (C#) - ASP.NET 4.x"
 author: maumar
 description: "This tutorial shows you how to replace the default data storage mechanism for ASP.NET Identity with EntityFramework (SQL client provider) with a MySQL provid..."
-ms.author: riande
+ms.author: tdykstra
 ms.date: 12/10/2013
 ms.assetid: 15253312-a92c-43ba-908e-b5dacd3d08b8
 msc.legacyurl: /identity/overview/getting-started/aspnet-identity-using-mysql-storage-with-an-entityframework-mysql-provider
 msc.type: authoredcontent
+ms.custom:
+  - sfi-image-nochange
+  - sfi-ropc-nochange
 ---
 # ASP.NET Identity: Using MySQL Storage with an EntityFramework MySQL Provider (C#)
 
@@ -173,3 +176,4 @@ Once you have completed the steps in the preceding sections, you should test you
 
    [Click the following image to expand it. ]
     [![Screenshot of a s p net users table, with entries displaying I D, User Name, Password Hash, Security Stamp, and Discriminator columns.](aspnet-identity-using-mysql-storage-with-an-entityframework-mysql-provider/_static/image26.png)](aspnet-identity-using-mysql-storage-with-an-entityframework-mysql-provider/_static/image25.png)
+

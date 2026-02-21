@@ -3,7 +3,7 @@ uid: ajax/cdn/jquery-ui/cdnjqueryui1103
 title: "jQuery UI 1.10.3 on the Microsoft Ajax CDN | Microsoft Docs"
 description: Shows examples of the jQuery UI 1.10.3 themes that are hosted on the Microsoft Ajax CDN, including links to the theme's CDN hosted CSS file.
 author: rick-anderson
-ms.author: riande
+ms.author: tdykstra
 ms.date: 07/22/2014
 ms.assetid: a37291db-e0ed-4257-b212-6912e423980d
 msc.legacyurl: /ajax/cdn/jquery-ui/cdnjqueryui1103
@@ -137,3 +137,4 @@ Click any of the input fields to select the full URL to the theme's CDN hosted C
 ## Internationalization/Localization
 
 The i18n folder contains localization information for the jQuery UI library.
+

@@ -3,7 +3,7 @@ uid: mvc/overview/older-versions-1/nerddinner/use-viewdata-and-implement-viewmod
 title: Use ViewData and Implement ViewModel Classes | Microsoft Docs
 author: rick-anderson
 description: Step 6 shows how enable support for richer form editing scenarios, and also discusses two approaches that can be used to pass data from controllers to views:...
-ms.author: riande
+ms.author: tdykstra
 ms.date: 07/27/2010
 ms.assetid: 5755ec4c-60f1-4057-9ec0-3a5de3a20e23
 msc.legacyurl: /mvc/overview/older-versions-1/nerddinner/use-viewdata-and-implement-viewmodel-classes
@@ -120,3 +120,4 @@ Let's now look at how we can use partials and master-pages to re-use and share U
 > [!div class="step-by-step"]
 > [Previous](provide-crud-create-read-update-delete-data-form-entry-support.md)
 > [Next](re-use-ui-using-master-pages-and-partials.md)
+

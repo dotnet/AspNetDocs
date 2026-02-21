@@ -3,11 +3,12 @@ uid: web-forms/overview/deployment/visual-studio-web-deployment/command-line-dep
 title: "ASP.NET Web Deployment using Visual Studio: Command Line Deployment | Microsoft Docs"
 author: tdykstra
 description: "This tutorial series shows you how to deploy (publish) an ASP.NET web application to Azure App Service Web Apps or to a third-party hosting provider."
-ms.author: riande
+ms.author: wpickett
 ms.date: 02/15/2013
 ms.assetid: 82b8dea0-f062-4ee4-8784-3ffa30fbb1ca
 msc.legacyurl: /web-forms/overview/deployment/visual-studio-web-deployment/command-line-deployment
 msc.type: authoredcontent
+ms.custom: sfi-image-nochange
 ---
 # ASP.NET Web Deployment using Visual Studio: Command Line Deployment
 
@@ -107,3 +108,4 @@ In the next tutorial, you will see an example of how to extend the web publish p
 > [!div class="step-by-step"]
 > [Previous](deploying-a-database-update.md)
 > [Next](deploying-extra-files.md)
+

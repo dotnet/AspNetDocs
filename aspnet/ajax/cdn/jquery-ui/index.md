@@ -3,7 +3,7 @@ uid: ajax/cdn/jquery-ui/index
 title: "jQuery UI | Microsoft Docs"
 description: Provides a reference list of the jQuery UI articles, which include information about the jQuery UI themes on the Microsoft Ajax CDN.
 author: rick-anderson
-ms.author: riande
+ms.author: tdykstra
 ms.date: 07/21/2014
 ms.assetid: bd72bb7e-bdcb-490b-8bc1-9b669329632b
 msc.legacyurl: /ajax/cdn/jquery-ui
@@ -46,3 +46,4 @@ msc.type: folder
 - [jQuery UI 1.11.4 on the Microsoft Ajax CDN](cdnjqueryui1114.md)
 - [jQuery UI 1.12.0 on the Microsoft Ajax CDN](cdnjqueryui1120.md)
 - [jQuery UI 1.12.1 on the Microsoft Ajax CDN](cdnjqueryui1121.md)
+

@@ -3,7 +3,7 @@ uid: web-forms/videos/migrating/introduction-to-aspnet-for-coldfusion-developers
 title: "Introduction to ASP.NET for ColdFusion Developers: Building an ASP.NET Application | Microsoft Docs"
 author: rick-anderson
 description: "This webcast shows how to build an ASP.NET application starting from a blank form, to give the experienced ColdFusion developer a clear idea of exactly what..."
-ms.author: riande
+ms.author: wpickett
 ms.date: 07/25/2006
 ms.assetid: 47316dec-a4cd-4818-8ba7-87e29d963c38
 msc.legacyurl: /web-forms/videos/migrating/introduction-to-aspnet-for-coldfusion-developers-building-an-aspnet-application
@@ -20,3 +20,4 @@ This webcast shows how to build an ASP.NET application starting from a blank for
 > [!div class="step-by-step"]
 > [Previous](intro-to-aspnet-for-coldfusion-developers-adding-aspnet-to-your-repertoire.md)
 > [Next](interop-between-php-and-the-windows-platform.md)
+

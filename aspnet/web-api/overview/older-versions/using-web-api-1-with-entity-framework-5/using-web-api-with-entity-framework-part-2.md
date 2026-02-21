@@ -3,7 +3,7 @@ uid: web-api/overview/older-versions/using-web-api-1-with-entity-framework-5/usi
 title: "Part 2: Creating the Domain Models | Microsoft Docs"
 author: Rick-Anderson
 description: "This tutorial shows how to create domain models by using the code-first approach to Entity Framework."
-ms.author: riande
+ms.author: tdykstra
 ms.date: 07/03/2012
 ms.assetid: fe3ef85f-bdc6-4e10-9768-25aa565c01d0
 msc.legacyurl: /web-api/overview/older-versions/using-web-api-1-with-entity-framework-5/using-web-api-with-entity-framework-part-2
@@ -78,3 +78,4 @@ This code sets the JSON formatter to preserve object references, and removes the
 > [!div class="step-by-step"]
 > [Previous](using-web-api-with-entity-framework-part-1.md)
 > [Next](using-web-api-with-entity-framework-part-3.md)
+

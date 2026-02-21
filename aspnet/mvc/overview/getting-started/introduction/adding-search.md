@@ -3,7 +3,7 @@ uid: mvc/overview/getting-started/introduction/adding-search
 title: "Search | Microsoft Docs"
 author: Rick-Anderson
 description: "In this section you'll add search capability to the Index action method that lets you search movies by genre or name."
-ms.author: riande
+ms.author: tdykstra
 ms.date: 01/17/2019
 ms.assetid: df001954-18bf-4550-b03d-43911a0ea186
 msc.legacyurl: /mvc/overview/getting-started/introduction/adding-search
@@ -159,3 +159,4 @@ In this section you created a search action method and view that let users searc
 > [!div class="step-by-step"]
 > [Previous](examining-the-edit-methods-and-edit-view.md)
 > [Next](adding-a-new-field.md)
+

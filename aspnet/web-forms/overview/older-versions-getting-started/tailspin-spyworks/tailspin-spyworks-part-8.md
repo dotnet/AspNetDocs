@@ -3,7 +3,7 @@ uid: web-forms/overview/older-versions-getting-started/tailspin-spyworks/tailspi
 title: "Part 8: Final Pages, Exception Handling, and Conclusion | Microsoft Docs"
 author: JoeStagner
 description: "This tutorial series details all of the steps taken to build the Tailspin Spyworks sample application. Part 8 adds a contact page, about page, and exception..."
-ms.author: riande
+ms.author: wpickett
 ms.date: 07/21/2010
 ms.assetid: 5aeadf8f-39f3-4f07-a78f-1c310c64fb23
 msc.legacyurl: /web-forms/overview/older-versions-getting-started/tailspin-spyworks/tailspin-spyworks-part-8
@@ -73,3 +73,4 @@ Hopefully this tutorial has given you the tools you need to get started building
 
 > [!div class="step-by-step"]
 > [Previous](tailspin-spyworks-part-7.md)
+

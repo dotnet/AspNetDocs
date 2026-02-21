@@ -3,7 +3,7 @@ uid: web-forms/overview/moving-to-aspnet-20/data-bound-controls
 title: "Data Bound Controls | Microsoft Docs"
 author: rick-anderson
 description: "Most ASP.NET applications rely on some degree of data presentation from a back-end data source. Data-bound controls have been a pivotal part of interacting w..."
-ms.author: riande
+ms.author: wpickett
 ms.date: 02/20/2005
 ms.assetid: 0e23ff32-646d-43f3-8bec-6b2313d3abd6
 msc.legacyurl: /web-forms/overview/moving-to-aspnet-20/data-bound-controls
@@ -708,3 +708,4 @@ This exercise assumes that you have SQL Server running locally and that the Nort
 40. Click the **Select** link next to different records to see the DetailsView update automatically.
 41. Click the **Edit** link in the DetailsView control.
 42. Make a change to the record and click **Update**.
+

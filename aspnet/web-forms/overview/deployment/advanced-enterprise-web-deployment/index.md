@@ -3,7 +3,7 @@ uid: web-forms/overview/deployment/advanced-enterprise-web-deployment/index
 title: "ASP.NET 4 - Enterprise Deployment Series 4 Advanced Topics | Microsoft Docs"
 author: rick-anderson
 description: "This tutorial will show you how to perform various tasks that are required or desirable in a lot of enterprise deployment scenarios."
-ms.author: riande
+ms.author: wpickett
 ms.date: 05/16/2012
 ms.assetid: eacf0e3a-c2e9-4f77-a676-249146f393e8
 msc.legacyurl: /web-forms/overview/deployment/advanced-enterprise-web-deployment
@@ -22,3 +22,4 @@ msc.type: chapter
 - [Taking Web Applications Offline with Web Deploy](taking-web-applications-offline-with-web-deploy.md)
 - [Running Windows PowerShell Scripts from MSBuild Project Files](running-windows-powershell-scripts-from-msbuild-project-files.md)
 - [Troubleshooting the Packaging Process](troubleshooting-the-packaging-process.md)
+

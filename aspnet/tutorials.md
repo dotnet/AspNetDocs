@@ -4,7 +4,7 @@ title: ASP.NET tutorials | Microsoft Docs
 author: tdykstra
 description: A list of step-by-step guides for developing ASP.NET applications.
 ms.assetid: fddf8e5e-c055-4f81-b691-78deef871112
-ms.author: riande
+ms.author: wpickett
 ms.date: 09/20/2017
 ---
 # ASP.NET tutorials
@@ -137,3 +137,4 @@ The following step-by-step guides for developing ASP.NET applications are availa
 
 * [Getting Started with OWIN and Katana](aspnet/overview/owin-and-katana/getting-started-with-owin-and-katana.md)
 * [Host OWIN in an Azure Worker Role](aspnet/overview/owin-and-katana/host-owin-in-an-azure-worker-role.md)
+

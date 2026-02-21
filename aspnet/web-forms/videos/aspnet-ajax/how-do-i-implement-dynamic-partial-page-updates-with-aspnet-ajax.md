@@ -3,7 +3,7 @@ uid: web-forms/videos/aspnet-ajax/how-do-i-implement-dynamic-partial-page-update
 title: "[How Do I:] Implement Dynamic Partial-Page Updates with ASP.NET AJAX? | Microsoft Docs"
 author: JoeStagner
 description: "In this video you will learn how to add dynamic partial-page updates to your ASP.NET application using Microsoft ASP.NET AJAX."
-ms.author: riande
+ms.author: wpickett
 ms.date: 01/25/2007
 ms.assetid: 7559a912-2753-4866-a140-a4c6cefee00c
 msc.legacyurl: /web-forms/videos/aspnet-ajax/how-do-i-implement-dynamic-partial-page-updates-with-aspnet-ajax
@@ -20,3 +20,4 @@ In this video you will learn how to add dynamic partial-page updates to your ASP
 > [!div class="step-by-step"]
 > [Previous](how-do-i-get-started-with-aspnet-ajax.md)
 > [Next](how-do-i-make-client-side-network-callbacks-with-aspnet-ajax.md)
+

@@ -3,7 +3,7 @@ uid: web-pages/overview/data/7-displaying-data-in-a-chart
 title: "Displaying Data in a Chart with ASP.NET Web Pages (Razor) | Microsoft Docs"
 author: rick-anderson
 description: "This chapter explains how to display data in a chart. In the previous chapters, you learned how to display data manually and in a grid. This chapter explains..."
-ms.author: riande
+ms.author: wpickett
 ms.date: 04/27/2022
 ms.custom: devdivchpfy22
 ms.assetid: f889fd46-4dac-4ecb-83d8-60e64c22036e
@@ -287,3 +287,4 @@ Finally, you can save a chart as an XML file on the server. An advantage of usin
 - [Introduction to Working with a Database in ASP.NET Web Pages Sites](https://go.microsoft.com/fwlink/?LinkId=202893)
 - [Using Caching in ASP.NET Web Pages Sites to Improve Performance](https://go.microsoft.com/fwlink/?LinkId=202903)
 - [Chart Class](https://msdn.microsoft.com/library/system.web.helpers.chart(v=vs.99)) (ASP.NET Web Pages API reference on MSDN)
+

@@ -3,7 +3,7 @@ uid: ajax/cdn/jquery-validate/index
 title: "jQuery Validate | Microsoft Docs"
 author: rick-anderson
 description: References a list of the jQuery Validate articles, which provide information about the files included in their respective libraries.
-ms.author: riande
+ms.author: wpickett
 ms.date: 10/14/2017
 ms.assetid: a266cc44-f514-4913-9768-5b382380184d
 msc.legacyurl: /ajax/cdn/jquery-validate
@@ -28,3 +28,4 @@ msc.type: folder
 - [jquery.validate version 1.7](cdnjqueryvalidate17.md)
 - [jQuery Validate 1.6](cdnjqueryvalidate16.md)
 - [jQuery Validate 1.5.5](cdnjqueryvalidate155.md)
+

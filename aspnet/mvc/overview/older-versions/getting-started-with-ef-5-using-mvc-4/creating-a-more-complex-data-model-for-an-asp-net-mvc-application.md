@@ -3,7 +3,7 @@ uid: mvc/overview/older-versions/getting-started-with-ef-5-using-mvc-4/creating-
 title: "Creating a More Complex Data Model for an ASP.NET MVC Application (4 of 10) | Microsoft Docs"
 author: tdykstra
 description: "The Contoso University sample web application demonstrates how to create ASP.NET MVC 4 applications by using the Entity Framework 5 Code First and Visual Studio."
-ms.author: riande
+ms.author: tdykstra
 ms.date: 07/30/2013
 ms.assetid: f81f3d80-3674-4d8e-a9b1-87feed1a93c9
 msc.legacyurl: /mvc/overview/older-versions/getting-started-with-ef-5-using-mvc-4/creating-a-more-complex-data-model-for-an-asp-net-mvc-application
@@ -385,3 +385,4 @@ Links to other Entity Framework resources can be found in the [ASP.NET Data Acce
 > [!div class="step-by-step"]
 > [Previous](sorting-filtering-and-paging-with-the-entity-framework-in-an-asp-net-mvc-application.md)
 > [Next](reading-related-data-with-the-entity-framework-in-an-asp-net-mvc-application.md)
+

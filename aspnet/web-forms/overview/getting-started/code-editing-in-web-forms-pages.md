@@ -3,7 +3,7 @@ uid: web-forms/overview/getting-started/code-editing-in-web-forms-pages
 title: "Code Editing ASP.NET Web Forms in Visual Studio 2013 | Microsoft Docs"
 author: Erikre
 description: This walkthrough shows how to use various features of the Visual Studio Code Editor to write code quickly while avoiding errors.
-ms.author: riande
+ms.author: wpickett
 ms.date: 03/03/2014
 ms.assetid: 5344b74e-b888-479a-92bc-601a33bd61a2
 msc.legacyurl: /web-forms/overview/getting-started/code-editing-in-web-forms-pages
@@ -173,3 +173,4 @@ This walkthrough has illustrated the basic features of the Visual Studio 2010 co
 - Learn how to create your own code snippets. For more information, see [Creating and Using IntelliSense Code Snippets](https://msdn.microsoft.com/library/ms165392.aspx)
 - Learn more about the Visual Basic-specific features of IntelliSense code snippets, such as customizing the snippets and troubleshooting. For more information, see [Visual Basic IntelliSense Code Snippets](https://msdn.microsoft.com/library/18yz4be4.aspx)
 - Learn more about the C#-specific features of IntelliSense, such as refactoring and code snippets. For more information, see [Visual C# IntelliSense](https://msdn.microsoft.com/library/43f44291.aspx).
+

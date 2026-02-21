@@ -3,7 +3,7 @@ uid: web-forms/overview/getting-started/index
 title: "Getting Started with ASP.NET Web Forms | Microsoft Docs"
 author: rick-anderson
 description: "Learn About ASP.NET Web Forms ASP.NET Web Forms lets you build dynamic websites using a familiar drag-and-drop, event-driven model. A design surface and hund..."
-ms.author: riande
+ms.author: wpickett
 ms.date: 08/08/2011
 ms.assetid: f645d3b1-1092-43c6-a28a-074b413924b4
 msc.legacyurl: /web-forms/overview/getting-started
@@ -35,3 +35,4 @@ msc.type: chapter
     - [Using Page Inspector in Visual Studio 2012](hands-on-labs/using-page-inspector-in-visual-studio-2012.md)
 
 [!INCLUDE[](~/includes/webLivePreview.md)]
+

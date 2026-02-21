@@ -3,11 +3,12 @@ uid: web-forms/overview/data-access/advanced-data-access-scenarios/creating-new-
 title: "Creating New Stored Procedures for the Typed DataSet's TableAdapters (VB) | Microsoft Docs"
 author: rick-anderson
 description: "In earlier tutorials we have created SQL statements in our code and passed the statements to the database to be executed. An alternative approach is to use s... (VB)"
-ms.author: riande
+ms.author: tdykstra
 ms.date: 07/18/2007
 ms.assetid: a5a4a9ba-d18d-489a-a6b0-a3c26d6b0274
 msc.legacyurl: /web-forms/overview/data-access/advanced-data-access-scenarios/creating-new-stored-procedures-for-the-typed-dataset-s-tableadapters-vb
 msc.type: authoredcontent
+ms.custom: sfi-image-nochange
 ---
 # Creating New Stored Procedures for the Typed DataSet's TableAdapters (VB)
 
@@ -323,3 +324,4 @@ This tutorial series was reviewed by many helpful reviewers. Lead reviewer for t
 > [!div class="step-by-step"]
 > [Previous](creating-stored-procedures-and-user-defined-functions-with-managed-code-cs.md)
 > [Next](using-existing-stored-procedures-for-the-typed-dataset-s-tableadapters-vb.md)
+

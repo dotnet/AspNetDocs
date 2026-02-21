@@ -3,7 +3,7 @@ uid: aspnet/overview/owin-and-katana/owin-startup-class-detection
 title: "OWIN Startup Class Detection | Microsoft Docs"
 author: Praburaj
 description: "This tutorial shows how to configure which OWIN startup class is loaded. For more information on OWIN, see An Overview of Project Katana. This tutorial was..."
-ms.author: riande
+ms.author: tdykstra
 ms.date: 04/13/2022
 ms.custom: devdivchpfy22
 ms.assetid: 08257f55-36f4-4e39-9c88-2a5602838c79
@@ -159,3 +159,4 @@ In this section we'll add another Startup class. You can add multiple OWIN start
 8. Test the following runtime startup options:
 
     [!code-console[Main](owin-startup-class-detection/samples/sample23.cmd)]
+

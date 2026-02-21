@@ -3,7 +3,7 @@ uid: mvc/overview/getting-started/database-first-development/generating-views
 title: "Tutorial: Generate views for EF Database First with ASP.NET MVC app"
 description: "This tutorial focuses on using ASP.NET Scaffolding to generate the controllers and views."
 author: Rick-Anderson
-ms.author: riande
+ms.author: tdykstra
 ms.date: 01/28/2019
 ms.topic: tutorial
 ms.assetid: 669367cf-8e30-4eb6-821d-10a7d9bb906c

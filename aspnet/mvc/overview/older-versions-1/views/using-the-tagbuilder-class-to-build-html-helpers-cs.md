@@ -3,7 +3,7 @@ uid: mvc/overview/older-versions-1/views/using-the-tagbuilder-class-to-build-htm
 title: "Using the TagBuilder Class to Build HTML Helpers (C#) | Microsoft Docs"
 author: StephenWalther
 description: "Stephen Walther introduces you to a useful utility class in the ASP.NET MVC framework named the TagBuilder class. You can use the TagBuilder class to easily... (C#)"
-ms.author: riande
+ms.author: tdykstra
 ms.date: 03/02/2009
 ms.assetid: 3975a52f-bd15-4edd-8f3d-1df93672515b
 msc.legacyurl: /mvc/overview/older-versions-1/views/using-the-tagbuilder-class-to-build-html-helpers-cs
@@ -67,3 +67,4 @@ Notice that you must import the namespace associated with the Image helper at th
 > [!div class="step-by-step"]
 > [Previous](creating-custom-html-helpers-cs.md)
 > [Next](creating-page-layouts-with-view-master-pages-cs.md)
+
