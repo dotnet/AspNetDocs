@@ -9,6 +9,8 @@ ms.assetid: a55b0d20-9c90-4bd3-a471-20da6f569f0c
 ---
 # ASP.NET WebHooks handlers
 
+[!INCLUDE[](~/includes/webhooks-deprecation.md)]
+
 Once WebHooks requests has been validated by a WebHook receiver, it is ready to be processed by user code. This is where *handlers* come in. Handlers derive from the [IWebHookHandler](https://github.com/aspnet/AspNetWebHooks/blob/main/src/Microsoft.AspNet.WebHooks.Receivers/WebHooks/IWebHookHandler.cs) interface but typically uses the [WebHookHandler](https://github.com/aspnet/AspNetWebHooks/blob/main/src/Microsoft.AspNet.WebHooks.Receivers/WebHooks/WebHookHandler.cs) class instead of deriving directly from the interface.
 
 A WebHook request can be processed by one or more handlers. Handlers are called in order based on their respective *Order* property going from lowest to highest where Order is a simple integer (suggested to be between 1 and 100):

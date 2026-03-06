@@ -9,6 +9,8 @@ ms.assetid: b5f3d8b0-6964-47a4-954e-c7722e88707b
 ---
 # ASP.NET WebHooks Diagnostics
 
+[!INCLUDE[](~/includes/webhooks-deprecation.md)]
+
 * [Logging](logging.md)
 * [Debugging](debugging.md)
 

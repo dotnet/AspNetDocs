@@ -9,6 +9,8 @@ ms.assetid: f71bc442-5f80-481b-a32c-a0ec18dee9d6
 ---
 # ASP.NET WebHooks logging
 
+[!INCLUDE[](~/includes/webhooks-deprecation.md)]
+
 Microsoft ASP.NET WebHooks uses logging as a way of reporting issues and problems. By default logs are written using [System.Diagnostics.Trace](https://msdn.microsoft.com/library/system.diagnostics.trace) where they can be manged using [Trace Listeners](https://msdn.microsoft.com/library/system.diagnostics.tracelistener.aspx) like any other log stream.
 
 When deploying your Web Application as an Azure Web App, the logs are automatically picked up and can be managed together with any other [System.Diagnostics.Trace](https://msdn.microsoft.com/library/system.diagnostics.trace) logging. For details, please see [Enable diagnostics logging for web apps in Azure App Service](https://azure.microsoft.com/documentation/articles/web-sites-enable-diagnostic-log/)

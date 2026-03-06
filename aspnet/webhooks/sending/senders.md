@@ -9,5 +9,7 @@ ms.assetid: 33001ae2-8e1b-4807-8b02-16c7fd8ad38d
 ---
 # ASP.NET WebHook senders
 
+[!INCLUDE[](~/includes/webhooks-deprecation.md)]
+
 See the blog [Sending WebHooks with ASP.NET WebHooks Preview](https://devblogs.microsoft.com/aspnet/sending-webhooks-with-asp-net-webhooks-preview/) for more details.
 

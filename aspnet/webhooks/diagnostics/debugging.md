@@ -9,6 +9,8 @@ ms.assetid: 467da78b-3c35-4c51-8b08-77a32379e4a8
 ---
 # ASP.NET WebHooks debugging
 
+[!INCLUDE[](~/includes/webhooks-deprecation.md)]
+
 ## Debugging in Azure
 
 To debug your Web Application while running in Azure, please see the tutorial [Troubleshoot a web app in Azure App Service using Visual Studio](https://azure.microsoft.com/documentation/articles/web-sites-dotnet-troubleshoot-visual-studio/#webserverlogs).

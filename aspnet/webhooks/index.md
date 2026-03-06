@@ -4,10 +4,12 @@ title: "ASP.NET WebHooks Overview | Microsoft Docs"
 author: rick-anderson
 description: "An introduction to ASP.NET WebHooks."
 ms.author: wpickett
-ms.date: 01/17/2012
+ms.date: 03/06/2026
 ms.assetid: 5e2843f0-f499-448f-a712-33d4e9858321
 ---
 # ASP.NET WebHooks overview
+
+[!INCLUDE[](~/includes/webhooks-deprecation.md)]
 
 WebHooks is a lightweight HTTP pattern providing a simple pub/sub model for wiring together Web APIs and SaaS services. When an event happens in a service, a notification is sent in the form of an HTTP POST request to registered subscribers. The POST request contains information about the event which makes it possible for the receiver to act accordingly.
 
