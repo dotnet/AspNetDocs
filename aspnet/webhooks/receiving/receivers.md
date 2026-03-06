@@ -10,6 +10,8 @@ ms.custom: sfi-image-nochange
 ---
 # ASP.NET WebHooks receivers
 
+[!INCLUDE[](~/includes/webhooks-deprecation.md)]
+
 Receiving WebHooks depends on who the sender is. Sometimes there are additional steps registering a WebHook verifying that the subscriber is really listening. Some WebHooks provide a push-to-pull model where the HTTP POST request only contains a reference to the event information which is then to be retrieved independently. Often the security model varies quite a bit.
 
 The purpose of Microsoft ASP.NET WebHooks is to make it both simpler and more consistent to wire up your API without spending a lot of time figuring out how to handle any particular variant of WebHooks.

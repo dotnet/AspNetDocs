@@ -9,6 +9,8 @@ ms.assetid: 5125e483-c2bb-435b-8cd1-21d3499bfaaf
 ---
 # ASP.NET WebHooks receiver dependencies
 
+[!INCLUDE[](~/includes/webhooks-deprecation.md)]
+
 Microsoft ASP.NET WebHooks is designed with dependency injection in mind. Most dependencies in the system can be replaced with alternative implementations using a dependency injection engine.
 
 See [DependencyScopeExtensions](https://github.com/aspnet/aspnetWebHooks/blob/master/src/Microsoft.AspNet.WebHooks.Receivers/Extensions/DependencyScopeExtensions.cs) for a list of receiver dependencies. If no dependency has been registered, a default implementation is used. See [ReceiverServices](https://github.com/aspnet/aspnetWebHooks/blob/master/src/Microsoft.AspNet.WebHooks.Receivers/Services/ReceiverServices.cs) for a list of default implementations.

@@ -9,6 +9,8 @@ ms.assetid: b22046f9-c7a1-4d46-a80c-c7d2e35aad3b
 ---
 # ASP.NET WebHooks - receiving and processing
 
+[!INCLUDE[](~/includes/webhooks-deprecation.md)]
+
 * [WebHook Receivers](receivers.md)
 * [Processing WebHooks](handlers.md)
 * [Receiver Dependencies](dependencies.md)
