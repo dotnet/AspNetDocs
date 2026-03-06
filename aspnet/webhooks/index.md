@@ -12,9 +12,9 @@ ms.assetid: 5e2843f0-f499-448f-a712-33d4e9858321
 > [!WARNING]
 > **Deprecated:** ASP.NET WebHooks is deprecated and will no longer receive updates or security fixes.
 >
-> **For .NET Framework apps:** Replace ASP.NET WebHooks with custom [ASP.NET Web API](/aspnet/web-api/) controller endpoints that receive and validate webhook payloads directly.
+> **For .NET Framework apps:** Replace ASP.NET WebHooks with custom [ASP.NET Web API](https://learn.microsoft.com/aspnet/web-api/overview/getting-started-with-aspnet-web-api/tutorial-your-first-web-api) controller endpoints that receive and validate webhook payloads directly.
 >
-> **For new development:** Use [ASP.NET Core](/aspnet/core/) with [Minimal APIs](/aspnet/core/fundamentals/minimal-apis/overview) or [Web API controllers](/aspnet/core/web-api/) to handle webhooks.
+> **For new development:** Use [ASP.NET Core](https://learn.microsoft.com/aspnet/core/) with [Minimal APIs](https://learn.microsoft.com/aspnet/core/fundamentals/minimal-apis/overview) or [Web API controllers](https://learn.microsoft.com/aspnet/core/web-api/) to handle webhooks.
 
 WebHooks is a lightweight HTTP pattern providing a simple pub/sub model for wiring together Web APIs and SaaS services. When an event happens in a service, a notification is sent in the form of an HTTP POST request to registered subscribers. The POST request contains information about the event which makes it possible for the receiver to act accordingly.
 
