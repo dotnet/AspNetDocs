@@ -303,7 +303,7 @@ In this tutorial, you have learned about handling errors at the application leve
 
 ## Tutorial Series Conclusion
 
-Thanks for following along. I hope this set of tutorials helped you become more familiar with ASP.NET Web Forms. If you need more information about Web Forms features available in ASP.NET 4.5 and Visual Studio 2013, see [ASP.NET and Web Tools for Visual Studio 2013 Release Notes](../../../../visual-studio/overview/2013/release-notes.md). Also, be sure to take a look at the tutorial mentioned in the **Next Steps** section and defintely try out the [free Azure trial](https://azure.microsoft.com/pricing/free-trial/).
+Thanks for following along. I hope this set of tutorials helped you become more familiar with ASP.NET Web Forms. If you need more information about Web Forms features available in ASP.NET 4.5 and Visual Studio 2013, see [ASP.NET and Web Tools for Visual Studio 2013 Release Notes](../../../../visual-studio/overview/2013/release-notes.md). Also, be sure to take a look at the tutorial mentioned in the **Next Steps** section and defintely try out the [free Azure trial](https://azure.microsoft.com/pricing/purchase-options/azure-account?cid=msft_learn).
 
 ![Thanks - Erik](aspnet-error-handling/_static/image10.png)  
 
@@ -313,7 +313,7 @@ Learn more about deploying your web application to Microsoft Azure, see [Deploy 
 
 ## Free Trial
 
-[Microsoft Azure - Free Trial](https://azure.microsoft.com/pricing/free-trial/)  
+[Microsoft Azure - Free Trial](https://azure.microsoft.com/pricing/purchase-options/azure-account?cid=msft_learn)  
  Publishing your website to Microsoft Azure will save you time, maintenance and expense. It's a quick process to deploying your web app to Azure. When you need to maintain and monitor your web app, Azure offers a variety of tools and services. Manage data, traffic, identity, backups, messaging, media and performance in Azure. And, all of this is provided in a very cost effective approach.
 
 ## Additional Resources
