@@ -263,7 +263,7 @@ In this tutorial, you added a custom role and a user belonging to the custom rol
 [Web.config - authorization Element](https://msdn.microsoft.com/library/8d82143t(v=vs.100).aspx)  
 [ASP.NET Identity](../../../../identity/overview/getting-started/introduction-to-aspnet-identity.md)  
 [Deploy a Secure ASP.NET Web Forms App with Membership, OAuth, and SQL Database to an Azure Web Site](https://azure.microsoft.com/documentation/articles/web-sites-dotnet-deploy-aspnet-webforms-app-membership-oauth-sql-database/)  
-[Microsoft Azure - Free Trial](https://azure.microsoft.com/pricing/free-trial/)
+[Microsoft Azure - Free Trial](https://azure.microsoft.com/pricing/purchase-options/azure-account?cid=msft_learn)
 
 > [!div class="step-by-step"]
 > [Previous](checkout-and-payment-with-paypal.md)

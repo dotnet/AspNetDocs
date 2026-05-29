@@ -114,7 +114,7 @@ Find the IP address under Service Deployments, deployment [id], Service Details.
 
 ## Deploy to Azure
 
-For this step, you must have an Azure account. If you don't already have one, you can create a free trial account in just a couple of minutes. For details, see [Microsoft Azure Free Trial](https://azure.microsoft.com/pricing/free-trial/?WT.mc_id=A261C142F).
+For this step, you must have an Azure account. If you don't already have one, you can create a free trial account in just a couple of minutes. For details, see [Microsoft Azure Free Trial](https://azure.microsoft.com/pricing/purchase-options/azure-account?cid=msft_learn).
 
 In Solution Explorer, right-click the AzureApp project. Select **Publish**.
 
