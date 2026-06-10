@@ -1,11 +1,17 @@
 {
-    "labels": {
-      "product": {
-        "(?i).*": "Source - Docs.ms"
-      },
-      "contentsource": {
-        "(?i).*main\/aspnet\/signalr.*": "SignalR"
-      }
+  "labels": {
+    "product": {
+      "(?i).*aspnet.*signalr.*": "SignalR",
+      "(?i).*aspnet.*core.*": "ASP.NET Core",
+      "(?i).*aspnet.*mvc.*": "ASP.NET MVC",
+      "(?i).*blazor.*": "Blazor",
+      "(?i).*": "Source - Docs.ms"
+    },
+    "contentsource": {
+      "(?i).*main\/aspnet\/signalr.*": "SignalR",
+      "(?i).*main\/aspnet\/core.*": "ASP.NET Core",
+      "(?i).*main\/aspnet\/mvc.*": "ASP.NET MVC",
+      "(?i).*main\/blazor.*": "Blazor"
     }
   }
-  
+}
