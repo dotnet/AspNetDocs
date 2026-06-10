@@ -24,48 +24,66 @@ jobs:
       with:
         fetch-depth: 0
 
-    - name: Set up Docker Buildx
-      uses: docker/setup-buildx-action@v3
-
     - name: Build Jekyll site
+      id: build
       run: |
         docker run --rm \
           -e JEKYLL_ENV=production \
           -v ${{ github.workspace }}:/srv/jekyll \
           -v ${{ github.workspace }}/_site:/srv/jekyll/_site \
           jekyll/builder:latest \
-          /bin/bash -c "chmod -R 777 /srv/jekyll && jekyll build --future --strict_front_matter"
+          /bin/bash -c "jekyll build --future --strict_front_matter"
 
     - name: Check build output
       if: always()
+      id: check
       run: |
-        if [ -d "_site" ]; then
+        if [ -d "_site" ] && [ "$(ls -A _site)" ]; then
+          echo "BUILD_SUCCESS=true" >> $GITHUB_OUTPUT
           echo "✅ Build successful. Site files generated."
-          ls -la _site/ | head -20
+          echo "Files generated: $(ls -1 _site/ | wc -l) items"
         else
-          echo "❌ Build failed. No _site directory found."
+          echo "BUILD_SUCCESS=false" >> $GITHUB_OUTPUT
+          echo "❌ Build failed. No _site directory found or directory is empty."
           exit 1
         fi
 
     - name: Upload build artifacts
-      if: success()
+      if: steps.check.outputs.BUILD_SUCCESS == 'true'
       uses: actions/upload-artifact@v4
       with:
         name: jekyll-site
         path: _site/
         retention-days: 7
-        if-no-files-found: warn
+        if-no-files-found: error
 
-    - name: Comment on PR
+    - name: Comment on PR with build status
       if: github.event_name == 'pull_request' && always()
       uses: actions/github-script@v7
       with:
         script: |
-          const status = context.job.status;
-          const emoji = status === 'success' ? '✅' : '❌';
-          github.rest.issues.createComment({
-            issue_number: context.issue.number,
-            owner: context.repo.owner,
-            repo: context.repo.repo,
-            body: `${emoji} Jekyll build ${status}. [View logs](${context.payload.pull_request.html_url}/checks)`
-          })
+          try {
+            const buildSuccess = '${{ steps.check.outputs.BUILD_SUCCESS }}' === 'true';
+            const emoji = buildSuccess ? '✅' : '❌';
+            const status = buildSuccess ? 'succeeded' : 'failed';
+            
+            github.rest.issues.createComment({
+              issue_number: context.issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              body: `${emoji} Jekyll site build **${status}**\n\n[View workflow run](${context.payload.pull_request.html_url}/checks)`
+            });
+          } catch (error) {
+            console.error('Error posting comment:', error);
+          }
+
+    - name: Set job status
+      if: always()
+      run: |
+        if [ "${{ steps.check.outputs.BUILD_SUCCESS }}" = "true" ]; then
+          echo "✅ Workflow completed successfully"
+          exit 0
+        else
+          echo "❌ Workflow failed"
+          exit 1
+        fi
