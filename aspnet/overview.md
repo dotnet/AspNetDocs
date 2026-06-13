@@ -4,8 +4,8 @@ title: "ASP.NET overview | Microsoft Docs"
 author: rick-anderson
 description: "Introduction to ASP.NET, a free framework for creating websites, web applications, and web APIs."
 ms.assetid: 3a309468-f1ca-4e51-b9c3-536af79d7a8b
-ms.author: wpickett
-ms.date: 08/10/2019
+ms.author: riande
+ms.date: 8/10/2019
 msc.legacyurl:
 msc.type: content
 ---
