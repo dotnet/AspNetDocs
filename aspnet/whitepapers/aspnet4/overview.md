@@ -122,6 +122,9 @@ Specifying a different output cache provider for an HTTP request requires a litt
 
 With the addition of output-cache provider extensibility to ASP.NET 4, you can now pursue more aggressive and more intelligent output-caching strategies for your Web sites. For example, it is now possible to cache the "Top 10" pages of a site in memory, while caching pages that get lower traffic on disk. Alternatively, you can cache every vary-by combination for a rendered page, but use a distributed cache so that the memory consumption is offloaded from front-end Web servers.
 
+> [!IMPORTANT]
+> Output caching, including custom output-cache providers and any `VaryBy` combinations, is a performance optimization that stores alternate *representations* of a resource. It is not a way to isolate audiences or classes of content. Don't rely on cache variation or provider selection to separate personalized, tenant-specific, authorization-dependent, or otherwise sensitive responses; enforce any required isolation in your application, independently of cache configuration.
+
 <a id="0.2__Toc224729020"></a><a id="0.2__Toc253429241"></a><a id="0.2__Toc243304615"></a>
 
 ### Auto-Start Web Applications
