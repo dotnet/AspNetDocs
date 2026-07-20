@@ -57,6 +57,21 @@
       }
     },
     "fileMetadata": {
+      "ms.service": {
+        "web-pages/**/**.md": "aspnet-4x",
+        "single-page-application/**/**.md": "aspnet-4x",
+        "web-forms/**/**.md": "aspnet-4x",
+        "mobile/**/**.md": "aspnet-4x",
+        "ajax/**/**.md": "aspnet-4x",
+        "aspnet/**/**.md": "aspnet-4x",
+        "signalr/**/**.md": "aspnet-4x",
+        "identity/**/**.md": "aspnet-4x",
+        "visual-studio/**/**.md": "aspnet-4x",
+        "webhooks/**/**.md": "aspnet-4x",
+        "mvc/**/**.md": "aspnet-4x",
+        "web-api/**/**.md": "aspnet-4x",
+        "whitepapers/**/**.md": "aspnet-4x"
+      },
       "ms.subservice": {
         "aspnet/**/**.md": "overview",
         "single-page-application/**/**.md": "spa",
