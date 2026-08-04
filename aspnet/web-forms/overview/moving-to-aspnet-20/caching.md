@@ -17,6 +17,9 @@ by [Microsoft](https://github.com/microsoft)
 
 An understanding of caching is important for a well-performing ASP.NET application. ASP.NET 1.x offered three different options for caching; output caching, fragment caching, and the cache API. ASP.NET 2.0 offers all three of these methods, but it adds some significant additional features. There are several new cache dependencies and developers now have the option to create custom cache dependencies as well. The configuration of caching has also been improved significantly in ASP.NET 2.0.
 
+> [!IMPORTANT]
+> Output caching is a performance optimization. The `@ OutputCache` directive and its `VaryBy` settings (such as `VaryByParam`, `VaryByHeader`, and `VaryByCustom`) exist to cache alternate *representations* of a page based on request characteristics — for example, a product page that varies by product ID, an agenda that varies by date, or content rendered in a different language. They are not a way to isolate audiences or classes of content. Don't rely on cache variation to separate personalized, tenant-specific, authorization-dependent, or otherwise sensitive responses; enforce any required isolation in your application, independently of cache configuration.
+
 ## New Features
 
 ## Cache Profiles
