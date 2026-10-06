@@ -36,7 +36,7 @@
     "overwrite": [],
     "externalReference": [],
     "globalMetadata": {
-      "ms.service": "aspnet-framework",
+      "ms.service": "aspnet-4x",
       "feedback_system": "Standard",
       "feedback_help_link_type": "get-help-at-qna",
       "feedback_help_link_url": "https://learn.microsoft.com/answers/tags/174/aspnet",
@@ -57,21 +57,6 @@
       }
     },
     "fileMetadata": {
-      "ms.service": {
-        "web-pages/**/**.md": "aspnet-4x",
-        "single-page-application/**/**.md": "aspnet-4x",
-        "web-forms/**/**.md": "aspnet-4x",
-        "mobile/**/**.md": "aspnet-4x",
-        "ajax/**/**.md": "aspnet-4x",
-        "aspnet/**/**.md": "aspnet-4x",
-        "signalr/**/**.md": "aspnet-4x",
-        "identity/**/**.md": "aspnet-4x",
-        "visual-studio/**/**.md": "aspnet-4x",
-        "webhooks/**/**.md": "aspnet-4x",
-        "mvc/**/**.md": "aspnet-4x",
-        "web-api/**/**.md": "aspnet-4x",
-        "whitepapers/**/**.md": "aspnet-4x"
-      },
       "ms.subservice": {
         "aspnet/**/**.md": "overview",
         "single-page-application/**/**.md": "spa",
@@ -86,8 +71,6 @@
         "visual-studio/**/**.md": "visual-studio",
         "mvc/**/**.md": "mvc",
         "whitepapers/**/**.md": "whitepapers"
-      },
-      "ms.technology": {
       },
       "ms.update-cycle": {
         "**/**.{md,yml}": "3650-days"
