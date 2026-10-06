@@ -21,6 +21,9 @@ Imagine, for example, that your ASP.NET MVC application displays a list of datab
 
 If, on the other hand, you take advantage of the output cache then you can avoid executing a database query every time any user invokes the same controller action. The view can be retrieved from the cache instead of being regenerated from the controller action. Caching enables you to avoid performing redundant work on the server.
 
+> [!IMPORTANT]
+> Output caching is a performance optimization. The `VaryBy` settings (such as `VaryByParam`, `VaryByHeader`, and `VaryByCustom`) exist to cache alternate *representations* of a resource based on request characteristics — for example, a product page that varies by product ID, an agenda that varies by date, or content rendered in a different language. They are not a way to isolate audiences or classes of content. Don't rely on cache variation to separate personalized, tenant-specific, authorization-dependent, or otherwise sensitive responses; enforce any required isolation in your application, independently of cache configuration.
+
 ## Enabling Output Caching
 
 You enable output caching by adding an [OutputCache] attribute to either an individual controller action or an entire controller class. For example, the controller in Listing 1 exposes an action named Index(). The output of the Index() action is cached for 10 seconds.
