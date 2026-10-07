@@ -154,7 +154,6 @@ by [Rick Anderson](https://twitter.com/RickAndMSFT)
 - [ASP.NET MVC View Model: Entity Framework &amp; JSON Serialization](http://www.dotnetexpertguide.com/2013/06/aspnet-mvc-view-model-entity-framework-json-serialization.html)
  Nandip Makwana shows a nice tip to increase performance (and lower CPU usage) by eliminating unnecessary serialization of child entities
 - [Async and Await](http://blog.stephencleary.com/2012/02/async-and-await.html) in ASP.NET by Stephen Cleary
-- [Debugging and Performance using Glimpse](http://www.hanselman.com/blog/NuGetPackageOfTheWeek5DebuggingASPNETMVCApplicationsWithGlimpse.aspx)
 - [Improve perceived performance of ASP.NET MVC websites with asynchronous partial views](http://blog.michaelckennedy.net/2012/11/13/improve-perceived-performance-of-asp-net-mvc-websites-with-async-partialviews/)
 - [ASP.NET 4.5 &amp; MVC 4: Revisiting IBundleTransform](http://www.dotnetexpertguide.com/2012/10/aspnet-45-mvc-4-revisiting-IBundleTransform-in-bundling.html)
 - [ASP.NET MVC 4: Cookieless domain for bundling and static resources](http://www.dotnetexpertguide.com/2012/10/aspnet-mvc-4-cookieless-domain-for-bundling-and-static-resources.html)

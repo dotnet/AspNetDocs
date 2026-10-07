@@ -1822,8 +1822,6 @@
         - name: Performance
           href: mvc/overview/performance/index.md
           items: 
-            - name: Profile and debug your ASP.NET MVC app with Glimpse
-              href: mvc/overview/performance/profile-and-debug-your-aspnet-mvc-app-with-glimpse.md
             - name: Using Asynchronous Methods in ASP.NET MVC 4
               href: mvc/overview/performance/using-asynchronous-methods-in-aspnet-mvc-4.md
             - name: Bundling and Minification
