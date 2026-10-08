@@ -21,7 +21,7 @@ This tutorial was written by [Scott Guthrie](https://weblogs.asp.net/scottgu/) (
 
 You need an Azure account to deploy this app to Azure:
 
-- You can [open an Azure account for free](https://azure.microsoft.com/pricing/free-trial/?WT.mc_id=A443DD604) - You get credits you can use to try out paid Azure services, and even after they're used up you can keep the account and use free Azure services.
+- You can [open an Azure account for free](https://azure.microsoft.com/pricing/purchase-options/azure-account?cid=msft_learn) - You get credits you can use to try out paid Azure services, and even after they're used up you can keep the account and use free Azure services.
 - You can [activate MSDN subscriber benefits](https://azure.microsoft.com/pricing/member-offers/msdn-benefits-details/?WT.mc_id=A443DD604) - Your MSDN subscription gives you credits every month that you can use for paid Azure services.
 
 ## Get started

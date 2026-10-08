@@ -498,7 +498,7 @@ In this tutorial you added order and order detail schemas to track the purchase 
 
 [ASP.NET Configuration Overview](https://msdn.microsoft.com/library/ms178683(v=vs.100).aspx)  
 [Deploy a Secure ASP.NET Web Forms App with Membership, OAuth, and SQL Database to Azure App Service](https://azure.microsoft.com/documentation/articles/web-sites-dotnet-deploy-aspnet-webforms-app-membership-oauth-sql-database/)  
-[Microsoft Azure - Free Trial](https://azure.microsoft.com/pricing/free-trial/)
+[Microsoft Azure - Free Trial](https://azure.microsoft.com/pricing/purchase-options/azure-account?cid=msft_learn)
 
 ## Disclaimer
 
