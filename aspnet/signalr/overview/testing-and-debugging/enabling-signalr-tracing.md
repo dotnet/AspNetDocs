@@ -70,6 +70,8 @@ The server event categories include the following sorts of messages:
 | SignalR.Transports.LongPollingTransport | LongPolling transport connection, disconnection, messaging, and error events |
 | SignalR.Transports.TransportHeartBeat | Transport connection, disconnection, and keepalive events |
 | SignalR.ReflectedHubDescriptorProvider | Hub discovery events |
+| SignalR.PresistentConnection | Connection handling events |
+| SignalR.HubDispatcher | Hub dispatching events |
 
 <a id="server_text"></a>
 ### Logging server events to text files
