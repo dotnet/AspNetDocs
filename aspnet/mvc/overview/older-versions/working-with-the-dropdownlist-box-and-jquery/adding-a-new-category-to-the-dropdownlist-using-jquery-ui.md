@@ -114,12 +114,12 @@ In this section you have learned how to create a dialog that can be used to add 
 
 ### Additional References
 
-- [ASP.NET MVC–Cascading Dropdown Lists Tutorial](https://weblogs.asp.net/raduenuca/archive/2011/03/06/asp-net-mvc-cascading-dropdown-lists-tutorial-part-1-defining-the-problem-and-the-context.aspx) by [Radu Enuca](https://weblogs.asp.net/raduenuca/default.aspx)
+- [ASP.NET MVC–Cascading Dropdown Lists Tutorial](https://weblogs.asp.net/raduenuca/asp-net-mvc-cascading-dropdown-lists-tutorial-part-1-defining-the-problem-and-the-context/) by [Radu Enuca](https://weblogs.asp.net/raduenuca/)
 - [Chosen](https://github.com/harvesthq/chosen) A JavaScript plugin that support multi-select and filtering.
 
 ### Contributors
 
-- [Radu Enuca](https://weblogs.asp.net/raduenuca/default.aspx)
+- [Radu Enuca](https://weblogs.asp.net/raduenuca/)
 - Jean-Sébastien Goupil
 - [Brad Wilson](https://bradwilson.typepad.com/)
 

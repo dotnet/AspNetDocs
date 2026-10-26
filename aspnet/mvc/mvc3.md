@@ -34,7 +34,7 @@ What's New in ASP.NET MVC 3
 
 - Phil Haack: [ASP.NET MVC 3 Released](http://haacked.com/archive/2011/01/13/aspnetmvc3-released.aspx)
 - Scott Hanselman: [ASP.NET MVC3, WebMatrix, NuGet, IIS Express and Orchard released - The Microsoft January Web Release in Context](http://www.hanselman.com/blog/ASPNETMVC3WebMatrixNuGetIISExpressAndOrchardReleasedTheMicrosoftJanuaryWebReleaseInContext.aspx)
-- Scott Guthrie: [Announcing release of ASP.NET MVC 3, IIS Express, SQL CE 4, Web Farm Framework, Orchard, WebMatrix](https://weblogs.asp.net/scottgu/archive/2011/01/13/announcing-release-of-asp-net-mvc-3-iis-express-sql-ce-4-web-farm-framework-orchard-webmatrix.aspx)
+- Scott Guthrie: [Announcing release of ASP.NET MVC 3, IIS Express, SQL CE 4, Web Farm Framework, Orchard, WebMatrix](https://weblogs.asp.net/scottgu/announcing-release-of-asp-net-mvc-3-iis-express-sql-ce-4-web-farm-framework-orchard-webmatrix/)
 - [Release Notes for ASP.NET MVC 3](../whitepapers/mvc3-release-notes.md)
 
 Installation and Help
@@ -134,9 +134,9 @@ Razor also includes  new HTML helpers, such as the following:
 
 For more information about Razor, see the following resources:
 
-- [Scott Guthrie's blog post introducing Razor](https://weblogs.asp.net/scottgu/archive/2010/07/02/introducing-razor.aspx)
-- [Scott Guthrie's blog post introducing the @model keyword](https://weblogs.asp.net/scottgu/archive/2010/10/19/asp-net-mvc-3-new-model-directive-support-in-razor.aspx)
-- [Scott Guthrie's blog post introducing Razor layouts](https://weblogs.asp.net/scottgu/archive/2010/10/22/asp-net-mvc-3-layouts.aspx)
+- [Scott Guthrie's blog post introducing Razor](https://weblogs.asp.net/scottgu/introducing-razor/)
+- [Scott Guthrie's blog post introducing the @model keyword](https://weblogs.asp.net/scottgu/asp-net-mvc-3-new-model-directive-support-in-razor/)
+- [Scott Guthrie's blog post introducing Razor layouts](https://weblogs.asp.net/scottgu/asp-net-mvc-3-layouts/)
 - [Razor API Quick Reference](../web-pages/overview/api-reference/asp-net-web-pages-api-reference.md)
 - [MVC 3 Release Notes](../whitepapers/mvc3-release-notes.md)
 
@@ -154,7 +154,7 @@ The **Add View** dialog box in ASP.NET MVC 3 lets you choose the view engine you
 
 Sometimes you want to perform logic either before an action method runs or after an action method runs. To support this, ASP.NET MVC 2 provided action filters. Action filters are custom attributes that provide a declarative means to add pre-action and post-action behavior to specific controller action methods. However, in some cases you might want to specify pre-action or post-action behavior that applies to all action methods. MVC 3 lets you specify global filters by adding them to the `GlobalFilters` collection. For more information about global action filters, see the following resources:
 
-- [Scott Guthrie's blog on the MVC 3 Preview](https://weblogs.asp.net/scottgu/archive/2010/07/27/introducing-asp-net-mvc-3-preview-1.aspx)
+- [Scott Guthrie's blog on the MVC 3 Preview](https://weblogs.asp.net/scottgu/introducing-asp-net-mvc-3-preview-1/)
 - [Filtering in ASP.NET MVC](https://msdn.microsoft.com/library/gg416513(VS.98).aspx)
 
 ### New "ViewBag" Property
@@ -203,7 +203,7 @@ For more information about how to use the `Remote` attribute, see [How to: Imple
 
 ### JSON Binding Support
 
-ASP.NET MVC 3 includes built-in JSON binding support that enables action methods to receive JSON-encoded data and model-bind it to action-method parameters. This capability is useful in scenarios involving client templates and data binding. (Client templates enable you to format and display a single data item or set of data items by using templates that execute on the client.) MVC 3 enables you to easily connect client templates with action methods on the server that send and receive JSON data. For more information about JSON binding support, see the **JavaScript and AJAX Improvements** section of [Scott Guthrie's MVC 3 Preview blog post](https://weblogs.asp.net/scottgu/archive/2010/07/27/introducing-asp-net-mvc-3-preview-1.aspx).
+ASP.NET MVC 3 includes built-in JSON binding support that enables action methods to receive JSON-encoded data and model-bind it to action-method parameters. This capability is useful in scenarios involving client templates and data binding. (Client templates enable you to format and display a single data item or set of data items by using templates that execute on the client.) MVC 3 enables you to easily connect client templates with action methods on the server that send and receive JSON data. For more information about JSON binding support, see the **JavaScript and AJAX Improvements** section of [Scott Guthrie's MVC 3 Preview blog post](https://weblogs.asp.net/scottgu/introducing-asp-net-mvc-3-preview-1/).
 
 <a id="BM_Model_Validation_Improvements"></a>
 
@@ -225,7 +225,7 @@ The [IValidatableObject](https://msdn.microsoft.com/library/system.componentmode
 
 The [IClientValidatable](https://msdn.microsoft.com/library/system.web.mvc.iclientvalidatable(v=VS.98).aspx) interface enables ASP.NET MVC to discover at run time whether a validator has support for client validation. This interface has been designed so that it can be integrated with a variety of validation frameworks.
 
-For more information about validation interfaces, see the **Model Validation Improvements** section of [Scott Guthrie's MVC 3 Preview blog post](https://weblogs.asp.net/scottgu/archive/2010/07/27/introducing-asp-net-mvc-3-preview-1.aspx). (However, note that the reference to "IValidateObject" in the blog should be "IValidatableObject".)
+For more information about validation interfaces, see the **Model Validation Improvements** section of [Scott Guthrie's MVC 3 Preview blog post](https://weblogs.asp.net/scottgu/introducing-asp-net-mvc-3-preview-1/). (However, note that the reference to "IValidateObject" in the blog should be "IValidatableObject".)
 
 <a id="BM_Dependency_Injection_Improvements"></a>
 
@@ -264,13 +264,13 @@ For more information about NuGet, see the [NuGet documentation](/nuget/).
 
 ### Partial-Page Output Caching
 
-ASP.NET MVC has supported output caching of full page responses since version 1. MVC 3 also supports partial-page output caching, which allows you to easily cache regions or fragments of a response. For more information about caching, see the **Partial Page Output Caching** section of [Scott Guthrie's blog post on the MVC 3 release candidate](https://weblogs.asp.net/scottgu/archive/2010/11/09/announcing-the-asp-net-mvc-3-release-candidate.aspx) and the **Child Action Output Caching** section of the [MVC 3 Release Notes](../whitepapers/mvc3-release-notes.md).
+ASP.NET MVC has supported output caching of full page responses since version 1. MVC 3 also supports partial-page output caching, which allows you to easily cache regions or fragments of a response. For more information about caching, see the **Partial Page Output Caching** section of [Scott Guthrie's blog post on the MVC 3 release candidate](https://weblogs.asp.net/scottgu/announcing-the-asp-net-mvc-3-release-candidate/) and the **Child Action Output Caching** section of the [MVC 3 Release Notes](../whitepapers/mvc3-release-notes.md).
 
 ### Granular Control over Request Validation
 
 ASP.NET MVC has built-in request validation that automatically helps protect against XSS and HTML injection attacks. However, sometimes you want to explicitly disable request validation, such as if you want to let users post HTML content (for example, in blog entries or CMS content). You can now add an [AllowHtml](https://msdn.microsoft.com/library/system.web.mvc.allowhtmlattribute(v=VS.98).aspx) attribute to models or view models to disable request validation on a per-property basis during model binding. For more information about request validation, see the following resources:
 
-- The **Unobtrusive JavaScript and Validation** section in [Scott Guthrie's blog post on the MVC 3 release candidate](https://weblogs.asp.net/scottgu/archive/2010/11/09/announcing-the-asp-net-mvc-3-release-candidate.aspx).
+- The **Unobtrusive JavaScript and Validation** section in [Scott Guthrie's blog post on the MVC 3 release candidate](https://weblogs.asp.net/scottgu/announcing-the-asp-net-mvc-3-release-candidate/).
 - [MVC 3 Release Notes](../whitepapers/mvc3-release-notes.md)
 
 ### Extensible "New Project" Dialog Box

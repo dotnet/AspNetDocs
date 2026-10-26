@@ -60,7 +60,7 @@ These are ternary statements. The first one specifies that if the `sortOrder` pa
 
 The method uses [LINQ to Entities](/dotnet/framework/data/adonet/ef/language-reference/linq-to-entities) to specify the column to sort by. The code creates an <xref:System.Linq.IQueryable%601> variable before the `switch` statement, modifies it in the `switch` statement, and calls the `ToList` method after the `switch` statement. When you create and modify `IQueryable` variables, no query is sent to the database. The query is not executed until you convert the `IQueryable` object into a collection by calling a method such as `ToList`. Therefore, this code results in a single query that is not executed until the `return View` statement.
 
-As an alternative to writing different LINQ statements for each sort order, you can dynamically create a LINQ statement. For information about dynamic LINQ, see [Dynamic LINQ](https://go.microsoft.com/fwlink/?LinkID=323957).
+As an alternative to writing different LINQ statements for each sort order, you can dynamically create a LINQ statement. For information about dynamic LINQ, see [Dynamic LINQ](https://weblogs.asp.net/scottgu/dynamic-linq-part-1-using-the-linq-dynamic-query-library/).
 
 ### Add column heading hyperlinks to the Student index view
 
@@ -91,7 +91,7 @@ The code adds a `searchString` parameter to the `Index` method. The search strin
 >
 > For example, the .NET Framework implementation of the `Contains` method returns all rows when you pass an empty string to it, but the Entity Framework provider for SQL Server Compact 4.0 returns zero rows for empty strings. Therefore the code in the example (putting the `Where` statement inside an `if` statement) makes sure that you get the same results for all versions of SQL Server. Also, the .NET Framework implementation of the `Contains` method performs a case-sensitive comparison by default, but Entity Framework SQL Server providers perform case-insensitive comparisons by default. Therefore, calling the `ToUpper` method to make the test explicitly case-insensitive ensures that results do not change when you change the code later to use a repository, which will return an `IEnumerable` collection instead of an `IQueryable` object. (When you call the `Contains` method on an `IEnumerable` collection, you get the .NET Framework implementation; when you call it on an `IQueryable` object, you get the database provider implementation.)
 >
-> Null handling may also be different for different database providers or when you use an `IQueryable` object compared to when you use an `IEnumerable` collection. For example, in some scenarios a `Where` condition such as `table.Column != 0` may not return columns that have `null` as the value. By default, EF generates additional SQL operators to make equality between null values work in the database like it works in memory, but you can set the [UseDatabaseNullSemantics](/dotnet/api/system.data.entity.infrastructure.dbcontextconfiguration.usedatabasenullsemantics) flag in EF6 or call the 
+> Null handling may also be different for different database providers or when you use an `IQueryable` object compared to when you use an `IEnumerable` collection. For example, in some scenarios a `Where` condition such as `table.Column != 0` may not return columns that have `null` as the value. By default, EF generates additional SQL operators to make equality between null values work in the database like it works in memory, but you can set the [UseDatabaseNullSemantics](/dotnet/api/system.data.entity.infrastructure.dbcontextconfiguration.usedatabasenullsemantics) flag in EF6 or call the
 [UseRelationalNulls](/dotnet/api/microsoft.entityframeworkcore.infrastructure.relationaldbcontextoptionsbuilder-2.userelationalnulls) method in EF Core to configure this behavior.
 
 ### Add a search box to the Student index view
@@ -123,7 +123,7 @@ The NuGet **PagedList.Mvc** package automatically installs the **PagedList** pac
 3. Build the project.
 
 > [!NOTE]
-> PageList package is no longer maintained. So, for current projects it is better to use the [X.PagedList](https://github.com/dncuug/X.PagedList) package. The main difference is that X.PagedList is a portable assembly. This means that the package is cross-platform and can be used for web projects as well as other .NET projects. 
+> PageList package is no longer maintained. So, for current projects it is better to use the [X.PagedList](https://github.com/dncuug/X.PagedList) package. The main difference is that X.PagedList is a portable assembly. This means that the package is cross-platform and can be used for web projects as well as other .NET projects.
 > The new package shouldn't cause compatibility problems, because it was ported to .NET 6 since version 8.4.
 
 ### Add paging functionality to the Index method
@@ -241,10 +241,6 @@ Create a *ViewModels* folder in the project folder. In that folder, add a class 
    The count of students for each enrollment date displays in a table.
 
    ![About_page](sorting-filtering-and-paging-with-the-entity-framework-in-an-asp-net-mvc-application/_static/image9.png)
-
-## Get the code
-
-[Download the Completed Project](https://webpifeed.blob.core.windows.net/webpifeed/Partners/ASP.NET%20MVC%20Application%20Using%20Entity%20Framework%20Code%20First.zip)
 
 ## Additional resources
 

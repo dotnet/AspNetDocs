@@ -92,7 +92,7 @@ For example, you can use a Mock Object framework to generate a mock version of y
 Visual Studio does not include a Mock Object framework. However, there are several commercial and open source Mock Object frameworks available for the .NET framework:
 
 1. Moq - This framework is available under the open source BSD license. You can download Moq from [https://code.google.com/p/moq/](https://code.google.com/p/moq/).
-2. Rhino Mocks - This framework is available under the open source BSD license. You can download Rhino Mocks from [http://ayende.com/projects/rhino-mocks.aspx](http://ayende.com/projects/rhino-mocks.aspx).
+2. Rhino Mocks - This framework is available under the open source BSD license. You can find Rhino Mocks in its [GitHub repository](https://github.com/ayende/rhino-mocks).
 3. Typemock Isolator - This is a commercial framework. You can download a trial version from [http://www.typemock.com/](http://www.typemock.com/).
 
 In this tutorial, I decided to use Moq. However, you could just as easily use Rhino Mocks or Typemock Isolator to create the Mock objects for the Contact Manager application.

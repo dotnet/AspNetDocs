@@ -92,7 +92,7 @@ The model binding tab provides a wealth of information to help you understand ho
 <a id="route"></a>
 ## Routes
 
- The Glimpse Routes tab will can help you debug and understand routing. In the image below, the product route is selected (and it shows in green, a Glimpse convention). ![product name selected](profile-and-debug-your-aspnet-mvc-app-with-glimpse/_static/image12.png) Route constraints, Areas and data tokens are also displayed. See Glimpse Routes and [Attribute Routing in ASP.NET MVC 5](https://devblogs.microsoft.com/dotnet/attribute-routing-in-asp-net-mvc-5/) for more information. 
+ The Glimpse Routes tab will can help you debug and understand routing. In the image below, the product route is selected (and it shows in green, a Glimpse convention). ![product name selected](profile-and-debug-your-aspnet-mvc-app-with-glimpse/_static/image12.png) Route constraints, Areas and data tokens are also displayed. See Glimpse Routes and [Attribute Routing in ASP.NET MVC 5](https://devblogs.microsoft.com/dotnet/attribute-routing-in-asp-net-mvc-5/) for more information.
 
 <a id="da"></a>
 ## Using Glimpse on Azure
@@ -109,11 +109,3 @@ Remove the comments from the *GlimpseSecurityPolicy.cs* file and change the [IsI
 
 > [!WARNING]
 > Security - The rich data provided by Glimpse could expose the security of your app. Microsoft has not performed a security audit of Glimpse for use on productions apps.
-
-For information on adding roles, see my [Deploy a Secure ASP.NET MVC 5 web app with Membership, OAuth, and SQL Database to Azure](https://azure.microsoft.com/documentation/articles/web-sites-dotnet-deploy-aspnet-mvc-app-membership-oauth-sql-database/) tutorial.
-
-<a id="addRes"></a>
-## Additional Resources
-
-- [Deploy a Secure ASP.NET MVC 5 app with Membership, OAuth, and SQL Database to Azure](https://azure.microsoft.com/documentation/articles/web-sites-dotnet-deploy-aspnet-mvc-app-membership-oauth-sql-database/)
-

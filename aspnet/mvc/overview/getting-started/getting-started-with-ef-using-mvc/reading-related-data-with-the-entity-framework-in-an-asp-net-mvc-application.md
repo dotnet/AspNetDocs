@@ -243,10 +243,6 @@ Notice that you use the `Collection` method to load a collection property, but f
 
 Run the Instructor Index page now and you'll see no difference in what's displayed on the page, although you've changed how the data is retrieved.
 
-## Get the code
-
-[Download Completed Project](https://webpifeed.blob.core.windows.net/webpifeed/Partners/ASP.NET%20MVC%20Application%20Using%20Entity%20Framework%20Code%20First.zip)
-
 ## Additional resources
 
 Links to other Entity Framework resources can be found in the [ASP.NET Data Access - Recommended Resources](../../../../whitepapers/aspnet-data-access-content-map.md).
