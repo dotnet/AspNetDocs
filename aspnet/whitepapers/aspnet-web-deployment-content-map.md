@@ -54,7 +54,7 @@ This article provides links to documentation resources about how to deploy (publ
 - [Team Foundation Build Customization Guide](https://aka.ms/vsarsolutions). Documentation by ALM Rangers on setting up Team Foundation Server covers web deployment and includes tutorials and videos.
 - [SlowCheetah XML transforms from a CI server](http://sedodream.com/2011/12/12/SlowCheetahXMLTransformsFromACIServer.aspx) (Sayed Hashimi's blog). Explains how to use SlowCheetah, A Visual Studio add-in for transforming app.config and other XML files.
 
-See also [Making sure an application is off-line during deployment](aspnet-web-deployment-content-map.md#appoffline) later in this page.
+See also [Making sure an application is offline during deployment](#making-sure-an-application-is-offline-during-deployment) later in this article.
 
 ## Using Web.config transformations to change settings in the destination Web.config file or app.config file during deployment
 

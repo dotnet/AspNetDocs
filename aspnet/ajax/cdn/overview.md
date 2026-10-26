@@ -24,7 +24,7 @@ msc.type: content
 
 ## Table of Contents
 
-**[ajax.microsoft.com renamed to ajax.aspnetcdn.com](#ajaxmicrosoftcom_renamed_to_ajaxaspnetcdncom_18)**
+**[ajax.microsoft.com renamed to ajax.aspnetcdn.com](#ajaxmicrosoftcom-renamed-to-ajaxaspnetcdncom)**
 **[Visual Studio .vsdoc Support](#Visual_Studio_vsdoc_Support_19)**
 **[Using ASP.NET Ajax from the CDN](#Using_ASPNET_Ajax_from_the_CDN_20)**
 **[Using jQuery from the CDN](#Using_jQuery_from_the_CDN_21)**
