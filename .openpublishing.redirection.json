@@ -1,6 +1,10 @@
 {
   "redirections": [
     {
+      "source_path": "aspnet/mvc/overview/performance/profile-and-debug-your-aspnet-mvc-app-with-glimpse.md",
+      "redirect_url": "/aspnet/mvc/overview/performance/"
+    },
+    {
       "source_path": "aspnet/web-forms/videos/vs-2005/index.md",
       "redirect_url": "https://learn.microsoft.com/shows/asp-net-site-videos/",
       "redirect_document_id": false
@@ -419,6 +423,14 @@
       "source_path": "aspnet/webhooks/sending/index.md",
       "redirect_url": "/webhooks/sending/senders",
       "redirect_document_id": false
+    },
+    {
+      "source_path": "aspnet/web-forms/overview/older-versions-security/membership/creating-the-membership-schema-in-sql-server-cs.md",
+      "redirect_url": "/aspnet/web-forms/overview/older-versions-security/membership/"
+    },
+    {
+      "source_path": "aspnet/web-forms/overview/older-versions-security/membership/creating-the-membership-schema-in-sql-server-vb.md",
+      "redirect_url": "/aspnet/web-forms/overview/older-versions-security/membership/"
     }
   ]
 }

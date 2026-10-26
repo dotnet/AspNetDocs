@@ -39,11 +39,6 @@ by [Rick Anderson](https://twitter.com/RickAndMSFT)
 
 - [Create an ASP.NET web app in Azure](https://learn.microsoft.com/azure/app-service/quickstart-dotnetcore?tabs=netframework48) Short and simple tutorial for deployment to Azure.
 
-<a id="perf"></a>
-## Performance and Debugging
-
-- [Profile and debug your ASP.NET MVC app with Glimpse](../performance/profile-and-debug-your-aspnet-mvc-app-with-glimpse.md)
-
 ## ASP.NET MVC DropDownListFor with SelectListItem
 
 When using the <xref:System.Web.Mvc.Html.SelectExtensions.DropDownListFor%2A> helper and passing to it the collection of `SelectListItem` from which it is populated, the `DropdownListFor` modifies the passed collection after it is called. `DropdownListFor` changes the `SelectListItems` Selected properties to whatever was selected by the dropdown list. This leads to unexpected behavior.
