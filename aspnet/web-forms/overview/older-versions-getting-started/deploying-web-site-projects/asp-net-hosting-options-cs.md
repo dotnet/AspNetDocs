@@ -32,7 +32,7 @@ This is the first in a series of tutorials that look at the steps involved in de
 - What files need to be deployed to the web host provider.
 - Tools for streamlining the deployment process.
 - How to deploy a database.
-- Tips for deploying a database that uses [the SQL-based Membership and Roles provider](../../older-versions-security/membership/creating-the-membership-schema-in-sql-server-cs.md), along with ways to mimic the Website Administration Tool in a production environment.
+- Tips for deploying a database that uses the SQL-based Membership and Roles provider, along with ways to mimic the Website Administration Tool in a production environment.
 - Strategies for smoothly updating the database in production with changes made during development.
 - Techniques for logging errors that occur on production, and ways to notify developers when an error occurs.
 

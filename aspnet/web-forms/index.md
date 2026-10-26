@@ -573,12 +573,10 @@ msc.type: categoryindex
             - [Overview of Forms Authentication (VB)](overview/older-versions-security/introduction/an-overview-of-forms-authentication-vb.md)
         - [ASP.NET 3.5 - Membership](overview/older-versions-security/membership/index.md)
 
-            - [Creating the Membership Schema in SQL Server (C#)](overview/older-versions-security/membership/creating-the-membership-schema-in-sql-server-cs.md)
             - [Creating User Accounts (C#)](overview/older-versions-security/membership/creating-user-accounts-cs.md)
             - [Validating User Credentials Against the Membership User Store (C#)](overview/older-versions-security/membership/validating-user-credentials-against-the-membership-user-store-cs.md)
             - [User-Based Authorization (C#)](overview/older-versions-security/membership/user-based-authorization-cs.md)
             - [Storing Additional User Information (C#)](overview/older-versions-security/membership/storing-additional-user-information-cs.md)
-            - [Creating the Membership Schema in SQL Server (VB)](overview/older-versions-security/membership/creating-the-membership-schema-in-sql-server-vb.md)
             - [Creating User Accounts (VB)](overview/older-versions-security/membership/creating-user-accounts-vb.md)
             - [Validating User Credentials Against the Membership User Store (VB)](overview/older-versions-security/membership/validating-user-credentials-against-the-membership-user-store-vb.md)
             - [User-Based Authorization (VB)](overview/older-versions-security/membership/user-based-authorization-vb.md)
