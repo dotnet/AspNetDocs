@@ -18,12 +18,6 @@ by [Rick Anderson](https://twitter.com/RickAndMSFT)
 >
 > This tutorial was written by [Rick Anderson](/archive/blogs/rickAndy/) ( Twitter: [@RickAndMSFT](https://twitter.com/RickAndMSFT) ).
 
-- [Create an ASP.NET MVC app](#createMvc)
-- [Set up SMS for Two-factor authentication](#SMS)
-- [Enable Two-factor authentication](#enable2)
-- [Additional Resources](#addRes)
-
-<a id="createMvc"></a>
 ## Create an ASP.NET MVC app
 
 Start by installing and running [Visual Studio Express 2013 for Web](https://visualstudio.microsoft.com/vs/older-downloads/) or higher.
