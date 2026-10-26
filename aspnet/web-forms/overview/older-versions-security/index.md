@@ -21,12 +21,10 @@ msc.type: chapter
     - [Overview of Forms Authentication (VB)](introduction/an-overview-of-forms-authentication-vb.md)
 - [ASP.NET 3.5 - Membership](membership/index.md)
 
-    - [Creating the Membership Schema in SQL Server (C#)](membership/creating-the-membership-schema-in-sql-server-cs.md)
     - [Creating User Accounts (C#)](membership/creating-user-accounts-cs.md)
     - [Validating User Credentials Against the Membership User Store (C#)](membership/validating-user-credentials-against-the-membership-user-store-cs.md)
     - [User-Based Authorization (C#)](membership/user-based-authorization-cs.md)
     - [Storing Additional User Information (C#)](membership/storing-additional-user-information-cs.md)
-    - [Creating the Membership Schema in SQL Server (VB)](membership/creating-the-membership-schema-in-sql-server-vb.md)
     - [Creating User Accounts (VB)](membership/creating-user-accounts-vb.md)
     - [Validating User Credentials Against the Membership User Store (VB)](membership/validating-user-credentials-against-the-membership-user-store-vb.md)
     - [User-Based Authorization (VB)](membership/user-based-authorization-vb.md)

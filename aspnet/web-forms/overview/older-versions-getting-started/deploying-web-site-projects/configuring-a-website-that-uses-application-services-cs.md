@@ -167,7 +167,6 @@ For more information on the topics discussed in this tutorial, refer to the foll
 
 - [*ASP.NET SQL Server Registration Tool (aspnet_regsql.exe)*](https://msdn.microsoft.com/library/ms229862.aspx)
 - [*Creating the Application Services Database for SQL Server*](https://msdn.microsoft.com/library/x28wfk74.aspx)
-- [*Creating the Membership Schema in SQL Server*](../../older-versions-security/membership/creating-the-membership-schema-in-sql-server-cs.md)
 - [*Examining ASP.NET's Membership, Roles, and Profile*](/previous-versions/aspnet/yh26yfzy(v=vs.100))
 - *Rolling Your Own Web Site Administration Tool*
 - [*Website Security Tutorials*](../../older-versions-security/introduction/security-basics-and-asp-net-support-cs.md)
