@@ -238,7 +238,6 @@ For more information on the topics discussed in this tutorial, refer to the foll
 - [Cascading Stylesheets (CSS) Tutorials](http://www.w3schools.com/css/default.asp)
 - [Dynamically Setting the Page's Title](/aspnet/web-forms/overview/older-versions-getting-started/master-pages/specifying-the-title-meta-tags-and-other-html-headers-in-the-master-page-vb)
 - [Master Pages in ASP.NET](http://www.odetocode.com/articles/419.aspx)
-- [Master Pages QuickStart Tutorials](https://quickstarts.asp.net/QuickStartv20/aspnet/doc/masterpages/default.aspx)
 
 ### About the Author
 

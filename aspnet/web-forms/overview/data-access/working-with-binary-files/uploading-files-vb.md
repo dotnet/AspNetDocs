@@ -193,7 +193,7 @@ On postback, the uploaded file can be saved to the file system or its binary dat
 The FileUpload control provides a variety of properties for working with the uploaded data. For instance, the [`HasFile` property](https://msdn.microsoft.com/library/system.web.ui.webcontrols.fileupload.hasfile.aspx) indicates whether a file was uploaded by the user, while the [`FileBytes` property](https://msdn.microsoft.com/library/system.web.ui.webcontrols.fileupload.filebytes.aspx) provides access to the uploaded binary data as an array of bytes. The `Click` event handler starts by ensuring that a file has been uploaded. If a file has been uploaded, the Label shows the name of the uploaded file, its size in bytes, and its content-type.
 
 > [!NOTE]
-> To ensure that the user uploads a file you can check the `HasFile` property and display a warning if it s `False`, or you may use the [RequiredFieldValidator control](https://quickstarts.asp.net/QuickStartv20/aspnet/doc/validation/default.aspx) instead.
+> To ensure that the user uploads a file, you can check the `HasFile` property and display a warning if it's `False`, or you can use the RequiredFieldValidator control.
 
 The FileUpload s `SaveAs(filePath)` saves the uploaded file to the specified *filePath*. *filePath* must be a *physical path* (`C:\Websites\Brochures\SomeFile.pdf`) rather than a *virtual* *path* (`/Brochures/SomeFile.pdf`). The [`Server.MapPath(virtPath)` method](https://msdn.microsoft.com/library/system.web.httpserverutility.mappath.aspx) takes a virtual path and returns its corresponding physical path. Here, the virtual path is `~/Brochures/fileName`, where *fileName* is the name of the uploaded file. See [Server.MapPath Methos](/previous-versions/iis/6.0-sdk/ms524632%28v%3dvs.90%29) for more information on virtual and physical paths and using `Server.MapPath`.
 
@@ -234,7 +234,6 @@ Happy Programming!
 For more information on the topics discussed in this tutorial, refer to the following resources:
 
 - [Using Large-Value Data Types](https://msdn.microsoft.com/library/ms178158.aspx)
-- [FileUpload Control QuickStarts](https://quickstarts.asp.net/QuickStartv20/aspnet/doc/ctrlref/standard/fileupload.aspx)
 - [The ASP.NET 2.0 FileUpload Server Control](http://www.wrox.com/WileyCDA/Section/id-292158.html)
 - [The Dark Side of File Uploads](http://www.aspnetresources.com/articles/dark_side_of_file_uploads.aspx)
 

@@ -38,7 +38,7 @@ Caching provides an economical means for squeezing more performance from an appl
 
 Caching can be a good way to get good enough performance without requiring a lot of time and analysis. Memory is cheap, so if you can get the performance you need by caching the output for 30 seconds instead of spending a day or a week trying to optimize your code or database, do the caching solution (assuming 30-second old data is ok) and move on. Eventually, poor design will probably catch up to you, so of course you should try to design your applications correctly. But if you just need to get good enough performance today, caching can be an excellent [approach], buying you time to refactor your application at a later date when you have the time to do so.
 
-While caching can provide appreciable performance enhancements, it is not applicable in all situations, such as with applications that use real-time, frequently-updating data, or where even shortly-lived stale data is unacceptable. But for the majority of applications, caching should be used. For more background on caching in ASP.NET 2.0, refer to the [Caching for Performance](https://quickstarts.asp.net/QuickStartv20/aspnet/doc/caching/default.aspx) section of the [ASP.NET 2.0 QuickStart Tutorials](https://quickstarts.asp.net/QuickStartv20/aspnet/).
+While caching can provide appreciable performance enhancements, it is not applicable in all situations, such as with applications that use real-time, frequently-updating data, or where even shortly-lived stale data is unacceptable. But for the majority of applications, caching should be used.
 
 ## Step 1: Creating the Caching Web Pages
 

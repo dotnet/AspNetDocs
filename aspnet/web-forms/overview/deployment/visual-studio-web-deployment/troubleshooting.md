@@ -21,7 +21,7 @@ This page describes some common problems that may arise when you deploy an ASP.N
 
 The scenarios shown apply to both Azure and third-party hosting providers. For more information about troubleshooting web apps in Azure App Service, see the following resources:
 
-- [Troubleshoot a web app in Azure App Service using Visual Studio](https://azure.microsoft.com/documentation/articles/web-sites-dotnet-troubleshoot-visual-studio/)
+- [Enable diagnostic logging for apps in Azure App Service](https://learn.microsoft.com/azure/app-service/troubleshoot-diagnostic-logs)
 - [Monitor Web Apps in Azure App Service](https://azure.microsoft.com/documentation/articles/web-sites-monitor//)
 - [Announcing the release of Windows Azure SDK 2.0 for .NET](https://www.webpronews.com/microsoft-releases-windows-azure-sdk-2-0-for-net/) (ScottGu's blog, shows how to get diagnostic logs in Visual Studio)
 

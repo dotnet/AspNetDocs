@@ -190,7 +190,7 @@ For more information on the topics discussed in this tutorial, refer to the foll
 
 - [Building Secure ASP.NET Application: Authentication, Authorization, and Secure Communication](https://msdn.microsoft.com/library/aa302392.aspx)
 - [Encrypting Configuration Information in ASP.NET 2.0 Applications](https://4guysfromrolla.com/articles/021506-1.aspx)
-- [Encrypting `Web.config` Values in ASP.NET 2.0](https://weblogs.asp.net/scottgu/archive/2006/01/09/434893.aspx)
+- [Encrypting `Web.config` Values in ASP.NET 2.0](https://weblogs.asp.net/scottgu/434893/)
 - [How To: Encrypt Configuration Sections in ASP.NET 2.0 Using DPAPI](https://msdn.microsoft.com/library/ms998280.aspx)
 - [How To: Encrypt Configuration Sections in ASP.NET 2.0 Using RSA](https://msdn.microsoft.com/library/ms998283.aspx)
 - [The Configuration API in .NET 2.0](http://www.odetocode.com/Articles/418.aspx)

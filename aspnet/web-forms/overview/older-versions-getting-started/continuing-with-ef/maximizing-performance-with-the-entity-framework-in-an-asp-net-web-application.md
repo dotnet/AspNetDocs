@@ -35,7 +35,7 @@ Information presented in the following section is potentially useful for applica
 
 > [!NOTE]
 > Web application performance is affected by many factors, including things like the size of request and response data, the speed of database queries, how many requests the server can queue and how quickly it can service them, and even the efficiency of any client-script libraries you might be using. If performance is critical in your application, or if testing or experience shows that application performance isn't satisfactory, you should follow normal protocol for performance tuning. Measure to determine where performance bottlenecks are occurring, and then address the areas that will have the greatest impact on overall application performance.
-> 
+>
 > This topic focuses mainly on ways in which you can potentially improve the performance specifically of the Entity Framework in ASP.NET. The suggestions here are useful if you determine that data access is one of the performance bottlenecks in your application. Except as noted, the methods explained here shouldn't be considered &quot;best practices&quot; in general — many of them are appropriate only in exceptional situations or to address very specific kinds of performance bottlenecks.
 
 To start the tutorial, start Visual Studio and open the Contoso University web application that you were working with in the previous tutorial.
@@ -44,7 +44,7 @@ To start the tutorial, start Visual Studio and open the Contoso University web a
 
 There are several ways that the Entity Framework can load related data into the navigation properties of an entity:
 
-- *Lazy loading*. When the entity is first read, related data isn't retrieved. However, the first time you attempt to access a navigation property, the data required for that navigation property is automatically retrieved. This results in multiple queries sent to the database — one for the entity itself and one each time that related data for the entity must be retrieved. 
+- *Lazy loading*. When the entity is first read, related data isn't retrieved. However, the first time you attempt to access a navigation property, the data required for that navigation property is automatically retrieved. This results in multiple queries sent to the database — one for the entity itself and one each time that related data for the entity must be retrieved.
 
     [![Image05](maximizing-performance-with-the-entity-framework-in-an-asp-net-web-application/_static/image2.png)](maximizing-performance-with-the-entity-framework-in-an-asp-net-web-application/_static/image1.png)
 
@@ -248,11 +248,9 @@ This completes the introduction to improving performance in an ASP.NET web appli
 - [EF Merge Options and Compiled Queries](/archive/blogs/dsimmons/ef-merge-options-and-compiled-queries). Blog post that explains unexpected behaviors of compiled queries and merge options such as `NoTracking`. If you plan to use compiled queries or manipulate merge option settings in your application, read this first.
 - [Entity Framework-related posts in the Data and Modeling Customer Advisory Team blog](https://blogs.msdn.com/b/dmcat/archive/tags/entity+framework/). Includes posts on compiled queries and using the Visual Studio 2010 Profiler to discover performance issues.
 - [ASP.NET State Management Recommendations](https://msdn.microsoft.com/library/z1hkazw7.aspx).
-- [Using the Entity Framework and the ObjectDataSource: Custom Paging](http://geekswithblogs.net/Frez/articles/using-the-entity-framework-and-the-objectdatasource-custom-paging.aspx). Blog post that builds on the ContosoUniversity application created in these tutorials to explain how to implement paging in the *Departments.aspx* page.
 
 The next tutorial reviews some of the important enhancements to the Entity Framework that are new in version 4.
 
 > [!div class="step-by-step"]
 > [Previous](handling-concurrency-with-the-entity-framework-in-an-asp-net-web-application.md)
 > [Next](what-s-new-in-the-entity-framework-4.md)
-

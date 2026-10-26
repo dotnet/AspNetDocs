@@ -58,7 +58,7 @@ In a URL pattern, you define placeholders by enclosing them in braces ( `{` and 
 Before you can include routes to pages of the Wingtip Toys sample application, you must register the routes when the application starts. To register the routes, you will modify the `Application_Start` event handler.
 
 1. In **Solution Explorer**of Visual Studio, find and open the *Global.asax.cs* file.
-2. Add the code highlighted in yellow to the *Global.asax.cs* file as follows:   
+2. Add the code highlighted in yellow to the *Global.asax.cs* file as follows:
 
     [!code-csharp[Main](url-routing/samples/sample1.cs?highlight=30-31,34-46)]
 
@@ -70,10 +70,10 @@ The first parameter ("`ProductsByCategoryRoute`") is the route name. It is used 
 
 The second parameter of the route includes a dynamic value specified by braces (`{ }`). In this case, the `categoryName` is a variable that will be used to determine the proper routing path.
 
-> [!NOTE] 
-> 
+> [!NOTE]
+>
 > **Optional**
-> 
+>
 > You might find it easier to manage your code by moving the `RegisterCustomRoutes` method to a separate class. In the *Logic* folder, create a separate `RouteActions` class. Move the above `RegisterCustomRoutes` method from the *Global.asax.cs* file into the new `RoutesActions` class. Use the `RoleActions` class and the `createAdmin` method as an example of how to call the `RegisterCustomRoutes` method from the *Global.asax.cs* file.
 
 You may also have noticed the `RegisterRoutes` method call using the `RouteConfig` object at the beginning of the `Application_Start` event handler. This call is made to implement default routing. It was included as default code when you created the application using Visual Studio's Web Forms template.
@@ -91,17 +91,17 @@ Routes require you to add additional code. In this tutorial, you will use model 
 Next, you'll update the application to use the `ProductsByCategoryRoute` to determine the correct route to include for each product category link. You'll also update the *ProductList.aspx* page to include a routed link for each product. The links will be displayed as they were before the change, however the links will now use URL routing.
 
 1. In **Solution Explorer**, open the *Site.Master* page if it is not already open.
-2. Update the **ListView** control named "`categoryList`" with the changes highlighted in yellow, so the markup appears as follows:   
+2. Update the **ListView** control named "`categoryList`" with the changes highlighted in yellow, so the markup appears as follows:
 
     [!code-aspx[Main](url-routing/samples/sample3.aspx?highlight=7-9)]
 3. In **Solution Explorer**, open the *ProductList.aspx* page.
-4. Update the `ItemTemplate` element of the *ProductList.aspx* page with the updates highlighted in yellow, so the markup appears as follows:   
+4. Update the `ItemTemplate` element of the *ProductList.aspx* page with the updates highlighted in yellow, so the markup appears as follows:
 
     [!code-aspx[Main](url-routing/samples/sample4.aspx?highlight=6-9,14-16)]
-5. Open the code-behind of *ProductList.aspx.cs* and add the following namespace as highlighted in yellow:  
+5. Open the code-behind of *ProductList.aspx.cs* and add the following namespace as highlighted in yellow:
 
     [!code-csharp[Main](url-routing/samples/sample5.cs?highlight=9)]
-6. Replace the `GetProducts` method of the code-behind (*ProductList.aspx.cs*) with the following code:   
+6. Replace the `GetProducts` method of the code-behind (*ProductList.aspx.cs*) with the following code:
 
     [!code-csharp[Main](url-routing/samples/sample6.cs)]
 
@@ -109,7 +109,7 @@ Next, you'll update the application to use the `ProductsByCategoryRoute` to dete
 
 Now, update the code-behind (*ProductDetails.aspx.cs*) for the *ProductDetails.aspx* page to use route data. Notice that the new `GetProduct` method also accepts a query string value for the case where the user has a link bookmarked that uses the older non-friendly, non-routed URL.
 
-1. Replace the `GetProduct` method of the code-behind (*ProductDetails.aspx.cs*) with the following code:   
+1. Replace the `GetProduct` method of the code-behind (*ProductDetails.aspx.cs*) with the following code:
 
     [!code-csharp[Main](url-routing/samples/sample7.cs)]
 
@@ -117,19 +117,19 @@ Now, update the code-behind (*ProductDetails.aspx.cs*) for the *ProductDetails.a
 
 You can run the application now to see the updated routes.
 
-1. Press **F5** to run the Wingtip Toys sample application.  
+1. Press **F5** to run the Wingtip Toys sample application.
  The browser opens and shows the *Default.aspx* page.
-2. Click the **Products** link at the top of the page.  
- All products are displayed on the *ProductList.aspx* page. The following URL (using your port number) is displayed for the browser:  
+2. Click the **Products** link at the top of the page.
+ All products are displayed on the *ProductList.aspx* page. The following URL (using your port number) is displayed for the browser:
     `https://localhost:44300/ProductList`
-3. Next, click the **Cars** category link near the top of the page.  
- Only cars are displayed on the *ProductList.aspx* page. The following URL (using your port number) is displayed for the browser:  
+3. Next, click the **Cars** category link near the top of the page.
+ Only cars are displayed on the *ProductList.aspx* page. The following URL (using your port number) is displayed for the browser:
     `https://localhost:44300/Category/Cars`
-4. Click the link containing the name of the first car listed on the page ("**Convertible Car**") to display the product details.  
- The following URL (using your port number) is displayed for the browser:  
+4. Click the link containing the name of the first car listed on the page ("**Convertible Car**") to display the product details.
+ The following URL (using your port number) is displayed for the browser:
     `https://localhost:44300/Product/Convertible%20Car`
-5. Next, enter the following non-routed URL (using your port number) into the browser:  
-    `https://localhost:44300/ProductDetails.aspx?productID=2`  
+5. Next, enter the following non-routed URL (using your port number) into the browser:
+    `https://localhost:44300/ProductDetails.aspx?productID=2`
  The code still recognizes a URL that includes a query string, for the case where a user has a link bookmarked.
 
 ## Summary
@@ -138,11 +138,9 @@ In this tutorial, you have added routes for categories and products. You have le
 
 ## Additional Resources
 
-[ASP.NET Friendly URLs](https://www.nuget.org/packages/Microsoft.AspNet.FriendlyUrls/)  
-[Deploy a Secure ASP.NET Web Forms App with Membership, OAuth, and SQL Database to Azure App Service](https://azure.microsoft.com/documentation/articles/web-sites-dotnet-deploy-aspnet-webforms-app-membership-oauth-sql-database/)  
-[Microsoft Azure - Free Trial](https://azure.microsoft.com/pricing/purchase-options/azure-account?cid=msft_learn)
+- [ASP.NET Friendly URLs](https://www.nuget.org/packages/Microsoft.AspNet.FriendlyUrls/)
+- [Microsoft Azure - Free Trial](https://azure.microsoft.com/pricing/purchase-options/azure-account?cid=msft_learn)
 
 > [!div class="step-by-step"]
 > [Previous](membership-and-administration.md)
 > [Next](aspnet-error-handling.md)
-

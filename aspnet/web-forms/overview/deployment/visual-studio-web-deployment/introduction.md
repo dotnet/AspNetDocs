@@ -41,7 +41,7 @@ The tutorials are aimed at ASP.NET developers who work in environments where:
 Deployment from [source control](../../../../aspnet/overview/developing-apps-with-windows-azure/building-real-world-cloud-apps-with-windows-azure/source-control.md) using a [continuous delivery](../../../../aspnet/overview/developing-apps-with-windows-azure/building-real-world-cloud-apps-with-windows-azure/continuous-integration-and-continuous-delivery.md) process is not covered in these tutorials except for one tutorial that shows how to deploy from the command line. For information about continuous delivery, see the following resources:
 
 - [Continuous Integration and Continuous Delivery (Building Real-World Cloud Apps with Windows Azure)](../../../../aspnet/overview/developing-apps-with-windows-azure/building-real-world-cloud-apps-with-windows-azure/continuous-integration-and-continuous-delivery.md)
-- [Deploy a web app in Azure App Service](https://azure.microsoft.com/documentation/articles/web-sites-deploy/)
+- [Deploy a web app in Azure App Service](https://learn.microsoft.com/azure/app-service/deploy-best-practices)
 - [Deploying Web Applications in Enterprise Scenarios](../deploying-web-applications-in-enterprise-scenarios/deploying-web-applications-in-enterprise-scenarios.md) (An older set of tutorials written for Visual Studio 2010, which still has useful information for enterprise environments.)
 
 ## Using a third-party hosting provider

@@ -39,7 +39,7 @@ msc.type: chapter
 - [Determine Whether an Asynchronous Postback has Occurred](how-do-i-determine-whether-an-asynchronous-postback-has-occurred.md)
 - [Use the Conditional UpdateMode of the UpdatePanel](how-do-i-use-the-conditional-updatemode-of-the-updatepanel.md)
 - [Implement the Persistent Communications Pattern with the UpdatePanel](how-do-i-implement-the-persistent-communications-pattern-with-the-updatepanel.md)
-- [Localize an ASP.NET AJAX Application](how-do-i-localize-an-aspnet-ajax-application.md)
+- [Localize an ASP.NET AJAX Application](https://learn.microsoft.com/shows/asp-net-site-videos/how-do-i-localize-aspnet-ajax-application)
 - [Implement the Persistent Communications Pattern using Web Services](how-do-i-implement-the-persistent-communications-pattern-using-web-services.md)
 - [Trigger an UpdatePanel Refresh from a DropDownList Control](how-do-i-trigger-an-updatepanel-refresh-from-a-dropdownlist-control.md)
 - [Create an ASP.NET AJAX Extender from Scratch](how-do-i-create-an-aspnet-ajax-extender-from-scratch.md)

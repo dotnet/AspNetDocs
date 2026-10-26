@@ -14,6 +14,6 @@ msc.type: video
 Videos can be found on youtube.
 
 > [!div class="step-by-step"]
-> [Previous](how-do-i-use-the-aspnet-ajax-autocomplete-control.md)
+> [Previous](https://learn.microsoft.com/shows/asp-net-site-videos/how-do-i-use-aspnet-ajax-autocomplete-control)
 > [Next](how-do-i-use-the-aspnet-ajax-dropdown-control.md)
 

@@ -67,14 +67,14 @@ The download for this tutorial includes an ASP.NET application called Book Revie
 
 - `Web.config`, the application's configuration file.
 - A master page (`Site.master`).
-- Seven different ASP.NET pages: 
+- Seven different ASP.NET pages:
 
     - ~`/Default.aspx`- the site's homepage.
     - ~`/About.aspx` - an "About the Site" page.
-    - ~`/Fiction/Default.aspx` - a page listing the fiction books that have been reviewed. 
+    - ~`/Fiction/Default.aspx` - a page listing the fiction books that have been reviewed.
 
         - ~`/Fiction/Blaze.aspx` - a review of the Richard Bachman novel *Blaze*.
-    - ~/`Tech/Default.aspx` - a page listing the technology books that have been reviewed. 
+    - ~/`Tech/Default.aspx` - a page listing the technology books that have been reviewed.
 
         - ~/`Tech/CYOW.aspx`- a review of *Create Your Own Website*.
         - ~/`Tech/TYASP35.aspx` - a review of *Teach Yourself ASP.NET 3.5 in 24 Hours*.
@@ -128,7 +128,7 @@ The Build menu option in Visual Studio is present in both Web Application Projec
 
 Figure 3 shows the files that make up the Book Reviews Web Site Project.
 
- [![The Solution Explorer lists the files that comprise the Web Site Project](determining-what-files-need-to-be-deployed-cs/_static/image7.png)](determining-what-files-need-to-be-deployed-cs/_static/image6.png) 
+ [![The Solution Explorer lists the files that comprise the Web Site Project](determining-what-files-need-to-be-deployed-cs/_static/image7.png)](determining-what-files-need-to-be-deployed-cs/_static/image6.png)
 
 **Figure 3**: The Solution Explorer lists the files that comprise the Web Site Project
 
@@ -160,12 +160,10 @@ For more information on the topics discussed in this tutorial, refer to the foll
 - [Examining ASP.NET's Site Navigation](/previous-versions/aspnet/e468hxky(v=vs.100))
 - [Introduction to Web Application Projects](https://msdn.microsoft.com/library/aa730880.aspx)
 - [Master Page Tutorials](../master-pages/creating-a-site-wide-layout-using-master-pages-cs.md)
-- [Sharing Code Between Pages](https://quickstarts.asp.net/QuickStartv20/aspnet/doc/pages/code.aspx)
 - [Using a Custom Base Class For Your ASP.NET Pages' Code-Behind Classes](/previous-versions/aspnet/ms178138(v=vs.100))
-- [Visual Studio 2005's Web Site Project System: What Is It and Why Did We Do It?](https://weblogs.asp.net/scottgu/archive/2005/08/21/423201.aspx)
+- [Visual Studio 2005's Web Site Project System: What Is It and Why Did We Do It?](https://weblogs.asp.net/scottgu/423201/)
 - [Walkthrough: Converting a Web Site Project to a Web Application Project in Visual Studio](https://msdn.microsoft.com/library/aa983476.aspx)
 
 > [!div class="step-by-step"]
 > [Previous](asp-net-hosting-options-cs.md)
 > [Next](deploying-your-site-using-an-ftp-client-cs.md)
-
