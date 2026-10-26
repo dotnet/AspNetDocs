@@ -39,7 +39,7 @@ Event handlers for the `HttpApplication` events can be placed in a special file 
 
 [![Sceenshot that highlights the Global dot A S A X file.](processing-unhandled-exceptions-cs/_static/image2.png)](processing-unhandled-exceptions-cs/_static/image1.png)
 
-**Figure 1**: Add `Global.asax` To Your Web Application  
+**Figure 1**: Add `Global.asax` To Your Web Application
 ([Click to view full-size image](processing-unhandled-exceptions-cs/_static/image3.png))
 
 The contents and structure of the `Global.asax` file created by Visual Studio differ slightly based on whether you are using a Web Application Project (WAP) or Web Site Project (WSP). With a WAP, the `Global.asax` is implemented as two separate files - `Global.asax` and `Global.asax.cs`. The `Global.asax` file contains nothing but an `@Application` directive that references the `.cs` file; the event handlers of interest are defined in the `Global.asax.cs` file. For WSPs, only a single file is created, `Global.asax`, and the event handlers are defined in a `<script runat="server">` block.
@@ -78,7 +78,7 @@ The error logging libraries examined in the next two tutorials provide such func
 
 When an unhandled exception occurs in the production environment it is important to alert the development team so that they can assess the error and determine what actions need to be taken. For example, if there is an error in connecting to the database then you'll need to double check your connection string and, perhaps, open a support ticket with your web hosting company. If the exception occurred because of a programming error, additional code or validation logic may need to be added to prevent such errors in the future.
 
-The .NET Framework classes in the [`System.Net.Mail` namespace](https://msdn.microsoft.com/library/system.net.mail.aspx) make it easy to send an email. The [`MailMessage` class](https://msdn.microsoft.com/library/system.net.mail.mailmessage.aspx) represents an email message and has properties like `To`, `From`, `Subject`, `Body`, and `Attachments`. The `SmtpClass` is used to send a `MailMessage` object using a specified SMTP server; the SMTP server settings can be specified programmatically or declaratively in the [`<system.net>` element](https://msdn.microsoft.com/library/6484zdc1.aspx) in the `Web.config file`. For more information on sending email messages in an ASP.NET application check out my article, [Sending Email from an ASP.NET Web Pages Site](/aspnet/web-pages/overview/getting-started/11-adding-email-to-your-web-site), and [System.Net.Mail](https://learn.microsoft.com/dotnet/api/system.net.mail.mailmessage?view=net-8.0).
+The .NET Framework classes in the [`System.Net.Mail` namespace](https://msdn.microsoft.com/library/system.net.mail.aspx) make it easy to send an email. The [`MailMessage` class](https://msdn.microsoft.com/library/system.net.mail.mailmessage.aspx) represents an email message and has properties like `To`, `From`, `Subject`, `Body`, and `Attachments`. The `SmtpClass` is used to send a `MailMessage` object using a specified SMTP server; the SMTP server settings can be specified programmatically or declaratively in the [`<system.net>` element](https://msdn.microsoft.com/library/6484zdc1.aspx) in the `Web.config file`. For more information on sending email messages in an ASP.NET application check out my article, [Sending Email from an ASP.NET Web Pages Site](/aspnet/web-pages/overview/getting-started/11-adding-email-to-your-web-site), and [System.Net.Mail](/dotnet/api/system.net.mail.mailmessage?view=net-8.0).
 
 > [!NOTE]
 > The `<system.net>` element contains the SMTP server settings used by the `SmtpClient` class when sending an email. Your web hosting company likely has an SMTP server that you can use to send email from your application. Consult your web host's support section for information on the SMTP server settings you should use in your web application.
@@ -102,12 +102,12 @@ With this code in place anytime there's an error the developer is sent an email 
 
 [![Screenshot that shows the email sent to the developer.](processing-unhandled-exceptions-cs/_static/image5.png)](processing-unhandled-exceptions-cs/_static/image4.png)
 
-**Figure 2**: The Developer Is Sent An Email Notification Whenever There's An Unhandled Exception  
+**Figure 2**: The Developer Is Sent An Email Notification Whenever There's An Unhandled Exception
 ([Click to view full-size image](processing-unhandled-exceptions-cs/_static/image6.png))
 
 [![Screenshot that shows that the email notification includes the exception details Y S O D as an attachment.](processing-unhandled-exceptions-cs/_static/image8.png)](processing-unhandled-exceptions-cs/_static/image7.png)
 
-**Figure 3**: The Email Notification Includes the Exception Details YSOD As An Attachment  
+**Figure 3**: The Email Notification Includes the Exception Details YSOD As An Attachment
 ([Click to view full-size image](processing-unhandled-exceptions-cs/_static/image9.png))
 
 ## What About Using the Custom Error Page?
@@ -120,7 +120,7 @@ The reason for this behavior is because the custom error page is reached via a r
 
 [![Screenshot that shows that the browser gets redirected when an error occurs.](processing-unhandled-exceptions-cs/_static/image11.png)](processing-unhandled-exceptions-cs/_static/image10.png)
 
-**Figure 4**: When an Error Occurs the Browser Gets Redirected to the Custom Error Page URL  
+**Figure 4**: When an Error Occurs the Browser Gets Redirected to the Custom Error Page URL
 ([Click to view full-size image](processing-unhandled-exceptions-cs/_static/image12.png))
 
 The net effect is that the request where the unhandled exception occurred ends when the server responds with the HTTP 302 redirect. The subsequent request to the custom error page is a brand new request; by this point the ASP.NET engine has discarded the error information and, moreover, has no way to associate the unhandled exception in the previous request with the new request for the custom error page. This is why `GetLastError` returns `null` when called from the custom error page.

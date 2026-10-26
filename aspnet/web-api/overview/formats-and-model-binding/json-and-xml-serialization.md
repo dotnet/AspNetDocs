@@ -50,7 +50,7 @@ If you prefer, you can configure the **JsonMediaTypeFormatter** class to use the
 
 ### JSON Serialization
 
-This section describes some specific behaviors of the JSON formatter, using the default [Json.NET](https://github.com/JamesNK/Newtonsoft.Json) serializer. This is not meant to be comprehensive documentation of the Json.NET library; for more information, see the [Json.NET Documentation](http://james.newtonking.com/projects/json/help/).
+This section describes some specific behaviors of the JSON formatter, using the default [Json.NET](https://github.com/JamesNK/Newtonsoft.Json) serializer. This is not meant to be comprehensive documentation of the Json.NET library; for more information, see the [Json.NET Documentation](https://www.newtonsoft.com/json/help/html/Introduction.htm).
 
 #### What Gets Serialized?
 

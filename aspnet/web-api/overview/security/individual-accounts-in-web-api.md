@@ -17,10 +17,10 @@ by Mike Wasson
 [Download Sample App](https://github.com/MikeWasson/LocalAccountsApp)
 
 > This topic shows how to secure a web API using OAuth2 to authenticate against a membership database.
-> 
+>
 > ## Software versions used in the tutorial
-> 
-> 
+>
+>
 > - [Visual Studio 2013 Update 3](https://www.microsoft.com/visualstudio/eng/2013-downloads)
 > - [Web API 2.2](../releases/whats-new-in-aspnet-web-api-22.md)
 > - [ASP.NET Identity 2.1](../../../identity/index.md)
@@ -108,7 +108,7 @@ Notice that the response includes a Www-Authenticate header with the challenge s
 
 In the **Register** section of the app, enter an email and password, and click the **Register** button.
 
-You don't need to use a valid email address for this sample, but a real app would confirm the address. (See [Create a secure ASP.NET MVC 5 web app with log in, email confirmation and password reset](../../../mvc/overview/security/create-an-aspnet-mvc-5-web-app-with-email-confirmation-and-password-reset.md).) For the password, use something like "Password1!", with an upper case letter, lower case letter, number, and non-alpha-numeric character. To keep the app simple, I left out client-side validation, so if there is a problem with the password format, you'll get a 400 (Bad Request) error.
+You don't need to use a valid email address for this sample, but a real app would confirm the address. For the password, use something like "Password1!", with an upper case letter, lower case letter, number, and non-alpha-numeric character. To keep the app simple, I left out client-side validation, so if there is a problem with the password format, you'll get a 400 (Bad Request) error.
 
 [![Image of register a user section](individual-accounts-in-web-api/_static/image8.png)](individual-accounts-in-web-api/_static/image7.png)
 
@@ -247,8 +247,6 @@ When the client requests a protected resource, here is what happens in the Web A
 
 - [ASP.NET Identity](../../../identity/index.md)
 - [Understanding Security Features in the SPA Template for VS2013 RC](https://devblogs.microsoft.com/dotnet/understanding-security-features-in-the-spa-template-for-vs2013-rc/). MSDN blog post by Hongye Sun.
-- [Dissecting the Web API Individual Accounts Template–Part 2: Local Accounts](http://leastprivilege.com/2013/11/26/dissecting-the-web-api-individual-accounts-templatepart-2-local-accounts/). Blog post by Dominick Baier.
 - [Host authentication and Web API with OWIN](http://brockallen.com/2013/10/27/host-authentication-and-web-api-with-owin-and-active-vs-passive-authentication-middleware/). A good explanation of `SuppressDefaultHostAuthentication` and `HostAuthenticationFilter` by Brock Allen.
 - [Customizing profile information in ASP.NET Identity in VS 2013 templates](https://devblogs.microsoft.com/dotnet/customizing-profile-information-in-asp-net-identity-in-vs-2013-templates/). MSDN blog post by Pranav Rastogi.
 - [Per request lifetime management for UserManager class in ASP.NET Identity](https://devblogs.microsoft.com/dotnet/per-request-lifetime-management-for-usermanager-class-in-asp-net-identity/). MSDN blog post by Suhas Joshi, with a good explanation of the `UserManager` class.
-

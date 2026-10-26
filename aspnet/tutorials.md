@@ -22,7 +22,6 @@ The following step-by-step guides for developing ASP.NET applications are availa
 * [Using Page Inspector in Visual Studio 2012](web-forms/overview/getting-started/hands-on-labs/using-page-inspector-in-visual-studio-2012.md)
 * [Model Binding and Web Forms in Visual Studio 2013](web-forms/overview/presenting-and-managing-data/model-binding/index.md)
 * [ASP.NET Web Forms Connection Resiliency and Command Interception](web-forms/overview/advanced/aspnet-web-forms-connection-resiliency-and-command-interception.md)
-* [Create a secure ASP.NET Web Forms app with user registration, email confirmation and password reset (C#)](web-forms/overview/security/create-a-secure-aspnet-web-forms-app-with-user-registration-email-confirmation-and-password-reset.md)
 * [Create an ASP.NET Web Forms app with SMS Two-Factor Authentication (C#)](web-forms/overview/security/create-an-aspnet-web-forms-app-with-sms-two-factor-authentication.md)
 * [Using Asynchronous Methods in ASP.NET 4.5](web-forms/overview/performance-and-caching/using-asynchronous-methods-in-aspnet-45.md)
 * [ASP.NET Web Deployment using Visual Studio](web-forms/overview/deployment/visual-studio-web-deployment/index.md)
@@ -40,7 +39,6 @@ The following step-by-step guides for developing ASP.NET applications are availa
 
 * [Using Page Inspector in ASP.NET MVC](mvc/overview/views/using-page-inspector-in-aspnet-mvc.md)
 * [Create an ASP.NET MVC 5 App with Facebook, Twitter, LinkedIn and Google OAuth2 Sign-on (C#)](mvc/overview/security/create-an-aspnet-mvc-5-app-with-facebook-and-google-oauth2-and-openid-sign-on.md)
-* [Create a secure ASP.NET MVC 5 web app with log in, email confirmation and password reset (C#)](mvc/overview/security/create-an-aspnet-mvc-5-web-app-with-email-confirmation-and-password-reset.md)
 * [ASP.NET MVC 5 app with SMS and email Two-Factor Authentication](mvc/overview/security/aspnet-mvc-5-app-with-sms-and-email-two-factor-authentication.md)
 * [XSRF/CSRF Prevention in ASP.NET MVC and Web Pages](mvc/overview/security/xsrfcsrf-prevention-in-aspnet-mvc-and-web-pages.md)
 * [Preventing Open Redirection Attacks (C#)](mvc/overview/security/preventing-open-redirection-attacks.md)
@@ -123,7 +121,6 @@ The following step-by-step guides for developing ASP.NET applications are availa
 ## ASP.NET Identity
 
 * [Adding ASP.NET Identity to an Empty or Existing Web Forms Project](identity/overview/getting-started/adding-aspnet-identity-to-an-empty-or-existing-web-forms-project.md)
-* [Developing ASP.NET Apps with Azure Active Directory](identity/overview/getting-started/developing-aspnet-apps-with-windows-azure-active-directory.md)
 * [ASP.NET Identity: Using MySQL Storage with an EntityFramework MySQL Provider (C#)](identity/overview/getting-started/aspnet-identity-using-mysql-storage-with-an-entityframework-mysql-provider.md)
 * [Account Confirmation and Password Recovery with ASP.NET Identity (C#)](identity/overview/features-api/account-confirmation-and-password-recovery-with-aspnet-identity.md)
 * [Two-factor authentication using SMS and email with ASP.NET Identity](identity/overview/features-api/two-factor-authentication-using-sms-and-email-with-aspnet-identity.md)
