@@ -1,3 +1,4 @@
+items:
 - name: ASP.NET Core documentation
   href: /aspnet/core/
 - name: ASP.NET overview
@@ -6,16 +7,16 @@
   href: tutorials.md
 - name: Web Forms
   href: web-forms/index.md
-  items: 
+  items:
     - name: Guidance
       href: web-forms/overview/index.md
-      items: 
+      items:
         - name: Getting Started
           href: web-forms/overview/getting-started/index.md
-          items: 
+          items:
             - name: Getting Started with ASP.NET 4.5 Web Forms and Visual Studio 2013
               href: web-forms/overview/getting-started/getting-started-with-aspnet-45-web-forms/index.md
-              items: 
+              items:
                 - name: Getting Started with Web Forms and Visual Studio
                   href: web-forms/overview/getting-started/getting-started-with-aspnet-45-web-forms/introduction-and-overview.md
                 - name: Create the Project
@@ -46,7 +47,7 @@
               href: web-forms/overview/getting-started/using-page-inspector-in-a-visual-studio-11-beta-web-forms-project.md
             - name: Visual Studio 2012 Hands On Labs
               href: web-forms/overview/getting-started/hands-on-labs/index.md
-              items: 
+              items:
                 - name: What's New in ASP.NET and Web Development in Visual Studio 2012
                   href: web-forms/overview/getting-started/hands-on-labs/whats-new-in-aspnet-and-web-development-in-visual-studio-2012.md
                 - name: What's New in Web Forms in ASP.NET 4.5
@@ -55,10 +56,10 @@
                   href: web-forms/overview/getting-started/hands-on-labs/using-page-inspector-in-visual-studio-2012.md
         - name: Working with Data
           href: web-forms/overview/presenting-and-managing-data/index.md
-          items: 
+          items:
             - name: Model Binding and Web Forms in Visual Studio 2013
               href: web-forms/overview/presenting-and-managing-data/model-binding/index.md
-              items: 
+              items:
                 - name: Retrieving and Displaying Data
                   href: web-forms/overview/presenting-and-managing-data/model-binding/retrieving-data.md
                 - name: Updating, Deleting, and Creating Data
@@ -73,20 +74,20 @@
                   href: web-forms/overview/presenting-and-managing-data/model-binding/adding-business-logic-layer.md
         - name: Security, Authentication, and Authorization
           href: web-forms/overview/security/index.md
-          items: 
+          items:
             - name: Create an ASP.NET Web Forms app with SMS Two-Factor Authentication (C#)
               href: web-forms/overview/security/create-an-aspnet-web-forms-app-with-sms-two-factor-authentication.md
         - name: Performance
           href: web-forms/overview/performance-and-caching/index.md
-          items: 
+          items:
             - name: Using Asynchronous Methods in ASP.NET 4.5
               href: web-forms/overview/performance-and-caching/using-asynchronous-methods-in-aspnet-45.md
         - name: Deployment
           href: web-forms/overview/deployment/index.md
-          items: 
+          items:
             - name: ASP.NET Web Deployment using Visual Studio
               href: web-forms/overview/deployment/visual-studio-web-deployment/index.md
-              items: 
+              items:
                 - name: Introduction
                   href: web-forms/overview/deployment/visual-studio-web-deployment/introduction.md
                 - name: Preparing for Database Deployment
@@ -113,7 +114,7 @@
                   href: web-forms/overview/deployment/visual-studio-web-deployment/troubleshooting.md
             - name: ASP.NET 4 - Enterprise Deployment Introduction
               href: web-forms/overview/deployment/deploying-web-applications-in-enterprise-scenarios/index.md
-              items: 
+              items:
                 - name: Deploying Web Applications in Enterprise Scenarios using Visual Studio 2010
                   href: web-forms/overview/deployment/deploying-web-applications-in-enterprise-scenarios/deploying-web-applications-in-enterprise-scenarios.md
                 - name: "Enterprise Web Deployment: Scenario Overview"
@@ -122,7 +123,7 @@
                   href: web-forms/overview/deployment/deploying-web-applications-in-enterprise-scenarios/application-lifecycle-management-from-development-to-production.md
             - name: ASP.NET 4 - Enterprise Deployment Series 1
               href: web-forms/overview/deployment/web-deployment-in-the-enterprise/index.md
-              items: 
+              items:
                 - name: Web Deployment in the Enterprise
                   href: web-forms/overview/deployment/web-deployment-in-the-enterprise/web-deployment-in-the-enterprise.md
                 - name: The Contact Manager Solution
@@ -147,7 +148,7 @@
                   href: web-forms/overview/deployment/web-deployment-in-the-enterprise/manually-installing-web-packages.md
             - name: ASP.NET 4 - Enterprise Deployment Series 2 Configuring Servers
               href: web-forms/overview/deployment/configuring-server-environments-for-web-deployment/index.md
-              items: 
+              items:
                 - name: Configuring Server Environments for Web Deployment
                   href: web-forms/overview/deployment/configuring-server-environments-for-web-deployment/configuring-server-environments-for-web-deployment.md
                 - name: Choosing the Right Approach to Web Deployment
@@ -172,7 +173,7 @@
                   href: web-forms/overview/deployment/configuring-server-environments-for-web-deployment/configuring-deployment-properties-for-a-target-environment.md
             - name: ASP.NET 4 - Enterprise Deployment Series 3 Configuring TFS
               href: web-forms/overview/deployment/configuring-team-foundation-server-for-web-deployment/index.md
-              items: 
+              items:
                 - name: Configuring Team Foundation Server for Web Deployment
                   href: web-forms/overview/deployment/configuring-team-foundation-server-for-web-deployment/configuring-team-foundation-server-for-web-deployment.md
                 - name: Creating a Team Project in TFS
@@ -189,7 +190,7 @@
                   href: web-forms/overview/deployment/configuring-team-foundation-server-for-web-deployment/configuring-permissions-for-team-build-deployment.md
             - name: ASP.NET 4 - Enterprise Deployment Series 4 Advanced Topics
               href: web-forms/overview/deployment/advanced-enterprise-web-deployment/index.md
-              items: 
+              items:
                 - name: Advanced Enterprise Web Deployment
                   href: web-forms/overview/deployment/advanced-enterprise-web-deployment/advanced-enterprise-web-deployment.md
                 - name: Performing a "What If" Deployment
@@ -210,15 +211,15 @@
                   href: web-forms/overview/deployment/advanced-enterprise-web-deployment/troubleshooting-the-packaging-process.md
         - name: Advanced
           href: web-forms/overview/advanced/index.md
-          items: 
+          items:
             - name: ASP.NET Web Forms Connection Resiliency and Command Interception
               href: web-forms/overview/advanced/aspnet-web-forms-connection-resiliency-and-command-interception.md
         - name: Older Versions - Getting Started
           href: web-forms/overview/older-versions-getting-started/index.md
-          items: 
+          items:
             - name: ASP.NET 4 - Tailspin Spyworks
               href: web-forms/overview/older-versions-getting-started/tailspin-spyworks/index.md
-              items: 
+              items:
                 - name: "Part 1: File-> New Project"
                   href: web-forms/overview/older-versions-getting-started/tailspin-spyworks/tailspin-spyworks-part-1.md
                 - name: "Part 2: Data Access Layer"
@@ -237,7 +238,7 @@
                   href: web-forms/overview/older-versions-getting-started/tailspin-spyworks/tailspin-spyworks-part-8.md
             - name: ASP.NET 4 - Getting Started with Entity Framework 4 and Web Forms
               href: web-forms/overview/older-versions-getting-started/getting-started-with-ef/index.md
-              items: 
+              items:
                 - name: Getting Started with Entity Framework 4.0 Database First
                   href: web-forms/overview/older-versions-getting-started/getting-started-with-ef/the-entity-framework-and-aspnet-getting-started-part-1.md
                 - name: Getting Started with Entity Framework 4.0 Database First - Part 2
@@ -256,7 +257,7 @@
                   href: web-forms/overview/older-versions-getting-started/getting-started-with-ef/the-entity-framework-and-aspnet-getting-started-part-8.md
             - name: ASP.NET 4 - Continuing with Entity Framework 4 and Web Forms
               href: web-forms/overview/older-versions-getting-started/continuing-with-ef/index.md
-              items: 
+              items:
                 - name: "Entity Framework 4.0 and the ObjectDataSource Control, Part 1: Getting Started"
                   href: web-forms/overview/older-versions-getting-started/continuing-with-ef/using-the-entity-framework-and-the-objectdatasource-control-part-1-getting-started.md
                 - name: "Entity Framework 4.0 and the ObjectDataSource Control, Part 2: Adding a Business Logic Layer and Unit Tests"
@@ -271,7 +272,7 @@
                   href: web-forms/overview/older-versions-getting-started/continuing-with-ef/what-s-new-in-the-entity-framework-4.md
             - name: ASP.NET 4 - Web Deployment with SQL Server Compact using Visual Studio
               href: web-forms/overview/older-versions-getting-started/deployment-to-a-hosting-provider/index.md
-              items: 
+              items:
                 - name: Visual Studio Web Deployment with SQL Server Compact - Introduction
                   href: web-forms/overview/older-versions-getting-started/deployment-to-a-hosting-provider/deployment-to-a-hosting-provider-introduction-1-of-12.md
                 - name: Visual Studio Web Deployment with SQL Server Compact- Deploying SQL Server Compact Databases
@@ -298,7 +299,7 @@
                   href: web-forms/overview/older-versions-getting-started/deployment-to-a-hosting-provider/deployment-to-a-hosting-provider-creating-and-installing-deployment-packages-12-of-12.md
             - name: ASP.NET 3.5 - AJAX
               href: web-forms/overview/older-versions-getting-started/aspnet-ajax/index.md
-              items: 
+              items:
                 - name: Understanding Partial Page Updates with ASP.NET AJAX
                   href: web-forms/overview/older-versions-getting-started/aspnet-ajax/understanding-partial-page-updates-with-asp-net-ajax.md
                 - name: Understanding ASP.NET AJAX UpdatePanel Triggers
@@ -313,7 +314,7 @@
                   href: web-forms/overview/older-versions-getting-started/aspnet-ajax/understanding-asp-net-ajax-debugging-capabilities.md
             - name: ASP.NET 3.5 - Web Forms Master Pages
               href: web-forms/overview/older-versions-getting-started/master-pages/index.md
-              items: 
+              items:
                 - name: Creating a Site-Wide Layout Using Master Pages (C#)
                   href: web-forms/overview/older-versions-getting-started/master-pages/creating-a-site-wide-layout-using-master-pages-cs.md
                 - name: Multiple ContentPlaceHolders and Default Content (C#)
@@ -356,7 +357,7 @@
                   href: web-forms/overview/older-versions-getting-started/master-pages/nested-master-pages-vb.md
             - name: Deploying Web Site Projects in Visual Studio 2008 and earlier
               href: web-forms/overview/older-versions-getting-started/deploying-web-site-projects/index.md
-              items: 
+              items:
                 - name: ASP.NET Hosting Options (C#)
                   href: web-forms/overview/older-versions-getting-started/deploying-web-site-projects/asp-net-hosting-options-cs.md
                 - name: Determining What Files Need to Be Deployed (C#)
@@ -419,10 +420,10 @@
                   href: web-forms/overview/older-versions-getting-started/deploying-web-site-projects/users-and-roles-on-the-production-website-vb.md
         - name: Older Versions - Ajax Control Toolkit
           href: web-forms/overview/ajax-control-toolkit/index.md
-          items: 
+          items:
             - name: Getting Started
               href: web-forms/overview/ajax-control-toolkit/getting-started/index.md
-              items: 
+              items:
                 - name: Get Started with the AJAX Control Toolkit (C#)
                   href: web-forms/overview/ajax-control-toolkit/getting-started/get-started-with-the-ajax-control-toolkit-cs.md
                 - name: Using AJAX Control Toolkit Controls and Control Extenders (C#)
@@ -437,7 +438,7 @@
                   href: web-forms/overview/ajax-control-toolkit/getting-started/creating-a-custom-ajax-control-toolkit-control-extender-vb.md
             - name: Accordion
               href: web-forms/overview/ajax-control-toolkit/accordion/index.md
-              items: 
+              items:
                 - name: Databinding to an Accordion (C#)
                   href: web-forms/overview/ajax-control-toolkit/accordion/databinding-to-an-accordion-cs.md
                 - name: Dynamically Adding Accordion Pane (C#)
@@ -448,7 +449,7 @@
                   href: web-forms/overview/ajax-control-toolkit/accordion/dynamically-adding-an-accordion-pane-vb.md
             - name: Animation
               href: web-forms/overview/ajax-control-toolkit/animation/index.md
-              items: 
+              items:
                 - name: Adding Animation to a Control (C#)
                   href: web-forms/overview/ajax-control-toolkit/animation/adding-animation-to-a-control-cs.md
                 - name: Executing Several Animations at Same Time (C#)
@@ -503,7 +504,7 @@
                   href: web-forms/overview/ajax-control-toolkit/animation/dynamically-controlling-updatepanel-animations-vb.md
             - name: CascadingDropdown
               href: web-forms/overview/ajax-control-toolkit/cascadingdropdown/index.md
-              items: 
+              items:
                 - name: Filling a List Using CascadingDropDown (C#)
                   href: web-forms/overview/ajax-control-toolkit/cascadingdropdown/filling-a-list-using-cascadingdropdown-cs.md
                 - name: Using CascadingDropDown with a Database (C#)
@@ -522,35 +523,35 @@
                   href: web-forms/overview/ajax-control-toolkit/cascadingdropdown/using-auto-postback-with-cascadingdropdown-vb.md
             - name: CollapsiblePanel
               href: web-forms/overview/ajax-control-toolkit/collapsiblepanel/index.md
-              items: 
+              items:
                 - name: Collapsing and Expanding a Panel from JavaScript (C#)
                   href: web-forms/overview/ajax-control-toolkit/collapsiblepanel/collapsing-and-expanding-a-panel-from-javascript-cs.md
                 - name: Collapsing and Expanding a Panel from JavaScript (VB)
                   href: web-forms/overview/ajax-control-toolkit/collapsiblepanel/collapsing-and-expanding-a-panel-from-javascript-vb.md
             - name: ColorPicker
               href: web-forms/overview/ajax-control-toolkit/colorpicker/index.md
-              items: 
+              items:
                 - name: ColorPicker Control Extender (C#)
                   href: web-forms/overview/ajax-control-toolkit/colorpicker/using-the-colorpicker-control-extender-cs.md
                 - name: ColorPicker Control Extender (VB)
                   href: web-forms/overview/ajax-control-toolkit/colorpicker/using-the-colorpicker-control-extender-vb.md
             - name: ComboBox
               href: web-forms/overview/ajax-control-toolkit/combobox/index.md
-              items: 
+              items:
                 - name: ComboBox Control (C#)
                   href: web-forms/overview/ajax-control-toolkit/combobox/how-do-i-use-the-combobox-control-cs.md
                 - name: ComboBox Control (VB)
                   href: web-forms/overview/ajax-control-toolkit/combobox/how-do-i-use-the-combobox-control-vb.md
             - name: ConfirmButton
               href: web-forms/overview/ajax-control-toolkit/confirmbutton/index.md
-              items: 
+              items:
                 - name: Using a ConfirmButton In a Repeater (C#)
                   href: web-forms/overview/ajax-control-toolkit/confirmbutton/using-a-confirmbutton-in-a-repeater-cs.md
                 - name: Using a ConfirmButton In a Repeater (VB)
                   href: web-forms/overview/ajax-control-toolkit/confirmbutton/using-a-confirmbutton-in-a-repeater-vb.md
             - name: DropShadow
               href: web-forms/overview/ajax-control-toolkit/dropshadow/index.md
-              items: 
+              items:
                 - name: Adjusting the Z-Index of a DropShadow (C#)
                   href: web-forms/overview/ajax-control-toolkit/dropshadow/adjusting-the-z-index-of-a-dropshadow-cs.md
                 - name: Manipulating DropShadow Properties from Client Code (C#)
@@ -561,7 +562,7 @@
                   href: web-forms/overview/ajax-control-toolkit/dropshadow/manipulating-dropshadow-properties-from-client-code-vb.md
             - name: DynamicPopulate
               href: web-forms/overview/ajax-control-toolkit/dynamicpopulate/index.md
-              items: 
+              items:
                 - name: Dynamically Populating a Control (C#)
                   href: web-forms/overview/ajax-control-toolkit/dynamicpopulate/dynamically-populating-a-control-cs.md
                 - name: Dynamically Populating a Control Using JavaScript Code (C#)
@@ -576,28 +577,28 @@
                   href: web-forms/overview/ajax-control-toolkit/dynamicpopulate/using-dynamicpopulate-with-a-user-control-and-javascript-vb.md
             - name: FilteredTextBox
               href: web-forms/overview/ajax-control-toolkit/filteredtextbox/index.md
-              items: 
+              items:
                 - name: Allowing Only Certain Characters in a Text Box (C#)
                   href: web-forms/overview/ajax-control-toolkit/filteredtextbox/allowing-only-certain-characters-in-a-text-box-cs.md
                 - name: Allowing Only Certain Characters in a Text Box (VB)
                   href: web-forms/overview/ajax-control-toolkit/filteredtextbox/allowing-only-certain-characters-in-a-text-box-vb.md
             - name: HoverMenu
               href: web-forms/overview/ajax-control-toolkit/hovermenu/index.md
-              items: 
+              items:
                 - name: Using HoverMenu with a Repeater Control (C#)
                   href: web-forms/overview/ajax-control-toolkit/hovermenu/using-hovermenu-with-a-repeater-control-cs.md
                 - name: Using HoverMenu with a Repeater Control (VB)
                   href: web-forms/overview/ajax-control-toolkit/hovermenu/using-hovermenu-with-a-repeater-control-vb.md
             - name: HTMLEditor
               href: web-forms/overview/ajax-control-toolkit/htmleditor/index.md
-              items: 
+              items:
                 - name: HTML Editor Control (C#)
                   href: web-forms/overview/ajax-control-toolkit/htmleditor/how-do-i-use-the-html-editor-control-cs.md
                 - name: HTML Editor Control (VB)
                   href: web-forms/overview/ajax-control-toolkit/htmleditor/how-do-i-use-the-html-editor-control-vb.md
             - name: ModalPopup
               href: web-forms/overview/ajax-control-toolkit/modalpopup/index.md
-              items: 
+              items:
                 - name: Launching a Modal Popup Window from Server Code (C#)
                   href: web-forms/overview/ajax-control-toolkit/modalpopup/launching-a-modal-popup-window-from-server-code-cs.md
                 - name: Using ModalPopup with a Repeater Control (C#)
@@ -616,35 +617,35 @@
                   href: web-forms/overview/ajax-control-toolkit/modalpopup/positioning-a-modalpopup-vb.md
             - name: MutuallyExclusiveCheckbox
               href: web-forms/overview/ajax-control-toolkit/mutuallyexclusivecheckbox/index.md
-              items: 
+              items:
                 - name: Creating Mutually Exclusive Checkboxes (C#)
                   href: web-forms/overview/ajax-control-toolkit/mutuallyexclusivecheckbox/creating-mutually-exclusive-checkboxes-cs.md
                 - name: Creating Mutually Exclusive Checkboxes (VB)
                   href: web-forms/overview/ajax-control-toolkit/mutuallyexclusivecheckbox/creating-mutually-exclusive-checkboxes-vb.md
             - name: NoBot
               href: web-forms/overview/ajax-control-toolkit/nobot/index.md
-              items: 
+              items:
                 - name: Fighting Bots (C#)
                   href: web-forms/overview/ajax-control-toolkit/nobot/fighting-bots-cs.md
                 - name: Fighting Bots (VB)
                   href: web-forms/overview/ajax-control-toolkit/nobot/fighting-bots-vb.md
             - name: NumericUpDown
               href: web-forms/overview/ajax-control-toolkit/numericupdown/index.md
-              items: 
+              items:
                 - name: Creating a Numeric Up/Down Control with a Web Service Backend (C#)
                   href: web-forms/overview/ajax-control-toolkit/numericupdown/creating-a-numeric-up-down-control-with-a-web-service-backend-cs.md
                 - name: Creating a Numeric Up/Down Control with a Web Service Backend (VB)
                   href: web-forms/overview/ajax-control-toolkit/numericupdown/creating-a-numeric-up-down-control-with-a-web-service-backend-vb.md
             - name: PasswordStrength
               href: web-forms/overview/ajax-control-toolkit/passwordstrength/index.md
-              items: 
+              items:
                 - name: Testing the Strength of a Password (C#)
                   href: web-forms/overview/ajax-control-toolkit/passwordstrength/testing-the-strength-of-a-password-cs.md
                 - name: Testing the Strength of a Password (VB)
                   href: web-forms/overview/ajax-control-toolkit/passwordstrength/testing-the-strength-of-a-password-vb.md
             - name: Popup
               href: web-forms/overview/ajax-control-toolkit/popup/index.md
-              items: 
+              items:
                 - name: Using Multiple Popup Controls (C#)
                   href: web-forms/overview/ajax-control-toolkit/popup/using-multiple-popup-controls-cs.md
                 - name: Handling Postbacks from A Popup Control With an UpdatePanel (C#)
@@ -659,14 +660,14 @@
                   href: web-forms/overview/ajax-control-toolkit/popup/handling-postbacks-from-a-popup-control-without-an-updatepanel-vb.md
             - name: Rating
               href: web-forms/overview/ajax-control-toolkit/rating/index.md
-              items: 
+              items:
                 - name: Creating a Rating Control (C#)
                   href: web-forms/overview/ajax-control-toolkit/rating/creating-a-rating-control-cs.md
                 - name: Creating a Rating Control (VB)
                   href: web-forms/overview/ajax-control-toolkit/rating/creating-a-rating-control-vb.md
             - name: ReorderList
               href: web-forms/overview/ajax-control-toolkit/reorderlist/index.md
-              items: 
+              items:
                 - name: Using Postbacks with ReorderList (C#)
                   href: web-forms/overview/ajax-control-toolkit/reorderlist/using-postbacks-with-reorderlist-cs.md
                 - name: Drag and Drop via ReorderList (C#)
@@ -677,7 +678,7 @@
                   href: web-forms/overview/ajax-control-toolkit/reorderlist/drag-and-drop-via-reorderlist-vb.md
             - name: Slider
               href: web-forms/overview/ajax-control-toolkit/slider/index.md
-              items: 
+              items:
                 - name: Slider Control With Auto-Postback (C#)
                   href: web-forms/overview/ajax-control-toolkit/slider/using-the-slider-control-with-auto-postback-cs.md
                 - name: Databinding the Slider Control (C#)
@@ -688,7 +689,7 @@
                   href: web-forms/overview/ajax-control-toolkit/slider/databinding-the-slider-control-vb.md
             - name: TextBoxWatermark
               href: web-forms/overview/ajax-control-toolkit/textboxwatermark/index.md
-              items: 
+              items:
                 - name: Using TextBoxWatermark in a FormView (C#)
                   href: web-forms/overview/ajax-control-toolkit/textboxwatermark/using-textboxwatermark-in-a-formview-cs.md
                 - name: Using TextBoxWatermark With Validation Controls (C#)
@@ -699,10 +700,10 @@
                   href: web-forms/overview/ajax-control-toolkit/textboxwatermark/using-textboxwatermark-with-validation-controls-vb.md
         - name: Older Versions - Data Access
           href: web-forms/overview/data-access/index.md
-          items: 
+          items:
             - name: Introduction
               href: web-forms/overview/data-access/introduction/index.md
-              items: 
+              items:
                 - name: Creating a Data Access Layer (C#)
                   href: web-forms/overview/data-access/introduction/creating-a-data-access-layer-cs.md
                 - name: Creating a Business Logic Layer (C#)
@@ -717,7 +718,7 @@
                   href: web-forms/overview/data-access/introduction/master-pages-and-site-navigation-vb.md
             - name: Basic Reporting
               href: web-forms/overview/data-access/basic-reporting/index.md
-              items: 
+              items:
                 - name: Displaying Data With the ObjectDataSource (C#)
                   href: web-forms/overview/data-access/basic-reporting/displaying-data-with-the-objectdatasource-cs.md
                 - name: Declarative Parameters (C#)
@@ -732,7 +733,7 @@
                   href: web-forms/overview/data-access/basic-reporting/programmatically-setting-the-objectdatasource-s-parameter-values-vb.md
             - name: Master/Detail
               href: web-forms/overview/data-access/masterdetail/index.md
-              items: 
+              items:
                 - name: Master/Detail Filtering With a DropDownList (C#)
                   href: web-forms/overview/data-access/masterdetail/master-detail-filtering-with-a-dropdownlist-cs.md
                 - name: Master/Detail Filtering With Two DropDownLists (C#)
@@ -751,7 +752,7 @@
                   href: web-forms/overview/data-access/masterdetail/master-detail-using-a-selectable-master-gridview-with-a-details-detailview-vb.md
             - name: Custom Formatting
               href: web-forms/overview/data-access/custom-formatting/index.md
-              items: 
+              items:
                 - name: Custom Formatting Based Upon Data (C#)
                   href: web-forms/overview/data-access/custom-formatting/custom-formatting-based-upon-data-cs.md
                 - name: Using TemplateFields in the GridView Control (C#)
@@ -774,7 +775,7 @@
                   href: web-forms/overview/data-access/custom-formatting/displaying-summary-information-in-the-gridview-s-footer-vb.md
             - name: Editing, Inserting, and Deleting Data
               href: web-forms/overview/data-access/editing-inserting-and-deleting-data/index.md
-              items: 
+              items:
                 - name: Overview of Inserting, Updating, and Deleting Data (C#)
                   href: web-forms/overview/data-access/editing-inserting-and-deleting-data/an-overview-of-inserting-updating-and-deleting-data-cs.md
                 - name: Examining the Events Associated with Inserting, Updating, and Deleting (C#)
@@ -809,7 +810,7 @@
                   href: web-forms/overview/data-access/editing-inserting-and-deleting-data/limiting-data-modification-functionality-based-on-the-user-vb.md
             - name: Paging and Sorting
               href: web-forms/overview/data-access/paging-and-sorting/index.md
-              items: 
+              items:
                 - name: Paging and Sorting Report Data (C#)
                   href: web-forms/overview/data-access/paging-and-sorting/paging-and-sorting-report-data-cs.md
                 - name: Efficiently Paging Through Large Amounts of Data (C#)
@@ -828,14 +829,14 @@
                   href: web-forms/overview/data-access/paging-and-sorting/creating-a-customized-sorting-user-interface-vb.md
             - name: Custom Button Actions
               href: web-forms/overview/data-access/custom-button-actions/index.md
-              items: 
+              items:
                 - name: Adding and Responding to Buttons to a GridView (C#)
                   href: web-forms/overview/data-access/custom-button-actions/adding-and-responding-to-buttons-to-a-gridview-cs.md
                 - name: Adding and Responding to Buttons to a GridView (VB)
                   href: web-forms/overview/data-access/custom-button-actions/adding-and-responding-to-buttons-to-a-gridview-vb.md
             - name: Displaying Data with the DataList and Repeater
               href: web-forms/overview/data-access/displaying-data-with-the-datalist-and-repeater/index.md
-              items: 
+              items:
                 - name: Displaying Data with the DataList and Repeater Controls (C#)
                   href: web-forms/overview/data-access/displaying-data-with-the-datalist-and-repeater/displaying-data-with-the-datalist-and-repeater-controls-cs.md
                 - name: Formatting the DataList and Repeater Based Upon Data (C#)
@@ -854,7 +855,7 @@
                   href: web-forms/overview/data-access/displaying-data-with-the-datalist-and-repeater/nested-data-web-controls-vb.md
             - name: Filtering Scenarios with the DataList and Repeater
               href: web-forms/overview/data-access/filtering-scenarios-with-the-datalist-and-repeater/index.md
-              items: 
+              items:
                 - name: Master/Detail Filtering With a DropDownList (C#)
                   href: web-forms/overview/data-access/filtering-scenarios-with-the-datalist-and-repeater/master-detail-filtering-with-a-dropdownlist-datalist-cs.md
                 - name: Master/Detail Filtering Across Two Pages (C#)
@@ -869,7 +870,7 @@
                   href: web-forms/overview/data-access/filtering-scenarios-with-the-datalist-and-repeater/master-detail-using-a-bulleted-list-of-master-records-with-a-details-datalist-vb.md
             - name: Editing and Deleting Data Through the DataList
               href: web-forms/overview/data-access/editing-and-deleting-data-through-the-datalist/index.md
-              items: 
+              items:
                 - name: Overview of Editing and Deleting Data in the DataList (C#)
                   href: web-forms/overview/data-access/editing-and-deleting-data-through-the-datalist/an-overview-of-editing-and-deleting-data-in-the-datalist-cs.md
                 - name: Performing Batch Updates (C#)
@@ -892,7 +893,7 @@
                   href: web-forms/overview/data-access/editing-and-deleting-data-through-the-datalist/customizing-the-datalist-s-editing-interface-vb.md
             - name: Paging and Sorting with the DataList and Repeater
               href: web-forms/overview/data-access/paging-and-sorting-with-the-datalist-and-repeater/index.md
-              items: 
+              items:
                 - name: Paging Report Data in a DataList or Repeater Control (C#)
                   href: web-forms/overview/data-access/paging-and-sorting-with-the-datalist-and-repeater/paging-report-data-in-a-datalist-or-repeater-control-cs.md
                 - name: Sorting Data in a DataList or Repeater Control (C#)
@@ -903,14 +904,14 @@
                   href: web-forms/overview/data-access/paging-and-sorting-with-the-datalist-and-repeater/sorting-data-in-a-datalist-or-repeater-control-vb.md
             - name: Custom Button Actions with the DataList and Repeater
               href: web-forms/overview/data-access/custom-button-actions-with-the-datalist-and-repeater/index.md
-              items: 
+              items:
                 - name: Custom Buttons in the DataList and Repeater (C#)
                   href: web-forms/overview/data-access/custom-button-actions-with-the-datalist-and-repeater/custom-buttons-in-the-datalist-and-repeater-cs.md
                 - name: Custom Buttons in the DataList and Repeater (VB)
                   href: web-forms/overview/data-access/custom-button-actions-with-the-datalist-and-repeater/custom-buttons-in-the-datalist-and-repeater-vb.md
             - name: Accessing the Database Directly from an ASP.NET Page
               href: web-forms/overview/data-access/accessing-the-database-directly-from-an-aspnet-page/index.md
-              items: 
+              items:
                 - name: Querying Data with the SqlDataSource Control (C#)
                   href: web-forms/overview/data-access/accessing-the-database-directly-from-an-aspnet-page/querying-data-with-the-sqldatasource-control-cs.md
                 - name: Using Parameterized Queries with the SqlDataSource (C#)
@@ -929,7 +930,7 @@
                   href: web-forms/overview/data-access/accessing-the-database-directly-from-an-aspnet-page/implementing-optimistic-concurrency-with-the-sqldatasource-vb.md
             - name: Enhancing the GridView
               href: web-forms/overview/data-access/enhancing-the-gridview/index.md
-              items: 
+              items:
                 - name: Adding a GridView Column of Radio Buttons (C#)
                   href: web-forms/overview/data-access/enhancing-the-gridview/adding-a-gridview-column-of-radio-buttons-cs.md
                 - name: Adding a GridView Column of Checkboxes (C#)
@@ -944,7 +945,7 @@
                   href: web-forms/overview/data-access/enhancing-the-gridview/inserting-a-new-record-from-the-gridview-s-footer-vb.md
             - name: Working with Binary Files
               href: web-forms/overview/data-access/working-with-binary-files/index.md
-              items: 
+              items:
                 - name: Uploading Files (C#)
                   href: web-forms/overview/data-access/working-with-binary-files/uploading-files-cs.md
                 - name: Displaying Binary Data in the Data Web Controls (C#)
@@ -963,7 +964,7 @@
                   href: web-forms/overview/data-access/working-with-binary-files/updating-and-deleting-existing-binary-data-vb.md
             - name: Caching Data
               href: web-forms/overview/data-access/caching-data/index.md
-              items: 
+              items:
                 - name: Caching Data with the ObjectDataSource (C#)
                   href: web-forms/overview/data-access/caching-data/caching-data-with-the-objectdatasource-cs.md
                 - name: Caching Data in the Architecture (C#)
@@ -982,14 +983,14 @@
                   href: web-forms/overview/data-access/caching-data/using-sql-cache-dependencies-vb.md
             - name: Database-Driven Site Maps
               href: web-forms/overview/data-access/database-driven-site-maps/index.md
-              items: 
+              items:
                 - name: Building a Custom Database-Driven Site Map Provider (C#)
                   href: web-forms/overview/data-access/database-driven-site-maps/building-a-custom-database-driven-site-map-provider-cs.md
                 - name: Building a Custom Database-Driven Site Map Provider (VB)
                   href: web-forms/overview/data-access/database-driven-site-maps/building-a-custom-database-driven-site-map-provider-vb.md
             - name: Working with Batched Data
               href: web-forms/overview/data-access/working-with-batched-data/index.md
-              items: 
+              items:
                 - name: Wrapping Database Modifications within a Transaction (C#)
                   href: web-forms/overview/data-access/working-with-batched-data/wrapping-database-modifications-within-a-transaction-cs.md
                 - name: Batch Updating (C#)
@@ -1008,7 +1009,7 @@
                   href: web-forms/overview/data-access/working-with-batched-data/batch-inserting-vb.md
             - name: Advanced Data Access Scenarios
               href: web-forms/overview/data-access/advanced-data-access-scenarios/index.md
-              items: 
+              items:
                 - name: Creating New Stored Procedures for the Typed DataSet's TableAdapters (C#)
                   href: web-forms/overview/data-access/advanced-data-access-scenarios/creating-new-stored-procedures-for-the-typed-dataset-s-tableadapters-cs.md
                 - name: Using Existing Stored Procedures for the Typed DataSet's TableAdapters (C#)
@@ -1047,10 +1048,10 @@
                   href: web-forms/overview/data-access/advanced-data-access-scenarios/creating-stored-procedures-and-user-defined-functions-with-managed-code-vb.md
         - name: Older Versions - Security
           href: web-forms/overview/older-versions-security/index.md
-          items: 
+          items:
             - name: ASP.NET 3.5 - Introduction to Security
               href: web-forms/overview/older-versions-security/introduction/index.md
-              items: 
+              items:
                 - name: Security Basics and ASP.NET Support (C#)
                   href: web-forms/overview/older-versions-security/introduction/security-basics-and-asp-net-support-cs.md
                 - name: Overview of Forms Authentication (C#)
@@ -1061,7 +1062,7 @@
                   href: web-forms/overview/older-versions-security/introduction/an-overview-of-forms-authentication-vb.md
             - name: ASP.NET 3.5 - Membership
               href: web-forms/overview/older-versions-security/membership/index.md
-              items: 
+              items:
                 - name: Creating User Accounts (C#)
                   href: web-forms/overview/older-versions-security/membership/creating-user-accounts-cs.md
                 - name: Validating User Credentials Against the Membership User Store (C#)
@@ -1080,7 +1081,7 @@
                   href: web-forms/overview/older-versions-security/membership/storing-additional-user-information-vb.md
             - name: ASP.NET 3.5 - Roles
               href: web-forms/overview/older-versions-security/roles/index.md
-              items: 
+              items:
                 - name: Creating and Managing Roles (C#)
                   href: web-forms/overview/older-versions-security/roles/creating-and-managing-roles-cs.md
                 - name: Assigning Roles to Users (C#)
@@ -1095,7 +1096,7 @@
                   href: web-forms/overview/older-versions-security/roles/role-based-authorization-vb.md
             - name: ASP.NET 3.5 - Security Administration
               href: web-forms/overview/older-versions-security/admin/index.md
-              items: 
+              items:
                 - name: Building an Interface to Select One User Account from Many (C#)
                   href: web-forms/overview/older-versions-security/admin/building-an-interface-to-select-one-user-account-from-many-cs.md
                 - name: Recovering and Changing Passwords (C#)
@@ -1110,7 +1111,7 @@
                   href: web-forms/overview/older-versions-security/admin/unlocking-and-approving-user-accounts-vb.md
         - name: Older Versions - ASP.NET 2.0
           href: web-forms/overview/moving-to-aspnet-20/index.md
-          items: 
+          items:
             - name: Improvements in Visual Studio 2005
               href: web-forms/overview/moving-to-aspnet-20/improvements-in-visual-studio-2005.md
             - name: ASP.NET 2.0 Page Model
@@ -1133,10 +1134,10 @@
               href: web-forms/overview/moving-to-aspnet-20/profiles-themes-and-web-parts.md
     - name: Videos
       href: web-forms/videos/index.md
-      items: 
+      items:
         - name: Building 3.5 Applications
           href: web-forms/videos/building-35-applications/index.md
-          items: 
+          items:
             - name: Intro to Visual Web Developer
               href: web-forms/videos/building-35-applications/intro-to-visual-web-developer.md
             - name: IntelliSense
@@ -1163,7 +1164,7 @@
               href: web-forms/videos/building-35-applications/login-controls.md
         - name: Authentication
           href: web-forms/videos/authentication/index.md
-          items: 
+          items:
             - name: Using Basic Forms Authentication in ASP.NET
               href: web-forms/videos/authentication/using-basic-forms-authentication-in-aspnet.md
             - name: ASP Forms Login Relocation
@@ -1190,7 +1191,7 @@
               href: web-forms/videos/authentication/sql-injection-defense.md
         - name: SQL 2005
           href: web-forms/videos/sql-2005/index.md
-          items: 
+          items:
             - name: What is a Database
               href: web-forms/videos/sql-2005/what-is-a-database.md
             - name: Understanding Database Tables and Records
@@ -1219,7 +1220,7 @@
               href: web-forms/videos/sql-2005/enabling-full-text-search-in-your-text-data.md
         - name: Migrating
           href: web-forms/videos/migrating/index.md
-          items: 
+          items:
             - name: "[Intro to ASP.NET 2.0:] ASP.NET 2.0 Fundamentals"
               href: web-forms/videos/migrating/intro-to-aspnet-20-aspnet-20-fundamentals.md
             - name: "[Intro to ASP.NET 2.0:] User Interface Elements"
@@ -1238,7 +1239,7 @@
               href: web-forms/videos/migrating/interop-between-php-and-the-windows-platform.md
         - name: Building 2.0 Applications
           href: web-forms/videos/building-20-applications/index.md
-          items: 
+          items:
             - name: "[Lesson 1:] Getting Started with Visual Web Developer Express"
               href: web-forms/videos/building-20-applications/lesson-1-getting-started-with-visual-web-developer-express.md
             - name: "[Lesson 2:] Creating a Web Forms User Interface"
@@ -1259,7 +1260,7 @@
               href: web-forms/videos/building-20-applications/watch-aspnet-development-in-action.md
         - name: General IIS Tips
           href: web-forms/videos/iis/index.md
-          items: 
+          items:
             - name: Developing and Deploying In a Shared Hosting
               href: web-forms/videos/iis/developing-and-deploying-in-a-shared-hosting.md
             - name: Working with IIS7 Delegated Admin
@@ -1278,7 +1279,7 @@
               href: web-forms/videos/iis/iis7-playlists.md
         - name: Ajax Control Toolkit
           href: web-forms/videos/ajax-control-toolkit/index.md
-          items: 
+          items:
             - name: Get Started with the ASP.NET AJAX Control Toolkit
               href: web-forms/videos/ajax-control-toolkit/how-do-i-get-started-with-the-aspnet-ajax-control-toolkit.md
             - name: ASP.NET AJAX CascadingDropDown Control Extender
@@ -1315,8 +1316,6 @@
               href: web-forms/videos/ajax-control-toolkit/how-do-i-use-the-aspnet-ajax-confirmbutton-extender.md
             - name: ASP.NET AJAX Slider Control
               href: web-forms/videos/ajax-control-toolkit/how-do-i-use-the-aspnet-ajax-slider-control.md
-            - name: Configure the ASP.NET AJAX Calendar Control
-              href: web-forms/videos/ajax-control-toolkit/how-do-i-configure-the-aspnet-ajax-calendar-control.md
             - name: ASP.NET AJAX DropDown Control
               href: web-forms/videos/ajax-control-toolkit/how-do-i-use-the-aspnet-ajax-dropdown-control.md
             - name: ASP.NET AJAX MaskedEdit Controls
@@ -1359,7 +1358,7 @@
               href: web-forms/videos/ajax-control-toolkit/create-a-new-custom-extender.md
         - name: ASP.NET AJAX
           href: web-forms/videos/aspnet-ajax/index.md
-          items: 
+          items:
             - name: Get Started with ASP.NET AJAX
               href: web-forms/videos/aspnet-ajax/how-do-i-get-started-with-aspnet-ajax.md
             - name: Implement Dynamic Partial-Page Updates with ASP.NET AJAX
@@ -1446,10 +1445,10 @@
               href: web-forms/videos/aspnet-ajax/how-do-i-use-aspnet-ajax-client-templates.md
         - name: Data Access
           href: web-forms/videos/data-access/index.md
-          items: 
+          items:
             - name: ADO.NET Data Services
               href: web-forms/videos/data-access/adonet-data-services/index.md
-              items: 
+              items:
                 - name: Data Access Layers in ASP.NET Applications
                   href: web-forms/videos/data-access/adonet-data-services/data-access-layers-in-aspnet-applications.md
                 - name: Manually Bind a Dataset to a Datagrid
@@ -1458,7 +1457,7 @@
                   href: web-forms/videos/data-access/adonet-data-services/how-to-work-with-datasets-and-filters-from-an-asp-application.md
             - name: How Do I with LINQ
               href: web-forms/videos/data-access/how-do-i-with-linq/index.md
-              items: 
+              items:
                 - name: "LINQ to SQL: Overview"
                   href: web-forms/videos/data-access/how-do-i-with-linq/how-do-i-linq-to-sql-overview.md
                 - name: "LINQ to SQL: Data Model"
@@ -1479,7 +1478,7 @@
                   href: web-forms/videos/data-access/how-do-i-with-linq/how-do-i-linq-to-sql-executing-arbitrary-sql.md
             - name: LINQ Videos from the VB Team
               href: web-forms/videos/data-access/linq-videos-from-the-vb-team/index.md
-              items: 
+              items:
                 - name: Get Started with LINQ
                   href: web-forms/videos/data-access/linq-videos-from-the-vb-team/how-do-i-get-started-with-linq.md
                 - name: Perform Group and Aggregate Queries
@@ -1496,7 +1495,7 @@
                   href: web-forms/videos/data-access/linq-videos-from-the-vb-team/how-do-i-create-excel-spreadsheets-using-linq-to-xml.md
         - name: ASP.NET Dynamic Data
           href: web-forms/videos/aspnet-dynamic-data/index.md
-          items: 
+          items:
             - name: Your First Scaffold and What is Dynamic Data
               href: web-forms/videos/aspnet-dynamic-data/your-first-scaffold-and-what-is-dynamic-data.md
             - name: Enable Inline GridView Editing
@@ -1533,10 +1532,10 @@
               href: web-forms/videos/aspnet-dynamic-data/aspnet-dynamic-data-custom-form-formatting.md
         - name: ASP.NET 3.5
           href: web-forms/videos/aspnet-35/index.md
-          items: 
+          items:
             - name: How Do I
               href: web-forms/videos/aspnet-35/how-do-i/index.md
-              items: 
+              items:
                 - name: Create a Master Page in Visual Studio 2008
                   href: web-forms/videos/aspnet-35/how-do-i/how-do-i-create-a-master-page-in-visual-studio-2008.md
                 - name: Create Nested Master Page in Visual Studio 2008
@@ -1561,7 +1560,7 @@
                   href: web-forms/videos/aspnet-35/how-do-i/how-do-i-use-msbuild-to-automate-the-aspnet-compiler-and-merge-utilities.md
             - name: ASP.NET Ajax
               href: web-forms/videos/aspnet-35/aspnet-ajax/index.md
-              items: 
+              items:
                 - name: ASP.NET AJAX Support in Visual Studio 2008
                   href: web-forms/videos/aspnet-35/aspnet-ajax/aspnet-ajax-support-in-visual-studio-2008.md
                 - name: Adding AJAX Functionality to an Existing ASP.NET Page
@@ -1578,19 +1577,19 @@
                   href: web-forms/videos/aspnet-35/aspnet-ajax/using-script-combining-to-improve-ajax-performance.md
             - name: Data Controls
               href: web-forms/videos/aspnet-35/data-controls/index.md
-              items: 
+              items:
                 - name: ListView Control
                   href: web-forms/videos/aspnet-35/data-controls/the-listview-control.md
                 - name: DataPager Control
                   href: web-forms/videos/aspnet-35/data-controls/the-datapager-control.md
             - name: Visual Studio Designer
               href: web-forms/videos/aspnet-35/visual-studio-designer/index.md
-              items: 
+              items:
                 - name: Visual Studio 2008 and Nested Masterpages
                   href: web-forms/videos/aspnet-35/visual-studio-designer/visual-studio-2008-and-nested-masterpages.md
             - name: Visual Studio Editor
               href: web-forms/videos/aspnet-35/visual-studio-editor/index.md
-              items: 
+              items:
                 - name: New Designer Support in Visual Studio 2008
                   href: web-forms/videos/aspnet-35/visual-studio-editor/new-designer-support-in-visual-studio-2008.md
                 - name: JavaScript Intellisense Support in Visual Studio 2008
@@ -1607,15 +1606,15 @@
                   href: web-forms/videos/aspnet-35/visual-studio-editor/creating-and-modifying-a-css-file.md
         - name: jQuery
           href: web-forms/videos/jquery/index.md
-          items: 
+          items:
             - name: Make Ajax Calls Using jQuery
               href: web-forms/videos/jquery/how-do-i-make-ajax-calls-using-jquery.md
         - name: .NET 4
           href: web-forms/videos/net-4/index.md
-          items: 
+          items:
             - name: Ajax
               href: web-forms/videos/net-4/ajax/index.md
-              items: 
+              items:
                 - name: Imperative JavaScript Syntax for Microsoft Client Side Controls
                   href: web-forms/videos/net-4/ajax/aspnet-4-quick-hit-imperative-javascript-syntax-for-microsoft-client-side-controls.md
                 - name: ScriptLoader
@@ -1626,14 +1625,14 @@
                   href: web-forms/videos/net-4/ajax/aspnet-4-quick-hit-ajax-data-templates.md
             - name: Chart
               href: web-forms/videos/net-4/chart/index.md
-              items: 
+              items:
                 - name: Chart Control
                   href: web-forms/videos/net-4/chart/aspnet-4-quick-hit-chart-control.md
                 - name: Introducing the New Chart Control in Visual Studio 2010
                   href: web-forms/videos/net-4/chart/aspnet-4-how-do-i-introducing-the-new-chart-control-in-visual-studio-2010.md
             - name: Core
               href: web-forms/videos/net-4/core/index.md
-              items: 
+              items:
                 - name: Auto Start
                   href: web-forms/videos/net-4/core/aspnet-4-quick-hit-auto-start.md
                 - name: Clean Web.Config Files
@@ -1644,12 +1643,12 @@
                   href: web-forms/videos/net-4/core/aspnet-4-quick-hit-the-htmlencoder-utility-method.md
             - name: Data
               href: web-forms/videos/net-4/data/index.md
-              items: 
+              items:
                 - name: Persistent GridView Row Selection
                   href: web-forms/videos/net-4/data/aspnet-4-quick-hit-persistent-gridview-row-selection.md
             - name: Markup Control
               href: web-forms/videos/net-4/markup-control/index.md
-              items: 
+              items:
                 - name: New Rendering Option for Check Box Lists and Radio Button Lists
                   href: web-forms/videos/net-4/markup-control/aspnet-4-quick-hit-new-rendering-option-for-check-box-lists-and-radio-button-lists.md
                 - name: Table Free Templated Controls
@@ -1662,7 +1661,7 @@
                   href: web-forms/videos/net-4/markup-control/aspnet-4-quick-hit-disabled-control-styling.md
             - name: Performance
               href: web-forms/videos/net-4/performance/index.md
-              items: 
+              items:
                 - name: Selective View State
                   href: web-forms/videos/net-4/performance/aspnet-4-quick-hit-selective-view-state.md
                 - name: Easy State Compression
@@ -1671,7 +1670,7 @@
                   href: web-forms/videos/net-4/performance/how-do-i-use-the-viewstatemode-property-for-managing-viewstate.md
             - name: Routing
               href: web-forms/videos/net-4/routing/index.md
-              items: 
+              items:
                 - name: Permanent Redirect
                   href: web-forms/videos/net-4/routing/aspnet-4-quick-hit-permanent-redirect.md
                 - name: Imperative WebForms Routing
@@ -1686,12 +1685,12 @@
                   href: web-forms/videos/net-4/routing/how-do-i-work-with-urls-in-aspnet-routing.md
             - name: SEO
               href: web-forms/videos/net-4/seo/index.md
-              items: 
+              items:
                 - name: Dynamic Metadata
                   href: web-forms/videos/net-4/seo/aspnet-4-quick-hit-dynamic-metadata.md
         - name: ASP.NET 4.5
           href: web-forms/videos/aspnet-web-forms-vnext/index.md
-          items: 
+          items:
             - name: Strongly Typed Data Controls
               href: web-forms/videos/aspnet-web-forms-vnext/aspnet-vnext-videos-strongly-typed-data-controls.md
             - name: Model Binding Part 1 - Selecting Data
@@ -1716,16 +1715,16 @@
       href: web-forms/pluralsight.md
 - name: MVC
   href: mvc/index.md
-  items: 
+  items:
     - name: Guidance
       href: mvc/overview/index.md
-      items: 
+      items:
         - name: Getting Started
           href: mvc/overview/getting-started/index.md
-          items: 
+          items:
             - name: Getting Started with ASP.NET MVC 5
               href: mvc/overview/getting-started/introduction/index.md
-              items: 
+              items:
                 - name: Getting Started
                   href: mvc/overview/getting-started/introduction/getting-started.md
                 - name: Adding a Controller
@@ -1750,7 +1749,7 @@
                   href: mvc/overview/getting-started/introduction/examining-the-details-and-delete-methods.md
             - name: Getting Started with EF 6 using MVC 5
               href: mvc/overview/getting-started/getting-started-with-ef-using-mvc/index.md
-              items: 
+              items:
                 - name: Create an Entity Framework Data Model
                   href: mvc/overview/getting-started/getting-started-with-ef-using-mvc/creating-an-entity-framework-data-model-for-an-asp-net-mvc-application.md
                 - name: Implementing Basic CRUD Functionality
@@ -1777,7 +1776,7 @@
                   href: mvc/overview/getting-started/getting-started-with-ef-using-mvc/advanced-entity-framework-scenarios-for-an-mvc-web-application.md
             - name: EF Database First with ASP.NET MVC
               href: mvc/overview/getting-started/database-first-development/index.md
-              items: 
+              items:
                 - name: Getting Started with Entity Framework 6 Database First using MVC 5
                   href: mvc/overview/getting-started/database-first-development/setting-up-database.md
                 - name: Creating the Web Application and Data Models
@@ -1798,14 +1797,14 @@
               href: mvc/overview/getting-started/mvc-learning-sequence.md
         - name: UI, Layouts, and Themes
           href: mvc/overview/views/index.md
-          items: 
+          items:
             - name: Using Page Inspector in ASP.NET MVC
               href: mvc/overview/views/using-page-inspector-in-aspnet-mvc.md
             - name: Dynamic v. Strongly Typed Views
               href: mvc/overview/views/dynamic-v-strongly-typed-views.md
         - name: Security, Authentication, and Authorization
           href: mvc/overview/security/index.md
-          items: 
+          items:
             - name: Create an ASP.NET MVC 5 App with Facebook, Twitter, LinkedIn and Google OAuth2 Sign-on (C#)
               href: mvc/overview/security/create-an-aspnet-mvc-5-app-with-facebook-and-google-oauth2-and-openid-sign-on.md
             - name: ASP.NET MVC 5 app with SMS and email Two-Factor Authentication
@@ -1816,12 +1815,12 @@
               href: mvc/overview/security/preventing-open-redirection-attacks.md
         - name: Deployment
           href: mvc/overview/deployment/index.md
-          items: 
+          items:
             - name: Migrating ASP.NET MVC Applications to Windows Containers
               href: mvc/overview/deployment/docker-aspnetmvc.md
         - name: Performance
           href: mvc/overview/performance/index.md
-          items: 
+          items:
             - name: Profile and debug your ASP.NET MVC app with Glimpse
               href: mvc/overview/performance/profile-and-debug-your-aspnet-mvc-app-with-glimpse.md
             - name: Using Asynchronous Methods in ASP.NET MVC 4
@@ -1830,12 +1829,12 @@
               href: mvc/overview/performance/bundling-and-minification.md
         - name: Internationalization and Advanced Topics
           href: mvc/overview/advanced/index.md
-          items: 
+          items:
             - name: Custom MVC Template
               href: mvc/overview/advanced/custom-mvc-templates.md
         - name: Releases
           href: mvc/overview/releases/index.md
-          items: 
+          items:
             - name: What's New in ASP.NET MVC 5.2
               href: mvc/overview/releases/whats-new-in-aspnet-mvc-52.md
             - name: What's New in ASP.NET MVC 5.1
@@ -1844,10 +1843,10 @@
               href: mvc/overview/releases/how-to-upgrade-an-aspnet-mvc-4-and-web-api-project-to-aspnet-mvc-5-and-web-api-2.md
         - name: Older Versions - MVC 3 and 4
           href: mvc/overview/older-versions/index.md
-          items: 
+          items:
             - name: Getting Started with ASP.NET MVC 4
               href: mvc/overview/older-versions/getting-started-with-aspnet-mvc4/index.md
-              items: 
+              items:
                 - name: Intro to ASP.NET MVC 4
                   href: mvc/overview/older-versions/getting-started-with-aspnet-mvc4/intro-to-aspnet-mvc-4.md
                 - name: Adding a Controller
@@ -1868,7 +1867,7 @@
                   href: mvc/overview/older-versions/getting-started-with-aspnet-mvc4/examining-the-details-and-delete-methods.md
             - name: Getting Started with EF 5 using MVC 4
               href: mvc/overview/older-versions/getting-started-with-ef-5-using-mvc-4/index.md
-              items: 
+              items:
                 - name: Creating an Entity Framework Data Model
                   href: mvc/overview/older-versions/getting-started-with-ef-5-using-mvc-4/creating-an-entity-framework-data-model-for-an-asp-net-mvc-application.md
                 - name: Implementing Basic CRUD Functionality
@@ -1893,7 +1892,7 @@
                   href: mvc/overview/older-versions/getting-started-with-ef-5-using-mvc-4/building-the-ef5-mvc4-chapter-downloads.md
             - name: MVC 4 Hands On Labs
               href: mvc/overview/older-versions/hands-on-labs/index.md
-              items: 
+              items:
                 - name: What's New in ASP.NET MVC 4
                   href: mvc/overview/older-versions/hands-on-labs/whats-new-in-aspnet-mvc-4.md
                 - name: ASP.NET MVC 4 Fundamentals
@@ -1914,10 +1913,10 @@
               href: mvc/overview/older-versions/using-oauth-providers-with-mvc.md
             - name: Getting Started with ASP.NET MVC3
               href: mvc/overview/older-versions/getting-started-with-aspnet-mvc3/index.md
-              items: 
+              items:
                 - name: Getting Started with ASP.NET MVC 3 (C#)
                   href: mvc/overview/older-versions/getting-started-with-aspnet-mvc3/cs/index.md
-                  items: 
+                  items:
                     - name: Intro to ASP.NET MVC 3 (C#)
                       href: mvc/overview/older-versions/getting-started-with-aspnet-mvc3/cs/intro-to-aspnet-mvc-3.md
                     - name: Adding a Controller (C#)
@@ -1938,7 +1937,7 @@
                       href: mvc/overview/older-versions/getting-started-with-aspnet-mvc3/cs/improving-the-details-and-delete-methods.md
                 - name: Getting Started with ASP.NET MVC 3 (VB.NET)
                   href: mvc/overview/older-versions/getting-started-with-aspnet-mvc3/vb/index.md
-                  items: 
+                  items:
                     - name: Intro to ASP.NET MVC 3 (VB)
                       href: mvc/overview/older-versions/getting-started-with-aspnet-mvc3/vb/intro-to-aspnet-mvc-3.md
                     - name: Adding a Controller (VB)
@@ -1961,7 +1960,7 @@
               href: mvc/overview/older-versions/creating-a-mvc-3-application-with-razor-and-unobtrusive-javascript.md
             - name: MVC 3 Music Store
               href: mvc/overview/older-versions/mvc-music-store/index.md
-              items: 
+              items:
                 - name: "Part 1: Overview and File->New Project"
                   href: mvc/overview/older-versions/mvc-music-store/mvc-music-store-part-1.md
                 - name: "Part 2: Controllers"
@@ -1984,7 +1983,7 @@
                   href: mvc/overview/older-versions/mvc-music-store/mvc-music-store-part-10.md
             - name: MVC 3 - The HTML5 and jQuery UI Datepicker Popup Calendar
               href: mvc/overview/older-versions/using-the-html5-and-jquery-ui-datepicker-popup-calendar-with-aspnet-mvc/index.md
-              items: 
+              items:
                 - name: HTML5 and jQuery UI Datepicker Popup Calendar with ASP.NET MVC - Part 1
                   href: mvc/overview/older-versions/using-the-html5-and-jquery-ui-datepicker-popup-calendar-with-aspnet-mvc/using-the-html5-and-jquery-ui-datepicker-popup-calendar-with-aspnet-mvc-part-1.md
                 - name: HTML5 and jQuery UI Datepicker Popup Calendar with ASP.NET MVC - Part 2
@@ -1993,7 +1992,7 @@
                   href: mvc/overview/older-versions/using-the-html5-and-jquery-ui-datepicker-popup-calendar-with-aspnet-mvc/using-the-html5-and-jquery-ui-datepicker-popup-calendar-with-aspnet-mvc-part-4.md
             - name: MVC 3 - Working with the DropDownList Box and jQuery
               href: mvc/overview/older-versions/working-with-the-dropdownlist-box-and-jquery/index.md
-              items: 
+              items:
                 - name: Using the DropDownList Helper with ASP.NET MVC
                   href: mvc/overview/older-versions/working-with-the-dropdownlist-box-and-jquery/using-the-dropdownlist-helper-with-aspnet-mvc.md
                 - name: Examining  how  ASP.NET MVC scaffolds the DropDownList Helper
@@ -2002,10 +2001,10 @@
                   href: mvc/overview/older-versions/working-with-the-dropdownlist-box-and-jquery/adding-a-new-category-to-the-dropdownlist-using-jquery-ui.md
         - name: Older Versions - MVC 1 and 2
           href: mvc/overview/older-versions-1/index.md
-          items: 
+          items:
             - name: Overview
               href: mvc/overview/older-versions-1/overview/index.md
-              items: 
+              items:
                 - name: ASP.NET MVC Overview
                   href: mvc/overview/older-versions-1/overview/asp-net-mvc-overview.md
                 - name: Understanding the ASP.NET MVC Execution Process
@@ -2016,7 +2015,7 @@
                   href: mvc/overview/older-versions-1/overview/understanding-models-views-and-controllers-vb.md
             - name: Getting Started With MVC
               href: mvc/overview/older-versions-1/getting-started-with-mvc/index.md
-              items: 
+              items:
                 - name: Intro to ASP.NET MVC
                   href: mvc/overview/older-versions-1/getting-started-with-mvc/getting-started-with-mvc-part1.md
                 - name: Adding a Controller
@@ -2035,7 +2034,7 @@
                   href: mvc/overview/older-versions-1/getting-started-with-mvc/getting-started-with-mvc-part8.md
             - name: Models (Data)
               href: mvc/overview/older-versions-1/models-data/index.md
-              items: 
+              items:
                 - name: Creating Model Classes with the Entity Framework (C#)
                   href: mvc/overview/older-versions-1/models-data/creating-model-classes-with-the-entity-framework-cs.md
                 - name: Creating Model Classes with LINQ to SQL (C#)
@@ -2066,7 +2065,7 @@
                   href: mvc/overview/older-versions-1/models-data/validation-with-the-data-annotation-validators-vb.md
             - name: ASP.NET MVC Views
               href: mvc/overview/older-versions-1/views/index.md
-              items: 
+              items:
                 - name: ASP.NET MVC Views Overview (C#)
                   href: mvc/overview/older-versions-1/views/asp-net-mvc-views-overview-cs.md
                 - name: Creating Custom HTML Helpers (C#)
@@ -2089,7 +2088,7 @@
                   href: mvc/overview/older-versions-1/views/passing-data-to-view-master-pages-vb.md
             - name: Controllers and Routing
               href: mvc/overview/older-versions-1/controllers-and-routing/index.md
-              items: 
+              items:
                 - name: ASP.NET MVC Routing Overview (C#)
                   href: mvc/overview/older-versions-1/controllers-and-routing/asp-net-mvc-routing-overview-cs.md
                 - name: Understanding Action Filters (C#)
@@ -2132,14 +2131,14 @@
                   href: mvc/overview/older-versions-1/controllers-and-routing/creating-a-custom-route-constraint-vb.md
             - name: Deployment
               href: mvc/overview/older-versions-1/deployment/index.md
-              items: 
+              items:
                 - name: Using ASP.NET MVC with Different Versions of IIS (C#)
                   href: mvc/overview/older-versions-1/deployment/using-asp-net-mvc-with-different-versions-of-iis-cs.md
                 - name: Using ASP.NET MVC with Different Versions of IIS (VB)
                   href: mvc/overview/older-versions-1/deployment/using-asp-net-mvc-with-different-versions-of-iis-vb.md
             - name: Security
               href: mvc/overview/older-versions-1/security/index.md
-              items: 
+              items:
                 - name: Authenticating Users with Forms Authentication (C#)
                   href: mvc/overview/older-versions-1/security/authenticating-users-with-forms-authentication-cs.md
                 - name: Authenticating Users with Windows Authentication (C#)
@@ -2154,14 +2153,14 @@
                   href: mvc/overview/older-versions-1/security/preventing-javascript-injection-attacks-vb.md
             - name: Unit Testing
               href: mvc/overview/older-versions-1/unit-testing/index.md
-              items: 
+              items:
                 - name: Creating Unit Tests for ASP.NET MVC Applications (C#)
                   href: mvc/overview/older-versions-1/unit-testing/creating-unit-tests-for-asp-net-mvc-applications-cs.md
                 - name: Creating Unit Tests for ASP.NET MVC Applications (VB)
                   href: mvc/overview/older-versions-1/unit-testing/creating-unit-tests-for-asp-net-mvc-applications-vb.md
             - name: Contact Manager
               href: mvc/overview/older-versions-1/contact-manager/index.md
-              items: 
+              items:
                 - name: Iteration
                   href: mvc/overview/older-versions-1/contact-manager/iteration-1-create-the-application-cs.md
                 - name: Iteration
@@ -2192,7 +2191,7 @@
                   href: mvc/overview/older-versions-1/contact-manager/iteration-7-add-ajax-functionality-vb.md
             - name: NerdDinner
               href: mvc/overview/older-versions-1/nerddinner/index.md
-              items: 
+              items:
                 - name: Introducing the NerdDinner Tutorial
                   href: mvc/overview/older-versions-1/nerddinner/introducing-the-nerddinner-tutorial.md
                 - name: Create a New ASP.NET MVC Project
@@ -2223,24 +2222,24 @@
                   href: mvc/overview/older-versions-1/nerddinner/nerddinner-wrap-up.md
             - name: Movie Database
               href: mvc/overview/older-versions-1/movie-database/index.md
-              items: 
+              items:
                 - name: Create a Movie Database Application in 15 Minutes with ASP.NET MVC (C#)
                   href: mvc/overview/older-versions-1/movie-database/create-a-movie-database-application-in-15-minutes-with-asp-net-mvc-cs.md
                 - name: Create a Movie Database Application in 15 Minutes with ASP.NET MVC (VB)
                   href: mvc/overview/older-versions-1/movie-database/create-a-movie-database-application-in-15-minutes-with-asp-net-mvc-vb.md
     - name: Videos
       href: mvc/videos/index.md
-      items: 
+      items:
         - name: ASP.NET MVC 4
           href: mvc/videos/mvc-4/index.md
-          items: 
+          items:
             - name: Using Page Inspector in ASP.NET MVC
               href: mvc/videos/mvc-4/using-page-inspector-in-aspnet-mvc.md
             - name: ASP.NET MVC 4
               href: mvc/videos/mvc-4/aspnet-mvc-4.md
         - name: ASP.NET MVC 3
           href: mvc/videos/mvc-3/index.md
-          items: 
+          items:
             - name: MVC 3 - Razor View Engine
               href: mvc/videos/mvc-3/mvc-3-razor-view-engine.md
             - name: MVC 3 - Razor Helpers
@@ -2255,13 +2254,13 @@
       href: mvc/pluralsight.md
 - name: Web API
   href: web-api/index.md
-  items: 
+  items:
     - name: Guidance
       href: web-api/overview/index.md
-      items: 
+      items:
         - name: Getting Started
           href: web-api/overview/getting-started-with-aspnet-web-api/index.md
-          items: 
+          items:
             - name: Getting Started with Web API 2 (C#)
               href: web-api/overview/getting-started-with-aspnet-web-api/tutorial-your-first-web-api.md
             - name: Action Results in Web API 2
@@ -2274,7 +2273,7 @@
               href: web-api/overview/getting-started-with-aspnet-web-api/build-a-single-page-application-spa-with-aspnet-web-api-and-angularjs.md
         - name: Routing
           href: web-api/overview/web-api-routing-and-actions/index.md
-          items: 
+          items:
             - name: Routing in Web API
               href: web-api/overview/web-api-routing-and-actions/routing-in-aspnet-web-api.md
             - name: Routing and Action Selection in Web API
@@ -2285,10 +2284,10 @@
               href: web-api/overview/web-api-routing-and-actions/create-a-rest-api-with-attribute-routing.md
         - name: Working with Data
           href: web-api/overview/data/index.md
-          items: 
+          items:
             - name: Using Web API 2 with Entity Framework 6
               href: web-api/overview/data/using-web-api-with-entity-framework/index.md
-              items: 
+              items:
                 - name: Create the Project
                   href: web-api/overview/data/using-web-api-with-entity-framework/part-1.md
                 - name: Add Models and Controllers
@@ -2311,15 +2310,15 @@
                   href: web-api/overview/data/using-web-api-with-entity-framework/part-10.md
         - name: Mobile Clients
           href: web-api/overview/mobile-clients/index.md
-          items: 
+          items:
             - name: Calling Web API from a Windows Phone 8 Application (C#)
               href: web-api/overview/mobile-clients/calling-web-api-from-a-windows-phone-8-application.md
         - name: OData
           href: web-api/overview/odata-support-in-aspnet-web-api/index.md
-          items: 
+          items:
             - name: OData v4
               href: web-api/overview/odata-support-in-aspnet-web-api/odata-v4/index.md
-              items: 
+              items:
                 - name: Create an OData v4 Endpoint
                   href: web-api/overview/odata-support-in-aspnet-web-api/odata-v4/create-an-odata-v4-endpoint.md
                 - name: Create an OData v4 Client App (C#)
@@ -2338,7 +2337,7 @@
                   href: web-api/overview/odata-support-in-aspnet-web-api/odata-v4/complex-type-inheritance-in-odata-v4.md
             - name: OData v3
               href: web-api/overview/odata-support-in-aspnet-web-api/odata-v3/index.md
-              items: 
+              items:
                 - name: Creating an OData v3 Endpoint
                   href: web-api/overview/odata-support-in-aspnet-web-api/odata-v3/creating-an-odata-endpoint.md
                 - name: Supporting Entity Relations in OData v3
@@ -2357,7 +2356,7 @@
               href: web-api/overview/odata-support-in-aspnet-web-api/odata-security-guidance.md
         - name: Serialization and Model Binding
           href: web-api/overview/formats-and-model-binding/index.md
-          items: 
+          items:
             - name: Media Formatters in Web API 2
               href: web-api/overview/formats-and-model-binding/media-formatters.md
             - name: JSON and XML Serialization in Web API
@@ -2372,14 +2371,14 @@
               href: web-api/overview/formats-and-model-binding/parameter-binding-in-aspnet-web-api.md
         - name: Error Handling
           href: web-api/overview/error-handling/index.md
-          items: 
+          items:
             - name: Exception Handling in Web API
               href: web-api/overview/error-handling/exception-handling.md
             - name: Global Error Handling in Web API 2
               href: web-api/overview/error-handling/web-api-global-error-handling.md
         - name: Testing and Debugging
           href: web-api/overview/testing-and-debugging/index.md
-          items: 
+          items:
             - name: Tracing in Web API 2
               href: web-api/overview/testing-and-debugging/tracing-in-aspnet-web-api.md
             - name: Unit Testing Web API 2
@@ -2392,7 +2391,7 @@
               href: web-api/overview/testing-and-debugging/troubleshooting-http-405-errors-after-publishing-web-api-applications.md
         - name: Security, Authentication, and Authorization
           href: web-api/overview/security/index.md
-          items: 
+          items:
             - name: Authentication and Authorization in Web API
               href: web-api/overview/security/authentication-and-authorization-in-aspnet-web-api.md
             - name: Secure a Web API with Individual Accounts in Web API 2.2
@@ -2415,14 +2414,14 @@
               href: web-api/overview/security/working-with-ssl-in-web-api.md
         - name: Deployment and Hosting
           href: web-api/overview/hosting-aspnet-web-api/index.md
-          items: 
+          items:
             - name: Use OWIN to Self-Host Web API 2
               href: web-api/overview/hosting-aspnet-web-api/use-owin-to-self-host-web-api.md
             - name: Host Web API 2 in an Azure Worker Role
               href: web-api/overview/hosting-aspnet-web-api/host-aspnet-web-api-in-an-azure-worker-role.md
         - name: Advanced Topics
           href: web-api/overview/advanced/index.md
-          items: 
+          items:
             - name: Configuring Web API 2
               href: web-api/overview/advanced/configuring-aspnet-web-api.md
             - name: Dependency Injection in Web API 2
@@ -2441,7 +2440,7 @@
               href: web-api/overview/advanced/http-cookies.md
         - name: Releases
           href: web-api/overview/releases/index.md
-          items: 
+          items:
             - name: What's New in Web API OData 5.3
               href: web-api/overview/releases/whats-new-in-aspnet-web-api-odata-53.md
             - name: What's New in ASP.NET Web API 2.2
@@ -2450,12 +2449,12 @@
               href: web-api/overview/releases/whats-new-in-aspnet-web-api-21.md
         - name: Older Versions
           href: web-api/overview/older-versions/index.md
-          items: 
+          items:
             - name: Enabling CRUD Operations in Web API 1
               href: web-api/overview/older-versions/creating-a-web-api-that-supports-crud-operations.md
             - name: Using ASP.NET Web API 1 with Entity Framework 5
               href: web-api/overview/older-versions/using-web-api-1-with-entity-framework-5/index.md
-              items: 
+              items:
                 - name: Overview and Creating the Project
                   href: web-api/overview/older-versions/using-web-api-1-with-entity-framework-5/using-web-api-with-entity-framework-part-1.md
                 - name: Creating the Domain Models
@@ -2476,10 +2475,10 @@
               href: web-api/overview/older-versions/build-restful-apis-with-aspnet-web-api.md
     - name: Videos
       href: web-api/videos/index.md
-      items: 
+      items:
         - name: Overview and Getting Started
           href: web-api/videos/getting-started/index.md
-          items: 
+          items:
             - name: ASP.NET Web API
               href: web-api/videos/getting-started/aspnet-web-api.md
             - name: "ASP.NET Web API, Part 1: Your First Web API"
@@ -2498,13 +2497,13 @@
       href: web-api/samples-list.md
 - name: Web Pages
   href: web-pages/index.md
-  items: 
+  items:
     - name: Guidance
       href: web-pages/overview/index.md
-      items: 
+      items:
         - name: Getting Started
           href: web-pages/overview/getting-started/index.md
-          items: 
+          items:
             - name: Program ASP.NET Web Pages in Visual Studio
               href: web-pages/overview/getting-started/program-asp-net-web-pages-in-visual-studio.md
             - name: Intro to ASP.NET Web Programming Razor Syntax
@@ -2519,7 +2518,7 @@
               href: web-pages/overview/getting-started/13-adding-social-networking-to-your-web-site.md
             - name: Introducing ASP.NET Web Pages
               href: web-pages/overview/getting-started/introducing-aspnet-web-pages-2/index.md
-              items: 
+              items:
                 - name: Getting Started
                   href: web-pages/overview/getting-started/introducing-aspnet-web-pages-2/getting-started.md
                 - name: Programming Basics
@@ -2540,12 +2539,12 @@
                   href: web-pages/overview/getting-started/introducing-aspnet-web-pages-2/publishing.md
         - name: Routing
           href: web-pages/overview/routing/index.md
-          items: 
+          items:
             - name: Creating Readable URLs in ASP.NET Web Pages Sites
               href: web-pages/overview/routing/creating-readable-urls-in-aspnet-web-pages-sites.md
         - name: UI, Layouts, and Themes
           href: web-pages/overview/ui-layouts-and-themes/index.md
-          items: 
+          items:
             - name: Working with Forms
               href: web-pages/overview/ui-layouts-and-themes/4-working-with-forms.md
             - name: Validating User Input in ASP.NET Web Pages Sites
@@ -2568,12 +2567,12 @@
               href: web-pages/overview/ui-layouts-and-themes/displaying-maps-in-an-aspnet-web-pages-site.md
         - name: Mobile
           href: web-pages/overview/mobile/index.md
-          items: 
+          items:
             - name: Rendering ASP.NET Web Pages Sites for Mobile Devices
               href: web-pages/overview/mobile/rendering-aspnet-web-pages-sites-for-mobile-devices.md
         - name: Working with Data
           href: web-pages/overview/data/index.md
-          items: 
+          items:
             - name: Working with Data
               href: web-pages/overview/data/5-working-with-data.md
             - name: Displaying Data in a Chart
@@ -2582,14 +2581,14 @@
               href: web-pages/overview/data/working-with-files.md
         - name: Testing and Debugging
           href: web-pages/overview/testing-and-debugging/index.md
-          items: 
+          items:
             - name: Intro to Debugging
               href: web-pages/overview/testing-and-debugging/introduction-to-debugging.md
             - name: ASP.NET Web Pages (Razor) Troubleshooting Guide
               href: web-pages/overview/testing-and-debugging/aspnet-web-pages-razor-troubleshooting-guide.md
         - name: Security
           href: web-pages/overview/security/index.md
-          items: 
+          items:
             - name: Adding Security and Membership
               href: web-pages/overview/security/16-adding-security-and-membership.md
             - name: Enabling Login from External Sites in an ASP.NET Web Pages Site
@@ -2598,7 +2597,7 @@
               href: web-pages/overview/security/using-a-catpcha-to-prevent-automated-programs-bots-from-using-your-aspnet-web-site.md
         - name: Performance
           href: web-pages/overview/performance-and-traffic/index.md
-          items: 
+          items:
             - name: Caching to Improve the Performance of Your Website
               href: web-pages/overview/performance-and-traffic/15-caching-to-improve-the-performance-of-your-website.md
             - name: Analyzing Traffic
@@ -2607,12 +2606,12 @@
               href: web-pages/overview/performance-and-traffic/bundling-and-minifying-assets-in-an-aspnet-web-pages-razor-site.md
         - name: API Reference
           href: web-pages/overview/api-reference/index.md
-          items: 
+          items:
             - name: ASP.NET API Quick Reference
               href: web-pages/overview/api-reference/asp-net-web-pages-api-reference.md
         - name: Releases
           href: web-pages/overview/releases/index.md
-          items: 
+          items:
             - name: What's New in ASP.NET Web Pages 3.2
               href: web-pages/overview/releases/whats-new-in-aspnet-web-pages-32.md
             - name: What's New in ASP.NET Web Pages 3.1
@@ -2625,10 +2624,10 @@
               href: web-pages/overview/releases/running-v1-and-v2-sites-side-by-side.md
     - name: Videos
       href: web-pages/videos/index.md
-      items: 
+      items:
         - name: Introduction
           href: web-pages/videos/introduction/index.md
-          items: 
+          items:
             - name: 5 Minute Intro to ASP.NET Web Pages
               href: web-pages/videos/introduction/5-minute-introduction-to-aspnet-web-pages.md
             - name: Install and Use the Microsoft WebMatrix Tool
@@ -2651,7 +2650,7 @@
               href: web-pages/videos/introduction/publish-a-website-to-the-internet-using-webmatrix.md
         - name: ASP.NET Web Pages
           href: web-pages/videos/aspnet-razor-pages/index.md
-          items: 
+          items:
             - name: Getting Started with WebMatrix and ASP.NET Web Pages
               href: web-pages/videos/aspnet-razor-pages/getting-started-with-webmatrix-and-aspnet-web-pages.md
             - name: Intro to ASP.NET Web Programming Razor Syntax
@@ -2690,7 +2689,7 @@
       href: web-pages/pluralsight.md
     - name: WebMatrix Readme
       href: web-pages/readme/index.md
-      items: 
+      items:
         - name: WebMatrix Readme
           href: web-pages/readme/overview.md
         - name: Web Matrix and ASP.NET Web Pages (Razor) Beta 3 Release Readme
@@ -2701,13 +2700,13 @@
   href: config-builder.md
 - name: SignalR
   href: signalr/index.md
-  items: 
+  items:
     - name: Guidance
       href: signalr/overview/index.md
-      items: 
+      items:
         - name: Getting Started
           href: signalr/overview/getting-started/index.md
-          items: 
+          items:
             - name: Introduction to SignalR
               href: signalr/overview/getting-started/introduction-to-signalr.md
             - name: Supported Platforms
@@ -2724,7 +2723,7 @@
               href: signalr/overview/getting-started/real-time-web-applications-with-signalr.md
         - name: Guide to the API
           href: signalr/overview/guide-to-the-api/index.md
-          items: 
+          items:
             - name: Hubs API Guide - Server (C#)
               href: signalr/overview/guide-to-the-api/hubs-api-guide-server.md
             - name: Hubs API Guide - JavaScript Client
@@ -2739,7 +2738,7 @@
               href: signalr/overview/guide-to-the-api/mapping-users-to-connections.md
         - name: Testing and Debugging
           href: signalr/overview/testing-and-debugging/index.md
-          items: 
+          items:
             - name: SignalR Troubleshooting
               href: signalr/overview/testing-and-debugging/troubleshooting.md
             - name: Unit Testing SignalR Applications
@@ -2748,7 +2747,7 @@
               href: signalr/overview/testing-and-debugging/enabling-signalr-tracing.md
         - name: Security
           href: signalr/overview/security/index.md
-          items: 
+          items:
             - name: Introduction to SignalR Security
               href: signalr/overview/security/introduction-to-security.md
             - name: Authentication and Authorization for SignalR Hubs
@@ -2757,7 +2756,7 @@
               href: signalr/overview/security/persistent-connection-authorization.md
         - name: Performance
           href: signalr/overview/performance/index.md
-          items: 
+          items:
             - name: SignalR Performance
               href: signalr/overview/performance/signalr-performance.md
             - name: Introduction to Scaleout in SignalR
@@ -2776,24 +2775,24 @@
               href: signalr/overview/performance/using-signalr-performance-counters-in-an-azure-web-role.md
         - name: Deployment and Hosting
           href: signalr/overview/deployment/index.md
-          items: 
+          items:
             - name: "Tutorial: SignalR Self-Host"
               href: signalr/overview/deployment/tutorial-signalr-self-host.md
             - name: Using SignalR with Web Apps in Azure App Service
               href: signalr/overview/deployment/using-signalr-with-azure-web-sites.md
         - name: Advanced
           href: signalr/overview/advanced/index.md
-          items: 
+          items:
             - name: Dependency Injection in SignalR
               href: signalr/overview/advanced/dependency-injection.md
         - name: Releases
           href: signalr/overview/releases/index.md
-          items: 
+          items:
             - name: Upgrading SignalR 1.x Projects to version 2
               href: signalr/overview/releases/upgrading-signalr-1x-projects-to-20.md
         - name: Older Versions
           href: signalr/overview/older-versions/index.md
-          items: 
+          items:
             - name: "Tutorial: Getting Started with SignalR 1.x"
               href: signalr/overview/older-versions/tutorial-getting-started-with-signalr.md
             - name: "Tutorial: Getting Started with SignalR 1.x and MVC 4"
@@ -2836,14 +2835,14 @@
               href: signalr/overview/older-versions/dependency-injection.md
     - name: Videos
       href: signalr/videos/index.md
-      items: 
+      items:
         - name: ASP.NET SignalR Videos
           href: signalr/videos/getting-started/index.md
-          items: 
+          items:
             - name: SignalR and Web Sockets
               href: signalr/videos/getting-started/signalr-and-web-sockets.md
 - name: Mobile
-  items: 
+  items:
     - name: Overview
       href: mobile/overview.md
     - name: Controls-Tested Devices
@@ -2852,20 +2851,20 @@
       href: mobile/device-simulators.md
 - name: Single Page Application
   href: single-page-application/index.md
-  items: 
+  items:
     - name: Overview
       href: single-page-application/overview/index.md
-      items: 
+      items:
         - name: Introduction
           href: single-page-application/overview/introduction/index.md
-          items: 
+          items:
             - name: "Single Page Application: KnockoutJS template"
               href: single-page-application/overview/introduction/knockoutjs-template.md
             - name: Know a library other than Knockout?
               href: single-page-application/overview/introduction/other-libraries.md
         - name: Templates
           href: single-page-application/overview/templates/index.md
-          items: 
+          items:
             - name: Backbone Template
               href: single-page-application/overview/templates/backbonejs-template.md
             - name: Breeze/Angular template
@@ -2878,12 +2877,12 @@
               href: single-page-application/overview/templates/hottowel-template.md
 - name: WebHooks
   href: webhooks/index.md
-  items: 
+  items:
     - name: Source Code and NuGet
       href: webhooks/source.md
     - name: Receiving and processing
       href: webhooks/receiving/index.md
-      items: 
+      items:
         - name: Receiving
           href: webhooks/receiving/receivers.md
         - name: Processing
@@ -2894,19 +2893,19 @@
       href: webhooks/sending/senders.md
     - name: Diagnostics
       href: webhooks/diagnostics/index.md
-      items: 
+      items:
         - name: Logging
           href: webhooks/diagnostics/logging.md
         - name: Debugging
           href: webhooks/diagnostics/debugging.md
 - name: Visual Studio 2017
   href: visual-studio/overview/2017/index.md
-  items: 
+  items:
     - name: Optimize build performance for solution
       href: visual-studio/overview/2017/optimize-build-perf.md
 - name: Visual Studio 2013
   href: visual-studio/overview/2013/index.md
-  items: 
+  items:
     - name: Visual Studio 2013 Web Editor Features - Browser Link
       href: visual-studio/overview/2013/visual-studio-2013-web-editor-features-browser-link.md
     - name: Visual Studio 2013 Web Editor Features - CSS
@@ -2935,7 +2934,7 @@
       href: visual-studio/overview/2013/one-aspnet-integrating-aspnet-web-forms-mvc-and-web-api.md
 - name: Visual Studio 2012
   href: visual-studio/overview/2012/index.md
-  items: 
+  items:
     - name: Visual Studio 2012 HTML Editing Features
       href: visual-studio/overview/2012/visual-studio-2012-html-editing-features.md
     - name: Visual Studio 2012 CSS Editor
@@ -2966,13 +2965,13 @@
   href: entity-framework.md
 - name: Identity
   href: identity/index.md
-  items: 
+  items:
     - name: Overview
       href: identity/overview/index.md
-      items: 
+      items:
         - name: Getting Started with ASP.NET Identity
           href: identity/overview/getting-started/index.md
-          items: 
+          items:
             - name: Introduction to ASP.NET Identity
               href: identity/overview/getting-started/introduction-to-aspnet-identity.md
             - name: ASP.NET Identity Recommended Resources
@@ -2983,14 +2982,14 @@
               href: identity/overview/getting-started/aspnet-identity-using-mysql-storage-with-an-entityframework-mysql-provider.md
         - name: Features & API
           href: identity/overview/features-api/index.md
-          items: 
+          items:
             - name: Best practices for deploying passwords and other sensitive data to ASP.NET and Azure App Service
               href: identity/overview/features-api/best-practices-for-deploying-passwords-and-other-sensitive-data-to-aspnet-and-azure.md
             - name: Account Confirmation and Password Recovery with ASP.NET Identity (C#)
               href: identity/overview/features-api/account-confirmation-and-password-recovery-with-aspnet-identity.md
         - name: Extensibility
           href: identity/overview/extensibility/index.md
-          items: 
+          items:
             - name: Overview of Custom Storage Providers for ASP.NET Identity
               href: identity/overview/extensibility/overview-of-custom-storage-providers-for-aspnet-identity.md
             - name: Implementing a Custom MySQL ASP.NET Identity Storage Provider
@@ -2999,22 +2998,22 @@
               href: identity/overview/extensibility/change-primary-key-for-users-in-aspnet-identity.md
         - name: Migrations
           href: identity/overview/migrations/index.md
-          items: 
+          items:
             - name: Migrating an Existing Website from SQL Membership to ASP.NET Identity
               href: identity/overview/migrations/migrating-an-existing-website-from-sql-membership-to-aspnet-identity.md
             - name: Migrating Universal Provider Data for Membership and User Profiles to ASP.NET Identity (C#)
               href: identity/overview/migrations/migrating-universal-provider-data-for-membership-and-user-profiles-to-aspnet-identity.md
 - name: Ajax
   href: ajax/index.md
-  items: 
+  items:
     - name: Microsoft Ajax Content Delivery Network
       href: ajax/cdn/index.md
-      items: 
+      items:
         - name: Microsoft Ajax Content Delivery Network
           href: ajax/cdn/overview.md
         - name: jQuery UI
           href: ajax/cdn/jquery-ui/index.md
-          items: 
+          items:
             - name: jQuery UI 1.10.4 on the Microsoft Ajax CDN
               href: ajax/cdn/jquery-ui/cdnjqueryui1104.md
             - name: jQuery UI 1.10.3 on the Microsoft Ajax CDN
@@ -3087,7 +3086,7 @@
               href: ajax/cdn/jquery-ui/cdnjqueryui1121.md
         - name: jQuery Validate
           href: ajax/cdn/jquery-validate/index.md
-          items: 
+          items:
             - name: jQuery Validation 1.13.0
               href: ajax/cdn/jquery-validate/cdnjqueryvalidate1130.md
             - name: jQuery Validation 1.12.0
@@ -3122,7 +3121,7 @@
               href: ajax/cdn/jquery-validate/cdnjqueryvalidate1160.md
         - name: jQuery Mobile
           href: ajax/cdn/jquery-mobile/index.md
-          items: 
+          items:
             - name: jQuery Mobile 1.4.2 on the Microsoft Ajax CDN
               href: ajax/cdn/jquery-mobile/cdnjquerymobile142.md
             - name: jQuery Mobile 1.4.1 on the Microsoft Ajax CDN
@@ -3159,12 +3158,12 @@
               href: ajax/cdn/jquery-mobile/cdnjquerymobile145.md
         - name: jQuery Templates
           href: ajax/cdn/jquery-templates/index.md
-          items: 
+          items:
             - name: jQuery Templates Beta 1
               href: ajax/cdn/jquery-templates/cdnjquerytemplatesbeta1.md
         - name: jQuery Cycle
           href: ajax/cdn/jquery-cycle/index.md
-          items: 
+          items:
             - name: jQuery Cycle 2.99
               href: ajax/cdn/jquery-cycle/cdnjquerycycle299.md
             - name: jQuery Cycle 2.94
@@ -3173,7 +3172,7 @@
               href: ajax/cdn/jquery-cycle/cdnjquerycycle288.md
         - name: jQuery DataTables
           href: ajax/cdn/jquery-datatables/index.md
-          items: 
+          items:
             - name: jQuery DataTables 1.9.4
               href: ajax/cdn/jquery-datatables/cdnjquerydatatables194.md
             - name: jQuery DataTables 1.9.3
@@ -3200,14 +3199,14 @@
           href: ajax/cdn/cdnajax451.md
 - name: Web Development Best Practices
   href: aspnet/overview/web-development-best-practices/index.md
-  items: 
+  items:
     - name: What not to do in ASP.NET, and what to do instead
       href: aspnet/overview/web-development-best-practices/what-not-to-do-in-aspnet-and-what-to-do-instead.md
     - name: Async and Await
       href: aspnet/overview/web-development-best-practices/async-and-await.md
     - name: Building Real World Cloud Apps with Azure
       href: aspnet/overview/developing-apps-with-windows-azure/building-real-world-cloud-apps-with-windows-azure/index.md
-      items: 
+      items:
         - name: Introduction
           href: aspnet/overview/developing-apps-with-windows-azure/building-real-world-cloud-apps-with-windows-azure/introduction.md
         - name: Automate Everything
@@ -3244,11 +3243,11 @@
       href: aspnet/overview/developing-apps-with-windows-azure/maintainable-azure-websites-managing-change-and-scale.md
 - name: OWIN and Katana
   href: aspnet/overview/owin-and-katana/index.md
-  items: 
+  items:
     - name: An Overview of Project Katana
       href: aspnet/overview/owin-and-katana/an-overview-of-project-katana.md
     - name: Getting Started with OWIN and Katana
-      href: aspnet/overview/owin-and-katana/getting-started-with-owin-and-katana.md 
+      href: aspnet/overview/owin-and-katana/getting-started-with-owin-and-katana.md
     - name: OWIN SameSite
       uid: owin-samesite
     - name: Katana Samples
@@ -3263,7 +3262,7 @@
       href: aspnet/overview/owin-and-katana/host-owin-in-an-azure-worker-role.md
 - name: Whitepapers
   href: whitepapers/index.md
-  items: 
+  items:
     - name: Whitepapers
       href: whitepapers/overview.md
     - name: ASP.NET SameSite
@@ -3283,7 +3282,7 @@
 
     - name: ASP.NET 4 and Visual Studio 2010 Web Development Overview
       href: whitepapers/aspnet4/index.md
-      items: 
+      items:
         - name: ASP.NET 4 and Visual Studio 2010 Web Development Overview
           href: whitepapers/aspnet4/overview.md
         - name: ASP.NET 4 Breaking Changes

@@ -13,9 +13,9 @@ msc.type: video
 
 by [Joe Stagner](https://github.com/JoeStagner)
 
-In a traditional Web site the browser and the server do not maintain an ongoing communication, but communicate only in response to the user performing an action. In a modern Web site where the page becomes an application container, it can be advantageous for the browser and the server to maintain an ongoing communication so that page updates can occur without the user performing an action. This is known as the Persistent Communications Pattern for AJAX. ASP.NET AJAX provides two main ways for Web developers to implement the Persistent Communications Pattern. In an earlier video we saw how to use the ASP.NET AJAX UpdatePanel as the basis of the implementation. 
+In a traditional Web site the browser and the server do not maintain an ongoing communication, but communicate only in response to the user performing an action. In a modern Web site where the page becomes an application container, it can be advantageous for the browser and the server to maintain an ongoing communication so that page updates can occur without the user performing an action. This is known as the Persistent Communications Pattern for AJAX. ASP.NET AJAX provides two main ways for Web developers to implement the Persistent Communications Pattern. In an earlier video we saw how to use the ASP.NET AJAX UpdatePanel as the basis of the implementation.
 
 > [!div class="step-by-step"]
-> [Previous](https://learn.microsoft.com/shows/asp-net-site-videos/how-do-i-localize-aspnet-ajax-application)
+> [Previous](/shows/asp-net-site-videos/how-do-i-localize-aspnet-ajax-application)
 > [Next](how-do-i-trigger-an-updatepanel-refresh-from-a-dropdownlist-control.md)
 

@@ -16,11 +16,11 @@ by [Tom Dykstra](https://github.com/tdykstra)
 [Download Starter Project](https://go.microsoft.com/fwlink/p/?LinkId=282627)
 
 > This tutorial series shows you how to deploy (publish) an ASP.NET web application to Azure App Service Web Apps or a third-party hosting provider, by using Visual Studio 2012 with the Azure SDK for .NET. Most of the procedures are similar for Visual Studio 2013.
-> 
+>
 > You develop a web application in order to make it available to people over the Internet. But web programming tutorials typically stop right after they've shown you how to get something working on your development computer. This series of tutorials begins where the others leave off: you've built a web app, tested it, and it's ready to go. What's next? These tutorials show you how to deploy first to IIS on your local development computer for testing, and then to Azure or a third-party hosting provider for staging and production. The sample application that you'll deploy is a web application project that uses the Entity Framework, SQL Server, and the ASP.NET membership system. The sample application uses ASP.NET Web Forms, but the procedures shown apply also to ASP.NET MVC and Web API.
-> 
+>
 > These tutorials assume you know how to work with ASP.NET in Visual Studio. If you don't, a good place to start is a [basic ASP.NET Web Forms Tutorial](../../older-versions-getting-started/tailspin-spyworks/tailspin-spyworks-part-1.md) or a [basic ASP.NET MVC Tutorial](../../../../mvc/overview/older-versions/getting-started-with-aspnet-mvc4/intro-to-aspnet-mvc-4.md).
-> 
+>
 > If you have questions that are not directly related to the tutorial, you can post them to the [ASP.NET Deployment forum](https://forums.asp.net/26.aspx/1?Configuration+and+Deployment) or [StackOverflow](http://stackoverflow.com).
 
 ## Overview
@@ -41,7 +41,7 @@ The tutorials are aimed at ASP.NET developers who work in environments where:
 Deployment from [source control](../../../../aspnet/overview/developing-apps-with-windows-azure/building-real-world-cloud-apps-with-windows-azure/source-control.md) using a [continuous delivery](../../../../aspnet/overview/developing-apps-with-windows-azure/building-real-world-cloud-apps-with-windows-azure/continuous-integration-and-continuous-delivery.md) process is not covered in these tutorials except for one tutorial that shows how to deploy from the command line. For information about continuous delivery, see the following resources:
 
 - [Continuous Integration and Continuous Delivery (Building Real-World Cloud Apps with Windows Azure)](../../../../aspnet/overview/developing-apps-with-windows-azure/building-real-world-cloud-apps-with-windows-azure/continuous-integration-and-continuous-delivery.md)
-- [Deploy a web app in Azure App Service](https://learn.microsoft.com/azure/app-service/deploy-best-practices)
+- [Deploy a web app in Azure App Service](/azure/app-service/deploy-best-practices)
 - [Deploying Web Applications in Enterprise Scenarios](../deploying-web-applications-in-enterprise-scenarios/deploying-web-applications-in-enterprise-scenarios.md) (An older set of tutorials written for Visual Studio 2010, which still has useful information for enterprise environments.)
 
 ## Using a third-party hosting provider

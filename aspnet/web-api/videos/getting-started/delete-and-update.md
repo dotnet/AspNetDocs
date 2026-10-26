@@ -16,5 +16,5 @@ by [Jon Galloway](https://github.com/jongalloway)
 > [!NOTE]
 > This video contains information from a pre-release version of ASP.NET Web API. For information on what changed, see the updated sample code at [https://code.msdn.microsoft.com/ASPNET-Web-API-JavaScript-d0d64dd7](https://code.msdn.microsoft.com/ASPNET-Web-API-JavaScript-d0d64dd7)
 
-[&#9654; Watch video (5 minutes)](https://learn.microsoft.com/en-us/shows/asp-net-site-videos/delete-update)
+[&#9654; Watch video (5 minutes)](/en-us/shows/asp-net-site-videos/delete-update)
 

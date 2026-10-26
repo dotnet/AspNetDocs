@@ -80,7 +80,7 @@ To see the health monitoring system in action, visit the website and generate a 
 
 [![Screenshot that shows the error details that are logged to the table.](logging-error-details-with-asp-net-health-monitoring-cs/_static/image2.png)](logging-error-details-with-asp-net-health-monitoring-cs/_static/image1.png)
 
-**Figure 1**: The Error Details Were Logged to the `aspnet_WebEvent_Events` Table  
+**Figure 1**: The Error Details Were Logged to the `aspnet_WebEvent_Events` Table
 ([Click to view full-size image](logging-error-details-with-asp-net-health-monitoring-cs/_static/image3.png))
 
 ### Displaying the Error Log In a Web Page
@@ -98,7 +98,7 @@ The health monitoring system includes a log source provider that "logs" an event
 
 Let's update the Book Reviews website's configuration so that we receive an email whenever an exception occurs. To accomplish this we need to perform three tasks:
 
-1. Configure the ASP.NET web application to send email. This is accomplished by specifying how email messages are sent via the `<system.net>` configuration element. For more information on sending email messages in an ASP.NET application refer to [Sending Email in ASP.NET](/aspnet/web-pages/overview/getting-started/11-adding-email-to-your-web-site) and [System.Net.Mail](https://learn.microsoft.com/dotnet/api/system.net.mail.mailmessage?view=net-8.0).
+1. Configure the ASP.NET web application to send email. This is accomplished by specifying how email messages are sent via the `<system.net>` configuration element. For more information on sending email messages in an ASP.NET application refer to [Sending Email in ASP.NET](/aspnet/web-pages/overview/getting-started/11-adding-email-to-your-web-site) and [System.Net.Mail](/dotnet/api/system.net.mail.mailmessage?view=net-8.0).
 2. Register the email log source provider in the `<providers>` element, and
 3. Add an entry to the `<rules>` element that maps the "All Errors" event to the log source provider added in step (2).
 
@@ -120,7 +120,7 @@ The `<rules>` section now includes two rules. The first one, named "All Errors T
 
 [![Screenshot that shows the error details sent in the email message.](logging-error-details-with-asp-net-health-monitoring-cs/_static/image5.png)](logging-error-details-with-asp-net-health-monitoring-cs/_static/image4.png)
 
-**Figure 2**: The Error Details are Sent in an Email Message  
+**Figure 2**: The Error Details are Sent in an Email Message
 ([Click to view full-size image](logging-error-details-with-asp-net-health-monitoring-cs/_static/image6.png))
 
 ## Summary
