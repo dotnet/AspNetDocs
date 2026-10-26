@@ -3,9 +3,7 @@ uid: identity/overview/getting-started/aspnet-identity-recommended-resources
 title: "ASP.NET Identity Recommended Resources - ASP.NET 4.x"
 author: Rick-Anderson
 description: "This topic provides links to documentation resources about how to use ASP.NET Identity. If you know a great blog post, stackoverflow thread, or any other lin..."
-ms.author: tdykstra
 ms.date: 04/09/2015
-ms.assetid: 0f78aec2-f509-46fa-b20f-d5208425d8ec
 msc.legacyurl: /identity/overview/getting-started/aspnet-identity-recommended-resources
 msc.type: authoredcontent
 ---
@@ -17,27 +15,12 @@ by [Rick Anderson](https://twitter.com/RickAndMSFT)
 >
 > If you know a great blog post, [stackoverflow](http://stackoverflow.com) thread, or any other link that would be useful, [send us an email](mailto:aspnetue@microsoft.com?subject=Identity recommended resources) with the link or just leave a message at the bottom of this page.
 
-- [Getting Started with ASP.NET Identity](#gettingstarted)
-- [New featured Must Read articles](#feat)
-- [Intermediate ASP.NET Identity](#adv)
-- [Videos](#video)
-- [Where to ask questions, request features, report a bug and nightly builds](#samp)
-- [Blog posts on Identity](#blog)
-- [Custom Storage Providers for ASP.NET Identity](#cust)
-- [Additional Identity Resources](#additional)
-- [Q &amp; A (question/answer)](#qand)
-
-<a id="gettingstarted"></a>
-
 ## Getting Started with ASP.NET Identity
 
 - [MVC 5 App with Facebook, Twitter, LinkedIn and Google OAuth2 Sign-on](../../../mvc/overview/security/create-an-aspnet-mvc-5-app-with-facebook-and-google-oauth2-and-openid-sign-on.md) This tutorial shows you how to write an ASP.NET MVC 5 app with Facebook and Google OAuth 2 authorization. It also shows how to add additional data to the Identity database.
 - [Deploy a Secure ASP.NET MVC app with Membership, OAuth, and SQL Database to a Azure](/aspnet/core/security/authorization/secure-data). This tutorial adds Azure deployment, how to secure your app with roles, how to use the membership API to add users and roles, and additional security features.
 - [Introduction to ASP.NET Identity](introduction-to-aspnet-identity.md)
-- [Create a secure ASP.NET MVC 5 web app with log in, email confirmation and password reset](../../../mvc/overview/security/create-an-aspnet-mvc-5-web-app-with-email-confirmation-and-password-reset.md)
 - [ASP.NET MVC 5 app with SMS and email Two-Factor Authentication](../../../mvc/overview/security/aspnet-mvc-5-app-with-sms-and-email-two-factor-authentication.md)
-
-<a id="feat"></a>
 
 ## New featured Must Read articles
 
@@ -46,8 +29,6 @@ by [Rick Anderson](https://twitter.com/RickAndMSFT)
 - [AngularJS Token Authentication using ASP.NET Web API 2, Owin, and Identity](http://bitoftech.net/2014/06/09/angularjs-token-authentication-using-asp-net-web-api-2-owin-asp-net-identity/)
 - [Thinktecture.IdentityManager as a replacement for the WSAT](http://www.hanselman.com/blog/ThinktectureIdentityManagerAsAReplacementForTheASPNETWebSiteAdministrationTool.aspx)
 - [ASP.NET Identity 2.0: Customizing Users and Roles](http://typecastexception.com/post/2014/06/22/ASPNET-Identity-20-Customizing-Users-and-Roles.aspx)
-
-<a id="adv"></a>
 
 ## Intermediate ASP.NET Identity
 
@@ -59,15 +40,11 @@ by [Rick Anderson](https://twitter.com/RickAndMSFT)
 - MSDN Magazine[A First Look at ASP.NET Identity](https://msdn.microsoft.com/magazine/dn605872.aspx) by Dino Esposito
 - [ASP.NET Identity – User Lockout](http://tech.trailmax.info/2014/06/asp-net-identity-user-lockout/)
 
-<a id="samp"></a>
-
 ## Where to ask questions, request features, report a bug and nightly builds
 
 - For StackOverflow, use the tag [aspnet-identity](http://stackoverflow.com/questions/tagged/asp.net-identity)
 - For the ASP.NET forums, post to the [Security forum](https://forums.asp.net/25.aspx) and add **ASP.NET Identity** to the title.
 - [ASP.NET Identity on GitHub](https://github.com/aspnet/AspNetIdentity) Get nightly builds, request features, open bugs.
-
-<a id="blog"></a>
 
 ## Blog posts on Identity
 
@@ -116,8 +93,6 @@ by [Rick Anderson](https://twitter.com/RickAndMSFT)
 - [Simple Asp.net Identity Core Without Entity Framework](https://code.msdn.microsoft.com/Simple-Aspnet-Identiy-Core-7475a961)
 - [Working with Roles in ASP.NET Identity for MVC](http://www.dotnetfunda.com/articles/show/2898/working-with-roles-in-aspnet-identity-for-mvc) by [Sheo Narayan](http://www.dotnetfunda.com/profile/sheonarayan.aspx)
 
-<a id="video"></a>
-
 ## Videos
 
 - Channel 9 [Securing ASP.NET Applications and Services: Security Facelift for Modern Applications](https://view.officeapps.live.com/op/view.aspx?src=https%3A%2F%2Fvideo.ch9.ms%2Fsessions%2Fteched%2Fna%2F2014%2FDEV-B421.pptx&wdOrigin=BROWSELINK) by Ido Flatow
@@ -128,8 +103,6 @@ by [Rick Anderson](https://twitter.com/RickAndMSFT)
 - [Use ASP.NET Identity on an existing DB-Model](https://www.youtube.com/watch?v=elfqejow5hM) by Alexander Schmidt
 - [ASP.NET One Identity](https://www.youtube.com/watch?v=w8GD-QIusKk) by Ivaylo Kenov of Telerik
 - [Czech ASP.NET Identity](https://www.youtube.com/watch?v=tVbZp5brcpY) In this lecture we will show how to deploy basic authentication, how to add support for external identity providers such as Twitter or Facebook, and how to use one-time passwords (OTP). [ASP.NET Identity je nástupce Membership a Role provider&#367; v ASP.NET, tedy knihovna pro zajišt&#283;ní autentizace uživatel&#367;. V této p&#345;ednášce si ukážeme, jak nasad]
-
-<a id="cust"></a>
 
 ## Custom Storage Providers for ASP.NET Identity
 
@@ -150,13 +123,9 @@ If you want to write your own provider, read [Overview of Custom Storage Provide
 - Redis: [Redis.AspNet.Identity](https://github.com/aminjam/Redis.AspNet.Identity)
 - T4 Templates to generate EF code for a "database first" user store: [AspNet.Identity.EntityFramework](https://github.com/cbfrank/AspNet.Identity.EntityFramework)
 
-<a id="additional"></a>
-
 ## Additional ASP.NET Identity Resources
 
 - [Introducing the Yahoo and LinkedIn OAuth security providers for OWIN](http://blog.beabigrockstar.com/introducing-the-yahoo-linkedin-oauth-security-providers-for-owin/) by Jerrie Pelser for Yahoo and LinkedIn instructions.
-
-<a id="qand"></a>
 
 ## Q&amp;A (question/answer)
 

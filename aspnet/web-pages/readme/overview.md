@@ -43,13 +43,11 @@ msc.type: content
 ## Installation
 
 > To install WebMatrix 1.0, you must first install the [Microsoft Web Platform Installer 3.0](https://www.iis.net/downloads/microsoft/web-platform-installer). After you've installed the Web Platform Installer, you can use it to install WebMatrix.
-> 
-> If you have problems during installation, refer to [Troubleshooting Problems with Microsoft Web Platform Installer](https://go.microsoft.com/fwlink/?LinkId=196212).
 
 <a id="InstructionsForPublishingApplications"></a>
 ## How to Publish Applications
 
-> See [Step-by-Step Instructions for Publishing Applications](https://go.microsoft.com/fwlink/?LinkID=196149)
+> See [Step-by-Step Instructions for Publishing Applications](https://learn.microsoft.com/aspnet/web-pages/overview/getting-started/introducing-aspnet-web-pages-2/publishing)
 
 <a id="ChangesAndIssues"></a>
 

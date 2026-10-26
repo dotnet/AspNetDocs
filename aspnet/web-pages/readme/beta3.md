@@ -48,7 +48,7 @@ msc.type: content
 
 ## Instructions for Publishing Applications
 
-> See [Step-by-Step Instructions for Publishing Applications](https://go.microsoft.com/fwlink/?LinkID=196149)
+> See [Step-by-Step Instructions for Publishing Applications](https://learn.microsoft.com/aspnet/web-pages/overview/getting-started/introducing-aspnet-web-pages-2/publishing)
 
 <a id="Known_Issues"></a>
 
