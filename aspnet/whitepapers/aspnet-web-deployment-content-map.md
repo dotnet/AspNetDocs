@@ -117,7 +117,7 @@ See also [Making sure an application is off-line during deployment](aspnet-web-d
 
 <a id="appoffline"></a>
 
-## Making sure an application is off-line during deployment
+## Making sure an application is offline during deployment
 
 - [ASP.NET Web Deployment using Visual Studio: Deploying a Code Update](../web-forms/overview/deployment/visual-studio-web-deployment/deploying-a-code-update.md). See the section **Take the application offline during deployment.**
 - [Taking an Application Offline before Publishing](/aspnet/core/tutorials/publish-to-iis?view=aspnetcore-8.0) (IIS.net site). Explains a feature built into Web Deploy 3.0 that automates handling of an app\_offline.htm file. This feature does not work with custom app\_offline.htm files.
@@ -229,13 +229,10 @@ The following blogs frequently contain information about Visual Studio web deplo
 - [Web Development Tools at Microsoft blog](https://devblogs.microsoft.com/dotnet/category/aspnet/).
 - [Sayed Hashimi's blog](http://www.sedodream.com/).
 
-The following resources provide documentation about Web Deploy, the IIS framework that Visual Studio uses to perform web application project deployment tasks. You can ask questions about Web Deploy in the [Web Deployment Tool forum](https://go.microsoft.com/fwlink/?LinkId=149411) on the IIS.net web site.
+The following resources provide documentation about Web Deploy, the IIS framework that Visual Studio uses to perform web application project deployment tasks. You can ask questions about Web Deploy at [Developer technologies Q&A](/answers/tags/828/developer-technologies).
 
-- [Introduction to Web Deploy](https://www.iis.net/learn/publish/using-web-deploy/introduction-to-web-deploy).
-- [Installing and Configuring Web Deploy](https://www.iis.net/learn/install/installing-publishing-technologies/installing-and-configuring-web-deploy).
-- [PowerShell Scripts for Automating Web Deploy Setup](https://www.iis.net/learn/publish/using-web-deploy/powershell-scripts-for-automating-web-deploy-setup).
-- [Web Deployment Tool](https://go.microsoft.com/fwlink/?LinkId=151481). Top-level table of contents node for Web Deploy documentation on the TechNet site. Includes useful reference information but most of the TechNet pages have not been updated for years.
-- [Microsoft.Web.Deployment Namespace](https://go.microsoft.com/fwlink/?LinkId=148630). API documentation, has not been updated since version 1.0.
+- [Introduction to Web Deploy](/iis/publish/using-web-deploy/introduction-to-web-deploy).
+- [Installing and Configuring Web Deploy](/iis/install/installing-publishing-technologies/installing-and-configuring-web-deploy).
+- [PowerShell Scripts for Automating Web Deploy Setup](/iis/publish/using-web-deploy/powershell-scripts-for-automating-web-deploy-setup).
 - [The Microsoft Web Deployment Team blog](https://blogs.iis.net/msdeploy).
-- [Publish tab in IIS.net web site](https://www.iis.net/learn/publish).
 

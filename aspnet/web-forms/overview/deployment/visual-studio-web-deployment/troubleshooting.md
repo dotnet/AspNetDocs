@@ -21,8 +21,8 @@ This page describes some common problems that may arise when you deploy an ASP.N
 
 The scenarios shown apply to both Azure and third-party hosting providers. For more information about troubleshooting web apps in Azure App Service, see the following resources:
 
-- [Troubleshoot a web app in Azure App Service using Visual Studio](https://azure.microsoft.com/documentation/articles/web-sites-dotnet-troubleshoot-visual-studio/)
-- [Monitor Web Apps in Azure App Service](https://azure.microsoft.com/documentation/articles/web-sites-monitor//)
+- [Enable diagnostic logging for apps in Azure App Service](/azure/app-service/troubleshoot-diagnostic-logs)
+- [Monitor Web Apps in Azure App Service](/azure/app-service/monitor-app-service?tabs=aspnetcore)
 - [Announcing the release of Windows Azure SDK 2.0 for .NET](https://www.webpronews.com/microsoft-releases-windows-azure-sdk-2-0-for-net/) (ScottGu's blog, shows how to get diagnostic logs in Visual Studio)
 
 ## Server Error in '/' Application - Current Custom Error Settings Prevent Details of the Error from Being Viewed Remotely
@@ -39,7 +39,7 @@ By default, ASP.NET shows detailed error information only when your web applicat
 
 To enable the application to display detailed error messages when it runs on the remote host, edit the Web.config file to set customErrors mode off, redeploy the application, and run the application again:
 
-1. If the application Web.config file has a customErrors element in the system.web element, change the mode attribute to "off". Otherwise add a customErrors element in the system.web element with the mode attribute set to "off", as shown in the following example: 
+1. If the application Web.config file has a customErrors element in the system.web element, change the mode attribute to "off". Otherwise add a customErrors element in the system.web element with the mode attribute set to "off", as shown in the following example:
 
     [!code-xml[Main](troubleshooting/samples/sample2.xml)]
 2. Deploy the application.
@@ -282,9 +282,9 @@ Code First is attempting to create the database but the App\_Data folder does no
 
 You have been successfully using one-click publish to deploy your application and then you start getting this error:
 
-Web deployment task failed. (Could not complete the request to remote agent URL '`<https://serverurl.com/msdeploy.axd?site=sitename>`'.)  
- Could not complete the request to remote agent URL '`<https://url/msdeploy.axd?site=sitename>`'.  
-The request was aborted: The request was canceled.  
+Web deployment task failed. (Could not complete the request to remote agent URL '`<https://serverurl.com/msdeploy.axd?site=sitename>`'.)
+ Could not complete the request to remote agent URL '`<https://url/msdeploy.axd?site=sitename>`'.
+The request was aborted: The request was canceled.
 COM object that has been separated from its underlying RCW cannot be used.
 
 ### Possible Cause and Solution

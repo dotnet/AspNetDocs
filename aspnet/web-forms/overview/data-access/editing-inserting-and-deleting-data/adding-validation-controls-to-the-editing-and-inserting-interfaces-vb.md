@@ -92,8 +92,6 @@ When constructing data entry forms, it is important that users enter any require
 - [RegularExpressionValidator](https://msdn.microsoft.com/library/eahwtc9e.aspx) validates a value against a [regular expression](http://en.wikipedia.org/wiki/Regular_expression)
 - [CustomValidator](https://msdn.microsoft.com/library/9eee01cx(VS.80).aspx) validates a value against a custom, user-defined method
 
-For more information on these five controls, check out the [Validation Controls section](https://quickstarts.asp.net/quickstartv20/aspnet/doc/ctrlref/validation/default.aspx) of the [ASP.NET Quickstart Tutorials](https://asp.net/QuickStart/aspnet/).
-
 For our tutorial we'll need to use a RequiredFieldValidator in both the DetailsView and GridView's `ProductName` TemplateFields and a RequiredFieldValidator in the DetailsView's `UnitPrice` TemplateField. Furthermore, we'll need to add a CompareValidator to both controls' `UnitPrice` TemplateFields that ensures that the entered price has a value greater than or equal to 0 and is presented in a valid currency format.
 
 > [!NOTE]

@@ -32,7 +32,7 @@ It's possible to create such customized layouts by using *nested master pages*. 
 This tutorial starts by highlighting the benefits of nested master pages. It then shows how to create and use nested master pages.
 
 > [!NOTE]
-> Nested master pages have been possible since version 2.0 of the .NET Framework. However, Visual Studio 2005 did not include design-time support for nested master pages. The good news is that Visual Studio 2008 offers a rich design-time experience for nested master pages. If you are interested in using nested master pages but are still using Visual Studio 2005, check out [Scott Guthrie](https://weblogs.asp.net/scottgu/)'s blog entry, [Tips for Nested Master Pages in VS 2005 Design-Time](https://weblogs.asp.net/scottgu/archive/2005/11/11/430382.aspx).
+> Nested master pages have been possible since version 2.0 of the .NET Framework. However, Visual Studio 2005 did not include design-time support for nested master pages. The good news is that Visual Studio 2008 offers a rich design-time experience for nested master pages. If you are interested in using nested master pages but are still using Visual Studio 2005, check out [Scott Guthrie](https://weblogs.asp.net/scottgu/)'s blog entry, [Tips for Nested Master Pages in VS 2005 Design-Time](https://weblogs.asp.net/scottgu/430382/).
 
 ## The Benefits of Nested Master Pages
 
@@ -295,8 +295,8 @@ Happy Programming!
 For more information on the topics discussed in this tutorial, refer to the following resources:
 
 - [Nested ASP.NET Master Pages](https://msdn.microsoft.com/library/x2b3ktt7.aspx)
-- [Tips for Nested Master Pages and VS 2005 Design-Time](https://weblogs.asp.net/scottgu/archive/2005/11/11/430382.aspx)
-- [VS 2008 Nested Master Page Support](https://weblogs.asp.net/scottgu/archive/2007/07/09/vs-2008-nested-master-page-support.aspx)
+- [Tips for Nested Master Pages and VS 2005 Design-Time](https://weblogs.asp.net/scottgu/430382/)
+- [VS 2008 Nested Master Page Support](https://weblogs.asp.net/scottgu/vs-2008-nested-master-page-support/)
 
 ### About the Author
 

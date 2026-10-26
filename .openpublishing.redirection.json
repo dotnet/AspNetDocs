@@ -6,423 +6,343 @@
     },
     {
       "source_path": "aspnet/web-forms/videos/vs-2005/index.md",
-      "redirect_url": "https://learn.microsoft.com/shows/asp-net-site-videos/",
-      "redirect_document_id": false
+      "redirect_url": "https://learn.microsoft.com/shows/asp-net-site-videos/"
     },
     {
       "source_path": "aspnet/web-forms/videos/vs-2005/introduction-to-unit-testing-with-team-system.md",
-      "redirect_url": "https://learn.microsoft.com/shows/asp-net-site-videos/",
-      "redirect_document_id": false
+      "redirect_url": "https://learn.microsoft.com/shows/asp-net-site-videos/"
     },
     {
       "source_path": "aspnet/web-forms/videos/vs-2005/introduction-to-testing-web-applications-with-team-system.md",
-      "redirect_url": "https://learn.microsoft.com/shows/asp-net-site-videos/",
-      "redirect_document_id": false
+      "redirect_url": "https://learn.microsoft.com/shows/asp-net-site-videos/"
     },
     {
       "source_path": "aspnet/web-forms/videos/vs-2005/introduction-to-manual-testing-with-team-system.md",
-      "redirect_url": "https://learn.microsoft.com/shows/asp-net-site-videos/",
-      "redirect_document_id": false
+      "redirect_url": "https://learn.microsoft.com/shows/asp-net-site-videos/"
     },
     {
       "source_path": "aspnet/web-forms/videos/vs-2005/introduction-to-managing-and-running-tests-with-team-system.md",
-      "redirect_url": "https://learn.microsoft.com/shows/asp-net-site-videos/",
-      "redirect_document_id": false
+      "redirect_url": "https://learn.microsoft.com/shows/asp-net-site-videos/"
     },
     {
       "source_path": "aspnet/web-forms/videos/vs-2005/measuring-the-business-value-of-ajax.md",
-      "redirect_url": "https://learn.microsoft.com/shows/asp-net-site-videos/",
-      "redirect_document_id": false
+      "redirect_url": "https://learn.microsoft.com/shows/asp-net-site-videos/"
     },
     {
       "source_path": "aspnet/web-forms/videos/vs-2005/code-coverage-of-automated-tests.md",
-      "redirect_url": "https://learn.microsoft.com/shows/asp-net-site-videos/",
-      "redirect_document_id": false
+      "redirect_url": "https://learn.microsoft.com/shows/asp-net-site-videos/"
     },
     {
       "source_path": "aspnet/web-forms/videos/vs-2005/custom-extraction-rules-and-coded-web-tests.md",
-      "redirect_url": "https://learn.microsoft.com/shows/asp-net-site-videos/",
-      "redirect_document_id": false
+      "redirect_url": "https://learn.microsoft.com/shows/asp-net-site-videos/"
     },
     {
       "source_path": "aspnet/web-forms/videos/vs-2005/the-effects-of-caching.md",
-      "redirect_url": "https://learn.microsoft.com/shows/asp-net-site-videos/",
-      "redirect_document_id": false
+      "redirect_url": "https://learn.microsoft.com/shows/asp-net-site-videos/"
     },
     {
       "source_path": "aspnet/web-forms/videos/vs-2005/using-the-load-test-agent.md",
-      "redirect_url": "https://learn.microsoft.com/shows/asp-net-site-videos/",
-      "redirect_document_id": false
+      "redirect_url": "https://learn.microsoft.com/shows/asp-net-site-videos/"
     },
     {
       "source_path": "aspnet/web-forms/videos/vs-2005/the-effects-of-viewstate.md",
-      "redirect_url": "https://learn.microsoft.com/shows/asp-net-site-videos/",
-      "redirect_document_id": false
+      "redirect_url": "https://learn.microsoft.com/shows/asp-net-site-videos/"
     },
     {
       "source_path": "aspnet/web-forms/videos/vs-2005/introduction-to-load-testing-web-applications-with-team-system.md",
-      "redirect_url": "https://learn.microsoft.com/shows/asp-net-site-videos/",
-      "redirect_document_id": false
+      "redirect_url": "https://learn.microsoft.com/shows/asp-net-site-videos/"
     },
     {
       "source_path": "aspnet/web-forms/videos/vs-2005/how-do-i-integrate-defect-tracking-with-testing.md",
-      "redirect_url": "https://learn.microsoft.com/shows/asp-net-site-videos/",
-      "redirect_document_id": false
+      "redirect_url": "https://learn.microsoft.com/shows/asp-net-site-videos/"
     },
     {
       "source_path": "aspnet/web-forms/videos/vs-2005/how-do-i-create-my-own-bug-work-item.md",
-      "redirect_url": "https://learn.microsoft.com/shows/asp-net-site-videos/",
-      "redirect_document_id": false
+      "redirect_url": "https://learn.microsoft.com/shows/asp-net-site-videos/"
     },
     {
       "source_path": "aspnet/web-forms/videos/vs-2005/how-do-i-write-code-more-quickly-with-unit-tests.md",
-      "redirect_url": "https://learn.microsoft.com/shows/asp-net-site-videos/",
-      "redirect_document_id": false
+      "redirect_url": "https://learn.microsoft.com/shows/asp-net-site-videos/"
     },
     {
       "source_path": "aspnet/web-forms/videos/vs-2005/how-do-i-practice-test-driven-development.md",
-      "redirect_url": "https://learn.microsoft.com/shows/asp-net-site-videos/",
-      "redirect_document_id": false
+      "redirect_url": "https://learn.microsoft.com/shows/asp-net-site-videos/"
     },
     {
       "source_path": "aspnet/web-forms/videos/vs-2005/how-do-i-load-test-a-web-application.md",
-      "redirect_url": "https://learn.microsoft.com/shows/asp-net-site-videos/",
-      "redirect_document_id": false
+      "redirect_url": "https://learn.microsoft.com/shows/asp-net-site-videos/"
     },
     {
       "source_path": "aspnet/web-forms/videos/vs-2005/how-do-i-tune-web-application-performance-with-profiling.md",
-      "redirect_url": "https://learn.microsoft.com/shows/asp-net-site-videos/",
-      "redirect_document_id": false
+      "redirect_url": "https://learn.microsoft.com/shows/asp-net-site-videos/"
     },
     {
       "source_path": "aspnet/web-forms/videos/vs-2005/how-do-i-set-up-distributed-load-testing-for-high-volume-tests.md",
-      "redirect_url": "https://learn.microsoft.com/shows/asp-net-site-videos/",
-      "redirect_document_id": false
+      "redirect_url": "https://learn.microsoft.com/shows/asp-net-site-videos/"
     },
     {
       "source_path": "aspnet/web-forms/videos/vs-2005/how-do-i-enforce-coding-standards-with-code-analysis.md",
-      "redirect_url": "https://learn.microsoft.com/shows/asp-net-site-videos/",
-      "redirect_document_id": false
+      "redirect_url": "https://learn.microsoft.com/shows/asp-net-site-videos/"
     },
     {
       "source_path": "aspnet/web-forms/videos/vs-2005/how-do-i-use-generic-tests.md",
-      "redirect_url": "https://learn.microsoft.com/shows/asp-net-site-videos/",
-      "redirect_document_id": false
+      "redirect_url": "https://learn.microsoft.com/shows/asp-net-site-videos/"
     },
     {
       "source_path": "aspnet/web-forms/videos/vs-2005/how-do-i-publish-and-analyze-test-results.md",
-      "redirect_url": "https://learn.microsoft.com/shows/asp-net-site-videos/",
-      "redirect_document_id": false
+      "redirect_url": "https://learn.microsoft.com/shows/asp-net-site-videos/"
     },
     {
       "source_path": "aspnet/web-forms/videos/vs-2005/how-do-i-discover-application-changes-prior-to-deployment.md",
-      "redirect_url": "https://learn.microsoft.com/shows/asp-net-site-videos/",
-      "redirect_document_id": false
+      "redirect_url": "https://learn.microsoft.com/shows/asp-net-site-videos/"
     },
     {
       "source_path": "aspnet/web-forms/videos/vs-2005/how-do-i-implement-continuous-integration-with-team-foundation.md",
-      "redirect_url": "https://learn.microsoft.com/shows/asp-net-site-videos/",
-      "redirect_document_id": false
+      "redirect_url": "https://learn.microsoft.com/shows/asp-net-site-videos/"
     },
     {
       "source_path": "aspnet/web-forms/videos/vs-2005/how-do-i-automate-testing-using-team-build.md",
-      "redirect_url": "https://learn.microsoft.com/shows/asp-net-site-videos/",
-      "redirect_document_id": false
+      "redirect_url": "https://learn.microsoft.com/shows/asp-net-site-videos/"
     },
     {
       "source_path": "aspnet/web-forms/videos/vs-2005/how-do-i-deploy-a-web-application-during-a-team-build.md",
-      "redirect_url": "https://learn.microsoft.com/shows/asp-net-site-videos/",
-      "redirect_document_id": false
+      "redirect_url": "https://learn.microsoft.com/shows/asp-net-site-videos/"
     },
     {
       "source_path": "aspnet/web-forms/videos/vs-2005/how-do-i-run-unit-tests-against-a-deployed-database.md",
-      "redirect_url": "https://learn.microsoft.com/shows/asp-net-site-videos/",
-      "redirect_document_id": false
+      "redirect_url": "https://learn.microsoft.com/shows/asp-net-site-videos/"
     },
     {
       "source_path": "aspnet/web-forms/videos/vs-2005/how-do-i-enable-code-coverage-and-profiling-in-production-applications.md",
-      "redirect_url": "https://learn.microsoft.com/shows/asp-net-site-videos/",
-      "redirect_document_id": false
+      "redirect_url": "https://learn.microsoft.com/shows/asp-net-site-videos/"
     },
     {
       "source_path": "aspnet/web-forms/videos/vs-2005/web-deployment-projects.md",
-      "redirect_url": "https://learn.microsoft.com/shows/asp-net-site-videos/",
-      "redirect_document_id": false
+      "redirect_url": "https://learn.microsoft.com/shows/asp-net-site-videos/"
     },
     {
       "source_path": "aspnet/web-forms/videos/vs-2005/web-application-projects-web-deployment-projects.md",
-      "redirect_url": "https://learn.microsoft.com/shows/asp-net-site-videos/",
-      "redirect_document_id": false
+      "redirect_url": "https://learn.microsoft.com/shows/asp-net-site-videos/"
     },
     {
       "source_path": "aspnet/web-forms/videos/visual-studio-2010/index.md",
-      "redirect_url": "https://learn.microsoft.com/shows/asp-net-site-videos/",
-      "redirect_document_id": false
+      "redirect_url": "https://learn.microsoft.com/shows/asp-net-site-videos/"
     },
     {
       "source_path": "aspnet/web-forms/videos/visual-studio-2010/visual-studio-2010-quick-hit-code-optimized-profile.md",
-      "redirect_url": "https://learn.microsoft.com/shows/asp-net-site-videos/",
-      "redirect_document_id": false
+      "redirect_url": "https://learn.microsoft.com/shows/asp-net-site-videos/"
     },
     {
       "source_path": "aspnet/web-forms/videos/visual-studio-2010/visual-studio-2010-quick-hit-code-search-view-hierarchy.md",
-      "redirect_url": "https://learn.microsoft.com/shows/asp-net-site-videos/",
-      "redirect_document_id": false
+      "redirect_url": "https://learn.microsoft.com/shows/asp-net-site-videos/"
     },
     {
       "source_path": "aspnet/web-forms/videos/visual-studio-2010/visual-studio-2010-quick-hit-intellisense-smart-lists.md",
-      "redirect_url": "https://learn.microsoft.com/shows/asp-net-site-videos/",
-      "redirect_document_id": false
+      "redirect_url": "https://learn.microsoft.com/shows/asp-net-site-videos/"
     },
     {
       "source_path": "aspnet/web-forms/videos/visual-studio-2010/visual-studio-2010-quick-hit-multi-monitor-support.md",
-      "redirect_url": "https://learn.microsoft.com/shows/asp-net-site-videos/",
-      "redirect_document_id": false
+      "redirect_url": "https://learn.microsoft.com/shows/asp-net-site-videos/"
     },
     {
       "source_path": "aspnet/web-forms/videos/visual-studio-2010/visual-studio-2010-quick-hit-new-web-project-template.md",
-      "redirect_url": "https://learn.microsoft.com/shows/asp-net-site-videos/",
-      "redirect_document_id": false
+      "redirect_url": "https://learn.microsoft.com/shows/asp-net-site-videos/"
     },
     {
       "source_path": "aspnet/web-forms/videos/visual-studio-2010/visual-studio-2010-quick-hit-new-multi-targeting.md",
-      "redirect_url": "https://learn.microsoft.com/shows/asp-net-site-videos/",
-      "redirect_document_id": false
+      "redirect_url": "https://learn.microsoft.com/shows/asp-net-site-videos/"
     },
     {
       "source_path": "aspnet/web-forms/videos/visual-studio-2010/visual-studio-2010-quick-hit-websites-instead-of-web-projects.md",
-      "redirect_url": "https://learn.microsoft.com/shows/asp-net-site-videos/",
-      "redirect_document_id": false
+      "redirect_url": "https://learn.microsoft.com/shows/asp-net-site-videos/"
     },
     {
       "source_path": "aspnet/web-forms/videos/visual-studio-2010/visual-studio-2010-quick-hit-snippets-intellisense.md",
-      "redirect_url": "https://learn.microsoft.com/shows/asp-net-site-videos/",
-      "redirect_document_id": false
+      "redirect_url": "https://learn.microsoft.com/shows/asp-net-site-videos/"
     },
     {
       "source_path": "aspnet/aspnet/overview/developing-apps-with-windows-azure/building-real-world-cloud-apps-with-windows-azure/automate-everything.md",
-      "redirect_url": "https://learn.microsoft.com/training/paths/create-microservices-with-dotnet",
-      "redirect_document_id": false
+      "redirect_url": "https://learn.microsoft.com/training/paths/create-microservices-with-dotnet"
     },
     {
       "source_path": "aspnet/aspnet/overview/developing-apps-with-windows-azure/building-real-world-cloud-apps-with-windows-azure/continuous-integration-and-continuous-delivery.md",
-      "redirect_url": "https://learn.microsoft.com/training/paths/create-microservices-with-dotnet",
-      "redirect_document_id": false
+      "redirect_url": "https://learn.microsoft.com/training/paths/create-microservices-with-dotnet"
     },
     {
       "source_path": "aspnet/aspnet/overview/developing-apps-with-windows-azure/building-real-world-cloud-apps-with-windows-azure/data-partitioning-strategies.md",
-      "redirect_url": "https://learn.microsoft.com/training/paths/create-microservices-with-dotnet",
-      "redirect_document_id": false
+      "redirect_url": "https://learn.microsoft.com/training/paths/create-microservices-with-dotnet"
     },
     {
       "source_path": "aspnet/aspnet/overview/developing-apps-with-windows-azure/building-real-world-cloud-apps-with-windows-azure/data-storage-options.md",
-      "redirect_url": "https://learn.microsoft.com/training/paths/create-microservices-with-dotnet",
-      "redirect_document_id": false
+      "redirect_url": "https://learn.microsoft.com/training/paths/create-microservices-with-dotnet"
     },
     {
       "source_path": "aspnet/aspnet/overview/developing-apps-with-windows-azure/building-real-world-cloud-apps-with-windows-azure/design-to-survive-failures.md",
-      "redirect_url": "https://learn.microsoft.com/training/paths/create-microservices-with-dotnet",
-      "redirect_document_id": false
+      "redirect_url": "https://learn.microsoft.com/training/paths/create-microservices-with-dotnet"
     },
     {
       "source_path": "aspnet/aspnet/overview/developing-apps-with-windows-azure/building-real-world-cloud-apps-with-windows-azure/distributed-caching.md",
-      "redirect_url": "https://learn.microsoft.com/training/paths/create-microservices-with-dotnet",
-      "redirect_document_id": false
+      "redirect_url": "https://learn.microsoft.com/training/paths/create-microservices-with-dotnet"
     },
     {
       "source_path": "aspnet/aspnet/overview/developing-apps-with-windows-azure/building-real-world-cloud-apps-with-windows-azure/index.md",
-      "redirect_url": "https://learn.microsoft.com/training/paths/create-microservices-with-dotnet",
-      "redirect_document_id": false
+      "redirect_url": "https://learn.microsoft.com/training/paths/create-microservices-with-dotnet"
     },
     {
       "source_path": "aspnet/aspnet/overview/developing-apps-with-windows-azure/building-real-world-cloud-apps-with-windows-azure/introduction.md",
-      "redirect_url": "https://learn.microsoft.com/training/paths/create-microservices-with-dotnet",
-      "redirect_document_id": false
+      "redirect_url": "https://learn.microsoft.com/training/paths/create-microservices-with-dotnet"
     },
     {
       "source_path": "aspnet/aspnet/overview/developing-apps-with-windows-azure/building-real-world-cloud-apps-with-windows-azure/monitoring-and-telemetry.md",
-      "redirect_url": "https://learn.microsoft.com/training/paths/create-microservices-with-dotnet",
-      "redirect_document_id": false
+      "redirect_url": "https://learn.microsoft.com/training/paths/create-microservices-with-dotnet"
     },
     {
       "source_path": "aspnet/aspnet/overview/developing-apps-with-windows-azure/building-real-world-cloud-apps-with-windows-azure/more-patterns-and-guidance.md",
-      "redirect_url": "https://learn.microsoft.com/training/paths/create-microservices-with-dotnet",
-      "redirect_document_id": false
+      "redirect_url": "https://learn.microsoft.com/training/paths/create-microservices-with-dotnet"
     },
     {
       "source_path": "aspnet/aspnet/overview/developing-apps-with-windows-azure/building-real-world-cloud-apps-with-windows-azure/queue-centric-work-pattern.md",
-      "redirect_url": "https://learn.microsoft.com/training/paths/create-microservices-with-dotnet",
-      "redirect_document_id": false
+      "redirect_url": "https://learn.microsoft.com/training/paths/create-microservices-with-dotnet"
     },
     {
       "source_path": "aspnet/aspnet/overview/developing-apps-with-windows-azure/building-real-world-cloud-apps-with-windows-azure/single-sign-on.md",
-      "redirect_url": "https://learn.microsoft.com/training/paths/create-microservices-with-dotnet",
-      "redirect_document_id": false
+      "redirect_url": "https://learn.microsoft.com/training/paths/create-microservices-with-dotnet"
     },
     {
       "source_path": "aspnet/aspnet/overview/developing-apps-with-windows-azure/building-real-world-cloud-apps-with-windows-azure/source-control.md",
-      "redirect_url": "https://learn.microsoft.com/training/paths/create-microservices-with-dotnet",
-      "redirect_document_id": false
+      "redirect_url": "https://learn.microsoft.com/training/paths/create-microservices-with-dotnet"
     },
     {
       "source_path": "aspnet/aspnet/overview/developing-apps-with-windows-azure/building-real-world-cloud-apps-with-windows-azure/the-fix-it-sample-application.md",
-      "redirect_url": "https://learn.microsoft.com/training/paths/create-microservices-with-dotnet",
-      "redirect_document_id": false
+      "redirect_url": "https://learn.microsoft.com/training/paths/create-microservices-with-dotnet"
     },
     {
       "source_path": "aspnet/aspnet/overview/developing-apps-with-windows-azure/building-real-world-cloud-apps-with-windows-azure/transient-fault-handling.md",
-      "redirect_url": "https://learn.microsoft.com/training/paths/create-microservices-with-dotnet",
-      "redirect_document_id": false
+      "redirect_url": "https://learn.microsoft.com/training/paths/create-microservices-with-dotnet"
     },
     {
       "source_path": "aspnet/aspnet/overview/developing-apps-with-windows-azure/building-real-world-cloud-apps-with-windows-azure/unstructured-blob-storage.md",
-      "redirect_url": "https://learn.microsoft.com/training/paths/create-microservices-with-dotnet",
-      "redirect_document_id": false
+      "redirect_url": "https://learn.microsoft.com/training/paths/create-microservices-with-dotnet"
     },
     {
       "source_path": "aspnet/aspnet/overview/developing-apps-with-windows-azure/building-real-world-cloud-apps-with-windows-azure/web-development-best-practices.md",
-      "redirect_url": "https://learn.microsoft.com/training/paths/create-microservices-with-dotnet",
-      "redirect_document_id": false
+      "redirect_url": "https://learn.microsoft.com/training/paths/create-microservices-with-dotnet"
     },
     {
       "source_path": "aspnet/web-forms/overview/older-versions-security/introduction/forms-authentication-configuration-and-advanced-topics-vb.md",
-      "redirect_url": "https://docs.microsoft.com/troubleshoot/aspnet/forms-based-authentication",
-      "redirect_document_id": false
+      "redirect_url": "https://docs.microsoft.com/troubleshoot/aspnet/forms-based-authentication"
     },
     {
       "source_path": "aspnet/web-forms/overview/older-versions-security/introduction/forms-authentication-configuration-and-advanced-topics-cs.md",
-      "redirect_url": "https://docs.microsoft.com/troubleshoot/aspnet/forms-based-authentication",
-      "redirect_document_id": false
+      "redirect_url": "https://docs.microsoft.com/troubleshoot/aspnet/forms-based-authentication"
     },
     {
       "source_path": "aspnet/web-forms/overview/older-versions-getting-started/deploying-web-site-projects/configuring-the-production-web-application-to-use-the-production-database-vb.md",
-      "redirect_url": "aspnet/web-forms/overview/deployment/visual-studio-web-deployment/deploying-to-production",
-      "redirect_document_id": false
+      "redirect_url": "aspnet/web-forms/overview/deployment/visual-studio-web-deployment/deploying-to-production"
     },
     {
       "source_path": "aspnet/web-forms/overview/older-versions-getting-started/deploying-web-site-projects/configuring-the-production-web-application-to-use-the-production-database-cs.md",
-      "redirect_url": "aspnet/web-forms/overview/deployment/visual-studio-web-deployment/deploying-to-production",
-      "redirect_document_id": false
+      "redirect_url": "aspnet/web-forms/overview/deployment/visual-studio-web-deployment/deploying-to-production"
     },
     {
       "source_path": "aspnet/aspnet/overview/owin-and-katana/owin-oauth-20-authorization-server.md",
-      "redirect_url": "/aspnet/aspnet/overview/owin-and-katana/",
-      "redirect_document_id": false
+      "redirect_url": "/aspnet/aspnet/overview/owin-and-katana/"
     },
     {
       "source_path": "aspnet/index.md",
-      "redirect_url": "https://docs.microsoft.com/aspnet/core/",
-      "redirect_document_id": false
+      "redirect_url": "https://docs.microsoft.com/aspnet/core/"
     },
     {
       "source_path": "aspnet/aspnet/index.md",
-      "redirect_url": "/aspnet/overview",
-      "redirect_document_id": false
+      "redirect_url": "/aspnet/overview"
     },
     {
       "source_path": "aspnet/mvc/videos/mvc-1/aspnet-mvc-storefront/aspnet-mvc-mvc-storefront-part-19-processing-orders-with-windows-workflow.md",
-      "redirect_url": "/aspnet/mvc/videos/mvc-1/aspnet-mvc-storefront/aspnet-mvc-storefront-part-19-processing-orders-with-windows-workflow",
-      "redirect_document_id": false
+      "redirect_url": "/aspnet/mvc/videos/mvc-1/aspnet-mvc-storefront/aspnet-mvc-storefront-part-19-processing-orders-with-windows-workflow"
     },
     {
       "source_path": "aspnet/mvc/mvc5.md",
-      "redirect_url": "/aspnet/mvc/overview/getting-started/introduction/getting-started",
-      "redirect_document_id": false
+      "redirect_url": "/aspnet/mvc/overview/getting-started/introduction/getting-started"
     },
     {
       "source_path": "aspnet/mobile/index.md",
-      "redirect_url": "/aspnet/mobile/overview",
-      "redirect_document_id": false
+      "redirect_url": "/aspnet/mobile/overview"
     },
     {
       "source_path": "aspnet/mobile/device-simulators.md",
-      "redirect_url": "/aspnet/mobile/overview",
-      "redirect_document_id": false
+      "redirect_url": "/aspnet/mobile/overview"
     },
     {
       "source_path": "aspnet/mvc/overview/getting-started/introduction/sample/code-location.md",
-      "redirect_url": "/aspnet/mvc/overview/getting-started/introduction/index",
-      "redirect_document_id": false
+      "redirect_url": "/aspnet/mvc/overview/getting-started/introduction/index"
     },
     {
       "source_path": "aspnet/aspnet/overview/aspnet-and-mobile/aspnet-and-mobile.md",
-      "redirect_url": "https://channel9.msdn.com/Blogs/ASP-NET-Site-Videos/aspnet-and-mobile",
-      "redirect_document_id": false
+      "redirect_url": "https://channel9.msdn.com/Blogs/ASP-NET-Site-Videos/aspnet-and-mobile"
     },
     {
       "source_path": "aspnet/aspnet/overview/aspnet-and-mobile/index.md",
-      "redirect_url": "/aspnet/overview#mobile-apps-and-sites",
-      "redirect_document_id": false
+      "redirect_url": "/aspnet/overview#mobile-apps-and-sites"
     },
     {
       "source_path": "aspnet/aspnet/overview/building-web-apis-with-aspnet/index.md",
-      "redirect_url": "/aspnet/overview#web-apis",
-      "redirect_document_id": false
+      "redirect_url": "/aspnet/overview#web-apis"
     },
     {
       "source_path": "aspnet/aspnet/overview/building-web-apis-with-aspnet/services-and-aspnet.md",
-      "redirect_url": "https://channel9.msdn.com/Blogs/ASP-NET-Site-Videos/services-and-aspnet",
-      "redirect_document_id": false
+      "redirect_url": "https://channel9.msdn.com/Blogs/ASP-NET-Site-Videos/services-and-aspnet"
     },
     {
       "source_path": "aspnet/aspnet/overview/developing-apps-with-windows-azure/index.md",
-      "redirect_url": "aspnet/overview/web-development-best-practices/",
-      "redirect_document_id": false
+      "redirect_url": "aspnet/overview/web-development-best-practices/"
     },
     {
       "source_path": "aspnet/aspnet/overview/index.md",
-      "redirect_url": "/aspnet/overview",
-      "redirect_document_id": false
+      "redirect_url": "/aspnet/overview"
     },
     {
       "source_path": "aspnet/aspnet/overview/making-websites-with-aspnet/index.md",
-      "redirect_url": "/aspnet/overview#websites-and-web-applications",
-      "redirect_document_id": false
+      "redirect_url": "/aspnet/overview#websites-and-web-applications"
     },
     {
       "source_path": "aspnet/aspnet/overview/making-websites-with-aspnet/installing-aspnet-and-web-tools.md",
-      "redirect_url": "https://channel9.msdn.com/Blogs/ASP-NET-Site-Videos/installing-aspnet-and-web-tools",
-      "redirect_document_id": false
+      "redirect_url": "https://channel9.msdn.com/Blogs/ASP-NET-Site-Videos/installing-aspnet-and-web-tools"
     },
     {
       "source_path": "aspnet/aspnet/overview/making-websites-with-aspnet/making-websites-with-aspnet.md",
-      "redirect_url": "https://channel9.msdn.com/Blogs/ASP-NET-Site-Videos/making-websites-with-aspnet",
-      "redirect_document_id": false
+      "redirect_url": "https://channel9.msdn.com/Blogs/ASP-NET-Site-Videos/making-websites-with-aspnet"
     },
     {
       "source_path": "aspnet/aspnet/overview/real-time-web-with-aspnet-signalr/index.md",
-      "redirect_url": "/aspnet/overview#real-time-technologies",
-      "redirect_document_id": false
+      "redirect_url": "/aspnet/overview#real-time-technologies"
     },
     {
       "source_path": "aspnet/aspnet/overview/real-time-web-with-aspnet-signalr/signalr-and-the-real-time-web.md",
-      "redirect_url": "https://channel9.msdn.com/Blogs/ASP-NET-Site-Videos/signalr-and-the-real-time-web)",
-      "redirect_document_id": false
+      "redirect_url": "https://channel9.msdn.com/Blogs/ASP-NET-Site-Videos/signalr-and-the-real-time-web)"
     },
     {
       "source_path": "aspnet/aspnet/overview/visual-studio-web-development-features/index.md",
-      "redirect_url": "/aspnet/visual-studio/",
-      "redirect_document_id": false
+      "redirect_url": "/aspnet/visual-studio/"
     },
     {
       "source_path": "aspnet/aspnet/overview/visual-studio-web-development-features/what-is-web-tools.md",
-      "redirect_url": "https://channel9.msdn.com/Blogs/ASP-NET-Site-Videos/what-is-web-tools",
-      "redirect_document_id": false
+      "redirect_url": "https://channel9.msdn.com/Blogs/ASP-NET-Site-Videos/what-is-web-tools"
     },
     {
       "source_path": "aspnet/mvc/overview/getting-started/aspnet-mvc-facebook-birthday-app.md",
-      "redirect_url": "/aspnet/mvc/overview/getting-started/",
-      "redirect_document_id": false
+      "redirect_url": "/aspnet/mvc/overview/getting-started/"
     },
     {
       "source_path": "aspnet/visual-studio/overview/index.md",
-      "redirect_url": "https://visualstudio.microsoft.com/",
-      "redirect_document_id": false
+      "redirect_url": "https://visualstudio.microsoft.com/"
     },
     {
       "source_path": "aspnet/webhooks/sending/index.md",
-      "redirect_url": "/webhooks/sending/senders",
-      "redirect_document_id": false
+      "redirect_url": "/webhooks/sending/senders"
+    },
+    {
+      "source_path": "aspnet/web-forms/videos/ajax-control-toolkit/how-do-i-configure-the-aspnet-ajax-calendar-control.md",
+      "redirect_url": "/aspnet/web-forms/videos/"
     },
     {
       "source_path": "aspnet/web-forms/overview/older-versions-security/membership/creating-the-membership-schema-in-sql-server-cs.md",

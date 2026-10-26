@@ -745,7 +745,6 @@ msc.type: categoryindex
         - [Get Started with the ASP.NET AJAX Animation Extender Control](videos/ajax-control-toolkit/how-do-i-get-started-with-the-aspnet-ajax-animation-extender-control.md)
         - [ASP.NET AJAX ConfirmButton Extender](videos/ajax-control-toolkit/how-do-i-use-the-aspnet-ajax-confirmbutton-extender.md)
         - [ASP.NET AJAX Slider Control](videos/ajax-control-toolkit/how-do-i-use-the-aspnet-ajax-slider-control.md)
-        - [Configure the ASP.NET AJAX Calendar Control](videos/ajax-control-toolkit/how-do-i-configure-the-aspnet-ajax-calendar-control.md)
         - [ASP.NET AJAX DropDown Control](videos/ajax-control-toolkit/how-do-i-use-the-aspnet-ajax-dropdown-control.md)
         - [ASP.NET AJAX MaskedEdit Controls](videos/ajax-control-toolkit/how-do-i-use-the-aspnet-ajax-maskededit-controls.md)
         - [ASP.NET AJAX MutuallyExclusive Checkbox Extender](videos/ajax-control-toolkit/how-do-i-use-the-aspnet-ajax-mutuallyexclusive-checkbox-extender.md)
