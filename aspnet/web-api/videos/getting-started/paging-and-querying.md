@@ -16,5 +16,5 @@ by [Jon Galloway](https://github.com/jongalloway)
 > [!NOTE]
 > This video contains information from a pre-release version of ASP.NET Web API.
 
-[&#9654; Watch video (5 minutes)](https://learn.microsoft.com/en-us/shows/asp-net-site-videos/paging-querying)
+[&#9654; Watch video (5 minutes)](https://learn.microsoft.comshows/asp-net-site-videos/paging-querying)
 

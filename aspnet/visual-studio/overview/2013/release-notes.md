@@ -127,8 +127,8 @@ In Visual Studio 2013 with the Azure SDK for .NET 2.2, you can use **Server Expl
 
 For more information, see the following resources:
 
-- [Create an ASP.NET web app in Azure App Service](https://learn.microsoft.com/azure/app-service/quickstart-dotnetcore?tabs=netframework48)
-- [Enable diagnostic logging for apps in Azure App Service](https://learn.microsoft.com/azure/app-service/troubleshoot-diagnostic-logs)
+- [Create an ASP.NET web app in Azure App Service](/azure/app-service/quickstart-dotnetcore?tabs=netframework48)
+- [Enable diagnostic logging for apps in Azure App Service](/azure/app-service/troubleshoot-diagnostic-logs)
 
 <a id="publish"></a>
 ## Web Publish Enhancements

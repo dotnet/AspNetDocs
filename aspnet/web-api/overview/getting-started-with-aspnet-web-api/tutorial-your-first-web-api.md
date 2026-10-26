@@ -18,7 +18,7 @@ In this tutorial, you will use ASP.NET Web API to create a web API that returns 
 
 HTTP is not just for serving up web pages. HTTP is also a powerful platform for building APIs that expose services and data. HTTP is simple, flexible, and ubiquitous. Almost any platform that you can think of has an HTTP library, so HTTP services can reach a broad range of clients, including browsers, mobile devices, and traditional desktop applications.
 
-ASP.NET Web API is a framework for building web APIs on top of the .NET Framework. 
+ASP.NET Web API is a framework for building web APIs on top of the .NET Framework.
 
 ## Software versions used in the tutorial
 
@@ -181,5 +181,5 @@ You need an Azure account to deploy this solution to Azure. If you do not alread
 
 - For a more complete example of an HTTP service that supports POST, PUT, and DELETE actions and writes to a database, see [Using Web API 2 with Entity Framework 6](../data/using-web-api-with-entity-framework/part-1.md).
 - For more about creating fluid and responsive web applications on top of an HTTP service, see [ASP.NET Single Page Application](../../../single-page-application/index.md).
-- For information about how to deploy a Visual Studio web project to Azure App Service, see [Create an ASP.NET web app in Azure App Service](https://learn.microsoft.com/azure/app-service/quickstart-dotnetcore?tabs=netframework48).
+- For information about how to deploy a Visual Studio web project to Azure App Service, see [Create an ASP.NET web app in Azure App Service](/azure/app-service/quickstart-dotnetcore?tabs=netframework48).
 
