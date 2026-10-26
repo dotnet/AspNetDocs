@@ -159,7 +159,7 @@ With the above code addition, the sort group headers are now present when sortin
 
 ## Summary
 
-The GridView does not include many built-in options for customizing the sorting interface. However, with a bit of low-level code, it s possible to tweak the GridView s control hierarchy to create a more customized interface. In this tutorial we saw how to add a sort group separator row for a sortable GridView, which more easily identifies the distinct groups and those groups boundaries. For additional examples of customized sorting interfaces, check out [Scott Guthrie](https://weblogs.asp.net/scottgu/) s [A Few ASP.NET 2.0 GridView Sorting Tips and Tricks](https://weblogs.asp.net/scottgu/archive/2006/02/11/437995.aspx) blog entry.
+The GridView does not include many built-in options for customizing the sorting interface. However, with a bit of low-level code, it s possible to tweak the GridView s control hierarchy to create a more customized interface. In this tutorial we saw how to add a sort group separator row for a sortable GridView, which more easily identifies the distinct groups and those groups boundaries.
 
 Happy Programming!
 
@@ -169,4 +169,3 @@ Scott Mitchell, author of seven ASP/ASP.NET books and founder of 4GuysFromRolla.
 
 > [!div class="step-by-step"]
 > [Previous](sorting-custom-paged-data-vb.md)
-

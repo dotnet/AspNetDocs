@@ -27,7 +27,7 @@ The SQL commands executed by the TableAdapters can be either ad-hoc SQL statemen
 When defining a TableAdapter or adding new methods, the TableAdapter s wizard makes it just as easy to create new stored procedures or use existing stored procedures as it does to use ad-hoc SQL statements. In this tutorial we'll examine how to have the TableAdapter s wizard auto-generate stored procedures. In the next tutorial we will look at how to configure the TableAdapter s methods to use existing or manually-created stored procedures.
 
 > [!NOTE]
-> See Rob Howard's blog entry [Don t Use Stored Procedures Yet?](http://grokable.com/2003/11/dont-use-stored-procedures-yet-must-be-suffering-from-nihs-not-invented-here-syndrome/) and [Frans Bouma](https://weblogs.asp.net/fbouma/) s blog entry [Stored Procedures are Bad, M Kay?](https://weblogs.asp.net/fbouma/archive/2003/11/18/38178.aspx) for a lively debate on the pros and cons of stored procedures and ad-hoc SQL.
+> See Rob Howard's blog entry [Don t Use Stored Procedures Yet?](http://grokable.com/2003/11/dont-use-stored-procedures-yet-must-be-suffering-from-nihs-not-invented-here-syndrome/) and [Frans Bouma](https://weblogs.asp.net/fbouma/) s blog entry [Stored Procedures are Bad, M Kay?](https://weblogs.asp.net/fbouma/38178/) for a lively debate on the pros and cons of stored procedures and ad-hoc SQL.
 
 ## Stored Procedure Basics
 

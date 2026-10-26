@@ -99,10 +99,10 @@ This is not a challenge if there is already a column in the database table that 
 There are two general techniques used to efficiently associate a row index with the data to page through, thereby enabling the precise subset of records to be retrieved:
 
 - **Using SQL Server 2005 s `ROW_NUMBER()` Keyword** new to SQL Server 2005, the `ROW_NUMBER()` keyword associates a ranking with each returned record based on some ordering. This ranking can be used as a row index for each row.
-- **Using a Table Variable and `SET ROWCOUNT`** SQL Server s [`SET ROWCOUNT` statement](https://msdn.microsoft.com/library/ms188774.aspx) can be used to specify how many total records a query should process before terminating; [table variables](http://www.sqlteam.com/item.asp?ItemID=9454) are local T-SQL variables that can hold tabular data, akin to [temporary tables](http://www.sqlteam.com/item.asp?ItemID=2029). This approach works equally well with both Microsoft SQL Server 2005 and SQL Server 2000 (whereas the `ROW_NUMBER()` approach only works with SQL Server 2005).  
-  
-  The idea here is to create a table variable that has an `IDENTITY` column and columns for the primary keys of the table whose data is being paged through. Next, the contents of the table whose data is being paged through is dumped into the table variable, thereby associating a sequential row index (via the `IDENTITY` column) for each record in the table. Once the table variable has been populated, a `SELECT` statement on the table variable, joined with the underlying table, can be executed to pull out the particular records. The `SET ROWCOUNT` statement is used to intelligently limit the number of records that need to be dumped into the table variable.  
-  
+- **Using a Table Variable and `SET ROWCOUNT`** SQL Server s [`SET ROWCOUNT` statement](https://msdn.microsoft.com/library/ms188774.aspx) can be used to specify how many total records a query should process before terminating; [table variables](http://www.sqlteam.com/item.asp?ItemID=9454) are local T-SQL variables that can hold tabular data, akin to [temporary tables](http://www.sqlteam.com/item.asp?ItemID=2029). This approach works equally well with both Microsoft SQL Server 2005 and SQL Server 2000 (whereas the `ROW_NUMBER()` approach only works with SQL Server 2005).
+
+  The idea here is to create a table variable that has an `IDENTITY` column and columns for the primary keys of the table whose data is being paged through. Next, the contents of the table whose data is being paged through is dumped into the table variable, thereby associating a sequential row index (via the `IDENTITY` column) for each record in the table. Once the table variable has been populated, a `SELECT` statement on the table variable, joined with the underlying table, can be executed to pull out the particular records. The `SET ROWCOUNT` statement is used to intelligently limit the number of records that need to be dumped into the table variable.
+
   This approach s efficiency is based on the page number being requested, as the `SET ROWCOUNT` value is assigned the value of Start Row Index plus the Maximum Rows. When paging through low-numbered pages such as the first few pages of data this approach is very efficient. However, it exhibits default paging-like performance when retrieving a page near the end.
 
 This tutorial implements custom paging using the `ROW_NUMBER()` keyword. For more information on using the table variable and `SET ROWCOUNT` technique, see [Efficiently Paging Through Large Amounts of Data](/aspnet/web-forms/overview/data-access/paging-and-sorting/efficiently-paging-through-large-amounts-of-data-cs).
@@ -124,7 +124,7 @@ Figure 5 shows this query s results when run through the query window in Visual 
 > [!NOTE]
 > `ROW_NUMBER()` is just one of the many new ranking functions available in SQL Server 2005. For a more thorough discussion of `ROW_NUMBER()`, along with the other ranking functions, read [Returning Ranked Results with Microsoft SQL Server 2005](https://www.cnblogs.com/tracy/archive/2010/07/22/1783145.html).
 
-When ranking the results by the specified `ORDER BY` column in the `OVER` clause (`UnitPrice`, in the above example), SQL Server must sort the results. This is a quick operation if there is a clustered index over the column(s) the results are being ordered by, or if there is a covering index, but can be more costly otherwise. To help improve performance for sufficiently large queries, consider adding a non-clustered index for the column by which the results are ordered by. See [Ranking Functions and Performance in SQL Server 2005](http://www.sql-server-performance.com/ak_ranking_functions.asp) for a more detailed look at the performance considerations.
+When ranking the results by the specified `ORDER BY` column in the `OVER` clause (`UnitPrice`, in the above example), SQL Server must sort the results. This is a quick operation if there is a clustered index over the column(s) the results are being ordered by, or if there is a covering index, but can be more costly otherwise. To help improve performance for sufficiently large queries, consider adding a non-clustered index for the column by which the results are ordered by.
 
 The ranking information returned by `ROW_NUMBER()` cannot directly be used in the `WHERE` clause. However, a derived table can be used to return the `ROW_NUMBER()` result, which can then appear in the `WHERE` clause. For example, the following query uses a derived table to return the ProductName and UnitPrice columns, along with the `ROW_NUMBER()` result, and then uses a `WHERE` clause to only return those products whose price rank is between 11 and 20:
 
@@ -299,7 +299,7 @@ An article of mine, "Custom Paging in ASP.NET 2.0 with SQL Server 2005," contain
 | **Default Paging ASP.NET Trace** | 2.379 | *N/A* |
 | **Custom Paging ASP.NET Trace** | 0.029 | *N/A* |
 
-As you can see, retrieving a particular page of data required 354 less reads on average and completed in a fraction of the time. At the ASP.NET page, custom the page was able to render in close to 1/100<sup>th</sup> of the time it took when using default paging. 
+As you can see, retrieving a particular page of data required 354 less reads on average and completed in a fraction of the time. At the ASP.NET page, custom the page was able to render in close to 1/100<sup>th</sup> of the time it took when using default paging.
 
 ## Summary
 

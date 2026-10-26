@@ -203,7 +203,6 @@ Happy Programming!
 For more information on the topics discussed in this tutorial, refer to the following resources:
 
 - [SqlDataSource Control Overview](https://msdn.microsoft.com/library/dz12d98w.aspx)
-- [ASP.NET Quickstart Tutorials: The SqlDataSource Control](https://quickstarts.asp.net/QuickStartv20/aspnet/doc/ctrlref/data/sqldatasource.aspx)
 - [The Web.config `<connectionStrings>` Element](https://msdn.microsoft.com/library/bf7sd233.aspx)
 - [Database Connection String Reference](http://www.connectionstrings.com/)
 
@@ -217,4 +216,3 @@ This tutorial series was reviewed by many helpful reviewers. Lead reviewers for 
 
 > [!div class="step-by-step"]
 > [Next](using-parameterized-queries-with-the-sqldatasource-cs.md)
-

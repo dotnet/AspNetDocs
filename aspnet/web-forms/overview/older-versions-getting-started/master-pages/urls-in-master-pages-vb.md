@@ -148,7 +148,6 @@ Happy Programming!
 For more information on the topics discussed in this tutorial, refer to the following resources:
 
 - [Master Pages in ASP.NET](http://www.odetocode.com/Articles/419.aspx)
-- [URL Rebasing in a Master Page](https://quickstarts.asp.net/QuickStartv20/aspnet/doc/masterpages/default.aspx#urls)
 
 ### About the Author
 

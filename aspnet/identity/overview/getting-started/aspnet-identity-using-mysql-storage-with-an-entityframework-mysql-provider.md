@@ -29,7 +29,7 @@ At the end of this tutorial, you will have an MVC application with the ASP.NET I
 
 ## Creating a MySQL database instance on Azure
 
-1. Log in to the [Azure Portal](https://go.microsoft.com/fwlink/?linkid=529715&amp;clcid=0x409).
+1. Log in to the [Azure Portal](https://portal.azure.com/).
 2. Click **NEW** at the bottom of the page, and then select **STORE**:
 
     [![Screenshot of the Azure Portal menu with the Store menu item highlighted at bottom and outlined with a red rectangle.](aspnet-identity-using-mysql-storage-with-an-entityframework-mysql-provider/_static/image2.png)](aspnet-identity-using-mysql-storage-with-an-entityframework-mysql-provider/_static/image1.png)

@@ -241,7 +241,7 @@ After entering the new password, confirming it in the second TextBox, and clicki
 **Figure 9**: An Administrator May Change a User's Password  ([Click to view full-size image](recovering-and-changing-passwords-vb/_static/image27.png))
 
 > [!NOTE]
-> The `UserInformation.aspx` page currently only works if the Membership framework is configured to store passwords in Clear or Hashed format. It lacks the code to encrypt the new password, although you are invited to add this functionality. The way I recommend adding the necessary code is to use a decompiler like [Reflector](http://www.aisto.com/roeder/dotnet/) to examine the source code for methods in the .NET Framework; start by examining the `SqlMembershipProvider` class's `ChangePassword` method. This is the technique I used to write the code for creating a hash of the password.
+> The `UserInformation.aspx` page currently only works if the Membership framework is configured to store passwords in Clear or Hashed format. It lacks the code to encrypt the new password, although you are invited to add this functionality. The way I recommend adding the necessary code is to use a decompiler to examine the source code for methods in .NET Framework; start by examining the `SqlMembershipProvider` class's `ChangePassword` method. This is the technique I used to write the code for creating a hash of the password.
 
 ## Summary
 
@@ -255,8 +255,6 @@ Happy Programming!
 
 For more information on the topics discussed in this tutorial, refer to the following resources:
 
-- [ChangePassword Control QuickStarts](https://quickstarts.asp.net/QuickStartv20/aspnet/doc/ctrlref/login/changepassword.aspx)
-- [PasswordRecovery Control QuickStarts](https://quickstarts.asp.net/QuickStartv20/aspnet/doc/ctrlref/login/passwordrecovery.aspx)
 - [Sending Email in ASP.NET](/aspnet/web-pages/overview/getting-started/11-adding-email-to-your-web-site)
 - [`System.Net.Mail` FAQs](/dotnet/api/system.net.mail.mailmessage?view=net-8.0)
 

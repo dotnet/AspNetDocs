@@ -214,7 +214,7 @@ If new user accounts are only created through a typical Create Account web page,
 
 ## Step 6: Creating a New User with the CreateUserWizard Control
 
-ASP.NET ships with a number of Login Web controls. These controls aid in many common user account- and login-related scenarios. The [CreateUserWizard control](https://quickstarts.asp.net/QuickStartv20/aspnet/doc/ctrlref/login/createuserwizard.aspx) is one such control that is designed to present a user interface for adding a new user account to the Membership framework.
+ASP.NET ships with a number of Login Web controls. These controls aid in many common user account- and login-related scenarios. The CreateUserWizard control is one such control that is designed to present a user interface for adding a new user account to the Membership framework.
 
 Like many of the other Login-related Web controls, the CreateUserWizard can be used without writing a single line of code. It intuitively provides a user interface based on the Membership provider's configuration settings and internally calls the `Membership` class's `CreateUser` method after the user enters the necessary information and clicks the Create User button. The CreateUserWizard control is extremely customizable. There are a host of events that fire during various stages of the account creation process. We can create event handlers, as needed, to inject custom logic into the account creation workflow. Furthermore, the CreateUserWizard's appearance is very flexible. There are a number of properties that define the appearance of the default interface; if necessary, the control can be converted into a template or additional user registration steps may be added.
 
@@ -327,7 +327,6 @@ Happy Programming!
 For more information on the topics discussed in this tutorial, refer to the following resources:
 
 - [`CreateUser` Technical Documentation](https://msdn.microsoft.com/library/system.web.security.membershipprovider.createuser.aspx)
-- [CreateUserWizard Control Overview](https://quickstarts.asp.net/QuickStartv20/aspnet/doc/ctrlref/login/createuserwizard.aspx)
 - [Creating a File System-Based Site Map Provider](/previous-versions/aspnet/w6ws38fw(v=vs.100))
 - [Creating a Step-by-Step User Interface with the ASP.NET 2.0 Wizard Control](/archive/msdn-magazine/2004/november/cutting-edge-the-asp-net-2-0-wizard-control)
 - [Examining ASP.NET 2.0's Site Navigation](/aspnet/web-forms/overview/data-access/introduction/master-pages-and-site-navigation-vb)

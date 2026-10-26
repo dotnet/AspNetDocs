@@ -85,7 +85,7 @@ The provider's `connectionStringName` attribute specifies the role store that is
 
 Consequently, if we simply enable the Roles framework without specifying any provider information in our application's `Web.config` file, the application uses the default registered Roles provider, `AspNetSqlRoleProvider`. If the `~/App_Data/aspnet.mdf` database does not exist, the ASP.NET runtime will automatically create it and add the application services schema. However, we don't want to use the `aspnet.mdf` database; rather, we want to use the `SecurityTutorials.mdf` database that we have already created and added the application services schema to. This modification can be accomplished in one of two ways:
 
-- <strong>Specify a value for the</strong><strong>`LocalSqlServer`</strong><strong>connection string name in</strong><strong>`Web.config`</strong><strong>.</strong> By overwriting the `LocalSqlServer` connection string name value in `Web.config`, we can use the default registered Roles provider (`AspNetSqlRoleProvider`) and have it correctly work with the `SecurityTutorials.mdf` database. For more information on this technique, see [Scott Guthrie](https://weblogs.asp.net/scottgu/)'s blog post, [Configuring ASP.NET 2.0 Application Services to Use SQL Server 2000 or SQL Server 2005](https://weblogs.asp.net/scottgu/archive/2005/08/25/423703.aspx).
+- <strong>Specify a value for the</strong><strong>`LocalSqlServer`</strong><strong>connection string name in</strong><strong>`Web.config`</strong><strong>.</strong> By overwriting the `LocalSqlServer` connection string name value in `Web.config`, we can use the default registered Roles provider (`AspNetSqlRoleProvider`) and have it correctly work with the `SecurityTutorials.mdf` database. For more information on this technique, see Scott Guthrie's blog post, [Configuring ASP.NET 2.0 Application Services to Use SQL Server 2000 or SQL Server 2005](https://weblogs.asp.net/scottgu/423703).
 - <strong>Add a new registered provider of type</strong><strong>`SqlRoleProvider`</strong><strong>and configure its</strong><strong>`connectionStringName`</strong><strong>setting to point to the</strong><strong>`SecurityTutorials.mdf`</strong><strong>database.</strong> This is the approach I will use in this tutorial.
 
 Add the following Roles configuration markup to the `Web.config` file. This markup registers a new provider named `SecurityTutorialsSqlRoleProvider.`
@@ -231,7 +231,6 @@ For more information on the topics discussed in this tutorial, refer to the foll
 - [How To: Use Role Manager in ASP.NET 2.0](https://msdn.microsoft.com/library/ms998314.aspx)
 - [Role Providers](https://msdn.microsoft.com/library/aa478950.aspx)
 - [Technical documentation for the `<roleManager>` Element](https://msdn.microsoft.com/library/ms164660.aspx)
-- [Using the Membership and Role Manager APIs](https://quickstarts.asp.net/QuickStartv20/aspnet/doc/security/membership.aspx)
 
 ### About the Author
 

@@ -21,9 +21,7 @@ Visual Studio 2010 includes a wizard that upgrades existing ASP.NET MVC 1.0 proj
 
 ## Upgrade Wizard for ASP.NET MVC 1.0 on Visual Studio 2008 SP1
 
-To upgrade an ASP.NET MVC 1.0 application to ASP.NET MVC 2 in Visual Studio 2008 SP1, use the (unsupported) MvcAppConverter application. You can download this application from the following URL:
-
-[https://go.microsoft.com/fwlink/?LinkID=185351](https://go.microsoft.com/fwlink/?LinkID=185351)
+The unsupported MvcAppConverter download is no longer available. To upgrade an ASP.NET MVC 1.0 application to ASP.NET MVC 2 in Visual Studio 2008 SP1, follow the [manual upgrade steps](#manually-upgrading-an-aspnet-mvc-10-project).
 
 ## Manually Upgrading an ASP.NET MVC 1.0 Project
 

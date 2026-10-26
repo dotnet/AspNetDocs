@@ -235,7 +235,7 @@ You have now deployed your application to IIS on your development computer and t
 For information about running IIS or IIS Express in Visual Studio, see the following resources:
 
 - [IIS Express Overview](https://www.iis.net/learn/extensions/introduction-to-iis-express/iis-express-overview) on the IIS.net site.
-- [Introducing IIS Express](https://weblogs.asp.net/scottgu/archive/2010/06/28/introducing-iis-express.aspx) on Scott Guthrie's blog.
+- [Introducing IIS Express](https://weblogs.asp.net/scottgu/introducing-iis-express/) on Scott Guthrie's blog.
 - [How to: Specify the Web Server for Web Projects in Visual Studio](https://msdn.microsoft.com/library/ms178108.aspx).
 - [Core Differences Between IIS and the ASP.NET Development Server](../deploying-web-site-projects/core-differences-between-iis-and-the-asp-net-development-server-cs.md) on the ASP.NET site.
 - [Test your ASP.NET MVC or Web Forms Application on IIS 7 in 30 seconds](/archive/blogs/rickandy/test-your-asp-net-mvc-or-webforms-application-on-iis-7-in-30-seconds) on Rick Anderson's blog. This entry provides examples of why testing with the Visual Studio Development Server (Cassini) is not as reliable as testing in IIS Express, and why testing in IIS Express is not as reliable as testing in IIS.

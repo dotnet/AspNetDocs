@@ -95,15 +95,3 @@ WebHooks is a lightweight HTTP pattern providing a simple pub/sub model for wiri
 WebHooks are exposed by a large number of services including Dropbox, GitHub, Instagram, MailChimp, PayPal, Slack, Trello, and many more. For example, a WebHook can indicate that a file has changed in Dropbox, or a code change has been committed in GitHub, or a payment has been initiated in PayPal, or a card has been created in Trello.
 
 [Learn more about WebHooks](webhooks/index.md)
-
-<!--
-Create Deployment TOC based on https://www.asp.net/aspnet/overview/deployment
-Copy deployment content map to MVC, WebForms, Web Pages, Web API sections.
-Copy Web Deployment in Enterprise from WebForms to MVC
-Move under ASP.NET Best practices
-	What not to do in ASP​.NET, and what to do instead https://review.docs.microsoft.cus/aspnet/aspnet/overview/web-development-best-practices/what-not-to-do-in-aspnet-and-what-to-do-instead
-	Async and await https://channel9.msdn.com/Blogs/ASP-NET-Site-Videos/async-and-await
-	Building Real World Cloud Apps with Azure https://review.learn.microsoft.com/aspnet/aspnet/overview/developing-apps-with-windows-azure/building-real-world-cloud-apps-with-windows-azure/introduction
-	Hands on Lab: Maintainable Azure Websites: Managing Change and Scale https://review.learn.microsoft.com/aspnet/aspnet/overview/developing-apps-with-windows-azure/maintainable-azure-websites-managing-change-and-scale
-
--->

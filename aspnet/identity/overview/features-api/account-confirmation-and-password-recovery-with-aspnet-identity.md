@@ -2,17 +2,13 @@
 uid: identity/overview/features-api/account-confirmation-and-password-recovery-with-aspnet-identity
 title: "Account Confirmation & Password Recovery - ASP.NET Identity (C#) - ASP.NET 4.x"
 author: HaoK
-description: "Before doing this tutorial you should first complete Create a secure ASP.NET MVC 5 web app with log in, email confirmation and password reset. This tutorial..."
-ms.author: tdykstra
+description: Learn how to implement email account confirmation and password recovery in an ASP.NET MVC app using ASP.NET Identity, C#, and SendGrid.
 ms.date: 01/23/2019
-ms.assetid: 8d54180d-f826-4df7-b503-7debf5ed9fb3
 msc.legacyurl: /identity/overview/features-api/account-confirmation-and-password-recovery-with-aspnet-identity
 msc.type: authoredcontent
 ms.custom: sfi-image-nochange
 ---
 # Account confirmation and password recovery with ASP.NET Identity (C#)
-
-> Before doing this tutorial you should first complete [Create a secure ASP.NET MVC 5 web app with log in, email confirmation and password reset](../../../mvc/overview/security/create-an-aspnet-mvc-5-web-app-with-email-confirmation-and-password-reset.md). This tutorial contains more details and will show you how to set up email for local account confirmation and allow users to reset their forgotten password in ASP.NET Identity.
 
 A local user account requires the user to create a password for the account, and that password is stored (securely) in the web app. ASP.NET Identity also supports social accounts, which don't require the user to create a password for the app. [Social accounts](../../../mvc/overview/security/create-an-aspnet-mvc-5-app-with-facebook-and-google-oauth2-and-openid-sign-on.md) use a third party (such as Google, Twitter, Facebook, or Microsoft) to authenticate users. This topic covers the following:
 
@@ -40,19 +36,19 @@ Selecting the link confirms the account.
 
 ## Password recovery/reset
 
-Local users who forget their password can have a security token sent to their email account, enabling them to reset their password.  
-  
-![Image of forgot password reset window](account-confirmation-and-password-recovery-with-aspnet-identity/_static/image5.png)  
-  
-The user will soon get an email with a link allowing them to reset their password.  
-  
-![Image showing reset password email](account-confirmation-and-password-recovery-with-aspnet-identity/_static/image6.png)  
-Selecting the link will take them to the Reset page.  
-  
-![Image showing user password reset window](account-confirmation-and-password-recovery-with-aspnet-identity/_static/image7.png)  
-  
-Selecting the **Reset** button will confirm the password has been reset.  
-  
+Local users who forget their password can have a security token sent to their email account, enabling them to reset their password.
+
+![Image of forgot password reset window](account-confirmation-and-password-recovery-with-aspnet-identity/_static/image5.png)
+
+The user will soon get an email with a link allowing them to reset their password.
+
+![Image showing reset password email](account-confirmation-and-password-recovery-with-aspnet-identity/_static/image6.png)
+Selecting the link will take them to the Reset page.
+
+![Image showing user password reset window](account-confirmation-and-password-recovery-with-aspnet-identity/_static/image7.png)
+
+Selecting the **Reset** button will confirm the password has been reset.
+
 ![Image showing password reset confirmation](account-confirmation-and-password-recovery-with-aspnet-identity/_static/image8.png)
 
 <a id="createMvc"></a>
@@ -69,10 +65,10 @@ Start by installing and running [Visual Studio 2017](https://visualstudio.micros
     The following image shows the `AspNetUsers` schema:
 
     ![Image showing A s p Net  Users schema](account-confirmation-and-password-recovery-with-aspnet-identity/_static/image9.png)
-5. Right-click on the **AspNetUsers** table and select **Show Table Data**.  
-  
-    ![Image showing table data](account-confirmation-and-password-recovery-with-aspnet-identity/_static/image10.png)  
-  
+5. Right-click on the **AspNetUsers** table and select **Show Table Data**.
+
+    ![Image showing table data](account-confirmation-and-password-recovery-with-aspnet-identity/_static/image10.png)
+
    At this point the email has not been confirmed.
 
 The default data store for ASP.NET Identity is Entity Framework, but you can configure it to use other data stores and to add additional fields. See [Additional Resources](#addRes) section at the end of this tutorial.
@@ -133,7 +129,7 @@ It's a good idea to confirm the email a new user register with to verify they ar
 In this section, you'll use NuGet to download a more complete sample we will work with.
 
 1. Create a new ***empty*** ASP.NET Web project.
-2. In the Package Manager Console, enter the following commands: 
+2. In the Package Manager Console, enter the following commands:
 
     [!code-console[Main](account-confirmation-and-password-recovery-with-aspnet-identity/samples/sample4.cmd)]
 
@@ -215,7 +211,7 @@ The following code shows the email confirmation method:
 
 [!code-csharp[Main](account-confirmation-and-password-recovery-with-aspnet-identity/samples/sample12.cs)]
 
- To make your app more secure, ASP.NET Identity supports Two-Factor authentication (2FA). See [ASP.NET Identity 2.0: Setting Up Account Validation and Two-Factor Authorization](http://typecastexception.com/post/2014/04/20/ASPNET-Identity-20-Setting-Up-Account-Validation-and-Two-Factor-Authorization.aspx) by John Atten. Although you can set account lockout on login password attempt failures, that approach makes your login susceptible to [DOS](http://en.wikipedia.org/wiki/Denial-of-service_attack) lockouts. We recommend you use account lockout only with 2FA.  
+ To make your app more secure, ASP.NET Identity supports Two-Factor authentication (2FA). See [ASP.NET Identity 2.0: Setting Up Account Validation and Two-Factor Authorization](http://typecastexception.com/post/2014/04/20/ASPNET-Identity-20-Setting-Up-Account-Validation-and-Two-Factor-Authorization.aspx) by John Atten. Although you can set account lockout on login password attempt failures, that approach makes your login susceptible to [DOS](http://en.wikipedia.org/wiki/Denial-of-service_attack) lockouts. We recommend you use account lockout only with 2FA.
 <a id="addRes"></a>
 
 ## Additional resources
@@ -225,4 +221,3 @@ The following code shows the email confirmation method:
 - [ASP.NET MVC and Identity 2.0: Understanding the Basics](http://typecastexception.com/post/2014/04/20/ASPNET-MVC-and-Identity-20-Understanding-the-Basics.aspx) by John Atten.
 - [Introduction to ASP.NET Identity](../getting-started/introduction-to-aspnet-identity.md)
 - [Announcing RTM of ASP.NET Identity 2.0.0](https://devblogs.microsoft.com/dotnet/announcing-rtm-of-asp-net-identity-2-0-0/) by Pranav Rastogi.
-

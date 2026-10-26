@@ -175,7 +175,7 @@ Enter the following code into the `SubmitButton_Click` event handler and then te
 [!code-vb[Main](control-id-naming-in-content-pages-vb/samples/sample13.vb)]
 
 > [!NOTE]
-> Because extension methods are new to C# 3.0 and Visual Basic 9, if you are using Visual Studio 2005 you cannot use extension methods. Instead, you'll need to implement the `FindControlRecursive` method in a helper class. [Rick Strahl](http://www.west-wind.com/WebLog/default.aspx) has such an example in his blog post, [ASP.NET Maser Pages and `FindControl`](http://www.west-wind.com/WebLog/posts/5127.aspx).
+> Because extension methods are new to C# 3.0 and Visual Basic 9, if you are using Visual Studio 2005 you cannot use extension methods. Instead, you'll need to implement the `FindControlRecursive` method in a helper class.
 
 ## Step 4: Using the Correct`id`Attribute Value in Client-Side Script
 
@@ -212,7 +212,6 @@ Happy Programming!
 
 For more information on the topics discussed in this tutorial, refer to the following resources:
 
-- [ASP.NET Master Pages and `FindControl`](http://www.west-wind.com/WebLog/posts/5127.aspx)
 - [Creating Dynamic Data Entry User Interfaces](https://msdn.microsoft.com/library/aa479330.aspx)
 - [How To: Reference ASP.NET Master Page Content](https://msdn.microsoft.com/library/xxwa0ff0.aspx)
 - [Mater Pages: Tips, Tricks, and Traps](http://www.odetocode.com/articles/450.aspx)

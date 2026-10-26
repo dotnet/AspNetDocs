@@ -46,7 +46,6 @@ msc.type: book
         - [Adding Business Logic Layer](presenting-and-managing-data/model-binding/adding-business-logic-layer.md)
 - [Security, Authentication, and Authorization](security/index.md)
 
-    - [Create a secure ASP.NET Web Forms app with user registration, email confirmation and password reset (C#)](security/create-a-secure-aspnet-web-forms-app-with-user-registration-email-confirmation-and-password-reset.md)
     - [Create an ASP.NET Web Forms app with SMS Two-Factor Authentication (C#)](security/create-an-aspnet-web-forms-app-with-sms-two-factor-authentication.md)
 - [Performance](performance-and-caching/index.md)
 

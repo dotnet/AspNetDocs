@@ -93,11 +93,11 @@ In the above code, the try block contains the code that needs to be guarded agai
 
 Before adding error handling to the Wingtip Toys sample application, you will add error logging support by adding an `ExceptionUtility` class to the *Logic* folder. By doing this, each time the application handles an error, the error details will be added to the error log file.
 
-1. Right-click the *Logic* folder and then select **Add** -&gt; **New Item**.   
+1. Right-click the *Logic* folder and then select **Add** -&gt; **New Item**.
    The **Add New Item** dialog box is displayed.
 2. Select the **Visual C#** -&gt; **Code** templates group on the left. Then, select **Class**from the middle list and name it **ExceptionUtility.cs**.
 3. Choose **Add**. The new class file is displayed.
-4. Replace the existing code with the following:  
+4. Replace the existing code with the following:
 
     [!code-csharp[Main](aspnet-error-handling/samples/sample5.cs)]
 
@@ -107,15 +107,15 @@ When an exception occurs, the exception can be written to an exception log file 
 
 In the Wingtip Toys sample application, one page will be used to display errors. The error page is designed to show a secure error message to users of the site. However, if the user is a developer making an HTTP request that is being served locally on the machine where the code lives, additional error details will be displayed on the error page.
 
-1. Right-click the project name (**Wingtip Toys**) in **Solution Explorer** and select **Add** -&gt; **New Item**.   
+1. Right-click the project name (**Wingtip Toys**) in **Solution Explorer** and select **Add** -&gt; **New Item**.
    The **Add New Item** dialog box is displayed.
 2. Select the **Visual C#** -&gt; **Web** templates group on the left. From the middle list, select **Web Form with Master Page**,and name it **ErrorPage.aspx**.
 3. Click **Add**.
 4. Select the *Site.Master* file as the master page, and then choose **OK**.
-5. Replace the existing markup with the following:   
+5. Replace the existing markup with the following:
 
     [!code-aspx[Main](aspnet-error-handling/samples/sample6.aspx)]
-6. Replace the existing code of the code-behind (*ErrorPage.aspx.cs*) so that it appears as follows:   
+6. Replace the existing code of the code-behind (*ErrorPage.aspx.cs*) so that it appears as follows:
 
     [!code-csharp[Main](aspnet-error-handling/samples/sample7.cs)]
 
@@ -130,7 +130,7 @@ By adding a `customErrors` section to the *Web.config* file, you can quickly han
 Update the configuration by adding a `customErrors` section to the *Web.config* file.
 
 1. In **Solution Explorer**, find and open the *Web.config* file at the root of the Wingtip Toys sample application.
-2. Add the `customErrors` section to the *Web.config* file within the `<system.web>` node as follows:   
+2. Add the `customErrors` section to the *Web.config* file within the `<system.web>` node as follows:
 
     [!code-xml[Main](aspnet-error-handling/samples/sample8.xml?highlight=3-5)]
 3. Save the *Web.config* file.
@@ -141,11 +141,11 @@ The `customErrors` section specifies the mode, which is set to "On". It also spe
 
 You can run the application now to see the updated routes.
 
-1. Press **F5** to run the Wingtip Toys sample application.  
+1. Press **F5** to run the Wingtip Toys sample application.
  The browser opens and shows the *Default.aspx* page.
-2. Enter the following URL into the browser (be sure to use **your** port number):  
+2. Enter the following URL into the browser (be sure to use **your** port number):
     `https://localhost:44300/NoPage.aspx`
-3. Review the *ErrorPage.aspx* displayed in the browser. 
+3. Review the *ErrorPage.aspx* displayed in the browser.
 
     ![ASP.NET Error Handling - Page Not Found Error](aspnet-error-handling/_static/image1.png)
 
@@ -155,9 +155,9 @@ When you request the *NoPage.aspx* page, which does not exist, the error page wi
 
 To verify how your application will function when an error occurs, you can deliberately create error conditions in ASP.NET. In the Wingtip Toys sample application, you will throw a test exception when the default page loads to see what happens.
 
-1. Open the code-behind of the *Default.aspx* page in Visual Studio.   
+1. Open the code-behind of the *Default.aspx* page in Visual Studio.
    The *Default.aspx.cs* code-behind page will be displayed.
-2. In the `Page_Load` handler, add code so that the handler appears as follows:   
+2. In the `Page_Load` handler, add code so that the handler appears as follows:
 
     [!code-csharp[Main](aspnet-error-handling/samples/sample9.cs?highlight=3-4)]
 
@@ -167,13 +167,13 @@ It is possible to create various different types of exceptions. In the above cod
 
 You can run the application to see how the application handles the exception.
 
-1. Press **CTRL+F5** to run the Wingtip Toys sample application.  
- The application throws the InvalidOperationException. 
+1. Press **CTRL+F5** to run the Wingtip Toys sample application.
+ The application throws the InvalidOperationException.
 
-    > [!NOTE] 
-    > 
+    > [!NOTE]
+    >
     > You must press **CTRL+F5** to display the page without breaking into the code to view the source of the error in Visual Studio.
-2. Review the *ErrorPage.aspx* displayed in the browser. 
+2. Review the *ErrorPage.aspx* displayed in the browser.
 
     ![ASP.NET Error Handling - Error Page](aspnet-error-handling/_static/image2.png)
 
@@ -184,7 +184,7 @@ As you can see in the error details, the exception was trapped by the `customErr
 Rather than trap the exception using the `customErrors` section in the *Web.config* file, where you gain little information about the exception, you can trap the error at the application level and retrieve error details.
 
 1. In **Solution Explorer**, find and open the *Global.asax.cs* file.
-2. Add an **Application\_Error** handler so that it appears as follows:   
+2. Add an **Application\_Error** handler so that it appears as follows:
 
     [!code-csharp[Main](aspnet-error-handling/samples/sample10.cs)]
 
@@ -194,9 +194,9 @@ When an error occurs in the application, the `Application_Error` handler is call
 
 You can run the application to see the additional error details provided by handling the exception at the application level.
 
-1. Press **CTRL+F5** to run the Wingtip Toys sample application.  
+1. Press **CTRL+F5** to run the Wingtip Toys sample application.
  The application throws the `InvalidOperationException` .
-2. Review the *ErrorPage.aspx* displayed in the browser. 
+2. Review the *ErrorPage.aspx* displayed in the browser.
 
     ![ASP.NET Error Handling - Application Level Error](aspnet-error-handling/_static/image3.png)
 
@@ -205,7 +205,7 @@ You can run the application to see the additional error details provided by hand
 You can add page-level error handling to a page either by using adding an `ErrorPage` attribute to the `@Page` directive of the page, or by adding a `Page_Error` event handler to the code-behind of a page. In this section, you will add a `Page_Error` event handler that will transfer execution to the *ErrorPage.aspx* page.
 
 1. In **Solution Explorer**, find and open the *Default.aspx.cs* file.
-2. Add a `Page_Error` handler so that the code-behind appears as follows:   
+2. Add a `Page_Error` handler so that the code-behind appears as follows:
 
     [!code-csharp[Main](aspnet-error-handling/samples/sample11.cs?highlight=18-30)]
 
@@ -215,9 +215,9 @@ When an error occurs on the page, the `Page_Error` event handler is called. In t
 
 You can run the application now to see the updated routes.
 
-1. Press **CTRL+F5** to run the Wingtip Toys sample application.  
+1. Press **CTRL+F5** to run the Wingtip Toys sample application.
  The application throws the `InvalidOperationException` .
-2. Review the *ErrorPage.aspx* displayed in the browser. 
+2. Review the *ErrorPage.aspx* displayed in the browser.
 
     ![ASP.NET Error Handling - Page Level Error](aspnet-error-handling/_static/image4.png)
 3. Close your browser window.
@@ -227,7 +227,7 @@ You can run the application now to see the updated routes.
 To allow the Wingtip Toys sample application to function without throwing the exception you added earlier in this tutorial, remove the exception.
 
 1. Open the code-behind of the *Default.aspx* page.
-2. In the `Page_Load` handler, remove the code that throws the exception so that the handler appears as follows:   
+2. In the `Page_Load` handler, remove the code that throws the exception so that the handler appears as follows:
 
     [!code-csharp[Main](aspnet-error-handling/samples/sample12.cs)]
 
@@ -236,7 +236,7 @@ To allow the Wingtip Toys sample application to function without throwing the ex
 As mentioned earlier in this tutorial, you can add try/catch statements to attempt to run a section of code and handle the first error that occurs. In this example, you will only write the error details to the error log file so that the error can be reviewed later.
 
 1. In **Solution Explorer**, in the *Logic* folder, find and open the *PayPalFunctions.cs* file.
-2. Update the `HttpCall` method so that the code appears as follows:   
+2. Update the `HttpCall` method so that the code appears as follows:
 
     [!code-csharp[Main](aspnet-error-handling/samples/sample13.cs?highlight=20,22-23)]
 
@@ -246,9 +246,9 @@ The above code calls the `LogException` method that is contained in the `Excepti
 
 As mentioned previously, you can use the error log to determine which errors in your application should be fixed first. Of course, only errors that have been trapped and written to the error log will be recorded.
 
-1. In **Solution Explorer**, find and open the *ErrorLog.txt* file in the *App\_Data* folder.   
+1. In **Solution Explorer**, find and open the *ErrorLog.txt* file in the *App\_Data* folder.
  You may need to select the "**Show All Files**" option or the "**Refresh**" option from the top of **Solution Explorer** to see the *ErrorLog.txt* file.
-2. Review the error log displayed in Visual Studio: 
+2. Review the error log displayed in Visual Studio:
 
     ![ASP.NET Error Handling - ErrorLog.txt](aspnet-error-handling/_static/image5.png)
 
@@ -268,15 +268,15 @@ ELMAH (Error Logging Modules and Handlers) is an error logging facility that you
 
 Before you can work with the ELMAH, you must install it. This is easy using the *NuGet* package installer. As mentioned earlier in this tutorial series, NuGet is a Visual Studio extension that makes it easy to install and update open source libraries and tools in Visual Studio.
 
-1. Within Visual Studio, from the **Tools** menu, select **NuGet Package Manager** > **Manage NuGet Packages for Solution**. 
+1. Within Visual Studio, from the **Tools** menu, select **NuGet Package Manager** > **Manage NuGet Packages for Solution**.
 
     ![ASP.NET Error Handling - Manage NuGet Packages for Solution](aspnet-error-handling/_static/image6.png)
 2. The **Manage NuGet Packages** dialog box is displayed within Visual Studio.
-3. In the **Manage NuGet Packages** dialog box, expand **Online** on the left, and then select **nuget.org**. Then, find and install the **ELMAH** package from the list of available packages online. 
+3. In the **Manage NuGet Packages** dialog box, expand **Online** on the left, and then select **nuget.org**. Then, find and install the **ELMAH** package from the list of available packages online.
 
     ![ASP.NET Error Handling - ELMA NuGet Package](aspnet-error-handling/_static/image7.png)
 4. You will need to have an internet connection to download the package.
-5. In the **Select Projects** dialog box, make sure the **WingtipToys** selection is selected, and then click **OK**. 
+5. In the **Select Projects** dialog box, make sure the **WingtipToys** selection is selected, and then click **OK**.
 
     ![ASP.NET Error Handling - Select Projects Dialog](aspnet-error-handling/_static/image8.png)
 6. Click **Close** in the **Manage NuGet Packages** dialog box if needed.
@@ -290,9 +290,9 @@ ELMAH is now ready to store any unhandled errors that occur.
 Viewing the ELMAH log is easy, but first you will create an unhandled exception that will be recorded in the ELMAH log.
 
 1. Press **CTRL+F5** to run the Wingtip Toys sample application.
-2. To write an unhandled exception to the ELMAH log, navigate in your browser to the following URL (using your port number):  
+2. To write an unhandled exception to the ELMAH log, navigate in your browser to the following URL (using your port number):
     `https://localhost:44300/NoPage.aspx` The error page will be displayed.
-3. To display the ELMAH log, navigate in your browser to the following URL (using your port number):  
+3. To display the ELMAH log, navigate in your browser to the following URL (using your port number):
     `https://localhost:44300/elmah.axd`
 
     ![ASP.NET Error Handling - ELMAH Error Log](aspnet-error-handling/_static/image9.png)
@@ -303,22 +303,18 @@ In this tutorial, you have learned about handling errors at the application leve
 
 ## Tutorial Series Conclusion
 
-Thanks for following along. I hope this set of tutorials helped you become more familiar with ASP.NET Web Forms. If you need more information about Web Forms features available in ASP.NET 4.5 and Visual Studio 2013, see [ASP.NET and Web Tools for Visual Studio 2013 Release Notes](../../../../visual-studio/overview/2013/release-notes.md). Also, be sure to take a look at the tutorial mentioned in the **Next Steps** section and defintely try out the [free Azure trial](https://azure.microsoft.com/pricing/purchase-options/azure-account?cid=msft_learn).
+Thanks for following along. I hope this set of tutorials helped you become more familiar with ASP.NET Web Forms. If you need more information about Web Forms features available in ASP.NET 4.5 and Visual Studio 2013, see [ASP.NET and Web Tools for Visual Studio 2013 Release Notes](../../../../visual-studio/overview/2013/release-notes.md). Also, try out the [free Azure trial](https://azure.microsoft.com/pricing/purchase-options/azure-account?cid=msft_learn).
 
-![Thanks - Erik](aspnet-error-handling/_static/image10.png)  
-
-## Next Steps
-
-Learn more about deploying your web application to Microsoft Azure, see [Deploy a Secure ASP.NET Web Forms App with Membership, OAuth, and SQL Database to an Azure Web Site](https://azure.microsoft.com/documentation/articles/web-sites-dotnet-deploy-aspnet-webforms-app-membership-oauth-sql-database/).
+![Thanks - Erik](aspnet-error-handling/_static/image10.png)
 
 ## Free Trial
 
-[Microsoft Azure - Free Trial](https://azure.microsoft.com/pricing/purchase-options/azure-account?cid=msft_learn)  
+[Microsoft Azure - Free Trial](https://azure.microsoft.com/pricing/purchase-options/azure-account?cid=msft_learn)
  Publishing your website to Microsoft Azure will save you time, maintenance and expense. It's a quick process to deploying your web app to Azure. When you need to maintain and monitor your web app, Azure offers a variety of tools and services. Manage data, traffic, identity, backups, messaging, media and performance in Azure. And, all of this is provided in a very cost effective approach.
 
 ## Additional Resources
 
-[Logging Error Details with ASP.NET Health Monitoring](../../older-versions-getting-started/deploying-web-site-projects/logging-error-details-with-asp-net-health-monitoring-cs.md)   
+[Logging Error Details with ASP.NET Health Monitoring](../../older-versions-getting-started/deploying-web-site-projects/logging-error-details-with-asp-net-health-monitoring-cs.md)
 [ELMAH](https://code.google.com/p/elmah/)
 
 ## Acknowledgements
@@ -326,7 +322,7 @@ Learn more about deploying your web application to Microsoft Azure, see [Deploy 
 I would like to thank the following people who made significant contributions to the content of this tutorial series:
 
 - [Alberto Poblacion, MVP &amp; MCT, Spain](https://mvp.microsoft.com/mvp/Alberto%20Poblacion%20Bolano-36772)
-- [Alex Thissen, Netherlands](http://blog.alexthissen.nl/) (twitter: [@alexthissen](http://twitter.com/alexthissen))
+- Alex Thissen, Netherlands (twitter: [@alexthissen](http://twitter.com/alexthissen))
 - [Andre Tournier, USA](https://andret503.wordpress.com/)
 - Apurva Joshi, Microsoft
 - [Bojan Vrhovnik, Slovenia](http://twitter.com/bvrhovnik)
@@ -340,16 +336,16 @@ I would like to thank the following people who made significant contributions to
 - [Paul Cociuba, Microsoft](http://linqto.me/Links/pcociuba)
 - [Paulo Morgado, Portugal](http://paulomorgado.net/)
 - [Pranav Rastogi, Microsoft](/archive/blogs/pranav_rastogi/)
-- [Tim Ammann, Microsoft](https://blogs.iis.net/timamm/default.aspx)
+- [Tim Ammann, Microsoft](https://blogs.iis.net/timamm)
 - [Tom Dykstra, Microsoft](/archive/blogs/aspnetue/)
 
 ## Community Contributions
 
-- Graham Mendick ([@grahammendick](http://twitter.com/grahammendick))  
+- Graham Mendick ([@grahammendick](http://twitter.com/grahammendick))
   Visual Studio 2012 related code sample on MSDN: [Navigation Wingtip Toys](https://code.msdn.microsoft.com/Navigation-Wingtip-Toys-5f0daba2)
-- James Chaney ([jchaney@agvance.net](mailto:jchaney@agvance.net))  
+- James Chaney ([jchaney@agvance.net](mailto:jchaney@agvance.net))
   Visual Studio 2012 related code sample on MSDN: [ASP.NET 4.5 Web Forms Tutorial Series in Visual Basic](https://code.msdn.microsoft.com/ASPNET-45-Web-Forms-f37f0f63)
-- Andrielle Azevedo - Microsoft Technical Audience Contributor (twitter: @driazevedo)  
+- Andrielle Azevedo - Microsoft Technical Audience Contributor (twitter: @driazevedo)
   Visual Studio 2012 translation: [Iniciando com ASP.NET Web Forms 4.5 - Parte 1 - Introdução e Visão Geral](https://andrielleazevedo.wordpress.com/2013/01/24/iniciando-com-asp-net-web-forms-4-5-introducao-e-visao-geral/)
 
 > [!div class="step-by-step"]

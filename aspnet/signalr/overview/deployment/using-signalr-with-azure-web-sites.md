@@ -108,4 +108,4 @@ If you use multiple instances for your web app, and the users of those instances
 <a id="nextsteps"></a>
 ## Next Steps
 
-For more information on Web Apps in Azure App Service, see [Web Apps overview](https://azure.microsoft.com/documentation/articles/app-service-web-overview/).
+For more information on Web Apps in Azure App Service, see [Web Apps overview](/azure/app-service/overview).

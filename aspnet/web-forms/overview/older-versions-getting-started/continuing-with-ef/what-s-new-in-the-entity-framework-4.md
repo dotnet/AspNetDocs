@@ -188,7 +188,7 @@ POCO support in the Entity Framework 4 still requires that you create a data mod
 
 For more information about using the code-first approach to development, see the following resources:
 
-- [Code-First Development with Entity Framework 4](https://weblogs.asp.net/scottgu/archive/2010/07/16/code-first-development-with-entity-framework-4.aspx). This is a blog post by Scott Guthrie introducing code-first development.
+- [Code-First Development with Entity Framework 4](https://weblogs.asp.net/scottgu/code-first-development-with-entity-framework-4/). This is a blog post by Scott Guthrie introducing code-first development.
 - [Entity Framework Development Team Blog - posts tagged CodeOnly](https://blogs.msdn.com/b/efdesign/archive/tags/codeonly/)
 - [Entity Framework Development Team Blog - posts tagged Code First](https://blogs.msdn.com/b/efdesign/archive/tags/code+first/)
 - [MVC Music Store tutorial - Part 4: Models and Data Access](../../../../mvc/overview/older-versions/mvc-music-store/mvc-music-store-part-4.md)
