@@ -16,11 +16,11 @@ by [Web Camps Team](https://twitter.com/webcamps)
 [Download Web Camps Training Kit](https://aka.ms/webcamps-training-kit)
 
 > Visual Studio is an excellent development environment for .NET-based Windows and web projects. It includes a powerful text editor that can easily be used to edit standalone files without a project.
-> 
+>
 > Visual Studio maintains a full-featured parse tree as you edit each file. This allows Visual Studio to provide unparalleled auto-completion and document-based actions while making the development experience much faster and more pleasant. These features are especially powerful in HTML and CSS documents.
-> 
+>
 > All of this power is also available for extensions, making it simple to extend the editors with powerful new features to suit your needs. Web Essentials is a collection of (mostly) web-related enhancements to Visual Studio. It includes lots of new IntelliSense completions (especially for CSS), new Browser Link features, automatic JSHint for JavaScript files, new warnings for HTML and CSS, and many other features that are essential to modern web development.
-> 
+>
 > All sample code and snippets are included in the Web Camps Training Kit, available at [https://aka.ms/webcamps-training-kit](https://aka.ms/webcamps-training-kit).
 
 <a id="Overview"></a>
@@ -112,7 +112,7 @@ In this task, you will configure your web application to run in multiple browser
 
     > [!NOTE]
     > After configuring the default browsers, the **Multiple Browsers** option is selected in the browser menu.
-    > 
+    >
     > ![Multiple browsers](visual-studio-2013-web-tools/_static/image4.png "Multiple browsers")
 6. Press **CTRL** + **F5** to run the application without debugging.
 7. When both browser windows open, place one of them above the other in order to see the updates on both browsers simultaneously. The browsers should display a web page with a light-blue rectangle.
@@ -372,7 +372,7 @@ HTML5 introduced more than 25 new semantic tags. Visual Studio already had Intel
 
     > [!NOTE]
     > By pressing the **TAB** key twice, the code snippet is inserted. The audio snippet shows the standard usage of the *audio* tag, with two source files for improved support.
-3. Delete the second line and update the source of the first line with the following link to the **Installing ASP.NET and Web Tools** show: [https://learn.microsoft.com/shows/asp-net-site-videos/installing-aspnet-web-tools](/shows/asp-net-site-videos/installing-aspnet-web-tools). The resulting code is shown below.
+3. Delete the second line and update the source of the first line with the following link to the **Installing ASP.NET and Web Tools** show: [/shows/asp-net-site-videos/installing-aspnet-web-tools](/shows/asp-net-site-videos/installing-aspnet-web-tools). The resulting code is shown below.
 
     [!code-html[Main](visual-studio-2013-web-tools/samples/sample7.html)]
 
@@ -418,9 +418,9 @@ With Web Essentials 2013, style sheets and HTML pages produce a list of IDs and 
 
     > [!NOTE]
     > The **init.js** file is created and the content of the script is moved to the file.
-    > 
+    >
     > ![Init.js file created with the content included](visual-studio-2013-web-tools/_static/image41.png "Init.js file created with the content included")
-    > 
+    >
     > *Init.js file created with the content included*
 6. Open the **Index.cshtml** file and check that the script tag was replaced with a reference to the **init.js** file.
 
@@ -470,9 +470,9 @@ With Web Essentials 2013, style sheets and HTML pages produce a list of IDs and 
 
     > [!NOTE]
     > The **init.min.js** is created and is added as a dependency of the **init.js** file.
-    > 
+    >
     > ![Init.min.js file created](visual-studio-2013-web-tools/_static/image49.png "Init.min.js file created")
-    > 
+    >
     > *Init.min.js file created*
 16. Open the **init.min.js** file and notice that the file is minified.
 

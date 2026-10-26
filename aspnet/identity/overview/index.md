@@ -3,9 +3,7 @@ uid: identity/overview/index
 title: "ASP.NET Identity Overview - ASP.NET 4.x"
 author: rick-anderson
 description: This overview topic provides a list of topics related to ASP.NET Identity, a cross-platform modern membership system.
-ms.author: wpickett
 ms.date: 10/02/2013
-ms.assetid: d3972a0e-9ff6-4de1-bf4d-c94943cab048
 msc.legacyurl: /identity/overview
 msc.type: book
 ---
@@ -16,7 +14,6 @@ msc.type: book
     - [Introduction to ASP.NET Identity](getting-started/introduction-to-aspnet-identity.md)
     - [ASP.NET Identity Recommended Resources](getting-started/aspnet-identity-recommended-resources.md)
     - [Adding ASP.NET Identity to an Empty or Existing Web Forms Project](getting-started/adding-aspnet-identity-to-an-empty-or-existing-web-forms-project.md)
-    - [Developing ASP.NET Apps with Azure Active Directory](getting-started/developing-aspnet-apps-with-windows-azure-active-directory.md)
     - [ASP.NET Identity: Using MySQL Storage with an EntityFramework MySQL Provider (C#)](getting-started/aspnet-identity-using-mysql-storage-with-an-entityframework-mysql-provider.md)
 - [Features & API](features-api/index.md)
 

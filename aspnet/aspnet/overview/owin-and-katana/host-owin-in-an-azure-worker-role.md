@@ -16,7 +16,7 @@ ms.custom: sfi-image-nochange
 >
 > [Open Web Interface for .NET](http://owin.org/) (OWIN) defines an abstraction between .NET web servers and web applications. OWIN decouples the web application from the server, which makes OWIN ideal for self-hosting a web application in your own process, outside of IIS–for example, inside an Azure worker role.
 >
-> In this tutorial, you'll learn how to self-host an OWIN applications inside a Microsoft Azure worker role. To learn more about worker roles, see [Azure Execution Models](https://azure.microsoft.com/documentation/articles/fundamentals-application-models/#CloudServices).
+> In this tutorial, you'll learn how to self-host an OWIN applications inside a Microsoft Azure worker role. To learn more about worker roles, see [What is Azure Cloud Services (classic)](/previous-versions/azure/cloud-services/cloud-services-choose-me).
 >
 > ## Software versions used in the tutorial
 >

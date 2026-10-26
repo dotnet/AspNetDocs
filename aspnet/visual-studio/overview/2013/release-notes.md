@@ -127,8 +127,8 @@ In Visual Studio 2013 with the Azure SDK for .NET 2.2, you can use **Server Expl
 
 For more information, see the following resources:
 
-- [Create an ASP.NET web app in Azure App Service](https://azure.microsoft.com/documentation/articles/web-sites-dotnet-get-started/)
-- [Troubleshoot a web app in Azure App Service using Visual Studio](https://azure.microsoft.com/documentation/articles/web-sites-dotnet-troubleshoot-visual-studio/)
+- [Create an ASP.NET web app in Azure App Service](/azure/app-service/quickstart-dotnetcore?tabs=netframework48)
+- [Enable diagnostic logging for apps in Azure App Service](/azure/app-service/troubleshoot-diagnostic-logs)
 
 <a id="publish"></a>
 ## Web Publish Enhancements
@@ -175,7 +175,7 @@ For information on upgrading MVC 4 projects to MVC 5, see [How to Upgrade an ASP
 
 ### ASP.NET Identity
 
-The MVC project templates have been updated to use ASP.NET Identity for authentication and identity management. A tutorial featuring Facebook and Google authentication and the new membership API can be found at [Create an ASP.NET MVC 5 App with Facebook and Google OAuth2 and OpenID Sign-on](../../../mvc/overview/security/create-an-aspnet-mvc-5-app-with-facebook-and-google-oauth2-and-openid-sign-on.md) and [Create an ASP.NET MVC app with auth and SQL DB and deploy to Azure App Service](https://azure.microsoft.com/documentation/articles/web-sites-dotnet-deploy-aspnet-mvc-app-membership-oauth-sql-database/).
+The MVC project templates have been updated to use ASP.NET Identity for authentication and identity management. A tutorial featuring Facebook and Google authentication and the new membership API can be found at [Create an ASP.NET MVC 5 App with Facebook and Google OAuth2 and OpenID Sign-on](../../../mvc/overview/security/create-an-aspnet-mvc-5-app-with-facebook-and-google-oauth2-and-openid-sign-on.md).
 
 ### Bootstrap
 
@@ -334,11 +334,11 @@ In a **Web application,** the Owin startup class containing the `MapSignalR` met
 
 In a **Self-hosted application**, the Startup class is passed as the type parameter of the `WebApp.Start` method.
 
-**Mapping hubs and connections in SignalR 1.x (from the global application file in a web application):** 
+**Mapping hubs and connections in SignalR 1.x (from the global application file in a web application):**
 
 [!code-csharp[Main](release-notes/samples/sample5.cs)]
 
-**Mapping hubs and connections in SignalR 2.0 (from an Owin Startup class file):** 
+**Mapping hubs and connections in SignalR 2.0 (from an Owin Startup class file):**
 
 [!code-csharp[Main](release-notes/samples/sample6.cs)]
 
