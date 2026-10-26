@@ -241,10 +241,6 @@ The base `Controller` class already implements the `IDisposable` interface, so t
 
 By default the Entity Framework implicitly implements transactions. In scenarios where you make changes to multiple rows or tables and then call `SaveChanges`, the Entity Framework automatically makes sure that either all of your changes succeed or all fail. If some changes are done first and then an error happens, those changes are automatically rolled back. For scenarios where you need more control&mdash;for example, if you want to include operations done outside of Entity Framework in a transaction&mdash;see [Working with Transactions](/ef/ef6/saving/transactions).
 
-## Get the code
-
-[Download Completed Project](https://webpifeed.blob.core.windows.net/webpifeed/Partners/ASP.NET%20MVC%20Application%20Using%20Entity%20Framework%20Code%20First.zip)
-
 ## Additional resources
 
 You now have a complete set of pages that perform simple CRUD operations for `Student` entities. You used MVC helpers to generate UI elements for data fields. For more info about MVC helpers, see [Rendering a Form Using HTML Helpers](/previous-versions/aspnet/dd410596(v=vs.98)) (the article is for MVC 3 but is still relevant for MVC 5).

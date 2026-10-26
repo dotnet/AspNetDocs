@@ -51,9 +51,7 @@ If you don't own Visual Studio 2008, then you can download a 90 day trial versio
 
 [https://msdn.microsoft.com/vs2008/products/cc268305.aspx](https://msdn.microsoft.com/vs2008/products/cc268305.aspx)
 
-Alternatively, you can create ASP.NET MVC applications with Visual Web Developer Express 2008. If you decide to use Visual Web Developer Express then you must have Service Pack 1 installed. You can download Visual Web Developer 2008 Express with Service Pack 1 from this website:
-
-[https://www.microsoft.com/downloads/details.aspx?FamilyId=BDB6391C-05CA-4036-9154-6DF4F6DEBD14&amp;displaylang=en](https://www.microsoft.com/downloads/details.aspx?FamilyId=BDB6391C-05CA-4036-9154-6DF4F6DEBD14&amp;displaylang=en)
+Alternatively, you can create ASP.NET MVC applications with Visual Web Developer Express 2008 with Service Pack 1. The original download is no longer available.
 
 After you install either Visual Studio 2008 or Visual Web Developer 2008, you need to install the ASP.NET MVC framework. You can download the ASP.NET MVC framework from the following website:
 
