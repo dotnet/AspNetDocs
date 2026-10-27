@@ -24,32 +24,32 @@ msc.type: content
 
 ## Table of Contents
 
-**[ajax.microsoft.com renamed to ajax.aspnetcdn.com](#ajaxmicrosoftcom_renamed_to_ajaxaspnetcdncom_18)**  
-**[Visual Studio .vsdoc Support](#Visual_Studio_vsdoc_Support_19)**  
-**[Using ASP.NET Ajax from the CDN](#Using_ASPNET_Ajax_from_the_CDN_20)**  
-**[Using jQuery from the CDN](#Using_jQuery_from_the_CDN_21)**  
-**[Using jQuery UI from the CDN](#Using_jQuery_UI_from_the_CDN_22)**  
-**[Third-Party Files on the CDN](#Third-Party_Files_on_the_CDN_23)**  
-  
- [jQuery Releases on the CDN](#jQuery_Releases_on_the_CDN_0)  
- [jQuery Migrate Releases on the CDN](#jQuery_Migrate_Releases_on_the_CDN_1)  
- [jQuery UI Releases on the CDN](#jQuery_UI_Releases_on_the_CDN_2)  
- [jQuery Validation Releases on the CDN](#jQuery_Validation_Releases_on_the_CDN_3)  
- [jQuery Mobile Releases on the CDN](#jQuery_Mobile_Releases_on_the_CDN_4)  
- [jQuery Templates Releases on the CDN](#jQuery_Templates_Releases_on_the_CDN_5)  
- [jQuery Cycle Releases on the CDN](#jQuery_Cycle_Releases_on_the_CDN_6)  
- [jQuery DataTables Releases on the CDN](#jQuery_DataTables_Releases_on_the_CDN_7)  
- [Modernizr Releases on the CDN](#Modernizr_Releases_on_the_CDN_8)  
- [JSHint Releases on the CDN](#JSHint_Releases_on_the_CDN_10)  
- [Knockout Releases on the CDN](#Knockout_Releases_on_the_CDN_11)  
- [Globalize Releases on the CDN](#Globalize_Releases_on_the_CDN_12)  
- [Respond Releases on the CDN](#Respond_Releases_on_the_CDN_13)  
- [Bootstrap Releases on the CDN](#Bootstrap_Releases_on_the_CDN_14)  
- [Bootstrap TouchCarousel Releases on the CDN](#BootstrapTouchCarousel_Releases_on_the_CDN_18)  
- [Hammer.js Releases on the CDN](#Hammerjs_Releases_on_the_CDN_19)  
- [ASP.NET Web Forms and Ajax Releases on the CDN](#ASPNET_Web_Forms_and_Ajax_Releases_on_the_CDN_15)  
- [ASP.NET MVC Releases on the CDN](#ASPNET_MVC_Releases_on_the_CDN_16)  
- [ASP.NET SignalR Releases on the CDN](#ASPNET_SignalR_Releases_on_the_CDN_17)
+- **[ajax.microsoft.com renamed to ajax.aspnetcdn.com](#ajaxmicrosoftcom-renamed-to-ajaxaspnetcdncom)**
+- **[Visual Studio .vsdoc Support](#Visual_Studio_vsdoc_Support_19)**
+- **[Using ASP.NET Ajax from the CDN](#Using_ASPNET_Ajax_from_the_CDN_20)**
+- **[Using jQuery from the CDN](#Using_jQuery_from_the_CDN_21)**
+- **[Using jQuery UI from the CDN](#Using_jQuery_UI_from_the_CDN_22)**
+- **[Third-Party Files on the CDN](#Third-Party_Files_on_the_CDN_23)**
+
+- [jQuery Releases on the CDN](#jQuery_Releases_on_the_CDN_0)
+- [jQuery Migrate Releases on the CDN](#jQuery_Migrate_Releases_on_the_CDN_1)
+- [jQuery UI Releases on the CDN](#jQuery_UI_Releases_on_the_CDN_2)
+- [jQuery Validation Releases on the CDN](#jQuery_Validation_Releases_on_the_CDN_3)
+- [jQuery Mobile Releases on the CDN](#jQuery_Mobile_Releases_on_the_CDN_4)
+- [jQuery Templates Releases on the CDN](#jQuery_Templates_Releases_on_the_CDN_5)
+- [jQuery Cycle Releases on the CDN](#jQuery_Cycle_Releases_on_the_CDN_6)
+- [jQuery DataTables Releases on the CDN](#jQuery_DataTables_Releases_on_the_CDN_7)
+- [Modernizr Releases on the CDN](#Modernizr_Releases_on_the_CDN_8)
+- [JSHint Releases on the CDN](#JSHint_Releases_on_the_CDN_10)
+- [Knockout Releases on the CDN](#Knockout_Releases_on_the_CDN_11)
+- [Globalize Releases on the CDN](#Globalize_Releases_on_the_CDN_12)
+- [Respond Releases on the CDN](#Respond_Releases_on_the_CDN_13)
+- [Bootstrap Releases on the CDN](#Bootstrap_Releases_on_the_CDN_14)
+- [Bootstrap TouchCarousel Releases on the CDN](#BootstrapTouchCarousel_Releases_on_the_CDN_18)
+- [Hammer.js Releases on the CDN](#Hammerjs_Releases_on_the_CDN_19)
+- [ASP.NET Web Forms and Ajax Releases on the CDN](#ASPNET_Web_Forms_and_Ajax_Releases_on_the_CDN_15)
+- [ASP.NET MVC Releases on the CDN](#ASPNET_MVC_Releases_on_the_CDN_16)
+- [ASP.NET SignalR Releases on the CDN](#ASPNET_SignalR_Releases_on_the_CDN_17)
 
 The Microsoft Ajax Content Delivery Network (CDN) hosts popular third party JavaScript libraries such as jQuery and enables you to easily add them to your Web applications. For example, you can start using jQuery which is hosted on this CDN simply by adding a &lt;script&gt; tag to your page that points to ajax.aspnetcdn.com.
 
@@ -59,12 +59,12 @@ The CDN supports SSL (HTTPS) in case you need to serve a web page using the Secu
 
 The CDN hosts the following third party script libraries which have been uploaded, and are licensed to you, by the owners of those libraries:
 
-- jQuery (www.jquery.com)
-- jQuery UI (www.jqueryui.com)
-- jQuery Mobile (www.jquerymobile.com)
-- jQuery Validation (https://jqueryvalidation.org/)
-- jQuery Cycle (www.malsup.com/jquery/cycle/)
-- jQuery DataTables (http://datatables.net/)
+- jQuery (<www.jquery.com>)
+- jQuery UI (<www.jqueryui.com>)
+- jQuery Mobile (<www.jquerymobile.com>)
+- jQuery Validation (<https://jqueryvalidation.org/>)
+- jQuery Cycle (<www.malsup.com/jquery/cycle/>)
+- jQuery DataTables (<http://datatables.net/>)
 
 The Microsoft Ajax CDN also includes the following libraries which have been uploaded by Microsoft:
 
@@ -73,10 +73,6 @@ The Microsoft Ajax CDN also includes the following libraries which have been upl
 - ASP.NET SignalR JavaScript Files
 
 Microsoft does not claim ownership of any third-party libraries hosted on this CDN. The copyright owners of the libraries are licensing these libraries to you. Any rights that you may have to download and use such libraries are granted solely by the respective copyright owners. Because these are not Microsoft libraries, Microsoft provides no warranties or intellectual property rights licenses (including no implied patent rights) for the third party libraries hosted on this CDN.
-
-If you wish to submit your JavaScript library and your library is one of the top JavaScript libraries (as listed on http://trends.builtwith.com) or extensions/plugins to these libraries that are (a) popular; or (b) helpful for use on ASP.NET then please contact AjaxCDNSubmission@Microsoft.com.
-
-<a id="ajaxmicrosoftcom_renamed_to_ajaxaspnetcdncom_18"></a>
 
 > [!WARNING]
 > Production applications should not take a hard dependency on CDN assets. Applications should test for the CDN asset referenced, and use a fallback asset when the CDN is not available.
@@ -1394,10 +1390,10 @@ The following ASP.NET MVC JavaScript files are hosted on this CDN:
 - https://ajax.aspnetcdn.com/ajax/mvc/3.0/jquery.unobtrusive-ajax.js
 - https://ajax.aspnetcdn.com/ajax/mvc/3.0/jquery.unobtrusive-ajax.min.js
 - https://ajax.aspnetcdn.com/ajax/jquery.unobtrusive-ajax/3.2.5/jquery.unobtrusive-ajax.js
-- https://ajax.aspnetcdn.com/ajax/jquery.unobtrusive-ajax/3.2.5/jquery.unobtrusive-ajax.min.js 
+- https://ajax.aspnetcdn.com/ajax/jquery.unobtrusive-ajax/3.2.5/jquery.unobtrusive-ajax.min.js
 - https://ajax.aspnetcdn.com/ajax/mvc/3.0/jquery.validate.unobtrusive.js
 - https://ajax.aspnetcdn.com/ajax/mvc/3.0/jquery.validate.unobtrusive.min.js
-- https://ajax.aspnetcdn.com/ajax/jquery.validation.unobtrusive/3.2.10/jquery.validate.unobtrusive.js 
+- https://ajax.aspnetcdn.com/ajax/jquery.validation.unobtrusive/3.2.10/jquery.validate.unobtrusive.js
 - https://ajax.aspnetcdn.com/ajax/jquery.validation.unobtrusive/3.2.10/jquery.validate.unobtrusive.min.js
 - https://ajax.aspnetcdn.com/ajax/mvc/3.0/MicrosoftMvcAjax.js
 - https://ajax.aspnetcdn.com/ajax/mvc/3.0/MicrosoftMvcAjax.debug.js
