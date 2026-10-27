@@ -63,7 +63,7 @@ The code below demonstrates how we can update our Index() action method to suppo
 
 The Index() action method above has a parameter named "page". The parameter is declared as a nullable integer (that is what int? indicates). This means that the */Dinners?page=2* URL will cause a value of "2" to be passed as the parameter value. The */Dinners* URL (without a querystring value) will cause a null value to be passed.
 
-We are multiplying the page value by the page size (in this case 10 rows) to determine how many dinners to skip over. We are using the [C# null "coalescing" operator (??)](https://weblogs.asp.net/scottgu/archive/2007/09/20/the-new-c-null-coalescing-operator-and-using-it-with-linq.aspx) which is useful when dealing with nullable types. The code above assigns page the value of 0 if the page parameter is null.
+We are multiplying the page value by the page size (in this case 10 rows) to determine how many dinners to skip over. We are using the [C# null "coalescing" operator (??)](https://weblogs.asp.net/scottgu/the-new-c-null-coalescing-operator-and-using-it-with-linq/) which is useful when dealing with nullable types. The code above assigns page the value of 0 if the page parameter is null.
 
 #### Using Embedded URL values
 

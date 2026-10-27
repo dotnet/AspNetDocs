@@ -134,7 +134,7 @@ With our Theme defined, the last step is to apply the Theme to our ASP.NET page.
 
 [!code-xml[Main](displaying-data-with-the-objectdatasource-vb/samples/sample5.xml)]
 
-That's all there is to it! The `styleSheetTheme` setting indicates that the properties specified in the Theme should *not* override the properties specified at the control level. To specify that Theme settings should trump control settings, use the `theme` attribute in place of `styleSheetTheme`; unfortunately, Theme settings do not appear in the Visual Studio Design view. Refer to [ASP.NET Themes and Skins Overview](https://msdn.microsoft.com/library/ykzx33wh.aspx) and [Server-Side Styles Using Themes](https://quickstarts.asp.net/quickstartv20/aspnet/doc/themes/stylesheettheme.aspx) for more information on Themes and Skins; see [How To: Apply ASP.NET Themes](https://msdn.microsoft.com/library/0yy5hxdk%28VS.80%29.aspx) for more on configuring a page to use a theme.
+That's all there is to it! The `styleSheetTheme` setting indicates that the properties specified in the Theme should *not* override the properties specified at the control level. To specify that Theme settings should trump control settings, use the `theme` attribute in place of `styleSheetTheme`; unfortunately, Theme settings do not appear in the Visual Studio Design view. Refer to [ASP.NET Themes and Skins Overview](https://msdn.microsoft.com/library/ykzx33wh.aspx) for more information on Themes and Skins; see [How To: Apply ASP.NET Themes](https://msdn.microsoft.com/library/0yy5hxdk%28VS.80%29.aspx) for more on configuring a page to use a theme.
 
 [![The GridView Displays the Product's Name, Category, Supplier, Price, and Discontinued Information](displaying-data-with-the-objectdatasource-vb/_static/image31.png)](displaying-data-with-the-objectdatasource-vb/_static/image30.png)
 
@@ -207,7 +207,6 @@ For more information on the topics discussed in this tutorial, refer to the foll
 - [Create Your Own Data Source Controls](https://msdn.microsoft.com/library/ms364049.aspx)
 - [GridView Examples for ASP.NET 2.0](https://msdn.microsoft.com/library/aa479339.aspx)
 - [Themes in ASP.NET 2.0](http://www.odetocode.com/Articles/423.aspx)
-- [Server-Side Styles Using Themes](https://quickstarts.asp.net/quickstartv20/aspnet/doc/themes/stylesheettheme.aspx)
 - [How To: Apply ASP.NET Themes Programmatically](https://msdn.microsoft.com/library/tx35bd89.aspx)
 
 ## About the Author

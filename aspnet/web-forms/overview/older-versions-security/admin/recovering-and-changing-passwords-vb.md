@@ -58,9 +58,6 @@ Figure 1 illustrates how the PasswordRecovery's interface and behavior is influe
 
 **Figure 1**: The `RequiresQuestionAndAnswer`, `EnablePasswordRetrieval`, and `EnablePasswordReset` Influence the PasswordRecovery control's Appearance and Behavior  ([Click to view full-size image](recovering-and-changing-passwords-vb/_static/image3.png))
 
-> [!NOTE]
-> In the <a id="_msoanchor_2"></a>[*Creating the Membership Schema in SQL Server*](../membership/creating-the-membership-schema-in-sql-server-vb.md) tutorial we configured the Membership provider by setting `RequiresQuestionAndAnswer` to True, `EnablePasswordRetrieval` to False, and `EnablePasswordReset` to True.
-
 ### Using the PasswordRecovery Control
 
 Let's look at using the PasswordRecovery control in an ASP.NET page. Open `RecoverPassword.aspx` and drag and drop a PasswordRecovery control from the Toolbox onto the Designer; set its `ID` to `RecoverPwd`. Like the Login and CreateUserWizard Web controls, the PasswordRecovery control's views render a rich composite interface that includes Labels, TextBoxes, Buttons, and validation controls. You can customize the appearance of the views through the control's style properties or by converting the views into templates. I leave this as an exercise for the interested reader.
@@ -244,7 +241,7 @@ After entering the new password, confirming it in the second TextBox, and clicki
 **Figure 9**: An Administrator May Change a User's Password  ([Click to view full-size image](recovering-and-changing-passwords-vb/_static/image27.png))
 
 > [!NOTE]
-> The `UserInformation.aspx` page currently only works if the Membership framework is configured to store passwords in Clear or Hashed format. It lacks the code to encrypt the new password, although you are invited to add this functionality. The way I recommend adding the necessary code is to use a decompiler like [Reflector](http://www.aisto.com/roeder/dotnet/) to examine the source code for methods in the .NET Framework; start by examining the `SqlMembershipProvider` class's `ChangePassword` method. This is the technique I used to write the code for creating a hash of the password.
+> The `UserInformation.aspx` page currently only works if the Membership framework is configured to store passwords in Clear or Hashed format. It lacks the code to encrypt the new password, although you are invited to add this functionality. The way I recommend adding the necessary code is to use a decompiler to examine the source code for methods in .NET Framework; start by examining the `SqlMembershipProvider` class's `ChangePassword` method. This is the technique I used to write the code for creating a hash of the password.
 
 ## Summary
 
@@ -258,8 +255,6 @@ Happy Programming!
 
 For more information on the topics discussed in this tutorial, refer to the following resources:
 
-- [ChangePassword Control QuickStarts](https://quickstarts.asp.net/QuickStartv20/aspnet/doc/ctrlref/login/changepassword.aspx)
-- [PasswordRecovery Control QuickStarts](https://quickstarts.asp.net/QuickStartv20/aspnet/doc/ctrlref/login/passwordrecovery.aspx)
 - [Sending Email in ASP.NET](/aspnet/web-pages/overview/getting-started/11-adding-email-to-your-web-site)
 - [`System.Net.Mail` FAQs](/dotnet/api/system.net.mail.mailmessage?view=net-8.0)
 

@@ -283,18 +283,12 @@ The amount of code you had to write in order for Entity Framework to be able to 
 
 You've seen that conventions can be overridden. For example, you specified that table names shouldn't be pluralized, and you'll see later how to explicitly mark a property as a foreign key property.
 
-## Get the code
-
-[Download Completed Project](https://webpifeed.blob.core.windows.net/webpifeed/Partners/ASP.NET%20MVC%20Application%20Using%20Entity%20Framework%20Code%20First.zip)
-
 ## Additional resources
 
 For more about EF 6, see these articles:
 
 * [ASP.NET Data Access - Recommended Resources](../../../../whitepapers/aspnet-data-access-content-map.md)
-
 * [Code First Conventions](/ef/ef6/modeling/code-first/conventions/built-in)
-
 * [Creating a More Complex Data Model](creating-a-more-complex-data-model-for-an-asp-net-mvc-application.md)
 
 ## Next steps

@@ -25,6 +25,4 @@ msc.type: chapter
 - [CSS Editor Color Picker](visual-studio-vnext-videos-css-editor-color-picker.md)
 - [Page Inspector - Introduction](visual-studio-vnext-videos-page-inspector-introduction.md)
 - [Page Inspector - Decomposing your Web Application](visual-studio-vnext-videos-page-inspector-decomposing-your-web-application.md)
-- [Windows Azure Authentication](windows-azure-authentication.md)
 - [ASP.NET and Web Tools 2012.2 Release Notes](aspnet-and-web-tools-20122-release-notes-rtw.md)
-

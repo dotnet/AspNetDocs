@@ -202,10 +202,6 @@ You see the concurrency error message, and the Department values are refreshed w
 
 If you click **Delete** again, you're redirected to the Index page, which shows that the department has been deleted.
 
-## Get the code
-
-[Download Completed Project](https://webpifeed.blob.core.windows.net/webpifeed/Partners/ASP.NET%20MVC%20Application%20Using%20Entity%20Framework%20Code%20First.zip)
-
 ## Additional resources
 
 Links to other Entity Framework resources can be found in the [ASP.NET Data Access - Recommended Resources](../../../../whitepapers/aspnet-data-access-content-map.md).

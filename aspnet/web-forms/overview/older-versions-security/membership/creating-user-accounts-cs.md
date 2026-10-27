@@ -22,7 +22,7 @@ by [Scott Mitchell](https://twitter.com/ScottOnWriting)
 
 ## Introduction
 
-In the <a id="_msoanchor_1"></a>[preceding tutorial](creating-the-membership-schema-in-sql-server-cs.md) we installed the application services schema in a database, which added the tables, views, and stored procedures needed by the `SqlMembershipProvider` and `SqlRoleProvider`. This created the infrastructure we will need for the remainder of the tutorials in this series. In this tutorial we will explore using the Membership framework (via the `SqlMembershipProvider`) to create new user accounts. We will see how to create new users programmatically and through ASP.NET's built-in CreateUserWizard control.
+In this tutorial we will explore using the Membership framework (via the `SqlMembershipProvider`) to create new user accounts. We will see how to create new users programmatically and through ASP.NET's built-in CreateUserWizard control.
 
 In addition to learning how to create new user accounts, we will also need to update the demo website we first created in the *<a id="_msoanchor_2"></a>[An Overview of Forms Authentication](../introduction/an-overview-of-forms-authentication-cs.md)* tutorial and then enhanced in the *<a id="https://www.asp.net/learn/security/tutorial-03-cs.aspx"></a> Forms Authentication Configuration and Advanced Topics* tutorial. Our demo web application has a login page that validates users' credentials against hard-coded username/password pairs. Moreover, `Global.asax` includes code that creates custom `IPrincipal` and `IIdentity` objects for authenticated users. We will update the login page to validate users' credentials against the Membership framework and remove the custom principal and identity logic.
 
@@ -33,7 +33,7 @@ Let's get started!
 Before we begin working with the Membership framework, let's take a moment to review the important steps we have taken to reach this point. When using the Membership framework with the `SqlMembershipProvider` in a forms-based authentication scenario, the following steps need to be performed prior to implementing Membership functionality in your web application:
 
 1. **Enable forms-based authentication.** As we discussed in *<a id="_msoanchor_4"></a>[An Overview of Forms Authentication](../introduction/an-overview-of-forms-authentication-cs.md)*, forms authentication is enabled by editing `Web.config` and setting the `<authentication>` element's `mode` attribute to `Forms`. With forms authentication enabled, each incoming request is examined for a *forms authentication ticket*, which, if present, identifies the requestor.
-2. **Add the application services schema to the appropriate database.** When using the `SqlMembershipProvider` we need to install the application services schema to a database. Usually this schema is added to the same database that holds the application's data model. The *<a id="_msoanchor_5"></a>[Creating the Membership Schema in SQL Server](creating-the-membership-schema-in-sql-server-cs.md)* tutorial looked at using the `aspnet_regsql.exe` tool to accomplish this.
+2. **Add the application services schema to the appropriate database.** When using the `SqlMembershipProvider` we need to install the application services schema to a database. Usually this schema is added to the same database that holds the application's data model.
 3. **Customize the Web Application's Settings to reference the database from step 2.** The *Creating the Membership Schema in SQL Server* tutorial showed two ways to configure the web application so that the `SqlMembershipProvider` would use the database selected in step 2: by modifying the `LocalSqlServer` connection string name; or by adding a new registered provider to the list of Membership framework providers and customizing that new provider to use the database from step 2.
 
 When building a web application that uses the `SqlMembershipProvider` and forms-based authentication, you will need to perform these three steps before using the `Membership` class or the ASP.NET Login Web controls. Since we already performed these steps in previous tutorials, we are ready to start using the Membership framework!
@@ -143,7 +143,7 @@ The `CreateUser` method has four overloads, each accepting a different number of
 
 These four overloads differ on the amount of information that is collected. The first overload, for example, requires just the username and password for the new user account, whereas the second one also requires the user's email address.
 
-These overloads exist because the information needed to create a new user account depends on the Membership provider's configuration settings. In the *<a id="_msoanchor_8"></a>[Creating the Membership Schema in SQL Server](creating-the-membership-schema-in-sql-server-cs.md)* tutorial we examined specifying Membership provider configuration settings in `Web.config`. Table 2 included a complete list of the configuration settings.
+These overloads exist because the information needed to create a new user account depends on the Membership provider's configuration settings.
 
 One such Membership provider configuration setting that impacts what `CreateUser` overloads may be used is the `requiresQuestionAndAnswer` setting. If `requiresQuestionAndAnswer` is set to `true` (the default), then when creating a new user account we must specify a security question and answer. This information is later used if the user needs to reset or change their password. Specifically, at that time they are shown the security question and they must enter the correct answer in order to reset or change their password. Consequently, if the `requiresQuestionAndAnswer` is set to `true` then calling either of the first two `CreateUser` overloads results in an exception because the security question and answer are missing. Since our application is currently configured to require a security question and answer, we will need to use one of the latter two overloads when creating user's programmatically.
 
@@ -201,7 +201,7 @@ After creating a few user accounts, verify that the accounts have been created b
 While the Membership user store now includes Bruce and Tito's account information, we have yet to implement functionality that allows for Bruce or Tito to log on to the site. Currently, `Login.aspx` validates the user's credentials against a hard-coded set of username/password pairs – it does *not* validate the supplied credentials against the Membership framework. For now seeing the new user accounts in the `aspnet_Users` and `aspnet_Membership` tables will have to suffice. In the next tutorial, *<a id="_msoanchor_9"></a>[Validating User Credentials Against the Membership User Store](validating-user-credentials-against-the-membership-user-store-cs.md)*, we will update the login page to validate against the Membership store.
 
 > [!NOTE]
-> If you do not see any users in your `SecurityTutorials.mdf` database, it may be because your web application is using the default Membership provider, `AspNetSqlMembershipProvider`, which uses the `ASPNETDB.mdf` database as its user store. To determine if this is the problem, click the Refresh button in the Solution Explorer. If a database named `ASPNETDB.mdf` has been added to the `App_Data` folder, this is the problem. Return to Step 4 of the *<a id="_msoanchor_10"></a>[Creating the Membership Schema in SQL Server](creating-the-membership-schema-in-sql-server-cs.md)* tutorial for instructions on how to properly configure the Membership provider.
+> If you do not see any users in your `SecurityTutorials.mdf` database, it may be because your web application is using the default Membership provider, `AspNetSqlMembershipProvider`, which uses the `ASPNETDB.mdf` database as its user store. To determine if this is the problem, click the Refresh button in the Solution Explorer. If a database named `ASPNETDB.mdf` has been added to the `App_Data` folder, this is the problem.
 
 In most create user account scenarios, the visitor is presented with some interface to enter their username, password, email, and other essential information, at which point a new account is created. In this step we looked at building such an interface by hand and then saw how to use the `Membership.CreateUser` method to programmatically add the new user account based on the user's inputs. Our code, however, just created the new user account. It did not perform any follow up actions, like logging in the user to the site under the just-created user account, or sending a confirmation email to the user. These additional steps would require additional code in the Button's `Click` event handler.
 
@@ -211,7 +211,7 @@ If new user accounts are only created through a typical Create Account web page,
 
 ## Step 6: Creating a New User with the CreateUserWizard Control
 
-ASP.NET ships with a number of Login Web controls. These controls aid in many common user account- and login-related scenarios. The [CreateUserWizard control](https://quickstarts.asp.net/QuickStartv20/aspnet/doc/ctrlref/login/createuserwizard.aspx) is one such control that is designed to present a user interface for adding a new user account to the Membership framework.
+ASP.NET ships with a number of Login Web controls. These controls aid in many common user account- and login-related scenarios. The CreateUserWizard control is one such control that is designed to present a user interface for adding a new user account to the Membership framework.
 
 Like many of the other Login-related Web controls, the CreateUserWizard can be used without writing a single line of code. It intuitively provides a user interface based on the Membership provider's configuration settings and internally calls the `Membership` class's `CreateUser` method after the user enters the necessary information and clicks the "Create User" button. The CreateUserWizard control is extremely customizable. There are a host of events that fire during various stages of the account creation process. We can create event handlers, as needed, to inject custom logic into the account creation workflow. Furthermore, the CreateUserWizard's appearance is very flexible. There are a number of properties that define the appearance of the default interface; if necessary, the control can be converted into a template or additional user registration "steps" may be added.
 
@@ -324,7 +324,6 @@ Happy Programming!
 For more information on the topics discussed in this tutorial, refer to the following resources:
 
 - [`CreateUser` Technical Documentation](https://msdn.microsoft.com/library/system.web.security.membershipprovider.createuser.aspx)
-- [CreateUserWizard Control Overview](https://quickstarts.asp.net/QuickStartv20/aspnet/doc/ctrlref/login/createuserwizard.aspx)
 - [Creating a File System-Based Site Map Provider](/previous-versions/aspnet/w6ws38fw(v=vs.100))
 - [Creating a Step-by-Step User Interface with the ASP.NET 2.0 Wizard Control](/archive/msdn-magazine/2004/november/cutting-edge-the-asp-net-2-0-wizard-control)
 - [Examining ASP.NET 2.0's Site Navigation](/aspnet/web-forms/overview/data-access/introduction/master-pages-and-site-navigation-cs)
@@ -340,6 +339,4 @@ Scott Mitchell, author of multiple ASP/ASP.NET books and founder of 4GuysFromRol
 This tutorial series was reviewed by many helpful reviewers. Lead reviewer for this tutorial was Teresa Murphy. Interested in reviewing my upcoming MSDN articles? If so, drop me a line at [mitchell@4GuysFromRolla.com](mailto:mitchell@4GuysFromRolla.com).
 
 > [!div class="step-by-step"]
-> [Previous](creating-the-membership-schema-in-sql-server-cs.md)
 > [Next](validating-user-credentials-against-the-membership-user-store-cs.md)
-

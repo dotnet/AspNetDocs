@@ -64,7 +64,7 @@ When constructing data entry forms, it is important that users enter any require
 - [RegularExpressionValidator](https://msdn.microsoft.com/library/eahwtc9e.aspx) validates a value against a [regular expression](http://en.wikipedia.org/wiki/Regular_expression)
 - [CustomValidator](https://msdn.microsoft.com/library/9eee01cx(VS.80).aspx) validates a value against a custom, user-defined method
 
-For more information on these five controls refer back to the [Adding Validation Controls to the Editing and Inserting Interfaces](../editing-inserting-and-deleting-data/adding-validation-controls-to-the-editing-and-inserting-interfaces-cs.md) tutorial or check out the [Validation Controls section](https://quickstarts.asp.net/QuickStartv20/aspnet/doc/ctrlref/validation/default.aspx) of the [ASP.NET Quickstart Tutorials](https://quickstarts.asp.net).
+For more information on these five controls refer back to the [Adding Validation Controls to the Editing and Inserting Interfaces](../editing-inserting-and-deleting-data/adding-validation-controls-to-the-editing-and-inserting-interfaces-cs.md) tutorial.
 
 For our tutorial we'll need to use a RequiredFieldValidator to ensure that a value for the product name has been supplied and a CompareValidator to ensure that the entered price has a value greater than or equal to 0 and is presented in a valid currency format.
 

@@ -46,7 +46,6 @@ msc.type: book
         - [Adding Business Logic Layer](presenting-and-managing-data/model-binding/adding-business-logic-layer.md)
 - [Security, Authentication, and Authorization](security/index.md)
 
-    - [Create a secure ASP.NET Web Forms app with user registration, email confirmation and password reset (C#)](security/create-a-secure-aspnet-web-forms-app-with-user-registration-email-confirmation-and-password-reset.md)
     - [Create an ASP.NET Web Forms app with SMS Two-Factor Authentication (C#)](security/create-an-aspnet-web-forms-app-with-sms-two-factor-authentication.md)
 - [Performance](performance-and-caching/index.md)
 
@@ -573,12 +572,10 @@ msc.type: book
         - [Overview of Forms Authentication (VB)](older-versions-security/introduction/an-overview-of-forms-authentication-vb.md)
     - [ASP.NET 3.5 - Membership](older-versions-security/membership/index.md)
 
-        - [Creating the Membership Schema in SQL Server (C#)](older-versions-security/membership/creating-the-membership-schema-in-sql-server-cs.md)
         - [Creating User Accounts (C#)](older-versions-security/membership/creating-user-accounts-cs.md)
         - [Validating User Credentials Against the Membership User Store (C#)](older-versions-security/membership/validating-user-credentials-against-the-membership-user-store-cs.md)
         - [User-Based Authorization (C#)](older-versions-security/membership/user-based-authorization-cs.md)
         - [Storing Additional User Information (C#)](older-versions-security/membership/storing-additional-user-information-cs.md)
-        - [Creating the Membership Schema in SQL Server (VB)](older-versions-security/membership/creating-the-membership-schema-in-sql-server-vb.md)
         - [Creating User Accounts (VB)](older-versions-security/membership/creating-user-accounts-vb.md)
         - [Validating User Credentials Against the Membership User Store (VB)](older-versions-security/membership/validating-user-credentials-against-the-membership-user-store-vb.md)
         - [User-Based Authorization (VB)](older-versions-security/membership/user-based-authorization-vb.md)

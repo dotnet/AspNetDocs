@@ -27,7 +27,7 @@ The `ReorderList` control supports binding data from a database to the list. Bes
 
 This sample uses Microsoft SQL Server 2005 Express Edition as the data store. The database is an optional (and free) part of a Visual Studio installation, including express edition. It is also available as a separate download under [https://go.microsoft.com/fwlink/?LinkId=64064](https://go.microsoft.com/fwlink/?LinkId=64064). For this sample, we assume that the instance of the SQL Server 2005 Express Edition is called `SQLEXPRESS` and resides on the same machine as the web server; this is also the default setup. If your setup differs, you have to adapt the connection information for the database.
 
-The easiest way to set up the database is to use the Microsoft SQL Server Management Studio Express ([https://www.microsoft.com/downloads/details.aspx?FamilyID=c243a5ae-4bd1-4e3d-94b8-5a0f62bf7796&amp;DisplayLang=en](https://www.microsoft.com/downloads/details.aspx?FamilyID=c243a5ae-4bd1-4e3d-94b8-5a0f62bf7796&amp;DisplayLang=en) ). Connect to the server, double-click on `Databases` and create a new database (right-click and choose `New Database`) called `Tutorials`.
+The easiest way to set up the database is to use [Microsoft SQL Server Management Studio Express (archived download page)](https://web.archive.org/web/20100907235235/http://www.microsoft.com:80/downloads/details.aspx?FamilyID=C243A5AE-4BD1-4E3D-94B8-5A0F62BF7796&displayLang=en). Connect to the server, double-click on `Databases` and create a new database (right-click and choose `New Database`) called `Tutorials`.
 
 In this database, create a new table called `AJAX` with the following four columns:
 

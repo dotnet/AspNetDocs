@@ -63,7 +63,7 @@ Take a moment to test this stored procedure with different values for the `@sort
 **Figure 2**: The Stored Procedure s Results are Shown in the Output Window ([Click to view full-size image](sorting-custom-paged-data-cs/_static/image4.png))
 
 > [!NOTE]
-> When ranking the results by the specified `ORDER BY` column in the `OVER` clause, SQL Server must sort the results. This is a quick operation if there is a clustered index over the column(s) the results are being ordered by or if there is a covering index, but can be more costly otherwise. To improve performance for sufficiently large queries, consider adding a non-clustered index for the column by which the results are ordered by. Refer to [Ranking Functions and Performance in SQL Server 2005](http://www.sql-server-performance.com/ak_ranking_functions.asp) for more details.
+> When ranking the results by the specified `ORDER BY` column in the `OVER` clause, SQL Server must sort the results. This is a quick operation if there is a clustered index over the column(s) the results are being ordered by or if there is a covering index, but can be more costly otherwise. To improve performance for sufficiently large queries, consider adding a non-clustered index for the column by which the results are ordered by.
 
 ## Step 2: Augmenting the Data Access and Business Logic Layers
 

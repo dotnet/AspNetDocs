@@ -57,7 +57,7 @@ Next, add a column named `Subject` of type `nvarchar(50)` and a column named `Bo
 All that remains is to add a column that associates a user account with each guestbook comment. One option would be to add a column named `UserName` of type `nvarchar(256)`. This is a suitable choice when using a Membership provider other than the `SqlMembershipProvider`. But when using the `SqlMembershipProvider`, as we are in this tutorial series, the `UserName` column in the `aspnet_Users` table is not guaranteed to be unique. The `aspnet_Users` table's primary key is `UserId` and is of type `uniqueidentifier`. Therefore, the `GuestbookComments` table needs a column named `UserId` of type `uniqueidentifier` (disallowing `NULL` values). Go ahead and add this column.
 
 > [!NOTE]
-> As we discussed in the [*Creating the Membership Schema in SQL Server*](creating-the-membership-schema-in-sql-server-cs.md) tutorial, the Membership framework is designed to enable multiple web applications with different user accounts to share the same user store. It does this by partitioning user accounts into different applications. And while each username is guaranteed to be unique within an application, the same username may be used in different applications using the same user store. There is a composite `UNIQUE` constraint in the `aspnet_Users` table on the `UserName` and `ApplicationId` fields, but not one on just the `UserName` field. Consequently, it is possible for the aspnet\_Users table to have two (or more) records with the same `UserName` value. There is, however, a `UNIQUE` constraint on the `aspnet_Users` table's `UserId` field (since it is the primary key). A `UNIQUE` constraint is important because without it we cannot establish a foreign key constraint between the `GuestbookComments` and `aspnet_Users` tables.
+> The Membership framework is designed to enable multiple web applications with different user accounts to share the same user store. It does this by partitioning user accounts into different applications. And while each username is guaranteed to be unique within an application, the same username may be used in different applications using the same user store. There is a composite `UNIQUE` constraint in the `aspnet_Users` table on the `UserName` and `ApplicationId` fields, but not one on just the `UserName` field. Consequently, it is possible for the aspnet\_Users table to have two (or more) records with the same `UserName` value. There is, however, a `UNIQUE` constraint on the `aspnet_Users` table's `UserId` field (since it is the primary key). A `UNIQUE` constraint is important because without it we cannot establish a foreign key constraint between the `GuestbookComments` and `aspnet_Users` tables.
 
 After adding the `UserId` column, save the table by clicking on the Save icon in the Toolbar. Name the new table `GuestbookComments`.
 
@@ -93,8 +93,9 @@ We now need to associate three columns with each user account to store the user'
 
 - <strong>Add new columns to the</strong><strong>`aspnet_Users`</strong><strong>or</strong><strong>`aspnet_Membership`</strong><strong>tables.</strong> I would not recommend this approach because it modifies the schema used by the `SqlMembershipProvider`. This decision may come back to haunt you down the road. For example, what if a future version of ASP.NET uses a different `SqlMembershipProvider` schema. Microsoft may include a tool to migrate the ASP.NET 2.0 `SqlMembershipProvider` data to the new schema, but if you have modified the ASP.NET 2.0 `SqlMembershipProvider` schema, such a conversion may not be possible.
 
-- **Use ASP.NET's Profile framework, defining a profile property for the home town, homepage, and signature.** ASP.NET includes a Profile framework that is designed to store additional user-specific data. Like the Membership framework, the Profile framework is built atop the provider model. The .NET Framework ships with a `SqlProfileProvider` sthat stores profile data in a SQL Server database. In fact, our database already has the table used by the `SqlProfileProvider` (`aspnet_Profile`), as it was added when we added the application services back in the <a id="_msoanchor_2"></a>[*Creating the Membership Schema in SQL Server*](creating-the-membership-schema-in-sql-server-cs.md) tutorial.   
-  The main benefit of the Profile framework is that it allows for developers to define the profile properties in `Web.config` – no code needs to be written to serialize the profile data to and from the underlying data store. In short, it is incredibly easy to define a set of profile properties and to work with them in code. However, the Profile system leaves a lot to be desired when it comes to versioning, so if you have an application where you expect new user-specific properties to be added at a later time, or existing ones to be removed or modified, then the Profile framework may not be the best option. Moreover, the `SqlProfileProvider` stores the profile properties in a highly denormalized fashion, making it next to impossible to run queries directly against the profile data (such as, how many users have a home town of New York).   
+- **Use ASP.NET's Profile framework, defining a profile property for the home town, homepage, and signature.** ASP.NET includes a Profile framework that is designed to store additional user-specific data. Like the Membership framework, the Profile framework is built atop the provider model. .NET Framework ships with a `SqlProfileProvider` that stores profile data in a SQL Server database. In fact, our database already has the table used by the `SqlProfileProvider` (`aspnet_Profile`).
+
+  The main benefit of the Profile framework is that it allows for developers to define the profile properties in `Web.config` – no code needs to be written to serialize the profile data to and from the underlying data store. In short, it is incredibly easy to define a set of profile properties and to work with them in code. However, the Profile system leaves a lot to be desired when it comes to versioning, so if you have an application where you expect new user-specific properties to be added at a later time, or existing ones to be removed or modified, then the Profile framework may not be the best option. Moreover, the `SqlProfileProvider` stores the profile properties in a highly denormalized fashion, making it next to impossible to run queries directly against the profile data (such as, how many users have a home town of New York).
   For more information on the Profile framework, consult the "Further Readings" section at the end of this tutorial.
 
 - <strong>Add these three columns to a new table in the database and establish a one-to-one relationship between this table and</strong><strong>`aspnet_Users`</strong><strong>.</strong> This approach involves a bit more work than with the Profile framework, but offers maximum flexibility in how the additional user properties are modeled in the database. This is the option we will use in this tutorial.
@@ -281,7 +282,7 @@ Figure 17 shows the contents of the `GuestbookComments` table after two comments
 In addition to leaving comments, a user visiting the `Guestbook.aspx` page should also be able to view the guestbook's existing comments. To accomplish this, add a ListView control named `CommentList` to the bottom of the page.
 
 > [!NOTE]
-> The ListView control is new to ASP.NET version 3.5. It is designed to display a list of items in a very customizable and flexible layout, yet still offer built-in editing, inserting, deleting, paging, and sorting functionality like the GridView. If you are using ASP.NET 2.0, you will need to use the DataList or Repeater control instead. For more information on using the ListView, see [Scott Guthrie](https://weblogs.asp.net/scottgu/)'s blog entry, [The asp:ListView Control](https://weblogs.asp.net/scottgu/archive/2007/08/10/the-asp-listview-control-part-1-building-a-product-listing-page-with-clean-css-ui.aspx), and my article, [Displaying Data with the ListView Control](/previous-versions/aspnet/bb515102(v=vs.100)).
+> The ListView control is new to ASP.NET version 3.5. It is designed to display a list of items in a very customizable and flexible layout, yet still offer built-in editing, inserting, deleting, paging, and sorting functionality like the GridView. If you are using ASP.NET 2.0, you will need to use the DataList or Repeater control instead. For more information on using the ListView, see [Scott Guthrie](https://weblogs.asp.net/scottgu/)'s blog entry, [The asp:ListView Control](https://weblogs.asp.net/scottgu/the-asp-listview-control-part-1-building-a-product-listing-page-with-clean-css-ui/), and my article, [Displaying Data with the ListView Control](/previous-versions/aspnet/bb515102(v=vs.100)).
 
 Open the ListView's Smart Tag and, from the Choose Data Source drop-down list, bind the control to a new data source. As we saw in Step 2, this will launch the Data Source Configuration Wizard. Select the Database icon, name the resulting SqlDataSource `CommentsDataSource`, and click OK. Next, select the `SecurityTutorialsConnectionString` connection string from the drop-down list and click Next.
 
@@ -450,19 +451,17 @@ Happy Programming!
 For more information on the topics discussed in this tutorial, refer to the following resources:
 
 - [Accessing and Updating Data in ASP.NET 2.0](/aspnet/web-forms/overview/data-access/accessing-the-database-directly-from-an-aspnet-page/inserting-updating-and-deleting-data-with-the-sqldatasource-cs)
-- [ASP.NET 2.0 Wizard Control](https://weblogs.asp.net/scottgu/archive/2006/02/21/438732.aspx)
+- [ASP.NET 2.0 Wizard Control](https://weblogs.asp.net/scottgu/438732/)
 - [Creating a Step-by-Step User Interface with the ASP.NET 2.0 Wizard Control](/archive/msdn-magazine/2004/november/cutting-edge-the-asp-net-2-0-wizard-control)
 - [Creating Custom DataSource Control Parameters](/previous-versions/aspnet/xt50s8kz(v=vs.100))
 - [Customizing the CreateUserWizard Control](/previous-versions/aspnet/ms178342(v=vs.100))
-- [DetailsView Control QuickStarts](https://quickstarts.asp.net/QuickStartv20/aspnet/doc/ctrlref/data/detailsview.aspx)
 - [Displaying Data with the ListView Control](/previous-versions/aspnet/bb398790(v=vs.100))
 - [Dissecting the Validation Controls in ASP.NET 2.0](/previous-versions/aspnet/debza5t0(v=vs.100))
 - [Editing Insert and Deleting Data](../../data-access/editing-inserting-and-deleting-data/an-overview-of-inserting-updating-and-deleting-data-cs.md)
 - [Form Validation in ASP.NET](/aspnet/web-pages/overview/ui-layouts-and-themes/validating-user-input-in-aspnet-web-pages-sites)
-- [Gathering Custom User Registration Information](https://weblogs.asp.net/scottgu/archive/2006/07/05/Tip_2F00_Trick_3A00_-Gathering-Custom-User-Registration-Information.aspx)
+- [Gathering Custom User Registration Information](https://weblogs.asp.net/scottgu/Tip_2F00_Trick_3A00_-Gathering-Custom-User-Registration-Information/)
 - [Profiles in ASP.NET 2.0](http://www.odetocode.com/Articles/440.aspx)
-- [The asp:ListView Control](https://weblogs.asp.net/scottgu/archive/2007/08/10/the-asp-listview-control-part-1-building-a-product-listing-page-with-clean-css-ui.aspx)
-- [User Profiles QuickStart](https://quickstarts.asp.net/QuickStartv20/aspnet/doc/profile/default.aspx)
+- [The asp:ListView Control](https://weblogs.asp.net/scottgu/the-asp-listview-control-part-1-building-a-product-listing-page-with-clean-css-ui/)
 
 ### About the Author
 
@@ -474,5 +473,3 @@ This tutorial series was reviewed by many helpful reviewers. Interested in revie
 
 > [!div class="step-by-step"]
 > [Previous](user-based-authorization-cs.md)
-> [Next](creating-the-membership-schema-in-sql-server-vb.md)
-

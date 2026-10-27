@@ -125,6 +125,9 @@ Specifying a different output cache provider for an HTTP request requires a litt
 
 With the addition of output-cache provider extensibility to ASP.NET 4, you can now pursue more aggressive and more intelligent output-caching strategies for your Web sites. For example, it is now possible to cache the "Top 10" pages of a site in memory, while caching pages that get lower traffic on disk. Alternatively, you can cache every vary-by combination for a rendered page, but use a distributed cache so that the memory consumption is offloaded from front-end Web servers.
 
+> [!IMPORTANT]
+> Output caching, including custom output-cache providers and any `VaryBy` combinations, is a performance optimization that stores alternate *representations* of a resource. It is not a way to isolate audiences or classes of content. Don't rely on cache variation or provider selection to separate personalized, tenant-specific, authorization-dependent, or otherwise sensitive responses; enforce any required isolation in your application, independently of cache configuration.
+
 <a id="0.2__Toc224729020"></a><a id="0.2__Toc253429241"></a><a id="0.2__Toc243304615"></a>
 
 ### Auto-Start Web Applications
@@ -139,7 +142,7 @@ A new scalability feature named *auto-start* that directly addresses this scenar
 > 
 > The IIS team has released the first beta test version of the Application Warm-Up Module for IIS 7.5. This makes warming up your applications even easier than previously described. Instead of writing custom code, you specify the URLs of resources to execute before the Web application accepts requests from the network. This warm-up occurs during startup of the IIS service (if you configured the IIS application pool as *AlwaysRunning*) and when an IIS worker process recycles. During recycle, the old IIS worker process continues to execute requests until the newly spawned worker process is fully warmed up, so that applications experience no interruptions or other issues due to unprimed caches. Note that this module works with any version of ASP.NET, starting with version 2.0.
 > 
-> For more information, see [Application Warm-Up](https://www.iis.net/extensions/applicationwarmup%20on%20the%20IIS.net) on the IIS.net Web site. For a walkthrough that illustrates how to use the warm-up feature, see [Getting Started with the IIS 7.5 Application Warm-Up Module](https://www.iis.net/learn/manage) on the IIS.net Web site.
+> For more information, see [Application Warm-Up](https://www.iis.net/downloads/microsoft/application-initialization) on the IIS.net Web site. For a walkthrough that illustrates how to use the warm-up feature, see [Getting Started with the IIS 7.5 Application Warm-Up Module](https://www.iis.net/learn/manage) on the IIS.net Web site.
 
 To use the auto-start feature, an IIS administrator sets an application pool in IIS 7.5 to be automatically started by using the following configuration in the `applicationHost.config` file:
 
@@ -384,7 +387,7 @@ You can also set the *Keywords* and *Description* properties in the *@ Page* dir
 
 This will override the *meta* tag contents (if any) already declared in the page.
 
-The contents of the description *meta* tag are used for improving search listing previews in Google. (For details, see [Improve snippets with a meta description makeover](https://googlewebmastercentral.blogspot.com/2007/09/improve-snippets-with-meta-description.html) on the Google Webmaster Central blog.) Google and Windows Live Search do not use the contents of the keywords for anything, but other search engines might.
+The contents of the description *meta* tag are used for improving search listing previews in Google. (For details, see [Improve snippets with a meta description makeover](https://developers.google.com/search/blog/2007/09/improve-snippets-with-meta-description) on the Google Webmaster Central blog.) Google and Windows Live Search do not use the contents of the keywords for anything, but other search engines might.
 
 These new properties are a simple feature, but they save you from the requirement to add these manually or from writing your own code to create the *meta* tags.
 

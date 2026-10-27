@@ -35,7 +35,7 @@ If you don't already have an Azure account, you can create a free trial account 
 ## Create a staging environment
 
 > [!NOTE]
-> Since this tutorial was written, Azure App Service added a new feature to automate many of the processes for creating staging and production environments. See [Set up staging environments for web apps in Azure App Service](https://azure.microsoft.com/documentation/articles/web-sites-staged-publishing/).
+> Since this tutorial was written, Azure App Service added a new feature to automate many of the processes for creating staging and production environments. See [Set up staging environments for web apps in Azure App Service](/azure/app-service/deploy-staging-slots).
 
 As explained in the [Deploy to the Test Environment tutorial](deploying-to-iis.md), the most reliable test environment is a web site at the hosting provider that's just like the production web site. At many hosting providers you would have to weigh the benefits of this against significant additional cost, but in Azure you can create an additional free web app as your staging app. You also need a database, and the additional expense for that over the expense of your production database will be either none or minimal. In Azure you pay for the amount of database storage you use rather than for each database, and the amount of additional storage you'll use in staging will be minimal.
 
@@ -285,11 +285,11 @@ In the next tutorial, you'll update application code and deploy the change to th
 
 > [!NOTE]
 > While your application is in use in the production environment you should be implementing a recovery plan. That is, you should be periodically backing up your databases from the production app to a secure storage location, and you should be keeping several generations of such backups. When you update the database, you should make a backup copy from immediately before the change. Then, if you make a mistake and don't discover it until after you have deployed it to production, you will still be able to recover the database to the state it was in before it became corrupted. For more information, see [Azure SQL Database Backup and Restore](https://msdn.microsoft.com/library/windowsazure/jj650016.aspx).
-> 
-> 
+>
+>
 > [!NOTE]
 > In this tutorial the SQL Server edition that you are deploying to is Azure SQL Database. While the deployment process is similar to other editions of SQL Server, a real production application might require special code for Azure SQL Database in some scenarios. For more information, see [Working with Azure SQL Database](../../../../whitepapers/aspnet-data-access-content-map.md#ssdb) and [Choosing between SQL Server and Azure SQL Database](../../../../whitepapers/aspnet-data-access-content-map.md#ssdbchoosing).
-> 
+>
 > [!div class="step-by-step"]
 > [Previous](setting-folder-permissions.md)
 > [Next](deploying-a-code-update.md)

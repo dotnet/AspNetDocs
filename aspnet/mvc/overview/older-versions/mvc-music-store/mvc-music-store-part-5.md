@@ -252,7 +252,7 @@ Now when we browse the /StoreManager/ URL, the albums and titles are kept below 
 
 ![Screenshot of the album list with two long artist names and two long album names after the Truncate helper process highlighted in red rectangles.](mvc-music-store-part-5/_static/image18.png)
 
-Note: This shows the simple case of creating and using a helper in one view. To learn more about creating helpers that you can use throughout your site, see my blog post: [http://bit.ly/mvc3-helper-options](http://bit.ly/mvc3-helper-options)
+Note: This shows the simple case of creating and using a helper in one view. To learn more about creating helpers that you can use throughout your site, see my blog post: [Comparing MVC 3 Helpers: Using Extension Methods and Declarative Razor @helper Syntax](https://weblogs.asp.net/jongalloway/comparing-mvc-3-helpers-using-extension-methods-and-declarative-razor-helper/)
 
 > [!div class="step-by-step"]
 > [Previous](mvc-music-store-part-4.md)

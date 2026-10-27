@@ -276,7 +276,7 @@ One way to hide the View button for anonymous users is to convert the GridView f
 
 [!code-aspx[Main](user-based-authorization-cs/samples/sample18.aspx)]
 
- To: 
+ To:
 
 [!code-aspx[Main](user-based-authorization-cs/samples/sample19.aspx)]
 
@@ -340,7 +340,7 @@ If, somehow, a user other than Tito attempts to execute the `RowDeleting` event 
 
 In addition to ASP.NET pages, many applications also have an architecture that includes various layers, such as Business Logic and Data Access Layers. These layers are typically implemented as Class Libraries and offer classes and methods for performing business logic- and data-related functionality. The `PrincipalPermission` attribute is useful for applying authorization rules to these layers.
 
-For more information on using the `PrincipalPermission` attribute to define authorization rules on classes and methods, refer to [Scott Guthrie](https://weblogs.asp.net/scottgu/)'s blog entry [Adding Authorization Rules to Business and Data Layers Using `PrincipalPermissionAttributes`](https://weblogs.asp.net/scottgu/archive/2006/10/04/Tip_2F00_Trick_3A00_-Adding-Authorization-Rules-to-Business-and-Data-Layers-using-PrincipalPermissionAttributes.aspx).
+For more information on using the `PrincipalPermission` attribute to define authorization rules on classes and methods, refer to [Scott Guthrie](https://weblogs.asp.net/scottgu/)'s blog entry [Adding Authorization Rules to Business and Data Layers Using `PrincipalPermissionAttributes`](https://weblogs.asp.net/scottgu/Tip_2F00_Trick_3A00_-Adding-Authorization-Rules-to-Business-and-Data-Layers-using-PrincipalPermissionAttributes/).
 
 ## Summary
 
@@ -354,12 +354,11 @@ Happy Programming!
 
 For more information on the topics discussed in this tutorial, refer to the following resources:
 
-- [Adding Authorization Rules to Business and Data Layers Using `PrincipalPermissionAttributes`](https://weblogs.asp.net/scottgu/archive/2006/10/04/Tip_2F00_Trick_3A00_-Adding-Authorization-Rules-to-Business-and-Data-Layers-using-PrincipalPermissionAttributes.aspx)
+- [Adding Authorization Rules to Business and Data Layers Using `PrincipalPermissionAttributes`](https://weblogs.asp.net/scottgu/Tip_2F00_Trick_3A00_-Adding-Authorization-Rules-to-Business-and-Data-Layers-using-PrincipalPermissionAttributes/)
 - [ASP.NET Authorization](https://msdn.microsoft.com/library/wce3kxhd.aspx)
 - [Changes Between IIS6 and IIS7 Security](https://www.iis.net/articles/view.aspx/IIS7/Managing-IIS7/Configuring-Security/Changes-between-IIS6-and-IIS7-Security)
 - [Configuring Specific Files and Subdirectories](https://msdn.microsoft.com/library/6hbkh9s7.aspx)
 - [Limiting Data Modification Functionality Based on the User](../../data-access/editing-inserting-and-deleting-data/limiting-data-modification-functionality-based-on-the-user-cs.md)
-- [LoginView Control QuickStarts](https://quickstarts.asp.net/QuickStartv20/aspnet/doc/ctrlref/login/loginview.aspx)
 - [Understanding IIS7 URL Authorization](https://www.iis.net/articles/view.aspx/IIS7/Managing-IIS7/Configuring-Security/URL-Authorization/Understanding-IIS7-URL-Authorization)
 - [`UrlAuthorizationModule` Technical Documentation](https://msdn.microsoft.com/library/system.web.security.urlauthorizationmodule.aspx)
 - [Working with Data in ASP.NET 2.0](../../data-access/index.md)

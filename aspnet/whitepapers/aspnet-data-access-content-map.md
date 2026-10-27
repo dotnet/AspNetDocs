@@ -159,9 +159,9 @@ Both of these books are up-to-date with current recommended techniques. They pro
 ### Using Web Forms Model Binding
 
 - [Model Binding and Web Forms](https://go.microsoft.com/fwlink/?LinkId=286117). Tutorial series using EF Code First.
-- [Web Forms Model Binding Part 1: Selecting Data](https://weblogs.asp.net/scottgu/archive/2011/09/06/web-forms-model-binding-part-1-selecting-data-asp-net-vnext-series.aspx) (Scott Guthrie's blog). In these older blog posts, the property that is currently named ItemType was named ModelType, but otherwise the information they contain is valid.
-- [Web Forms Model Binding Part 2: Filtering Data](https://weblogs.asp.net/scottgu/archive/2011/09/12/web-forms-model-binding-part-2-filtering-data-asp-net-vnext-series.aspx) (Scott Guthrie's blog).
-- [Web Forms Model Binding Part 3: Updating and Validation](https://weblogs.asp.net/scottgu/archive/2011/10/30/web-forms-model-binding-part-3-updating-and-validation-asp-net-4-5-series.aspx) (Scott Guthrie's blog).
+- [Web Forms Model Binding Part 1: Selecting Data](https://weblogs.asp.net/scottgu/web-forms-model-binding-part-1-selecting-data-asp-net-vnext-series/) (Scott Guthrie's blog). In these older blog posts, the property that is currently named ItemType was named ModelType, but otherwise the information they contain is valid.
+- [Web Forms Model Binding Part 2: Filtering Data](https://weblogs.asp.net/scottgu/web-forms-model-binding-part-2-filtering-data-asp-net-vnext-series/) (Scott Guthrie's blog).
+- [Web Forms Model Binding Part 3: Updating and Validation](https://weblogs.asp.net/scottgu/web-forms-model-binding-part-3-updating-and-validation-asp-net-4-5-series/) (Scott Guthrie's blog).
 - [ASP.NET 4.5 Web Forms Model Binding](../web-forms/videos/aspnet-web-forms-vnext/aspnet-45-web-forms-model-binding.md). (video).
 - [Model Binding Part 1 - Selecting Data](../web-forms/videos/aspnet-web-forms-vnext/aspnet-vnext-videos-model-binding-part-1-selecting-data.md) (video).
 - [Model Binding Part 2 - Filtering](../web-forms/videos/aspnet-web-forms-vnext/aspnet-vnext-videos-model-binding-part-2-filtering.md) (video).
@@ -180,7 +180,7 @@ Both of these books are up-to-date with current recommended techniques. They pro
 
 - [Model Binding and Web Forms](https://go.microsoft.com/fwlink/?LinkId=286117). Tutorial series that uses EF Code First.
 - [Getting Started with ASP.NET 4.5 Web Forms - Display Data Items and Details](../web-forms/overview/getting-started/getting-started-with-aspnet-45-web-forms/display_data_items_and_details.md).
-- [Strongly Typed Data Controls](https://weblogs.asp.net/scottgu/archive/2011/09/02/strongly-typed-data-controls-asp-net-vnext-series.aspx) (Scott Guthrie's blog).
+- [Strongly Typed Data Controls](https://weblogs.asp.net/scottgu/strongly-typed-data-controls-asp-net-vnext-series/) (Scott Guthrie's blog).
 - [Strongly Typed Data Controls](../web-forms/videos/aspnet-web-forms-vnext/aspnet-vnext-videos-strongly-typed-data-controls.md) (video).
 - [ASP.NET 4.5 Web Forms Strong Typed Data Controls](../web-forms/videos/aspnet-web-forms-vnext/aspnet-vnext-videos-strongly-typed-data-controls.md) (video).
 - [Data-Bound Web Server Controls](https://msdn.microsoft.com/library/ms228214.aspx) (MSDN).

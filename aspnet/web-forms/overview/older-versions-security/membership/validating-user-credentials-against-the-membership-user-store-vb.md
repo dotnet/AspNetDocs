@@ -270,7 +270,6 @@ For more information on the topics discussed in this tutorial, refer to the foll
 - [Examining ASP.NET 2.0's Membership, Roles, and Profile](/aspnet/web-forms/overview/older-versions-security/roles/creating-and-managing-roles-vb)
 - [How To: Create an ASP.NET Login Page](https://msdn.microsoft.com/library/ms178331.aspx)
 - [Login Control Technical Documentation](https://msdn.microsoft.com/library/system.web.ui.webcontrols.login.aspx)
-- [Using the Login Controls](https://quickstarts.asp.net/QuickStartv20/aspnet/doc/security/login.aspx)
 
 ### About the Author
 
@@ -283,4 +282,3 @@ This tutorial series was reviewed by many helpful reviewers. Lead reviewers for 
 > [!div class="step-by-step"]
 > [Previous](creating-user-accounts-vb.md)
 > [Next](user-based-authorization-vb.md)
-
