@@ -64,7 +64,7 @@ The CDN hosts the following third party script libraries which have been uploade
 - jQuery Mobile (<www.jquerymobile.com>)
 - jQuery Validation (<https://jqueryvalidation.org/>)
 - jQuery Cycle (<www.malsup.com/jquery/cycle/>)
-- jQuery DataTables (<http://datatables.net/)
+- jQuery DataTables (<http://datatables.net/>)
 
 The Microsoft Ajax CDN also includes the following libraries which have been uploaded by Microsoft:
 
