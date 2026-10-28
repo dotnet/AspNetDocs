@@ -11,11 +11,7 @@ msc.type: content
 ---
 # ASP.NET Data Access - Recommended Resources
 
-> This topic provides links to documentation resources about how to access data in ASP.NET web applications, primarily by using the Entity Framework and SQL Server.
-> 
-> If you know a great blog post, [stackoverflow](http://stackoverflow.com) thread, or any other link that would be useful, [send us an email](mailto:aspnetue@microsoft.com?subject=Data Access Content Map) with the link.
-> 
-> Last updated 4/3/2014
+> This article provides links to documentation resources about how to access data in ASP.NET web applications, primarily by using the Entity Framework and SQL Server.
 
 The topic contains the following sections:
 
